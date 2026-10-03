@@ -2,7 +2,7 @@ name: Update RSS stats
 
 on:
   schedule:
-    - cron: "17 */12 * * *"   # هر ۱۲ ساعت
+    - cron: "*/30 * * * *"   # هر ۳۰ دقیقه
   workflow_dispatch:           # اجرای دستی از تب Actions
 
 permissions:

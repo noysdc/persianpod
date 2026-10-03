@@ -13,7 +13,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 PODCASTS = ROOT / "_podcasts"
 OUT = ROOT / "_data" / "rss_stats.json"
-INACTIVE_AFTER_DAYS = 90      # بدون قسمت جدید بیش از این مدت = غیرفعال
+INACTIVE_AFTER_DAYS = 1095    # بدون قسمت جدید بیش از ۳ سال = غیرفعال
 RECENT_FOR_AVG = 30           # میانگین طول از چند قسمت آخر
 UA = "PersianPodBot/1.0 (+https://persianpod.ir)"
 
