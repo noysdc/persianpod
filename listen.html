@@ -1,0 +1,43 @@
+---
+layout: pp-base
+title: گوش بده
+permalink: /listen/
+description: پخش پادکست‌های فارسی در همین صفحه.
+---
+{% assign playable = site.podcasts | where_exp: "p", "p.castbox_id and p.castbox_id != ''" %}
+<section class="intro">
+  <h1>گوش بده</h1>
+  <p>یک پادکست انتخاب کنید یا بگذارید پرشین‌پاد یکی را تصادفی پخش کند.</p>
+</section>
+{% if playable.size == 0 %}
+<p class="empty">هنوز پادکستی با پلیر ثبت نشده است. وقتی شناسه‌ی کست‌باکس پادکستی را در فایلش بنویسید، اینجا می‌آید.</p>
+{% else %}
+<div class="listen">
+  <div class="player-box">
+    <h2 id="now">پادکستی انتخاب نشده</h2>
+    <iframe id="frame" title="پخش پادکست" width="100%" height="260" frameborder="0" loading="lazy"></iframe>
+    <p><a id="page-link" href="#">صفحه‌ی معرفی</a> | <a id="cb-link" href="#" target="_blank" rel="noopener">باز کردن در کست‌باکس</a></p>
+    <button type="button" id="rand" class="btn">پادکست تصادفی</button>
+  </div>
+  <ul class="picks">
+  {% for p in playable %}
+    <li><button type="button" class="pick" data-id="{{ p.castbox_id }}" data-title="{{ p.title | escape }}" data-url="{{ p.url | relative_url }}">
+      {% if p.logo %}<img src="{{ p.logo | relative_url }}" alt="" width="48" height="48" loading="lazy">{% endif %}<span>{{ p.title }}</span></button></li>
+  {% endfor %}
+  </ul>
+</div>
+<script>
+(function(){
+  var picks=[].slice.call(document.querySelectorAll('.pick')),f=document.getElementById('frame');
+  function play(b){picks.forEach(function(x){x.classList.toggle('on',x===b)});
+    document.getElementById('now').textContent=b.dataset.title;
+    f.src='https://castbox.fm/app/castbox/player/id'+b.dataset.id+'?v=8.22.11&autoplay=0';
+    document.getElementById('page-link').href=b.dataset.url;
+    document.getElementById('cb-link').href='https://castbox.fm/channel/id'+b.dataset.id}
+  function rnd(){play(picks[Math.floor(Math.random()*picks.length)])}
+  picks.forEach(function(b){b.addEventListener('click',function(){play(b)})});
+  document.getElementById('rand').addEventListener('click',rnd);
+  rnd();
+})();
+</script>
+{% endif %}

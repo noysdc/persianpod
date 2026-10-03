@@ -6,11 +6,9 @@ description: مرجع رایگان و بدون تبلیغ پادکست‌های 
 {% assign podcasts = site.podcasts | sort: "title" %}
 <section class="intro">
   <h1>پادکست‌های فارسی</h1>
-  <p>همه‌ی پادکست‌ها یک جایگاه برابر دارند. ترتیب نمایش یا الفبایی است یا تصادفی.</p>
+  <p>همه‌ی پادکست‌ها یک جایگاه برابر دارند. ترتیب نمایش به‌صورت پیش‌فرض تصادفی است.</p>
 </section>
-
 <section class="controls" aria-label="فیلتر و ترتیب">
-  <input type="search" id="q" placeholder="جست‌وجوی نام پادکست" aria-label="جست‌وجو">
   <select id="cat" aria-label="دسته"><option value="">همه‌ی دسته‌ها</option></select>
   <select id="status" aria-label="وضعیت">
     <option value="">همه‌ی وضعیت‌ها</option>
@@ -18,13 +16,12 @@ description: مرجع رایگان و بدون تبلیغ پادکست‌های 
     <option value="inactive">متوقف</option>
   </select>
   <div class="sort" role="group" aria-label="ترتیب">
-    <button type="button" id="sort-alpha" aria-pressed="true">الفبایی</button>
-    <button type="button" id="sort-random" aria-pressed="false">تصادفی</button>
+    <button type="button" id="sort-random" aria-pressed="true">تصادفی</button>
+    <button type="button" id="sort-alpha" aria-pressed="false">الفبایی</button>
   </div>
 </section>
-
-<p id="empty" class="empty" hidden>پادکستی با این فیلتر پیدا نشد. فیلترها را بردارید.</p>
-
+<p id="empty" class="empty" hidden>پادکستی با این فیلتر پیدا نشد. فیلترها یا جست‌وجو را پاک کنید.</p>
+{% if podcasts.size == 0 %}<p class="empty">هنوز پادکستی ثبت نشده است. به‌زودی.</p>{% endif %}
 <ul class="grid" id="grid">
 {% for p in podcasts %}
   <li class="card" data-title="{{ p.title | escape }}" data-category="{{ p.category | escape }}" data-status="{{ p.status | default: 'active' }}">
@@ -36,4 +33,5 @@ description: مرجع رایگان و بدون تبلیغ پادکست‌های 
   </li>
 {% endfor %}
 </ul>
+{% include pp-maps.html %}
 <script src="{{ '/assets/js/directory.js' | relative_url }}" defer></script>

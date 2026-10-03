@@ -9,7 +9,6 @@
   var bAlpha = document.getElementById('sort-alpha');
   var bRandom = document.getElementById('sort-random');
 
-  // دسته‌ها را از خود کارت‌ها می‌سازد
   var cats = {};
   cards.forEach(function (c) { if (c.dataset.category) cats[c.dataset.category] = 1; });
   Object.keys(cats).sort(function (a, b) { return a.localeCompare(b, 'fa'); }).forEach(function (n) {
@@ -24,21 +23,25 @@
                (!status.value || c.dataset.status === status.value);
       c.hidden = !ok; if (ok) shown++;
     });
-    empty.hidden = shown > 0;
+    empty.hidden = shown > 0 || cards.length === 0;
   }
   function render(list) { list.forEach(function (c) { grid.appendChild(c); }); }
+  function press(a, r) { bAlpha.setAttribute('aria-pressed', a); bRandom.setAttribute('aria-pressed', r); }
   function alpha() {
     render(cards.slice().sort(function (a, b) { return a.dataset.title.localeCompare(b.dataset.title, 'fa'); }));
-    bAlpha.setAttribute('aria-pressed', 'true'); bRandom.setAttribute('aria-pressed', 'false');
+    press(true, false);
   }
   function random() {
     var l = cards.slice();
     for (var i = l.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = l[i]; l[i] = l[j]; l[j] = t; }
-    render(l);
-    bRandom.setAttribute('aria-pressed', 'true'); bAlpha.setAttribute('aria-pressed', 'false');
+    render(l); press(false, true);
   }
-  [q, cat, status].forEach(function (el) { el.addEventListener('input', apply); });
+  q.addEventListener('input', apply);
+  [cat, status].forEach(function (el) { el.addEventListener('input', apply); });
   bAlpha.addEventListener('click', alpha);
   bRandom.addEventListener('click', random);
-  alpha(); apply();
+
+  var m = location.search.match(/[?&]q=([^&]*)/);
+  if (m) { try { q.value = decodeURIComponent(m[1].replace(/\+/g, ' ')); } catch (e) {} }
+  random(); apply();
 })();

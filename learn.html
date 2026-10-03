@@ -1,0 +1,38 @@
+---
+layout: pp-base
+title: آموزش
+permalink: /learn/
+description: لینک آموزش‌های رایگان پادکست‌سازی، به‌صورت متن، صدا و تصویر، از منبع‌های دیگر.
+---
+{% assign items = site.data.learn %}
+<section class="intro">
+  <h1>آموزش پادکست‌سازی</h1>
+  <p>لینک آموزش‌های رایگان دیگران، به‌صورت متن، صدا و تصویر. فقط معرفی و لینک می‌دهیم و محتوا مال صاحبانش است.</p>
+</section>
+{% if items and items.size > 0 %}
+<div class="sort learn-filter" role="group" aria-label="نوع محتوا">
+  <button type="button" data-type="" aria-pressed="true">همه</button>
+  <button type="button" data-type="text" aria-pressed="false">متن</button>
+  <button type="button" data-type="audio" aria-pressed="false">صوتی</button>
+  <button type="button" data-type="video" aria-pressed="false">تصویری</button>
+</div>
+<ul class="learn-list">
+{% for it in items %}
+  <li class="learn-card" data-type="{{ it.type }}">
+    <a href="{{ it.url }}" target="_blank" rel="noopener">
+      <span class="badge">{% if it.type == 'audio' %}صوتی{% elsif it.type == 'video' %}تصویری{% else %}متن{% endif %}</span>
+      <h2>{{ it.title }}</h2>
+      <p class="src">{{ it.source }}{% if it.topic %} | {{ it.topic }}{% endif %}</p>
+      {% if it.note %}<p>{{ it.note }}</p>{% endif %}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<script>
+(function(){var bs=[].slice.call(document.querySelectorAll('.learn-filter button')),cs=[].slice.call(document.querySelectorAll('.learn-card'));
+bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(x){x.setAttribute('aria-pressed',x===b)});
+cs.forEach(function(c){c.hidden=!!b.dataset.type&&c.dataset.type!==b.dataset.type})})})})();
+</script>
+{% else %}
+<p class="empty">هنوز لینکی اضافه نشده است. فایل <code>_data/learn.yml</code> را ویرایش کنید.</p>
+{% endif %}

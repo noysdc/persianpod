@@ -1,23 +1,22 @@
-title: "پادکست نویز | یونس شجاعی"
+title: "پرشین پاد | مرجع معرفی پادکست های فارسی"
 
 # عنوان مخصوص صفحه اصلی — کامل‌تر و شامل کلمات کلیدی هدف،
 # چون صفحه اصلی مهم‌ترین صفحه برای رتبه گرفتن روی
-# «پادکست فارسی»، «پادکست جنایی»، «پادکست یونس شجاعی» و... هست.
-home-title: "پادکست نویز | داستان‌های واقعی جنایی و بیزینس‌های ممنوعه به‌روایت یونس شجاعی"
+# «پادکست فارسی»، «مرجع پادکست های فارسی»، «پرشین پاد» و... هست.
+home-title: "پرشین پاد |مرجع رایگان معرفی پادکست های فارسی"
 
 description: >
-  نویز (NOYS)، پادکست فارسی جنایی و ترو کرایم با روایت یونس شجاعی؛
-  داستان‌های واقعی، کسب‌وکارهای مجرمانه، قاچاق و گزارش‌های واقعی از سراسر دنیا.
+  
 
 # اسم برند (برای Organization توی Schema) جدا از عنوان کامل صفحه اصلی
-brand: "NOYS"
+brand: "persianpod"
 
 # زبان سایت — به گوگل و مرورگر می‌گه محتوا فارسیه
 lang: fa
 
 permalink: /:title/
 baseurl: ""
-url: "https://noysdc.ir"
+url: "https://persianpod.ir"
 social-twitter:
 
 # منطقه زمانی سایت رو ایران تنظیم می‌کنیم تا تاریخ پست‌ها با
@@ -94,4 +93,17 @@ collections:
   podcasts:
     output: true
     permalink: /podcasts/:name/
+
+# به انتهای _config.yml اضافه کنید (خط‌های تکراری قدیمی را پاک کنید)
+title: پرشین‌پاد
+description: مرجع رایگان و بدون تبلیغ پادکست‌های فارسی
+url: https://persianpod.ir
+baseurl: ""
+email: contact@persianpod.ir
+telegram: https://t.me/persian_pod
+collections:
+  podcasts:
+    output: true
+    permalink: /podcasts/:name/
+
 
