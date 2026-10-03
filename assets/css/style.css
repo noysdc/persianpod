@@ -1,3 +1,5 @@
+@font-face{font-family:Vazirmatn;font-weight:400;font-style:normal;font-display:swap;src:url(/assets/fonts/Vazirmatn-RD-Regular.woff2) format("woff2")}
+@font-face{font-family:Vazirmatn;font-weight:700 800;font-style:normal;font-display:swap;src:url(/assets/fonts/Vazirmatn-RD-Bold.woff2) format("woff2")}
 :root{--bg:#f5f7f9;--ink:#12263a;--mut:#5b6b7a;--card:#fff;--line:#dde3e9;--acc:#0f766e;--hl:#f2b705;--r:10px}
 @media(prefers-color-scheme:dark){:root{--bg:#0f1a24;--ink:#e8eef3;--mut:#9aabb9;--card:#16242f;--line:#27394a;--acc:#4fd1c5}}
 *{box-sizing:border-box}
