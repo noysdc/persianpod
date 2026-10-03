@@ -1,24 +1,19 @@
 title: پرشین‌پاد
-description: مرجع رایگان و بدون تبلیغ پادکست‌های فارسی
+description: پایگاه داده‌ی رایگان و بدون تبلیغ پادکست‌های فارسی
 lang: fa
 url: https://persianpod.ir
 baseurl: ""
 email: contact@persianpod.ir
 telegram: https://t.me/persian_pod
 timezone: Asia/Tehran
-
 markdown: kramdown
 plugins:
   - jekyll-sitemap
-
 collections:
   podcasts:
     output: true
     permalink: /podcasts/:name/
-
-exclude:
-  - README.md
-  - LICENSE
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
+defaults:
+  - scope: { path: "", type: "podcasts" }
+    values: { layout: "podcast" }
+exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, node_modules]

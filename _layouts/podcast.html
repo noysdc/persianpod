@@ -1,0 +1,39 @@
+---
+layout: default
+---
+{% assign logo = page.logo %}
+{% if logo and logo contains '://' %}{% assign logo_url = logo %}{% elsif logo %}{% assign logo_url = logo | relative_url %}{% endif %}
+<article class="pod wrap">
+  <nav class="crumb"><a href="{{ '/' | relative_url }}">پادکست‌ها</a> / <a href="{{ '/?category=' | append: page.category | relative_url }}">{{ page.category }}</a></nav>
+  <header class="pod-head">
+    {% if logo_url %}<img class="logo" src="{{ logo_url }}" alt="لوگوی {{ page.title }}">{% else %}<i class="logo ph">{{ page.title | slice: 0 }}</i>{% endif %}
+    <div>
+      <h1>{{ page.title }}</h1>
+      <p class="lead">{{ page.description }}</p>
+      <div class="tags">
+        <a href="{{ '/?category=' | append: page.category | relative_url }}">{{ page.category }}</a>
+        {% if page.subcategory %}<a href="{{ '/?q=' | append: page.subcategory | relative_url }}">{{ page.subcategory }}</a>{% endif %}
+        {% for t in page.tags %}<a href="{{ '/?q=' | append: t | relative_url }}">{{ t }}</a>{% endfor %}
+        <span class="st {{ page.status }}">{% if page.status == 'active' %}فعال{% elsif page.status == 'paused' %}متوقف{% else %}پایان‌یافته{% endif %}</span>
+      </div>
+    </div>
+  </header>
+  {% if page.cover %}<img class="cover" src="{% if page.cover contains '://' %}{{ page.cover }}{% else %}{{ page.cover | relative_url }}{% endif %}" alt="">{% endif %}
+  <div class="cols">
+    <section class="body">{{ content }}</section>
+    <aside>
+      <div class="links">
+        {% for l in site.data.links %}{% assign v = page[l.key] %}{% if v %}{% if l.contact and page.show_contact != true %}{% continue %}{% endif %}
+        <a class="btn" rel="noopener" target="_blank" href="{{ l.prefix }}{{ v }}">{{ l.label }}</a>{% endif %}{% endfor %}
+      </div>
+      <dl class="facts">
+        {% for f in site.data.fields %}{% assign v = page[f.key] %}{% if v %}<dt>{{ f.label }}</dt><dd>{{ v }}</dd>{% endif %}{% endfor %}
+      </dl>
+    </aside>
+  </div>
+  <section id="similar" data-url="{{ page.url }}" hidden>
+    <h2>اگر این پادکست را دوست داری، این‌ها را هم ببین</h2>
+    <div class="grid"></div>
+  </section>
+</article>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"PodcastSeries","name":{{ page.title | jsonify }},"description":{{ page.description | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"inLanguage":"fa"{% if page.rss %},"webFeed":{{ page.rss | jsonify }}{% endif %}}</script>

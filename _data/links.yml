@@ -1,0 +1,9 @@
+- { key: website, label: وب‌سایت }
+- { key: rss, label: RSS }
+- { key: spotify, label: اسپاتیفای }
+- { key: apple, label: اپل پادکست }
+- { key: castbox, label: کستباکس }
+- { key: youtube, label: یوتیوب }
+- { key: instagram, label: اینستاگرام }
+- { key: telegram, label: تلگرام, contact: true }
+- { key: email, label: ایمیل, contact: true, prefix: "mailto:" }

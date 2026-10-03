@@ -1,37 +1,24 @@
 ---
-layout: pp-base
-title: فهرست پادکست‌های فارسی
-description: مرجع رایگان و بدون تبلیغ پادکست‌های فارسی با توضیح، لینک‌ها و راه ارتباط.
+layout: default
+description: پادکست فارسی پیدا کن؛ جست‌وجو بر اساس موضوع، شهر، وضعیت و تعداد اپیزود.
 ---
-{% assign podcasts = site.podcasts | sort: "title" %}
-<section class="intro">
-  <h1>پادکست‌های فارسی</h1>
-  <p>همه‌ی پادکست‌ها یک جایگاه برابر دارند. ترتیب نمایش به‌صورت پیش‌فرض تصادفی است.</p>
-</section>
-<section class="controls" aria-label="فیلتر و ترتیب">
-  <select id="cat" aria-label="دسته"><option value="">همه‌ی دسته‌ها</option></select>
-  <select id="status" aria-label="وضعیت">
-    <option value="">همه‌ی وضعیت‌ها</option>
-    <option value="active">فعال</option>
-    <option value="inactive">متوقف</option>
-  </select>
-  <div class="sort" role="group" aria-label="ترتیب">
-    <button type="button" id="sort-random" aria-pressed="true">تصادفی</button>
-    <button type="button" id="sort-alpha" aria-pressed="false">الفبایی</button>
+<section class="hero wrap">
+  <h1>پادکست فارسی پیدا کن</h1>
+  <input id="q" type="search" placeholder="نام پادکست، موضوع یا سازنده را جست‌وجو کن" autocomplete="off" aria-label="جست‌وجو">
+  <div class="filters">
+    <select id="category" aria-label="موضوع"><option value="">همه‌ی موضوع‌ها</option></select>
+    <select id="status" aria-label="وضعیت"><option value="">همه‌ی وضعیت‌ها</option><option value="active">فعال</option><option value="paused">متوقف</option><option value="ended">پایان‌یافته</option></select>
+    <select id="language" aria-label="زبان"><option value="">همه‌ی زبان‌ها</option></select>
+    <select id="city" aria-label="محل فعالیت"><option value="">همه‌ی شهرها</option></select>
+    <select id="eps" aria-label="تعداد اپیزود"><option value="">هر تعداد اپیزود</option><option value="0-20">تا ۲۰ اپیزود</option><option value="0-50">تا ۵۰ اپیزود</option><option value="0-100">تا ۱۰۰ اپیزود</option><option value="101-99999">بیش از ۱۰۰ اپیزود</option></select>
+    <select id="year" aria-label="سال فعالیت"><option value="">هر سالی</option></select>
+    <select id="sort" aria-label="ترتیب"><option value="alpha">الفبایی</option><option value="random">تصادفی</option><option value="recent">تازه‌ترین اپیزود</option></select>
   </div>
+  {% assign n = site.podcasts | size %}
+  <p class="stats" data-fa><b>{{ n }}</b> پادکست فارسی · <b>{{ site.podcasts | map: 'category' | compact | uniq | size }}</b> موضوع · <b>{{ site.podcasts | map: 'city' | compact | uniq | size }}</b> شهر</p>
 </section>
-<p id="empty" class="empty" hidden>پادکستی با این فیلتر پیدا نشد. فیلترها یا جست‌وجو را پاک کنید.</p>
-{% if podcasts.size == 0 %}<p class="empty">هنوز پادکستی ثبت نشده است. به‌زودی.</p>{% endif %}
-<ul class="grid" id="grid">
-{% for p in podcasts %}
-  <li class="card" data-title="{{ p.title | escape }}" data-category="{{ p.category | escape }}" data-status="{{ p.status | default: 'active' }}">
-    <a href="{{ p.url | relative_url }}">
-      {% if p.logo %}<img src="{{ p.logo | relative_url }}" alt="" width="200" height="200" loading="lazy">{% endif %}
-      <h2>{{ p.title }}</h2>
-      <p>{{ p.description | truncate: 110 }}</p>
-    </a>
-  </li>
-{% endfor %}
-</ul>
-{% include pp-maps.html %}
-<script src="{{ '/assets/js/directory.js' | relative_url }}" defer></script>
+<section class="wrap">
+  <p id="count" class="count" aria-live="polite"></p>
+  <div id="list" class="grid"></div>
+  <button id="more" class="btn" hidden>نمایش بیشتر</button>
+</section>

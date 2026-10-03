@@ -1,0 +1,10 @@
+- { key: creator, label: سازنده }
+- { key: language, label: زبان }
+- { key: country, label: کشور }
+- { key: city, label: شهر }
+- { key: start_year, label: سال شروع }
+- { key: last_episode, label: آخرین اپیزود }
+- { key: episode_count, label: تعداد اپیزود }
+- { key: frequency, label: دوره‌ی انتشار }
+- { key: duration, label: مدت هر اپیزود }
+- { key: audience, label: مخاطب }
