@@ -1,0 +1,104 @@
+---
+layout: default
+title: پرسشنامه‌ی معرفی پادکست
+permalink: /form/
+---
+<link rel="stylesheet" href="{{ '/assets/css/pp-form.css' | relative_url }}">
+
+<section class="pp-formpage" dir="rtl">
+  <h1>پرسشنامه‌ی معرفی پادکست</h1>
+  <p class="pp-lead">این فرم برای ساختن یک صفحه‌ی کامل و مقاله‌مانند برای پادکست شماست؛ نه یک معرفی چندخطی. هرچه کامل‌تر و صمیمی‌تر بنویسید، صفحه‌ی بهتری ساخته می‌شود. هر بخشی که برایتان مناسب نبود را خالی بگذارید. موارد ستاره‌دار الزامی است.</p>
+  <p class="pp-note">پاسخ‌های شما همین‌جا ذخیره می‌شود تا اگر صفحه را بستید گم نشود، و پس از ارسال موفق پاک می‌شود. اگر ترجیح می‌دهید، پرسشنامه‌ی Word را هم می‌توانید برای <a href="mailto:contact@persianpod.ir">contact@persianpod.ir</a> بفرستید. هر فایلی (مثل لوگو یا فایل پرشده‌ی Word) را می‌توانید برای تلگرام <a href="https://t.me/un_yoyo" rel="noopener noreferrer" target="_blank" dir="ltr">t.me/un_yoyo</a> هم بفرستید.</p>
+
+  <form id="pp-join" novalidate data-key="{{ site.web3forms_key | default: '' }}">
+    <input type="hidden" name="subject" value="پرسشنامه‌ی جدید معرفی پادکست — PersianPod">
+    <input type="hidden" name="from_name" value="PersianPod.ir">
+    <input type="checkbox" name="botcheck" class="pp-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+<fieldset class="pp-fieldset"><legend>۱. اطلاعات پایه</legend>
+<div class="pp-field"><label for="f1">نام پادکست (فارسی) <span class="pp-req" aria-hidden="true">*</span></label><input id="f1" name="نام پادکست (فارسی)" type="text" required aria-required="true"></div>
+<div class="pp-field"><label for="f2">نام پادکست (انگلیسی)</label><small id="f2-h">اگر ندارد خالی بگذارید</small><input id="f2" name="نام پادکست (انگلیسی)" type="text" aria-describedby="f2-h"></div>
+<div class="pp-field"><label for="f3">دسته‌بندی <span class="pp-req" aria-hidden="true">*</span></label><small id="f3-h">مثلاً: فناوری، آموزشی، داستان، کسب‌وکار، سبک زندگی، طنز…</small><input id="f3" name="دسته‌بندی" type="text" required aria-required="true" aria-describedby="f3-h"></div>
+<div class="pp-field"><label for="f4">توضیح کوتاه <span class="pp-req" aria-hidden="true">*</span></label><small id="f4-h">حداکثر ۲۰۰ کاراکتر؛ برای کارت پادکست در لیست‌ها</small><textarea id="f4" name="توضیح کوتاه" rows="3" maxlength="200" required aria-required="true" aria-describedby="f4-h"></textarea><span class="pp-counter" data-for="f4" data-max="200"></span></div>
+<div class="pp-field"><label for="f5">سال شروع، تعداد تقریبی قسمت‌ها و زمان‌بندی انتشار</label><small id="f5-h">مثلاً: از ۱۴۰۱، حدود ۶۰ قسمت، هر هفته</small><input id="f5" name="سال شروع، تعداد تقریبی قسمت‌ها و زمان‌بندی انتشار" type="text" aria-describedby="f5-h"></div>
+<div class="pp-field"><label for="f6">شهر یا کشور</label><small id="f6-h">اختیاری، ولی اگر بنویسید بهتر است. فقط نام شهر یا کشور، نه آدرس. روی نقشه‌ی ایران و جهان نمایش داده می‌شود</small><input id="f6" name="شهر یا کشور" type="text" aria-describedby="f6-h"></div>
+<div class="pp-field"><label for="f7">لینک لوگو</label><small id="f7-h">فایل لوگو را نمی‌توان از این فرم فرستاد. لوگوی مربع (حداقل ۱۰۰۰×۱۰۰۰ پیکسل) را جداگانه برای <a href="https://t.me/un_yoyo" rel="noopener noreferrer" target="_blank" dir="ltr">t.me/un_yoyo</a> (تلگرام) یا <a href="mailto:contact@persianpod.ir">contact@persianpod.ir</a> بفرستید؛ اگر آنلاین دارید، لینکش را اینجا بنویسید</small><input id="f7" name="لینک لوگو" type="url" dir="ltr" aria-describedby="f7-h"></div>
+</fieldset>
+<fieldset class="pp-fieldset"><legend>۲. داستان پادکست</legend>
+<div class="pp-field"><label for="f8">ایده از کجا شروع شد؟</label><small id="f8-h">یک پاراگراف (حدود ۸۰ تا ۱۵۰ کلمه). چه شد که تصمیم گرفتید پادکست بسازید؟ اولین قسمت چطور بود؟</small><textarea id="f8" name="ایده از کجا شروع شد؟" rows="7" aria-describedby="f8-h"></textarea></div>
+</fieldset>
+<fieldset class="pp-fieldset"><legend>۳. درباره‌ی پادکست و مخاطب</legend>
+<div class="pp-field"><label for="f9">پادکست درباره‌ی چیست؟</label><small id="f9-h">موضوع، فضا و لحن پادکست</small><textarea id="f9" name="پادکست درباره‌ی چیست؟" rows="5" aria-describedby="f9-h"></textarea></div>
+<div class="pp-field"><label for="f10">مخاطب شما چه کسانی‌اند و شنونده چه چیزی می‌گیرد؟</label><textarea id="f10" name="مخاطب شما چه کسانی‌اند و شنونده چه چیزی می‌گیرد؟" rows="5"></textarea></div>
+<div class="pp-field"><label for="f11">چه چیزی پادکست شما را متفاوت می‌کند؟</label><textarea id="f11" name="چه چیزی پادکست شما را متفاوت می‌کند؟" rows="5"></textarea></div>
+</fieldset>
+<fieldset class="pp-fieldset"><legend>۴. میزبان و نویسنده</legend>
+<div class="pp-field"><label for="f12">نام میزبان (یا میزبان‌ها) و نویسنده</label><small id="f12-h">اگر چند نفرند، همه را بنویسید</small><input id="f12" name="نام میزبان (یا میزبان‌ها) و نویسنده" type="text" aria-describedby="f12-h"></div>
+<div class="pp-field"><label for="f13">معرفی کوتاه میزبان/نویسنده</label><small id="f13-h">پیشینه، تخصص و ارتباط با موضوع پادکست</small><textarea id="f13" name="معرفی کوتاه میزبان/نویسنده" rows="5" aria-describedby="f13-h"></textarea></div>
+</fieldset>
+<fieldset class="pp-fieldset"><legend>۵. عوامل تولید</legend>
+<div class="pp-field"><label for="f14">تهیه‌کننده</label><input id="f14" name="تهیه‌کننده" type="text"></div>
+<div class="pp-field"><label for="f15">تدوین و میکس</label><input id="f15" name="تدوین و میکس" type="text"></div>
+<div class="pp-field"><label for="f16">موسیقی و جینگل</label><input id="f16" name="موسیقی و جینگل" type="text"></div>
+<div class="pp-field"><label for="f17">طراحی گرافیک</label><input id="f17" name="طراحی گرافیک" type="text"></div>
+<div class="pp-field"><label for="f18">مدیر شبکه‌های اجتماعی</label><input id="f18" name="مدیر شبکه‌های اجتماعی" type="text"></div>
+<div class="pp-field"><label for="f19">سایر (نقش و نام)</label><small id="f19-h">نقش را بنویسید</small><input id="f19" name="سایر (نقش و نام)" type="text" aria-describedby="f19-h"></div>
+<div class="pp-field"><label for="f20">روند تولید</label><small id="f20-h">یک قسمت چطور ساخته می‌شود؟ از انتخاب موضوع تا ضبط، تدوین و انتشار</small><textarea id="f20" name="روند تولید" rows="5" aria-describedby="f20-h"></textarea></div>
+</fieldset>
+<fieldset class="pp-fieldset"><legend>۶. قسمت‌های پیشنهادی</legend>
+<div class="pp-field"><label for="f21">قسمت‌های پیشنهادی برای شروع شنیدن</label><small id="f21-h">نام ۳ تا ۵ قسمت و یک جمله درباره‌ی هر کدام</small><textarea id="f21" name="قسمت‌های پیشنهادی برای شروع شنیدن" rows="6" aria-describedby="f21-h"></textarea></div>
+</fieldset>
+<fieldset class="pp-fieldset"><legend>۷. گفت‌وگوی کوتاه</legend>
+<div class="pp-field"><label for="f22">چرا هنوز پادکست می‌سازید؟</label><textarea id="f22" name="چرا هنوز پادکست می‌سازید؟" rows="4"></textarea></div>
+<div class="pp-field"><label for="f23">سخت‌ترین بخش پادکست‌سازی برای شما چیست؟</label><textarea id="f23" name="سخت‌ترین بخش پادکست‌سازی برای شما چیست؟" rows="4"></textarea></div>
+<div class="pp-field"><label for="f24">به کسی که می‌خواهد پادکست بسازد چه توصیه‌ای دارید؟</label><textarea id="f24" name="به کسی که می‌خواهد پادکست بسازد چه توصیه‌ای دارید؟" rows="4"></textarea></div>
+<div class="pp-field"><label for="f25">پادکست پیشنهادی و مورد علاقه (غیر از پادکست خودتان)</label><small id="f25-h">کدام پادکست را به شنونده‌ها پیشنهاد می‌کنید؟ در صفحه‌ی شما نمایش داده می‌شود</small><input id="f25" name="پادکست پیشنهادی و مورد علاقه (غیر از پادکست خودتان)" type="text" aria-describedby="f25-h"></div>
+<div class="pp-field"><label for="f26">پادکست نوپایی که قصد حمایت و معرفی‌اش را دارید</label><small id="f26-h">یک پادکست کمتر شناخته‌شده یا تازه‌کار که دوست دارید بیشتر دیده شود (نام و لینک)</small><input id="f26" name="پادکست نوپایی که قصد حمایت و معرفی‌اش را دارید" type="text" aria-describedby="f26-h"></div>
+</fieldset>
+<fieldset class="pp-fieldset"><legend>۸. پخش و امبد</legend>
+<div class="pp-field"><label for="f27">لینک یا شناسه‌ی پادکست در Castbox</label><small id="f27-h">لینک صفحه‌ی پادکست خود را در Castbox بنویسید. از روی آن پلیر را در سایت قرار می‌دهیم</small><input id="f27" name="لینک یا شناسه‌ی پادکست در Castbox" type="text" aria-describedby="f27-h"></div>
+<div class="pp-field"><label for="f28">لینک یک قسمت منتخب در یوتیوب</label><small id="f28-h">اختیاری؛ فقط لینک کافی است</small><input id="f28" name="لینک یک قسمت منتخب در یوتیوب" type="url" dir="ltr" aria-describedby="f28-h"></div>
+<div class="pp-field"><label for="f29">لینک یک قسمت منتخب در سایر پلتفرم‌ها</label><small id="f29-h">اختیاری</small><input id="f29" name="لینک یک قسمت منتخب در سایر پلتفرم‌ها" type="url" dir="ltr" aria-describedby="f29-h"></div>
+</fieldset>
+<fieldset class="pp-fieldset"><legend>۹. لینک‌ها و راه‌های ارتباطی</legend>
+<div class="pp-field"><label for="f30">کانال یا گروه تلگرام</label><input id="f30" name="کانال یا گروه تلگرام" type="text"></div>
+<div class="pp-field"><label for="f31">اینستاگرام</label><input id="f31" name="اینستاگرام" type="text"></div>
+<div class="pp-field"><label for="f32">اسپاتیفای / اپل پادکست / کست‌باکس / سایر پلتفرم‌ها</label><small id="f32-h">لینک‌ها را بنویسید</small><textarea id="f32" name="اسپاتیفای / اپل پادکست / کست‌باکس / سایر پلتفرم‌ها" rows="3" aria-describedby="f32-h"></textarea></div>
+<div class="pp-field"><label for="f33">وب‌سایت یا یوتیوب</label><input id="f33" name="وب‌سایت یا یوتیوب" type="text"></div>
+<div class="pp-field"><label for="f34">ایمیل <span class="pp-req" aria-hidden="true">*</span></label><small id="f34-h">ایمیل شما. برای ارتباط تیم پرشین‌پاد با شما لازم است؛ اینکه در سایت نمایش داده شود یا نه را در بخش آخر مشخص کنید</small><input id="f34" name="email" type="email" dir="ltr" required aria-required="true" aria-describedby="f34-h"></div>
+</fieldset>
+<fieldset class="pp-fieldset"><legend>۱۰. همکاری و اسپانسری</legend>
+<div class="pp-field"><label for="f35">آیا برای همکاری یا اسپانسری آماده‌اید؟</label><select id="f35" name="آیا برای همکاری یا اسپانسری آماده‌اید؟"><option value="">انتخاب کنید</option><option>بله</option><option>خیر</option><option>بسته به پیشنهاد</option></select></div>
+<div class="pp-field"><label for="f36">چه نوع همکاری‌ای را می‌پذیرید؟</label><small id="f36-h">مثلاً: اسپانسری قسمت، تبلیغ در ابتدای قسمت، مهمان، همکاری محتوایی…</small><textarea id="f36" name="چه نوع همکاری‌ای را می‌پذیرید؟" rows="3" aria-describedby="f36-h"></textarea></div>
+<div class="pp-field"><label for="f37">آیدی تلگرام برای ارتباط مستقیم اسپانسرها</label><small id="f37-h">ترجیحاً آیدی شخصی تلگرام یا آیدی مدیر پادکست؛ فقط آیدی (نه شماره‌ی تلفن)</small><input id="f37" name="آیدی تلگرام برای ارتباط مستقیم اسپانسرها" type="text" aria-describedby="f37-h"></div>
+</fieldset>
+<fieldset class="pp-fieldset"><legend>۱۱. آموزش‌های رایگان پادکست‌سازی (اختیاری)</legend>
+<div class="pp-field"><label for="f38">لینک آموزش‌های رایگان پادکست‌سازی</label><small id="f38-h">اگر در سایت یا پادکست خود محتوای آموزشی درباره‌ی ساخت پادکست دارید، لینکش را بنویسید. فقط آموزش‌های رایگان؛ در بخش وبلاگ پرشین‌پاد معرفی می‌شود</small><textarea id="f38" name="لینک آموزش‌های رایگان پادکست‌سازی" rows="3" aria-describedby="f38-h"></textarea></div>
+</fieldset>
+
+<fieldset class="pp-fieldset"><legend>۱۲. رضایت انتشار</legend>
+<label class="pp-check pp-consent"><input type="checkbox" name="رضایت انتشار" value="بله" required>
+<span>من رضایت دارم که پادکستم در سایت PersianPod.ir قرار بگیرد و می‌دانم هر زمان که بخواهم می‌توانم درخواست حذف معرفی پادکستم را بدهم. <span class="pp-req" aria-hidden="true">*</span></span></label>
+<p class="pp-sub">اختیاری:</p>
+<label class="pp-check"><input type="checkbox" name="ایمیل در سایت نمایش داده شود" value="بله"><span>ایمیل من در سایت نمایش داده شود.</span></label>
+<label class="pp-check"><input type="checkbox" name="ایمیل فقط برای تیم" value="بله"><span>ایمیل من فقط برای تیم سایت باشد و منتشر نشود.</span></label>
+<label class="pp-check"><input type="checkbox" name="آیدی تلگرام اسپانسر نمایش داده شود" value="بله"><span>آیدی تلگرام من برای ارتباط اسپانسرها در سایت نمایش داده شود.</span></label>
+</fieldset>
+
+    <div class="pp-submitrow">
+      <button type="submit" id="pp-submit">ارسال پرسشنامه</button>
+      <p id="pp-status" role="status" aria-live="polite"></p>
+    </div>
+    <div id="pp-fallback" hidden>
+      <p>ارسال خودکار انجام نشد. پاسخ‌هایتان حفظ شده است. می‌توانید متن را کپی کنید و برای <a href="mailto:contact@persianpod.ir">contact@persianpod.ir</a> یا <a href="https://t.me/persian_pod_ir" rel="noopener noreferrer">تلگرام پرشین‌پاد</a> یا <a href="https://t.me/un_yoyo" rel="noopener noreferrer" dir="ltr">t.me/un_yoyo</a> بفرستید.</p>
+      <button type="button" id="pp-copy">کپی پاسخ‌ها</button>
+    </div>
+  </form>
+
+  <div id="pp-thanks" class="pp-thanks" hidden tabindex="-1">
+    <h2>سپاس، پرسشنامه‌تان رسید 🌱</h2>
+    <p>پس از بررسی، صفحه‌ی پادکست شما ساخته و در سایت منتشر می‌شود. اگر لازم شد از طریق ایمیلی که نوشتید با شما در تماس می‌شویم.</p>
+  </div>
+</section>
+
+<script src="{{ '/assets/js/pp-form.js' | relative_url }}" defer></script>
