@@ -1,9 +1,19 @@
-- { key: website, label: وب‌سایت }
-- { key: rss, label: RSS }
-- { key: spotify, label: اسپاتیفای }
-- { key: apple, label: اپل پادکست }
-- { key: castbox, label: کستباکس }
-- { key: youtube, label: یوتیوب }
-- { key: instagram, label: اینستاگرام }
-- { key: telegram, label: تلگرام, contact: true }
-- { key: email, label: ایمیل, contact: true, prefix: "mailto:" }
+# این فایل را عیناً در هر دو مخزن (noys و persianpod) بگذار.
+# هر لینک فقط در سایت‌هایی نمایش داده می‌شود که در فیلد sites آمده‌اند.
+# icon باید یکی از این‌ها باشد: youtube, instagram, castbox, telegram, email, newsletter, rss
+
+donate:
+  label: حمایت مالی
+  note: حمایت مالی از NOYS و پرشین‌پاد
+  url: https://daramet.com/NOYS
+
+email: contact@persianpod.ir
+
+items:
+  - { label: یوتیوب,    icon: youtube,    url: "https://www.youtube.com/@NOYS-DC/videos", sites: [noys] }
+  - { label: اینستاگرام, icon: instagram,  url: "https://instagram.com/noysdc",            sites: [noys] }
+  - { label: کست‌باکس,  icon: castbox,    url: "https://castbox.fm/vh/7361321",            sites: [noys] }
+  - { label: تلگرام,    icon: telegram,   url: "https://t.me/NOYSDC",                      sites: [noys] }
+  - { label: تلگرام,    icon: telegram,   url: "https://t.me/persian_pod_ir",              sites: [persianpod] }
+  - { label: خبرنامه,   icon: newsletter, url: "https://persianpod.substack.com/",         sites: [persianpod] }
+  - { label: ایمیل,     icon: email,      url: "mailto:contact@persianpod.ir",             sites: [noys, persianpod] }

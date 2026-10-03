@@ -1,0 +1,21 @@
+{%- comment -%} آیکون‌های SVG بدون وابستگی بیرونی. استفاده: {% include pp-icon.html name="telegram" %} {%- endcomment -%}
+<svg class="pp-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+{%- case include.name -%}
+  {%- when "youtube" -%}
+    <rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/>
+  {%- when "instagram" -%}
+    <rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".9" fill="currentColor"/>
+  {%- when "castbox" -%}
+    <path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/>
+  {%- when "telegram" -%}
+    <path d="M21.5 3 2.8 10.4l6.2 2.3 2.3 6.8 3.4-4.1 4.6 3.4z"/><path d="m9 12.7 12.5-9.7"/>
+  {%- when "email" -%}
+    <rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7.5 8 6 8-6"/>
+  {%- when "newsletter" -%}
+    <rect x="4" y="3.5" width="16" height="17" rx="2.5"/><path d="M8 8h8M8 12h8M8 16h5"/>
+  {%- when "rss" -%}
+    <path d="M5 5a14 14 0 0 1 14 14M5 11a8 8 0 0 1 8 8"/><circle cx="6" cy="18" r="1.3" fill="currentColor"/>
+  {%- when "heart" -%}
+    <path d="M12 20s-7.5-4.6-7.5-10A4.3 4.3 0 0 1 12 7.4 4.3 4.3 0 0 1 19.5 10c0 5.4-7.5 10-7.5 10z" fill="currentColor"/>
+{%- endcase -%}
+</svg>
