@@ -1,55 +1,27 @@
 ---
 layout: default
-title: گوش بده
-description: پادکست‌های فارسی را همین‌جا و بدون ترک سایت گوش بده.
+title: پخش پادکست‌ها
 permalink: /listen/
 ---
-<style>
-.lis{display:grid;grid-template-columns:300px 1fr;gap:24px;margin-top:18px;align-items:start}
-.lis aside{position:sticky;top:12px}
-#lq{width:100%;font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
-#ll{list-style:none;margin:10px 0 0;padding:0;max-height:70vh;overflow:auto}
-#ll button{all:unset;box-sizing:border-box;display:flex;gap:10px;align-items:center;width:100%;padding:8px;border-radius:8px;cursor:pointer}
-#ll button:hover,#ll button[aria-current=true]{background:var(--card);outline:1px solid var(--acc)}
-#ll img,#ll .ph{width:40px;height:40px;border-radius:8px;font-size:1.1rem}
-#ll small{display:block;color:var(--mut)}
-#pl iframe{width:100%;border:0;border-radius:12px;background:var(--card)}
-#pl h2{margin:0 0 6px}.hint,.note{color:var(--mut)}
-@media(max-width:720px){.lis{grid-template-columns:1fr}.lis aside{position:static}#ll{max-height:260px}}
-</style>
-<section class="wrap">
-  <h1>گوش بده</h1>
-  <p class="note">پادکست را از فهرست انتخاب کن تا پخش‌کننده‌اش باز شود. اگر پخش‌کننده بالا نیامد، از «باز کردن در سرویس اصلی» استفاده کن.</p>
-  <div class="lis">
-    <aside><input id="lq" type="search" placeholder="جست‌وجو در پادکست‌های قابل پخش" aria-label="جست‌وجو"><ul id="ll"></ul></aside>
-    <div id="pl"><p class="hint">هنوز پادکستی انتخاب نشده است.</p></div>
+<link rel="stylesheet" href="{{ '/assets/css/pp-pages.css' | relative_url }}">
+
+<section class="pp-listen" dir="rtl">
+  <h1>پخش پادکست‌ها</h1>
+  <p class="pp-lead">یک پادکست را انتخاب کنید و همین‌جا گوش بدهید. پخش خودکار شروع نمی‌شود.</p>
+
+  <div class="pp-listen-grid">
+    <aside class="pp-listen-list pp-card" aria-label="فهرست پادکست‌ها">
+      <label class="pp-search-lbl">جستجو در فهرست
+        <input type="search" id="l-q" placeholder="نام پادکست">
+      </label>
+      <ul id="l-list" role="listbox" aria-label="پادکست‌ها"></ul>
+    </aside>
+
+    <div class="pp-listen-stage pp-card" id="l-stage" aria-live="polite">
+      <p class="pp-empty">در حال بارگذاری…</p>
+    </div>
   </div>
 </section>
-<script>
-(()=>{
-const e=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const n=s=>String(s||'').toLowerCase().replace(/ي/g,'ی').replace(/ك/g,'ک');
-const emb=p=>{
- if(p.embed)return{u:p.embed,h:352};
- let m=(p.spotify||'').match(/open\.spotify\.com\/(show|episode)\/(\w+)/);
- if(m)return{u:'https://open.spotify.com/embed/'+m[1]+'/'+m[2],h:352};
- if((p.apple||'').includes('podcasts.apple.com'))return{u:p.apple.replace('://podcasts.apple.com','://embed.podcasts.apple.com'),h:450};
- return null};
-fetch(document.body.dataset.search).then(r=>r.json()).then(all=>{
- const list=all.filter(emb).sort((a,b)=>a.title.localeCompare(b.title,'fa'));
- const ul=document.getElementById('ll'),pl=document.getElementById('pl'),q=document.getElementById('lq');
- if(!list.length){pl.innerHTML='<p class="hint">هنوز پادکستی با پخش‌کننده ثبت نشده است. در فایل هر پادکست یکی از فیلدهای spotify، apple یا embed را پر کن.</p>';return}
- const show=p=>{
-  const x=emb(p),orig=p.spotify||p.apple||p.website;
-  pl.innerHTML='<h2>'+e(p.title)+'</h2><p class="hint">'+e(p.description)+'</p><iframe src="'+e(x.u)+'" height="'+x.h+'" loading="lazy" allow="autoplay; encrypted-media; clipboard-write" title="پخش‌کننده‌ی '+e(p.title)+'"></iframe><p><a class="btn" href="'+e(p.url)+'">صفحه‌ی پادکست</a> '+(orig?'<a class="btn" target="_blank" rel="noopener" href="'+e(orig)+'">باز کردن در سرویس اصلی</a>':'')+'</p>';
-  history.replaceState(null,'','?p='+encodeURIComponent(p.slug));
-  ul.querySelectorAll('button').forEach(b=>b.setAttribute('aria-current',b.dataset.s===p.slug))};
- const draw=()=>{
-  const k=n(q.value);
-  ul.innerHTML=list.filter(p=>!k||n(p.title+' '+p.category+' '+p.creator).includes(k)).map(p=>'<li><button data-s="'+e(p.slug)+'">'+(p.logo?'<img src="'+e(p.logo)+'" alt="">':'<i class="ph">'+e(p.title.charAt(0))+'</i>')+'<span>'+e(p.title)+'<small>'+e(p.category)+'</small></span></button></li>').join('');
-  ul.querySelectorAll('button').forEach(b=>b.onclick=()=>show(list.find(p=>p.slug===b.dataset.s)))};
- q.oninput=draw;draw();
- const s=new URLSearchParams(location.search).get('p'),f=list.find(p=>p.slug===s);if(f)show(f);
-});
-})();
-</script>
+
+<script>window.PP_DATA_URL = "{{ '/podcasts.json' | relative_url }}";</script>
+<script src="{{ '/assets/js/pp-listen.js' | relative_url }}" defer></script>

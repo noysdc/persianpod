@@ -89,6 +89,7 @@
     if (p.year) meta.push('<span class="pp-badge">از ' + toFa(p.year) + "</span>");
     if (p.episodes) meta.push('<span class="pp-badge">' + toFa(p.episodes) + " اپیزود</span>");
     if (p.length) meta.push('<span class="pp-badge">' + toFa(p.length) + " دقیقه</span>");
+    if (p.last) meta.push('<span class="pp-badge">آخرین قسمت ' + toFa(p.last) + "</span>");
     meta.push('<span class="pp-badge ' + (p.status === "active" ? "on" : "") + '">' +
       (p.status === "active" ? "فعال" : "غیرفعال") + "</span>");
     return '<a class="pp-podcast pp-card" href="' + esc(p.url) + '">' +
