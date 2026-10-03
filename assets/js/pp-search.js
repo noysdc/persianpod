@@ -84,6 +84,51 @@
     return true;
   }
 
+
+  /* ---------- آیکون دسته‌ها و موج صدا ----------
+     اگر نام دسته شامل یکی از کلمه‌های هر ردیف باشد، همان آیکون می‌آید؛
+     وگرنه آیکون پیش‌فرض (میکروفون). کلمه‌ها را می‌توانی ویرایش یا اضافه کنی. */
+  var ICON_RULES = [
+    ["coin",       ["کسب", "اقتصاد", "مالی", "پول", "سرمایه", "بازار", "کارآفرین", "بیزینس", "استارتاپ"]],
+    ["heart",      ["سبک زندگی", "روان", "سلامت", "خانواده", "رابطه", "معنوی", "دین", "عشق", "ذهن", "رشد فردی"]],
+    ["book",       ["کتاب", "ادبیات", "شعر", "تاریخ", "فلسفه", "ادبی", "رمان"]],
+    ["bulb",       ["فناوری", "تکنولوژی", "علم", "آموزش", "خلاق", "برنامه", "هوش", "طراحی", "ایده"]],
+    ["headphones", ["داستان", "روایت", "موسیق", "صوتی", "جنایی", "ترسناک", "رادیو", "درام"]]
+  ];
+  var ICONS = {
+    mic: '<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3M9 21h6"/>',
+    headphones: '<path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/>',
+    book: '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/>',
+    bulb: '<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/>',
+    heart: '<path d="M12 20s-7.5-4.6-7.5-10A4.3 4.3 0 0 1 12 7.4 4.3 4.3 0 0 1 19.5 10c0 5.4-7.5 10-7.5 10z"/>',
+    coin: '<circle cx="12" cy="12" r="9"/><path d="M14.5 9.2c-.4-.8-1.4-1.2-2.5-1.2-1.4 0-2.5.7-2.5 1.8s1.1 1.6 2.5 1.9 2.5.8 2.5 1.9S13.4 15.6 12 15.6c-1.2 0-2.2-.5-2.6-1.4M12 6.5V8m0 7.6v1.9"/>'
+  };
+  function iconFor(category) {
+    var c = norm(category);
+    for (var i = 0; i < ICON_RULES.length; i++) {
+      for (var j = 0; j < ICON_RULES[i][1].length; j++) {
+        if (c.indexOf(norm(ICON_RULES[i][1][j])) !== -1) return ICON_RULES[i][0];
+      }
+    }
+    return "mic";
+  }
+  function iconSvg(name) {
+    return '<svg class="pp-cat-svg" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" ' +
+      'stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' +
+      (ICONS[name] || ICONS.mic) + "</svg>";
+  }
+  // موج صدا: ۴۸ میله با ارتفاع پایه‌ی ثابت و تأخیر متفاوت؛ بدون تصادفی تا هر بار یکسان رندر شود
+  var WAVE = (function () {
+    var bars = "";
+    for (var i = 0; i < 48; i++) {
+      var h = 8 + Math.round(Math.abs(Math.sin(i * 0.55) * Math.cos(i * 0.21)) * 26);
+      bars += '<rect class="b" style="--i:' + i + '" x="' + (i * 10 + 3) + '" y="' + (20 - h / 2) +
+        '" width="4" height="' + h + '" rx="2"/>';
+    }
+    return '<div class="pp-wave" aria-hidden="true"><svg viewBox="0 0 480 40" preserveAspectRatio="none" focusable="false">' +
+      bars + "</svg></div>";
+  })();
+
   function card(p) {
     var meta = [];
     if (p.year) meta.push('<span class="pp-badge">از ' + toFa(p.year) + "</span>");
@@ -138,8 +183,10 @@
       });
       // ترتیب دسته‌ها هم در حالت تصادفی عوض می‌شود تا جایگاه ثابت نباشد
       order = mode === "random" ? shuffle(order) : order.sort(collator.compare);
-      box.innerHTML = order.map(function (c) {
-        return '<section class="pp-group"><h2>' + esc(c) + '</h2><div class="pp-grid">' +
+      box.innerHTML = order.map(function (c, idx) {
+        return (idx ? WAVE : "") +
+          '<section class="pp-group"><h2 class="pp-cat"><span class="pp-cat-icon">' + iconSvg(iconFor(c)) +
+          "</span>" + esc(c) + '</h2><div class="pp-grid">' +
           groups[c].map(card).join("") + "</div></section>";
       }).join("");
     } else {

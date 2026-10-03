@@ -38,3 +38,30 @@
 .pp-badge { padding: .1rem .55rem; border-radius: 999px; border: 1px solid var(--pp-border, #dfe7e3); }
 .pp-badge.on { border-color: var(--pp-green, #08cb00); color: var(--pp-green, #08cb00); }
 .pp-empty { padding: 2rem 0; text-align: center; color: var(--pp-muted, #5d6762); }
+
+/* ---------- آیکون دسته‌ها و موج صدا ---------- */
+.pp-cat { display: flex; align-items: center; gap: .6rem; }
+.pp-cat-icon {
+  display: inline-grid; place-items: center; width: 42px; height: 42px; border-radius: 12px;
+  color: var(--pp-green, #08cb00);
+  background: var(--pp-surface, #f5f8f6); border: 1px solid var(--pp-border, #dfe7e3);
+  box-shadow: 0 0 12px rgba(var(--pp-glow-rgb, 0, 255, 156), .22);
+}
+.pp-wave { margin: 2rem auto .4rem; max-width: 560px; height: 40px; color: var(--pp-green, #08cb00); }
+.pp-wave svg { display: block; width: 100%; height: 100%; overflow: visible;
+  filter: drop-shadow(0 0 3px rgba(var(--pp-glow-rgb, 0, 255, 156), .55)); }
+.pp-wave .b {
+  fill: currentColor; opacity: .85;
+  transform-box: fill-box; transform-origin: center;
+  animation: pp-wave 1.6s ease-in-out infinite;
+  animation-delay: calc(var(--i) * -90ms);
+}
+html[data-theme="dark"] .pp-wave .b { opacity: 1; fill: var(--pp-glow, #00ff9c); }
+@keyframes pp-wave {
+  0%, 100% { transform: scaleY(.35); }
+  50%      { transform: scaleY(1); }
+}
+/* کاهش حرکت: انیمیشن می‌ایستد و موج ثابت می‌ماند */
+@media (prefers-reduced-motion: reduce) {
+  .pp-wave .b { animation: none; transform: none; }
+}
