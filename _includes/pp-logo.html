@@ -1,6 +1,14 @@
-<svg class="pp-logo" viewBox="0 0 228 48" width="114" height="24" aria-hidden="true" focusable="false">
-  <rect x="0" y="0" width="48" height="48" rx="10"/>
-  <rect x="60" y="0" width="48" height="48" rx="10"/>
-  <rect class="on" x="120" y="0" width="48" height="48" rx="10"/>
-  <rect x="180" y="0" width="48" height="48" rx="10"/>
-</svg>
+{%- comment -%}
+  لوگو و بنر متحرک. مسیرها را مطابق فایل‌های خودت عوض کن.
+  استفاده:  {% include pp-logo.html %}      (لوگو)
+            {% include pp-logo.html banner=true %}   (بنر)
+  width/height را بده تا صفحه هنگام لود نپرد.
+{%- endcomment -%}
+{%- if include.banner -%}
+  <img src="{{ '/assets/img/persianpod-banner.webp' | relative_url }}"
+       alt="پرشین‌پاد" width="1200" height="300" decoding="async" fetchpriority="high"
+       style="max-width:100%;height:auto">
+{%- else -%}
+  <img src="{{ '/assets/img/persianpod-logo.webp' | relative_url }}"
+       alt="لوگوی پرشین‌پاد" width="48" height="48" decoding="async">
+{%- endif -%}
