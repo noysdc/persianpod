@@ -1,109 +1,24 @@
-title: "پرشین پاد | مرجع معرفی پادکست های فارسی"
-
-# عنوان مخصوص صفحه اصلی — کامل‌تر و شامل کلمات کلیدی هدف،
-# چون صفحه اصلی مهم‌ترین صفحه برای رتبه گرفتن روی
-# «پادکست فارسی»، «مرجع پادکست های فارسی»، «پرشین پاد» و... هست.
-home-title: "پرشین پاد |مرجع رایگان معرفی پادکست های فارسی"
-
-description: >
-  
-
-# اسم برند (برای Organization توی Schema) جدا از عنوان کامل صفحه اصلی
-brand: "persianpod"
-
-# زبان سایت — به گوگل و مرورگر می‌گه محتوا فارسیه
+title: پرشین‌پاد
+description: مرجع رایگان و بدون تبلیغ پادکست‌های فارسی
 lang: fa
-
-permalink: /:title/
-baseurl: ""
-url: "https://persianpod.ir"
-social-twitter:
-
-# منطقه زمانی سایت رو ایران تنظیم می‌کنیم تا تاریخ پست‌ها با
-# ساعت واقعی ایران چک بشه، نه UTC (که باعث میشد پست‌های امروز
-# «آینده» حساب بشن و منتشر نشن).
-timezone: Asia/Tehran
-
-# همیشه پست‌ها رو منتشر کن، حتی اگه تاریخشون (به هر دلیلی) از دید
-# سرور هنوز نرسیده باشه. برای یک سایت شخصی که زمان‌بندی انتشار
-# دقیق لازم نداره، این امن‌ترین و ساده‌ترین راه‌حله.
-future: true
-
-# Author Settings
-# اسم واقعی راوی/نویسنده رو گذاشتیم (به‌جای برند NOYS) چون
-# این اسم توی Schema هر پست به گوگل اعلام میشه و مستقیم به
-# رتبه گرفتن روی «پادکست یونس شجاعی» کمک می‌کنه.
-author: "یونس شجاعی"
-author-img: template/noys-avatar.png
-about-author: "روایت‌هایی درباره پرونده‌های واقعی،<br>کسب‌وکارهای سایه، بازارهای سیاه<br>و داستان‌هایی که ارزش دوباره شنیدن دارند."
-social-facebook:
-social-github:
-social-linkedin:
-social-email: "noysdc.media@gmail.com"
-
-# NOYS Social Media
-social-youtube: "https://www.youtube.com/@NOYS-DC/videos"
-social-instagram: "https://instagram.com/noysdc"
-social-castbox: "https://castbox.fm/vh/7361321"
-podcast-channel-id: "7361321"
-social-telegram: "https://t.me/NOYSDC"
-social-donate: "https://daramet.com/NOYS"
-
-# Disqus
-# برای فعال کردن کامنت‌ها: یک اکانت رایگان توی disqus.com بسازید،
-# یک "site" جدید با آدرس noysdc.ir تعریف کنید، و "shortname"ای که
-# دیسکاس بهتون میده رو دقیقاً همین‌جا (بدون کوتیشن، بدون فاصله) بذارید.
-# مثال: discus-identifier: noysdc
-discus-identifier:
-
-# Tracker
-# برای فعال کردن آنالیتیکس: یک اکانت Google Analytics (GA4) یا
-# Plausible بسازید و آیدی ردیابی (شبیه G-XXXXXXXXXX برای GA4) رو
-# همین‌جا بذارید. این مقدار توی _includes/analytics.html خونده میشه.
-analytics:
-
-# Build Settings
-markdown: kramdown
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-feed
-  - jemoji
-paginate: 24
-paginate_path: "/page/:num"
-
-# تنظیمات فید RSS (jekyll-feed). این‌ها باعث میشن فید توی
-# noysdc.ir/feed.xml در دسترس باشه و توی هدر سایت هم اعلام بشه.
-feed:
-  path: feed.xml
-  excerpt_only: false
-
-exclude:
-  - "node_modules"
-  - "gulpfile.js"
-  - "package.json"
-  - "yarn.lock"
-
-# این بخش را به انتهای فایل _config.yml اضافه کنید (بقیه‌ی فایل را دست نزنید)
-title: پرشین‌پاد
-description: مرجع رایگان و بدون تبلیغ پادکست‌های فارسی
-url: https://persianpod.ir
-baseurl: ""
-collections:
-  podcasts:
-    output: true
-    permalink: /podcasts/:name/
-
-# به انتهای _config.yml اضافه کنید (خط‌های تکراری قدیمی را پاک کنید)
-title: پرشین‌پاد
-description: مرجع رایگان و بدون تبلیغ پادکست‌های فارسی
 url: https://persianpod.ir
 baseurl: ""
 email: contact@persianpod.ir
 telegram: https://t.me/persian_pod
+timezone: Asia/Tehran
+
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+
 collections:
   podcasts:
     output: true
     permalink: /podcasts/:name/
 
-
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
