@@ -1,0 +1,37 @@
+.pp-map-section { max-width: 1100px; margin: 2rem auto; padding: 0 1rem; position: relative; }
+.pp-map-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.pp-map-head h2 { margin: 0; }
+#pp-map-back {
+  font: inherit; padding: .5rem 1rem; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--pp-border, #dfe7e3);
+  background: var(--pp-surface, #f5f8f6); color: var(--pp-fg, #1b1f1d);
+}
+#pp-map-back:hover { box-shadow: 0 0 0 2px rgba(0,255,156,.45); }
+.pp-map-hint { color: var(--pp-muted, #5d6762); margin: .4rem 0 .8rem; }
+.pp-map {
+  border: 1px solid var(--pp-border, #dfe7e3); border-radius: 16px; overflow: hidden;
+  background: var(--pp-surface, #f5f8f6); direction: ltr;
+}
+.pp-map svg { display: block; width: 100%; height: auto; }
+
+.pp-map .c { fill: var(--pp-border, #dfe7e3); stroke: var(--pp-bg, #fff); stroke-width: .6; vector-effect: non-scaling-stroke; }
+.pp-map .c.has { fill: var(--pp-green, #08cb00); cursor: pointer; filter: drop-shadow(0 0 3px rgba(0,255,156,.55)); }
+.pp-map .c.has:hover, .pp-map .c.has:focus-visible { fill: var(--pp-glow, #00ff9c); outline: none; }
+.pp-map .c.dim { opacity: .55; }
+
+.pp-map .cities { opacity: 0; pointer-events: none; transition: opacity .45s ease; }
+.pp-map.zoomed .cities { opacity: 1; pointer-events: auto; }
+.pp-map .city { cursor: pointer; }
+.pp-map .city circle { fill: var(--pp-muted, #5d6762); stroke: var(--pp-bg, #fff); stroke-width: .8; vector-effect: non-scaling-stroke; opacity: .7; }
+.pp-map .city.has circle { fill: #04210a; opacity: 1; stroke: var(--pp-glow, #00ff9c); stroke-width: 2; filter: drop-shadow(0 0 2px rgba(0,255,156,.8)); }
+.pp-map .city:hover circle, .pp-map .city:focus-visible circle { stroke: var(--pp-green, #08cb00); outline: none; }
+.pp-map .city text { font-family: "Vazirmatn", Tahoma, sans-serif; font-size: 1.7px; fill: var(--pp-fg, #1b1f1d); paint-order: stroke; stroke: var(--pp-bg, #fff); stroke-width: .5px; text-anchor: middle; pointer-events: none; }
+.pp-map .city:not(.has) text { display: none; }
+
+.pp-map-tip {
+  position: fixed; z-index: 3000; pointer-events: none; padding: .35rem .7rem;
+  background: var(--pp-bg, #fff); color: var(--pp-fg, #1b1f1d); border: 1px solid var(--pp-border, #dfe7e3);
+  border-radius: 10px; font-size: .9rem; box-shadow: 0 6px 20px rgba(0,255,156,.28);
+}
+html[data-theme="dark"] .pp-map .c { stroke: var(--pp-bg, #0f1311); }
+@media (prefers-reduced-motion: reduce) { .pp-map .cities { transition: none; } }

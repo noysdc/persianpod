@@ -1,0 +1,19 @@
+{%- comment -%}
+  نقشه‌ی پادکسترها. هرجا خواستی بگذار: {% include pp-map.html %}
+  اگر نقشه روی صفحه‌ی /podcasts/ باشد، کلیک روی کشور/شهر همان‌جا فیلتر می‌کند؛
+  در صفحه‌های دیگر به /podcasts/ می‌رود.
+{%- endcomment -%}
+<link rel="stylesheet" href="{{ '/assets/css/pp-map.css' | relative_url }}">
+<section class="pp-map-section" dir="rtl" aria-label="نقشه‌ی پادکسترها">
+  <div class="pp-map-head">
+    <h2 id="pp-map-title">پادکسترها از کجا می‌آیند؟</h2>
+    <button type="button" id="pp-map-back" hidden>بازگشت به نقشه‌ی جهان</button>
+  </div>
+  <p class="pp-map-hint" id="pp-map-hint">روی کشورهای سبز بزنید. با کلیک روی ایران، شهرها نمایان می‌شوند.</p>
+  <div id="pp-map" class="pp-map"
+       data-map="{{ '/assets/data/pp-map-data.json' | relative_url }}"
+       data-podcasts="{{ '/podcasts.json' | relative_url }}"
+       data-list-url="{{ '/podcasts/' | relative_url }}"></div>
+  <div id="pp-map-tip" class="pp-map-tip" role="status" hidden></div>
+</section>
+<script src="{{ '/assets/js/pp-map.js' | relative_url }}" defer></script>

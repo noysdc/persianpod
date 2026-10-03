@@ -165,6 +165,16 @@
     fillOptions("#f-year-from", years, toFa);
     fillOptions("#f-year-to", years, toFa);
 
+    // پشتیبانی از لینک‌هایی مثل /podcasts/?city=تهران یا ?q=آلمان (برای نقشه)
+    var qs = new URLSearchParams(location.search);
+    if (qs.get("q")) $("#f-q").value = qs.get("q");
+    if (qs.get("city")) {
+      var want = norm(qs.get("city"));
+      Array.prototype.some.call($("#f-city").options, function (o) {
+        if (norm(o.value) === want) { $("#f-city").value = o.value; return true; }
+      });
+    }
+
     $("#pp-filters").addEventListener("input", render);
     $("#pp-filters").addEventListener("submit", function (e) { e.preventDefault(); });
     $("#b-random").addEventListener("click", function () { setMode("random"); });
