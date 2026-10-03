@@ -1,38 +1,42 @@
 ---
-layout: pp-base
+layout: default
 title: آموزش
+description: مطالب آموزشی برگزیده درباره‌ی ساخت، ضبط و رشد پادکست؛ لینک به منابع معتبر.
 permalink: /learn/
-description: لینک آموزش‌های رایگان پادکست‌سازی، به‌صورت متن، صدا و تصویر، از منبع‌های دیگر.
 ---
-{% assign items = site.data.learn %}
-<section class="intro">
-  <h1>آموزش پادکست‌سازی</h1>
-  <p>لینک آموزش‌های رایگان دیگران، به‌صورت متن، صدا و تصویر. فقط معرفی و لینک می‌دهیم و محتوا مال صاحبانش است.</p>
-</section>
-{% if items and items.size > 0 %}
-<div class="sort learn-filter" role="group" aria-label="نوع محتوا">
-  <button type="button" data-type="" aria-pressed="true">همه</button>
-  <button type="button" data-type="text" aria-pressed="false">متن</button>
-  <button type="button" data-type="audio" aria-pressed="false">صوتی</button>
-  <button type="button" data-type="video" aria-pressed="false">تصویری</button>
-</div>
-<ul class="learn-list">
-{% for it in items %}
-  <li class="learn-card" data-type="{{ it.type }}">
-    <a href="{{ it.url }}" target="_blank" rel="noopener">
-      <span class="badge">{% if it.type == 'audio' %}صوتی{% elsif it.type == 'video' %}تصویری{% else %}متن{% endif %}</span>
-      <h2>{{ it.title }}</h2>
-      <p class="src">{{ it.source }}{% if it.topic %} | {{ it.topic }}{% endif %}</p>
-      {% if it.note %}<p>{{ it.note }}</p>{% endif %}
+<style>
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 22px}
+.chips button{font:inherit;font-size:.9rem;padding:4px 14px;border:1px solid var(--line);border-radius:99px;background:var(--card);color:var(--ink);cursor:pointer}
+.chips button[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:var(--card)}
+.posts{display:grid;gap:14px}
+.post{display:block;padding:18px 20px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);text-decoration:none}
+.post:hover{border-color:var(--acc)}
+.post h2{margin:0 0 4px;font-size:1.15rem;line-height:1.7}
+.post p{margin:0 0 8px;color:var(--mut)}
+.meta{display:flex;flex-wrap:wrap;gap:12px;font-size:.82rem;color:var(--mut)}
+</style>
+<section class="wrap">
+  <h1>آموزش</h1>
+  <p class="count">مطالب آموزشی از سایت‌های دیگر که برای پادکست‌ساز و پادکست‌شنو مفیدند. با کلیک، صفحه‌ی اصلی مطلب باز می‌شود.</p>
+  {% assign cats = site.data.learn | map: 'category' | compact | uniq %}
+  <div class="chips" role="group" aria-label="دسته‌بندی">
+    <button data-c="" aria-pressed="true">همه</button>
+    {% for c in cats %}<button data-c="{{ c }}" aria-pressed="false">{{ c }}</button>{% endfor %}
+  </div>
+  <div class="posts">
+    {% assign items = site.data.learn | sort: 'date' | reverse %}
+    {% for p in items %}
+    <a class="post" data-c="{{ p.category }}" href="{{ p.url }}" target="_blank" rel="noopener">
+      <h2>{{ p.title }}</h2>
+      <p>{{ p.description }}</p>
+      <div class="meta">{% if p.source %}<span>{{ p.source }}</span>{% endif %}{% if p.category %}<span>{{ p.category }}</span>{% endif %}{% if p.date %}<span>{{ p.date }}</span>{% endif %}</div>
     </a>
-  </li>
-{% endfor %}
-</ul>
+    {% endfor %}
+  </div>
+</section>
 <script>
-(function(){var bs=[].slice.call(document.querySelectorAll('.learn-filter button')),cs=[].slice.call(document.querySelectorAll('.learn-card'));
-bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(x){x.setAttribute('aria-pressed',x===b)});
-cs.forEach(function(c){c.hidden=!!b.dataset.type&&c.dataset.type!==b.dataset.type})})})})();
+document.querySelectorAll('.chips button').forEach(b=>b.onclick=()=>{
+ document.querySelectorAll('.chips button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+ document.querySelectorAll('.post').forEach(p=>p.hidden=b.dataset.c&&p.dataset.c!==b.dataset.c);
+});
 </script>
-{% else %}
-<p class="empty">هنوز لینکی اضافه نشده است. فایل <code>_data/learn.yml</code> را ویرایش کنید.</p>
-{% endif %}

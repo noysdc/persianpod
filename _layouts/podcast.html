@@ -23,6 +23,7 @@ layout: default
     <section class="body">{{ content }}</section>
     <aside>
       <div class="links">
+        {% if page.embed or page.spotify or page.apple %}<a class="btn" href="{{ '/listen/?p=' | append: page.slug | relative_url }}">گوش بده</a>{% endif %}
         {% for l in site.data.links %}{% assign v = page[l.key] %}{% if v %}{% if l.contact and page.show_contact != true %}{% continue %}{% endif %}
         <a class="btn" rel="noopener" target="_blank" href="{{ l.prefix }}{{ v }}">{{ l.label }}</a>{% endif %}{% endfor %}
       </div>
