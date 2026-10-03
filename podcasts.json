@@ -1,0 +1,30 @@
+---
+layout: null
+permalink: /podcasts.json
+---
+{%- comment -%}
+  نگاشت فیلدها: اگر نام فیلدهای front matter پادکست‌هایت فرق دارد، فقط سمت راست را عوض کن.
+  فیلدهای مورد انتظار:
+    title, description, logo, year (سال شروع، شمسی مثل 1398), episodes (عدد),
+    avg_length (دقیقه), status (active یا inactive), category, tags (لیست),
+    city, country, rss
+{%- endcomment -%}
+[
+{%- for p in site.podcasts -%}
+{
+  "id": {{ p.slug | default: forloop.index | jsonify }},
+  "title": {{ p.title | jsonify }},
+  "description": {{ p.description | default: p.excerpt | strip_html | strip_newlines | truncate: 220 | jsonify }},
+  "logo": {{ p.logo | jsonify }},
+  "url": {{ p.url | relative_url | jsonify }},
+  "year": {{ p.year | default: null | jsonify }},
+  "episodes": {{ p.episodes | default: null | jsonify }},
+  "length": {{ p.avg_length | default: null | jsonify }},
+  "status": {{ p.status | default: "active" | jsonify }},
+  "category": {{ p.category | default: "سایر" | jsonify }},
+  "tags": {{ p.tags | default: empty | jsonify }},
+  "city": {{ p.city | jsonify }},
+  "country": {{ p.country | jsonify }}
+}{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+]
