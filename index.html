@@ -1,180 +1,39 @@
 ---
-layout: main
+layout: pp-base
+title: فهرست پادکست‌های فارسی
+description: مرجع رایگان و بدون تبلیغ پادکست‌های فارسی با توضیح، لینک‌ها و راه ارتباط.
 ---
+{% assign podcasts = site.podcasts | sort: "title" %}
+<section class="intro">
+  <h1>پادکست‌های فارسی</h1>
+  <p>همه‌ی پادکست‌ها یک جایگاه برابر دارند. ترتیب نمایش یا الفبایی است یا تصادفی.</p>
+</section>
 
-<div class="posts-list">
+<section class="controls" aria-label="فیلتر و ترتیب">
+  <input type="search" id="q" placeholder="جست‌وجوی نام پادکست" aria-label="جست‌وجو">
+  <select id="cat" aria-label="دسته"><option value="">همه‌ی دسته‌ها</option></select>
+  <select id="status" aria-label="وضعیت">
+    <option value="">همه‌ی وضعیت‌ها</option>
+    <option value="active">فعال</option>
+    <option value="inactive">متوقف</option>
+  </select>
+  <div class="sort" role="group" aria-label="ترتیب">
+    <button type="button" id="sort-alpha" aria-pressed="true">الفبایی</button>
+    <button type="button" id="sort-random" aria-pressed="false">تصادفی</button>
+  </div>
+</section>
 
-  {% assign decorCounter = 0 %}
-  {% assign visibleCounter = 0 %}
-  {% for post in paginator.posts %}
-  {% unless post.categories contains "podcast" %}
+<p id="empty" class="empty" hidden>پادکستی با این فیلتر پیدا نشد. فیلترها را بردارید.</p>
 
-  {% assign visibleCounter = visibleCounter | plus: 1 %}
-
-  {% if visibleCounter > 1 %}
-    {% assign groupRem = visibleCounter | minus: 1 %}
-    {% assign groupRem = groupRem | modulo: 3 %}
-    {% if groupRem == 0 %}
-      {% assign decorIndex = decorCounter | modulo: 4 %}
-      <div class="noys-decor" data-noys-parallax>
-        {% include decor-svg.html icon=decorIndex %}
-      </div>
-      {% assign decorCounter = decorCounter | plus: 1 %}
-    {% endif %}
-  {% endif %}
-
-  <article class="post {% unless post.img %}post-text-only{% endunless %}">
-
-    {% if post.img %}
-
-      <span class="post-thumbnail-frame">
-        <a
-          class="post-thumbnail"
-          href="{{ post.url | prepend: site.baseurl }}"
-          style="background-image: url('{{ "/assets/img/" | prepend: site.baseurl | append: post.img }}');"
-          aria-label="{{ post.title }}"
-        ></a>
-      </span>
-
-    {% endif %}
-
-
-    <div class="post-content">
-
-      <h2 class="post-title">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          {{ post.title }}
-        </a>
-      </h2>
-
-
-      {% if post.content %}
-
-      <p>
-        {{ post.content | strip_html | truncatewords: 25 }}
-      </p>
-
-      {% endif %}
-
-
-      <div class="post-meta">
-
-        <span class="post-date">
-          {{ post.date | date: '%Y/%m/%d' }}
-        </span>
-
-        <span class="post-meta-separator">
-          —
-        </span>
-
-        <span class="post-words">
-
-          {% capture words %}
-            {{ post.content | number_of_words }}
-          {% endcapture %}
-
-          {% unless words contains "-" %}
-
-            {{ words
-              | plus: 250
-              | divided_by: 250
-              | append: " دقیقه مطالعه"
-            }}
-
-          {% endunless %}
-
-        </span>
-
-      </div>
-
-    </div>
-
-  </article>
-
-  {% endunless %}
-  {% endfor %}
-
-</div>
-
-
-{% include pagination.html %}
-
-
-<style>
-
-/* =========================================================
-   NOYS - HOME POSTS
-   ========================================================= */
-
-.posts-list {
-  width: 100%;
-
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
-}
-
-
-/* =========================================================
-   POST META
-   ========================================================= */
-
-.post-meta {
-
-  display: flex;
-
-  align-items: center;
-
-  flex-wrap: wrap;
-
-  gap: 8px;
-
-  direction: rtl;
-
-}
-
-
-.post-meta-separator {
-  color: #aaa;
-}
-
-
-/* =========================================================
-   MOBILE
-   ========================================================= */
-
-@media (max-width: 768px) {
-
-  .posts-list {
-    gap: 16px;
-  }
-
-}
-
-/* =========================================================
-   NOYS - آیکون‌های تزئینیِ بین پست‌ها
-   ========================================================= */
-
-.noys-decor {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0 18px;
-  color: #263959;
-  opacity: 0.82;
-}
-
-.noys-decor-svg {
-  width: 108px;
-  height: 108px;
-  overflow: visible;
-}
-
-@media (max-width: 768px) {
-  .noys-decor-svg {
-    width: 84px;
-    height: 84px;
-  }
-}
-
-</style>
+<ul class="grid" id="grid">
+{% for p in podcasts %}
+  <li class="card" data-title="{{ p.title | escape }}" data-category="{{ p.category | escape }}" data-status="{{ p.status | default: 'active' }}">
+    <a href="{{ p.url | relative_url }}">
+      {% if p.logo %}<img src="{{ p.logo | relative_url }}" alt="" width="200" height="200" loading="lazy">{% endif %}
+      <h2>{{ p.title }}</h2>
+      <p>{{ p.description | truncate: 110 }}</p>
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<script src="{{ '/assets/js/directory.js' | relative_url }}" defer></script>

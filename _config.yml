@@ -84,3 +84,14 @@ exclude:
   - "gulpfile.js"
   - "package.json"
   - "yarn.lock"
+
+# این بخش را به انتهای فایل _config.yml اضافه کنید (بقیه‌ی فایل را دست نزنید)
+title: پرشین‌پاد
+description: مرجع رایگان و بدون تبلیغ پادکست‌های فارسی
+url: https://persianpod.ir
+baseurl: ""
+collections:
+  podcasts:
+    output: true
+    permalink: /podcasts/:name/
+
