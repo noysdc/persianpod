@@ -4,7 +4,7 @@ const n=s=>String(s||'').toLowerCase().replace(/ي/g,'ی').replace(/ك/g,'ک').r
 const e=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fa=x=>String(x).replace(/\d/g,d=>'۰۱۲۳۴۵۶۷۸۹'[d]);
 const yr=p=>{const l=parseInt(p.last);return l?(p.status==='active'?new Date().getFullYear():l):0};
-const card=p=>`<a class="card" href="${e(p.url)}">${p.logo?`<img src="${e(p.logo)}" alt="" loading="lazy">`:`<i class="ph">${e((p.title||'').trim().charAt(0))}</i>`}<div><h3>${e(p.title)}</h3><p>${e(p.description)}</p><div class="tags"><span>${e(p.category)}</span>${p.subcategory?`<span>${e(p.subcategory)}</span>`:''}<span class="st ${e(p.status)}">${S[p.status]||''}</span></div></div></a>`;
+const card=p=>`<a class="tile" href="${e(p.url)}" title="${e(p.description)}"><span class="sq">${p.logo?`<img src="${e(p.logo)}" alt="" loading="lazy">`:`<i class="ph">${e((p.title||'').trim().charAt(0))}</i>`}</span><h3>${e(p.title)}</h3><small><i class="dot ${e(p.status)}"></i>${e(p.category)}${p.subcategory?'، '+e(p.subcategory):''}</small></a>`;
 const uniq=(a,k)=>[...new Set(a.map(x=>x[k]).filter(Boolean))].sort((x,y)=>x.localeCompare(y,'fa'));
 const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 if(!document.getElementById('list')&&!document.getElementById('similar'))return;
