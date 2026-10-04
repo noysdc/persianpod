@@ -1,135 +1,21 @@
-<!doctype html>
-<html lang="fa" dir="rtl">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>پرسشنامه‌ی معرفی پادکست | PersianPod.ir</title>
-<style>
-:root{--g:#08CB00;--ink:#1d2a1d;--mut:#5d6b5d;--bg:#f7fbf6;--line:#cfe0cc}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.9 Tahoma,"Segoe UI",system-ui,sans-serif}
-main{max-width:680px;margin:0 auto;padding:24px 16px 64px}
-h1{font-size:1.5rem;margin:.3em 0}
-.lead{color:var(--mut)}
-fieldset{border:1px solid var(--line);border-radius:12px;background:#fff;margin:20px 0;padding:8px 18px 18px;box-shadow:0 0 14px #00ff9c26}
-legend{font-weight:700;padding:0 8px}
-label.f,div.f{display:block;margin-top:16px;font-weight:700}
-.h{display:block;font-weight:400;color:var(--mut);font-size:.88rem}
-input[type=text],select,textarea{width:100%;margin-top:6px;padding:10px;border:1px solid var(--line);border-radius:8px;font:inherit;background:#fff}
-textarea{min-height:110px;resize:vertical}
-input:focus,select:focus,textarea:focus,button:focus-visible{outline:2px solid var(--g);outline-offset:1px}
-.o{display:block;font-weight:400;margin-top:6px}
-button{margin-top:20px;padding:12px 28px;border:0;border-radius:10px;background:var(--g);color:#032b00;font-family:inherit;font-weight:700;font-size:1rem;cursor:pointer}
-button:disabled{opacity:.6}
-#msg{margin-top:14px;font-weight:700}.err{color:#b3261e}.ok{color:#0a7a00}
-.hp{position:absolute;left:-9999px}
-</style>
-</head>
-<body>
-<main>
-<h1>پرسشنامه‌ی معرفی پادکست</h1>
-<p class="lead">سلام و وقت‌بخیر! این فرم برای ساختن یک صفحه‌ی کامل و مقاله‌مانند برای پادکست شماست. هرچه کامل‌تر و صمیمی‌تر بنویسید، صفحه‌ی بهتری ساخته می‌شود. هر بخشی که مناسب نبود را خالی بگذارید. موارد ستاره‌دار الزامی‌اند.</p>
-<form id="f">
-<div id="fields"></div>
-<input class="hp" name="hp_url" tabindex="-1" autocomplete="off" aria-hidden="true">
-<div id="ts"></div>
-<button id="go">ارسال فرم</button>
-<p id="msg" role="status"></p>
-</form>
-</main>
-<script>
-const ENDPOINT='/api/form', SITEKEY='';
-const S=[
-['اطلاعات پایه',[
-['name_fa','نام پادکست (فارسی)','text',1],
-['name_en','نام پادکست (انگلیسی)','text',0,'اگر ندارد خالی بگذارید'],
-['category','دسته‌بندی','select',1,'',['فناوری','آموزشی','داستان و ادبیات','کسب‌وکار','سبک زندگی','طنز','روانشناسی','تاریخ','سایر']],
-['short','توضیح کوتاه (حداکثر ۲۰۰ کاراکتر)','area',1,'برای کارت پادکست در لیست‌ها'],
-['started','سال شروع','text',0,'مثلاً: ۱۴۰۱'],
-['episodes','تعداد تقریبی قسمت‌ها','text'],
-['schedule','زمان‌بندی انتشار','text',0,'مثلاً: هر هفته'],
-['status','وضعیت پادکست','select',0,'',['فعال','متوقف','تمام‌شده']],
-['city','شهر','text',0,'اختیاری؛ فقط نام شهر، نه آدرس. روی نقشه‌ی سایت نمایش داده می‌شود'],
-['country','کشور','text'],
-['logo','لوگو','file',0,'مربع، حداقل ۱۰۰۰×۱۰۰۰ پیکسل، PNG یا JPG، حداکثر ۵ مگابایت']]],
-['داستان پادکست',[
-['story','ایده از کجا شروع شد؟','area',0,'یک پاراگراف (حدود ۸۰ تا ۱۵۰ کلمه). چه شد که تصمیم گرفتید پادکست بسازید؟ اولین قسمت چطور بود؟']]],
-['درباره‌ی پادکست و مخاطب',[
-['about','پادکست درباره‌ی چیست؟','area',0,'موضوع، فضا و لحن پادکست'],
-['audience','مخاطب شما چه کسانی‌اند و شنونده چه چیزی می‌گیرد؟','area'],
-['different','چه چیزی پادکست شما را متفاوت می‌کند؟','area']]],
-['میزبان و نویسنده',[
-['hosts','نام میزبان (یا میزبان‌ها) و نویسنده','text',0,'اگر چند نفرند، همه را بنویسید'],
-['hosts_bio','معرفی کوتاه میزبان/نویسنده','area',0,'پیشینه، تخصص و ارتباط با موضوع پادکست']]],
-['عوامل تولید',[
-['producer','تهیه‌کننده','text'],['editor','تدوین و میکس','text'],['music','موسیقی و جینگل','text'],
-['graphic','طراحی گرافیک','text'],['social','مدیر شبکه‌های اجتماعی','text'],['crew_other','سایر (نقش و نام)','text'],
-['process','روند تولید','area',0,'یک قسمت چطور ساخته می‌شود؟ از انتخاب موضوع تا ضبط، تدوین و انتشار']]],
-['قسمت‌های پیشنهادی',[
-['eps_rec','برای شروع شنیدن، کدام قسمت‌ها را پیشنهاد می‌دهید؟','area',0,'نام ۳ تا ۵ قسمت و یک جمله درباره‌ی هر کدام']]],
-['گفت‌وگوی کوتاه',[
-['why','چرا پادکست می‌سازید؟','area'],
-['hard','سخت‌ترین بخش پادکست‌سازی برای شما چیست؟','area'],
-['advice','به کسی که می‌خواهد پادکست بسازد چه توصیه‌ای دارید؟','area'],
-['fav','پادکست پیشنهادی و مورد علاقه‌ی شما (غیر از پادکست خودتان)','area',0,'در صفحه‌ی شما نمایش داده می‌شود'],
-['newcomer','پادکست نوپایی که قصد حمایت و معرفی‌اش را دارید','area',0,'نام و لینک']]],
-['پخش و امبد',[
-['castbox','لینک یا شناسه‌ی پادکست شما در Castbox','text',0,'از روی آن پلیر را در سایت قرار می‌دهیم'],
-['rss','لینک RSS پادکست','text',0,'اختیاری'],
-['yt_ep','لینک یک قسمت منتخب در یوتیوب','text',0,'اختیاری'],
-['other_ep','لینک یک قسمت منتخب در سایر پلتفرم‌ها','text',0,'اختیاری']]],
-['لینک‌ها و راه‌های ارتباطی',[
-['telegram','کانال یا گروه تلگرام','text'],['instagram','اینستاگرام','text'],
-['platforms','اسپاتیفای / اپل پادکست / سایر پلتفرم‌ها','text',0,'لینک‌ها را بنویسید'],
-['site','وب‌سایت یا یوتیوب','text'],['email','ایمیل','text']]],
-['همکاری و اسپانسری',[
-['collab','آیا برای همکاری یا اسپانسری آماده‌اید؟','select',0,'',['بله','خیر','بسته به پیشنهاد']],
-['collab_types','چه نوع همکاری‌ای را می‌پذیرید؟','text',0,'مثلاً: اسپانسری قسمت، مهمان، همکاری محتوایی'],
-['sponsor_tg','آیدی تلگرام برای ارتباط مستقیم اسپانسرها','text',0,'فقط آیدی، نه شماره‌ی تلفن']]],
-['آموزش‌های رایگان پادکست‌سازی (اختیاری)',[
-['edu','لینک آموزش‌های رایگان شما','area',0,'فقط آموزش‌های رایگان. در بخش وبلاگ معرفی می‌شود']]],
-['رضایت انتشار',[
-['consent','من رضایت دارم که پادکستم در سایت PersianPod.ir قرار بگیرد و می‌دانم هر زمان که بخواهم می‌توانم درخواست حذف بدهم.','check',1],
-['email_vis','نمایش ایمیل','radio',0,'اگر انتخاب نکنید، ایمیل شما منتشر نمی‌شود',['در سایت نمایش داده شود','فقط برای تیم سایت باشد']],
-['sponsor_vis','آیدی تلگرام من برای ارتباط اسپانسرها در سایت نمایش داده شود','check']]]
-];
-const $=s=>document.querySelector(s);
-const msg=(t,e)=>{const m=$('#msg');m.textContent=t;m.className=e?'err':'ok'};
-const dl=(t,n)=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([t],{type:'text/markdown'}));a.download=n+'.md';a.textContent=' دانلود فایل';$('#msg').append(a)};
-$('#fields').innerHTML=S.map(([t,fs])=>`<fieldset><legend>${t}</legend>`+fs.map(([k,l,ty,r,h,o])=>{
- const st=r?' *':'',hn=h?`<span class="h">${h}</span>`:'',rq=r?'required':'';
- if(ty=='check')return `<label class="o"><input type="checkbox" name="${k}" ${rq}> ${l}${st}</label>`;
- if(ty=='radio')return `<div class="f">${l}${hn}`+o.map(v=>`<label class="o"><input type="radio" name="${k}" value="${v}"> ${v}</label>`).join('')+'</div>';
- const c=ty=='area'?`<textarea name="${k}" dir="auto" ${rq}></textarea>`
-  :ty=='select'?`<select name="${k}" ${rq}><option value="">انتخاب کنید</option>${o.map(v=>`<option>${v}</option>`).join('')}</select>`
-  :`<input type="${ty=='file'?'file':'text'}" name="${k}" dir="auto" ${ty=='file'?'accept="image/png,image/jpeg"':''} ${rq}>`;
- return `<label class="f">${l}${st}${hn}${c}</label>`}).join('')+'</fieldset>').join('');
-$('[name=short]').maxLength=200;
-if(SITEKEY){const s=document.createElement('script');s.src='https://challenges.cloudflare.com/turnstile/v0/api.js';s.async=true;document.head.append(s);$('#ts').innerHTML=`<div class="cf-turnstile" data-sitekey="${SITEKEY}"></div>`}
-$('[name=logo]').onchange=e=>{const f=e.target.files[0];if(!f)return;msg('');
- if(!/^image\/(png|jpeg)$/.test(f.type)||f.size>5e6){e.target.value='';return msg('لوگو باید PNG یا JPG و حداکثر ۵ مگابایت باشد.',1)}
- const i=new Image();i.onload=()=>{if(i.width<1000||i.height<1000||i.width!=i.height)msg('نکته: لوگوی مربع و حداقل ۱۰۰۰×۱۰۰۰ بهتر است، ولی می‌توانید همین را بفرستید.')};i.src=URL.createObjectURL(f)};
-function build(fd){
- const q=JSON.stringify,fm=[],body=[];
- S.forEach(([t,fs])=>{const sec=[];fs.forEach(([k,l,ty])=>{
-  if(ty=='file')return;
-  const v=ty=='check'?!!fd.get(k):(fd.get(k)||'').toString().trim();
-  if(ty=='area'){if(v)sec.push(`### ${l}\n\n${v}\n`)}else fm.push(`${k}: ${ty=='check'?v:q(v)}`)});
-  if(sec.length)body.push(`## ${t}\n\n${sec.join('\n')}`)});
- return `---\n${fm.join('\n')}\nsubmitted: ${q(new Date().toISOString())}\n---\n\n# ${fd.get('name_fa')}\n\n${body.join('\n')}`}
-$('#f').onsubmit=async e=>{
- e.preventDefault();const fd=new FormData(e.target),b=$('#go');
- if(fd.get('hp_url'))return;
- const text=build(fd),slug=(fd.get('name_en')||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'podcast-'+Date.now().toString(36);
- const out=new FormData();
- out.append('md',new Blob([text],{type:'text/markdown'}),slug+'.md');
- out.append('title',fd.get('name_fa'));
- const lg=fd.get('logo');if(lg&&lg.size)out.append('logo',lg,slug+(lg.type=='image/png'?'.png':'.jpg'));
- if(SITEKEY)out.append('cf-turnstile-response',fd.get('cf-turnstile-response')||'');
- b.disabled=true;msg('در حال ارسال…');
- try{const r=await fetch(ENDPOINT,{method:'POST',body:out});if(!r.ok)throw 0;e.target.reset();msg('ارسال شد. ممنون از وقتی که گذاشتید 🌱')}
- catch{b.disabled=false;msg('ارسال انجام نشد. فایل را دانلود کنید و برای ما بفرستید.',1);dl(text,slug)}
-};
-</script>
-</body>
-</html>
+---
+layout: default
+title: پرسشنامه‌ی معرفی پادکست
+permalink: /form/
+description: فرم رایگان معرفی پادکست در پرشین‌پاد؛ با پر کردن آن یک صفحه‌ی کامل برای پادکست شما ساخته می‌شود.
+styles: [/assets/css/pp-form.css]
+scripts: [/assets/js/pp-form.js]
+---
+<section class="pp-form">
+  <h1>پرسشنامه‌ی معرفی پادکست</h1>
+  <p class="pf-lead">سلام و وقت‌بخیر! این فرم برای ساختن یک صفحه‌ی کامل و مقاله‌مانند برای پادکست شماست. هرچه کامل‌تر و صمیمی‌تر بنویسید، صفحه‌ی بهتری ساخته می‌شود. هر بخشی که مناسب نبود را خالی بگذارید. موارد ستاره‌دار الزامی‌اند. پاسخ‌ها به‌صورت خودکار در همین مرورگر پیش‌نویس می‌شوند تا اگر صفحه بسته شد از دست نروند.</p>
+  <form id="f" novalidate>
+    <div id="fields"><noscript><p class="pf-msg err">برای پر کردن فرم، جاوااسکریپت مرورگر باید فعال باشد.</p></noscript></div>
+    <input class="pf-hp" name="hp_url" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div id="ts"></div>
+    <div class="pf-submit">
+      <button id="go" type="submit">ارسال فرم</button>
+      <p id="msg" class="pf-msg" role="status" aria-live="polite"></p>
+    </div>
+  </form>
+</section>

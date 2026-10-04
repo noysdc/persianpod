@@ -1,23 +1,33 @@
 ---
 layout: default
-description: پادکست فارسی پیدا کن؛ جست‌وجو بر اساس موضوع، شهر، وضعیت و تعداد اپیزود.
+filters: true
+description: پادکست فارسی پیدا کن؛ دسته‌بندی، جست‌وجوی پیشرفته و فیلتر بر اساس شهر، وضعیت، سال شروع، تعداد و طول اپیزود.
+styles: [/assets/css/pp-dir.css]
+scripts: [/assets/js/pp-directory.js]
 ---
-<section class="hero wrap">
-  <h1>پادکست فارسی پیدا کن</h1>
-  <div class="filters">
-    <select id="category" aria-label="موضوع"><option value="">همه‌ی موضوع‌ها</option></select>
-    <select id="status" aria-label="وضعیت"><option value="">همه‌ی وضعیت‌ها</option><option value="active">فعال</option><option value="paused">متوقف</option><option value="ended">پایان‌یافته</option></select>
-    <select id="language" aria-label="زبان"><option value="">همه‌ی زبان‌ها</option></select>
-    <select id="city" aria-label="محل فعالیت"><option value="">همه‌ی شهرها</option></select>
-    <select id="eps" aria-label="تعداد اپیزود"><option value="">هر تعداد اپیزود</option><option value="0-20">تا ۲۰ اپیزود</option><option value="0-50">تا ۵۰ اپیزود</option><option value="0-100">تا ۱۰۰ اپیزود</option><option value="101-99999">بیش از ۱۰۰ اپیزود</option></select>
-    <select id="year" aria-label="سال فعالیت"><option value="">هر سالی</option></select>
-    <select id="sort" aria-label="ترتیب"><option value="alpha">الفبایی</option><option value="random">تصادفی</option><option value="recent">تازه‌ترین اپیزود</option></select>
+{% assign total = site.podcasts | size %}
+<section class="pd" aria-label="فهرست پادکست‌ها">
+  <div class="pd-head">
+    <h1>پادکست فارسی پیدا کن</h1>
+    <p class="pd-sub"><b>{{ total }}</b> پادکست · <b>{{ site.podcasts | map: 'category' | compact | uniq | size }}</b> دسته · <b>{{ site.podcasts | map: 'city' | compact | uniq | size }}</b> شهر</p>
   </div>
-  {% assign n = site.podcasts | size %}
-  <p class="stats" data-fa><b>{{ n }}</b> پادکست فارسی · <b>{{ site.podcasts | map: 'category' | compact | uniq | size }}</b> موضوع · <b>{{ site.podcasts | map: 'city' | compact | uniq | size }}</b> شهر</p>
-</section>
-<section class="wrap">
-  <p id="count" class="count" aria-live="polite"></p>
-  <div id="list" class="grid"></div>
-  <button id="more" class="btn" hidden>نمایش بیشتر</button>
+  <div id="pd-chips" class="pd-chips" aria-label="فیلترهای فعال"></div>
+  <p id="pd-count" class="pd-count" aria-live="polite"></p>
+  <div id="pd-results">
+    <div class="pd-grid">
+      {% assign sorted = site.podcasts | sort: 'title' %}
+      {% for p in sorted %}
+      {% assign logo = p.logo %}{% if logo and logo contains '://' %}{% assign logo_url = logo %}{% elsif logo %}{% assign logo_url = logo | relative_url %}{% else %}{% assign logo_url = '' %}{% endif %}
+      <a class="pd-card" href="{{ p.url | relative_url }}">
+        <span class="pd-logo">{% if logo_url != '' %}<img src="{{ logo_url }}" alt="" loading="lazy" width="72" height="72">{% else %}<i>{{ p.title | slice: 0 }}</i>{% endif %}</span>
+        <span class="pd-body"><h3>{{ p.title }}</h3>{% if p.description %}<span class="pd-desc">{{ p.description | strip_html | truncate: 140 }}</span>{% endif %}
+        <span class="pd-meta"><span class="pd-b">{{ p.category }}</span></span></span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  <section id="pd-similar-wrap" hidden>
+    <h2 class="pd-h2">پادکست‌های مشابه</h2>
+    <div id="pd-similar" class="pd-grid"></div>
+  </section>
 </section>

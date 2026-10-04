@@ -15,7 +15,8 @@
 <script>(function(){try{var d=document.documentElement,t=localStorage.getItem('pp-theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';d.setAttribute('data-theme',t);var f=parseFloat(localStorage.getItem('pp-fs'));if(f)d.style.setProperty('--fs',f)}catch(e){}})()</script>
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-tools.css' | relative_url }}">
-</head>
+{% for s in page.styles %}<link rel="stylesheet" href="{{ s | relative_url }}">
+{% endfor %}</head>
 <body data-search="{{ '/search.json' | relative_url }}">
 <a class="pp-skip" href="#main">رفتن به محتوا</a>
 
@@ -51,15 +52,23 @@
   </header>
 </div>
 
-<div class="pp-shell">
-  <aside class="pp-side">
+{% assign cat_names = site.podcasts | map: 'category' | compact | uniq | sort %}
+<div class="pp-shell{% if page.filters %} has-filters{% endif %}">
+  <aside class="pp-side" aria-label="کنار صفحه">
     <div class="pp-side-brand">
       <a class="pp-side-logo" href="{{ '/' | relative_url }}" aria-label="پرشین‌پاد">{% include pp-icon-anim.html %}</a>
       <strong>پرشین‌پاد</strong>
-      <p>مرجع رایگان و بدون تبلیغ پادکست‌های فارسی.</p>
     </div>
+    <nav class="pp-cats" aria-label="دسته‌بندی‌ها">
+      <h2 class="pp-side-title">دسته‌بندی‌ها</h2>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}" data-cat="">همه <span class="n">{{ site.podcasts.size }}</span></a></li>
+        {% for c in cat_names %}{% assign cq = c | uri_escape %}{% assign cn = site.podcasts | where: 'category', c | size %}
+        <li><a href="{{ '/?category=' | append: cq | relative_url }}" data-cat="{{ c | escape }}">{{ c }} <span class="n">{{ cn }}</span></a></li>
+        {% endfor %}
+      </ul>
+    </nav>
     <div class="pp-side-contact">
-      <span class="pp-side-label">ارتباط با ما</span>
       <div class="pp-icons">
         <a href="{{ site.telegram }}" target="_blank" rel="noopener" aria-label="کانال تلگرام" title="تلگرام">
           <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 3 2 11l6 2 2 7 4-5 6 4z"/></svg>
@@ -78,10 +87,12 @@
     </div>
   </aside>
   <main id="main">{{ content }}</main>
+  {% if page.filters %}{% include pp-filters.html %}{% endif %}
 </div>
 
 <footer>رایگان، بدون تبلیغ و بدون جایگاه ویژه. برای ثبت پادکست یا درخواست حذف: <a href="mailto:{{ site.email }}">{{ site.email }}</a></footer>
 <script src="{{ '/assets/js/pp-tools.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/app.js' | relative_url }}" defer></script>
-</body>
+{% for s in page.scripts %}<script src="{{ s | relative_url }}" defer></script>
+{% endfor %}</body>
 </html>

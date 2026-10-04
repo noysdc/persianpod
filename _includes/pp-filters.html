@@ -1,0 +1,53 @@
+<aside class="pp-filters-side" id="pd-aside" aria-label="فیلترها و جست‌وجوی پیشرفته">
+  <button type="button" class="pd-ftoggle" id="pd-ftoggle" aria-expanded="false" aria-controls="pd-filters">
+    <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18M6 12h12M10 19h4"/></svg>
+    فیلترها و جست‌وجوی پیشرفته <span class="pd-fcount" id="pd-fcount" hidden></span>
+  </button>
+  <form id="pd-filters" class="pd-filters" autocomplete="off" role="search" aria-label="فیلتر پادکست‌ها">
+    <h2 class="pp-side-title">فیلتر و جست‌وجوی پیشرفته</h2>
+
+    <label>وضعیت
+      <select id="f-status"><option value="">همه</option><option value="active">فعال</option><option value="inactive">غیرفعال</option></select>
+    </label>
+    <label>شهر یا محل فعالیت
+      <select id="f-city"><option value="">همه</option></select>
+    </label>
+    <label>زبان
+      <select id="f-lang"><option value="">همه</option></select>
+    </label>
+
+    <fieldset class="pd-range">
+      <legend>سال شروع (شمسی)</legend>
+      <select id="f-yf" aria-label="از سال"><option value="">از</option></select>
+      <select id="f-yt" aria-label="تا سال"><option value="">تا</option></select>
+    </fieldset>
+    <fieldset class="pd-range">
+      <legend>تعداد اپیزود</legend>
+      <input type="text" id="f-emin" inputmode="numeric" placeholder="حداقل" aria-label="حداقل اپیزود">
+      <input type="text" id="f-emax" inputmode="numeric" placeholder="حداکثر" aria-label="حداکثر اپیزود">
+    </fieldset>
+    <fieldset class="pd-range">
+      <legend>طول هر اپیزود (دقیقه)</legend>
+      <input type="text" id="f-lmin" inputmode="numeric" placeholder="حداقل" aria-label="حداقل دقیقه">
+      <input type="text" id="f-lmax" inputmode="numeric" placeholder="حداکثر" aria-label="حداکثر دقیقه">
+    </fieldset>
+
+    <label>نام سازنده یا میزبان
+      <input type="text" id="f-creator" placeholder="مثلاً: نام میزبان">
+    </label>
+    <label>موضوع یا برچسب
+      <input type="text" id="f-tag" placeholder="مثلاً: تاریخ، نجوم">
+    </label>
+
+    <label>مرتب‌سازی
+      <select id="f-sort">
+        <option value="random">تصادفی</option>
+        <option value="alpha">الفبایی</option>
+        <option value="eps">بیشترین اپیزود</option>
+        <option value="new">تازه‌ترین شروع</option>
+      </select>
+    </label>
+    <label class="pd-check"><input type="checkbox" id="f-group" checked> گروه‌بندی بر اساس دسته</label>
+    <button type="button" id="f-reset" class="pd-reset">پاک‌کردن همه‌ی فیلترها</button>
+  </form>
+</aside>
