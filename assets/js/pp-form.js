@@ -1,4 +1,4 @@
-/* PersianPod — ارسال پرسشنامه به ایمیل از طریق Web3Forms، با ذخیره‌ی پیش‌نویس */
+/* PersianPod — ارسال پرسشنامه به ایمیل از طریق Cloudflare Worker روی همین دامنه (/api/form)، با ذخیره‌ی پیش‌نویس */
 (function () {
   "use strict";
   var form = document.getElementById("pp-join");
@@ -86,16 +86,10 @@
       return;
     }
 
-    var key = form.dataset.key;
     var data = collect();
-    if (!key) {
-      fail("کلید ارسال فرم هنوز تنظیم نشده است.");
-      fallback.hidden = false; return;
-    }
-    data.access_key = key;
 
     submit.disabled = true; status.textContent = "در حال ارسال…";
-    fetch("https://api.web3forms.com/submit", {
+    fetch("/api/form", {
       method: "POST",
       headers: { "Content-Type": "application/json", Accept: "application/json" },
       body: JSON.stringify(data)

@@ -1,0 +1,8 @@
+{
+  // Only needed if you deploy with the Wrangler CLI. With the dashboard, add the same settings by hand.
+  "name": "persianpod-form",
+  "main": "index.js",
+  "compatibility_date": "2025-09-01",
+  "send_email": [{ "name": "EMAIL", "destination_address": "YOUR_VERIFIED_GMAIL@gmail.com" }],
+  "routes": [{ "pattern": "persianpod.ir/api/form*", "zone_name": "persianpod.ir" }]
+}
