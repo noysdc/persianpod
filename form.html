@@ -2,7 +2,7 @@
 layout: default
 title: پرسشنامه‌ی معرفی پادکست
 permalink: /form/
-description: فرم رایگان معرفی پادکست در پرشین‌پاد؛ با پر کردن آن یک صفحه‌ی کامل برای پادکست شما ساخته می‌شود.
+description: فرم رایگان معرفی پادکست در پرشین‌پاد؛ با پر کردن آن یک صفحه‌ی اختصاصی و مقاله‌مانند برای پادکست شما ساخته می‌شود.
 styles: [/assets/css/pp-form.css]
 scripts: [/assets/js/pp-form-fields.js, /assets/js/pp-form.js]
 ---
@@ -12,7 +12,12 @@ scripts: [/assets/js/pp-form-fields.js, /assets/js/pp-form.js]
 {% endcomment %}
 <section class="pp-form">
   <h1>پرسشنامه‌ی معرفی پادکست</h1>
-  <p class="pf-lead">سلام و وقت‌بخیر! این فرم برای ساختن یک صفحه‌ی کامل و مقاله‌مانند برای پادکست شماست. هرچه کامل‌تر و صمیمی‌تر بنویسید، صفحه‌ی بهتری ساخته می‌شود. هر بخشی که مناسب نبود را خالی بگذارید. موارد ستاره‌دار الزامی‌اند. پاسخ‌ها به‌صورت خودکار در همین مرورگر پیش‌نویس می‌شوند تا اگر صفحه بسته شد از دست نروند.</p>
+  <p class="pf-lead">از اینکه می‌خواهید پادکستتان را به شنوندگان فارسی‌زبان معرفی کنید سپاسگزاریم. پاسخ‌های شما پایه‌ی یک صفحه‌ی اختصاصی و مقاله‌مانند برای پادکست شما در پرشین‌پاد است؛ هرچه دقیق‌تر و صمیمانه‌تر بنویسید، صفحه‌ی بهتری ساخته می‌شود.</p>
+  <ul class="pf-tips">
+    <li>موارد دارای <b class="pf-req">*</b> الزامی‌اند و بقیه اختیاری؛ بخشی که برایتان مناسب نیست را خالی بگذارید.</li>
+    <li>پاسخ‌ها به‌صورت خودکار فقط در همین مرورگر پیش‌نویس می‌شوند تا اگر صفحه بسته شد از دست نروند.</li>
+    <li>پر کردن فرم و انتشار پادکست در پرشین‌پاد رایگان است.</li>
+  </ul>
   <form id="f" novalidate>
     <div id="fields">
       <p id="pf-loading" class="pf-msg">در حال بارگذاری فرم…</p>
@@ -21,11 +26,28 @@ scripts: [/assets/js/pp-form-fields.js, /assets/js/pp-form.js]
     <input class="pf-hp" name="hp_url" tabindex="-1" autocomplete="off" aria-hidden="true">
     <div id="ts"></div>
     <div class="pf-submit">
+      <div class="pf-prog-row">
+        <div id="pf-progress" class="pf-prog" role="progressbar" aria-label="پیشرفت تکمیل موارد الزامی" aria-valuemin="0" aria-valuenow="0" aria-valuemax="1"><span id="pf-bar"></span></div>
+        <span id="pf-ptext" class="pf-ptext"></span>
+      </div>
       <button id="go" type="submit">ارسال فرم</button>
       <p id="msg" class="pf-msg" role="status" aria-live="polite"></p>
     </div>
   </form>
 </section>
+
+<div class="pf-modal" id="pf-modal" hidden>
+  <div class="pf-modal-box" role="dialog" aria-modal="true" aria-labelledby="pf-m-t" aria-describedby="pf-m-d" tabindex="-1">
+    <div class="pf-modal-ic" aria-hidden="true">🌱</div>
+    <h2 id="pf-m-t">فرم شما با موفقیت ارسال شد</h2>
+    <p id="pf-m-d">از اینکه پادکستتان را به پرشین‌پاد معرفی کردید، سپاسگزاریم. پاسخ‌های شما به دست ما رسید و بررسی می‌شود. اگر به اطلاعات بیشتری نیاز باشد یا صفحه‌ی پادکست شما آماده شود، از طریق ایمیلی که ثبت کرده‌اید با شما در تماس خواهیم بود.</p>
+    <div class="pf-modal-actions">
+      <a class="pf-btn" href="{{ '/' | relative_url }}">بازگشت به صفحه‌ی اصلی</a>
+      <button type="button" class="pf-btn-ghost" id="pf-m-close" data-close>بستن</button>
+    </div>
+  </div>
+</div>
+
 <script>
   /* اگر بعد از چند ثانیه سؤال‌ها نیامد (اسکریپت بلاک شد یا خطا داد)، پیام روشن نشان بده */
   setTimeout(function () {

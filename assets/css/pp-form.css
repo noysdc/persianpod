@@ -1,58 +1,92 @@
-/* PersianPod: پرسشنامه. همه‌ی قاعده‌ها زیر .pp-form هستند تا به منو و ستون‌ها دست نزنند. */
+/* PersianPod: پرسشنامه. همه‌ی قاعده‌ها زیر .pp-form (و پنجره‌ی تشکر) هستند تا به منو و ستون‌ها دست نزنند. */
 
-.pp-form{max-width:860px;margin:0 auto;padding:4px 0 40px}
-.pp-form h1{margin:6px 0 8px;font-size:clamp(1.5rem,4.5vw,2.2rem)}
-.pf-lead{margin:0 0 6px;color:var(--mut)}
+.pp-form{max-width:880px;margin:0 auto;padding:4px 0 40px}
+.pp-form h1{margin:6px 0 10px;font-size:clamp(1.55rem,4.6vw,2.3rem);text-align:center}
+.pf-lead{margin:0 auto 10px;max-width:720px;color:var(--mut);text-align:center;line-height:2}
+.pf-tips{list-style:none;margin:0 auto 6px;padding:12px 18px;max-width:720px;border:1px dashed var(--line);border-radius:18px;color:var(--mut);font-size:.92rem;line-height:1.9}
+.pf-tips li{position:relative;padding-inline-start:18px}
+.pf-tips li::before{content:"";position:absolute;inset-inline-start:0;top:.8em;width:8px;height:8px;border-radius:2px;background:#08cb00}
+.pf-req{color:#d33;font-weight:800}
 
-.pf-set{margin:18px 0;padding:6px 18px 20px;border:1px solid var(--line);border-radius:22px;background:var(--card);min-width:0;
+/* ---------- بخش‌ها: عنوان باکس‌دار، وسط‌چین و سایه‌دار روی لبه‌ی بالای کادر ---------- */
+.pf-set{position:relative;margin:56px 0 18px;padding:46px 18px 22px;border:1px solid var(--line);border-radius:24px;background:var(--card);min-width:0;
   transition:box-shadow .2s ease}
-.pf-set:hover,.pf-set:focus-within{box-shadow:0 8px 26px var(--glow-soft)}
-.pf-set legend{padding:0 10px;font-weight:800;font-size:1.05rem}
+.pf-set:hover,.pf-set:focus-within{box-shadow:0 10px 30px var(--glow-soft)}
+.pf-title{position:absolute;top:0;left:50%;transform:translate(-50%,-50%);width:max-content;max-width:calc(100% - 28px);margin:0;padding:10px 28px;
+  text-align:center;font-size:clamp(1.12rem,3.8vw,1.5rem);font-weight:800;line-height:1.7;color:var(--ink);
+  background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 10px 28px var(--glow-soft)}
+.pf-note{margin:-6px auto 18px;max-width:640px;text-align:center;color:var(--mut);font-size:.9rem;line-height:1.9}
 
-/* phone: one column. tablet/desktop: short fields sit two per row */
-.pf-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:16px 18px;margin-top:6px}
+.pf-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:18px 18px}
 @media(min-width:640px){.pf-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pf-wide{grid-column:1 / -1}}
 
 .pp-form .pf,.pp-form .pf-o{min-width:0}
 .pp-form .pf{display:flex;flex-direction:column;gap:2px}
-.pf-l{display:block;font-weight:700}
-.pf-req{color:#d33}
-.pf-h{display:block;margin-bottom:6px;color:var(--mut);font-size:.86rem;line-height:1.8;font-weight:400}
+.pf-l{display:block;font-weight:700;line-height:1.8}
+.pf-h{display:block;margin-bottom:6px;color:var(--mut);font-size:.86rem;line-height:1.85;font-weight:400}
 
 .pp-form input[type=text],.pp-form select,.pp-form textarea{display:block;width:100%;min-width:0;margin-top:auto;padding:11px 14px;min-height:48px;
-  border:1px solid var(--line);border-radius:14px;background:var(--bg);color:var(--ink);font:inherit;font-size:16px; /* 16px: iOS zoom نکند */
+  border:1px solid var(--line);border-radius:14px;background:var(--bg);color:var(--ink);font:inherit;font-size:16px; /* 16px: iOS زوم نکند */
   transition:box-shadow .2s ease,border-color .2s ease}
+.pp-form input[dir=ltr]{text-align:left}
 .pp-form textarea{min-height:120px;resize:vertical;line-height:1.9}
 .pp-form input:hover,.pp-form select:hover,.pp-form textarea:hover{box-shadow:0 6px 16px var(--glow-soft)}
 .pp-form input:focus-visible,.pp-form select:focus-visible,.pp-form textarea:focus-visible{outline:3px solid rgba(8,203,0,.45);outline-offset:1px;border-color:#08cb00}
-.pp-form [aria-invalid=true]{border-color:#d33;box-shadow:0 0 0 3px rgba(211,51,51,.18)}
+.pp-form [aria-invalid=true]{border-color:#d33;box-shadow:0 0 0 3px rgba(211,51,51,.16)}
 .pf-count{display:block;margin-top:2px;text-align:end;color:var(--mut);font-size:.8rem}
+.pf-err{display:block;margin-top:5px;color:#c62828;font-size:.86rem;font-weight:700;line-height:1.7}
+.pf-err[hidden]{display:none}
+:root[data-theme=dark] .pf-err{color:#ff8a80}
 
-/* check + radio: large touch targets */
+/* گزینه‌های تیک و رادیو */
 .pp-form .pf-o{display:flex;align-items:flex-start;gap:10px;margin-top:8px;font-weight:400;padding:8px 10px;border-radius:12px;cursor:pointer;line-height:1.8}
 .pp-form .pf-o:hover{background:var(--bg)}
 .pp-form .pf-o input{flex:none;width:22px;height:22px;margin-top:5px;accent-color:#08cb00}
 
-/* logo upload */
+/* ---------- ردیف‌های قابل افزودن ---------- */
+.pf-multi{gap:8px}
+.pf-rows{display:grid;gap:12px}
+.pf-row{padding:12px 14px 14px;border:1px solid var(--line);border-radius:18px;background:var(--bg);transition:box-shadow .2s ease}
+.pf-row:hover,.pf-row:focus-within{box-shadow:0 6px 20px var(--glow-soft)}
+.pf-row-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;font-weight:800;font-size:.9rem;color:var(--mut)}
+.pf-grid-in{gap:12px 14px}
+@media(min-width:640px){.pf-grid-1{grid-template-columns:minmax(0,1fr)}}
+.pp-form .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.pf-row .pf-l{font-size:.9rem}
+.pf-row input[type=text]{background:var(--card)}
+.pf-add{align-self:flex-start;display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border:1px dashed #08cb00;border-radius:999px;background:transparent;
+  color:var(--acc);font:inherit;font-weight:700;cursor:pointer;transition:box-shadow .2s ease,background .2s ease}
+.pf-add:hover{background:var(--bg);box-shadow:0 6px 18px var(--glow-soft)}
+.pf-add[hidden]{display:none}
+.pf-rm{min-height:36px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:#c62828;font:inherit;font-size:.85rem;cursor:pointer}
+:root[data-theme=dark] .pf-rm{color:#ff8a80}
+.pf-rm:hover{box-shadow:0 4px 14px rgba(211,51,51,.25)}
+.pf-add:focus-visible,.pf-rm:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+
+/* ---------- آپلود کاور ---------- */
 .pf-drop{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:8px;padding:14px;border:2px dashed var(--line);border-radius:16px;
   background:var(--bg);cursor:pointer;transition:box-shadow .2s ease,border-color .2s ease}
 .pf-drop:hover,.pf-drop:focus-within{border-color:#08cb00;box-shadow:0 6px 18px var(--glow-soft)}
 .pf-drop input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer}
+.pf-drop:has([aria-invalid=true]){border-color:#d33}
 .pf-drop-t{display:inline-flex;align-items:center;height:42px;padding:0 18px;border-radius:999px;background:#08cb00;color:#0b0e0c;font-weight:700}
 .pf-prev{width:72px;height:72px;border-radius:14px;object-fit:cover;border:1px solid var(--line)}
 .pf-fn{color:var(--mut);font-size:.85rem;overflow-wrap:anywhere}
-
 .pf-hp{position:absolute;top:0;inset-inline-start:0;width:1px;height:1px;opacity:0;pointer-events:none}
 
-/* submit bar: sticks to the bottom on phones so the button is always reachable */
-.pf-submit{margin-top:22px;padding:6px 0 14px}
-@media(max-width:799px){.pf-submit{position:sticky;bottom:0;z-index:5;padding:12px 4px 14px;background:linear-gradient(to top,var(--bg) 70%,transparent)}}
+/* ---------- نوار ارسال + پیشرفت ---------- */
+.pf-submit{margin-top:26px;padding:6px 0 14px}
+@media(max-width:799px){.pf-submit{position:sticky;bottom:0;z-index:5;padding:10px 4px 14px;background:linear-gradient(to top,var(--bg) 72%,transparent)}}
+.pf-prog-row{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.pf-prog{flex:1;height:8px;border-radius:999px;background:var(--line);overflow:hidden}
+.pf-prog span{display:block;height:100%;width:0;border-radius:999px;background:#08cb00;box-shadow:0 0 10px var(--glow-soft);transition:width .3s ease}
+.pf-ptext{flex:none;color:var(--mut);font-size:.82rem;white-space:nowrap}
 #go{display:block;width:100%;min-height:52px;padding:0 28px;border:0;border-radius:999px;background:#08cb00;color:#0b0e0c;font:inherit;font-size:1.05rem;font-weight:800;
   cursor:pointer;box-shadow:0 10px 26px -6px var(--glow-soft);transition:box-shadow .2s ease,transform .2s ease,opacity .2s ease}
 #go:hover{box-shadow:0 14px 34px -4px rgba(0,255,156,.6);transform:translateY(-1px)}
 #go:focus-visible{outline:3px solid #0b0e0c;outline-offset:3px}
 #go:disabled{opacity:.6;cursor:progress;transform:none}
-@media(min-width:640px){#go{width:auto;min-width:220px;margin-inline:auto}}
+@media(min-width:640px){#go{width:auto;min-width:240px;margin-inline:auto}}
 
 .pf-msg{margin:12px 0 0;font-weight:700;line-height:1.9}
 .pf-msg:empty{display:none}
@@ -61,7 +95,32 @@
 :root[data-theme=dark] .pf-msg.err{color:#ff8a80}
 .pf-msg a,.pf-link{color:var(--acc);text-decoration:underline;background:none;border:0;padding:0;font:inherit;cursor:pointer}
 
+/* ---------- پنجره‌ی تشکر ---------- */
+body.pf-lock{overflow:hidden}
+.pf-modal{position:fixed;inset:0;z-index:200;display:grid;place-items:center;padding:20px;background:rgba(8,12,10,.5);
+  -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);opacity:0;transition:opacity .25s ease}
+.pf-modal[hidden]{display:none}
+.pf-modal.open{opacity:1}
+.pf-modal-box{width:min(480px,100%);max-height:calc(100vh - 40px);overflow:auto;padding:34px 26px 26px;text-align:center;border:1px solid var(--line);border-radius:28px;background:var(--card);color:var(--ink);
+  box-shadow:0 24px 70px rgba(0,0,0,.35),0 0 44px var(--glow-soft);transform:translateY(14px) scale(.97);transition:transform .25s ease}
+.pf-modal.open .pf-modal-box{transform:none}
+.pf-modal-box:focus{outline:none}
+.pf-modal-ic{display:grid;place-items:center;width:72px;height:72px;margin:0 auto 14px;border-radius:50%;font-size:2rem;background:var(--bg);border:1px solid var(--line);box-shadow:0 8px 24px var(--glow-soft)}
+.pf-modal-box h2{margin:0 0 10px;font-size:1.4rem}
+.pf-modal-box p{margin:0 0 22px;color:var(--mut);line-height:2}
+.pf-modal-actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.pf-btn,.pf-btn-ghost{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border-radius:999px;font:inherit;font-weight:800;text-decoration:none;cursor:pointer;
+  transition:box-shadow .2s ease,transform .2s ease}
+.pf-btn{background:#08cb00;color:#0b0e0c;border:0;box-shadow:0 10px 24px -6px var(--glow-soft)}
+.pf-btn-ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.pf-btn:hover,.pf-btn-ghost:hover{box-shadow:0 10px 26px var(--glow-soft);transform:translateY(-1px)}
+.pf-btn:focus-visible,.pf-btn-ghost:focus-visible{outline:3px solid #08cb00;outline-offset:3px}
+
 @media(max-width:639px){
-  .pf-set{padding:4px 14px 16px;border-radius:18px}
-  .pp-form .pf-o{padding:10px 8px}
+  .pf-set{padding:44px 14px 18px;border-radius:20px}
+  .pf-title{padding:9px 20px}
+  .pf-row{padding:10px 12px 12px}
+  .pf-modal-box{padding:28px 18px 20px}
+  .pf-modal-actions>*{flex:1 1 100%}
 }
+@media(prefers-reduced-motion:reduce){.pf-modal,.pf-modal-box,.pf-prog span{transition:none}}
