@@ -2,6 +2,7 @@
 layout: page
 title: "درباره PersianPod"
 permalink: /about-us/
+img: /assets/img/podcasts/persianpod-profile-animated.gif
 ---
 
 # درباره‌ی PersianPod

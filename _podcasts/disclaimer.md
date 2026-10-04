@@ -2,6 +2,7 @@
 layout: page
 title: "سلب مسئولیت"
 permalink: /disclaimer/
+img: /assets/img/podcasts/persianpod-profile-animated.gif
 ---
 
 # سلب مسئولیت
