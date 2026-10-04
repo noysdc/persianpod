@@ -77,12 +77,26 @@ async function handleFormData(request, env) {
     } catch {}
   }
   let mailed = false;
+  const subject = "فرم جدید پادکست: " + title;
+  const body = await md.text();
   try {
-    const body = await md.text();
-    const subject = "فرم جدید پادکست: " + title;
-    await sendMail(env, { subject, body, replyTo: "", raw: buildRaw({ subject, body, replyTo: "" }) });
+    // Email with attachments (Email Service API: binary content as ArrayBuffer, 5 MiB total limit)
+    const attachments = [{ content: await md.arrayBuffer(), filename: md.name, type: "text/markdown", disposition: "attachment" }];
+    let note = "";
+    if (logo && logo.size <= 3e6) {
+      attachments.push({ content: await logo.arrayBuffer(), filename: logo.name, type: logo.type, disposition: "attachment" });
+    } else if (logo) {
+      note = "\n\n(لوگو بزرگ‌تر از ۳ مگابایت بود و ضمیمه نشد؛ نسخه‌ی کامل در تلگرام است.)";
+    }
+    await env.EMAIL.send({ from: FROM, to: TO, subject, text: "فایل ام‌دی و لوگو (اگر ارسال شده) ضمیمه است." + note + "\n\n" + body, attachments });
     mailed = true;
-  } catch {}
+  } catch {
+    // fallback: plain-text email only (old behaviour)
+    try {
+      await sendMail(env, { subject, body, replyTo: "", raw: buildRaw({ subject, body, replyTo: "" }) });
+      mailed = true;
+    } catch {}
+  }
   return sent || mailed ? json({ success: true }) : json({ success: false, message: "Send failed" }, 502);
 }
 
