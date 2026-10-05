@@ -7,8 +7,8 @@ const yr=p=>{const l=parseInt(p.last);return l?(p.status==='active'?new Date().g
 const card=p=>`<a class="tile" href="${e(p.url)}" title="${e(p.description)}"><span class="sq">${p.logo?`<img src="${e(p.logo)}" alt="" loading="lazy">`:`<i class="ph">${e((p.title||'').trim().charAt(0))}</i>`}</span><h3>${e(p.title)}</h3><small><i class="dot ${e(p.status)}"></i>${e(p.category)}${p.subcategory?'، '+e(p.subcategory):''}</small></a>`;
 const uniq=(a,k)=>[...new Set(a.map(x=>x[k]).filter(Boolean))].sort((x,y)=>x.localeCompare(y,'fa'));
 const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
-if(!document.getElementById('list')&&!document.getElementById('similar'))return;
-fetch(document.body.dataset.search).then(r=>r.json()).then(all=>{
+const init=()=>{if(!document.getElementById('list')&&!document.getElementById('similar'))return;
+(window.__pp=window.__pp||fetch(document.body.dataset.search).then(r=>r.json())).then(all=>{
  document.querySelectorAll('[data-fa]').forEach(x=>x.textContent=fa(x.textContent));
  const sim=document.getElementById('similar');
  if(sim){
@@ -47,5 +47,6 @@ fetch(document.body.dataset.search).then(r=>r.json()).then(all=>{
  ids.forEach(k=>$(k).addEventListener(k==='q'?'input':'change',()=>{shown=48;run()}));
  $('more').onclick=()=>{shown+=48;draw()};
  run();
-});
+});};
+init();document.addEventListener('pp:nav',init);
 })();
