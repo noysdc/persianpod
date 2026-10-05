@@ -1,27 +1,23 @@
 ---
 layout: default
-title: پخش پادکست‌ها
+title: گوش بده
 permalink: /listen/
+description: پادکست‌های فارسی را به تفکیک دسته‌بندی همین‌جا بشنوید؛ پلیر هر پادکست بدون خروج از سایت.
+styles: [/assets/css/pp-dir.css, /assets/css/pp-listen.css]
+scripts: [/assets/js/pp-listen.js]
 ---
-<link rel="stylesheet" href="{{ '/assets/css/pp-pages.css' | relative_url }}">
-
-<section class="pp-listen" dir="rtl">
-  <h1>پخش پادکست‌ها</h1>
-  <p class="pp-lead">یک پادکست را انتخاب کنید و همین‌جا گوش بدهید. پخش خودکار شروع نمی‌شود.</p>
-
-  <div class="pp-listen-grid">
-    <aside class="pp-listen-list pp-card" aria-label="فهرست پادکست‌ها">
-      <label class="pp-search-lbl">جستجو در فهرست
-        <input type="search" id="l-q" placeholder="نام پادکست">
-      </label>
-      <ul id="l-list" role="listbox" aria-label="پادکست‌ها"></ul>
-    </aside>
-
-    <div class="pp-listen-stage pp-card" id="l-stage" aria-live="polite">
-      <p class="pp-empty">در حال بارگذاری…</p>
-    </div>
+<section class="pl" aria-label="گوش بده">
+  <div class="pd-head">
+    <h1>گوش بده</h1>
+    <p class="pd-slogan">یک پادکست انتخاب کن و همین‌جا گوش بده؛ پخش خودکار شروع نمی‌شود.</p>
   </div>
-</section>
 
+  <div id="pl-stage" class="pl-stage" aria-live="polite">
+    <p class="pd-empty">در حال بارگذاری پلیرها…</p>
+  </div>
+
+  <div id="pl-chips" class="pd-chips" aria-label="فیلترهای فعال"></div>
+  <p id="pl-count" class="pd-count" aria-live="polite"></p>
+  <div id="pl-results"></div>
+</section>
 <script>window.PP_DATA_URL = "{{ '/podcasts.json' | relative_url }}";</script>
-<script src="{{ '/assets/js/pp-listen.js' | relative_url }}" defer></script>
