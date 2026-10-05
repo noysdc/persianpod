@@ -1,0 +1,188 @@
+/* پلیر شناور پرشین‌پاد — قابل جابه‌جایی و تغییر اندازه */
+.ppfp {
+  --ppfp-green: #08cb00;
+  --ppfp-glow: #00ff9c;
+  --ppfp-bg: #ffffff;
+  --ppfp-fg: #1b1f23;
+  --ppfp-bar: #f3f5f4;
+  --ppfp-line: rgba(0, 0, 0, 0.12);
+
+  position: fixed;
+  z-index: 9999;
+  direction: ltr; /* مختصات فیزیکی؛ متن‌ها داخل هدر RTL می‌شوند */
+  display: flex;
+  flex-direction: column;
+  min-width: 260px;
+  min-height: 150px;
+  background: var(--ppfp-bg);
+  color: var(--ppfp-fg);
+  border: 1px solid var(--ppfp-line);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22), 0 0 0 2px rgba(8, 203, 0, 0.18),
+    0 0 18px rgba(0, 255, 156, 0.28);
+  font-family: "Vazirmatn", Vazir, sans-serif;
+}
+
+/* هماهنگ با حالت شب سایت: یکی از این دو را با کلاس/ویژگی سایت خودت تنظیم کن */
+html[data-theme="dark"] .ppfp,
+html.dark .ppfp,
+body.dark .ppfp,
+body.night .ppfp {
+  --ppfp-bg: #14181b;
+  --ppfp-fg: #eef2f0;
+  --ppfp-bar: #1e2327;
+  --ppfp-line: rgba(255, 255, 255, 0.14);
+}
+
+.ppfp[hidden] {
+  display: none;
+}
+
+.ppfp__bar {
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  background: var(--ppfp-bar);
+  border-bottom: 1px solid var(--ppfp-line);
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+}
+
+.ppfp--dragging .ppfp__bar {
+  cursor: grabbing;
+}
+
+.ppfp__grip {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  color: var(--ppfp-green);
+}
+
+.ppfp__title {
+  flex: 1;
+  min-width: 0;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ppfp__btn {
+  flex: none;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.ppfp__btn:hover {
+  background: rgba(8, 203, 0, 0.16);
+}
+
+.ppfp__btn:focus-visible,
+.ppfp__bar:focus-visible,
+.ppfp__resize:focus-visible {
+  outline: 2px solid var(--ppfp-green);
+  outline-offset: 1px;
+}
+
+.ppfp__body {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+}
+
+.ppfp__frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: transparent;
+}
+
+/* هنگام کشیدن، iframe نباید موس را بگیرد */
+.ppfp--dragging .ppfp__frame,
+.ppfp--resizing .ppfp__frame {
+  pointer-events: none;
+}
+
+.ppfp__resize {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 22px;
+  height: 22px;
+  cursor: nwse-resize;
+  touch-action: none;
+  background: linear-gradient(
+    135deg,
+    transparent 50%,
+    var(--ppfp-green) 50%,
+    var(--ppfp-green) 58%,
+    transparent 58%,
+    transparent 70%,
+    var(--ppfp-green) 70%,
+    var(--ppfp-green) 78%,
+    transparent 78%
+  );
+  opacity: 0.85;
+}
+
+/* حالت کوچک‌شده: فقط نوار عنوان دیده می‌شود؛ پخش ادامه دارد */
+.ppfp--min {
+  min-height: 0;
+  height: auto !important;
+}
+
+.ppfp--min .ppfp__body {
+  height: 0;
+  flex: none;
+  visibility: hidden;
+}
+
+.ppfp--min .ppfp__resize {
+  display: none;
+}
+
+/* موبایل: چسبیده به پایین صفحه، تمام عرض */
+@media (max-width: 600px) {
+  .ppfp {
+    left: 0 !important;
+    right: 0 !important;
+    top: auto !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    min-width: 0;
+    border-radius: 14px 14px 0 0;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .ppfp__bar {
+    cursor: default;
+  }
+
+  .ppfp__resize {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .ppfp {
+    transition: box-shadow 0.2s ease;
+  }
+}
