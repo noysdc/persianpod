@@ -3,18 +3,45 @@ layout: default
 ---
 {% assign logo = page.logo %}
 {% if logo and logo contains '://' %}{% assign logo_url = logo %}{% elsif logo %}{% assign logo_url = logo | relative_url %}{% endif %}
+{% assign creator = page.creator | default: page.host | default: page.hosts %}
+{% assign start = page.start_year | default: page.started %}
+{% assign eps = page.episode_count | default: page.episodes %}
+{% assign freq = page.frequency | default: page.schedule %}
+{% assign stv = page.status | default: 'active' %}
+{% if stv == 'فعال' %}{% assign stv = 'active' %}{% elsif stv == 'متوقف' %}{% assign stv = 'paused' %}{% elsif stv == 'تمام‌شده' %}{% assign stv = 'ended' %}{% endif %}
+
+{%- comment -%} ---------- منبع پلیر: embed دستی > castbox_embed > شناسه‌ی Castbox > Spotify ---------- {%- endcomment -%}
+{% assign embed_src = '' %}{% assign embed_kind = 'other' %}
+{% assign emb = page.embed | default: page.castbox_embed %}
+{% if emb and emb contains 'https://' %}
+  {% if emb contains 'castbox.fm' or emb contains 'spotify.com' or emb contains 'podcasts.apple.com' or emb contains 'soundcloud.com' or emb contains 'youtube.com' or emb contains 'youtube-nocookie.com' or emb contains 'podbean.com' or emb contains 'anchor.fm' or emb contains 'acast.com' or emb contains 'transistor.fm' or emb contains 'buzzsprout.com' or emb contains 'fireside.fm' or emb contains 'libsyn.com' or emb contains 'simplecast.com' %}{% assign embed_src = emb %}{% endif %}
+{% endif %}
+{% if embed_src == '' %}
+  {% assign cb = page.castbox_id | default: page.castbox | default: page.castbox_channel | append: '' %}
+  {% if cb contains '-id' %}{% assign cbid = cb | split: '-id' | last | split: '?' | first %}
+  {% elsif cb contains '/vh/' %}{% assign cbid = cb | split: '/vh/' | last | split: '/' | first | split: '?' | first %}
+  {% else %}{% assign cbid = cb %}{% endif %}
+  {% assign cbn = cbid | plus: 0 %}
+  {% if cbn > 1000 %}{% assign embed_src = 'https://castbox.fm/app/castbox/player/id' | append: cbn | append: '?v=8.22.11&autoplay=0' %}{% endif %}
+{% endif %}
+{% if embed_src == '' and page.spotify and page.spotify contains '/show/' %}
+  {% assign spid = page.spotify | split: '/show/' | last | split: '?' | first | split: '/' | first %}
+  {% assign embed_src = 'https://open.spotify.com/embed/show/' | append: spid %}
+{% endif %}
+{% if embed_src contains 'castbox' %}{% assign embed_kind = 'castbox' %}{% elsif embed_src contains 'spotify' %}{% assign embed_kind = 'spotify' %}{% endif %}
+
 <article class="pod wrap">
-  <nav class="crumb"><a href="{{ '/' | relative_url }}">پادکست‌ها</a> / <a href="{{ '/?category=' | append: page.category | relative_url }}">{{ page.category }}</a></nav>
+  <nav class="crumb"><a href="{{ '/' | relative_url }}">پادکست‌ها</a> / <a href="{{ '/?category=' | append: page.category | uri_escape | relative_url }}">{{ page.category }}</a></nav>
   <header class="pod-head">
     {% if logo_url %}<img class="logo" src="{{ logo_url }}" alt="لوگوی {{ page.title }}">{% else %}<i class="logo ph">{{ page.title | slice: 0 }}</i>{% endif %}
     <div>
       <h1>{{ page.title }}</h1>
-      <p class="lead">{{ page.description }}</p>
+      {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
       <div class="tags">
-        <a href="{{ '/?category=' | append: page.category | relative_url }}">{{ page.category }}</a>
-        {% if page.subcategory %}<a href="{{ '/?q=' | append: page.subcategory | relative_url }}">{{ page.subcategory }}</a>{% endif %}
-        {% for t in page.tags %}<a href="{{ '/?q=' | append: t | relative_url }}">{{ t }}</a>{% endfor %}
-        <span class="st {{ page.status }}">{% if page.status == 'active' %}فعال{% elsif page.status == 'paused' %}متوقف{% else %}پایان‌یافته{% endif %}</span>
+        {% if page.category %}<a href="{{ '/?category=' | append: page.category | uri_escape | relative_url }}">{{ page.category }}</a>{% endif %}
+        {% if page.subcategory %}<a href="{{ '/?q=' | append: page.subcategory | uri_escape | relative_url }}">{{ page.subcategory }}</a>{% endif %}
+        {% for t in page.tags %}<a href="{{ '/?q=' | append: t | uri_escape | relative_url }}">{{ t }}</a>{% endfor %}
+        <span class="st {{ stv }}">{% if stv == 'active' %}فعال{% elsif stv == 'paused' %}متوقف{% else %}پایان‌یافته{% endif %}</span>
       </div>
     </div>
   </header>
@@ -23,18 +50,51 @@ layout: default
     <section class="body">{{ content }}</section>
     <aside>
       <div class="links">
-        {% if page.embed or page.spotify or page.apple %}<button class="btn" type="button" data-play data-title="{{ page.title | escape }}" data-url="{{ page.url | relative_url }}" data-spotify="{{ page.spotify | escape }}" data-apple="{{ page.apple | escape }}" data-embed="{{ page.embed | escape }}">گوش بده</button>{% endif %}
-        {% for l in site.data.links %}{% assign v = page[l.key] %}{% if v %}{% if l.contact and page.show_contact != true %}{% continue %}{% endif %}
-        <a class="btn" rel="noopener" target="_blank" href="{{ l.prefix }}{{ v }}">{{ l.label }}</a>{% endif %}{% endfor %}
+        {% if embed_src != '' %}<a class="btn" href="{{ '/listen/?p=' | append: page.slug | relative_url }}">گوش بده</a>{% endif %}
+        {% assign ap = page.apple_podcasts | default: page.apple %}
+        {% assign cbl = page.castbox_channel %}{% if cbl == nil and page.castbox contains 'http' %}{% assign cbl = page.castbox %}{% endif %}
+        {% if page.podcast_link %}<a class="btn" rel="noopener" target="_blank" href="{{ page.podcast_link }}">صفحه‌ی پادکست</a>{% endif %}
+        {% if page.spotify %}<a class="btn" rel="noopener" target="_blank" href="{{ page.spotify }}">اسپاتیفای</a>{% endif %}
+        {% if ap %}<a class="btn" rel="noopener" target="_blank" href="{{ ap }}">اپل پادکست</a>{% endif %}
+        {% if cbl %}<a class="btn" rel="noopener" target="_blank" href="{{ cbl }}">کست‌باکس</a>{% endif %}
+        {% if page.youtube %}<a class="btn" rel="noopener" target="_blank" href="{{ page.youtube }}">یوتیوب</a>{% endif %}
+        {% assign tg = page.telegram %}{% if tg %}{% unless tg contains '://' %}{% assign tg = tg | remove: '@' | prepend: 'https://t.me/' %}{% endunless %}<a class="btn" rel="noopener" target="_blank" href="{{ tg }}">تلگرام</a>{% endif %}
+        {% assign ig = page.instagram %}{% if ig %}{% unless ig contains '://' %}{% assign ig = ig | remove: '@' | prepend: 'https://instagram.com/' %}{% endunless %}<a class="btn" rel="noopener" target="_blank" href="{{ ig }}">اینستاگرام</a>{% endif %}
+        {% if page.threads %}<a class="btn" rel="noopener" target="_blank" href="{{ page.threads }}">تردز</a>{% endif %}
+        {% assign web = page.website | default: page.site %}{% if web %}<a class="btn" rel="noopener" target="_blank" href="{{ web }}">وب‌سایت</a>{% endif %}
+        {% if page.rss %}<a class="btn" rel="noopener" target="_blank" href="{{ page.rss }}">RSS</a>{% endif %}
+        {% if page.email and page.email_vis contains 'نمایش' %}<a class="btn" href="mailto:{{ page.email }}">ایمیل</a>{% endif %}
       </div>
       <dl class="facts">
-        {% for f in site.data.fields %}{% assign v = page[f.key] %}{% if v %}<dt>{{ f.label }}</dt><dd>{{ v }}</dd>{% endif %}{% endfor %}
+        {% if creator %}<dt>میزبان و سازنده</dt><dd>{{ creator }}</dd>{% endif %}
+        {% if page.language %}<dt>زبان</dt><dd>{{ page.language }}</dd>{% endif %}
+        {% if page.country %}<dt>کشور</dt><dd>{{ page.country }}</dd>{% endif %}
+        {% if page.city %}<dt>شهر</dt><dd>{{ page.city }}</dd>{% endif %}
+        {% if start %}<dt>سال شروع</dt><dd>{{ start }}</dd>{% endif %}
+        {% if eps %}<dt>تعداد قسمت</dt><dd>{{ eps }}</dd>{% endif %}
+        {% if freq %}<dt>دوره‌ی انتشار</dt><dd>{{ freq }}</dd>{% endif %}
+        {% if page.duration %}<dt>مدت هر قسمت</dt><dd>{{ page.duration }}</dd>{% endif %}
       </dl>
     </aside>
   </div>
+
   <section id="similar" data-url="{{ page.url }}" hidden>
     <h2>اگر این پادکست را دوست داری، این‌ها را هم ببین</h2>
     <div class="grid"></div>
   </section>
+
+  {%- comment -%} انتهای هر معرفی: پلیر پادکست، بعد جداکننده، بعد خبرنامه {%- endcomment -%}
+  <div class="pod-end">
+    {% if embed_src != '' %}
+    <h2 id="listen-h">همین‌جا گوش بده</h2>
+    <div class="pp-embed-box">
+      <iframe class="e-{{ embed_kind }}" src="{{ embed_src }}" title="پلیر {{ page.title | escape }}" loading="lazy"
+              allow="autoplay; encrypted-media; clipboard-write" referrerpolicy="strict-origin-when-cross-origin"
+              sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-presentation"></iframe>
+    </div>
+    <hr class="pp-divider">
+    {% endif %}
+    {% include pp-newsletter.html %}
+  </div>
 </article>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"PodcastSeries","name":{{ page.title | jsonify }},"description":{{ page.description | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"inLanguage":"fa"{% if page.rss %},"webFeed":{{ page.rss | jsonify }}{% endif %}}</script>
