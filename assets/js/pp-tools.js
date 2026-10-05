@@ -3,6 +3,9 @@
   function $(i) { return d.getElementById(i); }
   function save(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
 
+  /* سال جاری؛ هر سال خودکار به‌روز می‌شود */
+  Array.prototype.forEach.call(d.querySelectorAll("[data-year]"), function (el) { el.textContent = String(new Date().getFullYear()); });
+
   /* day / night */
   var th = $('t-theme');
   if (th) th.addEventListener('click', function () {
@@ -30,9 +33,10 @@
   if (read) read.addEventListener('click', function () { setRead(!b.classList.contains('reading')); });
   try { if (sessionStorage.getItem('pp-read')) setRead(true); } catch (e) {}
 
-  /* header search: on the home page it filters live, elsewhere it opens /?q=... */
+  /* header search: on pages that filter live (home, listen) it never navigates */
   var form = d.querySelector('.pp-search');
-  if (form && $('list')) form.addEventListener('submit', function (e) { e.preventDefault(); });
+  if (form && (d.getElementById('pd-results') || d.getElementById('pl-results')))
+    form.addEventListener('submit', function (e) { e.preventDefault(); });
 
   /* glow under the glass bar after scrolling */
   function sc() { b.classList.toggle('scrolled', window.scrollY > 8); }

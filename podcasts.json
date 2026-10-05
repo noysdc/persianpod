@@ -3,31 +3,34 @@ layout: null
 permalink: /podcasts.json
 ---
 {%- comment -%}
-  نسخه‌ی به‌روز: آمار RSS (از _data/rss_stats.json که GitHub Action می‌سازد) بر مقدار دستی اولویت دارد،
-  مگر اینکه در front matter پادکست status_override گذاشته باشی.
-  فیلدهای اختیاری تازه: castbox (لینک/شناسه)، castbox_embed (آدرس کامل embed)، youtube (لینک یک قسمت)، rss
+  فید پخش و نقشه. فیلدهای قدیمی و جدید فرم هر دو پذیرفته می‌شوند:
+  castbox ← castbox | castbox_id | castbox_channel،  embed ← embed | castbox_embed،  شروع ← year | start_year | started
 {%- endcomment -%}
 [
 {%- for p in site.podcasts -%}
 {%- assign st = site.data.rss_stats[p.slug] -%}
+{%- assign stv = p.status_override | default: st.status | default: p.status | default: "active" -%}
+{%- if stv == "فعال" -%}{%- assign stv = "active" -%}{%- elsif stv == "متوقف" -%}{%- assign stv = "paused" -%}{%- elsif stv == "تمام‌شده" -%}{%- assign stv = "ended" -%}{%- endif -%}
 {
   "id": {{ p.slug | default: forloop.index | jsonify }},
   "title": {{ p.title | jsonify }},
   "description": {{ p.description | default: p.excerpt | strip_html | strip_newlines | truncate: 220 | jsonify }},
   "logo": {{ p.logo | jsonify }},
   "url": {{ p.url | relative_url | jsonify }},
-  "year": {{ p.year | default: st.first_year | default: null | jsonify }},
-  "episodes": {{ st.episodes | default: p.episodes | default: null | jsonify }},
-  "length": {{ st.avg_length | default: p.avg_length | default: null | jsonify }},
+  "year": {{ p.year | default: st.first_year | default: p.start_year | default: p.started | default: null | jsonify }},
+  "episodes": {{ st.episodes | default: p.episode_count | default: p.episodes | default: null | jsonify }},
+  "length": {{ st.avg_length | default: p.avg_length | default: p.duration | default: null | jsonify }},
   "last": {{ st.last | default: null | jsonify }},
-  "status": {{ p.status_override | default: st.status | default: p.status | default: "active" | jsonify }},
+  "status": {{ stv | jsonify }},
   "category": {{ p.category | default: "سایر" | jsonify }},
   "tags": {{ p.tags | default: empty | jsonify }},
   "city": {{ p.city | jsonify }},
   "country": {{ p.country | jsonify }},
-  "castbox": {{ p.castbox | jsonify }},
+  "castbox": {{ p.castbox | default: p.castbox_id | default: p.castbox_channel | jsonify }},
   "castbox_embed": {{ p.castbox_embed | jsonify }},
-  "youtube": {{ p.youtube | jsonify }}
+  "embed": {{ p.embed | jsonify }},
+  "spotify": {{ p.spotify | jsonify }},
+  "youtube": {{ p.yt_ep | default: p.youtube | jsonify }}
 }{% unless forloop.last %},{% endunless %}
 {%- endfor -%}
 ]

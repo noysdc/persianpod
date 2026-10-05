@@ -1,37 +1,34 @@
-.pp-map-section { max-width: 1100px; margin: 2rem auto; padding: 0 1rem; position: relative; }
-.pp-map-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
-.pp-map-head h2 { margin: 0; }
-#pp-map-back {
-  font: inherit; padding: .5rem 1rem; border-radius: 999px; cursor: pointer;
-  border: 1px solid var(--pp-border, #dfe7e3);
-  background: var(--pp-surface, #f5f8f6); color: var(--pp-fg, #1b1f1d);
-}
-#pp-map-back:hover { box-shadow: 0 0 0 2px rgba(0,255,156,.45); }
-.pp-map-hint { color: var(--pp-muted, #5d6762); margin: .4rem 0 .8rem; }
-.pp-map {
-  border: 1px solid var(--pp-border, #dfe7e3); border-radius: 16px; overflow: hidden;
-  background: var(--pp-surface, #f5f8f6); direction: ltr;
-}
-.pp-map svg { display: block; width: 100%; height: auto; }
-
-.pp-map .c { fill: var(--pp-border, #dfe7e3); stroke: var(--pp-bg, #fff); stroke-width: .6; vector-effect: non-scaling-stroke; }
-.pp-map .c.has { fill: var(--pp-green, #08cb00); cursor: pointer; filter: drop-shadow(0 0 3px rgba(0,255,156,.55)); }
-.pp-map .c.has:hover, .pp-map .c.has:focus-visible { fill: var(--pp-glow, #00ff9c); outline: none; }
-.pp-map .c.dim { opacity: .55; }
-
-.pp-map .cities { opacity: 0; pointer-events: none; transition: opacity .45s ease; }
-.pp-map.zoomed .cities { opacity: 1; pointer-events: auto; }
-.pp-map .city { cursor: pointer; }
-.pp-map .city circle { fill: var(--pp-muted, #5d6762); stroke: var(--pp-bg, #fff); stroke-width: .8; vector-effect: non-scaling-stroke; opacity: .7; }
-.pp-map .city.has circle { fill: #04210a; opacity: 1; stroke: var(--pp-glow, #00ff9c); stroke-width: 2; filter: drop-shadow(0 0 2px rgba(0,255,156,.8)); }
-.pp-map .city:hover circle, .pp-map .city:focus-visible circle { stroke: var(--pp-green, #08cb00); outline: none; }
-.pp-map .city text { font-family: "Vazirmatn", Tahoma, sans-serif; font-size: 1.7px; fill: var(--pp-fg, #1b1f1d); paint-order: stroke; stroke: var(--pp-bg, #fff); stroke-width: .5px; text-anchor: middle; pointer-events: none; }
-.pp-map .city:not(.has) text { display: none; }
-
-.pp-map-tip {
-  position: fixed; z-index: 3000; pointer-events: none; padding: .35rem .7rem;
-  background: var(--pp-bg, #fff); color: var(--pp-fg, #1b1f1d); border: 1px solid var(--pp-border, #dfe7e3);
-  border-radius: 10px; font-size: .9rem; box-shadow: 0 6px 20px rgba(0,255,156,.28);
-}
-html[data-theme="dark"] .pp-map .c { stroke: var(--pp-bg, #0f1311); }
-@media (prefers-reduced-motion: reduce) { .pp-map .cities { transition: none; } }
+/* PersianPod: نقشه‌ی پادکسترها (فقط Vazirmatn) */
+.pp-map-section{margin:46px 0 10px;padding:18px 16px 16px;border:1px solid var(--line);border-radius:24px;background:var(--card);transition:box-shadow .2s ease}
+.pp-map-section:hover{box-shadow:0 10px 30px var(--glow-soft)}
+.pp-map-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.pp-map-head h2{margin:0}
+.pp-map-btn{min-height:40px;padding:0 18px;border:1px solid var(--line);border-radius:999px;background:var(--bg);color:var(--ink);font:inherit;font-weight:700;cursor:pointer;transition:box-shadow .2s ease}
+.pp-map-btn:hover{box-shadow:0 6px 18px var(--glow-soft)}
+.pp-map-btn:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+.pp-map-btn[hidden]{display:none}
+.pp-map-hint{margin:6px 0 12px;color:var(--mut);font-size:.92rem}
+.pp-map{position:relative;aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:linear-gradient(180deg,var(--bg),var(--card));border:1px solid var(--line)}
+.pp-map svg{display:block;width:100%;height:100%}
+.pp-map .c{fill:var(--line);stroke:var(--card);stroke-width:.5;vector-effect:non-scaling-stroke;transition:fill .3s ease,opacity .5s ease}
+.pp-map .c.has{fill:#08cb00;cursor:pointer;filter:drop-shadow(0 0 3px rgba(0,255,156,.55))}
+.pp-map .c.has:hover,.pp-map .c.has:focus-visible{fill:#00ff9c;outline:none}
+.pp-map .c.dim{opacity:.28}
+.pp-map .provinces{opacity:0;pointer-events:none;transition:opacity .7s ease .3s}
+.pp-map .p{fill:var(--card);stroke:var(--mut);stroke-width:.8;vector-effect:non-scaling-stroke;stroke-linejoin:round;transition:fill .2s ease}
+.pp-map .p.has{fill:rgba(8,203,0,.38);cursor:pointer}
+.pp-map .p.has:hover,.pp-map .p.has:focus-visible{fill:rgba(0,255,156,.65);outline:none}
+.pp-map .plabels{opacity:0;pointer-events:none;transition:opacity .7s ease .5s}
+.pp-map .plabels text{font-family:Vazirmatn,sans-serif;font-size:1.5px;font-weight:700;text-anchor:middle;dominant-baseline:middle;fill:var(--ink);paint-order:stroke;stroke:var(--card);stroke-width:.35px;stroke-linejoin:round}
+.pp-map .pins{opacity:0;pointer-events:none;transition:opacity .6s ease .7s}
+.pp-map.zoomed .provinces,.pp-map.zoomed .plabels,.pp-map.zoomed .pins{opacity:1;pointer-events:auto}
+.pp-map.zoomed .plabels{pointer-events:none}
+.pp-map .pin{cursor:pointer}
+.pp-map .pin circle{fill:#04210a;stroke:#00ff9c;stroke-width:1.6;vector-effect:non-scaling-stroke;filter:drop-shadow(0 0 2px rgba(0,255,156,.8))}
+.pp-map .pin:hover circle,.pp-map .pin:focus-visible circle{stroke:#fff;outline:none}
+.pp-map .pin text{font-family:Vazirmatn,sans-serif;font-size:1.7px;font-weight:800;text-anchor:middle;fill:var(--ink);paint-order:stroke;stroke:var(--card);stroke-width:.4px}
+.pp-map-tip{position:fixed;z-index:90;padding:6px 12px;border-radius:12px;background:var(--ink);color:var(--bg);font-size:.85rem;font-weight:700;pointer-events:none}
+.pp-map-tip[hidden]{display:none}
+.pp-map-err{padding:2rem;text-align:center;color:var(--mut)}
+@media(max-width:799px){.pp-map{aspect-ratio:1/1}.pp-map-section{padding:14px 12px}}
+@media(prefers-reduced-motion:reduce){.pp-map .provinces,.pp-map .plabels,.pp-map .pins{transition:none}}

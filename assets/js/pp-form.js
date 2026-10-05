@@ -388,6 +388,10 @@
         var v = ty === "check" ? !!fd.get(k) : (fd.get(k) || "").toString().trim();
         if (ty !== "check" && x.v === "url") v = normUrl(v);
         if (ty !== "check" && x.v === "embed") v = embedSrc(v);
+        if (ty !== "check" && x.list) {                 // «برچسب‌ها» به‌صورت آرایه (حداکثر ۵ مورد)
+          var arr2 = v.split(/[،,؛;\n]/).map(function (t) { return t.trim(); }).filter(Boolean).slice(0, 5);
+          fm.push(k + ": " + q(arr2)); return;
+        }
         if (ty === "area") { if (v) parts.push("### " + l + "\n\n" + v + "\n"); }
         else fm.push(k + ": " + (ty === "check" ? v : q(v)));
       });

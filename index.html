@@ -1,15 +1,16 @@
 ---
 layout: default
 filters: true
-description: پادکست فارسی پیدا کن؛ دسته‌بندی، جست‌وجوی پیشرفته و فیلتر بر اساس شهر، وضعیت، سال شروع، تعداد و طول اپیزود.
-styles: [/assets/css/pp-dir.css]
-scripts: [/assets/js/pp-directory.js]
+description: پادکست فارسی را کشف کن؛ دسته‌بندی، جست‌وجوی پیشرفته، فیلتر بر اساس شهر، کشور، وضعیت، سال شروع و تعداد قسمت‌ها، و نقشه‌ی پادکسترها.
+styles: [/assets/css/pp-dir.css, /assets/css/pp-map.css]
+scripts: [/assets/js/pp-directory.js, /assets/js/pp-map.js]
 ---
 {% assign total = site.podcasts | size %}
 <section class="pd" aria-label="فهرست پادکست‌ها">
   <div class="pd-head">
-    <h1>پادکست فارسی پیدا کن</h1>
-    <p class="pd-sub"><b>{{ total }}</b> پادکست · <b>{{ site.podcasts | map: 'category' | compact | uniq | size }}</b> دسته · <b>{{ site.podcasts | map: 'city' | compact | uniq | size }}</b> شهر</p>
+    <h1>پادکست فارسی را کشف کن</h1>
+    <p class="pd-slogan">همه‌ی پادکست‌های فارسی، یک‌جا؛ بگرد، فیلتر کن و همان‌جا گوش بده.</p>
+    <p class="pd-sub"><b>{{ total }}</b> پادکست · <b>{{ site.podcasts | map: 'category' | compact | uniq | size }}</b> دسته · <b>{{ site.podcasts | map: 'city' | compact | uniq | size }}</b> شهر · <a href="#map">نقشه‌ی پادکسترها</a></p>
   </div>
   <div id="pd-chips" class="pd-chips" aria-label="فیلترهای فعال"></div>
   <p id="pd-count" class="pd-count" aria-live="polite"></p>
@@ -30,4 +31,5 @@ scripts: [/assets/js/pp-directory.js]
     <h2 class="pd-h2">پادکست‌های مشابه</h2>
     <div id="pd-similar" class="pd-grid"></div>
   </section>
+  {% include pp-map.html %}
 </section>

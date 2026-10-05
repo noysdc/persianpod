@@ -58,6 +58,7 @@
     <div class="pp-side-brand">
       <a class="pp-side-logo" href="{{ '/' | relative_url }}" aria-label="پرشین‌پاد">{% include pp-icon-anim.html %}</a>
       <strong>پرشین‌پاد</strong>
+      <p class="pp-side-about">مرجع رایگان و بدون تبلیغ برای کشف پادکست‌های فارسی. ثبت یا حذف پادکست، هر زمان و بدون هزینه.</p>
     </div>
     <nav class="pp-cats" aria-label="دسته‌بندی‌ها">
       <h2 class="pp-side-title">دسته‌بندی‌ها</h2>
@@ -69,6 +70,7 @@
       </ul>
     </nav>
     <div class="pp-side-contact">
+      <p class="pp-about-m">مرجع رایگان و بدون تبلیغ برای کشف پادکست‌های فارسی. ثبت یا حذف پادکست، هر زمان و بدون هزینه.</p>
       <div class="pp-icons">
         <a href="{{ site.telegram }}" target="_blank" rel="noopener" aria-label="کانال تلگرام" title="تلگرام">
           <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 3 2 11l6 2 2 7 4-5 6 4z"/></svg>
@@ -84,13 +86,18 @@
         <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>
         حمایت مالی از پرشین‌پاد
       </a>
+      <ul class="pp-side-links" aria-label="پیوندهای سایت">
+        <li><a href="{{ '/about-us/' | relative_url }}">درباره‌ی ما</a></li>
+        <li><a href="{{ '/disclaimer/' | relative_url }}">سلب مسئولیت</a></li>
+        <li><a href="{{ '/form/' | relative_url }}">ثبت پادکست</a></li>
+      </ul>
+      <p class="pp-copy">© <span data-year>{{ site.time | date: "%Y" }}</span> پرشین‌پاد</p>
     </div>
   </aside>
   <main id="main">{{ content }}</main>
   {% if page.filters %}{% include pp-filters.html %}{% endif %}
 </div>
 
-<footer>رایگان، بدون تبلیغ و بدون جایگاه ویژه. برای ثبت پادکست یا درخواست حذف: <a href="mailto:{{ site.email }}">{{ site.email }}</a></footer>
 <script src="{{ '/assets/js/pp-tools.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/app.js' | relative_url }}" defer></script>
 {% for s in page.scripts %}<script src="{{ s | relative_url }}" defer></script>

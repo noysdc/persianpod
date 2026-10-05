@@ -1,187 +1,224 @@
-/* PersianPod — نقشه‌ی جهان با زوم روی ایران و نمایش شهرها */
+/* PersianPod: نقشه‌ی جهان با زوم خودکار روی ایران و نمایش استان‌ها
+   - وقتی بخش نقشه وارد دید می‌شود، روی ایران زوم می‌کند و استان‌ها و شهرها پیدا می‌شوند.
+   - کلیک روی کشور، استان یا شهر، فهرست پادکست‌های بالای صفحه را فیلتر می‌کند.
+   - داده‌ی مرزها: assets/data/pp-map-data.json (ساخته‌شده با scripts/build_map_data.py از Natural Earth). */
 (function () {
   "use strict";
   var host = document.getElementById("pp-map");
   if (!host) return;
 
-  var FA = "۰۱۲۳۴۵۶۷۸۹", AR = "٠١٢٣٤٥٦٧٨٩";
+  var FA = "۰۱۲۳۴۵۶۷۸۹", AR = "٠١٢٣٤٥٦٧٨٩", NS = "http://www.w3.org/2000/svg";
   function toFa(n) { return String(n).replace(/\d/g, function (d) { return FA[d]; }); }
   function norm(s) {
     return String(s == null ? "" : s)
       .replace(/[يى]/g, "ی").replace(/ك/g, "ک").replace(/[\u064B-\u065F\u0670]/g, "")
       .replace(/\u200c/g, " ").replace(/\s+/g, " ")
       .replace(/[۰-۹]/g, function (d) { return FA.indexOf(d); })
-      .replace(/[٠-٩]/g, function (d) { return AR.indexOf(d); })
-      .toLowerCase().trim();
+      .replace(/[٠-٩]/g, function (d) { return AR.indexOf(d); }).toLowerCase().trim();
   }
-  function esc(s) {
-    return String(s).replace(/[&<>"']/g, function (c) {
-      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
-    });
-  }
+  function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
 
   var tip = document.getElementById("pp-map-tip");
-  var backBtn = document.getElementById("pp-map-back");
+  var backBtn = document.getElementById("pp-map-back"), iranBtn = document.getElementById("pp-map-iran");
   var hint = document.getElementById("pp-map-hint");
   var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // نام‌های رایج که در Intl نیستند
-  var ALIASES = { "آمریکا": "US", "امریکا": "US", "انگلیس": "GB", "امارات": "AE", "کره": "KR",
-    "روسیه": "RU", "ترکیه": "TR", "آلمان": "DE", "آذربایجان": "AZ" };
+  // نام‌های رایج که در داده‌ی کشورها دقیقاً این‌طور نیستند
+  var ALIASES = { "آمریکا": "US", "امریکا": "US", "ایالات متحده": "US", "انگلیس": "GB", "انگلستان": "GB", "بریتانیا": "GB",
+    "امارات": "AE", "کره": "KR", "کره جنوبی": "KR", "روسیه": "RU", "ترکیه": "TR", "آلمان": "DE", "آذربایجان": "AZ",
+    "هلند": "NL", "سوئد": "SE", "استرالیا": "AU", "فرانسه": "FR", "کانادا": "CA", "ژاپن": "JP", "ایتالیا": "IT", "اسپانیا": "ES" };
+
+  /* همان فرمول Natural Earth 1 که در scripts/build_map_data.py هست */
+  function ne1(lon, lat) {
+    var l = lon * Math.PI / 180, p = lat * Math.PI / 180, p2 = p * p, p4 = p2 * p2;
+    return [l * (0.8707 - 0.131979 * p2 + p4 * (-0.013791 + p4 * (0.003971 * p2 - 0.001529 * p4))),
+      p * (1.007226 + p2 * (0.015085 + p4 * (-0.044475 + 0.028874 * p2 - 0.005916 * p4)))];
+  }
+
+  var cities = [];
+  try { cities = JSON.parse(document.getElementById("pp-cities").textContent) || []; } catch (e) {}
 
   Promise.all([
-    fetch(host.dataset.map).then(function (r) { return r.json(); }),
+    fetch(host.dataset.map).then(function (r) { if (!r.ok) throw 0; return r.json(); }),
     fetch(host.dataset.podcasts).then(function (r) { return r.json(); }).catch(function () { return []; })
   ]).then(function (res) { start(res[0], res[1]); })
-    .catch(function () { host.innerHTML = '<p style="padding:1rem">بارگذاری نقشه انجام نشد.</p>'; });
+    .catch(function () { host.innerHTML = '<p class="pp-map-err">بارگذاری نقشه انجام نشد.</p>'; });
 
   function start(map, podcasts) {
-    // نگاشت نام کشور به ISO2
-    var dn = typeof Intl.DisplayNames === "function" ? new Intl.DisplayNames(["fa"], { type: "region" }) : null;
+    var P = map.proj;
+    function project(lon, lat) { var q = ne1(lon, lat); return [P.ox + P.k * q[0], P.oy - P.k * q[1]]; }
+
+    /* نام کشور ← ISO */
     var nameToIso = {};
-    map.countries.forEach(function (c) {
-      if (!c.iso2) return;
-      nameToIso[norm(c.name)] = c.iso2;
-      nameToIso[c.iso2.toLowerCase()] = c.iso2;
-      try { if (dn) nameToIso[norm(dn.of(c.iso2))] = c.iso2; } catch (e) {}
-    });
+    map.countries.forEach(function (c) { if (c.i) { nameToIso[norm(c.n)] = c.i; nameToIso[c.i.toLowerCase()] = c.i; } });
     Object.keys(ALIASES).forEach(function (k) { nameToIso[norm(k)] = ALIASES[k]; });
 
-    var cityByName = {};
-    map.cities.forEach(function (c) { cityByName[norm(c.n)] = c; c.count = 0; });
-
-    var countryCount = {};
-    podcasts.forEach(function (p) {
-      var iso = p.country ? nameToIso[norm(p.country)] : null;
-      var city = p.city ? cityByName[norm(p.city)] : null;
-      if (city) { city.count++; if (!iso) iso = "IR"; }
-      if (iso) countryCount[iso] = (countryCount[iso] || 0) + 1;
-    });
-
-    // ساخت SVG
-    var W = map.w, H = map.h, ns = "http://www.w3.org/2000/svg";
-    var html = '<svg viewBox="0 0 ' + W + " " + H + '" xmlns="' + ns + '" role="img" aria-label="نقشه‌ی جهان">';
-    html += '<g class="countries">';
-    map.countries.forEach(function (c, i) {
-      var n = c.iso2 ? countryCount[c.iso2] || 0 : 0;
-      var cls = "c" + (n ? " has" : "");
-      var attrs = n ? ' tabindex="0" role="button" aria-label="' + esc(c.name) + "، " + toFa(n) + ' پادکست"' : "";
-      html += '<path class="' + cls + '" data-i="' + i + '" data-iso="' + esc(c.iso2) + '" data-n="' + n + '"' + attrs + ' d="' + c.d + '"/>';
-    });
-    html += '</g><g class="cities">';
-    map.cities.forEach(function (c, i) {
-      var r = c.count ? 0.9 + Math.sqrt(c.count) * 0.35 : 0.55;
-      var attrs = c.count ? ' tabindex="0" role="button" aria-label="' + esc(c.n) + "، " + toFa(c.count) + ' پادکست"' : "";
-      html += '<g class="city' + (c.count ? " has" : "") + '" data-ci="' + i + '"' + attrs + ">" +
-        '<circle cx="' + c.x + '" cy="' + c.y + '" r="' + r.toFixed(2) + '"/>' +
-        '<text x="' + c.x + '" y="' + (c.y - r - 0.6).toFixed(2) + '">' + esc(c.n) + "</text></g>";
-    });
-    html += "</g></svg>";
-    host.innerHTML = html;
+    /* ساخت SVG */
+    var W = map.w, H = map.h, PAD = 70;                      // حاشیه‌ی بالا و پایین تا نقشه ۱۶:۹ شود
+    var h = [];
+    h.push('<svg viewBox="0 ' + (-PAD) + " " + W + " " + (H + PAD * 2) + '" xmlns="' + NS + '" role="img" aria-label="نقشه‌ی جهان و ایران">');
+    h.push('<g class="countries">');
+    map.countries.forEach(function (c, i) { h.push('<path class="c" data-i="' + i + '" data-iso="' + esc(c.i) + '" d="' + c.d + '"/>'); });
+    h.push('</g><g class="provinces">');
+    map.provinces.forEach(function (p, i) { h.push('<path class="p" data-pi="' + i + '" d="' + p.d + '"/>'); });
+    h.push('</g><g class="plabels" aria-hidden="true">');
+    map.provinces.forEach(function (p) { h.push('<text x="' + p.lx + '" y="' + p.ly + '">' + esc(p.n) + "</text>"); });
+    h.push('</g><g class="pins"></g></svg>');
+    host.innerHTML = h.join("");
 
     var svg = host.querySelector("svg");
-    var full = [0, 0, W, H];
-    var cur = full.slice();
-    var zoomed = false;
+    var cPaths = svg.querySelectorAll(".c"), pPaths = svg.querySelectorAll(".p"), pinsG = svg.querySelector(".pins");
 
-    // کادر هدف برای ایران، هم‌نسبت با نقشه
-    var b = map.iranBox, pad = 0.22;
-    var bw = (b[2] - b[0]) * (1 + pad * 2), bh = (b[3] - b[1]) * (1 + pad * 2);
-    var ratio = W / H;
-    if (bw / bh < ratio) bw = bh * ratio; else bh = bw / ratio;
-    var cx = (b[0] + b[2]) / 2, cy = (b[1] + b[3]) / 2;
-    var iranView = [cx - bw / 2, cy - bh / 2, bw, bh];
+    /* شهرها: مختصات، استان (با isPointInFill)، و شمارش پادکست */
+    var cityMap = {};
+    cities.forEach(function (c) {
+      if (typeof c.lat !== "number" || typeof c.lon !== "number") return;
+      var xy = project(c.lon, c.lat);
+      var o = { n: c.name, x: xy[0], y: xy[1], count: 0, prov: -1, iso: "" };
+      try {
+        var pt = new DOMPoint(o.x, o.y);
+        for (var i = 0; i < pPaths.length; i++) if (pPaths[i].isPointInFill(pt)) { o.prov = i; break; }
+        if (o.prov < 0) for (var j = 0; j < cPaths.length; j++) if (cPaths[j].isPointInFill(pt)) { o.iso = cPaths[j].dataset.iso; break; }
+      } catch (e) {}
+      if (o.prov >= 0) o.iso = "IR";
+      if (o.prov < 0 && o.iso === "IR") {                    // شهر ساحلی که کمی بیرون مرز افتاده: نزدیک‌ترین استان
+        var best = 1e9;
+        map.provinces.forEach(function (p, i) { var d = Math.hypot(p.lx - o.x, p.ly - o.y); if (d < best) { best = d; o.prov = i; } });
+      }
+      cityMap[norm(c.name)] = o;
+    });
 
-    var anim;
+    /* شمارش پادکست‌ها */
+    var countryCount = {}, provCount = {}, provCities = {}, countryCities = {};
+    podcasts.forEach(function (p) {
+      var iso = p.country ? nameToIso[norm(p.country)] : "";
+      var city = p.city ? cityMap[norm(p.city)] : null;
+      if (city) {
+        city.count++;
+        if (!iso) iso = city.iso || "";
+        if (city.prov >= 0 && (iso === "IR" || city.iso === "IR")) {
+          provCount[city.prov] = (provCount[city.prov] || 0) + 1;
+          (provCities[city.prov] = provCities[city.prov] || {})[norm(p.city)] = 1;
+        }
+      }
+      if (iso) { countryCount[iso] = (countryCount[iso] || 0) + 1; (countryCities[iso] = countryCities[iso] || {})[norm(p.country || "")] = 1; }
+    });
+
+    cPaths.forEach(function (el) {
+      var n = countryCount[el.dataset.iso] || 0;
+      if (n) {
+        el.classList.add("has"); el.setAttribute("data-n", n);
+        el.setAttribute("tabindex", "0"); el.setAttribute("role", "button");
+        el.setAttribute("aria-label", map.countries[+el.dataset.i].n + "، " + toFa(n) + " پادکست");
+      }
+    });
+    pPaths.forEach(function (el, i) {
+      var n = provCount[i] || 0;
+      if (n) {
+        el.classList.add("has"); el.setAttribute("data-n", n);
+        el.setAttribute("tabindex", "-1"); el.setAttribute("role", "button");
+        el.setAttribute("aria-label", "استان " + map.provinces[i].n + "، " + toFa(n) + " پادکست");
+      }
+    });
+
+    /* پین شهرها (فقط شهرهای دارای پادکست) */
+    var pinHtml = "";
+    Object.keys(cityMap).forEach(function (k) {
+      var c = cityMap[k]; if (!c.count) return;
+      var r = (0.9 + Math.sqrt(c.count) * 0.35).toFixed(2);
+      pinHtml += '<g class="pin' + (c.iso === "IR" ? " ir" : "") + '" data-city="' + esc(k) + '" tabindex="-1" role="button" aria-label="' + esc(c.n) + "، " + toFa(c.count) + ' پادکست">' +
+        '<circle cx="' + c.x.toFixed(2) + '" cy="' + c.y.toFixed(2) + '" r="' + r + '"/>' +
+        '<text x="' + c.x.toFixed(2) + '" y="' + (c.y - r - 0.7).toFixed(2) + '">' + esc(c.n) + "</text></g>";
+    });
+    pinsG.innerHTML = pinHtml;
+
+    /* دوربین */
+    var BASE = svg.getAttribute("viewBox").split(" ").map(Number);
+    var cur = BASE.slice(), zoomed = false, anim = null, autoDone = false;
     function setView(v) { cur = v; svg.setAttribute("viewBox", v.map(function (x) { return +x.toFixed(2); }).join(" ")); }
     function flyTo(target, done) {
       cancelAnimationFrame(anim);
       if (reduce) { setView(target); if (done) done(); return; }
-      var from = cur.slice(), t0 = performance.now(), dur = 800;
+      var from = cur.slice(), t0 = performance.now(), dur = 1100;
       (function step(t) {
-        var k = Math.min((t - t0) / dur, 1);
-        var e = k < 0.5 ? 4 * k * k * k : 1 - Math.pow(-2 * k + 2, 3) / 2;
+        var k = Math.min((t - t0) / dur, 1), e = k < .5 ? 4 * k * k * k : 1 - Math.pow(-2 * k + 2, 3) / 2;
         setView(from.map(function (f, i) { return f + (target[i] - f) * e; }));
         if (k < 1) anim = requestAnimationFrame(step); else if (done) done();
       })(t0);
     }
-
-    function zoomIran() {
-      zoomed = true; host.classList.add("zoomed");
-      svg.querySelectorAll(".c").forEach(function (p) { p.classList.toggle("dim", p.dataset.iso !== "IR"); });
-      backBtn.hidden = false;
-      hint.textContent = "روی شهرِ سبز بزنید تا پادکست‌های آن شهر را ببینید.";
-      flyTo(iranView);
+    function iranView() {
+      var b = map.iranBox, pad = 0.07, w = host.clientWidth || 800, hh = host.clientHeight || 450, ratio = w / hh;
+      var bw = (b[2] - b[0]) * (1 + pad * 2), bh = (b[3] - b[1]) * (1 + pad * 2);
+      if (bw / bh < ratio) bw = bh * ratio; else bh = bw / ratio;
+      var cx = (b[0] + b[2]) / 2, cy = (b[1] + b[3]) / 2;
+      return [cx - bw / 2, cy - bh / 2, bw, bh];
     }
-    function zoomOut() {
-      zoomed = false; host.classList.remove("zoomed");
-      svg.querySelectorAll(".c.dim").forEach(function (p) { p.classList.remove("dim"); });
-      backBtn.hidden = true;
-      hint.textContent = "روی کشورهای سبز بزنید. با کلیک روی ایران، شهرها نمایان می‌شوند.";
-      flyTo(full);
+    function setMode(z) {
+      zoomed = z; host.classList.toggle("zoomed", z);
+      backBtn.hidden = !z; iranBtn.hidden = z;
+      cPaths.forEach(function (p) { p.classList.toggle("dim", z && p.dataset.iso !== "IR"); });
+      pPaths.forEach(function (p) { if (p.classList.contains("has")) p.setAttribute("tabindex", z ? "0" : "-1"); });
+      svg.querySelectorAll(".pin").forEach(function (g) { g.setAttribute("tabindex", z ? "0" : "-1"); });
+      hint.textContent = z ? "استان‌ها و شهرهای سبز پادکستر دارند. روی هرکدام بزنید تا فهرست همان منطقه باز شود."
+                           : "کشورهای سبز پادکستر دارند. با کلیک روی هر کشور، فهرست همان کشور باز می‌شود.";
     }
-    backBtn.addEventListener("click", zoomOut);
+    function zoomIran() { setMode(true); flyTo(iranView()); }
+    function zoomWorld() { setMode(false); flyTo(BASE); }
+    backBtn.addEventListener("click", zoomWorld);
+    iranBtn.addEventListener("click", zoomIran);
+    iranBtn.hidden = false;
+    window.addEventListener("resize", function () { if (zoomed) setView(iranView()); });
 
-    // اعمال فیلتر روی صفحه‌ی فهرست یا رفتن به آن
-    function applyFilter(kind, value) {
-      var form = document.getElementById("pp-filters");
-      if (form) {
-        if (kind === "city") {
-          var sel = document.getElementById("f-city");
-          Array.prototype.some.call(sel.options, function (o) {
-            if (norm(o.value) === norm(value)) { sel.value = o.value; return true; }
-          });
-          sel.dispatchEvent(new Event("input", { bubbles: true }));
-        } else {
-          var q = document.getElementById("f-q"); q.value = value;
-          q.dispatchEvent(new Event("input", { bubbles: true }));
-        }
-        var r = document.getElementById("pp-count") || document.getElementById("pp-results");
-        if (r) r.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
-      } else {
-        location.href = host.dataset.listUrl + "?" + (kind === "city" ? "city=" : "q=") + encodeURIComponent(value);
-      }
+    /* ورود به دید: یک‌بار خودکار روی ایران زوم کن */
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (es) {
+        es.forEach(function (en) {
+          if (en.isIntersecting && !autoDone) {
+            autoDone = true; io.disconnect();
+            setTimeout(function () { if (!zoomed) zoomIran(); }, reduce ? 0 : 700);
+          }
+        });
+      }, { threshold: 0.45 });
+      io.observe(host);
     }
 
-    function onCountry(p) {
-      if (!p.classList.contains("has")) return;
-      if (p.dataset.iso === "IR") { if (!zoomed) zoomIran(); return; }
-      var name = map.countries[+p.dataset.i].name;
-      var fa = ""; try { if (dn) fa = dn.of(p.dataset.iso); } catch (e) {}
-      applyFilter("q", fa || name);
-    }
-    function onCity(g) {
-      var c = map.cities[+g.dataset.ci];
-      if (c.count) applyFilter("city", c.n);
-    }
-
+    /* فیلتر فهرست */
+    function emit(detail) { window.dispatchEvent(new CustomEvent("pp:geo", { detail: detail })); }
     function act(el) {
-      var city = el.closest(".city"); if (city) return onCity(city);
-      var p = el.closest(".c"); if (p) onCountry(p);
+      var pin = el.closest(".pin");
+      if (pin) { var c = cityMap[pin.dataset.city]; return emit({ label: c.n, cities: [c.n] }); }
+      var pr = el.closest(".p");
+      if (pr && pr.classList.contains("has") && zoomed) {
+        var i = +pr.dataset.pi, names = [];
+        Object.keys(cityMap).forEach(function (k) { if (cityMap[k].prov === i && cityMap[k].count) names.push(cityMap[k].n); });
+        return emit({ label: "استان " + map.provinces[i].n, cities: names });
+      }
+      var c2 = el.closest(".c");
+      if (c2 && c2.classList.contains("has")) {
+        if (c2.dataset.iso === "IR" && !zoomed) return zoomIran();
+        var cn = map.countries[+c2.dataset.i].n;
+        var names2 = [cn]; Object.keys(ALIASES).forEach(function (k) { if (ALIASES[k] === c2.dataset.iso) names2.push(k); });
+        emit({ label: cn, countries: names2 });
+      }
     }
     svg.addEventListener("click", function (e) { act(e.target); });
-    svg.addEventListener("keydown", function (e) {
-      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); act(e.target); }
-    });
+    svg.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); act(e.target); } });
 
-    // راهنمای شناور
+    /* راهنمای شناور */
     function tipText(el) {
-      var city = el.closest(".city");
-      if (city) { var c = map.cities[+city.dataset.ci]; return c.n + (c.count ? "، " + toFa(c.count) + " پادکست" : ""); }
-      var p = el.closest(".c");
-      if (p && p.classList.contains("has")) {
-        var fa = ""; try { if (dn) fa = dn.of(p.dataset.iso); } catch (e) {}
-        return (fa || map.countries[+p.dataset.i].name) + "، " + toFa(p.dataset.n) + " پادکست";
-      }
+      var pin = el.closest(".pin"); if (pin) { var c = cityMap[pin.dataset.city]; return c.n + "، " + toFa(c.count) + " پادکست"; }
+      var pr = el.closest(".p"); if (pr && zoomed) { var i = +pr.dataset.pi; return "استان " + map.provinces[i].n + (provCount[i] ? "، " + toFa(provCount[i]) + " پادکست" : ""); }
+      var c2 = el.closest(".c"); if (c2 && c2.classList.contains("has")) return map.countries[+c2.dataset.i].n + "، " + toFa(c2.dataset.n) + " پادکست";
       return "";
     }
     svg.addEventListener("pointermove", function (e) {
       var t = tipText(e.target);
       if (!t) { tip.hidden = true; return; }
       tip.textContent = t; tip.hidden = false;
-      tip.style.left = Math.min(e.clientX + 14, window.innerWidth - 180) + "px";
-      tip.style.top = e.clientY + 14 + "px";
+      tip.style.left = Math.max(8, Math.min(e.clientX + 14, window.innerWidth - 190)) + "px";
+      tip.style.top = e.clientY + 16 + "px";
     });
     svg.addEventListener("pointerleave", function () { tip.hidden = true; });
+    window.PPMap = { zoomIran: zoomIran, zoomWorld: zoomWorld };
   }
 })();

@@ -69,10 +69,10 @@
   })();
 
   /* ---------- داده ---------- */
-  var data = [], cat = "", catRank = {};
+  var data = [], cat = "", catRank = {}, geo = null;
   var els = {
     q: $("#q"), status: $("#f-status"), city: $("#f-city"), lang: $("#f-lang"),
-    yf: $("#f-yf"), yt: $("#f-yt"), emin: $("#f-emin"), emax: $("#f-emax"),
+    country: $("#f-country"), yf: $("#f-yf"), yt: $("#f-yt"), emin: $("#f-emin"), emax: $("#f-emax"),
     lmin: $("#f-lmin"), lmax: $("#f-lmax"), creator: $("#f-creator"), tag: $("#f-tag"),
     sort: $("#f-sort"), group: $("#f-group")
   };
@@ -108,7 +108,7 @@
   function read() {
     return {
       q: norm(els.q ? els.q.value : ""), cat: cat,
-      status: els.status.value, city: els.city.value, lang: els.lang.value,
+      status: els.status.value, city: els.city.value, lang: els.lang.value, country: els.country ? els.country.value : "", geo: geo,
       yf: num(els.yf.value), yt: num(els.yt.value),
       emin: num(els.emin.value), emax: num(els.emax.value),
       lmin: num(els.lmin.value), lmax: num(els.lmax.value),
@@ -126,6 +126,12 @@
     if (f.status === "active" && !p._active) return false;
     if (f.status === "inactive" && p._active) return false;
     if (f.city && p.city !== f.city) return false;
+    if (f.country && p.country !== f.country) return false;
+    if (f.geo) {                                           // کلیک روی نقشه
+      var okGeo = (f.geo.cities && f.geo.cities.indexOf(norm(p.city)) !== -1) ||
+                  (f.geo.countries && f.geo.countries.indexOf(norm(p.country)) !== -1);
+      if (!okGeo) return false;
+    }
     if (f.lang && p.language !== f.lang) return false;
     if (!inRange(p._yr, f.yf, f.yt)) return false;
     if (!inRange(p._ep, f.emin, f.emax)) return false;
@@ -144,11 +150,11 @@
   }
   function advancedCount(f) {
     var n = 0;
-    ["status", "city", "lang", "creator", "tag"].forEach(function (k) { if (f[k]) n++; });
+    ["status", "city", "lang", "country", "creator", "tag"].forEach(function (k) { if (f[k]) n++; });
     ["yf", "yt", "emin", "emax", "lmin", "lmax"].forEach(function (k) { if (f[k] != null) n++; });
     return n;
   }
-  function isFiltered(f) { return !!(f.q || f.cat || advancedCount(f)); }
+  function isFiltered(f) { return !!(f.q || f.cat || f.geo || advancedCount(f)); }
 
   /* ---------- نمایش ---------- */
   function badge(t, on) { return '<span class="pd-b' + (on ? " on" : "") + '">' + t + "</span>"; }
@@ -200,6 +206,8 @@
     status: function (f) { return f.status === "active" ? "فعال" : "غیرفعال"; },
     city: function (f) { return "شهر: " + f.city; },
     lang: function (f) { return "زبان: " + f.lang; },
+    country: function (f) { return "کشور: " + f.country; },
+    geo: function (f) { return "نقشه: " + f.geo.label; },
     creator: function (f) { return "سازنده: " + els.creator.value.trim(); },
     tag: function (f) { return "برچسب: " + els.tag.value.trim(); }
   };
@@ -211,6 +219,8 @@
     if (f.status) add("status", CHIP_LABELS.status(f));
     if (f.city) add("city", CHIP_LABELS.city(f));
     if (f.lang) add("lang", CHIP_LABELS.lang(f));
+    if (f.country) add("country", CHIP_LABELS.country(f));
+    if (f.geo) add("geo", CHIP_LABELS.geo(f));
     if (f.creator) add("creator", CHIP_LABELS.creator(f));
     if (f.tag) add("tag", CHIP_LABELS.tag(f));
     if (f.yf != null || f.yt != null) add("year", "سال: " + (f.yf != null ? "از " + toFa(f.yf) : "") + (f.yt != null ? " تا " + toFa(f.yt) : ""));
@@ -218,6 +228,31 @@
     if (f.lmin != null || f.lmax != null) add("len", "طول: " + (f.lmin != null ? "از " + toFa(f.lmin) : "") + (f.lmax != null ? " تا " + toFa(f.lmax) : "") + " دقیقه");
     $("#pd-chips").innerHTML = html;
   }
+
+  /* ردیف‌های افقی: فلش‌ها فقط وقتی ردیف از عرض بیشتر است */
+  function markScrollable() {
+    $$(".pd-row-wrap", out).forEach(function (w) {
+      var r = $(".pd-row", w);
+      w.classList.toggle("no-scroll", r.scrollWidth <= r.clientWidth + 4);
+    });
+  }
+  window.addEventListener("resize", function () { markScrollable(); });
+  out.addEventListener("click", function (e) {
+    var a = e.target.closest(".pd-arrow");
+    if (a) {
+      var row = $(".pd-row", a.parentNode), rtl = getComputedStyle(row).direction === "rtl";
+      var sign = (a.getAttribute("data-dir") === "next") === rtl ? -1 : 1;
+      row.scrollBy({ left: sign * Math.max(240, row.clientWidth * 0.85), behavior: "smooth" });
+      return;
+    }
+    var t = e.target.closest(".pd-cat-link");
+    if (t && !(e.metaKey || e.ctrlKey || e.shiftKey)) {      // کلیک روی نام دسته = باز کردن همان دسته
+      e.preventDefault();
+      cat = t.getAttribute("data-cat") || "";
+      render();
+      var h = $(".pd-head"); if (h) h.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  });
 
   var timer = null;
   function schedule() { clearTimeout(timer); timer = setTimeout(render, 90); }
@@ -240,9 +275,18 @@
       });
       order.sort(function (a, b) { return f.sort === "random" ? catRank[a] - catRank[b] : collator.compare(a, b); });
       out.innerHTML = order.map(function (c, idx) {
-        return (idx ? WAVE : "") + '<section class="pd-group"><h2 class="pd-cat"><span class="pd-cat-ic">' + iconSvg(iconFor(c)) +
-          "</span>" + esc(c) + ' <small>' + toFa(groups[c].length) + '</small></h2><div class="pd-grid">' + groups[c].map(card).join("") + "</div></section>";
+        var items = groups[c].slice(0, 30);
+        return (idx ? WAVE : "") + '<section class="pd-group" aria-label="' + esc(c) + '">' +
+          '<h2 class="pd-cat"><a class="pd-cat-link" href="?category=' + encodeURIComponent(c) + '" data-cat="' + esc(c) + '">' +
+          '<span class="pd-cat-ic">' + iconSvg(iconFor(c)) + "</span>" + esc(c) + " <small>" + toFa(groups[c].length) + "</small>" +
+          '<span class="pd-more">مشاهده‌ی همه ‹</span></a></h2>' +
+          '<div class="pd-row-wrap">' +
+          '<button type="button" class="pd-arrow pd-prev" data-dir="prev" aria-label="قبلی: ' + esc(c) + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>' +
+          '<div class="pd-row" tabindex="0">' + items.map(card).join("") + "</div>" +
+          '<button type="button" class="pd-arrow pd-next" data-dir="next" aria-label="بعدی: ' + esc(c) + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button>' +
+          "</div></section>";
       }).join("");
+      markScrollable();
     } else {
       out.innerHTML = '<div class="pd-grid">' + list.map(card).join("") + "</div>";
     }
@@ -279,7 +323,7 @@
     var p = new URLSearchParams();
     if (els.q && els.q.value.trim()) p.set("q", els.q.value.trim());
     if (cat) p.set("category", cat);
-    [["city", els.city], ["lang", els.lang], ["status", els.status], ["yf", els.yf], ["yt", els.yt],
+    [["city", els.city], ["lang", els.lang], ["country", els.country], ["status", els.status], ["yf", els.yf], ["yt", els.yt],
       ["emin", els.emin], ["emax", els.emax], ["lmin", els.lmin], ["lmax", els.lmax],
       ["creator", els.creator], ["tag", els.tag]].forEach(function (x) { if (x[1].value.trim()) p.set(x[0], x[1].value.trim()); });
     if (els.sort.value !== "random") p.set("sort", els.sort.value);
@@ -299,7 +343,7 @@
       var hit = data.filter(function (x) { return norm(x._cat) === want; })[0];
       cat = hit ? hit._cat : p.get("category");
     }
-    setSelect(els.city, p.get("city")); setSelect(els.lang, p.get("lang"));
+    setSelect(els.city, p.get("city")); setSelect(els.lang, p.get("lang")); setSelect(els.country, p.get("country"));
     if (p.get("status")) els.status.value = p.get("status");
     ["yf", "yt", "emin", "emax", "lmin", "lmax", "creator", "tag"].forEach(function (k) { if (p.get(k)) els[k].value = p.get(k); });
     if (p.get("sort")) els.sort.value = p.get("sort");
@@ -308,13 +352,14 @@
   /* ---------- رویدادها ---------- */
   function resetAll() {
     $("#pd-filters").reset();
-    cat = "";
+    cat = ""; geo = null;
     if (els.q) els.q.value = "";
     render();
   }
   function clearChip(k) {
     if (k === "q" && els.q) els.q.value = "";
     else if (k === "cat") cat = "";
+    else if (k === "geo") geo = null;
     else if (k === "year") { els.yf.value = ""; els.yt.value = ""; }
     else if (k === "ep") { els.emin.value = ""; els.emax.value = ""; }
     else if (k === "len") { els.lmin.value = ""; els.lmax.value = ""; }
@@ -325,6 +370,7 @@
   function init() {
     fill(els.city, unique("city"));
     fill(els.lang, unique("language"));
+    if (els.country) fill(els.country, unique("country"));
     var years = []; for (var y = jy; y >= FIRST_YEAR; y--) years.push(y);
     fill(els.yf, years, toFa); fill(els.yt, years, toFa);
     data.forEach(function (p) { if (catRank[p._cat] == null) catRank[p._cat] = Math.random(); });
@@ -358,6 +404,14 @@
     });
     render();
   }
+
+  /* نقشه: کلیک روی کشور، استان یا شهر فهرست را فیلتر می‌کند */
+  window.addEventListener("pp:geo", function (e) {
+    var d = e.detail || {};
+    geo = { label: d.label || "", cities: (d.cities || []).map(norm), countries: (d.countries || []).map(norm) };
+    render();
+    var h = $("#pd-count"); if (h) h.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
 
   var url = document.body.getAttribute("data-search");
   fetch(url)

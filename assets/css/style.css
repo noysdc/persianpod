@@ -3,7 +3,7 @@
 :root{--bg:#f4f6f4;--ink:#16201a;--mut:#5d6b61;--card:#fff;--line:#d9e0da;--acc:#067a00;--g:#08cb00;--glow:#00ff9c;--hl:#08cb00;--r:4px}
 @media(prefers-color-scheme:dark){:root{--bg:#0b0e0c;--ink:#e9f0ea;--mut:#8fa095;--card:#131916;--line:#243028;--acc:#00ff9c}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.9 Vazirmatn,Tahoma,"Segoe UI",sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.9 Vazirmatn,sans-serif}
 a{color:inherit}
 .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 .top{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:2px solid var(--ink)}

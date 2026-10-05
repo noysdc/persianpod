@@ -1,6 +1,6 @@
 /* PersianPod: فهرست پادکست‌ها، پنل فیلتر (ستون چپ)، چیپ‌ها، گروه‌ها */
 
-.pd-head h1{margin:6px 0 6px}
+.pd-head h1{margin:6px 0 4px;font-size:clamp(1.7rem,3.8vw,2.5rem)}
 .pd-sub{margin:0 0 6px;color:var(--mut)}
 .pd-sub b{color:var(--ink)}
 .pd-count{margin:10px 0 6px;color:var(--mut)}
@@ -84,3 +84,25 @@
   .pd-logo{width:64px;height:64px}
   .pd-filters{grid-template-columns:1fr 1fr}
 }
+
+/* ---------- slogan + horizontal category rows ---------- */
+.pd-slogan{margin:0 0 6px;color:var(--ink);opacity:.85;font-size:clamp(1rem,2.2vw,1.2rem);font-weight:700}
+.pd-sub a{color:var(--acc)}
+.pd-cat{margin:22px 0 10px}
+.pd-cat-link{display:flex;align-items:center;gap:10px;width:100%;text-decoration:none;color:inherit;border-radius:16px;padding:2px 2px;transition:box-shadow .2s ease}
+.pd-cat-link:hover,.pd-cat-link:focus-visible{box-shadow:0 6px 20px var(--glow-soft)}
+.pd-cat-link:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+.pd-more{margin-inline-start:auto;font-size:.82rem;font-weight:700;color:var(--acc);white-space:nowrap}
+.pd-row-wrap{position:relative}
+.pd-row{display:flex;gap:14px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;padding:6px 2px 14px;scrollbar-width:thin}
+.pd-row .pd-card{flex:0 0 min(270px,82%);scroll-snap-align:start}
+.pd-row:focus-visible{outline:3px solid rgba(8,203,0,.45);outline-offset:2px;border-radius:12px}
+.pd-arrow{position:absolute;top:42%;transform:translateY(-50%);z-index:2;display:none;place-items:center;width:40px;height:40px;padding:0;border-radius:50%;
+  border:1px solid var(--glass-line);background:var(--glass);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);color:var(--ink);cursor:pointer;
+  box-shadow:var(--shadow);transition:box-shadow .2s ease}
+.pd-arrow:hover{box-shadow:0 8px 22px var(--glow-soft)}
+.pd-arrow:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+.pd-arrow svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.pd-prev{right:-6px}.pd-next{left:-6px}
+.pd-prev svg{transform:scaleX(-1)}.pd-next svg{transform:scaleX(-1)}
+@media(hover:hover) and (min-width:800px){.pd-arrow{display:grid}.pd-row-wrap.no-scroll .pd-arrow{display:none}}
