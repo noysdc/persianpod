@@ -12,7 +12,7 @@ episodes: 3
 schedule: نامنظم (بر اساس کامل شدن تحقیق‌ها)
 logo: /assets/img/podcasts/noys.jpg
 castbox_id: "7361321"
-castbox_channel: "https://castbox.fm/vh/7361321"
+castbox_channel: "https://castbox.fm/ch/7361321"
 telegram: "https://t.me/NOYSDC"
 instagram: "https://instagram.com/noysdc"
 threads: "https://www.threads.com/@noysdc"
@@ -87,7 +87,7 @@ tags: [پادکست جنایی, مستند, بیزینس ممنوعه, اقتص�
 نویز برای همکاری و اسپانسری آماده است و نوع همکاری بسته به پیشنهاد تعیین می‌شود؛ یکی از انواع همکاری‌هایی که می‌پذیرد، **اسپانسری قسمت** است. اگر کسب‌وکاری دارید که دوست دارید در یکی از قسمت‌های نویز معرفی شود، می‌توانید با تیم نویز در ارتباط باشید.
 
 - 🌐 [وب‌سایت نویز](https://noysdc.ir){:target="_blank" rel="noopener"}
-- 🎧 [شنیدن نویز در کست‌باکس](https://castbox.fm/vh/7361321){:target="_blank" rel="noopener"}
+- 🎧 [شنیدن نویز در کست‌باکس](https://castbox.fm/ch/7361321){:target="_blank" rel="noopener"}
 - 📷 [اینستاگرام](https://instagram.com/noysdc){:target="_blank" rel="noopener"}
 - 💬 [تلگرام](https://t.me/NOYSDC){:target="_blank" rel="noopener"}
 - 🧵 [Threads](https://www.threads.com/@noysdc){:target="_blank" rel="noopener"}
@@ -101,7 +101,7 @@ tags: [پادکست جنایی, مستند, بیزینس ممنوعه, اقتص�
 
 ## رفرنس‌ها
 
-- کانال کست‌باکس نویز: https://castbox.fm/vh/7361321
+- کانال کست‌باکس نویز: https://castbox.fm/ch/7361321
 - وب‌سایت نویز: https://noysdc.ir
 - اینستاگرام نویز: https://instagram.com/noysdc
 - تلگرام نویز: https://t.me/NOYSDC
