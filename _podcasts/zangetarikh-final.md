@@ -10,7 +10,7 @@ country: ایران
 started: 1399
 episodes: 89
 schedule: ماهانه
-logo: "zangetarikh.jpg"
+logo: /assets/img/podcasts/zangetarikh.jpg
 castbox_id: "4850469"
 castbox_channel: "https://castbox.fm/ch/4850469"
 spotify: ""
