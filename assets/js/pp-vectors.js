@@ -1,8 +1,8 @@
 /*
   وکتور تصادفی پرشین‌پاد
-  - در هر بار بارگذاری یک آیکون خطی مینیمال مرتبط با پادکست، فقط در یک گوشه‌ی صفحه
+  - در هر بار بارگذاری دو آیکون خطی مینیمال و مرتبط با پادکست، فقط در حاشیه‌ی خالی دو طرف صفحه (دسکتاپ‌های عریض)
   - پشت محتوا، کم‌رنگ، غیرقابل کلیک، مخفی برای صفحه‌خوان
-  - پشت‌سرهم دو بار تکراری نمی‌آید
+  - آیکون‌های بار قبل تکرار نمی‌شوند
   - خاموش‌کردن در یک صفحه: <body data-no-vector>
 */
 (function () {
@@ -30,26 +30,34 @@
     // حباب گفت‌وگو با موج
     '<svg ' + S + '><path d="M10 14h44a2 2 0 0 1 2 2v26a2 2 0 0 1-2 2H30l-12 10V44h-8a2 2 0 0 1-2-2V16a2 2 0 0 1 2-2z"/><path d="M20 29v0M26 25v8M32 22v14M38 25v8M44 29v0"/></svg>',
     // ایربادز
-    '<svg ' + S + '><path d="M20 10a8 8 0 0 1 8 8v16a4 4 0 0 1-8 0V28a8 8 0 0 1 0-18zM44 10a8 8 0 0 0-8 8v16a4 4 0 0 0 8 0V28a8 8 0 0 0 0-18z" transform="translate(0 8)"/></svg>'
+    '<svg ' + S + '><path d="M20 10a8 8 0 0 1 8 8v16a4 4 0 0 1-8 0V28a8 8 0 0 1 0-18zM44 10a8 8 0 0 0-8 8v16a4 4 0 0 0 8 0V28a8 8 0 0 0 0-18z" transform="translate(0 8)"/></svg>',
+    // RSS و پخش
+    '<svg ' + S + '><circle cx="16" cy="48" r="4"/><path d="M12 28a24 24 0 0 1 24 24M12 12a40 40 0 0 1 40 40"/></svg>',
+    // هدست با میکروفون
+    '<svg ' + S + '><path d="M12 36V30a20 20 0 0 1 40 0v6"/><rect x="8" y="34" width="10" height="14" rx="4"/><rect x="46" y="34" width="10" height="14" rx="4"/><path d="M51 48v2a6 6 0 0 1-6 6H34"/></svg>'
   ];
 
-  function pick() {
-    var last = -1;
-    try { last = parseInt(sessionStorage.getItem("pp-vec"), 10); } catch (e) {}
-    var i;
-    do { i = Math.floor(Math.random() * ICONS.length); } while (i === last && ICONS.length > 1);
-    try { sessionStorage.setItem("pp-vec", String(i)); } catch (e) {}
-    return ICONS[i];
+  // دو آیکون متفاوت، بدون تکرار آیکون‌های بار قبل
+  function pickTwo() {
+    var last = [];
+    try { last = JSON.parse(sessionStorage.getItem("pp-vec") || "[]"); } catch (e) {}
+    var pool = ICONS.map(function (_, i) { return i; }).filter(function (i) { return last.indexOf(i) === -1; });
+    var out = [];
+    while (out.length < 2 && pool.length) out.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
+    try { sessionStorage.setItem("pp-vec", JSON.stringify(out)); } catch (e) {}
+    return out;
   }
 
   function init() {
     if (document.body.hasAttribute("data-no-vector")) return;
     if (document.querySelector(".pp-vector")) return;
-    var el = document.createElement("div");
-    el.className = "pp-vector";
-    el.setAttribute("aria-hidden", "true");
-    el.innerHTML = pick();
-    document.body.appendChild(el);
+    pickTwo().forEach(function (i, n) {
+      var el = document.createElement("div");
+      el.className = "pp-vector " + (n ? "pp-vector-end" : "pp-vector-start");
+      el.setAttribute("aria-hidden", "true");
+      el.innerHTML = ICONS[i];
+      document.body.appendChild(el);
+    });
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);

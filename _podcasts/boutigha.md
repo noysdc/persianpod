@@ -1,27 +1,28 @@
 ---
-layout: post
 title: "بوطیقا؛ پادکستی برای معرفی بهترین‌های شعر، هنر و ادبیات فارسی"
 title_en: "Boutigha"
-slug: boutigha
-category: ادبیات و کتاب
-host: حامد ای
-city: تهران
-country: ایران
-started: 1400
-episodes: 47
-schedule: ماهانه
-logo: /assets/img/podcasts/boutigha.png
+slug: "boutigha"
+description: "پادکستی برای معرفی بهترین‌های شعر، هنر و ادبیات فارسی، با لحنی صمیمی و بدون فضای خشک آکادمیک."
+category: "ادبیات و کتاب"
+subcategories: ["شعر"]
+tags: ["پادکست ادبیات", "شعر فارسی", "ادبیات فارسی", "بوطیقا", "حامد ای"]
+status: "active"
+language: "فارسی"
+creator: "حامد ای"
+country: "ایران"
+city: "تهران"
+start_year: 1400
+episode_count: 47
+frequency: "ماهانه"
+logo: "/assets/img/podcasts/boutigha.png"
 castbox_id: "4910844"
 castbox_channel: "https://castbox.fm/ch/4910844"
-spotify: ""
-apple_podcasts: ""
 youtube: "https://www.youtube.com/@BoutighaPodcast"
 instagram: "https://instagram.com/BoutighaPodcast"
 telegram: "https://t.me/BoutighaPodcast"
 email: "Boutigha.podcast@gmail.com"
-collab: "بسته به پیشنهاد"
-collab_types: ""
-tags: [پادکست ادبیات, شعر فارسی, ادبیات فارسی, بوطیقا, حامد ای]
+collab: true
+collab_types: "بسته به پیشنهاد"
 ---
 
 # بوطیقا؛ پادکستی برای معرفی بهترین‌های شعر، هنر و ادبیات فارسی
@@ -30,7 +31,7 @@ tags: [پادکست ادبیات, شعر فارسی, ادبیات فارسی, ب
 
 ## از کجا شروع شد؟
 
-بوطیقا از سال **1400** کارش را شروع کرد. پادکستی که با یک هدف ساده اما مهم ساخته شد: معرفی بهترین‌های شعر، هنر و ادبیات فارسی. سازنده و راوی این پادکست، **حامد ** است؛ کسی که خودش را یک علاقه‌مند به شعر و ادب فارسی معرفی می‌کند [citation:2].
+بوطیقا از سال **1400** کارش را شروع کرد. پادکستی که با یک هدف ساده اما مهم ساخته شد: معرفی بهترین‌های شعر، هنر و ادبیات فارسی. سازنده و راوی این پادکست، **حامد ** است؛ کسی که خودش را یک علاقه‌مند به شعر و ادب فارسی معرفی می‌کند.
 
 شاید همین علاقه‌ی صادقانه است که کار بوطیقا را متفاوت می‌کند. اینجا خبری از لحن خشک و آکادمیک نیست. بوطیقا قرار نیست یک کلاس درس باشد؛ قرار است یک همراه باشد برای کسانی که می‌خواهند از شعر فارسی لذت ببرند.
 

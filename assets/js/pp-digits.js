@@ -79,6 +79,22 @@
     if (document.documentElement.hasAttribute("data-no-digits")) return;
     convertDom(document.body);
   }
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", auto);
-  else auto();
+  function watch() {
+    if (document.documentElement.hasAttribute("data-no-digits") || !window.MutationObserver) return;
+    var pending = [], raf = 0;
+    new MutationObserver(function (list) {
+      list.forEach(function (m) { Array.prototype.forEach.call(m.addedNodes, function (n) { pending.push(n); }); });
+      if (raf || !pending.length) return;
+      raf = (window.requestAnimationFrame || window.setTimeout)(function () {
+        var nodes = pending; pending = []; raf = 0;
+        nodes.forEach(function (n) {
+          if (n.nodeType === 3) { if (/\d/.test(n.nodeValue)) n.nodeValue = convertText(n.nodeValue); }
+          else if (n.nodeType === 1 && !SKIP[n.nodeName]) convertDom(n);
+        });
+      });
+    }).observe(document.body, { childList: true, subtree: true });
+  }
+  function start() { auto(); watch(); }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
+  else start();
 })();

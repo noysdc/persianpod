@@ -1,26 +1,26 @@
 ---
-layout: post
 title: "زنگ تاریخ؛ از صفر تاریخ تا همسفری با گذشته"
 title_en: "Zangetarikh"
-slug: zangetarikh
-category: تاریخ
-host: میلاد نصرتی
-city: اردبیل
-country: ایران
-started: 1399
-episodes: 89
-schedule: ماهانه
-logo: /assets/img/podcasts/zangetarikh.jpg
+slug: "zangetarikh"
+description: "پادکست تاریخ میلاد نصرتی؛ روایت پیوسته‌ی تاریخ بر پایه‌ی منابع معتبر دانشگاهی، با نگاه واقع‌گرایانه و بدون قهرمان‌پروری."
+category: "تاریخ"
+subcategories: ["تاریخ ایران", "تاریخ باستان", "تاریخ جهان"]
+tags: ["تاریخ", "تاریخ ایران", "علم تاریخ", "تاریخ باستان", "تاریخ جهان"]
+status: "active"
+language: "فارسی"
+creator: "میلاد نصرتی"
+country: "ایران"
+city: "اردبیل"
+start_year: 1399
+episode_count: 89
+frequency: "ماهانه"
+logo: "/assets/img/podcasts/zangetarikh.jpg"
 castbox_id: "4850469"
 castbox_channel: "https://castbox.fm/ch/4850469"
-spotify: ""
-apple_podcasts: ""
-youtube: ""
 instagram: "https://instagram.com/zangetarikhpodcast"
 telegram: "https://t.me/zangetarikhpodcast"
 collab: true
 collab_types: "همه موارد"
-tags: [تاریخ, تاریخ ایران, علم تاریخ, تاریخ باستان, تاریخ جهان]
 ---
 
 # زنگ تاریخ؛ از صفر تاریخ تا همسفری با گذشته
@@ -91,10 +91,3 @@ tags: [تاریخ, تاریخ ایران, علم تاریخ, تاریخ باست
 - تلگرام زنگ تاریخ: https://t.me/zangetarikhpodcast
 - کانال کست‌باکس ریسمان: https://castbox.fm/ch/3071894
 - کانال کست‌باکس چپتر: https://castbox.fm/ch/5775643
-
----
-
-<div class="embed-player">
-    <h2>🎧 پخش مستقیم پادکست زنگ تاریخ</h2>
-    <iframe src="https://castbox.fm/app/castbox/player/id4850469?v=8.22.11&autoplay=0" frameborder="0" width="100%" height="500"></iframe>
-</div>

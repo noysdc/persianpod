@@ -13,8 +13,14 @@ fetch(document.body.dataset.search).then(r=>r.json()).then(all=>{
  const sim=document.getElementById('similar');
  if(sim){
   const me=all.find(p=>p.url===sim.dataset.url);if(!me)return;
-  const sc=p=>(p.category===me.category?2:0)+(me.subcategory&&p.subcategory===me.subcategory?2:0)+(p.tags||[]).filter(t=>(me.tags||[]).includes(t)).length*3;
-  const r=all.filter(p=>p.url!==me.url).map(p=>[sc(p),p]).filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]).slice(0,4).map(x=>x[1]);
+  const subs=p=>p.subcategories||[],shared=(a,b)=>a.filter(x=>b.includes(x)).length;
+  const sc=p=>(p.category===me.category?2:0)+shared(subs(p),subs(me))*3+(p.tags||[]).filter(t=>(me.tags||[]).includes(t)).length*2+(p.city&&p.city===me.city?.5:0);
+  const others=all.filter(p=>p.url!==me.url);
+  let r=others.map(p=>[sc(p),p]).filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]).slice(0,4).map(x=>x[1]);
+  if(r.length<3){ // مشابه کم بود: با چند پادکست دیگر کامل کن تا بخش خالی نماند
+   const h=sim.querySelector('h2');if(!r.length&&h)h.textContent='پادکست‌های دیگر پرشین‌پاد';
+   r=r.concat(shuffle(others.filter(p=>!r.includes(p))).slice(0,3-r.length));
+  }
   if(r.length){sim.querySelector('.grid').innerHTML=r.map(card).join('');sim.hidden=false}
   return;
  }

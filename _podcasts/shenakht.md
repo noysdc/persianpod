@@ -1,26 +1,26 @@
 ---
-layout: post
 title: "شناخت؛ سفری به دنیای ذهن انسان"
 title_en: "SHENAKHT"
-slug: shenakht
-category: روانشناسی
-host: نیما آقامیری
-city: اصفهان
-country: ایران
-started: 1405
-episodes: 2
-schedule: دوهفته یکبار
-logo: /assets/img/podcasts/shenakht.png
+slug: "shenakht"
+description: "پادکست روانشناسی نیما آقامیری؛ آشنایی خودمانی و ساده با ذهن و رفتار انسان برای هر کسی که دوست دارد آدم‌ها را بهتر بشناسد."
+category: "روانشناسی"
+subcategories: ["خودشناسی و رشد"]
+tags: ["روانشناسی", "جامعه شناسی", "شناخت", "نیما آقامیری", "پادکست فارسی", "خودشناسی", "ذهن انسان"]
+status: "active"
+language: "فارسی"
+creator: "نیما آقامیری"
+country: "ایران"
+city: "اصفهان"
+start_year: 1405
+episode_count: 2
+frequency: "دو هفته یک‌بار"
+logo: "/assets/img/podcasts/shenakht.png"
 castbox_id: "7417154"
 castbox_channel: "https://castbox.fm/ch/7417154"
-spotify: ""
-apple_podcasts: ""
-youtube: ""
 instagram: "https://instagram.com/nima_a.g.h"
 telegram: "https://t.me/Nima_Aghamiri"
 collab: true
 collab_types: "اسپانسری قسمت"
-tags: [روانشناسی, جامعه شناسی, شناخت, نیما آقامیری, پادکست فارسی, خودشناسی, ذهن انسان]
 ---
 
 # شناخت؛ سفری به دنیای ذهن انسان

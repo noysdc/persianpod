@@ -19,9 +19,9 @@ scripts: [/assets/js/pp-directory.js, /assets/js/pp-map.js]
       {% assign sorted = site.podcasts | sort: 'title' %}
       {% for p in sorted %}
       {% assign logo = p.logo %}{% if logo and logo contains '://' %}{% assign logo_url = logo %}{% elsif logo %}{% assign logo_url = logo | relative_url %}{% else %}{% assign logo_url = '' %}{% endif %}
-      <a class="pd-card" href="{{ p.url | relative_url }}">
-        <span class="pd-logo">{% if logo_url != '' %}<img src="{{ logo_url }}" alt="" loading="lazy" width="72" height="72">{% else %}<i>{{ p.title | slice: 0 }}</i>{% endif %}</span>
-        <span class="pd-body"><h3>{{ p.title }}</h3>{% if p.description %}<span class="pd-desc">{{ p.description | strip_html | truncate: 140 }}</span>{% endif %}
+      <a class="pd-card" href="{{ p.url | relative_url }}" title="{{ p.description | strip_html | escape }}">
+        <span class="pd-logo">{% if logo_url != '' %}<img src="{{ logo_url }}" alt="" loading="lazy" width="160" height="160">{% else %}<i>{{ p.title | slice: 0 }}</i>{% endif %}</span>
+        <span class="pd-body"><h3>{{ p.title }}</h3>
         <span class="pd-meta"><span class="pd-b">{{ p.category }}</span></span></span>
       </a>
       {% endfor %}

@@ -1,16 +1,20 @@
 ---
-layout: post
 title: "هزار قاب؛ روایتی که از قاب هنر بیرون می‌زند"
 title_en: "1000frames"
-slug: 1000frames
-category: هنر
-host: فرید مستوفی
-city: تهران
-country: ایران
-started: ۱۴۰۳
-episodes: ۳۰
-schedule: هر دو هفته
-logo: /assets/img/podcasts/1000frames.jpg
+slug: "1000frames"
+description: "پادکست هنری فرید مستوفی؛ روایت داستان پشت آثار هنری و تحلیل زمینه‌های تاریخی، اقتصادی و اجتماعی آن‌ها، برای هر کسی که روایت‌شنیدن را دوست دارد."
+category: "هنر"
+subcategories: ["تاریخ هنر"]
+tags: ["پادکست هنری", "تاریخ هنر", "تحلیل هنر", "فرید مستوفی", "هزار قاب"]
+status: "active"
+language: "فارسی"
+creator: "فرید مستوفی"
+country: "ایران"
+city: "تهران"
+start_year: 1403
+episode_count: 30
+frequency: "دو هفته یک‌بار"
+logo: "/assets/img/podcasts/1000frames.jpg"
 castbox_id: "6129612"
 castbox_channel: "https://castbox.fm/channel/1000-frames-artpodcast-id6129612"
 spotify: "https://open.spotify.com/show/6JEfNTQSC3Xa0kVjL2z55W"
@@ -20,7 +24,6 @@ instagram: "https://www.instagram.com/1000frames.artpodcast"
 telegram: "https://t.me/podcast1000frames"
 collab: true
 collab_types: "بسته به پیشنهاد اسپانسر"
-tags: [پادکست هنری, تاریخ هنر, تحلیل هنر, فرید مستوفی, هزار قاب]
 ---
 
 # هزار قاب؛ روایتی که از قاب هنر بیرون می‌زند

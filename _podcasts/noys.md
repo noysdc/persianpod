@@ -1,26 +1,29 @@
 ---
-layout: post
 title: "نویز؛ روایت‌های واقعی از گوشه‌و کنار دنیا"
 title_en: "NOYS"
-slug: noys
-category: جنایی
-host: یونس شجاعی
-city: کیش
-country: ایران
-started: 1405
-episodes: 3
-schedule: نامنظم (بر اساس کامل شدن تحقیق‌ها)
-logo: /assets/img/podcasts/noys.jpg
+slug: "noys"
+description: "پادکست مستندمحور درباره‌ی داستان‌های واقعی جنایی و بیزینس‌های ممنوعه و لایه‌های پنهان تاریخ معاصر."
+category: "جنایی"
+subcategories: ["جرایم سازمان‌یافته و اقتصاد سایه"]
+tags: ["پادکست جنایی", "مستند", "بیزینس ممنوعه", "اقتصاد سایه", "نویز", "یونس شجاعی"]
+status: "active"
+language: "فارسی"
+creator: "یونس شجاعی"
+country: "ایران"
+city: "کیش"
+start_year: 1405
+episode_count: 3
+frequency: "نامنظم"
+logo: "/assets/img/podcasts/noys.jpg"
 castbox_id: "7361321"
 castbox_channel: "https://castbox.fm/ch/7361321"
-telegram: "https://t.me/NOYSDC"
 instagram: "https://instagram.com/noysdc"
+telegram: "https://t.me/NOYSDC"
 threads: "https://www.threads.com/@noysdc"
 website: "https://noysdc.ir"
 email: "NOYSDC.MEDIA@GMAIL.COM"
 collab: true
 collab_types: "اسپانسری قسمت"
-tags: [پادکست جنایی, مستند, بیزینس ممنوعه, اقتصاد سایه, نویز, یونس شجاعی]
 ---
 
 # نویز؛ روایت‌های واقعی از گوشه‌و کنار دنیا

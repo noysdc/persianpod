@@ -1,0 +1,53 @@
+/* PersianPod: اصلاحات ظاهری — بعد از همه‌ی استایل‌ها بارگذاری می‌شود */
+:root{--ring:#08cb00;--ring-soft:rgba(8,203,0,.18);--cover-bg:#e6ece7}
+html[data-theme="dark"]{--cover-bg:#1c2620}
+
+/* ---- عرض صفحه در دسکتاپ: حاشیه‌ی خالی کمتر ---- */
+.pp-shell{max-width:1560px}
+.pp-article{max-width:52rem}
+.pod.wrap{max-width:1120px}
+
+/* ---- قاب کاور: کاورهای با زمینه‌ی سفید هم از زمینه‌ی صفحه جدا دیده شوند ---- */
+.pod-head .logo{box-sizing:border-box;padding:6px;background:var(--cover-bg);border:3px solid var(--ring);border-radius:16px;
+  box-shadow:0 0 0 6px var(--ring-soft),0 18px 40px -14px var(--glow)}
+.pod-head .logo.ph{padding:0}
+.sq{padding:4px;border:2px solid var(--ring);background:var(--cover-bg);border-radius:12px}
+.sq img{border-radius:8px}
+.sq .ph{border-radius:8px}
+
+/* ---- کارت‌های صفحه‌ی اصلی: ساده و خلوت (کاور + نام + یک خط دسته) ---- */
+.pd-grid{grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:26px 18px}
+.pd-grid .pd-card{display:block;padding:0;border:0;background:none;border-radius:0;box-shadow:none;transform:none}
+.pd-grid .pd-card:hover,.pd-grid .pd-card:focus-visible{box-shadow:none;transform:none}
+.pd-card .pd-logo{display:block;width:100%;height:auto;aspect-ratio:1;padding:4px;background:var(--cover-bg);
+  border:2px solid var(--ring);border-radius:16px;overflow:hidden;transition:box-shadow .2s ease}
+.pd-card:hover .pd-logo,.pd-card:focus-visible .pd-logo{box-shadow:0 14px 30px -10px var(--glow)}
+.pd-card .pd-logo img{width:100%;height:100%;object-fit:cover;border-radius:11px}
+.pd-card .pd-logo i{display:grid;place-items:center;width:100%;height:100%;font-size:3rem}
+.pd-card .pd-body{display:block;margin-top:10px}
+.pd-card .pd-body h3{margin:0;font-size:.98rem;line-height:1.7}
+.pd-card .pd-desc{display:none}
+.pd-card .pd-meta{display:flex;flex-wrap:wrap;gap:2px 8px;margin-top:0}
+.pd-card .pd-b{padding:0;border:0;border-radius:0;font-size:.8rem;color:var(--mut)}
+.pd-card .pd-b.off{color:var(--mut);opacity:.8}
+.pd-row .pd-card{flex:0 0 min(168px,46%)}
+@media(max-width:560px){
+  .pd-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 12px}
+  .pd-grid .pd-card{padding:0}
+  .pd-card .pd-logo{width:100%;height:auto}
+}
+
+/* ---- حمایت مالی: کوچک و آرام ---- */
+.pp-donate{height:34px;padding:0 14px;font-size:.84rem;font-weight:700;background:transparent;color:var(--ink);
+  border:1.5px solid var(--ring);box-shadow:none}
+.pp-donate .i{width:15px;height:15px}
+.pp-donate:hover{background:var(--ring);color:#0b0e0c;box-shadow:0 8px 20px -8px var(--glow);transform:none}
+.pp-icons{gap:8px;margin-bottom:8px}
+.pp-icons a{width:36px;height:36px}
+
+/* ---- مطلب پیشنهادی (درباره‌ی ما ↔ سلب مسئولیت) ---- */
+.pp-suggest{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:6px 12px;margin:2.4em auto 0;padding:12px 18px;
+  max-width:28rem;border:1px solid var(--line);border-radius:16px;background:var(--card)}
+.pp-suggest span{color:var(--mut);font-size:.9rem}
+.pp-suggest a{font-weight:700;text-decoration:none;border-bottom:2px solid var(--ring)}
+.pp-suggest a:hover{box-shadow:0 6px 14px -8px var(--glow)}

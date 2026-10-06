@@ -10,6 +10,7 @@ scripts: [/assets/js/pp-form-fields.js, /assets/js/pp-form.js]
   مهم: این فایل باید همیشه با سه‌خط‌تیره و permalink شروع شود، وگرنه Jekyll آن را پردازش نمی‌کند
   و آدرس /form/ خطای ۴۰۴ می‌دهد. سؤال‌ها را در assets/js/pp-form-fields.js ویرایش کن، نه اینجا.
 {% endcomment %}
+<script>window.PP_CATS = {{ site.data.categories | jsonify }};</script>
 <section class="pp-form">
   <h1>پرسشنامه‌ی معرفی پادکست</h1>
   <p class="pf-lead">از اینکه می‌خواهید پادکستتان را به شنوندگان فارسی‌زبان معرفی کنید سپاسگزاریم. پاسخ‌های شما پایه‌ی یک صفحه‌ی اختصاصی و مقاله‌مانند برای پادکست شما در پرشین‌پاد است؛ هرچه دقیق‌تر و صمیمانه‌تر بنویسید، صفحه‌ی بهتری ساخته می‌شود.</p>

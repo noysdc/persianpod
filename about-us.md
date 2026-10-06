@@ -2,6 +2,9 @@
 layout: page
 title: "درباره PersianPod"
 permalink: /about-us/
+suggest:
+  title: سلب مسئولیت
+  url: /disclaimer/
 img: /assets/img/podcasts/persianpod-profile-animated.gif
 ---
 

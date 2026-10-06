@@ -55,6 +55,17 @@
     var rq = r ? ' required aria-required="true"' : "";
     var dsc = ' aria-describedby="' + (h ? "h-" + k + " " : "") + 'e-' + k + '"';
 
+    if (ty === "subcat") {
+      var groups = (o || []).map(function (c, ci) {
+        return '<div class="pf-subs" data-cat="' + esc(c.name) + '" hidden>' + (c.subcategories || []).map(function (s, si) {
+          return '<label class="pf-chip"><input type="checkbox" name="subcat__' + ci + '__' + si + '" value="' + esc(s) + '"><span>' + esc(s) + "</span></label>";
+        }).join("") + "</div>";
+      }).join("");
+      return '<div class="pf pf-wide pf-subwrap" role="group" aria-label="' + esc(l) + '"><span class="pf-l">' + esc(l) + "</span>" + hint +
+        '<p class="pf-subs-empty">اول دسته‌ی اصلی را انتخاب کنید تا زیردسته‌هایش نمایش داده شود.</p>' + groups +
+        '<p class="pf-sub-note" id="sub-note" role="status" hidden></p></div>';
+    }
+
     if (ty === "check")
       return '<div class="pf pf-wide"><label class="pf-o"><input type="checkbox" name="' + k + '"' + rq + dsc + "> <span>" + esc(l) + star + "</span></label>" + errSlot(k) + "</div>";
 
@@ -91,6 +102,33 @@
 
   var multiCfg = {};
   S.forEach(function (sec) { sec[1].forEach(function (f) { if (f[2] === "multi") multiCfg[f[0]] = f[5]; }); });
+
+  /* ---------- زیردسته‌ها (وابسته به دسته‌ی اصلی، حداکثر ۳ مورد) ---------- */
+  var MAX_SUBS = 3, catSel = form.elements.category, subTimer = 0;
+  function selectedSubs() {
+    var g = $(".pf-subs:not([hidden])", box);
+    return g ? $$("input:checked", g).map(function (i) { return i.value; }).slice(0, MAX_SUBS) : [];
+  }
+  function syncSubs() {
+    var cat = catSel ? catSel.value : "", shown = false;
+    $$(".pf-subs", box).forEach(function (g) {
+      var on = cat !== "" && g.getAttribute("data-cat") === cat;
+      g.hidden = !on; if (on) shown = true;
+      if (!on) $$("input", g).forEach(function (i) { i.checked = false; });
+    });
+    var empty = $(".pf-subs-empty", box); if (empty) empty.hidden = shown;
+  }
+  function subNote(t) {
+    var n = $("#sub-note"); if (!n) return;
+    n.textContent = t; n.hidden = !t; clearTimeout(subTimer);
+    if (t) subTimer = setTimeout(function () { n.hidden = true; }, 3000);
+  }
+  if (catSel) catSel.addEventListener("change", syncSubs);
+  box.addEventListener("change", function (e) {
+    var t = e.target, g = t && t.closest ? t.closest(".pf-subs") : null;
+    if (g && t.checked && $$("input:checked", g).length > MAX_SUBS) { t.checked = false; subNote("حداکثر ۳ زیردسته را می‌توانید انتخاب کنید."); }
+  });
+  form.addEventListener("reset", function () { setTimeout(syncSubs, 0); });
 
   var shortEl = form.elements.short;
   if (shortEl) {
@@ -167,9 +205,9 @@
       var f = logoIn.files[0], prev = $(".pf-prev", drop), fn = $(".pf-fn", drop);
       msg(""); clearErr(logoIn);
       if (!f) { prev.hidden = true; fn.textContent = ""; progress(); return; }
-      if (!/^image\/(png|jpeg)$/.test(f.type) || f.size > 5e6) {
+      if (!/^image\/(png|jpeg)$/.test(f.type) || f.size > 2 * 1024 * 1024) {
         logoIn.value = ""; prev.hidden = true; fn.textContent = ""; progress();
-        return showErr(logoIn, "کاور باید PNG یا JPG و حداکثر ۵ مگابایت باشد.");
+        return showErr(logoIn, "کاور باید PNG یا JPG و حداکثر ۲ مگابایت باشد.");
       }
       var url = URL.createObjectURL(f), im = new Image();
       im.onload = function () {
@@ -225,7 +263,7 @@
   }
   function validateField(f) {
     var k = f[0], ty = f[2], req = f[3], x = f[6] || {}, el, v, problems = [];
-    if (ty === "radio") return problems;
+    if (ty === "radio" || ty === "subcat") return problems;
     if (ty === "multi") {
       var cfg = f[5];
       rowsOf(k).forEach(function (row, i) {
@@ -349,6 +387,7 @@
     b.onclick = function () { clearDraft(); form.reset(); resetRows(); msg(""); if (shortEl) shortEl.dispatchEvent(new Event("input")); progress(); };
     msg("پیش‌نویس قبلی شما در همین مرورگر بازیابی شد. ", "", b);
   }
+  syncSubs();
   progress();
 
   /* ---------- ساخت فایل md ---------- */
@@ -372,6 +411,7 @@
       sec[1].forEach(function (f) {
         var k = f[0], l = f[1], ty = f[2], x = f[6] || {};
         if (ty === "file") return;
+        if (ty === "subcat") { fm.push(k + ": " + q(selectedSubs())); return; }
         if (ty === "multi") {
           var arr = multiValues(k);
           fm.push(k + ": " + q(arr));
@@ -388,6 +428,7 @@
         var v = ty === "check" ? !!fd.get(k) : (fd.get(k) || "").toString().trim();
         if (ty !== "check" && x.v === "url") v = normUrl(v);
         if (ty !== "check" && x.v === "embed") v = embedSrc(v);
+        if (k === "started" || k === "episodes") v = digits(v);        // داده همیشه با عدد لاتین ذخیره می‌شود؛ نمایش فارسی با pp-digits.js
         if (ty !== "check" && x.list) {                 // «برچسب‌ها» به‌صورت آرایه (حداکثر ۵ مورد)
           var arr2 = v.split(/[،,؛;\n]/).map(function (t) { return t.trim(); }).filter(Boolean).slice(0, 5);
           fm.push(k + ": " + q(arr2)); return;

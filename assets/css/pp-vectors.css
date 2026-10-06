@@ -1,38 +1,12 @@
-/* وکتور گوشه‌ای: کوچک، کم‌رنگ، پشت محتوا */
-.pp-vector {
-  position: fixed;
-  top: 96px; /* زیر منوی ثابت؛ اگر ارتفاع منو فرق دارد تنظیم کن */
-  left: 24px;
-  width: 84px;
-  height: 84px;
-  color: #08cb00;
-  opacity: 0.16;
-  z-index: 0;
-  pointer-events: none;
-}
+/* وکتورهای حاشیه: کوچک، کم‌رنگ، فقط وقتی دو طرف صفحه واقعاً خالی است
+   عرض محتوا (.pp-shell) = ۱۵۶۰px؛ هر وکتور وسط حاشیه‌ی همان طرف می‌نشیند. */
+.pp-vector{display:none;position:fixed;top:42%;width:84px;height:84px;margin-top:-42px;color:#08cb00;opacity:.2;z-index:0;pointer-events:none}
+.pp-vector svg{display:block;width:100%;height:100%}
+html[data-theme="dark"] .pp-vector{opacity:.26}
 
-.pp-vector svg {
-  width: 100%;
-  height: 100%;
-  display: block;
+@media (min-width:1820px){
+  .pp-vector{display:block}
+  .pp-vector-start{inset-inline-start:calc((100vw - 1560px) / 4 - 42px)}
+  .pp-vector-end{inset-inline-end:calc((100vw - 1560px) / 4 - 42px)}
 }
-
-html[data-theme="dark"] .pp-vector,
-html.dark .pp-vector,
-body.dark .pp-vector,
-body.night .pp-vector {
-  opacity: 0.22;
-}
-
-/* موبایل و تبلت: بدون وکتور تا صفحه شلوغ نشود */
-@media (max-width: 1100px) {
-  .pp-vector {
-    display: none;
-  }
-}
-
-@media print {
-  .pp-vector {
-    display: none;
-  }
-}
+@media print{.pp-vector{display:none}}

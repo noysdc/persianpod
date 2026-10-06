@@ -86,9 +86,11 @@
     p._len = num(p.length) || null;
     p._yr = y || null;
     p._active = (p.status || "active") === "active";
+    var subs = Array.isArray(p.subcategories) ? p.subcategories : (p.subcategory ? [p.subcategory] : []);
+    p._subs = subs.map(norm);
     p._tags = tags.map(norm);
     p._creator = norm(p.creator);
-    p._hay = norm([p.title, p.description, p.category, p.subcategory, p.city, p.country, p.creator, p.language, tags.join(" ")].join(" "));
+    p._hay = norm([p.title, p.description, p.category, subs.join(" "), p.city, p.country, p.creator, p.language, tags.join(" ")].join(" "));
     p._rnd = Math.random();
     return p;
   }
@@ -139,7 +141,7 @@
     if (f.creator && p._creator.indexOf(f.creator) === -1) return false;
     if (f.tag) {
       var ok = p._tags.some(function (t) { return t.indexOf(f.tag) !== -1; }) ||
-        norm(p.subcategory).indexOf(f.tag) !== -1 || norm(p.category).indexOf(f.tag) !== -1;
+        p._subs.some(function (t) { return t.indexOf(f.tag) !== -1; }) || norm(p.category).indexOf(f.tag) !== -1;
       if (!ok) return false;
     }
     if (f.q) {
@@ -159,19 +161,14 @@
   /* ---------- نمایش ---------- */
   function badge(t, on) { return '<span class="pd-b' + (on ? " on" : "") + '">' + t + "</span>"; }
   function card(p) {
-    var meta = [badge(esc(p._cat))];
-    if (p.city) meta.push(badge(esc(p.city)));
-    if (p._yr) meta.push(badge("از " + toFa(p._yr)));
-    if (p._ep) meta.push(badge(toFa(p._ep) + " اپیزود"));
-    if (p._len) meta.push(badge(toFa(p._len) + " دقیقه"));
-    meta.push(badge(p._active ? "فعال" : "غیرفعال", p._active));
+    var sub = p.subcategories && p.subcategories[0] ? "، " + esc(p.subcategories[0]) : "";
     var logo = p.logo
-      ? '<img src="' + esc(p.logo) + '" alt="" loading="lazy" decoding="async" width="72" height="72">'
+      ? '<img src="' + esc(p.logo) + '" alt="" loading="lazy" decoding="async" width="160" height="160">'
       : "<i>" + esc((p.title || "").trim().charAt(0)) + "</i>";
-    return '<a class="pd-card" href="' + esc(p.url) + '"><span class="pd-logo">' + logo + "</span>" +
+    return '<a class="pd-card" href="' + esc(p.url) + '" title="' + esc(p.description || "") + '"><span class="pd-logo">' + logo + "</span>" +
       '<span class="pd-body"><h3>' + esc(p.title) + "</h3>" +
-      (p.description ? '<span class="pd-desc">' + esc(p.description) + "</span>" : "") +
-      '<span class="pd-meta">' + meta.join("") + "</span></span></a>";
+      '<span class="pd-meta"><span class="pd-b">' + esc(p._cat) + sub + "</span>" +
+      (p._active ? "" : '<span class="pd-b off">غیرفعال</span>') + "</span></span></a>";
   }
   function sortList(list, mode) {
     var l = list.slice();

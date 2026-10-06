@@ -2,6 +2,9 @@
 layout: page
 title: سلب مسئولیت
 permalink: /disclaimer/
+suggest:
+  title: درباره‌ی ما
+  url: /about-us/
 description: شرایط استفاده، مسئولیت محتوا، لینک‌های بیرونی و حریم خصوصی در پرشین‌پاد.
 ---
 

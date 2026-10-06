@@ -8,36 +8,38 @@
 ```yaml
 ---
 title: نام پادکست
-description: یک یا دو جمله درباره‌ی پادکست
-category: تاریخ            # یک دسته‌ی اصلی
-subcategory: تاریخ ایران   # اختیاری
-tags: [تاریخ, سیاست, جامعه, ایران]
-status: active             # active | paused | ended
+title_en: Podcast Name
+slug: podcast-name          # مثل نام فایل
+description: یک یا دو جمله درباره‌ی پادکست (در کارت و نتیجه‌ی جست‌وجو دیده می‌شود)
+category: تاریخ             # یکی از دسته‌های _data/categories.yml (الزامی)
+subcategories: [تاریخ ایران, تاریخ باستان]   # اختیاری؛ تا ۳ مورد از همان دسته
+tags: [تاریخ, سیاست, جامعه]
+status: active              # active | paused | ended  (با RSS خودکار به‌روز می‌شود)
 language: فارسی
 creator: نام سازنده
 country: ایران
 city: تهران
-start_year: 1402
-last_episode: "2026-09"
-episode_count: 40
-frequency: هفتگی
-duration: ۴۰ تا ۶۰ دقیقه
-audience: علاقه‌مندان به تاریخ
-logo: /assets/img/xyz.jpg  # مسیر محلی یا آدرس کامل
-cover:
-rss:
-website:
+start_year: 1402            # شمسی، همیشه عدد لاتین (نمایش فارسی خودکار است)
+episode_count: 40           # عدد لاتین
+frequency: هفتگی            # روزانه | هفتگی | دو هفته یک‌بار | ماهانه | فصلی | نامنظم
+duration: 40 دقیقه
+logo: /assets/img/podcasts/name.jpg   # مربع، حداکثر ۲ مگابایت
+castbox_id: "1234567"
+castbox_channel:
 spotify:
-apple:
-castbox:
+apple_podcasts:
 youtube:
 instagram:
 telegram:
+website:
 email:
-show_contact: false        # فقط با رضایت پادکستر true شود (تلگرام و ایمیل)
+collab: true
+collab_types:
 ---
 متن بلند معرفی (Markdown) اینجا.
 ```
+
+بعد از هر تغییر در فایل‌ها: `python3 tools/validate_podcasts.py`
 
 ## پخش‌کننده‌ی صفحه‌ی «گوش بده»
 هر پادکست که یکی از این‌ها را داشته باشد در `/listen/` پخش‌کننده پیدا می‌کند:

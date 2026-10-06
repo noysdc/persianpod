@@ -3,4 +3,10 @@ layout: default
 ---
 <article class="pp-article">
 {{ content }}
+{% if page.suggest %}
+<aside class="pp-suggest" aria-label="مطلب پیشنهادی">
+  <span>مطلب پیشنهادی</span>
+  <a href="{{ page.suggest.url | relative_url }}">{{ page.suggest.title }}</a>
+</aside>
+{% endif %}
 </article>

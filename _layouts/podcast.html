@@ -39,7 +39,7 @@ layout: default
       {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
       <div class="tags">
         {% if page.category %}<a href="{{ '/?category=' | append: page.category | uri_escape | relative_url }}">{{ page.category }}</a>{% endif %}
-        {% if page.subcategory %}<a href="{{ '/?q=' | append: page.subcategory | uri_escape | relative_url }}">{{ page.subcategory }}</a>{% endif %}
+        {% assign subs = page.subcategories %}{% if subs == nil and page.subcategory %}{% assign subs = page.subcategory | split: '،' %}{% endif %}{% for s in subs %}<a href="{{ '/?q=' | append: s | uri_escape | relative_url }}">{{ s }}</a>{% endfor %}
         {% for t in page.tags %}<a href="{{ '/?q=' | append: t | uri_escape | relative_url }}">{{ t }}</a>{% endfor %}
         <span class="st {{ stv }}">{% if stv == 'active' %}فعال{% elsif stv == 'paused' %}متوقف{% else %}پایان‌یافته{% endif %}</span>
       </div>
