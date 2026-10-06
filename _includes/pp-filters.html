@@ -1,10 +1,11 @@
-<aside class="pp-filters-side" id="pd-aside" aria-label="فیلترها و جست‌وجوی پیشرفته">
+<aside class="pp-filters-side" id="pd-aside" aria-label="جست‌وجوی پیشرفته">
   <button type="button" class="pd-ftoggle" id="pd-ftoggle" aria-expanded="false" aria-controls="pd-filters">
     <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18M6 12h12M10 19h4"/></svg>
-    فیلترها و جست‌وجوی پیشرفته <span class="pd-fcount" id="pd-fcount" hidden></span>
+    جست‌وجوی پیشرفته <span class="pd-fcount" id="pd-fcount" hidden></span>
   </button>
-  <form id="pd-filters" class="pd-filters" autocomplete="off" role="search" aria-label="فیلتر پادکست‌ها">
-    <h2 class="pp-side-title">فیلتر و جست‌وجوی پیشرفته</h2>
+  <form id="pd-filters" class="pd-filters" autocomplete="off" role="search" aria-label="جست‌وجوی پیشرفته پادکست‌ها">
+    <h2 class="pp-side-title">جست‌وجوی پیشرفته</h2>
+    <p id="pd-count" class="pd-count" aria-live="polite"></p>
 
     <label>وضعیت
       <select id="f-status"><option value="">همه</option><option value="active">فعال</option><option value="inactive">غیرفعال</option></select>
@@ -51,6 +52,6 @@
       </select>
     </label>
     <label class="pd-check"><input type="checkbox" id="f-group" checked> گروه‌بندی بر اساس دسته</label>
-    <button type="button" id="f-reset" class="pd-reset">پاک‌کردن همه‌ی فیلترها</button>
+    <button type="button" id="f-reset" class="pd-reset">پاک‌کردن انتخاب‌ها</button>
   </form>
 </aside>

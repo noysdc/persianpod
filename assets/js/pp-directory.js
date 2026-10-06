@@ -259,11 +259,11 @@
     var list = sortList(data.filter(function (p) { return match(p, f); }), f.sort);
     var filtered = isFiltered(f);
 
-    $("#pd-count").textContent = toFa(list.length) + " پادکست" + (filtered ? " مطابق فیلترها" : "");
+    $("#pd-count").textContent = toFa(list.length) + " پادکست" + (filtered ? " مطابق جست‌وجوی شما" : "");
     out.removeAttribute("aria-busy");
 
     if (!list.length) {
-      out.innerHTML = '<p class="pd-empty">پادکستی با این فیلترها پیدا نشد. فیلترها را کم کن یا پاک کن.</p>';
+      out.innerHTML = '<p class="pd-empty">پادکستی با این انتخاب‌ها پیدا نشد. انتخاب‌ها را کم کن یا پاک کن.</p>';
     } else if (f.group && !f.cat) {
       var groups = {}, order = [];
       list.forEach(function (p) {
@@ -407,7 +407,7 @@
     var d = e.detail || {};
     geo = { label: d.label || "", cities: (d.cities || []).map(norm), countries: (d.countries || []).map(norm) };
     render();
-    var h = $("#pd-count"); if (h) h.scrollIntoView({ behavior: "smooth", block: "start" });
+    var h = $("#pd-results"); if (h) h.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 
   var url = document.body.getAttribute("data-search");
@@ -417,7 +417,7 @@
     .catch(function () {
       var note = document.createElement("p");
       note.className = "pd-empty";
-      note.textContent = "بارگذاری فیلترها انجام نشد؛ فهرست ساده‌ی پادکست‌ها در همین صفحه در دسترس است.";
+      note.textContent = "بارگذاری جست‌وجوی پیشرفته انجام نشد؛ فهرست ساده‌ی پادکست‌ها در همین صفحه در دسترس است.";
       out.parentNode.insertBefore(note, out);
     });
 })();
