@@ -1,0 +1,18 @@
+---
+layout: default
+title: تازه‌ها؛ آخرین قسمت‌های پادکست‌های فارسی
+permalink: /new/
+description: فهرست زنده‌ی پادکست‌های فارسی بر اساس زمان انتشار آخرین قسمت؛ هر پادکستی قسمت تازه منتشر کند به صدر فهرست می‌آید.
+styles: [/assets/css/pp-dir.css, /assets/css/pp-new.css]
+scripts: [/assets/js/pp-new.js]
+---
+<section class="nw" aria-label="تازه‌ها">
+  <div class="pd-head">
+    <h1>تازه‌ها</h1>
+    <p class="pd-slogan">پادکست‌ها به ترتیب زمان انتشار آخرین قسمت؛ هر پادکستی قسمت جدید بدهد، می‌رود صدر فهرست.</p>
+  </div>
+  <p id="nw-status" class="nw-status" role="status" aria-live="polite">در حال بارگذاری…</p>
+  <ol id="nw-list" class="nw-list"></ol>
+  <p class="nw-note">زمان‌ها از RSS هر پادکست خوانده می‌شود و هر حدود ۱۰ دقیقه به‌روز می‌شود. این صفحه تا باز است خودش فهرست را تازه می‌کند؛ نیازی به رفرش نیست. پادکست‌هایی که RSS ثبت نکرده‌اند، ته فهرست می‌آیند.</p>
+</section>
+<script>window.PP_NEW_URL = "{{ '/new.json' | relative_url }}"; window.PP_STATS_RAW = "{{ site.rss_stats_raw }}";</script>

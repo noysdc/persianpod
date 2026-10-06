@@ -62,6 +62,7 @@ def analyse(feed_url):
         data = r.read(20_000_000)
     root = ET.fromstring(data)
     items = []
+    eps = []      # (تاریخ، عنوان، لینک) برای صفحه‌ی «تازه‌ها»
     for it in root.iter("item"):
         pub = it.findtext("pubDate")
         try:
@@ -73,6 +74,12 @@ def analyse(feed_url):
             if child.tag.endswith("}duration"):
                 dur = parse_duration(child.text)
         items.append((d, dur))
+        link = (it.findtext("link") or "").strip()
+        if not link.lower().startswith(("http://", "https://")):
+            enc = it.find("enclosure")
+            link = (enc.get("url") if enc is not None else "") or ""
+            link = link if link.lower().startswith(("http://", "https://")) else ""
+        eps.append((d, (it.findtext("title") or "").strip()[:160], link))
     if not items:
         raise ValueError("no items in feed")
     result = {"episodes": len(items)}
@@ -90,6 +97,15 @@ def analyse(feed_url):
         recent = sorted([(utc(d), x) for d, x in dated if x > 0], key=lambda t: t[0], reverse=True)[:RECENT_FOR_AVG]
         if recent:
             result["avg_length"] = max(1, round(statistics.mean(x for _, x in recent) / 60))
+    # --- صفحه‌ی «تازه‌ها»: آخرین قسمت‌ها با زمان دقیق (UTC) ---
+    def utc2(d):
+        return d.replace(tzinfo=None) if d.tzinfo is None else d.astimezone(dt.timezone.utc).replace(tzinfo=None)
+    newest = sorted(((utc2(d), t, l) for d, t, l in eps if d), key=lambda x: x[0], reverse=True)[:3]
+    if newest:
+        result["last_at"] = newest[0][0].strftime("%Y-%m-%dT%H:%M:%SZ")
+        result["last_title"] = newest[0][1]
+        result["last_link"] = newest[0][2]
+        result["recent"] = [{"at": d.strftime("%Y-%m-%dT%H:%M:%SZ"), "title": t, "link": l} for d, t, l in newest]
     # --- آمار تکمیلی برای صفحه‌ی «مقایسه»؛ همه از خود RSS و قابل بازتولید ---
     durs = sorted(x for _, x in items if x > 0)
     if durs:

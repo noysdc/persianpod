@@ -2,7 +2,7 @@ name: Update RSS stats
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # هر ۳۰ دقیقه
+    - cron: "*/10 * * * *"   # هر ۱۰ دقیقه (گیت‌هاب ممکن است چند دقیقه دیرتر اجرا کند)
   workflow_dispatch:           # اجرای دستی از تب Actions
 
 permissions:

@@ -18,3 +18,5 @@ defaults:
   - scope: { path: "", type: "podcasts" }
     values: { layout: "podcast" }
 exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, node_modules]
+# آمار RSS تازه‌ترین نسخه؛ صفحه‌ی «تازه‌ها» از اینجا می‌خواند تا منتظر دیپلوی دوباره نماند
+rss_stats_raw: https://raw.githubusercontent.com/noysdc/persianpod/master/_data/rss_stats.json

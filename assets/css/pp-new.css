@@ -1,0 +1,29 @@
+/* PersianPod: صفحه‌ی «تازه‌ها» */
+.nw-status{margin:8px 0 14px;color:var(--mut);font-size:.9rem}
+.nw-list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.nw-row{display:grid;grid-template-columns:40px 64px 1fr auto;gap:12px;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:20px;background:var(--card);
+  transition:box-shadow .3s ease,border-color .3s ease}
+.nw-row.moved{border-color:#08cb00;box-shadow:0 8px 26px var(--glow-soft)}
+.nw-rank{text-align:center;font-weight:800;color:var(--mut)}
+.nw-logo{width:64px;height:64px;border-radius:16px;object-fit:cover;display:grid;place-items:center;background:var(--line);color:var(--acc);font-style:normal;font-weight:800;font-size:1.6rem}
+.nw-main{min-width:0}
+.nw-main h2{margin:0;font-size:1.02rem;line-height:1.6}
+.nw-main h2 a{color:var(--ink);text-decoration:none}
+.nw-main h2 a:hover{text-decoration:underline}
+.nw-cat{margin-inline-start:8px;padding:0 9px;border:1px solid var(--line);border-radius:999px;color:var(--mut);font-size:.74rem;font-weight:400}
+.nw-ep{display:block;margin-top:2px;color:var(--mut);font-size:.88rem;line-height:1.8;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nw-ep a{color:inherit}
+.nw-side{display:flex;flex-direction:column;align-items:flex-end;gap:6px;text-align:end}
+.nw-time{font-size:.85rem;color:var(--ink);white-space:nowrap}
+.nw-new{display:inline-block;margin-inline-end:6px;padding:0 8px;border-radius:999px;background:#08cb00;color:#0b0e0c;font-size:.72rem;font-weight:800}
+.nw-listen{display:inline-flex;align-items:center;min-height:32px;padding:0 14px;border:1px solid #08cb00;border-radius:999px;color:var(--acc);font-size:.82rem;text-decoration:none}
+.nw-listen:hover{box-shadow:0 6px 18px var(--glow-soft)}
+.nw-listen:focus-visible,.nw-main a:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+.nw-none .nw-time{color:var(--mut)}
+.nw-sep{margin:16px 0 4px;color:var(--mut);font-size:.9rem}
+.nw-note{margin-top:18px;color:var(--mut);font-size:.85rem;line-height:1.9}
+@media(max-width:640px){
+  .nw-row{grid-template-columns:28px 52px 1fr;grid-template-areas:"r l m" ". . s"}
+  .nw-rank{grid-area:r}.nw-logo{grid-area:l;width:52px;height:52px}.nw-main{grid-area:m}
+  .nw-side{grid-area:s;flex-direction:row;align-items:center;justify-content:space-between;text-align:start}
+}
