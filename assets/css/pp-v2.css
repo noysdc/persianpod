@@ -29,3 +29,31 @@ body.reading .pp-hero-text{display:none}
   .pd-row .pd-card{flex:0 0 112px!important;min-width:112px}
 }
 @media(max-width:420px){.pd-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* ---- تیتر صفحه‌ی اصلی: وسط‌چین و کوچک‌تر ---- */
+.pd-head{text-align:center}
+.pd-head h1{margin:4px 0 6px;font-size:clamp(1.25rem,2.6vw,1.65rem);font-weight:800;line-height:1.6}
+.pd-slogan{margin:0 0 6px;font-size:clamp(.88rem,1.8vw,1rem);font-weight:600;opacity:.8}
+.pd-sub{margin:0;font-size:.88rem}
+.pd-count{text-align:center}
+
+/* متن زیر لوگوی دایره‌ای */
+.pp-side-about{margin:4px 0 0;font-size:.9rem;line-height:1.7;text-align:center;color:var(--mut);opacity:1}
+
+/* ---- هر پادکست در یک باکس، با متن وسط‌چین ---- */
+.pd-card{padding:10px!important;border:1px solid var(--line)!important;background:var(--card)!important;border-radius:18px!important;text-align:center;
+  transition:box-shadow .2s ease,border-color .2s ease}
+.pd-card:hover,.pd-card:focus-visible{box-shadow:0 10px 26px -10px var(--glow)!important;border-color:var(--ring,#08cb00)!important}
+.pd-card .pd-logo{margin:0 auto}
+.pd-card .pd-body{text-align:center;margin-top:10px}
+.pd-card .pd-body h3{text-align:center}
+.pd-card .pd-b{text-align:center}
+.pd-grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.pd-row .pd-card{flex:0 0 156px!important;min-width:156px}
+@media(max-width:799px){
+  .pd-row .pd-card{flex:0 0 128px!important;min-width:128px}
+}
+
+/* ---- موج صدا: کوچک، باریک و کم‌رنگ ---- */
+.pd-wave{max-width:180px;height:14px;margin:18px auto 2px;opacity:.55}
+.pd-wave svg{filter:none}
