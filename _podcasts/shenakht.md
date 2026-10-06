@@ -63,23 +63,18 @@ collab_types: "اسپانسری قسمت"
 
 او همچنین از پادکست **شناخت** به‌عنوان پادکست نوپایی که خودش آن را می‌سازد و به آن افتخار می‌کند یاد می‌کند؛ پادکستی که تازه شروع شده و در حال پیدا کردن مسیر خودش است. [شنیدن شناخت در کست‌باکس](https://castbox.fm/ch/7417154){:target="_blank" rel="noopener"}
 
-## راه‌های ارتباطی
-
-شناخت برای همکاری و اسپانسری آماده است و نوع همکاری‌هایی که می‌پذیرد **اسپانسری قسمت** است. اگر کسب‌وکاری دارید که دوست دارید در یکی از قسمت‌های شناخت معرفی شود، می‌توانید با نیما در ارتباط باشید.
-
-- 🎧 [شنیدن شناخت در کست‌باکس](https://castbox.fm/ch/7417154){:target="_blank" rel="noopener"}
-- 📷 [اینستاگرام](https://instagram.com/nima_a.g.h){:target="_blank" rel="noopener"}
-- 💬 [تلگرام](https://t.me/Nima_Aghamiri){:target="_blank" rel="noopener"}
-- 📧 ایمیل: [nimaaghamiri10@gmail.com](mailto:nimaaghamiri10@gmail.com)
-
 ---
 
 #پادکست_روانشناسی #شناخت #نیما_آقامیری #پادکست_فارسی #روانشناسی #جامعه_شناسی #زندان_استنفورد #پادکست_ایرانی #خودشناسی #ذهن_انسان #فیوز
 
 ---
 
-## رفرنس‌ها
+## لینک‌های مرتبط و ارتباطات
 
-- کانال کست‌باکس شناخت: https://castbox.fm/ch/7417154
-- اینستاگرام شناخت: https://instagram.com/nima_a.g.h
-- تلگرام شناخت: https://t.me/Nima_Aghamiri
+اگر دوست دارید این سفر به دنیای ذهن را با هم ادامه بدهیم، از راه‌های زیر با شناخت همراه شوید:
+
+- [شنیدن شناخت در کست‌باکس](https://castbox.fm/ch/7417154){:target="_blank" rel="noopener"}
+- [اینستاگرام شناخت](https://instagram.com/nima_a.g.h){:target="_blank" rel="noopener"}
+- [تلگرام شناخت](https://t.me/Nima_Aghamiri){:target="_blank" rel="noopener"}
+- [ایمیل شناخت](mailto:nimaaghamiri10@gmail.com)
+- [شنیدن پادکست فیوز در کست‌باکس](https://castbox.fm/ch/6335302){:target="_blank" rel="noopener"}

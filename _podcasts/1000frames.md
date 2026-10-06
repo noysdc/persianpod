@@ -16,7 +16,7 @@ episode_count: 30
 frequency: "دو هفته یک‌بار"
 logo: "/assets/img/podcasts/1000frames.jpg"
 castbox_id: "6129612"
-castbox_channel: "https://castbox.fm/channel/1000-frames-artpodcast-id6129612"
+castbox_channel: "https://castbox.fm/ch/6129612"
 spotify: "https://open.spotify.com/show/6JEfNTQSC3Xa0kVjL2z55W"
 apple_podcasts: "https://podcasts.apple.com/tr/podcast/id1744160248"
 youtube: "https://www.youtube.com/@1000framesartpodcast"
@@ -56,7 +56,7 @@ collab_types: "بسته به پیشنهاد اسپانسر"
 - **در ستایش سوگ** — برای او جذاب است چون تلاش می‌کند موضوع‌های خلاقانه‌تری انتخاب کند.
 - **این هنر است؟** — مفهومی که در این اپیزود انتخاب شد مفهوم سختی بود و نوشتنش خیلی زمان برد تا دقیق باشد؛ درباره‌ی هنر پست‌مدرن و اثری از مارسل دوشان.
 
-این قسمت‌ها را می‌توانید در [کست‌باکس](https://castbox.fm/channel/1000-frames-artpodcast-id6129612)، [اسپاتیفای](https://open.spotify.com/show/6JEfNTQSC3Xa0kVjL2z55W)، [اپل پادکست](https://podcasts.apple.com/tr/podcast/id1744160248) و [یوتیوب](https://www.youtube.com/@1000framesartpodcast) بشنوید.
+این قسمت‌ها را می‌توانید در [کست‌باکس](https://castbox.fm/ch/6129612)، [اسپاتیفای](https://open.spotify.com/show/6JEfNTQSC3Xa0kVjL2z55W)، [اپل پادکست](https://podcasts.apple.com/tr/podcast/id1744160248) و [یوتیوب](https://www.youtube.com/@1000framesartpodcast) بشنوید.
 
 ## چرا هنوز می‌سازد؟
 
@@ -68,19 +68,30 @@ collab_types: "بسته به پیشنهاد اسپانسر"
 
 فرید زیاد پادکست گوش نمی‌دهد و هرچه همسرش بگذارد می‌شنود. اما یک پادکست تحلیلی درباره‌ی موزیک را به یاد دارد که یک قسمت از آن، موزیک‌های شهرام شبپره را به‌صورت تخصصی تحلیل می‌کرد. متأسفانه اسمش را فراموش کرده. اپیزودهای قدیمی طنزپردازی که درباره‌ی کمدین‌ها بود را هم دوست داشت.
 
-او همچنین یک پادکست نوپا را حمایت و معرفی می‌کند: [ارثیه](https://castbox.fm/channel/id6879078)
+او همچنین یک پادکست نوپا را حمایت و معرفی می‌کند: [ارثیه](https://castbox.fm/ch/6879078)
 
 و اما پادکستی که خودش عاشقش است:
 
 > **پادکست کُرُن؛ موسیقی ایرانی را از دریچه‌ای عمیق‌تر ببینیم.**
 > بردیا دوستی در هر قسمت یکی از آثار موسیقی ایرانی را انتخاب می‌کند و با دانشی که از دستگاه‌های موسیقی دارد، آن را از جهات فنی، تاریخی و حاشیه‌ای بررسی می‌کند. این پادکست برای کسی که می‌خواهد موسیقی را «آگاهانه‌تر» بشنود، یک همراه بی‌نظیر است.
-
-- 🎧 [شنیدن کُرُن در کست‌باکس](https://castbox.fm/channel/id4082056)
-
-## راه‌های ارتباطی
-
-هزار قاب برای همکاری و اسپانسری آماده است و نوع همکاری بسته به پیشنهاد اسپانسر تعیین می‌شود. می‌توانید از طریق [کانال تلگرام](https://t.me/podcast1000frames) و [اینستاگرام](https://www.instagram.com/1000frames.artpodcast) با او در ارتباط باشید.
+>
+> [شنیدن کُرُن در کست‌باکس](https://castbox.fm/ch/4082056){:target="_blank" rel="noopener"}
 
 ---
 
 #پادکست_هنری #تاریخ_هنر #تحلیل_هنر #هزار_قاب #فرید_مستوفی #پادکست_فارسی #هنر_و_جامعه #ادوارد_هاپر #مارسل_دوشان #پادکست_ایرانی #پادکست_کرن
+
+---
+
+## لینک‌های مرتبط و ارتباطات
+
+اگر دوست دارید هر قاب، شما را به دنیایی تازه ببرد، از راه‌های زیر می‌توانید با هزار قاب همراه شوید:
+
+- [شنیدن هزار قاب در کست‌باکس](https://castbox.fm/ch/6129612){:target="_blank" rel="noopener"}
+- [صفحه هزار قاب در اسپاتیفای](https://open.spotify.com/show/6JEfNTQSC3Xa0kVjL2z55W){:target="_blank" rel="noopener"}
+- [صفحه هزار قاب در اپل پادکست](https://podcasts.apple.com/tr/podcast/id1744160248){:target="_blank" rel="noopener"}
+- [یوتیوب هزار قاب](https://www.youtube.com/@1000framesartpodcast){:target="_blank" rel="noopener"}
+- [اینستاگرام هزار قاب](https://www.instagram.com/1000frames.artpodcast){:target="_blank" rel="noopener"}
+- [تلگرام هزار قاب](https://t.me/podcast1000frames){:target="_blank" rel="noopener"}
+- [شنیدن پادکست ارثیه در کست‌باکس](https://castbox.fm/ch/6879078){:target="_blank" rel="noopener"}
+- [شنیدن پادکست کُرُن در کست‌باکس](https://castbox.fm/ch/4082056){:target="_blank" rel="noopener"}

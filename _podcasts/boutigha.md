@@ -51,25 +51,15 @@ collab_types: "بسته به پیشنهاد"
 
 اگر می‌خواهید با بوطیقا آشنا شوید، این دو قسمت پیشنهاد خوبی هستند:
 
-- **قسمت 40 – شیر شتر (قسمت ویژه)** — این قسمت درباره‌ی اشعار الحاقی در شاهنامه فردوسی است. اشعاری که به مرور زمان به شاهنامه اضافه شده‌اند و اصالت‌شان زیر سؤال است. [شنیدن در کست‌باکس](https://castbox.fm/episode/40-%E2%80%93-%D8%B4%DB%8C%D8%B1-%D8%B4%D8%AA%D8%B1-(%D9%82%D8%B3%D9%85%D8%AA-%D9%88%DB%8C%DA%98%D9%87)-id4910844-id810934057?country=ir){:target="_blank" rel="noopener"}
+- **قسمت 40 – شیر شتر (قسمت ویژه)** — این قسمت درباره‌ی اشعار الحاقی در شاهنامه فردوسی است. اشعاری که به مرور زمان به شاهنامه اضافه شده‌اند و اصالت‌شان زیر سؤال است. [شنیدن در کست‌باکس](https://castbox.fm/ep/810934057){:target="_blank" rel="noopener"}
 
-- **قسمت 33 – موج‌کوب پست** — در این قسمت شعرهایی از شاعرانی مثل ابن یمین، مجیر بیلقانی، انوری، عبید زاکانی خوانده می‌شود و یک شعر سپید بلند از احمد شاملو هم در آن هست. [شنیدن در کست‌باکس](https://castbox.fm/episode/33-%E2%80%93-%D9%85%D9%88%D8%AC%DA%A9%D9%88%D8%A8-%D9%BE%D8%B3%D8%AA-id4910844-id730905824?country=ir){:target="_blank" rel="noopener"}
+- **قسمت 33 – موج‌کوب پست** — در این قسمت شعرهایی از شاعرانی مثل ابن یمین، مجیر بیلقانی، انوری، عبید زاکانی خوانده می‌شود و یک شعر سپید بلند از احمد شاملو هم در آن هست. [شنیدن در کست‌باکس](https://castbox.fm/ep/730905824){:target="_blank" rel="noopener"}
 
 ## پادکست‌هایی که بوطیقا دوست دارد
 
 بوطیقا فقط به خودش مشغول نیست. سازنده‌ی این پادکست، پادکست **مهرانگیز** را به‌عنوان یکی از پادکست‌های مورد علاقه‌ی خود معرفی می‌کند. [شنیدن مهرانگیز در کست‌باکس](https://castbox.fm/ch/5258828){:target="_blank" rel="noopener"}
 
-او همچنین از یک پادکست نوپا حمایت می‌کند: **لن‌ترونی**. پادکستی که شاید هنوز شناخته‌شده نباشد، اما ارزش شنیدن دارد. [شنیدن لن‌ترونی در کست‌باکس](https://castbox.fm/channel/id7323802){:target="_blank" rel="noopener"}
-
-## راه‌های ارتباطی
-
-اگر می‌خواهید با بوطیقا در تماس باشید یا پیشنهادی برای همکاری دارید، می‌توانید از این راه‌ها استفاده کنید. بوطیقا برای همکاری آمادگی دارد و نوع همکاری بسته به پیشنهاد تعیین می‌شود.
-
-- 🌐 [یوتیوب بوطیقا](https://www.youtube.com/@BoutighaPodcast){:target="_blank" rel="noopener"}
-- 🎧 [شنیدن بوطیقا در کست‌باکس](https://castbox.fm/ch/4910844){:target="_blank" rel="noopener"}
-- 📷 [اینستاگرام](https://instagram.com/BoutighaPodcast){:target="_blank" rel="noopener"}
-- 💬 [تلگرام](https://t.me/BoutighaPodcast){:target="_blank" rel="noopener"}
-- 📧 ایمیل: [Boutigha.podcast@gmail.com](mailto:Boutigha.podcast@gmail.com)
+او همچنین از یک پادکست نوپا حمایت می‌کند: **لن‌ترونی**. پادکستی که شاید هنوز شناخته‌شده نباشد، اما ارزش شنیدن دارد. [شنیدن لن‌ترونی در کست‌باکس](https://castbox.fm/ch/7323802){:target="_blank" rel="noopener"}
 
 ---
 
@@ -77,11 +67,14 @@ collab_types: "بسته به پیشنهاد"
 
 ---
 
-## رفرنس‌ها
+## لینک‌های مرتبط و ارتباطات
 
-- کانال کست‌باکس بوطیقا: https://castbox.fm/ch/4910844
-- یوتیوب بوطیقا: https://www.youtube.com/@BoutighaPodcast
-- اینستاگرام بوطیقا: https://instagram.com/BoutighaPodcast
-- تلگرام بوطیقا: https://t.me/BoutighaPodcast
-- کانال کست‌باکس مهرانگیز: https://castbox.fm/ch/5258828
-- کانال کست‌باکس لن‌ترونی: https://castbox.fm/channel/id7323802
+اگر می‌خواهید صدای شعر فارسی را از نزدیک‌تر بشنوید، از راه‌های زیر می‌توانید با بوطیقا همراه شوید:
+
+- [شنیدن بوطیقا در کست‌باکس](https://castbox.fm/ch/4910844){:target="_blank" rel="noopener"}
+- [یوتیوب بوطیقا](https://www.youtube.com/@BoutighaPodcast){:target="_blank" rel="noopener"}
+- [اینستاگرام بوطیقا](https://instagram.com/BoutighaPodcast){:target="_blank" rel="noopener"}
+- [تلگرام بوطیقا](https://t.me/BoutighaPodcast){:target="_blank" rel="noopener"}
+- [ایمیل بوطیقا](mailto:Boutigha.podcast@gmail.com)
+- [شنیدن پادکست مهرانگیز در کست‌باکس](https://castbox.fm/ch/5258828){:target="_blank" rel="noopener"}
+- [شنیدن پادکست لن‌ترونی در کست‌باکس](https://castbox.fm/ch/7323802){:target="_blank" rel="noopener"}

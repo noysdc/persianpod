@@ -71,23 +71,18 @@ collab_types: "همه موارد"
 
 او همچنین از پادکست **چپتر** حمایت و معرفی می‌کند؛ پادکستی نوپا با داستان‌های خلاقانه و جذاب که شنیدنش را توصیه می‌کند. [شنیدن چپتر در کست‌باکس](https://castbox.fm/ch/5775643){:target="_blank" rel="noopener"}
 
-## راه‌های ارتباطی
-
-«زنگ تاریخ» برای همکاری و اسپانسری آماده است و همه‌ی انواع همکاری را می‌پذیرد. اگر کسب‌وکاری دارید که دوست دارید در یکی از قسمت‌ها معرفی شود، می‌توانید با میلاد در ارتباط باشید.
-
-- 🎧 [شنیدن زنگ تاریخ در کست‌باکس](https://castbox.fm/ch/4850469){:target="_blank" rel="noopener"}
-- 📷 [اینستاگرام زنگ تاریخ](https://instagram.com/zangetarikhpodcast){:target="_blank" rel="noopener"}
-- 💬 [تلگرام زنگ تاریخ](https://t.me/zangetarikhpodcast){:target="_blank" rel="noopener"}
-
 ---
 
 #پادکست_تاریخ #تاریخ_ایران #تاریخ_جهان #تاریخ_باستان #علم_تاریخ #زنگ_تاریخ #میلاد_نصرتی #پادکست_فارسی #پادکست_ایرانی #روایت_تاریخی #تاریخ_اساطیری #شاهنامه
 
 ---
 
-## رفرنس‌ها
+## لینک‌های مرتبط و ارتباطات
 
-- اینستاگرام زنگ تاریخ: https://instagram.com/zangetarikhpodcast
-- تلگرام زنگ تاریخ: https://t.me/zangetarikhpodcast
-- کانال کست‌باکس ریسمان: https://castbox.fm/ch/3071894
-- کانال کست‌باکس چپتر: https://castbox.fm/ch/5775643
+اگر می‌خواهید در این سفر به گذشته همسفر میلاد شوید، از راه‌های زیر با زنگ تاریخ همراه شوید:
+
+- [شنیدن زنگ تاریخ در کست‌باکس](https://castbox.fm/ch/4850469){:target="_blank" rel="noopener"}
+- [اینستاگرام زنگ تاریخ](https://instagram.com/zangetarikhpodcast){:target="_blank" rel="noopener"}
+- [تلگرام زنگ تاریخ](https://t.me/zangetarikhpodcast){:target="_blank" rel="noopener"}
+- [شنیدن پادکست ریسمان در کست‌باکس](https://castbox.fm/ch/3071894){:target="_blank" rel="noopener"}
+- [شنیدن پادکست چپتر در کست‌باکس](https://castbox.fm/ch/5775643){:target="_blank" rel="noopener"}
