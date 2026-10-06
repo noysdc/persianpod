@@ -59,6 +59,28 @@
     return m ? m[1] : "";
   }
 
+  /* ---------- ترتیب تصادفی مستقل ----------
+     فقط برای همین صفحه است؛ هیچ مقدار تصادفی با صفحه‌ی پادکست‌ها مشترک نیست.
+     اگر ترتیب تازه با ترتیب دفعه‌ی قبلِ همین صفحه یکی شد، دوباره می‌چینیم. */
+  function rnd() {
+    try { var a = new Uint32Array(1); crypto.getRandomValues(a); return a[0] / 4294967296; } catch (e) { return Math.random(); }
+  }
+  function signature() {
+    var firstOf = {};
+    data.slice().sort(function (a, b) { return a._rnd - b._rnd; }).forEach(function (p) { if (!firstOf[p._cat]) firstOf[p._cat] = p.id; });
+    return Object.keys(firstOf).sort(function (a, b) { return catRank[a] - catRank[b]; }).map(function (c) { return firstOf[c]; }).join("|");
+  }
+  function shuffleAll() {
+    var prev = ""; try { prev = localStorage.getItem("pp-listen-order") || ""; } catch (e) {}
+    for (var t = 0; t < 4; t++) {
+      catRank = {};
+      data.forEach(function (p) { p._rnd = rnd(); });
+      data.forEach(function (p) { if (catRank[p._cat] == null) catRank[p._cat] = rnd(); });
+      if (data.length < 3 || signature() !== prev) break;
+    }
+    try { localStorage.setItem("pp-listen-order", signature()); } catch (e) {}
+  }
+
   /* ---------- حالت ---------- */
   var data = [], cat = "", current = null, catRank = {};
   var qEl = $("#q");
@@ -69,7 +91,7 @@
     p._src = playerSrc(p);
     p._cat = p.category || "سایر";
     p._hay = norm([p.title, p.description, p.category, p.city, (p.tags || []).join(" ")].join(" "));
-    p._rnd = Math.random();
+    p._rnd = 0;
     return p;
   }
   function match(p, f, skipCat) {
@@ -213,10 +235,10 @@
         stage.innerHTML = '<p class="pd-empty">هنوز پادکستی با پلیر ثبت نشده. پلیر از «لینک پادکست» (Castbox، اسپاتیفای یا اپل پادکست) ساخته می‌شود.</p>';
         out.innerHTML = ""; return;
       }
-      data.forEach(function (p) { if (catRank[p._cat] == null) catRank[p._cat] = Math.random(); });
+      shuffleAll();                       // ترتیب این صفحه مستقل از صفحه‌ی پادکست‌هاست و هر بار لود عوض می‌شود
       var u = new URLSearchParams(location.search), want = u.get("p") || decodeURIComponent(location.hash.slice(1));
       var qs = u.get("category"); if (qs) { var n = norm(qs); data.some(function (p) { if (norm(p._cat) === n) { cat = p._cat; return true; } }); }
-      var first = data.filter(function (p) { return p.id === want; })[0] || data[Math.floor(Math.random() * data.length)];
+      var first = data.filter(function (p) { return p.id === want; })[0] || data[Math.floor(rnd() * data.length)];
       render(); select(first, false);
     })
     .catch(function () { stage.innerHTML = '<p class="pd-empty">بارگذاری فهرست انجام نشد. صفحه را دوباره باز کنید.</p>'; });
