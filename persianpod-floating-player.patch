@@ -1,0 +1,539 @@
+diff --git a/_layouts/default.html b/_layouts/default.html
+index 8cca71e..23dafa2 100644
+--- a/_layouts/default.html
++++ b/_layouts/default.html
+@@ -15,6 +15,7 @@
+ <script>(function(){try{var d=document.documentElement,t=localStorage.getItem('pp-theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';d.setAttribute('data-theme',t);var f=parseFloat(localStorage.getItem('pp-fs'));if(f)d.style.setProperty('--fs',f)}catch(e){}})()</script>
+ <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+ <link rel="stylesheet" href="{{ '/assets/css/pp-tools.css' | relative_url }}">
++<link rel="stylesheet" href="{{ '/assets/css/pp-float-player.css' | relative_url }}">
+ {% for s in page.styles %}<link rel="stylesheet" href="{{ s | relative_url }}">
+ {% endfor %}<link rel="stylesheet" href="{{ '/assets/css/pp-polish.css' | relative_url }}">
+ <link rel="stylesheet" href="{{ '/assets/css/pp-vectors.css' | relative_url }}?v=20261013">
+@@ -107,6 +108,8 @@
+ <script src="{{ '/assets/js/app.js' | relative_url }}" defer></script>
+ <script src="{{ '/assets/js/pp-digits.js' | relative_url }}" defer></script>
+ <script src="{{ '/assets/js/pp-vectors.js' | relative_url }}" defer></script>
++<script src="{{ '/assets/js/pp-float-player.js' | relative_url }}" defer></script>
++<script src="{{ '/assets/js/pp-nav.js' | relative_url }}" defer></script>
+ {% for s in page.scripts %}<script src="{{ s | relative_url }}" defer></script>
+ {% endfor %}</body>
+ </html>
+diff --git a/_layouts/podcast.html b/_layouts/podcast.html
+index 01acf0e..88ac379 100644
+--- a/_layouts/podcast.html
++++ b/_layouts/podcast.html
+@@ -28,6 +28,17 @@ layout: default
+   {% assign spid = page.spotify | split: '/show/' | last | split: '?' | first | split: '/' | first %}
+   {% assign embed_src = 'https://open.spotify.com/embed/show/' | append: spid %}
+ {% endif %}
++{% if embed_src == '' and page.podcast_link %}
++  {% assign pl = page.podcast_link %}
++  {% if pl contains 'castbox.fm/' %}
++    {% assign plseg = pl | split: 'castbox.fm/' | last | split: '?' | first | split: '#' | first | split: '/' %}
++    {% assign plid = plseg | last | split: '-id' | last | remove: 'id' | plus: 0 %}
++    {% if plid > 1000 %}{% assign embed_src = 'https://castbox.fm/app/castbox/player/id' | append: plid | append: '?v=8.22.11&autoplay=0' %}{% endif %}
++  {% elsif pl contains 'open.spotify.com/' and pl contains '/show/' %}
++    {% assign plsp = pl | split: '/show/' | last | split: '?' | first | split: '/' | first %}
++    {% assign embed_src = 'https://open.spotify.com/embed/show/' | append: plsp %}
++  {% endif %}
++{% endif %}
+ {% if embed_src contains 'castbox' %}{% assign embed_kind = 'castbox' %}{% elsif embed_src contains 'spotify' %}{% assign embed_kind = 'spotify' %}{% endif %}
+ 
+ <article class="pod wrap">
+@@ -88,10 +99,12 @@ layout: default
+   <div class="pod-end">
+     {% if embed_src != '' %}
+     <h2 id="listen-h">همین‌جا گوش بده</h2>
+-    <div class="pp-embed-box">
+-      <iframe class="e-{{ embed_kind }}" src="{{ embed_src }}" title="پلیر {{ page.title | escape }}" loading="lazy"
+-              allow="autoplay; encrypted-media; clipboard-write" referrerpolicy="strict-origin-when-cross-origin"
+-              sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-presentation"></iframe>
++    <div class="pp-embed-box pp-poster">
++      <p class="pp-poster-note">با زدن دکمه‌ی پخش، پلیر به‌صورت شناور باز می‌شود و هنگام گشت‌وگذار در سایت هم پخش ادامه پیدا می‌کند.</p>
++      <button type="button" class="pp-poster-btn" data-pp-embed="{{ embed_src }}" data-title="{{ page.title | escape }}" data-page="{{ page.podcast_link | default: page.castbox_channel | escape }}">
++        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>پخش {{ page.title | escape }}
++      </button>
++      <noscript><p><a href="{{ embed_src }}" rel="noopener">باز کردن پلیر</a></p></noscript>
+     </div>
+     <hr class="pp-divider">
+     {% endif %}
+diff --git a/assets/css/pp-float-player.css b/assets/css/pp-float-player.css
+index e3af7f5..6597b3a 100644
+--- a/assets/css/pp-float-player.css
++++ b/assets/css/pp-float-player.css
+@@ -186,3 +186,51 @@ body.night .ppfp {
+     transition: box-shadow 0.2s ease;
+   }
+ }
++
++/* پیام بارگذاری / خطا و دکمه‌ی بارگذاری دوباره */
++.ppfp__status {
++  position: absolute;
++  inset: 0;
++  display: flex;
++  flex-direction: column;
++  align-items: center;
++  justify-content: center;
++  gap: 10px;
++  padding: 14px;
++  direction: rtl;
++  text-align: center;
++  background: var(--ppfp-bg);
++  color: var(--ppfp-fg);
++  z-index: 1;
++}
++.ppfp__status[hidden] { display: none; }
++.ppfp__msg { margin: 0; font-size: 13px; line-height: 1.8; }
++.ppfp__acts { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
++.ppfp__retry, .ppfp__ext {
++  display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px;
++  border-radius: 999px; font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; text-decoration: none;
++}
++.ppfp__retry { border: 0; background: var(--ppfp-green); color: #0b0e0c; }
++.ppfp__ext { border: 1px solid var(--ppfp-line); color: inherit; background: transparent; }
++.ppfp__retry:focus-visible, .ppfp__ext:focus-visible { outline: 2px solid var(--ppfp-green); outline-offset: 2px; }
++.ppfp__retry[hidden], .ppfp__ext[hidden] { display: none; }
++.ppfp__reload { font-size: 18px; }
++.ppfp--min .ppfp__status { display: none; }
++
++/* پوستر پخش در صفحه‌ی پادکست و «گوش بده» */
++.pp-poster { text-align: center; }
++.pp-poster-note { margin: 0 0 12px; color: var(--mut); font-size: .9rem; }
++.pp-poster-btn {
++  display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 24px;
++  border: 0; border-radius: 999px; background: #08cb00; color: #0b0e0c; font: inherit; font-weight: 800; cursor: pointer;
++  transition: box-shadow .2s ease;
++}
++.pp-poster-btn svg { width: 18px; height: 18px; fill: currentColor; }
++.pp-poster-btn:hover { box-shadow: 0 6px 20px #00ff9c66; }
++.pp-poster-btn:focus-visible { outline: 3px solid #08cb00; outline-offset: 3px; }
++
++/* موبایل: پلیر روی انتهای محتوا نیفتد */
++@media (max-width: 600px) {
++  body.ppfp-open { padding-bottom: 236px; }
++  body.ppfp-open.ppfp-min { padding-bottom: 60px; }
++}
+diff --git a/assets/js/pp-float-player.js b/assets/js/pp-float-player.js
+index 219253e..a58446d 100644
+--- a/assets/js/pp-float-player.js
++++ b/assets/js/pp-float-player.js
+@@ -19,7 +19,9 @@
+   var MIN_H = 150;
+   var DEFAULT = { w: 360, h: 220 };
+ 
+-  var root, bar, titleEl, frame, minBtn;
++  var root, bar, titleEl, frame, minBtn, statusEl, statusMsg, pageLink;
++  var curSrc = "", reloadN = 0, watchdog = 0, loaded = false;
++  var LOAD_TIMEOUT = 12000; // اگر پلیر (مثلاً Castbox در ایران) تا این مدت بالا نیامد، دکمه‌ی بارگذاری دوباره نشان داده می‌شود
+   var state = loadState();
+ 
+   function loadState() {
+@@ -65,13 +67,19 @@
+       '<circle cx="8" cy="12" r="1.7"/><circle cx="16" cy="12" r="1.7"/>' +
+       '<circle cx="8" cy="18" r="1.7"/><circle cx="16" cy="18" r="1.7"/></svg>' +
+       '<span class="ppfp__title"></span>' +
++      '<button type="button" class="ppfp__btn ppfp__reload" aria-label="بارگذاری دوباره پلیر" title="بارگذاری دوباره پلیر">↻</button>' +
+       '<button type="button" class="ppfp__btn ppfp__min" aria-label="کوچک کردن">–</button>' +
+       '<button type="button" class="ppfp__btn ppfp__close" aria-label="بستن پلیر">✕</button>' +
+       "</div>" +
+       '<div class="ppfp__body">' +
+       '<iframe class="ppfp__frame" title="پلیر پادکست" loading="lazy" ' +
+       'allow="autoplay; encrypted-media; fullscreen" ' +
+-      'sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe>' +
++      'referrerpolicy="strict-origin-when-cross-origin" ' +
++      'sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-presentation"></iframe>' +
++      '<div class="ppfp__status" role="status" aria-live="polite" hidden>' +
++      '<p class="ppfp__msg"></p>' +
++      '<div class="ppfp__acts"><button type="button" class="ppfp__retry">بارگذاری دوباره پلیر</button>' +
++      '<a class="ppfp__ext" target="_blank" rel="noopener noreferrer" hidden>باز کردن در سایت پادکست</a></div></div>' +
+       '<div class="ppfp__resize" tabindex="0" role="separator" aria-label="تغییر اندازه"></div>' +
+       "</div>";
+ 
+@@ -81,6 +89,16 @@
+     titleEl = root.querySelector(".ppfp__title");
+     frame = root.querySelector(".ppfp__frame");
+     minBtn = root.querySelector(".ppfp__min");
++    statusEl = root.querySelector(".ppfp__status");
++    statusMsg = root.querySelector(".ppfp__msg");
++    pageLink = root.querySelector(".ppfp__ext");
++
++    frame.addEventListener("load", function () {
++      if (!frame.getAttribute("src") || frame.getAttribute("src") === "about:blank") return;
++      loaded = true; clearTimeout(watchdog); showStatus("");
++    });
++    root.querySelector(".ppfp__reload").addEventListener("click", reload);
++    root.querySelector(".ppfp__retry").addEventListener("click", reload);
+ 
+     root.querySelector(".ppfp__close").addEventListener("click", close);
+     minBtn.addEventListener("click", function () {
+@@ -120,6 +138,7 @@
+   function setMin(v) {
+     state.min = !!v;
+     root.classList.toggle("ppfp--min", state.min);
++    document.body.classList.toggle("ppfp-min", state.min);
+     minBtn.textContent = state.min ? "▢" : "–";
+     minBtn.setAttribute("aria-label", state.min ? "بزرگ کردن" : "کوچک کردن");
+     applyGeometry();
+@@ -226,26 +245,68 @@
+     });
+   }
+ 
++  function showStatus(msg, failed) {
++    if (!statusEl) return;
++    statusEl.hidden = !msg;
++    statusEl.classList.toggle("ppfp__status--fail", !!failed);
++    statusMsg.textContent = msg || "";
++    root.querySelector(".ppfp__retry").hidden = !failed;
++  }
++
++  function withParams(src, n) {
++    // فقط برای بارگذاری دوباره: پارامتر بی‌اثر می‌گذاریم تا نسخه‌ی کش‌شده‌ی ناقص استفاده نشود
++    if (!n) return src;
++    return src + (src.indexOf("?") === -1 ? "?" : "&") + "pp_r=" + n;
++  }
++
++  function load(n) {
++    loaded = false;
++    clearTimeout(watchdog);
++    showStatus("در حال بارگذاری پلیر…", false);
++    frame.setAttribute("src", withParams(curSrc, n));
++    watchdog = setTimeout(function () {
++      if (loaded) return;
++      showStatus("پلیر بالا نیامد. گاهی Castbox در ایران دیر یا اصلاً لود نمی‌شود. بدون بارگذاری دوباره‌ی کل صفحه، همین‌جا دوباره تلاش کنید.", true);
++    }, LOAD_TIMEOUT);
++  }
++
++  function reload() {
++    if (!root || !curSrc) return;
++    reloadN += 1;
++    frame.setAttribute("src", "about:blank");
++    setTimeout(function () { load(reloadN); }, 80);
++  }
++
+   function open(opts) {
+     var src = safeUrl(opts && opts.src);
+     if (!src) return;
+     build();
+-    // اگر همان پادکست در حال پخش است، دوباره بارگذاری نکن
+-    if (frame.getAttribute("src") !== src) frame.setAttribute("src", src);
++    // پخش خودکار فقط وقتی کاربر خودش دکمه‌ی پخش را زده است (Castbox این پارامتر را می‌شناسد)
++    if (opts && opts.autoplay !== false && /castbox\.fm\/app\/castbox\/player/.test(src)) src = src.replace("autoplay=0", "autoplay=1");
+     titleEl.textContent = (opts && opts.title) || "در حال پخش";
++    var ext = safeUrl(opts && opts.page);
++    if (ext) { pageLink.href = ext; pageLink.hidden = false; } else { pageLink.hidden = true; }
+     root.hidden = false;
++    document.body.classList.add("ppfp-open");
+     setMin(false);
+     applyGeometry();
++    // اگر همان پادکست در حال پخش است، دوباره بارگذاری نکن
++    if (curSrc !== src || !loaded) { curSrc = src; reloadN = 0; load(0); }
+   }
+ 
+   function close() {
+     if (!root) return;
+-    frame.removeAttribute("src"); // پخش را قطع می‌کند
+-    frame.src = "about:blank";
++    clearTimeout(watchdog);
++    frame.setAttribute("src", "about:blank"); // پخش را قطع می‌کند
+     frame.removeAttribute("src");
++    curSrc = ""; loaded = false;
++    showStatus("");
+     root.hidden = true;
++    document.body.classList.remove("ppfp-open", "ppfp-min");
+   }
+ 
++  function isOpen() { return !!root && !root.hidden; }
++
+   // اتصال خودکار: هر عنصری با data-pp-embed
+   document.addEventListener("click", function (e) {
+     var el = e.target.closest("[data-pp-embed]");
+@@ -254,8 +315,9 @@
+     open({
+       src: el.getAttribute("data-pp-embed"),
+       title: el.getAttribute("data-title") || el.textContent.trim(),
++      page: el.getAttribute("data-page") || "",
+     });
+   });
+ 
+-  window.PPPlayer = { open: open, close: close, minimize: function () { build(); setMin(true); } };
++  window.PPPlayer = { open: open, close: close, reload: reload, isOpen: isOpen, minimize: function () { build(); setMin(true); } };
+ })();
+diff --git a/assets/js/pp-form-fields.js b/assets/js/pp-form-fields.js
+index ee7b32d..a7aae27 100644
+--- a/assets/js/pp-form-fields.js
++++ b/assets/js/pp-form-fields.js
+@@ -98,10 +98,9 @@ var S = [
+       ] }]
+ ], 'معرفی پادکست‌های دیگر، بخش مهربانانه‌ی صفحه‌ی شماست.'],
+ 
+-['پخش و امبد', [
+-  ['podcast_link', 'لینک پادکست', 'text', 1, 'لینک صفحه‌ی اصلی پادکست شما روی یکی از پلتفرم‌ها (مثلاً Castbox، اسپاتیفای یا وب‌سایت خودتان).', null, LINKS],
+-  ['embed', 'امبد پادکست (کد یا لینک Embed)', 'text', 1, 'در Castbox: صفحه‌ی پادکست ← Share ← Embed. کد یا لینک را اینجا بچسبانید تا پلیر در صفحه‌ی شما قرار بگیرد.', null, { v: 'embed', ltr: 1, mode: 'url' }],
+-  ['castbox', 'لینک یا شناسه‌ی پادکست در Castbox', 'text', 0, 'اگر پادکست شما در Castbox هست.', null, { ltr: 1, wide: 1 }],
++['پخش و لینک‌ها', [
++  ['podcast_link', 'لینک پادکست', 'text', 1, 'لینک صفحه‌ی اصلی پادکست شما در Castbox، اسپاتیفای یا اپل پادکست. پلیر سایت به‌طور خودکار از همین لینک ساخته می‌شود و نیازی به کپی‌کردن کد امبد نیست.', null, LINKS],
++  ['castbox', 'لینک یا شناسه‌ی پادکست در Castbox', 'text', 0, 'فقط اگر لینک بالا مربوط به Castbox نیست و پادکست شما در Castbox هم هست.', null, { ltr: 1, wide: 1 }],
+   ['rss', 'لینک RSS پادکست', 'text', 0, 'اگر دارید، تعداد قسمت‌ها و تاریخ آخرین انتشار به‌صورت خودکار به‌روز می‌شود.', null, LINKS],
+   ['yt_ep', 'لینک یک قسمت منتخب در یوتیوب', 'text', 0, '', null, LINKS],
+   ['other_ep', 'لینک یک قسمت منتخب در سایر پلتفرم‌ها', 'text', 0, '', null, LINKS]
+diff --git a/assets/js/pp-form.js b/assets/js/pp-form.js
+index 94b7af8..45b529d 100644
+--- a/assets/js/pp-form.js
++++ b/assets/js/pp-form.js
+@@ -404,6 +404,18 @@
+     });
+     return out;
+   }
++  /* ساخت خودکار پلیر از لینک پادکست (Castbox، اسپاتیفای، اپل پادکست)؛ نیازی به امبد دستی نیست */
++  function deriveEmbed(fd) {
++    var keys = ["podcast_link", "castbox", "platforms", "site"], text = keys.map(function (k) { return (fd.get(k) || "").toString(); }).join(" ");
++    var m = text.match(/castbox\.fm\/(?:ch|channel|vh)\/([^\s\/?#]+)/i), id = m && (m[1].match(/(\d{4,})$/) || [])[1];
++    if (!id) { var c = (fd.get("castbox") || "").toString().trim().match(/^\D{0,3}(\d{4,})\D{0,3}$/); id = c && c[1]; }
++    if (id) return { embed: "https://castbox.fm/app/castbox/player/id" + id + "?v=8.22.11&autoplay=0", castbox_id: id };
++    m = text.match(/open\.spotify\.com\/(?:intl-[a-z]+\/)?show\/([A-Za-z0-9]+)/i);
++    if (m) return { embed: "https://open.spotify.com/embed/show/" + m[1] };
++    m = text.match(/podcasts\.apple\.com\/([a-z]{2})\/podcast\/([^\s\/?#]+)\/(id\d+)/i);
++    if (m) return { embed: "https://embed.podcasts.apple.com/" + m[1] + "/podcast/" + m[2] + "/" + m[3] };
++    return null;
++  }
+   function build(fd) {
+     var q = JSON.stringify, fm = [], body = [];
+     S.forEach(function (sec) {
+@@ -438,6 +450,8 @@
+       });
+       if (parts.length) body.push("## " + sec[0] + "\n\n" + parts.join("\n"));
+     });
++    var de = deriveEmbed(fd);
++    if (de) { fm.push("embed: " + q(de.embed)); if (de.castbox_id) fm.push("castbox_id: " + q(de.castbox_id)); }
+     return "---\n" + fm.join("\n") + "\nsubmitted: " + q(new Date().toISOString()) + "\n---\n\n# " + fd.get("name_fa") + "\n\n" + body.join("\n");
+   }
+ 
+diff --git a/assets/js/pp-listen.js b/assets/js/pp-listen.js
+index aba1eb2..a62682f 100644
+--- a/assets/js/pp-listen.js
++++ b/assets/js/pp-listen.js
+@@ -35,12 +35,24 @@
+     if (m) return "https://castbox.fm/app/castbox/player/id" + m[1] + "?v=8.22.11&autoplay=0";
+     var s = String(p.spotify || "").match(/\/show\/([A-Za-z0-9]+)/);
+     if (s) return "https://open.spotify.com/embed/show/" + s[1];
++    return fromLink(p.podcast_link);
++  }
++  // پلیر خودکار از «لینک پادکست» (Castbox، اسپاتیفای، اپل پادکست)
++  function fromLink(u) {
++    u = String(u || "");
++    var m = u.match(/castbox\.fm\/(?:ch|channel|vh)\/([^\s\/?#]+)/i), id = m && (m[1].match(/(\d{4,})$/) || [])[1];
++    if (id) return "https://castbox.fm/app/castbox/player/id" + id + "?v=8.22.11&autoplay=0";
++    m = u.match(/open\.spotify\.com\/(?:intl-[a-z]+\/)?show\/([A-Za-z0-9]+)/i);
++    if (m) return "https://open.spotify.com/embed/show/" + m[1];
++    m = u.match(/podcasts\.apple\.com\/([a-z]{2})\/podcast\/([^\s\/?#]+)\/(id\d+)/i);
++    if (m) return "https://embed.podcasts.apple.com/" + m[1] + "/podcast/" + m[2] + "/" + m[3];
+     return "";
+   }
+   function kindOf(src) { return /castbox/.test(src) ? "castbox" : /spotify/.test(src) ? "spotify" : "other"; }
+   function castboxPage(p) {
+     var c = String(p.castbox || ""), m = c.match(/-id(\d{4,})/) || c.match(/\/vh\/(\d{4,})/) || c.match(/^\D{0,3}(\d{4,})\D{0,3}$/);
+-    return m ? "https://castbox.fm/vh/" + m[1] : "";
++    if (m) return "https://castbox.fm/vh/" + m[1];
++    return /castbox\.fm\//i.test(String(p.podcast_link || "")) ? String(p.podcast_link) : "";
+   }
+   function youtubeId(u) {
+     var m = String(u || "").match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([\w-]{11})/);
+@@ -134,7 +146,7 @@
+     stage.innerHTML =
+       '<div class="pl-head">' + (p.logo ? '<img src="' + esc(p.logo) + '" alt="" width="68" height="68">' : "<i>" + esc((p.title || "").trim().charAt(0)) + "</i>") +
+       "<div><h2>" + esc(p.title) + "</h2><small>" + esc(p._cat) + "</small></div></div>" +
+-      '<div id="pl-slot"></div>' +
++      '<div id="pl-slot">' + (window.PPPlayer ? '<p class="pp-poster-note">پلیر به‌صورت شناور باز می‌شود و هنگام گشت‌وگذار در سایت هم پخش ادامه دارد.</p><button type="button" class="pp-poster-btn" id="pl-play">' + PLAY + 'پخش ' + esc(p.title) + "</button>" : "") + "</div>" +
+       (yt ? '<h3 class="pl-sub">قسمت منتخب در یوتیوب</h3><div id="pl-yt"></div>' : "") +
+       '<div class="pl-links"><a href="' + esc(p.url) + '">صفحه‌ی معرفی پادکست</a>' +
+       (cb ? '<a href="' + esc(cb) + '" target="_blank" rel="noopener noreferrer">باز کردن در Castbox</a>' : "") + "</div>";
+@@ -147,12 +159,20 @@
+       f.setAttribute("sandbox", "allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-presentation");
+       slot.appendChild(f);
+     }
+-    mount("pl-slot", "e-" + kind, src, "پلیر " + p.title);
++    if (window.PPPlayer) {
++      var pb = document.getElementById("pl-play");
++      if (pb) pb.addEventListener("click", function () { playFloat(p); });
++    } else mount("pl-slot", "e-" + kind, src, "پلیر " + p.title);
+     if (yt) mount("pl-yt", "e-youtube", "https://www.youtube-nocookie.com/embed/" + yt, "قسمت منتخب " + p.title, "accelerometer; encrypted-media; picture-in-picture");
+     $$(".pl-card", out).forEach(function (b) { if (b.getAttribute("data-id") === p.id) b.setAttribute("aria-current", "true"); else b.removeAttribute("aria-current"); });
+     if (scroll) stage.scrollIntoView({ behavior: "smooth", block: "start" });
+   }
+ 
++  function playFloat(p) {
++    if (!window.PPPlayer || !p._src) return;
++    window.PPPlayer.open({ src: p._src, title: p.title, page: castboxPage(p) || p.podcast_link || "" });
++  }
++
+   /* ---------- رویدادها ---------- */
+   function setCat(c) { cat = c || ""; render(); }
+   out.addEventListener("click", function (e) {
+@@ -166,7 +186,7 @@
+     var t = e.target.closest(".pd-cat-link");
+     if (t && !(e.metaKey || e.ctrlKey || e.shiftKey)) { e.preventDefault(); setCat(t.getAttribute("data-cat")); var h = $(".pd-head"); if (h) h.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
+     var b = e.target.closest(".pl-card");
+-    if (b) { var p = data.filter(function (x) { return x.id === b.getAttribute("data-id"); })[0]; if (p) select(p, true); }
++    if (b) { var p = data.filter(function (x) { return x.id === b.getAttribute("data-id"); })[0]; if (p) { select(p, true); playFloat(p); } }
+   });
+   $("#pl-chips").addEventListener("click", function (e) {
+     var b = e.target.closest(".pd-chip"); if (!b) return;
+@@ -190,7 +210,7 @@
+     .then(function (d) {
+       data = d.map(prep).filter(function (p) { return p._src; });
+       if (!data.length) {
+-        stage.innerHTML = '<p class="pd-empty">هنوز پادکستی با پلیر ثبت نشده. در فرم ثبت، «امبد پادکست» را پر کنید.</p>';
++        stage.innerHTML = '<p class="pd-empty">هنوز پادکستی با پلیر ثبت نشده. پلیر از «لینک پادکست» (Castbox، اسپاتیفای یا اپل پادکست) ساخته می‌شود.</p>';
+         out.innerHTML = ""; return;
+       }
+       data.forEach(function (p) { if (catRank[p._cat] == null) catRank[p._cat] = Math.random(); });
+diff --git a/assets/js/pp-nav.js b/assets/js/pp-nav.js
+new file mode 100644
+index 0000000..704d1b3
+--- /dev/null
++++ b/assets/js/pp-nav.js
+@@ -0,0 +1,131 @@
++/*
++  ناوبری نرم پرشین‌پاد
++  وقتی پلیر شناور باز است، کلیک روی لینک‌های داخلی صفحه را از نو لود نمی‌کند؛
++  فقط محتوای صفحه عوض می‌شود تا iframe پلیر (و پخش) دست‌نخورده بماند.
++  اگر پلیر بسته باشد، یا هر خطایی پیش بیاید، ناوبری عادی مرورگر انجام می‌شود.
++*/
++(function () {
++  "use strict";
++  if (!window.fetch || !window.DOMParser || !window.Promise || !history.pushState) return;
++
++  // این اسکریپت‌ها به عنصرهای ثابت صفحه (هدر و ...) وصل شده‌اند و دوباره اجرا نمی‌شوند
++  var PERSIST = /\/(pp-tools|pp-digits|pp-float-player|pp-nav|curved-scrollbar|ui|pp-ui)\.js(\?|$)/;
++  var busy = 0;
++  var cur = location.pathname + location.search;
++
++  function playing() { return !!(window.PPPlayer && window.PPPlayer.isOpen()); }
++  function hard(url) { location.href = url; }
++  function path(href, base) { try { return new URL(href, base).pathname; } catch (e) { return href; } }
++
++  function go(url, push) {
++    var id = ++busy;
++    document.documentElement.classList.add("pp-navigating");
++    fetch(url, { credentials: "same-origin" })
++      .then(function (r) {
++        var ct = r.headers.get("content-type") || "";
++        if (!r.ok || ct.indexOf("text/html") === -1) throw new Error("skip");
++        return r.text().then(function (t) { return { html: t, url: r.url || url }; });
++      })
++      .then(function (res) { if (id === busy) return swap(res.html, res.url, push); })
++      .catch(function () { if (id === busy) hard(url); })
++      .then(function () { if (id === busy) document.documentElement.classList.remove("pp-navigating"); });
++  }
++
++  function swap(html, url, push) {
++    var doc = new DOMParser().parseFromString(html, "text/html");
++    var nShell = doc.querySelector(".pp-shell"), oShell = document.querySelector(".pp-shell");
++    if (!nShell || !oShell || !doc.querySelector(".pp-hero")) return hard(url);
++
++    // ۱) استایل‌های مخصوص صفحه: جدیدها اضافه، قدیمی‌هایی که دیگر لازم نیستند بعد از جابه‌جایی حذف
++    var stale = {}, waits = [];
++    [].forEach.call(document.head.querySelectorAll('link[rel="stylesheet"]'), function (l) { stale[path(l.getAttribute("href"), location.href)] = l; });
++    [].forEach.call(doc.head.querySelectorAll('link[rel="stylesheet"]'), function (n) {
++      var k = path(n.getAttribute("href"), url);
++      if (stale[k]) { delete stale[k]; return; }
++      var el = document.createElement("link");
++      el.rel = "stylesheet"; el.href = n.getAttribute("href");
++      waits.push(new Promise(function (ok) { el.onload = el.onerror = ok; setTimeout(ok, 3000); }));
++      document.head.appendChild(el);
++    });
++
++    return Promise.all(waits).then(function () {
++      // ۲) عنوان و متادیتا
++      document.title = doc.title;
++      ["meta[name=description]", "link[rel=canonical]", "meta[property='og:title']", "meta[property='og:description']"].forEach(function (sel) {
++        var n = doc.head.querySelector(sel), o = document.head.querySelector(sel);
++        if (n && o) o.replaceWith(n.cloneNode(true));
++      });
++      var nn = doc.querySelector(".pp-nav"), on = document.querySelector(".pp-nav");
++      if (nn && on) on.innerHTML = nn.innerHTML;
++
++      // ۳) اسکریپت‌ها را از محتوا جدا می‌کنیم تا بعد از جابه‌جایی به ترتیب اجرا شوند
++      var shell = document.importNode(nShell, true), scripts = [];
++      function take(s) {
++        var t = (s.getAttribute("type") || "").toLowerCase();
++        if (t && t.indexOf("javascript") === -1 && t !== "module") return false; // مثل JSON-LD: بی‌اثر است
++        scripts.push({ src: s.getAttribute("src"), text: s.textContent, type: t });
++        return true;
++      }
++      [].slice.call(shell.querySelectorAll("script")).forEach(function (s) { if (take(s)) s.remove(); });
++      [].slice.call(doc.body.children).forEach(function (s) {
++        if (s.tagName !== "SCRIPT") return;
++        if (s.src && PERSIST.test(s.getAttribute("src"))) return;
++        if (!s.src && /theme|localStorage/.test(s.textContent)) return;
++        take(s);
++      });
++
++      oShell.replaceWith(shell);
++      Object.keys(stale).forEach(function (k) { stale[k].remove(); });
++
++      if (push) history.pushState({ pp: 1 }, "", url);
++      cur = location.pathname + location.search;
++      var u = new URL(url, location.href), target = u.hash && document.getElementById(decodeURIComponent(u.hash.slice(1)));
++      if (target) target.scrollIntoView(); else window.scrollTo(0, 0);
++
++      return scripts.reduce(function (p, s) { return p.then(function () { return exec(s); }); }, Promise.resolve());
++    }).then(function () {
++      var m = document.getElementById("main");
++      if (m) { m.setAttribute("tabindex", "-1"); m.focus({ preventScroll: true }); }
++      document.dispatchEvent(new CustomEvent("pp:navigate"));
++    });
++  }
++
++  function exec(s) {
++    return new Promise(function (ok) {
++      var el = document.createElement("script");
++      if (s.type) el.type = s.type;
++      if (s.src) { el.async = false; el.onload = el.onerror = ok; el.src = s.src; document.body.appendChild(el); }
++      else { el.text = s.text; document.body.appendChild(el); ok(); }
++    });
++  }
++
++  document.addEventListener("click", function (e) {
++    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || !playing()) return;
++    var a = e.target.closest && e.target.closest("a[href]");
++    if (!a || (a.target && a.target !== "_self") || a.hasAttribute("download")) return;
++    var u;
++    try { u = new URL(a.href, location.href); } catch (err) { return; }
++    if (u.origin !== location.origin || !/^https?:$/.test(u.protocol)) return;
++    if (u.pathname === location.pathname && u.search === location.search) return;       // فقط هش
++    if (/\.[a-z0-9]{2,5}$/i.test(u.pathname) && !/\.html?$/i.test(u.pathname)) return;  // فایل (xml، pdf، ...)
++    e.preventDefault();
++    go(u.href, true);
++  });
++
++  // جست‌وجوی بالای صفحه در صفحه‌هایی که فهرست ندارند
++  document.addEventListener("submit", function (e) {
++    var f = e.target;
++    if (e.defaultPrevented || !playing() || !f.matches || !f.matches(".pp-search")) return;
++    var i = f.querySelector("input[name=q]");
++    if (!i) return;
++    e.preventDefault();
++    var u = new URL(f.getAttribute("action") || "/", location.href);
++    u.search = "?q=" + encodeURIComponent(i.value.trim());
++    go(u.href, true);
++  });
++
++  window.addEventListener("popstate", function () {
++    if (location.pathname + location.search === cur) return;
++    if (playing()) go(location.href, false); else location.reload();
++  });
++})();
+diff --git a/podcasts.json b/podcasts.json
+index 222776f..8651232 100644
+--- a/podcasts.json
++++ b/podcasts.json
+@@ -29,6 +29,7 @@ permalink: /podcasts.json
+   "castbox": {{ p.castbox | default: p.castbox_id | default: p.castbox_channel | jsonify }},
+   "castbox_embed": {{ p.castbox_embed | jsonify }},
+   "embed": {{ p.embed | jsonify }},
++  "podcast_link": {{ p.podcast_link | jsonify }},
+   "spotify": {{ p.spotify | jsonify }},
+   "youtube": {{ p.yt_ep | default: p.youtube | jsonify }}
+ }{% unless forloop.last %},{% endunless %}
