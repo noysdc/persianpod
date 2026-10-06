@@ -32,22 +32,23 @@ layout: default
 
 <article class="pod wrap">
   <nav class="crumb"><a href="{{ '/' | relative_url }}">پادکست‌ها</a> / <a href="{{ '/?category=' | append: page.category | uri_escape | relative_url }}">{{ page.category }}</a></nav>
-  <header class="pod-head">
-    {% if logo_url %}<img class="logo" src="{{ logo_url }}" alt="لوگوی {{ page.title }}">{% else %}<i class="logo ph">{{ page.title | slice: 0 }}</i>{% endif %}
-    <div>
+  <header class="pod-hero">
+    <div class="pod-cover">{% if logo_url %}<img src="{{ logo_url }}" alt="لوگوی {{ page.title }}" width="200" height="200">{% else %}<i class="ph">{{ page.title | slice: 0 }}</i>{% endif %}</div>
+    <div class="pod-main">
       <h1>{{ page.title }}</h1>
       {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
-      <div class="tags">
-        {% if page.category %}<a href="{{ '/?category=' | append: page.category | uri_escape | relative_url }}">{{ page.category }}</a>{% endif %}
-        {% assign subs = page.subcategories %}{% if subs == nil and page.subcategory %}{% assign subs = page.subcategory | split: '،' %}{% endif %}{% for s in subs %}<a href="{{ '/?q=' | append: s | uri_escape | relative_url }}">{{ s }}</a>{% endfor %}
-        {% for t in page.tags %}<a href="{{ '/?q=' | append: t | uri_escape | relative_url }}">{{ t }}</a>{% endfor %}
-        <span class="st {{ stv }}">{% if stv == 'active' %}فعال{% elsif stv == 'paused' %}متوقف{% else %}پایان‌یافته{% endif %}</span>
+      <div class="pod-pills">
+        {% if page.category %}<a class="pod-pill on" href="{{ '/?category=' | append: page.category | uri_escape | relative_url }}">{{ page.category }}</a>{% endif %}
+        {% assign subs = page.subcategories %}{% if subs == nil and page.subcategory %}{% assign subs = page.subcategory | split: '،' %}{% endif %}{% for s in subs %}<a class="pod-pill" href="{{ '/?q=' | append: s | uri_escape | relative_url }}">{{ s }}</a>{% endfor %}
+        <span class="pod-state {{ stv }}">{% if stv == 'active' %}فعال{% elsif stv == 'paused' %}متوقف{% else %}پایان‌یافته{% endif %}</span>
       </div>
     </div>
   </header>
   {% if page.cover %}<img class="cover" src="{% if page.cover contains '://' %}{{ page.cover }}{% else %}{{ page.cover | relative_url }}{% endif %}" alt="">{% endif %}
   <div class="cols">
-    <section class="body">{{ content }}</section>
+    <section class="body">{{ content }}
+      {% if page.tags and page.tags.size > 0 %}<p class="pod-tags"><span>موضوع‌ها</span>{% for t in page.tags %}<a href="{{ '/?q=' | append: t | uri_escape | relative_url }}">{{ t }}</a>{% endfor %}</p>{% endif %}
+    </section>
     <aside>
       <div class="links">
         {% if embed_src != '' %}<a class="btn" href="{{ '/listen/?p=' | append: page.slug | relative_url }}">گوش بده</a>{% endif %}

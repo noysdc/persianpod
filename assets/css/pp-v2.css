@@ -138,3 +138,86 @@ body.reading .pp-hero-text{display:none}
   .pp-side-stats{display:none}
   .pp-vector{display:none!important}
 }
+
+/* ================= v8: صفحه‌ی هر پادکست ================= */
+.pod.wrap{max-width:1100px;padding:0 20px}
+.pod .crumb{padding-top:6px;font-size:.84rem;color:var(--mut)}
+.pod .crumb a{text-decoration:none;color:var(--mut)}
+.pod .crumb a:hover{color:var(--acc)}
+
+/* هدر: کاور کنار عنوان، نه بالای آن */
+.pod-hero{display:grid;grid-template-columns:200px minmax(0,1fr);gap:32px;align-items:center;margin:18px 0 8px;padding:24px;
+  border:1px solid var(--line);border-radius:24px;background:var(--card)}
+.pod-cover{width:200px;height:200px;padding:6px;border:3px solid var(--ring,#08cb00);border-radius:22px;background:var(--cover-bg,#e6ece7);
+  box-shadow:0 0 0 6px var(--ring-soft,rgba(8,203,0,.18)),0 18px 40px -16px var(--glow)}
+.pod-cover img,.pod-cover .ph{display:grid;place-items:center;width:100%;height:100%;object-fit:cover;border-radius:16px;font-size:4rem;font-style:normal}
+.pod-main{min-width:0}
+.pod-main h1{margin:0 0 10px;font-size:clamp(1.35rem,2.8vw,1.9rem);font-weight:800;line-height:1.6}
+.pod-main .lead{margin:0 0 16px;font-size:.98rem;line-height:2;color:var(--mut)}
+.pod-pills{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.pod-pill{display:inline-block;padding:1px 14px;border:1px solid var(--line);border-radius:999px;background:var(--bg);color:var(--mut);
+  font-size:.8rem;line-height:1.9;text-decoration:none;transition:border-color .2s,box-shadow .2s}
+.pod-pill.on{border-color:rgba(8,203,0,.6);color:var(--acc)}
+.pod-pill:hover{border-color:#08cb00;box-shadow:0 6px 16px -8px var(--glow)}
+.pod-state{margin-inline-start:auto;font-size:.8rem;color:var(--mut);display:inline-flex;align-items:center;gap:6px}
+.pod-state::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--mut);opacity:.6}
+.pod-state.active{color:var(--acc)}
+.pod-state.active::before{background:#08cb00;opacity:1;box-shadow:0 0 8px var(--glow)}
+
+/* ستون‌ها */
+.pod .cols{grid-template-columns:minmax(0,1fr) 300px;gap:28px;margin-top:22px}
+.pod .body{min-width:0}
+
+/* دکمه‌های پیوند: سبک و کوچک */
+.pod .links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.pod .links .btn{padding:3px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font-size:.84rem;line-height:1.9;font-weight:600}
+.pod .links .btn:hover{background:var(--bg);border-color:#08cb00;color:var(--ink);box-shadow:0 6px 16px -8px var(--glow)}
+.pod .links .btn:first-child{background:#08cb00;border-color:#08cb00;color:#0b0e0c;font-weight:800}
+
+/* مشخصات: کارت دو ستونه */
+.pod .facts{display:grid;grid-template-columns:auto 1fr;gap:0;margin:0;padding:6px 16px;border:1px solid var(--line);border-top:1px solid var(--line);border-radius:18px;background:var(--card)}
+.pod .facts dt,.pod .facts dd{margin:0;padding:9px 0;border-bottom:1px solid var(--line);font-size:.86rem}
+.pod .facts dt{color:var(--mut);padding-inline-end:14px}
+.pod .facts dd{font-weight:700;text-align:end}
+.pod .facts dt:nth-last-of-type(1),.pod .facts dd:last-of-type{border-bottom:0}
+
+/* موضوع‌ها: ریز و کم‌صدا، انتهای متن */
+.pod-tags{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:28px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:.82rem}
+.pod-tags span{color:var(--mut)}
+.pod-tags a{color:var(--mut);text-decoration:none;padding:0 4px}
+.pod-tags a::before{content:"#";color:#08cb00;margin-inline-end:2px}
+.pod-tags a:hover{color:var(--acc)}
+
+/* پادکست‌های نزدیک */
+#similar{margin-top:40px;padding-top:0;border-top:0}
+#similar h2{margin:0 0 16px;font-size:1.05rem;text-align:center}
+#similar .pd-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,190px));justify-content:center;gap:16px}
+.pd-why{display:block;margin-top:6px;font-size:.72rem;color:var(--mut)}
+
+@media(max-width:900px){
+  .pod .cols{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  .pod-hero{grid-template-columns:1fr;justify-items:center;text-align:center;gap:18px;padding:18px 14px}
+  .pod-cover{width:150px;height:150px}
+  .pod-pills{justify-content:center}
+  .pod-state{margin-inline-start:0}
+  .pod .links{justify-content:center}
+}
+
+/* ================= v9: صفحه‌های متنی (درباره‌ی ما، سلب مسئولیت) ================= */
+.pp-doc{max-width:46rem;margin:8px auto 0;padding:30px 34px 34px;border:1px solid var(--line);border-radius:26px;background:var(--card)}
+.pp-doc-mark{display:grid;place-items:center;width:76px;height:76px;margin:0 auto 6px;border-radius:50%;background:var(--bg);border:1px solid var(--line)}
+.pp-doc-mark img{width:44px;height:44px}
+.pp-doc h1{margin:10px 0 .4em;font-size:clamp(1.4rem,3vw,1.85rem);line-height:1.6}
+.pp-doc .pp-updated{margin:0 0 1.2em}
+.pp-doc p,.pp-doc li{line-height:2.1;font-size:.98rem}
+.pp-doc h2{display:flex;align-items:center;gap:10px;margin:2.2em 0 .6em;padding:0;border:0;font-size:1.2rem;line-height:1.7}
+.pp-doc h2::before{content:"";flex:none;width:11px;height:11px;border-radius:3px;background:#08cb00;box-shadow:0 0 10px var(--glow)}
+.pp-doc h3{margin:1.5em 0 .3em;font-size:1rem;color:var(--ink)}
+.pp-doc hr{display:none}
+.pp-doc ul,.pp-doc ol{padding-inline-start:1.3em}
+.pp-doc li::marker{color:#08cb00}
+.pp-doc strong{font-weight:800}
+.pp-doc .pp-suggest{margin-top:2.6em}
+@media(max-width:640px){.pp-doc{padding:20px 16px 24px;border-radius:20px}}

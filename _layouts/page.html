@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-<article class="pp-article">
+<article class="pp-article pp-doc">
+  <div class="pp-doc-mark" aria-hidden="true">
+    <img class="pp-lt" src="{{ '/assets/img/persianpod-icon-animated.svg' | relative_url }}" alt="" width="64" height="64" decoding="async">
+    <img class="pp-dk" src="{{ '/assets/img/persianpod-icon-animated-dark.svg' | relative_url }}" alt="" width="64" height="64" decoding="async">
+  </div>
 {{ content }}
 {% if page.suggest %}
 <aside class="pp-suggest" aria-label="مطلب پیشنهادی">
