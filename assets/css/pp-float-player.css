@@ -159,27 +159,14 @@ body.night .ppfp {
   display: none;
 }
 
-/* موبایل: چسبیده به پایین صفحه، تمام عرض */
-@media (max-width: 600px) {
-  .ppfp {
-    left: 0 !important;
-    right: 0 !important;
-    top: auto !important;
-    bottom: 0 !important;
-    width: 100% !important;
-    min-width: 0;
-    border-radius: 14px 14px 0 0;
-    padding-bottom: env(safe-area-inset-bottom, 0px);
-  }
-
-  .ppfp__bar {
-    cursor: default;
-  }
-
-  .ppfp__resize {
-    display: none;
-  }
+/* لمسی: دستگیره‌ی تغییر اندازه بزرگ‌تر و بدون اسکرول/زوم هنگام کشیدن */
+@media (pointer: coarse) {
+  .ppfp__resize { width: 36px; height: 36px; }
+  .ppfp__bar { min-height: 44px; padding: 8px 10px; }
+  .ppfp__btn { width: 36px; height: 36px; }
 }
+.ppfp, .ppfp__resize, .ppfp__bar { touch-action: none; }
+.ppfp__body { touch-action: auto; }
 
 @media (prefers-reduced-motion: no-preference) {
   .ppfp {
@@ -229,8 +216,3 @@ body.night .ppfp {
 .pp-poster-btn:hover { box-shadow: 0 6px 20px #00ff9c66; }
 .pp-poster-btn:focus-visible { outline: 3px solid #08cb00; outline-offset: 3px; }
 
-/* موبایل: پلیر روی انتهای محتوا نیفتد */
-@media (max-width: 600px) {
-  body.ppfp-open { padding-bottom: 236px; }
-  body.ppfp-open.ppfp-min { padding-bottom: 60px; }
-}

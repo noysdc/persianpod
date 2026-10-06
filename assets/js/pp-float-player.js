@@ -115,16 +115,12 @@
 
   function applyGeometry() {
     if (!root || root.hidden) return;
-    if (MOBILE_MQ.matches) {
-      root.style.width = root.style.height = "";
-      if (!state.min) root.style.height = "220px";
-      return;
-    }
     var vw = window.innerWidth;
     var vh = window.innerHeight;
-    var w = clamp(state.w, MIN_W, vw - 8);
+    var minW = Math.min(MIN_W, vw - 8);
+    var w = clamp(state.w, minW, vw - 8);
     var h = clamp(state.h, MIN_H, vh - 8);
-    var x = state.x == null ? 16 : state.x; // پیش‌فرض: پایین-چپ
+    var x = state.x == null ? (MOBILE_MQ.matches ? (vw - w) / 2 : 16) : state.x; // پیش‌فرض: پایین؛ موبایل وسط، دسکتاپ چپ
     var y = state.y == null ? vh - h - 16 : state.y;
     x = clamp(x, 0, Math.max(0, vw - w));
     y = clamp(y, 0, Math.max(0, vh - (state.min ? 44 : h)));
@@ -149,7 +145,7 @@
     var sx, sy, ox, oy, pid;
 
     bar.addEventListener("pointerdown", function (e) {
-      if (MOBILE_MQ.matches || e.target.closest(".ppfp__btn")) return;
+      if (e.target.closest(".ppfp__btn")) return;
       pid = e.pointerId;
       bar.setPointerCapture(pid);
       var r = root.getBoundingClientRect();
@@ -201,7 +197,6 @@
     var sx, sy, ow, oh, pid;
 
     handle.addEventListener("pointerdown", function (e) {
-      if (MOBILE_MQ.matches) return;
       pid = e.pointerId;
       handle.setPointerCapture(pid);
       var r = root.getBoundingClientRect();
@@ -216,7 +211,7 @@
     handle.addEventListener("pointermove", function (e) {
       if (!root.classList.contains("ppfp--resizing") || e.pointerId !== pid) return;
       var r = root.getBoundingClientRect();
-      state.w = clamp(ow + e.clientX - sx, MIN_W, window.innerWidth - r.left);
+      state.w = clamp(ow + e.clientX - sx, Math.min(MIN_W, window.innerWidth - 8), window.innerWidth - r.left);
       state.h = clamp(oh + e.clientY - sy, MIN_H, window.innerHeight - r.top);
       applyGeometry();
     });

@@ -191,8 +191,16 @@
   }
 
   function playFloat(p) {
-    if (!window.PPPlayer || !p._src) return;
-    window.PPPlayer.open({ src: p._src, title: p.title, page: castboxPage(p) || p.podcast_link || "" });
+    if (!p._src) return;
+    function go() { window.PPPlayer.open({ src: p._src, title: p.title, page: castboxPage(p) || p.podcast_link || "" }); }
+    if (window.PPPlayer) return go();
+    // اگر اسکریپت پلیر شناور هنوز لود نشده بود (کش قدیمی)، همین‌جا لودش می‌کنیم
+    var me = document.querySelector('script[src*="pp-listen.js"]');
+    if (!me) return;
+    var sc = document.createElement("script");
+    sc.src = me.src.replace(/pp-listen\.js/, "pp-float-player.js");
+    sc.onload = function () { if (window.PPPlayer) go(); };
+    document.head.appendChild(sc);
   }
 
   /* ---------- رویدادها ---------- */
