@@ -90,3 +90,31 @@ body.reading .pp-hero-text{display:none}
 .pd-filters .pd-count{margin:-4px 0 2px;font-size:.82rem;color:var(--mut)}
 .pd-filters .pd-count:empty{display:none}
 .pd-head{margin-bottom:6px}
+
+/* ---- v6: دسکتاپ عریض‌تر، هاور کارت، پنل جست‌وجوی پیشرفته ---- */
+.pp-shell{max-width:2000px;margin-top:4px;padding:0 28px;grid-template-columns:270px minmax(0,1fr);gap:30px}
+.pp-shell.has-filters{grid-template-columns:270px minmax(0,1fr) 310px}
+@media(max-width:1199px){.pp-shell,.pp-shell.has-filters{grid-template-columns:230px minmax(0,1fr);padding:0 18px;gap:22px}}
+@media(max-width:799px){.pp-shell,.pp-shell.has-filters{margin-top:8px;padding:0 14px}}
+.pp-side-logo{margin-top:0}
+.pp-hero::after{margin:22px auto 16px}
+.pp-bar{padding-bottom:4px}
+
+/* هاور کارت: content-visibility سایه را می‌برید؛ خاموش و افکت واضح‌تر */
+.pd-card{content-visibility:visible!important;contain:none!important}
+.pd-card:hover,.pd-card:focus-visible{transform:translateY(-4px)!important;border-color:#08cb00!important;
+  box-shadow:0 16px 32px -12px rgba(8,203,0,.55)!important}
+.pd-row{padding:10px 8px 22px}
+@media(prefers-reduced-motion:reduce){.pd-card:hover,.pd-card:focus-visible{transform:none!important}}
+
+/* پنل جست‌وجوی پیشرفته */
+.pd-filters{gap:10px;padding:18px 16px}
+.pd-filters .pp-side-title{margin:0;text-align:center;font-size:1.05rem}
+.pd-filters .pd-count{text-align:center;margin:-2px 0 2px}
+.pd-filters select,.pd-filters input[type=text]{height:38px;border-radius:12px;font-size:.92rem}
+.pd-filters label,.pd-filters fieldset,.pd-filters legend{font-size:.84rem}
+.pd-sep{border:0;height:1px;margin:4px 0;background:var(--line)}
+.pd-filters label.pd-check{justify-content:flex-start}
+.pd-reset{height:40px;margin-top:2px;border-color:rgba(8,203,0,.55);font-weight:700}
+.pd-reset:hover{background:#08cb00;color:#0b0e0c}
+@media(max-width:1199px){.pd-sep{grid-column:1 / -1}}
