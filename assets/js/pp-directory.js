@@ -161,13 +161,13 @@
   /* ---------- نمایش ---------- */
   function badge(t, on) { return '<span class="pd-b' + (on ? " on" : "") + '">' + t + "</span>"; }
   function card(p) {
-    var sub = p.subcategories && p.subcategories[0] ? "، " + esc(p.subcategories[0]) : "";
+    var subs = (p.subcategories || []).slice(0, 2).map(function (x) { return '<span class="pd-b">' + esc(x) + "</span>"; }).join("");
     var logo = p.logo
       ? '<img src="' + esc(p.logo) + '" alt="" loading="lazy" decoding="async" width="160" height="160">'
       : "<i>" + esc((p.title || "").trim().charAt(0)) + "</i>";
     return '<a class="pd-card" href="' + esc(p.url) + '" title="' + esc(p.description || "") + '"><span class="pd-logo">' + logo + "</span>" +
       '<span class="pd-body"><h3>' + esc(p.title) + "</h3>" +
-      '<span class="pd-meta"><span class="pd-b">' + esc(p._cat) + sub + "</span>" +
+      '<span class="pd-meta"><span class="pd-b">' + esc(p._cat) + "</span>" + subs +
       (p._active ? "" : '<span class="pd-b off">غیرفعال</span>') + "</span></span></a>";
   }
   function sortList(list, mode) {
