@@ -404,6 +404,18 @@
     });
     return out;
   }
+  /* ساخت خودکار پلیر از لینک پادکست (Castbox، اسپاتیفای، اپل پادکست)؛ نیازی به امبد دستی نیست */
+  function deriveEmbed(fd) {
+    var keys = ["podcast_link", "castbox", "platforms", "site"], text = keys.map(function (k) { return (fd.get(k) || "").toString(); }).join(" ");
+    var m = text.match(/castbox\.fm\/(?:ch|channel|vh)\/([^\s\/?#]+)/i), id = m && (m[1].match(/(\d{4,})$/) || [])[1];
+    if (!id) { var c = (fd.get("castbox") || "").toString().trim().match(/^\D{0,3}(\d{4,})\D{0,3}$/); id = c && c[1]; }
+    if (id) return { embed: "https://castbox.fm/app/castbox/player/id" + id + "?v=8.22.11&autoplay=0", castbox_id: id };
+    m = text.match(/open\.spotify\.com\/(?:intl-[a-z]+\/)?show\/([A-Za-z0-9]+)/i);
+    if (m) return { embed: "https://open.spotify.com/embed/show/" + m[1] };
+    m = text.match(/podcasts\.apple\.com\/([a-z]{2})\/podcast\/([^\s\/?#]+)\/(id\d+)/i);
+    if (m) return { embed: "https://embed.podcasts.apple.com/" + m[1] + "/podcast/" + m[2] + "/" + m[3] };
+    return null;
+  }
   function build(fd) {
     var q = JSON.stringify, fm = [], body = [];
     S.forEach(function (sec) {
@@ -438,6 +450,8 @@
       });
       if (parts.length) body.push("## " + sec[0] + "\n\n" + parts.join("\n"));
     });
+    var de = deriveEmbed(fd);
+    if (de) { fm.push("embed: " + q(de.embed)); if (de.castbox_id) fm.push("castbox_id: " + q(de.castbox_id)); }
     return "---\n" + fm.join("\n") + "\nsubmitted: " + q(new Date().toISOString()) + "\n---\n\n# " + fd.get("name_fa") + "\n\n" + body.join("\n");
   }
 

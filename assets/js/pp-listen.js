@@ -35,12 +35,24 @@
     if (m) return "https://castbox.fm/app/castbox/player/id" + m[1] + "?v=8.22.11&autoplay=0";
     var s = String(p.spotify || "").match(/\/show\/([A-Za-z0-9]+)/);
     if (s) return "https://open.spotify.com/embed/show/" + s[1];
+    return fromLink(p.podcast_link);
+  }
+  // پلیر خودکار از «لینک پادکست» (Castbox، اسپاتیفای، اپل پادکست)
+  function fromLink(u) {
+    u = String(u || "");
+    var m = u.match(/castbox\.fm\/(?:ch|channel|vh)\/([^\s\/?#]+)/i), id = m && (m[1].match(/(\d{4,})$/) || [])[1];
+    if (id) return "https://castbox.fm/app/castbox/player/id" + id + "?v=8.22.11&autoplay=0";
+    m = u.match(/open\.spotify\.com\/(?:intl-[a-z]+\/)?show\/([A-Za-z0-9]+)/i);
+    if (m) return "https://open.spotify.com/embed/show/" + m[1];
+    m = u.match(/podcasts\.apple\.com\/([a-z]{2})\/podcast\/([^\s\/?#]+)\/(id\d+)/i);
+    if (m) return "https://embed.podcasts.apple.com/" + m[1] + "/podcast/" + m[2] + "/" + m[3];
     return "";
   }
   function kindOf(src) { return /castbox/.test(src) ? "castbox" : /spotify/.test(src) ? "spotify" : "other"; }
   function castboxPage(p) {
     var c = String(p.castbox || ""), m = c.match(/-id(\d{4,})/) || c.match(/\/vh\/(\d{4,})/) || c.match(/^\D{0,3}(\d{4,})\D{0,3}$/);
-    return m ? "https://castbox.fm/vh/" + m[1] : "";
+    if (m) return "https://castbox.fm/vh/" + m[1];
+    return /castbox\.fm\//i.test(String(p.podcast_link || "")) ? String(p.podcast_link) : "";
   }
   function youtubeId(u) {
     var m = String(u || "").match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([\w-]{11})/);
@@ -134,7 +146,7 @@
     stage.innerHTML =
       '<div class="pl-head">' + (p.logo ? '<img src="' + esc(p.logo) + '" alt="" width="68" height="68">' : "<i>" + esc((p.title || "").trim().charAt(0)) + "</i>") +
       "<div><h2>" + esc(p.title) + "</h2><small>" + esc(p._cat) + "</small></div></div>" +
-      '<div id="pl-slot"></div>' +
+      '<div id="pl-slot">' + (window.PPPlayer ? '<p class="pp-poster-note">پلیر به‌صورت شناور باز می‌شود و هنگام گشت‌وگذار در سایت هم پخش ادامه دارد.</p><button type="button" class="pp-poster-btn" id="pl-play">' + PLAY + 'پخش ' + esc(p.title) + "</button>" : "") + "</div>" +
       (yt ? '<h3 class="pl-sub">قسمت منتخب در یوتیوب</h3><div id="pl-yt"></div>' : "") +
       '<div class="pl-links"><a href="' + esc(p.url) + '">صفحه‌ی معرفی پادکست</a>' +
       (cb ? '<a href="' + esc(cb) + '" target="_blank" rel="noopener noreferrer">باز کردن در Castbox</a>' : "") + "</div>";
@@ -147,10 +159,18 @@
       f.setAttribute("sandbox", "allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-presentation");
       slot.appendChild(f);
     }
-    mount("pl-slot", "e-" + kind, src, "پلیر " + p.title);
+    if (window.PPPlayer) {
+      var pb = document.getElementById("pl-play");
+      if (pb) pb.addEventListener("click", function () { playFloat(p); });
+    } else mount("pl-slot", "e-" + kind, src, "پلیر " + p.title);
     if (yt) mount("pl-yt", "e-youtube", "https://www.youtube-nocookie.com/embed/" + yt, "قسمت منتخب " + p.title, "accelerometer; encrypted-media; picture-in-picture");
     $$(".pl-card", out).forEach(function (b) { if (b.getAttribute("data-id") === p.id) b.setAttribute("aria-current", "true"); else b.removeAttribute("aria-current"); });
     if (scroll) stage.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function playFloat(p) {
+    if (!window.PPPlayer || !p._src) return;
+    window.PPPlayer.open({ src: p._src, title: p.title, page: castboxPage(p) || p.podcast_link || "" });
   }
 
   /* ---------- رویدادها ---------- */
@@ -166,7 +186,7 @@
     var t = e.target.closest(".pd-cat-link");
     if (t && !(e.metaKey || e.ctrlKey || e.shiftKey)) { e.preventDefault(); setCat(t.getAttribute("data-cat")); var h = $(".pd-head"); if (h) h.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
     var b = e.target.closest(".pl-card");
-    if (b) { var p = data.filter(function (x) { return x.id === b.getAttribute("data-id"); })[0]; if (p) select(p, true); }
+    if (b) { var p = data.filter(function (x) { return x.id === b.getAttribute("data-id"); })[0]; if (p) { select(p, true); playFloat(p); } }
   });
   $("#pl-chips").addEventListener("click", function (e) {
     var b = e.target.closest(".pd-chip"); if (!b) return;
@@ -190,7 +210,7 @@
     .then(function (d) {
       data = d.map(prep).filter(function (p) { return p._src; });
       if (!data.length) {
-        stage.innerHTML = '<p class="pd-empty">هنوز پادکستی با پلیر ثبت نشده. در فرم ثبت، «امبد پادکست» را پر کنید.</p>';
+        stage.innerHTML = '<p class="pd-empty">هنوز پادکستی با پلیر ثبت نشده. پلیر از «لینک پادکست» (Castbox، اسپاتیفای یا اپل پادکست) ساخته می‌شود.</p>';
         out.innerHTML = ""; return;
       }
       data.forEach(function (p) { if (catRank[p._cat] == null) catRank[p._cat] = Math.random(); });

@@ -29,6 +29,7 @@ permalink: /podcasts.json
   "castbox": {{ p.castbox | default: p.castbox_id | default: p.castbox_channel | jsonify }},
   "castbox_embed": {{ p.castbox_embed | jsonify }},
   "embed": {{ p.embed | jsonify }},
+  "podcast_link": {{ p.podcast_link | jsonify }},
   "spotify": {{ p.spotify | jsonify }},
   "youtube": {{ p.yt_ep | default: p.youtube | jsonify }}
 }{% unless forloop.last %},{% endunless %}

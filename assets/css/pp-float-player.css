@@ -186,3 +186,51 @@ body.night .ppfp {
     transition: box-shadow 0.2s ease;
   }
 }
+
+/* پیام بارگذاری / خطا و دکمه‌ی بارگذاری دوباره */
+.ppfp__status {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px;
+  direction: rtl;
+  text-align: center;
+  background: var(--ppfp-bg);
+  color: var(--ppfp-fg);
+  z-index: 1;
+}
+.ppfp__status[hidden] { display: none; }
+.ppfp__msg { margin: 0; font-size: 13px; line-height: 1.8; }
+.ppfp__acts { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.ppfp__retry, .ppfp__ext {
+  display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px;
+  border-radius: 999px; font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; text-decoration: none;
+}
+.ppfp__retry { border: 0; background: var(--ppfp-green); color: #0b0e0c; }
+.ppfp__ext { border: 1px solid var(--ppfp-line); color: inherit; background: transparent; }
+.ppfp__retry:focus-visible, .ppfp__ext:focus-visible { outline: 2px solid var(--ppfp-green); outline-offset: 2px; }
+.ppfp__retry[hidden], .ppfp__ext[hidden] { display: none; }
+.ppfp__reload { font-size: 18px; }
+.ppfp--min .ppfp__status { display: none; }
+
+/* پوستر پخش در صفحه‌ی پادکست و «گوش بده» */
+.pp-poster { text-align: center; }
+.pp-poster-note { margin: 0 0 12px; color: var(--mut); font-size: .9rem; }
+.pp-poster-btn {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 24px;
+  border: 0; border-radius: 999px; background: #08cb00; color: #0b0e0c; font: inherit; font-weight: 800; cursor: pointer;
+  transition: box-shadow .2s ease;
+}
+.pp-poster-btn svg { width: 18px; height: 18px; fill: currentColor; }
+.pp-poster-btn:hover { box-shadow: 0 6px 20px #00ff9c66; }
+.pp-poster-btn:focus-visible { outline: 3px solid #08cb00; outline-offset: 3px; }
+
+/* موبایل: پلیر روی انتهای محتوا نیفتد */
+@media (max-width: 600px) {
+  body.ppfp-open { padding-bottom: 236px; }
+  body.ppfp-open.ppfp-min { padding-bottom: 60px; }
+}

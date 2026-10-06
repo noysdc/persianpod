@@ -1,0 +1,67 @@
+/* PersianPod: صفحه‌ی مقایسه. بدون رنگ «برنده»؛ هر دو پادکست یکسان نمایش داده می‌شوند. */
+.cp-pick{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:start;margin-top:14px}
+.cp-vs{align-self:center;color:var(--mut);font-size:.9rem;padding-top:26px}
+.cp-slot label{display:block;margin:0 0 6px;font-weight:700}
+.cp-box{position:relative}
+.cp-box input{width:100%;min-height:46px;padding:0 14px;border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--ink);font:inherit}
+.cp-box input:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+.cp-list{position:absolute;inset-inline:0;top:calc(100% + 6px);z-index:30;margin:0;padding:6px;list-style:none;max-height:300px;overflow:auto;
+  border:1px solid var(--line);border-radius:14px;background:var(--card);box-shadow:0 12px 30px var(--glow-soft)}
+.cp-list li{display:flex;justify-content:space-between;gap:10px;padding:9px 12px;border-radius:10px;cursor:pointer}
+.cp-list li small{color:var(--mut)}
+.cp-list li:hover,.cp-list li[aria-selected=true]{background:var(--line)}
+.cp-list .cp-none{cursor:default;color:var(--mut)}
+.cp-chosen:not(:empty){display:flex;align-items:center;gap:10px;margin-top:10px;padding:10px 12px;border:1px solid #08cb00;border-radius:16px;background:var(--card)}
+.cp-lg,.cp-hl{flex:none;width:44px;height:44px;border-radius:12px;object-fit:cover;display:grid;place-items:center;background:var(--line);color:var(--acc);font-style:normal;font-weight:800}
+.cp-chosen b{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cp-x{flex:none;width:32px;height:32px;border:0;border-radius:50%;background:transparent;color:var(--mut);font-size:1.3rem;cursor:pointer}
+.cp-x:hover{background:var(--line)}
+.cp-x:focus-visible,.cp-btn:focus-visible,.cp-i:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+.cp-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.cp-btn{min-height:44px;padding:0 22px;border:0;border-radius:999px;background:#08cb00;color:#0b0e0c;font:inherit;font-weight:800;cursor:pointer}
+.cp-btn.cp-ghost{background:transparent;color:var(--ink);border:1px solid var(--line);font-weight:600}
+.cp-btn:disabled{opacity:.45;cursor:not-allowed}
+.cp-msg{min-height:1.4em;color:var(--mut)}
+
+.cp-head{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:center;margin:22px 0 14px}
+.cp-hp{display:flex;align-items:center;gap:12px;min-width:0}
+.cp-hp h2{margin:0;font-size:clamp(1rem,2.4vw,1.3rem);line-height:1.6}
+.cp-hp a{color:var(--ink);text-decoration:none}
+.cp-hp a:hover{text-decoration:underline}
+.cp-hl{width:64px;height:64px;border-radius:16px;font-size:1.6rem}
+.cp-hvs{color:var(--mut);font-size:1.3rem}
+.cp-card{margin:14px 0;padding:16px;border:1px solid var(--line);border-radius:22px;background:var(--card)}
+.cp-card h2{margin:0 0 10px;font-size:1.1rem}
+.cp-card ul{margin:0;padding-inline-start:1.2em;line-height:2}
+.cp-scroll{overflow-x:auto}
+.cp-t{width:100%;border-collapse:collapse;min-width:520px}
+.cp-t th,.cp-t td{padding:11px 10px;text-align:start;vertical-align:top;border-bottom:1px solid var(--line)}
+.cp-t thead th{font-size:.95rem}
+.cp-t tbody th[scope=row]{width:30%;font-weight:600;color:var(--mut);position:relative}
+.cp-t .cp-g th{padding-top:20px;color:var(--ink);font-size:.95rem;border-bottom:2px solid var(--line)}
+.cp-t td{position:relative}
+.cp-bar{display:block;height:8px;margin-top:6px;border-radius:99px;background:var(--line);overflow:hidden}
+.cp-bar span{display:block;height:100%;border-radius:99px;background:#08cb00;opacity:.75}
+.cp-na{color:var(--mut);font-size:.85rem}
+.cp-i{margin-inline-start:6px;border:0;background:transparent;color:var(--mut);font:inherit;cursor:pointer;padding:0 4px;border-radius:6px}
+.cp-i:hover,.cp-i[aria-expanded=true]{color:var(--acc)}
+.cp-tip{margin-top:6px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font-size:.85rem;font-weight:400;line-height:1.9}
+
+.cp-tr-row{display:grid;grid-template-columns:140px 1fr;gap:12px;align-items:end;margin:10px 0}
+.cp-tr-row b{font-size:.9rem;overflow:hidden;text-overflow:ellipsis}
+.cp-cols{display:flex;align-items:flex-end;gap:5px;height:70px;border-bottom:1px solid var(--line)}
+.cp-col{flex:1;min-height:3px;border-radius:5px 5px 0 0;background:#08cb00;opacity:.8}
+.cp-tr-row.b .cp-col{background:transparent;border:2px solid #08cb00;border-bottom:0;opacity:1}
+.cp-axis{display:flex;justify-content:space-between;margin:4px 0 0;color:var(--mut);font-size:.78rem;padding-inline-start:152px}
+.cp-note{color:var(--mut);font-size:.9rem;line-height:1.9}
+.cp-needs li{list-style:none;margin-inline-start:-1.2em}
+.cp-foot{text-align:center;margin:16px 0}
+
+.cp-method{margin-top:36px;padding-top:6px;border-top:1px solid var(--line);scroll-margin-top:84px;line-height:2}
+.cp-method h2{font-size:1.2rem}.cp-method h3{font-size:1rem;margin:16px 0 4px}
+
+@media(max-width:700px){
+  .cp-pick{grid-template-columns:1fr}.cp-vs{display:none}
+  .cp-head{grid-template-columns:1fr}.cp-hvs{display:none}
+  .cp-tr-row{grid-template-columns:1fr}.cp-axis{padding-inline-start:0}
+}

@@ -15,6 +15,7 @@
 <script>(function(){try{var d=document.documentElement,t=localStorage.getItem('pp-theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';d.setAttribute('data-theme',t);var f=parseFloat(localStorage.getItem('pp-fs'));if(f)d.style.setProperty('--fs',f)}catch(e){}})()</script>
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-tools.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/pp-float-player.css' | relative_url }}">
 {% for s in page.styles %}<link rel="stylesheet" href="{{ s | relative_url }}">
 {% endfor %}<link rel="stylesheet" href="{{ '/assets/css/pp-polish.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-vectors.css' | relative_url }}?v=20261013">
@@ -36,6 +37,7 @@
     <nav class="pp-nav" aria-label="منوی اصلی">
       <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>پادکست‌ها</a>
       <a href="{{ '/listen/' | relative_url }}"{% if page.url == '/listen/' %} aria-current="page"{% endif %}>گوش بده</a>
+      <a href="{{ '/compare/' | relative_url }}"{% if page.url == '/compare/' %} aria-current="page"{% endif %}>مقایسه</a>
       <a href="{{ '/learn/' | relative_url }}"{% if page.url == '/learn/' %} aria-current="page"{% endif %}>آموزش</a>
       <a href="{{ '/form/' | relative_url }}"{% if page.url == '/form/' %} aria-current="page"{% endif %}>ثبت پادکست</a>
       <a href="{{ '/about-us/' | relative_url }}"{% if page.url == '/about-us/' %} aria-current="page"{% endif %}>درباره‌ی ما</a>
@@ -107,6 +109,8 @@
 <script src="{{ '/assets/js/app.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/pp-digits.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/pp-vectors.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/pp-float-player.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/pp-nav.js' | relative_url }}" defer></script>
 {% for s in page.scripts %}<script src="{{ s | relative_url }}" defer></script>
 {% endfor %}</body>
 </html>

@@ -19,7 +19,9 @@
   var MIN_H = 150;
   var DEFAULT = { w: 360, h: 220 };
 
-  var root, bar, titleEl, frame, minBtn;
+  var root, bar, titleEl, frame, minBtn, statusEl, statusMsg, pageLink;
+  var curSrc = "", reloadN = 0, watchdog = 0, loaded = false;
+  var LOAD_TIMEOUT = 12000; // اگر پلیر (مثلاً Castbox در ایران) تا این مدت بالا نیامد، دکمه‌ی بارگذاری دوباره نشان داده می‌شود
   var state = loadState();
 
   function loadState() {
@@ -65,13 +67,19 @@
       '<circle cx="8" cy="12" r="1.7"/><circle cx="16" cy="12" r="1.7"/>' +
       '<circle cx="8" cy="18" r="1.7"/><circle cx="16" cy="18" r="1.7"/></svg>' +
       '<span class="ppfp__title"></span>' +
+      '<button type="button" class="ppfp__btn ppfp__reload" aria-label="بارگذاری دوباره پلیر" title="بارگذاری دوباره پلیر">↻</button>' +
       '<button type="button" class="ppfp__btn ppfp__min" aria-label="کوچک کردن">–</button>' +
       '<button type="button" class="ppfp__btn ppfp__close" aria-label="بستن پلیر">✕</button>' +
       "</div>" +
       '<div class="ppfp__body">' +
       '<iframe class="ppfp__frame" title="پلیر پادکست" loading="lazy" ' +
       'allow="autoplay; encrypted-media; fullscreen" ' +
-      'sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe>' +
+      'referrerpolicy="strict-origin-when-cross-origin" ' +
+      'sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-presentation"></iframe>' +
+      '<div class="ppfp__status" role="status" aria-live="polite" hidden>' +
+      '<p class="ppfp__msg"></p>' +
+      '<div class="ppfp__acts"><button type="button" class="ppfp__retry">بارگذاری دوباره پلیر</button>' +
+      '<a class="ppfp__ext" target="_blank" rel="noopener noreferrer" hidden>باز کردن در سایت پادکست</a></div></div>' +
       '<div class="ppfp__resize" tabindex="0" role="separator" aria-label="تغییر اندازه"></div>' +
       "</div>";
 
@@ -81,6 +89,16 @@
     titleEl = root.querySelector(".ppfp__title");
     frame = root.querySelector(".ppfp__frame");
     minBtn = root.querySelector(".ppfp__min");
+    statusEl = root.querySelector(".ppfp__status");
+    statusMsg = root.querySelector(".ppfp__msg");
+    pageLink = root.querySelector(".ppfp__ext");
+
+    frame.addEventListener("load", function () {
+      if (!frame.getAttribute("src") || frame.getAttribute("src") === "about:blank") return;
+      loaded = true; clearTimeout(watchdog); showStatus("");
+    });
+    root.querySelector(".ppfp__reload").addEventListener("click", reload);
+    root.querySelector(".ppfp__retry").addEventListener("click", reload);
 
     root.querySelector(".ppfp__close").addEventListener("click", close);
     minBtn.addEventListener("click", function () {
@@ -120,6 +138,7 @@
   function setMin(v) {
     state.min = !!v;
     root.classList.toggle("ppfp--min", state.min);
+    document.body.classList.toggle("ppfp-min", state.min);
     minBtn.textContent = state.min ? "▢" : "–";
     minBtn.setAttribute("aria-label", state.min ? "بزرگ کردن" : "کوچک کردن");
     applyGeometry();
@@ -226,25 +245,67 @@
     });
   }
 
+  function showStatus(msg, failed) {
+    if (!statusEl) return;
+    statusEl.hidden = !msg;
+    statusEl.classList.toggle("ppfp__status--fail", !!failed);
+    statusMsg.textContent = msg || "";
+    root.querySelector(".ppfp__retry").hidden = !failed;
+  }
+
+  function withParams(src, n) {
+    // فقط برای بارگذاری دوباره: پارامتر بی‌اثر می‌گذاریم تا نسخه‌ی کش‌شده‌ی ناقص استفاده نشود
+    if (!n) return src;
+    return src + (src.indexOf("?") === -1 ? "?" : "&") + "pp_r=" + n;
+  }
+
+  function load(n) {
+    loaded = false;
+    clearTimeout(watchdog);
+    showStatus("در حال بارگذاری پلیر…", false);
+    frame.setAttribute("src", withParams(curSrc, n));
+    watchdog = setTimeout(function () {
+      if (loaded) return;
+      showStatus("پلیر بالا نیامد. گاهی Castbox در ایران دیر یا اصلاً لود نمی‌شود. بدون بارگذاری دوباره‌ی کل صفحه، همین‌جا دوباره تلاش کنید.", true);
+    }, LOAD_TIMEOUT);
+  }
+
+  function reload() {
+    if (!root || !curSrc) return;
+    reloadN += 1;
+    frame.setAttribute("src", "about:blank");
+    setTimeout(function () { load(reloadN); }, 80);
+  }
+
   function open(opts) {
     var src = safeUrl(opts && opts.src);
     if (!src) return;
     build();
-    // اگر همان پادکست در حال پخش است، دوباره بارگذاری نکن
-    if (frame.getAttribute("src") !== src) frame.setAttribute("src", src);
+    // پخش خودکار فقط وقتی کاربر خودش دکمه‌ی پخش را زده است (Castbox این پارامتر را می‌شناسد)
+    if (opts && opts.autoplay !== false && /castbox\.fm\/app\/castbox\/player/.test(src)) src = src.replace("autoplay=0", "autoplay=1");
     titleEl.textContent = (opts && opts.title) || "در حال پخش";
+    var ext = safeUrl(opts && opts.page);
+    if (ext) { pageLink.href = ext; pageLink.hidden = false; } else { pageLink.hidden = true; }
     root.hidden = false;
+    document.body.classList.add("ppfp-open");
     setMin(false);
     applyGeometry();
+    // اگر همان پادکست در حال پخش است، دوباره بارگذاری نکن
+    if (curSrc !== src || !loaded) { curSrc = src; reloadN = 0; load(0); }
   }
 
   function close() {
     if (!root) return;
-    frame.removeAttribute("src"); // پخش را قطع می‌کند
-    frame.src = "about:blank";
+    clearTimeout(watchdog);
+    frame.setAttribute("src", "about:blank"); // پخش را قطع می‌کند
     frame.removeAttribute("src");
+    curSrc = ""; loaded = false;
+    showStatus("");
     root.hidden = true;
+    document.body.classList.remove("ppfp-open", "ppfp-min");
   }
+
+  function isOpen() { return !!root && !root.hidden; }
 
   // اتصال خودکار: هر عنصری با data-pp-embed
   document.addEventListener("click", function (e) {
@@ -254,8 +315,9 @@
     open({
       src: el.getAttribute("data-pp-embed"),
       title: el.getAttribute("data-title") || el.textContent.trim(),
+      page: el.getAttribute("data-page") || "",
     });
   });
 
-  window.PPPlayer = { open: open, close: close, minimize: function () { build(); setMin(true); } };
+  window.PPPlayer = { open: open, close: close, reload: reload, isOpen: isOpen, minimize: function () { build(); setMin(true); } };
 })();

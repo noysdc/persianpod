@@ -28,6 +28,17 @@ layout: default
   {% assign spid = page.spotify | split: '/show/' | last | split: '?' | first | split: '/' | first %}
   {% assign embed_src = 'https://open.spotify.com/embed/show/' | append: spid %}
 {% endif %}
+{% if embed_src == '' and page.podcast_link %}
+  {% assign pl = page.podcast_link %}
+  {% if pl contains 'castbox.fm/' %}
+    {% assign plseg = pl | split: 'castbox.fm/' | last | split: '?' | first | split: '#' | first | split: '/' %}
+    {% assign plid = plseg | last | split: '-id' | last | remove: 'id' | plus: 0 %}
+    {% if plid > 1000 %}{% assign embed_src = 'https://castbox.fm/app/castbox/player/id' | append: plid | append: '?v=8.22.11&autoplay=0' %}{% endif %}
+  {% elsif pl contains 'open.spotify.com/' and pl contains '/show/' %}
+    {% assign plsp = pl | split: '/show/' | last | split: '?' | first | split: '/' | first %}
+    {% assign embed_src = 'https://open.spotify.com/embed/show/' | append: plsp %}
+  {% endif %}
+{% endif %}
 {% if embed_src contains 'castbox' %}{% assign embed_kind = 'castbox' %}{% elsif embed_src contains 'spotify' %}{% assign embed_kind = 'spotify' %}{% endif %}
 
 <article class="pod wrap">
@@ -64,6 +75,7 @@ layout: default
         {% if page.threads %}<a class="btn" rel="noopener" target="_blank" href="{{ page.threads }}">تردز</a>{% endif %}
         {% assign web = page.website | default: page.site %}{% if web %}<a class="btn" rel="noopener" target="_blank" href="{{ web }}">وب‌سایت</a>{% endif %}
         {% if page.rss %}<a class="btn" rel="noopener" target="_blank" href="{{ page.rss }}">RSS</a>{% endif %}
+        <a class="btn" href="{{ '/compare/?a=' | append: page.slug | relative_url }}">مقایسه با پادکست دیگر</a>
         {% if page.email and page.email_vis contains 'نمایش' %}<a class="btn" href="mailto:{{ page.email }}">ایمیل</a>{% endif %}
       </div>
       <dl class="facts">
@@ -88,10 +100,12 @@ layout: default
   <div class="pod-end">
     {% if embed_src != '' %}
     <h2 id="listen-h">همین‌جا گوش بده</h2>
-    <div class="pp-embed-box">
-      <iframe class="e-{{ embed_kind }}" src="{{ embed_src }}" title="پلیر {{ page.title | escape }}" loading="lazy"
-              allow="autoplay; encrypted-media; clipboard-write" referrerpolicy="strict-origin-when-cross-origin"
-              sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-presentation"></iframe>
+    <div class="pp-embed-box pp-poster">
+      <p class="pp-poster-note">با زدن دکمه‌ی پخش، پلیر به‌صورت شناور باز می‌شود و هنگام گشت‌وگذار در سایت هم پخش ادامه پیدا می‌کند.</p>
+      <button type="button" class="pp-poster-btn" data-pp-embed="{{ embed_src }}" data-title="{{ page.title | escape }}" data-page="{{ page.podcast_link | default: page.castbox_channel | escape }}">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>پخش {{ page.title | escape }}
+      </button>
+      <noscript><p><a href="{{ embed_src }}" rel="noopener">باز کردن پلیر</a></p></noscript>
     </div>
     <hr class="pp-divider">
     {% endif %}

@@ -1,0 +1,61 @@
+---
+layout: default
+title: مقایسه‌ی اطلاعات پادکست‌ها
+permalink: /compare/
+description: اطلاعات قابل اندازه‌گیری دو پادکست فارسی را کنار هم ببینید؛ تعداد قسمت، مدت، ریتم انتشار و روند ۱۲ ماه اخیر، بدون رتبه‌بندی و بدون قضاوت.
+styles: [/assets/css/pp-dir.css, /assets/css/pp-compare.css]
+scripts: [/assets/js/pp-compare.js]
+---
+<section class="cp" aria-label="مقایسه‌ی اطلاعات پادکست‌ها">
+  <div class="pd-head">
+    <h1>مقایسه‌ی اطلاعات پادکست‌ها</h1>
+    <p class="pd-slogan">دو پادکست را انتخاب کن و اطلاعات قابل اندازه‌گیری‌شان را کنار هم ببین. پرشین‌پاد رتبه نمی‌دهد و داوری نمی‌کند.</p>
+  </div>
+
+  <div class="cp-pick">
+    <div class="cp-slot" data-slot="a">
+      <label for="cp-in-a">پادکست اول</label>
+      <div class="cp-box">
+        <input id="cp-in-a" type="search" autocomplete="off" placeholder="نام پادکست را بنویس…" role="combobox" aria-expanded="false" aria-controls="cp-list-a" aria-autocomplete="list">
+        <ul id="cp-list-a" class="cp-list" role="listbox" hidden></ul>
+      </div>
+      <div class="cp-chosen" id="cp-ch-a"></div>
+    </div>
+    <div class="cp-vs" aria-hidden="true">در برابر</div>
+    <div class="cp-slot" data-slot="b">
+      <label for="cp-in-b">پادکست دوم</label>
+      <div class="cp-box">
+        <input id="cp-in-b" type="search" autocomplete="off" placeholder="نام پادکست را بنویس…" role="combobox" aria-expanded="false" aria-controls="cp-list-b" aria-autocomplete="list">
+        <ul id="cp-list-b" class="cp-list" role="listbox" hidden></ul>
+      </div>
+      <div class="cp-chosen" id="cp-ch-b"></div>
+    </div>
+  </div>
+  <div class="cp-actions">
+    <button type="button" id="cp-go" class="cp-btn" disabled>مقایسه‌ی اطلاعات</button>
+    <button type="button" id="cp-swap" class="cp-btn cp-ghost" disabled>جابه‌جایی دو پادکست</button>
+  </div>
+  <p id="cp-msg" class="cp-msg" role="status" aria-live="polite"></p>
+
+  <div id="cp-out"></div>
+
+  <section id="method" class="cp-method" aria-labelledby="cp-method-h">
+    <h2 id="cp-method-h">مقایسه‌ها چگونه انجام می‌شود؟</h2>
+    <p>مقایسه‌های پرشین‌پاد بر اساس اطلاعات قابل اندازه‌گیری پادکست‌ها انجام می‌شود. این مقایسه‌ها به معنی رتبه‌بندی یا قضاوت درباره‌ی کیفیت پادکست‌ها نیستند.</p>
+    <h3>داده‌های مورد استفاده</h3>
+    <ul>
+      <li>اطلاعات RSS هر پادکست (تاریخ انتشار و مدت قسمت‌ها)؛ هر ۳۰ دقیقه به‌روز می‌شود.</li>
+      <li>اطلاعاتی که پادکستر هنگام ثبت در پرشین‌پاد نوشته (دسته‌بندی، شهر، زبان و ...).</li>
+    </ul>
+    <h3>تعریف شاخص‌ها</h3>
+    <ul>
+      <li><b>میانگین مدت قسمت:</b> میانگین مدت ۳۰ قسمت آخر که مدت معتبر دارند.</li>
+      <li><b>میانه، کوتاه‌ترین و بلندترین قسمت:</b> از همه‌ی قسمت‌های فید که مدت معتبر دارند.</li>
+      <li><b>قسمت‌های ۱۲ ماه اخیر / ۹۰ روز اخیر:</b> تعداد قسمت‌هایی که در ۳۶۵ یا ۹۰ روز گذشته منتشر شده‌اند.</li>
+      <li><b>میانگین فاصله‌ی انتشار:</b> فاصله‌ی زمانی قسمت اول تا آخرِ ۳۶۵ روز گذشته، تقسیم بر تعداد فاصله‌ها.</li>
+      <li><b>روند انتشار:</b> ۱۲ بازه‌ی ۳۰ روزه؛ ستون آخر ۳۰ روز اخیر است.</li>
+    </ul>
+    <p>پرشین‌پاد درباره‌ی کیفیت، ارزش هنری، کیفیت صدا یا بهتر بودن یک پادکست نسبت به پادکست دیگر قضاوت نمی‌کند. اگر عددی به نظرتان درست نیست، به <a href="mailto:{{ site.email }}">{{ site.email }}</a> ایمیل بزنید.</p>
+  </section>
+</section>
+<script>window.PP_COMPARE_URL = "{{ '/compare.json' | relative_url }}";</script>

@@ -90,6 +90,27 @@ def analyse(feed_url):
         recent = sorted([(utc(d), x) for d, x in dated if x > 0], key=lambda t: t[0], reverse=True)[:RECENT_FOR_AVG]
         if recent:
             result["avg_length"] = max(1, round(statistics.mean(x for _, x in recent) / 60))
+    # --- آمار تکمیلی برای صفحه‌ی «مقایسه»؛ همه از خود RSS و قابل بازتولید ---
+    durs = sorted(x for _, x in items if x > 0)
+    if durs:
+        mins = lambda sec: max(1, round(sec / 60))
+        result["median_length"] = mins(statistics.median(durs))
+        result["min_length"] = mins(durs[0])
+        result["max_length"] = mins(durs[-1])
+    if dated:
+        now = dt.datetime.now(dt.timezone.utc).replace(tzinfo=None)
+        dates = sorted(n for n in norm if n <= now)
+        result["eps_90"] = sum(1 for d in dates if (now - d).days < 90)
+        year = [d for d in dates if (now - d).days < 365]
+        result["eps_365"] = len(year)
+        buckets = [0] * 12                      # ۱۲ بازه‌ی ۳۰ روزه؛ آخرین عنصر = ۳۰ روز اخیر
+        for d in dates:
+            age = (now - d).days
+            if 0 <= age < 360:
+                buckets[11 - age // 30] += 1
+        result["recent_30d"] = buckets
+        if len(year) >= 2:
+            result["avg_gap_days"] = round((year[-1] - year[0]).days / (len(year) - 1), 1)
     return result
 
 
