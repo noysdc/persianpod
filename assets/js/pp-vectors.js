@@ -1,6 +1,6 @@
 /*
   وکتور تصادفی پرشین‌پاد
-  - در هر بار بارگذاری دو آیکون خطی مینیمال و مرتبط با پادکست، فقط در حاشیه‌ی خالی دو طرف صفحه (دسکتاپ‌های عریض)
+  - در هر بار بارگذاری یک آیکون خطی مینیمال و مرتبط با پادکست، داخل هر ستون کناری
   - پشت محتوا، کم‌رنگ، غیرقابل کلیک، مخفی برای صفحه‌خوان
   - آیکون‌های بار قبل تکرار نمی‌شوند
   - خاموش‌کردن در یک صفحه: <body data-no-vector>
@@ -51,12 +51,16 @@
   function init() {
     if (document.body.hasAttribute("data-no-vector")) return;
     if (document.querySelector(".pp-vector")) return;
-    pickTwo().forEach(function (i, n) {
+    // ستون‌های کناری: راست (محتوای کناری) و چپ (فیلترها، فقط صفحه‌ی فهرست)
+    var hosts = [document.querySelector(".pp-side"), document.querySelector(".pp-filters-side")]
+      .filter(Boolean);
+    var picks = pickTwo();
+    hosts.forEach(function (host, n) {
       var el = document.createElement("div");
-      el.className = "pp-vector " + (n ? "pp-vector-end" : "pp-vector-start");
+      el.className = "pp-vector";
       el.setAttribute("aria-hidden", "true");
-      el.innerHTML = ICONS[i];
-      document.body.appendChild(el);
+      el.innerHTML = ICONS[picks[n % picks.length]];
+      host.appendChild(el);
     });
   }
 

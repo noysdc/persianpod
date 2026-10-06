@@ -1,12 +1,8 @@
-/* وکتورهای حاشیه: کوچک، کم‌رنگ، فقط وقتی دو طرف صفحه واقعاً خالی است
-   عرض محتوا (.pp-shell) = ۱۵۶۰px؛ هر وکتور وسط حاشیه‌ی همان طرف می‌نشیند. */
-.pp-vector{display:none;position:fixed;top:42%;width:84px;height:84px;margin-top:-42px;color:#08cb00;opacity:.2;z-index:0;pointer-events:none}
+/* وکتور تصادفی داخل ستون‌های کناری (راست: زیر محتوای کناری، چپ: زیر فیلترها)
+   در هر بار بارگذاری یک وکتور تازه؛ فقط روی دسکتاپ که ستون‌ها واقعاً جا دارند */
+.pp-vector{display:none;width:92px;height:92px;margin:18px auto 6px;color:#08cb00;opacity:.5;pointer-events:none;flex:none}
 .pp-vector svg{display:block;width:100%;height:100%}
-html[data-theme="dark"] .pp-vector{opacity:.26}
-
-@media (min-width:1820px){
-  .pp-vector{display:block}
-  .pp-vector-start{inset-inline-start:calc((100vw - 1560px) / 4 - 42px)}
-  .pp-vector-end{inset-inline-end:calc((100vw - 1560px) / 4 - 42px)}
-}
+html[data-theme="dark"] .pp-vector{opacity:.6}
+@media(min-width:1200px){.pp-vector{display:block}}
+body.reading .pp-vector,body[data-no-vector] .pp-vector{display:none}
 @media print{.pp-vector{display:none}}

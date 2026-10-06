@@ -22,9 +22,12 @@
 <body data-search="{{ '/search.json' | relative_url }}">
 <a class="pp-skip" href="#main">رفتن به محتوا</a>
 
-<div class="pp-banner">
-  <a href="{{ '/' | relative_url }}" aria-label="پرشین‌پاد، صفحه‌ی اصلی">{% include pp-banner.html %}</a>
-  <p>خانه‌ی پادکست‌های فارسی</p>
+<div class="pp-hero">
+  <a class="pp-hero-logo" href="{{ '/' | relative_url }}" aria-label="پرشین‌پاد، صفحه‌ی اصلی">
+    <img class="pp-lt" src="{{ '/assets/img/persianpod-logo-fa-animated.svg' | relative_url }}" alt="پرشین‌پاد" width="412" height="56" decoding="async" fetchpriority="high">
+    <img class="pp-dk" src="{{ '/assets/img/persianpod-logo-fa-animated-dark.svg' | relative_url }}" alt="" width="412" height="56" decoding="async" aria-hidden="true">
+  </a>
+  <p class="pp-hero-text">مرجع کشف پادکست‌های فارسی</p>
 </div>
 
 <div class="pp-bar">
@@ -58,7 +61,7 @@
 <div class="pp-shell{% if page.filters %} has-filters{% endif %}">
   <aside class="pp-side" aria-label="کنار صفحه">
     <div class="pp-side-brand">
-      <a class="pp-side-logo" href="{{ '/' | relative_url }}" aria-label="پرشین‌پاد">{% include pp-icon-anim.html %}</a>
+      <a class="pp-side-logo" href="{{ '/' | relative_url }}" aria-label="پرشین‌پاد"><img class="pp-lt" src="{{ '/assets/img/persianpod-icon-animated.svg' | relative_url }}" alt="" width="128" height="128" decoding="async"><img class="pp-dk" src="{{ '/assets/img/persianpod-icon-animated-dark.svg' | relative_url }}" alt="" width="128" height="128" decoding="async" aria-hidden="true"></a>
       <strong>پرشین‌پاد</strong>
       <p class="pp-side-about">مرجع رایگان و بدون تبلیغ برای کشف پادکست‌های فارسی. ثبت یا حذف پادکست، هر زمان و بدون هزینه.</p>
     </div>

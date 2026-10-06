@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="512" height="512" role="img" xmlns:c2pa="http://c2pa.org/manifest"><title>PersianPod</title>
+<rect x="6" y="6" width="52" height="52" rx="12" fill="#E9F0EA"/>
+<rect x="70" y="6" width="52" height="52" rx="12" fill="#E9F0EA"/>
+<rect x="6" y="70" width="52" height="52" rx="12" fill="#E9F0EA"/>
+<rect x="70" y="70" width="52" height="52" rx="12" fill="#E9F0EA"/>
+<style>.g{transform:translate(0px,64px);animation:pp 6.4s ease-in-out infinite}@keyframes pp{0.00%{transform:translate(0px,64px)}15.00%{transform:translate(0px,64px)}25.00%{transform:translate(64px,0px)}40.00%{transform:translate(64px,0px)}50.00%{transform:translate(64px,64px)}65.00%{transform:translate(64px,64px)}75.00%{transform:translate(0px,0px)}90.00%{transform:translate(0px,0px)}100%{transform:translate(0px,64px)}}@media (prefers-reduced-motion:reduce){.g{animation:none}}</style><rect class="g" x="6" y="6" width="52" height="52" rx="12" fill="#08CB00"/></svg>
