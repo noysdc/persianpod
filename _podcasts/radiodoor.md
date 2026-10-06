@@ -87,4 +87,4 @@ tags: [پادکست مهاجرت, سبک زندگی, تجربه شخصی, راد
 
 - اپل پادکست رادیو دور: https://podcasts.apple.com/us/podcast/radio-door-%D8%B1%D8%A7%D8%AF%DB%8C%D9%88-%D8%AF%D9%88%D8%B1/id1775422795
 - اینستاگرام رادیو دور: https://instagram.com/radiodoorpod
-- لینک حمایت مالی (تلگرام): https://t.me/gitaai
+- لینک (تلگرام): https://t.me/gitaai
