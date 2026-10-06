@@ -69,22 +69,18 @@ tags: [پادکست مهاجرت, سبک زندگی, تجربه شخصی, راد
 
 گیتا از پادکست **اثر مشترک** حمایت و معرفی می‌کند؛ زیرا متعلق به جوانی‌ست که داوطلبانه و صمیمانه مهمان پادکست او شد. [شنیدن اثر مشترک در کست‌باکس](https://castbox.fm/ch/6744885){:target="_blank" rel="noopener"}
 
-## راه‌های ارتباطی
-
-رادیو دور برای همکاری و اسپانسری آماده است و نوع همکاری بسته به پیشنهاد تعیین می‌شود. یکی از انواع همکاری‌هایی که می‌پذیرد، **دعوت از مهمان** و **معرفی متقابل** است. اگر پیشنهادی برای همکاری دارید، می‌توانید با گیتا در ارتباط باشید.
-
-- 📧 ایمیل: [gitamin.gm@gmail.com](mailto:gitamin.gm@gmail.com)
-- 📷 [اینستاگرام](https://instagram.com/radiodoorpod){:target="_blank" rel="noopener"}
-- 🎧 [شنیدن رادیو دور در کست‌باکس](https://castbox.fm/ch/7414995){:target="_blank" rel="noopener"}
-
 ---
 
 #پادکست_مهاجرت #سبک_زندگی #تجربه_شخصی #رادیو_دور #گیتا_مینویی #پادکست_فارسی #مهاجرت #زندگی_در_خارج #قصه_زندگی #پادکست_ایرانی
 
 ---
 
-## رفرنس‌ها
+## لینک‌های مرتبط و ارتباطات
 
-- اپل پادکست رادیو دور: https://podcasts.apple.com/us/podcast/radio-door-%D8%B1%D8%A7%D8%AF%DB%8C%D9%88-%D8%AF%D9%88%D8%B1/id1775422795
-- اینستاگرام رادیو دور: https://instagram.com/radiodoorpod
-- لینک (تلگرام): https://t.me/gitaai
+اگر دوست دارید بیشتر با رادیو دور همراه باشید و قصه‌های مهاجرت را از نزدیک دنبال کنید، از راه‌های زیر می‌توانید با ما در تماس باشید:
+
+- [شنیدن رادیو دور در کست‌باکس](https://castbox.fm/ch/7414995){:target="_blank" rel="noopener"}
+- [صفحه رادیو دور در اپل پادکست](https://podcasts.apple.com/us/podcast/radio-door-%D8%B1%D8%A7%D8%AF%DB%8C%D9%88-%D8%AF%D9%88%D8%B1/id1775422795){:target="_blank" rel="noopener"}
+- [اینستاگرام رادیو دور](https://instagram.com/radiodoorpod){:target="_blank" rel="noopener"}
+- [ایمیل گیتا مینویی](mailto:gitamin.gm@gmail.com)
+- [تلگرام جهت ارتباط با رادیو دور](https://t.me/gitaai){:target="_blank" rel="noopener"}
