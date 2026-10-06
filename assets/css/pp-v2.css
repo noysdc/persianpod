@@ -1,0 +1,31 @@
+/* PersianPod v2: هدر وسط‌چین، لوگو، کارت‌ها (بعد از همه‌ی استایل‌ها بارگذاری می‌شود) */
+.pp-banner{display:none}
+.pp-hero{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;padding:26px 16px 8px;width:100%}
+.pp-hero-logo{display:block;line-height:0;text-decoration:none}
+.pp-hero-logo img{display:block;width:min(400px,78vw);height:auto;margin:0 auto}
+.pp-hero-text{margin:0;font-size:clamp(.95rem,2.4vw,1.1rem);font-weight:600;color:var(--mut);line-height:1.8;background:none;text-align:center}
+.pp-dk{display:none!important}
+:root[data-theme=dark] .pp-lt{display:none!important}
+:root[data-theme=dark] .pp-dk{display:block!important}
+body.reading .pp-hero-text{display:none}
+.pp-side-logo{width:84px;height:84px;padding:16px;margin:0 auto 10px;display:grid;place-items:center}
+.pp-side-logo img{width:100%;height:100%;object-fit:contain}
+
+/* کارت‌ها: ستونی؛ کاور بالا، نام و دسته زیرش */
+.pd-card{display:block!important;padding:0!important;border:0!important;background:none!important;border-radius:0!important;box-shadow:none!important;transform:none!important;gap:0}
+.pd-card .pd-logo{display:block;width:100%;height:auto;aspect-ratio:1;border-radius:14px}
+.pd-card .pd-body{display:block;width:100%;min-width:0;margin-top:8px}
+.pd-card .pd-body h3{display:block;margin:0;font-size:.9rem;line-height:1.6;overflow-wrap:anywhere}
+.pd-card .pd-meta{display:block;margin:0}
+.pd-card .pd-b{display:block;padding:0;border:0;font-size:.76rem}
+.pd-grid{grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:20px 14px}
+.pd-row .pd-card{flex:0 0 138px!important;min-width:138px}
+
+@media(max-width:1199px){.pp-hero-logo img{width:min(360px,76vw)}}
+@media(max-width:799px){
+  .pp-hero{padding-top:14px;gap:6px}
+  .pp-hero-logo img{width:min(300px,72vw)}
+  .pd-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 10px}
+  .pd-row .pd-card{flex:0 0 112px!important;min-width:112px}
+}
+@media(max-width:420px){.pd-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}

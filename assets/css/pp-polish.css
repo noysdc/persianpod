@@ -51,37 +51,3 @@ html[data-theme="dark"]{--cover-bg:#1c2620}
 .pp-suggest span{color:var(--mut);font-size:.9rem}
 .pp-suggest a{font-weight:700;text-decoration:none;border-bottom:2px solid var(--ring)}
 .pp-suggest a:hover{box-shadow:0 6px 14px -8px var(--glow)}
-
-
-/* ================= v2: هدر وسط‌چین، لوگو، کارت‌ها ================= */
-/* هدر: ستونی و کاملاً وسط‌چین (قبلاً لوگو و متن کنار هم می‌نشستند و گروه به یک سمت می‌رفت) */
-.pp-banner{display:none}
-.pp-hero{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;padding:26px 16px 8px}
-.pp-hero-logo{display:block;line-height:0;text-decoration:none}
-.pp-hero-logo img{display:block;width:min(400px,78vw);height:auto}
-.pp-hero-text{margin:0;font-size:clamp(.95rem,2.4vw,1.1rem);font-weight:600;color:var(--mut);line-height:1.8;background:none}
-/* نسخه‌ی روشن/تیره‌ی تصاویر انیمیشنی */
-.pp-dk{display:none!important}
-:root[data-theme=dark] .pp-lt{display:none!important}
-:root[data-theme=dark] .pp-dk{display:block!important}
-body.reading .pp-hero-text{display:none}
-@media(max-width:799px){.pp-hero{padding-top:16px;gap:6px}.pp-hero-logo img{width:min(320px,74vw)}}
-
-/* لوگوی کنار صفحه: دایره‌ی مرتب و متناسب با عرض ستون */
-.pp-side-logo{width:84px;height:84px;padding:16px;margin:0 auto 10px;display:grid;place-items:center}
-.pp-side-logo img{width:100%;height:100%;object-fit:contain}
-.pp-side-brand strong{margin-top:2px}
-
-/* کارت‌های فهرست: کوچک‌تر، و در ردیف‌های دسته هم ستونی (قبلاً متن کنار کاور له می‌شد) */
-.pd-card{display:block;padding:0;border:0;background:none;border-radius:0;box-shadow:none;transform:none;gap:0}
-.pd-card:hover,.pd-card:focus-visible{box-shadow:none;transform:none}
-.pd-grid{grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:20px 14px}
-.pd-row{gap:14px}
-.pd-row .pd-card{flex:0 0 138px}
-.pd-card .pd-logo{width:100%;max-width:100%;height:auto;aspect-ratio:1;border-radius:14px}
-.pd-card .pd-body h3{font-size:.9rem;line-height:1.6}
-.pd-card .pd-b{font-size:.76rem}
-@media(max-width:560px){
-  .pd-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 10px}
-  .pd-row .pd-card{flex:0 0 112px}
-}
