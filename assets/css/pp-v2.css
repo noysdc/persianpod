@@ -118,3 +118,23 @@ body.reading .pp-hero-text{display:none}
 .pd-reset{height:40px;margin-top:2px;border-color:rgba(8,203,0,.55);font-weight:700}
 .pd-reset:hover{background:#08cb00;color:#0b0e0c}
 @media(max-width:1199px){.pd-sep{grid-column:1 / -1}}
+
+/* ---- v7: بدون اسکرول داخلی در ستون‌های کناری ---- */
+.pp-side,.pp-filters-side{position:static;max-height:none;overflow:visible}
+.pp-cats{flex:none;min-height:0;height:auto}
+.pp-cats ul{overflow:visible;max-height:none;flex:none}
+.pp-cats a{padding:6px 12px}
+.pd-filters{gap:8px;padding:16px 14px}
+.pd-filters select,.pd-filters input[type=text]{height:36px}
+.pd-sep{margin:2px 0}
+
+/* ---- موبایل: دسته‌ها کوچک و یک‌ردیفه ---- */
+@media(max-width:799px){
+  .pp-cats{padding:0;margin:0}
+  .pp-cats ul{display:flex;flex-wrap:nowrap;gap:6px;overflow-x:auto;overflow-y:hidden;padding:2px 2px 6px;scrollbar-width:none}
+  .pp-cats ul::-webkit-scrollbar{display:none}
+  .pp-cats a{gap:6px;padding:3px 11px;font-size:.8rem;line-height:1.7;border-radius:999px}
+  .pp-cats .n{min-width:0;padding:0 6px;font-size:.7rem;line-height:1.6}
+  .pp-side-stats{display:none}
+  .pp-vector{display:none!important}
+}
