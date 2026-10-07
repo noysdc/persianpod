@@ -14,7 +14,7 @@ city: "تهران"
 start_year: 1403
 episode_count: 30
 frequency: "دو هفته یک‌بار"
-logo: "/assets/img/podcasts/1000frames.jpg"
+logo: "/assets/img/podcasts/1000frames.webp"
 castbox_id: "6129612"
 castbox_channel: "https://castbox.fm/ch/6129612"
 spotify: "https://open.spotify.com/show/6JEfNTQSC3Xa0kVjL2z55W"
