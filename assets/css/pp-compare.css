@@ -65,3 +65,25 @@
   .cp-head{grid-template-columns:1fr}.cp-hvs{display:none}
   .cp-tr-row{grid-template-columns:1fr}.cp-axis{padding-inline-start:0}
 }
+
+/* ===== موبایل: جدول مقایسه بدون اسکرول افقی =====
+   هر شاخص یک سطر کامل است و مقدار دو پادکست زیرش کنار هم می‌آید.
+   نام پادکست از data-p هر خانه خوانده می‌شود، پس سرستون لازم نیست. */
+@media(max-width:700px){
+  .cp{max-width:100%;overflow-x:clip}
+  .cp-card{padding:12px}
+  .cp-scroll{overflow:visible}
+  .cp-t{display:block;min-width:0;width:100%}
+  .cp-t thead{display:none}
+  .cp-t tbody{display:block}
+  .cp-t tr{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:12px;
+    padding:8px 0;border-bottom:1px solid var(--line)}
+  .cp-t th,.cp-t td{border-bottom:0;padding:0;min-width:0}
+  .cp-t .cp-g{border-bottom:0;padding:16px 0 0}
+  .cp-t .cp-g th{grid-column:1 / -1;padding:0 0 8px;border-bottom:2px solid var(--line)}
+  .cp-t tbody th[scope=row]{grid-column:1 / -1;width:auto;padding:0 0 6px}
+  .cp-t td{overflow-wrap:anywhere;word-break:break-word}
+  .cp-t td::before{content:attr(data-p);display:block;margin-bottom:2px;color:var(--mut);
+    font-size:.72rem;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cp-tip{font-size:.8rem}
+}

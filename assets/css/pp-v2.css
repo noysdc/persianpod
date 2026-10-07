@@ -221,3 +221,14 @@ body.reading .pp-hero-text{display:none}
 .pp-doc strong{font-weight:800}
 .pp-doc .pp-suggest{margin-top:2.6em}
 @media(max-width:640px){.pp-doc{padding:20px 16px 24px;border-radius:20px}}
+
+/* ================= موبایل: منوی اصلی جمع‌وجور (شبکه‌ی ۳ستونه) =================
+   «درباره‌ی ما» فقط در موبایل از منو برداشته می‌شود؛ لینکش زیر باکس حمایت (فوتر) هست. */
+@media(max-width:799px){
+  .pp-glass .pp-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;
+    flex:1 0 100%;order:3;justify-content:stretch;padding:4px 2px 2px}
+  .pp-glass .pp-nav a{display:flex;height:36px;padding:0 6px;font-size:.88rem;
+    border:1px solid var(--line);background:var(--card)}
+  .pp-glass .pp-nav a[href$="/about-us/"]{display:none}
+  .pp-glass .pp-nav a[aria-current=page]{border-color:#08cb00}
+}
