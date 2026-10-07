@@ -69,17 +69,34 @@
     var svg = host.querySelector("svg");
     var cPaths = svg.querySelectorAll(".c"), pPaths = svg.querySelectorAll(".p"), pinsG = svg.querySelector(".pins");
 
-    /* شهرها: مختصات، استان (با isPointInFill)، و شمارش پادکست */
+    /* تشخیص استان/کشور شهر با هندسه‌ی خود داده (مستقل از رندر مرورگر؛ isPointInFill روی عناصر با pointer-events:none جواب نمی‌دهد) */
+    function ringsOf(o) {
+      if (o._r) return o._r;
+      var out = [], re = /([Mlz])([^Mlz]*)/g, m, cur = null, x = 0, y = 0;
+      while ((m = re.exec(o.d))) {
+        var nums = m[2].match(/-?\d*\.?\d+(?:e-?\d+)?/g) || [];
+        if (m[1] === "M") { cur = []; out.push(cur); x = +nums[0]; y = +nums[1]; cur.push([x, y]); }
+        else if (m[1] === "l" && cur) for (var i = 0; i + 1 < nums.length; i += 2) { x += +nums[i]; y += +nums[i + 1]; cur.push([x, y]); }
+      }
+      return (o._r = out);
+    }
+    function inRings(rs, x, y) {
+      var ins = false;
+      rs.forEach(function (r) {
+        for (var i = 0, j = r.length - 1; i < r.length; j = i++)
+          if (((r[i][1] > y) !== (r[j][1] > y)) && (x < (r[j][0] - r[i][0]) * (y - r[i][1]) / (r[j][1] - r[i][1]) + r[i][0])) ins = !ins;
+      });
+      return ins;
+    }
+
+    /* شهرها: مختصات، استان و شمارش پادکست */
     var cityMap = {};
     cities.forEach(function (c) {
       if (typeof c.lat !== "number" || typeof c.lon !== "number") return;
       var xy = project(c.lon, c.lat);
       var o = { n: c.name, x: xy[0], y: xy[1], count: 0, prov: -1, iso: "" };
-      try {
-        var pt = new DOMPoint(o.x, o.y);
-        for (var i = 0; i < pPaths.length; i++) if (pPaths[i].isPointInFill(pt)) { o.prov = i; break; }
-        if (o.prov < 0) for (var j = 0; j < cPaths.length; j++) if (cPaths[j].isPointInFill(pt)) { o.iso = cPaths[j].dataset.iso; break; }
-      } catch (e) {}
+      for (var i = 0; i < map.provinces.length; i++) if (inRings(ringsOf(map.provinces[i]), o.x, o.y)) { o.prov = i; break; }
+      if (o.prov < 0) for (var j = 0; j < map.countries.length; j++) if (inRings(ringsOf(map.countries[j]), o.x, o.y)) { o.iso = map.countries[j].i || ""; break; }
       if (o.prov >= 0) o.iso = "IR";
       if (o.prov < 0 && o.iso === "IR") {                    // شهر ساحلی که کمی بیرون مرز افتاده: نزدیک‌ترین استان
         var best = 1e9;
@@ -121,21 +138,82 @@
       }
     });
 
-    /* پین شهرها (فقط شهرهای دارای پادکست) */
+    /* پین شهرها (فقط شهرهای دارای پادکست). اندازه‌ی دایره و نوشته را ui() بر پایه‌ی زوم تنظیم می‌کند */
     var pinHtml = "";
     Object.keys(cityMap).forEach(function (k) {
       var c = cityMap[k]; if (!c.count) return;
-      var r = (0.9 + Math.sqrt(c.count) * 0.35).toFixed(2);
       pinHtml += '<g class="pin' + (c.iso === "IR" ? " ir" : "") + '" data-city="' + esc(k) + '" tabindex="-1" role="button" aria-label="' + esc(c.n) + "، " + toFa(c.count) + ' پادکست">' +
-        '<circle cx="' + c.x.toFixed(2) + '" cy="' + c.y.toFixed(2) + '" r="' + r + '"/>' +
-        '<text x="' + c.x.toFixed(2) + '" y="' + (c.y - r - 0.7).toFixed(2) + '">' + esc(c.n) + "</text></g>";
+        '<circle cx="' + c.x.toFixed(2) + '" cy="' + c.y.toFixed(2) + '" r="1"/>' +
+        '<text x="' + c.x.toFixed(2) + '" y="' + c.y.toFixed(2) + '">' + esc(c.n) + "</text></g>";
     });
     pinsG.innerHTML = pinHtml;
+    var pinEls = [];
+    pinsG.querySelectorAll(".pin").forEach(function (g) {
+      var c = cityMap[g.dataset.city];
+      pinEls.push({ g: g, c: c, circle: g.querySelector("circle"), text: g.querySelector("text") });
+    });
+    var pLabelEls = [];
+    svg.querySelectorAll(".plabels text").forEach(function (t, i) {
+      pLabelEls.push({ t: t, x: map.provinces[i].lx, y: map.provinces[i].ly, n: map.provinces[i].n, has: !!provCount[i] });
+    });
 
     /* دوربین */
     var BASE = svg.getAttribute("viewBox").split(" ").map(Number);
     var cur = BASE.slice(), zoomed = false, anim = null, autoDone = false;
-    function setView(v) { cur = v; svg.setAttribute("viewBox", v.map(function (x) { return +x.toFixed(2); }).join(" ")); }
+    function setView(v) { cur = v; svg.setAttribute("viewBox", v.map(function (x) { return +x.toFixed(2); }).join(" ")); ui(); }
+
+    /* اندازه‌ها بر حسب پیکسل صفحه ثابت می‌مانند، هر قدر زوم کنیم (واحد SVG ÷ پیکسل = k) */
+    function viewScale() {
+      var cw = host.clientWidth || 800, ch = host.clientHeight || 450, sc = Math.min(cw / cur[2], ch / cur[3]);
+      return { s: sc, cw: cw, ch: ch, ox: (cw - cur[2] * sc) / 2, oy: (ch - cur[3] * sc) / 2 };
+    }
+    function sizes() { var narrow = (host.clientWidth || 800) < 520; return { pin: narrow ? 0.85 : 1, fc: narrow ? 10.5 : 11.5, fp: narrow ? 9.5 : 10.5 }; }
+    function pinR(c, z) { return Math.min(10, 4.5 + Math.sqrt(Math.max(c.count - 1, 0)) * 1.6) * z; }
+    function ui() {
+      var v = viewScale(), k = 1 / v.s, z = sizes();
+      host.style.setProperty("--fp", (z.fp * k).toFixed(3) + "px");
+      host.style.setProperty("--fc", (z.fc * k).toFixed(3) + "px");
+      host.style.setProperty("--halo", (3 * k).toFixed(3) + "px");
+      pinEls.forEach(function (p) {
+        var r = pinR(p.c, z.pin) * k;
+        p.circle.setAttribute("r", r.toFixed(3));
+        p.text.setAttribute("y", (p.c.y - r - 3 * k).toFixed(3));
+      });
+    }
+    /* چیدن نوشته‌ها بدون هم‌پوشانی: اول دایره‌ها، بعد نام شهرها، بعد نام استان‌ها در جاهای خالی */
+    function layoutLabels() {
+      if (!zoomed) return;
+      var v = viewScale(), z = sizes(), placed = [];
+      function px(x, y) { return [(x - cur[0]) * v.s + v.ox, (y - cur[1]) * v.s + v.oy]; }
+      function toY(ypx) { return cur[1] + (ypx - v.oy) / v.s; }
+      function hit(b) {
+        if (b[0] < 2 || b[1] < 2 || b[2] > v.cw - 2 || b[3] > v.ch - 2) return true;
+        for (var i = 0; i < placed.length; i++) { var q = placed[i]; if (b[0] < q[2] && b[2] > q[0] && b[1] < q[3] && b[3] > q[1]) return true; }
+        return false;
+      }
+      var pins = pinEls.slice().sort(function (a, b) { return b.c.count - a.c.count; });
+      pins.forEach(function (p) {
+        var q = px(p.c.x, p.c.y), r = pinR(p.c, z.pin);
+        p.q = q; p.r = r; placed.push([q[0] - r - 1, q[1] - r - 1, q[0] + r + 1, q[1] + r + 1]);
+      });
+      pins.forEach(function (p) {
+        var w = p.c.n.length * z.fc * 0.58 + 8, h = z.fc + 5, q = p.q, r = p.r;
+        var up = [q[0] - w / 2, q[1] - r - 2 - h, q[0] + w / 2, q[1] - r - 2];
+        var dn = [q[0] - w / 2, q[1] + r + 2, q[0] + w / 2, q[1] + r + 2 + h];
+        var b = !hit(up) ? up : (!hit(dn) ? dn : null);
+        if (!b) { p.text.style.display = "none"; return; }
+        p.text.style.display = "";
+        p.text.setAttribute("y", toY(b === up ? q[1] - r - 4 : q[1] + r + 2 + z.fc).toFixed(3));
+        placed.push(b);
+      });
+      pLabelEls.slice().sort(function (a, b) { return (b.has ? 1 : 0) - (a.has ? 1 : 0); }).forEach(function (p) {
+        var q = px(p.x, p.y), w = p.n.length * z.fp * 0.58 + 6, h = z.fp + 4;
+        var b = [q[0] - w / 2, q[1] - h / 2, q[0] + w / 2, q[1] + h / 2];
+        if (hit(b)) { p.t.style.display = "none"; return; }
+        p.t.style.display = ""; placed.push(b);
+      });
+      host.classList.add("laid");
+    }
     function flyTo(target, done) {
       cancelAnimationFrame(anim);
       if (reduce) { setView(target); if (done) done(); return; }
@@ -162,12 +240,13 @@
       hint.textContent = z ? "استان‌ها و شهرهای سبز پادکستر دارند. روی هرکدام بزنید تا فهرست همان منطقه باز شود."
                            : "کشورهای سبز پادکستر دارند. با کلیک روی هر کشور، فهرست همان کشور باز می‌شود.";
     }
-    function zoomIran() { setMode(true); flyTo(iranView()); }
-    function zoomWorld() { setMode(false); flyTo(BASE); }
+    function zoomIran() { host.classList.remove("laid"); setMode(true); flyTo(iranView(), layoutLabels); }
+    function zoomWorld() { host.classList.remove("laid"); setMode(false); flyTo(BASE); }
     backBtn.addEventListener("click", zoomWorld);
     iranBtn.addEventListener("click", zoomIran);
     iranBtn.hidden = false;
-    window.addEventListener("resize", function () { if (zoomed) setView(iranView()); });
+    window.addEventListener("resize", function () { if (zoomed) { setView(iranView()); layoutLabels(); } else ui(); });
+    ui();
 
     /* ورود به دید: یک‌بار خودکار روی ایران زوم کن */
     if ("IntersectionObserver" in window) {

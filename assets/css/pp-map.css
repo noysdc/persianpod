@@ -15,20 +15,27 @@
 .pp-map .c.has:hover,.pp-map .c.has:focus-visible{fill:#00ff9c;outline:none}
 .pp-map .c.dim{opacity:.28}
 .pp-map .provinces{opacity:0;pointer-events:none;transition:opacity .7s ease .3s}
-.pp-map .p{fill:var(--card);stroke:var(--mut);stroke-width:.8;vector-effect:non-scaling-stroke;stroke-linejoin:round;transition:fill .2s ease}
-.pp-map .p.has{fill:rgba(8,203,0,.38);cursor:pointer}
-.pp-map .p.has:hover,.pp-map .p.has:focus-visible{fill:rgba(0,255,156,.65);outline:none}
+.pp-map .p{fill:var(--card);stroke:var(--mut);stroke-opacity:.45;stroke-width:.7;vector-effect:non-scaling-stroke;stroke-linejoin:round;transition:fill .2s ease}
+.pp-map .p.has{fill:#c9efc6;stroke:#08cb00;stroke-opacity:.75;cursor:pointer}
+[data-theme=dark] .pp-map .p.has{fill:#1d4a22}
+.pp-map .p.has:hover,.pp-map .p.has:focus-visible{fill:#9df0a8;outline:none}
+[data-theme=dark] .pp-map .p.has:hover,[data-theme=dark] .pp-map .p.has:focus-visible{fill:#2b6b33}
 .pp-map .plabels{opacity:0;pointer-events:none;transition:opacity .7s ease .5s}
-.pp-map .plabels text{font-family:Vazirmatn,sans-serif;font-size:1.5px;font-weight:700;text-anchor:middle;dominant-baseline:middle;fill:var(--ink);paint-order:stroke;stroke:var(--card);stroke-width:.35px;stroke-linejoin:round}
+.pp-map .plabels text{font-family:Vazirmatn,sans-serif;font-size:var(--fp,1.5px);font-weight:600;text-anchor:middle;dominant-baseline:middle;fill:var(--ink);fill-opacity:.8;paint-order:stroke;stroke:var(--card);stroke-width:var(--halo,.35px);stroke-linejoin:round}
 .pp-map .pins{opacity:0;pointer-events:none;transition:opacity .6s ease .7s}
 .pp-map.zoomed .provinces,.pp-map.zoomed .plabels,.pp-map.zoomed .pins{opacity:1;pointer-events:auto}
 .pp-map.zoomed .plabels{pointer-events:none}
 .pp-map .pin{cursor:pointer}
-.pp-map .pin circle{fill:#04210a;stroke:#00ff9c;stroke-width:1.6;vector-effect:non-scaling-stroke;filter:drop-shadow(0 0 2px rgba(0,255,156,.8))}
-.pp-map .pin:hover circle,.pp-map .pin:focus-visible circle{stroke:#fff;outline:none}
-.pp-map .pin text{font-family:Vazirmatn,sans-serif;font-size:1.7px;font-weight:800;text-anchor:middle;fill:var(--ink);paint-order:stroke;stroke:var(--card);stroke-width:.4px}
+.pp-map .pin circle{fill:#08cb00;stroke:var(--card);stroke-width:2;vector-effect:non-scaling-stroke;filter:drop-shadow(0 1px 3px rgba(0,0,0,.35));transition:fill .2s ease}
+.pp-map .pin:hover circle,.pp-map .pin:focus-visible circle{fill:#00ff9c;stroke-width:3;outline:none}
+.pp-map .pin text{font-family:Vazirmatn,sans-serif;font-size:var(--fc,1.7px);font-weight:700;text-anchor:middle;fill:var(--ink);paint-order:stroke;stroke:var(--card);stroke-width:var(--halo,.4px);stroke-linejoin:round;pointer-events:none}
+/* نوشته‌ها تا پایان چیدمان پنهان می‌مانند تا یک لحظه روی هم نیفتند */
+.pp-map .plabels text,.pp-map .pin text{transition:opacity .35s ease}
+.pp-map:not(.laid) .plabels text,.pp-map:not(.laid) .pin text{opacity:0}
 .pp-map-tip{position:fixed;z-index:90;padding:6px 12px;border-radius:12px;background:var(--ink);color:var(--bg);font-size:.85rem;font-weight:700;pointer-events:none}
 .pp-map-tip[hidden]{display:none}
 .pp-map-err{padding:2rem;text-align:center;color:var(--mut)}
 @media(max-width:799px){.pp-map{aspect-ratio:1/1}.pp-map-section{padding:14px 12px}}
 @media(prefers-reduced-motion:reduce){.pp-map .provinces,.pp-map .plabels,.pp-map .pins{transition:none}}
+/* در نمای ایران، رنگ سبز کل کشور کنار می‌رود تا فقط استان‌های پادکستر دار سبز دیده شوند */
+.pp-map.zoomed .c.has[data-iso="IR"]{fill:var(--card);filter:none}
