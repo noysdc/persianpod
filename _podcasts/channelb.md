@@ -4,6 +4,7 @@ title: "چنل بی؛ گزارش‌های بلند، این بار قصه می�
 title_en: "ChannelB"
 slug: channelb
 category: جنایی
+subcategories: ["قصه گویی", "روایت مستند"]
 host: علی بندری
 city: اسلو
 country: نروژ

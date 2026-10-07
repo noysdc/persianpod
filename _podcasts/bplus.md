@@ -3,7 +3,8 @@ layout: post
 title: "بی پلاس؛ قدم‌های کوچک در راه کنجکاوی‌های بزرگ"
 title_en: "Bplus"
 slug: bplus
-category: کتاب
+category: آموزشی
+subcategories: ["ادبیات و کتاب", "علمی و تاریخی"]
 host: علی بندری
 city: اسلو
 country: نروژ
