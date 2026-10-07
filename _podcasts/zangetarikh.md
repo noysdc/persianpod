@@ -14,7 +14,7 @@ city: "اردبیل"
 start_year: 1399
 episode_count: 89
 frequency: "ماهانه"
-logo: "/assets/img/podcasts/zangetarikh.jpg"
+logo: "/assets/img/podcasts/zangetarikh.webp"
 castbox_id: "4850469"
 castbox_channel: "https://castbox.fm/ch/4850469"
 instagram: "https://instagram.com/zangetarikhpodcast"

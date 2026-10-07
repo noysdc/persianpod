@@ -14,7 +14,7 @@ city: "کیش"
 start_year: 1405
 episode_count: 3
 frequency: "نامنظم"
-logo: "/assets/img/podcasts/noys.jpg"
+logo: "/assets/img/podcasts/noys.webp"
 castbox_id: "7361321"
 castbox_channel: "https://castbox.fm/ch/7361321"
 instagram: "https://instagram.com/noysdc"

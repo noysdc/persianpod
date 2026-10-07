@@ -10,7 +10,7 @@ country: ایران
 started: 1402
 episodes: 59
 schedule: ماهانه
-logo: /assets/img/podcasts/radiodoor.jpg
+logo: /assets/img/podcasts/radiodoor.webp
 castbox_id: "7414995"
 castbox_channel: "https://castbox.fm/ch/7414995"
 spotify: ""

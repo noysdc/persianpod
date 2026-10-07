@@ -14,7 +14,7 @@ city: "اصفهان"
 start_year: 1405
 episode_count: 2
 frequency: "دو هفته یک‌بار"
-logo: "/assets/img/podcasts/shenakht.png"
+logo: "/assets/img/podcasts/shenakht.webp"
 castbox_id: "7417154"
 castbox_channel: "https://castbox.fm/ch/7417154"
 instagram: "https://instagram.com/nima_a.g.h"

@@ -11,7 +11,7 @@ country: نروژ
 started: 1394
 episodes: 105
 schedule: نامنظم (بر اساس کامل شدن تحقیق‌ها)
-logo: /assets/img/podcasts/channelb.jpg
+logo: /assets/img/podcasts/channelb.webp
 castbox_id: "2356600"
 castbox_channel: "https://castbox.fm/ch/2356600"
 spotify: ""

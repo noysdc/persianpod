@@ -11,7 +11,7 @@ country: نروژ
 started: 1397
 episodes: 294
 schedule: دو هفته یک بار
-logo: /assets/img/podcasts/bplus.png
+logo: /assets/img/podcasts/bplus.webp
 castbox_id: "5656367"
 castbox_channel: "https://castbox.fm/ch/5656367"
 spotify: "https://open.spotify.com/show/2PmMxFZ4OIW5DoUY1rRBB7"

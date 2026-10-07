@@ -14,7 +14,7 @@ city: "تهران"
 start_year: 1400
 episode_count: 47
 frequency: "ماهانه"
-logo: "/assets/img/podcasts/boutigha.png"
+logo: "/assets/img/podcasts/boutigha.webp"
 castbox_id: "4910844"
 castbox_channel: "https://castbox.fm/ch/4910844"
 youtube: "https://www.youtube.com/@BoutighaPodcast"
