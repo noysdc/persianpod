@@ -1,5 +1,5 @@
 /* PersianPod: صفحه‌ی مقایسه. بدون رنگ «برنده»؛ هر دو پادکست یکسان نمایش داده می‌شوند. */
-.cp-pick{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:start;margin-top:14px}
+.cp-pick{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:14px;align-items:start;margin-top:14px}
 .cp-vs{align-self:center;color:var(--mut);font-size:.9rem;padding-top:26px}
 .cp-slot label{display:block;margin:0 0 6px;font-weight:700}
 .cp-box{position:relative}
@@ -61,7 +61,7 @@
 .cp-method h2{font-size:1.2rem}.cp-method h3{font-size:1rem;margin:16px 0 4px}
 
 @media(max-width:700px){
-  .cp-pick{grid-template-columns:1fr}.cp-vs{display:none}
+  .cp-pick{grid-template-columns:minmax(0,1fr)}.cp-vs{display:none}
   .cp-head{grid-template-columns:1fr}.cp-hvs{display:none}
   .cp-tr-row{grid-template-columns:1fr}.cp-axis{padding-inline-start:0}
 }
@@ -87,3 +87,4 @@
     font-size:.72rem;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .cp-tip{font-size:.8rem}
 }
+.cp-slot{min-width:0}

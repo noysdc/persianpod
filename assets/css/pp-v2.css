@@ -256,3 +256,18 @@ body.reading .pp-hero-text{display:none}
 .pd-clear{margin-inline-start:auto;border:0;background:transparent;color:var(--acc);font:inherit;font-weight:700;cursor:pointer;text-decoration:underline}
 @keyframes pd-pulse{0%{box-shadow:0 0 0 0 rgba(8,203,0,.55)}100%{box-shadow:0 0 0 14px rgba(8,203,0,0)}}
 @media(prefers-reduced-motion:reduce){.pd-summary.pulse{animation:none}}
+
+/* ================= منوی بالای صفحه: چیدمان تمیز در دسکتاپ و تبلت =================
+   دسکتاپ (۹۰۰ پیکسل به بالا): همه‌چیز در یک ردیف، با جای کافی برای جست‌وجو.
+   تبلت باریک (۸۰۰ تا ۸۹۹): ردیف اول منو، ردیف دوم جست‌وجو و ابزارها. */
+@media(min-width:900px){
+  .pp-glass{max-width:980px}
+  .pp-nav,.pp-tools{flex:0 0 auto}
+  .pp-search{flex:1 1 180px;min-width:150px}
+}
+@media(min-width:800px) and (max-width:899px){
+  .pp-glass{flex-wrap:wrap}
+  .pp-nav{order:1;flex:1 0 100%;justify-content:space-between}
+  .pp-search{order:2;flex:1 1 200px}
+  .pp-tools{order:3}
+}
