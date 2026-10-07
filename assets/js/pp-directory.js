@@ -254,6 +254,42 @@
   var timer = null;
   function schedule() { clearTimeout(timer); timer = setTimeout(render, 90); }
 
+  /* ---------- بازخورد نتیجه: خلاصه‌ی بالای نتایج + دکمه‌ی «نمایش N پادکست» ---------- */
+  function ensureSummary() {
+    var s = $("#pd-summary");
+    if (!s) {
+      s = document.createElement("div");
+      s.id = "pd-summary"; s.className = "pd-summary"; s.hidden = true;
+      s.setAttribute("role", "status"); s.setAttribute("aria-live", "polite");
+      var c = $("#pd-chips"); c.parentNode.insertBefore(s, c);
+      s.addEventListener("click", function (e) { if (e.target.closest(".pd-clear")) resetAll(); });
+    }
+    return s;
+  }
+  function summary(n, filtered) {
+    var s = ensureSummary(), ap = $("#pd-apply");
+    if (ap) { ap.disabled = !n; ap.textContent = n ? "نمایش " + toFa(n) + " پادکست" : "پادکستی پیدا نشد"; }
+    s.hidden = !filtered;
+    if (!filtered) return;
+    s.innerHTML = n ? "<b>" + toFa(n) + " پادکست</b> مطابق جست‌وجوی شما" : "پادکستی با این انتخاب‌ها پیدا نشد";
+    s.innerHTML += ' <button type="button" class="pd-clear">پاک‌کردن همه</button>';
+    s.classList.remove("pulse"); void s.offsetWidth; s.classList.add("pulse");
+  }
+  function scrollToResults() {
+    var s = $("#pd-summary"), t = (s && !s.hidden) ? s : out;
+    var bar = $(".pp-bar"), off = (bar ? bar.getBoundingClientRect().height : 80) + 14;
+    window.scrollTo({ top: Math.max(0, t.getBoundingClientRect().top + window.pageYOffset - off), behavior: "smooth" });
+  }
+  function applyFilters() {
+    render();
+    if (window.innerWidth < 1200) {
+      var aside = $("#pd-aside"), tg = $("#pd-ftoggle");
+      if (aside) aside.classList.remove("open");
+      if (tg) tg.setAttribute("aria-expanded", "false");
+      scrollToResults();
+    }
+  }
+
   function render() {
     var f = read();
     var list = sortList(data.filter(function (p) { return match(p, f); }), f.sort);
@@ -293,6 +329,7 @@
     $("#pd-similar").innerHTML = sim.map(card).join("");
 
     chips(f);
+    summary(list.length, filtered);
     updateCategories(f);
     var n = advancedCount(f), fc = $("#pd-fcount");
     if (fc) { fc.hidden = !n; fc.textContent = toFa(n); }
@@ -376,11 +413,12 @@
     var form = $("#pd-filters");
     form.addEventListener("input", schedule);
     form.addEventListener("change", render);
-    form.addEventListener("submit", function (e) { e.preventDefault(); });
+    form.addEventListener("submit", function (e) { e.preventDefault(); applyFilters(); });
+    var ap = $("#pd-apply"); if (ap) ap.addEventListener("click", applyFilters);
     $("#f-reset").addEventListener("click", resetAll);
     if (els.q) {
       els.q.addEventListener("input", schedule);
-      var qf = els.q.form; if (qf) qf.addEventListener("submit", function (e) { e.preventDefault(); render(); });
+      var qf = els.q.form; if (qf) qf.addEventListener("submit", function (e) { e.preventDefault(); render(); if (window.innerWidth < 1200) scrollToResults(); });
     }
     $$(".pp-cats a").forEach(function (a) {
       a.addEventListener("click", function (e) {

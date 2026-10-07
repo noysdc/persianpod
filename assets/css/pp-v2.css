@@ -231,17 +231,28 @@ body.reading .pp-hero-text{display:none}
     border:1px solid var(--line);background:var(--card)}
   .pp-glass .pp-nav a[href$="/about-us/"]{display:none}
   .pp-glass .pp-nav a[aria-current=page]{border-color:#08cb00}
-  /* دکمه‌ی اصلی سایت: ثبت پادکست */
-  .pp-glass .pp-nav a[href$="/form/"]{background:#08cb00;border-color:#08cb00;color:#0b0e0c;font-weight:800;
-    box-shadow:0 6px 18px var(--glow-soft)}
 }
 
-/* ================= دسکتاپ و تبلت (۸۰۰ پیکسل به بالا): دکمه‌ی «ثبت پادکست» =================
-   صفحه‌ی فعال در این عرض‌ها سبزِ توپر است، پس دکمه‌ی ثبت با دورخط و درخشش سبز متمایز می‌شود. */
-@media(min-width:800px){
-  .pp-glass .pp-nav a[href$="/form/"]{color:#067a00;font-weight:800;
-    box-shadow:inset 0 0 0 2px #08cb00,0 6px 18px var(--glow-soft)}
-  [data-theme=dark] .pp-glass .pp-nav a[href$="/form/"]{color:#08cb00}
-  .pp-glass .pp-nav a[href$="/form/"]:hover,
-  .pp-glass .pp-nav a[href$="/form/"][aria-current=page]{background:#08cb00;color:#0b0e0c}
+/* ================= دکمه‌ی «ثبت پادکست» در منو: هایلات نرم (موبایل، تبلت، دسکتاپ) ================= */
+.pp-glass .pp-nav a[href$="/form/"]{background:rgba(8,203,0,.10);color:var(--ink);font-weight:700;
+  box-shadow:inset 0 0 0 1px rgba(8,203,0,.45)}
+.pp-glass .pp-nav a[href$="/form/"]:hover{background:rgba(8,203,0,.18)}
+.pp-glass .pp-nav a[href$="/form/"][aria-current=page]{background:#08cb00;color:#0b0e0c;box-shadow:none}
+@media(max-width:799px){.pp-glass .pp-nav a[href$="/form/"]{border-color:transparent}}
+
+/* ================= جست‌وجوی پیشرفته: بازخورد روشن برای نتیجه (موبایل و تبلت) ================= */
+.pd-apply{display:none}
+@media(max-width:1199px){
+  .pd-apply{display:flex;grid-column:1 / -1;position:sticky;bottom:12px;z-index:5;align-items:center;justify-content:center;
+    min-height:46px;padding:0 20px;border:0;border-radius:999px;background:#08cb00;color:#0b0e0c;font:inherit;font-weight:800;cursor:pointer;
+    box-shadow:0 8px 22px -6px rgba(0,0,0,.35)}
+  .pd-apply:disabled{opacity:.55;cursor:not-allowed}
+  .pd-apply:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
 }
+.pd-summary{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin:12px 0 0;padding:10px 14px;
+  border:1px solid rgba(8,203,0,.45);border-radius:16px;background:rgba(8,203,0,.08);font-size:.92rem}
+.pd-summary[hidden]{display:none}
+.pd-summary.pulse{animation:pd-pulse 1.1s ease}
+.pd-clear{margin-inline-start:auto;border:0;background:transparent;color:var(--acc);font:inherit;font-weight:700;cursor:pointer;text-decoration:underline}
+@keyframes pd-pulse{0%{box-shadow:0 0 0 0 rgba(8,203,0,.55)}100%{box-shadow:0 0 0 14px rgba(8,203,0,0)}}
+@media(prefers-reduced-motion:reduce){.pd-summary.pulse{animation:none}}
