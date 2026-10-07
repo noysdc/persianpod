@@ -286,6 +286,7 @@
     if (x.v === "email" && !EMAIL_RE.test(v)) problems.push([el, "ایمیل معتبر نیست؛ مثلاً name@example.com"]);
     else if (x.v === "url" && !validUrl(normUrl(v))) problems.push([el, "لینک معتبر نیست؛ باید با https:// شروع شود یا آدرس سایت باشد."]);
     else if (x.v === "embed" && !validUrl(embedSrc(v))) problems.push([el, "امبد معتبر نیست؛ کد iframe یا لینک Embed را بچسبانید."]);
+    else if (x.v === "castbox" && !/castbox\.fm\/(?:ch|channel|vh)\/[^\s\/?#]*\d{4,}/i.test(digits(v)) && !/^\D{0,3}\d{4,}\D{0,3}$/.test(digits(v))) problems.push([el, "لینک یا شناسه‌ی Castbox معتبر نیست؛ مثلاً https://castbox.fm/channel/id1234567"]);
     else if (x.v === "latin" && !/[A-Za-z]/.test(v)) problems.push([el, "نام انگلیسی را با حروف لاتین بنویسید."]);
     return problems;
   }
