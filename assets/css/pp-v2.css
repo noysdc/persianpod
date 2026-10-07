@@ -235,3 +235,13 @@ body.reading .pp-hero-text{display:none}
   .pp-glass .pp-nav a[href$="/form/"]{background:#08cb00;border-color:#08cb00;color:#0b0e0c;font-weight:800;
     box-shadow:0 6px 18px var(--glow-soft)}
 }
+
+/* ================= دسکتاپ و تبلت (۸۰۰ پیکسل به بالا): دکمه‌ی «ثبت پادکست» =================
+   صفحه‌ی فعال در این عرض‌ها سبزِ توپر است، پس دکمه‌ی ثبت با دورخط و درخشش سبز متمایز می‌شود. */
+@media(min-width:800px){
+  .pp-glass .pp-nav a[href$="/form/"]{color:#067a00;font-weight:800;
+    box-shadow:inset 0 0 0 2px #08cb00,0 6px 18px var(--glow-soft)}
+  [data-theme=dark] .pp-glass .pp-nav a[href$="/form/"]{color:#08cb00}
+  .pp-glass .pp-nav a[href$="/form/"]:hover,
+  .pp-glass .pp-nav a[href$="/form/"][aria-current=page]{background:#08cb00;color:#0b0e0c}
+}
