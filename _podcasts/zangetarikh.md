@@ -17,6 +17,7 @@ frequency: "ماهانه"
 logo: "/assets/img/podcasts/zangetarikh.webp"
 castbox_id: "4850469"
 castbox_channel: "https://castbox.fm/ch/4850469"
+rss: "https://feeds.acast.com/public/shows/624017fbb07b8a00124d6eee?results=1&type=alexa-flash-brief"
 instagram: "https://instagram.com/zangetarikhpodcast"
 telegram: "https://t.me/zangetarikhpodcast"
 collab: true
