@@ -4,6 +4,7 @@ title: "پادکست توسعه فردی"
 title_en: "Self-growth Podcast"
 slug: self-growth-podcast
 category: روانشناسی
+subcategories: ["روانشناسی اجتماعی","روانشناسی شناختی","خودشناسی و رشد"]
 host: پوریا احمدی
 city: رشت
 country: ایران
