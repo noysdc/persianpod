@@ -1,4 +1,98 @@
 {
+  "ismcast": {
+    "avg_gap_days": 11.4,
+    "avg_length": 29,
+    "episodes": 12,
+    "eps_365": 12,
+    "eps_90": 4,
+    "first_year": 1405,
+    "last": "1405/06/14",
+    "last_at": "2026-09-05T18:31:41Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/wisp-of1/episodes/ep-e3ocsfo",
+    "last_title": "آنارشیسم",
+    "max_length": 50,
+    "median_length": 30,
+    "min_length": 10,
+    "recent": [
+      {
+        "at": "2026-09-05T18:31:41Z",
+        "link": "https://podcasters.spotify.com/pod/show/wisp-of1/episodes/ep-e3ocsfo",
+        "title": "آنارشیسم"
+      },
+      {
+        "at": "2026-08-21T08:44:19Z",
+        "link": "https://podcasters.spotify.com/pod/show/wisp-of1/episodes/ep-e3nmnm4",
+        "title": "توتالیتاریسم"
+      },
+      {
+        "at": "2026-08-13T10:46:44Z",
+        "link": "https://podcasters.spotify.com/pod/show/wisp-of1/episodes/ep-e3nboiv",
+        "title": "نازیسم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      4,
+      2,
+      1,
+      3,
+      0
+    ],
+    "status": "active"
+  },
+  "mimmpodcast": {
+    "avg_gap_days": 38.9,
+    "avg_length": 68,
+    "episodes": 58,
+    "eps_365": 9,
+    "eps_90": 2,
+    "first_year": 1397,
+    "last": "1405/06/28",
+    "last_at": "2026-09-19T06:19:53Z",
+    "last_link": "https://rss.audiyacreators.one/cmhwe10fp49z7yriygrn1",
+    "last_title": "سال‌های گم‌شده‌ی بنجامین کایل",
+    "max_length": 101,
+    "median_length": 69,
+    "min_length": 4,
+    "recent": [
+      {
+        "at": "2026-09-19T06:19:53Z",
+        "link": "https://rss.audiyacreators.one/cmhwe10fp49z7yriygrn1",
+        "title": "سال‌های گم‌شده‌ی بنجامین کایل"
+      },
+      {
+        "at": "2026-08-15T19:50:29Z",
+        "link": "https://rss.audiyacreators.one/cmhwe10fp49z7yriygrn1",
+        "title": "عملیات هذیان"
+      },
+      {
+        "at": "2026-07-07T09:55:57Z",
+        "link": "https://rss.audiyacreators.one/cmhwe10fp49z7yriygrn1",
+        "title": "زندگی واقعی دیوید رایمر"
+      }
+    ],
+    "recent_30d": [
+      1,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "status": "active"
+  },
   "noys": {
     "avg_gap_days": 17.0,
     "avg_length": 110,
@@ -42,6 +136,53 @@
       0,
       0,
       2,
+      1
+    ],
+    "status": "active"
+  },
+  "women-in-science": {
+    "avg_gap_days": 81.8,
+    "avg_length": 45,
+    "episodes": 17,
+    "eps_365": 5,
+    "eps_90": 2,
+    "first_year": 1403,
+    "last": "1405/06/28",
+    "last_at": "2026-09-19T06:54:50Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/wisp-of/episodes/ep-e3ovrrt",
+    "last_title": "ناجی پاندمی| زندگینامه کاتالین کاریکو",
+    "max_length": 81,
+    "median_length": 44,
+    "min_length": 3,
+    "recent": [
+      {
+        "at": "2026-09-19T06:54:50Z",
+        "link": "https://podcasters.spotify.com/pod/show/wisp-of/episodes/ep-e3ovrrt",
+        "title": "ناجی پاندمی| زندگینامه کاتالین کاریکو"
+      },
+      {
+        "at": "2026-07-25T21:37:18Z",
+        "link": "https://podcasters.spotify.com/pod/show/wisp-of/episodes/ep-e3mhthr",
+        "title": "خبر ویژه رویداد بزرگ زیست شناسی، گفت‌وگوی زنده با برنده نوبل پزشکی؛ از «نه» تا نوبل"
+      },
+      {
+        "at": "2026-05-23T13:53:08Z",
+        "link": "https://podcasters.spotify.com/pod/show/wisp-of/episodes/ep-e3jpok5",
+        "title": "قسمت سیزده‌ونیم| پیش پرده پرونده استثناها"
+      }
+    ],
+    "recent_30d": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
       1
     ],
     "status": "active"
