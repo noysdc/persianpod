@@ -166,7 +166,6 @@ collab_types: "اسپانسری قسمت، همکاری محتوایی، دعو�
 - [وب‌سایت زنان در علم](https://zanandarelm.ir){:target="_blank" rel="noopener"}
 - [اینستاگرام زنان در علم](https://www.instagram.com/women_in_science_podcast){:target="_blank" rel="noopener"}
 - [تلگرام زنان در علم](https://t.me/wispodcast){:target="_blank" rel="noopener"}
-- [ایمیل زنان در علم](mailto:mehrnoushmojabi@gmail.com)
 - [فید RSS زنان در علم](https://anchor.fm/s/10737019c/podcast/rss){:target="_blank" rel="noopener"}
 - [کانال یوتیوب زنان در علم](https://youtube.com/@women_in_science){:target="_blank" rel="noopener"}
 - [اسپاتیفای زنان در علم](https://open.spotify.com/show/4uQtDJonsC1UlvLufd5UJZ){:target="_blank" rel="noopener"}
