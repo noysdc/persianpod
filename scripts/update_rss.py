@@ -3,7 +3,7 @@
 برای هر فایل _podcasts/<slug>.md که فیلد rss: دارد:
   episodes (تعداد)، avg_length (دقیقه)، first_year (شمسی)، last (تاریخ آخرین قسمت، شمسی)، status
 فقط با کتابخانه‌ی استاندارد پایتون + PyYAML."""
-import json, statistics, sys, urllib.request
+import gzip, json, re, statistics, sys, time, urllib.error, urllib.request
 import datetime as dt
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
@@ -15,7 +15,15 @@ PODCASTS = ROOT / "_podcasts"
 OUT = ROOT / "_data" / "rss_stats.json"
 INACTIVE_AFTER_DAYS = 1095    # بدون قسمت جدید بیش از ۳ سال = غیرفعال
 RECENT_FOR_AVG = 30           # میانگین طول از چند قسمت آخر
-UA = "PersianPodBot/1.0 (+https://persianpod.ir)"
+ERRORS = ROOT / "_data" / "rss_errors.json"
+# بعضی میزبان‌ها (Anchor، Audiya و…) به User-Agent ربات یا IP سرورهای ابری جواب ۴۰۳ می‌دهند؛
+# پس چند هویت را به‌ترتیب امتحان می‌کنیم.
+UAS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Mozilla/5.0 (compatible; PodcastFeedReader/1.0; +https://persianpod.ir)",
+    "PersianPodBot/1.0 (+https://persianpod.ir)",
+]
+ACCEPT = "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5"
 
 
 def g2j(gy, gm, gd):
@@ -56,19 +64,72 @@ def parse_duration(s):
         return 0
 
 
+def fetch(feed_url):
+    """دریافت فید با چند User-Agent و دو بار تلاش؛ خطای آخر با جزئیات برمی‌گردد."""
+    last_err = None
+    for ua in UAS:
+        for attempt in range(2):
+            req = urllib.request.Request(feed_url, headers={
+                "User-Agent": ua, "Accept": ACCEPT, "Accept-Encoding": "gzip",
+                "Accept-Language": "fa,en;q=0.8"})
+            try:
+                with urllib.request.urlopen(req, timeout=30) as r:
+                    data = r.read(20_000_000)
+                    if (r.headers.get("Content-Encoding") or "").lower() == "gzip" or data[:2] == b"\x1f\x8b":
+                        data = gzip.decompress(data)
+                    return data
+            except urllib.error.HTTPError as e:
+                last_err = f"HTTP {e.code} ({e.reason}) با UA «{ua[:20]}…»"
+                if e.code in (403, 429, 503):
+                    break                    # با همین UA فایده ندارد؛ سراغ UA بعدی
+            except Exception as e:
+                last_err = f"{type(e).__name__}: {e}"
+            time.sleep(2)
+    raise RuntimeError(last_err or "unknown fetch error")
+
+
+def parse_xml(data):
+    """XML فیدهای ناقص را هم تحمل می‌کند (BOM، فاصله‌ی ابتدای فایل، & بدون escape، کاراکتر کنترلی)."""
+    head = data[:600].lstrip().lower()
+    if head.startswith((b"<!doctype html", b"<html")):
+        raise ValueError("به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)")
+    text = data.decode("utf-8-sig", errors="replace").lstrip()
+    text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", text)
+    try:
+        return ET.fromstring(text.encode("utf-8"))
+    except ET.ParseError:
+        fixed = re.sub(r"&(?!(?:amp|lt|gt|quot|apos|#\d+|#x[0-9a-fA-F]+);)", "&amp;", text)
+        # اعلان encoding بالای فایل با bytes سازگار نیست؛ حذفش می‌کنیم
+        fixed = re.sub(r"^<\?xml[^>]*\?>", "", fixed)
+        return ET.fromstring(fixed.encode("utf-8"))
+
+
+def parse_date(text):
+    text = (text or "").strip()
+    if not text:
+        return None
+    try:
+        return parsedate_to_datetime(text)
+    except (TypeError, ValueError, IndexError):
+        pass
+    try:                                       # ISO 8601 مثل 2026-09-18T14:30:00Z
+        return dt.datetime.fromisoformat(text.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
 def analyse(feed_url):
-    req = urllib.request.Request(feed_url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        data = r.read(20_000_000)
-    root = ET.fromstring(data)
+    root = parse_xml(fetch(feed_url))
     items = []
     eps = []      # (تاریخ، عنوان، لینک) برای صفحه‌ی «تازه‌ها»
     for it in root.iter("item"):
         pub = it.findtext("pubDate")
-        try:
-            d = parsedate_to_datetime(pub) if pub else None
-        except (TypeError, ValueError):
-            d = None
+        if not pub:                                  # بعضی فیدها به‌جای pubDate از dc:date استفاده می‌کنند
+            for child in it:
+                if child.tag.endswith("}date") or child.tag.endswith("}published"):
+                    pub = child.text
+                    break
+        d = parse_date(pub)
         dur = 0
         for child in it:
             if child.tag.endswith("}duration"):
@@ -133,6 +194,7 @@ def analyse(feed_url):
 def main():
     previous = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
     stats = dict(previous)
+    errors = {}
     for path in sorted(PODCASTS.glob("*.md")):
         feed = front_matter(path).get("rss")
         slug = path.stem
@@ -142,7 +204,12 @@ def main():
             stats[slug] = analyse(feed)
             print(f"ok   {slug}: {stats[slug]}")
         except Exception as e:           # اگر خطا شد، آمار قبلی حفظ می‌شود
+            errors[slug] = {"rss": feed, "error": f"{type(e).__name__}: {e}"[:300]}
             print(f"FAIL {slug}: {e}", file=sys.stderr)
+    # دلیل خطای هر فید در فایل جدا ثبت می‌شود تا بدون لاگ Actions هم دیده شود
+    err_text = json.dumps(errors, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
+    if not ERRORS.exists() or ERRORS.read_text(encoding="utf-8") != err_text:
+        ERRORS.write_text(err_text, encoding="utf-8")
     OUT.parent.mkdir(exist_ok=True)
     new_text = json.dumps(stats, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
     if not OUT.exists() or OUT.read_text(encoding="utf-8") != new_text:
