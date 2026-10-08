@@ -108,7 +108,7 @@
   }
 
   /* ---------- حالت ۲: کارت معرفی (پیشنهادی / حمایت‌شده / نوپا) ---------- */
-  function openInfo(a) {
+  function openInfo(a, ctaOverride) {
     var card = document.createElement('div');
     card.className = 'cbm__info';
 
@@ -133,6 +133,15 @@
     }
 
     var desc = a.getAttribute('data-desc') || a.getAttribute('title');
+    if (!desc) {                                     // توضیح از خود آیتم لیست / پاراگراف
+      var li = a.closest('li, p');
+      if (li) {
+        desc = (li.textContent || '').replace(/\s+/g, ' ').trim();
+        var own = (a.textContent || '').trim();
+        if (own && desc.indexOf(own) === 0) desc = desc.slice(own.length).replace(/^[\s—–\-:]+/, '');
+        if (desc.length > 260) desc = desc.slice(0, 257) + '…';
+      }
+    }
     if (desc) {
       var p = document.createElement('p');
       p.className = 'cbm__desc';
@@ -145,11 +154,36 @@
     show({
       title: pickTitle(a),
       href: a.href,
-      cta: a.getAttribute('data-cta') || ('رفتن به ' + (host || 'لینک') + ' ↗'),
+      cta: ctaOverride || a.getAttribute('data-cta') || ('رفتن به ' + (host || 'لینک') + ' ↗'),
       hint: host ? 'این لینک شما را به سایت دیگری می‌برد: ' + host : '',
       content: card
     });
   }
+
+  /* ---------- دکمه‌ی «رفتن به کست‌باکس» زیر هر پلیر شناور دیگر ----------
+     اگه جایی از سایت (مثلا پلیر شناورِ قدیمی) iframe کست‌باکس می‌سازه،
+     زیرش خودکار دکمه‌ی رفتن به کست‌باکس اضافه می‌شه. */
+  function addGoBar(f) {
+    if (f.closest('.cbm') || f.getAttribute('data-gobar')) return;
+    var m = (f.src || '').match(/player\/(id\d+)/);
+    if (!m) return;
+    f.setAttribute('data-gobar', '1');
+    var bar = document.createElement('div');
+    bar.className = 'cbm-gobar';
+    var link = document.createElement('a');
+    link.href = 'https://castbox.fm/channel/' + m[1];
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = 'رفتن به کست‌باکس ↗';
+    bar.appendChild(link);
+    f.insertAdjacentElement('afterend', bar);
+  }
+  function scanPlayers() {
+    var list = document.querySelectorAll('iframe[src*="castbox.fm/app/castbox/player"]');
+    for (var i = 0; i < list.length; i++) addGoBar(list[i]);
+  }
+  new MutationObserver(scanPlayers).observe(document.documentElement, { childList: true, subtree: true });
+  scanPlayers();
 
   /* ---------- شنود کلیک ---------- */
   document.addEventListener('click', function (e) {
@@ -161,9 +195,9 @@
 
     if (/castbox\.fm/i.test(a.href)) {
       var embed = buildEmbed(a.href);
-      if (!embed) return;
       e.preventDefault();
-      openCastbox(a, embed);
+      if (embed) openCastbox(a, embed);
+      else openInfo(a, 'رفتن به کست‌باکس ↗');       // لینک بدون id: کارت معرفی
       return;
     }
     if (a.matches(FLOAT_SELECTORS.join(','))) {
