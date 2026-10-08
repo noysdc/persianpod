@@ -4,11 +4,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-<meta name="description" content="{{ page.description | default: site.description | strip_html | escape }}">
+<meta name="description" content="{{ page.description | default: site.og_description | strip_html | strip_newlines | escape }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
-<meta property="og:title" content="{{ page.title | default: site.title | escape }}">
-<meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+{%- assign pp_title = page.title | default: site.title -%}
+{%- assign pp_desc = page.description | default: site.og_description | strip_html | strip_newlines -%}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:title" content="{{ pp_title | escape }}">
+<meta property="og:description" content="{{ pp_desc | escape }}">
 <meta property="og:locale" content="fa_IR">
+{%- comment -%} تصویر پیش‌نمایش (تلگرام، واتساپ، توییتر...): صفحه‌ی هر پادکست عکس خودش را می‌گیرد (از seo-head)، همه‌ی صفحه‌های دیگر عکس خود پرشین‌پاد. بدون این تگ‌ها، تلگرام یکی از عکس‌های داخل صفحه را حدس می‌زند. {%- endcomment -%}
+{%- unless page.collection == "podcasts" and page.logo %}
+<meta property="og:image" content="{{ '/assets/img/persianpod-og.png' | absolute_url }}?v=1">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="پرشین‌پاد؛ مرجع پادکست‌های فارسی">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ '/assets/img/persianpod-og.png' | absolute_url }}?v=1">
+{%- endunless %}
+{% include seo-head.html %}
 <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" sizes="any">
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/persianpod-icon.svg' | relative_url }}">
 <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
@@ -92,7 +108,7 @@
       <p class="pp-side-stats"><b>{{ site.podcasts.size }}</b> پادکست · <b>{{ cat_names.size }}</b> دسته · <b>{{ n_city }}</b> شهر{% if page.url == '/' %}<a href="#map">نقشه‌ی پادکسترها</a>{% else %}<a href="{{ '/#map' | relative_url }}">نقشه‌ی پادکسترها</a>{% endif %}</p>
     </nav>
     <div class="pp-side-contact">
-      <p class="pp-about-m">مرجع رایگان و بدون تبلیغ برای کشف پادکست‌های فارسی. ثبت یا حذف پادکست، هر زمان و بدون هزینه.</p>
+      <p class="pp-about-m">مرجع رایگان برای کشف پادکست‌های فارسی. ثبت یا حذف پادکست، هر زمان و بدون هزینه.</p>
       <div class="pp-icons">
         <a href="{{ site.telegram }}" target="_blank" rel="noopener" aria-label="کانال تلگرام" title="تلگرام">
           <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 3 2 11l6 2 2 7 4-5 6 4z"/></svg>

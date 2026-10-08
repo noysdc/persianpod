@@ -19,7 +19,7 @@ var NOW=(()=>{try{return +new Intl.DateTimeFormat('en-u-ca-persian-nu-latn',{yea
 var YEARS=Array.from({length:Math.max(NOW-1375+1,1)},(_,i)=>String(NOW-i).replace(/\d/g,d=>'۰۱۲۳۴۵۶۷۸۹'[d])); // سال جاری تا ۱۳۷۵
 // دسته‌ها و زیردسته‌ها از _data/categories.yml می‌آیند (form.html آن را در window.PP_CATS می‌گذارد).
 var CATDATA = Array.isArray(window.PP_CATS) ? window.PP_CATS : [];
-var CATS = CATDATA.length ? CATDATA.map(function (c) { return c.name; }) : ["تاریخ", "مستند و روایت", "جنایی", "علم و فناوری", "روانشناسی", "ادبیات و کتاب", "هنر", "موسیقی", "فلسفه و دین", "جامعه و سیاست", "کسب‌وکار و اقتصاد", "سبک زندگی و سلامت", "آموزش و مهارت", "طنز و سرگرمی", "کودک و نوجوان"];
+var CATS = CATDATA.length ? CATDATA.map(function (c) { return c.name; }) : ["تاریخ", "مستند و روایت", "جنایی", "علم و فناوری", "روانشناسی", "ادبیات و کتاب", "هنر", "موسیقی", "فلسفه و دین", "جامعه و سیاست", "کسب‌وکار و اقتصاد", "سبک زندگی و سلامت", "آموزش و مهارت", "طنز و سرگرمی", "کودک و نوجوان", "ورزش", "گفت‌وگو و مصاحبه"];
 
 var LINKS = { v: 'url', ltr: 1, mode: 'url' };
 

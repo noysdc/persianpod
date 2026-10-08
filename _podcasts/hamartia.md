@@ -2,11 +2,12 @@
 layout: podcast
 title: "هامارتیا"
 title_en: "Hamartia"
+description: "پادکست هنری و ادبی صدرا امینی؛ هر قسمت مواجهه‌ای آرام و تأمل‌برانگیز با یک اثر هنری یا ادبی از دریچه‌ی تاریخ، تکنیک و تئوری، در نسبت با تجربه‌ی انسانی."
 slug: "hamartia"
 category: "هنر"
 subcategories: ["تاریخ هنر", "نقاشی و طراحی", "عکاسی"]
 tags: ["پادکست هنری", "پادکست ادبی", "زیباشناسی", "فلسفه هنر", "اسطوره‌شناسی", "هامارتیا", "صدرا امینی"]
-status: "فعال"
+status: active
 language: "فارسی"
 creator: "صدرا امینی"
 country: "ایران"
@@ -17,13 +18,10 @@ frequency: "ماهانه"
 logo: "/assets/img/podcasts/hamartia.webp"
 castbox_id: "6956950"
 castbox_channel: "https://castbox.fm/ch/6956950"
-spotify: ""
 apple_podcasts: "https://podcasts.apple.com/us/podcast/hamartia-podcast-%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA-%D9%87%D9%86%D8%B1%DB%8C-%D9%87%D8%A7%D9%85%D8%A7%D8%B1%D8%AA%DB%8C%D8%A7/id1865852045"
-youtube: ""
 instagram: "https://www.instagram.com/hamartia_podcast"
 telegram: "https://t.me/hamrtia"
 collab: false
-collab_types: ""
 email: "sadra.msa@gmail.com"
 ---
 
@@ -85,9 +83,3 @@ email: "sadra.msa@gmail.com"
 - [ایمیل صدرا امینی](mailto:sadra.msa@gmail.com)
 - [شنیدن نارنج در کست‌باکس](https://castbox.fm/ch/4907347){:target="_blank" rel="noopener"}
 - [شنیدن نویز در کست‌باکس](https://castbox.fm/ch/7361321){:target="_blank" rel="noopener"}
-
----
-
-## 🎧 پخش مستقیم پادکست هامارتیا
-
-<iframe src="https://castbox.fm/app/castbox/player/id6956950?v=8.22.11&autoplay=0" frameborder="0" width="100%" height="500"></iframe>

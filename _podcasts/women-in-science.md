@@ -4,15 +4,13 @@ title: "زنان در علم"
 title_en: "Women in Science"
 slug: "women-in-science"
 category: "علم و فناوری"
-subcategories: ["تاریخ علم", "بیوگرافی"]
+subcategories: ["تاریخ علم", "زندگی‌نامه دانشمندان"]
 description: "جایی برای شنیدن داستان زندگی، چالش‌ها و دستاوردهای زنان دانشمند در طول تاریخ. اگر به علم، تاریخ و روایت‌های الهام‌بخش علاقه‌مندید، این پادکست برای شماست!"
 tags: ["زنان در علم", "تاریخ علم", "بیوگرافی", "زنان دانشمند", "ماری کوری", "روزالین فرانکلین", "کاتالین کاریکو", "پادکست فارسی", "علم و فناوری"]
 status: "active"
 language: "فارسی"
 creator: "مهرنوش مجابی"
 host: "مهرنوش مجابی، ماناگل کیال"
-city: ""
-country: ""
 started: "1403"
 start_year: 1403
 episodes: "16"
@@ -28,7 +26,6 @@ apple_podcasts: "https://podcasts.apple.com/us/podcast/%D8%B2%D9%86%D8%A7%D9%86-
 youtube: "https://youtube.com/@women_in_science"
 instagram: "https://www.instagram.com/women_in_science_podcast"
 telegram: "https://t.me/wispodcast"
-threads: ""
 website: "https://zanandarelm.ir"
 <!-- ایمیل: mehrnoushmojabi@gmail.com -->
 collab: true
@@ -170,10 +167,3 @@ collab_types: "اسپانسری قسمت، همکاری محتوایی، دعو�
 - [کانال یوتیوب زنان در علم](https://youtube.com/@women_in_science){:target="_blank" rel="noopener"}
 - [اسپاتیفای زنان در علم](https://open.spotify.com/show/4uQtDJonsC1UlvLufd5UJZ){:target="_blank" rel="noopener"}
 - [اپل پادکست زنان در علم](https://podcasts.apple.com/us/podcast/%D8%B2%D9%86%D8%A7%D9%86-%D8%AF%D8%B1-%D8%B9%D9%84%D9%85/id1790139575){:target="_blank" rel="noopener"}
-
----
-
-<div class="embed-player">
-    <h2>🎧 پخش مستقیم پادکست زنان در علم</h2>
-    <iframe src="https://castbox.fm/app/castbox/player/id6681421?v=8.22.11&autoplay=0" frameborder="0" width="100%" height="500"></iframe>
-</div>

@@ -2,10 +2,12 @@
 layout: post
 title: "چنل بی؛ گزارش‌های بلند، این بار قصه می‌شوند"
 title_en: "ChannelB"
+description: "گزارش‌های بلند و واقعی رسانه‌های معتبر انگلیسی‌زبان، به فارسی و در قالب قصه؛ علی بندری ماجراهایی از جنایت، اقتصاد سایه و سیاست را در مینی‌سریال‌های روایی تعریف می‌کند."
 slug: channelb
 category: جنایی
-subcategories: ["قصه گویی", "روایت مستند"]
+subcategories: ["جرایم سازمان‌یافته و اقتصاد سایه"]
 host: علی بندری
+creator: علی بندری
 city: اسلو
 country: نروژ
 started: 1394
@@ -14,14 +16,8 @@ schedule: نامنظم (بر اساس کامل شدن تحقیق‌ها)
 logo: /assets/img/podcasts/channelb.webp
 castbox_id: "2356600"
 castbox_channel: "https://castbox.fm/ch/2356600"
-spotify: ""
-apple_podcasts: ""
-youtube: ""
-instagram: ""
 telegram: "https://t.me/channelbpodcast"
-threads: ""
 website: "https://channelbpodcast.com"
-email: ""
 collab: true
 collab_types: "اسپانسری قسمت"
 tags: [پادکست جنایی, مستند, بیزینس ممنوعه, اقتصاد سایه, چنل بی, علی بندری]
@@ -87,9 +83,3 @@ tags: [پادکست جنایی, مستند, بیزینس ممنوعه, اقتص�
 - [وب‌سایت چنل بی](https://channelbpodcast.com){:target="_blank" rel="noopener"}
 - [تلگرام چنل بی](https://t.me/channelbpodcast){:target="_blank" rel="noopener"}
 - [شنیدن بی پلاس در کست‌باکس](https://castbox.fm/ch/5656367){:target="_blank" rel="noopener"}
-
----
-
-<div style="margin-top:2rem;">
-<iframe src="https://castbox.fm/app/castbox/player/id2356600" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
-</div>

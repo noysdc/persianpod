@@ -40,9 +40,6 @@
   {%- endcase -%}
 
   {%- comment -%} --- Open Graph / Twitter (only what the base head usually lacks) --- {%- endcomment -%}
-<meta property="og:type" content="website">
-<meta property="og:url" content="{{ page_url }}">
-<meta property="og:site_name" content="پرشین‌پاد">
 {%- if img_url != "" %}
 <meta property="og:image" content="{{ img_url }}">
 <meta property="og:image:alt" content="لوگوی {{ page.title | escape }}">
@@ -108,7 +105,7 @@
   "alternateName": "PersianPod",
   "url": {{ "/" | absolute_url | jsonify }},
   "inLanguage": "fa",
-  "description": "مرجع رایگان و بدون تبلیغ برای کشف پادکست‌های فارسی؛ دسته‌بندی، جست‌وجوی پیشرفته، مقایسه و نقشه‌ی پادکسترها.",
+  "description": "مرجع رایگان برای کشف پادکست‌های فارسی؛ دسته‌بندی، جست‌وجوی پیشرفته، مقایسه و نقشه‌ی پادکسترها.",
   "sameAs": ["https://t.me/persian_pod_ir"]
 }
 </script>

@@ -2,10 +2,12 @@
 layout: post
 title: "بی پلاس؛ قدم‌های کوچک در راه کنجکاوی‌های بزرگ"
 title_en: "Bplus"
+description: "پادکست خلاصه‌ی کتاب‌های غیرداستانی به فارسی؛ علی بندری در هر قسمت کتابی درباره‌ی تاریخ، سیاست، علم یا اندیشه را با لحنی روایی و صمیمی برای شنونده‌ی کنجکاو تعریف می‌کند."
 slug: bplus
-category: آموزشی
-subcategories: ["ادبیات و کتاب", "علمی و تاریخی"]
+category: "ادبیات و کتاب"
+subcategories: ["معرفی کتاب"]
 host: علی بندری
+creator: علی بندری
 city: اسلو
 country: نروژ
 started: 1397
@@ -17,7 +19,6 @@ castbox_channel: "https://castbox.fm/ch/5656367"
 spotify: "https://open.spotify.com/show/2PmMxFZ4OIW5DoUY1rRBB7"
 apple_podcasts: "https://podcasts.apple.com/podcast/id1378125252"
 youtube: "https://youtube.com/@BplusPodcast"
-instagram: ""
 telegram: "https://t.me/podcastbplus"
 collab: true
 collab_types: "اسپانسری قسمت"
@@ -90,9 +91,3 @@ tags: [پادکست کتاب, خلاصه کتاب, غیرداستانی, تار�
 - [تلگرام بی پلاس](https://t.me/podcastbplus){:target="_blank" rel="noopener"}
 - [ایمیل بی پلاس](mailto:editors@bpluspodcast.com)
 - [شنیدن چنل بی در کست‌باکس](https://castbox.fm/ch/2356600){:target="_blank" rel="noopener"}
-
----
-
-<div style="margin-top:2rem;">
-<iframe src="https://castbox.fm/app/castbox/player/id5656367" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
-</div>

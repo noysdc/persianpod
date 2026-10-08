@@ -7,12 +7,11 @@ category: "مستند و روایت"
 subcategories: ["روایت‌محور", "پرونده و تحقیق"]
 description: "روایت فارسی برترین مقاله‌های روزنامه‌نگاری از معتبرترین نشریه‌های دنیا."
 tags: ["روزنامه‌نگاری", "جامعه", "داستان‌های واقعی", "مستند", "روایت", "پادکست میم", "مهدی عباسی"]
-status: "فعال"
+status: active
 language: "فارسی"
 creator: "مهدی عباسی"
 host: "مهدی عباسی"
 city: "تهران"
-country: ""
 started: "1398"
 start_year: 1398
 episodes: "58"
@@ -23,16 +22,8 @@ logo: "/assets/img/podcasts/mimmpodcast.webp"
 castbox_id: "7402002"
 castbox_channel: "https://castbox.fm/ch/7402002"
 rss: "https://rss.audiyacreators.one/cmhwe10fp49z7yriygrn1"
-spotify: ""
-apple_podcasts: ""
-youtube: ""
-instagram: ""
-telegram: ""
-threads: ""
-website: ""
 email: "mimmpodcast@gmail.com"
 collab: true
-collab_types: ""
 ---
 
 # پادکست میم
@@ -90,9 +81,3 @@ collab_types: ""
 - [پادکست بوطیقا در کست‌باکس](https://castbox.fm/ch/4910844){:target="_blank" rel="noopener"}
 - [پادکست شکرتیغال در کست‌باکس](https://castbox.fm/ch/5413045){:target="_blank" rel="noopener"}
 - [فید RSS پادکست میم](https://rss.audiyacreators.one/cmhwe10fp49z7yriygrn1){:target="_blank" rel="noopener"}
-
----
-
-## پلیر امبد کست‌باکس
-
-<iframe src="https://castbox.fm/app/castbox/player/id7402002?v=8.22.11&autoplay=0" frameborder="0" width="100%" height="200"></iframe>

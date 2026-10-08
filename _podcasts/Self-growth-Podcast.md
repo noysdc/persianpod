@@ -2,10 +2,12 @@
 layout: post
 title: "پادکست توسعه فردی"
 title_en: "Self-growth Podcast"
+description: "پادکست توسعه فردی پوریا احمدی؛ نکته‌ها و تمرین‌های کاربردی روانشناسی، برگرفته از منابع علمی معتبر و به‌صورت کپسولی."
 slug: self-growth-podcast
 category: روانشناسی
 subcategories: ["روانشناسی اجتماعی","روانشناسی شناختی","خودشناسی و رشد"]
 host: پوریا احمدی
+creator: پوریا احمدی
 city: رشت
 country: ایران
 started: 1401
@@ -16,7 +18,8 @@ castbox_id: "5741037"
 castbox_channel: "https://castbox.fm/channel/id5741037"
 telegram: "https://t.me/pouryaahmadi_masir"
 email: "itspouryaahmadi@gmail.com"
-collab: "بسته به پیشنهاد"
+collab: true
+collab_types: "بسته به پیشنهاد"
 tags: [توسعه فردی, روانشناسی, رشد, مهارت]
 ---
 
@@ -67,9 +70,3 @@ tags: [توسعه فردی, روانشناسی, رشد, مهارت]
 ---
 
 #توسعه_فردی #روانشناسی #رشد #مهارت #پادکست_فارسی #خودشناسی #تفکر_نقادانه #مدیریت_احساسات #روانشناسی_زرد #پوریا_احمدی #پادکست_ایرانی #یادگیری #مهارت‌های_زندگی
-
----
-
-## پلیر امبد کست‌باکس
-
-<iframe src="https://castbox.fm/app/castbox/player/id5741037?v=8.22.11&autoplay=0" frameborder="0" width="100%" height="500"></iframe>

@@ -2,9 +2,11 @@
 layout: post
 title: "رادیو دور؛ روایتی از زندگی در سرزمینی دیگر"
 title_en: "radiodoor"
+description: "گفت‌وگوهای صمیمی و تلفنی گیتا مینویی با ایرانیان مهاجر در نقاط مختلف جهان درباره‌ی تجربه‌ی شخصی زندگی در کشوری دیگر."
 slug: radiodoor
 category: سبک زندگی و سلامت
 host: گیتا مینویی
+creator: گیتا مینویی
 city: تهران
 country: ایران
 started: 1402
@@ -13,11 +15,8 @@ schedule: ماهانه
 logo: /assets/img/podcasts/radiodoor.webp
 castbox_id: "7414995"
 castbox_channel: "https://castbox.fm/ch/7414995"
-spotify: ""
 apple_podcasts: "https://podcasts.apple.com/us/podcast/radio-door-%D8%B1%D8%A7%D8%AF%DB%8C%D9%88-%D8%AF%D9%88%D8%B1/id1775422795"
-youtube: ""
 instagram: "https://instagram.com/radiodoorpod"
-telegram: ""
 collab: true
 collab_types: "دعوت از مهمان، معرفی متقابل"
 tags: [پادکست مهاجرت, سبک زندگی, تجربه شخصی, رادیو دور, گیتا مینویی]

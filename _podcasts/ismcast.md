@@ -4,15 +4,13 @@ title: "ایسم کست"
 title_en: "ismcast"
 slug: "ismcast"
 category: "جامعه و سیاست"
-subcategories: ["فلسفه", "تاریخ", "فرهنگ"]
+subcategories: ["مکاتب و اندیشه‌های سیاسی", "فرهنگ و جامعه", "جامعه‌شناسی"]
 description: "«ایسم‌ها» فقط یک پسوند نیستند؛ لنزهایی برای تماشای جهان‌اند. اینجا غبار پیچیدگی را از روی مکاتب فکری و هنری پاک می‌کنیم و داستان تأثیرشان را می‌شنویم."
 tags: ["تاریخ", "سیاست", "جامعه", "فرهنگ", "فلسفه", "اسم کست", "مهرنوش مجابی"]
-status: "فعال"
+status: active
 language: "فارسی"
 creator: "مهرنوش مجابی"
 host: "مهرنوش مجابی"
-city: ""
-country: ""
 started: "1405"
 start_year: 1405
 episodes: "11"
@@ -24,11 +22,7 @@ castbox_id: "7198667"
 castbox_channel: "https://castbox.fm/ch/7198667"
 rss: "https://anchor.fm/s/11228194c/podcast/rss"
 spotify: "https://open.spotify.com/show/5c15Jkz26DDegYNruiCSSi"
-apple_podcasts: ""
-youtube: ""
-instagram: ""
 telegram: "https://t.me/ismcast"
-threads: ""
 website: "https://ismcast.ir"
 email: "mehrnoushmojabi@gmail.com"
 sponsor_tg: "@Mehrnoooooshm4"
@@ -109,9 +103,3 @@ collab_types: "اسپانسر قسمت و همکاری محتوایی"
 - [پادکست زنان در علم در کست‌باکس](https://castbox.fm/ch/6681421){:target="_blank" rel="noopener"}
 - [پادکست ویروفاژ در کست‌باکس](https://castbox.fm/ch/5009095){:target="_blank" rel="noopener"}
 - [فید RSS اسم کست](https://anchor.fm/s/11228194c/podcast/rss){:target="_blank" rel="noopener"}
-
----
-
-## پلیر امبد کست‌باکس
-
-<iframe src="https://castbox.fm/app/castbox/player/id7198667?v=8.22.11&autoplay=0" frameborder="0" width="100%" height="200"></iframe>
