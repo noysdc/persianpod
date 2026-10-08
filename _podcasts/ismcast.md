@@ -1,6 +1,6 @@
 ---
 layout: podcast
-title: "اسم کست"
+title: "ایسم کست"
 title_en: "ismcast"
 slug: "ismcast"
 category: "جامعه و سیاست"
