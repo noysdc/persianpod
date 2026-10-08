@@ -1,0 +1,52 @@
+/* PersianPod v4: مرتب‌سازی درخت دسته‌ها و دکمه‌های لینک صفحه‌ی پادکست
+   این فایل باید بعد از pp-v3.css لود شود. */
+
+/* ===== ۱) درخت دسته‌ها (دسکتاپ و تبلت بزرگ؛ زیر ۸۰۰ پیکسل چیپ‌های افقی‌اند) ===== */
+@media (min-width:800px){
+  /* ستون فلش همیشه رزرو است، پس عددها در همه‌ی ردیف‌ها زیر هم می‌افتند */
+  .pp-cats li.pp-cat{grid-template-columns:minmax(0,1fr) 30px;margin:1px 0}
+  .pp-cat-tg{width:30px;height:30px;margin:0}
+  .pp-cats a{padding:8px 12px;gap:10px;line-height:1.7}
+  .pp-cats .n{min-width:28px;padding:1px 8px;line-height:1.6;font-variant-numeric:tabular-nums}
+
+  /* زیردسته‌ها: ساکت‌تر از دسته‌ی اصلی، با عدد هم‌تراز با ستون بالایی */
+  .pp-cats .pp-subs{margin:2px 14px 8px 30px;padding:0 10px 0 0}
+  .pp-cats .pp-subs a{padding:6px 10px;font-size:.85rem;color:var(--mut)}
+  .pp-cats .pp-subs a:hover{color:var(--ink)}
+  .pp-cats .pp-subs .n{background:transparent;min-width:28px;padding:1px 8px}
+  .pp-cats .pp-subs a[aria-current]{color:#0b0e0c}
+  .pp-cats .pp-subs a[aria-current] .n{background:rgba(0,0,0,.14)}
+
+  .pp-cat.open>a{font-weight:700}
+}
+
+/* تبلت: سایدبار باریک‌تر است، پس فشرده‌تر تا نام‌های بلند نشکنند */
+@media (min-width:800px) and (max-width:1199px){
+  .pp-cats a{padding:8px 8px;gap:6px;font-size:.88rem}
+  .pp-cats .n{min-width:24px;padding:1px 6px;font-size:.75rem}
+  .pp-cat-tg{width:26px}
+  .pp-cats li.pp-cat{grid-template-columns:minmax(0,1fr) 26px}
+  .pp-cats .pp-subs{margin-left:26px}
+}
+
+/* ===== ۲) دکمه‌های لینک صفحه‌ی پادکست ===== */
+.pod .links{gap:8px}
+.pod .links .btn{
+  flex:1 1 140px;                 /* دو یا چند ستون هم‌عرض؛ دکمه‌ی تنهای آخر پهن می‌شود */
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:38px;padding:4px 12px;
+  text-align:center;white-space:nowrap;
+}
+.pod .links .btn[href*="/listen/"],
+.pod .links .btn[href*="/compare/"]{flex-basis:100%}
+
+/* استایل «اصلی» فقط برای «گوش بده»؛ اگر نبود، اولین لینک سبز نشود */
+.pod .links .btn:first-child:not([href*="/listen/"]){
+  background:var(--card);border-color:var(--line);color:var(--ink);font-weight:600}
+.pod .links .btn:first-child:not([href*="/listen/"]):hover{
+  background:var(--bg);border-color:#08cb00;box-shadow:0 6px 16px -8px var(--glow)}
+.pod .links .btn[href*="/listen/"]{background:#08cb00;border-color:#08cb00;color:#0b0e0c;font-weight:800}
+
+@media (max-width:400px){
+  .pod .links .btn{flex-basis:120px;padding:4px 8px;font-size:.82rem}
+}
