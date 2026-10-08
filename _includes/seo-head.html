@@ -1,0 +1,115 @@
+{%- comment -%}
+  PersianPod SEO head: JSON-LD (PodcastSeries + BreadcrumbList for podcast pages,
+  WebSite for the homepage) and og:image/twitter tags for podcast pages.
+  Usage: put {% include seo-head.html %} once inside <head> of the main layout.
+{%- endcomment -%}
+{%- if page.collection == "podcasts" -%}
+
+  {%- comment -%} --- fields --- {%- endcomment -%}
+  {%- assign genres = "" | split: "" -%}
+  {%- if page.category -%}{%- assign genres = genres | push: page.category -%}{%- endif -%}
+  {%- if page.subcategories -%}{%- assign genres = genres | concat: page.subcategories -%}{%- endif -%}
+
+  {%- assign same_as = "" | split: "" -%}
+  {%- if page.castbox_channel -%}{%- assign same_as = same_as | push: page.castbox_channel -%}{%- endif -%}
+  {%- if page.spotify -%}{%- assign same_as = same_as | push: page.spotify -%}{%- endif -%}
+  {%- if page.apple -%}{%- assign same_as = same_as | push: page.apple -%}{%- endif -%}
+  {%- if page.instagram -%}{%- assign same_as = same_as | push: page.instagram -%}{%- endif -%}
+  {%- if page.telegram -%}{%- assign same_as = same_as | push: page.telegram -%}{%- endif -%}
+  {%- if page.threads -%}{%- assign same_as = same_as | push: page.threads -%}{%- endif -%}
+  {%- if page.website -%}{%- assign same_as = same_as | push: page.website -%}{%- endif -%}
+
+  {%- assign page_url = page.url | absolute_url -%}
+  {%- assign img_url = "" -%}
+  {%- if page.logo -%}
+    {%- if page.logo contains "://" -%}{%- assign img_url = page.logo -%}{%- else -%}{%- assign img_url = page.logo | absolute_url -%}{%- endif -%}
+  {%- endif -%}
+
+  {%- capture ld_desc -%}
+    {%- if page.description and page.description != "" -%}{{ page.description | strip_newlines }}
+    {%- else -%}پادکست {{ page.title }}{% if page.creator %} از {{ page.creator }}{% endif %}{% if page.category %} در دسته‌ی {{ page.category }}{% endif %}؛ معرفی کامل، لینک‌های شنیدن و شبکه‌های اجتماعی در پرشین‌پاد.
+    {%- endif -%}
+  {%- endcapture -%}
+
+  {%- assign lang_code = "" -%}
+  {%- case page.language -%}
+    {%- when "فارسی", "fa", "Persian" -%}{%- assign lang_code = "fa" -%}
+    {%- when "انگلیسی", "en", "English" -%}{%- assign lang_code = "en" -%}
+    {%- when "ترکی", "tr" -%}{%- assign lang_code = "tr" -%}
+    {%- when "عربی", "ar" -%}{%- assign lang_code = "ar" -%}
+  {%- endcase -%}
+
+  {%- comment -%} --- Open Graph / Twitter (only what the base head usually lacks) --- {%- endcomment -%}
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page_url }}">
+<meta property="og:site_name" content="پرشین‌پاد">
+{%- if img_url != "" %}
+<meta property="og:image" content="{{ img_url }}">
+<meta property="og:image:alt" content="لوگوی {{ page.title | escape }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="{{ img_url }}">
+{%- endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PodcastSeries",
+  "name": {{ page.title | jsonify }},
+  "url": {{ page_url | jsonify }},
+  "description": {{ ld_desc | strip | jsonify }},
+  "isAccessibleForFree": true
+  {%- if page.title_en and page.title_en != "" %},
+  "alternateName": {{ page.title_en | jsonify }}
+  {%- endif %}
+  {%- if lang_code != "" %},
+  "inLanguage": {{ lang_code | jsonify }}
+  {%- endif %}
+  {%- if img_url != "" %},
+  "image": {{ img_url | jsonify }}
+  {%- endif %}
+  {%- if page.rss and page.rss != "" %},
+  "webFeed": {{ page.rss | jsonify }}
+  {%- endif %}
+  {%- if page.creator and page.creator != "" %},
+  "author": { "@type": "Person", "name": {{ page.creator | jsonify }} }
+  {%- endif %}
+  {%- if page.episode_count and page.episode_count != "" %},
+  "numberOfEpisodes": {{ page.episode_count | plus: 0 }}
+  {%- endif %}
+  {%- if genres.size > 0 %},
+  "genre": {{ genres | jsonify }}
+  {%- endif %}
+  {%- if page.tags and page.tags.size > 0 %},
+  "keywords": {{ page.tags | join: ", " | jsonify }}
+  {%- endif %}
+  {%- if same_as.size > 0 %},
+  "sameAs": {{ same_as | jsonify }}
+  {%- endif %}
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "پادکست‌ها", "item": {{ "/" | absolute_url | jsonify }} },
+    { "@type": "ListItem", "position": 2, "name": {{ page.title | jsonify }}, "item": {{ page_url | jsonify }} }
+  ]
+}
+</script>
+
+{%- elsif page.url == "/" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "پرشین‌پاد",
+  "alternateName": "PersianPod",
+  "url": {{ "/" | absolute_url | jsonify }},
+  "inLanguage": "fa",
+  "description": "مرجع رایگان و بدون تبلیغ برای کشف پادکست‌های فارسی؛ دسته‌بندی، جست‌وجوی پیشرفته، مقایسه و نقشه‌ی پادکسترها.",
+  "sameAs": ["https://t.me/persian_pod_ir"]
+}
+</script>
+{%- endif -%}

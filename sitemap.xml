@@ -1,0 +1,15 @@
+---
+layout: null
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for p in site.pages %}
+  {%- unless p.sitemap == false or p.url contains "404" or p.url contains "/form" or p.url contains ".xml" or p.url contains ".txt" or p.url contains ".json" or p.url contains ".css" or p.url contains ".js" or p.url contains ".webmanifest" %}
+  <url><loc>{{ p.url | absolute_url | xml_escape }}</loc></url>
+  {%- endunless %}
+{%- endfor %}
+{%- for p in site.podcasts %}
+  <url><loc>{{ p.url | absolute_url | xml_escape }}</loc></url>
+{%- endfor %}
+</urlset>
