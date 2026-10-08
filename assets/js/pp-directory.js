@@ -69,7 +69,7 @@
   })();
 
   /* ---------- داده ---------- */
-  var data = [], cat = "", catRank = {}, geo = null;
+  var data = [], cat = "", sub = "", catRank = {}, geo = null;
   var els = {
     q: $("#q"), status: $("#f-status"), city: $("#f-city"), lang: $("#f-lang"),
     country: $("#f-country"), yf: $("#f-yf"), yt: $("#f-yt"), emin: $("#f-emin"), emax: $("#f-emax"),
@@ -109,7 +109,7 @@
   /* ---------- فیلتر ---------- */
   function read() {
     return {
-      q: norm(els.q ? els.q.value : ""), cat: cat,
+      q: norm(els.q ? els.q.value : ""), cat: cat, sub: sub,
       status: els.status.value, city: els.city.value, lang: els.lang.value, country: els.country ? els.country.value : "", geo: geo,
       yf: num(els.yf.value), yt: num(els.yt.value),
       emin: num(els.emin.value), emax: num(els.emax.value),
@@ -125,6 +125,7 @@
   }
   function match(p, f, skipCat) {
     if (!skipCat && f.cat && p._cat !== f.cat) return false;
+    if (!skipCat && f.sub && p._subs.indexOf(norm(f.sub)) === -1) return false;
     if (f.status === "active" && !p._active) return false;
     if (f.status === "inactive" && p._active) return false;
     if (f.city && p.city !== f.city) return false;
@@ -156,20 +157,24 @@
     ["yf", "yt", "emin", "emax", "lmin", "lmax"].forEach(function (k) { if (f[k] != null) n++; });
     return n;
   }
-  function isFiltered(f) { return !!(f.q || f.cat || f.geo || advancedCount(f)); }
+  function isFiltered(f) { return !!(f.q || f.cat || f.sub || f.geo || advancedCount(f)); }
 
   /* ---------- نمایش ---------- */
   function badge(t, on) { return '<span class="pd-b' + (on ? " on" : "") + '">' + t + "</span>"; }
+  function tagHref(c, sb) { return "?category=" + encodeURIComponent(c) + (sb ? "&sub=" + encodeURIComponent(sb) : ""); }
   function card(p) {
-    var subs = (p.subcategories || []).slice(0, 2).map(function (x) { return '<span class="pd-b">' + esc(x) + "</span>"; }).join("");
+    var subs = (p.subcategories || []).slice(0, 3).map(function (x) {
+      return '<a class="pd-b pd-tag" href="' + tagHref(p._cat, x) + '" data-cat="' + esc(p._cat) + '" data-sub="' + esc(x) + '">' + esc(x) + "</a>";
+    }).join("");
     var logo = p.logo
       ? '<img src="' + esc(p.logo) + '" alt="" loading="lazy" decoding="async" width="160" height="160">'
       : "<i>" + esc((p.title || "").trim().charAt(0)) + "</i>";
-    return '<a class="pd-card" href="' + esc(p.url) + '" title="' + esc(p.description || "") + '"><span class="pd-logo">' + logo + "</span>" +
-      '<span class="pd-body"><h3>' + esc(p.title) + "</h3>" +
-      '<span class="pd-meta"><span class="pd-b">' + esc(p._cat) + "</span>" + subs +
-      (p._active ? "" : '<span class="pd-b off">غیرفعال</span>') + "</span></span></a>";
+    return '<article class="pd-card"><a class="pd-link" href="' + esc(p.url) + '" title="' + esc(p.description || "") + '"><span class="pd-logo">' + logo + "</span>" +
+      '<span class="pd-body"><h3>' + esc(p.title) + "</h3></span></a>" +
+      '<span class="pd-meta"><a class="pd-b pd-tag" href="' + tagHref(p._cat) + '" data-cat="' + esc(p._cat) + '">' + esc(p._cat) + "</a>" + subs +
+      (p._active ? "" : '<span class="pd-b off">غیرفعال</span>') + "</span></article>";
   }
+
   function sortList(list, mode) {
     var l = list.slice();
     if (mode === "alpha") l.sort(function (a, b) { return collator.compare(a.title, b.title); });
@@ -200,6 +205,7 @@
   var CHIP_LABELS = {
     q: function (f) { return "جست‌وجو: " + els.q.value.trim(); },
     cat: function (f) { return "دسته: " + f.cat; },
+    sub: function (f) { return "زیردسته: " + f.sub; },
     status: function (f) { return f.status === "active" ? "فعال" : "غیرفعال"; },
     city: function (f) { return "شهر: " + f.city; },
     lang: function (f) { return "زبان: " + f.lang; },
@@ -213,6 +219,7 @@
     function add(k, label) { html += '<button type="button" class="pd-chip" data-k="' + k + '">' + esc(label) + ' <span aria-hidden="true">×</span><span class="sr">حذف</span></button>'; }
     if (f.q) add("q", CHIP_LABELS.q(f));
     if (f.cat) add("cat", CHIP_LABELS.cat(f));
+    if (f.sub) add("sub", CHIP_LABELS.sub(f));
     if (f.status) add("status", CHIP_LABELS.status(f));
     if (f.city) add("city", CHIP_LABELS.city(f));
     if (f.lang) add("lang", CHIP_LABELS.lang(f));
@@ -300,7 +307,7 @@
 
     if (!list.length) {
       out.innerHTML = '<p class="pd-empty">پادکستی با این انتخاب‌ها پیدا نشد. انتخاب‌ها را کم کن یا پاک کن.</p>';
-    } else if (f.group && !f.cat) {
+    } else if (f.group && !f.cat && !f.sub) {
       var groups = {}, order = [];
       list.forEach(function (p) {
         if (!groups[p._cat]) { groups[p._cat] = []; order.push(p._cat); }
@@ -312,7 +319,7 @@
         return (idx ? WAVE : "") + '<section class="pd-group" aria-label="' + esc(c) + '">' +
           '<h2 class="pd-cat"><a class="pd-cat-link" href="?category=' + encodeURIComponent(c) + '" data-cat="' + esc(c) + '">' +
           '<span class="pd-cat-ic">' + iconSvg(iconFor(c)) + "</span>" + esc(c) + " <small>" + toFa(groups[c].length) + "</small>" +
-          '<span class="pd-more">مشاهده‌ی همه ‹</span></a></h2>' +
+          '<span class="pd-more">مشاهده‌ی همه <span aria-hidden="true">←</span></span></a></h2>' +
           '<div class="pd-row-wrap">' +
           '<button type="button" class="pd-arrow pd-prev" data-dir="prev" aria-label="قبلی: ' + esc(c) + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>' +
           '<div class="pd-row" tabindex="0">' + items.map(card).join("") + "</div>" +
@@ -338,17 +345,26 @@
 
   /* ستون راست: شمارنده‌ی هر دسته بر اساس بقیه‌ی فیلترها */
   function updateCategories(f) {
-    var counts = {}, total = 0;
+    var counts = {}, subCounts = {}, total = 0;
     data.forEach(function (p) {
-      if (match(p, f, true)) { counts[p._cat] = (counts[p._cat] || 0) + 1; total++; }
+      if (!match(p, f, true)) return;
+      counts[p._cat] = (counts[p._cat] || 0) + 1; total++;
+      p._subs.forEach(function (t) { var k = p._cat + "|" + t; subCounts[k] = (subCounts[k] || 0) + 1; });
     });
     $$(".pp-cats a").forEach(function (a) {
-      var c = a.getAttribute("data-cat"), n = c ? (counts[c] || 0) : total;
+      var c = a.getAttribute("data-cat"), sb = a.getAttribute("data-sub"), n, on;
+      if (sb) { n = subCounts[c + "|" + norm(sb)] || 0; on = c === cat && sb === sub; }
+      else { n = c ? (counts[c] || 0) : total; on = c === cat && !sub && (c !== "" || !cat); }
       var badgeEl = $(".n", a); if (badgeEl) badgeEl.textContent = toFa(n);
-      a.classList.toggle("zero", n === 0 && c !== cat);
-      if (c === cat) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current");
+      a.classList.toggle("zero", n === 0 && !on);
+      if (on) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current");
+    });
+    $$(".pp-cats li.pp-cat").forEach(function (li) {
+      var a = $("a[data-cat]", li), tg = $(".pp-cat-tg", li);
+      if (a && tg && a.getAttribute("data-cat") === cat && cat) { li.classList.add("open"); tg.setAttribute("aria-expanded", "true"); }
     });
   }
+
 
   /* ---------- آدرس (قابل اشتراک‌گذاری) ---------- */
   var PARAMS = { q: "q", category: "cat", city: "city", lang: "lang", status: "status", yf: "yf", yt: "yt",
@@ -357,6 +373,7 @@
     var p = new URLSearchParams();
     if (els.q && els.q.value.trim()) p.set("q", els.q.value.trim());
     if (cat) p.set("category", cat);
+    if (sub) p.set("sub", sub);
     [["city", els.city], ["lang", els.lang], ["country", els.country], ["status", els.status], ["yf", els.yf], ["yt", els.yt],
       ["emin", els.emin], ["emax", els.emax], ["lmin", els.lmin], ["lmax", els.lmax],
       ["creator", els.creator], ["tag", els.tag]].forEach(function (x) { if (x[1].value.trim()) p.set(x[0], x[1].value.trim()); });
@@ -377,6 +394,11 @@
       var hit = data.filter(function (x) { return norm(x._cat) === want; })[0];
       cat = hit ? hit._cat : p.get("category");
     }
+    if (p.get("sub")) {
+      var ws = norm(p.get("sub")), sh = "";
+      data.some(function (x) { return (x.subcategories || []).some(function (t) { if (norm(t) === ws) { sh = t; return true; } }); });
+      sub = sh || p.get("sub");
+    }
     setSelect(els.city, p.get("city")); setSelect(els.lang, p.get("lang")); setSelect(els.country, p.get("country"));
     if (p.get("status")) els.status.value = p.get("status");
     ["yf", "yt", "emin", "emax", "lmin", "lmax", "creator", "tag"].forEach(function (k) { if (p.get(k)) els[k].value = p.get(k); });
@@ -386,13 +408,14 @@
   /* ---------- رویدادها ---------- */
   function resetAll() {
     $("#pd-filters").reset();
-    cat = ""; geo = null;
+    cat = ""; sub = ""; geo = null;
     if (els.q) els.q.value = "";
     render();
   }
   function clearChip(k) {
     if (k === "q" && els.q) els.q.value = "";
-    else if (k === "cat") cat = "";
+    else if (k === "cat") { cat = ""; sub = ""; }
+    else if (k === "sub") sub = "";
     else if (k === "geo") geo = null;
     else if (k === "year") { els.yf.value = ""; els.yt.value = ""; }
     else if (k === "ep") { els.emin.value = ""; els.emax.value = ""; }
@@ -424,11 +447,21 @@
       a.addEventListener("click", function (e) {
         if (e.metaKey || e.ctrlKey || e.shiftKey) return;
         e.preventDefault();
-        cat = a.getAttribute("data-cat") || "";
+        cat = a.getAttribute("data-cat") || ""; sub = a.getAttribute("data-sub") || "";
         render();
         if (window.innerWidth < 800) { var h = $(".pd-head"); if (h) h.scrollIntoView({ behavior: "smooth", block: "start" }); }
       });
     });
+    function tagClick(e) {
+      var t = e.target.closest && e.target.closest(".pd-tag");
+      if (!t || e.metaKey || e.ctrlKey || e.shiftKey) return;
+      e.preventDefault();
+      cat = t.getAttribute("data-cat") || ""; sub = t.getAttribute("data-sub") || "";
+      render();
+      var h = $(".pd-head"); if (h) h.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    out.addEventListener("click", tagClick);
+    var simBox = $("#pd-similar"); if (simBox) simBox.addEventListener("click", tagClick);
     $("#pd-chips").addEventListener("click", function (e) {
       var b = e.target.closest(".pd-chip"); if (b) clearChip(b.getAttribute("data-k"));
     });

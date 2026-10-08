@@ -20,6 +20,7 @@
 {% endfor %}<link rel="stylesheet" href="{{ '/assets/css/pp-polish.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-vectors.css' | relative_url }}?v=20261013">
 <link rel="stylesheet" href="{{ '/assets/css/pp-v2.css' | relative_url }}?v=20261013">
+<link rel="stylesheet" href="{{ '/assets/css/pp-v3.css' | relative_url }}?v=20261014">
 </head>
 <body data-search="{{ '/search.json' | relative_url }}">
 <a class="pp-skip" href="#main">رفتن به محتوا</a>
@@ -33,6 +34,8 @@
 </div>
 
 <div class="pp-bar">
+ <div class="pp-bar-wrap">
+  <a class="pp-bar-logo" href="{{ '/' | relative_url }}" aria-label="پرشین‌پاد، صفحه‌ی اصلی"><img class="pp-lt" src="{{ '/assets/img/persianpod-icon-animated.svg' | relative_url }}" alt="" width="52" height="52" decoding="async"><img class="pp-dk" src="{{ '/assets/img/persianpod-icon-animated-dark.svg' | relative_url }}" alt="" width="52" height="52" decoding="async" aria-hidden="true"></a>
   <header class="pp-glass">
     <nav class="pp-nav" aria-label="منوی اصلی">
       <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>پادکست‌ها</a>
@@ -59,22 +62,22 @@
       </button>
     </div>
   </header>
+ </div>
 </div>
 
 {% assign cat_names = site.podcasts | map: 'category' | compact | uniq | sort %}
 <div class="pp-shell{% if page.filters %} has-filters{% endif %}">
   <aside class="pp-side" aria-label="کنار صفحه">
-    <div class="pp-side-brand">
-      <a class="pp-side-logo" href="{{ '/' | relative_url }}" aria-label="پرشین‌پاد"><img class="pp-lt" src="{{ '/assets/img/persianpod-icon-animated.svg' | relative_url }}" alt="" width="128" height="128" decoding="async"><img class="pp-dk" src="{{ '/assets/img/persianpod-icon-animated-dark.svg' | relative_url }}" alt="" width="128" height="128" decoding="async" aria-hidden="true"></a>
-      <strong>پرشین‌پاد</strong>
-      <p class="pp-side-about">مرجع پادکست‌های فارسی</p>
-    </div>
     <nav class="pp-cats" aria-label="دسته‌بندی‌ها">
       <h2 class="pp-side-title">دسته‌بندی‌ها</h2>
+      {% assign cat_defs = site.data.categories %}
       <ul>
-        <li><a href="{{ '/' | relative_url }}" data-cat="">همه <span class="n">{{ site.podcasts.size }}</span></a></li>
+        <li class="pp-cat"><a href="{{ '/' | relative_url }}" data-cat="">همه <span class="n">{{ site.podcasts.size }}</span></a></li>
         {% for c in cat_names %}{% assign cq = c | uri_escape %}{% assign cn = site.podcasts | where: 'category', c | size %}
-        <li><a href="{{ '/?category=' | append: cq | relative_url }}" data-cat="{{ c | escape }}">{{ c }} <span class="n">{{ cn }}</span></a></li>
+        {% assign cdef = cat_defs | where: 'name', c | first %}
+        {% capture subs_html %}{% for sb in cdef.subcategories %}{% assign sn = site.podcasts | where: 'category', c | where_exp: 'p', 'p.subcategories contains sb' | size %}{% if sn > 0 %}<li><a href="{{ '/?category=' | append: c | append: '&sub=' | append: sb | uri_escape | relative_url }}" data-cat="{{ c | escape }}" data-sub="{{ sb | escape }}">{{ sb }} <span class="n">{{ sn }}</span></a></li>{% endif %}{% endfor %}{% endcapture %}
+        {% assign has_subs = subs_html | strip | size %}
+        <li class="pp-cat{% if has_subs > 0 %} has-subs{% endif %}"><a href="{{ '/?category=' | append: cq | relative_url }}" data-cat="{{ c | escape }}">{{ c }} <span class="n">{{ cn }}</span></a>{% if has_subs > 0 %}<button type="button" class="pp-cat-tg" aria-expanded="false" aria-label="زیردسته‌های {{ c | escape }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button><ul class="pp-subs">{{ subs_html }}</ul>{% endif %}</li>
         {% endfor %}
       </ul>
       {% assign n_city = site.podcasts | map: 'city' | compact | uniq | size %}

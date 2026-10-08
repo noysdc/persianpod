@@ -124,7 +124,7 @@
       out.innerHTML = order.map(function (c) {
         return '<section class="pd-group" aria-label="' + esc(c) + '"><h2 class="pd-cat">' +
           '<a class="pd-cat-link" href="?category=' + encodeURIComponent(c) + '" data-cat="' + esc(c) + '"><span class="pd-cat-ic">' + HEAD + "</span>" +
-          esc(c) + " <small>" + toFa(groups[c].length) + '</small><span class="pd-more">مشاهده‌ی همه ‹</span></a></h2>' +
+          esc(c) + " <small>" + toFa(groups[c].length) + '</small><span class="pd-more">مشاهده‌ی همه <span aria-hidden="true">←</span></span></a></h2>' +
           '<div class="pd-row-wrap">' +
           '<button type="button" class="pd-arrow pd-prev" data-dir="prev" aria-label="قبلی: ' + esc(c) + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>' +
           '<div class="pd-row pl-row" tabindex="0">' + groups[c].map(card).join("") + "</div>" +

@@ -1,0 +1,125 @@
+/* PersianPod v3: هم‌ترازی هدر با ستون محتوا، منوی تمیز، کارت‌های بزرگ‌تر، درخت دسته‌ها و چند اصلاح صفحه‌ای */
+
+/* ===== ۱) هدر و منو روی محور ستون اصلی ===== */
+:root{--pp-pad:14px;--pp-side:0px;--pp-gap:0px}
+@media(min-width:800px){:root{--pp-pad:18px;--pp-side:230px;--pp-gap:22px}}
+@media(min-width:1200px){:root{--pp-pad:28px;--pp-side:270px;--pp-gap:30px}}
+.pp-hero,.pp-bar-wrap{box-sizing:border-box;max-width:2000px;margin-inline:auto;
+  padding-inline-start:calc(var(--pp-pad) + var(--pp-side) + var(--pp-gap));padding-inline-end:var(--pp-pad)}
+.pp-bar{padding-inline:0}
+.pp-bar-wrap{position:relative;padding-top:0;padding-bottom:0}
+body.reading .pp-hero,body.reading .pp-bar-wrap{padding-inline-start:var(--pp-pad)}
+
+/* لوگوی گرد: هم‌تراز با منو، وسط ستون کناری (فقط وقتی جا هست) */
+.pp-bar-logo{display:none}
+@media(min-width:1280px){
+  .pp-bar-logo{display:grid;place-items:center;position:absolute;z-index:2;pointer-events:auto;
+    inset-inline-start:calc(var(--pp-pad) + (var(--pp-side) - 52px) / 2);top:50%;transform:translateY(-50%);
+    width:52px;height:52px;padding:11px;box-sizing:border-box;border-radius:50%;background:var(--card);
+    box-shadow:0 8px 24px -8px var(--glow-soft),0 0 0 1px var(--line)}
+  .pp-bar-logo:hover{box-shadow:0 12px 30px -6px var(--glow-soft),0 0 0 1px #08cb00}
+  .pp-bar-logo img{width:100%;height:100%;object-fit:contain}
+  body.reading .pp-bar-logo{display:none}
+}
+.pp-side-brand{display:none}
+
+/* تبلت و دسکتاپ کوچک: منو در دو ردیف مرتب */
+@media(min-width:800px) and (max-width:1099px){
+  .pp-glass{flex-wrap:wrap;max-width:100%}
+  .pp-nav{order:1;flex:1 0 100%;justify-content:space-between}
+  .pp-nav a{padding:0 8px;font-size:.84rem}
+  .pp-search{order:2;flex:1 1 200px}
+  .pp-tools{order:3}
+}
+
+/* ===== ۲) دکمه‌ی صفحه‌ی فعال در موبایل: سبز پررنگ ===== */
+@media(max-width:799px){
+  .pp-glass .pp-nav a[aria-current=page]{background:#08cb00;color:#0b0e0c;border-color:#08cb00;box-shadow:none}
+}
+
+/* ===== ۳) کارت پادکست: بزرگ‌تر، عنوان تا سه خط، برچسب‌های قابل کلیک ===== */
+.pd-grid{grid-template-columns:repeat(auto-fill,minmax(190px,1fr))!important;gap:22px 18px!important}
+.pd-row .pd-card{flex:0 0 200px!important;min-width:200px!important}
+.pd-card{padding:12px!important}
+.pd-card .pd-link{display:block;color:inherit;text-decoration:none}
+.pd-card .pd-link:focus-visible{outline:3px solid #08cb00;outline-offset:3px;border-radius:14px}
+.pd-card .pd-body{margin-top:10px}
+.pd-card .pd-body h3{font-size:1rem;line-height:1.75;-webkit-line-clamp:3;min-height:3.5em}
+.pd-card .pd-meta{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin-top:8px}
+a.pd-tag{text-decoration:none;cursor:pointer;transition:border-color .2s,box-shadow .2s,color .2s}
+a.pd-tag:hover,a.pd-tag:focus-visible{border-color:#08cb00;color:var(--ink);box-shadow:0 6px 16px -8px var(--glow);outline:none}
+@media(max-width:799px){
+  .pd-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:16px 12px!important}
+  .pd-row .pd-card{flex:0 0 170px!important;min-width:170px!important}
+}
+@media(min-width:600px) and (max-width:799px){.pd-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+
+/* فاصله‌ی چیپ‌ها و خلاصه‌ی نتیجه تا اولین کارت */
+.pd-summary{margin:14px 0 14px}
+.pd-chips{margin:0 0 20px}
+.pd-chips:empty{margin:0}
+#pd-results{margin-top:8px}
+
+/* «مشاهده‌ی همه»: فلش درست برای راست‌به‌چپ */
+.pd-more span{display:inline-block;margin-inline-start:4px;font-weight:800;transition:transform .2s}
+.pd-cat-link:hover .pd-more span,.pd-cat-link:focus-visible .pd-more span{transform:translateX(-4px)}
+
+/* ===== ۴) درخت دسته‌ها ===== */
+.pp-cats li.pp-cat{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center}
+.pp-cats li.pp-cat>a{grid-column:1}
+.pp-cat-tg{grid-column:2;display:grid;place-items:center;width:32px;height:32px;margin-inline-start:2px;border:0;border-radius:50%;
+  background:transparent;color:var(--mut);cursor:pointer}
+.pp-cat-tg:hover{background:var(--bg);color:var(--ink)}
+.pp-cat-tg:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+.pp-cat-tg svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;transition:transform .2s}
+.pp-cat.open>.pp-cat-tg svg{transform:rotate(-90deg)}
+.pp-cats .pp-subs{grid-column:1 / -1;display:none;flex:none;overflow:visible;margin:2px 16px 8px 0;padding:0 12px 0 0;
+  border-inline-start:2px solid var(--line)}
+.pp-cats .pp-cat.open>.pp-subs{display:block}
+.pp-subs li{position:relative}
+.pp-subs li::before{content:"";position:absolute;inset-inline-start:-14px;top:50%;width:12px;height:2px;background:var(--line)}
+.pp-cats .pp-subs a{padding:5px 10px;font-size:.86rem}
+@media(max-width:799px){
+  .pp-cats li.pp-cat{display:block}
+  .pp-cats .pp-subs,.pp-cats .pp-cat-tg{display:none!important}
+}
+
+/* ===== ۵) صفحه‌ی پادکست: پلیر زیر مشخصات، ستون چپ ===== */
+.pod-listen{margin-top:18px}
+.pod-listen h2{margin:0 0 10px;font-size:1rem;text-align:center}
+.pod-listen .pp-embed-box{padding:14px}
+.pod-listen .pp-poster-note{font-size:.84rem;line-height:1.9}
+.pod-listen .pp-poster-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;white-space:normal;line-height:1.7;text-align:center}
+.pod-end{margin-top:36px}
+
+/* ===== ۶) مقایسه: جعبه‌ی جمع‌وجور و وسط ===== */
+.cp{max-width:900px;margin-inline:auto}
+
+/* ===== ۷) آموزش‌ها: وسط‌چین و دو ستونه ===== */
+.pp-learn{max-width:1000px}
+.pp-learn h1,.pp-learn .pp-lead{text-align:center}
+.pp-learn .pp-lead{max-width:720px;margin:0 auto 1rem}
+.pp-learn-tools{max-width:640px;margin:1.2rem auto}
+.pp-learn-tools input{text-align:center}
+.pp-tags{justify-content:center}
+.pp-learn-list{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px!important}
+.pp-learn-item{display:flex;flex-direction:column;padding:16px 18px}
+.pp-learn-item h2{font-size:1.02rem;line-height:1.8}
+.pp-learn-item .pp-learn-meta{margin-top:auto;padding-top:10px}
+@media(max-width:799px){.pp-learn-list{grid-template-columns:1fr!important}}
+
+/* صفحه‌ی اصلی (فیلتر چپ دارد): در عرض‌های بزرگ هدر دقیقاً روی ستون نتایج می‌نشیند */
+@media(min-width:1500px){
+  body:has(.pp-shell.has-filters) .pp-hero,
+  body:has(.pp-shell.has-filters) .pp-bar-wrap{padding-inline-end:calc(var(--pp-pad) + 310px + var(--pp-gap))}
+}
+
+/* موبایل: پلیر و دکمه‌ها بالاتر از متن بلند، مشخصات بعد از متن */
+@media(max-width:900px){
+  .pod .cols{display:flex;flex-direction:column;gap:18px}
+  .pod .cols>aside{display:contents}
+  .pod .cols .pod-listen{order:-2;margin-top:0}
+  .pod .cols .links{order:-1;margin:0}
+  .pod .cols .body{order:0}
+  .pod .cols .facts{order:1}
+}

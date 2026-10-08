@@ -42,3 +42,14 @@
   function sc() { b.classList.toggle('scrolled', window.scrollY > 8); }
   window.addEventListener('scroll', sc, { passive: true }); sc();
 })();
+
+/* درخت دسته‌ها: باز و بسته‌کردن زیردسته‌ها (واگذاری رویداد؛ بعد از ناوبری نرم هم کار می‌کند) */
+(function () {
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest && e.target.closest('.pp-cat-tg');
+    if (!t) return;
+    var li = t.closest('.pp-cat'); if (!li) return;
+    var open = li.classList.toggle('open');
+    t.setAttribute('aria-expanded', String(open));
+  });
+})();

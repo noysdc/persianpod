@@ -50,7 +50,7 @@ layout: default
       {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
       <div class="pod-pills">
         {% if page.category %}<a class="pod-pill on" href="{{ '/?category=' | append: page.category | uri_escape | relative_url }}">{{ page.category }}</a>{% endif %}
-        {% assign subs = page.subcategories %}{% if subs == nil and page.subcategory %}{% assign subs = page.subcategory | split: '،' %}{% endif %}{% for s in subs %}<a class="pod-pill" href="{{ '/?q=' | append: s | uri_escape | relative_url }}">{{ s }}</a>{% endfor %}
+        {% assign subs = page.subcategories %}{% if subs == nil and page.subcategory %}{% assign subs = page.subcategory | split: '،' %}{% endif %}{% for s in subs %}<a class="pod-pill" href="{{ '/?category=' | append: page.category | append: '&sub=' | append: s | uri_escape | relative_url }}">{{ s }}</a>{% endfor %}
         <span class="pod-state {{ stv }}">{% if stv == 'active' %}فعال{% elsif stv == 'paused' %}متوقف{% else %}پایان‌یافته{% endif %}</span>
       </div>
     </div>
@@ -88,6 +88,18 @@ layout: default
         {% if freq %}<dt>دوره‌ی انتشار</dt><dd>{{ freq }}</dd>{% endif %}
         {% if page.duration %}<dt>مدت هر قسمت</dt><dd>{{ page.duration }}</dd>{% endif %}
       </dl>
+      {% if embed_src != '' %}
+      <div class="pod-listen">
+    <h2 id="listen-h">همین‌جا گوش بده</h2>
+    <div class="pp-embed-box pp-poster">
+      <p class="pp-poster-note">با زدن دکمه‌ی پخش، پلیر به‌صورت شناور باز می‌شود و هنگام گشت‌وگذار در سایت هم پخش ادامه پیدا می‌کند.</p>
+      <button type="button" class="pp-poster-btn" data-pp-embed="{{ embed_src }}" data-title="{{ page.title | escape }}" data-page="{{ page.podcast_link | default: page.castbox_channel | escape }}">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>پخش {{ page.title | escape }}
+      </button>
+      <noscript><p><a href="{{ embed_src }}" rel="noopener">باز کردن پلیر</a></p></noscript>
+    </div>
+      </div>
+      {% endif %}
     </aside>
   </div>
 
@@ -98,17 +110,7 @@ layout: default
 
   {%- comment -%} انتهای هر معرفی: پلیر پادکست، بعد جداکننده، بعد خبرنامه {%- endcomment -%}
   <div class="pod-end">
-    {% if embed_src != '' %}
-    <h2 id="listen-h">همین‌جا گوش بده</h2>
-    <div class="pp-embed-box pp-poster">
-      <p class="pp-poster-note">با زدن دکمه‌ی پخش، پلیر به‌صورت شناور باز می‌شود و هنگام گشت‌وگذار در سایت هم پخش ادامه پیدا می‌کند.</p>
-      <button type="button" class="pp-poster-btn" data-pp-embed="{{ embed_src }}" data-title="{{ page.title | escape }}" data-page="{{ page.podcast_link | default: page.castbox_channel | escape }}">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>پخش {{ page.title | escape }}
-      </button>
-      <noscript><p><a href="{{ embed_src }}" rel="noopener">باز کردن پلیر</a></p></noscript>
-    </div>
-    <hr class="pp-divider">
-    {% endif %}
+    {% if embed_src != '' %}<hr class="pp-divider">{% endif %}
     {% include pp-newsletter.html %}
   </div>
 </article>
