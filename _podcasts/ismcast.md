@@ -29,7 +29,7 @@ youtube: ""
 instagram: ""
 telegram: "https://t.me/ismcast"
 threads: ""
-website: "https://ismcast.it"
+website: "https://ismcast.ir"
 email: "mehrnoushmojabi@gmail.com"
 sponsor_tg: "@Mehrnoooooshm4"
 collab: true
