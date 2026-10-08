@@ -30,7 +30,7 @@ instagram: "https://www.instagram.com/women_in_science_podcast"
 telegram: "https://t.me/wispodcast"
 threads: ""
 website: "https://zanandarelm.ir"
-email: "mehrnoushmojabi@gmail.com"
+<!-- ایمیل: mehrnoushmojabi@gmail.com -->
 collab: true
 collab_types: "اسپانسری قسمت، همکاری محتوایی، دعوت از مهمان"
 ---
