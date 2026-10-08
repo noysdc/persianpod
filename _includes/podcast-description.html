@@ -1,4 +1,0 @@
-{%- if page.description and page.description != "" -%}{{ page.description | strip_newlines | escape }}
-{%- elsif page.collection == "podcasts" -%}پادکست {{ page.title | escape }}{% if page.creator %} از {{ page.creator | escape }}{% endif %}{% if page.category %} در دسته‌ی {{ page.category | escape }}{% endif %}؛ معرفی کامل، لینک‌های شنیدن و شبکه‌های اجتماعی در پرشین‌پاد.
-{%- else -%}{{ site.description | escape }}
-{%- endif -%}
