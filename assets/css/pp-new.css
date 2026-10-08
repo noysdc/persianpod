@@ -1,29 +1,205 @@
-/* PersianPod: صفحه‌ی «تازه‌ها» */
-.nw-status{margin:8px 0 14px;color:var(--mut);font-size:.9rem}
-.nw-list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
-.nw-row{display:grid;grid-template-columns:40px 64px 1fr auto;gap:12px;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:20px;background:var(--card);
-  transition:box-shadow .3s ease,border-color .3s ease}
-.nw-row.moved{border-color:#08cb00;box-shadow:0 8px 26px var(--glow-soft)}
-.nw-rank{text-align:center;font-weight:800;color:var(--mut)}
-.nw-logo{width:64px;height:64px;border-radius:16px;object-fit:cover;display:grid;place-items:center;background:var(--line);color:var(--acc);font-style:normal;font-weight:800;font-size:1.6rem}
-.nw-main{min-width:0}
-.nw-main h2{margin:0;font-size:1.02rem;line-height:1.6}
-.nw-main h2 a{color:var(--ink);text-decoration:none}
-.nw-main h2 a:hover{text-decoration:underline}
-.nw-cat{margin-inline-start:8px;padding:0 9px;border:1px solid var(--line);border-radius:999px;color:var(--mut);font-size:.74rem;font-weight:400}
-.nw-ep{display:block;margin-top:2px;color:var(--mut);font-size:.88rem;line-height:1.8;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.nw-ep a{color:inherit}
-.nw-side{display:flex;flex-direction:column;align-items:flex-end;gap:6px;text-align:end}
-.nw-time{font-size:.85rem;color:var(--ink);white-space:nowrap}
-.nw-new{display:inline-block;margin-inline-end:6px;padding:0 8px;border-radius:999px;background:#08cb00;color:#0b0e0c;font-size:.72rem;font-weight:800}
-.nw-listen{display:inline-flex;align-items:center;min-height:32px;padding:0 14px;border:1px solid #08cb00;border-radius:999px;color:var(--acc);font-size:.82rem;text-decoration:none}
-.nw-listen:hover{box-shadow:0 6px 18px var(--glow-soft)}
-.nw-listen:focus-visible,.nw-main a:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
-.nw-none .nw-time{color:var(--mut)}
-.nw-sep{margin:16px 0 4px;color:var(--mut);font-size:.9rem}
-.nw-note{margin-top:18px;color:var(--mut);font-size:.85rem;line-height:1.9}
-@media(max-width:640px){
-  .nw-row{grid-template-columns:28px 52px 1fr;grid-template-areas:"r l m" ". . s"}
-  .nw-rank{grid-area:r}.nw-logo{grid-area:l;width:52px;height:52px}.nw-main{grid-area:m}
-  .nw-side{grid-area:s;flex-direction:row;align-items:center;justify-content:space-between;text-align:start}
+/* PersianPod: صفحه‌ی «تازه‌ها» (جایگزین کامل assets/css/pp-new.css)
+   ساختار هر ردیف از pp-new.js می‌آید:
+   li.nw-row > .nw-rank, .nw-logo, .nw-main(h2 > a + .nw-cat, .nw-ep), .nw-side(.nw-time, .nw-listen)
+   رنگ‌ها عمداً از currentColor/شفافیت ساخته شده‌اند تا در حالت روز و شب خودکار درست باشند. */
+
+.nw{direction:rtl}
+
+.nw-status{margin:.4rem 0 1rem;min-height:1.5em;font-size:.85rem;opacity:.7}
+
+.nw-list{list-style:none;margin:0;padding:0}
+
+/* ---------- ردیف ---------- */
+.nw .nw-row{
+  display:grid;
+  grid-template-columns:2rem 64px minmax(0,1fr) auto;
+  grid-template-areas:"rank logo main side";
+  align-items:center;
+  gap:.9rem 1rem;
+  margin:0 0 .65rem;
+  padding:.85rem 1rem;
+  border:1px solid rgba(127,127,127,.28);
+  border-radius:14px;
+  background:rgba(127,127,127,.06);
+  transition:border-color .2s ease,box-shadow .2s ease,transform .2s ease;
+}
+.nw .nw-row:hover{
+  border-color:#08CB00;
+  box-shadow:0 6px 22px rgba(0,255,156,.18);
+}
+.nw .nw-row.nw-none{opacity:.78}
+
+.nw .nw-rank{
+  grid-area:rank;
+  text-align:center;
+  font-size:.95rem;
+  font-weight:600;
+  opacity:.55;
+}
+
+/* ---------- لوگو ---------- */
+.nw .nw-logo{
+  grid-area:logo;
+  display:block;
+  width:64px;height:64px;
+  border-radius:14px;
+  object-fit:cover;
+  background:#fff;
+  border:1px solid rgba(127,127,127,.35);   /* قاب برای کاورهای سفید */
+}
+.nw i.nw-logo{
+  display:grid;place-items:center;
+  font-style:normal;font-weight:700;font-size:1.5rem;
+  background:rgba(127,127,127,.15);
+}
+
+/* ---------- عنوان و دسته ---------- */
+.nw .nw-main{grid-area:main;min-width:0}
+
+.nw .nw-main h2{
+  margin:0;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:.3rem .6rem;
+  font-size:1.05rem;
+  line-height:1.8;
+  font-weight:700;
+}
+.nw .nw-main h2 a{
+  color:inherit;
+  text-decoration:none;
+  unicode-bidi:isolate;          /* علامت‌ها، عدد و لاتین داخل عنوان به‌هم نریزد */
+  overflow-wrap:anywhere;
+}
+.nw .nw-main h2 a:hover{text-decoration:underline;text-underline-offset:4px}
+
+.nw .nw-cat{
+  flex:0 0 auto;
+  display:inline-block;
+  padding:.05rem .7rem;
+  border:1px solid rgba(127,127,127,.5);
+  border-radius:999px;
+  font-size:.74rem;
+  font-weight:500;
+  line-height:1.8;
+  white-space:nowrap;
+  opacity:.9;
+}
+
+/* عنوان آخرین قسمت: کامل نمایش داده می‌شود، بدون بریدن */
+.nw .nw-ep{
+  display:block;
+  margin-top:.2rem;
+  font-size:.9rem;
+  line-height:1.9;
+  opacity:.85;
+  unicode-bidi:isolate;
+  overflow-wrap:anywhere;
+}
+.nw .nw-ep a{
+  color:inherit;
+  text-decoration:underline;
+  text-decoration-color:rgba(127,127,127,.55);
+  text-underline-offset:4px;
+}
+.nw .nw-ep a:hover{text-decoration-color:#08CB00}
+
+/* ---------- زمان و دکمه ---------- */
+.nw .nw-side{
+  grid-area:side;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:.5rem;
+  white-space:nowrap;
+}
+.nw .nw-time{font-size:.85rem;opacity:.85;display:inline-flex;align-items:center;gap:.4rem}
+
+.nw .nw-new{
+  display:inline-block;
+  padding:.05rem .5rem;
+  border-radius:999px;
+  background:#08CB00;
+  color:#04210a;
+  font-size:.7rem;
+  font-weight:700;
+  line-height:1.7;
+}
+
+.nw .nw-listen{
+  display:inline-block;
+  padding:.3rem 1rem;
+  border:1px solid #08CB00;
+  border-radius:999px;
+  color:inherit;
+  font-size:.85rem;
+  text-decoration:none;
+  transition:background .2s ease,box-shadow .2s ease;
+}
+.nw .nw-listen:hover,.nw .nw-listen:focus-visible{
+  background:rgba(8,203,0,.14);
+  box-shadow:0 0 14px rgba(0,255,156,.35);
+}
+
+/* ---------- جداکننده و یادداشت ---------- */
+.nw .nw-sep{
+  list-style:none;
+  margin:1.4rem 0 .7rem;
+  padding-top:.8rem;
+  border-top:1px dashed rgba(127,127,127,.45);
+  font-size:.85rem;
+  opacity:.7;
+}
+.nw .nw-note{margin:1.5rem 0 0;font-size:.82rem;line-height:2;opacity:.7}
+
+/* ردیفی که جابه‌جا شده، چند ثانیه می‌درخشد */
+@keyframes nwMoved{
+  from{box-shadow:0 0 0 2px rgba(0,255,156,.55),0 0 20px rgba(0,255,156,.45)}
+  to{box-shadow:0 0 0 0 rgba(0,255,156,0)}
+}
+.nw .nw-row.moved{animation:nwMoved 4s ease-out}
+@media (prefers-reduced-motion:reduce){
+  .nw .nw-row,.nw .nw-listen{transition:none}
+  .nw .nw-row.moved{animation:none}
+}
+
+/* ---------- تبلت ---------- */
+@media (max-width:900px){
+  .nw .nw-row{grid-template-columns:1.8rem 56px minmax(0,1fr) auto;gap:.8rem;padding:.8rem .9rem}
+  .nw .nw-logo{width:56px;height:56px;border-radius:12px}
+  .nw .nw-main h2{font-size:1rem}
+}
+
+/* ---------- موبایل: دکمه و زمان می‌روند زیر متن ---------- */
+@media (max-width:640px){
+  .nw .nw-row{
+    grid-template-columns:1.5rem 52px minmax(0,1fr);
+    grid-template-areas:
+      "rank logo main"
+      "side side side";
+    align-items:start;
+    gap:.55rem .75rem;
+    padding:.8rem;
+  }
+  .nw .nw-rank{padding-top:.25rem;font-size:.85rem}
+  .nw .nw-logo{width:52px;height:52px;border-radius:12px}
+  .nw .nw-main h2{font-size:.98rem;line-height:1.75}
+  .nw .nw-ep{font-size:.86rem}
+  .nw .nw-side{
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    padding-top:.6rem;
+    border-top:1px dashed rgba(127,127,127,.35);
+  }
+  .nw .nw-listen{padding:.35rem 1.1rem}
+}
+
+/* ---------- موبایل‌های خیلی باریک ---------- */
+@media (max-width:360px){
+  .nw .nw-row{grid-template-columns:48px minmax(0,1fr);grid-template-areas:"logo main" "side side"}
+  .nw .nw-rank{display:none}
+  .nw .nw-logo{width:48px;height:48px}
 }
