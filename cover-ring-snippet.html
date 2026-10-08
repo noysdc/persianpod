@@ -1,0 +1,17 @@
+<!-- ===== نمونه استفاده در Jekyll / Liquid ===== -->
+
+<!-- ۱) صفحه‌ی «پادکست‌ها» (کارت بزرگ) -->
+<span class="cover-ring cover-ring--lg">
+  <img src="{{ podcast.logo }}" alt="{{ podcast.title }}" loading="lazy">
+</span>
+
+<!-- ۲) صفحه‌ی «تازه‌ها» (تصویر کوچک کنار عنوان) -->
+<span class="cover-ring cover-ring--sm">
+  <img src="{{ podcast.logo }}" alt="{{ podcast.title }}" loading="lazy">
+</span>
+
+<!--
+  نکته: به جای <img> خالی قبلی، همین wrapper رو بذار.
+  اگه کلاس فعلی روی <img> داری (مثلاً class="thumb")، می‌تونی نگهش داری،
+  فقط wrapper رو دورش اضافه کن.
+-->

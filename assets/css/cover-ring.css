@@ -1,0 +1,73 @@
+/* =========================================================
+   قاب سبز دور کاور پادکست‌ها (PersianPod)
+   این فایل رو در assets/css/ بذار و در layout اصلی لینک کن:
+   <link rel="stylesheet" href="/assets/css/cover-ring.css">
+   (یا محتواش رو آخر فایل CSS اصلی کپی کن)
+   ========================================================= */
+
+:root {
+  --cover-ring-color: #00c800;   /* رنگ قاب */
+  --cover-ring-width: 2px;       /* ضخامت قاب */
+  --cover-ring-gap: 6px;         /* فاصله‌ی بین قاب و عکس */
+  --cover-ring-bg: #fff;         /* رنگ فاصله‌ی داخل قاب */
+}
+
+/* ---------- روش ۱ (پیشنهادی): با wrapper ----------
+   HTML:
+   <span class="cover-ring">
+     <img src="{{ p.logo }}" alt="{{ p.title }}" loading="lazy">
+   </span>
+*/
+.cover-ring {
+  display: inline-block;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  padding: var(--cover-ring-gap);
+  background: var(--cover-ring-bg);
+  border: var(--cover-ring-width) solid var(--cover-ring-color);
+  border-radius: 22px;
+  line-height: 0;
+}
+
+.cover-ring img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* اندازه‌ها: کارت بزرگ (صفحه‌ی پادکست‌ها) */
+.cover-ring--lg { width: 100%; max-width: 300px; }
+
+/* اندازه‌ها: لیست کوچک (صفحه‌ی تازه‌ها) */
+.cover-ring--sm {
+  width: 72px;
+  height: 72px;
+  padding: 4px;
+  border-radius: 16px;
+}
+.cover-ring--sm img { border-radius: 11px; }
+
+
+/* ---------- روش ۲: بدون تغییر HTML ----------
+   اگه نمی‌خوای HTML رو دست بزنی، فقط سلکتور رو با کلاس خودت عوض کن.
+   مثلاً: .podcast-card img  یا  .latest-item img
+   (خط زیر رو از کامنت دربیار و سلکتور رو اصلاح کن)
+
+.podcast-card img,
+.latest-item img {
+  border-radius: 16px;
+  outline: var(--cover-ring-width) solid var(--cover-ring-color);
+  outline-offset: var(--cover-ring-gap);
+  margin: calc(var(--cover-ring-gap) + var(--cover-ring-width));
+  object-fit: cover;
+}
+*/
+
+
+/* ---------- حالت تیره (اختیاری) ---------- */
+@media (prefers-color-scheme: dark) {
+  :root { --cover-ring-bg: #111; }
+}
