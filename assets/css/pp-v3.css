@@ -123,3 +123,23 @@ a.pd-tag:hover,a.pd-tag:focus-visible{border-color:#08cb00;color:var(--ink);box-
   .pod .cols .body{order:0}
   .pod .cols .facts{order:1}
 }
+
+/* ===== آموزش‌ها: pp-pages.css بعد از این فایل لود می‌شود، پس با اولویت بالاتر ===== */
+section.pp-learn{max-width:1000px;margin-inline:auto}
+section.pp-learn .pp-learn-tools{display:grid;max-width:640px;width:100%;margin:1.2rem auto}
+section.pp-learn .pp-learn-tools input{width:100%;text-align:center}
+section.pp-learn .pp-tags{justify-content:center}
+section.pp-learn h1,section.pp-learn .pp-lead{text-align:center}
+
+/* ===== تازه‌ها: متن قسمت کوتاه نشود، تا دو خط بیاید ===== */
+.nw-ep{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;white-space:normal;overflow:hidden;overflow-wrap:anywhere}
+.nw-main h2{overflow-wrap:anywhere}
+
+/* ===== دکمه‌ی نصب برنامه ===== */
+.pp-install{display:inline-block}
+.pp-install[hidden]{display:none}
+.pp-install button{padding:3px 12px;border:1px solid #08cb00;border-radius:999px;background:transparent;color:var(--acc);font:inherit;font-size:.86rem;font-weight:700;cursor:pointer}
+.pp-install button:hover{box-shadow:0 4px 14px var(--glow-soft)}
+.pp-install button:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+.pp-install-hint{margin:8px 6px 0;font-size:.82rem;line-height:1.9;color:var(--mut);text-align:center}
+.pp-install-hint[hidden]{display:none}

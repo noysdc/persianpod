@@ -1,0 +1,35 @@
+---
+layout: null
+permalink: /offline/
+sitemap: false
+---
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>آفلاین | پرشین‌پاد</title>
+<style>
+  :root{color-scheme:light dark;--bg:#f4f6f4;--ink:#16201a;--mut:#5d6b61;--card:#fff;--line:#d9e0da}
+  @media(prefers-color-scheme:dark){:root{--bg:#0b0e0c;--ink:#e9f0ea;--mut:#8fa095;--card:#131916;--line:#243028}}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;background:var(--bg);color:var(--ink);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.9;text-align:center}
+  main{max-width:420px;padding:32px 24px;border:1px solid var(--line);border-radius:24px;background:var(--card)}
+  .mark{display:grid;grid-template-columns:repeat(2,26px);gap:6px;justify-content:center;margin:0 auto 16px}
+  .mark i{display:block;width:26px;height:26px;border-radius:7px;background:#1b2340}
+  .mark i:nth-child(3){background:#08cb00}
+  h1{margin:0 0 8px;font-size:1.3rem}
+  p{margin:0 0 18px;color:var(--mut)}
+  a,button{display:inline-block;padding:8px 22px;border:0;border-radius:999px;background:#08cb00;color:#0b0e0c;font:inherit;font-weight:800;text-decoration:none;cursor:pointer}
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <h1>اینترنت وصل نیست</h1>
+  <p>برای دیدن فهرست پادکست‌ها به اینترنت نیاز است. صفحه‌هایی که قبلاً دیده‌ای ممکن است آفلاین هم باز شوند.</p>
+  <button type="button" onclick="location.reload()">تلاش دوباره</button>
+</main>
+</body>
+</html>

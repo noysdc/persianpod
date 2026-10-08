@@ -53,3 +53,28 @@
     t.setAttribute('aria-expanded', String(open));
   });
 })();
+
+/* PWA: ثبت service worker و دکمه‌ی «نصب روی گوشی» */
+(function () {
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+    window.addEventListener('load', function () { navigator.serviceWorker.register('/sw.js').catch(function () {}); });
+  }
+  var deferred = null;
+  var standalone = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
+  var ios = /iphone|ipad|ipod/i.test(navigator.userAgent) && !window.MSStream;
+  function sync() {
+    var li = document.querySelector('.pp-install');
+    if (!li) return;
+    li.hidden = standalone || !(deferred || ios);
+  }
+  window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); deferred = e; sync(); });
+  window.addEventListener('appinstalled', function () { deferred = null; standalone = true; sync(); });
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('#pp-install');
+    if (!b) return;
+    if (deferred) { deferred.prompt(); deferred.userChoice.finally(function () { deferred = null; sync(); }); }
+    else if (ios) { var h = document.querySelector('.pp-install-hint'); if (h) h.hidden = !h.hidden; }
+  });
+  document.addEventListener('pp:navigate', sync);
+  if (document.readyState !== 'loading') sync(); else document.addEventListener('DOMContentLoaded', sync);
+})();

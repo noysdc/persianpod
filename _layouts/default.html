@@ -12,6 +12,13 @@
 <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" sizes="any">
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/persianpod-icon.svg' | relative_url }}">
 <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
+<link rel="manifest" href="{{ '/manifest.webmanifest' | relative_url }}">
+<meta name="theme-color" content="#f4f6f4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0e0c" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="پرشین‌پاد">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <script>(function(){try{var d=document.documentElement,t=localStorage.getItem('pp-theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';d.setAttribute('data-theme',t);var f=parseFloat(localStorage.getItem('pp-fs'));if(f)d.style.setProperty('--fs',f)}catch(e){}})()</script>
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-tools.css' | relative_url }}">
@@ -101,7 +108,9 @@
         <li><a href="{{ '/about-us/' | relative_url }}">درباره‌ی ما</a></li>
         <li><a href="{{ '/disclaimer/' | relative_url }}">سلب مسئولیت</a></li>
         <li><a href="{{ '/form/' | relative_url }}">ثبت پادکست</a></li>
+        <li class="pp-install" hidden><button type="button" id="pp-install">نصب روی گوشی</button></li>
       </ul>
+      <p class="pp-install-hint" hidden>در سافاری روی دکمه‌ی اشتراک‌گذاری بزن و «افزودن به صفحه‌ی اصلی» را انتخاب کن.</p>
       <p class="pp-copy">© <span data-year>{{ site.time | date: "%Y" }}</span> پرشین‌پاد</p>
     </div>
   </aside>
