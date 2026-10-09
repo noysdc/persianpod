@@ -43,10 +43,15 @@ def g2j(gy, gm, gd):
 
 def front_matter(path):
     text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+    # جداکننده فقط یک خطِ تنهای --- است؛ split ساده روی "---" لینک‌هایی مثل کست‌باکس را که --- دارند نصف می‌کرد
+    m = re.match(r"^---[ \t]*\r?\n(.*?)\r?\n---[ \t]*(?:\r?\n|$)", text, re.S)
+    if not m:
         return {}
-    parts = text.split("---", 2)
-    return (yaml.safe_load(parts[1]) or {}) if len(parts) >= 3 else {}
+    try:
+        return yaml.safe_load(m.group(1)) or {}
+    except yaml.YAMLError as e:      # فایل خراب نباید کل اجرا را از کار بیندازد
+        print(f"WARN {path.name}: front matter invalid: {e}", file=sys.stderr)
+        return {}
 
 
 def parse_duration(s):
