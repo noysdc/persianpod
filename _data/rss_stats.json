@@ -1,4 +1,51 @@
 {
+  "1000frames": {
+    "avg_gap_days": 46.6,
+    "avg_length": 30,
+    "episodes": 30,
+    "eps_365": 6,
+    "eps_90": 4,
+    "first_year": 1403,
+    "last": "1405/07/10",
+    "last_at": "2026-10-02T11:05:07Z",
+    "last_link": "https://shows.acast.com/1000-frames/episodes/episode28",
+    "last_title": "عملیات نجات اروپا",
+    "max_length": 44,
+    "median_length": 29,
+    "min_length": 13,
+    "recent": [
+      {
+        "at": "2026-10-02T11:05:07Z",
+        "link": "https://shows.acast.com/1000-frames/episodes/episode28",
+        "title": "عملیات نجات اروپا"
+      },
+      {
+        "at": "2026-09-10T18:53:20Z",
+        "link": "https://shows.acast.com/1000-frames/episodes/episode27",
+        "title": "در ستایش سوگ"
+      },
+      {
+        "at": "2026-08-17T12:20:02Z",
+        "link": "https://shows.acast.com/1000-frames/episodes/episode26",
+        "title": "جیم کری؛ مرد همیشه خندان"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      2
+    ],
+    "status": "active"
+  },
   "doxpodcast": {
     "avg_gap_days": 20.6,
     "avg_length": 69,
@@ -322,9 +369,9 @@
       0,
       0,
       0,
-      6,
+      7,
       26,
-      11
+      10
     ],
     "status": "active"
   },
