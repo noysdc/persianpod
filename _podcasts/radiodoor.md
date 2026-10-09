@@ -16,6 +16,7 @@ logo: /assets/img/podcasts/radiodoor.webp
 castbox_id: "7414995"
 castbox_channel: "https://castbox.fm/ch/7414995"
 apple_podcasts: "https://podcasts.apple.com/us/podcast/radio-door-%D8%B1%D8%A7%D8%AF%DB%8C%D9%88-%D8%AF%D9%88%D8%B1/id1775422795"
+rss: "https://api.rabt.host/podcasts/da3715e0-2533-4c94-bfa3-3c296a4fda16/rss"
 instagram: "https://instagram.com/radiodoorpod"
 collab: true
 collab_types: "دعوت از مهمان، معرفی متقابل"
