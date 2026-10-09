@@ -1,0 +1,79 @@
+/* ردیف‌های دسته‌بندی صفحه‌ی اصلی: مینیمال و یکدست در موبایل، تبلت و دسکتاپ.
+   این فایل آخرین استایل است و فقط داخل .pd-group کار می‌کند (نمای فیلترشده و صفحه‌های دیگر دست‌نخورده می‌مانند). */
+
+.pd-group { margin-top: 34px; }
+.pd-group:first-child { margin-top: 18px; }
+
+/* --- سرتیتر هر دسته --- */
+.pd-group .pd-cat { margin: 0 0 6px; font-size: 1.12rem; }
+.pd-group .pd-cat-link { gap: 12px; padding: 4px 2px; box-shadow: none !important; }
+.pd-group .pd-cat-ic { display: grid; place-items: center; flex: none; width: 36px; height: 36px; border-radius: 12px;
+  background: transparent !important; border: 1px solid var(--line); color: var(--acc); box-shadow: none !important; }
+.pd-group .pd-cat-ic svg { width: 19px; height: 19px; }
+.pd-group .pd-cat small { margin-inline-start: 2px; font-size: .8rem; font-weight: 600; color: var(--mut); }
+.pd-group .pd-more { display: inline-flex; align-items: center; gap: 2px; padding: 4px 12px; border-radius: 999px;
+  border: 1px solid var(--line); font-size: .8rem; font-weight: 700; color: var(--mut);
+  transition: color .2s ease, border-color .2s ease; }
+.pd-group .pd-cat-link:hover .pd-more, .pd-group .pd-cat-link:focus-visible .pd-more { color: var(--acc); border-color: rgba(8,203,0,.5); }
+
+/* --- ردیف اسلاید --- */
+/* عرض کارت از عرض خودِ بخش می‌آید (container query)، پس در هر چیدمانی چند کارت کامل + لبه‌ی کارت بعدی دیده می‌شود */
+.pd-group { container-type: inline-size; }
+.pd-group .pd-row-wrap { --gap: 14px; --w: 38cqw; }
+@container (min-width: 520px) { .pd-group .pd-row-wrap { --w: 24cqw; } }
+@container (min-width: 760px) { .pd-group .pd-row-wrap { --w: 19cqw; } }
+@container (min-width: 1000px) { .pd-group .pd-row-wrap { --w: 15.5cqw; } }
+
+.pd-group .pd-row { gap: var(--gap); padding: 10px 6px 14px; scroll-snap-type: x mandatory; scroll-padding-inline: 6px;
+  scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+.pd-group .pd-row::-webkit-scrollbar { display: none; }
+.pd-group .pd-row-wrap:not(.no-scroll) .pd-row {
+  /* فقط لبه‌ی انتهایی (چپ) کمرنگ می‌شود تا معلوم باشد ادامه دارد؛ ابتدای ردیف سالم می‌ماند */
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 40px);
+          mask-image: linear-gradient(to right, transparent 0, #000 40px); }
+
+/* --- کارت --- */
+.pd-group .pd-row .pd-card { flex: 0 0 var(--w) !important; min-width: 0 !important; max-width: 180px; padding: 0 !important; border: 0 !important;
+  background: none !important; border-radius: 0 !important; box-shadow: none !important; text-align: start; scroll-snap-align: start; }
+.pd-group .pd-row .pd-card:hover, .pd-group .pd-row .pd-card:focus-within { transform: none !important; border: 0 !important; box-shadow: none !important; }
+.pd-group .pd-card .pd-link { display: block; }
+.pd-group .pd-card .pd-logo { display: block; width: 100%; height: auto; aspect-ratio: 1; padding: 0 !important; border: 0 !important;
+  border-radius: 22px; overflow: hidden; background: var(--line);
+  box-shadow: 0 0 0 1px var(--line), 0 8px 18px -12px rgba(0,0,0,.45) !important;
+  transition: transform .25s ease, box-shadow .25s ease; }
+.pd-group .pd-card .pd-logo img { width: 100%; height: 100%; object-fit: cover; border-radius: 0 !important; display: block; }
+.pd-group .pd-card .pd-logo i { display: grid; place-items: center; width: 100%; height: 100%; font-size: 2.6rem; }
+.pd-group .pd-card:hover .pd-logo, .pd-group .pd-card:focus-within .pd-logo {
+  transform: translateY(-4px); box-shadow: 0 0 0 1px rgba(8,203,0,.55), 0 16px 28px -14px var(--glow) !important; }
+.pd-group .pd-card .pd-link:focus-visible { outline: 3px solid #08cb00; outline-offset: 4px; border-radius: 22px; }
+
+.pd-group .pd-card .pd-body { margin-top: 12px; text-align: start; }
+.pd-group .pd-card .pd-body h3 { margin: 0; font-size: .95rem; font-weight: 700; line-height: 1.7; text-align: start;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 3.4em; }
+
+/* در ردیفِ یک دسته، اسم دسته تکراری است؛ فقط اولین زیردسته (و برچسب «غیرفعال») به‌صورت متن ساده دیده می‌شود */
+.pd-group .pd-card .pd-meta { display: block; margin: 2px 0 0; text-align: start; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pd-group .pd-card .pd-b { display: inline; padding: 0 !important; border: 0 !important; background: none !important; border-radius: 0;
+  font-size: .78rem; color: var(--mut) !important; text-decoration: none; }
+.pd-group .pd-card .pd-b:hover { color: var(--acc) !important; }
+.pd-group .pd-card .pd-meta .pd-b:first-child { display: none; }
+.pd-group .pd-card .pd-meta .pd-b:nth-child(n+3):not(.off) { display: none; }
+.pd-group .pd-card .pd-b.off { margin-inline-start: 8px; padding: 0 8px !important; border: 1px solid var(--line) !important; border-radius: 999px; opacity: .85; }
+
+/* --- فلش‌ها (فقط دستگاه‌های با ماوس) --- */
+.pd-group .pd-arrow { top: calc(var(--w) / 2 + 10px); width: 38px; height: 38px; opacity: 0; transition: opacity .2s ease, box-shadow .2s ease; }
+.pd-group .pd-row-wrap:hover .pd-arrow, .pd-group .pd-arrow:focus-visible { opacity: 1; }
+.pd-group .pd-prev { right: -10px; } .pd-group .pd-next { left: -10px; }
+@media (hover: none) { .pd-group .pd-arrow { display: none !important; } }
+
+/* --- موج جداکننده: آرام‌تر --- */
+.pd-wave { max-width: 160px; height: 14px; margin: 26px auto 4px; opacity: .35; }
+
+@media (max-width: 799px) {
+  .pd-group { margin-top: 26px; }
+  .pd-group .pd-row { padding-inline: 2px; }
+  .pd-group .pd-card .pd-logo { border-radius: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pd-group .pd-card:hover .pd-logo, .pd-group .pd-card:focus-within .pd-logo { transform: none; }
+}
