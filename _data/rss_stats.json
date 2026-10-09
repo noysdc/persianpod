@@ -140,6 +140,53 @@
     ],
     "status": "active"
   },
+  "naaji": {
+    "avg_gap_days": 7.2,
+    "avg_length": 36,
+    "episodes": 106,
+    "eps_365": 50,
+    "eps_90": 11,
+    "first_year": 1399,
+    "last": "1405/07/08",
+    "last_at": "2026-09-30T04:58:50Z",
+    "last_link": "https://shows.acast.com/naaji/episodes/6abc970be1bd8d0f19caac94",
+    "last_title": "Ep 140 - اعتیاد به خودارضایی - Masturbation",
+    "max_length": 71,
+    "median_length": 32,
+    "min_length": 5,
+    "recent": [
+      {
+        "at": "2026-09-30T04:58:50Z",
+        "link": "https://shows.acast.com/naaji/episodes/6abc970be1bd8d0f19caac94",
+        "title": "Ep 140 - اعتیاد به خودارضایی - Masturbation"
+      },
+      {
+        "at": "2026-09-22T17:25:41Z",
+        "link": "https://shows.acast.com/naaji/episodes/6ab2ba1593749e4c0b55736a",
+        "title": "Ep 139 - سکس و صمیمیت - Sex and Intimacy"
+      },
+      {
+        "at": "2026-09-15T18:01:16Z",
+        "link": "https://shows.acast.com/naaji/episodes/6aa987ec7f8a8df4336097b6",
+        "title": "Ep 138 - خیانت - Betrayal"
+      }
+    ],
+    "recent_30d": [
+      2,
+      2,
+      2,
+      5,
+      2,
+      3,
+      12,
+      6,
+      4,
+      3,
+      5,
+      3
+    ],
+    "status": "active"
+  },
   "noys": {
     "avg_gap_days": 17.0,
     "avg_length": 110,
