@@ -135,6 +135,26 @@
   {% if page.filters %}{% include pp-filters.html %}{% endif %}
 </div>
 
+<footer class="pp-foot">
+  <div class="pp-foot-in">
+    <div class="pp-foot-brand">
+      <strong>پرشین‌پاد</strong>
+      <span>خانه‌ی پادکست‌های فارسی</span>
+    </div>
+    <nav class="pp-foot-links" aria-label="پیوندهای پایین صفحه">
+      <a href="{{ '/about-us/' | relative_url }}">درباره‌ی ما</a>
+      <a href="{{ '/form/' | relative_url }}">ثبت پادکست</a>
+      <a href="{{ '/disclaimer/' | relative_url }}">سلب مسئولیت</a>
+    </nav>
+    <div class="pp-foot-contact">
+      <a href="{{ site.telegram }}" target="_blank" rel="noopener">کانال تلگرام</a>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <a class="pp-foot-donate" href="{{ site.donate }}" target="_blank" rel="noopener">حمایت مالی</a>
+    </div>
+  </div>
+  <p class="pp-foot-copy">© <span data-year>{{ site.time | date: "%Y" }}</span> پرشین‌پاد</p>
+</footer>
+
 <script src="{{ '/assets/js/pp-tools.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/app.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/pp-digits.js' | relative_url }}" defer></script>

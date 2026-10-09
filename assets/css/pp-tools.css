@@ -199,3 +199,17 @@ select:hover{box-shadow:0 6px 18px var(--glow-soft)}
 }
 body.reading .pp-side,body.reading .pp-filters-side{display:none}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.pp-tools button:hover,.pp-icons a:hover,.pp-donate:hover{transform:none}}
+
+/* فوتر دسکتاپ (در موبایل همان بلوک تماسِ پایین صفحه نمایش داده می‌شود) */
+.pp-foot{max-width:1400px;margin:56px auto 0;padding:26px 18px 30px;border-top:1px solid var(--line);color:var(--mut);font-size:.9rem}
+.pp-foot-in{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.pp-foot-brand strong{display:block;color:var(--ink);font-size:1.1rem;font-weight:800}
+.pp-foot-links,.pp-foot-contact{display:flex;align-items:center;flex-wrap:wrap;gap:4px 8px}
+.pp-foot a{color:var(--mut);text-decoration:none;padding:4px 10px;border-radius:999px;transition:color .2s ease,box-shadow .2s ease}
+.pp-foot a:hover{color:var(--ink);box-shadow:0 4px 14px var(--glow-soft)}
+.pp-foot a:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+.pp-foot a.pp-foot-donate{background:#08cb00;color:#0b0e0c;font-weight:800}
+.pp-foot a.pp-foot-donate:hover{color:#0b0e0c;box-shadow:0 8px 22px var(--glow-soft)}
+.pp-foot-copy{margin:18px 0 0;text-align:center;font-size:.82rem;direction:rtl}
+body.reading .pp-foot{max-width:760px}
+@media(max-width:799px){.pp-foot{display:none}}
