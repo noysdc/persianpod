@@ -19,13 +19,6 @@
     max-width: var(--pp-max);
     padding-inline-start: calc(var(--pp-pad) + var(--pp-side) + var(--pp-gap));
     padding-inline-end: var(--pp-pad);
-    border-top: 0; /* خط جداکننده به ::before می‌رود تا هم‌عرض ستون محتوا شود، نه کل قاب */
-  }
-  :where(:root:not(:has(.pp-shell.has-filters))) .pp-foot::before {
-    content: "";
-    display: block;
-    height: 1px;
-    background: var(--line);
   }
   body.reading .pp-foot { padding-inline-start: var(--pp-pad); }
 }
@@ -34,3 +27,17 @@
 @media (min-width: 1200px) {
   .pp-doc { max-width: 56rem; padding-inline: 44px; }
 }
+
+/* جداکننده‌ی رنگی بالای فوتر (همه‌ی عرض‌ها و همه‌ی صفحه‌ها): همان شکل .pp-divider صفحه‌ی پادکست‌ها.
+   به‌جای دو خط خاکستری قبلی (خط کل قاب + خط ۵۲۰ پیکسلی). */
+.pp-foot { border-top: 0; }
+.pp-foot::before {
+  content: "";
+  display: block;
+  height: 3px;
+  max-width: 560px;
+  margin: 0 auto;
+  border-radius: 3px;
+  background: linear-gradient(90deg, transparent, var(--line) 20%, #08cb00 50%, var(--line) 80%, transparent);
+}
+.pp-foot .pp-side-contact { border-top: 0; padding-top: 30px; }
