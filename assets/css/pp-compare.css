@@ -47,19 +47,22 @@
 .cp-i:hover,.cp-i[aria-expanded=true]{color:var(--acc)}
 .cp-tip{margin-top:6px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font-size:.85rem;font-weight:400;line-height:1.9}
 
-/* روند انتشار: نام کامل پادکست بالای نمودار خودش، با نشانِ هم‌رنگِ ستون‌ها (توپر = اولی، توخالی = دومی) */
-.cp-tr-row{margin:20px 0 6px}
-.cp-tr-row + .cp-tr-row{margin-top:26px}
-.cp-tr-h{display:flex;align-items:center;gap:10px;margin:0 0 6px}
+/* روند انتشار: هر پادکست یک کادر جدا دارد (اسم بالای نمودار خودش، فاصله‌ی روشن با کادر بعدی)؛
+   نشان توپر = اولی، توخالی = دومی؛ زیر هر ستون نام ماه شمسی همان بازه آمده */
+.cp-tr-row{margin:14px 0 0;padding:14px 16px 10px;border:1px solid var(--line);border-radius:18px;background:var(--bg)}
+.cp-tr-h{display:flex;align-items:center;gap:10px;margin:0 0 4px}
 .cp-tr-h b{flex:1;min-width:0;font-size:1.02rem;font-weight:800;line-height:1.8;color:var(--ink)}
 .cp-sw{flex:none;width:16px;height:16px;border-radius:5px;background:#08cb00;border:2px solid #08cb00}
 .cp-tr-row.b .cp-sw{background:transparent}
 .cp-tr-sum{flex:none;padding:2px 10px;border:1px solid var(--line);border-radius:99px;color:var(--mut);font-size:.8rem;white-space:nowrap}
-.cp-cols{display:flex;align-items:flex-end;gap:6px;height:100px;padding-top:20px;box-sizing:border-box;border-bottom:1px solid var(--line)}
+.cp-cols{display:flex;align-items:flex-end;gap:6px;height:84px;padding-top:20px;box-sizing:border-box;border-bottom:1px solid var(--line)}
 .cp-col{position:relative;flex:1;min-width:0;min-height:3px;border-radius:5px 5px 0 0;background:#08cb00;opacity:.85}
 .cp-tr-row.b .cp-col{background:transparent;border:2px solid #08cb00;border-bottom:0;opacity:1}
 .cp-v{position:absolute;bottom:100%;left:0;right:0;margin-bottom:3px;text-align:center;font-size:.72rem;line-height:1.2;color:var(--mut);font-variant-numeric:tabular-nums}
-.cp-axis{display:flex;justify-content:space-between;margin:6px 0 0;color:var(--mut);font-size:.78rem}
+.cp-months{display:flex;gap:6px;margin-top:6px}
+.cp-months span{flex:1;min-width:0;display:flex;justify-content:center}
+.cp-months i{font-style:normal;white-space:nowrap;font-size:.72rem;line-height:1.5;color:var(--mut)}
+.cp-months .now i{color:var(--ink);font-weight:800}
 .cp-note{color:var(--mut);font-size:.9rem;line-height:1.9}
 .cp-needs li{list-style:none;margin-inline-start:-1.2em}
 
@@ -67,8 +70,9 @@
 @media(max-width:700px){
   .cp-pick{grid-template-columns:minmax(0,1fr)}.cp-vs{display:none}
   .cp-head{grid-template-columns:1fr}.cp-hvs{display:none}
+  .cp-tr-row{padding:12px 12px 8px;border-radius:16px}
   .cp-tr-h{flex-wrap:wrap;row-gap:4px}.cp-tr-h b{flex-basis:calc(100% - 30px)}.cp-tr-sum{margin-inline-start:26px}
-  .cp-cols{gap:4px;height:92px}.cp-v{font-size:.66rem}
+  .cp-cols{gap:4px;height:80px}.cp-months{gap:4px}.cp-v{font-size:.66rem}
 }
 
 /* ===== موبایل: جدول مقایسه بدون اسکرول افقی =====
@@ -115,4 +119,10 @@
   .cp-method{margin-top:32px;padding-top:22px}
   .cp-m-box{padding:14px 16px;border-radius:16px}
   .cp-m-def>div{grid-template-columns:1fr;gap:0}
+}
+
+/* موبایل باریک: جا برای ۱۲ نام ماه نیست، یکی در میان نشان داده می‌شود (آخرین ماه همیشه می‌ماند) */
+@media(max-width:560px){
+  .cp-months i{font-size:.64rem}
+  .cp-months span:nth-child(odd) i{visibility:hidden}
 }
