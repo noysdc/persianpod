@@ -265,16 +265,3 @@ html:not(#pp) #similar .pd-grid .pd-card {
   .pod-end .pp-news .pp-news-text p { max-width: 40ch; line-height: 1.95; }
   .pod-end .pp-news iframe { margin: 0; max-width: none; width: 100%; }
 }
-
-/* ==========================================================
-   موبایل و تبلت: مشخصات (شهر، سال شروع، تعداد قسمت و...) قبل از متن بلند، نه ته صفحه
-   ترتیب: پلیر ← دکمه‌ها ← مشخصات ← متن معرفی
-   ========================================================== */
-@media (max-width: 900px) {
-  .pod .cols .pod-listen { order: -3; }
-  .pod .cols .links      { order: -2; }
-  .pod .cols .facts      { order: -1; padding: 2px 16px; }
-  .pod .cols .body       { order: 0; }
-  .pod .cols .facts dt,
-  .pod .cols .facts dd   { padding: 7px 0; font-size: .84rem; }
-}
