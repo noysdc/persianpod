@@ -201,8 +201,10 @@ def main():
     stats = dict(previous)
     errors = {}
     for path in sorted(PODCASTS.glob("*.md")):
-        feed = front_matter(path).get("rss")
-        slug = path.stem
+        fm = front_matter(path)
+        feed = fm.get("rss")
+        # کلید همان slug داخل فایل است (که سایت و صفحه‌ی «تازه‌ها» با آن می‌خوانند)؛ اگر نبود، نام فایل
+        slug = str(fm.get("slug") or path.stem)
         if not feed:
             continue
         try:

@@ -9,10 +9,14 @@ scripts: [/assets/js/pp-new.js]
 <section class="nw" aria-label="تازه‌ها">
   <div class="pd-head">
     <h1>تازه‌ها</h1>
-    <p class="pd-slogan">پادکست‌ها به ترتیب زمان انتشار آخرین قسمت؛ هر پادکستی قسمت جدید بدهد، می‌رود صدر فهرست.</p>
+    <p class="pd-slogan">تازه‌ترین قسمت‌های پادکست‌های فارسی، به ترتیب زمان انتشار؛ جدیدترین بالاست.</p>
+  </div>
+  <div class="nw-tabs" role="tablist" aria-label="نوع نمایش">
+    <button type="button" role="tab" id="nw-tab-feed" data-view="feed" aria-selected="true">فید قسمت‌ها</button>
+    <button type="button" role="tab" id="nw-tab-pods" data-view="pods" aria-selected="false">به تفکیک پادکست</button>
   </div>
   <p id="nw-status" class="nw-status" role="status" aria-live="polite">در حال بارگذاری…</p>
   <ol id="nw-list" class="nw-list"></ol>
-  <p class="nw-note">زمان‌ها از RSS هر پادکست خوانده می‌شود و هر حدود ۱۰ دقیقه به‌روز می‌شود. این صفحه تا باز است خودش فهرست را تازه می‌کند؛ نیازی به رفرش نیست. پادکست‌هایی که RSS ثبت نکرده‌اند، ته فهرست می‌آیند.</p>
+  <p class="nw-note">زمان‌ها از RSS هر پادکست خوانده می‌شود و خودکار به‌روز می‌شود؛ ظاهرشدن یک قسمت تازه ممکن است تا چند ده دقیقه طول بکشد. این صفحه تا باز است خودش فهرست را تازه می‌کند. پادکست‌هایی که RSS ندارند یا RSSشان خوانده نمی‌شود، در انتهای فهرست «به تفکیک پادکست» می‌آیند.</p>
 </section>
 <script>window.PP_NEW_URL = "{{ '/new.json' | relative_url }}"; window.PP_STATS_RAW = "{{ site.rss_stats_raw }}";</script>

@@ -15,7 +15,8 @@ sitemap: false
   "category": {{ p.category | default: "سایر" | jsonify }},
   "last_at": {{ st.last_at | default: null | jsonify }},
   "last_title": {{ st.last_title | default: null | jsonify }},
-  "last_link": {{ st.last_link | default: null | jsonify }}
+  "last_link": {{ st.last_link | default: null | jsonify }},
+  "recent": {{ st.recent | default: null | jsonify }}
 }{% unless forloop.last %},{% endunless %}
 {%- endfor -%}
 ]
