@@ -104,5 +104,5 @@
 .pd-arrow:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
 .pd-arrow svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 .pd-prev{right:-6px}.pd-next{left:-6px}
-.pd-prev svg{transform:scaleX(-1)}.pd-next svg{transform:scaleX(-1)}
+/* راست‌به‌چپ: «قبلی» سمت راست و فلشش به راست؛ «بعدی» سمت چپ و فلشش به چپ (پیکان‌ها در JS همین‌طور رسم می‌شوند، پس چرخش لازم نیست) */
 @media(hover:hover) and (min-width:800px){.pd-arrow{display:grid}.pd-row-wrap.no-scroll .pd-arrow{display:none}}

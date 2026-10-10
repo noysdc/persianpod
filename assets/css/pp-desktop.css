@@ -1,34 +1,148 @@
-/* PersianPod: چیدمان دسکتاپ (۱۲۰۰ پیکسل به بالا)
-   مشکل قبلی: کل صفحه تا ۲۰۰۰ پیکسل کش می‌آمد. سایدبار به لبه‌ی راست می‌چسبید، محتوا و منو وسط «ستون اصلی»
-   (نه وسط صفحه) می‌نشستند و فوتر وسط صفحه بود؛ نتیجه: همه‌چیز به چپ متمایل و دو طرف خالی.
-   راه‌حل: برای صفحه‌هایی که ستون فیلتر ندارند (درباره‌ی ما، صفحه‌ی پادکست، فرم، آموزش، مقایسه، ...)
-   هدر، منو، بدنه و فوتر در یک قاب هم‌عرض و وسط‌چین قرار می‌گیرند و فوتر زیر ستون محتوا هم‌محور می‌شود.
-   صفحه‌ی اصلی (سه‌ستونه با فیلتر) دست‌نخورده می‌ماند.
+/* PersianPod: چیدمان دسکتاپ (۱۲۰۰ پیکسل به بالا): همان سبک موبایل، وسط‌چین و در یک ستون.
+   قبلاً: سایدبار دسته‌ها در لبه‌ی راست، فیلترها در لبه‌ی چپ و هدر/منو/محتوا وسط «ستون اصلی» (نه وسط صفحه) بودند.
+   حالا: بنر ← نوشته ← لوگوی دایره‌ای ← منو ← نوار دسته‌ها ← کادر جست‌وجوی پیشرفته ← محتوا ← فوتر،
+   همه روی یک محور و وسط صفحه. موبایل و تبلت (زیر ۱۲۰۰) دست‌نخورده‌اند.
    این فایل باید بعد از pp-rail.css و قبل از pp-cards.css لود شود. */
+
 @media (min-width: 1200px) {
-  :where(:root:not(:has(.pp-shell.has-filters))) { --pp-max: 1400px; }
+  /* ---------- ۱) محور وسط: ستون‌های کناری حذف می‌شوند ---------- */
+  :root { --pp-side: 0px; --pp-gap: 0px; --pp-max: 1240px; }
+  body:has(.pp-shell.has-filters) .pp-hero,
+  body:has(.pp-shell.has-filters) .pp-bar-wrap { padding-inline-end: var(--pp-pad); }
 
-  :where(:root:not(:has(.pp-shell.has-filters))) .pp-hero,
-  :where(:root:not(:has(.pp-shell.has-filters))) .pp-bar-wrap,
-  :where(:root:not(:has(.pp-shell.has-filters))) .pp-shell {
-    max-width: var(--pp-max);
-  }
+  .pp-hero, .pp-bar-wrap { max-width: var(--pp-max); }
 
-  /* فوتر هم‌محور با ستون محتوا (همان محاسبه‌ی padding هدر در pp-v3.css) */
-  :where(:root:not(:has(.pp-shell.has-filters))) .pp-foot {
+  .pp-shell,
+  .pp-shell.has-filters {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
     max-width: var(--pp-max);
-    padding-inline-start: calc(var(--pp-pad) + var(--pp-side) + var(--pp-gap));
-    padding-inline-end: var(--pp-pad);
+    margin-inline: auto;
+    margin-top: 10px;
+    padding: 0 28px;
   }
-  body.reading .pp-foot { padding-inline-start: var(--pp-pad); }
+  .pp-shell > * { min-width: 0; max-width: 100%; }
+  main#main { order: 0; width: 100%; }
+
+  /* ---------- ۲) سربرگ: بنر، نوشته، لوگوی دایره‌ای (زیر نوشته) ---------- */
+  .pp-hero { padding-top: 30px; gap: 12px; }
+  .pp-hero::after { margin: 14px auto 16px; }
+  .pp-hero .pp-bar-logo {
+    display: grid;
+    position: static;
+    transform: none;
+    inset: auto;
+    margin: 4px auto 0;
+    width: 56px;
+    height: 56px;
+    padding: 12px;
+    box-sizing: border-box;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--card);
+    box-shadow: 0 8px 24px -8px var(--glow-soft), 0 0 0 1px var(--line);
+  }
+  .pp-hero .pp-bar-logo:hover { box-shadow: 0 12px 30px -6px var(--glow-soft), 0 0 0 1px #08cb00; }
+  .pp-hero .pp-bar-logo img { width: 100%; height: 100%; object-fit: contain; }
+  body.reading .pp-hero .pp-bar-logo { display: none; }
+
+  /* منوی اصلی دقیقاً وسط */
+  .pp-bar-wrap { display: flex; justify-content: center; }
+  .pp-glass { width: 100%; max-width: 980px; margin-inline: auto; }
+
+  /* ---------- ۳) دسته‌ها: نوار چیپ وسط‌چین (مثل موبایل) ---------- */
+  .pp-side { display: contents; }
+  .pp-side-brand { display: none; }
+  .pp-cats {
+    order: -3;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+  .pp-cats .pp-side-title { display: none; }
+  .pp-cats ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    overflow: visible;
+    max-height: none;
+    padding: 2px 0;
+  }
+  .pp-cats li, .pp-cats li.pp-cat { display: block; flex: none; margin: 0; }
+  .pp-cats a {
+    gap: 8px;
+    padding: 5px 14px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--card);
+    font-size: .88rem;
+    line-height: 1.7;
+    white-space: nowrap;
+  }
+  .pp-cats .n { min-width: 0; padding: 0 7px; font-size: .74rem; line-height: 1.6; }
+  .pp-cats .pp-subs, .pp-cats .pp-cat-tg { display: none !important; }
+  .pp-side-stats, .pp-vector { display: none !important; }
+
+  /* ---------- ۴) جست‌وجوی پیشرفته: کادر جمع‌شونده (مثل موبایل) ---------- */
+  .pp-filters-side {
+    order: -2;
+    position: static;
+    width: 100%;
+    max-width: 980px;
+    margin-inline: auto;
+    max-height: none;
+    overflow: visible;
+  }
+  .pd-ftoggle { display: flex; }
+  .pd-filters { display: none !important; margin-top: 10px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); align-items: end; }
+  .pp-filters-side.open .pd-filters { display: grid !important; }
+  .pd-filters .pp-side-title,
+  .pd-filters .pd-reset,
+  .pd-filters .pd-check,
+  .pd-sep { grid-column: 1 / -1; }
+  .pd-apply {
+    display: flex;
+    grid-column: 1 / -1;
+    position: sticky;
+    bottom: 12px;
+    z-index: 5;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 0 20px;
+    border: 0;
+    border-radius: 999px;
+    background: #08cb00;
+    color: #0b0e0c;
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 8px 22px -6px rgba(0, 0, 0, .35);
+  }
+  .pd-apply:disabled { opacity: .55; cursor: not-allowed; }
+
+  /* ---------- ۵) فوتر: وسط صفحه (دیگر هم‌محور ستون محتوا نیست) ---------- */
+  body.reading .pp-hero, body.reading .pp-bar-wrap { padding-inline-start: var(--pp-pad); }
 }
 
-/* صفحه‌های متنی (درباره‌ی ما، سلب مسئولیت): کارت کمی عریض‌تر تا با عرض منوی بالا متناسب باشد */
+/* صفحه‌ی هر پادکست (کارت بالا، متن، خبرنامه) هم‌عرض منو: ۹۸۰ پیکسل محتوا + ۲۰ پیکسل حاشیه‌ی هر طرف */
+@media (min-width: 1200px) {
+  .pod.wrap { max-width: 1020px; box-sizing: border-box; }
+}
+
+/* صفحه‌های متنی (درباره‌ی ما و سلب مسئولیت): کارت کمی عریض‌تر تا با عرض منوی بالا متناسب باشد */
 @media (min-width: 1200px) {
   .pp-doc { max-width: 56rem; padding-inline: 44px; }
 }
 
-/* جداکننده‌ی رنگی بالای فوتر (همه‌ی عرض‌ها و همه‌ی صفحه‌ها): همان شکل .pp-divider صفحه‌ی پادکست‌ها.
+/* جداکننده‌ی رنگی بالای فوتر (همه‌ی عرض‌ها و همه‌ی صفحه‌ها): همان شکل .pp-divider صفحه‌ی پادکست‌ها،
    به‌جای دو خط خاکستری قبلی (خط کل قاب + خط ۵۲۰ پیکسلی). */
 .pp-foot { border-top: 0; }
 .pp-foot::before {

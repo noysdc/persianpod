@@ -289,12 +289,10 @@
   }
   function applyFilters() {
     render();
-    if (window.innerWidth < 1200) {
-      var aside = $("#pd-aside"), tg = $("#pd-ftoggle");
-      if (aside) aside.classList.remove("open");
-      if (tg) tg.setAttribute("aria-expanded", "false");
-      scrollToResults();
-    }
+    var aside = $("#pd-aside"), tg = $("#pd-ftoggle");
+    if (aside) aside.classList.remove("open");
+    if (tg) tg.setAttribute("aria-expanded", "false");
+    scrollToResults();
   }
 
   function render() {
@@ -441,7 +439,7 @@
     $("#f-reset").addEventListener("click", resetAll);
     if (els.q) {
       els.q.addEventListener("input", schedule);
-      var qf = els.q.form; if (qf) qf.addEventListener("submit", function (e) { e.preventDefault(); render(); if (window.innerWidth < 1200) scrollToResults(); });
+      var qf = els.q.form; if (qf) qf.addEventListener("submit", function (e) { e.preventDefault(); render(); scrollToResults(); });
     }
     $$(".pp-cats a").forEach(function (a) {
       a.addEventListener("click", function (e) {
