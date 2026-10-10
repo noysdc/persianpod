@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "پادکست توسعه فردی"
-title_en: "Self-growth Podcast"
+title_en: "self-growth-podcast"
 description: "پادکست توسعه فردی پوریا احمدی؛ نکته‌ها و تمرین‌های کاربردی روانشناسی، برگرفته از منابع علمی معتبر و به‌صورت کپسولی."
 slug: self-growth-podcast
 category: روانشناسی
