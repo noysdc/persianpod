@@ -125,11 +125,11 @@ collab_types: ""
 
 ## پادکست‌های پیشنهادی
 
-- **بیوگرافی** — [شنیدن در کست‌باکس](https://castbox.fm/channel/%D8%A8%DB%8C%D9%88%DA%AF%D8%B1%D8%A7%D9%81%DB%8C-id5669497?country=ir){:target="_blank" rel="noopener"}
+- **بیوگرافی** — پادکستی که به روایت زندگی‌نامه‌ی آدم‌های تأثیرگذار تاریخ می‌پردازد؛ از چهره‌های سیاسی و هنری تا نام‌های کمتر شناخته‌شده. روایتی مستند از زندگی‌هایی که مسیر تاریخ را تغییر دادند. [شنیدن در کست‌باکس](https://castbox.fm/channel/%D8%A8%DB%8C%D9%88%DA%AF%D8%B1%D8%A7%D9%81%DB%8C-id5669497?country=ir){:target="_blank" rel="noopener"}
 
 ## پادکست‌های حمایت‌شده (نوپا)
 
-- **ADHD** — [شنیدن در کست‌باکس](https://castbox.fm/channel/ADHD-Super-Power-id4915417?country=us){:target="_blank" rel="noopener"}
+- **ADHD** — پادکستی درباره‌ی اختلال نقص توجه و بیش‌فعالی (ADHD)؛ از تجربه‌های روزمره‌ی زندگی با این اختلال تا راهکارهای عملی برای مدیریت تمرکز و توجه. روایتی صمیمی و آگاهانه از زندگی با ذهنی متفاوت. [شنیدن در کست‌باکس](https://castbox.fm/channel/ADHD-Super-Power-id4915417?country=us){:target="_blank" rel="noopener"}
 
 ---
 
