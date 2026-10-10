@@ -135,3 +135,34 @@
 @media (prefers-reduced-motion: reduce) {
   .pod-card { transition: none; }
 }
+
+/* ==========================================================
+   اصلاحات بخش «پادکست‌های نزدیک به این پادکست»
+   ========================================================== */
+
+/* حذف زیرخط لینک‌ها داخل کارت */
+.pod-card,
+.pod-card a,
+.pod-card__title,
+.pod-card__tags li {
+  text-decoration: none;
+}
+
+/* دلیل مشابه بودن (فقط در «پادکست‌های نزدیک») */
+.pod-card__reason {
+  margin: auto 0 0;          /* همیشه ته کارت، تا کارت‌ها هم‌تراز بمانند */
+  font-size: .8rem;
+  line-height: 1.6;
+  color: var(--pod-muted);
+}
+
+.pod-card__reason strong {
+  color: var(--pod-text);
+  font-weight: 600;
+}
+
+/* ==========================================================
+   اگر متن‌ها وسط‌چین می‌خواهی، این دو خط را از حالت کامنت دربیاور:
+   ========================================================== */
+/* .pod-card { text-align: center; } */
+/* .pod-card__tags { justify-content: center; } */
