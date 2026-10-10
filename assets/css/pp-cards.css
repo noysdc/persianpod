@@ -13,8 +13,9 @@
 :root {
   --pp-card-align: start;      /* start = راست‌چین | center = وسط‌چین */
   --pp-cover-radius: 20px;     /* گردی گوشه‌ی کاور */
-  --pp-zoom: 1.06;             /* میزان زوم هاور؛ ۱ = بدون زوم */
-  --pp-zoom-time: .9s;         /* مدت زوم؛ بیشتر = نرم‌تر */
+  --pp-zoom: 1.05;             /* میزان زوم هاور؛ ۱ = بدون زوم */
+  --pp-zoom-time: 1.5s;        /* مدت زوم؛ بیشتر = نرم‌تر */
+  --pp-zoom-ease: cubic-bezier(.4, 0, .2, 1);  /* شروع و پایان آرام */
 }
 
 /* ---------- ۱) حذف باکس کارت (جایگزین v2 / v3 / v6 و rail) ----------
@@ -46,7 +47,7 @@ html:not(#pp) .pd-card:not(.pl-card) .pd-logo {
   background: var(--line);
   box-shadow: 0 0 0 1px var(--line), 0 8px 18px -12px rgba(0, 0, 0, .45) !important;
   transform: none !important;
-  transition: box-shadow .5s ease !important;
+  transition: box-shadow 1s ease !important;
 }
 
 html:not(#pp) .pd-card:not(.pl-card) .pd-logo img {
@@ -56,7 +57,7 @@ html:not(#pp) .pd-card:not(.pl-card) .pd-logo img {
   object-fit: cover;
   border-radius: 0 !important;
   transform: scale(1);
-  transition: transform var(--pp-zoom-time) cubic-bezier(.22, .61, .36, 1);
+  transition: transform var(--pp-zoom-time) var(--pp-zoom-ease);
   will-change: transform;
 }
 
