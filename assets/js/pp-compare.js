@@ -175,7 +175,7 @@
     var nd = ns.length ? '<section class="cp-card"><h2>نیاز تو، داده‌ی آن‌ها</h2><p class="cp-note">این بخش قضاوت نیست؛ فقط می‌گوید هر نیاز با کدام عدد ارتباط دارد.</p><ul class="cp-needs">' +
       ns.map(function (x) { return "<li><b>" + esc(x[0]) + ":</b> " + esc(x[1]) + " — " + esc(x[2]) + ".</li>"; }).join("") + "</ul></section>" : "";
     var miss = (!a.has_rss || !b.has_rss) ? '<p class="cp-note">برای ' + esc(!a.has_rss && !b.has_rss ? "هر دو پادکست" : (!a.has_rss ? a.title : b.title)) + ' هنوز RSS ثبت نشده؛ شاخص‌های وابسته به RSS خالی است. پادکستر می‌تواند لینک RSS را در <a href="/form/">فرم ثبت</a> بدهد.</p>' : "";
-    out.innerHTML = head + miss + tbl + trend(a, b) + diff + nd + '<p class="cp-foot"><a href="#method">روش محاسبه‌ی شاخص‌ها</a></p>';
+    out.innerHTML = head + miss + tbl + trend(a, b) + diff + nd;
   }
 
   var tip = null;

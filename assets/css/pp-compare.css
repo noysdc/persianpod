@@ -62,7 +62,6 @@
 .cp-axis{display:flex;justify-content:space-between;margin:6px 0 0;color:var(--mut);font-size:.78rem}
 .cp-note{color:var(--mut);font-size:.9rem;line-height:1.9}
 .cp-needs li{list-style:none;margin-inline-start:-1.2em}
-.cp-foot{text-align:center;margin:16px 0}
 
 
 @media(max-width:700px){
