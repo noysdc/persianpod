@@ -93,6 +93,53 @@
     ],
     "status": "active"
   },
+  "chekideh-plus": {
+    "avg_gap_days": 2.7,
+    "avg_length": 17,
+    "episodes": 23,
+    "eps_365": 15,
+    "eps_90": 0,
+    "first_year": 1403,
+    "last": "1404/10/19",
+    "last_at": "2026-01-09T17:57:00Z",
+    "last_link": "https://shows.acast.com/chekideh-plus/episodes/6957d89e18c941d6d6a4f5d9",
+    "last_title": "E14-S02 — قدرت سکوت | وقتی ساکت‌بودن، ضعف نیست",
+    "max_length": 24,
+    "median_length": 17,
+    "min_length": 2,
+    "recent": [
+      {
+        "at": "2026-01-09T17:57:00Z",
+        "link": "https://shows.acast.com/chekideh-plus/episodes/6957d89e18c941d6d6a4f5d9",
+        "title": "E14-S02 — قدرت سکوت | وقتی ساکت‌بودن، ضعف نیست"
+      },
+      {
+        "at": "2026-01-02T17:58:00Z",
+        "link": "https://shows.acast.com/chekideh-plus/episodes/6957d5e6fcfcf09e551be94a",
+        "title": "E13-S02 — انقلاب صنعتی | وقتی دنیا یک‌هو سرعت گرفت!"
+      },
+      {
+        "at": "2025-12-14T18:32:00Z",
+        "link": "https://shows.acast.com/chekideh-plus/episodes/693e9fad41eacf5e81bf477a",
+        "title": "E12-S02 — زن‌ها از مردان چه می‌خواهند؟ | راهنمای بقا برای مردان !"
+      }
+    ],
+    "recent_30d": [
+      0,
+      12,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "doxpodcast": {
     "avg_gap_days": 20.6,
     "avg_length": 69,
