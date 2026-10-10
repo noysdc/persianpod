@@ -16,6 +16,7 @@ schedule: ماهانه
 logo: /assets/img/podcasts/self-growth-podcast.webp
 castbox_id: "5741037"
 castbox_channel: "https://castbox.fm/channel/id5741037"
+rss: "https://feeds.acast.com/public/shows/65913c0eba6fc6001697f29e"
 telegram: "https://t.me/pouryaahmadi_masir"
 email: "itspouryaahmadi@gmail.com"
 collab: true
