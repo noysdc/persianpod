@@ -114,11 +114,12 @@
     if (!a.recent_30d && !b.recent_30d) return "";
     var max = Math.max.apply(null, (a.recent_30d || [0]).concat(b.recent_30d || [0], [1]));
     function line(p, cls) {
-      if (!p.recent_30d) return '<div class="cp-tr-row"><b>' + esc(p.title) + '</b><span class="cp-na">اطلاعات RSS ثبت نشده</span></div>';
+      if (!p.recent_30d) return '<div class="cp-tr-row ' + cls + '"><div class="cp-tr-h"><i class="cp-sw" aria-hidden="true"></i><b>' + esc(p.title) + '</b></div><span class="cp-na">اطلاعات RSS ثبت نشده</span></div>';
+      var sum = p.recent_30d.reduce(function (t, n) { return t + (n || 0); }, 0);
       var cols = p.recent_30d.map(function (n, i) {
-        return '<span class="cp-col" title="' + toFa(n) + ' قسمت" style="height:' + Math.round(n / max * 100) + '%"><em class="sr">' + toFa(n) + " قسمت</em></span>";
+        return '<span class="cp-col" title="' + toFa(n) + ' قسمت" style="height:' + Math.round(n / max * 100) + '%">' + (n > 0 ? '<span class="cp-v" aria-hidden="true">' + toFa(n) + "</span>" : "") + '<em class="sr">' + toFa(n) + " قسمت</em></span>";
       }).join("");
-      return '<div class="cp-tr-row ' + cls + '"><b>' + esc(p.title) + '</b><div class="cp-cols" role="img" aria-label="تعداد قسمت‌های منتشرشده در ۱۲ بازه‌ی ۳۰ روزه برای ' + esc(p.title) + ": " + p.recent_30d.map(toFa).join("، ") + '">' + cols + "</div></div>";
+      return '<div class="cp-tr-row ' + cls + '"><div class="cp-tr-h"><i class="cp-sw" aria-hidden="true"></i><b>' + esc(p.title) + '</b><span class="cp-tr-sum">' + toFa(sum) + ' قسمت در ۱۲ بازه</span></div><div class="cp-cols" role="img" aria-label="تعداد قسمت‌های منتشرشده در ۱۲ بازه‌ی ۳۰ روزه برای ' + esc(p.title) + ": " + p.recent_30d.map(toFa).join("، ") + '">' + cols + "</div></div>";
     }
     return '<section class="cp-card"><h2>روند انتشار در ۱۲ بازه‌ی ۳۰ روزه <button type="button" class="cp-i" aria-label="توضیح: روند انتشار" data-tip="تعداد قسمت‌های منتشرشده در هر بازه‌ی ۳۰ روزه‌ی یک سال اخیر؛ ستون آخر ۳۰ روز اخیر است. هر دو نمودار با یک مقیاس رسم شده‌اند.">ⓘ</button></h2>' +
       line(a, "a") + line(b, "b") + '<p class="cp-axis"><span>۱۲ ماه پیش</span><span>اکنون</span></p></section>';

@@ -47,12 +47,19 @@
 .cp-i:hover,.cp-i[aria-expanded=true]{color:var(--acc)}
 .cp-tip{margin-top:6px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font-size:.85rem;font-weight:400;line-height:1.9}
 
-.cp-tr-row{display:grid;grid-template-columns:140px 1fr;gap:12px;align-items:end;margin:10px 0}
-.cp-tr-row b{font-size:.9rem;overflow:hidden;text-overflow:ellipsis}
-.cp-cols{display:flex;align-items:flex-end;gap:5px;height:70px;border-bottom:1px solid var(--line)}
-.cp-col{flex:1;min-height:3px;border-radius:5px 5px 0 0;background:#08cb00;opacity:.8}
+/* روند انتشار: نام کامل پادکست بالای نمودار خودش، با نشانِ هم‌رنگِ ستون‌ها (توپر = اولی، توخالی = دومی) */
+.cp-tr-row{margin:20px 0 6px}
+.cp-tr-row + .cp-tr-row{margin-top:26px}
+.cp-tr-h{display:flex;align-items:center;gap:10px;margin:0 0 6px}
+.cp-tr-h b{flex:1;min-width:0;font-size:1.02rem;font-weight:800;line-height:1.8;color:var(--ink)}
+.cp-sw{flex:none;width:16px;height:16px;border-radius:5px;background:#08cb00;border:2px solid #08cb00}
+.cp-tr-row.b .cp-sw{background:transparent}
+.cp-tr-sum{flex:none;padding:2px 10px;border:1px solid var(--line);border-radius:99px;color:var(--mut);font-size:.8rem;white-space:nowrap}
+.cp-cols{display:flex;align-items:flex-end;gap:6px;height:100px;padding-top:20px;box-sizing:border-box;border-bottom:1px solid var(--line)}
+.cp-col{position:relative;flex:1;min-width:0;min-height:3px;border-radius:5px 5px 0 0;background:#08cb00;opacity:.85}
 .cp-tr-row.b .cp-col{background:transparent;border:2px solid #08cb00;border-bottom:0;opacity:1}
-.cp-axis{display:flex;justify-content:space-between;margin:4px 0 0;color:var(--mut);font-size:.78rem;padding-inline-start:152px}
+.cp-v{position:absolute;bottom:100%;left:0;right:0;margin-bottom:3px;text-align:center;font-size:.72rem;line-height:1.2;color:var(--mut);font-variant-numeric:tabular-nums}
+.cp-axis{display:flex;justify-content:space-between;margin:6px 0 0;color:var(--mut);font-size:.78rem}
 .cp-note{color:var(--mut);font-size:.9rem;line-height:1.9}
 .cp-needs li{list-style:none;margin-inline-start:-1.2em}
 .cp-foot{text-align:center;margin:16px 0}
@@ -61,7 +68,8 @@
 @media(max-width:700px){
   .cp-pick{grid-template-columns:minmax(0,1fr)}.cp-vs{display:none}
   .cp-head{grid-template-columns:1fr}.cp-hvs{display:none}
-  .cp-tr-row{grid-template-columns:1fr}.cp-axis{padding-inline-start:0}
+  .cp-tr-h{flex-wrap:wrap;row-gap:4px}.cp-tr-h b{flex-basis:calc(100% - 30px)}.cp-tr-sum{margin-inline-start:26px}
+  .cp-cols{gap:4px;height:92px}.cp-v{font-size:.66rem}
 }
 
 /* ===== موبایل: جدول مقایسه بدون اسکرول افقی =====
