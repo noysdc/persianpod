@@ -223,3 +223,45 @@ html:not(#pp) .pd-card.pl-card .pd-body { display: flex; flex-direction: column;
   html:not(#pp) .pd-card.pl-card:hover .pd-logo img,
   .pod-cover:hover .pod-cover-in img { transform: none; }
 }
+
+/* ==========================================================
+   انتهای صفحه‌ی هر پادکست: «پادکست‌های نزدیک» و «خبرنامه» هم‌محور و هم‌لبه با بقیه‌ی صفحه
+   ========================================================== */
+
+/* پادکست‌های نزدیک: کارت‌ها دقیقاً وسط ردیف (قبلاً ستون خالی سمت چپ می‌ماند و ردیف به راست می‌چسبید) */
+html:not(#pp) #similar .pd-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+}
+html:not(#pp) #similar .pd-grid .pd-card {
+  flex: 0 1 200px;
+  min-width: 0;
+  max-width: 200px;
+}
+@media (max-width: 560px) {
+  html:not(#pp) #similar .pd-grid { gap: 16px; }
+  html:not(#pp) #similar .pd-grid .pd-card { flex-basis: calc(50% - 8px); max-width: none; }
+}
+
+/* خبرنامه: موبایل همان کارت وسط‌چین قبلی؛ دسکتاپ: هم‌عرض با محتوای صفحه، متن راست و فرم چپ */
+.pp-news-text { display: block; }
+.pp-news .pp-news-text p { margin: 0 0 14px; }
+.pp-news .pp-news-text .pp-news-link { margin-top: 0; }
+.pp-news iframe { margin: 14px auto 0; }
+
+@media (min-width: 900px) {
+  .pod-end .pp-news {
+    max-width: none;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 480px;
+    gap: 40px;
+    align-items: center;
+    padding: 28px 36px;
+    text-align: start;
+  }
+  .pod-end .pp-news h2 { text-align: start; margin: 0 0 8px; font-size: 1.5rem; }
+  .pod-end .pp-news .pp-news-text p { max-width: 40ch; line-height: 1.95; }
+  .pod-end .pp-news iframe { margin: 0; max-width: none; width: 100%; }
+}
