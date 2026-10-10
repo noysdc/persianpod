@@ -1,0 +1,162 @@
+/* ==========================================================
+   PersianPod — کارت یکپارچه‌ی پادکست (pp-cards.css)
+   این فایل باید «آخرین» فایل CSS در default.html باشد (بعد از pp-rail.css).
+
+   یک ظاهر برای همه‌ی کارت‌ها:
+   صفحه‌ی اصلی، صفحه‌ی دسته/فیلتر، «پادکست‌های نزدیک به این پادکست»
+   - بدون باکس، بدون قاب سبز دور کاور، بدون زیرخط
+   - هاور: عکس داخل قاب خودش آرام زوم می‌شود؛ کارت جابه‌جا نمی‌شود
+   - کارت‌های صفحه‌ی «گوش بده» (.pl-card) دست‌نخورده می‌مانند
+
+   تنظیم سریع (فقط همین چند عدد را عوض کن):
+   ========================================================== */
+:root {
+  --pp-card-align: start;      /* start = راست‌چین | center = وسط‌چین */
+  --pp-cover-radius: 20px;     /* گردی گوشه‌ی کاور */
+  --pp-zoom: 1.06;             /* میزان زوم هاور؛ ۱ = بدون زوم */
+  --pp-zoom-time: .9s;         /* مدت زوم؛ بیشتر = نرم‌تر */
+}
+
+/* ---------- ۱) حذف باکس کارت (جایگزین v2 / v3 / v6 و rail) ----------
+   html:not(#pp) فقط برای این است که بر قانون‌های !important قبلی غلبه کند. */
+html:not(#pp) .pd-card:not(.pl-card),
+html:not(#pp) .pd-card:not(.pl-card):hover,
+html:not(#pp) .pd-card:not(.pl-card):focus-within {
+  padding: 0 !important;
+  border: 0 !important;
+  background: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  transform: none !important;
+  text-decoration: none !important;
+  text-align: var(--pp-card-align);
+}
+
+/* ---------- ۲) کاور: بدون قاب سبز، بدون padding ---------- */
+html:not(#pp) .pd-card:not(.pl-card) .pd-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  margin: 0;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: var(--pp-cover-radius) !important;
+  overflow: hidden;
+  background: var(--line);
+  box-shadow: 0 0 0 1px var(--line), 0 8px 18px -12px rgba(0, 0, 0, .45) !important;
+  transform: none !important;
+  transition: box-shadow .5s ease !important;
+}
+
+html:not(#pp) .pd-card:not(.pl-card) .pd-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 !important;
+  transform: scale(1);
+  transition: transform var(--pp-zoom-time) cubic-bezier(.22, .61, .36, 1);
+  will-change: transform;
+}
+
+/* ---------- ۳) هاور: زوم نرم عکس + درخشش ملایم، بدون حرکت کارت ---------- */
+@media (hover: hover) {
+  html:not(#pp) .pd-card:not(.pl-card):hover .pd-logo,
+  html:not(#pp) .pd-card:not(.pl-card):focus-within .pd-logo {
+    box-shadow: 0 0 0 1px rgba(8, 203, 0, .55), 0 14px 28px -14px var(--glow) !important;
+  }
+  html:not(#pp) .pd-card:not(.pl-card):hover .pd-logo img,
+  html:not(#pp) .pd-card:not(.pl-card):focus-within .pd-logo img {
+    transform: scale(var(--pp-zoom));
+  }
+}
+
+/* ---------- ۴) متن: عنوان ۲ خطی، هم‌تراز و بدون زیرخط ---------- */
+html:not(#pp) .pd-card:not(.pl-card) .pd-body {
+  display: block;
+  margin-top: 12px;
+  text-align: var(--pp-card-align);
+}
+
+html:not(#pp) .pd-card:not(.pl-card) .pd-body h3 {
+  margin: 0;
+  font-size: .95rem;
+  font-weight: 700;
+  line-height: 1.7;
+  min-height: 3.4em;             /* کارت‌ها هم‌قد می‌مانند */
+  text-align: var(--pp-card-align);
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* دسته و زیردسته: یک خط متن ساده و کم‌رنگ (نه قرص‌های بیضی)
+   در ردیف‌های صفحه‌ی اصلی، قانون‌های pp-rail.css همچنان حاکم‌اند. */
+.pd-card:not(.pl-card) .pd-meta {
+  display: block;
+  margin: 2px 0 0;
+  text-align: var(--pp-card-align);
+  line-height: 1.9;
+}
+
+.pd-card:not(.pl-card) .pd-meta .pd-b {
+  display: inline;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--mut);
+  font-size: .78rem;
+  text-decoration: none;
+}
+
+.pd-card:not(.pl-card) .pd-meta .pd-b:first-child { color: var(--acc); }
+
+/* جداکننده‌ی «،» بین دسته و زیردسته‌ها */
+.pd-card:not(.pl-card) .pd-meta .pd-b + .pd-b:not(.off)::before {
+  content: "، ";
+  color: var(--mut);
+}
+
+/* در ردیف‌های صفحه‌ی اصلی، دسته پنهان است؛ پس اولین زیردسته‌ی دیده‌شده «،» نمی‌گیرد */
+.pd-group .pd-card:not(.pl-card) .pd-meta .pd-b:nth-child(2)::before { content: none; }
+
+/* حداکثر دسته + ۲ زیردسته */
+.pd-card:not(.pl-card) .pd-meta .pd-b:nth-child(n + 4):not(.off) { display: none; }
+
+/* تگ‌های قابل کلیک: فقط رنگ عوض می‌شوند */
+.pd-card:not(.pl-card) a.pd-tag:hover,
+.pd-card:not(.pl-card) a.pd-tag:focus-visible {
+  color: var(--acc);
+  box-shadow: none;
+  border: 0;
+}
+
+/* «غیرفعال» همان قرص کوچک قبلی می‌ماند */
+.pd-card:not(.pl-card) .pd-meta .pd-b.off {
+  margin-inline-start: 8px;
+  padding: 0 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  opacity: .85;
+}
+
+/* ---------- ۵) «پادکست‌های نزدیک»: دلیل مشابه بودن ---------- */
+.pd-card .pd-why {
+  display: block;
+  margin-top: 4px;
+  font-size: .76rem;
+  line-height: 1.7;
+  color: var(--mut);
+  text-align: var(--pp-card-align);
+}
+
+/* ---------- ۶) حرکت کمتر ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html:not(#pp) .pd-card:not(.pl-card) .pd-logo img { transition: none; }
+  html:not(#pp) .pd-card:not(.pl-card):hover .pd-logo img,
+  html:not(#pp) .pd-card:not(.pl-card):focus-within .pd-logo img { transform: none; }
+}
