@@ -278,23 +278,3 @@ html:not(#pp) #similar .pd-grid .pd-card {
   .pod .cols .facts dt,
   .pod .cols .facts dd   { padding: 7px 0; font-size: .84rem; }
 }
-
-/* ==========================================================
-   فوتر هم‌محور با محتوای اصلی
-   محتوا (و منو و لوگوی بالا) در ستونی می‌نشیند که کنار سایدبار دسته‌هاست، ولی فوتر وسط «کل صفحه» بود؛
-   پس روی دسکتاپ نسبت به خبرنامه و کارت‌ها جابه‌جا دیده می‌شد. حالا فوتر همان فاصله‌ی سایدبار را می‌گیرد.
-   ========================================================== */
-@media (min-width: 800px) {
-  .pp-foot {
-    max-width: 2000px;
-    padding-inline-start: calc(var(--pp-pad) + var(--pp-side) + var(--pp-gap));
-    padding-inline-end: var(--pp-pad);
-  }
-  body.reading .pp-foot { padding-inline-start: var(--pp-pad); }
-}
-/* صفحه‌ی اصلی: ستون فیلتر سمت چپ است؛ مثل منوی بالا، در عرض‌های بزرگ فوتر روی ستون نتایج می‌نشیند */
-@media (min-width: 1500px) {
-  body:has(.pp-shell.has-filters):not(.reading) .pp-foot {
-    padding-inline-end: calc(var(--pp-pad) + 310px + var(--pp-gap));
-  }
-}
