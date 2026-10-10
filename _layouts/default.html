@@ -106,15 +106,14 @@
       {% assign cat_defs = site.data.categories %}
       <ul>
         <li class="pp-cat"><a href="{{ '/' | relative_url }}" data-cat="">همه <span class="n">{{ site.podcasts.size }}</span></a></li>
-        {% for c in cat_names %}{% assign cq = c | uri_escape %}{% assign cn = site.podcasts | where: 'category', c | size %}
-        {% assign cdef = cat_defs | where: 'name', c | first %}
+        {% for cdef in cat_defs %}{% assign c = cdef.name %}{% assign cq = c | uri_escape %}{% assign cn = site.podcasts | where: 'category', c | size %}
         {% capture subs_html %}{% for sb in cdef.subcategories %}{% assign sn = site.podcasts | where: 'category', c | where_exp: 'p', 'p.subcategories contains sb' | size %}{% if sn > 0 %}<li><a href="{{ '/?category=' | append: c | append: '&sub=' | append: sb | uri_escape | relative_url }}" data-cat="{{ c | escape }}" data-sub="{{ sb | escape }}">{{ sb }} <span class="n">{{ sn }}</span></a></li>{% endif %}{% endfor %}{% endcapture %}
         {% assign has_subs = subs_html | strip | size %}
         <li class="pp-cat{% if has_subs > 0 %} has-subs{% endif %}"><a href="{{ '/?category=' | append: cq | relative_url }}" data-cat="{{ c | escape }}">{{ c }} <span class="n">{{ cn }}</span></a>{% if has_subs > 0 %}<button type="button" class="pp-cat-tg" aria-expanded="false" aria-label="زیردسته‌های {{ c | escape }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button><ul class="pp-subs">{{ subs_html }}</ul>{% endif %}</li>
         {% endfor %}
       </ul>
       {% assign n_city = site.podcasts | map: 'city' | compact | uniq | size %}
-      <p class="pp-side-stats"><b>{{ site.podcasts.size }}</b> پادکست · <b>{{ cat_names.size }}</b> دسته · <b>{{ n_city }}</b> شهر{% if page.url == '/' %}<a href="#map">نقشه‌ی پادکسترها</a>{% else %}<a href="{{ '/#map' | relative_url }}">نقشه‌ی پادکسترها</a>{% endif %}</p>
+      <p class="pp-side-stats"><b>{{ site.podcasts.size }}</b> پادکست · <b>{{ cat_defs.size }}</b> دسته · <b>{{ n_city }}</b> شهر{% if page.url == '/' %}<a href="#map">نقشه‌ی پادکسترها</a>{% else %}<a href="{{ '/#map' | relative_url }}">نقشه‌ی پادکسترها</a>{% endif %}</p>
     </nav>
   </aside>
   <main id="main">{{ content }}</main>

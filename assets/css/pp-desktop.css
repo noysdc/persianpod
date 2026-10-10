@@ -6,7 +6,7 @@
 
 @media (min-width: 1200px) {
   /* ---------- ۱) محور وسط: ستون‌های کناری حذف می‌شوند ---------- */
-  :root { --pp-side: 0px; --pp-gap: 0px; --pp-max: 1240px; }
+  :root { --pp-side: 0px; --pp-gap: 0px; --pp-max: 1156px; }
   body:has(.pp-shell.has-filters) .pp-hero,
   body:has(.pp-shell.has-filters) .pp-bar-wrap { padding-inline-end: var(--pp-pad); }
 
@@ -50,22 +50,33 @@
 
   /* منوی اصلی دقیقاً وسط */
   .pp-bar-wrap { display: flex; justify-content: center; }
-  .pp-glass { width: 100%; max-width: 980px; margin-inline: auto; }
+  /* منو مثل موبایل: یک باکس، دو ردیف (جست‌وجو و ابزارها / دکمه‌های منو) و هم‌عرض ستون محتوا */
+  .pp-glass { width: 100%; max-width: none; margin-inline: auto; flex-wrap: wrap; gap: 8px; padding: 8px; border-radius: 26px; }
+  .pp-glass .pp-search { order: 1; flex: 1 1 320px; height: 38px; }
+  .pp-glass .pp-tools { order: 2; }
+  .pp-glass .pp-tools button { width: 38px; height: 38px; }
+  .pp-glass .pp-nav { order: 3; flex: 1 0 100%; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; padding: 0; justify-content: stretch; }
+  .pp-glass .pp-nav a { display: flex; align-items: center; justify-content: center; height: 38px; padding: 0 8px; font-size: .92rem; border: 1px solid var(--line); background: var(--card); }
+  .pp-glass .pp-nav a[aria-current=page] { background: #08cb00; color: #0b0e0c; border-color: #08cb00; box-shadow: none; }
 
   /* ---------- ۳) دسته‌ها: نوار چیپ وسط‌چین (مثل موبایل) ---------- */
   .pp-side { display: contents; }
   .pp-side-brand { display: none; }
+  /* همه‌ی دسته‌های فرم ثبت پادکست در یک باکس هم‌عرض منو */
   .pp-cats {
     order: -3;
     min-height: 0;
-    padding: 0;
+    width: 100%;
     margin: 0;
-    border: 0;
-    border-radius: 0;
-    background: transparent;
-    box-shadow: none;
+    padding: 14px 16px 12px;
+    border: 1px solid var(--glass-line, var(--line));
+    border-radius: 26px;
+    background: var(--glass, var(--card));
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    box-shadow: var(--shadow, none);
   }
-  .pp-cats .pp-side-title { display: none; }
+  .pp-cats .pp-side-title { display: block; margin: 0 0 10px; text-align: center; font-size: .95rem; font-weight: 800; color: var(--mut); }
   .pp-cats ul {
     display: flex;
     flex-wrap: wrap;
@@ -81,11 +92,12 @@
     padding: 5px 14px;
     border: 1px solid var(--line);
     border-radius: 999px;
-    background: var(--card);
+    background: var(--bg);
     font-size: .88rem;
     line-height: 1.7;
     white-space: nowrap;
   }
+  .pp-cats a[aria-current] { background: #08cb00; color: #0b0e0c; border-color: #08cb00; }
   .pp-cats .n { min-width: 0; padding: 0 7px; font-size: .74rem; line-height: 1.6; }
   .pp-cats .pp-subs, .pp-cats .pp-cat-tg { display: none !important; }
   .pp-side-stats, .pp-vector { display: none !important; }
@@ -95,8 +107,7 @@
     order: -2;
     position: static;
     width: 100%;
-    max-width: 980px;
-    margin-inline: auto;
+    max-width: none;
     max-height: none;
     overflow: visible;
   }
@@ -128,13 +139,19 @@
   }
   .pd-apply:disabled { opacity: .55; cursor: not-allowed; }
 
-  /* ---------- ۵) فوتر: وسط صفحه (دیگر هم‌محور ستون محتوا نیست) ---------- */
+  /* ---------- ۵) هر دسته‌ی پادکست در یک باکس (به‌جای صفحه‌ی لخت) ---------- */
+  .pd-group { margin-top: 16px; padding: 18px 22px 8px; border: 1px solid var(--line); border-radius: 26px; background: var(--card); }
+  .pd-group:first-child { margin-top: 12px; }
+  .pd-group .pd-row { padding-bottom: 8px; }
+  .pd-wave { display: none; }
+
+  /* ---------- ۶) فوتر: وسط صفحه (دیگر هم‌محور ستون محتوا نیست) ---------- */
   body.reading .pp-hero, body.reading .pp-bar-wrap { padding-inline-start: var(--pp-pad); }
 }
 
-/* صفحه‌ی هر پادکست (کارت بالا، متن، خبرنامه) هم‌عرض منو: ۹۸۰ پیکسل محتوا + ۲۰ پیکسل حاشیه‌ی هر طرف */
+/* صفحه‌ی هر پادکست (کارت بالا، متن، خبرنامه) هم‌عرض منو: ۱۱۰۰ پیکسل محتوا + ۲۰ پیکسل حاشیه‌ی هر طرف */
 @media (min-width: 1200px) {
-  .pod.wrap { max-width: 1020px; box-sizing: border-box; }
+  .pod.wrap { max-width: 1140px; box-sizing: border-box; }
 }
 
 /* صفحه‌های متنی (درباره‌ی ما و سلب مسئولیت): کارت کمی عریض‌تر تا با عرض منوی بالا متناسب باشد */
