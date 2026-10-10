@@ -11,7 +11,7 @@
    تنظیم سریع (فقط همین چند عدد را عوض کن):
    ========================================================== */
 :root {
-  --pp-card-align: start;      /* start = راست‌چین | center = وسط‌چین */
+  --pp-card-align: center;     /* start = راست‌چین | center = وسط‌چین */
   --pp-cover-radius: 20px;     /* گردی گوشه‌ی کاور */
   --pp-zoom: 1.05;             /* میزان زوم هاور؛ ۱ = بدون زوم */
   --pp-zoom-time: 1.5s;        /* مدت زوم؛ بیشتر = نرم‌تر */
@@ -160,4 +160,66 @@ html:not(#pp) .pd-card:not(.pl-card) .pd-body h3 {
   html:not(#pp) .pd-card:not(.pl-card) .pd-logo img { transition: none; }
   html:not(#pp) .pd-card:not(.pl-card):hover .pd-logo img,
   html:not(#pp) .pd-card:not(.pl-card):focus-within .pd-logo img { transform: none; }
+}
+
+/* ==========================================================
+   افزوده‌ها (نسخه‌ی جدید)
+   ۱) صفحه‌ی «گوش بده»: کاور هنگام هاور مثل صفحه‌ی اصلی آرام زوم می‌شود + متن کارت‌ها وسط‌چین
+   ۲) صفحه‌ی هر پادکست: کاور بزرگ هنگام هاور زوم می‌شود (داخل قاب خودش)
+   ========================================================== */
+
+/* ---------- گوش بده: کاور ---------- */
+html:not(#pp) .pd-card.pl-card .pd-logo {
+  overflow: hidden;
+  transform: none !important;
+  transition: box-shadow 1s ease !important;
+}
+html:not(#pp) .pd-card.pl-card .pd-logo img {
+  transform: scale(1);
+  transition: transform var(--pp-zoom-time) var(--pp-zoom-ease);
+  will-change: transform;
+}
+@media (hover: hover) {
+  html:not(#pp) .pd-card.pl-card:hover .pd-logo,
+  html:not(#pp) .pd-card.pl-card:focus-visible .pd-logo {
+    box-shadow: 0 0 0 1px rgba(8, 203, 0, .55), 0 14px 28px -14px var(--glow) !important;
+  }
+  html:not(#pp) .pd-card.pl-card:hover .pd-logo img,
+  html:not(#pp) .pd-card.pl-card:focus-visible .pd-logo img {
+    transform: scale(var(--pp-zoom));
+  }
+}
+
+/* ---------- گوش بده: متن کارت‌ها وسط‌چین ---------- */
+html:not(#pp) .pd-card.pl-card,
+html:not(#pp) .pd-card.pl-card .pd-body,
+html:not(#pp) .pd-card.pl-card .pd-body h3,
+html:not(#pp) .pd-card.pl-card .pd-desc {
+  text-align: center;
+}
+html:not(#pp) .pd-card.pl-card .pl-play { margin-inline: auto; }
+html:not(#pp) .pd-card.pl-card .pd-body { display: flex; flex-direction: column; align-items: center; }
+
+/* ---------- صفحه‌ی هر پادکست: زوم کاور ---------- */
+.pod-cover .pod-cover-in {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.pod-cover .pod-cover-in img {
+  transform: scale(1);
+  transition: transform var(--pp-zoom-time) var(--pp-zoom-ease);
+  will-change: transform;
+}
+@media (hover: hover) {
+  .pod-cover:hover .pod-cover-in img { transform: scale(var(--pp-zoom)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:not(#pp) .pd-card.pl-card .pd-logo img,
+  .pod-cover .pod-cover-in img { transition: none; }
+  html:not(#pp) .pd-card.pl-card:hover .pd-logo img,
+  .pod-cover:hover .pod-cover-in img { transform: none; }
 }

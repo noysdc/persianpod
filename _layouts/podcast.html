@@ -44,7 +44,7 @@ layout: default
 <article class="pod wrap">
   <nav class="crumb"><a href="{{ '/' | relative_url }}">پادکست‌ها</a> / <a href="{{ '/?category=' | append: page.category | uri_escape | relative_url }}">{{ page.category }}</a></nav>
   <header class="pod-hero">
-    <div class="pod-cover">{% if logo_url %}<img src="{{ logo_url }}" alt="لوگوی {{ page.title }}" width="200" height="200">{% else %}<i class="ph">{{ page.title | slice: 0 }}</i>{% endif %}</div>
+    <div class="pod-cover"><span class="pod-cover-in">{% if logo_url %}<img src="{{ logo_url }}" alt="لوگوی {{ page.title }}" width="200" height="200">{% else %}<i class="ph">{{ page.title | slice: 0 }}</i>{% endif %}</span></div>
     <div class="pod-main">
       <h1>{{ page.title }}</h1>
       {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}

@@ -25,11 +25,11 @@ fetch(document.body.dataset.search).then(r=>r.json()).then(all=>{
    let ov=0;words(p).forEach(w=>{if(mw.has(w))ov++});
    const rel=cat||subs.length||tags.length||same;
    const s=(cat?2:0)+subs.length*4+tags.length*2+(same?3:0)+(p.city&&p.city===me.city?.3:0)+Math.min(2,ov*.4);
-   const why=subs.length?'موضوع مشترک: '+lst(p.subcategories).find(x=>n(x)===subs[0]):tags.length?'موضوع مشترک: '+lst(p.tags).find(x=>n(x)===tags[0]):same?'همان سازنده':cat?'هم‌دسته':'';
-   return {p,s,rel,why};
+   const tag=subs.length?lst(p.subcategories).find(x=>n(x)===subs[0]):tags.length?lst(p.tags).find(x=>n(x)===tags[0]):(p.category||'');
+   return {p,s,rel,tag};
   };
-  const sCard=x=>{const p=x.p,subs=lst(p.subcategories).slice(0,1);
-   return `<a class="pd-card" href="${e(p.url)}" title="${e(p.description)}"><span class="pd-logo">${p.logo?`<img src="${e(p.logo)}" alt="" loading="lazy" width="160" height="160">`:`<i>${e((p.title||'').trim().charAt(0))}</i>`}</span><span class="pd-body"><h3>${e(p.title)}</h3><span class="pd-meta"><span class="pd-b">${e(p.category)}</span>${subs.map(t=>`<span class="pd-b">${e(t)}</span>`).join('')}</span>${x.why?`<small class="pd-why">${e(x.why)}</small>`:''}</span></a>`};
+  const sCard=x=>{const p=x.p;
+   return `<a class="pd-card" href="${e(p.url)}" title="${e(p.description)}"><span class="pd-logo">${p.logo?`<img src="${e(p.logo)}" alt="" loading="lazy" width="160" height="160">`:`<i>${e((p.title||'').trim().charAt(0))}</i>`}</span><span class="pd-body"><h3>${e(p.title)}</h3>${x.tag?`<span class="pd-meta"><span class="pd-b">${e(x.tag)}</span></span>`:''}</span></a>`};
   const r=all.filter(p=>p.url!==me.url&&p.category).map(rate).filter(x=>x.rel&&x.s>=2).sort((a,b)=>b.s-a.s).slice(0,4);
   if(r.length){
    const h=sim.querySelector('h2');if(h)h.textContent='پادکست‌های نزدیک به این پادکست';
