@@ -59,47 +59,70 @@
   .pp-glass .pp-nav a { display: flex; align-items: center; justify-content: center; height: 38px; padding: 0 8px; font-size: .92rem; border: 1px solid var(--line); background: var(--card); }
   .pp-glass .pp-nav a[aria-current=page] { background: #08cb00; color: #0b0e0c; border-color: #08cb00; box-shadow: none; }
 
-  /* ---------- ۳) دسته‌ها: نوار چیپ وسط‌چین (مثل موبایل) ---------- */
+  /* ---------- ۳) دسته‌ها: باکس جمع‌وجور هم‌عرض منو (چیپ‌های وسط‌چین؛ زیردسته‌ها فقط برای دسته‌ی انتخاب‌شده) ---------- */
   .pp-side { display: contents; }
   .pp-side-brand { display: none; }
-  /* همه‌ی دسته‌های فرم ثبت پادکست در یک باکس هم‌عرض منو */
   .pp-cats {
     order: -3;
     min-height: 0;
     width: 100%;
     margin: 0;
-    padding: 14px 16px 12px;
+    padding: 10px 12px;
     border: 1px solid var(--glass-line, var(--line));
-    border-radius: 26px;
+    border-radius: 22px;
     background: var(--glass, var(--card));
     -webkit-backdrop-filter: blur(14px);
     backdrop-filter: blur(14px);
     box-shadow: var(--shadow, none);
   }
-  .pp-cats .pp-side-title { display: block; margin: 0 0 10px; text-align: center; font-size: .95rem; font-weight: 800; color: var(--mut); }
-  .pp-cats ul {
+  /* عنوان فقط برای صفحه‌خوان؛ چیپ‌ها خودشان گویا هستند */
+  .pp-cats .pp-side-title { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .pp-cats > ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
+    gap: 6px;
     overflow: visible;
     max-height: none;
-    padding: 2px 0;
+    padding: 0;
   }
-  .pp-cats li, .pp-cats li.pp-cat { display: block; flex: none; margin: 0; }
+  /* li شفاف می‌شود تا هر چیپ و ردیف زیردسته‌ها مستقیم عضو یک ردیف انعطاف‌پذیر باشند */
+  .pp-cats li.pp-cat { display: contents; }
   .pp-cats a {
-    gap: 8px;
-    padding: 5px 14px;
+    gap: 6px;
+    padding: 2px 11px;
     border: 1px solid var(--line);
     border-radius: 999px;
     background: var(--bg);
-    font-size: .88rem;
-    line-height: 1.7;
+    font-size: .84rem;
+    line-height: 1.75;
     white-space: nowrap;
   }
   .pp-cats a[aria-current] { background: #08cb00; color: #0b0e0c; border-color: #08cb00; }
-  .pp-cats .n { min-width: 0; padding: 0 7px; font-size: .74rem; line-height: 1.6; }
-  .pp-cats .pp-subs, .pp-cats .pp-cat-tg { display: none !important; }
+  .pp-cats .n { min-width: 0; padding: 0 6px; font-size: .72rem; line-height: 1.6; }
+  .pp-cats .pp-cat-tg { display: none !important; }
+
+  /* زیردسته‌ها: وقتی دسته (یا یکی از زیردسته‌هایش) انتخاب است، یک ردیف جداگانه همین‌جا زیر چیپ‌ها باز می‌شود */
+  .pp-cats .pp-subs {
+    display: none !important;
+    order: 99;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    margin: 4px 0 0;
+    padding: 10px 0 0;
+    border: 0;
+    border-top: 1px dashed var(--line);
+  }
+  .pp-cats .pp-cat:has(> a[aria-current]) > .pp-subs,
+  .pp-cats .pp-cat:has(.pp-subs a[aria-current]) > .pp-subs { display: flex !important; }
+  .pp-cats .pp-subs li { flex: none; margin: 0; }
+  .pp-cats .pp-subs li::before { display: none; }
+  .pp-cats .pp-subs a { padding: 1px 10px; font-size: .8rem; color: var(--mut); background: transparent; }
+  .pp-cats .pp-subs a:hover { color: var(--ink); }
+  .pp-cats .pp-subs a[aria-current] { color: #0b0e0c; }
+  .pp-cats .pp-subs .n { background: transparent; }
   .pp-side-stats, .pp-vector { display: none !important; }
 
   /* ---------- ۴) جست‌وجوی پیشرفته: کادر جمع‌شونده (مثل موبایل) ---------- */
