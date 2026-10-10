@@ -46,6 +46,53 @@
     ],
     "status": "active"
   },
+  "boutigha": {
+    "avg_gap_days": 10.3,
+    "avg_length": 46,
+    "episodes": 57,
+    "eps_365": 13,
+    "eps_90": 11,
+    "first_year": 1399,
+    "last": "1405/07/15",
+    "last_at": "2026-10-07T19:51:27Z",
+    "last_link": "https://shows.acast.com/boutighapodcast/episodes/48",
+    "last_title": "48– غصهٔ زمانه",
+    "max_length": 91,
+    "median_length": 51,
+    "min_length": 1,
+    "recent": [
+      {
+        "at": "2026-10-07T19:51:27Z",
+        "link": "https://shows.acast.com/boutighapodcast/episodes/48",
+        "title": "48– غصهٔ زمانه"
+      },
+      {
+        "at": "2026-10-05T06:01:39Z",
+        "link": "https://shows.acast.com/boutighapodcast/episodes/6ac33d431b614c9be09d9bcf",
+        "title": "اپیزود لن‌ترونی – قسمت هفتم [پیش‌نمایش]"
+      },
+      {
+        "at": "2026-09-02T20:35:23Z",
+        "link": "https://shows.acast.com/boutighapodcast/episodes/47",
+        "title": "۴۷ – بادهٔ مغانه"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      7,
+      2,
+      2
+    ],
+    "status": "active"
+  },
   "doxpodcast": {
     "avg_gap_days": 20.6,
     "avg_length": 69,
