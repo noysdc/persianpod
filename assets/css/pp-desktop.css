@@ -1,0 +1,36 @@
+/* PersianPod: چیدمان دسکتاپ (۱۲۰۰ پیکسل به بالا)
+   مشکل قبلی: کل صفحه تا ۲۰۰۰ پیکسل کش می‌آمد. سایدبار به لبه‌ی راست می‌چسبید، محتوا و منو وسط «ستون اصلی»
+   (نه وسط صفحه) می‌نشستند و فوتر وسط صفحه بود؛ نتیجه: همه‌چیز به چپ متمایل و دو طرف خالی.
+   راه‌حل: برای صفحه‌هایی که ستون فیلتر ندارند (درباره‌ی ما، صفحه‌ی پادکست، فرم، آموزش، مقایسه، ...)
+   هدر، منو، بدنه و فوتر در یک قاب هم‌عرض و وسط‌چین قرار می‌گیرند و فوتر زیر ستون محتوا هم‌محور می‌شود.
+   صفحه‌ی اصلی (سه‌ستونه با فیلتر) دست‌نخورده می‌ماند.
+   این فایل باید بعد از pp-rail.css و قبل از pp-cards.css لود شود. */
+@media (min-width: 1200px) {
+  :where(:root:not(:has(.pp-shell.has-filters))) { --pp-max: 1400px; }
+
+  :where(:root:not(:has(.pp-shell.has-filters))) .pp-hero,
+  :where(:root:not(:has(.pp-shell.has-filters))) .pp-bar-wrap,
+  :where(:root:not(:has(.pp-shell.has-filters))) .pp-shell {
+    max-width: var(--pp-max);
+  }
+
+  /* فوتر هم‌محور با ستون محتوا (همان محاسبه‌ی padding هدر در pp-v3.css) */
+  :where(:root:not(:has(.pp-shell.has-filters))) .pp-foot {
+    max-width: var(--pp-max);
+    padding-inline-start: calc(var(--pp-pad) + var(--pp-side) + var(--pp-gap));
+    padding-inline-end: var(--pp-pad);
+    border-top: 0; /* خط جداکننده به ::before می‌رود تا هم‌عرض ستون محتوا شود، نه کل قاب */
+  }
+  :where(:root:not(:has(.pp-shell.has-filters))) .pp-foot::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background: var(--line);
+  }
+  body.reading .pp-foot { padding-inline-start: var(--pp-pad); }
+}
+
+/* صفحه‌های متنی (درباره‌ی ما، سلب مسئولیت): کارت کمی عریض‌تر تا با عرض منوی بالا متناسب باشد */
+@media (min-width: 1200px) {
+  .pp-doc { max-width: 56rem; padding-inline: 44px; }
+}
