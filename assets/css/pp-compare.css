@@ -57,8 +57,6 @@
 .cp-needs li{list-style:none;margin-inline-start:-1.2em}
 .cp-foot{text-align:center;margin:16px 0}
 
-.cp-method{margin-top:36px;padding-top:6px;border-top:1px solid var(--line);scroll-margin-top:84px;line-height:2}
-.cp-method h2{font-size:1.2rem}.cp-method h3{font-size:1rem;margin:16px 0 4px}
 
 @media(max-width:700px){
   .cp-pick{grid-template-columns:minmax(0,1fr)}.cp-vs{display:none}
@@ -88,3 +86,26 @@
   .cp-tip{font-size:.8rem}
 }
 .cp-slot{min-width:0}
+
+/* ---------- «مقایسه‌ها چگونه انجام می‌شود؟»: مرتب و وسط‌چین، با باکس‌های هم‌عرض ---------- */
+.cp-method{max-width:920px;margin:44px auto 0;padding:30px 0 0;border-top:1px solid var(--line);scroll-margin-top:84px;line-height:1.95}
+.cp-method>h2{margin:0 0 8px;font-size:1.25rem;text-align:center}
+.cp-method-lead{max-width:62ch;margin:0 auto 22px;text-align:center;color:var(--mut)}
+.cp-m-box{margin:0 0 14px;padding:18px 24px;border:1px solid var(--line);border-radius:20px;background:var(--card)}
+.cp-m-box h3{margin:0 0 10px;font-size:1rem}
+.cp-m-box ul{margin:0;padding:0;list-style:none;display:grid;gap:4px}
+.cp-m-box li{position:relative;padding-inline-start:20px}
+.cp-m-box li::before{content:"";position:absolute;inset-inline-start:2px;top:.9em;width:6px;height:6px;border-radius:50%;background:#08cb00}
+.cp-m-def{margin:0}
+.cp-m-def>div{display:grid;grid-template-columns:260px minmax(0,1fr);gap:4px 24px;padding:10px 0;border-top:1px solid var(--line)}
+.cp-m-def>div:first-child{border-top:0;padding-top:2px}
+.cp-m-def>div:last-child{padding-bottom:2px}
+.cp-m-def dt{margin:0;font-weight:700}
+.cp-m-def dd{margin:0;color:var(--mut)}
+.cp-m-note{max-width:62ch;margin:20px auto 0;text-align:center;color:var(--mut);font-size:.92rem}
+.cp-m-note a{color:var(--acc)}
+@media (max-width:700px){
+  .cp-method{margin-top:32px;padding-top:22px}
+  .cp-m-box{padding:14px 16px;border-radius:16px}
+  .cp-m-def>div{grid-template-columns:1fr;gap:0}
+}
