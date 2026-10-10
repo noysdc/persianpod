@@ -1,0 +1,168 @@
+/* ==========================================================
+   PersianPod — صفحه‌ی آموزش (فهرست کارتی با کاور + صفحه‌ی هر مطلب)
+   زوم و گردی کاور از همان متغیرهای pp-cards.css می‌آید.
+   ========================================================== */
+
+/* ---------- فهرست ---------- */
+.pl-grid {
+  list-style: none;
+  margin: 1.2rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 30px 22px;
+}
+
+.pl-card { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.pl-card[hidden] { display: none; }   /* تا فیلتر و جستجو کار کند */
+
+.pl-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.pl-link:focus-visible { outline: 3px solid #08cb00; outline-offset: 4px; border-radius: 14px; }
+
+/* کاور */
+.pl-cover {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 10;
+  border-radius: var(--pp-cover-radius, 20px);
+  overflow: hidden;
+  background: var(--line);
+  box-shadow: 0 0 0 1px var(--line), 0 8px 18px -12px rgba(0, 0, 0, .45);
+  transition: box-shadow 1s ease;
+}
+
+.pl-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: transform var(--pp-zoom-time, 1.5s) var(--pp-zoom-ease, cubic-bezier(.4, 0, .2, 1));
+  will-change: transform;
+}
+
+/* حرف اول فقط وقتی دیده می‌شود که عکسی نباشد (یا عکس باز نشود) */
+.pl-cover:not(.pl-cover--empty) i { display: none; }
+
+/* وقتی هنوز عکسی نیست: یک کاور ساده با حرف اول */
+.pl-cover--empty {
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(120% 120% at 100% 0%, rgba(8, 203, 0, .28), transparent 60%),
+    var(--card);
+}
+
+.pl-cover--empty i {
+  font-style: normal;
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: var(--acc);
+  opacity: .9;
+}
+
+@media (hover: hover) {
+  .pl-card:hover .pl-cover,
+  .pl-card:focus-within .pl-cover {
+    box-shadow: 0 0 0 1px rgba(8, 203, 0, .55), 0 14px 28px -14px var(--glow);
+  }
+  .pl-card:hover .pl-cover img,
+  .pl-card:focus-within .pl-cover img { transform: scale(var(--pp-zoom, 1.05)); }
+}
+
+/* متن */
+.pl-body { display: block; margin-top: 12px; }
+
+.pl-body h2 {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.75;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.pl-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: 2px;
+  font-size: .86rem;
+  line-height: 1.9;
+  color: var(--mut);
+}
+
+.pl-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 10px;
+  font-size: .78rem;
+  line-height: 1.9;
+  color: var(--mut);
+}
+
+.pl-own, .pl-src { color: var(--acc); text-decoration: none; font-weight: 700; }
+a.pl-src:hover { text-decoration: underline; }
+
+/* ---------- صفحه‌ی هر مطلب ---------- */
+.pl-post { max-width: 760px; margin: 0 auto; padding: 1rem 1rem 3rem; }
+
+.pl-crumb { margin: 0 0 14px; font-size: .88rem; }
+.pl-crumb a { color: var(--mut); text-decoration: none; }
+.pl-crumb a:hover { color: var(--acc); }
+
+.pl-post h1 { margin: 0 0 8px; font-size: clamp(1.5rem, 3.4vw, 2.1rem); line-height: 1.6; }
+.pl-post-lead { margin: 0 0 12px; font-size: 1.08rem; line-height: 2; color: var(--mut); }
+.pl-post-meta { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 0 0 20px; font-size: .84rem; color: var(--mut); }
+.pl-tag { color: var(--mut); }
+
+.pl-post-cover { margin: 0 0 26px; }
+.pl-post-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: var(--pp-cover-radius, 20px);
+  box-shadow: 0 0 0 1px var(--line);
+}
+.pl-post-cover figcaption { margin-top: 6px; font-size: .78rem; color: var(--mut); }
+
+.pl-post-body { font-size: 1.04rem; line-height: 2.1; }
+.pl-post-body h2 { margin: 2em 0 .5em; font-size: 1.35rem; line-height: 1.7; }
+.pl-post-body h3 { margin: 1.6em 0 .4em; font-size: 1.15rem; }
+.pl-post-body p { margin: 0 0 1.1em; }
+.pl-post-body ul, .pl-post-body ol { margin: 0 0 1.2em; padding-inline-start: 1.4em; }
+.pl-post-body li { margin-bottom: .4em; }
+.pl-post-body a { color: var(--acc); text-underline-offset: 3px; }
+.pl-post-body img { display: block; max-width: 100%; height: auto; margin: 1.4em auto; border-radius: 14px; }
+.pl-post-body blockquote {
+  margin: 1.4em 0; padding: .2em 1em;
+  border-inline-start: 3px solid #08cb00; color: var(--mut);
+}
+.pl-post-body code { padding: 0 .35em; border-radius: 6px; background: var(--line); font-size: .92em; }
+.pl-post-body pre { overflow-x: auto; padding: 1em; border-radius: 12px; background: var(--card); border: 1px solid var(--line); direction: ltr; }
+.pl-post-body pre code { padding: 0; background: none; }
+.pl-post-body hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+
+.pl-post-source { margin: 2em 0 0; padding-top: 1em; border-top: 1px solid var(--line); font-size: .9rem; color: var(--mut); }
+.pl-post-source a { color: var(--acc); }
+.pl-post-back { margin: 1.4em 0 0; font-size: .92rem; }
+.pl-post-back a { color: var(--acc); text-decoration: none; }
+.pl-post-back a:hover { text-decoration: underline; }
+
+@media (max-width: 799px) {
+  .pl-grid { grid-template-columns: 1fr; gap: 26px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pl-cover, .pl-cover img { transition: none; }
+  .pl-card:hover .pl-cover img { transform: none; }
+}

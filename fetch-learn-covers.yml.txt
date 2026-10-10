@@ -1,0 +1,33 @@
+name: Fetch learn covers
+
+# کاور آموزش‌هایی را که عکس ندارند خودکار می‌گیرد.
+# اجرا می‌شود: وقتی فایل آموزش‌ها عوض شود، هر هفته، و هر وقت دستی «Run workflow» بزنی.
+on:
+  push:
+    paths:
+      - "_data/learn_links.yml"
+      - "_learn/**"
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  covers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - run: python scripts/fetch_learn_covers.py
+      - name: Commit changes
+        run: |
+          git config user.name  "persianpod-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A _data assets/img
+          if [ -d _learn ]; then git add -A _learn; fi
+          git diff --cached --quiet || (git commit -m "chore: add learn covers" && git pull --rebase && git push)

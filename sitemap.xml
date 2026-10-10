@@ -12,4 +12,7 @@ sitemap: false
 {%- for p in site.podcasts %}
   <url><loc>{{ p.url | absolute_url | xml_escape }}</loc></url>
 {%- endfor %}
+{%- for p in site.learn %}
+  <url><loc>{{ p.url | absolute_url | xml_escape }}</loc></url>
+{%- endfor %}
 </urlset>

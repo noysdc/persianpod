@@ -15,9 +15,14 @@ collections:
   podcasts:
     output: true
     permalink: /podcasts/:name/
+  learn:
+    output: true
+    permalink: /learn/:name/
 defaults:
   - scope: { path: "", type: "podcasts" }
     values: { layout: "podcast" }
+  - scope: { path: "", type: "learn" }
+    values: { layout: "learn-post" }
 exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, node_modules, scripts, tools, _worker, "*.patch", "*.tar.gz", DELETE-LIST.txt, delete-unused-files.sh, cover-ring-snippet.html]
 # آمار RSS تازه‌ترین نسخه؛ صفحه‌ی «تازه‌ها» از اینجا می‌خواند تا منتظر دیپلوی دوباره نماند
 rss_stats_raw: https://raw.githubusercontent.com/noysdc/persianpod/master/_data/rss_stats.json

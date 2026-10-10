@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ساخت مطلب جدید آموزش — پرشین‌پاد</title>
+<style>
+  :root { --bg:#0b0e0c; --card:#131916; --line:#243028; --ink:#e9f0ea; --mut:#8fa095; --g:#08cb00; --acc:#00ff9c; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:28px 16px 60px; background:var(--bg); color:var(--ink); font:16px/1.9 Vazirmatn, Tahoma, sans-serif; }
+  main { max-width:760px; margin:0 auto; }
+  h1 { margin:0 0 4px; font-size:1.5rem; }
+  .lead { margin:0 0 22px; color:var(--mut); }
+  label { display:block; margin:16px 0 4px; font-weight:700; }
+  small { display:block; color:var(--mut); font-weight:400; font-size:.84rem; line-height:1.7; }
+  input[type=text], textarea {
+    width:100%; padding:10px 12px; font:inherit; color:var(--ink);
+    background:var(--card); border:1px solid var(--line); border-radius:12px;
+  }
+  input:focus-visible, textarea:focus-visible, button:focus-visible { outline:3px solid rgba(8,203,0,.5); outline-offset:1px; }
+  textarea { min-height:220px; resize:vertical; }
+  .row { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  @media (max-width:640px){ .row { grid-template-columns:1fr; } }
+  button {
+    font:inherit; font-weight:700; padding:10px 18px; border-radius:999px; cursor:pointer;
+    border:1px solid var(--g); background:var(--g); color:#04210a;
+  }
+  button.ghost { background:transparent; color:var(--ink); border-color:var(--line); }
+  button:hover { filter:brightness(1.08); }
+  .box { margin-top:28px; padding:18px; background:var(--card); border:1px solid var(--line); border-radius:16px; }
+  .box h2 { margin:0 0 6px; font-size:1.1rem; }
+  pre { margin:8px 0 12px; padding:12px; direction:ltr; text-align:left; overflow:auto; white-space:pre-wrap; word-break:break-all;
+        background:var(--bg); border:1px solid var(--line); border-radius:10px; font:13px/1.7 ui-monospace, Consolas, monospace; max-height:340px; }
+  ol { padding-inline-start:1.3em; color:var(--mut); }
+  ol b { color:var(--ink); }
+  .ok { color:var(--acc); }
+  .err { color:#ff8a80; }
+  .imgrow { display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+  #prev { max-width:200px; max-height:120px; border-radius:10px; display:none; }
+</style>
+</head>
+<body>
+<main>
+  <h1>ساخت مطلب جدید آموزش</h1>
+  <p class="lead">فرم را پر کن؛ این صفحه فایل مطلب را آماده می‌کند و تو فقط آن را در گیت‌هاب می‌چسبانی. چیزی جایی ذخیره یا ارسال نمی‌شود.</p>
+
+  <label for="title">عنوان مطلب</label>
+  <input type="text" id="title" placeholder="مثلاً: چطور برای ضبط پادکست میکروفون انتخاب کنم؟">
+
+  <div class="row">
+    <div>
+      <label for="slug">نام فایل (انگلیسی)
+        <small>فقط حرف انگلیسی، عدد و خط تیره. آدرس مطلب هم می‌شود: /learn/نام/</small>
+      </label>
+      <input type="text" id="slug" placeholder="how-to-choose-a-mic" dir="ltr">
+    </div>
+    <div>
+      <label for="tags">موضوع‌ها
+        <small>با ویرگول جدا کن</small>
+      </label>
+      <input type="text" id="tags" placeholder="ضبط، تجهیزات">
+    </div>
+  </div>
+
+  <label for="desc">توضیح کوتاه
+    <small>یک یا دو جمله؛ زیر عنوان در فهرست آموزش‌ها دیده می‌شود</small>
+  </label>
+  <input type="text" id="desc">
+
+  <label>عکس کاور
+    <small>اختیاری. عکس را انتخاب کن تا کوچک و آماده شود؛ بعد باید فایل ساخته‌شده را هم در گیت‌هاب آپلود کنی (مرحله‌ی ۲ پایین)</small>
+  </label>
+  <div class="imgrow">
+    <input type="file" id="img" accept="image/*">
+    <img id="prev" alt="">
+  </div>
+  <label for="alt">توضیح کوتاه عکس <small>برای کسانی که عکس را نمی‌بینند</small></label>
+  <input type="text" id="alt">
+
+  <div class="row">
+    <div>
+      <label for="source">نام منبع <small>اختیاری، اگر مطلب از جای دیگری آمده</small></label>
+      <input type="text" id="source">
+    </div>
+    <div>
+      <label for="surl">لینک منبع <small>اختیاری</small></label>
+      <input type="text" id="surl" dir="ltr" placeholder="https://">
+    </div>
+  </div>
+
+  <label for="body">متن مطلب
+    <small>با مارک‌داون: <code dir="ltr">## تیتر</code> &nbsp; <code dir="ltr">**پررنگ**</code> &nbsp; <code dir="ltr">- مورد لیست</code> &nbsp; <code dir="ltr">[متن لینک](https://...)</code></small>
+  </label>
+  <textarea id="body"></textarea>
+
+  <p><button type="button" id="go">ساخت فایل مطلب</button></p>
+  <p id="msg" class="err" role="alert"></p>
+
+  <section class="box" id="out" hidden>
+    <h2>مرحله‌ی ۱ — فایل مطلب</h2>
+    <ol>
+      <li>در گیت‌هاب ریپو: <b>Add file ← Create new file</b></li>
+      <li>در کادر نام فایل بنویس (دقیقاً همین): <b id="path" dir="ltr"></b></li>
+      <li>متن زیر را کپی و در کادر بزرگ بچسبان، بعد <b>Commit changes</b></li>
+    </ol>
+    <pre id="md"></pre>
+    <button type="button" id="copypath" class="ghost">کپی نام فایل</button>
+    <button type="button" id="copymd">کپی متن فایل</button>
+
+    <div id="imgstep" hidden style="margin-top:22px">
+      <h2>مرحله‌ی ۲ — آپلود عکس کاور</h2>
+      <ol>
+        <li>روی دکمه‌ی زیر بزن تا عکس آماده‌شده دانلود شود (نامش: <b id="imgname" dir="ltr"></b>)</li>
+        <li>در گیت‌هاب پوشه‌ی <b dir="ltr">assets/img/learn</b> را باز کن ← <b>Add file ← Upload files</b> ← همان فایل را بکش ← Commit</li>
+      </ol>
+      <button type="button" id="dlimg" class="ghost">دانلود عکس آماده‌شده</button>
+    </div>
+    <p class="ok" id="done" style="margin-bottom:0">چند دقیقه بعد از Commit، مطلب در صفحه‌ی آموزش دیده می‌شود.</p>
+  </section>
+</main>
+
+<script>
+(function () {
+  "use strict";
+  var $ = function (id) { return document.getElementById(id); };
+  var imgBlob = null, imgExt = "webp";
+
+  function q(s) { return '"' + String(s).replace(/\\/g, "\\\\").replace(/"/g, '\\"').replace(/\s*\n\s*/g, " ").trim() + '"'; }
+  function slugify(s) { return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, ""); }
+  function pad(n) { return (n < 10 ? "0" : "") + n; }
+  /* تاریخ امروز به وقت تهران، از نیمه‌شب؛ تا هیچ‌وقت «در آینده» حساب نشود و جکیل مطلب را پنهان نکند */
+  function nowStamp() {
+    var d;
+    try { d = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Tehran", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date()); }
+    catch (e) { var n = new Date(Date.now() - 86400000); d = n.getFullYear() + "-" + pad(n.getMonth() + 1) + "-" + pad(n.getDate()); }
+    return d + " 00:00:00 +0330";
+  }
+  function copy(text, btn) {
+    var done = function () { var t = btn.textContent; btn.textContent = "کپی شد ✓"; setTimeout(function () { btn.textContent = t; }, 1500); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, function () { fallback(); });
+    else fallback();
+    function fallback() { var ta = document.createElement("textarea"); ta.value = text; document.body.appendChild(ta); ta.select(); try { document.execCommand("copy"); done(); } catch (e) {} ta.remove(); }
+  }
+
+  /* عکس: کوچک‌کردن به عرض ۱۲۰۰ و تبدیل به webp */
+  $("img").addEventListener("change", function () {
+    var f = this.files && this.files[0];
+    imgBlob = null;
+    $("prev").style.display = "none";
+    if (!f) return;
+    var url = URL.createObjectURL(f), im = new Image();
+    im.onload = function () {
+      var W = Math.min(1200, im.naturalWidth), H = Math.round(im.naturalHeight * W / im.naturalWidth);
+      var c = document.createElement("canvas"); c.width = W; c.height = H;
+      c.getContext("2d").drawImage(im, 0, 0, W, H);
+      c.toBlob(function (b) {
+        if (b && b.type === "image/webp") { imgBlob = b; imgExt = "webp"; }
+        else c.toBlob(function (j) { imgBlob = j; imgExt = "jpg"; }, "image/jpeg", .85);
+        $("prev").src = url; $("prev").style.display = "block";
+      }, "image/webp", .85);
+    };
+    im.onerror = function () { $("msg").textContent = "این عکس باز نشد؛ یک عکس دیگر انتخاب کن."; };
+    im.src = url;
+  });
+
+  $("title").addEventListener("input", function () {
+    if (!$("slug").dataset.touched) $("slug").value = slugify(this.value);
+  });
+  $("slug").addEventListener("input", function () { this.dataset.touched = "1"; });
+
+  $("go").addEventListener("click", function () {
+    var title = $("title").value.trim(), slug = slugify($("slug").value), msg = $("msg");
+    msg.textContent = "";
+    if (!title) { msg.textContent = "عنوان را بنویس."; return; }
+    if (!slug) { msg.textContent = "برای نام فایل یک نام انگلیسی بنویس (مثلاً my-first-post)."; return; }
+
+    var tags = $("tags").value.split(/[,،]/).map(function (t) { return t.trim(); }).filter(Boolean);
+    var fm = ["---", "title: " + q(title)];
+    if ($("desc").value.trim()) fm.push("description: " + q($("desc").value));
+    fm.push("tags: [" + tags.map(q).join(", ") + "]");
+    fm.push("date: " + nowStamp());
+    var imgName = "";
+    if (imgBlob) {
+      imgName = slug + "." + imgExt;
+      fm.push("image: " + q("/assets/img/learn/" + imgName));
+      if ($("alt").value.trim()) fm.push("image_alt: " + q($("alt").value));
+    }
+    if ($("source").value.trim()) fm.push("source: " + q($("source").value));
+    if ($("surl").value.trim()) fm.push("source_url: " + q($("surl").value));
+    fm.push("---", "", $("body").value.trim(), "");
+    var md = fm.join("\n"), path = "_learn/" + slug + ".md";
+
+    $("path").textContent = path; $("md").textContent = md; $("out").hidden = false;
+    $("imgstep").hidden = !imgBlob; $("imgname").textContent = imgName;
+    $("out").scrollIntoView({ behavior: "smooth", block: "start" });
+
+    $("copypath").onclick = function () { copy(path, this); };
+    $("copymd").onclick = function () { copy(md, this); };
+    $("dlimg").onclick = function () {
+      var a = document.createElement("a"); a.href = URL.createObjectURL(imgBlob); a.download = imgName;
+      document.body.appendChild(a); a.click(); a.remove();
+    };
+  });
+})();
+</script>
+</body>
+</html>
