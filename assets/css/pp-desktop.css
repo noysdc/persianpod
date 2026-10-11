@@ -4,6 +4,9 @@
    همه روی یک محور و وسط صفحه. موبایل و تبلت (زیر ۱۲۰۰) دست‌نخورده‌اند.
    این فایل باید بعد از pp-rail.css و قبل از pp-cards.css لود شود. */
 
+/* نوار زیردسته‌ها: پیش‌فرض پنهان؛ فقط در دسکتاپ (پایین‌تر) باز می‌شود */
+.pp-subbar { display: none; }
+
 @media (min-width: 1200px) {
   /* ---------- ۱) محور وسط: ستون‌های کناری حذف می‌شوند ---------- */
   :root { --pp-side: 0px; --pp-gap: 0px; --pp-max: 1156px; }
@@ -77,16 +80,30 @@
   }
   /* عنوان فقط برای صفحه‌خوان؛ چیپ‌ها خودشان گویا هستند */
   .pp-cats .pp-side-title { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  /* یک ردیف کشیدنی (مثل موبایل): با ماوس بگیر و بکش؛ لبه‌ها کمرنگ می‌شوند تا معلوم باشد ادامه دارد.
+     اگر همه‌ی دسته‌ها جا شوند وسط‌چین می‌مانند. */
   .pp-cats > ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
+    justify-content: safe center;
     gap: 6px;
-    overflow: visible;
+    overflow-x: auto;
+    overflow-y: hidden;
     max-height: none;
-    padding: 0;
+    padding: 2px 24px;
+    scrollbar-width: none;
+    overscroll-behavior-x: contain;
+    cursor: grab;
+    -webkit-user-select: none;
+            user-select: none;
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 24px, #000 calc(100% - 24px), transparent 100%);
+            mask-image: linear-gradient(to right, transparent 0, #000 24px, #000 calc(100% - 24px), transparent 100%);
   }
-  /* li شفاف می‌شود تا هر چیپ و ردیف زیردسته‌ها مستقیم عضو یک ردیف انعطاف‌پذیر باشند */
+  .pp-cats > ul::-webkit-scrollbar { display: none; }
+  .pp-cats > ul.is-dragging { cursor: grabbing; }
+  .pp-cats > ul.is-dragging a { pointer-events: none; }
+  /* li شفاف می‌شود تا هر چیپ مستقیم عضو همان ردیف باشد */
   .pp-cats li.pp-cat { display: contents; }
   .pp-cats a {
     gap: 6px;
@@ -97,32 +114,33 @@
     font-size: .84rem;
     line-height: 1.75;
     white-space: nowrap;
+    flex: none;
   }
   .pp-cats a[aria-current] { background: #08cb00; color: #0b0e0c; border-color: #08cb00; }
   .pp-cats .n { min-width: 0; padding: 0 6px; font-size: .72rem; line-height: 1.6; }
   .pp-cats .pp-cat-tg { display: none !important; }
 
-  /* زیردسته‌ها: وقتی دسته (یا یکی از زیردسته‌هایش) انتخاب است، یک ردیف جداگانه همین‌جا زیر چیپ‌ها باز می‌شود */
-  .pp-cats .pp-subs {
-    display: none !important;
-    order: 99;
-    flex: 1 0 100%;
+  /* زیردسته‌ها: چون چیپ‌ها اسکرول می‌شوند، لیست داخل هر چیپ پنهان است و زیردسته‌ی دسته‌ی انتخاب‌شده در نوار جدایی
+     زیر ردیف باز می‌شود (نمایش هر لیست با یک قانون :has در خود قالب ساخته می‌شود). */
+  .pp-cats .pp-cat > .pp-subs { display: none !important; }
+  .pp-subbar { display: block; }
+  .pp-subbar-list {
+    display: none;
     flex-wrap: wrap;
     justify-content: center;
     gap: 6px;
-    margin: 4px 0 0;
+    margin: 8px 0 0;
     padding: 10px 0 0;
-    border: 0;
+    list-style: none;
+    overflow: visible;
     border-top: 1px dashed var(--line);
   }
-  .pp-cats .pp-cat:has(> a[aria-current]) > .pp-subs,
-  .pp-cats .pp-cat:has(.pp-subs a[aria-current]) > .pp-subs { display: flex !important; }
-  .pp-cats .pp-subs li { flex: none; margin: 0; }
-  .pp-cats .pp-subs li::before { display: none; }
-  .pp-cats .pp-subs a { padding: 1px 10px; font-size: .8rem; color: var(--mut); background: transparent; }
-  .pp-cats .pp-subs a:hover { color: var(--ink); }
-  .pp-cats .pp-subs a[aria-current] { color: #0b0e0c; }
-  .pp-cats .pp-subs .n { background: transparent; }
+  .pp-subbar-list li { flex: none; margin: 0; }
+  .pp-subbar-list li::before { display: none; }
+  .pp-cats .pp-subbar-list a { padding: 1px 10px; font-size: .8rem; color: var(--mut); background: transparent; }
+  .pp-cats .pp-subbar-list a:hover { color: var(--ink); }
+  .pp-cats .pp-subbar-list a[aria-current] { color: #0b0e0c; background: #08cb00; }
+  .pp-cats .pp-subbar-list .n { background: transparent; }
   .pp-side-stats, .pp-vector { display: none !important; }
 
   /* ---------- ۴) جست‌وجوی پیشرفته: کادر جمع‌شونده (مثل موبایل) ---------- */
@@ -195,3 +213,17 @@
   background: linear-gradient(90deg, transparent, var(--line) 20%, #08cb00 50%, var(--line) 80%, transparent);
 }
 .pp-foot .pp-side-contact { border-top: 0; padding-top: 30px; }
+
+
+/* جداکننده‌ی دوم: بالای محتوای هر صفحه (مثلاً «پادکست فارسی را کشف کن»). هم‌شکل جداکننده‌ی زیر لوگو (.pp-hero::after)؛
+   پس باکس منو، نوار دسته‌ها و جست‌وجوی پیشرفته همیشه بین این دو جداکننده‌اند. همه‌ی صفحه‌ها و همه‌ی عرض‌ها. */
+main#main::before {
+  content: "";
+  display: block;
+  width: min(520px, 78%);
+  height: 2px;
+  margin: 8px auto 22px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, transparent, var(--line) 18%, #08cb00 50%, var(--line) 82%, transparent);
+  opacity: .9;
+}
