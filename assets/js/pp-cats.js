@@ -43,8 +43,55 @@
     ul.scrollTo({ left: ul.scrollLeft + delta, behavior: smooth ? "smooth" : "auto" });
   }
 
+  /* ---------- فلش‌های چپ و راست (دسکتاپ) + چرخ ماوس ---------- */
+  var ICON = {
+    left: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    right: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+  };
+  function rooms(ul) {                    // چقدر جا برای اسکرول به چپ و راست مانده (مستقل از RTL/LTR)
+    var max = ul.scrollWidth - ul.clientWidth, pos = Math.abs(ul.scrollLeft);
+    var rtl = getComputedStyle(ul).direction === "rtl";
+    return rtl ? { left: max - pos, right: pos } : { left: pos, right: max - pos };
+  }
+  function updateArrows() {
+    var nav = document.querySelector(".pp-cats"), ul = listEl(); if (!nav || !ul) return;
+    var l = nav.querySelector(".pp-cat-arrow.l"), r = nav.querySelector(".pp-cat-arrow.r"); if (!l || !r) return;
+    var over = ul.scrollWidth > ul.clientWidth + 2, rm = rooms(ul);
+    nav.classList.toggle("has-arrows", over);
+    l.hidden = !over || rm.left < 2; r.hidden = !over || rm.right < 2;
+  }
+  function scrollStrip(dir) {
+    var ul = listEl(); if (!ul) return;
+    ul.scrollBy({ left: dir * Math.max(160, ul.clientWidth * 0.6), behavior: "smooth" });
+  }
+  function ensureArrows() {
+    var nav = document.querySelector(".pp-cats"), ul = listEl(); if (!nav || !ul) return;
+    if (!nav.querySelector(".pp-cat-arrow")) {
+      [["l", "left", -1, "دسته‌های سمت چپ"], ["r", "right", 1, "دسته‌های سمت راست"]].forEach(function (a) {
+        var b = document.createElement("button");
+        b.type = "button"; b.className = "pp-cat-arrow " + a[0]; b.hidden = true;
+        b.setAttribute("aria-label", a[3]); b.innerHTML = ICON[a[1]];
+        b.addEventListener("click", function () { scrollStrip(a[2]); });
+        nav.appendChild(b);
+      });
+    }
+    if (!ul.__ppArrows) {
+      ul.__ppArrows = true;
+      ul.addEventListener("scroll", updateArrows, { passive: true });
+      ul.addEventListener("wheel", function (e) {      // چرخ عمودی ماوس روی نوار، آن را افقی می‌لغزاند
+        if (ul.scrollWidth <= ul.clientWidth + 2) return;
+        if (Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
+        e.preventDefault(); ul.scrollBy({ left: e.deltaY });
+      }, { passive: false });
+      if (window.ResizeObserver) new ResizeObserver(updateArrows).observe(ul);
+    }
+    updateArrows();
+  }
+  window.addEventListener("resize", updateArrows);
+
   function init() {
     applyOrder();
+    ensureArrows();
     var nav = document.querySelector(".pp-cats");
     if (obs) obs.disconnect();
     if (nav && window.MutationObserver) {

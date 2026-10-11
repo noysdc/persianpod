@@ -227,3 +227,31 @@ main#main::before {
   background: linear-gradient(90deg, transparent, var(--line) 18%, #08cb00 50%, var(--line) 82%, transparent);
   opacity: .9;
 }
+
+/* ---------- فلش‌های چپ و راست روی نوار دسته‌ها (فقط وقتی دسته‌ها از عرض بیشترند) ---------- */
+.pp-cat-arrow { display: none; }
+@media (min-width: 1200px) {
+  .pp-cats { position: relative; }
+  .pp-cats.has-arrows > ul {
+    padding-inline: 44px;
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 44px, #000 calc(100% - 44px), transparent 100%);
+            mask-image: linear-gradient(to right, transparent 0, #000 44px, #000 calc(100% - 44px), transparent 100%);
+  }
+  .pp-cat-arrow {
+    position: absolute; top: 10px; z-index: 2;
+    display: grid; place-items: center;
+    width: 32px; height: 32px; padding: 0;
+    border: 1px solid var(--line); border-radius: 50%;
+    background: var(--card); color: var(--ink);
+    box-shadow: 0 4px 14px var(--glow-soft);
+    cursor: pointer;
+    transition: box-shadow .2s ease, background .2s ease, border-color .2s ease, transform .2s ease;
+  }
+  .pp-cat-arrow[hidden] { display: none; }
+  .pp-cat-arrow.l { left: 10px; }
+  .pp-cat-arrow.r { right: 10px; }
+  .pp-cat-arrow svg { width: 18px; height: 18px; }
+  .pp-cat-arrow:hover { border-color: #08cb00; box-shadow: 0 6px 18px var(--glow-soft); }
+  .pp-cat-arrow:active { transform: scale(.94); }
+  .pp-cat-arrow:focus-visible { outline: 3px solid rgba(8,203,0,.45); outline-offset: 2px; }
+}
