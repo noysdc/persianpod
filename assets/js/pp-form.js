@@ -83,10 +83,10 @@
         '<span class="pf-drop-t">انتخاب تصویر</span><img class="pf-prev" alt="" hidden><span class="pf-fn"></span></label>' + errSlot(k) + "</div>";
 
     if (x && x.list)                                  // برچسب‌ها: تایپ + اینتر => چیپ
-      return '<div class="pf pf-wide pf-tags" data-k="' + k + '" data-max="5"><label class="pf-l" for="tg-' + k + '">' + esc(l) + star + "</label>" + hint +
+      return '<div class="pf pf-wide pf-tags" data-k="' + k + '" data-max="' + ((x && x.max) || 5) + '"><label class="pf-l" for="tg-' + k + '">' + esc(l) + star + "</label>" + hint +
         '<input type="hidden" name="' + k + '" value="">' +
-        '<div class="pf-tg-box"><ul class="pf-tg-list" aria-label="برچسب‌های افزوده‌شده"></ul>' +
-        '<div class="pf-tg-row"><input type="text" id="tg-' + k + '" class="pf-tg-in" dir="auto" maxlength="40" enterkeyhint="done" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="برچسب را بنویسید و اینتر بزنید"' + dsc + ">" +
+        '<div class="pf-tg-box"><ul class="pf-tg-list" aria-label="موارد افزوده‌شده"></ul>' +
+        '<div class="pf-tg-row"><input type="text" id="tg-' + k + '" class="pf-tg-in" dir="auto" maxlength="40" enterkeyhint="done" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="بنویسید و اینتر بزنید"' + dsc + ">" +
         '<button type="button" class="pf-tg-add">افزودن</button></div></div>' +
         '<span class="pf-tg-n" aria-live="polite"></span>' + errSlot(k) + "</div>";
 
@@ -112,9 +112,9 @@
   S.forEach(function (sec) { sec[1].forEach(function (f) { if (f[2] === "multi") multiCfg[f[0]] = f[5]; }); });
 
   /* ---------- برچسب‌ها: هر برچسب را بنویس و اینتر بزن (موبایل: دکمه‌ی افزودن یا ✓ کیبورد) ---------- */
-  var syncTags = null;
-  (function () {
-    var w = $(".pf-tags", box); if (!w) return;
+  var tagSyncs = [];
+  function syncTags() { tagSyncs.forEach(function (f) { f(); }); }
+  $$(".pf-tags", box).forEach(function (w) {
     var MAX = +w.getAttribute("data-max") || 5;
     var hid = $("input[type=hidden]", w), inp = $(".pf-tg-in", w), list = $(".pf-tg-list", w), addB = $(".pf-tg-add", w), cnt = $(".pf-tg-n", w);
     var tags = [], SPLIT = /[،,؛;\n]/;
@@ -122,12 +122,12 @@
     function paint(fire) {
       hid.value = tags.join("،");
       list.innerHTML = tags.map(function (t, i) {
-        return '<li class="pf-tg"><span>' + esc(t) + '</span><button type="button" class="pf-tg-x" data-i="' + i + '" aria-label="حذف برچسب ' + esc(t) + '">×</button></li>';
+        return '<li class="pf-tg"><span>' + esc(t) + '</span><button type="button" class="pf-tg-x" data-i="' + i + '" aria-label="حذف ' + esc(t) + '">×</button></li>';
       }).join("");
       var full = tags.length >= MAX;
       inp.disabled = full; addB.disabled = full;
-      inp.placeholder = full ? "به حداکثر " + toFa(MAX) + " برچسب رسیدید" : "برچسب را بنویسید و اینتر بزنید";
-      cnt.textContent = tags.length ? toFa(tags.length) + " از " + toFa(MAX) + " برچسب" : "";
+      inp.placeholder = full ? "به حداکثر " + toFa(MAX) + " مورد رسیدید" : "بنویسید و اینتر بزنید";
+      cnt.textContent = tags.length ? toFa(tags.length) + " از " + toFa(MAX) + " مورد" : "";
       if (fire) hid.dispatchEvent(new Event("input", { bubbles: true }));
     }
     function add(raw) {
@@ -142,10 +142,10 @@
       if (any || !inp.value.trim()) inp.value = "";
       return any;
     }
-    syncTags = function () {                   // بازسازی چیپ‌ها از مقدار پنهان (پیش‌نویس) یا خالی (بازنشانی)
+    tagSyncs.push(function () {                   // بازسازی چیپ‌ها از مقدار پنهان (پیش‌نویس) یا خالی (بازنشانی)
       tags = hid.value.split(SPLIT).map(clean).filter(Boolean).slice(0, MAX);
       paint(false);
-    };
+    });
     function isEnter(e) { return e.key === "Enter" || e.keyCode === 13; }
     inp.addEventListener("keydown", function (e) {
       if (isEnter(e)) { e.preventDefault(); commit(); return; }       // اینتر فرم را ارسال نکند
@@ -169,7 +169,7 @@
     });
     form.addEventListener("reset", function () { hid.value = ""; inp.value = ""; setTimeout(function () { tags = []; paint(false); }, 0); });
     paint(false);
-  })();
+  });
 
   /* ---------- زیردسته‌ها (وابسته به دسته‌ی اصلی، حداکثر ۳ مورد) ---------- */
   var MAX_SUBS = 3, catSel = form.elements.category, subTimer = 0;
@@ -437,7 +437,7 @@
         else if (d[k]) { el.value = d[k]; any = true; }
       });
     });
-    if (syncTags) syncTags();
+    syncTags();
     if (shortEl) shortEl.dispatchEvent(new Event("input"));
     return any;
   }
@@ -512,7 +512,7 @@
         if (ty !== "check" && x.v === "embed") v = embedSrc(v);
         if (k === "started" || k === "episodes") v = digits(v);        // داده همیشه با عدد لاتین ذخیره می‌شود؛ نمایش فارسی با pp-digits.js
         if (ty !== "check" && x.list) {                 // «برچسب‌ها» به‌صورت آرایه (حداکثر ۵ مورد)
-          var arr2 = v.split(/[،,؛;\n]/).map(function (t) { return t.trim(); }).filter(Boolean).slice(0, 5);
+          var arr2 = v.split(/[،,؛;\n]/).map(function (t) { return t.trim(); }).filter(Boolean).slice(0, x.max || 5);
           fm.push(k + ": " + q(arr2)); return;
         }
         if (ty === "area") { if (v) parts.push("### " + l + "\n\n" + v + "\n"); }
