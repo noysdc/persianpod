@@ -74,7 +74,7 @@
     q: $("#q"), status: $("#f-status"), city: $("#f-city"), lang: $("#f-lang"),
     country: $("#f-country"), yf: $("#f-yf"), yt: $("#f-yt"), emin: $("#f-emin"), emax: $("#f-emax"),
     lmin: $("#f-lmin"), lmax: $("#f-lmax"), creator: $("#f-creator"), tag: $("#f-tag"),
-    sort: $("#f-sort"), group: $("#f-group")
+    sort: $("#f-sort"), group: $("#f-group"), recent: $("#f-recent")
   };
 
   function prep(p, i) {
@@ -91,6 +91,7 @@
     p._tags = tags.map(norm);
     p._creator = norm(p.creator);
     p._hay = norm([p.title, p.description, p.category, subs.join(" "), p.city, p.country, p.creator, p.language, tags.join(" ")].join(" "));
+    p._lastAt = p.last_at ? Date.parse(p.last_at) || null : null;
     p._rnd = Math.random();
     return p;
   }
@@ -98,6 +99,15 @@
     var seen = {};
     data.forEach(function (p) { if (p[key]) seen[p[key]] = 1; });
     return Object.keys(seen).sort(collator.compare);
+  }
+  /* شهرها وابسته به کشور: با انتخاب کشور فقط شهرهای همان کشور نمایش داده می‌شوند */
+  function fillCities() {
+    var c = els.country ? els.country.value : "", keep = els.city.value, seen = {};
+    data.forEach(function (p) { if (p.city && (!c || p.country === c)) seen[p.city] = 1; });
+    var names = Object.keys(seen).sort(collator.compare);
+    els.city.innerHTML = '<option value="">همه</option>';
+    fill(els.city, names);
+    if (keep && names.indexOf(keep) !== -1) els.city.value = keep;
   }
   function fill(sel, values, label) {
     values.forEach(function (v) {
@@ -110,7 +120,7 @@
   function read() {
     return {
       q: norm(els.q ? els.q.value : ""), cat: cat, sub: sub,
-      status: els.status.value, city: els.city.value, lang: els.lang.value, country: els.country ? els.country.value : "", geo: geo,
+      status: els.status.value, recent: els.recent ? num(els.recent.value) : null, city: els.city.value, lang: els.lang.value, country: els.country ? els.country.value : "", geo: geo,
       yf: num(els.yf.value), yt: num(els.yt.value),
       emin: num(els.emin.value), emax: num(els.emax.value),
       lmin: num(els.lmin.value), lmax: num(els.lmax.value),
@@ -128,6 +138,9 @@
     if (!skipCat && f.sub && p._subs.indexOf(norm(f.sub)) === -1) return false;
     if (f.status === "active" && !p._active) return false;
     if (f.status === "inactive" && p._active) return false;
+    if (f.recent) {                                        // قسمت جدید در N روز اخیر
+      if (!p._lastAt || Date.now() - p._lastAt > f.recent * 864e5) return false;
+    }
     if (f.city && p.city !== f.city) return false;
     if (f.country && p.country !== f.country) return false;
     if (f.geo) {                                           // کلیک روی نقشه
@@ -153,7 +166,7 @@
   }
   function advancedCount(f) {
     var n = 0;
-    ["status", "city", "lang", "country", "creator", "tag"].forEach(function (k) { if (f[k]) n++; });
+    ["status", "recent", "city", "lang", "country", "creator", "tag"].forEach(function (k) { if (f[k]) n++; });
     ["yf", "yt", "emin", "emax", "lmin", "lmax"].forEach(function (k) { if (f[k] != null) n++; });
     return n;
   }
@@ -210,6 +223,7 @@
     city: function (f) { return "شهر: " + f.city; },
     lang: function (f) { return "زبان: " + f.lang; },
     country: function (f) { return "کشور: " + f.country; },
+    recent: function (f) { return "قسمت جدید: " + $("#f-recent").selectedOptions[0].textContent; },
     geo: function (f) { return "نقشه: " + f.geo.label; },
     creator: function (f) { return "سازنده: " + els.creator.value.trim(); },
     tag: function (f) { return "برچسب: " + els.tag.value.trim(); }
@@ -221,6 +235,7 @@
     if (f.cat) add("cat", CHIP_LABELS.cat(f));
     if (f.sub) add("sub", CHIP_LABELS.sub(f));
     if (f.status) add("status", CHIP_LABELS.status(f));
+    if (f.recent) add("recent", CHIP_LABELS.recent(f));
     if (f.city) add("city", CHIP_LABELS.city(f));
     if (f.lang) add("lang", CHIP_LABELS.lang(f));
     if (f.country) add("country", CHIP_LABELS.country(f));
@@ -339,6 +354,18 @@
     var n = advancedCount(f), fc = $("#pd-fcount");
     if (fc) { fc.hidden = !n; fc.textContent = toFa(n); }
     syncUrl(f);
+    syncPresets();
+  }
+  function syncPresets() {
+    $$(".pd-fs").forEach(function (fs) {
+      var g = fs.getAttribute("data-grp"), lo = num(els[g === "ep" ? "emin" : "lmin"].value), hi = num(els[g === "ep" ? "emax" : "lmax"].value), hit = false;
+      $$(".pd-presets button", fs).forEach(function (b) {
+        var bl = num(b.getAttribute("data-min")), bh = num(b.getAttribute("data-max"));
+        var m = bl === lo && bh === hi; if (m) hit = true;
+        b.setAttribute("aria-pressed", m ? "true" : "false");
+      });
+      var d = $(".pd-custom", fs); if (d && (lo != null || hi != null) && !hit) d.open = true;
+    });
   }
 
   /* ستون راست: شمارنده‌ی هر دسته بر اساس بقیه‌ی فیلترها */
@@ -372,7 +399,7 @@
     if (els.q && els.q.value.trim()) p.set("q", els.q.value.trim());
     if (cat) p.set("category", cat);
     if (sub) p.set("sub", sub);
-    [["city", els.city], ["lang", els.lang], ["country", els.country], ["status", els.status], ["yf", els.yf], ["yt", els.yt],
+    [["recent", els.recent], ["city", els.city], ["lang", els.lang], ["country", els.country], ["status", els.status], ["yf", els.yf], ["yt", els.yt],
       ["emin", els.emin], ["emax", els.emax], ["lmin", els.lmin], ["lmax", els.lmax],
       ["creator", els.creator], ["tag", els.tag]].forEach(function (x) { if (x[1].value.trim()) p.set(x[0], x[1].value.trim()); });
     if (els.sort.value !== "random") p.set("sort", els.sort.value);
@@ -397,7 +424,8 @@
       data.some(function (x) { return (x.subcategories || []).some(function (t) { if (norm(t) === ws) { sh = t; return true; } }); });
       sub = sh || p.get("sub");
     }
-    setSelect(els.city, p.get("city")); setSelect(els.lang, p.get("lang")); setSelect(els.country, p.get("country"));
+    setSelect(els.country, p.get("country")); fillCities(); setSelect(els.city, p.get("city")); setSelect(els.lang, p.get("lang"));
+    if (els.recent && p.get("recent")) els.recent.value = p.get("recent");
     if (p.get("status")) els.status.value = p.get("status");
     ["yf", "yt", "emin", "emax", "lmin", "lmax", "creator", "tag"].forEach(function (k) { if (p.get(k)) els[k].value = p.get(k); });
     if (p.get("sort")) els.sort.value = p.get("sort");
@@ -423,9 +451,9 @@
   }
 
   function init() {
-    fill(els.city, unique("city"));
     fill(els.lang, unique("language"));
     if (els.country) fill(els.country, unique("country"));
+    fillCities();
     var years = []; for (var y = jy; y >= FIRST_YEAR; y--) years.push(y);
     fill(els.yf, years, toFa); fill(els.yt, years, toFa);
     data.forEach(function (p) { if (catRank[p._cat] == null) catRank[p._cat] = Math.random(); });
@@ -433,7 +461,15 @@
 
     var form = $("#pd-filters");
     form.addEventListener("input", schedule);
-    form.addEventListener("change", render);
+    form.addEventListener("change", function (e) { if (e.target === els.country) fillCities(); render(); });
+    form.addEventListener("click", function (e) {            // دکمه‌های آماده‌ی تعداد و طول اپیزود
+      var b = e.target.closest && e.target.closest(".pd-presets button"); if (!b) return;
+      var g = b.closest(".pd-fs").getAttribute("data-grp"), lo = els[g === "ep" ? "emin" : "lmin"], hi = els[g === "ep" ? "emax" : "lmax"];
+      var on = b.getAttribute("aria-pressed") === "true";
+      lo.value = on ? "" : b.getAttribute("data-min"); hi.value = on ? "" : b.getAttribute("data-max");
+      render();
+    });
+    form.addEventListener("reset", function () { setTimeout(function () { fillCities(); render(); }, 0); });
     form.addEventListener("submit", function (e) { e.preventDefault(); applyFilters(); });
     var ap = $("#pd-apply"); if (ap) ap.addEventListener("click", applyFilters);
     $("#f-reset").addEventListener("click", resetAll);

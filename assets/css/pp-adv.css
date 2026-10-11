@@ -1,0 +1,63 @@
+/* PersianPod: چیدمان جست‌وجوی پیشرفته (شبکه‌ی یکدست، دکمه‌های آماده، ردیف اقدام)
+   این فایل آخر از همه بارگذاری می‌شود و فقط ظاهر فرم فیلترها را مرتب می‌کند. */
+
+/* عنوان داخلی و شمارنده‌ی تکراری: فقط برای صفحه‌خوان (عنوان روی نوار باز/بسته‌شو هست؛ تعداد روی دکمه‌ی سبز) */
+.pp-filters-side .pd-filters .pp-side-title {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.pp-filters-side .pd-filters .pd-count { display: none; }
+
+.pp-filters-side .pd-filters { gap: 14px; padding: 18px 18px 16px; }
+.pp-filters-side .pd-filters .pd-sep { margin: 0; }
+
+/* ردیف‌ها: هر ردیف شبکه‌ی خودش را دارد و همه‌ی ستون‌ها هم‌عرض‌اند */
+.pd-g { display: grid; grid-column: 1 / -1; gap: 12px 14px; align-items: start; min-width: 0; }
+.pd-g4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.pd-g3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.pd-cell { display: grid; gap: 10px; min-width: 0; }
+.pd-cell .pd-check { margin: 0; }
+
+.pp-filters-side .pd-filters label,
+.pp-filters-side .pd-filters fieldset { gap: 6px; }
+.pp-filters-side .pd-filters select,
+.pp-filters-side .pd-filters input[type=text] { height: 42px; font-size: .92rem; }
+
+/* دکمه‌های آماده (تعداد و طول اپیزود) */
+.pd-fs { align-content: start; }
+.pd-presets { display: flex; flex-wrap: wrap; gap: 6px; }
+.pd-presets button {
+  min-height: 36px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--bg); color: var(--ink); font: inherit; font-size: .82rem; cursor: pointer;
+  transition: background .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.pd-presets button:hover { border-color: #08cb00; box-shadow: 0 4px 14px var(--glow-soft); }
+.pd-presets button[aria-pressed="true"] { background: #08cb00; border-color: #08cb00; color: #0b0e0c; font-weight: 700; }
+.pd-presets button:focus-visible { outline: 3px solid rgba(8, 203, 0, .45); outline-offset: 1px; }
+.pd-custom { margin-top: 2px; }
+.pd-custom summary { cursor: pointer; color: var(--mut); font-size: .8rem; list-style-position: inside; padding: 2px 0; }
+.pd-custom[open] summary { margin-bottom: 8px; }
+.pd-two { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+
+/* ردیف اقدام: «نمایش» بزرگ و «پاک‌کردن» کنارش */
+.pp-filters-side .pd-actions {
+  grid-column: 1 / -1; position: sticky; bottom: 12px; z-index: 5;
+  display: flex; gap: 10px; align-items: stretch; padding-top: 2px;
+}
+.pp-filters-side .pd-actions .pd-apply {
+  display: flex; position: static; flex: 7 1 0; grid-column: auto; margin: 0; min-height: 48px;
+}
+.pp-filters-side .pd-actions .pd-reset {
+  flex: 3 1 0; height: auto; min-height: 48px; margin: 0; grid-column: auto; white-space: nowrap;
+}
+
+/* تبلت: دو ستون */
+@media (max-width: 999px) {
+  .pd-g4, .pd-g3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+/* موبایل: انتخاب‌ها دو ستون، سه‌گانه‌ی سال/تعداد/طول تک‌ستون */
+@media (max-width: 599px) {
+  .pp-filters-side .pd-filters { padding: 16px 14px 14px; gap: 12px; }
+  .pd-g3 { grid-template-columns: 1fr; }
+  .pd-g4 { gap: 10px; }
+  .pp-filters-side .pd-actions { padding: 8px 0 2px; background: linear-gradient(to top, var(--card) 70%, transparent); }
+}

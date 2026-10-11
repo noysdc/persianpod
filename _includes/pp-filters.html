@@ -7,55 +7,87 @@
     <h2 class="pp-side-title">جست‌وجوی پیشرفته</h2>
     <p id="pd-count" class="pd-count" aria-live="polite"></p>
 
-    <label>وضعیت
-      <select id="f-status"><option value="">همه</option><option value="active">فعال</option><option value="inactive">غیرفعال</option></select>
-    </label>
-    <label>شهر یا محل فعالیت
-      <select id="f-city"><option value="">همه</option></select>
-    </label>
-    <label>کشور
-      <select id="f-country"><option value="">همه</option></select>
-    </label>
-    <label>زبان
-      <select id="f-lang"><option value="">همه</option></select>
-    </label>
+    <div class="pd-g pd-g4">
+      <label>وضعیت
+        <select id="f-status"><option value="">همه</option><option value="active">فعال</option><option value="inactive">غیرفعال</option></select>
+      </label>
+      <label>قسمت جدید
+        <select id="f-recent"><option value="">همه</option><option value="30">۳۰ روز اخیر</option><option value="180">۶ ماه اخیر</option><option value="365">۱ سال اخیر</option></select>
+      </label>
+      <label>کشور
+        <select id="f-country"><option value="">همه</option></select>
+      </label>
+      <label>شهر یا محل فعالیت
+        <select id="f-city"><option value="">همه</option></select>
+      </label>
+    </div>
 
     <hr class="pd-sep">
-    <fieldset class="pd-range">
-      <legend>سال شروع (شمسی)</legend>
-      <select id="f-yf" aria-label="از سال"><option value="">از</option></select>
-      <select id="f-yt" aria-label="تا سال"><option value="">تا</option></select>
-    </fieldset>
-    <fieldset class="pd-range">
-      <legend>تعداد اپیزود</legend>
-      <input type="text" id="f-emin" inputmode="numeric" placeholder="حداقل" aria-label="حداقل اپیزود">
-      <input type="text" id="f-emax" inputmode="numeric" placeholder="حداکثر" aria-label="حداکثر اپیزود">
-    </fieldset>
-    <fieldset class="pd-range">
-      <legend>طول هر اپیزود (دقیقه)</legend>
-      <input type="text" id="f-lmin" inputmode="numeric" placeholder="حداقل" aria-label="حداقل دقیقه">
-      <input type="text" id="f-lmax" inputmode="numeric" placeholder="حداکثر" aria-label="حداکثر دقیقه">
-    </fieldset>
+    <div class="pd-g pd-g3">
+      <fieldset class="pd-range">
+        <legend>سال شروع (شمسی)</legend>
+        <select id="f-yf" aria-label="از سال"><option value="">از</option></select>
+        <select id="f-yt" aria-label="تا سال"><option value="">تا</option></select>
+      </fieldset>
+      <fieldset class="pd-fs" data-grp="ep">
+        <legend>تعداد اپیزود</legend>
+        <div class="pd-presets" role="group" aria-label="تعداد اپیزود">
+          <button type="button" data-min="" data-max="9">کمتر از ۱۰</button>
+          <button type="button" data-min="10" data-max="50">۱۰ تا ۵۰</button>
+          <button type="button" data-min="51" data-max="100">۵۱ تا ۱۰۰</button>
+          <button type="button" data-min="101" data-max="">بیش از ۱۰۰</button>
+        </div>
+        <details class="pd-custom"><summary>مقدار دلخواه</summary>
+          <div class="pd-two">
+            <input type="text" id="f-emin" inputmode="numeric" placeholder="حداقل" aria-label="حداقل اپیزود">
+            <input type="text" id="f-emax" inputmode="numeric" placeholder="حداکثر" aria-label="حداکثر اپیزود">
+          </div>
+        </details>
+      </fieldset>
+      <fieldset class="pd-fs" data-grp="len">
+        <legend>طول هر اپیزود (دقیقه)</legend>
+        <div class="pd-presets" role="group" aria-label="طول هر اپیزود">
+          <button type="button" data-min="" data-max="14">زیر ۱۵</button>
+          <button type="button" data-min="15" data-max="30">۱۵ تا ۳۰</button>
+          <button type="button" data-min="31" data-max="60">۳۱ تا ۶۰</button>
+          <button type="button" data-min="61" data-max="">بیش از ۶۰</button>
+        </div>
+        <details class="pd-custom"><summary>مقدار دلخواه</summary>
+          <div class="pd-two">
+            <input type="text" id="f-lmin" inputmode="numeric" placeholder="حداقل" aria-label="حداقل دقیقه">
+            <input type="text" id="f-lmax" inputmode="numeric" placeholder="حداکثر" aria-label="حداکثر دقیقه">
+          </div>
+        </details>
+      </fieldset>
+    </div>
 
     <hr class="pd-sep">
-    <label>نام سازنده یا میزبان
-      <input type="text" id="f-creator" placeholder="مثلاً: نام میزبان">
-    </label>
-    <label>موضوع یا برچسب
-      <input type="text" id="f-tag" placeholder="مثلاً: تاریخ، نجوم">
-    </label>
+    <div class="pd-g pd-g4">
+      <label>نام سازنده یا میزبان
+        <input type="text" id="f-creator" placeholder="مثلاً: نام میزبان">
+      </label>
+      <label>موضوع یا برچسب
+        <input type="text" id="f-tag" placeholder="مثلاً: تاریخ، نجوم">
+      </label>
+      <label>زبان
+        <select id="f-lang"><option value="">همه</option></select>
+      </label>
+      <div class="pd-cell">
+        <label>مرتب‌سازی
+          <select id="f-sort">
+            <option value="random">تصادفی</option>
+            <option value="alpha">الفبایی</option>
+            <option value="eps">بیشترین اپیزود</option>
+            <option value="new">تازه‌ترین شروع</option>
+          </select>
+        </label>
+        <label class="pd-check"><input type="checkbox" id="f-group" checked> گروه‌بندی بر اساس دسته</label>
+      </div>
+    </div>
 
-    <hr class="pd-sep">
-    <label>مرتب‌سازی
-      <select id="f-sort">
-        <option value="random">تصادفی</option>
-        <option value="alpha">الفبایی</option>
-        <option value="eps">بیشترین اپیزود</option>
-        <option value="new">تازه‌ترین شروع</option>
-      </select>
-    </label>
-    <label class="pd-check"><input type="checkbox" id="f-group" checked> گروه‌بندی بر اساس دسته</label>
-    <button type="button" id="f-reset" class="pd-reset">پاک‌کردن انتخاب‌ها</button>
-    <button type="button" id="pd-apply" class="pd-apply">نمایش پادکست‌ها</button>
+    <div class="pd-actions">
+      <button type="button" id="pd-apply" class="pd-apply">نمایش پادکست‌ها</button>
+      <button type="button" id="f-reset" class="pd-reset">پاک‌کردن</button>
+    </div>
   </form>
 </aside>
