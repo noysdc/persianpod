@@ -170,6 +170,16 @@
     return r;
   }
 
+  /* متن امن + هایلایت سبزِ نام پادکست‌ها (نام‌ها داخل «» می‌آیند) */
+  function mark(t, a, b) {
+    var h = esc(t);
+    [a, b].forEach(function (p) {
+      var n = "«" + esc(p.title) + "»";
+      h = h.split(n).join('<mark class="cp-m">' + n + "</mark>");
+    });
+    return h;
+  }
+
   function render() {
     var a = sel.a, b = sel.b;
     var head = '<div class="cp-head"><div class="cp-hp">' + logo(a, "cp-hl") + '<h2><a href="' + esc(a.url) + '">' + esc(a.title) + '</a></h2></div><div class="cp-hvs" aria-hidden="true">در برابر</div><div class="cp-hp">' + logo(b, "cp-hl") + '<h2><a href="' + esc(b.url) + '">' + esc(b.title) + "</a></h2></div></div>";
@@ -179,9 +189,9 @@
         return rows ? '<tbody><tr class="cp-g"><th colspan="3" scope="colgroup">' + esc(g.g) + "</th></tr>" + rows + "</tbody>" : "";
       }).join("") + "</table></div></section>";
     var fs = facts(a, b), ns = needs(a, b);
-    var diff = '<section class="cp-card"><h2>تفاوت‌های قابل توجه</h2>' + (fs.length ? "<ul>" + fs.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + "</ul>" : '<p class="cp-na">با داده‌های فعلی تفاوت قابل توجهی پیدا نشد یا اطلاعات کافی ثبت نشده است.</p>') + "</section>";
+    var diff = '<section class="cp-card"><h2>تفاوت‌های قابل توجه</h2>' + (fs.length ? '<ul class="cp-diff">' + fs.map(function (t) { return "<li>" + mark(t, a, b) + "</li>"; }).join("") + "</ul>" : '<p class="cp-na">با داده‌های فعلی تفاوت قابل توجهی پیدا نشد یا اطلاعات کافی ثبت نشده است.</p>') + "</section>";
     var nd = ns.length ? '<section class="cp-card"><h2>نیاز تو، داده‌ی آن‌ها</h2><p class="cp-note">این بخش قضاوت نیست؛ فقط می‌گوید هر نیاز با کدام عدد ارتباط دارد.</p><ul class="cp-needs">' +
-      ns.map(function (x) { return "<li><b>" + esc(x[0]) + ":</b> " + esc(x[1]) + " — " + esc(x[2]) + ".</li>"; }).join("") + "</ul></section>" : "";
+      ns.map(function (x) { return '<li><b class="cp-q">' + esc(x[0]) + "</b><span class=\"cp-a\">" + mark(x[1] + " — " + x[2] + ".", a, b) + "</span></li>"; }).join("") + "</ul></section>" : "";
     var miss = (!a.has_rss || !b.has_rss) ? '<p class="cp-note">برای ' + esc(!a.has_rss && !b.has_rss ? "هر دو پادکست" : (!a.has_rss ? a.title : b.title)) + ' هنوز RSS ثبت نشده؛ شاخص‌های وابسته به RSS خالی است. پادکستر می‌تواند لینک RSS را در <a href="/form/">فرم ثبت</a> بدهد.</p>' : "";
     out.innerHTML = head + miss + tbl + trend(a, b) + diff + nd;
   }
