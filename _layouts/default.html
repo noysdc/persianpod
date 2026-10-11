@@ -54,6 +54,7 @@
 <link rel="stylesheet" href="{{ '/assets/css/pp-rail.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-desktop.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-cards.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+<link rel="stylesheet" href="{{ '/assets/css/pp-adv.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
 <body data-search="{{ '/search.json' | relative_url }}?v={{ site.time | date: '%s' }}">
 <a class="pp-skip" href="#main">رفتن به محتوا</a>
@@ -158,6 +159,8 @@
 <script src="{{ '/assets/js/pp-float-player.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 <script src="{{ '/assets/js/pp-nav.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 <script src="{{ '/assets/js/pp-cats.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+<script src="{{ '/assets/js/pp-search-core.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+<script src="{{ '/assets/js/pp-suggest.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 {% for s in page.scripts %}<script src="{{ s | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 {% endfor %}</body>
 </html>
