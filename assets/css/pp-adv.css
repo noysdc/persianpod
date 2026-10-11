@@ -37,3 +37,31 @@
 .pd-summary .pd-noint, .pd-summary .pd-useint, .pd-count .pd-noint, .pd-count .pd-useint {
   padding: 0; border: 0; background: none; color: var(--acc); font: inherit; font-size: .84rem; text-decoration: underline; cursor: pointer;
 }
+
+/* ---------- یک‌دست‌سازی دکمه‌های سبز: همان ظاهر نرم دکمه‌ی «ثبت پادکست» در منو ----------
+   زمینه‌ی سبز بسیار کم‌رنگ + حلقه‌ی باریک سبز + متن هم‌رنگ سایت؛ هاور کمی پررنگ‌تر */
+html:not(#pp) .nw .nw-listen,
+html:not(#pp) .pl-play {
+  background: rgba(8, 203, 0, .10); color: var(--ink); font-weight: 700;
+  border: 0; box-shadow: inset 0 0 0 1px rgba(8, 203, 0, .45);
+  transition: background .2s ease, box-shadow .2s ease;
+}
+html:not(#pp) .nw .nw-listen { min-height: 34px; padding: 0 16px; }
+html:not(#pp) .nw .nw-listen:hover,
+html:not(#pp) .pd-card.pl-card:hover .pl-play,
+html:not(#pp) .pd-card.pl-card:focus-visible .pl-play {
+  background: rgba(8, 203, 0, .18); box-shadow: inset 0 0 0 1px rgba(8, 203, 0, .6), 0 6px 18px rgba(8, 203, 0, .16);
+}
+html:not(#pp) .pl-play { min-height: 32px; padding: 0 14px; font-size: .82rem; }
+html:not(#pp) .pl-play svg { fill: #08cb00; }
+/* کارتِ در حال پخش: کمی پررنگ‌تر از بقیه */
+html:not(#pp) .pl-card[aria-current=true] .pl-play { background: rgba(8, 203, 0, .22); color: var(--ink); border: 0; box-shadow: inset 0 0 0 1px rgba(8, 203, 0, .7); }
+
+/* دسته‌بندی‌ها: آیتم انتخاب‌شده به‌جای سبز پررنگ، همین ظاهر نرم */
+html:not(#pp) .pp-cats a[aria-current],
+html:not(#pp) .pp-cats .pp-subbar-list a[aria-current],
+html:not(#pp) .pp-cats .pp-subs a[aria-current] {
+  background: rgba(8, 203, 0, .14); color: var(--ink); font-weight: 700; border-color: rgba(8, 203, 0, .5);
+}
+html:not(#pp) .pp-cats a[aria-current] .n,
+html:not(#pp) .pp-cats .pp-subs a[aria-current] .n { background: rgba(8, 203, 0, .24); color: var(--ink); }
