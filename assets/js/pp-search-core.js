@@ -28,7 +28,7 @@
   function stem(w) {
     if (w.length > 5 && /(های|ها)$/.test(w)) w = w.replace(/(های|ها)$/, "");
     else if (w.length > 4 && /(ان|ات)$/.test(w)) w = w.replace(/(ان|ات)$/, "");
-    if (w.length >= 5 && /ی$/.test(w)) w = w.slice(0, -1);
+    if (w.length >= 4 && /ی$/.test(w)) w = w.slice(0, -1);
     return w;
   }
   function tokens(s, keepStop) {
@@ -133,7 +133,7 @@
         var set = {}; t.forEach(function (w) { set[w] = 1; });
         ix[k] = { list: Object.keys(set), n: raw[k] };
       });
-      p._sx = { ix: ix, len: num(p.length), eps: num(p.episodes), yr: y || null, active: st === "active" };
+      p._sx = { ix: ix, all: Object.keys(raw).map(function (k) { return raw[k]; }).join(" | "), len: num(p.length), eps: num(p.episodes), yr: y || null, active: st === "active" };
       p._sid = p.slug || p.url || p.id || String(Math.random());
       BYID[p._sid] = p;
     });
@@ -218,6 +218,13 @@
     var out = run(true, 0.6);
     if (!out.length && terms.length > 1) { out = run(true, 0); res.relaxed = out.length > 0; }
     if (!out.length && intents.length && terms.length) { out = run(false, 0.6); if (out.length) { res.relaxed = true; res.dropped = true; } }
+    if (!out.length && terms.length) {                       // شبکه‌ی اطمینان: هر کلمه‌ای که عیناً در متن ذخیره‌شده هست پیدا شود
+      var lit = parsed.rest.split(" ").filter(function (w) { return w && !STOP[w]; });
+      if (lit.length) LIST.forEach(function (p) {
+        if (lit.every(function (w) { return p._sx.all.indexOf(w) !== -1; })) out.push([p._sid, 1]);
+      });
+      if (out.length) res.relaxed = false;
+    }
     out.sort(function (a, b) { return b[1] - a[1]; });
     out.forEach(function (x) { res.score[x[0]] = x[1]; res.order.push(x[0]); });
     return res;

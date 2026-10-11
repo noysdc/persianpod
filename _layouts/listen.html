@@ -1,0 +1,23 @@
+---
+layout: default
+title: گوش بده
+permalink: /listen/
+description: پادکست‌های فارسی را به تفکیک دسته‌بندی همین‌جا بشنوید؛ پلیر هر پادکست بدون خروج از سایت.
+styles: [/assets/css/pp-dir.css, /assets/css/pp-listen.css]
+scripts: [/assets/js/pp-listen.js]
+---
+<section class="pl" aria-label="گوش بده">
+  <div class="pd-head">
+    <h1>گوش بده</h1>
+    <p class="pd-slogan">یک پادکست انتخاب کن و همین‌جا گوش بده؛ پخش خودکار شروع نمی‌شود.</p>
+  </div>
+
+  <div id="pl-stage" class="pl-stage" aria-live="polite">
+    <p class="pd-empty">در حال بارگذاری پلیرها…</p>
+  </div>
+
+  <div id="pl-chips" class="pd-chips" aria-label="انتخاب‌های فعال"></div>
+  <p id="pl-count" class="pd-count" aria-live="polite"></p>
+  <div id="pl-results"></div>
+</section>
+<script>window.PP_DATA_URL = "{{ '/podcasts.json' | relative_url }}?v={{ site.time | date: '%s' }}";</script>

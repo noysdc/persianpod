@@ -27,7 +27,8 @@ permalink: /podcasts.json
   "title_en": {{ p.title_en | jsonify }},
   "creator": {{ p.creator | default: p.host | jsonify }},
   "language": {{ p.language | jsonify }},
-  "body": {{ p.content | strip_html | strip_newlines | normalize_whitespace | split: " " | uniq | join: " " | truncate: 8000 | jsonify }},
+  "body": {{ p.content | strip_html | replace: "
+", " " | normalize_whitespace | split: " " | uniq | join: " " | truncate: 8000 | jsonify }},
   "tags": {{ p.tags | default: empty | jsonify }},
   "city": {{ p.city | jsonify }},
   "country": {{ p.country | jsonify }},
