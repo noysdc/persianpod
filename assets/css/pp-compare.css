@@ -12,7 +12,9 @@
 .cp-list li:hover,.cp-list li[aria-selected=true]{background:var(--line)}
 .cp-list .cp-none{cursor:default;color:var(--mut)}
 .cp-chosen:not(:empty){display:flex;align-items:center;gap:10px;margin-top:10px;padding:10px 12px;border:1px solid #08cb00;border-radius:16px;background:var(--card)}
-.cp-lg,.cp-hl{flex:none;width:44px;height:44px;border-radius:12px;object-fit:cover;display:grid;place-items:center;background:var(--line);color:var(--acc);font-style:normal;font-weight:800}
+.cp-lg,.cp-hl{flex:none;width:52px;height:52px;aspect-ratio:1/1;border-radius:22%;object-fit:cover;object-position:center;display:grid;place-items:center;background:var(--line);color:var(--acc);font-style:normal;font-weight:800;
+  /* قاب یکدست برای همه‌ی کاورها (کاور سفید یا تیره هر دو یک اندازه و یک قاب): خط نازک + سایه‌ی سبز ملایم */
+  box-shadow:0 0 0 1px var(--line),0 8px 20px -10px rgba(8,203,0,.55)}
 .cp-chosen b{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .cp-x{flex:none;width:32px;height:32px;border:0;border-radius:50%;background:transparent;color:var(--mut);font-size:1.3rem;cursor:pointer}
 .cp-x:hover{background:var(--line)}
@@ -25,16 +27,16 @@
 
 /* سربرگ بالا ستون‌های جدول را «نام‌گذاری» می‌کند: هم‌عرض ستون‌های جدول (۳۰٪ برچسب، ۳۵٪ و ۳۵٪ دو پادکست)،
    پس نام و لوگو فقط همین‌جا می‌آید و سرستون تکراری داخل جدول حذف شده (فقط برای صفحه‌خوان می‌ماند) */
-.cp-head{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:16px;align-items:center;margin:22px 0 14px;padding-inline:17px}
-.cp-hp{display:flex;align-items:center;justify-content:center;gap:12px;min-width:0;padding-inline:10px;text-align:start}
+.cp-head{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:16px;align-items:start;margin:22px 0 14px;padding-inline:17px}
+.cp-hp{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:12px;min-width:0;padding-inline:10px;text-align:center}
 .cp-t{table-layout:fixed}
 .cp-c0{width:30%}.cp-c1{width:35%}
 .cp-t thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .cp-hp h2{margin:0;font-size:clamp(1rem,2.4vw,1.3rem);line-height:1.6}
 .cp-hp a{color:var(--ink);text-decoration:none}
 .cp-hp a:hover{text-decoration:underline}
-.cp-hl{width:64px;height:64px;border-radius:16px;font-size:1.6rem}
-.cp-hvs{color:var(--mut);font-size:.9rem}
+.cp-hl{width:96px;height:96px;font-size:2rem;box-shadow:0 0 0 1px var(--line),0 12px 28px -12px rgba(8,203,0,.6)}
+.cp-hvs{color:var(--mut);font-size:.9rem;align-self:start;margin-top:36px}
 .cp-card{margin:14px 0;padding:16px;border:1px solid var(--line);border-radius:22px;background:var(--card)}
 .cp-card h2{margin:0 0 10px;font-size:1.1rem}
 .cp-card ul{margin:0;padding-inline-start:1.2em;line-height:2}
@@ -87,7 +89,7 @@
 
 @media(max-width:700px){
   .cp-pick{grid-template-columns:minmax(0,1fr)}.cp-vs{display:none}
-  .cp-head{grid-template-columns:minmax(0,1fr);padding-inline:0;gap:12px}.cp-hvs{display:none}.cp-hp{padding-inline:0;justify-content:flex-start}
+  .cp-head{grid-template-columns:minmax(0,1fr);padding-inline:0;gap:12px}.cp-hvs{display:none}.cp-hp{padding-inline:0;flex-direction:row;justify-content:flex-start;text-align:start}.cp-hl{width:64px;height:64px}
   .cp-t{table-layout:auto}
   .cp-tr-row{padding:12px 12px 8px;border-radius:16px}
   .cp-tr-h{flex-wrap:wrap;row-gap:4px}.cp-tr-h b{flex-basis:calc(100% - 30px)}.cp-tr-sum{margin-inline-start:26px}
