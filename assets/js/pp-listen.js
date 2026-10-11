@@ -234,6 +234,8 @@
     if (qEl.form) qEl.form.addEventListener("submit", function (e) { e.preventDefault(); render(); });
   }
 
+  function qs0(u) { u.delete("p"); var t = u.toString(); return t ? "?" + t : ""; }
+
   /* ---------- شروع ---------- */
   fetch(window.PP_DATA_URL)
     .then(function (r) { if (!r.ok) throw 0; return r.json(); })
@@ -245,6 +247,13 @@
       }
       shuffleAll();                       // ترتیب این صفحه مستقل از صفحه‌ی پادکست‌هاست و هر بار لود عوض می‌شود
       var u = new URLSearchParams(location.search), want = u.get("p") || decodeURIComponent(location.hash.slice(1));
+      /* ریلود (F5): پادکست انتخاب‌شده‌ی دفعه‌ی قبل در آدرس (?p=...) می‌ماند و باعث می‌شد صحنه‌ی بالای صفحه تکراری باشد
+         و انگار چیزی عوض نشده. در ریلود آن را کنار می‌گذاریم تا مثل صفحه‌ی اصلی هر بار تازه چیده شود؛
+         لینک اشتراکی با ?p و دکمه‌ی «برگشت» مرورگر مثل قبل کار می‌کنند. */
+      try {
+        var nav = performance.getEntriesByType("navigation")[0];
+        if (nav && nav.type === "reload" && want) { want = ""; history.replaceState(null, "", location.pathname + (qs0(u))); }
+      } catch (e) {}
       var qs = u.get("category"); if (qs) { var n = norm(qs); data.some(function (p) { if (norm(p._cat) === n) { cat = p._cat; return true; } }); }
       var first = data.filter(function (p) { return p.id === want; })[0] || data[Math.floor(rnd() * data.length)];
       render(); select(first, false);
