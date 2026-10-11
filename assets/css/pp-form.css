@@ -135,3 +135,19 @@ body.pf-lock{overflow:hidden}
 .pf-chip input:checked + span{border-color:#08cb00;background:rgba(8,203,0,.12);font-weight:700}
 .pf-chip input:focus-visible + span{outline:3px solid #08cb00;outline-offset:2px}
 .pf-sub-note{margin:8px 0 0;color:var(--mut);font-size:.88rem}
+
+/* ---------- برچسب‌ها: چیپ‌های قابل حذف + کادر تایپ ---------- */
+.pf-tg-box{margin-top:6px;padding:8px;border:1px solid var(--line);border-radius:14px;background:var(--bg);transition:box-shadow .2s ease,border-color .2s ease}
+.pf-tg-box:focus-within{border-color:#08cb00;box-shadow:0 6px 16px var(--glow-soft)}
+.pf-tg-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.pf-tg-list:not(:empty){margin-bottom:8px}
+.pf-tg{display:inline-flex;align-items:center;gap:2px;max-width:100%;min-height:38px;padding:0 6px 0 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font-size:.95rem}
+.pf-tg span{overflow-wrap:anywhere;line-height:1.6}
+.pf-tg-x{width:32px;height:32px;margin:0;padding:0;border:0;border-radius:50%;background:none;color:var(--mut);font:inherit;font-size:1.25rem;line-height:1;cursor:pointer}
+.pf-tg-x:hover{background:var(--bg);color:#c62828}
+.pf-tg-row{display:flex;gap:8px;align-items:stretch}
+.pp-form .pf-tg-row input.pf-tg-in{flex:1 1 auto;margin:0;background:var(--card)}
+.pf-tg-add{flex:none;min-height:48px;padding:0 18px;border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--acc);font:inherit;font-weight:700;cursor:pointer;transition:box-shadow .2s ease,opacity .2s ease}
+.pf-tg-add:hover{box-shadow:0 6px 18px var(--glow-soft)}
+.pf-tg-add:disabled,.pf-tg-in:disabled{opacity:.5;cursor:not-allowed}
+.pf-tg-n{display:block;margin-top:4px;color:var(--mut);font-size:.8rem}

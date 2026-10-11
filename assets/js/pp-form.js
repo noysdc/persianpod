@@ -82,6 +82,14 @@
         '<label class="pf-drop" id="drop-' + k + '"><input type="file" name="' + k + '" accept="image/png,image/jpeg"' + rq + dsc + ">" +
         '<span class="pf-drop-t">انتخاب تصویر</span><img class="pf-prev" alt="" hidden><span class="pf-fn"></span></label>' + errSlot(k) + "</div>";
 
+    if (x && x.list)                                  // برچسب‌ها: تایپ + اینتر => چیپ
+      return '<div class="pf pf-wide pf-tags" data-k="' + k + '" data-max="5"><label class="pf-l" for="tg-' + k + '">' + esc(l) + star + "</label>" + hint +
+        '<input type="hidden" name="' + k + '" value="">' +
+        '<div class="pf-tg-box"><ul class="pf-tg-list" aria-label="برچسب‌های افزوده‌شده"></ul>' +
+        '<div class="pf-tg-row"><input type="text" id="tg-' + k + '" class="pf-tg-in" dir="auto" maxlength="40" enterkeyhint="done" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="برچسب را بنویسید و اینتر بزنید"' + dsc + ">" +
+        '<button type="button" class="pf-tg-add">افزودن</button></div></div>' +
+        '<span class="pf-tg-n" aria-live="polite"></span>' + errSlot(k) + "</div>";
+
     var wide = (ty === "area" || (x && x.wide)) ? " pf-wide" : "";
     var ctl;
     if (ty === "area") ctl = '<textarea name="' + k + '" dir="auto" rows="4"' + rq + dsc + "></textarea>";
@@ -102,6 +110,66 @@
 
   var multiCfg = {};
   S.forEach(function (sec) { sec[1].forEach(function (f) { if (f[2] === "multi") multiCfg[f[0]] = f[5]; }); });
+
+  /* ---------- برچسب‌ها: هر برچسب را بنویس و اینتر بزن (موبایل: دکمه‌ی افزودن یا ✓ کیبورد) ---------- */
+  var syncTags = null;
+  (function () {
+    var w = $(".pf-tags", box); if (!w) return;
+    var MAX = +w.getAttribute("data-max") || 5;
+    var hid = $("input[type=hidden]", w), inp = $(".pf-tg-in", w), list = $(".pf-tg-list", w), addB = $(".pf-tg-add", w), cnt = $(".pf-tg-n", w);
+    var tags = [], SPLIT = /[،,؛;\n]/;
+    function clean(t) { return t.replace(/\s+/g, " ").replace(/^#+/, "").trim(); }
+    function paint(fire) {
+      hid.value = tags.join("،");
+      list.innerHTML = tags.map(function (t, i) {
+        return '<li class="pf-tg"><span>' + esc(t) + '</span><button type="button" class="pf-tg-x" data-i="' + i + '" aria-label="حذف برچسب ' + esc(t) + '">×</button></li>';
+      }).join("");
+      var full = tags.length >= MAX;
+      inp.disabled = full; addB.disabled = full;
+      inp.placeholder = full ? "به حداکثر " + toFa(MAX) + " برچسب رسیدید" : "برچسب را بنویسید و اینتر بزنید";
+      cnt.textContent = tags.length ? toFa(tags.length) + " از " + toFa(MAX) + " برچسب" : "";
+      if (fire) hid.dispatchEvent(new Event("input", { bubbles: true }));
+    }
+    function add(raw) {
+      var t = clean(raw); if (!t) return false;
+      if (tags.length >= MAX) return false;
+      if (tags.some(function (z) { return z.toLowerCase() === t.toLowerCase(); })) return true;   // تکراری: نادیده بگیر
+      tags.push(t); paint(true); return true;
+    }
+    function commit() {                       // متن داخل کادر را به چیپ تبدیل کن (جداکننده‌ها هم شکسته می‌شوند)
+      var parts = inp.value.split(SPLIT), any = false;
+      parts.forEach(function (p) { if (add(p)) any = true; });
+      if (any || !inp.value.trim()) inp.value = "";
+      return any;
+    }
+    syncTags = function () {                   // بازسازی چیپ‌ها از مقدار پنهان (پیش‌نویس) یا خالی (بازنشانی)
+      tags = hid.value.split(SPLIT).map(clean).filter(Boolean).slice(0, MAX);
+      paint(false);
+    };
+    function isEnter(e) { return e.key === "Enter" || e.keyCode === 13; }
+    inp.addEventListener("keydown", function (e) {
+      if (isEnter(e)) { e.preventDefault(); commit(); return; }       // اینتر فرم را ارسال نکند
+      if (e.key === "Backspace" && !inp.value && tags.length) { tags.pop(); paint(true); }
+    });
+    inp.addEventListener("input", function () {   // تایپ یا چسباندن «،» «,» «؛» هم برچسب را ثبت می‌کند
+      if (SPLIT.test(inp.value)) {
+        var parts = inp.value.split(SPLIT), rest = parts.pop();
+        parts.forEach(add); inp.value = rest;
+      }
+    });
+    inp.addEventListener("blur", commit);         // اگر کاربر بدون اینتر رفت سراغ فیلد بعدی، از دست نرود
+    addB.addEventListener("click", function () { commit(); if (!inp.disabled) inp.focus(); });
+    list.addEventListener("click", function (e) {
+      var b = e.target.closest ? e.target.closest(".pf-tg-x") : null; if (!b) return;
+      tags.splice(+b.getAttribute("data-i"), 1); paint(true); if (!inp.disabled) inp.focus();
+    });
+    // اینتر کیبوردهای موبایلی که keydown نمی‌دهند: اگر متن در حال تایپ بود، فقط ثبت برچسب شود و فرم ارسال نشود
+    form.addEventListener("submit", function (e) {
+      if (inp.value.trim()) { e.preventDefault(); e.stopImmediatePropagation(); commit(); }
+    });
+    form.addEventListener("reset", function () { hid.value = ""; inp.value = ""; setTimeout(function () { tags = []; paint(false); }, 0); });
+    paint(false);
+  })();
 
   /* ---------- زیردسته‌ها (وابسته به دسته‌ی اصلی، حداکثر ۳ مورد) ---------- */
   var MAX_SUBS = 3, catSel = form.elements.category, subTimer = 0;
@@ -369,6 +437,7 @@
         else if (d[k]) { el.value = d[k]; any = true; }
       });
     });
+    if (syncTags) syncTags();
     if (shortEl) shortEl.dispatchEvent(new Event("input"));
     return any;
   }
