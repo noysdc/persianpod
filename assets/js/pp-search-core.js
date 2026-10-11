@@ -2,9 +2,10 @@
    - نرمال‌سازی فارسی، حذف کلمه‌های کم‌ارزش («پادکست»، «با»، «اپیزود»…) و ریشه‌یابی سبک
    - فهم عبارت: «کوتاه»، «بلند»، «بیش از ۳۰ دقیقه»، «فعال»، «متوقف»، «پرقسمت»، «قدیمی»…
    - رتبه‌بندی وزنی (نام > سازنده > برچسب > دسته > توضیح > متن مقاله)، غلط‌یابی و هم‌معنی‌ها
-   API: PPSearch.build(list) · search(q, {intents:false}) · suggest(q) · norm(s) */
+   API: PPSearch.build(list) · PPSearch.create() (نمونه‌ی جدا برای صفحه‌هایی مثل «گوش بده») · search(q, {intents:false}) · suggest(q) · norm(s) */
 (function () {
   "use strict";
+  function make() {
   var FA = "۰۱۲۳۴۵۶۷۸۹", AR = "٠١٢٣٤٥٦٧٨٩";
   function toFa(n) { return String(n).replace(/\d/g, function (d) { return FA[d]; }); }
   function digits(s) {
@@ -258,5 +259,7 @@
       .map(function (v) { return { label: v.label, type: v.type, count: v.c }; });
   }
 
-  window.PPSearch = { popular: popular, build: build, search: search, suggest: suggest, norm: norm, toFa: toFa, ready: function () { return LIST.length > 0; }, _tokens: tokens };
+  return { popular: popular, build: build, search: search, suggest: suggest, norm: norm, toFa: toFa, ready: function () { return LIST.length > 0; }, _tokens: tokens };
+  }
+  var g = make(); g.create = make; window.PPSearch = g;
 })();

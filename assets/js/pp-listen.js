@@ -82,7 +82,7 @@
   }
 
   /* ---------- حالت ---------- */
-  var data = [], cat = "", current = null, catRank = {};
+  var data = [], cat = "", current = null, catRank = {}, SE = null, noIntent = false, lastQ = "";
   var qEl = $("#q");
   var PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
   var HEAD = '<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg>';
@@ -96,10 +96,30 @@
   }
   function match(p, f, skipCat) {
     if (!skipCat && f.cat && p._cat !== f.cat) return false;
-    if (f.q) { var w = f.q.split(" "); for (var i = 0; i < w.length; i++) if (p._hay.indexOf(w[i]) === -1) return false; }
+    if (f.q) {
+      if (f.S) { if (!f.S.score[p._sid]) return false; }            // موتور جست‌وجوی مشترک با صفحه‌ی اصلی
+      else { var w = f.q.split(" "); for (var i = 0; i < w.length; i++) if (p._hay.indexOf(w[i]) === -1) return false; }
+    }
     return true;
   }
-  function read() { return { q: norm(qEl ? qEl.value : ""), cat: cat }; }
+  function read() {
+    var raw = qEl ? qEl.value : "";
+    if (raw !== lastQ) { noIntent = false; lastQ = raw; }
+    var q = norm(raw);
+    return { q: q, cat: cat, S: (SE && q) ? SE.search(raw, { intents: !noIntent }) : null };
+  }
+  function intentHtml(S) {
+    if (!S) return "";
+    if (S.ignoredIntents) return ' <span class="pd-intent">برداشت خودکار خاموش است <button type="button" class="pd-useint">فعال‌سازی</button></span>';
+    var h = "";
+    if (S.intents.length) {
+      var by = {}, order = [];
+      S.intents.forEach(function (i) { if (!by[i.dim]) { by[i.dim] = []; order.push(i.dim); } by[i.dim].push(i.label); });
+      h += ' <span class="pd-intent">برداشت: <b>' + order.map(function (d) { return esc(by[d].join(" یا ")); }).join("</b> و <b>") + '</b> <button type="button" class="pd-noint">فقط متن را جست‌وجو کن</button></span>';
+    }
+    if (S.relaxed) h += ' <span class="pd-intent">' + (S.dropped ? "با شرط‌های بالا نتیجه‌ای نبود؛ نزدیک‌ترین‌ها بدون آن شرط‌ها نشان داده شد." : "نتیجه‌ی دقیقی نبود؛ نزدیک‌ترین‌ها نشان داده شد.") + "</span>";
+    return h;
+  }
 
   /* ---------- نمایش ---------- */
   function card(p) {
@@ -113,11 +133,12 @@
   function render() {
     var f = read();
     var list = data.filter(function (p) { return match(p, f); }).sort(function (a, b) { return a._rnd - b._rnd; });
-    $("#pl-count").textContent = toFa(list.length) + " پلیر" + (f.q || f.cat ? " مطابق فیلترها" : "");
+    if (f.S) list.sort(function (a, b) { return (f.S.score[b._sid] || 0) - (f.S.score[a._sid] || 0); });     // با جست‌وجو: به ترتیب ارتباط
+    $("#pl-count").innerHTML = esc(toFa(list.length) + " پلیر" + (f.q || f.cat ? " مطابق فیلترها" : "")) + intentHtml(f.S);
 
     if (!list.length) {
       out.innerHTML = '<p class="pd-empty">پلیری با این فیلتر پیدا نشد.</p>';
-    } else if (!f.cat) {
+    } else if (!f.cat && !f.S) {
       var groups = {}, order = [];
       list.forEach(function (p) { if (!groups[p._cat]) { groups[p._cat] = []; order.push(p._cat); } groups[p._cat].push(p); });
       order.sort(function (a, b) { return catRank[a] - catRank[b]; });
@@ -218,6 +239,10 @@
     var b = e.target.closest(".pl-card");
     if (b) { var p = data.filter(function (x) { return x.id === b.getAttribute("data-id"); })[0]; if (p) { select(p, true); playFloat(p); } }
   });
+  $("#pl-count").addEventListener("click", function (e) {
+    if (e.target.closest(".pd-noint")) { noIntent = true; render(); }
+    else if (e.target.closest(".pd-useint")) { noIntent = false; render(); }
+  });
   $("#pl-chips").addEventListener("click", function (e) {
     var b = e.target.closest(".pd-chip"); if (!b) return;
     if (b.getAttribute("data-k") === "q" && qEl) qEl.value = ""; else cat = "";
@@ -245,6 +270,8 @@
         stage.innerHTML = '<p class="pd-empty">هنوز پادکستی با پلیر ثبت نشده. پلیر از «لینک پادکست» (Castbox، اسپاتیفای یا اپل پادکست) ساخته می‌شود.</p>';
         out.innerHTML = ""; return;
       }
+      SE = window.PPSearch && PPSearch.create ? PPSearch.create() : null;   // فهرست جدا: فقط پادکست‌های دارای پلیر
+      if (SE) SE.build(data);
       shuffleAll();                       // ترتیب این صفحه مستقل از صفحه‌ی پادکست‌هاست و هر بار لود عوض می‌شود
       var u = new URLSearchParams(location.search), want = u.get("p") || decodeURIComponent(location.hash.slice(1));
       /* ریلود (F5): پادکست انتخاب‌شده‌ی دفعه‌ی قبل در آدرس (?p=...) می‌ماند و باعث می‌شد صحنه‌ی بالای صفحه تکراری باشد

@@ -94,8 +94,8 @@
 .pp-sug .s-a:focus-visible { outline: 3px solid rgba(8, 203, 0, .45); outline-offset: -2px; }
 
 /* برداشت از عبارت زیر نتیجه‌ها: «اپیزود کوتاه یا بلند» و دکمه‌ی خاموش‌کردن */
-.pd-summary .pd-intent { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; color: var(--mut); font-size: .86rem; }
-.pd-summary .pd-intent b { color: var(--ink); font-weight: 700; }
-.pd-summary .pd-noint, .pd-summary .pd-useint {
+.pd-summary .pd-intent, .pd-count .pd-intent { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; color: var(--mut); font-size: .86rem; }
+.pd-summary .pd-intent b, .pd-count .pd-intent b { color: var(--ink); font-weight: 700; }
+.pd-summary .pd-noint, .pd-summary .pd-useint, .pd-count .pd-noint, .pd-count .pd-useint {
   padding: 0; border: 0; background: none; color: var(--acc); font: inherit; font-size: .84rem; text-decoration: underline; cursor: pointer;
 }

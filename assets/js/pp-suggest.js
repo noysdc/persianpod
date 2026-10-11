@@ -106,7 +106,7 @@
   }
 
   /* ---------- انتخاب ---------- */
-  var onDirectory = function () { return !!(document.getElementById("pd-results") && document.getElementById("pd-filters")); };
+  var onDirectory = function () { return !!((document.getElementById("pd-results") && document.getElementById("pd-filters")) || document.getElementById("pl-results")); };   // فهرست یا «گوش بده»
   function choose(a, e) {
     var q = a.getAttribute("data-q"), cat = a.getAttribute("data-cat");
     if (cat && onDirectory()) {
