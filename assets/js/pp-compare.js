@@ -172,7 +172,7 @@
 
   function render() {
     var a = sel.a, b = sel.b;
-    var head = '<div class="cp-head"><div class="cp-hspace" aria-hidden="true"></div><div class="cp-hp">' + logo(a, "cp-hl") + '<h2><a href="' + esc(a.url) + '">' + esc(a.title) + '</a></h2></div><div class="cp-hp">' + logo(b, "cp-hl") + '<h2><a href="' + esc(b.url) + '">' + esc(b.title) + "</a></h2></div></div>";
+    var head = '<div class="cp-head"><div class="cp-hp">' + logo(a, "cp-hl") + '<h2><a href="' + esc(a.url) + '">' + esc(a.title) + '</a></h2></div><div class="cp-hvs" aria-hidden="true">در برابر</div><div class="cp-hp">' + logo(b, "cp-hl") + '<h2><a href="' + esc(b.url) + '">' + esc(b.title) + "</a></h2></div></div>";
     var tbl = '<section class="cp-card"><div class="cp-scroll"><table class="cp-t"><colgroup><col class="cp-c0"><col class="cp-c1"><col class="cp-c1"></colgroup><thead><tr><th scope="col"><span class="sr">شاخص</span></th><th scope="col">' + esc(a.title) + '</th><th scope="col">' + esc(b.title) + "</th></tr></thead>" +
       METRICS.map(function (g) {
         var rows = g.rows.map(function (r) { return row(r, a, b); }).join("");

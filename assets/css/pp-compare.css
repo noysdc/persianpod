@@ -25,8 +25,8 @@
 
 /* سربرگ بالا ستون‌های جدول را «نام‌گذاری» می‌کند: هم‌عرض ستون‌های جدول (۳۰٪ برچسب، ۳۵٪ و ۳۵٪ دو پادکست)،
    پس نام و لوگو فقط همین‌جا می‌آید و سرستون تکراری داخل جدول حذف شده (فقط برای صفحه‌خوان می‌ماند) */
-.cp-head{display:grid;grid-template-columns:30% 35% 35%;gap:0;align-items:center;margin:22px 0 14px;padding-inline:17px}
-.cp-hp{display:flex;align-items:center;gap:12px;min-width:0;padding-inline:10px}
+.cp-head{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:16px;align-items:center;margin:22px 0 14px;padding-inline:17px}
+.cp-hp{display:flex;align-items:center;justify-content:center;gap:12px;min-width:0;padding-inline:10px;text-align:start}
 .cp-t{table-layout:fixed}
 .cp-c0{width:30%}.cp-c1{width:35%}
 .cp-t thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
@@ -34,7 +34,7 @@
 .cp-hp a{color:var(--ink);text-decoration:none}
 .cp-hp a:hover{text-decoration:underline}
 .cp-hl{width:64px;height:64px;border-radius:16px;font-size:1.6rem}
-.cp-hvs{color:var(--mut);font-size:1.3rem}
+.cp-hvs{color:var(--mut);font-size:.9rem}
 .cp-card{margin:14px 0;padding:16px;border:1px solid var(--line);border-radius:22px;background:var(--card)}
 .cp-card h2{margin:0 0 10px;font-size:1.1rem}
 .cp-card ul{margin:0;padding-inline-start:1.2em;line-height:2}
@@ -74,7 +74,7 @@
 
 @media(max-width:700px){
   .cp-pick{grid-template-columns:minmax(0,1fr)}.cp-vs{display:none}
-  .cp-head{grid-template-columns:minmax(0,1fr);padding-inline:0;gap:12px}.cp-hspace{display:none}.cp-hp{padding-inline:0}
+  .cp-head{grid-template-columns:minmax(0,1fr);padding-inline:0;gap:12px}.cp-hvs{display:none}.cp-hp{padding-inline:0;justify-content:flex-start}
   .cp-t{table-layout:auto}
   .cp-tr-row{padding:12px 12px 8px;border-radius:16px}
   .cp-tr-h{flex-wrap:wrap;row-gap:4px}.cp-tr-h b{flex-basis:calc(100% - 30px)}.cp-tr-sum{margin-inline-start:26px}
