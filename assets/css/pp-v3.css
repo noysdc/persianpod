@@ -89,7 +89,7 @@ a.pd-tag:hover,a.pd-tag:focus-visible{border-color:#08cb00;color:var(--ink);box-
 .pod-listen h2{margin:0 0 10px;font-size:1rem;text-align:center}
 .pod-listen .pp-embed-box{padding:14px}
 .pod-listen .pp-poster-note{font-size:.84rem;line-height:1.9}
-.pod-listen .pp-poster-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;white-space:normal;line-height:1.7;text-align:center}
+.pod-listen .pp-poster-btn{width:auto;max-width:100%}
 .pod-end{margin-top:36px}
 
 /* ===== ۶) مقایسه: جعبه‌ی جمع‌وجور و وسط ===== */

@@ -93,8 +93,8 @@ layout: default
     <h2 id="listen-h">همین‌جا گوش بده</h2>
     <div class="pp-embed-box pp-poster">
       <p class="pp-poster-note">با زدن دکمه‌ی پخش، پلیر به‌صورت شناور باز می‌شود و هنگام گشت‌وگذار در سایت هم پخش ادامه پیدا می‌کند.</p>
-      <button type="button" class="pp-poster-btn" data-pp-embed="{{ embed_src }}" data-title="{{ page.title | escape }}" data-page="{{ page.podcast_link | default: page.castbox_channel | escape }}">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>پخش {{ page.title | escape }}
+      <button type="button" class="pp-poster-btn" aria-label="پخش {{ page.title | escape }}" data-pp-embed="{{ embed_src }}" data-title="{{ page.title | escape }}" data-page="{{ page.podcast_link | default: page.castbox_channel | escape }}">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>پخش پادکست
       </button>
       <noscript><p><a href="{{ embed_src }}" rel="noopener">باز کردن پلیر</a></p></noscript>
     </div>

@@ -208,11 +208,13 @@ body.night .ppfp {
 .pp-poster { text-align: center; }
 .pp-poster-note { margin: 0 0 12px; color: var(--mut); font-size: .9rem; }
 .pp-poster-btn {
-  display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 24px;
-  border: 0; border-radius: 999px; background: #08cb00; color: #0b0e0c; font: inherit; font-weight: 800; cursor: pointer;
-  transition: box-shadow .2s ease;
-}
-.pp-poster-btn svg { width: 18px; height: 18px; fill: currentColor; }
-.pp-poster-btn:hover { box-shadow: 0 6px 20px #00ff9c66; }
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 40px; padding: 0 20px;
+  border: 0; border-radius: 999px; background: rgba(8, 203, 0, .10); color: var(--ink); font: inherit; font-size: .92rem; font-weight: 700; line-height: 1;
+  box-shadow: inset 0 0 0 1px rgba(8, 203, 0, .45); cursor: pointer; white-space: nowrap;
+  transition: background .2s ease, box-shadow .2s ease;
+}   /* همان ظاهر نرم و سبز دکمه‌ی «ثبت پادکست» در منو */
+.pp-poster-btn svg { width: 16px; height: 16px; fill: #08cb00; flex: none; }
+.pp-poster-btn:hover { background: rgba(8, 203, 0, .18); box-shadow: inset 0 0 0 1px rgba(8, 203, 0, .6), 0 6px 18px rgba(8, 203, 0, .18); }
+.pp-poster-btn:active { transform: scale(.98); }
 .pp-poster-btn:focus-visible { outline: 3px solid #08cb00; outline-offset: 3px; }
 

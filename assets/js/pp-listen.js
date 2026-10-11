@@ -189,7 +189,7 @@
     stage.innerHTML =
       '<div class="pl-head">' + (p.logo ? '<img src="' + esc(p.logo) + '" alt="" width="68" height="68">' : "<i>" + esc((p.title || "").trim().charAt(0)) + "</i>") +
       "<div><h2>" + esc(p.title) + "</h2><small>" + esc(p._cat) + "</small></div></div>" +
-      '<div id="pl-slot">' + (window.PPPlayer ? '<p class="pp-poster-note">پلیر به‌صورت شناور باز می‌شود و هنگام گشت‌وگذار در سایت هم پخش ادامه دارد.</p><button type="button" class="pp-poster-btn" id="pl-play">' + PLAY + 'پخش ' + esc(p.title) + "</button>" : "") + "</div>" +
+      '<div id="pl-slot">' + (window.PPPlayer ? '<p class="pp-poster-note">پلیر به‌صورت شناور باز می‌شود و هنگام گشت‌وگذار در سایت هم پخش ادامه دارد.</p><button type="button" class="pp-poster-btn" id="pl-play" aria-label="پخش ' + esc(p.title) + '">' + PLAY + 'پخش پادکست</button>' : "") + "</div>" +
       (yt ? '<h3 class="pl-sub">قسمت منتخب در یوتیوب</h3><div id="pl-yt"></div>' : "") +
       '<div class="pl-links"><a href="' + esc(p.url) + '">صفحه‌ی معرفی پادکست</a>' +
       (cb ? '<a href="' + esc(cb) + '" target="_blank" rel="noopener noreferrer">باز کردن در Castbox</a>' : "") + "</div>";
