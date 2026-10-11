@@ -82,7 +82,7 @@
     </nav>
     <form class="pp-search" role="search" action="{{ '/' | relative_url }}" method="get">
       <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-      <input type="search" id="q" name="q" placeholder="جست‌وجوی پادکست" aria-label="جست‌وجوی پادکست" autocomplete="off">
+      <input type="search" id="q" name="q" placeholder="جست‌وجوی پادکست" aria-label="جست‌وجوی پادکست" autocomplete="off" enterkeyhint="search">
     </form>
     <div class="pp-tools">
       <button type="button" id="t-theme" aria-label="تغییر حالت شب و روز" title="حالت شب و روز">
@@ -159,6 +159,8 @@
 <script src="{{ '/assets/js/pp-float-player.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 <script src="{{ '/assets/js/pp-nav.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 <script src="{{ '/assets/js/pp-cats.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+<script src="{{ '/assets/js/pp-search-core.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+<script src="{{ '/assets/js/pp-suggest.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 {% for s in page.scripts %}<script src="{{ s | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 {% endfor %}</body>
 </html>

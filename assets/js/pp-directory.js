@@ -69,7 +69,7 @@
   })();
 
   /* ---------- داده ---------- */
-  var data = [], cat = "", sub = "", catRank = {}, geo = null;
+  var data = [], cat = "", sub = "", catRank = {}, geo = null, noIntent = false, lastQ = "";
   var els = {
     q: $("#q"), status: $("#f-status"), city: $("#f-city"), lang: $("#f-lang"),
     country: $("#f-country"), yf: $("#f-yf"), yt: $("#f-yt"), emin: $("#f-emin"), emax: $("#f-emax"),
@@ -118,8 +118,11 @@
 
   /* ---------- فیلتر ---------- */
   function read() {
+    var rawq = els.q ? els.q.value : "";
+    if (rawq !== lastQ) { noIntent = false; lastQ = rawq; }
+    var S = (window.PPSearch && norm(rawq)) ? PPSearch.search(rawq, { intents: !noIntent }) : null;
     return {
-      q: norm(els.q ? els.q.value : ""), cat: cat, sub: sub,
+      q: norm(rawq), S: S, cat: cat, sub: sub,
       status: els.status.value, recent: els.recent ? num(els.recent.value) : null, city: els.city.value, lang: els.lang.value, country: els.country ? els.country.value : "", geo: geo,
       yf: num(els.yf.value), yt: num(els.yt.value),
       emin: num(els.emin.value), emax: num(els.emax.value),
@@ -159,8 +162,11 @@
       if (!ok) return false;
     }
     if (f.q) {
-      var words = f.q.split(" ");
-      for (var i = 0; i < words.length; i++) if (p._hay.indexOf(words[i]) === -1) return false;
+      if (f.S) { if (!f.S.score[p._sid]) return false; }            // موتور جدید: رتبه‌بندی + فهم عبارت + غلط‌یابی
+      else {
+        var words = f.q.split(" ");
+        for (var i = 0; i < words.length; i++) if (p._hay.indexOf(words[i]) === -1) return false;
+      }
     }
     return true;
   }
@@ -284,17 +290,33 @@
       s.id = "pd-summary"; s.className = "pd-summary"; s.hidden = true;
       s.setAttribute("role", "status"); s.setAttribute("aria-live", "polite");
       var c = $("#pd-chips"); c.parentNode.insertBefore(s, c);
-      s.addEventListener("click", function (e) { if (e.target.closest(".pd-clear")) resetAll(); });
+      s.addEventListener("click", function (e) {
+        if (e.target.closest(".pd-clear")) resetAll();
+        else if (e.target.closest(".pd-noint")) { noIntent = true; render(); }
+        else if (e.target.closest(".pd-useint")) { noIntent = false; render(); }
+      });
     }
     return s;
   }
-  function summary(n, filtered) {
+  function intentHtml(S) {
+    if (!S) return "";
+    var h = "";
+    if (S.ignoredIntents) return ' <span class="pd-intent">برداشت خودکار خاموش است <button type="button" class="pd-useint">فعال‌سازی</button></span>';
+    if (S.intents.length) {
+      var by = {}, order = [];
+      S.intents.forEach(function (i) { if (!by[i.dim]) { by[i.dim] = []; order.push(i.dim); } by[i.dim].push(i.label); });
+      h += ' <span class="pd-intent">برداشت: <b>' + order.map(function (d) { return esc(by[d].join(" یا ")); }).join("</b> و <b>") + '</b> <button type="button" class="pd-noint">فقط متن را جست‌وجو کن</button></span>';
+    }
+    if (S.relaxed) h += ' <span class="pd-intent">' + (S.dropped ? "با شرط‌های بالا نتیجه‌ای نبود؛ نزدیک‌ترین‌ها بدون آن شرط‌ها نشان داده شد." : "نتیجه‌ی دقیقی نبود؛ نزدیک‌ترین‌ها نشان داده شد.") + "</span>";
+    return h;
+  }
+  function summary(n, filtered, S) {
     var s = ensureSummary(), ap = $("#pd-apply");
     if (ap) { ap.disabled = !n; ap.textContent = n ? "نمایش " + toFa(n) + " پادکست" : "پادکستی پیدا نشد"; }
     s.hidden = !filtered;
     if (!filtered) return;
     s.innerHTML = n ? "<b>" + toFa(n) + " پادکست</b> مطابق جست‌وجوی شما" : "پادکستی با این انتخاب‌ها پیدا نشد";
-    s.innerHTML += ' <button type="button" class="pd-clear">پاک‌کردن همه</button>';
+    s.innerHTML += intentHtml(S) + ' <button type="button" class="pd-clear">پاک‌کردن همه</button>';
     s.classList.remove("pulse"); void s.offsetWidth; s.classList.add("pulse");
   }
   function scrollToResults() {
@@ -313,6 +335,7 @@
   function render() {
     var f = read();
     var list = sortList(data.filter(function (p) { return match(p, f); }), f.sort);
+    if (f.S && f.sort === "random") list.sort(function (a, b) { return (f.S.score[b._sid] || 0) - (f.S.score[a._sid] || 0); });   // با جست‌وجو: به ترتیب ارتباط
     var filtered = isFiltered(f);
 
     $("#pd-count").textContent = toFa(list.length) + " پادکست" + (filtered ? " مطابق جست‌وجوی شما" : "");
@@ -320,7 +343,7 @@
 
     if (!list.length) {
       out.innerHTML = '<p class="pd-empty">پادکستی با این انتخاب‌ها پیدا نشد. انتخاب‌ها را کم کن یا پاک کن.</p>';
-    } else if (f.group && !f.cat && !f.sub) {
+    } else if (f.group && !f.cat && !f.sub && !f.S) {
       var groups = {}, order = [];
       list.forEach(function (p) {
         if (!groups[p._cat]) { groups[p._cat] = []; order.push(p._cat); }
@@ -349,7 +372,7 @@
     $("#pd-similar").innerHTML = sim.map(card).join("");
 
     chips(f);
-    summary(list.length, filtered);
+    summary(list.length, filtered, f.S);
     updateCategories(f);
     var n = advancedCount(f), fc = $("#pd-fcount");
     if (fc) { fc.hidden = !n; fc.textContent = toFa(n); }
@@ -456,6 +479,7 @@
     fillCities();
     var years = []; for (var y = jy; y >= FIRST_YEAR; y--) years.push(y);
     fill(els.yf, years, toFa); fill(els.yt, years, toFa);
+    if (window.PPSearch) PPSearch.build(data);
     data.forEach(function (p) { if (catRank[p._cat] == null) catRank[p._cat] = Math.random(); });
     fromUrl();
 

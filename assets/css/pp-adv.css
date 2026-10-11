@@ -61,3 +61,41 @@
   .pd-g4 { gap: 10px; }
   .pp-filters-side .pd-actions { padding: 8px 0 2px; background: linear-gradient(to top, var(--card) 70%, transparent); }
 }
+
+/* ---------- پیشنهاد خودکار جست‌وجو (مثل یوتیوب) + برداشت از عبارت ---------- */
+.pp-sug {
+  position: fixed; z-index: 1200; overflow: auto; overscroll-behavior: contain;
+  padding: 6px; border: 1px solid var(--glass-line, var(--line)); border-radius: 20px;
+  background: var(--card); box-shadow: 0 18px 46px -12px rgba(0, 0, 0, .45);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+}
+.pp-sug[hidden] { display: none; }
+.pp-sug ul { list-style: none; margin: 0; padding: 0; }
+.pp-sug li { position: relative; display: flex; align-items: center; border-radius: 14px; }
+.pp-sug li.on, .pp-sug li:hover { background: var(--bg); }
+.pp-sug li + li.s-search { margin-top: 4px; border-top: 1px dashed var(--line); border-radius: 0 0 14px 14px; }
+.pp-sug .s-a {
+  display: flex; flex: 1; align-items: center; gap: 10px; min-width: 0; min-height: 48px; padding: 6px 10px;
+  color: var(--ink); text-decoration: none; font-size: .95rem; line-height: 1.6;
+}
+.pp-sug .s-t { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pp-sug .s-h { flex: none; max-width: 45%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--mut); font-size: .76rem; }
+.pp-sug .s-ic { flex: none; display: grid; place-items: center; width: 36px; height: 36px; color: var(--mut); }
+.pp-sug .s-ic svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+.pp-sug .s-logo { flex: none; display: grid; place-items: center; width: 36px; height: 36px; border-radius: 10px; overflow: hidden; background: var(--line); }
+.pp-sug .s-logo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pp-sug .s-logo i { font-style: normal; font-weight: 800; color: var(--acc); }
+.pp-sug .s-x {
+  flex: none; width: 40px; height: 40px; margin-inline-end: 4px; border: 0; border-radius: 50%; background: none;
+  color: var(--mut); font: inherit; font-size: 1.3rem; line-height: 1; cursor: pointer;
+}
+.pp-sug .s-x:hover { background: var(--card); color: #c62828; }
+.pp-sug .s-search .s-t { color: var(--acc); font-weight: 700; }
+.pp-sug .s-a:focus-visible { outline: 3px solid rgba(8, 203, 0, .45); outline-offset: -2px; }
+
+/* برداشت از عبارت زیر نتیجه‌ها: «اپیزود کوتاه یا بلند» و دکمه‌ی خاموش‌کردن */
+.pd-summary .pd-intent { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; color: var(--mut); font-size: .86rem; }
+.pd-summary .pd-intent b { color: var(--ink); font-weight: 700; }
+.pd-summary .pd-noint, .pd-summary .pd-useint {
+  padding: 0; border: 0; background: none; color: var(--acc); font: inherit; font-size: .84rem; text-decoration: underline; cursor: pointer;
+}

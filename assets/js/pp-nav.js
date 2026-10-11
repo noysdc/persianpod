@@ -9,7 +9,7 @@
   if (!window.fetch || !window.DOMParser || !window.Promise || !history.pushState) return;
 
   // این اسکریپت‌ها به عنصرهای ثابت صفحه (هدر و ...) وصل شده‌اند و دوباره اجرا نمی‌شوند
-  var PERSIST = /\/(pp-tools|pp-digits|pp-float-player|pp-nav|pp-cats|curved-scrollbar|ui|pp-ui)\.js(\?|$)/;
+  var PERSIST = /\/(pp-tools|pp-digits|pp-float-player|pp-nav|pp-cats|pp-search-core|pp-suggest|curved-scrollbar|ui|pp-ui)\.js(\?|$)/;
   var busy = 0;
   var cur = location.pathname + location.search;
 
