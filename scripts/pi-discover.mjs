@@ -99,8 +99,8 @@ for (const n of files) {
   const ov = overrides[n];
   const urls = [...(typeof ov === "string" ? [ov] : []), ...(fm.match(/https?:\/\/[^\s"',)\]]+/g) || [])];
   const slug = n.replace(/\.md$/, "").replace(/^\d{4}-\d{2}-\d{2}-/, "").replace(/[-_]+/g, " ");
-  const names = [get("name_fa"), get("name_en"), get("title")].filter(Boolean);
-  info[n] = { urls, names, slug, ov, shown: names[0] || slug };
+  const names = [get("name_fa"), get("name_en"), get("title"), get("title_en")].filter(Boolean);
+  info[n] = { urls, names, slug, ov, shown: names[0] || slug, rss: [...new Set([typeof ov === "string" ? ov : "", get("rss")].filter(Boolean))] };
   let f = null, how = "";
   for (const u of urls.map(normUrl)) if (byUrl.has(u)) { f = byUrl.get(u); how = "url"; break; }
   if (!f) outer: for (const nm of names) for (const t of titleParts(nm)) if (byTitle.has(t)) { f = byTitle.get(t); how = "title"; break outer; }
@@ -108,28 +108,32 @@ for (const n of files) {
   if (f) matches.push({ file: n, pi_id: f.id, how, index_title: f.title }); else unmatched.push({ file: n, title: info[n].shown });
 }
 
-/* ---------- برای مواردی که هنوز پیدا نشدند: پرسیدن مستقیم از Index ---------- */
+/* ---------- برای مواردی که هنوز پیدا نشدند: پرسیدن مستقیم از Index ----------
+   فقط لینک RSS خود صفحه (فیلد rss یا فایل overrides) پرسیده می‌شود؛ هر درخواست جدا try/catch دارد تا یک خطا بقیه را از کار نیندازد. */
+const safe = async (label, fn) => { try { return await fn(); } catch (e) { console.warn(`${label}: ${e.message}`); return null; } };
 const stillUnmatched = [];
 for (const u of unmatched) {
   const I = info[u.file];
-  const rssList = [...new Set(I.urls.filter((x) => /^https?:/.test(x)))].slice(0, 6);
-  const rssNorm = new Set(rssList.map(normUrl));
+  const rssNorm = new Set(I.rss.map(normUrl));
   let f = null, how = "";
-  try {
-    if (typeof I.ov === "number") { const r = await api("/podcasts/byfeedid", { id: I.ov }); if (r && r.feed && r.feed.id) { f = r.feed; how = "override-id"; } }
-    for (const rss of rssList) { if (f) break; const r = await api("/podcasts/byfeedurl", { url: rss }); if (r && r.feed && r.feed.id) { f = r.feed; how = "rss-lookup"; } await sleep(200); }
-    if (!f) {
-      const qs = [...new Set([...I.names.flatMap(rawParts), ...rawParts(I.slug)])].slice(0, 4);
-      const want = new Set(qs.flatMap(titleParts));
-      for (const q of qs) {
-        if (f) break;
-        const r = await api("/search/bytitle", { q, max: 10 });
-        const hit = (r.feeds || []).find((x) => rssNorm.has(normUrl(x.url)) || rssNorm.has(normUrl(x.originalUrl)) || titleParts(x.title).some((t) => want.has(t)));
-        if (hit) { f = hit; how = "title-lookup"; }
-        await sleep(200);
-      }
+  if (typeof I.ov === "number") { const r = await safe(`${u.file} byfeedid`, () => api("/podcasts/byfeedid", { id: I.ov })); if (r && r.feed && r.feed.id) { f = r.feed; how = "override-id"; } }
+  for (const rss of I.rss) {
+    if (f) break;
+    const r = await safe(`${u.file} byfeedurl`, () => api("/podcasts/byfeedurl", { url: rss }));
+    if (r && r.feed && r.feed.id) { f = r.feed; how = "rss-lookup"; }
+    await sleep(200);
+  }
+  if (!f) {
+    const qs = [...new Set([...I.names.flatMap(rawParts), ...rawParts(I.slug)])].slice(0, 5);
+    const want = new Set(qs.flatMap(titleParts));
+    for (const q of qs) {
+      if (f) break;
+      const r = await safe(`${u.file} bytitle «${q}»`, () => api("/search/bytitle", { q, max: 10 }));
+      const hit = r && (r.feeds || []).find((x) => rssNorm.has(normUrl(x.url)) || rssNorm.has(normUrl(x.originalUrl)) || titleParts(x.title).some((t) => want.has(t)));
+      if (hit) { f = hit; how = "title-lookup"; }
+      await sleep(200);
     }
-  } catch (e) { console.warn(`جست‌وجوی مستقیم برای ${u.file} ناموفق: ${e.message}`); }
+  }
   if (f) { matches.push({ file: u.file, pi_id: f.id, how, index_title: f.title }); if (!list.some((x) => x.id === f.id)) list.push(trim({ ...f, _conf: "manual" })); }
   else stillUnmatched.push(u);
 }
