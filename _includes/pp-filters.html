@@ -108,10 +108,10 @@
         <div class="pd-rs" data-min="0" data-max="600" data-step="5" data-curve="2" data-kind="hi">
           <input type="hidden" id="f-lmin">
           <div class="pd-rs-row">
-            <label class="pd-rs-f"><span>حداکثر</span><input type="text" id="f-lmax" inputmode="numeric" placeholder="۶۰۰+" aria-label="حداکثر دقیقه"></label>
+            <label class="pd-rs-f"><span>حداکثر</span><input type="text" id="f-lmax" inputmode="numeric" placeholder="۰" aria-label="حداکثر دقیقه"></label>
             <div class="pd-rs-track">
               <span class="pd-rs-rail"><span class="pd-rs-fill"></span></span>
-              <span class="pd-rs-thumb" role="slider" tabindex="0" aria-label="حداکثر دقیقه" aria-valuemin="0" aria-valuemax="600" aria-valuenow="600"></span>
+              <span class="pd-rs-thumb" role="slider" tabindex="0" aria-label="حداکثر دقیقه" aria-valuemin="0" aria-valuemax="600" aria-valuenow="0"></span>
             </div>
           </div>
         </div>
@@ -158,13 +158,13 @@
     var mn=+box.dataset.min,mx=+box.dataset.max,st=+box.dataset.step,kind=box.dataset.kind,curve=+box.dataset.curve||1; /* lo = حداقل، hi = حداکثر */
     var text=box.querySelector("input[type=text]"),track=box.querySelector(".pd-rs-track");
     var rail=box.querySelector(".pd-rs-rail"),thumb=box.querySelector(".pd-rs-thumb");
-    var def=kind==="lo"?mn:mx,v=def,busy=false;
+    var def=mn,v=def,busy=false;   /* هر دو اسلایدر از صفر شروع می‌شوند؛ صفر یعنی بدون فیلتر */
     function clamp(x){return Math.min(Math.max(x,mn),mx)}
     function paint(){
       var p=Math.pow((v-mn)/(mx-mn),1/curve);   /* منحنی: بازه‌ی کوتاه دقیق‌تر قابل تنظیم است */
       thumb.style.setProperty("--p",p);thumb.setAttribute("aria-valuenow",v);
-      /* ناحیه‌ی مجاز سبز است: حداقل = از دایره تا انتهای چپ، حداکثر = از ابتدای راست تا دایره */
-      rail.style.setProperty("--fa",kind==="lo"?p:0);rail.style.setProperty("--fb",kind==="lo"?1:p);
+      /* نوار سبز از ابتدای راست تا دایره پر می‌شود */
+      rail.style.setProperty("--fa",0);rail.style.setProperty("--fb",p);
     }
     function sync(){
       if(busy)return;
