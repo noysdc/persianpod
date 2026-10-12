@@ -389,6 +389,7 @@
       });
       var d = $(".pd-custom", fs); if (d && (lo != null || hi != null) && !hit) d.open = true;
     });
+    if (window.PPRangeSync) window.PPRangeSync();   // هم‌گام‌سازی اسلایدر با فیلدهای عددی
   }
 
   /* ستون راست: شمارنده‌ی هر دسته بر اساس بقیه‌ی فیلترها */

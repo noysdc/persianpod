@@ -15,31 +15,21 @@
 #pd-filters label,#pd-filters fieldset{display:grid;gap:6px;min-width:0;margin:0;padding:0;border:0}
 #pd-filters select,#pd-filters input[type=text]{height:42px;font-size:.92rem}
 
-/* تعداد و طول اپیزود: دکمه‌های هم‌عرض، هم‌قد با فیلدها، و «مقدار دلخواه» به‌شکل دکمه */
+/* تعداد و طول اپیزود: اسلایدر دوسره‌ی جمع‌وجور در یک ردیف (۴۲ پیکسل، هم‌قد با سلکت‌ها) */
 #pd-filters .pd-fs{align-content:start}
-#pd-filters .pd-pw{container-type:inline-size;min-width:0}
-#pd-filters .pd-presets{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
-@container (min-width:420px){#pd-filters .pd-presets{grid-template-columns:repeat(4,minmax(0,1fr))}}
-#pd-filters .pd-presets button{display:inline-flex;align-items:center;justify-content:center;height:42px;min-width:0;padding:0 8px;border:1px solid var(--line);border-radius:14px;background:var(--bg);color:var(--ink);font:inherit;font-size:.88rem;line-height:1;white-space:nowrap;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background .2s ease,box-shadow .2s ease,border-color .2s ease,color .2s ease}
-#pd-filters .pd-presets button:hover{border-color:#08cb00;box-shadow:0 6px 18px var(--glow-soft)}
-#pd-filters .pd-presets button:active{transform:scale(.98)}
-#pd-filters .pd-presets button[aria-pressed="true"]{background:#08cb00;border-color:#08cb00;color:#0b0e0c;font-weight:700;box-shadow:0 6px 18px var(--glow-soft)}
-#pd-filters .pd-presets button:focus-visible{outline:3px solid rgba(8,203,0,.45);outline-offset:1px}
-
-#pd-filters .pd-custom{margin-top:10px}
-#pd-filters .pd-custom summary{display:inline-flex;align-items:center;gap:8px;height:34px;padding:0 14px 0 16px;border:1px dashed var(--line);border-radius:999px;color:var(--mut);font-size:.84rem;list-style:none;cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent;transition:border-color .2s ease,color .2s ease,box-shadow .2s ease}
-#pd-filters .pd-custom summary::-webkit-details-marker{display:none}
-#pd-filters .pd-custom summary::before{content:"+";font-size:1.1rem;font-weight:700;line-height:1;color:#08cb00}
-#pd-filters .pd-custom[open] summary::before{content:"\2212"}
-#pd-filters .pd-custom summary:hover,#pd-filters .pd-custom[open] summary{border-style:solid;border-color:#08cb00;color:var(--ink)}
-#pd-filters .pd-custom summary:focus-visible{outline:3px solid rgba(8,203,0,.45);outline-offset:2px}
-#pd-filters .pd-custom[open] summary{margin-bottom:10px}
-#pd-filters .pd-two{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:center}
-#pd-filters .pd-two input{text-align:center}
-#pd-filters .pd-dash{color:var(--mut);font-size:.84rem}
-#pd-filters .pd-custom[open] .pd-two{animation:pdOpen .2s ease}
-@keyframes pdOpen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
-@media(prefers-reduced-motion:reduce){#pd-filters .pd-custom[open] .pd-two{animation:none}#pd-filters .pd-presets button:active{transform:none}}
+#pd-filters .pd-rs{--th:22px;display:grid;grid-template-columns:58px minmax(0,1fr) 58px;gap:10px;align-items:center;height:42px}
+#pd-filters .pd-rs>input[type=text]{height:42px;padding:0 4px;text-align:center}
+#pd-filters .pd-rs-track{position:relative;height:42px;min-width:0;touch-action:pan-y}
+#pd-filters .pd-rs-rail{position:absolute;inset-inline:calc(var(--th)/2);top:50%;height:6px;transform:translateY(-50%);border-radius:999px;background:var(--line);background:color-mix(in srgb,var(--mut) 30%,transparent)}
+#pd-filters .pd-rs-fill{position:absolute;top:0;bottom:0;inset-inline-start:var(--lo,0%);inset-inline-end:calc(100% - var(--hi,100%));border-radius:999px;background:#08cb00;box-shadow:0 0 10px var(--glow-soft)}
+#pd-filters .pd-rs-track input[type=range]{position:absolute;inset:0;width:100%;height:100%;margin:0;padding:0;border:0;background:none;pointer-events:none;-webkit-appearance:none;appearance:none;outline:none}
+#pd-filters .pd-rs-track input[type=range]::-webkit-slider-runnable-track{height:6px;background:transparent;border:0}
+#pd-filters .pd-rs-track input[type=range]::-moz-range-track{height:6px;background:transparent;border:0}
+#pd-filters .pd-rs-track input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;pointer-events:auto;width:var(--th);height:var(--th);margin-top:calc((6px - var(--th))/2);border-radius:50%;border:3px solid var(--card);background:#08cb00;box-shadow:0 0 0 1px #08cb00,0 4px 12px var(--glow-soft);cursor:grab;transition:box-shadow .2s ease}
+#pd-filters .pd-rs-track input[type=range]::-moz-range-thumb{pointer-events:auto;box-sizing:border-box;width:var(--th);height:var(--th);border-radius:50%;border:3px solid var(--card);background:#08cb00;box-shadow:0 0 0 1px #08cb00,0 4px 12px var(--glow-soft);cursor:grab}
+#pd-filters .pd-rs-track input[type=range]:active::-webkit-slider-thumb{cursor:grabbing}
+#pd-filters .pd-rs-track input[type=range]:focus-visible::-webkit-slider-thumb{box-shadow:0 0 0 1px #08cb00,0 0 0 5px rgba(8,203,0,.4)}
+#pd-filters .pd-rs-track input[type=range]:focus-visible::-moz-range-thumb{box-shadow:0 0 0 1px #08cb00,0 0 0 5px rgba(8,203,0,.4)}
 
 /* دکمه‌ها: هم‌اندازه و هم‌شکل دکمه‌های منوی بالا (حب‌های گرد ۳۸ پیکسلی) */
 #pd-filters .pd-actions{grid-column:1/-1;position:sticky;bottom:12px;z-index:5;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:flex-start;padding-top:4px}
@@ -59,8 +49,7 @@
   #pd-filters{padding:16px 14px 14px;gap:12px}
   #pd-filters .pd-g3{grid-template-columns:1fr}
   #pd-filters select,#pd-filters input[type=text]{font-size:16px}
-  #pd-filters .pd-presets button{height:44px;font-size:.9rem}
-  #pd-filters .pd-custom summary{height:38px}
+  #pd-filters .pd-rs{--th:28px;grid-template-columns:60px minmax(0,1fr) 60px}
   #pd-filters .pd-g4{gap:10px}
   #pd-filters .pd-actions{flex-wrap:nowrap;padding:8px 0 2px;background:linear-gradient(to top,var(--card) 70%,transparent)}
   #pd-filters .pd-actions .pd-apply{flex:2 1 0;height:40px}
@@ -100,33 +89,27 @@
       </fieldset>
       <fieldset class="pd-fs" data-grp="ep">
         <legend>تعداد اپیزود</legend>
-        <div class="pd-pw"><div class="pd-presets" role="group" aria-label="تعداد اپیزود">
-          <button type="button" data-min="" data-max="9">کمتر از ۱۰</button>
-          <button type="button" data-min="10" data-max="50">۱۰ تا ۵۰</button>
-          <button type="button" data-min="51" data-max="100">۵۱ تا ۱۰۰</button>
-          <button type="button" data-min="101" data-max="">بیش از ۱۰۰</button>
-        </div></div>
-        <details class="pd-custom"><summary>مقدار دلخواه</summary>
-          <div class="pd-two">
-            <input type="text" id="f-emin" inputmode="numeric" placeholder="حداقل" aria-label="حداقل اپیزود"><span class="pd-dash" aria-hidden="true">تا</span>
-            <input type="text" id="f-emax" inputmode="numeric" placeholder="حداکثر" aria-label="حداکثر اپیزود">
+        <div class="pd-rs" data-min="0" data-max="300" data-step="5">
+          <input type="text" id="f-emin" inputmode="numeric" placeholder="از" aria-label="حداقل اپیزود">
+          <div class="pd-rs-track">
+            <span class="pd-rs-rail"><span class="pd-rs-fill"></span></span>
+            <input type="range" class="pd-rs-lo" min="0" max="300" step="5" value="0" aria-label="اسلایدر حداقل اپیزود">
+            <input type="range" class="pd-rs-hi" min="0" max="300" step="5" value="300" aria-label="اسلایدر حداکثر اپیزود">
           </div>
-        </details>
+          <input type="text" id="f-emax" inputmode="numeric" placeholder="تا" aria-label="حداکثر اپیزود">
+        </div>
       </fieldset>
       <fieldset class="pd-fs" data-grp="len">
         <legend>طول هر اپیزود (دقیقه)</legend>
-        <div class="pd-pw"><div class="pd-presets" role="group" aria-label="طول هر اپیزود">
-          <button type="button" data-min="" data-max="14">زیر ۱۵</button>
-          <button type="button" data-min="15" data-max="30">۱۵ تا ۳۰</button>
-          <button type="button" data-min="31" data-max="60">۳۱ تا ۶۰</button>
-          <button type="button" data-min="61" data-max="">بیش از ۶۰</button>
-        </div></div>
-        <details class="pd-custom"><summary>مقدار دلخواه</summary>
-          <div class="pd-two">
-            <input type="text" id="f-lmin" inputmode="numeric" placeholder="حداقل" aria-label="حداقل دقیقه"><span class="pd-dash" aria-hidden="true">تا</span>
-            <input type="text" id="f-lmax" inputmode="numeric" placeholder="حداکثر" aria-label="حداکثر دقیقه">
+        <div class="pd-rs" data-min="0" data-max="120" data-step="5">
+          <input type="text" id="f-lmin" inputmode="numeric" placeholder="از" aria-label="حداقل دقیقه">
+          <div class="pd-rs-track">
+            <span class="pd-rs-rail"><span class="pd-rs-fill"></span></span>
+            <input type="range" class="pd-rs-lo" min="0" max="120" step="5" value="0" aria-label="اسلایدر حداقل دقیقه">
+            <input type="range" class="pd-rs-hi" min="0" max="120" step="5" value="120" aria-label="اسلایدر حداکثر دقیقه">
           </div>
-        </details>
+          <input type="text" id="f-lmax" inputmode="numeric" placeholder="تا" aria-label="حداکثر دقیقه">
+        </div>
       </fieldset>
     </div>
 
@@ -160,3 +143,38 @@
     </div>
   </form>
 </aside>
+
+<script>
+(function(){
+  function toEn(s){return String(s).replace(/[\u06F0-\u06F9]/g,function(d){return d.charCodeAt(0)-1776}).replace(/[\u0660-\u0669]/g,function(d){return d.charCodeAt(0)-1632})}
+  function parse(v){var m=toEn(v).match(/\d+/);return m?parseInt(m[0],10):null}
+  var boxes=[].slice.call(document.querySelectorAll("#pd-filters .pd-rs")),syncs=[];
+  boxes.forEach(function(box){
+    var mn=+box.dataset.min,mx=+box.dataset.max;
+    var tmin=box.querySelector("input[type=text]"),tmax=box.querySelectorAll("input[type=text]")[1];
+    var lo=box.querySelector(".pd-rs-lo"),hi=box.querySelector(".pd-rs-hi"),rail=box.querySelector(".pd-rs-rail");
+    function pct(v){return (v-mn)/(mx-mn)*100}
+    function paint(){rail.style.setProperty("--lo",pct(+lo.value)+"%");rail.style.setProperty("--hi",pct(+hi.value)+"%")}
+    function clamp(v){return Math.min(Math.max(v,mn),mx)}
+    function sync(){
+      var a=parse(tmin.value),b=parse(tmax.value);
+      lo.value=a==null?mn:clamp(a);hi.value=b==null?mx:clamp(b);
+      if(+lo.value>+hi.value)lo.value=hi.value;
+      paint();
+    }
+    function set(el,v){if(el.value!==v){el.value=v;el.dispatchEvent(new Event("input",{bubbles:true}))}}
+    function push(){var a=+lo.value,b=+hi.value;set(tmin,a<=mn?"":String(a));set(tmax,b>=mx?"":String(b));paint()}
+    lo.addEventListener("input",function(){if(+lo.value>+hi.value)lo.value=hi.value;push()});
+    hi.addEventListener("input",function(){if(+hi.value<+lo.value)hi.value=lo.value;push()});
+    lo.addEventListener("pointerdown",function(){lo.style.zIndex=3;hi.style.zIndex=2});
+    hi.addEventListener("pointerdown",function(){hi.style.zIndex=3;lo.style.zIndex=2});
+    tmin.addEventListener("input",sync);tmax.addEventListener("input",sync);
+    syncs.push(sync);sync();
+  });
+  function all(){syncs.forEach(function(f){f()})}
+  window.PPRangeSync=all;
+  var form=document.getElementById("pd-filters");
+  if(form)form.addEventListener("reset",function(){setTimeout(all,0)});
+  window.addEventListener("load",all);
+})();
+</script>
