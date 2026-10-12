@@ -93,6 +93,99 @@
     ],
     "status": "active"
   },
+  "bplus": {
+    "avg_gap_days": 6.0,
+    "avg_length": 63,
+    "episodes": 296,
+    "eps_365": 61,
+    "eps_90": 12,
+    "first_year": 1397,
+    "last": "1405/07/20",
+    "last_at": "2026-10-12T03:31:01Z",
+    "last_link": "https://shows.acast.com/bplus/episodes/6acc4fa18f34078889464d21",
+    "last_title": "چرا زخم قفقاز هنوز برای ایران تازه است؟",
+    "max_length": 131,
+    "median_length": 57,
+    "min_length": 9,
+    "recent": [
+      {
+        "at": "2026-10-12T03:31:01Z",
+        "link": "https://shows.acast.com/bplus/episodes/6acc4fa18f34078889464d21",
+        "title": "چرا زخم قفقاز هنوز برای ایران تازه است؟"
+      },
+      {
+        "at": "2026-09-22T04:26:43Z",
+        "link": "https://shows.acast.com/bplus/episodes/v",
+        "title": "چرا کشورها به پارلمان نیاز دارند؟"
+      },
+      {
+        "at": "2026-09-16T08:47:30Z",
+        "link": "https://shows.acast.com/bplus/episodes/119",
+        "title": "خلاصه کتاب اولویت دموکراسی"
+      }
+    ],
+    "recent_30d": [
+      6,
+      5,
+      5,
+      1,
+      1,
+      8,
+      14,
+      4,
+      4,
+      6,
+      3,
+      3
+    ],
+    "status": "active"
+  },
+  "channelb": {
+    "avg_length": 84,
+    "episodes": 105,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_year": 1394,
+    "last": "1404/06/16",
+    "last_at": "2025-09-07T04:27:19Z",
+    "last_link": "https://shows.acast.com/channelbpodcast/episodes/94",
+    "last_title": "نود و چهار - سریال لوفت‌هانزا قسمت چهارم؛ پاکسازی",
+    "max_length": 186,
+    "median_length": 77,
+    "min_length": 1,
+    "recent": [
+      {
+        "at": "2025-09-07T04:27:19Z",
+        "link": "https://shows.acast.com/channelbpodcast/episodes/94",
+        "title": "نود و چهار - سریال لوفت‌هانزا قسمت چهارم؛ پاکسازی"
+      },
+      {
+        "at": "2025-08-31T04:50:16Z",
+        "link": "https://shows.acast.com/channelbpodcast/episodes/93",
+        "title": "نود و سه - سریال لوفت‌هانزا قسمت سوم؛ سهل ممتنع"
+      },
+      {
+        "at": "2025-08-24T06:21:30Z",
+        "link": "https://shows.acast.com/channelbpodcast/episodes/92",
+        "title": "نود و دو - سریال لوفت‌هانزا قسمت دوم؛ اومرتا"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "chekideh-plus": {
     "avg_gap_days": 2.7,
     "avg_length": 17,
