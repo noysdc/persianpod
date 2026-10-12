@@ -91,12 +91,36 @@ for (const n of files) {
   if (f) matches.push({ file: n, pi_id: f.id, how, index_title: f.title }); else unmatched.push({ file: n, title });
 }
 
+/* ---------- تطبیق دقیق‌تر برای مواردی که پیدا نشدند: پرسیدن مستقیم از Index (با لینک RSS، بعد با عنوان) ---------- */
+const stillUnmatched = [];
+for (const u of unmatched) {
+  const txt = await fs.readFile(path.join(PODCASTS_DIR, u.file), "utf8");
+  const fm = (txt.match(/^---\s*\n([\s\S]*?)\n---/) || [, ""])[1];
+  const rss = (fm.match(/^rss:\s*["']?([^"'\s]+)/m) || [, ""])[1];
+  let f = null, how = "";
+  try {
+    if (rss) { const r = await api("/podcasts/byfeedurl", { url: rss }); if (r && r.feed && r.feed.id) { f = r.feed; how = "rss-lookup"; } }
+    if (!f && u.title) {
+      const r = await api("/search/bytitle", { q: u.title, max: 10 });
+      const nt = normTitle(u.title);
+      const hit = (r.feeds || []).find((x) => { const xt = normTitle(x.title); return xt === nt || (nt.length >= 4 && (xt.includes(nt) || nt.includes(xt)) && xt.length >= 4); });
+      if (hit) { f = hit; how = "title-lookup"; }
+    }
+  } catch (e) { console.warn(`جست‌وجوی مستقیم برای ${u.file} ناموفق: ${e.message}`); }
+  if (f) {
+    matches.push({ file: u.file, pi_id: f.id, how, index_title: f.title });
+    if (!list.some((x) => x.id === f.id)) list.push(trim({ ...f, _conf: "manual" }));
+  } else stillUnmatched.push(u);
+  await sleep(300);
+}
+unmatched.length = 0; unmatched.push(...stillUnmatched);
+
 /* ---------- گزارش ---------- */
-const high = list.filter((f) => f.confidence === "high").length, med = list.length - high;
+const high = list.filter((f) => f.confidence === "high").length, med = list.filter((f) => f.confidence === "medium").length, man = list.length - high - med;
 const act = list.filter((f) => f.active === true).length, ina = list.filter((f) => f.active === false).length, unk = list.length - act - ina;
 const rep = `## گزارش شناسایی پادکست‌های فارسی در Podcast Index
 
-- پادکست فارسی پیداشده: **${list.length}** (زبان \`fa\` ثبت‌شده: ${high}؛ فقط از روی حروف فارسی تشخیص داده شده: ${med})
+- پادکست فارسی پیداشده: **${list.length}** (زبان \`fa\` ثبت‌شده: ${high}؛ فقط از روی حروف فارسی تشخیص داده شده: ${med}؛ اضافه‌شده از روی صفحه‌های دستی: ${man})
 - فعال (قسمت در ۳ سال اخیر): **${act}** · غیرفعال: **${ina}** · نامشخص: ${unk}
 - صفحه‌های دستی فعلی: ${files.length} — در Index پیدا شد: **${matches.length}**، پیدا نشد: **${unmatched.length}**
 - مرحله‌ی بعد نیاز به بازبینی دارد: مواردی با confidence=medium ممکن است فارسی نباشند.
