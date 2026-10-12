@@ -646,20 +646,25 @@
     "status": "active"
   },
   "the-spies-circle": {
-    "avg_gap_days": 5.6,
+    "avg_gap_days": 5.4,
     "avg_length": 21,
-    "episodes": 35,
-    "eps_365": 21,
-    "eps_90": 17,
+    "episodes": 36,
+    "eps_365": 22,
+    "eps_90": 18,
     "first_year": 1403,
-    "last": "1405/07/19",
-    "last_at": "2026-10-11T18:55:48Z",
-    "last_link": "https://shows.acast.com/the-spies-circle/episodes/6acbdbb429b9fbfbe229c9aa",
-    "last_title": "قرار بود ده جاسوس باشن…: چند کلمه دربارهٔ ادامهٔ فصل سوم",
+    "last": "1405/07/20",
+    "last_at": "2026-10-12T17:45:00Z",
+    "last_link": "https://shows.acast.com/the-spies-circle/episodes/6accb3568f90a39dfc586694",
+    "last_title": "گونتر گیوم؛ جاسوسی که به دفتر صدراعظم رسید",
     "max_length": 49,
     "median_length": 22,
     "min_length": 2,
     "recent": [
+      {
+        "at": "2026-10-12T17:45:00Z",
+        "link": "https://shows.acast.com/the-spies-circle/episodes/6accb3568f90a39dfc586694",
+        "title": "گونتر گیوم؛ جاسوسی که به دفتر صدراعظم رسید"
+      },
       {
         "at": "2026-10-11T18:55:48Z",
         "link": "https://shows.acast.com/the-spies-circle/episodes/6acbdbb429b9fbfbe229c9aa",
@@ -669,11 +674,6 @@
         "at": "2026-09-19T13:30:00Z",
         "link": "https://shows.acast.com/the-spies-circle/episodes/6aae4a410a12e917748564b8",
         "title": "جان آنتونی واکر؛ پدری که خانواده‌اش را جاسوس کرد - بخش دوم"
-      },
-      {
-        "at": "2026-09-19T12:30:00Z",
-        "link": "https://shows.acast.com/the-spies-circle/episodes/6aae49700a12e91774853270",
-        "title": "جان آنتونی واکر؛ مردی که کلیدهای آمریکا را فروخت - بخش اول"
       }
     ],
     "recent_30d": [
@@ -688,7 +688,7 @@
       4,
       7,
       7,
-      3
+      4
     ],
     "status": "active"
   },
