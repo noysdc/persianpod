@@ -17,6 +17,8 @@
 
 /* تعداد و طول اپیزود: یک اسلایدر تک‌دایره با یک عدد، راست‌به‌چپ؛ کشیدن به سمت چپ = عدد بیشتر */
 #pd-filters .pd-fs{align-content:start}
+/* عنوان‌های ستون‌های سال/تعداد/طول: legend را به یک بلوک معمولی تبدیل می‌کنیم تا دقیقاً هم‌راستای لبه‌ی کادرها شود */
+#pd-filters .pd-g3>fieldset>legend{float:left;width:100%;margin:0;padding:0;text-align:start}
 #pd-filters .pd-rs{--th:22px;direction:rtl;display:grid;gap:10px}
 #pd-filters .pd-rs-row{display:grid;grid-template-columns:104px minmax(0,1fr);gap:12px;align-items:center;height:42px}
 #pd-filters .pd-rs-f{display:flex;align-items:center;gap:6px;height:42px;min-width:0;padding:0 10px;border:1px solid var(--line);border-radius:14px;background:var(--bg);color:var(--mut);font-size:.82rem;cursor:text;transition:border-color .2s ease,box-shadow .2s ease}
@@ -98,7 +100,7 @@
             <label class="pd-rs-f"><span>حداقل</span><input type="text" id="f-emin" inputmode="numeric" placeholder="۰" aria-label="حداقل اپیزود"></label>
             <div class="pd-rs-track">
               <span class="pd-rs-rail"><span class="pd-rs-fill"></span></span>
-              <span class="pd-rs-thumb" role="slider" tabindex="0" aria-label="حداقل اپیزود" aria-valuemin="0" aria-valuemax="5000" aria-valuenow="0"></span>
+              <span class="pd-rs-thumb" role="slider" tabindex="0" aria-label="حداقل اپیزود" aria-valuemin="0" aria-valuemax="300" aria-valuenow="0"></span>
             </div>
           </div>
         </div>
