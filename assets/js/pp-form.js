@@ -35,11 +35,11 @@
 
   function multiRow(k, cfg, i) {
     var cols = cfg.cols.map(function (c) {
-      var name = k + "__" + i + "__" + c.k, req = (i === 0 && c.req) ? " required" : "";
+      var name = k + "__" + i + "__" + c.k, isReq = i === 0 && c.req && multiReq[k], req = isReq ? " required" : "";
       var single = cfg.cols.length === 1;
       var lab = single ? cfg.item + " " + toFa(i + 1) : c.l;
       return '<label class="pf pf-c' + (c.wide ? " pf-wide" : "") + '"><span class="pf-l' + (single ? " sr" : "") + '">' + esc(lab) +
-        (i === 0 && c.req ? ' <span class="pf-req" aria-hidden="true">*</span>' : "") + "</span>" +
+        (isReq ? ' <span class="pf-req" aria-hidden="true">*</span>' : "") + "</span>" +
         '<input type="text" name="' + name + '"' + attrsFor(c, name) + (c.ph ? ' placeholder="' + esc(c.ph) + '"' : "") + req +
         ' data-multi="' + k + '" data-ck="' + c.k + '" data-i="' + i + '"' + (c.req ? ' data-creq="1"' : "") + ">" + errSlot(name) + "</label>";
     }).join("");
@@ -101,12 +101,21 @@
     return '<label class="pf' + wide + '"><span class="pf-l">' + esc(l) + star + "</span>" + hint + ctl + errSlot(k) + "</label>";
   }
 
-  box.innerHTML = S.map(function (sec, i) {
-    var id = "sec-" + i;
+  var multiReq = {};
+  S.forEach(function (sec) { sec[1].forEach(function (f) { if (f[2] === "multi") multiReq[f[0]] = !!f[3]; }); });
+
+  function section(sec, i) {
+    var id = "sec-" + i, meta = sec[3] || {};
+    if (sec[0].charAt(0) === "@")                      // جداکننده‌ی «اطلاعات تکمیلی»
+      return '<div class="pf-divider" role="separator"><h2>' + esc(sec[0].slice(1)) + "</h2>" + (sec[2] ? "<p>" + esc(sec[2]) + "</p>" : "") + "</div>";
+    var grid = '<div class="pf-grid">' + sec[1].map(field).join("") + "</div>";
+    if (meta.opt)                                      // بخش تکمیلی: آکاردئون
+      return '<details class="pf-acc" id="' + id + '"' + (meta.open ? " open" : "") + '><summary><span class="pf-acc-t">' + esc(sec[0]) +
+        (sec[2] ? "<small>" + esc(sec[2]) + "</small>" : "") + '</span></summary><div class="pf-body">' + grid + "</div></details>";
     return '<section class="pf-set" aria-labelledby="' + id + '"><h2 class="pf-title" id="' + id + '">' + esc(sec[0]) + "</h2>" +
-      (sec[2] ? '<p class="pf-note">' + esc(sec[2]) + "</p>" : "") +
-      '<div class="pf-grid">' + sec[1].map(field).join("") + "</div></section>";
-  }).join("");
+      (sec[2] ? '<p class="pf-note">' + esc(sec[2]) + "</p>" : "") + grid + "</section>";
+  }
+  box.innerHTML = S.map(section).join("");
 
   var multiCfg = {};
   S.forEach(function (sec) { sec[1].forEach(function (f) { if (f[2] === "multi") multiCfg[f[0]] = f[5]; }); });
@@ -339,7 +348,7 @@
         var any = inputs.some(function (inp) { return inp.value.trim() !== ""; });
         inputs.forEach(function (inp) {
           var ck = inp.getAttribute("data-ck"), c = cfg.cols.filter(function (z) { return z.k === ck; })[0], val = inp.value.trim();
-          var needed = c.req && (i === 0 ? req : any);
+          var needed = c.req && (i === 0 ? (req || any) : any);
           if (needed && !val) problems.push([inp, "این مورد را کامل کنید."]);
           else if (val && c.v === "url" && !validUrl(normUrl(val))) problems.push([inp, "لینک معتبر نیست؛ باید با https:// شروع شود یا آدرس سایت باشد."]);
         });
@@ -457,7 +466,21 @@
     b.onclick = function () { clearDraft(); form.reset(); resetRows(); msg(""); if (shortEl) shortEl.dispatchEvent(new Event("input")); progress(); };
     msg("پیش‌نویس قبلی شما در همین مرورگر بازیابی شد. ", "", b);
   }
+  /* آکاردئون‌های تکمیلی: اگر چیزی در آن‌ها پر شده (پیش‌نویس) یا خطایی دارند، باز شوند */
+  function openAcc(el) { var d = el && el.closest ? el.closest("details.pf-acc") : null; if (d && !d.open) d.open = true; }
+  function openFilled() {
+    $$("details.pf-acc", box).forEach(function (d) {
+      if (d.open) return;
+      var has = $$("input,textarea,select", d).some(function (el) {
+        if (el.type === "checkbox" || el.type === "radio") return el.checked;
+        if (el.type === "file" || el.type === "button") return false;
+        return el.value && el.value.trim() !== "";
+      });
+      if (has) d.open = true;
+    });
+  }
   syncSubs();
+  openFilled();
   progress();
 
   /* ---------- ساخت فایل md ---------- */
@@ -518,7 +541,7 @@
         if (ty === "area") { if (v) parts.push("### " + l + "\n\n" + v + "\n"); }
         else fm.push(k + ": " + (ty === "check" ? v : q(v)));
       });
-      if (parts.length) body.push("## " + sec[0] + "\n\n" + parts.join("\n"));
+      if (parts.length) body.push("## " + ((sec[3] && sec[3].md) || sec[0]) + "\n\n" + parts.join("\n"));
     });
     var de = deriveEmbed(fd);
     if (de) { fm.push("embed: " + q(de.embed)); if (de.castbox_id) fm.push("castbox_id: " + q(de.castbox_id)); }
@@ -566,6 +589,7 @@
       var uniq = [], seen = {};
       bad.forEach(function (p) { var l = labelOf(p[0]); if (!seen[l]) { seen[l] = 1; uniq.push(l); } });
       msg("لطفاً " + toFa(uniq.length) + " مورد را اصلاح یا تکمیل کنید: " + uniq.slice(0, 6).join("، ") + (uniq.length > 6 ? " و …" : ""), "err");
+      bad.forEach(function (p) { openAcc(p[0]); });
       var first = bad[0][0];
       first.scrollIntoView({ behavior: "smooth", block: "center" });
       setTimeout(function () { try { first.focus({ preventScroll: true }); } catch (x) {} }, 350);

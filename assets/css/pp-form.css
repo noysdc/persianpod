@@ -151,3 +151,24 @@ body.pf-lock{overflow:hidden}
 .pf-tg-add:hover{box-shadow:0 6px 18px var(--glow-soft)}
 .pf-tg-add:disabled,.pf-tg-in:disabled{opacity:.5;cursor:not-allowed}
 .pf-tg-n{display:block;margin-top:4px;color:var(--mut);font-size:.8rem}
+
+/* ---------- جداکننده‌ی «اطلاعات تکمیلی» ---------- */
+.pf-divider{margin:48px auto 18px;max-width:640px;text-align:center}
+.pf-divider h2{display:inline-block;position:relative;margin:0 0 8px;padding:0 4px 10px;font-size:clamp(1.2rem,4vw,1.6rem);font-weight:800}
+.pf-divider h2::after{content:"";position:absolute;inset-inline:25%;bottom:0;height:3px;border-radius:999px;background:#08cb00;box-shadow:0 0 10px var(--glow-soft)}
+.pf-divider p{margin:0;color:var(--mut);line-height:2}
+
+/* ---------- بخش‌های تکمیلی: آکاردئون ---------- */
+.pf-acc{margin:12px 0;border:1px solid var(--line);border-radius:20px;background:var(--card);transition:box-shadow .2s ease}
+.pf-acc:hover,.pf-acc[open]{box-shadow:0 8px 24px var(--glow-soft)}
+.pf-acc>summary{display:flex;align-items:center;gap:14px;min-height:60px;padding:12px 18px;list-style:none;cursor:pointer;border-radius:20px;-webkit-tap-highlight-color:transparent}
+.pf-acc>summary::-webkit-details-marker{display:none}
+.pf-acc>summary:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+.pf-acc>summary::after{content:"";flex:none;margin-inline-start:auto;width:10px;height:10px;border:solid var(--mut);border-width:0 2px 2px 0;transform:rotate(45deg) translateY(-2px);transition:transform .2s ease}
+.pf-acc[open]>summary::after{transform:rotate(-135deg) translateY(-2px)}
+.pf-acc-t{display:grid;gap:2px;font-size:1.05rem;font-weight:800;line-height:1.7}
+.pf-acc-t small{color:var(--mut);font-size:.84rem;font-weight:400;line-height:1.8}
+.pf-body{padding:6px 18px 22px;border-top:1px solid var(--line)}
+.pf-body>.pf-grid{margin-top:16px}
+@media(max-width:639px){.pf-acc>summary{padding:12px 14px}.pf-body{padding:4px 14px 18px}}
+@media(prefers-reduced-motion:reduce){.pf-acc>summary::after{transition:none}}
