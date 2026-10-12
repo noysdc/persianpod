@@ -15,20 +15,21 @@
 #pd-filters label,#pd-filters fieldset{display:grid;gap:6px;min-width:0;margin:0;padding:0;border:0}
 #pd-filters select,#pd-filters input[type=text]{height:42px;font-size:.92rem}
 
-/* تعداد و طول اپیزود: اسلایدر دوسره‌ی سفارشی، راست‌به‌چپ، در یک ردیف ۴۲ پیکسلی */
+/* تعداد و طول اپیزود: دو اسلایدر تک‌دایره («از» و «تا»)، راست‌به‌چپ؛ کشیدن به سمت چپ = عدد بیشتر */
 #pd-filters .pd-fs{align-content:start}
-#pd-filters .pd-rs{--th:22px;direction:rtl;display:grid;grid-template-columns:74px minmax(0,1fr) 74px;gap:12px;align-items:center;height:42px}
-#pd-filters .pd-rs-f{display:flex;align-items:center;gap:6px;height:42px;min-width:0;padding:0 8px 0 10px;border:1px solid var(--line);border-radius:14px;background:var(--bg);color:var(--mut);font-size:.82rem;cursor:text;transition:border-color .2s ease,box-shadow .2s ease}
+#pd-filters .pd-rs{--th:22px;direction:rtl;display:grid;gap:10px}
+#pd-filters .pd-rs-row{display:grid;grid-template-columns:74px minmax(0,1fr);gap:12px;align-items:center;height:38px}
+#pd-filters .pd-rs-f{display:flex;align-items:center;gap:6px;height:38px;min-width:0;padding:0 8px 0 10px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--mut);font-size:.82rem;cursor:text;transition:border-color .2s ease,box-shadow .2s ease}
 #pd-filters .pd-rs-f:focus-within{border-color:#08cb00;box-shadow:0 0 0 3px rgba(8,203,0,.25)}
 #pd-filters .pd-rs-f span{flex:none}
 #pd-filters .pd-rs-f input[type=text]{flex:1 1 auto;width:100%;min-width:0;height:100%;padding:0;border:0;border-radius:0;background:transparent;color:var(--ink);text-align:center;outline:none}
 #pd-filters .pd-rs-f input::placeholder{color:var(--ink);opacity:.55}
 
-#pd-filters .pd-rs-track{position:relative;height:42px;min-width:0;cursor:pointer;touch-action:pan-y;user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent}
+#pd-filters .pd-rs-track{position:relative;height:38px;min-width:0;cursor:pointer;touch-action:pan-y;user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent}
 #pd-filters .pd-rs-rail{position:absolute;inset-inline:calc(var(--th)/2);top:50%;height:6px;transform:translateY(-50%);border-radius:999px;background:var(--line);background:color-mix(in srgb,var(--mut) 30%,transparent)}
-#pd-filters .pd-rs-fill{position:absolute;top:0;bottom:0;inset-inline-start:calc(var(--plo,0)*100%);inset-inline-end:calc((1 - var(--phi,1))*100%);border-radius:999px;background:#08cb00;box-shadow:0 0 10px var(--glow-soft)}
+#pd-filters .pd-rs-fill{position:absolute;top:0;bottom:0;inset-inline-start:calc(var(--fa,0)*100%);inset-inline-end:calc((1 - var(--fb,1))*100%);border-radius:999px;background:#08cb00;box-shadow:0 0 10px var(--glow-soft)}
 #pd-filters .pd-rs-thumb{position:absolute;top:50%;inset-inline-start:calc((100% - var(--th))*var(--p,0));width:var(--th);height:var(--th);margin-top:calc(var(--th)/-2);box-sizing:border-box;border-radius:50%;border:3px solid var(--card);background:#08cb00;box-shadow:0 0 0 1px #08cb00,0 4px 12px var(--glow-soft);outline:none;pointer-events:none;transition:box-shadow .2s ease,transform .15s ease}
-#pd-filters .pd-rs-track.drag .pd-rs-thumb.on{transform:scale(1.12)}
+#pd-filters .pd-rs-track.drag .pd-rs-thumb{transform:scale(1.12)}
 #pd-filters .pd-rs-thumb:focus-visible{box-shadow:0 0 0 1px #08cb00,0 0 0 5px rgba(8,203,0,.4)}
 
 /* دکمه‌ها: هم‌اندازه و هم‌شکل دکمه‌های منوی بالا (حب‌های گرد ۳۸ پیکسلی) */
@@ -49,7 +50,9 @@
   #pd-filters{padding:16px 14px 14px;gap:12px}
   #pd-filters .pd-g3{grid-template-columns:1fr}
   #pd-filters select,#pd-filters input[type=text]{font-size:16px}
-  #pd-filters .pd-rs{--th:28px;grid-template-columns:78px minmax(0,1fr) 78px}
+  #pd-filters .pd-rs{--th:28px}
+  #pd-filters .pd-rs-row{grid-template-columns:78px minmax(0,1fr);height:44px}
+  #pd-filters .pd-rs-f,#pd-filters .pd-rs-track{height:44px}
   #pd-filters .pd-g4{gap:10px}
   #pd-filters .pd-actions{flex-wrap:nowrap;padding:8px 0 2px;background:linear-gradient(to top,var(--card) 70%,transparent)}
   #pd-filters .pd-actions .pd-apply{flex:2 1 0;height:40px}
@@ -90,25 +93,39 @@
       <fieldset class="pd-fs" data-grp="ep">
         <legend>تعداد اپیزود</legend>
         <div class="pd-rs" data-min="0" data-max="300" data-step="5">
-          <label class="pd-rs-f"><span>از</span><input type="text" id="f-emin" inputmode="numeric" placeholder="۰" aria-label="حداقل اپیزود"></label>
-          <div class="pd-rs-track">
-            <span class="pd-rs-rail"><span class="pd-rs-fill"></span></span>
-            <span class="pd-rs-thumb pd-rs-lo" role="slider" tabindex="0" aria-label="حداقل اپیزود" aria-valuemin="0" aria-valuemax="300" aria-valuenow="0"></span>
-            <span class="pd-rs-thumb pd-rs-hi" role="slider" tabindex="0" aria-label="حداکثر اپیزود" aria-valuemin="0" aria-valuemax="300" aria-valuenow="300"></span>
+          <div class="pd-rs-row" data-k="lo">
+            <label class="pd-rs-f"><span>از</span><input type="text" id="f-emin" inputmode="numeric" placeholder="۰" aria-label="حداقل اپیزود"></label>
+            <div class="pd-rs-track">
+              <span class="pd-rs-rail"><span class="pd-rs-fill"></span></span>
+              <span class="pd-rs-thumb" role="slider" tabindex="0" aria-label="حداقل اپیزود" aria-valuemin="0" aria-valuemax="300" aria-valuenow="0"></span>
+            </div>
           </div>
-          <label class="pd-rs-f"><span>تا</span><input type="text" id="f-emax" inputmode="numeric" placeholder="۳۰۰+" aria-label="حداکثر اپیزود"></label>
+          <div class="pd-rs-row" data-k="hi">
+            <label class="pd-rs-f"><span>تا</span><input type="text" id="f-emax" inputmode="numeric" placeholder="۳۰۰+" aria-label="حداکثر اپیزود"></label>
+            <div class="pd-rs-track">
+              <span class="pd-rs-rail"><span class="pd-rs-fill"></span></span>
+              <span class="pd-rs-thumb" role="slider" tabindex="0" aria-label="حداکثر اپیزود" aria-valuemin="0" aria-valuemax="300" aria-valuenow="300"></span>
+            </div>
+          </div>
         </div>
       </fieldset>
       <fieldset class="pd-fs" data-grp="len">
         <legend>طول هر اپیزود (دقیقه)</legend>
         <div class="pd-rs" data-min="0" data-max="120" data-step="5">
-          <label class="pd-rs-f"><span>از</span><input type="text" id="f-lmin" inputmode="numeric" placeholder="۰" aria-label="حداقل دقیقه"></label>
-          <div class="pd-rs-track">
-            <span class="pd-rs-rail"><span class="pd-rs-fill"></span></span>
-            <span class="pd-rs-thumb pd-rs-lo" role="slider" tabindex="0" aria-label="حداقل دقیقه" aria-valuemin="0" aria-valuemax="120" aria-valuenow="0"></span>
-            <span class="pd-rs-thumb pd-rs-hi" role="slider" tabindex="0" aria-label="حداکثر دقیقه" aria-valuemin="0" aria-valuemax="120" aria-valuenow="120"></span>
+          <div class="pd-rs-row" data-k="lo">
+            <label class="pd-rs-f"><span>از</span><input type="text" id="f-lmin" inputmode="numeric" placeholder="۰" aria-label="حداقل دقیقه"></label>
+            <div class="pd-rs-track">
+              <span class="pd-rs-rail"><span class="pd-rs-fill"></span></span>
+              <span class="pd-rs-thumb" role="slider" tabindex="0" aria-label="حداقل دقیقه" aria-valuemin="0" aria-valuemax="120" aria-valuenow="0"></span>
+            </div>
           </div>
-          <label class="pd-rs-f"><span>تا</span><input type="text" id="f-lmax" inputmode="numeric" placeholder="۱۲۰+" aria-label="حداکثر دقیقه"></label>
+          <div class="pd-rs-row" data-k="hi">
+            <label class="pd-rs-f"><span>تا</span><input type="text" id="f-lmax" inputmode="numeric" placeholder="۱۲۰+" aria-label="حداکثر دقیقه"></label>
+            <div class="pd-rs-track">
+              <span class="pd-rs-rail"><span class="pd-rs-fill"></span></span>
+              <span class="pd-rs-thumb" role="slider" tabindex="0" aria-label="حداکثر دقیقه" aria-valuemin="0" aria-valuemax="120" aria-valuenow="120"></span>
+            </div>
+          </div>
         </div>
       </fieldset>
     </div>
@@ -151,82 +168,76 @@
   var syncs=[];
   [].slice.call(document.querySelectorAll("#pd-filters .pd-rs")).forEach(function(box){
     var mn=+box.dataset.min,mx=+box.dataset.max,st=+box.dataset.step;
-    var texts=box.querySelectorAll("input[type=text]"),tmin=texts[0],tmax=texts[1];
-    var track=box.querySelector(".pd-rs-track"),rail=box.querySelector(".pd-rs-rail");
-    var tlo=box.querySelector(".pd-rs-lo"),thi=box.querySelector(".pd-rs-hi");
-    var lo=mn,hi=mx,busy=false;
+    var S={lo:mn,hi:mx},busy=false,rows={};
+    [].slice.call(box.querySelectorAll(".pd-rs-row")).forEach(function(r){
+      rows[r.dataset.k]={
+        k:r.dataset.k,text:r.querySelector("input[type=text]"),track:r.querySelector(".pd-rs-track"),
+        rail:r.querySelector(".pd-rs-rail"),thumb:r.querySelector(".pd-rs-thumb")
+      };
+    });
     function clamp(v){return Math.min(Math.max(v,mn),mx)}
     function frac(v){return (v-mn)/(mx-mn)}
     function paint(){
-      rail.style.setProperty("--plo",frac(lo));rail.style.setProperty("--phi",frac(hi));
-      tlo.style.setProperty("--p",frac(lo));thi.style.setProperty("--p",frac(hi));
-      tlo.setAttribute("aria-valuenow",lo);thi.setAttribute("aria-valuenow",hi);
+      ["lo","hi"].forEach(function(k){
+        var R=rows[k],p=frac(S[k]);
+        R.thumb.style.setProperty("--p",p);R.thumb.setAttribute("aria-valuenow",S[k]);
+        /* ناحیه‌ی انتخاب‌شده سبز می‌شود: برای «از» از دستگیره تا انتها، برای «تا» از ابتدا تا دستگیره */
+        R.rail.style.setProperty("--fa",k==="lo"?p:0);R.rail.style.setProperty("--fb",k==="lo"?1:p);
+      });
     }
     function sync(){
       if(busy)return;
-      var a=parse(tmin.value),b=parse(tmax.value);
-      lo=a==null?mn:clamp(a);hi=b==null?mx:clamp(b);
-      if(lo>hi)lo=hi;
+      var a=parse(rows.lo.text.value),b=parse(rows.hi.text.value);
+      S.lo=a==null?mn:clamp(a);S.hi=b==null?mx:clamp(b);
+      if(S.lo>S.hi)S.lo=S.hi;
       paint();
     }
     function setText(el,v){if(el.value!==v){el.value=v;el.dispatchEvent(new Event("input",{bubbles:true}))}}
     function commit(){
       busy=true;
-      setText(tmin,lo<=mn?"":String(lo));
-      setText(tmax,hi>=mx?"":String(hi));
+      setText(rows.lo.text,S.lo<=mn?"":String(S.lo));
+      setText(rows.hi.text,S.hi>=mx?"":String(S.hi));
       busy=false;paint();
     }
-    function setVal(which,v){
+    function setVal(k,v){
       v=clamp(Math.round(v/st)*st);
-      if(which==="lo")lo=Math.min(v,hi);else hi=Math.max(v,lo);
+      if(k==="lo")S.lo=Math.min(v,S.hi);else S.hi=Math.max(v,S.lo);
       commit();
     }
-    /* موقعیت اشاره‌گر -> مقدار؛ جهت (راست‌به‌چپ یا چپ‌به‌راست) از CSS خوانده می‌شود */
-    function valAt(x){
-      var r=track.getBoundingClientRect(),th=tlo.offsetWidth,w=r.width-th;
-      var rtl=getComputedStyle(track).direction==="rtl";
+    /* موقعیت اشاره‌گر -> مقدار؛ راست‌به‌چپ: هرچه به چپ‌تر، عدد بیشتر */
+    function valAt(R,x){
+      var r=R.track.getBoundingClientRect(),th=R.thumb.offsetWidth,w=r.width-th;
+      var rtl=getComputedStyle(R.track).direction==="rtl";
       var f=w>0?((rtl?r.right-th/2-x:x-r.left-th/2)/w):0;
       f=Math.min(Math.max(f,0),1);
       return clamp(Math.round((mn+f*(mx-mn))/st)*st);
     }
-    var active=null,tieV=null,dragging=false;
-    function mark(){tlo.classList.toggle("on",active==="lo");thi.classList.toggle("on",active==="hi")}
-    track.addEventListener("pointerdown",function(e){
-      if(e.pointerType==="mouse"&&e.button!==0)return;
-      var v=valAt(e.clientX),dl=Math.abs(v-lo),dh=Math.abs(v-hi);
-      dragging=true;tieV=v;
-      active=dl<dh?"lo":dl>dh?"hi":null;
-      try{track.setPointerCapture(e.pointerId)}catch(_){}
-      track.classList.add("drag");
-      if(active){setVal(active,v);mark()}
-      e.preventDefault();
-    });
-    track.addEventListener("pointermove",function(e){
-      if(!dragging)return;
-      var v=valAt(e.clientX);
-      if(!active){                       /* وقتی دو دستگیره روی هم‌اند: جهت حرکت تعیین می‌کند کدام جابه‌جا شود */
-        if(v===tieV)return;
-        active=v>tieV?"hi":"lo";mark();
+    Object.keys(rows).forEach(function(k){
+      var R=rows[k],dragging=false;
+      R.track.addEventListener("pointerdown",function(e){
+        if(e.pointerType==="mouse"&&e.button!==0)return;
+        dragging=true;
+        try{R.track.setPointerCapture(e.pointerId)}catch(_){}
+        R.track.classList.add("drag");
+        setVal(k,valAt(R,e.clientX));
+        e.preventDefault();
+      });
+      R.track.addEventListener("pointermove",function(e){if(dragging)setVal(k,valAt(R,e.clientX))});
+      function end(){
+        if(!dragging)return;dragging=false;R.track.classList.remove("drag");
+        try{R.thumb.focus({preventScroll:true})}catch(_){}
       }
-      setVal(active,v);
-    });
-    function end(){
-      if(!dragging)return;dragging=false;track.classList.remove("drag");
-      var t=active==="hi"?thi:tlo;active=null;mark();
-      try{t.focus({preventScroll:true})}catch(_){}
-    }
-    track.addEventListener("pointerup",end);track.addEventListener("pointercancel",end);
-    [[tlo,"lo"],[thi,"hi"]].forEach(function(p){
-      p[0].addEventListener("keydown",function(e){
-        var cur=p[1]==="lo"?lo:hi,v=null;
-        if(e.key==="ArrowLeft"||e.key==="ArrowUp")v=cur+st;      /* بیشترین مقدار سمت چپ است */
+      R.track.addEventListener("pointerup",end);R.track.addEventListener("pointercancel",end);
+      R.thumb.addEventListener("keydown",function(e){
+        var cur=S[k],v=null;
+        if(e.key==="ArrowLeft"||e.key==="ArrowUp")v=cur+st;      /* چپ = بیشتر */
         else if(e.key==="ArrowRight"||e.key==="ArrowDown")v=cur-st;
         else if(e.key==="Home")v=mn;else if(e.key==="End")v=mx;
         if(v==null)return;
-        e.preventDefault();setVal(p[1],v);
+        e.preventDefault();setVal(k,v);
       });
+      R.text.addEventListener("input",sync);
     });
-    tmin.addEventListener("input",sync);tmax.addEventListener("input",sync);
     syncs.push(sync);sync();
   });
   function all(){syncs.forEach(function(f){f()})}
