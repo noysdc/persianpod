@@ -1,0 +1,39 @@
+name: Podcast Index — ساخت صفحه‌های جدید (مرحله ۳)
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "چند پادکست جدید ساخته شود؟"
+        default: "10"
+      sort:
+        description: "ترتیب انتخاب"
+        type: choice
+        default: episodes
+        options: [episodes, recent]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: نصب sharp (تبدیل لوگو به webp)
+        run: npm install sharp --no-save --no-package-lock
+      - name: ساخت صفحه‌ها
+        run: node scripts/pi-build-pages.mjs
+        env:
+          PI_KEY: ${{ secrets.PODCASTINDEX_KEY }}
+          PI_SECRET: ${{ secrets.PODCASTINDEX_SECRET }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          LIMIT: ${{ inputs.limit }}
+          SORT: ${{ inputs.sort }}
+      - name: گزارش و ذخیره
+        run: |
+          cat _data/pi/build-report.md >> "$GITHUB_STEP_SUMMARY"
+          git config user.name "persianpod-bot"
+          git config user.email "persianpod-bot@users.noreply.github.com"
+          git add -A _podcasts assets/img/podcasts _data/pi
+          git diff --cached --quiet || (git commit -m "data: صفحه‌های جدید از Podcast Index (تأییدنشده)" && git pull --rebase && git push)
