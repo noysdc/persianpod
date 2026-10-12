@@ -16,6 +16,7 @@ schedule: دو هفته یک بار
 logo: /assets/img/podcasts/bplus.webp
 castbox_id: "5656367"
 castbox_channel: "https://castbox.fm/ch/5656367"
+rss: "https://feeds.acast.com/public/shows/65417dfc6143f1001280fb90"
 spotify: "https://open.spotify.com/show/2PmMxFZ4OIW5DoUY1rRBB7"
 apple_podcasts: "https://podcasts.apple.com/podcast/id1378125252"
 youtube: "https://youtube.com/@BplusPodcast"

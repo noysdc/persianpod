@@ -16,6 +16,7 @@ schedule: نامنظم (بر اساس کامل شدن تحقیق‌ها)
 logo: /assets/img/podcasts/channelb.webp
 castbox_id: "2356600"
 castbox_channel: "https://castbox.fm/ch/2356600"
+rss: "https://feeds.acast.com/public/shows/651e9d60130f3400115df9a0"
 telegram: "https://t.me/channelbpodcast"
 website: "https://channelbpodcast.com"
 collab: true
