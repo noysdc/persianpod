@@ -19,6 +19,7 @@ episode_count:
 logo: /assets/img/podcasts/kaaghaz-e-akhbar.webp
 castbox_id: "5672029"
 castbox_channel: "https://castbox.fm/channel/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA-%DA%A9%D8%A7%D8%BA%D8%B0-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1---Kaaghaz-e--Akhbar-Podcast-id5672029?country=ir"
+rss: "https://anchor.fm/s/ed3260e8/podcast/rss"
 apple_podcasts: "https://podcasts.apple.com/us/podcast/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA-%DA%A9%D8%A7%D8%BA%D8%B0-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/id1716889501"
 email: "mimmpodcast@gmail.com"
 ---
