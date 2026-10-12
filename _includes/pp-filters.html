@@ -15,17 +15,31 @@
 #pd-filters label,#pd-filters fieldset{display:grid;gap:6px;min-width:0;margin:0;padding:0;border:0}
 #pd-filters select,#pd-filters input[type=text]{height:42px;font-size:.92rem}
 
-/* دکمه‌های آماده‌ی تعداد و طول اپیزود */
+/* تعداد و طول اپیزود: دکمه‌های هم‌عرض، هم‌قد با فیلدها، و «مقدار دلخواه» به‌شکل دکمه */
 #pd-filters .pd-fs{align-content:start}
-#pd-filters .pd-presets{display:flex;flex-wrap:wrap;gap:6px}
-#pd-filters .pd-presets button{min-height:36px;padding:0 13px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font:inherit;font-size:.84rem;cursor:pointer;transition:background .2s ease,box-shadow .2s ease,border-color .2s ease}
+#pd-filters .pd-pw{container-type:inline-size;min-width:0}
+#pd-filters .pd-presets{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+@container (min-width:420px){#pd-filters .pd-presets{grid-template-columns:repeat(4,minmax(0,1fr))}}
+#pd-filters .pd-presets button{display:inline-flex;align-items:center;justify-content:center;height:42px;min-width:0;padding:0 8px;border:1px solid var(--line);border-radius:14px;background:var(--bg);color:var(--ink);font:inherit;font-size:.88rem;line-height:1;white-space:nowrap;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background .2s ease,box-shadow .2s ease,border-color .2s ease,color .2s ease}
 #pd-filters .pd-presets button:hover{border-color:#08cb00;box-shadow:0 6px 18px var(--glow-soft)}
-#pd-filters .pd-presets button[aria-pressed="true"]{background:#08cb00;border-color:#08cb00;color:#0b0e0c;font-weight:700}
+#pd-filters .pd-presets button:active{transform:scale(.98)}
+#pd-filters .pd-presets button[aria-pressed="true"]{background:#08cb00;border-color:#08cb00;color:#0b0e0c;font-weight:700;box-shadow:0 6px 18px var(--glow-soft)}
 #pd-filters .pd-presets button:focus-visible{outline:3px solid rgba(8,203,0,.45);outline-offset:1px}
-#pd-filters .pd-custom{margin-top:2px}
-#pd-filters .pd-custom summary{cursor:pointer;color:var(--mut);font-size:.82rem;padding:2px 0}
-#pd-filters .pd-custom[open] summary{margin-bottom:8px}
-#pd-filters .pd-two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+
+#pd-filters .pd-custom{margin-top:10px}
+#pd-filters .pd-custom summary{display:inline-flex;align-items:center;gap:8px;height:34px;padding:0 14px 0 16px;border:1px dashed var(--line);border-radius:999px;color:var(--mut);font-size:.84rem;list-style:none;cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent;transition:border-color .2s ease,color .2s ease,box-shadow .2s ease}
+#pd-filters .pd-custom summary::-webkit-details-marker{display:none}
+#pd-filters .pd-custom summary::before{content:"+";font-size:1.1rem;font-weight:700;line-height:1;color:#08cb00}
+#pd-filters .pd-custom[open] summary::before{content:"\2212"}
+#pd-filters .pd-custom summary:hover,#pd-filters .pd-custom[open] summary{border-style:solid;border-color:#08cb00;color:var(--ink)}
+#pd-filters .pd-custom summary:focus-visible{outline:3px solid rgba(8,203,0,.45);outline-offset:2px}
+#pd-filters .pd-custom[open] summary{margin-bottom:10px}
+#pd-filters .pd-two{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:center}
+#pd-filters .pd-two input{text-align:center}
+#pd-filters .pd-dash{color:var(--mut);font-size:.84rem}
+#pd-filters .pd-custom[open] .pd-two{animation:pdOpen .2s ease}
+@keyframes pdOpen{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){#pd-filters .pd-custom[open] .pd-two{animation:none}#pd-filters .pd-presets button:active{transform:none}}
 
 /* دکمه‌ها: هم‌اندازه و هم‌شکل دکمه‌های منوی بالا (حب‌های گرد ۳۸ پیکسلی) */
 #pd-filters .pd-actions{grid-column:1/-1;position:sticky;bottom:12px;z-index:5;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:flex-start;padding-top:4px}
@@ -37,10 +51,16 @@
 #pd-filters .pd-actions .pd-reset:hover{background:var(--card);border-color:#08cb00;color:var(--ink);box-shadow:0 6px 18px var(--glow-soft)}
 #pd-filters .pd-actions button:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
 
-@media(max-width:999px){#pd-filters .pd-g4,#pd-filters .pd-g3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:999px){
+  #pd-filters .pd-g4,#pd-filters .pd-g3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  #pd-filters .pd-g3 .pd-range{grid-column:1/-1}
+}
 @media(max-width:599px){
   #pd-filters{padding:16px 14px 14px;gap:12px}
   #pd-filters .pd-g3{grid-template-columns:1fr}
+  #pd-filters select,#pd-filters input[type=text]{font-size:16px}
+  #pd-filters .pd-presets button{height:44px;font-size:.9rem}
+  #pd-filters .pd-custom summary{height:38px}
   #pd-filters .pd-g4{gap:10px}
   #pd-filters .pd-actions{flex-wrap:nowrap;padding:8px 0 2px;background:linear-gradient(to top,var(--card) 70%,transparent)}
   #pd-filters .pd-actions .pd-apply{flex:2 1 0;height:40px}
@@ -80,30 +100,30 @@
       </fieldset>
       <fieldset class="pd-fs" data-grp="ep">
         <legend>تعداد اپیزود</legend>
-        <div class="pd-presets" role="group" aria-label="تعداد اپیزود">
+        <div class="pd-pw"><div class="pd-presets" role="group" aria-label="تعداد اپیزود">
           <button type="button" data-min="" data-max="9">کمتر از ۱۰</button>
           <button type="button" data-min="10" data-max="50">۱۰ تا ۵۰</button>
           <button type="button" data-min="51" data-max="100">۵۱ تا ۱۰۰</button>
           <button type="button" data-min="101" data-max="">بیش از ۱۰۰</button>
-        </div>
+        </div></div>
         <details class="pd-custom"><summary>مقدار دلخواه</summary>
           <div class="pd-two">
-            <input type="text" id="f-emin" inputmode="numeric" placeholder="حداقل" aria-label="حداقل اپیزود">
+            <input type="text" id="f-emin" inputmode="numeric" placeholder="حداقل" aria-label="حداقل اپیزود"><span class="pd-dash" aria-hidden="true">تا</span>
             <input type="text" id="f-emax" inputmode="numeric" placeholder="حداکثر" aria-label="حداکثر اپیزود">
           </div>
         </details>
       </fieldset>
       <fieldset class="pd-fs" data-grp="len">
         <legend>طول هر اپیزود (دقیقه)</legend>
-        <div class="pd-presets" role="group" aria-label="طول هر اپیزود">
+        <div class="pd-pw"><div class="pd-presets" role="group" aria-label="طول هر اپیزود">
           <button type="button" data-min="" data-max="14">زیر ۱۵</button>
           <button type="button" data-min="15" data-max="30">۱۵ تا ۳۰</button>
           <button type="button" data-min="31" data-max="60">۳۱ تا ۶۰</button>
           <button type="button" data-min="61" data-max="">بیش از ۶۰</button>
-        </div>
+        </div></div>
         <details class="pd-custom"><summary>مقدار دلخواه</summary>
           <div class="pd-two">
-            <input type="text" id="f-lmin" inputmode="numeric" placeholder="حداقل" aria-label="حداقل دقیقه">
+            <input type="text" id="f-lmin" inputmode="numeric" placeholder="حداقل" aria-label="حداقل دقیقه"><span class="pd-dash" aria-hidden="true">تا</span>
             <input type="text" id="f-lmax" inputmode="numeric" placeholder="حداکثر" aria-label="حداکثر دقیقه">
           </div>
         </details>
