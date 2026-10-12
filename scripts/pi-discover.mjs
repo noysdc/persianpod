@@ -72,46 +72,66 @@ const trim = (f) => ({
 });
 const list = [...feeds.values()].map(trim).sort((a, b) => (b.newestItemPubdate || 0) - (a.newestItemPubdate || 0));
 
-/* ---------- تطبیق با صفحه‌های دستی فعلی ---------- */
-const normUrl = (u) => String(u || "").toLowerCase().replace(/^https?:\/\/(www\.)?/, "").replace(/[/?#].*$/, (m) => m).replace(/\/+$/, "");
-const normTitle = (t) => String(t || "").toLowerCase().replace(/[\s\u200c\-_|:؛،.,!؟?()«»"']+/g, "");
+/* ---------- تطبیق با صفحه‌های دستی فعلی ----------
+   مقایسه با لینک RSS (بدون http، www، پارامترهای بعد از ؟ و اسلش آخر) و با عنوان.
+   عنوان‌های دوزبانه («نویز | NOYS») به بخش‌هایشان شکسته می‌شوند تا «نویز» یا «NOYS» هر کدام به‌تنهایی جور شود. */
+const normUrl = (u) => String(u || "").toLowerCase().trim().replace(/^https?:\/\/(www\.)?/, "").replace(/[?#].*$/, "").replace(/\/+$/, "");
+const normTitle = (t) => String(t || "").toLowerCase().replace(/[\s\u200c\-_|:؛،.,!؟?()«»"'’]+/g, "");
+const SPLIT = /\s*(?:[|｜–—:؛]|\s-\s)\s*/;
+const rawParts = (t) => { const full = String(t || "").trim(); return [full, ...full.split(SPLIT)].map((x) => x.trim()).filter((x) => normTitle(x).length >= 3); };
+const titleParts = (t) => [...new Set(rawParts(t).map(normTitle))];
 const byUrl = new Map(), byTitle = new Map();
-for (const f of list) { [f.url, f.originalUrl].filter(Boolean).forEach((u) => byUrl.set(normUrl(u), f)); if (f.title) byTitle.set(normTitle(f.title), f); }
+const addIndex = (f) => { [f.url, f.originalUrl].filter(Boolean).forEach((u) => byUrl.set(normUrl(u), f)); titleParts(f.title).forEach((t) => { if (!byTitle.has(t)) byTitle.set(t, f); }); };
+list.forEach(addIndex);
+
+/* مواردی که خودت دستی نوشته‌ای: scripts/pi-overrides.json  →  { "naaji.md": "https://…/rss" }  یا  { "naaji.md": 12345 } (شناسه‌ی Index) */
+let overrides = {};
+try { overrides = JSON.parse(await fs.readFile(process.env.PI_OVERRIDES || "scripts/pi-overrides.json", "utf8")); } catch { /* فایل اختیاری است */ }
+
 const matches = [], unmatched = [];
 let files = [];
 try { files = (await fs.readdir(PODCASTS_DIR)).filter((n) => n.endsWith(".md")); } catch { console.warn(`پوشه‌ی ${PODCASTS_DIR} پیدا نشد؛ تطبیق انجام نمی‌شود.`); }
+const info = {};
 for (const n of files) {
   const txt = await fs.readFile(path.join(PODCASTS_DIR, n), "utf8");
   const fm = (txt.match(/^---\s*\n([\s\S]*?)\n---/) || [, ""])[1];
-  const urls = (fm.match(/https?:\/\/[^\s"',)\]]+/g) || []).map(normUrl);
-  const title = (fm.match(/^name_fa:\s*"?([^"\n]+)"?/m) || fm.match(/^title:\s*"?([^"\n]+)"?/m) || [, ""])[1];
+  const get = (k) => (fm.match(new RegExp("^" + k + ":\\s*[\"']?([^\"'\\n]+)", "m")) || [, ""])[1].trim();
+  const ov = overrides[n];
+  const urls = [...(typeof ov === "string" ? [ov] : []), ...(fm.match(/https?:\/\/[^\s"',)\]]+/g) || [])];
+  const slug = n.replace(/\.md$/, "").replace(/^\d{4}-\d{2}-\d{2}-/, "").replace(/[-_]+/g, " ");
+  const names = [get("name_fa"), get("name_en"), get("title")].filter(Boolean);
+  info[n] = { urls, names, slug, ov, shown: names[0] || slug };
   let f = null, how = "";
-  for (const u of urls) if (byUrl.has(u)) { f = byUrl.get(u); how = "url"; break; }
-  if (!f && title && byTitle.has(normTitle(title))) { f = byTitle.get(normTitle(title)); how = "title"; }
-  if (f) matches.push({ file: n, pi_id: f.id, how, index_title: f.title }); else unmatched.push({ file: n, title });
+  for (const u of urls.map(normUrl)) if (byUrl.has(u)) { f = byUrl.get(u); how = "url"; break; }
+  if (!f) outer: for (const nm of names) for (const t of titleParts(nm)) if (byTitle.has(t)) { f = byTitle.get(t); how = "title"; break outer; }
+  if (!f) for (const t of titleParts(slug)) if (byTitle.has(t)) { f = byTitle.get(t); how = "slug"; break; }
+  if (f) matches.push({ file: n, pi_id: f.id, how, index_title: f.title }); else unmatched.push({ file: n, title: info[n].shown });
 }
 
-/* ---------- تطبیق دقیق‌تر برای مواردی که پیدا نشدند: پرسیدن مستقیم از Index (با لینک RSS، بعد با عنوان) ---------- */
+/* ---------- برای مواردی که هنوز پیدا نشدند: پرسیدن مستقیم از Index ---------- */
 const stillUnmatched = [];
 for (const u of unmatched) {
-  const txt = await fs.readFile(path.join(PODCASTS_DIR, u.file), "utf8");
-  const fm = (txt.match(/^---\s*\n([\s\S]*?)\n---/) || [, ""])[1];
-  const rss = (fm.match(/^rss:\s*["']?([^"'\s]+)/m) || [, ""])[1];
+  const I = info[u.file];
+  const rssList = [...new Set(I.urls.filter((x) => /^https?:/.test(x)))].slice(0, 6);
+  const rssNorm = new Set(rssList.map(normUrl));
   let f = null, how = "";
   try {
-    if (rss) { const r = await api("/podcasts/byfeedurl", { url: rss }); if (r && r.feed && r.feed.id) { f = r.feed; how = "rss-lookup"; } }
-    if (!f && u.title) {
-      const r = await api("/search/bytitle", { q: u.title, max: 10 });
-      const nt = normTitle(u.title);
-      const hit = (r.feeds || []).find((x) => { const xt = normTitle(x.title); return xt === nt || (nt.length >= 4 && (xt.includes(nt) || nt.includes(xt)) && xt.length >= 4); });
-      if (hit) { f = hit; how = "title-lookup"; }
+    if (typeof I.ov === "number") { const r = await api("/podcasts/byfeedid", { id: I.ov }); if (r && r.feed && r.feed.id) { f = r.feed; how = "override-id"; } }
+    for (const rss of rssList) { if (f) break; const r = await api("/podcasts/byfeedurl", { url: rss }); if (r && r.feed && r.feed.id) { f = r.feed; how = "rss-lookup"; } await sleep(200); }
+    if (!f) {
+      const qs = [...new Set([...I.names.flatMap(rawParts), ...rawParts(I.slug)])].slice(0, 4);
+      const want = new Set(qs.flatMap(titleParts));
+      for (const q of qs) {
+        if (f) break;
+        const r = await api("/search/bytitle", { q, max: 10 });
+        const hit = (r.feeds || []).find((x) => rssNorm.has(normUrl(x.url)) || rssNorm.has(normUrl(x.originalUrl)) || titleParts(x.title).some((t) => want.has(t)));
+        if (hit) { f = hit; how = "title-lookup"; }
+        await sleep(200);
+      }
     }
   } catch (e) { console.warn(`جست‌وجوی مستقیم برای ${u.file} ناموفق: ${e.message}`); }
-  if (f) {
-    matches.push({ file: u.file, pi_id: f.id, how, index_title: f.title });
-    if (!list.some((x) => x.id === f.id)) list.push(trim({ ...f, _conf: "manual" }));
-  } else stillUnmatched.push(u);
-  await sleep(300);
+  if (f) { matches.push({ file: u.file, pi_id: f.id, how, index_title: f.title }); if (!list.some((x) => x.id === f.id)) list.push(trim({ ...f, _conf: "manual" })); }
+  else stillUnmatched.push(u);
 }
 unmatched.length = 0; unmatched.push(...stillUnmatched);
 
