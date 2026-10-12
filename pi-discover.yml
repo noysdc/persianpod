@@ -1,0 +1,25 @@
+name: Podcast Index — شناسایی (مرحله ۱)
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: اجرای شناسایی
+        run: node scripts/pi-discover.mjs
+        env:
+          PI_KEY: ${{ secrets.PODCASTINDEX_KEY }}
+          PI_SECRET: ${{ secrets.PODCASTINDEX_SECRET }}
+      - name: گزارش و ذخیره
+        run: |
+          cat _data/pi/report.md >> "$GITHUB_STEP_SUMMARY"
+          git config user.name "persianpod-bot"
+          git config user.email "persianpod-bot@users.noreply.github.com"
+          git add _data/pi
+          git diff --cached --quiet || (git commit -m "data: شناسایی پادکست‌های فارسی از Podcast Index" && git push)
