@@ -102,6 +102,8 @@ const SYSTEM = `تو ویراستار فارسی‌زبان پرشین‌پاد 
 - subcategories: حداکثر ۲ مورد از زیردسته‌های همان دسته (یا آرایه‌ی خالی)
 - tags: حداکثر ۵ برچسب فارسی
 - hashtags: ۸ تا ۱۲ هشتگ با زیرخط (مثلاً #پادکست_فارسی)
+- fit: «good» اگر یکی از دسته‌ها واقعاً مناسب است؛ «weak» اگر هیچ‌کدام مناسب نیست و فقط نزدیک‌ترین را انتخاب کرده‌ای
+- suggested_category: فقط وقتی fit برابر weak است، نام کوتاه یک دسته‌ی تازه‌ی پیشنهادی؛ وگرنه رشته‌ی خالی
 لحن: روایی و گرم، بدون تبلیغ و اغراق. اعداد را با ارقام انگلیسی بنویس. جمله‌های تبلیغاتی میزبان (Hosted on ...) را نادیده بگیر.`;
 async function ask(data, feedback) {
   const user = { podcast: data, categories: CATS.map((c) => ({ name: c.name, subcategories: c.subs })) };
@@ -120,7 +122,8 @@ function validate(a) {
   const tags = (Array.isArray(a.tags) ? a.tags : []).map((t) => toEn(String(t)).trim()).filter(Boolean).slice(0, 5);
   const hashtags = (Array.isArray(a.hashtags) ? a.hashtags : []).map((h) => "#" + String(h).replace(/^#+/, "").trim().replace(/\s+/g, "_")).filter((h) => h.length > 2).slice(0, 12);
   let description = toEn(a.description).trim(); if (description.length > 200) description = description.slice(0, 197).replace(/\s+\S*$/, "") + "…";
-  return { category: cat.name, subcategories: subs, tags, hashtags, description, intro: toEn(a.intro).trim(), about: toEn(a.about).trim() };
+  const weak = String(a.fit || "").toLowerCase() === "weak", suggested = weak ? String(a.suggested_category || "").trim().slice(0, 60) : "";
+  return { category: cat.name, weak, suggested, subcategories: subs, tags, hashtags, description, intro: toEn(a.intro).trim(), about: toEn(a.about).trim() };
 }
 
 /* ---------- لوگو → webp ---------- */
@@ -185,7 +188,7 @@ for (const F of cand) {
     if (!ai) { skipped.push(`${F.id} «${T.fa}» — ${err}`); continue; }
     const logo = await makeLogo(full.artwork || full.image || F.image, slug);
     await fs.writeFile(path.join(PODCASTS_DIR, slug + ".md"), build(F, T, slug, logo, L, eps, ai, full));
-    haveSlug.add(slug); haveSlug.add(slug.toLowerCase()); done.push({ slug, title: T.fa, cat: ai.category, logo: !!logo });
+    haveSlug.add(slug); haveSlug.add(slug.toLowerCase()); done.push({ slug, title: T.fa, cat: ai.category, logo: !!logo, weak: ai.weak, suggested: ai.suggested });
     console.log(`✓ ${slug} — ${T.fa} (${ai.category})`);
   } catch (e) { skipped.push(`${F.id} «${T.fa}» — ${e.message}`); }
   await sleep(800);
@@ -195,7 +198,7 @@ const rep = `## گزارش ساخت صفحه‌های جدید
 - ساخته‌شده: **${done.length}** (همه با \`published: false\`؛ تا تأیید نکنی روی سایت نمی‌آیند)
 - ردشده: ${skipped.length}
 
-${done.map((d) => `- \`${d.slug}\` — ${d.title} · ${d.cat}${d.logo ? "" : " · بدون لوگو"}`).join("\n")}
+${done.map((d) => `- \`${d.slug}\` — ${d.title} · ${d.cat}${d.logo ? "" : " · بدون لوگو"}${d.weak ? ` · ⚠️ دسته‌ی ضعیف${d.suggested ? ` (پیشنهاد دسته‌ی تازه: ${d.suggested})` : ""}` : ""}`).join("\n")}
 ${skipped.length ? "\n### ردشده\n" + skipped.map((s) => "- " + s).join("\n") : ""}
 `;
 await fs.mkdir(DATA, { recursive: true });
