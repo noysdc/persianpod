@@ -1,21 +1,24 @@
-name: Podcast Index — ساخت صفحه‌های جدید (مرحله ۳)
+name: Podcast Index — ساخت و تأیید صفحه‌ها
 on:
   schedule:
     - cron: "0 2 * * *"
   workflow_dispatch:
     inputs:
+      mode:
+        description: "حالت اجرا"
+        type: choice
+        default: build
+        options:
+          - build     # ساخت پادکست‌های جدید در _drafts/
+          - approve   # انتقال همه‌ی _drafts/ به _podcasts/ و انتشار
       limit:
-        description: "حداکثر چند پادکست تازه در این اجرا؟"
+        description: "حداکثر چند پادکست تازه (فقط در حالت build)"
         default: "80"
       ids:
-        description: "اختیاری: pi_idها با ویرگول"
+        description: "اختیاری: pi_idها با ویرگول (فقط در حالت build)"
         default: ""
-      publish:
-        description: "منتشر شوند؟"
-        type: boolean
-        default: false
       sort:
-        description: "ترتیب انتخاب"
+        description: "ترتیب انتخاب (فقط در حالت build)"
         type: choice
         default: episodes
         options: [episodes, recent]
@@ -33,9 +36,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: نصب sharp
+      - name: نصب sharp (تبدیل لوگو به webp)
         run: npm install sharp --no-save --no-package-lock
-      - name: ساخت صفحه‌ها
+      - name: ساخت پادکست‌های جدید
+        if: ${{ inputs.mode != 'approve' }}
         run: node scripts/pi-build-pages.mjs
         env:
           PI_KEY: ${{ secrets.PODCASTINDEX_KEY }}
@@ -44,14 +48,21 @@ jobs:
           GH_MODEL: ${{ vars.GH_MODEL || 'openai/gpt-oss-120b' }}
           CLASSIFY: "1"
           AI_BUDGET: "130"
-          PUBLISH: ${{ inputs.publish && '1' || vars.PI_AUTO_PUBLISH || '0' }}
           LIMIT: ${{ inputs.limit || '80' }}
           SORT: ${{ inputs.sort || 'episodes' }}
           IDS: ${{ inputs.ids }}
+      - name: تأیید و انتقال drafts به podcasts
+        if: ${{ inputs.mode == 'approve' }}
+        run: node scripts/pi-approve.mjs
       - name: گزارش و ذخیره
         run: |
-          cat _data/pi/build-report.md >> "$GITHUB_STEP_SUMMARY"
+          if [ -f _data/pi/build-report.md ]; then
+            cat _data/pi/build-report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+          if [ -f _data/pi/approve-report.md ]; then
+            cat _data/pi/approve-report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
           git config user.name "persianpod-bot"
           git config user.email "persianpod-bot@users.noreply.github.com"
-          git add -A _podcasts assets/img/podcasts _data/pi
-          git diff --cached --quiet || (git commit -m "data: صفحه‌های جدید از Podcast Index" && git pull --rebase && git push)
+          git add -A _podcasts _drafts assets/img/podcasts _data/pi
+          git diff --cached --quiet || (git commit -m "data: به‌روزرسانی پادکست‌ها" && git pull --rebase && git push)

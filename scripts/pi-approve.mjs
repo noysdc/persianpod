@@ -1,24 +1,62 @@
-/* PersianPod: تأیید صفحه‌های ساخته‌شده‌ی خودکار
-   SLUGS = "all" (همه‌ی صفحه‌های تأییدنشده) یا فهرست نام‌ها با ویرگول:  noys-example,another-slug
-   فقط فایل‌هایی را عوض می‌کند که source: "podcastindex" و published: false دارند؛ published را true و reviewed را true می‌کند. */
+/* PersianPod: تأیید — انتقال همه‌ی فایل‌های _drafts/ به _podcasts/ و انتشار */
 import fs from "node:fs/promises";
 import path from "node:path";
-const DIR = process.env.PI_PODCASTS || "_podcasts";
-const raw = (process.env.SLUGS || "").trim();
-if (!raw) { console.error("SLUGS خالی است. «all» یا نام صفحه‌ها را بنویس."); process.exit(1); }
-const all = raw.toLowerCase() === "all", want = new Set(raw.split(/[,\s،]+/).filter(Boolean));
-const changed = [];
-for (const n of await fs.readdir(DIR)) {
-  if (!n.endsWith(".md")) continue;
-  const p = path.join(DIR, n), t = await fs.readFile(p, "utf8");
-  const m = t.match(/^---\s*\n([\s\S]*?)\n---/); if (!m) continue;
-  const fm = m[1], slug = n.replace(/\.md$/, "");
-  if (!/^source:\s*"?podcastindex"?/m.test(fm) || !/^published:\s*false\s*$/m.test(fm)) continue;
-  if (!all && !want.has(slug)) continue;
-  const fm2 = fm.replace(/^published:\s*false\s*$/m, "published: true").replace(/^reviewed:\s*false\s*$/m, "reviewed: true");
-  await fs.writeFile(p, t.replace(fm, fm2)); changed.push(slug);
+
+const PODCASTS_DIR = process.env.PI_PODCASTS || "_podcasts";
+const DRAFTS_DIR = process.env.PI_DRAFTS || "_drafts";
+const DATA = process.env.PI_OUT || "_data/pi";
+const FORCE = process.env.FORCE === "1";   // اگر 1 باشد، بدون نگاه به previous، همه را منتقل می‌کند
+
+async function listDrafts() {
+  return (await fs.readdir(DRAFTS_DIR).catch(() => [])).filter((n) => n.endsWith(".md"));
 }
-const missing = all ? [] : [...want].filter((s) => !changed.includes(s));
-const out = `## تأیید صفحه‌ها\n\n- تأییدشده: **${changed.length}**\n${changed.map((s) => `  - ${s}`).join("\n")}\n${missing.length ? `\n- پیدا نشد یا قبلاً تأیید شده: ${missing.join("، ")}\n` : ""}`;
-console.log(out);
-await fs.mkdir("_data/pi", { recursive: true }); await fs.writeFile("_data/pi/approve-report.md", out);
+
+const drafts = await listDrafts();
+if (!drafts.length) {
+  const emptyRep = `## گزارش تأیید\n\n- پوشه‌ی \`_drafts/\` خالی است. چیزی برای انتقال نیست.\n`;
+  await fs.mkdir(DATA, { recursive: true });
+  await fs.writeFile(path.join(DATA, "approve-report.md"), emptyRep);
+  console.log(emptyRep);
+  process.exit(0);
+}
+
+await fs.mkdir(PODCASTS_DIR, { recursive: true });
+const moved = [], skipped = [];
+
+for (const name of drafts) {
+  const src = path.join(DRAFTS_DIR, name);
+  let dst = path.join(PODCASTS_DIR, name);
+
+  // اگر فایل هم‌نام در _podcasts هست
+  if (await fs.stat(dst).catch(() => null)) {
+    if (!FORCE) {
+      skipped.push(`${name} — در _podcasts از قبل هست (FORCE=1 برای جایگزینی)`);
+      continue;
+    }
+    // با پسوند -v2 ذخیره کن
+    const base = name.replace(/\.md$/, "");
+    let v = 2;
+    while (await fs.stat(path.join(PODCASTS_DIR, `${base}-v${v}.md`)).catch(() => null)) v++;
+    dst = path.join(PODCASTS_DIR, `${base}-v${v}.md`);
+  }
+
+  // خواندن و تغییر published: false → true
+  let content = await fs.readFile(src, "utf8");
+  content = content.replace(/^published:\s*false\s*$/m, "published: true");
+  content = content.replace(/^reviewed:\s*false\s*$/m, "reviewed: true");
+  await fs.writeFile(dst, content);
+  await fs.unlink(src);
+  moved.push(path.basename(dst));
+}
+
+const rep = `## گزارش تأیید و انتقال
+
+- منتقل‌شده از \`_drafts/\` به \`_podcasts/\`: **${moved.length}**
+- ردشده (از قبل موجود بود): ${skipped.length}
+
+${moved.length ? "### منتقل‌شده\n" + moved.map((n) => `- \`${n}\``).join("\n") : ""}
+${skipped.length ? "\n### ردشده\n" + skipped.map((n) => `- ${n}`).join("\n") : ""}
+`;
+await fs.mkdir(DATA, { recursive: true });
+await fs.writeFile(path.join(DATA, "approve-report.md"), rep);
+console.log(rep);

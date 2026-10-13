@@ -1,4 +1,6 @@
-/* PersianPod: مرحله‌ی ۳ — ساخت صفحه‌ی سبک برای پادکست‌های تازه‌ی Podcast Index */
+/* PersianPod: مرحله‌ی ۳ — ساخت صفحه‌ی سبک برای پادکست‌های تازه‌ی Podcast Index
+   خروجی: _drafts/<slug>.md با published:false  +  assets/img/podcasts/<slug>.webp
+   نام فایل همیشه از «اسم فارسی» ساخته می‌شود (نویسه‌گردانی به انگلیسی). */
 import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
@@ -7,10 +9,13 @@ const E = process.env;
 const LIMIT = Math.max(1, parseInt(E.LIMIT || "10", 10)), SORT = E.SORT || "episodes";
 const IDS = (E.IDS || "").split(/[,\s،]+/).filter(Boolean).map(Number).filter(Boolean);
 const MAX_FAILS_IN_ROW = 20;
-const PODCASTS_DIR = E.PI_PODCASTS || "_podcasts", IMG_DIR = E.PI_IMG || "assets/img/podcasts", DATA = E.PI_OUT || "_data/pi";
+const PODCASTS_DIR = E.PI_PODCASTS || "_podcasts";
+const DRAFTS_DIR = E.PI_DRAFTS || "_drafts";
+const IMG_DIR = E.PI_IMG || "assets/img/podcasts";
+const DATA = E.PI_OUT || "_data/pi";
 const CATS_FILE = E.PI_CATS || "_data/categories.yml";
 const PI_BASE = E.PI_BASE || "https://api.podcastindex.org/api/1.0";
-const CLASSIFY = E.CLASSIFY === "1", PUBLISH = E.PUBLISH === "1";
+const CLASSIFY = E.CLASSIFY === "1";
 const AI_BUDGET = parseInt(E.AI_BUDGET || "130", 10);
 
 const GROQ_BASE = E.GROQ_BASE || "https://api.groq.com/openai/v1";
@@ -42,6 +47,31 @@ for (const line of catsTxt.split("\n")) {
 if (!CATS.length) { console.error("categories.yml خوانده نشد."); process.exit(1); }
 const CAT_NAMES = CATS.map((c) => c.name);
 
+/* ============ نویسه‌گردانی فارسی → انگلیسی ============ */
+function translitFa(s) {
+  if (!s) return "";
+  s = s.normalize("NFC").replace(/[\u200c]/g, " ").replace(/[\u200f\u200e]/g, "").trim();
+  s = s.replace(/[\u064B-\u0652\u0670]/g, "");
+  const map = {
+    "آ":"aa","ا":"a","ب":"b","پ":"p","ت":"t","ث":"s","ج":"j","چ":"ch","ح":"h","خ":"kh",
+    "د":"d","ذ":"z","ر":"r","ز":"z","ژ":"zh","س":"s","ش":"sh","ص":"s","ض":"z","ط":"t","ظ":"z",
+    "ع":"a","غ":"gh","ف":"f","ق":"gh","ک":"k","ك":"k","گ":"g","ل":"l","م":"m","ن":"n",
+    "و":"o","ه":"h","ی":"i","ي":"i","ئ":"y","ء":"","ٔ":"",
+    "٠":"0","١":"1","٢":"2","٣":"3","٤":"4","٥":"5","٦":"6","٧":"7","٨":"8","٩":"9",
+    "۰":"0","۱":"1","۲":"2","۳":"3","۴":"4","۵":"5","۶":"6","۷":"7","۸":"8","۹":"9",
+  };
+  let out = "";
+  for (const ch of s) {
+    if (map[ch] !== undefined) out += map[ch];
+    else if (/[A-Za-z0-9]/.test(ch)) out += ch;
+    else out += " ";
+  }
+  out = out.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  if (out.length > 60) out = out.slice(0, 60).replace(/-+[^-]*$/, "");
+  return out;
+}
+
+/* ============ ابزارها ============ */
 const toEn = (s) => String(s).replace(/[\u06F0-\u06F9]/g, (d) => d.charCodeAt(0) - 1776).replace(/[\u0660-\u0669]/g, (d) => d.charCodeAt(0) - 1632);
 const q = JSON.stringify;
 const hasFa = (s) => /[\u0600-\u06FF]/.test(s), hasLat = (s) => /[A-Za-z]/.test(s);
@@ -78,21 +108,19 @@ function links(raw, feed, full) {
   return L;
 }
 
-const havePi = new Set(), haveSlug = new Set();
-for (const n of await fs.readdir(PODCASTS_DIR).catch(() => [])) {
-  if (!n.endsWith(".md")) continue;
-  haveSlug.add(n.replace(/\.md$/, ""));
-  const fm = ((await fs.readFile(path.join(PODCASTS_DIR, n), "utf8")).match(/^---\s*\n([\s\S]*?)\n---/) || [, ""])[1];
-  const id = (fm.match(/^pi_id:\s*"?(\d+)/m) || [])[1]; if (id) havePi.add(+id);
-  const sl = (fm.match(/^slug:\s*"?([^"\n]+)/m) || [])[1]; if (sl) haveSlug.add(sl.trim());
-}
-const haveRss = new Set(), haveKey = new Set();
+/* ============ موجودها (چک هر دو پوشه) ============ */
+const havePi = new Set(), haveSlug = new Set(), haveRss = new Set(), haveKey = new Set();
 const normKey = (x) => String(x || "").replace(/[\u06F0-\u06F9]/g, (d) => d.charCodeAt(0) - 1776).toLowerCase().replace(/[\s\u200c\u200f_\-|:·.,،؛]+/g, "");
-for (const n of await fs.readdir(PODCASTS_DIR).catch(() => [])) {
-  if (!n.endsWith(".md")) continue;
-  const fm = ((await fs.readFile(path.join(PODCASTS_DIR, n), "utf8")).match(/^---\s*\n([\s\S]*?)\n---/) || [, ""])[1];
-  const rss = (fm.match(/^rss:\s*"?([^"\n]+)/m) || [])[1]; if (rss) haveRss.add(rss.trim());
-  const te = (fm.match(/^title_en:\s*"?([^"\n]+)/m) || [])[1]; if (te && normKey(te).length >= 3) haveKey.add(normKey(te));
+for (const dir of [PODCASTS_DIR, DRAFTS_DIR]) {
+  for (const n of await fs.readdir(dir).catch(() => [])) {
+    if (!n.endsWith(".md")) continue;
+    haveSlug.add(n.replace(/\.md$/, ""));
+    const fm = ((await fs.readFile(path.join(dir, n), "utf8")).match(/^---\s*\n([\s\S]*?)\n---/) || [, ""])[1];
+    const id = (fm.match(/^pi_id:\s*"?(\d+)/m) || [])[1]; if (id) havePi.add(+id);
+    const sl = (fm.match(/^slug:\s*"?([^"\n]+)/m) || [])[1]; if (sl) haveSlug.add(sl.trim());
+    const rss = (fm.match(/^rss:\s*"?([^"\n]+)/m) || [])[1]; if (rss) haveRss.add(rss.trim());
+    const te = (fm.match(/^title_en:\s*"?([^"\n]+)/m) || [])[1]; if (te && normKey(te).length >= 3) haveKey.add(normKey(te));
+  }
 }
 try { for (const m of JSON.parse(await fs.readFile(path.join(DATA, "matches.json"), "utf8")).matches || []) havePi.add(+m.pi_id); } catch { /* اختیاری */ }
 
@@ -100,6 +128,7 @@ const STATE_FILE = path.join(DATA, "import-state.json");
 let STATE = { tries: {}, review: {} };
 try { STATE = { tries: {}, review: {}, ...JSON.parse(await fs.readFile(STATE_FILE, "utf8")) }; } catch { /* اولین اجرا */ }
 
+/* ============ انتخاب نامزدها ============ */
 const feeds = JSON.parse(await fs.readFile(path.join(DATA, "feeds.json"), "utf8"));
 let cand;
 if (IDS.length) {
@@ -113,6 +142,7 @@ if (IDS.length) {
 }
 console.log(`نامزد: ${cand.length}، ساخته می‌شود: ${Math.min(LIMIT, cand.length)}`);
 
+/* ============ حالت پایه ============ */
 const CAT_MAP = [
   ["جنایی", ["True Crime"]], ["مستند و روایت", ["Documentary"]], ["تاریخ", ["History"]], ["موسیقی", ["Music"]],
   ["ورزش", ["Sports", "Soccer", "Football", "Baseball", "Basketball", "Cricket", "Tennis", "Wrestling"]], ["کودک و نوجوان", ["Kids"]],
@@ -130,12 +160,13 @@ function basic(desc, piCats) {
   const text = toEn(desc).trim();
   let description = text;
   if (description.length > 200) { const cut = description.slice(0, 200), k = Math.max(cut.lastIndexOf("."), cut.lastIndexOf("؟"), cut.lastIndexOf("!"), cut.lastIndexOf("؛")); description = k > 80 ? cut.slice(0, k + 1) : cut.replace(/\s+\S*$/, "") + "…"; }
-  return { category, weak: !hit, suggested: "", subcategories: [], tags: hit ? [category] : [], hashtags: [], description, intro: "", about: "", text: text.slice(0, 1200) };
+  return { category, weak: !hit, subcategories: [], tags: hit ? [category] : [], hashtags: [], description, intro: "", about: "", text: text.slice(0, 1200) };
 }
 
+/* ============ Groq ============ */
 let aiStop = "", aiCalls = 0, AI = null; const aiDiag = [];
 const NEW_CATS_FILE = path.join(DATA, "new-categories.md");
-const newCats = [];   // دسته‌های جدیدی که AI پیشنهاد می‌ده
+const newCats = [];
 
 async function chat(cfg, system, user, maxTokens) {
   const payload = { model: cfg.model, messages: [{ role: "system", content: system }, { role: "user", content: user }], temperature: 0, max_tokens: maxTokens };
@@ -154,7 +185,6 @@ async function preflight() {
     { base: GROQ_BASE, model: GROQ_MODEL, rf: true },
     { base: GROQ_BASE, model: "openai/gpt-oss-20b", rf: false },
   ].filter((v, i, a) => a.findIndex((x) => x.base === v.base && x.model === v.model && x.rf === v.rf) === i);
-
   for (const v of variants) {
     const tag = `${v.base} · ${v.model}${v.rf ? " · json_mode" : ""}`;
     try {
@@ -165,11 +195,11 @@ async function preflight() {
         return v;
       }
       if (res.status === 429) { aiStop = "سقف درخواست Groq پر است؛ بعداً دوباره اجرا کن"; return null; }
-      if ([400, 401, 403].includes(res.status)) { aiDiag.push(`  ⚠️ احتمالاً کلید GROQ_API_KEY مشکل دارد.`); }
+      if ([400, 401, 403].includes(res.status)) aiDiag.push(`  ⚠️ احتمالاً کلید GROQ_API_KEY مشکل دارد.`);
     } catch (e) { aiDiag.push(`${tag} → خطا: ${e.message}`); }
     await sleep(GAP);
   }
-  aiStop = "اتصال به Groq برقرار نشد. همه‌ی مدل‌ها امتحان شدند ولی هیچ‌کدام جواب نداد.";
+  aiStop = "اتصال به Groq برقرار نشد.";
   return null;
 }
 
@@ -178,8 +208,8 @@ async function classify(data) {
 خروجی فقط یک JSON معتبر با این کلیدها:
 - category: نام دسته. اگر پادکست در دسته‌های موجود (categories) جا می‌گیرد، دقیقاً یکی از آن نام‌ها را بده. اگر هیچ‌کدام مناسب نیست، یک نام دسته‌ی جدید فارسی پیشنهاد بده (کوتاه، ۲ تا ۴ کلمه).
 - is_new_category: true اگر دسته‌ی جدیدی پیشنهاد دادی، وگرنه false
-- subcategories: حداکثر ۲ زیردسته (اگر دسته‌ی موجود است) یا حداکثر ۲ زیردسته‌ی پیشنهادی برای دسته‌ی جدید؛ یا آرایه‌ی خالی
-- is_podcast: true اگر این یک برنامه‌ی صوتی/پادکست واقعی است؛ false فقط اگر واقعاً پادکست نیست (مثل موسیقی خالی، کتاب صوتی خالص بدون گفت‌وگو، فایل تبلیغاتی)
+- subcategories: حداکثر ۲ زیردسته یا آرایه‌ی خالی
+- is_podcast: true اگر این یک برنامه‌ی صوتی/پادکست واقعی است؛ false فقط اگر واقعاً پادکست نیست (موسیقی خالی، تبلیغ)
 - confidence: «high» یا «low»
 
 نکته: کتاب صوتی، برنامه‌ی خبری، پادکست گفت‌وگویی، مستند، آموزشی — همه پادکست محسوب می‌شوند و is_podcast باید true باشد.`;
@@ -190,7 +220,7 @@ async function classify(data) {
     const res = await chat(AI, sys, user, 350);
     if (res.status === 429 && i === 0) { await sleep(parseInt(E.RATE_WAIT_MS || "65000", 10)); continue; }
     if (res.status === 429) { aiStop = "سقف درخواست Groq پر شد؛ بقیه فردا"; return null; }
-    if ([400, 401, 403, 404].includes(res.status)) { aiStop = `Groq HTTP ${res.status}: ${res.text.replace(/\s+/g, " ").slice(0, 160)}`; return null; }
+    if ([400, 401, 403, 404].includes(res.status)) { aiStop = `Groq HTTP ${res.status}`; return null; }
     if (res.status !== 200 || !res.out) return undefined;
     try {
       const o = JSON.parse(res.out.replace(/^```(?:json)?\s*|\s*```$/g, ""));
@@ -198,13 +228,7 @@ async function classify(data) {
       if (!catName) return undefined;
       const isNew = o.is_new_category === true || !CAT_NAMES.includes(catName);
       const subs = (Array.isArray(o.subcategories) ? o.subcategories : []).map((x) => String(x).trim()).filter(Boolean).slice(0, 2);
-      return {
-        category: catName,
-        isNewCategory: isNew,
-        subcategories: subs,
-        isPodcast: o.is_podcast !== false,
-        confidence: String(o.confidence).toLowerCase() === "high" ? "high" : "low",
-      };
+      return { category: catName, isNewCategory: isNew, subcategories: subs, isPodcast: o.is_podcast !== false, confidence: String(o.confidence).toLowerCase() === "high" ? "high" : "low" };
     } catch { return undefined; }
   }
   return undefined;
@@ -223,13 +247,21 @@ async function makeLogo(url, slug) {
   } catch (e) { console.warn(`لوگو ناموفق (${slug}): ${e.message}`); return ""; }
 }
 
+function makeSlugFromFa(faTitle, fallbackId) {
+  let base = String(faTitle || "").trim();
+  base = base.replace(/^پادکست\s+/i, "podcast ").replace(/^رادیو\s+/i, "radio ");
+  let slug = translitFa(base);
+  if (!slug || slug.length < 2) slug = `podcast-${fallbackId}`;
+  return slug;
+}
+
 function build(F, T, slug, logo, L, eps, ai, full) {
   const fm = [`title: ${q(T.fa)}`, `title_en: ${q(T.en)}`, `slug: ${q(slug)}`, `description: ${q(ai.description)}`, `category: ${q(ai.category)}`,
     `subcategories: ${q(ai.subcategories)}`, `tags: ${q(ai.tags)}`, `status: "active"`, `language: "فارسی"`];
   if (full.author || full.ownerName) fm.push(`creator: ${q(full.author || full.ownerName)}`);
   fm.push(`episode_count: ${full.episodeCount || F.episodeCount || 0}`, `logo: ${q(logo)}`, `rss: ${q(full.url || F.url)}`);
   for (const k of ["website", "instagram", "telegram", "threads", "youtube", "apple", "spotify"]) if (L[k]) fm.push(`${k === "apple" ? "apple_podcasts" : k}: ${q(L[k])}`);
-  fm.push(`pi_id: ${F.id}`, `source: "podcastindex"`, ...(ai.aiCat ? [`ai_category: true`] : []), ...(ai.isNewCategory ? [`new_category: true`] : []), `auto_imported: true`, `reviewed: false`, `published: ${PUBLISH}`);
+  fm.push(`pi_id: ${F.id}`, `source: "podcastindex"`, ...(ai.aiCat ? [`ai_category: true`] : []), ...(ai.isNewCategory ? [`new_category: true`] : []), `auto_imported: true`, `reviewed: false`, `published: false`);
   const a = `{:target="_blank" rel="noopener"}`;
   const epLines = eps.map((e) => (e.link && /^https?:/.test(e.link) ? `- [${e.title.replace(/[\[\]]/g, "")}](${e.link})${a}` : `- ${e.title}`));
   const rel = [];
@@ -252,8 +284,9 @@ function build(F, T, slug, logo, L, eps, ai, full) {
   return `---\n${fm.join("\n")}\n---\n\n${body.join("\n")}`;
 }
 
+/* ============ اجرا ============ */
 let aiOk = 0; const done = [], skipped = []; let fatal = "", failsInRow = 0; const seenKey = new Set();
-await fs.mkdir(PODCASTS_DIR, { recursive: true });
+await fs.mkdir(DRAFTS_DIR, { recursive: true });
 for (const F of cand) {
   if (done.length >= (IDS.length ? IDS.length : LIMIT)) break;
   if (fatal || aiStop || failsInRow >= MAX_FAILS_IN_ROW) break;
@@ -270,7 +303,7 @@ for (const F of cand) {
     const eps = ((epR && epR.items) || []).filter((e) => e.title).slice(0, 3).map((e) => ({ title: String(e.title).replace(/\s+/g, " ").trim().slice(0, 140), link: e.link || "" }));
     const desc = cleanDesc(full.description || F.description);
     const L = links(`${full.description || ""} ${eps.map((e) => e.link).join(" ")}`, full, full);
-    let slug = (T.en || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || `podcast-${F.id}`;
+    let slug = makeSlugFromFa(T.fa, F.id);
     if (haveSlug.has(slug)) slug = `${slug}-${F.id}`;
     const data = { title_fa: T.fa, title_en: T.en, author: full.author || "", description: desc, episode_titles: eps.map((e) => e.title), episode_count: full.episodeCount || F.episodeCount,
       index_categories: Object.values(full.categories || F.categories || {}) };
@@ -285,16 +318,12 @@ for (const F of cand) {
         failsInRow++;
         await sleep(GAP); continue;
       }
-      // فقط وقتی رد کن که واقعاً پادکست نیست
       if (!c.isPodcast) {
-        STATE.review[F.id] = { title: T.fa, reason: "پادکست نیست (موسیقی/تبلیغ/...)", cat: c.category };
+        STATE.review[F.id] = { title: T.fa, reason: "پادکست نیست", cat: c.category };
         skipped.push(`${F.id} «${T.fa}» — پادکست نیست`);
         await sleep(GAP); continue;
       }
-      // دسته‌ی جدید: ثبت در فایل گزارش
-      if (c.isNewCategory) {
-        newCats.push({ id: F.id, title: T.fa, suggested: c.category, subs: c.subcategories });
-      }
+      if (c.isNewCategory) newCats.push({ id: F.id, title: T.fa, suggested: c.category, subs: c.subcategories });
       ai.category = c.category;
       ai.subcategories = c.subcategories;
       ai.tags = [c.category, ...c.subcategories].filter(Boolean);
@@ -305,21 +334,21 @@ for (const F of cand) {
     }
     failsInRow = 0;
     const logo = await makeLogo(full.artwork || full.image || F.image, slug);
-    await fs.writeFile(path.join(PODCASTS_DIR, slug + ".md"), build(F, T, slug, logo, L, eps, ai, full));
-    haveSlug.add(slug); haveSlug.add(slug.toLowerCase()); done.push({ slug, title: T.fa, cat: ai.category, logo: !!logo, weak: ai.weak, suggested: ai.suggested, isNewCategory: ai.isNewCategory });
-    console.log(`✓ ${slug} — ${T.fa} (${ai.category})${ai.isNewCategory ? " [دسته‌ی جدید]" : ""}`);
+    await fs.writeFile(path.join(DRAFTS_DIR, slug + ".md"), build(F, T, slug, logo, L, eps, ai, full));
+    haveSlug.add(slug); haveSlug.add(slug.toLowerCase()); done.push({ slug, title: T.fa, cat: ai.category, logo: !!logo, weak: ai.weak, isNewCategory: ai.isNewCategory });
+    console.log(`✓ [draft] ${slug} — ${T.fa} (${ai.category})${ai.isNewCategory ? " [دسته‌ی جدید]" : ""}`);
   } catch (e) { skipped.push(`${F.id} «${T.fa}» — ${e.message}`); if (e.fatal) fatal = e.message; else failsInRow++; }
   await sleep(GAP);
 }
 const stopMsg = fatal ? `⛔ **اجرا متوقف شد:** ${fatal}\n\n` : failsInRow >= MAX_FAILS_IN_ROW ? `⛔ **اجرا متوقف شد:** ${MAX_FAILS_IN_ROW} شکست پشت‌سرهم\n\n` : "";
-const rep = `## گزارش ساخت صفحه‌های جدید
+const rep = `## گزارش ساخت صفحه‌های جدید (drafts)
 
-${stopMsg}- ساخته‌شده: **${done.length}** (${PUBLISH ? "منتشر شده‌اند" : "همه با \`published: false\`"})
+${stopMsg}- ساخته‌شده در \`_drafts/\`: **${done.length}** (منتظر تأیید — برای انتشار، workflow را با mode=approve اجرا کن)
 - ردشده/کنار گذاشته‌شده: ${skipped.length}${CLASSIFY ? `\n- دسته‌بندی با Groq: ${aiOk} پادکست؛ ${aiCalls} درخواست${aiStop ? `\n- ⚠️ ${aiStop}` : ""}` : ""}
-- در انتظار بازبینی دستی: ${Object.keys(STATE.review).length}${newCats.length ? `\n- 🆕 **دسته‌های جدید پیشنهادی: ${newCats.length}** (پایین ببین)` : ""}${CLASSIFY && aiDiag.length ? `\n\n### تشخیص اتصال به Groq\n` + aiDiag.map((d) => "- " + d).join("\n") : ""}
+- در انتظار بازبینی دستی: ${Object.keys(STATE.review).length}${newCats.length ? `\n- 🆕 **دسته‌های جدید پیشنهادی: ${newCats.length}**` : ""}${CLASSIFY && aiDiag.length ? `\n\n### تشخیص اتصال به Groq\n` + aiDiag.map((d) => "- " + d).join("\n") : ""}
 
 ${done.map((d) => `- \`${d.slug}\` — ${d.title} · ${d.cat}${d.isNewCategory ? " 🆕" : ""}${d.logo ? "" : " · بدون لوگو"}${d.weak ? ` · ⚠️ دسته‌ی ضعیف` : ""}`).join("\n")}
-${newCats.length ? "\n### 🆕 دسته‌های جدید پیشنهادی (لطفاً به categories.yml اضافه کن)\n" + newCats.map((n) => `- \`${n.suggested}\` — برای «${n.title}»${n.subs.length ? ` (زیردسته‌ها: ${n.subs.join("، ")})` : ""}`).join("\n") : ""}
+${newCats.length ? "\n### 🆕 دسته‌های جدید پیشنهادی\n" + newCats.map((n) => `- \`${n.suggested}\` — برای «${n.title}»${n.subs.length ? ` (زیردسته‌ها: ${n.subs.join("، ")})` : ""}`).join("\n") : ""}
 ${skipped.length ? "\n### ردشده\n" + skipped.map((s) => "- " + s).join("\n") : ""}
 `;
 await fs.mkdir(DATA, { recursive: true });
@@ -327,7 +356,7 @@ await fs.writeFile(STATE_FILE, JSON.stringify(STATE, null, 1));
 const revIds = Object.keys(STATE.review);
 await fs.writeFile(path.join(DATA, "needs-review.md"), `# پادکست‌های در انتظار تصمیم دستی\n\n` + (revIds.length ? revIds.map((id) => `- \`${id}\` «${STATE.review[id].title}» — ${STATE.review[id].reason}`).join("\n") : "فعلاً خالی است.") + "\n");
 if (newCats.length) {
-  await fs.writeFile(NEW_CATS_FILE, `# دسته‌های جدید پیشنهادی\n\nاین پادکست‌ها در دسته‌های فعلی \`_data/categories.yml\` جا نشدند و هوش مصنوعی دسته‌ی جدید پیشنهاد داده. لطفاً پس از بررسی، دسته‌های مناسب را به فایل categories.yml اضافه کن.\n\n` + newCats.map((n) => `- **${n.suggested}** — برای «${n.title}» (pi_id: ${n.id})${n.subs.length ? `\n  - زیردسته‌های پیشنهادی: ${n.subs.join("، ")}` : ""}`).join("\n") + "\n");
+  await fs.writeFile(NEW_CATS_FILE, `# دسته‌های جدید پیشنهادی\n\n` + newCats.map((n) => `- **${n.suggested}** — برای «${n.title}» (pi_id: ${n.id})${n.subs.length ? `\n  - زیردسته‌های پیشنهادی: ${n.subs.join("، ")}` : ""}`).join("\n") + "\n");
 }
 await fs.writeFile(path.join(DATA, "build-report.md"), rep);
 console.log("\n" + rep);
