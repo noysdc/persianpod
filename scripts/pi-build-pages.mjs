@@ -141,11 +141,40 @@ function basic(desc, piCats) {
   return { category, weak: !hit, suggested: "", subcategories: [], tags: hit ? [category] : [], hashtags: [], description, intro: "", about: "", text: text.slice(0, 1200) };
 }
 
-/* ---------- دسته‌بندی با GitHub Models (یک درخواست برای هر پادکست) ---------- */
-let aiStop = "", aiCalls = 0;
+/* ---------- GitHub Models: اتصال، تشخیص، دسته‌بندی ---------- */
+let aiStop = "", aiCalls = 0, AI = null; const aiDiag = [];
 const KINDS = { audiobook: "کتاب صوتی/رمان‌خوانی", news_outlet: "برنامه‌ی یک رسانه‌ی خبری سازمانی", other: "غیرپادکستی یا نامشخص" };
+async function chat(cfg, system, user, maxTokens) {
+  const payload = { model: cfg.model, messages: [{ role: "system", content: system }, { role: "user", content: user }], temperature: 0, max_tokens: maxTokens };
+  if (cfg.rf) payload.response_format = { type: "json_object" };
+  aiCalls++;
+  const r = await fetch(`${cfg.base}/chat/completions`, { method: "POST", signal: AbortSignal.timeout(60000),
+    headers: { "Content-Type": "application/json", Accept: "application/vnd.github+json", Authorization: "Bearer " + GH_TOKEN, "X-GitHub-Api-Version": "2022-11-28" }, body: JSON.stringify(payload) });
+  const text = await r.text();
+  let out = ""; try { const j = JSON.parse(text); out = (j.choices && j.choices[0] && j.choices[0].message && j.choices[0].message.content) || ""; } catch { /* پاسخ JSON نیست */ }
+  return { status: r.status, ctype: (r.headers.get("content-type") || "").split(";")[0], text, out };
+}
+// قبل از لمس هر پادکست، چند حالت اتصال را امتحان می‌کند و اولین حالتِ سالم را برمی‌دارد؛ نتیجه‌ی هر تلاش در گزارش می‌آید
+async function preflight() {
+  const legacy = E.GH_LEGACY_BASE || "https://models.inference.ai.azure.com", bare = GH_MODEL.replace(/^[^/]+\//, "");
+  const variants = [
+    { base: GH_BASE, model: GH_MODEL, rf: true }, { base: GH_BASE, model: GH_MODEL, rf: false },
+    { base: GH_BASE, model: "openai/gpt-4o-mini", rf: false }, { base: legacy, model: bare, rf: false },
+  ].filter((v, i, a) => a.findIndex((x) => x.base === v.base && x.model === v.model && x.rf === v.rf) === i);
+  for (const v of variants) {
+    const tag = `${v.base} · ${v.model}${v.rf ? " · json_mode" : ""}`;
+    try {
+      const res = await chat(v, "فقط یک JSON معتبر بده.", 'خروجی: {"ok": true}', 30);
+      aiDiag.push(`${tag} → HTTP ${res.status} · ${res.ctype || "?"} · ${res.text.replace(/\s+/g, " ").slice(0, 140)}`);
+      if (res.status === 200 && res.out) return v;
+      if (res.status === 429) { aiStop = "سقف درخواست GitHub Models پر است؛ بعداً دوباره اجرا کن"; return null; }
+    } catch (e) { aiDiag.push(`${tag} → خطا: ${e.message}`); }
+    await sleep(GAP);
+  }
+  aiStop = "اتصال به GitHub Models برقرار نشد؛ جزئیات هر تلاش در «تشخیص اتصال» آمده. هیچ پادکستی تغییر نکرد و تلاشی از آن‌ها کم نشد";
+  return null;
+}
 async function classify(data) {
-  const names = CATS.map((c) => c.name);
   const sys = `تو ویراستار فهرست پادکست‌های فارسی (پرشین‌پاد) هستی. فقط بر اساس «داده‌ی پادکست» تصمیم بگیر و حدس نزن.
 خروجی فقط یک JSON معتبر با این کلیدها:
 - category: دقیقاً یکی از نام‌های categories
@@ -154,19 +183,15 @@ async function classify(data) {
 - confidence: «high» اگر عنوان و توضیح دسته را روشن می‌کنند، وگرنه «low»`;
   const cats = CATS.map((c) => ({ name: c.name, subcategories: c.subs }));
   const user = JSON.stringify({ categories: cats, podcast: { title: data.title_fa, description: data.description.slice(0, 700), episode_titles: data.episode_titles, index_categories: data.index_categories } });
-  const body = JSON.stringify({ model: GH_MODEL, messages: [{ role: "system", content: sys }, { role: "user", content: user }], temperature: 0, max_tokens: 200, response_format: { type: "json_object" } });
   for (let i = 0; i < 2; i++) {
     if (aiCalls >= AI_BUDGET) { aiStop = `به سقف ${AI_BUDGET} درخواست این اجرا رسید؛ بقیه فردا`; return null; }
-    aiCalls++;
-    const r = await fetch(`${GH_BASE}/chat/completions`, { method: "POST", signal: AbortSignal.timeout(60000),
-      headers: { "Content-Type": "application/json", Accept: "application/vnd.github+json", Authorization: "Bearer " + GH_TOKEN, "X-GitHub-Api-Version": "2022-11-28" }, body });
-    if (r.status === 429 && i === 0) { await sleep(parseInt(E.RATE_WAIT_MS || "65000", 10)); continue; }            // احتمالاً سقف دقیقه‌ای: یک دقیقه صبر
-    if (r.status === 429) { aiStop = "سقف درخواست GitHub Models پر شد (احتمالاً سقف روزانه)؛ بقیه فردا"; return null; }
-    if ([400, 401, 403, 404].includes(r.status)) { aiStop = `GitHub Models HTTP ${r.status} (دسترسی یا نام مدل ${GH_MODEL}؛ اجرا متوقف شد)`; return null; }
-    if (!r.ok) return undefined;                                                    // خطای موقت: این پادکست یک تلاش از دست می‌دهد
-    const j = await r.json(), out = (j.choices && j.choices[0] && j.choices[0].message && j.choices[0].message.content) || "";
+    const res = await chat(AI, sys, user, 250);
+    if (res.status === 429 && i === 0) { await sleep(parseInt(E.RATE_WAIT_MS || "65000", 10)); continue; }   // احتمالاً سقف دقیقه‌ای
+    if (res.status === 429) { aiStop = "سقف درخواست GitHub Models پر شد (احتمالاً سقف روزانه)؛ بقیه فردا"; return null; }
+    if ([400, 401, 403, 404].includes(res.status)) { aiStop = `GitHub Models HTTP ${res.status}: ${res.text.replace(/\s+/g, " ").slice(0, 160)}`; return null; }
+    if (res.status !== 200 || !res.out) return undefined;                                                   // خطای موقت یا پاسخ نامعتبر
     try {
-      const o = JSON.parse(out.replace(/^```(?:json)?\s*|\s*```$/g, "")), cat = CATS.find((c) => c.name === String(o.category || "").trim());
+      const o = JSON.parse(res.out.replace(/^```(?:json)?\s*|\s*```$/g, "")), cat = CATS.find((c) => c.name === String(o.category || "").trim());
       if (!cat) return undefined;
       const subs = (Array.isArray(o.subcategories) ? o.subcategories : []).map((x) => String(x).trim()).filter((x) => cat.subs.includes(x)).slice(0, 2);
       return { category: cat.name, subcategories: subs, kind: ["podcast", "audiobook", "news_outlet", "other"].includes(o.kind) ? o.kind : "other", confidence: String(o.confidence).toLowerCase() === "high" ? "high" : "low" };
@@ -174,6 +199,7 @@ async function classify(data) {
   }
   return undefined;
 }
+if (CLASSIFY && cand.length) { AI = await preflight(); if (AI) console.log(`GitHub Models: ${AI.base} · ${AI.model}`); }
 
 /* ---------- لوگو → webp ---------- */
 let sharp = null; try { sharp = (await import("sharp")).default; } catch { console.warn("sharp نصب نیست؛ لوگوها ساخته نمی‌شوند."); }
@@ -223,7 +249,7 @@ let aiOk = 0; const done = [], skipped = []; let fatal = "", failsInRow = 0; con
 await fs.mkdir(PODCASTS_DIR, { recursive: true });
 for (const F of cand) {
   if (done.length >= (IDS.length ? IDS.length : LIMIT)) break;
-  if (fatal || failsInRow >= MAX_FAILS_IN_ROW) break;
+  if (fatal || aiStop || failsInRow >= MAX_FAILS_IN_ROW) break;
   const T = splitTitle(F.title);
   const dupKey = normKey(F.title) + "|" + normKey(F.author || F.ownerName);
   if (!IDS.length) {                                // تکراری‌ها: همان عنوان+سازنده (چند فید برای یک پادکست)، یا RSS و نام انگلیسیِ موجود
@@ -263,7 +289,7 @@ const rep = `## گزارش ساخت صفحه‌های جدید
 
 ${stopMsg}- ساخته‌شده: **${done.length}** (${PUBLISH ? "منتشر شده‌اند" : "همه با \`published: false\`؛ تا تأیید نکنی روی سایت نمی‌آیند"})
 - ردشده/کنار گذاشته‌شده: ${skipped.length}${CLASSIFY ? `\n- دسته‌بندی با GitHub Models: ${aiOk} پادکست؛ ${aiCalls} درخواست مصرف شد (سقف روزانه‌ی پلن رایگان ۱۵۰)${aiStop ? `\n- ⚠️ ${aiStop}` : ""}` : ""}
-- در انتظار بازبینی دستی: ${Object.keys(STATE.review).length} (فایل needs-review.md)
+- در انتظار بازبینی دستی: ${Object.keys(STATE.review).length} (فایل needs-review.md)${CLASSIFY && aiDiag.length ? `\n\n### تشخیص اتصال به GitHub Models\n` + aiDiag.map((d) => "- " + d).join("\n") : ""}
 
 ${done.map((d) => `- \`${d.slug}\` — ${d.title} · ${d.cat}${d.logo ? "" : " · بدون لوگو"}${d.weak ? ` · ⚠️ دسته‌ی ضعیف${d.suggested ? ` (پیشنهاد دسته‌ی تازه: ${d.suggested})` : ""}` : ""}`).join("\n")}
 ${skipped.length ? "\n### ردشده\n" + skipped.map((s) => "- " + s).join("\n") : ""}
