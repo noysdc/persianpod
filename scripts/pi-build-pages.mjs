@@ -1,7 +1,8 @@
 /* PersianPod: مرحله‌ی ۳ — ساخت صفحه‌ی سبک برای پادکست‌های تازه‌ی Podcast Index
    خروجی: _drafts/<slug>.md با published:false
    نام فایل همیشه از «اسم فارسی» ساخته می‌شود.
-   _blocked/ هم چک می‌شود تا پادکست‌های بلاک‌شده دوباره ساخته نشوند. */
+   _blocked/ هم چک می‌شود تا پادکست‌های بلاک‌شده دوباره ساخته نشوند.
+   وضعیت: "فعال" برای پادکست‌های ۳ سال اخیر، "متوقف شده" برای بقیه. */
 import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
@@ -128,23 +129,17 @@ const STATE_FILE = path.join(DATA, "import-state.json");
 let STATE = { tries: {}, review: {} };
 try { STATE = { tries: {}, review: {}, ...JSON.parse(await fs.readFile(STATE_FILE, "utf8")) }; } catch { /* اولین اجرا */ }
 
-/* ============ انتخاب نامزدها ============ */
+/* ============ انتخاب نامزدها (فعال و غیرفعال، هر دو) ============ */
 const feeds = JSON.parse(await fs.readFile(path.join(DATA, "feeds.json"), "utf8"));
 
-// کل پادکست‌های موجود در feeds.json
 const totalInFeeds = feeds.length;
-// پادکست‌های با confidence high و active
 const highActive = feeds.filter((f) => f.confidence === "high" && f.active === true && !f.dead).length;
-// پادکست‌های فارسی با حداقل ۳ قسمت
-const faOk = feeds.filter((f) => f.confidence === "high" && f.active === true && !f.dead && (f.episodeCount || 0) >= 3 && hasFa(f.title || "")).length;
-// اونایی که قبلاً ساخته شدن (تو هر سه پوشه)
+const highInactive = feeds.filter((f) => f.confidence === "high" && f.active === false && !f.dead).length;
+const faOk = feeds.filter((f) => f.confidence === "high" && !f.dead && (f.episodeCount || 0) >= 3 && hasFa(f.title || "")).length;
 const alreadyBuilt = feeds.filter((f) => havePi.has(+f.id)).length;
-// اونایی که تو review هستن
 const inReview = feeds.filter((f) => STATE.review[f.id]).length;
-// کاندید نهایی (قبل از اعمال limit)
-const allCandidates = feeds.filter((f) => f.confidence === "high" && f.active === true && !f.dead && !havePi.has(+f.id) && !STATE.review[f.id] && (f.episodeCount || 0) >= 3 && hasFa(f.title || "")).length;
+const allCandidates = feeds.filter((f) => f.confidence === "high" && !f.dead && !havePi.has(+f.id) && !STATE.review[f.id] && (f.episodeCount || 0) >= 3 && hasFa(f.title || "")).length;
 
-// حالا کندیدهای واقعی (اگه IDS پر باشه، فقط اونا)
 let cand;
 if (IDS.length) {
   const byId = new Map(feeds.map((f) => [+f.id, f]));
@@ -152,28 +147,21 @@ if (IDS.length) {
   const bad = IDS.filter((id) => !byId.has(id) || havePi.has(id));
   if (bad.length) console.warn("نادیده گرفته شد: " + bad.join(", "));
 } else {
-  cand = feeds.filter((f) => f.confidence === "high" && f.active === true && !f.dead && !havePi.has(+f.id) && !STATE.review[f.id] && (f.episodeCount || 0) >= 3 && hasFa(f.title || ""));
+  // فیلتر active حذف شد — هم فعال هم غیرفعال ساخته می‌شن
+  cand = feeds.filter((f) => f.confidence === "high" && !f.dead && !havePi.has(+f.id) && !STATE.review[f.id] && (f.episodeCount || 0) >= 3 && hasFa(f.title || ""));
   cand.sort(SORT === "recent" ? (a, b) => (b.newestItemPubdate || 0) - (a.newestItemPubdate || 0) : (a, b) => (b.episodeCount || 0) - (a.episodeCount || 0));
 }
 
-// خلاصه‌ی آماری
 const stats = {
-  totalInFeeds,
-  highActive,
-  faOk,
-  alreadyBuilt,
-  inReview,
-  allCandidates,
-  thisRunLimit: Math.min(LIMIT, cand.length),
-  aiBudget: AI_BUDGET,
+  totalInFeeds, highActive, highInactive, faOk, alreadyBuilt, inReview, allCandidates,
+  thisRunLimit: Math.min(LIMIT, cand.length), aiBudget: AI_BUDGET,
 };
 
 console.log(`کل در feeds.json: ${totalInFeeds}`);
-console.log(`با confidence=high و active: ${highActive}`);
+console.log(`فعال: ${highActive} · غیرفعال: ${highInactive}`);
 console.log(`فارسی + حداقل ۳ قسمت: ${faOk}`);
 console.log(`قبلاً ساخته‌شده: ${alreadyBuilt}`);
-console.log(`در انتظار بازبینی: ${inReview}`);
-console.log(`کاندیدهای واجد شرایط (بدون limit): ${allCandidates}`);
+console.log(`کاندیدهای واجد شرایط (فعال + غیرفعال): ${allCandidates}`);
 console.log(`این اجرا حداکثر می‌سازد: ${stats.thisRunLimit} (سقف AI: ${AI_BUDGET})`);
 
 const CAT_MAP = [
@@ -287,9 +275,9 @@ function makeSlugFromFa(faTitle, fallbackId) {
   return slug;
 }
 
-function build(F, T, slug, logo, L, eps, ai, full) {
+function build(F, T, slug, logo, L, eps, ai, full, status) {
   const fm = [`title: ${q(T.fa)}`, `title_en: ${q(T.en)}`, `slug: ${q(slug)}`, `description: ${q(ai.description)}`, `category: ${q(ai.category)}`,
-    `subcategories: ${q(ai.subcategories)}`, `tags: ${q(ai.tags)}`, `status: "active"`, `language: "فارسی"`];
+    `subcategories: ${q(ai.subcategories)}`, `tags: ${q(ai.tags)}`, `status: ${q(status)}`, `language: "فارسی"`];
   if (full.author || full.ownerName) fm.push(`creator: ${q(full.author || full.ownerName)}`);
   fm.push(`episode_count: ${full.episodeCount || F.episodeCount || 0}`, `logo: ${q(logo)}`, `rss: ${q(full.url || F.url)}`);
   for (const k of ["website", "instagram", "telegram", "threads", "youtube", "apple", "spotify"]) if (L[k]) fm.push(`${k === "apple" ? "apple_podcasts" : k}: ${q(L[k])}`);
@@ -317,6 +305,7 @@ function build(F, T, slug, logo, L, eps, ai, full) {
 }
 
 let aiOk = 0; const done = [], skipped = []; let fatal = "", failsInRow = 0; const seenKey = new Set();
+let activeCount = 0, inactiveCount = 0;
 await fs.mkdir(DRAFTS_DIR, { recursive: true });
 for (const F of cand) {
   if (done.length >= (IDS.length ? IDS.length : LIMIT)) break;
@@ -364,16 +353,19 @@ for (const F of cand) {
       aiOk++;
     }
     failsInRow = 0;
+    // تعیین وضعیت: فعال یا متوقف شده
+    const isActive = F.active === true;
+    const status = isActive ? "فعال" : "متوقف شده";
+    if (isActive) activeCount++; else inactiveCount++;
     const logo = await makeLogo(full.artwork || full.image || F.image, slug);
-    await fs.writeFile(path.join(DRAFTS_DIR, slug + ".md"), build(F, T, slug, logo, L, eps, ai, full));
-    haveSlug.add(slug); haveSlug.add(slug.toLowerCase()); done.push({ slug, title: T.fa, cat: ai.category, logo: !!logo, weak: ai.weak, isNewCategory: ai.isNewCategory });
-    console.log(`✓ [draft] ${slug} — ${T.fa} (${ai.category})${ai.isNewCategory ? " [دسته‌ی جدید]" : ""}`);
+    await fs.writeFile(path.join(DRAFTS_DIR, slug + ".md"), build(F, T, slug, logo, L, eps, ai, full, status));
+    haveSlug.add(slug); haveSlug.add(slug.toLowerCase()); done.push({ slug, title: T.fa, cat: ai.category, logo: !!logo, weak: ai.weak, isNewCategory: ai.isNewCategory, status });
+    console.log(`✓ [draft] ${slug} — ${T.fa} (${ai.category}) [${status}]${ai.isNewCategory ? " [دسته‌ی جدید]" : ""}`);
   } catch (e) { skipped.push(`${F.id} «${T.fa}» — ${e.message}`); if (e.fatal) fatal = e.message; else failsInRow++; }
   await sleep(GAP);
 }
 const stopMsg = fatal ? `⛔ **اجرا متوقف شد:** ${fatal}\n\n` : failsInRow >= MAX_FAILS_IN_ROW ? `⛔ **اجرا متوقف شد:** ${MAX_FAILS_IN_ROW} شکست پشت‌سرهم\n\n` : "";
 
-// گزارش کامل با آمار
 const rep = `## گزارش ساخت صفحه‌های جدید (drafts)
 
 ${stopMsg}### 📊 آمار کلی (منبع: feeds.json)
@@ -381,22 +373,23 @@ ${stopMsg}### 📊 آمار کلی (منبع: feeds.json)
 | مورد | تعداد |
 |---|---|
 | کل پادکست‌ها در \`feeds.json\` | **${stats.totalInFeeds}** |
-| با اطمینان بالا (confidence=high) و فعال | ${stats.highActive} |
+| فعال (۳ سال اخیر) | ${stats.highActive} |
+| **متوقف شده (بیش از ۳ سال)** | **${stats.highInactive}** |
 | فارسی + حداقل ۳ قسمت | ${stats.faOk} |
-| قبلاً ساخته‌شده (در _podcasts/_drafts/_blocked) | ${stats.alreadyBuilt} |
+| قبلاً ساخته‌شده | ${stats.alreadyBuilt} |
 | در انتظار بازبینی دستی | ${stats.inReview} |
-| **کاندیدهای واجد شرایط (کل)** | **${stats.allCandidates}** |
+| **کاندیدهای واجد شرایط (فعال + متوقف)** | **${stats.allCandidates}** |
 
 ### 🎯 این اجرا
 
-- این اجرا حداکثر: **${stats.thisRunLimit}** پادکست (سقف \`limit\` = ${LIMIT})
+- این اجرا حداکثر: **${stats.thisRunLimit}** (سقف \`limit\` = ${LIMIT})
 - سقف درخواست AI: **${stats.aiBudget}**
-- **ساخته‌شده در \`_drafts/\`: ${done.length}**
+- **ساخته‌شده در \`_drafts/\`: ${done.length}** (فعال: ${activeCount} · متوقف: ${inactiveCount})
 - ردشده/کنار گذاشته‌شده: ${skipped.length}${CLASSIFY ? `\n- دسته‌بندی با Groq: ${aiOk} پادکست؛ ${aiCalls} درخواست${aiStop ? `\n- ⚠️ ${aiStop}` : ""}` : ""}
 - در انتظار بازبینی دستی: ${Object.keys(STATE.review).length}${newCats.length ? `\n- 🆕 **دسته‌های جدید پیشنهادی: ${newCats.length}**` : ""}${CLASSIFY && aiDiag.length ? `\n\n### تشخیص اتصال به Groq\n` + aiDiag.map((d) => "- " + d).join("\n") : ""}
 
 ${stats.allCandidates - done.length > 0 ? `> ℹ️ **${stats.allCandidates - done.length}** پادکست واجد شرایط دیگر باقی مانده. برای ساخت بقیه، workflow را دوباره اجرا کن.\n` : ""}
-${done.map((d) => `- \`${d.slug}\` — ${d.title} · ${d.cat}${d.isNewCategory ? " 🆕" : ""}${d.logo ? "" : " · بدون لوگو"}${d.weak ? ` · ⚠️ دسته‌ی ضعیف` : ""}`).join("\n")}
+${done.map((d) => `- \`${d.slug}\` — ${d.title} · ${d.cat} · **${d.status}**${d.isNewCategory ? " 🆕" : ""}${d.logo ? "" : " · بدون لوگو"}${d.weak ? ` · ⚠️ دسته‌ی ضعیف` : ""}`).join("\n")}
 ${newCats.length ? "\n### 🆕 دسته‌های جدید پیشنهادی\n" + newCats.map((n) => `- \`${n.suggested}\` — برای «${n.title}»${n.subs.length ? ` (زیردسته‌ها: ${n.subs.join("، ")})` : ""}`).join("\n") : ""}
 ${skipped.length ? "\n### ردشده\n" + skipped.map((s) => "- " + s).join("\n") : ""}
 `;
