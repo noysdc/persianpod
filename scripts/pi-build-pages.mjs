@@ -147,7 +147,6 @@ if (IDS.length) {
   const bad = IDS.filter((id) => !byId.has(id) || havePi.has(id));
   if (bad.length) console.warn("نادیده گرفته شد: " + bad.join(", "));
 } else {
-  // فیلتر active حذف شد — هم فعال هم غیرفعال ساخته می‌شن
   cand = feeds.filter((f) => f.confidence === "high" && !f.dead && !havePi.has(+f.id) && !STATE.review[f.id] && (f.episodeCount || 0) >= 3 && hasFa(f.title || ""));
   cand.sort(SORT === "recent" ? (a, b) => (b.newestItemPubdate || 0) - (a.newestItemPubdate || 0) : (a, b) => (b.episodeCount || 0) - (a.episodeCount || 0));
 }
@@ -298,9 +297,9 @@ function build(F, T, slug, logo, L, eps, ai, full, status) {
   if (ai.about) body.push("## درباره‌ی پادکست", "", ai.about, ""); else if (ai.text) body.push(ai.text, "");
   if (epLines.length) body.push("## تازه‌ترین قسمت‌ها", "", epLines.join("\n"), "");
   if (ai.hashtags.length) body.push("---", "", ai.hashtags.join(" "), "");
-  const note = "این صفحه خودکار و از اطلاعات عمومی منتشرشده‌ی پادکست (فید RSS و Podcast Index) ساخته شده و هنوز کامل نیست.";
+  const note = "این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید.";
   body.push("---", "", "## لینک‌های مرتبط و ارتباطات", "", rel.join("\n"), "",
-    `> ${note} اگر صاحب یا نماینده‌ی این پادکست هستید، برای تکمیل و اصلاح آن [فرم معرفی پادکست](https://persianpod.ir/form/) را پر کنید؛ برای حذف صفحه هم به contact@persianpod.ir پیام بدهید.`, "");
+    `> ${note}`, "");
   return `---\n${fm.join("\n")}\n---\n\n${body.join("\n")}`;
 }
 
@@ -353,7 +352,6 @@ for (const F of cand) {
       aiOk++;
     }
     failsInRow = 0;
-    // تعیین وضعیت: فعال یا متوقف شده
     const isActive = F.active === true;
     const status = isActive ? "فعال" : "متوقف شده";
     if (isActive) activeCount++; else inactiveCount++;
