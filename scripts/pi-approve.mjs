@@ -1,15 +1,18 @@
-/* PersianPod: تأیید — انتقال همه‌ی فایل‌های _drafts/ به _podcasts/ و انتشار */
+/* PersianPod: تأیید — انتقال _drafts/ به _podcasts/ (فقط _drafts، نه _blocked) */
 import fs from "node:fs/promises";
 import path from "node:path";
 
 const PODCASTS_DIR = process.env.PI_PODCASTS || "_podcasts";
 const DRAFTS_DIR = process.env.PI_DRAFTS || "_drafts";
+const BLOCKED_DIR = process.env.PI_BLOCKED || "_blocked";   // فقط برای نمایش
 const DATA = process.env.PI_OUT || "_data/pi";
 const FORCE = process.env.FORCE === "1";
 
 const drafts = (await fs.readdir(DRAFTS_DIR).catch(() => [])).filter((n) => n.endsWith(".md"));
+const blocked = (await fs.readdir(BLOCKED_DIR).catch(() => [])).filter((n) => n.endsWith(".md"));
+
 if (!drafts.length) {
-  const emptyRep = `## گزارش تأیید\n\n- پوشه‌ی \`_drafts/\` خالی است. چیزی برای انتقال نیست.\n`;
+  const emptyRep = `## گزارش تأیید\n\n- پوشه‌ی \`_drafts/\` خالی است. چیزی برای انتقال نیست.\n- فایل‌های در \`_blocked/\`: ${blocked.length}\n`;
   await fs.mkdir(DATA, { recursive: true });
   await fs.writeFile(path.join(DATA, "approve-report.md"), emptyRep);
   console.log(emptyRep);
@@ -41,6 +44,7 @@ const rep = `## گزارش تأیید و انتقال
 
 - منتقل‌شده از \`_drafts/\` به \`_podcasts/\`: **${moved.length}**
 - ردشده (از قبل موجود بود): ${skipped.length}
+- در \`_blocked/\` (دست‌نخورده، منتشر نمی‌شود): **${blocked.length}**
 
 ${moved.length ? "### منتقل‌شده\n" + moved.map((n) => `- \`${n}\``).join("\n") : ""}
 ${skipped.length ? "\n### ردشده\n" + skipped.map((n) => `- ${n}`).join("\n") : ""}

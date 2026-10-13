@@ -1,6 +1,7 @@
 /* PersianPod: مرحله‌ی ۳ — ساخت صفحه‌ی سبک برای پادکست‌های تازه‌ی Podcast Index
    خروجی: _drafts/<slug>.md با published:false
-   نام فایل همیشه از «اسم فارسی» ساخته می‌شود (نویسه‌گردانی به انگلیسی). */
+   نام فایل همیشه از «اسم فارسی» ساخته می‌شود.
+   _blocked/ هم چک می‌شود تا پادکست‌های بلاک‌شده دوباره ساخته نشوند. */
 import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
@@ -11,6 +12,7 @@ const IDS = (E.IDS || "").split(/[,\s،]+/).filter(Boolean).map(Number).filter(B
 const MAX_FAILS_IN_ROW = 20;
 const PODCASTS_DIR = E.PI_PODCASTS || "_podcasts";
 const DRAFTS_DIR = E.PI_DRAFTS || "_drafts";
+const BLOCKED_DIR = E.PI_BLOCKED || "_blocked";
 const IMG_DIR = E.PI_IMG || "assets/img/podcasts";
 const DATA = E.PI_OUT || "_data/pi";
 const CATS_FILE = E.PI_CATS || "_data/categories.yml";
@@ -47,7 +49,6 @@ for (const line of catsTxt.split("\n")) {
 if (!CATS.length) { console.error("categories.yml خوانده نشد."); process.exit(1); }
 const CAT_NAMES = CATS.map((c) => c.name);
 
-/* ============ نویسه‌گردانی فارسی → انگلیسی ============ */
 function translitFa(s) {
   if (!s) return "";
   s = s.normalize("NFC").replace(/[\u200c]/g, " ").replace(/[\u200f\u200e]/g, "").trim();
@@ -107,10 +108,10 @@ function links(raw, feed, full) {
   return L;
 }
 
-/* ============ موجودها (چک هر دو پوشه) ============ */
+/* ============ موجودها: _podcasts + _drafts + _blocked ============ */
 const havePi = new Set(), haveSlug = new Set(), haveRss = new Set(), haveKey = new Set();
 const normKey = (x) => String(x || "").replace(/[\u06F0-\u06F9]/g, (d) => d.charCodeAt(0) - 1776).toLowerCase().replace(/[\s\u200c\u200f_\-|:·.,،؛]+/g, "");
-for (const dir of [PODCASTS_DIR, DRAFTS_DIR]) {
+for (const dir of [PODCASTS_DIR, DRAFTS_DIR, BLOCKED_DIR]) {
   for (const n of await fs.readdir(dir).catch(() => [])) {
     if (!n.endsWith(".md")) continue;
     haveSlug.add(n.replace(/\.md$/, ""));
@@ -127,7 +128,23 @@ const STATE_FILE = path.join(DATA, "import-state.json");
 let STATE = { tries: {}, review: {} };
 try { STATE = { tries: {}, review: {}, ...JSON.parse(await fs.readFile(STATE_FILE, "utf8")) }; } catch { /* اولین اجرا */ }
 
+/* ============ انتخاب نامزدها ============ */
 const feeds = JSON.parse(await fs.readFile(path.join(DATA, "feeds.json"), "utf8"));
+
+// کل پادکست‌های موجود در feeds.json
+const totalInFeeds = feeds.length;
+// پادکست‌های با confidence high و active
+const highActive = feeds.filter((f) => f.confidence === "high" && f.active === true && !f.dead).length;
+// پادکست‌های فارسی با حداقل ۳ قسمت
+const faOk = feeds.filter((f) => f.confidence === "high" && f.active === true && !f.dead && (f.episodeCount || 0) >= 3 && hasFa(f.title || "")).length;
+// اونایی که قبلاً ساخته شدن (تو هر سه پوشه)
+const alreadyBuilt = feeds.filter((f) => havePi.has(+f.id)).length;
+// اونایی که تو review هستن
+const inReview = feeds.filter((f) => STATE.review[f.id]).length;
+// کاندید نهایی (قبل از اعمال limit)
+const allCandidates = feeds.filter((f) => f.confidence === "high" && f.active === true && !f.dead && !havePi.has(+f.id) && !STATE.review[f.id] && (f.episodeCount || 0) >= 3 && hasFa(f.title || "")).length;
+
+// حالا کندیدهای واقعی (اگه IDS پر باشه، فقط اونا)
 let cand;
 if (IDS.length) {
   const byId = new Map(feeds.map((f) => [+f.id, f]));
@@ -138,7 +155,26 @@ if (IDS.length) {
   cand = feeds.filter((f) => f.confidence === "high" && f.active === true && !f.dead && !havePi.has(+f.id) && !STATE.review[f.id] && (f.episodeCount || 0) >= 3 && hasFa(f.title || ""));
   cand.sort(SORT === "recent" ? (a, b) => (b.newestItemPubdate || 0) - (a.newestItemPubdate || 0) : (a, b) => (b.episodeCount || 0) - (a.episodeCount || 0));
 }
-console.log(`نامزد: ${cand.length}، ساخته می‌شود: ${Math.min(LIMIT, cand.length)}`);
+
+// خلاصه‌ی آماری
+const stats = {
+  totalInFeeds,
+  highActive,
+  faOk,
+  alreadyBuilt,
+  inReview,
+  allCandidates,
+  thisRunLimit: Math.min(LIMIT, cand.length),
+  aiBudget: AI_BUDGET,
+};
+
+console.log(`کل در feeds.json: ${totalInFeeds}`);
+console.log(`با confidence=high و active: ${highActive}`);
+console.log(`فارسی + حداقل ۳ قسمت: ${faOk}`);
+console.log(`قبلاً ساخته‌شده: ${alreadyBuilt}`);
+console.log(`در انتظار بازبینی: ${inReview}`);
+console.log(`کاندیدهای واجد شرایط (بدون limit): ${allCandidates}`);
+console.log(`این اجرا حداکثر می‌سازد: ${stats.thisRunLimit} (سقف AI: ${AI_BUDGET})`);
 
 const CAT_MAP = [
   ["جنایی", ["True Crime"]], ["مستند و روایت", ["Documentary"]], ["تاریخ", ["History"]], ["موسیقی", ["Music"]],
@@ -336,12 +372,30 @@ for (const F of cand) {
   await sleep(GAP);
 }
 const stopMsg = fatal ? `⛔ **اجرا متوقف شد:** ${fatal}\n\n` : failsInRow >= MAX_FAILS_IN_ROW ? `⛔ **اجرا متوقف شد:** ${MAX_FAILS_IN_ROW} شکست پشت‌سرهم\n\n` : "";
+
+// گزارش کامل با آمار
 const rep = `## گزارش ساخت صفحه‌های جدید (drafts)
 
-${stopMsg}- ساخته‌شده در \`_drafts/\`: **${done.length}** (منتظر تأیید — برای انتشار، workflow را با mode=approve اجرا کن)
+${stopMsg}### 📊 آمار کلی (منبع: feeds.json)
+
+| مورد | تعداد |
+|---|---|
+| کل پادکست‌ها در \`feeds.json\` | **${stats.totalInFeeds}** |
+| با اطمینان بالا (confidence=high) و فعال | ${stats.highActive} |
+| فارسی + حداقل ۳ قسمت | ${stats.faOk} |
+| قبلاً ساخته‌شده (در _podcasts/_drafts/_blocked) | ${stats.alreadyBuilt} |
+| در انتظار بازبینی دستی | ${stats.inReview} |
+| **کاندیدهای واجد شرایط (کل)** | **${stats.allCandidates}** |
+
+### 🎯 این اجرا
+
+- این اجرا حداکثر: **${stats.thisRunLimit}** پادکست (سقف \`limit\` = ${LIMIT})
+- سقف درخواست AI: **${stats.aiBudget}**
+- **ساخته‌شده در \`_drafts/\`: ${done.length}**
 - ردشده/کنار گذاشته‌شده: ${skipped.length}${CLASSIFY ? `\n- دسته‌بندی با Groq: ${aiOk} پادکست؛ ${aiCalls} درخواست${aiStop ? `\n- ⚠️ ${aiStop}` : ""}` : ""}
 - در انتظار بازبینی دستی: ${Object.keys(STATE.review).length}${newCats.length ? `\n- 🆕 **دسته‌های جدید پیشنهادی: ${newCats.length}**` : ""}${CLASSIFY && aiDiag.length ? `\n\n### تشخیص اتصال به Groq\n` + aiDiag.map((d) => "- " + d).join("\n") : ""}
 
+${stats.allCandidates - done.length > 0 ? `> ℹ️ **${stats.allCandidates - done.length}** پادکست واجد شرایط دیگر باقی مانده. برای ساخت بقیه، workflow را دوباره اجرا کن.\n` : ""}
 ${done.map((d) => `- \`${d.slug}\` — ${d.title} · ${d.cat}${d.isNewCategory ? " 🆕" : ""}${d.logo ? "" : " · بدون لوگو"}${d.weak ? ` · ⚠️ دسته‌ی ضعیف` : ""}`).join("\n")}
 ${newCats.length ? "\n### 🆕 دسته‌های جدید پیشنهادی\n" + newCats.map((n) => `- \`${n.suggested}\` — برای «${n.title}»${n.subs.length ? ` (زیردسته‌ها: ${n.subs.join("، ")})` : ""}`).join("\n") : ""}
 ${skipped.length ? "\n### ردشده\n" + skipped.map((s) => "- " + s).join("\n") : ""}
