@@ -1,16 +1,22 @@
 name: Podcast Index — شناسایی (مرحله ۱)
 on:
+  schedule:
+    - cron: "30 1 * * *"     # هر روز ساعت ۱:۳۰ بامداد UTC = ۵:۰۰ صبح تهران
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: pi-discover
+  cancel-in-progress: false
 jobs:
   discover:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - name: اجرای شناسایی
         run: node scripts/pi-discover.mjs
         env:
@@ -22,4 +28,4 @@ jobs:
           git config user.name "persianpod-bot"
           git config user.email "persianpod-bot@users.noreply.github.com"
           git add _data/pi
-          git diff --cached --quiet || (git commit -m "data: شناسایی پادکست‌های فارسی از Podcast Index" && git push)
+          git diff --cached --quiet || (git commit -m "data: شناسایی پادکست‌های فارسی از Podcast Index" && git pull --rebase && git push)
