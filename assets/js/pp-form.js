@@ -391,6 +391,7 @@
       else if (ty === "file") { var fe = form.elements[k]; if (fe.files && fe.files.length) done++; }
       else if (form.elements[k] && form.elements[k].value.trim() !== "") done++;
     }); });
+    var prow = progWrap && progWrap.parentNode; if (prow) prow.hidden = total <= 1;
     if (progTxt) progTxt.textContent = toFa(done) + " از " + toFa(total) + " مورد الزامی تکمیل شده";
     if (progBar) progBar.style.width = (total ? Math.round(done / total * 100) : 0) + "%";
     if (progWrap) { progWrap.setAttribute("aria-valuenow", String(done)); progWrap.setAttribute("aria-valuemax", String(total)); }
@@ -509,6 +510,12 @@
     if (m) return { embed: "https://embed.podcasts.apple.com/" + m[1] + "/podcast/" + m[2] + "/" + m[3] };
     return null;
   }
+  /* نام/شناسه‌ی جایگزین وقتی پادکستر نام را وارد نکرده: از آدرس RSS ساخته می‌شود */
+  function rssSlug(fd) {
+    var r = (fd.get("rss") || "").toString().trim().replace(/^https?:\/\//i, "").replace(/^www\./i, "");
+    return r.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60);
+  }
+  function titleOf(fd) { return (fd.get("name_fa") || "").toString().trim() || (fd.get("name_en") || "").toString().trim() || rssSlug(fd) || "پادکست بدون نام"; }
   function build(fd) {
     var q = JSON.stringify, fm = [], body = [];
     S.forEach(function (sec) {
@@ -545,7 +552,8 @@
     });
     var de = deriveEmbed(fd);
     if (de) { fm.push("embed: " + q(de.embed)); if (de.castbox_id) fm.push("castbox_id: " + q(de.castbox_id)); }
-    return "---\n" + fm.join("\n") + "\nsubmitted: " + q(new Date().toISOString()) + "\n---\n\n# " + fd.get("name_fa") + "\n\n" + body.join("\n");
+    fm.push("consent: true");                          // رضایت با ارسال فرم (متن زیر دکمه‌ی ارسال)
+    return "---\n" + fm.join("\n") + "\nsubmitted: " + q(new Date().toISOString()) + "\n---\n\n# " + titleOf(fd) + "\n\n" + body.join("\n");
   }
 
   /* ---------- پنجره‌ی تشکر ---------- */
@@ -597,10 +605,10 @@
     }
 
     var text = build(fd);
-    var slug = (fd.get("name_en") || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "podcast-" + Date.now().toString(36);
+    var slug = (fd.get("name_en") || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || rssSlug(fd) || "podcast-" + Date.now().toString(36);
     var out = new FormData();
     out.append("md", new Blob([text], { type: "text/markdown" }), slug + ".md");
-    out.append("title", fd.get("name_fa"));
+    out.append("title", titleOf(fd));
     var lg = fd.get("logo");
     if (lg && lg.size) out.append("logo", lg, slug + (lg.type === "image/png" ? ".png" : ".jpg"));
     if (SITEKEY) out.append("cf-turnstile-response", fd.get("cf-turnstile-response") || "");

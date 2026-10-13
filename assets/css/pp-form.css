@@ -172,3 +172,6 @@ body.pf-lock{overflow:hidden}
 .pf-body>.pf-grid{margin-top:16px}
 @media(max-width:639px){.pf-acc>summary{padding:12px 14px}.pf-body{padding:4px 14px 18px}}
 @media(prefers-reduced-motion:reduce){.pf-acc>summary::after{transition:none}}
+
+/* جمله‌ی رضایت زیر دکمه‌ی ارسال */
+.pp-form .pf-consent { margin: .7rem 0 0; font-size: .85rem; line-height: 1.8; opacity: .75; text-align: center; }
