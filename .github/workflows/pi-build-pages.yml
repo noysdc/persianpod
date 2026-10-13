@@ -9,16 +9,16 @@ on:
         type: choice
         default: build
         options:
-          - build     # ساخت پادکست‌های جدید در _drafts/
-          - approve   # انتقال _drafts/ به _podcasts/
+          - build
+          - approve
       limit:
-        description: "حداکثر چند پادکست تازه (فقط در حالت build)"
-        default: "80"
+        description: "حداکثر چند پادکست تازه"
+        default: "50"
       ids:
-        description: "اختیاری: pi_idها با ویرگول (فقط در حالت build)"
+        description: "اختیاری: pi_idها با ویرگول"
         default: ""
       sort:
-        description: "ترتیب انتخاب (فقط در حالت build)"
+        description: "ترتیب انتخاب"
         type: choice
         default: episodes
         options: [episodes, recent]
@@ -36,9 +36,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: نصب sharp (تبدیل لوگو به webp)
+      - name: نصب sharp
         run: npm install sharp --no-save --no-package-lock
-      - name: ساخت پادکست‌های جدید (فقط در حالت build)
+      - name: ساخت پادکست‌های جدید
         if: ${{ inputs.mode != 'approve' }}
         run: node scripts/pi-build-pages.mjs
         env:
@@ -48,11 +48,11 @@ jobs:
           GH_MODEL: ${{ vars.GH_MODEL || 'openai/gpt-oss-120b' }}
           CLASSIFY: "1"
           AI_BUDGET: "50"
-          GAP_MS: "10000"
-          LIMIT: ${{ inputs.limit || '80' }}
+          GAP_MS: "7000"
+          LIMIT: ${{ inputs.limit || '50' }}
           SORT: ${{ inputs.sort || 'episodes' }}
           IDS: ${{ inputs.ids }}
-      - name: تأیید و انتقال drafts به podcasts (فقط در حالت approve)
+      - name: تأیید و انتقال drafts به podcasts
         if: ${{ inputs.mode == 'approve' }}
         run: node scripts/pi-approve.mjs
       - name: گزارش و ذخیره
