@@ -1,1 +1,6 @@
-{}
+{
+  "noys": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://api.rabt.host/podcasts/f341ce22-a0e2-40fe-9ae1-d53b166c753b/rss"
+  }
+}
