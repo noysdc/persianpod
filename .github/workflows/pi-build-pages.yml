@@ -30,7 +30,7 @@ jobs:
         env:
           PI_KEY: ${{ secrets.PODCASTINDEX_KEY }}
           PI_SECRET: ${{ secrets.PODCASTINDEX_SECRET }}
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           LIMIT: ${{ inputs.limit }}
           SORT: ${{ inputs.sort }}
           IDS: ${{ inputs.ids }}

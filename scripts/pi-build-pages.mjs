@@ -1,7 +1,7 @@
 /* PersianPod: مرحله‌ی ۳ — ساخت صفحه‌ی سبک برای پادکست‌های تازه‌ی Podcast Index
    ورودی:  _data/pi/feeds.json و matches.json (خروجی مرحله‌ی ۱)، _data/categories.yml
    خروجی:  _podcasts/<slug>.md  با published:false  +  assets/img/podcasts/<slug>.webp  +  _data/pi/build-report.md
-   قاعده: حقیقت‌ها (عنوان، لینک، عددها، لوگو) را کد می‌نویسد؛ DeepSeek فقط متن و دسته را پیشنهاد می‌دهد (JSON). */
+   قاعده: حقیقت‌ها (عنوان، لینک، عددها، لوگو) را کد می‌نویسد؛ Gemini فقط متن و دسته را پیشنهاد می‌دهد (JSON). */
 import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
@@ -13,8 +13,9 @@ const MAX_FAILS_IN_ROW = 5;                                                     
 const PODCASTS_DIR = E.PI_PODCASTS || "_podcasts", IMG_DIR = E.PI_IMG || "assets/img/podcasts", DATA = E.PI_OUT || "_data/pi";
 const CATS_FILE = E.PI_CATS || "_data/categories.yml";
 const PI_BASE = E.PI_BASE || "https://api.podcastindex.org/api/1.0";
-const DS_BASE = E.DEEPSEEK_BASE || "https://api.deepseek.com", DS_MODEL = E.DEEPSEEK_MODEL || "deepseek-chat";
-if (!E.PI_KEY || !E.PI_SECRET || !E.DEEPSEEK_API_KEY) { console.error("PI_KEY / PI_SECRET / DEEPSEEK_API_KEY تنظیم نشده‌اند."); process.exit(1); }
+const GM_BASE = E.GEMINI_BASE || "https://generativelanguage.googleapis.com/v1beta", GM_MODEL = E.GEMINI_MODEL || "gemini-2.5-flash";
+const GM_GAP = parseInt(E.GEMINI_GAP_MS || "4000", 10);   // فاصله‌ی بین پادکست‌ها (برای سقف درخواست در دقیقه‌ی پلن رایگان)
+if (!E.PI_KEY || !E.PI_SECRET || !E.GEMINI_API_KEY) { console.error("PI_KEY / PI_SECRET / GEMINI_API_KEY تنظیم نشده‌اند."); process.exit(1); }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 /* ---------- Podcast Index ---------- */
@@ -109,7 +110,7 @@ if (IDS.length) {                                   // حالت دستی: فقط
 }
 console.log(`نامزد: ${cand.length}، ساخته می‌شود: ${Math.min(LIMIT, cand.length)}`);
 
-/* ---------- DeepSeek ---------- */
+/* ---------- Gemini ---------- */
 const SYSTEM = `تو ویراستار فارسی‌زبان پرشین‌پاد (راهنمای پادکست‌های فارسی) هستی.
 فقط بر اساس «داده‌ی پادکست» که به تو می‌دهم بنویس. هرچه در داده نیست اضافه نکن (نام میزبان، سال شروع، جایزه، آمار و ...). اگر چیزی معلوم نبود، ننویس.
 خروجی فقط یک JSON معتبر (json) باشد با این کلیدها:
@@ -125,16 +126,27 @@ const SYSTEM = `تو ویراستار فارسی‌زبان پرشین‌پاد 
 لحن: روایی و گرم، بدون تبلیغ و اغراق. اعداد را با ارقام انگلیسی بنویس. جمله‌های تبلیغاتی میزبان (Hosted on ...) را نادیده بگیر.`;
 async function ask(data, feedback) {
   const user = { podcast: data, categories: CATS.map((c) => ({ name: c.name, subcategories: c.subs })) };
-  const messages = [{ role: "system", content: SYSTEM }, { role: "user", content: "داده‌ی پادکست (json):\n" + JSON.stringify(user) + (feedback ? "\n\nخطای قبلی: " + feedback : "") }];
-  const r = await fetch(DS_BASE + "/chat/completions", { method: "POST", headers: { "Content-Type": "application/json", Authorization: "Bearer " + E.DEEPSEEK_API_KEY },
-    body: JSON.stringify({ model: DS_MODEL, messages, response_format: { type: "json_object" }, temperature: 0.4, max_tokens: 1800 }) });
+  const text = "داده‌ی پادکست (json):\n" + JSON.stringify(user) + (feedback ? "\n\nخطای قبلی: " + feedback : "");
+  const gen = { responseMimeType: "application/json", maxOutputTokens: 8192 };
+  if (/^gemini-2/.test(GM_MODEL)) gen.temperature = 0.4;      // مدل‌های ۳ به temperature پیش‌فرض (۱.۰) نیاز دارند
+  const body = { systemInstruction: { parts: [{ text: SYSTEM }] }, contents: [{ role: "user", parts: [{ text }] }], generationConfig: gen };
+  let r;
+  for (let i = 0; i < 3; i++) {
+    r = await fetch(`${GM_BASE}/models/${GM_MODEL}:generateContent`, { method: "POST", headers: { "Content-Type": "application/json", "x-goog-api-key": E.GEMINI_API_KEY }, body: JSON.stringify(body), signal: AbortSignal.timeout(90000) });
+    if (r.status === 429 || r.status >= 500) { await sleep(15000 * (i + 1)); continue; }   // سقف نرخ یا خطای موقت: صبر و دوباره
+    break;
+  }
   if (!r.ok) {
-    const err = new Error("DeepSeek HTTP " + r.status + ([401, 402, 403].includes(r.status) ? " (کلید نامعتبر یا اعتبار حساب تمام شده؛ اجرا متوقف شد)" : ""));
-    err.fatal = [401, 402, 403].includes(r.status);
+    const msg = (await r.text().catch(() => "")).slice(0, 300);
+    const bad = r.status === 401 || r.status === 403 || (r.status === 400 && /API[_ ]KEY|key not valid/i.test(msg));
+    const err = new Error(`Gemini HTTP ${r.status}` + (bad ? " (کلید نامعتبر یا بدون دسترسی؛ اجرا متوقف شد)" : r.status === 429 ? " (سقف درخواست/سهمیه؛ بعداً دوباره اجرا کن)" : r.status === 404 ? ` (مدل ${GM_MODEL} پیدا نشد)` : ""));
+    err.fatal = bad || r.status === 404;
     throw err;
   }
   const j = await r.json();
-  return JSON.parse(j.choices[0].message.content);
+  const cand = j.candidates && j.candidates[0], out = cand && cand.content && Array.isArray(cand.content.parts) ? cand.content.parts.map((x) => x.text || "").join("") : "";
+  if (!out) throw new Error("Gemini خروجی خالی داد" + (j.promptFeedback && j.promptFeedback.blockReason ? ` (${j.promptFeedback.blockReason})` : cand && cand.finishReason ? ` (${cand.finishReason})` : ""));
+  return JSON.parse(out.replace(/^```(?:json)?\s*|\s*```$/g, ""));
 }
 function validate(a) {
   const cat = CATS.find((c) => c.name === a.category);
@@ -221,7 +233,7 @@ for (const F of cand) {
     haveSlug.add(slug); haveSlug.add(slug.toLowerCase()); done.push({ slug, title: T.fa, cat: ai.category, logo: !!logo, weak: ai.weak, suggested: ai.suggested });
     console.log(`✓ ${slug} — ${T.fa} (${ai.category})`);
   } catch (e) { skipped.push(`${F.id} «${T.fa}» — ${e.message}`); if (e.fatal) fatal = e.message; else failsInRow++; }
-  await sleep(800);
+  await sleep(GM_GAP);
 }
 const stopMsg = fatal ? `⛔ **اجرا متوقف شد:** ${fatal}\n\n` : failsInRow >= MAX_FAILS_IN_ROW ? `⛔ **اجرا متوقف شد:** ${MAX_FAILS_IN_ROW} شکست پشت‌سرهم (علت را در فهرست «ردشده» ببین)\n\n` : "";
 const rep = `## گزارش ساخت صفحه‌های جدید
