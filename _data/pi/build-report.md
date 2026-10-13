@@ -1,21 +1,15 @@
 ## گزارش ساخت صفحه‌های جدید
 
-⛔ **اجرا متوقف شد:** 5 شکست پشت‌سرهم (علت را در فهرست «ردشده» ببین)
-
 - ساخته‌شده: **0** (همه با `published: false`؛ تا تأیید نکنی روی سایت نمی‌آیند)
-- ردشده/کنار گذاشته‌شده: 5
-- دسته‌بندی با GitHub Models: 0 پادکست؛ 6 درخواست مصرف شد (سقف روزانه‌ی پلن رایگان ۱۵۰)
+- ردشده/کنار گذاشته‌شده: 0
+- دسته‌بندی با Groq: 0 پادکست؛ 3 درخواست مصرف شد
+- ⚠️ اتصال به Groq برقرار نشد. همه‌ی مدل‌ها امتحان شدند ولی هیچ‌کدام جواب نداد. جزئیات در «تشخیص اتصال» آمده.
 - در انتظار بازبینی دستی: 0 (فایل needs-review.md)
 
-### تشخیص اتصال به GitHub Models
-- https://models.github.ai/inference · openai/gpt-4o-mini → HTTP 200 · text/plain · OK 
--   ↑ توجه: پاسخ JSON خالی بود ولی مدل پذیرفته شد.
+### تشخیص اتصال به Groq
+- https://api.groq.com/openai/v1 · llama-3.3-70b-versatile → HTTP 404 · application/json · {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","co
+- https://api.groq.com/openai/v1 · llama-3.3-70b-versatile · json_mode → HTTP 404 · application/json · {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","co
+- https://api.groq.com/openai/v1 · llama-3.1-8b-instant → HTTP 404 · application/json · {"error":{"message":"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.","type":"invalid_request_error","code"
 
 
 
-### ردشده
-- 1201149 «چشم‌انداز» — دسته‌بندی ناموفق (فردا دوباره)
-- 6982104 «اخبار» — دسته‌بندی ناموفق (فردا دوباره)
-- 3516961 «کتاب صوتی با شی لا» — دسته‌بندی ناموفق (فردا دوباره)
-- 162737 «اس بی اس فارسی» — دسته‌بندی ناموفق (فردا دوباره)
-- 6619599 «تاریخ بدون سانسور» — دسته‌بندی ناموفق (فردا دوباره)
