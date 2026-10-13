@@ -2,7 +2,7 @@
 
 [persianpod.ir](https://persianpod.ir)
 
-دایرکتوری رایگان پادکست‌های فارسی. ساخته‌شده با Jekyll روی GitHub Pages.
+دایرکتوری پادکست‌های فارسی. ساخته‌شده با Jekyll روی GitHub Pages.
 
 ## ارتباط
 
