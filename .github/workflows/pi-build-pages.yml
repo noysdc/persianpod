@@ -65,4 +65,9 @@ jobs:
           git config user.name "persianpod-bot"
           git config user.email "persianpod-bot@users.noreply.github.com"
           git add -A _podcasts _drafts _blocked assets/img/podcasts _data/pi
-          git diff --cached --quiet || (git commit -m "data: به‌روزرسانی پادکست‌ها" && git pull --rebase && git push)
+          if git diff --cached --quiet; then
+            echo "چیزی برای کامیت نیست"
+            exit 0
+          fi
+          git commit -m "data: به‌روزرسانی پادکست‌ها"
+          git push
