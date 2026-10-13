@@ -47,8 +47,8 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GH_MODEL: ${{ vars.GH_MODEL || 'openai/gpt-oss-120b' }}
           CLASSIFY: "1"
-          AI_BUDGET: "100"
-          GAP_MS: "3500"
+          AI_BUDGET: "50"
+          GAP_MS: "10000"
           LIMIT: ${{ inputs.limit || '80' }}
           SORT: ${{ inputs.sort || 'episodes' }}
           IDS: ${{ inputs.ids }}
