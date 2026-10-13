@@ -1,9 +1,5 @@
 /* PersianPod: مرحله‌ی ۳ — ساخت صفحه‌ی سبک برای پادکست‌های تازه‌ی Podcast Index
-   ورودی:  _data/pi/feeds.json و matches.json (خروجی مرحله‌ی ۱)، _data/categories.yml
-   خروجی:  _podcasts/<slug>.md  با published:false  +  assets/img/podcasts/<slug>.webp  +  _data/pi/build-report.md
-   قاعده: همه‌ی حقیقت‌ها از Podcast Index/RSS می‌آید. با CLASSIFY=1 (پیش‌فرض workflow) هر پادکست قبل از ساخت صفحه با GitHub Models (رایگان، با GITHUB_TOKEN)
-   دسته‌بندی می‌شود (یک درخواست برای هر پادکست: دسته + زیردسته + نوع + اطمینان). پادکستی که دسته‌اش قطعی نشود، یا کتاب صوتی/رسانه‌ی خبری باشد، صفحه نمی‌گیرد
-   و در _data/pi/needs-review.md می‌ماند. به سقف روزانه که رسیدیم اجرا می‌ایستد و بقیه نوبت فردا می‌ماند. با CLASSIFY=0 فقط جدول نگاشت دسته‌ها استفاده می‌شود. */
+   دسته‌بندی با Groq (رایگان) — llama-3.3-70b-versatile */
 import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
@@ -17,9 +13,13 @@ const CATS_FILE = E.PI_CATS || "_data/categories.yml";
 const PI_BASE = E.PI_BASE || "https://api.podcastindex.org/api/1.0";
 const CLASSIFY = E.CLASSIFY === "1", PUBLISH = E.PUBLISH === "1";
 const AI_BUDGET = parseInt(E.AI_BUDGET || "130", 10);
-const GH_BASE = E.GH_MODELS_BASE || "https://models.github.ai/inference", GH_MODEL = E.GH_MODEL || "openai/gpt-4o-mini";
-const GH_TOKEN = E.GH_MODELS_TOKEN || E.GITHUB_TOKEN || "";
-const GAP = parseInt(E.GAP_MS || (CLASSIFY ? "4500" : "800"), 10);
+
+// ---------- Groq ----------
+const GROQ_BASE = E.GROQ_BASE || "https://api.groq.com/openai/v1";
+const GROQ_MODEL = E.GH_MODEL || "llama-3.3-70b-versatile";
+const GROQ_TOKEN = E.GROQ_API_KEY || "";
+
+const GAP = parseInt(E.GAP_MS || (CLASSIFY ? "2500" : "800"), 10);
 if (!E.PI_KEY || !E.PI_SECRET) { console.error("PI_KEY / PI_SECRET تنظیم نشده‌اند."); process.exit(1); }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -141,7 +141,7 @@ function basic(desc, piCats) {
   return { category, weak: !hit, suggested: "", subcategories: [], tags: hit ? [category] : [], hashtags: [], description, intro: "", about: "", text: text.slice(0, 1200) };
 }
 
-/* ---------- GitHub Models: فقط گیت‌هاب، بدون Azure ---------- */
+/* ---------- Groq ---------- */
 let aiStop = "", aiCalls = 0, AI = null; const aiDiag = [];
 const KINDS = { audiobook: "کتاب صوتی/رمان‌خوانی", news_outlet: "برنامه‌ی یک رسانه‌ی خبری سازمانی", other: "غیرپادکستی یا نامشخص" };
 
@@ -150,20 +150,17 @@ async function chat(cfg, system, user, maxTokens) {
   if (cfg.rf) payload.response_format = { type: "json_object" };
   aiCalls++;
   const r = await fetch(`${cfg.base}/chat/completions`, { method: "POST", signal: AbortSignal.timeout(60000),
-    headers: { "Content-Type": "application/json", Accept: "application/vnd.github+json", Authorization: "Bearer " + GH_TOKEN, "X-GitHub-Api-Version": "2022-11-28" }, body: JSON.stringify(payload) });
+    headers: { "Content-Type": "application/json", Authorization: "Bearer " + GROQ_TOKEN }, body: JSON.stringify(payload) });
   const text = await r.text();
   let out = ""; try { const j = JSON.parse(text); out = (j.choices && j.choices[0] && j.choices[0].message && j.choices[0].message.content) || ""; } catch { /* پاسخ JSON نیست */ }
   return { status: r.status, ctype: (r.headers.get("content-type") || "").split(";")[0], text, out };
 }
 
-// فقط درهای گیت‌هاب. اول بدون json_mode (چون در لاگ دیده شد اینطور جواب می‌ده)، بعد با json_mode.
-// اگه یه مدل جواب نداد، مدل بعدی رو امتحان می‌کنه.
 async function preflight() {
   const variants = [
-    { base: GH_BASE, model: GH_MODEL, rf: false },
-    { base: GH_BASE, model: GH_MODEL, rf: true },
-    { base: GH_BASE, model: "openai/gpt-4o-mini", rf: false },
-    { base: GH_BASE, model: "openai/gpt-4o-mini", rf: true },
+    { base: GROQ_BASE, model: GROQ_MODEL, rf: false },
+    { base: GROQ_BASE, model: GROQ_MODEL, rf: true },
+    { base: GROQ_BASE, model: "llama-3.1-8b-instant", rf: false },
   ].filter((v, i, a) => a.findIndex((x) => x.base === v.base && x.model === v.model && x.rf === v.rf) === i);
 
   for (const v of variants) {
@@ -172,15 +169,15 @@ async function preflight() {
       const res = await chat(v, "فقط یک JSON معتبر بده.", 'خروجی: {"ok": true}', 30);
       aiDiag.push(`${tag} → HTTP ${res.status} · ${res.ctype || "?"} · ${res.text.replace(/\s+/g, " ").slice(0, 140)}`);
       if (res.status === 200) {
-        // حتی اگه out خالی بود، مدل را قبول کن؛ classify خودش مدیریت می‌کند
         if (!res.out) aiDiag.push(`  ↑ توجه: پاسخ JSON خالی بود ولی مدل پذیرفته شد.`);
         return v;
       }
-      if (res.status === 429) { aiStop = "سقف درخواست GitHub Models پر است؛ بعداً دوباره اجرا کن"; return null; }
+      if (res.status === 429) { aiStop = "سقف درخواست Groq پر است؛ بعداً دوباره اجرا کن"; return null; }
+      if ([400, 401, 403].includes(res.status)) { aiDiag.push(`  ⚠️ احتمالاً کلید GROQ_API_KEY مشکل دارد.`); }
     } catch (e) { aiDiag.push(`${tag} → خطا: ${e.message}`); }
     await sleep(GAP);
   }
-  aiStop = "اتصال به GitHub Models برقرار نشد. همه‌ی درهای گیت‌هاب امتحان شدند ولی هیچ‌کدام جواب نداد. جزئیات در «تشخیص اتصال» آمده.";
+  aiStop = "اتصال به Groq برقرار نشد. همه‌ی مدل‌ها امتحان شدند ولی هیچ‌کدام جواب نداد. جزئیات در «تشخیص اتصال» آمده.";
   return null;
 }
 
@@ -195,10 +192,10 @@ async function classify(data) {
   const user = JSON.stringify({ categories: cats, podcast: { title: data.title_fa, description: data.description.slice(0, 700), episode_titles: data.episode_titles, index_categories: data.index_categories } });
   for (let i = 0; i < 2; i++) {
     if (aiCalls >= AI_BUDGET) { aiStop = `به سقف ${AI_BUDGET} درخواست این اجرا رسید؛ بقیه فردا`; return null; }
-    const res = await chat(AI, sys, user, 250);
+    const res = await chat(AI, sys, user, 300);
     if (res.status === 429 && i === 0) { await sleep(parseInt(E.RATE_WAIT_MS || "65000", 10)); continue; }
-    if (res.status === 429) { aiStop = "سقف درخواست GitHub Models پر شد (احتمالاً سقف روزانه)؛ بقیه فردا"; return null; }
-    if ([400, 401, 403, 404].includes(res.status)) { aiStop = `GitHub Models HTTP ${res.status}: ${res.text.replace(/\s+/g, " ").slice(0, 160)}`; return null; }
+    if (res.status === 429) { aiStop = "سقف درخواست Groq پر شد؛ بقیه فردا"; return null; }
+    if ([400, 401, 403, 404].includes(res.status)) { aiStop = `Groq HTTP ${res.status}: ${res.text.replace(/\s+/g, " ").slice(0, 160)}`; return null; }
     if (res.status !== 200 || !res.out) return undefined;
     try {
       const o = JSON.parse(res.out.replace(/^```(?:json)?\s*|\s*```$/g, "")), cat = CATS.find((c) => c.name === String(o.category || "").trim());
@@ -209,7 +206,7 @@ async function classify(data) {
   }
   return undefined;
 }
-if (CLASSIFY && cand.length) { AI = await preflight(); if (AI) console.log(`GitHub Models: ${AI.base} · ${AI.model}`); }
+if (CLASSIFY && cand.length) { AI = await preflight(); if (AI) console.log(`Groq: ${AI.base} · ${AI.model}`); }
 
 /* ---------- لوگو → webp ---------- */
 let sharp = null; try { sharp = (await import("sharp")).default; } catch { console.warn("sharp نصب نیست؛ لوگوها ساخته نمی‌شوند."); }
@@ -298,8 +295,8 @@ const stopMsg = fatal ? `⛔ **اجرا متوقف شد:** ${fatal}\n\n` : fails
 const rep = `## گزارش ساخت صفحه‌های جدید
 
 ${stopMsg}- ساخته‌شده: **${done.length}** (${PUBLISH ? "منتشر شده‌اند" : "همه با \`published: false\`؛ تا تأیید نکنی روی سایت نمی‌آیند"})
-- ردشده/کنار گذاشته‌شده: ${skipped.length}${CLASSIFY ? `\n- دسته‌بندی با GitHub Models: ${aiOk} پادکست؛ ${aiCalls} درخواست مصرف شد (سقف روزانه‌ی پلن رایگان ۱۵۰)${aiStop ? `\n- ⚠️ ${aiStop}` : ""}` : ""}
-- در انتظار بازبینی دستی: ${Object.keys(STATE.review).length} (فایل needs-review.md)${CLASSIFY && aiDiag.length ? `\n\n### تشخیص اتصال به GitHub Models\n` + aiDiag.map((d) => "- " + d).join("\n") : ""}
+- ردشده/کنار گذاشته‌شده: ${skipped.length}${CLASSIFY ? `\n- دسته‌بندی با Groq: ${aiOk} پادکست؛ ${aiCalls} درخواست مصرف شد${aiStop ? `\n- ⚠️ ${aiStop}` : ""}` : ""}
+- در انتظار بازبینی دستی: ${Object.keys(STATE.review).length} (فایل needs-review.md)${CLASSIFY && aiDiag.length ? `\n\n### تشخیص اتصال به Groq\n` + aiDiag.map((d) => "- " + d).join("\n") : ""}
 
 ${done.map((d) => `- \`${d.slug}\` — ${d.title} · ${d.cat}${d.logo ? "" : " · بدون لوگو"}${d.weak ? ` · ⚠️ دسته‌ی ضعیف${d.suggested ? ` (پیشنهاد دسته‌ی تازه: ${d.suggested})` : ""}` : ""}`).join("\n")}
 ${skipped.length ? "\n### ردشده\n" + skipped.map((s) => "- " + s).join("\n") : ""}

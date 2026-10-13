@@ -1,6 +1,6 @@
 name: Podcast Index — ساخت صفحه‌های جدید (مرحله ۳)
 # هر روز خودکار اجرا می‌شود (ساعت ۰۲:۰۰ UTC = ۰۵:۳۰ تهران) و هر بار حداکثر «limit» پادکست تازه می‌سازد.
-# دسته‌بندی فقط با GitHub Models (رایگان؛ سقف پلن رایگان ۱۵۰ درخواست در روز) و بدون هیچ کلید یا پرداختی.
+# دسته‌بندی فقط با Groq (رایگان) و بدون هیچ کلید یا پرداختی.
 # پادکستی که دسته‌اش قطعی نشود، کتاب صوتی یا برنامه‌ی رسانه‌ی خبری باشد، صفحه نمی‌گیرد و در _data/pi/needs-review.md می‌ماند.
 on:
   schedule:
@@ -24,7 +24,6 @@ on:
         options: [episodes, recent]
 permissions:
   contents: write
-  models: read
 concurrency:
   group: pi-build-pages
   cancel-in-progress: false
@@ -44,8 +43,8 @@ jobs:
         env:
           PI_KEY: ${{ secrets.PODCASTINDEX_KEY }}
           PI_SECRET: ${{ secrets.PODCASTINDEX_SECRET }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_MODEL: ${{ vars.GH_MODEL || 'openai/gpt-4o-mini' }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GH_MODEL: ${{ vars.GH_MODEL || 'llama-3.3-70b-versatile' }}
           CLASSIFY: "1"
           AI_BUDGET: "130"
           # اجرای دستی: تیک publish؛ اجرای خودکار روزانه: متغیر مخزن PI_AUTO_PUBLISH (مقدار 1 = منتشر شود، وگرنه تأییدنشده)
