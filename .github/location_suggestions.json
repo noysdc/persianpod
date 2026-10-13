@@ -24,76 +24,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اصفهان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "شیراز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "لندن",
-        "country": "انگلستان",
-        "map_ready": true
-      },
-      {
-        "city": "کلن",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "مسکو",
-        "country": "روسیه",
-        "map_ready": true
-      },
-      {
-        "city": "نیویورک",
-        "country": "آمریکا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "abor-az-tarikh",
@@ -102,141 +33,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "مشهد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اصفهان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "شیراز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "تبریز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "همدان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرمان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اردبیل",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "بندرعباس",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اراک",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قزوین",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "زنجان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "گرگان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "بوشهر",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قشم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "استانبول",
-        "country": "ترکیه",
-        "map_ready": true
-      },
-      {
-        "city": "لندن",
-        "country": "انگلستان",
-        "map_ready": true
-      },
-      {
-        "city": "پاریس",
-        "country": "فرانسه",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "مسکو",
-        "country": "روسیه",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "aghtsad-o-siast-jhani",
@@ -245,56 +42,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اراک",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "لندن",
-        "country": "انگلستان",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "مسکو",
-        "country": "روسیه",
-        "map_ready": true
-      },
-      {
-        "city": "واشنگتن",
-        "country": "آمریکا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "ali-sdart",
@@ -303,121 +51,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "شیراز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "تبریز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرمانشاه",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "همدان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرمان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اردبیل",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "بندرعباس",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "ساری",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "خرم‌آباد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "بیرجند",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "دوحه",
-        "country": "قطر",
-        "map_ready": true
-      },
-      {
-        "city": "لندن",
-        "country": "انگلستان",
-        "map_ready": true
-      },
-      {
-        "city": "برلین",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "پاریس",
-        "country": "فرانسه",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "مسکو",
-        "country": "روسیه",
-        "map_ready": true
-      },
-      {
-        "city": "سیدنی",
-        "country": "استرالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "awr-farsi",
@@ -426,26 +60,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "boutigha",
@@ -472,96 +87,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "مشهد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اصفهان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "شیراز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "تبریز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اهواز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اراک",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "خرم‌آباد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قشم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "آمل",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "دوحه",
-        "country": "قطر",
-        "map_ready": true
-      },
-      {
-        "city": "پاریس",
-        "country": "فرانسه",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "مسکو",
-        "country": "روسیه",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "channelb",
@@ -588,16 +114,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "dastan-zndgi-mn-ba-aiman-khrmi-nzhad",
@@ -606,36 +123,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "لندن",
-        "country": "انگلستان",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "diapazon-atls-mosighi-ghrn-bistm",
@@ -644,61 +132,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اراک",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "برلین",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "پاریس",
-        "country": "فرانسه",
-        "map_ready": true
-      },
-      {
-        "city": "استکهلم",
-        "country": "سوئد",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "نیویورک",
-        "country": "آمریکا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "doxpodcast",
@@ -734,26 +168,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "jamah",
@@ -780,56 +195,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "بندرعباس",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "khoansh-ktab-brai-ansan-khrdmnd-2",
@@ -838,46 +204,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "khoansh-mton-farsi",
@@ -886,31 +213,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "khorsht-tknolozhi",
@@ -919,81 +222,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اراک",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "لندن",
-        "country": "انگلستان",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "مسکو",
-        "country": "روسیه",
-        "map_ready": true
-      },
-      {
-        "city": "نیویورک",
-        "country": "آمریکا",
-        "map_ready": true
-      },
-      {
-        "city": "سیدنی",
-        "country": "استرالیا",
-        "map_ready": true
-      },
-      {
-        "city": "ملبورن",
-        "country": "استرالیا",
-        "map_ready": true
-      },
-      {
-        "city": "توکیو",
-        "country": "ژاپن",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "ktab-aadm-i-zad",
@@ -1002,36 +231,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "نیویورک",
-        "country": "آمریکا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "lzt-dniai-ktab",
@@ -1040,16 +240,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "mimmpodcast",
@@ -1058,36 +249,7 @@
       "city": "تهران",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "نیویورک",
-        "country": "آمریکا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "naaji",
@@ -1114,41 +276,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "podcast-bkhsh-farsi-klisai-feg-gisn",
@@ -1157,26 +285,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "podcast-farsi-fikshn-fiction-podcast",
@@ -1185,66 +294,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "برلین",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "پاریس",
-        "country": "فرانسه",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "مسکو",
-        "country": "روسیه",
-        "map_ready": true
-      },
-      {
-        "city": "ملبورن",
-        "country": "استرالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "podcast-fotbal-lb",
@@ -1253,106 +303,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "تبریز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اراک",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "ساری",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "لندن",
-        "country": "انگلستان",
-        "map_ready": true
-      },
-      {
-        "city": "برلین",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "کلن",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "فرانکفورت",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "پاریس",
-        "country": "فرانسه",
-        "map_ready": true
-      },
-      {
-        "city": "آمستردام",
-        "country": "هلند",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "مادرید",
-        "country": "اسپانیا",
-        "map_ready": true
-      },
-      {
-        "city": "مسکو",
-        "country": "روسیه",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "podcast-prchm-sfid",
@@ -1361,81 +312,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اراک",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "لندن",
-        "country": "انگلستان",
-        "map_ready": true
-      },
-      {
-        "city": "برلین",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "پاریس",
-        "country": "فرانسه",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "مسکو",
-        "country": "روسیه",
-        "map_ready": true
-      },
-      {
-        "city": "نیویورک",
-        "country": "آمریکا",
-        "map_ready": true
-      },
-      {
-        "city": "واشنگتن",
-        "country": "آمریکا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "podcast-roanshnasi-dktr-srglzaii",
@@ -1444,26 +321,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "استکهلم",
-        "country": "سوئد",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "podcast-roanshnasi-saikopad",
@@ -1472,61 +330,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تبریز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "فرانکفورت",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "مسکو",
-        "country": "روسیه",
-        "map_ready": true
-      },
-      {
-        "city": "مونترال",
-        "country": "کانادا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "radio-astartap-360",
@@ -1535,61 +339,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "شیراز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "تبریز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرج",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "ساری",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "radio-ghsh-kodk",
@@ -1598,21 +348,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "radio-jamah-padkst-ajtmaai",
@@ -1621,141 +357,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "مشهد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اصفهان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "شیراز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "تبریز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرج",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "ارومیه",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "همدان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرمان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "ساری",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قزوین",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "بوشهر",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قشم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "بابل",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "لندن",
-        "country": "انگلستان",
-        "map_ready": true
-      },
-      {
-        "city": "پاریس",
-        "country": "فرانسه",
-        "map_ready": true
-      },
-      {
-        "city": "استکهلم",
-        "country": "سوئد",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "مونترال",
-        "country": "کانادا",
-        "map_ready": true
-      },
-      {
-        "city": "نیویورک",
-        "country": "آمریکا",
-        "map_ready": true
-      },
-      {
-        "city": "واشنگتن",
-        "country": "آمریکا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "radiodoor",
@@ -1773,86 +375,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "ارومیه",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اراک",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "ساری",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "برلین",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "فرانکفورت",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "استکهلم",
-        "country": "سوئد",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "نیویورک",
-        "country": "آمریکا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "sdai-bazar",
@@ -1861,71 +384,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اصفهان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "بندرعباس",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "لندن",
-        "country": "انگلستان",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "مادرید",
-        "country": "اسپانیا",
-        "map_ready": true
-      },
-      {
-        "city": "واشنگتن",
-        "country": "آمریکا",
-        "map_ready": true
-      },
-      {
-        "city": "توکیو",
-        "country": "ژاپن",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "shar-ba-sdai-shaar",
@@ -1934,151 +393,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "مشهد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اصفهان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "شیراز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "تبریز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرج",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرمانشاه",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "همدان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرمان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اراک",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "ساری",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قزوین",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "زنجان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "گرگان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "سمنان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "لندن",
-        "country": "انگلستان",
-        "map_ready": true
-      },
-      {
-        "city": "برلین",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "کلن",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "تورنتو",
-        "country": "کانادا",
-        "map_ready": true
-      },
-      {
-        "city": "مونترال",
-        "country": "کانادا",
-        "map_ready": true
-      },
-      {
-        "city": "نیویورک",
-        "country": "آمریکا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "shar",
@@ -2087,166 +402,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "مشهد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اصفهان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "شیراز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "تبریز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اهواز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرج",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرمانشاه",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرمان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اراک",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "ساری",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قزوین",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "زنجان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "گرگان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "بوشهر",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "بابل",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "لندن",
-        "country": "انگلستان",
-        "map_ready": true
-      },
-      {
-        "city": "برلین",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "کلن",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "پاریس",
-        "country": "فرانسه",
-        "map_ready": true
-      },
-      {
-        "city": "استکهلم",
-        "country": "سوئد",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "تورنتو",
-        "country": "کانادا",
-        "map_ready": true
-      },
-      {
-        "city": "مونترال",
-        "country": "کانادا",
-        "map_ready": true
-      },
-      {
-        "city": "نیویورک",
-        "country": "آمریکا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "shenakht",
@@ -2273,26 +429,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "t-me-radioshereparsi-radio-shar-parsi",
@@ -2301,91 +438,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "تهران",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "شیراز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "تبریز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرج",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرمانشاه",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "همدان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرمان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "ساری",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "زنجان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "tarikh-aslam",
@@ -2403,16 +456,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "tarikh-tmdn",
@@ -2421,151 +465,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "شیراز",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرج",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "قم",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "زاهدان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کرمان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "یزد",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "اراک",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "ساری",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "گرگان",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "بوشهر",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "ایلام",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "کیش",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "بابل",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "دبی",
-        "country": "امارات",
-        "map_ready": true
-      },
-      {
-        "city": "استانبول",
-        "country": "ترکیه",
-        "map_ready": true
-      },
-      {
-        "city": "لندن",
-        "country": "انگلستان",
-        "map_ready": true
-      },
-      {
-        "city": "برلین",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "کلن",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "هامبورگ",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "پاریس",
-        "country": "فرانسه",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      },
-      {
-        "city": "مادرید",
-        "country": "اسپانیا",
-        "map_ready": true
-      },
-      {
-        "city": "مسکو",
-        "country": "روسیه",
-        "map_ready": true
-      },
-      {
-        "city": "نیویورک",
-        "country": "آمریکا",
-        "map_ready": true
-      },
-      {
-        "city": "سیدنی",
-        "country": "استرالیا",
-        "map_ready": true
-      },
-      {
-        "city": "توکیو",
-        "country": "ژاپن",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "the-spies-circle",
@@ -2583,26 +483,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "رشت",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "بابل",
-        "country": "ایران",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "vaghte-esterahat",
@@ -2620,31 +501,7 @@
       "city": "",
       "country": ""
     },
-    "status": "ok",
-    "source": "description",
-    "confidence": "low",
-    "candidates": [
-      {
-        "city": "برلین",
-        "country": "آلمان",
-        "map_ready": true
-      },
-      {
-        "city": "پاریس",
-        "country": "فرانسه",
-        "map_ready": true
-      },
-      {
-        "city": "وین",
-        "country": "اتریش",
-        "map_ready": true
-      },
-      {
-        "city": "رم",
-        "country": "ایتالیا",
-        "map_ready": true
-      }
-    ]
+    "status": "not_found"
   },
   {
     "slug": "zangetarikh",
