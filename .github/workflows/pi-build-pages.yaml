@@ -1,6 +1,6 @@
 name: Podcast Index — ساخت صفحه‌های جدید (مرحله ۳)
 # هر روز خودکار اجرا می‌شود (ساعت ۰۲:۰۰ UTC = ۰۵:۳۰ تهران) و هر بار حداکثر «limit» پادکست تازه می‌سازد.
-# دسته‌بندی با GitHub Models (رایگان؛ سقف پلن رایگان ۱۵۰ درخواست در روز) و بدون هیچ کلید یا پرداختی.
+# دسته‌بندی فقط با GitHub Models (رایگان؛ سقف پلن رایگان ۱۵۰ درخواست در روز) و بدون هیچ کلید یا پرداختی.
 # پادکستی که دسته‌اش قطعی نشود، کتاب صوتی یا برنامه‌ی رسانه‌ی خبری باشد، صفحه نمی‌گیرد و در _data/pi/needs-review.md می‌ماند.
 on:
   schedule:
@@ -45,7 +45,7 @@ jobs:
           PI_KEY: ${{ secrets.PODCASTINDEX_KEY }}
           PI_SECRET: ${{ secrets.PODCASTINDEX_SECRET }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_MODEL: ${{ vars.GH_MODEL || 'openai/gpt-4.1-mini' }}
+          GH_MODEL: ${{ vars.GH_MODEL || 'openai/gpt-4o-mini' }}
           CLASSIFY: "1"
           AI_BUDGET: "130"
           # اجرای دستی: تیک publish؛ اجرای خودکار روزانه: متغیر مخزن PI_AUTO_PUBLISH (مقدار 1 = منتشر شود، وگرنه تأییدنشده)

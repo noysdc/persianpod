@@ -10,16 +10,16 @@ import crypto from "node:crypto";
 
 const E = process.env;
 const LIMIT = Math.max(1, parseInt(E.LIMIT || "10", 10)), SORT = E.SORT || "episodes";
-const IDS = (E.IDS || "").split(/[,\s،]+/).filter(Boolean).map(Number).filter(Boolean);   // اختیاری: فقط همین pi_idها ساخته شوند (برای تست دقیق)
-const MAX_FAILS_IN_ROW = 5;                                                                  // اگر پشت‌سرهم این‌قدر شکست خورد، توقف
+const IDS = (E.IDS || "").split(/[,\s،]+/).filter(Boolean).map(Number).filter(Boolean);
+const MAX_FAILS_IN_ROW = 5;
 const PODCASTS_DIR = E.PI_PODCASTS || "_podcasts", IMG_DIR = E.PI_IMG || "assets/img/podcasts", DATA = E.PI_OUT || "_data/pi";
 const CATS_FILE = E.PI_CATS || "_data/categories.yml";
 const PI_BASE = E.PI_BASE || "https://api.podcastindex.org/api/1.0";
-const CLASSIFY = E.CLASSIFY === "1", PUBLISH = E.PUBLISH === "1";           // PUBLISH=1: صفحه‌ها مستقیم منتشر شوند (published: true)
-const AI_BUDGET = parseInt(E.AI_BUDGET || "130", 10);                        // سقف درخواست به GitHub Models در هر اجرا (سقف روزانه‌ی پلن رایگان ۱۵۰ است)
-const GH_BASE = E.GH_MODELS_BASE || "https://models.github.ai/inference", GH_MODEL = E.GH_MODEL || "openai/gpt-4.1-mini";
+const CLASSIFY = E.CLASSIFY === "1", PUBLISH = E.PUBLISH === "1";
+const AI_BUDGET = parseInt(E.AI_BUDGET || "130", 10);
+const GH_BASE = E.GH_MODELS_BASE || "https://models.github.ai/inference", GH_MODEL = E.GH_MODEL || "openai/gpt-4o-mini";
 const GH_TOKEN = E.GH_MODELS_TOKEN || E.GITHUB_TOKEN || "";
-const GAP = parseInt(E.GAP_MS || (CLASSIFY ? "4500" : "800"), 10);        // سقف دقیقه‌ای مدل‌های کوچک: ۱۵ درخواست در دقیقه
+const GAP = parseInt(E.GAP_MS || (CLASSIFY ? "4500" : "800"), 10);
 if (!E.PI_KEY || !E.PI_SECRET) { console.error("PI_KEY / PI_SECRET تنظیم نشده‌اند."); process.exit(1); }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -36,7 +36,7 @@ async function pi(p, params = {}) {
   throw new Error(`بدون پاسخ: ${p}`);
 }
 
-/* ---------- دسته‌ها (خواندن ساده‌ی categories.yml) ---------- */
+/* ---------- دسته‌ها ---------- */
 const catsTxt = await fs.readFile(CATS_FILE, "utf8"), CATS = [];
 for (const line of catsTxt.split("\n")) {
   let m;
@@ -54,7 +54,7 @@ function splitTitle(t) {
   const parts = String(t || "").split(SPLIT).map((x) => x.trim()).filter(Boolean);
   const fa = (parts.find((x) => hasFa(x)) || String(t || "").trim()).replace(/^[\u200c\u200f\s]+|[\u200c\u200f\s]+$/g, "");
   let en = parts.find((x) => hasLat(x) && !hasFa(x)) || "";
-  if (!en) {                                   // عنوان بدون جداکننده: بلندترین دنباله‌ی لاتین داخل عنوان (مثلاً BPLUS)
+  if (!en) {
     const runs = String(t || "").match(/[A-Za-z][A-Za-z0-9&'._-]*(?:\s+[A-Za-z0-9&'._-]+)*/g) || [];
     en = (runs.sort((a, b) => b.length - a.length)[0] || "").trim();
     if (en.length < 3) en = "";
@@ -82,7 +82,7 @@ function links(raw, feed, full) {
   return L;
 }
 
-/* ---------- موجودها: pi_id و slug صفحه‌های فعلی ---------- */
+/* ---------- موجودها ---------- */
 const havePi = new Set(), haveSlug = new Set();
 for (const n of await fs.readdir(PODCASTS_DIR).catch(() => [])) {
   if (!n.endsWith(".md")) continue;
@@ -101,7 +101,7 @@ for (const n of await fs.readdir(PODCASTS_DIR).catch(() => [])) {
 }
 try { for (const m of JSON.parse(await fs.readFile(path.join(DATA, "matches.json"), "utf8")).matches || []) havePi.add(+m.pi_id); } catch { /* اختیاری */ }
 
-/* ---------- وضعیت وارد کردن (تلاش‌ها و فهرست بازبینی) ---------- */
+/* ---------- وضعیت ---------- */
 const STATE_FILE = path.join(DATA, "import-state.json");
 let STATE = { tries: {}, review: {} };
 try { STATE = { tries: {}, review: {}, ...JSON.parse(await fs.readFile(STATE_FILE, "utf8")) }; } catch { /* اولین اجرا */ }
@@ -109,19 +109,19 @@ try { STATE = { tries: {}, review: {}, ...JSON.parse(await fs.readFile(STATE_FIL
 /* ---------- انتخاب نامزدها ---------- */
 const feeds = JSON.parse(await fs.readFile(path.join(DATA, "feeds.json"), "utf8"));
 let cand;
-if (IDS.length) {                                   // حالت دستی: فقط شناسه‌های داده‌شده، به همان ترتیب
+if (IDS.length) {
   const byId = new Map(feeds.map((f) => [+f.id, f]));
   cand = IDS.map((id) => byId.get(id)).filter((f) => f && !havePi.has(+f.id));
   const bad = IDS.filter((id) => !byId.has(id) || havePi.has(id));
-  if (bad.length) console.warn("نادیده گرفته شد (در feeds.json نیست یا قبلاً ساخته شده): " + bad.join(", "));
+  if (bad.length) console.warn("نادیده گرفته شد: " + bad.join(", "));
 } else {
   cand = feeds.filter((f) => f.confidence === "high" && f.active === true && !f.dead && !havePi.has(+f.id) && !STATE.review[f.id] && (f.episodeCount || 0) >= 3 && hasFa(f.title || ""));
   cand.sort(SORT === "recent" ? (a, b) => (b.newestItemPubdate || 0) - (a.newestItemPubdate || 0) : (a, b) => (b.episodeCount || 0) - (a.episodeCount || 0));
 }
 console.log(`نامزد: ${cand.length}، ساخته می‌شود: ${Math.min(LIMIT, cand.length)}`);
 
-/* ---------- حالت پایه (بدون هوش مصنوعی) ---------- */
-const CAT_MAP = [   // به ترتیب اولویت؛ اولین ردیفی که یکی از دسته‌های Podcast Index در آن باشد انتخاب می‌شود
+/* ---------- حالت پایه ---------- */
+const CAT_MAP = [
   ["جنایی", ["True Crime"]], ["مستند و روایت", ["Documentary"]], ["تاریخ", ["History"]], ["موسیقی", ["Music"]],
   ["ورزش", ["Sports", "Soccer", "Football", "Baseball", "Basketball", "Cricket", "Tennis", "Wrestling"]], ["کودک و نوجوان", ["Kids"]],
   ["طنز و سرگرمی", ["Comedy", "Games", "Improv", "Stand-Up"]], ["کسب‌وکار و اقتصاد", ["Business", "Management", "Investing", "Entrepreneurship", "Marketing", "Careers", "Non-Profit"]],
@@ -141,9 +141,10 @@ function basic(desc, piCats) {
   return { category, weak: !hit, suggested: "", subcategories: [], tags: hit ? [category] : [], hashtags: [], description, intro: "", about: "", text: text.slice(0, 1200) };
 }
 
-/* ---------- GitHub Models: اتصال، تشخیص، دسته‌بندی ---------- */
+/* ---------- GitHub Models: فقط گیت‌هاب، بدون Azure ---------- */
 let aiStop = "", aiCalls = 0, AI = null; const aiDiag = [];
 const KINDS = { audiobook: "کتاب صوتی/رمان‌خوانی", news_outlet: "برنامه‌ی یک رسانه‌ی خبری سازمانی", other: "غیرپادکستی یا نامشخص" };
+
 async function chat(cfg, system, user, maxTokens) {
   const payload = { model: cfg.model, messages: [{ role: "system", content: system }, { role: "user", content: user }], temperature: 0, max_tokens: maxTokens };
   if (cfg.rf) payload.response_format = { type: "json_object" };
@@ -154,26 +155,35 @@ async function chat(cfg, system, user, maxTokens) {
   let out = ""; try { const j = JSON.parse(text); out = (j.choices && j.choices[0] && j.choices[0].message && j.choices[0].message.content) || ""; } catch { /* پاسخ JSON نیست */ }
   return { status: r.status, ctype: (r.headers.get("content-type") || "").split(";")[0], text, out };
 }
-// قبل از لمس هر پادکست، چند حالت اتصال را امتحان می‌کند و اولین حالتِ سالم را برمی‌دارد؛ نتیجه‌ی هر تلاش در گزارش می‌آید
+
+// فقط درهای گیت‌هاب. اول بدون json_mode (چون در لاگ دیده شد اینطور جواب می‌ده)، بعد با json_mode.
+// اگه یه مدل جواب نداد، مدل بعدی رو امتحان می‌کنه.
 async function preflight() {
-  const legacy = E.GH_LEGACY_BASE || "https://models.inference.ai.azure.com", bare = GH_MODEL.replace(/^[^/]+\//, "");
   const variants = [
-    { base: GH_BASE, model: GH_MODEL, rf: true }, { base: GH_BASE, model: GH_MODEL, rf: false },
-    { base: GH_BASE, model: "openai/gpt-4o-mini", rf: false }, { base: legacy, model: bare, rf: false },
+    { base: GH_BASE, model: GH_MODEL, rf: false },
+    { base: GH_BASE, model: GH_MODEL, rf: true },
+    { base: GH_BASE, model: "openai/gpt-4o-mini", rf: false },
+    { base: GH_BASE, model: "openai/gpt-4o-mini", rf: true },
   ].filter((v, i, a) => a.findIndex((x) => x.base === v.base && x.model === v.model && x.rf === v.rf) === i);
+
   for (const v of variants) {
     const tag = `${v.base} · ${v.model}${v.rf ? " · json_mode" : ""}`;
     try {
       const res = await chat(v, "فقط یک JSON معتبر بده.", 'خروجی: {"ok": true}', 30);
       aiDiag.push(`${tag} → HTTP ${res.status} · ${res.ctype || "?"} · ${res.text.replace(/\s+/g, " ").slice(0, 140)}`);
-      if (res.status === 200 && res.out) return v;
+      if (res.status === 200) {
+        // حتی اگه out خالی بود، مدل را قبول کن؛ classify خودش مدیریت می‌کند
+        if (!res.out) aiDiag.push(`  ↑ توجه: پاسخ JSON خالی بود ولی مدل پذیرفته شد.`);
+        return v;
+      }
       if (res.status === 429) { aiStop = "سقف درخواست GitHub Models پر است؛ بعداً دوباره اجرا کن"; return null; }
     } catch (e) { aiDiag.push(`${tag} → خطا: ${e.message}`); }
     await sleep(GAP);
   }
-  aiStop = "اتصال به GitHub Models برقرار نشد؛ جزئیات هر تلاش در «تشخیص اتصال» آمده. هیچ پادکستی تغییر نکرد و تلاشی از آن‌ها کم نشد";
+  aiStop = "اتصال به GitHub Models برقرار نشد. همه‌ی درهای گیت‌هاب امتحان شدند ولی هیچ‌کدام جواب نداد. جزئیات در «تشخیص اتصال» آمده.";
   return null;
 }
+
 async function classify(data) {
   const sys = `تو ویراستار فهرست پادکست‌های فارسی (پرشین‌پاد) هستی. فقط بر اساس «داده‌ی پادکست» تصمیم بگیر و حدس نزن.
 خروجی فقط یک JSON معتبر با این کلیدها:
@@ -186,10 +196,10 @@ async function classify(data) {
   for (let i = 0; i < 2; i++) {
     if (aiCalls >= AI_BUDGET) { aiStop = `به سقف ${AI_BUDGET} درخواست این اجرا رسید؛ بقیه فردا`; return null; }
     const res = await chat(AI, sys, user, 250);
-    if (res.status === 429 && i === 0) { await sleep(parseInt(E.RATE_WAIT_MS || "65000", 10)); continue; }   // احتمالاً سقف دقیقه‌ای
+    if (res.status === 429 && i === 0) { await sleep(parseInt(E.RATE_WAIT_MS || "65000", 10)); continue; }
     if (res.status === 429) { aiStop = "سقف درخواست GitHub Models پر شد (احتمالاً سقف روزانه)؛ بقیه فردا"; return null; }
     if ([400, 401, 403, 404].includes(res.status)) { aiStop = `GitHub Models HTTP ${res.status}: ${res.text.replace(/\s+/g, " ").slice(0, 160)}`; return null; }
-    if (res.status !== 200 || !res.out) return undefined;                                                   // خطای موقت یا پاسخ نامعتبر
+    if (res.status !== 200 || !res.out) return undefined;
     try {
       const o = JSON.parse(res.out.replace(/^```(?:json)?\s*|\s*```$/g, "")), cat = CATS.find((c) => c.name === String(o.category || "").trim());
       if (!cat) return undefined;
@@ -252,7 +262,7 @@ for (const F of cand) {
   if (fatal || aiStop || failsInRow >= MAX_FAILS_IN_ROW) break;
   const T = splitTitle(F.title);
   const dupKey = normKey(F.title) + "|" + normKey(F.author || F.ownerName);
-  if (!IDS.length) {                                // تکراری‌ها: همان عنوان+سازنده (چند فید برای یک پادکست)، یا RSS و نام انگلیسیِ موجود
+  if (!IDS.length) {
     if (seenKey.has(dupKey)) { skipped.push(`${F.id} «${T.fa}» — تکراری (فید دیگری از همین پادکست)`); continue; }
     if (haveRss.has(F.url) || haveRss.has(F.originalUrl) || (T.en && normKey(T.en).length >= 3 && haveKey.has(normKey(T.en)))) { skipped.push(`${F.id} «${T.fa}» — احتمالاً همان صفحه‌ی دستیِ موجود است`); continue; }
   }
@@ -266,37 +276,4 @@ for (const F of cand) {
     let slug = (T.en || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || `podcast-${F.id}`;
     if (haveSlug.has(slug)) slug = `${slug}-${F.id}`;
     const data = { title_fa: T.fa, title_en: T.en, author: full.author || "", description: desc, episode_titles: eps.map((e) => e.title), episode_count: full.episodeCount || F.episodeCount,
-      index_categories: Object.values(full.categories || F.categories || {}) };
-    const ai = basic(desc, data.index_categories);
-    if (CLASSIFY) {
-      const c = await classify(data);
-      if (aiStop) break;                                                            // سقف یا خطای دسترسی: همین‌جا می‌ایستیم، پادکست فردا دوباره امتحان می‌شود
-      const reason = c === undefined || c === null ? "" : c.kind !== "podcast" ? `نوع: ${KINDS[c.kind]}` : c.confidence !== "high" ? `دسته نامطمئن (پیشنهاد: ${c.category})` : "";
-      if (c === undefined) { STATE.tries[F.id] = (STATE.tries[F.id] || 0) + 1; if (STATE.tries[F.id] >= 2) STATE.review[F.id] = { title: T.fa, reason: "دسته‌بندی دو بار ناموفق بود", cat: "" }; skipped.push(`${F.id} «${T.fa}» — دسته‌بندی ناموفق (فردا دوباره)`); failsInRow++; await sleep(GAP); continue; }
-      if (reason && !IDS.length) { STATE.review[F.id] = { title: T.fa, reason, cat: c.category }; skipped.push(`${F.id} «${T.fa}» — برای بازبینی کنار گذاشته شد: ${reason}`); await sleep(GAP); continue; }
-      ai.category = c.category; ai.subcategories = c.subcategories; ai.tags = [c.category, ...c.subcategories]; ai.weak = false; ai.aiCat = true; aiOk++;
-    }
-    failsInRow = 0;
-    const logo = await makeLogo(full.artwork || full.image || F.image, slug);
-    await fs.writeFile(path.join(PODCASTS_DIR, slug + ".md"), build(F, T, slug, logo, L, eps, ai, full));
-    haveSlug.add(slug); haveSlug.add(slug.toLowerCase()); done.push({ slug, title: T.fa, cat: ai.category, logo: !!logo, weak: ai.weak, suggested: ai.suggested });
-    console.log(`✓ ${slug} — ${T.fa} (${ai.category})`);
-  } catch (e) { skipped.push(`${F.id} «${T.fa}» — ${e.message}`); if (e.fatal) fatal = e.message; else failsInRow++; }
-  await sleep(GAP);
-}
-const stopMsg = fatal ? `⛔ **اجرا متوقف شد:** ${fatal}\n\n` : failsInRow >= MAX_FAILS_IN_ROW ? `⛔ **اجرا متوقف شد:** ${MAX_FAILS_IN_ROW} شکست پشت‌سرهم (علت را در فهرست «ردشده» ببین)\n\n` : "";
-const rep = `## گزارش ساخت صفحه‌های جدید
-
-${stopMsg}- ساخته‌شده: **${done.length}** (${PUBLISH ? "منتشر شده‌اند" : "همه با \`published: false\`؛ تا تأیید نکنی روی سایت نمی‌آیند"})
-- ردشده/کنار گذاشته‌شده: ${skipped.length}${CLASSIFY ? `\n- دسته‌بندی با GitHub Models: ${aiOk} پادکست؛ ${aiCalls} درخواست مصرف شد (سقف روزانه‌ی پلن رایگان ۱۵۰)${aiStop ? `\n- ⚠️ ${aiStop}` : ""}` : ""}
-- در انتظار بازبینی دستی: ${Object.keys(STATE.review).length} (فایل needs-review.md)${CLASSIFY && aiDiag.length ? `\n\n### تشخیص اتصال به GitHub Models\n` + aiDiag.map((d) => "- " + d).join("\n") : ""}
-
-${done.map((d) => `- \`${d.slug}\` — ${d.title} · ${d.cat}${d.logo ? "" : " · بدون لوگو"}${d.weak ? ` · ⚠️ دسته‌ی ضعیف${d.suggested ? ` (پیشنهاد دسته‌ی تازه: ${d.suggested})` : ""}` : ""}`).join("\n")}
-${skipped.length ? "\n### ردشده\n" + skipped.map((s) => "- " + s).join("\n") : ""}
-`;
-await fs.mkdir(DATA, { recursive: true });
-await fs.writeFile(STATE_FILE, JSON.stringify(STATE, null, 1));
-const revIds = Object.keys(STATE.review);
-await fs.writeFile(path.join(DATA, "needs-review.md"), `# پادکست‌های در انتظار تصمیم دستی\n\nبرای ساختن صفحه‌ی هر کدام، شناسه‌اش را در ورودی \`ids\` بنویس (در این حالت هرچه مدل پیشنهاد داده بدون بازبینی پذیرفته می‌شود).\n\n` + (revIds.length ? revIds.map((id) => `- \`${id}\` «${STATE.review[id].title}» — ${STATE.review[id].reason}`).join("\n") : "فعلاً خالی است.") + "\n");
-await fs.writeFile(path.join(DATA, "build-report.md"), rep);
-console.log("\n" + rep);
+      index_categories: Object.values(full.categories || F.categories
