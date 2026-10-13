@@ -1,13 +1,22 @@
 name: Podcast Index — ساخت صفحه‌های جدید (مرحله ۳)
+# هر روز خودکار اجرا می‌شود (ساعت ۰۲:۰۰ UTC = ۰۵:۳۰ تهران) و هر بار حداکثر «limit» پادکست تازه می‌سازد.
+# دسته‌بندی با GitHub Models (رایگان؛ سقف پلن رایگان ۱۵۰ درخواست در روز) و بدون هیچ کلید یا پرداختی.
+# پادکستی که دسته‌اش قطعی نشود، کتاب صوتی یا برنامه‌ی رسانه‌ی خبری باشد، صفحه نمی‌گیرد و در _data/pi/needs-review.md می‌ماند.
 on:
+  schedule:
+    - cron: "0 2 * * *"
   workflow_dispatch:
     inputs:
       limit:
-        description: "چند پادکست جدید ساخته شود؟"
-        default: "10"
+        description: "حداکثر چند پادکست تازه در این اجرا؟ (پیشنهاد: ۸۰؛ بیشتر از ۱۰۰ نشود)"
+        default: "80"
       ids:
-        description: "اختیاری: pi_idها با ویرگول (مثلاً 6955858,4186001). اگر پر شود، limit و sort نادیده گرفته می‌شود"
+        description: "اختیاری: pi_idها با ویرگول. اگر پر شود فقط همین‌ها ساخته می‌شوند (limit و sort نادیده گرفته می‌شود، مورد بازبینی هم پذیرفته می‌شود)"
         default: ""
+      publish:
+        description: "صفحه‌ها همین حالا منتشر شوند؟ (اگر تیک نخورد با published:false ساخته می‌شوند)"
+        type: boolean
+        default: false
       sort:
         description: "ترتیب انتخاب"
         type: choice
@@ -15,9 +24,14 @@ on:
         options: [episodes, recent]
 permissions:
   contents: write
+  models: read
+concurrency:
+  group: pi-build-pages
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -30,9 +44,14 @@ jobs:
         env:
           PI_KEY: ${{ secrets.PODCASTINDEX_KEY }}
           PI_SECRET: ${{ secrets.PODCASTINDEX_SECRET }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          LIMIT: ${{ inputs.limit }}
-          SORT: ${{ inputs.sort }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_MODEL: ${{ vars.GH_MODEL || 'openai/gpt-4.1-mini' }}
+          CLASSIFY: "1"
+          AI_BUDGET: "130"
+          # اجرای دستی: تیک publish؛ اجرای خودکار روزانه: متغیر مخزن PI_AUTO_PUBLISH (مقدار 1 = منتشر شود، وگرنه تأییدنشده)
+          PUBLISH: ${{ inputs.publish && '1' || vars.PI_AUTO_PUBLISH || '0' }}
+          LIMIT: ${{ inputs.limit || '80' }}
+          SORT: ${{ inputs.sort || 'episodes' }}
           IDS: ${{ inputs.ids }}
       - name: گزارش و ذخیره
         run: |
@@ -40,4 +59,4 @@ jobs:
           git config user.name "persianpod-bot"
           git config user.email "persianpod-bot@users.noreply.github.com"
           git add -A _podcasts assets/img/podcasts _data/pi
-          git diff --cached --quiet || (git commit -m "data: صفحه‌های جدید از Podcast Index (تأییدنشده)" && git pull --rebase && git push)
+          git diff --cached --quiet || (git commit -m "data: صفحه‌های جدید از Podcast Index" && git pull --rebase && git push)
