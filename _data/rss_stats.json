@@ -280,6 +280,53 @@
     ],
     "status": "active"
   },
+  "history-without-censorship": {
+    "avg_gap_days": 0.4,
+    "avg_length": 10,
+    "episodes": 4193,
+    "eps_365": 827,
+    "eps_90": 270,
+    "first_year": 1402,
+    "last": "1405/07/20",
+    "last_at": "2026-10-12T02:49:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6acbe95b2c705f746cde9f7c",
+    "last_title": "قسمت چهار هزار و صد و هفتاد و هفت",
+    "max_length": 45,
+    "median_length": 10,
+    "min_length": 5,
+    "recent": [
+      {
+        "at": "2026-10-12T02:49:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6acbe95b2c705f746cde9f7c",
+        "title": "قسمت چهار هزار و صد و هفتاد و هفت"
+      },
+      {
+        "at": "2026-10-12T01:49:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6acbe8c88f90a39dfc4368b9",
+        "title": "قسمت چهار هزار و صد و هفتاد و شش"
+      },
+      {
+        "at": "2026-10-12T01:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6acbe81a3dc1c1be4a7b846d",
+        "title": "قسمت چهار هزار و صد و هفتاد و پنج"
+      }
+    ],
+    "recent_30d": [
+      102,
+      113,
+      87,
+      58,
+      50,
+      0,
+      3,
+      21,
+      105,
+      88,
+      99,
+      83
+    ],
+    "status": "active"
+  },
   "ismcast": {
     "avg_gap_days": 11.4,
     "avg_length": 29,
@@ -501,6 +548,241 @@
       0,
       2,
       1
+    ],
+    "status": "active"
+  },
+  "podcast-3631934": {
+    "avg_gap_days": 0.5,
+    "avg_length": 12,
+    "episodes": 1240,
+    "eps_365": 3,
+    "eps_90": 3,
+    "first_year": 1399,
+    "last": "1405/05/17",
+    "last_at": "2026-08-08T22:29:04Z",
+    "last_link": "http://iranseda.ir",
+    "last_title": "ویژه‌‌ها (تاریخ جنگ در ایران3)",
+    "max_length": 30,
+    "median_length": 14,
+    "min_length": 9,
+    "recent": [
+      {
+        "at": "2026-08-08T22:29:04Z",
+        "link": "http://iranseda.ir",
+        "title": "ویژه‌‌ها (تاریخ جنگ در ایران3)"
+      },
+      {
+        "at": "2026-08-08T22:05:43Z",
+        "link": "http://iranseda.ir",
+        "title": "ویژه‌‌ها (تاریخ جنگ در ایران2)"
+      },
+      {
+        "at": "2026-08-07T15:15:40Z",
+        "link": "http://iranseda.ir",
+        "title": "ویژه‌‌ها (تاریخ جنگ در ایران1)"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "podcast-6414522": {
+    "avg_gap_days": 4.6,
+    "avg_length": 129,
+    "episodes": 825,
+    "eps_365": 80,
+    "eps_90": 9,
+    "first_year": 1348,
+    "last": "1405/07/21",
+    "last_at": "2026-10-13T10:16:55Z",
+    "last_link": "https://podkadeh.com/podcast/footballlab/6ace05064cccca8a63ffe94a",
+    "last_title": "9-5 حرامزاده های نامقدس",
+    "max_length": 568,
+    "median_length": 63,
+    "min_length": 1,
+    "recent": [
+      {
+        "at": "2026-10-13T10:16:55Z",
+        "link": "https://podkadeh.com/podcast/footballlab/6ace05064cccca8a63ffe94a",
+        "title": "9-5 حرامزاده های نامقدس"
+      },
+      {
+        "at": "2026-09-23T09:04:03Z",
+        "link": "https://podkadeh.com/podcast/footballlab/6ab395ff401fed8dcdde110c",
+        "title": "9-4 لوزرهای برتر اروپا"
+      },
+      {
+        "at": "2026-09-19T12:27:37Z",
+        "link": "https://podkadeh.com/podcast/footballlab/6aae7fb6e4c537574c4c8d3c",
+        "title": "9-3 مشکل ساختاری یونایتد"
+      }
+    ],
+    "recent_30d": [
+      27,
+      24,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      9,
+      2,
+      4,
+      3
+    ],
+    "status": "active"
+  },
+  "podcast-7010399": {
+    "avg_gap_days": 4.2,
+    "avg_length": 17,
+    "episodes": 473,
+    "eps_365": 87,
+    "eps_90": 13,
+    "first_year": 1403,
+    "last": "1405/07/21",
+    "last_at": "2026-10-13T11:20:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/omvzd0kh3s/",
+    "last_title": "آرامش نسبی اوراق، نگرانی سهام؛ چرا نزدک همچنان زیر فشار است؟",
+    "max_length": 62,
+    "median_length": 15,
+    "min_length": 4,
+    "recent": [
+      {
+        "at": "2026-10-13T11:20:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/omvzd0kh3s/",
+        "title": "آرامش نسبی اوراق، نگرانی سهام؛ چرا نزدک همچنان زیر فشار است؟"
+      },
+      {
+        "at": "2026-10-12T11:20:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/zf64ghkypo/",
+        "title": "از تنش‌های انرژی تا تورم آمریکا؛ محرک‌های هفته پیش‌روی بازار"
+      },
+      {
+        "at": "2026-10-09T11:10:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/kh5t5u565u/",
+        "title": "عقب‌نشینی نفت و بازیابی طلا؛ آیا آرامش بازار دوام می‌آورد؟"
+      }
+    ],
+    "recent_30d": [
+      21,
+      21,
+      8,
+      10,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      13
+    ],
+    "status": "active"
+  },
+  "podcast-7153266": {
+    "avg_gap_days": 3.6,
+    "avg_length": 351,
+    "episodes": 409,
+    "eps_365": 8,
+    "eps_90": 0,
+    "first_year": 1403,
+    "last": "1404/09/09",
+    "last_at": "2025-11-30T09:51:47Z",
+    "last_link": "https://shows.acast.com/society-f/episodes/692c13b3f3d8e925c6b6414e",
+    "last_title": "تاریخ ایران مدرن - یرواند آبراهامیان - 2",
+    "max_length": 660,
+    "median_length": 30,
+    "min_length": 1,
+    "recent": [
+      {
+        "at": "2025-11-30T09:51:47Z",
+        "link": "https://shows.acast.com/society-f/episodes/692c13b3f3d8e925c6b6414e",
+        "title": "تاریخ ایران مدرن - یرواند آبراهامیان - 2"
+      },
+      {
+        "at": "2025-11-30T08:51:58Z",
+        "link": "https://shows.acast.com/society-f/episodes/692c05ae426af84c6dc87638",
+        "title": "تاریخ ایران مدرن - یرواند آبراهامیان - 1"
+      },
+      {
+        "at": "2025-11-16T06:57:37Z",
+        "link": "https://shows.acast.com/society-f/episodes/691975e11029ec1fed6713c7",
+        "title": "پول - یووال نوح هراری -2"
+      }
+    ],
+    "recent_30d": [
+      6,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "politics-with-morad-vaisi": {
+    "avg_gap_days": 1.6,
+    "avg_length": 26,
+    "episodes": 555,
+    "eps_365": 232,
+    "eps_90": 55,
+    "first_year": 1403,
+    "last": "1405/07/20",
+    "last_at": "2026-10-12T22:17:23Z",
+    "last_link": "https://www.spreaker.com/episode/syast-ba-mrad-wysy-rwayt-daghdaran-b-d-az-jnayt--75735649",
+    "last_title": "سیاست با مراد ویسی: روایت داغداران بعد از جنایت",
+    "max_length": 42,
+    "median_length": 26,
+    "min_length": 1,
+    "recent": [
+      {
+        "at": "2026-10-12T22:17:23Z",
+        "link": "https://www.spreaker.com/episode/syast-ba-mrad-wysy-rwayt-daghdaran-b-d-az-jnayt--75735649",
+        "title": "سیاست با مراد ویسی: روایت داغداران بعد از جنایت"
+      },
+      {
+        "at": "2026-10-11T22:11:35Z",
+        "link": "https://www.spreaker.com/episode/syast-ba-mrad-wysy-shmarsh-m-kws-bray-jng-bzrg-dr-khawrmyanh--75703694",
+        "title": "سیاست با مراد ویسی: شمارش معکوس برای جنگ بزرگ در خاورمیانه"
+      },
+      {
+        "at": "2026-10-10T22:23:21Z",
+        "link": "https://www.spreaker.com/episode/syast-ba-mrad-wysy-shbyh-sazy-hmlh-bh-jmhwry-aslamy-dr-asman-raq--75692778",
+        "title": "سیاست با مراد ویسی: شبیه‌سازی حمله به جمهوری اسلامی در آسمان عراق"
+      }
+    ],
+    "recent_30d": [
+      22,
+      15,
+      22,
+      18,
+      18,
+      20,
+      20,
+      20,
+      19,
+      21,
+      16,
+      18
     ],
     "status": "active"
   },
