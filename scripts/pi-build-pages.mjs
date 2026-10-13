@@ -276,4 +276,37 @@ for (const F of cand) {
     let slug = (T.en || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || `podcast-${F.id}`;
     if (haveSlug.has(slug)) slug = `${slug}-${F.id}`;
     const data = { title_fa: T.fa, title_en: T.en, author: full.author || "", description: desc, episode_titles: eps.map((e) => e.title), episode_count: full.episodeCount || F.episodeCount,
-      index_categories: Object.values(full.categories || F.categories
+      index_categories: Object.values(full.categories || F.categories || {}) };
+    const ai = basic(desc, data.index_categories);
+    if (CLASSIFY) {
+      const c = await classify(data);
+      if (aiStop) break;
+      const reason = c === undefined || c === null ? "" : c.kind !== "podcast" ? `نوع: ${KINDS[c.kind]}` : c.confidence !== "high" ? `دسته نامطمئن (پیشنهاد: ${c.category})` : "";
+      if (c === undefined) { STATE.tries[F.id] = (STATE.tries[F.id] || 0) + 1; if (STATE.tries[F.id] >= 2) STATE.review[F.id] = { title: T.fa, reason: "دسته‌بندی دو بار ناموفق بود", cat: "" }; skipped.push(`${F.id} «${T.fa}» — دسته‌بندی ناموفق (فردا دوباره)`); failsInRow++; await sleep(GAP); continue; }
+      if (reason && !IDS.length) { STATE.review[F.id] = { title: T.fa, reason, cat: c.category }; skipped.push(`${F.id} «${T.fa}» — برای بازبینی کنار گذاشته شد: ${reason}`); await sleep(GAP); continue; }
+      ai.category = c.category; ai.subcategories = c.subcategories; ai.tags = [c.category, ...c.subcategories]; ai.weak = false; ai.aiCat = true; aiOk++;
+    }
+    failsInRow = 0;
+    const logo = await makeLogo(full.artwork || full.image || F.image, slug);
+    await fs.writeFile(path.join(PODCASTS_DIR, slug + ".md"), build(F, T, slug, logo, L, eps, ai, full));
+    haveSlug.add(slug); haveSlug.add(slug.toLowerCase()); done.push({ slug, title: T.fa, cat: ai.category, logo: !!logo, weak: ai.weak, suggested: ai.suggested });
+    console.log(`✓ ${slug} — ${T.fa} (${ai.category})`);
+  } catch (e) { skipped.push(`${F.id} «${T.fa}» — ${e.message}`); if (e.fatal) fatal = e.message; else failsInRow++; }
+  await sleep(GAP);
+}
+const stopMsg = fatal ? `⛔ **اجرا متوقف شد:** ${fatal}\n\n` : failsInRow >= MAX_FAILS_IN_ROW ? `⛔ **اجرا متوقف شد:** ${MAX_FAILS_IN_ROW} شکست پشت‌سرهم (علت را در فهرست «ردشده» ببین)\n\n` : "";
+const rep = `## گزارش ساخت صفحه‌های جدید
+
+${stopMsg}- ساخته‌شده: **${done.length}** (${PUBLISH ? "منتشر شده‌اند" : "همه با \`published: false\`؛ تا تأیید نکنی روی سایت نمی‌آیند"})
+- ردشده/کنار گذاشته‌شده: ${skipped.length}${CLASSIFY ? `\n- دسته‌بندی با GitHub Models: ${aiOk} پادکست؛ ${aiCalls} درخواست مصرف شد (سقف روزانه‌ی پلن رایگان ۱۵۰)${aiStop ? `\n- ⚠️ ${aiStop}` : ""}` : ""}
+- در انتظار بازبینی دستی: ${Object.keys(STATE.review).length} (فایل needs-review.md)${CLASSIFY && aiDiag.length ? `\n\n### تشخیص اتصال به GitHub Models\n` + aiDiag.map((d) => "- " + d).join("\n") : ""}
+
+${done.map((d) => `- \`${d.slug}\` — ${d.title} · ${d.cat}${d.logo ? "" : " · بدون لوگو"}${d.weak ? ` · ⚠️ دسته‌ی ضعیف${d.suggested ? ` (پیشنهاد دسته‌ی تازه: ${d.suggested})` : ""}` : ""}`).join("\n")}
+${skipped.length ? "\n### ردشده\n" + skipped.map((s) => "- " + s).join("\n") : ""}
+`;
+await fs.mkdir(DATA, { recursive: true });
+await fs.writeFile(STATE_FILE, JSON.stringify(STATE, null, 1));
+const revIds = Object.keys(STATE.review);
+await fs.writeFile(path.join(DATA, "needs-review.md"), `# پادکست‌های در انتظار تصمیم دستی\n\nبرای ساختن صفحه‌ی هر کدام، شناسه‌اش را در ورودی \`ids\` بنویس (در این حالت هرچه مدل پیشنهاد داده بدون بازبینی پذیرفته می‌شود).\n\n` + (revIds.length ? revIds.map((id) => `- \`${id}\` «${STATE.review[id].title}» — ${STATE.review[id].reason}`).join("\n") : "فعلاً خالی است.") + "\n");
+await fs.writeFile(path.join(DATA, "build-report.md"), rep);
+console.log("\n" + rep);
