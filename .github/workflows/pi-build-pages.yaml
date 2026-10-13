@@ -1,20 +1,17 @@
 name: Podcast Index — ساخت صفحه‌های جدید (مرحله ۳)
-# هر روز خودکار اجرا می‌شود (ساعت ۰۲:۰۰ UTC = ۰۵:۳۰ تهران) و هر بار حداکثر «limit» پادکست تازه می‌سازد.
-# دسته‌بندی فقط با Groq (رایگان) و بدون هیچ کلید یا پرداختی.
-# پادکستی که دسته‌اش قطعی نشود، کتاب صوتی یا برنامه‌ی رسانه‌ی خبری باشد، صفحه نمی‌گیرد و در _data/pi/needs-review.md می‌ماند.
 on:
   schedule:
     - cron: "0 2 * * *"
   workflow_dispatch:
     inputs:
       limit:
-        description: "حداکثر چند پادکست تازه در این اجرا؟ (پیشنهاد: ۸۰؛ بیشتر از ۱۰۰ نشود)"
+        description: "حداکثر چند پادکست تازه در این اجرا؟"
         default: "80"
       ids:
-        description: "اختیاری: pi_idها با ویرگول. اگر پر شود فقط همین‌ها ساخته می‌شوند (limit و sort نادیده گرفته می‌شود، مورد بازبینی هم پذیرفته می‌شود)"
+        description: "اختیاری: pi_idها با ویرگول"
         default: ""
       publish:
-        description: "صفحه‌ها همین حالا منتشر شوند؟ (اگر تیک نخورد با published:false ساخته می‌شوند)"
+        description: "منتشر شوند؟"
         type: boolean
         default: false
       sort:
@@ -36,7 +33,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: نصب sharp (تبدیل لوگو به webp)
+      - name: نصب sharp
         run: npm install sharp --no-save --no-package-lock
       - name: ساخت صفحه‌ها
         run: node scripts/pi-build-pages.mjs
@@ -44,10 +41,9 @@ jobs:
           PI_KEY: ${{ secrets.PODCASTINDEX_KEY }}
           PI_SECRET: ${{ secrets.PODCASTINDEX_SECRET }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          GH_MODEL: ${{ vars.GH_MODEL || 'llama-3.3-70b-versatile' }}
+          GH_MODEL: ${{ vars.GH_MODEL || 'openai/gpt-oss-120b' }}
           CLASSIFY: "1"
           AI_BUDGET: "130"
-          # اجرای دستی: تیک publish؛ اجرای خودکار روزانه: متغیر مخزن PI_AUTO_PUBLISH (مقدار 1 = منتشر شود، وگرنه تأییدنشده)
           PUBLISH: ${{ inputs.publish && '1' || vars.PI_AUTO_PUBLISH || '0' }}
           LIMIT: ${{ inputs.limit || '80' }}
           SORT: ${{ inputs.sort || 'episodes' }}
