@@ -13,7 +13,7 @@ on:
           - approve
       limit:
         description: "حداکثر چند پادکست تازه"
-        default: "50"
+        default: "30"
       ids:
         description: "اختیاری: pi_idها با ویرگول"
         default: ""
@@ -47,9 +47,9 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GH_MODEL: ${{ vars.GH_MODEL || 'openai/gpt-oss-120b' }}
           CLASSIFY: "1"
-          AI_BUDGET: "50"
-          GAP_MS: "7000"
-          LIMIT: ${{ inputs.limit || '50' }}
+          AI_BUDGET: "30"
+          GAP_MS: "15000"
+          LIMIT: ${{ inputs.limit || '30' }}
           SORT: ${{ inputs.sort || 'episodes' }}
           IDS: ${{ inputs.ids }}
       - name: تأیید و انتقال drafts به podcasts
