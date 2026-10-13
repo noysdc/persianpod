@@ -1,0 +1,30 @@
+name: انتقال لوگوهای بلاک‌شده به _blocked
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: move-blocked-logos
+  cancel-in-progress: false
+jobs:
+  move:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: اجرای انتقال
+        run: node scripts/move-blocked-logos.mjs
+      - name: ذخیره
+        run: |
+          git config user.name "persianpod-bot"
+          git config user.email "persianpod-bot@users.noreply.github.com"
+          git add -A _blocked assets/img/podcasts
+          if git diff --cached --quiet; then
+            echo "چیزی برای کامیت نیست"
+            exit 0
+          fi
+          git commit -m "chore: انتقال لوگوهای بلاک‌شده به _blocked"
+          git push
