@@ -1763,6 +1763,52 @@
     ],
     "status": "active"
   },
+  "podcast-roanshnasi-dktr-srglzaii": {
+    "avg_length": 20,
+    "episodes": 222,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_year": 1398,
+    "last": "1399/12/06",
+    "last_at": "2021-02-24T08:30:00Z",
+    "last_link": "https://s3.castbox.fm/e3/a5/6d/175e454473937dd59c9b5fe796.mp3",
+    "last_title": "تیپ شناسی - دیمیتر",
+    "max_length": 186,
+    "median_length": 79,
+    "min_length": 3,
+    "recent": [
+      {
+        "at": "2021-02-24T08:30:00Z",
+        "link": "https://s3.castbox.fm/e3/a5/6d/175e454473937dd59c9b5fe796.mp3",
+        "title": "تیپ شناسی - دیمیتر"
+      },
+      {
+        "at": "2021-02-23T08:30:00Z",
+        "link": "https://s3.castbox.fm/8f/8c/c1/3f0c5247ccb632ed92f9b3b5bc.mp3",
+        "title": "تیپ شناسی - آفرودیت"
+      },
+      {
+        "at": "2021-02-22T08:30:00Z",
+        "link": "https://s3.castbox.fm/ae/57/34/8ac8c54eee8136d48b869d8044.mp3",
+        "title": "تیپ شناسی - هستیا"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "podcast-roanshnasi-saikopad": {
     "avg_gap_days": 11.2,
     "avg_length": 65,
