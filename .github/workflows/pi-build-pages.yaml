@@ -38,7 +38,7 @@ jobs:
           node-version: 22
       - name: نصب sharp (تبدیل لوگو به webp)
         run: npm install sharp --no-save --no-package-lock
-      - name: ساخت پادکست‌های جدید
+      - name: ساخت پادکست‌های جدید (فقط در حالت build)
         if: ${{ inputs.mode != 'approve' }}
         run: node scripts/pi-build-pages.mjs
         env:
@@ -51,7 +51,7 @@ jobs:
           LIMIT: ${{ inputs.limit || '80' }}
           SORT: ${{ inputs.sort || 'episodes' }}
           IDS: ${{ inputs.ids }}
-      - name: تأیید و انتقال drafts به podcasts
+      - name: تأیید و انتقال drafts به podcasts (فقط در حالت approve)
         if: ${{ inputs.mode == 'approve' }}
         run: node scripts/pi-approve.mjs
       - name: گزارش و ذخیره

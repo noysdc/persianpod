@@ -1,5 +1,5 @@
 /* PersianPod: مرحله‌ی ۳ — ساخت صفحه‌ی سبک برای پادکست‌های تازه‌ی Podcast Index
-   خروجی: _drafts/<slug>.md با published:false  +  assets/img/podcasts/<slug>.webp
+   خروجی: _drafts/<slug>.md با published:false
    نام فایل همیشه از «اسم فارسی» ساخته می‌شود (نویسه‌گردانی به انگلیسی). */
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -71,7 +71,6 @@ function translitFa(s) {
   return out;
 }
 
-/* ============ ابزارها ============ */
 const toEn = (s) => String(s).replace(/[\u06F0-\u06F9]/g, (d) => d.charCodeAt(0) - 1776).replace(/[\u0660-\u0669]/g, (d) => d.charCodeAt(0) - 1632);
 const q = JSON.stringify;
 const hasFa = (s) => /[\u0600-\u06FF]/.test(s), hasLat = (s) => /[A-Za-z]/.test(s);
@@ -128,7 +127,6 @@ const STATE_FILE = path.join(DATA, "import-state.json");
 let STATE = { tries: {}, review: {} };
 try { STATE = { tries: {}, review: {}, ...JSON.parse(await fs.readFile(STATE_FILE, "utf8")) }; } catch { /* اولین اجرا */ }
 
-/* ============ انتخاب نامزدها ============ */
 const feeds = JSON.parse(await fs.readFile(path.join(DATA, "feeds.json"), "utf8"));
 let cand;
 if (IDS.length) {
@@ -142,7 +140,6 @@ if (IDS.length) {
 }
 console.log(`نامزد: ${cand.length}، ساخته می‌شود: ${Math.min(LIMIT, cand.length)}`);
 
-/* ============ حالت پایه ============ */
 const CAT_MAP = [
   ["جنایی", ["True Crime"]], ["مستند و روایت", ["Documentary"]], ["تاریخ", ["History"]], ["موسیقی", ["Music"]],
   ["ورزش", ["Sports", "Soccer", "Football", "Baseball", "Basketball", "Cricket", "Tennis", "Wrestling"]], ["کودک و نوجوان", ["Kids"]],
@@ -163,7 +160,6 @@ function basic(desc, piCats) {
   return { category, weak: !hit, subcategories: [], tags: hit ? [category] : [], hashtags: [], description, intro: "", about: "", text: text.slice(0, 1200) };
 }
 
-/* ============ Groq ============ */
 let aiStop = "", aiCalls = 0, AI = null; const aiDiag = [];
 const NEW_CATS_FILE = path.join(DATA, "new-categories.md");
 const newCats = [];
@@ -284,7 +280,6 @@ function build(F, T, slug, logo, L, eps, ai, full) {
   return `---\n${fm.join("\n")}\n---\n\n${body.join("\n")}`;
 }
 
-/* ============ اجرا ============ */
 let aiOk = 0; const done = [], skipped = []; let fatal = "", failsInRow = 0; const seenKey = new Set();
 await fs.mkdir(DRAFTS_DIR, { recursive: true });
 for (const F of cand) {
