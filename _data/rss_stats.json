@@ -2514,32 +2514,32 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.4,
     "avg_length": 10,
-    "episodes": 4193,
-    "eps_365": 823,
-    "eps_90": 270,
+    "episodes": 4196,
+    "eps_365": 826,
+    "eps_90": 273,
     "first_year": 1402,
-    "last": "1405/07/20",
-    "last_at": "2026-10-12T02:49:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6acbe95b2c705f746cde9f7c",
-    "last_title": "قسمت چهار هزار و صد و هفتاد و هفت",
+    "last": "1405/07/21",
+    "last_at": "2026-10-13T20:28:55Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ace94843b41843137c80b0b",
+    "last_title": "قسمت چهار هزار و صد و هشتاد",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "recent": [
       {
-        "at": "2026-10-12T02:49:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6acbe95b2c705f746cde9f7c",
-        "title": "قسمت چهار هزار و صد و هفتاد و هفت"
+        "at": "2026-10-13T20:28:55Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ace94843b41843137c80b0b",
+        "title": "قسمت چهار هزار و صد و هشتاد"
       },
       {
-        "at": "2026-10-12T01:49:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6acbe8c88f90a39dfc4368b9",
-        "title": "قسمت چهار هزار و صد و هفتاد و شش"
+        "at": "2026-10-13T20:28:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ace943439599f7c560ebc72",
+        "title": "قسمت چهار هزار و صد و هفتاد و نه"
       },
       {
-        "at": "2026-10-12T01:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6acbe81a3dc1c1be4a7b846d",
-        "title": "قسمت چهار هزار و صد و هفتاد و پنج"
+        "at": "2026-10-13T20:26:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ace93d568b7ce6ffb1696d0",
+        "title": "قسمت چهار هزار و صد و هفتاد و هشت"
       }
     ],
     "recent_30d": [
@@ -2554,7 +2554,7 @@
       105,
       88,
       99,
-      83
+      86
     ],
     "status": "active"
   },
@@ -2658,14 +2658,19 @@
     "eps_365": 261,
     "eps_90": 64,
     "first_year": 1403,
-    "last": "1405/07/20",
-    "last_at": "2026-10-12T20:30:00Z",
-    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-1305-R_d7Vf4E",
-    "last_title": "مکاشفه ۱۷: ۱ تا ۸",
+    "last": "1405/07/21",
+    "last_at": "2026-10-13T20:30:00Z",
+    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-1306-VTvuEGI_",
+    "last_title": "مکاشفه ۱۷: ۹ تا ۱۸",
     "max_length": 32,
     "median_length": 28,
     "min_length": 24,
     "recent": [
+      {
+        "at": "2026-10-13T20:30:00Z",
+        "link": "https://tmm-khtb.simplecast.com/episodes/tk-1306-VTvuEGI_",
+        "title": "مکاشفه ۱۷: ۹ تا ۱۸"
+      },
       {
         "at": "2026-10-12T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-1305-R_d7Vf4E",
@@ -2675,18 +2680,9 @@
         "at": "2026-10-11T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-1304-MvVarS7Q",
         "title": "مکاشفه ۱۶: ۱۷ تا ۲۱"
-      },
-      {
-        "at": "2026-10-08T20:30:00Z",
-        "link": "https://tmm-khtb.simplecast.com/episodes/tk-1303-CeYDasAs",
-        "title": "مکاشفه ۱۶: ۸ تا ۱۶"
       }
     ],
     "recent_30d": [
-      21,
-      22,
-      22,
-      20,
       22,
       22,
       21,
@@ -2694,6 +2690,10 @@
       22,
       22,
       20,
+      22,
+      22,
+      21,
+      21,
       22
     ],
     "status": "active"
