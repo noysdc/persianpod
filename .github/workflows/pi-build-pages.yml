@@ -5,6 +5,9 @@ on:
       limit:
         description: "چند پادکست جدید ساخته شود؟"
         default: "10"
+      ids:
+        description: "اختیاری: pi_idها با ویرگول (مثلاً 6955858,4186001). اگر پر شود، limit و sort نادیده گرفته می‌شود"
+        default: ""
       sort:
         description: "ترتیب انتخاب"
         type: choice
@@ -30,6 +33,7 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           LIMIT: ${{ inputs.limit }}
           SORT: ${{ inputs.sort }}
+          IDS: ${{ inputs.ids }}
       - name: گزارش و ذخیره
         run: |
           cat _data/pi/build-report.md >> "$GITHUB_STEP_SUMMARY"

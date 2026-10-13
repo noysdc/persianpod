@@ -8,6 +8,8 @@ import crypto from "node:crypto";
 
 const E = process.env;
 const LIMIT = Math.max(1, parseInt(E.LIMIT || "10", 10)), SORT = E.SORT || "episodes";
+const IDS = (E.IDS || "").split(/[,\s،]+/).filter(Boolean).map(Number).filter(Boolean);   // اختیاری: فقط همین pi_idها ساخته شوند (برای تست دقیق)
+const MAX_FAILS_IN_ROW = 5;                                                                  // اگر پشت‌سرهم این‌قدر شکست خورد، توقف
 const PODCASTS_DIR = E.PI_PODCASTS || "_podcasts", IMG_DIR = E.PI_IMG || "assets/img/podcasts", DATA = E.PI_OUT || "_data/pi";
 const CATS_FILE = E.PI_CATS || "_data/categories.yml";
 const PI_BASE = E.PI_BASE || "https://api.podcastindex.org/api/1.0";
@@ -83,12 +85,28 @@ for (const n of await fs.readdir(PODCASTS_DIR).catch(() => [])) {
   const id = (fm.match(/^pi_id:\s*"?(\d+)/m) || [])[1]; if (id) havePi.add(+id);
   const sl = (fm.match(/^slug:\s*"?([^"\n]+)/m) || [])[1]; if (sl) haveSlug.add(sl.trim());
 }
+const haveRss = new Set(), haveKey = new Set();
+const normKey = (x) => String(x || "").replace(/[\u06F0-\u06F9]/g, (d) => d.charCodeAt(0) - 1776).toLowerCase().replace(/[\s\u200c\u200f_\-|:·.,،؛]+/g, "");
+for (const n of await fs.readdir(PODCASTS_DIR).catch(() => [])) {
+  if (!n.endsWith(".md")) continue;
+  const fm = ((await fs.readFile(path.join(PODCASTS_DIR, n), "utf8")).match(/^---\s*\n([\s\S]*?)\n---/) || [, ""])[1];
+  const rss = (fm.match(/^rss:\s*"?([^"\n]+)/m) || [])[1]; if (rss) haveRss.add(rss.trim());
+  const te = (fm.match(/^title_en:\s*"?([^"\n]+)/m) || [])[1]; if (te && normKey(te).length >= 3) haveKey.add(normKey(te));
+}
 try { for (const m of JSON.parse(await fs.readFile(path.join(DATA, "matches.json"), "utf8")).matches || []) havePi.add(+m.pi_id); } catch { /* اختیاری */ }
 
 /* ---------- انتخاب نامزدها ---------- */
 const feeds = JSON.parse(await fs.readFile(path.join(DATA, "feeds.json"), "utf8"));
-const cand = feeds.filter((f) => f.confidence === "high" && f.active === true && !f.dead && !havePi.has(+f.id) && (f.episodeCount || 0) >= 3 && hasFa(f.title || ""));
-cand.sort(SORT === "recent" ? (a, b) => (b.newestItemPubdate || 0) - (a.newestItemPubdate || 0) : (a, b) => (b.episodeCount || 0) - (a.episodeCount || 0));
+let cand;
+if (IDS.length) {                                   // حالت دستی: فقط شناسه‌های داده‌شده، به همان ترتیب
+  const byId = new Map(feeds.map((f) => [+f.id, f]));
+  cand = IDS.map((id) => byId.get(id)).filter((f) => f && !havePi.has(+f.id));
+  const bad = IDS.filter((id) => !byId.has(id) || havePi.has(id));
+  if (bad.length) console.warn("نادیده گرفته شد (در feeds.json نیست یا قبلاً ساخته شده): " + bad.join(", "));
+} else {
+  cand = feeds.filter((f) => f.confidence === "high" && f.active === true && !f.dead && !havePi.has(+f.id) && (f.episodeCount || 0) >= 3 && hasFa(f.title || ""));
+  cand.sort(SORT === "recent" ? (a, b) => (b.newestItemPubdate || 0) - (a.newestItemPubdate || 0) : (a, b) => (b.episodeCount || 0) - (a.episodeCount || 0));
+}
 console.log(`نامزد: ${cand.length}، ساخته می‌شود: ${Math.min(LIMIT, cand.length)}`);
 
 /* ---------- DeepSeek ---------- */
@@ -110,7 +128,11 @@ async function ask(data, feedback) {
   const messages = [{ role: "system", content: SYSTEM }, { role: "user", content: "داده‌ی پادکست (json):\n" + JSON.stringify(user) + (feedback ? "\n\nخطای قبلی: " + feedback : "") }];
   const r = await fetch(DS_BASE + "/chat/completions", { method: "POST", headers: { "Content-Type": "application/json", Authorization: "Bearer " + E.DEEPSEEK_API_KEY },
     body: JSON.stringify({ model: DS_MODEL, messages, response_format: { type: "json_object" }, temperature: 0.4, max_tokens: 1800 }) });
-  if (!r.ok) throw new Error("DeepSeek HTTP " + r.status);
+  if (!r.ok) {
+    const err = new Error("DeepSeek HTTP " + r.status + ([401, 402, 403].includes(r.status) ? " (کلید نامعتبر یا اعتبار حساب تمام شده؛ اجرا متوقف شد)" : ""));
+    err.fatal = [401, 402, 403].includes(r.status);
+    throw err;
+  }
   const j = await r.json();
   return JSON.parse(j.choices[0].message.content);
 }
@@ -166,11 +188,18 @@ function build(F, T, slug, logo, L, eps, ai, full) {
 }
 
 /* ---------- اجرا ---------- */
-const done = [], skipped = [];
+const done = [], skipped = []; let fatal = "", failsInRow = 0; const seenKey = new Set();
 await fs.mkdir(PODCASTS_DIR, { recursive: true });
 for (const F of cand) {
-  if (done.length >= LIMIT) break;
+  if (done.length >= (IDS.length ? IDS.length : LIMIT)) break;
+  if (fatal || failsInRow >= MAX_FAILS_IN_ROW) break;
   const T = splitTitle(F.title);
+  const dupKey = normKey(F.title) + "|" + normKey(F.author || F.ownerName);
+  if (!IDS.length) {                                // تکراری‌ها: همان عنوان+سازنده (چند فید برای یک پادکست)، یا RSS و نام انگلیسیِ موجود
+    if (seenKey.has(dupKey)) { skipped.push(`${F.id} «${T.fa}» — تکراری (فید دیگری از همین پادکست)`); continue; }
+    if (haveRss.has(F.url) || haveRss.has(F.originalUrl) || (T.en && normKey(T.en).length >= 3 && haveKey.has(normKey(T.en)))) { skipped.push(`${F.id} «${T.fa}» — احتمالاً همان صفحه‌ی دستیِ موجود است`); continue; }
+  }
+  seenKey.add(dupKey);
   try {
     const fullR = await pi("/podcasts/byfeedid", { id: F.id }); const full = (fullR && fullR.feed && fullR.feed.id) ? fullR.feed : F;
     const epR = await pi("/episodes/byfeedid", { id: F.id, max: 3 });
@@ -183,19 +212,21 @@ for (const F of cand) {
       index_categories: Object.values(full.categories || F.categories || {}) };
     let ai = null, err = "";
     for (let i = 0; i < 3 && !ai; i++) {
-      try { const raw = await ask(data, err); const v = validate(raw); if (typeof v === "string") err = v; else ai = v; } catch (e) { err = e.message; await sleep(1500); }
+      try { const raw = await ask(data, err); const v = validate(raw); if (typeof v === "string") err = v; else ai = v; } catch (e) { if (e.fatal) throw e; err = e.message; await sleep(1500); }
     }
-    if (!ai) { skipped.push(`${F.id} «${T.fa}» — ${err}`); continue; }
+    if (!ai) { skipped.push(`${F.id} «${T.fa}» — ${err}`); failsInRow++; continue; }
+    failsInRow = 0;
     const logo = await makeLogo(full.artwork || full.image || F.image, slug);
     await fs.writeFile(path.join(PODCASTS_DIR, slug + ".md"), build(F, T, slug, logo, L, eps, ai, full));
     haveSlug.add(slug); haveSlug.add(slug.toLowerCase()); done.push({ slug, title: T.fa, cat: ai.category, logo: !!logo, weak: ai.weak, suggested: ai.suggested });
     console.log(`✓ ${slug} — ${T.fa} (${ai.category})`);
-  } catch (e) { skipped.push(`${F.id} «${T.fa}» — ${e.message}`); }
+  } catch (e) { skipped.push(`${F.id} «${T.fa}» — ${e.message}`); if (e.fatal) fatal = e.message; else failsInRow++; }
   await sleep(800);
 }
+const stopMsg = fatal ? `⛔ **اجرا متوقف شد:** ${fatal}\n\n` : failsInRow >= MAX_FAILS_IN_ROW ? `⛔ **اجرا متوقف شد:** ${MAX_FAILS_IN_ROW} شکست پشت‌سرهم (علت را در فهرست «ردشده» ببین)\n\n` : "";
 const rep = `## گزارش ساخت صفحه‌های جدید
 
-- ساخته‌شده: **${done.length}** (همه با \`published: false\`؛ تا تأیید نکنی روی سایت نمی‌آیند)
+${stopMsg}- ساخته‌شده: **${done.length}** (همه با \`published: false\`؛ تا تأیید نکنی روی سایت نمی‌آیند)
 - ردشده: ${skipped.length}
 
 ${done.map((d) => `- \`${d.slug}\` — ${d.title} · ${d.cat}${d.logo ? "" : " · بدون لوگو"}${d.weak ? ` · ⚠️ دسته‌ی ضعیف${d.suggested ? ` (پیشنهاد دسته‌ی تازه: ${d.suggested})` : ""}` : ""}`).join("\n")}
