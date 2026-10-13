@@ -1,0 +1,2658 @@
+[
+  {
+    "slug": "1000frames",
+    "feed": "https://feeds.acast.com/public/shows/662a8e9ca1c8cf0012806879",
+    "existing": {
+      "city": "تهران",
+      "country": "ایران"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "Self-growth-Podcast",
+    "feed": "https://feeds.acast.com/public/shows/65913c0eba6fc6001697f29e",
+    "existing": {
+      "city": "رشت",
+      "country": "ایران"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "aamozsh-mjazi-zban-anglisi",
+    "feed": "https://elearne.com/notes/feed",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اصفهان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "شیراز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "لندن",
+        "country": "انگلستان",
+        "map_ready": true
+      },
+      {
+        "city": "کلن",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "مسکو",
+        "country": "روسیه",
+        "map_ready": true
+      },
+      {
+        "city": "نیویورک",
+        "country": "آمریکا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "abor-az-tarikh",
+    "feed": "https://feeds.acast.com/public/shows/6253141941eb830014101c81",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "مشهد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اصفهان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "شیراز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "تبریز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "همدان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرمان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اردبیل",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "بندرعباس",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اراک",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قزوین",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "زنجان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "گرگان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "بوشهر",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قشم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "استانبول",
+        "country": "ترکیه",
+        "map_ready": true
+      },
+      {
+        "city": "لندن",
+        "country": "انگلستان",
+        "map_ready": true
+      },
+      {
+        "city": "پاریس",
+        "country": "فرانسه",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "مسکو",
+        "country": "روسیه",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "aghtsad-o-siast-jhani",
+    "feed": "https://feed.dotcast.org/p/ctka8bck/feed.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اراک",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "لندن",
+        "country": "انگلستان",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "مسکو",
+        "country": "روسیه",
+        "map_ready": true
+      },
+      {
+        "city": "واشنگتن",
+        "country": "آمریکا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "ali-sdart",
+    "feed": "https://anchor.fm/s/2f313e0c/podcast/rss",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "شیراز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "تبریز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرمانشاه",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "همدان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرمان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اردبیل",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "بندرعباس",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "ساری",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "خرم‌آباد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "بیرجند",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "دوحه",
+        "country": "قطر",
+        "map_ready": true
+      },
+      {
+        "city": "لندن",
+        "country": "انگلستان",
+        "map_ready": true
+      },
+      {
+        "city": "برلین",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "پاریس",
+        "country": "فرانسه",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "مسکو",
+        "country": "روسیه",
+        "map_ready": true
+      },
+      {
+        "city": "سیدنی",
+        "country": "استرالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "awr-farsi",
+    "feed": "https://podcasts.awr.org/xml/xmliTunes/FASBE_ROH.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "boutigha",
+    "feed": "https://feeds.acast.com/public/shows/624957f6f5bbfe0012f8de54",
+    "existing": {
+      "city": "تهران",
+      "country": "ایران"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "bplus",
+    "feed": "https://feeds.acast.com/public/shows/65417dfc6143f1001280fb90",
+    "existing": {
+      "city": "اسلو",
+      "country": "نروژ"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "chandchand-chndchnd",
+    "feed": "https://www.spreaker.com/show/4153884/episodes/feed",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "مشهد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اصفهان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "شیراز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "تبریز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اهواز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اراک",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "خرم‌آباد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قشم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "آمل",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "دوحه",
+        "country": "قطر",
+        "map_ready": true
+      },
+      {
+        "city": "پاریس",
+        "country": "فرانسه",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "مسکو",
+        "country": "روسیه",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "channelb",
+    "feed": "https://feeds.acast.com/public/shows/651e9d60130f3400115df9a0",
+    "existing": {
+      "city": "اسلو",
+      "country": "نروژ"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "chekideh-plus",
+    "feed": "https://feeds.acast.com/public/shows/68008e5cb4ef799a7a50bb5f",
+    "existing": {
+      "city": "بریزبن",
+      "country": "استرالیا"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "dastan-hai-kotah-ba-rza",
+    "feed": "https://rss.castbox.fm/everest/e01f9471144a4899b050b6e7b07716a0.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "dastan-zndgi-mn-ba-aiman-khrmi-nzhad",
+    "feed": "http://rss.castbox.fm/everest/74db79e7abd343b4a209c655e410b894.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "لندن",
+        "country": "انگلستان",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "diapazon-atls-mosighi-ghrn-bistm",
+    "feed": "https://rss.castbox.fm/everest/be5a3f3f7bfa43eaa4e8a5a10471dc6e.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اراک",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "برلین",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "پاریس",
+        "country": "فرانسه",
+        "map_ready": true
+      },
+      {
+        "city": "استکهلم",
+        "country": "سوئد",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "نیویورک",
+        "country": "آمریکا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "doxpodcast",
+    "feed": "https://feeds.acast.com/public/shows/653820e8bc6f9000122c7492",
+    "existing": {
+      "city": "اسلو",
+      "country": "نروژ"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "filmhai-sinmaii-airani",
+    "feed": "https://mp3movies.ir/category/iranian-movies/feed",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "error: ParseError"
+  },
+  {
+    "slug": "hamartia",
+    "feed": null,
+    "existing": {
+      "city": "تهران",
+      "country": "ایران"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "ismcast",
+    "feed": "https://anchor.fm/s/11228194c/podcast/rss",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "jamah",
+    "feed": "https://feeds.acast.com/public/shows/6732ef429395568d27b62b8e",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "not_found"
+  },
+  {
+    "slug": "kaaghaz-e-akhbar",
+    "feed": "https://anchor.fm/s/ed3260e8/podcast/rss",
+    "existing": {
+      "city": "تهران",
+      "country": "ایران"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "kanal-hmrah-madr-o-kodk",
+    "feed": "https://rss.castbox.fm/everest/e725c1c352a449d29af317d74153762d.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "بندرعباس",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "khoansh-ktab-brai-ansan-khrdmnd-2",
+    "feed": "http://rss.castbox.fm/everest/ac653179791447a49a0a56b4a021d0ed.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "khoansh-mton-farsi",
+    "feed": "https://anchor.fm/s/4677f358/podcast/rss",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "khorsht-tknolozhi",
+    "feed": "https://sbs-ondemand.streamguys1.com/khoresht-e-tech/",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اراک",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "لندن",
+        "country": "انگلستان",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "مسکو",
+        "country": "روسیه",
+        "map_ready": true
+      },
+      {
+        "city": "نیویورک",
+        "country": "آمریکا",
+        "map_ready": true
+      },
+      {
+        "city": "سیدنی",
+        "country": "استرالیا",
+        "map_ready": true
+      },
+      {
+        "city": "ملبورن",
+        "country": "استرالیا",
+        "map_ready": true
+      },
+      {
+        "city": "توکیو",
+        "country": "ژاپن",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "ktab-aadm-i-zad",
+    "feed": "https://feeds.acast.com/public/shows/67d1e281ba1ef91ed06d0d50",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "نیویورک",
+        "country": "آمریکا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "lzt-dniai-ktab",
+    "feed": "https://feed.podkadeh.cloud/podcastxml/lezate-donyaye-ketab.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "mimmpodcast",
+    "feed": "https://rss.audiyacreators.one/cmhwe10fp49z7yriygrn1",
+    "existing": {
+      "city": "تهران",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "نیویورک",
+        "country": "آمریکا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "naaji",
+    "feed": "https://feeds.acast.com/public/shows/naaji",
+    "existing": {
+      "city": "تورنتو",
+      "country": "کانادا"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "noys",
+    "feed": "https://api.rabt.host/podcasts/f341ce22-a0e2-40fe-9ae1-d53b166c753b/rss",
+    "existing": {
+      "city": "کیش",
+      "country": "ایران"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "padkst",
+    "feed": "https://feeds.libsyn.com/536437/rss",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "podcast-bkhsh-farsi-klisai-feg-gisn",
+    "feed": "https://anchor.fm/s/440d0478/podcast/rss",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "podcast-farsi-fikshn-fiction-podcast",
+    "feed": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "برلین",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "پاریس",
+        "country": "فرانسه",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "مسکو",
+        "country": "روسیه",
+        "map_ready": true
+      },
+      {
+        "city": "ملبورن",
+        "country": "استرالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "podcast-fotbal-lb",
+    "feed": "https://feed.podkadeh.cloud/podcastxml/footballlab.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "تبریز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اراک",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "ساری",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "لندن",
+        "country": "انگلستان",
+        "map_ready": true
+      },
+      {
+        "city": "برلین",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "کلن",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "فرانکفورت",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "پاریس",
+        "country": "فرانسه",
+        "map_ready": true
+      },
+      {
+        "city": "آمستردام",
+        "country": "هلند",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "مادرید",
+        "country": "اسپانیا",
+        "map_ready": true
+      },
+      {
+        "city": "مسکو",
+        "country": "روسیه",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "podcast-prchm-sfid",
+    "feed": "https://feeds.acast.com/public/shows/69c78827b9917327710c49c5",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اراک",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "لندن",
+        "country": "انگلستان",
+        "map_ready": true
+      },
+      {
+        "city": "برلین",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "پاریس",
+        "country": "فرانسه",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "مسکو",
+        "country": "روسیه",
+        "map_ready": true
+      },
+      {
+        "city": "نیویورک",
+        "country": "آمریکا",
+        "map_ready": true
+      },
+      {
+        "city": "واشنگتن",
+        "country": "آمریکا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "podcast-roanshnasi-dktr-srglzaii",
+    "feed": "https://rss.castbox.fm/everest/877a7dd6167d42d196578c447ea5775f.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "استکهلم",
+        "country": "سوئد",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "podcast-roanshnasi-saikopad",
+    "feed": "https://feed.dotcast.org/p/lu8pm6lt/feed.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تبریز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "فرانکفورت",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "مسکو",
+        "country": "روسیه",
+        "map_ready": true
+      },
+      {
+        "city": "مونترال",
+        "country": "کانادا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "radio-astartap-360",
+    "feed": "https://rss.castbox.fm/everest/fe5af3b49c3e43ad8e85986504e860bb.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "شیراز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "تبریز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرج",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "ساری",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "radio-ghsh-kodk",
+    "feed": "https://rss.castbox.fm/everest/5fe4dc09dee44e3fb41ac07a708776ad.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "radio-jamah-padkst-ajtmaai",
+    "feed": "https://www.spreaker.com/show/4834935/episodes/feed",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "مشهد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اصفهان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "شیراز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "تبریز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرج",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "ارومیه",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "همدان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرمان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "ساری",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قزوین",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "بوشهر",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قشم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "بابل",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "لندن",
+        "country": "انگلستان",
+        "map_ready": true
+      },
+      {
+        "city": "پاریس",
+        "country": "فرانسه",
+        "map_ready": true
+      },
+      {
+        "city": "استکهلم",
+        "country": "سوئد",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "مونترال",
+        "country": "کانادا",
+        "map_ready": true
+      },
+      {
+        "city": "نیویورک",
+        "country": "آمریکا",
+        "map_ready": true
+      },
+      {
+        "city": "واشنگتن",
+        "country": "آمریکا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "radiodoor",
+    "feed": "https://player.rabt.space/p/dd19cd16-6f08-4d73-8b71-14c8dd556ccc.xml",
+    "existing": {
+      "city": "تهران",
+      "country": "ایران"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "roanshnasi-shkhsit-o-khoshbkhti",
+    "feed": "https://anchor.fm/s/3459fc34/podcast/rss",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "ارومیه",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اراک",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "ساری",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "برلین",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "فرانکفورت",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "استکهلم",
+        "country": "سوئد",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "نیویورک",
+        "country": "آمریکا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "sdai-bazar",
+    "feed": "https://feed.dotcast.org/p/bozvcayr/feed.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اصفهان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "بندرعباس",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "لندن",
+        "country": "انگلستان",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "مادرید",
+        "country": "اسپانیا",
+        "map_ready": true
+      },
+      {
+        "city": "واشنگتن",
+        "country": "آمریکا",
+        "map_ready": true
+      },
+      {
+        "city": "توکیو",
+        "country": "ژاپن",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "shar-ba-sdai-shaar",
+    "feed": "https://feeds.acast.com/public/shows/67b236158fcb78617500b8a5",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "مشهد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اصفهان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "شیراز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "تبریز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرج",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرمانشاه",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "همدان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرمان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اراک",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "ساری",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قزوین",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "زنجان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "گرگان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "سمنان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "لندن",
+        "country": "انگلستان",
+        "map_ready": true
+      },
+      {
+        "city": "برلین",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "کلن",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "تورنتو",
+        "country": "کانادا",
+        "map_ready": true
+      },
+      {
+        "city": "مونترال",
+        "country": "کانادا",
+        "map_ready": true
+      },
+      {
+        "city": "نیویورک",
+        "country": "آمریکا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "shar",
+    "feed": "http://rss.castbox.fm/everest/aa30903431d04d67ba2492ead8ca0faa.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "مشهد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اصفهان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "شیراز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "تبریز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اهواز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرج",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرمانشاه",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرمان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اراک",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "ساری",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قزوین",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "زنجان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "گرگان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "بوشهر",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "بابل",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "لندن",
+        "country": "انگلستان",
+        "map_ready": true
+      },
+      {
+        "city": "برلین",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "کلن",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "پاریس",
+        "country": "فرانسه",
+        "map_ready": true
+      },
+      {
+        "city": "استکهلم",
+        "country": "سوئد",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "تورنتو",
+        "country": "کانادا",
+        "map_ready": true
+      },
+      {
+        "city": "مونترال",
+        "country": "کانادا",
+        "map_ready": true
+      },
+      {
+        "city": "نیویورک",
+        "country": "آمریکا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "shenakht",
+    "feed": null,
+    "existing": {
+      "city": "اصفهان",
+      "country": "ایران"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "status-married",
+    "feed": "https://feeds.acast.com/public/shows/68f2a7b84c07b133bfa873d2",
+    "existing": {
+      "city": "ساری",
+      "country": "ایران"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "synapselingo-iadgiri-zban-anglisi",
+    "feed": "https://synapselingo-persian-learn-english.podigee.io/feed/mp3",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "t-me-radioshereparsi-radio-shar-parsi",
+    "feed": "https://anchor.fm/s/19436c8c/podcast/rss",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "تهران",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "شیراز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "تبریز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرج",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرمانشاه",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "همدان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرمان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "ساری",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "زنجان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "tarikh-aslam",
+    "feed": "https://rss.castbox.fm/everest/e86fe7b8523d4e45ae985b11494e85d5.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "not_found"
+  },
+  {
+    "slug": "tarikh-bdon-sansor",
+    "feed": "https://feeds.acast.com/public/shows/652fdf0e124b9d0012c3879f",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "tarikh-tmdn",
+    "feed": "https://rss.castbox.fm/everest/e796910706f94766bd13f816be37630f.xml",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "شیراز",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرج",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "قم",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "زاهدان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کرمان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "یزد",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "اراک",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "ساری",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "گرگان",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "بوشهر",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "ایلام",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "کیش",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "بابل",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "دبی",
+        "country": "امارات",
+        "map_ready": true
+      },
+      {
+        "city": "استانبول",
+        "country": "ترکیه",
+        "map_ready": true
+      },
+      {
+        "city": "لندن",
+        "country": "انگلستان",
+        "map_ready": true
+      },
+      {
+        "city": "برلین",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "کلن",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "هامبورگ",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "پاریس",
+        "country": "فرانسه",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      },
+      {
+        "city": "مادرید",
+        "country": "اسپانیا",
+        "map_ready": true
+      },
+      {
+        "city": "مسکو",
+        "country": "روسیه",
+        "map_ready": true
+      },
+      {
+        "city": "نیویورک",
+        "country": "آمریکا",
+        "map_ready": true
+      },
+      {
+        "city": "سیدنی",
+        "country": "استرالیا",
+        "map_ready": true
+      },
+      {
+        "city": "توکیو",
+        "country": "ژاپن",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "the-spies-circle",
+    "feed": "https://feeds.acast.com/public/shows/66d944afeeeb1e3b757154c0",
+    "existing": {
+      "city": "بریزبن",
+      "country": "استرالیا"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "tmam-ktab",
+    "feed": "https://feeds.simplecast.com/pFYhyFWo",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "رشت",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "بابل",
+        "country": "ایران",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "vaghte-esterahat",
+    "feed": "http://rss.castbox.fm/everest/007fbc8b21544c22bb29d0daea555c46.xml",
+    "existing": {
+      "city": "ساری",
+      "country": "ایران"
+    },
+    "status": "already_set"
+  },
+  {
+    "slug": "women-in-science",
+    "feed": "https://anchor.fm/s/10737019c/podcast/rss",
+    "existing": {
+      "city": "",
+      "country": ""
+    },
+    "status": "ok",
+    "source": "description",
+    "confidence": "low",
+    "candidates": [
+      {
+        "city": "برلین",
+        "country": "آلمان",
+        "map_ready": true
+      },
+      {
+        "city": "پاریس",
+        "country": "فرانسه",
+        "map_ready": true
+      },
+      {
+        "city": "وین",
+        "country": "اتریش",
+        "map_ready": true
+      },
+      {
+        "city": "رم",
+        "country": "ایتالیا",
+        "map_ready": true
+      }
+    ]
+  },
+  {
+    "slug": "zangetarikh",
+    "feed": "https://feeds.acast.com/public/shows/624017fbb07b8a00124d6eee?results=1&type=alexa-flash-brief",
+    "existing": {
+      "city": "اردبیل",
+      "country": "ایران"
+    },
+    "status": "already_set"
+  }
+]
