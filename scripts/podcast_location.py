@@ -6,7 +6,7 @@ Suggest podcast locations from public RSS feeds, matched against _data/cities.ym
 - Skips podcasts whose city AND country are already filled (use --all to re-check
   them and flag differences).
 - Source 1 (high confidence): <podcast:location> tag.
-- Source 2 (low confidence): known city names inside the feed description/author.
+- Source 2 (opt-in with --guess, low confidence): city names in the channel description.
 - The map matches by NAME, so a suggestion is only "map_ready" if the city (or country)
   already exists in _data/cities.yml. Otherwise the report gives a ready-to-paste
   cities.yml line (if the feed has coordinates) or says coordinates are needed.
@@ -29,6 +29,7 @@ FEED_KEYS = ["rss", "rss_url", "feed", "feed_url"]
 TIMEOUT = 25
 HEADERS = {"User-Agent": "PersianPodBot/1.0 (+https://persianpod.ir)"}
 CHECK_ALL = "--all" in sys.argv
+GUESS = "--guess" in sys.argv  # description guessing is OFF by default (noisy)
 
 NS_PODCAST = ["https://podcastindex.org/namespace/1.0", "http://podcastindex.org/namespace/1.0"]
 
@@ -121,15 +122,17 @@ def normalise(text):
 
 
 def text_candidates(channel):
+    """Low-confidence guess. Only the channel's OWN description/author (not episodes),
+    and only whole words (so "رم" does not match inside "برنامه")."""
     parts = []
-    for el in channel.iter():
-        tag = el.tag.split("}")[-1]
-        if tag in ("description", "author", "summary") and el.text:
-            parts.append(el.text)
+    for child in list(channel):
+        tag = child.tag.split("}")[-1]
+        if tag in ("description", "author", "summary", "subtitle") and child.text:
+            parts.append(child.text)
     blob = " ".join(parts)
     found = {}
     for fa in CITY_COUNTRY:
-        if fa in blob:
+        if re.search(rf"(?<![\u0600-\u06FF]){re.escape(fa)}(?![\u0600-\u06FF])", blob):
             found[fa] = CITY_COUNTRY[fa]
     return [{"city": c, "country": k} for c, k in found.items()]
 
@@ -184,7 +187,7 @@ def process(path, map_names):
             entry["note"] = "مکان در فید هست ولی نامش در فهرست شناخته‌شده نبود؛ دستی بررسی شود"
         return entry
 
-    guesses = text_candidates(channel)
+    guesses = text_candidates(channel) if GUESS else []
     if guesses:
         entry.update(status="ok", source="description", confidence="low", candidates=guesses)
         for g in guesses:
