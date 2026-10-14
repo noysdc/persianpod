@@ -140,23 +140,18 @@
   "aamozsh-zban-ba-lingano-padkst": {
     "avg_gap_days": 2.9,
     "avg_length": 7,
-    "episodes": 155,
-    "eps_365": 127,
-    "eps_90": 59,
+    "episodes": 154,
+    "eps_365": 126,
+    "eps_90": 58,
     "first_year": 1404,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T06:30:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/84---e3qdtu1",
-    "last_title": "قسمت 84 - انگلیسی تو مهمونی ۴",
+    "last": "1405/07/21",
+    "last_at": "2026-10-13T07:52:47Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/83---e3qdtmn",
+    "last_title": "قسمت 83 - انگلیسی تو مهمونی ۳",
     "max_length": 17,
     "median_length": 4,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/108b105e0/podcast/play/127382913/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2Fcf81b3ae-1125-0f66-0941-3071a03b4028.mp3",
-        "at": "2026-10-14T06:30:00Z",
-        "t": "قسمت 84 - انگلیسی تو مهمونی ۴"
-      },
       {
         "a": "https://anchor.fm/s/108b105e0/podcast/play/127382679/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F7329ff74-c014-0f50-9ca6-752727d71af3.mp3",
         "at": "2026-10-13T07:52:47Z",
@@ -191,14 +186,14 @@
         "a": "https://anchor.fm/s/108b105e0/podcast/play/126544568/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-30%2F80035ee7-3ae8-2e41-ec98-92a30b506e59.mp3",
         "at": "2026-09-30T07:22:36Z",
         "t": "قسمت 77 - Here goes nothing"
+      },
+      {
+        "a": "https://anchor.fm/s/108b105e0/podcast/play/126404999/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-28%2F22a3b0e0-6607-a6a6-81ae-31ba2d90986e.mp3",
+        "at": "2026-09-28T07:59:48Z",
+        "t": "قسمت 76 - Rest is history"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-14T06:30:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/84---e3qdtu1",
-        "title": "قسمت 84 - انگلیسی تو مهمونی ۴"
-      },
       {
         "at": "2026-10-13T07:52:47Z",
         "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/83---e3qdtmn",
@@ -208,6 +203,11 @@
         "at": "2026-10-12T06:30:00Z",
         "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/82---e3qaqko",
         "title": "قسمت 82 - انگلیسی تو مهمونی ۲"
+      },
+      {
+        "at": "2026-10-11T07:45:37Z",
+        "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/81---e3qaqe1",
+        "title": "قسمت 81 - انگلیسی تو مهمونی ۱"
       }
     ],
     "recent_30d": [
@@ -222,7 +222,7 @@
       16,
       21,
       19,
-      19
+      18
     ],
     "status": "active"
   },
@@ -5944,7 +5944,7 @@
     "avg_length": 10,
     "episodes": 4196,
     "eps_365": 826,
-    "eps_90": 270,
+    "eps_90": 269,
     "first_year": 1402,
     "last": "1405/07/22",
     "last_at": "2026-10-14T06:30:55Z",
@@ -6021,8 +6021,8 @@
       0,
       3,
       21,
-      108,
-      85,
+      109,
+      84,
       100,
       85
     ],
