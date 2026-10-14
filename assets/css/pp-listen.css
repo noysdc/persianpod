@@ -42,9 +42,3 @@
   border-radius: 50%; border: 3px solid var(--card, #14181b); background: #08cb00; box-shadow: 0 0 0 1px #08cb00, 0 4px 12px var(--glow-soft, rgba(8, 203, 0, .3));
 }
 @media (prefers-reduced-motion: no-preference) { .pl-clock-bubble, .pl-clock-thumb, .pl-clock-past, .pl-clock-rest { transition: left .6s ease, width .6s ease; } }
-
-/* دکمه‌ی «نمایش بیشتر / نمایش همه‌ی قسمت‌ها» زیر فهرست قسمت‌ها */
-.pp-more-btn { display: block; margin: 10px auto 0; height: 36px; padding: 0 18px; border: 0; border-radius: 999px; background: rgba(8, 203, 0, .10); color: var(--ink); font: inherit; font-size: .85rem; font-weight: 700; box-shadow: inset 0 0 0 1px rgba(8, 203, 0, .45); cursor: pointer; }
-.pp-more-btn:hover { background: rgba(8, 203, 0, .18); }
-.pp-more-btn:disabled { opacity: .6; cursor: progress; }
-.pp-more-btn:focus-visible { outline: 3px solid #08cb00; outline-offset: 3px; }
