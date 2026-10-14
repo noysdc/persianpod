@@ -19,8 +19,8 @@ pi_id: 7475285
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # آموزش زبان با لینگانو پادکست
