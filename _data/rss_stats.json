@@ -5552,20 +5552,25 @@
   },
   "shar-ba-sdai-shaar": {
     "avg_gap_days": 2.5,
-    "avg_length": 5,
-    "episodes": 342,
-    "eps_365": 145,
-    "eps_90": 38,
+    "avg_length": 4,
+    "episodes": 343,
+    "eps_365": 146,
+    "eps_90": 39,
     "first_at": "2025-01-23",
     "first_year": 1403,
-    "last": "1405/07/18",
-    "last_at": "2026-10-10T19:30:00Z",
-    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c19f667ed28baec0cf456",
-    "last_title": "عالمتاج قائم مقامی | پیام به ناآمدگان | صدای مریم کوشا",
+    "last": "1405/07/22",
+    "last_at": "2026-10-14T19:30:00Z",
+    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/69183f0d1029ec1fed293d7a",
+    "last_title": "یدالله رویایی | میوه‌های ملال",
     "max_length": 44,
     "median_length": 4,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/69183f0d1029ec1fed293d7a/media.mp3",
+        "at": "2026-10-14T19:30:00Z",
+        "t": "یدالله رویایی | میوه‌های ملال"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c19f667ed28baec0cf456/media.mp3",
         "at": "2026-10-10T19:30:00Z",
@@ -5600,14 +5605,14 @@
         "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c108e295fc6e84895ca1b/media.mp3",
         "at": "2026-09-18T19:30:00Z",
         "t": "فخرالدین مزراعی | شرمنده ز عمر | صدای علی‌اکبر یاغی‌تبار"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c118d295fc6e84895f8f8/media.mp3",
-        "at": "2026-09-15T19:30:00Z",
-        "t": "مهدی حمیدی شیرازی | ایران چه می‌گوید؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-14T19:30:00Z",
+        "link": "https://shows.acast.com/sedaye-shaer/episodes/69183f0d1029ec1fed293d7a",
+        "title": "یدالله رویایی | میوه‌های ملال"
+      },
       {
         "at": "2026-10-10T19:30:00Z",
         "link": "https://shows.acast.com/sedaye-shaer/episodes/691c19f667ed28baec0cf456",
@@ -5617,11 +5622,6 @@
         "at": "2026-10-06T19:30:00Z",
         "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1afc589629f7d6b0a008",
         "title": "هوشنگ ابتهاج | جمع پراکنده"
-      },
-      {
-        "at": "2026-10-01T19:30:00Z",
-        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1aaab958098159a3aa9a",
-        "title": "نصرت رحمانی | میعاد در لجن"
       }
     ],
     "recent_30d": [
@@ -5636,7 +5636,7 @@
       16,
       17,
       13,
-      8
+      9
     ],
     "status": "active"
   },
