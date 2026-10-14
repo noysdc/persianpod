@@ -1763,20 +1763,25 @@
     "status": "active"
   },
   "podcast-prchm-sfid": {
-    "avg_gap_days": 6.4,
+    "avg_gap_days": 6.3,
     "avg_length": 40,
-    "episodes": 171,
-    "eps_365": 57,
-    "eps_90": 22,
+    "episodes": 172,
+    "eps_365": 58,
+    "eps_90": 23,
     "first_year": 1397,
-    "last": "1405/07/19",
-    "last_at": "2026-10-11T04:00:00Z",
-    "last_link": "https://shows.acast.com/white-flag-pdcst/episodes/6ac8933f3b418431371d4165",
-    "last_title": "یازده سپتامبر و عملیات آزادی پایدار - پرونده جنگ افغانستان - قسمت ۱۱",
+    "last": "1405/07/22",
+    "last_at": "2026-10-14T04:00:00Z",
+    "last_link": "https://shows.acast.com/white-flag-pdcst/episodes/6ace48569fea6e0a64dd5630",
+    "last_title": "از تورا بورا تا کنفرانس بن - پرونده جنگ افغانستان - قسمت ۱۲",
     "max_length": 102,
     "median_length": 41,
     "min_length": 8,
     "recent": [
+      {
+        "at": "2026-10-14T04:00:00Z",
+        "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ace48569fea6e0a64dd5630",
+        "title": "از تورا بورا تا کنفرانس بن - پرونده جنگ افغانستان - قسمت ۱۲"
+      },
       {
         "at": "2026-10-11T04:00:00Z",
         "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ac8933f3b418431371d4165",
@@ -1786,11 +1791,6 @@
         "at": "2026-10-07T04:00:00Z",
         "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ac335585558f9dbe24ceaf3",
         "title": "امارت ملا عمر - پرونده جنگ افغانستان - قسمت ۱۰"
-      },
-      {
-        "at": "2026-10-04T04:00:00Z",
-        "link": "https://shows.acast.com/white-flag-pdcst/episodes/6abf940ab06169dc721fc209",
-        "title": "کابل در آتش: جنگ داخلی مجاهدین - پرونده جنگ افغانستان - قسمت ۹"
       }
     ],
     "recent_30d": [
@@ -1805,7 +1805,7 @@
       6,
       7,
       7,
-      8
+      9
     ],
     "status": "active"
   },
