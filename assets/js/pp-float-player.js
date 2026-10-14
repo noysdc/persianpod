@@ -26,6 +26,7 @@
   var DEFAULT = { w: 360, h: 300 };
 
   var root, bar, titleEl, frame, minBtn, statusEl, statusMsg, pageLink;
+  var curEpsUrl = "";
   var selRate, selSleep, leftEl, rate = 1, sleepT = 0, sleepTick = 0, sleepAt = 0, sleepEnd = false;
   var RATE_KEY = "pp-rate", RATES = [0.75, 1, 1.25, 1.5, 1.75, 2];
   var audioWrap, audioEl, nowEl, epsEl, mode = "frame", eps = [], epI = 0;
@@ -377,7 +378,7 @@
     eps.forEach(function (e, i) {
       var li = document.createElement("li"), b = document.createElement("button");
       b.type = "button"; b.className = "ppfp__ep" + (i === epI ? " on" : "");
-      b.textContent = e.t || "قسمت " + (i + 1);
+      b.textContent = e.t || "قسمت " + (i + 1); b.title = e.t || "";
       if (i === epI) b.setAttribute("aria-current", "true");
       b.addEventListener("click", function () { playEp(i); });
       li.appendChild(b); epsEl.appendChild(li);
@@ -409,7 +410,7 @@
     curSrc = ""; loaded = false;
   }
   function stopAudio() {
-    clearSleep();
+    clearSleep(); curEpsUrl = "";
     if (!audioEl) return;
     audioEl.pause(); audioEl.removeAttribute("src"); try { audioEl.load(); } catch (e) {}
   }
@@ -428,6 +429,24 @@
     applyGeometry();
     if (same) { epI = idx; renderEps(); var pr = audioEl.play(); if (pr && pr.catch) pr.catch(function () {}); }
     else playEp(idx);
+    loadAllEps(opts && opts.epsUrl);
+  }
+  /* فهرست کامل قسمت‌ها (assets/eps/<slug>.json) بعد از شروع پخش بار می‌شود و جای فهرست کوتاه می‌نشیند */
+  function fetchEps(url) {
+    return fetch(url, { credentials: "same-origin" })
+      .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+      .then(function (j) { return cleanEps(j); });
+  }
+  function loadAllEps(url) {
+    curEpsUrl = url || "";
+    if (!url || !window.fetch) return;
+    fetchEps(url).then(function (list) {
+      if (curEpsUrl !== url || mode !== "audio" || list.length <= eps.length) return;
+      var cur = audioEl.getAttribute("src"), at = -1;
+      list.forEach(function (e, i) { if (e.a === cur) at = i; });
+      eps = list; epI = at > -1 ? at : 0;
+      renderEps();
+    }).catch(function () {});
   }
 
   function open(opts) {
@@ -476,7 +495,28 @@
         index: items.indexOf(au),
         title: box.getAttribute("data-title") || "",
         page: box.getAttribute("data-page") || "",
+        epsUrl: box.getAttribute("data-eps-url") || "",
       });
+      return;
+    }
+    var more = e.target.closest("[data-pp-more]");
+    if (more) {                                   // «نمایش همه‌ی قسمت‌ها» در صفحه‌ی پادکست
+      e.preventDefault();
+      var pb = more.closest("[data-pp-playlist]"), url = pb && pb.getAttribute("data-eps-url"), ul = pb && pb.querySelector(".pp-eplist");
+      if (!url || !ul || !window.fetch) return;
+      more.disabled = true;
+      fetchEps(url).then(function (list) {
+        var first = pb.querySelector("[data-pp-audio]"), skip = first ? first.getAttribute("data-pp-audio") : "";
+        ul.innerHTML = "";
+        list.forEach(function (ep) {
+          if (ep.a === skip) return;
+          var li = document.createElement("li"), b = document.createElement("button"), sp = document.createElement("span");
+          b.type = "button"; b.setAttribute("data-pp-audio", ep.a); b.setAttribute("data-t", ep.t || ""); b.title = ep.t || "";
+          b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
+          sp.textContent = ep.t || ""; b.appendChild(sp); li.appendChild(b); ul.appendChild(li);
+        });
+        more.remove();
+      }).catch(function () { more.disabled = false; });
       return;
     }
     var el = e.target.closest("[data-pp-embed]");

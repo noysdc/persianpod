@@ -11,6 +11,22 @@
 
   var FA = "۰۱۲۳۴۵۶۷۸۹", AR = "٠١٢٣٤٥٦٧٨٩";
   function toFa(n) { return String(n).replace(/\d/g, function (d) { return FA[d]; }); }
+
+  /* ---------- ساعت زنده‌ی بالای صفحه: جای نقطه = نسبت گذشته‌ی روز ---------- */
+  (function clock() {
+    var box = $("#pl-clock"), tEl = $("#pl-clock-t");
+    if (!box || !tEl) return;
+    function tick() {
+      if (!document.body.contains(box)) { clearInterval(iv); return; }     // با رفتن به صفحه‌ی دیگر متوقف می‌شود
+      var d = new Date(), h = d.getHours(), m = d.getMinutes();
+      var txt = toFa((h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m);
+      if (tEl.textContent !== txt) tEl.textContent = txt;
+      box.style.setProperty("--p", ((h * 60 + m) / 1440).toFixed(4));
+      box.setAttribute("aria-label", "ساعت " + txt);
+    }
+    var iv = setInterval(tick, 15000);
+    tick();
+  })();
   function norm(s) {
     return String(s == null ? "" : s).replace(/[يى]/g, "ی").replace(/ك/g, "ک").replace(/[\u064B-\u065F\u0670]/g, "")
       .replace(/\u200c/g, " ").replace(/\s+/g, " ")
@@ -193,17 +209,7 @@
       '<div id="pl-slot">' + (window.PPPlayer ? '<p class="pp-poster-note">پلیر به‌صورت شناور باز می‌شود و هنگام گشت‌وگذار در سایت هم پخش ادامه دارد.</p><button type="button" class="pp-poster-btn" id="pl-play" aria-label="پخش ' + esc(p.title) + '">' + PLAY + 'پخش پادکست</button>' : "") + "</div>" +
       (yt ? '<h3 class="pl-sub">قسمت منتخب در یوتیوب</h3><div id="pl-yt"></div>' : "") +
       '<div class="pl-links"><a href="' + esc(p.url) + '">صفحه‌ی معرفی پادکست</a></div>';
-    var slot0 = document.getElementById("pl-slot");          // فهرست قسمت‌های اخیر زیر دکمه‌ی پخش
-    if (slot0 && p._eps.length > 1) {
-      slot0.setAttribute("data-pp-playlist", ""); slot0.setAttribute("data-title", p.title);
-      var ul = document.createElement("ul"); ul.className = "pp-eplist"; ul.setAttribute("aria-label", "قسمت‌های اخیر");
-      p._eps.forEach(function (e) {
-        var li = document.createElement("li"), b = document.createElement("button"), sp = document.createElement("span");
-        b.type = "button"; b.setAttribute("data-pp-audio", e.a); b.setAttribute("data-t", e.t || "");
-        b.innerHTML = PLAY; sp.textContent = e.t || ""; b.appendChild(sp); li.appendChild(b); ul.appendChild(li);
-      });
-      slot0.appendChild(ul);
-    }
+    renderEpList(p, SHOW); loadAllEps(p);
     function mount(id, cls, url, title, allow) {
       var slot = document.getElementById(id); if (!slot) return;
       var f = document.createElement("iframe");
@@ -222,11 +228,48 @@
     if (scroll) stage.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
+  /* فهرست کامل قسمت‌ها: فایل جدای هر پادکست، بعد از انتخاب بار می‌شود (اولش ۸ قسمت آماده است) */
+  var EPS_BASE = String(window.PP_DATA_URL || "/podcasts.json").replace(/podcasts\.json.*$/, "") + "assets/eps/";
+  function epsUrl(p) { return EPS_BASE + encodeURIComponent(p.id) + ".json"; }
+  var SHOW = 20;                                         // تعداد اولیه‌ی قسمت‌های نمایش‌داده‌شده در فهرست
+  function renderEpList(p, limit) {
+    var slot = document.getElementById("pl-slot");
+    if (!slot || current !== p) return;
+    var old = $(".pp-eplist", slot); if (old) old.remove();
+    var oldMore = $(".pp-more-btn", slot); if (oldMore) oldMore.remove();
+    var list = p._eps;
+    if (list.length < 2) return;
+    slot.setAttribute("data-pp-playlist", ""); slot.setAttribute("data-title", p.title); slot.setAttribute("data-eps-url", epsUrl(p));
+    var ul = document.createElement("ul"); ul.className = "pp-eplist"; ul.setAttribute("aria-label", "قسمت‌ها");
+    list.slice(0, limit).forEach(function (e) {
+      var li = document.createElement("li"), b = document.createElement("button"), sp = document.createElement("span");
+      b.type = "button"; b.setAttribute("data-pp-audio", e.a); b.setAttribute("data-t", e.t || ""); b.title = e.t || "";
+      b.innerHTML = PLAY; sp.textContent = e.t || ""; b.appendChild(sp); li.appendChild(b); ul.appendChild(li);
+    });
+    slot.appendChild(ul);
+    if (list.length > limit) {
+      var mb = document.createElement("button"); mb.type = "button"; mb.className = "pp-more-btn";
+      mb.textContent = "نمایش بیشتر (" + toFa(list.length - limit) + " قسمت دیگر)";
+      mb.addEventListener("click", function () { renderEpList(p, limit + 40); });
+      slot.appendChild(mb);
+    }
+  }
+  function loadAllEps(p) {
+    if (!window.fetch || p._epsAll) return;
+    p._epsAll = true;
+    fetch(epsUrl(p), { credentials: "same-origin" })
+      .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+      .then(function (j) {
+        var list = (j || []).filter(function (e) { return e && e.a; });
+        if (list.length > p._eps.length) { p._eps = list; if (current === p) renderEpList(p, SHOW); }
+      }).catch(function () { p._epsAll = false; });
+  }
+
   function playFloat(p) {
     if (!p._eps.length && !p._src) return;
     function go() {
       window.PPPlayer.open(p._eps.length
-        ? { eps: p._eps.map(function (e) { return { t: e.t, a: e.a }; }), index: 0, title: p.title }
+        ? { eps: p._eps.map(function (e) { return { t: e.t, a: e.a }; }), index: 0, title: p.title, epsUrl: epsUrl(p) }
         : { src: p._src, title: p.title, page: castboxPage(p) || p.podcast_link || "" });
     }
     if (window.PPPlayer) return go();

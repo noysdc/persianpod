@@ -15,7 +15,9 @@ PODCASTS = ROOT / "_podcasts"
 OUT = ROOT / "_data" / "rss_stats.json"
 INACTIVE_AFTER_DAYS = 1095    # بدون قسمت جدید بیش از ۳ سال = غیرفعال
 RECENT_FOR_AVG = 30           # میانگین طول از چند قسمت آخر
-PLAY_COUNT = 8                # تعداد قسمت‌های قابل‌پخش برای پلیر داخلی
+PLAY_COUNT = 8                # قسمت‌های آماده‌ی لحظه‌ی اول (داخل rss_stats و podcasts.json)
+ALL_EPS_MAX = 3000            # سقف همه‌ی قسمت‌ها در فایل جدای هر پادکست
+EPS_DIR = ROOT / "assets" / "eps"   # assets/eps/<slug>.json؛ پلیر در صورت نیاز می‌خواندش
 ERRORS = ROOT / "_data" / "rss_errors.json"
 # بعضی میزبان‌ها (Anchor، Audiya و…) به User-Agent ربات یا IP سرورهای ابری جواب ۴۰۳ می‌دهند؛
 # پس چند هویت را به‌ترتیب امتحان می‌کنیم.
@@ -183,6 +185,11 @@ def analyse(feed_url):
     play = sorted(((utc2(d), t, u) for d, t, u in audio_eps if d), key=lambda x: x[0], reverse=True)[:PLAY_COUNT]
     if play:
         result["play"] = [{"at": d.strftime("%Y-%m-%dT%H:%M:%SZ"), "t": t, "a": u} for d, t, u in play]
+    # همه‌ی قسمت‌ها (جدیدترین اول؛ بدون تاریخ‌ها آخر). خروجی ثابت است تا بدون قسمت جدید، فایل تغییر نکند.
+    dated_all = sorted(((utc2(d), t, u) for d, t, u in audio_eps if d), key=lambda x: x[0], reverse=True)
+    all_list = [{"t": t, "a": u} for _, t, u in dated_all] + [{"t": t, "a": u} for d, t, u in audio_eps if not d]
+    if all_list:
+        result["_all"] = all_list[:ALL_EPS_MAX]
     # --- آمار تکمیلی برای صفحه‌ی «مقایسه»؛ همه از خود RSS و قابل بازتولید ---
     durs = sorted(x for _, x in items if x > 0)
     if durs:
@@ -220,6 +227,13 @@ def main():
             continue
         try:
             stats[slug] = analyse(feed)
+            all_eps = stats[slug].pop("_all", None)
+            if all_eps:
+                EPS_DIR.mkdir(parents=True, exist_ok=True)
+                fp = EPS_DIR / (slug.replace("/", "_") + ".json")
+                txt = json.dumps(all_eps, ensure_ascii=False, separators=(",", ":")) + "\n"
+                if not fp.exists() or fp.read_text(encoding="utf-8") != txt:
+                    fp.write_text(txt, encoding="utf-8")
             print(f"ok   {slug}: {stats[slug]}")
         except Exception as e:           # اگر خطا شد، آمار قبلی حفظ می‌شود
             errors[slug] = {"rss": feed, "error": f"{type(e).__name__}: {e}"[:300]}

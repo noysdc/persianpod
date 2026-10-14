@@ -23,3 +23,28 @@
 .pl-card[aria-current=true] .pl-play{background:transparent;color:var(--acc);border:1px solid #08cb00}
 .pl-row .pd-card{width:auto}
 @media(max-width:799px){.pl-stage{padding:12px;border-radius:20px}.pl-stage .e-castbox,.pl-stage .e-other{height:380px}}
+
+
+/* ساعت زنده‌ی صفحه‌ی «گوش بده»: حباب زمان بالای نقطه؛ بخش گذشته‌ی روز کم‌رنگ و بخش باقی‌مانده سبز */
+.pl-clock { --p: .5; position: relative; width: min(340px, 100%); margin: 14px auto 4px; padding: 0 38px; box-sizing: border-box; direction: ltr; }
+.pl-clock-bubble {
+  position: relative; display: block; width: max-content; margin: 0 0 12px; padding: 4px 14px; left: calc((1 - var(--p)) * 100%); transform: translateX(-50%);
+  border-radius: 999px; background: var(--card, #14181b); color: var(--ink, #eef2f0); border: 1px solid rgba(8, 203, 0, .55);
+  font-size: .88rem; font-weight: 800; line-height: 1.7; font-variant-numeric: tabular-nums; letter-spacing: .02em;
+  box-shadow: 0 0 14px var(--glow-soft, rgba(8, 203, 0, .3));
+}
+.pl-clock-track { position: relative; display: block; height: 18px; }
+.pl-clock-past, .pl-clock-rest { position: absolute; top: 50%; height: 5px; margin-top: -2.5px; border-radius: 999px; }
+.pl-clock-past { right: 0; width: calc(var(--p) * 100%); background: var(--line, rgba(255, 255, 255, .16)); }
+.pl-clock-rest { left: 0; width: calc((1 - var(--p)) * 100%); background: linear-gradient(to left, #0a7a05, #08cb00 55%, #00ff9c); box-shadow: 0 0 10px var(--glow-soft, rgba(8, 203, 0, .3)); }
+.pl-clock-thumb {
+  position: absolute; top: 50%; left: calc((1 - var(--p)) * 100%); width: 18px; height: 18px; margin: -9px 0 0 -9px; box-sizing: border-box;
+  border-radius: 50%; border: 3px solid var(--card, #14181b); background: #08cb00; box-shadow: 0 0 0 1px #08cb00, 0 4px 12px var(--glow-soft, rgba(8, 203, 0, .3));
+}
+@media (prefers-reduced-motion: no-preference) { .pl-clock-bubble, .pl-clock-thumb, .pl-clock-past, .pl-clock-rest { transition: left .6s ease, width .6s ease; } }
+
+/* دکمه‌ی «نمایش بیشتر / نمایش همه‌ی قسمت‌ها» زیر فهرست قسمت‌ها */
+.pp-more-btn { display: block; margin: 10px auto 0; height: 36px; padding: 0 18px; border: 0; border-radius: 999px; background: rgba(8, 203, 0, .10); color: var(--ink); font: inherit; font-size: .85rem; font-weight: 700; box-shadow: inset 0 0 0 1px rgba(8, 203, 0, .45); cursor: pointer; }
+.pp-more-btn:hover { background: rgba(8, 203, 0, .18); }
+.pp-more-btn:disabled { opacity: .6; cursor: progress; }
+.pp-more-btn:focus-visible { outline: 3px solid #08cb00; outline-offset: 3px; }

@@ -42,7 +42,7 @@ layout: default
 {% if embed_src contains 'castbox' %}{% assign embed_kind = 'castbox' %}{% elsif embed_src contains 'spotify' %}{% assign embed_kind = 'spotify' %}{% endif %}
 
 {%- comment -%} پخش مستقیم از فایل صوتی قسمت‌ها؛ اگر نبود به پلیر قدیمی (embed) برمی‌گردد {%- endcomment -%}
-{% assign feed_eps = site.data.rss_stats[page.slug].play %}
+{% assign feed_eps = site.data.rss_stats[page.slug].play %}{% assign total_eps = site.data.rss_stats[page.slug].episodes | default: page.episode_count | default: 0 %}
 {% assign can_listen = false %}{% if feed_eps and feed_eps.size > 0 %}{% assign can_listen = true %}{% elsif embed_src != '' %}{% assign can_listen = true %}{% endif %}
 
 <article class="pod wrap">
@@ -94,7 +94,7 @@ layout: default
       {% if feed_eps and feed_eps.size > 0 %}
       <div class="pod-listen">
         <h2 id="listen-h">همین‌جا گوش بده</h2>
-        <div class="pp-embed-box pp-poster" data-pp-playlist data-title="{{ page.title | escape }}">
+        <div class="pp-embed-box pp-poster" data-pp-playlist data-title="{{ page.title | escape }}" data-eps-url="{{ '/assets/eps/' | append: page.slug | append: '.json' | relative_url }}">
           <p class="pp-poster-note">با زدن دکمه‌ی پخش، پلیر به‌صورت شناور باز می‌شود و هنگام گشت‌وگذار در سایت هم پخش ادامه پیدا می‌کند.</p>
           <button type="button" class="pp-poster-btn" aria-label="پخش {{ page.title | escape }}" data-pp-audio="{{ feed_eps[0].a | escape }}" data-t="{{ feed_eps[0].t | escape }}">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>پخش پادکست
@@ -102,10 +102,11 @@ layout: default
           {% if feed_eps.size > 1 %}
           <ul class="pp-eplist" aria-label="قسمت‌های اخیر">
             {% for e in feed_eps %}{% if forloop.first %}{% continue %}{% endif %}
-            <li><button type="button" data-pp-audio="{{ e.a | escape }}" data-t="{{ e.t | escape }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg><span>{{ e.t }}</span></button></li>
+            <li><button type="button" data-pp-audio="{{ e.a | escape }}" data-t="{{ e.t | escape }}" title="{{ e.t | escape }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg><span>{{ e.t }}</span></button></li>
             {% endfor %}
           </ul>
           {% endif %}
+          {% if total_eps > feed_eps.size %}<button type="button" class="pp-more-btn" data-pp-more>نمایش همه‌ی قسمت‌ها</button>{% endif %}
         </div>
       </div>
       {% elsif embed_src != '' %}

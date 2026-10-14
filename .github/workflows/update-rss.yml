@@ -26,5 +26,5 @@ jobs:
         run: |
           git config user.name  "persianpod-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add _data/rss_stats.json _data/rss_errors.json
+          git add _data/rss_stats.json _data/rss_errors.json assets/eps
           git diff --cached --quiet || (git commit -m "chore: update RSS stats" && git pull --rebase && git push)
