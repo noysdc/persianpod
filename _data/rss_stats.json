@@ -2382,21 +2382,26 @@
     "status": "active"
   },
   "khoansh-ktab-brai-ansan-khrdmnd-2": {
-    "avg_gap_days": 12.1,
-    "avg_length": 18,
-    "episodes": 180,
-    "eps_365": 27,
-    "eps_90": 8,
+    "avg_gap_days": 12.9,
+    "avg_length": 20,
+    "episodes": 181,
+    "eps_365": 28,
+    "eps_90": 9,
     "first_at": "2023-01-16",
     "first_year": 1401,
-    "last": "1405/06/21",
-    "last_at": "2026-09-12T00:52:02Z",
-    "last_link": "https://s3.castbox.fm/43/89/4c/5f0edb4204aedcc9775f346a5a.mp3",
-    "last_title": "فرشتگان و شیاطین",
+    "last": "1405/07/22",
+    "last_at": "2026-10-14T21:53:37Z",
+    "last_link": "https://s3.castbox.fm/1a/8b/6e/8c4a3b4f23b833848911b4e5b4.mp3",
+    "last_title": "علیه مزخرفات",
     "max_length": 87,
     "median_length": 22,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/1a/8b/6e/8c4a3b4f23b833848911b4e5b4.mp3",
+        "at": "2026-10-14T21:53:37Z",
+        "t": "علیه مزخرفات"
+      },
       {
         "a": "https://s3.castbox.fm/43/89/4c/5f0edb4204aedcc9775f346a5a.mp3",
         "at": "2026-09-12T00:52:02Z",
@@ -2431,14 +2436,14 @@
         "a": "https://s3.castbox.fm/0b/9c/81/924e834907a858a1591d0318b0.mp3",
         "at": "2026-08-16T13:33:40Z",
         "t": "ما؛ کاکتوسها"
-      },
-      {
-        "a": "https://s3.castbox.fm/35/10/1f/e050bc498fb9b409cdb79b27a7.mp3",
-        "at": "2026-07-20T19:03:30Z",
-        "t": "رام کردن مولکول سرکش - دوازده"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-14T21:53:37Z",
+        "link": "https://s3.castbox.fm/1a/8b/6e/8c4a3b4f23b833848911b4e5b4.mp3",
+        "title": "علیه مزخرفات"
+      },
       {
         "at": "2026-09-12T00:52:02Z",
         "link": "https://s3.castbox.fm/43/89/4c/5f0edb4204aedcc9775f346a5a.mp3",
@@ -2448,11 +2453,6 @@
         "at": "2026-09-11T11:05:38Z",
         "link": "https://s3.castbox.fm/ce/1d/8a/4a892a4c729637929b180ee061.mp3",
         "title": "05 چکیدۀ بیست‌ویک درس"
-      },
-      {
-        "at": "2026-09-09T18:44:19Z",
-        "link": "https://s3.castbox.fm/e9/f5/62/31d7084ab2af4cd258535d609b.mp3",
-        "title": "04 چکیدۀ بیست‌ویک درس"
       }
     ],
     "recent_30d": [
@@ -2467,7 +2467,7 @@
       5,
       1,
       7,
-      0
+      1
     ],
     "status": "active"
   },
@@ -3883,8 +3883,8 @@
       0,
       0,
       9,
-      2,
       4,
+      2,
       3
     ],
     "status": "active"
