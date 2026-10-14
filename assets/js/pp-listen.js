@@ -109,6 +109,7 @@
     p._cat = p.category || "سایر";
     p._hay = norm([p.title, p.description, p.category, p.city, (p.tags || []).join(" ")].join(" "));
     p._rnd = 0;
+    p._new = window.PPOrder ? window.PPOrder.isNew(p) : false;
     return p;
   }
   function match(p, f, skipCat) {
@@ -143,13 +144,15 @@
     var logo = p.logo ? '<img src="' + esc(p.logo) + '" alt="" loading="lazy" decoding="async" width="72" height="72">' : "<i>" + esc((p.title || "").trim().charAt(0)) + "</i>";
     return '<button type="button" class="pd-card pl-card" data-id="' + esc(p.id) + '"' + (current && current.id === p.id ? ' aria-current="true"' : "") + ">" +
       '<span class="pd-logo">' + logo + "</span>" +
-      '<span class="pd-body"><h3>' + esc(p.title) + "</h3>" +
+      '<span class="pd-body">' + (p._new ? '<span class="pd-b new">جدید</span>' : "") + "<h3>" + esc(p.title) + "</h3>" +
       (p.description ? '<span class="pd-desc">' + esc(p.description) + "</span>" : "") +
       '<span class="pl-play">' + PLAY + "پخش</span></span></button>";
   }
   function render() {
     var f = read();
-    var list = data.filter(function (p) { return match(p, f); }).sort(function (a, b) { return a._rnd - b._rnd; });
+    var list = data.filter(function (p) { return match(p, f); });
+    if (window.PPOrder) list = window.PPOrder.order(list, "listen:" + (f.cat || "all"));    // همان منطق صفحه‌ی اصلی، با چیدمان مستقل
+    else list.sort(function (a, b) { return a._rnd - b._rnd; });
     if (f.S) list.sort(function (a, b) { return (f.S.score[b._sid] || 0) - (f.S.score[a._sid] || 0); });     // با جست‌وجو: به ترتیب ارتباط
     $("#pl-count").innerHTML = esc(toFa(list.length) + " پلیر" + (f.q || f.cat ? " مطابق فیلترها" : "")) + intentHtml(f.S);
 
@@ -158,7 +161,10 @@
     } else if (!f.cat && !f.S) {
       var groups = {}, order = [];
       list.forEach(function (p) { if (!groups[p._cat]) { groups[p._cat] = []; order.push(p._cat); } groups[p._cat].push(p); });
-      order.sort(function (a, b) { return catRank[a] - catRank[b]; });
+      if (window.PPOrder) {
+        order = window.PPOrder.orderKeys(order, "listen");
+        order.forEach(function (c) { groups[c] = window.PPOrder.order(groups[c], "listen:" + c); });
+      } else order.sort(function (a, b) { return catRank[a] - catRank[b]; });
       out.innerHTML = order.map(function (c) {
         return '<section class="pd-group" aria-label="' + esc(c) + '"><h2 class="pd-cat">' +
           '<a class="pd-cat-link" href="?category=' + encodeURIComponent(c) + '" data-cat="' + esc(c) + '"><span class="pd-cat-ic">' + HEAD + "</span>" +
@@ -324,7 +330,7 @@
       }
       SE = window.PPSearch && PPSearch.create ? PPSearch.create() : null;   // فهرست جدا: فقط پادکست‌های دارای پلیر
       if (SE) SE.build(data);
-      shuffleAll();                       // ترتیب این صفحه مستقل از صفحه‌ی پادکست‌هاست و هر بار لود عوض می‌شود
+      if (!window.PPOrder) shuffleAll();  // اگر ماژول ترتیب منصفانه نبود، همان تصادفی قبلی
       var u = new URLSearchParams(location.search), want = u.get("p") || decodeURIComponent(location.hash.slice(1));
       /* ریلود (F5): پادکست انتخاب‌شده‌ی دفعه‌ی قبل در آدرس (?p=...) می‌ماند و باعث می‌شد صحنه‌ی بالای صفحه تکراری باشد
          و انگار چیزی عوض نشده. در ریلود آن را کنار می‌گذاریم تا مثل صفحه‌ی اصلی هر بار تازه چیده شود؛

@@ -18,8 +18,8 @@ pi_id: 5751578
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: false
+published: false
 ---
 
 # ایران و انقلاب

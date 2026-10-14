@@ -165,6 +165,7 @@ def analyse(feed_url):
         norm = [utc(d) for d, _ in dated]
         first, last = min(norm), max(norm)
         result["first_year"] = g2j(first.year, first.month, first.day)[0]
+        result["first_at"] = first.strftime("%Y-%m-%d")      # تاریخ اولین قسمت (میلادی)؛ برای برچسب «جدید»
         jy, jm, jd = g2j(last.year, last.month, last.day)
         result["last"] = f"{jy:04d}/{jm:02d}/{jd:02d}"
         age = (dt.datetime.now(dt.timezone.utc).replace(tzinfo=None) - last).days

@@ -93,6 +93,7 @@
     p._hay = norm([p.title, p.description, p.category, subs.join(" "), p.city, p.country, p.creator, p.language, tags.join(" ")].join(" "));
     p._lastAt = p.last_at ? Date.parse(p.last_at) || null : null;
     p._rnd = Math.random();
+    p._new = window.PPOrder ? window.PPOrder.isNew(p) : false;     // اولین قسمت کمتر از ۳ ماه پیش
     return p;
   }
   function unique(key) {
@@ -190,7 +191,7 @@
       : "<i>" + esc((p.title || "").trim().charAt(0)) + "</i>";
     return '<article class="pd-card"><a class="pd-link" href="' + esc(p.url) + '" title="' + esc(p.description || "") + '"><span class="pd-logo">' + logo + "</span>" +
       '<span class="pd-body"><h3>' + esc(p.title) + "</h3></span></a>" +
-      '<span class="pd-meta"><a class="pd-b pd-tag" href="' + tagHref(p._cat) + '" data-cat="' + esc(p._cat) + '">' + esc(p._cat) + "</a>" + subs +
+      '<span class="pd-meta">' + (p._new ? '<span class="pd-b new">جدید</span>' : "") + '<a class="pd-b pd-tag" href="' + tagHref(p._cat) + '" data-cat="' + esc(p._cat) + '">' + esc(p._cat) + "</a>" + subs +
       (p._active ? "" : '<span class="pd-b off">غیرفعال</span>') + "</span></article>";
   }
 
@@ -199,6 +200,7 @@
     if (mode === "alpha") l.sort(function (a, b) { return collator.compare(a.title, b.title); });
     else if (mode === "eps") l.sort(function (a, b) { return (b._ep || 0) - (a._ep || 0); });
     else if (mode === "new") l.sort(function (a, b) { return (b._yr || 0) - (a._yr || 0); });
+    else if (window.PPOrder) l = window.PPOrder.order(l, "home:" + (cat || "all") + (sub ? "/" + sub : ""));   // چرخش روزانه، فعال‌ها اول، جدیدها جلو
     else l.sort(function (a, b) { return a._rnd - b._rnd; });
     return l;
   }
@@ -349,7 +351,10 @@
         if (!groups[p._cat]) { groups[p._cat] = []; order.push(p._cat); }
         groups[p._cat].push(p);
       });
-      order.sort(function (a, b) { return f.sort === "random" ? catRank[a] - catRank[b] : collator.compare(a, b); });
+      if (f.sort === "random" && window.PPOrder) {
+        order = window.PPOrder.orderKeys(order, "home");
+        order.forEach(function (c) { groups[c] = window.PPOrder.order(groups[c], "home:" + c); });
+      } else order.sort(function (a, b) { return f.sort === "random" ? catRank[a] - catRank[b] : collator.compare(a, b); });
       out.innerHTML = order.map(function (c, idx) {
         var items = groups[c];
         return (idx ? WAVE : "") + '<section class="pd-group" aria-label="' + esc(c) + '">' +
