@@ -1,7 +1,7 @@
 name: Podcast Index — ساخت و تأیید صفحه‌ها
 on:
   schedule:
-    - cron: "0 2 * * *"
+    - cron: "17 2 * * *"      # هر روز ۰۲:۱۷ UTC = ۰۵:۴۷ تهران (دقیقه‌ی غیرشلوغ؛ ساعت‌های رند گاهی اجرا نمی‌شوند)
   workflow_dispatch:
     inputs:
       mode:
@@ -24,6 +24,7 @@ on:
         options: [episodes, recent]
 permissions:
   contents: write
+  issues: write
 concurrency:
   group: pi-build-pages
   cancel-in-progress: false
@@ -31,6 +32,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    env:
+      # اختیاری: اگر این سه secret را بسازی، اعلان مستقیم از ایمیل خودت فرستاده می‌شود (وگرنه از Issue)
+      SMTP_USER: ${{ secrets.SMTP_USER }}
+      SMTP_PASS: ${{ secrets.SMTP_PASS }}
+      MAIL_TO: ${{ secrets.MAIL_TO }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -65,10 +71,34 @@ jobs:
           fi
           git config user.name "persianpod-bot"
           git config user.email "persianpod-bot@users.noreply.github.com"
+          # فایل‌های تازه‌ی drafts را برای اعلان ایمیلی ثبت کن (قبل از git add)
+          git ls-files --others --exclude-standard -- _drafts > "$RUNNER_TEMP/new-drafts.txt" || true
           git add -A _podcasts _drafts _blocked assets/img/podcasts _data/pi
           if git diff --cached --quiet; then
             echo "چیزی برای کامیت نیست"
+            : > "$RUNNER_TEMP/new-drafts.txt"
             exit 0
           fi
           git commit -m "data: به‌روزرسانی پادکست‌ها"
-          git push
+          # ربات RSS هر ۱۰ دقیقه کامیت می‌کند؛ بدون rebase این push در اجراهای طولانی رد می‌شد و drafts گم می‌شدند
+          for i in 1 2 3 4 5; do
+            git pull --rebase && git push && exit 0
+            echo "تلاش $i برای push ناموفق بود؛ دوباره..."
+            sleep $((i * 8))
+          done
+          echo "::error::push بعد از ۵ تلاش انجام نشد"
+          : > "$RUNNER_TEMP/new-drafts.txt"
+          exit 1
+      - name: اعلان پادکست‌های تازه (ایمیل)
+        if: ${{ success() && inputs.mode != 'approve' }}
+        run: python3 scripts/notify-drafts.py "$RUNNER_TEMP/new-drafts.txt"
+      - name: اعلان از طریق Issue (ایمیل گیت‌هاب؛ فقط وقتی SMTP تنظیم نشده)
+        if: ${{ success() && inputs.mode != 'approve' && env.SMTP_USER == '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s "$RUNNER_TEMP/notify-subject.txt" ] && [ -s "$RUNNER_TEMP/notify-body.md" ]; then
+            gh issue create --repo "$GITHUB_REPOSITORY" \
+              --title "$(cat "$RUNNER_TEMP/notify-subject.txt")" \
+              --body-file "$RUNNER_TEMP/notify-body.md" || echo "ساخت Issue ناموفق بود (Issues را در تنظیمات ریپو فعال کن)"
+          fi
