@@ -317,19 +317,24 @@
   },
   "aghtsad-o-siast-jhani": {
     "avg_gap_days": 3.8,
-    "avg_length": 18,
-    "episodes": 209,
-    "eps_365": 96,
-    "eps_90": 18,
+    "avg_length": 17,
+    "episodes": 210,
+    "eps_365": 97,
+    "eps_90": 19,
     "first_year": 1402,
-    "last": "1405/07/18",
-    "last_at": "2026-10-10T16:30:00Z",
-    "last_link": "https://dotcast.org/p/ctka8bck/k5113rri43/",
-    "last_title": "خاورمیانه بدون آمریکا؛ پایان یک نظم ۳۵ ساله",
+    "last": "1405/07/22",
+    "last_at": "2026-10-14T17:30:00Z",
+    "last_link": "https://dotcast.org/p/ctka8bck/qo51aegvmr/",
+    "last_title": "اقتصاد جهان باید سقوط می‌کرد؛ پس چرا هنوز سرپا  است؟",
     "max_length": 72,
     "median_length": 21,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/ctka8bck/qo51aegvmr/2026-10-14-15-41-18.mp3",
+        "at": "2026-10-14T17:30:00Z",
+        "t": "اقتصاد جهان باید سقوط می‌کرد؛ پس چرا هنوز سرپا  است؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/ctka8bck/k5113rri43/2026-10-10-13-07-35.mp3",
         "at": "2026-10-10T16:30:00Z",
@@ -364,14 +369,14 @@
         "a": "https://feed.dotcast.org/e/ctka8bck/b6ox815jv9/2026-09-01-18-32-27.mp3",
         "at": "2026-09-02T17:30:00Z",
         "t": "حوثی‌ها چطور به ترسناک‌ترین متحد ایران تبدیل شدند؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/ctka8bck/l4jz8hpr27/2026-08-29-13-41-37.mp3",
-        "at": "2026-08-29T16:30:00Z",
-        "t": "جنگ اقتصادی ترامپ علیه ایران: این بار هدف نفت و پول است!"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-14T17:30:00Z",
+        "link": "https://dotcast.org/p/ctka8bck/qo51aegvmr/",
+        "title": "اقتصاد جهان باید سقوط می‌کرد؛ پس چرا هنوز سرپا  است؟"
+      },
       {
         "at": "2026-10-10T16:30:00Z",
         "link": "https://dotcast.org/p/ctka8bck/k5113rri43/",
@@ -381,11 +386,6 @@
         "at": "2026-10-07T16:30:00Z",
         "link": "https://dotcast.org/p/ctka8bck/xsgomty8t0/",
         "title": "توهم بزرگ هوش مصنوعی؛ چرا بهره‌وری بیشتر ممکن است به ضرر انسان تمام شود؟"
-      },
-      {
-        "at": "2026-10-03T16:30:00Z",
-        "link": "https://dotcast.org/p/ctka8bck/ku0yurfqoh/",
-        "title": "تحریم‌های جدید آمریکا علیه ایران؛ چرا همه‌چیز به چین بستگی دارد؟"
       }
     ],
     "recent_30d": [
@@ -400,7 +400,7 @@
       5,
       7,
       7,
-      4
+      5
     ],
     "status": "active"
   },
@@ -6102,9 +6102,9 @@
       }
     ],
     "recent_30d": [
-      104,
-      113,
-      82,
+      103,
+      114,
+      81,
       61,
       47,
       0,
