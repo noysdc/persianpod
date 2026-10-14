@@ -17,8 +17,8 @@ pi_id: 1226240
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # پادکست پرسه زنی در بازار
