@@ -209,7 +209,7 @@
       '<div id="pl-slot">' + (window.PPPlayer ? '<p class="pp-poster-note">پلیر به‌صورت شناور باز می‌شود و هنگام گشت‌وگذار در سایت هم پخش ادامه دارد.</p><button type="button" class="pp-poster-btn" id="pl-play" aria-label="پخش ' + esc(p.title) + '">' + PLAY + 'پخش پادکست</button>' : "") + "</div>" +
       (yt ? '<h3 class="pl-sub">قسمت منتخب در یوتیوب</h3><div id="pl-yt"></div>' : "") +
       '<div class="pl-links"><a href="' + esc(p.url) + '">صفحه‌ی معرفی پادکست</a></div>';
-    renderEpList(p, SHOW); loadAllEps(p);
+    renderEpList(p); loadAllEps(p);
     function mount(id, cls, url, title, allow) {
       var slot = document.getElementById(id); if (!slot) return;
       var f = document.createElement("iframe");
@@ -232,27 +232,21 @@
   var EPS_BASE = String(window.PP_DATA_URL || "/podcasts.json").replace(/podcasts\.json.*$/, "") + "assets/eps/";
   function epsUrl(p) { return EPS_BASE + encodeURIComponent(p.id) + ".json"; }
   var SHOW = 20;                                         // تعداد اولیه‌ی قسمت‌های نمایش‌داده‌شده در فهرست
-  function renderEpList(p, limit) {
+  function renderEpList(p) {
     var slot = document.getElementById("pl-slot");
     if (!slot || current !== p) return;
     var old = $(".pp-eplist", slot); if (old) old.remove();
     var oldMore = $(".pp-more-btn", slot); if (oldMore) oldMore.remove();
-    var list = p._eps;
-    if (list.length < 2) return;
+    if (p._eps.length < 2) return;
     slot.setAttribute("data-pp-playlist", ""); slot.setAttribute("data-title", p.title); slot.setAttribute("data-eps-url", epsUrl(p));
     var ul = document.createElement("ul"); ul.className = "pp-eplist"; ul.setAttribute("aria-label", "قسمت‌ها");
-    list.slice(0, limit).forEach(function (e) {
+    slot.appendChild(ul);
+    if (window.PPPlayer && window.PPPlayer.fillList) window.PPPlayer.fillList(ul, p._eps, "");
+    else p._eps.slice(0, 100).forEach(function (e) {
       var li = document.createElement("li"), b = document.createElement("button"), sp = document.createElement("span");
       b.type = "button"; b.setAttribute("data-pp-audio", e.a); b.setAttribute("data-t", e.t || ""); b.title = e.t || "";
       b.innerHTML = PLAY; sp.textContent = e.t || ""; b.appendChild(sp); li.appendChild(b); ul.appendChild(li);
     });
-    slot.appendChild(ul);
-    if (list.length > limit) {
-      var mb = document.createElement("button"); mb.type = "button"; mb.className = "pp-more-btn";
-      mb.textContent = "نمایش بیشتر (" + toFa(list.length - limit) + " قسمت دیگر)";
-      mb.addEventListener("click", function () { renderEpList(p, limit + 40); });
-      slot.appendChild(mb);
-    }
   }
   function loadAllEps(p) {
     if (!window.fetch || p._epsAll) return;
@@ -261,7 +255,7 @@
       .then(function (r) { if (!r.ok) throw 0; return r.json(); })
       .then(function (j) {
         var list = (j || []).filter(function (e) { return e && e.a; });
-        if (list.length > p._eps.length) { p._eps = list; if (current === p) renderEpList(p, SHOW); }
+        if (list.length > p._eps.length) { p._eps = list; if (current === p) renderEpList(p); }
       }).catch(function () { p._epsAll = false; });
   }
 

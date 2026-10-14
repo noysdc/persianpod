@@ -184,7 +184,7 @@
   .pd-group { margin-top: 16px; padding: 18px 22px 8px; border: 1px solid var(--line); border-radius: 26px; background: var(--card); }
   .pd-group:first-child { margin-top: 12px; }
   .pd-group .pd-row { padding-bottom: 8px; }
-  .pd-wave { display: none; }
+  .pd-wave { display: block; margin: 20px auto 2px; }   /* موج جداکننده‌ی بین دسته‌ها: مثل موبایل */
 
   /* ---------- ۶) فوتر: وسط صفحه (دیگر هم‌محور ستون محتوا نیست) ---------- */
   body.reading .pp-hero, body.reading .pp-bar-wrap { padding-inline-start: var(--pp-pad); }

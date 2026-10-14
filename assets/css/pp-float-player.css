@@ -235,6 +235,10 @@ body.night .ppfp {
 /* لیست قسمت‌ها در صفحه‌ی پادکست */
 .pp-eplist { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: 4px; text-align: start; width: 100%; }
 .pp-eplist li { min-width: 0; }
+.pp-eplist { max-height: min(46vh, 340px); overflow-y: auto; overscroll-behavior: contain; padding-inline-end: 6px; scrollbar-width: thin; scrollbar-color: rgba(8, 203, 0, .55) transparent; -webkit-overflow-scrolling: touch; }
+.pp-eplist::-webkit-scrollbar { width: 6px; }
+.pp-eplist::-webkit-scrollbar-thumb { background: rgba(8, 203, 0, .5); border-radius: 999px; }
+.pp-eplist::-webkit-scrollbar-track { background: transparent; }
 .pp-eplist button { display: flex; align-items: flex-start; gap: 10px; width: 100%; min-width: 0; box-sizing: border-box; padding: 8px 12px; border: 0; border-radius: 10px; background: transparent; color: var(--ink); font: inherit; font-size: .88rem; line-height: 1.8; text-align: start; cursor: pointer; }
 .pp-eplist button svg { width: 14px; height: 14px; margin-top: .5em; fill: #08cb00; flex: none; }
 .pp-eplist button span { flex: 1 1 0; min-width: 0; text-align: start; overflow-wrap: anywhere; }

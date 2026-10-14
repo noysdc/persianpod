@@ -499,26 +499,7 @@
       });
       return;
     }
-    var more = e.target.closest("[data-pp-more]");
-    if (more) {                                   // «نمایش همه‌ی قسمت‌ها» در صفحه‌ی پادکست
-      e.preventDefault();
-      var pb = more.closest("[data-pp-playlist]"), url = pb && pb.getAttribute("data-eps-url"), ul = pb && pb.querySelector(".pp-eplist");
-      if (!url || !ul || !window.fetch) return;
-      more.disabled = true;
-      fetchEps(url).then(function (list) {
-        var first = pb.querySelector("[data-pp-audio]"), skip = first ? first.getAttribute("data-pp-audio") : "";
-        ul.innerHTML = "";
-        list.forEach(function (ep) {
-          if (ep.a === skip) return;
-          var li = document.createElement("li"), b = document.createElement("button"), sp = document.createElement("span");
-          b.type = "button"; b.setAttribute("data-pp-audio", ep.a); b.setAttribute("data-t", ep.t || ""); b.title = ep.t || "";
-          b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
-          sp.textContent = ep.t || ""; b.appendChild(sp); li.appendChild(b); ul.appendChild(li);
-        });
-        more.remove();
-      }).catch(function () { more.disabled = false; });
-      return;
-    }
+
     var el = e.target.closest("[data-pp-embed]");
     if (!el) return;
     e.preventDefault();
@@ -529,5 +510,39 @@
     });
   });
 
-  window.PPPlayer = { open: open, close: close, reload: reload, isOpen: isOpen, minimize: function () { build(); setMin(true); } };
+  /* ---------- فهرست قسمت‌ها: اسکرولی؛ با نزدیک شدن به ته، قسمت‌های بعدی اضافه می‌شوند ---------- */
+  var CHUNK = 40, PLAY_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
+  function epLi(ep) {
+    var li = document.createElement("li"), b = document.createElement("button"), sp = document.createElement("span");
+    b.type = "button"; b.setAttribute("data-pp-audio", ep.a); b.setAttribute("data-t", ep.t || ""); b.title = ep.t || "";
+    b.innerHTML = PLAY_ICON; sp.textContent = ep.t || ""; b.appendChild(sp); li.appendChild(b);
+    return li;
+  }
+  function fillList(ul, list, skipUrl) {
+    var items = (list || []).filter(function (e) { return e && e.a && e.a !== skipUrl; }), n = 0;
+    function more() { var end = Math.min(items.length, n + CHUNK); for (; n < end; n++) ul.appendChild(epLi(items[n])); }
+    if (ul._ppScroll) ul.removeEventListener("scroll", ul._ppScroll);
+    ul.innerHTML = ""; more();
+    ul._ppScroll = function () { if (n < items.length && ul.scrollTop + ul.clientHeight > ul.scrollHeight - 140) more(); };
+    ul.addEventListener("scroll", ul._ppScroll, { passive: true });
+  }
+  /* صفحه‌ی پادکست: فهرست کامل خودکار بار می‌شود (بدون دکمه)؛ تا آماده شدن، ۸ قسمت اول دیده می‌شود */
+  function autoLists() {
+    if (!window.fetch) return;
+    var boxes = document.querySelectorAll("[data-pp-auto][data-eps-url]:not([data-pp-done])");
+    Array.prototype.forEach.call(boxes, function (box) {
+      box.setAttribute("data-pp-done", "1");
+      var ul = box.querySelector(".pp-eplist"), first = box.querySelector("[data-pp-audio]");
+      if (!ul) return;
+      fetchEps(box.getAttribute("data-eps-url")).then(function (list) {
+        if (list.length > ul.children.length + 1) fillList(ul, list, first ? first.getAttribute("data-pp-audio") : "");
+      }).catch(function () {});
+    });
+  }
+  var autoQueued = false;
+  function queueAuto() { if (autoQueued) return; autoQueued = true; requestAnimationFrame(function () { autoQueued = false; autoLists(); }); }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", queueAuto); else queueAuto();
+  if (window.MutationObserver) new MutationObserver(queueAuto).observe(document.body || document.documentElement, { childList: true, subtree: true });   // با تعویض صفحه‌ها بدون بارگذاری کامل هم کار می‌کند
+
+  window.PPPlayer = { open: open, close: close, reload: reload, isOpen: isOpen, fillList: fillList, minimize: function () { build(); setMin(true); } };
 })();
