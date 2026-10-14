@@ -404,6 +404,95 @@
     ],
     "status": "active"
   },
+  "ahangsaz": {
+    "avg_gap_days": 14.0,
+    "avg_length": 52,
+    "episodes": 40,
+    "eps_365": 2,
+    "eps_90": 2,
+    "first_year": 1398,
+    "last": "1405/07/05",
+    "last_at": "2026-09-27T14:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/episode/3e1bcd96-cb30-440b-a2f1-6aa961e7570a/play.mp3",
+    "last_title": "مصاحبه اختصاصی با حمید صدری  قسمت دوم",
+    "max_length": 105,
+    "median_length": 46,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://play.rabt.host/podcast/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/episode/3e1bcd96-cb30-440b-a2f1-6aa961e7570a/play.mp3",
+        "at": "2026-09-27T14:30:00Z",
+        "t": "مصاحبه اختصاصی با حمید صدری  قسمت دوم"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/episode/ab056354-9993-47a4-a5a8-8a8ccc657cd3/play.mp3",
+        "at": "2026-09-13T12:30:00Z",
+        "t": "مصاحبه اختصاصی با حمید صدری"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/episode/00134c3d-75e6-41a2-85b0-4521cbf8989e/play.mp3",
+        "at": "2025-08-12T12:29:24Z",
+        "t": "نقاشی ملودی ها :  موسیقی در دنیای انیمه"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/episode/b51737fd-f61b-428a-bf91-6320265107b1/play.mp3",
+        "at": "2025-07-20T13:30:00Z",
+        "t": "نوستالژی ۶ - موسیقی کارتون"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/episode/85a83d1f-097d-49a2-a282-e8eadf3e5681/play.mp3",
+        "at": "2025-04-03T12:39:07Z",
+        "t": "اپیزود ویژه نوروز 1404"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/episode/8e096621-2a40-4023-9194-c5c0cd48e765/play.mp3",
+        "at": "2024-12-28T08:00:25Z",
+        "t": "پادکست جدید آهنگ  صبح"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/episode/56209ffd-ae9e-4e72-8376-807dd9d41733/play.mp3",
+        "at": "2024-05-26T09:30:02Z",
+        "t": "مصاحبه اختصاصی پادکست آهنگساز با شهرداد روحانی"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/episode/d3c1ea91-52bf-453b-8460-c5d57ac110bf/play.mp3",
+        "at": "2024-03-30T13:30:07Z",
+        "t": "اپیزود ویژه نوروز 1403 قسمت دوم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-27T14:30:00Z",
+        "link": "https://play.rabt.host/podcast/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/episode/3e1bcd96-cb30-440b-a2f1-6aa961e7570a/play.mp3",
+        "title": "مصاحبه اختصاصی با حمید صدری  قسمت دوم"
+      },
+      {
+        "at": "2026-09-13T12:30:00Z",
+        "link": "https://play.rabt.host/podcast/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/episode/ab056354-9993-47a4-a5a8-8a8ccc657cd3/play.mp3",
+        "title": "مصاحبه اختصاصی با حمید صدری"
+      },
+      {
+        "at": "2025-08-12T12:29:24Z",
+        "link": "https://play.rabt.host/podcast/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/episode/00134c3d-75e6-41a2-85b0-4521cbf8989e/play.mp3",
+        "title": "نقاشی ملودی ها :  موسیقی در دنیای انیمه"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "status": "active"
+  },
   "airan-o-anghlab": {
     "episodes": 146,
     "eps_365": 1,
