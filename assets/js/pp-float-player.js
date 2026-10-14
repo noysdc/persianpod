@@ -9,6 +9,12 @@
     <button data-pp-embed="https://.../embed-url" data-title="نام پادکست">پخش</button>
   یا از جاوااسکریپت:
     PPPlayer.open({ src: "https://.../embed-url", title: "نام پادکست" });
+
+  پلیر داخلی (پخش مستقیم فایل صوتی قسمت‌ها، بدون سرویس بیرونی):
+    <div data-pp-playlist data-title="نام پادکست">
+      <button data-pp-audio="https://.../ep.mp3" data-t="عنوان قسمت">...</button> ...
+    </div>
+  یا: PPPlayer.open({ eps: [{ t: "عنوان", a: "https://.../ep.mp3" }, ...], index: 0, title: "نام پادکست" });
 */
 (function () {
   "use strict";
@@ -17,9 +23,12 @@
   var MOBILE_MQ = window.matchMedia("(max-width: 600px)");
   var MIN_W = 260;
   var MIN_H = 150;
-  var DEFAULT = { w: 360, h: 220 };
+  var DEFAULT = { w: 360, h: 300 };
 
   var root, bar, titleEl, frame, minBtn, statusEl, statusMsg, pageLink;
+  var selRate, selSleep, leftEl, rate = 1, sleepT = 0, sleepTick = 0, sleepAt = 0, sleepEnd = false;
+  var RATE_KEY = "pp-rate", RATES = [0.75, 1, 1.25, 1.5, 1.75, 2];
+  var audioWrap, audioEl, nowEl, epsEl, mode = "frame", eps = [], epI = 0;
   var curSrc = "", reloadN = 0, watchdog = 0, loaded = false;
   var LOAD_TIMEOUT = 12000; // اگر پلیر (مثلاً Castbox در ایران) تا این مدت بالا نیامد، دکمه‌ی بارگذاری دوباره نشان داده می‌شود
   var state = loadState();
@@ -76,6 +85,16 @@
       'allow="autoplay; encrypted-media; fullscreen" ' +
       'referrerpolicy="strict-origin-when-cross-origin" ' +
       'sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-presentation"></iframe>' +
+      '<div class="ppfp__audio" hidden>' +
+      '<div class="ppfp__now" aria-live="polite"></div>' +
+      '<audio class="ppfp__au" controls preload="none" controlsList="nodownload noplaybackrate noremoteplayback" disablePictureInPicture></audio>' +
+      '<div class="ppfp__tools">' +
+      '<label class="ppfp__tool"><span class="sr">سرعت پخش</span><select class="ppfp__rate" aria-label="سرعت پخش">' +
+      '<option value="0.75">۰٫۷۵×</option><option value="1">۱×</option><option value="1.25">۱٫۲۵×</option><option value="1.5">۱٫۵×</option><option value="1.75">۱٫۷۵×</option><option value="2">۲×</option></select></label>' +
+      '<label class="ppfp__tool"><span class="sr">تایمر خواب</span><select class="ppfp__sleep" aria-label="تایمر خواب">' +
+      '<option value="0">تایمر خواب</option><option value="15">۱۵ دقیقه</option><option value="30">۳۰ دقیقه</option><option value="45">۴۵ دقیقه</option><option value="60">۶۰ دقیقه</option><option value="end">پایان این قسمت</option></select></label>' +
+      '<span class="ppfp__left" aria-live="off"></span></div>' +
+      '<ol class="ppfp__eps" aria-label="قسمت‌ها"></ol></div>' +
       '<div class="ppfp__status" role="status" aria-live="polite" hidden>' +
       '<p class="ppfp__msg"></p>' +
       '<div class="ppfp__acts"><button type="button" class="ppfp__retry">بارگذاری دوباره پلیر</button>' +
@@ -92,6 +111,32 @@
     statusEl = root.querySelector(".ppfp__status");
     statusMsg = root.querySelector(".ppfp__msg");
     pageLink = root.querySelector(".ppfp__ext");
+    audioWrap = root.querySelector(".ppfp__audio");
+    audioEl = root.querySelector(".ppfp__au");
+    nowEl = root.querySelector(".ppfp__now");
+    epsEl = root.querySelector(".ppfp__eps");
+    selRate = root.querySelector(".ppfp__rate");
+    selSleep = root.querySelector(".ppfp__sleep");
+    leftEl = root.querySelector(".ppfp__left");
+    rate = loadRate(); selRate.value = String(rate);
+    selRate.addEventListener("change", function () {
+      rate = parseFloat(selRate.value) || 1;
+      try { localStorage.setItem(RATE_KEY, String(rate)); } catch (e) {}
+      applyRate();
+    });
+    selSleep.addEventListener("change", function () { setSleep(selSleep.value); });
+    audioEl.addEventListener("loadedmetadata", applyRate);
+    audioEl.addEventListener("contextmenu", function (e) { e.preventDefault(); });   // «ذخیره‌ی صدا به‌عنوان…» نشان داده نشود
+    audioEl.addEventListener("playing", function () { showStatus(""); if (!sleepAt && !sleepEnd && leftEl) leftEl.textContent = ""; });
+    audioEl.addEventListener("ended", function () {
+      if (sleepEnd) { sleepFire(); return; }                  // «پایان این قسمت»: قسمت بعدی شروع نشود
+      if (eps[epI + 1]) playEp(epI + 1);
+    });
+    audioEl.addEventListener("timeupdate", function () { if (sleepAt && Date.now() >= sleepAt) sleepFire(); });   // اگر تایمر مرورگر در پس‌زمینه کند شد
+    audioEl.addEventListener("error", function () {
+      if (mode !== "audio" || !audioEl.getAttribute("src")) return;
+      showStatus("این قسمت پخش نشد. دوباره تلاش کنید یا قسمت دیگری را انتخاب کنید.", true);
+    });
 
     frame.addEventListener("load", function () {
       if (!frame.getAttribute("src") || frame.getAttribute("src") === "about:blank") return;
@@ -261,21 +306,137 @@
     frame.setAttribute("src", withParams(curSrc, n));
     watchdog = setTimeout(function () {
       if (loaded) return;
-      showStatus("پلیر بالا نیامد. گاهی Castbox در ایران دیر یا اصلاً لود نمی‌شود. بدون بارگذاری دوباره‌ی کل صفحه، همین‌جا دوباره تلاش کنید.", true);
+      showStatus("پلیر بالا نیامد. بدون بارگذاری دوباره‌ی کل صفحه، همین‌جا دوباره تلاش کنید.", true);
     }, LOAD_TIMEOUT);
   }
 
   function reload() {
+    if (root && mode === "audio") {
+      showStatus("");
+      var t = audioEl.currentTime || 0;
+      audioEl.load();
+      audioEl.addEventListener("loadedmetadata", function seek() { audioEl.removeEventListener("loadedmetadata", seek); try { if (t > 1) audioEl.currentTime = t; } catch (e) {} });
+      var pr = audioEl.play(); if (pr && pr.catch) pr.catch(function () {});
+      return;
+    }
     if (!root || !curSrc) return;
     reloadN += 1;
     frame.setAttribute("src", "about:blank");
     setTimeout(function () { load(reloadN); }, 80);
   }
 
+  /* ---------- پلیر داخلی: پخش مستقیم فایل صوتی قسمت‌ها ---------- */
+  function httpsUrl(u) {
+    try {
+      var x = new URL(String(u || ""), location.href);
+      if (x.protocol === "http:") x.protocol = "https:";     // صفحه https است؛ http توسط مرورگر بلاک می‌شود
+      return x.protocol === "https:" ? x.href : null;
+    } catch (e) { return null; }
+  }
+  /* ---------- سرعت پخش و تایمر خواب ---------- */
+  function faNum(n) { return String(n).replace(/\d/g, function (d) { return "۰۱۲۳۴۵۶۷۸۹"[d]; }); }
+  function loadRate() {
+    try { var r = parseFloat(localStorage.getItem(RATE_KEY)); if (RATES.indexOf(r) > -1) return r; } catch (e) {}
+    return 1;
+  }
+  function applyRate() { if (!audioEl) return; audioEl.defaultPlaybackRate = rate; audioEl.playbackRate = rate; }
+  function clearSleep() {
+    clearTimeout(sleepT); clearInterval(sleepTick);
+    sleepT = 0; sleepTick = 0; sleepAt = 0; sleepEnd = false;
+    if (selSleep) selSleep.value = "0";
+    if (leftEl) leftEl.textContent = "";
+  }
+  function sleepFire() {
+    if (audioEl) audioEl.pause();
+    clearSleep();
+    if (leftEl) leftEl.textContent = "تایمر خواب تمام شد";
+  }
+  function setSleep(v) {
+    clearTimeout(sleepT); clearInterval(sleepTick);
+    sleepT = 0; sleepTick = 0; sleepAt = 0; sleepEnd = false; leftEl.textContent = "";
+    if (v === "end") { sleepEnd = true; leftEl.textContent = "تا پایان این قسمت"; return; }
+    var m = parseInt(v, 10);
+    if (!m) return;
+    sleepAt = Date.now() + m * 60000;
+    function fmt(ms) { var s = Math.max(0, Math.round(ms / 1000)), mm = Math.floor(s / 60); s = s % 60; return faNum((mm < 10 ? "0" : "") + mm + ":" + (s < 10 ? "0" : "") + s); }
+    leftEl.textContent = fmt(m * 60000);
+    sleepT = setTimeout(sleepFire, m * 60000);
+    sleepTick = setInterval(function () { var left = sleepAt - Date.now(); if (left <= 0) sleepFire(); else leftEl.textContent = fmt(left); }, 1000);
+  }
+  function cleanEps(list) {
+    return (list || []).map(function (e) { return { t: String((e && (e.t || e.title)) || "").trim(), a: httpsUrl(e && (e.a || e.audio)) }; })
+      .filter(function (e) { return e.a; });
+  }
+  function setMode(m) {
+    mode = m;
+    frame.hidden = m === "audio";
+    audioWrap.hidden = m !== "audio";
+  }
+  function renderEps() {
+    epsEl.innerHTML = "";
+    eps.forEach(function (e, i) {
+      var li = document.createElement("li"), b = document.createElement("button");
+      b.type = "button"; b.className = "ppfp__ep" + (i === epI ? " on" : "");
+      b.textContent = e.t || "قسمت " + (i + 1);
+      if (i === epI) b.setAttribute("aria-current", "true");
+      b.addEventListener("click", function () { playEp(i); });
+      li.appendChild(b); epsEl.appendChild(li);
+    });
+    var on = epsEl.querySelector(".on"); if (on && on.scrollIntoView) { try { on.scrollIntoView({ block: "nearest" }); } catch (e) {} }
+  }
+  function mediaMeta(e) {
+    try {
+      if (!("mediaSession" in navigator) || typeof MediaMetadata === "undefined") return;
+      navigator.mediaSession.metadata = new MediaMetadata({ title: e.t || "", artist: titleEl.textContent || "پرشین‌پاد" });
+      navigator.mediaSession.setActionHandler("nexttrack", eps[epI + 1] ? function () { playEp(epI + 1); } : null);
+      navigator.mediaSession.setActionHandler("previoustrack", epI > 0 ? function () { playEp(epI - 1); } : null);
+    } catch (x) {}
+  }
+  function playEp(i) {
+    if (!eps[i]) return;
+    epI = i;
+    var e = eps[i];
+    nowEl.textContent = e.t || "";
+    showStatus("");
+    audioEl.src = e.a;
+    applyRate();
+    var pr = audioEl.play(); if (pr && pr.catch) pr.catch(function () {});   // اگر مرورگر پخش خودکار را نداد، کاربر با دکمه‌ی پخش شروع می‌کند
+    renderEps(); mediaMeta(e);
+  }
+  function stopFrame() {
+    clearTimeout(watchdog);
+    if (frame) { frame.setAttribute("src", "about:blank"); frame.removeAttribute("src"); }
+    curSrc = ""; loaded = false;
+  }
+  function stopAudio() {
+    clearSleep();
+    if (!audioEl) return;
+    audioEl.pause(); audioEl.removeAttribute("src"); try { audioEl.load(); } catch (e) {}
+  }
+  function openAudio(opts, list) {
+    build();
+    stopFrame(); setMode("audio");
+    var idx = Math.max(0, Math.min(list.length - 1, (opts && opts.index) | 0));
+    var same = eps.length && eps[0].a === list[0].a && audioEl.getAttribute("src") === list[idx].a;
+    eps = list;
+    titleEl.textContent = (opts && opts.title) || "در حال پخش";
+    var ext = safeUrl(opts && opts.page);
+    if (ext) { pageLink.href = ext; pageLink.hidden = false; } else { pageLink.hidden = true; }
+    root.hidden = false;
+    document.body.classList.add("ppfp-open");
+    setMin(false);
+    applyGeometry();
+    if (same) { epI = idx; renderEps(); var pr = audioEl.play(); if (pr && pr.catch) pr.catch(function () {}); }
+    else playEp(idx);
+  }
+
   function open(opts) {
+    var list = cleanEps(opts && opts.eps);
+    if (list.length) return openAudio(opts, list);
     var src = safeUrl(opts && opts.src);
     if (!src) return;
     build();
+    stopAudio(); setMode("frame"); eps = [];
     // پخش خودکار فقط وقتی کاربر خودش دکمه‌ی پخش را زده است (Castbox این پارامتر را می‌شناسد)
     if (opts && opts.autoplay !== false && /castbox\.fm\/app\/castbox\/player/.test(src)) src = src.replace("autoplay=0", "autoplay=1");
     titleEl.textContent = (opts && opts.title) || "در حال پخش";
@@ -295,6 +456,7 @@
     frame.setAttribute("src", "about:blank"); // پخش را قطع می‌کند
     frame.removeAttribute("src");
     curSrc = ""; loaded = false;
+    stopAudio(); eps = [];
     showStatus("");
     root.hidden = true;
     document.body.classList.remove("ppfp-open", "ppfp-min");
@@ -304,6 +466,19 @@
 
   // اتصال خودکار: هر عنصری با data-pp-embed
   document.addEventListener("click", function (e) {
+    var au = e.target.closest("[data-pp-audio]");
+    if (au) {
+      e.preventDefault();
+      var box = au.closest("[data-pp-playlist]") || au.parentNode;
+      var items = Array.prototype.slice.call(box.querySelectorAll("[data-pp-audio]"));
+      open({
+        eps: items.map(function (x) { return { t: x.getAttribute("data-t") || x.textContent.trim(), a: x.getAttribute("data-pp-audio") }; }),
+        index: items.indexOf(au),
+        title: box.getAttribute("data-title") || "",
+        page: box.getAttribute("data-page") || "",
+      });
+      return;
+    }
     var el = e.target.closest("[data-pp-embed]");
     if (!el) return;
     e.preventDefault();

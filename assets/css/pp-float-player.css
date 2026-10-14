@@ -218,3 +218,30 @@ body.night .ppfp {
 .pp-poster-btn:active { transform: scale(.98); }
 .pp-poster-btn:focus-visible { outline: 3px solid #08cb00; outline-offset: 3px; }
 
+
+/* ---------- پلیر داخلی: پخش مستقیم قسمت‌ها ---------- */
+.ppfp__audio { position: absolute; inset: 0; display: flex; flex-direction: column; gap: 8px; padding: 10px 12px 26px; direction: rtl; overflow: hidden; }
+.ppfp__audio[hidden] { display: none; }
+.ppfp__frame[hidden] { display: none; }
+.ppfp__now { flex: none; font-size: 13px; font-weight: 700; line-height: 1.7; max-height: 3.5em; overflow: hidden; }
+.ppfp__au { flex: none; width: 100%; height: 40px; }
+.ppfp__eps { flex: 1; min-height: 0; margin: 0; padding: 0; list-style: none; overflow-y: auto; display: grid; gap: 3px; align-content: start; }
+.ppfp__ep { display: block; width: 100%; padding: 5px 9px; border: 0; border-radius: 8px; background: transparent; color: inherit; font: inherit; font-size: 12.5px; line-height: 1.7; text-align: start; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ppfp__ep:hover { background: rgba(8, 203, 0, .12); }
+.ppfp__ep.on { background: rgba(8, 203, 0, .18); box-shadow: inset 0 0 0 1px rgba(8, 203, 0, .5); font-weight: 700; }
+.ppfp__ep:focus-visible { outline: 2px solid var(--ppfp-green); outline-offset: 1px; }
+
+/* لیست قسمت‌ها در صفحه‌ی پادکست */
+.pp-eplist { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 4px; text-align: start; }
+.pp-eplist button { display: flex; align-items: center; gap: 8px; width: 100%; padding: 7px 10px; border: 0; border-radius: 10px; background: transparent; color: var(--ink); font: inherit; font-size: .88rem; line-height: 1.7; text-align: start; cursor: pointer; }
+.pp-eplist button svg { width: 14px; height: 14px; fill: #08cb00; flex: none; }
+.pp-eplist button span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pp-eplist button:hover { background: rgba(8, 203, 0, .12); }
+.pp-eplist button:focus-visible { outline: 2px solid #08cb00; outline-offset: 2px; }
+
+/* سرعت پخش و تایمر خواب */
+.ppfp__tools { flex: none; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.ppfp__tool select { height: 30px; padding: 0 8px; border: 1px solid var(--ppfp-line); border-radius: 8px; background: var(--ppfp-bar); color: inherit; font: inherit; font-size: 12px; cursor: pointer; }
+.ppfp__tool select:focus-visible { outline: 2px solid var(--ppfp-green); outline-offset: 1px; }
+.ppfp__left { font-size: 12px; opacity: .85; font-variant-numeric: tabular-nums; }
+.ppfp .sr { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }

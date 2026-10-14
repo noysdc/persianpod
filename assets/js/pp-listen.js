@@ -1,5 +1,5 @@
 /* PersianPod: صفحه‌ی «گوش بده»
-   - پلیر از embed، castbox_embed، شناسه‌ی Castbox یا لینک Spotify ساخته می‌شود.
+   - پلیر اصلی: پخش مستقیم قسمت‌های اخیر (فیلد eps در podcasts.json)؛ اگر نبود، به embed قدیمی برمی‌گردد.
    - پلیرها مثل پادکست‌ها دسته‌بندی دارند: ردیف افقی برای هر دسته، با نام کلیک‌پذیر.
    - ترتیب دسته‌ها و پلیرها در هر بار باز شدن صفحه عوض می‌شود. */
 (function () {
@@ -89,6 +89,7 @@
 
   function prep(p) {
     p._src = playerSrc(p);
+    p._eps = (p.eps || []).filter(function (e) { return e && e.a; });
     p._cat = p.category || "سایر";
     p._hay = norm([p.title, p.description, p.category, p.city, (p.tags || []).join(" ")].join(" "));
     p._rnd = 0;
@@ -185,14 +186,24 @@
   function select(p, scroll) {
     current = p;
     try { history.replaceState(null, "", location.pathname + "?p=" + encodeURIComponent(p.id)); } catch (e) {}
-    var src = p._src, kind = kindOf(src), yt = youtubeId(p.youtube), cb = castboxPage(p);
+    var src = p._src, kind = kindOf(src), yt = youtubeId(p.youtube);
     stage.innerHTML =
       '<div class="pl-head">' + (p.logo ? '<img src="' + esc(p.logo) + '" alt="" width="68" height="68">' : "<i>" + esc((p.title || "").trim().charAt(0)) + "</i>") +
       "<div><h2>" + esc(p.title) + "</h2><small>" + esc(p._cat) + "</small></div></div>" +
       '<div id="pl-slot">' + (window.PPPlayer ? '<p class="pp-poster-note">پلیر به‌صورت شناور باز می‌شود و هنگام گشت‌وگذار در سایت هم پخش ادامه دارد.</p><button type="button" class="pp-poster-btn" id="pl-play" aria-label="پخش ' + esc(p.title) + '">' + PLAY + 'پخش پادکست</button>' : "") + "</div>" +
       (yt ? '<h3 class="pl-sub">قسمت منتخب در یوتیوب</h3><div id="pl-yt"></div>' : "") +
-      '<div class="pl-links"><a href="' + esc(p.url) + '">صفحه‌ی معرفی پادکست</a>' +
-      (cb ? '<a href="' + esc(cb) + '" target="_blank" rel="noopener noreferrer">باز کردن در Castbox</a>' : "") + "</div>";
+      '<div class="pl-links"><a href="' + esc(p.url) + '">صفحه‌ی معرفی پادکست</a></div>';
+    var slot0 = document.getElementById("pl-slot");          // فهرست قسمت‌های اخیر زیر دکمه‌ی پخش
+    if (slot0 && p._eps.length > 1) {
+      slot0.setAttribute("data-pp-playlist", ""); slot0.setAttribute("data-title", p.title);
+      var ul = document.createElement("ul"); ul.className = "pp-eplist"; ul.setAttribute("aria-label", "قسمت‌های اخیر");
+      p._eps.forEach(function (e) {
+        var li = document.createElement("li"), b = document.createElement("button"), sp = document.createElement("span");
+        b.type = "button"; b.setAttribute("data-pp-audio", e.a); b.setAttribute("data-t", e.t || "");
+        b.innerHTML = PLAY; sp.textContent = e.t || ""; b.appendChild(sp); li.appendChild(b); ul.appendChild(li);
+      });
+      slot0.appendChild(ul);
+    }
     function mount(id, cls, url, title, allow) {
       var slot = document.getElementById(id); if (!slot) return;
       var f = document.createElement("iframe");
@@ -205,15 +216,19 @@
     if (window.PPPlayer) {
       var pb = document.getElementById("pl-play");
       if (pb) pb.addEventListener("click", function () { playFloat(p); });
-    } else mount("pl-slot", "e-" + kind, src, "پلیر " + p.title);
+    } else if (src) mount("pl-slot", "e-" + kind, src, "پلیر " + p.title);
     if (yt) mount("pl-yt", "e-youtube", "https://www.youtube-nocookie.com/embed/" + yt, "قسمت منتخب " + p.title, "accelerometer; encrypted-media; picture-in-picture");
     $$(".pl-card", out).forEach(function (b) { if (b.getAttribute("data-id") === p.id) b.setAttribute("aria-current", "true"); else b.removeAttribute("aria-current"); });
     if (scroll) stage.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function playFloat(p) {
-    if (!p._src) return;
-    function go() { window.PPPlayer.open({ src: p._src, title: p.title, page: castboxPage(p) || p.podcast_link || "" }); }
+    if (!p._eps.length && !p._src) return;
+    function go() {
+      window.PPPlayer.open(p._eps.length
+        ? { eps: p._eps.map(function (e) { return { t: e.t, a: e.a }; }), index: 0, title: p.title }
+        : { src: p._src, title: p.title, page: castboxPage(p) || p.podcast_link || "" });
+    }
     if (window.PPPlayer) return go();
     // اگر اسکریپت پلیر شناور هنوز لود نشده بود (کش قدیمی)، همین‌جا لودش می‌کنیم
     var me = document.querySelector('script[src*="pp-listen.js"]');
@@ -265,9 +280,9 @@
   fetch(window.PP_DATA_URL)
     .then(function (r) { if (!r.ok) throw 0; return r.json(); })
     .then(function (d) {
-      data = d.map(prep).filter(function (p) { return p._src; });
+      data = d.map(prep).filter(function (p) { return p._eps.length || p._src; });
       if (!data.length) {
-        stage.innerHTML = '<p class="pd-empty">هنوز پادکستی با پلیر ثبت نشده. پلیر از «لینک پادکست» (Castbox، اسپاتیفای یا اپل پادکست) ساخته می‌شود.</p>';
+        stage.innerHTML = '<p class="pd-empty">هنوز قسمتی برای پخش آماده نیست. کمی بعد دوباره سر بزنید.</p>';
         out.innerHTML = ""; return;
       }
       SE = window.PPSearch && PPSearch.create ? PPSearch.create() : null;   // فهرست جدا: فقط پادکست‌های دارای پلیر

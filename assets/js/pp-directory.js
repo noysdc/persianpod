@@ -351,7 +351,7 @@
       });
       order.sort(function (a, b) { return f.sort === "random" ? catRank[a] - catRank[b] : collator.compare(a, b); });
       out.innerHTML = order.map(function (c, idx) {
-        var items = groups[c].slice(0, 30);
+        var items = groups[c];
         return (idx ? WAVE : "") + '<section class="pd-group" aria-label="' + esc(c) + '">' +
           '<h2 class="pd-cat"><a class="pd-cat-link" href="?category=' + encodeURIComponent(c) + '" data-cat="' + esc(c) + '">' +
           '<span class="pd-cat-ic">' + iconSvg(iconFor(c)) + "</span>" + esc(c) + " <small>" + toFa(groups[c].length) + "</small>" +

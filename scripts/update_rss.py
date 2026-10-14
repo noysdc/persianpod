@@ -15,6 +15,7 @@ PODCASTS = ROOT / "_podcasts"
 OUT = ROOT / "_data" / "rss_stats.json"
 INACTIVE_AFTER_DAYS = 1095    # بدون قسمت جدید بیش از ۳ سال = غیرفعال
 RECENT_FOR_AVG = 30           # میانگین طول از چند قسمت آخر
+PLAY_COUNT = 8                # تعداد قسمت‌های قابل‌پخش برای پلیر داخلی
 ERRORS = ROOT / "_data" / "rss_errors.json"
 # بعضی میزبان‌ها (Anchor، Audiya و…) به User-Agent ربات یا IP سرورهای ابری جواب ۴۰۳ می‌دهند؛
 # پس چند هویت را به‌ترتیب امتحان می‌کنیم.
@@ -127,6 +128,7 @@ def analyse(feed_url):
     root = parse_xml(fetch(feed_url))
     items = []
     eps = []      # (تاریخ، عنوان، لینک) برای صفحه‌ی «تازه‌ها»
+    audio_eps = []  # (تاریخ، عنوان، آدرس فایل صوتی) برای پلیر داخلی
     for it in root.iter("item"):
         pub = it.findtext("pubDate")
         if not pub:                                  # بعضی فیدها به‌جای pubDate از dc:date استفاده می‌کنند
@@ -146,6 +148,11 @@ def analyse(feed_url):
             link = (enc.get("url") if enc is not None else "") or ""
             link = link if link.lower().startswith(("http://", "https://")) else ""
         eps.append((d, (it.findtext("title") or "").strip()[:160], link))
+        enc = it.find("enclosure")                    # فایل صوتی قسمت (برای پلیر داخلی)
+        au = ((enc.get("url") if enc is not None else "") or "").strip()
+        ty = ((enc.get("type") if enc is not None else "") or "").lower()
+        if au.lower().startswith(("http://", "https://")) and (ty.startswith("audio") or ty in ("", "application/octet-stream") or re.search(r"\.(mp3|m4a|aac|ogg|oga|wav)(\?|$)", au, re.I)):
+            audio_eps.append((d, (it.findtext("title") or "").strip()[:160], au))
     if not items:
         raise ValueError("no items in feed")
     result = {"episodes": len(items)}
@@ -172,6 +179,10 @@ def analyse(feed_url):
         result["last_title"] = newest[0][1]
         result["last_link"] = newest[0][2]
         result["recent"] = [{"at": d.strftime("%Y-%m-%dT%H:%M:%SZ"), "title": t, "link": l} for d, t, l in newest]
+    # --- پلیر داخلی: ۸ قسمت آخر که فایل صوتی دارند ---
+    play = sorted(((utc2(d), t, u) for d, t, u in audio_eps if d), key=lambda x: x[0], reverse=True)[:PLAY_COUNT]
+    if play:
+        result["play"] = [{"at": d.strftime("%Y-%m-%dT%H:%M:%SZ"), "t": t, "a": u} for d, t, u in play]
     # --- آمار تکمیلی برای صفحه‌ی «مقایسه»؛ همه از خود RSS و قابل بازتولید ---
     durs = sorted(x for _, x in items if x > 0)
     if durs:

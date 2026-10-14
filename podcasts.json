@@ -37,7 +37,8 @@ permalink: /podcasts.json
   "embed": {{ p.embed | jsonify }},
   "podcast_link": {{ p.podcast_link | jsonify }},
   "spotify": {{ p.spotify | jsonify }},
-  "youtube": {{ p.yt_ep | default: p.youtube | jsonify }}
+  "youtube": {{ p.yt_ep | default: p.youtube | jsonify }},
+  "eps": [{% for e in st.play %}{"t": {{ e.t | jsonify }}, "a": {{ e.a | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]
 }{% unless forloop.last %},{% endunless %}
 {%- endfor -%}
 ]
