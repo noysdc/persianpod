@@ -18,8 +18,8 @@ pi_id: 3453178
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: falase
+published: falase
 ---
 
 # واکاوی رویدادهای ایران
