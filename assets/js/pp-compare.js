@@ -217,11 +217,21 @@
   function update() {
     var ready = sel.a && sel.b;
     $("#cp-go").disabled = !ready; $("#cp-swap").disabled = !ready;
+    var rs = $("#cp-reset"); if (rs) rs.disabled = !(sel.a || sel.b);
     sync();
     if (!ready) { out.innerHTML = ""; $("#cp-msg").textContent = sel.a || sel.b ? "یک پادکست دیگر هم انتخاب کن." : ""; return; }
     $("#cp-msg").textContent = ""; render();
   }
   $("#cp-go").addEventListener("click", function () { if (sel.a && sel.b) { render(); out.scrollIntoView({ behavior: "smooth", block: "start" }); } });
+  /* شروع دوباره: انتخاب‌ها، نتیجه و ?a=&b= آدرس پاک می‌شود (با رفرش صفحه پاک نمی‌شد، چون انتخاب‌ها در آدرس ذخیره‌اند) */
+  var rsBtn = $("#cp-reset");
+  if (rsBtn) rsBtn.addEventListener("click", function () {
+    sel.a = null; sel.b = null;
+    ["a", "b"].forEach(function (k) { $("#cp-in-" + k).value = ""; drawChosen(k); });
+    update();
+    $("#cp-in-a").focus();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   $("#cp-swap").addEventListener("click", function () { var t = sel.a; sel.a = sel.b; sel.b = t; drawChosen("a"); drawChosen("b"); update(); });
 
   fetch(window.PP_COMPARE_URL).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) {
