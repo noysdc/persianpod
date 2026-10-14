@@ -1,4 +1,8 @@
 {
+  "film-o-srial-soti": {
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "rss": "https://mp3movies.ir/feed"
+  },
   "filmhai-sinmaii-airani": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
