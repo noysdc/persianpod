@@ -17,8 +17,8 @@ pi_id: 1443803
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: falase
+published: falase
 ---
 
 # راهی که آمدیم- تاریخچه مجاهدین خلق ایران
