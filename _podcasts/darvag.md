@@ -14,7 +14,7 @@ city: "تهران"
 start_year: 1402
 episode_count: 39
 frequency: "ماهانه"
-logo: ""
+logo: "/assets/img/podcasts/darvag.webp"
 rss: "https://media.rss.com/darvagpodcast/feed.xml"
 castbox: "https://B2n.ir/castdarvag"
 instagram: "https://shorturl.at/0npqs"
