@@ -18,8 +18,8 @@ pi_id: 3427358
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: false
+published: false
 ---
 
 # پادکست روانشناسی سایکوپاد

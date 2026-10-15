@@ -18,8 +18,8 @@ pi_id: 1268484
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: false
+published: false
 ---
 
 # قصه‌های ایرانی
