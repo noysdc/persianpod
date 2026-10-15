@@ -1115,6 +1115,95 @@
     ],
     "status": "active"
   },
+  "bazi-kst": {
+    "avg_length": 138,
+    "episodes": 86,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2014-09-26",
+    "first_year": 1393,
+    "last": "1402/06/01",
+    "last_at": "2023-08-23T16:33:09Z",
+    "last_link": "https://s3.castbox.fm/fb/c0/32/93e1fd4e848b247ab989ecd3ee.mp3",
+    "last_title": "شاعر صنعت گیم | فصل 8 قسمت 10",
+    "max_length": 269,
+    "median_length": 116,
+    "min_length": 39,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/fb/c0/32/93e1fd4e848b247ab989ecd3ee.mp3",
+        "at": "2023-08-23T16:33:09Z",
+        "t": "شاعر صنعت گیم | فصل 8 قسمت 10"
+      },
+      {
+        "a": "https://s3.castbox.fm/25/71/4c/004a514be692cf5e01aee48a86.mp3",
+        "at": "2023-08-10T16:30:00Z",
+        "t": "ورود مرد عنکبوتی به دنیای سه بعدی | فصل 8 قسمت 9"
+      },
+      {
+        "a": "https://s3.castbox.fm/ee/8d/98/cd7210424bb6d06ffcec77f3b0.mp3",
+        "at": "2023-06-28T16:30:00Z",
+        "t": "فیفتی سنت در سرزمین عجایب |  فصل 8 قسمت 8"
+      },
+      {
+        "a": "https://s3.castbox.fm/e0/90/87/da624c44d994d143a745dfec6e.mp3",
+        "at": "2023-05-31T16:30:00Z",
+        "t": "هشت روز تا برزخ | فصل 8 قسمت 7"
+      },
+      {
+        "a": "https://s3.castbox.fm/ca/f7/0b/d5139843b8b8063814e9a4ab41.mp3",
+        "at": "2023-05-10T16:30:00Z",
+        "t": "وحشت در فضا | فصل 8 قسمت 6"
+      },
+      {
+        "a": "https://s3.castbox.fm/82/e9/d0/81d1fc4e5faa7eec19f8dcdbd8.mp3",
+        "at": "2023-04-20T16:31:44Z",
+        "t": "اژدها خارج می‌شود | فصل 8 قسمت 5"
+      },
+      {
+        "a": "https://s3.castbox.fm/95/52/68/f3918e45a9abfbbc81cad1f342.mp3",
+        "at": "2023-03-16T16:30:00Z",
+        "t": "متال گیر : ظهور نابغه‌ای به اسم کوجیما | فصل 8 قسمت 4"
+      },
+      {
+        "a": "https://s3.castbox.fm/b1/3f/c4/e44f4a4152b38f3ba1e5488eb8.mp3",
+        "at": "2022-09-14T16:06:22Z",
+        "t": "فصل 8 قسمت 3 | The Last of Us : پوست اندازی ناتی داگ"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-08-23T16:33:09Z",
+        "link": "https://s3.castbox.fm/fb/c0/32/93e1fd4e848b247ab989ecd3ee.mp3",
+        "title": "شاعر صنعت گیم | فصل 8 قسمت 10"
+      },
+      {
+        "at": "2023-08-10T16:30:00Z",
+        "link": "https://s3.castbox.fm/25/71/4c/004a514be692cf5e01aee48a86.mp3",
+        "title": "ورود مرد عنکبوتی به دنیای سه بعدی | فصل 8 قسمت 9"
+      },
+      {
+        "at": "2023-06-28T16:30:00Z",
+        "link": "https://s3.castbox.fm/ee/8d/98/cd7210424bb6d06ffcec77f3b0.mp3",
+        "title": "فیفتی سنت در سرزمین عجایب |  فصل 8 قسمت 8"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "boutigha": {
     "avg_gap_days": 10.3,
     "avg_length": 46,
@@ -1551,6 +1640,184 @@
       0,
       13,
       2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "dastan-baz-rman-hai-fantzi": {
+    "avg_length": 11,
+    "episodes": 96,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-02-24",
+    "first_year": 1402,
+    "last": "1403/12/15",
+    "last_at": "2025-03-05T06:03:01Z",
+    "last_link": "https://shows.acast.com/robotjangali/episodes/2-14",
+    "last_title": "ماجراهای کارلسون پشت بومی ۲ - کارلسون دوباره پرواز می کند - مقدمه",
+    "max_length": 28,
+    "median_length": 3,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65d4552bd5000b0017f47204/e/67c7e916fc5f88b98d1cdabd/media.mp3",
+        "at": "2025-03-05T06:03:01Z",
+        "t": "ماجراهای کارلسون پشت بومی ۲ - کارلسون دوباره پرواز می کند - مقدمه"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65d4552bd5000b0017f47204/e/67c08bcd24bc0fa2a18c7a53/media.mp3",
+        "at": "2025-02-28T10:30:00Z",
+        "t": "ماجراهای کارلسون پشت بومی ۱ - حقه بازی های کارلسون 8 - بخش 2"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65d4552bd5000b0017f47204/e/67c08a3d24bc0fa2a18c0ba2/media.mp3",
+        "at": "2025-02-27T15:52:28Z",
+        "t": "ماجراهای کارلسون پشت بومی ۱ - حقه بازی های کارلسون 8 - بخش 1"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65d4552bd5000b0017f47204/e/67b58befd24f7fcce84a078a/media.mp3",
+        "at": "2025-02-19T07:46:41Z",
+        "t": "ماجراهای کارلسون پشت بومی ۱ - حقه بازی های کارلسون ۷ - بخش ۲"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65d4552bd5000b0017f47204/e/67b349986392e4a39f4fb6db/media.mp3",
+        "at": "2025-02-17T14:37:08Z",
+        "t": "ماجراهای کارلسون پشت بومی ۱ - حقه بازی های کارلسون ۷ - بخش ۱"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65d4552bd5000b0017f47204/e/67b06bd94d9bd1092c1b9ad3/media.mp3",
+        "at": "2025-02-15T10:26:32Z",
+        "t": "ماجراهای کارلسون پشت بومی ۱ - حقه بازی های کارلسون ۶ - بخش ۲"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65d4552bd5000b0017f47204/e/67af55404d9bd1092cde03b8/media.mp3",
+        "at": "2025-02-14T14:37:52Z",
+        "t": "ماجراهای کارلسون پشت بومی ۱ - حقه بازی های کارلسون ۶ - بخش ۱"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65d4552bd5000b0017f47204/e/67ab2c61b468a1d76f996306/media.mp3",
+        "at": "2025-02-12T10:33:44Z",
+        "t": "ماجراهای کارلسون پشت بومی ۱ - حقه بازی های کارلسون ۵ - بخش ۲"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-03-05T06:03:01Z",
+        "link": "https://shows.acast.com/robotjangali/episodes/2-14",
+        "title": "ماجراهای کارلسون پشت بومی ۲ - کارلسون دوباره پرواز می کند - مقدمه"
+      },
+      {
+        "at": "2025-02-28T10:30:00Z",
+        "link": "https://shows.acast.com/robotjangali/episodes/2-13",
+        "title": "ماجراهای کارلسون پشت بومی ۱ - حقه بازی های کارلسون 8 - بخش 2"
+      },
+      {
+        "at": "2025-02-27T15:52:28Z",
+        "link": "https://shows.acast.com/robotjangali/episodes/2-12",
+        "title": "ماجراهای کارلسون پشت بومی ۱ - حقه بازی های کارلسون 8 - بخش 1"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "dastan-baz-rman-hai-fantzi-mdrsh-ajib-o-ghrib": {
+    "avg_length": 8,
+    "episodes": 94,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-03-07",
+    "first_year": 1402,
+    "last": "1403/11/10",
+    "last_at": "2025-01-29T07:19:05Z",
+    "last_link": "https://shows.acast.com/the-weird-school/episodes/6799d66a65f74095101e25a6",
+    "last_title": "داستان باز - لطفا گوش بدین!",
+    "max_length": 14,
+    "median_length": 6,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e884c0b256d80017b10b6f/e/6799d66a65f74095101e25a6/media.mp3",
+        "at": "2025-01-29T07:19:05Z",
+        "t": "داستان باز - لطفا گوش بدین!"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e884c0b256d80017b10b6f/e/6781f5b47ba57787eb06e49f/media.mp3",
+        "at": "2025-01-25T16:32:44Z",
+        "t": "خانم ماساتی معلم احساساتی - فصل ۱۲"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e884c0b256d80017b10b6f/e/6781f57742abcc6d7e51320e/media.mp3",
+        "at": "2025-01-24T14:00:38Z",
+        "t": "خانم ماساتی معلم احساساتی - فصل ۱۱"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e884c0b256d80017b10b6f/e/6781f48942abcc6d7e511824/media.mp3",
+        "at": "2025-01-22T17:18:25Z",
+        "t": "خانم ماساتی معلم احساساتی - فصل ۱۰"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e884c0b256d80017b10b6f/e/6781f3f3ec40818e0b8d0290/media.mp3",
+        "at": "2025-01-21T08:30:00Z",
+        "t": "خانم ماساتی معلم احساساتی - فصل ۹"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e884c0b256d80017b10b6f/e/6781f3b32d4090d8afc1ac6e/media.mp3",
+        "at": "2025-01-19T12:04:58Z",
+        "t": "خانم ماساتی معلم احساساتی - فصل ۸"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e884c0b256d80017b10b6f/e/6781f352793854daae3a4676/media.mp3",
+        "at": "2025-01-18T11:08:06Z",
+        "t": "خانم ماساتی معلم احساساتی - فصل ۷"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e884c0b256d80017b10b6f/e/6781f3162d4090d8afc19963/media.mp3",
+        "at": "2025-01-17T13:05:57Z",
+        "t": "خانم ماساتی معلم احساساتی - فصل ۶"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-01-29T07:19:05Z",
+        "link": "https://shows.acast.com/the-weird-school/episodes/6799d66a65f74095101e25a6",
+        "title": "داستان باز - لطفا گوش بدین!"
+      },
+      {
+        "at": "2025-01-25T16:32:44Z",
+        "link": "https://shows.acast.com/the-weird-school/episodes/18-12",
+        "title": "خانم ماساتی معلم احساساتی - فصل ۱۲"
+      },
+      {
+        "at": "2025-01-24T14:00:38Z",
+        "link": "https://shows.acast.com/the-weird-school/episodes/18-11",
+        "title": "خانم ماساتی معلم احساساتی - فصل ۱۱"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -2642,6 +2909,96 @@
     ],
     "status": "active"
   },
+  "ghab-tarikh": {
+    "avg_gap_days": 4.1,
+    "avg_length": 52,
+    "episodes": 85,
+    "eps_365": 14,
+    "eps_90": 14,
+    "first_at": "2021-10-08",
+    "first_year": 1400,
+    "last": "1405/06/20",
+    "last_at": "2026-09-11T20:31:00Z",
+    "last_link": "https://shows.acast.com/kb-trkh/episodes/6aa40f90564171e32a682d21",
+    "last_title": "منوچهر اقبال ؛ پزشکی حاذق و نخست‌وزیری مطیع",
+    "max_length": 94,
+    "median_length": 56,
+    "min_length": 13,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/625bbdb9fb38010012244bd4/e/6aa40f90564171e32a682d21/media.mp3",
+        "at": "2026-09-11T20:31:00Z",
+        "t": "منوچهر اقبال ؛ پزشکی حاذق و نخست‌وزیری مطیع"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/625bbdb9fb38010012244bd4/e/6a7025bff7c2060a1fe6faa5/media.mp3",
+        "at": "2026-08-05T20:31:00Z",
+        "t": "چرا کودتای نوژه شکست خورد؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/625bbdb9fb38010012244bd4/e/6a7022ae0cbc3e73ce080ee1/media.mp3",
+        "at": "2026-08-03T20:31:00Z",
+        "t": "سید حسن آیت ؛ معمار اصل ولایت فقیه در قانون اساسی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/625bbdb9fb38010012244bd4/e/6a6d9949c7cc27169d32840c/media.mp3",
+        "at": "2026-08-01T20:31:00Z",
+        "t": "چرا پرونده ایران کنترا به رسوایی تبدیل شد؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/625bbdb9fb38010012244bd4/e/6a6c6121aa1642a30f10fcc8/media.mp3",
+        "at": "2026-07-31T20:31:00Z",
+        "t": "محمد ساعد مراغه‌ای ؛ دیپلمات ساده‌زیست در طوفان سیاست"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/625bbdb9fb38010012244bd4/e/6a6af0e76043035f8951b4c6/media.mp3",
+        "at": "2026-07-30T20:31:00Z",
+        "t": "چرا اعدام سید مهدی هاشمی باعث عزل منتظری شد؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/625bbdb9fb38010012244bd4/e/6a630e67a7fbf9da14ff5783/media.mp3",
+        "at": "2026-07-27T20:30:00Z",
+        "t": "عبدالحسین‌میرزا فرمانفرما ؛ سیاستمدار دل‌شکسته"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/625bbdb9fb38010012244bd4/e/6a630b26a7fbf9da14fe78ce/media.mp3",
+        "at": "2026-07-26T20:31:00Z",
+        "t": "چرا حسینعلی منتظری از قائم‌مقامی رهبری عزل شد؟"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-11T20:31:00Z",
+        "link": "https://shows.acast.com/kb-trkh/episodes/6aa40f90564171e32a682d21",
+        "title": "منوچهر اقبال ؛ پزشکی حاذق و نخست‌وزیری مطیع"
+      },
+      {
+        "at": "2026-08-05T20:31:00Z",
+        "link": "https://shows.acast.com/kb-trkh/episodes/6a7025bff7c2060a1fe6faa5",
+        "title": "چرا کودتای نوژه شکست خورد؟"
+      },
+      {
+        "at": "2026-08-03T20:31:00Z",
+        "link": "https://shows.acast.com/kb-trkh/episodes/6a7022ae0cbc3e73ce080ee1",
+        "title": "سید حسن آیت ؛ معمار اصل ولایت فقیه در قانون اساسی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      13,
+      1,
+      0
+    ],
+    "status": "active"
+  },
   "ghraan-krim-hmrah-ba-trjmh-farsi": {
     "avg_length": 2,
     "episodes": 115,
@@ -2910,6 +3267,185 @@
       0
     ],
     "status": "active"
+  },
+  "gzidh-padkst-farsi": {
+    "avg_gap_days": 32.7,
+    "avg_length": 49,
+    "episodes": 90,
+    "eps_365": 10,
+    "eps_90": 5,
+    "first_at": "2021-02-28",
+    "first_year": 1399,
+    "last": "1405/06/24",
+    "last_at": "2026-09-15T08:54:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/persianpodcastselection/episodes/--e3nps9m",
+    "last_title": "۹۰- آیا از علی خامنه‌ای اعاده حیثیت خواهد شد؟ | گفتگوی خاکستری با رضا علیجانی",
+    "max_length": 191,
+    "median_length": 41,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/4f06e498/podcast/play/124628726/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-23%2Ff480667a-193a-a306-0d7b-ba4795dc73f9.mp3",
+        "at": "2026-09-15T08:54:00Z",
+        "t": "۹۰- آیا از علی خامنه‌ای اعاده حیثیت خواهد شد؟ | گفتگوی خاکستری با رضا علیجانی"
+      },
+      {
+        "a": "https://anchor.fm/s/4f06e498/podcast/play/124971699/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-31%2F1c5cad64-17af-481e-684b-42a9ef9962fe.mp3",
+        "at": "2026-09-01T13:27:00Z",
+        "t": "۸۹- احمد زیدآبادی: چرا پیامبر اسلام را دوست دارم؟"
+      },
+      {
+        "a": "https://anchor.fm/s/4f06e498/podcast/play/124657862/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-24%2Fa6ba21d5-4620-4676-c354-105417bd59cc.mp3",
+        "at": "2026-08-28T04:48:14Z",
+        "t": "۸۸- آیا بنزین گران می‌شود؟ بررسی سناریوهای دولت و اثر تورمی اصلاح قیمت"
+      },
+      {
+        "a": "https://anchor.fm/s/4f06e498/podcast/play/124578056/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-22%2Fb8d2edb7-ba0e-8147-bdb2-4080de4d3881.mp3",
+        "at": "2026-08-24T12:14:00Z",
+        "t": "۸۷- یاشار سلطانی: این ساختار صاحب ندارد"
+      },
+      {
+        "a": "https://anchor.fm/s/4f06e498/podcast/play/123569755/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-31%2F906bb2ba-c757-ab90-9870-a7c98a3462e7.m4a",
+        "at": "2026-08-02T13:08:00Z",
+        "t": "۸۶- آیا جامعه به هنرمندان بدهکار است؟"
+      },
+      {
+        "a": "https://anchor.fm/s/4f06e498/podcast/play/122696882/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-11%2Fd96be928-9e32-6802-34d1-800839648a0d.mp3",
+        "at": "2026-07-11T16:44:57Z",
+        "t": "۸۵- جعفر غضنفریان: شرایط نابسامان مدارس تیزهوشان"
+      },
+      {
+        "a": "https://anchor.fm/s/4f06e498/podcast/play/121971395/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-26%2F315aabba-2900-7790-d27c-0bb637836373.m4a",
+        "at": "2026-06-26T06:40:00Z",
+        "t": "۸۴- حمزه صفوی: فرصت طلایی برای معامله بزرگ با آمریکا"
+      },
+      {
+        "a": "https://anchor.fm/s/4f06e498/podcast/play/121650299/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-18%2Fcb36d645-9bf9-1044-8880-72b2a380121b.mp3",
+        "at": "2026-06-18T13:47:00Z",
+        "t": "۸۳- کالبدشکافی یک شکست تاریخی؛ گفتگو با امیر طاهری"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-15T08:54:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/persianpodcastselection/episodes/--e3nps9m",
+        "title": "۹۰- آیا از علی خامنه‌ای اعاده حیثیت خواهد شد؟ | گفتگوی خاکستری با رضا علیجانی"
+      },
+      {
+        "at": "2026-09-01T13:27:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/persianpodcastselection/episodes/--e3o4b7j",
+        "title": "۸۹- احمد زیدآبادی: چرا پیامبر اسلام را دوست دارم؟"
+      },
+      {
+        "at": "2026-08-28T04:48:14Z",
+        "link": "https://podcasters.spotify.com/pod/show/persianpodcastselection/episodes/--e3nqoo6",
+        "title": "۸۸- آیا بنزین گران می‌شود؟ بررسی سناریوهای دولت و اثر تورمی اصلاح قیمت"
+      }
+    ],
+    "recent_30d": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      3,
+      1,
+      3,
+      1
+    ],
+    "status": "active"
+  },
+  "hafz-khoani-bh-roait-ahmd-shamlo": {
+    "avg_length": 12,
+    "episodes": 96,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-06-15",
+    "first_year": 1399,
+    "last": "1399/08/18",
+    "last_at": "2020-11-08T05:41:06Z",
+    "last_link": "https://shenoto.com/album/podcast/44969/غزليات شماره 487 و 488 و 489 - حافظ خواني به روايت احمد شاملو",
+    "last_title": "غزليات شماره 487 و 488 و 489 - حافظ خواني به روايت احمد شاملو",
+    "max_length": 15,
+    "median_length": 12,
+    "min_length": 7,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c07b7e3c-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-11-08T05:41:06Z",
+        "t": "غزليات شماره 487 و 488 و 489 - حافظ خواني به روايت احمد شاملو"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c07b7add-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-11-08T04:41:56Z",
+        "t": "غزليات شماره 484 و 485 و 486 - حافظ خواني به روايت احمد شاملو"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c076575c-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-11-03T00:41:31Z",
+        "t": "غزليات شماره ۴81 و ۴82 و ۴۸3 - حافظ خواني به روايت احمد شاملو"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c0751a6c-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-11-02T04:41:00Z",
+        "t": "غزليات شماره ۴۷۸ و ۴۷۹ و ۴۸۰ - حافظ خواني به روايت احمد شاملو"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c04bc36a-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-10-27T00:40:28Z",
+        "t": "غزليات شماره 475 و 476 و 477 - حافظ خواني به روايت احمد شاملو"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c0440d57-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-10-25T04:40:49Z",
+        "t": "غزليات شماره 472 و 473 و 474 - حافظ خواني به روايت احمد شاملو"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c0319aef-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-10-24T00:40:53Z",
+        "t": "غزليات شماره 466 و 467 و 468 - حافظ خواني به روايت احمد شاملو"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c0319f32-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-10-24T00:40:25Z",
+        "t": "غزليات شماره 469 و 470 و 471 - حافظ خواني به روايت احمد شاملو"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-11-08T05:41:06Z",
+        "link": "https://shenoto.com/album/podcast/44969/غزليات شماره 487 و 488 و 489 - حافظ خواني به روايت احمد شاملو",
+        "title": "غزليات شماره 487 و 488 و 489 - حافظ خواني به روايت احمد شاملو"
+      },
+      {
+        "at": "2020-11-08T04:41:56Z",
+        "link": "https://shenoto.com/album/podcast/44967/غزليات شماره 484 و 485 و 486 - حافظ خواني به روايت احمد شاملو",
+        "title": "غزليات شماره 484 و 485 و 486 - حافظ خواني به روايت احمد شاملو"
+      },
+      {
+        "at": "2020-11-03T00:41:31Z",
+        "link": "https://shenoto.com/album/podcast/44792/غزليات شماره ۴81 و ۴82 و ۴۸3 - حافظ خواني به روايت احمد شاملو",
+        "title": "غزليات شماره ۴81 و ۴82 و ۴۸3 - حافظ خواني به روايت احمد شاملو"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "history-without-censorship": {
     "avg_gap_days": 0.4,
@@ -4078,6 +4614,95 @@
     ],
     "status": "active"
   },
+  "ktab-soti": {
+    "avg_length": 21,
+    "episodes": 92,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-06-03",
+    "first_year": 1398,
+    "last": "1399/01/20",
+    "last_at": "2020-04-08T09:21:54Z",
+    "last_link": "https://s3.castbox.fm/db/f0/34/f103244c979cecdd00fe338492.mp3",
+    "last_title": "39- سرگذشت ندیمه - مارگارت اتوود",
+    "max_length": 134,
+    "median_length": 26,
+    "min_length": 5,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/db/f0/34/f103244c979cecdd00fe338492.mp3",
+        "at": "2020-04-08T09:21:54Z",
+        "t": "39- سرگذشت ندیمه - مارگارت اتوود"
+      },
+      {
+        "a": "https://s3.castbox.fm/44/04/ec/f46cce4fa9874382d5d3b96994.mp3",
+        "at": "2020-04-07T08:36:21Z",
+        "t": "38 سرگذشت ندیمه - مارگارت اتوود"
+      },
+      {
+        "a": "https://s3.castbox.fm/b2/5c/d2/6450704e8a8b526f488801e29b.mp3",
+        "at": "2020-04-06T08:35:20Z",
+        "t": "37 سرگذشت ندیمه - مارگارت اتوود"
+      },
+      {
+        "a": "https://s3.castbox.fm/34/2c/af/d5b91e49408d98915669cd2412.mp3",
+        "at": "2020-04-05T08:04:50Z",
+        "t": "36 سرگذشت ندیمه"
+      },
+      {
+        "a": "https://s3.castbox.fm/e5/f9/bc/2e6e924c2d902df466680fea10.mp3",
+        "at": "2020-03-24T18:42:46Z",
+        "t": "35 سرگذشت ندیمه"
+      },
+      {
+        "a": "https://s3.castbox.fm/7d/7a/05/eca48b4f0d88ea763f6848fee2.mp3",
+        "at": "2020-03-23T15:42:43Z",
+        "t": "درمان شوپنهاور - قسمت نه"
+      },
+      {
+        "a": "https://s3.castbox.fm/75/7a/23/428fb14a6c9090fc57f92ed54e.mp3",
+        "at": "2020-03-22T15:42:02Z",
+        "t": "درمان شوپنهاور - قسمت هشت"
+      },
+      {
+        "a": "https://s3.castbox.fm/b9/7c/21/cb558f42bd823bc07854e98c78.mp3",
+        "at": "2020-03-21T15:41:41Z",
+        "t": "درمان شوپنهاور - قسمت هفت"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-04-08T09:21:54Z",
+        "link": "https://s3.castbox.fm/db/f0/34/f103244c979cecdd00fe338492.mp3",
+        "title": "39- سرگذشت ندیمه - مارگارت اتوود"
+      },
+      {
+        "at": "2020-04-07T08:36:21Z",
+        "link": "https://s3.castbox.fm/44/04/ec/f46cce4fa9874382d5d3b96994.mp3",
+        "title": "38 سرگذشت ندیمه - مارگارت اتوود"
+      },
+      {
+        "at": "2020-04-06T08:35:20Z",
+        "link": "https://s3.castbox.fm/b2/5c/d2/6450704e8a8b526f488801e29b.mp3",
+        "title": "37 سرگذشت ندیمه - مارگارت اتوود"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "ktab-soti-hri-patr": {
     "avg_length": 34,
     "episodes": 44,
@@ -4166,6 +4791,95 @@
       0
     ],
     "status": "active"
+  },
+  "ktab-soti-mlt-ashgh": {
+    "avg_length": 14,
+    "episodes": 96,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-04-03",
+    "first_year": 1399,
+    "last": "1399/02/27",
+    "last_at": "2020-05-16T00:09:38Z",
+    "last_link": "https://s3.castbox.fm/87/30/6b/d873644b229dbe882eb161bed8.mp3",
+    "last_title": "ملت عشق",
+    "max_length": 135,
+    "median_length": 10,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/87/30/6b/d873644b229dbe882eb161bed8.mp3",
+        "at": "2020-05-16T00:09:38Z",
+        "t": "ملت عشق"
+      },
+      {
+        "a": "https://s3.castbox.fm/9c/88/b1/3e238f4e05996c593543422486.mp3",
+        "at": "2020-05-14T15:57:25Z",
+        "t": "95"
+      },
+      {
+        "a": "https://s3.castbox.fm/c1/67/ec/dd3ba040478a9f389949c06a39.mp3",
+        "at": "2020-05-14T15:57:21Z",
+        "t": "94"
+      },
+      {
+        "a": "https://s3.castbox.fm/79/3d/3f/a5c398455eacbe099d3610acbd.mp3",
+        "at": "2020-05-14T15:56:20Z",
+        "t": "93"
+      },
+      {
+        "a": "https://s3.castbox.fm/84/c2/4f/87e59b4d7988472907857faf05.mp3",
+        "at": "2020-05-14T15:56:20Z",
+        "t": "92"
+      },
+      {
+        "a": "https://s3.castbox.fm/a9/34/b4/52fc6d4358b355cdfbaceb56a4.mp3",
+        "at": "2020-05-14T15:56:13Z",
+        "t": "91"
+      },
+      {
+        "a": "https://s3.castbox.fm/38/a2/e0/34be0d439a9fb47f7d4b3ca9e5.mp3",
+        "at": "2020-05-11T23:56:48Z",
+        "t": "90"
+      },
+      {
+        "a": "https://s3.castbox.fm/53/5e/ee/4eff56483badb3792876266a65.mp3",
+        "at": "2020-05-11T17:15:23Z",
+        "t": "89"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-05-16T00:09:38Z",
+        "link": "https://s3.castbox.fm/87/30/6b/d873644b229dbe882eb161bed8.mp3",
+        "title": "ملت عشق"
+      },
+      {
+        "at": "2020-05-14T15:57:25Z",
+        "link": "https://s3.castbox.fm/9c/88/b1/3e238f4e05996c593543422486.mp3",
+        "title": "95"
+      },
+      {
+        "at": "2020-05-14T15:57:21Z",
+        "link": "https://s3.castbox.fm/c1/67/ec/dd3ba040478a9f389949c06a39.mp3",
+        "title": "94"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "ktab-soti-sh-tfngdar": {
     "avg_gap_days": 11.4,
@@ -4612,6 +5326,95 @@
       22,
       5,
       20
+    ],
+    "status": "active"
+  },
+  "mshirih": {
+    "avg_length": 25,
+    "episodes": 89,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2022-08-05",
+    "first_year": 1401,
+    "last": "1403/05/20",
+    "last_at": "2024-08-10T12:30:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/moshirieh/episodes/ep-e2n15h8",
+    "last_title": "قسمت پنجم: سرنوشت",
+    "max_length": 46,
+    "median_length": 26,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/986b2d60/podcast/play/90264552/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-10%2F186c68c0-162a-d3f3-b8ad-84310ed5bc78.mp3",
+        "at": "2024-08-10T12:30:00Z",
+        "t": "قسمت پنجم: سرنوشت"
+      },
+      {
+        "a": "https://anchor.fm/s/986b2d60/podcast/play/90264447/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-10%2F8f0bde62-149d-974f-261f-0216eb44f1f8.mp3",
+        "at": "2024-08-10T12:30:00Z",
+        "t": "قسمت چهارم: فعالیت‌های اجتماعی و سیاسی بخش دوم"
+      },
+      {
+        "a": "https://anchor.fm/s/986b2d60/podcast/play/90264354/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-10%2Fd990bf92-0dec-d84e-5097-2957ddc7374e.mp3",
+        "at": "2024-08-10T12:30:00Z",
+        "t": "قسمت سوم: فعالیت‌های اجتماعی و سیاسی بخش اول"
+      },
+      {
+        "a": "https://anchor.fm/s/986b2d60/podcast/play/89896794/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-31%2F3ab34ea2-8a29-7f7a-3cf3-0578509198ee.mp3",
+        "at": "2024-07-31T17:10:23Z",
+        "t": "قسمت دوم: ازدواج با عباس خلیلی"
+      },
+      {
+        "a": "https://anchor.fm/s/986b2d60/podcast/play/89258385/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-15%2Fab07b400-6584-db24-25d4-f009ac2449d0.mp3",
+        "at": "2024-07-15T20:42:56Z",
+        "t": "بخش دوم از قسمت اول: کودکی و جوانی"
+      },
+      {
+        "a": "https://anchor.fm/s/986b2d60/podcast/play/89258303/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-15%2Fa9303762-16d6-5241-01fd-354f56423e0b.mp3",
+        "at": "2024-07-15T20:38:43Z",
+        "t": "بخش یکم از قسمت اول: کودکی و جوانی"
+      },
+      {
+        "a": "https://anchor.fm/s/986b2d60/podcast/play/88161677/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-18%2Fe7e4afed-c071-42b3-9c8e-2f4e1b862716.mp3",
+        "at": "2024-06-18T12:57:18Z",
+        "t": "فخرعظمی اَرغون: قسمت معرفی و مقدمه"
+      },
+      {
+        "a": "https://anchor.fm/s/986b2d60/podcast/play/85783626/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-23%2F3894aee1-7bc3-6f86-b2fb-db15389e62df.mp3",
+        "at": "2024-04-30T12:21:00Z",
+        "t": "فسخ نکاح بخش سوم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-08-10T12:30:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/moshirieh/episodes/ep-e2n15h8",
+        "title": "قسمت پنجم: سرنوشت"
+      },
+      {
+        "at": "2024-08-10T12:30:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/moshirieh/episodes/ep-e2n15dv",
+        "title": "قسمت چهارم: فعالیت‌های اجتماعی و سیاسی بخش دوم"
+      },
+      {
+        "at": "2024-08-10T12:30:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/moshirieh/episodes/ep-e2n15b2",
+        "title": "قسمت سوم: فعالیت‌های اجتماعی و سیاسی بخش اول"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "status": "active"
   },
@@ -5496,6 +6299,184 @@
     ],
     "status": "active"
   },
+  "podcast-alom-shnakhti-o-mghz": {
+    "avg_length": 49,
+    "episodes": 85,
+    "eps_365": 1,
+    "eps_90": 0,
+    "first_at": "2020-02-28",
+    "first_year": 1398,
+    "last": "1405/01/17",
+    "last_at": "2026-04-06T17:32:45Z",
+    "last_link": "https://s3.castbox.fm/4d/24/52/b99cc043f48aa6712105170f53.mp3",
+    "last_title": "مغز سیاسی: گفتگوی پویا پاک‌نژاد با دکتر ماندانا سجادی",
+    "max_length": 92,
+    "median_length": 48,
+    "min_length": 6,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/4d/24/52/b99cc043f48aa6712105170f53.mp3",
+        "at": "2026-04-06T17:32:45Z",
+        "t": "مغز سیاسی: گفتگوی پویا پاک‌نژاد با دکتر ماندانا سجادی"
+      },
+      {
+        "a": "https://s3.castbox.fm/ad/68/7f/4c4dd54551ae441643114fa58a.mp3",
+        "at": "2025-08-22T12:54:30Z",
+        "t": "روانشناسی سازمانی و علوم شناختی: اپیزود دو - فصل چهارم | گفتگوی پویا پاک‌نژاد با علی نیک‌سرشت"
+      },
+      {
+        "a": "https://s3.castbox.fm/e0/aa/9f/9ee09542afad45782f92c252dd.mp3",
+        "at": "2025-07-18T16:26:11Z",
+        "t": "علوم شناختی، رسانه و بازاریابی دیجیتال: اپیزود یک - فصل چهارم | گفتگوی پویا پاک‌نژاد با بردیا پوربهرامی"
+      },
+      {
+        "a": "https://s3.castbox.fm/9b/da/98/0c17ee40449b5655506ec7928a.mp3",
+        "at": "2025-06-04T22:48:02Z",
+        "t": "علوم شناختی و توسعه پایدار: اپیزود صفر - فصل چهارم | گفتگوی پویا پاک‌نژاد با محمد خادمی"
+      },
+      {
+        "a": "https://s3.castbox.fm/a7/52/58/d653744582b6cfc51b7ad3dfe4.mp3",
+        "at": "2024-09-03T13:49:50Z",
+        "t": "پایان فصل تفکر انتقادی - اپیزود یازدهم از فصل سوم - گفتگوهای پویا پاک‌نژاد با آیدا رضائی پیرامون تفکر نقادانه"
+      },
+      {
+        "a": "https://s3.castbox.fm/ee/2b/bf/9c04fa4fd4bc913b252e965604.mp3",
+        "at": "2024-07-21T22:28:47Z",
+        "t": "بررسی شواهد فقط برای کارآگاه‌ها نیست! - اپیزود دهم از فصل سوم - گفتگوهای پویا پاک‌نژاد با آیدا رضائی پیرامون تفکر انتقادی"
+      },
+      {
+        "a": "https://s3.castbox.fm/39/02/b2/5c5d69443184df06a61b87488e.mp3",
+        "at": "2024-05-12T12:28:10Z",
+        "t": "چرا به علم اعتماد می‌کنیم؟  اپیزود نهم از فصل سوم - گفتگوهای پویا پاک‌نژاد با آیدا رضائی پیرامون تفکر انتقادی"
+      },
+      {
+        "a": "https://s3.castbox.fm/ae/4d/55/7e77df4a16b65d09eb29a01400.mp3",
+        "at": "2024-04-12T18:24:33Z",
+        "t": "در ستایش مخالفت! | اپیزود هشت از فصل سوم - گفتگوهای پویا پاک‌نژاد با آیدا رضائی پیرامون تفکر انتقادی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-04-06T17:32:45Z",
+        "link": "https://s3.castbox.fm/4d/24/52/b99cc043f48aa6712105170f53.mp3",
+        "title": "مغز سیاسی: گفتگوی پویا پاک‌نژاد با دکتر ماندانا سجادی"
+      },
+      {
+        "at": "2025-08-22T12:54:30Z",
+        "link": "https://s3.castbox.fm/ad/68/7f/4c4dd54551ae441643114fa58a.mp3",
+        "title": "روانشناسی سازمانی و علوم شناختی: اپیزود دو - فصل چهارم | گفتگوی پویا پاک‌نژاد با علی نیک‌سرشت"
+      },
+      {
+        "at": "2025-07-18T16:26:11Z",
+        "link": "https://s3.castbox.fm/e0/aa/9f/9ee09542afad45782f92c252dd.mp3",
+        "title": "علوم شناختی، رسانه و بازاریابی دیجیتال: اپیزود یک - فصل چهارم | گفتگوی پویا پاک‌نژاد با بردیا پوربهرامی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "podcast-bdon-tmbr-bdon-tarikh": {
+    "avg_length": 13,
+    "episodes": 104,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-09-05",
+    "first_year": 1399,
+    "last": "1401/09/09",
+    "last_at": "2022-11-30T02:30:00Z",
+    "last_link": "https://share.transistor.fm/s/f158e42c",
+    "last_title": "فصل 2 - قسمت ۵۱ - آخرین نامه",
+    "max_length": 18,
+    "median_length": 11,
+    "min_length": 6,
+    "play": [
+      {
+        "a": "https://media.transistor.fm/f158e42c/e1b8bef2.mp3",
+        "at": "2022-11-30T02:30:00Z",
+        "t": "فصل 2 - قسمت ۵۱ - آخرین نامه"
+      },
+      {
+        "a": "https://media.transistor.fm/4f72925f/d84885c3.mp3",
+        "at": "2022-11-23T04:17:29Z",
+        "t": "فصل 2 - قسمت ۵۰ – پسر راستین ایران زمین"
+      },
+      {
+        "a": "https://media.transistor.fm/29bb199e/7193bace.mp3",
+        "at": "2022-11-16T03:57:52Z",
+        "t": "فصل 2 - قسمت ۴۹ - عمل به وصیت‌نامه یک شاعر"
+      },
+      {
+        "a": "https://media.transistor.fm/867c3dde/eecef51c.mp3",
+        "at": "2022-11-09T04:03:43Z",
+        "t": "فصل 2 - قسمت ۴۸ - یک خاندان معزز"
+      },
+      {
+        "a": "https://media.transistor.fm/a3a06f8d/7944eec4.mp3",
+        "at": "2022-11-02T04:21:08Z",
+        "t": "فصل 2 - قسمت ۴۷ - که عشق آسان نمود اول"
+      },
+      {
+        "a": "https://media.transistor.fm/6a46e807/2e3d681b.mp3",
+        "at": "2022-10-26T02:30:00Z",
+        "t": "فصل 2 - ویژه برنامه - جشنی جاویدان"
+      },
+      {
+        "a": "https://media.transistor.fm/8d63b33e/54c187e0.mp3",
+        "at": "2022-10-19T04:05:14Z",
+        "t": "فصل 2 - قسمت ۴۶ - در کجای این آفرینش هستی"
+      },
+      {
+        "a": "https://media.transistor.fm/e412f9a6/35607643.mp3",
+        "at": "2022-10-12T02:06:53Z",
+        "t": "فصل 2 - قسمت ۴۵ - برگ سبزی تحفه درویش"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-11-30T02:30:00Z",
+        "link": "https://share.transistor.fm/s/f158e42c",
+        "title": "فصل 2 - قسمت ۵۱ - آخرین نامه"
+      },
+      {
+        "at": "2022-11-23T04:17:29Z",
+        "link": "https://share.transistor.fm/s/4f72925f",
+        "title": "فصل 2 - قسمت ۵۰ – پسر راستین ایران زمین"
+      },
+      {
+        "at": "2022-11-16T03:57:52Z",
+        "link": "https://share.transistor.fm/s/29bb199e",
+        "title": "فصل 2 - قسمت ۴۹ - عمل به وصیت‌نامه یک شاعر"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "podcast-bkhsh-farsi-klisai-feg-gisn": {
     "avg_length": 55,
     "episodes": 207,
@@ -5675,6 +6656,95 @@
     ],
     "status": "active"
   },
+  "podcast-farsi-hri-patr": {
+    "avg_length": 38,
+    "episodes": 86,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-09-04",
+    "first_year": 1398,
+    "last": "1403/09/29",
+    "last_at": "2024-12-19T14:03:37Z",
+    "last_link": "https://harrypotterpodcast.ir/?p=3945",
+    "last_title": "اپیزود هشتاد و سوم - ویکتور کرام",
+    "max_length": 88,
+    "median_length": 29,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/63a02a3197b206001160f0e9/e/676427b9b49c6255e8f5b32e/media.mp3",
+        "at": "2024-12-19T14:03:37Z",
+        "t": "اپیزود هشتاد و سوم - ویکتور کرام"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/63a02a3197b206001160f0e9/e/67588afec705e441797ecd21/media.mp3",
+        "at": "2024-12-10T18:39:59Z",
+        "t": "اپیزود هشتاد و دوم - لژ مخصوص"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/63a02a3197b206001160f0e9/e/67504a45a0332c2e118c8dcc/media.mp3",
+        "at": "2024-12-04T12:41:01Z",
+        "t": "اپیزود هشتاد و یکم - رمزتاز"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/63a02a3197b206001160f0e9/e/6746143fc01b5de931dfed5d/media.mp3",
+        "at": "2024-11-26T18:32:31Z",
+        "t": "اپیزود هشتاد - راه عبور"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/63a02a3197b206001160f0e9/e/673da4abd1a6d05d3c8d0e78/media.mp3",
+        "at": "2024-11-20T08:58:19Z",
+        "t": "اپیزود هفتاد و نهم - نامه"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/63a02a3197b206001160f0e9/e/67337ee35671f9afe2801dc1/media.mp3",
+        "at": "2024-11-12T16:14:27Z",
+        "t": "اپیزود هفتاد و هشتم - مرگ دسته جمعی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/63a02a3197b206001160f0e9/e/6720aaed2daf194541f6ca60/media.mp3",
+        "at": "2024-10-29T14:31:31Z",
+        "t": "اپیزود هفتاد و هفتم - پدرخوانده"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/63a02a3197b206001160f0e9/e/6716bfa507c991f259c9b41f/media.mp3",
+        "at": "2024-10-22T13:30:49Z",
+        "t": "اپیزود هفتاد و ششم - زمان برگردان"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-12-19T14:03:37Z",
+        "link": "https://harrypotterpodcast.ir/?p=3945",
+        "title": "اپیزود هشتاد و سوم - ویکتور کرام"
+      },
+      {
+        "at": "2024-12-10T18:39:59Z",
+        "link": "https://harrypotterpodcast.ir/?p=3894",
+        "title": "اپیزود هشتاد و دوم - لژ مخصوص"
+      },
+      {
+        "at": "2024-12-04T12:41:01Z",
+        "link": "https://harrypotterpodcast.ir/?p=3883",
+        "title": "اپیزود هشتاد و یکم - رمزتاز"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "podcast-farsi-orzshgah-fotbal": {
     "avg_gap_days": 17.4,
     "avg_length": 34,
@@ -5840,7 +6910,7 @@
       }
     ],
     "recent_30d": [
-      26,
+      25,
       23,
       10,
       0,
@@ -6304,6 +7374,95 @@
     ],
     "status": "active"
   },
+  "podcast-kaza-milan": {
+    "avg_length": 83,
+    "episodes": 87,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2023-05-07",
+    "first_year": 1402,
+    "last": "1404/07/10",
+    "last_at": "2025-10-02T04:04:14Z",
+    "last_link": "https://s3.castbox.fm/ea/53/83/8faedd4a24b622136df6a3995f.m4a",
+    "last_title": "💣 بمب بزرگ!📱تماس تاره تأیید شد🚨📣 لیائو تو رختکن سوژه می‌شه✅ ❌هاوگه می‌درخشه🔥 مو قشنگ بازم دروغ گفت!🦱",
+    "max_length": 199,
+    "median_length": 103,
+    "min_length": 14,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/ea/53/83/8faedd4a24b622136df6a3995f.m4a",
+        "at": "2025-10-02T04:04:14Z",
+        "t": "💣 بمب بزرگ!📱تماس تاره تأیید شد🚨📣 لیائو تو رختکن سوژه می‌شه✅ ❌هاوگه می‌درخشه🔥 مو قشنگ بازم دروغ گفت!🦱"
+      },
+      {
+        "a": "https://s3.castbox.fm/71/8a/1a/8da3ed4674b3df52a80d0e9bbd.mp3",
+        "at": "2025-10-02T04:03:28Z",
+        "t": "💣 بلهههه! 🔥 دارم منفجر میشم‼️ برد دیوونه‌کننده 😱🚀 کشنده، آدمو روانی می‌کنه ❤️ برگشتیم⌛ و تازه شروعشه"
+      },
+      {
+        "a": "https://s3.castbox.fm/0c/cf/4e/3cf0f2415693e63f9ef44dff7d.m4a",
+        "at": "2025-09-18T16:11:01Z",
+        "t": "✅رسمی شد⌛ بعدی؟🚨 هنوز تموم نشده⚠️ رازآلود😱 ولاهوویچ شگفت‌انگیز📣 👀 تعریف و تمجید از بولونیا!!!"
+      },
+      {
+        "a": "https://s3.castbox.fm/1e/84/3f/8cd96b4bcca172253ae8f81131.mp3",
+        "at": "2025-09-18T16:10:31Z",
+        "t": "🚨 خیمنس و کچاپ 😔 وااای!📌 باشگاه «شوکه» شده 😡 دیوونگی 🔥 پرویز، همه حواس جمع! بله، خیلی سنگینه 😱"
+      },
+      {
+        "a": "https://s3.castbox.fm/bd/8e/c7/a081d84d46aa7394fce772ce24.m4a",
+        "at": "2025-09-04T04:54:25Z",
+        "t": "داغ شده نه؟🔥کیوو پانتونه می‌خوره؟🍞 یوریچ-بارونی؟⏳اینتر دومِ مرکاتو؟💰یووه تاپ‌۴؟چرخهٔ جدیدِ گاسپرینی؟"
+      },
+      {
+        "a": "https://s3.castbox.fm/a5/6b/17/9e254646cba6c10adcc3d632ac.mp3",
+        "at": "2025-07-13T02:20:38Z",
+        "t": "😱چه خطای وحشتناکی😡 باورنکردنی! عالی بود فورلانی! براون 😆🇸🇦 آژیرهای عربی! اوخ 📌 خبر فوری: جاشاری🔔عجیب"
+      },
+      {
+        "a": "https://s3.castbox.fm/77/58/60/50a2254a589b4b0e5c89af2180.m4a",
+        "at": "2025-05-29T20:51:01Z",
+        "t": "‼️ آلگری تموم شد! 🔥هالِ لویا! 😱 فرمت تغییر می‌کنه! ✅ شگفتی درباره‌ی رایندرز! 📌تاسوتی هم هست! 😈"
+      },
+      {
+        "a": "https://s3.castbox.fm/be/6d/77/7548a44a70bbf8b9f14e18622a.m4a",
+        "at": "2025-04-02T05:27:27Z",
+        "t": "مانیان و تئو بعد از دربی خداحافظی می‌کنن 😢 خیانت تاکتیکی😡 بسه فلیکس 🚫 رایندرز/ پولیسیک خط قرمزن  🔴"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-10-02T04:04:14Z",
+        "link": "https://s3.castbox.fm/ea/53/83/8faedd4a24b622136df6a3995f.m4a",
+        "title": "💣 بمب بزرگ!📱تماس تاره تأیید شد🚨📣 لیائو تو رختکن سوژه می‌شه✅ ❌هاوگه می‌درخشه🔥 مو قشنگ بازم دروغ گفت!🦱"
+      },
+      {
+        "at": "2025-10-02T04:03:28Z",
+        "link": "https://s3.castbox.fm/71/8a/1a/8da3ed4674b3df52a80d0e9bbd.mp3",
+        "title": "💣 بلهههه! 🔥 دارم منفجر میشم‼️ برد دیوونه‌کننده 😱🚀 کشنده، آدمو روانی می‌کنه ❤️ برگشتیم⌛ و تازه شروعشه"
+      },
+      {
+        "at": "2025-09-18T16:11:01Z",
+        "link": "https://s3.castbox.fm/0c/cf/4e/3cf0f2415693e63f9ef44dff7d.m4a",
+        "title": "✅رسمی شد⌛ بعدی؟🚨 هنوز تموم نشده⚠️ رازآلود😱 ولاهوویچ شگفت‌انگیز📣 👀 تعریف و تمجید از بولونیا!!!"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "podcast-khrghh": {
     "avg_gap_days": 7.8,
     "avg_length": 35,
@@ -6753,6 +7912,96 @@
     ],
     "status": "active"
   },
+  "podcast-roanshnasi": {
+    "avg_gap_days": 6.4,
+    "avg_length": 18,
+    "episodes": 86,
+    "eps_365": 57,
+    "eps_90": 21,
+    "first_at": "2025-02-10",
+    "first_year": 1403,
+    "last": "1405/07/22",
+    "last_at": "2026-10-14T09:05:00Z",
+    "last_link": "https://bioe.ir/rang-ravan/",
+    "last_title": "پادکست روانشناسی رنگ روان :  چرا جذب الگوهای آسیب زا میشیم؟",
+    "max_length": 34,
+    "median_length": 17,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/ff83a0b1-c8e3-466f-9406-62f6ef35f9c6/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=ff83a0b1-c8e3-466f-9406-62f6ef35f9c6&feed=F_u2pLhu",
+        "at": "2026-10-14T09:05:00Z",
+        "t": "پادکست روانشناسی رنگ روان :  چرا جذب الگوهای آسیب زا میشیم؟"
+      },
+      {
+        "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/2ac8dafa-9b43-46fa-bd9f-d75bfa12a283/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=2ac8dafa-9b43-46fa-bd9f-d75bfa12a283&feed=F_u2pLhu",
+        "at": "2026-10-10T07:25:52Z",
+        "t": "پادکست روانشناسی رنگ روان : نقشه راه انتخاب"
+      },
+      {
+        "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/bfc4cfe6-7755-45db-a610-57f8c0824d4b/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=bfc4cfe6-7755-45db-a610-57f8c0824d4b&feed=F_u2pLhu",
+        "at": "2026-10-07T08:43:14Z",
+        "t": "پادکست روانشناسی رنگ روان: فرار از خود"
+      },
+      {
+        "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/6f68b45b-0d7f-4664-a900-76cd8e820187/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=6f68b45b-0d7f-4664-a900-76cd8e820187&feed=F_u2pLhu",
+        "at": "2026-10-03T00:00:00Z",
+        "t": "پادکست روانشناسی رنگ روان: عبور از مقاومت"
+      },
+      {
+        "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/fd7e9420-68c2-40e3-89cc-27bd28002820/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=fd7e9420-68c2-40e3-89cc-27bd28002820&feed=F_u2pLhu",
+        "at": "2026-09-30T14:53:20Z",
+        "t": "پادکست روانشناسی رنگ روان: عشق یا ترس از تنهایی"
+      },
+      {
+        "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/7853bc7f-99f1-4e76-a30f-b47324f40156/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=7853bc7f-99f1-4e76-a30f-b47324f40156&feed=F_u2pLhu",
+        "at": "2026-09-26T09:05:00Z",
+        "t": "پادکست روانشناسی رنگ روان: بازی بی قاعده"
+      },
+      {
+        "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/e5521534-54a6-44e8-a3d3-ab65f0740a2f/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=e5521534-54a6-44e8-a3d3-ab65f0740a2f&feed=F_u2pLhu",
+        "at": "2026-09-23T09:05:00Z",
+        "t": "پادکست روانشناسی رنگ روان :  آموزش دیجیتال و تله‌ی اهمال کاری"
+      },
+      {
+        "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/15624884-95c2-4b20-9f05-ab7210616bf1/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=15624884-95c2-4b20-9f05-ab7210616bf1&feed=F_u2pLhu",
+        "at": "2026-09-19T09:05:00Z",
+        "t": "پادکست روانشناسی رنگ روان :  خیانت مالی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-14T09:05:00Z",
+        "link": "https://bioe.ir/rang-ravan/",
+        "title": "پادکست روانشناسی رنگ روان :  چرا جذب الگوهای آسیب زا میشیم؟"
+      },
+      {
+        "at": "2026-10-10T07:25:52Z",
+        "link": "https://bioe.ir/rang-ravan/",
+        "title": "پادکست روانشناسی رنگ روان : نقشه راه انتخاب"
+      },
+      {
+        "at": "2026-10-07T08:43:14Z",
+        "link": "https://bioe.ir/rang-ravan/",
+        "title": "پادکست روانشناسی رنگ روان: فرار از خود"
+      }
+    ],
+    "recent_30d": [
+      6,
+      8,
+      4,
+      1,
+      3,
+      0,
+      0,
+      5,
+      8,
+      6,
+      7,
+      8
+    ],
+    "status": "active"
+  },
   "podcast-roanshnasi-dktr-srglzaii": {
     "avg_length": 20,
     "episodes": 222,
@@ -6929,6 +8178,96 @@
       0,
       1,
       1
+    ],
+    "status": "active"
+  },
+  "podcast-roanshnasi-nshanh-hai-akhtlalat-roani": {
+    "avg_gap_days": 5.3,
+    "avg_length": 13,
+    "episodes": 88,
+    "eps_365": 68,
+    "eps_90": 7,
+    "first_at": "2025-06-20",
+    "first_year": 1404,
+    "last": "1405/07/12",
+    "last_at": "2026-10-04T15:08:55Z",
+    "last_link": "https://shows.acast.com/neshaneekhtelalat/episodes/6ac26c070d8a4841448e31c7",
+    "last_title": "اهمال کاری",
+    "max_length": 25,
+    "median_length": 10,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68b00ce5af990f74ac52affa/e/6ac26c070d8a4841448e31c7/media.mp3",
+        "at": "2026-10-04T15:08:55Z",
+        "t": "اهمال کاری"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68b00ce5af990f74ac52affa/e/6aaf97330521dc2c81a8ed03/media.mp3",
+        "at": "2026-09-20T08:20:02Z",
+        "t": "طلاق و بچه ها"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68b00ce5af990f74ac52affa/e/6a9d18fdd024784c991ebb03/media.mp3",
+        "at": "2026-09-06T07:40:44Z",
+        "t": "چرا از یک اعتیاد می‌پری روی اعتیاد بعدی؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68b00ce5af990f74ac52affa/e/6a8fbfcd872783b8006c1584/media.mp3",
+        "at": "2026-08-27T04:40:44Z",
+        "t": "چطور دوستی تبدیل به رابطه می‌شه؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68b00ce5af990f74ac52affa/e/6a76f7c891f158549e802414/media.mp3",
+        "at": "2026-08-08T09:32:58Z",
+        "t": "خودشیفته تر بعد از تراپی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68b00ce5af990f74ac52affa/e/6a6738233e2f0b6f92d86956/media.mp3",
+        "at": "2026-07-27T10:51:15Z",
+        "t": "تعهد مشروط"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68b00ce5af990f74ac52affa/e/6a5f48ec7bddc0bea5569225/media.mp3",
+        "at": "2026-07-21T10:24:43Z",
+        "t": "بعد از ترک، هیچ‌چیز دیگه حال نمی‌ده"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68b00ce5af990f74ac52affa/e/6a48f48a8890f0eef3781022/media.mp3",
+        "at": "2026-07-04T11:54:50Z",
+        "t": "دوستی با جنس مخالف, آره یا نه؟"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-04T15:08:55Z",
+        "link": "https://shows.acast.com/neshaneekhtelalat/episodes/6ac26c070d8a4841448e31c7",
+        "title": "اهمال کاری"
+      },
+      {
+        "at": "2026-09-20T08:20:02Z",
+        "link": "https://shows.acast.com/neshaneekhtelalat/episodes/6aaf97330521dc2c81a8ed03",
+        "title": "طلاق و بچه ها"
+      },
+      {
+        "at": "2026-09-06T07:40:44Z",
+        "link": "https://shows.acast.com/neshaneekhtelalat/episodes/6a9d18fdd024784c991ebb03",
+        "title": "چرا از یک اعتیاد می‌پری روی اعتیاد بعدی؟"
+      }
+    ],
+    "recent_30d": [
+      6,
+      7,
+      7,
+      5,
+      12,
+      11,
+      5,
+      4,
+      3,
+      3,
+      2,
+      2
     ],
     "status": "active"
   },
@@ -7199,6 +8538,96 @@
       4,
       4,
       5
+    ],
+    "status": "active"
+  },
+  "podcast-tarikhi-majon": {
+    "avg_gap_days": 19.9,
+    "avg_length": 54,
+    "episodes": 101,
+    "eps_365": 19,
+    "eps_90": 7,
+    "first_at": "2019-12-31",
+    "first_year": 1398,
+    "last": "1405/07/22",
+    "last_at": "2026-10-14T01:30:00Z",
+    "last_link": "https://majoonpod.ir",
+    "last_title": "92) رویای ایرانشهر بزرگ (2) | شاپور اول ساسانی",
+    "max_length": 91,
+    "median_length": 55,
+    "min_length": 15,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6acea6ee6203da9f28184cc5/media.mp3",
+        "at": "2026-10-14T01:30:00Z",
+        "t": "92) رویای ایرانشهر بزرگ (2) | شاپور اول ساسانی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6ab83c9759a98735e1d5c22c/media.mp3",
+        "at": "2026-09-27T01:30:00Z",
+        "t": "91) رویای ایرانشهر بزرگ (1) | اردشیر بابکان"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6aa7ff0f1563582c05e0917b/media.mp3",
+        "at": "2026-09-15T01:30:00Z",
+        "t": "90) موضع سوم | خوان پرون"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6a94aac2cb03bea43d2437b1/media.mp3",
+        "at": "2026-08-31T01:30:00Z",
+        "t": "89) جنگ ظفار | سلطان قابوس بن سعید"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6a82321583128ee3d2090dab/media.mp3",
+        "at": "2026-08-17T01:30:00Z",
+        "t": "88) آخرین پادشاه | محمدظاهرشاه بارکزای"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6a724c9628ead4902cfbf3ae/media.mp3",
+        "at": "2026-08-05T01:30:00Z",
+        "t": "87) خمرهای سرخ | پل پوت؛ پارت دوم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6a667186fa6cc1e0304d2e5c/media.mp3",
+        "at": "2026-07-28T01:35:00Z",
+        "t": "86)  خمرهای سرخ | پل پوت؛ پارت اول"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6a4d72e5c130c408c2ddd8cd/media.mp3",
+        "at": "2026-07-08T01:30:00Z",
+        "t": "85) گروه صنعتی مینو | علی خسروشاهی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-14T01:30:00Z",
+        "link": "https://majoonpod.ir",
+        "title": "92) رویای ایرانشهر بزرگ (2) | شاپور اول ساسانی"
+      },
+      {
+        "at": "2026-09-27T01:30:00Z",
+        "link": "https://majoonpod.ir",
+        "title": "91) رویای ایرانشهر بزرگ (1) | اردشیر بابکان"
+      },
+      {
+        "at": "2026-09-15T01:30:00Z",
+        "link": "https://majoonpod.ir",
+        "title": "90) موضع سوم | خوان پرون"
+      }
+    ],
+    "recent_30d": [
+      2,
+      2,
+      1,
+      2,
+      1,
+      0,
+      0,
+      1,
+      2,
+      2,
+      3,
+      2
     ],
     "status": "active"
   },
@@ -7514,6 +8943,96 @@
       3,
       3,
       2
+    ],
+    "status": "active"
+  },
+  "radio-dastan": {
+    "avg_gap_days": 39.0,
+    "avg_length": 37,
+    "episodes": 92,
+    "eps_365": 9,
+    "eps_90": 2,
+    "first_at": "2019-04-13",
+    "first_year": 1398,
+    "last": "1405/06/04",
+    "last_at": "2026-08-26T00:30:00Z",
+    "last_link": "https://s3.castbox.fm/eb/95/fb/12a01f411ea549844b9f833981.mp3",
+    "last_title": "شماره نود و سوم - مرد رنگین کمانی - محمد صالح علا",
+    "max_length": 126,
+    "median_length": 39,
+    "min_length": 18,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/eb/95/fb/12a01f411ea549844b9f833981.mp3",
+        "at": "2026-08-26T00:30:00Z",
+        "t": "شماره نود و سوم - مرد رنگین کمانی - محمد صالح علا"
+      },
+      {
+        "a": "https://s3.castbox.fm/db/1e/de/14b648420091752c1bdae2cbb7.mp3",
+        "at": "2026-08-22T01:30:00Z",
+        "t": "شماره نود و دوم - نشان علمی فیلپور میرزا - ابوالقاسم پاینده"
+      },
+      {
+        "a": "https://s3.castbox.fm/64/98/c3/b217584871bc5e58f0e0b058d0.mp3",
+        "at": "2026-07-11T20:30:00Z",
+        "t": "شماره نود و یک - انیس - سیمین دانشور"
+      },
+      {
+        "a": "https://s3.castbox.fm/11/2a/d0/9534e343e8ab29f36cf53cc98f.mp3",
+        "at": "2026-01-03T21:30:00Z",
+        "t": "شماره نود - دو داستان از هتل مسکو - احمد افقهی"
+      },
+      {
+        "a": "https://s3.castbox.fm/5c/7c/24/67b4fd44af8455938685f95bc4.mp3",
+        "at": "2025-11-29T02:30:00Z",
+        "t": "شماره هشتاد و نهم - آقا شما منتظر من بودید؟ - احمد افقهی"
+      },
+      {
+        "a": "https://s3.castbox.fm/9d/d1/a4/efb2a14c3c9bb2a52d9e039129.mp3",
+        "at": "2025-11-08T00:30:00Z",
+        "t": "شماره هشتاد و هفتم - زن پمپ بنزین اتوبان - احمد افقهی"
+      },
+      {
+        "a": "https://s3.castbox.fm/3f/4e/36/6ee47a48cb9f380cdbdf8f78eb.mp3",
+        "at": "2025-11-01T00:30:00Z",
+        "t": "شماره هشتاد و ششم - یک رابطه از نوع سوم - احمد افقهی"
+      },
+      {
+        "a": "https://s3.castbox.fm/56/ca/d5/e20e1d4ef4b75b8156b60a108b.mp3",
+        "at": "2025-10-25T00:30:00Z",
+        "t": "شماره هشتاد و پنجم - یونس جنگل حرا - نسیبه فضل اللهی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-08-26T00:30:00Z",
+        "link": "https://s3.castbox.fm/eb/95/fb/12a01f411ea549844b9f833981.mp3",
+        "title": "شماره نود و سوم - مرد رنگین کمانی - محمد صالح علا"
+      },
+      {
+        "at": "2026-08-22T01:30:00Z",
+        "link": "https://s3.castbox.fm/db/1e/de/14b648420091752c1bdae2cbb7.mp3",
+        "title": "شماره نود و دوم - نشان علمی فیلپور میرزا - ابوالقاسم پاینده"
+      },
+      {
+        "at": "2026-07-11T20:30:00Z",
+        "link": "https://s3.castbox.fm/64/98/c3/b217584871bc5e58f0e0b058d0.mp3",
+        "title": "شماره نود و یک - انیس - سیمین دانشور"
+      }
+    ],
+    "recent_30d": [
+      3,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0
     ],
     "status": "active"
   },
@@ -9220,6 +10739,185 @@
     ],
     "status": "active"
   },
+  "shokhi-ba-tarikh": {
+    "avg_gap_days": 8.3,
+    "avg_length": 30,
+    "episodes": 96,
+    "eps_365": 17,
+    "eps_90": 11,
+    "first_at": "2023-08-09",
+    "first_year": 1402,
+    "last": "1405/07/21",
+    "last_at": "2026-10-13T09:23:01Z",
+    "last_link": "https://www.radiofarda.com/a/33875671.html",
+    "last_title": "اشتباهاتی که زیادی گران تمام شدند",
+    "max_length": 43,
+    "median_length": 28,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://rfe-audio-ns.akamaized.net/frd/2026/10/13/f6216c07-42f3-4606-e6ec-08df13afe2a0_hq.mp3",
+        "at": "2026-10-13T09:23:01Z",
+        "t": "اشتباهاتی که زیادی گران تمام شدند"
+      },
+      {
+        "a": "https://rfe-audio-ns.akamaized.net/frd/2026/10/05/bbb4223a-2246-4d04-434a-08df13a884cb_hq.mp3",
+        "at": "2026-10-06T06:30:00Z",
+        "t": "قتل در سفارت؛ الماس در دربار تزار"
+      },
+      {
+        "a": "https://rfe-audio-ns.akamaized.net/frd/2026/09/29/ca1c3a69-da0c-423f-71a5-08df13a869ed_hq.mp3",
+        "at": "2026-09-29T08:14:57Z",
+        "t": "تاریخ کلاهبرداری؛ مردانی که غیرممکن‌ها را فروختند"
+      },
+      {
+        "a": "https://rfe-audio-ns.akamaized.net/frd/2026/09/21/5e3c361e-84d1-42c7-7063-08df13a869ed_hq.mp3",
+        "at": "2026-09-22T04:00:00Z",
+        "t": "دادگاه مُردگان؛ صدور حکم اعدام برای جنازه"
+      },
+      {
+        "a": "https://rfe-audio-ns.akamaized.net/frd/2026/09/14/dc66aac9-ce22-4b56-84a8-08df0f43374f_hq.mp3",
+        "at": "2026-09-15T07:05:20Z",
+        "t": "از تلگراف تا طیاره؛ ورود آینده به ایران"
+      },
+      {
+        "a": "https://rfe-audio-ns.akamaized.net/frd/2026/09/07/fc128f95-be76-45f4-fddb-08def2b08775_hq.mp3",
+        "at": "2026-09-08T03:30:00Z",
+        "t": "روسیه علیه روسیه؛ ۳۷ هزار کیلومتر تا شکست"
+      },
+      {
+        "a": "https://rfe-audio-ns.akamaized.net/frd/2026/08/31/83bfb393-47ff-47a4-4b2b-08decacf94d0_hq.mp3",
+        "at": "2026-09-01T02:30:00Z",
+        "t": "سقوط اصفهان؛ کمدی انفعال و آبگوشت جادویی"
+      },
+      {
+        "a": "https://rfe-audio-ns.akamaized.net/frd/2026/08/24/bfce02fb-03b7-4b8b-e90f-08def2afcad7_hq.mp3",
+        "at": "2026-08-25T02:30:00Z",
+        "t": "تاریخ حماقت؛ جنگ‌های الکی، کشتارهای واقعی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-13T09:23:01Z",
+        "link": "https://www.radiofarda.com/a/33875671.html",
+        "title": "اشتباهاتی که زیادی گران تمام شدند"
+      },
+      {
+        "at": "2026-10-06T06:30:00Z",
+        "link": "https://www.radiofarda.com/a/33870747.html",
+        "title": "قتل در سفارت؛ الماس در دربار تزار"
+      },
+      {
+        "at": "2026-09-29T08:14:57Z",
+        "link": "https://www.radiofarda.com/a/33866335.html",
+        "title": "تاریخ کلاهبرداری؛ مردانی که غیرممکن‌ها را فروختند"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      4,
+      2,
+      5,
+      4
+    ],
+    "status": "active"
+  },
+  "sibe-salamat-sib-slamt": {
+    "avg_length": 15,
+    "episodes": 90,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-09-17",
+    "first_year": 1398,
+    "last": "1401/06/22",
+    "last_at": "2022-09-13T15:00:00Z",
+    "last_link": "https://s3.castbox.fm/d6/2a/91/addc804ce6809a876c5f8fc6ff.mp3",
+    "last_title": "Sibe Salamat E90 توهم",
+    "max_length": 30,
+    "median_length": 14,
+    "min_length": 6,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/d6/2a/91/addc804ce6809a876c5f8fc6ff.mp3",
+        "at": "2022-09-13T15:00:00Z",
+        "t": "Sibe Salamat E90 توهم"
+      },
+      {
+        "a": "https://s3.castbox.fm/cc/63/c8/a6f7b24d7a81f60e380c9560a5.mp3",
+        "at": "2022-09-06T15:00:00Z",
+        "t": "Sibe Salamat E89 بیماری های عفونی چشم"
+      },
+      {
+        "a": "https://s3.castbox.fm/3a/fc/9c/a22a2d4613aba1a84cc02c6939.mp3",
+        "at": "2022-08-30T15:00:00Z",
+        "t": "Sibe Salamat E88 واریس"
+      },
+      {
+        "a": "https://s3.castbox.fm/85/d0/04/9fe7c4452fa99ed23d24fcbe60.mp3",
+        "at": "2022-08-23T15:00:00Z",
+        "t": "Sibe Salamat E87 گرفتگی عروق"
+      },
+      {
+        "a": "https://s3.castbox.fm/98/b6/c3/e4a9074774aebf5db34180d299.mp3",
+        "at": "2022-08-16T15:00:00Z",
+        "t": "Sibe Salamat E86 تنفس دهانی"
+      },
+      {
+        "a": "https://s3.castbox.fm/fb/41/c6/c94ef94e6b8c5575fa86b4cb15.mp3",
+        "at": "2022-08-02T15:00:00Z",
+        "t": "Sibe Salamat E85 لارنژیت"
+      },
+      {
+        "a": "https://s3.castbox.fm/20/4b/06/9da024482bb20db0eda6f27bfd.mp3",
+        "at": "2022-07-26T15:00:00Z",
+        "t": "Sibe Salamat E84 سینوزیت"
+      },
+      {
+        "a": "https://s3.castbox.fm/f7/99/05/69b4b040b0815d478957df4076.mp3",
+        "at": "2022-07-19T15:00:00Z",
+        "t": "Sibe Salamat E83 افتادگی پلک چشم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-09-13T15:00:00Z",
+        "link": "https://s3.castbox.fm/d6/2a/91/addc804ce6809a876c5f8fc6ff.mp3",
+        "title": "Sibe Salamat E90 توهم"
+      },
+      {
+        "at": "2022-09-06T15:00:00Z",
+        "link": "https://s3.castbox.fm/cc/63/c8/a6f7b24d7a81f60e380c9560a5.mp3",
+        "title": "Sibe Salamat E89 بیماری های عفونی چشم"
+      },
+      {
+        "at": "2022-08-30T15:00:00Z",
+        "link": "https://s3.castbox.fm/3a/fc/9c/a22a2d4613aba1a84cc02c6939.mp3",
+        "title": "Sibe Salamat E88 واریس"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "sinma-rks": {
     "avg_length": 40,
     "episodes": 119,
@@ -9844,6 +11542,184 @@
       88,
       95,
       84
+    ],
+    "status": "active"
+  },
+  "tarikh-bihghi-a-tarikh-beyhaqi": {
+    "avg_length": 13,
+    "episodes": 101,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-04-18",
+    "first_year": 1399,
+    "last": "1402/05/08",
+    "last_at": "2023-07-30T22:37:04Z",
+    "last_link": "https://shenoto.com/album/podcast/204003/صد و یکم _ روایت خواجه احمد عبدالصمد",
+    "last_title": "صد و یکم _ روایت خواجه احمد عبدالصمد",
+    "max_length": 30,
+    "median_length": 11,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/8366d808-2f8c-11ee-8425-0242ac170003.mp3",
+        "at": "2023-07-30T22:37:04Z",
+        "t": "صد و یکم _ روایت خواجه احمد عبدالصمد"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/4807584b-2dfe-11ee-8425-0242ac170003.mp3",
+        "at": "2023-07-28T23:37:24Z",
+        "t": "صدم _ نامه امیر مسعود به آلتونتاش"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/a072bce9-60b5-11ec-88ff-0242ac120006.mp3",
+        "at": "2021-12-18T21:42:53Z",
+        "t": "نود و نهم_فروگرفتن بوسهل"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/5a0189e5-580b-11ec-88ff-0242ac120006.mp3",
+        "at": "2021-12-07T21:42:51Z",
+        "t": "نود و هشتم_کشته شدن قائد ملنجوق"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c3c0e545-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-09-09T03:39:02Z",
+        "t": "نود و هفتم_تضريب بوسهل در کار آلتونتاش"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c3b92dc6-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-09-02T06:39:41Z",
+        "t": "نود و ششم_ نسخه العهد (به زبان عربي)"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c3b3f04a-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-08-29T23:38:38Z",
+        "t": "نود و پنجم _نسخه الکتاب(به زبان عربي)"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c3731dba-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-08-05T02:38:39Z",
+        "t": "نود و چهارم_تدبير عهد بستن با خليفه"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-07-30T22:37:04Z",
+        "link": "https://shenoto.com/album/podcast/204003/صد و یکم _ روایت خواجه احمد عبدالصمد",
+        "title": "صد و یکم _ روایت خواجه احمد عبدالصمد"
+      },
+      {
+        "at": "2023-07-28T23:37:24Z",
+        "link": "https://shenoto.com/album/podcast/203849/صدم _ نامه امیر مسعود به آلتونتاش",
+        "title": "صدم _ نامه امیر مسعود به آلتونتاش"
+      },
+      {
+        "at": "2021-12-18T21:42:53Z",
+        "link": "https://shenoto.com/album/podcast/62600/نود و نهم_فروگرفتن بوسهل",
+        "title": "نود و نهم_فروگرفتن بوسهل"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
+  "tarikh-tknolozhi": {
+    "avg_length": 2,
+    "episodes": 84,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2025-04-23",
+    "first_year": 1404,
+    "last": "1404/03/22",
+    "last_at": "2025-06-12T10:23:54Z",
+    "last_link": "https://4rahecomputer.com",
+    "last_title": "تاریخ تکنولوژی 84 : چاقویی با تیغ، درب‌بازکن و پیچ‌گوشتی: اختراعی سوئیسی!",
+    "max_length": 3,
+    "median_length": 2,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/680882d33744a6172185eb69/e/684aaabc1c97ce2ed1e740ea/media.mp3",
+        "at": "2025-06-12T10:23:54Z",
+        "t": "تاریخ تکنولوژی 84 : چاقویی با تیغ، درب‌بازکن و پیچ‌گوشتی: اختراعی سوئیسی!"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/680882d33744a6172185eb69/e/6849f8b286b5e777390bc5c7/media.mp3",
+        "at": "2025-06-11T21:44:16Z",
+        "t": "تاریخ تکنولوژی 83 : از هاورکرافت تا اکس باکس؛ یه روز پرماجرا!"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/680882d33744a6172185eb69/e/68475d9d22eb752c2ff51ad7/media.mp3",
+        "at": "2025-06-10T06:30:00Z",
+        "t": "تاریخ تکنولوژی 82 : اپل در سال ۲۰۱۳ چه چیزهایی معرفی کرد؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/680882d33744a6172185eb69/e/68467066a13d3373733f3402/media.mp3",
+        "at": "2025-06-09T06:30:00Z",
+        "t": "تاریخ تکنولوژی 81 : طراحی پروازی که هرگز پرواز نکرد، ولی آینده رو ساخت!"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/680882d33744a6172185eb69/e/684449e06604f43e34306161/media.mp3",
+        "at": "2025-06-08T06:30:00Z",
+        "t": "تاریخ تکنولوژی 80 : آغاز یک سلسله سلطنتی در دنیای سیلیکون!"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/680882d33744a6172185eb69/e/6843f927a13d337373bb459b/media.mp3",
+        "at": "2025-06-07T08:32:38Z",
+        "t": "تاریخ تکنولوژی 79 : الن تورینگ مرگی تلخ پشت پرده‌ای سیاه"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/680882d33744a6172185eb69/e/68427f80f47b55b37a18a048/media.mp3",
+        "at": "2025-06-06T06:30:00Z",
+        "t": "تاریخ تکنولوژی 78 : از یک اداره دولتی در مسکو تا میلیون‌ها کنسول بازی در جهان!"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/680882d33744a6172185eb69/e/684137b3c8835d385c62fa09/media.mp3",
+        "at": "2025-06-05T06:22:45Z",
+        "t": "تاریخ تکنولوژی 77 : شروع یکی از بزرگ‌ترین افشاگری‌های قرن ۲۱"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-06-12T10:23:54Z",
+        "link": "https://4rahecomputer.com",
+        "title": "تاریخ تکنولوژی 84 : چاقویی با تیغ، درب‌بازکن و پیچ‌گوشتی: اختراعی سوئیسی!"
+      },
+      {
+        "at": "2025-06-11T21:44:16Z",
+        "link": "https://4rahecomputer.com",
+        "title": "تاریخ تکنولوژی 83 : از هاورکرافت تا اکس باکس؛ یه روز پرماجرا!"
+      },
+      {
+        "at": "2025-06-10T06:30:00Z",
+        "link": "https://4rahecomputer.com",
+        "title": "تاریخ تکنولوژی 82 : اپل در سال ۲۰۱۳ چه چیزهایی معرفی کرد؟"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "status": "active"
   },
