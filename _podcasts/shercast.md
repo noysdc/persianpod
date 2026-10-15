@@ -14,7 +14,7 @@ city: "تهران"
 start_year: 1401
 episode_count: 143
 frequency: "دو هفته یک‌بار"
-logo: "/assets/img/podcasts/shar-kst.webp"
+logo: "/assets/img/podcasts/shercast.webp"
 rss: "https://api.rabt.host/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/rss"
 youtube: "https://www.youtube.com/@BoutighaPodcast"
 instagram: "https://instagram.com/BoutighaPodcast"
