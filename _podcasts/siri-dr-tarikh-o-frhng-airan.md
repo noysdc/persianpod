@@ -17,8 +17,8 @@ pi_id: 3716613
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # سیری در تاریخ و فرهنگ ایران

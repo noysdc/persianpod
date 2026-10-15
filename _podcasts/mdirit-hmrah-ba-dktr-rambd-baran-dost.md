@@ -17,8 +17,8 @@ pi_id: 1218599
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # مدیریت همراه با دکتر رامبد باران دوست
