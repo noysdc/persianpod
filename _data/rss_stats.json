@@ -10409,8 +10409,8 @@
     ],
     "recent_30d": [
       6,
-      7,
-      7,
+      8,
+      6,
       5,
       12,
       11,
@@ -13154,21 +13154,26 @@
     "status": "active"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.3,
-    "avg_length": 17,
-    "episodes": 474,
-    "eps_365": 86,
-    "eps_90": 14,
+    "avg_gap_days": 4.2,
+    "avg_length": 18,
+    "episodes": 475,
+    "eps_365": 87,
+    "eps_90": 15,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T11:00:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/hdop0zz8yh/",
-    "last_title": "ویلیامز در برابر انتظارات بازار؛ CPI کدام روایت را تأیید می‌کند؟",
+    "last": "1405/07/23",
+    "last_at": "2026-10-15T11:20:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/sl4kx80dje/",
+    "last_title": "تغییر روایت بازار؛ از شوک تورم تا نگرانی‌های هوش مصنوعی",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/sl4kx80dje/2026-10-15-11-42-46.mp3",
+        "at": "2026-10-15T11:20:00Z",
+        "t": "تغییر روایت بازار؛ از شوک تورم تا نگرانی‌های هوش مصنوعی"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/hdop0zz8yh/2026-10-14-11-37-42.mp3",
         "at": "2026-10-14T11:00:00Z",
@@ -13203,14 +13208,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/kwn4srl2xz/2026-10-05-13-15-36.mp3",
         "at": "2026-10-05T12:40:00Z",
         "t": "از اوراق فرانسه تا وضعیت بخش خدمات آمریکا؛ دو محرک اصلی بازار امروز"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/oj9y4x8ng0/2026-10-02-10-07-15.mp3",
-        "at": "2026-10-02T10:00:00Z",
-        "t": "از اوراق فرانسه تا اشتغال آمریکا؛ مسیر بعدی بازارها کجاست؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-15T11:20:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/sl4kx80dje/",
+        "title": "تغییر روایت بازار؛ از شوک تورم تا نگرانی‌های هوش مصنوعی"
+      },
       {
         "at": "2026-10-14T11:00:00Z",
         "link": "https://dotcast.org/p/bozvcayr/hdop0zz8yh/",
@@ -13220,11 +13225,6 @@
         "at": "2026-10-13T11:20:00Z",
         "link": "https://dotcast.org/p/bozvcayr/omvzd0kh3s/",
         "title": "آرامش نسبی اوراق، نگرانی سهام؛ چرا نزدک همچنان زیر فشار است؟"
-      },
-      {
-        "at": "2026-10-12T11:20:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/zf64ghkypo/",
-        "title": "از تنش‌های انرژی تا تورم آمریکا؛ محرک‌های هفته پیش‌روی بازار"
       }
     ],
     "recent_30d": [
@@ -13239,7 +13239,7 @@
       0,
       0,
       0,
-      14
+      15
     ],
     "status": "active"
   },
