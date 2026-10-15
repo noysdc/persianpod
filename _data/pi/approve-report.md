@@ -1,30 +1,31 @@
 ## گزارش تأیید و انتقال
 
-- منتقل‌شده از `_drafts/` به `_podcasts/`: **22**
+- منتقل‌شده از `_drafts/` به `_podcasts/`: **23**
 - ردشده (از قبل موجود بود): 0
-- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **15**
+- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **21**
 
 ### منتقل‌شده
-- `aamozsh-karaafrini-o-mdirit-ksb-o-kar-ali-khadm-alrza.md`
-- `aamozsh-zban-anglisi-nsrt-bh-hmrah-mtn.md`
-- `bagh-airani.md`
-- `dastan-hai-msnoi.md`
-- `dghdghh-airan-8008842.md`
-- `fght-fotbal.md`
-- `gapdive-padkst-mosighi-mtn-gp-daio.md`
-- `jnaii-khoani.md`
-- `kshor-shahnamh-khoansh-dastan-hai-shahnamh-frdosi.md`
-- `ktab-soti-hri-patr.md`
-- `nghashi-khial-ba-shar.md`
-- `peaceful-presence-path-msir-hzor-aaramsh-padkst-mditishn.md`
-- `podcast-aamozsh-zban-anglisi-ataii-aanlain.md`
-- `podcast-farsi-orzshgah-fotbal.md`
-- `podcast-fotbali-fotbal-trapi.md`
-- `podcast-jnon.md`
-- `podcast-roanshnasi-msir-shfa-roanshnasi-mraghbh-mhor-ba.md`
-- `podcast-roanshnasi-saikopad-3427358.md`
-- `radio-joloun-padkst-sfr-radio-jolon.md`
-- `radio-karaafrini-ali-khadm-alrza.md`
-- `sdai-slamt.md`
-- `shar-farsi-ba-aamr-ghoanini.md`
+- `bazi-kst.md`
+- `dastan-baz-rman-hai-fantzi-mdrsh-ajib-o-ghrib.md`
+- `dastan-baz-rman-hai-fantzi.md`
+- `dastan-hai-hzar-o-ik-shb.md`
+- `dastan-hai-tarikhi.md`
+- `ghab-tarikh.md`
+- `gzidh-padkst-farsi.md`
+- `hafz-khoani-bh-roait-ahmd-shamlo.md`
+- `ktab-soti-mlt-ashgh.md`
+- `ktab-soti.md`
+- `mshirih.md`
+- `podcast-alom-shnakhti-o-mghz.md`
+- `podcast-bdon-tmbr-bdon-tarikh.md`
+- `podcast-farsi-hri-patr.md`
+- `podcast-kaza-milan.md`
+- `podcast-roanshnasi-nshanh-hai-akhtlalat-roani.md`
+- `podcast-roanshnasi.md`
+- `podcast-tarikhi-majon.md`
+- `radio-dastan.md`
+- `shokhi-ba-tarikh.md`
+- `sibe-salamat-sib-slamt.md`
+- `tarikh-bihghi-a-tarikh-beyhaqi.md`
+- `tarikh-tknolozhi.md`
 

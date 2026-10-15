@@ -18,8 +18,8 @@ pi_id: 6817097
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # داستان باز-رمان های فانتزی

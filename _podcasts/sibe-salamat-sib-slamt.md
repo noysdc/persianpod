@@ -16,8 +16,8 @@ pi_id: 1960745
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Sibe Salamat سیب سلامت
