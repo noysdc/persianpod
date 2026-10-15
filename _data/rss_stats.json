@@ -1655,19 +1655,24 @@
   "chh-hsi-dari-roanshnasi-khodshnasi": {
     "avg_gap_days": 1.0,
     "avg_length": 21,
-    "episodes": 75,
-    "eps_365": 75,
-    "eps_90": 75,
+    "episodes": 76,
+    "eps_365": 76,
+    "eps_90": 76,
     "first_at": "2026-07-29",
     "first_year": 1405,
-    "last": "1405/07/21",
-    "last_at": "2026-10-13T13:17:19Z",
-    "last_link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-khrws-rwy-nrdh-dywyd-sdrays--75754212",
-    "last_title": "داستان کوتاه طنز | خروس روی نرده| دیوید سدرایس",
+    "last": "1405/07/23",
+    "last_at": "2026-10-15T10:12:27Z",
+    "last_link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-milk-dywyd-sdrays--75804466",
+    "last_title": "داستان کوتاه طنز| مِلک |دیوید سدرایس",
     "max_length": 33,
     "median_length": 15,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75804466/utf_8_q_d9_85_d9_84_da_a9_mp3.mp3",
+        "at": "2026-10-15T10:12:27Z",
+        "t": "داستان کوتاه طنز| مِلک |دیوید سدرایس"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75754212/utf_8_b_2k7ysdmi2lmg2lhzinuminmg2lhyr9mhlm1wmw.mp3",
         "at": "2026-10-13T13:17:19Z",
@@ -1702,14 +1707,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75687059/utf_8_b_2yfyrnix2koubxaz.mp3",
         "at": "2026-10-10T12:32:38Z",
         "t": "داستان کوتاه طنز|هجرت|دیوید سدرایس"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75671663/utf_8_b_2kryutum24zysduminiv2leg2yxzhi5tcdm.mp3",
-        "at": "2026-10-09T18:15:37Z",
-        "t": "داستان کوتاه طنز| تغییری در من"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-15T10:12:27Z",
+        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-milk-dywyd-sdrays--75804466",
+        "title": "داستان کوتاه طنز| مِلک |دیوید سدرایس"
+      },
       {
         "at": "2026-10-13T13:17:19Z",
         "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-khrws-rwy-nrdh-dywyd-sdrays--75754212",
@@ -1719,11 +1724,6 @@
         "at": "2026-10-13T06:45:36Z",
         "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-b-d-az-mn-tkrar-kn--75745101",
         "title": "داستان کوتاه طنز| بعد از من تکرار کن"
-      },
-      {
-        "at": "2026-10-12T11:37:49Z",
-        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-payan-rabth-y-ashqanh-dywyd-sdrays--75726668",
-        "title": "داستان کوتاه طنز| پایان رابطه‌ی عاشقانه| دیوید سدرایس"
       }
     ],
     "recent_30d": [
@@ -1738,7 +1738,7 @@
       0,
       30,
       22,
-      23
+      24
     ],
     "status": "active"
   },
