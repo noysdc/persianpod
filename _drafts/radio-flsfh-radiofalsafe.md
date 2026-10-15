@@ -1,0 +1,41 @@
+---
+title: "رادیو فلسفه/Radiofalsafe"
+title_en: "Radiofalsafe"
+slug: "radio-flsfh-radiofalsafe"
+description: "منزه است خدایی که مرتبه ی بلندش اورا از مخلوقاتش دور نکرده و نزدیکیش با خلق او را با آن ها مساوی قرار . نداده است پادکست رادیو فلسفه با گوندگی مهراد آذری به بررسی و تحلیل آثار برجسته فلسفی می‌پردازد."
+category: "فلسفه و دین"
+subcategories: ["فلسفه","منطق و تفکر نقادانه"]
+tags: ["فلسفه و دین","فلسفه","منطق و تفکر نقادانه"]
+status: "فعال"
+language: "فارسی"
+creator: "مهراد آذری"
+episode_count: 63
+logo: "/assets/img/podcasts/radio-flsfh-radiofalsafe.webp"
+rss: "https://feeds.redcircle.com/cc44f937-21d7-4d1a-be1a-3fd44b44cfae"
+website: "https://redcircle.com/shows/radiofalsafe"
+pi_id: 7319775
+source: "podcastindex"
+ai_category: true
+auto_imported: true
+reviewed: false
+published: false
+---
+
+# رادیو فلسفه/Radiofalsafe
+
+منزه است خدایی که مرتبه ی بلندش اورا از مخلوقاتش دور نکرده و نزدیکیش با خلق او را با آن ها مساوی قرار . نداده است پادکست رادیو فلسفه با گوندگی مهراد آذری به بررسی و تحلیل آثار برجسته فلسفی می‌پردازد. در هر قسمت، علاوه بر توضیح و تجزیه و تحلیل مفاهیم فلسفی، بخش‌هایی از کتاب‌ به صورت روخوانی ارائه می‌شود تا شنوندگان بتوانند با این متون آشنا شوند و درک بهتری از ایده‌ها و دیدگاه‌های مطرح شده در آن‌ها پیدا کنند. هدف ما ارائه فلسفه به زبانی ساده و قابل فهم است، به طوری که هر فرد، از علاقه‌مندان تازه‌کار تا کسانی که سال‌ها در این حوزه مطالعه کرده‌اند، بتوانند از محتوای پادکست . بهره‌مند شوند
+
+## تازه‌ترین قسمت‌ها
+
+- [درباره‌ی فلسفه _ قسمت چهلم | تولد ایدهٔ مطلق؛ آیا هگل به خدا می‌رسد؟](https://podcasters.spotify.com/pod/show/-31570){:target="_blank" rel="noopener"}
+- [درباره فلسفه_ قسمت سی و نهم | علم منطق هگل: جوهر تا غایت‌شناسی؛ از «علت» تا «غایت»، منطق چگونه تغییر می‌کند؟](https://podcasters.spotify.com/pod/show/-31570){:target="_blank" rel="noopener"}
+- [درباره فلسفه_ قسمت سی‌وهشتم | علم منطق هگل، آموزه‌ی‌ ذات؛ از فعلیت تا ضرورت مطلق](https://podcasters.spotify.com/pod/show/-31570){:target="_blank" rel="noopener"}
+
+---
+
+## لینک‌های مرتبط و ارتباطات
+
+- [وب‌سایت رادیو فلسفه/Radiofalsafe](https://redcircle.com/shows/radiofalsafe){:target="_blank" rel="noopener"}
+- [فید RSS](https://feeds.redcircle.com/cc44f937-21d7-4d1a-be1a-3fd44b44cfae){:target="_blank" rel="noopener"}
+
+> این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید.
