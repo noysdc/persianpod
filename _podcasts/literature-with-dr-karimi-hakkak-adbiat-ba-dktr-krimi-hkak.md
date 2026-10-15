@@ -18,8 +18,8 @@ pi_id: 3523551
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Literature with Dr. Karimi-Hakkak ادبیات با دکتر کریمی حکاک

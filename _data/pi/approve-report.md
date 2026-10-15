@@ -1,31 +1,26 @@
 ## گزارش تأیید و انتقال
 
-- منتقل‌شده از `_drafts/` به `_podcasts/`: **23**
+- منتقل‌شده از `_drafts/` به `_podcasts/`: **18**
 - ردشده (از قبل موجود بود): 0
-- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **21**
+- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **24**
 
 ### منتقل‌شده
-- `bazi-kst.md`
-- `dastan-baz-rman-hai-fantzi-mdrsh-ajib-o-ghrib.md`
-- `dastan-baz-rman-hai-fantzi.md`
-- `dastan-hai-hzar-o-ik-shb.md`
-- `dastan-hai-tarikhi.md`
-- `ghab-tarikh.md`
-- `gzidh-padkst-farsi.md`
-- `hafz-khoani-bh-roait-ahmd-shamlo.md`
-- `ktab-soti-mlt-ashgh.md`
-- `ktab-soti.md`
-- `mshirih.md`
-- `podcast-alom-shnakhti-o-mghz.md`
-- `podcast-bdon-tmbr-bdon-tarikh.md`
-- `podcast-farsi-hri-patr.md`
-- `podcast-kaza-milan.md`
-- `podcast-roanshnasi-nshanh-hai-akhtlalat-roani.md`
-- `podcast-roanshnasi.md`
-- `podcast-tarikhi-majon.md`
-- `radio-dastan.md`
-- `shokhi-ba-tarikh.md`
-- `sibe-salamat-sib-slamt.md`
-- `tarikh-bihghi-a-tarikh-beyhaqi.md`
-- `tarikh-tknolozhi.md`
+- `chh-hsi-dari-roanshnasi-khodshnasi.md`
+- `hmsfr.md`
+- `ktab-bazi-orast.md`
+- `literature-with-dr-karimi-hakkak-adbiat-ba-dktr-krimi-hkak.md`
+- `msir-slamt.md`
+- `parseh-podcast-padkst-prsh.md`
+- `podcast-farsi-ansank.md`
+- `podcast-farsi-radio-mrz.md`
+- `podcast-mi-khoansh-hkmt-zndgi-shopnhaor.md`
+- `podcast-mshaorh-dktr-fhimh-rzaii.md`
+- `podcast-raokdh.md`
+- `prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi.md`
+- `radio-aahng-sfr.md`
+- `radio-fikshn-dastan.md`
+- `radio-fol-astk.md`
+- `radio-oaldgri.md`
+- `radiocrime-padkst-jnaii-radio-kraim.md`
+- `shaaa-kst.md`
 
