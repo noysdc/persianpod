@@ -15917,8 +15917,8 @@
       101,
       115,
       79,
-      66,
-      42,
+      67,
+      41,
       0,
       4,
       20,
@@ -16642,6 +16642,96 @@
       11,
       27,
       5
+    ],
+    "status": "active"
+  },
+  "vidathereader": {
+    "avg_gap_days": 7.6,
+    "avg_length": 38,
+    "episodes": 169,
+    "eps_365": 45,
+    "eps_90": 15,
+    "first_at": "2025-02-02",
+    "first_year": 1403,
+    "last": "1405/07/23",
+    "last_at": "2026-10-15T09:39:47Z",
+    "last_link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/00be6fe3-94d9-4556-a9f2-115bd32bfbed/play.mp3",
+    "last_title": "رودین_بخش اول",
+    "max_length": 78,
+    "median_length": 28,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/00be6fe3-94d9-4556-a9f2-115bd32bfbed/play.mp3",
+        "at": "2026-10-15T09:39:47Z",
+        "t": "رودین_بخش اول"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/461ef1ea-4322-46d8-9cc0-81acf8d6e1bd/play.mp3",
+        "at": "2026-10-07T12:08:04Z",
+        "t": "فصل دوم_معرفی دو رمان از ایوان تورگنیف"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/67cb2657-a586-4e84-b4d5-ae47cf6f2ee8/play.mp3",
+        "at": "2026-10-03T02:30:46Z",
+        "t": "مرگ ایوان ایلیچ_ بخش پایانی"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/0613b31b-1c97-4651-b978-8024c65c15b1/play.mp3",
+        "at": "2026-09-30T02:30:22Z",
+        "t": "مرگ ایوان ایلیچ_بخش نهم"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/0ecb53e1-114a-4961-b938-af03a6170ad8/play.mp3",
+        "at": "2026-09-26T02:30:30Z",
+        "t": "مرگ ایوان ایلیچ_بخش هشتم"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/dea76972-3793-497d-b36e-ad6c16939878/play.mp3",
+        "at": "2026-09-23T02:30:50Z",
+        "t": "مرگ ایوان ایلیچ_بخش هفتم"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/64410717-36cf-49dc-a61f-1ed60e14bc93/play.mp3",
+        "at": "2026-09-19T02:30:48Z",
+        "t": "مرگ ایوان ایلیچ_بخش ششم"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/de9805aa-f226-4a82-84aa-539612204f47/play.mp3",
+        "at": "2026-09-16T02:30:19Z",
+        "t": "مرگ ایوان ایلیچ_بخش پنجم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-15T09:39:47Z",
+        "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/00be6fe3-94d9-4556-a9f2-115bd32bfbed/play.mp3",
+        "title": "رودین_بخش اول"
+      },
+      {
+        "at": "2026-10-07T12:08:04Z",
+        "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/461ef1ea-4322-46d8-9cc0-81acf8d6e1bd/play.mp3",
+        "title": "فصل دوم_معرفی دو رمان از ایوان تورگنیف"
+      },
+      {
+        "at": "2026-10-03T02:30:46Z",
+        "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/67cb2657-a586-4e84-b4d5-ae47cf6f2ee8/play.mp3",
+        "title": "مرگ ایوان ایلیچ_ بخش پایانی"
+      }
+    ],
+    "recent_30d": [
+      2,
+      4,
+      4,
+      4,
+      2,
+      1,
+      4,
+      5,
+      4,
+      3,
+      4,
+      8
     ],
     "status": "active"
   },
