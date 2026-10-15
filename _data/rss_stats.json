@@ -587,7 +587,7 @@
     "avg_gap_days": 4.9,
     "avg_length": 33,
     "episodes": 443,
-    "eps_365": 74,
+    "eps_365": 73,
     "eps_90": 13,
     "first_at": "2020-06-15",
     "first_year": 1399,
@@ -661,8 +661,8 @@
       6,
       5,
       7,
-      7,
-      10,
+      8,
+      9,
       5,
       6,
       8,
@@ -1779,15 +1779,15 @@
       }
     ],
     "recent_30d": [
-      1,
-      3,
+      2,
+      2,
       2,
       1,
       2,
       0,
       0,
-      1,
-      3,
+      2,
+      2,
       1,
       2,
       2
@@ -2382,21 +2382,26 @@
     "status": "active"
   },
   "khoansh-ktab-brai-ansan-khrdmnd-2": {
-    "avg_gap_days": 12.1,
-    "avg_length": 18,
-    "episodes": 180,
-    "eps_365": 27,
-    "eps_90": 8,
+    "avg_gap_days": 12.9,
+    "avg_length": 20,
+    "episodes": 181,
+    "eps_365": 28,
+    "eps_90": 9,
     "first_at": "2023-01-16",
     "first_year": 1401,
-    "last": "1405/06/21",
-    "last_at": "2026-09-12T00:52:02Z",
-    "last_link": "https://s3.castbox.fm/43/89/4c/5f0edb4204aedcc9775f346a5a.mp3",
-    "last_title": "فرشتگان و شیاطین",
+    "last": "1405/07/22",
+    "last_at": "2026-10-14T21:53:37Z",
+    "last_link": "https://s3.castbox.fm/1a/8b/6e/8c4a3b4f23b833848911b4e5b4.mp3",
+    "last_title": "علیه مزخرفات",
     "max_length": 87,
     "median_length": 22,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/1a/8b/6e/8c4a3b4f23b833848911b4e5b4.mp3",
+        "at": "2026-10-14T21:53:37Z",
+        "t": "علیه مزخرفات"
+      },
       {
         "a": "https://s3.castbox.fm/43/89/4c/5f0edb4204aedcc9775f346a5a.mp3",
         "at": "2026-09-12T00:52:02Z",
@@ -2431,14 +2436,14 @@
         "a": "https://s3.castbox.fm/0b/9c/81/924e834907a858a1591d0318b0.mp3",
         "at": "2026-08-16T13:33:40Z",
         "t": "ما؛ کاکتوسها"
-      },
-      {
-        "a": "https://s3.castbox.fm/35/10/1f/e050bc498fb9b409cdb79b27a7.mp3",
-        "at": "2026-07-20T19:03:30Z",
-        "t": "رام کردن مولکول سرکش - دوازده"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-14T21:53:37Z",
+        "link": "https://s3.castbox.fm/1a/8b/6e/8c4a3b4f23b833848911b4e5b4.mp3",
+        "title": "علیه مزخرفات"
+      },
       {
         "at": "2026-09-12T00:52:02Z",
         "link": "https://s3.castbox.fm/43/89/4c/5f0edb4204aedcc9775f346a5a.mp3",
@@ -2448,11 +2453,6 @@
         "at": "2026-09-11T11:05:38Z",
         "link": "https://s3.castbox.fm/ce/1d/8a/4a892a4c729637929b180ee061.mp3",
         "title": "05 چکیدۀ بیست‌ویک درس"
-      },
-      {
-        "at": "2026-09-09T18:44:19Z",
-        "link": "https://s3.castbox.fm/e9/f5/62/31d7084ab2af4cd258535d609b.mp3",
-        "title": "04 چکیدۀ بیست‌ویک درس"
       }
     ],
     "recent_30d": [
@@ -2467,7 +2467,7 @@
       5,
       1,
       7,
-      0
+      1
     ],
     "status": "active"
   },
@@ -2635,14 +2635,14 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       4,
       3,
       4,
       2,
       4,
-      4,
-      6,
+      5,
+      5,
       5,
       5,
       6,
@@ -3003,8 +3003,8 @@
       0,
       0,
       1,
-      0,
       1,
+      0,
       1
     ],
     "status": "active"
@@ -3611,8 +3611,8 @@
       3,
       3,
       4,
-      4,
       5,
+      4,
       4,
       4,
       5,
@@ -3784,8 +3784,8 @@
       }
     ],
     "recent_30d": [
-      5,
-      5,
+      6,
+      4,
       3,
       0,
       1,
@@ -3874,7 +3874,7 @@
       }
     ],
     "recent_30d": [
-      27,
+      26,
       23,
       10,
       0,
@@ -3883,8 +3883,8 @@
       0,
       0,
       9,
-      2,
       4,
+      2,
       3
     ],
     "status": "active"
@@ -4243,8 +4243,8 @@
       6,
       4,
       6,
-      7,
-      7,
+      8,
+      6,
       9
     ],
     "status": "active"
@@ -5007,8 +5007,8 @@
       2,
       3,
       3,
-      4,
-      3,
+      5,
+      2,
       2
     ],
     "status": "active"
@@ -6093,7 +6093,7 @@
     "avg_length": 10,
     "episodes": 4198,
     "eps_365": 824,
-    "eps_90": 271,
+    "eps_90": 270,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/07/22",
@@ -6171,8 +6171,8 @@
       0,
       3,
       21,
-      109,
-      88,
+      110,
+      87,
       99,
       84
     ],
@@ -6363,16 +6363,21 @@
     "episodes": 600,
     "eps_365": 261,
     "eps_90": 64,
-    "first_at": "2024-06-26",
+    "first_at": "2024-06-27",
     "first_year": 1403,
-    "last": "1405/07/21",
-    "last_at": "2026-10-13T20:30:00Z",
-    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-1306-VTvuEGI_",
-    "last_title": "مکاشفه ۱۷: ۹ تا ۱۸",
+    "last": "1405/07/22",
+    "last_at": "2026-10-14T20:30:00Z",
+    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-1307-4V3OB82y",
+    "last_title": "مکاشفه ۱۸: ۱ تا ۸",
     "max_length": 32,
     "median_length": 28,
     "min_length": 24,
     "play": [
+      {
+        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/34f65ffc-e2b8-4354-86ba-322fa38d3e2b/group-item/f49a523f-9c9b-4025-86eb-8287ab7650e7/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
+        "at": "2026-10-14T20:30:00Z",
+        "t": "مکاشفه ۱۸: ۱ تا ۸"
+      },
       {
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/9eb1deb0-f8b5-46e6-889b-28436187e353/group-item/7242d6ca-c636-4029-a4e3-7f50a1701667/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-10-13T20:30:00Z",
@@ -6407,14 +6412,14 @@
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/96fe2e6d-1dd7-4045-be29-0a6a74715aad/group-item/8dea7fae-6df0-461d-bb5e-6eca15dadc8b/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-10-05T20:30:00Z",
         "t": "مکاشفه ۱۶: ۱ تا ۴"
-      },
-      {
-        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/a9a6da52-43b8-4a58-a7f5-316af5399980/group-item/b5d191b8-3f1f-44d6-b7b8-8c4b0cd82eee/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
-        "at": "2026-10-04T20:30:00Z",
-        "t": "مکاشفه ۱۴: ۱۴ تا ۲۰"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-14T20:30:00Z",
+        "link": "https://tmm-khtb.simplecast.com/episodes/tk-1307-4V3OB82y",
+        "title": "مکاشفه ۱۸: ۱ تا ۸"
+      },
       {
         "at": "2026-10-13T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-1306-VTvuEGI_",
@@ -6424,14 +6429,12 @@
         "at": "2026-10-12T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-1305-R_d7Vf4E",
         "title": "مکاشفه ۱۷: ۱ تا ۸"
-      },
-      {
-        "at": "2026-10-11T20:30:00Z",
-        "link": "https://tmm-khtb.simplecast.com/episodes/tk-1304-MvVarS7Q",
-        "title": "مکاشفه ۱۶: ۱۷ تا ۲۱"
       }
     ],
     "recent_30d": [
+      22,
+      22,
+      20,
       22,
       22,
       21,
@@ -6440,9 +6443,6 @@
       22,
       20,
       22,
-      22,
-      21,
-      21,
       22
     ],
     "status": "active"
