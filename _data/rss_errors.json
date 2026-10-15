@@ -19,10 +19,6 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://feeds.sounder.fm/16420/rss.xml"
   },
-  "podcast-jnon": {
-    "error": "RuntimeError: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
-    "rss": "https://junoonpodcast.com/feed/?amp%3Bcat=310"
-  },
   "roanshnasi-dktr-hlakoii": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/37c7e32c/podcast/rss"
