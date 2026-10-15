@@ -1,6 +1,6 @@
 ---
 title: "شعر کست"
-title_en: "SherCast"
+title_en: "shercast"
 slug: "shar-kst"
 description: "پادکستی برای شنیدن اشعار خوب و درجه یک و معروفِ شعر و ادبیات فارسی"
 category: "ادبیات و کتاب"
