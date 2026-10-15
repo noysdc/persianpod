@@ -939,21 +939,26 @@
     "status": "active"
   },
   "ali-sdart": {
-    "avg_gap_days": 4.9,
-    "avg_length": 33,
-    "episodes": 443,
-    "eps_365": 73,
-    "eps_90": 13,
+    "avg_gap_days": 5.0,
+    "avg_length": 32,
+    "episodes": 444,
+    "eps_365": 74,
+    "eps_90": 14,
     "first_at": "2020-06-15",
     "first_year": 1399,
-    "last": "1405/07/14",
-    "last_at": "2026-10-06T01:11:32Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3pveug",
-    "last_title": "صدارت⁠- رویکرد مردم به خشونت، وضعیت ما را از این هم بدتر خواهد کرد",
+    "last": "1405/07/23",
+    "last_at": "2026-10-15T12:43:19Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/---e3qi1qp",
+    "last_title": "صدارت--پنجمین سال فقدان بنی‌صدر؛ جای خالیِ حقوق‌مداری، به‌ویژه استقلال و آزادی",
     "max_length": 146,
     "median_length": 38,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/2f313e0c/podcast/play/127517977/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-15%2Fef40035e-5c87-f2cc-8d52-eb3c88872e6a.mp3",
+        "at": "2026-10-15T12:43:19Z",
+        "t": "صدارت--پنجمین سال فقدان بنی‌صدر؛ جای خالیِ حقوق‌مداری، به‌ویژه استقلال و آزادی"
+      },
       {
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/126908816/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F9ed273b6-a296-4fbf-8e1e-ef9964e7364f.mp3",
         "at": "2026-10-06T01:11:32Z",
@@ -988,14 +993,14 @@
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/124831041/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-27%2F70c828d7-e3a3-47f7-039a-de603cba59c4.mp3",
         "at": "2026-08-27T20:34:42Z",
         "t": "صدارت⁠- اعتراف به شکست تجاوزهای نظامی، افزایش تروریسم اقتصادی ۴۷ساله، در روز اجرای آخرالزمان اقتصادی"
-      },
-      {
-        "a": "https://anchor.fm/s/2f313e0c/podcast/play/124358672/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-17%2Fcf7c5228-15e5-2945-5c8a-2253b3073111.mp3",
-        "at": "2026-08-17T21:59:56Z",
-        "t": "صدارت-مصدق، عکسی روی طاقچه!؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-15T12:43:19Z",
+        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/---e3qi1qp",
+        "title": "صدارت--پنجمین سال فقدان بنی‌صدر؛ جای خالیِ حقوق‌مداری، به‌ویژه استقلال و آزادی"
+      },
       {
         "at": "2026-10-06T01:11:32Z",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3pveug",
@@ -1005,11 +1010,6 @@
         "at": "2026-09-28T22:49:21Z",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3phg3c",
         "title": "صدارت-ایران کانون موضوعات اجلاس ۸۱ سازمان ملل"
-      },
-      {
-        "at": "2026-09-21T21:57:23Z",
-        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3p6ua3",
-        "title": "صدارت⁠- سرنوشت تنگه‌های هرمز و باب‌المندب، سرنوشت دنیا را رقم خواهد زد"
       }
     ],
     "recent_30d": [
@@ -1024,7 +1024,7 @@
       5,
       5,
       4,
-      4
+      5
     ],
     "status": "active"
   },
@@ -10951,8 +10951,8 @@
       0,
       6,
       7,
-      6,
       7,
+      6,
       8
     ],
     "status": "active"
