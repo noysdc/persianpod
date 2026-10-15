@@ -6,5 +6,9 @@
   "filmhai-sinmaii-airani": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
+  },
+  "said-pnahi": {
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "rss": "https://mp3movies.ir/author/saeed/feed"
   }
 }
