@@ -150,3 +150,7 @@
   .cp-months i{font-size:.64rem}
   .cp-months span:nth-child(odd) i{visibility:hidden}
 }
+
+/* جداکننده‌ی نتیجه: فقط وقتی نتیجه‌ی مقایسه روی صفحه است (#cp-out خالی نیست)، زیر دکمه‌ها دیده می‌شود */
+#cp-out:not(:empty)::before{content:"";display:block;height:3px;max-width:560px;margin:30px auto 28px;border-radius:3px;
+  background:linear-gradient(90deg,transparent,var(--line) 20%,#08cb00 50%,var(--line) 80%,transparent)}

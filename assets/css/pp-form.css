@@ -175,3 +175,8 @@ body.pf-lock{overflow:hidden}
 
 /* جمله‌ی رضایت زیر دکمه‌ی ارسال */
 .pp-form .pf-consent { margin: .7rem 0 0; font-size: .85rem; line-height: 1.8; opacity: .75; text-align: center; }
+
+/* دیوایدر رنگی بین «اطلاعات الزامی» و «اطلاعات تکمیلی» (همان شکل .pp-divider سایت) */
+.pf-divider{margin-top:34px}
+.pf-divider::before{content:"";display:block;height:3px;max-width:560px;margin:0 auto 34px;border-radius:3px;
+  background:linear-gradient(90deg,transparent,var(--line) 20%,#08cb00 50%,var(--line) 80%,transparent)}

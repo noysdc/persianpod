@@ -205,3 +205,7 @@ body.reading .pp-side,body.reading .pp-filters-side{display:none}
 .pp-foot .pp-side-contact{max-width:520px;margin:0 auto;padding-top:26px;border-top:1px solid var(--line)}
 .pp-foot .pp-about-m{display:block;margin:0 0 14px;color:var(--ink);opacity:.9;font-size:.95rem}
 @media(max-width:799px){.pp-foot{margin-top:30px;padding:0 20px 28px}}
+
+/* دیوایدر فشرده برای جاهایی که فاصله‌ی ۴۲ پیکسلی زیاد است (زیر شعار صفحه‌ی اصلی، بالای نقشه) */
+.pp-divider.pp-divider-tight{margin:22px auto 20px}
+@media(max-width:799px){.pp-divider.pp-divider-tight{margin:16px auto 14px}}

@@ -44,3 +44,17 @@
   border-radius: 50%; border: 3px solid var(--card, #14181b); background: #08cb00; box-shadow: 0 0 0 1px #08cb00, 0 4px 12px var(--glow-soft, rgba(8, 203, 0, .3));
 }
 @media (prefers-reduced-motion: no-preference) { .pl-clock-bubble, .pl-clock-thumb, .pl-clock-past, .pl-clock-rest { transition: left .6s ease, width .6s ease; } }
+
+/* پلیر بالای صفحه‌ی «گوش بده»: جمع‌وجورتر؛ چند قسمت اول دیده می‌شود و بقیه با اسکرول داخل خود فهرست (بدون بلند شدن کل باکس) */
+.pl-stage .pl-head{margin-bottom:8px}
+.pl-stage .pp-poster-note{margin:0 0 10px}
+.pl-stage .pp-eplist{margin-top:10px;max-height:188px}
+.pl-stage .pl-links{margin-top:10px}
+@media(max-width:799px){
+  .pl-stage{padding:12px 12px 10px}
+  .pl-stage .pl-head{gap:10px;margin-bottom:6px}
+  .pl-stage .pl-head img,.pl-stage .pl-head i{width:52px;height:52px;border-radius:13px;font-size:1.4rem}
+  .pl-stage .pp-poster-note{font-size:.82rem;line-height:1.8;margin-bottom:8px}
+  .pl-stage .pp-eplist{max-height:150px}
+  .pl-stage .pp-eplist button{padding:6px 10px;font-size:.84rem;line-height:1.7}
+}

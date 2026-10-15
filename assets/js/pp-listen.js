@@ -101,6 +101,15 @@
   var data = [], cat = "", current = null, catRank = {}, SE = null, noIntent = false, lastQ = "";
   var qEl = $("#q");
   var PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
+  /* موج صدای جداکننده‌ی بین دسته‌ها: همان موج صفحه‌ی اصلی (استایلش در pp-dir.css و فایل‌های بعدی است) */
+  var WAVE = (function () {
+    var bars = "";
+    for (var i = 0; i < 48; i++) {
+      var h = 8 + Math.round(Math.abs(Math.sin(i * 0.55) * Math.cos(i * 0.21)) * 26);
+      bars += '<rect class="b" style="--i:' + i + '" x="' + (i * 10 + 3) + '" y="' + (20 - h / 2) + '" width="4" height="' + h + '" rx="2"/>';
+    }
+    return '<div class="pd-wave" aria-hidden="true"><svg viewBox="0 0 480 40" preserveAspectRatio="none" focusable="false">' + bars + "</svg></div>";
+  })();
   var HEAD = '<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg>';
 
   function prep(p) {
@@ -165,8 +174,8 @@
         order = window.PPOrder.orderKeys(order, "listen");
         order.forEach(function (c) { groups[c] = window.PPOrder.order(groups[c], "listen:" + c); });
       } else order.sort(function (a, b) { return catRank[a] - catRank[b]; });
-      out.innerHTML = order.map(function (c) {
-        return '<section class="pd-group" aria-label="' + esc(c) + '"><h2 class="pd-cat">' +
+      out.innerHTML = order.map(function (c, idx) {
+        return (idx ? WAVE : "") + '<section class="pd-group" aria-label="' + esc(c) + '"><h2 class="pd-cat">' +
           '<a class="pd-cat-link" href="?category=' + encodeURIComponent(c) + '" data-cat="' + esc(c) + '"><span class="pd-cat-ic">' + HEAD + "</span>" +
           esc(c) + " <small>" + toFa(groups[c].length) + '</small><span class="pd-more">مشاهده‌ی همه <span aria-hidden="true">←</span></span></a></h2>' +
           '<div class="pd-row-wrap">' +
