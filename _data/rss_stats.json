@@ -1642,8 +1642,8 @@
       5,
       4,
       1,
-      1,
-      11,
+      2,
+      10,
       11,
       5,
       4,
@@ -7898,21 +7898,26 @@
     "status": "active"
   },
   "parseh-podcast-padkst-prsh": {
-    "avg_gap_days": 12.3,
-    "avg_length": 58,
-    "episodes": 75,
-    "eps_365": 21,
-    "eps_90": 4,
+    "avg_gap_days": 14.0,
+    "avg_length": 60,
+    "episodes": 76,
+    "eps_365": 22,
+    "eps_90": 5,
     "first_at": "2020-07-17",
     "first_year": 1399,
-    "last": "1405/06/05",
-    "last_at": "2026-08-27T15:30:00Z",
-    "last_link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/64-limits-of-justice-iii",
-    "last_title": "64- Limits of Justice III (حدود عدالت ۳)",
-    "max_length": 103,
+    "last": "1405/07/23",
+    "last_at": "2026-10-15T16:30:00Z",
+    "last_link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/65-conversation",
+    "last_title": "65- Conversation گفتگو با رضا امیر درباره‌ی کتاب «چگونه زنده‌ایم»",
+    "max_length": 118,
     "median_length": 52,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6ad0bb7e7ce338e8cdd99139/media.mp3",
+        "at": "2026-10-15T16:30:00Z",
+        "t": "65- Conversation گفتگو با رضا امیر درباره‌ی کتاب «چگونه زنده‌ایم»"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a8ff2e66cdb05b8913f63a2/media.mp3",
         "at": "2026-08-27T15:30:00Z",
@@ -7947,14 +7952,14 @@
         "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a28442f427484b4a44a9861/media.mp3",
         "at": "2026-06-12T16:30:00Z",
         "t": "59- Portrait of a Defeat VI (شمایل یک شکست ۶)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a228590ac951431d7b1d2be/media.mp3",
-        "at": "2026-06-05T16:30:00Z",
-        "t": "58 - شمایل یک شکست قسمت پنجم (نسخه کم‌حجم)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-15T16:30:00Z",
+        "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/65-conversation",
+        "title": "65- Conversation گفتگو با رضا امیر درباره‌ی کتاب «چگونه زنده‌ایم»"
+      },
       {
         "at": "2026-08-27T15:30:00Z",
         "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/64-limits-of-justice-iii",
@@ -7964,11 +7969,6 @@
         "at": "2026-08-20T16:30:00Z",
         "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/63-limits-of-justice-ii",
         "title": "63- Limits of Justice II (حدود عدالت ۲)"
-      },
-      {
-        "at": "2026-08-13T17:30:00Z",
-        "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/62-limits-of-justice-i",
-        "title": "62- Limits of Justice I (حدود عدالت ۱)"
       }
     ],
     "recent_30d": [
@@ -7983,7 +7983,7 @@
       1,
       2,
       2,
-      0
+      1
     ],
     "status": "active"
   },
@@ -9340,10 +9340,10 @@
     "status": "active"
   },
   "podcast-farsi-kraim-kst": {
-    "avg_gap_days": 25.9,
+    "avg_gap_days": 25.3,
     "avg_length": 69,
     "episodes": 59,
-    "eps_365": 15,
+    "eps_365": 14,
     "eps_90": 6,
     "first_at": "2023-04-10",
     "first_year": 1402,
@@ -16109,7 +16109,7 @@
   "t-me-radioshereparsi-radio-shar-parsi": {
     "avg_gap_days": 2.7,
     "avg_length": 154,
-    "episodes": 408,
+    "episodes": 407,
     "eps_365": 40,
     "eps_90": 16,
     "first_at": "2020-03-27",
