@@ -1652,6 +1652,96 @@
     ],
     "status": "active"
   },
+  "chh-hsi-dari-roanshnasi-khodshnasi": {
+    "avg_gap_days": 1.0,
+    "avg_length": 21,
+    "episodes": 75,
+    "eps_365": 75,
+    "eps_90": 75,
+    "first_at": "2026-07-29",
+    "first_year": 1405,
+    "last": "1405/07/21",
+    "last_at": "2026-10-13T13:17:19Z",
+    "last_link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-khrws-rwy-nrdh-dywyd-sdrays--75754212",
+    "last_title": "داستان کوتاه طنز | خروس روی نرده| دیوید سدرایس",
+    "max_length": 33,
+    "median_length": 15,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75754212/utf_8_b_2k7ysdmi2lmg2lhzinuminmg2lhyr9mhlm1wmw.mp3",
+        "at": "2026-10-13T13:17:19Z",
+        "t": "داستان کوتاه طنز | خروس روی نرده| دیوید سدرایس"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75745101/utf_8_b_2kjyudivinin2lig2yxzhidyqtqp2lhyp9ixinqp2yyubxaz.mp3",
+        "at": "2026-10-13T06:45:36Z",
+        "t": "داستان کوتاه طنز| بعد از من تکرار کن"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75726668/utf_8_b_2b7yp9um2kfzhidysdin2kjyt9mhini52kfytnmc2kfzhtmhlm1wmw.mp3",
+        "at": "2026-10-12T11:37:49Z",
+        "t": "داستان کوتاه طنز| پایان رابطه‌ی عاشقانه| دیوید سدرایس"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75726623/utf_8_b_2klystmf2kfbjni0iniu2yjzhi5tcdm.mp3",
+        "at": "2026-10-12T11:35:06Z",
+        "t": "داستان کوتاه طنز|آزمایش خون | دیوید سدرایس"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75702193/utf_8_b_2k_yrtiq2leg2k7yp9mg2ycg2qnzhtin2lhbjc5tcdm.mp3",
+        "at": "2026-10-11T18:11:57Z",
+        "t": "داستان کوتاه طنز | دختر خانه‌ی کناری"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75687088/utf_8_b_2kfysdio2kfyqcdystin2lrzhydzhti024zzhidzh9inlm1wmw.mp3",
+        "at": "2026-10-10T12:40:18Z",
+        "t": "داستان کوتاه طنز| ارباب زاغه نشین‌ها|دیوید سدرایس"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75687059/utf_8_b_2yfyrnix2koubxaz.mp3",
+        "at": "2026-10-10T12:32:38Z",
+        "t": "داستان کوتاه طنز|هجرت|دیوید سدرایس"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75671663/utf_8_b_2kryutum24zysduminiv2leg2yxzhi5tcdm.mp3",
+        "at": "2026-10-09T18:15:37Z",
+        "t": "داستان کوتاه طنز| تغییری در من"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-13T13:17:19Z",
+        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-khrws-rwy-nrdh-dywyd-sdrays--75754212",
+        "title": "داستان کوتاه طنز | خروس روی نرده| دیوید سدرایس"
+      },
+      {
+        "at": "2026-10-13T06:45:36Z",
+        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-b-d-az-mn-tkrar-kn--75745101",
+        "title": "داستان کوتاه طنز| بعد از من تکرار کن"
+      },
+      {
+        "at": "2026-10-12T11:37:49Z",
+        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-payan-rabth-y-ashqanh-dywyd-sdrays--75726668",
+        "title": "داستان کوتاه طنز| پایان رابطه‌ی عاشقانه| دیوید سدرایس"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      30,
+      22,
+      23
+    ],
+    "status": "active"
+  },
   "dastan-baz-rman-hai-fantzi": {
     "avg_length": 11,
     "episodes": 96,
@@ -3494,6 +3584,96 @@
     ],
     "status": "active"
   },
+  "hmsfr": {
+    "avg_gap_days": 30.8,
+    "avg_length": 57,
+    "episodes": 69,
+    "eps_365": 12,
+    "eps_90": 5,
+    "first_at": "2023-06-27",
+    "first_year": 1402,
+    "last": "1405/07/06",
+    "last_at": "2026-09-28T11:46:12Z",
+    "last_link": "https://shows.acast.com/hamsafar/episodes/6aba538558bacc11cbb671e8",
+    "last_title": "داستان زندگی دختری که سفر و نجوم رو هنرمندانه با هم ترکیب کرده",
+    "max_length": 104,
+    "median_length": 55,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67371180ba4404855a74dd08/e/6aba538558bacc11cbb671e8/media.mp3",
+        "at": "2026-09-28T11:46:12Z",
+        "t": "داستان زندگی دختری که سفر و نجوم رو هنرمندانه با هم ترکیب کرده"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67371180ba4404855a74dd08/e/6a9ea21d89f0f48b88dce0c4/media.mp3",
+        "at": "2026-09-07T15:49:00Z",
+        "t": "اپیزود ۸۲ | داستان پسری که سفر، زندگیش رو به طور کلی دگرگون کرد"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67371180ba4404855a74dd08/e/6a8c66e32fe0b9d0780577f7/media.mp3",
+        "at": "2026-08-24T15:50:00Z",
+        "t": "اپیزود ۸۱ | تغییر مسیر از دنیای مهندسی تا دنیای پادکست و روانشناسی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67371180ba4404855a74dd08/e/6a70b9dc2031aa1a28e7d578/media.mp3",
+        "at": "2026-08-03T15:55:07Z",
+        "t": "اپیزود ۸۰ | سفر ایران به اندونزی با دوچرخه"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67371180ba4404855a74dd08/e/6a5e404dc8941e69917483e7/media.mp3",
+        "at": "2026-07-20T15:35:40Z",
+        "t": "آن‌سوی سوگ | گفتگویی در مورد زندگی پس از جنگ با هوری رحیمی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67371180ba4404855a74dd08/e/6a42349f26d5a6687a67d206/media.mp3",
+        "at": "2026-06-29T09:20:15Z",
+        "t": "اپیزود ۷۸ | ۶ قدم برای تغییر آگاهانه‌ی مسیر شغلی و‌حرفه‌ای"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67371180ba4404855a74dd08/e/6a379a4de88c52614e98691f/media.mp3",
+        "at": "2026-06-22T16:11:40Z",
+        "t": "اپیزود ۷۷ | داستان زندگی دختری که بعد از هر شکست قوی‌تر بلند شد و ادامه داد"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67371180ba4404855a74dd08/e/693c1a232bda36b3534267c5/media.mp3",
+        "at": "2025-12-12T14:48:00Z",
+        "t": "فصل ۵ اپیزود ۴ | سَفــــرِ بی‌بازگشت (قسمت سوم و آخر‌) ( مهمان : ملیکا بُکایی)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-28T11:46:12Z",
+        "link": "https://shows.acast.com/hamsafar/episodes/6aba538558bacc11cbb671e8",
+        "title": "داستان زندگی دختری که سفر و نجوم رو هنرمندانه با هم ترکیب کرده"
+      },
+      {
+        "at": "2026-09-07T15:49:00Z",
+        "link": "https://shows.acast.com/hamsafar/episodes/6a9ea21d89f0f48b88dce0c4",
+        "title": "اپیزود ۸۲ | داستان پسری که سفر، زندگیش رو به طور کلی دگرگون کرد"
+      },
+      {
+        "at": "2026-08-24T15:50:00Z",
+        "link": "https://shows.acast.com/hamsafar/episodes/6a8c66e32fe0b9d0780577f7",
+        "title": "اپیزود ۸۱ | تغییر مسیر از دنیای مهندسی تا دنیای پادکست و روانشناسی"
+      }
+    ],
+    "recent_30d": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      1
+    ],
+    "status": "active"
+  },
   "ismcast": {
     "avg_gap_days": 11.4,
     "avg_length": 29,
@@ -4614,6 +4794,96 @@
     ],
     "status": "active"
   },
+  "ktab-bazi-orast": {
+    "avg_gap_days": 0.5,
+    "avg_length": 7,
+    "episodes": 72,
+    "eps_365": 7,
+    "eps_90": 0,
+    "first_at": "2025-04-12",
+    "first_year": 1404,
+    "last": "1404/07/30",
+    "last_at": "2025-10-22T09:55:15Z",
+    "last_link": "https://shows.acast.com/baziverasat/episodes/baziverasat72",
+    "last_title": "کتاب بازی وراثت- فصل 72 (معمایی)",
+    "max_length": 16,
+    "median_length": 8,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67fa3495d67315f9f43af138/e/68f8aa05af22931d80df32e7/media.mp3",
+        "at": "2025-10-22T09:55:15Z",
+        "t": "کتاب بازی وراثت- فصل 72 (معمایی)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67fa3495d67315f9f43af138/e/68f8a9ac53978989ad4248eb/media.mp3",
+        "at": "2025-10-22T09:53:46Z",
+        "t": "کتاب بازی وراثت- فصل هفتاد و یکم (معمایی)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67fa3495d67315f9f43af138/e/68f8a91f237885ef409e9f34/media.mp3",
+        "at": "2025-10-22T09:51:26Z",
+        "t": "کتاب بازی وراثت- فصل هفتادم (معمایی)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67fa3495d67315f9f43af138/e/68f8a86553978989ad41c01f/media.mp3",
+        "at": "2025-10-22T09:48:19Z",
+        "t": "کتاب بازی وراثت- فصل شصت و نهم (معمایی)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67fa3495d67315f9f43af138/e/68f4aabc842e1823ccc990d9/media.mp3",
+        "at": "2025-10-19T09:09:16Z",
+        "t": "کتاب بازی وراثت- فصل شصت و هشتم (معمایی)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67fa3495d67315f9f43af138/e/68f4aa414c07b133bf440d8c/media.mp3",
+        "at": "2025-10-19T09:07:13Z",
+        "t": "کتاب بازی وراثت- فصل شصت و هفتم (معمایی)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67fa3495d67315f9f43af138/e/68f4a9b859323046cae07759/media.mp3",
+        "at": "2025-10-19T09:04:56Z",
+        "t": "کتاب بازی وراثت- فصل شصت و ششم (معمایی)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67fa3495d67315f9f43af138/e/68eba56e1a16230b5fb42306/media.mp3",
+        "at": "2025-10-12T12:56:14Z",
+        "t": "کتاب بازی وراثت- فصل شصت و پنجم (معمایی)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-10-22T09:55:15Z",
+        "link": "https://shows.acast.com/baziverasat/episodes/baziverasat72",
+        "title": "کتاب بازی وراثت- فصل 72 (معمایی)"
+      },
+      {
+        "at": "2025-10-22T09:53:46Z",
+        "link": "https://vavkhan.com/book/2611",
+        "title": "کتاب بازی وراثت- فصل هفتاد و یکم (معمایی)"
+      },
+      {
+        "at": "2025-10-22T09:51:26Z",
+        "link": "https://vavkhan.com/book/2611",
+        "title": "کتاب بازی وراثت- فصل هفتادم (معمایی)"
+      }
+    ],
+    "recent_30d": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "ktab-soti": {
     "avg_length": 21,
     "episodes": 92,
@@ -4970,6 +5240,95 @@
       1
     ],
     "status": "active"
+  },
+  "literature-with-dr-karimi-hakkak-adbiat-ba-dktr-krimi-hkak": {
+    "avg_length": 16,
+    "episodes": 70,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2005-06-24",
+    "first_year": 1384,
+    "last": "1398/12/20",
+    "last_at": "2020-03-10T04:57:00Z",
+    "last_link": "https://radioiranshahr.org/item/persian-literature-mythological-characters-part-3-mahmoud-and-ayaz/?la=fa",
+    "last_title": "شخصیت های اساطیری ادبیات فارسی-قسمت  سوم \"محمود و ایاز\"",
+    "max_length": 25,
+    "median_length": 16,
+    "min_length": 5,
+    "play": [
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/Ayaz-final.mp3",
+        "at": "2020-03-10T04:57:00Z",
+        "t": "شخصیت های اساطیری ادبیات فارسی-قسمت  سوم \"محمود و ایاز\""
+      },
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/YajoojMajooj-final-2.mp3",
+        "at": "2020-02-11T00:10:18Z",
+        "t": "شخصیت های اساطیری ادبیات فارسی- قسمت دوم\"یأجوج و مأجوج\""
+      },
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/KH_khezr_moosawith-music.mp3",
+        "at": "2020-01-28T20:18:08Z",
+        "t": "شخصیت های اساطیری ادبیات فارسی- قسمت اول\"موسی و خضر\""
+      },
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/Happines.DR_.Karimipart.1.mp3",
+        "at": "2019-02-28T07:19:25Z",
+        "t": "«کوکب هدایت - از زیبایی تا خوشبختی»- بخش نخست"
+      },
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/Program-428-Third-part-Final.mp3",
+        "at": "2018-09-18T04:42:59Z",
+        "t": "گفتارى كوتاه در مورد ايرج ميرزا، شاعر معاصر"
+      },
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/karimi_shamlou2.mp3",
+        "at": "2018-09-10T02:15:14Z",
+        "t": "سخنرانی دکتر کریمی حکاک در مورد احمد شاملو (بخش دوم)"
+      },
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/karimi_shamlou1.mp3",
+        "at": "2018-09-03T00:54:14Z",
+        "t": "سخنرانی دکتر کریمی حکاک در مورد احمد شاملو (بخش نخست)"
+      },
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/hakak.mp3",
+        "at": "2018-08-12T20:15:39Z",
+        "t": "مصاحبه با دکتر احمد کریمی حکاک در حاشیه جشنواره ایرانیان سیاتل ۲۰۱۸"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-03-10T04:57:00Z",
+        "link": "https://radioiranshahr.org/item/persian-literature-mythological-characters-part-3-mahmoud-and-ayaz/?la=fa",
+        "title": "شخصیت های اساطیری ادبیات فارسی-قسمت  سوم \"محمود و ایاز\""
+      },
+      {
+        "at": "2020-02-11T00:10:18Z",
+        "link": "https://radioiranshahr.org/item/persian-literature-mythological-characters-part-2-gog-magog/?la=fa",
+        "title": "شخصیت های اساطیری ادبیات فارسی- قسمت دوم\"یأجوج و مأجوج\""
+      },
+      {
+        "at": "2020-01-28T20:18:08Z",
+        "link": "https://radioiranshahr.org/item/persian-literature-mythological-characters-part-one/?la=fa",
+        "title": "شخصیت های اساطیری ادبیات فارسی- قسمت اول\"موسی و خضر\""
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "lzt-dniai-ktab": {
     "avg_length": 21,
@@ -5418,6 +5777,95 @@
     ],
     "status": "active"
   },
+  "msir-slamt": {
+    "avg_length": 15,
+    "episodes": 70,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2022-01-18",
+    "first_year": 1400,
+    "last": "1401/01/06",
+    "last_at": "2022-03-26T09:54:33Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/masirsalamat/episodes/ep-e1g9epi",
+    "last_title": "چگونه از سکته قلبی پیشگیری کنیم",
+    "max_length": 16,
+    "median_length": 15,
+    "min_length": 11,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/7e65daf0/podcast/play/49641714/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-26%2F8b2f4fd3-ada9-6381-dbbe-6d648ca184e0.mp3",
+        "at": "2022-03-26T09:54:33Z",
+        "t": "چگونه از سکته قلبی پیشگیری کنیم"
+      },
+      {
+        "a": "https://anchor.fm/s/7e65daf0/podcast/play/49641690/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-26%2F41f997bf-9274-7697-4c71-9c206968a4c2.mp3",
+        "at": "2022-03-26T09:53:17Z",
+        "t": "چگونه قلب سالمی داشته باشیم"
+      },
+      {
+        "a": "https://anchor.fm/s/7e65daf0/podcast/play/49641641/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-26%2F8d18fdc8-5daa-c473-45b7-4c8e05d26fa9.mp3",
+        "at": "2022-03-26T09:50:32Z",
+        "t": "چه کار کنیم به فشار خون مبتلا نشویم"
+      },
+      {
+        "a": "https://anchor.fm/s/7e65daf0/podcast/play/49641623/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-26%2Fde3f41fc-9996-43bd-d6ed-e35abdb07033.mp3",
+        "at": "2022-03-26T09:48:26Z",
+        "t": "چگونه فشار خون را کنترل کنیم قسمت دوم"
+      },
+      {
+        "a": "https://anchor.fm/s/7e65daf0/podcast/play/49641567/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-26%2F9fdcc29e-fee7-980c-131e-6764f3b77711.mp3",
+        "at": "2022-03-26T09:47:19Z",
+        "t": "چگونه فشار خون را کنترل کنیم قسمت اول"
+      },
+      {
+        "a": "https://anchor.fm/s/7e65daf0/podcast/play/46481025/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-21%2Fb6b51d85-257c-b927-3cc3-af8d684a3639.mp3",
+        "at": "2022-01-21T17:01:39Z",
+        "t": "مشاوره های قبل از بارداری قسمت چهارم"
+      },
+      {
+        "a": "https://anchor.fm/s/7e65daf0/podcast/play/46480970/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-21%2F124f61d4-1cc2-b9e2-3b5c-fb5f5db80c0a.mp3",
+        "at": "2022-01-21T17:00:22Z",
+        "t": "مشاوره های قبل از بارداری قسمت سوم"
+      },
+      {
+        "a": "https://anchor.fm/s/7e65daf0/podcast/play/46480902/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-21%2F3cbb6d54-0692-4c53-4708-df5780583498.mp3",
+        "at": "2022-01-21T16:58:56Z",
+        "t": "مشاوره های قبل از بارداری قسمت دوم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-03-26T09:54:33Z",
+        "link": "https://podcasters.spotify.com/pod/show/masirsalamat/episodes/ep-e1g9epi",
+        "title": "چگونه از سکته قلبی پیشگیری کنیم"
+      },
+      {
+        "at": "2022-03-26T09:53:17Z",
+        "link": "https://podcasters.spotify.com/pod/show/masirsalamat/episodes/ep-e1g9eoq",
+        "title": "چگونه قلب سالمی داشته باشیم"
+      },
+      {
+        "at": "2022-03-26T09:50:32Z",
+        "link": "https://podcasters.spotify.com/pod/show/masirsalamat/episodes/ep-e1g9en9",
+        "title": "چه کار کنیم به فشار خون مبتلا نشویم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "naaji": {
     "avg_gap_days": 7.2,
     "avg_length": 37,
@@ -5837,6 +6285,96 @@
       3,
       2,
       0,
+      0
+    ],
+    "status": "active"
+  },
+  "parseh-podcast-padkst-prsh": {
+    "avg_gap_days": 12.3,
+    "avg_length": 58,
+    "episodes": 75,
+    "eps_365": 21,
+    "eps_90": 4,
+    "first_at": "2020-07-17",
+    "first_year": 1399,
+    "last": "1405/06/05",
+    "last_at": "2026-08-27T15:30:00Z",
+    "last_link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/64-limits-of-justice-iii",
+    "last_title": "64- Limits of Justice III (حدود عدالت ۳)",
+    "max_length": 103,
+    "median_length": 52,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a8ff2e66cdb05b8913f63a2/media.mp3",
+        "at": "2026-08-27T15:30:00Z",
+        "t": "64- Limits of Justice III (حدود عدالت ۳)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a85b1b11ad8716bb6161dbc/media.mp3",
+        "at": "2026-08-20T16:30:00Z",
+        "t": "63- Limits of Justice II (حدود عدالت ۲)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a7dc11c9d73968d6940d9bc/media.mp3",
+        "at": "2026-08-13T17:30:00Z",
+        "t": "62- Limits of Justice I (حدود عدالت ۱)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a6cb623c826d9d5c9b06337/media.mp3",
+        "at": "2026-07-31T14:50:11Z",
+        "t": "61 - Parseh Live (اجرای زنده پادکست پرسه)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a3553c66f90df4cb715b458/media.mp3",
+        "at": "2026-06-19T16:30:00Z",
+        "t": "60 - Portrait of a Defeat VII (شمایل یک شکست 7)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a285c51c022d9c4fe23798d/media.mp3",
+        "at": "2026-06-12T17:00:00Z",
+        "t": "59- شمایل یک شکست قسمت ششم (نسخه کم‌حجک)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a28442f427484b4a44a9861/media.mp3",
+        "at": "2026-06-12T16:30:00Z",
+        "t": "59- Portrait of a Defeat VI (شمایل یک شکست ۶)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a228590ac951431d7b1d2be/media.mp3",
+        "at": "2026-06-05T16:30:00Z",
+        "t": "58 - شمایل یک شکست قسمت پنجم (نسخه کم‌حجم)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-08-27T15:30:00Z",
+        "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/64-limits-of-justice-iii",
+        "title": "64- Limits of Justice III (حدود عدالت ۳)"
+      },
+      {
+        "at": "2026-08-20T16:30:00Z",
+        "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/63-limits-of-justice-ii",
+        "title": "63- Limits of Justice II (حدود عدالت ۲)"
+      },
+      {
+        "at": "2026-08-13T17:30:00Z",
+        "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/62-limits-of-justice-i",
+        "title": "62- Limits of Justice I (حدود عدالت ۱)"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      3,
+      1,
+      0,
+      0,
+      4,
+      8,
+      1,
+      2,
+      2,
       0
     ],
     "status": "active"
@@ -6566,6 +7104,96 @@
     ],
     "status": "active"
   },
+  "podcast-farsi-ansank": {
+    "avg_gap_days": 41.0,
+    "avg_length": 37,
+    "episodes": 69,
+    "eps_365": 6,
+    "eps_90": 1,
+    "first_at": "2020-03-07",
+    "first_year": 1398,
+    "last": "1405/06/03",
+    "last_at": "2026-08-25T07:38:15Z",
+    "last_link": "https://shenoto.com/album/podcast/1878015/شصت و سه: گُستار عمل",
+    "last_title": "شصت و سه: گُستار عمل",
+    "max_length": 86,
+    "median_length": 34,
+    "min_length": 8,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/961d7041-a05a-11f1-afe3-fe131d34812e.mp3",
+        "at": "2026-08-25T07:38:15Z",
+        "t": "شصت و سه: گُستار عمل"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/f8cb78dc-542d-11f1-a697-5e49d4b26530.mp3",
+        "at": "2026-05-20T08:35:24Z",
+        "t": "اپیزود شصت‌ودوم - روش روشن"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/af4201a5-52c0-11f1-8786-3a90677cf244.mp3",
+        "at": "2026-05-18T01:35:35Z",
+        "t": "اپیزود شصت و یک - ادبیاتِ اندیشه"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/ca5b42df-4959-11f1-804c-aa0980a3b92e.mp3",
+        "at": "2026-05-06T02:35:22Z",
+        "t": "اپیزود شصت - خیال مشترک"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/3f59dd25-4143-11f1-81a0-2ee478c333cf.mp3",
+        "at": "2026-04-26T07:34:50Z",
+        "t": "پنجاه و نه - دکترین میناب"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/e088ed6e-ff8e-11f0-b314-0242ac120014.mp3",
+        "at": "2026-02-01T04:32:56Z",
+        "t": "پنجاه و هشت: پنجه شر"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/90b91606-85be-11f0-b314-0242ac120014.mp3",
+        "at": "2025-08-30T03:38:56Z",
+        "t": "پنجاه و هفت: سال‌بلعیدگی ۳"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/591c163f-581b-11f0-b314-0242ac120014.mp3",
+        "at": "2025-07-03T02:37:13Z",
+        "t": "پنجاه و شش: مراقبت - مقاومت"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-08-25T07:38:15Z",
+        "link": "https://shenoto.com/album/podcast/1878015/شصت و سه: گُستار عمل",
+        "title": "شصت و سه: گُستار عمل"
+      },
+      {
+        "at": "2026-05-20T08:35:24Z",
+        "link": "https://shenoto.com/album/podcast/1790167/اپیزود شصت‌ودوم - روش روشن",
+        "title": "اپیزود شصت‌ودوم - روش روشن"
+      },
+      {
+        "at": "2026-05-18T01:35:35Z",
+        "link": "https://shenoto.com/album/podcast/1781640/اپیزود شصت و یک - ادبیاتِ اندیشه",
+        "title": "اپیزود شصت و یک - ادبیاتِ اندیشه"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      3,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "status": "active"
+  },
   "podcast-farsi-fikshn-fiction-podcast": {
     "avg_gap_days": 14.9,
     "avg_length": 42,
@@ -6832,6 +7460,96 @@
       8,
       2,
       0
+    ],
+    "status": "active"
+  },
+  "podcast-farsi-radio-mrz": {
+    "avg_gap_days": 39.6,
+    "avg_length": 184,
+    "episodes": 91,
+    "eps_365": 10,
+    "eps_90": 4,
+    "first_at": "2018-07-08",
+    "first_year": 1397,
+    "last": "1405/07/18",
+    "last_at": "2026-10-10T03:30:00Z",
+    "last_link": "https://shows.acast.com/radio-marz-or/episodes/6ac5564029b9fbfbe20ce84f",
+    "last_title": "رادیو مرز ۹۲ - پریود",
+    "max_length": 259,
+    "median_length": 135,
+    "min_length": 31,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/6ac5564029b9fbfbe20ce84f/media.mp3",
+        "at": "2026-10-10T03:30:00Z",
+        "t": "رادیو مرز ۹۲ - پریود"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/6aa932265d36baebf19a133d/media.mp3",
+        "at": "2026-09-15T11:55:16Z",
+        "t": "رادیو مرز ۹۱ - تعدیل"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/6a7f313cf8e81c4395f0cc47/media.mp3",
+        "at": "2026-08-15T03:30:00Z",
+        "t": "رادیو مرز ۹۰ - آزار آنلاین زنان"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/6a5b3976a87bf583f42fe8db/media.mp3",
+        "at": "2026-07-18T08:29:39Z",
+        "t": "رادیو مرز ۸۹ - مردانگی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/6a3117b4819571ef975c1a1a/media.mp3",
+        "at": "2026-06-16T09:29:58Z",
+        "t": "رادیو مرز ۸۸ - بیگانگی سیاسی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/6a0b6c32cdab12b21caa26dd/media.mp3",
+        "at": "2026-05-18T19:44:49Z",
+        "t": "رادیو مرز ۸۷ - کمک رساندن"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/699592fbc4b7a0510ca17d73/media.mp3",
+        "at": "2026-02-18T10:22:50Z",
+        "t": "رادیو مرز ۸۶ - دوام آوردن"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/69334b80a63c6eaa59825114/media.mp3",
+        "at": "2025-12-06T03:30:00Z",
+        "t": "رادیو مرز ۸۵ - والدین آزارگر"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-10T03:30:00Z",
+        "link": "https://shows.acast.com/radio-marz-or/episodes/6ac5564029b9fbfbe20ce84f",
+        "title": "رادیو مرز ۹۲ - پریود"
+      },
+      {
+        "at": "2026-09-15T11:55:16Z",
+        "link": "https://shows.acast.com/radio-marz-or/episodes/6aa932265d36baebf19a133d",
+        "title": "رادیو مرز ۹۱ - تعدیل"
+      },
+      {
+        "at": "2026-08-15T03:30:00Z",
+        "link": "https://shows.acast.com/radio-marz-or/episodes/6a7f313cf8e81c4395f0cc47",
+        "title": "رادیو مرز ۹۰ - آزار آنلاین زنان"
+      }
+    ],
+    "recent_30d": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0,
+      2
     ],
     "status": "active"
   },
@@ -7643,6 +8361,185 @@
     ],
     "status": "active"
   },
+  "podcast-mi-khoansh-hkmt-zndgi-shopnhaor": {
+    "avg_gap_days": 19.4,
+    "avg_length": 26,
+    "episodes": 76,
+    "eps_365": 19,
+    "eps_90": 10,
+    "first_at": "2021-03-16",
+    "first_year": 1399,
+    "last": "1405/07/10",
+    "last_at": "2026-10-02T15:10:02Z",
+    "last_link": "http://www.mey.ir",
+    "last_title": "جرعه 76● آبروی جنسی",
+    "max_length": 41,
+    "median_length": 24,
+    "min_length": 11,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6317151cfc93be00120e143a/e/6abfc84852f9e4485f0a1a46/media.mp3",
+        "at": "2026-10-02T15:10:02Z",
+        "t": "جرعه 76● آبروی جنسی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6317151cfc93be00120e143a/e/6ab63c6762a47b6becffb5df/media.mp3",
+        "at": "2026-09-25T09:18:30Z",
+        "t": "جرعه 75 ● آبرو در شهر و شغل"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6317151cfc93be00120e143a/e/6aa50966a6e9aef4cc229b3a/media.mp3",
+        "at": "2026-09-12T08:12:21Z",
+        "t": "جرعه 74 ● اعتبار و برند شخصی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6317151cfc93be00120e143a/e/6a9ad4ff0c727006154ec89d/media.mp3",
+        "at": "2026-09-04T14:26:07Z",
+        "t": "جرعه 73 ● بنیانِ نظریِ آبرو"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6317151cfc93be00120e143a/e/6a912eb1ee851f3f31159b71/media.mp3",
+        "at": "2026-08-28T06:46:07Z",
+        "t": "جرعه 72 ● در ابتذالِ غرورِ ملی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6317151cfc93be00120e143a/e/6a80481cf8e81c439536d782/media.mp3",
+        "at": "2026-08-15T11:20:54Z",
+        "t": "جرعه 71 ● بزرگ‌منشی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6317151cfc93be00120e143a/e/6a75931e2578a0c7e23e5152/media.mp3",
+        "at": "2026-08-07T08:11:10Z",
+        "t": "جرعه 70 ● مزایای انزوا (2)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6317151cfc93be00120e143a/e/6a6c91d4c826d9d5c9a12fab/media.mp3",
+        "at": "2026-07-31T12:20:39Z",
+        "t": "جرعه 69 ● مزایای انزوا (1)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-02T15:10:02Z",
+        "link": "http://www.mey.ir",
+        "title": "جرعه 76● آبروی جنسی"
+      },
+      {
+        "at": "2026-09-25T09:18:30Z",
+        "link": "https://mey.ir",
+        "title": "جرعه 75 ● آبرو در شهر و شغل"
+      },
+      {
+        "at": "2026-09-12T08:12:21Z",
+        "link": "https://mey.ir/",
+        "title": "جرعه 74 ● اعتبار و برند شخصی"
+      }
+    ],
+    "recent_30d": [
+      4,
+      3,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      5,
+      3,
+      2
+    ],
+    "status": "active"
+  },
+  "podcast-mshaorh-dktr-fhimh-rzaii": {
+    "avg_length": 2,
+    "episodes": 72,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-06-13",
+    "first_year": 1400,
+    "last": "1400/12/11",
+    "last_at": "2022-03-02T15:25:26Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/drfahimeh-rezaei/episodes/ep-e1f4o99",
+    "last_title": "چگونه از خیانت در زندگی مشترک خود پیشگیری کنیم",
+    "max_length": 9,
+    "median_length": 2,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/5f8f38c4/podcast/play/48439017/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-2%2F318c54b2-bd7a-829f-be29-9620db4492eb.mp3",
+        "at": "2022-03-02T15:25:26Z",
+        "t": "چگونه از خیانت در زندگی مشترک خود پیشگیری کنیم"
+      },
+      {
+        "a": "https://anchor.fm/s/5f8f38c4/podcast/play/47985198/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-21%2F47249ebb-9dd5-9fb1-0c1b-cd17c1bb8219.mp3",
+        "at": "2022-02-21T15:23:11Z",
+        "t": "پادکست مشاوره با موضوع عواقب شرمگین کردن فرزندان"
+      },
+      {
+        "a": "https://anchor.fm/s/5f8f38c4/podcast/play/47365834/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-8%2F2e6fc946-0c7a-d1e1-0701-905389bcbd67.mp3",
+        "at": "2022-02-08T14:12:08Z",
+        "t": "عشق یک طرفه | آیا عشق یک طرفه باعث حفظ رابطه می شود"
+      },
+      {
+        "a": "https://anchor.fm/s/5f8f38c4/podcast/play/46662414/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-25%2F9720de00-1908-3ddb-d93f-f78e090bca68.mp3",
+        "at": "2022-01-25T16:00:14Z",
+        "t": "آسیب‌های فضای مجازی برای کودکان"
+      },
+      {
+        "a": "https://anchor.fm/s/5f8f38c4/podcast/play/46051431/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-12%2F59542115-2521-7bd6-a3bf-f4b7ffd27d24.mp3",
+        "at": "2022-01-12T13:07:52Z",
+        "t": "پادکست مشاوره | چرا برخی مردان تمایل دارند با زنان با سن بسیار بالا ازدواج کنند"
+      },
+      {
+        "a": "https://anchor.fm/s/5f8f38c4/podcast/play/45675822/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-4%2F8fedd80e-fbc5-a276-1c5a-9f3d65e28334.mp3",
+        "at": "2022-01-04T12:59:58Z",
+        "t": "پادکست مشاوره روانشناسی ، نقاط کور رفتار افراد چگونه مشخص می شود"
+      },
+      {
+        "a": "https://anchor.fm/s/5f8f38c4/podcast/play/45405044/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-28%2F17f3d37b-55e4-0e5d-b06d-9e172c124eb7.mp3",
+        "at": "2021-12-28T13:34:42Z",
+        "t": "پادکست مشاوره | استرس مزمن و تاثیر آن بر مغز و عملکرد آن"
+      },
+      {
+        "a": "https://anchor.fm/s/5f8f38c4/podcast/play/45403742/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-28%2F4ef2f9a7-a207-f135-5c3e-d8cf41ed6bd4.mp3",
+        "at": "2021-12-28T12:36:09Z",
+        "t": "پادکست مشاوره | ادامه زندگی با همسر بداخلاق"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-03-02T15:25:26Z",
+        "link": "https://podcasters.spotify.com/pod/show/drfahimeh-rezaei/episodes/ep-e1f4o99",
+        "title": "چگونه از خیانت در زندگی مشترک خود پیشگیری کنیم"
+      },
+      {
+        "at": "2022-02-21T15:23:11Z",
+        "link": "https://podcasters.spotify.com/pod/show/drfahimeh-rezaei/episodes/ep-e1emt3e",
+        "title": "پادکست مشاوره با موضوع عواقب شرمگین کردن فرزندان"
+      },
+      {
+        "at": "2022-02-08T14:12:08Z",
+        "link": "https://podcasters.spotify.com/pod/show/drfahimeh-rezaei/episodes/ep-e1e408a",
+        "title": "عشق یک طرفه | آیا عشق یک طرفه باعث حفظ رابطه می شود"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "podcast-prchm-sfid": {
     "avg_gap_days": 6.3,
     "avg_length": 40,
@@ -7821,6 +8718,96 @@
       0
     ],
     "status": "inactive"
+  },
+  "podcast-raokdh": {
+    "avg_gap_days": 28.9,
+    "avg_length": 67,
+    "episodes": 69,
+    "eps_365": 12,
+    "eps_90": 5,
+    "first_at": "2021-06-04",
+    "first_year": 1400,
+    "last": "1405/07/05",
+    "last_at": "2026-09-27T02:10:00Z",
+    "last_link": "https://ravkadeh.ir/e/episode70",
+    "last_title": "مرد امیرخیز (1) | داستان زندگی ستارخان قراچه داغی",
+    "max_length": 96,
+    "median_length": 60,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/6ab5464cc974afb15416d183/media.mp3",
+        "at": "2026-09-27T02:10:00Z",
+        "t": "مرد امیرخیز (1) | داستان زندگی ستارخان قراچه داغی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/6aaa696efca3d5c77baacf5f/media.mp3",
+        "at": "2026-09-19T02:10:00Z",
+        "t": "معمار تبعیدی | داستان زندگی و سرنوشت مسعود رجوی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/6a7eeb2983128ee3d238f786/media.mp3",
+        "at": "2026-09-09T02:10:00Z",
+        "t": "باغبان رنج (2) | داستان زندگی میرزا جبار باغچه بان"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/6a7ee8826e5b5bfda66e90d5/media.mp3",
+        "at": "2026-08-17T02:10:00Z",
+        "t": "باغبان رنج (1) | داستان زندگی میرزا جبار باغچه بان"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/6a69e26cfdc89d3427cbcf23/media.mp3",
+        "at": "2026-08-01T02:10:00Z",
+        "t": "مسافر جنون | داستان زندگی و فروپاشی فریدریش ویلهلم نیچه"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/6a48dc5c5ef16cb8045bca31/media.mp3",
+        "at": "2026-07-07T02:10:00Z",
+        "t": "فرجام فریدون | ماجرای سرنوشت فریدون شاه و پسرانش | سلم، تور، ایرج"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/6a229f8914e465e5ceae886a/media.mp3",
+        "at": "2026-06-08T02:10:00Z",
+        "t": "شیرازی بی نام | داستان زندگی سیمین دانشور"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/69985eaf166f176858c2a3c6/media.mp3",
+        "at": "2026-02-23T02:10:00Z",
+        "t": "ادیب سیاستمدار | داستان زندگی و فرجام محمدعلی فروغی (ذکاءالملک دوم)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-27T02:10:00Z",
+        "link": "https://ravkadeh.ir/e/episode70",
+        "title": "مرد امیرخیز (1) | داستان زندگی ستارخان قراچه داغی"
+      },
+      {
+        "at": "2026-09-19T02:10:00Z",
+        "link": "https://ravkadeh.ir/e/episode69",
+        "title": "معمار تبعیدی | داستان زندگی و سرنوشت مسعود رجوی"
+      },
+      {
+        "at": "2026-09-09T02:10:00Z",
+        "link": "https://ravkadeh.ir/e/episode68",
+        "title": "باغبان رنج (2) | داستان زندگی میرزا جبار باغچه بان"
+      }
+    ],
+    "recent_30d": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      2
+    ],
+    "status": "active"
   },
   "podcast-rkh": {
     "avg_gap_days": 15.5,
@@ -8767,6 +9754,95 @@
     ],
     "status": "active"
   },
+  "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
+    "avg_length": 53,
+    "episodes": 77,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2023-05-06",
+    "first_year": 1402,
+    "last": "1402/03/21",
+    "last_at": "2023-06-11T20:13:10Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nazih--Hassan-Part-10-e25jccl",
+    "last_title": "Nazih, Hassan Part 10",
+    "max_length": 62,
+    "median_length": 48,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/71987029/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2Fe0e08694%2F71987029%2F284bdbc8e98b86392c49c9251cc994d7.m4a",
+        "at": "2023-06-11T20:13:10Z",
+        "t": "Nazih, Hassan Part 10"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/71986982/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2Fe0e08694%2F71986982%2F31647c840ce7b67276f473e50bbf1499.m4a",
+        "at": "2023-06-11T20:11:56Z",
+        "t": "Nazih, Hassan Part 9"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/71986630/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2Fe0e08694%2F71986630%2F60813ed54d3970764cf6608392c8acb7.m4a",
+        "at": "2023-06-11T20:05:25Z",
+        "t": "Nazih, Hassan Part 8"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/70317385/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2Fe0e08694%2F70317385%2F9ace7c364f1c4721a641c3ea36f2cd19.m4a",
+        "at": "2023-05-13T15:28:56Z",
+        "t": "Nazih, Hassan Part 7"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/70317146/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-13%2F329326300-44100-2-55563ec8ce464.m4a",
+        "at": "2023-05-13T15:20:20Z",
+        "t": "Nazih, Hassan Part 6"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/70317054/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2Fe0e08694%2F70317054%2Fb7d59a3f7c1f3eb23a79e1ea8a8b0d5a.m4a",
+        "at": "2023-05-13T15:16:23Z",
+        "t": "Nazih, Hassan Part 5"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/70316563/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2Fe0e08694%2F70316563%2F8b53e80912774a29c868a630bb88d7c3.m4a",
+        "at": "2023-05-13T15:00:48Z",
+        "t": "Nazih, Hassan Part 4"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/70271169/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-12%2F329187207-44100-2-c0fba57eacbf9.m4a",
+        "at": "2023-05-12T16:46:03Z",
+        "t": "Nazih, Hassan Part 3"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-06-11T20:13:10Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nazih--Hassan-Part-10-e25jccl",
+        "title": "Nazih, Hassan Part 10"
+      },
+      {
+        "at": "2023-06-11T20:11:56Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nazih--Hassan-Part-9-e25jcb6",
+        "title": "Nazih, Hassan Part 9"
+      },
+      {
+        "at": "2023-06-11T20:05:25Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nazih--Hassan-Part-8-e25jc06",
+        "title": "Nazih, Hassan Part 8"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "radio-439": {
     "avg_length": 33,
     "episodes": 112,
@@ -8855,6 +9931,95 @@
       0
     ],
     "status": "active"
+  },
+  "radio-aahng-sfr": {
+    "avg_length": 36,
+    "episodes": 69,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2017-06-29",
+    "first_year": 1396,
+    "last": "1398/03/09",
+    "last_at": "2019-05-30T05:35:48Z",
+    "last_link": "https://shenoto.com/album/podcast/28048/سفری به جنوبِ هند با نسیم کمپانی- اپیزود چهارم",
+    "last_title": "سفری به جنوبِ هند با نسیم کمپانی- اپیزود چهارم",
+    "max_length": 180,
+    "median_length": 24,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/ba45d327-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2019-05-30T05:35:48Z",
+        "t": "سفری به جنوبِ هند با نسیم کمپانی- اپیزود چهارم"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/ba3b99aa-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2019-04-24T03:34:32Z",
+        "t": "سفر به جنوبِ هند با نسیم کمپانی- اپیزود سوم"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/ba2b47cb-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2019-03-19T01:33:30Z",
+        "t": "نوروز کجا بریم؟"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/ba2ac173-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2019-03-18T02:33:46Z",
+        "t": "پادکست آخر، گزارشی از اختتامیه جشنواره دزفول‌گرام"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/ba29b530-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2019-03-14T07:33:15Z",
+        "t": "پادکست روز سوم جشنواره دزفول‌گرام/ دژپیل هنوز هم راز دارد"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/ba2975b2-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2019-03-13T05:33:23Z",
+        "t": "پادکست روز دوم جشنواره دزفول‌گرام/ دز، مظهر سخاوتمندی"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/ba2939c0-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2019-03-12T06:33:53Z",
+        "t": "پادکست روز اول جشنواره دزفول‌گرام/ استقبال دزفولی‌ها از جشنواره"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/ba2741f3-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2019-03-08T02:33:10Z",
+        "t": "جشنواره دزفول گرام از دید داوران"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2019-05-30T05:35:48Z",
+        "link": "https://shenoto.com/album/podcast/28048/سفری به جنوبِ هند با نسیم کمپانی- اپیزود چهارم",
+        "title": "سفری به جنوبِ هند با نسیم کمپانی- اپیزود چهارم"
+      },
+      {
+        "at": "2019-04-24T03:34:32Z",
+        "link": "https://shenoto.com/album/podcast/27609/سفر به جنوبِ هند با نسیم کمپانی- اپیزود سوم",
+        "title": "سفر به جنوبِ هند با نسیم کمپانی- اپیزود سوم"
+      },
+      {
+        "at": "2019-03-19T01:33:30Z",
+        "link": "https://shenoto.com/album/podcast/27237/نوروز کجا بریم؟",
+        "title": "نوروز کجا بریم؟"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "radio-astartap-360": {
     "avg_gap_days": 13.2,
@@ -9035,6 +10200,181 @@
       0
     ],
     "status": "active"
+  },
+  "radio-fikshn-dastan": {
+    "avg_gap_days": 30.0,
+    "avg_length": 40,
+    "episodes": 78,
+    "eps_365": 13,
+    "eps_90": 4,
+    "first_at": "2024-09-30",
+    "first_year": 1403,
+    "last": "1405/07/22",
+    "last_at": "2026-10-14T16:24:17Z",
+    "last_link": "https://www.spreaker.com/episode/shahzadh-y-khanh-nshyn-apyzwd-tnz--75790496",
+    "last_title": "شاهزاده ی خانه نشین - اپیزود طنز",
+    "max_length": 133,
+    "median_length": 26,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://api.spreaker.com/download/episode/75790496/media.mp3",
+        "at": "2026-10-14T16:24:17Z",
+        "t": "شاهزاده ی خانه نشین - اپیزود طنز"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/75121729/media.mp3",
+        "at": "2026-09-14T18:10:17Z",
+        "t": "نسل زد در آمریکا"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/74320109/media.mp3",
+        "at": "2026-08-19T14:34:11Z",
+        "t": "قصه های فرهنگ سازمانی به سبک رادیو فیکشن"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/73564185/media.mp3",
+        "at": "2026-08-06T14:37:37Z",
+        "t": "سرگیجه -تصمیمها و نوسان های سخت زندگی"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/72970622/media.mp3",
+        "at": "2026-07-14T15:25:45Z",
+        "t": "آخ! کتاب کودک  برای بزرگسالها؟"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/69219953/media.mp3",
+        "at": "2025-12-27T15:08:09Z",
+        "t": "برای این دسته از آدمها دلسوزی نکنید"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/69095682/media.mp3",
+        "at": "2025-12-17T12:10:03Z",
+        "t": "رازهایی درباره به دست آوردن ثروت و پول"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/68641154/media.mp3",
+        "at": "2025-11-19T14:58:16Z",
+        "t": "مرور کتاب- خوشبختی در راه است - آلیس مونرو"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-14T16:24:17Z",
+        "link": "https://www.spreaker.com/episode/shahzadh-y-khanh-nshyn-apyzwd-tnz--75790496",
+        "title": "شاهزاده ی خانه نشین - اپیزود طنز"
+      },
+      {
+        "at": "2026-09-14T18:10:17Z",
+        "link": "https://www.spreaker.com/episode/nsl-zd-dr-amryka--75121729",
+        "title": "نسل زد در آمریکا"
+      },
+      {
+        "at": "2026-08-19T14:34:11Z",
+        "link": "https://www.spreaker.com/episode/qsh-hay-frhng-sazmany-bh-sbk-radyw-fykshn--74320109",
+        "title": "قصه های فرهنگ سازمانی به سبک رادیو فیکشن"
+      }
+    ],
+    "recent_30d": [
+      4,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      1
+    ],
+    "status": "active"
+  },
+  "radio-fol-astk": {
+    "episodes": 78,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2016-01-07",
+    "first_year": 1394,
+    "last": "1401/01/18",
+    "last_at": "2022-04-07T07:45:00Z",
+    "last_link": "https://sokanacademy.com/podcast",
+    "last_title": "ایلیا وکیلی - مرشد بودن, مدیر ارشد رشد ابرآروان",
+    "play": [
+      {
+        "a": "https://sokanacademy.s3.ir-thr-at1.arvanstorage.ir/12427/ilia-vakili2-2.mpeg",
+        "at": "2022-04-07T07:45:00Z",
+        "t": "ایلیا وکیلی - مرشد بودن, مدیر ارشد رشد ابرآروان"
+      },
+      {
+        "a": "https://sokanacademy.s3.ir-thr-at1.arvanstorage.ir/12424/ilia-vakili1-2.mpeg",
+        "at": "2022-03-24T08:00:00Z",
+        "t": "ایلیا وکیلی - بیوگرافی و تجربه‌های شخصی, مدیر ارشد رشد ابرآروان"
+      },
+      {
+        "a": "https://sokanacademy.s3.ir-thr-at1.arvanstorage.ir/12423/meysam-alizadeh-3-3.mpeg",
+        "at": "2022-03-10T09:10:00Z",
+        "t": "دکتر میثم علیزاده - آشنایی با شرکت متدیتا, متخصص علوم اجتماعی محاسباتی"
+      },
+      {
+        "a": "https://sokanacademy.s3.ir-thr-at1.arvanstorage.ir/12422/meysam-alizadeh-2-3.mpeg",
+        "at": "2022-02-26T15:09:45Z",
+        "t": "دکتر میثم علیزاده - آشنایی با علوم اجتماعی محاسباتی, متخصص علوم اجتماعی محاسباتی"
+      },
+      {
+        "a": "https://sokanacademy.s3.ir-thr-at1.arvanstorage.ir/12418/meysam-alizadeh-1-3.mpeg",
+        "at": "2022-01-30T12:29:59Z",
+        "t": "دکتر میثم علیزاده - بیوگرافی و تجربه‌های شخصی, متخصص علوم اجتماعی محاسباتی"
+      },
+      {
+        "a": "https://sokanacademy.s3.ir-thr-at1.arvanstorage.ir/12407/golnaz-taheri.mpeg",
+        "at": "2021-12-19T09:08:58Z",
+        "t": "دکتر گلناز طاهری, متخصص علوم داده"
+      },
+      {
+        "a": "https://sokanacademy.s3.ir-thr-at1.arvanstorage.ir/12382/amir-azimi.mpeg",
+        "at": "2021-11-17T15:56:17Z",
+        "t": "امیر عظیمی, موسس وب سایت آموزشی پارس کلیک"
+      },
+      {
+        "a": "https://sokanacademy.s3.ir-thr-at1.arvanstorage.ir/12377/dr-reza-kalantarinejad.mpeg",
+        "at": "2021-10-20T16:08:47Z",
+        "t": "دکتر رضا کلانتری نژاد, هم بنیانگذار و مدیرعامل کارخانه نوآوری هم آوا (آزادی)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-04-07T07:45:00Z",
+        "link": "https://sokanacademy.com/podcast",
+        "title": "ایلیا وکیلی - مرشد بودن, مدیر ارشد رشد ابرآروان"
+      },
+      {
+        "at": "2022-03-24T08:00:00Z",
+        "link": "https://sokanacademy.com/podcast",
+        "title": "ایلیا وکیلی - بیوگرافی و تجربه‌های شخصی, مدیر ارشد رشد ابرآروان"
+      },
+      {
+        "at": "2022-03-10T09:10:00Z",
+        "link": "https://sokanacademy.com/podcast",
+        "title": "دکتر میثم علیزاده - آشنایی با شرکت متدیتا, متخصص علوم اجتماعی محاسباتی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "radio-frdai-aghtsad": {
     "avg_length": 44,
@@ -9482,6 +10822,186 @@
       1,
       0,
       0
+    ],
+    "status": "active"
+  },
+  "radio-oaldgri": {
+    "avg_gap_days": 95.7,
+    "avg_length": 24,
+    "episodes": 78,
+    "eps_365": 4,
+    "eps_90": 2,
+    "first_at": "2021-10-11",
+    "first_year": 1400,
+    "last": "1405/07/22",
+    "last_at": "2026-10-14T02:30:00Z",
+    "last_link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/20",
+    "last_title": "20 باور و رفتار غلط والد در سه سال اول زندگی کودک",
+    "max_length": 62,
+    "median_length": 26,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/6ace7c6b37f0bd18cc297c2c/media.mp3",
+        "at": "2026-10-14T02:30:00Z",
+        "t": "20 باور و رفتار غلط والد در سه سال اول زندگی کودک"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/6ac5298c67a2ec2840f11416/media.mp3",
+        "at": "2026-10-07T02:30:00Z",
+        "t": "چگونه فرزندمان دلبسته ایمن می‌شود؟ مراحل شکل‌گیری دلبستگی + ۱۰ راهکار عملی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/695df48f64fe6d2127a62d6e/media.mp3",
+        "at": "2026-01-07T05:52:14Z",
+        "t": "اپیزود 74- ویژگی های والدین در دو سبک والدگری بی تفاوت  و قاطع"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/6953788dd0c0aeaf12b2b675/media.mp3",
+        "at": "2025-12-30T07:02:07Z",
+        "t": "اپیزود 73- ویژگی های والدین در دو سبک والدگری مستبد و آسان گیر"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/68ef34e7ce402940bc5e952f/media.mp3",
+        "at": "2025-10-15T05:45:09Z",
+        "t": "اپیزود 72 - معرفی کتاب نه تنبیه و نه تشویق"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/6864d99d2afa19dc3df8f255/media.mp3",
+        "at": "2025-07-02T07:02:52Z",
+        "t": "مجموعه‌ی آموزشی نکته های کلیدی رشد کودک از یکسالگی تا سه سالگی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/6847c05cb0b18fac07a5af7f/media.mp3",
+        "at": "2025-06-10T05:19:24Z",
+        "t": "اپیزود 71 - پنج نکته فرزندپروری (سری سوم) - وقتی والد می شویم چه چیزهایی در ما قرار است تغییر کند؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/68315446381499796b0ca552/media.mp3",
+        "at": "2025-05-24T05:08:22Z",
+        "t": "اپیزود 70 - پنج نکته فرزندپروری - سری دوم (درباره غذا خوردن کودک)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-14T02:30:00Z",
+        "link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/20",
+        "title": "20 باور و رفتار غلط والد در سه سال اول زندگی کودک"
+      },
+      {
+        "at": "2026-10-07T02:30:00Z",
+        "link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/6ac5298c67a2ec2840f11416",
+        "title": "چگونه فرزندمان دلبسته ایمن می‌شود؟ مراحل شکل‌گیری دلبستگی + ۱۰ راهکار عملی"
+      },
+      {
+        "at": "2026-01-07T05:52:14Z",
+        "link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/744",
+        "title": "اپیزود 74- ویژگی های والدین در دو سبک والدگری بی تفاوت  و قاطع"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "status": "active"
+  },
+  "radiocrime-padkst-jnaii-radio-kraim": {
+    "avg_gap_days": 21.1,
+    "avg_length": 26,
+    "episodes": 77,
+    "eps_365": 17,
+    "eps_90": 11,
+    "first_at": "2024-07-04",
+    "first_year": 1403,
+    "last": "1405/07/20",
+    "last_at": "2026-10-12T17:53:27Z",
+    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6accefe339599f7c56e311f8",
+    "last_title": "آخرین اخبار پرونده لیندزی کلنسی؛ آیا محاکمه دوباره برگزار می‌شود؟",
+    "max_length": 74,
+    "median_length": 14,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6accefe339599f7c56e311f8/media.mp3",
+        "at": "2026-10-12T17:53:27Z",
+        "t": "آخرین اخبار پرونده لیندزی کلنسی؛ آیا محاکمه دوباره برگزار می‌شود؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6ac7f08c5f788808a7746330/media.mp3",
+        "at": "2026-10-08T19:35:39Z",
+        "t": "۴۲ سال در انتظار قاتل؛ راز قتل توبی تیت بالاخره حل شد"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6ac3abbbcf16445f8b5c40f5/media.mp3",
+        "at": "2026-10-05T13:52:59Z",
+        "t": "یک قتل حل‌نشده، دو دختر گمشده و رازی که بعد از ۳۳ سال برگشت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6ac3aac3ceaaaa9e66969f11/media.mp3",
+        "at": "2026-10-05T13:48:51Z",
+        "t": "قاتل یا یک اشتباه مرگبار؟ راز پرونده بریتنی شاو"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6aae8a4a3544546cb8bbe375/media.mp3",
+        "at": "2026-09-19T13:25:20Z",
+        "t": "چه کسی آلبرتا جونز را کشت؟ پرونده‌ای که ۶۰ سال است حل نشده"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6aa170d4b520126fa0d20b4c/media.mp3",
+        "at": "2026-09-10T14:30:00Z",
+        "t": "آن شب در خانه لیندزی کلنسی چه گذشت؟ | پرونده قتل ۳ کودک"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6a9af283d024784c998e80ce/media.mp3",
+        "at": "2026-09-04T16:31:59Z",
+        "t": "۱۵ دقیقه‌ای که قاتل را لو داد | پرونده کریستین بنفیلد"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6a8b14ea20cb324b77f7d7c9/media.mp3",
+        "at": "2026-08-23T15:42:34Z",
+        "t": "کری اوبراین کجاست؟ شوهر مظنون، حافظه‌اش را از دست داد!"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-12T17:53:27Z",
+        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6accefe339599f7c56e311f8",
+        "title": "آخرین اخبار پرونده لیندزی کلنسی؛ آیا محاکمه دوباره برگزار می‌شود؟"
+      },
+      {
+        "at": "2026-10-08T19:35:39Z",
+        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6ac7f08c5f788808a7746330",
+        "title": "۴۲ سال در انتظار قاتل؛ راز قتل توبی تیت بالاخره حل شد"
+      },
+      {
+        "at": "2026-10-05T13:52:59Z",
+        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6ac3abbbcf16445f8b5c40f5",
+        "title": "یک قتل حل‌نشده، دو دختر گمشده و رازی که بعد از ۳۳ سال برگشت"
+      }
+    ],
+    "recent_30d": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      3,
+      3,
+      5
     ],
     "status": "active"
   },
@@ -10373,6 +11893,96 @@
       0,
       1,
       4,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "shaaa-kst": {
+    "avg_gap_days": 106.5,
+    "avg_length": 88,
+    "episodes": 69,
+    "eps_365": 3,
+    "eps_90": 0,
+    "first_at": "2022-06-07",
+    "first_year": 1401,
+    "last": "1405/03/05",
+    "last_at": "2026-05-26T16:39:06Z",
+    "last_link": "https://shoacast.podbean.com/e/%d9%81%d8%b1%db%8c%d8%af%d8%a7%d9%85%db%8c%d8%b1%d8%ba%db%8c%d8%a7%d8%ab%d9%88%d9%86%d8%af%d8%8c-%d9%85%d8%af%db%8c%d8%b1%d8%b9%d8%a7%d9%85/",
+    "last_title": "فرید امیرغیاثوند، مدیرعامل زربد، بانکداری طلا،قسمت ۴۶",
+    "max_length": 151,
+    "median_length": 52,
+    "min_length": 26,
+    "play": [
+      {
+        "a": "https://mcdn.podbean.com/mf/web/v78pxxakstc3xz5y/77s8w.mp3",
+        "at": "2026-05-26T16:39:06Z",
+        "t": "فرید امیرغیاثوند، مدیرعامل زربد، بانکداری طلا،قسمت ۴۶"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/knqtypdur2i7nwr4/bctlb.mp3",
+        "at": "2025-12-13T07:34:06Z",
+        "t": "مهدی سادات رسول، مدیرعامل صندوق شریف، نهادهای مالی در ایران، قسمت ۴۵"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/894sj86tkisywhen/8ohke.mp3",
+        "at": "2025-10-25T16:10:08Z",
+        "t": "مرتضی کاظمی مدیرعامل کرفس، داستان یک اپ قدیمی، قسمت ۴۴"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/pfbwxpn4iqrykvnu/brvxv.mp3",
+        "at": "2025-09-28T16:06:23Z",
+        "t": "احمد خورشیدی، مدیرعامل شهرزاد و مدیرعامل سابق تلوبیون، آیا رقابت با بخش خصوصی؟ قسمت ۴۳"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/tqthw8iypbgs9a4f/be9io.mp3",
+        "at": "2025-09-09T20:31:09Z",
+        "t": "محسن ابوالفتحی، مدیرعامل طلاین، پلتفرم‌های طلا در ایران، قسمت ۴۲، بخش ۲"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/84usw9ndzwzp3j8r/ad8wk.mp3",
+        "at": "2025-09-02T15:29:05Z",
+        "t": "محسن ابوالفتحی، مدیرعامل طلاین، داستان یک شروع ساده یزدی، قسمت ۴۲، بخش ۱"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/xd8uitmc7s39gdnv/7ks9t.mp3",
+        "at": "2025-08-11T14:44:26Z",
+        "t": "صالح قانعی‌نژاد، مدیرعامل تدبیرحساب، دانش مالی ۲، قسمت ۴۱"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/vczrq3u7c3gzbrin/awrdk.mp3",
+        "at": "2025-07-19T10:39:50Z",
+        "t": "بابک کبیری، مدیرعامل جابینجا، بازار منابع انسانی ایران، قسمت ۴۰"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-05-26T16:39:06Z",
+        "link": "https://shoacast.podbean.com/e/%d9%81%d8%b1%db%8c%d8%af%d8%a7%d9%85%db%8c%d8%b1%d8%ba%db%8c%d8%a7%d8%ab%d9%88%d9%86%d8%af%d8%8c-%d9%85%d8%af%db%8c%d8%b1%d8%b9%d8%a7%d9%85/",
+        "title": "فرید امیرغیاثوند، مدیرعامل زربد، بانکداری طلا،قسمت ۴۶"
+      },
+      {
+        "at": "2025-12-13T07:34:06Z",
+        "link": "https://shoacast.podbean.com/e/%d9%85%d9%87%d8%af%db%8c%d8%b3%d8%a7%d8%af%d8%a7%d8%aa%d8%b1%d8%b3%d9%88%d9%84%d8%8c-%d9%85%d8%af%db%8c%d8%b1%d8%b9%d8%a7%d9%85%d9%84/",
+        "title": "مهدی سادات رسول، مدیرعامل صندوق شریف، نهادهای مالی در ایران، قسمت ۴۵"
+      },
+      {
+        "at": "2025-10-25T16:10:08Z",
+        "link": "https://shoacast.podbean.com/e/%d9%85%d8%b1%d8%aa%d8%b6%db%8c%da%a9%d8%a7%d8%b8%d9%85%db%8c-%d9%85%d8%af%db%8c%d8%b1%d8%b9%d8%a7%d9%85%d9%84%da%a9%d8%b1%d9%81%d8%b3/",
+        "title": "مرتضی کاظمی مدیرعامل کرفس، داستان یک اپ قدیمی، قسمت ۴۴"
+      }
+    ],
+    "recent_30d": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
       0,
       0,
       0
