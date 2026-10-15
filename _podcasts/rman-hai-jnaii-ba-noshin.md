@@ -16,8 +16,8 @@ pi_id: 7210566
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # رمان های جنایی با نوشین
