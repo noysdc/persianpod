@@ -16,8 +16,8 @@ pi_id: 1607490
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # GapDive پادکست موسیقی متن گپ دایو

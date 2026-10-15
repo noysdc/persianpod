@@ -18,8 +18,8 @@ pi_id: 1237503
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # پادکست آموزش زبان انگلیسی عطایی آنلاین

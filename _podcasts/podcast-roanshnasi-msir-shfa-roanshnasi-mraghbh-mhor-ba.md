@@ -17,8 +17,8 @@ pi_id: 7345125
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # پادکست روانشناسی مسیر شفا (روانشناسی مراقبه محور با تمرین روزانه)  / Masire Shafa

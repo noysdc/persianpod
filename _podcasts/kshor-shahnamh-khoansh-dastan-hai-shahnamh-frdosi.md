@@ -18,8 +18,8 @@ pi_id: 7022869
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # کشور شاهنامه [خوانش داستان‌های شاهنامهٔ فردوسی]

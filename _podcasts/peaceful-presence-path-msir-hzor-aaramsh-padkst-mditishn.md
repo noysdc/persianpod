@@ -17,8 +17,8 @@ pi_id: 7082707
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Peaceful.Presence.Path- مسیر حضور آرامش ( پادکست مدیتیشن-مراقبه کوتاه فارسی با شبنم-)

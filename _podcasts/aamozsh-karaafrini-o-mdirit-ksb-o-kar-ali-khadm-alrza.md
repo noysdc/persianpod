@@ -16,8 +16,8 @@ pi_id: 2482041
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # آموزش کارآفرینی و مدیریت کسب و کار علی خادم الرضا

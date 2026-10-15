@@ -18,8 +18,8 @@ pi_id: 5665273
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # آموزش زبان انگلیسی نصرت به همراه متن
