@@ -17,8 +17,8 @@ pi_id: 7534501
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # هر آنچه قبل از سکس باید بدانی) پادکست روانشناسی قوانین سکس +18)
