@@ -6669,6 +6669,96 @@
     ],
     "status": "inactive"
   },
+  "midnightcast": {
+    "avg_gap_days": 34.3,
+    "avg_length": 61,
+    "episodes": 49,
+    "eps_365": 10,
+    "eps_90": 4,
+    "first_at": "2018-07-14",
+    "first_year": 1397,
+    "last": "1405/07/19",
+    "last_at": "2026-10-11T14:03:44Z",
+    "last_link": "https://shows.acast.com/midnightcast/episodes/spiderman-evolution",
+    "last_title": "داستان اسپایدرمن؛ فرگشت در تاریخ سینما",
+    "max_length": 125,
+    "median_length": 49,
+    "min_length": 5,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6acb974068b7ce6ffbc92cfc/media.mp3",
+        "at": "2026-10-11T14:03:44Z",
+        "t": "داستان اسپایدرمن؛ فرگشت در تاریخ سینما"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6aabdf6ffca3d5c77bff69fd/media.mp3",
+        "at": "2026-09-17T12:39:09Z",
+        "t": "داستان‌های موازی؛ فیلم بلندی درباره چی؟ (نقد و بررسی تازه‌ترین فیلم اصغر فرهادی)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6a7ae467616564bf00d484ae/media.mp3",
+        "at": "2026-08-11T11:55:49Z",
+        "t": "خلاصه داستان ایلیاد هومر"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6a6749553e2f0b6f92dff5e1/media.mp3",
+        "at": "2026-07-27T12:04:36Z",
+        "t": "وقتی اسکار به سینما باخت! (۴ انتخاب بحث‌برانگیز تاریخ آکادمی)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6a56366c3f3beee86732ad2f/media.mp3",
+        "at": "2026-07-14T13:15:23Z",
+        "t": "شیفتگی؛ پدیده امسال سینما (نقد، تحلیل و بررسی فیلم Obsession)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6a48fc3d04fac73b241deb78/media.mp3",
+        "at": "2026-07-04T12:27:38Z",
+        "t": "جیسریس ولاریون؛ تراژدی راب استارک، زخم‌های جان اسنو"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6a3d41cb0ad32116868ef67f/media.mp3",
+        "at": "2026-06-25T15:25:13Z",
+        "t": "نیمه شب 36 - اسکورسیزی؛ رهایی (فیلم‌های هیوگو، گرگ وال استریت و سکوت)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6a38fbf6db494ef85ca144d9/media.mp3",
+        "at": "2026-06-22T09:22:05Z",
+        "t": "خاندان اژدها؛ مرور کامل فصل‌های اول و دوم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-11T14:03:44Z",
+        "link": "https://shows.acast.com/midnightcast/episodes/spiderman-evolution",
+        "title": "داستان اسپایدرمن؛ فرگشت در تاریخ سینما"
+      },
+      {
+        "at": "2026-09-17T12:39:09Z",
+        "link": "https://shows.acast.com/midnightcast/episodes/histoires-paralleles",
+        "title": "داستان‌های موازی؛ فیلم بلندی درباره چی؟ (نقد و بررسی تازه‌ترین فیلم اصغر فرهادی)"
+      },
+      {
+        "at": "2026-08-11T11:55:49Z",
+        "link": "https://shows.acast.com/midnightcast/episodes/the-iliad",
+        "title": "خلاصه داستان ایلیاد هومر"
+      }
+    ],
+    "recent_30d": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      2,
+      0,
+      2
+    ],
+    "status": "active"
+  },
   "mimmpodcast": {
     "avg_gap_days": 38.9,
     "avg_length": 68,
