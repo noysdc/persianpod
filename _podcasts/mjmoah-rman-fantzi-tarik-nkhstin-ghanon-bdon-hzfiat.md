@@ -17,8 +17,8 @@ pi_id: 7643818
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # مجموعه رمان فانتزی تاریک نخستین قانون(بدون حذفیات)
