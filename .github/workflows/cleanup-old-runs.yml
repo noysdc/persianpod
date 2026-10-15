@@ -1,0 +1,37 @@
+name: پاک‌سازی اجراهای قدیمی Actions
+on:
+  schedule:
+    - cron: "41 3 * * *"   # هر روز ۰۳:۴۱ UTC = ۰۷:۱۱ تهران
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "اجراهای قدیمی‌تر از چند روز پاک شوند"
+        default: "3"
+permissions:
+  actions: write
+  contents: read
+concurrency:
+  group: cleanup-old-runs
+  cancel-in-progress: false
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      DAYS: ${{ inputs.days || '3' }}
+    steps:
+      - name: حذف اجراهای تمام‌شده‌ی قدیمی
+        run: |
+          CUT=$(date -u -d "$DAYS days ago" +%F)
+          echo "حذف اجراهای تمام‌شده‌ی قبل از $CUT"
+          total=0
+          for round in 1 2 3 4 5; do
+            IDS=$(gh run list --repo "$GITHUB_REPOSITORY" --status completed \
+                    --created "<$CUT" --limit 1000 --json databaseId --jq '.[].databaseId')
+            [ -z "$IDS" ] && break
+            for id in $IDS; do
+              gh run delete "$id" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1 && total=$((total+1)) || true
+            done
+          done
+          echo "تعداد حذف‌شده: $total" | tee -a "$GITHUB_STEP_SUMMARY"
