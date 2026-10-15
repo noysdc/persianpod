@@ -1,28 +1,22 @@
 ## گزارش تأیید و انتقال
 
-- منتقل‌شده از `_drafts/` به `_podcasts/`: **20**
+- منتقل‌شده از `_drafts/` به `_podcasts/`: **14**
 - ردشده (از قبل موجود بود): 0
 - در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **24**
 
 ### منتقل‌شده
-- `cool-talk-padkst-aamozsh-zban-kol-tak.md`
-- `dairh-dastan.md`
-- `farsi-okr.md`
-- `hr-aanchh-ghbl-az-sks-baid-bdani-padkst-roanshnasi-ghoanin.md`
-- `hrf-hsab.md`
-- `klmat-zndgi.md`
-- `ktab-kodk.md`
-- `ktab-shb.md`
-- `ktab-soti-tarikh-jhan.md`
-- `mjmoah-rman-fantzi-tarik-nkhstin-ghanon-bdon-hzfiat.md`
-- `podcast-dats.md`
-- `podcast-farsi.md`
-- `podcast-jnaii-noar-zrd.md`
-- `podcast-sdai-tarikh.md`
-- `podcast-sndogh.md`
-- `podcast-tknik-mdirit-zman-o-brnamh-rizi.md`
-- `radio-flsfh-radiofalsafe.md`
-- `sfri-dr-dl-tarikh.md`
-- `tarikh-hnr-khfn.md`
-- `tarikh-mosighi-dstgahi-airan-az-zban-ltfi.md`
+- `aapdit-am-di-padkst-slamt-o-tol-amr.md`
+- `airan-tak.md`
+- `hnr-hafz.md`
+- `mamanst-mamanest.md`
+- `podcast-aorsi.md`
+- `podcast-farsi-kraim-kst.md`
+- `podcast-farsi-raoi.md`
+- `podcast-farsi-rast-klik-sio.md`
+- `podcast-khbri-jamah-andishkdh-ha.md`
+- `radio-roait.md`
+- `roait-bidari.md`
+- `roanshnasi-dktr-hlakoii.md`
+- `sadeghi-padkst-jnaii-sadghi.md`
+- `sbh-jmah-ba-msnoi-manoi-bh-roait-astad-ali-asghr-biani.md`
 

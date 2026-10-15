@@ -17,8 +17,8 @@ pi_id: 4747149
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # صبح جمعه با مثنوی معنوی، به روایت استاد علی اصغر بیانی
