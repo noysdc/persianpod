@@ -2191,6 +2191,96 @@
     ],
     "status": "active"
   },
+  "darvag": {
+    "avg_gap_days": 12.1,
+    "avg_length": 37,
+    "episodes": 39,
+    "eps_365": 31,
+    "eps_90": 4,
+    "first_at": "2025-05-16",
+    "first_year": 1404,
+    "last": "1405/07/23",
+    "last_at": "2026-10-15T11:40:54Z",
+    "last_link": "https://rss.com/podcasts/darvagpodcast/3236992",
+    "last_title": "گناهکاران (Sinners)؛ خون، بلوز و سایه‌های تاریخ",
+    "max_length": 113,
+    "median_length": 31,
+    "min_length": 17,
+    "play": [
+      {
+        "a": "https://content.rss.com/episodes/361953/3236992/darvagpodcast/2026_10_15_11_14_58_99471c7e-80fa-4b44-90dc-fdd61aebdd63.mp3",
+        "at": "2026-10-15T11:40:54Z",
+        "t": "گناهکاران (Sinners)؛ خون، بلوز و سایه‌های تاریخ"
+      },
+      {
+        "a": "https://content.rss.com/episodes/361953/3160278/darvagpodcast/2026_09_17_05_44_43_bba56155-7259-424b-82fb-b454ac40cfc4.mp3",
+        "at": "2026-09-17T19:07:34Z",
+        "t": "نقد و بررسی داستان دژاوو"
+      },
+      {
+        "a": "https://content.rss.com/episodes/361953/3100903/darvagpodcast/2026_08_27_12_46_55_dd565474-fcaa-4681-a3d7-e70da06175a5.mp3",
+        "at": "2026-08-27T13:30:42Z",
+        "t": "داستان کوتاه دژاوو نوشته استیفن کینگ"
+      },
+      {
+        "a": "https://content.rss.com/episodes/361953/3050685/darvagpodcast/2026_08_06_07_40_44_64d6f1c6-105b-4a2e-802a-f150560e5e36.mp3",
+        "at": "2026-08-06T08:19:49Z",
+        "t": "تحلیلی بر فیلم و کتاب شاینینگ و دکتراسلیپ"
+      },
+      {
+        "a": "https://content.rss.com/episodes/361953/2966094/darvagpodcast/2026_07_06_11_08_22_6e93ed6e-73b3-4b1a-9fbb-e1f058ae397d.mp3",
+        "at": "2026-07-10T11:31:49Z",
+        "t": "هیولای فرانکشتاین در ادبیات و سینما"
+      },
+      {
+        "a": "https://content.rss.com/episodes/361953/2904547/darvagpodcast/2026_06_10_18_03_08_71a0730d-b728-4d52-9a04-a77ef702ea68.mp3",
+        "at": "2026-06-18T07:34:02Z",
+        "t": "بریل‌های ناگزیر"
+      },
+      {
+        "a": "https://content.rss.com/episodes/361953/2898572/darvagpodcast/2026_06_08_19_23_40_1d748e40-d98c-45a8-a784-3564ad592e3f.mp3",
+        "at": "2026-06-08T19:26:21Z",
+        "t": "روایت حافظه‌ای برای فراموشی قسمت بیستم"
+      },
+      {
+        "a": "https://content.rss.com/episodes/361953/2892973/darvagpodcast/2026_06_06_19_39_25_0fd0f7ce-c696-45cf-b925-00065db8bd13.mp3",
+        "at": "2026-06-06T19:41:32Z",
+        "t": "روایت حافظه‌ای برای فراموشی قسمت نوزدهم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-15T11:40:54Z",
+        "link": "https://rss.com/podcasts/darvagpodcast/3236992",
+        "title": "گناهکاران (Sinners)؛ خون، بلوز و سایه‌های تاریخ"
+      },
+      {
+        "at": "2026-09-17T19:07:34Z",
+        "link": "https://rss.com/podcasts/darvagpodcast/3160278",
+        "title": "نقد و بررسی داستان دژاوو"
+      },
+      {
+        "at": "2026-08-27T13:30:42Z",
+        "link": "https://rss.com/podcasts/darvagpodcast/3100903",
+        "title": "داستان کوتاه دژاوو نوشته استیفن کینگ"
+      }
+    ],
+    "recent_30d": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      7,
+      14,
+      2,
+      1,
+      1,
+      2
+    ],
+    "status": "active"
+  },
   "dastan-baz-rman-hai-fantzi": {
     "avg_length": 11,
     "episodes": 96,
@@ -16367,8 +16457,8 @@
       40,
       0,
       5,
-      20,
-      114,
+      21,
+      113,
       86,
       95,
       84
