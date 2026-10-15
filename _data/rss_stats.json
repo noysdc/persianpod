@@ -89,6 +89,95 @@
     ],
     "status": "active"
   },
+  "aakadmi-bazar": {
+    "avg_length": 12,
+    "episodes": 50,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-05-15",
+    "first_year": 1399,
+    "last": "1402/04/24",
+    "last_at": "2023-07-15T07:04:31Z",
+    "last_link": "https://s3.castbox.fm/69/de/71/a905694bdda0d6ee20280355a8.mp3",
+    "last_title": "ترفندهای عملی افزایش فروش",
+    "max_length": 20,
+    "median_length": 10,
+    "min_length": 5,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/69/de/71/a905694bdda0d6ee20280355a8.mp3",
+        "at": "2023-07-15T07:04:31Z",
+        "t": "ترفندهای عملی افزایش فروش"
+      },
+      {
+        "a": "https://s3.castbox.fm/08/70/d5/56cf6941b1a39e9cfc08d317bf.mp3",
+        "at": "2023-07-15T06:50:24Z",
+        "t": "ترفندهای فروش بیمه به شکل حرفه ای برای افراد تازه کار"
+      },
+      {
+        "a": "https://s3.castbox.fm/c3/17/c1/6fa1ba4570afe265a00870a866.mp3",
+        "at": "2023-07-15T06:37:23Z",
+        "t": "راه های افزایش مهارت تفکر"
+      },
+      {
+        "a": "https://s3.castbox.fm/2d/e8/27/b2f6514d8fb568f23878a2917c.mp3",
+        "at": "2023-07-02T10:54:28Z",
+        "t": "جملات بازاریابی و فروش"
+      },
+      {
+        "a": "https://s3.castbox.fm/ba/c8/f9/a7c8c54ae1b962eedd985de069.mp3",
+        "at": "2023-06-13T11:49:59Z",
+        "t": "چرخه عمر محصول"
+      },
+      {
+        "a": "https://s3.castbox.fm/39/da/fd/4fe02b429f8f3ca7928a577c29.mp3",
+        "at": "2023-06-13T11:40:33Z",
+        "t": "راه اندازی کسب و کار"
+      },
+      {
+        "a": "https://s3.castbox.fm/1a/8e/00/a0e9fe45d3a4bb5f9b99a78561.mp3",
+        "at": "2023-06-13T11:35:24Z",
+        "t": "تحلیل رقبا"
+      },
+      {
+        "a": "https://s3.castbox.fm/e6/60/43/8d618f43bc9a4b8fede2650760.mp3",
+        "at": "2023-05-28T13:01:25Z",
+        "t": "علت عدم فروش"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-07-15T07:04:31Z",
+        "link": "https://s3.castbox.fm/69/de/71/a905694bdda0d6ee20280355a8.mp3",
+        "title": "ترفندهای عملی افزایش فروش"
+      },
+      {
+        "at": "2023-07-15T06:50:24Z",
+        "link": "https://s3.castbox.fm/08/70/d5/56cf6941b1a39e9cfc08d317bf.mp3",
+        "title": "ترفندهای فروش بیمه به شکل حرفه ای برای افراد تازه کار"
+      },
+      {
+        "at": "2023-07-15T06:37:23Z",
+        "link": "https://s3.castbox.fm/c3/17/c1/6fa1ba4570afe265a00870a866.mp3",
+        "title": "راه های افزایش مهارت تفکر"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "aamozsh-karaafrini-o-mdirit-ksb-o-kar-ali-khadm-alrza": {
     "avg_gap_days": 30.6,
     "episodes": 100,
@@ -588,7 +677,7 @@
     "avg_gap_days": 3.8,
     "avg_length": 17,
     "episodes": 210,
-    "eps_365": 97,
+    "eps_365": 96,
     "eps_90": 19,
     "first_at": "2023-12-16",
     "first_year": 1402,
@@ -659,11 +748,11 @@
       }
     ],
     "recent_30d": [
-      22,
-      17,
-      9,
-      13,
-      9,
+      21,
+      18,
+      8,
+      14,
+      8,
       0,
       0,
       0,
@@ -853,7 +942,7 @@
     "avg_length": 89,
     "episodes": 62,
     "eps_365": 62,
-    "eps_90": 26,
+    "eps_90": 25,
     "first_at": "2025-11-23",
     "first_year": 1404,
     "last": "1405/06/19",
@@ -931,8 +1020,8 @@
       0,
       4,
       9,
-      17,
-      17,
+      18,
+      16,
       9,
       0
     ],
@@ -1553,8 +1642,8 @@
       5,
       4,
       1,
-      1,
-      11,
+      2,
+      10,
       11,
       5,
       4,
@@ -5590,15 +5679,15 @@
       39,
       87,
       130,
-      54,
-      14,
+      55,
+      13,
       0,
       0,
       27,
       58,
+      63,
       62,
-      61,
-      72
+      70
     ],
     "status": "active"
   },
@@ -7029,6 +7118,184 @@
     ],
     "status": "active"
   },
+  "mn-o-ktab": {
+    "avg_length": 18,
+    "episodes": 50,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-12-23",
+    "first_year": 1399,
+    "last": "1400/03/07",
+    "last_at": "2021-05-28T10:27:34Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/manoketab/episodes/ep-e11odm2",
+    "last_title": "کتاب صوتی نمادهای اسطوره ای و روانشناسی زنان.فصل چهارم قسمت اول",
+    "max_length": 68,
+    "median_length": 14,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/452ec9b8/podcast/play/34403458/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-4-28%2F191094749-44100-2-c2cd0bc95b932.mp3",
+        "at": "2021-05-28T10:27:34Z",
+        "t": "کتاب صوتی نمادهای اسطوره ای و روانشناسی زنان.فصل چهارم قسمت اول"
+      },
+      {
+        "a": "https://anchor.fm/s/452ec9b8/podcast/play/33738977/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-05-18%2F8734f6ec3478cfddaf91cd09136a623a.m4a",
+        "at": "2021-05-18T12:58:56Z",
+        "t": "کتاب صوتی نمادهای اسطوره ای و روانشناسی زنان. فصل سوم"
+      },
+      {
+        "a": "https://anchor.fm/s/452ec9b8/podcast/play/32917221/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-4-6%2F183287318-44100-2-fef17b104720d.mp3",
+        "at": "2021-05-06T01:10:52Z",
+        "t": "کتاب صوتی نمادهای اسطوره ای و روانشناسی زنان. فصل دوم"
+      },
+      {
+        "a": "https://anchor.fm/s/452ec9b8/podcast/play/31985546/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-3-21%2F177913805-44100-2-ccfcb5f2ff2c3.mp3",
+        "at": "2021-04-22T17:42:22Z",
+        "t": "کتاب صوتی نمادهای اسطوره ای و روانشناسی زنان. فصل اول"
+      },
+      {
+        "a": "https://anchor.fm/s/452ec9b8/podcast/play/31807223/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-3-20%2F177528086-44100-2-f88612b82743.mp3",
+        "at": "2021-04-20T10:47:56Z",
+        "t": "کتاب صوتی نمادهای اسطوره ای و روانشناسی زنان. بخش دوم پیش گفتار"
+      },
+      {
+        "a": "https://anchor.fm/s/452ec9b8/podcast/play/31807128/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-3-20%2F177529759-44100-2-81cfe54804d29.m4a",
+        "at": "2021-04-20T10:44:43Z",
+        "t": "کتاب صوتی نمادهای اسطوره ای و روانشناسی زنان. بخش اول پیشگفتار"
+      },
+      {
+        "a": "https://anchor.fm/s/452ec9b8/podcast/play/27502460/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-1-24%2F158451630-44100-2-4030cde41ba39.m4a",
+        "at": "2021-02-27T13:02:50Z",
+        "t": "کتاب صوتی کلبه عمو تام. فصل چهل وسوم"
+      },
+      {
+        "a": "https://anchor.fm/s/452ec9b8/podcast/play/27502435/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-1-24%2F158451412-44100-2-63d4cda0e80cd.m4a",
+        "at": "2021-02-27T13:01:44Z",
+        "t": "کتاب صوتی کلبه عمو تام. فصل چهل ودوم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2021-05-28T10:27:34Z",
+        "link": "https://podcasters.spotify.com/pod/show/manoketab/episodes/ep-e11odm2",
+        "title": "کتاب صوتی نمادهای اسطوره ای و روانشناسی زنان.فصل چهارم قسمت اول"
+      },
+      {
+        "at": "2021-05-18T12:58:56Z",
+        "link": "https://podcasters.spotify.com/pod/show/manoketab/episodes/ep-e1144p1",
+        "title": "کتاب صوتی نمادهای اسطوره ای و روانشناسی زنان. فصل سوم"
+      },
+      {
+        "at": "2021-05-06T01:10:52Z",
+        "link": "https://podcasters.spotify.com/pod/show/manoketab/episodes/ep-e10b295",
+        "title": "کتاب صوتی نمادهای اسطوره ای و روانشناسی زنان. فصل دوم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
+  "motorasport-airan": {
+    "avg_length": 62,
+    "episodes": 53,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-07-21",
+    "first_year": 1398,
+    "last": "1402/01/22",
+    "last_at": "2023-04-11T16:48:46Z",
+    "last_link": "https://s3.castbox.fm/0b/9f/90/1200614943aad2b874dd89b079.mp3",
+    "last_title": "مسابقه فرمول یک استرالیا 2023 - جنگ تایرها",
+    "max_length": 138,
+    "median_length": 56,
+    "min_length": 22,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/0b/9f/90/1200614943aad2b874dd89b079.mp3",
+        "at": "2023-04-11T16:48:46Z",
+        "t": "مسابقه فرمول یک استرالیا 2023 - جنگ تایرها"
+      },
+      {
+        "a": "https://s3.castbox.fm/4b/1c/81/1ef1d1433bac7bd81d680d4a17.mp3",
+        "at": "2023-03-27T13:27:48Z",
+        "t": "از مارکز تا شوماخر؛ اهمیت برقراری ارتباط صحیح"
+      },
+      {
+        "a": "https://s3.castbox.fm/6f/bb/5b/f4b2944c7facf40efaf65acb33.mp3",
+        "at": "2023-03-08T15:14:41Z",
+        "t": "استون مارتین پدیده فصل 2023 فرمول یک؛ پادکست فرمول یک بحرین"
+      },
+      {
+        "a": "https://s3.castbox.fm/4f/07/8f/085e4d4712ac79a2edc31cf40b.mp3",
+        "at": "2021-10-03T13:32:59Z",
+        "t": "پیت وال پلاس؛ کیمی رایکونن - مرد یخی فرمول یک"
+      },
+      {
+        "a": "https://s3.castbox.fm/4e/e3/03/f925764f05ac7a09238bcda318.mp3",
+        "at": "2021-09-25T17:04:04Z",
+        "t": "پادکست پیت وال - اپیزود بیست و سوم"
+      },
+      {
+        "a": "https://s3.castbox.fm/ae/72/ca/04032e44b49f4f951a4307cc2c.mp3",
+        "at": "2021-08-13T15:11:01Z",
+        "t": "پیت وال پلاس؛ سر فرانک ویلیامز - مدیر فرمول یک"
+      },
+      {
+        "a": "https://s3.castbox.fm/34/f6/0e/745a5244abb9518af09a367249.mp3",
+        "at": "2021-07-29T21:14:29Z",
+        "t": "پیت وال پلاس؛ والنتینو روسی - اسطوره موتوجی پی"
+      },
+      {
+        "a": "https://s3.castbox.fm/d4/93/50/a8fb1d40828592af23c579a08e.mp3",
+        "at": "2021-07-11T18:20:16Z",
+        "t": "پیت وال پلاس؛ مایکل شوماخر - اسطوره فرمول یک"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-04-11T16:48:46Z",
+        "link": "https://s3.castbox.fm/0b/9f/90/1200614943aad2b874dd89b079.mp3",
+        "title": "مسابقه فرمول یک استرالیا 2023 - جنگ تایرها"
+      },
+      {
+        "at": "2023-03-27T13:27:48Z",
+        "link": "https://s3.castbox.fm/4b/1c/81/1ef1d1433bac7bd81d680d4a17.mp3",
+        "title": "از مارکز تا شوماخر؛ اهمیت برقراری ارتباط صحیح"
+      },
+      {
+        "at": "2023-03-08T15:14:41Z",
+        "link": "https://s3.castbox.fm/6f/bb/5b/f4b2944c7facf40efaf65acb33.mp3",
+        "title": "استون مارتین پدیده فصل 2023 فرمول یک؛ پادکست فرمول یک بحرین"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "mshirih": {
     "avg_length": 25,
     "episodes": 89,
@@ -7631,21 +7898,26 @@
     "status": "active"
   },
   "parseh-podcast-padkst-prsh": {
-    "avg_gap_days": 12.3,
-    "avg_length": 58,
-    "episodes": 75,
-    "eps_365": 21,
-    "eps_90": 4,
+    "avg_gap_days": 14.0,
+    "avg_length": 60,
+    "episodes": 76,
+    "eps_365": 22,
+    "eps_90": 5,
     "first_at": "2020-07-17",
     "first_year": 1399,
-    "last": "1405/06/05",
-    "last_at": "2026-08-27T15:30:00Z",
-    "last_link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/64-limits-of-justice-iii",
-    "last_title": "64- Limits of Justice III (حدود عدالت ۳)",
-    "max_length": 103,
+    "last": "1405/07/23",
+    "last_at": "2026-10-15T16:30:00Z",
+    "last_link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/65-conversation",
+    "last_title": "65- Conversation گفتگو با رضا امیر درباره‌ی کتاب «چگونه زنده‌ایم»",
+    "max_length": 118,
     "median_length": 52,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6ad0bb7e7ce338e8cdd99139/media.mp3",
+        "at": "2026-10-15T16:30:00Z",
+        "t": "65- Conversation گفتگو با رضا امیر درباره‌ی کتاب «چگونه زنده‌ایم»"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a8ff2e66cdb05b8913f63a2/media.mp3",
         "at": "2026-08-27T15:30:00Z",
@@ -7680,14 +7952,14 @@
         "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a28442f427484b4a44a9861/media.mp3",
         "at": "2026-06-12T16:30:00Z",
         "t": "59- Portrait of a Defeat VI (شمایل یک شکست ۶)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a228590ac951431d7b1d2be/media.mp3",
-        "at": "2026-06-05T16:30:00Z",
-        "t": "58 - شمایل یک شکست قسمت پنجم (نسخه کم‌حجم)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-15T16:30:00Z",
+        "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/65-conversation",
+        "title": "65- Conversation گفتگو با رضا امیر درباره‌ی کتاب «چگونه زنده‌ایم»"
+      },
       {
         "at": "2026-08-27T15:30:00Z",
         "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/64-limits-of-justice-iii",
@@ -7697,11 +7969,6 @@
         "at": "2026-08-20T16:30:00Z",
         "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/63-limits-of-justice-ii",
         "title": "63- Limits of Justice II (حدود عدالت ۲)"
-      },
-      {
-        "at": "2026-08-13T17:30:00Z",
-        "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/62-limits-of-justice-i",
-        "title": "62- Limits of Justice I (حدود عدالت ۱)"
       }
     ],
     "recent_30d": [
@@ -7716,7 +7983,7 @@
       1,
       2,
       2,
-      0
+      1
     ],
     "status": "active"
   },
@@ -8983,11 +9250,100 @@
     ],
     "status": "active"
   },
+  "podcast-farsi-ik-prondh-roait-jnaii-az-zban-mthmin-prondh-ha": {
+    "avg_length": 35,
+    "episodes": 44,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-04-29",
+    "first_year": 1400,
+    "last": "1402/09/14",
+    "last_at": "2023-12-05T16:04:10Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/yekparvande/episodes/ep-e2crmnq",
+    "last_title": "قاتل نابغه",
+    "max_length": 52,
+    "median_length": 33,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/5924e6c8/podcast/play/79599802/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2023-11-5%2F358602963-44100-1-6a8064e1814bd.mp3",
+        "at": "2023-12-05T16:04:10Z",
+        "t": "قاتل نابغه"
+      },
+      {
+        "a": "https://anchor.fm/s/5924e6c8/podcast/play/79033874/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2023-10-22%2F356754698-44100-2-55566f6c22e57.mp3",
+        "at": "2023-11-23T12:28:49Z",
+        "t": "خفتگیری دلال دلار منجر به قتل"
+      },
+      {
+        "a": "https://anchor.fm/s/5924e6c8/podcast/play/78860452/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-10-19%2F356301326-44100-2-b92b639b1a753.m4a",
+        "at": "2023-11-19T22:30:09Z",
+        "t": "قتل عمه ثروتمند"
+      },
+      {
+        "a": "https://anchor.fm/s/5924e6c8/podcast/play/73298979/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2023-6-12%2F338935776-48000-2-0c5fb7d46abc2.mp3",
+        "at": "2023-07-12T01:48:06Z",
+        "t": "سارقان مسلح افاغنه از مهمانی ها و باغ ها"
+      },
+      {
+        "a": "https://anchor.fm/s/5924e6c8/podcast/play/72719460/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2023-5-28%2F337156305-48000-1-ed5de51a4bba7.mp3",
+        "at": "2023-06-28T07:54:19Z",
+        "t": "مستی و نزاع"
+      },
+      {
+        "a": "https://anchor.fm/s/5924e6c8/podcast/play/71552355/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-5-3%2F5f0f46d0-1a69-129c-1ea0-96d7f80aeac0.mp3",
+        "at": "2023-06-06T15:02:54Z",
+        "t": "نزاع و درگیری خیابانی منجر به قتل"
+      },
+      {
+        "a": "https://anchor.fm/s/5924e6c8/podcast/play/71331307/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-31%2Fe17e6b32-cd62-f040-972d-7951e0cb3795.mp3",
+        "at": "2023-05-31T19:38:22Z",
+        "t": "جعل اسناد و مدارک"
+      },
+      {
+        "a": "https://anchor.fm/s/5924e6c8/podcast/play/69987956/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2023-4-8%2F328308797-44100-2-4051b857b10cc.mp3",
+        "at": "2023-05-08T12:10:51Z",
+        "t": "قتل پسر و عروس"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-12-05T16:04:10Z",
+        "link": "https://podcasters.spotify.com/pod/show/yekparvande/episodes/ep-e2crmnq",
+        "title": "قاتل نابغه"
+      },
+      {
+        "at": "2023-11-23T12:28:49Z",
+        "link": "https://podcasters.spotify.com/pod/show/yekparvande/episodes/ep-e2cae2i",
+        "title": "خفتگیری دلال دلار منجر به قتل"
+      },
+      {
+        "at": "2023-11-19T22:30:09Z",
+        "link": "https://podcasters.spotify.com/pod/show/yekparvande/episodes/ep-e2c54n4",
+        "title": "قتل عمه ثروتمند"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "podcast-farsi-kraim-kst": {
-    "avg_gap_days": 24.3,
+    "avg_gap_days": 25.3,
     "avg_length": 69,
     "episodes": 59,
-    "eps_365": 16,
+    "eps_365": 14,
     "eps_90": 6,
     "first_at": "2023-04-10",
     "first_year": 1402,
@@ -9058,8 +9414,8 @@
       }
     ],
     "recent_30d": [
-      0,
-      8,
+      2,
+      6,
       0,
       0,
       0,
@@ -9508,8 +9864,8 @@
     ],
     "recent_30d": [
       24,
-      24,
-      9,
+      25,
+      8,
       0,
       0,
       0,
@@ -10240,10 +10596,10 @@
     "status": "inactive"
   },
   "podcast-khrghh": {
-    "avg_gap_days": 7.8,
+    "avg_gap_days": 7.9,
     "avg_length": 35,
     "episodes": 130,
-    "eps_365": 47,
+    "eps_365": 46,
     "eps_90": 20,
     "first_at": "2019-12-09",
     "first_year": 1398,
@@ -10314,7 +10670,7 @@
       }
     ],
     "recent_30d": [
-      10,
+      9,
       8,
       2,
       0,
@@ -11321,7 +11677,7 @@
     "avg_length": 65,
     "episodes": 196,
     "eps_365": 33,
-    "eps_90": 12,
+    "eps_90": 11,
     "first_at": "2021-06-18",
     "first_year": 1400,
     "last": "1405/07/20",
@@ -11399,8 +11755,8 @@
       0,
       2,
       3,
-      3,
-      6,
+      4,
+      5,
       4,
       2
     ],
@@ -13422,21 +13778,26 @@
     "status": "active"
   },
   "radiocrime-padkst-jnaii-radio-kraim": {
-    "avg_gap_days": 21.1,
-    "avg_length": 26,
-    "episodes": 77,
-    "eps_365": 17,
-    "eps_90": 11,
+    "avg_gap_days": 20.0,
+    "avg_length": 28,
+    "episodes": 78,
+    "eps_365": 18,
+    "eps_90": 12,
     "first_at": "2024-07-04",
     "first_year": 1403,
-    "last": "1405/07/20",
-    "last_at": "2026-10-12T17:53:27Z",
-    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6accefe339599f7c56e311f8",
-    "last_title": "آخرین اخبار پرونده لیندزی کلنسی؛ آیا محاکمه دوباره برگزار می‌شود؟",
-    "max_length": 74,
+    "last": "1405/07/23",
+    "last_at": "2026-10-15T15:52:06Z",
+    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6ad0f6a8e53019e890c5487b",
+    "last_title": "پشت درهای بسته‌ی خانه‌ی وحشت چه می‌گذشت؟",
+    "max_length": 78,
     "median_length": 14,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6ad0f6a8e53019e890c5487b/media.mp3",
+        "at": "2026-10-15T15:52:06Z",
+        "t": "پشت درهای بسته‌ی خانه‌ی وحشت چه می‌گذشت؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6accefe339599f7c56e311f8/media.mp3",
         "at": "2026-10-12T17:53:27Z",
@@ -13471,14 +13832,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6a9af283d024784c998e80ce/media.mp3",
         "at": "2026-09-04T16:31:59Z",
         "t": "۱۵ دقیقه‌ای که قاتل را لو داد | پرونده کریستین بنفیلد"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6a8b14ea20cb324b77f7d7c9/media.mp3",
-        "at": "2026-08-23T15:42:34Z",
-        "t": "کری اوبراین کجاست؟ شوهر مظنون، حافظه‌اش را از دست داد!"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-15T15:52:06Z",
+        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6ad0f6a8e53019e890c5487b",
+        "title": "پشت درهای بسته‌ی خانه‌ی وحشت چه می‌گذشت؟"
+      },
       {
         "at": "2026-10-12T17:53:27Z",
         "link": "https://shows.acast.com/radiocrime-podcast/episodes/6accefe339599f7c56e311f8",
@@ -13488,11 +13849,6 @@
         "at": "2026-10-08T19:35:39Z",
         "link": "https://shows.acast.com/radiocrime-podcast/episodes/6ac7f08c5f788808a7746330",
         "title": "۴۲ سال در انتظار قاتل؛ راز قتل توبی تیت بالاخره حل شد"
-      },
-      {
-        "at": "2026-10-05T13:52:59Z",
-        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6ac3abbbcf16445f8b5c40f5",
-        "title": "یک قتل حل‌نشده، دو دختر گمشده و رازی که بعد از ۳۳ سال برگشت"
       }
     ],
     "recent_30d": [
@@ -13507,7 +13863,7 @@
       2,
       3,
       3,
-      5
+      6
     ],
     "status": "active"
   },
@@ -16004,15 +16360,15 @@
       }
     ],
     "recent_30d": [
-      102,
-      114,
+      101,
+      113,
       79,
-      67,
-      41,
+      68,
+      40,
       0,
-      4,
+      5,
       20,
-      115,
+      114,
       86,
       95,
       84
