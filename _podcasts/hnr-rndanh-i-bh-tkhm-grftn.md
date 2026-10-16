@@ -17,8 +17,8 @@ pi_id: 5773436
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # هنر رندانه‌ی به تخم گرفتن

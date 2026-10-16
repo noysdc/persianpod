@@ -18,8 +18,8 @@ pi_id: 8074538
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # رادیو سایکت (مدرسه علم و فناوری کوانتوم)

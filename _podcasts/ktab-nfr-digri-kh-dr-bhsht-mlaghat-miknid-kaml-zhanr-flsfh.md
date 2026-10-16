@@ -17,8 +17,8 @@ pi_id: 7467649
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # کتاب "نفر دیگری که در بهشت ملاقات میکنید"-کامل (ژانر فلسفه مرگ و زندگی)

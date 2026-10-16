@@ -18,8 +18,8 @@ pi_id: 1135157
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # چلسی ایرانی
