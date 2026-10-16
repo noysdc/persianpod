@@ -1,7 +1,19 @@
 {
+  "aamozsh-aalmani-ba-doich-kst": {
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "rss": "https://tehranpodcast.ir/category/deutschcast/feed/"
+  },
+  "aamozsh-blak-chin-o-kripto-ha": {
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
+  },
   "aistgah-mosighi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
+  },
+  "archgap-padkst-mamari-aark-gp": {
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
@@ -18,6 +30,10 @@
   "filmhai-sinmaii-airani": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
+  },
+  "ghsh-hai-airani-2451663": {
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://anchor.fm/s/74701b0/podcast/rss"
   },
   "mamanst-mamanest": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
