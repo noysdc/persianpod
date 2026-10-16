@@ -7,6 +7,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
   },
+  "aamozsh-zban-anglisi-talk-stop": {
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
+  },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
@@ -54,6 +58,10 @@
   "roanshnasi-dktr-hlakoii": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/37c7e32c/podcast/rss"
+  },
+  "roanshnasi-piman": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://paymanpsychology.com/feed/"
   },
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
