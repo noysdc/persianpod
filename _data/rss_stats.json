@@ -13544,8 +13544,8 @@
       2,
       4,
       4,
-      4,
-      5
+      5,
+      4
     ],
     "status": "active"
   },
@@ -14221,21 +14221,26 @@
     "status": "inactive"
   },
   "radio-astartap-360": {
-    "avg_gap_days": 13.2,
+    "avg_gap_days": 13.0,
     "avg_length": 6,
-    "episodes": 337,
-    "eps_365": 28,
-    "eps_90": 8,
+    "episodes": 338,
+    "eps_365": 29,
+    "eps_90": 9,
     "first_at": "2019-04-19",
     "first_year": 1398,
-    "last": "1405/07/17",
-    "last_at": "2026-10-09T05:30:06Z",
-    "last_link": "https://s3.castbox.fm/f3/8a/7c/70995d459e8f1245c29e1c7a64.mp3",
-    "last_title": "05-07-17 خلاصه اخبار هفته",
+    "last": "1405/07/24",
+    "last_at": "2026-10-16T05:30:27Z",
+    "last_link": "https://s3.castbox.fm/13/fd/0f/b3395a4ccb8dcd3bd7f0b380ad.mp3",
+    "last_title": "05-07-24 خلاصه اخبار هفته",
     "max_length": 90,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/13/fd/0f/b3395a4ccb8dcd3bd7f0b380ad.mp3",
+        "at": "2026-10-16T05:30:27Z",
+        "t": "05-07-24 خلاصه اخبار هفته"
+      },
       {
         "a": "https://s3.castbox.fm/f3/8a/7c/70995d459e8f1245c29e1c7a64.mp3",
         "at": "2026-10-09T05:30:06Z",
@@ -14270,14 +14275,14 @@
         "a": "https://s3.castbox.fm/12/31/7d/d4a998446cb723d22f01436bc2.mp3",
         "at": "2026-07-31T05:30:35Z",
         "t": "05-05-09 خلاصه اخبار هفته"
-      },
-      {
-        "a": "https://s3.castbox.fm/a5/c4/cd/96090c420cb37a91153cfa2a01.mp3",
-        "at": "2026-07-24T05:30:09Z",
-        "t": "05-05-02 خلاصه اخبار هفته"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-16T05:30:27Z",
+        "link": "https://s3.castbox.fm/13/fd/0f/b3395a4ccb8dcd3bd7f0b380ad.mp3",
+        "title": "05-07-24 خلاصه اخبار هفته"
+      },
       {
         "at": "2026-10-09T05:30:06Z",
         "link": "https://s3.castbox.fm/f3/8a/7c/70995d459e8f1245c29e1c7a64.mp3",
@@ -14287,11 +14292,6 @@
         "at": "2026-10-02T05:30:57Z",
         "link": "https://s3.castbox.fm/27/41/3c/1d0cd945a99b9d5f34adadd652.mp3",
         "title": "05-07-10 اخبار استارتاپی هفته"
-      },
-      {
-        "at": "2026-09-11T05:30:07Z",
-        "link": "https://s3.castbox.fm/93/67/40/f98dfc41318f13f4400a6c7ee8.mp3",
-        "title": "05-06-20 اخبار استارتاپی هفته"
       }
     ],
     "recent_30d": [
@@ -14306,7 +14306,7 @@
       3,
       3,
       3,
-      2
+      3
     ],
     "status": "active"
   },
@@ -18148,12 +18148,12 @@
       101,
       111,
       79,
-      68,
-      40,
+      69,
+      39,
       0,
       6,
-      22,
-      111,
+      23,
+      110,
       86,
       95,
       84
