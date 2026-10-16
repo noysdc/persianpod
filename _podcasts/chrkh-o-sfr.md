@@ -18,8 +18,8 @@ pi_id: 5275158
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # چرخ و سفر

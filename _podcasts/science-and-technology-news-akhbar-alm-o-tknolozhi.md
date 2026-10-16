@@ -18,8 +18,8 @@ pi_id: 3528143
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Science and Technology News اخبار علم و تکنولوژی

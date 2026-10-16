@@ -18,8 +18,8 @@ pi_id: 4798993
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # شعر کوتاه، داستان کوتاه، مقاله کوتاه

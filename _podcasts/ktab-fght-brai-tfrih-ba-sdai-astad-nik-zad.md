@@ -16,8 +16,8 @@ pi_id: 1943349
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # کتاب فقط برای تفریح > با صدای استاد نیک زاد
