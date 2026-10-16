@@ -16,8 +16,8 @@ pi_id: 1546385
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # اخبار قشم بایگانی
