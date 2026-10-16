@@ -3,13 +3,14 @@ layout: default
 filters: true
 description: خانه‌ی پادکست‌های فارسی
 styles: [/assets/css/pp-dir.css, /assets/css/pp-map.css]
-scripts: [/assets/js/pp-order.js, /assets/js/pp-directory.js, /assets/js/pp-map.js]
+scripts: [/assets/js/pp-order.js, /assets/js/pp-ep-search.js, /assets/js/pp-directory.js, /assets/js/pp-map.js]
 ---
 {% assign total = site.podcasts | size %}
 <section class="pd" aria-label="فهرست پادکست‌ها">
   <div class="pd-head">
     <h1>پادکست فارسی را کشف کن</h1>
     <p class="pd-slogan">همه‌ی پادکست‌های فارسی، یک‌جا؛ جست‌وجو کن، پیدا کن و همین‌جا گوش بده.</p>
+    {% include pp-stats.html %}
   </div>
   <hr class="pp-divider pp-divider-tight" aria-hidden="true">
   <div id="pd-chips" class="pd-chips" aria-label="انتخاب‌های فعال"></div>
@@ -26,6 +27,11 @@ scripts: [/assets/js/pp-order.js, /assets/js/pp-directory.js, /assets/js/pp-map.
       {% endfor %}
     </div>
   </div>
+  <section id="pd-eps-wrap" class="pd-eps-wrap" aria-label="قسمت‌های مطابق جست‌وجو" hidden>
+    <h2 class="pd-h2" id="pd-eps-title">قسمت‌ها</h2>
+    <div id="pd-eps" class="pd-eps" role="status" aria-live="polite"></div>
+    <button type="button" id="pd-eps-more" class="pd-eps-more" hidden>نمایش قسمت‌های بیشتر</button>
+  </section>
   <section id="pd-similar-wrap" hidden>
     <h2 class="pd-h2">پادکست‌های مشابه</h2>
     <div id="pd-similar" class="pd-grid"></div>

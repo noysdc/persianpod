@@ -1,0 +1,7 @@
+{%- comment -%} آمار کلی برای بالای صفحه‌ی اصلی: پادکست، قسمت و ساعت از _data/rss_stats.json (هر ۱۰ دقیقه به‌روز می‌شود). ساعت = تعداد قسمت × میانگین طول قسمت‌های اخیر هر پادکست (تخمینی). منطق همان بلوک «pp-side-stats» در _layouts/default.html است که روی دسکتاپ و موبایل پنهان می‌شود. {%- endcomment -%}
+{% assign n_eps = 0 %}{% assign n_min = 0 %}
+{% for p in site.podcasts %}{% assign st_p = site.data.rss_stats[p.slug] %}{% assign e_p = st_p.episodes | default: 0 %}{% assign l_p = st_p.avg_length | default: 0 %}{% assign m_p = e_p | times: l_p %}{% assign n_eps = n_eps | plus: e_p %}{% assign n_min = n_min | plus: m_p %}{% endfor %}
+{% assign n_hours = n_min | divided_by: 60 %}
+{% if n_eps >= 1000 %}{% assign n_eps_r = n_eps | modulo: 1000 | plus: 1000 | append: '' | slice: 1, 3 %}{% assign n_eps_txt = n_eps | divided_by: 1000 | append: '٬' | append: n_eps_r %}{% else %}{% assign n_eps_txt = n_eps %}{% endif %}
+{% if n_hours >= 1000 %}{% assign n_hours_r = n_hours | modulo: 1000 | plus: 1000 | append: '' | slice: 1, 3 %}{% assign n_hours_txt = n_hours | divided_by: 1000 | append: '٬' | append: n_hours_r %}{% else %}{% assign n_hours_txt = n_hours %}{% endif %}
+<p class="pd-stats" aria-label="آمار پرشین‌پاد"><b>{{ site.podcasts.size }}</b> پادکست · <b>{{ n_eps_txt }}</b> قسمت · <b>{{ n_hours_txt }}</b> ساعت</p>

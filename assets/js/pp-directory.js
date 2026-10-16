@@ -284,6 +284,56 @@
   var timer = null;
   function schedule() { clearTimeout(timer); timer = setTimeout(render, 90); }
 
+  /* ---------- قسمت‌های مطابق جست‌وجو (عنوان + توضیح قسمت‌ها؛ ایندکس تکه‌تکه‌ی assets/sidx) ----------
+     فقط وقتی چیزی تایپ شده کار می‌کند؛ اگر ایندکس هنوز ساخته نشده یا خطا بود، بخش پنهان می‌ماند و بقیه‌ی صفحه دست‌نخورده است. */
+  var EP_STEP = 10, epLimit = EP_STEP, epLast = "", epSeq = 0, epTimer = null, epBySlug = null;
+  function epPodcast(slug) {
+    if (!epBySlug) {
+      epBySlug = {};
+      data.forEach(function (p) {
+        var key = p.slug || String(p.url || "").replace(/\/+$/, "").split("/").pop();
+        if (key) epBySlug[key] = p;
+      });
+    }
+    return epBySlug[slug] || null;
+  }
+  function epCard(r) {
+    var pod = epPodcast(r.slug), href = pod ? pod.url : "/podcasts/" + encodeURIComponent(r.slug) + "/";
+    return '<a class="pd-ep" href="' + esc(href) + '">' +
+      '<b class="pd-ep-t">' + esc(r.title || "قسمت بدون عنوان") + "</b>" +
+      (pod ? '<span class="pd-ep-p">' + esc(pod.title) + "</span>" : "") +
+      (r.snippet ? '<span class="pd-ep-s">' + esc(r.snippet) + "</span>" : "") + "</a>";
+  }
+  function epHide() {
+    var w = $("#pd-eps-wrap"); if (w) w.hidden = true;
+    var b = $("#pd-eps"); if (b) b.innerHTML = "";
+  }
+  function epRun() {
+    var wrap = $("#pd-eps-wrap"), box = $("#pd-eps"), more = $("#pd-eps-more"), title = $("#pd-eps-title");
+    if (!wrap || !window.PPEpSearch || !els.q) return;
+    var q = els.q.value.trim();
+    if (q !== epLast) { epLast = q; epLimit = EP_STEP; }
+    if (norm(q).length < 2) { epSeq++; epHide(); return; }
+    var my = ++epSeq;
+    clearTimeout(epTimer);
+    epTimer = setTimeout(function () {
+      PPEpSearch.search(q, { limit: epLimit }).then(function (r) {
+        if (my !== epSeq) return;                         // جست‌وجوی تازه‌تری شروع شده
+        if (!r.results.length) { epHide(); return; }
+        title.textContent = r.missing.length
+          ? "«" + r.missing.join("» و «") + "» در هیچ قسمتی نبود؛ نزدیک‌ترین قسمت‌ها"
+          : r.matched === 0 ? "هیچ قسمتی همه‌ی کلمه‌ها را ندارد؛ نزدیک‌ترین قسمت‌ها"
+          : toFa(r.matched) + " قسمت با این جست‌وجو";
+        box.innerHTML = r.results.map(epCard).join("");
+        more.hidden = r.results.length >= (r.matched || r.total) || r.results.length < epLimit;
+        wrap.hidden = false;
+      }).catch(function () { if (my === epSeq) epHide(); });
+    }, 250);
+  }
+  document.addEventListener("click", function (e) {
+    if (e.target && e.target.id === "pd-eps-more") { epLimit += EP_STEP; epRun(); }
+  });
+
   /* ---------- بازخورد نتیجه: خلاصه‌ی بالای نتایج + دکمه‌ی «نمایش N پادکست» ---------- */
   function ensureSummary() {
     var s = $("#pd-summary");
@@ -383,6 +433,7 @@
     if (fc) { fc.hidden = !n; fc.textContent = toFa(n); }
     syncUrl(f);
     syncPresets();
+    epRun();
   }
   function syncPresets() {
     $$(".pd-fs").forEach(function (fs) {

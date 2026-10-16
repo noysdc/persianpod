@@ -50,6 +50,7 @@ self.addEventListener('fetch', (e) => {
   const req = e.request, url = new URL(req.url);
   if (req.method !== 'GET' || url.origin !== location.origin) return;
   if (url.pathname === '/sw.js' || url.pathname.startsWith('/api/') || req.headers.has('range')) return;
+  if (url.pathname.startsWith('/assets/sidx/')) return;   // ایندکس جست‌وجوی قسمت‌ها: هزاران فایل ریز؛ به کش معمولی مرورگر سپرده می‌شود تا کش SW بی‌سقف بزرگ نشود
 
   if (req.mode === 'navigate') { e.respondWith(networkFirst(req, '/offline/')); return; }
   if (/\.(?:png|jpe?g|webp|gif|svg|ico|woff2?|ttf)$/i.test(url.pathname)) { e.respondWith(staleWhileRevalidate(req)); return; }

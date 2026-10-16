@@ -3,7 +3,7 @@
 برای هر فایل _podcasts/<slug>.md که فیلد rss: دارد:
   episodes (تعداد)، avg_length (دقیقه)، first_year (شمسی)، last (تاریخ آخرین قسمت، شمسی)، status
 فقط با کتابخانه‌ی استاندارد پایتون + PyYAML."""
-import gzip, json, re, statistics, sys, time, urllib.error, urllib.request
+import gzip, html, json, re, statistics, sys, time, urllib.error, urllib.request
 import datetime as dt
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
@@ -18,6 +18,7 @@ RECENT_FOR_AVG = 30           # میانگین طول از چند قسمت آخ�
 PLAY_COUNT = 8                # قسمت‌های آماده‌ی لحظه‌ی اول (داخل rss_stats و podcasts.json)
 ALL_EPS_MAX = 3000            # سقف همه‌ی قسمت‌ها در فایل جدای هر پادکست
 EPS_DIR = ROOT / "assets" / "eps"   # assets/eps/<slug>.json؛ پلیر در صورت نیاز می‌خواندش
+DESC_MAX = 300                # سقف طول توضیح تمیزشده‌ی هر قسمت (برای ایندکس جست‌وجو)
 ERRORS = ROOT / "_data" / "rss_errors.json"
 # بعضی میزبان‌ها (Anchor، Audiya و…) به User-Agent ربات یا IP سرورهای ابری جواب ۴۰۳ می‌دهند؛
 # پس چند هویت را به‌ترتیب امتحان می‌کنیم.
@@ -70,6 +71,46 @@ def parse_duration(s):
         return float(s)
     except ValueError:
         return 0
+
+
+_TAG = re.compile(r"<[^>]+>")
+_URL = re.compile(r"(?:https?://|www\.)\S+", re.I)
+_WS = re.compile(r"\s+")
+
+
+def clean_desc(raw, limit=DESC_MAX):
+    """توضیح قسمت را برای جست‌وجو تمیز می‌کند: بدون تگ HTML، لینک و فاصله‌ی اضافه؛ حداکثر limit حرف (برش در مرز کلمه)."""
+    if not raw:
+        return ""
+    t = re.sub(r"<(?:br|/p|/div|/li)\s*/?>", " ", raw, flags=re.I)
+    t = _TAG.sub(" ", t)
+    t = html.unescape(t)
+    t = _URL.sub(" ", t)
+    t = t.replace("\u200f", "").replace("\u200e", "").replace("\xa0", " ")
+    t = _WS.sub(" ", t).strip()
+    if len(t) <= limit:
+        return t
+    cut = t[:limit]
+    sp = cut.rfind(" ")
+    if sp >= limit * 0.6:
+        cut = cut[:sp]
+    return cut.rstrip(" ،,.:;-–—") + "…"
+
+
+def item_desc(it):
+    """اولین توضیح غیرخالی قسمت: description، بعد itunes:summary، بعد content:encoded، بعد itunes:subtitle."""
+    order = ("description", "summary", "encoded", "subtitle")
+    found = {}
+    for child in it:
+        name = child.tag.rsplit("}", 1)[-1]
+        if name in order and name not in found and (child.text or "").strip():
+            found[name] = child.text
+    for name in order:
+        if name in found:
+            d = clean_desc(found[name])
+            if d:
+                return d
+    return ""
 
 
 def fetch(feed_url):
@@ -154,7 +195,7 @@ def analyse(feed_url):
         au = ((enc.get("url") if enc is not None else "") or "").strip()
         ty = ((enc.get("type") if enc is not None else "") or "").lower()
         if au.lower().startswith(("http://", "https://")) and (ty.startswith("audio") or ty in ("", "application/octet-stream") or re.search(r"\.(mp3|m4a|aac|ogg|oga|wav)(\?|$)", au, re.I)):
-            audio_eps.append((d, (it.findtext("title") or "").strip()[:160], au))
+            audio_eps.append((d, (it.findtext("title") or "").strip()[:160], au, item_desc(it)))
     if not items:
         raise ValueError("no items in feed")
     result = {"episodes": len(items)}
@@ -183,12 +224,17 @@ def analyse(feed_url):
         result["last_link"] = newest[0][2]
         result["recent"] = [{"at": d.strftime("%Y-%m-%dT%H:%M:%SZ"), "title": t, "link": l} for d, t, l in newest]
     # --- پلیر داخلی: ۸ قسمت آخر که فایل صوتی دارند ---
-    play = sorted(((utc2(d), t, u) for d, t, u in audio_eps if d), key=lambda x: x[0], reverse=True)[:PLAY_COUNT]
+    play = sorted(((utc2(d), t, u) for d, t, u, _ in audio_eps if d), key=lambda x: x[0], reverse=True)[:PLAY_COUNT]
     if play:
         result["play"] = [{"at": d.strftime("%Y-%m-%dT%H:%M:%SZ"), "t": t, "a": u} for d, t, u in play]
     # همه‌ی قسمت‌ها (جدیدترین اول؛ بدون تاریخ‌ها آخر). خروجی ثابت است تا بدون قسمت جدید، فایل تغییر نکند.
-    dated_all = sorted(((utc2(d), t, u) for d, t, u in audio_eps if d), key=lambda x: x[0], reverse=True)
-    all_list = [{"t": t, "a": u} for _, t, u in dated_all] + [{"t": t, "a": u} for d, t, u in audio_eps if not d]
+    def ep_row(t, u, desc):
+        row = {"t": t, "a": u}
+        if desc:
+            row["d"] = desc          # توضیح تمیزشده؛ فقط وقتی هست که فید داشته باشد
+        return row
+    dated_all = sorted(((utc2(d), t, u, x) for d, t, u, x in audio_eps if d), key=lambda x: x[0], reverse=True)
+    all_list = [ep_row(t, u, x) for _, t, u, x in dated_all] + [ep_row(t, u, x) for d, t, u, x in audio_eps if not d]
     if all_list:
         result["_all"] = all_list[:ALL_EPS_MAX]
     # --- آمار تکمیلی برای صفحه‌ی «مقایسه»؛ همه از خود RSS و قابل بازتولید ---

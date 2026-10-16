@@ -110,3 +110,22 @@
 /* برچسب «جدید»: اولین قسمت کمتر از ۳ ماه پیش */
 .pd-b.new { display: inline-flex !important; align-items: center; background: rgba(8, 203, 0, .16); color: #08cb00; border: 1px solid rgba(8, 203, 0, .55); font-weight: 800; }
 .pl-card .pd-body > .pd-b.new { display: inline-flex !important; width: max-content; margin: 0 0 4px; }
+
+/* قسمت‌های مطابق جست‌وجو */
+.pd-eps-wrap{margin-top:8px}
+.pd-eps{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(320px,1fr))}
+.pd-ep{display:grid;gap:4px;align-content:start;padding:14px 16px;border:1px solid var(--line);border-radius:18px;background:var(--card);color:var(--ink);text-decoration:none;transition:box-shadow .2s ease,transform .2s ease}
+.pd-ep:hover,.pd-ep:focus-visible{box-shadow:0 10px 28px var(--glow-soft);transform:translateY(-2px)}
+.pd-ep:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+.pd-ep-t{font-size:.98rem;line-height:1.6;font-weight:700;overflow-wrap:anywhere}
+.pd-ep-p{font-size:.82rem;color:#08cb00}
+.pd-ep-s{font-size:.86rem;line-height:1.7;color:var(--mut);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.pd-eps-more{display:block;margin:16px auto 0;height:38px;padding:0 22px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font:inherit;font-size:.92rem;cursor:pointer;transition:border-color .2s ease,box-shadow .2s ease}
+.pd-eps-more[hidden],.pd-eps-wrap[hidden]{display:none}
+.pd-eps-more:hover{border-color:#08cb00;box-shadow:0 6px 18px var(--glow-soft)}
+.pd-eps-more:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+@media(max-width:599px){.pd-eps{grid-template-columns:1fr}}
+
+/* آمار کلی زیر شعار صفحه‌ی اصلی */
+.pd-stats{margin:8px 0 0;font-size:.92rem;line-height:1.8;color:var(--mut)}
+.pd-stats b{color:var(--ink);font-weight:800}

@@ -22,9 +22,11 @@ jobs:
           python-version: "3.12"
       - run: pip install pyyaml
       - run: python scripts/update_rss.py
+      - name: Build episode search index
+        run: python scripts/build_search_index.py
       - name: Commit changes
         run: |
           git config user.name  "persianpod-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add _data/rss_stats.json _data/rss_errors.json assets/eps
+          git add _data/rss_stats.json _data/rss_errors.json assets/eps assets/sidx
           git diff --cached --quiet || (git commit -m "chore: update RSS stats" && git pull --rebase && git push)
