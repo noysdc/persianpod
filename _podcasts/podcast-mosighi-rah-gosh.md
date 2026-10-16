@@ -18,8 +18,8 @@ pi_id: 5908498
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # پادکست موسیقی راه گوش

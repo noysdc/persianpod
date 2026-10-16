@@ -18,8 +18,8 @@ pi_id: 114925
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # پادکست فارسی مستی و راستی

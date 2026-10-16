@@ -17,8 +17,8 @@ pi_id: 6986524
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # روزنامه خاطرات ناصرالدین شاه در سفر سوم فرنگستان

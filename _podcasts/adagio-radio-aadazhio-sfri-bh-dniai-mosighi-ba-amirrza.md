@@ -17,8 +17,8 @@ pi_id: 3357596
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Adagio/رادیو آداژیو  سفری به دنیای موسیقی با امیررضا بنکدار
