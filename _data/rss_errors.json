@@ -1,4 +1,8 @@
 {
+  "aistgah-mosighi": {
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
+  },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
@@ -18,6 +22,14 @@
   "mamanst-mamanest": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://feeds.sounder.fm/16420/rss.xml"
+  },
+  "o-ain-tnha-bazi-jhan-bod": {
+    "error": "ValueError: no items in feed",
+    "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
+  },
+  "roait-ahd": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
+    "rss": "https://ajalallah.com/category/sokhanraniha/akharinsokhanrani/revayat-ahd/feed/"
   },
   "roanshnasi-dktr-hlakoii": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
