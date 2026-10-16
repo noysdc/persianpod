@@ -1036,7 +1036,7 @@
     "avg_length": 17,
     "episodes": 210,
     "eps_365": 96,
-    "eps_90": 19,
+    "eps_90": 18,
     "first_at": "2023-12-16",
     "first_year": 1402,
     "last": "1405/07/22",
@@ -1114,8 +1114,8 @@
       0,
       0,
       0,
-      5,
-      7,
+      6,
+      6,
       7,
       5
     ],
@@ -8939,10 +8939,10 @@
     ],
     "recent_30d": [
       41,
-      91,
-      124,
-      60,
-      8,
+      92,
+      123,
+      61,
+      7,
       0,
       0,
       27,
@@ -12144,19 +12144,24 @@
   "peaceful-presence-path-msir-hzor-aaramsh-padkst-mditishn": {
     "avg_gap_days": 7.3,
     "avg_length": 10,
-    "episodes": 105,
-    "eps_365": 50,
-    "eps_90": 8,
+    "episodes": 106,
+    "eps_365": 51,
+    "eps_90": 9,
     "first_at": "2024-10-17",
     "first_year": 1403,
-    "last": "1405/07/17",
-    "last_at": "2026-10-09T17:19:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-Your-Mind-Wont-Let-You-Rest-e3q02dc",
-    "last_title": "‏/وقتی ذهنت نمی‌گذارد آرام باشی When Your Mind Won’t Let You Rest",
+    "last": "1405/07/24",
+    "last_at": "2026-10-16T17:19:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-You-Dont-Have-to-Control-Everything-e3q03qr",
+    "last_title": "When You Don’t Have to Control Everything/وقتی لازم نیست همه‌چیز را کنترل کنی",
     "max_length": 18,
     "median_length": 9,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://anchor.fm/s/fadf5764/podcast/play/126930203/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F912113a1-4998-671c-0f11-3a7f0fbf838f.mp3",
+        "at": "2026-10-16T17:19:00Z",
+        "t": "When You Don’t Have to Control Everything/وقتی لازم نیست همه‌چیز را کنترل کنی"
+      },
       {
         "a": "https://anchor.fm/s/fadf5764/podcast/play/126928748/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F43a888b8-52cf-ef7c-12ce-7aff11439929.mp3",
         "at": "2026-10-09T17:19:00Z",
@@ -12191,14 +12196,14 @@
         "a": "https://anchor.fm/s/fadf5764/podcast/play/121887480/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-23%2Fa54231c7-e068-ef70-249c-9533d2ee881d.mp3",
         "at": "2026-07-31T18:30:00Z",
         "t": "Returning to Your Mind’s Natural State|    بازگشت به حالت طبیعی ذهن"
-      },
-      {
-        "a": "https://anchor.fm/s/fadf5764/podcast/play/121886981/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-23%2F16ecdf87-fdc7-00db-42af-ff7a1b842197.mp3",
-        "at": "2026-07-24T19:20:00Z",
-        "t": "Quieting the Inner Voice |    خاموش کردن صدای درون"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-16T17:19:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-You-Dont-Have-to-Control-Everything-e3q03qr",
+        "title": "When You Don’t Have to Control Everything/وقتی لازم نیست همه‌چیز را کنترل کنی"
+      },
       {
         "at": "2026-10-09T17:19:00Z",
         "link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-Your-Mind-Wont-Let-You-Rest-e3q02dc",
@@ -12208,11 +12213,6 @@
         "at": "2026-10-02T15:04:00Z",
         "link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-You-Just-Want-Everything-to-Stop-e3p9b3i",
         "title": "When You Just Want Everything to Stop/وقتی فقط می‌خواهی همه چیز متوقف شود"
-      },
-      {
-        "at": "2026-09-25T16:30:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/Moving-Through-Deep-Mental-Exhaustion-e3p9a2s",
-        "title": "Moving Through Deep Mental Exhaustion/عبور از خستگی شدید روانی"
       }
     ],
     "recent_30d": [
@@ -12227,7 +12227,7 @@
       6,
       4,
       1,
-      3
+      4
     ],
     "status": "active"
   },
@@ -20341,8 +20341,8 @@
       0,
       2,
       6,
-      7,
-      7,
+      8,
+      6,
       5
     ],
     "status": "active"
@@ -22588,21 +22588,26 @@
     "status": "active"
   },
   "status-married": {
-    "avg_gap_days": 10.7,
-    "avg_length": 7,
-    "episodes": 19,
-    "eps_365": 19,
-    "eps_90": 8,
+    "avg_gap_days": 12.3,
+    "avg_length": 8,
+    "episodes": 20,
+    "eps_365": 20,
+    "eps_90": 9,
     "first_at": "2026-02-24",
     "first_year": 1404,
-    "last": "1405/06/14",
-    "last_at": "2026-09-05T17:34:00Z",
-    "last_link": "https://shows.acast.com/vaziyatmoteahel/episodes/entekhabedobareh",
-    "last_title": "اگه امروز می‌دیدمت، باز انتخابت می‌کردم؟ | انتخاب دوباره",
-    "max_length": 10,
+    "last": "1405/07/24",
+    "last_at": "2026-10-16T17:30:00Z",
+    "last_link": "https://shows.acast.com/vaziyatmoteahel/episodes/maliyatekaenat",
+    "last_title": "شروع فصل دوم -مالیاتِ کائنات",
+    "max_length": 17,
     "median_length": 8,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6ace76fc7c5c47f85ec46700/media.mp3",
+        "at": "2026-10-16T17:30:00Z",
+        "t": "شروع فصل دوم -مالیاتِ کائنات"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6a5cef0378e0412bc6ba868e/media.mp3",
         "at": "2026-09-05T17:34:00Z",
@@ -22637,14 +22642,14 @@
         "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6a5cece978e0412bc6ba23c8/media.mp3",
         "at": "2026-07-24T17:46:00Z",
         "t": "وقتی هیچ‌کس سهم خودش رو نمی‌بینه | مسئولیت‌پذیری"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6a5ceb2062e50b14bd41f766/media.mp3",
-        "at": "2026-07-19T17:34:00Z",
-        "t": "بخشیدن یعنی فراموش کردن؟ | بخشش"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-16T17:30:00Z",
+        "link": "https://shows.acast.com/vaziyatmoteahel/episodes/maliyatekaenat",
+        "title": "شروع فصل دوم -مالیاتِ کائنات"
+      },
       {
         "at": "2026-09-05T17:34:00Z",
         "link": "https://shows.acast.com/vaziyatmoteahel/episodes/entekhabedobareh",
@@ -22654,11 +22659,6 @@
         "at": "2026-08-29T17:33:00Z",
         "link": "https://shows.acast.com/vaziyatmoteahel/episodes/roshdemoshtarak",
         "title": "کنار هم رشد می‌کنیم یا از هم دور؟ | رشد مشترک"
-      },
-      {
-        "at": "2026-08-22T17:33:00Z",
-        "link": "https://shows.acast.com/vaziyatmoteahel/episodes/tawazoneghodrat",
-        "title": "وقتی قدرت توی رابطه دست یک نفر می‌افته | توازن قدرت"
       }
     ],
     "recent_30d": [
@@ -22673,7 +22673,7 @@
       0,
       5,
       3,
-      0
+      1
     ],
     "status": "active"
   },
@@ -23199,7 +23199,7 @@
     ],
     "recent_30d": [
       103,
-      110,
+      109,
       78,
       72,
       36,
