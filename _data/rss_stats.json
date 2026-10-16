@@ -16632,21 +16632,26 @@
     "status": "active"
   },
   "podcast-roanshnasi-saikopad": {
-    "avg_gap_days": 11.2,
-    "avg_length": 65,
-    "episodes": 196,
-    "eps_365": 33,
-    "eps_90": 11,
+    "avg_gap_days": 11.0,
+    "avg_length": 66,
+    "episodes": 197,
+    "eps_365": 34,
+    "eps_90": 12,
     "first_at": "2021-06-18",
     "first_year": 1400,
-    "last": "1405/07/20",
-    "last_at": "2026-10-12T15:30:00Z",
-    "last_link": "https://dotcast.org/p/lu8pm6lt/855m26hg3m/",
-    "last_title": "کالبدشکافی مهرطلبی | پارادوکس بی رحمانه مهربان بودن",
+    "last": "1405/07/24",
+    "last_at": "2026-10-16T13:30:00Z",
+    "last_link": "https://dotcast.org/p/lu8pm6lt/kmj7383mff/",
+    "last_title": "شمسی تراپی | کالبدشکافی استعاره عمه‌تراپی در برابر روان‌شناسی استاندارد",
     "max_length": 132,
     "median_length": 53,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/lu8pm6lt/kmj7383mff/2026-10-16-13-50-16.mp3",
+        "at": "2026-10-16T13:30:00Z",
+        "t": "شمسی تراپی | کالبدشکافی استعاره عمه‌تراپی در برابر روان‌شناسی استاندارد"
+      },
       {
         "a": "https://feed.dotcast.org/e/lu8pm6lt/855m26hg3m/2026-10-12-15-23-00.mp3",
         "at": "2026-10-12T15:30:00Z",
@@ -16681,14 +16686,14 @@
         "a": "https://feed.dotcast.org/e/lu8pm6lt/kjlvra8fka/2026-08-15-07-17-15.mp3",
         "at": "2026-08-15T07:10:00Z",
         "t": "مهارت تفکیک فرد خودشیفته از فرد خودشکوفا"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/lu8pm6lt/i5tweokone/2026-08-12-16-44-57.mp3",
-        "at": "2026-08-12T16:30:00Z",
-        "t": "پروژه جامع خودشناسی خانواده، زوج و فرد خودمختار | ۱۸۰ ساعت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-16T13:30:00Z",
+        "link": "https://dotcast.org/p/lu8pm6lt/kmj7383mff/",
+        "title": "شمسی تراپی | کالبدشکافی استعاره عمه‌تراپی در برابر روان‌شناسی استاندارد"
+      },
       {
         "at": "2026-10-12T15:30:00Z",
         "link": "https://dotcast.org/p/lu8pm6lt/855m26hg3m/",
@@ -16698,11 +16703,6 @@
         "at": "2026-09-18T09:20:00Z",
         "link": "https://dotcast.org/p/lu8pm6lt/6z92gziugc/",
         "title": "روانشناسی خصومت | چگونه خصومت پنهان را تشخیص بدهیم؟"
-      },
-      {
-        "at": "2026-09-10T08:40:00Z",
-        "link": "https://dotcast.org/p/lu8pm6lt/o7dh64bji4/",
-        "title": "آیا شما گوسفند سیاه خانواده تان هستید؟"
       }
     ],
     "recent_30d": [
@@ -16717,7 +16717,7 @@
       4,
       5,
       4,
-      2
+      3
     ],
     "status": "active"
   },
