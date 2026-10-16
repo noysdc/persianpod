@@ -19012,21 +19012,26 @@
     "status": "inactive"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.3,
+    "avg_gap_days": 4.2,
     "avg_length": 18,
-    "episodes": 475,
-    "eps_365": 86,
-    "eps_90": 15,
+    "episodes": 476,
+    "eps_365": 87,
+    "eps_90": 16,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/07/23",
-    "last_at": "2026-10-15T11:20:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/sl4kx80dje/",
-    "last_title": "تغییر روایت بازار؛ از شوک تورم تا نگرانی‌های هوش مصنوعی",
+    "last": "1405/07/24",
+    "last_at": "2026-10-16T10:40:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/5dsop93uc4/",
+    "last_title": "معمای بازار پس از تورم؛ چرا دلار عقب نشست و طلا رشد کرد؟",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/5dsop93uc4/2026-10-16-10-49-59.mp3",
+        "at": "2026-10-16T10:40:00Z",
+        "t": "معمای بازار پس از تورم؛ چرا دلار عقب نشست و طلا رشد کرد؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/sl4kx80dje/2026-10-15-11-42-46.mp3",
         "at": "2026-10-15T11:20:00Z",
@@ -19061,14 +19066,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/j5n5x6c8ts/2026-10-06-11-08-04.mp3",
         "at": "2026-10-06T11:00:00Z",
         "t": "رکوردشکنی نزدک در سایه بازدهی بالا؛ آیا طلا هم فرصت رشد خواهد یافت؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/kwn4srl2xz/2026-10-05-13-15-36.mp3",
-        "at": "2026-10-05T12:40:00Z",
-        "t": "از اوراق فرانسه تا وضعیت بخش خدمات آمریکا؛ دو محرک اصلی بازار امروز"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-16T10:40:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/5dsop93uc4/",
+        "title": "معمای بازار پس از تورم؛ چرا دلار عقب نشست و طلا رشد کرد؟"
+      },
       {
         "at": "2026-10-15T11:20:00Z",
         "link": "https://dotcast.org/p/bozvcayr/sl4kx80dje/",
@@ -19078,16 +19083,11 @@
         "at": "2026-10-14T11:00:00Z",
         "link": "https://dotcast.org/p/bozvcayr/hdop0zz8yh/",
         "title": "ویلیامز در برابر انتظارات بازار؛ CPI کدام روایت را تأیید می‌کند؟"
-      },
-      {
-        "at": "2026-10-13T11:20:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/omvzd0kh3s/",
-        "title": "آرامش نسبی اوراق، نگرانی سهام؛ چرا نزدک همچنان زیر فشار است؟"
       }
     ],
     "recent_30d": [
       22,
-      21,
+      20,
       6,
       12,
       8,
@@ -19097,7 +19097,7 @@
       0,
       0,
       0,
-      15
+      16
     ],
     "status": "active"
   },
