@@ -4,7 +4,7 @@
     "rss": "https://tehranpodcast.ir/category/deutschcast/feed/"
   },
   "aamozsh-blak-chin-o-kripto-ha": {
-    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
   },
   "aistgah-mosighi": {
@@ -46,10 +46,6 @@
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
-  },
-  "podcast-fotbal-lb": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
-    "rss": "https://feed.podkadeh.cloud/podcastxml/footballlab.xml"
   },
   "roait-ahd": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
