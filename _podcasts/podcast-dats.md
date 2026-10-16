@@ -10,7 +10,7 @@ status: "فعال"
 language: "فارسی"
 creator: "Ehsan Tarighat"
 episode_count: 77
-logo: ""
+logo: "/assets/img/podcasts/podcast-dats.webp"
 rss: "https://rss.audiyacreators.one/cmirr88fetztwmiq39efe"
 apple_podcasts: "https://podcasts.apple.com/podcast/id1687882324"
 pi_id: 6379670
