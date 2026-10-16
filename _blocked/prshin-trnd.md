@@ -1,7 +1,7 @@
 ---
 title: "پرشین ترند"
 title_en: ""
-slug: "prshin-trnd"
+slug: "persian-trend"
 description: "پرشین ترند یک رسانه فارسی‌زبان مستقل در حوزه ژئوپلیتیک، تحولات نظامی، سیاست خاورمیانه و پوشش زنده بحران‌های بین‌المللی است."
 category: "جامعه و سیاست"
 subcategories: ["اخبار و تحلیل روز","سیاست و حکمرانی"]
@@ -17,8 +17,8 @@ pi_id: 7866444
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: false
+published: false
 ---
 
 # پرشین ترند
