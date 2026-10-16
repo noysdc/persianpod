@@ -10,7 +10,7 @@ status: "فعال"
 language: "فارسی"
 creator: "لاله زارع"
 episode_count: 100
-logo: ""
+logo: "/assets/img/podcasts/jnaii-khoani.webp"
 rss: "https://rss.audiyacreators.one/cmi77c4nu0whxud41npkn"
 apple_podcasts: "https://podcasts.apple.com/podcast/id1838434303"
 pi_id: 7223873
@@ -27,7 +27,7 @@ published: true
 
 ## تازه‌ترین قسمت‌ها
 
-- [قسمت ۲۴ | فهرست انتقام](https://www.spreaker.com/episode/qsmt-24-fhrst-antqam--74746473){:target="_blank" rel="noopener"}
+- [قسمت ۲۴ | فهرست انتقام](https://castbox.fm/ep/74746473){:target="_blank" rel="noopener"}
 - [قسمت 25| قتل با سم مار؛ یک قتل بی‌نقص](https://rss.audiyacreators.one/cmi77c4nu0whxud41npkn){:target="_blank" rel="noopener"}
 - [قسمت 26 | مرد هزار چهره](https://rss.audiyacreators.one/cmi77c4nu0whxud41npkn){:target="_blank" rel="noopener"}
 
