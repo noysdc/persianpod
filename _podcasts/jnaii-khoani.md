@@ -87,19 +87,3 @@ published: true
 - [حمایت از جنایی خوانی در Patreon](https://patreon.com/Jenaeekhani){:target="_blank" rel="noopener"}
 
 ---
-
-## توضیحات پایانی
-
-**فایل تصویر (لوگو/کاور):**
-
-- **نام فایل تصویر:** `jnaii-khoani.webp`
-- **پسوند:** `webp`
-- **مخزن رسمی گیت‌هاب تصاویر:** [https://github.com/noysdc/persianpod/tree/master/assets/img/podcasts](https://github.com/noysdc/persianpod/tree/master/assets/img/podcasts)
-- **آدرس وب نهایی تصویر:** [https://persianpod.ir/assets/img/podcasts/jnaii-khoani.webp](https://persianpod.ir/assets/img/podcasts/jnaii-khoani.webp)
-- **مسیر در Front Matter:** `logo: "/assets/img/podcasts/jnaii-khoani.webp"`
-
-**نکات تکمیلی:**
-
-- این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست (فید RSS) تهیه شده است.
-- اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/){:target="_blank" rel="noopener"} به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید.
-- برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به [contact@persianpod.ir](mailto:contact@persianpod.ir) پیام بدهید.
