@@ -20,7 +20,7 @@
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
   },
   "dastan-hai-tarikhi": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 104] Connection reset by peer>",
     "rss": "https://qajartime.com/feed/podcast/historical-stories/"
   },
   "film-o-srial-soti": {
