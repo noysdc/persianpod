@@ -1036,7 +1036,7 @@
     "avg_length": 17,
     "episodes": 210,
     "eps_365": 96,
-    "eps_90": 19,
+    "eps_90": 18,
     "first_at": "2023-12-16",
     "first_year": 1402,
     "last": "1405/07/22",
@@ -1106,16 +1106,16 @@
       }
     ],
     "recent_30d": [
-      22,
+      21,
       17,
       8,
-      14,
-      8,
-      0,
-      0,
-      0,
-      5,
+      15,
       7,
+      0,
+      0,
+      0,
+      6,
+      6,
       7,
       5
     ],
@@ -1298,6 +1298,96 @@
       1,
       0,
       0
+    ],
+    "status": "active"
+  },
+  "airan-braamdn-rzakhan-braftadn-ghajar-o-nghsh-anglis-ha": {
+    "avg_gap_days": 9.5,
+    "avg_length": 17,
+    "episodes": 28,
+    "eps_365": 28,
+    "eps_90": 10,
+    "first_at": "2026-01-24",
+    "first_year": 1404,
+    "last": "1405/07/15",
+    "last_at": "2026-10-07T15:20:27Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3q3bc1",
+    "last_title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل ششم - بخش اول - مقدمه کودتا",
+    "max_length": 25,
+    "median_length": 17,
+    "min_length": 11,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/10e427598/podcast/play/127036225/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-7%2F70a4a934-4277-d9f4-69d0-8550c0d0c401.mp3",
+        "at": "2026-10-07T15:20:27Z",
+        "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل ششم - بخش اول - مقدمه کودتا"
+      },
+      {
+        "a": "https://anchor.fm/s/10e427598/podcast/play/126109817/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-21%2F7a6d9232-d91b-3ae4-08d4-843c15bef4eb.mp3",
+        "at": "2026-09-21T23:55:55Z",
+        "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش ششم و آخر - نخست وزیری سپهدار"
+      },
+      {
+        "a": "https://anchor.fm/s/10e427598/podcast/play/125995770/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-19%2F0c9d8a7b-9c10-8d55-ae04-ac6689929781.mp3",
+        "at": "2026-09-19T15:53:18Z",
+        "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش چهارم - نخست وزیری سپهدار"
+      },
+      {
+        "a": "https://anchor.fm/s/10e427598/podcast/play/125744105/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-14%2Fc90b68f2-bc96-5aa4-986c-0e18af51ce71.mp3",
+        "at": "2026-09-14T23:54:55Z",
+        "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش پنجم - نخست وزیری سپهدار"
+      },
+      {
+        "a": "https://anchor.fm/s/10e427598/podcast/play/125013438/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-31%2F943e0256-10c3-1be4-4da1-0e92acdb0c44.mp3",
+        "at": "2026-08-31T23:59:21Z",
+        "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش سوم - نخست وزیری سپهدار"
+      },
+      {
+        "a": "https://anchor.fm/s/10e427598/podcast/play/124686321/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-25%2F41dc2e6d-dbe5-65a8-8fa7-40636192c782.mp3",
+        "at": "2026-08-25T00:25:37Z",
+        "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش دوم - نخست وزیری سپهدار"
+      },
+      {
+        "a": "https://anchor.fm/s/10e427598/podcast/play/124389470/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-29%2F40342beb-d11a-2bda-c39a-77fd3c9016c9.mp3",
+        "at": "2026-08-18T13:45:04Z",
+        "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش اول - نخست وزیری سپهدار"
+      },
+      {
+        "a": "https://anchor.fm/s/10e427598/podcast/play/123750133/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-4%2F676da036-f6f3-0b9e-a35f-40025447160c.mp3",
+        "at": "2026-08-04T11:33:43Z",
+        "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل چهارم - بخش هفتم - نخست وزیری مشیرالدوله حسن پیرنیا"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-07T15:20:27Z",
+        "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3q3bc1",
+        "title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل ششم - بخش اول - مقدمه کودتا"
+      },
+      {
+        "at": "2026-09-21T23:55:55Z",
+        "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/-----------------e3p72lp",
+        "title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش ششم و آخر - نخست وزیری سپهدار"
+      },
+      {
+        "at": "2026-09-19T15:53:18Z",
+        "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3p3j9q",
+        "title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش چهارم - نخست وزیری سپهدار"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      4,
+      2,
+      3,
+      5,
+      2,
+      2,
+      3,
+      4,
+      3
     ],
     "status": "active"
   },
@@ -2686,19 +2776,24 @@
   "chh-hsi-dari-roanshnasi-khodshnasi": {
     "avg_gap_days": 1.0,
     "avg_length": 21,
-    "episodes": 77,
-    "eps_365": 77,
-    "eps_90": 77,
+    "episodes": 78,
+    "eps_365": 78,
+    "eps_90": 78,
     "first_at": "2026-07-29",
     "first_year": 1405,
     "last": "1405/07/24",
-    "last_at": "2026-10-16T11:55:44Z",
-    "last_link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-drsh-ra-bgdhar--75822211",
-    "last_title": "داستان کوتاه طنز| درش را بگذار",
+    "last_at": "2026-10-16T19:07:03Z",
+    "last_link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-yk-qwty-kirm--75829617",
+    "last_title": "داستان کوتاه طنز| یک قوطی کِرم",
     "max_length": 33,
     "median_length": 15,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75829617/utf_8_b_24zaqsdzgtmi2lfbjcdaqdix2yuubxaz.mp3",
+        "at": "2026-10-16T19:07:03Z",
+        "t": "داستان کوتاه طنز| یک قوطی کِرم"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75822211/utf_8_b_2k_ysdi0inix2kcg2kjar9iw2kfyss5tcdm.mp3",
         "at": "2026-10-16T11:55:44Z",
@@ -2733,14 +2828,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75702193/utf_8_b_2k_yrtiq2leg2k7yp9mg2ycg2qnzhtin2lhbjc5tcdm.mp3",
         "at": "2026-10-11T18:11:57Z",
         "t": "داستان کوتاه طنز | دختر خانه‌ی کناری"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75687088/utf_8_b_2kfysdio2kfyqcdystin2lrzhydzhti024zzhidzh9inlm1wmw.mp3",
-        "at": "2026-10-10T12:40:18Z",
-        "t": "داستان کوتاه طنز| ارباب زاغه نشین‌ها|دیوید سدرایس"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-16T19:07:03Z",
+        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-yk-qwty-kirm--75829617",
+        "title": "داستان کوتاه طنز| یک قوطی کِرم"
+      },
       {
         "at": "2026-10-16T11:55:44Z",
         "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-drsh-ra-bgdhar--75822211",
@@ -2750,11 +2845,6 @@
         "at": "2026-10-15T10:12:27Z",
         "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-milk-dywyd-sdrays--75804466",
         "title": "داستان کوتاه طنز| مِلک |دیوید سدرایس"
-      },
-      {
-        "at": "2026-10-13T13:17:19Z",
-        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-khrws-rwy-nrdh-dywyd-sdrays--75754212",
-        "title": "داستان کوتاه طنز | خروس روی نرده| دیوید سدرایس"
       }
     ],
     "recent_30d": [
@@ -2769,7 +2859,7 @@
       0,
       32,
       21,
-      24
+      25
     ],
     "status": "active"
   },
@@ -7506,11 +7596,11 @@
       }
     ],
     "recent_30d": [
-      1,
+      0,
       2,
       0,
-      0,
       1,
+      0,
       0,
       0,
       1,
@@ -8132,8 +8222,8 @@
       }
     ],
     "recent_30d": [
-      1,
-      5,
+      2,
+      4,
       2,
       0,
       0,
@@ -8775,20 +8865,25 @@
   },
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
-    "avg_length": 22,
-    "episodes": 604,
-    "eps_365": 604,
-    "eps_90": 195,
+    "avg_length": 21,
+    "episodes": 605,
+    "eps_365": 605,
+    "eps_90": 193,
     "first_at": "2025-10-22",
     "first_year": 1404,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T19:36:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6acfd62937f0bd18cc4c0b63",
-    "last_title": "نگاهی به خود بخش شانزدهم",
+    "last": "1405/07/24",
+    "last_at": "2026-10-16T17:33:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6ad25155aa02353b87435d46",
+    "last_title": "نگاهی به خود -بخش پایانی",
     "max_length": 44,
     "median_length": 16,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ad25155aa02353b87435d46/media.mp3",
+        "at": "2026-10-16T17:33:00Z",
+        "t": "نگاهی به خود -بخش پایانی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6acfd62937f0bd18cc4c0b63/media.mp3",
         "at": "2026-10-14T19:36:00Z",
@@ -8823,14 +8918,14 @@
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6aca681c3dc1c1be4a54903d/media.mp3",
         "at": "2026-10-10T18:15:00Z",
         "t": "نگاهی به خود - بخش دهم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ac9153df38f25c0f09397e8/media.mp3",
-        "at": "2026-10-10T17:15:00Z",
-        "t": "نگاهی به خود - بخش نهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-16T17:33:00Z",
+        "link": "https://shows.acast.com/statusmarried/episodes/6ad25155aa02353b87435d46",
+        "title": "نگاهی به خود -بخش پایانی"
+      },
       {
         "at": "2026-10-14T19:36:00Z",
         "link": "https://shows.acast.com/statusmarried/episodes/6acfd62937f0bd18cc4c0b63",
@@ -8840,26 +8935,21 @@
         "at": "2026-10-14T19:18:30Z",
         "link": "https://shows.acast.com/statusmarried/episodes/6acfd58a9fea6e0a64052c10",
         "title": "نگاهی بخود - بخش پانزدهم"
-      },
-      {
-        "at": "2026-10-13T18:30:00Z",
-        "link": "https://shows.acast.com/statusmarried/episodes/6ace62b42c705f746c1ef396",
-        "title": "نگاهی به خود - بخش چهاردهم"
       }
     ],
     "recent_30d": [
-      41,
-      91,
-      124,
-      58,
-      10,
+      43,
+      92,
+      121,
+      62,
+      6,
       0,
       0,
       27,
-      58,
+      61,
       64,
       62,
-      69
+      67
     ],
     "status": "active"
   },
@@ -10719,8 +10809,8 @@
       }
     ],
     "recent_30d": [
-      2,
       3,
+      2,
       1,
       0,
       0,
@@ -10904,8 +10994,8 @@
       9,
       2,
       0,
-      2,
-      12,
+      4,
+      10,
       16,
       22,
       4,
@@ -13492,6 +13582,96 @@
     ],
     "status": "active"
   },
+  "podcast-farsi-dioan": {
+    "avg_gap_days": 19.0,
+    "avg_length": 25,
+    "episodes": 46,
+    "eps_365": 19,
+    "eps_90": 6,
+    "first_at": "2024-10-01",
+    "first_year": 1403,
+    "last": "1405/07/16",
+    "last_at": "2026-10-08T06:00:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E11-e3ji5c6",
+    "last_title": "S5E11 : رستم و سهراب.",
+    "max_length": 36,
+    "median_length": 25,
+    "min_length": 19,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/120181574/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F598bf3c3-e85d-e7bf-5d34-c5a19cc8684b.mp3",
+        "at": "2026-10-08T06:00:00Z",
+        "t": "S5E11 : رستم و سهراب."
+      },
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/120181468/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F486ae7d9-b94c-65ae-7bba-6dc97f76ff5b.mp3",
+        "at": "2026-09-24T06:00:00Z",
+        "t": "S5E10 : خورشید پشت ابر."
+      },
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/120181333/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F3a98d87d-d98b-f518-bb9f-bc1b4ea9a053.mp3",
+        "at": "2026-09-10T06:00:00Z",
+        "t": "S5E9 : دعوا کنون."
+      },
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/120181054/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F080af456-525f-c2d1-88b3-e4246c33ff16.mp3",
+        "at": "2026-08-27T06:00:00Z",
+        "t": "S5E8 : یه دختر دارم، شاه نداره."
+      },
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/120180848/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2Ff1143b55-4511-1375-db53-d63358a0467b.mp3",
+        "at": "2026-08-13T06:00:00Z",
+        "t": "S5E7 : آغاز ماجرا."
+      },
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/120180619/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F9463deb7-5444-abbc-520e-e4c9777d9c1a.mp3",
+        "at": "2026-07-30T06:00:00Z",
+        "t": "S5E6 : ملاقات خصوصی."
+      },
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/120180532/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2Ff66db591-0ba6-ecab-8b0a-0d3732786e47.mp3",
+        "at": "2026-07-16T06:00:00Z",
+        "t": "S5E5 : پروژه آپولو ۱."
+      },
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/120180396/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F108fc5be-1220-7a40-442d-8884fbbe1b79.mp3",
+        "at": "2026-07-02T06:00:00Z",
+        "t": "S5E4 : کیکاووس بی حوصله."
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-08T06:00:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E11-e3ji5c6",
+        "title": "S5E11 : رستم و سهراب."
+      },
+      {
+        "at": "2026-09-24T06:00:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E10-e3ji58s",
+        "title": "S5E10 : خورشید پشت ابر."
+      },
+      {
+        "at": "2026-09-10T06:00:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E9-e3ji54l",
+        "title": "S5E9 : دعوا کنون."
+      }
+    ],
+    "recent_30d": [
+      2,
+      2,
+      1,
+      0,
+      1,
+      2,
+      0,
+      3,
+      2,
+      2,
+      2,
+      2
+    ],
+    "status": "active"
+  },
   "podcast-farsi-fikshn-fiction-podcast": {
     "avg_gap_days": 14.9,
     "avg_length": 42,
@@ -14932,7 +15112,7 @@
     "avg_length": 46,
     "episodes": 65,
     "eps_365": 17,
-    "eps_90": 9,
+    "eps_90": 8,
     "first_at": "2021-07-25",
     "first_year": 1400,
     "last": "1405/07/19",
@@ -15010,8 +15190,8 @@
       0,
       1,
       2,
-      1,
-      3,
+      2,
+      2,
       3,
       3
     ],
@@ -15469,7 +15649,7 @@
     "avg_length": 35,
     "episodes": 130,
     "eps_365": 46,
-    "eps_90": 20,
+    "eps_90": 19,
     "first_at": "2019-12-09",
     "first_year": 1398,
     "last": "1405/07/20",
@@ -15547,8 +15727,8 @@
       0,
       0,
       0,
-      4,
-      9,
+      5,
+      8,
       5,
       6
     ],
@@ -16348,8 +16528,8 @@
     ],
     "recent_30d": [
       6,
-      8,
-      4,
+      9,
+      3,
       2,
       2,
       0,
@@ -19808,6 +19988,96 @@
     ],
     "status": "inactive"
   },
+  "rai-bn-mstnd": {
+    "avg_gap_days": 43.2,
+    "avg_length": 67,
+    "episodes": 27,
+    "eps_365": 7,
+    "eps_90": 2,
+    "first_at": "2022-08-05",
+    "first_year": 1401,
+    "last": "1405/06/19",
+    "last_at": "2026-09-10T04:00:03Z",
+    "last_link": "https://s3.castbox.fm/e2/3f/07/5abab0472b9dea0bffe045b706.mp3",
+    "last_title": "شماره‌ی بیست‌وپنجم: جنگ شد - روایت پنجم",
+    "max_length": 107,
+    "median_length": 63,
+    "min_length": 13,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/e2/3f/07/5abab0472b9dea0bffe045b706.mp3",
+        "at": "2026-09-10T04:00:03Z",
+        "t": "شماره‌ی بیست‌وپنجم: جنگ شد - روایت پنجم"
+      },
+      {
+        "a": "https://s3.castbox.fm/c9/d6/90/a620ee4c1abb64ada5754e8b78.mp3",
+        "at": "2026-07-31T10:19:38Z",
+        "t": "شماره‌ی بیست‌وچهارم: جنگ شد - روایت چهارم"
+      },
+      {
+        "a": "https://s3.castbox.fm/aa/08/93/b24b474caa800cdaa65c725382.mp3",
+        "at": "2026-07-12T15:16:22Z",
+        "t": "شماره‌ی بیست‌وسوم: جنگ شد - روایت سوم"
+      },
+      {
+        "a": "https://s3.castbox.fm/27/94/92/45d37f4ad6bf828b17b7062a29.mp3",
+        "at": "2026-06-30T06:16:36Z",
+        "t": "شماره‌ی بیست‌ودوم: جنگ شد - روایت دوم"
+      },
+      {
+        "a": "https://s3.castbox.fm/5c/1d/8c/4a7c3645a9b73fa09e9b7a5f06.mp3",
+        "at": "2026-06-14T10:18:53Z",
+        "t": "شماره‌ی بیست‌ویکم: جنگ شد - روایت نخست"
+      },
+      {
+        "a": "https://s3.castbox.fm/4d/87/9d/0c02314c6f82329653b4e27b71.mp4",
+        "at": "2026-06-13T05:15:23Z",
+        "t": "از نگاه شما - ۰۲"
+      },
+      {
+        "a": "https://s3.castbox.fm/dd/ed/ee/1715d642238f500c4bca567043.mp3",
+        "at": "2025-12-24T05:03:14Z",
+        "t": "شماره‌ی بیستم: زخم، قاشق"
+      },
+      {
+        "a": "https://s3.castbox.fm/b5/c6/62/73197d4d89bcebf214c890e894.mp3",
+        "at": "2025-09-08T06:37:20Z",
+        "t": "شماره‌ی نوزدهم: معصومه"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-10T04:00:03Z",
+        "link": "https://s3.castbox.fm/e2/3f/07/5abab0472b9dea0bffe045b706.mp3",
+        "title": "شماره‌ی بیست‌وپنجم: جنگ شد - روایت پنجم"
+      },
+      {
+        "at": "2026-07-31T10:19:38Z",
+        "link": "https://s3.castbox.fm/c9/d6/90/a620ee4c1abb64ada5754e8b78.mp3",
+        "title": "شماره‌ی بیست‌وچهارم: جنگ شد - روایت چهارم"
+      },
+      {
+        "at": "2026-07-12T15:16:22Z",
+        "link": "https://s3.castbox.fm/aa/08/93/b24b474caa800cdaa65c725382.mp3",
+        "title": "شماره‌ی بیست‌وسوم: جنگ شد - روایت سوم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      1,
+      1,
+      0
+    ],
+    "status": "active"
+  },
   "rman-hai-jnaii-ba-noshin": {
     "avg_gap_days": 6.8,
     "avg_length": 32,
@@ -19883,8 +20153,8 @@
       }
     ],
     "recent_30d": [
-      16,
-      12,
+      18,
+      10,
       1,
       0,
       0,
@@ -20071,9 +20341,99 @@
       0,
       2,
       6,
-      7,
-      7,
+      8,
+      6,
       5
+    ],
+    "status": "active"
+  },
+  "roanshnasi-jamah": {
+    "avg_gap_days": 0.1,
+    "avg_length": 21,
+    "episodes": 27,
+    "eps_365": 11,
+    "eps_90": 0,
+    "first_at": "2019-12-07",
+    "first_year": 1398,
+    "last": "1404/09/01",
+    "last_at": "2025-11-22T00:41:41Z",
+    "last_link": "https://shenoto.com/album/podcast/871186/پادکست ترور شخصیت",
+    "last_title": "پادکست ترور شخصیت",
+    "max_length": 48,
+    "median_length": 18,
+    "min_length": 9,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/a4fe4f88-c73f-11f0-b314-0242ac120014.mp3",
+        "at": "2025-11-22T00:41:41Z",
+        "t": "پادکست ترور شخصیت"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/f29f5d69-c652-11f0-b314-0242ac120014.mp3",
+        "at": "2025-11-21T08:41:20Z",
+        "t": "پادکست چهار قدرت زنانه"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/375b5d9c-c6f4-11f0-b314-0242ac120014.mp3",
+        "at": "2025-11-21T03:41:45Z",
+        "t": "پادکست هوش مالی"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/58ecc665-c6e2-11f0-b314-0242ac120014.mp3",
+        "at": "2025-11-21T01:41:50Z",
+        "t": "پادکست صدای خِـرَد"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/a4493f36-c679-11f0-b314-0242ac120014.mp3",
+        "at": "2025-11-21T01:41:19Z",
+        "t": "پادکست استعداد"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/9f8f54ca-c676-11f0-b314-0242ac120014.mp3",
+        "at": "2025-11-21T00:41:43Z",
+        "t": "پادکست تاب‌آوری برای کودک"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/1ff4dde2-c6d7-11f0-b314-0242ac120014.mp3",
+        "at": "2025-11-21T00:41:30Z",
+        "t": "پادکست شهامت"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/4d6e18e6-c66c-11f0-b314-0242ac120014.mp3",
+        "at": "2025-11-20T23:41:50Z",
+        "t": "پادکست ابراز وجود (از زبان دختری 14 ساله)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-11-22T00:41:41Z",
+        "link": "https://shenoto.com/album/podcast/871186/پادکست ترور شخصیت",
+        "title": "پادکست ترور شخصیت"
+      },
+      {
+        "at": "2025-11-21T08:41:20Z",
+        "link": "https://shenoto.com/album/podcast/859544/پادکست چهار قدرت زنانه",
+        "title": "پادکست چهار قدرت زنانه"
+      },
+      {
+        "at": "2025-11-21T03:41:45Z",
+        "link": "https://shenoto.com/album/podcast/866570/پادکست هوش مالی",
+        "title": "پادکست هوش مالی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      11,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "status": "active"
   },
@@ -21780,6 +22140,95 @@
     ],
     "status": "active"
   },
+  "shnbh-ha-ba-sinma": {
+    "avg_length": 54,
+    "episodes": 29,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-04-26",
+    "first_year": 1399,
+    "last": "1399/07/26",
+    "last_at": "2020-10-17T21:42:00Z",
+    "last_link": "https://s3.castbox.fm/55/28/a7/abf5df452b9e42589af9e21613.mp3",
+    "last_title": "28. Uncut Gems (2019) I جواهرات تراش نخورده",
+    "max_length": 67,
+    "median_length": 58,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/55/28/a7/abf5df452b9e42589af9e21613.mp3",
+        "at": "2020-10-17T21:42:00Z",
+        "t": "28. Uncut Gems (2019) I جواهرات تراش نخورده"
+      },
+      {
+        "a": "https://s3.castbox.fm/f6/7c/85/830bd94d39b5115a0c2e67be9e.mp3",
+        "at": "2020-10-11T10:20:11Z",
+        "t": "27. Her (2013) I او"
+      },
+      {
+        "a": "https://s3.castbox.fm/35/bd/30/55a4984002bf1afef04acbfdbe.mp3",
+        "at": "2020-10-04T06:57:32Z",
+        "t": "26. Scent of a Woman I بوی خوش زن"
+      },
+      {
+        "a": "https://s3.castbox.fm/fa/7f/ec/407bd74c36b1707970dfd510e2.mp3",
+        "at": "2020-09-26T20:45:53Z",
+        "t": "25. A Beautiful Mind (2001) I یک ذهن زیبا"
+      },
+      {
+        "a": "https://s3.castbox.fm/9a/2d/b2/55b5824d98bbdf9b2a5c512f8f.mp3",
+        "at": "2020-09-19T19:00:40Z",
+        "t": "24. A Separation (2011) I  جدایی نادر از سیمین"
+      },
+      {
+        "a": "https://s3.castbox.fm/24/03/a4/7d57f0491a8efbbca9545a7d82.mp3",
+        "at": "2020-09-15T02:48:40Z",
+        "t": "23. The Notebook (2004) I  دفترچه"
+      },
+      {
+        "a": "https://s3.castbox.fm/5d/df/c3/2bd54d4199ba935aed2a98a401.mp3",
+        "at": "2020-09-06T05:33:28Z",
+        "t": "22. A Clockwork Orange (1971) I پرتقال کوکی"
+      },
+      {
+        "a": "https://s3.castbox.fm/d3/b6/28/f4fccf4eb7bbabd39a57066422.mp3",
+        "at": "2020-08-29T20:27:47Z",
+        "t": "21. The Wolf of Wall Street (2013) I گرگ وال استریت"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-10-17T21:42:00Z",
+        "link": "https://s3.castbox.fm/55/28/a7/abf5df452b9e42589af9e21613.mp3",
+        "title": "28. Uncut Gems (2019) I جواهرات تراش نخورده"
+      },
+      {
+        "at": "2020-10-11T10:20:11Z",
+        "link": "https://s3.castbox.fm/f6/7c/85/830bd94d39b5115a0c2e67be9e.mp3",
+        "title": "27. Her (2013) I او"
+      },
+      {
+        "at": "2020-10-04T06:57:32Z",
+        "link": "https://s3.castbox.fm/35/bd/30/55a4984002bf1afef04acbfdbe.mp3",
+        "title": "26. Scent of a Woman I بوی خوش زن"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "shokhi-ba-tarikh": {
     "avg_gap_days": 8.3,
     "avg_length": 30,
@@ -22139,21 +22588,31 @@
     "status": "active"
   },
   "status-married": {
-    "avg_gap_days": 10.7,
-    "avg_length": 7,
-    "episodes": 19,
-    "eps_365": 19,
-    "eps_90": 8,
+    "avg_gap_days": 11.7,
+    "avg_length": 8,
+    "episodes": 21,
+    "eps_365": 21,
+    "eps_90": 10,
     "first_at": "2026-02-24",
     "first_year": 1404,
-    "last": "1405/06/14",
-    "last_at": "2026-09-05T17:34:00Z",
-    "last_link": "https://shows.acast.com/vaziyatmoteahel/episodes/entekhabedobareh",
-    "last_title": "اگه امروز می‌دیدمت، باز انتخابت می‌کردم؟ | انتخاب دوباره",
-    "max_length": 10,
+    "last": "1405/07/24",
+    "last_at": "2026-10-16T17:50:00Z",
+    "last_link": "https://shows.acast.com/vaziyatmoteahel/episodes/maliyatekhoroj",
+    "last_title": "اپیزود دوم - خروج",
+    "max_length": 17,
     "median_length": 8,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6ad216bc253c13a898415d0c/media.mp3",
+        "at": "2026-10-16T17:50:00Z",
+        "t": "اپیزود دوم - خروج"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6ace76fc7c5c47f85ec46700/media.mp3",
+        "at": "2026-10-16T17:30:00Z",
+        "t": "شروع فصل دوم -مالیاتِ کائنات"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6a5cef0378e0412bc6ba868e/media.mp3",
         "at": "2026-09-05T17:34:00Z",
@@ -22183,33 +22642,23 @@
         "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6a5ced4bf782764c4cfd5979/media.mp3",
         "at": "2026-07-31T17:34:00Z",
         "t": "بعد از آسیب، رابطه چطور دوباره ساخته می‌شه؟ | ترمیم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6a5cece978e0412bc6ba23c8/media.mp3",
-        "at": "2026-07-24T17:46:00Z",
-        "t": "وقتی هیچ‌کس سهم خودش رو نمی‌بینه | مسئولیت‌پذیری"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6a5ceb2062e50b14bd41f766/media.mp3",
-        "at": "2026-07-19T17:34:00Z",
-        "t": "بخشیدن یعنی فراموش کردن؟ | بخشش"
       }
     ],
     "recent": [
       {
+        "at": "2026-10-16T17:50:00Z",
+        "link": "https://shows.acast.com/vaziyatmoteahel/episodes/maliyatekhoroj",
+        "title": "اپیزود دوم - خروج"
+      },
+      {
+        "at": "2026-10-16T17:30:00Z",
+        "link": "https://shows.acast.com/vaziyatmoteahel/episodes/maliyatekaenat",
+        "title": "شروع فصل دوم -مالیاتِ کائنات"
+      },
+      {
         "at": "2026-09-05T17:34:00Z",
         "link": "https://shows.acast.com/vaziyatmoteahel/episodes/entekhabedobareh",
         "title": "اگه امروز می‌دیدمت، باز انتخابت می‌کردم؟ | انتخاب دوباره"
-      },
-      {
-        "at": "2026-08-29T17:33:00Z",
-        "link": "https://shows.acast.com/vaziyatmoteahel/episodes/roshdemoshtarak",
-        "title": "کنار هم رشد می‌کنیم یا از هم دور؟ | رشد مشترک"
-      },
-      {
-        "at": "2026-08-22T17:33:00Z",
-        "link": "https://shows.acast.com/vaziyatmoteahel/episodes/tawazoneghodrat",
-        "title": "وقتی قدرت توی رابطه دست یک نفر می‌افته | توازن قدرت"
       }
     ],
     "recent_30d": [
@@ -22224,7 +22673,7 @@
       0,
       5,
       3,
-      0
+      2
     ],
     "status": "active"
   },
@@ -22678,7 +23127,7 @@
     "avg_gap_days": 0.4,
     "avg_length": 10,
     "episodes": 4198,
-    "eps_365": 824,
+    "eps_365": 820,
     "eps_90": 265,
     "first_at": "2023-09-13",
     "first_year": 1402,
@@ -22749,14 +23198,14 @@
       }
     ],
     "recent_30d": [
-      103,
-      109,
-      79,
+      100,
+      110,
+      77,
       72,
       36,
       0,
-      6,
-      26,
+      7,
+      25,
       107,
       86,
       98,
@@ -23652,9 +24101,9 @@
       0,
       0,
       0,
-      12,
+      13,
       26,
-      5
+      4
     ],
     "status": "active"
   },
@@ -23886,7 +24335,7 @@
     "avg_gap_days": 11.1,
     "avg_length": 16,
     "episodes": 46,
-    "eps_365": 29,
+    "eps_365": 28,
     "eps_90": 6,
     "first_at": "2025-08-05",
     "first_year": 1404,
