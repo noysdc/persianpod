@@ -12144,19 +12144,24 @@
   "peaceful-presence-path-msir-hzor-aaramsh-padkst-mditishn": {
     "avg_gap_days": 7.3,
     "avg_length": 10,
-    "episodes": 105,
-    "eps_365": 50,
-    "eps_90": 8,
+    "episodes": 106,
+    "eps_365": 51,
+    "eps_90": 9,
     "first_at": "2024-10-17",
     "first_year": 1403,
-    "last": "1405/07/17",
-    "last_at": "2026-10-09T17:19:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-Your-Mind-Wont-Let-You-Rest-e3q02dc",
-    "last_title": "‏/وقتی ذهنت نمی‌گذارد آرام باشی When Your Mind Won’t Let You Rest",
+    "last": "1405/07/24",
+    "last_at": "2026-10-16T17:19:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-You-Dont-Have-to-Control-Everything-e3q03qr",
+    "last_title": "When You Don’t Have to Control Everything/وقتی لازم نیست همه‌چیز را کنترل کنی",
     "max_length": 18,
     "median_length": 9,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://anchor.fm/s/fadf5764/podcast/play/126930203/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F912113a1-4998-671c-0f11-3a7f0fbf838f.mp3",
+        "at": "2026-10-16T17:19:00Z",
+        "t": "When You Don’t Have to Control Everything/وقتی لازم نیست همه‌چیز را کنترل کنی"
+      },
       {
         "a": "https://anchor.fm/s/fadf5764/podcast/play/126928748/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F43a888b8-52cf-ef7c-12ce-7aff11439929.mp3",
         "at": "2026-10-09T17:19:00Z",
@@ -12191,14 +12196,14 @@
         "a": "https://anchor.fm/s/fadf5764/podcast/play/121887480/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-23%2Fa54231c7-e068-ef70-249c-9533d2ee881d.mp3",
         "at": "2026-07-31T18:30:00Z",
         "t": "Returning to Your Mind’s Natural State|    بازگشت به حالت طبیعی ذهن"
-      },
-      {
-        "a": "https://anchor.fm/s/fadf5764/podcast/play/121886981/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-23%2F16ecdf87-fdc7-00db-42af-ff7a1b842197.mp3",
-        "at": "2026-07-24T19:20:00Z",
-        "t": "Quieting the Inner Voice |    خاموش کردن صدای درون"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-16T17:19:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-You-Dont-Have-to-Control-Everything-e3q03qr",
+        "title": "When You Don’t Have to Control Everything/وقتی لازم نیست همه‌چیز را کنترل کنی"
+      },
       {
         "at": "2026-10-09T17:19:00Z",
         "link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-Your-Mind-Wont-Let-You-Rest-e3q02dc",
@@ -12208,11 +12213,6 @@
         "at": "2026-10-02T15:04:00Z",
         "link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-You-Just-Want-Everything-to-Stop-e3p9b3i",
         "title": "When You Just Want Everything to Stop/وقتی فقط می‌خواهی همه چیز متوقف شود"
-      },
-      {
-        "at": "2026-09-25T16:30:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/Moving-Through-Deep-Mental-Exhaustion-e3p9a2s",
-        "title": "Moving Through Deep Mental Exhaustion/عبور از خستگی شدید روانی"
       }
     ],
     "recent_30d": [
@@ -12227,7 +12227,7 @@
       6,
       4,
       1,
-      3
+      4
     ],
     "status": "active"
   },
