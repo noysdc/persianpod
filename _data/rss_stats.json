@@ -12867,21 +12867,26 @@
     "status": "active"
   },
   "podcast-aorsi": {
-    "avg_gap_days": 39.9,
-    "avg_length": 33,
-    "episodes": 56,
-    "eps_365": 9,
-    "eps_90": 3,
+    "avg_gap_days": 39.4,
+    "avg_length": 34,
+    "episodes": 57,
+    "eps_365": 10,
+    "eps_90": 4,
     "first_at": "2020-04-23",
     "first_year": 1399,
-    "last": "1405/06/20",
-    "last_at": "2026-09-11T04:30:00Z",
-    "last_link": "https://shows.acast.com/owrsi/episodes/6aa2b8f8c939da27954de324",
-    "last_title": "قسمت ۵۶ پادکست اورسی | تهران، غریبۀ آشنا",
+    "last": "1405/07/24",
+    "last_at": "2026-10-16T14:43:42Z",
+    "last_link": "https://shows.acast.com/owrsi/episodes/remnants",
+    "last_title": "قسمت ۵۷ پادکست اورسی | رَدِ آنچه نیست",
     "max_length": 55,
     "median_length": 27,
     "min_length": 20,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6262e549ad4010001329533a/e/6ad22ca66203da9f286f4d6e/media.mp3",
+        "at": "2026-10-16T14:43:42Z",
+        "t": "قسمت ۵۷ پادکست اورسی | رَدِ آنچه نیست"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6262e549ad4010001329533a/e/6aa2b8f8c939da27954de324/media.mp3",
         "at": "2026-09-11T04:30:00Z",
@@ -12916,14 +12921,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6262e549ad4010001329533a/e/69500c16c9578c8cdace3f89/media.mp3",
         "at": "2025-12-27T16:40:53Z",
         "t": "قسمت ۵۰  پادکست اورسی | پرسه‌زن (فلانور)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6262e549ad4010001329533a/e/692437ffd73c1da9f71426b6/media.mp3",
-        "at": "2025-11-24T10:48:31Z",
-        "t": "قسمت ۴۹ پادکست اورسی | در انتظار باران"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-16T14:43:42Z",
+        "link": "https://shows.acast.com/owrsi/episodes/remnants",
+        "title": "قسمت ۵۷ پادکست اورسی | رَدِ آنچه نیست"
+      },
       {
         "at": "2026-09-11T04:30:00Z",
         "link": "https://shows.acast.com/owrsi/episodes/6aa2b8f8c939da27954de324",
@@ -12933,11 +12938,6 @@
         "at": "2026-08-14T08:49:51Z",
         "link": "https://shows.acast.com/owrsi/episodes/6a7ed6af248fe5d9f8d9f5b7",
         "title": "قسمت ۵۵ پادکست اورسی | همه‌چیز در جای خود"
-      },
-      {
-        "at": "2026-07-25T11:32:40Z",
-        "link": "https://shows.acast.com/owrsi/episodes/6a648ae2fa6cc1e030c9ac8f",
-        "title": "قسمت ۵۴ پادکست اورسی | من اندوه جهانم"
       }
     ],
     "recent_30d": [
@@ -12952,7 +12952,7 @@
       1,
       2,
       1,
-      0
+      1
     ],
     "status": "active"
   },
