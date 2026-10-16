@@ -15,13 +15,17 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 20          # اجرای گیرکرده خودش قطع شود تا صف اجراهای بعدی را نبندد
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install pyyaml
-      - run: python scripts/update_rss.py
+      - name: Update RSS stats
+        env:
+          RSS_RETRY_ALL: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}   # اجرای دستی، فیدهای خراب را هم دوباره امتحان می‌کند
+        run: python scripts/update_rss.py
       - name: Build episode search index
         run: python scripts/build_search_index.py
       - name: Commit changes
@@ -29,4 +33,13 @@ jobs:
           git config user.name  "persianpod-bot"
           git config user.email "actions@users.noreply.github.com"
           git add _data/rss_stats.json _data/rss_errors.json assets/eps assets/sidx
-          git diff --cached --quiet || (git commit -m "chore: update RSS stats" && git pull --rebase && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update RSS stats"
+          # اگر هم‌زمان خودت push کرده باشی، چند بار با داده‌ی ربات (که مرجع این فایل‌هاست) دوباره سعی می‌کند
+          for i in 1 2 3 4; do
+            git pull --rebase -X theirs && git push && exit 0
+            echo "push failed (attempt $i), retrying"
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
+          exit 1

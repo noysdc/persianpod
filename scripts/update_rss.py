@@ -3,7 +3,7 @@
 برای هر فایل _podcasts/<slug>.md که فیلد rss: دارد:
   episodes (تعداد)، avg_length (دقیقه)، first_year (شمسی)، last (تاریخ آخرین قسمت، شمسی)، status
 فقط با کتابخانه‌ی استاندارد پایتون + PyYAML."""
-import gzip, html, json, re, statistics, sys, time, urllib.error, urllib.request
+import concurrent.futures, gzip, html, json, os, re, socket, statistics, sys, threading, time, urllib.error, urllib.parse, urllib.request, zlib
 import datetime as dt
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
@@ -20,6 +20,9 @@ ALL_EPS_MAX = 3000            # سقف همه‌ی قسمت‌ها در فایل
 EPS_DIR = ROOT / "assets" / "eps"   # assets/eps/<slug>.json؛ پلیر در صورت نیاز می‌خواندش
 DESC_MAX = 300                # سقف طول توضیح تمیزشده‌ی هر قسمت (برای ایندکس جست‌وجو)
 ERRORS = ROOT / "_data" / "rss_errors.json"
+WORKERS = 12                  # فیدها هم‌زمان گرفته می‌شوند (قبلاً پشت‌سرهم؛ اجرا ۸ تا ۱۱ دقیقه طول می‌کشید)
+PER_HOST = 3                  # حداکثر درخواست هم‌زمان به یک میزبان (acast، castbox و anchor دهها فید دارند)
+RETRY_EVERY_H = 6             # فید خراب فقط هر چند ساعت یک‌بار دوباره امتحان می‌شود (اجرای دستی همه را امتحان می‌کند)
 # بعضی میزبان‌ها (Anchor، Audiya و…) به User-Agent ربات یا IP سرورهای ابری جواب ۴۰۳ می‌دهند؛
 # پس چند هویت را به‌ترتیب امتحان می‌کنیم.
 UAS = [
@@ -114,7 +117,9 @@ def item_desc(it):
 
 
 def fetch(feed_url):
-    """دریافت فید با چند User-Agent و دو بار تلاش؛ خطای آخر با جزئیات برمی‌گردد."""
+    """دریافت فید با چند User-Agent؛ خطای آخر با جزئیات برمی‌گردد.
+    خطای دائمی (دامنه‌ی ناموجود، اتصال ردشده) فوراً قطع می‌شود؛ ۴۰۳/۴۰۴/۴۲۹/۵۰۳ فقط با User-Agent بعدی امتحان می‌شود،
+    و تلاش دوباره با همان User-Agent فقط برای خطای موقت (تایم‌اوت، قطع اتصال، ۵۰۰) است."""
     last_err = None
     for ua in UAS:
         for attempt in range(2):
@@ -129,11 +134,16 @@ def fetch(feed_url):
                     return data
             except urllib.error.HTTPError as e:
                 last_err = f"HTTP {e.code} ({e.reason}) با UA «{ua[:20]}…»"
-                if e.code in (403, 429, 503):
+                if e.code in (403, 404, 410, 429, 503):
                     break                    # با همین UA فایده ندارد؛ سراغ UA بعدی
+            except urllib.error.URLError as e:
+                last_err = f"{type(e).__name__}: {e}"
+                if isinstance(e.reason, (socket.gaierror, ConnectionRefusedError)):
+                    raise RuntimeError(last_err)      # دامنه وجود ندارد یا پورت بسته است؛ UA فرقی نمی‌کند
             except Exception as e:
                 last_err = f"{type(e).__name__}: {e}"
-            time.sleep(2)
+            if attempt == 0:
+                time.sleep(2)
     raise RuntimeError(last_err or "unknown fetch error")
 
 
@@ -261,10 +271,19 @@ def analyse(feed_url):
     return result
 
 
+def retry_due(slug, now=None):
+    """فید خراب فقط در یک بازه‌ی یک‌ساعته از هر RETRY_EVERY_H ساعت دوباره امتحان می‌شود (بر اساس slug پخش می‌شود)."""
+    now = now or dt.datetime.now(dt.timezone.utc)
+    return now.hour % RETRY_EVERY_H == zlib.crc32(slug.encode("utf-8")) % RETRY_EVERY_H
+
+
 def main():
     previous = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
+    prev_errors = json.loads(ERRORS.read_text(encoding="utf-8")) if ERRORS.exists() else {}
+    retry_all = bool(os.environ.get("RSS_RETRY_ALL"))
     stats = dict(previous)
     errors = {}
+    jobs = []
     for path in sorted(PODCASTS.glob("*.md")):
         fm = front_matter(path)
         feed = fm.get("rss")
@@ -272,19 +291,44 @@ def main():
         slug = str(fm.get("slug") or path.stem)
         if not feed:
             continue
+        if slug in prev_errors and prev_errors[slug].get("rss") == feed and not retry_all and not retry_due(slug):
+            errors[slug] = prev_errors[slug]         # فید خراب: این بار دوباره امتحان نمی‌شود، خطای قبلی می‌ماند
+            print(f"skip {slug}: failing, retry later", file=sys.stderr)
+            continue
+        jobs.append((slug, feed))
+
+    host_gate = {}
+    gate_lock = threading.Lock()
+
+    def gate(feed):
+        host = urllib.parse.urlsplit(feed).netloc.lower()
+        with gate_lock:
+            return host_gate.setdefault(host, threading.Semaphore(PER_HOST))
+
+    def work(job):
+        slug, feed = job
         try:
-            stats[slug] = analyse(feed)
-            all_eps = stats[slug].pop("_all", None)
-            if all_eps:
-                EPS_DIR.mkdir(parents=True, exist_ok=True)
-                fp = EPS_DIR / (slug.replace("/", "_") + ".json")
-                txt = json.dumps(all_eps, ensure_ascii=False, separators=(",", ":")) + "\n"
-                if not fp.exists() or fp.read_text(encoding="utf-8") != txt:
-                    fp.write_text(txt, encoding="utf-8")
-            print(f"ok   {slug}: {stats[slug]}")
+            with gate(feed):
+                return slug, feed, analyse(feed), None
         except Exception as e:           # اگر خطا شد، آمار قبلی حفظ می‌شود
-            errors[slug] = {"rss": feed, "error": f"{type(e).__name__}: {e}"[:300]}
-            print(f"FAIL {slug}: {e}", file=sys.stderr)
+            return slug, feed, None, f"{type(e).__name__}: {e}"[:300]
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        results = list(pool.map(work, jobs))          # ترتیب نتیجه‌ها همان ترتیب jobs است (خروجی ثابت)
+    for slug, feed, res, err in results:
+        if err:
+            errors[slug] = {"rss": feed, "error": err}
+            print(f"FAIL {slug}: {err}", file=sys.stderr)
+            continue
+        stats[slug] = res
+        all_eps = stats[slug].pop("_all", None)
+        if all_eps:
+            EPS_DIR.mkdir(parents=True, exist_ok=True)
+            fp = EPS_DIR / (slug.replace("/", "_") + ".json")
+            txt = json.dumps(all_eps, ensure_ascii=False, separators=(",", ":")) + "\n"
+            if not fp.exists() or fp.read_text(encoding="utf-8") != txt:
+                fp.write_text(txt, encoding="utf-8")
+        print(f"ok   {slug}: {stats[slug]}")
     # دلیل خطای هر فید در فایل جدا ثبت می‌شود تا بدون لاگ Actions هم دیده شود
     err_text = json.dumps(errors, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
     if not ERRORS.exists() or ERRORS.read_text(encoding="utf-8") != err_text:
