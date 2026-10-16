@@ -2011,6 +2011,96 @@
     ],
     "status": "active"
   },
+  "cinematograph": {
+    "avg_gap_days": 209.0,
+    "avg_length": 64,
+    "episodes": 19,
+    "eps_365": 2,
+    "eps_90": 1,
+    "first_at": "2019-06-25",
+    "first_year": 1398,
+    "last": "1405/06/23",
+    "last_at": "2026-09-14T02:47:24Z",
+    "last_link": "https://shows.acast.com/cinematograph-or-snmtorf/episodes/6aa753afc939da27955984b8",
+    "last_title": "اپیزود شانزده- ورود هوش مصنوعی به دوبلاژ ایران، بخش آخر",
+    "max_length": 115,
+    "median_length": 73,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624dfc11ebccf20012f59cd6/e/6aa753afc939da27955984b8/media.mp3",
+        "at": "2026-09-14T02:47:24Z",
+        "t": "اپیزود شانزده- ورود هوش مصنوعی به دوبلاژ ایران، بخش آخر"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624dfc11ebccf20012f59cd6/e/6992c61e1506be1a7e3ac2ea/media.mp3",
+        "at": "2026-02-16T07:24:14Z",
+        "t": "برای علی‌اکبر جاوید"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624dfc11ebccf20012f59cd6/e/6861edd6653df36e7bc6bc10/media.mp3",
+        "at": "2025-06-30T01:52:21Z",
+        "t": "اپیزود پانزده- ورود هوش مصنوعی به دوبلاژ ایران، آن‌سوی لنز"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624dfc11ebccf20012f59cd6/e/66f293c27a3d63d20ff1ccac/media.mp3",
+        "at": "2024-09-25T01:30:00Z",
+        "t": "اپیزود چهارده - ورود هوش مصنوعی به دوبلاژ ایران، کالبد شکافی یک پرونده"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624dfc11ebccf20012f59cd6/e/64fc3da10c337a00111c7d53/media.mp3",
+        "at": "2023-09-09T10:00:00Z",
+        "t": "اضافه هفتم، بخش پایانی بررسی دوبله فیلم پدرخوانده"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624dfc11ebccf20012f59cd6/e/64e59244a704e30011e699f1/media.mp3",
+        "at": "2023-08-23T05:27:19Z",
+        "t": "اضافه ششم - ادامه بررسی دوبله فیلم پدرخوانده"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624dfc11ebccf20012f59cd6/e/63352b0ba204e20014132362/media.mp3",
+        "at": "2022-09-29T05:20:11Z",
+        "t": "برای مهسا، زن، زندگی، آزادی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624dfc11ebccf20012f59cd6/e/6323fadfa8cfed001211fee1/media.mp3",
+        "at": "2022-09-16T04:30:10Z",
+        "t": "اضافه پنجم - بررسی دوبله فیلم پدرخوانده"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-14T02:47:24Z",
+        "link": "https://shows.acast.com/cinematograph-or-snmtorf/episodes/6aa753afc939da27955984b8",
+        "title": "اپیزود شانزده- ورود هوش مصنوعی به دوبلاژ ایران، بخش آخر"
+      },
+      {
+        "at": "2026-02-16T07:24:14Z",
+        "link": "https://shows.acast.com/cinematograph-or-snmtorf/episodes/6992c61e1506be1a7e3ac2ea",
+        "title": "برای علی‌اکبر جاوید"
+      },
+      {
+        "at": "2025-06-30T01:52:21Z",
+        "link": "https://shows.acast.com/cinematograph-or-snmtorf/episodes/6861edd6653df36e7bc6bc10",
+        "title": "اپیزود پانزده- ورود هوش مصنوعی به دوبلاژ ایران، آن‌سوی لنز"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "status": "active"
+  },
   "cool-talk-padkst-aamozsh-zban-kol-tak": {
     "avg_gap_days": 131.5,
     "avg_length": 23,
