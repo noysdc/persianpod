@@ -19,6 +19,10 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://feeds.sounder.fm/16420/rss.xml"
   },
+  "podcast-farsi-fikshn-fiction-podcast": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j"
+  },
   "roanshnasi-dktr-hlakoii": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/37c7e32c/podcast/rss"
