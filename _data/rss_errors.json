@@ -16,7 +16,7 @@
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
   },
   "akhbar-ghshm-baigani": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
     "rss": "https://www.hormozban.ir/name/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1-%D9%82%D8%B4%D9%85/feed"
   },
   "archgap-padkst-mamari-aark-gp": {
