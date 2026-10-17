@@ -8670,21 +8670,26 @@
     "status": "active"
   },
   "ghab-tarikh": {
-    "avg_gap_days": 4.1,
-    "avg_length": 52,
-    "episodes": 85,
-    "eps_365": 14,
-    "eps_90": 14,
+    "avg_gap_days": 6.4,
+    "avg_length": 53,
+    "episodes": 86,
+    "eps_365": 15,
+    "eps_90": 15,
     "first_at": "2021-10-08",
     "first_year": 1400,
-    "last": "1405/06/20",
-    "last_at": "2026-09-11T20:31:00Z",
-    "last_link": "https://shows.acast.com/kb-trkh/episodes/6aa40f90564171e32a682d21",
-    "last_title": "منوچهر اقبال ؛ پزشکی حاذق و نخست‌وزیری مطیع",
+    "last": "1405/07/25",
+    "last_at": "2026-10-17T20:31:00Z",
+    "last_link": "https://shows.acast.com/kb-trkh/episodes/6ad3af2bd3bfab176e26d086",
+    "last_title": "چرا انقلاب پنجاه و هفت اتفاق افتاد؟",
     "max_length": 94,
     "median_length": 56,
     "min_length": 13,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/625bbdb9fb38010012244bd4/e/6ad3af2bd3bfab176e26d086/media.mp3",
+        "at": "2026-10-17T20:31:00Z",
+        "t": "چرا انقلاب پنجاه و هفت اتفاق افتاد؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/625bbdb9fb38010012244bd4/e/6aa40f90564171e32a682d21/media.mp3",
         "at": "2026-09-11T20:31:00Z",
@@ -8719,14 +8724,14 @@
         "a": "https://sphinx.acast.com/p/open/s/625bbdb9fb38010012244bd4/e/6a630e67a7fbf9da14ff5783/media.mp3",
         "at": "2026-07-27T20:30:00Z",
         "t": "عبدالحسین‌میرزا فرمانفرما ؛ سیاستمدار دل‌شکسته"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/625bbdb9fb38010012244bd4/e/6a630b26a7fbf9da14fe78ce/media.mp3",
-        "at": "2026-07-26T20:31:00Z",
-        "t": "چرا حسینعلی منتظری از قائم‌مقامی رهبری عزل شد؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-17T20:31:00Z",
+        "link": "https://shows.acast.com/kb-trkh/episodes/6ad3af2bd3bfab176e26d086",
+        "title": "چرا انقلاب پنجاه و هفت اتفاق افتاد؟"
+      },
       {
         "at": "2026-09-11T20:31:00Z",
         "link": "https://shows.acast.com/kb-trkh/episodes/6aa40f90564171e32a682d21",
@@ -8736,11 +8741,6 @@
         "at": "2026-08-05T20:31:00Z",
         "link": "https://shows.acast.com/kb-trkh/episodes/6a7025bff7c2060a1fe6faa5",
         "title": "چرا کودتای نوژه شکست خورد؟"
-      },
-      {
-        "at": "2026-08-03T20:31:00Z",
-        "link": "https://shows.acast.com/kb-trkh/episodes/6a7022ae0cbc3e73ce080ee1",
-        "title": "سید حسن آیت ؛ معمار اصل ولایت فقیه در قانون اساسی"
       }
     ],
     "recent_30d": [
@@ -8755,7 +8755,7 @@
       0,
       13,
       1,
-      0
+      1
     ],
     "status": "active"
   },
