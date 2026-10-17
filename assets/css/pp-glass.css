@@ -1,0 +1,258 @@
+/* PersianPod — استایل شیشه‌ای. باید آخرین CSS در default.html باشد. */
+
+/* ۰) متغیرها */
+:root{
+  --gl-blur:22px; --gl-sat:170%;
+  --gl-fill:linear-gradient(145deg,rgba(8,203,0,.07),rgba(8,203,0,0) 55%),linear-gradient(145deg,rgba(255,255,255,.66),rgba(255,255,255,.36));
+  --gl-fill-strong:linear-gradient(145deg,rgba(8,203,0,.06),rgba(8,203,0,0) 55%),linear-gradient(145deg,rgba(255,255,255,.92),rgba(255,255,255,.80));
+  --gl-flat:rgba(255,255,255,.5); --gl-flat-hover:rgba(255,255,255,.74);
+  --gl-edge:rgba(255,255,255,.75); --gl-rim:rgba(22,52,30,.09);
+  --gl-hi:rgba(255,255,255,.9); --gl-lo:rgba(255,255,255,.28);
+  --gl-shadow:0 12px 36px -12px rgba(10,70,25,.28),0 2px 8px rgba(22,32,26,.05);
+  --gl-hair:rgba(22,52,30,.13); --gl-hair-hi:rgba(255,255,255,.85);
+  --gl-green-fill:linear-gradient(180deg,rgba(48,224,38,.96),rgba(8,203,0,.80));
+  --gl-green-edge:rgba(255,255,255,.55);
+  --gl-green-glow:0 10px 26px -8px rgba(8,203,0,.55);
+  --gl-amb-1:rgba(8,203,0,.20); --gl-amb-2:rgba(0,255,156,.17); --gl-amb-3:rgba(120,230,90,.13);
+  --glass:rgba(255,255,255,.5); --glass-line:rgba(255,255,255,.75);
+}
+:root[data-theme=dark]{
+  --gl-fill:linear-gradient(145deg,rgba(8,203,0,.10),rgba(8,203,0,0) 55%),linear-gradient(145deg,rgba(255,255,255,.115),rgba(255,255,255,.04));
+  --gl-fill-strong:linear-gradient(145deg,rgba(8,203,0,.10),rgba(8,203,0,0) 55%),linear-gradient(145deg,rgba(34,42,38,.90),rgba(22,28,25,.82));
+  --gl-flat:rgba(255,255,255,.06); --gl-flat-hover:rgba(255,255,255,.13);
+  --gl-edge:rgba(255,255,255,.17); --gl-rim:rgba(0,0,0,.35);
+  --gl-hi:rgba(255,255,255,.24); --gl-lo:rgba(255,255,255,.04);
+  --gl-shadow:0 16px 44px -14px rgba(0,0,0,.7),0 2px 8px rgba(0,0,0,.25);
+  --gl-hair:rgba(255,255,255,.14); --gl-hair-hi:rgba(255,255,255,.05);
+  --gl-green-fill:linear-gradient(180deg,rgba(40,222,30,.92),rgba(8,203,0,.72));
+  --gl-green-edge:rgba(255,255,255,.35);
+  --gl-green-glow:0 10px 28px -8px rgba(0,255,156,.5);
+  --gl-amb-1:rgba(8,203,0,.24); --gl-amb-2:rgba(0,255,156,.13); --gl-amb-3:rgba(8,203,0,.10);
+  --glass:rgba(255,255,255,.07); --glass-line:rgba(255,255,255,.17);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]):not([data-theme=dark]){
+    --gl-fill:linear-gradient(145deg,rgba(8,203,0,.10),rgba(8,203,0,0) 55%),linear-gradient(145deg,rgba(255,255,255,.115),rgba(255,255,255,.04));
+    --gl-fill-strong:linear-gradient(145deg,rgba(8,203,0,.10),rgba(8,203,0,0) 55%),linear-gradient(145deg,rgba(34,42,38,.90),rgba(22,28,25,.82));
+    --gl-flat:rgba(255,255,255,.06); --gl-flat-hover:rgba(255,255,255,.13);
+    --gl-edge:rgba(255,255,255,.17); --gl-rim:rgba(0,0,0,.35);
+    --gl-hi:rgba(255,255,255,.24); --gl-lo:rgba(255,255,255,.04);
+    --gl-shadow:0 16px 44px -14px rgba(0,0,0,.7),0 2px 8px rgba(0,0,0,.25);
+    --gl-hair:rgba(255,255,255,.14); --gl-hair-hi:rgba(255,255,255,.05);
+    --gl-amb-1:rgba(8,203,0,.24); --gl-amb-2:rgba(0,255,156,.13); --gl-amb-3:rgba(8,203,0,.10);
+    --glass:rgba(255,255,255,.07); --glass-line:rgba(255,255,255,.17);
+  }
+}
+body.reading{
+  --gl-fill:linear-gradient(145deg,rgba(255,251,240,.8),rgba(255,251,240,.55));
+  --gl-fill-strong:linear-gradient(145deg,rgba(255,251,240,.94),rgba(255,251,240,.86));
+  --gl-flat:rgba(255,251,240,.6); --gl-flat-hover:rgba(255,251,240,.85);
+  --gl-edge:rgba(230,220,195,.9); --gl-hair:rgba(107,93,68,.22);
+  --gl-shadow:0 10px 28px -12px rgba(80,60,20,.22);
+  --glass:rgba(255,251,240,.62); --glass-line:rgba(230,220,195,.9);
+}
+:root[data-theme=dark] body.reading{
+  --gl-fill:linear-gradient(145deg,rgba(255,240,210,.09),rgba(255,240,210,.035));
+  --gl-fill-strong:linear-gradient(145deg,rgba(40,34,26,.92),rgba(28,24,18,.86));
+  --gl-flat:rgba(255,240,210,.06); --gl-flat-hover:rgba(255,240,210,.12);
+  --gl-edge:rgba(255,255,255,.12); --gl-hair:rgba(255,255,255,.14);
+  --glass:rgba(28,24,18,.62); --glass-line:rgba(255,255,255,.1);
+}
+
+/* ۱) زمینه‌ی محیطی (لکه‌های سبز ملایم پشت شیشه) */
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:
+    radial-gradient(46vmax 38vmax at 88% -6%,var(--gl-amb-1),transparent 65%),
+    radial-gradient(40vmax 34vmax at -4% 38%,var(--gl-amb-2),transparent 65%),
+    radial-gradient(44vmax 36vmax at 70% 108%,var(--gl-amb-3),transparent 65%)}
+body.reading::before{display:none}
+
+/* ۲) پنل‌های بزرگ (blur) */
+:root .pd-filters,:root .pd-group,:root .pp-map-section,:root .pp-doc,:root .pp-news,
+:root .pp-embed-box,:root .pl-stage,:root .pod-hero,:root .pod .facts,:root .cp-card,
+:root .cp-m-box,:root .pf-set,:root .pf-acc,:root .pf-title,:root .pf-modal-box,
+:root .pp-suggest,:root .cp-list,:root .pp-sug{
+  background:var(--gl-fill);border:1px solid var(--gl-edge);
+  -webkit-backdrop-filter:blur(var(--gl-blur)) saturate(var(--gl-sat));
+  backdrop-filter:blur(var(--gl-blur)) saturate(var(--gl-sat));
+  box-shadow:inset 0 1px 0 var(--gl-hi),inset 0 -1px 0 var(--gl-lo),0 0 0 1px var(--gl-rim),var(--gl-shadow)}
+:root .pp-sug,:root .cp-list,:root .pf-modal-box{background:var(--gl-fill-strong)}
+@media (min-width:800px){
+  :root .pp-cats{background:var(--gl-fill);border:1px solid var(--gl-edge);
+    -webkit-backdrop-filter:blur(var(--gl-blur)) saturate(var(--gl-sat));
+    backdrop-filter:blur(var(--gl-blur)) saturate(var(--gl-sat));
+    box-shadow:inset 0 1px 0 var(--gl-hi),inset 0 -1px 0 var(--gl-lo),0 0 0 1px var(--gl-rim),var(--gl-shadow)}
+}
+@media (max-width:1199px){
+  :root .pd-group{background:none;border:0;-webkit-backdrop-filter:none;backdrop-filter:none;box-shadow:none}
+}
+:root .ppfp{--ppfp-bg:rgba(255,255,255,.72);--ppfp-bar:rgba(255,255,255,.5);--ppfp-line:rgba(255,255,255,.7);
+  -webkit-backdrop-filter:blur(var(--gl-blur)) saturate(var(--gl-sat));backdrop-filter:blur(var(--gl-blur)) saturate(var(--gl-sat));
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px var(--gl-rim),0 16px 44px -10px rgba(0,0,0,.35),0 0 22px rgba(0,255,156,.22)}
+:root[data-theme=dark] .ppfp{--ppfp-bg:rgba(20,24,27,.62);--ppfp-bar:rgba(255,255,255,.07);--ppfp-line:rgba(255,255,255,.16)}
+
+/* ۳) شیشه‌ی تو در تو (بدون blur) */
+:root .pf-row,:root .cp-tr-row,:root .pf-tg-box,:root .pf-drop,:root .cp-tip,
+:root .cp-chosen:not(:empty),:root .pf-tips,:root .pd-ep,:root .pod .body blockquote,
+:root .pp-article blockquote,:root .pl-post-body pre{
+  background:var(--gl-flat);border-color:var(--gl-edge);
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px var(--gl-rim)}
+:root .pd-ep:hover,:root .pd-ep:focus-visible{background:var(--gl-flat-hover);
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px var(--gl-rim),0 12px 28px -10px rgba(8,203,0,.4)}
+:root .pf-tips{border-style:solid}
+:root .pf-drop{border-style:dashed;border-width:1.5px;border-color:var(--gl-hair)}
+:root .cp-chosen:not(:empty){border-color:rgba(8,203,0,.65)}
+
+/* ۴) فیلدها */
+:root select,:root .pd-filters select,:root .pd-filters input[type=text],:root .cp-box input,
+:root .pf-row input[type=text],:root .pp-form input[type=text],:root .pp-form input[type=email],
+:root .pp-form input[type=url],:root .pp-form textarea,:root .pp-form select,
+:root .pp-form .pf-tg-row input.pf-tg-in,:root .ppfp__tool select{
+  background:var(--gl-flat);border:1px solid var(--gl-edge);
+  box-shadow:inset 0 1px 2px rgba(0,0,0,.06),inset 0 1px 0 var(--gl-hi),0 0 0 1px var(--gl-rim)}
+:root .pp-search{background:var(--gl-flat);border:1px solid var(--gl-edge);
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px var(--gl-rim)}
+:root select:focus,:root .pd-filters select:focus-visible,:root .pd-filters input:focus-visible,
+:root .cp-box input:focus,:root .pp-form input:focus,:root .pp-form textarea:focus,:root .pp-form select:focus{
+  background:var(--gl-flat-hover);border-color:rgba(8,203,0,.7);
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 4px rgba(8,203,0,.22)}
+:root .pp-search:hover,:root .pp-search:focus-within{background:var(--gl-flat-hover);
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px rgba(8,203,0,.5),0 8px 22px -8px rgba(8,203,0,.45)}
+
+/* ۵) دکمه‌ها و چیپ‌های معمولی */
+:root .btn,:root .pod .links .btn,:root .pod .links .btn:first-child:not([href*="/listen/"]),
+:root .pod-pill,:root .tags a,:root .tags span,:root a.pd-tag,:root .pd-chip,:root .pd-reset,
+:root .pd-eps-more,:root .pp-map-btn,:root .pp-more-btn,:root .pp-install button,:root .pl-links a,
+:root .pf-btn-ghost,:root .cp-btn.cp-ghost,:root .pf-add,:root .pf-tg-add,:root .pf-rm,:root .pf-tg,
+:root .pf-chip span,:root .cp-tr-sum,:root .pd-group .pd-more,:root .pd-group .pd-cat-ic,
+:root .pd-cat-ic,:root .pp-icons a,:root .pp-side-logo,:root .pp-hero .pp-bar-logo,
+:root .pp-donate,:root .pp-side-links a{
+  background:var(--gl-flat);border:1px solid var(--gl-edge);color:var(--ink);
+  box-shadow:inset 0 1px 0 var(--gl-hi),inset 0 -1px 0 var(--gl-lo),0 0 0 1px var(--gl-rim),0 4px 14px -8px rgba(10,60,25,.3)}
+:root .pp-donate{border-color:rgba(8,203,0,.6)}
+:root .pd-group .pd-cat-ic{color:var(--acc);background:var(--gl-flat)!important;box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px var(--gl-rim)!important}
+:root .pf-rm{color:#c62828}
+:root .pf-add{border-style:solid;border-color:rgba(8,203,0,.55);color:var(--acc)}
+:root .pf-tg-add{color:var(--acc)}
+:root .btn:hover,:root .pod .links .btn:hover,:root .pod .links .btn:first-child:not([href*="/listen/"]):hover,
+:root a.pd-tag:hover,:root a.pd-tag:focus-visible,:root .pd-chip:hover,:root .pd-reset:hover,
+:root .pd-eps-more:hover,:root .pp-map-btn:hover,:root .pp-more-btn:hover,:root .pp-install button:hover,
+:root .pl-links a:hover,:root .pf-btn-ghost:hover,:root .cp-btn.cp-ghost:hover,:root .pf-add:hover,
+:root .pf-tg-add:hover,:root .pf-rm:hover,:root .pp-icons a:hover,:root .pp-donate:hover,
+:root .pp-hero .pp-bar-logo:hover,:root .pp-side-links a:hover{
+  background:var(--gl-flat-hover);border-color:rgba(8,203,0,.65);color:var(--ink);
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px rgba(8,203,0,.35),0 10px 24px -8px rgba(8,203,0,.45);
+  transform:translateY(-1px)}
+@media (prefers-reduced-motion:reduce){
+  :root .btn:hover,:root .pf-btn-ghost:hover,:root .cp-btn.cp-ghost:hover,:root .pd-reset:hover,:root .pp-icons a:hover{transform:none}
+}
+
+/* ۶) دکمه‌ی اصلی / حالت فعال: سبز شیشه‌ای */
+:root .pp-news-link,:root .pf-btn,:root .cp-btn:not(.cp-ghost),:root .pd-fcount,
+:root .pp-glass .pp-nav a[aria-current=page],:root .pp-cats a[aria-current],
+:root .pp-glass .pp-nav a[href$="/form/"][aria-current=page]{
+  background:var(--gl-green-fill);border:1px solid var(--gl-green-edge);color:#0b0e0c;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.6),inset 0 -1px 0 rgba(0,70,20,.18),var(--gl-green-glow)}
+:root .pp-news-link:hover,:root .pf-btn:hover,:root .cp-btn:not(.cp-ghost):hover{
+  background:linear-gradient(180deg,rgba(70,235,58,.98),rgba(8,203,0,.86));color:#0b0e0c;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 14px 30px -8px rgba(0,255,156,.6);transform:translateY(-1px)}
+:root .pd-group .pd-cat-link:hover .pd-more{color:var(--acc)}
+:root .pp-glass .pp-nav a[href$="/form/"]{
+  background:linear-gradient(180deg,rgba(8,203,0,.20),rgba(8,203,0,.08));
+  box-shadow:inset 0 1px 0 var(--gl-hi),inset 0 0 0 1px rgba(8,203,0,.5)}
+
+/* ۷) هدر و منو */
+:root .pp-glass{background:var(--gl-fill);border:1px solid var(--gl-edge);
+  -webkit-backdrop-filter:blur(var(--gl-blur)) saturate(var(--gl-sat));
+  backdrop-filter:blur(var(--gl-blur)) saturate(var(--gl-sat));
+  box-shadow:inset 0 1px 0 var(--gl-hi),inset 0 -1px 0 var(--gl-lo),0 0 0 1px var(--gl-rim),var(--gl-shadow)}
+body.scrolled .pp-glass{box-shadow:inset 0 1px 0 var(--gl-hi),inset 0 -1px 0 var(--gl-lo),0 0 0 1px var(--gl-rim),0 14px 40px -10px rgba(8,203,0,.4)}
+:root .pp-glass .pp-nav a:not([aria-current=page]):hover{background:var(--gl-flat-hover);
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 6px 18px -6px rgba(8,203,0,.5)}
+:root .pp-tools button{background:var(--gl-flat);border:1px solid var(--gl-edge);
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px var(--gl-rim)}
+:root .pp-tools button:hover{background:var(--gl-flat-hover);
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px rgba(8,203,0,.45),0 8px 20px -8px rgba(8,203,0,.5)}
+:root .pp-tools button[aria-pressed=true]{background:var(--gl-green-fill);border-color:var(--gl-green-edge);color:#0b0e0c}
+@media (max-width:799px){
+  :root .pp-glass .pp-nav a{background:var(--gl-flat);border:1px solid var(--gl-edge);
+    box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px var(--gl-rim)}
+  :root .pp-glass .pp-nav a[aria-current=page]{background:var(--gl-green-fill);border-color:var(--gl-green-edge)}
+  :root .pp-glass .pp-nav a[href$="/form/"]{border-color:rgba(8,203,0,.45)}
+}
+@media (min-width:1200px){
+  :root .pp-glass .pp-nav a{background:var(--gl-flat);border:1px solid var(--gl-edge)}
+  :root .pp-glass .pp-nav a:not([aria-current=page]):hover{background:var(--gl-flat-hover)}
+  :root .pp-glass .pp-nav a[aria-current=page]{background:var(--gl-green-fill);border-color:var(--gl-green-edge)}
+}
+:root .pd-ftoggle,:root .pd-arrow{
+  box-shadow:inset 0 1px 0 var(--gl-hi),inset 0 -1px 0 var(--gl-lo),0 0 0 1px var(--gl-rim),0 6px 18px -8px rgba(10,60,25,.35);
+  -webkit-backdrop-filter:blur(var(--gl-blur)) saturate(var(--gl-sat));
+  backdrop-filter:blur(var(--gl-blur)) saturate(var(--gl-sat))}
+
+/* ۸) دسته‌بندی‌ها */
+:root .pp-cats a[aria-current]{
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.6),inset 0 -1px 0 rgba(0,70,20,.18),0 2px 8px -2px rgba(8,203,0,.55)}
+:root .pp-cats a:not([aria-current]):hover{background:var(--gl-flat-hover);
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 6px 18px -6px rgba(8,203,0,.45)}
+:root .pp-cats .n{background:var(--gl-flat);box-shadow:inset 0 1px 0 var(--gl-hi)}
+:root .pp-cats a[aria-current] .n{background:rgba(0,0,0,.14);box-shadow:none}
+:root .pp-cat-tg:hover{background:var(--gl-flat-hover)}
+@media (max-width:799px){
+  :root .pp-cats a{background:var(--gl-flat);border:1px solid var(--gl-edge);
+    box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px var(--gl-rim)}
+  :root .pp-cats a[aria-current]{background:var(--gl-green-fill);border-color:var(--gl-green-edge)}
+}
+
+/* ۹) دیوایدرها */
+:root .pp-divider{height:4px;border:0;border-radius:999px;
+  background:linear-gradient(90deg,transparent,var(--gl-hair) 14%,rgba(8,203,0,.9) 50%,var(--gl-hair) 86%,transparent);
+  box-shadow:0 1px 0 var(--gl-hair-hi),0 0 18px rgba(0,255,156,.35)}
+:root .pp-foot::before,:root .cp-method::before,:root .pf-divider::before{height:4px;border-radius:999px;
+  background:linear-gradient(90deg,transparent,var(--gl-hair) 14%,rgba(8,203,0,.9) 50%,var(--gl-hair) 86%,transparent);
+  box-shadow:0 1px 0 var(--gl-hair-hi),0 0 18px rgba(0,255,156,.35)}
+:root .pd-sep{height:1px;border:0;
+  background:linear-gradient(90deg,transparent,var(--gl-hair) 12%,var(--gl-hair) 88%,transparent);
+  box-shadow:0 1px 0 var(--gl-hair-hi)}
+:root .pp-article hr,:root .pl-post-body hr{height:1px;border:0;
+  background:linear-gradient(90deg,transparent,var(--gl-hair),transparent);box-shadow:0 1px 0 var(--gl-hair-hi)}
+:root .pp-side-stats,:root .pf-body,:root #similar,:root .pod-tags,:root .pp-article h2,
+:root .pl-post-source,:root .cp-cols,:root .facts,:root .pod .facts dt,:root .pod .facts dd,
+:root .cp-diff li,:root .cp-needs li,:root .cp-m-def>div,:root .cp-t th,:root .cp-t td,
+:root .cp-t .cp-g,:root .pp-sug li+li.s-search,:root .pp-suggest a{border-color:var(--gl-hair)}
+:root .pp-side-stats{border-top-color:var(--gl-hair);box-shadow:0 -1px 0 var(--gl-hair-hi)}
+:root .pp-sug li.on,:root .pp-sug li:hover,:root .cp-list li:hover,:root .cp-list li[aria-selected=true]{background:var(--gl-flat-hover)}
+:root .pf-prog,:root .cp-bar{background:var(--gl-flat);box-shadow:inset 0 1px 2px rgba(0,0,0,.14),0 1px 0 var(--gl-hair-hi)}
+
+/* ۹.۵) کنترل‌های داخل فیلتر (سلکتور #pd-filters در pp-filters.html قوی‌تر است) */
+:root #pd-filters .pd-actions .pd-reset{background:var(--gl-flat);border:1px solid var(--gl-edge);color:var(--ink);
+  box-shadow:inset 0 1px 0 var(--gl-hi),inset 0 -1px 0 var(--gl-lo),0 0 0 1px var(--gl-rim),0 4px 14px -8px rgba(10,60,25,.3)}
+:root #pd-filters .pd-actions .pd-reset:hover{background:var(--gl-flat-hover);border-color:rgba(8,203,0,.65);
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px rgba(8,203,0,.35),0 10px 24px -8px rgba(8,203,0,.45)}
+:root #pd-filters .pd-actions .pd-apply{background:var(--gl-green-fill);border:1px solid var(--gl-green-edge);color:#0b0e0c;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.6),inset 0 -1px 0 rgba(0,70,20,.18),var(--gl-green-glow)}
+:root #pd-filters .pd-actions .pd-apply:hover:not(:disabled){
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 14px 30px -8px rgba(0,255,156,.6)}
+:root #pd-filters .pd-rs-f{background:var(--gl-flat);border-color:var(--gl-edge);
+  box-shadow:inset 0 1px 2px rgba(0,0,0,.06),inset 0 1px 0 var(--gl-hi),0 0 0 1px var(--gl-rim)}
+:root #pd-filters .pd-rs-f input[type=text],:root #pd-filters .pd-rs-f input[type=text]:focus{
+  background:transparent;box-shadow:none;border:0}
+:root #pd-filters .pd-rs-f:focus-within{background:var(--gl-flat-hover);border-color:rgba(8,203,0,.7);
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 4px rgba(8,203,0,.22)}
+:root #pd-filters .pd-rs-rail{background:var(--gl-flat);box-shadow:inset 0 1px 2px rgba(0,0,0,.2),0 1px 0 var(--gl-hair-hi)}
+:root #pd-filters .pd-rs-fill{background:var(--gl-green-fill);box-shadow:inset 0 1px 0 rgba(255,255,255,.5),0 0 12px var(--glow-soft)}
+:root #pd-filters .pd-rs-thumb{background:var(--gl-green-fill);border-color:var(--gl-green-edge);
+  box-shadow:0 0 0 1px rgba(8,203,0,.85),inset 0 1px 0 rgba(255,255,255,.6),0 4px 12px var(--glow-soft)}
+:root #pd-filters .pd-rs-thumb:focus-visible{box-shadow:0 0 0 1px #08cb00,0 0 0 5px rgba(8,203,0,.4)}
+@media (max-width:599px){
+  :root #pd-filters .pd-actions{background:linear-gradient(to top,var(--gl-flat-hover) 60%,transparent)}
+}
+
+/* ۱۰) بدون پشتیبانی blur / کاهش شفافیت: مات‌تر */
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  :root,:root[data-theme=dark]{--gl-fill:var(--card);--gl-flat:var(--card);--gl-flat-hover:var(--bg)}
+}
+@media (prefers-reduced-transparency:reduce){
+  :root,:root[data-theme=dark]{--gl-fill:var(--card);--gl-flat:var(--card);--gl-flat-hover:var(--bg)}
+  body::before{display:none}
+}
