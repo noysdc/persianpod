@@ -11978,8 +11978,8 @@
       29,
       62,
       64,
-      63,
-      66
+      64,
+      65
     ],
     "status": "active"
   },
@@ -28024,19 +28024,24 @@
   "shar-ba-sdai-shaar": {
     "avg_gap_days": 2.5,
     "avg_length": 4,
-    "episodes": 343,
-    "eps_365": 145,
-    "eps_90": 38,
+    "episodes": 344,
+    "eps_365": 146,
+    "eps_90": 39,
     "first_at": "2025-01-23",
     "first_year": 1403,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T19:30:00Z",
-    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/69183f0d1029ec1fed293d7a",
-    "last_title": "یدالله رویایی | میوه‌های ملال",
+    "last": "1405/07/25",
+    "last_at": "2026-10-17T19:30:00Z",
+    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c1bb4589629f7d6b0c659",
+    "last_title": "مشفق کاشانی | نمی‌دانم کیم",
     "max_length": 44,
     "median_length": 4,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c1bb4589629f7d6b0c659/media.mp3",
+        "at": "2026-10-17T19:30:00Z",
+        "t": "مشفق کاشانی | نمی‌دانم کیم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/69183f0d1029ec1fed293d7a/media.mp3",
         "at": "2026-10-14T19:30:00Z",
@@ -28071,14 +28076,14 @@
         "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c18c4589629f7d6b01b90/media.mp3",
         "at": "2026-09-21T19:30:00Z",
         "t": "اردلان سرفراز | پرسش | با صدای شاعر"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c108e295fc6e84895ca1b/media.mp3",
-        "at": "2026-09-18T19:30:00Z",
-        "t": "فخرالدین مزراعی | شرمنده ز عمر | صدای علی‌اکبر یاغی‌تبار"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-17T19:30:00Z",
+        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1bb4589629f7d6b0c659",
+        "title": "مشفق کاشانی | نمی‌دانم کیم"
+      },
       {
         "at": "2026-10-14T19:30:00Z",
         "link": "https://shows.acast.com/sedaye-shaer/episodes/69183f0d1029ec1fed293d7a",
@@ -28088,11 +28093,6 @@
         "at": "2026-10-10T19:30:00Z",
         "link": "https://shows.acast.com/sedaye-shaer/episodes/691c19f667ed28baec0cf456",
         "title": "عالمتاج قائم مقامی | پیام به ناآمدگان | صدای مریم کوشا"
-      },
-      {
-        "at": "2026-10-06T19:30:00Z",
-        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1afc589629f7d6b0a008",
-        "title": "هوشنگ ابتهاج | جمع پراکنده"
       }
     ],
     "recent_30d": [
@@ -28103,11 +28103,11 @@
       9,
       2,
       2,
-      13,
-      15,
+      14,
+      14,
       17,
       13,
-      8
+      9
     ],
     "status": "active"
   },
