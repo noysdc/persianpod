@@ -19540,10 +19540,10 @@
     "status": "inactive"
   },
   "radio-astartap-360": {
-    "avg_gap_days": 13.0,
+    "avg_gap_days": 13.2,
     "avg_length": 6,
     "episodes": 338,
-    "eps_365": 29,
+    "eps_365": 28,
     "eps_90": 9,
     "first_at": "2019-04-19",
     "first_year": 1398,
@@ -19614,8 +19614,8 @@
       }
     ],
     "recent_30d": [
-      4,
       5,
+      4,
       1,
       2,
       2,
@@ -23905,8 +23905,8 @@
       0,
       2,
       4,
-      2,
-      5,
+      3,
+      4,
       4
     ],
     "status": "active"
