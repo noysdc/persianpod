@@ -62,6 +62,9 @@ for (const q of TERMS) {
 }
 
 /* ---------- ذخیره‌ی فیلدهای لازم ---------- */
+// حذف نیمه‌ی ناقصِ ایموجی (surrogate تنها)؛ جکیل/YAML روی \ud83c تنها خطا می‌دهد و کل بیلد سایت می‌شکند
+const wellFormed = (s) => String(s).replace(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/g, "");
+const jsonSafe = (o, space) => JSON.stringify(o, (k, v) => (typeof v === "string" ? wellFormed(v) : v), space);
 const nowS = Date.now() / 1000;
 const trim = (f) => ({
   id: f.id, title: f.title, url: f.url, originalUrl: f.originalUrl, link: f.link,
@@ -172,8 +175,8 @@ ${Object.entries(countByDir).map(([d, c]) => `- \`${d}/\`: **${c}** فایل`).j
 ${unmatched.length ? "### پیدا نشده (احتمالاً باید به Index اضافه شوند یا slug/عنوانشان با Index نمی‌خواند)\n" + unmatched.map((u) => `- \`${u.dir}/${u.file}\` ${u.title ? "— " + u.title : ""}`).join("\n") : ""}
 `;
 await fs.mkdir(OUT, { recursive: true });
-await fs.writeFile(path.join(OUT, "feeds.json"), JSON.stringify(list));
-await fs.writeFile(path.join(OUT, "matches.json"), JSON.stringify({ matches, unmatched }, null, 1));
+await fs.writeFile(path.join(OUT, "feeds.json"), jsonSafe(list));
+await fs.writeFile(path.join(OUT, "matches.json"), jsonSafe({ matches, unmatched }, 1));
 await fs.writeFile(path.join(OUT, "report.md"), rep);
-if (rawSample) await fs.writeFile(path.join(OUT, "raw-sample.json"), JSON.stringify(rawSample, null, 1));
+if (rawSample) await fs.writeFile(path.join(OUT, "raw-sample.json"), jsonSafe(rawSample, 1));
 console.log("\n" + rep);

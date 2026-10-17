@@ -74,7 +74,10 @@ function translitFa(s) {
 }
 
 const toEn = (s) => String(s).replace(/[\u06F0-\u06F9]/g, (d) => d.charCodeAt(0) - 1776).replace(/[\u0660-\u0669]/g, (d) => d.charCodeAt(0) - 1632);
-const q = JSON.stringify;
+// حذف نیمه‌ی ناقصِ ایموجی (surrogate تنها)؛ جکیل/YAML روی \ud83c تنها خطا می‌دهد و کل بیلد سایت می‌شکند
+const wellFormed = (s) => String(s).replace(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/g, "");
+const jsonSafe = (o, space) => JSON.stringify(o, (k, v) => (typeof v === "string" ? wellFormed(v) : v), space);
+const q = (v) => jsonSafe(v);
 const hasFa = (s) => /[\u0600-\u06FF]/.test(s), hasLat = (s) => /[A-Za-z]/.test(s);
 const SPLIT = /\s*(?:[|｜–—:؛]|\s-\s)\s*/;
 function splitTitle(t) {
@@ -392,7 +395,7 @@ ${newCats.length ? "\n### 🆕 دسته‌های جدید پیشنهادی\n" + 
 ${skipped.length ? "\n### ردشده\n" + skipped.map((s) => "- " + s).join("\n") : ""}
 `;
 await fs.mkdir(DATA, { recursive: true });
-await fs.writeFile(STATE_FILE, JSON.stringify(STATE, null, 1));
+await fs.writeFile(STATE_FILE, jsonSafe(STATE, 1));
 const revIds = Object.keys(STATE.review);
 await fs.writeFile(path.join(DATA, "needs-review.md"), `# پادکست‌های در انتظار تصمیم دستی\n\n` + (revIds.length ? revIds.map((id) => `- \`${id}\` «${STATE.review[id].title}» — ${STATE.review[id].reason}`).join("\n") : "فعلاً خالی است.") + "\n");
 if (newCats.length) {
