@@ -17,8 +17,8 @@ pi_id: 1468095
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # فلسفه و اراده به دانستن حقیقت
