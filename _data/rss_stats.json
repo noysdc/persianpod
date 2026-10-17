@@ -89,6 +89,95 @@
     ],
     "status": "active"
   },
+  "60-sanih-ktab": {
+    "avg_length": 1,
+    "episodes": 22,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-11-21",
+    "first_year": 1399,
+    "last": "1399/11/17",
+    "last_at": "2021-02-05T05:32:35Z",
+    "last_link": "https://shenoto.com/album/podcast/140040/هنر شفاف اندیشیدن - تضاد انتخاب",
+    "last_title": "هنر شفاف اندیشیدن - تضاد انتخاب",
+    "max_length": 1,
+    "median_length": 1,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c1f357b9-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-02-05T05:32:35Z",
+        "t": "هنر شفاف اندیشیدن - تضاد انتخاب"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c1b9c660-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-01-22T08:31:42Z",
+        "t": "هنر شفاف اندیشیدن - خطای نتیجه"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c1b89c8d-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-01-21T05:31:33Z",
+        "t": "هنر شفاف اندیشیدن - بازگشت به میانگین"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c1b36fc3-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-01-17T05:31:35Z",
+        "t": "هنر شفاف اندیشیدن - هرگز به کسی حقوق ساعتی نده !"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c1764cf6-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-12-28T06:42:11Z",
+        "t": "هنر شفاف اندیشیدن - توهم کنترل"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c1760179-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-12-28T05:42:17Z",
+        "t": "هنر شفاف اندیشیدن - خطای دانش شوفر"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c16918a6-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-12-25T03:42:11Z",
+        "t": "هنر شفاف اندیشیدن - خطای بیش اعتمادی"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c1643af8-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-12-23T22:42:44Z",
+        "t": "هنر شفاف اندیشیدن - خطای بازنگری"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2021-02-05T05:32:35Z",
+        "link": "https://shenoto.com/album/podcast/140040/هنر شفاف اندیشیدن - تضاد انتخاب",
+        "title": "هنر شفاف اندیشیدن - تضاد انتخاب"
+      },
+      {
+        "at": "2021-01-22T08:31:42Z",
+        "link": "https://shenoto.com/album/podcast/139638/هنر شفاف اندیشیدن - خطای نتیجه",
+        "title": "هنر شفاف اندیشیدن - خطای نتیجه"
+      },
+      {
+        "at": "2021-01-21T05:31:33Z",
+        "link": "https://shenoto.com/album/podcast/139484/هنر شفاف اندیشیدن - بازگشت به میانگین",
+        "title": "هنر شفاف اندیشیدن - بازگشت به میانگین"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "aakadmi-bazar": {
     "avg_length": 12,
     "episodes": 50,
@@ -177,6 +266,95 @@
       0
     ],
     "status": "inactive"
+  },
+  "aalbom-fotbal": {
+    "avg_length": 22,
+    "episodes": 24,
+    "eps_365": 1,
+    "eps_90": 0,
+    "first_at": "2022-05-15",
+    "first_year": 1401,
+    "last": "1405/03/19",
+    "last_at": "2026-06-09T09:45:42Z",
+    "last_link": "https://s3.castbox.fm/a8/cd/63/7eddc240b98a28361580e3454b.mp3",
+    "last_title": "تیزر جام جهانی 2026",
+    "max_length": 43,
+    "median_length": 19,
+    "min_length": 7,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/a8/cd/63/7eddc240b98a28361580e3454b.mp3",
+        "at": "2026-06-09T09:45:42Z",
+        "t": "تیزر جام جهانی 2026"
+      },
+      {
+        "a": "https://s3.castbox.fm/a4/37/9a/03a6d64056b80f17a30a609916.mp3",
+        "at": "2025-08-27T19:16:20Z",
+        "t": "فوتبال و پول: روایت دستمزد ها"
+      },
+      {
+        "a": "https://s3.castbox.fm/3a/6f/80/2ab5784d5dae83a4b60e9238eb.mp3",
+        "at": "2025-08-03T18:55:43Z",
+        "t": "کمپ های تمرینی: کارخانه پرورش استعداد"
+      },
+      {
+        "a": "https://s3.castbox.fm/ff/6c/7b/9d03854585b6439d40c89135a3.mp3",
+        "at": "2025-06-10T19:50:27Z",
+        "t": "ایستگاه تاکتیک"
+      },
+      {
+        "a": "https://s3.castbox.fm/55/78/1d/c24a6345868f1f725a3f950546.mp3",
+        "at": "2024-12-06T19:52:54Z",
+        "t": "شلاق تمرین"
+      },
+      {
+        "a": "https://s3.castbox.fm/d6/c7/c6/ef8bee4b468c1210af3bcdec40.mp3",
+        "at": "2024-09-16T09:47:06Z",
+        "t": "مروارید های سیاه فوتبال"
+      },
+      {
+        "a": "https://s3.castbox.fm/70/4e/5d/6097d549c59101efde77485281.mp3",
+        "at": "2024-07-11T13:56:30Z",
+        "t": "طلسم گواردیولا"
+      },
+      {
+        "a": "https://s3.castbox.fm/d0/b4/7d/345ad34f2ba0f4e4d2a83e9c6f.mp3",
+        "at": "2024-04-19T19:55:15Z",
+        "t": "مربی های سلبریتی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-06-09T09:45:42Z",
+        "link": "https://s3.castbox.fm/a8/cd/63/7eddc240b98a28361580e3454b.mp3",
+        "title": "تیزر جام جهانی 2026"
+      },
+      {
+        "at": "2025-08-27T19:16:20Z",
+        "link": "https://s3.castbox.fm/a4/37/9a/03a6d64056b80f17a30a609916.mp3",
+        "title": "فوتبال و پول: روایت دستمزد ها"
+      },
+      {
+        "at": "2025-08-03T18:55:43Z",
+        "link": "https://s3.castbox.fm/3a/6f/80/2ab5784d5dae83a4b60e9238eb.mp3",
+        "title": "کمپ های تمرینی: کارخانه پرورش استعداد"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
   },
   "aamozsh-fransh-ba-mstfi-shalchi": {
     "avg_gap_days": 2.1,
@@ -2151,6 +2329,95 @@
     ],
     "status": "active"
   },
+  "asgarifx-tjrbiat-mn-dr-bazar-farks": {
+    "avg_length": 19,
+    "episodes": 25,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-07-01",
+    "first_year": 1400,
+    "last": "1401/05/04",
+    "last_at": "2022-07-26T13:22:54Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/asgarifx/episodes/Propiy-com-e1ln9v8",
+    "last_title": "بعد از مدت‌ها با خبر جدید: پراپ فرم ایرانی Propiy.com",
+    "max_length": 44,
+    "median_length": 18,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/628a3498/podcast/play/55338408/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-6-26%2F278125672-44100-1-dbe11e09956cf.m4a",
+        "at": "2022-07-26T13:22:54Z",
+        "t": "بعد از مدت‌ها با خبر جدید: پراپ فرم ایرانی Propiy.com"
+      },
+      {
+        "a": "https://anchor.fm/s/628a3498/podcast/play/42128196/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-9-21%2F225883776-44100-1-3e7920ab5af73.m4a",
+        "at": "2021-10-21T17:14:46Z",
+        "t": "ناکارایی بازارهای مالی مثل فارکس و بورس و کریپتو و چرا ترید کردن سودده هست؟"
+      },
+      {
+        "a": "https://anchor.fm/s/628a3498/podcast/play/41228646/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-9-3%2F222157115-44100-1-033c67aae0e75.m4a",
+        "at": "2021-10-03T19:51:52Z",
+        "t": "تحلیل هفته : چرا بانک مرکزی نیوزلند در حال افزایش نرخ بهره است؟"
+      },
+      {
+        "a": "https://anchor.fm/s/628a3498/podcast/play/41013807/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-8-29%2F221279981-22050-1-f2194743e72de.m4a",
+        "at": "2021-09-29T09:58:32Z",
+        "t": "مسئولیت آزادی در ترید فارکس؛ تحلیل روانشناسی معامله‌گری"
+      },
+      {
+        "a": "https://anchor.fm/s/628a3498/podcast/play/39799527/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-4%2F216556620-44100-2-28ce335e79835.m4a",
+        "at": "2021-09-04T09:18:56Z",
+        "t": "در ستایش ابهام و ریسک : تریدرهای فارکس چه ارزشی ایجاد می‌کنند؟ و شما چگونه باید فکر کنید."
+      },
+      {
+        "a": "https://anchor.fm/s/628a3498/podcast/play/39496843/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-29%2F215372477-44100-2-196a5c24644c3.m4a",
+        "at": "2021-08-29T07:31:59Z",
+        "t": "تفکر مثبت و جملات انگیزشی یا تفکر انتقادی؟ چقدر برنامه ریزی و منطق برای پیشرفت در فارکس لازمه؟"
+      },
+      {
+        "a": "https://anchor.fm/s/628a3498/podcast/play/39022263/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-7-19%2F213643220-44100-1-555621476206.m4a",
+        "at": "2021-08-19T15:37:57Z",
+        "t": "پراپ فرم چیست؟ چرا تریدرهای فارکس باید در پراپ فرم FTMO ترید کنند؟"
+      },
+      {
+        "a": "https://anchor.fm/s/628a3498/podcast/play/39014340/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-7-19%2F213613388-44100-1-fb3db7bc3087.m4a",
+        "at": "2021-08-19T13:10:12Z",
+        "t": "خبر خوب : واریز پول به FTMO با کریپتو اضافه شد!!"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-07-26T13:22:54Z",
+        "link": "https://podcasters.spotify.com/pod/show/asgarifx/episodes/Propiy-com-e1ln9v8",
+        "title": "بعد از مدت‌ها با خبر جدید: پراپ فرم ایرانی Propiy.com"
+      },
+      {
+        "at": "2021-10-21T17:14:46Z",
+        "link": "https://podcasters.spotify.com/pod/show/asgarifx/episodes/ep-e1945c4",
+        "title": "ناکارایی بازارهای مالی مثل فارکس و بورس و کریپتو و چرا ترید کردن سودده هست؟"
+      },
+      {
+        "at": "2021-10-03T19:51:52Z",
+        "link": "https://podcasters.spotify.com/pod/show/asgarifx/episodes/ep-e188mt6",
+        "title": "تحلیل هفته : چرا بانک مرکزی نیوزلند در حال افزایش نرخ بهره است؟"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "ashgh-hnr-adbiat": {
     "avg_length": 2,
     "episodes": 34,
@@ -2311,6 +2578,95 @@
         "at": "2021-07-16T04:30:00Z",
         "link": "https://podcasters.spotify.com/pod/show/startup360/episodes/25-04-00-e14e3hr",
         "title": "25-04-00"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
+  "atagh-mosighi": {
+    "avg_length": 13,
+    "episodes": 24,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-06-26",
+    "first_year": 1398,
+    "last": "1398/12/24",
+    "last_at": "2020-03-14T17:58:34Z",
+    "last_link": "https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20200312-%D9%87%D9%88%D8%B4%D9%86%DA%AF-%D8%B8%D8%B1%DB%8C%D9%81-%D9%88-%D9%87%D9%86%D8%B1-%D8%B3%DA%A9%D9%88%D8%AA?PcNCvtcnHj",
+    "last_title": "هوشنگ ظریف و هنر سکوت",
+    "max_length": 16,
+    "median_length": 13,
+    "min_length": 10,
+    "play": [
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202003/PLACE_A_LA_MUSIQUE_12_et_13-03-20.mp3?guid=6d87530c-661d-11ea-9ff2-005056a959c0&source=PcNCvtcnHj",
+        "at": "2020-03-14T17:58:34Z",
+        "t": "هوشنگ ظریف و هنر سکوت"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202002/PLACE_A_LA_MUSIQUE_27_02_2020_-_Carnaval.mp3?guid=e67b663c-5974-11ea-abf2-005056bf1e68&source=PcNCvtcnHj",
+        "at": "2020-02-27T15:21:58Z",
+        "t": "فصل کارناوال‌ها: دهن‌کجی به مرگ"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202002/PLACE_A_LA_MUSIQUE_06_02_2020_-_Beethoven_1_-_OK.mp3?guid=ecd7219e-4905-11ea-9b9c-005056bfa465&source=PcNCvtcnHj",
+        "at": "2020-02-06T17:27:16Z",
+        "t": "\"ستایش شادی\" بتهوون: نغمۀ آزادی نوع بشر"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202001/PLACE_A_LA_MUSIQUE_30_01_2020_-_Billie_Eilish.mp3?guid=2b5b84a6-477a-11ea-bcc2-005056bf8171&source=PcNCvtcnHj",
+        "at": "2020-02-04T18:14:19Z",
+        "t": "بیلی اِیلیش: ١٨ سال عمر، یک دنیا خلاقیت"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202001/PLACE_A_LA_MUSIQUE_16_01_2020_-_Contestations.mp3?guid=0f50b59a-3e08-11ea-a502-005056a9c2ac&source=PcNCvtcnHj",
+        "at": "2020-01-23T17:44:51Z",
+        "t": "دو ترانه در واکنش به فاجعۀ آبان ٩٨: هیچکس و نامجو"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202001/PLACE_A_LA_MUSIQUE_09_01_2020_-_L__Cohen_Posthume.mp3?guid=288a9da2-3dfc-11ea-a8af-005056bf8171&source=PcNCvtcnHj",
+        "at": "2020-01-23T16:19:39Z",
+        "t": "لئونارد کوهن و آلبومی از دنیای دیگر"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202001/PLACE_LA_LA_MUSIQUE_02_et_03_01_2020_-_Forough.mp3?guid=3e219580-2d58-11ea-8295-005056a9be68&source=PcNCvtcnHj",
+        "at": "2020-01-02T12:06:01Z",
+        "t": "اشعار فروغ فرخزاد چشم‌ انتظار موسیقی تازه است"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/201911/PLACE_A_LA_MUSIQUE_28_11_2019_-_Cheikh_Imam.mp3?guid=9a09ac38-1517-11ea-bbbe-005056bfc87b&source=PcNCvtcnHj",
+        "at": "2019-12-02T15:22:50Z",
+        "t": "شیخ امام: مردی که از قرآن‌خوانی به هجو سیاسی رسید"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-03-14T17:58:34Z",
+        "link": "https://www.rfi.fr/fa/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/20200312-%D9%87%D9%88%D8%B4%D9%86%DA%AF-%D8%B8%D8%B1%DB%8C%D9%81-%D9%88-%D9%87%D9%86%D8%B1-%D8%B3%DA%A9%D9%88%D8%AA?PcNCvtcnHj",
+        "title": "هوشنگ ظریف و هنر سکوت"
+      },
+      {
+        "at": "2020-02-27T15:21:58Z",
+        "link": "https://www.rfi.fr/fa/%D9%81%D8%B1%D9%87%D9%86%DA%AF-%D9%88-%D9%87%D9%86%D8%B1/20200227-%D9%81%D8%B5%D9%84-%DA%A9%D8%A7%D8%B1%D9%86%D8%A7%D9%88%D8%A7%D9%84%E2%80%8C%D9%87%D8%A7-%D8%AF%D9%87%D9%86%E2%80%8C%DA%A9%D8%AC%DB%8C-%D8%A8%D9%87-%D9%85%D8%B1%DA%AF?PcNCvtcnHj",
+        "title": "فصل کارناوال‌ها: دهن‌کجی به مرگ"
+      },
+      {
+        "at": "2020-02-06T17:27:16Z",
+        "link": "https://www.rfi.fr/fa/%D9%81%D8%B1%D9%87%D9%86%DA%AF-%D9%88-%D9%87%D9%86%D8%B1/20200206-%D8%B3%D8%AA%D8%A7%DB%8C%D8%B4-%D8%B4%D8%A7%D8%AF%DB%8C-%D8%A8%D8%AA%D9%87%D9%88%D9%88%D9%86-%D9%86%D8%BA%D9%85%DB%80-%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C-%D9%86%D9%88%D8%B9-%D8%A8%D8%B4%D8%B1?PcNCvtcnHj",
+        "title": "\"ستایش شادی\" بتهوون: نغمۀ آزادی نوع بشر"
       }
     ],
     "recent_30d": [
@@ -2859,6 +3215,95 @@
       0
     ],
     "status": "active"
+  },
+  "bhtrin-padkst-airani": {
+    "avg_length": 68,
+    "episodes": 26,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-11-19",
+    "first_year": 1399,
+    "last": "1401/05/24",
+    "last_at": "2022-08-15T17:50:27Z",
+    "last_link": "https://s3.castbox.fm/f9/23/b0/e488fb4d058c3002b6e91dba77.mp3",
+    "last_title": "Episode 27",
+    "max_length": 107,
+    "median_length": 71,
+    "min_length": 26,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/f9/23/b0/e488fb4d058c3002b6e91dba77.mp3",
+        "at": "2022-08-15T17:50:27Z",
+        "t": "Episode 27"
+      },
+      {
+        "a": "https://s3.castbox.fm/39/1e/fd/4d2de543d9881cb5ca67146c1a.mp3",
+        "at": "2022-06-03T21:31:12Z",
+        "t": "Episode 25"
+      },
+      {
+        "a": "https://s3.castbox.fm/79/9d/59/0495bf48d3956675ba5cd49fd4.mp3",
+        "at": "2022-03-18T06:44:59Z",
+        "t": "Episode 24"
+      },
+      {
+        "a": "https://s3.castbox.fm/01/de/54/be8ab442fd870d35eab77a47fe.mp3",
+        "at": "2022-02-01T21:45:17Z",
+        "t": "Episode 23"
+      },
+      {
+        "a": "https://s3.castbox.fm/90/8a/f2/dfd1054de88fb6e7696734233d.mp3",
+        "at": "2022-01-20T22:14:17Z",
+        "t": "Episode 22"
+      },
+      {
+        "a": "https://s3.castbox.fm/54/bd/29/11680d42e3b1aaf06d032245f7.mp3",
+        "at": "2021-12-23T09:06:51Z",
+        "t": "Episode 21"
+      },
+      {
+        "a": "https://s3.castbox.fm/69/4d/80/f608f84e0b98620f8b6afbd1af.mp3",
+        "at": "2021-12-06T06:23:59Z",
+        "t": "Episode 20"
+      },
+      {
+        "a": "https://s3.castbox.fm/1e/fd/d6/3f1e164b2eb811b423d9459b85.mp3",
+        "at": "2021-11-15T08:30:00Z",
+        "t": "Episode 19"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-08-15T17:50:27Z",
+        "link": "https://s3.castbox.fm/f9/23/b0/e488fb4d058c3002b6e91dba77.mp3",
+        "title": "Episode 27"
+      },
+      {
+        "at": "2022-06-03T21:31:12Z",
+        "link": "https://s3.castbox.fm/39/1e/fd/4d2de543d9881cb5ca67146c1a.mp3",
+        "title": "Episode 25"
+      },
+      {
+        "at": "2022-03-18T06:44:59Z",
+        "link": "https://s3.castbox.fm/79/9d/59/0495bf48d3956675ba5cd49fd4.mp3",
+        "title": "Episode 24"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "boutigha": {
     "avg_gap_days": 10.3,
@@ -3755,6 +4200,95 @@
       0
     ],
     "status": "active"
+  },
+  "cineport-drichh-sinma-padkst-sinmaii": {
+    "avg_length": 20,
+    "episodes": 24,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-01-31",
+    "first_year": 1398,
+    "last": "1402/07/07",
+    "last_at": "2023-09-29T06:36:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/cineport/episodes/--e29udd8",
+    "last_title": "۲۳ - در مسابقات پس از پذیرش چکار باید کنیم؟",
+    "max_length": 62,
+    "median_length": 16,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/22576e4/podcast/play/76542824/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F22576e4%2F76542824%2F5a20d5f28ee69bfb48402472526adf4e.m4a",
+        "at": "2023-09-29T06:36:00Z",
+        "t": "۲۳ - در مسابقات پس از پذیرش چکار باید کنیم؟"
+      },
+      {
+        "a": "https://anchor.fm/s/22576e4/podcast/play/54042512/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F22576e4%2F54042512%2Fe9b7d4f9c348eb234ecac3493c1b512a.m4a",
+        "at": "2022-06-26T23:01:59Z",
+        "t": "۲۳ نقد در برابر داوری"
+      },
+      {
+        "a": "https://anchor.fm/s/22576e4/podcast/play/47827601/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F22576e4%2F47827601%2Ff97b4216b85deae3f05dedf891418ebc.m4a",
+        "at": "2022-02-18T05:30:17Z",
+        "t": "22. گفتگویی درباره کپی رایت فیلمنامه"
+      },
+      {
+        "a": "https://anchor.fm/s/22576e4/podcast/play/43264486/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-12%2F8d5514449dedcb5ffcd24c32fa106e77.m4a",
+        "at": "2021-11-13T04:30:00Z",
+        "t": "21 - ان فی تی nft چیست؟"
+      },
+      {
+        "a": "https://anchor.fm/s/22576e4/podcast/play/35985835/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-22%2F6a76396edb76f5acbfbc2d09fbd08fcf.m4a",
+        "at": "2021-06-22T22:09:36Z",
+        "t": "۲۰ - دوگانه جشنواره ها و بازار هنری"
+      },
+      {
+        "a": "https://anchor.fm/s/22576e4/podcast/play/33449750/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-05-13%2F4fef7442e5c89ffa1f9620ea132b5d62.m4a",
+        "at": "2021-05-13T23:57:07Z",
+        "t": "اقتصاد پلت فرمی در هنر - بخش اول"
+      },
+      {
+        "a": "https://anchor.fm/s/22576e4/podcast/play/31452576/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-04-15%2Fb04400942d4824fe40094ee59cd997a9.m4a",
+        "at": "2021-04-15T05:35:28Z",
+        "t": "17. چگونه در مسابقه عکس برنده شویم؟"
+      },
+      {
+        "a": "https://anchor.fm/s/22576e4/podcast/play/29181480/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-03-16%2F5c8f6ef2c929beba3c0ffc04e9ebd422.m4a",
+        "at": "2021-03-16T23:49:41Z",
+        "t": "۱۶. چگونه اثر هنری خود را بفروشیم؟"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-09-29T06:36:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/cineport/episodes/--e29udd8",
+        "title": "۲۳ - در مسابقات پس از پذیرش چکار باید کنیم؟"
+      },
+      {
+        "at": "2022-06-26T23:01:59Z",
+        "link": "https://podcasters.spotify.com/pod/show/cineport/episodes/ep-e1kfoeg",
+        "title": "۲۳ نقد در برابر داوری"
+      },
+      {
+        "at": "2022-02-18T05:30:17Z",
+        "link": "https://podcasters.spotify.com/pod/show/cineport/episodes/22-e1ei36h",
+        "title": "22. گفتگویی درباره کپی رایت فیلمنامه"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "cool-talk-padkst-aamozsh-zban-kol-tak": {
     "avg_gap_days": 131.5,
@@ -5412,6 +5946,95 @@
     ],
     "status": "active"
   },
+  "dniai-aghtsad-aghtsad-dnia": {
+    "avg_length": 15,
+    "episodes": 24,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-12-20",
+    "first_year": 1398,
+    "last": "1399/10/05",
+    "last_at": "2020-12-25T19:05:32Z",
+    "last_link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AF%D9%86%DB%8C%D8%A7%DB%8C-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%AF%D9%86%DB%8C%D8%A7/20201225-%DA%86%D8%B4%D9%85-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%AC%D9%87%D8%A7%D9%86-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%84-%DB%B2%DB%B0%DB%B2%DB%B1-%D8%AA%D8%AD%D8%AA-%D8%AA%D8%A3%D8%AB%DB%8C%D8%B1-%D8%A7%D8%AF%D8%A7%D9%85%D9%87-%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84%DB%8C-%D8%A8%D8%AD%D8%B1%D8%A7%D9%86-%DA%A9%D8%B1%D9%88%D9%86%D8%A7?PcNCvtcnHj",
+    "last_title": "چشم انداز اقتصاد جهان در سال ۲۰۲۱ تحت تأثیر ادامه  احتمالی بحران کرونا",
+    "max_length": 21,
+    "median_length": 15,
+    "min_length": 9,
+    "play": [
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202012/ITW_ECONOMIE_25_12.mp3?guid=2aaea1cc-46e4-11eb-abd5-005056bff4a8&source=PcNCvtcnHj",
+        "at": "2020-12-25T19:05:32Z",
+        "t": "چشم انداز اقتصاد جهان در سال ۲۰۲۱ تحت تأثیر ادامه  احتمالی بحران کرونا"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202012/Economie_du_monde_18-12-20.mp3?guid=b667bb36-415d-11eb-827b-005056a9e435&source=PcNCvtcnHj",
+        "at": "2020-12-18T18:20:29Z",
+        "t": "ارزش\"بیت کوین\" از مرز ۲۳ هزار دلار گذشت و این ارز دیجیتال \"طلای مجازی\" نام گرفت"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202012/ECONOMIE_11_12.mp3?guid=d183423e-3be3-11eb-b5ca-005056a9e435&source=PcNCvtcnHj",
+        "at": "2020-12-11T19:05:20Z",
+        "t": "کلاف سردرگم تورم در اقتصاد ایران؛ آیا پیش بینی رئیس کل بانک مرکزی از نرخ تورم قابل تحقق است؟"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202012/Economie_04-12-20.mp3?guid=3138b6d4-366a-11eb-b4b1-005056bff4a8&source=PcNCvtcnHj",
+        "at": "2020-12-04T19:52:06Z",
+        "t": "عوامل پشت پرده گرانی شدید گوشت مرغ در ایران"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202011/ECONOMIE_IRAN.mp3?guid=bda55882-30e0-11eb-8457-005056a9e435&source=PcNCvtcnHj",
+        "at": "2020-11-27T18:45:36Z",
+        "t": "اختلافِ نظر خامنه‌ای و روحانی درباره مذاکره با آمریکا و اقتصاد ایران"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202011/MAG_ECONOMIE_20_11.mp3?guid=075b5f4e-2b69-11eb-873b-005056bff4a8&source=PcNCvtcnHj",
+        "at": "2020-11-20T19:46:02Z",
+        "t": "انفجار بمب فقر و گرسنگی اقتصاد جهان را تهدید می کند"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202011/MAG_ECONOMIE_CHARLES.mp3?guid=60c212e8-25e3-11eb-8a98-005056bff4a8&source=PcNCvtcnHj",
+        "at": "2020-11-13T19:06:46Z",
+        "t": "دو چالش مهم اقتصادی  بر سر راه  واکسن ضد کرونای شرکت \"فایزر\""
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202011/Economie_du_monde_06-11-20.mp3?guid=e53ac704-2061-11eb-a7e3-005056a9e435&source=PcNCvtcnHj",
+        "at": "2020-11-06T18:57:17Z",
+        "t": "شوک انتخابات ریاست جمهوری آمریکا بر بازار جهانی نفت"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-12-25T19:05:32Z",
+        "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AF%D9%86%DB%8C%D8%A7%DB%8C-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%AF%D9%86%DB%8C%D8%A7/20201225-%DA%86%D8%B4%D9%85-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%AC%D9%87%D8%A7%D9%86-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%84-%DB%B2%DB%B0%DB%B2%DB%B1-%D8%AA%D8%AD%D8%AA-%D8%AA%D8%A3%D8%AB%DB%8C%D8%B1-%D8%A7%D8%AF%D8%A7%D9%85%D9%87-%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84%DB%8C-%D8%A8%D8%AD%D8%B1%D8%A7%D9%86-%DA%A9%D8%B1%D9%88%D9%86%D8%A7?PcNCvtcnHj",
+        "title": "چشم انداز اقتصاد جهان در سال ۲۰۲۱ تحت تأثیر ادامه  احتمالی بحران کرونا"
+      },
+      {
+        "at": "2020-12-18T18:20:29Z",
+        "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AF%D9%86%DB%8C%D8%A7%DB%8C-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%AF%D9%86%DB%8C%D8%A7/20201218-%D8%A7%D8%B1%D8%B2%D8%B4-%D8%A8%DB%8C%D8%AA-%DA%A9%D9%88%DB%8C%D9%86-%D8%A7%D8%B2-%D9%85%D8%B1%D8%B2-%DB%B2%DB%B3-%D9%87%D8%B2%D8%A7%D8%B1-%D8%AF%D9%84%D8%A7%D8%B1-%DA%AF%D8%B0%D8%B4%D8%AA-%D9%88-%D8%A7%DB%8C%D9%86-%D8%A7%D8%B1%D8%B2-%D8%AF%DB%8C%D8%AC%DB%8C%D8%AA%D8%A7%D9%84-%D8%B7%D9%84%D8%A7%DB%8C-%D9%85%D8%AC%D8%A7%D8%B2%DB%8C-%D9%86%D8%A7%D9%85-%DA%AF%D8%B1%D9%81%D8%AA?PcNCvtcnHj",
+        "title": "ارزش\"بیت کوین\" از مرز ۲۳ هزار دلار گذشت و این ارز دیجیتال \"طلای مجازی\" نام گرفت"
+      },
+      {
+        "at": "2020-12-11T19:05:20Z",
+        "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AF%D9%86%DB%8C%D8%A7%DB%8C-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%AF%D9%86%DB%8C%D8%A7/20201211-%DA%A9%D9%84%D8%A7%D9%81-%D8%B3%D8%B1%D8%AF%D8%B1%DA%AF%D9%85-%D8%AA%D9%88%D8%B1%D9%85-%D8%AF%D8%B1-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%9B-%D8%A2%DB%8C%D8%A7-%D9%BE%DB%8C%D8%B4-%D8%A8%DB%8C%D9%86%DB%8C-%D8%B1%D8%A6%DB%8C%D8%B3-%DA%A9%D9%84-%D8%A8%D8%A7%D9%86%DA%A9-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%A7%D8%B2-%D9%86%D8%B1%D8%AE-%D8%AA%D9%88%D8%B1%D9%85-%D9%82%D8%A7%D8%A8%D9%84-%D8%AA%D8%AD%D9%82%D9%82-%D8%A7%D8%B3%D8%AA?PcNCvtcnHj",
+        "title": "کلاف سردرگم تورم در اقتصاد ایران؛ آیا پیش بینی رئیس کل بانک مرکزی از نرخ تورم قابل تحقق است؟"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "domino": {
     "avg_gap_days": 4.3,
     "avg_length": 21,
@@ -6393,6 +7016,96 @@
       0
     ],
     "status": "inactive"
+  },
+  "frdai-aghtsad": {
+    "avg_gap_days": 2.0,
+    "avg_length": 61,
+    "episodes": 21,
+    "eps_365": 21,
+    "eps_90": 21,
+    "first_at": "2026-09-02",
+    "first_year": 1405,
+    "last": "1405/07/21",
+    "last_at": "2026-10-13T07:59:05Z",
+    "last_link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
+    "last_title": "رالی سهام دارویی؛ رشد سود هنوز از قیمت‌ها جا مانده است؟",
+    "max_length": 71,
+    "median_length": 61,
+    "min_length": 48,
+    "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/21bef484fc2d589e/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-10-13T07:59:05Z",
+        "t": "رالی سهام دارویی؛ رشد سود هنوز از قیمت‌ها جا مانده است؟"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/814c8922f8aa56d6/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-10-11T08:10:48Z",
+        "t": "بورس در دوراهی تصمیم؛ فروش یا نگهداری؟"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/b1d696e66dc0e711/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-10-06T08:00:19Z",
+        "t": "استراتژی بقا در بورس؛ طلا یا سهام؟"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/cdd2cc32a9be54eb/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-10-05T12:27:41Z",
+        "t": "چشم‌انداز کارگزاران بورس در ۱۴۱۰"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/a48f4c00931cad0c/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-10-04T07:42:07Z",
+        "t": "فرصت های سهام در شکاف ارزی"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/4dd4ec31e8903c18/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-09-29T08:03:39Z",
+        "t": "پول بازنشسته‌ها کجا سرمایه‌گذاری می‌شود؟"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/bb017bb2867132fb/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-09-22T08:37:01Z",
+        "t": "آغاز مهاجرت شستا از بنگاه‌داری به سهام‌داری"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/a9629d255ffadf9b/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-09-20T07:56:10Z",
+        "t": "سوت پایان خرید آسان در بورس"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-13T07:59:05Z",
+        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
+        "title": "رالی سهام دارویی؛ رشد سود هنوز از قیمت‌ها جا مانده است؟"
+      },
+      {
+        "at": "2026-10-11T08:10:48Z",
+        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
+        "title": "بورس در دوراهی تصمیم؛ فروش یا نگهداری؟"
+      },
+      {
+        "at": "2026-10-06T08:00:19Z",
+        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
+        "title": "استراتژی بقا در بورس؛ طلا یا سهام؟"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      13,
+      8
+    ],
+    "status": "active"
   },
   "frmol-1-farsi": {
     "avg_gap_days": 14.2,
@@ -10632,6 +11345,95 @@
         "at": "2020-05-22T21:54:55Z",
         "link": "https://s3.castbox.fm/35/15/71/b7a9d54f4ea68bb03c2a7bc2bb.mp3",
         "title": "5-1-Marahel-Darman"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
+  "ktab-soti-hnr-shfaf-andishidn": {
+    "avg_length": 6,
+    "episodes": 23,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-06-22",
+    "first_year": 1399,
+    "last": "1402/05/14",
+    "last_at": "2023-08-05T09:02:02Z",
+    "last_link": "https://s3.castbox.fm/3a/2c/c2/8c0a504fb0aa260e178f3df47d.mp3",
+    "last_title": "هنر شفاف اندیشیدن قسمت ۷۷ افسانه همفکر بودن",
+    "max_length": 7,
+    "median_length": 6,
+    "min_length": 5,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/3a/2c/c2/8c0a504fb0aa260e178f3df47d.mp3",
+        "at": "2023-08-05T09:02:02Z",
+        "t": "هنر شفاف اندیشیدن قسمت ۷۷ افسانه همفکر بودن"
+      },
+      {
+        "a": "https://s3.castbox.fm/9f/f9/b2/66c4574199914cd9745e7cbac9.m4a",
+        "at": "2023-07-24T10:32:52Z",
+        "t": "هنر شفاف اندیشیدن قسمت ۷۸ تمام این مدت حق با تو بوده"
+      },
+      {
+        "a": "https://s3.castbox.fm/9a/08/a4/da3988413e8f6dc9920ad976aa.m4a",
+        "at": "2023-07-24T10:24:42Z",
+        "t": "هنر شفاف اندیشیدن قسمت ۷۹ چرا به یک تیم فوتبال علاقه پیدا میکنیم ؟"
+      },
+      {
+        "a": "https://s3.castbox.fm/5a/85/8b/8acd854a159b7a01a451de0004.m4a",
+        "at": "2023-07-24T10:22:29Z",
+        "t": "هنر شفاف اندیشیدن قسمت ۸۰ تفاوت ریسک و عدم قطعیت"
+      },
+      {
+        "a": "https://s3.castbox.fm/bf/13/0d/de915a4b3bb0ce37801fc17e35.m4a",
+        "at": "2023-07-21T15:14:57Z",
+        "t": "هنر شفاف اندیشیدن قسمت۸۱ چرا با شرایط موجود همراهی میکنی ؟"
+      },
+      {
+        "a": "https://s3.castbox.fm/33/35/56/84c6984509a20ebc00fa30f984.m4a",
+        "at": "2023-07-21T15:09:24Z",
+        "t": "هنر شفاف اندیشیدن قسمت۸۲ چرا اخرین فرصت باعث می شود وحشت زده شوی ؟"
+      },
+      {
+        "a": "https://s3.castbox.fm/5d/c6/f8/10270d4caaaff21056561ec361.m4a",
+        "at": "2023-07-19T09:23:03Z",
+        "t": "هنر شفاف اندیشیدن قسمت۸۳ چطور جزئیات چشمگیر ، ما را نابینا میکنند"
+      },
+      {
+        "a": "https://s3.castbox.fm/7b/24/8b/3036f14248a158880d835ff840.m4a",
+        "at": "2023-07-19T09:18:09Z",
+        "t": "هنر شفاف اندیشیدن قسمت۸۴ چرا پول برهنه نیست"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-08-05T09:02:02Z",
+        "link": "https://s3.castbox.fm/3a/2c/c2/8c0a504fb0aa260e178f3df47d.mp3",
+        "title": "هنر شفاف اندیشیدن قسمت ۷۷ افسانه همفکر بودن"
+      },
+      {
+        "at": "2023-07-24T10:32:52Z",
+        "link": "https://s3.castbox.fm/9f/f9/b2/66c4574199914cd9745e7cbac9.m4a",
+        "title": "هنر شفاف اندیشیدن قسمت ۷۸ تمام این مدت حق با تو بوده"
+      },
+      {
+        "at": "2023-07-24T10:24:42Z",
+        "link": "https://s3.castbox.fm/9a/08/a4/da3988413e8f6dc9920ad976aa.m4a",
+        "title": "هنر شفاف اندیشیدن قسمت ۷۹ چرا به یک تیم فوتبال علاقه پیدا میکنیم ؟"
       }
     ],
     "recent_30d": [
@@ -15011,6 +15813,95 @@
       4
     ],
     "status": "active"
+  },
+  "podcast-farsi-hai-chnl-hichannelpodcast-hai-chnl": {
+    "avg_length": 29,
+    "episodes": 25,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-12-01",
+    "first_year": 1399,
+    "last": "1400/03/08",
+    "last_at": "2021-05-29T03:35:23Z",
+    "last_link": "https://shenoto.com/album/podcast/53733/اپیزود ۲۵- قسمت سوم مخترع قرن بیستم | نیکولا تسلا",
+    "last_title": "اپیزود ۲۵- قسمت سوم مخترع قرن بیستم | نیکولا تسلا",
+    "max_length": 48,
+    "median_length": 29,
+    "min_length": 17,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c2d74f0a-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-05-29T03:35:23Z",
+        "t": "اپیزود ۲۵- قسمت سوم مخترع قرن بیستم | نیکولا تسلا"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c2c70c4e-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-05-18T02:35:13Z",
+        "t": "اپیزود ۲۴- قسمت دوم مخترع قرن بیستم | نیکولا تسلا"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c2bdd87c-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-05-11T04:35:01Z",
+        "t": "اپیزود ۲3- قسمت اول مخترع قرن بیستم | نیکولا تسلا"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c2a9a500-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-05-04T05:35:54Z",
+        "t": "اپیزود ۲۲- قسمت سوم مردی تنها در سیبری | فئودور داستایوفسکی"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c29b35db-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-04-26T21:34:08Z",
+        "t": "اپیزود 21- قسمت دوم مردی تنها در سیبری | فئودور داستایوفسکی"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c28cb8c8-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-04-21T06:34:13Z",
+        "t": "اپیزود 20- قسمت اول مردی تنها در سیبری | فئودور داستایوفسکی"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c27c7cb0-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-04-13T02:34:01Z",
+        "t": "اپیزود ۱9- مردی به وسعت مغز (قسمت دوم) | پروفسور سمیعی"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c26a917d-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-04-05T23:34:26Z",
+        "t": "اپیزود ۱8- مردی به وسعت مغز (قسمت اول) | پروفسور سمیعی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2021-05-29T03:35:23Z",
+        "link": "https://shenoto.com/album/podcast/53733/اپیزود ۲۵- قسمت سوم مخترع قرن بیستم | نیکولا تسلا",
+        "title": "اپیزود ۲۵- قسمت سوم مخترع قرن بیستم | نیکولا تسلا"
+      },
+      {
+        "at": "2021-05-18T02:35:13Z",
+        "link": "https://shenoto.com/album/podcast/53364/اپیزود ۲۴- قسمت دوم مخترع قرن بیستم | نیکولا تسلا",
+        "title": "اپیزود ۲۴- قسمت دوم مخترع قرن بیستم | نیکولا تسلا"
+      },
+      {
+        "at": "2021-05-11T04:35:01Z",
+        "link": "https://shenoto.com/album/podcast/52991/اپیزود ۲3- قسمت اول مخترع قرن بیستم | نیکولا تسلا",
+        "title": "اپیزود ۲3- قسمت اول مخترع قرن بیستم | نیکولا تسلا"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "podcast-farsi-hri-patr": {
     "avg_length": 38,
@@ -19621,8 +20512,8 @@
       2,
       0,
       0,
-      2,
       3,
+      2,
       3,
       3,
       3
@@ -20430,6 +21321,95 @@
     ],
     "status": "active"
   },
+  "radio-ht-trik": {
+    "avg_length": 20,
+    "episodes": 24,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-07-21",
+    "first_year": 1400,
+    "last": "1401/04/30",
+    "last_at": "2022-07-21T13:02:42Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/radio-hat-trick/episodes/ep-e1lguij",
+    "last_title": "آنالیز مربیگری زیدان",
+    "max_length": 43,
+    "median_length": 19,
+    "min_length": 8,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/5ebf47f4/podcast/play/55130131/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-6-21%2F277424157-44100-2-da4193c6865af.mp3",
+        "at": "2022-07-21T13:02:42Z",
+        "t": "آنالیز مربیگری زیدان"
+      },
+      {
+        "a": "https://anchor.fm/s/5ebf47f4/podcast/play/54823105/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-6-14%2F276389224-44100-2-937e1432950f2.mp3",
+        "at": "2022-07-14T13:21:56Z",
+        "t": "فلش بک : آنالیز آرسنال ۲۰۰۳/۴"
+      },
+      {
+        "a": "https://anchor.fm/s/5ebf47f4/podcast/play/53893428/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-5-23%2F273203437-44100-2-eacfe06317a56.mp3",
+        "at": "2022-06-23T10:54:05Z",
+        "t": "آنالیز تیم ملی آرژانتین با سرمربیگری اسکالونی"
+      },
+      {
+        "a": "https://anchor.fm/s/5ebf47f4/podcast/play/51611137/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-4-6%2F263880900-44100-2-08929a246235a.mp3",
+        "at": "2022-05-06T12:58:13Z",
+        "t": "آنالیز یوونتوسِ آلگری - Allegri's Juventus"
+      },
+      {
+        "a": "https://anchor.fm/s/5ebf47f4/podcast/play/49900681/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-2-31%2F257063786-44100-2-9a999d35f8ab4.mp3",
+        "at": "2022-03-31T11:54:49Z",
+        "t": "بررسی دوران مربیگری گواردیولا و آنالیز تیم ها او - Guardiola Tactics Explained"
+      },
+      {
+        "a": "https://anchor.fm/s/5ebf47f4/podcast/play/49510404/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-2-23%2F255553707-44100-2-b750bbcdbc868.mp3",
+        "at": "2022-03-23T22:03:32Z",
+        "t": "بررسی دوران مربیگری آقای خاص - آنالیز تیم های مورینیو"
+      },
+      {
+        "a": "https://anchor.fm/s/5ebf47f4/podcast/play/48617619/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-2-6%2F252079695-44100-2-8393dab991dbd.mp3",
+        "at": "2022-03-06T08:03:58Z",
+        "t": "آنالیز مربیگری پوچتینو - Pochettino Tactics Explained"
+      },
+      {
+        "a": "https://anchor.fm/s/5ebf47f4/podcast/play/47821837/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-1-17%2F249037865-44100-2-be551ec23de9a.mp3",
+        "at": "2022-02-17T21:18:54Z",
+        "t": "آنالیز تاکتیکی مربیگری فلیک - Flick Tactics Explained"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-07-21T13:02:42Z",
+        "link": "https://podcasters.spotify.com/pod/show/radio-hat-trick/episodes/ep-e1lguij",
+        "title": "آنالیز مربیگری زیدان"
+      },
+      {
+        "at": "2022-07-14T13:21:56Z",
+        "link": "https://podcasters.spotify.com/pod/show/radio-hat-trick/episodes/ep-e1l7io1",
+        "title": "فلش بک : آنالیز آرسنال ۲۰۰۳/۴"
+      },
+      {
+        "at": "2022-06-23T10:54:05Z",
+        "link": "https://podcasters.spotify.com/pod/show/radio-hat-trick/episodes/ep-e1kb6rk",
+        "title": "آنالیز تیم ملی آرژانتین با سرمربیگری اسکالونی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "radio-jamah-padkst-ajtmaai": {
     "avg_gap_days": 9.0,
     "avg_length": 11,
@@ -21058,6 +22038,95 @@
       1
     ],
     "status": "active"
+  },
+  "radio-shar": {
+    "avg_length": 8,
+    "episodes": 22,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-02-23",
+    "first_year": 1398,
+    "last": "1399/08/20",
+    "last_at": "2020-11-10T19:41:11Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/radiosher/episodes/ep-ema0uu",
+    "last_title": "نمی‌دانم",
+    "max_length": 15,
+    "median_length": 8,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/1453d2e8/podcast/play/22397342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-10%2F39bb8164-e3fb-5492-e8d0-e675dca6134d.mp3",
+        "at": "2020-11-10T19:41:11Z",
+        "t": "نمی‌دانم"
+      },
+      {
+        "a": "https://anchor.fm/s/1453d2e8/podcast/play/22397061/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-10%2F578b57b2-cea7-ba74-0f3c-b24612db2585.mp3",
+        "at": "2020-11-10T19:35:19Z",
+        "t": "من از آن روز که در بند توام آزادم"
+      },
+      {
+        "a": "https://anchor.fm/s/1453d2e8/podcast/play/22396707/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-10%2F33186c09-39be-2bf1-00e8-fed91d628add.mp3",
+        "at": "2020-11-10T19:29:23Z",
+        "t": "شرح پریشانی"
+      },
+      {
+        "a": "https://anchor.fm/s/1453d2e8/podcast/play/22086865/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-4%2F67bbdd0d-44ae-2c46-c4b2-5fea645838c5.mp3",
+        "at": "2020-11-04T09:41:17Z",
+        "t": "ای همنشین دل"
+      },
+      {
+        "a": "https://anchor.fm/s/1453d2e8/podcast/play/12372323/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-13%2F64186095-32000-2-7ed3ab32404c9.mp3",
+        "at": "2020-04-13T17:06:39Z",
+        "t": "آمریکای بدبخت، ایران آباد"
+      },
+      {
+        "a": "https://anchor.fm/s/1453d2e8/podcast/play/12370512/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-13%2F64174159-32000-2-80c397c21e9f6.mp3",
+        "at": "2020-04-13T16:25:14Z",
+        "t": "نفهم و نفهم‌تر"
+      },
+      {
+        "a": "https://anchor.fm/s/1453d2e8/podcast/play/11675408/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-2-28%2F59785162-32000-2-aed6a2ab26988.mp3",
+        "at": "2020-03-28T20:04:52Z",
+        "t": "مشروح اخبار"
+      },
+      {
+        "a": "https://anchor.fm/s/1453d2e8/podcast/play/11553234/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-2-26%2F59130246-44100-2-4fa52d84b199a.mp3",
+        "at": "2020-03-26T08:33:09Z",
+        "t": "من با خدا غذا خوردم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-11-10T19:41:11Z",
+        "link": "https://podcasters.spotify.com/pod/show/radiosher/episodes/ep-ema0uu",
+        "title": "نمی‌دانم"
+      },
+      {
+        "at": "2020-11-10T19:35:19Z",
+        "link": "https://podcasters.spotify.com/pod/show/radiosher/episodes/ep-ema0m5",
+        "title": "من از آن روز که در بند توام آزادم"
+      },
+      {
+        "at": "2020-11-10T19:29:23Z",
+        "link": "https://podcasters.spotify.com/pod/show/radiosher/episodes/ep-ema0b3",
+        "title": "شرح پریشانی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "radiocrime-padkst-jnaii-radio-kraim": {
     "avg_gap_days": 20.0,
@@ -23028,6 +24097,95 @@
     ],
     "status": "active"
   },
+  "sfr-mtlgh": {
+    "avg_length": 110,
+    "episodes": 25,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2023-09-05",
+    "first_year": 1402,
+    "last": "1403/07/14",
+    "last_at": "2024-10-05T12:30:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/armin-ap/episodes/ep-e2p8rh5",
+    "last_title": "سفر بیست و ششم، همسفر با زهره کمساری",
+    "max_length": 150,
+    "median_length": 107,
+    "min_length": 75,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/e884f1f0/podcast/play/92613605/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-5%2F652cd050-7427-30f8-ace0-419fda55827d.mp3",
+        "at": "2024-10-05T12:30:00Z",
+        "t": "سفر بیست و ششم، همسفر با زهره کمساری"
+      },
+      {
+        "a": "https://anchor.fm/s/e884f1f0/podcast/play/90980890/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-28%2Fdef288d1-5190-5def-8f04-e31d4aa18895.mp3",
+        "at": "2024-08-28T12:58:00Z",
+        "t": "سفر بیست و پنجم، همسفر با رضا سحرخیز"
+      },
+      {
+        "a": "https://anchor.fm/s/e884f1f0/podcast/play/90127449/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-6%2Fe5d98f29-8e11-5768-b390-dce5d5a1120d.mp3",
+        "at": "2024-08-07T14:30:00Z",
+        "t": "سفر بیست و چهار، همسفر با موسی ربانی"
+      },
+      {
+        "a": "https://anchor.fm/s/e884f1f0/podcast/play/88668868/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2024-6-1%2F382091951-44100-2-46edd17018064.mp3",
+        "at": "2024-07-01T14:26:00Z",
+        "t": "سفر بیست و سوم، همسفر با پارسا عابدینی"
+      },
+      {
+        "a": "https://anchor.fm/s/e884f1f0/podcast/play/87840483/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-10%2F38b439bb-7b81-448c-684b-2d18bf177021.mp3",
+        "at": "2024-06-10T14:00:00Z",
+        "t": "سفر بیست و دو، همسفر با آیدا شاه قاسمی"
+      },
+      {
+        "a": "https://anchor.fm/s/e884f1f0/podcast/play/86874194/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2024-4-17%2F377930084-44100-2-1e21d55b3afac.mp3",
+        "at": "2024-05-18T14:00:00Z",
+        "t": "سفر بیست و یکم، همسفر با مهدیس مجتبوی"
+      },
+      {
+        "a": "https://anchor.fm/s/e884f1f0/podcast/play/84654707/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2024-3-6%2F373398691-48000-2-3f7a15cabe99c.mp3",
+        "at": "2024-03-28T14:30:00Z",
+        "t": "سفر بیستم، همسفر با مضراب"
+      },
+      {
+        "a": "https://anchor.fm/s/e884f1f0/podcast/play/83749169/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2024-2-9%2F370254370-48000-2-79052c1c00e3f.mp3",
+        "at": "2024-03-08T13:57:00Z",
+        "t": "سفر نوزدهم، همسفر با امیرحسن دایی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-10-05T12:30:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/armin-ap/episodes/ep-e2p8rh5",
+        "title": "سفر بیست و ششم، همسفر با زهره کمساری"
+      },
+      {
+        "at": "2024-08-28T12:58:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/armin-ap/episodes/ep-e2nn12q",
+        "title": "سفر بیست و پنجم، همسفر با رضا سحرخیز"
+      },
+      {
+        "at": "2024-08-07T14:30:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/armin-ap/episodes/ep-e2msvkp",
+        "title": "سفر بیست و چهار، همسفر با موسی ربانی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "sfri-dr-dl-tarikh": {
     "avg_gap_days": 16.9,
     "avg_length": 48,
@@ -23656,6 +24814,95 @@
       1
     ],
     "status": "active"
+  },
+  "shar-o-shkr": {
+    "avg_length": 60,
+    "episodes": 22,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2023-06-27",
+    "first_year": 1402,
+    "last": "1402/06/01",
+    "last_at": "2023-08-23T01:36:00Z",
+    "last_link": "https://www.radiobamdad.com/she-roshekar",
+    "last_title": "#21 - صباحی بیدگلی، وحشی بافقی، روزگار",
+    "max_length": 60,
+    "median_length": 60,
+    "min_length": 60,
+    "play": [
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgJCjju_5CgyiAQdsaWJyYXJ5/36b99d7a-2762-4165-9c83-3d4f2d5cb9e1.mp3",
+        "at": "2023-08-23T01:36:00Z",
+        "t": "#21 - صباحی بیدگلی، وحشی بافقی، روزگار"
+      },
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgJCjju_5CgyiAQdsaWJyYXJ5/9a955e04-6a2f-4428-973d-6926095f8b2f.mp3",
+        "at": "2023-08-20T15:32:00Z",
+        "t": "#20 - روح الله خالقی، سعدی، سفر"
+      },
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgJCjju_5CgyiAQdsaWJyYXJ5/d0db115d-9b97-4eb1-8e8f-720b1fff83eb.mp3",
+        "at": "2023-08-20T15:23:00Z",
+        "t": "#19 - همای شیرازی، حافظ، آینه"
+      },
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgJCjju_5CgyiAQdsaWJyYXJ5/0103c9da-304a-45df-97fe-80b3ad7cffde.mp3",
+        "at": "2023-08-19T08:19:00Z",
+        "t": "#18 - فروزان‌فر، سعدی‌ نیک‌نامی"
+      },
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgJCjju_5CgyiAQdsaWJyYXJ5/078edcd2-1d1e-4d7d-a4c9-0b4553dfbd08.mp3",
+        "at": "2023-08-18T01:15:00Z",
+        "t": "#17 - ایرج میرزا، سعدی، صدا"
+      },
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgJCjju_5CgyiAQdsaWJyYXJ5/541bf1d8-f7ce-4012-b4a8-2bde1353a5a5.mp3",
+        "at": "2023-08-17T08:07:00Z",
+        "t": "#16 - اقبال لاهوری، حافظ، خنده"
+      },
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgJCjju_5CgyiAQdsaWJyYXJ5/368371b3-b474-4627-8c5c-4fb08985eddf.mp3",
+        "at": "2023-08-16T01:00:00Z",
+        "t": "#15 - بهادر یگانه، سعدی، یار"
+      },
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgJCjju_5CgyiAQdsaWJyYXJ5/cf9b06db-491c-4060-997a-345bb310e1d2.mp3",
+        "at": "2023-08-15T14:54:00Z",
+        "t": "#14 - ادیب‌الممالک فراهانی، حافظ، سرنوشت"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-08-23T01:36:00Z",
+        "link": "https://www.radiobamdad.com/she-roshekar",
+        "title": "#21 - صباحی بیدگلی، وحشی بافقی، روزگار"
+      },
+      {
+        "at": "2023-08-20T15:32:00Z",
+        "link": "https://www.radiobamdad.com/she-roshekar",
+        "title": "#20 - روح الله خالقی، سعدی، سفر"
+      },
+      {
+        "at": "2023-08-20T15:23:00Z",
+        "link": "https://www.radiobamdad.com/she-roshekar",
+        "title": "#19 - همای شیرازی، حافظ، آینه"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "shar-parsi-persian-poetry": {
     "avg_gap_days": 2.5,
@@ -24445,6 +25692,95 @@
       0,
       12,
       4
+    ],
+    "status": "active"
+  },
+  "tarikh-airan": {
+    "avg_length": 159,
+    "episodes": 21,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-01-18",
+    "first_year": 1399,
+    "last": "1404/06/19",
+    "last_at": "2025-09-10T09:10:06Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/tttttarikh/episodes/ep-e381je8",
+    "last_title": "گلستان سعدی",
+    "max_length": 380,
+    "median_length": 149,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/486dfec8/podcast/play/108104584/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-10%2F285a10d2-9688-42dd-bdf6-b8d46eca2d39.mp3",
+        "at": "2025-09-10T09:10:06Z",
+        "t": "گلستان سعدی"
+      },
+      {
+        "a": "https://anchor.fm/s/486dfec8/podcast/play/105640688/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-17%2F1b6932e8-f9fa-ccab-4418-10cd43d573ff.mp3",
+        "at": "2025-07-17T17:15:28Z",
+        "t": "42 - اسپارتاکوس منم"
+      },
+      {
+        "a": "https://anchor.fm/s/486dfec8/podcast/play/105076909/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-5%2Fe9f895e0-fb1b-1fdd-a117-53ce99461662.mp3",
+        "at": "2025-07-05T21:31:08Z",
+        "t": "41 - سولا"
+      },
+      {
+        "a": "https://anchor.fm/s/486dfec8/podcast/play/102279715/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-6%2F9fd494bd-1434-3dbb-51ff-0800e15656b9.mp3",
+        "at": "2025-05-06T19:45:30Z",
+        "t": "tttttarikh - 40 - ابریشم و انار"
+      },
+      {
+        "a": "https://anchor.fm/s/486dfec8/podcast/play/100450878/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-27%2Fd419a42d-fef2-9ae5-4f8c-07fb44442a7e.mp3",
+        "at": "2025-03-27T11:01:46Z",
+        "t": "tttttarikh - 39 - غرور"
+      },
+      {
+        "a": "https://anchor.fm/s/486dfec8/podcast/play/91391024/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-6%2F47aec399-ee6b-0446-764d-4319181da87b.mp3",
+        "at": "2024-09-06T20:33:14Z",
+        "t": "37 - ترک"
+      },
+      {
+        "a": "https://anchor.fm/s/486dfec8/podcast/play/88803817/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-3%2F3bc5d380-bce4-c0db-c11a-116fef82a944.mp3",
+        "at": "2024-07-03T21:50:51Z",
+        "t": "36 - روم علیه سلوکیان"
+      },
+      {
+        "a": "https://anchor.fm/s/486dfec8/podcast/play/84630720/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-27%2Fcf39da3b-94e6-6557-cd02-2fe4062d6fd8.mp3",
+        "at": "2024-03-27T21:37:28Z",
+        "t": "35 - هانیبال"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-09-10T09:10:06Z",
+        "link": "https://podcasters.spotify.com/pod/show/tttttarikh/episodes/ep-e381je8",
+        "title": "گلستان سعدی"
+      },
+      {
+        "at": "2025-07-17T17:15:28Z",
+        "link": "https://podcasters.spotify.com/pod/show/tttttarikh/episodes/42---e35md9g",
+        "title": "42 - اسپارتاکوس منم"
+      },
+      {
+        "at": "2025-07-05T21:31:08Z",
+        "link": "https://podcasters.spotify.com/pod/show/tttttarikh/episodes/41---e3556nd",
+        "title": "41 - سولا"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "status": "active"
   },
