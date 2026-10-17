@@ -27,10 +27,6 @@
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
   },
-  "dastan-hai-tarikhi": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://qajartime.com/feed/podcast/historical-stories/"
-  },
   "film-o-srial-soti": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/feed"
