@@ -18,8 +18,8 @@ pi_id: 7556334
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # مجموعه بازی های میراث

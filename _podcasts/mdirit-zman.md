@@ -16,8 +16,8 @@ pi_id: 1932316
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # مدیریت زمان
