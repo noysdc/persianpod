@@ -16363,21 +16363,26 @@
     "status": "active"
   },
   "podcast-rkh": {
-    "avg_gap_days": 15.5,
-    "avg_length": 71,
-    "episodes": 147,
-    "eps_365": 24,
-    "eps_90": 6,
+    "avg_gap_days": 15.1,
+    "avg_length": 72,
+    "episodes": 148,
+    "eps_365": 25,
+    "eps_90": 7,
     "first_at": "2020-04-06",
     "first_year": 1399,
-    "last": "1405/07/18",
-    "last_at": "2026-10-10T01:29:00Z",
-    "last_link": "https://shows.acast.com/padkst-rkh/episodes/6ac65f5a8f340788896dbc18",
-    "last_title": "داستان زندگی راسپوتین قسمت اول",
+    "last": "1405/07/25",
+    "last_at": "2026-10-17T01:29:00Z",
+    "last_link": "https://shows.acast.com/padkst-rkh/episodes/6aca28da9fea6e0a64715454",
+    "last_title": "داستان زندگی راسپوتین قسمت دوم",
     "max_length": 175,
     "median_length": 70,
     "min_length": 25,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e095ffbec0f30016047f7e/e/6aca28da9fea6e0a64715454/media.mp3",
+        "at": "2026-10-17T01:29:00Z",
+        "t": "داستان زندگی راسپوتین قسمت دوم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65e095ffbec0f30016047f7e/e/6ac65f5a8f340788896dbc18/media.mp3",
         "at": "2026-10-10T01:29:00Z",
@@ -16412,14 +16417,14 @@
         "a": "https://sphinx.acast.com/p/open/s/65e095ffbec0f30016047f7e/e/6a4e3f61fe878dc8e21fcd9a/media.mp3",
         "at": "2026-07-18T01:29:00Z",
         "t": "اپیزود ویژه جام جهانی، فوتبال در اسارت سیاست"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65e095ffbec0f30016047f7e/e/6a44204306fb5d326d416da1/media.mp3",
-        "at": "2026-07-11T01:29:00Z",
-        "t": "همسران و فرزندان رضاشاه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-17T01:29:00Z",
+        "link": "https://shows.acast.com/padkst-rkh/episodes/6aca28da9fea6e0a64715454",
+        "title": "داستان زندگی راسپوتین قسمت دوم"
+      },
       {
         "at": "2026-10-10T01:29:00Z",
         "link": "https://shows.acast.com/padkst-rkh/episodes/6ac65f5a8f340788896dbc18",
@@ -16429,11 +16434,6 @@
         "at": "2026-09-26T01:29:00Z",
         "link": "https://shows.acast.com/padkst-rkh/episodes/6ab63d2a432e34fa4519347f",
         "title": "خاورمیانه جدید، پیمان ابراهیم و مکه"
-      },
-      {
-        "at": "2026-09-05T01:29:00Z",
-        "link": "https://shows.acast.com/padkst-rkh/episodes/6a9b05373559f174787ab45b",
-        "title": "داستان زندگی دالایی لاما قسمت سوم"
       }
     ],
     "recent_30d": [
@@ -16448,7 +16448,7 @@
       4,
       1,
       3,
-      2
+      3
     ],
     "status": "active"
   },
@@ -21946,7 +21946,7 @@
       }
     ],
     "recent_30d": [
-      13,
+      12,
       2,
       2,
       6,
