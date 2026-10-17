@@ -17,8 +17,8 @@ pi_id: 3509713
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Ofoghe roydad پادکست فارسی افق رویداد

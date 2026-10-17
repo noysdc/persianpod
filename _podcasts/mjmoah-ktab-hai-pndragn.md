@@ -17,8 +17,8 @@ pi_id: 7501091
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # مجموعه کتاب‌های پندراگن

@@ -16,8 +16,8 @@ pi_id: 2490316
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # سخنراني‌ها، ميزگردها و مصاحبه‌هاي علمي
