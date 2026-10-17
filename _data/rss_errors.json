@@ -43,9 +43,17 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
   },
+  "klmat-zndgi": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://iranwordsoflife.podomatic.com/rss2.xml"
+  },
   "mamanst-mamanest": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://feeds.sounder.fm/16420/rss.xml"
+  },
+  "marktplatz-zban-aalmani-dr-aghtsad": {
+    "error": "ParseError: syntax error: line 1, column 0",
+    "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
   },
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
