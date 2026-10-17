@@ -5270,8 +5270,8 @@
       14,
       1,
       1,
-      1,
-      2
+      2,
+      1
     ],
     "status": "active"
   },
@@ -11977,8 +11977,8 @@
       0,
       29,
       62,
-      62,
-      65,
+      64,
+      63,
       66
     ],
     "status": "active"
@@ -13682,19 +13682,24 @@
   "ktab-soti-sh-tfngdar": {
     "avg_gap_days": 11.4,
     "avg_length": 27,
-    "episodes": 132,
-    "eps_365": 31,
-    "eps_90": 10,
+    "episodes": 133,
+    "eps_365": 32,
+    "eps_90": 11,
     "first_at": "2024-05-18",
     "first_year": 1403,
-    "last": "1405/07/13",
-    "last_at": "2026-10-05T19:46:16Z",
-    "last_link": "https://shows.acast.com/threemusketeers/episodes/6ac3fe947c84f5d4dd6b66a2",
-    "last_title": "تریلر سیزن پنجم پادکست سه تفنگدار",
+    "last": "1405/07/25",
+    "last_at": "2026-10-17T19:07:17Z",
+    "last_link": "https://shows.acast.com/threemusketeers/episodes/6ad3c76694a3daa98effffcd",
+    "last_title": "قسمت صد و هجدهم(قسمت اول سیزن پنجم)",
     "max_length": 42,
     "median_length": 30,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6ad3c76694a3daa98effffcd/media.mp3",
+        "at": "2026-10-17T19:07:17Z",
+        "t": "قسمت صد و هجدهم(قسمت اول سیزن پنجم)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6ac3fe947c84f5d4dd6b66a2/media.mp3",
         "at": "2026-10-05T19:46:16Z",
@@ -13729,14 +13734,14 @@
         "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6a78cfa0c867c168176e136c/media.mp3",
         "at": "2026-08-09T19:06:08Z",
         "t": "مقدمه قسمت ۱۱۵"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6a6f6eac034f16a52e7511f6/media.mp3",
-        "at": "2026-08-02T16:22:04Z",
-        "t": "قسمت صد و چهاردهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-17T19:07:17Z",
+        "link": "https://shows.acast.com/threemusketeers/episodes/6ad3c76694a3daa98effffcd",
+        "title": "قسمت صد و هجدهم(قسمت اول سیزن پنجم)"
+      },
       {
         "at": "2026-10-05T19:46:16Z",
         "link": "https://shows.acast.com/threemusketeers/episodes/6ac3fe947c84f5d4dd6b66a2",
@@ -13746,11 +13751,6 @@
         "at": "2026-09-13T17:22:18Z",
         "link": "https://shows.acast.com/threemusketeers/episodes/6aa6dbca1563582c05a44feb",
         "title": "قسمت آخر سیزن چهارم"
-      },
-      {
-        "at": "2026-09-05T16:24:40Z",
-        "link": "https://shows.acast.com/threemusketeers/episodes/6a9c42482a7730b896c3969b",
-        "title": "قسمت ویژه (انتقام 🥀🔥)"
       }
     ],
     "recent_30d": [
@@ -13765,7 +13765,7 @@
       4,
       5,
       4,
-      1
+      2
     ],
     "status": "active"
   },
