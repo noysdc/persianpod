@@ -3936,19 +3936,24 @@
   "chh-hsi-dari-roanshnasi-khodshnasi": {
     "avg_gap_days": 1.0,
     "avg_length": 21,
-    "episodes": 78,
-    "eps_365": 78,
-    "eps_90": 78,
+    "episodes": 79,
+    "eps_365": 79,
+    "eps_90": 79,
     "first_at": "2026-07-29",
     "first_year": 1405,
-    "last": "1405/07/24",
-    "last_at": "2026-10-16T19:07:03Z",
-    "last_link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-yk-qwty-kirm--75829617",
-    "last_title": "داستان کوتاه طنز| یک قوطی کِرم",
+    "last": "1405/07/25",
+    "last_at": "2026-10-17T11:32:29Z",
+    "last_link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-jwjh-dr-mrghdany--75836220",
+    "last_title": "داستان کوتاه طنز|جوجه در مرغدانی",
     "max_length": 33,
     "median_length": 15,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75836220/utf_8_b_2kzzinis2ycg2k_yssdzhdix2lryr9in2ybbjc5tcdm.mp3",
+        "at": "2026-10-17T11:32:29Z",
+        "t": "داستان کوتاه طنز|جوجه در مرغدانی"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75829617/utf_8_b_24zaqsdzgtmi2lfbjcdaqdix2yuubxaz.mp3",
         "at": "2026-10-16T19:07:03Z",
@@ -3983,14 +3988,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75726623/utf_8_b_2klystmf2kfbjni0iniu2yjzhi5tcdm.mp3",
         "at": "2026-10-12T11:35:06Z",
         "t": "داستان کوتاه طنز|آزمایش خون | دیوید سدرایس"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75702193/utf_8_b_2k_yrtiq2leg2k7yp9mg2ycg2qnzhtin2lhbjc5tcdm.mp3",
-        "at": "2026-10-11T18:11:57Z",
-        "t": "داستان کوتاه طنز | دختر خانه‌ی کناری"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-17T11:32:29Z",
+        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-jwjh-dr-mrghdany--75836220",
+        "title": "داستان کوتاه طنز|جوجه در مرغدانی"
+      },
       {
         "at": "2026-10-16T19:07:03Z",
         "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-yk-qwty-kirm--75829617",
@@ -4000,11 +4005,6 @@
         "at": "2026-10-16T11:55:44Z",
         "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-drsh-ra-bgdhar--75822211",
         "title": "داستان کوتاه طنز| درش را بگذار"
-      },
-      {
-        "at": "2026-10-15T10:12:27Z",
-        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-milk-dywyd-sdrays--75804466",
-        "title": "داستان کوتاه طنز| مِلک |دیوید سدرایس"
       }
     ],
     "recent_30d": [
@@ -4019,7 +4019,7 @@
       0,
       32,
       21,
-      25
+      26
     ],
     "status": "active"
   },
