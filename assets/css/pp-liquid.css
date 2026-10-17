@@ -1,0 +1,123 @@
+/* PersianPod — لایه‌ی «شیشه‌ی مایع» (سبک آیفون). باید بعد از pp-glass.css و آخرین CSS در default.html لود شود.
+   بیشتر کار با تغییر متغیرهای pp-glass.css انجام می‌شود، پس همه‌ی دکمه‌ها و باکس‌ها خودکار عوض می‌شوند. */
+
+/* ۱) متغیرها — روشن: شفاف‌تر، لبه‌ی براق‌تر، بلور و اشباع بیشتر */
+:root{
+  --gl-blur:26px; --gl-sat:190%;
+  --gl-fill:
+    radial-gradient(120% 80% at 0% 0%,rgba(255,255,255,.55),rgba(255,255,255,0) 46%),
+    linear-gradient(145deg,rgba(8,203,0,.06),rgba(8,203,0,0) 55%),
+    linear-gradient(145deg,rgba(255,255,255,.46),rgba(255,255,255,.20));
+  --gl-fill-strong:
+    radial-gradient(120% 80% at 0% 0%,rgba(255,255,255,.7),rgba(255,255,255,0) 50%),
+    linear-gradient(145deg,rgba(255,255,255,.86),rgba(255,255,255,.7));
+  --gl-flat:linear-gradient(180deg,rgba(255,255,255,.62),rgba(255,255,255,.28));
+  --gl-flat-hover:rgba(255,255,255,.78);
+  --gl-edge:rgba(255,255,255,.88); --gl-rim:rgba(22,52,30,.07);
+  --gl-hi:rgba(255,255,255,1); --gl-lo:rgba(255,255,255,.45);
+  --gl-shadow:0 18px 44px -16px rgba(10,70,25,.30),0 3px 10px rgba(22,32,26,.05);
+  --gl-amb-1:rgba(8,203,0,.30); --gl-amb-2:rgba(0,255,156,.26); --gl-amb-3:rgba(90,200,255,.20);
+}
+/* تیره */
+:root[data-theme=dark]{
+  --gl-fill:
+    radial-gradient(120% 80% at 0% 0%,rgba(255,255,255,.20),rgba(255,255,255,0) 46%),
+    linear-gradient(145deg,rgba(8,203,0,.08),rgba(8,203,0,0) 55%),
+    linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.035));
+  --gl-fill-strong:
+    radial-gradient(120% 80% at 0% 0%,rgba(255,255,255,.14),rgba(255,255,255,0) 50%),
+    linear-gradient(145deg,rgba(34,42,38,.88),rgba(22,28,25,.8));
+  --gl-flat:linear-gradient(180deg,rgba(255,255,255,.13),rgba(255,255,255,.04));
+  --gl-flat-hover:rgba(255,255,255,.16);
+  --gl-edge:rgba(255,255,255,.22); --gl-rim:rgba(0,0,0,.4);
+  --gl-hi:rgba(255,255,255,.34); --gl-lo:rgba(255,255,255,.05);
+  --gl-shadow:0 20px 50px -16px rgba(0,0,0,.75),0 3px 10px rgba(0,0,0,.3);
+  --gl-amb-1:rgba(8,203,0,.30); --gl-amb-2:rgba(0,255,156,.18); --gl-amb-3:rgba(90,150,255,.16);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]):not([data-theme=dark]){
+    --gl-fill:
+      radial-gradient(120% 80% at 0% 0%,rgba(255,255,255,.20),rgba(255,255,255,0) 46%),
+      linear-gradient(145deg,rgba(8,203,0,.08),rgba(8,203,0,0) 55%),
+      linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.035));
+    --gl-fill-strong:
+      radial-gradient(120% 80% at 0% 0%,rgba(255,255,255,.14),rgba(255,255,255,0) 50%),
+      linear-gradient(145deg,rgba(34,42,38,.88),rgba(22,28,25,.8));
+    --gl-flat:linear-gradient(180deg,rgba(255,255,255,.13),rgba(255,255,255,.04));
+    --gl-flat-hover:rgba(255,255,255,.16);
+    --gl-edge:rgba(255,255,255,.22); --gl-rim:rgba(0,0,0,.4);
+    --gl-hi:rgba(255,255,255,.34); --gl-lo:rgba(255,255,255,.05);
+    --gl-shadow:0 20px 50px -16px rgba(0,0,0,.75),0 3px 10px rgba(0,0,0,.3);
+    --gl-amb-1:rgba(8,203,0,.30); --gl-amb-2:rgba(0,255,156,.18); --gl-amb-3:rgba(90,150,255,.16);
+  }
+}
+
+/* ۲) پس‌زمینه‌ی رنگی ملایم تا پشت شیشه «چیزی دیده شود» (شیشه بدون رنگ پشتش صاف و بی‌حال است) */
+body::before{
+  background:
+    radial-gradient(42vmax 34vmax at 90% -4%,var(--gl-amb-1),transparent 66%),
+    radial-gradient(38vmax 32vmax at -6% 34%,var(--gl-amb-2),transparent 66%),
+    radial-gradient(40vmax 34vmax at 74% 106%,var(--gl-amb-3),transparent 66%),
+    radial-gradient(30vmax 26vmax at 36% 62%,rgba(170,140,255,.11),transparent 68%),
+    radial-gradient(26vmax 22vmax at 14% 100%,rgba(255,190,110,.10),transparent 68%)}
+:root[data-theme=dark] body::before{
+  background:
+    radial-gradient(42vmax 34vmax at 90% -4%,var(--gl-amb-1),transparent 66%),
+    radial-gradient(38vmax 32vmax at -6% 34%,var(--gl-amb-2),transparent 66%),
+    radial-gradient(40vmax 34vmax at 74% 106%,var(--gl-amb-3),transparent 66%),
+    radial-gradient(30vmax 26vmax at 36% 62%,rgba(150,120,255,.10),transparent 68%)}
+
+/* ۳) پنل‌ها و باکس‌های بزرگ: گوشه‌ی نرم‌تر مثل ویجت‌های آیفون */
+:root .pd-filters,:root .pd-group,:root .pp-map-section,:root .pp-doc,:root .pp-news,
+:root .pp-embed-box,:root .pl-stage,:root .pod-hero,:root .pod .facts,:root .cp-card,
+:root .cp-m-box,:root .pf-set,:root .pf-acc,:root .pf-title,:root .pf-modal-box,
+:root .pp-suggest,:root .cp-list,:root .pp-sug{border-radius:26px}
+:root .pp-glass{border-radius:24px}
+
+/* ۴) دکمه‌ها و چیپ‌ها: قرص کامل + حرکت فنری هنگام لمس */
+:root .btn,:root .pod .links .btn,:root .pod-pill,:root .tags a,:root .tags span,:root a.pd-tag,
+:root .pd-chip,:root .pd-reset,:root .pd-eps-more,:root .pp-map-btn,:root .pp-more-btn,
+:root .pp-install button,:root .pl-links a,:root .pf-btn-ghost,:root .cp-btn,:root .pf-btn,
+:root .pf-add,:root .pf-tg-add,:root .pf-tg,:root .pp-donate,:root .pp-news-link,
+:root .pp-glass .pp-nav a,:root .pp-cats a,:root .pp-tools button,:root .pd-ftoggle,
+:root #pd-filters .pd-actions .pd-reset,:root #pd-filters .pd-actions .pd-apply{
+  border-radius:999px;
+  transition:transform .34s cubic-bezier(.34,1.56,.64,1),background .25s,box-shadow .25s,border-color .25s}
+:root .btn:active,:root .pod .links .btn:active,:root .pd-chip:active,:root .pd-reset:active,
+:root .pf-btn:active,:root .cp-btn:active,:root .pf-btn-ghost:active,:root .pp-donate:active,
+:root .pp-glass .pp-nav a:active,:root .pp-cats a:active,:root .pp-tools button:active,
+:root .pp-news-link:active,:root .pd-ftoggle:active,:root #pd-filters .pd-actions button:active{
+  transform:scale(.955);transition-duration:.12s}
+
+/* ۵) فیلدها: گرد و شیشه‌ای */
+:root select,:root .pd-filters select,:root .pd-filters input[type=text],:root .cp-box input,
+:root .pf-row input[type=text],:root .pp-form input[type=text],:root .pp-form input[type=email],
+:root .pp-form input[type=url],:root .pp-form select,:root .pp-search{border-radius:16px}
+:root .pp-form textarea{border-radius:18px}
+:root .pp-search{border-radius:999px}
+
+/* ۶) کارت‌های پادکستی که پس‌زمینه‌ی مات دارند (نتایج مشابه، تازه‌ها و ...) → شیشه‌ی تخت.
+      کارت‌های ردیف/شبکه‌ی صفحه‌ی اصلی عمداً شفاف‌اند و دست نمی‌خورند. */
+:root .pd-card:not(.pd-row .pd-card):not(.pd-grid .pd-card){
+  background:var(--gl-flat)!important;border:1px solid var(--gl-edge)!important;border-radius:22px!important;
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px var(--gl-rim),0 10px 26px -14px rgba(10,70,25,.28)!important;
+  transition:transform .34s cubic-bezier(.34,1.56,.64,1),box-shadow .25s}
+:root .pd-card:not(.pd-row .pd-card):not(.pd-grid .pd-card):hover{
+  transform:translateY(-3px)!important;
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px rgba(8,203,0,.4),0 16px 34px -12px rgba(8,203,0,.45)!important}
+
+/* ۷) کاور پادکست‌ها: لبه‌ی براق مثل آیکن اپ‌های iOS */
+:root .pd-card .pd-logo,:root .pod-cover img{
+  box-shadow:0 0 0 1px var(--gl-edge),0 10px 24px -12px rgba(10,60,25,.4)}
+
+/* ۸) اگر کاربر کاهش حرکت یا شفافیت خواسته باشد */
+@media (prefers-reduced-motion:reduce){
+  :root .btn,:root .pf-btn,:root .cp-btn,:root .pp-cats a,:root .pp-glass .pp-nav a,:root .pd-card{transition:none}
+  :root .btn:active,:root .pf-btn:active,:root .cp-btn:active,:root .pp-cats a:active{transform:none}
+}
+@media (prefers-reduced-transparency:reduce){
+  :root,:root[data-theme=dark]{--gl-fill:var(--card);--gl-flat:var(--card);--gl-fill-strong:var(--card);--gl-flat-hover:var(--bg)}
+}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  :root,:root[data-theme=dark]{--gl-fill:var(--card);--gl-fill-strong:var(--card);--gl-flat:var(--card);--gl-flat-hover:var(--bg)}
+}
