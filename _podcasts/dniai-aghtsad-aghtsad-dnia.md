@@ -18,8 +18,8 @@ pi_id: 4108588
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # دنیای اقتصاد، اقتصاد دنیا

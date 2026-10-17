@@ -17,8 +17,8 @@ pi_id: 4631630
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Asgarifx تجربیات من در بازار فارکس
