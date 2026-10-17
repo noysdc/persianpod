@@ -1,0 +1,27 @@
+name: پاک‌سازی دیتا برای جکیل
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sanitize-data
+  cancel-in-progress: false
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/sanitize-data.mjs
+      - name: ذخیره
+        run: |
+          git config user.name "persianpod-bot"
+          git config user.email "persianpod-bot@users.noreply.github.com"
+          git add -A _data
+          git diff --cached --quiet && { echo "چیزی برای اصلاح نبود"; exit 0; }
+          git commit -m "fix: حذف surrogate ناقص از دیتا"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && exit 0; sleep $((i*8)); done
+          exit 1
