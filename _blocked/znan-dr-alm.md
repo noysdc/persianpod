@@ -17,8 +17,8 @@ pi_id: 7167130
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: false
+published: false
 ---
 
 # زنان در علم
