@@ -3132,6 +3132,95 @@
     ],
     "status": "active"
   },
+  "badh-prst-padkst-hafz-khoani": {
+    "avg_length": 20,
+    "episodes": 17,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-05-11",
+    "first_year": 1399,
+    "last": "1400/07/17",
+    "last_at": "2021-10-09T22:21:23Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/badeh_parast/episodes/ep-e18ibhk",
+    "last_title": "قسمت شانزدهم (سرو چمان من چرا میل چمن نمی‌کند)",
+    "max_length": 31,
+    "median_length": 22,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/2099945c/podcast/play/41544692/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-9-9%2F223478609-44100-2-c2d865f752c85.mp3",
+        "at": "2021-10-09T22:21:23Z",
+        "t": "قسمت شانزدهم (سرو چمان من چرا میل چمن نمی‌کند)"
+      },
+      {
+        "a": "https://anchor.fm/s/2099945c/podcast/play/30013384/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-2-26%2F169361016-44100-2-abe2406ddab76.mp3",
+        "at": "2021-03-26T14:17:42Z",
+        "t": "قسمت پانزدهم (گل در بر و می در کف و معشوق به کام است)"
+      },
+      {
+        "a": "https://anchor.fm/s/2099945c/podcast/play/28255655/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-2-7%2F162386348-44100-2-6e8f713d1bd83.mp3",
+        "at": "2021-03-07T16:32:26Z",
+        "t": "قسمت چهاردهم (چو بشنوی سخن اهل دل مگو که خطاست)"
+      },
+      {
+        "a": "https://anchor.fm/s/2099945c/podcast/play/26846153/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-1-17%2F156173991-44100-2-f032ec47b841c.mp3",
+        "at": "2021-02-17T16:29:57Z",
+        "t": "قسمت سیزدهم (به ملازمان سلطان که رساند این دعا را)"
+      },
+      {
+        "a": "https://anchor.fm/s/2099945c/podcast/play/22491742/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-10-12%2F127896702-44100-2-cb82934ff796f.mp3",
+        "at": "2020-11-12T16:08:30Z",
+        "t": "قسمت دوازدهم (دمی با غم بسر بردن جهان یکسر نمی‌ارزد)"
+      },
+      {
+        "a": "https://anchor.fm/s/2099945c/podcast/play/21432521/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-9-21%2F120621319-44100-2-7b538f90270f9.mp3",
+        "at": "2020-10-21T16:07:10Z",
+        "t": "قسمت یازدهم (یوسف گمگشته باز آید به کنعان غم مخور)"
+      },
+      {
+        "a": "https://anchor.fm/s/2099945c/podcast/play/17905204/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-7-11%2F97622410-44100-2-dff89ebc55aed.mp3",
+        "at": "2020-08-11T21:56:41Z",
+        "t": "قسمت دهم (که بوی خیر ز زهد و ریا نمی‌آید)"
+      },
+      {
+        "a": "https://anchor.fm/s/2099945c/podcast/play/15960791/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-6-1%2F86733792-44100-2-34b4880f4159a.m4a",
+        "at": "2020-07-01T05:49:29Z",
+        "t": "قسمت نهم (یاری اندر کس نمی‌بینیم یاران را چه شد)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2021-10-09T22:21:23Z",
+        "link": "https://podcasters.spotify.com/pod/show/badeh_parast/episodes/ep-e18ibhk",
+        "title": "قسمت شانزدهم (سرو چمان من چرا میل چمن نمی‌کند)"
+      },
+      {
+        "at": "2021-03-26T14:17:42Z",
+        "link": "https://podcasters.spotify.com/pod/show/badeh_parast/episodes/ep-etieg8",
+        "title": "قسمت پانزدهم (گل در بر و می در کف و معشوق به کام است)"
+      },
+      {
+        "at": "2021-03-07T16:32:26Z",
+        "link": "https://podcasters.spotify.com/pod/show/badeh_parast/episodes/ep-erspv7",
+        "title": "قسمت چهاردهم (چو بشنوی سخن اهل دل مگو که خطاست)"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "bagh-airani": {
     "avg_length": 29,
     "episodes": 115,
@@ -12966,6 +13055,95 @@
     ],
     "status": "inactive"
   },
+  "ktab-soti-paskh-bh-tarikh-mhmdrza-phloi": {
+    "avg_length": 31,
+    "episodes": 17,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2022-12-15",
+    "first_year": 1401,
+    "last": "1401/10/24",
+    "last_at": "2023-01-14T01:23:35Z",
+    "last_link": "https://s3.castbox.fm/d9/2d/be/17df9b4b09ab3dfd2f4ed09388.mp3",
+    "last_title": "کتاب صوتی پاسخ به تاریخ اپیزود هفدهم ( اپیزود آخر)",
+    "max_length": 43,
+    "median_length": 32,
+    "min_length": 18,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/d9/2d/be/17df9b4b09ab3dfd2f4ed09388.mp3",
+        "at": "2023-01-14T01:23:35Z",
+        "t": "کتاب صوتی پاسخ به تاریخ اپیزود هفدهم ( اپیزود آخر)"
+      },
+      {
+        "a": "https://s3.castbox.fm/f0/d5/67/c4fcd141f0921431fb798dd948.mp3",
+        "at": "2023-01-09T15:48:30Z",
+        "t": "کتاب صوتی پاسخ به تاریخ اپیزود شانزدهم"
+      },
+      {
+        "a": "https://s3.castbox.fm/f2/b3/68/573dcb4c8182e89fcc1dca4c96.mp3",
+        "at": "2023-01-09T15:47:23Z",
+        "t": "کتاب صوتی پاسخ به تاریخ اپیزود پانزدهم"
+      },
+      {
+        "a": "https://s3.castbox.fm/ef/e0/5e/f149e04dc0ba06c30944864e49.mp3",
+        "at": "2023-01-09T15:41:19Z",
+        "t": "کتاب صوتی پاسخ به تاریخ اپیزود چهاردهم"
+      },
+      {
+        "a": "https://s3.castbox.fm/d3/5a/71/b992e446ac80d40f300b727e17.mp3",
+        "at": "2023-01-06T03:05:23Z",
+        "t": "کتاب صوتی پاسخ به تاریخ اپیزود سیزدهم"
+      },
+      {
+        "a": "https://s3.castbox.fm/02/39/85/6fdeec4334813bf1e5c8faa9c1.mp3",
+        "at": "2023-01-05T00:38:29Z",
+        "t": "کتاب صوتی پاسخ به تاریخ اپیزود دوازدهم"
+      },
+      {
+        "a": "https://s3.castbox.fm/ff/03/fd/62a83448cab8a6cdfa388afda3.mp3",
+        "at": "2023-01-05T00:25:02Z",
+        "t": "کتاب صوتی پاسخ به تاریخ اپیزود یازدهم"
+      },
+      {
+        "a": "https://s3.castbox.fm/83/92/1d/f763b54348b9cab7f1e0bcfd03.mp3",
+        "at": "2023-01-01T13:55:25Z",
+        "t": "کتاب صوتی پاسخ به تاریخ اپیزود دهم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-01-14T01:23:35Z",
+        "link": "https://s3.castbox.fm/d9/2d/be/17df9b4b09ab3dfd2f4ed09388.mp3",
+        "title": "کتاب صوتی پاسخ به تاریخ اپیزود هفدهم ( اپیزود آخر)"
+      },
+      {
+        "at": "2023-01-09T15:48:30Z",
+        "link": "https://s3.castbox.fm/f0/d5/67/c4fcd141f0921431fb798dd948.mp3",
+        "title": "کتاب صوتی پاسخ به تاریخ اپیزود شانزدهم"
+      },
+      {
+        "at": "2023-01-09T15:47:23Z",
+        "link": "https://s3.castbox.fm/f2/b3/68/573dcb4c8182e89fcc1dca4c96.mp3",
+        "title": "کتاب صوتی پاسخ به تاریخ اپیزود پانزدهم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "ktab-soti-roait-lain": {
     "avg_gap_days": 12.1,
     "avg_length": 34,
@@ -13587,6 +13765,95 @@
     ],
     "status": "inactive"
   },
+  "mdirit-zman": {
+    "avg_length": 25,
+    "episodes": 17,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-02-14",
+    "first_year": 1398,
+    "last": "1398/11/25",
+    "last_at": "2020-02-14T20:15:22Z",
+    "last_link": "https://s3.castbox.fm/e3/ec/c5/6746e74a88aa3578cc2f7a524f.mp3",
+    "last_title": "هنر مدیریت زمان در خانه",
+    "max_length": 78,
+    "median_length": 18,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/e3/ec/c5/6746e74a88aa3578cc2f7a524f.mp3",
+        "at": "2020-02-14T20:15:22Z",
+        "t": "هنر مدیریت زمان در خانه"
+      },
+      {
+        "a": "https://s3.castbox.fm/07/f9/c5/607b6844c49a87ea4ee946ec4b.mp3",
+        "at": "2020-02-14T20:14:29Z",
+        "t": "معارف چگونگی مدیریت زمان"
+      },
+      {
+        "a": "https://s3.castbox.fm/2f/9c/4c/38bba240ef829be6b30667594c.mp3",
+        "at": "2020-02-14T20:13:42Z",
+        "t": "مدیریت زمان را بهتر بشناسیم"
+      },
+      {
+        "a": "https://s3.castbox.fm/43/e2/0e/72145940f4b075cf0ce0091ec7.mp3",
+        "at": "2020-02-14T20:13:09Z",
+        "t": "مدیریت زمان برای جلوگیری از اضطراب"
+      },
+      {
+        "a": "https://s3.castbox.fm/ba/1d/1f/3d5cbf4fbfb40e6122f31c7547.mp3",
+        "at": "2020-02-14T20:12:30Z",
+        "t": "کنترل و مدیریت زمان"
+      },
+      {
+        "a": "https://s3.castbox.fm/d2/e9/9c/a0b454481897e4b66c2176a6b6.mp3",
+        "at": "2020-02-14T20:11:14Z",
+        "t": "چگونه از مدیریت زمانمان بهترین استفاده را ببریم"
+      },
+      {
+        "a": "https://s3.castbox.fm/ef/b2/5d/3a4f084ba780551bd06155c9cd.mp3",
+        "at": "2020-02-14T20:10:17Z",
+        "t": "آموزش تکنیک پومودرو برای مدیریت زمان و نحوه استراحت"
+      },
+      {
+        "a": "https://s3.castbox.fm/b0/ad/65/0016ab4ca091ed01627a7814a1.mp3",
+        "at": "2020-02-14T20:09:39Z",
+        "t": "مديريت زمان و برنامه ریزی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-02-14T20:15:22Z",
+        "link": "https://s3.castbox.fm/e3/ec/c5/6746e74a88aa3578cc2f7a524f.mp3",
+        "title": "هنر مدیریت زمان در خانه"
+      },
+      {
+        "at": "2020-02-14T20:14:29Z",
+        "link": "https://s3.castbox.fm/07/f9/c5/607b6844c49a87ea4ee946ec4b.mp3",
+        "title": "معارف چگونگی مدیریت زمان"
+      },
+      {
+        "at": "2020-02-14T20:13:42Z",
+        "link": "https://s3.castbox.fm/2f/9c/4c/38bba240ef829be6b30667594c.mp3",
+        "title": "مدیریت زمان را بهتر بشناسیم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "midnightcast": {
     "avg_gap_days": 34.3,
     "avg_length": 61,
@@ -13852,6 +14119,96 @@
       0,
       0,
       1,
+      0
+    ],
+    "status": "active"
+  },
+  "mjmoah-bazi-hai-miras": {
+    "avg_gap_days": 6.6,
+    "avg_length": 84,
+    "episodes": 18,
+    "eps_365": 18,
+    "eps_90": 0,
+    "first_at": "2025-10-27",
+    "first_year": 1404,
+    "last": "1404/11/28",
+    "last_at": "2026-02-17T07:54:31Z",
+    "last_link": "https://www.spreaker.com/episode/m-rfy-kanal-hnwz-nmzdh-am-haly-jkswn--70094218",
+    "last_title": "معرفی کانال: هنوز نمزده ام- هالی جکسون",
+    "max_length": 192,
+    "median_length": 74,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/70094218/episode_70094218.mp3",
+        "at": "2026-02-17T07:54:31Z",
+        "t": "معرفی کانال: هنوز نمزده ام- هالی جکسون"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/68298500/f9843643d293bb17d5088048a6.mp3",
+        "at": "2025-10-27T15:08:00Z",
+        "t": "مقدمه، نیروی طبیعت-کانال معرفی"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/68298504/media.mp3",
+        "at": "2025-10-27T15:03:17Z",
+        "t": "25"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/68298508/media.mp3",
+        "at": "2025-10-27T15:01:08Z",
+        "t": "24"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/68298510/1348f14e5aa879c5358e4b28ed.mp3",
+        "at": "2025-10-27T14:58:33Z",
+        "t": "20-23"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/68298513/a065124ded96a89b78cd236579.mp3",
+        "at": "2025-10-27T14:55:24Z",
+        "t": "15-19"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/68298525/bbd70c40069259b46efe60a248.mp3",
+        "at": "2025-10-27T14:51:24Z",
+        "t": "10-14"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/68298503/ef2ea646e79883d70f572c5599.mp3",
+        "at": "2025-10-27T14:47:22Z",
+        "t": "6-9"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-02-17T07:54:31Z",
+        "link": "https://www.spreaker.com/episode/m-rfy-kanal-hnwz-nmzdh-am-haly-jkswn--70094218",
+        "title": "معرفی کانال: هنوز نمزده ام- هالی جکسون"
+      },
+      {
+        "at": "2025-10-27T15:08:00Z",
+        "link": "https://www.spreaker.com/episode/mqdmh-nyrwy-tby-t-kanal-m-rfy--68298500",
+        "title": "مقدمه، نیروی طبیعت-کانال معرفی"
+      },
+      {
+        "at": "2025-10-27T15:03:17Z",
+        "link": "https://www.spreaker.com/episode/25--68298504",
+        "title": "25"
+      }
+    ],
+    "recent_30d": [
+      17,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0
     ],
     "status": "active"
@@ -15710,6 +16067,95 @@
       1
     ],
     "status": "active"
+  },
+  "peykan-pikan": {
+    "avg_length": 25,
+    "episodes": 17,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-12-10",
+    "first_year": 1398,
+    "last": "1400/04/04",
+    "last_at": "2021-06-25T11:52:17Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/iranian-podcast/episodes/-----e13dq73",
+    "last_title": "پادکست پیکان- اپیزود هفتم- جواد نجم‌الدین",
+    "max_length": 48,
+    "median_length": 22,
+    "min_length": 17,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/11692358/podcast/play/36152995/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-5-25%2F200343782-44100-2-dbe4a0722baba.mp3",
+        "at": "2021-06-25T11:52:17Z",
+        "t": "پادکست پیکان- اپیزود هفتم- جواد نجم‌الدین"
+      },
+      {
+        "a": "https://anchor.fm/s/11692358/podcast/play/30425725/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-2-31%2F170999360-44100-2-cc03d86e1a156.mp3",
+        "at": "2021-03-31T15:30:16Z",
+        "t": "پادکست پیکان_ فصل دوم_ اپیزود پنجم_ مروری بر صنعت خودرو در سال ۹۹"
+      },
+      {
+        "a": "https://anchor.fm/s/11692358/podcast/play/26935302/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-1-19%2F156761244-44100-2-93ddfe5315724.mp3",
+        "at": "2021-02-19T07:53:09Z",
+        "t": "پادکست پیکان- فصل دوم- اپیزود چهارم- سه‌گانه جمالی، جهرودی، سروش"
+      },
+      {
+        "a": "https://anchor.fm/s/11692358/podcast/play/24373419/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-11-24%2F140580435-44100-2-932bf12eab4b6.mp3",
+        "at": "2020-12-24T06:55:44Z",
+        "t": "پادکست پیکان_ اپیزود سوم/1_ یکه‌زارع، شطرنج‌بازی که بازی خورد"
+      },
+      {
+        "a": "https://anchor.fm/s/11692358/podcast/play/21751661/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-9-28%2F122884786-44100-2-40f39d34266d4.mp3",
+        "at": "2020-10-28T06:09:06Z",
+        "t": "پادکست پیکان- فصل دوم/ اپیزود دوم: سلیمانی و نشان ویژه حاکم بزرگ"
+      },
+      {
+        "a": "https://anchor.fm/s/11692358/podcast/play/19304000/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-8-9%2F105704747-48000-2-c718ea62821ab.mp3",
+        "at": "2020-09-09T05:42:39Z",
+        "t": "پادکست پیکان، فصل دوم، اپیزود اول/ مقیمی؛ سفیر جوان دولت در ایران خودرو"
+      },
+      {
+        "a": "https://anchor.fm/s/11692358/podcast/play/16923469/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-6-22%2F92150698-44100-2-40309ff40ce8e.mp3",
+        "at": "2020-07-22T08:09:48Z",
+        "t": "پادکست پیکان- اپیزود دوازدهم- چرا خودرو گران است؟"
+      },
+      {
+        "a": "https://anchor.fm/s/11692358/podcast/play/15452368/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-5-20%2F83840520-44100-2-61ccf9febf294.mp3",
+        "at": "2020-06-20T05:48:12Z",
+        "t": "اپیزود یازدهم پیکان؛ مروری بر دو قرارداد پژو و رنو با ایران"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2021-06-25T11:52:17Z",
+        "link": "https://podcasters.spotify.com/pod/show/iranian-podcast/episodes/-----e13dq73",
+        "title": "پادکست پیکان- اپیزود هفتم- جواد نجم‌الدین"
+      },
+      {
+        "at": "2021-03-31T15:30:16Z",
+        "link": "https://podcasters.spotify.com/pod/show/iranian-podcast/episodes/_--_--_-etv15t",
+        "title": "پادکست پیکان_ فصل دوم_ اپیزود پنجم_ مروری بر صنعت خودرو در سال ۹۹"
+      },
+      {
+        "at": "2021-02-19T07:53:09Z",
+        "link": "https://podcasters.spotify.com/pod/show/iranian-podcast/episodes/--------eqkgi6",
+        "title": "پادکست پیکان- فصل دوم- اپیزود چهارم- سه‌گانه جمالی، جهرودی، سروش"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "pi-kio-padkst-farsi-roanshnasi": {
     "avg_length": 56,
@@ -17949,6 +18395,96 @@
       0,
       0,
       6
+    ],
+    "status": "active"
+  },
+  "podcast-farsi-kripto-namh": {
+    "avg_gap_days": 44.5,
+    "avg_length": 22,
+    "episodes": 16,
+    "eps_365": 9,
+    "eps_90": 4,
+    "first_at": "2025-06-23",
+    "first_year": 1404,
+    "last": "1405/07/24",
+    "last_at": "2026-10-16T02:40:00Z",
+    "last_link": "https://shenoto.com/album/podcast/1890003/اپیزود منفی ۱۲ -  لانگ اسکوئیز و شورت اسکوئیز چیست؟ - پادکست کریپتونامه",
+    "last_title": "اپیزود منفی ۱۲ -  لانگ اسکوئیز و شورت اسکوئیز چیست؟ - پادکست کریپتونامه",
+    "max_length": 112,
+    "median_length": 16,
+    "min_length": 7,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/2fe0080b-c96f-11f1-bcb2-6e3505bc2708.mp3",
+        "at": "2026-10-16T02:40:00Z",
+        "t": "اپیزود منفی ۱۲ -  لانگ اسکوئیز و شورت اسکوئیز چیست؟ - پادکست کریپتونامه"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/61c82488-b8dc-11f1-afe3-fe131d34812e.mp3",
+        "at": "2026-09-24T23:39:49Z",
+        "t": "واقعیت‌های مارکتینگ از زبان مدیر کمپین خودرو۴۵ / پادکست غلط نامه / مدیر تیم کمپین خودرو ۴۵ / Ep4"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/8c512c3c-9683-11f1-afe3-fe131d34812e.mp3",
+        "at": "2026-08-12T06:38:16Z",
+        "t": "نرخ بهره و تورم: چه ارتباطی دارند؟ Ep منفی ۱۱ پادکست کریپتونامه"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/2b10fbc7-89ef-11f1-afe3-fe131d34812e.mp3",
+        "at": "2026-07-27T06:37:53Z",
+        "t": "پیش بینی بازار 88 تریلیون دلاری RWA(دارایی واقعی روی بلاکچین) Ep منفی ۱۰ کریپتونامه"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/4804a349-dbad-11f0-b314-0242ac120014.mp3",
+        "at": "2025-12-18T00:42:53Z",
+        "t": "تامین اجتماعی کافی نیست؛ این استراتژی را جایگزین کن — کریپتونامه اپیزود منفی ۹"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/d17c8b02-cf9a-11f0-b314-0242ac120014.mp3",
+        "at": "2025-12-02T03:42:29Z",
+        "t": "پادکست کرپتو نامه Ep منفی 8 | آیا DAI واقعاً قابل اعتماده؟DAI چطور همیشه ۱ دلار می‌مونه؟"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/a403ffbf-c99e-11f0-b314-0242ac120014.mp3",
+        "at": "2025-11-25T01:41:44Z",
+        "t": "تحلیل بنیادی از ترس امروز مارکت تا خطر کوانتوم | پادکست کریپتونامه ep+3"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/44868a60-c01d-11f0-b314-0242ac120014.mp3",
+        "at": "2025-11-12T22:41:58Z",
+        "t": "چند سال دیگه بیت کوین چی میشه؟ ep-7 پادکست کریپتونامه"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-16T02:40:00Z",
+        "link": "https://shenoto.com/album/podcast/1890003/اپیزود منفی ۱۲ -  لانگ اسکوئیز و شورت اسکوئیز چیست؟ - پادکست کریپتونامه",
+        "title": "اپیزود منفی ۱۲ -  لانگ اسکوئیز و شورت اسکوئیز چیست؟ - پادکست کریپتونامه"
+      },
+      {
+        "at": "2026-09-24T23:39:49Z",
+        "link": "https://shenoto.com/album/podcast/1884129/واقعیت‌های مارکتینگ از زبان مدیر کمپین خودرو۴۵ / پادکست غلط نامه / مدیر تیم کمپین خودرو ۴۵ / Ep4",
+        "title": "واقعیت‌های مارکتینگ از زبان مدیر کمپین خودرو۴۵ / پادکست غلط نامه / مدیر تیم کمپین خودرو ۴۵ / Ep4"
+      },
+      {
+        "at": "2026-08-12T06:38:16Z",
+        "link": "https://shenoto.com/album/podcast/1875907/نرخ بهره و تورم: چه ارتباطی دارند؟ Ep منفی ۱۱ پادکست کریپتونامه",
+        "title": "نرخ بهره و تورم: چه ارتباطی دارند؟ Ep منفی ۱۱ پادکست کریپتونامه"
+      }
+    ],
+    "recent_30d": [
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      2
     ],
     "status": "active"
   },
@@ -23106,21 +23642,26 @@
     "status": "active"
   },
   "radio-fikshn-dastan": {
-    "avg_gap_days": 30.0,
-    "avg_length": 40,
-    "episodes": 78,
-    "eps_365": 13,
-    "eps_90": 4,
+    "avg_gap_days": 27.9,
+    "avg_length": 41,
+    "episodes": 79,
+    "eps_365": 14,
+    "eps_90": 5,
     "first_at": "2024-09-30",
     "first_year": 1403,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T16:24:17Z",
-    "last_link": "https://www.spreaker.com/episode/shahzadh-y-khanh-nshyn-apyzwd-tnz--75790496",
-    "last_title": "شاهزاده ی خانه نشین - اپیزود طنز",
+    "last": "1405/07/25",
+    "last_at": "2026-10-17T14:08:07Z",
+    "last_link": "https://www.spreaker.com/episode/qsh-hay-mn-w-babam-padkstry--75837701",
+    "last_title": "قصه های من و بابام - پادکستری",
     "max_length": 133,
-    "median_length": 26,
+    "median_length": 27,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://api.spreaker.com/download/episode/75837701/media.mp3",
+        "at": "2026-10-17T14:08:07Z",
+        "t": "قصه های من و بابام - پادکستری"
+      },
       {
         "a": "https://api.spreaker.com/download/episode/75790496/media.mp3",
         "at": "2026-10-14T16:24:17Z",
@@ -23155,14 +23696,14 @@
         "a": "https://api.spreaker.com/download/episode/69095682/media.mp3",
         "at": "2025-12-17T12:10:03Z",
         "t": "رازهایی درباره به دست آوردن ثروت و پول"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/68641154/media.mp3",
-        "at": "2025-11-19T14:58:16Z",
-        "t": "مرور کتاب- خوشبختی در راه است - آلیس مونرو"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-17T14:08:07Z",
+        "link": "https://www.spreaker.com/episode/qsh-hay-mn-w-babam-padkstry--75837701",
+        "title": "قصه های من و بابام - پادکستری"
+      },
       {
         "at": "2026-10-14T16:24:17Z",
         "link": "https://www.spreaker.com/episode/shahzadh-y-khanh-nshyn-apyzwd-tnz--75790496",
@@ -23172,11 +23713,6 @@
         "at": "2026-09-14T18:10:17Z",
         "link": "https://www.spreaker.com/episode/nsl-zd-dr-amryka--75121729",
         "title": "نسل زد در آمریکا"
-      },
-      {
-        "at": "2026-08-19T14:34:11Z",
-        "link": "https://www.spreaker.com/episode/qsh-hay-frhng-sazmany-bh-sbk-radyw-fykshn--74320109",
-        "title": "قصه های فرهنگ سازمانی به سبک رادیو فیکشن"
       }
     ],
     "recent_30d": [
@@ -23191,7 +23727,7 @@
       1,
       1,
       2,
-      1
+      2
     ],
     "status": "active"
   },
