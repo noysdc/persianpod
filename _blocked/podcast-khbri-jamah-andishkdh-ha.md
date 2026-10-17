@@ -16,8 +16,8 @@ pi_id: 1552450
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: false
+published: false
 ---
 
 # پادکست خبری جامعه اندیشکده‌ها

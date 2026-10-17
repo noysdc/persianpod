@@ -1,5 +1,5 @@
 ---
-title: "پادکست Archives"
+title: "جادی - پادکست Archives"
 title_en: "Archives -"
 slug: "podcast-archives"
 description: "رادیو گیک، رادیویی برای گیک ها. اخبار و بررسی های هفتگی در مورد تقاطع تکنولوژی و جامعه"
