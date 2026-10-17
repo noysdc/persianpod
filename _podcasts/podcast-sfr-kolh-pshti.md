@@ -18,8 +18,8 @@ pi_id: 608537
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # پادکست سفر کوله پشتی

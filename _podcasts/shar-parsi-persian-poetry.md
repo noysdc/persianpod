@@ -17,8 +17,8 @@ pi_id: 6331815
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # شعر پارسی / Persian Poetry

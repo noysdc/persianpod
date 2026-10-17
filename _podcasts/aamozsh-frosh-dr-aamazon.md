@@ -18,8 +18,8 @@ pi_id: 7104218
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # آموزش فروش در آمازون

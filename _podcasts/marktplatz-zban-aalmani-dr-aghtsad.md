@@ -16,8 +16,8 @@ pi_id: 4796648
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Marktplatz- زبان آلمانی در اقتصاد
