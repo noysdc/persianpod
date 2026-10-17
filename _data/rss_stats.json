@@ -24183,21 +24183,26 @@
     "status": "active"
   },
   "sadeghi-padkst-jnaii-sadghi": {
-    "avg_gap_days": 14.4,
-    "avg_length": 26,
+    "avg_gap_days": 13.9,
+    "avg_length": 25,
     "episodes": 50,
-    "eps_365": 9,
-    "eps_90": 6,
-    "first_at": "2024-02-10",
+    "eps_365": 10,
+    "eps_90": 7,
+    "first_at": "2024-02-24",
     "first_year": 1402,
-    "last": "1405/07/14",
-    "last_at": "2026-10-06T14:53:20Z",
-    "last_link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/90.mp3",
-    "last_title": "اپیزود نود -چه کسی ضربه آخر رو زد؟",
+    "last": "1405/07/24",
+    "last_at": "2026-10-16T14:50:00Z",
+    "last_link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/91.mp3",
+    "last_title": "اپیوزد نود و یک- جنون آنی یا بلوغ؟",
     "max_length": 47,
     "median_length": 27,
     "min_length": 12,
     "play": [
+      {
+        "a": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/91.mp3",
+        "at": "2026-10-16T14:50:00Z",
+        "t": "اپیوزد نود و یک- جنون آنی یا بلوغ؟"
+      },
       {
         "a": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/90.mp3",
         "at": "2026-10-06T14:53:20Z",
@@ -24232,14 +24237,14 @@
         "a": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/_85.mp3",
         "at": "2026-07-10T14:56:00Z",
         "t": "اپیزود هشتاد و پنج ـ خیانتی که به چوبه دار ختم شد"
-      },
-      {
-        "a": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/_84.mp3",
-        "at": "2026-06-26T11:55:00Z",
-        "t": "اپیزود هشتاد و چهارـ شب رسوایی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-16T14:50:00Z",
+        "link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/91.mp3",
+        "title": "اپیوزد نود و یک- جنون آنی یا بلوغ؟"
+      },
       {
         "at": "2026-10-06T14:53:20Z",
         "link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/90.mp3",
@@ -24249,11 +24254,6 @@
         "at": "2026-09-05T07:32:45Z",
         "link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/89.mp3",
         "title": "اپیزود هشتاد و نه ـ خیال یک بوسه‌ی خونین"
-      },
-      {
-        "at": "2026-08-22T12:45:31Z",
-        "link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/88.mp3",
-        "title": "اپیزود هشتاد و هشت ـ  صدای آخر در خیابان خلوت"
       }
     ],
     "recent_30d": [
@@ -24268,7 +24268,7 @@
       2,
       2,
       3,
-      1
+      2
     ],
     "status": "active"
   },
