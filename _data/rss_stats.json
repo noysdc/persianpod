@@ -852,19 +852,24 @@
   "aamozsh-zban-ba-lingano-padkst": {
     "avg_gap_days": 2.9,
     "avg_length": 7,
-    "episodes": 155,
-    "eps_365": 125,
-    "eps_90": 57,
+    "episodes": 156,
+    "eps_365": 126,
+    "eps_90": 58,
     "first_at": "2025-08-26",
     "first_year": 1404,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T06:30:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/84---e3qdtu1",
-    "last_title": "قسمت 84 - انگلیسی تو مهمونی ۴",
+    "last": "1405/07/25",
+    "last_at": "2026-10-17T06:30:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/85---e3qduhn",
+    "last_title": "قسمت 85 - انگلیسی تو مهمونی ۵",
     "max_length": 17,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/108b105e0/podcast/play/127383543/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2Ff8396db1-1c06-9c0f-e222-53217d9961c9.mp3",
+        "at": "2026-10-17T06:30:00Z",
+        "t": "قسمت 85 - انگلیسی تو مهمونی ۵"
+      },
       {
         "a": "https://anchor.fm/s/108b105e0/podcast/play/127382913/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2Fcf81b3ae-1125-0f66-0941-3071a03b4028.mp3",
         "at": "2026-10-14T06:30:00Z",
@@ -899,14 +904,14 @@
         "a": "https://anchor.fm/s/108b105e0/podcast/play/126544792/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-30%2F0de09508-b4a1-dfd7-5427-5eff6fd7e97b.mp3",
         "at": "2026-10-03T06:30:00Z",
         "t": "قسمت 78 - Out of anger"
-      },
-      {
-        "a": "https://anchor.fm/s/108b105e0/podcast/play/126544568/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-30%2F80035ee7-3ae8-2e41-ec98-92a30b506e59.mp3",
-        "at": "2026-09-30T07:22:36Z",
-        "t": "قسمت 77 - Here goes nothing"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-17T06:30:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/85---e3qduhn",
+        "title": "قسمت 85 - انگلیسی تو مهمونی ۵"
+      },
       {
         "at": "2026-10-14T06:30:00Z",
         "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/84---e3qdtu1",
@@ -916,11 +921,6 @@
         "at": "2026-10-13T07:52:47Z",
         "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/83---e3qdtmn",
         "title": "قسمت 83 - انگلیسی تو مهمونی ۳"
-      },
-      {
-        "at": "2026-10-12T06:30:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/82---e3qaqko",
-        "title": "قسمت 82 - انگلیسی تو مهمونی ۲"
       }
     ],
     "recent_30d": [
@@ -935,7 +935,7 @@
       17,
       22,
       19,
-      16
+      17
     ],
     "status": "active"
   },
@@ -3485,6 +3485,96 @@
     ],
     "status": "active"
   },
+  "brnamh-hai-roanshnasi-persianbms": {
+    "avg_gap_days": 6.9,
+    "avg_length": 18,
+    "episodes": 20,
+    "eps_365": 20,
+    "eps_90": 13,
+    "first_at": "2026-06-01",
+    "first_year": 1405,
+    "last": "1405/07/20",
+    "last_at": "2026-10-12T05:30:00Z",
+    "last_link": "https://share.transistor.fm/s/94d6b347",
+    "last_title": "راهی هست: ۲. عوامل شکل‌گیری گرایش به خودکشی",
+    "max_length": 26,
+    "median_length": 21,
+    "min_length": 9,
+    "play": [
+      {
+        "a": "https://media.transistor.fm/94d6b347/cff55fc2.mp3",
+        "at": "2026-10-12T05:30:00Z",
+        "t": "راهی هست: ۲. عوامل شکل‌گیری گرایش به خودکشی"
+      },
+      {
+        "a": "https://media.transistor.fm/0c4cef86/5b6635c9.mp3",
+        "at": "2026-10-05T05:30:00Z",
+        "t": "راهی هست: ۱. چه‌قدر تنها بودی تو این همه فشار"
+      },
+      {
+        "a": "https://media.transistor.fm/980154b5/02756fc9.mp3",
+        "at": "2026-09-28T06:30:00Z",
+        "t": "اتاق آبی: ۱۲. آیا رقابت در زندگی ما را به رضامندی خواهد رساند؟"
+      },
+      {
+        "a": "https://media.transistor.fm/8c3ab5b8/f7ef2d3e.mp3",
+        "at": "2026-09-21T06:30:00Z",
+        "t": "اتاق آبی: ۱۱. چطور رشته تحصیلی و یا شغل مناسبی انتخاب کنیم؟"
+      },
+      {
+        "a": "https://media.transistor.fm/4d352131/4003754d.mp3",
+        "at": "2026-09-14T12:30:00Z",
+        "t": "اتاق آبی: ۱۰. موفقیت و امیدواری چه ارتباطی با هم دارند؟"
+      },
+      {
+        "a": "https://media.transistor.fm/2f8cc221/848f693d.mp3",
+        "at": "2026-09-07T12:30:00Z",
+        "t": "اتاق آبی: ۹. موفقیت چطور تعریف می‌شود؟"
+      },
+      {
+        "a": "https://media.transistor.fm/8df256f5/ab48679d.mp3",
+        "at": "2026-08-31T12:30:00Z",
+        "t": "اتاق آبی: ۸. چطور دستیابی به تعادل در زندگی می‌تواند به خوشبختی منجر شود؟"
+      },
+      {
+        "a": "https://media.transistor.fm/ef126dcf/826392d8.mp3",
+        "at": "2026-08-24T12:30:00Z",
+        "t": "اتاق آبی: ۷. پذیرش و مواجهه با مرگ چگونه می‌تواند بر معنای زندگی تاثیرگذار باشد؟"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-12T05:30:00Z",
+        "link": "https://share.transistor.fm/s/94d6b347",
+        "title": "راهی هست: ۲. عوامل شکل‌گیری گرایش به خودکشی"
+      },
+      {
+        "at": "2026-10-05T05:30:00Z",
+        "link": "https://share.transistor.fm/s/0c4cef86",
+        "title": "راهی هست: ۱. چه‌قدر تنها بودی تو این همه فشار"
+      },
+      {
+        "at": "2026-09-28T06:30:00Z",
+        "link": "https://share.transistor.fm/s/980154b5",
+        "title": "اتاق آبی: ۱۲. آیا رقابت در زندگی ما را به رضامندی خواهد رساند؟"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      4,
+      5,
+      4,
+      4
+    ],
+    "status": "active"
+  },
   "brrsi-asatir-o-frhng-airan-o-kshorhai-piramonsh": {
     "avg_gap_days": 27.4,
     "avg_length": 15,
@@ -5749,6 +5839,95 @@
         "at": "2024-04-30T05:30:03Z",
         "link": "https://www.spreaker.com/episode/padkst-radywyy-dydgah-kwchktr-shdn-sbd-ghdhayy-khanwarha-dr-ayran-gftgw-ba-rda-ghyby--59697165",
         "title": "پادکست رادیویی دیدگاه: کوچکتر شدن سبد غذایی خانوارها در ایران گفتگو با رضا غیبی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "didn": {
+    "avg_length": 28,
+    "episodes": 20,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-04-05",
+    "first_year": 1399,
+    "last": "1403/07/15",
+    "last_at": "2024-10-06T16:10:12Z",
+    "last_link": "https://didantosee.podbean.com/e/%d8%a8%db%8c%d8%b3%d8%aa%d9%85-%d8%a7%d9%be%db%8c%da%a9%d9%88%d8%b1%d9%88%d8%b3-%d9%84%d8%b0%d9%91%d8%aa%e2%80%8c%da%af%d8%b1%d8%a7%db%8c%db%8c/",
+    "last_title": "بیستم | اپیکوروس - لذّت‌گرایی",
+    "max_length": 40,
+    "median_length": 27,
+    "min_length": 20,
+    "play": [
+      {
+        "a": "https://mcdn.podbean.com/mf/web/hrupyuf32r6zkjnr/Didan-20.mp3",
+        "at": "2024-10-06T16:10:12Z",
+        "t": "بیستم | اپیکوروس - لذّت‌گرایی"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/4m44k9/Didan-19.mp3",
+        "at": "2023-12-18T08:48:12Z",
+        "t": "نوزدهم | رواقی‌گری (قسمت دوم) - رواقی مردن"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/g8k5fx/Didan-18.mp3",
+        "at": "2023-11-17T08:27:24Z",
+        "t": "هجدهم | رواقی‌گری (قسمت اول) - رواقی زیستن"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/2jem3y/Didan-17.mp3",
+        "at": "2022-12-17T17:28:02Z",
+        "t": "هفدهم | ارسطو (قسمت سوم) - سیاست و هنر"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/rzs5zt/Didan-16.mp3",
+        "at": "2022-09-03T16:51:41Z",
+        "t": "شانزدهم | ارسطو (قسمت دوّم) - اخلاق"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/uvvpjw/Didan-15-v2.mp3",
+        "at": "2022-05-02T12:41:19Z",
+        "t": "پانزدهم | صورت-ماده: ارسطو - قسمت اوّل"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/a6iwps/Didan-14.mp3",
+        "at": "2021-10-15T21:27:00Z",
+        "t": "چهاردهم | جهانِ مُثُل: افلاطون - قسمت دوّم"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/cd2xde/Didan-13.mp3",
+        "at": "2021-06-05T18:25:39Z",
+        "t": "سیزدهم | عدالت: افلاطون - قسمت اوّل"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-10-06T16:10:12Z",
+        "link": "https://didantosee.podbean.com/e/%d8%a8%db%8c%d8%b3%d8%aa%d9%85-%d8%a7%d9%be%db%8c%da%a9%d9%88%d8%b1%d9%88%d8%b3-%d9%84%d8%b0%d9%91%d8%aa%e2%80%8c%da%af%d8%b1%d8%a7%db%8c%db%8c/",
+        "title": "بیستم | اپیکوروس - لذّت‌گرایی"
+      },
+      {
+        "at": "2023-12-18T08:48:12Z",
+        "link": "https://didantosee.podbean.com/e/19/",
+        "title": "نوزدهم | رواقی‌گری (قسمت دوم) - رواقی مردن"
+      },
+      {
+        "at": "2023-11-17T08:27:24Z",
+        "link": "https://didantosee.podbean.com/e/18/",
+        "title": "هجدهم | رواقی‌گری (قسمت اول) - رواقی زیستن"
       }
     ],
     "recent_30d": [
@@ -11986,6 +12165,96 @@
     ],
     "status": "inactive"
   },
+  "ktab-soti-roait-lain": {
+    "avg_gap_days": 12.1,
+    "avg_length": 34,
+    "episodes": 20,
+    "eps_365": 20,
+    "eps_90": 4,
+    "first_at": "2025-12-19",
+    "first_year": 1404,
+    "last": "1405/05/15",
+    "last_at": "2026-08-06T19:09:32Z",
+    "last_link": "https://redcircle.com/shows/72d52b7d-d5c8-41f8-b156-a0458dd1ab9f/episodes/e3f87b7b-d8a0-4295-8dc5-674b67be6ad1",
+    "last_title": "کتاب صوتی مغازه خودکشی قسمت پایانی",
+    "max_length": 45,
+    "median_length": 33,
+    "min_length": 25,
+    "play": [
+      {
+        "a": "https://audio3.redcircle.com/episodes/e3f87b7b-d8a0-4295-8dc5-674b67be6ad1/stream.mp3",
+        "at": "2026-08-06T19:09:32Z",
+        "t": "کتاب صوتی مغازه خودکشی قسمت پایانی"
+      },
+      {
+        "a": "https://audio3.redcircle.com/episodes/6997b5bb-3843-4fec-9912-89ad1a981d7a/stream.mp3",
+        "at": "2026-08-06T19:07:21Z",
+        "t": "کتاب صوتی مغازه خودکشی قسمت 5"
+      },
+      {
+        "a": "https://audio3.redcircle.com/episodes/d39cefdc-66aa-487d-a50e-e0ad4da4d077/stream.mp3",
+        "at": "2026-08-06T19:04:13Z",
+        "t": "کتاب صوتی مغازه خودکشی قسمت 4"
+      },
+      {
+        "a": "https://audio3.redcircle.com/episodes/20e01604-bf63-455e-bdb0-423a9dda35f1/stream.mp3",
+        "at": "2026-07-20T08:30:51Z",
+        "t": "کتاب صوتی مغازه خودکشی قسمت 3"
+      },
+      {
+        "a": "https://audio3.redcircle.com/episodes/98946790-3aa0-4f0a-90fd-9c37647ca989/stream.mp3",
+        "at": "2026-07-13T07:37:57Z",
+        "t": "کتاب صوتی مغازه خودکشی قسمت 2"
+      },
+      {
+        "a": "https://audio3.redcircle.com/episodes/2fcba7ce-fad5-4aa4-b680-662628b94043/stream.mp3",
+        "at": "2026-07-13T07:08:44Z",
+        "t": "کتاب صوتی مغازه خودکشی قسمت 1"
+      },
+      {
+        "a": "https://audio3.redcircle.com/episodes/5047cf26-473b-48cd-8e1d-5bd227ef7691/stream.mp3",
+        "at": "2026-06-06T08:16:41Z",
+        "t": "کتاب صوتی بخش دی قسمت پایانی"
+      },
+      {
+        "a": "https://audio3.redcircle.com/episodes/5c182541-56d6-4ebf-bb98-087d527b850b/stream.mp3",
+        "at": "2026-05-28T09:51:31Z",
+        "t": "کتاب صوتی بخش دی قسمت 13"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-08-06T19:09:32Z",
+        "link": "https://redcircle.com/shows/72d52b7d-d5c8-41f8-b156-a0458dd1ab9f/episodes/e3f87b7b-d8a0-4295-8dc5-674b67be6ad1",
+        "title": "کتاب صوتی مغازه خودکشی قسمت پایانی"
+      },
+      {
+        "at": "2026-08-06T19:07:21Z",
+        "link": "https://redcircle.com/shows/72d52b7d-d5c8-41f8-b156-a0458dd1ab9f/episodes/6997b5bb-3843-4fec-9912-89ad1a981d7a",
+        "title": "کتاب صوتی مغازه خودکشی قسمت 5"
+      },
+      {
+        "at": "2026-08-06T19:04:13Z",
+        "link": "https://redcircle.com/shows/72d52b7d-d5c8-41f8-b156-a0458dd1ab9f/episodes/d39cefdc-66aa-487d-a50e-e0ad4da4d077",
+        "title": "کتاب صوتی مغازه خودکشی قسمت 4"
+      }
+    ],
+    "recent_30d": [
+      0,
+      1,
+      4,
+      4,
+      0,
+      0,
+      1,
+      4,
+      2,
+      4,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "ktab-soti-sh-tfngdar": {
     "avg_gap_days": 11.4,
     "avg_length": 27,
@@ -13591,6 +13860,96 @@
     ],
     "status": "active"
   },
+  "nghshh-rah-mdirit": {
+    "avg_gap_days": 25.6,
+    "avg_length": 33,
+    "episodes": 20,
+    "eps_365": 10,
+    "eps_90": 4,
+    "first_at": "2025-03-28",
+    "first_year": 1404,
+    "last": "1405/06/31",
+    "last_at": "2026-09-22T09:32:19Z",
+    "last_link": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/c0/2c/b6/112137469a929c1294d585a5ce.mp3",
+    "last_title": "Evolving Structures | ساختارهای در حال تحول",
+    "max_length": 59,
+    "median_length": 35,
+    "min_length": 16,
+    "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/c0/2c/b6/112137469a929c1294d585a5ce.mp3",
+        "at": "2026-09-22T09:32:19Z",
+        "t": "Evolving Structures | ساختارهای در حال تحول"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/c8/4b/12/7869ea4b738510053944842bf9.mp3",
+        "at": "2026-08-20T08:44:29Z",
+        "t": "Types of Organizations | انواع سازمان"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/37/37/f1/caffcb4a9ca56dbcace31a906a.mp3",
+        "at": "2026-08-05T07:29:48Z",
+        "t": "Hidden Ledger | حساب پنهان"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/c4/37/3e/6ed1444136b0fd8e6c28d6b66f.mp3",
+        "at": "2026-07-20T13:27:33Z",
+        "t": "Project Cycle | چرخه پروژه"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/d1/a9/a2/8ca2aa46dca6f5aaeca6cedc74.mp3",
+        "at": "2026-07-06T18:06:41Z",
+        "t": "Digital Management | مدیریت دیجیتال"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/88/93/5a/cf2e684c53847ca32f88d54c1b.mp3",
+        "at": "2026-06-27T04:30:00Z",
+        "t": "Marketing Management | مدیریت بازاریابی"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/d0/37/3c/f58ba34112a5263f3a6f37ad16.mp3",
+        "at": "2026-06-02T04:30:14Z",
+        "t": "IT Management | مدیریت فناوری اطلاعات"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/91/dd/ad/00f2d74c78b1ac2cb1350a108b.mp3",
+        "at": "2026-05-17T09:55:57Z",
+        "t": "Quality Management | مدیریت کیفیت"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-22T09:32:19Z",
+        "link": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/c0/2c/b6/112137469a929c1294d585a5ce.mp3",
+        "title": "Evolving Structures | ساختارهای در حال تحول"
+      },
+      {
+        "at": "2026-08-20T08:44:29Z",
+        "link": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/c8/4b/12/7869ea4b738510053944842bf9.mp3",
+        "title": "Types of Organizations | انواع سازمان"
+      },
+      {
+        "at": "2026-08-05T07:29:48Z",
+        "link": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/37/37/f1/caffcb4a9ca56dbcace31a906a.mp3",
+        "title": "Hidden Ledger | حساب پنهان"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    "status": "active"
+  },
   "noys": {
     "avg_gap_days": 17.0,
     "avg_length": 110,
@@ -15008,6 +15367,92 @@
     ],
     "status": "active"
   },
+  "podcast-archives": {
+    "avg_gap_days": 2.5,
+    "episodes": 20,
+    "eps_365": 20,
+    "eps_90": 20,
+    "first_at": "2026-08-26",
+    "first_year": 1405,
+    "last": "1405/07/21",
+    "last_at": "2026-10-13T21:39:04Z",
+    "last_link": "https://jadi.net/2026/10/for_the_win-persian-60-61/",
+    "last_title": "رادیوجادی ۲۶۶ – کتاب برای پیروزی – قسمت ۶۰ و ۶۱ – کوری دکترو",
+    "play": [
+      {
+        "a": "https://jadi.net/audio/for_the_win-persian-60-61.mp3",
+        "at": "2026-10-13T21:39:04Z",
+        "t": "رادیوجادی ۲۶۶ – کتاب برای پیروزی – قسمت ۶۰ و ۶۱ – کوری دکترو"
+      },
+      {
+        "a": "https://jadi.net/audio/for_the_win-persian-59.mp3",
+        "at": "2026-10-13T20:14:26Z",
+        "t": "رادیوجادی ۲۶۵ – کتاب برای پیروزی – قسمت ۵۹ – کوری دکترو"
+      },
+      {
+        "a": "https://jadi.net/audio/for_the_win-persian-58.mp3",
+        "at": "2026-10-13T20:06:08Z",
+        "t": "رادیوجادی ۲۶۴ – کتاب برای پیروزی – قسمت ۵۸ – کوری دکترو"
+      },
+      {
+        "a": "https://jadi.net/audio/for_the_win-persian-57.mp3",
+        "at": "2026-10-13T18:13:22Z",
+        "t": "رادیوجادی ۲۶۳ – کتاب برای پیروزی – قسمت ۵۷ – کوری دکترو"
+      },
+      {
+        "a": "https://jadi.net/audio/for_the_win-persian-56.mp3",
+        "at": "2026-10-13T17:31:19Z",
+        "t": "رادیوجادی ۲۶۲ – کتاب برای پیروزی – قسمت ۵۶ – کوری دکترو"
+      },
+      {
+        "a": "https://jadi.net/audio/for_the_win-persian-55.mp3",
+        "at": "2026-10-13T17:22:54Z",
+        "t": "رادیوجادی ۲۶۱ – کتاب برای پیروزی – قسمت ۵۵ – کوری دکترو"
+      },
+      {
+        "a": "https://jadi.net/audio/for_the_win-persian-54.mp3",
+        "at": "2026-09-21T20:41:16Z",
+        "t": "رادیوجادی ۲۶۰ – کتاب برای پیروزی – قسمت ۵۴ – کوری دکترو"
+      },
+      {
+        "a": "https://jadi.net/audio/for_the_win-persian-53.mp3",
+        "at": "2026-09-21T20:40:19Z",
+        "t": "رادیوجادی ۲۵۹ – کتاب برای پیروزی – قسمت ۵۳ – کوری دکترو"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-13T21:39:04Z",
+        "link": "https://jadi.net/2026/10/for_the_win-persian-60-61/",
+        "title": "رادیوجادی ۲۶۶ – کتاب برای پیروزی – قسمت ۶۰ و ۶۱ – کوری دکترو"
+      },
+      {
+        "at": "2026-10-13T20:14:26Z",
+        "link": "https://jadi.net/2026/10/for_the_win-persian-59/",
+        "title": "رادیوجادی ۲۶۵ – کتاب برای پیروزی – قسمت ۵۹ – کوری دکترو"
+      },
+      {
+        "at": "2026-10-13T20:06:08Z",
+        "link": "https://jadi.net/2026/10/for_the_win-persian-58/",
+        "title": "رادیوجادی ۲۶۴ – کتاب برای پیروزی – قسمت ۵۸ – کوری دکترو"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      19
+    ],
+    "status": "active"
+  },
   "podcast-bdon-tmbr-bdon-tarikh": {
     "avg_length": 13,
     "episodes": 104,
@@ -15268,6 +15713,95 @@
       0,
       0,
       1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "podcast-dastan-haii-brai-nojoanan": {
+    "avg_length": 12,
+    "episodes": 20,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2023-09-04",
+    "first_year": 1402,
+    "last": "1402/11/02",
+    "last_at": "2024-01-22T02:30:00Z",
+    "last_link": "https://share.transistor.fm/s/4d56291d",
+    "last_title": "عقل و احساس: ۸. پایان",
+    "max_length": 15,
+    "median_length": 13,
+    "min_length": 8,
+    "play": [
+      {
+        "a": "https://media.transistor.fm/4d56291d/6ce54fe4.mp3",
+        "at": "2024-01-22T02:30:00Z",
+        "t": "عقل و احساس: ۸. پایان"
+      },
+      {
+        "a": "https://media.transistor.fm/32c706f2/06949a5a.mp3",
+        "at": "2024-01-15T02:30:00Z",
+        "t": "عقل و احساس: ۷. افشاء"
+      },
+      {
+        "a": "https://media.transistor.fm/49505161/4411cd9b.mp3",
+        "at": "2024-01-08T02:30:00Z",
+        "t": "عقل و احساس: ۶. پذیرش یا انکار؟"
+      },
+      {
+        "a": "https://media.transistor.fm/c8651b1d/708a4324.mp3",
+        "at": "2024-01-01T04:20:24Z",
+        "t": "عقل و احساس: ۵. زندگی کلنل برندن"
+      },
+      {
+        "a": "https://media.transistor.fm/15de1ce0/073007eb.mp3",
+        "at": "2023-12-25T02:30:00Z",
+        "t": "عقل و احساس: ۴. علامت سوال"
+      },
+      {
+        "a": "https://media.transistor.fm/c81f021d/e30aeaa8.mp3",
+        "at": "2023-12-18T02:30:00Z",
+        "t": "عقل و احساس: ۳. آرزوی از دست رفته"
+      },
+      {
+        "a": "https://media.transistor.fm/933f42ed/28b57939.mp3",
+        "at": "2023-12-11T02:30:00Z",
+        "t": "عقل و احساس: ۲. ویلوبی"
+      },
+      {
+        "a": "https://media.transistor.fm/c46da029/d03f1a96.mp3",
+        "at": "2023-12-04T02:30:00Z",
+        "t": "عقل و احساس: ۱. ملاقات با دشوودها"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-01-22T02:30:00Z",
+        "link": "https://share.transistor.fm/s/4d56291d",
+        "title": "عقل و احساس: ۸. پایان"
+      },
+      {
+        "at": "2024-01-15T02:30:00Z",
+        "link": "https://share.transistor.fm/s/32c706f2",
+        "title": "عقل و احساس: ۷. افشاء"
+      },
+      {
+        "at": "2024-01-08T02:30:00Z",
+        "link": "https://share.transistor.fm/s/49505161",
+        "title": "عقل و احساس: ۶. پذیرش یا انکار؟"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -17068,6 +17602,96 @@
       0
     ],
     "status": "inactive"
+  },
+  "podcast-jnaii-khon": {
+    "avg_gap_days": 20.9,
+    "avg_length": 60,
+    "episodes": 24,
+    "eps_365": 18,
+    "eps_90": 9,
+    "first_at": "2025-07-30",
+    "first_year": 1404,
+    "last": "1405/07/25",
+    "last_at": "2026-10-17T02:15:05Z",
+    "last_link": "https://redcircle.com/shows/03281b3e-2e41-4243-8743-4f4c1e6894ac/episodes/e522547e-e904-4fb1-a3d8-fdfd636c3647",
+    "last_title": "بیست و چهار | فرشته ی مرگ",
+    "max_length": 103,
+    "median_length": 56,
+    "min_length": 25,
+    "play": [
+      {
+        "a": "https://audio1.redcircle.com/episodes/e522547e-e904-4fb1-a3d8-fdfd636c3647/stream.mp3",
+        "at": "2026-10-17T02:15:05Z",
+        "t": "بیست و چهار | فرشته ی مرگ"
+      },
+      {
+        "a": "https://audio1.redcircle.com/episodes/23c3bc61-5d01-4395-8794-0a024c2f11dc/stream.mp3",
+        "at": "2026-10-10T02:35:28Z",
+        "t": "بیست و سه | خانه ی دروغ"
+      },
+      {
+        "a": "https://audio1.redcircle.com/episodes/50419490-aebc-4ece-ba0e-e81b096aef5f/stream.mp3",
+        "at": "2026-10-06T02:35:24Z",
+        "t": "بیست و دو | سریال دوگانگی،قسمت آخر : جولیا"
+      },
+      {
+        "a": "https://audio1.redcircle.com/episodes/aac01360-9735-4a09-b4ab-d9d448458610/stream.mp3",
+        "at": "2026-09-26T02:33:24Z",
+        "t": "بیست و یک | سریال دوگانگی ، قسمت اول : ویلیام"
+      },
+      {
+        "a": "https://audio1.redcircle.com/episodes/aefb8445-6855-4cb9-8146-842186a09d50/stream.mp3",
+        "at": "2026-09-19T02:33:44Z",
+        "t": "بیست | بیست و سه سال بعد"
+      },
+      {
+        "a": "https://audio1.redcircle.com/episodes/9805d7ee-56af-4bd1-89ce-186552ad04a8/stream.mp3",
+        "at": "2026-09-12T03:13:41Z",
+        "t": "نوزده | اسلیو مستر"
+      },
+      {
+        "a": "https://audio1.redcircle.com/episodes/e9da7f41-28c5-461e-8a03-955a9be32206/stream.mp3",
+        "at": "2026-09-04T15:28:20Z",
+        "t": "هجده | لیزی بوردن"
+      },
+      {
+        "a": "https://audio1.redcircle.com/episodes/9e463153-ac66-436c-8373-82d670bdeafe/stream.mp3",
+        "at": "2026-08-28T15:19:18Z",
+        "t": "هفده | قتل های آیداهو"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-17T02:15:05Z",
+        "link": "https://redcircle.com/shows/03281b3e-2e41-4243-8743-4f4c1e6894ac/episodes/e522547e-e904-4fb1-a3d8-fdfd636c3647",
+        "title": "بیست و چهار | فرشته ی مرگ"
+      },
+      {
+        "at": "2026-10-10T02:35:28Z",
+        "link": "https://redcircle.com/shows/03281b3e-2e41-4243-8743-4f4c1e6894ac/episodes/23c3bc61-5d01-4395-8794-0a024c2f11dc",
+        "title": "بیست و سه | خانه ی دروغ"
+      },
+      {
+        "at": "2026-10-06T02:35:24Z",
+        "link": "https://redcircle.com/shows/03281b3e-2e41-4243-8743-4f4c1e6894ac/episodes/50419490-aebc-4ece-ba0e-e81b096aef5f",
+        "title": "بیست و دو | سریال دوگانگی،قسمت آخر : جولیا"
+      }
+    ],
+    "recent_30d": [
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      4,
+      1,
+      3,
+      5
+    ],
+    "status": "active"
   },
   "podcast-jnaii-ki-aas": {
     "avg_gap_days": 11.4,
@@ -19399,6 +20023,95 @@
       0
     ],
     "status": "active"
+  },
+  "podcast-slamt-roan": {
+    "avg_length": 3,
+    "episodes": 20,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-11-14",
+    "first_year": 1400,
+    "last": "1401/02/16",
+    "last_at": "2022-05-06T17:12:25Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/alireza-tamizi9/episodes/ep-e1i5thv",
+    "last_title": "قسمت بیستم: اهمال کاری(قسمت دو)| پادکست سلامت روان",
+    "max_length": 4,
+    "median_length": 3,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/7435ec14/podcast/play/51622911/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-6%2F1c223251-ee86-60fb-2fcc-6e92dc9f5aca.mp3",
+        "at": "2022-05-06T17:12:25Z",
+        "t": "قسمت بیستم: اهمال کاری(قسمت دو)| پادکست سلامت روان"
+      },
+      {
+        "a": "https://anchor.fm/s/7435ec14/podcast/play/51622864/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-6%2F3fba3d84-49d1-23dd-7d34-07441092bd99.mp3",
+        "at": "2022-05-06T17:11:17Z",
+        "t": "قسمت نوزدهم: اهمال کاری (قسمت یک)| پادکست سلامت روان"
+      },
+      {
+        "a": "https://anchor.fm/s/7435ec14/podcast/play/48213060/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-25%2F66154e17-ff4b-88c2-c92e-783e94c2c090.mp3",
+        "at": "2022-02-25T18:11:54Z",
+        "t": "قسمت هجدهم: شادی/خوشبختی(قسمت دوم)| پادکست سلامت روان"
+      },
+      {
+        "a": "https://anchor.fm/s/7435ec14/podcast/play/48212963/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-25%2Feb20a388-3ca1-ea00-442d-ac24fa46564e.mp3",
+        "at": "2022-02-25T18:10:11Z",
+        "t": "قسمت هفدهم: شادی/خوشبختی(قسمت اول)| پادکست سلامت روان"
+      },
+      {
+        "a": "https://anchor.fm/s/7435ec14/podcast/play/47840412/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-18%2Fc25193b7-b7d3-2906-41ee-5822c1e0a969.mp3",
+        "at": "2022-02-18T06:12:39Z",
+        "t": "قسمت شانزدهم: امید(قسمت دوم)| پادکست سلامت روان"
+      },
+      {
+        "a": "https://anchor.fm/s/7435ec14/podcast/play/47840372/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-18%2F0929ed3d-1aa6-a802-32c3-d9422a3e9684.mp3",
+        "at": "2022-02-18T06:11:53Z",
+        "t": "قسمت پانزدهم: امید (قسمت اول)| پادکست سلامت روان"
+      },
+      {
+        "a": "https://anchor.fm/s/7435ec14/podcast/play/47219903/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-5%2Ffe7c5d98-a96a-e087-ff79-d7eea005f5d1.mp3",
+        "at": "2022-02-05T16:18:52Z",
+        "t": "قسمت چهاردهم: تکمیل روانشناسی مثبتگرا| پادکست سلامت روان"
+      },
+      {
+        "a": "https://anchor.fm/s/7435ec14/podcast/play/47219861/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-5%2Ff5cc6042-7b00-f248-6cab-839f353bcf52.mp3",
+        "at": "2022-02-05T16:16:06Z",
+        "t": "قسمت سیزدهم: روانشناسی مثبتگرا(تفاوت و شیوه عمل)| پادکست سلامت روان"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-05-06T17:12:25Z",
+        "link": "https://podcasters.spotify.com/pod/show/alireza-tamizi9/episodes/ep-e1i5thv",
+        "title": "قسمت بیستم: اهمال کاری(قسمت دو)| پادکست سلامت روان"
+      },
+      {
+        "at": "2022-05-06T17:11:17Z",
+        "link": "https://podcasters.spotify.com/pod/show/alireza-tamizi9/episodes/ep-e1i5tgg",
+        "title": "قسمت نوزدهم: اهمال کاری (قسمت یک)| پادکست سلامت روان"
+      },
+      {
+        "at": "2022-02-25T18:11:54Z",
+        "link": "https://podcasters.spotify.com/pod/show/alireza-tamizi9/episodes/ep-e1etrk4",
+        "title": "قسمت هجدهم: شادی/خوشبختی(قسمت دوم)| پادکست سلامت روان"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "podcast-sndogh": {
     "avg_gap_days": 89.3,
