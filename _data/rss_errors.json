@@ -51,6 +51,10 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
   },
+  "lzt-dniai-ktab": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://feed.podkadeh.cloud/podcastxml/lezate-donyaye-ketab.xml"
+  },
   "mamanst-mamanest": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://feeds.sounder.fm/16420/rss.xml"
@@ -62,6 +66,10 @@
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
+  },
+  "podcast-fotbal-lb": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://feed.podkadeh.cloud/podcastxml/footballlab.xml"
   },
   "roait-ahd": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
