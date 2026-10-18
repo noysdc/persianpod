@@ -32,7 +32,7 @@
 /* نوشته‌ها تا پایان چیدمان پنهان می‌مانند تا یک لحظه روی هم نیفتند */
 .pp-map .plabels text,.pp-map .pin text{transition:opacity .35s ease}
 .pp-map:not(.laid) .plabels text,.pp-map:not(.laid) .pin text{opacity:0}
-.pp-map-tip{position:fixed;z-index:90;padding:6px 12px;border-radius:12px;background:var(--ink);color:var(--bg);font-size:.85rem;font-weight:700;pointer-events:none}
+.pp-map-tip{position:fixed;left:0;top:0;z-index:90;width:max-content;max-width:min(260px,calc(100vw - 16px));white-space:nowrap;padding:6px 12px;border-radius:12px;background:var(--ink);color:var(--bg);font-size:.85rem;font-weight:700;pointer-events:none}
 .pp-map-tip[hidden]{display:none}
 .pp-map-err{padding:2rem;text-align:center;color:var(--mut)}
 @media(max-width:799px){.pp-map{aspect-ratio:1/1}.pp-map-section{padding:14px 12px}}

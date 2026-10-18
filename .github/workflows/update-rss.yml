@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name  "persianpod-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add _data/rss_stats.json _data/rss_errors.json assets/eps assets/sidx
+          git add _data/rss_stats.json _data/rss_errors.json _data/site_totals.json assets/eps assets/sidx
           git diff --cached --quiet && exit 0
           git commit -m "chore: update RSS stats"
           # اگر هم‌زمان خودت push کرده باشی، چند بار با داده‌ی ربات (که مرجع این فایل‌هاست) دوباره سعی می‌کند

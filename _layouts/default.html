@@ -50,21 +50,23 @@
 <meta name="apple-mobile-web-app-title" content="پرشین‌پاد">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <script>(function(){try{var d=document.documentElement,t=localStorage.getItem('pp-theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';d.setAttribute('data-theme',t);var f=parseFloat(localStorage.getItem('pp-fs'));if(f)d.style.setProperty('--fs',f)}catch(e){}})()</script>
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-<link rel="stylesheet" href="{{ '/assets/css/pp-tools.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-<link rel="stylesheet" href="{{ '/assets/css/pp-float-player.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-{% for s in page.styles %}<link rel="stylesheet" href="{{ s | relative_url }}?v={{ site.time | date: '%s' }}">
-{% endfor %}<link rel="stylesheet" href="{{ '/assets/css/pp-polish.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+<link rel="preload" href="{{ '/assets/fonts/Vazirmatn-RD-Regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/Vazirmatn-RD-Bold.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.asset_v }}">
+<link rel="stylesheet" href="{{ '/assets/css/pp-tools.css' | relative_url }}?v={{ site.asset_v }}">
+<link rel="stylesheet" href="{{ '/assets/css/pp-float-player.css' | relative_url }}?v={{ site.asset_v }}">
+{% for s in page.styles %}<link rel="stylesheet" href="{{ s | relative_url }}?v={{ site.asset_v }}">
+{% endfor %}<link rel="stylesheet" href="{{ '/assets/css/pp-polish.css' | relative_url }}?v={{ site.asset_v }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-vectors.css' | relative_url }}?v=20261013">
 <link rel="stylesheet" href="{{ '/assets/css/pp-v2.css' | relative_url }}?v=20261013">
 <link rel="stylesheet" href="{{ '/assets/css/pp-v3.css' | relative_url }}?v=20261014">
 <link rel="stylesheet" href="{{ '/assets/css/pp-v4.css' | relative_url }}?v=20261015">
-<link rel="stylesheet" href="{{ '/assets/css/pp-rail.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-<link rel="stylesheet" href="{{ '/assets/css/pp-desktop.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-<link rel="stylesheet" href="{{ '/assets/css/pp-cards.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-<link rel="stylesheet" href="{{ '/assets/css/pp-adv.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-<link rel="stylesheet" href="{{ '/assets/css/pp-glass.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-<link rel="stylesheet" href="{{ '/assets/css/pp-liquid.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+<link rel="stylesheet" href="{{ '/assets/css/pp-rail.css' | relative_url }}?v={{ site.asset_v }}">
+<link rel="stylesheet" href="{{ '/assets/css/pp-desktop.css' | relative_url }}?v={{ site.asset_v }}">
+<link rel="stylesheet" href="{{ '/assets/css/pp-cards.css' | relative_url }}?v={{ site.asset_v }}">
+<link rel="stylesheet" href="{{ '/assets/css/pp-adv.css' | relative_url }}?v={{ site.asset_v }}">
+<link rel="stylesheet" href="{{ '/assets/css/pp-glass.css' | relative_url }}?v={{ site.asset_v }}">
+<link rel="stylesheet" href="{{ '/assets/css/pp-liquid.css' | relative_url }}?v={{ site.asset_v }}">
 </head>
 <body data-search="{{ '/search.json' | relative_url }}?v={{ site.time | date: '%s' }}">
 <a class="pp-skip" href="#main">رفتن به محتوا</a>
@@ -114,12 +116,13 @@
   <aside class="pp-side" aria-label="کنار صفحه">
     <nav class="pp-cats" aria-label="دسته‌بندی‌ها">
       <h2 class="pp-side-title">دسته‌بندی‌ها</h2>
-      {% assign cat_defs = site.data.categories %}
+      {% assign cat_defs = site.data.categories %}{% assign pod_groups = site.podcasts | group_by: 'category' %}
       {% assign subbar_html = '' %}{% assign subbar_css = '' %}
       <ul>
         <li class="pp-cat"><a href="{{ '/' | relative_url }}" data-cat="">همه <span class="n">{{ site.podcasts.size }}</span></a></li>
-        {% for cdef in cat_defs %}{% assign c = cdef.name %}{% assign cq = c | uri_escape %}{% assign cn = site.podcasts | where: 'category', c | size %}
-        {% capture subs_html %}{% for sb in cdef.subcategories %}{% assign sn = site.podcasts | where: 'category', c | where_exp: 'p', 'p.subcategories contains sb' | size %}{% if sn > 0 %}<li><a href="{{ '/?category=' | append: c | append: '&sub=' | append: sb | uri_escape | relative_url }}" data-cat="{{ c | escape }}" data-sub="{{ sb | escape }}">{{ sb }} <span class="n">{{ sn }}</span></a></li>{% endif %}{% endfor %}{% endcapture %}
+        {% for cdef in cat_defs %}{% assign c = cdef.name %}{% assign cq = c | uri_escape %}{% assign cg = pod_groups | where: 'name', c | first %}{% assign cn = cg.size | default: 0 %}
+        {% capture sub_str %}{% for p in cg.items %}{% if p.subcategories %}|{{ p.subcategories | join: '|' }}|{% endif %}{% endfor %}x{% endcapture %}
+        {% capture subs_html %}{% for sb in cdef.subcategories %}{% assign sdelim = '|' | append: sb | append: '|' %}{% assign sn = sub_str | split: sdelim | size | minus: 1 %}{% if sn > 0 %}<li><a href="{{ '/?category=' | append: c | append: '&sub=' | append: sb | uri_escape | relative_url }}" data-cat="{{ c | escape }}" data-sub="{{ sb | escape }}">{{ sb }} <span class="n">{{ sn }}</span></a></li>{% endif %}{% endfor %}{% endcapture %}
         {% assign has_subs = subs_html | strip | size %}
         {% if has_subs > 0 %}{% assign c_attr = c | replace: '"', '' %}{% capture subbar_html %}{{ subbar_html }}<ul class="pp-subbar-list" data-for="{{ c_attr }}">{{ subs_html }}</ul>{% endcapture %}{% capture subbar_css %}{{ subbar_css }}.pp-cats:has(a[aria-current][data-cat="{{ c_attr }}"]) .pp-subbar-list[data-for="{{ c_attr }}"]{display:flex}{% endcapture %}{% endif %}
         <li class="pp-cat{% if has_subs > 0 %} has-subs{% endif %}"><a href="{{ '/?category=' | append: cq | relative_url }}" data-cat="{{ c | escape }}">{{ c }} <span class="n">{{ cn }}</span></a>{% if has_subs > 0 %}<button type="button" class="pp-cat-tg" aria-expanded="false" aria-label="زیردسته‌های {{ c | escape }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button><ul class="pp-subs">{{ subs_html }}</ul>{% endif %}</li>
@@ -128,10 +131,8 @@
       {%- comment -%} نوار زیردسته‌ها (فقط دسکتاپ): چیپ‌های دسته یک ردیف کشیدنی‌اند، پس زیردسته‌ی دسته‌ی انتخاب‌شده این‌جا و زیر آن‌ها باز می‌شود. {%- endcomment -%}
       <div class="pp-subbar">{{ subbar_html }}</div>
       <style>@media(min-width:1200px){ {{ subbar_css }} }</style>
-      {%- comment -%} آمار کلی: پادکست، قسمت و ساعت از _data/rss_stats.json (هر ۱۰ دقیقه به‌روز می‌شود). ساعت = تعداد قسمت × میانگین طول قسمت‌های اخیر هر پادکست (تخمینی). {%- endcomment -%}
-      {% assign n_eps = 0 %}{% assign n_min = 0 %}
-      {% for p in site.podcasts %}{% assign st_p = site.data.rss_stats[p.slug] %}{% assign e_p = st_p.episodes | default: 0 %}{% assign l_p = st_p.avg_length | default: 0 %}{% assign m_p = e_p | times: l_p %}{% assign n_eps = n_eps | plus: e_p %}{% assign n_min = n_min | plus: m_p %}{% endfor %}
-      {% assign n_hours = n_min | divided_by: 60 %}
+      {%- comment -%} آمار کلی: پادکست، قسمت و ساعت. جمع قسمت/ساعت را scripts/update_rss.py در _data/site_totals.json می‌نویسد (هر ۱۰ دقیقه). ساعت = تعداد قسمت × میانگین طول قسمت‌های اخیر هر پادکست (تخمینی). {%- endcomment -%}
+      {% assign n_eps = site.data.site_totals.episodes | default: 0 %}{% assign n_hours = site.data.site_totals.hours | default: 0 %}
       {% if n_eps >= 1000 %}{% assign n_eps_r = n_eps | modulo: 1000 | plus: 1000 | append: '' | slice: 1, 3 %}{% assign n_eps_txt = n_eps | divided_by: 1000 | append: '٬' | append: n_eps_r %}{% else %}{% assign n_eps_txt = n_eps %}{% endif %}
       {% if n_hours >= 1000 %}{% assign n_hours_r = n_hours | modulo: 1000 | plus: 1000 | append: '' | slice: 1, 3 %}{% assign n_hours_txt = n_hours | divided_by: 1000 | append: '٬' | append: n_hours_r %}{% else %}{% assign n_hours_txt = n_hours %}{% endif %}
       <p class="pp-side-stats"><b>{{ site.podcasts.size }}</b> پادکست · <b>{{ n_eps_txt }}</b> قسمت · <b>{{ n_hours_txt }}</b> ساعت{% if site.goatcounter %}<span id="pp-visits-wrap" hidden> · <b id="pp-visits"></b> بازدید</span>{% endif %}{% if page.url == '/' %}<a href="#map">نقشه‌ی پادکسترها</a>{% else %}<a href="{{ '/#map' | relative_url }}">نقشه‌ی پادکسترها</a>{% endif %}</p>
@@ -170,14 +171,14 @@
 
 {% if site.goatcounter %}<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 {% endif %}<script src="{{ '/assets/js/pp-tools.js' | relative_url }}" defer></script>
-<script src="{{ '/assets/js/app.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+<script src="{{ '/assets/js/app.js' | relative_url }}?v={{ site.asset_v }}" defer></script>
 <script src="{{ '/assets/js/pp-digits.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/pp-vectors.js' | relative_url }}" defer></script>
-<script src="{{ '/assets/js/pp-float-player.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
-<script src="{{ '/assets/js/pp-nav.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
-<script src="{{ '/assets/js/pp-cats.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
-<script src="{{ '/assets/js/pp-search-core.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
-<script src="{{ '/assets/js/pp-suggest.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
-{% for s in page.scripts %}<script src="{{ s | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+<script src="{{ '/assets/js/pp-float-player.js' | relative_url }}?v={{ site.asset_v }}" defer></script>
+<script src="{{ '/assets/js/pp-nav.js' | relative_url }}?v={{ site.asset_v }}" defer></script>
+<script src="{{ '/assets/js/pp-cats.js' | relative_url }}?v={{ site.asset_v }}" defer></script>
+<script src="{{ '/assets/js/pp-search-core.js' | relative_url }}?v={{ site.asset_v }}" defer></script>
+<script src="{{ '/assets/js/pp-suggest.js' | relative_url }}?v={{ site.asset_v }}" defer></script>
+{% for s in page.scripts %}<script src="{{ s | relative_url }}?v={{ site.asset_v }}" defer></script>
 {% endfor %}</body>
 </html>

@@ -101,7 +101,8 @@
 
   function load() {
     var bucket = Math.floor(Date.now() / 300000);        // raw.githubusercontent خودش ۵ دقیقه کش می‌کند
-    var live = window.PP_STATS_RAW ? fetch(window.PP_STATS_RAW + "?t=" + bucket, { cache: "no-store" }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).catch(function () { return null; }) : Promise.resolve(null);
+    var ac = window.AbortController ? new AbortController() : null; if (ac) setTimeout(function () { ac.abort(); }, 4000);   /* GitHub raw در ایران گاهی گیر می‌کند؛ بعد از ۴ ثانیه نسخه‌ی /new.json کافی است */
+    var live = window.PP_STATS_RAW ? fetch(window.PP_STATS_RAW + "?t=" + bucket, ac ? { cache: "no-store", signal: ac.signal } : { cache: "no-store" }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).catch(function () { return null; }) : Promise.resolve(null);
     var base = fetch(window.PP_NEW_URL + "?t=" + bucket, { cache: "no-store" }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).catch(function () { return meta.length ? meta : null; });
     return Promise.all([base, live]).then(function (res) {
       if (!res[0]) throw 0;

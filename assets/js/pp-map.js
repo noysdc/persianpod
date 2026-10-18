@@ -19,6 +19,8 @@
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
 
   var tip = document.getElementById("pp-map-tip");
+  /* tooltip باید فرزند body باشد: داخل پنل شیشه‌ای (backdrop-filter) «position:fixed» نسبت به همان پنل حساب می‌شود، نه صفحه، و جای نوشته می‌پرد */
+  if (tip && tip.parentNode !== document.body) document.body.appendChild(tip);
   var backBtn = document.getElementById("pp-map-back"), iranBtn = document.getElementById("pp-map-iran");
   var hint = document.getElementById("pp-map-hint");
   var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -245,7 +247,12 @@
     backBtn.addEventListener("click", zoomWorld);
     iranBtn.addEventListener("click", zoomIran);
     iranBtn.hidden = false;
-    window.addEventListener("resize", function () { if (zoomed) { setView(iranView()); layoutLabels(); } else ui(); });
+    var rzT = 0;
+    function relayout() { clearTimeout(rzT); rzT = setTimeout(function () { if (zoomed) { setView(iranView()); layoutLabels(); } else ui(); }, 80); }
+    window.addEventListener("resize", relayout);
+    /* اندازه‌ی جعبه (تغییر اندازه‌ی متن A+/A−، باز و بسته شدن ستون‌ها) و لود فونت، چیدمان نوشته‌ها را دوباره حساب می‌کنند */
+    if (window.ResizeObserver) { var lastW = host.clientWidth; new ResizeObserver(function () { if (host.clientWidth !== lastW) { lastW = host.clientWidth; relayout(); } }).observe(host); }
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { if (zoomed) layoutLabels(); });
     ui();
 
     /* ورود به دید: یک‌بار خودکار روی ایران زوم کن */
@@ -294,8 +301,12 @@
       var t = tipText(e.target);
       if (!t) { tip.hidden = true; return; }
       tip.textContent = t; tip.hidden = false;
-      tip.style.left = Math.max(8, Math.min(e.clientX + 14, window.innerWidth - 190)) + "px";
-      tip.style.top = e.clientY + 16 + "px";
+      var tw = tip.offsetWidth || 180, th = tip.offsetHeight || 36;
+      var left = e.clientX + 14, top = e.clientY + 16;
+      if (left + tw > window.innerWidth - 8) left = e.clientX - tw - 14;          // به لبه رسید: سمت دیگر نشانگر
+      if (top + th > window.innerHeight - 8) top = e.clientY - th - 12;
+      tip.style.left = Math.max(8, left) + "px";
+      tip.style.top = Math.max(8, top) + "px";
     });
     svg.addEventListener("pointerleave", function () { tip.hidden = true; });
     window.PPMap = { zoomIran: zoomIran, zoomWorld: zoomWorld };

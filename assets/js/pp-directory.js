@@ -118,8 +118,11 @@
   }
 
   /* ---------- فیلتر ---------- */
+  var indexed = false;
+  function ensureIndex() { if (indexed || !window.PPSearch || !data.length) return; indexed = true; PPSearch.build(data); }
   function read() {
     var rawq = els.q ? els.q.value : "";
+    if (norm(rawq)) ensureIndex();
     if (rawq !== lastQ) { noIntent = false; lastQ = rawq; }
     var S = (window.PPSearch && norm(rawq)) ? PPSearch.search(rawq, { intents: !noIntent }) : null;
     return {
@@ -536,9 +539,12 @@
     fillCities();
     var years = []; for (var y = jy; y >= FIRST_YEAR; y--) years.push(y);
     fill(els.yf, years, toFa); fill(els.yt, years, toFa);
-    if (window.PPSearch) PPSearch.build(data);
-    data.forEach(function (p) { if (catRank[p._cat] == null) catRank[p._cat] = Math.random(); });
+    /* ایندکس جست‌وجو (حدود ۱۳۰ میلی‌ثانیه روی کامپیوتر و چند برابر آن روی گوشی) بعد از اولین نمایش ساخته می‌شود، نه قبل از آن */
     fromUrl();
+    if (els.q && norm(els.q.value)) ensureIndex();
+    else if (window.requestIdleCallback) requestIdleCallback(ensureIndex, { timeout: 1500 });
+    else setTimeout(ensureIndex, 300);
+    data.forEach(function (p) { if (catRank[p._cat] == null) catRank[p._cat] = Math.random(); });
 
     var form = $("#pd-filters");
     form.addEventListener("input", schedule);
@@ -597,8 +603,17 @@
   });
 
   var url = document.body.getAttribute("data-search");
-  fetch(url)
-    .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+  var ssrCount = out.querySelectorAll(".pd-card").length;     // تعداد کارت‌های HTML تازه‌ی همین صفحه، مرجع درستی داده
+  function loadData(bust) {
+    var u = bust ? url + (url.indexOf("?") > -1 ? "&" : "?") + "r=" + Date.now() : url;
+    return fetch(u, bust ? { cache: "reload" } : undefined).then(function (r) { if (!r.ok) throw 0; return r.json(); });
+  }
+  loadData(false)
+    .then(function (d) {
+      /* اگر داده‌ی جست‌وجو از کش قدیمی آمده باشد (مثلاً فقط ۲۰ پادکست)، شمارنده‌ها غلط می‌شوند؛ یک بار از شبکه تازه می‌گیریم */
+      if (ssrCount && d.length < ssrCount * 0.9) return loadData(true).then(function (d2) { return d2.length >= d.length ? d2 : d; }).catch(function () { return d; });
+      return d;
+    })
     .then(function (d) { data = d.map(prep); init(); })
     .catch(function () {
       var note = document.createElement("p");

@@ -177,12 +177,54 @@ def parse_date(text):
         return None
 
 
-def analyse(feed_url):
+MAX_EXTRA_PAGES = 60          # سقف صفحه‌های اضافه برای فیدهایی که فقط N قسمت آخر را می‌دهند
+
+
+def item_key(it):
+    g = (it.findtext("guid") or "").strip()
+    if g:
+        return g
+    enc = it.find("enclosure")
+    return ((enc.get("url") if enc is not None else "") or it.findtext("link") or it.findtext("title") or "").strip()
+
+
+def collect_pages(first_items, feed_url, paged):
+    """بعضی فیدها (فیدبرنر، وردپرس) فقط ۱۰ تا ۲۰ قسمت آخر را می‌دهند، پس تعداد قسمت‌ها کمتر از واقعیت می‌ماند (مثل «جادی»: ۲۰ به‌جای ۲۶۵).
+    در front matter بنویس:
+      rss_paged: true                                  ← همان rss با ?paged=2 و ۳ و …
+      rss_paged: "https://site.com/feed/podcast/?paged={n}"   ← آدرس دیگر (صفحه‌ی ۱ هم از همان گرفته می‌شود)
+    هر خطا فقط صفحه‌گردانی را متوقف می‌کند و آنچه تا اینجا گرفته شده می‌ماند؛ قسمت‌های تکراری با guid حذف می‌شوند."""
+    items, seen = list(first_items), {item_key(i) for i in first_items}
+    if isinstance(paged, str) and "{n}" in paged:
+        template, start = paged, 1
+    else:
+        sep = "&" if "?" in feed_url else "?"
+        template, start = feed_url + sep + "paged={n}", 2
+    for n in range(start, start + MAX_EXTRA_PAGES):
+        try:
+            more = list(parse_xml(fetch(template.replace("{n}", str(n)))).iter("item"))
+        except Exception:
+            break
+        if not more:
+            break
+        fresh = [i for i in more if item_key(i) not in seen]
+        if not fresh and n > start:      # صفحه‌ی اول آدرس جایگزین ممکن است همان قسمت‌های فید اصلی باشد؛ از صفحه‌ی دوم به بعد تکراری یعنی تمام
+            break
+        for i in fresh:
+            seen.add(item_key(i))
+        items.extend(fresh)
+    return items
+
+
+def analyse(feed_url, paged=None):
     root = parse_xml(fetch(feed_url))
+    all_items = list(root.iter("item"))
+    if paged:
+        all_items = collect_pages(all_items, feed_url, paged)
     items = []
     eps = []      # (تاریخ، عنوان، لینک) برای صفحه‌ی «تازه‌ها»
     audio_eps = []  # (تاریخ، عنوان، آدرس فایل صوتی) برای پلیر داخلی
-    for it in root.iter("item"):
+    for it in all_items:
         pub = it.findtext("pubDate")
         if not pub:                                  # بعضی فیدها به‌جای pubDate از dc:date استفاده می‌کنند
             for child in it:
@@ -277,6 +319,24 @@ def retry_due(slug, now=None):
     return now.hour % RETRY_EVERY_H == zlib.crc32(slug.encode("utf-8")) % RETRY_EVERY_H
 
 
+def write_totals(stats):
+    """مجموع قسمت‌ها و ساعت‌ها برای آمار ستون کناری (_data/site_totals.json).
+    قبلاً این جمع در قالب سایت با Liquid برای هر ۳۵۸ صفحه جداگانه حساب می‌شد و حدود ۴۰٪ زمان بیلد را می‌گرفت.
+    ساعت = تعداد قسمت × میانگین طول (دقیقه) ÷ ۶۰، فقط پادکست‌های منتشرشده."""
+    eps = minutes = 0
+    for path in sorted(PODCASTS.glob("*.md")):
+        fm = front_matter(path)
+        if fm.get("published") is False:
+            continue
+        st = stats.get(str(fm.get("slug") or path.stem)) or {}
+        e = int(st.get("episodes") or 0); l = int(st.get("avg_length") or 0)
+        eps += e; minutes += e * l
+    out = ROOT / "_data" / "site_totals.json"
+    txt = json.dumps({"episodes": eps, "hours": minutes // 60}, ensure_ascii=False) + "\n"
+    if not out.exists() or out.read_text(encoding="utf-8") != txt:
+        out.write_text(txt, encoding="utf-8")
+
+
 def main():
     previous = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
     prev_errors = json.loads(ERRORS.read_text(encoding="utf-8")) if ERRORS.exists() else {}
@@ -295,7 +355,7 @@ def main():
             errors[slug] = prev_errors[slug]         # فید خراب: این بار دوباره امتحان نمی‌شود، خطای قبلی می‌ماند
             print(f"skip {slug}: failing, retry later", file=sys.stderr)
             continue
-        jobs.append((slug, feed))
+        jobs.append((slug, feed, fm.get("rss_paged")))
 
     host_gate = {}
     gate_lock = threading.Lock()
@@ -306,10 +366,10 @@ def main():
             return host_gate.setdefault(host, threading.Semaphore(PER_HOST))
 
     def work(job):
-        slug, feed = job
+        slug, feed, paged = job
         try:
             with gate(feed):
-                return slug, feed, analyse(feed), None
+                return slug, feed, analyse(feed, paged), None
         except Exception as e:           # اگر خطا شد، آمار قبلی حفظ می‌شود
             return slug, feed, None, f"{type(e).__name__}: {e}"[:300]
 
@@ -333,6 +393,7 @@ def main():
     err_text = json.dumps(errors, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
     if not ERRORS.exists() or ERRORS.read_text(encoding="utf-8") != err_text:
         ERRORS.write_text(err_text, encoding="utf-8")
+    write_totals(stats)
     OUT.parent.mkdir(exist_ok=True)
     new_text = json.dumps(stats, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
     if not OUT.exists() or OUT.read_text(encoding="utf-8") != new_text:
