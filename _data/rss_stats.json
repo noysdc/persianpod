@@ -22231,8 +22231,8 @@
       }
     ],
     "recent_30d": [
-      2,
-      7,
+      3,
+      6,
       0,
       0,
       0,
@@ -26941,21 +26941,26 @@
     "status": "inactive"
   },
   "radio-jamah-padkst-ajtmaai": {
-    "avg_gap_days": 9.0,
+    "avg_gap_days": 9.3,
     "avg_length": 11,
-    "episodes": 214,
-    "eps_365": 39,
-    "eps_90": 8,
+    "episodes": 215,
+    "eps_365": 40,
+    "eps_90": 9,
     "first_at": "2021-07-28",
     "first_year": 1400,
-    "last": "1405/07/04",
-    "last_at": "2026-09-26T21:24:49Z",
-    "last_link": "https://www.spreaker.com/episode/nawgan-hwayy-ayran-az-prwaz-mstqym-bh-nywywrk-ta-mmnw-yt-frwd-dr-frwdgah-hay-jhan--75385942",
-    "last_title": "ناوگان هوایی ایران؛ از پرواز مستقیم به نیویورک تا ممنوعیت فرود در فرودگاه‌های جهان",
+    "last": "1405/07/26",
+    "last_at": "2026-10-18T07:37:57Z",
+    "last_link": "https://www.spreaker.com/episode/ps-az-hdwd-hsht-qrn-khwy-bh-nwr-bargah-shms-jlwh-ay-tazh-yaft--75843843",
+    "last_title": "پس از حدود هشت قرن، خوی به نور بارگاه شمس جلوه‌ای تازه یافت",
     "max_length": 32,
     "median_length": 14,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75843843/utf_8_b_2lxyr9in24wg2b7yp9iv2qnys9iqini02yxysy5tcdm.mp3",
+        "at": "2026-10-18T07:37:57Z",
+        "t": "پس از حدود هشت قرن، خوی به نور بارگاه شمس جلوه‌ای تازه یافت"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75385942/utf_8_b_2lxyr9in24wg2b7yp9ivinmh2yjyp9m_24zzhdinlm1wmw.mp3",
         "at": "2026-09-26T21:24:49Z",
@@ -26990,14 +26995,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/73333368/utf_8_b_2lxyr9in24wg2b7yp9iv2qnys9iqinmf2llyp9ix2ltysdum2yeubxaz.mp3",
         "at": "2026-08-02T05:59:20Z",
         "t": "مسجد کبود بلخ؛ از مزار شریف علی‌ابن ابیطالب تا راز «آرامگاه» زرتشت"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/73219474/utf_8_b_2lxyr9in24wg2b7yp9ivinin2ytzhdmi2kogkysubxaz.mp3",
-        "at": "2026-07-28T18:25:40Z",
-        "t": "قلعه الموت؛ آشیانه عقاب و میراث حیرت‌انگیز حسن صباح بر فراز صخره‌های البرز"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-18T07:37:57Z",
+        "link": "https://www.spreaker.com/episode/ps-az-hdwd-hsht-qrn-khwy-bh-nwr-bargah-shms-jlwh-ay-tazh-yaft--75843843",
+        "title": "پس از حدود هشت قرن، خوی به نور بارگاه شمس جلوه‌ای تازه یافت"
+      },
       {
         "at": "2026-09-26T21:24:49Z",
         "link": "https://www.spreaker.com/episode/nawgan-hwayy-ayran-az-prwaz-mstqym-bh-nywywrk-ta-mmnw-yt-frwd-dr-frwdgah-hay-jhan--75385942",
@@ -27007,11 +27012,6 @@
         "at": "2026-09-20T05:39:25Z",
         "link": "https://www.spreaker.com/episode/yk-qrn-fraz-w-nshyb-amwzsh-dr-ayran-az-dbstan-hay-raygan-w-ajbary-phlwy-ta-mdars-pwly-jmhwry-aslamy--75251769",
         "title": "یک قرن فراز و نشیب آموزش در ایران؛ از دبستان‌های رایگان و اجباری پهلوی تا مدارس پولی جمهوری اسلامی"
-      },
-      {
-        "at": "2026-09-06T04:36:32Z",
-        "link": "https://www.spreaker.com/episode/mhsa-amyny-dkhtry-kh-hrgz-nmrd--74930298",
-        "title": "مهسا امینی، دختری که هرگز نمرد"
       }
     ],
     "recent_30d": [
@@ -27026,7 +27026,7 @@
       4,
       4,
       2,
-      2
+      3
     ],
     "status": "active"
   },
