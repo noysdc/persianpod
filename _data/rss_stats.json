@@ -15376,19 +15376,24 @@
   "mjmoah-i-rman-hai-jnaii-o-trsnak": {
     "avg_gap_days": 3.2,
     "avg_length": 32,
-    "episodes": 135,
-    "eps_365": 115,
-    "eps_90": 48,
+    "episodes": 136,
+    "eps_365": 116,
+    "eps_90": 49,
     "first_at": "2025-08-07",
     "first_year": 1404,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T08:08:25Z",
-    "last_link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-nhm--75835028",
-    "last_title": "رمان جنایی آدم‌ برفی-بخش نهم",
+    "last": "1405/07/26",
+    "last_at": "2026-10-18T05:04:15Z",
+    "last_link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-dhm--75842914",
+    "last_title": "رمان جنایی آدم‌برفی-بخش دهم",
     "max_length": 59,
     "median_length": 40,
     "min_length": 11,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75842914/utf_8_b_2kfyr9mfinio2lhzgduminux27aubxaz.mp3",
+        "at": "2026-10-18T05:04:15Z",
+        "t": "رمان جنایی آدم‌برفی-بخش دهم"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75835028/utf_8_b_2kfyr9mfinio2lhzgdum27kubxaz.mp3",
         "at": "2026-10-17T08:08:25Z",
@@ -15423,14 +15428,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75750430/utf_8_b_2klyr9mfinio2lhzgduminuzlm1wmw.mp3",
         "at": "2026-10-13T11:08:33Z",
         "t": "رمان جنایی آدم برفی-بخش سوم"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75720857/utf_8_b_2kfyr9mfinio2lhzgduminuylm1wmw.mp3",
-        "at": "2026-10-12T07:23:53Z",
-        "t": "رمان جنایی آدم‌برفی-بخش دوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-18T05:04:15Z",
+        "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-dhm--75842914",
+        "title": "رمان جنایی آدم‌برفی-بخش دهم"
+      },
       {
         "at": "2026-10-17T08:08:25Z",
         "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-nhm--75835028",
@@ -15440,11 +15445,6 @@
         "at": "2026-10-16T20:44:58Z",
         "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-hshtm--75830338",
         "title": "رمان جنایی آدم‌برفی-بخش هشتم"
-      },
-      {
-        "at": "2026-10-15T09:16:57Z",
-        "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-hftm--75803519",
-        "title": "رمان جنایی آدم‌برفی-بخش هفتم"
       }
     ],
     "recent_30d": [
@@ -15459,7 +15459,7 @@
       17,
       22,
       3,
-      23
+      24
     ],
     "status": "active"
   },
@@ -28979,8 +28979,8 @@
       0,
       0,
       1,
-      5,
-      5,
+      6,
+      4,
       5
     ],
     "status": "active"
