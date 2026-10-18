@@ -78,5 +78,9 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
+  },
+  "science-and-technology-news-akhbar-alm-o-tknolozhi": {
+    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://radioiranshahr.org/feed/podcast?name=science-and-technology-news"
   }
 }
