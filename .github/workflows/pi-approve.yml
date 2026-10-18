@@ -1,4 +1,4 @@
-name: تأیید صفحه‌های خودکار
+name: 05 Approve drafts [MANUAL]
 on:
   workflow_dispatch:
     inputs:

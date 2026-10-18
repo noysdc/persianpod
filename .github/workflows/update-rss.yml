@@ -1,4 +1,4 @@
-name: Update RSS stats
+name: 01 Update RSS stats [auto, every 10 min]
 
 on:
   schedule:

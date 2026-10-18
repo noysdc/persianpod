@@ -1,4 +1,4 @@
-name: پاک‌سازی دیتا برای جکیل
+name: 11 Tool - sanitize data [manual, one-off]
 on:
   workflow_dispatch:
 permissions:

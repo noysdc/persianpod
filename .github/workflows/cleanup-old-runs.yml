@@ -1,4 +1,4 @@
-name: پاک‌سازی اجراهای قدیمی Actions
+name: 07 Clean old Actions runs [auto, daily]
 on:
   schedule:
     - cron: "41 3 * * *"   # هر روز ۰۳:۴۱ UTC = ۰۷:۱۱ تهران

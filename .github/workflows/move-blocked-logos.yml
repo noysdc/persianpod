@@ -1,4 +1,4 @@
-name: انتقال لوگوهای بلاک‌شده به _blocked
+name: 10 Tool - move blocked logos [manual, one-off]
 on:
   workflow_dispatch:
 permissions:

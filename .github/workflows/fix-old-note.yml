@@ -1,4 +1,4 @@
-name: اصلاح یک‌باره‌ی متن پایین صفحه‌ها
+name: 09 Tool - fix page footer note [manual, one-off]
 on:
   workflow_dispatch:
 permissions:

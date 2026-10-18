@@ -9,7 +9,13 @@ const BLOCKED_DIR = process.env.PI_BLOCKED || "_blocked";   // فقط برای �
 const DATA = process.env.PI_OUT || "_data/pi";
 const FORCE = process.env.FORCE === "1";
 
-const drafts = (await fs.readdir(DRAFTS_DIR).catch(() => [])).filter((n) => n.endsWith(".md"));
+const allDrafts = (await fs.readdir(DRAFTS_DIR).catch(() => [])).filter((n) => n.endsWith(".md"));
+/* SLUGS: «all» (یا خالی) = همه‌ی پیش‌نویس‌ها؛ وگرنه نام فایل‌ها با ویرگول (مثلاً: zangetarikh,noys). قبلاً این ورودی خوانده نمی‌شد و هر بار همه‌ی پیش‌نویس‌ها تأیید می‌شدند. */
+const WANT = (process.env.SLUGS || "all").split(/[,\s،]+/).map((x) => x.trim().replace(/\.md$/, "")).filter(Boolean);
+const approveAll = !WANT.length || WANT.some((x) => x.toLowerCase() === "all");
+const drafts = approveAll ? allDrafts : allDrafts.filter((n) => WANT.includes(n.replace(/\.md$/, "")));
+const unknown = approveAll ? [] : WANT.filter((x) => !allDrafts.includes(x + ".md"));
+if (unknown.length) console.warn("در _drafts پیدا نشد: " + unknown.join(", "));
 const blocked = (await fs.readdir(BLOCKED_DIR).catch(() => [])).filter((n) => n.endsWith(".md"));
 
 if (!drafts.length) {
@@ -49,7 +55,7 @@ for (const name of drafts) {
 const rep = `## گزارش تأیید و انتقال
 
 - منتقل‌شده از \`_drafts/\` به \`_podcasts/\`: **${moved.length}**
-- ردشده (از قبل موجود بود): ${skipped.length}
+- ردشده (تکراری یا از قبل موجود): ${skipped.length}${typeof unknown !== "undefined" && unknown.length ? `\n- نام‌هایی که در _drafts نبودند: ${unknown.join("، ")}` : ""}
 - در \`_blocked/\` (دست‌نخورده، منتشر نمی‌شود): **${blocked.length}**
 
 ${moved.length ? "### منتقل‌شده\n" + moved.map((n) => `- \`${n}\``).join("\n") : ""}

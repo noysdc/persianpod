@@ -1,4 +1,4 @@
-name: Podcast Index — ساخت و تأیید صفحه‌ها
+name: 04 Build draft pages [auto, daily]
 on:
   schedule:
     - cron: "17 2 * * *"      # هر روز ۰۲:۱۷ UTC = ۰۵:۴۷ تهران (دقیقه‌ی غیرشلوغ؛ ساعت‌های رند گاهی اجرا نمی‌شوند)

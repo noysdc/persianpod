@@ -1,4 +1,4 @@
-name: Podcast locations — پیشنهاد مکان از فید
+name: 08 Suggest podcast locations [manual, optional]
 
 on:
   workflow_dispatch:

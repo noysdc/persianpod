@@ -1,4 +1,4 @@
-name: ممیزی پادکست‌های تکراری
+name: 06 Audit duplicates [auto, weekly]
 # _podcasts، _drafts و _blocked را با هم می‌سنجد (pi_id، RSS، شناسه‌ی اپل، عنوان+سازنده) و گزارش را در _data/pi/duplicates.md می‌نویسد.
 # هیچ فایلی را حذف یا عوض نمی‌کند.
 on:
