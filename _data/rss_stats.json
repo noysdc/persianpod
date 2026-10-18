@@ -22956,7 +22956,7 @@
     "avg_gap_days": 4.6,
     "avg_length": 129,
     "episodes": 825,
-    "eps_365": 79,
+    "eps_365": 78,
     "eps_90": 9,
     "first_at": "1970-01-01",
     "first_year": 1348,
@@ -24655,20 +24655,25 @@
   },
   "podcast-mosighi-rah-gosh": {
     "avg_gap_days": 4.8,
-    "avg_length": 71,
-    "episodes": 48,
-    "eps_365": 5,
-    "eps_90": 5,
+    "avg_length": 70,
+    "episodes": 49,
+    "eps_365": 6,
+    "eps_90": 6,
     "first_at": "2022-05-10",
     "first_year": 1401,
-    "last": "1405/07/21",
-    "last_at": "2026-10-13T18:30:00Z",
-    "last_link": "https://youtu.be/cdCN70Tm4NU",
-    "last_title": "استندآپ گِله؛ شیما شاه‌محمدی",
+    "last": "1405/07/26",
+    "last_at": "2026-10-18T18:30:00Z",
+    "last_link": "https://youtu.be/avxAC795a2s",
+    "last_title": "استندآپ گِله؛ محبوبه شوریده",
     "max_length": 145,
-    "median_length": 65,
+    "median_length": 64,
     "min_length": 29,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6ad3158ce039ee8e851aa415/media.mp3",
+        "at": "2026-10-18T18:30:00Z",
+        "t": "استندآپ گِله؛ محبوبه شوریده"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6aca033468b7ce6ffba02650/media.mp3",
         "at": "2026-10-13T18:30:00Z",
@@ -24703,14 +24708,14 @@
         "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/68c06904f7970b080fac9e1e/media.mp3",
         "at": "2025-09-09T17:51:06Z",
         "t": "نسل زِد موزیسین ایرانی؛ گفتگو با گلشن (کمانچه‌نواز) و بهار (ویولنیست)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6898e7d9c952cf59780d40ae/media.mp3",
-        "at": "2025-08-10T18:41:30Z",
-        "t": "استندآپ گِله؛ علی عابدین"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-18T18:30:00Z",
+        "link": "https://youtu.be/avxAC795a2s",
+        "title": "استندآپ گِله؛ محبوبه شوریده"
+      },
       {
         "at": "2026-10-13T18:30:00Z",
         "link": "https://youtu.be/cdCN70Tm4NU",
@@ -24720,11 +24725,6 @@
         "at": "2026-10-11T18:30:00Z",
         "link": "https://youtu.be/Mk-fmCtuFMc",
         "title": "از لس‌آنجلس تا هرمزگان؛ بندری/نوبندری"
-      },
-      {
-        "at": "2026-10-06T18:30:00Z",
-        "link": "https://youtu.be/wdbbG4qLPvc",
-        "title": "ایران و آمریکا/مقایسه‌ی تربیتِ آکادمیکِ موسیقی"
       }
     ],
     "recent_30d": [
@@ -24739,7 +24739,7 @@
       0,
       0,
       0,
-      5
+      6
     ],
     "status": "active"
   },
@@ -36326,8 +36326,8 @@
       0,
       0,
       15,
-      25,
-      3
+      26,
+      2
     ],
     "status": "active"
   },
