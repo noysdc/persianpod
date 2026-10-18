@@ -4920,19 +4920,24 @@
   "chh-hsi-dari-roanshnasi-khodshnasi": {
     "avg_gap_days": 1.0,
     "avg_length": 21,
-    "episodes": 80,
-    "eps_365": 80,
-    "eps_90": 80,
+    "episodes": 81,
+    "eps_365": 81,
+    "eps_90": 81,
     "first_at": "2026-07-29",
     "first_year": 1405,
     "last": "1405/07/26",
-    "last_at": "2026-10-18T11:09:11Z",
-    "last_link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-srashpz-ya-ryyst-kyh--75845436",
-    "last_title": "داستان کوتاه طنز| سرآشپز یا رئیست کیه؟",
+    "last_at": "2026-10-18T12:51:46Z",
+    "last_link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-bchh-anyshtyn-dywyd-sdrays--75846117",
+    "last_title": "داستان کوتاه طنز|بچه انیشتین| دیوید سدرایس",
     "max_length": 33,
     "median_length": 15,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75846117/utf_8_b_2kjahtmhinin2ybbjni02krbjnmglm1wmw.mp3",
+        "at": "2026-10-18T12:51:46Z",
+        "t": "داستان کوتاه طنز|بچه انیشتین| دیوید سدرایس"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75845436/utf_8_b_2lpysdii2ltzvtiylm1wmw.mp3",
         "at": "2026-10-18T11:09:11Z",
@@ -4967,14 +4972,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75745101/utf_8_b_2kjyudivinin2lig2yxzhidyqtqp2lhyp9ixinqp2yyubxaz.mp3",
         "at": "2026-10-13T06:45:36Z",
         "t": "داستان کوتاه طنز| بعد از من تکرار کن"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75726668/utf_8_b_2b7yp9um2kfzhidysdin2kjyt9mhini52kfytnmc2kfzhtmhlm1wmw.mp3",
-        "at": "2026-10-12T11:37:49Z",
-        "t": "داستان کوتاه طنز| پایان رابطه‌ی عاشقانه| دیوید سدرایس"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-18T12:51:46Z",
+        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-bchh-anyshtyn-dywyd-sdrays--75846117",
+        "title": "داستان کوتاه طنز|بچه انیشتین| دیوید سدرایس"
+      },
       {
         "at": "2026-10-18T11:09:11Z",
         "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-srashpz-ya-ryyst-kyh--75845436",
@@ -4984,11 +4989,6 @@
         "at": "2026-10-17T11:32:29Z",
         "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-jwjh-dr-mrghdany--75836220",
         "title": "داستان کوتاه طنز|جوجه در مرغدانی"
-      },
-      {
-        "at": "2026-10-16T19:07:03Z",
-        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-yk-qwty-kirm--75829617",
-        "title": "داستان کوتاه طنز| یک قوطی کِرم"
       }
     ],
     "recent_30d": [
@@ -5003,7 +5003,7 @@
       0,
       33,
       20,
-      27
+      28
     ],
     "status": "active"
   },
