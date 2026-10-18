@@ -20903,10 +20903,10 @@
     "status": "active"
   },
   "podcast-farsi-radio-mrz": {
-    "avg_gap_days": 39.6,
+    "avg_gap_days": 41.5,
     "avg_length": 184,
     "episodes": 91,
-    "eps_365": 10,
+    "eps_365": 9,
     "eps_90": 3,
     "first_at": "2018-07-08",
     "first_year": 1397,
@@ -22604,21 +22604,26 @@
     "status": "active"
   },
   "podcast-ktab-jibi": {
-    "avg_gap_days": 15.7,
-    "avg_length": 60,
-    "episodes": 140,
-    "eps_365": 22,
-    "eps_90": 5,
+    "avg_gap_days": 16.3,
+    "avg_length": 61,
+    "episodes": 141,
+    "eps_365": 23,
+    "eps_90": 6,
     "first_at": "2020-11-13",
     "first_year": 1399,
-    "last": "1405/06/29",
-    "last_at": "2026-09-20T17:07:09Z",
-    "last_link": "https://shows.acast.com/ketabjibi/episodes/140",
-    "last_title": "اپیزود ۱۴۰: خلاصه کتاب بیژن",
+    "last": "1405/07/26",
+    "last_at": "2026-10-18T10:25:39Z",
+    "last_link": "https://shows.acast.com/ketabjibi/episodes/141",
+    "last_title": "اپیزود ۱۴۱: خلاصه کتاب ۱۰۰+۱۰ راه برای انگیزه دادن به خود (قسمت اول)",
     "max_length": 120,
     "median_length": 44,
     "min_length": 15,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/660c391837d90000161ffc26/e/6ad49ea4a2384a57217a8813/media.mp3",
+        "at": "2026-10-18T10:25:39Z",
+        "t": "اپیزود ۱۴۱: خلاصه کتاب ۱۰۰+۱۰ راه برای انگیزه دادن به خود (قسمت اول)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/660c391837d90000161ffc26/e/6ab012be0521dc2c81c1fd0a/media.mp3",
         "at": "2026-09-20T17:07:09Z",
@@ -22653,14 +22658,14 @@
         "a": "https://sphinx.acast.com/p/open/s/660c391837d90000161ffc26/e/6a514d9cd2dde6b09af97a00/media.mp3",
         "at": "2026-07-10T19:52:48Z",
         "t": "اپیزود ۱۳۴: خلاصه کتاب روانشناسی رانندگی (قسمت اول)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/660c391837d90000161ffc26/e/6a47c3602d7a15a979995e6c/media.mp3",
-        "at": "2026-07-03T14:12:46Z",
-        "t": "اپیزود ۱۳۳: خلاصه کتاب صبر در معامله گری"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-18T10:25:39Z",
+        "link": "https://shows.acast.com/ketabjibi/episodes/141",
+        "title": "اپیزود ۱۴۱: خلاصه کتاب ۱۰۰+۱۰ راه برای انگیزه دادن به خود (قسمت اول)"
+      },
       {
         "at": "2026-09-20T17:07:09Z",
         "link": "https://shows.acast.com/ketabjibi/episodes/140",
@@ -22670,11 +22675,6 @@
         "at": "2026-09-04T13:59:48Z",
         "link": "https://shows.acast.com/ketabjibi/episodes/139",
         "title": "اپیزود ۱۳۹: خلاصه کتاب کلیدهای رویارویی با خشونت در کودکان"
-      },
-      {
-        "at": "2026-08-27T13:36:57Z",
-        "link": "https://shows.acast.com/ketabjibi/episodes/138",
-        "title": "اپیزود ۱۳۸: خلاصه کتاب مایکل فلپس (قسمت سوم)"
       }
     ],
     "recent_30d": [
@@ -22689,7 +22689,7 @@
       4,
       2,
       2,
-      1
+      2
     ],
     "status": "active"
   },
