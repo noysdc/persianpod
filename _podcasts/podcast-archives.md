@@ -9,7 +9,7 @@ tags: ["علم و فناوری","فناوری و گجت"]
 status: "فعال"
 language: "فارسی"
 creator: "Jadi"
-episode_count: 20
+episode_count: 266
 logo: "/assets/img/podcasts/podcast-archives.webp"
 rss: "http://feeds.feedburner.com/radiojadi"
 website: "https://jadi.net/tag/podcast/"
