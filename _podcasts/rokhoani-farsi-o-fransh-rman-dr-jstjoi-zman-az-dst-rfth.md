@@ -16,8 +16,8 @@ pi_id: 1831115
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # روخوانی فارسی و فرانسه رمان در جستجوی زمان از دست رفته مارسل‌پروست
