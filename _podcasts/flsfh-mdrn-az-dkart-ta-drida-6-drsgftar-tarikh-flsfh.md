@@ -17,8 +17,8 @@ pi_id: 7462276
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # فلسفه مدرن از دکارت تا دریدا (6 درسگفتار تاریخ فلسفه)

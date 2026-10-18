@@ -16,8 +16,8 @@ pi_id: 1658569
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # پادکست طنز دکتر ایکس
