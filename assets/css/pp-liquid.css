@@ -203,3 +203,11 @@ html:not(#pp) .pl-card[aria-current=true] .pl-play{
 :root .pd-group .pd-card .pd-meta .pd-b:first-child:not(.new):not(.off){display:none !important}
 :root .pd-group .pd-card .pd-meta .pd-b:nth-child(n+3):not(.off):not(.new){display:none !important}
 :root .pd-grid .pd-card:not(.pl-card) .pd-meta .pd-b:nth-child(n+4):not(.off):not(.new){display:none !important}
+
+/* ۱۱) فهرست بازشونده‌ی select (جست‌وجوی پیشرفته، مرتب‌سازی و …): پنجره‌ی گزینه‌ها را مرورگر/سیستم‌عامل می‌کشد و پس‌زمینه‌اش سفید می‌ماند،
+   ولی رنگ متن گزینه‌ها از select (روشن در حالت شب) ارث می‌رفت؛ پس سفید روی سفید و دیده نمی‌شد. رنگ هر دو را صریح می‌گذاریم. */
+:root[data-theme=dark] select,:root[data-theme=dark] select option,:root[data-theme=dark] select optgroup{
+  color-scheme:dark;background-color:#161c19;color:#e9f0ea}
+:root[data-theme=light] select option,:root[data-theme=light] select optgroup{
+  color-scheme:light;background-color:#ffffff;color:#16201a}
+select option:disabled{color:#8fa095}

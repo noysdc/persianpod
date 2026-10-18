@@ -9,6 +9,7 @@ permalink: /podcasts.json
 [
 {%- for p in site.podcasts -%}
 {%- assign st = site.data.rss_stats[p.slug] -%}
+{%- assign sy_md = p.start_year | plus: 0 -%}{%- assign sy = st.first_year | default: 0 -%}{%- if sy_md > 0 and sy_md < 1700 and sy == 0 or sy_md > 0 and sy_md < 1700 and sy_md < sy -%}{%- assign sy = sy_md -%}{%- endif -%}{%- assign ap = p.apple_podcasts | split: "/id" | last | plus: 0 -%}
 {%- assign stv = p.status_override | default: st.status | default: p.status | default: "active" -%}
 {%- if stv == "فعال" -%}{%- assign stv = "active" -%}{%- elsif stv == "متوقف" -%}{%- assign stv = "paused" -%}{%- elsif stv == "تمام‌شده" -%}{%- assign stv = "ended" -%}{%- endif -%}
 {
@@ -39,6 +40,8 @@ permalink: /podcasts.json
   "spotify": {{ p.spotify | jsonify }},
   "youtube": {{ p.yt_ep | default: p.youtube | jsonify }},
   "first_at": {{ st.first_at | jsonify }},
+  "start": {% if sy > 0 %}{{ sy }}{% else %}null{% endif %},
+  "apple": {{ ap }},
   "eps": [{% for e in st.play %}{"t": {{ e.t | jsonify }}, "a": {{ e.a | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]
 }{% unless forloop.last %},{% endunless %}
 {%- endfor -%}
