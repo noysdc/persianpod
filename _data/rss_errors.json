@@ -83,8 +83,8 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
-  "skhnrani-ha-mizgrdha-o-msahbh-hai-almi": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://www.souzanchi.ir/category/sokhanrani/feed/"
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   }
 }

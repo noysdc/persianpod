@@ -8802,21 +8802,26 @@
     "status": "inactive"
   },
   "frdai-aghtsad": {
-    "avg_gap_days": 2.0,
+    "avg_gap_days": 2.1,
     "avg_length": 61,
-    "episodes": 21,
-    "eps_365": 21,
-    "eps_90": 21,
+    "episodes": 22,
+    "eps_365": 22,
+    "eps_90": 22,
     "first_at": "2026-09-02",
     "first_year": 1405,
-    "last": "1405/07/21",
-    "last_at": "2026-10-13T07:59:05Z",
+    "last": "1405/07/26",
+    "last_at": "2026-10-18T08:08:03Z",
     "last_link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
-    "last_title": "رالی سهام دارویی؛ رشد سود هنوز از قیمت‌ها جا مانده است؟",
-    "max_length": 71,
+    "last_title": "فرار از تورم؛ فرصت بورس هنوز باقی است؟",
+    "max_length": 77,
     "median_length": 61,
     "min_length": 48,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/f17ba5af5da715b7/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-10-18T08:08:03Z",
+        "t": "فرار از تورم؛ فرصت بورس هنوز باقی است؟"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/21bef484fc2d589e/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-10-13T07:59:05Z",
@@ -8851,14 +8856,14 @@
         "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/bb017bb2867132fb/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-09-22T08:37:01Z",
         "t": "آغاز مهاجرت شستا از بنگاه‌داری به سهام‌داری"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/a9629d255ffadf9b/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2026-09-20T07:56:10Z",
-        "t": "سوت پایان خرید آسان در بورس"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-18T08:08:03Z",
+        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
+        "title": "فرار از تورم؛ فرصت بورس هنوز باقی است؟"
+      },
       {
         "at": "2026-10-13T07:59:05Z",
         "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
@@ -8868,11 +8873,6 @@
         "at": "2026-10-11T08:10:48Z",
         "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
         "title": "بورس در دوراهی تصمیم؛ فروش یا نگهداری؟"
-      },
-      {
-        "at": "2026-10-06T08:00:19Z",
-        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
-        "title": "استراتژی بقا در بورس؛ طلا یا سهام؟"
       }
     ],
     "recent_30d": [
@@ -8887,7 +8887,7 @@
       0,
       0,
       13,
-      8
+      9
     ],
     "status": "active"
   },
