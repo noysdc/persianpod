@@ -2,14 +2,14 @@
 
    قاعده‌ها
    1) چرخش دایره‌ای روزانه (به وقت تهران): ترتیب پایه‌ی هر گروه ثابت است (بر اساس هش شناسه) و
-      نقطه‌ی شروع هر روز یک ردیف (STEP) جلو می‌رود. پس برای همه‌ی بازدیدکننده‌های یک روز ترتیب یکسان است،
+      نقطه‌ی شروع هر روز یک گام (STEP) جلو می‌رود. پس برای همه‌ی بازدیدکننده‌های یک روز ترتیب یکسان است،
       فردا عوض می‌شود، و در طول زمان همه‌ی پادکست‌ها به‌اندازه‌ی هم به ردیف اول می‌رسند.
    2) فعال‌ها اول، غیرفعال‌ها (بیش از ۳ سال بدون قسمت) بعد؛ هرکدام چرخش جدا. هیچ‌کس حذف نمی‌شود.
-   3) «جدید»: اولین قسمت (first_at، از RSS) کمتر از NEW_DAYS روز پیش و پادکست فعال باشد.
-      جدیدها تا NEW_SLOTS جایگاه ابتدای فهرست را می‌گیرند (بین خودشان هم روزانه می‌چرخند)؛ NEW_SLOTS = 0 خاموشش می‌کند.
+   3) همه برابرند: نشان «جدید» و جایگاه ویژه برای پادکست‌های تازه وجود ندارد. تابع isNew فقط برای سازگاری با
+      فایل‌های دیگر می‌ماند و همیشه false برمی‌گرداند.
    scope: نام صفحه/دسته؛ برای اینکه ردیف اول هر دسته و هر صفحه با بقیه فرق کند. */
 (function () {
-  var NEW_DAYS = 90, NEW_SLOTS = 2, STEP = 6, KEY_STEP = 3;
+  var STEP = 6, KEY_STEP = 3;
 
   function hash(s) {                                   // FNV-1a ۳۲ بیتی
     s = String(s);
@@ -27,13 +27,7 @@
   }
   function keyOf(p) { return String(p.slug || p.id || p._id || p.url || p.title || ""); }
   function isActive(p) { return p._active != null ? !!p._active : String(p.status || "active") === "active"; }
-  function isNew(p) {
-    if (!p || !p.first_at) return false;
-    var t = Date.parse(p.first_at);
-    if (isNaN(t)) return false;
-    var age = Date.now() - t;
-    return age >= 0 && age <= NEW_DAYS * 864e5 && isActive(p);
-  }
+  function isNew() { return false; }                  // نشان «جدید» حذف شده است
   function base(list) {                                // ترتیب پایه‌ی ثابت
     return list.map(function (p) { var k = keyOf(p); return { p: p, k: k, h: hash(k) }; })
       .sort(function (a, b) { return a.h - b.h || (a.k < b.k ? -1 : a.k > b.k ? 1 : 0); })
@@ -52,13 +46,11 @@
   }
   function order(list, scope) {
     scope = scope || "all";
-    var news = [], act = [], off = [];
-    list.forEach(function (p) { if (!isActive(p)) off.push(p); else if (isNew(p)) news.push(p); else act.push(p); });
-    news = rotate(base(news), scope + "|new", STEP);
-    var front = news.slice(0, NEW_SLOTS);
-    act = rotate(base(act.concat(news.slice(NEW_SLOTS))), scope + "|act", STEP);
+    var act = [], off = [];
+    list.forEach(function (p) { if (isActive(p)) act.push(p); else off.push(p); });
+    act = rotate(base(act), scope + "|act", STEP);
     off = rotate(base(off), scope + "|off", STEP);
-    return front.concat(act, off);
+    return act.concat(off);
   }
   function orderKeys(keys, scope) {                    // ترتیب دسته‌ها: همان چرخش روزانه
     var b = keys.map(function (k) { return { k: k, h: hash(k) }; })
@@ -67,5 +59,5 @@
     return rotate(b, (scope || "cats") + "|keys", KEY_STEP);
   }
 
-  window.PPOrder = { order: order, orderKeys: orderKeys, isNew: isNew, dayNumber: dayNumber, NEW_DAYS: NEW_DAYS, NEW_SLOTS: NEW_SLOTS };
+  window.PPOrder = { order: order, orderKeys: orderKeys, isNew: isNew, dayNumber: dayNumber, NEW_DAYS: 0, NEW_SLOTS: 0 };
 })();
