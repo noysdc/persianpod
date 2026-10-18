@@ -18,8 +18,8 @@ pi_id: 1250178
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # یکشنبه های افسانه ای(داستان و شعر )

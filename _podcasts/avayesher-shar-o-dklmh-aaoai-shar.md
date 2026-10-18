@@ -16,8 +16,8 @@ pi_id: 1848390
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Avayesher / شعر و دکلمه (آوای شعر)

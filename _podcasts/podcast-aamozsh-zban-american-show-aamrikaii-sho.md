@@ -17,8 +17,8 @@ pi_id: 4990561
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # پادکست آموزش زبان American Show آمریکایی شو
