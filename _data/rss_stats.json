@@ -29162,6 +29162,96 @@
     ],
     "status": "active"
   },
+  "saate-sefr": {
+    "avg_gap_days": 11.5,
+    "avg_length": 39,
+    "episodes": 94,
+    "eps_365": 3,
+    "eps_90": 3,
+    "first_at": "2019-09-29",
+    "first_year": 1398,
+    "last": "1405/07/04",
+    "last_at": "2026-09-26T12:00:00Z",
+    "last_link": "https://shows.acast.com/saatesefr/episodes/s4e14",
+    "last_title": "بازگشت به جهنم - قسمت14 فصل4 ساعت صفر",
+    "max_length": 81,
+    "median_length": 34,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64e7263458387d00112951af/e/6ab7b0d9432e34fa4552eee2/media.mp3",
+        "at": "2026-09-26T12:00:00Z",
+        "t": "بازگشت به جهنم - قسمت14 فصل4 ساعت صفر"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64e7263458387d00112951af/e/6a99a15bd54ec94380db8cec/media.mp3",
+        "at": "2026-09-03T17:00:00Z",
+        "t": "دربست - قسمت13 فصل4 ساعت صفر"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64e7263458387d00112951af/e/6a98874ba389b713ae7ba81f/media.mp3",
+        "at": "2026-09-03T01:30:00Z",
+        "t": "خلاصه فصل4 ساعت صفر"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64e7263458387d00112951af/e/68ec050bd798804c9e225d0e/media.mp3",
+        "at": "2025-10-13T01:42:00Z",
+        "t": "تیر آخر - قسمت12 فصل4 ساعت صفر"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64e7263458387d00112951af/e/68b7269fb4b4b9b3d293b104/media.mp3",
+        "at": "2025-09-02T17:40:00Z",
+        "t": "الوعده وفا - قسمت11 فصل4 ساعت صفر"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64e7263458387d00112951af/e/689da889b9b9dae0c7d8ebfd/media.mp3",
+        "at": "2025-08-14T09:12:44Z",
+        "t": "عنصر نامطلوب - قسمت10 فصل4 ساعت صفر"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64e7263458387d00112951af/e/6883d3e72a38d6f5cbbafbe6/media.mp3",
+        "at": "2025-07-25T18:58:51Z",
+        "t": "دیداردرآینه - قسمت9 فصل4 ساعت صفر"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64e7263458387d00112951af/e/68740a30610560d3efe7d6df/media.mp3",
+        "at": "2025-07-13T19:35:00Z",
+        "t": "مینیاتور - قسمت8  فصل4 ساعت صفر"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-26T12:00:00Z",
+        "link": "https://shows.acast.com/saatesefr/episodes/s4e14",
+        "title": "بازگشت به جهنم - قسمت14 فصل4 ساعت صفر"
+      },
+      {
+        "at": "2026-09-03T17:00:00Z",
+        "link": "https://shows.acast.com/saatesefr/episodes/s4e13",
+        "title": "دربست - قسمت13 فصل4 ساعت صفر"
+      },
+      {
+        "at": "2026-09-03T01:30:00Z",
+        "link": "https://www.instagram.com/_aminmatin_/?hl=fa",
+        "title": "خلاصه فصل4 ساعت صفر"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1
+    ],
+    "status": "active"
+  },
   "sadeghi-padkst-jnaii-sadghi": {
     "avg_gap_days": 13.9,
     "avg_length": 25,
