@@ -4920,19 +4920,24 @@
   "chh-hsi-dari-roanshnasi-khodshnasi": {
     "avg_gap_days": 1.0,
     "avg_length": 21,
-    "episodes": 79,
-    "eps_365": 79,
-    "eps_90": 79,
+    "episodes": 80,
+    "eps_365": 80,
+    "eps_90": 80,
     "first_at": "2026-07-29",
     "first_year": 1405,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T11:32:29Z",
-    "last_link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-jwjh-dr-mrghdany--75836220",
-    "last_title": "داستان کوتاه طنز|جوجه در مرغدانی",
+    "last": "1405/07/26",
+    "last_at": "2026-10-18T11:09:11Z",
+    "last_link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-srashpz-ya-ryyst-kyh--75845436",
+    "last_title": "داستان کوتاه طنز| سرآشپز یا رئیست کیه؟",
     "max_length": 33,
     "median_length": 15,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75845436/utf_8_b_2lpysdii2ltzvtiylm1wmw.mp3",
+        "at": "2026-10-18T11:09:11Z",
+        "t": "داستان کوتاه طنز| سرآشپز یا رئیست کیه؟"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75836220/utf_8_b_2kzzinis2ycg2k_yssdzhdix2lryr9in2ybbjc5tcdm.mp3",
         "at": "2026-10-17T11:32:29Z",
@@ -4967,14 +4972,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75726668/utf_8_b_2b7yp9um2kfzhidysdin2kjyt9mhini52kfytnmc2kfzhtmhlm1wmw.mp3",
         "at": "2026-10-12T11:37:49Z",
         "t": "داستان کوتاه طنز| پایان رابطه‌ی عاشقانه| دیوید سدرایس"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75726623/utf_8_b_2klystmf2kfbjni0iniu2yjzhi5tcdm.mp3",
-        "at": "2026-10-12T11:35:06Z",
-        "t": "داستان کوتاه طنز|آزمایش خون | دیوید سدرایس"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-18T11:09:11Z",
+        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-srashpz-ya-ryyst-kyh--75845436",
+        "title": "داستان کوتاه طنز| سرآشپز یا رئیست کیه؟"
+      },
       {
         "at": "2026-10-17T11:32:29Z",
         "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-jwjh-dr-mrghdany--75836220",
@@ -4984,11 +4989,6 @@
         "at": "2026-10-16T19:07:03Z",
         "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-yk-qwty-kirm--75829617",
         "title": "داستان کوتاه طنز| یک قوطی کِرم"
-      },
-      {
-        "at": "2026-10-16T11:55:44Z",
-        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-drsh-ra-bgdhar--75822211",
-        "title": "داستان کوتاه طنز| درش را بگذار"
       }
     ],
     "recent_30d": [
@@ -5003,7 +5003,7 @@
       0,
       33,
       20,
-      26
+      27
     ],
     "status": "active"
   },
