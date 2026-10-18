@@ -1,0 +1,27 @@
+name: ممیزی پادکست‌های تکراری
+# _podcasts، _drafts و _blocked را با هم می‌سنجد (pi_id، RSS، شناسه‌ی اپل، عنوان+سازنده) و گزارش را در _data/pi/duplicates.md می‌نویسد.
+# هیچ فایلی را حذف یا عوض نمی‌کند.
+on:
+  schedule:
+    - cron: "15 3 * * 1"     # هر دوشنبه
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: ممیزی
+        run: |
+          node scripts/audit-duplicates.mjs | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: ذخیره
+        run: |
+          git config user.name "persianpod-bot"
+          git config user.email "persianpod-bot@users.noreply.github.com"
+          git add _data/pi/duplicates.md
+          git diff --cached --quiet || (git commit -m "data: گزارش ممیزی تکراری‌ها" && git pull --rebase && git push)

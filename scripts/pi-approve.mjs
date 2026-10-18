@@ -1,6 +1,7 @@
 /* PersianPod: تأیید — انتقال _drafts/ به _podcasts/ (فقط _drafts، نه _blocked) */
 import fs from "node:fs/promises";
 import path from "node:path";
+import { loadIndex, findDuplicate, identityFromFm, addIdentity } from "./lib/dedupe.mjs";
 
 const PODCASTS_DIR = process.env.PI_PODCASTS || "_podcasts";
 const DRAFTS_DIR = process.env.PI_DRAFTS || "_drafts";
@@ -21,6 +22,7 @@ if (!drafts.length) {
 
 await fs.mkdir(PODCASTS_DIR, { recursive: true });
 const moved = [], skipped = [];
+const PUBIDX = await loadIndex([PODCASTS_DIR]);   // پادکست‌های منتشرشده؛ هر پیش‌نویس با آن‌ها و با پیش‌نویس‌های همین اجرا سنجیده می‌شود
 
 for (const name of drafts) {
   const src = path.join(DRAFTS_DIR, name);
@@ -33,10 +35,14 @@ for (const name of drafts) {
     dst = path.join(PODCASTS_DIR, `${base}-v${v}.md`);
   }
   let content = await fs.readFile(src, "utf8");
+  const ident = identityFromFm((content.match(/^---\s*\n([\s\S]*?)\n---/) || [, ""])[1], name, PODCASTS_DIR);
+  const dup = findDuplicate(ident, PUBIDX);
+  if (dup && !FORCE) { skipped.push(`${name} — تکراری (${dup.kind}) با \`${dup.with.file}\`؛ در _drafts ماند. اگر مطمئنی تکراری نیست FORCE=1`); continue; }
   content = content.replace(/^published:\s*false\s*$/m, "published: true");
   content = content.replace(/^reviewed:\s*false\s*$/m, "reviewed: true");
   await fs.writeFile(dst, content);
   await fs.unlink(src);
+  addIdentity(PUBIDX, { ...ident, file: path.basename(dst), dir: PODCASTS_DIR });
   moved.push(path.basename(dst));
 }
 

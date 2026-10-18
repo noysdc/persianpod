@@ -7,6 +7,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
 
+import { loadIndex, findDuplicate, identityFromFeed, addIdentity, dedupeFeeds } from "./lib/dedupe.mjs";
 const E = process.env;
 const LIMIT = Math.max(1, parseInt(E.LIMIT || "10", 10)), SORT = E.SORT || "episodes";
 const IDS = (E.IDS || "").split(/[,\s،]+/).filter(Boolean).map(Number).filter(Boolean);
@@ -127,6 +128,10 @@ for (const dir of [PODCASTS_DIR, DRAFTS_DIR, BLOCKED_DIR]) {
   }
 }
 try { for (const m of JSON.parse(await fs.readFile(path.join(DATA, "matches.json"), "utf8")).matches || []) havePi.add(+m.pi_id); } catch { /* اختیاری */ }
+/* نمایه‌ی هویت همه‌ی صفحه‌های موجود (_podcasts + _drafts + _blocked) برای تشخیص تکراری: pi_id، RSS، اپل، عنوان+سازنده */
+const DUPIDX = await loadIndex([PODCASTS_DIR, DRAFTS_DIR, BLOCKED_DIR]);
+const FORCE = E.FORCE === "1";
+const internalDups = [];
 
 const STATE_FILE = path.join(DATA, "import-state.json");
 let STATE = { tries: {}, review: {} };
@@ -151,6 +156,7 @@ if (IDS.length) {
   if (bad.length) console.warn("نادیده گرفته شد: " + bad.join(", "));
 } else {
   cand = feeds.filter((f) => f.confidence === "high" && !f.dead && !havePi.has(+f.id) && !STATE.review[f.id] && (f.episodeCount || 0) >= 3 && hasFa(f.title || ""));
+  { const dd = dedupeFeeds(cand); cand = dd.keep; dd.dropped.forEach((x) => internalDups.push(`${x.id} «${x.title}» — تکراریِ ${x.dupOf} در همین فهرست (یکی از دو فید همان پادکست)`)); }
   cand.sort(SORT === "recent" ? (a, b) => (b.newestItemPubdate || 0) - (a.newestItemPubdate || 0) : (a, b) => (b.episodeCount || 0) - (a.episodeCount || 0));
 }
 
@@ -314,10 +320,13 @@ for (const F of cand) {
   if (fatal || aiStop || failsInRow >= MAX_FAILS_IN_ROW) break;
   const T = splitTitle(F.title);
   const dupKey = normKey(F.title) + "|" + normKey(F.author || F.ownerName);
-  if (!IDS.length) {
-    if (seenKey.has(dupKey)) { skipped.push(`${F.id} «${T.fa}» — تکراری`); continue; }
-    if (haveRss.has(F.url) || haveRss.has(F.originalUrl) || (T.en && normKey(T.en).length >= 3 && haveKey.has(normKey(T.en)))) { skipped.push(`${F.id} «${T.fa}» — احتمالاً همان صفحه‌ی موجود است`); continue; }
+  {
+    /* تکراری: ۱) pi_id ۲) RSS ۳) شناسه‌ی اپل ۴) عنوان+سازنده با هر صفحه‌ی موجود در _podcasts/_drafts/_blocked.
+       در حالت دستی (IDS) فقط تکراری‌های قطعی رد می‌شوند و «هم‌نام» اجازه دارد؛ با FORCE=1 همه‌چیز رد نمی‌شود. */
+    const dup = findDuplicate(identityFromFeed(F), DUPIDX);
+    if (dup && !(IDS.length && FORCE) && !(IDS.length && dup.soft)) { skipped.push(`${F.id} «${T.fa}» — تکراری (${dup.kind}) با \`${dup.with.dir}/${dup.with.file}\``); continue; }
   }
+  if (!IDS.length && seenKey.has(dupKey)) { skipped.push(`${F.id} «${T.fa}» — تکراری`); continue; }
   seenKey.add(dupKey);
   try {
     const fullR = await pi("/podcasts/byfeedid", { id: F.id }); const full = (fullR && fullR.feed && fullR.feed.id) ? fullR.feed : F;
@@ -360,6 +369,7 @@ for (const F of cand) {
     if (isActive) activeCount++; else inactiveCount++;
     const logo = await makeLogo(full.artwork || full.image || F.image, slug);
     await fs.writeFile(path.join(DRAFTS_DIR, slug + ".md"), build(F, T, slug, logo, L, eps, ai, full, status));
+    addIdentity(DUPIDX, { ...identityFromFeed(F), file: slug + ".md", dir: DRAFTS_DIR, shown: T.fa });
     haveSlug.add(slug); haveSlug.add(slug.toLowerCase()); done.push({ slug, title: T.fa, cat: ai.category, logo: !!logo, weak: ai.weak, isNewCategory: ai.isNewCategory, status });
     console.log(`✓ [draft] ${slug} — ${T.fa} (${ai.category}) [${status}]${ai.isNewCategory ? " [دسته‌ی جدید]" : ""}`);
   } catch (e) { skipped.push(`${F.id} «${T.fa}» — ${e.message}`); if (e.fatal) fatal = e.message; else failsInRow++; }
@@ -392,7 +402,7 @@ ${stopMsg}### 📊 آمار کلی (منبع: feeds.json)
 ${stats.allCandidates - done.length > 0 ? `> ℹ️ **${stats.allCandidates - done.length}** پادکست واجد شرایط دیگر باقی مانده. برای ساخت بقیه، workflow را دوباره اجرا کن.\n` : ""}
 ${done.map((d) => `- \`${d.slug}\` — ${d.title} · ${d.cat} · **${d.status}**${d.isNewCategory ? " 🆕" : ""}${d.logo ? "" : " · بدون لوگو"}${d.weak ? ` · ⚠️ دسته‌ی ضعیف` : ""}`).join("\n")}
 ${newCats.length ? "\n### 🆕 دسته‌های جدید پیشنهادی\n" + newCats.map((n) => `- \`${n.suggested}\` — برای «${n.title}»${n.subs.length ? ` (زیردسته‌ها: ${n.subs.join("، ")})` : ""}`).join("\n") : ""}
-${skipped.length ? "\n### ردشده\n" + skipped.map((s) => "- " + s).join("\n") : ""}
+${(skipped.length || internalDups.length) ? "\n### ردشده\n" + [...skipped, ...internalDups].map((s) => "- " + s).join("\n") : ""}
 `;
 await fs.mkdir(DATA, { recursive: true });
 await fs.writeFile(STATE_FILE, jsonSafe(STATE, 1));
