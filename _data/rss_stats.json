@@ -30152,19 +30152,24 @@
   "shar": {
     "avg_gap_days": 5.2,
     "avg_length": 4,
-    "episodes": 398,
-    "eps_365": 70,
-    "eps_90": 17,
+    "episodes": 399,
+    "eps_365": 71,
+    "eps_90": 18,
     "first_at": "2023-03-03",
     "first_year": 1401,
-    "last": "1405/07/21",
-    "last_at": "2026-10-13T06:40:18Z",
-    "last_link": "https://s3.castbox.fm/91/fd/11/83d7a24d8387cd1655e6ddb972.mp3",
-    "last_title": "نیما یوشیج | تلخ",
+    "last": "1405/07/26",
+    "last_at": "2026-10-18T06:40:10Z",
+    "last_link": "https://s3.castbox.fm/ec/37/13/1d9e9043e5bdeb7d1eaaebae3d.mp3",
+    "last_title": "مهدی اخوان ثالث | زمستان",
     "max_length": 29,
     "median_length": 4,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/ec/37/13/1d9e9043e5bdeb7d1eaaebae3d.mp3",
+        "at": "2026-10-18T06:40:10Z",
+        "t": "مهدی اخوان ثالث | زمستان"
+      },
       {
         "a": "https://s3.castbox.fm/91/fd/11/83d7a24d8387cd1655e6ddb972.mp3",
         "at": "2026-10-13T06:40:18Z",
@@ -30199,14 +30204,14 @@
         "a": "https://s3.castbox.fm/03/04/1e/2ff7794194bfcb23b13617239f.mp3",
         "at": "2026-09-13T06:40:10Z",
         "t": "لایق شیرعلی | وطنم"
-      },
-      {
-        "a": "https://s3.castbox.fm/e2/3f/9a/173e0e4e598dce3c1b23b25ef1.mp3",
-        "at": "2026-09-08T06:40:00Z",
-        "t": "رضا براهنی | هَـ ه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-18T06:40:10Z",
+        "link": "https://s3.castbox.fm/ec/37/13/1d9e9043e5bdeb7d1eaaebae3d.mp3",
+        "title": "مهدی اخوان ثالث | زمستان"
+      },
       {
         "at": "2026-10-13T06:40:18Z",
         "link": "https://s3.castbox.fm/91/fd/11/83d7a24d8387cd1655e6ddb972.mp3",
@@ -30216,11 +30221,6 @@
         "at": "2026-10-08T06:40:10Z",
         "link": "https://s3.castbox.fm/56/6e/f1/4e961044a6976461f17c873ef1.mp3",
         "title": "کاظم سادات اشکوری | تصویرهای بامدادی ۱۵"
-      },
-      {
-        "at": "2026-10-03T06:40:10Z",
-        "link": "https://s3.castbox.fm/18/13/2c/4ac9584cc786debd8f3dfb00c5.mp3",
-        "title": "شهریار | آذربایجان"
       }
     ],
     "recent_30d": [
@@ -30234,7 +30234,7 @@
       9,
       9,
       6,
-      5,
+      6,
       6
     ],
     "status": "active"
