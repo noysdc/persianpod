@@ -36601,24 +36601,60 @@
     "status": "inactive"
   },
   "zangetarikh": {
-    "avg_length": 39,
-    "episodes": 1,
-    "eps_365": 1,
-    "eps_90": 1,
-    "first_at": "2026-08-21",
-    "first_year": 1405,
+    "avg_gap_days": 50.3,
+    "avg_length": 48,
+    "episodes": 89,
+    "eps_365": 7,
+    "eps_90": 2,
+    "first_at": "2021-01-08",
+    "first_year": 1399,
     "last": "1405/05/30",
     "last_at": "2026-08-21T16:56:09Z",
     "last_link": "https://shows.acast.com/zn-trkh-or-zangetarikh/episodes/30-1405",
     "last_title": "لایو 30 مرداد 1405: چرا انسانها مجبور شدند حکومت تشکیل بدند؟",
-    "max_length": 39,
-    "median_length": 39,
-    "min_length": 39,
+    "max_length": 95,
+    "median_length": 44,
+    "min_length": 5,
     "play": [
       {
         "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/6a8880d0e96a6b6c1912d4a5/media.mp3",
         "at": "2026-08-21T16:56:09Z",
         "t": "لایو 30 مرداد 1405: چرا انسانها مجبور شدند حکومت تشکیل بدند؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/6a637884614bacdace28afa7/media.mp3",
+        "at": "2026-07-24T14:36:51Z",
+        "t": "اپیزود 49 تاریخ هخامنشیان در یک نگاه"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/6a4617c43dd2dcc100d1f71a/media.mp3",
+        "at": "2026-07-02T07:48:27Z",
+        "t": "برگشتیم که مجددا شروع کنیم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/69480fe1184761c021850bbd/media.mp3",
+        "at": "2025-12-21T15:18:58Z",
+        "t": "اپیزود ویژه. فلسفه پیدایش شب یلدا"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/692190a600a96fa12b636def/media.mp3",
+        "at": "2025-11-22T10:29:58Z",
+        "t": "اپیزود 48 جامعه و اقتصاد در دوره هخامنشی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/69021bb59b0ac9b41877d498/media.mp3",
+        "at": "2025-10-29T13:50:44Z",
+        "t": "هفت آبان, نه تولد هست نه جهانی. پس ریشه تاریخی روز کوروش کجاست؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/68fa37d318bcdad2ab8ad96c/media.mp3",
+        "at": "2025-10-23T14:12:35Z",
+        "t": "اپیزود 47 و سر انجام پایان (داریوش سوم و حمله اسکندر"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/68d2a0f102bd591597a3ecbc/media.mp3",
+        "at": "2025-09-23T13:30:29Z",
+        "t": "میان اپیزود: چرا میگیم ایرانیان باستان به ثبت تاریخ علاقه نداشتند؟"
       }
     ],
     "recent": [
@@ -36626,19 +36662,29 @@
         "at": "2026-08-21T16:56:09Z",
         "link": "https://shows.acast.com/zn-trkh-or-zangetarikh/episodes/30-1405",
         "title": "لایو 30 مرداد 1405: چرا انسانها مجبور شدند حکومت تشکیل بدند؟"
+      },
+      {
+        "at": "2026-07-24T14:36:51Z",
+        "link": "https://shows.acast.com/zn-trkh-or-zangetarikh/episodes/49",
+        "title": "اپیزود 49 تاریخ هخامنشیان در یک نگاه"
+      },
+      {
+        "at": "2026-07-02T07:48:27Z",
+        "link": "https://shows.acast.com/zn-trkh-or-zangetarikh/episodes/cb",
+        "title": "برگشتیم که مجددا شروع کنیم"
       }
     ],
     "recent_30d": [
+      2,
+      1,
       0,
       0,
       0,
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
+      1,
+      1,
       1,
       0
     ],
