@@ -15,8 +15,8 @@ pi_id: 1770854
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # کیت آهنگ

@@ -18,8 +18,8 @@ pi_id: 5679721
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # روانشناسی به زبان ساده

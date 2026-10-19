@@ -17,8 +17,8 @@ pi_id: 4117086
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # پزشکی به روایت من
