@@ -1,0 +1,31 @@
+{%- comment -%}
+  لینک‌های قدیمی دسته (?category=...&sub=...) را به نام‌های جدید تبدیل می‌کند.
+  این include را در <head> صفحه‌ی اصلی (قبل از اسکریپت فیلتر) بگذار:
+  {% include legacy-category-redirect.html %}
+  داده از _data/category_migrations.yml می‌آید.
+{%- endcomment -%}
+<script>
+(function () {
+  try {
+    var M = {{ site.data.category_migrations | jsonify }};
+    var u = new URL(location.href), cat = u.searchParams.get('category'), sub = u.searchParams.get('sub');
+    if (!cat) return;
+    var n = function (s) { return String(s || '').replace(/\u200c/g, '').replace(/ي/g, 'ی').replace(/ك/g, 'ک').replace(/\s+/g, ' ').trim(); };
+    var newCat = cat, newSub = sub;
+    var alias = M.categories || {};
+    Object.keys(alias).forEach(function (k) { if (n(k) === n(cat)) newCat = alias[k]; });
+    (M.subcategories || []).forEach(function (r) {
+      if (sub && n(r.from[0]) === n(cat) && n(r.from[1]) === n(sub)) {
+        if (r.to === null) { newSub = null; }
+        else if (Array.isArray(r.to)) { newCat = r.to[0]; newSub = r.to[1]; }
+        else { newSub = r.to; }
+      }
+    });
+    if (newCat !== cat || newSub !== sub) {
+      u.searchParams.set('category', newCat);
+      if (newSub) u.searchParams.set('sub', newSub); else u.searchParams.delete('sub');
+      location.replace(u.toString());
+    }
+  } catch (e) {}
+})();
+</script>
