@@ -26500,21 +26500,26 @@
     "status": "active"
   },
   "podcast-sdai-tarikh": {
-    "avg_gap_days": 7.6,
-    "avg_length": 39,
-    "episodes": 65,
-    "eps_365": 45,
-    "eps_90": 20,
+    "avg_gap_days": 7.8,
+    "avg_length": 38,
+    "episodes": 66,
+    "eps_365": 46,
+    "eps_90": 21,
     "first_at": "2025-02-07",
     "first_year": 1403,
-    "last": "1405/07/10",
-    "last_at": "2026-10-02T04:30:00Z",
-    "last_link": "https://shows.acast.com/sedayetarikh/episodes/6ab82e10079b46c819495d23",
-    "last_title": "پارادوکس",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T03:30:00Z",
+    "last_link": "https://shows.acast.com/sedayetarikh/episodes/6ad53b31a2384a5721aec52d",
+    "last_title": "کنترل ملت (تلنگر )",
     "max_length": 78,
-    "median_length": 34,
+    "median_length": 33,
     "min_length": 16,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67a5e58d340a5590cd939851/e/6ad53b31a2384a5721aec52d/media.mp3",
+        "at": "2026-10-19T03:30:00Z",
+        "t": "کنترل ملت (تلنگر )"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67a5e58d340a5590cd939851/e/6ab82e10079b46c819495d23/media.mp3",
         "at": "2026-10-02T04:30:00Z",
@@ -26549,14 +26554,14 @@
         "a": "https://sphinx.acast.com/p/open/s/67a5e58d340a5590cd939851/e/6a9606210305125c636cd804/media.mp3",
         "at": "2026-09-04T05:30:00Z",
         "t": "جنگ غذا"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67a5e58d340a5590cd939851/e/6a96053a0305125c636ca444/media.mp3",
-        "at": "2026-09-01T05:30:00Z",
-        "t": "ارج (از ظهور تا سقوط)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T03:30:00Z",
+        "link": "https://shows.acast.com/sedayetarikh/episodes/6ad53b31a2384a5721aec52d",
+        "title": "کنترل ملت (تلنگر )"
+      },
       {
         "at": "2026-10-02T04:30:00Z",
         "link": "https://shows.acast.com/sedayetarikh/episodes/6ab82e10079b46c819495d23",
@@ -26566,11 +26571,6 @@
         "at": "2026-10-01T04:30:00Z",
         "link": "https://shows.acast.com/sedayetarikh/episodes/6ab82cd562a47b6bec4ae338",
         "title": "اثر پِلاسیبو"
-      },
-      {
-        "at": "2026-09-29T04:30:00Z",
-        "link": "https://shows.acast.com/sedayetarikh/episodes/6ab82c0216ca37c5a0f43828",
-        "title": "مالیات بر درآمد"
       }
     ],
     "recent_30d": [
@@ -26585,7 +26585,7 @@
       8,
       12,
       3,
-      5
+      6
     ],
     "status": "active"
   },
