@@ -1268,20 +1268,25 @@
   },
   "aapdit-ba-hsin": {
     "avg_gap_days": 7.2,
-    "avg_length": 33,
-    "episodes": 11,
-    "eps_365": 11,
-    "eps_90": 11,
+    "avg_length": 34,
+    "episodes": 12,
+    "eps_365": 12,
+    "eps_90": 12,
     "first_at": "2026-07-31",
     "first_year": 1405,
-    "last": "1405/07/20",
-    "last_at": "2026-10-12T18:30:00Z",
-    "last_link": "https://www.buzzsprout.com/2633823/episodes/19950671-ai.mp3",
-    "last_title": "اینترنت پر از محتوای جعلی می‌شه؟! از کتاب‌های AI تا تشخیص عکس‌های فیک",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T19:30:00Z",
+    "last_link": "https://www.buzzsprout.com/2633823/episodes/19986472-.mp3",
+    "last_title": "تسلا ماشین پرنده ساخت؟! هوش مصنوعی خطرناک شده، ناسا هم برنامه ماه رو عوض کرد!",
     "max_length": 50,
-    "median_length": 29,
+    "median_length": 32,
     "min_length": 16,
     "play": [
+      {
+        "a": "https://www.buzzsprout.com/2633823/episodes/19986472-.mp3",
+        "at": "2026-10-19T19:30:00Z",
+        "t": "تسلا ماشین پرنده ساخت؟! هوش مصنوعی خطرناک شده، ناسا هم برنامه ماه رو عوض کرد!"
+      },
       {
         "a": "https://www.buzzsprout.com/2633823/episodes/19950671-ai.mp3",
         "at": "2026-10-12T18:30:00Z",
@@ -1316,14 +1321,14 @@
         "a": "https://www.buzzsprout.com/2633823/episodes/19728371-ai.mp3",
         "at": "2026-08-31T07:30:00Z",
         "t": "AI شغل‌هامون رو می‌گیره؟ آینده کار و بیکاری در عصر هوش مصنوعی"
-      },
-      {
-        "a": "https://www.buzzsprout.com/2633823/episodes/19682299-prediction-market-ai.mp3",
-        "at": "2026-08-21T17:30:00Z",
-        "t": "طلای آنلاین، Prediction Market و بحران اعتماد به AI"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T19:30:00Z",
+        "link": "https://www.buzzsprout.com/2633823/episodes/19986472-.mp3",
+        "title": "تسلا ماشین پرنده ساخت؟! هوش مصنوعی خطرناک شده، ناسا هم برنامه ماه رو عوض کرد!"
+      },
       {
         "at": "2026-10-12T18:30:00Z",
         "link": "https://www.buzzsprout.com/2633823/episodes/19950671-ai.mp3",
@@ -1333,11 +1338,6 @@
         "at": "2026-10-03T13:30:00Z",
         "link": "https://www.buzzsprout.com/2633823/episodes/19904068-.mp3",
         "title": "من دو تا هوش مصنوعی استخدام کردم؛ حالا کی مراقبشونه؟!"
-      },
-      {
-        "at": "2026-09-26T16:30:00Z",
-        "link": "https://www.buzzsprout.com/2633823/episodes/19866859-.mp3",
-        "title": "هوش مصنوعی اومد روی صورتت! هکت می‌کنه و آمریکا و چین سرش می‌جنگن!"
       }
     ],
     "recent_30d": [
@@ -1352,7 +1352,7 @@
       0,
       3,
       5,
-      3
+      4
     ],
     "status": "active"
   },
@@ -37780,8 +37780,8 @@
       14,
       9,
       10,
-      31,
-      44,
+      32,
+      43,
       35
     ],
     "status": "active"
