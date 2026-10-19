@@ -14483,8 +14483,8 @@
     ],
     "recent_30d": [
       41,
-      121,
-      87,
+      122,
+      86,
       64,
       4,
       0,
@@ -34275,21 +34275,26 @@
     "status": "inactive"
   },
   "shar-kst": {
-    "avg_gap_days": 28.2,
+    "avg_gap_days": 26.1,
     "avg_length": 7,
-    "episodes": 150,
-    "eps_365": 13,
-    "eps_90": 10,
+    "episodes": 151,
+    "eps_365": 14,
+    "eps_90": 11,
     "first_at": "2022-05-04",
     "first_year": 1401,
     "last": "1405/07/27",
-    "last_at": "2026-10-19T17:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/f603a740-de1b-4701-b868-fea5095cf0e2/play.mp3",
-    "last_title": "صد و چهل و نه - جام تعب: سلمان ساوجی",
+    "last_at": "2026-10-19T17:32:00Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/8050cf49-0861-4829-b46e-e394df63c82b/play.mp3",
+    "last_title": "صد و پنجاه - مرغ باغ ملکوت: همام تبریزی",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/8050cf49-0861-4829-b46e-e394df63c82b/play.mp3",
+        "at": "2026-10-19T17:32:00Z",
+        "t": "صد و پنجاه - مرغ باغ ملکوت: همام تبریزی"
+      },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/f603a740-de1b-4701-b868-fea5095cf0e2/play.mp3",
         "at": "2026-10-19T17:30:00Z",
@@ -34324,14 +34329,14 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/0f36e669-4cff-41b7-9480-ca7cbd4b7c48/play.mp3",
         "at": "2026-10-13T20:30:00Z",
         "t": "صد و چهل و سه - سرود آنکس که برفت و آنکس که برجای ماند: احمد شاملو"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/cb6eaf6b-21ec-4087-96b0-cabe5cc5ec7b/play.mp3",
-        "at": "2026-08-21T10:30:00Z",
-        "t": "صد و چهل و دو - گفتگو  با گل"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T17:32:00Z",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/8050cf49-0861-4829-b46e-e394df63c82b/play.mp3",
+        "title": "صد و پنجاه - مرغ باغ ملکوت: همام تبریزی"
+      },
       {
         "at": "2026-10-19T17:30:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/f603a740-de1b-4701-b868-fea5095cf0e2/play.mp3",
@@ -34341,11 +34346,6 @@
         "at": "2026-10-18T19:42:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/afbbdd5d-0c17-4979-a6be-0a1602b91fa0/play.mp3",
         "title": "صد و چهل و هشت - مست مَی‌گون: حیدر شیرازی"
-      },
-      {
-        "at": "2026-10-18T19:39:00Z",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/0f976769-8dac-4af9-8af0-0702bb963f3a/play.mp3",
-        "title": "صد و چهل و هفت - از من چرا رنجیده‌ای: منسوب به سعدی"
       }
     ],
     "recent_30d": [
@@ -34360,7 +34360,7 @@
       0,
       2,
       1,
-      7
+      8
     ],
     "status": "active"
   },
