@@ -1351,8 +1351,8 @@
       0,
       0,
       3,
-      4,
-      4
+      5,
+      3
     ],
     "status": "active"
   },
@@ -2244,8 +2244,8 @@
       0,
       2,
       1,
-      7,
-      4,
+      8,
+      3,
       0,
       0,
       0
@@ -3203,10 +3203,10 @@
     "episodes": 20,
     "eps_365": 0,
     "eps_90": 0,
-    "first_at": "2020-03-30",
+    "first_at": "2020-03-31",
     "first_year": 1399,
-    "last": "1399/02/04",
-    "last_at": "2020-04-23T22:34:49Z",
+    "last": "1399/02/05",
+    "last_at": "2020-04-24T11:00:49Z",
     "last_link": "https://shenoto.com/album/podcast/35910/عصرانه هنر/ داستان بیستم: خاستگاه هنر نوگرای جهان",
     "last_title": "عصرانه هنر/ داستان بیستم: خاستگاه هنر نوگرای جهان",
     "max_length": 17,
@@ -3215,58 +3215,58 @@
     "play": [
       {
         "a": "https://shenoto.com/service/api/play/podcast/bc034cf9-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2020-04-23T22:34:49Z",
+        "at": "2020-04-24T11:00:49Z",
         "t": "عصرانه هنر/ داستان بیستم: خاستگاه هنر نوگرای جهان"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/bbff2c13-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2020-04-21T23:34:58Z",
+        "at": "2020-04-22T11:47:58Z",
         "t": "عصرانه هنر/ داستان نوزدهم: بازشناسی هویت"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/bbfd3334-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2020-04-21T00:34:44Z",
+        "at": "2020-04-21T01:17:44Z",
         "t": "عصرانه هنر/ داستان هجدهم: هنر روی سنگ"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/bbf7e613-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2020-04-18T05:34:04Z",
+        "at": "2020-04-18T05:42:04Z",
         "t": "عصرانه هنر/ داستان هفدهم: نقوش هنری بر مهرهای باستانی"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/bbe66c17-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2020-04-14T20:34:47Z",
+        "at": "2020-04-15T09:28:47Z",
         "t": "عصرانه هنر/ داستان شانزدهم: گالری ها در ایران"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/bbdb7206-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2020-04-14T07:34:15Z",
+        "at": "2020-04-14T08:03:15Z",
         "t": "عصرانه هنر/ داستان پانزدهم: عکس و واقعه"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/bbd926de-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2020-04-11T21:34:13Z",
+        "at": "2020-04-12T10:25:13Z",
         "t": "عصرانه هنر/ داستان چهاردهم: ماه و ماهی"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/bbd67f6c-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2020-04-09T20:34:37Z",
+        "at": "2020-04-10T08:40:37Z",
         "t": "عصرانه هنر/ داستان سیزدهم: تو مشو در ظاهر هزلش گرو.."
       }
     ],
     "recent": [
       {
-        "at": "2020-04-23T22:34:49Z",
+        "at": "2020-04-24T11:00:49Z",
         "link": "https://shenoto.com/album/podcast/35910/عصرانه هنر/ داستان بیستم: خاستگاه هنر نوگرای جهان",
         "title": "عصرانه هنر/ داستان بیستم: خاستگاه هنر نوگرای جهان"
       },
       {
-        "at": "2020-04-21T23:34:58Z",
+        "at": "2020-04-22T11:47:58Z",
         "link": "https://shenoto.com/album/podcast/35789/عصرانه هنر/ داستان نوزدهم: بازشناسی هویت",
         "title": "عصرانه هنر/ داستان نوزدهم: بازشناسی هویت"
       },
       {
-        "at": "2020-04-21T00:34:44Z",
+        "at": "2020-04-21T01:17:44Z",
         "link": "https://shenoto.com/album/podcast/35708/عصرانه هنر/ داستان هجدهم: هنر روی سنگ",
         "title": "عصرانه هنر/ داستان هجدهم: هنر روی سنگ"
       }
@@ -5341,19 +5341,24 @@
   "chh-hsi-dari-roanshnasi-khodshnasi": {
     "avg_gap_days": 1.0,
     "avg_length": 21,
-    "episodes": 81,
-    "eps_365": 81,
-    "eps_90": 81,
+    "episodes": 82,
+    "eps_365": 82,
+    "eps_90": 82,
     "first_at": "2026-07-29",
     "first_year": 1405,
-    "last": "1405/07/26",
-    "last_at": "2026-10-18T12:51:46Z",
-    "last_link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-bchh-anyshtyn-dywyd-sdrays--75846117",
-    "last_title": "داستان کوتاه طنز|بچه انیشتین| دیوید سدرایس",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T12:03:45Z",
+    "last_link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-shb-murdgani-zndh-dywyd-sdrays--75858070",
+    "last_title": "داستان کوتاه طنز|شب مُردگانِ زنده| دیوید سدرایس",
     "max_length": 33,
-    "median_length": 15,
+    "median_length": 16,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75858070/utf_8_b_2ltyqcdzhdix2k_ar9in2yyg2llzhtiv2ycubxaz.mp3",
+        "at": "2026-10-19T12:03:45Z",
+        "t": "داستان کوتاه طنز|شب مُردگانِ زنده| دیوید سدرایس"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75846117/utf_8_b_2kjahtmhinin2ybbjni02krbjnmglm1wmw.mp3",
         "at": "2026-10-18T12:51:46Z",
@@ -5388,14 +5393,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75754212/utf_8_b_2k7ysdmi2lmg2lhzinuminmg2lhyr9mhlm1wmw.mp3",
         "at": "2026-10-13T13:17:19Z",
         "t": "داستان کوتاه طنز | خروس روی نرده| دیوید سدرایس"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75745101/utf_8_b_2kjyudivinin2lig2yxzhidyqtqp2lhyp9ixinqp2yyubxaz.mp3",
-        "at": "2026-10-13T06:45:36Z",
-        "t": "داستان کوتاه طنز| بعد از من تکرار کن"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T12:03:45Z",
+        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-shb-murdgani-zndh-dywyd-sdrays--75858070",
+        "title": "داستان کوتاه طنز|شب مُردگانِ زنده| دیوید سدرایس"
+      },
       {
         "at": "2026-10-18T12:51:46Z",
         "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-bchh-anyshtyn-dywyd-sdrays--75846117",
@@ -5405,11 +5410,6 @@
         "at": "2026-10-18T11:09:11Z",
         "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-srashpz-ya-ryyst-kyh--75845436",
         "title": "داستان کوتاه طنز| سرآشپز یا رئیست کیه؟"
-      },
-      {
-        "at": "2026-10-17T11:32:29Z",
-        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-jwjh-dr-mrghdany--75836220",
-        "title": "داستان کوتاه طنز|جوجه در مرغدانی"
       }
     ],
     "recent_30d": [
@@ -5424,7 +5424,7 @@
       0,
       33,
       21,
-      27
+      28
     ],
     "status": "active"
   },
@@ -6129,8 +6129,8 @@
       }
     ],
     "recent_30d": [
-      4,
-      4,
+      5,
+      3,
       2,
       3,
       2,
@@ -11579,8 +11579,8 @@
       3,
       6,
       12,
-      11,
-      6,
+      12,
+      5,
       5,
       3,
       3,
@@ -12290,8 +12290,8 @@
       }
     ],
     "recent_30d": [
-      71,
-      36,
+      72,
+      35,
       30,
       0,
       0,
@@ -14483,8 +14483,8 @@
     ],
     "recent_30d": [
       41,
-      116,
-      92,
+      117,
+      91,
       64,
       4,
       0,
@@ -22308,7 +22308,7 @@
     "first_at": "2020-12-01",
     "first_year": 1399,
     "last": "1400/03/08",
-    "last_at": "2021-05-29T03:35:23Z",
+    "last_at": "2021-05-29T16:14:23Z",
     "last_link": "https://shenoto.com/album/podcast/53733/اپیزود ۲۵- قسمت سوم مخترع قرن بیستم | نیکولا تسلا",
     "last_title": "اپیزود ۲۵- قسمت سوم مخترع قرن بیستم | نیکولا تسلا",
     "max_length": 48,
@@ -22317,58 +22317,58 @@
     "play": [
       {
         "a": "https://shenoto.com/service/api/play/podcast/c2d74f0a-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-05-29T03:35:23Z",
+        "at": "2021-05-29T16:14:23Z",
         "t": "اپیزود ۲۵- قسمت سوم مخترع قرن بیستم | نیکولا تسلا"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/c2c70c4e-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-05-18T02:35:13Z",
+        "at": "2021-05-18T14:31:13Z",
         "t": "اپیزود ۲۴- قسمت دوم مخترع قرن بیستم | نیکولا تسلا"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/c2bdd87c-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-05-11T04:35:01Z",
+        "at": "2021-05-11T17:13:01Z",
         "t": "اپیزود ۲3- قسمت اول مخترع قرن بیستم | نیکولا تسلا"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/c2a9a500-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-05-04T05:35:54Z",
+        "at": "2021-05-04T18:07:54Z",
         "t": "اپیزود ۲۲- قسمت سوم مردی تنها در سیبری | فئودور داستایوفسکی"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/c29b35db-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-04-26T21:34:08Z",
+        "at": "2021-04-27T10:04:08Z",
         "t": "اپیزود 21- قسمت دوم مردی تنها در سیبری | فئودور داستایوفسکی"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/c28cb8c8-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-04-21T06:34:13Z",
+        "at": "2021-04-21T06:31:13Z",
         "t": "اپیزود 20- قسمت اول مردی تنها در سیبری | فئودور داستایوفسکی"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/c27c7cb0-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-04-13T02:34:01Z",
+        "at": "2021-04-13T14:39:01Z",
         "t": "اپیزود ۱9- مردی به وسعت مغز (قسمت دوم) | پروفسور سمیعی"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/c26a917d-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-04-05T23:34:26Z",
+        "at": "2021-04-06T12:17:26Z",
         "t": "اپیزود ۱8- مردی به وسعت مغز (قسمت اول) | پروفسور سمیعی"
       }
     ],
     "recent": [
       {
-        "at": "2021-05-29T03:35:23Z",
+        "at": "2021-05-29T16:14:23Z",
         "link": "https://shenoto.com/album/podcast/53733/اپیزود ۲۵- قسمت سوم مخترع قرن بیستم | نیکولا تسلا",
         "title": "اپیزود ۲۵- قسمت سوم مخترع قرن بیستم | نیکولا تسلا"
       },
       {
-        "at": "2021-05-18T02:35:13Z",
+        "at": "2021-05-18T14:31:13Z",
         "link": "https://shenoto.com/album/podcast/53364/اپیزود ۲۴- قسمت دوم مخترع قرن بیستم | نیکولا تسلا",
         "title": "اپیزود ۲۴- قسمت دوم مخترع قرن بیستم | نیکولا تسلا"
       },
       {
-        "at": "2021-05-11T04:35:01Z",
+        "at": "2021-05-11T17:13:01Z",
         "link": "https://shenoto.com/album/podcast/52991/اپیزود ۲3- قسمت اول مخترع قرن بیستم | نیکولا تسلا",
         "title": "اپیزود ۲3- قسمت اول مخترع قرن بیستم | نیکولا تسلا"
       }
@@ -23181,7 +23181,7 @@
       }
     ],
     "recent_30d": [
-      7,
+      6,
       1,
       0,
       0,
@@ -23916,7 +23916,7 @@
     "avg_length": 129,
     "episodes": 825,
     "eps_365": 78,
-    "eps_90": 9,
+    "eps_90": 8,
     "first_at": "1970-01-01",
     "first_year": 1348,
     "last": "1405/07/21",
@@ -23986,7 +23986,7 @@
       }
     ],
     "recent_30d": [
-      25,
+      23,
       24,
       6,
       0,
@@ -23994,10 +23994,10 @@
       0,
       0,
       0,
-      9,
-      4,
-      2,
-      3
+      10,
+      3,
+      3,
+      2
     ],
     "status": "active"
   },
@@ -24077,8 +24077,8 @@
     ],
     "recent_30d": [
       7,
-      6,
-      4,
+      7,
+      3,
       0,
       0,
       0,
@@ -24702,7 +24702,7 @@
       }
     ],
     "recent_30d": [
-      3,
+      2,
       4,
       2,
       1,
@@ -25150,8 +25150,8 @@
       }
     ],
     "recent_30d": [
-      5,
-      4,
+      6,
+      3,
       0,
       0,
       0,
@@ -26767,13 +26767,13 @@
       4,
       6,
       12,
-      11,
-      6,
+      12,
+      5,
       2,
       1,
       1,
-      0,
-      1
+      1,
+      0
     ],
     "status": "active"
   },
@@ -26857,8 +26857,8 @@
       5,
       6,
       12,
-      11,
-      5,
+      12,
+      4,
       3,
       4,
       2,
@@ -26868,10 +26868,10 @@
     "status": "active"
   },
   "podcast-roanshnasi-saikopad": {
-    "avg_gap_days": 11.0,
+    "avg_gap_days": 11.2,
     "avg_length": 66,
     "episodes": 197,
-    "eps_365": 34,
+    "eps_365": 33,
     "eps_90": 12,
     "first_at": "2021-06-18",
     "first_year": 1400,
@@ -26942,7 +26942,7 @@
       }
     ],
     "recent_30d": [
-      3,
+      2,
       4,
       2,
       1,
@@ -30065,8 +30065,8 @@
     ],
     "recent_30d": [
       5,
-      3,
-      3,
+      4,
+      2,
       4,
       3,
       3,
@@ -30430,8 +30430,8 @@
       1,
       0,
       0,
-      14,
-      9,
+      15,
+      8,
       3,
       2,
       7
@@ -30873,8 +30873,8 @@
     ],
     "recent_30d": [
       3,
-      2,
-      4,
+      5,
+      1,
       1,
       1,
       0,
@@ -31151,8 +31151,8 @@
       2,
       2,
       3,
-      3,
-      6
+      4,
+      5
     ],
     "status": "active"
   },
@@ -32559,8 +32559,8 @@
       3,
       2,
       1,
-      0,
       1,
+      0,
       0,
       2,
       2,
@@ -33021,19 +33021,24 @@
   "sdai-bazar": {
     "avg_gap_days": 4.2,
     "avg_length": 18,
-    "episodes": 476,
-    "eps_365": 86,
-    "eps_90": 16,
+    "episodes": 477,
+    "eps_365": 87,
+    "eps_90": 17,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/07/24",
-    "last_at": "2026-10-16T10:40:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/5dsop93uc4/",
-    "last_title": "معمای بازار پس از تورم؛ چرا دلار عقب نشست و طلا رشد کرد؟",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T10:50:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/mxax8pq76j/",
+    "last_title": "آزمون اعتماد به هوش مصنوعی؛ نگاه بازار به گزارش‌های درآمدی",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/mxax8pq76j/2026-10-19-11-04-43.mp3",
+        "at": "2026-10-19T10:50:00Z",
+        "t": "آزمون اعتماد به هوش مصنوعی؛ نگاه بازار به گزارش‌های درآمدی"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/5dsop93uc4/2026-10-16-10-49-59.mp3",
         "at": "2026-10-16T10:40:00Z",
@@ -33068,14 +33073,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/t3ktr6fut8/2026-10-07-11-43-42.mp3",
         "at": "2026-10-07T11:30:00Z",
         "t": "رکوردهای سهام و آرامش شکننده اوراق؛ بازار در انتظار صورت‌جلسه فدرال رزرو"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/j5n5x6c8ts/2026-10-06-11-08-04.mp3",
-        "at": "2026-10-06T11:00:00Z",
-        "t": "رکوردشکنی نزدک در سایه بازدهی بالا؛ آیا طلا هم فرصت رشد خواهد یافت؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T10:50:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/mxax8pq76j/",
+        "title": "آزمون اعتماد به هوش مصنوعی؛ نگاه بازار به گزارش‌های درآمدی"
+      },
       {
         "at": "2026-10-16T10:40:00Z",
         "link": "https://dotcast.org/p/bozvcayr/5dsop93uc4/",
@@ -33085,17 +33090,12 @@
         "at": "2026-10-15T11:20:00Z",
         "link": "https://dotcast.org/p/bozvcayr/sl4kx80dje/",
         "title": "تغییر روایت بازار؛ از شوک تورم تا نگرانی‌های هوش مصنوعی"
-      },
-      {
-        "at": "2026-10-14T11:00:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/hdop0zz8yh/",
-        "title": "ویلیامز در برابر انتظارات بازار؛ CPI کدام روایت را تأیید می‌کند؟"
       }
     ],
     "recent_30d": [
-      21,
       20,
-      5,
+      21,
+      4,
       15,
       5,
       0,
@@ -33104,7 +33104,7 @@
       0,
       0,
       0,
-      16
+      17
     ],
     "status": "active"
   },
@@ -33904,8 +33904,8 @@
       8,
       8,
       5,
-      5,
-      5,
+      6,
+      4,
       2,
       0,
       9,
@@ -35729,6 +35729,95 @@
     ],
     "status": "active"
   },
+  "synapselingo-iadgiri-zban-aalmani": {
+    "avg_length": 26,
+    "episodes": 252,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2025-03-26",
+    "first_year": 1404,
+    "last": "1404/05/10",
+    "last_at": "2025-08-01T12:00:00Z",
+    "last_link": "https://synapselingo-persian-learn-german.podigee.io/202521301-synapselingo-01-08-2025",
+    "last_title": "SynapseLingo واژگان آلمانی را از 01.08.2025 بیاموزید",
+    "max_length": 43,
+    "median_length": 23,
+    "min_length": 8,
+    "play": [
+      {
+        "a": "https://audio.podigee-cdn.net/2044971-m-b35560310f4589b38e08c7d90fb9e7c6.mp3?source=feed",
+        "at": "2025-08-01T12:00:00Z",
+        "t": "SynapseLingo واژگان آلمانی را از 01.08.2025 بیاموزید"
+      },
+      {
+        "a": "https://audio.podigee-cdn.net/2044969-m-f5e77e4e114160182ecc5a04be1760e0.mp3?source=feed",
+        "at": "2025-08-01T06:00:00Z",
+        "t": "یادگیری آلمانی با SynapseLingo: دوره صوتی و تمرین‌های تعاملی آلمانی برای مبتدیان"
+      },
+      {
+        "a": "https://audio.podigee-cdn.net/2043280-m-ed830ff3d352dae7a2f22e7f1f0025ef.mp3?source=feed",
+        "at": "2025-07-31T12:00:00Z",
+        "t": "SynapseLingo واژگان آلمانی یادگیری از 31.07.2025"
+      },
+      {
+        "a": "https://audio.podigee-cdn.net/2043279-m-32208c974022d16d9c3a8933a381acda.mp3?source=feed",
+        "at": "2025-07-31T06:00:00Z",
+        "t": "یادگیری تعاملی زبان آلمانی با SynapseLingo از 2025-07-31"
+      },
+      {
+        "a": "https://audio.podigee-cdn.net/2041286-m-fea0cc746236b563b12b406452af5b81.mp3?source=feed",
+        "at": "2025-07-30T12:00:00Z",
+        "t": "SynapseLingo واژگان آلمانی را از 30.07.2025 بیاموزید"
+      },
+      {
+        "a": "https://audio.podigee-cdn.net/2041285-m-de61dc58ec5823f036c71b2db0b91c19.mp3?source=feed",
+        "at": "2025-07-30T06:00:00Z",
+        "t": "پادکست آموزش زبان آلمانی با SynapseLingo: داستان روزمره مدرسه – ۳۰.۰۷.۲۰۲۵"
+      },
+      {
+        "a": "https://audio.podigee-cdn.net/2039520-m-4265ba57fcfc7785ba12a44c5a21639a.mp3?source=feed",
+        "at": "2025-07-29T12:00:00Z",
+        "t": "SynapseLingo واژگان آلمانی را از 29.07.2025 بیاموزید"
+      },
+      {
+        "a": "https://audio.podigee-cdn.net/2039519-m-067ea2d93d0102d0f76c1d5ba1e4396c.mp3?source=feed",
+        "at": "2025-07-29T06:00:00Z",
+        "t": "پادکست یادگیری زبان آلمانی برای مبتدیان - معرفی خود در مهمانی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-08-01T12:00:00Z",
+        "link": "https://synapselingo-persian-learn-german.podigee.io/202521301-synapselingo-01-08-2025",
+        "title": "SynapseLingo واژگان آلمانی را از 01.08.2025 بیاموزید"
+      },
+      {
+        "at": "2025-08-01T06:00:00Z",
+        "link": "https://synapselingo-persian-learn-german.podigee.io/202521300-synapselingo-01-08-2025",
+        "title": "یادگیری آلمانی با SynapseLingo: دوره صوتی و تمرین‌های تعاملی آلمانی برای مبتدیان"
+      },
+      {
+        "at": "2025-07-31T12:00:00Z",
+        "link": "https://synapselingo-persian-learn-german.podigee.io/202521201-synapselingo-31-07-2025",
+        "title": "SynapseLingo واژگان آلمانی یادگیری از 31.07.2025"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "synapselingo-iadgiri-zban-anglisi": {
     "avg_length": 24,
     "episodes": 296,
@@ -36357,19 +36446,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.4,
     "avg_length": 10,
-    "episodes": 4199,
-    "eps_365": 813,
-    "eps_90": 258,
+    "episodes": 4200,
+    "eps_365": 814,
+    "eps_90": 259,
     "first_at": "2023-09-13",
     "first_year": 1402,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T11:58:15Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ad362cb39599f7c567b023b",
-    "last_title": "قسمت چهار هزار و صد و هشتاد و سه",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T13:15:37Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ad617f9b3fd74c05a7b6ec9",
+    "last_title": "قسمت چهار هزار و صد و هشتاد و چهار",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ad617f9b3fd74c05a7b6ec9/media.mp3",
+        "at": "2026-10-19T13:15:37Z",
+        "t": "قسمت چهار هزار و صد و هشتاد و چهار"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ad362cb39599f7c567b023b/media.mp3",
         "at": "2026-10-17T11:58:15Z",
@@ -36404,14 +36498,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6acbe95b2c705f746cde9f7c/media.mp3",
         "at": "2026-10-12T02:49:00Z",
         "t": "قسمت چهار هزار و صد و هفتاد و هفت"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6acbe8c88f90a39dfc4368b9/media.mp3",
-        "at": "2026-10-12T01:49:00Z",
-        "t": "قسمت چهار هزار و صد و هفتاد و شش"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T13:15:37Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ad617f9b3fd74c05a7b6ec9",
+        "title": "قسمت چهار هزار و صد و هشتاد و چهار"
+      },
       {
         "at": "2026-10-17T11:58:15Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ad362cb39599f7c567b023b",
@@ -36421,26 +36515,21 @@
         "at": "2026-10-14T09:30:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ace96447c5c47f85ec8377b",
         "title": "قسمت چهار هزار و صد و هشتاد و دو"
-      },
-      {
-        "at": "2026-10-14T07:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ace950f68b7ce6ffb16ab18",
-        "title": "قسمت چهار هزار و صد و هشتاد و یک"
       }
     ],
     "recent_30d": [
       97,
       112,
       67,
-      80,
-      28,
+      81,
+      27,
       0,
       7,
-      33,
-      107,
+      35,
+      105,
       86,
       98,
-      74
+      75
     ],
     "status": "active"
   },
@@ -37333,8 +37422,8 @@
       0,
       6,
       5,
-      7,
-      4
+      9,
+      2
     ],
     "status": "active"
   },
@@ -37595,8 +37684,8 @@
       22,
       32,
       9,
-      38,
-      7,
+      39,
+      6,
       1,
       13,
       10,
@@ -38595,21 +38684,26 @@
     "status": "active"
   },
   "zndgi-shad-rozanh-ba-jois-mair": {
-    "avg_gap_days": 8.3,
+    "avg_gap_days": 8.2,
     "avg_length": 25,
-    "episodes": 284,
-    "eps_365": 44,
-    "eps_90": 12,
+    "episodes": 285,
+    "eps_365": 45,
+    "eps_90": 13,
     "first_at": "2020-12-10",
     "first_year": 1399,
-    "last": "1405/07/20",
-    "last_at": "2026-10-12T13:00:00Z",
-    "last_link": "https://joycemeyerfa.libsyn.com/jntv14m42r36",
-    "last_title": "روابط، بخشش، اطاعت",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T13:00:00Z",
+    "last_link": "https://joycemeyerfa.libsyn.com/a03ymqia8vv2",
+    "last_title": "رشد روحانی، اطاعت، نگرش",
     "max_length": 28,
     "median_length": 25,
     "min_length": 18,
     "play": [
+      {
+        "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1410_2.mp3?dest-id=2501420",
+        "at": "2026-10-19T13:00:00Z",
+        "t": "رشد روحانی، اطاعت، نگرش"
+      },
       {
         "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1410_1.mp3?dest-id=2501420",
         "at": "2026-10-12T13:00:00Z",
@@ -38644,14 +38738,14 @@
         "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1386_4.mp3?dest-id=2501420",
         "at": "2026-08-24T13:00:00Z",
         "t": "مثال‌های عیسی: کشاورز ۲-۲"
-      },
-      {
-        "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1386_3.mp3?dest-id=2501420",
-        "at": "2026-08-17T13:00:00Z",
-        "t": "مثال‌های عیسی: کشاورز ۱-۲"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T13:00:00Z",
+        "link": "https://joycemeyerfa.libsyn.com/a03ymqia8vv2",
+        "title": "رشد روحانی، اطاعت، نگرش"
+      },
       {
         "at": "2026-10-12T13:00:00Z",
         "link": "https://joycemeyerfa.libsyn.com/jntv14m42r36",
@@ -38661,11 +38755,6 @@
         "at": "2026-10-05T13:00:00Z",
         "link": "https://joycemeyerfa.libsyn.com/1co25bsejgog",
         "title": "با خدا همه چیز امکان پذیر است ۲"
-      },
-      {
-        "at": "2026-09-28T13:00:00Z",
-        "link": "https://joycemeyerfa.libsyn.com/ne3wkw74b5md",
-        "title": "با خدا همه چیز امکان پذیر است ۱"
       }
     ],
     "recent_30d": [
@@ -38680,7 +38769,7 @@
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   }
