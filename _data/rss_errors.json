@@ -71,10 +71,6 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
-  "frahosh": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
-    "rss": "https://shenoto.net/service/api/feed/Frahosh"
-  },
   "frdai-aghtsad": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4"
@@ -87,17 +83,9 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://feeds.redcircle.com/b035425e-5202-414a-b60a-9a0b811be721"
   },
-  "hafz-khoani-bh-roait-ahmd-shamlo": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/HAfEZ-e-SHAMLU"
-  },
   "hnr-jng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://namlik.me/rss/318"
-  },
-  "hrf-hsab": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/harf-e-hesab"
   },
   "jnaii-khoani": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
@@ -106,10 +94,6 @@
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
-  },
-  "khsro-o-shirin-bh-roait-astad-saad-baghri": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/khosroshirin"
   },
   "kit-aahng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
@@ -123,17 +107,9 @@
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
   },
-  "noys": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://api.rabt.host/podcasts/f341ce22-a0e2-40fe-9ae1-d53b166c753b/rss"
-  },
   "o-ain-tnha-bazi-jhan-bod": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
+    "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
-  },
-  "podcast-farsi-hai-chnl-hichannelpodcast-hai-chnl": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
-    "rss": "https://shenoto.net/service/api/feed/HiChannelPodcast"
   },
   "radio-fol-astk": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
@@ -158,10 +134,6 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
-  },
-  "shar-o-ghsh-khoani": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
-    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
