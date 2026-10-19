@@ -55,10 +55,6 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://www.baranbax.com/category/sample-loop/kit/feed/"
   },
-  "ktab-asr-mrkb": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://hmpc.ir/feed/podcast/asare-morakab/"
-  },
   "mamanst-mamanest": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://feeds.sounder.fm/16420/rss.xml"
