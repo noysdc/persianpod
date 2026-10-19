@@ -17623,8 +17623,8 @@
       0,
       1,
       1,
-      0,
-      1
+      1,
+      0
     ],
     "status": "active"
   },
@@ -33559,21 +33559,26 @@
     "status": "active"
   },
   "sdai-slamt": {
-    "avg_gap_days": 13.7,
-    "avg_length": 13,
-    "episodes": 100,
-    "eps_365": 27,
-    "eps_90": 15,
+    "avg_gap_days": 13.4,
+    "avg_length": 14,
+    "episodes": 101,
+    "eps_365": 28,
+    "eps_90": 16,
     "first_at": "2023-02-04",
     "first_year": 1401,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T04:29:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/the-surprising-health-condition-some-people-develop-after-moving-to-australia/bxtgxi7y2",
-    "last_title": "چرا برخی مهاجران پس از ورود به استرالیا دچار این مشکل سلامتی می‌شوند؟",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T06:17:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/visiting-a-psychoanalyst-where-to-start-and-what-to-expect/fl8ydj8u4",
+    "last_title": "مراجعه به روان‌کاو؛ از کجا شروع کنیم؟ و چه انتظاراتی داشته باشیم؟",
     "max_length": 37,
     "median_length": 9,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20261019171754_387137-persian-ee983939-dfd4-44d9-9c0b-d88ffdc37cda.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a1-52a5-d2b3-adad-73bd13630000&dur_cat=4",
+        "at": "2026-10-19T06:17:00Z",
+        "t": "مراجعه به روان‌کاو؛ از کجا شروع کنیم؟ و چه انتظاراتی داشته باشیم؟"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20261014153026_625489-persian-9241b4c8-8178-49af-a574-877d33fe982f.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a1-3867-d830-abb9-fbefc6760000&dur_cat=3",
         "at": "2026-10-14T04:29:00Z",
@@ -33608,14 +33613,14 @@
         "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20260903112126-persian-66d9ed49-dca3-4784-b32e-5b747adb88fd.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a0-64d4-d55a-adb9-e5dfea840000&dur_cat=3",
         "at": "2026-09-03T01:21:00Z",
         "t": "مرگ و میر ناشی از مواد مخدر در استرالیا به بالاترین حد خود رسیده است. چه چیزی باید تغییر کند؟"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/sbs-persian/20260902142304-persian-c09283fa-b55d-47b8-a11a-bb8056de0aa5.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a0-6021-da80-a3af-7b2f98fb0000&dur_cat=3",
-        "at": "2026-09-02T04:22:00Z",
-        "t": "روندی غیرمنتظرهٔ از بیماری کووید-۱۹ که استرالیا انتظارش را نداشت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T06:17:00Z",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/visiting-a-psychoanalyst-where-to-start-and-what-to-expect/fl8ydj8u4",
+        "title": "مراجعه به روان‌کاو؛ از کجا شروع کنیم؟ و چه انتظاراتی داشته باشیم؟"
+      },
       {
         "at": "2026-10-14T04:29:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/the-surprising-health-condition-some-people-develop-after-moving-to-australia/bxtgxi7y2",
@@ -33625,11 +33630,6 @@
         "at": "2026-10-12T03:36:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/should-you-be-paid-to-exercise-while-at-work-these-australian-researchers-think-so/cb5tt1ubw",
         "title": "ورزش در ساعت کاری؛ چرا پژوهشگران استرالیایی می‌گویند باید برای آن پول گرفت؟"
-      },
-      {
-        "at": "2026-10-07T06:09:00Z",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/injured-workers-australia-workcover-support/w2yengigv",
-        "title": "کارگران آسیب‌دیده در استرالیا؛ ورک کاور (Work Cover) چه حمایت‌هایی ارائه می‌دهد؟"
       }
     ],
     "recent_30d": [
@@ -33644,7 +33644,7 @@
       1,
       6,
       4,
-      5
+      6
     ],
     "status": "active"
   },
