@@ -2244,8 +2244,8 @@
       0,
       2,
       1,
-      7,
-      4,
+      8,
+      3,
       0,
       0,
       0
@@ -23986,7 +23986,7 @@
       }
     ],
     "recent_30d": [
-      24,
+      23,
       24,
       6,
       0,
@@ -30873,8 +30873,8 @@
     ],
     "recent_30d": [
       3,
-      4,
-      2,
+      5,
+      1,
       1,
       1,
       0,
@@ -38684,21 +38684,26 @@
     "status": "active"
   },
   "zndgi-shad-rozanh-ba-jois-mair": {
-    "avg_gap_days": 8.3,
+    "avg_gap_days": 8.2,
     "avg_length": 25,
-    "episodes": 284,
-    "eps_365": 44,
-    "eps_90": 12,
+    "episodes": 285,
+    "eps_365": 45,
+    "eps_90": 13,
     "first_at": "2020-12-10",
     "first_year": 1399,
-    "last": "1405/07/20",
-    "last_at": "2026-10-12T13:00:00Z",
-    "last_link": "https://joycemeyerfa.libsyn.com/jntv14m42r36",
-    "last_title": "روابط، بخشش، اطاعت",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T13:00:00Z",
+    "last_link": "https://joycemeyerfa.libsyn.com/a03ymqia8vv2",
+    "last_title": "رشد روحانی، اطاعت، نگرش",
     "max_length": 28,
     "median_length": 25,
     "min_length": 18,
     "play": [
+      {
+        "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1410_2.mp3?dest-id=2501420",
+        "at": "2026-10-19T13:00:00Z",
+        "t": "رشد روحانی، اطاعت، نگرش"
+      },
       {
         "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1410_1.mp3?dest-id=2501420",
         "at": "2026-10-12T13:00:00Z",
@@ -38733,14 +38738,14 @@
         "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1386_4.mp3?dest-id=2501420",
         "at": "2026-08-24T13:00:00Z",
         "t": "مثال‌های عیسی: کشاورز ۲-۲"
-      },
-      {
-        "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1386_3.mp3?dest-id=2501420",
-        "at": "2026-08-17T13:00:00Z",
-        "t": "مثال‌های عیسی: کشاورز ۱-۲"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T13:00:00Z",
+        "link": "https://joycemeyerfa.libsyn.com/a03ymqia8vv2",
+        "title": "رشد روحانی، اطاعت، نگرش"
+      },
       {
         "at": "2026-10-12T13:00:00Z",
         "link": "https://joycemeyerfa.libsyn.com/jntv14m42r36",
@@ -38750,11 +38755,6 @@
         "at": "2026-10-05T13:00:00Z",
         "link": "https://joycemeyerfa.libsyn.com/1co25bsejgog",
         "title": "با خدا همه چیز امکان پذیر است ۲"
-      },
-      {
-        "at": "2026-09-28T13:00:00Z",
-        "link": "https://joycemeyerfa.libsyn.com/ne3wkw74b5md",
-        "title": "با خدا همه چیز امکان پذیر است ۱"
       }
     ],
     "recent_30d": [
@@ -38769,7 +38769,7 @@
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   }
