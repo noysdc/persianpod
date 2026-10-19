@@ -16,8 +16,8 @@ pi_id: 2074352
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # کانال روانشناس زهرا رضایی (زوج درمانگر و درمان های فردی)

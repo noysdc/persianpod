@@ -18,8 +18,8 @@ pi_id: 6569902
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # مهم ترین اخبار امروز استرالیا
