@@ -1,0 +1,64 @@
+name: 14 Telegram post [auto, new podcasts]
+
+# پادکست تازه‌منتشرشده (published: false نباشد و در _data/tg_posts.json نباشد) را در کانال تلگرام پست می‌کند.
+# قبل از اولین استفاده یک بار با گزینه‌ی init اجرا کن تا پادکست‌های فعلی «قبلاً پست‌شده» ثبت شوند.
+# Secret لازم: TELEGRAM_BOT_TOKEN (اختیاری: متغیر TELEGRAM_CHAT_ID؛ پیش‌فرض @persian_pod_ir)
+on:
+  push:
+    paths:
+      - "_podcasts/**"
+  schedule:
+    - cron: "*/30 * * * *"      # اگر ربات (pi-approve) با GITHUB_TOKEN پوش کند، رویداد push این ورک‌فلو را اجرا نمی‌کند؛ این زمان‌بندی جبران می‌کند
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "init = ثبت پادکست‌های فعلی بدون ارسال | dry-run = فقط پیش‌نمایش | post = ارسال"
+        type: choice
+        options: [dry-run, post, init]
+        default: dry-run
+      slug:
+        description: "فقط این پادکست (اختیاری)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: telegram-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Run
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
+          ACTION: ${{ github.event.inputs.action || 'post' }}
+          SLUG: ${{ github.event.inputs.slug }}
+        run: |
+          args=""
+          [ "$ACTION" = "init" ] && args="--init"
+          [ "$ACTION" = "dry-run" ] && args="--dry-run"
+          [ -n "$SLUG" ] && args="$args --slug $SLUG"
+          python scripts/telegram_post.py $args
+      - name: Commit state
+        run: |
+          git config user.name  "persianpod-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add _data/tg_posts.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: telegram posts"
+          for i in 1 2 3 4; do
+            git pull --rebase -X theirs && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
+          exit 1
