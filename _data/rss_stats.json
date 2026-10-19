@@ -5060,21 +5060,26 @@
     "status": "active"
   },
   "brnamh-hai-roanshnasi-persianbms": {
-    "avg_gap_days": 6.9,
-    "avg_length": 18,
-    "episodes": 20,
-    "eps_365": 20,
-    "eps_90": 12,
+    "avg_gap_days": 7.0,
+    "avg_length": 17,
+    "episodes": 21,
+    "eps_365": 21,
+    "eps_90": 13,
     "first_at": "2026-06-01",
     "first_year": 1405,
-    "last": "1405/07/20",
-    "last_at": "2026-10-12T05:30:00Z",
-    "last_link": "https://share.transistor.fm/s/94d6b347",
-    "last_title": "راهی هست: ۲. عوامل شکل‌گیری گرایش به خودکشی",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T05:30:00Z",
+    "last_link": "https://share.transistor.fm/s/53d1c712",
+    "last_title": "راهی هست: ۳. چگونه با فردی که به خودکشی فکر می‌کند رفتار کنیم؟",
     "max_length": 26,
     "median_length": 21,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://media.transistor.fm/53d1c712/bd97bcff.mp3",
+        "at": "2026-10-19T05:30:00Z",
+        "t": "راهی هست: ۳. چگونه با فردی که به خودکشی فکر می‌کند رفتار کنیم؟"
+      },
       {
         "a": "https://media.transistor.fm/94d6b347/cff55fc2.mp3",
         "at": "2026-10-12T05:30:00Z",
@@ -5109,14 +5114,14 @@
         "a": "https://media.transistor.fm/8df256f5/ab48679d.mp3",
         "at": "2026-08-31T12:30:00Z",
         "t": "اتاق آبی: ۸. چطور دستیابی به تعادل در زندگی می‌تواند به خوشبختی منجر شود؟"
-      },
-      {
-        "a": "https://media.transistor.fm/ef126dcf/826392d8.mp3",
-        "at": "2026-08-24T12:30:00Z",
-        "t": "اتاق آبی: ۷. پذیرش و مواجهه با مرگ چگونه می‌تواند بر معنای زندگی تاثیرگذار باشد؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T05:30:00Z",
+        "link": "https://share.transistor.fm/s/53d1c712",
+        "title": "راهی هست: ۳. چگونه با فردی که به خودکشی فکر می‌کند رفتار کنیم؟"
+      },
       {
         "at": "2026-10-12T05:30:00Z",
         "link": "https://share.transistor.fm/s/94d6b347",
@@ -5126,11 +5131,6 @@
         "at": "2026-10-05T05:30:00Z",
         "link": "https://share.transistor.fm/s/0c4cef86",
         "title": "راهی هست: ۱. چه‌قدر تنها بودی تو این همه فشار"
-      },
-      {
-        "at": "2026-09-28T06:30:00Z",
-        "link": "https://share.transistor.fm/s/980154b5",
-        "title": "اتاق آبی: ۱۲. آیا رقابت در زندگی ما را به رضامندی خواهد رساند؟"
       }
     ],
     "recent_30d": [
@@ -5145,7 +5145,7 @@
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   },
@@ -29447,7 +29447,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       4,
       1,
       3,
@@ -35293,7 +35293,7 @@
     "avg_length": 30,
     "episodes": 96,
     "eps_365": 17,
-    "eps_90": 11,
+    "eps_90": 10,
     "first_at": "2023-08-09",
     "first_year": 1402,
     "last": "1405/07/21",
@@ -35371,8 +35371,8 @@
       0,
       0,
       2,
-      4,
-      3,
+      5,
+      2,
       4,
       4
     ],
