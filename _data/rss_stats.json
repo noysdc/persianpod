@@ -8945,21 +8945,26 @@
     "status": "inactive"
   },
   "farsi-okr": {
-    "avg_gap_days": 14.8,
+    "avg_gap_days": 14.5,
     "avg_length": 23,
-    "episodes": 68,
-    "eps_365": 25,
-    "eps_90": 8,
+    "episodes": 69,
+    "eps_365": 26,
+    "eps_90": 9,
     "first_at": "2024-12-30",
     "first_year": 1403,
-    "last": "1405/07/20",
-    "last_at": "2026-10-12T01:30:00Z",
-    "last_link": "https://shows.acast.com/okr/episodes/6ac5d23a29b9fbfbe22de059",
-    "last_title": "پشت صحنه مدیریت گوگل (بخش اول)",
-    "max_length": 33,
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T01:30:00Z",
+    "last_link": "https://shows.acast.com/okr/episodes/6ad2fe477c5c47f85e2bf455",
+    "last_title": "پشت صحنه مدیریت گوگل (بخش آخر)",
+    "max_length": 37,
     "median_length": 22,
     "min_length": 12,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/676edd4b2472a043c01b942a/e/6ad2fe477c5c47f85e2bf455/media.mp3",
+        "at": "2026-10-19T01:30:00Z",
+        "t": "پشت صحنه مدیریت گوگل (بخش آخر)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/676edd4b2472a043c01b942a/e/6ac5d23a29b9fbfbe22de059/media.mp3",
         "at": "2026-10-12T01:30:00Z",
@@ -8994,14 +8999,14 @@
         "a": "https://sphinx.acast.com/p/open/s/676edd4b2472a043c01b942a/e/6a6d8507c7cc27169d2d2fc3/media.mp3",
         "at": "2026-08-03T01:30:00Z",
         "t": "مهارتی که معمولا سازمان ها بلد نیستند، علم عذرخواهی سازمانی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/676edd4b2472a043c01b942a/e/6a5b096378e0412bc65617c3/media.mp3",
-        "at": "2026-07-27T01:30:00Z",
-        "t": "اهدافی که قربانی کودکی شد"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T01:30:00Z",
+        "link": "https://shows.acast.com/okr/episodes/6ad2fe477c5c47f85e2bf455",
+        "title": "پشت صحنه مدیریت گوگل (بخش آخر)"
+      },
       {
         "at": "2026-10-12T01:30:00Z",
         "link": "https://shows.acast.com/okr/episodes/6ac5d23a29b9fbfbe22de059",
@@ -9011,11 +9016,6 @@
         "at": "2026-09-14T01:30:00Z",
         "link": "https://shows.acast.com/okr/episodes/6aa4d2cf7d9d1b167853ce1e",
         "title": "ساده سازی های دنیای پیچیده و پیچیده کردن های رعب آور"
-      },
-      {
-        "at": "2026-08-31T01:30:00Z",
-        "link": "https://shows.acast.com/okr/episodes/6a8fc41d7d95e52c9767dae4",
-        "title": "تعادل کار و زندگی؛ دنبال چه چیزی هستیم؟"
       }
     ],
     "recent_30d": [
@@ -9030,7 +9030,7 @@
       4,
       4,
       3,
-      1
+      2
     ],
     "status": "active"
   },
