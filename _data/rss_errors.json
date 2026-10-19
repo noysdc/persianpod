@@ -27,6 +27,10 @@
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
   },
+  "dastan-soti-kodkan": {
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "rss": "https://www.istgahekoodak.ir/category/childrens-audio-stories/feed/"
+  },
   "film-aamozshi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://drdna.ir/category/%D9%81%DB%8C%D9%84%D9%85-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/feed/"
