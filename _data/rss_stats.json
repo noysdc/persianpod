@@ -25150,8 +25150,8 @@
       }
     ],
     "recent_30d": [
-      5,
-      4,
+      6,
+      3,
       0,
       0,
       0,
@@ -26772,8 +26772,8 @@
       2,
       1,
       1,
-      0,
-      1
+      1,
+      0
     ],
     "status": "active"
   },
@@ -33021,19 +33021,24 @@
   "sdai-bazar": {
     "avg_gap_days": 4.2,
     "avg_length": 18,
-    "episodes": 476,
-    "eps_365": 86,
-    "eps_90": 16,
+    "episodes": 477,
+    "eps_365": 87,
+    "eps_90": 17,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/07/24",
-    "last_at": "2026-10-16T10:40:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/5dsop93uc4/",
-    "last_title": "معمای بازار پس از تورم؛ چرا دلار عقب نشست و طلا رشد کرد؟",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T10:50:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/mxax8pq76j/",
+    "last_title": "آزمون اعتماد به هوش مصنوعی؛ نگاه بازار به گزارش‌های درآمدی",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/mxax8pq76j/2026-10-19-11-04-43.mp3",
+        "at": "2026-10-19T10:50:00Z",
+        "t": "آزمون اعتماد به هوش مصنوعی؛ نگاه بازار به گزارش‌های درآمدی"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/5dsop93uc4/2026-10-16-10-49-59.mp3",
         "at": "2026-10-16T10:40:00Z",
@@ -33068,14 +33073,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/t3ktr6fut8/2026-10-07-11-43-42.mp3",
         "at": "2026-10-07T11:30:00Z",
         "t": "رکوردهای سهام و آرامش شکننده اوراق؛ بازار در انتظار صورت‌جلسه فدرال رزرو"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/j5n5x6c8ts/2026-10-06-11-08-04.mp3",
-        "at": "2026-10-06T11:00:00Z",
-        "t": "رکوردشکنی نزدک در سایه بازدهی بالا؛ آیا طلا هم فرصت رشد خواهد یافت؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T10:50:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/mxax8pq76j/",
+        "title": "آزمون اعتماد به هوش مصنوعی؛ نگاه بازار به گزارش‌های درآمدی"
+      },
       {
         "at": "2026-10-16T10:40:00Z",
         "link": "https://dotcast.org/p/bozvcayr/5dsop93uc4/",
@@ -33085,11 +33090,6 @@
         "at": "2026-10-15T11:20:00Z",
         "link": "https://dotcast.org/p/bozvcayr/sl4kx80dje/",
         "title": "تغییر روایت بازار؛ از شوک تورم تا نگرانی‌های هوش مصنوعی"
-      },
-      {
-        "at": "2026-10-14T11:00:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/hdop0zz8yh/",
-        "title": "ویلیامز در برابر انتظارات بازار؛ CPI کدام روایت را تأیید می‌کند؟"
       }
     ],
     "recent_30d": [
@@ -33104,7 +33104,7 @@
       0,
       0,
       0,
-      16
+      17
     ],
     "status": "active"
   },
