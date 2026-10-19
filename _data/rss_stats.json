@@ -20091,7 +20091,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       5,
       3,
       4,
@@ -21632,21 +21632,26 @@
     "status": "inactive"
   },
   "podcast-bizins-astoriz": {
-    "avg_gap_days": 0.5,
+    "avg_gap_days": 0.6,
     "avg_length": 27,
-    "episodes": 14,
-    "eps_365": 14,
-    "eps_90": 14,
+    "episodes": 15,
+    "eps_365": 15,
+    "eps_90": 15,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/07/26",
-    "last_at": "2026-10-18T06:50:09Z",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T08:08:41Z",
     "last_link": "https://furbodm.com",
-    "last_title": "SPACEX | قسمت چهاردهم؛ ایلان ماسک؛ اسپیس ایکس",
+    "last_title": "TESLA | داستان پانزدهم؛ ایلان ماسک؛ تسلا",
     "max_length": 38,
     "median_length": 27,
     "min_length": 19,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad5d009a2384a5721d5b6fc/media.mp3",
+        "at": "2026-10-19T08:08:41Z",
+        "t": "TESLA | داستان پانزدهم؛ ایلان ماسک؛ تسلا"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad46c210c6b30397b85ad21/media.mp3",
         "at": "2026-10-18T06:50:09Z",
@@ -21681,14 +21686,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6acb3a368f90a39dfc322167/media.mp3",
         "at": "2026-10-11T07:26:46Z",
         "t": "NESTLE | داستان هشتم؛ نستله"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6acb39eceea51f2aa351a1ba/media.mp3",
-        "at": "2026-10-11T07:25:31Z",
-        "t": "INSTAGRAM | داستان هفتم؛ اینستاگرام"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T08:08:41Z",
+        "link": "https://furbodm.com",
+        "title": "TESLA | داستان پانزدهم؛ ایلان ماسک؛ تسلا"
+      },
       {
         "at": "2026-10-18T06:50:09Z",
         "link": "https://furbodm.com",
@@ -21698,11 +21703,6 @@
         "at": "2026-10-17T09:01:49Z",
         "link": "https://furbodm.com",
         "title": "X.COM | داستان سیزدهم؛ ایلان ماسک؛ ایکس دات‌کام و پی‌پل"
-      },
-      {
-        "at": "2026-10-15T08:30:00Z",
-        "link": "https://furbodm.com/",
-        "title": "YAHOO | داستان دوازدهم؛ یاهو"
       }
     ],
     "recent_30d": [
@@ -21717,7 +21717,7 @@
       0,
       0,
       0,
-      14
+      15
     ],
     "status": "active"
   },
@@ -35813,8 +35813,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       0,
       0
