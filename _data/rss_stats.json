@@ -7654,21 +7654,26 @@
     "status": "active"
   },
   "dghdghh-airan": {
-    "avg_gap_days": 22.6,
+    "avg_gap_days": 22.4,
     "avg_length": 73,
-    "episodes": 169,
-    "eps_365": 16,
-    "eps_90": 3,
+    "episodes": 170,
+    "eps_365": 17,
+    "eps_90": 4,
     "first_at": "2021-01-09",
     "first_year": 1399,
-    "last": "1405/07/08",
-    "last_at": "2026-09-30T14:04:15Z",
-    "last_link": "https://www.spreaker.com/episode/qsmt-sd-wshst-whft-amryka-w-ayran-syast-mhar-dwjanbh-dwlt-jrj-bwsh-w-prwndh-hsth-ay--75461156",
-    "last_title": "قسمت صد‌وشصت‌وهفت - آمریکا و ایران: سیاست مهار دوجانبه (دولت جرج بوش و پرونده هسته‌ای)",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T15:14:01Z",
+    "last_link": "https://www.spreaker.com/episode/qsmt-sd-wshst-whsht-amryka-w-ayran-syast-mhar-dwjanbh-rftn-bh-shwray-amnyt--75858608",
+    "last_title": "قسمت صد‌وشصت‌وهشت - آمریکا و ایران: سیاست مهار دوجانبه (رفتن به شورای امنیت)",
     "max_length": 147,
     "median_length": 63,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75858608/episode.mp3",
+        "at": "2026-10-19T15:14:01Z",
+        "t": "قسمت صد‌وشصت‌وهشت - آمریکا و ایران: سیاست مهار دوجانبه (رفتن به شورای امنیت)"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75461156/episode.mp3",
         "at": "2026-09-30T14:04:15Z",
@@ -7703,14 +7708,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72891560/de744041_1fed_44aa_a93f_72c063249069.mp3",
         "at": "2026-06-04T14:20:00Z",
         "t": "قسمت صد‌وشصت‌ودو - راهبرد کلان امنیت ملی ایران – بخش چهارم"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72891557/audio.mp3",
-        "at": "2026-05-27T15:00:00Z",
-        "t": "قسمت صد‌وشصت‌ویک - راهبرد کلان امنیت ملی ایران – بخش سوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T15:14:01Z",
+        "link": "https://www.spreaker.com/episode/qsmt-sd-wshst-whsht-amryka-w-ayran-syast-mhar-dwjanbh-rftn-bh-shwray-amnyt--75858608",
+        "title": "قسمت صد‌وشصت‌وهشت - آمریکا و ایران: سیاست مهار دوجانبه (رفتن به شورای امنیت)"
+      },
       {
         "at": "2026-09-30T14:04:15Z",
         "link": "https://www.spreaker.com/episode/qsmt-sd-wshst-whft-amryka-w-ayran-syast-mhar-dwjanbh-dwlt-jrj-bwsh-w-prwndh-hsth-ay--75461156",
@@ -7720,11 +7725,6 @@
         "at": "2026-08-19T13:35:02Z",
         "link": "https://www.spreaker.com/episode/apyzwd-mhman-az-ayran-tak-ayran-w-amryka-payan-rahbrd-nh-jng-w-nh-slh-wly-nsr--74301262",
         "title": "اپیزود مهمان از ایران‌تاک | ایران و آمریکا: پایان راهبرد نه جنگ و نه صلح | ولی نصر"
-      },
-      {
-        "at": "2026-07-27T13:30:02Z",
-        "link": "https://www.spreaker.com/episode/qsmt-sd-wshst-wshsh-amryka-w-ayran-syast-mhar-dwjanbh-asrayyl-w-dwran-klyntwn--73177070",
-        "title": "قسمت صد‌وشصت‌وشش - آمریکا و ایران: سیاست مهار دوجانبه (اسرائیل و دوران کلینتون)"
       }
     ],
     "recent_30d": [
@@ -7739,7 +7739,7 @@
       3,
       2,
       0,
-      1
+      2
     ],
     "status": "active"
   },
