@@ -11857,10 +11857,10 @@
     "status": "inactive"
   },
   "hri-patr-ba-lomos": {
-    "avg_gap_days": 18.9,
+    "avg_gap_days": 18.3,
     "avg_length": 92,
     "episodes": 209,
-    "eps_365": 15,
+    "eps_365": 14,
     "eps_90": 0,
     "first_at": "2021-02-25",
     "first_year": 1399,
@@ -14483,8 +14483,8 @@
     ],
     "recent_30d": [
       41,
-      118,
-      90,
+      119,
+      89,
       64,
       4,
       0,
@@ -25435,19 +25435,24 @@
   "podcast-khrghh": {
     "avg_gap_days": 7.9,
     "avg_length": 35,
-    "episodes": 130,
-    "eps_365": 46,
-    "eps_90": 18,
+    "episodes": 131,
+    "eps_365": 47,
+    "eps_90": 19,
     "first_at": "2019-12-09",
     "first_year": 1398,
-    "last": "1405/07/20",
-    "last_at": "2026-10-12T14:30:00Z",
-    "last_link": "https://dotcast.org/p/7nmh50se/dzs5ismec5/",
-    "last_title": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وپنجم",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T14:50:00Z",
+    "last_link": "https://dotcast.org/p/7nmh50se/t6451cdfch/",
+    "last_title": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وششم",
     "max_length": 110,
     "median_length": 33,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/7nmh50se/t6451cdfch/2026-10-19-14-59-21.mp3",
+        "at": "2026-10-19T14:50:00Z",
+        "t": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وششم"
+      },
       {
         "a": "https://feed.dotcast.org/e/7nmh50se/dzs5ismec5/2026-10-12-14-42-21.mp3",
         "at": "2026-10-12T14:30:00Z",
@@ -25482,14 +25487,14 @@
         "a": "https://feed.dotcast.org/e/7nmh50se/olcu6k259w/2026-09-14-17-04-04.mp3",
         "at": "2026-09-14T16:50:00Z",
         "t": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌ام"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/7nmh50se/6q8zhwnul1/2026-09-06-17-01-44.mp3",
-        "at": "2026-09-06T16:50:00Z",
-        "t": "کتاب صوتی «عارف جان‌سوخته»/ قسمت نوزدهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T14:50:00Z",
+        "link": "https://dotcast.org/p/7nmh50se/t6451cdfch/",
+        "title": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وششم"
+      },
       {
         "at": "2026-10-12T14:30:00Z",
         "link": "https://dotcast.org/p/7nmh50se/dzs5ismec5/",
@@ -25499,11 +25504,6 @@
         "at": "2026-10-04T16:30:00Z",
         "link": "https://dotcast.org/p/7nmh50se/6r78f9gjq0/",
         "title": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وچهارم"
-      },
-      {
-        "at": "2026-09-29T16:40:00Z",
-        "link": "https://dotcast.org/p/7nmh50se/1h6su6pzn1/",
-        "title": "به‌بهانه‌ی بزرگداشت شمس‌ تبریزی و مولانا"
       }
     ],
     "recent_30d": [
@@ -25518,7 +25518,7 @@
       6,
       7,
       6,
-      5
+      6
     ],
     "status": "active"
   },
