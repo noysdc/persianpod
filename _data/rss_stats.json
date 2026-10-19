@@ -2427,8 +2427,8 @@
       2,
       3,
       3,
-      3,
-      3
+      4,
+      2
     ],
     "status": "active"
   },
@@ -11142,21 +11142,26 @@
     "status": "active"
   },
   "hmsfr": {
-    "avg_gap_days": 30.8,
+    "avg_gap_days": 30.0,
     "avg_length": 57,
-    "episodes": 69,
-    "eps_365": 12,
-    "eps_90": 4,
+    "episodes": 70,
+    "eps_365": 13,
+    "eps_90": 5,
     "first_at": "2023-06-27",
     "first_year": 1402,
-    "last": "1405/07/06",
-    "last_at": "2026-09-28T11:46:12Z",
-    "last_link": "https://shows.acast.com/hamsafar/episodes/6aba538558bacc11cbb671e8",
-    "last_title": "داستان زندگی دختری که سفر و نجوم رو هنرمندانه با هم ترکیب کرده",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T15:49:00Z",
+    "last_link": "https://shows.acast.com/hamsafar/episodes/6ad6214e1df7d2f5683dfcc3",
+    "last_title": "داستان زندگی دختری که یک مکالمه زندگیش رو دگرگون کرده",
     "max_length": 104,
-    "median_length": 55,
+    "median_length": 56,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67371180ba4404855a74dd08/e/6ad6214e1df7d2f5683dfcc3/media.mp3",
+        "at": "2026-10-19T15:49:00Z",
+        "t": "داستان زندگی دختری که یک مکالمه زندگیش رو دگرگون کرده"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67371180ba4404855a74dd08/e/6aba538558bacc11cbb671e8/media.mp3",
         "at": "2026-09-28T11:46:12Z",
@@ -11191,14 +11196,14 @@
         "a": "https://sphinx.acast.com/p/open/s/67371180ba4404855a74dd08/e/6a379a4de88c52614e98691f/media.mp3",
         "at": "2026-06-22T16:11:40Z",
         "t": "اپیزود ۷۷ | داستان زندگی دختری که بعد از هر شکست قوی‌تر بلند شد و ادامه داد"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67371180ba4404855a74dd08/e/693c1a232bda36b3534267c5/media.mp3",
-        "at": "2025-12-12T14:48:00Z",
-        "t": "فصل ۵ اپیزود ۴ | سَفــــرِ بی‌بازگشت (قسمت سوم و آخر‌) ( مهمان : ملیکا بُکایی)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-19T15:49:00Z",
+        "link": "https://shows.acast.com/hamsafar/episodes/6ad6214e1df7d2f5683dfcc3",
+        "title": "داستان زندگی دختری که یک مکالمه زندگیش رو دگرگون کرده"
+      },
       {
         "at": "2026-09-28T11:46:12Z",
         "link": "https://shows.acast.com/hamsafar/episodes/6aba538558bacc11cbb671e8",
@@ -11208,11 +11213,6 @@
         "at": "2026-09-07T15:49:00Z",
         "link": "https://shows.acast.com/hamsafar/episodes/6a9ea21d89f0f48b88dce0c4",
         "title": "اپیزود ۸۲ | داستان پسری که سفر، زندگیش رو به طور کلی دگرگون کرد"
-      },
-      {
-        "at": "2026-08-24T15:50:00Z",
-        "link": "https://shows.acast.com/hamsafar/episodes/6a8c66e32fe0b9d0780577f7",
-        "title": "اپیزود ۸۱ | تغییر مسیر از دنیای مهندسی تا دنیای پادکست و روانشناسی"
       }
     ],
     "recent_30d": [
@@ -11227,7 +11227,7 @@
       3,
       1,
       2,
-      1
+      2
     ],
     "status": "active"
   },
@@ -36984,7 +36984,7 @@
     "avg_length": 11,
     "episodes": 24,
     "eps_365": 24,
-    "eps_90": 13,
+    "eps_90": 12,
     "first_at": "2026-05-05",
     "first_year": 1405,
     "last": "1405/07/21",
@@ -37062,8 +37062,8 @@
       0,
       3,
       4,
-      4,
       5,
+      4,
       4,
       4
     ],
