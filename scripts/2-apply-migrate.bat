@@ -1,15 +1,15 @@
 @echo off
 chcp 65001 >nul
 set PYTHONUTF8=1
-cd /d "%~dp0"
+cd /d "%~dp0.."
 where python >nul 2>nul && (set PY=python) || (set PY=py)
 %PY% -c "import yaml" >nul 2>nul || %PY% -m pip install pyyaml
-echo اعمال انتقال دسته‌ها روی فایل‌های پادکست
+echo Apply category migration
 echo.
-set /p OK=مطمئنی؟ اول 1-preview را دیده‌ای؟ (y/n): 
+set /p OK=Preview done and OK? (y/n): 
 if /i not "%OK%"=="y" exit /b
-%PY% tools\migrate_categories.py --apply > "tools\last-report.txt" 2>&1
-type "tools\last-report.txt"
+%PY% scripts\migrate_categories.py --apply > "scripts\last-report.txt" 2>&1
+type "scripts\last-report.txt"
 echo.
-echo (گزارش کامل در tools\last-report.txt ذخیره شد؛ با یک ویرایشگر باز کنید تا فارسی درست نمایش داده شود)
+echo Full report: scripts\last-report.txt (open in an editor for correct Persian)
 pause

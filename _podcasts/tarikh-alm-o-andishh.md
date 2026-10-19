@@ -4,7 +4,7 @@ title_en: ""
 slug: "tarikh-alm-o-andishh"
 description: "گفتگوها و سخنرانی‌هایی دربارۀ تاریخ علم و فلسفه t.me/hisofscience t.me/hisofsci utihs.ut.ac.ir"
 category: "علم و فناوری"
-subcategories: ["تاریخ علم"]
+subcategories: ["تاریخ و زندگی‌نامه علم"]
 tags: ["علم و فناوری","تاریخ علم"]
 status: "فعال"
 language: "فارسی"

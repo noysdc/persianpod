@@ -3,8 +3,8 @@ title: "رادیو مامیران"
 title_en: ""
 slug: "radio-mamiran"
 description: "آموزه‌هایی از دنیای \"فرزند‌پروری\" و \"روانشناسی کودک\" www.instagram.com/mumiran.ir www.mumiran.ir"
-category: "سبک زندگی و سلامت"
-subcategories: ["خانواده و فرزندپروری"]
+category: "روانشناسی"
+subcategories: ["روابط، خانواده و فرزندپروری"]
 tags: ["سبک زندگی و سلامت","خانواده و فرزندپروری"]
 status: "متوقف شده"
 language: "فارسی"

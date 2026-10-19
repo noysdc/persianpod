@@ -4,7 +4,7 @@ title_en: ""
 slug: "ashgh-hnr-adbiat"
 description: "عشق هنر ادبیات"
 category: "ادبیات و کتاب"
-subcategories: ["نقد و تحلیل ادبی","ادبیات معاصر فارسی"]
+subcategories: ["نقد و تحلیل ادبی", "ادبیات فارسی"]
 tags: ["ادبیات و کتاب","نقد و تحلیل ادبی","ادبیات معاصر فارسی"]
 status: "متوقف شده"
 language: "فارسی"

@@ -4,7 +4,7 @@ title_en: ""
 slug: "khsro-o-shirin-bh-roait-astad-saad-baghri"
 description: "شرح منظومه‌های فارسیبخش نخست: خسرووشیریناستاد ساعد باقریهر پنجشنبه ساعت 16 (1403)#خانه_شاعران_معاصر_ایران"
 category: "ادبیات و کتاب"
-subcategories: ["شعر","ادبیات کلاسیک"]
+subcategories: ["شعر", "ادبیات فارسی"]
 tags: ["ادبیات و کتاب","شعر","ادبیات کلاسیک"]
 status: "فعال"
 language: "فارسی"

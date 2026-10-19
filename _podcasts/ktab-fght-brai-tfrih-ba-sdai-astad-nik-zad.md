@@ -4,7 +4,7 @@ title_en: ""
 slug: "ktab-fght-brai-tfrih-ba-sdai-astad-nik-zad"
 description: "این کتاب درباره ی زندگی لینوس توروالدز خالق لینوکس است و زندگینامه ی لینوس توروالدز را بیان میکند ."
 category: "ادبیات و کتاب"
-subcategories: ["کتاب صوتی","زندگی‌نامه"]
+subcategories: ["کتاب صوتی"]
 tags: ["ادبیات و کتاب","کتاب صوتی","زندگی‌نامه"]
 status: "متوقف شده"
 language: "فارسی"

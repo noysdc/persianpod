@@ -4,7 +4,7 @@ title_en: ""
 slug: "rozi-rozgari-sinma"
 description: "در روزی روزگاری سینما با توجه به موضوع هر قسمت گشت و گذاری در دنیای سینما می‌زنیم. https://zil.ink/rozegari_cinema"
 category: "هنر"
-subcategories: ["سینما و تحلیل فیلم"]
+subcategories: ["سینما و سریال"]
 tags: ["هنر","سینما و تحلیل فیلم"]
 status: "متوقف شده"
 language: "فارسی"

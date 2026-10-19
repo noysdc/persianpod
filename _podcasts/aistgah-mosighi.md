@@ -4,7 +4,7 @@ title_en: ""
 slug: "aistgah-mosighi"
 description: "ایستگاه موسیقی"
 category: "موسیقی"
-subcategories: ["راک و متال","تحلیل آلبوم و آهنگ"]
+subcategories: ["پاپ، راک و جاز", "تحلیل آلبوم و آهنگ"]
 tags: ["موسیقی","راک و متال","تحلیل آلبوم و آهنگ"]
 status: "فعال"
 language: "فارسی"

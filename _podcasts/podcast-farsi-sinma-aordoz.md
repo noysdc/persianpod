@@ -4,7 +4,7 @@ title_en: "Cinema Overdose"
 slug: "podcast-farsi-sinma-aordoz"
 description: "پادکست معرفی و نقد فیلم"
 category: "هنر"
-subcategories: ["سینما و تحلیل فیلم"]
+subcategories: ["سینما و سریال"]
 tags: ["هنر","سینما و تحلیل فیلم"]
 status: "فعال"
 language: "فارسی"

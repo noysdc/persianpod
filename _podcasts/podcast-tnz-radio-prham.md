@@ -4,7 +4,7 @@ title_en: "radio parham"
 slug: "podcast-tnz-radio-prham"
 description: "پرساژ طنز اجتماعیه و مسائلی که تو روز باهاشون سر و کار داریم رو با زبان طنز و آزمایش‌های مختلف بررسی می‌کنه. (مثلا اینکه چرا دروغ می‌گیم؟!)."
 category: "طنز و سرگرمی"
-subcategories: ["کمدی و طنز"]
+subcategories: ["کمدی، طنز و گپ"]
 tags: ["طنز و سرگرمی","کمدی و طنز"]
 status: "متوقف شده"
 language: "فارسی"

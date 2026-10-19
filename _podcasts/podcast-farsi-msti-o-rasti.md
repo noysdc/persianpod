@@ -4,7 +4,7 @@ title_en: "Masty o Rasty"
 slug: "podcast-farsi-msti-o-rasti"
 description: "Welcome to Masty o Rasty \"The Drunken Truth\" podcast. In this show I tell some crazy, funny and tragic stories of my life as a nomadic artist and cultural miscreant."
 category: "طنز و سرگرمی"
-subcategories: ["کمدی و طنز","گپ و گفت"]
+subcategories: ["کمدی، طنز و گپ"]
 tags: ["طنز و سرگرمی","کمدی و طنز","گپ و گفت"]
 status: "فعال"
 language: "فارسی"

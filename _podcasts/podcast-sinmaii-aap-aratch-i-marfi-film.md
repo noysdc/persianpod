@@ -4,7 +4,7 @@ title_en: ""
 slug: "podcast-sinmaii-aap-aratch-i-marfi-film"
 description: "معرفی فیلم هایی که از دیدنشون پشیمون نمیشین #movie#cinema#film #فیلم#سینما#معرفی فیلم"
 category: "هنر"
-subcategories: ["سینما و تحلیل فیلم"]
+subcategories: ["سینما و سریال"]
 tags: ["هنر","سینما و تحلیل فیلم"]
 status: "متوقف شده"
 language: "فارسی"

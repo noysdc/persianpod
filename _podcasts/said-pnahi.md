@@ -3,8 +3,8 @@ title: "سعید پناهی"
 title_en: ""
 slug: "said-pnahi"
 description: "ویژه نابینایان"
-category: "فیلم‌های صوتی"
-subcategories: []
+category: "هنر"
+subcategories: ["نمایش رادیویی و فیلم صوتی"]
 tags: ["فیلم‌های صوتی"]
 status: "متوقف شده"
 language: "فارسی"

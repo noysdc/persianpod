@@ -4,7 +4,7 @@ title_en: "Cafe Honar"
 slug: "podcast-kafh-hnr"
 description: "کافه هنر، یه مکان دنج و خلوته، که فارغ از مشغله‌های روزمره، هر هفته روزهای جمعه می تونیم دور هم بشینیم و یه گپ هنری بزنیم."
 category: "هنر"
-subcategories: ["سینما و تحلیل فیلم"]
+subcategories: ["سینما و سریال"]
 tags: ["هنر","سینما و تحلیل فیلم"]
 status: "متوقف شده"
 language: "فارسی"

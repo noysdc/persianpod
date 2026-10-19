@@ -4,7 +4,7 @@ title_en: "Radio Daastaan"
 slug: "radio-dastan"
 description: "فرصتی برای شنیدن قصه‌ها"
 category: "مستند و روایت"
-subcategories: ["قصه‌گویی","داستانی"]
+subcategories: ["روایت و قصه‌گویی"]
 tags: ["مستند و روایت","قصه‌گویی","داستانی"]
 status: "فعال"
 language: "فارسی"

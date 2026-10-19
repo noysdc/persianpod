@@ -4,7 +4,7 @@ title_en: "Shamme cinema"
 slug: "shm-sinma"
 description: "با ما همراه باشید توی این پادکست که فیلم های جدید و ترند سینمای جهان رو نقد تحلیل و بررسی می کنیم"
 category: "هنر"
-subcategories: ["سینما و تحلیل فیلم"]
+subcategories: ["سینما و سریال"]
 tags: ["هنر","سینما و تحلیل فیلم"]
 status: "فعال"
 language: "فارسی"

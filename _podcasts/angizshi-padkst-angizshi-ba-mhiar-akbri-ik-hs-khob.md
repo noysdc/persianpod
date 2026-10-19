@@ -3,8 +3,8 @@ title: "انگیزشی پادکست انگیزشی با مهیار اکبری ی
 title_en: ""
 slug: "angizshi-padkst-angizshi-ba-mhiar-akbri-ik-hs-khob"
 description: "دانلود انبوهی از پادکست های انگیزشی مهیار اکبری فایل های صوتی انگیزشی و ویس های انگیزشی از سایت و چنل تلگرام یک حس خوب. وبسایت حس با انبوهی از مطالب الهام بخش : website : yekhesekhob."
-category: "سبک زندگی و سلامت"
-subcategories: ["انگیزشی و بهره‌وری"]
+category: "آموزش و مهارت"
+subcategories: ["مهارت‌های فردی و بهره‌وری"]
 tags: ["سبک زندگی و سلامت","انگیزشی و بهره‌وری"]
 status: "فعال"
 language: "فارسی"

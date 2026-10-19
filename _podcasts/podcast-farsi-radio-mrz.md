@@ -4,7 +4,7 @@ title_en: "Radio Marz"
 slug: "podcast-farsi-radio-mrz"
 description: "روایت آدم‌ها از فاصله‌ای که با دیگران احساس می‌کنند"
 category: "مستند و روایت"
-subcategories: ["روایت‌محور","مستند صوتی"]
+subcategories: ["روایت و قصه‌گویی", "مستند صوتی"]
 tags: ["مستند و روایت","روایت‌محور","مستند صوتی"]
 status: "فعال"
 language: "فارسی"

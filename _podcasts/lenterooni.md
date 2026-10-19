@@ -4,7 +4,7 @@ title_en: "LenTerooni"
 slug: "lenterooni"
 description: "پادکستی برای خوانش و بررسی مطالب طنز، هزل و هجو در شعر و ادبیات فارسی. (۱۸+)"
 category: "طنز و سرگرمی"
-subcategories: ["کمدی و طنز", "شعر", "ادبیات", "هزل"]
+subcategories: ["کمدی، طنز و گپ"]
 tags: ["هزل", "هجو", "طنز"]
 status: "active"
 language: "فارسی"

@@ -4,7 +4,7 @@ title_en: ""
 slug: "hr-aanchh-ghbl-az-sks-baid-bdani-padkst-roanshnasi-ghoanin"
 description: "من آرین هستم، روان‌شناس و دانش اموخته دانشگاه میلانو بیکوکا. اینجا تا اخر مسیر باهاتم.............................."
 category: "روانشناسی"
-subcategories: ["روابط و خانواده"]
+subcategories: ["روابط، خانواده و فرزندپروری"]
 tags: ["روانشناسی","روابط و خانواده"]
 status: "فعال"
 language: "فارسی"

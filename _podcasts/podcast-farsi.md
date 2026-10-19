@@ -4,7 +4,7 @@ title_en: "Toska"
 slug: "podcast-farsi"
 description: "بگذار در خلسه ای پوشیده از برزخ که آغشته است به عشق و تنهایی حرف هایی بزنیم و سکوت های مطلق را بشکنیم"
 category: "مستند و روایت"
-subcategories: ["داستانی"]
+subcategories: ["روایت و قصه‌گویی"]
 tags: ["مستند و روایت","داستانی"]
 status: "فعال"
 language: "فارسی"

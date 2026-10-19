@@ -4,7 +4,7 @@ title_en: "braincast"
 slug: "podcast-alom-shnakhti-o-mghz"
 description: "پادکستی درباره‌ی مغز، شناخت و رفتار"
 category: "علم و فناوری"
-subcategories: ["علوم اعصاب و مغز"]
+subcategories: ["زیست‌شناسی و پزشکی"]
 tags: ["علم و فناوری","علوم اعصاب و مغز"]
 status: "فعال"
 language: "فارسی"

@@ -344,9 +344,11 @@ def main():
     stats = dict(previous)
     errors = {}
     jobs = []
+    all_slugs = set()
     for path in sorted(PODCASTS.glob("*.md")):
         fm = front_matter(path)
         feed = fm.get("rss")
+        all_slugs.add(str(fm.get("slug") or path.stem))
         # کلید همان slug داخل فایل است (که سایت و صفحه‌ی «تازه‌ها» با آن می‌خوانند)؛ اگر نبود، نام فایل
         slug = str(fm.get("slug") or path.stem)
         if not feed:
@@ -393,6 +395,16 @@ def main():
     err_text = json.dumps(errors, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
     if not ERRORS.exists() or ERRORS.read_text(encoding="utf-8") != err_text:
         ERRORS.write_text(err_text, encoding="utf-8")
+    # پادکستی که فایلش حذف یا slugش عوض شده، آمار و فایل قسمت‌هایش نباید برای همیشه بماند (در جست‌وجو و آمار تکراری می‌شد)
+    for gone in [k for k in stats if k not in all_slugs]:
+        del stats[gone]
+        print(f"pruned stats: {gone}")
+    keep = {slug.replace("/", "_") for slug in all_slugs}
+    if EPS_DIR.exists():
+        for fp in EPS_DIR.glob("*.json"):
+            if fp.stem not in keep:
+                fp.unlink()
+                print(f"pruned eps file: {fp.name}")
     write_totals(stats)
     OUT.parent.mkdir(exist_ok=True)
     new_text = json.dumps(stats, ensure_ascii=False, indent=2, sort_keys=True) + "\n"

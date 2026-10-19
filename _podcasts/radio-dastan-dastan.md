@@ -4,7 +4,7 @@ title_en: "Radio_DastaneDastan"
 slug: "radio-dastan-dastan"
 description: "صدای ماست اما حرف ،حرف شماست!"
 category: "مستند و روایت"
-subcategories: ["روایت‌محور","قصه‌گویی"]
+subcategories: ["روایت و قصه‌گویی"]
 tags: ["مستند و روایت","روایت‌محور","قصه‌گویی"]
 status: "فعال"
 language: "فارسی"

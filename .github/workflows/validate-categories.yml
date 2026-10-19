@@ -1,0 +1,25 @@
+name: 13 Validate categories [on push]
+
+# دسته و زیردسته‌ی هر پادکست باید دقیقاً در _data/categories.yml باشد؛ وگرنه در سایدبار دیده نمی‌شود.
+# پیش‌نویس‌های خودکار (published: false) بررسی نمی‌شوند.
+on:
+  push:
+    paths:
+      - "_podcasts/**"
+      - "_data/categories.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - run: python scripts/validate_categories.py

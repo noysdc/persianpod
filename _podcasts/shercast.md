@@ -4,7 +4,7 @@ title_en: "shercast"
 slug: "shar-kst"
 description: "پادکستی برای شنیدن اشعار خوب و درجه یک و معروفِ شعر و ادبیات فارسی"
 category: "ادبیات و کتاب"
-subcategories: ["شعر", "ادبیات کلاسیک"]
+subcategories: ["شعر", "ادبیات فارسی"]
 tags: ["شعر", "ادبیات کلاسیک", "ادبیات و کتاب"]
 status: "active"
 language: "فارسی"

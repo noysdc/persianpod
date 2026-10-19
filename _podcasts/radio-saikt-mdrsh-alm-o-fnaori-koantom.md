@@ -4,7 +4,7 @@ title_en: "Radio Psiket"
 slug: "radio-saikt-mdrsh-alm-o-fnaori-koantom"
 description: "کاری که ما در این مجموعه از پادکست رادیو سایکت در حال انجام آن هستیم، داستان‌گویی علمی البته به شیوه‌ای غیر مصور در مورد زندگی‌نامه‌ی افراد و دانشمندان برجسته‌ی مکانیک کوانتوم از تولد تا رشد این…"
 category: "علم و فناوری"
-subcategories: ["فیزیک"]
+subcategories: ["علوم پایه"]
 tags: ["علم و فناوری","فیزیک"]
 status: "فعال"
 language: "فارسی"

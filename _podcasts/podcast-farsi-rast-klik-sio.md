@@ -4,7 +4,7 @@ title_en: "Right Click Save"
 slug: "podcast-farsi-rast-klik-sio"
 description: "جی ام! من برنا مهاجرم، بیشتر وقتم رو تو اینترنت می‌گذرونم، هنر دیجیتال کالکت می‌کنم و اینجا در پادکست فارسی راست کلیک سیو که هر دو هفته یک‌بار منتشر میشه، درباره فرهنگ و هنر دیجیتال و دنیای NFTها…"
 category: "هنر"
-subcategories: ["گرافیک و طراحی"]
+subcategories: ["نقاشی و گرافیک"]
 tags: ["هنر","گرافیک و طراحی"]
 status: "فعال"
 language: "فارسی"

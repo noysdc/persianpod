@@ -4,7 +4,7 @@ title_en: "Literature with Dr. Karimi-Hakkak"
 slug: "literature-with-dr-karimi-hakkak-adbiat-ba-dktr-krimi-hkak"
 description: "در این مجموعه برنامه، شما سخنرانیها و مصاحبه‌های دکتر احمد کریمی حکاک، استاد ادبیات دانشگاههای واشنگتن و مریلند آمریکا را می‌شنوید."
 category: "ادبیات و کتاب"
-subcategories: ["نقد و تحلیل ادبی","ادبیات کلاسیک"]
+subcategories: ["نقد و تحلیل ادبی", "ادبیات فارسی"]
 tags: ["ادبیات و کتاب","نقد و تحلیل ادبی","ادبیات کلاسیک"]
 status: "متوقف شده"
 language: "فارسی"

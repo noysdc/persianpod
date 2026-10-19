@@ -4,7 +4,7 @@ title_en: "Sociology"
 slug: "sociology-jamah-shnasi"
 description: "امید است که این کانال برای علاقه مندان به جامعه شناسی و دانشجویان رشته های علوم اجتماعی مفید واقع شود همواره علاقه مند به دیدن نظرات و پیشنهادات شما هستیم راه ارتباطی: Telegram: @EhsanMK777"
 category: "جامعه و سیاست"
-subcategories: ["جامعه‌شناسی"]
+subcategories: ["جامعه‌شناسی و فرهنگ"]
 tags: ["جامعه و سیاست","جامعه‌شناسی"]
 status: "متوقف شده"
 language: "فارسی"

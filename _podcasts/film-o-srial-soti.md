@@ -4,7 +4,7 @@ title_en: ""
 slug: "film-o-srial-soti"
 description: "ویژه نابینایان"
 category: "هنر"
-subcategories: ["سینما و تحلیل فیلم"]
+subcategories: ["سینما و سریال"]
 tags: ["هنر","سینما و تحلیل فیلم"]
 status: "فعال"
 language: "فارسی"

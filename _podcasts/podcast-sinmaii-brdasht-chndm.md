@@ -4,7 +4,7 @@ title_en: "Take X Podcast"
 slug: "podcast-sinmaii-brdasht-chndm"
 description: "‫با چند عاشق فیلم در این پادکست به فهم و درک عمیق جهان سینما و فیلم‌سازی می‌پردازیم."
 category: "هنر"
-subcategories: ["سینما و تحلیل فیلم"]
+subcategories: ["سینما و سریال"]
 tags: ["هنر","سینما و تحلیل فیلم"]
 status: "فعال"
 language: "فارسی"

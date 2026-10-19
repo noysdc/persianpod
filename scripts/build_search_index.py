@@ -140,7 +140,25 @@ def write_if_changed(path, text, written):
 
 
 # ---------- ساخت ----------
-def build(eps_dir, out_dir, verbose=True):
+def active_slugs():
+    """slug پادکست‌هایی که الان در _podcasts هستند و منتشر می‌شوند (published: false نباشد).
+    قسمت‌های پادکستِ حذف‌شده یا پیش‌نویس نباید در جست‌وجو بیایند، وگرنه نتیجه به صفحه‌ای می‌رود که وجود ندارد."""
+    out = set()
+    for fp in (ROOT / "_podcasts").glob("*.md"):
+        try:
+            txt = fp.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        m = re.match(r"^---[ \t]*\r?\n(.*?)\r?\n---", txt, re.S)
+        fm = m.group(1) if m else ""
+        if re.search(r"(?m)^published:\s*false\s*$", fm):
+            continue
+        sm = re.search(r"(?m)^slug:\s*[\"']?([^\"'\n]+?)[\"']?\s*$", fm)
+        out.add((sm.group(1).strip() if sm else fp.stem).replace("/", "_"))
+    return out
+
+
+def build(eps_dir, out_dir, verbose=True, active=None):
     eps_dir, out_dir = Path(eps_dir), Path(out_dir)
     meta_path = out_dir / "meta.json"
     slugs = []
@@ -157,7 +175,7 @@ def build(eps_dir, out_dir, verbose=True):
         except (ValueError, OSError):
             print(f"skip {fp.name}: unreadable", file=sys.stderr)
             continue
-        if isinstance(data, list):
+        if isinstance(data, list) and (active is None or fp.stem in active):
             files[fp.stem] = data
     known = set(slugs)
     slugs += [s for s in sorted(files) if s not in known]          # slug جدید ته فهرست می‌نشیند
@@ -230,7 +248,7 @@ def main():
     ap.add_argument("--eps", default=str(ROOT / "assets" / "eps"))
     ap.add_argument("--out", default=str(ROOT / "assets" / "sidx"))
     a = ap.parse_args()
-    return build(a.eps, a.out)
+    return build(a.eps, a.out, active=active_slugs() if a.eps == str(ROOT / "assets" / "eps") else None)
 
 
 if __name__ == "__main__":

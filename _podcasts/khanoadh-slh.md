@@ -4,7 +4,7 @@ title_en: "Moje Solh"
 slug: "khanoadh-slh"
 description: "لطفا پیج اینستاگرام خانواده صلح رو هم فالو کنید. https://instagram.com/khanevade_solh?utm_medium=copy_link"
 category: "سبک زندگی و سلامت"
-subcategories: ["سلامت و پزشکی عمومی","روانشناسی"]
+subcategories: ["سلامت و پزشکی عمومی"]
 tags: ["سبک زندگی و سلامت","سلامت و پزشکی عمومی","روانشناسی"]
 status: "فعال"
 language: "فارسی"

@@ -4,7 +4,7 @@ title_en: "Cineport"
 slug: "cineport-drichh-sinma-padkst-sinmaii"
 description: "پادکست سینمایی سینه پاد. درباره دنیای مالی هنر و تجارت فیلم و سینما . کسب درآمد از هنر و حضور در بازارهای جهانی Hisubmit.ir"
 category: "هنر"
-subcategories: ["سینما و تحلیل فیلم"]
+subcategories: ["سینما و سریال"]
 tags: ["هنر","سینما و تحلیل فیلم"]
 status: "متوقف شده"
 language: "فارسی"

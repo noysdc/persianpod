@@ -4,7 +4,7 @@ title_en: ""
 slug: "shnbh-ha-ba-sinma"
 description: "در #شنبه_ها_با_سینما هر هفته با یک مهمان درباره یک فیلم مطرح سینمای جهان در لایوِ اینستاگرام حرف می‌زنیم و وویس اون گفتگو رو اینجا منتشر می‌کنم. من در اینستاگرام: https://www.instagram.com/hadi."
 category: "هنر"
-subcategories: ["سینما و تحلیل فیلم"]
+subcategories: ["سینما و سریال"]
 tags: ["هنر","سینما و تحلیل فیلم"]
 status: "متوقف شده"
 language: "فارسی"
