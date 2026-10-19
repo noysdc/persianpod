@@ -16,8 +16,8 @@ pi_id: 2476899
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # مصاحبه های دکتر حمید حسینی

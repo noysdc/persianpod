@@ -16,8 +16,8 @@ pi_id: 1725467
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # رادیو مامیران
