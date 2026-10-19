@@ -4165,6 +4165,96 @@
     ],
     "status": "inactive"
   },
+  "bandar-e-tehran": {
+    "avg_gap_days": 23.3,
+    "avg_length": 92,
+    "episodes": 183,
+    "eps_365": 16,
+    "eps_90": 7,
+    "first_at": "2018-08-17",
+    "first_year": 1397,
+    "last": "1405/07/24",
+    "last_at": "2026-10-16T15:30:00Z",
+    "last_link": "https://shows.acast.com/bandaretehran/episodes/183b",
+    "last_title": "صد و هشتاد و سوم | اکبر",
+    "max_length": 190,
+    "median_length": 82,
+    "min_length": 32,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6ad0d8a59fea6e0a641e2b0c/media.mp3",
+        "at": "2026-10-16T15:30:00Z",
+        "t": "صد و هشتاد و سوم | اکبر"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6ac8fb31f38f25c0f08e9e6f/media.mp3",
+        "at": "2026-10-09T15:30:00Z",
+        "t": "صد و هشتاد و دوم | دویدن بره‌ها در آینه"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6aaab3ff5d36baebf1025a66/media.mp3",
+        "at": "2026-09-18T15:30:00Z",
+        "t": "صد و هشتاد و یکم | آخرین مورفین در لنینگراد"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6a9ac93affe0e27491487e10/media.mp3",
+        "at": "2026-09-04T15:30:00Z",
+        "t": "صد و هشتادم | جشنی برای یک خداحافظی باشکوه"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6a87172bc71d02aaba4e0db6/media.mp3",
+        "at": "2026-08-21T15:30:00Z",
+        "t": "صد و هفتاد و نهم | در ستایش شما"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6a74a766237988582e56fb72/media.mp3",
+        "at": "2026-08-07T15:30:00Z",
+        "t": "صد و هفتاد و هشتم | نامه به عشق تریاکی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6a61fcc57d20badb28028408/media.mp3",
+        "at": "2026-07-24T15:30:00Z",
+        "t": "صد و هفتاد و هفتم | اجاره‌نشین‌ها"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6a5a290f62e50b14bd9adaf6/media.mp3",
+        "at": "2026-07-17T15:30:00Z",
+        "t": "صد و هفتاد و ششم | بهرام"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-16T15:30:00Z",
+        "link": "https://shows.acast.com/bandaretehran/episodes/183b",
+        "title": "صد و هشتاد و سوم | اکبر"
+      },
+      {
+        "at": "2026-10-09T15:30:00Z",
+        "link": "https://shows.acast.com/bandaretehran/episodes/182b",
+        "title": "صد و هشتاد و دوم | دویدن بره‌ها در آینه"
+      },
+      {
+        "at": "2026-09-18T15:30:00Z",
+        "link": "https://shows.acast.com/bandaretehran/episodes/181b",
+        "title": "صد و هشتاد و یکم | آخرین مورفین در لنینگراد"
+      }
+    ],
+    "recent_30d": [
+      2,
+      2,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      3,
+      2
+    ],
+    "status": "active"
+  },
   "bashgah-brnamh-noisi-mhnds-namti": {
     "avg_length": 14,
     "episodes": 15,
@@ -4699,6 +4789,95 @@
       0
     ],
     "status": "inactive"
+  },
+  "biocast": {
+    "avg_length": 102,
+    "episodes": 24,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2018-11-19",
+    "first_year": 1397,
+    "last": "1404/05/15",
+    "last_at": "2025-08-06T06:30:00Z",
+    "last_link": "https://shows.acast.com/biocastpodcast/episodes/689290963a582a36b3da53fa",
+    "last_title": "Nikola Tesla | نیکولا تسلا",
+    "max_length": 179,
+    "median_length": 98,
+    "min_length": 53,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65ae467999b9160017519480/e/689290963a582a36b3da53fa/media.mp3",
+        "at": "2025-08-06T06:30:00Z",
+        "t": "Nikola Tesla | نیکولا تسلا"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65ae467999b9160017519480/e/67d93c3f89c80e5ef06311a8/media.mp3",
+        "at": "2025-04-03T20:00:00Z",
+        "t": "Lance Armstrong | لانس آرمسترانگ | دوچرخه‌سوار"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65ae467999b9160017519480/e/67cf5d2cd64d9d8e8601096f/media.mp3",
+        "at": "2025-03-10T22:00:00Z",
+        "t": "Frida Kahlo | فریدا کالو"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65ae467999b9160017519480/e/6652c7cec8b8cc0012db23b8/media.mp3",
+        "at": "2024-05-26T06:30:28Z",
+        "t": "Mark Zuckerberg | مارک زاکربرگ | خالق فیسبوک"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65ae467999b9160017519480/e/65e34fd5cedd730017c2f452/media.mp3",
+        "at": "2024-03-03T06:30:46Z",
+        "t": "Woody Allen - Part 2 | وودی آلن - بخش ۲"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65ae467999b9160017519480/e/65d0240a01a1b60017105fc3/media.mp3",
+        "at": "2024-02-17T06:30:00Z",
+        "t": "Woody Allen - Part 1 | وودی آلن - بخش ۱"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65ae467999b9160017519480/e/65b290de8a9ba300167434c0/media.mp3",
+        "at": "2024-01-27T06:30:21Z",
+        "t": "Joseph Stalin - Part 3 | ژوزف استالین - بخش ۳"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65ae467999b9160017519480/e/biocastpodcast.podbean.com%2F3008649f-3c47-3432-bf06-5d392cb6b131/media.mp3",
+        "at": "2024-01-13T07:00:00Z",
+        "t": "Joseph Stalin - Part 2 | ژوزف استالین - بخش ۲"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-08-06T06:30:00Z",
+        "link": "https://shows.acast.com/biocastpodcast/episodes/689290963a582a36b3da53fa",
+        "title": "Nikola Tesla | نیکولا تسلا"
+      },
+      {
+        "at": "2025-04-03T20:00:00Z",
+        "link": "https://shows.acast.com/biocastpodcast/episodes/67d93c3f89c80e5ef06311a8",
+        "title": "Lance Armstrong | لانس آرمسترانگ | دوچرخه‌سوار"
+      },
+      {
+        "at": "2025-03-10T22:00:00Z",
+        "link": "https://shows.acast.com/biocastpodcast/episodes/67cf5d2cd64d9d8e8601096f",
+        "title": "Frida Kahlo | فریدا کالو"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
   },
   "boutigha": {
     "avg_gap_days": 10.3,
@@ -36476,6 +36655,96 @@
       0
     ],
     "status": "inactive"
+  },
+  "tarpand": {
+    "avg_gap_days": 155.0,
+    "avg_length": 41,
+    "episodes": 57,
+    "eps_365": 2,
+    "eps_90": 0,
+    "first_at": "2019-11-25",
+    "first_year": 1398,
+    "last": "1405/04/15",
+    "last_at": "2026-07-06T16:48:22Z",
+    "last_link": "https://shows.acast.com/tarpand/episodes/torba",
+    "last_title": "توربا، فرزند جدید ترپند",
+    "max_length": 74,
+    "median_length": 28,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624570beb78d1a00126618af/e/6a4adf475ef16cb804dba97f/media.mp3",
+        "at": "2026-07-06T16:48:22Z",
+        "t": "توربا، فرزند جدید ترپند"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624570beb78d1a00126618af/e/697f378256431a2c0f2ac4c1/media.mp3",
+        "at": "2026-02-01T11:22:37Z",
+        "t": "گزافه پنجم) در مسیر آزادی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624570beb78d1a00126618af/e/68cffd28f5e00f6ca4f853c1/media.mp3",
+        "at": "2025-09-21T14:09:12Z",
+        "t": "چهل و دوم) عذر بدتر از گناه، قسمت دوم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624570beb78d1a00126618af/e/6897b04dc952cf5978c3d9ae/media.mp3",
+        "at": "2025-08-09T20:32:11Z",
+        "t": "چهل و دوم) عذر بدتر از گناه، قسمت اول"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624570beb78d1a00126618af/e/686957f8a5162e9423ab41b8/media.mp3",
+        "at": "2025-07-05T17:29:16Z",
+        "t": "چهل و یکم) آستر رویه رو نگه می‌داره"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624570beb78d1a00126618af/e/685c93a17cd58072a5af2252/media.mp3",
+        "at": "2025-06-26T00:26:07Z",
+        "t": "گزافه چهارم) بولانماسا دورولماز"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624570beb78d1a00126618af/e/684a0e608b5654d4d1bcbbfe/media.mp3",
+        "at": "2025-06-11T23:16:47Z",
+        "t": "چهلم) نان و نمک، قسمت دوم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624570beb78d1a00126618af/e/6845f3b6b5ac093b0c814a16/media.mp3",
+        "at": "2025-06-08T21:23:26Z",
+        "t": "چهلم) نان و نمک، قسمت اول"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-07-06T16:48:22Z",
+        "link": "https://shows.acast.com/tarpand/episodes/torba",
+        "title": "توربا، فرزند جدید ترپند"
+      },
+      {
+        "at": "2026-02-01T11:22:37Z",
+        "link": "https://shows.acast.com/tarpand/episodes/s03g05",
+        "title": "گزافه پنجم) در مسیر آزادی"
+      },
+      {
+        "at": "2025-09-21T14:09:12Z",
+        "link": "https://shows.acast.com/tarpand/episodes/s03e42p02",
+        "title": "چهل و دوم) عذر بدتر از گناه، قسمت دوم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
   },
   "the-spies-circle": {
     "avg_gap_days": 5.4,
