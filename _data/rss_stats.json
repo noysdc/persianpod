@@ -15110,8 +15110,8 @@
       }
     ],
     "recent_30d": [
-      41,
-      123,
+      42,
+      122,
       81,
       64,
       4,
@@ -35262,11 +35262,11 @@
     "status": "inactive"
   },
   "shar-kst": {
-    "avg_gap_days": 22.7,
+    "avg_gap_days": 21.2,
     "avg_length": 7,
-    "episodes": 153,
-    "eps_365": 16,
-    "eps_90": 13,
+    "episodes": 154,
+    "eps_365": 17,
+    "eps_90": 14,
     "first_at": "2022-05-04",
     "first_year": 1401,
     "last": "1405/07/28",
@@ -35281,6 +35281,11 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ef5fd02e-01f9-4fe6-b5ab-0e066b81ee63/play.mp3",
         "at": "2026-10-20T16:31:00Z",
         "t": "صد و پنجاه و سه - شکر شکرین: امامی هروی"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/25c6b287-26ce-4021-bd8f-852c7e383015/play.mp3",
+        "at": "2026-10-20T16:30:00Z",
+        "t": "صد و پنجاه و دو - قی قی و قو قو: منسوب به مولانا"
       },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/9de0a827-a35d-4b21-a955-5d3c30b25318/play.mp3",
@@ -35311,11 +35316,6 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/c7219293-4a61-4ee7-a07d-745dceac04f8/play.mp3",
         "at": "2026-10-18T19:36:00Z",
         "t": "صد و چهل و شش - عشق و عشاق: عطایی"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/4a3b0861-4d92-4e73-a683-31176b9a1cb7/play.mp3",
-        "at": "2026-10-18T19:33:00Z",
-        "t": "صد و چهل و پنج - نیش و نوش: حسین خوارزمی"
       }
     ],
     "recent": [
@@ -35325,14 +35325,14 @@
         "title": "صد و پنجاه و سه - شکر شکرین: امامی هروی"
       },
       {
+        "at": "2026-10-20T16:30:00Z",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/25c6b287-26ce-4021-bd8f-852c7e383015/play.mp3",
+        "title": "صد و پنجاه و دو - قی قی و قو قو: منسوب به مولانا"
+      },
+      {
         "at": "2026-10-19T17:38:44Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/9de0a827-a35d-4b21-a955-5d3c30b25318/play.mp3",
         "title": "صد و پنجاه و یک - قدسیان آسمان: نعیمی حروفی استرآبادی"
-      },
-      {
-        "at": "2026-10-19T17:32:00Z",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/8050cf49-0861-4829-b46e-e394df63c82b/play.mp3",
-        "title": "صد و پنجاه - مرغ باغ ملکوت: همام تبریزی"
       }
     ],
     "recent_30d": [
@@ -35347,7 +35347,7 @@
       0,
       3,
       0,
-      10
+      11
     ],
     "status": "active"
   },
