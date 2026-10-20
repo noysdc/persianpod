@@ -34798,7 +34798,7 @@
       }
     ],
     "recent_30d": [
-      1,
+      0,
       1,
       0,
       0,
@@ -38062,17 +38062,22 @@
     "avg_length": 11,
     "episodes": 24,
     "eps_365": 24,
-    "eps_90": 12,
-    "first_at": "2026-05-05",
+    "eps_90": 13,
+    "first_at": "2026-05-12",
     "first_year": 1405,
-    "last": "1405/07/21",
-    "last_at": "2026-10-13T14:46:22Z",
-    "last_link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261013-%D9%88%D8%B2%DB%8C%D8%B1-%D8%A7%D9%85%D9%88%D8%B1-%D8%AE%D8%A7%D8%B1%D8%AC%DB%80-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D8%AC%D9%86%DA%AF-%D8%A7%DB%8C%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%AA%D8%AD%D8%AF-%D9%88-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%DB%8C%D9%84-%D8%A8%D8%A7-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%AC%D9%86%DA%AF-%D8%AA%D9%85%D8%AF%D9%86-%D9%87%D8%A7%D8%B3%D8%AA?PcNCvtcnHj",
-    "last_title": "وزیر امور خارجۀ آمریکا: جنگ ایالات متحده و اسرائیل با ایران، جنگ تمدن‌هاست",
+    "last": "1405/07/28",
+    "last_at": "2026-10-20T16:08:27Z",
+    "last_link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261020-%D8%A2%D8%B4%D9%88%D8%A8%DA%AF%D8%B1%D8%A7%D9%86-%D9%88-%D8%BA%D8%A7%D8%B1%D8%AA%DA%AF%D8%B1%D8%A7%D9%86-%D8%AF%D8%B1-%D8%AA%D8%B8%D8%A7%D9%87%D8%B1%D8%A7%D8%AA-%D8%AE%DB%8C%D8%A7%D8%A8%D8%A7%D9%86%DB%8C-%D9%81%D8%B1%D8%A7%D9%86%D8%B3%D9%87-%DA%A9%DB%8C%D8%B3%D8%AA%D9%86%D8%AF-%D9%88-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D9%85%DB%8C-%DA%AF%DB%8C%D8%B1%D9%86%D8%AF?PcNCvtcnHj",
+    "last_title": "آشوبگران و غارتگران در تظاهرات خیابانی فرانسه کیستند و از کجا دستور می‌گیرند؟",
     "max_length": 12,
     "median_length": 11,
     "min_length": 10,
     "play": [
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202610/Passe_du_present_20-10-26.mp3?guid=03ff0538-cc9b-11f1-931e-998c0e377b95&source=PcNCvtcnHj",
+        "at": "2026-10-20T16:08:27Z",
+        "t": "آشوبگران و غارتگران در تظاهرات خیابانی فرانسه کیستند و از کجا دستور می‌گیرند؟"
+      },
       {
         "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202610/PDP_-_2026_-_10_-_13.mp3?guid=676ce1fc-c70b-11f1-bc4a-e18b44d3159a&source=PcNCvtcnHj",
         "at": "2026-10-13T14:46:22Z",
@@ -38107,14 +38112,14 @@
         "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202609/PDP_-_2026_-_09_-_01.mp3?guid=5974418c-a607-11f1-bbb7-9f7b976d6cf0&source=PcNCvtcnHj",
         "at": "2026-09-01T13:31:25Z",
         "t": "چگونه سناریوی موساد برای سرنگونی جمهوری اسلامی نقش بر آب شد؟"
-      },
-      {
-        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202608/PDP_-_2026_-_08_-_25.mp3?guid=9fdb67fa-a09d-11f1-adae-b97a63a72a51&source=PcNCvtcnHj",
-        "at": "2026-08-25T16:36:02Z",
-        "t": "سوریه و لنبان، دو عرصۀ رویارویی ترکیه و اسرائیل"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-20T16:08:27Z",
+        "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261020-%D8%A2%D8%B4%D9%88%D8%A8%DA%AF%D8%B1%D8%A7%D9%86-%D9%88-%D8%BA%D8%A7%D8%B1%D8%AA%DA%AF%D8%B1%D8%A7%D9%86-%D8%AF%D8%B1-%D8%AA%D8%B8%D8%A7%D9%87%D8%B1%D8%A7%D8%AA-%D8%AE%DB%8C%D8%A7%D8%A8%D8%A7%D9%86%DB%8C-%D9%81%D8%B1%D8%A7%D9%86%D8%B3%D9%87-%DA%A9%DB%8C%D8%B3%D8%AA%D9%86%D8%AF-%D9%88-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D9%85%DB%8C-%DA%AF%DB%8C%D8%B1%D9%86%D8%AF?PcNCvtcnHj",
+        "title": "آشوبگران و غارتگران در تظاهرات خیابانی فرانسه کیستند و از کجا دستور می‌گیرند؟"
+      },
       {
         "at": "2026-10-13T14:46:22Z",
         "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261013-%D9%88%D8%B2%DB%8C%D8%B1-%D8%A7%D9%85%D9%88%D8%B1-%D8%AE%D8%A7%D8%B1%D8%AC%DB%80-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D8%AC%D9%86%DA%AF-%D8%A7%DB%8C%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%AA%D8%AD%D8%AF-%D9%88-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%DB%8C%D9%84-%D8%A8%D8%A7-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%AC%D9%86%DA%AF-%D8%AA%D9%85%D8%AF%D9%86-%D9%87%D8%A7%D8%B3%D8%AA?PcNCvtcnHj",
@@ -38124,11 +38129,6 @@
         "at": "2026-10-06T15:12:45Z",
         "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261006-%D9%86%D8%A7%DA%A9%D8%A7%D9%85%DB%8C-%D9%86%D8%AA%D8%A7%D9%86%DB%8C%D8%A7%D9%87%D9%88-%D8%AF%D8%B1-%D8%B1%D8%B3%DB%8C%D8%AF%D9%86-%D8%A8%D9%87-%D9%87%D8%AF%D9%81-%D9%87%D8%A7%DB%8C-%D8%B1%D8%A7%D9%87%D8%A8%D9%8F%D8%B1%D8%AF%DB%8C-%D8%A7%D8%B4-%D9%BE%D8%B3-%D8%A7%D8%B2-%D8%B1%D9%88%DB%8C%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%DB%B7-%D8%A7%DA%A9%D8%AA%D8%A8%D8%B1-%DB%B2%DB%B0%DB%B2%DB%B3?PcNCvtcnHj",
         "title": "ناکامی نتانیاهو در رسیدن به هدف‌های راهبُردی‌اش پس از رویدادهای ۷ اکتبر ۲۰۲۳"
-      },
-      {
-        "at": "2026-09-29T15:42:43Z",
-        "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20260929-%D8%A8%D8%A7%D8%B2%D9%86%DA%AF%D8%B1%DB%8C-%D8%AF%D8%B1-%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DA%86%DB%80-%D8%B1%D9%88%DB%8C%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%DB%B7-%D8%A7%DA%A9%D8%AA%D8%A8%D8%B1-%DB%B2%DB%B0%DB%B2%DB%B3-%D8%AF%D8%B1-%D9%BE%D8%B1%D8%AA%D9%88-%D8%AF%D8%A7%D8%AF%D9%87-%D9%87%D8%A7%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF?PcNCvtcnHj",
-        "title": "بازنگری در تاریخچۀ رویدادهای ۷ اکتبر ۲۰۲۳ در پرتو داده‌های جدید"
       }
     ],
     "recent_30d": [
@@ -38138,12 +38138,12 @@
       0,
       0,
       0,
-      3,
+      2,
       4,
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   },
