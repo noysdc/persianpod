@@ -24812,7 +24812,7 @@
     "avg_gap_days": 4.8,
     "avg_length": 129,
     "episodes": 825,
-    "eps_365": 75,
+    "eps_365": 74,
     "eps_90": 8,
     "first_at": "1970-01-01",
     "first_year": 1348,
@@ -39224,20 +39224,25 @@
   },
   "vidathereader": {
     "avg_gap_days": 7.6,
-    "avg_length": 38,
-    "episodes": 169,
-    "eps_365": 45,
-    "eps_90": 14,
+    "avg_length": 37,
+    "episodes": 170,
+    "eps_365": 46,
+    "eps_90": 15,
     "first_at": "2025-02-02",
     "first_year": 1403,
-    "last": "1405/07/23",
-    "last_at": "2026-10-15T09:39:47Z",
-    "last_link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/00be6fe3-94d9-4556-a9f2-115bd32bfbed/play.mp3",
-    "last_title": "رودین_بخش اول",
+    "last": "1405/07/28",
+    "last_at": "2026-10-20T20:36:00Z",
+    "last_link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/79c8e3f7-1cd9-46e8-9b06-0e9eb0a91a6c/play.mp3",
+    "last_title": "رودین _بخش دوم",
     "max_length": 78,
     "median_length": 28,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/79c8e3f7-1cd9-46e8-9b06-0e9eb0a91a6c/play.mp3",
+        "at": "2026-10-20T20:36:00Z",
+        "t": "رودین _بخش دوم"
+      },
       {
         "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/00be6fe3-94d9-4556-a9f2-115bd32bfbed/play.mp3",
         "at": "2026-10-15T09:39:47Z",
@@ -39272,14 +39277,14 @@
         "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/64410717-36cf-49dc-a61f-1ed60e14bc93/play.mp3",
         "at": "2026-09-19T02:30:48Z",
         "t": "مرگ ایوان ایلیچ_بخش ششم"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/de9805aa-f226-4a82-84aa-539612204f47/play.mp3",
-        "at": "2026-09-16T02:30:19Z",
-        "t": "مرگ ایوان ایلیچ_بخش پنجم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-20T20:36:00Z",
+        "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/79c8e3f7-1cd9-46e8-9b06-0e9eb0a91a6c/play.mp3",
+        "title": "رودین _بخش دوم"
+      },
       {
         "at": "2026-10-15T09:39:47Z",
         "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/00be6fe3-94d9-4556-a9f2-115bd32bfbed/play.mp3",
@@ -39289,11 +39294,6 @@
         "at": "2026-10-07T12:08:04Z",
         "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/461ef1ea-4322-46d8-9cc0-81acf8d6e1bd/play.mp3",
         "title": "فصل دوم_معرفی دو رمان از ایوان تورگنیف"
-      },
-      {
-        "at": "2026-10-03T02:30:46Z",
-        "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/67cb2657-a586-4e84-b4d5-ae47cf6f2ee8/play.mp3",
-        "title": "مرگ ایوان ایلیچ_ بخش پایانی"
       }
     ],
     "recent_30d": [
@@ -39308,7 +39308,7 @@
       5,
       2,
       6,
-      6
+      7
     ],
     "status": "active"
   },
