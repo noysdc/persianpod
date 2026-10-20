@@ -31067,21 +31067,26 @@
     "status": "active"
   },
   "radio-joloun-padkst-sfr-radio-jolon": {
-    "avg_gap_days": 55.5,
+    "avg_gap_days": 51.9,
     "avg_length": 65,
-    "episodes": 101,
-    "eps_365": 7,
-    "eps_90": 2,
+    "episodes": 102,
+    "eps_365": 8,
+    "eps_90": 3,
     "first_at": "2017-10-14",
     "first_year": 1396,
-    "last": "1405/06/29",
-    "last_at": "2026-09-20T09:47:52Z",
-    "last_link": "https://shows.acast.com/radiojoloun/episodes/e94",
-    "last_title": "E94 - تعامل با جامعه محلی | گفتگو با میثم امامی",
+    "last": "1405/07/28",
+    "last_at": "2026-10-20T08:08:42Z",
+    "last_link": "https://shows.acast.com/radiojoloun/episodes/mallorca",
+    "last_title": "E95 - مایورکا در سی و شش دقیقه",
     "max_length": 120,
     "median_length": 56,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624fd0fe3b43120012e43cb5/e/6ad7218910faf2bcfcbbd2f9/media.mp3",
+        "at": "2026-10-20T08:08:42Z",
+        "t": "E95 - مایورکا در سی و شش دقیقه"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/624fd0fe3b43120012e43cb5/e/6aafabc83544546cb8fc78a5/media.mp3",
         "at": "2026-09-20T09:47:52Z",
@@ -31116,14 +31121,14 @@
         "a": "https://sphinx.acast.com/p/open/s/624fd0fe3b43120012e43cb5/e/68f82d2bdbf5027e494835ae/media.mp3",
         "at": "2025-10-22T03:59:00Z",
         "t": "E88 - استانبول - میعادگاه فرهنگ‌ها - قسمت دوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/624fd0fe3b43120012e43cb5/e/68ed5b8ff30b8c4f91f15cfd/media.mp3",
-        "at": "2025-10-14T05:00:00Z",
-        "t": "E87 - استانبول - میعادگاه فرهنگ‌ها - قسمت اول"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-20T08:08:42Z",
+        "link": "https://shows.acast.com/radiojoloun/episodes/mallorca",
+        "title": "E95 - مایورکا در سی و شش دقیقه"
+      },
       {
         "at": "2026-09-20T09:47:52Z",
         "link": "https://shows.acast.com/radiojoloun/episodes/e94",
@@ -31133,11 +31138,6 @@
         "at": "2026-08-13T00:32:04Z",
         "link": "https://shows.acast.com/radiojoloun/episodes/e93",
         "title": "E93 - در جست و جوی خانه | گفتگو با نگین نصیری"
-      },
-      {
-        "at": "2025-12-20T00:44:41Z",
-        "link": "https://shows.acast.com/radiojoloun/episodes/e92",
-        "title": "E92 - سفرهای ماجراجویانه | گفتگو با مسلم ایران‌نژاد"
       }
     ],
     "recent_30d": [
@@ -31152,7 +31152,7 @@
       0,
       1,
       0,
-      1
+      2
     ],
     "status": "active"
   },
