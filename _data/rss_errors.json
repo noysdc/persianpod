@@ -55,10 +55,6 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://www.baranbax.com/category/sample-loop/kit/feed/"
   },
-  "lzt-dniai-ktab": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
-    "rss": "https://feed.podkadeh.cloud/podcastxml/lezate-donyaye-ketab.xml"
-  },
   "mamanst-mamanest": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://feeds.sounder.fm/16420/rss.xml"
@@ -70,10 +66,6 @@
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
-  },
-  "podcast-fotbal-lb": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
-    "rss": "https://feed.podkadeh.cloud/podcastxml/footballlab.xml"
   },
   "roait-ahd": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
