@@ -31,9 +31,28 @@
     if (s === scrolled) return;
     scrolled = s;
     b.classList.toggle("pp-scrolled", s);
+    if (!s) setMenu(false);
     if (!s) lockSoon();
   }
   window.addEventListener("scroll", onScroll, { passive: true });
+
+  /* ---- دکمه‌ی «همه‌ی صفحه‌ها»: ردیف کامل منو را بعد از اسکرول دوباره باز می‌کند (آموزش، ثبت پادکست، ...) ---- */
+  var mbtn = document.getElementById("t-menu"), openY = 0;
+  function setMenu(o) {
+    if (o === b.classList.contains("pp-menu-open")) return;
+    b.classList.toggle("pp-menu-open", o);
+    if (mbtn) { mbtn.setAttribute("aria-pressed", o ? "true" : "false"); mbtn.setAttribute("aria-expanded", o ? "true" : "false"); }
+    if (o) openY = window.pageYOffset || 0;
+  }
+  if (mbtn) mbtn.addEventListener("click", function (e) { e.stopPropagation(); setMenu(!b.classList.contains("pp-menu-open")); });
+  document.addEventListener("click", function (e) {
+    if (!b.classList.contains("pp-menu-open")) return;
+    if (e.target.closest && (e.target.closest(".pp-nav a") || !e.target.closest(".pp-glass"))) setMenu(false);
+  });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") setMenu(false); });
+  window.addEventListener("scroll", function () {
+    if (b.classList.contains("pp-menu-open") && Math.abs((window.pageYOffset || 0) - openY) > 80) setMenu(false);
+  }, { passive: true });
 
   function onResize() { scrolled = false; b.classList.remove("pp-scrolled"); lock(); onScroll(); }
   window.addEventListener("resize", onResize);
@@ -56,7 +75,7 @@
       if (p === here) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
     });
   }
-  document.addEventListener("pp:navigate", function () { syncCurrent(); scrolled = false; b.classList.remove("pp-scrolled"); lockSoon(); onScroll(); });
+  document.addEventListener("pp:navigate", function () { setMenu(false); syncCurrent(); scrolled = false; b.classList.remove("pp-scrolled"); lockSoon(); onScroll(); });
 
   /* ---- کیبورد موبایل ---- */
   var field = "input,textarea,select";

@@ -12,6 +12,7 @@
 .pp-nav a span{min-width:0;overflow:hidden;text-overflow:ellipsis}
 
 .pp-dock{display:none}
+.pp-tools .pp-menu-t{display:none}
 
 /* ---------- موبایل و تبلت (<1200) ---------- */
 @media (max-width:1199.98px){
@@ -53,6 +54,21 @@
   body.pp-scrolled .pd-apply{bottom:calc(var(--pp-dock-h) + var(--pp-dock-gap)*2 + 8px)}
   /* برای پلیر شناور: وقتی داک دیده می‌شود، پلیر درست روی آن می‌نشیند (pp-pill.css) */
   body.pp-scrolled{--pp-dock-lift:var(--pp-dock-h)}
+}
+
+/* دکمه‌ی «همه‌ی صفحه‌ها» در نوار ابزار: فقط بعد از اسکرول (با انیمیشن عرض) ظاهر می‌شود و ردیف کامل منو را دوباره باز می‌کند */
+@media (max-width:1199.98px){
+  :root .pp-tools .pp-menu-t{display:inline-flex;width:0;min-width:0;margin-inline-end:-3px;border-width:0;opacity:0;overflow:hidden;pointer-events:none;
+    transition:width .3s ease,opacity .2s ease,margin .3s ease,border-width 0s .3s}
+  :root body.pp-scrolled .pp-tools .pp-menu-t{width:34px;margin-inline-end:0;border-width:1px;opacity:1;pointer-events:auto;transition-delay:0s}
+  /* منوی باز: همان ردیف کامل، روی محتوا (ارتفاع هدر قفل است، پس محتوا نمی‌پرد) */
+  body.pp-scrolled.pp-menu-open .pp-glass .pp-nav{opacity:1;visibility:visible;pointer-events:auto;transition-delay:0s}
+}
+@media (max-width:799.98px){
+  body.pp-scrolled.pp-menu-open .pp-glass .pp-nav{max-height:140px;padding:4px 2px 2px;margin-top:0}
+}
+@media (min-width:800px) and (max-width:1199.98px){
+  body.pp-scrolled.pp-menu-open .pp-glass .pp-nav{display:flex}
 }
 
 /* ---------- ردیف منوی هدر در موبایل (<800): انیمیشن جمع‌شدن ---------- */
