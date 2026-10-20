@@ -2574,10 +2574,10 @@
     "status": "active"
   },
   "ali-sdart": {
-    "avg_gap_days": 5.0,
+    "avg_gap_days": 4.9,
     "avg_length": 32,
     "episodes": 445,
-    "eps_365": 74,
+    "eps_365": 73,
     "eps_90": 15,
     "first_at": "2020-06-15",
     "first_year": 1399,
@@ -11215,8 +11215,8 @@
       }
     ],
     "recent_30d": [
-      0,
       1,
+      0,
       0,
       0,
       1,
