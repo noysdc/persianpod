@@ -20690,8 +20690,8 @@
       5,
       4,
       5,
-      4,
-      1,
+      5,
+      0,
       4
     ],
     "status": "active"
@@ -34006,21 +34006,26 @@
     "status": "inactive"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.3,
-    "avg_length": 18,
-    "episodes": 477,
-    "eps_365": 86,
-    "eps_90": 17,
+    "avg_gap_days": 4.2,
+    "avg_length": 19,
+    "episodes": 478,
+    "eps_365": 87,
+    "eps_90": 18,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/07/27",
-    "last_at": "2026-10-19T10:50:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/mxax8pq76j/",
-    "last_title": "آزمون اعتماد به هوش مصنوعی؛ نگاه بازار به گزارش‌های درآمدی",
+    "last": "1405/07/28",
+    "last_at": "2026-10-20T12:10:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/z2oann4izq/",
+    "last_title": "چرا افت دلار و بازدهی اوراق، طلا را بالا نبرد؟",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/z2oann4izq/2026-10-20-13-53-17.mp3",
+        "at": "2026-10-20T12:10:00Z",
+        "t": "چرا افت دلار و بازدهی اوراق، طلا را بالا نبرد؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/mxax8pq76j/2026-10-19-11-04-43.mp3",
         "at": "2026-10-19T10:50:00Z",
@@ -34055,14 +34060,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/kh5t5u565u/2026-10-09-11-37-51.mp3",
         "at": "2026-10-09T11:10:00Z",
         "t": "عقب‌نشینی نفت و بازیابی طلا؛ آیا آرامش بازار دوام می‌آورد؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/t3ktr6fut8/2026-10-07-11-43-42.mp3",
-        "at": "2026-10-07T11:30:00Z",
-        "t": "رکوردهای سهام و آرامش شکننده اوراق؛ بازار در انتظار صورت‌جلسه فدرال رزرو"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-20T12:10:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/z2oann4izq/",
+        "title": "چرا افت دلار و بازدهی اوراق، طلا را بالا نبرد؟"
+      },
       {
         "at": "2026-10-19T10:50:00Z",
         "link": "https://dotcast.org/p/bozvcayr/mxax8pq76j/",
@@ -34072,11 +34077,6 @@
         "at": "2026-10-16T10:40:00Z",
         "link": "https://dotcast.org/p/bozvcayr/5dsop93uc4/",
         "title": "معمای بازار پس از تورم؛ چرا دلار عقب نشست و طلا رشد کرد؟"
-      },
-      {
-        "at": "2026-10-15T11:20:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/sl4kx80dje/",
-        "title": "تغییر روایت بازار؛ از شوک تورم تا نگرانی‌های هوش مصنوعی"
       }
     ],
     "recent_30d": [
@@ -34091,7 +34091,7 @@
       0,
       0,
       0,
-      17
+      18
     ],
     "status": "active"
   },
@@ -39393,8 +39393,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       1,
       1,
