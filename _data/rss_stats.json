@@ -22220,14 +22220,19 @@
     "eps_90": 15,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/07/27",
-    "last_at": "2026-10-19T08:08:41Z",
-    "last_link": "https://furbodm.com",
-    "last_title": "TESLA | داستان پانزدهم؛ ایلان ماسک؛ تسلا",
+    "last": "1405/07/28",
+    "last_at": "2026-10-20T08:32:44Z",
+    "last_link": "https://furbodm.com/",
+    "last_title": "LEGO | داستان دوم؛ لگو",
     "max_length": 38,
     "median_length": 27,
     "min_length": 19,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6acb18d78f34078889283beb/media.mp3",
+        "at": "2026-10-20T08:32:44Z",
+        "t": "LEGO | داستان دوم؛ لگو"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad5d009a2384a5721d5b6fc/media.mp3",
         "at": "2026-10-19T08:08:41Z",
@@ -22262,14 +22267,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6acc848368b7ce6ffbdfd68d/media.mp3",
         "at": "2026-10-12T06:56:03Z",
         "t": "TIKTOK | داستان نهم؛ تیک‌تاک"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6acb3a368f90a39dfc322167/media.mp3",
-        "at": "2026-10-11T07:26:46Z",
-        "t": "NESTLE | داستان هشتم؛ نستله"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-20T08:32:44Z",
+        "link": "https://furbodm.com/",
+        "title": "LEGO | داستان دوم؛ لگو"
+      },
       {
         "at": "2026-10-19T08:08:41Z",
         "link": "https://furbodm.com",
@@ -22279,11 +22284,6 @@
         "at": "2026-10-18T06:50:09Z",
         "link": "https://furbodm.com",
         "title": "SPACEX | قسمت چهاردهم؛ ایلان ماسک؛ اسپیس ایکس"
-      },
-      {
-        "at": "2026-10-17T09:01:49Z",
-        "link": "https://furbodm.com",
-        "title": "X.COM | داستان سیزدهم؛ ایلان ماسک؛ ایکس دات‌کام و پی‌پل"
       }
     ],
     "recent_30d": [
@@ -31054,8 +31054,8 @@
       5,
       4,
       2,
-      4,
-      3,
+      5,
+      2,
       3,
       2,
       4,
