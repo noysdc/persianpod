@@ -68,7 +68,7 @@
 <link rel="stylesheet" href="{{ '/assets/css/pp-adv.css' | relative_url }}?v={{ site.asset_v }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-glass.css' | relative_url }}?v={{ site.asset_v }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-liquid.css' | relative_url }}?v={{ site.asset_v }}">
-<link rel="stylesheet" href="{{ '/assets/css/pp-dock.css' | relative_url }}?v={{ site.asset_v }}">
+<link rel="stylesheet" href="{{ '/assets/css/pp-nav-icons.css' | relative_url }}?v={{ site.asset_v }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-pill.css' | relative_url }}?v={{ site.asset_v }}">
 </head>
 <body data-search="{{ '/search.json' | relative_url }}?v={{ site.time | date: '%s' }}">
@@ -94,9 +94,6 @@
       <input type="search" id="q" name="q" placeholder="جست‌وجوی پادکست" aria-label="جست‌وجوی پادکست" autocomplete="off" enterkeyhint="search">
     </form>
     <div class="pp-tools">
-      <button type="button" id="t-menu" class="pp-menu-t" aria-label="همه‌ی صفحه‌ها" aria-expanded="false" aria-pressed="false" title="همه‌ی صفحه‌ها">
-        <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-      </button>
       <button type="button" id="t-theme" aria-label="تغییر حالت شب و روز" title="حالت شب و روز">
         <svg class="i i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
         <svg class="i i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
@@ -169,10 +166,6 @@
   </div>
 </footer>
 
-{%- comment -%} داک پایین: فقط موبایل/تبلت (زیر ۱۲۰۰) و فقط بعد از اسکرول. بالای صفحه همه‌ی آیتم‌ها در nav هدر هستند؛ با اسکرول ردیف منو محو می‌شود و این داک نمایش داده می‌شود. {%- endcomment -%}
-<nav class="pp-dock" aria-label="منوی اصلی (پایین)">
-  {% include pp-nav-items.html limit=4 %}
-</nav>
 
 {% if site.goatcounter %}<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 {% endif %}<script src="{{ '/assets/js/pp-tools.js' | relative_url }}" defer></script>
@@ -181,7 +174,6 @@
 <script src="{{ '/assets/js/pp-vectors.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/pp-float-player.js' | relative_url }}?v={{ site.asset_v }}" defer></script>
 <script src="{{ '/assets/js/pp-nav.js' | relative_url }}?v={{ site.asset_v }}" defer></script>
-<script src="{{ '/assets/js/pp-dock.js' | relative_url }}?v={{ site.asset_v }}" defer></script>
 <script src="{{ '/assets/js/pp-cats.js' | relative_url }}?v={{ site.asset_v }}" defer></script>
 <script src="{{ '/assets/js/pp-search-core.js' | relative_url }}?v={{ site.asset_v }}" defer></script>
 <script src="{{ '/assets/js/pp-suggest.js' | relative_url }}?v={{ site.asset_v }}" defer></script>

@@ -1,0 +1,5 @@
+/* PersianPod: فقط آیکون کنار هر لینک منوی بالا (دسکتاپ، تبلت، موبایل). باید بعد از pp-liquid.css لود شود. */
+.pp-nav a{gap:.45em}
+.pp-nav .i{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.pp-nav a span{min-width:0;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:1199.98px){.pp-nav .i{width:1.05em;height:1.05em}}

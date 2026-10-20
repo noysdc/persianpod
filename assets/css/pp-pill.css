@@ -1,7 +1,7 @@
 /* PersianPod: پلیر شناور به سبک اپل (فقط پخش مستقیم قسمت‌ها؛ پلیر iframe همان پنجره‌ی قبلی است).
    دسکتاپ: قرص وسط‌چین پایین صفحه، کنترل‌ها سمت چپ، فهرست قسمت‌ها بالای قرص.
-   موبایل/تبلت: وقتی داک پایین دیده می‌شود، قرص درست روی آن می‌نشیند و با آن یک کپسول می‌شود (نه دو شناور جدا).
-   باید بعد از pp-dock.css و آخرین CSS لود شود. */
+   موبایل/تبلت: قرص هم‌عرض صفحه، پایین، با فاصله‌ی ناحیه‌ی امن.
+   باید بعد از pp-nav-icons.css و آخرین CSS لود شود. */
 
 .ppfp__pill{display:none}
 
@@ -85,18 +85,11 @@
 /* فضای خالی پایین صفحه تا پلیر روی محتوا یا فوتر نیفتد */
 body.ppfp-pill{padding-bottom:calc(104px + env(safe-area-inset-bottom,0px))}
 
-/* ---------- موبایل و تبلت: ثابتِ هم‌عرض داک؛ با داک یک کپسول می‌شود ---------- */
+/* ---------- موبایل و تبلت ---------- */
 @media (max-width:1199.98px){
-  :root .ppfp.ppfp--pill{
-    width:min(560px,calc(100vw - 24px));
-    bottom:calc(var(--pp-dock-gap,12px) + env(safe-area-inset-bottom,0px) + var(--pp-dock-lift,0px));
-    transition:bottom .3s cubic-bezier(.2,.8,.2,1);
-  }
+  :root .ppfp.ppfp--pill{width:min(560px,calc(100vw - 24px));bottom:calc(12px + env(safe-area-inset-bottom,0px))}
   .ppfp__volw{display:none}
-  body.ppfp-pill{padding-bottom:calc(var(--pp-dock-lift,0px) + 96px + env(safe-area-inset-bottom,0px))}
-  /* وقتی داک پایین هست، قرص و داک یک کپسول‌اند */
-  body.pp-scrolled.ppfp-pill .ppfp--pill .ppfp__pill{border-bottom-left-radius:0;border-bottom-right-radius:0;border-bottom-color:transparent}
-  body.pp-scrolled.ppfp-pill .pp-dock{border-top-left-radius:0;border-top-right-radius:0;border-top-color:transparent}
+  body.ppfp-pill{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}
 }
 @media (max-width:599.98px){
   .ppfp--pill .ppfp__pill{height:58px;gap:6px;padding:0 8px}

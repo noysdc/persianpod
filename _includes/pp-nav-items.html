@@ -1,7 +1,6 @@
-{%- comment -%} آیتم‌های منوی اصلی با آیکون. هم در nav بالا (دسکتاپ) و هم در داک پایین (موبایل/تبلت) استفاده می‌شود. با limit=4 فقط چهار آیتم اول رندر می‌شود (برای داک پایین). {%- endcomment -%}
+{%- comment -%} آیتم‌های منوی اصلی با آیکون. فقط آیکون‌ها به لینک‌های منوی بالا اضافه شده‌اند. {%- endcomment -%}
 {%- assign pp_items = "/|پادکست‌ها|grid,/listen/|گوش بده|phones,/new/|تازه‌ها|spark,/compare/|مقایسه|scale,/learn/|آموزش|cap,/form/|ثبت پادکست|plus,/about-us/|درباره‌ی ما|info" | split: "," -%}
 {%- for it in pp_items -%}
-{%- if include.limit and forloop.index > include.limit -%}{%- break -%}{%- endif -%}
 {%- assign f = it | split: "|" -%}
 <a href="{{ f[0] | relative_url }}"{% if page.url == f[0] %} aria-current="page"{% endif %}>
 {%- case f[2] -%}
