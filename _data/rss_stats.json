@@ -730,21 +730,26 @@
     "status": "active"
   },
   "aamozsh-zban-anglisi": {
-    "avg_gap_days": 38.2,
+    "avg_gap_days": 36.1,
     "avg_length": 16,
-    "episodes": 14,
-    "eps_365": 10,
-    "eps_90": 3,
+    "episodes": 15,
+    "eps_365": 11,
+    "eps_90": 4,
     "first_at": "2025-08-18",
     "first_year": 1404,
-    "last": "1405/07/11",
-    "last_at": "2026-10-03T18:42:30Z",
-    "last_link": "https://www.spreaker.com/episode/vocabulary-prograstinate--75552093",
-    "last_title": "Vocabulary: prograstinate",
+    "last": "1405/07/28",
+    "last_at": "2026-10-20T19:22:33Z",
+    "last_link": "https://www.spreaker.com/episode/fun-facts--75885086",
+    "last_title": "Fun facts",
     "max_length": 37,
-    "median_length": 16,
+    "median_length": 15,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75885086/episode.mp3",
+        "at": "2026-10-20T19:22:33Z",
+        "t": "Fun facts"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75552093/episode.mp3",
         "at": "2026-10-03T18:42:30Z",
@@ -779,14 +784,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72993102/audio.mp3",
         "at": "2025-12-21T06:42:07Z",
         "t": "The clockmaker's secret"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72993111/audio.mp3",
-        "at": "2025-11-23T05:41:23Z",
-        "t": "The bookstore girl دختر کتاب فروش"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-20T19:22:33Z",
+        "link": "https://www.spreaker.com/episode/fun-facts--75885086",
+        "title": "Fun facts"
+      },
       {
         "at": "2026-10-03T18:42:30Z",
         "link": "https://www.spreaker.com/episode/vocabulary-prograstinate--75552093",
@@ -796,11 +801,6 @@
         "at": "2026-10-01T15:22:19Z",
         "link": "https://www.spreaker.com/episode/never-give-up--75485040",
         "title": "Never give up"
-      },
-      {
-        "at": "2026-07-26T23:01:55Z",
-        "link": "https://www.spreaker.com/episode/cr7--74132624",
-        "title": "Cr7"
       }
     ],
     "recent_30d": [
@@ -815,7 +815,7 @@
       1,
       1,
       0,
-      2
+      3
     ],
     "status": "active"
   },
@@ -15117,8 +15117,8 @@
       4,
       0,
       0,
-      36,
-      64,
+      37,
+      63,
       60,
       71,
       60
@@ -31600,8 +31600,8 @@
       0,
       2,
       13,
-      8,
-      5
+      9,
+      4
     ],
     "status": "active"
   },
@@ -34995,19 +34995,24 @@
   "shar-ba-sdai-shaar": {
     "avg_gap_days": 2.5,
     "avg_length": 4,
-    "episodes": 344,
+    "episodes": 345,
     "eps_365": 146,
     "eps_90": 38,
     "first_at": "2025-01-23",
     "first_year": 1403,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T19:30:00Z",
-    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c1bb4589629f7d6b0c659",
-    "last_title": "مشفق کاشانی | نمی‌دانم کیم",
+    "last": "1405/07/28",
+    "last_at": "2026-10-20T19:30:00Z",
+    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c160b589629f7d6af756a",
+    "last_title": "نیما یوشیج | در فروبند",
     "max_length": 44,
     "median_length": 4,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c160b589629f7d6af756a/media.mp3",
+        "at": "2026-10-20T19:30:00Z",
+        "t": "نیما یوشیج | در فروبند"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c1bb4589629f7d6b0c659/media.mp3",
         "at": "2026-10-17T19:30:00Z",
@@ -35042,14 +35047,14 @@
         "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c11c57b9e972a6bf14665/media.mp3",
         "at": "2026-09-25T19:30:00Z",
         "t": "مومن قناعت | آبشار"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c18c4589629f7d6b01b90/media.mp3",
-        "at": "2026-09-21T19:30:00Z",
-        "t": "اردلان سرفراز | پرسش | با صدای شاعر"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-20T19:30:00Z",
+        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c160b589629f7d6af756a",
+        "title": "نیما یوشیج | در فروبند"
+      },
       {
         "at": "2026-10-17T19:30:00Z",
         "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1bb4589629f7d6b0c659",
@@ -35059,11 +35064,6 @@
         "at": "2026-10-14T19:30:00Z",
         "link": "https://shows.acast.com/sedaye-shaer/episodes/69183f0d1029ec1fed293d7a",
         "title": "یدالله رویایی | میوه‌های ملال"
-      },
-      {
-        "at": "2026-10-10T19:30:00Z",
-        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c19f667ed28baec0cf456",
-        "title": "عالمتاج قائم مقامی | پیام به ناآمدگان | صدای مریم کوشا"
       }
     ],
     "recent_30d": [
@@ -35075,10 +35075,10 @@
       2,
       2,
       15,
-      14,
+      15,
       17,
-      13,
-      8
+      12,
+      9
     ],
     "status": "active"
   },
@@ -37685,9 +37685,9 @@
       }
     ],
     "recent_30d": [
-      102,
-      110,
-      61,
+      101,
+      111,
+      60,
       88,
       20,
       0,
