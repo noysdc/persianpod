@@ -48,7 +48,7 @@
     "rss": "https://shenoto.net/service/api/feed/Eveningart"
   },
   "bazar-srmaih-bors": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
     "rss": "https://shenoto.net/feed/bazaresarmaye"
   },
   "dairh-dastan": {
@@ -88,7 +88,7 @@
     "rss": "https://feeds.redcircle.com/b035425e-5202-414a-b60a-9a0b811be721"
   },
   "hafz-khoani-bh-roait-ahmd-shamlo": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
     "rss": "https://shenoto.net/service/api/feed/HAfEZ-e-SHAMLU"
   },
   "hnr-jng": {
@@ -96,7 +96,7 @@
     "rss": "http://namlik.me/rss/318"
   },
   "hrf-hsab": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
     "rss": "https://shenoto.net/service/api/feed/harf-e-hesab"
   },
   "jnaii-khoani": {
@@ -107,17 +107,9 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
   },
-  "khsro-o-shirin-bh-roait-astad-saad-baghri": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
-    "rss": "https://shenoto.net/service/api/feed/khosroshirin"
-  },
   "kit-aahng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://www.baranbax.com/category/sample-loop/kit/feed/"
-  },
-  "kshor-shahnamh-khoansh-dastan-hai-shahnamh-frdosi": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
-    "rss": "https://shenoto.net/service/api/feed/KeshvareShahnam"
   },
   "mamanst-mamanest": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -131,25 +123,21 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://rss.audiyacreators.one/cmhwe10fp49z7yriygrn1"
   },
+  "noys": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://api.rabt.host/podcasts/f341ce22-a0e2-40fe-9ae1-d53b166c753b/rss"
+  },
   "o-ain-tnha-bazi-jhan-bod": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
+    "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
   "podcast-dats": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://rss.audiyacreators.one/cmirr88fetztwmiq39efe"
   },
   "podcast-farsi-fikshn-fiction-podcast": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j"
-  },
-  "podcast-fotbali-fotbal-trapi": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://rss.audiyacreators.one/cmirs0ugaxipywzzzcnts"
-  },
-  "radio-fol-astk": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://api.sokanacademy.com/api/podcast/feed"
   },
   "roait-ahd": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
