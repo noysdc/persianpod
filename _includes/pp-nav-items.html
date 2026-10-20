@@ -1,0 +1,16 @@
+{%- comment -%} آیتم‌های منوی اصلی با آیکون. هم در nav بالا (دسکتاپ) و هم در داک پایین (موبایل/تبلت) استفاده می‌شود. سه آیتم آخر کلاس opt دارند که در موبایل کوچک به «بیشتر» می‌روند. {%- endcomment -%}
+{%- assign pp_items = "/|پادکست‌ها|grid,/listen/|گوش بده|phones,/new/|تازه‌ها|spark,/compare/|مقایسه|scale,/learn/|آموزش|cap,/form/|ثبت پادکست|plus,/about-us/|درباره‌ی ما|info" | split: "," -%}
+{%- for it in pp_items -%}
+{%- assign f = it | split: "|" -%}
+<a href="{{ f[0] | relative_url }}"{% if forloop.index > 4 %} class="opt"{% endif %}{% if page.url == f[0] %} aria-current="page"{% endif %}>
+{%- case f[2] -%}
+{%- when "grid" -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="2"/><rect x="13.5" y="3.5" width="7" height="7" rx="2"/><rect x="3.5" y="13.5" width="7" height="7" rx="2"/><rect x="13.5" y="13.5" width="7" height="7" rx="2"/></svg>
+{%- when "phones" -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4.5" height="7" rx="2"/><rect x="16.5" y="14" width="4.5" height="7" rx="2"/></svg>
+{%- when "spark" -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/></svg>
+{%- when "scale" -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M7 20h10M5 7h14"/><path d="M5 7l-3 7a3.5 3.5 0 0 0 6 0zM19 7l-3 7a3.5 3.5 0 0 0 6 0z"/></svg>
+{%- when "cap" -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11.5V16c0 1.5 3 3 6 3s6-1.5 6-3v-4.5"/></svg>
+{%- when "plus" -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>
+{%- when "info" -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+{%- endcase -%}
+<span>{{ f[1] }}</span></a>
+{% endfor -%}
