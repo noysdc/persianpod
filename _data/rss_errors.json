@@ -19,18 +19,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
-  "aghtsad-bama": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/feed/BAMAECONOMY"
-  },
-  "ahangsaz": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://api.rabt.host/podcasts/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/rss"
-  },
-  "ahmd-shamlo": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/Ahmad-Shamlou"
-  },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
@@ -42,14 +30,6 @@
   "archgap-padkst-mamari-aark-gp": {
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
-  },
-  "asranh-hnr": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/Eveningart"
-  },
-  "bazar-srmaih-bors": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/feed/bazaresarmaye"
   },
   "dairh-dastan": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
@@ -71,53 +51,21 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
-  "frahosh": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/Frahosh"
-  },
-  "frdai-aghtsad": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4"
-  },
   "galri-film": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
-  },
-  "ghsh-hai-airani": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://feeds.redcircle.com/b035425e-5202-414a-b60a-9a0b811be721"
-  },
-  "hafz-khoani-bh-roait-ahmd-shamlo": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/HAfEZ-e-SHAMLU"
   },
   "hnr-jng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://namlik.me/rss/318"
   },
-  "hrf-hsab": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/harf-e-hesab"
-  },
-  "jnaii-khoani": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://rss.audiyacreators.one/cmi77c4nu0whxud41npkn"
-  },
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
   },
-  "khsro-o-shirin-bh-roait-astad-saad-baghri": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/khosroshirin"
-  },
   "kit-aahng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://www.baranbax.com/category/sample-loop/kit/feed/"
-  },
-  "kshor-shahnamh-khoansh-dastan-hai-shahnamh-frdosi": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/KeshvareShahnam"
   },
   "mamanst-mamanest": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -127,65 +75,17 @@
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
   },
-  "mimmpodcast": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://rss.audiyacreators.one/cmhwe10fp49z7yriygrn1"
-  },
-  "noys": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://api.rabt.host/podcasts/f341ce22-a0e2-40fe-9ae1-d53b166c753b/rss"
-  },
   "o-ain-tnha-bazi-jhan-bod": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
-  },
-  "podcast-dats": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://rss.audiyacreators.one/cmirr88fetztwmiq39efe"
-  },
-  "podcast-farsi-ansank": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/ensanak"
   },
   "podcast-farsi-fikshn-fiction-podcast": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j"
   },
-  "podcast-farsi-hai-chnl-hichannelpodcast-hai-chnl": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/HiChannelPodcast"
-  },
-  "podcast-farsi-kripto-namh": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/Crypto-nameh"
-  },
   "podcast-fotbali-fotbal-trapi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://rss.audiyacreators.one/cmirs0ugaxipywzzzcnts"
-  },
-  "podcast-hnr-o-mamari-oadi": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/Vadi-podcast"
-  },
-  "radio-aahng-sfr": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/travelmelody"
-  },
-  "radio-fol-astk": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://api.sokanacademy.com/api/podcast/feed"
-  },
-  "radio-roait": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/radiorevayat"
-  },
-  "radio-saikt-mdrsh-alm-o-fnaori-koantom": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/psiketcenter"
-  },
-  "radiomali99": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/RadioMali99"
   },
   "roait-ahd": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -199,10 +99,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/37c7e32c/podcast/rss"
   },
-  "roanshnasi-jamah": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/feed/dr-alishamisa"
-  },
   "roanshnasi-piman": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://paymanpsychology.com/feed/"
@@ -210,26 +106,6 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
-  },
-  "shar-kst": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://api.rabt.host/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/rss"
-  },
-  "shar-o-tranh-hai-amir-khoshaoi": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/AmirKhoshavi"
-  },
-  "spidh-ghsh-go": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/sepidehghesegoo"
-  },
-  "tarikh-bihghi-a-tarikh-beyhaqi": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/Tarikhbeyhaghi"
-  },
-  "tarikkhanh-tarikh": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://shenoto.net/service/api/feed/t-tarikh"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
