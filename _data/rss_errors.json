@@ -183,6 +183,10 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://shenoto.net/service/api/feed/psiketcenter"
   },
+  "radiomali99": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://shenoto.net/service/api/feed/RadioMali99"
+  },
   "roait-ahd": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://ajalallah.com/category/sokhanraniha/akharinsokhanrani/revayat-ahd/feed/"
@@ -210,6 +214,22 @@
   "shar-kst": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://api.rabt.host/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/rss"
+  },
+  "shar-o-tranh-hai-amir-khoshaoi": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://shenoto.net/service/api/feed/AmirKhoshavi"
+  },
+  "spidh-ghsh-go": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://shenoto.net/service/api/feed/sepidehghesegoo"
+  },
+  "tarikh-bihghi-a-tarikh-beyhaqi": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://shenoto.net/service/api/feed/Tarikhbeyhaghi"
+  },
+  "tarikkhanh-tarikh": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://shenoto.net/service/api/feed/t-tarikh"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
