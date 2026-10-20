@@ -19,6 +19,18 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
+  "aghtsad-bama": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://shenoto.net/feed/BAMAECONOMY"
+  },
+  "ahangsaz": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://api.rabt.host/podcasts/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/rss"
+  },
+  "ahmd-shamlo": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://shenoto.net/service/api/feed/Ahmad-Shamlou"
+  },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
@@ -31,9 +43,13 @@
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
-  "dairh-dastan": {
+  "asranh-hnr": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://rss.audiyacreators.one/cmismooeraoigjuiteua2"
+    "rss": "https://shenoto.net/service/api/feed/Eveningart"
+  },
+  "bazar-srmaih-bors": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://shenoto.net/feed/bazaresarmaye"
   },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
@@ -52,12 +68,16 @@
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
   "galri-film": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
   },
   "hnr-jng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://namlik.me/rss/318"
+  },
+  "jnaii-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://rss.audiyacreators.one/cmi77c4nu0whxud41npkn"
   },
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
@@ -79,6 +99,10 @@
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
+  "podcast-dats": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://rss.audiyacreators.one/cmirr88fetztwmiq39efe"
+  },
   "podcast-farsi-fikshn-fiction-podcast": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j"
@@ -86,6 +110,10 @@
   "podcast-fotbali-fotbal-trapi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://rss.audiyacreators.one/cmirs0ugaxipywzzzcnts"
+  },
+  "radio-fol-astk": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://api.sokanacademy.com/api/podcast/feed"
   },
   "roait-ahd": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -106,6 +134,10 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
+  },
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
