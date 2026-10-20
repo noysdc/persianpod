@@ -12834,8 +12834,8 @@
       0,
       0,
       0,
-      3,
-      3,
+      4,
+      2,
       2,
       3,
       1,
@@ -34006,10 +34006,10 @@
     "status": "inactive"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.2,
+    "avg_gap_days": 4.3,
     "avg_length": 18,
     "episodes": 477,
-    "eps_365": 87,
+    "eps_365": 86,
     "eps_90": 17,
     "first_at": "2024-09-02",
     "first_year": 1403,
