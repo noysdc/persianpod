@@ -26150,21 +26150,26 @@
     "status": "inactive"
   },
   "podcast-raokdh": {
-    "avg_gap_days": 28.9,
+    "avg_gap_days": 28.4,
     "avg_length": 67,
-    "episodes": 69,
-    "eps_365": 12,
-    "eps_90": 5,
+    "episodes": 70,
+    "eps_365": 13,
+    "eps_90": 6,
     "first_at": "2021-06-04",
     "first_year": 1400,
-    "last": "1405/07/05",
-    "last_at": "2026-09-27T02:10:00Z",
-    "last_link": "https://ravkadeh.ir/e/episode70",
-    "last_title": "مرد امیرخیز (1) | داستان زندگی ستارخان قراچه داغی",
+    "last": "1405/07/28",
+    "last_at": "2026-10-20T02:10:00Z",
+    "last_link": "https://ravkadeh.ir/e/episode71",
+    "last_title": "مرد امیرخیز (2) | داستان زندگی ستارخان قراچه داغی",
     "max_length": 96,
     "median_length": 60,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/6ad3957df38f25c0f0929fb1/media.mp3",
+        "at": "2026-10-20T02:10:00Z",
+        "t": "مرد امیرخیز (2) | داستان زندگی ستارخان قراچه داغی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/6ab5464cc974afb15416d183/media.mp3",
         "at": "2026-09-27T02:10:00Z",
@@ -26199,14 +26204,14 @@
         "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/6a229f8914e465e5ceae886a/media.mp3",
         "at": "2026-06-08T02:10:00Z",
         "t": "شیرازی بی نام | داستان زندگی سیمین دانشور"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/69985eaf166f176858c2a3c6/media.mp3",
-        "at": "2026-02-23T02:10:00Z",
-        "t": "ادیب سیاستمدار | داستان زندگی و فرجام محمدعلی فروغی (ذکاءالملک دوم)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-20T02:10:00Z",
+        "link": "https://ravkadeh.ir/e/episode71",
+        "title": "مرد امیرخیز (2) | داستان زندگی ستارخان قراچه داغی"
+      },
       {
         "at": "2026-09-27T02:10:00Z",
         "link": "https://ravkadeh.ir/e/episode70",
@@ -26216,11 +26221,6 @@
         "at": "2026-09-19T02:10:00Z",
         "link": "https://ravkadeh.ir/e/episode69",
         "title": "معمار تبعیدی | داستان زندگی و سرنوشت مسعود رجوی"
-      },
-      {
-        "at": "2026-09-09T02:10:00Z",
-        "link": "https://ravkadeh.ir/e/episode68",
-        "title": "باغبان رنج (2) | داستان زندگی میرزا جبار باغچه بان"
       }
     ],
     "recent_30d": [
@@ -26235,7 +26235,7 @@
       1,
       2,
       2,
-      1
+      2
     ],
     "status": "active"
   },
@@ -29450,8 +29450,8 @@
       0,
       0,
       1,
-      2,
-      4,
+      3,
+      3,
       2,
       3,
       2
