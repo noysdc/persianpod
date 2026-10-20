@@ -1,20 +1,20 @@
 ## گزارش تأیید و انتقال
 
-- منتقل‌شده از `_drafts/` به `_podcasts/`: **10**
-- ردشده (تکراری یا از قبل موجود): 1
-- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **66**
+- منتقل‌شده از `_drafts/` به `_podcasts/`: **12**
+- ردشده (تکراری یا از قبل موجود): 0
+- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **74**
 
 ### منتقل‌شده
-- `ghsh-gosh.md`
-- `hri-patr-ba-lomos.md`
-- `hzar-o-ik-shb.md`
-- `jadh-mofghit.md`
-- `podcast-ik-gftgoi-sadh.md`
-- `podcast-skhnrani.md`
-- `radio-mnahj.md`
-- `radio-shakh.md`
-- `spidh-ghsh-go.md`
-- `zndgi-shad-rozanh-ba-jois-mair.md`
+- `anglisi-iadbgirid.md`
+- `bi-bi-gl-ghsh-go.md`
+- `ghsh-hai-hzar-o-ik-shb.md`
+- `ghsh-hai-shb.md`
+- `ghsh-hai-shbanh-roz.md`
+- `hmrah-ba-syoalat-shma.md`
+- `hs-khob-zndgi.md`
+- `ktab-soti-raoi-jnait.md`
+- `podcast-aksir-marft.md`
+- `podcast-astorh-shnasi-thot.md`
+- `podcast-khoab-kodkanh.md`
+- `slh-dron.md`
 
-### ردشده
-- synapselingo-iadgiri-zban-aalmani.md — تکراری (عنوان و سازنده یکسان) با `synapselingo-iadgiri-zban-anglisi.md`؛ در _drafts ماند. اگر مطمئنی تکراری نیست FORCE=1

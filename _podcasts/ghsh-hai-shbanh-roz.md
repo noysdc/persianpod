@@ -18,8 +18,8 @@ pi_id: 1277516
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # قصه های شبانه روز
