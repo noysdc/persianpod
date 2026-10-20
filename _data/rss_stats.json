@@ -15038,19 +15038,24 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 20,
-    "episodes": 612,
-    "eps_365": 612,
-    "eps_90": 190,
+    "episodes": 613,
+    "eps_365": 613,
+    "eps_90": 191,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/07/28",
-    "last_at": "2026-10-20T16:34:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6ad50e083243d006bbb4580f",
-    "last_title": "سالگرد - قتل های زنجیره ای - بخش ششم",
+    "last_at": "2026-10-20T17:44:06Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6ad7a86512d1ac4b5ebe372e",
+    "last_title": "سالگرد - قتل های زنجیره ای - بخش هفتم",
     "max_length": 44,
     "median_length": 16,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ad7a86512d1ac4b5ebe372e/media.mp3",
+        "at": "2026-10-20T17:44:06Z",
+        "t": "سالگرد - قتل های زنجیره ای - بخش هفتم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ad50e083243d006bbb4580f/media.mp3",
         "at": "2026-10-20T16:34:00Z",
@@ -15085,14 +15090,14 @@
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ad3984737f0bd18cca32250/media.mp3",
         "at": "2026-10-17T16:31:00Z",
         "t": "شروع کتاب جدید جنایی معمایی - 2026"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ad25155aa02353b87435d46/media.mp3",
-        "at": "2026-10-16T17:33:00Z",
-        "t": "نگاهی به خود -بخش پایانی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-20T17:44:06Z",
+        "link": "https://shows.acast.com/statusmarried/episodes/6ad7a86512d1ac4b5ebe372e",
+        "title": "سالگرد - قتل های زنجیره ای - بخش هفتم"
+      },
       {
         "at": "2026-10-20T16:34:00Z",
         "link": "https://shows.acast.com/statusmarried/episodes/6ad50e083243d006bbb4580f",
@@ -15102,11 +15107,6 @@
         "at": "2026-10-19T18:20:00Z",
         "link": "https://shows.acast.com/statusmarried/episodes/6ad50de63243d006bbb44e9d",
         "title": "سالگرد - قتل های زنجیره ای - بخش پنجم"
-      },
-      {
-        "at": "2026-10-19T17:56:00Z",
-        "link": "https://shows.acast.com/statusmarried/episodes/6ad50bb70c6b30397bbd7ae8",
-        "title": "سالگرد - قتل زنجیره ای - بخش چهارم"
       }
     ],
     "recent_30d": [
@@ -15121,7 +15121,7 @@
       64,
       62,
       69,
-      59
+      60
     ],
     "status": "active"
   },
