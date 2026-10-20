@@ -1000,24 +1000,19 @@
   "aamozsh-zban-ba-lingano-padkst": {
     "avg_gap_days": 2.9,
     "avg_length": 7,
-    "episodes": 159,
-    "eps_365": 127,
-    "eps_90": 58,
+    "episodes": 158,
+    "eps_365": 126,
+    "eps_90": 57,
     "first_at": "2025-08-26",
     "first_year": 1404,
-    "last": "1405/07/28",
-    "last_at": "2026-10-20T06:30:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/88---Give-a-ride-e3qnqbf",
-    "last_title": "قسمت 88 - Give a ride",
+    "last": "1405/07/27",
+    "last_at": "2026-10-19T08:58:20Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/87---I-didnt-mean-to-e3qnpea",
+    "last_title": "قسمت 87 - I didn't mean to!",
     "max_length": 17,
     "median_length": 4,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/108b105e0/podcast/play/127706927/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-19%2F7bdc879e-c637-bffa-9b38-511434f68865.mp3",
-        "at": "2026-10-20T06:30:00Z",
-        "t": "قسمت 88 - Give a ride"
-      },
       {
         "a": "https://anchor.fm/s/108b105e0/podcast/play/127705994/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-19%2F3fc5f857-2c0d-0b36-8fa7-e188faeb04eb.mp3",
         "at": "2026-10-19T08:58:20Z",
@@ -1052,14 +1047,14 @@
         "a": "https://anchor.fm/s/108b105e0/podcast/play/127281025/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-11%2F51edd6f6-491c-b203-2d1e-4469ecf8a2d5.mp3",
         "at": "2026-10-11T07:45:37Z",
         "t": "قسمت 81 - انگلیسی تو مهمونی ۱"
+      },
+      {
+        "a": "https://anchor.fm/s/108b105e0/podcast/play/126546372/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-30%2Fcf7c5c65-2aa3-f9eb-f9ce-7a215a59c2af.mp3",
+        "at": "2026-10-05T06:30:00Z",
+        "t": "قسمت 80 - Interested"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-20T06:30:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/88---Give-a-ride-e3qnqbf",
-        "title": "قسمت 88 - Give a ride"
-      },
       {
         "at": "2026-10-19T08:58:20Z",
         "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/87---I-didnt-mean-to-e3qnpea",
@@ -1069,6 +1064,11 @@
         "at": "2026-10-18T06:30:00Z",
         "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/86---e3qduqo",
         "title": "قسمت 86 - انگلیسی تو مهمونی اخر"
+      },
+      {
+        "at": "2026-10-17T06:30:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/85---e3qduhn",
+        "title": "قسمت 85 - انگلیسی تو مهمونی ۵"
       }
     ],
     "recent_30d": [
@@ -1083,7 +1083,7 @@
       17,
       20,
       20,
-      18
+      17
     ],
     "status": "active"
   },
@@ -30889,20 +30889,25 @@
   },
   "radio-shakh": {
     "avg_gap_days": 2.8,
-    "avg_length": 63,
-    "episodes": 217,
-    "eps_365": 129,
-    "eps_90": 35,
+    "avg_length": 62,
+    "episodes": 218,
+    "eps_365": 130,
+    "eps_90": 36,
     "first_at": "2024-10-31",
     "first_year": 1403,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T05:35:26Z",
+    "last": "1405/07/28",
+    "last_at": "2026-10-20T06:50:10Z",
     "last_link": "https://www.yourvoice.fm",
-    "last_title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۱ | آیفون تازه جنوب، صید روز",
+    "last_title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۲ | ماجراهای خانواده‌ی بمب‌ها",
     "max_length": 198,
     "median_length": 63,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6721c1d9fab47fdf26442707/e/6ad6fa18d068f31796e51940/media.mp3",
+        "at": "2026-10-20T06:50:10Z",
+        "t": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۲ | ماجراهای خانواده‌ی بمب‌ها"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6721c1d9fab47fdf26442707/e/6ad2ffa8e039ee8e85192b8d/media.mp3",
         "at": "2026-10-17T05:35:26Z",
@@ -30937,14 +30942,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6721c1d9fab47fdf26442707/e/6abdfa64fa77186ceb369f45/media.mp3",
         "at": "2026-10-01T06:26:02Z",
         "t": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۱۵ | روز جهانی پادکست، صمیمی‌ترین رسانه‌ی دنیا"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6721c1d9fab47fdf26442707/e/6abb44e56ffb28f8d69f42f8/media.mp3",
-        "at": "2026-09-29T05:02:03Z",
-        "t": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۱۴ | از قبض روح عزرائیلی تا مهمان‌های فضایی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-20T06:50:10Z",
+        "link": "https://www.yourvoice.fm",
+        "title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۲ | ماجراهای خانواده‌ی بمب‌ها"
+      },
       {
         "at": "2026-10-17T05:35:26Z",
         "link": "https://www.yourvoice.fm",
@@ -30954,11 +30959,6 @@
         "at": "2026-10-15T05:23:21Z",
         "link": "https://www.yourvoice.fm",
         "title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۰ | از خلیجِ خوک‌ها تا دیسکوی عرازشه"
-      },
-      {
-        "at": "2026-10-13T05:56:26Z",
-        "link": "https://www.yourvoice.fm",
-        "title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۱۹ | شبح‌بازیِ سیاسی، شیطنتِ هکتاری"
       }
     ],
     "recent_30d": [
@@ -30973,7 +30973,7 @@
       12,
       13,
       11,
-      11
+      12
     ],
     "status": "active"
   },
