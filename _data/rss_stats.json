@@ -18208,8 +18208,8 @@
       0,
       0,
       0,
-      0,
-      4,
+      1,
+      3,
       2,
       1,
       1
@@ -22221,13 +22221,18 @@
     "first_at": "2026-10-10",
     "first_year": 1405,
     "last": "1405/07/28",
-    "last_at": "2026-10-20T09:16:04Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6ad7315581c44c34e678256b",
-    "last_title": "NESTLE | داستان هشتم؛ نستله",
+    "last_at": "2026-10-20T09:19:08Z",
+    "last_link": "https://furbodm.com/",
+    "last_title": "TIKTOK | داستان نهم؛ تیک‌تاک",
     "max_length": 38,
     "median_length": 27,
     "min_length": 19,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad7320c6a9e2a41c3d68c37/media.mp3",
+        "at": "2026-10-20T09:19:08Z",
+        "t": "TIKTOK | داستان نهم؛ تیک‌تاک"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad7315581c44c34e678256b/media.mp3",
         "at": "2026-10-20T09:16:04Z",
@@ -22262,14 +22267,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad72bf46a9e2a41c3d4ad5f/media.mp3",
         "at": "2026-10-20T08:53:08Z",
         "t": "LEGO | داستان دوم؛ لگو"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad5d009a2384a5721d5b6fc/media.mp3",
-        "at": "2026-10-19T08:08:41Z",
-        "t": "TESLA | داستان پانزدهم؛ ایلان ماسک؛ تسلا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-20T09:19:08Z",
+        "link": "https://furbodm.com/",
+        "title": "TIKTOK | داستان نهم؛ تیک‌تاک"
+      },
       {
         "at": "2026-10-20T09:16:04Z",
         "link": "https://shows.acast.com/business-stories-podcast/episodes/6ad7315581c44c34e678256b",
@@ -22279,11 +22284,6 @@
         "at": "2026-10-20T09:11:01Z",
         "link": "https://furbodm.com/",
         "title": "INSTAGRAM | داستان هفتم؛ اینستاگرام"
-      },
-      {
-        "at": "2026-10-20T09:07:24Z",
-        "link": "https://furbodm.com/",
-        "title": "RED BULL | داستان ششم؛ ردبول"
       }
     ],
     "recent_30d": [
@@ -25558,7 +25558,7 @@
       {
         "a": "https://s3.castbox.fm/73/9a/d5/3e363648e7b66b6b886dc7b7be.mp3",
         "at": "2026-10-09T07:22:44Z",
-        "t": "سه اپیزود ویژه ی(بونس)پادکست کی آس"
+        "t": "بونس دوم و سوم \"ب\" و \"پ\" (لینک در توضیحات)"
       },
       {
         "a": "https://s3.castbox.fm/37/a4/5e/4d4a7f451187c00e93f623dd30.mp3",
