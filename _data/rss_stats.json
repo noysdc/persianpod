@@ -17321,19 +17321,24 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 974,
-    "eps_365": 329,
-    "eps_90": 81,
+    "episodes": 975,
+    "eps_365": 330,
+    "eps_90": 82,
     "first_at": "2023-11-21",
     "first_year": 1402,
-    "last": "1405/07/27",
-    "last_at": "2026-10-19T02:32:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/pressure-to-ratify-free-trade-agreement-with-europe-government-rejects-gst-hike/l9uzosgf8",
-    "last_title": "فشار برای تصویب توافق تجارت آزاد با اروپا؛ دولت افزایش GST را رد کرد",
+    "last": "1405/07/28",
+    "last_at": "2026-10-20T01:17:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/helen-haynes-alleged-attacker-identified-concerns-about-rising-political-violence-in-australia/pb7gh710n",
+    "last_title": "شناسایی مهاجم ادعایی هلن هینز؛ نگرانی‌ها درباره افزایش خشونت سیاسی در استرالیا",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261020121816_159501-persian-201026-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-56dc-d0ee-a1ef-f7fef0890000&dur_cat=2",
+        "at": "2026-10-20T01:17:00Z",
+        "t": "شناسایی مهاجم ادعایی هلن هینز؛ نگرانی‌ها درباره افزایش خشونت سیاسی در استرالیا"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261019133220_664270-persian-191026-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-51fb-db26-a7b9-79ffb8b30000&dur_cat=2",
         "at": "2026-10-19T02:32:00Z",
@@ -17368,14 +17373,14 @@
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261012130949_627763-persian-c1d055d7-3880-405a-92af-68b0d63a29cd.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-2dbd-d830-abb9-fffff70c0000&dur_cat=2",
         "at": "2026-10-12T02:14:00Z",
         "t": "جویس به جمع مخالفان پخش زنده اعدام در آمریکا پیوست"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261012121216_817274-persian-c1d055d7-3880-405a-92af-68b0d63a29cd.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-2da5-defc-afaf-bff7e2360000&dur_cat=2",
-        "at": "2026-10-12T01:12:00Z",
-        "t": "پسر ۱۳ ساله به قتل با چاقو در مونت درویت سیدنی متهم شد"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-20T01:17:00Z",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/helen-haynes-alleged-attacker-identified-concerns-about-rising-political-violence-in-australia/pb7gh710n",
+        "title": "شناسایی مهاجم ادعایی هلن هینز؛ نگرانی‌ها درباره افزایش خشونت سیاسی در استرالیا"
+      },
       {
         "at": "2026-10-19T02:32:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/pressure-to-ratify-free-trade-agreement-with-europe-government-rejects-gst-hike/l9uzosgf8",
@@ -17385,11 +17390,6 @@
         "at": "2026-10-16T00:26:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/australian-citizen-wrongly-held-in-immigration-detention-for-nearly-three-years/ab70fd73j",
         "title": "شهروند استرالیایی را نزدیک به سه سال اشتباهی در بازداشتگاه مهاجرتی نگه داشتند"
-      },
-      {
-        "at": "2026-10-15T02:59:00Z",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/australia-and-jordan-sign-a-joint-statement-on-security/aaq8rkyup",
-        "title": "نرخ بیکاری استرالیا به ۴.۷ درصد رسید؛ ۳۹ هزار شغل در ماه سپتامبر از دست رفت"
       }
     ],
     "recent_30d": [
@@ -17404,7 +17404,7 @@
       26,
       28,
       25,
-      28
+      29
     ],
     "status": "active"
   },
