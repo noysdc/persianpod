@@ -4,6 +4,7 @@
   - کوچک‌کردن به نوار عنوان بدون قطع پخش
   - موقعیت و اندازه در localStorage ذخیره می‌شود
   - روی موبایل به پایین صفحه می‌چسبد
+  - پخش مستقیم قسمت‌ها (mode=audio): ظاهر قرص شناور، شبیه پلیر اپل (کنترل‌ها سمت چپ، نوار پیشرفت، فهرست قسمت‌ها)؛ پلیر iframe بیرونی همان پنجره‌ی قبلی است
 
   استفاده:
     <button data-pp-embed="https://.../embed-url" data-title="نام پادکست">پخش</button>
@@ -26,6 +27,7 @@
   var DEFAULT = { w: 360, h: 300 };
 
   var root, bar, titleEl, frame, minBtn, statusEl, statusMsg, pageLink;
+  var pillEl, playBtn, seekEl, curEl, durEl, epTEl, podEl, rateBtn, volBtn, volEl, listBtn, infoA, seeking = false;
   var curEpsUrl = "";
   var selRate, selSleep, leftEl, rate = 1, sleepT = 0, sleepTick = 0, sleepAt = 0, sleepEnd = false;
   var RATE_KEY = "pp-rate", RATES = [0.75, 1, 1.25, 1.5, 1.75, 2];
@@ -71,6 +73,26 @@
     root.setAttribute("aria-label", "پلیر پادکست");
 
     root.innerHTML =
+      '<div class="ppfp__pill" dir="ltr">' +
+      '<div class="ppfp__ctl">' +
+      '<button type="button" class="ppfp__pb ppfp__rate-b" aria-label="سرعت پخش" title="سرعت پخش">۱×</button>' +
+      '<button type="button" class="ppfp__pb ppfp__skip" data-s="-15" aria-label="۱۵ ثانیه عقب" title="۱۵ ثانیه عقب"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 3-6.2M4 4v4.5h4.5"/><text x="12" y="15.2" text-anchor="middle" font-size="7.2" font-weight="700" fill="currentColor" stroke="none">۱۵</text></svg></button>' +
+      '<button type="button" class="ppfp__pb ppfp__play" aria-label="پخش"></button>' +
+      '<button type="button" class="ppfp__pb ppfp__skip" data-s="30" aria-label="۳۰ ثانیه جلو" title="۳۰ ثانیه جلو"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-3-6.2M20 4v4.5h-4.5"/><text x="12" y="15.2" text-anchor="middle" font-size="7.2" font-weight="700" fill="currentColor" stroke="none">۳۰</text></svg></button>' +
+      "</div>" +
+      '<div class="ppfp__mid" dir="rtl">' +
+      '<div class="ppfp__meta"><b class="ppfp__ept"></b><span class="ppfp__pod"></span></div>' +
+      '<div class="ppfp__prog" dir="ltr"><span class="ppfp__cur">۰:۰۰</span>' +
+      '<input type="range" class="ppfp__seek" min="0" max="1000" value="0" step="1" aria-label="موقعیت پخش">' +
+      '<span class="ppfp__dur">۰:۰۰</span></div>' +
+      "</div>" +
+      '<div class="ppfp__side">' +
+      '<a class="ppfp__pb ppfp__info" target="_blank" rel="noopener noreferrer" aria-label="صفحه‌ی پادکست" title="صفحه‌ی پادکست" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg></a>' +
+      '<button type="button" class="ppfp__pb ppfp__list" aria-label="قسمت‌ها و تنظیمات" aria-expanded="false" title="قسمت‌ها و تنظیمات"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg></button>' +
+      '<span class="ppfp__volw"><button type="button" class="ppfp__pb ppfp__vol" aria-label="صدا"></button><input type="range" class="ppfp__vslider" min="0" max="100" value="100" aria-label="میزان صدا"></span>' +
+      '<button type="button" class="ppfp__pb ppfp__x" aria-label="بستن پلیر" title="بستن"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>' +
+      "</div>" +
+      "</div>" +
       '<div class="ppfp__bar" tabindex="0" aria-label="جابه‌جایی پلیر؛ با کلیدهای جهت‌دار هم می‌شود جابه‌جا کرد">' +
       '<svg class="ppfp__grip" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">' +
       '<circle cx="8" cy="6" r="1.7"/><circle cx="16" cy="6" r="1.7"/>' +
@@ -139,6 +161,8 @@
       showStatus("این قسمت پخش نشد. دوباره تلاش کنید یا قسمت دیگری را انتخاب کنید.", true);
     });
 
+    buildPill();   // قرص شناور (بعد از اتصال audioEl و selRate)
+
     frame.addEventListener("load", function () {
       if (!frame.getAttribute("src") || frame.getAttribute("src") === "about:blank") return;
       loaded = true; clearTimeout(watchdog); showStatus("");
@@ -159,8 +183,116 @@
       : MOBILE_MQ.addListener(applyGeometry);
   }
 
+  /* ---------- قرص شناور (شبیه اپل): پخش/توقف، ۱۵ثانیه عقب، ۳۰ثانیه جلو، نوار پیشرفت، سرعت، صدا، فهرست ---------- */
+  var ICON_PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l12.5-7.5z" fill="currentColor" stroke="none"/></svg>';
+  var ICON_PAUSE = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="4.5" width="4.3" height="15" rx="1.3" fill="currentColor" stroke="none"/><rect x="13.7" y="4.5" width="4.3" height="15" rx="1.3" fill="currentColor" stroke="none"/></svg>';
+  var ICON_VOL = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a8 8 0 0 1 0 11"/></svg>';
+  var ICON_MUTE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5z" fill="currentColor"/><path d="M16 9.5l5 5M21 9.5l-5 5"/></svg>';
+
+  function fmtT(s) {
+    if (!isFinite(s) || s < 0) s = 0;
+    s = Math.floor(s);
+    var h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), x = s % 60;
+    return faNum((h ? h + ":" + (m < 10 ? "0" : "") : "") + m + ":" + (x < 10 ? "0" : "") + x);
+  }
+  function setPop(on) {
+    if (!root) return;
+    root.classList.toggle("ppfp--pop", !!on);
+    if (listBtn) listBtn.setAttribute("aria-expanded", on ? "true" : "false");
+    if (on) { var cur = epsEl && epsEl.querySelector(".on"); if (cur && cur.scrollIntoView) { try { cur.scrollIntoView({ block: "nearest" }); } catch (e) {} } }
+  }
+  function syncPlay() {
+    if (!playBtn || !audioEl) return;
+    var p = !audioEl.paused && !audioEl.ended;
+    playBtn.innerHTML = p ? ICON_PAUSE : ICON_PLAY;
+    playBtn.setAttribute("aria-label", p ? "توقف" : "پخش");
+    root.classList.toggle("ppfp--playing", p);
+  }
+  function syncPill() {
+    if (!seekEl || !audioEl) return;
+    var d = audioEl.duration, t = audioEl.currentTime || 0, ok = isFinite(d) && d > 0;
+    curEl.textContent = fmtT(t);
+    durEl.textContent = ok ? fmtT(d) : "۰:۰۰";
+    if (!seeking) {
+      var v = ok ? Math.round(t / d * 1000) : 0;
+      seekEl.value = v;
+      seekEl.style.setProperty("--p", (v / 10) + "%");
+    }
+  }
+  function syncRate() {
+    if (!rateBtn) return;
+    rateBtn.textContent = faNum(String(rate).replace(".", "٫")) + "×";
+  }
+  function syncVol() {
+    if (!volBtn || !audioEl) return;
+    var m = audioEl.muted || audioEl.volume === 0;
+    volBtn.innerHTML = m ? ICON_MUTE : ICON_VOL;
+    volBtn.setAttribute("aria-label", m ? "فعال‌کردن صدا" : "بی‌صدا");
+    var v = Math.round((m ? 0 : audioEl.volume) * 100);
+    volEl.value = v; volEl.style.setProperty("--p", v + "%");
+  }
+  function buildPill() {
+    pillEl = root.querySelector(".ppfp__pill");
+    playBtn = root.querySelector(".ppfp__play");
+    seekEl = root.querySelector(".ppfp__seek");
+    curEl = root.querySelector(".ppfp__cur");
+    durEl = root.querySelector(".ppfp__dur");
+    epTEl = root.querySelector(".ppfp__ept");
+    podEl = root.querySelector(".ppfp__pod");
+    rateBtn = root.querySelector(".ppfp__rate-b");
+    volBtn = root.querySelector(".ppfp__vol");
+    volEl = root.querySelector(".ppfp__vslider");
+    listBtn = root.querySelector(".ppfp__list");
+    infoA = root.querySelector(".ppfp__info");
+
+    playBtn.addEventListener("click", function () {
+      if (audioEl.paused) { var pr = audioEl.play(); if (pr && pr.catch) pr.catch(function () {}); } else audioEl.pause();
+    });
+    [].forEach.call(root.querySelectorAll(".ppfp__skip"), function (b) {
+      b.addEventListener("click", function () {
+        var d = audioEl.duration, t = (audioEl.currentTime || 0) + (parseInt(b.getAttribute("data-s"), 10) || 0);
+        try { audioEl.currentTime = Math.max(0, isFinite(d) ? Math.min(d, t) : t); } catch (e) {}
+      });
+    });
+    seekEl.addEventListener("input", function () {
+      var d = audioEl.duration; if (!isFinite(d) || d <= 0) return;
+      seeking = true;
+      var v = +seekEl.value; seekEl.style.setProperty("--p", (v / 10) + "%");
+      curEl.textContent = fmtT(v / 1000 * d);
+      try { audioEl.currentTime = v / 1000 * d; } catch (e) {}
+    });
+    ["change", "pointerup", "keyup", "touchend", "blur"].forEach(function (ev) { seekEl.addEventListener(ev, function () { seeking = false; syncPill(); }); });
+    rateBtn.addEventListener("click", function () {
+      rate = RATES[(RATES.indexOf(rate) + 1) % RATES.length];
+      selRate.value = String(rate);
+      try { localStorage.setItem(RATE_KEY, String(rate)); } catch (e) {}
+      applyRate(); syncRate();
+    });
+    selRate.addEventListener("change", syncRate);
+    volBtn.addEventListener("click", function () { audioEl.muted = !audioEl.muted; if (!audioEl.muted && audioEl.volume === 0) audioEl.volume = 0.6; });
+    volEl.addEventListener("input", function () { audioEl.volume = (+volEl.value) / 100; audioEl.muted = +volEl.value === 0; });
+    listBtn.addEventListener("click", function () { setPop(!root.classList.contains("ppfp--pop")); });
+    root.querySelector(".ppfp__x").addEventListener("click", close);
+
+    ["play", "pause", "ended", "emptied"].forEach(function (ev) { audioEl.addEventListener(ev, syncPlay); });
+    ["timeupdate", "loadedmetadata", "durationchange", "emptied"].forEach(function (ev) { audioEl.addEventListener(ev, syncPill); });
+    audioEl.addEventListener("volumechange", syncVol);
+    audioEl.addEventListener("ratechange", syncRate);
+
+    // انتخاب قسمت در موبایل: فهرست بسته شود
+    epsEl.addEventListener("click", function (e) { if (e.target.closest(".ppfp__ep") && window.innerWidth < 800) setPop(false); });
+    // بستن فهرست با کلیک بیرون و Escape
+    document.addEventListener("click", function (e) { if (root && root.classList.contains("ppfp--pop") && !root.contains(e.target)) setPop(false); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && root && root.classList.contains("ppfp--pop")) { setPop(false); if (listBtn) listBtn.focus(); } });
+    syncPlay(); syncVol(); syncRate();
+  }
+
   function applyGeometry() {
     if (!root || root.hidden) return;
+    if (root.classList.contains("ppfp--pill")) {          // قرص با CSS جای می‌گیرد؛ مختصات قدیمی پاک می‌شود
+      root.style.width = root.style.height = root.style.left = root.style.top = root.style.right = root.style.bottom = "";
+      return;
+    }
     var vw = window.innerWidth;
     var vh = window.innerHeight;
     var minW = Math.min(MIN_W, vw - 8);
@@ -372,6 +504,10 @@
     mode = m;
     frame.hidden = m === "audio";
     audioWrap.hidden = m !== "audio";
+    root.classList.toggle("ppfp--pill", m === "audio");
+    document.body.classList.toggle("ppfp-pill", m === "audio");
+    if (m !== "audio") setPop(false);
+    if (m === "audio") { syncPlay(); syncPill(); syncRate(); syncVol(); }
   }
   function renderEps() {
     epsEl.innerHTML = "";
@@ -398,6 +534,7 @@
     epI = i;
     var e = eps[i];
     nowEl.textContent = e.t || "";
+    if (epTEl) { epTEl.textContent = e.t || ""; epTEl.title = e.t || ""; }
     showStatus("");
     audioEl.src = e.a;
     applyRate();
@@ -421,8 +558,10 @@
     var same = eps.length && eps[0].a === list[0].a && audioEl.getAttribute("src") === list[idx].a;
     eps = list;
     titleEl.textContent = (opts && opts.title) || "در حال پخش";
+    if (podEl) podEl.textContent = titleEl.textContent;
     var ext = safeUrl(opts && opts.page);
     if (ext) { pageLink.href = ext; pageLink.hidden = false; } else { pageLink.hidden = true; }
+    if (infoA) { infoA.hidden = !ext; if (ext) infoA.href = ext; }
     root.hidden = false;
     document.body.classList.add("ppfp-open");
     setMin(false);
@@ -478,7 +617,9 @@
     stopAudio(); eps = [];
     showStatus("");
     root.hidden = true;
-    document.body.classList.remove("ppfp-open", "ppfp-min");
+    document.body.classList.remove("ppfp-open", "ppfp-min", "ppfp-pill");
+    root.classList.remove("ppfp--pill");
+    setPop(false);
   }
 
   function isOpen() { return !!root && !root.hidden; }

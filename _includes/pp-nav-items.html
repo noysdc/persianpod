@@ -1,8 +1,9 @@
-{%- comment -%} آیتم‌های منوی اصلی با آیکون. هم در nav بالا (دسکتاپ) و هم در داک پایین (موبایل/تبلت) استفاده می‌شود. سه آیتم آخر کلاس opt دارند که در موبایل کوچک به «بیشتر» می‌روند. {%- endcomment -%}
+{%- comment -%} آیتم‌های منوی اصلی با آیکون. هم در nav بالا (دسکتاپ) و هم در داک پایین (موبایل/تبلت) استفاده می‌شود. با limit=4 فقط چهار آیتم اول رندر می‌شود (برای داک پایین). {%- endcomment -%}
 {%- assign pp_items = "/|پادکست‌ها|grid,/listen/|گوش بده|phones,/new/|تازه‌ها|spark,/compare/|مقایسه|scale,/learn/|آموزش|cap,/form/|ثبت پادکست|plus,/about-us/|درباره‌ی ما|info" | split: "," -%}
 {%- for it in pp_items -%}
+{%- if include.limit and forloop.index > include.limit -%}{%- break -%}{%- endif -%}
 {%- assign f = it | split: "|" -%}
-<a href="{{ f[0] | relative_url }}"{% if forloop.index > 4 %} class="opt"{% endif %}{% if page.url == f[0] %} aria-current="page"{% endif %}>
+<a href="{{ f[0] | relative_url }}"{% if page.url == f[0] %} aria-current="page"{% endif %}>
 {%- case f[2] -%}
 {%- when "grid" -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="2"/><rect x="13.5" y="3.5" width="7" height="7" rx="2"/><rect x="3.5" y="13.5" width="7" height="7" rx="2"/><rect x="13.5" y="13.5" width="7" height="7" rx="2"/></svg>
 {%- when "phones" -%}<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4.5" height="7" rx="2"/><rect x="16.5" y="14" width="4.5" height="7" rx="2"/></svg>

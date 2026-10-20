@@ -69,6 +69,7 @@
 <link rel="stylesheet" href="{{ '/assets/css/pp-glass.css' | relative_url }}?v={{ site.asset_v }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-liquid.css' | relative_url }}?v={{ site.asset_v }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-dock.css' | relative_url }}?v={{ site.asset_v }}">
+<link rel="stylesheet" href="{{ '/assets/css/pp-pill.css' | relative_url }}?v={{ site.asset_v }}">
 </head>
 <body data-search="{{ '/search.json' | relative_url }}?v={{ site.time | date: '%s' }}">
 <a class="pp-skip" href="#main">رفتن به محتوا</a>
@@ -165,16 +166,10 @@
   </div>
 </footer>
 
-{%- comment -%} داک پایین (فقط موبایل/تبلت؛ CSS در pp-dock.css). در دسکتاپ مخفی است و nav بالا نمایش داده می‌شود. {%- endcomment -%}
+{%- comment -%} داک پایین: فقط موبایل/تبلت (زیر ۱۲۰۰) و فقط بعد از اسکرول. بالای صفحه همه‌ی آیتم‌ها در nav هدر هستند؛ با اسکرول ردیف منو محو می‌شود و این داک نمایش داده می‌شود. {%- endcomment -%}
 <nav class="pp-dock" aria-label="منوی اصلی (پایین)">
-  {% include pp-nav-items.html %}
-  <button type="button" class="pp-more" id="pp-more" aria-haspopup="dialog" aria-expanded="false" aria-controls="pp-sheet">
-    <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1.3"/><circle cx="12" cy="12" r="1.3"/><circle cx="19" cy="12" r="1.3"/></svg>
-    <span>بیشتر</span>
-  </button>
+  {% include pp-nav-items.html limit=4 %}
 </nav>
-<div class="pp-scrim" id="pp-scrim"></div>
-<div class="pp-sheet" id="pp-sheet" role="dialog" aria-label="بیشتر" aria-hidden="true"><h2>بیشتر</h2></div>
 
 {% if site.goatcounter %}<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 {% endif %}<script src="{{ '/assets/js/pp-tools.js' | relative_url }}" defer></script>

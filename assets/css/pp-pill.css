@@ -1,0 +1,110 @@
+/* PersianPod: پلیر شناور به سبک اپل (فقط پخش مستقیم قسمت‌ها؛ پلیر iframe همان پنجره‌ی قبلی است).
+   دسکتاپ: قرص وسط‌چین پایین صفحه، کنترل‌ها سمت چپ، فهرست قسمت‌ها بالای قرص.
+   موبایل/تبلت: وقتی داک پایین دیده می‌شود، قرص درست روی آن می‌نشیند و با آن یک کپسول می‌شود (نه دو شناور جدا).
+   باید بعد از pp-dock.css و آخرین CSS لود شود. */
+
+.ppfp__pill{display:none}
+
+/* ---------- جای‌گیری: ریشه شفاف، شیشه روی خود قرص ---------- */
+:root .ppfp.ppfp--pill{
+  position:fixed;left:50%;right:auto;top:auto;
+  bottom:calc(18px + env(safe-area-inset-bottom,0px));
+  width:min(780px,calc(100vw - 24px));height:auto;min-width:0;min-height:0;
+  transform:translateX(-50%);overflow:visible;border-radius:0;border:0;background:none;
+  -webkit-backdrop-filter:none;backdrop-filter:none;box-shadow:none;
+  animation:ppfp-in .35s cubic-bezier(.2,.8,.2,1);
+}
+@keyframes ppfp-in{from{opacity:0;transform:translate(-50%,24px)}to{opacity:1;transform:translate(-50%,0)}}
+.ppfp--pill .ppfp__bar,.ppfp--pill .ppfp__resize,.ppfp--pill .ppfp__frame,.ppfp--pill .ppfp__now,.ppfp--pill .ppfp__au{display:none}
+.ppfp--pill .ppfp__body{position:static;flex:none;min-height:0}
+
+/* ---------- خود قرص ---------- */
+.ppfp--pill .ppfp__pill{
+  display:flex;align-items:center;gap:14px;height:64px;padding:0 14px;border-radius:999px;color:var(--ink);
+  background:var(--gl-fill-strong);border:1px solid var(--gl-edge);
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px var(--gl-rim),var(--gl-shadow);
+  -webkit-backdrop-filter:blur(var(--gl-blur)) saturate(var(--gl-sat));backdrop-filter:blur(var(--gl-blur)) saturate(var(--gl-sat));
+  font-family:"Vazirmatn",Vazir,sans-serif;
+}
+.ppfp__ctl,.ppfp__side{display:flex;align-items:center;gap:2px;flex:none}
+.ppfp__pb{width:38px;height:38px;display:grid;place-items:center;padding:0;border:0;border-radius:50%;background:transparent;color:inherit;font:inherit;cursor:pointer;text-decoration:none;transition:background .2s ease,transform .1s ease}
+.ppfp__pb[hidden]{display:none}
+.ppfp__pb:hover{background:var(--gl-flat-hover)}
+.ppfp__pb:active{transform:scale(.92)}
+.ppfp__pb:focus-visible{outline:2px solid #08cb00;outline-offset:1px}
+.ppfp__pb svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.ppfp__play{width:44px;height:44px}
+.ppfp__play svg{width:26px;height:26px}
+.ppfp__rate-b{width:auto;min-width:40px;padding:0 6px;border-radius:19px;font-size:.9rem;font-weight:800;opacity:.7;letter-spacing:.02em}
+.ppfp__rate-b:hover{opacity:1}
+
+/* وسط: عنوان قسمت + نام پادکست + نوار پیشرفت */
+.ppfp__mid{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px;justify-content:center}
+.ppfp__meta{display:flex;align-items:baseline;gap:10px;min-width:0}
+.ppfp__ept{flex:1;min-width:0;font-size:.82rem;font-weight:800;line-height:1.5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ppfp__pod{flex:none;max-width:34%;font-size:.72rem;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ppfp__prog{display:flex;align-items:center;gap:8px}
+.ppfp__cur,.ppfp__dur{flex:none;min-width:3.2em;font-size:.68rem;color:var(--mut);font-variant-numeric:tabular-nums}
+.ppfp__cur{text-align:start}.ppfp__dur{text-align:end}
+
+/* نوار پیشرفت و صدا */
+.ppfp--pill input[type=range]{-webkit-appearance:none;appearance:none;flex:1;min-width:0;height:16px;margin:0;padding:0;background:transparent;cursor:pointer;touch-action:none}
+.ppfp--pill input[type=range]::-webkit-slider-runnable-track{height:4px;border-radius:4px;background:linear-gradient(to right,#08cb00 var(--p,0%),rgba(128,128,128,.32) var(--p,0%))}
+.ppfp--pill input[type=range]::-moz-range-track{height:4px;border-radius:4px;background:rgba(128,128,128,.32)}
+.ppfp--pill input[type=range]::-moz-range-progress{height:4px;border-radius:4px;background:#08cb00}
+.ppfp--pill input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:12px;height:12px;margin-top:-4px;border-radius:50%;border:0;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.4);transform:scale(0);transition:transform .15s ease}
+.ppfp--pill input[type=range]::-moz-range-thumb{width:12px;height:12px;border-radius:50%;border:0;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.4);transform:scale(0);transition:transform .15s ease}
+.ppfp--pill input[type=range]:hover::-webkit-slider-thumb,.ppfp--pill input[type=range]:focus-visible::-webkit-slider-thumb,.ppfp--pill input[type=range]:active::-webkit-slider-thumb{transform:scale(1)}
+.ppfp--pill input[type=range]:hover::-moz-range-thumb,.ppfp--pill input[type=range]:focus-visible::-moz-range-thumb,.ppfp--pill input[type=range]:active::-moz-range-thumb{transform:scale(1)}
+.ppfp--pill input[type=range]:focus-visible{outline:2px solid #08cb00;outline-offset:3px;border-radius:6px}
+.ppfp__volw{display:flex;align-items:center;gap:2px}
+.ppfp__vslider{flex:none!important;width:72px}
+
+/* ---------- پنل بالای قرص: تنظیمات + فهرست قسمت‌ها ---------- */
+.ppfp--pill .ppfp__audio{
+  display:none;position:absolute;inset:auto 0 calc(100% + 10px) 0;flex-direction:column;gap:10px;
+  max-height:min(52vh,380px);padding:12px 12px 8px;border-radius:24px;overflow:hidden;direction:rtl;color:var(--ink);
+  background:var(--gl-fill-strong);border:1px solid var(--gl-edge);
+  box-shadow:inset 0 1px 0 var(--gl-hi),0 0 0 1px var(--gl-rim),var(--gl-shadow);
+  -webkit-backdrop-filter:blur(var(--gl-blur)) saturate(var(--gl-sat));backdrop-filter:blur(var(--gl-blur)) saturate(var(--gl-sat));
+}
+.ppfp--pill.ppfp--pop .ppfp__audio{display:flex;animation:ppfp-pop .22s ease}
+@keyframes ppfp-pop{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.ppfp--pill .ppfp__eps{flex:1;min-height:0;scrollbar-width:thin;scrollbar-color:rgba(8,203,0,.55) transparent}
+.ppfp--pill .ppfp__ep{font-size:.84rem;padding:8px 12px;border-radius:12px}
+.ppfp--pill .ppfp__ep.on{background:rgba(8,203,0,.16);box-shadow:inset 0 0 0 1px rgba(8,203,0,.5)}
+
+/* پیام خطا/بارگذاری: بالای قرص */
+.ppfp--pill .ppfp__status{
+  position:absolute;inset:auto 0 calc(100% + 10px) 0;padding:12px 16px;border-radius:20px;color:var(--ink);
+  background:var(--gl-fill-strong);border:1px solid var(--gl-edge);box-shadow:var(--gl-shadow);
+  -webkit-backdrop-filter:blur(var(--gl-blur));backdrop-filter:blur(var(--gl-blur));
+}
+.ppfp--pill .ppfp__status[hidden]{display:none}
+
+/* فضای خالی پایین صفحه تا پلیر روی محتوا یا فوتر نیفتد */
+body.ppfp-pill{padding-bottom:calc(104px + env(safe-area-inset-bottom,0px))}
+
+/* ---------- موبایل و تبلت: ثابتِ هم‌عرض داک؛ با داک یک کپسول می‌شود ---------- */
+@media (max-width:1199.98px){
+  :root .ppfp.ppfp--pill{
+    width:min(560px,calc(100vw - 24px));
+    bottom:calc(var(--pp-dock-gap,12px) + env(safe-area-inset-bottom,0px) + var(--pp-dock-lift,0px));
+    transition:bottom .3s cubic-bezier(.2,.8,.2,1);
+  }
+  .ppfp__volw{display:none}
+  body.ppfp-pill{padding-bottom:calc(var(--pp-dock-lift,0px) + 96px + env(safe-area-inset-bottom,0px))}
+  /* وقتی داک پایین هست، قرص و داک یک کپسول‌اند */
+  body.pp-scrolled.ppfp-pill .ppfp--pill .ppfp__pill{border-bottom-left-radius:0;border-bottom-right-radius:0;border-bottom-color:transparent}
+  body.pp-scrolled.ppfp-pill .pp-dock{border-top-left-radius:0;border-top-right-radius:0;border-top-color:transparent}
+}
+@media (max-width:599.98px){
+  .ppfp--pill .ppfp__pill{height:58px;gap:6px;padding:0 8px}
+  .ppfp__rate-b,.ppfp__info,.ppfp__pod{display:none}   /* عنوان قسمت جا بگیرد */
+  .ppfp__pb{width:34px;height:34px}
+  .ppfp__play{width:40px;height:40px}
+  .ppfp__pb svg{width:20px;height:20px}
+  .ppfp__play svg{width:24px;height:24px}
+  .ppfp__cur,.ppfp__dur{min-width:2.8em}
+}
+@media (prefers-reduced-motion:reduce){:root .ppfp.ppfp--pill,.ppfp--pop .ppfp__audio{animation:none;transition:none}}

@@ -1,30 +1,65 @@
-/* پرشین‌پاد: منوی «بیشتر»، پنهان‌شدن داک با کیبورد، و کلاس pp-playing وقتی چیزی پخش می‌شود */
-(function(){
-  var b=document.body, dock=document.querySelector('.pp-dock');
-  if(!dock) return;
-  var more=document.getElementById('pp-more'),
-      sheet=document.getElementById('pp-sheet'),
-      scrim=document.getElementById('pp-scrim');
+/* PersianPod: رفتار اسکرول هدر و داک پایین (فقط زیر ۱۲۰۰px).
+   - بعد از اسکرول: کلاس pp-scrolled روی <body> → ردیف منوی هدر محو، داک پایین ظاهر.
+   - ارتفاع .pp-bar قفل می‌شود تا با محو شدن ردیف منو، محتوای صفحه بالا نپرد.
+   - بعد از ناوبری نرم (pp-nav.js)، تب فعال داک به‌روز می‌شود.
+   - وقتی کیبورد موبایل باز است داک پنهان می‌شود (pp-kb). */
+(function () {
+  "use strict";
+  var b = document.body, bar = document.querySelector(".pp-bar"), dock = document.querySelector(".pp-dock");
+  if (!dock) return;
 
-  if(sheet){
-    dock.querySelectorAll('.opt').forEach(function(a){ sheet.appendChild(a.cloneNode(true)); });
+  var mq = window.matchMedia("(max-width:1199.98px)");
+  var scrolled = false, ON = 70, OFF = 30;
+
+  /* ---- قفل ارتفاع هدر ---- */
+  function lock() {
+    if (!bar) return;
+    if (!mq.matches) { bar.style.minHeight = ""; return; }
+    if (scrolled) return;
+    bar.style.minHeight = "";
+    var h = bar.getBoundingClientRect().height, cs = getComputedStyle(bar);
+    if (cs.boxSizing === "content-box") h -= (parseFloat(cs.paddingTop) || 0) + (parseFloat(cs.paddingBottom) || 0);
+    bar.style.minHeight = Math.ceil(h) + "px";
   }
-  function setSheet(open){
-    b.classList.toggle('pp-sheet-open',open);
-    if(more) more.setAttribute('aria-expanded',open);
-    if(sheet) sheet.setAttribute('aria-hidden',!open);
+  var lockQ = 0;
+  function lockSoon() { cancelAnimationFrame(lockQ); lockQ = requestAnimationFrame(lock); }
+
+  /* ---- اسکرول (با هیسترزیس تا لرزش نداشته باشد) ---- */
+  function onScroll() {
+    var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+    var s = mq.matches && (scrolled ? y > OFF : y > ON);
+    if (s === scrolled) return;
+    scrolled = s;
+    b.classList.toggle("pp-scrolled", s);
+    if (!s) lockSoon();
   }
-  if(more) more.addEventListener('click',function(){ setSheet(true); });
-  if(scrim) scrim.addEventListener('click',function(){ setSheet(false); });
-  document.addEventListener('keydown',function(e){ if(e.key==='Escape') setSheet(false); });
+  window.addEventListener("scroll", onScroll, { passive: true });
 
-  // کیبورد موبایل
-  var field='input,textarea,select';
-  document.addEventListener('focusin',function(e){ if(e.target.matches&&e.target.matches(field)) b.classList.add('pp-kb'); });
-  document.addEventListener('focusout',function(e){ if(e.target.matches&&e.target.matches(field)) b.classList.remove('pp-kb'); });
+  function onResize() { scrolled = false; b.classList.remove("pp-scrolled"); lock(); onScroll(); }
+  window.addEventListener("resize", onResize);
+  if (mq.addEventListener) mq.addEventListener("change", onResize); else if (mq.addListener) mq.addListener(onResize);
 
-  // وضعیت پخش: رویدادهای audio/video bubble نمی‌کنند، پس با capture گوش می‌دهیم
-  document.addEventListener('play',function(){ b.classList.add('pp-playing'); },true);
-  document.addEventListener('ended',function(){ b.classList.remove('pp-playing'); },true);
-  document.addEventListener('emptied',function(){ b.classList.remove('pp-playing'); },true);
+  if (window.ResizeObserver) {
+    var g = document.querySelector(".pp-glass");
+    if (g) new ResizeObserver(function () { if (!scrolled) lockSoon(); }).observe(g);
+  }
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(lockSoon);
+  window.addEventListener("load", lockSoon);
+  lock(); onScroll();
+
+  /* ---- تب فعال داک بعد از ناوبری نرم ---- */
+  function syncCurrent() {
+    var here = location.pathname.replace(/index\.html$/, "");
+    [].forEach.call(dock.querySelectorAll("a"), function (a) {
+      var p = "";
+      try { p = new URL(a.href, location.href).pathname.replace(/index\.html$/, ""); } catch (e) {}
+      if (p === here) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+    });
+  }
+  document.addEventListener("pp:navigate", function () { syncCurrent(); scrolled = false; b.classList.remove("pp-scrolled"); lockSoon(); onScroll(); });
+
+  /* ---- کیبورد موبایل ---- */
+  var field = "input,textarea,select";
+  document.addEventListener("focusin", function (e) { if (e.target.matches && e.target.matches(field)) b.classList.add("pp-kb"); });
+  document.addEventListener("focusout", function (e) { if (e.target.matches && e.target.matches(field)) b.classList.remove("pp-kb"); });
 })();
