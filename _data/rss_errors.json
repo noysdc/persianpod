@@ -23,6 +23,10 @@
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
+  "dairh-dastan": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://rss.audiyacreators.one/cmismooeraoigjuiteua2"
+  },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
@@ -39,6 +43,10 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
+  "frdai-aghtsad": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4"
+  },
   "galri-film": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
@@ -46,6 +54,10 @@
   "hnr-jng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://namlik.me/rss/318"
+  },
+  "jnaii-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://rss.audiyacreators.one/cmi77c4nu0whxud41npkn"
   },
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
@@ -63,9 +75,29 @@
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
   },
+  "mimmpodcast": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://rss.audiyacreators.one/cmhwe10fp49z7yriygrn1"
+  },
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
+  },
+  "podcast-dats": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://rss.audiyacreators.one/cmirr88fetztwmiq39efe"
+  },
+  "podcast-farsi-fikshn-fiction-podcast": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j"
+  },
+  "podcast-fotbali-fotbal-trapi": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://rss.audiyacreators.one/cmirs0ugaxipywzzzcnts"
+  },
+  "radio-fol-astk": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://api.sokanacademy.com/api/podcast/feed"
   },
   "roait-ahd": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
