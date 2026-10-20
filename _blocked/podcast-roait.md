@@ -17,8 +17,8 @@ pi_id: 7687993
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: false
+published: false
 ---
 
 # پادکست روایت
