@@ -32,11 +32,11 @@
     "rss": "https://drdna.ir/category/%D9%81%DB%8C%D9%84%D9%85-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/feed/"
   },
   "film-o-srial-soti": {
-    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://mp3movies.ir/feed"
   },
   "filmhai-sinmaii-airani": {
-    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
   "galri-film": {
@@ -48,7 +48,7 @@
     "rss": "http://namlik.me/rss/318"
   },
   "khatrh-angiz": {
-    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
   },
   "kit-aahng": {
@@ -84,7 +84,7 @@
     "rss": "https://paymanpsychology.com/feed/"
   },
   "said-pnahi": {
-    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
   "shar-o-ghsh-khoani": {
