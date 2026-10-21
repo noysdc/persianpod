@@ -144,15 +144,25 @@
       </div>
     </div>
 
-    <div class="pd-g pd-saved-row">
-      <label class="pd-check"><input type="checkbox" id="f-saved"> فقط پادکست‌های ذخیره‌شده <span id="f-saved-n" class="pd-saved-n"></span></label>
-      <span class="pd-saved-tools">
-        <button type="button" id="pp-bk-out" class="pd-link-btn">دریافت پشتیبان</button>
-        <button type="button" id="pp-bk-in" class="pd-link-btn">بازیابی پشتیبان</button>
+    <section class="pp-mine" aria-labelledby="pp-mine-t">
+      <div class="pp-mine-h">
+        <span class="pp-mine-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></span>
+        <div class="pp-mine-tt">
+          <h3 id="pp-mine-t">ذخیره‌شده‌های من <span id="f-saved-n" class="pp-mine-n"></span></h3>
+          <p>پادکست‌هایی که با ♡ ذخیره می‌کنی اینجا جمع می‌شوند. این فهرست و محل ادامه‌ی پخش فقط روی همین دستگاه می‌ماند.</p>
+        </div>
+        <div class="pp-sw">
+          <input type="checkbox" id="f-saved" class="pp-sw-in" role="switch">
+          <label for="f-saved" class="pp-sw-l"><span class="pp-sw-t">فقط ذخیره‌شده‌ها</span><span class="pp-sw-k" aria-hidden="true"></span></label>
+        </div>
+      </div>
+      <div class="pp-mine-f">
+        <button type="button" id="pp-bk-out" class="pp-chipbtn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v10m0 0l-4-4m4 4l4-4M5 19h14"/></svg><span>دریافت پشتیبان</span></button>
+        <button type="button" id="pp-bk-in" class="pp-chipbtn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V5m0 0L8 9m4-4l4 4M5 19h14"/></svg><span>بازیابی پشتیبان</span></button>
         <input type="file" id="pp-bk-file" accept="application/json,.json" hidden>
-      </span>
-      <span id="pp-bk-msg" class="pd-saved-msg" role="status" aria-live="polite"></span>
-    </div>
+        <span id="pp-bk-msg" class="pp-mine-msg" role="status" aria-live="polite"></span>
+      </div>
+    </section>
 
     <div class="pd-actions">
       <button type="button" id="pd-apply" class="pd-apply">نمایش پادکست‌ها</button>

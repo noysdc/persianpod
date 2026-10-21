@@ -147,7 +147,7 @@
       }
     }
     var cnt = document.getElementById("f-saved-n");
-    if (cnt) { var n2 = S().length, txt = n2 ? "(" + toFa(n2) + ")" : ""; if (cnt.textContent !== txt) cnt.textContent = txt; }   // فقط در صورت تغییر؛ وگرنه observer دوباره اسکن را فرا می‌خواند
+    if (cnt) { var n2 = S().length, txt = n2 ? toFa(n2) : ""; if (cnt.textContent !== txt) cnt.textContent = txt; }   // فقط در صورت تغییر؛ وگرنه observer دوباره اسکن را فرا می‌خواند
   }
 
   /* نوار باریک پیشرفت و علامت «شنیده‌شده» روی قسمت‌ها */
