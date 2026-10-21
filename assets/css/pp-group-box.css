@@ -1,0 +1,16 @@
+/* PersianPod: هر دسته‌ی صفحه‌ی اصلی در موبایل و تبلت هم یک باکس شیشه‌ای دارد (مثل دسکتاپ).
+   قبلاً pp-glass.css زیر ۱۲۰۰px باکس را برمی‌داشت. بعد از pp-liquid.css لود شود. بدون blur (برای کارایی). */
+@media (max-width:1199.98px){
+  :root .pd-group{
+    margin-top:12px;padding:14px 14px 4px;border-radius:24px;
+    background:var(--gl-fill);border:1px solid var(--gl-edge);
+    box-shadow:inset 0 1px 0 var(--gl-hi),inset 0 -1px 0 var(--gl-lo),0 0 0 1px var(--gl-rim),var(--gl-shadow);
+  }
+  :root .pd-group:first-child{margin-top:10px}
+  :root .pd-group .pd-row{padding-bottom:8px}
+  /* موج جداکننده بین باکس‌ها: همان دسکتاپ، فقط جمع‌وجورتر */
+  :root .pd-wave{margin:14px auto 0}
+}
+@media (min-width:600px) and (max-width:1199.98px){
+  :root .pd-group{padding:16px 18px 6px;border-radius:26px}
+}
