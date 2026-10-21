@@ -1,0 +1,82 @@
+name: 14 Telegram post [daily intro, 2 per day]
+
+# هر روز ۲ معرفی پادکست در کانال تلگرام: حوالی ۱۱ صبح و ۲۰ شب (به وقت تهران).
+# نوبت از «صف» می‌آید: پادکست‌هایی که published: false نیستند، tg_skip: true ندارند و در _data/tg_posts.json نیستند.
+# ایران ساعت تابستانی ندارد (UTC+03:30)، پس ۱۱:۰۰ تهران = ۰۷:۳۰ UTC و ۲۰:۰۰ تهران = ۱۶:۳۰ UTC.
+# گیت‌هاب ممکن است اجرای زمان‌بندی‌شده را ۵ تا ۳۰ دقیقه دیر شروع کند («حوالی»). اجرای ۲۰ دقیقه‌ی بعد پشتیبان است:
+# اگر نوبت انجام شده باشد (--min-gap 4)، چیزی ارسال نمی‌کند؛ اگر اجرای اول به خطا خورده، دوباره تلاش می‌کند.
+# Secret لازم: TELEGRAM_BOT_TOKEN (اختیاری: متغیر TELEGRAM_CHAT_ID؛ پیش‌فرض @persian_pod_ir)
+# ترتیب صف: متغیر TG_ORDER (اختیاری): newest (پیش‌فرض) | oldest | random
+on:
+  schedule:
+    - cron: "30 7 * * *"       # ۱۱:۰۰ تهران
+    - cron: "50 7 * * *"       # پشتیبان ۱۱
+    - cron: "30 16 * * *"      # ۲۰:۰۰ تهران
+    - cron: "50 16 * * *"      # پشتیبان ۲۰
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "check = عیب‌یابی توکن و کانال | init = ثبت پادکست‌های فعلی بدون ارسال | dry-run = فقط پیش‌نمایش | post = ارسال همین حالا"
+        type: choice
+        options: [check, dry-run, post, init]
+        default: dry-run
+      count:
+        description: "تعداد پست (برای post و dry-run)"
+        required: false
+        default: "1"
+      slug:
+        description: "فقط این پادکست (اختیاری)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: telegram-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0       # برای ترتیب صف به تاریخ اضافه‌شدن هر پادکست نیاز داریم
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Run
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
+          TG_ORDER: ${{ vars.TG_ORDER }}
+          EVENT: ${{ github.event_name }}
+          ACTION: ${{ github.event.inputs.action || 'post' }}
+          COUNT: ${{ github.event.inputs.count || '1' }}
+          SLUG: ${{ github.event.inputs.slug }}
+        run: |
+          args="--max $COUNT"
+          [ "$ACTION" = "init" ] && args="--init"
+          [ "$ACTION" = "dry-run" ] && args="$args --dry-run"
+          [ "$ACTION" = "check" ] && args="--check"
+          [ "$EVENT" = "schedule" ] && args="$args --min-gap 4"
+          [ -n "$SLUG" ] && args="$args --slug $SLUG"
+          python scripts/telegram_post.py $args
+      - name: Commit state
+        if: always()          # حتی اگر یک ارسال ناموفق بود، پست‌های موفق ثبت شوند تا دوباره پست نشوند
+        run: |
+          git config user.name  "persianpod-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add _data/tg_posts.json
+          [ -f _data/tg_last.json ] && git add _data/tg_last.json
+          true
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: telegram posts"
+          for i in 1 2 3 4; do
+            git pull --rebase -X theirs && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
+          exit 1
