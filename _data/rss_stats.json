@@ -2926,8 +2926,8 @@
       7,
       6,
       5,
-      4,
-      5
+      5,
+      4
     ],
     "status": "active"
   },
@@ -40013,21 +40013,26 @@
     "status": "active"
   },
   "ta-chieton-srd-mesha": {
-    "avg_gap_days": 0.7,
+    "avg_gap_days": 0.5,
     "avg_length": 7,
-    "episodes": 12,
-    "eps_365": 4,
-    "eps_90": 4,
+    "episodes": 13,
+    "eps_365": 5,
+    "eps_90": 5,
     "first_at": "2022-07-23",
     "first_year": 1401,
     "last": "1405/07/29",
-    "last_at": "2026-10-21T21:42:46Z",
-    "last_link": "https://s3.castbox.fm/ae/3a/4b/3323af4049a9e9b821bdcb6e4a.mp3",
-    "last_title": "قسمت (۱۲)مرا ببوس",
+    "last_at": "2026-10-21T21:57:54Z",
+    "last_link": "https://s3.castbox.fm/32/f4/cf/1ab6f244b9859c8c5bcb76ba5f.mp3",
+    "last_title": "(قسمت۱۲)افسانه ساخت ترانه مرا ببوس",
     "max_length": 27,
-    "median_length": 4,
+    "median_length": 5,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/32/f4/cf/1ab6f244b9859c8c5bcb76ba5f.mp3",
+        "at": "2026-10-21T21:57:54Z",
+        "t": "(قسمت۱۲)افسانه ساخت ترانه مرا ببوس"
+      },
       {
         "a": "https://s3.castbox.fm/ae/3a/4b/3323af4049a9e9b821bdcb6e4a.mp3",
         "at": "2026-10-21T21:42:46Z",
@@ -40062,14 +40067,14 @@
         "a": "https://s3.castbox.fm/da/0d/b5/a9835344709918a01f2773b1f8.mp3",
         "at": "2022-07-31T21:43:10Z",
         "t": "قسمت6   Jelaرقص انگشت روی پیانو"
-      },
-      {
-        "a": "https://s3.castbox.fm/ae/6d/54/c7eb954393aa5a6c6c7c44c389.mp3",
-        "at": "2022-07-29T08:46:02Z",
-        "t": "قسمت5 موسیقی بی کلام لحظه ای سبز تنهایی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-21T21:57:54Z",
+        "link": "https://s3.castbox.fm/32/f4/cf/1ab6f244b9859c8c5bcb76ba5f.mp3",
+        "title": "(قسمت۱۲)افسانه ساخت ترانه مرا ببوس"
+      },
       {
         "at": "2026-10-21T21:42:46Z",
         "link": "https://s3.castbox.fm/ae/3a/4b/3323af4049a9e9b821bdcb6e4a.mp3",
@@ -40079,11 +40084,6 @@
         "at": "2026-10-20T10:22:03Z",
         "link": "https://s3.castbox.fm/97/d1/a1/888dcf451a97deabc9cbebef2f.mp3",
         "title": "روایت عشق و سرگشتگی"
-      },
-      {
-        "at": "2026-10-19T16:27:51Z",
-        "link": "https://s3.castbox.fm/13/ce/31/6d7fd84df58ab2a5b3199abb3c.mp3",
-        "title": "قسمت۱۰جنون یا عشق"
       }
     ],
     "recent_30d": [
@@ -40098,7 +40098,7 @@
       0,
       0,
       0,
-      4
+      5
     ],
     "status": "active"
   },
