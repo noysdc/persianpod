@@ -89,6 +89,95 @@
     ],
     "status": "active"
   },
+  "1001-shb": {
+    "avg_length": 10,
+    "episodes": 148,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-12-05",
+    "first_year": 1403,
+    "last": "1404/04/27",
+    "last_at": "2025-07-18T12:21:04Z",
+    "last_link": "https://shows.acast.com/hezaroyekshab/episodes/shab136",
+    "last_title": "شب ۱۳۶- حکایت ملک‌نعمان و فرزندانش",
+    "max_length": 54,
+    "median_length": 11,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6750af02a0332c2e11d100b0/e/687a3c300de40e9a7c431307/media.mp3",
+        "at": "2025-07-18T12:21:04Z",
+        "t": "شب ۱۳۶- حکایت ملک‌نعمان و فرزندانش"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6750af02a0332c2e11d100b0/e/687a2cf50d2a2189931af8d9/media.mp3",
+        "at": "2025-07-18T11:32:00Z",
+        "t": "شب ۱۳۵- حکایت ملک‌نعمان و فرزندانش"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6750af02a0332c2e11d100b0/e/687a2756b93bd5454d14fb07/media.mp3",
+        "at": "2025-07-18T11:31:00Z",
+        "t": "شب ۱۳۴- حکایت ملک‌نعمان و فرزندانش"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6750af02a0332c2e11d100b0/e/687a1d88b93bd5454d10bb50/media.mp3",
+        "at": "2025-07-18T11:30:00Z",
+        "t": "شب ۱۳۳- حکایت ملک‌نعمان و فرزندانش"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6750af02a0332c2e11d100b0/e/68796db70de40e9a7c12ec03/media.mp3",
+        "at": "2025-07-17T21:40:05Z",
+        "t": "شب ۱۳۲- حکایت ملک‌نعمان و فرزندانش"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6750af02a0332c2e11d100b0/e/687967916fb6cef50f4ca02e/media.mp3",
+        "at": "2025-07-17T21:13:52Z",
+        "t": "شب ۱۳۱- حکایت ملک‌نعمان و فرزندانش"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6750af02a0332c2e11d100b0/e/687904756fb6cef50f2d57b3/media.mp3",
+        "at": "2025-07-17T18:31:00Z",
+        "t": "شب ۱۳۰- حکایت ملک‌نعمان و فرزندانش"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6750af02a0332c2e11d100b0/e/6879018ab93bd5454dc888d5/media.mp3",
+        "at": "2025-07-17T18:30:00Z",
+        "t": "شب ۱۲۹- حکایت ملک‌نعمان و فرزندانش"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-07-18T12:21:04Z",
+        "link": "https://shows.acast.com/hezaroyekshab/episodes/shab136",
+        "title": "شب ۱۳۶- حکایت ملک‌نعمان و فرزندانش"
+      },
+      {
+        "at": "2025-07-18T11:32:00Z",
+        "link": "https://shows.acast.com/hezaroyekshab/episodes/shab135",
+        "title": "شب ۱۳۵- حکایت ملک‌نعمان و فرزندانش"
+      },
+      {
+        "at": "2025-07-18T11:31:00Z",
+        "link": "https://shows.acast.com/hezaroyekshab/episodes/shab134",
+        "title": "شب ۱۳۴- حکایت ملک‌نعمان و فرزندانش"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "60-sanih-ktab": {
     "avg_length": 1,
     "episodes": 22,
@@ -1000,24 +1089,19 @@
   "aamozsh-zban-ba-lingano-padkst": {
     "avg_gap_days": 2.9,
     "avg_length": 7,
-    "episodes": 160,
-    "eps_365": 127,
-    "eps_90": 59,
+    "episodes": 159,
+    "eps_365": 126,
+    "eps_90": 58,
     "first_at": "2025-08-26",
     "first_year": 1404,
-    "last": "1405/07/29",
-    "last_at": "2026-10-21T06:30:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/89---Good-old-days-e3qo7of",
-    "last_title": "قسمت 89 - Good old days!",
+    "last": "1405/07/28",
+    "last_at": "2026-10-20T06:30:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/88---Give-a-ride-e3qnqbf",
+    "last_title": "قسمت 88 - Give a ride",
     "max_length": 17,
     "median_length": 4,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/108b105e0/podcast/play/127720655/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-19%2Fdbde36fe-14db-f558-4b3e-7a7948efae2a.mp3",
-        "at": "2026-10-21T06:30:00Z",
-        "t": "قسمت 89 - Good old days!"
-      },
       {
         "a": "https://anchor.fm/s/108b105e0/podcast/play/127706927/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-19%2F7bdc879e-c637-bffa-9b38-511434f68865.mp3",
         "at": "2026-10-20T06:30:00Z",
@@ -1052,14 +1136,14 @@
         "a": "https://anchor.fm/s/108b105e0/podcast/play/127281240/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-11%2F3894fde0-4fad-73f3-eee0-bafab8ba624e.mp3",
         "at": "2026-10-12T06:30:00Z",
         "t": "قسمت 82 - انگلیسی تو مهمونی ۲"
+      },
+      {
+        "a": "https://anchor.fm/s/108b105e0/podcast/play/127281025/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-11%2F51edd6f6-491c-b203-2d1e-4469ecf8a2d5.mp3",
+        "at": "2026-10-11T07:45:37Z",
+        "t": "قسمت 81 - انگلیسی تو مهمونی ۱"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-21T06:30:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/89---Good-old-days-e3qo7of",
-        "title": "قسمت 89 - Good old days!"
-      },
       {
         "at": "2026-10-20T06:30:00Z",
         "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/88---Give-a-ride-e3qnqbf",
@@ -1069,6 +1153,11 @@
         "at": "2026-10-19T08:58:20Z",
         "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/87---I-didnt-mean-to-e3qnpea",
         "title": "قسمت 87 - I didn't mean to!"
+      },
+      {
+        "at": "2026-10-18T06:30:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/86---e3qduqo",
+        "title": "قسمت 86 - انگلیسی تو مهمونی اخر"
       }
     ],
     "recent_30d": [
@@ -1083,7 +1172,7 @@
       16,
       21,
       19,
-      19
+      18
     ],
     "status": "active"
   },
@@ -2913,6 +3002,95 @@
         "at": "2022-11-25T20:40:38Z",
         "link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e1raecs",
         "title": "رهایی... واسه وقتایی که حالت بده بهش گوش کن... پادکست انگیزشی احساسی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "anglisi-bi-klas-english-b-kelas": {
+    "avg_length": 16,
+    "episodes": 130,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-05-05",
+    "first_year": 1399,
+    "last": "1403/01/03",
+    "last_at": "2024-03-22T17:28:16Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/h.soleimani82%40gmail.com/episodes/ep-e2heefc",
+    "last_title": "درباره ی من",
+    "max_length": 34,
+    "median_length": 14,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/15af4adc/podcast/play/84408236/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2024-2-22%2F371857353-48000-2-8cb1c87b0c579.mp3",
+        "at": "2024-03-22T17:28:16Z",
+        "t": "درباره ی من"
+      },
+      {
+        "a": "https://anchor.fm/s/15af4adc/podcast/play/39980765/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-8-8%2F217233156-48000-1-386f4c7f697dc.mp3",
+        "at": "2021-09-08T09:25:42Z",
+        "t": "درس ۴۲ کتاب English Vocabulary in Use"
+      },
+      {
+        "a": "https://anchor.fm/s/15af4adc/podcast/play/39756524/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-8-3%2F216380690-48000-1-f0b0863340038.mp3",
+        "at": "2021-09-03T09:13:47Z",
+        "t": "درس ۸ کتاب High Intermediate2 کانون زبان ایران"
+      },
+      {
+        "a": "https://anchor.fm/s/15af4adc/podcast/play/39083991/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-7-19%2F213611436-48000-1-d473ee4f34e56.mp3",
+        "at": "2021-08-20T17:52:28Z",
+        "t": "درس ۳۹ کتاب English Vocabulary in Use"
+      },
+      {
+        "a": "https://anchor.fm/s/15af4adc/podcast/play/39083734/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-7-20%2F213848972-48000-1-387379db1a8e9.mp3",
+        "at": "2021-08-20T17:50:39Z",
+        "t": "درس ۴۱ کتاب English Vocabulary in Use"
+      },
+      {
+        "a": "https://anchor.fm/s/15af4adc/podcast/play/39080769/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-7-20%2F213837306-48000-1-b7bccc9649c9f.mp3",
+        "at": "2021-08-20T16:36:00Z",
+        "t": "درس ۴۰ کتاب English Vocabulary in Use"
+      },
+      {
+        "a": "https://anchor.fm/s/15af4adc/podcast/play/38618847/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-7-11%2F211752137-48000-2-986be8ccc4151.mp3",
+        "at": "2021-08-12T03:30:34Z",
+        "t": "شماره سه: Barron's Essential Words for the GRE"
+      },
+      {
+        "a": "https://anchor.fm/s/15af4adc/podcast/play/38618645/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-7-11%2F211751278-44100-2-7b1e2b5b4f1d6.mp3",
+        "at": "2021-08-11T14:09:32Z",
+        "t": "شماره دو: Barron's Essential Words for the GRE"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-03-22T17:28:16Z",
+        "link": "https://podcasters.spotify.com/pod/show/h.soleimani82%40gmail.com/episodes/ep-e2heefc",
+        "title": "درباره ی من"
+      },
+      {
+        "at": "2021-09-08T09:25:42Z",
+        "link": "https://podcasters.spotify.com/pod/show/h.soleimani82%40gmail.com/episodes/English-Vocabulary-in-Use-e172k8t",
+        "title": "درس ۴۲ کتاب English Vocabulary in Use"
+      },
+      {
+        "at": "2021-09-03T09:13:47Z",
+        "link": "https://podcasters.spotify.com/pod/show/h.soleimani82%40gmail.com/episodes/High-Intermediate2-e16rp9c",
+        "title": "درس ۸ کتاب High Intermediate2 کانون زبان ایران"
       }
     ],
     "recent_30d": [
@@ -9173,6 +9351,95 @@
     ],
     "status": "active"
   },
+  "fatmh-zhras-ahl-albit-a": {
+    "avg_length": 15,
+    "episodes": 128,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-11-15",
+    "first_year": 1398,
+    "last": "1402/10/26",
+    "last_at": "2024-01-16T17:04:59Z",
+    "last_link": "https://s3.castbox.fm/ed/6b/74/a901af4e3bb30a822328946edc.mp3",
+    "last_title": "سرود_یافاطمه_س",
+    "max_length": 54,
+    "median_length": 6,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/ed/6b/74/a901af4e3bb30a822328946edc.mp3",
+        "at": "2024-01-16T17:04:59Z",
+        "t": "سرود_یافاطمه_س"
+      },
+      {
+        "a": "https://s3.castbox.fm/19/c7/34/0a232941b2a7778afc008a4700.mp3",
+        "at": "2022-05-31T20:11:55Z",
+        "t": "مرج البحرین"
+      },
+      {
+        "a": "https://s3.castbox.fm/6a/c5/42/1bfbb44ddebb4e58ca1e8cee7d.mp3",
+        "at": "2021-06-07T01:16:15Z",
+        "t": "سید خلخالی شام شهادت امام صادق ع"
+      },
+      {
+        "a": "https://s3.castbox.fm/3e/5e/9d/7546e448bdb4e2516d226acfcc.mp3",
+        "at": "2021-06-06T00:54:56Z",
+        "t": "روضه امام صادق ع . سید خلخالی"
+      },
+      {
+        "a": "https://s3.castbox.fm/6a/8e/bb/2b0ab3468c9b0f61ee2076a4f2.mp3",
+        "at": "2021-05-08T12:17:08Z",
+        "t": "روضه و مداح"
+      },
+      {
+        "a": "https://s3.castbox.fm/2c/42/4e/e12e8046759150a2c8c951c494.mp3",
+        "at": "2021-05-07T17:16:30Z",
+        "t": "قلب و  روح .امامزاده  حق اب و گل پیدا کردن"
+      },
+      {
+        "a": "https://s3.castbox.fm/4b/e5/95/38ab7d4d62a5a1dcb2a7053156.mp3",
+        "at": "2021-05-06T14:02:40Z",
+        "t": "فرج الله همه و کشف الله غمه در حدیث کساء تشریفی است یا تکوینی ؟"
+      },
+      {
+        "a": "https://s3.castbox.fm/29/1a/83/b6f6c5469ca3e669d2942dd768.aac",
+        "at": "2021-05-04T14:20:58Z",
+        "t": "سینه زنی موسی بن جعفر ع"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-01-16T17:04:59Z",
+        "link": "https://s3.castbox.fm/ed/6b/74/a901af4e3bb30a822328946edc.mp3",
+        "title": "سرود_یافاطمه_س"
+      },
+      {
+        "at": "2022-05-31T20:11:55Z",
+        "link": "https://s3.castbox.fm/19/c7/34/0a232941b2a7778afc008a4700.mp3",
+        "title": "مرج البحرین"
+      },
+      {
+        "at": "2021-06-07T01:16:15Z",
+        "link": "https://s3.castbox.fm/6a/c5/42/1bfbb44ddebb4e58ca1e8cee7d.mp3",
+        "title": "سید خلخالی شام شهادت امام صادق ع"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "fght-fotbal": {
     "avg_gap_days": 7.6,
     "avg_length": 31,
@@ -9252,6 +9519,96 @@
       4,
       2,
       0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "filmofilia": {
+    "avg_gap_days": 11.6,
+    "avg_length": 35,
+    "episodes": 133,
+    "eps_365": 10,
+    "eps_90": 0,
+    "first_at": "2024-09-29",
+    "first_year": 1403,
+    "last": "1404/11/19",
+    "last_at": "2026-02-08T01:36:20Z",
+    "last_link": "https://shows.acast.com/filmofilia/episodes/6987e894d4e01f1069412cf0",
+    "last_title": "فیلم انواع مهربانی از لانتیموس - مهرداد پارسا",
+    "max_length": 147,
+    "median_length": 25,
+    "min_length": 5,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66f8fca5319ddcafcbc35123/e/6987e894d4e01f1069412cf0/media.mp3",
+        "at": "2026-02-08T01:36:20Z",
+        "t": "فیلم انواع مهربانی از لانتیموس - مهرداد پارسا"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66f8fca5319ddcafcbc35123/e/6987e83ce4c954d6d9824858/media.mp3",
+        "at": "2026-02-08T01:34:52Z",
+        "t": "فیلم انواع مهربانی از لانتیموس - حسین معززی‌نیا"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66f8fca5319ddcafcbc35123/e/692c1561c4da9138ec04b9c3/media.mp3",
+        "at": "2025-11-30T09:58:57Z",
+        "t": "فلسفه فیلم نوآر- مهرداد پارسا"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66f8fca5319ddcafcbc35123/e/6926a91530ebd386483bfa69/media.mp3",
+        "at": "2025-11-26T07:15:33Z",
+        "t": "پست مدرنیسم در سینما - حسین معززی‌نیا"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66f8fca5319ddcafcbc35123/e/6922dd2953b254a538aee910/media.mp3",
+        "at": "2025-11-23T10:08:41Z",
+        "t": "فیلم مادر - محمد مهدی حسینی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66f8fca5319ddcafcbc35123/e/6922dc6300a96fa12ba676b5/media.mp3",
+        "at": "2025-11-23T10:05:22Z",
+        "t": "فیلم بیگانگان در ترن - رضا درستکار"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66f8fca5319ddcafcbc35123/e/691843467a0043834a808c58/media.mp3",
+        "at": "2025-11-15T09:09:24Z",
+        "t": "روبان سفید هانکه - صالح نجفی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66f8fca5319ddcafcbc35123/e/69183963243c8d88708047c9/media.mp3",
+        "at": "2025-11-15T08:27:15Z",
+        "t": "جاده فدریکو فلینی - علی باقرلی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-02-08T01:36:20Z",
+        "link": "https://shows.acast.com/filmofilia/episodes/6987e894d4e01f1069412cf0",
+        "title": "فیلم انواع مهربانی از لانتیموس - مهرداد پارسا"
+      },
+      {
+        "at": "2026-02-08T01:34:52Z",
+        "link": "https://shows.acast.com/filmofilia/episodes/6987e83ce4c954d6d9824858",
+        "title": "فیلم انواع مهربانی از لانتیموس - حسین معززی‌نیا"
+      },
+      {
+        "at": "2025-11-30T09:58:57Z",
+        "link": "https://shows.acast.com/filmofilia/episodes/692c1561c4da9138ec04b9c3",
+        "title": "فلسفه فیلم نوآر- مهرداد پارسا"
+      }
+    ],
+    "recent_30d": [
+      5,
+      2,
+      0,
+      2,
       0,
       0,
       0,
@@ -13962,6 +14319,95 @@
     ],
     "status": "active"
   },
+  "khanh-adb-parsi-padkst-shahnamh-khoani-shah-pad": {
+    "avg_length": 110,
+    "episodes": 148,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2022-05-24",
+    "first_year": 1401,
+    "last": "1402/03/05",
+    "last_at": "2023-05-26T17:44:08Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/persianliterature/episodes/--e24o18u",
+    "last_title": "نشست شاهنامه خوانی۱۴۵ -ادامه پادشاهی کسری نوشین روان",
+    "max_length": 188,
+    "median_length": 101,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/a1952eb8/podcast/play/71090910/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-26%2F53b76d82-8202-fd35-124f-44318f3cb6fe.mp3",
+        "at": "2023-05-26T17:44:08Z",
+        "t": "نشست شاهنامه خوانی۱۴۵ -ادامه پادشاهی کسری نوشین روان"
+      },
+      {
+        "a": "https://anchor.fm/s/a1952eb8/podcast/play/70678687/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-19%2F9dea6b2f-91a0-f643-e967-62ed94714054.mp3",
+        "at": "2023-05-19T15:33:24Z",
+        "t": "نشست شاهنامه خوانی۱۴۳ -ادامه پادشاهی کسری نوشین روان در روز خیام"
+      },
+      {
+        "a": "https://anchor.fm/s/a1952eb8/podcast/play/70501135/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-16%2F6916aa3d-eba1-160e-de72-77f81e170a27.mp3",
+        "at": "2023-05-16T19:18:49Z",
+        "t": "نشست شاهنامه خوانی ۱۴۲ -ادامه پادشاهی کسری نوشین روان در روز فردوسی."
+      },
+      {
+        "a": "https://anchor.fm/s/a1952eb8/podcast/play/70247576/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-12%2Ff338ccc7-691c-cd80-60d5-91970718a80b.mp3",
+        "at": "2023-05-12T08:38:26Z",
+        "t": "نشست ۱۴۱کارگاه شاهنامه خوانی پادشاهی کسری نوشین روان"
+      },
+      {
+        "a": "https://anchor.fm/s/a1952eb8/podcast/play/70110166/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-10%2F836c3d06-c39b-38a3-dd39-29ce9ade4551.mp3",
+        "at": "2023-05-10T04:55:15Z",
+        "t": "نشست ۱۴۰کارگاه شاهنامه خوانی پادشاهی کسری نوشین روان"
+      },
+      {
+        "a": "https://anchor.fm/s/a1952eb8/podcast/play/69874892/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-5%2Fc75dcda5-3c69-201c-8da4-9a9d32de0535.mp3",
+        "at": "2023-05-05T23:53:55Z",
+        "t": "نشست ۱۳۹کارگاه شاهنامه خوانی -ادامه پادشاهی قباد"
+      },
+      {
+        "a": "https://anchor.fm/s/a1952eb8/podcast/play/69676092/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-2%2F327280909-48000-1-e33b12028b7c3081.mp3",
+        "at": "2023-05-02T17:06:23Z",
+        "t": "شست ۱۳۸کارگاه شاهنامه خوانی - پادشاهی بلاش و قباد پیروز"
+      },
+      {
+        "a": "https://anchor.fm/s/a1952eb8/podcast/play/69676078/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-2%2F327280853-48000-2-6f7aae3e0ae2157c.mp3",
+        "at": "2023-04-29T03:21:37Z",
+        "t": "نشست ۱۳۷کارگاه شاهنامه خوانی - پادشاهی  هرمز -پیروز"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-05-26T17:44:08Z",
+        "link": "https://podcasters.spotify.com/pod/show/persianliterature/episodes/--e24o18u",
+        "title": "نشست شاهنامه خوانی۱۴۵ -ادامه پادشاهی کسری نوشین روان"
+      },
+      {
+        "at": "2023-05-19T15:33:24Z",
+        "link": "https://podcasters.spotify.com/pod/show/persianliterature/episodes/--e24bemv",
+        "title": "نشست شاهنامه خوانی۱۴۳ -ادامه پادشاهی کسری نوشین روان در روز خیام"
+      },
+      {
+        "at": "2023-05-16T19:18:49Z",
+        "link": "https://podcasters.spotify.com/pod/show/persianliterature/episodes/--e2461af",
+        "title": "نشست شاهنامه خوانی ۱۴۲ -ادامه پادشاهی کسری نوشین روان در روز فردوسی."
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "khanoadh-ma": {
     "avg_length": 15,
     "episodes": 60,
@@ -14230,6 +14676,95 @@
     ],
     "status": "active"
   },
+  "khoansh-ktab-brai-ansan-khrdmnd": {
+    "avg_length": 25,
+    "episodes": 190,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-07-13",
+    "first_year": 1399,
+    "last": "1401/08/22",
+    "last_at": "2022-11-13T14:58:58Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/farhad-arkani/episodes/3-e1qmk43",
+    "last_title": "3🧠 خطاهای شناختی در تصمیم‌گیری",
+    "max_length": 468,
+    "median_length": 20,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/179e3420/podcast/play/60558915/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-10-13%2F296723139-44100-2-083468b45f1a2.m4a",
+        "at": "2022-11-13T14:58:58Z",
+        "t": "3🧠 خطاهای شناختی در تصمیم‌گیری"
+      },
+      {
+        "a": "https://anchor.fm/s/179e3420/podcast/play/57616172/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-8-15%2F285856786-44100-2-5442c453a9954.m4a",
+        "at": "2022-09-15T14:13:18Z",
+        "t": "5🧠 هفت‌ونیم درس دربارۀ مغز"
+      },
+      {
+        "a": "https://anchor.fm/s/179e3420/podcast/play/55091983/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-20%2F277301741-44100-2-87dfa32045dd7.m4a",
+        "at": "2022-07-20T17:51:08Z",
+        "t": "💸 حرف‌هایی با دخترم دربارۀ اقتصاد 1️⃣"
+      },
+      {
+        "a": "https://anchor.fm/s/179e3420/podcast/play/53863600/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-22%2F273059480-44100-2-091be94b01b1f.m4a",
+        "at": "2022-06-22T18:22:49Z",
+        "t": "💰 تاریخچه و خاستگاه پول 💰"
+      },
+      {
+        "a": "https://anchor.fm/s/179e3420/podcast/play/50654063/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-3-16%2F259997134-24000-2-21fe2a9954bf7.mp3",
+        "at": "2022-04-16T03:19:15Z",
+        "t": "1️⃣6️⃣ پا به سن گذاشتن"
+      },
+      {
+        "a": "https://anchor.fm/s/179e3420/podcast/play/50479753/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-3-12%2F259348541-24000-2-249a2b4df705c.mp3",
+        "at": "2022-04-12T12:24:38Z",
+        "t": "1️⃣5️⃣ ابَراعتقادها و فواید شک‌کردن"
+      },
+      {
+        "a": "https://anchor.fm/s/179e3420/podcast/play/50023384/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-3-3%2F257585987-24000-2-af3fc5558705f.mp3",
+        "at": "2022-04-03T06:58:23Z",
+        "t": "1️⃣4️⃣ سه درسی که نباید یاد می‌گرفتید!"
+      },
+      {
+        "a": "https://anchor.fm/s/179e3420/podcast/play/49070022/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-2-15%2F253841521-24000-2-642e5969337f1.mp3",
+        "at": "2022-03-15T05:36:24Z",
+        "t": "1️⃣2️⃣ اقتصاد توجه 👀"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-11-13T14:58:58Z",
+        "link": "https://podcasters.spotify.com/pod/show/farhad-arkani/episodes/3-e1qmk43",
+        "title": "3🧠 خطاهای شناختی در تصمیم‌گیری"
+      },
+      {
+        "at": "2022-09-15T14:13:18Z",
+        "link": "https://podcasters.spotify.com/pod/show/farhad-arkani/episodes/5-e1nsqbc",
+        "title": "5🧠 هفت‌ونیم درس دربارۀ مغز"
+      },
+      {
+        "at": "2022-07-20T17:51:08Z",
+        "link": "https://podcasters.spotify.com/pod/show/farhad-arkani/episodes/1-e1lfpaf",
+        "title": "💸 حرف‌هایی با دخترم دربارۀ اقتصاد 1️⃣"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "khoansh-ktab-brai-ansan-khrdmnd-2": {
     "avg_gap_days": 12.9,
     "avg_length": 20,
@@ -14391,6 +14926,95 @@
         "at": "2024-11-07T12:30:00Z",
         "link": "https://podcasters.spotify.com/pod/show/adabcelibrary/episodes/ep-e2qlvaq",
         "title": "خوانش متون فارسی | اسرارالتوحید | صد | باب دوم، فصل اول، حکایت ۱۰۱"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "khodngri": {
+    "avg_length": 50,
+    "episodes": 138,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-12-01",
+    "first_year": 1399,
+    "last": "1403/06/09",
+    "last_at": "2024-08-30T00:15:00Z",
+    "last_link": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgLCShoi9CQyiAQdsaWJyYXJ5/b237a7b2-6a65-4577-9354-59a312882f37.mp3",
+    "last_title": "#139 - زیبایی در حضور",
+    "max_length": 111,
+    "median_length": 48,
+    "min_length": 33,
+    "play": [
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgLCShoi9CQyiAQdsaWJyYXJ5/b237a7b2-6a65-4577-9354-59a312882f37.mp3",
+        "at": "2024-08-30T00:15:00Z",
+        "t": "#139 - زیبایی در حضور"
+      },
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgLCShoi9CQyiAQdsaWJyYXJ5/9a314c4d-867a-4a36-a439-c591f3421809.mp3",
+        "at": "2024-08-29T00:13:00Z",
+        "t": "#138 - گذشنه و نیروی حال"
+      },
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgLCShoi9CQyiAQdsaWJyYXJ5/1def7d12-2fa4-4656-ac8e-b5e0ebbb6ef6.mp3",
+        "at": "2024-08-28T00:11:00Z",
+        "t": "#137 - انتظار"
+      },
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgLCShoi9CQyiAQdsaWJyYXJ5/6ac3f1f9-47d1-45fb-8fe4-9c529d7116e2.mp3",
+        "at": "2024-08-27T00:09:00Z",
+        "t": "#136 - پذیرفتن"
+      },
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgLCShoi9CQyiAQdsaWJyYXJ5/2502100f-c4c7-4f4d-b92f-8bb4627054fd.mp3",
+        "at": "2024-08-11T05:49:00Z",
+        "t": "#135 - شاهد بودن"
+      },
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgLCShoi9CQyiAQdsaWJyYXJ5/6ebf3138-aa8a-4011-a50a-a3ae073920b6.mp3",
+        "at": "2024-08-07T05:46:14Z",
+        "t": "#134 - رهایی از زمان"
+      },
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgLCShoi9CQyiAQdsaWJyYXJ5/172ae52e-e07d-424a-b40e-0285ee501ecc.mp3",
+        "at": "2024-04-24T04:30:00Z",
+        "t": "#133 - حضور پررنگ"
+      },
+      {
+        "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgLCShoi9CQyiAQdsaWJyYXJ5/86cfa473-ab77-4e71-a006-cc9f08a9da43.mp3",
+        "at": "2024-04-23T04:29:00Z",
+        "t": "#132 - تماشگر ذهن خویش"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-08-30T00:15:00Z",
+        "link": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgLCShoi9CQyiAQdsaWJyYXJ5/b237a7b2-6a65-4577-9354-59a312882f37.mp3",
+        "title": "#139 - زیبایی در حضور"
+      },
+      {
+        "at": "2024-08-29T00:13:00Z",
+        "link": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgLCShoi9CQyiAQdsaWJyYXJ5/9a314c4d-867a-4a36-a439-c591f3421809.mp3",
+        "title": "#138 - گذشنه و نیروی حال"
+      },
+      {
+        "at": "2024-08-28T00:11:00Z",
+        "link": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgLCShoi9CQyiAQdsaWJyYXJ5/1def7d12-2fa4-4656-ac8e-b5e0ebbb6ef6.mp3",
+        "title": "#137 - انتظار"
       }
     ],
     "recent_30d": [
@@ -18126,6 +18750,95 @@
     ],
     "status": "active"
   },
+  "mhmd-mjthd-shbstri": {
+    "avg_length": 92,
+    "episodes": 145,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2022-09-26",
+    "first_year": 1401,
+    "last": "1402/01/23",
+    "last_at": "2023-04-12T07:48:00Z",
+    "last_link": "https://s3.castbox.fm/e8/ec/92/7bc96d4bd0a819a68788d4719e.mp3",
+    "last_title": "خدا راز جهان  68 - Khoda raze jahan",
+    "max_length": 120,
+    "median_length": 84,
+    "min_length": 43,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/e8/ec/92/7bc96d4bd0a819a68788d4719e.mp3",
+        "at": "2023-04-12T07:48:00Z",
+        "t": "خدا راز جهان  68 - Khoda raze jahan"
+      },
+      {
+        "a": "https://s3.castbox.fm/0c/f7/5f/10655c44789ef866b38bc9dca6.mp3",
+        "at": "2023-04-11T07:48:00Z",
+        "t": "خدا راز جهان  67 - Khoda raze jahan"
+      },
+      {
+        "a": "https://s3.castbox.fm/24/c5/02/ee37984b91840b502ab12ea394.mp3",
+        "at": "2023-04-10T07:48:00Z",
+        "t": "خدا راز جهان  66 - Khoda raze jahan"
+      },
+      {
+        "a": "https://s3.castbox.fm/fe/60/fd/6f62d642f985ce876cd1a60693.mp3",
+        "at": "2023-04-09T07:48:00Z",
+        "t": "خدا راز جهان  65 - Khoda raze jahan"
+      },
+      {
+        "a": "https://s3.castbox.fm/2d/40/86/5867fa444e89efcfa62fb52f1f.mp3",
+        "at": "2023-04-08T07:48:00Z",
+        "t": "خدا راز جهان  64 - Khoda raze jahan"
+      },
+      {
+        "a": "https://s3.castbox.fm/d8/d8/4d/9c5f0240909aabee80302b16ec.mp3",
+        "at": "2023-04-07T07:48:00Z",
+        "t": "خدا راز جهان  63 - Khoda raze jahan"
+      },
+      {
+        "a": "https://s3.castbox.fm/a6/79/50/1fb86147f78de5bebc2ebf0a50.mp3",
+        "at": "2023-04-06T07:48:00Z",
+        "t": "خدا راز جهان  62 - Khoda raze jahan"
+      },
+      {
+        "a": "https://s3.castbox.fm/9c/0d/7c/d7f5cb48909001249a43af8448.mp3",
+        "at": "2023-04-05T07:48:00Z",
+        "t": "خدا راز جهان  61 - Khoda raze jahan"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-04-12T07:48:00Z",
+        "link": "https://s3.castbox.fm/e8/ec/92/7bc96d4bd0a819a68788d4719e.mp3",
+        "title": "خدا راز جهان  68 - Khoda raze jahan"
+      },
+      {
+        "at": "2023-04-11T07:48:00Z",
+        "link": "https://s3.castbox.fm/0c/f7/5f/10655c44789ef866b38bc9dca6.mp3",
+        "title": "خدا راز جهان  67 - Khoda raze jahan"
+      },
+      {
+        "at": "2023-04-10T07:48:00Z",
+        "link": "https://s3.castbox.fm/24/c5/02/ee37984b91840b502ab12ea394.mp3",
+        "title": "خدا راز جهان  66 - Khoda raze jahan"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "midnightcast": {
     "avg_gap_days": 34.3,
     "avg_length": 61,
@@ -20004,6 +20717,95 @@
     ],
     "status": "active"
   },
+  "nimh-tarik-ojod-noisndh-dbi-ford-raoi-pria-srkhi": {
+    "avg_length": 29,
+    "episodes": 159,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-06-02",
+    "first_year": 1400,
+    "last": "1401/04/06",
+    "last_at": "2022-06-27T09:38:33Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/paria-sorkhi/episodes/ep-e1kg96f",
+    "last_title": "نیمه تاریک وجود فصل نهم راوی پریا سرخی",
+    "max_length": 59,
+    "median_length": 20,
+    "min_length": 5,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/5d1790dc/podcast/play/54059663/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-5-27%2F273799968-44100-1-99d5a8f7777e9.m4a",
+        "at": "2022-06-27T09:38:33Z",
+        "t": "نیمه تاریک وجود فصل نهم راوی پریا سرخی"
+      },
+      {
+        "a": "https://anchor.fm/s/5d1790dc/podcast/play/53668668/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-5-18%2F272350753-44100-1-aa0212415d668.m4a",
+        "at": "2022-06-18T14:54:02Z",
+        "t": "نیمه تاریک وجود فصل هشتم راوی پریا سرخی"
+      },
+      {
+        "a": "https://anchor.fm/s/5d1790dc/podcast/play/53617851/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-5-17%2F272164961-44100-1-0f32c74f3729c.m4a",
+        "at": "2022-06-17T08:41:31Z",
+        "t": "نیمه تاریک‌ وجود فصل هفتم راوی پریا سرخی"
+      },
+      {
+        "a": "https://anchor.fm/s/5d1790dc/podcast/play/53350490/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-11%2Fca4168a8-391d-dbc5-cf4f-8137fc6a5da3.m4a",
+        "at": "2022-06-11T15:07:39Z",
+        "t": "نیمه تاریک وجود فصل ششم راوی پریا سرخی"
+      },
+      {
+        "a": "https://anchor.fm/s/5d1790dc/podcast/play/53298875/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-5-10%2F270901669-44100-1-90fc76865a324.m4a",
+        "at": "2022-06-10T08:17:27Z",
+        "t": "فصل پنجم سایه ات رابشناس تا خودت را بشناسی راوی پریا سرخی"
+      },
+      {
+        "a": "https://anchor.fm/s/5d1790dc/podcast/play/51749375/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-4-9%2F264460649-44100-1-609998dd7c4cf.m4a",
+        "at": "2022-05-09T16:36:59Z",
+        "t": "نیمه تاریک وجود فصل ۴ راوی پریا سرخی"
+      },
+      {
+        "a": "https://anchor.fm/s/5d1790dc/podcast/play/51648571/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-4-7%2F264076376-44100-1-972b79b755329.m4a",
+        "at": "2022-05-07T08:09:36Z",
+        "t": "نیمه تاریک وجود فصل سوم راوی پریا سرخی"
+      },
+      {
+        "a": "https://anchor.fm/s/5d1790dc/podcast/play/51553647/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-4-5%2F263670722-44100-1-8196d122f2d15.m4a",
+        "at": "2022-05-05T07:40:20Z",
+        "t": "فصل دوم :به دنبال سایه"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-06-27T09:38:33Z",
+        "link": "https://podcasters.spotify.com/pod/show/paria-sorkhi/episodes/ep-e1kg96f",
+        "title": "نیمه تاریک وجود فصل نهم راوی پریا سرخی"
+      },
+      {
+        "at": "2022-06-18T14:54:02Z",
+        "link": "https://podcasters.spotify.com/pod/show/paria-sorkhi/episodes/ep-e1k4bbs",
+        "title": "نیمه تاریک وجود فصل هشتم راوی پریا سرخی"
+      },
+      {
+        "at": "2022-06-17T08:41:31Z",
+        "link": "https://podcasters.spotify.com/pod/show/paria-sorkhi/episodes/ep-e1k2pnr",
+        "title": "نیمه تاریک‌ وجود فصل هفتم راوی پریا سرخی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "noys": {
     "avg_gap_days": 17.0,
     "avg_length": 110,
@@ -20065,6 +20867,95 @@
       0,
       2,
       1,
+      0
+    ],
+    "status": "active"
+  },
+  "nshat-rkh": {
+    "avg_length": 2,
+    "episodes": 152,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2025-05-13",
+    "first_year": 1404,
+    "last": "1404/06/31",
+    "last_at": "2025-09-22T07:58:14Z",
+    "last_link": "https://shenoto.com/album/podcast/461002/راهنمای خرید پیلینگ",
+    "last_title": "راهنمای خرید پیلینگ",
+    "max_length": 4,
+    "median_length": 2,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/e403a12a-9789-11f0-b314-0242ac120014.mp3",
+        "at": "2025-09-22T07:58:14Z",
+        "t": "راهنمای خرید پیلینگ"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/272a59cd-9789-11f0-b314-0242ac120014.mp3",
+        "at": "2025-09-22T07:52:57Z",
+        "t": "راهنمای خرید ست کادویی مردانه"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/ea3296ff-96af-11f0-b314-0242ac120014.mp3",
+        "at": "2025-09-21T05:57:54Z",
+        "t": "راهنمای خرید روشن کننده بدن"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/9d8b05d2-96af-11f0-b314-0242ac120014.mp3",
+        "at": "2025-09-21T05:55:45Z",
+        "t": "راهنمای خرید برنزه کننده بدن"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/95921185-95e9-11f0-b314-0242ac120014.mp3",
+        "at": "2025-09-20T06:18:11Z",
+        "t": "راهنمای خرید ادوتویلت مردانه"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/082c32b9-95e9-11f0-b314-0242ac120014.mp3",
+        "at": "2025-09-20T06:14:14Z",
+        "t": "راهنمای خرید پرفیوم مردانه"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c0a4cbf0-92c0-11f0-b314-0242ac120014.mp3",
+        "at": "2025-09-16T05:48:21Z",
+        "t": "راهنمای خرید ادکلن مردانه"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/85ee9909-92c0-11f0-b314-0242ac120014.mp3",
+        "at": "2025-09-16T05:46:42Z",
+        "t": "راهنمای خرید ست کادویی زنانه"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-09-22T07:58:14Z",
+        "link": "https://shenoto.com/album/podcast/461002/راهنمای خرید پیلینگ",
+        "title": "راهنمای خرید پیلینگ"
+      },
+      {
+        "at": "2025-09-22T07:52:57Z",
+        "link": "https://shenoto.com/album/podcast/461000/راهنمای خرید ست کادویی مردانه",
+        "title": "راهنمای خرید ست کادویی مردانه"
+      },
+      {
+        "at": "2025-09-21T05:57:54Z",
+        "link": "https://shenoto.com/album/podcast/458456/راهنمای خرید روشن کننده بدن",
+        "title": "راهنمای خرید روشن کننده بدن"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0
     ],
     "status": "active"
@@ -30886,6 +31777,95 @@
     ],
     "status": "inactive"
   },
+  "radio-iranshahr-radio-airanshhr": {
+    "avg_length": 39,
+    "episodes": 187,
+    "eps_365": 1,
+    "eps_90": 0,
+    "first_at": "2018-02-02",
+    "first_year": 1396,
+    "last": "1404/08/19",
+    "last_at": "2025-11-10T19:37:36Z",
+    "last_link": "https://radioiranshahr.org/program/program-598/?la=fa",
+    "last_title": "Program 598",
+    "max_length": 104,
+    "median_length": 46,
+    "min_length": 12,
+    "play": [
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/Program-598.mp3",
+        "at": "2025-11-10T19:37:36Z",
+        "t": "Program 598"
+      },
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/Program-597.mp3",
+        "at": "2025-07-03T23:58:38Z",
+        "t": "Program 597"
+      },
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/Program-595.mp3",
+        "at": "2025-04-16T13:51:54Z",
+        "t": "Program 595"
+      },
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/Program-596.mp3",
+        "at": "2025-04-13T23:47:06Z",
+        "t": "Program 596"
+      },
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/Program-591.mp3",
+        "at": "2023-10-29T04:36:22Z",
+        "t": "Program 591"
+      },
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/Program590-Final-–-Program590.mp3",
+        "at": "2023-10-12T16:37:50Z",
+        "t": "Program 590"
+      },
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/Program-589.mp3",
+        "at": "2023-10-12T14:39:18Z",
+        "t": "Program 589"
+      },
+      {
+        "a": "https://radioiranshahr.org/wp-content/uploads/۵۸۸.mp3",
+        "at": "2023-08-18T21:31:34Z",
+        "t": "Program 588"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-11-10T19:37:36Z",
+        "link": "https://radioiranshahr.org/program/program-598/?la=fa",
+        "title": "Program 598"
+      },
+      {
+        "at": "2025-07-03T23:58:38Z",
+        "link": "https://radioiranshahr.org/program/program-597/?la=fa",
+        "title": "Program 597"
+      },
+      {
+        "at": "2025-04-16T13:51:54Z",
+        "link": "https://radioiranshahr.org/program/program-595/?la=fa",
+        "title": "Program 595"
+      }
+    ],
+    "recent_30d": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "radio-jamah-padkst-ajtmaai": {
     "avg_gap_days": 9.4,
     "avg_length": 11,
@@ -32140,6 +33120,96 @@
       1,
       1,
       1
+    ],
+    "status": "active"
+  },
+  "radiogik-radiogeek": {
+    "avg_gap_days": 5.2,
+    "avg_length": 20,
+    "episodes": 229,
+    "eps_365": 67,
+    "eps_90": 21,
+    "first_at": "2012-03-21",
+    "first_year": 1391,
+    "last": "1405/07/21",
+    "last_at": "2026-10-13T21:39:18Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/radiojadi/episodes/ep-e3qeqdp",
+    "last_title": "رادیوجادی ۲۶۶ – کتاب برای پیروزی – قسمت ۶۰ و ۶۱ – کوری دکترو",
+    "max_length": 129,
+    "median_length": 46,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/6048890/podcast/play/127412089/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F434086275-44100-2-2ece7a8ebdd6a.mp3",
+        "at": "2026-10-13T21:39:18Z",
+        "t": "رادیوجادی ۲۶۶ – کتاب برای پیروزی – قسمت ۶۰ و ۶۱ – کوری دکترو"
+      },
+      {
+        "a": "https://anchor.fm/s/6048890/podcast/play/127412085/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F434085488-44100-2-cfdbe77dd4e54.mp3",
+        "at": "2026-10-13T20:14:45Z",
+        "t": "رادیوجادی ۲۶۵ – کتاب برای پیروزی – قسمت ۵۹ – کوری دکترو"
+      },
+      {
+        "a": "https://anchor.fm/s/6048890/podcast/play/127412080/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F434085439-44100-2-88e0e70fb7f68.mp3",
+        "at": "2026-10-13T20:06:59Z",
+        "t": "رادیوجادی ۲۶۴ – کتاب برای پیروزی – قسمت ۵۸ – کوری دکترو"
+      },
+      {
+        "a": "https://anchor.fm/s/6048890/podcast/play/127412073/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F434085223-44100-2-9f291cc60202b.mp3",
+        "at": "2026-10-13T18:13:37Z",
+        "t": "رادیوجادی ۲۶۳ – کتاب برای پیروزی – قسمت ۵۷ – کوری دکترو"
+      },
+      {
+        "a": "https://anchor.fm/s/6048890/podcast/play/127412067/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F434085425-44100-2-0ac932d37366e.mp3",
+        "at": "2026-10-13T17:31:39Z",
+        "t": "رادیوجادی ۲۶۲ – کتاب برای پیروزی – قسمت ۵۶ – کوری دکترو"
+      },
+      {
+        "a": "https://anchor.fm/s/6048890/podcast/play/127412058/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F434085429-44100-2-8109497bafbc.mp3",
+        "at": "2026-10-13T17:29:30Z",
+        "t": "رادیوجادی ۲۶۱ – کتاب برای پیروزی – قسمت ۵۵ – کوری دکترو"
+      },
+      {
+        "a": "https://anchor.fm/s/6048890/podcast/play/126062511/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-21%2F432334347-44100-2-ab401fec8a666.mp3",
+        "at": "2026-09-21T20:41:44Z",
+        "t": "رادیوجادی ۲۶۰ – کتاب برای پیروزی – قسمت ۵۴ – کوری دکترو"
+      },
+      {
+        "a": "https://anchor.fm/s/6048890/podcast/play/126064306/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-21%2F432335171-44100-2-0fe4b8ee008d4.mp3",
+        "at": "2026-09-21T20:40:52Z",
+        "t": "رادیوجادی ۲۵۹ – کتاب برای پیروزی – قسمت ۵۳ – کوری دکترو"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-13T21:39:18Z",
+        "link": "https://podcasters.spotify.com/pod/show/radiojadi/episodes/ep-e3qeqdp",
+        "title": "رادیوجادی ۲۶۶ – کتاب برای پیروزی – قسمت ۶۰ و ۶۱ – کوری دکترو"
+      },
+      {
+        "at": "2026-10-13T20:14:45Z",
+        "link": "https://podcasters.spotify.com/pod/show/radiojadi/episodes/ep-e3qeqdl",
+        "title": "رادیوجادی ۲۶۵ – کتاب برای پیروزی – قسمت ۵۹ – کوری دکترو"
+      },
+      {
+        "at": "2026-10-13T20:06:59Z",
+        "link": "https://podcasters.spotify.com/pod/show/radiojadi/episodes/ep-e3qeqdg",
+        "title": "رادیوجادی ۲۶۴ – کتاب برای پیروزی – قسمت ۵۸ – کوری دکترو"
+      }
+    ],
+    "recent_30d": [
+      1,
+      2,
+      0,
+      0,
+      0,
+      22,
+      2,
+      8,
+      11,
+      1,
+      1,
+      19
     ],
     "status": "active"
   },
@@ -35647,6 +36717,95 @@
     ],
     "status": "active"
   },
+  "shioana": {
+    "avg_length": 4,
+    "episodes": 126,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-08-08",
+    "first_year": 1400,
+    "last": "1403/11/06",
+    "last_at": "2025-01-25T19:42:19Z",
+    "last_link": "https://ravipodcast.ir/",
+    "last_title": "پادکست داستان کوتاه لالاند رو دنبال کنید",
+    "max_length": 10,
+    "median_length": 3,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64b23f6d289762001122f4ab/e/67953e9c64a671b4e1104f8a/media.mp3",
+        "at": "2025-01-25T19:42:19Z",
+        "t": "پادکست داستان کوتاه لالاند رو دنبال کنید"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64b23f6d289762001122f4ab/e/65a25aff0fa9b00016fbff43/media.mp3",
+        "at": "2024-01-13T09:42:24Z",
+        "t": "125-اگر سردت است بلرز، پس چرا میشماری، تنها کار مفید الان"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64b23f6d289762001122f4ab/e/659ba6e3d3a805001699a1ef/media.mp3",
+        "at": "2024-01-08T07:58:56Z",
+        "t": "124-زمان مردن ، کی برنده میشوم ، همین الان همین جا"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64b23f6d289762001122f4ab/e/658aa062e0430d00169ea7c4/media.mp3",
+        "at": "2023-12-29T09:43:22Z",
+        "t": "123-هرگز نباید رخ دهد،فقط یکی داری،جوجه اردک بزرگ مقام"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64b23f6d289762001122f4ab/e/658a9cc2fd880f00175e85fe/media.mp3",
+        "at": "2023-12-28T09:24:12Z",
+        "t": "122-آرامش ابدی، یکی از جنس همین فرشته ها،چون مرز نداشتی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64b23f6d289762001122f4ab/e/658a9774b7554e001739061f/media.mp3",
+        "at": "2023-12-27T09:05:48Z",
+        "t": "121-چون که لایق ترینی،زرنگ ترین شاگرد، سنجاقک به عقب نمی‌پرد"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64b23f6d289762001122f4ab/e/658a9569e0430d00169d6a7c/media.mp3",
+        "at": "2023-12-26T08:57:13Z",
+        "t": "120-همین دلیل برای من کافی است، خانه خدا،باید به سرت بزند"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64b23f6d289762001122f4ab/e/6582b110abdc6c0016845da3/media.mp3",
+        "at": "2023-12-20T16:25:59Z",
+        "t": "119-بهشت در روح انسان،طناب آرامش‌بخش،بال نمیخواهم بالهایم تو باش"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-01-25T19:42:19Z",
+        "link": "https://ravipodcast.ir/",
+        "title": "پادکست داستان کوتاه لالاند رو دنبال کنید"
+      },
+      {
+        "at": "2024-01-13T09:42:24Z",
+        "link": "https://ravipodcast.ir/",
+        "title": "125-اگر سردت است بلرز، پس چرا میشماری، تنها کار مفید الان"
+      },
+      {
+        "at": "2024-01-08T07:58:56Z",
+        "link": "https://ravipodcast.ir/",
+        "title": "124-زمان مردن ، کی برنده میشوم ، همین الان همین جا"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "shm-sinma": {
     "avg_length": 20,
     "episodes": 16,
@@ -35915,6 +37074,95 @@
     ],
     "status": "active"
   },
+  "shrh-o-tfsir-torat-o-anjil": {
+    "avg_length": 28,
+    "episodes": 132,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-11-10",
+    "first_year": 1398,
+    "last": "1400/05/24",
+    "last_at": "2021-08-15T14:35:59Z",
+    "last_link": "https://s3.castbox.fm/f6/3d/da/854f374736874281de6b861451.mp3",
+    "last_title": "مقایسه مسیحیت و تشیع",
+    "max_length": 77,
+    "median_length": 24,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/f6/3d/da/854f374736874281de6b861451.mp3",
+        "at": "2021-08-15T14:35:59Z",
+        "t": "مقایسه مسیحیت و تشیع"
+      },
+      {
+        "a": "https://s3.castbox.fm/f7/85/60/4c779743c68e2edd284c0c500c.mp3",
+        "at": "2021-05-08T23:15:26Z",
+        "t": "بابل و پنطیکاس"
+      },
+      {
+        "a": "https://s3.castbox.fm/15/c4/ec/c2e1644622b74c59d49bf4de36.mp3",
+        "at": "2021-04-29T22:37:32Z",
+        "t": "ایدناه بروح القدوس"
+      },
+      {
+        "a": "https://s3.castbox.fm/36/72/99/ea15f64f41b6fee8851750ca1f.mp3",
+        "at": "2020-12-02T16:43:17Z",
+        "t": "نگویید تورات و انجیل تحریف شده"
+      },
+      {
+        "a": "https://s3.castbox.fm/de/4f/ba/e266a646b8a0ac5d00d80d5b47.mp3",
+        "at": "2020-11-30T04:19:24Z",
+        "t": "خروج ۱"
+      },
+      {
+        "a": "https://s3.castbox.fm/fc/99/47/1fb5db4c30a22f39b8aa06bda9.mp3",
+        "at": "2020-11-30T04:19:19Z",
+        "t": "خروج ۴"
+      },
+      {
+        "a": "https://s3.castbox.fm/36/cd/b6/05e6994508afba638a62326e60.mp3",
+        "at": "2020-11-30T04:19:13Z",
+        "t": "خروج ۲"
+      },
+      {
+        "a": "https://s3.castbox.fm/3d/85/87/4eab8b4ec69f313290b87111e5.mp3",
+        "at": "2020-11-30T04:19:08Z",
+        "t": "خروج ۳"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2021-08-15T14:35:59Z",
+        "link": "https://s3.castbox.fm/f6/3d/da/854f374736874281de6b861451.mp3",
+        "title": "مقایسه مسیحیت و تشیع"
+      },
+      {
+        "at": "2021-05-08T23:15:26Z",
+        "link": "https://s3.castbox.fm/f7/85/60/4c779743c68e2edd284c0c500c.mp3",
+        "title": "بابل و پنطیکاس"
+      },
+      {
+        "at": "2021-04-29T22:37:32Z",
+        "link": "https://s3.castbox.fm/15/c4/ec/c2e1644622b74c59d49bf4de36.mp3",
+        "title": "ایدناه بروح القدوس"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "siast-nma": {
     "avg_length": 52,
     "episodes": 17,
@@ -36182,6 +37430,95 @@
       1
     ],
     "status": "active"
+  },
+  "skhn-amroz": {
+    "avg_length": 24,
+    "episodes": 140,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-07-22",
+    "first_year": 1400,
+    "last": "1402/07/11",
+    "last_at": "2023-10-03T16:27:02Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/ali-jafari5/episodes/111-e2a3ut8",
+    "last_title": "111.نگاهی به زندگی شاه",
+    "max_length": 33,
+    "median_length": 19,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/651659d0/podcast/play/76724584/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F651659d0%2F76724584%2Fd1e6abdae42a50cd226b7c6dd42f1681.m4a",
+        "at": "2023-10-03T16:27:02Z",
+        "t": "111.نگاهی به زندگی شاه"
+      },
+      {
+        "a": "https://anchor.fm/s/651659d0/podcast/play/76278883/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F651659d0%2F76278883%2F748927b14e553ced79a954c44fdde373.m4a",
+        "at": "2023-09-23T18:20:44Z",
+        "t": "110.نگاهی به زندگی شاه"
+      },
+      {
+        "a": "https://anchor.fm/s/651659d0/podcast/play/75709996/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F651659d0%2F75709996%2Fdbeb1a8c40716de8d5c154af5ff621d7.m4a",
+        "at": "2023-09-10T15:24:54Z",
+        "t": "109.نگاهی به زندگی شاه"
+      },
+      {
+        "a": "https://anchor.fm/s/651659d0/podcast/play/75551594/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F651659d0%2F75551594%2Fe1f3a174a1f914889c11b963558a96f5.m4a",
+        "at": "2023-09-06T15:53:45Z",
+        "t": "108.نگاهی به زندگی شاه"
+      },
+      {
+        "a": "https://anchor.fm/s/651659d0/podcast/play/75457427/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F651659d0%2F75457427%2F0e6355f8de11e7db1e09136b68a7e346.m4a",
+        "at": "2023-09-04T18:48:46Z",
+        "t": "107.نگاهی به زندگی شاه"
+      },
+      {
+        "a": "https://anchor.fm/s/651659d0/podcast/play/75357136/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F651659d0%2F75357136%2F6f953c8e41e482a1e12d215c3d4f7aca.m4a",
+        "at": "2023-09-01T17:18:35Z",
+        "t": "106.نگاهی به زندگی شاه"
+      },
+      {
+        "a": "https://anchor.fm/s/651659d0/podcast/play/75217665/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F651659d0%2F75217665%2Fa522327986d7ca5c27a6d7051406285a.m4a",
+        "at": "2023-08-29T16:51:39Z",
+        "t": "105.نگاهی به زندگی شاه"
+      },
+      {
+        "a": "https://anchor.fm/s/651659d0/podcast/play/75017135/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F651659d0%2F75017135%2F153e94a4896b61399c1254cda5b91581.m4a",
+        "at": "2023-08-26T15:45:08Z",
+        "t": "104.نگاهی به زندگی شاه"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-10-03T16:27:02Z",
+        "link": "https://podcasters.spotify.com/pod/show/ali-jafari5/episodes/111-e2a3ut8",
+        "title": "111.نگاهی به زندگی شاه"
+      },
+      {
+        "at": "2023-09-23T18:20:44Z",
+        "link": "https://podcasters.spotify.com/pod/show/ali-jafari5/episodes/110-e29mbl3",
+        "title": "110.نگاهی به زندگی شاه"
+      },
+      {
+        "at": "2023-09-10T15:24:54Z",
+        "link": "https://podcasters.spotify.com/pod/show/ali-jafari5/episodes/109-e29503c",
+        "title": "109.نگاهی به زندگی شاه"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "skhnrani-ha-mizgrdha-o-msahbh-hai-almi": {
     "avg_gap_days": 95.5,
@@ -39757,6 +41094,96 @@
       14,
       0,
       11
+    ],
+    "status": "active"
+  },
+  "zndgi-ps-az-zndgi": {
+    "avg_gap_days": 38.0,
+    "avg_length": 79,
+    "episodes": 146,
+    "eps_365": 10,
+    "eps_90": 2,
+    "first_at": "2022-04-19",
+    "first_year": 1401,
+    "last": "1405/07/07",
+    "last_at": "2026-09-29T08:48:21Z",
+    "last_link": "https://s3.castbox.fm/9c/9e/29/a73d484cc2bfbc8920ffc6b49b.mp3",
+    "last_title": "زندگی پس از زندگی- فصل ششم-قسمت سی ام- جهانگیر ولادی(بخش سوم)",
+    "max_length": 101,
+    "median_length": 78,
+    "min_length": 45,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/9c/9e/29/a73d484cc2bfbc8920ffc6b49b.mp3",
+        "at": "2026-09-29T08:48:21Z",
+        "t": "زندگی پس از زندگی- فصل ششم-قسمت سی ام- جهانگیر ولادی(بخش سوم)"
+      },
+      {
+        "a": "https://s3.castbox.fm/bb/43/33/39d08e47b98b6dcbfe0f7c31ae.mp3",
+        "at": "2026-09-29T08:45:32Z",
+        "t": "زندگی پس از زندگی- فصل ششم-قسمت بیست و نهم- جهانگیر ولادی(بخش دوم)"
+      },
+      {
+        "a": "https://s3.castbox.fm/80/3f/19/9d28a04ba1ab4b07176b7e9e12.mp3",
+        "at": "2026-06-16T06:40:48Z",
+        "t": "زندگی پس از زندگی- فصل ششم-قسمت بیست و هشتم- جهانگیر ولادی"
+      },
+      {
+        "a": "https://s3.castbox.fm/fe/42/d5/e9d56d41c793d3fa6b406a6088.mp3",
+        "at": "2026-06-01T04:38:56Z",
+        "t": "زندگی پس از زندگی- فصل ششم-قسمت بیست و هفتم- داود صالحی"
+      },
+      {
+        "a": "https://s3.castbox.fm/7b/e0/54/cfd4804db18f871c47d9605acf.mp3",
+        "at": "2026-02-14T07:05:42Z",
+        "t": "زندگی پس از زندگی- فصل ششم-قسمت بیست و ششم- امین رضایی"
+      },
+      {
+        "a": "https://s3.castbox.fm/ad/d6/2e/6383764e098a83504c99f8d5db.mp3",
+        "at": "2025-12-21T10:21:04Z",
+        "t": "زندگی پس از زندگی- فصل ششم-قسمت بیست و پنجم- نوید قره داغی"
+      },
+      {
+        "a": "https://s3.castbox.fm/ee/61/d1/228ced435eae88d2cf09eaef13.mp3",
+        "at": "2025-12-06T07:50:27Z",
+        "t": "زندگی پس از زندگی- فصل ششم-قسمت بیست و چهارم- غلامعباس حسین برقرار"
+      },
+      {
+        "a": "https://s3.castbox.fm/0b/59/0d/d6664a4ec292c9d0d119c40d47.mp3",
+        "at": "2025-12-06T07:22:58Z",
+        "t": "زندگی پس از زندگی- فصل ششم-قسمت بیست و سوم- خدیجه مبینی-بخش سوم (ادامه از فصل 4)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-29T08:48:21Z",
+        "link": "https://s3.castbox.fm/9c/9e/29/a73d484cc2bfbc8920ffc6b49b.mp3",
+        "title": "زندگی پس از زندگی- فصل ششم-قسمت سی ام- جهانگیر ولادی(بخش سوم)"
+      },
+      {
+        "at": "2026-09-29T08:45:32Z",
+        "link": "https://s3.castbox.fm/bb/43/33/39d08e47b98b6dcbfe0f7c31ae.mp3",
+        "title": "زندگی پس از زندگی- فصل ششم-قسمت بیست و نهم- جهانگیر ولادی(بخش دوم)"
+      },
+      {
+        "at": "2026-06-16T06:40:48Z",
+        "link": "https://s3.castbox.fm/80/3f/19/9d28a04ba1ab4b07176b7e9e12.mp3",
+        "title": "زندگی پس از زندگی- فصل ششم-قسمت بیست و هشتم- جهانگیر ولادی"
+      }
+    ],
+    "recent_30d": [
+      1,
+      3,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      2
     ],
     "status": "active"
   },
