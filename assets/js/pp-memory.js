@@ -19,9 +19,13 @@
   function fire(name, detail) { try { document.dispatchEvent(new CustomEvent(name, { detail: detail || {} })); } catch (e) {} }
 
   /* کلید پادکست: مسیر صفحه‌اش بدون اسلش پایانی */
+  var kc = {};
   function key(u) {
-    try { return decodeURIComponent(new URL(u, location.href).pathname).replace(/\/index\.html$/, "/").replace(/\/+$/, "") || "/"; }
-    catch (e) { return String(u || ""); }
+    var c = kc[u]; if (c !== undefined) return c;           // هر آدرس فقط یک بار تجزیه می‌شود (کارت‌ها بارها بررسی می‌شوند)
+    var r;
+    try { r = decodeURIComponent(new URL(u, location.href).pathname).replace(/\/index\.html$/, "/").replace(/\/+$/, "") || "/"; }
+    catch (e) { r = String(u || ""); }
+    return (kc[u] = r);
   }
   /* کلید قسمت: آدرس فایل صوتی؛ مثل پلیر، http را https می‌کند */
   function norm(u) {
@@ -29,14 +33,15 @@
   }
 
   /* ---------- ذخیره‌شده‌ها ---------- */
-  var saved = null, prog = null;
+  var saved = null, prog = null, sidx = null;
   function S() { if (!saved) { saved = rd(SK, []); if (!Array.isArray(saved)) saved = []; } return saved; }
-  function isSaved(u) { return S().indexOf(key(u)) !== -1; }
+  function I() { if (!sidx) { sidx = {}; S().forEach(function (k) { sidx[k] = 1; }); } return sidx; }
+  function isSaved(u) { return I()[key(u)] === 1; }
   function toggle(u, force) {
     var k = key(u), a = S(), i = a.indexOf(k), on = force == null ? i === -1 : !!force;
     if (on && i === -1) a.push(k);
     if (!on && i !== -1) a.splice(i, 1);
-    wr(SK, a); fire("pp:saved", { key: k, on: on });
+    sidx = null; wr(SK, a); fire("pp:saved", { key: k, on: on });
     return on;
   }
 
@@ -70,7 +75,7 @@
       var r = o.progress[u]; if (!r || typeof r !== "object" || typeof r.t !== "number") return;
       if (!p[u] || (r.u || 0) > (p[u].u || 0)) { p[u] = r; eps++; }
     });
-    prune(); wr(SK, a); wr(PK, p);
+    sidx = null; prune(); wr(SK, a); wr(PK, p);
     fire("pp:saved", {}); fire("pp:progress", {});
     return { saved: added, eps: eps };
   }
@@ -80,7 +85,7 @@
 
   /* همگام بین تب‌ها */
   window.addEventListener("storage", function (e) {
-    if (e.key === SK) { saved = null; fire("pp:saved", {}); }
+    if (e.key === SK) { saved = null; sidx = null; fire("pp:saved", {}); }
     if (e.key === PK) { prog = null; fire("pp:progress", {}); }
   });
 
@@ -90,15 +95,22 @@
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   function $$(s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); }
 
+  var tpl = null;
+  function heartTpl() {
+    if (!tpl) { tpl = document.createElement("button"); tpl.type = "button"; tpl.className = "pp-heart"; tpl.innerHTML = HEART; }
+    return tpl.cloneNode(true);
+  }
   function scan() {
     // کارت‌های فهرست (صفحه‌ی اصلی و «مشابه»)
     $$("article.pd-card:not([data-pp-h])").forEach(function (c) {
       var a = c.querySelector("a.pd-link[href]"); if (!a) return;
       c.setAttribute("data-pp-h", "1");
-      var h3 = c.querySelector("h3"), b = document.createElement("button");
-      b.type = "button"; b.className = "pp-heart"; b.setAttribute("data-u", a.getAttribute("href"));
-      b.setAttribute("data-n", h3 ? h3.textContent.trim() : "");
-      b.innerHTML = HEART; c.appendChild(b);
+      var h3 = c.querySelector("h3"), b = heartTpl();
+      var href = a.getAttribute("href"), nm = h3 ? h3.textContent.trim() : "";
+      b.setAttribute("data-u", href); b.setAttribute("data-n", nm);
+      b.setAttribute("aria-pressed", isSaved(href) ? "true" : "false");            // وضعیت از همان ابتدا درست است؛ بدون انیمیشن و بازنویسی
+      b.setAttribute("aria-label", "ذخیره‌ی پادکست: " + nm);
+      c.appendChild(b);
     });
     // صحنه‌ی صفحه‌ی «گوش بده» (پادکست انتخاب‌شده)؛ با هر انتخاب تازه، سرایند دوباره ساخته می‌شود
     $$("#pl-stage .pl-head:not([data-pp-h])").forEach(function (hd) {
@@ -119,17 +131,23 @@
     syncHearts(); decorate(); renderCont();
   }
   function syncHearts() {
-    $$(".pp-heart,.pp-save").forEach(function (b) {
-      var on = isSaved(b.getAttribute("data-u")), n = b.getAttribute("data-n") || "";
-      if (b.getAttribute("aria-pressed") === (on ? "true" : "false") && b.getAttribute("data-ok")) return;
-      b.setAttribute("data-ok", "1");
-      b.setAttribute("aria-pressed", on ? "true" : "false");
-      if (b.classList.contains("pp-save")) b.innerHTML = HEART + "<span>" + (on ? "ذخیره شد" : "ذخیره") + "</span>";
-      b.setAttribute("aria-label", (on ? "حذف از ذخیره‌شده‌ها: " : "ذخیره: ") + n);
-      b.title = on ? "حذف از ذخیره‌شده‌ها" : "ذخیره‌ی پادکست";
-    });
+    var list = document.getElementsByClassName("pp-heart"), i, bt, on, cur;
+    for (i = 0; i < list.length; i++) {                      // فقط وقتی وضعیت واقعاً عوض شده چیزی نوشته می‌شود (کم‌هزینه برای صدها کارت)
+      bt = list[i]; on = isSaved(bt.getAttribute("data-u")) ? "true" : "false";
+      if (bt.getAttribute("aria-pressed") !== on) bt.setAttribute("aria-pressed", on);
+      if (!bt.hasAttribute("aria-label")) bt.setAttribute("aria-label", "ذخیره‌ی پادکست: " + (bt.getAttribute("data-n") || ""));
+    }
+    var sv = document.querySelector(".pp-save");
+    if (sv) {
+      on = isSaved(sv.getAttribute("data-u")); cur = sv.getAttribute("data-s");
+      if (cur !== (on ? "1" : "0")) {
+        sv.setAttribute("data-s", on ? "1" : "0"); sv.setAttribute("aria-pressed", on ? "true" : "false");
+        sv.innerHTML = HEART + "<span>" + (on ? "ذخیره شد" : "ذخیره") + "</span>";
+        sv.setAttribute("aria-label", (on ? "حذف از ذخیره‌شده‌ها: " : "ذخیره: ") + (sv.getAttribute("data-n") || ""));
+      }
+    }
     var cnt = document.getElementById("f-saved-n");
-    if (cnt) { var n2 = S().length; cnt.textContent = n2 ? "(" + toFa(n2) + ")" : ""; }
+    if (cnt) { var n2 = S().length, txt = n2 ? "(" + toFa(n2) + ")" : ""; if (cnt.textContent !== txt) cnt.textContent = txt; }   // فقط در صورت تغییر؛ وگرنه observer دوباره اسکن را فرا می‌خواند
   }
 
   /* نوار باریک پیشرفت و علامت «شنیده‌شده» روی قسمت‌ها */
@@ -196,7 +214,7 @@
     };
     fr.readAsText(e.target.files[0]); e.target.value = "";
   });
-  document.addEventListener("pp:saved", function () { $$(".pp-heart,.pp-save").forEach(function (b) { b.removeAttribute("data-ok"); }); syncHearts(); });
+  document.addEventListener("pp:saved", syncHearts);
   document.addEventListener("pp:progress", function () { decorate(); renderCont(); });
   document.addEventListener("pp:navigate", function () { setTimeout(scan, 0); });
 
@@ -206,7 +224,7 @@
   if (window.MutationObserver) new MutationObserver(function (muts) {
     for (var i = 0; i < muts.length; i++) {
       var t = muts[i].target, el = t.nodeType === 1 ? t : t.parentElement;
-      if (!el || !el.closest || !el.closest(".ppfp,#pp-cont,.pp-heart,.pp-save")) { schedule(); return; }   // تغییرات خود پلیر (هر ثانیه) نادیده گرفته می‌شود
+      if (!el || !el.closest || !el.closest(".ppfp,#pp-cont,.pp-heart,.pp-save,#f-saved-n,#pp-bk-msg")) { schedule(); return; }   // تغییرات خود پلیر (هر ثانیه) نادیده گرفته می‌شود
     }
   }).observe(document.body || document.documentElement, { childList: true, subtree: true });
 })();
