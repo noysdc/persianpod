@@ -5878,19 +5878,24 @@
   "chh-hsi-dari-roanshnasi-khodshnasi": {
     "avg_gap_days": 1.0,
     "avg_length": 21,
-    "episodes": 82,
-    "eps_365": 82,
-    "eps_90": 82,
+    "episodes": 83,
+    "eps_365": 83,
+    "eps_90": 83,
     "first_at": "2026-07-29",
     "first_year": 1405,
-    "last": "1405/07/27",
-    "last_at": "2026-10-19T12:03:45Z",
-    "last_link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-shb-murdgani-zndh-dywyd-sdrays--75858070",
-    "last_title": "داستان کوتاه طنز|شب مُردگانِ زنده| دیوید سدرایس",
+    "last": "1405/07/29",
+    "last_at": "2026-10-21T11:30:28Z",
+    "last_link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-1--75897462",
+    "last_title": "غلبه بر افکار منفی مزاحم ۱",
     "max_length": 33,
     "median_length": 16,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75897462/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27eubxaz.mp3",
+        "at": "2026-10-21T11:30:28Z",
+        "t": "غلبه بر افکار منفی مزاحم ۱"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75858070/utf_8_b_2ltyqcdzhdix2k_ar9in2yyg2llzhtiv2ycubxaz.mp3",
         "at": "2026-10-19T12:03:45Z",
@@ -5925,14 +5930,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75804466/utf_8_q_d9_85_d9_84_da_a9_mp3.mp3",
         "at": "2026-10-15T10:12:27Z",
         "t": "داستان کوتاه طنز| مِلک |دیوید سدرایس"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75754212/utf_8_b_2k7ysdmi2lmg2lhzinuminmg2lhyr9mhlm1wmw.mp3",
-        "at": "2026-10-13T13:17:19Z",
-        "t": "داستان کوتاه طنز | خروس روی نرده| دیوید سدرایس"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-21T11:30:28Z",
+        "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-1--75897462",
+        "title": "غلبه بر افکار منفی مزاحم ۱"
+      },
       {
         "at": "2026-10-19T12:03:45Z",
         "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-shb-murdgani-zndh-dywyd-sdrays--75858070",
@@ -5942,11 +5947,6 @@
         "at": "2026-10-18T12:51:46Z",
         "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-bchh-anyshtyn-dywyd-sdrays--75846117",
         "title": "داستان کوتاه طنز|بچه انیشتین| دیوید سدرایس"
-      },
-      {
-        "at": "2026-10-18T11:09:11Z",
-        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-srashpz-ya-ryyst-kyh--75845436",
-        "title": "داستان کوتاه طنز| سرآشپز یا رئیست کیه؟"
       }
     ],
     "recent_30d": [
@@ -5961,7 +5961,7 @@
       0,
       35,
       21,
-      26
+      27
     ],
     "status": "active"
   },
@@ -41795,8 +41795,8 @@
       15,
       8,
       11,
-      33,
-      45,
+      34,
+      44,
       32
     ],
     "status": "active"
