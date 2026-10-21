@@ -11,11 +11,11 @@ language: "فارسی"
 creator: "مجید یزدی"
 hosts: "مجید یزدی، الگا فتحی پور"
 country: "ایران"
-city: "/assets/img/podcasts/danzi.webp"
+city: ""
 start_year: 2025
 episode_count: 10
 frequency: "نامنظم"
-logo: ""
+logo: "/assets/img/podcasts/danzi.webp"
 castbox_id: "7387690"
 castbox_channel: "https://castbox.fm/ch/7387690"
 rss: "https://player.rabt.space/p/68aed8b4-4847-4fb8-b7b0-5e11989c8def.xml"
