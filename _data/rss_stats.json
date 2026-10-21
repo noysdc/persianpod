@@ -16441,8 +16441,8 @@
     ],
     "recent_30d": [
       36,
-      130,
-      73,
+      131,
+      72,
       64,
       4,
       0,
@@ -23625,8 +23625,8 @@
       0,
       0,
       0,
-      8,
-      12
+      9,
+      11
     ],
     "status": "active"
   },
@@ -34719,8 +34719,8 @@
       8,
       11,
       1,
-      8,
-      12
+      9,
+      11
     ],
     "status": "active"
   },
@@ -37843,11 +37843,11 @@
     "status": "inactive"
   },
   "shar-kst": {
-    "avg_gap_days": 17.9,
+    "avg_gap_days": 17.1,
     "avg_length": 7,
-    "episodes": 157,
-    "eps_365": 20,
-    "eps_90": 17,
+    "episodes": 158,
+    "eps_365": 21,
+    "eps_90": 18,
     "first_at": "2022-05-04",
     "first_year": 1401,
     "last": "1405/07/29",
@@ -37867,6 +37867,11 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/f03eccff-f44f-4229-bded-434875d40df5/play.mp3",
         "at": "2026-10-21T16:31:00Z",
         "t": "صد و پنجاه و شش - یا مرگ یا وطن: منسوب به فردوسی"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/2b719318-a726-4531-b4eb-4b8f0f735421/play.mp3",
+        "at": "2026-10-21T16:30:00Z",
+        "t": "صد و پنجاه و پنج - جشن سده: منسوب به فردوسی"
       },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ce75bcae-4773-4439-a033-24c729ee32aa/play.mp3",
@@ -37892,11 +37897,6 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/8050cf49-0861-4829-b46e-e394df63c82b/play.mp3",
         "at": "2026-10-19T17:32:00Z",
         "t": "صد و پنجاه - مرغ باغ ملکوت: همام تبریزی"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/f603a740-de1b-4701-b868-fea5095cf0e2/play.mp3",
-        "at": "2026-10-19T17:30:00Z",
-        "t": "صد و چهل و نه - جام تعب: سلمان ساوجی"
       }
     ],
     "recent": [
@@ -37911,9 +37911,9 @@
         "title": "صد و پنجاه و شش - یا مرگ یا وطن: منسوب به فردوسی"
       },
       {
-        "at": "2026-10-20T16:32:00Z",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ce75bcae-4773-4439-a033-24c729ee32aa/play.mp3",
-        "title": "صد و پنجاه و چهار - مسخره‌ٔ جهان: مولانا"
+        "at": "2026-10-21T16:30:00Z",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/2b719318-a726-4531-b4eb-4b8f0f735421/play.mp3",
+        "title": "صد و پنجاه و پنج - جشن سده: منسوب به فردوسی"
       }
     ],
     "recent_30d": [
@@ -37928,7 +37928,7 @@
       0,
       3,
       0,
-      14
+      15
     ],
     "status": "active"
   },
