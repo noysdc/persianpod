@@ -22910,7 +22910,7 @@
       }
     ],
     "recent_30d": [
-      2,
+      1,
       8,
       2,
       0,
@@ -29641,19 +29641,24 @@
   "podcast-tarikh-bh-roait-morkh": {
     "avg_gap_days": 7.0,
     "avg_length": 20,
-    "episodes": 111,
-    "eps_365": 19,
-    "eps_90": 12,
+    "episodes": 112,
+    "eps_365": 20,
+    "eps_90": 13,
     "first_at": "2017-01-09",
     "first_year": 1395,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T07:30:00Z",
-    "last_link": "https://share.transistor.fm/s/8f54f59e",
-    "last_title": "رادمردان جاوید: ابوالفضائل گلپایگانی (بخش ۴)",
+    "last": "1405/07/29",
+    "last_at": "2026-10-21T07:30:00Z",
+    "last_link": "https://share.transistor.fm/s/f999bd5d",
+    "last_title": "رادمردان جاوید: ابوالفضائل گلپایگانی (بخش ۵)",
     "max_length": 24,
     "median_length": 18,
     "min_length": 14,
     "play": [
+      {
+        "a": "https://media.transistor.fm/f999bd5d/af1ba2b2.mp3",
+        "at": "2026-10-21T07:30:00Z",
+        "t": "رادمردان جاوید: ابوالفضائل گلپایگانی (بخش ۵)"
+      },
       {
         "a": "https://media.transistor.fm/8f54f59e/4562a285.mp3",
         "at": "2026-10-14T07:30:00Z",
@@ -29688,14 +29693,14 @@
         "a": "https://media.transistor.fm/354dc697/2399d7b0.mp3",
         "at": "2026-09-02T05:30:00Z",
         "t": "رادمردان جاوید: آقا محمد قائنی نبیل اکبر (بخش ۱)"
-      },
-      {
-        "a": "https://media.transistor.fm/27f77071/3a8369d8.mp3",
-        "at": "2026-08-26T05:30:00Z",
-        "t": "رادمردان جاوید: ملا محمد علی زنجانی (حجت) - بخش ۶"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-21T07:30:00Z",
+        "link": "https://share.transistor.fm/s/f999bd5d",
+        "title": "رادمردان جاوید: ابوالفضائل گلپایگانی (بخش ۵)"
+      },
       {
         "at": "2026-10-14T07:30:00Z",
         "link": "https://share.transistor.fm/s/8f54f59e",
@@ -29705,11 +29710,6 @@
         "at": "2026-10-07T06:30:00Z",
         "link": "https://share.transistor.fm/s/580a8e56",
         "title": "رادمردان جاوید: ابوالفضائل گلپایگانی (بخش ۳)"
-      },
-      {
-        "at": "2026-09-30T06:30:00Z",
-        "link": "https://share.transistor.fm/s/541c3c68",
-        "title": "رادمردان جاوید: ابوالفضائل گلپایگانی (بخش ۲)"
       }
     ],
     "recent_30d": [
@@ -29724,7 +29724,7 @@
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   },
@@ -38862,7 +38862,7 @@
     "avg_length": 10,
     "episodes": 4207,
     "eps_365": 812,
-    "eps_90": 262,
+    "eps_90": 261,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/07/28",
@@ -38935,13 +38935,13 @@
       100,
       112,
       59,
-      88,
-      20,
+      89,
+      19,
       0,
       7,
       41,
-      103,
-      82,
+      104,
+      81,
       102,
       78
     ],
