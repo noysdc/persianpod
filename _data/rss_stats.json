@@ -2162,20 +2162,25 @@
   },
   "aghtsad-o-siast-jhani": {
     "avg_gap_days": 3.9,
-    "avg_length": 18,
-    "episodes": 211,
+    "avg_length": 17,
+    "episodes": 212,
     "eps_365": 94,
-    "eps_90": 19,
+    "eps_90": 20,
     "first_at": "2023-12-16",
     "first_year": 1402,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T16:30:00Z",
-    "last_link": "https://dotcast.org/p/ctka8bck/esi5z8kx00/",
-    "last_title": "آیا هوش مصنوعی از کنترل خارج می‌شود؟ هشدار عجیب غول‌های فناوری",
+    "last": "1405/07/29",
+    "last_at": "2026-10-21T16:30:00Z",
+    "last_link": "https://dotcast.org/p/ctka8bck/fdwirsxbpw/",
+    "last_title": "توافق ترامپ با پوتین؛ شروع فصل تازه‌ای در جنگ اوکراین؟",
     "max_length": 72,
     "median_length": 21,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/ctka8bck/fdwirsxbpw/2026-10-21-12-51-35.mp3",
+        "at": "2026-10-21T16:30:00Z",
+        "t": "توافق ترامپ با پوتین؛ شروع فصل تازه‌ای در جنگ اوکراین؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/ctka8bck/esi5z8kx00/2026-10-17-13-18-36.mp3",
         "at": "2026-10-17T16:30:00Z",
@@ -2210,14 +2215,14 @@
         "a": "https://feed.dotcast.org/e/ctka8bck/r4opqipqp7/2026-09-11-05-47-21.mp3",
         "at": "2026-09-11T15:30:00Z",
         "t": "دیتاسنترها به کابوس انتخاباتی آمریکا تبدیل شدند؛ ماجرا چیست؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/ctka8bck/m8zivpjhtj/2026-09-04-17-18-26.mp3",
-        "at": "2026-09-05T11:40:00Z",
-        "t": "آخر جنگ ایران چه می‌شود؟ سه راه برای ترامپ، اما هیچ‌کدام آسان نیست"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-21T16:30:00Z",
+        "link": "https://dotcast.org/p/ctka8bck/fdwirsxbpw/",
+        "title": "توافق ترامپ با پوتین؛ شروع فصل تازه‌ای در جنگ اوکراین؟"
+      },
       {
         "at": "2026-10-17T16:30:00Z",
         "link": "https://dotcast.org/p/ctka8bck/esi5z8kx00/",
@@ -2227,26 +2232,21 @@
         "at": "2026-10-14T17:30:00Z",
         "link": "https://dotcast.org/p/ctka8bck/qo51aegvmr/",
         "title": "اقتصاد جهان باید سقوط می‌کرد؛ پس چرا هنوز سرپا  است؟"
-      },
-      {
-        "at": "2026-10-10T16:30:00Z",
-        "link": "https://dotcast.org/p/ctka8bck/k5113rri43/",
-        "title": "خاورمیانه بدون آمریکا؛ پایان یک نظم ۳۵ ساله"
       }
     ],
     "recent_30d": [
       20,
       18,
       6,
-      18,
-      4,
+      19,
+      3,
       0,
       0,
       0,
       6,
       7,
       6,
-      6
+      7
     ],
     "status": "active"
   },
@@ -25329,21 +25329,31 @@
     "status": "active"
   },
   "podcast-farsi-kraim-kst": {
-    "avg_gap_days": 25.3,
-    "avg_length": 69,
-    "episodes": 59,
-    "eps_365": 14,
-    "eps_90": 6,
+    "avg_gap_days": 22.4,
+    "avg_length": 71,
+    "episodes": 61,
+    "eps_365": 16,
+    "eps_90": 8,
     "first_at": "2023-04-10",
     "first_year": 1402,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T16:31:00Z",
-    "last_link": "https://s3.castbox.fm/e1/89/97/a190d748b9b60789f419ef1dcc.mp3",
-    "last_title": "اپیزود 17 | تد باندی | قسمت 3 | نسخه باجه تلفن",
+    "last": "1405/07/29",
+    "last_at": "2026-10-21T16:31:00Z",
+    "last_link": "https://s3.castbox.fm/c3/8c/77/79824e4f8f833f811cf9bf0fb9.mp3",
+    "last_title": "اپیزود 17 | تد باندی | قسمت 4 | نسخه باجه تلفن",
     "max_length": 113,
-    "median_length": 64,
+    "median_length": 65,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/c3/8c/77/79824e4f8f833f811cf9bf0fb9.mp3",
+        "at": "2026-10-21T16:31:00Z",
+        "t": "اپیزود 17 | تد باندی | قسمت 4 | نسخه باجه تلفن"
+      },
+      {
+        "a": "https://s3.castbox.fm/23/f0/8d/978d5a4a05a8cd32321ec06ced.mp3",
+        "at": "2026-10-21T16:30:00Z",
+        "t": "اپیزود 17 | تد باندی | قسمت 4 | نسخه عادی"
+      },
       {
         "a": "https://s3.castbox.fm/e1/89/97/a190d748b9b60789f419ef1dcc.mp3",
         "at": "2026-10-14T16:31:00Z",
@@ -25373,33 +25383,23 @@
         "a": "https://s3.castbox.fm/96/24/bc/3791f4430bb1241536ab4f999b.mp3",
         "at": "2026-09-30T16:30:00Z",
         "t": "اپیزود 17 | تد باندی | قسمت 1 | نسخه عادی"
-      },
-      {
-        "a": "https://s3.castbox.fm/82/a1/d5/da03d04fd987462a2dd6c17701.mp3",
-        "at": "2025-12-10T16:31:00Z",
-        "t": "اپیزود 16 | دنیس نیلسن | قسمت 4 | نسخه باجه تلفن"
-      },
-      {
-        "a": "https://s3.castbox.fm/d6/da/1a/185e104beab3730ee432d8ae27.mp3",
-        "at": "2025-12-10T16:30:00Z",
-        "t": "اپیزود 16 | دنیس نیلسن | قسمت 4 | نسخه عادی"
       }
     ],
     "recent": [
       {
+        "at": "2026-10-21T16:31:00Z",
+        "link": "https://s3.castbox.fm/c3/8c/77/79824e4f8f833f811cf9bf0fb9.mp3",
+        "title": "اپیزود 17 | تد باندی | قسمت 4 | نسخه باجه تلفن"
+      },
+      {
+        "at": "2026-10-21T16:30:00Z",
+        "link": "https://s3.castbox.fm/23/f0/8d/978d5a4a05a8cd32321ec06ced.mp3",
+        "title": "اپیزود 17 | تد باندی | قسمت 4 | نسخه عادی"
+      },
+      {
         "at": "2026-10-14T16:31:00Z",
         "link": "https://s3.castbox.fm/e1/89/97/a190d748b9b60789f419ef1dcc.mp3",
         "title": "اپیزود 17 | تد باندی | قسمت 3 | نسخه باجه تلفن"
-      },
-      {
-        "at": "2026-10-14T16:30:00Z",
-        "link": "https://s3.castbox.fm/fa/ff/2e/d695c74a2ba3a28fcd294457e1.mp3",
-        "title": "اپیزود 17 | تد باندی | قسمت 3 | نسخه عادی"
-      },
-      {
-        "at": "2026-10-07T16:31:00Z",
-        "link": "https://s3.castbox.fm/ef/7c/ca/3bd1b845e890ec53e536ca53da.mp3",
-        "title": "اپیزود 17 | تد باندی | قسمت 2 | نسخه باجه تلفن"
       }
     ],
     "recent_30d": [
@@ -25414,7 +25414,7 @@
       0,
       0,
       0,
-      6
+      8
     ],
     "status": "active"
   },
@@ -33911,8 +33911,8 @@
       0,
       0,
       2,
-      13,
-      9,
+      14,
+      8,
       4
     ],
     "status": "active"
@@ -40626,12 +40626,12 @@
       100,
       112,
       59,
-      90,
-      18,
+      91,
+      17,
       0,
       7,
-      44,
-      102,
+      45,
+      101,
       84,
       102,
       74
