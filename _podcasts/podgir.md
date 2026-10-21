@@ -15,7 +15,7 @@ city: ""
 start_year: 2023
 episode_count: 40
 frequency: "هفتگی (سابق) / نامنظم (فعلی)"
-logo: ""
+logo: "/assets/img/podcasts/podgir.webp"
 castbox_id: "5471213"
 castbox_channel: "https://castbox.fm/ch/5471213"
 rss: "https://feeds.acast.com/public/shows/668948539bf81dc06aedaf3d"

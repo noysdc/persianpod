@@ -11,7 +11,7 @@ language: "فارسی"
 creator: "مجید یزدی"
 hosts: "مجید یزدی، الگا فتحی پور"
 country: "ایران"
-city: ""
+city: "/assets/img/podcasts/danzi.webp"
 start_year: 2025
 episode_count: 10
 frequency: "نامنظم"
