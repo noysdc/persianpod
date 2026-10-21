@@ -28272,8 +28272,8 @@
       9,
       9,
       0,
-      0,
-      2,
+      1,
+      1,
       0,
       0,
       0,
@@ -34097,21 +34097,26 @@
     "status": "active"
   },
   "radio-saikt-mdrsh-alm-o-fnaori-koantom": {
-    "avg_gap_days": 20.2,
-    "avg_length": 24,
-    "episodes": 172,
-    "eps_365": 19,
-    "eps_90": 4,
+    "avg_gap_days": 19.2,
+    "avg_length": 25,
+    "episodes": 173,
+    "eps_365": 20,
+    "eps_90": 5,
     "first_at": "2023-12-18",
     "first_year": 1402,
     "last": "1405/07/29",
-    "last_at": "2026-10-21T11:01:49Z",
-    "last_link": "https://shenoto.com/album/podcast/1891521/کتاب آرمان‌ها و واقعیت‌ها؛ یادداشت ویراستار",
-    "last_title": "کتاب آرمان‌ها و واقعیت‌ها؛ یادداشت ویراستار",
+    "last_at": "2026-10-21T11:20:46Z",
+    "last_link": "https://shenoto.com/album/podcast/1891526/کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش 1",
+    "last_title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش 1",
     "max_length": 99,
     "median_length": 27,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/75f6d484-cd41-11f1-8d55-d2483d1b3a72.mp3",
+        "at": "2026-10-21T11:20:46Z",
+        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش 1"
+      },
       {
         "a": "https://shenoto.com/service/api/play/podcast/d04c765d-cd3e-11f1-8d55-d2483d1b3a72.mp3",
         "at": "2026-10-21T11:01:49Z",
@@ -34146,14 +34151,14 @@
         "a": "https://shenoto.com/service/api/play/podcast/85eee020-5f14-11f1-a697-5e49d4b26530.mp3",
         "at": "2026-06-03T06:21:57Z",
         "t": "اپیزود دوم فصل \"در جستجوی برتری کوانتومی\"؛ محاسبات سخت"
-      },
-      {
-        "a": "https://shenoto.com/service/api/play/podcast/309156e3-1469-11f1-b314-0242ac120014.mp3",
-        "at": "2026-02-28T05:49:04Z",
-        "t": "اپیزود نخست فصل \"در جستجوی برتری کوانتومی\"؛ کامپیوترهای کوانتومی و آینده محاسبات"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-21T11:20:46Z",
+        "link": "https://shenoto.com/album/podcast/1891526/کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش 1",
+        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش 1"
+      },
       {
         "at": "2026-10-21T11:01:49Z",
         "link": "https://shenoto.com/album/podcast/1891521/کتاب آرمان‌ها و واقعیت‌ها؛ یادداشت ویراستار",
@@ -34163,11 +34168,6 @@
         "at": "2026-10-21T10:31:36Z",
         "link": "https://shenoto.com/album/podcast/1891510/کتاب آرمان‌ها و واقعیت‌ها؛ معرفی",
         "title": "کتاب آرمان‌ها و واقعیت‌ها؛ معرفی"
-      },
-      {
-        "at": "2026-10-10T08:15:04Z",
-        "link": "https://shenoto.com/album/podcast/1888780/اپیزود نخست فصل &quot;عصر دوم کوانتوم&quot;؛ دنیای کوانتوم",
-        "title": "اپیزود نخست فصل \"عصر دوم کوانتوم\"؛ دنیای کوانتوم"
       }
     ],
     "recent_30d": [
@@ -34182,7 +34182,7 @@
       1,
       0,
       1,
-      3
+      4
     ],
     "status": "active"
   },
