@@ -4,7 +4,7 @@ title_en: "Podgir"
 slug: "podgir"
 description: "پادگیر یک مجله پادکستی برای انتخاب آگاهانه محتواست؛ در هر قسمت پادکست‌های فارسی و انگلیسی معرفی، نقد و بررسی می‌شوند و در کنار آن به کتاب‌ها، فیلم‌ها و گفتگوهایی ویژه پرداخته می‌شود."
 category: "هنر"
-subcategories: [مجله پادکستی]
+subcategories: []
 tags: []
 status: "active"
 language: "فارسی"
