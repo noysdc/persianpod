@@ -5063,8 +5063,8 @@
       11,
       3,
       5,
-      4,
-      4,
+      5,
+      3,
       3
     ],
     "status": "active"
@@ -18040,7 +18040,7 @@
     "avg_gap_days": 1.1,
     "avg_length": 7,
     "episodes": 977,
-    "eps_365": 330,
+    "eps_365": 329,
     "eps_90": 82,
     "first_at": "2023-11-21",
     "first_year": 1402,
@@ -31785,10 +31785,10 @@
     "status": "active"
   },
   "radio-shakh": {
-    "avg_gap_days": 2.8,
+    "avg_gap_days": 2.7,
     "avg_length": 62,
     "episodes": 218,
-    "eps_365": 130,
+    "eps_365": 129,
     "eps_90": 36,
     "first_at": "2024-10-31",
     "first_year": 1403,
@@ -34618,9 +34618,9 @@
       }
     ],
     "recent_30d": [
-      2,
       3,
-      2,
+      3,
+      1,
       1,
       1,
       0,
