@@ -2419,8 +2419,8 @@
     "recent_30d": [
       0,
       0,
-      0,
-      4,
+      1,
+      3,
       2,
       4,
       4,
@@ -2574,10 +2574,10 @@
     "status": "active"
   },
   "ali-sdart": {
-    "avg_gap_days": 5.0,
+    "avg_gap_days": 4.9,
     "avg_length": 32,
     "episodes": 445,
-    "eps_365": 74,
+    "eps_365": 73,
     "eps_90": 15,
     "first_at": "2020-06-15",
     "first_year": 1399,
@@ -7909,10 +7909,10 @@
     ],
     "recent_30d": [
       1,
-      1,
       0,
-      2,
-      1,
+      0,
+      3,
+      0,
       0,
       3,
       2,
@@ -8714,8 +8714,8 @@
       2,
       2,
       2,
-      1,
       2,
+      1,
       0,
       0,
       2,
@@ -9084,10 +9084,10 @@
     "status": "inactive"
   },
   "farsi-okr": {
-    "avg_gap_days": 14.5,
+    "avg_gap_days": 14.8,
     "avg_length": 23,
     "episodes": 69,
-    "eps_365": 26,
+    "eps_365": 25,
     "eps_90": 9,
     "first_at": "2024-12-30",
     "first_year": 1403,
@@ -9158,8 +9158,8 @@
       }
     ],
     "recent_30d": [
-      3,
-      5,
+      4,
+      4,
       2,
       0,
       2,
@@ -11215,8 +11215,8 @@
       }
     ],
     "recent_30d": [
-      0,
       1,
+      0,
       0,
       0,
       1,
@@ -11666,13 +11666,13 @@
     "recent_30d": [
       4,
       5,
-      1,
-      5,
+      2,
+      4,
       4,
       3,
       7,
-      4,
-      6,
+      5,
+      5,
       3,
       4,
       3
@@ -12112,8 +12112,8 @@
       }
     ],
     "recent_30d": [
-      7,
-      6,
+      8,
+      5,
       3,
       6,
       12,
@@ -14487,8 +14487,8 @@
       5,
       4,
       2,
-      4,
-      3,
+      5,
+      2,
       4,
       4,
       6,
@@ -15023,8 +15023,8 @@
       5,
       3,
       1,
-      4,
-      1,
+      5,
+      0,
       0,
       0,
       0,
@@ -18039,19 +18039,24 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 976,
+    "episodes": 977,
     "eps_365": 330,
     "eps_90": 82,
     "first_at": "2023-11-21",
     "first_year": 1402,
-    "last": "1405/07/28",
-    "last_at": "2026-10-20T05:24:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/outrage-following-alleged-attack-on-australian-mp-helen-haynes/rcudfcxrz",
-    "last_title": "خشم عمومی در پی حمله ادعایی به هلن هاینز، نماینده پارلمان استرالیا",
+    "last": "1405/07/29",
+    "last_at": "2026-10-21T02:23:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/the-man-who-allegedly-attacked-mp-helen-haines-fronts-court/6hnd2h7tn",
+    "last_title": "حضور مردی که ادعا می‌شود به هلن هینز حمله کرده، در دادگاه",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261021132340_942097-persian-9ad87187-46fa-4022-a813-1328b276f27b.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-5c23-d3ab-a3eb-7f3f70240000&dur_cat=2",
+        "at": "2026-10-21T02:23:00Z",
+        "t": "حضور مردی که ادعا می‌شود به هلن هینز حمله کرده، در دادگاه"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261020162500_754753-persian-2aa475cc-6857-4d24-8cb0-a6a11c4fff62.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-57c1-df61-afb7-ffc938370000&dur_cat=3",
         "at": "2026-10-20T05:24:00Z",
@@ -18086,14 +18091,14 @@
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261013155420_503608-persian-d7bdea3a-0d05-430c-be3b-f0671c2b576b.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-3399-db6e-a1ad-bfbbc44a0000&dur_cat=3",
         "at": "2026-10-13T04:54:00Z",
         "t": "افزایش حقوق نیم میلیون نفر در استرالیا"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261013152006_455806-persian-131026-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-3377-db6e-a1ad-bfff27910000&dur_cat=2",
-        "at": "2026-10-13T04:19:00Z",
-        "t": "ذخایر خون استرالیا در پایین‌ترین سطح یک دهه اخیر؛ فراخوان فوری برای اهدای خون"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-21T02:23:00Z",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/the-man-who-allegedly-attacked-mp-helen-haines-fronts-court/6hnd2h7tn",
+        "title": "حضور مردی که ادعا می‌شود به هلن هینز حمله کرده، در دادگاه"
+      },
       {
         "at": "2026-10-20T05:24:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/outrage-following-alleged-attack-on-australian-mp-helen-haynes/rcudfcxrz",
@@ -18103,26 +18108,21 @@
         "at": "2026-10-20T01:17:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/helen-haynes-alleged-attacker-identified-concerns-about-rising-political-violence-in-australia/pb7gh710n",
         "title": "شناسایی مهاجم ادعایی هلن هینز؛ نگرانی‌ها درباره افزایش خشونت سیاسی در استرالیا"
-      },
-      {
-        "at": "2026-10-19T02:32:00Z",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/pressure-to-ratify-free-trade-agreement-with-europe-government-rejects-gst-hike/l9uzosgf8",
-        "title": "فشار برای تصویب توافق تجارت آزاد با اروپا؛ دولت افزایش GST را رد کرد"
       }
     ],
     "recent_30d": [
+      29,
+      24,
+      27,
+      26,
+      30,
+      29,
+      25,
+      27,
+      26,
       28,
-      25,
-      27,
-      25,
-      29,
-      29,
-      27,
-      26,
-      26,
-      29,
       23,
-      30
+      31
     ],
     "status": "active"
   },
@@ -19736,10 +19736,10 @@
     "status": "inactive"
   },
   "nghashi-khial-ba-shar": {
-    "avg_gap_days": 27.5,
+    "avg_gap_days": 29.1,
     "avg_length": 3,
     "episodes": 106,
-    "eps_365": 14,
+    "eps_365": 13,
     "eps_90": 7,
     "first_at": "2020-08-14",
     "first_year": 1399,
@@ -21585,8 +21585,8 @@
       5,
       4,
       4,
-      4,
-      3
+      5,
+      2
     ],
     "status": "active"
   },
@@ -23718,8 +23718,8 @@
       }
     ],
     "recent_30d": [
-      1,
-      3,
+      2,
+      2,
       0,
       0,
       0,
@@ -24456,7 +24456,7 @@
     "avg_length": 78,
     "episodes": 65,
     "eps_365": 4,
-    "eps_90": 3,
+    "eps_90": 2,
     "first_at": "2019-10-18",
     "first_year": 1398,
     "last": "1405/05/14",
@@ -24534,8 +24534,8 @@
       0,
       0,
       0,
-      0,
-      3,
+      1,
+      2,
       0,
       0
     ],
@@ -24812,7 +24812,7 @@
     "avg_gap_days": 4.8,
     "avg_length": 129,
     "episodes": 825,
-    "eps_365": 75,
+    "eps_365": 74,
     "eps_90": 8,
     "first_at": "1970-01-01",
     "first_year": 1348,
@@ -24884,8 +24884,8 @@
     ],
     "recent_30d": [
       23,
-      24,
-      5,
+      25,
+      4,
       0,
       0,
       0,
@@ -26404,18 +26404,18 @@
       }
     ],
     "recent_30d": [
-      2,
+      3,
+      3,
       4,
-      4,
-      4,
-      2,
+      5,
+      1,
       0,
       2,
+      4,
+      5,
       3,
-      6,
       3,
-      2,
-      5
+      4
     ],
     "status": "active"
   },
@@ -27032,8 +27032,8 @@
       }
     ],
     "recent_30d": [
-      2,
-      4,
+      3,
+      3,
       2,
       1,
       2,
@@ -27214,8 +27214,8 @@
       1,
       2,
       0,
-      1,
-      1,
+      2,
+      0,
       0,
       0,
       1,
@@ -27310,99 +27310,9 @@
       2,
       5,
       3,
-      1,
-      3,
-      3
-    ],
-    "status": "active"
-  },
-  "podcast-roait": {
-    "avg_gap_days": 14.6,
-    "avg_length": 36,
-    "episodes": 13,
-    "eps_365": 13,
-    "eps_90": 1,
-    "first_at": "2026-02-01",
-    "first_year": 1404,
-    "last": "1405/05/05",
-    "last_at": "2026-07-27T11:15:28Z",
-    "last_link": "https://shows.acast.com/pmr-revayat/episodes/shah",
-    "last_title": "آخرین شام شاه؛ روایت آخرین ۲۴ ساعته محمدرضا شاه پهلوی",
-    "max_length": 53,
-    "median_length": 34,
-    "min_length": 16,
-    "play": [
-      {
-        "a": "https://sphinx.acast.com/p/open/s/697f54dbdb08d05cf6c1799a/e/6a673dd0ad0e014a84221096/media.mp3",
-        "at": "2026-07-27T11:15:28Z",
-        "t": "آخرین شام شاه؛ روایت آخرین ۲۴ ساعته محمدرضا شاه پهلوی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/697f54dbdb08d05cf6c1799a/e/6a2acc3571d362181f8924f8/media.mp3",
-        "at": "2026-06-11T14:54:45Z",
-        "t": "روایت | شهره آغداشلو، قسمت دوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/697f54dbdb08d05cf6c1799a/e/6a2acbe971d362181f89158d/media.mp3",
-        "at": "2026-06-11T14:53:29Z",
-        "t": "روایت | شهره آغداشلو، قسمت اول"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/697f54dbdb08d05cf6c1799a/e/69ea3c6907ecece42a984d33/media.mp3",
-        "at": "2026-04-23T15:36:09Z",
-        "t": "روایت | نسرین"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/697f54dbdb08d05cf6c1799a/e/69dd1984715b7d1039e0b700/media.mp3",
-        "at": "2026-04-13T16:27:48Z",
-        "t": "روایت | شهبانو، بخش سوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/697f54dbdb08d05cf6c1799a/e/69ca329ac28a24a07fb25cdd/media.mp3",
-        "at": "2026-03-30T08:21:46Z",
-        "t": "روایت | شهبانو، بخش دوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/697f54dbdb08d05cf6c1799a/e/69c2cd371861d127d525b97f/media.mp3",
-        "at": "2026-03-24T17:43:19Z",
-        "t": "روایت | شهبانو، بخش اول"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/697f54dbdb08d05cf6c1799a/e/69b6916e4266c9b1c71a2935/media.mp3",
-        "at": "2026-03-15T19:00:00Z",
-        "t": "روایت | ۲۴ ساعت آخر پادشاهی رضا شاه"
-      }
-    ],
-    "recent": [
-      {
-        "at": "2026-07-27T11:15:28Z",
-        "link": "https://shows.acast.com/pmr-revayat/episodes/shah",
-        "title": "آخرین شام شاه؛ روایت آخرین ۲۴ ساعته محمدرضا شاه پهلوی"
-      },
-      {
-        "at": "2026-06-11T14:54:45Z",
-        "link": "https://persianmixradio.com",
-        "title": "روایت | شهره آغداشلو، قسمت دوم"
-      },
-      {
-        "at": "2026-06-11T14:53:29Z",
-        "link": "https://shows.acast.com/pmr-revayat/episodes/shohreh1",
-        "title": "روایت | شهره آغداشلو، قسمت اول"
-      }
-    ],
-    "recent_30d": [
-      0,
-      0,
-      0,
-      3,
-      4,
-      3,
-      0,
       2,
-      0,
-      1,
-      0,
-      0
+      2,
+      3
     ],
     "status": "active"
   },
@@ -30170,8 +30080,8 @@
       0,
       0,
       1,
-      0,
-      2,
+      1,
+      1,
       0
     ],
     "status": "active"
@@ -30266,21 +30176,26 @@
     "status": "active"
   },
   "radio-fikshn-dastan": {
-    "avg_gap_days": 29.8,
+    "avg_gap_days": 27.8,
     "avg_length": 41,
-    "episodes": 79,
-    "eps_365": 13,
-    "eps_90": 5,
+    "episodes": 80,
+    "eps_365": 14,
+    "eps_90": 6,
     "first_at": "2024-09-30",
     "first_year": 1403,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T14:08:07Z",
-    "last_link": "https://www.spreaker.com/episode/qsh-hay-mn-w-babam-padkstry--75837701",
-    "last_title": "قصه های من و بابام - پادکستری",
+    "last": "1405/07/28",
+    "last_at": "2026-10-20T22:18:58Z",
+    "last_link": "https://www.spreaker.com/episode/yh-ktab-rw-az-rwy-jldsh-qdawt-nkn--75888825",
+    "last_title": "یه کتاب رو از روی جلدش قضاوت نکن",
     "max_length": 133,
     "median_length": 27,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://api.spreaker.com/download/episode/75888825/media.mp3",
+        "at": "2026-10-20T22:18:58Z",
+        "t": "یه کتاب رو از روی جلدش قضاوت نکن"
+      },
       {
         "a": "https://api.spreaker.com/download/episode/75837701/media.mp3",
         "at": "2026-10-17T14:08:07Z",
@@ -30315,14 +30230,14 @@
         "a": "https://api.spreaker.com/download/episode/69219953/media.mp3",
         "at": "2025-12-27T15:08:09Z",
         "t": "برای این دسته از آدمها دلسوزی نکنید"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/69095682/media.mp3",
-        "at": "2025-12-17T12:10:03Z",
-        "t": "رازهایی درباره به دست آوردن ثروت و پول"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-20T22:18:58Z",
+        "link": "https://www.spreaker.com/episode/yh-ktab-rw-az-rwy-jldsh-qdawt-nkn--75888825",
+        "title": "یه کتاب رو از روی جلدش قضاوت نکن"
+      },
       {
         "at": "2026-10-17T14:08:07Z",
         "link": "https://www.spreaker.com/episode/qsh-hay-mn-w-babam-padkstry--75837701",
@@ -30332,11 +30247,6 @@
         "at": "2026-10-14T16:24:17Z",
         "link": "https://www.spreaker.com/episode/shahzadh-y-khanh-nshyn-apyzwd-tnz--75790496",
         "title": "شاهزاده ی خانه نشین - اپیزود طنز"
-      },
-      {
-        "at": "2026-09-14T18:10:17Z",
-        "link": "https://www.spreaker.com/episode/nsl-zd-dr-amryka--75121729",
-        "title": "نسل زد در آمریکا"
       }
     ],
     "recent_30d": [
@@ -30351,7 +30261,7 @@
       1,
       2,
       1,
-      2
+      3
     ],
     "status": "active"
   },
@@ -35157,11 +35067,11 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       4,
       0,
-      6,
-      5,
+      8,
+      3,
       3,
       0,
       0,
@@ -35997,8 +35907,8 @@
       0,
       0,
       0,
-      2,
-      5,
+      3,
+      4,
       2,
       4,
       5
@@ -36635,7 +36545,7 @@
     "first_at": "2021-02-11",
     "first_year": 1399,
     "last": "1400/03/30",
-    "last_at": "2021-06-20T02:36:27Z",
+    "last_at": "2021-06-20T02:35:27Z",
     "last_link": "https://shenoto.com/album/podcast/145252/تک کتاب - کتی .من خودم به دستشویی میروم",
     "last_title": "تک کتاب - کتی .من خودم به دستشویی میروم",
     "max_length": 17,
@@ -36644,58 +36554,58 @@
     "play": [
       {
         "a": "https://shenoto.com/service/api/play/podcast/c2fe61b5-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-06-20T02:36:27Z",
+        "at": "2021-06-20T02:35:27Z",
         "t": "تک کتاب - کتی .من خودم به دستشویی میروم"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/c2fe5fc6-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-06-20T02:36:24Z",
+        "at": "2021-06-20T02:35:24Z",
         "t": "تک کتاب - روباه و کلاغ"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/c2fe5d62-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-06-20T02:36:21Z",
+        "at": "2021-06-20T02:35:21Z",
         "t": "تک کتاب - دست هایت را بشوی"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/c2ca90a5-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-05-21T23:35:52Z",
+        "at": "2021-05-22T12:25:52Z",
         "t": "هدیه های آسمانی چهارم دبستان - درس نوزدهم.ای خدا ممنونم"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/c2ca8f6b-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-05-21T23:35:51Z",
+        "at": "2021-05-22T12:25:51Z",
         "t": "هدیه های آسمانی چهارم دبستان - درس هیجدهم.باغ پرندگان"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/c2c6c692-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-05-18T00:35:17Z",
+        "at": "2021-05-18T12:44:17Z",
         "t": "هدیه های آسمانی چهارم دبستان - درس هفدهم.آقای بهاری,خانم بهاری"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/c2c6c528-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-05-18T00:35:14Z",
+        "at": "2021-05-18T12:44:14Z",
         "t": "هدیه های آسمانی چهارم دبستان - درس شانزدهم.اسب طلایی"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/c2c6c0d4-2127-11ec-9090-0242ac120005.mp3",
-        "at": "2021-05-18T00:35:12Z",
+        "at": "2021-05-18T12:44:12Z",
         "t": "هدیه های آسمانی چهارم دبستان - درس پانزدهم.یک ماجرای زیبا"
       }
     ],
     "recent": [
       {
-        "at": "2021-06-20T02:36:27Z",
+        "at": "2021-06-20T02:35:27Z",
         "link": "https://shenoto.com/album/podcast/145252/تک کتاب - کتی .من خودم به دستشویی میروم",
         "title": "تک کتاب - کتی .من خودم به دستشویی میروم"
       },
       {
-        "at": "2021-06-20T02:36:24Z",
+        "at": "2021-06-20T02:35:24Z",
         "link": "https://shenoto.com/album/podcast/145247/تک کتاب - روباه و کلاغ",
         "title": "تک کتاب - روباه و کلاغ"
       },
       {
-        "at": "2021-06-20T02:36:21Z",
+        "at": "2021-06-20T02:35:21Z",
         "link": "https://shenoto.com/album/podcast/145251/تک کتاب - دست هایت را بشوی",
         "title": "تک کتاب - دست هایت را بشوی"
       }
@@ -37337,8 +37247,8 @@
       0,
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       0
     ],
     "status": "active"
@@ -37615,7 +37525,7 @@
     "avg_length": 10,
     "episodes": 4207,
     "eps_365": 812,
-    "eps_90": 263,
+    "eps_90": 262,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/07/28",
@@ -37693,8 +37603,8 @@
       0,
       7,
       41,
-      102,
-      83,
+      103,
+      82,
       102,
       78
     ],
@@ -38777,7 +38687,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 24,
     "episodes": 392,
-    "eps_365": 257,
+    "eps_365": 256,
     "eps_90": 110,
     "first_at": "2024-08-22",
     "first_year": 1403,
@@ -38858,8 +38768,8 @@
       8,
       11,
       32,
-      45,
-      33
+      46,
+      32
     ],
     "status": "active"
   },
@@ -39224,20 +39134,25 @@
   },
   "vidathereader": {
     "avg_gap_days": 7.6,
-    "avg_length": 38,
-    "episodes": 169,
-    "eps_365": 45,
-    "eps_90": 14,
+    "avg_length": 37,
+    "episodes": 170,
+    "eps_365": 46,
+    "eps_90": 15,
     "first_at": "2025-02-02",
     "first_year": 1403,
-    "last": "1405/07/23",
-    "last_at": "2026-10-15T09:39:47Z",
-    "last_link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/00be6fe3-94d9-4556-a9f2-115bd32bfbed/play.mp3",
-    "last_title": "رودین_بخش اول",
+    "last": "1405/07/28",
+    "last_at": "2026-10-20T20:36:00Z",
+    "last_link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/79c8e3f7-1cd9-46e8-9b06-0e9eb0a91a6c/play.mp3",
+    "last_title": "رودین _بخش دوم",
     "max_length": 78,
     "median_length": 28,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/79c8e3f7-1cd9-46e8-9b06-0e9eb0a91a6c/play.mp3",
+        "at": "2026-10-20T20:36:00Z",
+        "t": "رودین _بخش دوم"
+      },
       {
         "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/00be6fe3-94d9-4556-a9f2-115bd32bfbed/play.mp3",
         "at": "2026-10-15T09:39:47Z",
@@ -39272,14 +39187,14 @@
         "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/64410717-36cf-49dc-a61f-1ed60e14bc93/play.mp3",
         "at": "2026-09-19T02:30:48Z",
         "t": "مرگ ایوان ایلیچ_بخش ششم"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/de9805aa-f226-4a82-84aa-539612204f47/play.mp3",
-        "at": "2026-09-16T02:30:19Z",
-        "t": "مرگ ایوان ایلیچ_بخش پنجم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-20T20:36:00Z",
+        "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/79c8e3f7-1cd9-46e8-9b06-0e9eb0a91a6c/play.mp3",
+        "title": "رودین _بخش دوم"
+      },
       {
         "at": "2026-10-15T09:39:47Z",
         "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/00be6fe3-94d9-4556-a9f2-115bd32bfbed/play.mp3",
@@ -39289,11 +39204,6 @@
         "at": "2026-10-07T12:08:04Z",
         "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/461ef1ea-4322-46d8-9cc0-81acf8d6e1bd/play.mp3",
         "title": "فصل دوم_معرفی دو رمان از ایوان تورگنیف"
-      },
-      {
-        "at": "2026-10-03T02:30:46Z",
-        "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/67cb2657-a586-4e84-b4d5-ae47cf6f2ee8/play.mp3",
-        "title": "مرگ ایوان ایلیچ_ بخش پایانی"
       }
     ],
     "recent_30d": [
@@ -39306,9 +39216,9 @@
       4,
       4,
       5,
-      2,
-      6,
-      6
+      3,
+      5,
+      7
     ],
     "status": "active"
   },
