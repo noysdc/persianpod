@@ -12,9 +12,9 @@ on:
   workflow_dispatch:
     inputs:
       action:
-        description: "init = ثبت پادکست‌های فعلی بدون ارسال | dry-run = فقط پیش‌نمایش | post = ارسال"
+        description: "check = عیب‌یابی توکن و کانال | init = ثبت پادکست‌های فعلی بدون ارسال | dry-run = فقط پیش‌نمایش | post = ارسال"
         type: choice
-        options: [dry-run, post, init]
+        options: [check, dry-run, post, init]
         default: dry-run
       slug:
         description: "فقط این پادکست (اختیاری)"
@@ -47,9 +47,11 @@ jobs:
           args=""
           [ "$ACTION" = "init" ] && args="--init"
           [ "$ACTION" = "dry-run" ] && args="--dry-run"
+          [ "$ACTION" = "check" ] && args="--check"
           [ -n "$SLUG" ] && args="$args --slug $SLUG"
           python scripts/telegram_post.py $args
       - name: Commit state
+        if: always()          # حتی اگر یک ارسال ناموفق بود، پست‌های موفق ثبت شوند تا دوباره پست نشوند
         run: |
           git config user.name  "persianpod-bot"
           git config user.email "actions@users.noreply.github.com"
