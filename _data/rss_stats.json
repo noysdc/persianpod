@@ -6591,6 +6591,86 @@
     ],
     "status": "inactive"
   },
+  "danzi": {
+    "avg_gap_days": 1.4,
+    "avg_length": 26,
+    "episodes": 6,
+    "eps_365": 6,
+    "eps_90": 6,
+    "first_at": "2026-09-07",
+    "first_year": 1405,
+    "last": "1405/06/23",
+    "last_at": "2026-09-14T13:29:39Z",
+    "last_link": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/c2261fbb-02a4-4cae-91c1-85f4dfbcf15d/play.mp3",
+    "last_title": "دانزی | برای آگاهی در باب رنج",
+    "max_length": 50,
+    "median_length": 29,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/c2261fbb-02a4-4cae-91c1-85f4dfbcf15d/play.mp3",
+        "at": "2026-09-14T13:29:39Z",
+        "t": "دانزی | برای آگاهی در باب رنج"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/c6c92cb8-0ccc-4a3c-9926-199eed8506d1/play.mp3",
+        "at": "2026-09-13T14:32:51Z",
+        "t": "یک خبر درباره دانزی"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/80b9d39a-97e9-4935-927e-082497566eab/play.mp3",
+        "at": "2026-09-07T11:58:40Z",
+        "t": "دانزی | برای آگاهی در باب ترس"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/ff2865b9-33a1-4ab2-965d-21c8ad098a4f/play.mp3",
+        "at": "2026-09-07T10:49:47Z",
+        "t": "دانزی | برای آگاهی در باب جستجو"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/ff73d2d7-c8fb-40c4-b28f-b78a938d75d4/play.mp3",
+        "at": "2026-09-07T10:22:58Z",
+        "t": "دانزی | برای آگاهی در باب اختیار"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/a3656208-c2d4-44dc-ae3e-7a28a0636efd/play.mp3",
+        "at": "2026-09-07T09:59:35Z",
+        "t": "تیزر برای آگاهی در باب اختیار"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-14T13:29:39Z",
+        "link": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/c2261fbb-02a4-4cae-91c1-85f4dfbcf15d/play.mp3",
+        "title": "دانزی | برای آگاهی در باب رنج"
+      },
+      {
+        "at": "2026-09-13T14:32:51Z",
+        "link": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/c6c92cb8-0ccc-4a3c-9926-199eed8506d1/play.mp3",
+        "title": "یک خبر درباره دانزی"
+      },
+      {
+        "at": "2026-09-07T11:58:40Z",
+        "link": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/80b9d39a-97e9-4935-927e-082497566eab/play.mp3",
+        "title": "دانزی | برای آگاهی در باب ترس"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+    ],
+    "status": "active"
+  },
   "darma-mditishn": {
     "avg_gap_days": 8.2,
     "avg_length": 19,
@@ -31334,6 +31414,96 @@
       0
     ],
     "status": "inactive"
+  },
+  "podgir": {
+    "avg_gap_days": 15.6,
+    "avg_length": 41,
+    "episodes": 71,
+    "eps_365": 23,
+    "eps_90": 6,
+    "first_at": "2023-06-10",
+    "first_year": 1402,
+    "last": "1405/07/10",
+    "last_at": "2026-10-02T02:30:00Z",
+    "last_link": "https://podgirpodcast.ir/",
+    "last_title": "ویژه روز جهانی پادکست",
+    "max_length": 84,
+    "median_length": 40,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/668948539bf81dc06aedaf3d/e/6abe6ed1fa77186ceb5cf1d7/media.mp3",
+        "at": "2026-10-02T02:30:00Z",
+        "t": "ویژه روز جهانی پادکست"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/668948539bf81dc06aedaf3d/e/6aa6b391b54f356fc767cd21/media.mp3",
+        "at": "2026-09-13T14:30:41Z",
+        "t": "یک خبر درباره دانزی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/668948539bf81dc06aedaf3d/e/6a9960d1be98057961f9fa94/media.mp3",
+        "at": "2026-09-03T11:58:08Z",
+        "t": "از زمین تا فیلتر"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/668948539bf81dc06aedaf3d/e/6a7c8fcd51319a521da0a08b/media.mp3",
+        "at": "2026-08-14T02:30:00Z",
+        "t": "دانزی - برای آگاهی | در باب ترس"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/668948539bf81dc06aedaf3d/e/6a6a1b1ba585d3be787c49c1/media.mp3",
+        "at": "2026-07-31T02:30:00Z",
+        "t": "همچی موقتی‌ست"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/668948539bf81dc06aedaf3d/e/6a649935a51cbd54e2a7f61b/media.mp3",
+        "at": "2026-07-25T11:08:36Z",
+        "t": "دانزی - برای آگاهی | در باب جستجو"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/668948539bf81dc06aedaf3d/e/6a58b8926f129226869e249b/media.mp3",
+        "at": "2026-07-17T02:30:00Z",
+        "t": "از اینجا به بعد"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/668948539bf81dc06aedaf3d/e/6a490a6904fac73b24237bbf/media.mp3",
+        "at": "2026-07-06T02:30:00Z",
+        "t": "دانزی - برای آگاهی | در باب اختیار"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-02T02:30:00Z",
+        "link": "https://podgirpodcast.ir/",
+        "title": "ویژه روز جهانی پادکست"
+      },
+      {
+        "at": "2026-09-13T14:30:41Z",
+        "link": "https://podgirpodcast.ir/",
+        "title": "یک خبر درباره دانزی"
+      },
+      {
+        "at": "2026-09-03T11:58:08Z",
+        "link": "https://podgirpodcast.ir/",
+        "title": "از زمین تا فیلتر"
+      }
+    ],
+    "recent_30d": [
+      3,
+      4,
+      2,
+      2,
+      0,
+      0,
+      0,
+      2,
+      3,
+      3,
+      2,
+      1
+    ],
+    "status": "active"
   },
   "pol-mhm-ast": {
     "avg_gap_days": 9.6,
