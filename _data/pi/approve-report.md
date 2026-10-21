@@ -1,20 +1,24 @@
 ## گزارش تأیید و انتقال
 
-- منتقل‌شده از `_drafts/` به `_podcasts/`: **12**
+- منتقل‌شده از `_drafts/` به `_podcasts/`: **16**
 - ردشده (تکراری یا از قبل موجود): 0
-- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **74**
+- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **79**
 
 ### منتقل‌شده
-- `anglisi-iadbgirid.md`
-- `bi-bi-gl-ghsh-go.md`
-- `ghsh-hai-hzar-o-ik-shb.md`
-- `ghsh-hai-shb.md`
-- `ghsh-hai-shbanh-roz.md`
-- `hmrah-ba-syoalat-shma.md`
-- `hs-khob-zndgi.md`
-- `ktab-soti-raoi-jnait.md`
-- `podcast-aksir-marft.md`
-- `podcast-astorh-shnasi-thot.md`
-- `podcast-khoab-kodkanh.md`
-- `slh-dron.md`
+- `1001-shb.md`
+- `anglisi-bi-klas-english-b-kelas.md`
+- `fatmh-zhras-ahl-albit-a.md`
+- `filmofilia.md`
+- `khanh-adb-parsi-padkst-shahnamh-khoani-shah-pad.md`
+- `khoansh-ktab-brai-ansan-khrdmnd.md`
+- `khodngri.md`
+- `mhmd-mjthd-shbstri.md`
+- `nimh-tarik-ojod-noisndh-dbi-ford-raoi-pria-srkhi.md`
+- `nshat-rkh.md`
+- `radio-iranshahr-radio-airanshhr.md`
+- `radiogik-radiogeek.md`
+- `shioana.md`
+- `shrh-o-tfsir-torat-o-anjil.md`
+- `skhn-amroz.md`
+- `zndgi-ps-az-zndgi.md`
 

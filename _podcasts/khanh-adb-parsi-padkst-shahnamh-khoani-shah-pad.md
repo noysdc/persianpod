@@ -17,8 +17,8 @@ pi_id: 5600763
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # خانه ادب پارسی- پادکست شاهنامه خوانی شاه پاد

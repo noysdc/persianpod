@@ -16,8 +16,8 @@ pi_id: 6030199
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # زندگی پس از زندگی

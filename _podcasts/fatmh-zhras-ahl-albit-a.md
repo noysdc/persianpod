@@ -16,8 +16,8 @@ pi_id: 2453230
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # فاطمه زهراءس، اهل البیت ع.
