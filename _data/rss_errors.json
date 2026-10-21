@@ -87,10 +87,6 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
-  "skhnrani-ha-mizgrdha-o-msahbh-hai-almi": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://www.souzanchi.ir/category/sokhanrani/feed/"
-  },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://ronakottawa.com/feed/podcast/zaban-o-adabiyat/"
