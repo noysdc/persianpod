@@ -71,10 +71,6 @@
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
-  "radio-fol-astk": {
-    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://api.sokanacademy.com/api/podcast/feed"
-  },
   "roait-ahd": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://ajalallah.com/category/sokhanraniha/akharinsokhanrani/revayat-ahd/feed/"
