@@ -16441,8 +16441,8 @@
     ],
     "recent_30d": [
       36,
-      129,
-      74,
+      130,
+      73,
       64,
       4,
       0,
@@ -37843,21 +37843,31 @@
     "status": "inactive"
   },
   "shar-kst": {
-    "avg_gap_days": 20.0,
+    "avg_gap_days": 17.9,
     "avg_length": 7,
-    "episodes": 155,
-    "eps_365": 18,
-    "eps_90": 15,
+    "episodes": 157,
+    "eps_365": 20,
+    "eps_90": 17,
     "first_at": "2022-05-04",
     "first_year": 1401,
-    "last": "1405/07/28",
-    "last_at": "2026-10-20T16:32:00Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ce75bcae-4773-4439-a033-24c729ee32aa/play.mp3",
-    "last_title": "صد و پنجاه و چهار - مسخره‌ٔ جهان: مولانا",
+    "last": "1405/07/29",
+    "last_at": "2026-10-21T16:32:00Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/3f2bae40-62b5-4add-b7b9-b9a91e32f1c7/play.mp3",
+    "last_title": "صد و پنجاه و هفت - مور دانه‌کش: سعدی",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/3f2bae40-62b5-4add-b7b9-b9a91e32f1c7/play.mp3",
+        "at": "2026-10-21T16:32:00Z",
+        "t": "صد و پنجاه و هفت - مور دانه‌کش: سعدی"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/f03eccff-f44f-4229-bded-434875d40df5/play.mp3",
+        "at": "2026-10-21T16:31:00Z",
+        "t": "صد و پنجاه و شش - یا مرگ یا وطن: منسوب به فردوسی"
+      },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ce75bcae-4773-4439-a033-24c729ee32aa/play.mp3",
         "at": "2026-10-20T16:32:00Z",
@@ -37887,33 +37897,23 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/f603a740-de1b-4701-b868-fea5095cf0e2/play.mp3",
         "at": "2026-10-19T17:30:00Z",
         "t": "صد و چهل و نه - جام تعب: سلمان ساوجی"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/afbbdd5d-0c17-4979-a6be-0a1602b91fa0/play.mp3",
-        "at": "2026-10-18T19:42:00Z",
-        "t": "صد و چهل و هشت - مست مَی‌گون: حیدر شیرازی"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/0f976769-8dac-4af9-8af0-0702bb963f3a/play.mp3",
-        "at": "2026-10-18T19:39:00Z",
-        "t": "صد و چهل و هفت - از من چرا رنجیده‌ای: منسوب به سعدی"
       }
     ],
     "recent": [
       {
+        "at": "2026-10-21T16:32:00Z",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/3f2bae40-62b5-4add-b7b9-b9a91e32f1c7/play.mp3",
+        "title": "صد و پنجاه و هفت - مور دانه‌کش: سعدی"
+      },
+      {
+        "at": "2026-10-21T16:31:00Z",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/f03eccff-f44f-4229-bded-434875d40df5/play.mp3",
+        "title": "صد و پنجاه و شش - یا مرگ یا وطن: منسوب به فردوسی"
+      },
+      {
         "at": "2026-10-20T16:32:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ce75bcae-4773-4439-a033-24c729ee32aa/play.mp3",
         "title": "صد و پنجاه و چهار - مسخره‌ٔ جهان: مولانا"
-      },
-      {
-        "at": "2026-10-20T16:31:00Z",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ef5fd02e-01f9-4fe6-b5ab-0e066b81ee63/play.mp3",
-        "title": "صد و پنجاه و سه - شکر شکرین: امامی هروی"
-      },
-      {
-        "at": "2026-10-20T16:30:00Z",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/25c6b287-26ce-4021-bd8f-852c7e383015/play.mp3",
-        "title": "صد و پنجاه و دو - قی قی و قو قو: منسوب به مولانا"
       }
     ],
     "recent_30d": [
@@ -37928,7 +37928,7 @@
       0,
       3,
       0,
-      12
+      14
     ],
     "status": "active"
   },
