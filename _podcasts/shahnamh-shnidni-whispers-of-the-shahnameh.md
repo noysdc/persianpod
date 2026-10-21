@@ -17,8 +17,8 @@ pi_id: 6926146
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # شاهنامه شنیدنی .Whispers of the Shahnameh

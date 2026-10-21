@@ -1,24 +1,27 @@
 ## گزارش تأیید و انتقال
 
-- منتقل‌شده از `_drafts/` به `_podcasts/`: **16**
+- منتقل‌شده از `_drafts/` به `_podcasts/`: **19**
 - ردشده (تکراری یا از قبل موجود): 0
-- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **79**
+- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **81**
 
 ### منتقل‌شده
-- `1001-shb.md`
-- `anglisi-bi-klas-english-b-kelas.md`
-- `fatmh-zhras-ahl-albit-a.md`
-- `filmofilia.md`
-- `khanh-adb-parsi-padkst-shahnamh-khoani-shah-pad.md`
-- `khoansh-ktab-brai-ansan-khrdmnd.md`
-- `khodngri.md`
-- `mhmd-mjthd-shbstri.md`
-- `nimh-tarik-ojod-noisndh-dbi-ford-raoi-pria-srkhi.md`
-- `nshat-rkh.md`
-- `radio-iranshahr-radio-airanshhr.md`
-- `radiogik-radiogeek.md`
-- `shioana.md`
-- `shrh-o-tfsir-torat-o-anjil.md`
-- `skhn-amroz.md`
-- `zndgi-ps-az-zndgi.md`
+- `aamozsh-zban-arbi-nsrt.md`
+- `akotopia.md`
+- `farks-ba-aranth.md`
+- `ghraan-krim-tlaot-astad-mshari-rashd-alafasi.md`
+- `hafz-khoani.md`
+- `kafh-gp.md`
+- `khodshnasi.md`
+- `pigham-roz.md`
+- `podcast-farsi-barkd-mjmoa-shnidari-tyatr-o.md`
+- `podcast-mdrsh-rabth.md`
+- `podcast-nghth-sr-kht.md`
+- `podcast-trjmh-soti-ghraan.md`
+- `pol-mhm-ast.md`
+- `radio-dornma.md`
+- `radio-shahnamh.md`
+- `shahnamh-shnidni-whispers-of-the-shahnameh.md`
+- `sharkhoani-hai-khsro-shkibaii.md`
+- `yuri-on-radio-iori-br-radio.md`
+- `zistn-o-rstn.md`
 
