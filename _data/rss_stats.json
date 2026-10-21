@@ -1,20 +1,25 @@
 {
   "1000frames": {
-    "avg_gap_days": 46.6,
-    "avg_length": 30,
-    "episodes": 30,
-    "eps_365": 6,
-    "eps_90": 3,
+    "avg_gap_days": 42.0,
+    "avg_length": 31,
+    "episodes": 31,
+    "eps_365": 7,
+    "eps_90": 4,
     "first_at": "2024-04-27",
     "first_year": 1403,
-    "last": "1405/07/10",
-    "last_at": "2026-10-02T11:05:07Z",
-    "last_link": "https://shows.acast.com/1000-frames/episodes/episode28",
-    "last_title": "عملیات نجات اروپا",
+    "last": "1405/07/29",
+    "last_at": "2026-10-21T13:42:11Z",
+    "last_link": "https://shows.acast.com/1000-frames/episodes/episode29",
+    "last_title": "بوسه بر جام",
     "max_length": 44,
-    "median_length": 29,
+    "median_length": 30,
     "min_length": 13,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/662a8e9ca1c8cf0012806879/e/6ad8c1353ad7f6855106919e/media.mp3",
+        "at": "2026-10-21T13:42:11Z",
+        "t": "بوسه بر جام"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/662a8e9ca1c8cf0012806879/e/6abf7e0e893be0f2ba836f28/media.mp3",
         "at": "2026-10-02T11:05:07Z",
@@ -49,14 +54,14 @@
         "a": "https://sphinx.acast.com/p/open/s/662a8e9ca1c8cf0012806879/e/68468ad1a13d33737344b437/media.mp3",
         "at": "2025-06-09T07:18:40Z",
         "t": "وقتی همه تنها بودند"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/662a8e9ca1c8cf0012806879/e/68323209393e5e6cd8e19512/media.mp3",
-        "at": "2025-05-25T02:30:00Z",
-        "t": "وقتی همه خواب بودند"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-21T13:42:11Z",
+        "link": "https://shows.acast.com/1000-frames/episodes/episode29",
+        "title": "بوسه بر جام"
+      },
       {
         "at": "2026-10-02T11:05:07Z",
         "link": "https://shows.acast.com/1000-frames/episodes/episode28",
@@ -66,11 +71,6 @@
         "at": "2026-09-10T18:53:20Z",
         "link": "https://shows.acast.com/1000-frames/episodes/episode27",
         "title": "در ستایش سوگ"
-      },
-      {
-        "at": "2026-08-17T12:20:02Z",
-        "link": "https://shows.acast.com/1000-frames/episodes/episode26",
-        "title": "جیم کری؛ مرد همیشه خندان"
       }
     ],
     "recent_30d": [
@@ -85,7 +85,7 @@
       1,
       1,
       1,
-      1
+      2
     ],
     "status": "active"
   },
