@@ -12916,7 +12916,7 @@
       }
     ],
     "recent_30d": [
-      8,
+      7,
       5,
       3,
       6,
@@ -13381,19 +13381,24 @@
   "hzar-o-ik-shb": {
     "avg_gap_days": 5.0,
     "avg_length": 31,
-    "episodes": 274,
-    "eps_365": 70,
-    "eps_90": 23,
+    "episodes": 275,
+    "eps_365": 71,
+    "eps_90": 24,
     "first_at": "2020-04-27",
     "first_year": 1399,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T13:52:31Z",
-    "last_link": "https://s3.castbox.fm/64/22/d5/6867f8482fa65a2e3d3faebe28.mp3",
-    "last_title": "سرزمین جاوید 2 - مقابله با تجاوز سیت ها - اپیزود 4 (بخش دوم)",
-    "max_length": 47,
+    "last": "1405/07/29",
+    "last_at": "2026-10-21T09:43:25Z",
+    "last_link": "https://s3.castbox.fm/f1/e1/8c/4ddf5f4165b1eb864fbe34fea2.mp3",
+    "last_title": "سرزمین جاوید 2 - مقابله با تجاوز سیت ها - اپیزود چهارم (بخش سوم)",
+    "max_length": 48,
     "median_length": 32,
     "min_length": 12,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/f1/e1/8c/4ddf5f4165b1eb864fbe34fea2.mp3",
+        "at": "2026-10-21T09:43:25Z",
+        "t": "سرزمین جاوید 2 - مقابله با تجاوز سیت ها - اپیزود چهارم (بخش سوم)"
+      },
       {
         "a": "https://s3.castbox.fm/64/22/d5/6867f8482fa65a2e3d3faebe28.mp3",
         "at": "2026-10-17T13:52:31Z",
@@ -13428,14 +13433,14 @@
         "a": "https://s3.castbox.fm/68/10/06/a6748b44dc87568585eeac0df8.mp3",
         "at": "2026-09-23T16:55:09Z",
         "t": "سرزمین جاوید - پرسپولیس که مظهر نبوغ هنرمندان عصر خویش بود چگونه ساخته شد - اپیزود 2 (بخش اول)"
-      },
-      {
-        "a": "https://s3.castbox.fm/c0/7d/29/f7f75847318065332755262305.mp3",
-        "at": "2026-09-22T07:27:50Z",
-        "t": "سرزمین جاوید-سال های نخست سلطنت داریوش به سرکوب یاغیان گذشت-اپیزود 1 (بخش چهارم)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-21T09:43:25Z",
+        "link": "https://s3.castbox.fm/f1/e1/8c/4ddf5f4165b1eb864fbe34fea2.mp3",
+        "title": "سرزمین جاوید 2 - مقابله با تجاوز سیت ها - اپیزود چهارم (بخش سوم)"
+      },
       {
         "at": "2026-10-17T13:52:31Z",
         "link": "https://s3.castbox.fm/64/22/d5/6867f8482fa65a2e3d3faebe28.mp3",
@@ -13445,11 +13450,6 @@
         "at": "2026-10-15T05:34:29Z",
         "link": "https://s3.castbox.fm/5c/db/5c/9243094d10b5ff529b707fcad6.mp3",
         "title": "سرزمین جاوید 2- مقابله با تجاوز سیت ها - اپیزود 4 (بخش اول)"
-      },
-      {
-        "at": "2026-10-07T14:36:56Z",
-        "link": "https://s3.castbox.fm/60/76/67/3cf73c4e488ff38fe8ccdd1d77.mp3",
-        "title": "سرزمین جاوید2-کارهای بزرگ فرهنگی و عمرانی داریوش در طول 6سال فرمانروایی او- اپیزود 3 (بخش سوم)"
       }
     ],
     "recent_30d": [
@@ -13464,7 +13464,7 @@
       5,
       9,
       6,
-      8
+      9
     ],
     "status": "active"
   },
@@ -19908,8 +19908,8 @@
       4,
       11,
       17,
-      22,
-      2,
+      23,
+      1,
       26
     ],
     "status": "active"
@@ -20898,19 +20898,24 @@
   "naaji": {
     "avg_gap_days": 7.2,
     "avg_length": 37,
-    "episodes": 107,
-    "eps_365": 50,
-    "eps_90": 10,
+    "episodes": 108,
+    "eps_365": 51,
+    "eps_90": 11,
     "first_at": "2020-04-16",
     "first_year": 1399,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T15:47:49Z",
-    "last_link": "https://shows.acast.com/naaji/episodes/6acfa426937a3c900fdd8147",
-    "last_title": "Ep 141 - فرزندآوری؛ عشق یا خودخواهی؟ - Having a child",
+    "last": "1405/07/29",
+    "last_at": "2026-10-21T10:30:00Z",
+    "last_link": "https://shows.acast.com/naaji/episodes/6ad8356b3ad7f68551d20895",
+    "last_title": "Ep 142 - تصمیم‌گیری در دوراهی‌های بزرگ زندگی - Decision Making",
     "max_length": 71,
     "median_length": 32,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67ca6c9effae9c0f4e3e7637/e/6ad8356b3ad7f68551d20895/media.mp3",
+        "at": "2026-10-21T10:30:00Z",
+        "t": "Ep 142 - تصمیم‌گیری در دوراهی‌های بزرگ زندگی - Decision Making"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67ca6c9effae9c0f4e3e7637/e/6acfa426937a3c900fdd8147/media.mp3",
         "at": "2026-10-14T15:47:49Z",
@@ -20945,14 +20950,14 @@
         "a": "https://sphinx.acast.com/p/open/s/67ca6c9effae9c0f4e3e7637/e/6a8dae648c90bb601191b304/media.mp3",
         "at": "2026-08-25T15:01:55Z",
         "t": "Ep 135 - چرا عاشق آدم‌های اشتباهی می‌شیم؟  Falling In Love"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67ca6c9effae9c0f4e3e7637/e/6a84bfefb9d83ea9cc034511/media.mp3",
-        "at": "2026-08-18T20:26:23Z",
-        "t": "Ep 134 - (اینقدر به خودت سخت نگیر(کمال‌گرایی و معیارهای سختگیرانه - Perfectionism"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-21T10:30:00Z",
+        "link": "https://shows.acast.com/naaji/episodes/6ad8356b3ad7f68551d20895",
+        "title": "Ep 142 - تصمیم‌گیری در دوراهی‌های بزرگ زندگی - Decision Making"
+      },
       {
         "at": "2026-10-14T15:47:49Z",
         "link": "https://shows.acast.com/naaji/episodes/6acfa426937a3c900fdd8147",
@@ -20962,11 +20967,6 @@
         "at": "2026-09-30T04:58:50Z",
         "link": "https://shows.acast.com/naaji/episodes/6abc970be1bd8d0f19caac94",
         "title": "Ep 140 - اعتیاد به خودارضایی - Masturbation"
-      },
-      {
-        "at": "2026-09-22T17:25:41Z",
-        "link": "https://shows.acast.com/naaji/episodes/6ab2ba1593749e4c0b55736a",
-        "title": "Ep 139 - سکس و صمیمیت - Sex and Intimacy"
       }
     ],
     "recent_30d": [
@@ -20981,7 +20981,7 @@
       4,
       3,
       4,
-      3
+      4
     ],
     "status": "active"
   },
@@ -27582,7 +27582,7 @@
     "avg_length": 25,
     "episodes": 116,
     "eps_365": 27,
-    "eps_90": 8,
+    "eps_90": 7,
     "first_at": "2024-10-21",
     "first_year": 1403,
     "last": "1405/05/15",
@@ -27660,8 +27660,8 @@
       0,
       6,
       0,
-      4,
-      8,
+      5,
+      7,
       0,
       0
     ],
@@ -29623,7 +29623,7 @@
       }
     ],
     "recent_30d": [
-      6,
+      5,
       9,
       4,
       6,
@@ -33478,10 +33478,10 @@
     "status": "inactive"
   },
   "radio-mnahj": {
-    "avg_gap_days": 5.0,
+    "avg_gap_days": 4.9,
     "avg_length": 47,
     "episodes": 249,
-    "eps_365": 74,
+    "eps_365": 73,
     "eps_90": 13,
     "first_at": "2023-08-10",
     "first_year": 1402,
@@ -33927,21 +33927,26 @@
     "status": "active"
   },
   "radio-saikt-mdrsh-alm-o-fnaori-koantom": {
-    "avg_gap_days": 22.1,
+    "avg_gap_days": 21.4,
     "avg_length": 24,
-    "episodes": 170,
-    "eps_365": 17,
-    "eps_90": 2,
+    "episodes": 171,
+    "eps_365": 18,
+    "eps_90": 3,
     "first_at": "2023-12-18",
     "first_year": 1402,
-    "last": "1405/07/18",
-    "last_at": "2026-10-10T08:15:04Z",
-    "last_link": "https://shenoto.com/album/podcast/1888780/اپیزود نخست فصل &quot;عصر دوم کوانتوم&quot;؛ دنیای کوانتوم",
-    "last_title": "اپیزود نخست فصل \"عصر دوم کوانتوم\"؛ دنیای کوانتوم",
+    "last": "1405/07/29",
+    "last_at": "2026-10-21T10:31:36Z",
+    "last_link": "https://shenoto.com/album/podcast/1891510/کتاب آرمان‌ها و واقعیت‌ها؛ معرفی",
+    "last_title": "کتاب آرمان‌ها و واقعیت‌ها؛ معرفی",
     "max_length": 99,
     "median_length": 27,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/97f6fd70-cd3a-11f1-8d55-d2483d1b3a72.mp3",
+        "at": "2026-10-21T10:31:36Z",
+        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ معرفی"
+      },
       {
         "a": "https://shenoto.com/service/api/play/podcast/b286adc4-c482-11f1-b7a1-e2d04c12946c.mp3",
         "at": "2026-10-10T08:15:04Z",
@@ -33976,14 +33981,14 @@
         "a": "https://shenoto.com/service/api/play/podcast/8fe89d5f-0c97-11f1-b314-0242ac120014.mp3",
         "at": "2026-02-18T07:00:51Z",
         "t": "اپیزود معرفی فصل \"در جستجوی برتری کوانتومی\""
-      },
-      {
-        "a": "https://shenoto.com/service/api/play/podcast/7eb52ab6-e08f-11f0-b314-0242ac120014.mp3",
-        "at": "2025-12-24T06:12:15Z",
-        "t": "کتاب \"زیست‌شناسی کوانتومی\"؛ فصل ششم: بویایی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-21T10:31:36Z",
+        "link": "https://shenoto.com/album/podcast/1891510/کتاب آرمان‌ها و واقعیت‌ها؛ معرفی",
+        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ معرفی"
+      },
       {
         "at": "2026-10-10T08:15:04Z",
         "link": "https://shenoto.com/album/podcast/1888780/اپیزود نخست فصل &quot;عصر دوم کوانتوم&quot;؛ دنیای کوانتوم",
@@ -33993,11 +33998,6 @@
         "at": "2026-09-09T11:53:25Z",
         "link": "https://shenoto.com/album/podcast/1880869/اپیزود معرفی فصل &quot;عصر دوم کوانتوم&quot;",
         "title": "اپیزود معرفی فصل \"عصر دوم کوانتوم\""
-      },
-      {
-        "at": "2026-07-18T12:21:42Z",
-        "link": "https://shenoto.com/album/podcast/1865241/اپیزود چهارم فصل &quot;در جستجوی برتری کوانتومی&quot;؛ هوش کوانتومی",
-        "title": "اپیزود چهارم فصل \"در جستجوی برتری کوانتومی\"؛ هوش کوانتومی"
       }
     ],
     "recent_30d": [
@@ -34012,7 +34012,7 @@
       1,
       0,
       1,
-      1
+      2
     ],
     "status": "active"
   },
@@ -36404,8 +36404,8 @@
       21,
       20,
       4,
-      15,
-      5,
+      16,
+      4,
       0,
       0,
       0,
@@ -37306,8 +37306,8 @@
       4,
       2,
       1,
-      8,
-      10,
+      9,
+      9,
       5,
       6,
       6
@@ -40456,8 +40456,8 @@
       100,
       112,
       59,
-      89,
-      19,
+      90,
+      18,
       0,
       7,
       41,
