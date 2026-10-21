@@ -27,7 +27,8 @@
   var DEFAULT = { w: 360, h: 300 };
 
   var root, bar, titleEl, frame, minBtn, statusEl, statusMsg, pageLink;
-  var pillEl, playBtn, seekEl, curEl, durEl, epTEl, podEl, rateBtn, volBtn, volEl, listBtn, infoA, seeking = false;
+  var pillEl, playBtn, seekEl, curEl, durEl, epTEl, podEl, rateBtn, volBtn, volEl, listBtn, infoA, hintEl, seeking = false;
+  var lastSave = 0, pendingSeek = 0, hintT = 0;
   var curEpsUrl = "";
   var selRate, selSleep, leftEl, rate = 1, sleepT = 0, sleepTick = 0, sleepAt = 0, sleepEnd = false;
   var RATE_KEY = "pp-rate", RATES = [0.75, 1, 1.25, 1.5, 1.75, 2];
@@ -73,6 +74,7 @@
     root.setAttribute("aria-label", "پلیر پادکست");
 
     root.innerHTML =
+      '<button type="button" class="ppfp__hint" hidden></button>' +
       '<div class="ppfp__pill" dir="ltr">' +
       '<div class="ppfp__ctl">' +
       '<button type="button" class="ppfp__pb ppfp__rate-b" aria-label="سرعت پخش" title="سرعت پخش">۱×</button>' +
@@ -278,6 +280,25 @@
     ["timeupdate", "loadedmetadata", "durationchange", "emptied"].forEach(function (ev) { audioEl.addEventListener(ev, syncPill); });
     audioEl.addEventListener("volumechange", syncVol);
     audioEl.addEventListener("ratechange", syncRate);
+
+    // حافظه‌ی پخش
+    hintEl = root.querySelector(".ppfp__hint");
+    hintEl.addEventListener("click", function () {
+      try { audioEl.currentTime = 0; } catch (e) {}
+      if (window.PPMem) window.PPMem.delProg(srcKey());
+      hintEl.hidden = true;
+    });
+    audioEl.addEventListener("loadedmetadata", function () {
+      var t = pendingSeek; pendingSeek = 0;
+      if (t > 0 && isFinite(audioEl.duration) && t < audioEl.duration - 20) {
+        try { audioEl.currentTime = t; } catch (e) {}
+        showHint(t);
+      }
+    });
+    audioEl.addEventListener("timeupdate", function () { if (Date.now() - lastSave > 5000) saveProg(true); });
+    ["pause", "ended"].forEach(function (ev) { audioEl.addEventListener(ev, function () { saveProg(false); }); });
+    window.addEventListener("pagehide", function () { saveProg(true); });
+    document.addEventListener("visibilitychange", function () { if (document.visibilityState === "hidden") saveProg(true); });
 
     // انتخاب قسمت در موبایل: فهرست بسته شود
     epsEl.addEventListener("click", function (e) { if (e.target.closest(".ppfp__ep") && window.innerWidth < 800) setPop(false); });
@@ -529,14 +550,34 @@
       navigator.mediaSession.setActionHandler("previoustrack", epI > 0 ? function () { playEp(epI - 1); } : null);
     } catch (x) {}
   }
+  /* ---------- ادامه از همان‌جا که قطع شد (حافظه‌ی همین دستگاه؛ PPMem در pp-memory.js) ---------- */
+  function srcKey() { var s = audioEl && audioEl.getAttribute("src"); return s ? (window.PPMem ? window.PPMem.norm(s) : s) : ""; }
+  function saveProg(quiet) {
+    if (!window.PPMem || !audioEl || mode !== "audio") return;
+    var a = srcKey(); if (!a) return;
+    var t = audioEl.currentTime || 0, d = audioEl.duration;
+    if (!isFinite(d) || d <= 0 || t < 3) return;              // هنوز بارگذاری نشده یا تازه شروع شده
+    var cur = eps[epI] || {}, done = d - t < 15;
+    window.PPMem.setProg(a, { t: done ? 0 : Math.floor(t), d: Math.floor(d), e: cur.t || "", p: titleEl.textContent || "", eu: curEpsUrl || "", done: done }, quiet);
+    lastSave = Date.now();
+  }
+  function showHint(t) {
+    if (!hintEl) return;
+    hintEl.textContent = "ادامه از " + fmtT(t) + " · از ابتدا";
+    hintEl.hidden = false;
+    clearTimeout(hintT); hintT = setTimeout(function () { hintEl.hidden = true; }, 7000);
+  }
+
   function playEp(i) {
     if (!eps[i]) return;
+    saveProg(false);                                   // موقعیت قسمت قبلی
     epI = i;
     var e = eps[i];
     nowEl.textContent = e.t || "";
     if (epTEl) { epTEl.textContent = e.t || ""; epTEl.title = e.t || ""; }
     showStatus("");
     audioEl.src = e.a;
+    pendingSeek = window.PPMem ? window.PPMem.resumeAt(window.PPMem.norm(e.a)) : 0;   // اگر قبلاً نیمه‌کاره مانده بود
     applyRate();
     var pr = audioEl.play(); if (pr && pr.catch) pr.catch(function () {});   // اگر مرورگر پخش خودکار را نداد، کاربر با دکمه‌ی پخش شروع می‌کند
     renderEps(); mediaMeta(e);
@@ -547,6 +588,7 @@
     curSrc = ""; loaded = false;
   }
   function stopAudio() {
+    saveProg(false);
     clearSleep(); curEpsUrl = "";
     if (!audioEl) return;
     audioEl.pause(); audioEl.removeAttribute("src"); try { audioEl.load(); } catch (e) {}

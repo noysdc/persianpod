@@ -144,6 +144,16 @@
       </div>
     </div>
 
+    <div class="pd-g pd-saved-row">
+      <label class="pd-check"><input type="checkbox" id="f-saved"> فقط پادکست‌های ذخیره‌شده <span id="f-saved-n" class="pd-saved-n"></span></label>
+      <span class="pd-saved-tools">
+        <button type="button" id="pp-bk-out" class="pd-link-btn">دریافت پشتیبان</button>
+        <button type="button" id="pp-bk-in" class="pd-link-btn">بازیابی پشتیبان</button>
+        <input type="file" id="pp-bk-file" accept="application/json,.json" hidden>
+      </span>
+      <span id="pp-bk-msg" class="pd-saved-msg" role="status" aria-live="polite"></span>
+    </div>
+
     <div class="pd-actions">
       <button type="button" id="pd-apply" class="pd-apply">نمایش پادکست‌ها</button>
       <button type="button" id="f-reset" class="pd-reset">پاک‌کردن</button>

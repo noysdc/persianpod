@@ -74,7 +74,7 @@
     q: $("#q"), status: $("#f-status"), city: $("#f-city"), lang: $("#f-lang"),
     country: $("#f-country"), yf: $("#f-yf"), yt: $("#f-yt"), emin: $("#f-emin"), emax: $("#f-emax"),
     lmin: $("#f-lmin"), lmax: $("#f-lmax"), creator: $("#f-creator"), tag: $("#f-tag"),
-    sort: $("#f-sort"), group: $("#f-group"), recent: $("#f-recent")
+    sort: $("#f-sort"), group: $("#f-group"), recent: $("#f-recent"), saved: $("#f-saved")
   };
 
   function prep(p, i) {
@@ -132,7 +132,8 @@
       emin: num(els.emin.value), emax: num(els.emax.value),
       lmin: num(els.lmin.value), lmax: num(els.lmax.value),
       creator: norm(els.creator.value), tag: norm(els.tag.value),
-      sort: els.sort.value, group: els.group.checked
+      sort: els.sort.value, group: els.group.checked,
+      saved: !!(els.saved && els.saved.checked)
     };
   }
   function inRange(v, lo, hi) {
@@ -143,6 +144,7 @@
   function match(p, f, skipCat) {
     if (!skipCat && f.cat && p._cat !== f.cat) return false;
     if (!skipCat && f.sub && p._subs.indexOf(norm(f.sub)) === -1) return false;
+    if (f.saved && !(window.PPMem && window.PPMem.isSaved(p.url))) return false;     // فقط ذخیره‌شده‌ها
     if (f.status === "active" && !p._active) return false;
     if (f.status === "inactive" && p._active) return false;
     if (f.recent) {                                        // قسمت جدید در N روز اخیر
@@ -176,7 +178,7 @@
   }
   function advancedCount(f) {
     var n = 0;
-    ["status", "recent", "city", "lang", "country", "creator", "tag"].forEach(function (k) { if (f[k]) n++; });
+    ["status", "recent", "city", "lang", "country", "creator", "tag", "saved"].forEach(function (k) { if (f[k]) n++; });
     ["yf", "yt", "emin", "emax", "lmin", "lmax"].forEach(function (k) { if (f[k] != null) n++; });
     return n;
   }
@@ -245,6 +247,7 @@
     if (f.q) add("q", CHIP_LABELS.q(f));
     if (f.cat) add("cat", CHIP_LABELS.cat(f));
     if (f.sub) add("sub", CHIP_LABELS.sub(f));
+    if (f.saved) add("saved", "فقط ذخیره‌شده‌ها");
     if (f.status) add("status", CHIP_LABELS.status(f));
     if (f.recent) add("recent", CHIP_LABELS.recent(f));
     if (f.city) add("city", CHIP_LABELS.city(f));
@@ -397,7 +400,9 @@
     out.removeAttribute("aria-busy");
 
     if (!list.length) {
-      out.innerHTML = '<p class="pd-empty">پادکستی با این انتخاب‌ها پیدا نشد. انتخاب‌ها را کم کن یا پاک کن.</p>';
+      out.innerHTML = f.saved && !(window.PPMem && window.PPMem.list().length)
+        ? '<p class="pd-empty">هنوز پادکستی ذخیره نکرده‌ای. روی ♡ کارت پادکست‌ها بزن تا اینجا جمع شوند.</p>'
+        : '<p class="pd-empty">پادکستی با این انتخاب‌ها پیدا نشد. انتخاب‌ها را کم کن یا پاک کن.</p>';
     } else if (f.group && !f.cat && !f.sub && !f.S) {
       var groups = {}, order = [];
       list.forEach(function (p) {
@@ -485,6 +490,7 @@
     [["recent", els.recent], ["city", els.city], ["lang", els.lang], ["country", els.country], ["status", els.status], ["yf", els.yf], ["yt", els.yt],
       ["emin", els.emin], ["emax", els.emax], ["lmin", els.lmin], ["lmax", els.lmax],
       ["creator", els.creator], ["tag", els.tag]].forEach(function (x) { if (x[1].value.trim()) p.set(x[0], x[1].value.trim()); });
+    if (els.saved && els.saved.checked) p.set("saved", "1");
     if (els.sort.value !== "random") p.set("sort", els.sort.value);
     var s = p.toString();
     try { history.replaceState(null, "", location.pathname + (s ? "?" + s : "")); } catch (e) {}
@@ -512,6 +518,7 @@
     if (p.get("status")) els.status.value = p.get("status");
     ["yf", "yt", "emin", "emax", "lmin", "lmax", "creator", "tag"].forEach(function (k) { if (p.get(k)) els[k].value = p.get(k); });
     if (p.get("sort")) els.sort.value = p.get("sort");
+    if (p.get("saved") && els.saved) els.saved.checked = true;
   }
 
   /* ---------- رویدادها ---------- */
@@ -526,6 +533,7 @@
     else if (k === "cat") { cat = ""; sub = ""; }
     else if (k === "sub") sub = "";
     else if (k === "geo") geo = null;
+    else if (k === "saved") { if (els.saved) els.saved.checked = false; }
     else if (k === "year") { els.yf.value = ""; els.yt.value = ""; }
     else if (k === "ep") { els.emin.value = ""; els.emax.value = ""; }
     else if (k === "len") { els.lmin.value = ""; els.lmax.value = ""; }

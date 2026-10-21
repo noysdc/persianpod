@@ -1,0 +1,82 @@
+/* PersianPod: ♡ ذخیره، «ادامه‌ی گوش‌دادن»، نوار پیشرفت قسمت‌ها، ردیف «فقط ذخیره‌شده‌ها»، راهنمای ادامه در پلیر. بعد از pp-pill.css لود شود. */
+
+/* ---------- ♡ روی کارت پادکست ---------- */
+.pd-card{position:relative}
+.pp-heart{
+  position:absolute;top:8px;inset-inline-start:8px;z-index:3;width:36px;height:36px;padding:0;display:grid;place-items:center;
+  border-radius:50%;border:1px solid rgba(255,255,255,.45);color:#fff;background:rgba(18,22,18,.42);cursor:pointer;
+  -webkit-backdrop-filter:blur(10px) saturate(160%);backdrop-filter:blur(10px) saturate(160%);
+  box-shadow:0 2px 10px rgba(0,0,0,.25);transition:transform .15s ease,background .2s ease,color .2s ease;
+}
+.pp-heart svg,.pp-save svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;transition:fill .2s ease,stroke .2s ease}
+.pp-heart:hover{transform:scale(1.08);background:rgba(18,22,18,.6)}
+.pp-heart:active{transform:scale(.92)}
+.pp-heart:focus-visible,.pp-save:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+.pp-heart[aria-pressed="true"]{color:#ff3b5c;background:rgba(255,255,255,.92);border-color:transparent}
+.pp-heart[aria-pressed="true"] svg,.pp-save[aria-pressed="true"] svg{fill:#ff3b5c;stroke:#ff3b5c}
+
+/* ♡ کنار نام پادکست انتخاب‌شده در «گوش بده» */
+.pp-heart-inline{position:static;flex:none;margin-inline-start:auto;width:42px;height:42px;color:var(--ink);background:var(--card);border:1px solid var(--line);box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
+.pp-heart-inline:hover{background:var(--card);border-color:#ff3b5c}
+.pp-heart-inline[aria-pressed="true"]{color:#ff3b5c;background:color-mix(in srgb,#ff3b5c 9%,var(--card));border-color:rgba(255,59,92,.55)}
+
+/* ---------- دکمه‌ی «ذخیره» در صفحه‌ی خود پادکست ---------- */
+.pp-save{
+  display:inline-flex;align-items:center;gap:8px;height:40px;margin:6px 0 4px;padding:0 18px;border-radius:999px;
+  border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit;font-weight:600;font-size:.9rem;cursor:pointer;
+  transition:border-color .2s ease,box-shadow .2s ease,background .2s ease;
+}
+.pp-save:hover{border-color:#ff3b5c;box-shadow:0 6px 18px rgba(255,59,92,.18)}
+.pp-save[aria-pressed="true"]{border-color:rgba(255,59,92,.55);background:color-mix(in srgb,#ff3b5c 9%,var(--card))}
+
+/* ---------- ادامه‌ی گوش‌دادن (صفحه‌ی اول و گوش بده) ---------- */
+.pp-cont{margin:0 0 22px;padding:14px 14px 10px;border-radius:24px;border:1px solid var(--line);background:var(--card)}
+.pp-cont-h{margin:0 4px 10px;font-size:1rem;font-weight:800}
+.pp-cont ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.pp-cont li{margin:0;padding:0}
+.pp-cont-b{
+  position:relative;width:100%;display:flex;align-items:center;gap:12px;padding:10px 12px 14px;border-radius:18px;
+  border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;text-align:start;cursor:pointer;overflow:hidden;
+  transition:border-color .2s ease,box-shadow .2s ease;
+}
+.pp-cont-b:hover{border-color:#08cb00;box-shadow:0 6px 18px var(--glow-soft)}
+.pp-cont-b:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
+.pp-cont-ic{flex:none;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:#08cb00;color:#0b0e0c}
+.pp-cont-ic svg{width:18px;height:18px;fill:currentColor}
+.pp-cont-t{flex:1;min-width:0;display:grid;gap:2px}
+.pp-cont-t b{font-size:.9rem;line-height:1.5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pp-cont-t small{font-size:.76rem;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pp-cont-bar{position:absolute;inset-inline:12px;bottom:6px;height:3px;border-radius:3px;background:linear-gradient(to left,#08cb00 var(--p,0%),rgba(128,128,128,.28) var(--p,0%))}
+
+/* ---------- نوار پیشرفت و علامت «شنیده‌شده» روی قسمت‌ها ---------- */
+.pp-eplist button[data-prog]{position:relative}
+.pp-eplist button[data-prog]::after{
+  content:"";position:absolute;inset-inline:12px;bottom:3px;height:3px;border-radius:3px;pointer-events:none;
+  background:linear-gradient(to left,#08cb00 var(--pp-prog,0%),rgba(128,128,128,.25) var(--pp-prog,0%));
+}
+.pp-eplist button[data-done]{opacity:.72}
+.pp-eplist button[data-done] span::after{content:"  ✓";color:#08cb00;font-weight:800}
+
+/* ---------- ردیف «فقط ذخیره‌شده‌ها» داخل جست‌وجوی پیشرفته ---------- */
+#pd-filters .pd-g.pd-saved-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px 20px;grid-column:1/-1}
+#pd-filters .pd-saved-row .pd-check{margin:0}
+.pd-saved-n{color:var(--mut);font-weight:400}
+.pd-saved-tools{display:flex;gap:14px;flex-wrap:wrap}
+.pd-link-btn{padding:4px 0;border:0;background:none;color:var(--mut);font:inherit;font-size:.84rem;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.pd-link-btn:hover{color:var(--ink)}
+.pd-link-btn:focus-visible{outline:2px solid #08cb00;outline-offset:2px;border-radius:4px}
+.pd-saved-msg{flex-basis:100%;min-height:1em;font-size:.8rem;color:var(--mut)}
+.pd-saved-msg:empty{display:none}
+
+/* ---------- راهنمای «ادامه از …» بالای قرص پلیر ---------- */
+.ppfp__hint{display:none}
+.ppfp--pill .ppfp__hint:not([hidden]){
+  display:block;position:absolute;left:50%;bottom:calc(100% + 10px);transform:translateX(-50%);z-index:2;max-width:calc(100vw - 32px);
+  padding:8px 18px;border-radius:999px;border:1px solid var(--gl-edge);color:var(--ink);font:inherit;font-size:.82rem;font-weight:600;white-space:nowrap;cursor:pointer;
+  background:var(--gl-fill-strong);box-shadow:inset 0 1px 0 var(--gl-hi),var(--gl-shadow);
+  -webkit-backdrop-filter:blur(var(--gl-blur));backdrop-filter:blur(var(--gl-blur));
+  animation:ppfp-hint .25s ease;
+}
+.ppfp--pill .ppfp__hint:hover{border-color:#08cb00}
+@keyframes ppfp-hint{from{opacity:0;transform:translate(-50%,6px)}to{opacity:1;transform:translate(-50%,0)}}
+@media (prefers-reduced-motion:reduce){.pp-heart,.pp-save,.pp-cont-b,.ppfp--pill .ppfp__hint{transition:none;animation:none}}
