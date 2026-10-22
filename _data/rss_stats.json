@@ -1806,7 +1806,7 @@
     "avg_length": 7,
     "episodes": 81,
     "eps_365": 81,
-    "eps_90": 63,
+    "eps_90": 62,
     "first_at": "2026-07-06",
     "first_year": 1405,
     "last": "1405/07/25",
@@ -1884,8 +1884,8 @@
       0,
       0,
       0,
-      18,
-      28,
+      19,
+      27,
       26,
       9
     ],
@@ -26810,26 +26810,21 @@
     "status": "active"
   },
   "podcast-farsi-dioan": {
-    "avg_gap_days": 18.7,
-    "avg_length": 26,
-    "episodes": 47,
-    "eps_365": 20,
-    "eps_90": 7,
+    "avg_gap_days": 19.0,
+    "avg_length": 25,
+    "episodes": 46,
+    "eps_365": 19,
+    "eps_90": 6,
     "first_at": "2024-10-01",
     "first_year": 1403,
-    "last": "1405/07/30",
-    "last_at": "2026-10-22T06:00:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E1-e3qesst",
-    "last_title": "S6E1 : آن سه هٓوٓل",
+    "last": "1405/07/16",
+    "last_at": "2026-10-08T06:00:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E11-e3ji5c6",
+    "last_title": "S5E11 : رستم و سهراب.",
     "max_length": 36,
     "median_length": 25,
     "min_length": 19,
     "play": [
-      {
-        "a": "https://anchor.fm/s/10a344184/podcast/play/127414621/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F7d7f2fc2-17bc-8ef0-71af-be8000188cd9.mp3",
-        "at": "2026-10-22T06:00:00Z",
-        "t": "S6E1 : آن سه هٓوٓل"
-      },
       {
         "a": "https://anchor.fm/s/10a344184/podcast/play/120181574/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F598bf3c3-e85d-e7bf-5d34-c5a19cc8684b.mp3",
         "at": "2026-10-08T06:00:00Z",
@@ -26864,14 +26859,14 @@
         "a": "https://anchor.fm/s/10a344184/podcast/play/120180532/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2Ff66db591-0ba6-ecab-8b0a-0d3732786e47.mp3",
         "at": "2026-07-16T06:00:00Z",
         "t": "S5E5 : پروژه آپولو ۱."
+      },
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/120180396/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F108fc5be-1220-7a40-442d-8884fbbe1b79.mp3",
+        "at": "2026-07-02T06:00:00Z",
+        "t": "S5E4 : کیکاووس بی حوصله."
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-22T06:00:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E1-e3qesst",
-        "title": "S6E1 : آن سه هٓوٓل"
-      },
       {
         "at": "2026-10-08T06:00:00Z",
         "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E11-e3ji5c6",
@@ -26881,6 +26876,11 @@
         "at": "2026-09-24T06:00:00Z",
         "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E10-e3ji58s",
         "title": "S5E10 : خورشید پشت ابر."
+      },
+      {
+        "at": "2026-09-10T06:00:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E9-e3ji54l",
+        "title": "S5E9 : دعوا کنون."
       }
     ],
     "recent_30d": [
@@ -26895,7 +26895,7 @@
       2,
       2,
       2,
-      3
+      2
     ],
     "status": "active"
   },
