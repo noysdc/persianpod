@@ -36825,21 +36825,26 @@
     "status": "active"
   },
   "radio-flsfh-radiofalsafe": {
-    "avg_gap_days": 15.2,
+    "avg_gap_days": 15.0,
     "avg_length": 55,
-    "episodes": 63,
-    "eps_365": 24,
-    "eps_90": 7,
+    "episodes": 64,
+    "eps_365": 25,
+    "eps_90": 8,
     "first_at": "2024-12-11",
     "first_year": 1403,
-    "last": "1405/07/18",
-    "last_at": "2026-10-10T13:40:27Z",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T17:11:01Z",
     "last_link": "https://podcasters.spotify.com/pod/show/-31570",
-    "last_title": "درباره‌ی فلسفه _ قسمت چهلم | تولد ایدهٔ مطلق؛ آیا هگل به خدا می‌رسد؟",
+    "last_title": "درباره‌ی فلسفه _ قسمت چهل و یکم | در جست‌وجوی خدا؛ واپسین ایستگاه فلسفهٔ هگل",
     "max_length": 73,
-    "median_length": 44,
+    "median_length": 45,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://audio4.redcircle.com/episodes/fbe6d58b-edc7-4d68-b576-f81db512b77f/stream.mp3",
+        "at": "2026-10-22T17:11:01Z",
+        "t": "درباره‌ی فلسفه _ قسمت چهل و یکم | در جست‌وجوی خدا؛ واپسین ایستگاه فلسفهٔ هگل"
+      },
       {
         "a": "https://audio4.redcircle.com/episodes/b7e45039-ef94-473a-a8ae-8ac87acf8f49/stream.mp3",
         "at": "2026-10-10T13:40:27Z",
@@ -36874,14 +36879,14 @@
         "a": "https://audio4.redcircle.com/episodes/dd258b97-5fb6-46f6-b0fb-fb3cbfc41714/stream.mp3",
         "at": "2026-07-31T00:48:19Z",
         "t": "درباره‌ی فلسفه_ قسمت سی و چهارم | دیالکتیک؛ قلب تپندهٔ فلسفهٔ هگل"
-      },
-      {
-        "a": "https://audio4.redcircle.com/episodes/f78af683-6ccb-4bc1-9a03-fd3184636c73/stream.mp3",
-        "at": "2026-07-16T17:53:05Z",
-        "t": "درباره‌ی فلسفه_ قسمت سی و سوم | هگل؛ نقد فیلسوفان پیشین و دغدغه‌های یک متفکر بزرگ"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-22T17:11:01Z",
+        "link": "https://podcasters.spotify.com/pod/show/-31570",
+        "title": "درباره‌ی فلسفه _ قسمت چهل و یکم | در جست‌وجوی خدا؛ واپسین ایستگاه فلسفهٔ هگل"
+      },
       {
         "at": "2026-10-10T13:40:27Z",
         "link": "https://podcasters.spotify.com/pod/show/-31570",
@@ -36891,11 +36896,6 @@
         "at": "2026-09-28T00:17:00Z",
         "link": "https://podcasters.spotify.com/pod/show/-31570",
         "title": "درباره فلسفه_ قسمت سی و نهم | علم منطق هگل: جوهر تا غایت‌شناسی؛ از «علت» تا «غایت»، منطق چگونه تغییر می‌کند؟"
-      },
-      {
-        "at": "2026-09-15T23:06:33Z",
-        "link": "https://podcasters.spotify.com/pod/show/-31570",
-        "title": "درباره فلسفه_ قسمت سی‌وهشتم | علم منطق هگل، آموزه‌ی‌ ذات؛ از فعلیت تا ضرورت مطلق"
       }
     ],
     "recent_30d": [
@@ -36910,7 +36910,7 @@
       3,
       2,
       3,
-      2
+      3
     ],
     "status": "active"
   },
