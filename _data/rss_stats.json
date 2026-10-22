@@ -538,7 +538,7 @@
     "avg_gap_days": 2.3,
     "avg_length": 9,
     "episodes": 38,
-    "eps_365": 13,
+    "eps_365": 12,
     "eps_90": 0,
     "first_at": "2021-08-04",
     "first_year": 1400,
@@ -609,7 +609,7 @@
       }
     ],
     "recent_30d": [
-      11,
+      10,
       0,
       0,
       0,
@@ -1445,19 +1445,24 @@
   "aamozsh-zban-ba-lingano-padkst": {
     "avg_gap_days": 2.9,
     "avg_length": 7,
-    "episodes": 160,
-    "eps_365": 126,
-    "eps_90": 59,
+    "episodes": 161,
+    "eps_365": 127,
+    "eps_90": 60,
     "first_at": "2025-08-26",
     "first_year": 1404,
-    "last": "1405/07/29",
-    "last_at": "2026-10-21T06:30:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/89---Good-old-days-e3qo7of",
-    "last_title": "قسمت 89 - Good old days!",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T06:30:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/90---e3qo81e",
+    "last_title": "قسمت 90 - قسمت آخر فصل دوم",
     "max_length": 17,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/108b105e0/podcast/play/127720942/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-19%2F95ef0ef6-30b3-3fff-dbae-74de518e3816.mp3",
+        "at": "2026-10-22T06:30:00Z",
+        "t": "قسمت 90 - قسمت آخر فصل دوم"
+      },
       {
         "a": "https://anchor.fm/s/108b105e0/podcast/play/127720655/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-19%2Fdbde36fe-14db-f558-4b3e-7a7948efae2a.mp3",
         "at": "2026-10-21T06:30:00Z",
@@ -1492,14 +1497,14 @@
         "a": "https://anchor.fm/s/108b105e0/podcast/play/127382679/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F7329ff74-c014-0f50-9ca6-752727d71af3.mp3",
         "at": "2026-10-13T07:52:47Z",
         "t": "قسمت 83 - انگلیسی تو مهمونی ۳"
-      },
-      {
-        "a": "https://anchor.fm/s/108b105e0/podcast/play/127281240/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-11%2F3894fde0-4fad-73f3-eee0-bafab8ba624e.mp3",
-        "at": "2026-10-12T06:30:00Z",
-        "t": "قسمت 82 - انگلیسی تو مهمونی ۲"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-22T06:30:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/90---e3qo81e",
+        "title": "قسمت 90 - قسمت آخر فصل دوم"
+      },
       {
         "at": "2026-10-21T06:30:00Z",
         "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/89---Good-old-days-e3qo7of",
@@ -1509,11 +1514,6 @@
         "at": "2026-10-20T06:30:00Z",
         "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/88---Give-a-ride-e3qnqbf",
         "title": "قسمت 88 - Give a ride"
-      },
-      {
-        "at": "2026-10-19T08:58:20Z",
-        "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/87---I-didnt-mean-to-e3qnpea",
-        "title": "قسمت 87 - I didn't mean to!"
       }
     ],
     "recent_30d": [
@@ -1528,7 +1528,7 @@
       15,
       22,
       20,
-      17
+      18
     ],
     "status": "active"
   },
@@ -1885,9 +1885,9 @@
       0,
       0,
       19,
-      27,
-      26,
-      9
+      29,
+      25,
+      8
     ],
     "status": "active"
   },
@@ -2503,8 +2503,8 @@
     ],
     "recent_30d": [
       0,
-      1,
-      1,
+      2,
+      0,
       0,
       0,
       1,
@@ -5786,19 +5786,24 @@
   "bplus": {
     "avg_gap_days": 6.1,
     "avg_length": 64,
-    "episodes": 297,
+    "episodes": 298,
     "eps_365": 60,
-    "eps_90": 11,
+    "eps_90": 12,
     "first_at": "2018-05-01",
     "first_year": 1397,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T11:36:57Z",
-    "last_link": "https://shows.acast.com/bplus/episodes/6acda8e568b7ce6ffbfe072c",
-    "last_title": "خلاصه كتاب ارزش‌ها",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T14:14:40Z",
+    "last_link": "https://shows.acast.com/bplus/episodes/6acc91cc7ce338e8cd71a739",
+    "last_title": "عربستان بن سلمان؛ پرواز یا سقوط؟",
     "max_length": 131,
     "median_length": 57,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65417dfc6143f1001280fb90/e/6acc91cc7ce338e8cd71a739/media.mp3",
+        "at": "2026-10-22T14:14:40Z",
+        "t": "عربستان بن سلمان؛ پرواز یا سقوط؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65417dfc6143f1001280fb90/e/6acda8e568b7ce6ffbfe072c/media.mp3",
         "at": "2026-10-14T11:36:57Z",
@@ -5833,14 +5838,14 @@
         "a": "https://sphinx.acast.com/p/open/s/65417dfc6143f1001280fb90/e/6a855a3039e73ea8f31f4419/media.mp3",
         "at": "2026-08-22T04:59:30Z",
         "t": "جنگ داخلی لبنان"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65417dfc6143f1001280fb90/e/6a7acdfc523b3dfcd89c606e/media.mp3",
-        "at": "2026-08-12T13:13:52Z",
-        "t": "خلاصه کتاب مغز ایدئولوژیک"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-22T14:14:40Z",
+        "link": "https://shows.acast.com/bplus/episodes/6acc91cc7ce338e8cd71a739",
+        "title": "عربستان بن سلمان؛ پرواز یا سقوط؟"
+      },
       {
         "at": "2026-10-14T11:36:57Z",
         "link": "https://shows.acast.com/bplus/episodes/6acda8e568b7ce6ffbfe072c",
@@ -5850,11 +5855,6 @@
         "at": "2026-10-12T03:31:01Z",
         "link": "https://shows.acast.com/bplus/episodes/6acc4fa18f34078889464d21",
         "title": "چرا زخم قفقاز هنوز برای ایران تازه است؟"
-      },
-      {
-        "at": "2026-09-22T04:26:43Z",
-        "link": "https://shows.acast.com/bplus/episodes/v",
-        "title": "چرا کشورها به پارلمان نیاز دارند؟"
       }
     ],
     "recent_30d": [
@@ -5869,7 +5869,7 @@
       5,
       5,
       4,
-      2
+      3
     ],
     "status": "active"
   },
@@ -8797,8 +8797,8 @@
       0,
       3,
       0,
-      0,
-      3,
+      1,
+      2,
       2,
       3,
       2,
@@ -10284,10 +10284,10 @@
     "status": "active"
   },
   "fght-fotbal": {
-    "avg_gap_days": 7.6,
+    "avg_gap_days": 7.8,
     "avg_length": 31,
     "episodes": 105,
-    "eps_365": 10,
+    "eps_365": 9,
     "eps_90": 0,
     "first_at": "2024-06-21",
     "first_year": 1403,
@@ -10553,10 +10553,10 @@
     "status": "active"
   },
   "flsfh-mdrn-az-dkart-ta-drida-6-drsgftar-tarikh-flsfh": {
-    "avg_gap_days": 9.3,
+    "avg_gap_days": 7.4,
     "avg_length": 27,
     "episodes": 12,
-    "eps_365": 7,
+    "eps_365": 6,
     "eps_90": 0,
     "first_at": "2025-08-16",
     "first_year": 1404,
@@ -12523,7 +12523,7 @@
     "avg_gap_days": 1.2,
     "avg_length": 9,
     "episodes": 68,
-    "eps_365": 40,
+    "eps_365": 37,
     "eps_90": 0,
     "first_at": "2025-09-23",
     "first_year": 1404,
@@ -14662,8 +14662,8 @@
       10,
       11,
       5,
-      8,
-      1,
+      9,
+      0,
       0,
       2,
       5,
@@ -15017,8 +15017,8 @@
       }
     ],
     "recent_30d": [
-      67,
-      34,
+      68,
+      33,
       27,
       0,
       0,
@@ -15795,7 +15795,7 @@
     "avg_gap_days": 6.9,
     "avg_length": 11,
     "episodes": 120,
-    "eps_365": 16,
+    "eps_365": 15,
     "eps_90": 0,
     "first_at": "2023-09-04",
     "first_year": 1402,
@@ -18101,8 +18101,8 @@
     ],
     "recent_30d": [
       33,
-      137,
-      66,
+      142,
+      61,
       64,
       4,
       0,
@@ -18201,10 +18201,9 @@
     "status": "inactive"
   },
   "ktab-bazi-orast": {
-    "avg_gap_days": 0.0,
     "avg_length": 7,
     "episodes": 72,
-    "eps_365": 4,
+    "eps_365": 0,
     "eps_90": 0,
     "first_at": "2025-04-12",
     "first_year": 1404,
@@ -20077,7 +20076,7 @@
     "avg_length": 25,
     "episodes": 377,
     "eps_365": 377,
-    "eps_90": 105,
+    "eps_90": 104,
     "first_at": "2025-11-03",
     "first_year": 1404,
     "last": "1405/07/26",
@@ -20147,18 +20146,18 @@
       }
     ],
     "recent_30d": [
-      41,
-      49,
+      42,
+      48,
       13,
-      44,
-      8,
+      45,
+      7,
       0,
       3,
       38,
-      76,
-      47,
-      36,
-      22
+      77,
+      46,
+      37,
+      21
     ],
     "status": "active"
   },
@@ -21817,7 +21816,7 @@
       }
     ],
     "recent_30d": [
-      17,
+      12,
       0,
       0,
       1,
@@ -21923,10 +21922,10 @@
     "status": "active"
   },
   "mjmoah-ktab-hai-pndragn": {
-    "avg_gap_days": 14.0,
+    "avg_gap_days": 18.0,
     "avg_length": 28,
     "episodes": 18,
-    "eps_365": 5,
+    "eps_365": 4,
     "eps_90": 0,
     "first_at": "2025-09-23",
     "first_year": 1404,
@@ -22090,8 +22089,8 @@
       0,
       0,
       10,
-      21,
-      1,
+      22,
+      0,
       0,
       0,
       25,
@@ -26005,21 +26004,26 @@
     "status": "inactive"
   },
   "podcast-bizins-astoriz": {
-    "avg_gap_days": 0.7,
-    "avg_length": 26,
-    "episodes": 17,
-    "eps_365": 17,
-    "eps_90": 17,
+    "avg_gap_days": 0.6,
+    "avg_length": 25,
+    "episodes": 18,
+    "eps_365": 18,
+    "eps_90": 18,
     "first_at": "2026-10-10",
     "first_year": 1405,
     "last": "1405/07/30",
-    "last_at": "2026-10-22T09:29:02Z",
-    "last_link": "https://furbodm.com/",
-    "last_title": "UBER | داستان هفدهم؛ اوبر",
+    "last_at": "2026-10-22T12:57:08Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6ada082470af2b1aa72f172b",
+    "last_title": "موقت؛ یکی دو نکته کوتاه درباره پادکست",
     "max_length": 38,
-    "median_length": 27,
-    "min_length": 15,
+    "median_length": 26,
+    "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ada082470af2b1aa72f172b/media.mp3",
+        "at": "2026-10-22T12:57:08Z",
+        "t": "موقت؛ یکی دو نکته کوتاه درباره پادکست"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad9d75e1eb6e512e5a27f23/media.mp3",
         "at": "2026-10-22T09:29:02Z",
@@ -26054,14 +26058,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6acf9cb568b7ce6ffb3005c7/media.mp3",
         "at": "2026-10-22T09:18:51Z",
         "t": "MCDONALD'S | داستان یازدهم؛ مک‌دونالد"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6acdee348f90a39dfc778646/media.mp3",
-        "at": "2026-10-22T09:18:32Z",
-        "t": "IKEA | داستان دهم؛ ایکیا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-22T12:57:08Z",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6ada082470af2b1aa72f172b",
+        "title": "موقت؛ یکی دو نکته کوتاه درباره پادکست"
+      },
       {
         "at": "2026-10-22T09:29:02Z",
         "link": "https://furbodm.com/",
@@ -26071,11 +26075,6 @@
         "at": "2026-10-22T09:20:15Z",
         "link": "https://furbodm.com/",
         "title": "CROCS | داستان شانزدهم؛ داستان کراکس"
-      },
-      {
-        "at": "2026-10-22T09:19:38Z",
-        "link": "https://furbodm.com",
-        "title": "TESLA | داستان پانزدهم؛ ایلان ماسک؛ تسلا"
       }
     ],
     "recent_30d": [
@@ -26090,7 +26089,7 @@
       0,
       0,
       0,
-      17
+      18
     ],
     "status": "active"
   },
@@ -30464,7 +30463,7 @@
       }
     ],
     "recent_30d": [
-      9,
+      8,
       9,
       0,
       1,
@@ -31558,19 +31557,24 @@
   "podcast-roanshnasi": {
     "avg_gap_days": 6.4,
     "avg_length": 19,
-    "episodes": 87,
-    "eps_365": 57,
-    "eps_90": 20,
+    "episodes": 88,
+    "eps_365": 58,
+    "eps_90": 21,
     "first_at": "2025-02-10",
     "first_year": 1403,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T10:12:27Z",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T11:27:49Z",
     "last_link": "https://bioe.ir/rang-ravan/",
-    "last_title": "پادکست روانشناسی رنگ روان : تابوی کمک گرفتن",
+    "last_title": "پادکست روانشناسی رنگ روان : تله ی من خودم از پسش بر میام",
     "max_length": 34,
     "median_length": 18,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/73701387-2066-4e1b-aabf-40242915d162/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=73701387-2066-4e1b-aabf-40242915d162&feed=F_u2pLhu",
+        "at": "2026-10-22T11:27:49Z",
+        "t": "پادکست روانشناسی رنگ روان : تله ی من خودم از پسش بر میام"
+      },
       {
         "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/d6c14869-39b9-4f9d-a645-64d29fb87d2e/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=d6c14869-39b9-4f9d-a645-64d29fb87d2e&feed=F_u2pLhu",
         "at": "2026-10-17T10:12:27Z",
@@ -31605,14 +31609,14 @@
         "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/7853bc7f-99f1-4e76-a30f-b47324f40156/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=7853bc7f-99f1-4e76-a30f-b47324f40156&feed=F_u2pLhu",
         "at": "2026-09-26T09:05:00Z",
         "t": "پادکست روانشناسی رنگ روان: بازی بی قاعده"
-      },
-      {
-        "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/e5521534-54a6-44e8-a3d3-ab65f0740a2f/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=e5521534-54a6-44e8-a3d3-ab65f0740a2f&feed=F_u2pLhu",
-        "at": "2026-09-23T09:05:00Z",
-        "t": "پادکست روانشناسی رنگ روان :  آموزش دیجیتال و تله‌ی اهمال کاری"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-22T11:27:49Z",
+        "link": "https://bioe.ir/rang-ravan/",
+        "title": "پادکست روانشناسی رنگ روان : تله ی من خودم از پسش بر میام"
+      },
       {
         "at": "2026-10-17T10:12:27Z",
         "link": "https://bioe.ir/rang-ravan/",
@@ -31622,16 +31626,11 @@
         "at": "2026-10-14T09:05:00Z",
         "link": "https://bioe.ir/rang-ravan/",
         "title": "پادکست روانشناسی رنگ روان :  چرا جذب الگوهای آسیب زا میشیم؟"
-      },
-      {
-        "at": "2026-10-10T07:25:52Z",
-        "link": "https://bioe.ir/rang-ravan/",
-        "title": "پادکست روانشناسی رنگ روان : نقشه راه انتخاب"
       }
     ],
     "recent_30d": [
-      6,
-      9,
+      7,
+      8,
       2,
       3,
       1,
@@ -31641,7 +31640,7 @@
       7,
       6,
       6,
-      8
+      9
     ],
     "status": "active"
   },
@@ -31917,7 +31916,7 @@
     "avg_gap_days": 5.3,
     "avg_length": 13,
     "episodes": 88,
-    "eps_365": 67,
+    "eps_365": 66,
     "eps_90": 6,
     "first_at": "2025-06-20",
     "first_year": 1404,
@@ -37169,8 +37168,8 @@
       }
     ],
     "recent_30d": [
-      2,
       3,
+      2,
       0,
       0,
       0,
@@ -37454,10 +37453,10 @@
     "status": "active"
   },
   "rman-hai-jnaii-ba-noshin": {
-    "avg_gap_days": 6.9,
+    "avg_gap_days": 7.0,
     "avg_length": 32,
     "episodes": 143,
-    "eps_365": 53,
+    "eps_365": 51,
     "eps_90": 24,
     "first_at": "2025-02-05",
     "first_year": 1403,
@@ -37528,8 +37527,8 @@
       }
     ],
     "recent_30d": [
-      16,
-      10,
+      18,
+      8,
       1,
       0,
       0,
@@ -38593,8 +38592,8 @@
       2,
       1,
       2,
-      2,
-      2,
+      3,
+      1,
       2
     ],
     "status": "active"
@@ -39049,19 +39048,24 @@
   "sdai-bazar": {
     "avg_gap_days": 4.2,
     "avg_length": 19,
-    "episodes": 479,
+    "episodes": 480,
     "eps_365": 87,
-    "eps_90": 19,
+    "eps_90": 20,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/07/29",
-    "last_at": "2026-10-21T11:50:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/h6hm7rf27m/",
-    "last_title": "پیشتازی دلار استرالیا؛ چگونه انتظارات نرخ بهره مسیر ارزها را تغییر می‌دهد؟",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T12:10:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/8r4q9thjlq/",
+    "last_title": "طلا زیر فشار تنش‌ها؛ وقتی پناهگاه امن هم فروخته می‌شود",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/8r4q9thjlq/2026-10-22-12-24-51.mp3",
+        "at": "2026-10-22T12:10:00Z",
+        "t": "طلا زیر فشار تنش‌ها؛ وقتی پناهگاه امن هم فروخته می‌شود"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/h6hm7rf27m/2026-10-21-12-07-17.mp3",
         "at": "2026-10-21T11:50:00Z",
@@ -39096,14 +39100,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/omvzd0kh3s/2026-10-13-11-29-28.mp3",
         "at": "2026-10-13T11:20:00Z",
         "t": "آرامش نسبی اوراق، نگرانی سهام؛ چرا نزدک همچنان زیر فشار است؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/zf64ghkypo/2026-10-12-12-28-04.mp3",
-        "at": "2026-10-12T11:20:00Z",
-        "t": "از تنش‌های انرژی تا تورم آمریکا؛ محرک‌های هفته پیش‌روی بازار"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-22T12:10:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/8r4q9thjlq/",
+        "title": "طلا زیر فشار تنش‌ها؛ وقتی پناهگاه امن هم فروخته می‌شود"
+      },
       {
         "at": "2026-10-21T11:50:00Z",
         "link": "https://dotcast.org/p/bozvcayr/h6hm7rf27m/",
@@ -39113,26 +39117,21 @@
         "at": "2026-10-20T12:10:00Z",
         "link": "https://dotcast.org/p/bozvcayr/z2oann4izq/",
         "title": "چرا افت دلار و بازدهی اوراق، طلا را بالا نبرد؟"
-      },
-      {
-        "at": "2026-10-19T10:50:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/mxax8pq76j/",
-        "title": "آزمون اعتماد به هوش مصنوعی؛ نگاه بازار به گزارش‌های درآمدی"
       }
     ],
     "recent_30d": [
       22,
-      19,
+      18,
       4,
-      16,
-      4,
+      17,
+      3,
       0,
       0,
       0,
       0,
       0,
       0,
-      19
+      20
     ],
     "status": "active"
   },
@@ -40021,8 +40020,8 @@
     "recent_30d": [
       9,
       9,
-      3,
-      8,
+      4,
+      7,
       2,
       2,
       1,
@@ -40200,8 +40199,8 @@
     "recent_30d": [
       17,
       17,
-      10,
-      21,
+      11,
+      20,
       6,
       2,
       2,
@@ -40397,7 +40396,7 @@
     "avg_length": 7,
     "episodes": 158,
     "eps_365": 21,
-    "eps_90": 18,
+    "eps_90": 17,
     "first_at": "2022-05-04",
     "first_year": 1401,
     "last": "1405/07/29",
@@ -40475,8 +40474,8 @@
       0,
       0,
       0,
-      0,
-      3,
+      1,
+      2,
       0,
       15
     ],
@@ -40780,10 +40779,10 @@
     "status": "active"
   },
   "sharkhoani-hai-khsro-shkibaii": {
-    "avg_gap_days": 12.7,
+    "avg_gap_days": 13.2,
     "avg_length": 5,
     "episodes": 105,
-    "eps_365": 24,
+    "eps_365": 23,
     "eps_90": 9,
     "first_at": "2024-11-08",
     "first_year": 1403,
@@ -43282,7 +43281,7 @@
     "avg_length": 10,
     "episodes": 4210,
     "eps_365": 811,
-    "eps_90": 261,
+    "eps_90": 260,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/07/29",
@@ -43352,17 +43351,17 @@
       }
     ],
     "recent_30d": [
-      100,
-      112,
+      101,
+      111,
       55,
-      92,
-      16,
+      94,
+      14,
       0,
       7,
       47,
-      101,
-      82,
       102,
+      84,
+      99,
       77
     ],
     "status": "active"
@@ -44444,7 +44443,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 24,
     "episodes": 394,
-    "eps_365": 256,
+    "eps_365": 255,
     "eps_90": 112,
     "first_at": "2024-08-22",
     "first_year": 1403,
@@ -44515,8 +44514,8 @@
       }
     ],
     "recent_30d": [
-      24,
-      32,
+      26,
+      30,
       8,
       38,
       6,
@@ -44524,8 +44523,8 @@
       15,
       8,
       11,
-      35,
-      44,
+      36,
+      43,
       33
     ],
     "status": "active"
@@ -45699,7 +45698,7 @@
     "avg_length": 30,
     "episodes": 359,
     "eps_365": 82,
-    "eps_90": 25,
+    "eps_90": 12,
     "first_at": "2021-12-08",
     "first_year": 1400,
     "last": "1405/06/31",
@@ -45777,8 +45776,8 @@
       0,
       11,
       7,
-      1,
       14,
+      1,
       11,
       0
     ],
@@ -45955,8 +45954,8 @@
       1,
       3,
       3,
-      4,
       5,
+      4,
       4,
       4,
       5,
