@@ -15866,8 +15866,8 @@
       }
     ],
     "recent_30d": [
-      4,
       5,
+      4,
       4,
       2,
       0,
@@ -22090,8 +22090,8 @@
       0,
       0,
       10,
-      20,
-      2,
+      21,
+      1,
       0,
       0,
       25,
@@ -26007,19 +26007,24 @@
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.7,
     "avg_length": 26,
-    "episodes": 16,
-    "eps_365": 16,
-    "eps_90": 16,
+    "episodes": 17,
+    "eps_365": 17,
+    "eps_90": 17,
     "first_at": "2026-10-10",
     "first_year": 1405,
     "last": "1405/07/30",
-    "last_at": "2026-10-22T09:20:15Z",
+    "last_at": "2026-10-22T09:29:02Z",
     "last_link": "https://furbodm.com/",
-    "last_title": "CROCS | داستان شانزدهم؛ داستان کراکس",
+    "last_title": "UBER | داستان هفدهم؛ اوبر",
     "max_length": 38,
     "median_length": 27,
     "min_length": 15,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad9d75e1eb6e512e5a27f23/media.mp3",
+        "at": "2026-10-22T09:29:02Z",
+        "t": "UBER | داستان هفدهم؛ اوبر"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad8762d12d1ac4b5e009b6d/media.mp3",
         "at": "2026-10-22T09:20:15Z",
@@ -26054,14 +26059,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6acdee348f90a39dfc778646/media.mp3",
         "at": "2026-10-22T09:18:32Z",
         "t": "IKEA | داستان دهم؛ ایکیا"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad7320c6a9e2a41c3d68c37/media.mp3",
-        "at": "2026-10-20T09:19:08Z",
-        "t": "TIKTOK | داستان نهم؛ تیک‌تاک"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-22T09:29:02Z",
+        "link": "https://furbodm.com/",
+        "title": "UBER | داستان هفدهم؛ اوبر"
+      },
       {
         "at": "2026-10-22T09:20:15Z",
         "link": "https://furbodm.com/",
@@ -26071,11 +26076,6 @@
         "at": "2026-10-22T09:19:38Z",
         "link": "https://furbodm.com",
         "title": "TESLA | داستان پانزدهم؛ ایلان ماسک؛ تسلا"
-      },
-      {
-        "at": "2026-10-22T09:19:28Z",
-        "link": "https://furbodm.com",
-        "title": "SPACEX | قسمت چهاردهم؛ ایلان ماسک؛ اسپیس ایکس"
       }
     ],
     "recent_30d": [
@@ -26090,7 +26090,7 @@
       0,
       0,
       0,
-      16
+      17
     ],
     "status": "active"
   },
@@ -31637,8 +31637,8 @@
       1,
       0,
       0,
-      7,
       8,
+      7,
       6,
       6,
       8
