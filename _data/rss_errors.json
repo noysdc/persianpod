@@ -63,10 +63,6 @@
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
-  "podcast-archives": {
-    "error": "ParseError: unclosed token: line 1, column 0",
-    "rss": "http://feeds.feedburner.com/radiojadi"
-  },
   "roait-ahd": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://ajalallah.com/category/sokhanraniha/akharinsokhanrani/revayat-ahd/feed/"
