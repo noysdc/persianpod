@@ -123,6 +123,7 @@
       '<div class="ppfp__status" role="status" aria-live="polite" hidden>' +
       '<p class="ppfp__msg"></p>' +
       '<div class="ppfp__acts"><button type="button" class="ppfp__retry">بارگذاری دوباره پلیر</button>' +
+      '<a class="ppfp__raw" target="_blank" rel="noopener noreferrer" hidden>باز کردن فایل صوتی</a>' +
       '<a class="ppfp__ext" target="_blank" rel="noopener noreferrer" hidden>باز کردن در سایت پادکست</a></div></div>' +
       '<div class="ppfp__resize" tabindex="0" role="separator" aria-label="تغییر اندازه"></div>' +
       "</div>";
@@ -160,7 +161,10 @@
     audioEl.addEventListener("timeupdate", function () { if (sleepAt && Date.now() >= sleepAt) sleepFire(); });   // اگر تایمر مرورگر در پس‌زمینه کند شد
     audioEl.addEventListener("error", function () {
       if (mode !== "audio" || !audioEl.getAttribute("src")) return;
-      showStatus("این قسمت پخش نشد. دوباره تلاش کنید یا قسمت دیگری را انتخاب کنید.", true);
+      showStatus("این قسمت پخش نشد. دوباره تلاش کنید، قسمت دیگری را انتخاب کنید یا فایل صوتی را مستقیم باز کنید.", true);
+      // راه‌حل جایگزین: باز کردن مستقیم فایل در تب جدید (بدون محدودیت‌های «هات‌لینک»)
+      var raw = root.querySelector(".ppfp__raw");
+      if (raw) { raw.href = audioEl.getAttribute("src"); raw.hidden = false; }
     });
 
     buildPill();   // قرص شناور (بعد از اتصال audioEl و selRate)
@@ -445,6 +449,8 @@
     statusEl.classList.toggle("ppfp__status--fail", !!failed);
     statusMsg.textContent = msg || "";
     root.querySelector(".ppfp__retry").hidden = !failed;
+    var raw = root.querySelector(".ppfp__raw");
+    if (raw) raw.hidden = true;                                   // فقط خطای پخش مستقیم آن را نشان می‌دهد (پایین)
   }
 
   function withParams(src, n) {

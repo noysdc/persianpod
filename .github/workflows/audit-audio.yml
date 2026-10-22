@@ -1,0 +1,51 @@
+name: 15 Audio health [auto weekly + manual]
+
+# هر هفته (یکشنبه‌ها ۰۳:۰۰ UTC ≈ ۰۶:۳۰ تهران) و هر وقت دستی بزنی: جدیدترین قسمت و یک قسمت میانه‌ی هر پادکست را آزمایش می‌کند
+# و _data/audio_health.json را به‌روز می‌کند. جدول خلاصه را در برگه‌ی Summary همین اجرا ببین.
+# توجه: ران‌های گیت‌هاب در آمریکا هستند؛ مسدودی مخصوص ایران یا فیلترینگ را نمی‌بینند.
+on:
+  schedule:
+    - cron: "0 3 * * 0"
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "فقط این پادکست (اختیاری)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audio-health
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Audit
+        env:
+          SLUG: ${{ github.event.inputs.slug }}
+        run: |
+          args=""
+          [ -n "$SLUG" ] && args="--slug $SLUG"
+          python scripts/audit_audio.py $args
+      - name: Commit result
+        if: github.event.inputs.slug == ''     # نتیجه‌ی آزمایش یک پادکست، گزارش کامل را بازنویسی نکند
+        run: |
+          git config user.name  "persianpod-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add _data/audio_health.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: audio health report"
+          for i in 1 2 3 4; do
+            git pull --rebase -X theirs && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 5))
+          done
+          exit 1

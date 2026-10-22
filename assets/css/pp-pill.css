@@ -101,3 +101,8 @@ body.ppfp-pill{padding-bottom:calc(104px + env(safe-area-inset-bottom,0px))}
   .ppfp__cur,.ppfp__dur{min-width:2.8em}
 }
 @media (prefers-reduced-motion:reduce){:root .ppfp.ppfp--pill,.ppfp--pop .ppfp__audio{animation:none;transition:none}}
+
+/* لینک «باز کردن فایل صوتی» در پیام خطا (هم‌شکل ppfp__ext) */
+.ppfp__raw{display:inline-flex;align-items:center;min-height:36px;padding:0 14px;border-radius:999px;border:1px solid var(--ppfp-line,rgba(128,128,128,.4));color:inherit;background:transparent;font:inherit;font-size:13px;font-weight:700;text-decoration:none;cursor:pointer}
+.ppfp__raw[hidden]{display:none}
+.ppfp__raw:focus-visible{outline:2px solid #08cb00;outline-offset:2px}

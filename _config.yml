@@ -28,4 +28,4 @@ exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, node_modules, scripts, tool
 rss_stats_raw: https://raw.githubusercontent.com/noysdc/persianpod/master/_data/rss_stats.json
 # نسخه‌ی فایل‌های CSS/JS برای کش مرورگر. قبلاً site.time بود که با هر دیپلوی (هر ۱۰ دقیقه) عوض می‌شد و کش را بی‌اثر می‌کرد.
 # هر وقت CSS یا JS را عوض کردی این عدد را بالا ببر (مثلاً تاریخ امروز).
-asset_v: "20261021a"
+asset_v: "20261022a"
