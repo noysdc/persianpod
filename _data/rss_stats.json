@@ -12433,7 +12433,7 @@
     "avg_length": 53,
     "episodes": 86,
     "eps_365": 15,
-    "eps_90": 11,
+    "eps_90": 10,
     "first_at": "2021-10-08",
     "first_year": 1400,
     "last": "1405/07/25",
@@ -12511,8 +12511,8 @@
       0,
       0,
       0,
-      4,
-      9,
+      5,
+      8,
       1,
       1
     ],
@@ -30100,7 +30100,7 @@
       }
     ],
     "recent_30d": [
-      1,
+      0,
       0,
       0,
       0,
@@ -31359,8 +31359,8 @@
       1,
       0,
       0,
-      2,
-      6,
+      3,
+      5,
       4,
       4,
       6
@@ -45868,19 +45868,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4210,
-    "eps_365": 807,
-    "eps_90": 259,
+    "episodes": 4211,
+    "eps_365": 808,
+    "eps_90": 260,
     "first_at": "2023-09-13",
     "first_year": 1402,
-    "last": "1405/07/29",
-    "last_at": "2026-10-21T20:15:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ad917f71eb6e512e57c185f",
-    "last_title": "قسمت چهار هزار و صد و نود و چهار",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T20:27:10Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ada719ca25058b22abd6d81",
+    "last_title": "قسمت چهار هزار و صد و نود و پنج",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ada719ca25058b22abd6d81/media.mp3",
+        "at": "2026-10-22T20:27:10Z",
+        "t": "قسمت چهار هزار و صد و نود و پنج"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ad917f71eb6e512e57c185f/media.mp3",
         "at": "2026-10-21T20:15:00Z",
@@ -45915,14 +45920,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ad749fcd068f31796feb640/media.mp3",
         "at": "2026-10-20T11:01:18Z",
         "t": "قسمت چهار هزار و صد و هشتاد و هشت"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ad63e45cd6459cf500df44f/media.mp3",
-        "at": "2026-10-19T17:30:00Z",
-        "t": "قسمت چهار هزار و صد و هشتاد و هفت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-22T20:27:10Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ada719ca25058b22abd6d81",
+        "title": "قسمت چهار هزار و صد و نود و پنج"
+      },
       {
         "at": "2026-10-21T20:15:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ad917f71eb6e512e57c185f",
@@ -45932,11 +45937,6 @@
         "at": "2026-10-21T19:51:24Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ad917bc015ffbd139153d06",
         "title": "قسمت چهار هزار و صد و نود و سه"
-      },
-      {
-        "at": "2026-10-21T19:49:59Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ad9176785adacac7dea6574",
-        "title": "قسمت چهار هزار و صد و نود و دو"
       }
     ],
     "recent_30d": [
@@ -45951,7 +45951,7 @@
       101,
       84,
       98,
-      77
+      78
     ],
     "status": "active"
   },
@@ -46943,17 +46943,22 @@
     "avg_length": 28,
     "episodes": 600,
     "eps_365": 261,
-    "eps_90": 64,
-    "first_at": "2024-07-04",
+    "eps_90": 65,
+    "first_at": "2024-07-07",
     "first_year": 1403,
-    "last": "1405/07/29",
-    "last_at": "2026-10-21T20:30:00Z",
-    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-1312-wOrFLOdP",
-    "last_title": "مکاشفه ۲۰: ۱ تا ۶",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T20:30:00Z",
+    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-1313-2NKobpVh",
+    "last_title": "مکاشفه ۲۰: ۷ تا ۱۰",
     "max_length": 32,
     "median_length": 28,
     "min_length": 24,
     "play": [
+      {
+        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/1b99b450-ce3c-40a1-8567-3ef2313f4d49/group-item/84448fb6-e387-4b40-9498-57c51b851874/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
+        "at": "2026-10-22T20:30:00Z",
+        "t": "مکاشفه ۲۰: ۷ تا ۱۰"
+      },
       {
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/e8aa4e71-f0a9-4fcb-b02c-f4792d23c28b/group-item/2eb6a7bd-8212-491f-baf2-5d680694f29d/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-10-21T20:30:00Z",
@@ -46988,14 +46993,14 @@
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/9eb1deb0-f8b5-46e6-889b-28436187e353/group-item/7242d6ca-c636-4029-a4e3-7f50a1701667/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-10-13T20:30:00Z",
         "t": "مکاشفه ۱۷: ۹ تا ۱۸"
-      },
-      {
-        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/15c68a0e-105d-415e-93bb-485cf5a97414/group-item/4e233549-8699-4b3b-899f-b07a168b3a83/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
-        "at": "2026-10-12T20:30:00Z",
-        "t": "مکاشفه ۱۷: ۱ تا ۸"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-22T20:30:00Z",
+        "link": "https://tmm-khtb.simplecast.com/episodes/tk-1313-2NKobpVh",
+        "title": "مکاشفه ۲۰: ۷ تا ۱۰"
+      },
       {
         "at": "2026-10-21T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-1312-wOrFLOdP",
@@ -47005,24 +47010,19 @@
         "at": "2026-10-20T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-1311-8Schs_9y",
         "title": "مکاشفه ۱۹: ۱۷ تا ۲۱"
-      },
-      {
-        "at": "2026-10-19T20:30:00Z",
-        "link": "https://tmm-khtb.simplecast.com/episodes/tk-1310-zUvJOk7n",
-        "title": "مکاشفه ۱۹: ۹ تا ۱۶"
       }
     ],
     "recent_30d": [
       22,
+      21,
+      21,
+      22,
       22,
       20,
       22,
       22,
       21,
       21,
-      22,
-      22,
-      20,
       22,
       22
     ],
