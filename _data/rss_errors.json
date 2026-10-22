@@ -11,10 +11,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
   },
-  "aamozsh-mkalmh-anglisi": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
-    "rss": "https://languagedownload.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B2%D8%A8%D8%A7%D9%86-%D8%A7%D9%86%DA%AF%D9%84%DB%8C%D8%B3%DB%8C/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D9%87-%D8%A7%D9%86%DA%AF%D9%84%DB%8C%D8%B3%DB%8C/feed/"
-  },
   "aamozsh-zban-anglisi-talk-stop": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
@@ -26,10 +22,6 @@
   "archgap-padkst-mamari-aark-gp": {
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
-  },
-  "baigani-ha-sda": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
-    "rss": "https://musiceiranian.ir/type/audio/feed"
   },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
@@ -67,6 +59,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
   },
+  "lzt-dniai-ktab": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
+    "rss": "https://feed.podkadeh.cloud/podcastxml/lezate-donyaye-ketab.xml"
+  },
   "mamanst-mamanest": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://feeds.sounder.fm/16420/rss.xml"
@@ -78,6 +74,10 @@
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
+  },
+  "podcast-fotbal-lb": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
+    "rss": "https://feed.podkadeh.cloud/podcastxml/footballlab.xml"
   },
   "pzhoak-mahor": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
