@@ -138,7 +138,22 @@ def link_btn(label, href):
     return f'<a href="{esc(href)}">{label}</a>'
 
 
-def build_card(fm, slug):
+def caption_to_html(cap):
+    """همان کپشن تلگرام را به بلوک HTML صفحه (#cap) تبدیل می‌کند تا فایل و پست یکی باشند."""
+    out = []
+    for part in cap.split("\n\n"):
+        part = part.strip()
+        if not part:
+            continue
+        if part.startswith("<blockquote>"):
+            out.append(part)
+            continue
+        part = re.sub(r"<tg-spoiler>(.*?)</tg-spoiler>", r'<span class="sp">\1</span>', part, flags=re.S)
+        out.append("<p>" + part.replace("\n", "<br>") + "</p>")
+    return "\n".join(out)
+
+
+def build_card(fm, slug, caption=""):
     tpl = TEMPLATE.read_text(encoding="utf-8")
     name = short_name(fm)
     cover = f'<div class="cover ph">🎙</div>'
@@ -159,7 +174,7 @@ def build_card(fm, slug):
     out = (tpl.replace("{{TITLE}}", esc(name)).replace("{{NAME}}", esc(name)).replace("{{COVER}}", cover)
               .replace("{{TAGLINE}}", esc(tagline(fm))).replace("{{LINKS}}", "\n".join(links))
               .replace("{{QUOTE}}", f'<div class="q">«{esc(quote)}»</div>' if quote else ""))
-    return out
+    return out.replace("{{CAPTION}}", caption_to_html(caption))
 
 
 def multipart(fields, files):
@@ -332,7 +347,7 @@ def main():
     fails = []
     for slug, fm, body in todo[: a.max]:
         caption = build_caption(fm, body, slug)
-        card = build_card(fm, slug).encode("utf-8")
+        card = build_card(fm, slug, caption).encode("utf-8")
         if a.dry_run:
             out = Path(tempfile.gettempdir()) / f"{slug}.html"
             out.write_bytes(card)

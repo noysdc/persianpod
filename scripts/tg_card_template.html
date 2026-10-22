@@ -3,15 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{TITLE}} | پرشین‌پاد</title>
+<title>کپشن تلگرام | {{TITLE}}</title>
 <style>
-body{font-family:Vazirmatn,Tahoma,system-ui,sans-serif;background:#0f172a;color:#e2e8f0;margin:0;padding:16px;line-height:2}
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+body{font-family:'Vazirmatn',Tahoma,system-ui,sans-serif;background:#0f172a;color:#e2e8f0;margin:0;padding:16px;line-height:2}
 .wrap{max-width:640px;margin:auto}
-.cover{display:block;width:120px;height:120px;margin:0 auto 16px;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,.25);object-fit:cover;background:#e4ecf9}
-.ph{display:flex;align-items:center;justify-content:center;font-size:48px;color:#2a5db0}
+.cover{display:block;width:120px;height:120px;margin:0 auto 16px;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,.25);object-fit:cover;background:#fff}
+.cover.ph{display:flex;align-items:center;justify-content:center;font-size:48px;background:#e4ecf9}
+#cap{background:#1e293b;border-radius:14px;padding:16px;font-size:16px}
+#cap p{margin:0 0 .9em}
+#cap blockquote{margin:0 0 .9em;padding:.2em .8em;border-right:3px solid #60a5fa;background:rgba(255,255,255,.05);border-radius:6px}
+#cap a{color:#7cc4ff}
+.sp{background:#475569;color:#cbd5e1;border-radius:4px;padding:0 4px}
+.btns{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+button{flex:1;min-width:140px;padding:14px;border:0;border-radius:12px;font:inherit;font-weight:700;cursor:pointer;background:#2a5db0;color:#fff}
+button.alt{background:#334155}
+#msg{text-align:center;min-height:1.5em;margin-top:8px;color:#86efac}
 .card{background:#1e293b;border:1px solid #334155;border-radius:16px;padding:18px;margin-top:20px;text-align:center}
 .card h2{margin:0;font-size:1.3rem}
 .tag{color:#94a3b8;margin:.2em 0 1em}
+.tag:empty{display:none}
 .links{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
 .links a{display:block;padding:10px;border:1px solid #334155;background:#0f172a;border-radius:10px;color:#e2e8f0;text-decoration:none;direction:ltr}
 .q{margin-top:14px;padding:12px;background:#0f172a;border-radius:10px;border-right:3px solid #60a5fa;font-weight:700}
@@ -21,6 +32,14 @@ body{font-family:Vazirmatn,Tahoma,system-ui,sans-serif;background:#0f172a;color:
 <body>
 <div class="wrap">
 {{COVER}}
+<div id="cap">
+{{CAPTION}}
+</div>
+<div class="btns">
+<button id="b1">📋 کپی برای تلگرام (با لینک)</button>
+<button id="b2" class="alt">کپی متن ساده</button>
+</div>
+<div id="msg"></div>
 <div class="card">
 <h2>{{NAME}}</h2>
 <p class="tag">{{TAGLINE}}</p>
@@ -42,5 +61,22 @@ body{font-family:Vazirmatn,Tahoma,system-ui,sans-serif;background:#0f172a;color:
 <p class="foot">پرشین پاد با ❤️ برای پادکسترهای ایرانی — persianpod.ir</p>
 </div>
 </div>
+<script>
+const cap=document.getElementById('cap'),msg=document.getElementById('msg');
+function say(t){msg.textContent=t;setTimeout(()=>msg.textContent='',2500)}
+function clone(){const c=cap.cloneNode(true);c.querySelectorAll('.sp').forEach(s=>s.replaceWith('||'+s.textContent+'||'));return c}
+function rich(){const k=[...clone().children];let h='';k.forEach((e,i)=>{const q=e.tagName==='BLOCKQUOTE',pq=i&&k[i-1].tagName==='BLOCKQUOTE';if(i)h+=pq?'<br>':'<br><br>';h+=q?e.outerHTML:e.innerHTML});return h}
+function plain(){const c=clone();
+c.querySelectorAll('br').forEach(b=>b.replaceWith('\n'));
+c.querySelectorAll('b').forEach(b=>b.replaceWith('**'+b.textContent+'**'));
+c.querySelectorAll('a').forEach(a=>a.replaceWith(a.textContent+' ('+a.href+')'));
+return [...c.children].map(e=>e.textContent.trim()).join('\n\n')}
+function legacy(html){const d=document.createElement('div');d.contentEditable=true;d.innerHTML=html;d.style.cssText='position:fixed;opacity:0;top:0';document.body.appendChild(d);const r=document.createRange();r.selectNodeContents(d);const s=getSelection();s.removeAllRanges();s.addRange(r);const ok=document.execCommand('copy');s.removeAllRanges();d.remove();say(ok?'کپی شد ✓':'کپی نشد؛ متن را دستی انتخاب کن')}
+document.getElementById('b1').onclick=async()=>{const html=rich(),txt=plain();
+try{await navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([html],{type:'text/html'}),'text/plain':new Blob([txt],{type:'text/plain'})})]);say('کپی شد ✓')}catch(e){legacy(html)}};
+document.getElementById('b2').onclick=async()=>{const t=plain();
+try{await navigator.clipboard.writeText(t)}catch(e){const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove()}
+say('متن ساده کپی شد ✓')};
+</script>
 </body>
 </html>
