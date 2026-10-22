@@ -14297,8 +14297,8 @@
     ],
     "recent_30d": [
       0,
-      0,
-      6,
+      2,
+      4,
       0,
       0,
       0,
@@ -14402,21 +14402,26 @@
     "status": "active"
   },
   "hmrah-ba-syoalat-shma": {
-    "avg_gap_days": 7.2,
+    "avg_gap_days": 7.3,
     "avg_length": 14,
-    "episodes": 284,
-    "eps_365": 49,
-    "eps_90": 10,
+    "episodes": 285,
+    "eps_365": 50,
+    "eps_90": 11,
     "first_at": "2019-01-24",
     "first_year": 1397,
-    "last": "1405/07/17",
-    "last_at": "2026-10-09T15:07:07Z",
-    "last_link": "https://www.spreaker.com/episode/ngahy-bh-wd-yt-knwny-mrdm-w-mqawmt-w-qyam-hmrah-ba-sywalat-295--75669638",
-    "last_title": "نگاهی به وضعیت کنونی مردم و مقاومت و قیام!-همراه با سئوالات -۲۹۵",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T20:43:45Z",
+    "last_link": "https://www.spreaker.com/episode/pywstn-bh-mqawmt-sazmanyafth-chra-hmrah-ba-sywalat-296--75929163",
+    "last_title": "پیوستن به مقاومت سازمانیافته چرا ؟همراه با سئوالات -۲۹۶",
     "max_length": 51,
     "median_length": 18,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://api.spreaker.com/download/episode/75929163/utf_8_b_2b7bjnmi2lpyqtmginio2ycg2yxzgtin2yg_utf_8_b_2yxyqidys9in2llzhdin2ybbjnin2yhyqtmhia_utf_8_b_2obysdininif2yfzhdix2kfzhydyqnininiz_utf_8_b_2kbzinin2ytyp9iqic3bstu527yubxaz.mp3",
+        "at": "2026-10-22T20:43:45Z",
+        "t": "پیوستن به مقاومت سازمانیافته چرا ؟همراه با سئوالات -۲۹۶"
+      },
       {
         "a": "https://api.spreaker.com/download/episode/75669638/utf_8_b_2ybar9in2yfbjcdyqnmhinmi2lbyudum2kog2qnzhg_utf_8_b_2yjzhtuminmf2lhyr9mfinmiinmf2ylyp9mi2yxyqg_utf_8_b_inmiinmc24zyp9mfis3zh9mf2lhyp9mhinio2kc_utf_8_b_iniz2kbzinin2ytyp9iqic3bstu527uubxaz.mp3",
         "at": "2026-10-09T15:07:07Z",
@@ -14451,14 +14456,14 @@
         "a": "https://api.spreaker.com/download/episode/74710429/utf_8_b_2kfzhnin2yyg2yxzh9mf2krysdum2yyg2kjyrq_utf_8_b_2lhyp9mginmh2kfbjcdysdqy24zzhsdaqdiv2kc_utf_8_b_2yxzh9in2lpyqidyn9mh2yxysdin2ycg2kjypya_utf_8_b_2lpyptmi2kfzhnin2koglduy27jbus5tcdm.mp3",
         "at": "2026-08-27T03:54:40Z",
         "t": "الان مهمترین بحران های رژیم کدامهاست ؟همراه با سئوالات -۲۸۹"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/74333838/utf_8_b_2klbjnininix2pjbjnmficdzvtizinin2li_utf_8_b_inis2ybarydzgtiv2lhyqtmf2ybyr9iq2leg2lq_utf_8_b_2k_zhydyp9iz2kryn9mh2yxysdin2ycg2kjypya_utf_8_b_2lpyptmi2kfzhnin2koglduy27jbuc5tcdm.mp3",
-        "at": "2026-08-19T19:14:20Z",
-        "t": "آیا رژیم  پس از جنگ قدرتمندتر شده است؟همراه با سئوالات -۲۸۸"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-22T20:43:45Z",
+        "link": "https://www.spreaker.com/episode/pywstn-bh-mqawmt-sazmanyafth-chra-hmrah-ba-sywalat-296--75929163",
+        "title": "پیوستن به مقاومت سازمانیافته چرا ؟همراه با سئوالات -۲۹۶"
+      },
       {
         "at": "2026-10-09T15:07:07Z",
         "link": "https://www.spreaker.com/episode/ngahy-bh-wd-yt-knwny-mrdm-w-mqawmt-w-qyam-hmrah-ba-sywalat-295--75669638",
@@ -14468,11 +14473,6 @@
         "at": "2026-09-29T03:19:55Z",
         "link": "https://www.spreaker.com/episode/psht-prdh-manwrhay-amnyty-paskh-bh-prssh-hay-jwanan-w-kanwn-hay-shwrshy-hmrah-ba-sywalat-294--75421971",
         "title": "پشت‌پرده مانورهای امنیتی- پاسخ به پرسش‌های جوانان و کانون‌های شورشی همراه با سئوالات -۲۹۴"
-      },
-      {
-        "at": "2026-09-22T20:44:48Z",
-        "link": "https://www.spreaker.com/episode/qdrt-khyaban-ya-trs-az-khyaban-hmrah-ba-sywalat-293--75304540",
-        "title": "قدرت خیابان یا ترس از خیابان؟همراه با سئوالات -۲۹۳"
       }
     ],
     "recent_30d": [
@@ -14486,7 +14486,7 @@
       6,
       4,
       3,
-      4,
+      5,
       3
     ],
     "status": "active"
@@ -30457,7 +30457,7 @@
       }
     ],
     "recent_30d": [
-      24,
+      23,
       23,
       3,
       0,
