@@ -41714,19 +41714,29 @@
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
     "avg_length": 24,
-    "episodes": 392,
-    "eps_365": 255,
-    "eps_90": 110,
+    "episodes": 394,
+    "eps_365": 257,
+    "eps_90": 112,
     "first_at": "2024-08-22",
     "first_year": 1403,
-    "last": "1405/07/28",
-    "last_at": "2026-10-20T07:21:52Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6ad7108bc23d5753122eb100",
-    "last_title": "🍂 پلی‌لیست پاییزی | حال‌وهوای جاز قدیمی و آشپزی 🍳🎷 موسیقی جاز نوستالژیک برای آرامش، استراحت و لحظات دلنشین",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T00:30:00Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6ab8e78dfb182c6fb528cef4",
+    "last_title": "جملات تاکیدی💸 سپاسگزارم؛ زندگی من پر از فرصت، برکت.",
     "max_length": 99,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ab8e78dfb182c6fb528cef4/media.mp3",
+        "at": "2026-10-22T00:30:00Z",
+        "t": "جملات تاکیدی💸 سپاسگزارم؛ زندگی من پر از فرصت، برکت."
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ad8f0fb3ad7f6855116bf9e/media.mp3",
+        "at": "2026-10-22T00:30:00Z",
+        "t": "مدیتیشن مدار ثروت صبحگاهی | مدیتیشن جذب فراوانی مالی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ad7108bc23d5753122eb100/media.mp3",
         "at": "2026-10-20T07:21:52Z",
@@ -41756,33 +41766,23 @@
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ab7d1c016ca37c5a0ea4a0b/media.mp3",
         "at": "2026-10-14T03:30:00Z",
         "t": "باور به فراوانی | لایق نعمت‌های الهی هستم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6acccc513b418431379b4078/media.mp3",
-        "at": "2026-10-13T15:30:00Z",
-        "t": "سردرد داری؟ چند دقیقه با این مدیتیشن آرام بگیر 🧘 | مدیتیشن فارسی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6acb7bb3e53019e8903a8ef7/media.mp3",
-        "at": "2026-10-13T00:30:00Z",
-        "t": "مدیتیشن شروع صبح با قدرت و اطمینان |مدیتیشن صبحگاهی"
       }
     ],
     "recent": [
       {
+        "at": "2026-10-22T00:30:00Z",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6ab8e78dfb182c6fb528cef4",
+        "title": "جملات تاکیدی💸 سپاسگزارم؛ زندگی من پر از فرصت، برکت."
+      },
+      {
+        "at": "2026-10-22T00:30:00Z",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6ad8f0fb3ad7f6855116bf9e",
+        "title": "مدیتیشن مدار ثروت صبحگاهی | مدیتیشن جذب فراوانی مالی"
+      },
+      {
         "at": "2026-10-20T07:21:52Z",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6ad7108bc23d5753122eb100",
         "title": "🍂 پلی‌لیست پاییزی | حال‌وهوای جاز قدیمی و آشپزی 🍳🎷 موسیقی جاز نوستالژیک برای آرامش، استراحت و لحظات دلنشین"
-      },
-      {
-        "at": "2026-10-19T02:30:00Z",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6acb5fea29b9fbfbe21c8b5e",
-        "title": "مدیتیشن هاله قدرتمند | محافظت و درخشش انرژی"
-      },
-      {
-        "at": "2026-10-18T08:30:00Z",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6acdfaefd3bfab176ea559fc",
-        "title": "مدیتیشن آرامش ذهن با صدای باران 🌧️| مدیتیشن"
       }
     ],
     "recent_30d": [
@@ -41797,7 +41797,7 @@
       11,
       35,
       43,
-      32
+      34
     ],
     "status": "active"
   },
