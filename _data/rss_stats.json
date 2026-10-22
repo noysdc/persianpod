@@ -3468,24 +3468,19 @@
   "ali-sdart": {
     "avg_gap_days": 4.9,
     "avg_length": 32,
-    "episodes": 446,
-    "eps_365": 74,
-    "eps_90": 15,
+    "episodes": 445,
+    "eps_365": 73,
+    "eps_90": 14,
     "first_at": "2020-06-15",
     "first_year": 1399,
-    "last": "1405/07/30",
-    "last_at": "2026-10-22T18:33:17Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qtuf6",
-    "last_title": "صدارت-نیاز قدرت‌ها برای جابجایی جایگاه خادمان و خائنان، در جنگ روانی آن‌ها علیه ملت‌ها",
+    "last": "1405/07/28",
+    "last_at": "2026-10-20T00:43:47Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qp4si",
+    "last_title": "صدارت⁠- تهدید «مادر همه بمب‌ها» توسط «مادر همه ابرقدرت‌ها» بعد از «مادر همه انتخابات‌ها»!؟",
     "max_length": 146,
     "median_length": 38,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/2f313e0c/podcast/play/127907750/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-22%2F9d161e04-f7b2-ef1e-1e1a-fcd5ecfd329a.mp3",
-        "at": "2026-10-22T18:33:17Z",
-        "t": "صدارت-نیاز قدرت‌ها برای جابجایی جایگاه خادمان و خائنان، در جنگ روانی آن‌ها علیه ملت‌ها"
-      },
       {
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/127750482/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-20%2F5fc3fec8-09ea-16ff-75df-63d3c1052e0f.mp3",
         "at": "2026-10-20T00:43:47Z",
@@ -3520,14 +3515,14 @@
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/125359001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-7%2F87fce4f7-3f6b-e115-d3f3-fb1beca18f19.mp3",
         "at": "2026-09-07T20:31:11Z",
         "t": "⁠صدارت⁠- اگر تعداد بیشتری از ما مردم، در جنبش‌های اخیر، خشونت‌زدایی پیشه می‌کردیم…!؟ درس تجربه!"
+      },
+      {
+        "a": "https://anchor.fm/s/2f313e0c/podcast/play/125013342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-31%2F4767fc59-e6fe-153a-6538-924df88be5c8.mp3",
+        "at": "2026-08-31T23:58:04Z",
+        "t": "صدارت⁠- مردم برای ادامه حیات به صلح نیازمندند، ولی ادامه جنگ‌ها برای قدرت‌ها نیازی وجودی است"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-22T18:33:17Z",
-        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qtuf6",
-        "title": "صدارت-نیاز قدرت‌ها برای جابجایی جایگاه خادمان و خائنان، در جنگ روانی آن‌ها علیه ملت‌ها"
-      },
       {
         "at": "2026-10-20T00:43:47Z",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qp4si",
@@ -3537,6 +3532,11 @@
         "at": "2026-10-15T12:43:19Z",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/---e3qi1qp",
         "title": "صدارت--پنجمین سال فقدان بنی‌صدر؛ جای خالیِ حقوق‌مداری، به‌ویژه استقلال و آزادی"
+      },
+      {
+        "at": "2026-10-06T01:11:32Z",
+        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3pveug",
+        "title": "صدارت⁠- رویکرد مردم به خشونت، وضعیت ما را از این هم بدتر خواهد کرد"
       }
     ],
     "recent_30d": [
@@ -3551,7 +3551,7 @@
       6,
       5,
       5,
-      5
+      4
     ],
     "status": "active"
   },
@@ -6770,20 +6770,25 @@
   },
   "chh-hsi-dari-roanshnasi-khodshnasi": {
     "avg_gap_days": 1.0,
-    "avg_length": 21,
-    "episodes": 84,
-    "eps_365": 84,
-    "eps_90": 84,
+    "avg_length": 20,
+    "episodes": 85,
+    "eps_365": 85,
+    "eps_90": 85,
     "first_at": "2026-07-29",
     "first_year": 1405,
-    "last": "1405/07/29",
-    "last_at": "2026-10-21T13:24:30Z",
-    "last_link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm2--75899278",
-    "last_title": "غلبه بر افکار منفی مزاحم۲",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T18:40:46Z",
+    "last_link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-3--75925647",
+    "last_title": "غلبه بر افکار منفی مزاحم ۳",
     "max_length": 33,
-    "median_length": 16,
+    "median_length": 15,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75925647/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27mubxaz.mp3",
+        "at": "2026-10-22T18:40:46Z",
+        "t": "غلبه بر افکار منفی مزاحم ۳"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75899278/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixia_utf_8_b_2yxzhtmb24wg2yxystin2k3zhduylm1wmw.mp3",
         "at": "2026-10-21T13:24:30Z",
@@ -6818,14 +6823,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75829617/utf_8_b_24zaqsdzgtmi2lfbjcdaqdix2yuubxaz.mp3",
         "at": "2026-10-16T19:07:03Z",
         "t": "داستان کوتاه طنز| یک قوطی کِرم"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75822211/utf_8_b_2k_ysdi0inix2kcg2kjar9iw2kfyss5tcdm.mp3",
-        "at": "2026-10-16T11:55:44Z",
-        "t": "داستان کوتاه طنز| درش را بگذار"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-22T18:40:46Z",
+        "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-3--75925647",
+        "title": "غلبه بر افکار منفی مزاحم ۳"
+      },
       {
         "at": "2026-10-21T13:24:30Z",
         "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm2--75899278",
@@ -6835,11 +6840,6 @@
         "at": "2026-10-21T11:30:28Z",
         "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-1--75897462",
         "title": "غلبه بر افکار منفی مزاحم ۱"
-      },
-      {
-        "at": "2026-10-19T12:03:45Z",
-        "link": "https://www.spreaker.com/episode/dastan-kwtah-tnz-shb-murdgani-zndh-dywyd-sdrays--75858070",
-        "title": "داستان کوتاه طنز|شب مُردگانِ زنده| دیوید سدرایس"
       }
     ],
     "recent_30d": [
@@ -6854,7 +6854,7 @@
       0,
       37,
       19,
-      28
+      29
     ],
     "status": "active"
   },
@@ -29562,7 +29562,7 @@
       }
     ],
     "recent_30d": [
-      2,
+      1,
       0,
       0,
       0,
@@ -45940,8 +45940,8 @@
       }
     ],
     "recent_30d": [
-      100,
-      110,
+      101,
+      109,
       54,
       96,
       12,
