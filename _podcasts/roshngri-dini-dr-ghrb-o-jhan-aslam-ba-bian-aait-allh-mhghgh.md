@@ -20,8 +20,8 @@ pi_id: 6591602
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # روشنگری دینی در غرب و جهان اسلام با بیان آیت الله محقق داماد

@@ -17,8 +17,8 @@ pi_id: 3651242
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # داستان های کوتاه و بلند من
