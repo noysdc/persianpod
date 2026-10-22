@@ -29898,21 +29898,26 @@
     "status": "active"
   },
   "podcast-sdai-tarikh": {
-    "avg_gap_days": 7.6,
-    "avg_length": 38,
-    "episodes": 67,
-    "eps_365": 47,
-    "eps_90": 20,
+    "avg_gap_days": 7.5,
+    "avg_length": 37,
+    "episodes": 68,
+    "eps_365": 48,
+    "eps_90": 21,
     "first_at": "2025-02-07",
     "first_year": 1403,
-    "last": "1405/07/28",
-    "last_at": "2026-10-20T04:30:00Z",
-    "last_link": "https://shows.acast.com/sedayetarikh/episodes/6ad68ff18b2ae9105fc80f5e",
-    "last_title": "اَثَر اِسترایسند",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T04:30:00Z",
+    "last_link": "https://shows.acast.com/sedayetarikh/episodes/6ad6909281c44c34e6445bed",
+    "last_title": "عملیات اسپری دریا",
     "max_length": 78,
     "median_length": 33,
     "min_length": 16,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67a5e58d340a5590cd939851/e/6ad6909281c44c34e6445bed/media.mp3",
+        "at": "2026-10-22T04:30:00Z",
+        "t": "عملیات اسپری دریا"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67a5e58d340a5590cd939851/e/6ad68ff18b2ae9105fc80f5e/media.mp3",
         "at": "2026-10-20T04:30:00Z",
@@ -29947,14 +29952,14 @@
         "a": "https://sphinx.acast.com/p/open/s/67a5e58d340a5590cd939851/e/6ab82a1359a98735e1d3ceeb/media.mp3",
         "at": "2026-09-27T06:33:56Z",
         "t": "زمین تخت گَرایان"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67a5e58d340a5590cd939851/e/6a9607af3255edf604c42e59/media.mp3",
-        "at": "2026-09-08T05:30:00Z",
-        "t": "جنگ نرم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-22T04:30:00Z",
+        "link": "https://shows.acast.com/sedayetarikh/episodes/6ad6909281c44c34e6445bed",
+        "title": "عملیات اسپری دریا"
+      },
       {
         "at": "2026-10-20T04:30:00Z",
         "link": "https://shows.acast.com/sedayetarikh/episodes/6ad68ff18b2ae9105fc80f5e",
@@ -29964,11 +29969,6 @@
         "at": "2026-10-19T03:30:00Z",
         "link": "https://shows.acast.com/sedayetarikh/episodes/6ad53b31a2384a5721aec52d",
         "title": "کنترل ملت (تلنگر )"
-      },
-      {
-        "at": "2026-10-02T04:30:00Z",
-        "link": "https://shows.acast.com/sedayetarikh/episodes/6ab82e10079b46c819495d23",
-        "title": "پارادوکس"
       }
     ],
     "recent_30d": [
@@ -29983,7 +29983,7 @@
       9,
       10,
       3,
-      7
+      8
     ],
     "status": "active"
   },
