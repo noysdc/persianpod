@@ -1445,24 +1445,19 @@
   "aamozsh-zban-ba-lingano-padkst": {
     "avg_gap_days": 2.9,
     "avg_length": 7,
-    "episodes": 161,
-    "eps_365": 127,
-    "eps_90": 60,
+    "episodes": 160,
+    "eps_365": 126,
+    "eps_90": 59,
     "first_at": "2025-08-26",
     "first_year": 1404,
-    "last": "1405/07/30",
-    "last_at": "2026-10-22T06:30:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/90---e3qo81e",
-    "last_title": "قسمت 90 - قسمت آخر فصل دوم",
+    "last": "1405/07/29",
+    "last_at": "2026-10-21T06:30:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/89---Good-old-days-e3qo7of",
+    "last_title": "قسمت 89 - Good old days!",
     "max_length": 17,
     "median_length": 4,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/108b105e0/podcast/play/127720942/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-19%2F95ef0ef6-30b3-3fff-dbae-74de518e3816.mp3",
-        "at": "2026-10-22T06:30:00Z",
-        "t": "قسمت 90 - قسمت آخر فصل دوم"
-      },
       {
         "a": "https://anchor.fm/s/108b105e0/podcast/play/127720655/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-19%2Fdbde36fe-14db-f558-4b3e-7a7948efae2a.mp3",
         "at": "2026-10-21T06:30:00Z",
@@ -1497,14 +1492,14 @@
         "a": "https://anchor.fm/s/108b105e0/podcast/play/127382679/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F7329ff74-c014-0f50-9ca6-752727d71af3.mp3",
         "at": "2026-10-13T07:52:47Z",
         "t": "قسمت 83 - انگلیسی تو مهمونی ۳"
+      },
+      {
+        "a": "https://anchor.fm/s/108b105e0/podcast/play/127281240/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-11%2F3894fde0-4fad-73f3-eee0-bafab8ba624e.mp3",
+        "at": "2026-10-12T06:30:00Z",
+        "t": "قسمت 82 - انگلیسی تو مهمونی ۲"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-22T06:30:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/90---e3qo81e",
-        "title": "قسمت 90 - قسمت آخر فصل دوم"
-      },
       {
         "at": "2026-10-21T06:30:00Z",
         "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/89---Good-old-days-e3qo7of",
@@ -1514,6 +1509,11 @@
         "at": "2026-10-20T06:30:00Z",
         "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/88---Give-a-ride-e3qnqbf",
         "title": "قسمت 88 - Give a ride"
+      },
+      {
+        "at": "2026-10-19T08:58:20Z",
+        "link": "https://podcasters.spotify.com/pod/show/lingano1/episodes/87---I-didnt-mean-to-e3qnpea",
+        "title": "قسمت 87 - I didn't mean to!"
       }
     ],
     "recent_30d": [
@@ -1528,7 +1528,7 @@
       15,
       22,
       20,
-      18
+      17
     ],
     "status": "active"
   },
@@ -13944,8 +13944,8 @@
     ],
     "recent_30d": [
       7,
-      5,
-      3,
+      6,
+      2,
       6,
       12,
       12,
@@ -44444,7 +44444,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 24,
     "episodes": 394,
-    "eps_365": 257,
+    "eps_365": 256,
     "eps_90": 112,
     "first_at": "2024-08-22",
     "first_year": 1403,
