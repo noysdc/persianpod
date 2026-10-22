@@ -32,7 +32,7 @@
     "rss": "https://api.rabt.host/podcasts/22cfaba7-c1cf-4929-bbbf-43d2dbc96097/rss"
   },
   "ahmd-shamlo": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
     "rss": "https://shenoto.net/service/api/feed/Ahmad-Shamlou"
   },
   "aistgah-mosighi": {
@@ -44,11 +44,11 @@
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
   "asranh-hnr": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
     "rss": "https://shenoto.net/service/api/feed/Eveningart"
   },
   "bazar-srmaih-bors": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
     "rss": "https://shenoto.net/feed/bazaresarmaye"
   },
   "dairh-dastan": {
