@@ -39235,26 +39235,21 @@
     "status": "active"
   },
   "radiogik-radiogeek": {
-    "avg_gap_days": 5.3,
-    "avg_length": 22,
-    "episodes": 230,
-    "eps_365": 68,
-    "eps_90": 22,
+    "avg_gap_days": 5.2,
+    "avg_length": 20,
+    "episodes": 229,
+    "eps_365": 67,
+    "eps_90": 21,
     "first_at": "2012-03-21",
     "first_year": 1391,
-    "last": "1405/07/30",
-    "last_at": "2026-10-22T22:56:22Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/radiojadi/episodes/--e3qu9cv",
-    "last_title": "رادیوجادی ۲۶۷ - کامپیوترها قدیم ها از ما دستور می گرفتن",
+    "last": "1405/07/21",
+    "last_at": "2026-10-13T21:39:18Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/radiojadi/episodes/ep-e3qeqdp",
+    "last_title": "رادیوجادی ۲۶۶ – کتاب برای پیروزی – قسمت ۶۰ و ۶۱ – کوری دکترو",
     "max_length": 129,
     "median_length": 46,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/6048890/podcast/play/127918943/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-22%2F434774825-44100-2-d87ea2a636311.mp3",
-        "at": "2026-10-22T22:56:22Z",
-        "t": "رادیوجادی ۲۶۷ - کامپیوترها قدیم ها از ما دستور می گرفتن"
-      },
       {
         "a": "https://anchor.fm/s/6048890/podcast/play/127412089/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F434086275-44100-2-2ece7a8ebdd6a.mp3",
         "at": "2026-10-13T21:39:18Z",
@@ -39289,14 +39284,14 @@
         "a": "https://anchor.fm/s/6048890/podcast/play/126062511/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-21%2F432334347-44100-2-ab401fec8a666.mp3",
         "at": "2026-09-21T20:41:44Z",
         "t": "رادیوجادی ۲۶۰ – کتاب برای پیروزی – قسمت ۵۴ – کوری دکترو"
+      },
+      {
+        "a": "https://anchor.fm/s/6048890/podcast/play/126064306/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-21%2F432335171-44100-2-0fe4b8ee008d4.mp3",
+        "at": "2026-09-21T20:40:52Z",
+        "t": "رادیوجادی ۲۵۹ – کتاب برای پیروزی – قسمت ۵۳ – کوری دکترو"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-22T22:56:22Z",
-        "link": "https://podcasters.spotify.com/pod/show/radiojadi/episodes/--e3qu9cv",
-        "title": "رادیوجادی ۲۶۷ - کامپیوترها قدیم ها از ما دستور می گرفتن"
-      },
       {
         "at": "2026-10-13T21:39:18Z",
         "link": "https://podcasters.spotify.com/pod/show/radiojadi/episodes/ep-e3qeqdp",
@@ -39306,6 +39301,11 @@
         "at": "2026-10-13T20:14:45Z",
         "link": "https://podcasters.spotify.com/pod/show/radiojadi/episodes/ep-e3qeqdl",
         "title": "رادیوجادی ۲۶۵ – کتاب برای پیروزی – قسمت ۵۹ – کوری دکترو"
+      },
+      {
+        "at": "2026-10-13T20:06:59Z",
+        "link": "https://podcasters.spotify.com/pod/show/radiojadi/episodes/ep-e3qeqdg",
+        "title": "رادیوجادی ۲۶۴ – کتاب برای پیروزی – قسمت ۵۸ – کوری دکترو"
       }
     ],
     "recent_30d": [
@@ -39320,7 +39320,7 @@
       11,
       1,
       14,
-      7
+      6
     ],
     "status": "active"
   },
@@ -48283,21 +48283,36 @@
     "status": "active"
   },
   "znan-amid": {
-    "avg_gap_days": 3.9,
+    "avg_gap_days": 4.1,
     "avg_length": 30,
-    "episodes": 359,
-    "eps_365": 82,
-    "eps_90": 12,
+    "episodes": 362,
+    "eps_365": 85,
+    "eps_90": 15,
     "first_at": "2021-12-08",
     "first_year": 1400,
-    "last": "1405/06/31",
-    "last_at": "2026-09-22T00:54:38Z",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T23:49:03Z",
     "last_link": "https://persianworldradio.com/",
-    "last_title": "موفقیت اتفاقی ساده نیست",
+    "last_title": "من واقعی",
     "max_length": 31,
     "median_length": 30,
     "min_length": 29,
     "play": [
+      {
+        "a": "https://downloads.pod.co/cd370466-84a7-4216-a013-0feca5088d84/8b47a6f5-0055-43b8-aa56-9dc7279b7839.mp3",
+        "at": "2026-10-22T23:49:03Z",
+        "t": "من واقعی"
+      },
+      {
+        "a": "https://downloads.pod.co/cd370466-84a7-4216-a013-0feca5088d84/6da793e3-2cba-412a-ae9a-98d0314c0f93.mp3",
+        "at": "2026-10-22T23:47:38Z",
+        "t": "فرسودگی یا افسردگی"
+      },
+      {
+        "a": "https://downloads.pod.co/cd370466-84a7-4216-a013-0feca5088d84/acc4af9b-8e06-4939-b893-9e03e2896f16.mp3",
+        "at": "2026-10-22T23:46:10Z",
+        "t": "زبان محبت"
+      },
       {
         "a": "https://downloads.pod.co/cd370466-84a7-4216-a013-0feca5088d84/197208da-b70e-47dd-8998-3e88c552e946.mp3",
         "at": "2026-09-22T00:54:38Z",
@@ -48322,38 +48337,23 @@
         "a": "https://downloads.pod.co/cd370466-84a7-4216-a013-0feca5088d84/c61f26bb-1c13-4362-8260-c22a4b10499a.mp3",
         "at": "2026-09-22T00:49:19Z",
         "t": "لبخندی از دل شکر گذاری"
-      },
-      {
-        "a": "https://downloads.pod.co/cd370466-84a7-4216-a013-0feca5088d84/14bde361-cbe0-4233-9763-d3e8ccc9bbb5.mp3",
-        "at": "2026-09-22T00:48:28Z",
-        "t": "آلرژی"
-      },
-      {
-        "a": "https://downloads.pod.co/cd370466-84a7-4216-a013-0feca5088d84/d73ffd75-d730-4606-ad33-6e79fba99a2d.mp3",
-        "at": "2026-09-22T00:47:37Z",
-        "t": "تا وقتی هستی"
-      },
-      {
-        "a": "https://downloads.pod.co/cd370466-84a7-4216-a013-0feca5088d84/c5421e30-ac16-413e-9087-dbeb0a03099e.mp3",
-        "at": "2026-09-22T00:46:40Z",
-        "t": "بهداشت آشپزخانه"
       }
     ],
     "recent": [
       {
-        "at": "2026-09-22T00:54:38Z",
+        "at": "2026-10-22T23:49:03Z",
         "link": "https://persianworldradio.com/",
-        "title": "موفقیت اتفاقی ساده نیست"
+        "title": "من واقعی"
       },
       {
-        "at": "2026-09-22T00:52:47Z",
+        "at": "2026-10-22T23:47:38Z",
         "link": "https://persianworldradio.com/",
-        "title": "هم خانه های فراموش شده"
+        "title": "فرسودگی یا افسردگی"
       },
       {
-        "at": "2026-09-22T00:51:39Z",
+        "at": "2026-10-22T23:46:10Z",
         "link": "https://persianworldradio.com/",
-        "title": "خانه آرامش یا میدان جنگ"
+        "title": "زبان محبت"
       }
     ],
     "recent_30d": [
@@ -48368,7 +48368,7 @@
       14,
       1,
       11,
-      0
+      3
     ],
     "status": "active"
   },
