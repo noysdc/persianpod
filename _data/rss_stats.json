@@ -31557,19 +31557,24 @@
   "podcast-roanshnasi": {
     "avg_gap_days": 6.4,
     "avg_length": 19,
-    "episodes": 87,
-    "eps_365": 57,
-    "eps_90": 20,
+    "episodes": 88,
+    "eps_365": 58,
+    "eps_90": 21,
     "first_at": "2025-02-10",
     "first_year": 1403,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T10:12:27Z",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T11:27:49Z",
     "last_link": "https://bioe.ir/rang-ravan/",
-    "last_title": "پادکست روانشناسی رنگ روان : تابوی کمک گرفتن",
+    "last_title": "پادکست روانشناسی رنگ روان : تله ی من خودم از پسش بر میام",
     "max_length": 34,
     "median_length": 18,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/73701387-2066-4e1b-aabf-40242915d162/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=73701387-2066-4e1b-aabf-40242915d162&feed=F_u2pLhu",
+        "at": "2026-10-22T11:27:49Z",
+        "t": "پادکست روانشناسی رنگ روان : تله ی من خودم از پسش بر میام"
+      },
       {
         "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/d6c14869-39b9-4f9d-a645-64d29fb87d2e/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=d6c14869-39b9-4f9d-a645-64d29fb87d2e&feed=F_u2pLhu",
         "at": "2026-10-17T10:12:27Z",
@@ -31604,14 +31609,14 @@
         "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/7853bc7f-99f1-4e76-a30f-b47324f40156/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=7853bc7f-99f1-4e76-a30f-b47324f40156&feed=F_u2pLhu",
         "at": "2026-09-26T09:05:00Z",
         "t": "پادکست روانشناسی رنگ روان: بازی بی قاعده"
-      },
-      {
-        "a": "https://injector.simplecastaudio.com/4d91876a-9615-49b4-abce-9bc2c9147d08/episodes/e5521534-54a6-44e8-a3d3-ab65f0740a2f/audio/128/default.mp3?aid=rss_feed&awCollectionId=4d91876a-9615-49b4-abce-9bc2c9147d08&awEpisodeId=e5521534-54a6-44e8-a3d3-ab65f0740a2f&feed=F_u2pLhu",
-        "at": "2026-09-23T09:05:00Z",
-        "t": "پادکست روانشناسی رنگ روان :  آموزش دیجیتال و تله‌ی اهمال کاری"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-22T11:27:49Z",
+        "link": "https://bioe.ir/rang-ravan/",
+        "title": "پادکست روانشناسی رنگ روان : تله ی من خودم از پسش بر میام"
+      },
       {
         "at": "2026-10-17T10:12:27Z",
         "link": "https://bioe.ir/rang-ravan/",
@@ -31621,11 +31626,6 @@
         "at": "2026-10-14T09:05:00Z",
         "link": "https://bioe.ir/rang-ravan/",
         "title": "پادکست روانشناسی رنگ روان :  چرا جذب الگوهای آسیب زا میشیم؟"
-      },
-      {
-        "at": "2026-10-10T07:25:52Z",
-        "link": "https://bioe.ir/rang-ravan/",
-        "title": "پادکست روانشناسی رنگ روان : نقشه راه انتخاب"
       }
     ],
     "recent_30d": [
@@ -31640,7 +31640,7 @@
       7,
       6,
       6,
-      8
+      9
     ],
     "status": "active"
   },
