@@ -88,7 +88,7 @@
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
   "zban-o-adbiat": {
-    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://ronakottawa.com/feed/podcast/zaban-o-adabiyat/"
   }
 }
