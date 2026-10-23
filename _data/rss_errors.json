@@ -75,10 +75,6 @@
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
-  "podcast-aaoa": {
-    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://podcast.thermmedia.com/feed/podcast/avapodcast/"
-  },
   "podcast-obmstr-plas": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://webmasterplus.ir/feed/"
@@ -106,10 +102,6 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
-  },
-  "shar-o-ghsh-khoani": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
-    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
