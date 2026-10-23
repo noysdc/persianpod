@@ -16009,8 +16009,8 @@
       9,
       0,
       0,
-      2,
-      5,
+      3,
+      4,
       5,
       10,
       7,
@@ -16824,10 +16824,10 @@
     "status": "active"
   },
   "jnaii-khoani": {
-    "avg_gap_days": 6.4,
+    "avg_gap_days": 6.5,
     "avg_length": 34,
     "episodes": 100,
-    "eps_365": 49,
+    "eps_365": 48,
     "eps_90": 24,
     "first_at": "2025-02-22",
     "first_year": 1403,
@@ -16898,7 +16898,7 @@
       }
     ],
     "recent_30d": [
-      6,
+      5,
       5,
       2,
       4,
@@ -19641,7 +19641,7 @@
     "avg_gap_days": 0.6,
     "avg_length": 20,
     "episodes": 618,
-    "eps_365": 613,
+    "eps_365": 612,
     "eps_90": 185,
     "first_at": "2025-10-22",
     "first_year": 1404,
