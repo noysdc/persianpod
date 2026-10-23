@@ -19712,15 +19712,15 @@
       }
     ],
     "recent_30d": [
-      35,
-      151,
-      48,
+      34,
+      152,
+      47,
       64,
       4,
       0,
       0,
-      45,
-      64,
+      46,
+      63,
       55,
       72,
       58
@@ -44155,19 +44155,24 @@
   "shar-ba-sdai-shaar": {
     "avg_gap_days": 2.5,
     "avg_length": 4,
-    "episodes": 345,
-    "eps_365": 145,
-    "eps_90": 37,
+    "episodes": 346,
+    "eps_365": 146,
+    "eps_90": 38,
     "first_at": "2025-01-23",
     "first_year": 1403,
-    "last": "1405/07/28",
-    "last_at": "2026-10-20T19:30:00Z",
-    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c160b589629f7d6af756a",
-    "last_title": "نیما یوشیج | در فروبند",
+    "last": "1405/08/01",
+    "last_at": "2026-10-23T19:30:00Z",
+    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c190d295fc6e848977def",
+    "last_title": "بیژن الهی | آزادی و تو",
     "max_length": 44,
     "median_length": 4,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c190d295fc6e848977def/media.mp3",
+        "at": "2026-10-23T19:30:00Z",
+        "t": "بیژن الهی | آزادی و تو"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c160b589629f7d6af756a/media.mp3",
         "at": "2026-10-20T19:30:00Z",
@@ -44202,14 +44207,14 @@
         "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/69146338a17ebcde88ea71e4/media.mp3",
         "at": "2026-09-28T19:30:00Z",
         "t": "شهریار | ای وای مادرم | دکلمه ساعد باقری"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c11c57b9e972a6bf14665/media.mp3",
-        "at": "2026-09-25T19:30:00Z",
-        "t": "مومن قناعت | آبشار"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-23T19:30:00Z",
+        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c190d295fc6e848977def",
+        "title": "بیژن الهی | آزادی و تو"
+      },
       {
         "at": "2026-10-20T19:30:00Z",
         "link": "https://shows.acast.com/sedaye-shaer/episodes/691c160b589629f7d6af756a",
@@ -44219,11 +44224,6 @@
         "at": "2026-10-17T19:30:00Z",
         "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1bb4589629f7d6b0c659",
         "title": "مشفق کاشانی | نمی‌دانم کیم"
-      },
-      {
-        "at": "2026-10-14T19:30:00Z",
-        "link": "https://shows.acast.com/sedaye-shaer/episodes/69183f0d1029ec1fed293d7a",
-        "title": "یدالله رویایی | میوه‌های ملال"
       }
     ],
     "recent_30d": [
@@ -44238,7 +44238,7 @@
       13,
       17,
       12,
-      8
+      9
     ],
     "status": "active"
   },
