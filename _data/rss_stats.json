@@ -22545,19 +22545,24 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 977,
-    "eps_365": 328,
-    "eps_90": 80,
+    "episodes": 978,
+    "eps_365": 329,
+    "eps_90": 81,
     "first_at": "2023-11-21",
     "first_year": 1402,
-    "last": "1405/07/29",
-    "last_at": "2026-10-21T02:23:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/the-man-who-allegedly-attacked-mp-helen-haines-fronts-court/6hnd2h7tn",
-    "last_title": "حضور مردی که ادعا می‌شود به هلن هینز حمله کرده، در دادگاه",
+    "last": "1405/08/01",
+    "last_at": "2026-10-23T01:21:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/police-probing-a-potential-murder-suicide-after-two-bodies-found-in-melbourne/kmjq00uyk",
+    "last_title": "پلیس در پی پیدا شدن دو جسد در ملبورن، احتمال قتل و خودکشی را بررسی می‌کند",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261023122129_492053-persian-231026-fn.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-663e-dc86-a3f3-f6fe06ce0000&dur_cat=2",
+        "at": "2026-10-23T01:21:00Z",
+        "t": "پلیس در پی پیدا شدن دو جسد در ملبورن، احتمال قتل و خودکشی را بررسی می‌کند"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261021132340_942097-persian-9ad87187-46fa-4022-a813-1328b276f27b.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-5c23-d3ab-a3eb-7f3f70240000&dur_cat=2",
         "at": "2026-10-21T02:23:00Z",
@@ -22592,14 +22597,14 @@
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261014132333_708672-persian-0acfc5d7-b5b2-4120-96cd-b652a319d891.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-37f5-dc4d-abe5-3ffd0e6e0000&dur_cat=2",
         "at": "2026-10-14T02:23:00Z",
         "t": "امضای بیانیه مشترک بین استرالیا و اردن برای همکاری‌های امنیتی"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261013155420_503608-persian-d7bdea3a-0d05-430c-be3b-f0671c2b576b.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-3399-db6e-a1ad-bfbbc44a0000&dur_cat=3",
-        "at": "2026-10-13T04:54:00Z",
-        "t": "افزایش حقوق نیم میلیون نفر در استرالیا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-23T01:21:00Z",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/police-probing-a-potential-murder-suicide-after-two-bodies-found-in-melbourne/kmjq00uyk",
+        "title": "پلیس در پی پیدا شدن دو جسد در ملبورن، احتمال قتل و خودکشی را بررسی می‌کند"
+      },
       {
         "at": "2026-10-21T02:23:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/the-man-who-allegedly-attacked-mp-helen-haines-fronts-court/6hnd2h7tn",
@@ -22609,11 +22614,6 @@
         "at": "2026-10-20T05:24:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/outrage-following-alleged-attack-on-australian-mp-helen-haynes/rcudfcxrz",
         "title": "خشم عمومی در پی حمله ادعایی به هلن هاینز، نماینده پارلمان استرالیا"
-      },
-      {
-        "at": "2026-10-20T01:17:00Z",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/helen-haynes-alleged-attacker-identified-concerns-about-rising-political-violence-in-australia/pb7gh710n",
-        "title": "شناسایی مهاجم ادعایی هلن هینز؛ نگرانی‌ها درباره افزایش خشونت سیاسی در استرالیا"
       }
     ],
     "recent_30d": [
@@ -22628,7 +22628,7 @@
       25,
       26,
       26,
-      28
+      29
     ],
     "status": "active"
   },
