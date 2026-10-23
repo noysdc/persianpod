@@ -68,7 +68,7 @@
     "rss": "https://feeds.sounder.fm/16420/rss.xml"
   },
   "marktplatz-zban-aalmani-dr-aghtsad": {
-    "error": "ValueError: no items in feed",
+    "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
   },
   "o-ain-tnha-bazi-jhan-bod": {
