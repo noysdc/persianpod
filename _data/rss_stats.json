@@ -22621,8 +22621,8 @@
       24,
       25,
       28,
-      29,
-      28,
+      30,
+      27,
       26,
       29,
       25,
@@ -27255,17 +27255,22 @@
     "status": "active"
   },
   "podcast-archives": {
-    "avg_gap_days": 2.5,
+    "avg_gap_days": 1.6,
     "episodes": 20,
     "eps_365": 20,
     "eps_90": 20,
-    "first_at": "2026-08-26",
+    "first_at": "2026-09-21",
     "first_year": 1405,
-    "last": "1405/07/21",
-    "last_at": "2026-10-13T21:39:04Z",
-    "last_link": "https://jadi.net/2026/10/for_the_win-persian-60-61/",
-    "last_title": "رادیوجادی ۲۶۶ – کتاب برای پیروزی – قسمت ۶۰ و ۶۱ – کوری دکترو",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T22:32:55Z",
+    "last_link": "https://jadi.net/2026/10/computers-used-to-obey-us/",
+    "last_title": "رادیوجادی ۲۶۷ – کامپیوترها قدیم ها از ما دستور می گرفتن",
     "play": [
+      {
+        "a": "https://jadi.net/audio/jadi-net_radio-jadi_267-computers_used_to_obey_us.mp3",
+        "at": "2026-10-22T22:32:55Z",
+        "t": "رادیوجادی ۲۶۷ – کامپیوترها قدیم ها از ما دستور می گرفتن"
+      },
       {
         "a": "https://jadi.net/audio/for_the_win-persian-60-61.mp3",
         "at": "2026-10-13T21:39:04Z",
@@ -27300,14 +27305,14 @@
         "a": "https://jadi.net/audio/for_the_win-persian-54.mp3",
         "at": "2026-09-21T20:41:16Z",
         "t": "رادیوجادی ۲۶۰ – کتاب برای پیروزی – قسمت ۵۴ – کوری دکترو"
-      },
-      {
-        "a": "https://jadi.net/audio/for_the_win-persian-53.mp3",
-        "at": "2026-09-21T20:40:19Z",
-        "t": "رادیوجادی ۲۵۹ – کتاب برای پیروزی – قسمت ۵۳ – کوری دکترو"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-22T22:32:55Z",
+        "link": "https://jadi.net/2026/10/computers-used-to-obey-us/",
+        "title": "رادیوجادی ۲۶۷ – کامپیوترها قدیم ها از ما دستور می گرفتن"
+      },
       {
         "at": "2026-10-13T21:39:04Z",
         "link": "https://jadi.net/2026/10/for_the_win-persian-60-61/",
@@ -27317,11 +27322,6 @@
         "at": "2026-10-13T20:14:26Z",
         "link": "https://jadi.net/2026/10/for_the_win-persian-59/",
         "title": "رادیوجادی ۲۶۵ – کتاب برای پیروزی – قسمت ۵۹ – کوری دکترو"
-      },
-      {
-        "at": "2026-10-13T20:06:08Z",
-        "link": "https://jadi.net/2026/10/for_the_win-persian-58/",
-        "title": "رادیوجادی ۲۶۴ – کتاب برای پیروزی – قسمت ۵۸ – کوری دکترو"
       }
     ],
     "recent_30d": [
@@ -27335,8 +27335,8 @@
       0,
       0,
       0,
-      14,
-      6
+      13,
+      7
     ],
     "status": "active"
   },
