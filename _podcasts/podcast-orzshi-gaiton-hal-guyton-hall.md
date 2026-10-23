@@ -18,8 +18,8 @@ pi_id: 6737734
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # پادکست ورزشی گایتون هال ( guyton hall )

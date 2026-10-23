@@ -1,38 +1,29 @@
 ## گزارش تأیید و انتقال
 
-- منتقل‌شده از `_drafts/` به `_podcasts/`: **30**
+- منتقل‌شده از `_drafts/` به `_podcasts/`: **21**
 - ردشده (تکراری یا از قبل موجود): 0
 - در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **91**
 
 ### منتقل‌شده
-- `aahn-o-folad-aasron.md`
-- `aai-ghsh.md`
-- `akhlagh-brai-nojoanan.md`
-- `biografi.md`
-- `br-bal-klmat.md`
-- `crime-time-i-kraim-taim.md`
-- `dastan-hai-kotah-o-blnd-mn.md`
-- `dr-bist-dghighh.md`
-- `dr-hmin-hoali.md`
-- `drs-gftarhai-roankaoi-o-frhng.md`
-- `hioan-natgh.md`
-- `jstarhaii-dr-bab-ashgh.md`
-- `kodkan-mana.md`
-- `ktab-baz.md`
-- `ktab-soti-7006039.md`
-- `mditishn.md`
-- `nkth-hai-ik-dghighh-ai.md`
-- `podcast-aadmhai-mamoli.md`
-- `podcast-aaih-hai-mlkot.md`
-- `podcast-bh-soi-dniai-bhtr.md`
-- `podcast-ghsh-go-ghesegoo.md`
-- `podcast-iadi-az-gzshth.md`
-- `podcast-paragraf.md`
-- `radio-mili.md`
-- `rhbri-droni.md`
-- `roshngri-dini-dr-ghrb-o-jhan-aslam-ba-bian-aait-allh-mhghgh.md`
-- `rozn.md`
-- `sdai-mhajr.md`
-- `sfir-sda.md`
-- `slamti-24.md`
+- `anjil-o-arfan.md`
+- `ankobator.md`
+- `fragftar.md`
+- `ghraan-farsi-trjmh-farsi-ghraan-krim-mani-ghraan.md`
+- `joualdooz-joaldoz.md`
+- `kapitan.md`
+- `ktab-soti-blnd-khoani-ktab-pdr-aan-digri.md`
+- `lhzh-ai-ba-khda.md`
+- `mrkz-adalt-brai-kodkan-o-nojoanan.md`
+- `podcast-aaoa.md`
+- `podcast-dastani-mhrad-bzrgr.md`
+- `podcast-ghsh-go.md`
+- `podcast-mhrangiz.md`
+- `podcast-obmstr-plas.md`
+- `podcast-orzshi-gaiton-hal-guyton-hall.md`
+- `radio-police-radio-plis.md`
+- `salon-parvaz-saln-proaz.md`
+- `shahnamh-khodmoni.md`
+- `shma-o-zibaii.md`
+- `smimi-ba-khod.md`
+- `tdris-bdai-alnho.md`
 

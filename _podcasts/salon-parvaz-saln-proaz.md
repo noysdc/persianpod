@@ -16,8 +16,8 @@ pi_id: 4932275
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Salon Parvaz سالن پرواز

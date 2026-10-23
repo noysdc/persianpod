@@ -17,8 +17,8 @@ pi_id: 7398088
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # لحظه ای با خدا

@@ -17,8 +17,8 @@ pi_id: 5262968
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # مرکز عدالت برای کودکان و نوجوانان
