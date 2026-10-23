@@ -19712,8 +19712,8 @@
       }
     ],
     "recent_30d": [
-      33,
-      149,
+      34,
+      148,
       54,
       64,
       4,
@@ -46592,21 +46592,26 @@
     "status": "inactive"
   },
   "status-married": {
-    "avg_gap_days": 11.7,
-    "avg_length": 8,
-    "episodes": 21,
-    "eps_365": 21,
-    "eps_90": 8,
+    "avg_gap_days": 11.5,
+    "avg_length": 9,
+    "episodes": 22,
+    "eps_365": 22,
+    "eps_90": 9,
     "first_at": "2026-02-24",
     "first_year": 1404,
-    "last": "1405/07/24",
-    "last_at": "2026-10-16T17:50:00Z",
-    "last_link": "https://shows.acast.com/vaziyatmoteahel/episodes/maliyatekhoroj",
-    "last_title": "اپیزود دوم - خروج",
-    "max_length": 17,
+    "last": "1405/08/01",
+    "last_at": "2026-10-23T17:35:00Z",
+    "last_link": "https://shows.acast.com/vaziyatmoteahel/episodes/6ad60689d69b40ef5e12215e",
+    "last_title": "اپیزود دوم- انتقام",
+    "max_length": 22,
     "median_length": 8,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6ad60689d69b40ef5e12215e/media.mp3",
+        "at": "2026-10-23T17:35:00Z",
+        "t": "اپیزود دوم- انتقام"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6ad216bc253c13a898415d0c/media.mp3",
         "at": "2026-10-16T17:50:00Z",
@@ -46641,14 +46646,14 @@
         "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6a5ceda478e0412bc6ba4667/media.mp3",
         "at": "2026-08-08T17:34:00Z",
         "t": "کنار تو می‌تونم خودم باشم؟ | امنیت عاطفی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6a5ced4bf782764c4cfd5979/media.mp3",
-        "at": "2026-07-31T17:34:00Z",
-        "t": "بعد از آسیب، رابطه چطور دوباره ساخته می‌شه؟ | ترمیم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-23T17:35:00Z",
+        "link": "https://shows.acast.com/vaziyatmoteahel/episodes/6ad60689d69b40ef5e12215e",
+        "title": "اپیزود دوم- انتقام"
+      },
       {
         "at": "2026-10-16T17:50:00Z",
         "link": "https://shows.acast.com/vaziyatmoteahel/episodes/maliyatekhoroj",
@@ -46658,11 +46663,6 @@
         "at": "2026-10-16T17:30:00Z",
         "link": "https://shows.acast.com/vaziyatmoteahel/episodes/maliyatekaenat",
         "title": "شروع فصل دوم -مالیاتِ کائنات"
-      },
-      {
-        "at": "2026-09-05T17:34:00Z",
-        "link": "https://shows.acast.com/vaziyatmoteahel/episodes/entekhabedobareh",
-        "title": "اگه امروز می‌دیدمت، باز انتخابت می‌کردم؟ | انتخاب دوباره"
       }
     ],
     "recent_30d": [
@@ -46677,7 +46677,7 @@
       2,
       4,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -47652,8 +47652,8 @@
       103,
       111,
       49,
-      99,
-      9,
+      100,
+      8,
       0,
       7,
       49,
