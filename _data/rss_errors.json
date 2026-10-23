@@ -44,7 +44,7 @@
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
   "galri-film": {
-    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
   },
   "hnr-jng": {
