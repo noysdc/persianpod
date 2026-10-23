@@ -44,12 +44,8 @@
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
   "galri-film": {
-    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
-  },
-  "ghir-az-jng-chh-khbr": {
-    "error": "RuntimeError: HTTP 522 (<none>) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://www.pariha.org/podcast/feed.xml"
   },
   "hnr-jng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
