@@ -28601,19 +28601,24 @@
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.7,
     "avg_length": 26,
-    "episodes": 17,
-    "eps_365": 17,
-    "eps_90": 17,
+    "episodes": 18,
+    "eps_365": 18,
+    "eps_90": 18,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/07/30",
-    "last_at": "2026-10-22T09:29:02Z",
+    "last": "1405/08/01",
+    "last_at": "2026-10-23T11:01:25Z",
     "last_link": "https://furbodm.com/",
-    "last_title": "UBER | داستان هفدهم؛ اوبر",
+    "last_title": "XIAOMI | داستان هجدهم؛ شیائومی",
     "max_length": 38,
-    "median_length": 27,
+    "median_length": 26,
     "min_length": 15,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adb3e8523f48c4f24a88393/media.mp3",
+        "at": "2026-10-23T11:01:25Z",
+        "t": "XIAOMI | داستان هجدهم؛ شیائومی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad9d75e1eb6e512e5a27f23/media.mp3",
         "at": "2026-10-22T09:29:02Z",
@@ -28648,14 +28653,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6acf9cb568b7ce6ffb3005c7/media.mp3",
         "at": "2026-10-22T09:18:51Z",
         "t": "MCDONALD'S | داستان یازدهم؛ مک‌دونالد"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6acdee348f90a39dfc778646/media.mp3",
-        "at": "2026-10-22T09:18:32Z",
-        "t": "IKEA | داستان دهم؛ ایکیا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-23T11:01:25Z",
+        "link": "https://furbodm.com/",
+        "title": "XIAOMI | داستان هجدهم؛ شیائومی"
+      },
       {
         "at": "2026-10-22T09:29:02Z",
         "link": "https://furbodm.com/",
@@ -28665,11 +28670,6 @@
         "at": "2026-10-22T09:20:15Z",
         "link": "https://furbodm.com/",
         "title": "CROCS | داستان شانزدهم؛ داستان کراکس"
-      },
-      {
-        "at": "2026-10-22T09:19:38Z",
-        "link": "https://furbodm.com",
-        "title": "TESLA | داستان پانزدهم؛ ایلان ماسک؛ تسلا"
       }
     ],
     "recent_30d": [
@@ -28684,7 +28684,7 @@
       0,
       0,
       0,
-      17
+      18
     ],
     "status": "active"
   },
@@ -36927,7 +36927,7 @@
     "avg_length": 41,
     "episodes": 71,
     "eps_365": 22,
-    "eps_90": 6,
+    "eps_90": 5,
     "first_at": "2023-06-10",
     "first_year": 1402,
     "last": "1405/07/10",
@@ -37005,8 +37005,8 @@
       0,
       0,
       2,
-      3,
-      3,
+      4,
+      2,
       2,
       1
     ],
