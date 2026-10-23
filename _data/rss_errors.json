@@ -68,7 +68,7 @@
     "rss": "https://feeds.sounder.fm/16420/rss.xml"
   },
   "marktplatz-zban-aalmani-dr-aghtsad": {
-    "error": "ParseError: syntax error: line 1, column 0",
+    "error": "ValueError: no items in feed",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
   },
   "o-ain-tnha-bazi-jhan-bod": {
@@ -98,6 +98,10 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
+  },
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
