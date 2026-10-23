@@ -7575,21 +7575,26 @@
     "status": "inactive"
   },
   "danzi": {
-    "avg_gap_days": 1.4,
-    "avg_length": 26,
-    "episodes": 6,
-    "eps_365": 6,
-    "eps_90": 6,
+    "avg_gap_days": 7.5,
+    "avg_length": 30,
+    "episodes": 7,
+    "eps_365": 7,
+    "eps_90": 7,
     "first_at": "2026-09-07",
     "first_year": 1405,
-    "last": "1405/06/23",
-    "last_at": "2026-09-14T13:29:39Z",
-    "last_link": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/c2261fbb-02a4-4cae-91c1-85f4dfbcf15d/play.mp3",
-    "last_title": "دانزی | برای آگاهی در باب رنج",
-    "max_length": 50,
-    "median_length": 29,
+    "last": "1405/08/01",
+    "last_at": "2026-10-23T02:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/73ee1a22-01d5-49ea-8934-601a79b2215c/play.mp3",
+    "last_title": "دانزی | برای آگاهی در باب زمان",
+    "max_length": 53,
+    "median_length": 30,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/73ee1a22-01d5-49ea-8934-601a79b2215c/play.mp3",
+        "at": "2026-10-23T02:30:00Z",
+        "t": "دانزی | برای آگاهی در باب زمان"
+      },
       {
         "a": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/c2261fbb-02a4-4cae-91c1-85f4dfbcf15d/play.mp3",
         "at": "2026-09-14T13:29:39Z",
@@ -7623,6 +7628,11 @@
     ],
     "recent": [
       {
+        "at": "2026-10-23T02:30:00Z",
+        "link": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/73ee1a22-01d5-49ea-8934-601a79b2215c/play.mp3",
+        "title": "دانزی | برای آگاهی در باب زمان"
+      },
+      {
         "at": "2026-09-14T13:29:39Z",
         "link": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/c2261fbb-02a4-4cae-91c1-85f4dfbcf15d/play.mp3",
         "title": "دانزی | برای آگاهی در باب رنج"
@@ -7631,11 +7641,6 @@
         "at": "2026-09-13T14:32:51Z",
         "link": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/c6c92cb8-0ccc-4a3c-9926-199eed8506d1/play.mp3",
         "title": "یک خبر درباره دانزی"
-      },
-      {
-        "at": "2026-09-07T11:58:40Z",
-        "link": "https://player.rabt.space/podcast/68aed8b4-4847-4fb8-b7b0-5e11989c8def/episode/80b9d39a-97e9-4935-927e-082497566eab/play.mp3",
-        "title": "دانزی | برای آگاهی در باب ترس"
       }
     ],
     "recent_30d": [
@@ -7650,7 +7655,7 @@
       0,
       0,
       6,
-      0
+      1
     ],
     "status": "active"
   },
@@ -22619,8 +22624,8 @@
     "recent_30d": [
       29,
       24,
-      25,
-      29,
+      26,
+      28,
       30,
       26,
       27,
