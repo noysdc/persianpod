@@ -28070,7 +28070,7 @@
     "avg_length": 34,
     "episodes": 57,
     "eps_365": 10,
-    "eps_90": 4,
+    "eps_90": 3,
     "first_at": "2020-04-23",
     "first_year": 1399,
     "last": "1405/07/24",
@@ -28148,8 +28148,8 @@
       0,
       1,
       0,
-      1,
       2,
+      1,
       1,
       1
     ],
@@ -28601,19 +28601,24 @@
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.7,
     "avg_length": 26,
-    "episodes": 18,
-    "eps_365": 18,
-    "eps_90": 18,
+    "episodes": 19,
+    "eps_365": 19,
+    "eps_90": 19,
     "first_at": "2026-10-10",
     "first_year": 1405,
     "last": "1405/08/01",
-    "last_at": "2026-10-23T11:01:25Z",
+    "last_at": "2026-10-23T11:33:20Z",
     "last_link": "https://furbodm.com/",
-    "last_title": "XIAOMI | داستان هجدهم؛ شیائومی",
+    "last_title": "SNAPCHAT | داستان نوزدهم؛ اسنپ‌چت",
     "max_length": 38,
     "median_length": 26,
     "min_length": 15,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adb4600fc232549baa5259b/media.mp3",
+        "at": "2026-10-23T11:33:20Z",
+        "t": "SNAPCHAT | داستان نوزدهم؛ اسنپ‌چت"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adb3e8523f48c4f24a88393/media.mp3",
         "at": "2026-10-23T11:01:25Z",
@@ -28648,14 +28653,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6acfc7357ce338e8cdc1ea84/media.mp3",
         "at": "2026-10-22T09:19:04Z",
         "t": "YAHOO | داستان دوازدهم؛ یاهو"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6acf9cb568b7ce6ffb3005c7/media.mp3",
-        "at": "2026-10-22T09:18:51Z",
-        "t": "MCDONALD'S | داستان یازدهم؛ مک‌دونالد"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-23T11:33:20Z",
+        "link": "https://furbodm.com/",
+        "title": "SNAPCHAT | داستان نوزدهم؛ اسنپ‌چت"
+      },
       {
         "at": "2026-10-23T11:01:25Z",
         "link": "https://furbodm.com/",
@@ -28665,11 +28670,6 @@
         "at": "2026-10-22T09:29:02Z",
         "link": "https://furbodm.com/",
         "title": "UBER | داستان هفدهم؛ اوبر"
-      },
-      {
-        "at": "2026-10-22T09:20:15Z",
-        "link": "https://furbodm.com/",
-        "title": "CROCS | داستان شانزدهم؛ داستان کراکس"
       }
     ],
     "recent_30d": [
@@ -28684,7 +28684,7 @@
       0,
       0,
       0,
-      18
+      19
     ],
     "status": "active"
   },
