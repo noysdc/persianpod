@@ -27877,8 +27877,8 @@
       2,
       2,
       4,
-      4,
       5,
+      4,
       4,
       4,
       5,
@@ -30470,8 +30470,8 @@
       0,
       0,
       0,
-      2,
-      5,
+      3,
+      4,
       0,
       3,
       1
@@ -31645,20 +31645,25 @@
   },
   "podcast-ghsh-go-ghesegoo": {
     "avg_gap_days": 14.4,
-    "avg_length": 42,
-    "episodes": 54,
-    "eps_365": 25,
-    "eps_90": 6,
+    "avg_length": 41,
+    "episodes": 55,
+    "eps_365": 26,
+    "eps_90": 7,
     "first_at": "2024-11-10",
     "first_year": 1403,
-    "last": "1405/07/18",
-    "last_at": "2026-10-10T01:30:12Z",
-    "last_link": "https://www.youtube.com/watch?v=5V00F2z9AvI",
-    "last_title": "جیسون و پشم زرین",
+    "last": "1405/08/02",
+    "last_at": "2026-10-24T02:30:44Z",
+    "last_link": "https://youtu.be/NL9eeB1kkGs",
+    "last_title": "جیسون و مده‌آ",
     "max_length": 84,
     "median_length": 28,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://audio3.redcircle.com/episodes/1f606c88-97a9-4aac-9a5b-f45450a64adc/stream.mp3",
+        "at": "2026-10-24T02:30:44Z",
+        "t": "جیسون و مده‌آ"
+      },
       {
         "a": "https://audio3.redcircle.com/episodes/6f0e741e-d112-4b56-8c27-929dd945a057/stream.mp3",
         "at": "2026-10-10T01:30:12Z",
@@ -31693,14 +31698,14 @@
         "a": "https://audio3.redcircle.com/episodes/96af3fe0-31b2-441d-a748-32930a2d0134/stream.mp3",
         "at": "2026-07-18T01:30:26Z",
         "t": "شاه آرتور - بخش آخر"
-      },
-      {
-        "a": "https://audio3.redcircle.com/episodes/313eda6f-b6e5-44c8-ae9a-e71c73202387/stream.mp3",
-        "at": "2026-07-11T01:30:26Z",
-        "t": "شاه آرتور - بخش اول"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-24T02:30:44Z",
+        "link": "https://youtu.be/NL9eeB1kkGs",
+        "title": "جیسون و مده‌آ"
+      },
       {
         "at": "2026-10-10T01:30:12Z",
         "link": "https://www.youtube.com/watch?v=5V00F2z9AvI",
@@ -31710,11 +31715,6 @@
         "at": "2026-09-26T01:30:41Z",
         "link": "https://www.youtube.com/watch?v=B1AGkjs8lcI&t=2s",
         "title": "مرگ رستم"
-      },
-      {
-        "at": "2026-09-12T01:30:20Z",
-        "link": "https://www.youtube.com/watch?v=fYyG2aH1kRU",
-        "title": "سیمرغ"
       }
     ],
     "recent_30d": [
@@ -31729,7 +31729,7 @@
       3,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -32164,8 +32164,8 @@
       }
     ],
     "recent_30d": [
-      3,
-      1,
+      4,
+      0,
       2,
       4,
       6,
@@ -36997,8 +36997,8 @@
       }
     ],
     "recent_30d": [
-      3,
-      5,
+      4,
+      4,
       1,
       2,
       0,
@@ -45427,8 +45427,8 @@
       0,
       3,
       4,
-      2,
-      5,
+      3,
+      4,
       4
     ],
     "status": "active"
@@ -49439,8 +49439,8 @@
       }
     ],
     "recent_30d": [
-      2,
-      5,
+      3,
+      4,
       4,
       5,
       0,
