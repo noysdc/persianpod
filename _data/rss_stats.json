@@ -22579,21 +22579,26 @@
     "status": "inactive"
   },
   "ktab-soti-sh-tfngdar": {
-    "avg_gap_days": 11.4,
+    "avg_gap_days": 11.2,
     "avg_length": 27,
-    "episodes": 133,
-    "eps_365": 32,
-    "eps_90": 10,
+    "episodes": 134,
+    "eps_365": 33,
+    "eps_90": 11,
     "first_at": "2024-05-18",
     "first_year": 1403,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T19:07:17Z",
-    "last_link": "https://shows.acast.com/threemusketeers/episodes/6ad3c76694a3daa98effffcd",
-    "last_title": "قسمت صد و هجدهم(قسمت اول سیزن پنجم)",
+    "last": "1405/08/02",
+    "last_at": "2026-10-24T12:08:35Z",
+    "last_link": "https://shows.acast.com/threemusketeers/episodes/6adc9fc3296f30f8e31f0cc0",
+    "last_title": "قسمت صد و نوزدهم",
     "max_length": 42,
     "median_length": 30,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6adc9fc3296f30f8e31f0cc0/media.mp3",
+        "at": "2026-10-24T12:08:35Z",
+        "t": "قسمت صد و نوزدهم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6ad3c76694a3daa98effffcd/media.mp3",
         "at": "2026-10-17T19:07:17Z",
@@ -22628,14 +22633,14 @@
         "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6a81b61403af5e222ab9ac98/media.mp3",
         "at": "2026-08-16T13:07:32Z",
         "t": "قسمت صد و پانزدهم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6a78cfa0c867c168176e136c/media.mp3",
-        "at": "2026-08-09T19:06:08Z",
-        "t": "مقدمه قسمت ۱۱۵"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-24T12:08:35Z",
+        "link": "https://shows.acast.com/threemusketeers/episodes/6adc9fc3296f30f8e31f0cc0",
+        "title": "قسمت صد و نوزدهم"
+      },
       {
         "at": "2026-10-17T19:07:17Z",
         "link": "https://shows.acast.com/threemusketeers/episodes/6ad3c76694a3daa98effffcd",
@@ -22645,15 +22650,10 @@
         "at": "2026-10-05T19:46:16Z",
         "link": "https://shows.acast.com/threemusketeers/episodes/6ac3fe947c84f5d4dd6b66a2",
         "title": "تریلر سیزن پنجم پادکست سه تفنگدار"
-      },
-      {
-        "at": "2026-09-13T17:22:18Z",
-        "link": "https://shows.acast.com/threemusketeers/episodes/6aa6dbca1563582c05a44feb",
-        "title": "قسمت آخر سیزن چهارم"
       }
     ],
     "recent_30d": [
-      4,
+      3,
       3,
       0,
       5,
@@ -22664,7 +22664,7 @@
       5,
       5,
       3,
-      2
+      3
     ],
     "status": "active"
   },
@@ -32793,8 +32793,8 @@
       4,
       3,
       1,
-      1,
-      1,
+      2,
+      0,
       0,
       0,
       3,
