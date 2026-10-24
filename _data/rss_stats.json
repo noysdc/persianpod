@@ -49185,20 +49185,25 @@
   },
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
-    "avg_length": 24,
-    "episodes": 395,
-    "eps_365": 256,
-    "eps_90": 113,
+    "avg_length": 25,
+    "episodes": 396,
+    "eps_365": 257,
+    "eps_90": 114,
     "first_at": "2024-08-22",
     "first_year": 1403,
-    "last": "1405/08/01",
-    "last_at": "2026-10-23T08:06:05Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6adb156d70af2b1aa75cc547",
-    "last_title": "مدیتیشن تجسم رویاها | خلق آینده رویایی مدیتیشن",
+    "last": "1405/08/02",
+    "last_at": "2026-10-24T06:31:40Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6adc50cc296f30f8e303cc6e",
+    "last_title": "🍂 صبحی پاییزی در جنگلی مه‌آلود | موسیقی‌های قدیمی و دلنشین دیزنی | ملودی‌های نوستالژیک",
     "max_length": 99,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6adc50cc296f30f8e303cc6e/media.mp3",
+        "at": "2026-10-24T06:31:40Z",
+        "t": "🍂 صبحی پاییزی در جنگلی مه‌آلود | موسیقی‌های قدیمی و دلنشین دیزنی | ملودی‌های نوستالژیک"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6adb156d70af2b1aa75cc547/media.mp3",
         "at": "2026-10-23T08:06:05Z",
@@ -49233,14 +49238,14 @@
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ac9cbe3e53019e8900fa8cc/media.mp3",
         "at": "2026-10-15T08:06:11Z",
         "t": "جادوگر سفید | اپیزود 11"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6abe435515f07e54818e32f0/media.mp3",
-        "at": "2026-10-14T20:30:00Z",
-        "t": "قدرتمندترین فرکانس جهان هستی ۸۸۸ هرتز | باز کننده تمام درهای فراوانی و معجزه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-24T06:31:40Z",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6adc50cc296f30f8e303cc6e",
+        "title": "🍂 صبحی پاییزی در جنگلی مه‌آلود | موسیقی‌های قدیمی و دلنشین دیزنی | ملودی‌های نوستالژیک"
+      },
       {
         "at": "2026-10-23T08:06:05Z",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6adb156d70af2b1aa75cc547",
@@ -49250,11 +49255,6 @@
         "at": "2026-10-22T00:30:00Z",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6ab8e78dfb182c6fb528cef4",
         "title": "جملات تاکیدی💸 سپاسگزارم؛ زندگی من پر از فرصت، برکت."
-      },
-      {
-        "at": "2026-10-22T00:30:00Z",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6ad8f0fb3ad7f6855116bf9e",
-        "title": "مدیتیشن مدار ثروت صبحگاهی | مدیتیشن جذب فراوانی مالی"
       }
     ],
     "recent_30d": [
@@ -49269,7 +49269,7 @@
       11,
       37,
       42,
-      34
+      35
     ],
     "status": "active"
   },
