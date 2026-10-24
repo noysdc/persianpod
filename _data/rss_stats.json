@@ -6949,20 +6949,25 @@
   },
   "chh-hsi-dari-roanshnasi-khodshnasi": {
     "avg_gap_days": 1.0,
-    "avg_length": 20,
-    "episodes": 85,
-    "eps_365": 85,
-    "eps_90": 85,
+    "avg_length": 21,
+    "episodes": 86,
+    "eps_365": 86,
+    "eps_90": 86,
     "first_at": "2026-07-29",
     "first_year": 1405,
-    "last": "1405/07/30",
-    "last_at": "2026-10-22T18:40:46Z",
-    "last_link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-3--75925647",
-    "last_title": "غلبه بر افکار منفی مزاحم ۳",
+    "last": "1405/08/02",
+    "last_at": "2026-10-24T11:39:20Z",
+    "last_link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-4--75963190",
+    "last_title": "غلبه بر افکار منفی مزاحم ۴",
     "max_length": 33,
-    "median_length": 15,
+    "median_length": 16,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75963190/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27qubxaz.mp3",
+        "at": "2026-10-24T11:39:20Z",
+        "t": "غلبه بر افکار منفی مزاحم ۴"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75925647/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27mubxaz.mp3",
         "at": "2026-10-22T18:40:46Z",
@@ -6997,14 +7002,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75836220/utf_8_b_2kzzinis2ycg2k_yssdzhdix2lryr9in2ybbjc5tcdm.mp3",
         "at": "2026-10-17T11:32:29Z",
         "t": "داستان کوتاه طنز|جوجه در مرغدانی"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75829617/utf_8_b_24zaqsdzgtmi2lfbjcdaqdix2yuubxaz.mp3",
-        "at": "2026-10-16T19:07:03Z",
-        "t": "داستان کوتاه طنز| یک قوطی کِرم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-24T11:39:20Z",
+        "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-4--75963190",
+        "title": "غلبه بر افکار منفی مزاحم ۴"
+      },
       {
         "at": "2026-10-22T18:40:46Z",
         "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-3--75925647",
@@ -7014,11 +7019,6 @@
         "at": "2026-10-21T13:24:30Z",
         "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm2--75899278",
         "title": "غلبه بر افکار منفی مزاحم۲"
-      },
-      {
-        "at": "2026-10-21T11:30:28Z",
-        "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-1--75897462",
-        "title": "غلبه بر افکار منفی مزاحم ۱"
       }
     ],
     "recent_30d": [
@@ -7033,7 +7033,7 @@
       0,
       37,
       20,
-      28
+      29
     ],
     "status": "active"
   },
