@@ -13938,7 +13938,7 @@
       }
     ],
     "recent_30d": [
-      27,
+      25,
       5,
       0,
       0,
@@ -43613,21 +43613,26 @@
     "status": "active"
   },
   "sfir-sda": {
-    "avg_gap_days": 15.5,
+    "avg_gap_days": 15.2,
     "avg_length": 13,
-    "episodes": 58,
-    "eps_365": 24,
-    "eps_90": 11,
+    "episodes": 59,
+    "eps_365": 25,
+    "eps_90": 12,
     "first_at": "2025-03-02",
     "first_year": 1403,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T12:28:58Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql418",
-    "last_title": "افسانه اسب باوفا | قسمت اول",
+    "last": "1405/08/02",
+    "last_at": "2026-10-24T12:16:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql434",
+    "last_title": "افسانه اسب باوفا | قسمت دوم",
     "max_length": 33,
     "median_length": 8,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/101e050f4/podcast/play/127618596/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-17%2F3295f5c5-f7e5-a8d1-bf36-2dd687de451f.mp3",
+        "at": "2026-10-24T12:16:00Z",
+        "t": "افسانه اسب باوفا | قسمت دوم"
+      },
       {
         "a": "https://anchor.fm/s/101e050f4/podcast/play/127618536/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-17%2F19fdc279-5571-88e9-e644-6e237a43310c.mp3",
         "at": "2026-10-17T12:28:58Z",
@@ -43662,14 +43667,14 @@
         "a": "https://anchor.fm/s/101e050f4/podcast/play/124897400/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-29%2Fbd5997bb-a789-c678-c08b-8d4a1561dc3a.mp3",
         "at": "2026-08-29T12:05:15Z",
         "t": "پادکست افسانه های ایرانی این قسمت :هلِلوم نلِلوم"
-      },
-      {
-        "a": "https://anchor.fm/s/101e050f4/podcast/play/124579434/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-22%2F04bc08dd-7404-9b7e-148c-2671fb7892f2.mp3",
-        "at": "2026-08-22T12:45:00Z",
-        "t": "پادکست :یک تنه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-24T12:16:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql434",
+        "title": "افسانه اسب باوفا | قسمت دوم"
+      },
       {
         "at": "2026-10-17T12:28:58Z",
         "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql418",
@@ -43679,11 +43684,6 @@
         "at": "2026-10-10T13:11:37Z",
         "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3q9tbs",
         "title": "افسانه‌ی شیرزاد | قسمت دوم"
-      },
-      {
-        "at": "2026-10-03T12:20:11Z",
-        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3pqbfk",
-        "title": "افسانه‌ی شیرزاد | قسمت اول"
       }
     ],
     "recent_30d": [
@@ -43698,7 +43698,7 @@
       0,
       4,
       3,
-      4
+      5
     ],
     "status": "active"
   },
@@ -50697,8 +50697,8 @@
       2,
       1,
       3,
-      3,
-      5,
+      4,
+      4,
       4,
       4,
       5,
