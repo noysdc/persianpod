@@ -1,0 +1,41 @@
+---
+title: "کتاب درباری از خار و رز-کامل-(ژانر فانتزی، معمایی، عاشقانه)"
+title_en: ""
+slug: "ktab-drbari-az-khar-o-rz-kaml-zhanr-fantzi-mamaii-aashghanh"
+description: "کتاب‌خوان: فرناز فریدتهیه و نشر گویا: واوخوانمجموعن 50 اپیزود که بطور مرتب آپلود می‌شود.اگر علاقمند به رمان‌های ژانر #فانتزی و جهان‌های #پریان هستید این کتاب مناسب شماست.."
+category: "ادبیات و کتاب"
+subcategories: ["کتاب صوتی"]
+tags: ["ادبیات و کتاب","کتاب صوتی"]
+status: "فعال"
+language: "فارسی"
+creator: "vavkhan واوخوان"
+episode_count: 50
+logo: "/assets/img/podcasts/ktab-drbari-az-khar-o-rz-kaml-zhanr-fantzi-mamaii-aashghanh.webp"
+rss: "https://feeds.acast.com/public/shows/68a058d7aabbc2ace3d7b673"
+apple_podcasts: "https://podcasts.apple.com/podcast/id1833678554"
+pi_id: 7453140
+source: "podcastindex"
+ai_category: true
+auto_imported: true
+reviewed: false
+published: false
+---
+
+# کتاب درباری از خار و رز-کامل-(ژانر فانتزی، معمایی، عاشقانه)
+
+کتاب‌خوان: فرناز فریدتهیه و نشر گویا: واوخوانمجموعن 50 اپیزود که بطور مرتب آپلود می‌شود.اگر علاقمند به رمان‌های ژانر #فانتزی و جهان‌های #پریان هستید این کتاب مناسب شماست..وقتی «فیرا»، گرگی را در جنگل میان دنیای انسان‌ها و قلمرو پریان می‌کشد، به شکل ناخواسته باعث در هم شکستن یک پیمان آتش‌بس می‌شود و باید تاوان این قتل را با جانش بپردازد. با سپری کردن باقی روزهای عمرش در سرزمین پریان. همزمان با این که «فیرا» به محیط جدید خود عادت می‌کند و حتی از آن لذت می‌برد، درمی یابد که جهان پریان با تهدیدی بزرگ رو به رو است؛ تهدیدی که قدرت‌های جادویی پریان را بی‌اثر می‌سازد و به هیولاها اجازه می‌دهد که آزادانه در جهان پریان پرسه بزنند...
+
+## تازه‌ترین قسمت‌ها
+
+- [کتاب درباری از خار و رز- فصل چهل و ششم (آخر))](https://www.vavkhan.com/book/2597/){:target="_blank" rel="noopener"}
+- [کتاب درباری از خار و رز- فصل چهل و پنجم (فانتزی)](https://www.vavkhan.com/book/2597/){:target="_blank" rel="noopener"}
+- [کتاب درباری از خار و رز- فصل چهل و چهارم (فانتزی)](https://www.vavkhan.com/book/2597/){:target="_blank" rel="noopener"}
+
+---
+
+## لینک‌های مرتبط و ارتباطات
+
+- [شنیدن در اپل پادکست](https://podcasts.apple.com/podcast/id1833678554){:target="_blank" rel="noopener"}
+- [فید RSS](https://feeds.acast.com/public/shows/68a058d7aabbc2ace3d7b673){:target="_blank" rel="noopener"}
+
+> این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید.
