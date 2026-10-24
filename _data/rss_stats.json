@@ -7914,8 +7914,8 @@
     ],
     "recent_30d": [
       4,
-      4,
-      1,
+      5,
+      0,
       3,
       3,
       5,
@@ -28957,20 +28957,25 @@
   },
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.7,
-    "avg_length": 26,
-    "episodes": 19,
-    "eps_365": 19,
-    "eps_90": 19,
+    "avg_length": 25,
+    "episodes": 20,
+    "eps_365": 20,
+    "eps_90": 20,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/01",
-    "last_at": "2026-10-23T11:33:20Z",
+    "last": "1405/08/02",
+    "last_at": "2026-10-24T10:57:52Z",
     "last_link": "https://furbodm.com/",
-    "last_title": "SNAPCHAT | داستان نوزدهم؛ اسنپ‌چت",
+    "last_title": "SPOTIFY | داستان بیستم؛ اسپاتیفای",
     "max_length": 38,
-    "median_length": 26,
+    "median_length": 25,
     "min_length": 15,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adc8f3023b36fc01ccddf27/media.mp3",
+        "at": "2026-10-24T10:57:52Z",
+        "t": "SPOTIFY | داستان بیستم؛ اسپاتیفای"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adb4600fc232549baa5259b/media.mp3",
         "at": "2026-10-23T11:33:20Z",
@@ -29005,14 +29010,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad3397d3b4184313734bc4e/media.mp3",
         "at": "2026-10-22T09:19:18Z",
         "t": "X.COM | داستان سیزدهم؛ ایلان ماسک؛ ایکس دات‌کام و پی‌پل"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6acfc7357ce338e8cdc1ea84/media.mp3",
-        "at": "2026-10-22T09:19:04Z",
-        "t": "YAHOO | داستان دوازدهم؛ یاهو"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-24T10:57:52Z",
+        "link": "https://furbodm.com/",
+        "title": "SPOTIFY | داستان بیستم؛ اسپاتیفای"
+      },
       {
         "at": "2026-10-23T11:33:20Z",
         "link": "https://furbodm.com/",
@@ -29022,11 +29027,6 @@
         "at": "2026-10-23T11:01:25Z",
         "link": "https://furbodm.com/",
         "title": "XIAOMI | داستان هجدهم؛ شیائومی"
-      },
-      {
-        "at": "2026-10-22T09:29:02Z",
-        "link": "https://furbodm.com/",
-        "title": "UBER | داستان هفدهم؛ اوبر"
       }
     ],
     "recent_30d": [
@@ -29041,7 +29041,7 @@
       0,
       0,
       0,
-      19
+      20
     ],
     "status": "active"
   },
@@ -43240,8 +43240,8 @@
       22,
       16,
       4,
-      18,
-      2,
+      19,
+      1,
       0,
       0,
       0,
