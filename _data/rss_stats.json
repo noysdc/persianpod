@@ -2772,8 +2772,8 @@
     "recent_30d": [
       20,
       16,
-      5,
-      21,
+      6,
+      20,
       1,
       0,
       0,
@@ -44779,21 +44779,26 @@
     "status": "inactive"
   },
   "shar-kst": {
-    "avg_gap_days": 13.2,
+    "avg_gap_days": 12.7,
     "avg_length": 6,
-    "episodes": 164,
-    "eps_365": 27,
-    "eps_90": 23,
+    "episodes": 165,
+    "eps_365": 28,
+    "eps_90": 24,
     "first_at": "2022-05-04",
     "first_year": 1401,
-    "last": "1405/08/01",
-    "last_at": "2026-10-23T16:32:00Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/de520dfa-867f-434e-ba38-ba35976980ec/play.mp3",
-    "last_title": "صد و شصت و سه - ترکیبِ طبایع: خیام",
+    "last": "1405/08/02",
+    "last_at": "2026-10-24T16:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/51f421cd-4d18-40a6-b37e-991016006174/play.mp3",
+    "last_title": "صد و شصت و چهار - صحرای علل: خیام",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/51f421cd-4d18-40a6-b37e-991016006174/play.mp3",
+        "at": "2026-10-24T16:30:00Z",
+        "t": "صد و شصت و چهار - صحرای علل: خیام"
+      },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/de520dfa-867f-434e-ba38-ba35976980ec/play.mp3",
         "at": "2026-10-23T16:32:00Z",
@@ -44828,14 +44833,14 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/3f2bae40-62b5-4add-b7b9-b9a91e32f1c7/play.mp3",
         "at": "2026-10-21T16:32:00Z",
         "t": "صد و پنجاه و هفت - مور دانه‌کش: سعدی"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/f03eccff-f44f-4229-bded-434875d40df5/play.mp3",
-        "at": "2026-10-21T16:31:00Z",
-        "t": "صد و پنجاه و شش - یا مرگ یا وطن: منسوب به فردوسی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-24T16:30:00Z",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/51f421cd-4d18-40a6-b37e-991016006174/play.mp3",
+        "title": "صد و شصت و چهار - صحرای علل: خیام"
+      },
       {
         "at": "2026-10-23T16:32:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/de520dfa-867f-434e-ba38-ba35976980ec/play.mp3",
@@ -44845,11 +44850,6 @@
         "at": "2026-10-23T16:31:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/697cd743-43ab-4af9-9860-ed67a73c08ff/play.mp3",
         "title": "صد و شصت و دو - سر نِشترِ عشق"
-      },
-      {
-        "at": "2026-10-23T16:30:00Z",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/e3e5ad4a-c81e-4ae7-914b-5a84b8cfc538/play.mp3",
-        "title": "صد و شصت و یک - شادی و درد: رودکی"
       }
     ],
     "recent_30d": [
@@ -44864,7 +44864,7 @@
       1,
       2,
       0,
-      21
+      22
     ],
     "status": "active"
   },
