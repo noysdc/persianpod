@@ -29658,7 +29658,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       4,
       2,
       1,
@@ -34688,21 +34688,26 @@
     "status": "active"
   },
   "podcast-rkh": {
-    "avg_gap_days": 15.2,
-    "avg_length": 72,
-    "episodes": 148,
-    "eps_365": 24,
-    "eps_90": 7,
+    "avg_gap_days": 14.9,
+    "avg_length": 71,
+    "episodes": 149,
+    "eps_365": 25,
+    "eps_90": 8,
     "first_at": "2020-04-06",
     "first_year": 1399,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T01:29:00Z",
-    "last_link": "https://shows.acast.com/padkst-rkh/episodes/6aca28da9fea6e0a64715454",
-    "last_title": "داستان زندگی راسپوتین قسمت دوم",
+    "last": "1405/08/02",
+    "last_at": "2026-10-24T01:29:00Z",
+    "last_link": "https://shows.acast.com/padkst-rkh/episodes/6ad37cea3b4184313738f5de",
+    "last_title": "داستان زندگی راسپوتین قسمت سوم",
     "max_length": 175,
     "median_length": 70,
     "min_length": 25,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e095ffbec0f30016047f7e/e/6ad37cea3b4184313738f5de/media.mp3",
+        "at": "2026-10-24T01:29:00Z",
+        "t": "داستان زندگی راسپوتین قسمت سوم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65e095ffbec0f30016047f7e/e/6aca28da9fea6e0a64715454/media.mp3",
         "at": "2026-10-17T01:29:00Z",
@@ -34737,14 +34742,14 @@
         "a": "https://sphinx.acast.com/p/open/s/65e095ffbec0f30016047f7e/e/6a6dcc3261ae402f61802900/media.mp3",
         "at": "2026-08-01T10:40:49Z",
         "t": "ونس و روبیو و جنگ ایران"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65e095ffbec0f30016047f7e/e/6a4e3f61fe878dc8e21fcd9a/media.mp3",
-        "at": "2026-07-18T01:29:00Z",
-        "t": "اپیزود ویژه جام جهانی، فوتبال در اسارت سیاست"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-24T01:29:00Z",
+        "link": "https://shows.acast.com/padkst-rkh/episodes/6ad37cea3b4184313738f5de",
+        "title": "داستان زندگی راسپوتین قسمت سوم"
+      },
       {
         "at": "2026-10-17T01:29:00Z",
         "link": "https://shows.acast.com/padkst-rkh/episodes/6aca28da9fea6e0a64715454",
@@ -34754,11 +34759,6 @@
         "at": "2026-10-10T01:29:00Z",
         "link": "https://shows.acast.com/padkst-rkh/episodes/6ac65f5a8f340788896dbc18",
         "title": "داستان زندگی راسپوتین قسمت اول"
-      },
-      {
-        "at": "2026-09-26T01:29:00Z",
-        "link": "https://shows.acast.com/padkst-rkh/episodes/6ab63d2a432e34fa4519347f",
-        "title": "خاورمیانه جدید، پیمان ابراهیم و مکه"
       }
     ],
     "recent_30d": [
@@ -34773,7 +34773,7 @@
       3,
       2,
       2,
-      3
+      4
     ],
     "status": "active"
   },
