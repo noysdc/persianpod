@@ -29941,21 +29941,26 @@
     "status": "active"
   },
   "podcast-farsi-fikshn-fiction-podcast": {
-    "avg_gap_days": 14.7,
+    "avg_gap_days": 14.4,
     "avg_length": 42,
-    "episodes": 230,
-    "eps_365": 25,
-    "eps_90": 7,
+    "episodes": 231,
+    "eps_365": 26,
+    "eps_90": 8,
     "first_at": "2019-07-06",
     "first_year": 1398,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T13:30:00Z",
+    "last": "1405/08/02",
+    "last_at": "2026-10-24T13:30:00Z",
     "last_link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
-    "last_title": "کثیف‌ترین فتیش دنیا",
+    "last_title": "خشن‌ترین قاتل جهان",
     "max_length": 75,
     "median_length": 34,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/9f3098a364e75b3e/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-10-24T13:30:00Z",
+        "t": "خشن‌ترین قاتل جهان"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/5788e5972d207c21/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-10-17T13:30:00Z",
@@ -29990,14 +29995,14 @@
         "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/397fe3bcc196ad5f/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-08-20T08:01:21Z",
         "t": "ازدواج دو شیطان"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/967a114df33b19fe/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2026-06-28T01:30:00Z",
-        "t": "جسدی تکه تکه شده"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-24T13:30:00Z",
+        "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
+        "title": "خشن‌ترین قاتل جهان"
+      },
       {
         "at": "2026-10-17T13:30:00Z",
         "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
@@ -30007,11 +30012,6 @@
         "at": "2026-10-13T16:27:10Z",
         "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
         "title": "راز قتل نیمه شب"
-      },
-      {
-        "at": "2026-10-06T14:30:00Z",
-        "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
-        "title": "جنایت در روز تعطیل"
       }
     ],
     "recent_30d": [
@@ -30026,7 +30026,7 @@
       1,
       1,
       1,
-      5
+      6
     ],
     "status": "active"
   },
