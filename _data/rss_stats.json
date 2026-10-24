@@ -6051,21 +6051,26 @@
     "status": "active"
   },
   "biografi": {
-    "avg_gap_days": 9.5,
+    "avg_gap_days": 9.6,
     "avg_length": 40,
-    "episodes": 125,
-    "eps_365": 38,
-    "eps_90": 14,
+    "episodes": 126,
+    "eps_365": 39,
+    "eps_90": 15,
     "first_at": "2023-03-08",
     "first_year": 1401,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T08:04:19Z",
-    "last_link": "https://shows.acast.com/biografi/episodes/6acb957137f0bd18ccd9bf6c",
-    "last_title": "پرنسس دایانا (قسمت آخر)✨",
+    "last": "1405/08/02",
+    "last_at": "2026-10-24T06:44:05Z",
+    "last_link": "https://shows.acast.com/biografi/episodes/6adc53b5959e7ea69d8c678b",
+    "last_title": "(والت دیزنی( قسمت اول ✨",
     "max_length": 64,
     "median_length": 40,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6adc53b5959e7ea69d8c678b/media.mp3",
+        "at": "2026-10-24T06:44:05Z",
+        "t": "(والت دیزنی( قسمت اول ✨"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6acb957137f0bd18ccd9bf6c/media.mp3",
         "at": "2026-10-14T08:04:19Z",
@@ -6100,14 +6105,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6a41360cf045c2057f0ffc5a/media.mp3",
         "at": "2026-09-15T07:33:28Z",
         "t": "رومانف‌ها (فصل نهم ) : قسمت دوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6a3cdbb31d1e464c65b2b850/media.mp3",
-        "at": "2026-09-14T06:51:09Z",
-        "t": "رومانف‌ها (فصل نهم): آخرین تزار، قسمت اول"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-24T06:44:05Z",
+        "link": "https://shows.acast.com/biografi/episodes/6adc53b5959e7ea69d8c678b",
+        "title": "(والت دیزنی( قسمت اول ✨"
+      },
       {
         "at": "2026-10-14T08:04:19Z",
         "link": "https://shows.acast.com/biografi/episodes/6acb957137f0bd18ccd9bf6c",
@@ -6117,11 +6122,6 @@
         "at": "2026-10-13T06:48:22Z",
         "link": "https://shows.acast.com/biografi/episodes/6acb93f8e53019e8903cd141",
         "title": "پرنسس دایانا (قسمت سوم)✨"
-      },
-      {
-        "at": "2026-10-11T13:38:54Z",
-        "link": "https://shows.acast.com/biografi/episodes/6acb917037f0bd18ccd96ed0",
-        "title": "پرنسس دایانا (قسمت دوم)✨"
       }
     ],
     "recent_30d": [
@@ -6136,7 +6136,7 @@
       5,
       4,
       6,
-      4
+      5
     ],
     "status": "active"
   },
