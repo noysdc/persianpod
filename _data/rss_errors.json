@@ -63,10 +63,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
   },
-  "ktab-asr-mrkb": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://hmpc.ir/feed/podcast/asare-morakab/"
-  },
   "mamanst-mamanest": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://feeds.sounder.fm/16420/rss.xml"
