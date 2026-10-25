@@ -36292,21 +36292,26 @@
     "status": "active"
   },
   "podcast-mhrangiz": {
-    "avg_gap_days": 29.4,
+    "avg_gap_days": 28.1,
     "avg_length": 61,
-    "episodes": 110,
-    "eps_365": 12,
-    "eps_90": 3,
+    "episodes": 111,
+    "eps_365": 13,
+    "eps_90": 4,
     "first_at": "2022-12-10",
     "first_year": 1401,
-    "last": "1405/07/20",
-    "last_at": "2026-10-12T12:22:34Z",
-    "last_link": "https://shows.acast.com/mehrangizpodcast/episodes/6accd10b7c5c47f85e9a22ec",
-    "last_title": "اپیزود مهمان از پادکست گاوگیجه: خلاصۀ کتاب «مغز ایدئولوژی‌زده»",
+    "last": "1405/08/03",
+    "last_at": "2026-10-25T21:37:41Z",
+    "last_link": "https://shows.acast.com/mehrangizpodcast/episodes/6ade76a4025813dc0c3221a0",
+    "last_title": "پژوهش‌های تامل‌برانگیز: یه‌قلوی دوتخمی!",
     "max_length": 122,
     "median_length": 47,
     "min_length": 17,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6394d717c268530011f8301f/e/6ade76a4025813dc0c3221a0/media.mp3",
+        "at": "2026-10-25T21:37:41Z",
+        "t": "پژوهش‌های تامل‌برانگیز: یه‌قلوی دوتخمی!"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6394d717c268530011f8301f/e/6accd10b7c5c47f85e9a22ec/media.mp3",
         "at": "2026-10-12T12:22:34Z",
@@ -36341,14 +36346,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6394d717c268530011f8301f/e/69a19404240faaa9b5019488/media.mp3",
         "at": "2026-02-27T12:54:28Z",
         "t": "چرا همکاری می‌کنیم؟/چهار: با دوستان مروت، با دشمنان چه کارا؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6394d717c268530011f8301f/e/69846e7814b868743df850ab/media.mp3",
-        "at": "2026-02-05T10:18:30Z",
-        "t": "چرا همکاری می‌کنیم؟/سه: نه فرشته‌ام نه شیطان"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-25T21:37:41Z",
+        "link": "https://shows.acast.com/mehrangizpodcast/episodes/6ade76a4025813dc0c3221a0",
+        "title": "پژوهش‌های تامل‌برانگیز: یه‌قلوی دوتخمی!"
+      },
       {
         "at": "2026-10-12T12:22:34Z",
         "link": "https://shows.acast.com/mehrangizpodcast/episodes/6accd10b7c5c47f85e9a22ec",
@@ -36358,11 +36363,6 @@
         "at": "2026-09-14T04:14:33Z",
         "link": "https://shows.acast.com/mehrangizpodcast/episodes/6aa774aa1563582c05beba02",
         "title": "خلاصۀ کتاب «زندگی پنهان ضمیرها»"
-      },
-      {
-        "at": "2026-08-26T15:58:41Z",
-        "link": "https://shows.acast.com/mehrangizpodcast/episodes/6a8f0d31d8ffec4c41e96c48",
-        "title": "چرا همکاری می‌کنیم؟/شش: به سلامتی گاو!"
       }
     ],
     "recent_30d": [
@@ -36377,7 +36377,7 @@
       2,
       1,
       1,
-      1
+      2
     ],
     "status": "active"
   },
