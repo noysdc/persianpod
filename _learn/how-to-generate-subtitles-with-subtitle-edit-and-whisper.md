@@ -3,8 +3,8 @@ title: "چطور با Subtitle Edit و هوش مصنوعی Whisper، به صور
 description: "راهنمای گام‌به‌گام و کاملاً عملی برای تبدیل خودکار فایل‌های صوتی و ویدیویی به زیرنویس فارسی با نرم‌افزار رایگان Subtitle Edit و مدل قدرتمند Whisper."
 tags: ["زیرنویس", "هوش مصنوعی", "پادکست", "آموزش نرم‌افزار"]
 date: 2026-10-25 12:00:00 +0330
+image: "/assets/img/learn/how-to-generate-subtitles-with-subtitle-edit-and-whisper.webp"
 image_alt: "صفحه کامپیوتر که در حال پردازش ویدیو و تولید زیرنویس است"
-img: "/assets/img/learn/how-to-generate-subtitles-with-subtitle-edit-and-whisper.webp"
 ---
 
 اگر یک فایل صوتی یا ویدیویی دارید و می‌خواهید برایش زیرنویس بسازید، **Subtitle Edit** یک ابزار رایگان، متن‌باز و بسیار قدرتمند است که این کار را بدون نیاز به اینترنت (پس از دانلود اولیه مدل) و بدون فرستادن فایل‌هایتان به سرورهای ابری انجام می‌دهد. 
