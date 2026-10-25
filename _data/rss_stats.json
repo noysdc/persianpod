@@ -23701,8 +23701,8 @@
       28,
       28,
       27,
-      27,
       28,
+      27,
       27,
       24,
       29,
@@ -43971,21 +43971,26 @@
     "status": "active"
   },
   "sfri-dr-dl-tarikh": {
-    "avg_gap_days": 16.9,
-    "avg_length": 48,
-    "episodes": 67,
-    "eps_365": 22,
-    "eps_90": 7,
+    "avg_gap_days": 16.5,
+    "avg_length": 49,
+    "episodes": 68,
+    "eps_365": 23,
+    "eps_90": 8,
     "first_at": "2018-11-05",
     "first_year": 1397,
-    "last": "1405/07/23",
-    "last_at": "2026-10-15T04:30:00Z",
-    "last_link": "https://shows.acast.com/travelcast/episodes/neuschwanstein-disney-castle",
-    "last_title": "از رؤیای یک پادشاه تا قلعه دیزنی",
-    "max_length": 69,
+    "last": "1405/08/03",
+    "last_at": "2026-10-25T03:30:00Z",
+    "last_link": "https://shows.acast.com/travelcast/episodes/cyrus-cylinder-babylon-to-london",
+    "last_title": "داستان استوانه کوروش از بابل تا لندن",
+    "max_length": 76,
     "median_length": 37,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/628e5d6928045e0012b17009/e/6ad71988819a15003cb6a531/media.mp3",
+        "at": "2026-10-25T03:30:00Z",
+        "t": "داستان استوانه کوروش از بابل تا لندن"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/628e5d6928045e0012b17009/e/6ac647903dc1c1be4aa60851/media.mp3",
         "at": "2026-10-15T04:30:00Z",
@@ -44020,14 +44025,14 @@
         "a": "https://sphinx.acast.com/p/open/s/628e5d6928045e0012b17009/e/6a71b5b447235c354d3d6efe/media.mp3",
         "at": "2026-08-05T04:30:00Z",
         "t": "بازگشت به کاخ سفید | تغییر رژیم (1)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/628e5d6928045e0012b17009/e/6a60d93744c9eabf3c3586ea/media.mp3",
-        "at": "2026-07-25T04:30:00Z",
-        "t": "تمدنی که برای زنده ماندن، قربانی می‌خواست"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-25T03:30:00Z",
+        "link": "https://shows.acast.com/travelcast/episodes/cyrus-cylinder-babylon-to-london",
+        "title": "داستان استوانه کوروش از بابل تا لندن"
+      },
       {
         "at": "2026-10-15T04:30:00Z",
         "link": "https://shows.acast.com/travelcast/episodes/neuschwanstein-disney-castle",
@@ -44037,11 +44042,6 @@
         "at": "2026-09-30T04:30:00Z",
         "link": "https://shows.acast.com/travelcast/episodes/troy-4-trojan-horse",
         "title": "اسب تروآ و سقوط شهر تروی (4)"
-      },
-      {
-        "at": "2026-09-15T04:30:00Z",
-        "link": "https://shows.acast.com/travelcast/episodes/troy-3-achilles-hector-trojan-war",
-        "title": "خشم آشیل؛ جنگ پشت دیوارهای تروی (3)"
       }
     ],
     "recent_30d": [
@@ -44056,7 +44056,7 @@
       3,
       3,
       2,
-      2
+      3
     ],
     "status": "active"
   },
