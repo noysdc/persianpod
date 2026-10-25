@@ -21157,19 +21157,24 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 20,
-    "episodes": 620,
-    "eps_365": 604,
-    "eps_90": 181,
+    "episodes": 621,
+    "eps_365": 605,
+    "eps_90": 182,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/08/03",
-    "last_at": "2026-10-25T18:50:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6ade4ab1025813dc0c259a61",
-    "last_title": "سالگرد - قتل های زنجیره ای - بخش چهاردهم",
+    "last_at": "2026-10-25T19:11:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6ade6210025813dc0c2c6762",
+    "last_title": "سالگرد - قتل های زنجیره ای - بخش پانزدهم",
     "max_length": 44,
     "median_length": 16,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ade6210025813dc0c2c6762/media.mp3",
+        "at": "2026-10-25T19:11:00Z",
+        "t": "سالگرد - قتل های زنجیره ای - بخش پانزدهم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ade4ab1025813dc0c259a61/media.mp3",
         "at": "2026-10-25T18:50:00Z",
@@ -21204,14 +21209,14 @@
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ad7a8d370af2b1aa780eedd/media.mp3",
         "at": "2026-10-20T18:18:00Z",
         "t": "سالگرد - قتل های زنجیره ای - بخش هشتم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ad7a86512d1ac4b5ebe372e/media.mp3",
-        "at": "2026-10-20T17:44:06Z",
-        "t": "سالگرد - قتل های زنجیره ای - بخش هفتم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-25T19:11:00Z",
+        "link": "https://shows.acast.com/statusmarried/episodes/6ade6210025813dc0c2c6762",
+        "title": "سالگرد - قتل های زنجیره ای - بخش پانزدهم"
+      },
       {
         "at": "2026-10-25T18:50:00Z",
         "link": "https://shows.acast.com/statusmarried/episodes/6ade4ab1025813dc0c259a61",
@@ -21221,16 +21226,11 @@
         "at": "2026-10-25T18:27:44Z",
         "link": "https://shows.acast.com/statusmarried/episodes/6ade4a1fd39b76001fc0802e",
         "title": "سالگرد - قتل های زنجیره ای - بخش سیزدهم"
-      },
-      {
-        "at": "2026-10-23T18:10:00Z",
-        "link": "https://shows.acast.com/statusmarried/episodes/6adb3c552ae01c30d9599dab",
-        "title": "سالگرد - قتل های زنجیره ای - بخش دواردهم"
       }
     ],
     "recent_30d": [
-      32,
-      154,
+      33,
+      153,
       52,
       58,
       0,
@@ -21240,7 +21240,7 @@
       61,
       53,
       74,
-      54
+      55
     ],
     "status": "active"
   },
@@ -26019,8 +26019,8 @@
     ],
     "recent_30d": [
       8,
-      9,
-      6,
+      10,
+      5,
       10,
       0,
       0,
@@ -50793,7 +50793,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4211,
-    "eps_365": 797,
+    "eps_365": 796,
     "eps_90": 256,
     "first_at": "2023-09-13",
     "first_year": 1402,
@@ -50867,8 +50867,8 @@
       100,
       116,
       39,
-      105,
-      3,
+      106,
+      2,
       0,
       8,
       60,
