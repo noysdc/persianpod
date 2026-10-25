@@ -30566,19 +30566,24 @@
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.7,
     "avg_length": 25,
-    "episodes": 21,
-    "eps_365": 21,
-    "eps_90": 21,
+    "episodes": 22,
+    "eps_365": 22,
+    "eps_90": 22,
     "first_at": "2026-10-10",
     "first_year": 1405,
     "last": "1405/08/03",
-    "last_at": "2026-10-25T11:25:53Z",
+    "last_at": "2026-10-25T12:30:00Z",
     "last_link": "https://furbodm.com/",
-    "last_title": "TRUMP ORGANIZATION | داستان بیست‌ویکم؛ سازمان ترامپ",
+    "last_title": "LABUBU | داستان بیست‌و‌دوم؛ لبوبو",
     "max_length": 38,
     "median_length": 24,
     "min_length": 15,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6added9b025813dc0c08dbf3/media.mp3",
+        "at": "2026-10-25T12:30:00Z",
+        "t": "LABUBU | داستان بیست‌و‌دوم؛ لبوبو"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adde741025813dc0c07134a/media.mp3",
         "at": "2026-10-25T11:25:53Z",
@@ -30613,14 +30618,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad5d009a2384a5721d5b6fc/media.mp3",
         "at": "2026-10-22T09:19:38Z",
         "t": "TESLA | داستان پانزدهم؛ ایلان ماسک؛ تسلا"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad46c210c6b30397b85ad21/media.mp3",
-        "at": "2026-10-22T09:19:28Z",
-        "t": "SPACEX | قسمت چهاردهم؛ ایلان ماسک؛ اسپیس ایکس"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-25T12:30:00Z",
+        "link": "https://furbodm.com/",
+        "title": "LABUBU | داستان بیست‌و‌دوم؛ لبوبو"
+      },
       {
         "at": "2026-10-25T11:25:53Z",
         "link": "https://furbodm.com/",
@@ -30630,11 +30635,6 @@
         "at": "2026-10-24T10:57:52Z",
         "link": "https://furbodm.com/",
         "title": "SPOTIFY | داستان بیستم؛ اسپاتیفای"
-      },
-      {
-        "at": "2026-10-23T11:33:20Z",
-        "link": "https://furbodm.com/",
-        "title": "SNAPCHAT | داستان نوزدهم؛ اسنپ‌چت"
       }
     ],
     "recent_30d": [
@@ -30649,7 +30649,7 @@
       0,
       0,
       0,
-      21
+      22
     ],
     "status": "active"
   },
