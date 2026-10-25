@@ -6950,19 +6950,24 @@
   "chh-hsi-dari-roanshnasi-khodshnasi": {
     "avg_gap_days": 1.0,
     "avg_length": 21,
-    "episodes": 87,
-    "eps_365": 87,
-    "eps_90": 87,
+    "episodes": 88,
+    "eps_365": 88,
+    "eps_90": 88,
     "first_at": "2026-07-29",
     "first_year": 1405,
-    "last": "1405/08/02",
-    "last_at": "2026-10-24T20:36:54Z",
-    "last_link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-5-ngrany--75968784",
-    "last_title": "غلبه بر افکار منفی مزاحم ۵ (نگرانی)",
+    "last": "1405/08/03",
+    "last_at": "2026-10-25T18:40:26Z",
+    "last_link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-6-ngrany--75978398",
+    "last_title": "غلبه بر افکار منفی مزاحم ۶ (نگرانی)",
     "max_length": 33,
     "median_length": 16,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75978398/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27yubxaz.mp3",
+        "at": "2026-10-25T18:40:26Z",
+        "t": "غلبه بر افکار منفی مزاحم ۶ (نگرانی)"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75968784/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27uubxaz.mp3",
         "at": "2026-10-24T20:36:54Z",
@@ -6997,14 +7002,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75846117/utf_8_b_2kjahtmhinin2ybbjni02krbjnmglm1wmw.mp3",
         "at": "2026-10-18T12:51:46Z",
         "t": "داستان کوتاه طنز|بچه انیشتین| دیوید سدرایس"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75845436/utf_8_b_2lpysdii2ltzvtiylm1wmw.mp3",
-        "at": "2026-10-18T11:09:11Z",
-        "t": "داستان کوتاه طنز| سرآشپز یا رئیست کیه؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-25T18:40:26Z",
+        "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-6-ngrany--75978398",
+        "title": "غلبه بر افکار منفی مزاحم ۶ (نگرانی)"
+      },
       {
         "at": "2026-10-24T20:36:54Z",
         "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-5-ngrany--75968784",
@@ -7014,11 +7019,6 @@
         "at": "2026-10-24T11:39:20Z",
         "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-4--75963190",
         "title": "غلبه بر افکار منفی مزاحم ۴"
-      },
-      {
-        "at": "2026-10-22T18:40:46Z",
-        "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-3--75925647",
-        "title": "غلبه بر افکار منفی مزاحم ۳"
       }
     ],
     "recent_30d": [
@@ -7033,7 +7033,7 @@
       0,
       39,
       18,
-      30
+      31
     ],
     "status": "active"
   },
@@ -20623,7 +20623,7 @@
     "avg_gap_days": 0.6,
     "avg_length": 20,
     "episodes": 619,
-    "eps_365": 606,
+    "eps_365": 605,
     "eps_90": 180,
     "first_at": "2025-10-22",
     "first_year": 1404,
