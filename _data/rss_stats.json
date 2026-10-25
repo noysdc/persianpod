@@ -30120,19 +30120,24 @@
   "podcast-astorh-shnasi-thot": {
     "avg_gap_days": 9.6,
     "avg_length": 47,
-    "episodes": 175,
-    "eps_365": 38,
-    "eps_90": 13,
+    "episodes": 176,
+    "eps_365": 39,
+    "eps_90": 14,
     "first_at": "2024-04-12",
     "first_year": 1403,
-    "last": "1405/07/26",
-    "last_at": "2026-10-18T16:07:16Z",
+    "last": "1405/08/03",
+    "last_at": "2026-10-25T13:10:42Z",
     "last_link": "https://thothpodcast.com/",
-    "last_title": "تاریخ جادوگری - قسمت پایانی - جادو در سینما",
+    "last_title": "اساطیر روم باستان - قسمت اول",
     "max_length": 90,
     "median_length": 39,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6addffd3296f30f8e3930c8b/media.mp3",
+        "at": "2026-10-25T13:10:42Z",
+        "t": "اساطیر روم باستان - قسمت اول"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6ad4eeb53243d006bba8fbc9/media.mp3",
         "at": "2026-10-18T16:07:16Z",
@@ -30167,14 +30172,14 @@
         "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6a847747a835875d37464c02/media.mp3",
         "at": "2026-08-19T08:00:00Z",
         "t": "تاریخ جادوگری - جادوی قرن جدید"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6a7de868ff328abd8427f729/media.mp3",
-        "at": "2026-08-16T08:00:00Z",
-        "t": "فصل پنجم - اساطیر هند - رامایانا : پیش بینی 3"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-25T13:10:42Z",
+        "link": "https://thothpodcast.com/",
+        "title": "اساطیر روم باستان - قسمت اول"
+      },
       {
         "at": "2026-10-18T16:07:16Z",
         "link": "https://thothpodcast.com/",
@@ -30184,11 +30189,6 @@
         "at": "2026-10-11T14:23:39Z",
         "link": "https://thothpodcast.com/",
         "title": "فصل پنجم - اساطیر هند - رامایانا : نجات 3"
-      },
-      {
-        "at": "2026-09-27T14:35:53Z",
-        "link": "https://thothpodcast.com/",
-        "title": "فصل پنجم - اساطیر هند - رامایانا : نجات 2"
       }
     ],
     "recent_30d": [
@@ -30203,7 +30203,7 @@
       3,
       7,
       3,
-      3
+      4
     ],
     "status": "active"
   },
@@ -46553,8 +46553,8 @@
       17,
       18,
       8,
-      21,
-      5,
+      22,
+      4,
       2,
       3,
       17,
