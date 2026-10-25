@@ -42271,8 +42271,8 @@
       14,
       6,
       13,
-      11,
-      13,
+      12,
+      12,
       11,
       12,
       12,
@@ -51240,20 +51240,25 @@
   },
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
-    "avg_length": 25,
-    "episodes": 397,
-    "eps_365": 258,
-    "eps_90": 114,
+    "avg_length": 24,
+    "episodes": 398,
+    "eps_365": 259,
+    "eps_90": 115,
     "first_at": "2024-08-22",
     "first_year": 1403,
     "last": "1405/08/03",
-    "last_at": "2026-10-25T04:30:00Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6ad342b0253c13a898594b64",
-    "last_title": "جادوگر سفید | اپیزود 12",
+    "last_at": "2026-10-25T08:10:31Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6addb978959e7ea69d010353",
+    "last_title": "مدیتیشن ۵ دقیقه‌ای | رهایی فوری از افکار مدیتیشن",
     "max_length": 99,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6addb978959e7ea69d010353/media.mp3",
+        "at": "2026-10-25T08:10:31Z",
+        "t": "مدیتیشن ۵ دقیقه‌ای | رهایی فوری از افکار مدیتیشن"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ad342b0253c13a898594b64/media.mp3",
         "at": "2026-10-25T04:30:00Z",
@@ -51288,14 +51293,14 @@
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6acb5fea29b9fbfbe21c8b5e/media.mp3",
         "at": "2026-10-19T02:30:00Z",
         "t": "مدیتیشن هاله قدرتمند | محافظت و درخشش انرژی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6acdfaefd3bfab176ea559fc/media.mp3",
-        "at": "2026-10-18T08:30:00Z",
-        "t": "مدیتیشن آرامش ذهن با صدای باران 🌧️| مدیتیشن"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-25T08:10:31Z",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6addb978959e7ea69d010353",
+        "title": "مدیتیشن ۵ دقیقه‌ای | رهایی فوری از افکار مدیتیشن"
+      },
       {
         "at": "2026-10-25T04:30:00Z",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6ad342b0253c13a898594b64",
@@ -51305,11 +51310,6 @@
         "at": "2026-10-24T06:31:40Z",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6adc50cc296f30f8e303cc6e",
         "title": "🍂 صبحی پاییزی در جنگلی مه‌آلود | موسیقی‌های قدیمی و دلنشین دیزنی | ملودی‌های نوستالژیک"
-      },
-      {
-        "at": "2026-10-23T08:06:05Z",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6adb156d70af2b1aa75cc547",
-        "title": "مدیتیشن تجسم رویاها | خلق آینده رویایی مدیتیشن"
       }
     ],
     "recent_30d": [
@@ -51324,7 +51324,7 @@
       12,
       37,
       41,
-      36
+      37
     ],
     "status": "active"
   },
