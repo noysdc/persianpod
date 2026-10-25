@@ -40851,21 +40851,26 @@
     "status": "active"
   },
   "radio-jamah-padkst-ajtmaai": {
-    "avg_gap_days": 9.4,
+    "avg_gap_days": 9.3,
     "avg_length": 11,
-    "episodes": 215,
-    "eps_365": 39,
-    "eps_90": 9,
+    "episodes": 216,
+    "eps_365": 40,
+    "eps_90": 10,
     "first_at": "2021-07-28",
     "first_year": 1400,
-    "last": "1405/07/26",
-    "last_at": "2026-10-18T07:37:57Z",
-    "last_link": "https://www.spreaker.com/episode/ps-az-hdwd-hsht-qrn-khwy-bh-nwr-bargah-shms-jlwh-ay-tazh-yaft--75843843",
-    "last_title": "پس از حدود هشت قرن، خوی به نور بارگاه شمس جلوه‌ای تازه یافت",
+    "last": "1405/08/03",
+    "last_at": "2026-10-25T07:16:40Z",
+    "last_link": "https://www.spreaker.com/episode/m-may-nam-drst-phnh-nyly-shmal-ayran-khzr-kaspy-ya-mazndran--75973006",
+    "last_title": "معمای نام درست پهنه نیلی شمال ایران؛ خزر، کاسپی یا مازندران؟",
     "max_length": 32,
     "median_length": 14,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75973006/utf_8_b_2lxyr9in24wg2b7yp9iviniu2llyss5tcdm.mp3",
+        "at": "2026-10-25T07:16:40Z",
+        "t": "معمای نام درست پهنه نیلی شمال ایران؛ خزر، کاسپی یا مازندران؟"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75843843/utf_8_b_2lxyr9in24wg2b7yp9iv2qnys9iqini02yxysy5tcdm.mp3",
         "at": "2026-10-18T07:37:57Z",
@@ -40900,14 +40905,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/73700196/utf_8_b_2lxyr9in24wg2b7yp9iv2qnys9iqinmf2ltysdmi2lfzhy5tcdm.mp3",
         "at": "2026-08-09T07:46:57Z",
         "t": "صدوبیستمین سالروز صدور فرمان مشروطیت؛ قانون در برابر قدرت بلامنازع شاه و شریعت"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/73333368/utf_8_b_2lxyr9in24wg2b7yp9iv2qnys9iqinmf2llyp9ix2ltysdum2yeubxaz.mp3",
-        "at": "2026-08-02T05:59:20Z",
-        "t": "مسجد کبود بلخ؛ از مزار شریف علی‌ابن ابیطالب تا راز «آرامگاه» زرتشت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-25T07:16:40Z",
+        "link": "https://www.spreaker.com/episode/m-may-nam-drst-phnh-nyly-shmal-ayran-khzr-kaspy-ya-mazndran--75973006",
+        "title": "معمای نام درست پهنه نیلی شمال ایران؛ خزر، کاسپی یا مازندران؟"
+      },
       {
         "at": "2026-10-18T07:37:57Z",
         "link": "https://www.spreaker.com/episode/ps-az-hdwd-hsht-qrn-khwy-bh-nwr-bargah-shms-jlwh-ay-tazh-yaft--75843843",
@@ -40917,11 +40922,6 @@
         "at": "2026-09-26T21:24:49Z",
         "link": "https://www.spreaker.com/episode/nawgan-hwayy-ayran-az-prwaz-mstqym-bh-nywywrk-ta-mmnw-yt-frwd-dr-frwdgah-hay-jhan--75385942",
         "title": "ناوگان هوایی ایران؛ از پرواز مستقیم به نیویورک تا ممنوعیت فرود در فرودگاه‌های جهان"
-      },
-      {
-        "at": "2026-09-20T05:39:25Z",
-        "link": "https://www.spreaker.com/episode/yk-qrn-fraz-w-nshyb-amwzsh-dr-ayran-az-dbstan-hay-raygan-w-ajbary-phlwy-ta-mdars-pwly-jmhwry-aslamy--75251769",
-        "title": "یک قرن فراز و نشیب آموزش در ایران؛ از دبستان‌های رایگان و اجباری پهلوی تا مدارس پولی جمهوری اسلامی"
       }
     ],
     "recent_30d": [
@@ -40936,7 +40936,7 @@
       3,
       4,
       3,
-      2
+      3
     ],
     "status": "active"
   },
@@ -42270,10 +42270,10 @@
       11,
       13,
       7,
-      12,
-      12,
-      12,
-      12,
+      13,
+      11,
+      13,
+      11,
       12,
       12,
       12
