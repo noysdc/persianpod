@@ -1,0 +1,229 @@
+{
+ "checked_at": "2026-10-25T08:05:41Z",
+ "podcasts": 595,
+ "probes": 1187,
+ "ok": 1165,
+ "kinds": {
+  "ok": 1165,
+  "forbidden": 6,
+  "network": 9,
+  "server-error": 7
+ },
+ "problems": {
+  "aapdit-ba-hsin": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "forbidden",
+     "code": 403,
+     "ct": "text/html",
+     "host": "www.buzzsprout.com",
+     "ep": "تسلا ماشین پرنده ساخت؟! هوش مصنوعی خطرناک شده، ناسا هم برنام"
+    },
+    {
+     "kind": "forbidden",
+     "code": 403,
+     "ct": "text/html",
+     "host": "www.buzzsprout.com",
+     "ep": "اقتصاد در عصر هوش مصنوعی؛ چه کسی برنده می‌شود؟"
+    }
+   ]
+  },
+  "akhbar-ghshm-baigani": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "network",
+     "host": "newsmedia.tasnimnews.com",
+     "ep": "آب شرب جی‌جیان دو ماه یک بار وصل می‌شود + صوت",
+     "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    }
+   ]
+  },
+  "ankobator": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "forbidden",
+     "code": 403,
+     "ct": "text/html",
+     "host": "dts.podtrac.com",
+     "ep": "Pulse and Perfusion series - part 4 - bedside echocardiograp"
+    },
+    {
+     "kind": "forbidden",
+     "code": 403,
+     "ct": "text/html",
+     "host": "dts.podtrac.com",
+     "ep": "#020 - PAS special episode - part 3"
+    }
+   ]
+  },
+  "baigani-ha-sda": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "server-error",
+     "code": 500,
+     "ct": "text/html",
+     "host": "musiceiranian.ir",
+     "ep": "با موسیقی و تنظیم «مسعود سخاوت»"
+    },
+    {
+     "kind": "server-error",
+     "code": 500,
+     "ct": "text/html",
+     "host": "musiceiranian.ir",
+     "ep": "از طریق سایت خبری و تحلیلی «موسیقی ایرانیان» آنلاین بشنوید و"
+    }
+   ]
+  },
+  "dastan-hai-tarikhi": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "network",
+     "host": "qajartime.com",
+     "ep": "قلم سرنوشت؛ پايانِ کار، ۲۵ از ۲۵ (پايان)",
+     "err": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+     "kind": "network",
+     "host": "qajartime.com",
+     "ep": "شکر تلخ؛ فصل پنجم – قسمت چهارم",
+     "err": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    }
+   ]
+  },
+  "frdai-aghtsad": {
+   "status": "partial",
+   "samples": [
+    {
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "بورس ارزان است؛ اما به چه قیمتی؟"
+    }
+   ]
+  },
+  "ismcast": {
+   "status": "partial",
+   "samples": [
+    {
+     "kind": "network",
+     "host": "player.rabt.space",
+     "ep": "سوسیالیسم",
+     "err": "TimeoutError: The read operation timed out"
+    }
+   ]
+  },
+  "kd-mofghit": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "forbidden",
+     "code": 403,
+     "ct": "text/html",
+     "host": "www.buzzsprout.com",
+     "ep": "🌿 راهنمای جامع آیاهواسکا  EP45"
+    },
+    {
+     "kind": "forbidden",
+     "code": 403,
+     "ct": "text/html",
+     "host": "www.buzzsprout.com",
+     "ep": "رشد و سلامت نوجوانان EP23"
+    }
+   ]
+  },
+  "laghri": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "network",
+     "host": "aliazad.ir",
+     "ep": "چطور پایان خوش برای زندگی مان رقم بزنیم",
+     "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 32-35: ordinal not i"
+    },
+    {
+     "kind": "network",
+     "host": "aliazad.ir",
+     "ep": "شاه کلید شناخت دیگران",
+     "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 32-34: ordinal not i"
+    }
+   ]
+  },
+  "mimmpodcast": {
+   "status": "partial",
+   "samples": [
+    {
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "اپیزود بیست و هشتم: خدا می‌داند کجا هستم"
+    }
+   ]
+  },
+  "podcast-farsi-fikshn-fiction-podcast": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "جنازه ای در چمدان"
+    },
+    {
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "خشن‌ترین قاتل جهان"
+    }
+   ]
+  },
+  "podcast-fotbali-fotbal-trapi": {
+   "status": "partial",
+   "samples": [
+    {
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "ذهن زیبا: قلب‌ها سرخ‌تر از همیشه"
+    }
+   ]
+  },
+  "radiodoor": {
+   "status": "partial",
+   "samples": [
+    {
+     "kind": "network",
+     "host": "player.rabt.space",
+     "ep": "قسمت بیست‌ونهم، شهرام و آدرینا _ ونکوور",
+     "err": "TimeoutError: The read operation timed out"
+    }
+   ]
+  },
+  "skhnrani-ha-mizgrdha-o-msahbh-hai-almi": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "network",
+     "host": "www.souzanchi.ir",
+     "ep": "ایمان و سبک زندگیِ یک منتظر حقیقی",
+     "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 32-36: ordinal not i"
+    },
+    {
+     "kind": "network",
+     "host": "www.souzanchi.ir",
+     "ep": "تحلیلی از گریه‌های حضرت فاطمه زهرا سلام الله علیها",
+     "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 32-37: ordinal not i"
+    }
+   ]
+  }
+ }
+}
