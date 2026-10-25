@@ -12522,10 +12522,10 @@
     "status": "active"
   },
   "fragftar": {
-    "avg_gap_days": 71.8,
+    "avg_gap_days": 75.0,
     "avg_length": 62,
     "episodes": 70,
-    "eps_365": 6,
+    "eps_365": 5,
     "eps_90": 3,
     "first_at": "2020-01-01",
     "first_year": 1398,
@@ -50867,8 +50867,8 @@
       100,
       116,
       39,
-      107,
-      1,
+      108,
+      0,
       0,
       8,
       60,
