@@ -16,8 +16,8 @@ pi_id: 2459143
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Ba Man Varagh Bezan با من ورق بزن

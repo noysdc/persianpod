@@ -18,8 +18,8 @@ pi_id: 1164839
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # کودکانه‌های راوی گنبد کبود

@@ -17,8 +17,8 @@ pi_id: 1223125
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # به وقت کودکان روستا(قصه،توپ،رنگ)

@@ -17,8 +17,8 @@ pi_id: 7453134
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # کتاب  خانه دایی یوسف
