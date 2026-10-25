@@ -5231,8 +5231,8 @@
       }
     ],
     "recent_30d": [
-      2,
       3,
+      2,
       0,
       1,
       0,
@@ -35309,20 +35309,25 @@
   },
   "podcast-khrghh": {
     "avg_gap_days": 8.1,
-    "avg_length": 35,
-    "episodes": 131,
-    "eps_365": 45,
-    "eps_90": 18,
+    "avg_length": 34,
+    "episodes": 132,
+    "eps_365": 46,
+    "eps_90": 19,
     "first_at": "2019-12-09",
     "first_year": 1398,
-    "last": "1405/07/27",
-    "last_at": "2026-10-19T14:50:00Z",
-    "last_link": "https://dotcast.org/p/7nmh50se/t6451cdfch/",
-    "last_title": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وششم",
+    "last": "1405/08/03",
+    "last_at": "2026-10-25T15:30:00Z",
+    "last_link": "https://dotcast.org/p/7nmh50se/mxk5mgn2er/",
+    "last_title": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وهفتم",
     "max_length": 110,
     "median_length": 33,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/7nmh50se/mxk5mgn2er/2026-10-25-13-52-53.mp3",
+        "at": "2026-10-25T15:30:00Z",
+        "t": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وهفتم"
+      },
       {
         "a": "https://feed.dotcast.org/e/7nmh50se/t6451cdfch/2026-10-19-14-59-21.mp3",
         "at": "2026-10-19T14:50:00Z",
@@ -35357,14 +35362,14 @@
         "a": "https://feed.dotcast.org/e/7nmh50se/ymjg1gptbi/2026-09-17-16-05-26.mp3",
         "at": "2026-09-17T16:00:00Z",
         "t": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌ویکم"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/7nmh50se/olcu6k259w/2026-09-14-17-04-04.mp3",
-        "at": "2026-09-14T16:50:00Z",
-        "t": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌ام"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-25T15:30:00Z",
+        "link": "https://dotcast.org/p/7nmh50se/mxk5mgn2er/",
+        "title": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وهفتم"
+      },
       {
         "at": "2026-10-19T14:50:00Z",
         "link": "https://dotcast.org/p/7nmh50se/t6451cdfch/",
@@ -35374,11 +35379,6 @@
         "at": "2026-10-12T14:30:00Z",
         "link": "https://dotcast.org/p/7nmh50se/dzs5ismec5/",
         "title": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وپنجم"
-      },
-      {
-        "at": "2026-10-04T16:30:00Z",
-        "link": "https://dotcast.org/p/7nmh50se/6r78f9gjq0/",
-        "title": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وچهارم"
       }
     ],
     "recent_30d": [
@@ -35393,7 +35393,7 @@
       7,
       8,
       5,
-      5
+      6
     ],
     "status": "active"
   },
@@ -46745,21 +46745,26 @@
     "status": "inactive"
   },
   "shar-kst": {
-    "avg_gap_days": 11.9,
+    "avg_gap_days": 11.5,
     "avg_length": 6,
-    "episodes": 167,
-    "eps_365": 30,
-    "eps_90": 26,
+    "episodes": 168,
+    "eps_365": 31,
+    "eps_90": 27,
     "first_at": "2022-05-04",
     "first_year": 1401,
-    "last": "1405/08/02",
-    "last_at": "2026-10-24T16:36:00Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/13ae72dc-9f75-4b4b-9096-a3fd2d20004d/play.mp3",
-    "last_title": "صد و شصت و شش - جسُتنِ جام جم: خیام",
+    "last": "1405/08/03",
+    "last_at": "2026-10-25T04:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/23cc2f37-ed0f-44f9-bffa-8368b899b642/play.mp3",
+    "last_title": "صد و شصت و هفت - چهار و هفت: خیام",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/23cc2f37-ed0f-44f9-bffa-8368b899b642/play.mp3",
+        "at": "2026-10-25T04:30:00Z",
+        "t": "صد و شصت و هفت - چهار و هفت: خیام"
+      },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/13ae72dc-9f75-4b4b-9096-a3fd2d20004d/play.mp3",
         "at": "2026-10-24T16:36:00Z",
@@ -46794,14 +46799,14 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/81dc1d7c-cb5e-40a2-a07a-019639e128aa/play.mp3",
         "at": "2026-10-22T16:33:00Z",
         "t": "صد و شصت - سهیلِ یمنی: رودکی"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/e2ffc6ab-f852-4b87-b19b-d6fd122f9edc/play.mp3",
-        "at": "2026-10-22T16:31:00Z",
-        "t": "صد و پنجاه و نه – شیر و پلنگ: منسوب به ابوسعید ابوالخیر"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-25T04:30:00Z",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/23cc2f37-ed0f-44f9-bffa-8368b899b642/play.mp3",
+        "title": "صد و شصت و هفت - چهار و هفت: خیام"
+      },
       {
         "at": "2026-10-24T16:36:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/13ae72dc-9f75-4b4b-9096-a3fd2d20004d/play.mp3",
@@ -46811,11 +46816,6 @@
         "at": "2026-10-24T16:35:57Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/d1989956-9abc-44cd-8749-87739213b316/play.mp3",
         "title": "صد و شصت و پنج - کارگهِ کوزه‌گر: خیام"
-      },
-      {
-        "at": "2026-10-24T16:30:00Z",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/51f421cd-4d18-40a6-b37e-991016006174/play.mp3",
-        "title": "صد و شصت و چهار - صحرای علل: خیام"
       }
     ],
     "recent_30d": [
@@ -46830,7 +46830,7 @@
       1,
       2,
       0,
-      24
+      25
     ],
     "status": "active"
   },
