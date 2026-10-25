@@ -12703,21 +12703,26 @@
     "status": "active"
   },
   "frmol-1-farsi": {
-    "avg_gap_days": 14.3,
+    "avg_gap_days": 14.2,
     "avg_length": 39,
-    "episodes": 119,
-    "eps_365": 25,
-    "eps_90": 10,
+    "episodes": 120,
+    "eps_365": 26,
+    "eps_90": 11,
     "first_at": "2022-04-04",
     "first_year": 1401,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T04:04:00Z",
-    "last_link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/skv34x66psv",
-    "last_title": "🇸🇬🏁 سنگاپور؛ فراری باز هم خودش را شکست داد؟",
+    "last": "1405/08/03",
+    "last_at": "2026-10-25T18:25:00Z",
+    "last_link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/-f1",
+    "last_title": "🤖 فرمول یک بدون راننده؟! | ماشین‌های خودران F1  و بررسی تمرین‌ها و کوالیفایینگ آستین ۲۰۲۶ با حسام 🇺🇸",
     "max_length": 77,
     "median_length": 36,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/Austin.mp3?dest-id=3386261",
+        "at": "2026-10-25T18:25:00Z",
+        "t": "🤖 فرمول یک بدون راننده؟! | ماشین‌های خودران F1  و بررسی تمرین‌ها و کوالیفایینگ آستین ۲۰۲۶ با حسام 🇺🇸"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/Audio.mp3?dest-id=3386261",
         "at": "2026-10-14T04:04:00Z",
@@ -12752,14 +12757,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/08281.mp3?dest-id=3386261",
         "at": "2026-09-11T02:25:00Z",
         "t": "مونزا ۲۰۲۶؛ تیفوسی‌ها به فراری پشت کردند؟ | ظهور باورنکردنی کیمی از ۱۹ به ۱"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/0828.mp3?dest-id=3386261",
-        "at": "2026-08-29T01:22:00Z",
-        "t": "زاندورت ۲۰۲۶؛ آیا ورق برگشته؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-25T18:25:00Z",
+        "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/-f1",
+        "title": "🤖 فرمول یک بدون راننده؟! | ماشین‌های خودران F1  و بررسی تمرین‌ها و کوالیفایینگ آستین ۲۰۲۶ با حسام 🇺🇸"
+      },
       {
         "at": "2026-10-14T04:04:00Z",
         "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/skv34x66psv",
@@ -12769,11 +12774,6 @@
         "at": "2026-10-10T22:04:00Z",
         "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/rqgkhcj51v77",
         "title": "🏁 سنگاپور ۲۰۲۶؛ برای اولین بار با حسام! | بررسی تمرین‌ها، اسپرینت و کوالیفایینگ‌های فرمول ۱ 🇸🇬"
-      },
-      {
-        "at": "2026-10-07T18:03:00Z",
-        "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/cz307mq6khli",
-        "title": "گرندپری مالزی ۲۰۲۶؛ مسابقه‌ای که همه‌چیز را به‌هم ریخت! 🇲🇾🔥 | فرمول ۱ فارسی"
       }
     ],
     "recent_30d": [
@@ -12788,7 +12788,7 @@
       3,
       2,
       3,
-      5
+      6
     ],
     "status": "active"
   },
@@ -20622,23 +20622,28 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 20,
-    "episodes": 618,
-    "eps_365": 605,
+    "episodes": 619,
+    "eps_365": 606,
     "eps_90": 180,
     "first_at": "2025-10-22",
     "first_year": 1404,
-    "last": "1405/08/01",
-    "last_at": "2026-10-23T18:10:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6adb3c552ae01c30d9599dab",
-    "last_title": "سالگرد - قتل های زنجیره ای - بخش ششم",
+    "last": "1405/08/03",
+    "last_at": "2026-10-25T18:27:44Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6ade4a1fd39b76001fc0802e",
+    "last_title": "سالگرد - قتل های زنجیره ای - بخش سیزدهم",
     "max_length": 44,
     "median_length": 16,
     "min_length": 2,
     "play": [
       {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ade4a1fd39b76001fc0802e/media.mp3",
+        "at": "2026-10-25T18:27:44Z",
+        "t": "سالگرد - قتل های زنجیره ای - بخش سیزدهم"
+      },
+      {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6adb3c552ae01c30d9599dab/media.mp3",
         "at": "2026-10-23T18:10:00Z",
-        "t": "سالگرد - قتل های زنجیره ای - بخش ششم"
+        "t": "سالگرد - قتل های زنجیره ای - بخش دواردهم"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6adb3bdab4643bca15016333/media.mp3",
@@ -20669,28 +20674,23 @@
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ad50e083243d006bbb4580f/media.mp3",
         "at": "2026-10-20T16:34:00Z",
         "t": "سالگرد - قتل های زنجیره ای - بخش ششم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ad50de63243d006bbb44e9d/media.mp3",
-        "at": "2026-10-19T18:20:00Z",
-        "t": "سالگرد - قتل های زنجیره ای - بخش پنجم"
       }
     ],
     "recent": [
       {
+        "at": "2026-10-25T18:27:44Z",
+        "link": "https://shows.acast.com/statusmarried/episodes/6ade4a1fd39b76001fc0802e",
+        "title": "سالگرد - قتل های زنجیره ای - بخش سیزدهم"
+      },
+      {
         "at": "2026-10-23T18:10:00Z",
         "link": "https://shows.acast.com/statusmarried/episodes/6adb3c552ae01c30d9599dab",
-        "title": "سالگرد - قتل های زنجیره ای - بخش ششم"
+        "title": "سالگرد - قتل های زنجیره ای - بخش دواردهم"
       },
       {
         "at": "2026-10-23T17:43:00Z",
         "link": "https://shows.acast.com/statusmarried/episodes/6adb3bdab4643bca15016333",
         "title": "سالگرد - قتل های زنجیره ای - بخش یازدهم"
-      },
-      {
-        "at": "2026-10-23T16:30:00Z",
-        "link": "https://shows.acast.com/statusmarried/episodes/6adb396b85adacac7d4be3d7",
-        "title": "سالگرد - قتل های زنجیره ای - بخش دهم"
       }
     ],
     "recent_30d": [
@@ -20702,10 +20702,10 @@
       0,
       0,
       52,
-      62,
-      54,
+      63,
+      53,
       74,
-      52
+      53
     ],
     "status": "active"
   },
@@ -35848,21 +35848,26 @@
     "status": "active"
   },
   "podcast-mosighi-rah-gosh": {
-    "avg_gap_days": 4.3,
+    "avg_gap_days": 4.4,
     "avg_length": 69,
-    "episodes": 50,
-    "eps_365": 7,
-    "eps_90": 7,
+    "episodes": 51,
+    "eps_365": 8,
+    "eps_90": 8,
     "first_at": "2022-05-10",
     "first_year": 1401,
-    "last": "1405/07/28",
-    "last_at": "2026-10-20T18:30:00Z",
-    "last_link": "https://youtu.be/poNQlDKQ3k0",
-    "last_title": "نقدهایِ بدن‌مند در موسیقی ایران",
+    "last": "1405/08/03",
+    "last_at": "2026-10-25T18:30:00Z",
+    "last_link": "https://youtu.be/g5Gwu1vXxTw",
+    "last_title": "نسل زِد موزیسین ایرانی؛ گفت‌وگو با با پرنیان پارسایی (خواننده و قانون‌نواز) و النا بنائی (تارنواز)",
     "max_length": 145,
-    "median_length": 63,
+    "median_length": 62,
     "min_length": 29,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6adc7550959e7ea69d97ee04/media.mp3",
+        "at": "2026-10-25T18:30:00Z",
+        "t": "نسل زِد موزیسین ایرانی؛ گفت‌وگو با با پرنیان پارسایی (خواننده و قانون‌نواز) و النا بنائی (تارنواز)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6ad331218f34078889f0ab7c/media.mp3",
         "at": "2026-10-20T18:30:00Z",
@@ -35897,14 +35902,14 @@
         "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6ab2d2e7f98781f91d8b1b87/media.mp3",
         "at": "2026-09-24T17:30:00Z",
         "t": "استندآپ گِله؛ مهدی سیدی‌نژاد"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/68dab32c5c5c4b72e22bdb0a/media.mp3",
-        "at": "2025-09-29T15:43:24Z",
-        "t": "نقد و بررسیِ اثری از علی قمصری"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-25T18:30:00Z",
+        "link": "https://youtu.be/g5Gwu1vXxTw",
+        "title": "نسل زِد موزیسین ایرانی؛ گفت‌وگو با با پرنیان پارسایی (خواننده و قانون‌نواز) و النا بنائی (تارنواز)"
+      },
       {
         "at": "2026-10-20T18:30:00Z",
         "link": "https://youtu.be/poNQlDKQ3k0",
@@ -35914,11 +35919,6 @@
         "at": "2026-10-18T18:30:00Z",
         "link": "https://youtu.be/avxAC795a2s",
         "title": "استندآپ گِله؛ محبوبه شوریده"
-      },
-      {
-        "at": "2026-10-13T18:30:00Z",
-        "link": "https://youtu.be/cdCN70Tm4NU",
-        "title": "استندآپ گِله؛ شیما شاه‌محمدی"
       }
     ],
     "recent_30d": [
@@ -35933,7 +35933,7 @@
       0,
       0,
       1,
-      6
+      7
     ],
     "status": "active"
   },
@@ -49990,7 +49990,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4211,
-    "eps_365": 800,
+    "eps_365": 799,
     "eps_90": 256,
     "first_at": "2023-09-13",
     "first_year": 1402,
@@ -50061,8 +50061,8 @@
       }
     ],
     "recent_30d": [
-      97,
-      119,
+      98,
+      118,
       39,
       104,
       4,
@@ -51323,8 +51323,8 @@
       7,
       13,
       36,
-      41,
-      38
+      42,
+      37
     ],
     "status": "active"
   },
@@ -51770,8 +51770,8 @@
       0,
       0,
       0,
-      19,
-      24,
+      20,
+      23,
       0
     ],
     "status": "active"
