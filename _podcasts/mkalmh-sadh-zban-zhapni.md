@@ -18,8 +18,8 @@ pi_id: 1189814
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # مکالمه ساده زبان ژاپنی
