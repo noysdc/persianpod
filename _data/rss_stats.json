@@ -6679,19 +6679,24 @@
   "brnamh-hai-roanshnasi-persianbms": {
     "avg_gap_days": 7.0,
     "avg_length": 17,
-    "episodes": 21,
-    "eps_365": 21,
-    "eps_90": 12,
+    "episodes": 22,
+    "eps_365": 22,
+    "eps_90": 13,
     "first_at": "2026-06-01",
     "first_year": 1405,
-    "last": "1405/07/27",
-    "last_at": "2026-10-19T05:30:00Z",
-    "last_link": "https://share.transistor.fm/s/53d1c712",
-    "last_title": "راهی هست: ۳. چگونه با فردی که به خودکشی فکر می‌کند رفتار کنیم؟",
+    "last": "1405/08/04",
+    "last_at": "2026-10-26T05:30:00Z",
+    "last_link": "https://share.transistor.fm/s/60d01559",
+    "last_title": "راهی هست: ۴. خانواده، سپری در برابر خودکشی",
     "max_length": 26,
-    "median_length": 21,
+    "median_length": 20,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://media.transistor.fm/60d01559/a0161274.mp3",
+        "at": "2026-10-26T05:30:00Z",
+        "t": "راهی هست: ۴. خانواده، سپری در برابر خودکشی"
+      },
       {
         "a": "https://media.transistor.fm/53d1c712/bd97bcff.mp3",
         "at": "2026-10-19T05:30:00Z",
@@ -6726,14 +6731,14 @@
         "a": "https://media.transistor.fm/2f8cc221/848f693d.mp3",
         "at": "2026-09-07T12:30:00Z",
         "t": "اتاق آبی: ۹. موفقیت چطور تعریف می‌شود؟"
-      },
-      {
-        "a": "https://media.transistor.fm/8df256f5/ab48679d.mp3",
-        "at": "2026-08-31T12:30:00Z",
-        "t": "اتاق آبی: ۸. چطور دستیابی به تعادل در زندگی می‌تواند به خوشبختی منجر شود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-26T05:30:00Z",
+        "link": "https://share.transistor.fm/s/60d01559",
+        "title": "راهی هست: ۴. خانواده، سپری در برابر خودکشی"
+      },
       {
         "at": "2026-10-19T05:30:00Z",
         "link": "https://share.transistor.fm/s/53d1c712",
@@ -6743,11 +6748,6 @@
         "at": "2026-10-12T05:30:00Z",
         "link": "https://share.transistor.fm/s/94d6b347",
         "title": "راهی هست: ۲. عوامل شکل‌گیری گرایش به خودکشی"
-      },
-      {
-        "at": "2026-10-05T05:30:00Z",
-        "link": "https://share.transistor.fm/s/0c4cef86",
-        "title": "راهی هست: ۱. چه‌قدر تنها بودی تو این همه فشار"
       }
     ],
     "recent_30d": [
@@ -6762,7 +6762,7 @@
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   },
@@ -18567,7 +18567,7 @@
     "avg_length": 13,
     "episodes": 323,
     "eps_365": 14,
-    "eps_90": 4,
+    "eps_90": 0,
     "first_at": "2021-08-29",
     "first_year": 1400,
     "last": "1405/05/06",
@@ -18645,8 +18645,8 @@
       0,
       0,
       9,
-      1,
-      4,
+      5,
+      0,
       0,
       0
     ],
