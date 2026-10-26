@@ -44958,8 +44958,8 @@
   },
   "radioeshgh-radio-ashgh": {
     "avg_gap_days": 111.0,
-    "avg_length": 75,
-    "episodes": 46,
+    "avg_length": 74,
+    "episodes": 47,
     "eps_365": 3,
     "eps_90": 1,
     "first_at": "2020-05-01",
@@ -48795,19 +48795,24 @@
   "shar-ba-sdai-shaar": {
     "avg_gap_days": 2.5,
     "avg_length": 4,
-    "episodes": 346,
+    "episodes": 347,
     "eps_365": 145,
     "eps_90": 36,
     "first_at": "2025-01-23",
     "first_year": 1403,
-    "last": "1405/08/01",
-    "last_at": "2026-10-23T19:30:00Z",
-    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c190d295fc6e848977def",
-    "last_title": "بیژن الهی | آزادی و تو",
+    "last": "1405/08/04",
+    "last_at": "2026-10-26T19:30:00Z",
+    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c1cd4295fc6e848984d54",
+    "last_title": "حسین پناهی | سه شعر کوتاه (با صدای شاعر)",
     "max_length": 44,
     "median_length": 4,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c1cd4295fc6e848984d54/media.mp3",
+        "at": "2026-10-26T19:30:00Z",
+        "t": "حسین پناهی | سه شعر کوتاه (با صدای شاعر)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c190d295fc6e848977def/media.mp3",
         "at": "2026-10-23T19:30:00Z",
@@ -48842,14 +48847,14 @@
         "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c1aaab958098159a3aa9a/media.mp3",
         "at": "2026-10-01T19:30:00Z",
         "t": "نصرت رحمانی | میعاد در لجن"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/69146338a17ebcde88ea71e4/media.mp3",
-        "at": "2026-09-28T19:30:00Z",
-        "t": "شهریار | ای وای مادرم | دکلمه ساعد باقری"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-26T19:30:00Z",
+        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1cd4295fc6e848984d54",
+        "title": "حسین پناهی | سه شعر کوتاه (با صدای شاعر)"
+      },
       {
         "at": "2026-10-23T19:30:00Z",
         "link": "https://shows.acast.com/sedaye-shaer/episodes/691c190d295fc6e848977def",
@@ -48859,26 +48864,21 @@
         "at": "2026-10-20T19:30:00Z",
         "link": "https://shows.acast.com/sedaye-shaer/episodes/691c160b589629f7d6af756a",
         "title": "نیما یوشیج | در فروبند"
-      },
-      {
-        "at": "2026-10-17T19:30:00Z",
-        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1bb4589629f7d6b0c659",
-        "title": "مشفق کاشانی | نمی‌دانم کیم"
       }
     ],
     "recent_30d": [
-      17,
-      19,
+      18,
+      18,
       10,
       20,
       3,
       2,
       4,
       17,
-      14,
+      15,
       16,
-      12,
-      8
+      11,
+      9
     ],
     "status": "active"
   },
@@ -51770,7 +51770,7 @@
   "t-me-radioshereparsi-radio-shar-parsi": {
     "avg_gap_days": 2.7,
     "avg_length": 154,
-    "episodes": 406,
+    "episodes": 407,
     "eps_365": 40,
     "eps_90": 16,
     "first_at": "2020-03-27",
@@ -52397,7 +52397,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4215,
-    "eps_365": 797,
+    "eps_365": 796,
     "eps_90": 256,
     "first_at": "2023-09-13",
     "first_year": 1402,
@@ -52662,26 +52662,21 @@
     "status": "inactive"
   },
   "tarikh-hnr-khfn": {
-    "avg_gap_days": 21.4,
-    "avg_length": 61,
-    "episodes": 66,
-    "eps_365": 18,
-    "eps_90": 5,
+    "avg_gap_days": 21.3,
+    "avg_length": 62,
+    "episodes": 65,
+    "eps_365": 17,
+    "eps_90": 4,
     "first_at": "2024-06-17",
     "first_year": 1403,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T14:23:47Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/ep-e3r4877",
-    "last_title": "فصل سوم، مقدمه",
+    "last": "1405/07/12",
+    "last_at": "2026-10-04T17:18:04Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/--e3psehi",
+    "last_title": "انسان خردمند - قسمت دوم",
     "max_length": 87,
     "median_length": 59,
     "min_length": 6,
     "play": [
-      {
-        "a": "https://anchor.fm/s/f7bbd8dc/podcast/play/128114343/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-26%2Fd35c03bd-e3cf-19f9-7972-e5db1b6f1c7d.mp3",
-        "at": "2026-10-26T14:23:47Z",
-        "t": "فصل سوم، مقدمه"
-      },
       {
         "a": "https://anchor.fm/s/f7bbd8dc/podcast/play/126810098/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-4%2F1e84507c-2578-223a-5de9-29d9853aab03.mp3",
         "at": "2026-10-04T17:18:04Z",
@@ -52716,14 +52711,14 @@
         "a": "https://anchor.fm/s/f7bbd8dc/podcast/play/121160993/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-8%2F7add93b5-3cf1-fc4b-53a5-79201c3ff1fb.mp3",
         "at": "2026-06-08T15:43:08Z",
         "t": "پارینه سنگی قدیم در ایران"
+      },
+      {
+        "a": "https://anchor.fm/s/f7bbd8dc/podcast/play/121094329/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-6%2Fda015474-9d65-5e67-1f03-b39b11a2958c.mp3",
+        "at": "2026-06-06T17:14:08Z",
+        "t": "پس از ۱۰۴ روز سکوت، بازگشت دوباره"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-26T14:23:47Z",
-        "link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/ep-e3r4877",
-        "title": "فصل سوم، مقدمه"
-      },
       {
         "at": "2026-10-04T17:18:04Z",
         "link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/--e3psehi",
@@ -52733,6 +52728,11 @@
         "at": "2026-09-21T12:24:48Z",
         "link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/--e3p6381",
         "title": "انسان خردمند - قسمت اول"
+      },
+      {
+        "at": "2026-09-03T11:46:16Z",
+        "link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/ep-e3o9md7",
+        "title": "انسان نئاندرتال: دو انسان، یک میراث"
       }
     ],
     "recent_30d": [
@@ -52747,7 +52747,7 @@
       1,
       1,
       2,
-      2
+      1
     ],
     "status": "active"
   },
