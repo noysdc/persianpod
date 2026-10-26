@@ -1980,21 +1980,26 @@
     "status": "active"
   },
   "aaroyh-srpasi": {
-    "avg_gap_days": 1.3,
+    "avg_gap_days": 1.4,
     "avg_length": 7,
-    "episodes": 81,
-    "eps_365": 81,
-    "eps_90": 58,
+    "episodes": 82,
+    "eps_365": 82,
+    "eps_90": 59,
     "first_at": "2026-07-06",
     "first_year": 1405,
-    "last": "1405/07/25",
-    "last_at": "2026-10-17T14:01:02Z",
-    "last_link": "https://www.spreaker.com/episode/nqth-y-bazgsht-apyzwd-4--75837747",
-    "last_title": "نقطه‌ی بازگشت | اپیزود 4",
-    "max_length": 10,
+    "last": "1405/08/04",
+    "last_at": "2026-10-26T19:47:07Z",
+    "last_link": "https://www.spreaker.com/episode/padkst-zndgy-antkhab-shdh-zndgyt-rw-az-nw-antkhab-kn--76008849",
+    "last_title": "پادکست زندگی انتخاب‌شده | زندگیت رو از نو انتخاب کن",
+    "max_length": 23,
     "median_length": 7,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76008849/810d254ab3bafc17b8c5f92391.mp3",
+        "at": "2026-10-26T19:47:07Z",
+        "t": "پادکست زندگی انتخاب‌شده | زندگیت رو از نو انتخاب کن"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75837747/7aae04468fae6095665275d596.mp3",
         "at": "2026-10-17T14:01:02Z",
@@ -2029,14 +2034,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75458312/ffd384482da63182e80ecde125.mp3",
         "at": "2026-09-28T12:29:00Z",
         "t": "موفقیت اشتباه | قفس طلایی؛ وقتی همه می‌گن خوش به حالت"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75458275/3bf4124cd3a4cc2bb097d7385f.mp3",
-        "at": "2026-09-26T10:26:00Z",
-        "t": "موفقیت اشتباه | وقتی رسیدن، پایان خوش نبود"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-26T19:47:07Z",
+        "link": "https://www.spreaker.com/episode/padkst-zndgy-antkhab-shdh-zndgyt-rw-az-nw-antkhab-kn--76008849",
+        "title": "پادکست زندگی انتخاب‌شده | زندگیت رو از نو انتخاب کن"
+      },
       {
         "at": "2026-10-17T14:01:02Z",
         "link": "https://www.spreaker.com/episode/nqth-y-bazgsht-apyzwd-4--75837747",
@@ -2046,11 +2051,6 @@
         "at": "2026-10-16T13:58:54Z",
         "link": "https://www.spreaker.com/episode/nqth-y-bazgsht-apyzwd-3--75826254",
         "title": "نقطه‌ی بازگشت | اپیزود 3"
-      },
-      {
-        "at": "2026-10-15T13:46:56Z",
-        "link": "https://www.spreaker.com/episode/nqth-y-bazgsht-apyzwd-2--75808263",
-        "title": "نقطه‌ی بازگشت | اپیزود 2"
       }
     ],
     "recent_30d": [
@@ -2065,7 +2065,7 @@
       23,
       32,
       19,
-      7
+      8
     ],
     "status": "active"
   },
@@ -53650,16 +53650,21 @@
     "episodes": 600,
     "eps_365": 261,
     "eps_90": 64,
-    "first_at": "2024-07-08",
+    "first_at": "2024-07-09",
     "first_year": 1403,
-    "last": "1405/08/03",
-    "last_at": "2026-10-25T20:30:00Z",
-    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-1314-mLpGhXwY",
-    "last_title": "مکاشفه ۲۰: ۱۱ تا ۱۵",
+    "last": "1405/08/04",
+    "last_at": "2026-10-26T20:30:00Z",
+    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-1315-BCAmZP7A",
+    "last_title": "مکاشفه ۲۱: ۱ تا ۶",
     "max_length": 32,
     "median_length": 28,
     "min_length": 24,
     "play": [
+      {
+        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/76787380-ef0e-4220-9da5-5125d306beff/group-item/eeeb7e17-278c-4695-8ccd-8c1679a269ba/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
+        "at": "2026-10-26T20:30:00Z",
+        "t": "مکاشفه ۲۱: ۱ تا ۶"
+      },
       {
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/3c5e1ef5-8900-4632-ae75-083a30fb6832/group-item/3c115335-7fcf-48ae-b61c-15eb02707fc2/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-10-25T20:30:00Z",
@@ -53694,14 +53699,14 @@
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/d28caaaf-4a0b-461d-b346-f2c81d25a2a9/group-item/3704d3e9-5c3e-4688-9a38-a5d055e0ef48/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-10-15T20:30:00Z",
         "t": "مکاشفه ۱۸: ۹ تا ۲۴"
-      },
-      {
-        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/34f65ffc-e2b8-4354-86ba-322fa38d3e2b/group-item/f49a523f-9c9b-4025-86eb-8287ab7650e7/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
-        "at": "2026-10-14T20:30:00Z",
-        "t": "مکاشفه ۱۸: ۱ تا ۸"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-26T20:30:00Z",
+        "link": "https://tmm-khtb.simplecast.com/episodes/tk-1315-BCAmZP7A",
+        "title": "مکاشفه ۲۱: ۱ تا ۶"
+      },
       {
         "at": "2026-10-25T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-1314-mLpGhXwY",
@@ -53711,18 +53716,9 @@
         "at": "2026-10-22T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-1313-2NKobpVh",
         "title": "مکاشفه ۲۰: ۷ تا ۱۰"
-      },
-      {
-        "at": "2026-10-21T20:30:00Z",
-        "link": "https://tmm-khtb.simplecast.com/episodes/tk-1312-wOrFLOdP",
-        "title": "مکاشفه ۲۰: ۱ تا ۶"
       }
     ],
     "recent_30d": [
-      20,
-      22,
-      22,
-      21,
       21,
       22,
       22,
@@ -53730,7 +53726,11 @@
       22,
       22,
       21,
-      21
+      21,
+      22,
+      22,
+      20,
+      22
     ],
     "status": "active"
   },
@@ -53814,8 +53814,8 @@
       11,
       39,
       0,
-      2,
-      15,
+      3,
+      14,
       8,
       12,
       39,
@@ -54277,7 +54277,7 @@
     "avg_length": 37,
     "episodes": 170,
     "eps_365": 46,
-    "eps_90": 15,
+    "eps_90": 14,
     "first_at": "2025-02-02",
     "first_year": 1403,
     "last": "1405/07/28",
@@ -54355,8 +54355,8 @@
       2,
       4,
       4,
-      4,
-      3,
+      5,
+      2,
       7,
       5
     ],
