@@ -37898,8 +37898,8 @@
       4,
       4,
       3,
-      1,
-      3,
+      2,
+      2,
       1
     ],
     "status": "active"
@@ -46023,21 +46023,26 @@
     "status": "active"
   },
   "sdai-slamt": {
-    "avg_gap_days": 12.6,
+    "avg_gap_days": 12.4,
     "avg_length": 14,
-    "episodes": 101,
-    "eps_365": 26,
-    "eps_90": 16,
+    "episodes": 102,
+    "eps_365": 27,
+    "eps_90": 17,
     "first_at": "2023-02-04",
     "first_year": 1401,
-    "last": "1405/07/27",
-    "last_at": "2026-10-19T06:17:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/visiting-a-psychoanalyst-where-to-start-and-what-to-expect/fl8ydj8u4",
-    "last_title": "مراجعه به روان‌کاو؛ از کجا شروع کنیم؟ و چه انتظاراتی داشته باشیم؟",
+    "last": "1405/08/04",
+    "last_at": "2026-10-26T04:41:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/gambling-addiction-where-to-get-help/xvea1azje",
+    "last_title": "«پناه» به قمار؛ علائم اعتیاد چیست؟ و از کجا کمک بگیریم؟",
     "max_length": 37,
     "median_length": 9,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20261026154136_249527-persian-da933379-4d9f-4049-a7df-e19c0b934aae.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a1-762c-d7ec-a7e3-7eece5ff0000&dur_cat=3",
+        "at": "2026-10-26T04:41:00Z",
+        "t": "«پناه» به قمار؛ علائم اعتیاد چیست؟ و از کجا کمک بگیریم؟"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20261019171754_387137-persian-ee983939-dfd4-44d9-9c0b-d88ffdc37cda.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a1-52a5-d2b3-adad-73bd13630000&dur_cat=4",
         "at": "2026-10-19T06:17:00Z",
@@ -46072,14 +46077,14 @@
         "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20260909173013_174299-persian-43536905-13f1-4a72-a9ac-a91fc0cec7ca.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a0-848f-dc82-afa3-e7af7a700000&dur_cat=4",
         "at": "2026-09-09T07:30:00Z",
         "t": "سپتامبر، ماه پیشگیری از خودکشی؛ آیا نشانه‌های خطر را نادیده می‌گیریم؟"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20260903112126-persian-66d9ed49-dca3-4784-b32e-5b747adb88fd.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a0-64d4-d55a-adb9-e5dfea840000&dur_cat=3",
-        "at": "2026-09-03T01:21:00Z",
-        "t": "مرگ و میر ناشی از مواد مخدر در استرالیا به بالاترین حد خود رسیده است. چه چیزی باید تغییر کند؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-26T04:41:00Z",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/gambling-addiction-where-to-get-help/xvea1azje",
+        "title": "«پناه» به قمار؛ علائم اعتیاد چیست؟ و از کجا کمک بگیریم؟"
+      },
       {
         "at": "2026-10-19T06:17:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/visiting-a-psychoanalyst-where-to-start-and-what-to-expect/fl8ydj8u4",
@@ -46089,11 +46094,6 @@
         "at": "2026-10-14T04:29:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/the-surprising-health-condition-some-people-develop-after-moving-to-australia/bxtgxi7y2",
         "title": "چرا برخی مهاجران پس از ورود به استرالیا دچار این مشکل سلامتی می‌شوند؟"
-      },
-      {
-        "at": "2026-10-12T03:36:00Z",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/should-you-be-paid-to-exercise-while-at-work-these-australian-researchers-think-so/cb5tt1ubw",
-        "title": "ورزش در ساعت کاری؛ چرا پژوهشگران استرالیایی می‌گویند باید برای آن پول گرفت؟"
       }
     ],
     "recent_30d": [
@@ -46108,7 +46108,7 @@
       1,
       6,
       4,
-      6
+      7
     ],
     "status": "active"
   },
