@@ -171,7 +171,8 @@
       var groups = {}, order = [];
       list.forEach(function (p) { if (!groups[p._cat]) { groups[p._cat] = []; order.push(p._cat); } groups[p._cat].push(p); });
       if (window.PPOrder) {
-        order = window.PPOrder.orderKeys(order, "listen");
+        order.forEach(function (c) { if (catRank[c] == null) catRank[c] = rnd(); });
+        order.sort(function (a, b) { return catRank[a] - catRank[b]; });   // ترتیب دسته‌ها: تصادفی با هر لود صفحه
         order.forEach(function (c) { groups[c] = window.PPOrder.order(groups[c], "listen:" + c); });
       } else order.sort(function (a, b) { return catRank[a] - catRank[b]; });
       out.innerHTML = order.map(function (c, idx) {

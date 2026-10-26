@@ -410,7 +410,8 @@
         groups[p._cat].push(p);
       });
       if (f.sort === "random" && window.PPOrder) {
-        order = window.PPOrder.orderKeys(order, "home");
+        order.forEach(function (c) { if (catRank[c] == null) catRank[c] = Math.random(); });
+        order.sort(function (a, b) { return catRank[a] - catRank[b]; });   // ترتیب دسته‌ها: تصادفی با هر لود صفحه (در همان بازدید ثابت می‌ماند)
         order.forEach(function (c) { groups[c] = window.PPOrder.order(groups[c], "home:" + c); });
       } else order.sort(function (a, b) { return f.sort === "random" ? catRank[a] - catRank[b] : collator.compare(a, b); });
       out.innerHTML = order.map(function (c, idx) {
