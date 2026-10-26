@@ -30278,8 +30278,8 @@
       }
     ],
     "recent_30d": [
-      4,
-      4,
+      5,
+      3,
       3,
       5,
       6,
@@ -44777,21 +44777,31 @@
     "status": "active"
   },
   "radiocrime-padkst-jnaii-radio-kraim": {
-    "avg_gap_days": 19.1,
-    "avg_length": 30,
-    "episodes": 79,
-    "eps_365": 19,
-    "eps_90": 13,
+    "avg_gap_days": 17.6,
+    "avg_length": 32,
+    "episodes": 81,
+    "eps_365": 21,
+    "eps_90": 15,
     "first_at": "2024-07-04",
     "first_year": 1403,
-    "last": "1405/07/27",
-    "last_at": "2026-10-19T15:30:00Z",
-    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6ad55faaa2384a5721b7ca5e",
-    "last_title": "مرگ لاکیشا تامپسون؛ تناقض‌هایی که خانواده را رها نمی‌کنند",
+    "last": "1405/08/04",
+    "last_at": "2026-10-26T15:13:27Z",
+    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6adf6e1729dd53209d19b50e",
+    "last_title": "قاتل در میان نزدیکانش بود؟ معمای قتل نوری آمایا",
     "max_length": 78,
     "median_length": 14,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6adf6e1729dd53209d19b50e/media.mp3",
+        "at": "2026-10-26T15:13:27Z",
+        "t": "قاتل در میان نزدیکانش بود؟ معمای قتل نوری آمایا"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6adf6cf9feb8d1e39c037b51/media.mp3",
+        "at": "2026-10-26T15:08:41Z",
+        "t": "پرونده لوئیجی منجیونی؛ چرا بخشی از آمریکا از متهم قتل حمایت کرد؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6ad55faaa2384a5721b7ca5e/media.mp3",
         "at": "2026-10-19T15:30:00Z",
@@ -44821,33 +44831,23 @@
         "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6ac3aac3ceaaaa9e66969f11/media.mp3",
         "at": "2026-10-05T13:48:51Z",
         "t": "قاتل یا یک اشتباه مرگبار؟ راز پرونده بریتنی شاو"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6aae8a4a3544546cb8bbe375/media.mp3",
-        "at": "2026-09-19T13:25:20Z",
-        "t": "چه کسی آلبرتا جونز را کشت؟ پرونده‌ای که ۶۰ سال است حل نشده"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6aa170d4b520126fa0d20b4c/media.mp3",
-        "at": "2026-09-10T14:30:00Z",
-        "t": "آن شب در خانه لیندزی کلنسی چه گذشت؟ | پرونده قتل ۳ کودک"
       }
     ],
     "recent": [
       {
+        "at": "2026-10-26T15:13:27Z",
+        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6adf6e1729dd53209d19b50e",
+        "title": "قاتل در میان نزدیکانش بود؟ معمای قتل نوری آمایا"
+      },
+      {
+        "at": "2026-10-26T15:08:41Z",
+        "link": "https://www.youtube.com/channel/UCSwZI76NQ7Q0rWhjazTS5pg",
+        "title": "پرونده لوئیجی منجیونی؛ چرا بخشی از آمریکا از متهم قتل حمایت کرد؟"
+      },
+      {
         "at": "2026-10-19T15:30:00Z",
         "link": "https://shows.acast.com/radiocrime-podcast/episodes/6ad55faaa2384a5721b7ca5e",
         "title": "مرگ لاکیشا تامپسون؛ تناقض‌هایی که خانواده را رها نمی‌کنند"
-      },
-      {
-        "at": "2026-10-15T15:52:06Z",
-        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6ad0f6a8e53019e890c5487b",
-        "title": "پشت درهای بسته‌ی خانه‌ی وحشت چه می‌گذشت؟"
-      },
-      {
-        "at": "2026-10-12T17:53:27Z",
-        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6accefe339599f7c56e311f8",
-        "title": "آخرین اخبار پرونده لیندزی کلنسی؛ آیا محاکمه دوباره برگزار می‌شود؟"
       }
     ],
     "recent_30d": [
@@ -44862,7 +44862,7 @@
       0,
       4,
       3,
-      6
+      8
     ],
     "status": "active"
   },
