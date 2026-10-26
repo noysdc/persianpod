@@ -25500,7 +25500,7 @@
     "avg_length": 17,
     "episodes": 7,
     "eps_365": 7,
-    "eps_90": 6,
+    "eps_90": 5,
     "first_at": "2026-07-27",
     "first_year": 1405,
     "last": "1405/06/25",
@@ -25573,8 +25573,8 @@
       0,
       0,
       0,
-      1,
-      5,
+      2,
+      4,
       1,
       0
     ],
@@ -32436,19 +32436,24 @@
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.7,
     "avg_length": 25,
-    "episodes": 22,
-    "eps_365": 22,
-    "eps_90": 22,
+    "episodes": 23,
+    "eps_365": 23,
+    "eps_90": 23,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/03",
-    "last_at": "2026-10-25T12:30:00Z",
-    "last_link": "https://furbodm.com/",
-    "last_title": "LABUBU | داستان بیست‌و‌دوم؛ لبوبو",
+    "last": "1405/08/04",
+    "last_at": "2026-10-26T11:03:34Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6adf3386677cf6f87d5e8d86",
+    "last_title": "FEDEX | داستان بییست‌و‌سوم؛ فدکس",
     "max_length": 38,
-    "median_length": 24,
+    "median_length": 23,
     "min_length": 15,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adf3386677cf6f87d5e8d86/media.mp3",
+        "at": "2026-10-26T11:03:34Z",
+        "t": "FEDEX | داستان بییست‌و‌سوم؛ فدکس"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6added9b025813dc0c08dbf3/media.mp3",
         "at": "2026-10-25T12:30:00Z",
@@ -32483,14 +32488,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad8762d12d1ac4b5e009b6d/media.mp3",
         "at": "2026-10-22T09:20:15Z",
         "t": "CROCS | داستان شانزدهم؛ داستان کراکس"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad5d009a2384a5721d5b6fc/media.mp3",
-        "at": "2026-10-22T09:19:38Z",
-        "t": "TESLA | داستان پانزدهم؛ ایلان ماسک؛ تسلا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-26T11:03:34Z",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6adf3386677cf6f87d5e8d86",
+        "title": "FEDEX | داستان بییست‌و‌سوم؛ فدکس"
+      },
       {
         "at": "2026-10-25T12:30:00Z",
         "link": "https://furbodm.com/",
@@ -32500,11 +32505,6 @@
         "at": "2026-10-25T11:25:53Z",
         "link": "https://furbodm.com/",
         "title": "TRUMP ORGANIZATION | داستان بیست‌ویکم؛ سازمان ترامپ"
-      },
-      {
-        "at": "2026-10-24T10:57:52Z",
-        "link": "https://furbodm.com/",
-        "title": "SPOTIFY | داستان بیستم؛ اسپاتیفای"
       }
     ],
     "recent_30d": [
@@ -32519,7 +32519,7 @@
       0,
       0,
       0,
-      22
+      23
     ],
     "status": "active"
   },
