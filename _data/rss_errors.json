@@ -1,4 +1,8 @@
 {
+  "60-sanih-ktab": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
+    "rss": "https://shenoto.net/feed/60sanieketab"
+  },
   "aajil": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feeds.libsyn.com/419687/rss"
@@ -7,6 +11,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/deutschcast/feed/"
   },
+  "aamozsh-ainstagram": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
+    "rss": "https://shenoto.net/service/api/feed/instagram"
+  },
   "aamozsh-blak-chin-o-kripto-ha": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
@@ -14,6 +22,10 @@
   "aamozsh-zban-anglisi-talk-stop": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
+  },
+  "aghtsad-bama": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
+    "rss": "https://shenoto.net/feed/BAMAECONOMY"
   },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
