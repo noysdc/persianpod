@@ -6318,21 +6318,26 @@
     "status": "active"
   },
   "biografi": {
-    "avg_gap_days": 9.6,
-    "avg_length": 40,
-    "episodes": 127,
-    "eps_365": 39,
-    "eps_90": 16,
+    "avg_gap_days": 9.3,
+    "avg_length": 39,
+    "episodes": 128,
+    "eps_365": 40,
+    "eps_90": 17,
     "first_at": "2023-03-08",
     "first_year": 1401,
-    "last": "1405/08/03",
-    "last_at": "2026-10-25T07:10:54Z",
-    "last_link": "https://shows.acast.com/biografi/episodes/6addab7e025813dc0cf58220",
-    "last_title": "والت دیزنی (قسمت دوم)✨",
+    "last": "1405/08/04",
+    "last_at": "2026-10-26T07:32:10Z",
+    "last_link": "https://shows.acast.com/biografi/episodes/6adf01f9409b9c216a150a9d",
+    "last_title": "والت دیزنی (قسمت آخر)",
     "max_length": 64,
     "median_length": 40,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6adf01f9409b9c216a150a9d/media.mp3",
+        "at": "2026-10-26T07:32:10Z",
+        "t": "والت دیزنی (قسمت آخر)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6addab7e025813dc0cf58220/media.mp3",
         "at": "2026-10-25T07:10:54Z",
@@ -6367,14 +6372,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6a422c37f045c2057f37ce3c/media.mp3",
         "at": "2026-09-17T06:56:55Z",
         "t": "معمای فرار آناستازیا"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6a42275526d5a6687a65052e/media.mp3",
-        "at": "2026-09-16T06:09:25Z",
-        "t": "رومانف‌ها(فصل نهم ): پایان"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-26T07:32:10Z",
+        "link": "https://shows.acast.com/biografi/episodes/6adf01f9409b9c216a150a9d",
+        "title": "والت دیزنی (قسمت آخر)"
+      },
       {
         "at": "2026-10-25T07:10:54Z",
         "link": "https://shows.acast.com/biografi/episodes/6addab7e025813dc0cf58220",
@@ -6384,11 +6389,6 @@
         "at": "2026-10-24T06:44:05Z",
         "link": "https://shows.acast.com/biografi/episodes/6adc53b5959e7ea69d8c678b",
         "title": "(والت دیزنی( قسمت اول ✨"
-      },
-      {
-        "at": "2026-10-14T08:04:19Z",
-        "link": "https://shows.acast.com/biografi/episodes/6acb957137f0bd18ccd9bf6c",
-        "title": "پرنسس دایانا (قسمت آخر)✨"
       }
     ],
     "recent_30d": [
@@ -6403,7 +6403,7 @@
       4,
       4,
       6,
-      6
+      7
     ],
     "status": "active"
   },
