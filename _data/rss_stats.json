@@ -52662,26 +52662,21 @@
     "status": "inactive"
   },
   "tarikh-hnr-khfn": {
-    "avg_gap_days": 21.4,
-    "avg_length": 61,
-    "episodes": 66,
-    "eps_365": 18,
-    "eps_90": 5,
+    "avg_gap_days": 21.3,
+    "avg_length": 62,
+    "episodes": 65,
+    "eps_365": 17,
+    "eps_90": 4,
     "first_at": "2024-06-17",
     "first_year": 1403,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T14:23:47Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/ep-e3r4877",
-    "last_title": "فصل سوم، مقدمه",
+    "last": "1405/07/12",
+    "last_at": "2026-10-04T17:18:04Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/--e3psehi",
+    "last_title": "انسان خردمند - قسمت دوم",
     "max_length": 87,
     "median_length": 59,
     "min_length": 6,
     "play": [
-      {
-        "a": "https://anchor.fm/s/f7bbd8dc/podcast/play/128114343/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-26%2Fd35c03bd-e3cf-19f9-7972-e5db1b6f1c7d.mp3",
-        "at": "2026-10-26T14:23:47Z",
-        "t": "فصل سوم، مقدمه"
-      },
       {
         "a": "https://anchor.fm/s/f7bbd8dc/podcast/play/126810098/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-4%2F1e84507c-2578-223a-5de9-29d9853aab03.mp3",
         "at": "2026-10-04T17:18:04Z",
@@ -52716,14 +52711,14 @@
         "a": "https://anchor.fm/s/f7bbd8dc/podcast/play/121160993/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-8%2F7add93b5-3cf1-fc4b-53a5-79201c3ff1fb.mp3",
         "at": "2026-06-08T15:43:08Z",
         "t": "پارینه سنگی قدیم در ایران"
+      },
+      {
+        "a": "https://anchor.fm/s/f7bbd8dc/podcast/play/121094329/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-6%2Fda015474-9d65-5e67-1f03-b39b11a2958c.mp3",
+        "at": "2026-06-06T17:14:08Z",
+        "t": "پس از ۱۰۴ روز سکوت، بازگشت دوباره"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-26T14:23:47Z",
-        "link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/ep-e3r4877",
-        "title": "فصل سوم، مقدمه"
-      },
       {
         "at": "2026-10-04T17:18:04Z",
         "link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/--e3psehi",
@@ -52733,6 +52728,11 @@
         "at": "2026-09-21T12:24:48Z",
         "link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/--e3p6381",
         "title": "انسان خردمند - قسمت اول"
+      },
+      {
+        "at": "2026-09-03T11:46:16Z",
+        "link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/ep-e3o9md7",
+        "title": "انسان نئاندرتال: دو انسان، یک میراث"
       }
     ],
     "recent_30d": [
@@ -52747,7 +52747,7 @@
       1,
       1,
       2,
-      2
+      1
     ],
     "status": "active"
   },
