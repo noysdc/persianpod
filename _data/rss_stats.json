@@ -38978,21 +38978,26 @@
     "status": "active"
   },
   "podcast-tarikhi-majon": {
-    "avg_gap_days": 20.4,
-    "avg_length": 54,
-    "episodes": 101,
-    "eps_365": 18,
+    "avg_gap_days": 19.9,
+    "avg_length": 53,
+    "episodes": 102,
+    "eps_365": 19,
     "eps_90": 7,
     "first_at": "2019-12-31",
     "first_year": 1398,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T01:30:00Z",
+    "last": "1405/08/04",
+    "last_at": "2026-10-26T01:30:00Z",
     "last_link": "https://majoonpod.ir",
-    "last_title": "92) رویای ایرانشهر بزرگ (2) | شاپور اول ساسانی",
+    "last_title": "93) رویای ایرانشهر بزرگ (3) | شاپور دوم ساسانی",
     "max_length": 91,
     "median_length": 55,
     "min_length": 15,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6ade6b9b959e7ea69d3625d6/media.mp3",
+        "at": "2026-10-26T01:30:00Z",
+        "t": "93) رویای ایرانشهر بزرگ (3) | شاپور دوم ساسانی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6acea6ee6203da9f28184cc5/media.mp3",
         "at": "2026-10-14T01:30:00Z",
@@ -39027,14 +39032,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6a667186fa6cc1e0304d2e5c/media.mp3",
         "at": "2026-07-28T01:35:00Z",
         "t": "86)  خمرهای سرخ | پل پوت؛ پارت اول"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6a4d72e5c130c408c2ddd8cd/media.mp3",
-        "at": "2026-07-08T01:30:00Z",
-        "t": "85) گروه صنعتی مینو | علی خسروشاهی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-26T01:30:00Z",
+        "link": "https://majoonpod.ir",
+        "title": "93) رویای ایرانشهر بزرگ (3) | شاپور دوم ساسانی"
+      },
       {
         "at": "2026-10-14T01:30:00Z",
         "link": "https://majoonpod.ir",
@@ -39044,11 +39049,6 @@
         "at": "2026-09-27T01:30:00Z",
         "link": "https://majoonpod.ir",
         "title": "91) رویای ایرانشهر بزرگ (1) | اردشیر بابکان"
-      },
-      {
-        "at": "2026-09-15T01:30:00Z",
-        "link": "https://majoonpod.ir",
-        "title": "90) موضع سوم | خوان پرون"
       }
     ],
     "recent_30d": [
@@ -39060,10 +39060,10 @@
       0,
       0,
       2,
-      1,
-      3,
       2,
-      2
+      2,
+      2,
+      3
     ],
     "status": "active"
   },
@@ -39772,8 +39772,8 @@
       3,
       1,
       2,
-      3,
-      9,
+      4,
+      8,
       4,
       1,
       5,
