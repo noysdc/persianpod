@@ -30103,7 +30103,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       4,
       0,
       0,
@@ -31635,10 +31635,10 @@
     "status": "active"
   },
   "podcast-dats": {
-    "avg_gap_days": 30.0,
+    "avg_gap_days": 17.0,
     "avg_length": 78,
     "episodes": 77,
-    "eps_365": 3,
+    "eps_365": 2,
     "eps_90": 0,
     "first_at": "2023-05-14",
     "first_year": 1402,
@@ -32166,8 +32166,8 @@
       1,
       2,
       2,
-      2,
       3,
+      2,
       2
     ],
     "status": "active"
