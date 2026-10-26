@@ -32434,25 +32434,35 @@
     "status": "inactive"
   },
   "podcast-bizins-astoriz": {
-    "avg_gap_days": 0.7,
+    "avg_gap_days": 0.6,
     "avg_length": 25,
-    "episodes": 23,
-    "eps_365": 23,
-    "eps_90": 23,
+    "episodes": 25,
+    "eps_365": 25,
+    "eps_90": 25,
     "first_at": "2026-10-10",
     "first_year": 1405,
     "last": "1405/08/04",
-    "last_at": "2026-10-26T11:03:34Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6adf3386677cf6f87d5e8d86",
-    "last_title": "FEDEX | داستان بییست‌و‌سوم؛ فدکس",
+    "last_at": "2026-10-26T13:34:51Z",
+    "last_link": "https://furbodm.com/",
+    "last_title": "REDDIT | داستان بیست‌وپنجم؛ ردیت",
     "max_length": 38,
     "median_length": 23,
     "min_length": 15,
     "play": [
       {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adf56fbb50147298ba80812/media.mp3",
+        "at": "2026-10-26T13:34:51Z",
+        "t": "REDDIT | داستان بیست‌وپنجم؛ ردیت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adf55d7feb8d1e39cf805b0/media.mp3",
+        "at": "2026-10-26T13:29:59Z",
+        "t": "TWITTER | داستان بیست‌وچهارم؛ توییتر"
+      },
+      {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adf3386677cf6f87d5e8d86/media.mp3",
         "at": "2026-10-26T11:03:34Z",
-        "t": "FEDEX | داستان بییست‌و‌سوم؛ فدکس"
+        "t": "FEDEX | داستان بیست‌و‌سوم؛ فدکس"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6added9b025813dc0c08dbf3/media.mp3",
@@ -32478,33 +32488,23 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adb3e8523f48c4f24a88393/media.mp3",
         "at": "2026-10-23T11:01:25Z",
         "t": "XIAOMI | داستان هجدهم؛ شیائومی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad9d75e1eb6e512e5a27f23/media.mp3",
-        "at": "2026-10-22T09:29:02Z",
-        "t": "UBER | داستان هفدهم؛ اوبر"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ad8762d12d1ac4b5e009b6d/media.mp3",
-        "at": "2026-10-22T09:20:15Z",
-        "t": "CROCS | داستان شانزدهم؛ داستان کراکس"
       }
     ],
     "recent": [
       {
+        "at": "2026-10-26T13:34:51Z",
+        "link": "https://furbodm.com/",
+        "title": "REDDIT | داستان بیست‌وپنجم؛ ردیت"
+      },
+      {
+        "at": "2026-10-26T13:29:59Z",
+        "link": "https://furbodm.com/",
+        "title": "TWITTER | داستان بیست‌وچهارم؛ توییتر"
+      },
+      {
         "at": "2026-10-26T11:03:34Z",
         "link": "https://shows.acast.com/business-stories-podcast/episodes/6adf3386677cf6f87d5e8d86",
-        "title": "FEDEX | داستان بییست‌و‌سوم؛ فدکس"
-      },
-      {
-        "at": "2026-10-25T12:30:00Z",
-        "link": "https://furbodm.com/",
-        "title": "LABUBU | داستان بیست‌و‌دوم؛ لبوبو"
-      },
-      {
-        "at": "2026-10-25T11:25:53Z",
-        "link": "https://furbodm.com/",
-        "title": "TRUMP ORGANIZATION | داستان بیست‌ویکم؛ سازمان ترامپ"
+        "title": "FEDEX | داستان بیست‌و‌سوم؛ فدکس"
       }
     ],
     "recent_30d": [
@@ -32519,7 +32519,7 @@
       0,
       0,
       0,
-      23
+      25
     ],
     "status": "active"
   },
@@ -52396,19 +52396,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4212,
-    "eps_365": 797,
-    "eps_90": 256,
+    "episodes": 4213,
+    "eps_365": 798,
+    "eps_90": 257,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/04",
-    "last_at": "2026-10-26T13:04:31Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf4fdedd5d6293db7ac754",
-    "last_title": "قسمت چهار هزار و صد و نود و شش",
+    "last_at": "2026-10-26T13:30:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf5089b50147298ba50a96",
+    "last_title": "قسمت چهار هزار و صد و نود و هفت",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6adf5089b50147298ba50a96/media.mp3",
+        "at": "2026-10-26T13:30:00Z",
+        "t": "قسمت چهار هزار و صد و نود و هفت"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6adf4fdedd5d6293db7ac754/media.mp3",
         "at": "2026-10-26T13:04:31Z",
@@ -52443,14 +52448,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ad74ab0d7bd364b41ee8780/media.mp3",
         "at": "2026-10-20T13:30:00Z",
         "t": "قسمت چهار هزار و صد و نود"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ad74a4e819a15003cc70383/media.mp3",
-        "at": "2026-10-20T11:02:40Z",
-        "t": "قسمت چهار هزار و صد و هشتاد و نه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-26T13:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf5089b50147298ba50a96",
+        "title": "قسمت چهار هزار و صد و نود و هفت"
+      },
       {
         "at": "2026-10-26T13:04:31Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf4fdedd5d6293db7ac754",
@@ -52460,11 +52465,6 @@
         "at": "2026-10-22T20:27:10Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ada719ca25058b22abd6d81",
         "title": "قسمت چهار هزار و صد و نود و پنج"
-      },
-      {
-        "at": "2026-10-21T20:15:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ad917f71eb6e512e57c185f",
-        "title": "قسمت چهار هزار و صد و نود و چهار"
       }
     ],
     "recent_30d": [
@@ -52479,7 +52479,7 @@
       94,
       95,
       94,
-      67
+      68
     ],
     "status": "active"
   },
