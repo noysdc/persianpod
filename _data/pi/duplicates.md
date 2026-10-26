@@ -1,7 +1,7 @@
 ## ممیزی تکراری‌ها
 
-- فایل‌های بررسی‌شده: **511** (`_podcasts/`: 451 · `_drafts/`: 0 · `_blocked/`: 60)
-- جفت‌های تکراریِ قطعی: **18**
+- فایل‌های بررسی‌شده: **777** (`_podcasts/`: 659 · `_drafts/`: 0 · `_blocked/`: 118)
+- جفت‌های تکراریِ قطعی: **19**
 - جفت‌های هم‌نام با سازنده‌ی متفاوت (احتمالاً دو پادکستِ جدا؛ فقط برای اطلاع): **11**
 
 ### تکراری (باید یکی‌شان حذف یا بلاک شود)
@@ -23,6 +23,7 @@
 - `_blocked/casa-milan-persian-podcast-kaza-milan.md` «Casa Milan Persian Podcast کازا میلان» ⟷ `_podcasts/podcast-kaza-milan.md` «پادکست کازا میلان» — عنوان و سازنده یکسان
 - `_blocked/podcast-roanshnasi-saikopad-3427358.md` «پادکست روانشناسی سایکوپاد» ⟷ `_podcasts/podcast-roanshnasi-saikopad.md` «پادکست روانشناسی سایکوپاد» — عنوان و سازنده یکسان
 - `_blocked/radio-dastan-1509162.md` «رادیو داستان» ⟷ `_podcasts/radio-dastan.md` «رادیو داستان» — عنوان و سازنده یکسان
+- `_podcasts/synapselingo-iadgiri-zban-aalmani.md` «SynapseLingo یادگیری زبان آلمانی» ⟷ `_podcasts/synapselingo-iadgiri-zban-anglisi.md` «SynapseLingo یادگیری زبان انگلیسی» — عنوان و سازنده یکسان
 
 
 ### هم‌نام، سازنده‌ی متفاوت
