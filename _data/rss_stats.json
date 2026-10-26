@@ -55437,21 +55437,26 @@
     "status": "active"
   },
   "zndgi-shad-rozanh-ba-jois-mair": {
-    "avg_gap_days": 8.3,
+    "avg_gap_days": 8.2,
     "avg_length": 25,
-    "episodes": 285,
-    "eps_365": 44,
-    "eps_90": 12,
+    "episodes": 286,
+    "eps_365": 45,
+    "eps_90": 13,
     "first_at": "2020-12-10",
     "first_year": 1399,
-    "last": "1405/07/27",
-    "last_at": "2026-10-19T13:00:00Z",
-    "last_link": "https://joycemeyerfa.libsyn.com/a03ymqia8vv2",
-    "last_title": "رشد روحانی، اطاعت، نگرش",
+    "last": "1405/08/04",
+    "last_at": "2026-10-26T13:00:00Z",
+    "last_link": "https://joycemeyerfa.libsyn.com/pifpq5ccbim4",
+    "last_title": "بخشش - قسمت سوم",
     "max_length": 28,
     "median_length": 25,
     "min_length": 18,
     "play": [
+      {
+        "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1410_3.mp3?dest-id=2501420",
+        "at": "2026-10-26T13:00:00Z",
+        "t": "بخشش - قسمت سوم"
+      },
       {
         "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1410_2.mp3?dest-id=2501420",
         "at": "2026-10-19T13:00:00Z",
@@ -55486,14 +55491,14 @@
         "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1390_1.mp3?dest-id=2501420",
         "at": "2026-08-31T13:00:00Z",
         "t": "یادگیری برای دریافت ۱"
-      },
-      {
-        "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1386_4.mp3?dest-id=2501420",
-        "at": "2026-08-24T13:00:00Z",
-        "t": "مثال‌های عیسی: کشاورز ۲-۲"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-26T13:00:00Z",
+        "link": "https://joycemeyerfa.libsyn.com/pifpq5ccbim4",
+        "title": "بخشش - قسمت سوم"
+      },
       {
         "at": "2026-10-19T13:00:00Z",
         "link": "https://joycemeyerfa.libsyn.com/a03ymqia8vv2",
@@ -55503,11 +55508,6 @@
         "at": "2026-10-12T13:00:00Z",
         "link": "https://joycemeyerfa.libsyn.com/jntv14m42r36",
         "title": "روابط، بخشش، اطاعت"
-      },
-      {
-        "at": "2026-10-05T13:00:00Z",
-        "link": "https://joycemeyerfa.libsyn.com/1co25bsejgog",
-        "title": "با خدا همه چیز امکان پذیر است ۲"
       }
     ],
     "recent_30d": [
@@ -55522,7 +55522,7 @@
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   }
