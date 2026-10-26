@@ -20351,21 +20351,26 @@
     "status": "inactive"
   },
   "khorsht-tknolozhi": {
-    "avg_gap_days": 6.8,
+    "avg_gap_days": 6.9,
     "avg_length": 9,
-    "episodes": 344,
-    "eps_365": 53,
-    "eps_90": 15,
+    "episodes": 345,
+    "eps_365": 54,
+    "eps_90": 16,
     "first_at": "2017-12-05",
     "first_year": 1396,
-    "last": "1405/07/27",
-    "last_at": "2026-10-19T00:52:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/elon-musk-unveils-the-worlds-first-flying-car/dj0dv5b1a",
-    "last_title": "ایلان ماسک از «اولین خودروی پرنده» جهان رونمایی کرد",
+    "last": "1405/08/04",
+    "last_at": "2026-10-26T02:24:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/why-was-starlink-use-restricted-in-ukraine/8uuru3h9q",
+    "last_title": "چرا استفاده از استارلینک برای اوکراین محدود شد؟",
     "max_length": 20,
     "median_length": 7,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/khoresht-e-tech/20261026132418_379413-persian-70abb5b2-324d-46ad-9118-34a18633574f.mp3?awCollectionId=khoresht-e-tech&awGenre=Technology&awEpisodeId=000001a1-75be-d7ec-a7e3-7ffe9a7c0000&dur_cat=2",
+        "at": "2026-10-26T02:24:00Z",
+        "t": "چرا استفاده از استارلینک برای اوکراین محدود شد؟"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/khoresht-e-tech/20261019115214_372222-persian-6e37e479-95f8-412d-8408-25f2fc036004.mp3?awCollectionId=khoresht-e-tech&awGenre=Technology&awEpisodeId=000001a1-515c-dc4d-abe5-5fdddb3d0000&dur_cat=2",
         "at": "2026-10-19T00:52:00Z",
@@ -20400,14 +20405,14 @@
         "a": "https://sbs-podcast.streamguys1.com/khoresht-e-tech/20260914115136_077639-persian-49deb538-1ca5-4f23-942c-879bb34d38bd.mp3?awCollectionId=khoresht-e-tech&awGenre=Technology&awEpisodeId=000001a0-9d78-d5a6-afb7-df7cab050000&dur_cat=3",
         "at": "2026-09-14T01:51:00Z",
         "t": "آیا هوش مصنوعی بیش از حد سریع پیش می‌رود؟"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/khoresht-e-tech/20260907153113-persian-bff06c46-5de7-4349-8972-00d209c0320d.mp3?awCollectionId=khoresht-e-tech&awGenre=Technology&awEpisodeId=000001a0-7a02-db1a-a3f4-7bbed17c0000&dur_cat=2",
-        "at": "2026-09-07T05:02:00Z",
-        "t": "ربات‌ها هم انعام می‌خواهند؛ اما چرا؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-26T02:24:00Z",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/why-was-starlink-use-restricted-in-ukraine/8uuru3h9q",
+        "title": "چرا استفاده از استارلینک برای اوکراین محدود شد؟"
+      },
       {
         "at": "2026-10-19T00:52:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/elon-musk-unveils-the-worlds-first-flying-car/dj0dv5b1a",
@@ -20417,11 +20422,6 @@
         "at": "2026-10-12T05:50:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/unpredictable-and-dangerous-behaviour-what-happened-when-ai-hacked-australian-government-systems/978k08wqo",
         "title": "رفتاری «غیرقابل پیشبینی و خطرناک»؛ هوش مصنوعی چگونه به سیستم‌های دولتی استرالیا نفوذ کرد؟"
-      },
-      {
-        "at": "2026-10-12T01:45:00Z",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/these-threats-could-spell-the-end-of-humanity-by-the-end-of-the-century-a-new-study-warns/jv7ymse2g",
-        "title": "دو خطر اصلی برای انقراض انسان تا پایان قرن جدید چه هستند؟ یک مطالعه جدید پاسخ می‌دهد"
       }
     ],
     "recent_30d": [
@@ -20436,7 +20436,7 @@
       6,
       6,
       3,
-      6
+      7
     ],
     "status": "active"
   },
