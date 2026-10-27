@@ -4,7 +4,7 @@ title_en: ""
 slug: "modt"
 description: "مودت از آنجا ادامه میباد که به دیگران احترام بگداری و مهربانی کنی"
 category: "فلسفه و دین"
-subcategories: ["معنویت"]
+subcategories: ["عرفان و معنویت"]
 tags: ["فلسفه و دین","معنویت"]
 status: "متوقف شده"
 language: "فارسی"
