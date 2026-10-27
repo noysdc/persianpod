@@ -34219,21 +34219,26 @@
     "status": "inactive"
   },
   "podcast-bizins-astoriz": {
-    "avg_gap_days": 0.6,
+    "avg_gap_days": 0.7,
     "avg_length": 24,
-    "episodes": 26,
-    "eps_365": 26,
-    "eps_90": 26,
+    "episodes": 27,
+    "eps_365": 27,
+    "eps_90": 27,
     "first_at": "2026-10-10",
     "first_year": 1405,
     "last": "1405/08/05",
-    "last_at": "2026-10-27T14:15:10Z",
+    "last_at": "2026-10-27T19:34:01Z",
     "last_link": "https://furbodm.com/",
-    "last_title": "فصل دوم پادکست بیزینس استوریز",
+    "last_title": "NETFLIX #1 | قبل از نت‌فلیکس مردم چطوری فیلم نگاه می‌کردن؟",
     "max_length": 38,
     "median_length": 23,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae0fca933b363c95d0286a5/media.mp3",
+        "at": "2026-10-27T19:34:01Z",
+        "t": "NETFLIX #1 | قبل از نت‌فلیکس مردم چطوری فیلم نگاه می‌کردن؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae0b1eeab1b1d113dda940e/media.mp3",
         "at": "2026-10-27T14:15:10Z",
@@ -34268,14 +34273,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adc8f3023b36fc01ccddf27/media.mp3",
         "at": "2026-10-24T10:57:52Z",
         "t": "SPOTIFY | داستان بیستم؛ اسپاتیفای"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adb4600fc232549baa5259b/media.mp3",
-        "at": "2026-10-23T11:33:20Z",
-        "t": "SNAPCHAT | داستان نوزدهم؛ اسنپ‌چت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T19:34:01Z",
+        "link": "https://furbodm.com/",
+        "title": "NETFLIX #1 | قبل از نت‌فلیکس مردم چطوری فیلم نگاه می‌کردن؟"
+      },
       {
         "at": "2026-10-27T14:15:10Z",
         "link": "https://furbodm.com/",
@@ -34285,11 +34290,6 @@
         "at": "2026-10-26T13:34:51Z",
         "link": "https://furbodm.com/",
         "title": "REDDIT | داستان بیست‌وپنجم؛ ردیت"
-      },
-      {
-        "at": "2026-10-26T13:29:59Z",
-        "link": "https://furbodm.com/",
-        "title": "TWITTER | داستان بیست‌وچهارم؛ توییتر"
       }
     ],
     "recent_30d": [
@@ -34304,7 +34304,7 @@
       0,
       0,
       0,
-      26
+      27
     ],
     "status": "active"
   },
