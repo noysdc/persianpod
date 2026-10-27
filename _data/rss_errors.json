@@ -63,6 +63,10 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://namlik.me/rss/318"
   },
+  "hs-khob": {
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feed.pod.co/hese-khob"
+  },
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
@@ -74,6 +78,10 @@
   "kodkan-mana": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
+  },
+  "malino": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
+    "rss": "https://www.malino.co/feed/podcast/malinopodcast/"
   },
   "mamanst-mamanest": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
