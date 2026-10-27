@@ -50131,21 +50131,26 @@
     "status": "inactive"
   },
   "shahnamh-khodmoni": {
-    "avg_gap_days": 30.5,
-    "avg_length": 66,
-    "episodes": 53,
-    "eps_365": 12,
-    "eps_90": 4,
+    "avg_gap_days": 29.8,
+    "avg_length": 65,
+    "episodes": 54,
+    "eps_365": 13,
+    "eps_90": 5,
     "first_at": "2020-12-10",
     "first_year": 1399,
-    "last": "1405/07/14",
-    "last_at": "2026-10-06T10:38:13Z",
-    "last_link": "https://shenoto.com/album/podcast/1886369/اپیزود۵۳- جهان‌پهلوان برمی‌خیزد",
-    "last_title": "اپیزود۵۳- جهان‌پهلوان برمی‌خیزد",
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T13:14:09Z",
+    "last_link": "https://shenoto.com/album/podcast/1892953/اپیزود۵۴- تویی که نمی‌شناختمت",
+    "last_title": "اپیزود۵۴- تویی که نمی‌شناختمت",
     "max_length": 93,
-    "median_length": 51,
+    "median_length": 52,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/4ba7ebad-d208-11f1-9733-b6a9b1f724f3.mp3",
+        "at": "2026-10-27T13:14:09Z",
+        "t": "اپیزود۵۴- تویی که نمی‌شناختمت"
+      },
       {
         "a": "https://shenoto.com/service/api/play/podcast/082acd2b-c172-11f1-bb7e-2e7a681e5ac8.mp3",
         "at": "2026-10-06T10:38:13Z",
@@ -50180,14 +50185,14 @@
         "a": "https://shenoto.com/service/api/play/podcast/30a20273-5c3d-11f1-a697-5e49d4b26530.mp3",
         "at": "2026-05-30T15:35:30Z",
         "t": "اپیزود۴۷- تاج خائن رو بردار!"
-      },
-      {
-        "a": "https://shenoto.com/service/api/play/podcast/992af5d7-52c1-11f1-a697-5e49d4b26530.mp3",
-        "at": "2026-05-18T13:58:07Z",
-        "t": "اپیزود۴۶- سقوطِ فرودِ سیاوش"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T13:14:09Z",
+        "link": "https://shenoto.com/album/podcast/1892953/اپیزود۵۴- تویی که نمی‌شناختمت",
+        "title": "اپیزود۵۴- تویی که نمی‌شناختمت"
+      },
       {
         "at": "2026-10-06T10:38:13Z",
         "link": "https://shenoto.com/album/podcast/1886369/اپیزود۵۳- جهان‌پهلوان برمی‌خیزد",
@@ -50197,11 +50202,6 @@
         "at": "2026-09-13T09:53:23Z",
         "link": "https://shenoto.com/album/podcast/1881736/اپیزود۵۲- دار و دستۀ چینی‌ها",
         "title": "اپیزود۵۲- دار و دستۀ چینی‌ها"
-      },
-      {
-        "at": "2026-08-24T16:46:09Z",
-        "link": "https://shenoto.com/album/podcast/1877970/اپیزود۵۱- گاهی خوشی گاهی غم",
-        "title": "اپیزود۵۱- گاهی خوشی گاهی غم"
       }
     ],
     "recent_30d": [
@@ -50216,7 +50216,7 @@
       1,
       2,
       1,
-      1
+      2
     ],
     "status": "active"
   },

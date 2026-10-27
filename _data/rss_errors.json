@@ -24,7 +24,7 @@
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
   "awr-farsi": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
     "rss": "https://podcasts.awr.org/xml/xmliTunes/FASBE_ROH.xml"
   },
   "baehsan": {
@@ -108,7 +108,7 @@
     "rss": "https://tehranpodcast.ir/category/pejvakemahoor/feed/"
   },
   "radio-jhani-adontist": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
     "rss": "https://podcasts.awr.org/xml/xmliTunes/FASCO_AWR.xml"
   },
   "roait-ahd": {
@@ -130,6 +130,10 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
+  },
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
