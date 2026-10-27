@@ -34940,21 +34940,26 @@
     "status": "active"
   },
   "podcast-farsi-radio-mrz": {
-    "avg_gap_days": 41.5,
-    "avg_length": 184,
-    "episodes": 91,
-    "eps_365": 9,
-    "eps_90": 3,
+    "avg_gap_days": 38.8,
+    "avg_length": 186,
+    "episodes": 92,
+    "eps_365": 10,
+    "eps_90": 4,
     "first_at": "2018-07-08",
     "first_year": 1397,
-    "last": "1405/07/18",
-    "last_at": "2026-10-10T03:30:00Z",
-    "last_link": "https://shows.acast.com/radio-marz-or/episodes/6ac5564029b9fbfbe20ce84f",
-    "last_title": "رادیو مرز ۹۲ - پریود",
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T03:30:00Z",
+    "last_link": "https://shows.acast.com/radio-marz-or/episodes/6adfb063b50147298bcd9a46",
+    "last_title": "رادیو مرز ۹۳ - پسوریازیس",
     "max_length": 259,
-    "median_length": 135,
+    "median_length": 136,
     "min_length": 31,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/6adfb063b50147298bcd9a46/media.mp3",
+        "at": "2026-10-27T03:30:00Z",
+        "t": "رادیو مرز ۹۳ - پسوریازیس"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/6ac5564029b9fbfbe20ce84f/media.mp3",
         "at": "2026-10-10T03:30:00Z",
@@ -34989,14 +34994,14 @@
         "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/699592fbc4b7a0510ca17d73/media.mp3",
         "at": "2026-02-18T10:22:50Z",
         "t": "رادیو مرز ۸۶ - دوام آوردن"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/69334b80a63c6eaa59825114/media.mp3",
-        "at": "2025-12-06T03:30:00Z",
-        "t": "رادیو مرز ۸۵ - والدین آزارگر"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T03:30:00Z",
+        "link": "https://shows.acast.com/radio-marz-or/episodes/6adfb063b50147298bcd9a46",
+        "title": "رادیو مرز ۹۳ - پسوریازیس"
+      },
       {
         "at": "2026-10-10T03:30:00Z",
         "link": "https://shows.acast.com/radio-marz-or/episodes/6ac5564029b9fbfbe20ce84f",
@@ -35006,11 +35011,6 @@
         "at": "2026-09-15T11:55:16Z",
         "link": "https://shows.acast.com/radio-marz-or/episodes/6aa932265d36baebf19a133d",
         "title": "رادیو مرز ۹۱ - تعدیل"
-      },
-      {
-        "at": "2026-08-15T03:30:00Z",
-        "link": "https://shows.acast.com/radio-marz-or/episodes/6a7f313cf8e81c4395f0cc47",
-        "title": "رادیو مرز ۹۰ - آزار آنلاین زنان"
       }
     ],
     "recent_30d": [
@@ -35025,7 +35025,7 @@
       1,
       1,
       1,
-      1
+      2
     ],
     "status": "active"
   },
