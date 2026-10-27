@@ -1,4 +1,8 @@
 {
+  "60-sanih-ktab": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/feed/60sanieketab"
+  },
   "aajil": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feeds.libsyn.com/419687/rss"
@@ -6,6 +10,10 @@
   "aamozsh-aalmani-ba-doich-kst": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/deutschcast/feed/"
+  },
+  "aamozsh-ainstagram": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/instagram"
   },
   "aamozsh-blak-chin-o-kripto-ha": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -15,13 +23,33 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
+  "aghtsad-bama": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/feed/BAMAECONOMY"
+  },
+  "ahmd-shamlo": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/Ahmad-Shamlou"
+  },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
   },
+  "akhlagh-brai-nojoanan": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/AkhlaghNojavanan"
+  },
+  "alf-ghaf": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/alefquf"
+  },
   "archgap-padkst-mamari-aark-gp": {
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
+  },
+  "asranh-hnr": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/Eveningart"
   },
   "awr-farsi": {
     "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
@@ -34,6 +62,10 @@
   "baigani-ha-sda": {
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://musiceiranian.ir/type/audio/feed"
+  },
+  "bazar-srmaih-bors": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/feed/bazaresarmaye"
   },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
@@ -55,21 +87,41 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
+  "frahosh": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/Frahosh"
+  },
   "galri-film": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
+  },
+  "hafz-khoani-bh-roait-ahmd-shamlo": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/HAfEZ-e-SHAMLU"
   },
   "hnr-jng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://namlik.me/rss/318"
   },
+  "hrf-hsab": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/harf-e-hesab"
+  },
   "hs-khob": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.pod.co/hese-khob"
   },
+  "kafh-bzrgsali": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/adultclub"
+  },
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
+  },
+  "khsro-o-shirin-bh-roait-astad-saad-baghri": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/khosroshirin"
   },
   "kit-aahng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
@@ -78,6 +130,10 @@
   "kodkan-mana": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
+  },
+  "kshor-shahnamh-khoansh-dastan-hai-shahnamh-frdosi": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/KeshvareShahnam"
   },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -90,6 +146,22 @@
   "marktplatz-zban-aalmani-dr-aghtsad": {
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
+  },
+  "mbl-ghrmz": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/Mobleqermez"
+  },
+  "mrkz-mzakrh-airan": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/ftehrani"
+  },
+  "nima-ioshij": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/Nima-Youshij"
+  },
+  "nima-o-miras-ao": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://shenoto.net/service/api/feed/Mirasenima"
   },
   "nshat-rkh": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
@@ -186,10 +258,6 @@
   "shahnamh-khodmoni": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/shahname"
-  },
-  "shar-o-ghsh-khoani": {
-    "error": "ParseError: syntax error: line 1, column 0",
-    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "shar-o-tranh-hai-amir-khoshaoi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",

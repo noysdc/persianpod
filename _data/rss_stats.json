@@ -33417,20 +33417,25 @@
   },
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.6,
-    "avg_length": 25,
-    "episodes": 25,
-    "eps_365": 25,
-    "eps_90": 25,
+    "avg_length": 24,
+    "episodes": 26,
+    "eps_365": 26,
+    "eps_90": 26,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T13:34:51Z",
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T14:15:10Z",
     "last_link": "https://furbodm.com/",
-    "last_title": "REDDIT | داستان بیست‌وپنجم؛ ردیت",
+    "last_title": "فصل دوم پادکست بیزینس استوریز",
     "max_length": 38,
     "median_length": 23,
-    "min_length": 15,
+    "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae0b1eeab1b1d113dda940e/media.mp3",
+        "at": "2026-10-27T14:15:10Z",
+        "t": "فصل دوم پادکست بیزینس استوریز"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adf56fbb50147298ba80812/media.mp3",
         "at": "2026-10-26T13:34:51Z",
@@ -33465,14 +33470,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adb4600fc232549baa5259b/media.mp3",
         "at": "2026-10-23T11:33:20Z",
         "t": "SNAPCHAT | داستان نوزدهم؛ اسنپ‌چت"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adb3e8523f48c4f24a88393/media.mp3",
-        "at": "2026-10-23T11:01:25Z",
-        "t": "XIAOMI | داستان هجدهم؛ شیائومی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T14:15:10Z",
+        "link": "https://furbodm.com/",
+        "title": "فصل دوم پادکست بیزینس استوریز"
+      },
       {
         "at": "2026-10-26T13:34:51Z",
         "link": "https://furbodm.com/",
@@ -33482,11 +33487,6 @@
         "at": "2026-10-26T13:29:59Z",
         "link": "https://furbodm.com/",
         "title": "TWITTER | داستان بیست‌وچهارم؛ توییتر"
-      },
-      {
-        "at": "2026-10-26T11:03:34Z",
-        "link": "https://shows.acast.com/business-stories-podcast/episodes/6adf3386677cf6f87d5e8d86",
-        "title": "FEDEX | داستان بیست‌و‌سوم؛ فدکس"
       }
     ],
     "recent_30d": [
@@ -33501,7 +33501,7 @@
       0,
       0,
       0,
-      25
+      26
     ],
     "status": "active"
   },
@@ -54346,8 +54346,8 @@
       0,
       0,
       8,
-      61,
-      96,
+      62,
+      95,
       96,
       93,
       70
