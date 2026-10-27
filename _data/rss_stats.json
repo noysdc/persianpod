@@ -38240,8 +38240,8 @@
       0,
       3,
       3,
-      0,
-      5,
+      1,
+      4,
       4
     ],
     "status": "active"
@@ -54264,10 +54264,10 @@
     "status": "inactive"
   },
   "sri-moazat-klisai-biljik": {
-    "avg_gap_days": 9.8,
+    "avg_gap_days": 9.9,
     "avg_length": 33,
     "episodes": 64,
-    "eps_365": 38,
+    "eps_365": 37,
     "eps_90": 9,
     "first_at": "2025-03-31",
     "first_year": 1404,
