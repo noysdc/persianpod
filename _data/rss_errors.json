@@ -271,10 +271,6 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/t-tarikh"
   },
-  "tsnif-hai-airani": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://musighar.com/category/%D8%AA%D8%B5%D9%86%DB%8C%D9%81-%D9%87%D8%A7%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%DB%8C/feed/"
-  },
   "yuri-on-radio-iori-br-radio": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/yurionradio"
