@@ -24,7 +24,7 @@
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
   "awr-farsi": {
-    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
     "rss": "https://podcasts.awr.org/xml/xmliTunes/FASBE_ROH.xml"
   },
   "baehsan": {
@@ -126,9 +126,5 @@
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://ronakottawa.com/feed/podcast/zaban-o-adabiyat/"
-  },
-  "zndgi-shad-rozanh-ba-jois-mair": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://joycemeyerfa.libsyn.com/rss"
   }
 }
