@@ -7556,8 +7556,8 @@
       }
     ],
     "recent_30d": [
-      1,
-      12,
+      2,
+      11,
       2,
       0,
       0,
@@ -23108,8 +23108,8 @@
       59,
       61,
       52,
-      75,
-      53
+      76,
+      52
     ],
     "status": "active"
   },
@@ -39771,21 +39771,26 @@
     "status": "active"
   },
   "podcast-mosighi-rah-gosh": {
-    "avg_gap_days": 4.4,
-    "avg_length": 69,
-    "episodes": 51,
-    "eps_365": 8,
-    "eps_90": 8,
+    "avg_gap_days": 4.1,
+    "avg_length": 68,
+    "episodes": 52,
+    "eps_365": 9,
+    "eps_90": 9,
     "first_at": "2022-05-10",
     "first_year": 1401,
-    "last": "1405/08/03",
-    "last_at": "2026-10-25T18:30:00Z",
-    "last_link": "https://youtu.be/g5Gwu1vXxTw",
-    "last_title": "نسل زِد موزیسین ایرانی؛ گفت‌وگو با با پرنیان پارسایی (خواننده و قانون‌نواز) و النا بنائی (تارنواز)",
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T18:30:00Z",
+    "last_link": "https://shows.acast.com/rahegoosh/episodes/6adc76b6fe64430a9343e9ab",
+    "last_title": "استندآپ گِله؛ رسام عالَم‌زاده",
     "max_length": 145,
     "median_length": 62,
-    "min_length": 29,
+    "min_length": 16,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6adc76b6fe64430a9343e9ab/media.mp3",
+        "at": "2026-10-27T18:30:00Z",
+        "t": "استندآپ گِله؛ رسام عالَم‌زاده"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6adc7550959e7ea69d97ee04/media.mp3",
         "at": "2026-10-25T18:30:00Z",
@@ -39820,14 +39825,14 @@
         "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6ac375778da1db2e6fb10e07/media.mp3",
         "at": "2026-10-05T18:30:00Z",
         "t": "نسل زِد موزیسین ایرانی؛ گفت‌وگو با علی (ویولن‌نواز) و رامتین (کلارینت‌نواز)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6ab2d2e7f98781f91d8b1b87/media.mp3",
-        "at": "2026-09-24T17:30:00Z",
-        "t": "استندآپ گِله؛ مهدی سیدی‌نژاد"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T18:30:00Z",
+        "link": "https://shows.acast.com/rahegoosh/episodes/6adc76b6fe64430a9343e9ab",
+        "title": "استندآپ گِله؛ رسام عالَم‌زاده"
+      },
       {
         "at": "2026-10-25T18:30:00Z",
         "link": "https://youtu.be/g5Gwu1vXxTw",
@@ -39837,11 +39842,6 @@
         "at": "2026-10-20T18:30:00Z",
         "link": "https://youtu.be/poNQlDKQ3k0",
         "title": "نقدهایِ بدن‌مند در موسیقی ایران"
-      },
-      {
-        "at": "2026-10-18T18:30:00Z",
-        "link": "https://youtu.be/avxAC795a2s",
-        "title": "استندآپ گِله؛ محبوبه شوریده"
       }
     ],
     "recent_30d": [
@@ -39856,7 +39856,7 @@
       0,
       0,
       1,
-      7
+      8
     ],
     "status": "active"
   },
