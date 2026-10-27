@@ -7573,20 +7573,25 @@
   },
   "chh-hsi-dari-roanshnasi-khodshnasi": {
     "avg_gap_days": 1.0,
-    "avg_length": 20,
-    "episodes": 92,
-    "eps_365": 92,
-    "eps_90": 86,
+    "avg_length": 19,
+    "episodes": 93,
+    "eps_365": 93,
+    "eps_90": 87,
     "first_at": "2026-07-29",
     "first_year": 1405,
     "last": "1405/08/05",
-    "last_at": "2026-10-27T19:22:58Z",
-    "last_link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-10-nshkhwar-fkry--76035775",
-    "last_title": "غلبه بر افکار منفی مزاحم ۱۰(نشخوار فکری)",
+    "last_at": "2026-10-27T19:26:19Z",
+    "last_link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-11-nshkhwar-fkry--76036230",
+    "last_title": "غلبه بر افکار منفی مزاحم ۱۱(نشخوار فکری)",
     "max_length": 33,
     "median_length": 16,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76036230/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27hbss5tcdm.mp3",
+        "at": "2026-10-27T19:26:19Z",
+        "t": "غلبه بر افکار منفی مزاحم ۱۱(نشخوار فکری)"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76035775/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27hbsc5tcdm.mp3",
         "at": "2026-10-27T19:22:58Z",
@@ -7621,14 +7626,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75963190/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27qubxaz.mp3",
         "at": "2026-10-24T11:39:20Z",
         "t": "غلبه بر افکار منفی مزاحم ۴"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75925647/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27mubxaz.mp3",
-        "at": "2026-10-22T18:40:46Z",
-        "t": "غلبه بر افکار منفی مزاحم ۳"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T19:26:19Z",
+        "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-11-nshkhwar-fkry--76036230",
+        "title": "غلبه بر افکار منفی مزاحم ۱۱(نشخوار فکری)"
+      },
       {
         "at": "2026-10-27T19:22:58Z",
         "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-10-nshkhwar-fkry--76035775",
@@ -7638,11 +7643,6 @@
         "at": "2026-10-27T09:25:40Z",
         "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-9-nshkhwar-fkry--76022681",
         "title": "غلبه بر افکار منفی مزاحم ۹ (نشخوار فکری)"
-      },
-      {
-        "at": "2026-10-26T19:13:04Z",
-        "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-8-nshkhwar-fkry--76006105",
-        "title": "غلبه بر افکار منفی مزاحم ۸(نشخوار فکری)"
       }
     ],
     "recent_30d": [
@@ -7657,7 +7657,7 @@
       6,
       34,
       19,
-      33
+      34
     ],
     "status": "active"
   },
@@ -45040,8 +45040,8 @@
     "status": "active"
   },
   "radio-ht-trik": {
-    "avg_length": 20,
-    "episodes": 24,
+    "avg_length": 21,
+    "episodes": 23,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-07-21",
@@ -51811,9 +51811,9 @@
     ],
     "recent_30d": [
       18,
-      18,
-      10,
-      20,
+      17,
+      11,
+      19,
       3,
       2,
       4,
@@ -55502,7 +55502,7 @@
     "recent_30d": [
       103,
       117,
-      32,
+      31,
       108,
       0,
       0,
