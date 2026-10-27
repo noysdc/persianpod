@@ -23,9 +23,17 @@
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
+  "awr-farsi": {
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "rss": "https://podcasts.awr.org/xml/xmliTunes/FASBE_ROH.xml"
+  },
   "baehsan": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
+  },
+  "baigani-ha-sda": {
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://musiceiranian.ir/type/audio/feed"
   },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
@@ -92,7 +100,7 @@
     "rss": "https://tehranpodcast.ir/category/pejvakemahoor/feed/"
   },
   "radio-jhani-adontist": {
-    "error": "ValueError: no items in feed",
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
     "rss": "https://podcasts.awr.org/xml/xmliTunes/FASCO_AWR.xml"
   },
   "roait-ahd": {
