@@ -1624,8 +1624,8 @@
     "avg_gap_days": 2.9,
     "avg_length": 7,
     "episodes": 161,
-    "eps_365": 125,
-    "eps_90": 56,
+    "eps_365": 124,
+    "eps_90": 55,
     "first_at": "2025-08-26",
     "first_year": 1404,
     "last": "1405/07/30",
@@ -1696,17 +1696,17 @@
     ],
     "recent_30d": [
       19,
-      13,
+      12,
       0,
       0,
       0,
       0,
       0,
       16,
-      18,
-      21,
       19,
-      16
+      20,
+      20,
+      15
     ],
     "status": "active"
   },
@@ -26466,8 +26466,8 @@
       27,
       26,
       27,
-      27,
-      24,
+      28,
+      23,
       30
     ],
     "status": "active"
@@ -52484,19 +52484,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4215,
-    "eps_365": 796,
-    "eps_90": 256,
+    "episodes": 4216,
+    "eps_365": 797,
+    "eps_90": 257,
     "first_at": "2023-09-13",
     "first_year": 1402,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T18:30:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf547b677cf6f87d6d2158",
-    "last_title": "قسمت چهار هزار و صد و نود و نه",
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T06:30:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf5508b50147298ba72018",
+    "last_title": "قسمت چهار هزار و دویست",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6adf5508b50147298ba72018/media.mp3",
+        "at": "2026-10-27T06:30:00Z",
+        "t": "قسمت چهار هزار و دویست"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6adf547b677cf6f87d6d2158/media.mp3",
         "at": "2026-10-26T18:30:00Z",
@@ -52531,14 +52536,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ad917bc015ffbd139153d06/media.mp3",
         "at": "2026-10-21T19:51:24Z",
         "t": "قسمت چهار هزار و صد و نود و سه"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ad9176785adacac7dea6574/media.mp3",
-        "at": "2026-10-21T19:49:59Z",
-        "t": "قسمت چهار هزار و صد و نود و دو"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T06:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf5508b50147298ba72018",
+        "title": "قسمت چهار هزار و دویست"
+      },
       {
         "at": "2026-10-26T18:30:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf547b677cf6f87d6d2158",
@@ -52548,11 +52553,6 @@
         "at": "2026-10-26T16:30:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf53b6677cf6f87d6ce1d4",
         "title": "قسمت چهار هزار و صد و نود و هشت"
-      },
-      {
-        "at": "2026-10-26T13:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf5089b50147298ba50a96",
-        "title": "قسمت چهار هزار و صد و نود و هفت"
       }
     ],
     "recent_30d": [
@@ -52567,7 +52567,7 @@
       97,
       96,
       93,
-      67
+      68
     ],
     "status": "active"
   },
