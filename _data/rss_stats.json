@@ -25688,8 +25688,8 @@
       2,
       0,
       7,
-      39,
-      84,
+      40,
+      83,
       40,
       35,
       17
@@ -40663,8 +40663,8 @@
       2,
       5,
       3,
-      5,
-      4,
+      6,
+      3,
       3
     ],
     "status": "active"
@@ -49054,10 +49054,10 @@
     "status": "inactive"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.2,
+    "avg_gap_days": 4.3,
     "avg_length": 20,
     "episodes": 482,
-    "eps_365": 87,
+    "eps_365": 86,
     "eps_90": 22,
     "first_at": "2024-09-02",
     "first_year": 1403,
@@ -50759,21 +50759,26 @@
     "status": "inactive"
   },
   "shar-kst": {
-    "avg_gap_days": 9.9,
+    "avg_gap_days": 9.6,
     "avg_length": 5,
-    "episodes": 173,
-    "eps_365": 36,
-    "eps_90": 32,
+    "episodes": 174,
+    "eps_365": 37,
+    "eps_90": 33,
     "first_at": "2022-05-04",
     "first_year": 1401,
     "last": "1405/08/05",
-    "last_at": "2026-10-27T06:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/7d216784-5bb4-492c-8b21-fea631c12ad0/play.mp3",
-    "last_title": "صد و هفتاد و دو - شیشه‌گر: منسوب به خیام",
+    "last_at": "2026-10-27T10:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/be521508-1b3c-4223-99a9-3d81e53b11d5/play.mp3",
+    "last_title": "صد و هفتاد و سه – گُلِ تازه: منسوب به خیام",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/be521508-1b3c-4223-99a9-3d81e53b11d5/play.mp3",
+        "at": "2026-10-27T10:30:00Z",
+        "t": "صد و هفتاد و سه – گُلِ تازه: منسوب به خیام"
+      },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/7d216784-5bb4-492c-8b21-fea631c12ad0/play.mp3",
         "at": "2026-10-27T06:30:00Z",
@@ -50808,14 +50813,14 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/13ae72dc-9f75-4b4b-9096-a3fd2d20004d/play.mp3",
         "at": "2026-10-24T16:36:00Z",
         "t": "صد و شصت و شش - جسُتنِ جام جم: خیام"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/d1989956-9abc-44cd-8749-87739213b316/play.mp3",
-        "at": "2026-10-24T16:35:57Z",
-        "t": "صد و شصت و پنج - کارگهِ کوزه‌گر: خیام"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T10:30:00Z",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/be521508-1b3c-4223-99a9-3d81e53b11d5/play.mp3",
+        "title": "صد و هفتاد و سه – گُلِ تازه: منسوب به خیام"
+      },
       {
         "at": "2026-10-27T06:30:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/7d216784-5bb4-492c-8b21-fea631c12ad0/play.mp3",
@@ -50825,11 +50830,6 @@
         "at": "2026-10-26T16:30:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/a2fdd08c-9ee7-4c15-8f9c-df0d55cf9ac2/play.mp3",
         "title": "صد و هفتاد و یک - فلکِ گرداگرد: منسوب به خیام"
-      },
-      {
-        "at": "2026-10-26T12:30:00Z",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/9c04dc1d-31a4-4029-8a21-296691d311ba/play.mp3",
-        "title": "صد و هفتاد - رخِ لاله: منسوب به خیام"
       }
     ],
     "recent_30d": [
@@ -50844,7 +50844,7 @@
       1,
       2,
       0,
-      30
+      31
     ],
     "status": "active"
   },
