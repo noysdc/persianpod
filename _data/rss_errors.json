@@ -51,10 +51,6 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Eveningart"
   },
-  "awr-farsi": {
-    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
-    "rss": "https://podcasts.awr.org/xml/xmliTunes/FASBE_ROH.xml"
-  },
   "baehsan": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
@@ -98,10 +94,6 @@
   "hafz-khoani-bh-roait-ahmd-shamlo": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/HAfEZ-e-SHAMLU"
-  },
-  "han": {
-    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.audiyacreators.one/cmispceibuk0wxtn1k1lx"
   },
   "hnr-jng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -212,7 +204,7 @@
     "rss": "https://shenoto.net/service/api/feed/travelmelody"
   },
   "radio-jhani-adontist": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "error": "ValueError: no items in feed",
     "rss": "https://podcasts.awr.org/xml/xmliTunes/FASCO_AWR.xml"
   },
   "radio-roait": {
@@ -262,6 +254,10 @@
   "shahnamh-khodmoni": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/shahname"
+  },
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "shar-o-tranh-hai-amir-khoshaoi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",

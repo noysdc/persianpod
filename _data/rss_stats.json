@@ -7655,8 +7655,8 @@
       0,
       0,
       6,
-      33,
-      20,
+      34,
+      19,
       32
     ],
     "status": "active"
@@ -52005,24 +52005,29 @@
     "status": "inactive"
   },
   "shar-kst": {
-    "avg_gap_days": 9.4,
+    "avg_gap_days": 9.1,
     "avg_length": 5,
-    "episodes": 175,
-    "eps_365": 38,
-    "eps_90": 34,
+    "episodes": 176,
+    "eps_365": 39,
+    "eps_90": 35,
     "first_at": "2022-05-04",
     "first_year": 1401,
     "last": "1405/08/05",
-    "last_at": "2026-10-27T17:04:45Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ca736138-bcf4-4f16-abe5-fe74cc5b74c2/play.mp3",
-    "last_title": "صد و هفتاد و چهار - خور و خواب: منسوب به خیام",
+    "last_at": "2026-10-27T17:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/92ca5135-562a-4ec3-a844-873dbe8eda56/play.mp3",
+    "last_title": "صد و هفتاد و پنج - جورِ فَلَک: منسوب به خیام",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
       {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/92ca5135-562a-4ec3-a844-873dbe8eda56/play.mp3",
+        "at": "2026-10-27T17:30:00Z",
+        "t": "صد و هفتاد و پنج - جورِ فَلَک: منسوب به خیام"
+      },
+      {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ca736138-bcf4-4f16-abe5-fe74cc5b74c2/play.mp3",
-        "at": "2026-10-27T17:04:45Z",
+        "at": "2026-10-27T16:28:30Z",
         "t": "صد و هفتاد و چهار - خور و خواب: منسوب به خیام"
       },
       {
@@ -52054,16 +52059,16 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/232a2a66-8d54-4efb-8e34-a8eb5ccdc3e3/play.mp3",
         "at": "2026-10-25T16:31:00Z",
         "t": "صد و شصت و هشت - لگدِ تجربه: منسوب به خیام"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/23cc2f37-ed0f-44f9-bffa-8368b899b642/play.mp3",
-        "at": "2026-10-25T16:30:00Z",
-        "t": "صد و شصت و هفت - چهار و هفت: خیام"
       }
     ],
     "recent": [
       {
-        "at": "2026-10-27T17:04:45Z",
+        "at": "2026-10-27T17:30:00Z",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/92ca5135-562a-4ec3-a844-873dbe8eda56/play.mp3",
+        "title": "صد و هفتاد و پنج - جورِ فَلَک: منسوب به خیام"
+      },
+      {
+        "at": "2026-10-27T16:28:30Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ca736138-bcf4-4f16-abe5-fe74cc5b74c2/play.mp3",
         "title": "صد و هفتاد و چهار - خور و خواب: منسوب به خیام"
       },
@@ -52071,11 +52076,6 @@
         "at": "2026-10-27T10:30:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/be521508-1b3c-4223-99a9-3d81e53b11d5/play.mp3",
         "title": "صد و هفتاد و سه – گُلِ تازه: منسوب به خیام"
-      },
-      {
-        "at": "2026-10-27T06:30:00Z",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/7d216784-5bb4-492c-8b21-fea631c12ad0/play.mp3",
-        "title": "صد و هفتاد و دو - شیشه‌گر: منسوب به خیام"
       }
     ],
     "recent_30d": [
@@ -52090,7 +52090,7 @@
       1,
       2,
       0,
-      32
+      33
     ],
     "status": "active"
   },
