@@ -44,7 +44,7 @@
     "rss": "https://shenoto.net/service/api/feed/alefquf"
   },
   "archgap-padkst-mamari-aark-gp": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
   "asranh-hnr": {
@@ -254,10 +254,6 @@
   "shahnamh-khodmoni": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/shahname"
-  },
-  "shar-o-ghsh-khoani": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
-    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "shar-o-tranh-hai-amir-khoshaoi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
