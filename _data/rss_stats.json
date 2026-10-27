@@ -3468,19 +3468,24 @@
   "ali-sdart": {
     "avg_gap_days": 4.9,
     "avg_length": 32,
-    "episodes": 446,
-    "eps_365": 74,
-    "eps_90": 15,
+    "episodes": 447,
+    "eps_365": 75,
+    "eps_90": 16,
     "first_at": "2020-06-15",
     "first_year": 1399,
-    "last": "1405/07/30",
-    "last_at": "2026-10-22T18:33:17Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qtuf6",
-    "last_title": "صدارت-نیاز قدرت‌ها برای جابجایی جایگاه خادمان و خائنان، در جنگ روانی آن‌ها علیه ملت‌ها",
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T01:32:08Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3r59mh",
+    "last_title": "صدارت⁠- سرنوشت نامشخص ما، با نقش‌آفرینی توسط ما مردم مشخص می‌شود، نه با دخالت قدرت‌ها و احزاب",
     "max_length": 146,
     "median_length": 38,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/2f313e0c/podcast/play/128148625/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F86d1b280-fce8-230c-d7b1-e99d9f78068e.mp3",
+        "at": "2026-10-27T01:32:08Z",
+        "t": "صدارت⁠- سرنوشت نامشخص ما، با نقش‌آفرینی توسط ما مردم مشخص می‌شود، نه با دخالت قدرت‌ها و احزاب"
+      },
       {
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/127907750/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-22%2F9d161e04-f7b2-ef1e-1e1a-fcd5ecfd329a.mp3",
         "at": "2026-10-22T18:33:17Z",
@@ -3515,14 +3520,14 @@
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/125873918/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-17%2F2494683d-5bef-da19-d13c-c0225399b9e1.mp3",
         "at": "2026-09-17T16:51:40Z",
         "t": "⁠صدارت⁠- نقش رسانه‌های شخصی در کاهش انحصار روایت‌سازی قدرت‌ها و کم‌اثرتر شدن اسلحه در دست ابرقدرت‌ها"
-      },
-      {
-        "a": "https://anchor.fm/s/2f313e0c/podcast/play/125359001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-7%2F87fce4f7-3f6b-e115-d3f3-fb1beca18f19.mp3",
-        "at": "2026-09-07T20:31:11Z",
-        "t": "⁠صدارت⁠- اگر تعداد بیشتری از ما مردم، در جنبش‌های اخیر، خشونت‌زدایی پیشه می‌کردیم…!؟ درس تجربه!"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T01:32:08Z",
+        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3r59mh",
+        "title": "صدارت⁠- سرنوشت نامشخص ما، با نقش‌آفرینی توسط ما مردم مشخص می‌شود، نه با دخالت قدرت‌ها و احزاب"
+      },
       {
         "at": "2026-10-22T18:33:17Z",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qtuf6",
@@ -3532,11 +3537,6 @@
         "at": "2026-10-20T00:43:47Z",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qp4si",
         "title": "صدارت⁠- تهدید «مادر همه بمب‌ها» توسط «مادر همه ابرقدرت‌ها» بعد از «مادر همه انتخابات‌ها»!؟"
-      },
-      {
-        "at": "2026-10-15T12:43:19Z",
-        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/---e3qi1qp",
-        "title": "صدارت--پنجمین سال فقدان بنی‌صدر؛ جای خالیِ حقوق‌مداری، به‌ویژه استقلال و آزادی"
       }
     ],
     "recent_30d": [
@@ -3551,7 +3551,7 @@
       5,
       6,
       4,
-      5
+      6
     ],
     "status": "active"
   },
