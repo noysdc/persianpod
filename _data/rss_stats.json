@@ -1624,8 +1624,8 @@
     "avg_gap_days": 2.9,
     "avg_length": 7,
     "episodes": 161,
-    "eps_365": 125,
-    "eps_90": 56,
+    "eps_365": 124,
+    "eps_90": 55,
     "first_at": "2025-08-26",
     "first_year": 1404,
     "last": "1405/07/30",
@@ -1696,17 +1696,17 @@
     ],
     "recent_30d": [
       19,
-      13,
+      12,
       0,
       0,
       0,
       0,
       0,
-      16,
+      17,
       18,
-      21,
-      19,
-      16
+      20,
+      20,
+      15
     ],
     "status": "active"
   },
@@ -1984,7 +1984,7 @@
     "avg_length": 7,
     "episodes": 82,
     "eps_365": 82,
-    "eps_90": 59,
+    "eps_90": 58,
     "first_at": "2026-07-06",
     "first_year": 1405,
     "last": "1405/08/04",
@@ -2062,8 +2062,8 @@
       0,
       0,
       0,
-      23,
-      32,
+      24,
+      31,
       19,
       8
     ],
@@ -6318,10 +6318,10 @@
     "status": "active"
   },
   "biografi": {
-    "avg_gap_days": 9.6,
+    "avg_gap_days": 9.7,
     "avg_length": 39,
     "episodes": 128,
-    "eps_365": 39,
+    "eps_365": 38,
     "eps_90": 17,
     "first_at": "2023-03-08",
     "first_year": 1401,
@@ -6590,7 +6590,7 @@
     "avg_gap_days": 6.1,
     "avg_length": 64,
     "episodes": 298,
-    "eps_365": 60,
+    "eps_365": 59,
     "eps_90": 11,
     "first_at": "2018-05-01",
     "first_year": 1397,
@@ -6847,8 +6847,8 @@
       0,
       0,
       0,
-      4,
       5,
+      4,
       4,
       4,
       5
@@ -8273,9 +8273,9 @@
       4,
       0,
       3,
-      3,
+      4,
       5,
-      5,
+      4,
       4,
       0,
       0,
@@ -10512,7 +10512,7 @@
     "avg_length": 37,
     "episodes": 157,
     "eps_365": 27,
-    "eps_90": 7,
+    "eps_90": 6,
     "first_at": "2020-06-13",
     "first_year": 1399,
     "last": "1405/08/02",
@@ -10590,8 +10590,8 @@
       3,
       0,
       0,
-      0,
-      3,
+      1,
+      2,
       3,
       1
     ],
@@ -13854,12 +13854,12 @@
       0,
       0,
       0,
-      23,
+      24,
       29,
-      8,
-      4,
+      7,
+      5,
       29,
-      1
+      0
     ],
     "status": "active"
   },
@@ -15463,8 +15463,8 @@
       0,
       2,
       1,
-      2,
       3,
+      2,
       0
     ],
     "status": "active"
@@ -17891,10 +17891,10 @@
     "status": "active"
   },
   "jadh-mofghit": {
-    "avg_gap_days": 1.5,
+    "avg_gap_days": 1.6,
     "avg_length": 48,
     "episodes": 1272,
-    "eps_365": 165,
+    "eps_365": 162,
     "eps_90": 0,
     "first_at": "2020-04-04",
     "first_year": 1399,
@@ -17966,13 +17966,13 @@
     ],
     "recent_30d": [
       62,
-      30,
-      23,
+      31,
+      22,
       0,
       0,
       0,
-      0,
-      27,
+      1,
+      26,
       7,
       0,
       0,
@@ -18765,6 +18765,50 @@
         "at": "2026-10-26T14:37:07Z",
         "link": "https://play.rabt.host/podcast/5e10e1f2-695c-4fe4-8ed5-ec9303e19c92/episode/1e9dae3f-b33c-41c3-a49d-054844b4c99e/play.mp3",
         "title": "اپیزود اول - گربه زیر باران"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "status": "active"
+  },
+  "kadi-podcast": {
+    "avg_length": 3,
+    "episodes": 1,
+    "eps_365": 1,
+    "eps_90": 1,
+    "first_at": "2026-10-26",
+    "first_year": 1405,
+    "last": "1405/08/04",
+    "last_at": "2026-10-26T07:51:54Z",
+    "last_link": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/c47d0f4f-832f-41eb-8de9-5bd7d8ff2a7d/play.mp3",
+    "last_title": "اپیزود صفر - معرفی پادکست کادی",
+    "max_length": 3,
+    "median_length": 3,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/c47d0f4f-832f-41eb-8de9-5bd7d8ff2a7d/play.mp3",
+        "at": "2026-10-26T07:51:54Z",
+        "t": "اپیزود صفر - معرفی پادکست کادی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-26T07:51:54Z",
+        "link": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/c47d0f4f-832f-41eb-8de9-5bd7d8ff2a7d/play.mp3",
+        "title": "اپیزود صفر - معرفی پادکست کادی"
       }
     ],
     "recent_30d": [
@@ -21019,7 +21063,7 @@
     "avg_length": 9,
     "episodes": 345,
     "eps_365": 53,
-    "eps_90": 16,
+    "eps_90": 15,
     "first_at": "2017-12-05",
     "first_year": 1396,
     "last": "1405/08/04",
@@ -21097,8 +21141,8 @@
       4,
       4,
       7,
-      4,
-      6,
+      5,
+      5,
       3,
       7
     ],
@@ -24852,7 +24896,7 @@
     "avg_length": 25,
     "episodes": 377,
     "eps_365": 377,
-    "eps_90": 94,
+    "eps_90": 92,
     "first_at": "2025-11-03",
     "first_year": 1404,
     "last": "1405/07/26",
@@ -24930,10 +24974,10 @@
       0,
       7,
       38,
-      83,
-      42,
-      34,
-      18
+      85,
+      40,
+      35,
+      17
     ],
     "status": "active"
   },
@@ -25629,7 +25673,7 @@
     "avg_length": 4,
     "episodes": 184,
     "eps_365": 132,
-    "eps_90": 13,
+    "eps_90": 12,
     "first_at": "2025-06-28",
     "first_year": 1404,
     "last": "1405/06/04",
@@ -25705,10 +25749,10 @@
       13,
       13,
       13,
-      12,
+      13,
       14,
       13,
-      13,
+      12,
       0,
       0
     ],
@@ -26341,19 +26385,24 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 981,
-    "eps_365": 328,
+    "episodes": 982,
+    "eps_365": 329,
     "eps_90": 81,
     "first_at": "2023-11-21",
     "first_year": 1402,
     "last": "1405/08/05",
-    "last_at": "2026-10-27T02:50:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/rise-in-ai-powered-cyber-attacks-australia/ulnd6ov29",
-    "last_title": "افزایش حملات سایبری مبتنی بر هوش مصنوعی در استرالیا؛ هشدار درباره اختلال در خدمات",
+    "last_at": "2026-10-27T04:36:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/economists-warn-australians-should-brace-for-another-interest-rate-hike/nzfi54qlm",
+    "last_title": "هشدار اقتصاددانان؛ استرالیایی‌ها برای افزایش دوباره نرخ بهره آماده باشند",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261027153611_225615-persian-f6b50c7a-eeb1-455a-873d-5da7dc1c56b2.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-7ba0-db6d-a7e3-7ffa43de0000&dur_cat=3",
+        "at": "2026-10-27T04:36:00Z",
+        "t": "هشدار اقتصاددانان؛ استرالیایی‌ها برای افزایش دوباره نرخ بهره آماده باشند"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261027135106_385510-persian-e30e08f3-3f68-42d5-9fa5-90f41a4562d5.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-7b25-d326-a5fb-ff2dbeb80000&dur_cat=2",
         "at": "2026-10-27T02:50:00Z",
@@ -26388,14 +26437,14 @@
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261020121816_159501-persian-201026-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-56dc-d0ee-a1ef-f7fef0890000&dur_cat=2",
         "at": "2026-10-20T01:17:00Z",
         "t": "شناسایی مهاجم ادعایی هلن هینز؛ نگرانی‌ها درباره افزایش خشونت سیاسی در استرالیا"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261019133220_664270-persian-191026-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-51fb-db26-a7b9-79ffb8b30000&dur_cat=2",
-        "at": "2026-10-19T02:32:00Z",
-        "t": "فشار برای تصویب توافق تجارت آزاد با اروپا؛ دولت افزایش GST را رد کرد"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T04:36:00Z",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/economists-warn-australians-should-brace-for-another-interest-rate-hike/nzfi54qlm",
+        "title": "هشدار اقتصاددانان؛ استرالیایی‌ها برای افزایش دوباره نرخ بهره آماده باشند"
+      },
       {
         "at": "2026-10-27T02:50:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/rise-in-ai-powered-cyber-attacks-australia/ulnd6ov29",
@@ -26405,26 +26454,21 @@
         "at": "2026-10-26T03:35:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/lula-da-silva-re-elected-brazil-president/1p0bgqneo",
         "title": "پیروزی دوباره لولا دا سیلوا در انتخابات ریاست‌جمهوری برزیل پس از رقابتی نزدیک"
-      },
-      {
-        "at": "2026-10-23T02:45:00Z",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/600k-raised-charity-alleged-attack-helen-haines/zswkna6ql",
-        "title": "جمع‌آوری بیش از ۶۰۰ هزار دلار کمک مردمی برای امور خیریه، در پی حمله ادعایی به هلن هینز، نماینده پارلمان استرالیا"
       }
     ],
     "recent_30d": [
       27,
-      23,
-      29,
-      26,
-      29,
+      24,
       28,
+      26,
+      30,
+      27,
       27,
       26,
-      26,
+      27,
       28,
-      24,
-      29
+      23,
+      30
     ],
     "status": "active"
   },
@@ -28649,8 +28693,8 @@
     "recent_30d": [
       2,
       2,
-      2,
-      6,
+      3,
+      5,
       1,
       10,
       8,
@@ -30591,7 +30635,7 @@
       }
     ],
     "recent_30d": [
-      3,
+      2,
       2,
       0,
       0,
@@ -32036,7 +32080,7 @@
     "avg_length": 47,
     "episodes": 176,
     "eps_365": 38,
-    "eps_90": 14,
+    "eps_90": 13,
     "first_at": "2024-04-12",
     "first_year": 1403,
     "last": "1405/08/03",
@@ -32114,8 +32158,8 @@
       0,
       1,
       8,
-      3,
-      7,
+      4,
+      6,
       3,
       4
     ],
@@ -36223,8 +36267,8 @@
     "recent_30d": [
       3,
       0,
-      2,
-      5,
+      3,
+      4,
       5,
       1,
       0,
@@ -37933,8 +37977,8 @@
       0,
       0,
       2,
-      3,
       4,
+      3,
       1
     ],
     "status": "active"
@@ -38554,8 +38598,8 @@
       4,
       1,
       1,
-      4,
-      9,
+      5,
+      8,
       2,
       5,
       8,
@@ -39726,8 +39770,8 @@
       10,
       8,
       10,
-      3,
-      9
+      4,
+      8
     ],
     "status": "active"
   },
@@ -40450,7 +40494,7 @@
     "avg_length": 20,
     "episodes": 112,
     "eps_365": 20,
-    "eps_90": 13,
+    "eps_90": 12,
     "first_at": "2017-01-09",
     "first_year": 1395,
     "last": "1405/07/29",
@@ -40528,8 +40572,8 @@
       0,
       0,
       3,
-      4,
       5,
+      4,
       4,
       4
     ],
@@ -41147,8 +41191,8 @@
     "recent_30d": [
       3,
       5,
-      4,
       5,
+      4,
       4,
       2,
       0,
@@ -42047,8 +42091,8 @@
       0,
       3,
       3,
-      3,
-      2,
+      4,
+      1,
       4
     ],
     "status": "active"
@@ -43652,8 +43696,8 @@
       0,
       0,
       0,
-      17,
-      7,
+      18,
+      6,
       2,
       2,
       8
@@ -44553,20 +44597,25 @@
   },
   "radio-shakh": {
     "avg_gap_days": 2.7,
-    "avg_length": 63,
-    "episodes": 220,
-    "eps_365": 131,
-    "eps_90": 35,
+    "avg_length": 62,
+    "episodes": 221,
+    "eps_365": 132,
+    "eps_90": 36,
     "first_at": "2024-10-31",
     "first_year": 1403,
-    "last": "1405/08/02",
-    "last_at": "2026-10-24T04:41:16Z",
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T07:08:36Z",
     "last_link": "https://www.yourvoice.fm",
-    "last_title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۴ | از دافِ کاخ سفید تا الاغِ صداوسیما",
+    "last_title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۵ | از سوءتفاهم‌های عاشقانه تا پرونده‌سازی‌های طائبانه",
     "max_length": 198,
     "median_length": 63,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6721c1d9fab47fdf26442707/e/6ae04bd46df23078115d4476/media.mp3",
+        "at": "2026-10-27T07:08:36Z",
+        "t": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۵ | از سوءتفاهم‌های عاشقانه تا پرونده‌سازی‌های طائبانه"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6721c1d9fab47fdf26442707/e/6adc35e34395ebfbf19708fe/media.mp3",
         "at": "2026-10-24T04:41:16Z",
@@ -44601,14 +44650,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6721c1d9fab47fdf26442707/e/6ac9c89f3b418431374c77bb/media.mp3",
         "at": "2026-10-10T05:43:33Z",
         "t": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۱۸ | پیاده‌روی بی‌هدف ممنوع"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6721c1d9fab47fdf26442707/e/6ac730979fea6e0a64f4e258/media.mp3",
-        "at": "2026-10-08T06:02:53Z",
-        "t": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۱۷ | از آرشه‌کشیِ بیژن در تهران تا ماله‌کشیِ عباس در جهان"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T07:08:36Z",
+        "link": "https://www.yourvoice.fm",
+        "title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۵ | از سوءتفاهم‌های عاشقانه تا پرونده‌سازی‌های طائبانه"
+      },
       {
         "at": "2026-10-24T04:41:16Z",
         "link": "https://www.yourvoice.fm",
@@ -44618,26 +44667,21 @@
         "at": "2026-10-22T05:34:24Z",
         "link": "https://www.yourvoice.fm",
         "title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۳ | ترامپ در قفس، روحانی در استخر"
-      },
-      {
-        "at": "2026-10-20T06:50:10Z",
-        "link": "https://www.yourvoice.fm",
-        "title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۲ | ماجراهای خانواده‌ی بمب‌ها"
       }
     ],
     "recent_30d": [
       5,
-      11,
-      12,
-      13,
-      6,
-      13,
-      12,
-      12,
       12,
       11,
       13,
-      11
+      7,
+      13,
+      12,
+      11,
+      12,
+      11,
+      13,
+      12
     ],
     "status": "active"
   },
@@ -45970,8 +46014,8 @@
       }
     ],
     "recent_30d": [
-      5,
-      8,
+      6,
+      7,
       0,
       0,
       0,
@@ -47567,8 +47611,8 @@
     "recent_30d": [
       1,
       1,
-      0,
       1,
+      0,
       1,
       2,
       0,
@@ -47754,8 +47798,8 @@
       0,
       0,
       1,
-      6,
-      4,
+      7,
+      3,
       7
     ],
     "status": "active"
@@ -47925,7 +47969,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       5,
       1,
       0,
@@ -48734,15 +48778,15 @@
     "recent_30d": [
       9,
       10,
-      3,
-      8,
+      4,
+      7,
       0,
       2,
       3,
-      8,
       9,
-      5,
+      8,
       6,
+      5,
       6
     ],
     "status": "active"
@@ -49106,21 +49150,26 @@
     "status": "inactive"
   },
   "shar-kst": {
-    "avg_gap_days": 10.2,
+    "avg_gap_days": 9.9,
     "avg_length": 5,
-    "episodes": 172,
-    "eps_365": 35,
-    "eps_90": 31,
+    "episodes": 173,
+    "eps_365": 36,
+    "eps_90": 32,
     "first_at": "2022-05-04",
     "first_year": 1401,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T16:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/a2fdd08c-9ee7-4c15-8f9c-df0d55cf9ac2/play.mp3",
-    "last_title": "صد و هفتاد و یک - فلکِ گرداگرد: منسوب به خیام",
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T06:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/7d216784-5bb4-492c-8b21-fea631c12ad0/play.mp3",
+    "last_title": "صد و هفتاد و دو - شیشه‌گر: منسوب به خیام",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/7d216784-5bb4-492c-8b21-fea631c12ad0/play.mp3",
+        "at": "2026-10-27T06:30:00Z",
+        "t": "صد و هفتاد و دو - شیشه‌گر: منسوب به خیام"
+      },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/a2fdd08c-9ee7-4c15-8f9c-df0d55cf9ac2/play.mp3",
         "at": "2026-10-26T16:30:00Z",
@@ -49155,14 +49204,14 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/d1989956-9abc-44cd-8749-87739213b316/play.mp3",
         "at": "2026-10-24T16:35:57Z",
         "t": "صد و شصت و پنج - کارگهِ کوزه‌گر: خیام"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/51f421cd-4d18-40a6-b37e-991016006174/play.mp3",
-        "at": "2026-10-24T16:30:00Z",
-        "t": "صد و شصت و چهار - صحرای علل: خیام"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T06:30:00Z",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/7d216784-5bb4-492c-8b21-fea631c12ad0/play.mp3",
+        "title": "صد و هفتاد و دو - شیشه‌گر: منسوب به خیام"
+      },
       {
         "at": "2026-10-26T16:30:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/a2fdd08c-9ee7-4c15-8f9c-df0d55cf9ac2/play.mp3",
@@ -49172,11 +49221,6 @@
         "at": "2026-10-26T12:30:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/9c04dc1d-31a4-4029-8a21-296691d311ba/play.mp3",
         "title": "صد و هفتاد - رخِ لاله: منسوب به خیام"
-      },
-      {
-        "at": "2026-10-25T16:32:00Z",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/7b6f4567-b6df-416b-aab6-99eeb0bb0cfb/play.mp3",
-        "title": "صد و شصت و نه - رخِ نازنین: منسوب به خیام"
       }
     ],
     "recent_30d": [
@@ -49191,7 +49235,7 @@
       1,
       2,
       0,
-      29
+      30
     ],
     "status": "active"
   },
@@ -49486,8 +49530,8 @@
       0,
       0,
       0,
-      1,
-      4,
+      2,
+      3,
       0
     ],
     "status": "active"
@@ -52440,19 +52484,34 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4215,
-    "eps_365": 796,
-    "eps_90": 256,
+    "episodes": 4218,
+    "eps_365": 799,
+    "eps_90": 259,
     "first_at": "2023-09-13",
     "first_year": 1402,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T18:30:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf547b677cf6f87d6d2158",
-    "last_title": "قسمت چهار هزار و صد و نود و نه",
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T07:30:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf578fb50147298ba83618",
+    "last_title": "قسمت چهار هزار و دویست  و دو",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6adf578fb50147298ba83618/media.mp3",
+        "at": "2026-10-27T07:30:00Z",
+        "t": "قسمت چهار هزار و دویست  و دو"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6adf5671dd08c5f770cf7d43/media.mp3",
+        "at": "2026-10-27T07:05:00Z",
+        "t": "قسمت چهار هزار و دویست  و یک"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6adf5508b50147298ba72018/media.mp3",
+        "at": "2026-10-27T06:30:00Z",
+        "t": "قسمت چهار هزار و دویست"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6adf547b677cf6f87d6d2158/media.mp3",
         "at": "2026-10-26T18:30:00Z",
@@ -52477,38 +52536,23 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ada719ca25058b22abd6d81/media.mp3",
         "at": "2026-10-22T20:27:10Z",
         "t": "قسمت چهار هزار و صد و نود و پنج"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ad917f71eb6e512e57c185f/media.mp3",
-        "at": "2026-10-21T20:15:00Z",
-        "t": "قسمت چهار هزار و صد و نود و چهار"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ad917bc015ffbd139153d06/media.mp3",
-        "at": "2026-10-21T19:51:24Z",
-        "t": "قسمت چهار هزار و صد و نود و سه"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ad9176785adacac7dea6574/media.mp3",
-        "at": "2026-10-21T19:49:59Z",
-        "t": "قسمت چهار هزار و صد و نود و دو"
       }
     ],
     "recent": [
       {
-        "at": "2026-10-26T18:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf547b677cf6f87d6d2158",
-        "title": "قسمت چهار هزار و صد و نود و نه"
+        "at": "2026-10-27T07:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf578fb50147298ba83618",
+        "title": "قسمت چهار هزار و دویست  و دو"
       },
       {
-        "at": "2026-10-26T16:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf53b6677cf6f87d6ce1d4",
-        "title": "قسمت چهار هزار و صد و نود و هشت"
+        "at": "2026-10-27T07:05:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf5671dd08c5f770cf7d43",
+        "title": "قسمت چهار هزار و دویست  و یک"
       },
       {
-        "at": "2026-10-26T13:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf5089b50147298ba50a96",
-        "title": "قسمت چهار هزار و صد و نود و هفت"
+        "at": "2026-10-27T06:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6adf5508b50147298ba72018",
+        "title": "قسمت چهار هزار و دویست"
       }
     ],
     "recent_30d": [
@@ -52521,9 +52565,9 @@
       8,
       60,
       97,
-      95,
-      94,
-      67
+      96,
+      93,
+      70
     ],
     "status": "active"
   },
@@ -53855,12 +53899,12 @@
     "recent_30d": [
       29,
       26,
-      11,
-      39,
+      12,
+      38,
       0,
       3,
-      14,
-      8,
+      15,
+      7,
       12,
       39,
       40,
@@ -54407,10 +54451,10 @@
     "status": "active"
   },
   "women-in-science": {
-    "avg_gap_days": 81.8,
+    "avg_gap_days": 98.0,
     "avg_length": 45,
     "episodes": 17,
-    "eps_365": 5,
+    "eps_365": 4,
     "eps_90": 1,
     "first_at": "2025-01-12",
     "first_year": 1403,
