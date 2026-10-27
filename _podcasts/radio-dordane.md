@@ -10,7 +10,7 @@ language: "فارسی"
 status: "active"
 start_year: 1405
 creator: "مهدی تودی"
-email: "imahdi.today@gmail.com"
+email: ""
 rss: "https://anchor.fm/s/1193981e4/podcast/rss"
 website: "https://dordane.shop"
 instagram: "https://www.instagram.com/dordane.store/"
