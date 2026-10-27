@@ -713,10 +713,10 @@
     "status": "inactive"
   },
   "aamozsh-fransh-ba-mstfi-shalchi": {
-    "avg_gap_days": 2.2,
+    "avg_gap_days": 2.3,
     "avg_length": 9,
     "episodes": 38,
-    "eps_365": 11,
+    "eps_365": 10,
     "eps_90": 0,
     "first_at": "2021-08-04",
     "first_year": 1400,
@@ -787,7 +787,7 @@
       }
     ],
     "recent_30d": [
-      9,
+      8,
       0,
       0,
       0,
@@ -2960,8 +2960,8 @@
       0,
       0,
       0,
-      1,
-      1
+      2,
+      0
     ],
     "status": "active"
   },
@@ -6680,7 +6680,7 @@
     "avg_length": 46,
     "episodes": 57,
     "eps_365": 13,
-    "eps_90": 9,
+    "eps_90": 8,
     "first_at": "2021-03-09",
     "first_year": 1399,
     "last": "1405/07/15",
@@ -6758,8 +6758,8 @@
       0,
       0,
       2,
-      2,
-      6,
+      3,
+      5,
       1,
       2
     ],
@@ -25681,9 +25681,9 @@
       }
     ],
     "recent_30d": [
-      52,
+      53,
       43,
-      12,
+      11,
       46,
       2,
       0,
