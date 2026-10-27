@@ -1,28 +1,22 @@
 ## گزارش تأیید و انتقال
 
-- منتقل‌شده از `_drafts/` به `_podcasts/`: **20**
+- منتقل‌شده از `_drafts/` به `_podcasts/`: **14**
 - ردشده (تکراری یا از قبل موجود): 0
-- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **118**
+- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **121**
 
 ### منتقل‌شده
-- `aaoai-mhit-zist.md`
-- `alf-ghaf.md`
-- `chnin-shd.md`
-- `ghraan-soti-bh-farsi.md`
-- `hs-khob.md`
-- `ik-astkan-chai.md`
-- `kafh-ghrfh.md`
-- `khanh-adb-parsi-sadi-khoani-ba-kioan-ord.md`
-- `khodshnasi-aait-allh-norozi-dorh-21.md`
-- `malino.md`
-- `mghz-hoshmnd-raz-tndrsti-mhrtn.md`
-- `podcast-hoadari-prspolis.md`
-- `podcast-mzrah-sbz.md`
-- `radio-mhsa.md`
-- `radio-nmashom.md`
-- `raoi.md`
-- `roaitchi.md`
-- `roankao.md`
-- `rza-brahni.md`
-- `taksi-soari.md`
+- `akhbar-bit-ion.md`
+- `astodio-parking.md`
+- `hosh-trsnak.md`
+- `hoshiarsho.md`
+- `ktab-soti-bar-hsti-asr-milan-kondra.md`
+- `majrai-mshroth.md`
+- `nature-radio-l-radio-tbiat.md`
+- `oght-ghsh.md`
+- `podcast-airanika-iranika-podcast.md`
+- `podcast-zban-zir-zrh-bin.md`
+- `radio-markt.md`
+- `rkhtkn-bazndh-ha.md`
+- `shahnameh-bekhanim-shahnamh-bkhoanim.md`
+- `zhn-ziba.md`
 

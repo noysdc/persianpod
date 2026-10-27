@@ -17,8 +17,8 @@ pi_id: 1816995
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # کتاب صوتی «بار هستی» اثر میلان کوندرا

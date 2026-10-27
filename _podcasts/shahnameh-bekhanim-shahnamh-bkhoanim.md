@@ -17,8 +17,8 @@ pi_id: 675481
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Shahnameh Bekhanim شاهنامه بخوانیم

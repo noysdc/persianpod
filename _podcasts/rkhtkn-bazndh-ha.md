@@ -18,8 +18,8 @@ pi_id: 6930517
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # رختکن بازنده‌ها
