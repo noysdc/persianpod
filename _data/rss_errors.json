@@ -8,7 +8,7 @@
     "rss": "https://feeds.libsyn.com/419687/rss"
   },
   "aamozsh-aalmani-ba-doich-kst": {
-    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/deutschcast/feed/"
   },
   "aamozsh-ainstagram": {
@@ -16,11 +16,11 @@
     "rss": "https://shenoto.net/service/api/feed/instagram"
   },
   "aamozsh-blak-chin-o-kripto-ha": {
-    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
   },
   "aamozsh-zban-anglisi-talk-stop": {
-    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
   "aghtsad-bama": {
@@ -32,7 +32,7 @@
     "rss": "https://shenoto.net/service/api/feed/Ahmad-Shamlou"
   },
   "aistgah-mosighi": {
-    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
   },
   "akhlagh-brai-nojoanan": {
@@ -254,10 +254,6 @@
   "shahnamh-khodmoni": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/shahname"
-  },
-  "shar-o-ghsh-khoani": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
-    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "shar-o-tranh-hai-amir-khoshaoi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
