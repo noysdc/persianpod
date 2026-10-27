@@ -26385,19 +26385,24 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 981,
-    "eps_365": 328,
-    "eps_90": 81,
+    "episodes": 982,
+    "eps_365": 329,
+    "eps_90": 82,
     "first_at": "2023-11-21",
     "first_year": 1402,
     "last": "1405/08/05",
-    "last_at": "2026-10-27T02:50:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/rise-in-ai-powered-cyber-attacks-australia/ulnd6ov29",
-    "last_title": "افزایش حملات سایبری مبتنی بر هوش مصنوعی در استرالیا؛ هشدار درباره اختلال در خدمات",
+    "last_at": "2026-10-27T04:36:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/economists-warn-australians-should-brace-for-another-interest-rate-hike/nzfi54qlm",
+    "last_title": "هشدار اقتصاددانان؛ استرالیایی‌ها برای افزایش دوباره نرخ بهره آماده باشند",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261027153611_225615-persian-f6b50c7a-eeb1-455a-873d-5da7dc1c56b2.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-7ba0-db6d-a7e3-7ffa43de0000&dur_cat=3",
+        "at": "2026-10-27T04:36:00Z",
+        "t": "هشدار اقتصاددانان؛ استرالیایی‌ها برای افزایش دوباره نرخ بهره آماده باشند"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261027135106_385510-persian-e30e08f3-3f68-42d5-9fa5-90f41a4562d5.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-7b25-d326-a5fb-ff2dbeb80000&dur_cat=2",
         "at": "2026-10-27T02:50:00Z",
@@ -26432,14 +26437,14 @@
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261020121816_159501-persian-201026-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-56dc-d0ee-a1ef-f7fef0890000&dur_cat=2",
         "at": "2026-10-20T01:17:00Z",
         "t": "شناسایی مهاجم ادعایی هلن هینز؛ نگرانی‌ها درباره افزایش خشونت سیاسی در استرالیا"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261019133220_664270-persian-191026-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-51fb-db26-a7b9-79ffb8b30000&dur_cat=2",
-        "at": "2026-10-19T02:32:00Z",
-        "t": "فشار برای تصویب توافق تجارت آزاد با اروپا؛ دولت افزایش GST را رد کرد"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T04:36:00Z",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/economists-warn-australians-should-brace-for-another-interest-rate-hike/nzfi54qlm",
+        "title": "هشدار اقتصاددانان؛ استرالیایی‌ها برای افزایش دوباره نرخ بهره آماده باشند"
+      },
       {
         "at": "2026-10-27T02:50:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/rise-in-ai-powered-cyber-attacks-australia/ulnd6ov29",
@@ -26449,11 +26454,6 @@
         "at": "2026-10-26T03:35:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/lula-da-silva-re-elected-brazil-president/1p0bgqneo",
         "title": "پیروزی دوباره لولا دا سیلوا در انتخابات ریاست‌جمهوری برزیل پس از رقابتی نزدیک"
-      },
-      {
-        "at": "2026-10-23T02:45:00Z",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/600k-raised-charity-alleged-attack-helen-haines/zswkna6ql",
-        "title": "جمع‌آوری بیش از ۶۰۰ هزار دلار کمک مردمی برای امور خیریه، در پی حمله ادعایی به هلن هینز، نماینده پارلمان استرالیا"
       }
     ],
     "recent_30d": [
@@ -26468,7 +26468,7 @@
       26,
       28,
       24,
-      29
+      30
     ],
     "status": "active"
   },
