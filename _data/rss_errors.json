@@ -24,7 +24,7 @@
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
   "awr-farsi": {
-    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
     "rss": "https://podcasts.awr.org/xml/xmliTunes/FASBE_ROH.xml"
   },
   "baehsan": {
@@ -87,6 +87,10 @@
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
+  "podcast-dats": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmirr88fetztwmiq39efe"
+  },
   "podcast-khakstri-roan": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.dotcast.org/p/1orxtms6/feed.xml"
@@ -100,7 +104,7 @@
     "rss": "https://tehranpodcast.ir/category/pejvakemahoor/feed/"
   },
   "radio-jhani-adontist": {
-    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://podcasts.awr.org/xml/xmliTunes/FASCO_AWR.xml"
   },
   "roait-ahd": {
