@@ -26225,8 +26225,8 @@
       0,
       2,
       10,
-      10,
-      8,
+      11,
+      7,
       2,
       2,
       3
@@ -27724,10 +27724,10 @@
     "status": "active"
   },
   "mjmoah-bazi-hai-miras": {
-    "avg_gap_days": 9.3,
+    "avg_gap_days": 11.2,
     "avg_length": 84,
     "episodes": 18,
-    "eps_365": 13,
+    "eps_365": 11,
     "eps_90": 0,
     "first_at": "2025-10-27",
     "first_year": 1404,
@@ -34490,21 +34490,26 @@
     "status": "active"
   },
   "podcast-farsi-fikshn-fiction-podcast": {
-    "avg_gap_days": 14.4,
+    "avg_gap_days": 14.0,
     "avg_length": 42,
-    "episodes": 231,
-    "eps_365": 26,
-    "eps_90": 8,
+    "episodes": 232,
+    "eps_365": 27,
+    "eps_90": 9,
     "first_at": "2019-07-06",
     "first_year": 1398,
-    "last": "1405/08/02",
-    "last_at": "2026-10-24T13:30:00Z",
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T13:30:00Z",
     "last_link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
-    "last_title": "خشن‌ترین قاتل جهان",
+    "last_title": "قتل در شب کریسمس",
     "max_length": 75,
     "median_length": 34,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/92fe990ca970dec5/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-10-27T13:30:00Z",
+        "t": "قتل در شب کریسمس"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/9f3098a364e75b3e/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-10-24T13:30:00Z",
@@ -34539,14 +34544,14 @@
         "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/c694919118632d2f/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-09-10T20:45:41Z",
         "t": "قاتلی با فتیش کفش"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/397fe3bcc196ad5f/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2026-08-20T08:01:21Z",
-        "t": "ازدواج دو شیطان"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T13:30:00Z",
+        "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
+        "title": "قتل در شب کریسمس"
+      },
       {
         "at": "2026-10-24T13:30:00Z",
         "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
@@ -34556,11 +34561,6 @@
         "at": "2026-10-17T13:30:00Z",
         "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
         "title": "کثیف‌ترین فتیش دنیا"
-      },
-      {
-        "at": "2026-10-13T16:27:10Z",
-        "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
-        "title": "راز قتل نیمه شب"
       }
     ],
     "recent_30d": [
@@ -34575,7 +34575,7 @@
       0,
       1,
       2,
-      5
+      6
     ],
     "status": "active"
   },
@@ -38502,8 +38502,8 @@
       }
     ],
     "recent_30d": [
-      8,
-      8,
+      9,
+      7,
       0,
       2,
       0,
