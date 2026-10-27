@@ -259,10 +259,6 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/shahname"
   },
-  "shar-o-ghsh-khoani": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
-    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
-  },
   "shar-o-tranh-hai-amir-khoshaoi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/AmirKhoshavi"
