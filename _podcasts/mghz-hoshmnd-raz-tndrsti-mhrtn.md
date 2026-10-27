@@ -17,8 +17,8 @@ pi_id: 6730358
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # مغز هوشمند، راز تندرستی (مهرتن)

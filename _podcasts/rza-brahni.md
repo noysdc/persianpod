@@ -18,8 +18,8 @@ pi_id: 7183125
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # رضا براهنی
