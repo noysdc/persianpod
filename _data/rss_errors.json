@@ -52,7 +52,7 @@
     "rss": "https://shenoto.net/service/api/feed/Eveningart"
   },
   "awr-farsi": {
-    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
     "rss": "https://podcasts.awr.org/xml/xmliTunes/FASBE_ROH.xml"
   },
   "baehsan": {
@@ -170,6 +170,10 @@
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
+  },
+  "podcast-dats": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmirr88fetztwmiq39efe"
   },
   "podcast-farsi-ansank": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
