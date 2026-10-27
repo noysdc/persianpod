@@ -13327,21 +13327,26 @@
     "status": "inactive"
   },
   "frdai-aghtsad": {
-    "avg_gap_days": 2.3,
-    "avg_length": 61,
-    "episodes": 24,
-    "eps_365": 24,
-    "eps_90": 24,
+    "avg_gap_days": 2.2,
+    "avg_length": 62,
+    "episodes": 25,
+    "eps_365": 25,
+    "eps_90": 25,
     "first_at": "2026-09-02",
     "first_year": 1405,
-    "last": "1405/08/03",
-    "last_at": "2026-10-25T08:03:41Z",
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T08:10:23Z",
     "last_link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
-    "last_title": "بورس در انتظار پایان «نه جنگ، نه صلح»",
+    "last_title": "بورس با چه قواعدی به استقبال بحران بعدی می‌رود؟",
     "max_length": 77,
     "median_length": 61,
     "min_length": 48,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/82b1b78219a0e76f/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-10-27T08:10:23Z",
+        "t": "بورس با چه قواعدی به استقبال بحران بعدی می‌رود؟"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/e2b4ae7d8cc3c69c/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-10-25T08:03:41Z",
@@ -13376,14 +13381,14 @@
         "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/cdd2cc32a9be54eb/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-10-05T12:27:41Z",
         "t": "چشم‌انداز کارگزاران بورس در ۱۴۱۰"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/a48f4c00931cad0c/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2026-10-04T07:42:07Z",
-        "t": "فرصت های سهام در شکاف ارزی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-27T08:10:23Z",
+        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
+        "title": "بورس با چه قواعدی به استقبال بحران بعدی می‌رود؟"
+      },
       {
         "at": "2026-10-25T08:03:41Z",
         "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
@@ -13393,11 +13398,6 @@
         "at": "2026-10-20T08:36:13Z",
         "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
         "title": "شاخص ۱۲ میلیونی؛ سناریوی بورس تا پایان سال؟"
-      },
-      {
-        "at": "2026-10-18T08:08:03Z",
-        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
-        "title": "فرار از تورم؛ فرصت بورس هنوز باقی است؟"
       }
     ],
     "recent_30d": [
@@ -13412,7 +13412,7 @@
       0,
       0,
       15,
-      9
+      10
     ],
     "status": "active"
   },
@@ -18413,7 +18413,7 @@
     ],
     "recent_30d": [
       60,
-      31,
+      30,
       22,
       0,
       0,
