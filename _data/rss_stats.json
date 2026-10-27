@@ -18783,6 +18783,50 @@
     ],
     "status": "active"
   },
+  "kadi-podcast": {
+    "avg_length": 3,
+    "episodes": 1,
+    "eps_365": 1,
+    "eps_90": 1,
+    "first_at": "2026-10-26",
+    "first_year": 1405,
+    "last": "1405/08/04",
+    "last_at": "2026-10-26T07:51:54Z",
+    "last_link": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/c47d0f4f-832f-41eb-8de9-5bd7d8ff2a7d/play.mp3",
+    "last_title": "اپیزود صفر - معرفی پادکست کادی",
+    "max_length": 3,
+    "median_length": 3,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/c47d0f4f-832f-41eb-8de9-5bd7d8ff2a7d/play.mp3",
+        "at": "2026-10-26T07:51:54Z",
+        "t": "اپیزود صفر - معرفی پادکست کادی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-26T07:51:54Z",
+        "link": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/c47d0f4f-832f-41eb-8de9-5bd7d8ff2a7d/play.mp3",
+        "title": "اپیزود صفر - معرفی پادکست کادی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "status": "active"
+  },
   "kafh-bizins-prshin-horaizn-pli-brai-orod-bh-dniai-hrfh-ai": {
     "avg_length": 6,
     "episodes": 80,
