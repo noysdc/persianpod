@@ -99,6 +99,10 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/HAfEZ-e-SHAMLU"
   },
+  "han": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmispceibuk0wxtn1k1lx"
+  },
   "hnr-jng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://namlik.me/rss/318"
@@ -150,10 +154,6 @@
   "mbl-ghrmz": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Mobleqermez"
-  },
-  "mimmpodcast": {
-    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.audiyacreators.one/cmhwe10fp49z7yriygrn1"
   },
   "mrkz-mzakrh-airan": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
