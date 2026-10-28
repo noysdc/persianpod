@@ -672,10 +672,16 @@
     if (au) {
       e.preventDefault();
       var box = au.closest("[data-pp-playlist]") || au.parentNode;
-      var items = Array.prototype.slice.call(box.querySelectorAll("[data-pp-audio]"));
+      var seen = {}, items = Array.prototype.slice.call(box.querySelectorAll("[data-pp-audio]")).filter(function (x) {
+        var u = x.getAttribute("data-pp-audio");
+        if (seen[u]) return false;   // دکمه‌ی «پخش پادکست» و اولین آیتم فهرست یک قسمت‌اند؛ تکراری نشوند
+        seen[u] = 1; return true;
+      });
+      var clicked = au.getAttribute("data-pp-audio"), at = 0;
+      items.forEach(function (x, i) { if (x.getAttribute("data-pp-audio") === clicked) at = i; });
       open({
         eps: items.map(function (x) { return { t: x.getAttribute("data-t") || x.textContent.trim(), a: x.getAttribute("data-pp-audio") }; }),
-        index: items.indexOf(au),
+        index: at,
         title: box.getAttribute("data-title") || "",
         page: box.getAttribute("data-page") || "",
         epsUrl: box.getAttribute("data-eps-url") || "",
