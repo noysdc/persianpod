@@ -179,6 +179,10 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Crypto-nameh"
   },
+  "podcast-fotbali-fotbal-trapi": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmirs0ugaxipywzzzcnts"
+  },
   "podcast-hnr-o-mamari-oadi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Vadi-podcast"
@@ -254,10 +258,6 @@
   "shahnamh-khodmoni": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/shahname"
-  },
-  "shar-o-ghsh-khoani": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
-    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "shar-o-tranh-hai-amir-khoshaoi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
