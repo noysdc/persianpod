@@ -19409,21 +19409,26 @@
     "status": "active"
   },
   "jmlat-takidi-rozanh": {
-    "avg_gap_days": 6.6,
+    "avg_gap_days": 6.5,
     "avg_length": 22,
-    "episodes": 39,
-    "eps_365": 39,
-    "eps_90": 27,
+    "episodes": 40,
+    "eps_365": 40,
+    "eps_90": 28,
     "first_at": "2026-02-17",
     "first_year": 1404,
-    "last": "1405/08/03",
-    "last_at": "2026-10-25T01:30:00Z",
-    "last_link": "https://shows.acast.com/jomalatetakidi/episodes/6acf4a266203da9f28262901",
-    "last_title": "جملات تاکیدی کائنات و برکت 🌞✨ | شروع روز با فراوانی، شکرگزاری و اتفاقات خوب",
+    "last": "1405/08/06",
+    "last_at": "2026-10-28T06:35:38Z",
+    "last_link": "https://shows.acast.com/jomalatetakidi/episodes/6ae197ba5a3cc3c4c42dee0e",
+    "last_title": "امروز منتظر معجزه باش | جذب اتفاقات شگفت‌انگیز",
     "max_length": 30,
     "median_length": 23,
-    "min_length": 15,
+    "min_length": 11,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/694bd1dc30165a956d0caddf/e/6ae197ba5a3cc3c4c42dee0e/media.mp3",
+        "at": "2026-10-28T06:35:38Z",
+        "t": "امروز منتظر معجزه باش | جذب اتفاقات شگفت‌انگیز"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/694bd1dc30165a956d0caddf/e/6acf4a266203da9f28262901/media.mp3",
         "at": "2026-10-25T01:30:00Z",
@@ -19458,14 +19463,14 @@
         "a": "https://sphinx.acast.com/p/open/s/694bd1dc30165a956d0caddf/e/6ab2782cf98781f91d618a9e/media.mp3",
         "at": "2026-09-23T08:30:00Z",
         "t": "جملات تأکیدی قدرتمند برای اتصال به حمایت نیروی مهربان هستی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/694bd1dc30165a956d0caddf/e/6aa6602948975e9795083f95/media.mp3",
-        "at": "2026-09-22T04:30:00Z",
-        "t": "قوی‌ترین جملات تاکیدی پاییزی | رهایی از گذشته و شروع دوباره 🍂✨ ⭐"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T06:35:38Z",
+        "link": "https://shows.acast.com/jomalatetakidi/episodes/6ae197ba5a3cc3c4c42dee0e",
+        "title": "امروز منتظر معجزه باش | جذب اتفاقات شگفت‌انگیز"
+      },
       {
         "at": "2026-10-25T01:30:00Z",
         "link": "https://shows.acast.com/jomalatetakidi/episodes/6acf4a266203da9f28262901",
@@ -19475,11 +19480,6 @@
         "at": "2026-10-20T02:30:00Z",
         "link": "https://shows.acast.com/jomalatetakidi/episodes/6aa66247b54f356fc757963b",
         "title": "جملات تاکیدی شکرگزاری و جذب برکت 🌿✨ | سپاسگزاری برای فراوانی، آرامش و نعمت‌های زندگی"
-      },
-      {
-        "at": "2026-10-16T01:30:00Z",
-        "link": "https://shows.acast.com/jomalatetakidi/episodes/6ab2b5adf161207303095e2f",
-        "title": "جملات تأکیدی قدرتمند برای اتصال به جریان فراوانی و آرامش مطلق"
       }
     ],
     "recent_30d": [
@@ -19494,7 +19494,7 @@
       5,
       6,
       17,
-      4
+      5
     ],
     "status": "active"
   },
@@ -52282,19 +52282,24 @@
   "shar": {
     "avg_gap_days": 5.2,
     "avg_length": 4,
-    "episodes": 400,
-    "eps_365": 70,
-    "eps_90": 17,
+    "episodes": 401,
+    "eps_365": 71,
+    "eps_90": 18,
     "first_at": "2023-03-03",
     "first_year": 1401,
-    "last": "1405/08/01",
-    "last_at": "2026-10-23T06:40:23Z",
-    "last_link": "https://s3.castbox.fm/34/dc/15/1b56214331881e0b7e78c78fd4.mp3",
-    "last_title": "اردلان سرفراز | پرسش | با صدای شاعر",
+    "last": "1405/08/06",
+    "last_at": "2026-10-28T06:40:22Z",
+    "last_link": "https://s3.castbox.fm/3f/3e/64/a25a4a47e4ab0c26e0cc4f464c.mp3",
+    "last_title": "مشفق کاشانی | می پرست",
     "max_length": 29,
     "median_length": 4,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/3f/3e/64/a25a4a47e4ab0c26e0cc4f464c.mp3",
+        "at": "2026-10-28T06:40:22Z",
+        "t": "مشفق کاشانی | می پرست"
+      },
       {
         "a": "https://s3.castbox.fm/34/dc/15/1b56214331881e0b7e78c78fd4.mp3",
         "at": "2026-10-23T06:40:23Z",
@@ -52329,14 +52334,14 @@
         "a": "https://s3.castbox.fm/47/86/78/932558430f97a0ae34e9681fd9.mp3",
         "at": "2026-09-23T06:40:23Z",
         "t": "م. آزاد | آن لحظه‌های روشن"
-      },
-      {
-        "a": "https://s3.castbox.fm/9b/4d/83/9111d4417cbc51428d5cf58ef6.mp3",
-        "at": "2026-09-18T06:40:05Z",
-        "t": "احمد شاملو | از زخمِ قلبِ آبایی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T06:40:22Z",
+        "link": "https://s3.castbox.fm/3f/3e/64/a25a4a47e4ab0c26e0cc4f464c.mp3",
+        "title": "مشفق کاشانی | می پرست"
+      },
       {
         "at": "2026-10-23T06:40:23Z",
         "link": "https://s3.castbox.fm/34/dc/15/1b56214331881e0b7e78c78fd4.mp3",
@@ -52346,11 +52351,6 @@
         "at": "2026-10-18T06:40:10Z",
         "link": "https://s3.castbox.fm/ec/37/13/1d9e9043e5bdeb7d1eaaebae3d.mp3",
         "title": "مهدی اخوان ثالث | زمستان"
-      },
-      {
-        "at": "2026-10-13T06:40:18Z",
-        "link": "https://s3.castbox.fm/91/fd/11/83d7a24d8387cd1655e6ddb972.mp3",
-        "title": "نیما یوشیج | تلخ"
       }
     ],
     "recent_30d": [
@@ -52364,7 +52364,7 @@
       9,
       8,
       6,
-      5,
+      6,
       6
     ],
     "status": "active"
@@ -52535,8 +52535,8 @@
     "recent_30d": [
       18,
       17,
-      11,
-      19,
+      12,
+      18,
       3,
       2,
       4,
