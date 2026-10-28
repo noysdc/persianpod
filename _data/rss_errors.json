@@ -39,6 +39,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/5586a8d0/podcast/rss"
   },
+  "eskeleh-jalil-asklh-jlil": {
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feed.pod.co/eskeleh-jalil"
+  },
   "film-aamozshi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://drdna.ir/category/%D9%81%DB%8C%D9%84%D9%85-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/feed/"
@@ -114,6 +118,10 @@
   "radio-jhani-adontist": {
     "error": "ValueError: no items in feed",
     "rss": "https://podcasts.awr.org/xml/xmliTunes/FASCO_AWR.xml"
+  },
+  "radio-mfid": {
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://anchor.fm/s/2e6e9794/podcast/rss"
   },
   "roait-ahd": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
