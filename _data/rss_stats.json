@@ -43352,19 +43352,24 @@
   "pol-mhm-ast": {
     "avg_gap_days": 9.6,
     "avg_length": 13,
-    "episodes": 114,
-    "eps_365": 38,
-    "eps_90": 10,
+    "episodes": 115,
+    "eps_365": 39,
+    "eps_90": 11,
     "first_at": "2022-08-20",
     "first_year": 1401,
-    "last": "1405/07/29",
-    "last_at": "2026-10-21T01:55:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/artificial-intelligence-money-and-the-future-of-work-in-australia-opportunities-threats-and-skills-to-learn-today/t9r4qm2wb",
-    "last_title": "هوش مصنوعی، پول و آینده کار در استرالیا؛ فرصت‌ها، تهدیدها و مهارت‌هایی که باید از امروز آموخت",
+    "last": "1405/08/06",
+    "last_at": "2026-10-28T05:30:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/dream-of-homeownership-in-australia-what-to-know-before-buying/vlbnkfp9j",
+    "last_title": "رویای خانه‌دار شدن در استرالیا؛ پیش از خرید چه باید بدانیم؟",
     "max_length": 33,
     "median_length": 10,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/money-matters/20261028163104_789137-persian-c04d1ccf-a04f-4965-a239-d190ba2b9bfd.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a1-80d9-d7ec-a7e3-9ed9f5c40000&dur_cat=3",
+        "at": "2026-10-28T05:30:00Z",
+        "t": "رویای خانه‌دار شدن در استرالیا؛ پیش از خرید چه باید بدانیم؟"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/money-matters/20261021125513_368953-persian-d814d06f-2401-409e-a1ee-ca325eaa36b2.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a1-4304-d2b3-adad-73bc6fcb0000&dur_cat=4",
         "at": "2026-10-21T01:55:00Z",
@@ -43399,14 +43404,14 @@
         "a": "https://sbs-podcast.streamguys1.com/money-matters/20260910130327_254628-persian-100926-aliyouseficom.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a0-88c4-d72f-a3a1-bfdcc13d0000&dur_cat=3",
         "at": "2026-09-10T03:02:00Z",
         "t": "پول از ایران به استرالیا منتقل کرده‌اید؟ آنچه باید درباره مالیات و گزارش‌دهی بدانید"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/money-matters/20260908114952_383628-persian-080926-housing.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a0-7e98-da8d-adb6-7efa2ef00000&dur_cat=3",
-        "at": "2026-09-08T01:49:00Z",
-        "t": "اگر استرالیا کمبود مسکن دارد، چرا بسیاری از سازندگان مسکن ورشکست می‌شوند؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T05:30:00Z",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/dream-of-homeownership-in-australia-what-to-know-before-buying/vlbnkfp9j",
+        "title": "رویای خانه‌دار شدن در استرالیا؛ پیش از خرید چه باید بدانیم؟"
+      },
       {
         "at": "2026-10-21T01:55:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/artificial-intelligence-money-and-the-future-of-work-in-australia-opportunities-threats-and-skills-to-learn-today/t9r4qm2wb",
@@ -43416,11 +43421,6 @@
         "at": "2026-10-15T00:52:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/rising-interest-rates-in-australia-an-accounting-and-tax-experts-practical-tips-for-households-and-small-businesses/scwdm789t",
         "title": "افزایش نرخ بهره و فشار هزینه های زندگی در استرالیا؛ راهکارهای عملی یک کارشناس مالیاتی برای خانوارها و کسب و کارهای کوچک"
-      },
-      {
-        "at": "2026-10-14T00:01:00Z",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/want-the-highest-possible-savings-rate-you-might-find-theres-a-catch/kxxo42514",
-        "title": "به‌ دنبال بیشترین سود بانکی در استرالیا هستید؟ اول باید این نکته را بدانید"
       }
     ],
     "recent_30d": [
@@ -43435,7 +43435,7 @@
       4,
       1,
       5,
-      4
+      5
     ],
     "status": "active"
   },
@@ -52005,21 +52005,26 @@
     "status": "inactive"
   },
   "shar-kst": {
-    "avg_gap_days": 9.1,
+    "avg_gap_days": 8.9,
     "avg_length": 5,
-    "episodes": 176,
-    "eps_365": 39,
-    "eps_90": 35,
+    "episodes": 177,
+    "eps_365": 40,
+    "eps_90": 36,
     "first_at": "2022-05-04",
     "first_year": 1401,
-    "last": "1405/08/05",
-    "last_at": "2026-10-27T17:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/92ca5135-562a-4ec3-a844-873dbe8eda56/play.mp3",
-    "last_title": "صد و هفتاد و پنج - جورِ فَلَک: منسوب به خیام",
+    "last": "1405/08/06",
+    "last_at": "2026-10-28T05:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/5bbc1648-d27d-488b-88b9-328f759ff055/play.mp3",
+    "last_title": "صد و هفتاد و شش - بادهٔ خام: منسوب به خیام",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/5bbc1648-d27d-488b-88b9-328f759ff055/play.mp3",
+        "at": "2026-10-28T05:30:00Z",
+        "t": "صد و هفتاد و شش - بادهٔ خام: منسوب به خیام"
+      },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/92ca5135-562a-4ec3-a844-873dbe8eda56/play.mp3",
         "at": "2026-10-27T17:30:00Z",
@@ -52054,14 +52059,14 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/7b6f4567-b6df-416b-aab6-99eeb0bb0cfb/play.mp3",
         "at": "2026-10-25T16:32:00Z",
         "t": "صد و شصت و نه - رخِ نازنین: منسوب به خیام"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/232a2a66-8d54-4efb-8e34-a8eb5ccdc3e3/play.mp3",
-        "at": "2026-10-25T16:31:00Z",
-        "t": "صد و شصت و هشت - لگدِ تجربه: منسوب به خیام"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T05:30:00Z",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/5bbc1648-d27d-488b-88b9-328f759ff055/play.mp3",
+        "title": "صد و هفتاد و شش - بادهٔ خام: منسوب به خیام"
+      },
       {
         "at": "2026-10-27T17:30:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/92ca5135-562a-4ec3-a844-873dbe8eda56/play.mp3",
@@ -52071,11 +52076,6 @@
         "at": "2026-10-27T16:28:30Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ca736138-bcf4-4f16-abe5-fe74cc5b74c2/play.mp3",
         "title": "صد و هفتاد و چهار - خور و خواب: منسوب به خیام"
-      },
-      {
-        "at": "2026-10-27T10:30:00Z",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/be521508-1b3c-4223-99a9-3d81e53b11d5/play.mp3",
-        "title": "صد و هفتاد و سه – گُلِ تازه: منسوب به خیام"
       }
     ],
     "recent_30d": [
@@ -52090,7 +52090,7 @@
       1,
       2,
       0,
-      33
+      34
     ],
     "status": "active"
   },
