@@ -11538,21 +11538,26 @@
     "status": "active"
   },
   "doxpodcast": {
-    "avg_gap_days": 20.6,
-    "avg_length": 69,
-    "episodes": 104,
-    "eps_365": 18,
-    "eps_90": 4,
+    "avg_gap_days": 20.2,
+    "avg_length": 68,
+    "episodes": 105,
+    "eps_365": 19,
+    "eps_90": 5,
     "first_at": "2020-10-02",
     "first_year": 1399,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T03:00:00Z",
-    "last_link": "https://doxpodcast.com/episodes/womens-sports/",
-    "last_title": "اپیزود صد و سوم - ورزش زنان، میدان مبارزه",
+    "last": "1405/08/06",
+    "last_at": "2026-10-28T04:00:00Z",
+    "last_link": "https://doxpodcast.com/episodes",
+    "last_title": "اپیزود صد و چهارم- کوماره، دنیای گوروها",
     "max_length": 89,
     "median_length": 70,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/653820e8bc6f9000122c7492/e/6adf649d8f6f9dc453ce361d/media.mp3",
+        "at": "2026-10-28T04:00:00Z",
+        "t": "اپیزود صد و چهارم- کوماره، دنیای گوروها"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/653820e8bc6f9000122c7492/e/6acd2b3b39599f7c56e8bd14/media.mp3",
         "at": "2026-10-14T03:00:00Z",
@@ -11587,14 +11592,14 @@
         "a": "https://sphinx.acast.com/p/open/s/653820e8bc6f9000122c7492/e/6a4425a0e80d75fcb82150c8/media.mp3",
         "at": "2026-07-01T03:30:00Z",
         "t": "اپیزود نود و هفتم- جاودانگی دیجیتال"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/653820e8bc6f9000122c7492/e/6a31863d101389aa3d55743c/media.mp3",
-        "at": "2026-06-17T03:00:00Z",
-        "t": "اپیزود نود و ششم - کنسل کالچر"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T04:00:00Z",
+        "link": "https://doxpodcast.com/episodes",
+        "title": "اپیزود صد و چهارم- کوماره، دنیای گوروها"
+      },
       {
         "at": "2026-10-14T03:00:00Z",
         "link": "https://doxpodcast.com/episodes/womens-sports/",
@@ -11604,11 +11609,6 @@
         "at": "2026-09-23T03:00:00Z",
         "link": "https://doxpodcast.com/episodes/episodes-iranian-caucasus-migrants/",
         "title": "اپیزود صد و دوم- مهاجران قفقاز"
-      },
-      {
-        "at": "2026-09-09T05:36:18Z",
-        "link": "https://doxpodcast.com/episodes/norwegian-monarchy/",
-        "title": "اپیزود صد و یکم - پادشاهی نروژ"
       }
     ],
     "recent_30d": [
@@ -11623,7 +11623,7 @@
       3,
       1,
       2,
-      1
+      2
     ],
     "status": "active"
   },
