@@ -19037,8 +19037,8 @@
     ],
     "recent_30d": [
       58,
-      30,
-      22,
+      31,
+      21,
       0,
       0,
       0,
@@ -57492,19 +57492,24 @@
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
     "avg_length": 22,
-    "episodes": 400,
-    "eps_365": 261,
-    "eps_90": 115,
+    "episodes": 401,
+    "eps_365": 262,
+    "eps_90": 116,
     "first_at": "2024-08-22",
     "first_year": 1403,
     "last": "1405/08/06",
-    "last_at": "2026-10-28T00:30:00Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6ab8eedbbd67ce4b53a0781d",
-    "last_title": "من پذیرای اتفاق‌های خوب و فرصت‌های ارزشمند هستم.",
+    "last_at": "2026-10-28T06:41:03Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6adc3d6602b9e3b259344b8d",
+    "last_title": "مدیتیشن | مدیتیشن جذب ثروت و فراوانی | افزایش انرژی پول",
     "max_length": 99,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6adc3d6602b9e3b259344b8d/media.mp3",
+        "at": "2026-10-28T06:41:03Z",
+        "t": "مدیتیشن | مدیتیشن جذب ثروت و فراوانی | افزایش انرژی پول"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ab8eedbbd67ce4b53a0781d/media.mp3",
         "at": "2026-10-28T00:30:00Z",
@@ -57539,14 +57544,14 @@
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ab8e78dfb182c6fb528cef4/media.mp3",
         "at": "2026-10-22T00:30:00Z",
         "t": "جملات تاکیدی💸 سپاسگزارم؛ زندگی من پر از فرصت، برکت."
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ad8f0fb3ad7f6855116bf9e/media.mp3",
-        "at": "2026-10-22T00:30:00Z",
-        "t": "مدیتیشن مدار ثروت صبحگاهی | مدیتیشن جذب فراوانی مالی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T06:41:03Z",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6adc3d6602b9e3b259344b8d",
+        "title": "مدیتیشن | مدیتیشن جذب ثروت و فراوانی | افزایش انرژی پول"
+      },
       {
         "at": "2026-10-28T00:30:00Z",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6ab8eedbbd67ce4b53a0781d",
@@ -57556,11 +57561,6 @@
         "at": "2026-10-25T16:46:00Z",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6addcd16d39b76001f98fdd4",
         "title": "مدیتیشن قبل خواب | رهایی از افکار و خواب عمیق مدیتیشن"
-      },
-      {
-        "at": "2026-10-25T08:10:31Z",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6addb978959e7ea69d010353",
-        "title": "مدیتیشن ۵ دقیقه‌ای | رهایی فوری از افکار مدیتیشن"
       }
     ],
     "recent_30d": [
@@ -57575,7 +57575,7 @@
       12,
       38,
       43,
-      34
+      35
     ],
     "status": "active"
   },
