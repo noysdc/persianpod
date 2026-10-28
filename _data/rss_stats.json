@@ -40397,20 +40397,25 @@
   },
   "podcast-prchm-sfid": {
     "avg_gap_days": 6.0,
-    "avg_length": 41,
-    "episodes": 175,
-    "eps_365": 60,
-    "eps_90": 23,
+    "avg_length": 42,
+    "episodes": 176,
+    "eps_365": 61,
+    "eps_90": 24,
     "first_at": "2018-11-17",
     "first_year": 1397,
-    "last": "1405/08/03",
-    "last_at": "2026-10-25T04:00:00Z",
-    "last_link": "https://shows.acast.com/white-flag-pdcst/episodes/6ad9f12b13113bbc762b2da3",
-    "last_title": "راه دوحه و سقوط دوباره - پرونده جنگ افغانستان - قسمت ۱۵",
+    "last": "1405/08/06",
+    "last_at": "2026-10-28T04:00:00Z",
+    "last_link": "https://shows.acast.com/white-flag-pdcst/episodes/6ae05c826df2307811616b7b",
+    "last_title": "سقوط کابل و میراث چهار دهه جنگ - پرونده جنگ افغانستان - قسمت آخر",
     "max_length": 102,
     "median_length": 41,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6ae05c826df2307811616b7b/media.mp3",
+        "at": "2026-10-28T04:00:00Z",
+        "t": "سقوط کابل و میراث چهار دهه جنگ - پرونده جنگ افغانستان - قسمت آخر"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6ad9f12b13113bbc762b2da3/media.mp3",
         "at": "2026-10-25T04:00:00Z",
@@ -40445,14 +40450,14 @@
         "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6abf940ab06169dc721fc209/media.mp3",
         "at": "2026-10-04T04:00:00Z",
         "t": "کابل در آتش: جنگ داخلی مجاهدین - پرونده جنگ افغانستان - قسمت ۹"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6ab24e46d00a4eacd50aab8b/media.mp3",
-        "at": "2026-09-30T04:00:00Z",
-        "t": "بقای نجیب‌الله - پرونده جنگ افغانستان - قسمت ۸"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T04:00:00Z",
+        "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ae05c826df2307811616b7b",
+        "title": "سقوط کابل و میراث چهار دهه جنگ - پرونده جنگ افغانستان - قسمت آخر"
+      },
       {
         "at": "2026-10-25T04:00:00Z",
         "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ad9f12b13113bbc762b2da3",
@@ -40462,11 +40467,6 @@
         "at": "2026-10-21T04:00:00Z",
         "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ad60adb9c48ea3eb20b38eb",
         "title": "تلاش برای پیروزی - پرونده جنگ افغانستان - قسمت ۱۴"
-      },
-      {
-        "at": "2026-10-18T04:47:01Z",
-        "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ad068118f34078889b1ec12",
-        "title": "بازگشت طالبان - پرونده جنگ افغانستان - قسمت ۱۳"
       }
     ],
     "recent_30d": [
@@ -40481,7 +40481,7 @@
       8,
       8,
       7,
-      8
+      9
     ],
     "status": "active"
   },
