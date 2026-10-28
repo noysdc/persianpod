@@ -27725,19 +27725,24 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 982,
-    "eps_365": 329,
-    "eps_90": 81,
+    "episodes": 983,
+    "eps_365": 330,
+    "eps_90": 82,
     "first_at": "2023-11-21",
     "first_year": 1402,
-    "last": "1405/08/05",
-    "last_at": "2026-10-27T04:36:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/economists-warn-australians-should-brace-for-another-interest-rate-hike/nzfi54qlm",
-    "last_title": "هشدار اقتصاددانان؛ استرالیایی‌ها برای افزایش دوباره نرخ بهره آماده باشند",
+    "last": "1405/08/06",
+    "last_at": "2026-10-28T01:43:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/calls-for-a-fresh-take-on-combating-racism-data/9wupx07tq",
+    "last_title": "درخواست‌ها برای بازنگری در روند مقابله با نژادپرستی در استرالیا",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261028124329_654209-persian-441695a1-33ff-439b-b3c5-a84d61ebb40f.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-8008-d803-a1ed-bf3aaab30000&dur_cat=2",
+        "at": "2026-10-28T01:43:00Z",
+        "t": "درخواست‌ها برای بازنگری در روند مقابله با نژادپرستی در استرالیا"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261027153611_225615-persian-f6b50c7a-eeb1-455a-873d-5da7dc1c56b2.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-7ba0-db6d-a7e3-7ffa43de0000&dur_cat=3",
         "at": "2026-10-27T04:36:00Z",
@@ -27772,14 +27777,14 @@
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261020162500_754753-persian-2aa475cc-6857-4d24-8cb0-a6a11c4fff62.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-57c1-df61-afb7-ffc938370000&dur_cat=3",
         "at": "2026-10-20T05:24:00Z",
         "t": "خشم عمومی در پی حمله ادعایی به هلن هاینز، نماینده پارلمان استرالیا"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261020121816_159501-persian-201026-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-56dc-d0ee-a1ef-f7fef0890000&dur_cat=2",
-        "at": "2026-10-20T01:17:00Z",
-        "t": "شناسایی مهاجم ادعایی هلن هینز؛ نگرانی‌ها درباره افزایش خشونت سیاسی در استرالیا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T01:43:00Z",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/calls-for-a-fresh-take-on-combating-racism-data/9wupx07tq",
+        "title": "درخواست‌ها برای بازنگری در روند مقابله با نژادپرستی در استرالیا"
+      },
       {
         "at": "2026-10-27T04:36:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/economists-warn-australians-should-brace-for-another-interest-rate-hike/nzfi54qlm",
@@ -27789,11 +27794,6 @@
         "at": "2026-10-27T02:50:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/rise-in-ai-powered-cyber-attacks-australia/ulnd6ov29",
         "title": "افزایش حملات سایبری مبتنی بر هوش مصنوعی در استرالیا؛ هشدار درباره اختلال در خدمات"
-      },
-      {
-        "at": "2026-10-26T03:35:00Z",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/lula-da-silva-re-elected-brazil-president/1p0bgqneo",
-        "title": "پیروزی دوباره لولا دا سیلوا در انتخابات ریاست‌جمهوری برزیل پس از رقابتی نزدیک"
       }
     ],
     "recent_30d": [
@@ -27808,7 +27808,7 @@
       27,
       28,
       23,
-      30
+      31
     ],
     "status": "active"
   },
