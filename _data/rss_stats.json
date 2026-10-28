@@ -37251,8 +37251,8 @@
       }
     ],
     "recent_30d": [
-      2,
-      2,
+      3,
+      1,
       0,
       0,
       0,
@@ -45769,26 +45769,21 @@
     "status": "active"
   },
   "radio-dordane": {
-    "avg_gap_days": 0.1,
-    "avg_length": 18,
-    "episodes": 8,
-    "eps_365": 8,
-    "eps_90": 8,
+    "avg_gap_days": 0.0,
+    "avg_length": 17,
+    "episodes": 7,
+    "eps_365": 7,
+    "eps_90": 7,
     "first_at": "2026-10-27",
     "first_year": 1405,
-    "last": "1405/08/06",
-    "last_at": "2026-10-28T10:16:38Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8gdb",
-    "last_title": "برنج نو بهتر است یا برنج کهنه؟ تفاوت عطر، پخت و کیفیت | رادیو دردانه",
-    "max_length": 25,
-    "median_length": 22,
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T11:24:54Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r61ga",
+    "last_title": "چگونه برنج مرغوب را تشخیص دهیم؟ ۷ روش کاربردی | رادیو دردانه",
+    "max_length": 24,
+    "median_length": 21,
     "min_length": 6,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/128253803/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435206321-44100-2-c92a3d9da63ee.m4a",
-        "at": "2026-10-28T10:16:38Z",
-        "t": "برنج نو بهتر است یا برنج کهنه؟ تفاوت عطر، پخت و کیفیت | رادیو دردانه"
-      },
       {
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128173002/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F435105698-44100-2-ce244e9a13a7b.m4a",
         "at": "2026-10-27T11:24:54Z",
@@ -45827,11 +45822,6 @@
     ],
     "recent": [
       {
-        "at": "2026-10-28T10:16:38Z",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8gdb",
-        "title": "برنج نو بهتر است یا برنج کهنه؟ تفاوت عطر، پخت و کیفیت | رادیو دردانه"
-      },
-      {
         "at": "2026-10-27T11:24:54Z",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r61ga",
         "title": "چگونه برنج مرغوب را تشخیص دهیم؟ ۷ روش کاربردی | رادیو دردانه"
@@ -45840,6 +45830,11 @@
         "at": "2026-10-27T11:20:28Z",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r616n",
         "title": "برنج هاشمی، طارم یا جمشید؟ مقایسه و راهنمای انتخاب | رادیو دردانه"
+      },
+      {
+        "at": "2026-10-27T11:07:48Z",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r60du",
+        "title": "انواع برنج ایرانی؛ هاشمی، طارم، صدری و کاظمی چه تفاوتی دارند؟ | رادیو دردانه"
       }
     ],
     "recent_30d": [
@@ -45854,7 +45849,7 @@
       0,
       0,
       0,
-      8
+      7
     ],
     "status": "active"
   },
