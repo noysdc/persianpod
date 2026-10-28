@@ -16,7 +16,7 @@ episode_count: 14
 frequency: "دو هفته یک‌بار"
 logo: "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/13785438/13785438-1616405575483-d0d0bae10b024.jpg"
 castbox_id: "3951628"
-castbox_channel: "https://castbox.fm/channel/Peydayesh-%7C-%D9%BE%DB%8C%D8%AF%D8%A7%DB%8C%D8%B4-id3951628"
+castbox_channel: "https://castbox.fm/ch/id3951628"
 rss: "http://rss.castbox.fm/everest/1978168538174a8eb63753184ab96548.xml"
 instagram: "@UltraMind11"
 telegram: "@Ultramind7"
