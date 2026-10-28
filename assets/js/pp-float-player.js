@@ -718,7 +718,7 @@
       var ul = box.querySelector(".pp-eplist"), first = box.querySelector("[data-pp-audio]");
       if (!ul) return;
       fetchEps(box.getAttribute("data-eps-url")).then(function (list) {
-        if (list.length > ul.children.length + 1) fillList(ul, list, first ? first.getAttribute("data-pp-audio") : "");
+        if (list.length > ul.children.length) fillList(ul, list, "");
       }).catch(function () {});
     });
   }

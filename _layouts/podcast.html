@@ -100,7 +100,7 @@ layout: default
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>پخش پادکست
           </button>
           <ul class="pp-eplist" aria-label="قسمت‌ها">
-            {% for e in feed_eps %}{% if forloop.first %}{% continue %}{% endif %}
+            {% for e in feed_eps %}
             <li><button type="button" data-pp-audio="{{ e.a | escape }}" data-t="{{ e.t | escape }}" title="{{ e.t | escape }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg><span>{{ e.t }}</span></button></li>
             {% endfor %}
           </ul>
