@@ -4354,8 +4354,8 @@
       2,
       0,
       6,
-      8,
-      2,
+      9,
+      1,
       0
     ],
     "status": "active"
@@ -13685,21 +13685,26 @@
     "status": "active"
   },
   "frmol-1-farsi": {
-    "avg_gap_days": 14.2,
+    "avg_gap_days": 13.8,
     "avg_length": 39,
-    "episodes": 120,
-    "eps_365": 26,
-    "eps_90": 10,
+    "episodes": 121,
+    "eps_365": 27,
+    "eps_90": 11,
     "first_at": "2022-04-04",
     "first_year": 1401,
-    "last": "1405/08/03",
-    "last_at": "2026-10-25T18:25:00Z",
-    "last_link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/-f1",
-    "last_title": "🤖 فرمول یک بدون راننده؟! | ماشین‌های خودران F1  و بررسی تمرین‌ها و کوالیفایینگ آستین ۲۰۲۶ با حسام 🇺🇸",
+    "last": "1405/08/06",
+    "last_at": "2026-10-28T04:15:00Z",
+    "last_link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/36ngu9u4lp1p",
+    "last_title": "آستین ۲۰۲۶؛ کیمی درخشید، ردبول اشتباه کرد! 🔥 | تحلیل کامل گرندپری آمریکا",
     "max_length": 77,
     "median_length": 36,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/1027.mp3?dest-id=3386261",
+        "at": "2026-10-28T04:15:00Z",
+        "t": "آستین ۲۰۲۶؛ کیمی درخشید، ردبول اشتباه کرد! 🔥 | تحلیل کامل گرندپری آمریکا"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/Austin.mp3?dest-id=3386261",
         "at": "2026-10-25T18:25:00Z",
@@ -13734,14 +13739,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/0917.mp3?dest-id=3386261",
         "at": "2026-09-18T04:40:00Z",
         "t": "مادرید ۲۰۲۶؛ هیاهوی بسیار برای هیچ؟ | پیستی که قرار بود آینده فرمول یک باشد!"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/08281.mp3?dest-id=3386261",
-        "at": "2026-09-11T02:25:00Z",
-        "t": "مونزا ۲۰۲۶؛ تیفوسی‌ها به فراری پشت کردند؟ | ظهور باورنکردنی کیمی از ۱۹ به ۱"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T04:15:00Z",
+        "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/36ngu9u4lp1p",
+        "title": "آستین ۲۰۲۶؛ کیمی درخشید، ردبول اشتباه کرد! 🔥 | تحلیل کامل گرندپری آمریکا"
+      },
       {
         "at": "2026-10-25T18:25:00Z",
         "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/-f1",
@@ -13751,11 +13756,6 @@
         "at": "2026-10-14T04:04:00Z",
         "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/skv34x66psv",
         "title": "🇸🇬🏁 سنگاپور؛ فراری باز هم خودش را شکست داد؟"
-      },
-      {
-        "at": "2026-10-10T22:04:00Z",
-        "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/rqgkhcj51v77",
-        "title": "🏁 سنگاپور ۲۰۲۶؛ برای اولین بار با حسام! | بررسی تمرین‌ها، اسپرینت و کوالیفایینگ‌های فرمول ۱ 🇸🇬"
       }
     ],
     "recent_30d": [
@@ -13770,7 +13770,7 @@
       4,
       2,
       2,
-      6
+      7
     ],
     "status": "active"
   },
@@ -18775,8 +18775,8 @@
       0,
       0,
       0,
-      1,
-      26,
+      2,
+      25,
       7,
       0,
       0,
@@ -21498,8 +21498,8 @@
       0,
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       0,
       1,
       0
@@ -27726,7 +27726,7 @@
     "avg_gap_days": 1.1,
     "avg_length": 7,
     "episodes": 983,
-    "eps_365": 329,
+    "eps_365": 328,
     "eps_90": 81,
     "first_at": "2023-11-21",
     "first_year": 1402,
@@ -27797,8 +27797,8 @@
       }
     ],
     "recent_30d": [
-      28,
-      23,
+      29,
+      22,
       28,
       27,
       31,
@@ -37873,7 +37873,7 @@
       }
     ],
     "recent_30d": [
-      4,
+      3,
       5,
       0,
       0,
@@ -46918,7 +46918,7 @@
     "avg_length": 62,
     "episodes": 221,
     "eps_365": 132,
-    "eps_90": 36,
+    "eps_90": 35,
     "first_at": "2024-10-31",
     "first_year": 1403,
     "last": "1405/08/05",
@@ -46996,8 +46996,8 @@
       13,
       12,
       11,
-      12,
-      11,
+      13,
+      10,
       13,
       12
     ],
@@ -53989,8 +53989,8 @@
       5,
       17,
       8,
-      6,
-      3,
+      7,
+      2,
       4
     ],
     "status": "active"
@@ -55509,8 +55509,8 @@
       8,
       64,
       94,
-      96,
-      93,
+      97,
+      92,
       70
     ],
     "status": "active"
