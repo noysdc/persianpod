@@ -63,6 +63,10 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/feed/bazaresarmaye"
   },
+  "dairh-dastan": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmismooeraoigjuiteua2"
+  },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
@@ -111,6 +115,14 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/adultclub"
   },
+  "kbab-o-ktab": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "http://rss.castbox.fm/everest/dc3edcddc6724befbf7b6331a6a8be3d.xml"
+  },
+  "khanh-adb-parsi-sadi-khoani-ba-kioan-ord": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "http://rss.castbox.fm/everest/4039dc65d6a34d17a0836f99b6804438.xml"
+  },
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
@@ -130,6 +142,10 @@
   "kshor-shahnamh-khoansh-dastan-hai-shahnamh-frdosi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/KeshvareShahnam"
+  },
+  "ktab-soti-hnr-shfaf-andishidn": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.castbox.fm/everest/73b77041943649308a68001f342cec7e.xml"
   },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
