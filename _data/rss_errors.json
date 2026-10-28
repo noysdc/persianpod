@@ -167,6 +167,10 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
+  "podcast-aaoa": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://podcast.thermmedia.com/feed/podcast/avapodcast/"
+  },
   "podcast-farsi-ansank": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/ensanak"
