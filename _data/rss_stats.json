@@ -19588,20 +19588,26 @@
     "status": "active"
   },
   "kadi-podcast": {
-    "avg_length": 3,
-    "episodes": 1,
-    "eps_365": 1,
-    "eps_90": 1,
+    "avg_gap_days": 1.0,
+    "avg_length": 5,
+    "episodes": 2,
+    "eps_365": 2,
+    "eps_90": 2,
     "first_at": "2026-10-26",
     "first_year": 1405,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T07:51:54Z",
-    "last_link": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/c47d0f4f-832f-41eb-8de9-5bd7d8ff2a7d/play.mp3",
-    "last_title": "اپیزود صفر - معرفی پادکست کادی",
-    "max_length": 3,
-    "median_length": 3,
+    "last": "1405/08/06",
+    "last_at": "2026-10-28T06:12:32Z",
+    "last_link": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/8bb1e22f-7ce3-4f46-b51f-ac78ca68224a/play.mp3",
+    "last_title": "اپیزود 01- ارنست همینگوی (گربه در باران)",
+    "max_length": 7,
+    "median_length": 5,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/8bb1e22f-7ce3-4f46-b51f-ac78ca68224a/play.mp3",
+        "at": "2026-10-28T06:12:32Z",
+        "t": "اپیزود 01- ارنست همینگوی (گربه در باران)"
+      },
       {
         "a": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/c47d0f4f-832f-41eb-8de9-5bd7d8ff2a7d/play.mp3",
         "at": "2026-10-26T07:51:54Z",
@@ -19609,6 +19615,11 @@
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T06:12:32Z",
+        "link": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/8bb1e22f-7ce3-4f46-b51f-ac78ca68224a/play.mp3",
+        "title": "اپیزود 01- ارنست همینگوی (گربه در باران)"
+      },
       {
         "at": "2026-10-26T07:51:54Z",
         "link": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/c47d0f4f-832f-41eb-8de9-5bd7d8ff2a7d/play.mp3",
@@ -19627,7 +19638,7 @@
       0,
       0,
       0,
-      1
+      2
     ],
     "status": "active"
   },
@@ -31980,8 +31991,8 @@
       0,
       0,
       0,
-      8,
-      15,
+      9,
+      14,
       0,
       0,
       0,
@@ -47713,8 +47724,8 @@
       0,
       0,
       0,
-      2,
-      2,
+      3,
+      1,
       1,
       1,
       0
