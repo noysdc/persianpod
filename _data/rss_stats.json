@@ -1704,8 +1704,8 @@
       0,
       18,
       17,
-      20,
-      20,
+      21,
+      19,
       15
     ],
     "status": "active"
@@ -49160,26 +49160,21 @@
     "status": "inactive"
   },
   "roait-lain": {
-    "avg_gap_days": 8.6,
-    "avg_length": 57,
-    "episodes": 41,
-    "eps_365": 41,
-    "eps_90": 18,
+    "avg_gap_days": 8.5,
+    "avg_length": 56,
+    "episodes": 40,
+    "eps_365": 40,
+    "eps_90": 17,
     "first_at": "2025-11-17",
     "first_year": 1404,
-    "last": "1405/08/05",
-    "last_at": "2026-10-27T18:13:54Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/revayatline/episodes/ep-e3r6vat",
-    "last_title": "سیلک رود قسمت دوم شکار",
+    "last": "1405/07/21",
+    "last_at": "2026-10-13T17:03:54Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/revayatline/episodes/ep-e3qeq8u",
+    "last_title": "سیلک رود قسمت اول تولد",
     "max_length": 110,
     "median_length": 49,
     "min_length": 24,
     "play": [
-      {
-        "a": "https://anchor.fm/s/10bb80838/podcast/play/128203549/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F3a56c94b-7b3a-7820-193d-ecb5a145e398.mp3",
-        "at": "2026-10-27T18:13:54Z",
-        "t": "سیلک رود قسمت دوم شکار"
-      },
       {
         "a": "https://anchor.fm/s/10bb80838/podcast/play/127411934/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F5d75cafc-49ed-e8ef-460b-7a9bb0e7fa27.mp3",
         "at": "2026-10-13T17:03:54Z",
@@ -49214,14 +49209,14 @@
         "a": "https://anchor.fm/s/10bb80838/podcast/play/125538752/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-10%2Fcb227be1-893c-44eb-018a-2def090f5208.mp3",
         "at": "2026-09-10T16:54:44Z",
         "t": "زودیاک | نامه هایی از تاریکی"
+      },
+      {
+        "a": "https://anchor.fm/s/10bb80838/podcast/play/125347110/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-7%2Fc501a021-ef2f-b3f7-0dec-86a330ac2c1b.mp3",
+        "at": "2026-09-07T16:59:20Z",
+        "t": "دروازه ی بهشت"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-27T18:13:54Z",
-        "link": "https://podcasters.spotify.com/pod/show/revayatline/episodes/ep-e3r6vat",
-        "title": "سیلک رود قسمت دوم شکار"
-      },
       {
         "at": "2026-10-13T17:03:54Z",
         "link": "https://podcasters.spotify.com/pod/show/revayatline/episodes/ep-e3qeq8u",
@@ -49231,6 +49226,11 @@
         "at": "2026-10-06T16:52:48Z",
         "link": "https://podcasters.spotify.com/pod/show/revayatline/episodes/ep-e3q0nj1",
         "title": "عایشه قذافی | دختر دیکتاتور"
+      },
+      {
+        "at": "2026-09-30T16:40:14Z",
+        "link": "https://podcasters.spotify.com/pod/show/revayatline/episodes/ep-e3pl2an",
+        "title": "چارلز منسون | پیامبر آخر الزمان"
       }
     ],
     "recent_30d": [
@@ -49245,7 +49245,7 @@
       6,
       8,
       6,
-      4
+      3
     ],
     "status": "active"
   },
@@ -51288,8 +51288,8 @@
       0,
       1,
       7,
-      3,
-      7
+      4,
+      6
     ],
     "status": "active"
   },
@@ -54629,21 +54629,26 @@
     "status": "inactive"
   },
   "slh-dron": {
-    "avg_gap_days": 6.4,
-    "avg_length": 28,
+    "avg_gap_days": 6.5,
+    "avg_length": 29,
     "episodes": 200,
-    "eps_365": 55,
-    "eps_90": 13,
-    "first_at": "2020-03-17",
+    "eps_365": 56,
+    "eps_90": 14,
+    "first_at": "2020-03-18",
     "first_year": 1398,
-    "last": "1405/07/26",
-    "last_at": "2026-10-18T15:25:53Z",
-    "last_link": "https://sepblog.podbean.com/e/%d8%b5%d9%84%d8%ad-%d8%af%d8%b1%d9%88%d9%86-%d8%af%d8%b1-%db%8c%d9%88%d8%aa%db%8c%d9%88%d8%a8%da%86%d8%b1%d8%a7%d9%88%d9%84%d8%b4-%d9%86/",
-    "last_title": "صلح درون در یوتیوب - چرا ولش نمیکنم؟",
+    "last": "1405/08/06",
+    "last_at": "2026-10-28T07:13:54Z",
+    "last_link": "https://sepblog.podbean.com/e/%d8%a7%d9%be%db%8c%d8%b2%d9%88%d8%af-%db%b2%db%b2%db%b3%d8%a7%d8%b6%d8%b7%d8%b1%d8%a7%d8%a8%d8%a8%d9%84%d8%a7%d8%aa%da%a9/",
+    "last_title": "اپیزود ۲۲۳ - اضطراب بلاتکلیفی؛ چطور وقتی نمی‌دونیم قراره چه اتفاقی بیفته، آروم بمونیم؟",
     "max_length": 77,
     "median_length": 22,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://mcdn.podbean.com/mf/web/4pmpj3uyaibp5g2z/223-solhedaroon.m4a",
+        "at": "2026-10-28T07:13:54Z",
+        "t": "اپیزود ۲۲۳ - اضطراب بلاتکلیفی؛ چطور وقتی نمی‌دونیم قراره چه اتفاقی بیفته، آروم بمونیم؟"
+      },
       {
         "a": "https://mcdn.podbean.com/mf/web/traqdbe3m9fixart/Veleshnemikonam.m4a",
         "at": "2026-10-18T15:25:53Z",
@@ -54678,14 +54683,14 @@
         "a": "https://mcdn.podbean.com/mf/web/jj6ck87j3vesh6hd/219-solhedaroon.m4a",
         "at": "2026-08-29T04:48:01Z",
         "t": "اپیزود ۲۱۹ - ۷ طرحواره پنهانی که آرامش و روابط ما رو تخریب میکنند"
-      },
-      {
-        "a": "https://mcdn.podbean.com/mf/web/3xmh8mtkme3sey24/218-solhedaroon.m4a",
-        "at": "2026-08-17T03:30:00Z",
-        "t": "اپیزود ۲۱۸ - اکثر ما به چیزی معتادیم… اما چرا؟ | حقیقتی که هیچ‌کس درباره اعتیاد به شما نگفت!"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T07:13:54Z",
+        "link": "https://sepblog.podbean.com/e/%d8%a7%d9%be%db%8c%d8%b2%d9%88%d8%af-%db%b2%db%b2%db%b3%d8%a7%d8%b6%d8%b7%d8%b1%d8%a7%d8%a8%d8%a8%d9%84%d8%a7%d8%aa%da%a9/",
+        "title": "اپیزود ۲۲۳ - اضطراب بلاتکلیفی؛ چطور وقتی نمی‌دونیم قراره چه اتفاقی بیفته، آروم بمونیم؟"
+      },
       {
         "at": "2026-10-18T15:25:53Z",
         "link": "https://sepblog.podbean.com/e/%d8%b5%d9%84%d8%ad-%d8%af%d8%b1%d9%88%d9%86-%d8%af%d8%b1-%db%8c%d9%88%d8%aa%db%8c%d9%88%d8%a8%da%86%d8%b1%d8%a7%d9%88%d9%84%d8%b4-%d9%86/",
@@ -54695,11 +54700,6 @@
         "at": "2026-10-11T15:45:49Z",
         "link": "https://sepblog.podbean.com/e/%d8%a7%d9%be%db%8c%d8%b2%d9%88%d8%af-%db%b2%db%b2%db%b2%d8%b1%d9%88%d8%b2-%d8%af%d8%ae%d8%aa%d8%b1-%d8%af%d8%ae%d8%aa%d8%b1%db%8c/",
         "title": "اپیزود ۲۲۲ - روز دختر | دختری که همیشه باید خوب می‌بود"
-      },
-      {
-        "at": "2026-10-07T08:34:28Z",
-        "link": "https://sepblog.podbean.com/e/%d8%b5%d9%84%d8%ad-%d8%af%d8%b1%d9%88%d9%86-%d8%af%d8%b1-%db%8c%d9%88%d8%aa%db%8c%d9%88%d8%a8%d8%aa%d9%88-%d9%85%d9%82%d8%b5%d8%b1-%d9%86/",
-        "title": "صلح درون در یوتیوب - تو مقصر نیستی"
       }
     ],
     "recent_30d": [
@@ -54714,7 +54714,7 @@
       8,
       7,
       2,
-      4
+      5
     ],
     "status": "active"
   },
