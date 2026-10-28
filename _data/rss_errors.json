@@ -151,6 +151,10 @@
     "error": "RuntimeError: URLError: <urlopen error timed out>",
     "rss": "https://api.rabt.host/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/rss"
   },
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
+  },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://ronakottawa.com/feed/podcast/zaban-o-adabiyat/"
