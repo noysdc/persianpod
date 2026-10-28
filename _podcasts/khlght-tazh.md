@@ -18,8 +18,8 @@ pi_id: 6429405
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # خلقت تازه

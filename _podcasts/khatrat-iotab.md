@@ -18,8 +18,8 @@ pi_id: 1319672
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # خاطرات یوتاب
