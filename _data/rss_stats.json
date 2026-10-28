@@ -11044,21 +11044,26 @@
     "status": "inactive"
   },
   "dktr-ali-saghbi": {
-    "avg_gap_days": 13.8,
+    "avg_gap_days": 13.5,
     "avg_length": 37,
-    "episodes": 157,
-    "eps_365": 27,
-    "eps_90": 6,
+    "episodes": 158,
+    "eps_365": 28,
+    "eps_90": 7,
     "first_at": "2020-06-13",
     "first_year": 1399,
-    "last": "1405/08/02",
-    "last_at": "2026-10-24T07:39:04Z",
-    "last_link": "https://s3.castbox.fm/02/38/1e/85cef34647a2d3579958a007d3.mp3",
-    "last_title": "چند توصیه به پزشکان جوان",
+    "last": "1405/08/06",
+    "last_at": "2026-10-28T07:01:42Z",
+    "last_link": "https://s3.castbox.fm/92/af/2d/928e954805b88b80f88b81dcaf.mp3",
+    "last_title": "وقتی کلمات زندگی را زیرورو می‌کنند",
     "max_length": 121,
     "median_length": 55,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/92/af/2d/928e954805b88b80f88b81dcaf.mp3",
+        "at": "2026-10-28T07:01:42Z",
+        "t": "وقتی کلمات زندگی را زیرورو می‌کنند"
+      },
       {
         "a": "https://s3.castbox.fm/02/38/1e/85cef34647a2d3579958a007d3.mp3",
         "at": "2026-10-24T07:39:04Z",
@@ -11093,14 +11098,14 @@
         "a": "https://s3.castbox.fm/45/8d/c5/09503240b8a7d97c9872e2c70d.MP3",
         "at": "2026-07-29T06:09:39Z",
         "t": "رنگِ تعلق"
-      },
-      {
-        "a": "https://s3.castbox.fm/cf/a9/83/a8b5bd4f4da0f1b6f2262dcbd9.mp3",
-        "at": "2026-04-22T07:47:45Z",
-        "t": "وقتی می‌رویم، اما نمی‌رسیم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T07:01:42Z",
+        "link": "https://s3.castbox.fm/92/af/2d/928e954805b88b80f88b81dcaf.mp3",
+        "title": "وقتی کلمات زندگی را زیرورو می‌کنند"
+      },
       {
         "at": "2026-10-24T07:39:04Z",
         "link": "https://s3.castbox.fm/02/38/1e/85cef34647a2d3579958a007d3.mp3",
@@ -11110,11 +11115,6 @@
         "at": "2026-09-17T06:45:42Z",
         "link": "https://s3.castbox.fm/64/85/63/2c7c124783938b052eea2e49ac.mp3",
         "title": "در جهان، هر کسی عزیز کسی‌ست"
-      },
-      {
-        "at": "2026-09-15T19:09:15Z",
-        "link": "https://s3.castbox.fm/d7/4f/1e/f46d554906be0f6de743e887e4.mp3",
-        "title": "رنگِ انتقام"
       }
     ],
     "recent_30d": [
@@ -11129,7 +11129,7 @@
       1,
       2,
       3,
-      1
+      2
     ],
     "status": "active"
   },
@@ -47720,8 +47720,8 @@
       12,
       11,
       13,
-      10,
-      13,
+      11,
+      12,
       12
     ],
     "status": "active"
@@ -57498,13 +57498,18 @@
     "first_at": "2024-08-22",
     "first_year": 1403,
     "last": "1405/08/06",
-    "last_at": "2026-10-28T06:41:03Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6adc3d6602b9e3b259344b8d",
-    "last_title": "مدیتیشن | مدیتیشن جذب ثروت و فراوانی | افزایش انرژی پول",
+    "last_at": "2026-10-28T07:04:22Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6a86ceaf3c905940604d2d85",
+    "last_title": "مدیتیشن ۵ دقیقه‌ای برای رهایی فوری و آرامش درون مدیتیشن",
     "max_length": 99,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6a86ceaf3c905940604d2d85/media.mp3",
+        "at": "2026-10-28T07:04:22Z",
+        "t": "مدیتیشن ۵ دقیقه‌ای برای رهایی فوری و آرامش درون مدیتیشن"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6adc3d6602b9e3b259344b8d/media.mp3",
         "at": "2026-10-28T06:41:03Z",
@@ -57539,14 +57544,14 @@
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6adb156d70af2b1aa75cc547/media.mp3",
         "at": "2026-10-23T08:06:05Z",
         "t": "مدیتیشن تجسم رویاها | خلق آینده رویایی مدیتیشن"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ab8e78dfb182c6fb528cef4/media.mp3",
-        "at": "2026-10-22T00:30:00Z",
-        "t": "جملات تاکیدی💸 سپاسگزارم؛ زندگی من پر از فرصت، برکت."
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T07:04:22Z",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6a86ceaf3c905940604d2d85",
+        "title": "مدیتیشن ۵ دقیقه‌ای برای رهایی فوری و آرامش درون مدیتیشن"
+      },
       {
         "at": "2026-10-28T06:41:03Z",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6adc3d6602b9e3b259344b8d",
@@ -57556,11 +57561,6 @@
         "at": "2026-10-28T00:30:00Z",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6ab8eedbbd67ce4b53a0781d",
         "title": "من پذیرای اتفاق‌های خوب و فرصت‌های ارزشمند هستم."
-      },
-      {
-        "at": "2026-10-25T16:46:00Z",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6addcd16d39b76001f98fdd4",
-        "title": "مدیتیشن قبل خواب | رهایی از افکار و خواب عمیق مدیتیشن"
       }
     ],
     "recent_30d": [
@@ -57573,9 +57573,9 @@
       15,
       8,
       12,
-      38,
+      37,
       43,
-      35
+      36
     ],
     "status": "active"
   },
