@@ -46378,21 +46378,26 @@
     "status": "active"
   },
   "radio-oaldgri": {
-    "avg_gap_days": 95.7,
-    "avg_length": 24,
-    "episodes": 78,
-    "eps_365": 4,
-    "eps_90": 2,
+    "avg_gap_days": 75.2,
+    "avg_length": 23,
+    "episodes": 79,
+    "eps_365": 5,
+    "eps_90": 3,
     "first_at": "2021-10-11",
     "first_year": 1400,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T02:30:00Z",
-    "last_link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/20",
-    "last_title": "20 باور و رفتار غلط والد در سه سال اول زندگی کودک",
+    "last": "1405/08/06",
+    "last_at": "2026-10-28T02:30:00Z",
+    "last_link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/6ae0d5505a3cc3c4c4e20d38",
+    "last_title": "چرا رابطه‌ی ما با کودک کوک نیست؟ (ریشه‌های تنش و ناهمسویی در رابطه والد - کودک)",
     "max_length": 62,
     "median_length": 26,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/6ae0d5505a3cc3c4c4e20d38/media.mp3",
+        "at": "2026-10-28T02:30:00Z",
+        "t": "چرا رابطه‌ی ما با کودک کوک نیست؟ (ریشه‌های تنش و ناهمسویی در رابطه والد - کودک)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/6ace7c6b37f0bd18cc297c2c/media.mp3",
         "at": "2026-10-14T02:30:00Z",
@@ -46427,14 +46432,14 @@
         "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/6847c05cb0b18fac07a5af7f/media.mp3",
         "at": "2025-06-10T05:19:24Z",
         "t": "اپیزود 71 - پنج نکته فرزندپروری (سری سوم) - وقتی والد می شویم چه چیزهایی در ما قرار است تغییر کند؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/68315446381499796b0ca552/media.mp3",
-        "at": "2025-05-24T05:08:22Z",
-        "t": "اپیزود 70 - پنج نکته فرزندپروری - سری دوم (درباره غذا خوردن کودک)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T02:30:00Z",
+        "link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/6ae0d5505a3cc3c4c4e20d38",
+        "title": "چرا رابطه‌ی ما با کودک کوک نیست؟ (ریشه‌های تنش و ناهمسویی در رابطه والد - کودک)"
+      },
       {
         "at": "2026-10-14T02:30:00Z",
         "link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/20",
@@ -46444,11 +46449,6 @@
         "at": "2026-10-07T02:30:00Z",
         "link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/6ac5298c67a2ec2840f11416",
         "title": "چگونه فرزندمان دلبسته ایمن می‌شود؟ مراحل شکل‌گیری دلبستگی + ۱۰ راهکار عملی"
-      },
-      {
-        "at": "2026-01-07T05:52:14Z",
-        "link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/744",
-        "title": "اپیزود 74- ویژگی های والدین در دو سبک والدگری بی تفاوت  و قاطع"
       }
     ],
     "recent_30d": [
@@ -46463,7 +46463,7 @@
       0,
       0,
       0,
-      2
+      3
     ],
     "status": "active"
   },
