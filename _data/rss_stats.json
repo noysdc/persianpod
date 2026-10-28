@@ -12789,10 +12789,10 @@
     "status": "active"
   },
   "fght-fotbal": {
-    "avg_gap_days": 7.8,
+    "avg_gap_days": 8.0,
     "avg_length": 31,
     "episodes": 105,
-    "eps_365": 9,
+    "eps_365": 8,
     "eps_90": 0,
     "first_at": "2024-06-21",
     "first_year": 1403,
@@ -27571,8 +27571,8 @@
       0,
       0,
       0,
-      2,
-      10,
+      3,
+      9,
       11,
       7,
       2,
@@ -35388,21 +35388,26 @@
     "status": "inactive"
   },
   "podcast-bizins-astoriz": {
-    "avg_gap_days": 0.7,
-    "avg_length": 24,
-    "episodes": 27,
-    "eps_365": 27,
-    "eps_90": 27,
+    "avg_gap_days": 0.6,
+    "avg_length": 23,
+    "episodes": 28,
+    "eps_365": 28,
+    "eps_90": 28,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/05",
-    "last_at": "2026-10-27T19:34:01Z",
+    "last": "1405/08/06",
+    "last_at": "2026-10-28T13:57:26Z",
     "last_link": "https://furbodm.com/",
-    "last_title": "NETFLIX #1 | قبل از نت‌فلیکس مردم چطوری فیلم نگاه می‌کردن؟",
+    "last_title": "NETFLIX #2 | محصول اولیه نت‌فلیکس چی بود؟",
     "max_length": 38,
     "median_length": 23,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae1ff46305baddee1517ee9/media.mp3",
+        "at": "2026-10-28T13:57:26Z",
+        "t": "NETFLIX #2 | محصول اولیه نت‌فلیکس چی بود؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae0fca933b363c95d0286a5/media.mp3",
         "at": "2026-10-27T19:34:01Z",
@@ -35437,14 +35442,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adde741025813dc0c07134a/media.mp3",
         "at": "2026-10-25T11:25:53Z",
         "t": "TRUMP ORGANIZATION | داستان بیست‌ویکم؛ سازمان ترامپ"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adc8f3023b36fc01ccddf27/media.mp3",
-        "at": "2026-10-24T10:57:52Z",
-        "t": "SPOTIFY | داستان بیستم؛ اسپاتیفای"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T13:57:26Z",
+        "link": "https://furbodm.com/",
+        "title": "NETFLIX #2 | محصول اولیه نت‌فلیکس چی بود؟"
+      },
       {
         "at": "2026-10-27T19:34:01Z",
         "link": "https://furbodm.com/",
@@ -35454,11 +35459,6 @@
         "at": "2026-10-27T14:15:10Z",
         "link": "https://furbodm.com/",
         "title": "فصل دوم پادکست بیزینس استوریز"
-      },
-      {
-        "at": "2026-10-26T13:34:51Z",
-        "link": "https://furbodm.com/",
-        "title": "REDDIT | داستان بیست‌وپنجم؛ ردیت"
       }
     ],
     "recent_30d": [
@@ -35473,7 +35473,7 @@
       0,
       0,
       0,
-      27
+      28
     ],
     "status": "active"
   },
