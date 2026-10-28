@@ -2154,8 +2154,8 @@
       0,
       25,
       32,
-      17,
-      8
+      18,
+      7
     ],
     "status": "active"
   },
@@ -29424,8 +29424,8 @@
       14,
       16,
       18,
-      4,
-      31
+      5,
+      30
     ],
     "status": "active"
   },
@@ -35016,7 +35016,7 @@
       }
     ],
     "recent_30d": [
-      2,
+      1,
       7,
       2,
       0,
@@ -37438,8 +37438,8 @@
       0,
       0,
       0,
-      3,
       4,
+      3,
       0,
       3,
       1
@@ -51743,21 +51743,26 @@
     "status": "inactive"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.3,
+    "avg_gap_days": 4.2,
     "avg_length": 20,
-    "episodes": 483,
-    "eps_365": 86,
-    "eps_90": 23,
+    "episodes": 484,
+    "eps_365": 87,
+    "eps_90": 24,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/08/05",
-    "last_at": "2026-10-27T12:10:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/jnnwgusajw/",
-    "last_title": "بازگشت خریداران دلار؛ آیا نشست فد مسیر بازار را تغییر می‌دهد؟",
+    "last": "1405/08/06",
+    "last_at": "2026-10-28T12:00:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/xamqcdt2jc/",
+    "last_title": "غافلگیری نیوزیلند و توقف احتمالی فدرال رزرو در روز تعیین‌کننده بانک‌های مرکزی",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/xamqcdt2jc/2026-10-28-12-18-29.mp3",
+        "at": "2026-10-28T12:00:00Z",
+        "t": "غافلگیری نیوزیلند و توقف احتمالی فدرال رزرو در روز تعیین‌کننده بانک‌های مرکزی"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/jnnwgusajw/2026-10-27-12-19-50.mp3",
         "at": "2026-10-27T12:10:00Z",
@@ -51792,14 +51797,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/mxax8pq76j/2026-10-19-11-04-43.mp3",
         "at": "2026-10-19T10:50:00Z",
         "t": "آزمون اعتماد به هوش مصنوعی؛ نگاه بازار به گزارش‌های درآمدی"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/5dsop93uc4/2026-10-16-10-49-59.mp3",
-        "at": "2026-10-16T10:40:00Z",
-        "t": "معمای بازار پس از تورم؛ چرا دلار عقب نشست و طلا رشد کرد؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-28T12:00:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/xamqcdt2jc/",
+        "title": "غافلگیری نیوزیلند و توقف احتمالی فدرال رزرو در روز تعیین‌کننده بانک‌های مرکزی"
+      },
       {
         "at": "2026-10-27T12:10:00Z",
         "link": "https://dotcast.org/p/bozvcayr/jnnwgusajw/",
@@ -51809,11 +51814,6 @@
         "at": "2026-10-26T11:30:00Z",
         "link": "https://dotcast.org/p/bozvcayr/g5r7mwjlr7/",
         "title": "آرامش شکننده بازار؛ هفته بانک‌های مرکزی و غول‌های فناوری"
-      },
-      {
-        "at": "2026-10-23T11:40:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/y64cqvqehs/",
-        "title": "معمای بازار؛ چرا طلا و سهام با وجود افت بازدهی سقوط کردند؟"
       }
     ],
     "recent_30d": [
@@ -51828,7 +51828,7 @@
       0,
       0,
       4,
-      19
+      20
     ],
     "status": "active"
   },
