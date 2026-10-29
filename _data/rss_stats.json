@@ -713,10 +713,10 @@
     "status": "inactive"
   },
   "aamozsh-fransh-ba-mstfi-shalchi": {
-    "avg_gap_days": 2.3,
+    "avg_gap_days": 2.1,
     "avg_length": 9,
     "episodes": 38,
-    "eps_365": 10,
+    "eps_365": 9,
     "eps_90": 0,
     "first_at": "2021-08-04",
     "first_year": 1400,
@@ -20709,10 +20709,10 @@
     "status": "active"
   },
   "kafh-gp": {
-    "avg_gap_days": 6.9,
+    "avg_gap_days": 7.0,
     "avg_length": 11,
     "episodes": 120,
-    "eps_365": 15,
+    "eps_365": 14,
     "eps_90": 0,
     "first_at": "2023-09-04",
     "first_year": 1402,
@@ -27471,8 +27471,8 @@
       }
     ],
     "recent_30d": [
-      54,
-      41,
+      55,
+      40,
       10,
       46,
       2,
@@ -58020,9 +58020,9 @@
       8,
       72,
       86,
-      101,
+      102,
       91,
-      71
+      70
     ],
     "status": "active"
   },
