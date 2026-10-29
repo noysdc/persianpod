@@ -30761,26 +30761,21 @@
     "status": "inactive"
   },
   "msnoi-khoani": {
-    "avg_gap_days": 15.8,
+    "avg_gap_days": 16.3,
     "avg_length": 67,
-    "episodes": 310,
-    "eps_365": 20,
-    "eps_90": 13,
+    "episodes": 309,
+    "eps_365": 19,
+    "eps_90": 12,
     "first_at": "2019-02-07",
     "first_year": 1397,
-    "last": "1405/08/07",
-    "last_at": "2026-10-29T16:02:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3meuvr",
-    "last_title": "قسمت سیصد و هشتم ابیات ۲۳۲۲۶ تا ۲۳۳۴۷",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T16:01:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3meuv1",
+    "last_title": "قسمت سیصد و هفتم ابیات ۲۳۰۹۲ تا ۲۳۲۲۵",
     "max_length": 89,
     "median_length": 47,
     "min_length": 11,
     "play": [
-      {
-        "a": "https://anchor.fm/s/9109e20/podcast/play/123222459/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-23%2F28acb12c-5e51-3148-b8a6-2c9e07bf32e5.mp3",
-        "at": "2026-10-29T16:02:00Z",
-        "t": "قسمت سیصد و هشتم ابیات ۲۳۲۲۶ تا ۲۳۳۴۷"
-      },
       {
         "a": "https://anchor.fm/s/9109e20/podcast/play/123222433/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-23%2F1d8d9ae9-8ed9-3449-827b-c73c7f5af4df.mp3",
         "at": "2026-10-22T16:01:00Z",
@@ -30815,14 +30810,14 @@
         "a": "https://anchor.fm/s/9109e20/podcast/play/123221680/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-23%2F76246f73-934c-ede3-25d3-7125eacc12eb.mp3",
         "at": "2026-09-10T15:41:00Z",
         "t": "قسمت سیصد و یکم ابیات ۲۲۴۶۳ تا ۲۲۵۴۹"
+      },
+      {
+        "a": "https://anchor.fm/s/9109e20/podcast/play/123221683/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-23%2Fe44fe353-ab7b-ce27-27b3-88f69931af83.mp3",
+        "at": "2026-09-03T15:41:00Z",
+        "t": "قسمت سیصدم ابیات ۲۲۳۶۱ تا ۲۲۴۶۲"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-29T16:02:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3meuvr",
-        "title": "قسمت سیصد و هشتم ابیات ۲۳۲۲۶ تا ۲۳۳۴۷"
-      },
       {
         "at": "2026-10-22T16:01:00Z",
         "link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3meuv1",
@@ -30832,6 +30827,11 @@
         "at": "2026-10-15T15:58:00Z",
         "link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3meu8j",
         "title": "قسمت سیصد و ششم ابیات ۲۲۹۷۳ تا ۲۳۰۹۱"
+      },
+      {
+        "at": "2026-10-08T15:42:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3meu8h",
+        "title": "قسمت سیصد و پنجم ابیات ۲۲۸۶۹ تا ۲۲۹۷۲"
       }
     ],
     "recent_30d": [
@@ -30846,7 +30846,7 @@
       3,
       4,
       4,
-      5
+      4
     ],
     "status": "active"
   },
@@ -50233,7 +50233,7 @@
   },
   "roanshnasi-shkhsit-o-khoshbkhti": {
     "avg_length": 12,
-    "episodes": 1049,
+    "episodes": 1042,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2020-06-07",
@@ -56238,19 +56238,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4225,
-    "eps_365": 797,
-    "eps_90": 264,
+    "episodes": 4226,
+    "eps_365": 798,
+    "eps_90": 265,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/07",
-    "last_at": "2026-10-29T18:00:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ae3864b092a0dff19ba101a",
-    "last_title": "قسمت چهار هزار و دویست و نه",
+    "last_at": "2026-10-29T18:30:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ae3868239c71ad17434818a",
+    "last_title": "قسمت چهار هزار و دویست و ده",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ae3868239c71ad17434818a/media.mp3",
+        "at": "2026-10-29T18:30:00Z",
+        "t": "قسمت چهار هزار و دویست و ده"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ae3864b092a0dff19ba101a/media.mp3",
         "at": "2026-10-29T18:00:00Z",
@@ -56285,14 +56290,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6adf580ddd5d6293db7de5dc/media.mp3",
         "at": "2026-10-27T14:30:00Z",
         "t": "قسمت چهار هزار و دویست  و سه"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6adf578fb50147298ba83618/media.mp3",
-        "at": "2026-10-27T07:30:00Z",
-        "t": "قسمت چهار هزار و دویست  و دو"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-29T18:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ae3868239c71ad17434818a",
+        "title": "قسمت چهار هزار و دویست و ده"
+      },
       {
         "at": "2026-10-29T18:00:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ae3864b092a0dff19ba101a",
@@ -56302,11 +56307,6 @@
         "at": "2026-10-29T17:44:14Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ae385ee9fd2fa3c16c7a5d1",
         "title": "قسمت چهار هزار و دویست و هشت"
-      },
-      {
-        "at": "2026-10-28T18:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ae21ed8092a0dff195b2381",
-        "title": "قسمت چهار هزار و دویست و هفت"
       }
     ],
     "recent_30d": [
@@ -56321,7 +56321,7 @@
       87,
       102,
       90,
-      72
+      73
     ],
     "status": "active"
   },
@@ -57742,8 +57742,8 @@
     "recent_30d": [
       30,
       24,
-      16,
-      33,
+      17,
+      32,
       0,
       4,
       15,
