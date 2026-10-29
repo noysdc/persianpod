@@ -218,6 +218,13 @@
    "index_title": "آروئه سرپاسی | کد ذهن"
   },
   {
+   "file": "aashnaii-ba-ktab-mghds.md",
+   "dir": "_podcasts",
+   "pi_id": 6429404,
+   "how": "url",
+   "index_title": "آشنایی با کتاب مقدس"
+  },
+  {
    "file": "abdit-o-ik-roz.md",
    "dir": "_podcasts",
    "pi_id": 2260772,
@@ -314,6 +321,13 @@
    "pi_id": 7598480,
    "how": "url",
    "index_title": "Iran Talk | ایران‌تاک"
+  },
+  {
+   "file": "aistgah-fzaii.md",
+   "dir": "_podcasts",
+   "pi_id": 7947672,
+   "how": "url",
+   "index_title": "ایستگاه فضایی"
   },
   {
    "file": "aistgah-mosighi.md",
@@ -1042,6 +1056,13 @@
    "pi_id": 7232536,
    "how": "url",
    "index_title": "Echoes of Gorgan (تاریخ گرگان)"
+  },
+  {
+   "file": "eskeleh-jalil-asklh-jlil.md",
+   "dir": "_podcasts",
+   "pi_id": 6402417,
+   "how": "url",
+   "index_title": "Eskeleh jalil-اسکله جلیل"
   },
   {
    "file": "farks-ba-aranth.md",
@@ -1828,6 +1849,13 @@
    "index_title": "خانواده صلح | موج صلح | Moje Solh | Khanevade Solh"
   },
   {
+   "file": "khatrat-iotab.md",
+   "dir": "_podcasts",
+   "pi_id": 1319672,
+   "how": "url",
+   "index_title": "خاطرات یوتاب"
+  },
+  {
    "file": "khatrat-shaban-jafri.md",
    "dir": "_podcasts",
    "pi_id": 7228110,
@@ -1854,6 +1882,13 @@
    "pi_id": 7908664,
    "how": "url",
    "index_title": "خلاصه ی کتاب های خوب | deepmind"
+  },
+  {
+   "file": "khlght-tazh.md",
+   "dir": "_podcasts",
+   "pi_id": 6429405,
+   "how": "url",
+   "index_title": "خلقت تازه - khelghate tazeh"
   },
   {
    "file": "khoansh-ktab-brai-ansan-khrdmnd-2.md",
@@ -2078,6 +2113,13 @@
    "pi_id": 5850091,
    "how": "url",
    "index_title": "کتاب معماری ایرانی"
+  },
+  {
+   "file": "ktab-mhdodit-sfr-jzb-srot-o-fraoani.md",
+   "dir": "_podcasts",
+   "pi_id": 5822412,
+   "how": "url",
+   "index_title": "کتاب محدودیت صفر (جذب ثروت و فراوانی)"
   },
   {
    "file": "ktab-nfr-digri-kh-dr-bhsht-mlaghat-miknid-kaml-zhanr-flsfh.md",
@@ -2430,6 +2472,13 @@
    "index_title": "MimmPodcast | پادکست میم"
   },
   {
+   "file": "mirkt.md",
+   "dir": "_podcasts",
+   "pi_id": 7953760,
+   "how": "url",
+   "index_title": "میرکت"
+  },
+  {
    "file": "mjlh-roanshnasi-angarkh.md",
    "dir": "_podcasts",
    "pi_id": 1147897,
@@ -2568,6 +2617,13 @@
    "pi_id": 1229988,
    "how": "url",
    "index_title": "مثنوی خوانی | Masnavi Khani"
+  },
+  {
+   "file": "mzamir.md",
+   "dir": "_podcasts",
+   "pi_id": 6379735,
+   "how": "url",
+   "index_title": "مزامیر - mazamir"
   },
   {
    "file": "nam-aaoran-hnr.md",
@@ -2736,6 +2792,13 @@
    "pi_id": 7866444,
    "how": "url",
    "index_title": "پرشین ترند | متفاوت ترین پادکست تاریخی و نظامی فارسی"
+  },
+  {
+   "file": "peydayesh.md",
+   "dir": "_podcasts",
+   "pi_id": 8090198,
+   "how": "url",
+   "index_title": "Peydayesh | پیدایش"
   },
   {
    "file": "peykan-pikan.md",
@@ -2932,6 +2995,13 @@
    "pi_id": 1352875,
    "how": "url",
    "index_title": "پادکست برنامه نویسان | آواسام"
+  },
+  {
+   "file": "podcast-chm-astorh.md",
+   "dir": "_podcasts",
+   "pi_id": 7955598,
+   "how": "url",
+   "index_title": "پادکست چم‌ اسطوره | Chamosture"
   },
   {
    "file": "podcast-dastan-haii-brai-nojoanan.md",
@@ -3438,6 +3508,13 @@
    "index_title": "information serum - پادکست پزشکی سرم اطلاعات"
   },
   {
+   "file": "podcast-radiotori.md",
+   "dir": "_podcasts",
+   "pi_id": 1238162,
+   "how": "url",
+   "index_title": "پادکست رادیوطوری"
+  },
+  {
    "file": "podcast-raokdh.md",
    "dir": "_podcasts",
    "pi_id": 4007068,
@@ -3844,11 +3921,11 @@
    "index_title": "رادیو مارکت | جایی برای یادگیری استراتژی‌های بازاریابیRadio Market"
   },
   {
-   "file": "radio-mhsa.md",
+   "file": "radio-mfid.md",
    "dir": "_podcasts",
-   "pi_id": 5932012,
+   "pi_id": 3038219,
    "how": "url",
-   "index_title": "Radio Mahsa | رادیو مهسا"
+   "index_title": "رادیو مفید"
   },
   {
    "file": "radio-mili.md",
@@ -3954,6 +4031,13 @@
    "pi_id": 2278710,
    "how": "url",
    "index_title": "رادیو شعر"
+  },
+  {
+   "file": "radio-shb-hai-kabl.md",
+   "dir": "_podcasts",
+   "pi_id": 1193055,
+   "how": "url",
+   "index_title": "رادیو شب‌های کابل | Radio shabhaye Kabul"
   },
   {
    "file": "radio-tragedy-radio-trazhdi.md",
@@ -4724,6 +4808,13 @@
    "pi_id": 5353097,
    "how": "url",
    "index_title": "تدریس بداية النحو"
+  },
+  {
+   "file": "tghiir-dr-baorha.md",
+   "dir": "_podcasts",
+   "pi_id": 1854753,
+   "how": "url",
+   "index_title": "تغییر در باورها"
   },
   {
    "file": "the-spies-circle.md",
@@ -5580,6 +5671,13 @@
    "index_title": "Radio Mahsa | رادیو مهسا"
   },
   {
+   "file": "radio-sdai-zndgi.md",
+   "dir": "_blocked",
+   "pi_id": 3595265,
+   "how": "url",
+   "index_title": "رادیو صدای زندگی"
+  },
+  {
    "file": "radio-zhornal.md",
    "dir": "_blocked",
    "pi_id": 3186846,
@@ -5774,13 +5872,6 @@
    "pi_id": 2447814,
    "how": "url",
    "index_title": "زندگی تازه"
-  },
-  {
-   "file": "peydayesh.md",
-   "dir": "_podcasts",
-   "pi_id": 8090198,
-   "how": "rss-lookup",
-   "index_title": "Peydayesh | پیدایش"
   }
  ],
  "unmatched": [
