@@ -36010,19 +36010,24 @@
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.6,
     "avg_length": 23,
-    "episodes": 28,
-    "eps_365": 28,
-    "eps_90": 28,
+    "episodes": 29,
+    "eps_365": 29,
+    "eps_90": 29,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/06",
-    "last_at": "2026-10-28T13:57:26Z",
+    "last": "1405/08/07",
+    "last_at": "2026-10-29T16:32:39Z",
     "last_link": "https://furbodm.com/",
-    "last_title": "NETFLIX #2 | محصول اولیه نت‌فلیکس چی بود؟",
+    "last_title": "NETFLIX #3 | نت‌فلیکس از کجا مشتری‌های اولیه خودش رو پیدا کرد؟",
     "max_length": 38,
     "median_length": 23,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae375279fd2fa3c16c35319/media.mp3",
+        "at": "2026-10-29T16:32:39Z",
+        "t": "NETFLIX #3 | نت‌فلیکس از کجا مشتری‌های اولیه خودش رو پیدا کرد؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae1ff46305baddee1517ee9/media.mp3",
         "at": "2026-10-28T13:57:26Z",
@@ -36036,7 +36041,7 @@
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae0b1eeab1b1d113dda940e/media.mp3",
         "at": "2026-10-27T14:15:10Z",
-        "t": "فصل دوم پادکست بیزینس استوریز"
+        "t": "NETFLIX #0 | فصل دوم پادکست بیزینس استوریز؛ نت‌فلیکس"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adf56fbb50147298ba80812/media.mp3",
@@ -36057,14 +36062,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6added9b025813dc0c08dbf3/media.mp3",
         "at": "2026-10-25T12:30:00Z",
         "t": "LABUBU | داستان بیست‌و‌دوم؛ لبوبو"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adde741025813dc0c07134a/media.mp3",
-        "at": "2026-10-25T11:25:53Z",
-        "t": "TRUMP ORGANIZATION | داستان بیست‌ویکم؛ سازمان ترامپ"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-29T16:32:39Z",
+        "link": "https://furbodm.com/",
+        "title": "NETFLIX #3 | نت‌فلیکس از کجا مشتری‌های اولیه خودش رو پیدا کرد؟"
+      },
       {
         "at": "2026-10-28T13:57:26Z",
         "link": "https://furbodm.com/",
@@ -36074,11 +36079,6 @@
         "at": "2026-10-27T19:34:01Z",
         "link": "https://furbodm.com/",
         "title": "NETFLIX #1 | قبل از نت‌فلیکس مردم چطوری فیلم نگاه می‌کردن؟"
-      },
-      {
-        "at": "2026-10-27T14:15:10Z",
-        "link": "https://furbodm.com/",
-        "title": "فصل دوم پادکست بیزینس استوریز"
       }
     ],
     "recent_30d": [
@@ -36093,7 +36093,7 @@
       0,
       0,
       0,
-      28
+      29
     ],
     "status": "active"
   },
@@ -37781,8 +37781,8 @@
       }
     ],
     "recent_30d": [
-      5,
-      3,
+      6,
+      2,
       0,
       0,
       0,
@@ -50321,21 +50321,26 @@
     "status": "inactive"
   },
   "rhbri-droni": {
-    "avg_gap_days": 10.3,
+    "avg_gap_days": 10.4,
     "avg_length": 25,
-    "episodes": 56,
-    "eps_365": 35,
-    "eps_90": 6,
+    "episodes": 57,
+    "eps_365": 36,
+    "eps_90": 7,
     "first_at": "2025-04-10",
     "first_year": 1404,
-    "last": "1405/07/23",
-    "last_at": "2026-10-15T02:00:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3qaro7",
-    "last_title": "نهال عزت نفس و تمرین قدرتمند من امن",
+    "last": "1405/08/07",
+    "last_at": "2026-10-29T03:00:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3r28gk",
+    "last_title": "مدیتیشن کودک درونت باید آینده‌اش را ببیند 🎨",
     "max_length": 49,
     "median_length": 23,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1035f1fc8/podcast/play/128049108/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-25%2F434943759-44100-2-0ffc9a0a872d3.m4a",
+        "at": "2026-10-29T03:00:00Z",
+        "t": "مدیتیشن کودک درونت باید آینده‌اش را ببیند 🎨"
+      },
       {
         "a": "https://anchor.fm/s/1035f1fc8/podcast/play/127282375/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-11%2F433909471-44100-2-fda20f9969e7d.m4a",
         "at": "2026-10-15T02:00:00Z",
@@ -50370,14 +50375,14 @@
         "a": "https://anchor.fm/s/1035f1fc8/podcast/play/123127450/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-21%2F428353988-44100-2-39181a8bba24c.m4a",
         "at": "2026-07-23T02:00:00Z",
         "t": "مدیتیشن شفای سرنوشت موروثی"
-      },
-      {
-        "a": "https://anchor.fm/s/1035f1fc8/podcast/play/122490153/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-7%2F427497033-44100-2-5506c0fb8d581.m4a",
-        "at": "2026-07-09T02:00:00Z",
-        "t": "مدیدنس من کیهانی: Meditation-Dance"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-29T03:00:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3r28gk",
+        "title": "مدیتیشن کودک درونت باید آینده‌اش را ببیند 🎨"
+      },
       {
         "at": "2026-10-15T02:00:00Z",
         "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3qaro7",
@@ -50387,11 +50392,6 @@
         "at": "2026-10-01T02:00:00Z",
         "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3pifck",
         "title": "💕 مدیتیشن پنج زبان عشق"
-      },
-      {
-        "at": "2026-09-17T02:00:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3osmcn",
-        "title": "مرزبندی سالم عاطفی: شناسایی و مدیریت نابالغی عاطفی در روابط"
       }
     ],
     "recent_30d": [
@@ -50406,7 +50406,7 @@
       2,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
