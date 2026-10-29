@@ -49694,21 +49694,26 @@
     "status": "active"
   },
   "radiocrime-padkst-jnaii-radio-kraim": {
-    "avg_gap_days": 17.6,
-    "avg_length": 32,
-    "episodes": 81,
-    "eps_365": 21,
-    "eps_90": 14,
+    "avg_gap_days": 16.9,
+    "avg_length": 33,
+    "episodes": 82,
+    "eps_365": 22,
+    "eps_90": 15,
     "first_at": "2024-07-04",
     "first_year": 1403,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T15:13:27Z",
-    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6adf6e1729dd53209d19b50e",
-    "last_title": "قاتل در میان نزدیکانش بود؟ معمای قتل نوری آمایا",
+    "last": "1405/08/07",
+    "last_at": "2026-10-29T15:05:06Z",
+    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6ae360a182192fb628ca58d8",
+    "last_title": "مرد ناشناسِ سرگردان؛ رازی که بعد از ۴۰ سال فاش شد!",
     "max_length": 78,
     "median_length": 14,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6ae360a182192fb628ca58d8/media.mp3",
+        "at": "2026-10-29T15:05:06Z",
+        "t": "مرد ناشناسِ سرگردان؛ رازی که بعد از ۴۰ سال فاش شد!"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6adf6e1729dd53209d19b50e/media.mp3",
         "at": "2026-10-26T15:13:27Z",
@@ -49743,14 +49748,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6ac3abbbcf16445f8b5c40f5/media.mp3",
         "at": "2026-10-05T13:52:59Z",
         "t": "یک قتل حل‌نشده، دو دختر گمشده و رازی که بعد از ۳۳ سال برگشت"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6ac3aac3ceaaaa9e66969f11/media.mp3",
-        "at": "2026-10-05T13:48:51Z",
-        "t": "قاتل یا یک اشتباه مرگبار؟ راز پرونده بریتنی شاو"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-29T15:05:06Z",
+        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6ae360a182192fb628ca58d8",
+        "title": "مرد ناشناسِ سرگردان؛ رازی که بعد از ۴۰ سال فاش شد!"
+      },
       {
         "at": "2026-10-26T15:13:27Z",
         "link": "https://shows.acast.com/radiocrime-podcast/episodes/6adf6e1729dd53209d19b50e",
@@ -49760,11 +49765,6 @@
         "at": "2026-10-26T15:08:41Z",
         "link": "https://www.youtube.com/channel/UCSwZI76NQ7Q0rWhjazTS5pg",
         "title": "پرونده لوئیجی منجیونی؛ چرا بخشی از آمریکا از متهم قتل حمایت کرد؟"
-      },
-      {
-        "at": "2026-10-19T15:30:00Z",
-        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6ad55faaa2384a5721b7ca5e",
-        "title": "مرگ لاکیشا تامپسون؛ تناقض‌هایی که خانواده را رها نمی‌کنند"
       }
     ],
     "recent_30d": [
@@ -49779,7 +49779,7 @@
       1,
       3,
       3,
-      8
+      9
     ],
     "status": "active"
   },
