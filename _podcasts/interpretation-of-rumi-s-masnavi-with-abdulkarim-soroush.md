@@ -17,8 +17,8 @@ pi_id: 75450
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Interpretation of Rumi's Masnavi with Abdulkarim Soroush شرح دفتر نخست مثنوی مولوی
