@@ -48179,7 +48179,7 @@
     "avg_gap_days": 5.1,
     "avg_length": 46,
     "episodes": 250,
-    "eps_365": 73,
+    "eps_365": 72,
     "eps_90": 13,
     "first_at": "2023-08-10",
     "first_year": 1402,
@@ -52723,21 +52723,26 @@
     "status": "inactive"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.3,
-    "avg_length": 20,
-    "episodes": 484,
-    "eps_365": 86,
-    "eps_90": 24,
+    "avg_gap_days": 4.2,
+    "avg_length": 21,
+    "episodes": 485,
+    "eps_365": 87,
+    "eps_90": 25,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/08/06",
-    "last_at": "2026-10-28T12:00:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/xamqcdt2jc/",
-    "last_title": "غافلگیری نیوزیلند و توقف احتمالی فدرال رزرو در روز تعیین‌کننده بانک‌های مرکزی",
+    "last": "1405/08/07",
+    "last_at": "2026-10-29T10:20:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/eydmxb5zxb/",
+    "last_title": "شوک آلفابت به وال‌استریت؛ نگاه بازار به آمازون و تورم آمریکا",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/eydmxb5zxb/2026-10-29-12-47-14.mp3",
+        "at": "2026-10-29T10:20:00Z",
+        "t": "شوک آلفابت به وال‌استریت؛ نگاه بازار به آمازون و تورم آمریکا"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/xamqcdt2jc/2026-10-28-12-18-29.mp3",
         "at": "2026-10-28T12:00:00Z",
@@ -52772,14 +52777,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/z2oann4izq/2026-10-20-13-53-17.mp3",
         "at": "2026-10-20T12:10:00Z",
         "t": "چرا افت دلار و بازدهی اوراق، طلا را بالا نبرد؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/mxax8pq76j/2026-10-19-11-04-43.mp3",
-        "at": "2026-10-19T10:50:00Z",
-        "t": "آزمون اعتماد به هوش مصنوعی؛ نگاه بازار به گزارش‌های درآمدی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-29T10:20:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/eydmxb5zxb/",
+        "title": "شوک آلفابت به وال‌استریت؛ نگاه بازار به آمازون و تورم آمریکا"
+      },
       {
         "at": "2026-10-28T12:00:00Z",
         "link": "https://dotcast.org/p/bozvcayr/xamqcdt2jc/",
@@ -52789,11 +52794,6 @@
         "at": "2026-10-27T12:10:00Z",
         "link": "https://dotcast.org/p/bozvcayr/jnnwgusajw/",
         "title": "بازگشت خریداران دلار؛ آیا نشست فد مسیر بازار را تغییر می‌دهد؟"
-      },
-      {
-        "at": "2026-10-26T11:30:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/g5r7mwjlr7/",
-        "title": "آرامش شکننده بازار؛ هفته بانک‌های مرکزی و غول‌های فناوری"
       }
     ],
     "recent_30d": [
@@ -52808,7 +52808,7 @@
       0,
       0,
       5,
-      19
+      20
     ],
     "status": "active"
   },
@@ -54517,21 +54517,26 @@
     "status": "inactive"
   },
   "shar-kst": {
-    "avg_gap_days": 8.3,
-    "avg_length": 5,
-    "episodes": 180,
-    "eps_365": 43,
-    "eps_90": 39,
+    "avg_gap_days": 8.1,
+    "avg_length": 4,
+    "episodes": 181,
+    "eps_365": 44,
+    "eps_90": 40,
     "first_at": "2022-05-04",
     "first_year": 1401,
     "last": "1405/08/07",
-    "last_at": "2026-10-29T06:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/bb9dd684-79b6-4965-b067-efda847f7395/play.mp3",
-    "last_title": "صد و هفتاد و نه - سیم‌تن: منسوب به خیام",
+    "last_at": "2026-10-29T12:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/0e3e478b-af9e-48b8-a457-8b6bf0992342/play.mp3",
+    "last_title": "صد صد و هشتاد - خونِ شهریارو هشتاد - خونِ شهریار",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/0e3e478b-af9e-48b8-a457-8b6bf0992342/play.mp3",
+        "at": "2026-10-29T12:30:00Z",
+        "t": "صد صد و هشتاد - خونِ شهریارو هشتاد - خونِ شهریار"
+      },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/bb9dd684-79b6-4965-b067-efda847f7395/play.mp3",
         "at": "2026-10-29T06:30:00Z",
@@ -54566,14 +54571,14 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/be521508-1b3c-4223-99a9-3d81e53b11d5/play.mp3",
         "at": "2026-10-27T10:30:00Z",
         "t": "صد و هفتاد و سه – گُلِ تازه: منسوب به خیام"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/7d216784-5bb4-492c-8b21-fea631c12ad0/play.mp3",
-        "at": "2026-10-27T06:30:00Z",
-        "t": "صد و هفتاد و دو - شیشه‌گر: منسوب به خیام"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-29T12:30:00Z",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/0e3e478b-af9e-48b8-a457-8b6bf0992342/play.mp3",
+        "title": "صد صد و هشتاد - خونِ شهریارو هشتاد - خونِ شهریار"
+      },
       {
         "at": "2026-10-29T06:30:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/bb9dd684-79b6-4965-b067-efda847f7395/play.mp3",
@@ -54583,11 +54588,6 @@
         "at": "2026-10-28T18:30:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/022ef135-1253-46a6-a42a-3f663e808713/play.mp3",
         "title": "صد و هفتاد و هشت - تختِ فریدون: منسوب به خیام"
-      },
-      {
-        "at": "2026-10-28T13:30:00Z",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/223eeaf9-1be8-4d63-9e66-2d819e73a012/play.mp3",
-        "title": "صد و هفتاد و هفت - غم و مَی و تریاک: منسوب به خیام"
       }
     ],
     "recent_30d": [
@@ -54602,7 +54602,7 @@
       1,
       2,
       0,
-      37
+      38
     ],
     "status": "active"
   },
