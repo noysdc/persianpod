@@ -7376,8 +7376,8 @@
       5,
       3,
       1,
-      4,
-      11,
+      5,
+      10,
       9,
       4,
       5,
@@ -30761,26 +30761,21 @@
     "status": "inactive"
   },
   "msnoi-khoani": {
-    "avg_gap_days": 15.8,
+    "avg_gap_days": 16.3,
     "avg_length": 67,
-    "episodes": 310,
-    "eps_365": 20,
-    "eps_90": 13,
+    "episodes": 309,
+    "eps_365": 19,
+    "eps_90": 12,
     "first_at": "2019-02-07",
     "first_year": 1397,
-    "last": "1405/08/07",
-    "last_at": "2026-10-29T16:02:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3meuvr",
-    "last_title": "قسمت سیصد و هشتم ابیات ۲۳۲۲۶ تا ۲۳۳۴۷",
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T16:01:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3meuv1",
+    "last_title": "قسمت سیصد و هفتم ابیات ۲۳۰۹۲ تا ۲۳۲۲۵",
     "max_length": 89,
     "median_length": 47,
     "min_length": 11,
     "play": [
-      {
-        "a": "https://anchor.fm/s/9109e20/podcast/play/123222459/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-23%2F28acb12c-5e51-3148-b8a6-2c9e07bf32e5.mp3",
-        "at": "2026-10-29T16:02:00Z",
-        "t": "قسمت سیصد و هشتم ابیات ۲۳۲۲۶ تا ۲۳۳۴۷"
-      },
       {
         "a": "https://anchor.fm/s/9109e20/podcast/play/123222433/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-23%2F1d8d9ae9-8ed9-3449-827b-c73c7f5af4df.mp3",
         "at": "2026-10-22T16:01:00Z",
@@ -30815,14 +30810,14 @@
         "a": "https://anchor.fm/s/9109e20/podcast/play/123221680/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-23%2F76246f73-934c-ede3-25d3-7125eacc12eb.mp3",
         "at": "2026-09-10T15:41:00Z",
         "t": "قسمت سیصد و یکم ابیات ۲۲۴۶۳ تا ۲۲۵۴۹"
+      },
+      {
+        "a": "https://anchor.fm/s/9109e20/podcast/play/123221683/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-23%2Fe44fe353-ab7b-ce27-27b3-88f69931af83.mp3",
+        "at": "2026-09-03T15:41:00Z",
+        "t": "قسمت سیصدم ابیات ۲۲۳۶۱ تا ۲۲۴۶۲"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-29T16:02:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3meuvr",
-        "title": "قسمت سیصد و هشتم ابیات ۲۳۲۲۶ تا ۲۳۳۴۷"
-      },
       {
         "at": "2026-10-22T16:01:00Z",
         "link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3meuv1",
@@ -30832,6 +30827,11 @@
         "at": "2026-10-15T15:58:00Z",
         "link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3meu8j",
         "title": "قسمت سیصد و ششم ابیات ۲۲۹۷۳ تا ۲۳۰۹۱"
+      },
+      {
+        "at": "2026-10-08T15:42:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3meu8h",
+        "title": "قسمت سیصد و پنجم ابیات ۲۲۸۶۹ تا ۲۲۹۷۲"
       }
     ],
     "recent_30d": [
@@ -30846,7 +30846,7 @@
       3,
       4,
       4,
-      5
+      4
     ],
     "status": "active"
   },
@@ -50233,7 +50233,7 @@
   },
   "roanshnasi-shkhsit-o-khoshbkhti": {
     "avg_length": 12,
-    "episodes": 1042,
+    "episodes": 1049,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2020-06-07",
@@ -54986,26 +54986,21 @@
     "status": "active"
   },
   "smimi-ba-khod": {
-    "avg_gap_days": 42.2,
-    "avg_length": 51,
-    "episodes": 429,
-    "eps_365": 9,
-    "eps_90": 4,
+    "avg_gap_days": 43.0,
+    "avg_length": 50,
+    "episodes": 428,
+    "eps_365": 8,
+    "eps_90": 3,
     "first_at": "2019-06-26",
     "first_year": 1398,
-    "last": "1405/08/07",
-    "last_at": "2026-10-29T17:43:28Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/samimibakhod/episodes/ep-e3rc00g",
-    "last_title": "لایو مقصر یا مسئول",
+    "last": "1405/06/31",
+    "last_at": "2026-09-22T15:17:43Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/samimibakhod/episodes/--e3p853b",
+    "last_title": "لایو- فراتر از دوگانگی",
     "max_length": 107,
     "median_length": 15,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/c59313c/podcast/play/128368080/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-29%2F526829eb-a2de-bfce-17ae-c07f500740eb.mp3",
-        "at": "2026-10-29T17:43:28Z",
-        "t": "لایو مقصر یا مسئول"
-      },
       {
         "a": "https://anchor.fm/s/c59313c/podcast/play/126145067/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-22%2F1d193177-0c39-ede7-c1fc-f1d8fa09ee8a.mp3",
         "at": "2026-09-22T15:17:43Z",
@@ -55040,14 +55035,14 @@
         "a": "https://anchor.fm/s/c59313c/podcast/play/111688058/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-25%2F658ddc18-e939-43a9-6682-30fd76ab133a.mp3",
         "at": "2025-11-25T14:40:02Z",
         "t": "دو قلپ کتاب-۱۳- زندگی رازآلود آقایان"
+      },
+      {
+        "a": "https://anchor.fm/s/c59313c/podcast/play/111687973/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-25%2Fc72736f6-0d6f-9692-edd6-5b2db68eef23.mp3",
+        "at": "2025-11-25T14:38:49Z",
+        "t": "دو قلپ کتاب-۱۲- زندگی رازآلود آقایان"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-29T17:43:28Z",
-        "link": "https://podcasters.spotify.com/pod/show/samimibakhod/episodes/ep-e3rc00g",
-        "title": "لایو مقصر یا مسئول"
-      },
       {
         "at": "2026-09-22T15:17:43Z",
         "link": "https://podcasters.spotify.com/pod/show/samimibakhod/episodes/--e3p853b",
@@ -55057,6 +55052,11 @@
         "at": "2026-08-14T17:29:26Z",
         "link": "https://podcasters.spotify.com/pod/show/samimibakhod/episodes/ep-e3ndmj2",
         "title": "لایو جریانِ جاری بودن"
+      },
+      {
+        "at": "2026-08-04T17:39:36Z",
+        "link": "https://podcasters.spotify.com/pod/show/samimibakhod/episodes/---e3mvih7",
+        "title": "دو قلپ کتاب-۱۶- زندگی رازآلود آقایان"
       }
     ],
     "recent_30d": [
@@ -55071,7 +55071,7 @@
       1,
       2,
       1,
-      1
+      0
     ],
     "status": "active"
   },
