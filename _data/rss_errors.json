@@ -100,7 +100,7 @@
     "rss": "https://webmasterplus.ir/feed/"
   },
   "pzhoak-mahor": {
-    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/pejvakemahoor/feed/"
   },
   "radio-jhani-adontist": {
