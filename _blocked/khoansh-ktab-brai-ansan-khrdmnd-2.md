@@ -17,8 +17,8 @@ pi_id: 6448352
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: false
+published: false
 ---
 
 # خوانش کتاب برای انسان خردمند (2)

@@ -18,8 +18,8 @@ pi_id: 1226275
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: false
+published: false
 ---
 
 # //t.me/radioshereparsi رادیو شعر پارسی
