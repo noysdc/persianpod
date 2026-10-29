@@ -7830,8 +7830,8 @@
       0,
       0,
       1,
-      0,
-      1
+      1,
+      0
     ],
     "status": "active"
   },
@@ -39142,10 +39142,10 @@
     "status": "inactive"
   },
   "podcast-fotbal-lb": {
-    "avg_gap_days": 5.4,
+    "avg_gap_days": 5.5,
     "avg_length": 140,
     "episodes": 827,
-    "eps_365": 68,
+    "eps_365": 67,
     "eps_90": 9,
     "first_at": "1970-01-01",
     "first_year": 1348,
