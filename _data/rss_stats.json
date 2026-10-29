@@ -2074,7 +2074,7 @@
     "avg_length": 7,
     "episodes": 82,
     "eps_365": 82,
-    "eps_90": 57,
+    "eps_90": 56,
     "first_at": "2026-07-06",
     "first_year": 1405,
     "last": "1405/08/04",
@@ -2152,8 +2152,8 @@
       0,
       0,
       0,
-      25,
-      33,
+      26,
+      32,
       17,
       7
     ],
@@ -4984,6 +4984,92 @@
     ],
     "status": "inactive"
   },
+  "aslam-mirzaii": {
+    "avg_gap_days": 13.4,
+    "episodes": 29,
+    "eps_365": 26,
+    "eps_90": 5,
+    "first_at": "2018-07-16",
+    "first_year": 1397,
+    "last": "1405/08/01",
+    "last_at": "2026-10-23T13:56:08Z",
+    "last_link": "https://www.zahra-media.ir/%d9%81%d8%a7%d8%b7%d9%85%db%8c%d9%87-1400-%d8%a7%d8%b3%d9%84%d8%a7%d9%85-%d9%85%db%8c%d8%b1%d8%b2%d8%a7%db%8c%db%8c/",
+    "last_title": "فاطمیه ۱۴۰۰ – اسلام میرزایی",
+    "play": [
+      {
+        "a": "https://dl14.zahra-media.ir//ya%20amiralmomonin/eslam/eslam-zeinab%20zeinab.mp3",
+        "at": "2026-10-15T13:00:58Z",
+        "t": "یا زینب یا زینب – اسلام میرزایی"
+      },
+      {
+        "a": "https://dl14.zahra-media.ir//ya%20amiralmomonin/eslam/eslam-gholam%20siahe%20bi%20nava.mp3",
+        "at": "2026-07-25T07:11:54Z",
+        "t": "عزیز فاطمه فدای تو بشم با ذکر یاحسین به کربلا برم – اسلام میرزایی"
+      },
+      {
+        "a": "http://www.sibtayn.com/sound/fa/monasebat/moharam/93/shab01/eslam/mirzaei-sh01-m93-01.mp3",
+        "at": "2026-06-14T13:40:58Z",
+        "t": "دهه اول محرم ۹۳ – اسلام میرزایی"
+      },
+      {
+        "a": "http://www.sibtayn.com/sound/fa/monasebat/moharam/91/shab01/mirzaei/mirzaei-sh1-m91-01.mp3",
+        "at": "2026-06-14T03:10:37Z",
+        "t": "دهه اول محرم ۹۱ – اسلام میرزایی"
+      },
+      {
+        "a": "https://dl14.zahra-media.ir//1399/Other/Eslam-Dar%20Be%20Daram%20Agha.mp3",
+        "at": "2026-06-04T12:50:51Z",
+        "t": "گر عشق علی کسی ندارد در سر آن سر به سرش اگر نباشد بهتر-اسلام میرزایی"
+      },
+      {
+        "a": "https://dl14.zahra-media.ir//1402/Other/Eslam-Ba%20Goftane%20Ya%20Ali.mp3",
+        "at": "2026-06-03T07:54:21Z",
+        "t": "با گفتن یا علی دلم خنک می گردد – اسلام میرزایی"
+      },
+      {
+        "a": "https://dl14.zahra-media.ir/ya%20amiralmomonin/eslam/eslam-bibi%20masume.mp3",
+        "at": "2026-04-19T13:30:01Z",
+        "t": "بی بی معصومه والله فقیر خونتم من – اسلام میرزایی"
+      },
+      {
+        "a": "https://dl14.zahra-media.ir/ya%20amiralmomonin/eslam/eslam-zeinabe%20imam%20reza.mp3",
+        "at": "2026-04-19T10:30:51Z",
+        "t": "زینب امام رضا – اسلام میرزایی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-23T13:56:08Z",
+        "link": "https://www.zahra-media.ir/%d9%81%d8%a7%d8%b7%d9%85%db%8c%d9%87-1400-%d8%a7%d8%b3%d9%84%d8%a7%d9%85-%d9%85%db%8c%d8%b1%d8%b2%d8%a7%db%8c%db%8c/",
+        "title": "فاطمیه ۱۴۰۰ – اسلام میرزایی"
+      },
+      {
+        "at": "2026-10-23T12:43:30Z",
+        "link": "https://www.zahra-media.ir/%d9%81%d8%a7%d8%b7%d9%85%db%8c%d9%87-99-%d8%a7%d8%b3%d9%84%d8%a7%d9%85-%d9%85%db%8c%d8%b1%d8%b2%d8%a7%db%8c%db%8c/",
+        "title": "فاطمیه ۹۹ – اسلام میرزایی"
+      },
+      {
+        "at": "2026-10-22T13:42:38Z",
+        "link": "https://www.zahra-media.ir/%d9%81%d8%a7%d8%b7%d9%85%db%8c%d9%87-95-%d8%a7%d8%b3%d9%84%d8%a7%d9%85-%d9%85%db%8c%d8%b1%d8%b2%d8%a7%db%8c%db%8c/",
+        "title": "فاطمیه ۹۵ – اسلام میرزایی"
+      }
+    ],
+    "recent_30d": [
+      1,
+      0,
+      0,
+      0,
+      2,
+      2,
+      0,
+      15,
+      1,
+      0,
+      0,
+      5
+    ],
+    "status": "active"
+  },
   "asranh-hnr": {
     "avg_length": 14,
     "episodes": 20,
@@ -7022,8 +7108,8 @@
       0,
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       5,
       4,
       4,
@@ -7031,6 +7117,95 @@
       7
     ],
     "status": "active"
+  },
+  "bist-o-hsht-roz-shkrgzari": {
+    "avg_length": 15,
+    "episodes": 30,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-06-27",
+    "first_year": 1398,
+    "last": "1398/04/08",
+    "last_at": "2019-06-29T17:46:37Z",
+    "last_link": "https://s3.castbox.fm/8c/88/5a/673eef4b818991732da1cefb9a.mp3",
+    "last_title": "029 - روز پایانی",
+    "max_length": 29,
+    "median_length": 15,
+    "min_length": 9,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/8c/88/5a/673eef4b818991732da1cefb9a.mp3",
+        "at": "2019-06-29T17:46:37Z",
+        "t": "029 - روز پایانی"
+      },
+      {
+        "a": "https://s3.castbox.fm/dc/2a/58/63cd814113b99f5ed7e33aa91f.mp3",
+        "at": "2019-06-29T17:44:42Z",
+        "t": "028 - روز بیست و هشتم"
+      },
+      {
+        "a": "https://s3.castbox.fm/8d/24/12/4de956415599a4a81fc41bf837.mp3",
+        "at": "2019-06-29T17:31:16Z",
+        "t": "027 - روز بیست و هفتم"
+      },
+      {
+        "a": "https://s3.castbox.fm/9e/e0/09/c2139548f4b0e10101b8fce6e1.mp3",
+        "at": "2019-06-29T17:28:03Z",
+        "t": "026 - روز بیست و ششم"
+      },
+      {
+        "a": "https://s3.castbox.fm/ee/13/83/73e98848d69d0518a2cf20c015.mp3",
+        "at": "2019-06-29T17:26:01Z",
+        "t": "025 - روز بیست و پنجم"
+      },
+      {
+        "a": "https://s3.castbox.fm/4e/c8/4d/150a8745778633a40395bb3327.mp3",
+        "at": "2019-06-29T17:23:38Z",
+        "t": "024 - روز بیست و چهارم"
+      },
+      {
+        "a": "https://s3.castbox.fm/1d/b2/6f/4298214dd2b676cd54edb18328.mp3",
+        "at": "2019-06-29T17:21:32Z",
+        "t": "023 - روز بیست و سوم"
+      },
+      {
+        "a": "https://s3.castbox.fm/b1/d9/ac/9906b748ff8c0ad30e225f6d44.mp3",
+        "at": "2019-06-29T17:11:56Z",
+        "t": "022 - روز بیست و دوم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2019-06-29T17:46:37Z",
+        "link": "https://s3.castbox.fm/8c/88/5a/673eef4b818991732da1cefb9a.mp3",
+        "title": "029 - روز پایانی"
+      },
+      {
+        "at": "2019-06-29T17:44:42Z",
+        "link": "https://s3.castbox.fm/dc/2a/58/63cd814113b99f5ed7e33aa91f.mp3",
+        "title": "028 - روز بیست و هشتم"
+      },
+      {
+        "at": "2019-06-29T17:31:16Z",
+        "link": "https://s3.castbox.fm/8d/24/12/4de956415599a4a81fc41bf837.mp3",
+        "title": "027 - روز بیست و هفتم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "bourse-bors-plas": {
     "avg_length": 7,
@@ -10857,6 +11032,95 @@
       0,
       0,
       0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "dijital-markting-kht-ik": {
+    "avg_length": 16,
+    "episodes": 281,
+    "eps_365": 1,
+    "eps_90": 0,
+    "first_at": "2020-04-19",
+    "first_year": 1399,
+    "last": "1405/02/31",
+    "last_at": "2026-05-21T09:23:23Z",
+    "last_link": "https://www.spreaker.com/episode/281-frmwl-a-tmad--72095607",
+    "last_title": "281 فرمول اعتماد",
+    "max_length": 52,
+    "median_length": 5,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://api.spreaker.com/download/episode/72095607/stream.mp3",
+        "at": "2026-05-21T09:23:23Z",
+        "t": "281 فرمول اعتماد"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/66128559/280_mixdown.mp3",
+        "at": "2025-05-17T09:19:09Z",
+        "t": "280 هسته محتوا"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/61282312/279.mp3",
+        "at": "2024-09-06T10:29:10Z",
+        "t": "279 حل چالش های جدی سئو به کمک مهران منصوری فر"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/61145015/278.mp3",
+        "at": "2024-08-16T10:50:35Z",
+        "t": "278. ماهیچه های یک سایت پر مخاطب"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/61145033/277.mp3",
+        "at": "2024-07-19T08:55:04Z",
+        "t": "اپیزود 277 مسیر موفقیت از دید کارفرمایان"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/61145024/276.mp3",
+        "at": "2024-05-29T08:45:40Z",
+        "t": "اپیزود 276 چالش ارتباطات در سئو"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/61145017/275.mp3",
+        "at": "2024-04-16T09:05:34Z",
+        "t": "اپیزود 275 چرا خلاصه کتاب موثر نیست؟"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/61145022/274.mp3",
+        "at": "2024-03-14T13:48:52Z",
+        "t": "اپیزود 274 با کارفرمای نا آگاه چکار کنیم؟"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-05-21T09:23:23Z",
+        "link": "https://www.spreaker.com/episode/281-frmwl-a-tmad--72095607",
+        "title": "281 فرمول اعتماد"
+      },
+      {
+        "at": "2025-05-17T09:19:09Z",
+        "link": "https://www.spreaker.com/episode/280-hsth-mhtwa--66128559",
+        "title": "280 هسته محتوا"
+      },
+      {
+        "at": "2024-09-06T10:29:10Z",
+        "link": "https://www.spreaker.com/episode/279-hl-chalsh-hay-jdy-syw-bh-kmk-mhran-mnswry-fr--61282312",
+        "title": "279 حل چالش های جدی سئو به کمک مهران منصوری فر"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
       0,
       0,
       0,
@@ -19050,6 +19314,95 @@
     ],
     "status": "inactive"
   },
+  "interpretation-of-rumi-s-masnavi-with-abdulkarim-soroush": {
+    "avg_length": 83,
+    "episodes": 50,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2016-04-21",
+    "first_year": 1395,
+    "last": "1397/05/21",
+    "last_at": "2018-08-12T22:00:00Z",
+    "last_link": "http://drsoroush.com/rss/masnavi/50.mp3",
+    "last_title": "Rumi's Masnavi Part 50",
+    "max_length": 99,
+    "median_length": 85,
+    "min_length": 57,
+    "play": [
+      {
+        "a": "http://drsoroush.com/rss/masnavi/50.mp3",
+        "at": "2018-08-12T22:00:00Z",
+        "t": "Rumi's Masnavi Part 50"
+      },
+      {
+        "a": "http://drsoroush.com/rss/masnavi/49.mp3",
+        "at": "2018-08-05T22:00:00Z",
+        "t": "Rumi's Masnavi Part 49"
+      },
+      {
+        "a": "http://drsoroush.com/rss/masnavi/48.mp3",
+        "at": "2018-07-29T22:00:00Z",
+        "t": "Rumi's Masnavi Part 48"
+      },
+      {
+        "a": "http://drsoroush.com/rss/masnavi/47.mp3",
+        "at": "2018-07-22T22:00:00Z",
+        "t": "Rumi's Masnavi Part 47"
+      },
+      {
+        "a": "http://drsoroush.com/rss/masnavi/46.mp3",
+        "at": "2018-07-15T22:00:00Z",
+        "t": "Rumi's Masnavi Part 46"
+      },
+      {
+        "a": "http://drsoroush.com/rss/masnavi/45.mp3",
+        "at": "2018-07-08T22:00:00Z",
+        "t": "Rumi's Masnavi Part 45"
+      },
+      {
+        "a": "http://drsoroush.com/rss/masnavi/44.mp3",
+        "at": "2018-06-24T22:00:00Z",
+        "t": "Rumi's Masnavi Part 44"
+      },
+      {
+        "a": "http://drsoroush.com/rss/masnavi/43.mp3",
+        "at": "2018-04-22T22:00:00Z",
+        "t": "Rumi's Masnavi Part 43"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2018-08-12T22:00:00Z",
+        "link": "http://drsoroush.com/rss/masnavi/50.mp3",
+        "title": "Rumi's Masnavi Part 50"
+      },
+      {
+        "at": "2018-08-05T22:00:00Z",
+        "link": "http://drsoroush.com/rss/masnavi/49.mp3",
+        "title": "Rumi's Masnavi Part 49"
+      },
+      {
+        "at": "2018-07-29T22:00:00Z",
+        "link": "http://drsoroush.com/rss/masnavi/48.mp3",
+        "title": "Rumi's Masnavi Part 48"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "ismcast": {
     "avg_gap_days": 11.4,
     "avg_length": 29,
@@ -21691,6 +22044,96 @@
       0,
       0,
       0
+    ],
+    "status": "active"
+  },
+  "kharj-az-charchob": {
+    "avg_gap_days": 15.5,
+    "avg_length": 32,
+    "episodes": 45,
+    "eps_365": 24,
+    "eps_90": 12,
+    "first_at": "2025-05-26",
+    "first_year": 1404,
+    "last": "1405/08/01",
+    "last_at": "2026-10-23T07:25:48Z",
+    "last_link": "https://hhemmasiyan.podbean.com/e/%da%a9%d8%aa%d8%a7%d8%a8%d9%81%d9%82%d8%b1-%d8%a7%d8%ad%d9%85%d9%82-%d9%85%db%8c%e2%80%8c%da%a9%d9%86%d8%af%d9%81%d8%b5%d9%84-%da%86%d9%87%d8%a7/",
+    "last_title": "کتاب فقر احمق می‌کند - فصل چهارم - 05",
+    "max_length": 49,
+    "median_length": 30,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://mcdn.podbean.com/mf/web/nwr4uxk2y4erc2b4/_-_-_05_2026_10_22_14_32_04_194786jw.mp3",
+        "at": "2026-10-23T07:25:48Z",
+        "t": "کتاب فقر احمق می‌کند - فصل چهارم - 05"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/xjmavz66vi6mkdue/_-_-_04_2026_10_14_14_03_36_26274gvv.mp3",
+        "at": "2026-10-15T04:40:32Z",
+        "t": "کتاب فقر احمق می‌کند - فصل سوم - 04"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/fx4e4vkycvaydpir/_-_-_03_2026_09_25_13_48_09_747b8rn9.mp3",
+        "at": "2026-10-08T05:48:00Z",
+        "t": "کتاب فقر احمق می‌کند - فصل دوم - 03"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/ccvqmwv2wytj4qv2/_-_-_02_2026_09_18_15_59_26_242axdib.mp3",
+        "at": "2026-10-01T05:20:55Z",
+        "t": "کتاب فقر احمق می‌کند - فصل اول - 02"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/mirzv96ppykettpj/_-_-_01_2026_09_16_17_45_42_8056ka9n.mp3",
+        "at": "2026-09-24T06:14:58Z",
+        "t": "کتاب فقر احمق می‌کند - مقدمه - 01"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/m9iti4mzci4hvq7b/_-_-_0_2026_09_13_20_32_18_9098cf1d.mp3",
+        "at": "2026-09-17T05:48:45Z",
+        "t": "معرفی کتاب فقر احمق می‌کند  - 00"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/sg5ufvqh5gkgchwd/_-_-_09_2026_09_09_13_32_39_905bm5vq.mp3",
+        "at": "2026-09-10T06:36:28Z",
+        "t": "کتاب بده و بستان ( آدام گرنت ) - فصل نهم ( آخر ) - 09"
+      },
+      {
+        "a": "https://mcdn.podbean.com/mf/web/ihs62rd6ddm7x697/_-_-_08_2026_08_29_10_15_35_5577l01h.mp3",
+        "at": "2026-09-03T05:39:42Z",
+        "t": "کتاب بده و بستان ( آدام گرنت ) - فصل هشتم - 08"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-23T07:25:48Z",
+        "link": "https://hhemmasiyan.podbean.com/e/%da%a9%d8%aa%d8%a7%d8%a8%d9%81%d9%82%d8%b1-%d8%a7%d8%ad%d9%85%d9%82-%d9%85%db%8c%e2%80%8c%da%a9%d9%86%d8%af%d9%81%d8%b5%d9%84-%da%86%d9%87%d8%a7/",
+        "title": "کتاب فقر احمق می‌کند - فصل چهارم - 05"
+      },
+      {
+        "at": "2026-10-15T04:40:32Z",
+        "link": "https://hhemmasiyan.podbean.com/e/%da%a9%d8%aa%d8%a7%d8%a8-%d9%81%d9%82%d8%b1-%d8%a7%d8%ad%d9%85%d9%82-%d9%85%db%8c%e2%80%8c%da%a9%d9%86%d8%af-%d9%81%d8%b5%d9%84-%d8%b3%d9%88%d9%85-04/",
+        "title": "کتاب فقر احمق می‌کند - فصل سوم - 04"
+      },
+      {
+        "at": "2026-10-08T05:48:00Z",
+        "link": "https://hhemmasiyan.podbean.com/e/%da%a9%d8%aa%d8%a7%d8%a8-%d9%81%d9%82%d8%b1-%d8%a7%d8%ad%d9%85%d9%82-%d9%85%db%8c%e2%80%8c%da%a9%d9%86%d8%af-%d9%81%d8%b5%d9%84-%d8%af%d9%88%d9%85-03/",
+        "title": "کتاب فقر احمق می‌کند - فصل دوم - 03"
+      }
+    ],
+    "recent_30d": [
+      4,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      4,
+      4,
+      4
     ],
     "status": "active"
   },
@@ -30054,6 +30497,96 @@
     ],
     "status": "inactive"
   },
+  "monami": {
+    "avg_gap_days": 54.8,
+    "avg_length": 38,
+    "episodes": 29,
+    "eps_365": 5,
+    "eps_90": 0,
+    "first_at": "2024-11-28",
+    "first_year": 1403,
+    "last": "1405/03/23",
+    "last_at": "2026-06-13T23:30:00Z",
+    "last_link": "https://shows.acast.com/monami/episodes/6a2da616252d86e846adca31",
+    "last_title": "Episode 26 - Berkshire Hathaway(برکشایر: اعجازِ صبر!)",
+    "max_length": 61,
+    "median_length": 39,
+    "min_length": 6,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6748a861bbe21d4794cceb90/e/6a2da616252d86e846adca31/media.mp3",
+        "at": "2026-06-13T23:30:00Z",
+        "t": "Episode 26 - Berkshire Hathaway(برکشایر: اعجازِ صبر!)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6748a861bbe21d4794cceb90/e/6957fa991002b08bc84e66d7/media.mp3",
+        "at": "2026-01-02T17:04:24Z",
+        "t": "Episode 25 - Walmart(والمارت: گسترش قلمرو!)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6748a861bbe21d4794cceb90/e/693a043934867e026d580aa4/media.mp3",
+        "at": "2025-12-10T23:37:29Z",
+        "t": "Episode 24 - NASA(ناسا: هوش زمانی!)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6748a861bbe21d4794cceb90/e/691ee618cce7a2a5650dd437/media.mp3",
+        "at": "2025-11-20T09:57:45Z",
+        "t": "Episode 23 - L'Oréal(لورئال: سمفونیِ معماری برند)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6748a861bbe21d4794cceb90/e/690ce370c1ed8717c57b5b1d/media.mp3",
+        "at": "2025-11-06T18:05:35Z",
+        "t": "Episode 22 - Lufthansa(هواپیمایی لوفت هانزا: مدیریت درآمد پویا)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6748a861bbe21d4794cceb90/e/68f00b77ce402940bcbad863/media.mp3",
+        "at": "2025-10-16T00:31:00Z",
+        "t": "Episode 21 - LVMH(ال‌وی‌ام‌اچ: شمّ و شهودِ استراتژیک!)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6748a861bbe21d4794cceb90/e/68dc55f546a2532cdd7fc5e0/media.mp3",
+        "at": "2025-09-30T22:13:08Z",
+        "t": "Episode 20 - FACE(فِیس ایتالیا، تصمیم‌گیری هوشمندانه!)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6748a861bbe21d4794cceb90/e/68c0deb3f7970b080fd352d1/media.mp3",
+        "at": "2025-09-10T02:13:07Z",
+        "t": "Episode 00 (02) – Mon Ami Remix (ریمیکس مونامی: هدیه‌ای کوچک برای دل‌های بزرگ!)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-06-13T23:30:00Z",
+        "link": "https://shows.acast.com/monami/episodes/6a2da616252d86e846adca31",
+        "title": "Episode 26 - Berkshire Hathaway(برکشایر: اعجازِ صبر!)"
+      },
+      {
+        "at": "2026-01-02T17:04:24Z",
+        "link": "https://shows.acast.com/monami/episodes/6957fa991002b08bc84e66d7",
+        "title": "Episode 25 - Walmart(والمارت: گسترش قلمرو!)"
+      },
+      {
+        "at": "2025-12-10T23:37:29Z",
+        "link": "https://shows.acast.com/monami/episodes/693a043934867e026d580aa4",
+        "title": "Episode 24 - NASA(ناسا: هوش زمانی!)"
+      }
+    ],
+    "recent_30d": [
+      2,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "mosighi-mtn": {
     "avg_length": 3,
     "episodes": 26,
@@ -30571,6 +31104,95 @@
         "at": "2020-06-02T18:26:11Z",
         "link": "https://s3.castbox.fm/93/79/70/24cfc646a0b3e14baf6aaa49d7.m4a",
         "title": "جلسه هم اندیشی مشاوران اتاق ایران وتبادل نظر در رابطه با عواقب کرونا بر اقتصاد ایران"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
+  "msbt-andishi": {
+    "avg_length": 29,
+    "episodes": 31,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-01-17",
+    "first_year": 1398,
+    "last": "1398/11/01",
+    "last_at": "2020-01-21T20:00:35Z",
+    "last_link": "https://s3.castbox.fm/51/c8/b1/74baf3425797c606de7ab2e314.mp3",
+    "last_title": "مثبت گرایی و منفی گرایی چيست",
+    "max_length": 74,
+    "median_length": 18,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/51/c8/b1/74baf3425797c606de7ab2e314.mp3",
+        "at": "2020-01-21T20:00:35Z",
+        "t": "مثبت گرایی و منفی گرایی چيست"
+      },
+      {
+        "a": "https://s3.castbox.fm/5d/5a/1f/b34a70406eb3485a5974ad7a26.mp3",
+        "at": "2020-01-21T20:00:07Z",
+        "t": "مثبت اندیشی و تصویرسازی ذهن"
+      },
+      {
+        "a": "https://s3.castbox.fm/b4/af/49/15708f4e3dbfb3f9a2233ae221.mp3",
+        "at": "2020-01-21T19:59:32Z",
+        "t": "رفع افسردگی توسط انرژی مثبت"
+      },
+      {
+        "a": "https://s3.castbox.fm/40/58/bd/529d58438cba9781efd10ed5ff.mp3",
+        "at": "2020-01-21T19:58:41Z",
+        "t": "رسیدن به خواسته ها با انديشه مثبت"
+      },
+      {
+        "a": "https://s3.castbox.fm/8f/2a/1e/808b164bdbae4d8a32828e0f0f.mp3",
+        "at": "2020-01-21T19:58:09Z",
+        "t": "چطور همیشه نتایج مثبت بگیریم"
+      },
+      {
+        "a": "https://s3.castbox.fm/6b/b9/7b/b121a14892b4d8440312368f52.mp3",
+        "at": "2020-01-21T19:57:40Z",
+        "t": "چرا  مثبت گرائی و چرا منفی‌ گرائی"
+      },
+      {
+        "a": "https://s3.castbox.fm/5f/4f/f3/894a434050ab082f7a1480a462.mp3",
+        "at": "2020-01-21T19:57:03Z",
+        "t": "تاثیر تفکرات مثبت"
+      },
+      {
+        "a": "https://s3.castbox.fm/9b/34/f0/3168434e378295b505c1484d97.mp3",
+        "at": "2020-01-21T19:56:26Z",
+        "t": "با ساختن تصویر ذهنی رسیدن به اهدافت برس"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-01-21T20:00:35Z",
+        "link": "https://s3.castbox.fm/51/c8/b1/74baf3425797c606de7ab2e314.mp3",
+        "title": "مثبت گرایی و منفی گرایی چيست"
+      },
+      {
+        "at": "2020-01-21T20:00:07Z",
+        "link": "https://s3.castbox.fm/5d/5a/1f/b34a70406eb3485a5974ad7a26.mp3",
+        "title": "مثبت اندیشی و تصویرسازی ذهن"
+      },
+      {
+        "at": "2020-01-21T19:59:32Z",
+        "link": "https://s3.castbox.fm/b4/af/49/15708f4e3dbfb3f9a2233ae221.mp3",
+        "title": "رفع افسردگی توسط انرژی مثبت"
       }
     ],
     "recent_30d": [
@@ -35031,6 +35653,95 @@
     ],
     "status": "active"
   },
+  "podcast-atagh-mshaorh": {
+    "avg_length": 19,
+    "episodes": 30,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-09-07",
+    "first_year": 1399,
+    "last": "1400/01/23",
+    "last_at": "2021-04-12T01:30:00Z",
+    "last_link": "https://share.transistor.fm/s/4cd31dea",
+    "last_title": "قسمت ۳۰ - لج‌بازی در فرزندان",
+    "max_length": 24,
+    "median_length": 19,
+    "min_length": 15,
+    "play": [
+      {
+        "a": "https://media.transistor.fm/4cd31dea/3f7c1e8d.mp3",
+        "at": "2021-04-12T01:30:00Z",
+        "t": "قسمت ۳۰ - لج‌بازی در فرزندان"
+      },
+      {
+        "a": "https://media.transistor.fm/317ccad8/dfd7d77b.mp3",
+        "at": "2021-04-05T01:30:00Z",
+        "t": "قسمت ۲۹ - شیوه‌های فرزندپروری"
+      },
+      {
+        "a": "https://media.transistor.fm/a485ff9c/54de6333.mp3",
+        "at": "2021-03-29T01:30:00Z",
+        "t": "قسمت ۲۸ - نوجوانی و رابطه با جنس مخالف"
+      },
+      {
+        "a": "https://media.transistor.fm/18a40bbc/88d7f314.mp3",
+        "at": "2021-03-15T02:30:00Z",
+        "t": "قسمت ۲۷ - تربیت جنسی در کودکان (بخش 2)"
+      },
+      {
+        "a": "https://media.transistor.fm/5cec021b/2fe33454.mp3",
+        "at": "2021-03-08T04:43:04Z",
+        "t": "قسمت ۲۶ - تربیت جنسی در کودکان (بخش 1)"
+      },
+      {
+        "a": "https://media.transistor.fm/6820d35f/ea934c63.mp3",
+        "at": "2021-03-01T02:30:00Z",
+        "t": "قسمت ۲۵ - آیا خودرایی نشانه‌ بلوغ است؟ (بخش 2)"
+      },
+      {
+        "a": "https://media.transistor.fm/df8bd7e3/7b92d9d9.mp3",
+        "at": "2021-02-22T02:53:25Z",
+        "t": "قسمت ۲۴ - آیا خودرایی نشانه‌ بلوغ است؟ (بخش 1)"
+      },
+      {
+        "a": "https://media.transistor.fm/28f769f9/fa156eb0.mp3",
+        "at": "2021-02-15T02:30:00Z",
+        "t": "قسمت ۲۳ - روش آموزشی مونتسوری (بخش 2)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2021-04-12T01:30:00Z",
+        "link": "https://share.transistor.fm/s/4cd31dea",
+        "title": "قسمت ۳۰ - لج‌بازی در فرزندان"
+      },
+      {
+        "at": "2021-04-05T01:30:00Z",
+        "link": "https://share.transistor.fm/s/317ccad8",
+        "title": "قسمت ۲۹ - شیوه‌های فرزندپروری"
+      },
+      {
+        "at": "2021-03-29T01:30:00Z",
+        "link": "https://share.transistor.fm/s/a485ff9c",
+        "title": "قسمت ۲۸ - نوجوانی و رابطه با جنس مخالف"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "podcast-ba-mn-hrf-bzn": {
     "avg_length": 25,
     "episodes": 48,
@@ -39146,6 +39857,95 @@
       6
     ],
     "status": "active"
+  },
+  "podcast-hshtg": {
+    "avg_length": 30,
+    "episodes": 37,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-08-02",
+    "first_year": 1398,
+    "last": "1402/01/05",
+    "last_at": "2023-03-25T07:42:01Z",
+    "last_link": "https://s3.castbox.fm/70/f4/b9/1cd41344ef9890eabe204907d1.mp3",
+    "last_title": "قسمت سی و هفت - ۱۴۰۲",
+    "max_length": 46,
+    "median_length": 29,
+    "min_length": 20,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/70/f4/b9/1cd41344ef9890eabe204907d1.mp3",
+        "at": "2023-03-25T07:42:01Z",
+        "t": "قسمت سی و هفت - ۱۴۰۲"
+      },
+      {
+        "a": "https://s3.castbox.fm/85/67/f2/8aabdc42a292705b92bd799f67.mp3",
+        "at": "2023-03-18T08:40:02Z",
+        "t": "قسمت سی و ششم -  فایل سیستم بین سیاره ای"
+      },
+      {
+        "a": "https://s3.castbox.fm/ec/43/f8/fd07bb4ad8a6b0981669bf41d2.mp3",
+        "at": "2022-08-23T07:00:00Z",
+        "t": "قسمت سی و پنجم - ماهواره"
+      },
+      {
+        "a": "https://s3.castbox.fm/91/19/d3/cd2e3d4ecea86cba2227e5373a.mp3",
+        "at": "2022-04-05T13:51:34Z",
+        "t": "قسمت سی و چهارم - وب ورژن سه"
+      },
+      {
+        "a": "https://s3.castbox.fm/10/64/24/08b3894badbcd0d88c91ae9b27.mp3",
+        "at": "2022-02-27T13:22:45Z",
+        "t": "قسمت سی و سه - دیجیتال مارکتینگ"
+      },
+      {
+        "a": "https://s3.castbox.fm/13/67/59/d33bbe4ed385d157d90ae12fe1.mp3",
+        "at": "2021-12-25T09:44:53Z",
+        "t": "قسمت سی و دو - متاورس"
+      },
+      {
+        "a": "https://s3.castbox.fm/53/68/e0/dba3ec40fb9956918912477153.mp3",
+        "at": "2021-05-29T08:30:00Z",
+        "t": "قسمت سی و یک - توکن غیر مثلی"
+      },
+      {
+        "a": "https://s3.castbox.fm/a7/1b/a8/7cac5c4c8bb0cc33d79da0b803.mp3",
+        "at": "2020-11-18T13:28:10Z",
+        "t": "قسمت سی ام - چطور کار پیدا کنیم؟"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-03-25T07:42:01Z",
+        "link": "https://s3.castbox.fm/70/f4/b9/1cd41344ef9890eabe204907d1.mp3",
+        "title": "قسمت سی و هفت - ۱۴۰۲"
+      },
+      {
+        "at": "2023-03-18T08:40:02Z",
+        "link": "https://s3.castbox.fm/85/67/f2/8aabdc42a292705b92bd799f67.mp3",
+        "title": "قسمت سی و ششم -  فایل سیستم بین سیاره ای"
+      },
+      {
+        "at": "2022-08-23T07:00:00Z",
+        "link": "https://s3.castbox.fm/ec/43/f8/fd07bb4ad8a6b0981669bf41d2.mp3",
+        "title": "قسمت سی و پنجم - ماهواره"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "podcast-iadi-az-gzshth": {
     "avg_length": 7,
@@ -46391,6 +47191,96 @@
     ],
     "status": "active"
   },
+  "radio-ghsh": {
+    "avg_gap_days": 2.8,
+    "avg_length": 19,
+    "episodes": 30,
+    "eps_365": 30,
+    "eps_90": 30,
+    "first_at": "2026-08-07",
+    "first_year": 1405,
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T15:30:00Z",
+    "last_link": "https://www.spreaker.com/episode/sayh--76031606",
+    "last_title": "سایه",
+    "max_length": 44,
+    "median_length": 15,
+    "min_length": 9,
+    "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76031606/media.mp3",
+        "at": "2026-10-27T15:30:00Z",
+        "t": "سایه"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75977223/media.mp3",
+        "at": "2026-10-25T16:09:02Z",
+        "t": "سرگذشت یک مادر"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75924230/media.mp3",
+        "at": "2026-10-22T15:30:00Z",
+        "t": "سوسک نادان"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75879132/media.mp3",
+        "at": "2026-10-20T15:30:00Z",
+        "t": "نخودهای پرنده"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75847732/media.mp3",
+        "at": "2026-10-18T15:30:00Z",
+        "t": "صندوق پرنده"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75810120/media.mp3",
+        "at": "2026-10-15T15:30:00Z",
+        "t": "قوهای وحشی"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75788058/media.mp3",
+        "at": "2026-10-14T15:18:59Z",
+        "t": "پری گلها"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75756647/1791896292036_ca389e6e_3fd1_4cda_8aed_a5c303af440d.mp3",
+        "at": "2026-10-13T15:30:02Z",
+        "t": "پری گلها"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-27T15:30:00Z",
+        "link": "https://www.spreaker.com/episode/sayh--76031606",
+        "title": "سایه"
+      },
+      {
+        "at": "2026-10-25T16:09:02Z",
+        "link": "https://www.spreaker.com/episode/srgdhsht-yk-madr--75977223",
+        "title": "سرگذشت یک مادر"
+      },
+      {
+        "at": "2026-10-22T15:30:00Z",
+        "link": "https://www.spreaker.com/episode/swsk-nadan--75924230",
+        "title": "سوسک نادان"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      12,
+      13
+    ],
+    "status": "active"
+  },
   "radio-ghsh-kodk": {
     "avg_gap_days": 9.9,
     "avg_length": 12,
@@ -47906,6 +48796,96 @@
       0,
       0,
       3
+    ],
+    "status": "active"
+  },
+  "radio-panorama": {
+    "avg_gap_days": 6.6,
+    "avg_length": 94,
+    "episodes": 29,
+    "eps_365": 29,
+    "eps_90": 9,
+    "first_at": "2026-02-19",
+    "first_year": 1404,
+    "last": "1405/06/03",
+    "last_at": "2026-08-25T04:30:00Z",
+    "last_link": "https://dotcast.org/p/Panorama/a6lhpdq8ig/",
+    "last_title": "دیاسپورا یک فیگور امنیتی برای جمهوری اسلامی؛ با نغمه سهرابی",
+    "max_length": 151,
+    "median_length": 99,
+    "min_length": 6,
+    "play": [
+      {
+        "a": "https://feed.dotcast.org/e/Panorama/a6lhpdq8ig/2026-08-25-04-55-36.mp3",
+        "at": "2026-08-25T04:30:00Z",
+        "t": "دیاسپورا یک فیگور امنیتی برای جمهوری اسلامی؛ با نغمه سهرابی"
+      },
+      {
+        "a": "https://feed.dotcast.org/e/Panorama/lmiqhjdwuc/2026-08-23-06-27-06.mp3",
+        "at": "2026-08-23T06:10:00Z",
+        "t": "این غربت‌گزیدگان و تبعیدشدگان مثل هم نیستند؛ با داریوش محمدپور"
+      },
+      {
+        "a": "https://feed.dotcast.org/e/Panorama/4vai89b31y/2026-08-22-12-24-13.mp3",
+        "at": "2026-08-22T12:50:00Z",
+        "t": "در مذاکرات با آمریکا؛ تغییری در راه است؟/ با صادق زیباکلام"
+      },
+      {
+        "a": "https://feed.dotcast.org/e/Panorama/5e4y99s886/2026-08-17-07-07-37.mp3",
+        "at": "2026-08-17T06:50:00Z",
+        "t": "تقابل مردم‌های ایرانی در کوک جهانی؛ با علی‌اصغر مصلح"
+      },
+      {
+        "a": "https://feed.dotcast.org/e/Panorama/5c12x7rtce/2026-08-16-07-48-02.mp3",
+        "at": "2026-08-16T07:40:00Z",
+        "t": "مذاکرات و دیپلماسی اجبار؛ ب رحمان قهرمانپور"
+      },
+      {
+        "a": "https://feed.dotcast.org/e/Panorama/1903kvbep5/2026-08-15-05-53-11.mp3",
+        "at": "2026-08-15T05:50:00Z",
+        "t": "فیلترینگ؛ سرکوب صدای جامعه؛ با حسن نمکدوست"
+      },
+      {
+        "a": "https://feed.dotcast.org/e/Panorama/c5hpw0zwds/2026-08-11-05-57-21.mp3",
+        "at": "2026-08-11T05:40:00Z",
+        "t": "حفاظت از میراث در خطر؛با سام گیوراد"
+      },
+      {
+        "a": "https://feed.dotcast.org/e/Panorama/nwgy5fdekr/2026-08-10-11-49-51.mp3",
+        "at": "2026-08-10T11:30:00Z",
+        "t": "ناکامی جامعه‌شناسی؛با بهاره آروین"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-08-25T04:30:00Z",
+        "link": "https://dotcast.org/p/Panorama/a6lhpdq8ig/",
+        "title": "دیاسپورا یک فیگور امنیتی برای جمهوری اسلامی؛ با نغمه سهرابی"
+      },
+      {
+        "at": "2026-08-23T06:10:00Z",
+        "link": "https://dotcast.org/p/Panorama/lmiqhjdwuc/",
+        "title": "این غربت‌گزیدگان و تبعیدشدگان مثل هم نیستند؛ با داریوش محمدپور"
+      },
+      {
+        "at": "2026-08-22T12:50:00Z",
+        "link": "https://dotcast.org/p/Panorama/4vai89b31y/",
+        "title": "در مذاکرات با آمریکا؛ تغییری در راه است؟/ با صادق زیباکلام"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      11,
+      6,
+      3,
+      0,
+      0,
+      0,
+      9,
+      0,
+      0
     ],
     "status": "active"
   },
@@ -49432,26 +50412,21 @@
     "status": "inactive"
   },
   "rhbri-droni": {
-    "avg_gap_days": 10.4,
+    "avg_gap_days": 10.3,
     "avg_length": 25,
-    "episodes": 57,
-    "eps_365": 36,
-    "eps_90": 7,
+    "episodes": 56,
+    "eps_365": 35,
+    "eps_90": 6,
     "first_at": "2025-04-10",
     "first_year": 1404,
-    "last": "1405/08/07",
-    "last_at": "2026-10-29T03:00:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3r28gk",
-    "last_title": "مدیتیشن کودک درونت باید آینده‌اش را ببیند 🎨",
+    "last": "1405/07/23",
+    "last_at": "2026-10-15T02:00:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3qaro7",
+    "last_title": "نهال عزت نفس و تمرین قدرتمند من امن",
     "max_length": 49,
     "median_length": 23,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1035f1fc8/podcast/play/128049108/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-25%2F434943759-44100-2-0ffc9a0a872d3.m4a",
-        "at": "2026-10-29T03:00:00Z",
-        "t": "مدیتیشن کودک درونت باید آینده‌اش را ببیند 🎨"
-      },
       {
         "a": "https://anchor.fm/s/1035f1fc8/podcast/play/127282375/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-11%2F433909471-44100-2-fda20f9969e7d.m4a",
         "at": "2026-10-15T02:00:00Z",
@@ -49486,14 +50461,14 @@
         "a": "https://anchor.fm/s/1035f1fc8/podcast/play/123127450/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-21%2F428353988-44100-2-39181a8bba24c.m4a",
         "at": "2026-07-23T02:00:00Z",
         "t": "مدیتیشن شفای سرنوشت موروثی"
+      },
+      {
+        "a": "https://anchor.fm/s/1035f1fc8/podcast/play/122490153/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-7%2F427497033-44100-2-5506c0fb8d581.m4a",
+        "at": "2026-07-09T02:00:00Z",
+        "t": "مدیدنس من کیهانی: Meditation-Dance"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-29T03:00:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3r28gk",
-        "title": "مدیتیشن کودک درونت باید آینده‌اش را ببیند 🎨"
-      },
       {
         "at": "2026-10-15T02:00:00Z",
         "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3qaro7",
@@ -49503,6 +50478,11 @@
         "at": "2026-10-01T02:00:00Z",
         "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3pifck",
         "title": "💕 مدیتیشن پنج زبان عشق"
+      },
+      {
+        "at": "2026-09-17T02:00:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3osmcn",
+        "title": "مرزبندی سالم عاطفی: شناسایی و مدیریت نابالغی عاطفی در روابط"
       }
     ],
     "recent_30d": [
@@ -49517,7 +50497,7 @@
       2,
       2,
       2,
-      3
+      2
     ],
     "status": "active"
   },
@@ -55522,8 +56502,8 @@
       17,
       8,
       7,
-      2,
-      5
+      3,
+      4
     ],
     "status": "active"
   },
@@ -58202,8 +59182,8 @@
       0,
       3,
       5,
-      6,
-      6,
+      7,
+      5,
       2
     ],
     "status": "active"
