@@ -18,8 +18,8 @@ pi_id: 4590335
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: false
+published: false
 ---
 
 # Radio Iranshahr راديو ايرانشهر

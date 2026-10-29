@@ -16,8 +16,8 @@ pi_id: 1969595
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: false
+published: false
 ---
 
 # شرح و تفسیر تورات و انجیل

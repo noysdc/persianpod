@@ -18,8 +18,8 @@ pi_id: 6429404
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: false
+published: false
 ---
 
 # آشنایی با کتاب مقدس
