@@ -74,7 +74,6 @@ collab_types: "مهمان، اسپانسر برای کسب و کارها، مع�
 
 - [شنیدن ناجی در کست‌باکس](https://castbox.fm/channel/2770413){:target="_blank" rel="noopener"}
 - [تلگرام ناجی](https://t.me/Naaji_Podcast){:target="_blank" rel="noopener"}
-- [فید RSS ناجی](https://feeds.acast.com/public/shows/naaji){:target="_blank" rel="noopener"}
 
 ---
 

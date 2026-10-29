@@ -40,6 +40,5 @@ published: true
 - [شنیدن در اپل پادکست](https://podcasts.apple.com/podcast/id1857453075){:target="_blank" rel="noopener"}
 - [یوتیوب پادکست جنایی کی آس](https://www.youtube.com/@ChaosFarsi){:target="_blank" rel="noopener"}
 - [اینستاگرام پادکست جنایی کی آس](https://www.instagram.com/podcast.chaos){:target="_blank" rel="noopener"}
-- [فید RSS](http://rss.castbox.fm/everest/0c279f7fbaac44cc867065328e48744e.xml){:target="_blank" rel="noopener"}
 
 > این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید.

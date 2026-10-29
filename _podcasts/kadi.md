@@ -56,4 +56,3 @@ collab_types: ""
 - [شنیدن کتاب‌های کادی در کست‌باکس](https://castbox.fm/vh/7467973){:target="_blank" rel="noopener"}
 - [تلگرام کادی](https://t.me/kd_voicestudio){:target="_blank" rel="noopener"}
 - [اینستاگرام کادی](https://www.instagram.com/kd_voicestudio/){:target="_blank" rel="noopener"}
-- [RSS پادکست](https://api.rabt.host/podcasts/5e10e1f2-695c-4fe4-8ed5-ec9303e19c92/rss){:target="_blank" rel="noopener"}

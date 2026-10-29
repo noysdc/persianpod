@@ -110,7 +110,6 @@ sponsor_tg: "@hamed13sep"
 
 - [شنیدن وضعیت متاهل در کست‌باکس](https://castbox.fm/ch/7100695){:target="_blank" rel="noopener"}
 - [شنیدن وضعیت متاهل در اپل پادکست](https://podcasts.apple.com/ca/podcast/%D9%88%D8%B6%D9%80%D9%80%D9%80%D9%80%D8%B9%DB%8C%D8%AA-%D9%85%D8%AA%D9%80%D9%80%D8%A7%D9%87%D9%80%D9%80%D9%80%D9%80%D9%84/id1879804912){:target="_blank" rel="noopener"}
-- [فید RSS وضعیت متاهل](https://feeds.acast.com/public/shows/68f2a7b84c07b133bfa873d2){:target="_blank" rel="noopener"}
 - [ایمیل وضعیت متاهل](mailto:idehdarstudio@gmail.com)
 - [تلگرام اسپانسر وضعیت متاهل](https://t.me/hamed13sep){:target="_blank" rel="noopener"}
 - [شنیدن رادیو گیگ در کست‌باکس](https://castbox.fm/channel/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA-Archives---%D8%AC%D8%A7%D8%AF%DB%8C-id343520?country=ir){:target="_blank" rel="noopener"}

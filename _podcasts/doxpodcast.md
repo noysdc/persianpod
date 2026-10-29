@@ -80,7 +80,6 @@ sponsor_tg: "@doxpod"
 - [اینستاگرام داکس](https://www.instagram.com/doxpodcast){:target="_blank" rel="noopener"}
 - [تلگرام داکس](https://t.me/doxpodcast){:target="_blank" rel="noopener"}
 - [وب‌سایت داکس](https://doxpodcast.com){:target="_blank" rel="noopener"}
-- [فید RSS داکس](https://feeds.acast.com/public/shows/653820e8bc6f9000122c7492){:target="_blank" rel="noopener"}
 - [ایمیل داکس](mailto:doxpodcast@gmail.com)
 - [شنیدن پادکست طوسی در کست‌باکس](https://castbox.fm/channel/id6997914){:target="_blank" rel="noopener"}
 - [وب‌سایت صبح رویش](https://sobherouyesh.com/category/پادکست/){:target="_blank" rel="noopener"}

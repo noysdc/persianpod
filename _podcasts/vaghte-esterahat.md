@@ -106,7 +106,6 @@ sponsor_tg: "@hamed13sep"
 
 - [شنیدن وقت استراحت در کست‌باکس](https://castbox.fm/ch/7349040){:target="_blank" rel="noopener"}
 - [شنیدن وقت استراحت در اسپاتیفای](https://open.spotify.com/show/5LkNzl4mp2KlcPlVnKnUaC){:target="_blank" rel="noopener"}
-- [فید RSS وقت استراحت](http://rss.castbox.fm/everest/007fbc8b21544c22bb29d0daea555c46.xml){:target="_blank" rel="noopener"}
 - [ایمیل وقت استراحت](mailto:idehdarstudio@gmail.com)
 - [تلگرام اسپانسر وقت استراحت](https://t.me/hamed13sep){:target="_blank" rel="noopener"}
 - [شنیدن رادیو گیگ در کست‌باکس](https://castbox.fm/channel/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA-Archives---%D8%AC%D8%A7%D8%AF%DB%8C-id343520?country=ir){:target="_blank" rel="noopener"}

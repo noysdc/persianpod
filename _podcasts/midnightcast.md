@@ -99,4 +99,3 @@ collab: true
 - [تلگرام](https://t.me/midnightcast){:target="_blank" rel="noopener"}
 - [ایمیل](mailto:midnightcast2017@gmail.com)
 - [حمایت مالی](https://daramet.com/midnightcast){:target="_blank" rel="noopener"}
-- [فید RSS](https://feeds.acast.com/public/shows/624bbbaa006ae30013d6f945){:target="_blank" rel="noopener"}

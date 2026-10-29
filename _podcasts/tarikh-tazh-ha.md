@@ -38,6 +38,5 @@ published: true
 
 - [وب‌سایت تاریخ تازه‌ها](https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87%E2%80%8C%D9%87%D8%A7/){:target="_blank" rel="noopener"}
 - [شنیدن در اپل پادکست](https://podcasts.apple.com/podcast/id1577746554){:target="_blank" rel="noopener"}
-- [فید RSS](https://apis.rfi.fr/products/get_product/rfi_getpodcast_by_nid?token_application=975d23b8-7a07-11e8-9f62-005056a90194&program.entrepriseId=WB126680-RFI-FA-20160329){:target="_blank" rel="noopener"}
 
 > این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید.

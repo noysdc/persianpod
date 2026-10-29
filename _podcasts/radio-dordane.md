@@ -91,7 +91,6 @@ logo: "/assets/img/podcasts/radio-dordane.webp"
 - [اینستاگرام دردانه](https://www.instagram.com/dordane.store/)
 - [تلگرام دردانه](https://t.me/dordane_store)
 - [ایمیل](mailto:imahdi.today@gmail.com)
-- [RSS](https://anchor.fm/s/1193981e4/podcast/rss)
 
 🎁 با کد تخفیف "Radio-Dordane" هنگام خرید محصولات دردانه، ۵٪ تخفیف بگیرید.
 

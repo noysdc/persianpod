@@ -81,7 +81,6 @@ published: true
 
 - [شنیدن پرشین ترند در اسپاتیفای](https://podcasters.spotify.com/pod/show/-85272){:target="_blank" rel="noopener"}
 - [شنیدن در اپل پادکست](https://podcasts.apple.com/podcast/id1896709153){:target="_blank" rel="noopener"}
-- [فید RSS](https://anchor.fm/s/f31481a8/podcast/rss){:target="_blank" rel="noopener"}
 - [ایمیل پرشین ترند](mailto:persian.trend.news@gmail.com)
 - [اینستاگرام پرشین ترند](https://instagram.com/Persian.trend.news){:target="_blank" rel="noopener"}
 - [توییتر پرشین ترند](https://twitter.com/TrendPersian){:target="_blank" rel="noopener"}

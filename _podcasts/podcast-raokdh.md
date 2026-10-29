@@ -80,7 +80,6 @@ published: true
 - [🏠 خانه‌ی پادکست راوکده در پرشین پاد](https://persianpod.ir/podcasts/podcast-raokdh/){:target="_blank" rel="noopener"}
 - [🌐 وب‌سایت پادکست راوکده](https://www.ravkadeh.ir/){:target="_blank" rel="noopener"}
 - [🎧 شنیدن در اپل پادکست](https://podcasts.apple.com/podcast/id1567064098){:target="_blank" rel="noopener"}
-- [📡 فید RSS](https://feeds.acast.com/public/shows/664fcb84da02bb0012b6660b){:target="_blank" rel="noopener"}
 - [▶️ یوتیوب راوکده](https://www.youtube.com/@Ravkadeh){:target="_blank" rel="noopener"}
 - [✈️ تلگرام راوکده](https://t.me/ravkadeh){:target="_blank" rel="noopener"}
 - [📷 اینستاگرام راوکده](https://instagram.com/ravkadeh){:target="_blank" rel="noopener"}

@@ -38,6 +38,5 @@ published: true
 
 - [وب‌سایت دنیای اقتصاد، اقتصاد دنیا](https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/){:target="_blank" rel="noopener"}
 - [شنیدن در اپل پادکست](https://podcasts.apple.com/podcast/id1577747052){:target="_blank" rel="noopener"}
-- [فید RSS](https://apis.rfi.fr/products/get_product/rfi_getpodcast_by_nid?token_application=975d23b8-7a07-11e8-9f62-005056a90194&program.entrepriseId=WB15355-RFI-FA-20100205){:target="_blank" rel="noopener"}
 
 > این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید.

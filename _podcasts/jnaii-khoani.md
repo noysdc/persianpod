@@ -81,7 +81,6 @@ published: true
 اگر می‌خواهید پرونده‌های جنایی واقعی ایران را از نزدیک دنبال کنید، از راه‌های زیر با جنایی خوانی همراه شوید:
 
 - [شنیدن جنایی خوانی در اپل پادکست](https://podcasts.apple.com/podcast/id1838434303){:target="_blank" rel="noopener"}
-- [فید RSS جنایی خوانی](https://rss.audiyacreators.one/cmi77c4nu0whxud41npkn){:target="_blank" rel="noopener"}
 - [صفحه‌ی جنایی خوانی در پرشین پاد](https://persianpod.ir/podcasts/jnaii-khoani/){:target="_blank" rel="noopener"}
 - [ایمیل جنایی خوانی](mailto:jenaeikhani.contact@gmail.com)
 - [حمایت از جنایی خوانی در Patreon](https://patreon.com/Jenaeekhani){:target="_blank" rel="noopener"}

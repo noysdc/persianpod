@@ -79,5 +79,4 @@ collab_types: ""
 - [شنیدن پادگیر در کست‌باکس](https://castbox.fm/ch/5471213){:target="_blank" rel="noopener"}
 - [وب‌سایت پادگیر](Podgirpodcast.ir){:target="_blank" rel="noopener"}
 - [تلگرام پادگیر](https://t.me/BaniSup){:target="_blank" rel="noopener"}
-- [فید RSS پادگیر](https://feeds.acast.com/public/shows/668948539bf81dc06aedaf3d){:target="_blank" rel="noopener"}
 - [ایمیل پادگیر](mailto:podgirpodcast@gmail.com)

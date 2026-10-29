@@ -89,4 +89,3 @@ email: "vidathereader@gmail.com"
 - [کانال تلگرام کتاب قصه](https://t.me/storybookbyvida){:target="_blank" rel="noopener"}
 - [وب‌سایت رسمی](https://www.Vidathereader.com){:target="_blank" rel="noopener"}
 - [ایمیل](mailto:vidathereader@gmail.com)
-- [فید RSS](https://player.rabt.space/p/21059de6-e00d-4f29-8a35-645f3d8132c2.xml){:target="_blank" rel="noopener"}

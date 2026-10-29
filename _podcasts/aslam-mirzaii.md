@@ -35,6 +35,5 @@ published: true
 ## لینک‌های مرتبط و ارتباطات
 
 - [وب‌سایت اسلام میرزایی](https://www.zahra-media.ir){:target="_blank" rel="noopener"}
-- [فید RSS](https://www.zahra-media.ir/category/%d9%85%d8%af%d8%a7%d8%ad%db%8c/%d8%a7%d8%b3%d9%84%d8%a7%d9%85-%d9%85%db%8c%d8%b1%d8%b2%d8%a7%db%8c%db%8c/feed/){:target="_blank" rel="noopener"}
 
 > این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید.

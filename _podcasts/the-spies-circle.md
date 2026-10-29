@@ -145,6 +145,5 @@ collab_types: ""
 - [تلگرام محفل جاسوسان](https://t.me/mahfeleJasosan){:target="_blank" rel="noopener"}
 - [ایمیل محفل جاسوسان](mailto:Mehrzadariyan@gmail.com)
 - [Apple Podcasts](https://podcasts.apple.com/rs/podcast/the-spies-circle-%D9%85%D8%AD%D9%81%D9%84-%D8%AC%D8%A7%D8%B3%D9%88%D8%B3%D8%A7%D9%86/id1769693852){:target="_blank" rel="noopener"}
-- [RSS](https://feeds.acast.com/public/shows/66d944afeeeb1e3b757154c0){:target="_blank" rel="noopener"}
 - [شنیدن بیوگرافی در کست‌باکس](https://castbox.fm/channel/%D8%A8%DB%8C%D9%88%DA%AF%D8%B1%D8%A7%D9%81%DB%8C-id5669497?country=ir){:target="_blank" rel="noopener"}
 - [شنیدن ADHD در کست‌باکس](https://castbox.fm/channel/ADHD-Super-Power-id4915417?country=us){:target="_blank" rel="noopener"}

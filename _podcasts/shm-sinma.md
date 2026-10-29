@@ -40,6 +40,5 @@ published: true
 - [وب‌سایت شمِّ سینما](https://redcircle.com/shows/shamme-cinema-shmwi-synm){:target="_blank" rel="noopener"}
 - [شنیدن در اپل پادکست](https://podcasts.apple.com/podcast/id1828396071){:target="_blank" rel="noopener"}
 - [یوتیوب شمِّ سینما](https://www.youtube.com/@shamme_cinema){:target="_blank" rel="noopener"}
-- [فید RSS](https://feeds.redcircle.com/163917d1-3736-4c80-a8b6-593021d74888){:target="_blank" rel="noopener"}
 
 > این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید.

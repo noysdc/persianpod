@@ -72,5 +72,4 @@ collab_types: "اسپانسری قسمت"
 - [تلگرام سینماتوگراف](https://t.me/cinematographpodcast){:target="_blank" rel="noopener"}
 - [اینستاگرام سینماتوگراف](https://www.instagram.com/cinematographpodcast/){:target="_blank" rel="noopener"}
 - [ایمیل سینماتوگراف](mailto:cinematographpodcast@gmail.com)
-- [RSS سینماتوگراف](https://feeds.acast.com/public/shows/624dfc11ebccf20012f59cd6){:target="_blank" rel="noopener"}
 - [شنیدن دابل کازین در کست‌باکس](https://castbox.fm/ch/4946027){:target="_blank" rel="noopener"}

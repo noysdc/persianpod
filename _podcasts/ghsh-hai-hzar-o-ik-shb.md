@@ -40,6 +40,5 @@ published: true
 - [وب‌سایت قصه های هزار و یک شب](https://m.solhjoo.com/){:target="_blank" rel="noopener"}
 - [شنیدن در اپل پادکست](https://podcasts.apple.com/podcast/id1454509403){:target="_blank" rel="noopener"}
 - [یوتیوب قصه های هزار و یک شب](https://youtu.be/z2wqxHfW4FM){:target="_blank" rel="noopener"}
-- [فید RSS](https://feeds.acast.com/public/shows/65cf7713a348400017dc5877){:target="_blank" rel="noopener"}
 
 > این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید.

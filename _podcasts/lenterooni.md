@@ -70,4 +70,3 @@ collab: true
 - [تلگرام لن‌ترونی](https://t.me/BoutighaPodcast){:target="_blank" rel="noopener"}
 - [ایمیل لن‌ترونی](mailto:Boutigha.podcast@gmail.com)
 - [تماس با اسپانسر (تلگرام)](https://t.me/hamed_mhk){:target="_blank" rel="noopener"}
-- [فید RSS](https://feeds.acast.com/public/shows/6a5bb3f2f782764c4cbe189f){:target="_blank" rel="noopener"}

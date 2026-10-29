@@ -42,6 +42,5 @@ published: true
 - [یوتیوب پادکست فارسی پارانویا](https://www.youtube.com/channel/UCvr9cWhXYRuaZE11IE_GbKQ){:target="_blank" rel="noopener"}
 - [اینستاگرام پادکست فارسی پارانویا](https://www.instagram.com/parsa.jafari){:target="_blank" rel="noopener"}
 - [تلگرام پادکست فارسی پارانویا](https://t.me/parsastream){:target="_blank" rel="noopener"}
-- [فید RSS](https://anchor.fm/s/477c54c4/podcast/rss){:target="_blank" rel="noopener"}
 
 > این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید.

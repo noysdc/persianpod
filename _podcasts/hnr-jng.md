@@ -38,6 +38,5 @@ published: true
 
 - [وب‌سایت هنر جنگ](http://namlik.me/channel/%D9%87%D9%86%D8%B1%20%D8%AC%D9%86%DA%AF){:target="_blank" rel="noopener"}
 - [شنیدن در اپل پادکست](https://podcasts.apple.com/podcast/id1481174857){:target="_blank" rel="noopener"}
-- [فید RSS](http://namlik.me/rss/318){:target="_blank" rel="noopener"}
 
 > این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید.

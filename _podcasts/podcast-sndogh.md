@@ -104,7 +104,6 @@ published: true
 
 - [وب‌سایت پادکست صندوق](https://theboxband.ir)
 - [شنیدن در اپل پادکست](https://podcasts.apple.com/podcast/id1468513061)
-- [فید RSS](https://feeds.acast.com/public/shows/623de597dc5cd9001589d376)
 - [کانال تلگرام پادکست صندوق](https://t.me/TheBoxBand)
 - [صفحه اینستاگرام پادکست صندوق](https://instagram.com/the_box_band)
 - [صفحه یوتیوب The Box](https://www.youtube.com/theboxband)

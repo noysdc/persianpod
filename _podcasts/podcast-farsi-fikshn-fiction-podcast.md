@@ -25,17 +25,10 @@ published: true
 
 در این پادکست سراغ روایت‌های متفاوت از پرونده‌های جنایی و تروکرایم می‌رویمبا ما به دنیای تروکرایم سفر کنید
 
-## تازه‌ترین قسمت‌ها
-
-- [جنایت در روز تعطیل](https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j){:target="_blank" rel="noopener"}
-- [هیولایی در جنگل](https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j){:target="_blank" rel="noopener"}
-- [شکارچی](https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j){:target="_blank" rel="noopener"}
-
 ---
 
 ## لینک‌های مرتبط و ارتباطات
 
 - [شنیدن در اپل پادکست](https://podcasts.apple.com/podcast/id1471783534){:target="_blank" rel="noopener"}
-- [فید RSS](https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j){:target="_blank" rel="noopener"}
 
 > این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید. اگر صاحب یا نماینده‌ی این پادکست هستید، برای تکمیل و اصلاح آن [فرم معرفی پادکست](https://persianpod.ir/form/) را پر کنید؛ برای حذف صفحه هم به contact@persianpod.ir پیام بدهید.

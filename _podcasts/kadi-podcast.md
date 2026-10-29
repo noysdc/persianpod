@@ -58,4 +58,3 @@ collab_types: "اسپانسری قسمت"
 - [اینستاگرام کادی](https://www.instagram.com/kd_voicestudio/){:target="_blank" rel="noopener"}
 - [کانال بله کادی](https://ble.ir/kd_voicestudio){:target="_blank" rel="noopener"}
 - [حمایت مالی از کادی (حامی‌باش)](https://hamibash.com/KD){:target="_blank" rel="noopener"}
-- [RSS پادکست](https://api.rabt.host/podcasts/17b98529-6242-40b2-9b95-2761593d026b/rss){:target="_blank" rel="noopener"}

@@ -81,4 +81,3 @@ collab_types: "بله"
 - [تلگرام شعر کست](https://t.me/BoutighaPodcast){:target="_blank" rel="noopener"}
 - [ایمیل شعر کست](mailto:Boutigha.podcast@gmail.com)
 - [تماس با اسپانسر (تلگرام)](https://t.me/hamed_mhk){:target="_blank" rel="noopener"}
-- [فید RSS](https://api.rabt.host/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/rss){:target="_blank" rel="noopener"}

@@ -75,5 +75,4 @@ collab_types: "اسپانسری قسمت"
 - [شنیدن دانزی در کست‌باکس](https://castbox.fm/ch/7387690){:target="_blank" rel="noopener"}
 - [وب‌سایت پادگیر](https://podgirpodcast.ir/){:target="_blank" rel="noopener"}
 - [تلگرام دانزی](https://t.me/podgirpodcast){:target="_blank" rel="noopener"}
-- [فید RSS دانزی](https://player.rabt.space/p/68aed8b4-4847-4fb8-b7b0-5e11989c8def.xml){:target="_blank" rel="noopener"}
 - [ایمیل دانزی](mailto:podgirpodcast@gmail.com)

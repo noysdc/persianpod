@@ -74,4 +74,3 @@ published: true
 - [شنیدن کافه بزرگسالی در کست‌باکس](https://castbox.fm/channel/%DA%A9%D8%A7%D9%81%D9%87-%D8%A8%D8%B2%D8%B1%DA%AF%D8%B3%D8%A7%D9%84%DB%8C-id4568483){:target="_blank" rel="noopener"}
 - [وب‌سایت کافه بزرگسالی در شنوتو](https://shenoto.com/channel/podcast/adultclub){:target="_blank" rel="noopener"}
 - [شنیدن در اپل پادکست](https://podcasts.apple.com/podcast/id1491158741){:target="_blank" rel="noopener"}
-- [فید RSS](https://shenoto.net/service/api/feed/adultclub){:target="_blank" rel="noopener"}

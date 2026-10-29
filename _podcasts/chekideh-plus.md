@@ -151,6 +151,5 @@ collab_types: ""
 
 - [شنیدن در کست‌باکس](https://castbox.fm/channel/Chekideh-Plus-_-%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%DA%86%DA%A9%DB%8C%D8%AF%D9%87-%D9%BE%D9%84%D8%A7%D8%B3-id6572224?country=ir){:target="_blank" rel="noopener"}
 - [ایمیل چکیده پلاس](mailto:farhad@digimedica.com.au)
-- [RSS](https://feeds.acast.com/public/shows/68008e5cb4ef799a7a50bb5f){:target="_blank" rel="noopener"}
 - [شنیدن وقت استراحت در کست‌باکس](https://castbox.fm/channel/%D9%88%D9%82%D9%80%D9%80%D8%AA%D9%90--%D8%A7%D8%B3%D8%AA%D9%80%D9%80%D8%B1%D8%A7%D8%AD%D8%AA-id7349040?country=ir){:target="_blank" rel="noopener"}
 - [شنیدن ADHD Superpower در کست‌باکس](https://castbox.fm/channel/ADHD-Super-Power-id4915417?country=ir){:target="_blank" rel="noopener"}

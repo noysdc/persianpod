@@ -102,4 +102,3 @@ collab_types: "اسپانسر قسمت و همکاری محتوایی"
 - [اسپانسر و همکاری محتوایی در تلگرام](https://t.me/Mehrnoooooshm4){:target="_blank" rel="noopener"}
 - [پادکست زنان در علم در کست‌باکس](https://castbox.fm/ch/6681421){:target="_blank" rel="noopener"}
 - [پادکست ویروفاژ در کست‌باکس](https://castbox.fm/ch/5009095){:target="_blank" rel="noopener"}
-- [فید RSS اسم کست](https://anchor.fm/s/11228194c/podcast/rss){:target="_blank" rel="noopener"}

@@ -42,6 +42,5 @@ published: true
 - [شنیدن در اپل پادکست](https://podcasts.apple.com/podcast/id6793201821){:target="_blank" rel="noopener"}
 - [شنیدن در اسپاتیفای](https://open.spotify.com/show/4QBjIXLFzNS40hKhEvdrtg){:target="_blank" rel="noopener"}
 - [یوتیوب کتاب صوتی روایت لاین](https://www.youtube.com/channel/UC4R4EQZRyPmz2sOtLvlRmTw){:target="_blank" rel="noopener"}
-- [فید RSS](https://feeds.redcircle.com/72d52b7d-d5c8-41f8-b156-a0458dd1ab9f){:target="_blank" rel="noopener"}
 
 > این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید.

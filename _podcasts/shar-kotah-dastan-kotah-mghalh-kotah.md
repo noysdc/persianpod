@@ -38,6 +38,5 @@ published: true
 
 - [اینستاگرام شعر کوتاه، داستان کوتاه، مقاله کوتاه](https://www.instagram.com/hadi.azimi){:target="_blank" rel="noopener"}
 - [تلگرام شعر کوتاه، داستان کوتاه، مقاله کوتاه](https://t.me/haadiazimi){:target="_blank" rel="noopener"}
-- [فید RSS](https://rss.castbox.fm/everest/b38a1e32d01e4810817ba4e6cc8b5d55.xml){:target="_blank" rel="noopener"}
 
 > این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید.

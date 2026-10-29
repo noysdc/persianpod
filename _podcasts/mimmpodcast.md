@@ -80,4 +80,3 @@ collab: true
 - [ایمیل پادکست میم](mailto:mimmpodcast@gmail.com)
 - [پادکست بوطیقا در کست‌باکس](https://castbox.fm/ch/4910844){:target="_blank" rel="noopener"}
 - [پادکست شکرتیغال در کست‌باکس](https://castbox.fm/ch/5413045){:target="_blank" rel="noopener"}
-- [فید RSS پادکست میم](https://rss.audiyacreators.one/cmhwe10fp49z7yriygrn1){:target="_blank" rel="noopener"}

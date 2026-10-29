@@ -38,6 +38,5 @@ The Casa Milan Persian Podcast [CMPP] initiated in 2020 by Parsa Karami, is the 
 
 - [شنیدن در اپل پادکست](https://podcasts.apple.com/podcast/id1689497572){:target="_blank" rel="noopener"}
 - [یوتیوب پادکست کازا میلان](https://www.youtube.com/@casamilanpersianpodcast){:target="_blank" rel="noopener"}
-- [فید RSS](http://rss.castbox.fm/everest/7c4db5fd2a384f1c8f23a289c0557e99.xml){:target="_blank" rel="noopener"}
 
 > این صفحه بر اساس اطلاعات عمومی منتشرشده‌ی پادکست شما (فید RSS) تهیه شده است. اگر صاحب یا نماینده‌ی این پادکست هستید، خوشحال می‌شویم با تکمیل [فرم معرفی پادکست](https://persianpod.ir/form/) به کامل‌تر و دقیق‌تر شدن این صفحه کمک کنید. برای هرگونه اصلاح، تکمیل یا حذف صفحه هم می‌توانید به contact@persianpod.ir پیام بدهید.
