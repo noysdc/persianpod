@@ -18,8 +18,8 @@ pi_id: 3689883
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: true
-published: true
+reviewed: false
+published: false
 ---
 
 # رادیو جامعه (پادکست اجتماعی)
