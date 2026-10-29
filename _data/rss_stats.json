@@ -7930,7 +7930,7 @@
     "avg_length": 19,
     "episodes": 94,
     "eps_365": 94,
-    "eps_90": 78,
+    "eps_90": 77,
     "first_at": "2026-07-29",
     "first_year": 1405,
     "last": "1405/08/06",
@@ -8008,8 +8008,8 @@
       0,
       0,
       0,
-      16,
-      26,
+      17,
+      25,
       18,
       34
     ],
@@ -14037,96 +14037,6 @@
     ],
     "status": "active"
   },
-  "frdai-aghtsad-8017031": {
-    "avg_gap_days": 0.4,
-    "avg_length": 49,
-    "episodes": 11,
-    "eps_365": 11,
-    "eps_90": 11,
-    "first_at": "2026-09-02",
-    "first_year": 1405,
-    "last": "1405/06/15",
-    "last_at": "2026-09-06T20:12:20Z",
-    "last_link": "https://www.spreaker.com/episode/brrsy-ktab-fraz-w-frwd-mlt-ha-ba-frhad-nyly-w-j-frkhyrkhwahan--74941085",
-    "last_title": "بررسی کتاب «فراز و فرود ملت‌ها» با فرهاد نیلی و جعفرخیرخواهان",
-    "max_length": 96,
-    "median_length": 48,
-    "min_length": 7,
-    "play": [
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74941085/episode.mp3",
-        "at": "2026-09-06T20:12:20Z",
-        "t": "بررسی کتاب «فراز و فرود ملت‌ها» با فرهاد نیلی و جعفرخیرخواهان"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74941019/episode.mp3",
-        "at": "2026-09-06T20:09:03Z",
-        "t": "کتاب فردا/ ذهنیت ضد سرمایه‌داری از لودویگ فون میزس"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74940305/episode.mp3",
-        "at": "2026-09-06T19:27:43Z",
-        "t": "اخلاق آزادی از مورای روتبارد"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74940304/episode.mp3",
-        "at": "2026-09-06T19:27:42Z",
-        "t": "عامل اصلی توسعه کشورها چیست؟"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74940296/episode.mp3",
-        "at": "2026-09-06T19:27:20Z",
-        "t": "افیون روشنفکران؛ دین سکولار مارکسیسم"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74940293/episode.mp3",
-        "at": "2026-09-06T19:27:11Z",
-        "t": "کتاب آزادی انتخاب از میلتون فریدمن"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74815408/episode.mp3",
-        "at": "2026-09-02T16:02:40Z",
-        "t": "کتاب فردا | خطاهای فکری علم اقتصاد"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74815403/episode.mp3",
-        "at": "2026-09-02T16:02:29Z",
-        "t": "نظام سرمایه‌داری عامل نابودی محیط زیست؟ گفت و گو با شهرام اتفاق"
-      }
-    ],
-    "recent": [
-      {
-        "at": "2026-09-06T20:12:20Z",
-        "link": "https://www.spreaker.com/episode/brrsy-ktab-fraz-w-frwd-mlt-ha-ba-frhad-nyly-w-j-frkhyrkhwahan--74941085",
-        "title": "بررسی کتاب «فراز و فرود ملت‌ها» با فرهاد نیلی و جعفرخیرخواهان"
-      },
-      {
-        "at": "2026-09-06T20:09:03Z",
-        "link": "https://www.spreaker.com/episode/ktab-frda-dhhnyt-dd-srmayh-dary-az-lwdwyg-fwn-myzs--74941019",
-        "title": "کتاب فردا/ ذهنیت ضد سرمایه‌داری از لودویگ فون میزس"
-      },
-      {
-        "at": "2026-09-06T19:27:43Z",
-        "link": "https://www.spreaker.com/episode/akhlaq-azady-az-mwray-rwtbard--74940305",
-        "title": "اخلاق آزادی از مورای روتبارد"
-      }
-    ],
-    "recent_30d": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      11,
-      0
-    ],
-    "status": "active"
-  },
   "frmol-1-farsi": {
     "avg_gap_days": 13.8,
     "avg_length": 39,
@@ -19134,95 +19044,6 @@
     ],
     "status": "inactive"
   },
-  "interpretation-of-rumi-s-masnavi-with-abdulkarim-soroush": {
-    "avg_length": 83,
-    "episodes": 50,
-    "eps_365": 0,
-    "eps_90": 0,
-    "first_at": "2016-04-21",
-    "first_year": 1395,
-    "last": "1397/05/21",
-    "last_at": "2018-08-12T22:00:00Z",
-    "last_link": "http://drsoroush.com/rss/masnavi/50.mp3",
-    "last_title": "Rumi's Masnavi Part 50",
-    "max_length": 99,
-    "median_length": 85,
-    "min_length": 57,
-    "play": [
-      {
-        "a": "http://drsoroush.com/rss/masnavi/50.mp3",
-        "at": "2018-08-12T22:00:00Z",
-        "t": "Rumi's Masnavi Part 50"
-      },
-      {
-        "a": "http://drsoroush.com/rss/masnavi/49.mp3",
-        "at": "2018-08-05T22:00:00Z",
-        "t": "Rumi's Masnavi Part 49"
-      },
-      {
-        "a": "http://drsoroush.com/rss/masnavi/48.mp3",
-        "at": "2018-07-29T22:00:00Z",
-        "t": "Rumi's Masnavi Part 48"
-      },
-      {
-        "a": "http://drsoroush.com/rss/masnavi/47.mp3",
-        "at": "2018-07-22T22:00:00Z",
-        "t": "Rumi's Masnavi Part 47"
-      },
-      {
-        "a": "http://drsoroush.com/rss/masnavi/46.mp3",
-        "at": "2018-07-15T22:00:00Z",
-        "t": "Rumi's Masnavi Part 46"
-      },
-      {
-        "a": "http://drsoroush.com/rss/masnavi/45.mp3",
-        "at": "2018-07-08T22:00:00Z",
-        "t": "Rumi's Masnavi Part 45"
-      },
-      {
-        "a": "http://drsoroush.com/rss/masnavi/44.mp3",
-        "at": "2018-06-24T22:00:00Z",
-        "t": "Rumi's Masnavi Part 44"
-      },
-      {
-        "a": "http://drsoroush.com/rss/masnavi/43.mp3",
-        "at": "2018-04-22T22:00:00Z",
-        "t": "Rumi's Masnavi Part 43"
-      }
-    ],
-    "recent": [
-      {
-        "at": "2018-08-12T22:00:00Z",
-        "link": "http://drsoroush.com/rss/masnavi/50.mp3",
-        "title": "Rumi's Masnavi Part 50"
-      },
-      {
-        "at": "2018-08-05T22:00:00Z",
-        "link": "http://drsoroush.com/rss/masnavi/49.mp3",
-        "title": "Rumi's Masnavi Part 49"
-      },
-      {
-        "at": "2018-07-29T22:00:00Z",
-        "link": "http://drsoroush.com/rss/masnavi/48.mp3",
-        "title": "Rumi's Masnavi Part 48"
-      }
-    ],
-    "recent_30d": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "status": "inactive"
-  },
   "ismcast": {
     "avg_gap_days": 11.4,
     "avg_length": 29,
@@ -22404,96 +22225,6 @@
     ],
     "status": "inactive"
   },
-  "khoansh-ktab-brai-ansan-khrdmnd-2": {
-    "avg_gap_days": 12.9,
-    "avg_length": 20,
-    "episodes": 181,
-    "eps_365": 28,
-    "eps_90": 8,
-    "first_at": "2023-01-16",
-    "first_year": 1401,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T21:53:37Z",
-    "last_link": "https://s3.castbox.fm/1a/8b/6e/8c4a3b4f23b833848911b4e5b4.mp3",
-    "last_title": "علیه مزخرفات",
-    "max_length": 87,
-    "median_length": 22,
-    "min_length": 4,
-    "play": [
-      {
-        "a": "https://s3.castbox.fm/1a/8b/6e/8c4a3b4f23b833848911b4e5b4.mp3",
-        "at": "2026-10-14T21:53:37Z",
-        "t": "علیه مزخرفات"
-      },
-      {
-        "a": "https://s3.castbox.fm/43/89/4c/5f0edb4204aedcc9775f346a5a.mp3",
-        "at": "2026-09-12T00:52:02Z",
-        "t": "فرشتگان و شیاطین"
-      },
-      {
-        "a": "https://s3.castbox.fm/ce/1d/8a/4a892a4c729637929b180ee061.mp3",
-        "at": "2026-09-11T11:05:38Z",
-        "t": "05 چکیدۀ بیست‌ویک درس"
-      },
-      {
-        "a": "https://s3.castbox.fm/e9/f5/62/31d7084ab2af4cd258535d609b.mp3",
-        "at": "2026-09-09T18:44:19Z",
-        "t": "04 چکیدۀ بیست‌ویک درس"
-      },
-      {
-        "a": "https://s3.castbox.fm/54/8e/8a/96bd6b43b9a5924a3eabb22c0b.mp3",
-        "at": "2026-09-07T00:22:22Z",
-        "t": "03 چکیدۀ بیست‌ویک درس"
-      },
-      {
-        "a": "https://s3.castbox.fm/1b/11/ba/6c178649709d78a149af298162.mp3",
-        "at": "2026-08-31T14:00:23Z",
-        "t": "02 چکیدۀ بیست‌ویک درس"
-      },
-      {
-        "a": "https://s3.castbox.fm/72/13/0d/6415df45b99953f0a0875ab8ba.mp3",
-        "at": "2026-08-25T18:40:55Z",
-        "t": "01 چکیدۀ بیست‌ویک درس"
-      },
-      {
-        "a": "https://s3.castbox.fm/0b/9c/81/924e834907a858a1591d0318b0.mp3",
-        "at": "2026-08-16T13:33:40Z",
-        "t": "ما؛ کاکتوسها"
-      }
-    ],
-    "recent": [
-      {
-        "at": "2026-10-14T21:53:37Z",
-        "link": "https://s3.castbox.fm/1a/8b/6e/8c4a3b4f23b833848911b4e5b4.mp3",
-        "title": "علیه مزخرفات"
-      },
-      {
-        "at": "2026-09-12T00:52:02Z",
-        "link": "https://s3.castbox.fm/43/89/4c/5f0edb4204aedcc9775f346a5a.mp3",
-        "title": "فرشتگان و شیاطین"
-      },
-      {
-        "at": "2026-09-11T11:05:38Z",
-        "link": "https://s3.castbox.fm/ce/1d/8a/4a892a4c729637929b180ee061.mp3",
-        "title": "05 چکیدۀ بیست‌ویک درس"
-      }
-    ],
-    "recent_30d": [
-      3,
-      4,
-      0,
-      0,
-      0,
-      0,
-      0,
-      9,
-      3,
-      2,
-      5,
-      1
-    ],
-    "status": "active"
-  },
   "khoansh-mton-farsi": {
     "avg_length": 6,
     "episodes": 200,
@@ -23925,7 +23656,7 @@
     "avg_gap_days": 0.6,
     "avg_length": 20,
     "episodes": 624,
-    "eps_365": 601,
+    "eps_365": 600,
     "eps_90": 175,
     "first_at": "2025-10-22",
     "first_year": 1404,
@@ -24002,8 +23733,8 @@
       51,
       0,
       0,
-      0,
-      64,
+      1,
+      63,
       61,
       51,
       76,
@@ -35562,20 +35293,25 @@
   },
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.6,
-    "avg_length": 22,
-    "episodes": 30,
-    "eps_365": 30,
-    "eps_90": 30,
+    "avg_length": 21,
+    "episodes": 31,
+    "eps_365": 31,
+    "eps_90": 31,
     "first_at": "2026-10-10",
     "first_year": 1405,
     "last": "1405/08/07",
-    "last_at": "2026-10-29T16:50:39Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6ae3795f53fe55e7757b332c",
-    "last_title": "NETFLIX #4 | روش نت‌فلیکس برای حفظ مشتری چی بود؟",
+    "last_at": "2026-10-29T17:30:00Z",
+    "last_link": "https://furbodm.com/",
+    "last_title": "NETFLIX #5 | چرا بلاک باستر، بازیگر اصلی بازار، نت‌فلیکس رو نخرید؟",
     "max_length": 38,
     "median_length": 23,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae37fba82192fb628d3ff27/media.mp3",
+        "at": "2026-10-29T17:30:00Z",
+        "t": "NETFLIX #5 | چرا بلاک باستر، بازیگر اصلی بازار، نت‌فلیکس رو نخرید؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae3795f53fe55e7757b332c/media.mp3",
         "at": "2026-10-29T16:50:39Z",
@@ -35610,14 +35346,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adf55d7feb8d1e39cf805b0/media.mp3",
         "at": "2026-10-26T13:29:59Z",
         "t": "TWITTER | داستان بیست‌وچهارم؛ توییتر"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adf3386677cf6f87d5e8d86/media.mp3",
-        "at": "2026-10-26T11:03:34Z",
-        "t": "FEDEX | داستان بیست‌و‌سوم؛ فدکس"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-29T17:30:00Z",
+        "link": "https://furbodm.com/",
+        "title": "NETFLIX #5 | چرا بلاک باستر، بازیگر اصلی بازار، نت‌فلیکس رو نخرید؟"
+      },
       {
         "at": "2026-10-29T16:50:39Z",
         "link": "https://shows.acast.com/business-stories-podcast/episodes/6ae3795f53fe55e7757b332c",
@@ -35627,11 +35363,6 @@
         "at": "2026-10-29T16:32:39Z",
         "link": "https://furbodm.com/",
         "title": "NETFLIX #3 | نت‌فلیکس از کجا مشتری‌های اولیه خودش رو پیدا کرد؟"
-      },
-      {
-        "at": "2026-10-28T13:57:26Z",
-        "link": "https://furbodm.com/",
-        "title": "NETFLIX #2 | محصول اولیه نت‌فلیکس چی بود؟"
       }
     ],
     "recent_30d": [
@@ -35646,7 +35377,7 @@
       0,
       0,
       0,
-      30
+      31
     ],
     "status": "active"
   },
@@ -53083,185 +52814,6 @@
     ],
     "status": "active"
   },
-  "shar": {
-    "avg_gap_days": 5.2,
-    "avg_length": 4,
-    "episodes": 401,
-    "eps_365": 70,
-    "eps_90": 18,
-    "first_at": "2023-03-03",
-    "first_year": 1401,
-    "last": "1405/08/06",
-    "last_at": "2026-10-28T06:40:22Z",
-    "last_link": "https://s3.castbox.fm/3f/3e/64/a25a4a47e4ab0c26e0cc4f464c.mp3",
-    "last_title": "مشفق کاشانی | می پرست",
-    "max_length": 29,
-    "median_length": 4,
-    "min_length": 1,
-    "play": [
-      {
-        "a": "https://s3.castbox.fm/3f/3e/64/a25a4a47e4ab0c26e0cc4f464c.mp3",
-        "at": "2026-10-28T06:40:22Z",
-        "t": "مشفق کاشانی | می پرست"
-      },
-      {
-        "a": "https://s3.castbox.fm/34/dc/15/1b56214331881e0b7e78c78fd4.mp3",
-        "at": "2026-10-23T06:40:23Z",
-        "t": "اردلان سرفراز | پرسش | با صدای شاعر"
-      },
-      {
-        "a": "https://s3.castbox.fm/ec/37/13/1d9e9043e5bdeb7d1eaaebae3d.mp3",
-        "at": "2026-10-18T06:40:10Z",
-        "t": "مهدی اخوان ثالث | زمستان"
-      },
-      {
-        "a": "https://s3.castbox.fm/91/fd/11/83d7a24d8387cd1655e6ddb972.mp3",
-        "at": "2026-10-13T06:40:18Z",
-        "t": "نیما یوشیج | تلخ"
-      },
-      {
-        "a": "https://s3.castbox.fm/56/6e/f1/4e961044a6976461f17c873ef1.mp3",
-        "at": "2026-10-08T06:40:10Z",
-        "t": "کاظم سادات اشکوری | تصویرهای بامدادی ۱۵"
-      },
-      {
-        "a": "https://s3.castbox.fm/18/13/2c/4ac9584cc786debd8f3dfb00c5.mp3",
-        "at": "2026-10-03T06:40:10Z",
-        "t": "شهریار | آذربایجان"
-      },
-      {
-        "a": "https://s3.castbox.fm/bf/0b/3b/c1d1334912b1f76cf0608294a2.mp3",
-        "at": "2026-09-28T06:40:17Z",
-        "t": "هوشنگ ابتهاج | بهانه"
-      },
-      {
-        "a": "https://s3.castbox.fm/47/86/78/932558430f97a0ae34e9681fd9.mp3",
-        "at": "2026-09-23T06:40:23Z",
-        "t": "م. آزاد | آن لحظه‌های روشن"
-      }
-    ],
-    "recent": [
-      {
-        "at": "2026-10-28T06:40:22Z",
-        "link": "https://s3.castbox.fm/3f/3e/64/a25a4a47e4ab0c26e0cc4f464c.mp3",
-        "title": "مشفق کاشانی | می پرست"
-      },
-      {
-        "at": "2026-10-23T06:40:23Z",
-        "link": "https://s3.castbox.fm/34/dc/15/1b56214331881e0b7e78c78fd4.mp3",
-        "title": "اردلان سرفراز | پرسش | با صدای شاعر"
-      },
-      {
-        "at": "2026-10-18T06:40:10Z",
-        "link": "https://s3.castbox.fm/ec/37/13/1d9e9043e5bdeb7d1eaaebae3d.mp3",
-        "title": "مهدی اخوان ثالث | زمستان"
-      }
-    ],
-    "recent_30d": [
-      8,
-      10,
-      4,
-      7,
-      0,
-      2,
-      3,
-      10,
-      7,
-      6,
-      6,
-      6
-    ],
-    "status": "active"
-  },
-  "shar-1162982": {
-    "avg_length": 15,
-    "episodes": 11,
-    "eps_365": 0,
-    "eps_90": 0,
-    "first_at": "2018-07-08",
-    "first_year": 1397,
-    "last": "1400/08/09",
-    "last_at": "2021-10-31T16:59:16Z",
-    "last_link": "https://www.spreaker.com/episode/mwsh-w-grbh--47245591",
-    "last_title": "موش و گربه",
-    "max_length": 76,
-    "median_length": 4,
-    "min_length": 1,
-    "play": [
-      {
-        "a": "https://api.spreaker.com/download/episode/47245591/mush_o_gorbe.mp3",
-        "at": "2021-10-31T16:59:16Z",
-        "t": "موش و گربه"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/18042823/episode_18042823.mp3",
-        "at": "2019-05-22T11:22:59Z",
-        "t": "شاهدبازی در ادب پارسی - یک"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/17744630/episode_17744630.mp3",
-        "at": "2019-04-25T16:20:00Z",
-        "t": "قطعه شعری طنز از حکیم قآنی"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/17471503/zohre_va_manouchehr.mp3",
-        "at": "2019-03-29T21:01:04Z",
-        "t": "مثنوی زهره و منوچهر"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/17413293/episode_17413293.mp3",
-        "at": "2019-03-23T08:59:25Z",
-        "t": "ما چون ز دری پای کشیدیم کشیدیم"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/17207290/sadr_e_din.mp3",
-        "at": "2019-03-03T06:59:06Z",
-        "t": "شعری از میرزاده عشقی"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/17202498/episode_17202498.mp3",
-        "at": "2019-03-02T14:17:09Z",
-        "t": "همین روزها"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/17113052/episode_17113052.mp3",
-        "at": "2019-02-22T05:23:10Z",
-        "t": "فعل مجهول"
-      }
-    ],
-    "recent": [
-      {
-        "at": "2021-10-31T16:59:16Z",
-        "link": "https://www.spreaker.com/episode/mwsh-w-grbh--47245591",
-        "title": "موش و گربه"
-      },
-      {
-        "at": "2019-05-22T11:22:59Z",
-        "link": "https://www.spreaker.com/episode/shahdbazy-dr-adb-parsy-yk--18042823",
-        "title": "شاهدبازی در ادب پارسی - یک"
-      },
-      {
-        "at": "2019-04-25T16:20:00Z",
-        "link": "https://www.spreaker.com/episode/qt-h-sh-ry-tnz-az-hkym-qany--17744630",
-        "title": "قطعه شعری طنز از حکیم قآنی"
-      }
-    ],
-    "recent_30d": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "status": "inactive"
-  },
   "shar-ba-sdai-shaar": {
     "avg_gap_days": 2.5,
     "avg_length": 4,
@@ -55706,7 +55258,7 @@
     "avg_length": 9,
     "episodes": 22,
     "eps_365": 22,
-    "eps_90": 9,
+    "eps_90": 8,
     "first_at": "2026-02-24",
     "first_year": 1404,
     "last": "1405/08/01",
@@ -55784,8 +55336,8 @@
       0,
       0,
       0,
-      2,
-      5,
+      3,
+      4,
       1,
       3
     ],
@@ -56054,96 +55606,6 @@
       0,
       0,
       0,
-      0
-    ],
-    "status": "active"
-  },
-  "t-me-radioshereparsi-radio-shar-parsi": {
-    "avg_gap_days": 2.7,
-    "avg_length": 154,
-    "episodes": 406,
-    "eps_365": 40,
-    "eps_90": 16,
-    "first_at": "2020-03-27",
-    "first_year": 1399,
-    "last": "1405/07/01",
-    "last_at": "2026-09-23T20:45:52Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/u0645u062du0645u062f-u0645u0635u062fu0642/episodes/ep-e3pa5fv",
-    "last_title": "بازنشر پست برای دوستان و معرفی پادکست\nعضویت در صفحه\nگذاشتن کامنت و اعلام نظر جهت بهتر شدن پستها✨️💖",
-    "max_length": 2750,
-    "median_length": 3,
-    "min_length": 1,
-    "play": [
-      {
-        "a": "https://anchor.fm/s/19436c8c/podcast/play/126211007/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-23%2F432533742-44100-2-6b1125ddd5067.m4a",
-        "at": "2026-09-23T20:45:52Z",
-        "t": "بازنشر پست برای دوستان و معرفی پادکست\nعضویت در صفحه\nگذاشتن کامنت و اعلام نظر جهت بهتر شدن پستها✨️💖"
-      },
-      {
-        "a": "https://anchor.fm/s/19436c8c/podcast/play/126209698/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-23%2F432533493-44100-2-813d05a35017a.m4a",
-        "at": "2026-09-23T20:42:12Z",
-        "t": "انسان در جستجوی معنا ✨️💖 ویکتور فرانکل"
-      },
-      {
-        "a": "https://anchor.fm/s/19436c8c/podcast/play/126025393/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-20%2F4aee794a-1135-3f9b-5ed4-4747264230d8.mp3",
-        "at": "2026-09-20T11:36:34Z",
-        "t": "اگر باشی محبت روزگاری تازه خواهد یافت\nجهان در گردشش با تو مداری تازه خواهد یافت ✨️💖 حسین منزوی"
-      },
-      {
-        "a": "https://anchor.fm/s/19436c8c/podcast/play/125878522/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-17%2F432091023-44100-2-6bbb8b3e69f57.m4a",
-        "at": "2026-09-17T14:29:35Z",
-        "t": "دلم میخواست\nدنیا خانه مهر و محبت بود\nدلم میخواست مردم در همه احوال با هم آشتی ...✨️💖\n#فریدون_مشیری"
-      },
-      {
-        "a": "https://anchor.fm/s/19436c8c/podcast/play/125685031/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-13%2F431821001-44100-2-1a2fcf402b404.m4a",
-        "at": "2026-09-13T20:35:00Z",
-        "t": "دعایت می کنم ، عاشق شوی روزی\n\nبفهمی زندگی ، بی عشق نازیباست✨️💖 کیوان شاهبداغی✨️💖خوانش محمد مصدق"
-      },
-      {
-        "a": "https://anchor.fm/s/19436c8c/podcast/play/125197127/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-4%2F905f799e-c5c9-3418-9591-5a63d63720a1.mp3",
-        "at": "2026-09-12T11:04:18Z",
-        "t": "مثنوی : قسمت دوم حکایت وکیل صدر جهان که متهم شد و از بخارا گریخت 💖✨️ایرج شهبازی"
-      },
-      {
-        "a": "https://anchor.fm/s/19436c8c/podcast/play/125197414/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-4%2Ff2986ef6-2547-4b29-169c-0a81108f4423.mp3",
-        "at": "2026-09-09T20:20:50Z",
-        "t": "مثنوی دفتر سوم 💖✨️ ساعد باقری 💖✨️گفت ای موسی ز من می‌جو پناه با دهانی که نکردی تو گناه 💖✨️"
-      },
-      {
-        "a": "https://anchor.fm/s/19436c8c/podcast/play/125338136/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-7%2F431367041-44100-2-aa962e9a84f3c.m4a",
-        "at": "2026-09-07T15:06:54Z",
-        "t": "بنشینم و صبر پیش گیرم\nدنباله ی راه خویش گیرم ✨️💖 خوانش زهرا محمودی ✨️💖 ترجیع بند معروف سعدی"
-      }
-    ],
-    "recent": [
-      {
-        "at": "2026-09-23T20:45:52Z",
-        "link": "https://podcasters.spotify.com/pod/show/u0645u062du0645u062f-u0645u0635u062fu0642/episodes/ep-e3pa5fv",
-        "title": "بازنشر پست برای دوستان و معرفی پادکست\nعضویت در صفحه\nگذاشتن کامنت و اعلام نظر جهت بهتر شدن پستها✨️💖"
-      },
-      {
-        "at": "2026-09-23T20:42:12Z",
-        "link": "https://podcasters.spotify.com/pod/show/u0645u062du0645u062f-u0645u0635u062fu0642/episodes/ep-e3pa472",
-        "title": "انسان در جستجوی معنا ✨️💖 ویکتور فرانکل"
-      },
-      {
-        "at": "2026-09-20T11:36:34Z",
-        "link": "https://podcasters.spotify.com/pod/show/u0645u062du0645u062f-u0645u0635u062fu0642/episodes/ep-e3p4g7h",
-        "title": "اگر باشی محبت روزگاری تازه خواهد یافت\nجهان در گردشش با تو مداری تازه خواهد یافت ✨️💖 حسین منزوی"
-      }
-    ],
-    "recent_30d": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      21,
-      3,
-      4,
-      12,
       0
     ],
     "status": "active"
