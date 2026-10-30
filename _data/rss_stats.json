@@ -46118,21 +46118,26 @@
     "status": "inactive"
   },
   "radio-astartap-360": {
-    "avg_gap_days": 13.2,
-    "avg_length": 6,
-    "episodes": 339,
-    "eps_365": 28,
-    "eps_90": 8,
+    "avg_gap_days": 13.0,
+    "avg_length": 5,
+    "episodes": 340,
+    "eps_365": 29,
+    "eps_90": 9,
     "first_at": "2019-04-19",
     "first_year": 1398,
-    "last": "1405/08/01",
-    "last_at": "2026-10-23T05:30:01Z",
-    "last_link": "https://s3.castbox.fm/00/31/3f/3698b942058c1aa3f9b3238ac6.mp3",
-    "last_title": "05-08-01 خلاصه اخبار هفته",
+    "last": "1405/08/08",
+    "last_at": "2026-10-30T05:30:24Z",
+    "last_link": "https://s3.castbox.fm/8c/e4/b1/9144494529a9f8e89f54322a04.mp3",
+    "last_title": "05-08-08 خلاصه اخبار هفته",
     "max_length": 90,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/8c/e4/b1/9144494529a9f8e89f54322a04.mp3",
+        "at": "2026-10-30T05:30:24Z",
+        "t": "05-08-08 خلاصه اخبار هفته"
+      },
       {
         "a": "https://s3.castbox.fm/00/31/3f/3698b942058c1aa3f9b3238ac6.mp3",
         "at": "2026-10-23T05:30:01Z",
@@ -46167,14 +46172,14 @@
         "a": "https://s3.castbox.fm/7e/ee/0d/5d40e147d585621d05ae041f75.mp3",
         "at": "2026-08-21T05:30:08Z",
         "t": "05-05-30 خلاصه اخبار هفته"
-      },
-      {
-        "a": "https://s3.castbox.fm/a1/d4/02/bfd10e43a3a8db64c2abce5666.mp3",
-        "at": "2026-08-14T05:30:42Z",
-        "t": "05-05-23 خلاصه اخبار هفته"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-30T05:30:24Z",
+        "link": "https://s3.castbox.fm/8c/e4/b1/9144494529a9f8e89f54322a04.mp3",
+        "title": "05-08-08 خلاصه اخبار هفته"
+      },
       {
         "at": "2026-10-23T05:30:01Z",
         "link": "https://s3.castbox.fm/00/31/3f/3698b942058c1aa3f9b3238ac6.mp3",
@@ -46184,11 +46189,6 @@
         "at": "2026-10-16T05:30:27Z",
         "link": "https://s3.castbox.fm/13/fd/0f/b3395a4ccb8dcd3bd7f0b380ad.mp3",
         "title": "05-07-24 خلاصه اخبار هفته"
-      },
-      {
-        "at": "2026-10-09T05:30:06Z",
-        "link": "https://s3.castbox.fm/f3/8a/7c/70995d459e8f1245c29e1c7a64.mp3",
-        "title": "05-07-17 خلاصه اخبار هفته"
       }
     ],
     "recent_30d": [
@@ -46203,7 +46203,7 @@
       4,
       3,
       1,
-      4
+      5
     ],
     "status": "active"
   },
@@ -47896,8 +47896,8 @@
       0,
       0,
       0,
-      20,
-      4,
+      21,
+      3,
       2,
       2,
       9
