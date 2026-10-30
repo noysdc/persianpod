@@ -132,7 +132,7 @@
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
   "shar-o-ghsh-khoani": {
-    "error": "ParseError: syntax error: line 1, column 0",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
     "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
