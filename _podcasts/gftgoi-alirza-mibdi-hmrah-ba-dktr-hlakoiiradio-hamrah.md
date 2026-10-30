@@ -1,5 +1,5 @@
 ---
-title: "گفتگوی علیرضا میبدی همراه با دکتر هلاکوییRADIO HAMRAH"
+title: "گفتگوی علیرضا میبدی همراه با دکتر هلاکویی"
 title_en: "RADIO HAMRAH"
 slug: "gftgoi-alirza-mibdi-hmrah-ba-dktr-hlakoiiradio-hamrah"
 description: "این پادکست در باره گفتگوهای هفتگی علیرضا میبدی همراه با دکتر فرهنگ هلاکویی در باره مسایل گوناگون از جمله اجتماعی، فرهنگی، سیاسی و یا اقتصادی میباشد RADIO HAMRAH This podcast is about Alireza…"
@@ -17,8 +17,8 @@ pi_id: 7302619
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # گفتگوی علیرضا میبدی همراه با دکتر هلاکوییRADIO HAMRAH

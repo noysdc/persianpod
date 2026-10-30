@@ -10,7 +10,7 @@ status: "فعال"
 language: "فارسی"
 creator: "سیاوش صفاریان‌پور"
 episode_count: 29
-logo: ""
+logo: "/assets/img/podcasts/khdahafz-aafrigha.webp"
 castbox_id: "7440122"
 castbox_channel: "https://castbox.fm/channel/id7440122"
 website: ""
