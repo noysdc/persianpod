@@ -2699,19 +2699,24 @@
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.6,
     "avg_length": 5,
-    "episodes": 27,
-    "eps_365": 27,
-    "eps_90": 27,
+    "episodes": 28,
+    "eps_365": 28,
+    "eps_90": 28,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/06",
-    "last_at": "2026-10-28T14:34:33Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3r93rr",
-    "last_title": "کلیله و دمنه | قسمت دهم | موش کوچولوی مهربون(۲)",
+    "last": "1405/08/08",
+    "last_at": "2026-10-30T12:49:40Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rdlc5",
+    "last_title": "کلیله و دمنه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)",
     "max_length": 10,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/128422725/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-30%2F52401b3b-f9bb-4324-c291-fdcac89fd08a.mp3",
+        "at": "2026-10-30T12:49:40Z",
+        "t": "کلیله و دمنه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
+      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/128273723/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2Fb27e24a1-08c9-428d-3406-7e8c574f6e17.mp3",
         "at": "2026-10-28T14:34:33Z",
@@ -2746,14 +2751,14 @@
         "a": "https://anchor.fm/s/1165b1438/podcast/play/126366973/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-27%2Fe12e9f74-96b6-e1ab-f4e5-b78d1c4566fa.mp3",
         "at": "2026-09-27T11:44:34Z",
         "t": "بوستان کودکانه | قسمت چهارم | نوشیروان عادل"
-      },
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/126365161/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-27%2F6fea1968-f4ab-b1b4-3f7c-02412a092f05.mp3",
-        "at": "2026-09-27T10:34:00Z",
-        "t": "کلیله‌ودمنه کودکانه | قسمت هفتم | لو رفتن راز دمنه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-30T12:49:40Z",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rdlc5",
+        "title": "کلیله و دمنه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
+      },
       {
         "at": "2026-10-28T14:34:33Z",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3r93rr",
@@ -2763,11 +2768,6 @@
         "at": "2026-10-24T14:05:34Z",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3r0sup",
         "title": "شاهنامه کودکانه | قسمت نهم | ایرج مهربان"
-      },
-      {
-        "at": "2026-10-17T10:10:31Z",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3ql0sh",
-        "title": "کلیله و دمنه کودکانه | قسمت نهم | کبوتر طوق‌دار(۱)"
       }
     ],
     "recent_30d": [
@@ -2782,7 +2782,7 @@
       0,
       11,
       11,
-      5
+      6
     ],
     "status": "active"
   },
@@ -33336,7 +33336,7 @@
       }
     ],
     "recent_30d": [
-      2,
+      1,
       2,
       3,
       5,
@@ -63111,8 +63111,8 @@
       5,
       4,
       4,
-      4,
       5,
+      4,
       4
     ],
     "status": "active"
