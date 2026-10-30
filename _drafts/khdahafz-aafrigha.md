@@ -13,7 +13,7 @@ episode_count: 29
 logo: ""
 castbox_id: "7440122"
 castbox_channel: "https://castbox.fm/channel/id7440122"
-website: "https://www.spreaker.com/podcast/khdahafz-afryqa--7063548"
+website: ""
 apple_podcasts: "https://podcasts.apple.com/podcast/id1815015121"
 pi_id: 7338489
 source: "podcastindex"
