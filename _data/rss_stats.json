@@ -28352,19 +28352,24 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 985,
-    "eps_365": 329,
-    "eps_90": 81,
+    "episodes": 986,
+    "eps_365": 330,
+    "eps_90": 82,
     "first_at": "2023-11-21",
     "first_year": 1402,
     "last": "1405/08/08",
-    "last_at": "2026-10-30T00:56:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/mushroom-killer-erin-patterson-loses-her-appeal/gd3p5wej7",
-    "last_title": "تجدیدنظرخواهی قاتل پرونده قارچ سمی رد شد؛ حبس ابد بدون آزادی مشروط",
+    "last_at": "2026-10-30T03:13:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/israel-election-voting-irregularities-allegations/ny4vkufr2",
+    "last_title": "ادعای تخلف در رأی‌گیری انتخابات اسرائیل",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261030141339_929301-persian-bb038471-5261-4a13-be20-7b93086778fa.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-8ab3-d1d6-a5bd-fff364860000&dur_cat=3",
+        "at": "2026-10-30T03:13:00Z",
+        "t": "ادعای تخلف در رأی‌گیری انتخابات اسرائیل"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261030115638_415775-persian-301026-fn.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-8a45-d371-a3a5-dbe5e7f20000&dur_cat=2",
         "at": "2026-10-30T00:56:00Z",
@@ -28399,14 +28404,14 @@
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261023134513_562070-persian-5527b7d5-1e7e-4404-885d-3a223ff67a44.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-6683-d1d6-a5bd-77d347690000&dur_cat=3",
         "at": "2026-10-23T02:45:00Z",
         "t": "جمع‌آوری بیش از ۶۰۰ هزار دلار کمک مردمی برای امور خیریه، در پی حمله ادعایی به هلن هینز، نماینده پارلمان استرالیا"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261023122129_492053-persian-231026-fn.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-663e-dc86-a3f3-f6fe06ce0000&dur_cat=2",
-        "at": "2026-10-23T01:21:00Z",
-        "t": "پلیس در پی پیدا شدن دو جسد در ملبورن، احتمال قتل و خودکشی را بررسی می‌کند"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-30T03:13:00Z",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/israel-election-voting-irregularities-allegations/ny4vkufr2",
+        "title": "ادعای تخلف در رأی‌گیری انتخابات اسرائیل"
+      },
       {
         "at": "2026-10-30T00:56:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/mushroom-killer-erin-patterson-loses-her-appeal/gd3p5wej7",
@@ -28416,11 +28421,6 @@
         "at": "2026-10-29T03:36:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/efforts-to-save-australia-eu-free-trade-agreement/l09bonjqc",
         "title": "تلاش برای نجات توافق تجارت آزاد استرالیا و اتحادیه اروپا"
-      },
-      {
-        "at": "2026-10-28T01:43:00Z",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/calls-for-a-fresh-take-on-combating-racism-data/9wupx07tq",
-        "title": "درخواست‌ها برای بازنگری در روند مقابله با نژادپرستی در استرالیا"
       }
     ],
     "recent_30d": [
@@ -28435,7 +28435,7 @@
       29,
       25,
       26,
-      30
+      31
     ],
     "status": "active"
   },
