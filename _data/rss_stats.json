@@ -6316,21 +6316,26 @@
     "status": "inactive"
   },
   "bandar-e-tehran": {
-    "avg_gap_days": 23.3,
+    "avg_gap_days": 22.8,
     "avg_length": 92,
-    "episodes": 183,
-    "eps_365": 16,
-    "eps_90": 6,
+    "episodes": 184,
+    "eps_365": 17,
+    "eps_90": 7,
     "first_at": "2018-08-17",
     "first_year": 1397,
-    "last": "1405/07/24",
-    "last_at": "2026-10-16T15:30:00Z",
-    "last_link": "https://shows.acast.com/bandaretehran/episodes/183b",
-    "last_title": "صد و هشتاد و سوم | اکبر",
+    "last": "1405/08/08",
+    "last_at": "2026-10-30T15:30:00Z",
+    "last_link": "https://shows.acast.com/bandaretehran/episodes/184b",
+    "last_title": "صد و هشتاد و چهارم | ناگهان نوبت تو نمی‌شود",
     "max_length": 190,
     "median_length": 82,
     "min_length": 32,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6ae4793e309881b50b28b92b/media.mp3",
+        "at": "2026-10-30T15:30:00Z",
+        "t": "صد و هشتاد و چهارم | ناگهان نوبت تو نمی‌شود"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6ad0d8a59fea6e0a641e2b0c/media.mp3",
         "at": "2026-10-16T15:30:00Z",
@@ -6365,14 +6370,14 @@
         "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6a61fcc57d20badb28028408/media.mp3",
         "at": "2026-07-24T15:30:00Z",
         "t": "صد و هفتاد و هفتم | اجاره‌نشین‌ها"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6a5a290f62e50b14bd9adaf6/media.mp3",
-        "at": "2026-07-17T15:30:00Z",
-        "t": "صد و هفتاد و ششم | بهرام"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-30T15:30:00Z",
+        "link": "https://shows.acast.com/bandaretehran/episodes/184b",
+        "title": "صد و هشتاد و چهارم | ناگهان نوبت تو نمی‌شود"
+      },
       {
         "at": "2026-10-16T15:30:00Z",
         "link": "https://shows.acast.com/bandaretehran/episodes/183b",
@@ -6382,11 +6387,6 @@
         "at": "2026-10-09T15:30:00Z",
         "link": "https://shows.acast.com/bandaretehran/episodes/182b",
         "title": "صد و هشتاد و دوم | دویدن بره‌ها در آینه"
-      },
-      {
-        "at": "2026-09-18T15:30:00Z",
-        "link": "https://shows.acast.com/bandaretehran/episodes/181b",
-        "title": "صد و هشتاد و یکم | آخرین مورفین در لنینگراد"
       }
     ],
     "recent_30d": [
@@ -6401,7 +6401,7 @@
       2,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
