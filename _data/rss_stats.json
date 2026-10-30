@@ -11309,21 +11309,26 @@
     "status": "active"
   },
   "dastan-zndgi-mn-ba-aiman-khrmi-nzhad": {
-    "avg_gap_days": 44.9,
-    "avg_length": 157,
-    "episodes": 246,
-    "eps_365": 8,
-    "eps_90": 4,
+    "avg_gap_days": 42.1,
+    "avg_length": 156,
+    "episodes": 247,
+    "eps_365": 9,
+    "eps_90": 5,
     "first_at": "2021-11-04",
     "first_year": 1400,
-    "last": "1405/07/16",
-    "last_at": "2026-10-08T15:59:57Z",
-    "last_link": "https://s3.castbox.fm/30/34/ad/6c9f4c435096ba0830713621cd.mp3",
-    "last_title": "Ep 124 - Dr. Kamyar A. Majlan (بدون موسیقی)",
+    "last": "1405/08/08",
+    "last_at": "2026-10-30T17:10:57Z",
+    "last_link": "https://s3.castbox.fm/3a/c3/d7/f72d0842ba9ab9f7dd265c0fcd.mp3",
+    "last_title": "EP 125 - Pardis Taherzadeh (با موسیقی)",
     "max_length": 315,
     "median_length": 137,
     "min_length": 41,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/3a/c3/d7/f72d0842ba9ab9f7dd265c0fcd.mp3",
+        "at": "2026-10-30T17:10:57Z",
+        "t": "EP 125 - Pardis Taherzadeh (با موسیقی)"
+      },
       {
         "a": "https://s3.castbox.fm/30/34/ad/6c9f4c435096ba0830713621cd.mp3",
         "at": "2026-10-08T15:59:57Z",
@@ -11358,14 +11363,14 @@
         "a": "https://s3.castbox.fm/06/28/c3/ac9d50461b978ebbc82f990a2f.mp3",
         "at": "2025-11-27T16:59:29Z",
         "t": "Ep 121 - Dr. Morteza Ziyadi (بدون موسیقی)"
-      },
-      {
-        "a": "https://s3.castbox.fm/43/b7/34/1c454f4f18b1221cbcd0ba7753.mp3",
-        "at": "2025-11-27T16:46:26Z",
-        "t": "Ep 121 - Dr. Morteza Ziyadi (با موسیقی)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-30T17:10:57Z",
+        "link": "https://s3.castbox.fm/3a/c3/d7/f72d0842ba9ab9f7dd265c0fcd.mp3",
+        "title": "EP 125 - Pardis Taherzadeh (با موسیقی)"
+      },
       {
         "at": "2026-10-08T15:59:57Z",
         "link": "https://s3.castbox.fm/30/34/ad/6c9f4c435096ba0830713621cd.mp3",
@@ -11375,11 +11380,6 @@
         "at": "2026-10-08T15:57:31Z",
         "link": "https://s3.castbox.fm/28/74/c3/3cc3f9423fb893bca56660f718.mp3",
         "title": "Ep 124 - Dr. Kamyar A. Majlan (با موسیقی)"
-      },
-      {
-        "at": "2026-08-19T05:43:10Z",
-        "link": "https://s3.castbox.fm/23/31/67/76676d4d38a7ac01fd7b1efe35.mp3",
-        "title": "Ep 123 - Dr. Abbas Haddadi (بدون موسیقی)"
       }
     ],
     "recent_30d": [
@@ -11394,7 +11394,7 @@
       0,
       2,
       0,
-      2
+      3
     ],
     "status": "active"
   },
