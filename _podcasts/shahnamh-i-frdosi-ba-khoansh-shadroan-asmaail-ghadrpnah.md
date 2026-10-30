@@ -16,8 +16,8 @@ pi_id: 5860901
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # شاهنامه‌ی فردوسی، با خوانش شادروان اسماعیل قادرپناه

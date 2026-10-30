@@ -18,8 +18,8 @@ pi_id: 3168298
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # نویسش کست
