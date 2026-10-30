@@ -25174,19 +25174,24 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 20,
-    "episodes": 624,
-    "eps_365": 598,
-    "eps_90": 174,
+    "episodes": 625,
+    "eps_365": 599,
+    "eps_90": 175,
     "first_at": "2025-10-22",
     "first_year": 1404,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T18:20:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6adf887729dd53209d24afb5",
-    "last_title": "سالگرد - قتل های زنجیره ای - بخش هجدهم",
+    "last": "1405/08/08",
+    "last_at": "2026-10-30T17:39:18Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6ae4d646b478422f911ba65f",
+    "last_title": "سالگرد - قتل های زنجیره ای - بخش نوزدهم",
     "max_length": 44,
     "median_length": 16,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ae4d646b478422f911ba65f/media.mp3",
+        "at": "2026-10-30T17:39:18Z",
+        "t": "سالگرد - قتل های زنجیره ای - بخش نوزدهم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6adf887729dd53209d24afb5/media.mp3",
         "at": "2026-10-26T18:20:00Z",
@@ -25221,14 +25226,14 @@
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6adb3c552ae01c30d9599dab/media.mp3",
         "at": "2026-10-23T18:10:00Z",
         "t": "سالگرد - قتل های زنجیره ای - بخش دواردهم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6adb3bdab4643bca15016333/media.mp3",
-        "at": "2026-10-23T17:43:00Z",
-        "t": "سالگرد - قتل های زنجیره ای - بخش یازدهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-30T17:39:18Z",
+        "link": "https://shows.acast.com/statusmarried/episodes/6ae4d646b478422f911ba65f",
+        "title": "سالگرد - قتل های زنجیره ای - بخش نوزدهم"
+      },
       {
         "at": "2026-10-26T18:20:00Z",
         "link": "https://shows.acast.com/statusmarried/episodes/6adf887729dd53209d24afb5",
@@ -25238,11 +25243,6 @@
         "at": "2026-10-26T17:32:00Z",
         "link": "https://shows.acast.com/statusmarried/episodes/6adf87cd0e0585e9dc410153",
         "title": "سالگرد - قتل های زنجیره ای - بخش هفدهم"
-      },
-      {
-        "at": "2026-10-26T16:59:30Z",
-        "link": "https://shows.acast.com/statusmarried/episodes/6adf86f2b50147298bbcb340",
-        "title": "سالگرد - قتل های زنجیره ای - بخش شانزدهم"
       }
     ],
     "recent_30d": [
@@ -25257,7 +25257,7 @@
       62,
       53,
       75,
-      46
+      47
     ],
     "status": "active"
   },
@@ -42260,8 +42260,8 @@
       0,
       0,
       0,
-      3,
-      6,
+      4,
+      5,
       4,
       4,
       7
@@ -47714,8 +47714,8 @@
     "recent_30d": [
       3,
       5,
-      0,
-      2,
+      1,
+      1,
       0,
       0,
       0,
@@ -52911,26 +52911,21 @@
     "status": "inactive"
   },
   "roait-lain": {
-    "avg_gap_days": 8.5,
-    "avg_length": 59,
-    "episodes": 42,
-    "eps_365": 42,
-    "eps_90": 18,
+    "avg_gap_days": 8.6,
+    "avg_length": 57,
+    "episodes": 41,
+    "eps_365": 41,
+    "eps_90": 17,
     "first_at": "2025-11-17",
     "first_year": 1404,
-    "last": "1405/08/08",
-    "last_at": "2026-10-30T17:24:56Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/revayatline/episodes/ep-e3re7q2",
-    "last_title": "سیلک رود قسمت پایانی میراث",
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T18:13:54Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/revayatline/episodes/ep-e3r6vat",
+    "last_title": "سیلک رود قسمت دوم شکار",
     "max_length": 110,
-    "median_length": 50,
+    "median_length": 49,
     "min_length": 24,
     "play": [
-      {
-        "a": "https://anchor.fm/s/10bb80838/podcast/play/128441602/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-30%2F19a21290-0156-d550-14b3-53ae0a0012c9.mp3",
-        "at": "2026-10-30T17:24:56Z",
-        "t": "سیلک رود قسمت پایانی میراث"
-      },
       {
         "a": "https://anchor.fm/s/10bb80838/podcast/play/128203549/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F3a56c94b-7b3a-7820-193d-ecb5a145e398.mp3",
         "at": "2026-10-27T18:13:54Z",
@@ -52965,14 +52960,14 @@
         "a": "https://anchor.fm/s/10bb80838/podcast/play/125779199/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-15%2F4e8334c0-8a51-ba73-202b-c86dcc84ee95.mp3",
         "at": "2026-09-15T17:18:23Z",
         "t": "میدنایت کلایمکس | راز دفن شده سیا"
+      },
+      {
+        "a": "https://anchor.fm/s/10bb80838/podcast/play/125538752/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-10%2Fcb227be1-893c-44eb-018a-2def090f5208.mp3",
+        "at": "2026-09-10T16:54:44Z",
+        "t": "زودیاک | نامه هایی از تاریکی"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-30T17:24:56Z",
-        "link": "https://podcasters.spotify.com/pod/show/revayatline/episodes/ep-e3re7q2",
-        "title": "سیلک رود قسمت پایانی میراث"
-      },
       {
         "at": "2026-10-27T18:13:54Z",
         "link": "https://podcasters.spotify.com/pod/show/revayatline/episodes/ep-e3r6vat",
@@ -52982,6 +52977,11 @@
         "at": "2026-10-13T17:03:54Z",
         "link": "https://podcasters.spotify.com/pod/show/revayatline/episodes/ep-e3qeq8u",
         "title": "سیلک رود قسمت اول تولد"
+      },
+      {
+        "at": "2026-10-06T16:52:48Z",
+        "link": "https://podcasters.spotify.com/pod/show/revayatline/episodes/ep-e3q0nj1",
+        "title": "عایشه قذافی | دختر دیکتاتور"
       }
     ],
     "recent_30d": [
@@ -52996,7 +52996,7 @@
       7,
       7,
       7,
-      4
+      3
     ],
     "status": "active"
   },
