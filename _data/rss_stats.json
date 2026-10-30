@@ -28426,8 +28426,8 @@
     "recent_30d": [
       29,
       22,
-      26,
-      29,
+      27,
+      28,
       32,
       24,
       26,
@@ -34300,15 +34300,15 @@
     "recent_30d": [
       1,
       2,
-      1,
-      3,
+      2,
+      2,
       4,
       4,
       5,
       4,
       4,
-      4,
       5,
+      4,
       1
     ],
     "status": "active"
@@ -41827,21 +41827,26 @@
     "status": "inactive"
   },
   "podcast-prtghal": {
-    "avg_gap_days": 64.6,
-    "avg_length": 31,
-    "episodes": 42,
-    "eps_365": 6,
-    "eps_90": 2,
+    "avg_gap_days": 58.3,
+    "avg_length": 32,
+    "episodes": 43,
+    "eps_365": 7,
+    "eps_90": 3,
     "first_at": "2024-12-16",
     "first_year": 1403,
-    "last": "1405/07/11",
-    "last_at": "2026-10-03T01:30:00Z",
-    "last_link": "https://s3.castbox.fm/1e/26/05/8325e54848a23d1e9122f0add2.mp3",
-    "last_title": "S3E6-واقعیت خرید اقساطی",
+    "last": "1405/08/08",
+    "last_at": "2026-10-30T02:30:00Z",
+    "last_link": "https://s3.castbox.fm/ef/0a/6e/0e17c14d01abdf58850931514c.mp3",
+    "last_title": "S4E1-Soghrat",
     "max_length": 48,
     "median_length": 25,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/ef/0a/6e/0e17c14d01abdf58850931514c.mp3",
+        "at": "2026-10-30T02:30:00Z",
+        "t": "S4E1-Soghrat"
+      },
       {
         "a": "https://s3.castbox.fm/1e/26/05/8325e54848a23d1e9122f0add2.mp3",
         "at": "2026-10-03T01:30:00Z",
@@ -41876,14 +41881,14 @@
         "a": "https://s3.castbox.fm/21/a0/21/6e268248cd87e87c29f3d56390.mp3",
         "at": "2025-09-11T16:30:00Z",
         "t": "S2E20-مرزهای مسئولیت پذیری"
-      },
-      {
-        "a": "https://s3.castbox.fm/01/33/88/d2fa0a419f9c7581cbb24aa611.mp3",
-        "at": "2025-08-29T11:56:35Z",
-        "t": "S2E19-داشتن استعداد یا تلاش بیشتر"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-30T02:30:00Z",
+        "link": "https://s3.castbox.fm/ef/0a/6e/0e17c14d01abdf58850931514c.mp3",
+        "title": "S4E1-Soghrat"
+      },
       {
         "at": "2026-10-03T01:30:00Z",
         "link": "https://s3.castbox.fm/1e/26/05/8325e54848a23d1e9122f0add2.mp3",
@@ -41893,11 +41898,6 @@
         "at": "2026-09-17T08:28:50Z",
         "link": "https://s3.castbox.fm/a0/e5/5e/cc0a584c9cb934a9e2629866d5.mp3",
         "title": "S3E5-فاصله زندگی ما تا رفاه"
-      },
-      {
-        "at": "2026-07-31T15:23:05Z",
-        "link": "https://s3.castbox.fm/c4/7b/21/eac26d4ef8aa7ed44e2c5fcb0c.mp3",
-        "title": "S3E4-توهم شغل امن"
       }
     ],
     "recent_30d": [
@@ -41912,7 +41912,7 @@
       1,
       0,
       1,
-      1
+      2
     ],
     "status": "active"
   },
@@ -43425,15 +43425,15 @@
     "recent_30d": [
       4,
       4,
-      3,
-      3,
+      4,
+      2,
       2,
       2,
       3,
       4,
       4,
-      4,
-      2,
+      5,
+      1,
       0
     ],
     "status": "active"
@@ -43611,8 +43611,8 @@
       0,
       1,
       1,
-      0,
       1,
+      0,
       0
     ],
     "status": "active"
@@ -54976,8 +54976,8 @@
       0,
       0,
       0,
-      6,
-      16,
+      7,
+      15,
       8,
       7,
       3,
@@ -58377,8 +58377,8 @@
       5,
       4,
       3,
-      6,
-      6
+      7,
+      5
     ],
     "status": "active"
   },
