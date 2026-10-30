@@ -36,7 +36,7 @@
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
   },
   "dastan-soti-kodkan": {
-    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
     "rss": "https://www.istgahekoodak.ir/category/childrens-audio-stories/feed/"
   },
   "dkhtri-ba-hft-asm": {
