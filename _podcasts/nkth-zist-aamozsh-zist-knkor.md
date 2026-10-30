@@ -18,8 +18,8 @@ pi_id: 4542333
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # نکته زیست (آموزش زیست کنکور)

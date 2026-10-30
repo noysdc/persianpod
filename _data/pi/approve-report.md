@@ -1,20 +1,37 @@
 ## گزارش تأیید و انتقال
 
-- منتقل‌شده از `_drafts/` به `_podcasts/`: **10**
-- ردشده (تکراری یا از قبل موجود): 1
-- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **151**
+- منتقل‌شده از `_drafts/` به `_podcasts/`: **29**
+- ردشده (تکراری یا از قبل موجود): 0
+- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **154**
 
 ### منتقل‌شده
-- `aakhr-shb-ba-roh.md`
-- `darochi.md`
-- `gah-kst.md`
-- `khdahafz-aafrigha.md`
-- `ktab-soti-kimiagr.md`
-- `noissh-kst.md`
-- `podcast-shb-nshini.md`
-- `prssh-o-paskh-bh-soalat-syo.md`
-- `shahnamh-i-frdosi-ba-khoansh-shadroan-asmaail-ghadrpnah.md`
-- `zhn-ngar.md`
+- `aapartaid-jnsiti.md`
+- `afsanh-hai-khn-parsi.md`
+- `aistgah-hosh-msnoai.md`
+- `astring-kst.md`
+- `bang-bastan.md`
+- `bar-sefr-br-sfr.md`
+- `book-time-i-bok-taim.md`
+- `bors-taim.md`
+- `danshgah-soti-chkidh-mandgar.md`
+- `fza-o-dialktik.md`
+- `green-gate-drichh-sbz.md`
+- `kanal-radio-rahin.md`
+- `klozaap.md`
+- `ktab-hai-soti-jol-aastin.md`
+- `ktabkhoan.md`
+- `lanh-khrgosh.md`
+- `maha.md`
+- `mditishn-farsi-raz-nor.md`
+- `mhdi-akhoan-sals.md`
+- `msnoi-manoi.md`
+- `mtaors.md`
+- `nkth-zist-aamozsh-zist-knkor.md`
+- `ourarchaeology-bastan-shnasi-ma.md`
+- `podcast-hngamh.md`
+- `podcast-hosh-msnoai.md`
+- `podcast-koirhai-airan.md`
+- `podcast-prondh-baz.md`
+- `pzshki-bh-farsi.md`
+- `zhn-hai-nahshiar.md`
 
-### ردشده
-- gftgoi-alirza-mibdi-hmrah-ba-dktr-hlakoiiradio-hamrah.md — تکراری (عنوان و سازنده یکسان) با `jamah-salm.md`؛ در _drafts ماند. اگر مطمئنی تکراری نیست FORCE=1

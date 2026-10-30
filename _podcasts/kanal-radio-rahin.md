@@ -16,8 +16,8 @@ pi_id: 1925348
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # کانال رادیو راهین

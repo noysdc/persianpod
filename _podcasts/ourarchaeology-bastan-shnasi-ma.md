@@ -16,8 +16,8 @@ pi_id: 5113803
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Ourarchaeology باستان شناسی ما
