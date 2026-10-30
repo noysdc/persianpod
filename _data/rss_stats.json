@@ -2780,8 +2780,8 @@
       0,
       0,
       0,
-      11,
-      11,
+      12,
+      10,
       6
     ],
     "status": "active"
@@ -23477,21 +23477,26 @@
     "status": "inactive"
   },
   "khlash-i-ktab-hai-khob": {
-    "avg_gap_days": 51.3,
-    "avg_length": 45,
-    "episodes": 43,
-    "eps_365": 7,
-    "eps_90": 1,
+    "avg_gap_days": 48.9,
+    "avg_length": 46,
+    "episodes": 44,
+    "eps_365": 8,
+    "eps_90": 2,
     "first_at": "2024-01-03",
     "first_year": 1402,
-    "last": "1405/07/04",
-    "last_at": "2026-09-26T06:35:05Z",
-    "last_link": "https://www.instagram.com/homayoun.podcast?stkn=MTRtYzIwZ21qZG5vNw==",
-    "last_title": "مزرعه ی حیوانات",
+    "last": "1405/08/08",
+    "last_at": "2026-10-30T15:50:40Z",
+    "last_link": "https://shows.acast.com/httprsscastboxfmeverestc8b8b8b348f2493e8c1fb8e86c31c6ffxml/episodes/6ae4bcd1e8cdbf26dddfe6df",
+    "last_title": "کنفوسیوس (نابغه ی چین)",
     "max_length": 106,
     "median_length": 40,
     "min_length": 24,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66dd3244309ca350277afaaa/e/6ae4bcd1e8cdbf26dddfe6df/media.mp3",
+        "at": "2026-10-30T15:50:40Z",
+        "t": "کنفوسیوس (نابغه ی چین)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/66dd3244309ca350277afaaa/e/6ab7679962a47b6bec33ef34/media.mp3",
         "at": "2026-09-26T06:35:05Z",
@@ -23526,14 +23531,14 @@
         "a": "https://sphinx.acast.com/p/open/s/66dd3244309ca350277afaaa/e/692145b053b254a5385f2325/media.mp3",
         "at": "2025-11-22T05:10:08Z",
         "t": "آیا بدون پول زیاد هم می توان زندگی لذت بخشی را داشت؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/66dd3244309ca350277afaaa/e/68f5391fe2cf93c3141b6ec6/media.mp3",
-        "at": "2025-10-19T19:16:47Z",
-        "t": "تسلی بخشی های فلسفه (رهایی از نظر دیگران و عدم محبوبیت)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-30T15:50:40Z",
+        "link": "https://shows.acast.com/httprsscastboxfmeverestc8b8b8b348f2493e8c1fb8e86c31c6ffxml/episodes/6ae4bcd1e8cdbf26dddfe6df",
+        "title": "کنفوسیوس (نابغه ی چین)"
+      },
       {
         "at": "2026-09-26T06:35:05Z",
         "link": "https://www.instagram.com/homayoun.podcast?stkn=MTRtYzIwZ21qZG5vNw==",
@@ -23543,11 +23548,6 @@
         "at": "2026-06-30T04:46:40Z",
         "link": "https://shows.acast.com/httprsscastboxfmeverestc8b8b8b348f2493e8c1fb8e86c31c6ffxml/episodes/6a434a316c42755eb6d0d1e7",
         "title": "شب های روشن"
-      },
-      {
-        "at": "2026-06-02T08:50:37Z",
-        "link": "https://shows.acast.com/httprsscastboxfmeverestc8b8b8b348f2493e8c1fb8e86c31c6ffxml/episodes/6a1e995e335cf85f9cc3faab",
-        "title": "نیچه (رنج دروازه ی خوشبختی + نقد اخلاق مسیحی)"
       }
     ],
     "recent_30d": [
@@ -23562,7 +23562,7 @@
       0,
       0,
       1,
-      0
+      1
     ],
     "status": "active"
   },
@@ -61047,8 +61047,8 @@
     "recent_30d": [
       30,
       23,
-      17,
-      32,
+      18,
+      31,
       0,
       4,
       15,
