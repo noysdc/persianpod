@@ -41728,8 +41728,8 @@
       1,
       6,
       7,
-      2,
-      6,
+      3,
+      5,
       7,
       8,
       7,
@@ -49158,10 +49158,10 @@
     "status": "inactive"
   },
   "rhbri-droni": {
-    "avg_gap_days": 10.4,
+    "avg_gap_days": 10.5,
     "avg_length": 25,
     "episodes": 57,
-    "eps_365": 36,
+    "eps_365": 35,
     "eps_90": 7,
     "first_at": "2025-04-10",
     "first_year": 1404,
@@ -49232,8 +49232,8 @@
       }
     ],
     "recent_30d": [
-      4,
       5,
+      4,
       4,
       3,
       4,
