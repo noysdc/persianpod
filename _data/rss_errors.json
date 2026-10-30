@@ -36,7 +36,7 @@
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
   },
   "dkhtri-ba-hft-asm": {
-    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/5586a8d0/podcast/rss"
   },
   "film-aamozshi": {
@@ -90,6 +90,10 @@
   "marktplatz-zban-aalmani-dr-aghtsad": {
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
+  },
+  "naaji": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feeds.acast.com/public/shows/naaji"
   },
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
