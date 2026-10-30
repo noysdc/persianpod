@@ -54685,21 +54685,26 @@
     "status": "inactive"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.3,
+    "avg_gap_days": 4.2,
     "avg_length": 21,
-    "episodes": 485,
-    "eps_365": 86,
-    "eps_90": 25,
+    "episodes": 486,
+    "eps_365": 87,
+    "eps_90": 26,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/08/07",
-    "last_at": "2026-10-29T10:20:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/eydmxb5zxb/",
-    "last_title": "شوک آلفابت به وال‌استریت؛ نگاه بازار به آمازون و تورم آمریکا",
+    "last": "1405/08/08",
+    "last_at": "2026-10-30T11:50:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/hd3meukk5h/",
+    "last_title": "افت همزمان طلا و نزدک؛ چرا کاهش بازده اوراق کافی نبود؟",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/hd3meukk5h/2026-10-30-12-18-26.mp3",
+        "at": "2026-10-30T11:50:00Z",
+        "t": "افت همزمان طلا و نزدک؛ چرا کاهش بازده اوراق کافی نبود؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/eydmxb5zxb/2026-10-29-12-47-14.mp3",
         "at": "2026-10-29T10:20:00Z",
@@ -54734,14 +54739,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/h6hm7rf27m/2026-10-21-12-07-17.mp3",
         "at": "2026-10-21T11:50:00Z",
         "t": "پیشتازی دلار استرالیا؛ چگونه انتظارات نرخ بهره مسیر ارزها را تغییر می‌دهد؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/z2oann4izq/2026-10-20-13-53-17.mp3",
-        "at": "2026-10-20T12:10:00Z",
-        "t": "چرا افت دلار و بازدهی اوراق، طلا را بالا نبرد؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-30T11:50:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/hd3meukk5h/",
+        "title": "افت همزمان طلا و نزدک؛ چرا کاهش بازده اوراق کافی نبود؟"
+      },
       {
         "at": "2026-10-29T10:20:00Z",
         "link": "https://dotcast.org/p/bozvcayr/eydmxb5zxb/",
@@ -54751,11 +54756,6 @@
         "at": "2026-10-28T12:00:00Z",
         "link": "https://dotcast.org/p/bozvcayr/xamqcdt2jc/",
         "title": "غافلگیری نیوزیلند و توقف احتمالی فدرال رزرو در روز تعیین‌کننده بانک‌های مرکزی"
-      },
-      {
-        "at": "2026-10-27T12:10:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/jnnwgusajw/",
-        "title": "بازگشت خریداران دلار؛ آیا نشست فد مسیر بازار را تغییر می‌دهد؟"
       }
     ],
     "recent_30d": [
@@ -54770,7 +54770,7 @@
       0,
       0,
       6,
-      19
+      20
     ],
     "status": "active"
   },
