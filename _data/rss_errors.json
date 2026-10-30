@@ -35,6 +35,10 @@
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
   },
+  "dastan-soti-kodkan": {
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "rss": "https://www.istgahekoodak.ir/category/childrens-audio-stories/feed/"
+  },
   "dkhtri-ba-hft-asm": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/5586a8d0/podcast/rss"
@@ -130,6 +134,10 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
+  },
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
