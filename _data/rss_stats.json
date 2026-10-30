@@ -7466,8 +7466,8 @@
       3,
       1,
       5,
-      10,
-      9,
+      12,
+      7,
       4,
       6,
       3,
@@ -43260,21 +43260,26 @@
     "status": "active"
   },
   "podcast-roanshnasi-saikopad": {
-    "avg_gap_days": 10.7,
+    "avg_gap_days": 10.6,
     "avg_length": 66,
-    "episodes": 198,
-    "eps_365": 33,
-    "eps_90": 11,
+    "episodes": 199,
+    "eps_365": 34,
+    "eps_90": 12,
     "first_at": "2021-06-18",
     "first_year": 1400,
-    "last": "1405/08/01",
-    "last_at": "2026-10-23T16:50:00Z",
-    "last_link": "https://dotcast.org/p/lu8pm6lt/bbx40j1vm6/",
-    "last_title": "انزوای لوکس | کمال گرایی و انواع آن",
+    "last": "1405/08/08",
+    "last_at": "2026-10-30T09:30:00Z",
+    "last_link": "https://dotcast.org/p/lu8pm6lt/hdl3itgvuy/",
+    "last_title": "گوسفند سفید خانواده | تلاش برای خوب بودن به عنوان مرض",
     "max_length": 132,
     "median_length": 53,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/lu8pm6lt/hdl3itgvuy/2026-10-30-09-55-22.mp3",
+        "at": "2026-10-30T09:30:00Z",
+        "t": "گوسفند سفید خانواده | تلاش برای خوب بودن به عنوان مرض"
+      },
       {
         "a": "https://feed.dotcast.org/e/lu8pm6lt/bbx40j1vm6/2026-10-23-17-05-47.mp3",
         "at": "2026-10-23T16:50:00Z",
@@ -43309,14 +43314,14 @@
         "a": "https://feed.dotcast.org/e/lu8pm6lt/w7h1wzshcx/2026-08-28-10-56-17.mp3",
         "at": "2026-08-28T10:40:00Z",
         "t": "شرم،‌قاتل خاموش صمیمت در رابطه"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/lu8pm6lt/fuyueg6bb1/2026-08-21-14-28-18.mp3",
-        "at": "2026-08-21T14:20:00Z",
-        "t": "کالبد شکافی روابط سمی | معمای تعاملات ناسالم در روابط عاطفی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-30T09:30:00Z",
+        "link": "https://dotcast.org/p/lu8pm6lt/hdl3itgvuy/",
+        "title": "گوسفند سفید خانواده | تلاش برای خوب بودن به عنوان مرض"
+      },
       {
         "at": "2026-10-23T16:50:00Z",
         "link": "https://dotcast.org/p/lu8pm6lt/bbx40j1vm6/",
@@ -43326,11 +43331,6 @@
         "at": "2026-10-16T13:30:00Z",
         "link": "https://dotcast.org/p/lu8pm6lt/kmj7383mff/",
         "title": "شمسی تراپی | کالبدشکافی استعاره عمه‌تراپی در برابر روان‌شناسی استاندارد"
-      },
-      {
-        "at": "2026-10-12T15:30:00Z",
-        "link": "https://dotcast.org/p/lu8pm6lt/855m26hg3m/",
-        "title": "کالبدشکافی مهرطلبی | پارادوکس بی رحمانه مهربان بودن"
       }
     ],
     "recent_30d": [
@@ -43345,7 +43345,7 @@
       4,
       5,
       3,
-      3
+      4
     ],
     "status": "active"
   },
