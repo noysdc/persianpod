@@ -16,7 +16,7 @@
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
   "aistgah-mosighi": {
-    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
   },
   "archgap-padkst-mamari-aark-gp": {
@@ -108,7 +108,7 @@
     "rss": "https://webmasterplus.ir/feed/"
   },
   "pzhoak-mahor": {
-    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/pejvakemahoor/feed/"
   },
   "radio-jhani-adontist": {
@@ -118,6 +118,10 @@
   "radio-mfid": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/2e6e9794/podcast/rss"
+  },
+  "radio-nmana": {
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://tehranpodcast.ir/category/nmana/feed/"
   },
   "roait-ahd": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
