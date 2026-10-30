@@ -28352,19 +28352,24 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 984,
-    "eps_365": 328,
-    "eps_90": 80,
+    "episodes": 985,
+    "eps_365": 329,
+    "eps_90": 81,
     "first_at": "2023-11-21",
     "first_year": 1402,
-    "last": "1405/08/07",
-    "last_at": "2026-10-29T03:36:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/efforts-to-save-australia-eu-free-trade-agreement/l09bonjqc",
-    "last_title": "تلاش برای نجات توافق تجارت آزاد استرالیا و اتحادیه اروپا",
+    "last": "1405/08/08",
+    "last_at": "2026-10-30T00:56:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/mushroom-killer-erin-patterson-loses-her-appeal/gd3p5wej7",
+    "last_title": "تجدیدنظرخواهی قاتل پرونده قارچ سمی رد شد؛ حبس ابد بدون آزادی مشروط",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261030115638_415775-persian-301026-fn.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-8a45-d371-a3a5-dbe5e7f20000&dur_cat=2",
+        "at": "2026-10-30T00:56:00Z",
+        "t": "تجدیدنظرخواهی قاتل پرونده قارچ سمی رد شد؛ حبس ابد بدون آزادی مشروط"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261029143653_102624-persian-f95a007e-fc4d-4e60-ab06-42634c026eca.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-8598-db6d-a7e3-8dda64930000&dur_cat=2",
         "at": "2026-10-29T03:36:00Z",
@@ -28399,14 +28404,14 @@
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261023122129_492053-persian-231026-fn.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-663e-dc86-a3f3-f6fe06ce0000&dur_cat=2",
         "at": "2026-10-23T01:21:00Z",
         "t": "پلیس در پی پیدا شدن دو جسد در ملبورن، احتمال قتل و خودکشی را بررسی می‌کند"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261021132340_942097-persian-9ad87187-46fa-4022-a813-1328b276f27b.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-5c23-d3ab-a3eb-7f3f70240000&dur_cat=2",
-        "at": "2026-10-21T02:23:00Z",
-        "t": "حضور مردی که ادعا می‌شود به هلن هینز حمله کرده، در دادگاه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-30T00:56:00Z",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/mushroom-killer-erin-patterson-loses-her-appeal/gd3p5wej7",
+        "title": "تجدیدنظرخواهی قاتل پرونده قارچ سمی رد شد؛ حبس ابد بدون آزادی مشروط"
+      },
       {
         "at": "2026-10-29T03:36:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/efforts-to-save-australia-eu-free-trade-agreement/l09bonjqc",
@@ -28416,11 +28421,6 @@
         "at": "2026-10-28T01:43:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/calls-for-a-fresh-take-on-combating-racism-data/9wupx07tq",
         "title": "درخواست‌ها برای بازنگری در روند مقابله با نژادپرستی در استرالیا"
-      },
-      {
-        "at": "2026-10-27T04:36:00Z",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/economists-warn-australians-should-brace-for-another-interest-rate-hike/nzfi54qlm",
-        "title": "هشدار اقتصاددانان؛ استرالیایی‌ها برای افزایش دوباره نرخ بهره آماده باشند"
       }
     ],
     "recent_30d": [
@@ -28435,7 +28435,7 @@
       29,
       25,
       26,
-      29
+      30
     ],
     "status": "active"
   },
