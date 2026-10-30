@@ -28877,8 +28877,8 @@
       29,
       31,
       24,
-      27,
-      26,
+      28,
+      25,
       28,
       27,
       25,
@@ -53887,21 +53887,26 @@
     "status": "inactive"
   },
   "shar-kst": {
-    "avg_gap_days": 7.9,
+    "avg_gap_days": 7.8,
     "avg_length": 4,
-    "episodes": 182,
-    "eps_365": 45,
-    "eps_90": 41,
+    "episodes": 183,
+    "eps_365": 46,
+    "eps_90": 42,
     "first_at": "2022-05-04",
     "first_year": 1401,
-    "last": "1405/08/07",
-    "last_at": "2026-10-29T19:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/9d23bbb2-6b7a-40db-911a-8c700103e84d/play.mp3",
-    "last_title": "صد و هشتاد و یک - خطِ پیاله",
+    "last": "1405/08/08",
+    "last_at": "2026-10-30T05:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/3b83a91c-89bf-4076-a554-da2869e88b53/play.mp3",
+    "last_title": "صد و هشتاد و دو - خروس سحری",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/3b83a91c-89bf-4076-a554-da2869e88b53/play.mp3",
+        "at": "2026-10-30T05:30:00Z",
+        "t": "صد و هشتاد و دو - خروس سحری"
+      },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/9d23bbb2-6b7a-40db-911a-8c700103e84d/play.mp3",
         "at": "2026-10-29T19:30:00Z",
@@ -53936,14 +53941,14 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/92ca5135-562a-4ec3-a844-873dbe8eda56/play.mp3",
         "at": "2026-10-27T17:30:00Z",
         "t": "صد و هفتاد و پنج - جورِ فَلَک: منسوب به خیام"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ca736138-bcf4-4f16-abe5-fe74cc5b74c2/play.mp3",
-        "at": "2026-10-27T16:28:30Z",
-        "t": "صد و هفتاد و چهار - خور و خواب: منسوب به خیام"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-30T05:30:00Z",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/3b83a91c-89bf-4076-a554-da2869e88b53/play.mp3",
+        "title": "صد و هشتاد و دو - خروس سحری"
+      },
       {
         "at": "2026-10-29T19:30:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/9d23bbb2-6b7a-40db-911a-8c700103e84d/play.mp3",
@@ -53953,11 +53958,6 @@
         "at": "2026-10-29T12:30:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/0e3e478b-af9e-48b8-a457-8b6bf0992342/play.mp3",
         "title": "صد و هشتاد - خونِ شهریار"
-      },
-      {
-        "at": "2026-10-29T06:30:00Z",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/bb9dd684-79b6-4965-b067-efda847f7395/play.mp3",
-        "title": "صد و هفتاد و نه - سیم‌تن: منسوب به خیام"
       }
     ],
     "recent_30d": [
@@ -53972,7 +53972,7 @@
       1,
       2,
       0,
-      39
+      40
     ],
     "status": "active"
   },
