@@ -11751,8 +11751,8 @@
       3,
       2,
       1,
-      0,
-      2
+      1,
+      1
     ],
     "status": "active"
   },
@@ -22315,10 +22315,10 @@
     "status": "active"
   },
   "kapitan": {
-    "avg_gap_days": 27.3,
+    "avg_gap_days": 29.1,
     "avg_length": 76,
     "episodes": 80,
-    "eps_365": 14,
+    "eps_365": 13,
     "eps_90": 8,
     "first_at": "2023-07-25",
     "first_year": 1402,
