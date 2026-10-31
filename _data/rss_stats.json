@@ -26143,8 +26143,8 @@
       58,
       63,
       54,
-      75,
-      47
+      76,
+      46
     ],
     "status": "active"
   },
@@ -39123,77 +39123,77 @@
     "status": "inactive"
   },
   "podcast-bizins-astoriz": {
-    "avg_gap_days": 0.7,
-    "avg_length": 22,
-    "episodes": 30,
-    "eps_365": 30,
-    "eps_90": 30,
+    "avg_gap_days": 0.6,
+    "avg_length": 20,
+    "episodes": 33,
+    "eps_365": 33,
+    "eps_90": 33,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/08",
-    "last_at": "2026-10-30T19:36:14Z",
+    "last": "1405/08/09",
+    "last_at": "2026-10-31T18:02:32Z",
     "last_link": "https://furbodm.com/",
-    "last_title": "NETFLIX #6 | تغییر مسیر نت‌فلیکس از دی‌وی‌دی به استریم چطوری بود؟",
+    "last_title": "NETFLIX #7 | داستان اولین شکست استراتژیک نت‌فلیکس با کوئیستر چی بود؟",
     "max_length": 38,
-    "median_length": 23,
+    "median_length": 22,
     "min_length": 4,
     "play": [
       {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae4f1aef6b38070e234eae0/media.mp3",
-        "at": "2026-10-30T19:36:14Z",
-        "t": "NETFLIX #6 | تغییر مسیر نت‌فلیکس از دی‌وی‌دی به استریم چطوری بود؟"
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62d38339f23a726f55bee/media.mp3",
+        "at": "2026-10-31T18:02:32Z",
+        "t": "NETFLIX #7 | داستان اولین شکست استراتژیک نت‌فلیکس با کوئیستر چی بود؟"
       },
       {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae37fba82192fb628d3ff27/media.mp3",
-        "at": "2026-10-29T17:30:00Z",
-        "t": "NETFLIX #5 | چرا بلاک باستر، بازیگر اصلی بازار، نت‌فلیکس رو نخرید؟"
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62b90ace2d1bf65357ee6/media.mp3",
+        "at": "2026-10-31T18:00:00Z",
+        "t": "NETFLIX #1 | قبل از نت‌فلیکس مردم چطوری فیلم نگاه می‌کردن؟"
       },
       {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae3795f53fe55e7757b332c/media.mp3",
-        "at": "2026-10-29T16:50:39Z",
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62bd0497ef148b86a49f6/media.mp3",
+        "at": "2026-10-31T18:00:00Z",
+        "t": "NETFLIX #2 | محصول اولیه نت‌فلیکس چی بود؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62bfdace2d1bf65359d79/media.mp3",
+        "at": "2026-10-31T18:00:00Z",
+        "t": "NETFLIX #3 | نت‌فلیکس از کجا مشتری‌های اولیه خودش رو پیدا کرد؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62c37f6b38070e28b4ead/media.mp3",
+        "at": "2026-10-31T18:00:00Z",
         "t": "NETFLIX #4 | روش نت‌فلیکس برای حفظ مشتری چی بود؟"
       },
       {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae375279fd2fa3c16c35319/media.mp3",
-        "at": "2026-10-29T16:32:39Z",
-        "t": "NETFLIX #3 | نت‌فلیکس از کجا مشتری‌های اولیه خودش رو پیدا کرد؟"
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62c71b478422f917c2bc0/media.mp3",
+        "at": "2026-10-31T18:00:00Z",
+        "t": "NETFLIX #5 | چرا بلاک باستر، بازیگر اصلی بازار، نت‌فلیکس رو نخرید؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62ca1c89efe58666c64cb/media.mp3",
+        "at": "2026-10-31T18:00:00Z",
+        "t": "NETFLIX #6 | تغییر مسیر نت‌فلیکس از دی‌وی‌دی به استریم چطوری بود؟"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae0b1eeab1b1d113dda940e/media.mp3",
         "at": "2026-10-27T14:15:10Z",
         "t": "NETFLIX #0 | فصل دوم پادکست بیزینس استوریز؛ نت‌فلیکس"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adf56fbb50147298ba80812/media.mp3",
-        "at": "2026-10-26T13:34:51Z",
-        "t": "REDDIT | داستان بیست‌وپنجم؛ ردیت"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adf55d7feb8d1e39cf805b0/media.mp3",
-        "at": "2026-10-26T13:29:59Z",
-        "t": "TWITTER | داستان بیست‌وچهارم؛ توییتر"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adf3386677cf6f87d5e8d86/media.mp3",
-        "at": "2026-10-26T11:03:34Z",
-        "t": "FEDEX | داستان بیست‌و‌سوم؛ فدکس"
       }
     ],
     "recent": [
       {
-        "at": "2026-10-30T19:36:14Z",
+        "at": "2026-10-31T18:02:32Z",
         "link": "https://furbodm.com/",
-        "title": "NETFLIX #6 | تغییر مسیر نت‌فلیکس از دی‌وی‌دی به استریم چطوری بود؟"
+        "title": "NETFLIX #7 | داستان اولین شکست استراتژیک نت‌فلیکس با کوئیستر چی بود؟"
       },
       {
-        "at": "2026-10-29T17:30:00Z",
+        "at": "2026-10-31T18:00:00Z",
         "link": "https://furbodm.com/",
-        "title": "NETFLIX #5 | چرا بلاک باستر، بازیگر اصلی بازار، نت‌فلیکس رو نخرید؟"
+        "title": "NETFLIX #1 | قبل از نت‌فلیکس مردم چطوری فیلم نگاه می‌کردن؟"
       },
       {
-        "at": "2026-10-29T16:50:39Z",
-        "link": "https://shows.acast.com/business-stories-podcast/episodes/6ae3795f53fe55e7757b332c",
-        "title": "NETFLIX #4 | روش نت‌فلیکس برای حفظ مشتری چی بود؟"
+        "at": "2026-10-31T18:00:00Z",
+        "link": "https://furbodm.com/",
+        "title": "NETFLIX #2 | محصول اولیه نت‌فلیکس چی بود؟"
       }
     ],
     "recent_30d": [
@@ -39208,7 +39208,7 @@
       0,
       0,
       0,
-      30
+      33
     ],
     "status": "active"
   },
