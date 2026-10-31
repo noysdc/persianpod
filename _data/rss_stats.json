@@ -38678,21 +38678,26 @@
     "status": "active"
   },
   "podcast-astorh-shnasi-thot": {
-    "avg_gap_days": 9.6,
-    "avg_length": 47,
-    "episodes": 176,
-    "eps_365": 38,
-    "eps_90": 12,
+    "avg_gap_days": 9.5,
+    "avg_length": 46,
+    "episodes": 177,
+    "eps_365": 39,
+    "eps_90": 13,
     "first_at": "2024-04-12",
     "first_year": 1403,
-    "last": "1405/08/03",
-    "last_at": "2026-10-25T13:10:42Z",
+    "last": "1405/08/09",
+    "last_at": "2026-10-31T12:17:19Z",
     "last_link": "https://thothpodcast.com/",
-    "last_title": "اساطیر روم باستان - قسمت اول",
+    "last_title": "خانه ای تازه برای تحوت",
     "max_length": 90,
     "median_length": 39,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6ae5dc4f497ef148b854d5c1/media.mp3",
+        "at": "2026-10-31T12:17:19Z",
+        "t": "خانه ای تازه برای تحوت"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6addffd3296f30f8e3930c8b/media.mp3",
         "at": "2026-10-25T13:10:42Z",
@@ -38727,14 +38732,14 @@
         "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6a9d1553d024784c991defc5/media.mp3",
         "at": "2026-09-06T07:25:06Z",
         "t": "فصل پنجم - اساطیر هند - رامایانا : پیش بینی 4"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6a847747a835875d37464c02/media.mp3",
-        "at": "2026-08-19T08:00:00Z",
-        "t": "تاریخ جادوگری - جادوی قرن جدید"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-31T12:17:19Z",
+        "link": "https://thothpodcast.com/",
+        "title": "خانه ای تازه برای تحوت"
+      },
       {
         "at": "2026-10-25T13:10:42Z",
         "link": "https://thothpodcast.com/",
@@ -38744,11 +38749,6 @@
         "at": "2026-10-18T16:07:16Z",
         "link": "https://thothpodcast.com/",
         "title": "تاریخ جادوگری - قسمت پایانی - جادو در سینما"
-      },
-      {
-        "at": "2026-10-11T14:23:39Z",
-        "link": "https://thothpodcast.com/",
-        "title": "فصل پنجم - اساطیر هند - رامایانا : نجات 3"
       }
     ],
     "recent_30d": [
@@ -38763,7 +38763,7 @@
       5,
       5,
       4,
-      3
+      4
     ],
     "status": "active"
   },

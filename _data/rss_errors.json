@@ -1,6 +1,6 @@
 {
   "60-sanih-ktab": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/feed/60sanieketab"
   },
   "aajil": {
@@ -12,7 +12,7 @@
     "rss": "https://tehranpodcast.ir/category/deutschcast/feed/"
   },
   "aamozsh-ainstagram": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/instagram"
   },
   "aamozsh-blak-chin-o-kripto-ha": {
@@ -24,11 +24,11 @@
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
   "aghtsad-bama": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/feed/BAMAECONOMY"
   },
   "ahmd-shamlo": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Ahmad-Shamlou"
   },
   "aistgah-mosighi": {
@@ -36,11 +36,11 @@
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
   },
   "akhlagh-brai-nojoanan": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/AkhlaghNojavanan"
   },
   "alf-ghaf": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/alefquf"
   },
   "archgap-padkst-mamari-aark-gp": {
@@ -48,7 +48,7 @@
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
   "asranh-hnr": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Eveningart"
   },
   "baehsan": {
@@ -60,11 +60,11 @@
     "rss": "https://musiceiranian.ir/type/audio/feed"
   },
   "bazar-srmaih-bors": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/feed/bazaresarmaye"
   },
   "darochi": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/darochi"
   },
   "dastan-hai-hzar-o-ik-shb": {
@@ -88,7 +88,7 @@
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
   "frahosh": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Frahosh"
   },
   "galri-film": {
@@ -96,7 +96,7 @@
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
   },
   "hafz-khoani-bh-roait-ahmd-shamlo": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/HAfEZ-e-SHAMLU"
   },
   "hnr-jng": {
@@ -104,7 +104,7 @@
     "rss": "http://namlik.me/rss/318"
   },
   "hrf-hsab": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/harf-e-hesab"
   },
   "hs-khob": {
@@ -112,7 +112,7 @@
     "rss": "https://feed.pod.co/hese-khob"
   },
   "kafh-bzrgsali": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/adultclub"
   },
   "khatrh-angiz": {
@@ -120,7 +120,7 @@
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
   },
   "khsro-o-shirin-bh-roait-astad-saad-baghri": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/khosroshirin"
   },
   "kit-aahng": {
@@ -132,7 +132,7 @@
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
   },
   "kshor-shahnamh-khoansh-dastan-hai-shahnamh-frdosi": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/KeshvareShahnam"
   },
   "lzt-dniai-ktab": {
@@ -152,51 +152,51 @@
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
   },
   "mbl-ghrmz": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Mobleqermez"
   },
   "mhdi-akhoan-sals": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Akhavan-Sales"
   },
   "mrkz-mzakrh-airan": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/ftehrani"
   },
   "msnoi-manoi": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Masnavi-Manavi"
   },
   "nima-ioshij": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Nima-Youshij"
   },
   "nima-o-miras-ao": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Mirasenima"
   },
   "noissh-kst": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Nevisesh"
   },
   "nshat-rkh": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Neshatrokh"
   },
   "o-ain-tnha-bazi-jhan-bod": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
   "podcast-farsi-ansank": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/ensanak"
   },
   "podcast-farsi-hai-chnl-hichannelpodcast-hai-chnl": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/HiChannelPodcast"
   },
   "podcast-farsi-kripto-namh": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Crypto-nameh"
   },
   "podcast-fotbal-lb": {
@@ -204,7 +204,7 @@
     "rss": "https://feed.podkadeh.cloud/podcastxml/footballlab.xml"
   },
   "podcast-hnr-o-mamari-oadi": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Vadi-podcast"
   },
   "podcast-khakstri-roan": {
@@ -216,7 +216,7 @@
     "rss": "https://webmasterplus.ir/feed/"
   },
   "podcast-orzshi-gaiton-hal-guyton-hall": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/guyton-hall"
   },
   "podcast-sndogh": {
@@ -228,7 +228,7 @@
     "rss": "https://tehranpodcast.ir/category/pejvakemahoor/feed/"
   },
   "radio-aahng-sfr": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/travelmelody"
   },
   "radio-hzar-o-ik-shb": {
@@ -244,19 +244,19 @@
     "rss": "https://anchor.fm/s/2e6e9794/podcast/rss"
   },
   "radio-roait": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/radiorevayat"
   },
   "radio-saikt-mdrsh-alm-o-fnaori-koantom": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/psiketcenter"
   },
   "radiomali99": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/RadioMali99"
   },
   "raoi": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Raavi"
   },
   "roait-ahd": {
@@ -272,7 +272,7 @@
     "rss": "https://anchor.fm/s/37c7e32c/podcast/rss"
   },
   "roanshnasi-jamah": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/feed/dr-alishamisa"
   },
   "roanshnasi-piman": {
@@ -280,7 +280,7 @@
     "rss": "https://paymanpsychology.com/feed/"
   },
   "rza-brahni": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Reza-Baraheni"
   },
   "said-pnahi": {
@@ -288,27 +288,27 @@
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
   "shahnamh-khodmoni": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/shahname"
   },
   "shar-o-tranh-hai-amir-khoshaoi": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/AmirKhoshavi"
   },
   "spidh-ghsh-go": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/sepidehghesegoo"
   },
   "tarikh-bihghi-a-tarikh-beyhaqi": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/Tarikhbeyhaghi"
   },
   "tarikkhanh-tarikh": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/t-tarikh"
   },
   "yuri-on-radio-iori-br-radio": {
-    "error": "RuntimeError: HTTP 503 (Service Temporarily Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://shenoto.net/service/api/feed/yurionradio"
   },
   "zban-o-adbiat": {
