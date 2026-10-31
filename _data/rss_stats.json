@@ -8995,19 +8995,24 @@
   "chh-hsi-dari-roanshnasi-khodshnasi": {
     "avg_gap_days": 1.0,
     "avg_length": 19,
-    "episodes": 94,
-    "eps_365": 94,
-    "eps_90": 75,
+    "episodes": 95,
+    "eps_365": 95,
+    "eps_90": 76,
     "first_at": "2026-07-29",
     "first_year": 1405,
-    "last": "1405/08/06",
-    "last_at": "2026-10-28T16:32:39Z",
-    "last_link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-12-ahsas-pshymany--76053203",
-    "last_title": "غلبه بر افکار منفی مزاحم ۱۲ (احساس پشیمانی)",
+    "last": "1405/08/09",
+    "last_at": "2026-10-31T19:46:56Z",
+    "last_link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-13-ahsas-pshymany--76101236",
+    "last_title": "غلبه بر افکار منفی مزاحم ۱۳ (احساس پشیمانی)",
     "max_length": 33,
     "median_length": 16,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76101236/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27hbsy5tcdm.mp3",
+        "at": "2026-10-31T19:46:56Z",
+        "t": "غلبه بر افکار منفی مزاحم ۱۳ (احساس پشیمانی)"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76053203/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf2ybzgduminux27iubxaz.mp3",
         "at": "2026-10-28T16:32:39Z",
@@ -9042,14 +9047,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75978398/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27yubxaz.mp3",
         "at": "2026-10-25T18:40:26Z",
         "t": "غلبه بر افکار منفی مزاحم ۶ (نگرانی)"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75968784/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27uubxaz.mp3",
-        "at": "2026-10-24T20:36:54Z",
-        "t": "غلبه بر افکار منفی مزاحم ۵ (نگرانی)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-31T19:46:56Z",
+        "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-13-ahsas-pshymany--76101236",
+        "title": "غلبه بر افکار منفی مزاحم ۱۳ (احساس پشیمانی)"
+      },
       {
         "at": "2026-10-28T16:32:39Z",
         "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-12-ahsas-pshymany--76053203",
@@ -9059,11 +9064,6 @@
         "at": "2026-10-27T19:26:19Z",
         "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-11-nshkhwar-fkry--76036230",
         "title": "غلبه بر افکار منفی مزاحم ۱۱(نشخوار فکری)"
-      },
-      {
-        "at": "2026-10-27T19:22:58Z",
-        "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-10-nshkhwar-fkry--76035775",
-        "title": "غلبه بر افکار منفی مزاحم ۱۰(نشخوار فکری)"
       }
     ],
     "recent_30d": [
@@ -9078,7 +9078,7 @@
       19,
       25,
       18,
-      32
+      33
     ],
     "status": "active"
   },
