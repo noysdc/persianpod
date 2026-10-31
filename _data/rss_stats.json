@@ -22762,6 +22762,96 @@
     ],
     "status": "active"
   },
+  "ketabak": {
+    "avg_gap_days": 7.3,
+    "avg_length": 25,
+    "episodes": 16,
+    "eps_365": 16,
+    "eps_90": 8,
+    "first_at": "2026-06-29",
+    "first_year": 1405,
+    "last": "1405/07/26",
+    "last_at": "2026-10-18T14:58:00Z",
+    "last_link": "https://dotcast.org/p/wqlungdt/0zj0d5r0iw/",
+    "last_title": "کتاب درمان شوپنهاور نوشته اروین د یالوم",
+    "max_length": 50,
+    "median_length": 24,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://feed.dotcast.org/e/wqlungdt/0zj0d5r0iw/2026-10-18-11-48-10.mp3",
+        "at": "2026-10-18T14:58:00Z",
+        "t": "کتاب درمان شوپنهاور نوشته اروین د یالوم"
+      },
+      {
+        "a": "https://feed.dotcast.org/e/wqlungdt/eay0yo7b8o/2026-10-05-09-23-20.mp3",
+        "at": "2026-10-05T09:20:00Z",
+        "t": "کتاب هزاران فرسنگ تا آزادی( فرار از کره شمالی )"
+      },
+      {
+        "a": "https://feed.dotcast.org/e/wqlungdt/w43w0li1qs/2026-09-24-10-10-23.mp3",
+        "at": "2026-09-24T19:50:00Z",
+        "t": "کتاب روانشناسی پول از مورگان هاوزل"
+      },
+      {
+        "a": "https://feed.dotcast.org/e/wqlungdt/xmj5yr4wnv/2026-09-12-12-30-36.mp3",
+        "at": "2026-09-12T12:40:00Z",
+        "t": "کتاب انسان درجستجوی معنا اثر ویکتور فرانکل"
+      },
+      {
+        "a": "https://feed.dotcast.org/e/wqlungdt/12/2026-09-03-14-16-59.mp3",
+        "at": "2026-09-02T23:39:35Z",
+        "t": "کتاب در قلمرو پادشاهان نوشته کارمن بن لادل"
+      },
+      {
+        "a": "https://feed.dotcast.org/e/wqlungdt/11/2026-09-03-14-17-05.mp3",
+        "at": "2026-08-25T08:38:48Z",
+        "t": "کتاب کودتا نوشته یرواند آبراهامیان"
+      },
+      {
+        "a": "https://feed.dotcast.org/e/wqlungdt/10/2026-09-03-14-17-10.mp3",
+        "at": "2026-08-16T08:38:00Z",
+        "t": "کتاب وضعیت آخر نوشته توماس.ای.هریس"
+      },
+      {
+        "a": "https://feed.dotcast.org/e/wqlungdt/9/2026-09-03-14-17-15.mp3",
+        "at": "2026-08-05T05:38:07Z",
+        "t": "کتاب مزرعه حیوانات نوشته جورج اورول"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-18T14:58:00Z",
+        "link": "https://dotcast.org/p/wqlungdt/0zj0d5r0iw/",
+        "title": "کتاب درمان شوپنهاور نوشته اروین د یالوم"
+      },
+      {
+        "at": "2026-10-05T09:20:00Z",
+        "link": "https://dotcast.org/p/wqlungdt/eay0yo7b8o/",
+        "title": "کتاب هزاران فرسنگ تا آزادی( فرار از کره شمالی )"
+      },
+      {
+        "at": "2026-09-24T19:50:00Z",
+        "link": "https://dotcast.org/p/wqlungdt/w43w0li1qs/",
+        "title": "کتاب روانشناسی پول از مورگان هاوزل"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      3,
+      3,
+      3,
+      2
+    ],
+    "status": "active"
+  },
   "khanh-adb-parsi-padkst-shahnamh-khoani-shah-pad": {
     "avg_length": 110,
     "episodes": 148,
