@@ -50400,20 +50400,25 @@
   },
   "radio-dordane": {
     "avg_gap_days": 0.3,
-    "avg_length": 18,
-    "episodes": 10,
-    "eps_365": 10,
-    "eps_90": 10,
+    "avg_length": 19,
+    "episodes": 11,
+    "eps_365": 11,
+    "eps_90": 11,
     "first_at": "2026-10-27",
     "first_year": 1405,
     "last": "1405/08/09",
-    "last_at": "2026-10-31T07:11:54Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l90",
-    "last_title": "تفاوت برنج کشت اول و کشت دوم چیست؟ مقایسه عطر، کیفیت و قیمت | رادیو دردانه",
+    "last_at": "2026-10-31T09:23:44Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l53",
+    "last_title": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه",
     "max_length": 25,
     "median_length": 21,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1193981e4/podcast/play/128258659/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435212182-44100-2-2a8f19b486097.m4a",
+        "at": "2026-10-31T09:23:44Z",
+        "t": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه"
+      },
       {
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128258784/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435212300-44100-2-742e421307e42.m4a",
         "at": "2026-10-31T07:11:54Z",
@@ -50448,14 +50453,14 @@
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128169688/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F435101832-44100-2-56c80396ce26e.m4a",
         "at": "2026-10-27T10:34:56Z",
         "t": "راهنمای نگهداری برنج ایرانی؛ چطور برنج را تازه و سالم نگه داریم؟ | رادیو دردانه"
-      },
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/128168822/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F435100746-44100-2-95fd746259f15.m4a",
-        "at": "2026-10-27T10:25:08Z",
-        "t": "طرز پخت برنج ایرانی؛ کته یا آبکش؟ فوت‌وفن برنج دانه‌دانه | رادیو دردانه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-31T09:23:44Z",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l53",
+        "title": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه"
+      },
       {
         "at": "2026-10-31T07:11:54Z",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l90",
@@ -50465,11 +50470,6 @@
         "at": "2026-10-29T13:44:52Z",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l18",
         "title": "برنج دودی چیست و چه تفاوتی با برنج معمولی دارد؟ | رادیو دردانه"
-      },
-      {
-        "at": "2026-10-28T10:16:38Z",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8gdb",
-        "title": "برنج نو بهتر است یا برنج کهنه؟ تفاوت عطر، پخت و کیفیت | رادیو دردانه"
       }
     ],
     "recent_30d": [
@@ -50484,7 +50484,7 @@
       0,
       0,
       0,
-      10
+      11
     ],
     "status": "active"
   },

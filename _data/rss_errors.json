@@ -20,16 +20,12 @@
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
   },
   "archgap-padkst-mamari-aark-gp": {
-    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
   "baehsan": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
-  },
-  "baigani-ha-padkst-mhndsi-snaia": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://iien.ir/category/podcast/feed/"
   },
   "baigani-ha-sda": {
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
