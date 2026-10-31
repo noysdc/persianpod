@@ -15,10 +15,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
-  "aapartaid-jnsiti": {
-    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://podcast.thermmedia.com/feed/podcast/gender-apartheid/"
-  },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
@@ -30,6 +26,10 @@
   "baehsan": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
+  },
+  "baigani-ha-padkst-mhndsi-snaia": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://iien.ir/category/podcast/feed/"
   },
   "baigani-ha-sda": {
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
@@ -99,10 +99,6 @@
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
-  "podcast-aaoa": {
-    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://podcast.thermmedia.com/feed/podcast/avapodcast/"
-  },
   "podcast-fotbal-lb": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podkadeh.cloud/podcastxml/footballlab.xml"
@@ -122,6 +118,10 @@
   "pzhoak-mahor": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/pejvakemahoor/feed/"
+  },
+  "radio-hzar-o-ik-shb": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
+    "rss": "http://hezaryekshab.ir/Files/rss-feed.xml"
   },
   "radio-jhani-adontist": {
     "error": "ValueError: no items in feed",
