@@ -48076,20 +48076,25 @@
   },
   "podcast-sndogh": {
     "avg_gap_days": 0.0,
-    "avg_length": 36,
-    "episodes": 2,
-    "eps_365": 2,
-    "eps_90": 2,
+    "avg_length": 51,
+    "episodes": 3,
+    "eps_365": 3,
+    "eps_90": 3,
     "first_at": "2026-10-31",
     "first_year": 1405,
     "last": "1405/08/09",
-    "last_at": "2026-10-31T13:16:01Z",
-    "last_link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/61293f5c-b2ec-4d49-8ede-da99b5d585cf/play.mp3",
-    "last_title": "پادکست صندوق - قسمت دوم: ساختار قطعات موسیقی",
-    "max_length": 55,
-    "median_length": 36,
+    "last_at": "2026-10-31T13:34:16Z",
+    "last_link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/e94bf476-dbe9-4998-a04a-2823f1a05c86/play.mp3",
+    "last_title": "پادکست صندوق - قسمت سوم: سبک‌های موسیقی مدرن (بخش اول)",
+    "max_length": 82,
+    "median_length": 55,
     "min_length": 17,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/e94bf476-dbe9-4998-a04a-2823f1a05c86/play.mp3",
+        "at": "2026-10-31T13:34:16Z",
+        "t": "پادکست صندوق - قسمت سوم: سبک‌های موسیقی مدرن (بخش اول)"
+      },
       {
         "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/61293f5c-b2ec-4d49-8ede-da99b5d585cf/play.mp3",
         "at": "2026-10-31T13:16:01Z",
@@ -48102,6 +48107,11 @@
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-31T13:34:16Z",
+        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/e94bf476-dbe9-4998-a04a-2823f1a05c86/play.mp3",
+        "title": "پادکست صندوق - قسمت سوم: سبک‌های موسیقی مدرن (بخش اول)"
+      },
       {
         "at": "2026-10-31T13:16:01Z",
         "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/61293f5c-b2ec-4d49-8ede-da99b5d585cf/play.mp3",
@@ -48125,7 +48135,7 @@
       0,
       0,
       0,
-      2
+      3
     ],
     "status": "active"
   },
