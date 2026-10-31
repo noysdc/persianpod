@@ -2056,8 +2056,8 @@
       4,
       0,
       1,
-      2,
-      2,
+      3,
+      1,
       0,
       0,
       0,
@@ -2250,20 +2250,25 @@
   },
   "aaroyh-srpasi": {
     "avg_gap_days": 1.4,
-    "avg_length": 7,
-    "episodes": 82,
-    "eps_365": 82,
-    "eps_90": 55,
+    "avg_length": 8,
+    "episodes": 83,
+    "eps_365": 83,
+    "eps_90": 56,
     "first_at": "2026-07-06",
     "first_year": 1405,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T19:47:07Z",
-    "last_link": "https://www.spreaker.com/episode/padkst-zndgy-antkhab-shdh-zndgyt-rw-az-nw-antkhab-kn--76008849",
-    "last_title": "پادکست زندگی انتخاب‌شده | زندگیت رو از نو انتخاب کن",
-    "max_length": 23,
+    "last": "1405/08/09",
+    "last_at": "2026-10-31T12:56:24Z",
+    "last_link": "https://www.spreaker.com/episode/padkst-zndgy-antkhab-shdh-ayn-bar-khwdt-rw-ja-ndhar--76098959",
+    "last_title": "پادکست زندگی انتخاب‌شده | این بار خودت رو جا نذار",
+    "max_length": 41,
     "median_length": 7,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76098959/c77011418aa7bd5d18dc1cde64.mp3",
+        "at": "2026-10-31T12:56:24Z",
+        "t": "پادکست زندگی انتخاب‌شده | این بار خودت رو جا نذار"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76008849/810d254ab3bafc17b8c5f92391.mp3",
         "at": "2026-10-26T19:47:07Z",
@@ -2298,14 +2303,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75458272/6e5b2744b0b519d17e3603a38a.mp3",
         "at": "2026-09-30T11:31:00Z",
         "t": "موفقیت اشتباه | بدون تماشاچی، چه چیزی رو انتخاب می‌کنی؟"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75458312/ffd384482da63182e80ecde125.mp3",
-        "at": "2026-09-28T12:29:00Z",
-        "t": "موفقیت اشتباه | قفس طلایی؛ وقتی همه می‌گن خوش به حالت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-31T12:56:24Z",
+        "link": "https://www.spreaker.com/episode/padkst-zndgy-antkhab-shdh-ayn-bar-khwdt-rw-ja-ndhar--76098959",
+        "title": "پادکست زندگی انتخاب‌شده | این بار خودت رو جا نذار"
+      },
       {
         "at": "2026-10-26T19:47:07Z",
         "link": "https://www.spreaker.com/episode/padkst-zndgy-antkhab-shdh-zndgyt-rw-az-nw-antkhab-kn--76008849",
@@ -2315,11 +2320,6 @@
         "at": "2026-10-17T14:01:02Z",
         "link": "https://www.spreaker.com/episode/nqth-y-bazgsht-apyzwd-4--75837747",
         "title": "نقطه‌ی بازگشت | اپیزود 4"
-      },
-      {
-        "at": "2026-10-16T13:58:54Z",
-        "link": "https://www.spreaker.com/episode/nqth-y-bazgsht-apyzwd-3--75826254",
-        "title": "نقطه‌ی بازگشت | اپیزود 3"
       }
     ],
     "recent_30d": [
@@ -2332,9 +2332,9 @@
       0,
       0,
       27,
-      33,
-      16,
-      6
+      34,
+      15,
+      7
     ],
     "status": "active"
   },
@@ -3398,8 +3398,8 @@
       }
     ],
     "recent_30d": [
-      0,
-      4,
+      1,
+      3,
       0,
       0,
       0,
@@ -22295,8 +22295,8 @@
     ],
     "recent_30d": [
       4,
-      3,
-      3,
+      4,
+      2,
       3,
       0,
       0,
@@ -24183,6 +24183,96 @@
       0
     ],
     "status": "inactive"
+  },
+  "khdahafz-aafrigha": {
+    "avg_gap_days": 99.7,
+    "avg_length": 34,
+    "episodes": 29,
+    "eps_365": 4,
+    "eps_90": 1,
+    "first_at": "2022-07-07",
+    "first_year": 1401,
+    "last": "1405/06/07",
+    "last_at": "2026-08-29T12:05:21Z",
+    "last_link": "https://www.spreaker.com/episode/khdahafz-afryqa-qsmt-byst-w-nhm--74746194",
+    "last_title": "خداحافظ آفریقا: قسمت بیست و نهم",
+    "max_length": 87,
+    "median_length": 32,
+    "min_length": 23,
+    "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74746194/file.mp3",
+        "at": "2026-08-29T12:05:21Z",
+        "t": "خداحافظ آفریقا: قسمت بیست و نهم"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72224315/audio.mp3",
+        "at": "2026-05-29T10:25:51Z",
+        "t": "خداحافظ آفریقا: قسمت بیست و هشتم"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72204855/audio.mp3",
+        "at": "2025-12-12T09:44:53Z",
+        "t": "خداحافظ آفریقا: قسمت بیست و هفتم"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72204880/audio.mp3",
+        "at": "2025-11-02T17:08:37Z",
+        "t": "خداحافظ آفریقا: قسمت بیست و ششم - اهلی سازی گاو"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72204892/audio.mp3",
+        "at": "2025-10-05T13:27:07Z",
+        "t": "خداحافظ آفریقا: قسمت بیست و پنجم - رازهای جمجمه چینی"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72204890/audio.mp3",
+        "at": "2025-08-29T19:09:30Z",
+        "t": "خداحافظ آفریقا: قسمت بیست و چهارم"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72204904/audio.mp3",
+        "at": "2025-06-27T18:01:47Z",
+        "t": "خداحافظ آفریقا: قسمت بیست و سوم"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72204882/audio.mp3",
+        "at": "2025-06-06T16:37:26Z",
+        "t": "خداحافظ آفریقا: قسمت بیست و دوم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-08-29T12:05:21Z",
+        "link": "https://www.spreaker.com/episode/khdahafz-afryqa-qsmt-byst-w-nhm--74746194",
+        "title": "خداحافظ آفریقا: قسمت بیست و نهم"
+      },
+      {
+        "at": "2026-05-29T10:25:51Z",
+        "link": "https://www.spreaker.com/episode/khdahafz-afryqa-qsmt-byst-w-hshtm--72224315",
+        "title": "خداحافظ آفریقا: قسمت بیست و هشتم"
+      },
+      {
+        "at": "2025-12-12T09:44:53Z",
+        "link": "https://www.spreaker.com/episode/khdahafz-afryqa-qsmt-byst-w-hftm--72204855",
+        "title": "خداحافظ آفریقا: قسمت بیست و هفتم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "status": "active"
   },
   "khlash-i-ktab-hai-khob": {
     "avg_gap_days": 48.9,
@@ -32186,19 +32276,24 @@
   "mjmoah-i-rman-hai-jnaii-o-trsnak": {
     "avg_gap_days": 2.9,
     "avg_length": 29,
-    "episodes": 147,
-    "eps_365": 124,
-    "eps_90": 51,
+    "episodes": 148,
+    "eps_365": 125,
+    "eps_90": 52,
     "first_at": "2025-08-07",
     "first_year": 1404,
-    "last": "1405/08/08",
-    "last_at": "2026-10-30T06:57:56Z",
-    "last_link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-byst-w-yk--76081420",
-    "last_title": "رمان جنایی آدم‌برفی-بخش بیست و یک",
+    "last": "1405/08/09",
+    "last_at": "2026-10-31T13:24:51Z",
+    "last_link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-byst-w-dw--76098882",
+    "last_title": "رمان جنایی آدم‌برفی-بخش بیست و دو",
     "max_length": 59,
-    "median_length": 40,
+    "median_length": 39,
     "min_length": 11,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76098882/utf_8_b_2kfyr9mfinio2lhzgduminuy27iubxaz.mp3",
+        "at": "2026-10-31T13:24:51Z",
+        "t": "رمان جنایی آدم‌برفی-بخش بیست و دو"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76081420/utf_8_b_2kfyr9mfinio2lhzgduminuy27eubxaz.mp3",
         "at": "2026-10-30T06:57:56Z",
@@ -32233,14 +32328,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75935769/utf_8_b_2kfyr9mfinio2lhzgduminux27uglm1wmw.mp3",
         "at": "2026-10-23T08:35:36Z",
         "t": "رمان جنایی آدم‌برفی-بخش پانزدهم"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75928547/utf_8_b_2kfyr9mfinio2lhzgduminux27qglm1wmw.mp3",
-        "at": "2026-10-22T20:20:39Z",
-        "t": "رمان جنایی آدم‌برفی-بخش چهاردهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-31T13:24:51Z",
+        "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-byst-w-dw--76098882",
+        "title": "رمان جنایی آدم‌برفی-بخش بیست و دو"
+      },
       {
         "at": "2026-10-30T06:57:56Z",
         "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-byst-w-yk--76081420",
@@ -32250,11 +32345,6 @@
         "at": "2026-10-28T08:34:52Z",
         "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-bystm--76045999",
         "title": "رمان جنایی آدم‌برفی-بخش بیستم"
-      },
-      {
-        "at": "2026-10-26T20:39:43Z",
-        "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-nwzdhm--76009222",
-        "title": "رمان جنایی آدم‌برفی-بخش نوزدهم"
       }
     ],
     "recent_30d": [
@@ -32269,7 +32359,7 @@
       18,
       15,
       9,
-      27
+      28
     ],
     "status": "active"
   },
@@ -32440,8 +32530,8 @@
     "recent_30d": [
       0,
       0,
-      20,
-      12,
+      22,
+      10,
       0,
       0,
       6,
@@ -35643,7 +35733,7 @@
     "avg_gap_days": 0.2,
     "avg_length": 8,
     "episodes": 46,
-    "eps_365": 46,
+    "eps_365": 45,
     "eps_90": 0,
     "first_at": "2025-10-31",
     "first_year": 1404,
@@ -36628,7 +36718,7 @@
     "avg_gap_days": 7.3,
     "avg_length": 10,
     "episodes": 106,
-    "eps_365": 49,
+    "eps_365": 48,
     "eps_90": 7,
     "first_at": "2024-10-17",
     "first_year": 1403,
@@ -37864,8 +37954,8 @@
       4,
       0,
       1,
-      2,
-      2,
+      3,
+      1,
       0,
       0,
       0,
@@ -38588,21 +38678,26 @@
     "status": "active"
   },
   "podcast-astorh-shnasi-thot": {
-    "avg_gap_days": 9.6,
-    "avg_length": 47,
-    "episodes": 176,
-    "eps_365": 38,
-    "eps_90": 12,
+    "avg_gap_days": 9.5,
+    "avg_length": 46,
+    "episodes": 177,
+    "eps_365": 39,
+    "eps_90": 13,
     "first_at": "2024-04-12",
     "first_year": 1403,
-    "last": "1405/08/03",
-    "last_at": "2026-10-25T13:10:42Z",
+    "last": "1405/08/09",
+    "last_at": "2026-10-31T12:17:19Z",
     "last_link": "https://thothpodcast.com/",
-    "last_title": "اساطیر روم باستان - قسمت اول",
+    "last_title": "خانه ای تازه برای تحوت",
     "max_length": 90,
     "median_length": 39,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6ae5dc4f497ef148b854d5c1/media.mp3",
+        "at": "2026-10-31T12:17:19Z",
+        "t": "خانه ای تازه برای تحوت"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6addffd3296f30f8e3930c8b/media.mp3",
         "at": "2026-10-25T13:10:42Z",
@@ -38637,14 +38732,14 @@
         "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6a9d1553d024784c991defc5/media.mp3",
         "at": "2026-09-06T07:25:06Z",
         "t": "فصل پنجم - اساطیر هند - رامایانا : پیش بینی 4"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6a847747a835875d37464c02/media.mp3",
-        "at": "2026-08-19T08:00:00Z",
-        "t": "تاریخ جادوگری - جادوی قرن جدید"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-31T12:17:19Z",
+        "link": "https://thothpodcast.com/",
+        "title": "خانه ای تازه برای تحوت"
+      },
       {
         "at": "2026-10-25T13:10:42Z",
         "link": "https://thothpodcast.com/",
@@ -38654,11 +38749,6 @@
         "at": "2026-10-18T16:07:16Z",
         "link": "https://thothpodcast.com/",
         "title": "تاریخ جادوگری - قسمت پایانی - جادو در سینما"
-      },
-      {
-        "at": "2026-10-11T14:23:39Z",
-        "link": "https://thothpodcast.com/",
-        "title": "فصل پنجم - اساطیر هند - رامایانا : نجات 3"
       }
     ],
     "recent_30d": [
@@ -38673,7 +38763,7 @@
       5,
       5,
       4,
-      3
+      4
     ],
     "status": "active"
   },
@@ -39832,8 +39922,8 @@
       2,
       0,
       1,
-      0,
-      1
+      1,
+      0
     ],
     "status": "active"
   },
@@ -41165,14 +41255,14 @@
       }
     ],
     "recent_30d": [
-      3,
+      2,
       1,
       0,
       1,
       0,
       0,
-      0,
-      3,
+      1,
+      2,
       1,
       1,
       2,
@@ -41799,8 +41889,8 @@
       0,
       0,
       0,
-      0,
-      2,
+      1,
+      1,
       0,
       0,
       0
@@ -43144,8 +43234,8 @@
       0,
       0,
       2,
-      5,
       6,
+      5,
       5
     ],
     "status": "active"
@@ -46718,14 +46808,14 @@
       }
     ],
     "recent_30d": [
-      8,
+      7,
       8,
       0,
       4,
       0,
       0,
-      0,
-      10,
+      2,
+      8,
       7,
       5,
       8,
@@ -47166,8 +47256,8 @@
       }
     ],
     "recent_30d": [
-      3,
-      5,
+      4,
+      4,
       0,
       3,
       0,
@@ -47985,94 +48075,93 @@
     "status": "inactive"
   },
   "podcast-sndogh": {
-    "avg_gap_days": 89.3,
-    "avg_length": 61,
-    "episodes": 59,
-    "eps_365": 4,
-    "eps_90": 1,
+    "avg_length": 63,
+    "episodes": 28,
+    "eps_365": 0,
+    "eps_90": 0,
     "first_at": "2019-06-14",
     "first_year": 1398,
-    "last": "1405/06/09",
-    "last_at": "2026-08-31T02:30:00Z",
-    "last_link": "https://theboxband.ir/sandogh/",
-    "last_title": "پادکست صندوق - قسمت 57: Maneskin",
-    "max_length": 133,
-    "median_length": 62,
+    "last": "1402/02/03",
+    "last_at": "2023-04-23T01:00:42Z",
+    "last_link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/ee8f69cf-5d3c-4c46-800d-b1e40fd12b52/play.mp3",
+    "last_title": "پادکست صندوق - قسمت 28: متالیکا، هفتاد و دو فصل",
+    "max_length": 128,
+    "median_length": 61,
     "min_length": 2,
     "play": [
       {
-        "a": "https://sphinx.acast.com/p/open/s/623de597dc5cd9001589d376/e/6a927a2153508d8b54ec3ed2/media.mp3",
-        "at": "2026-08-31T02:30:00Z",
-        "t": "پادکست صندوق - قسمت 57: Maneskin"
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/ee8f69cf-5d3c-4c46-800d-b1e40fd12b52/play.mp3",
+        "at": "2023-04-23T01:00:42Z",
+        "t": "پادکست صندوق - قسمت 28: متالیکا، هفتاد و دو فصل"
       },
       {
-        "a": "https://sphinx.acast.com/p/open/s/623de597dc5cd9001589d376/e/6a5a76adf782764c4c6fcf5b/media.mp3",
-        "at": "2026-07-18T02:30:00Z",
-        "t": "پادکست صندوق - قسمت 56: موسیقی فولک بالکان"
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/36934b19-49bb-4776-939c-ff87ba5590ab/play.mp3",
+        "at": "2023-01-15T02:00:00Z",
+        "t": "پادکست صندوق - قسمت 25: خداحافظ جِف بِک"
       },
       {
-        "a": "https://sphinx.acast.com/p/open/s/623de597dc5cd9001589d376/e/6a22d73f1ddbe06b3a4978f4/media.mp3",
-        "at": "2026-06-06T02:30:00Z",
-        "t": "پادکست صندوق - قسمت 55: Angine de Poitrine"
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/abd7c7e1-1adc-470a-82d5-47095e309235/play.mp3",
+        "at": "2023-01-03T01:30:43Z",
+        "t": "پادکست صندوق - قسمت 24: موسیقی در اتحاد جماهیر شوروی"
       },
       {
-        "a": "https://sphinx.acast.com/p/open/s/623de597dc5cd9001589d376/e/693339711d60032496b91ea1/media.mp3",
-        "at": "2025-12-06T02:00:00Z",
-        "t": "پادکست صندوق - قسمت 54: تیلور سوئیفت"
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/252a74d6-59b6-4337-98e2-7166331f261a/play.mp3",
+        "at": "2022-12-10T15:14:56Z",
+        "t": "پادکست صندوق - قسمت 23: موسیقی در آلمان نازی"
       },
       {
-        "a": "https://sphinx.acast.com/p/open/s/623de597dc5cd9001589d376/e/68cd8f0a2cf15c8db0200666/media.mp3",
-        "at": "2025-09-20T02:00:00Z",
-        "t": "پادکست صندوق - قسمت 53: سوزان چیانی، الهه سینتی‌سایزر"
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/d550c4c8-9cb9-4c89-83ee-4af313cf93c5/play.mp3",
+        "at": "2022-10-27T06:58:41Z",
+        "t": "پادکست صندوق - اپیزود پلاس: وسطِ بازی و وسط بازی"
       },
       {
-        "a": "https://sphinx.acast.com/p/open/s/623de597dc5cd9001589d376/e/688f185d0bb12601f06417d4/media.mp3",
-        "at": "2025-08-04T02:00:00Z",
-        "t": "پادکست صندوق - قسمت 52: آزی آزبورن، شاهزاده تاریکی"
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/8a1de99e-3b32-4385-b4ec-754b635b1ef4/play.mp3",
+        "at": "2022-09-13T20:36:23Z",
+        "t": "پادکست صندوق - قسمت 22: کلوب بیست و هفت ساله‌ها"
       },
       {
-        "a": "https://sphinx.acast.com/p/open/s/623de597dc5cd9001589d376/e/6861a3965670d86508b23975/media.mp3",
-        "at": "2025-06-30T02:00:00Z",
-        "t": "پادکست صندوق - قسمت 51: بهترین گیتاریست جهان"
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/cd433d93-420f-4cf8-9696-5af5a911f6ae/play.mp3",
+        "at": "2022-08-09T14:45:36Z",
+        "t": "پادکست صندوق - قسمت 21: سامانتا فیش"
       },
       {
-        "a": "https://sphinx.acast.com/p/open/s/623de597dc5cd9001589d376/e/681cf41d8b1f3232bc298aaf/media.mp3",
-        "at": "2025-05-10T02:00:00Z",
-        "t": "پادکست صندوق - قسمت 50: Khruangbin"
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/656a7e72-498b-4b91-a002-7f1aa6bcf46e/play.mp3",
+        "at": "2022-07-09T15:22:00Z",
+        "t": "پادکست صندوق - قسمت 20: Swallow The Sun"
       }
     ],
     "recent": [
       {
-        "at": "2026-08-31T02:30:00Z",
-        "link": "https://theboxband.ir/sandogh/",
-        "title": "پادکست صندوق - قسمت 57: Maneskin"
+        "at": "2023-04-23T01:00:42Z",
+        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/ee8f69cf-5d3c-4c46-800d-b1e40fd12b52/play.mp3",
+        "title": "پادکست صندوق - قسمت 28: متالیکا، هفتاد و دو فصل"
       },
       {
-        "at": "2026-07-18T02:30:00Z",
-        "link": "https://theboxband.ir/sandogh/",
-        "title": "پادکست صندوق - قسمت 56: موسیقی فولک بالکان"
+        "at": "2023-01-15T02:00:00Z",
+        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/36934b19-49bb-4776-939c-ff87ba5590ab/play.mp3",
+        "title": "پادکست صندوق - قسمت 25: خداحافظ جِف بِک"
       },
       {
-        "at": "2026-06-06T02:30:00Z",
-        "link": "https://shows.acast.com/sandogh/episodes/angine-de-poitrine",
-        "title": "پادکست صندوق - قسمت 55: Angine de Poitrine"
+        "at": "2023-01-03T01:30:43Z",
+        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/abd7c7e1-1adc-470a-82d5-47095e309235/play.mp3",
+        "title": "پادکست صندوق - قسمت 24: موسیقی در اتحاد جماهیر شوروی"
       }
     ],
     "recent_30d": [
       0,
-      1,
       0,
       0,
       0,
       0,
       0,
-      1,
-      1,
-      1,
+      0,
+      0,
+      0,
+      0,
       0,
       0
     ],
-    "status": "active"
+    "status": "inactive"
   },
   "podcast-srzmin-mosighi-airan": {
     "avg_length": 12,
@@ -50310,20 +50399,25 @@
   },
   "radio-dordane": {
     "avg_gap_days": 0.3,
-    "avg_length": 18,
-    "episodes": 10,
-    "eps_365": 10,
-    "eps_90": 10,
+    "avg_length": 19,
+    "episodes": 11,
+    "eps_365": 11,
+    "eps_90": 11,
     "first_at": "2026-10-27",
     "first_year": 1405,
     "last": "1405/08/09",
-    "last_at": "2026-10-31T07:11:54Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l90",
-    "last_title": "تفاوت برنج کشت اول و کشت دوم چیست؟ مقایسه عطر، کیفیت و قیمت | رادیو دردانه",
+    "last_at": "2026-10-31T09:23:44Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l53",
+    "last_title": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه",
     "max_length": 25,
     "median_length": 21,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1193981e4/podcast/play/128258659/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435212182-44100-2-2a8f19b486097.m4a",
+        "at": "2026-10-31T09:23:44Z",
+        "t": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه"
+      },
       {
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128258784/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435212300-44100-2-742e421307e42.m4a",
         "at": "2026-10-31T07:11:54Z",
@@ -50358,14 +50452,14 @@
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128169688/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F435101832-44100-2-56c80396ce26e.m4a",
         "at": "2026-10-27T10:34:56Z",
         "t": "راهنمای نگهداری برنج ایرانی؛ چطور برنج را تازه و سالم نگه داریم؟ | رادیو دردانه"
-      },
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/128168822/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F435100746-44100-2-95fd746259f15.m4a",
-        "at": "2026-10-27T10:25:08Z",
-        "t": "طرز پخت برنج ایرانی؛ کته یا آبکش؟ فوت‌وفن برنج دانه‌دانه | رادیو دردانه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-31T09:23:44Z",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l53",
+        "title": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه"
+      },
       {
         "at": "2026-10-31T07:11:54Z",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l90",
@@ -50375,11 +50469,6 @@
         "at": "2026-10-29T13:44:52Z",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l18",
         "title": "برنج دودی چیست و چه تفاوتی با برنج معمولی دارد؟ | رادیو دردانه"
-      },
-      {
-        "at": "2026-10-28T10:16:38Z",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8gdb",
-        "title": "برنج نو بهتر است یا برنج کهنه؟ تفاوت عطر، پخت و کیفیت | رادیو دردانه"
       }
     ],
     "recent_30d": [
@@ -50394,7 +50483,7 @@
       0,
       0,
       0,
-      10
+      11
     ],
     "status": "active"
   },
@@ -51811,7 +51900,7 @@
       }
     ],
     "recent_30d": [
-      10,
+      8,
       7,
       8,
       9,
@@ -52613,7 +52702,7 @@
       }
     ],
     "recent_30d": [
-      3,
+      2,
       6,
       0,
       2,
@@ -56288,7 +56377,7 @@
     "avg_gap_days": 4.2,
     "avg_length": 21,
     "episodes": 486,
-    "eps_365": 87,
+    "eps_365": 86,
     "eps_90": 26,
     "first_at": "2024-09-02",
     "first_year": 1403,
@@ -56360,9 +56449,9 @@
     ],
     "recent_30d": [
       22,
-      12,
-      5,
-      19,
+      11,
+      6,
+      18,
       0,
       0,
       0,
@@ -56814,8 +56903,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       4,
       0,
       0,
@@ -56824,21 +56913,26 @@
     "status": "active"
   },
   "sfir-sda": {
-    "avg_gap_days": 15.5,
+    "avg_gap_days": 15.2,
     "avg_length": 13,
-    "episodes": 59,
-    "eps_365": 24,
+    "episodes": 60,
+    "eps_365": 25,
     "eps_90": 12,
     "first_at": "2025-03-02",
     "first_year": 1403,
-    "last": "1405/08/02",
-    "last_at": "2026-10-24T12:16:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql434",
-    "last_title": "افسانه اسب باوفا | قسمت دوم",
+    "last": "1405/08/09",
+    "last_at": "2026-10-31T12:34:18Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3rfqiq",
+    "last_title": "قصه: هفت خواهر و یک خواهر",
     "max_length": 33,
-    "median_length": 8,
+    "median_length": 9,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/101e050f4/podcast/play/128493594/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F5ee61303-77cb-e74f-5e96-78d4930a3508.mp3",
+        "at": "2026-10-31T12:34:18Z",
+        "t": "قصه: هفت خواهر و یک خواهر"
+      },
       {
         "a": "https://anchor.fm/s/101e050f4/podcast/play/127618596/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-17%2F3295f5c5-f7e5-a8d1-bf36-2dd687de451f.mp3",
         "at": "2026-10-24T12:16:00Z",
@@ -56873,14 +56967,14 @@
         "a": "https://anchor.fm/s/101e050f4/podcast/play/125263254/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-6%2F95dc9f63-6033-c5cb-6f6d-0b5b30d09d6a.mp3",
         "at": "2026-09-06T02:49:15Z",
         "t": "پادکست افسانه های ایرانی این قسمت :هفت خواهر"
-      },
-      {
-        "a": "https://anchor.fm/s/101e050f4/podcast/play/124897400/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-29%2Fbd5997bb-a789-c678-c08b-8d4a1561dc3a.mp3",
-        "at": "2026-08-29T12:05:15Z",
-        "t": "پادکست افسانه های ایرانی این قسمت :هلِلوم نلِلوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-31T12:34:18Z",
+        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3rfqiq",
+        "title": "قصه: هفت خواهر و یک خواهر"
+      },
       {
         "at": "2026-10-24T12:16:00Z",
         "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql434",
@@ -56890,26 +56984,21 @@
         "at": "2026-10-17T12:28:58Z",
         "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql418",
         "title": "افسانه اسب باوفا | قسمت اول"
-      },
-      {
-        "at": "2026-10-10T13:11:37Z",
-        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3q9tbs",
-        "title": "افسانه‌ی شیرزاد | قسمت دوم"
       }
     ],
     "recent_30d": [
       4,
-      5,
+      6,
+      0,
+      0,
+      0,
+      0,
       1,
       0,
-      0,
-      0,
       1,
-      0,
-      0,
-      5,
+      4,
       3,
-      4
+      5
     ],
     "status": "active"
   },
@@ -57883,7 +57972,7 @@
       }
     ],
     "recent_30d": [
-      18,
+      17,
       17,
       14,
       15,
@@ -59260,8 +59349,8 @@
       0,
       0,
       0,
-      5,
-      1,
+      6,
+      0,
       2,
       1,
       0
@@ -60053,7 +60142,7 @@
       }
     ],
     "recent_30d": [
-      6,
+      5,
       6,
       0,
       0,
@@ -61394,8 +61483,8 @@
     ],
     "recent_30d": [
       107,
-      117,
-      30,
+      118,
+      29,
       96,
       0,
       0,
@@ -61938,8 +62027,8 @@
       3,
       4,
       4,
-      4,
       5,
+      4,
       4
     ],
     "status": "active"
@@ -62823,7 +62912,7 @@
       }
     ],
     "recent_30d": [
-      31,
+      29,
       23,
       19,
       29,
@@ -64885,8 +64974,8 @@
       2,
       1,
       2,
-      4,
       5,
+      4,
       4,
       4,
       5,
