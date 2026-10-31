@@ -14,7 +14,7 @@ city: "تهران"
 start_year: 1405
 episode_count: 100
 frequency: "هفتگی"
-logo: "/assets/img/podcasts/sayeroshan.webp"
+logo: "/assets/img/podcasts/sayeroshan-podcast.webp"
 castbox_id: "7322175"
 castbox_channel: "https://castbox.fm/channel/id7322175?country=ir"
 rss: "https://media.rss.com/sayehroshan/feed.xml"
