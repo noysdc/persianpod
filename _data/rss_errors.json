@@ -31,6 +31,10 @@
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://musiceiranian.ir/type/audio/feed"
   },
+  "dairh-dastan": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmismooeraoigjuiteua2"
+  },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
@@ -55,25 +59,13 @@
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
   },
-  "hafz-khoani-bh-roait-ahmd-shamlo": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
-    "rss": "https://shenoto.net/service/api/feed/HAfEZ-e-SHAMLU"
-  },
   "hnr-jng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://namlik.me/rss/318"
   },
-  "hrf-hsab": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
-    "rss": "https://shenoto.net/service/api/feed/harf-e-hesab"
-  },
   "hs-khob": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.pod.co/hese-khob"
-  },
-  "kafh-bzrgsali": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
-    "rss": "https://shenoto.net/service/api/feed/adultclub"
   },
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
