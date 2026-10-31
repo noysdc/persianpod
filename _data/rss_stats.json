@@ -19831,8 +19831,8 @@
       6,
       2,
       9,
-      9,
-      12,
+      10,
+      11,
       6,
       4,
       3,
@@ -36894,96 +36894,6 @@
     ],
     "status": "active"
   },
-  "peydayesh": {
-    "avg_gap_days": 61.2,
-    "avg_length": 37,
-    "episodes": 14,
-    "eps_365": 5,
-    "eps_90": 3,
-    "first_at": "2021-03-21",
-    "first_year": 1400,
-    "last": "1405/06/19",
-    "last_at": "2026-09-10T09:41:32Z",
-    "last_link": "https://s3.castbox.fm/8f/2d/f1/440c064027a60aabd04b2d53fa.mp3",
-    "last_title": "آنسوی آگاهی 5 - ایستادگی در فقدان",
-    "max_length": 84,
-    "median_length": 31,
-    "min_length": 10,
-    "play": [
-      {
-        "a": "https://s3.castbox.fm/8f/2d/f1/440c064027a60aabd04b2d53fa.mp3",
-        "at": "2026-09-10T09:41:32Z",
-        "t": "آنسوی آگاهی 5 - ایستادگی در فقدان"
-      },
-      {
-        "a": "https://s3.castbox.fm/b6/25/0d/2ceac74d6885f4bb15793d22c3.mp3",
-        "at": "2026-08-25T20:14:16Z",
-        "t": "آنسوی آگاهی 4 - جامعه سالم"
-      },
-      {
-        "a": "https://s3.castbox.fm/6f/79/01/b452894cacbde1c80a14a15f64.mp3",
-        "at": "2026-08-07T06:47:00Z",
-        "t": "آنسوی آگاهی 3 - اصل و انحراف"
-      },
-      {
-        "a": "https://s3.castbox.fm/08/48/71/5f06b644b6baddc8d1143dd3a5.mp3",
-        "at": "2026-07-27T16:23:36Z",
-        "t": "آنسوی آگاهی 2 - تله‌های ذهنی"
-      },
-      {
-        "a": "https://s3.castbox.fm/62/94/7a/cb73a84099a3a6f634283a007e.mp3",
-        "at": "2026-01-07T16:37:33Z",
-        "t": "آنسوی آگاهی 1 - تقلید بدون آگاهی"
-      },
-      {
-        "a": "https://s3.castbox.fm/ae/14/92/44a6c64c18b7cdf7e3dcae1a4c.mp3",
-        "at": "2021-06-21T14:37:07Z",
-        "t": "اپیزود #5 - منبع انگیزه"
-      },
-      {
-        "a": "https://s3.castbox.fm/2e/15/c5/ed28fd4fa0933b0316b2d05843.mp3",
-        "at": "2021-06-08T14:37:00Z",
-        "t": "پژواک #02"
-      },
-      {
-        "a": "https://s3.castbox.fm/72/66/b8/9dd3294fce9bb25445c1b68c15.mp3",
-        "at": "2021-05-31T14:37:00Z",
-        "t": "اپیزود #4 - از راحتی تا رشد"
-      }
-    ],
-    "recent": [
-      {
-        "at": "2026-09-10T09:41:32Z",
-        "link": "https://s3.castbox.fm/8f/2d/f1/440c064027a60aabd04b2d53fa.mp3",
-        "title": "آنسوی آگاهی 5 - ایستادگی در فقدان"
-      },
-      {
-        "at": "2026-08-25T20:14:16Z",
-        "link": "https://s3.castbox.fm/b6/25/0d/2ceac74d6885f4bb15793d22c3.mp3",
-        "title": "آنسوی آگاهی 4 - جامعه سالم"
-      },
-      {
-        "at": "2026-08-07T06:47:00Z",
-        "link": "https://s3.castbox.fm/6f/79/01/b452894cacbde1c80a14a15f64.mp3",
-        "title": "آنسوی آگاهی 3 - اصل و انحراف"
-      }
-    ],
-    "recent_30d": [
-      0,
-      0,
-      1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      1,
-      0
-    ],
-    "status": "active"
-  },
   "peykan-pikan": {
     "avg_length": 25,
     "episodes": 17,
@@ -44933,8 +44843,8 @@
       0,
       0,
       2,
-      3,
       4,
+      3,
       2,
       2,
       1
@@ -47080,8 +46990,8 @@
       7,
       2,
       9,
-      9,
-      12,
+      10,
+      11,
       5,
       2,
       0,
@@ -47170,8 +47080,8 @@
       9,
       2,
       9,
-      9,
-      12,
+      10,
+      11,
       4,
       4,
       3,
@@ -48075,76 +47985,76 @@
     "status": "inactive"
   },
   "podcast-sndogh": {
-    "avg_length": 67,
-    "episodes": 34,
+    "avg_length": 63,
+    "episodes": 41,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2019-06-14",
     "first_year": 1398,
-    "last": "1402/07/16",
-    "last_at": "2023-10-08T02:00:15Z",
-    "last_link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/bd38f17d-09f9-4880-92a4-f7980a91d1f3/play.mp3",
-    "last_title": "پادکست صندوق - قسمت 34: موسیقی بومیان آمریکا، بخش دوم",
+    "last": "1403/04/09",
+    "last_at": "2024-06-29T02:00:15Z",
+    "last_link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/20fbc172-a9c1-4ad3-be5e-50feefb5500d/play.mp3",
+    "last_title": "پادکست صندوق - قسمت 40: اجرای زنده در آثار باستانی",
     "max_length": 134,
     "median_length": 69,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/20fbc172-a9c1-4ad3-be5e-50feefb5500d/play.mp3",
+        "at": "2024-06-29T02:00:15Z",
+        "t": "پادکست صندوق - قسمت 40: اجرای زنده در آثار باستانی"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/4ca64b44-2e87-4ad2-884f-a07feb4a0d25/play.mp3",
+        "at": "2024-04-12T02:00:31Z",
+        "t": "پادکست صندوق - قسمت 38: آه اگر روزی صدای تو"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/be5eb9c8-a559-476b-931e-520923d1aab9/play.mp3",
+        "at": "2024-01-20T02:00:36Z",
+        "t": "پادکست صندوق - قسمت 37: تاریخ دستگاه‌های پخش موسیقی"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/ace9da14-1c0b-4a5f-b8bb-28899a55a804/play.mp3",
+        "at": "2023-12-10T02:00:42Z",
+        "t": "پادکست صندوق - قسمت 36: سینما از موسیقی می‌گوید"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/ce19dad3-ae52-42ce-853c-4bb78e61f003/play.mp3",
+        "at": "2023-11-06T02:00:50Z",
+        "t": "پادکست صندوق - قسمت 35: سه پادشاه بلوز: فردی کینگ"
+      },
       {
         "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/bd38f17d-09f9-4880-92a4-f7980a91d1f3/play.mp3",
         "at": "2023-10-08T02:00:15Z",
         "t": "پادکست صندوق - قسمت 34: موسیقی بومیان آمریکا، بخش دوم"
       },
       {
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/f8b3a35d-0e26-44d7-8876-6a0f3cd17177/play.mp3",
+        "at": "2023-10-02T02:00:24Z",
+        "t": "پادکست صندوق - قسمت 33: موسیقی بومیان آمریکا، بخش اول"
+      },
+      {
         "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/f962c3e5-2e74-4706-b94c-b59cc7cebdd7/play.mp3",
         "at": "2023-09-01T02:00:07Z",
         "t": "پادکست صندوق - قسمت 32: سه پادشاه بلوز: بی.بی کینگ"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/14402b3c-213f-4535-80be-8960aed60143/play.mp3",
-        "at": "2023-08-05T01:30:29Z",
-        "t": "پادکست صندوق - قسمت 31: The Hateful Four"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/259f29e4-edff-44a6-a519-89141e874c5f/play.mp3",
-        "at": "2023-07-02T02:00:36Z",
-        "t": "پادکست صندوق - قسمت 30: سه پادشاه بلوز: آلبرت کینگ"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/ee8f69cf-5d3c-4c46-800d-b1e40fd12b52/play.mp3",
-        "at": "2023-04-23T01:00:42Z",
-        "t": "پادکست صندوق - قسمت 28: متالیکا، هفتاد و دو فصل"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/02772930-7ee0-4d69-a912-29b5a2deeee2/play.mp3",
-        "at": "2023-03-08T02:00:42Z",
-        "t": "پادکست صندوق - قسمت 27: تدریس موسیقی و خلاقیت"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/c7d8bbe2-95c7-45b0-8b2b-dfbe14a2f058/play.mp3",
-        "at": "2023-02-09T02:00:12Z",
-        "t": "پادکست صندوق - قسمت 26: موسیقی در چین کمونیستی"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/36934b19-49bb-4776-939c-ff87ba5590ab/play.mp3",
-        "at": "2023-01-15T02:00:00Z",
-        "t": "پادکست صندوق - قسمت 25: خداحافظ جِف بِک"
       }
     ],
     "recent": [
       {
-        "at": "2023-10-08T02:00:15Z",
-        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/bd38f17d-09f9-4880-92a4-f7980a91d1f3/play.mp3",
-        "title": "پادکست صندوق - قسمت 34: موسیقی بومیان آمریکا، بخش دوم"
+        "at": "2024-06-29T02:00:15Z",
+        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/20fbc172-a9c1-4ad3-be5e-50feefb5500d/play.mp3",
+        "title": "پادکست صندوق - قسمت 40: اجرای زنده در آثار باستانی"
       },
       {
-        "at": "2023-09-01T02:00:07Z",
-        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/f962c3e5-2e74-4706-b94c-b59cc7cebdd7/play.mp3",
-        "title": "پادکست صندوق - قسمت 32: سه پادشاه بلوز: بی.بی کینگ"
+        "at": "2024-04-12T02:00:31Z",
+        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/4ca64b44-2e87-4ad2-884f-a07feb4a0d25/play.mp3",
+        "title": "پادکست صندوق - قسمت 38: آه اگر روزی صدای تو"
       },
       {
-        "at": "2023-08-05T01:30:29Z",
-        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/14402b3c-213f-4535-80be-8960aed60143/play.mp3",
-        "title": "پادکست صندوق - قسمت 31: The Hateful Four"
+        "at": "2024-01-20T02:00:36Z",
+        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/be5eb9c8-a559-476b-931e-520923d1aab9/play.mp3",
+        "title": "پادکست صندوق - قسمت 37: تاریخ دستگاه‌های پخش موسیقی"
       }
     ],
     "recent_30d": [
@@ -48161,7 +48071,7 @@
       0,
       0
     ],
-    "status": "inactive"
+    "status": "active"
   },
   "podcast-srzmin-mosighi-airan": {
     "avg_length": 12,
@@ -63370,6 +63280,96 @@
       0,
       0,
       0,
+      0
+    ],
+    "status": "active"
+  },
+  "ultramind": {
+    "avg_gap_days": 61.2,
+    "avg_length": 37,
+    "episodes": 14,
+    "eps_365": 5,
+    "eps_90": 3,
+    "first_at": "2021-03-21",
+    "first_year": 1400,
+    "last": "1405/06/19",
+    "last_at": "2026-09-10T09:41:32Z",
+    "last_link": "https://s3.castbox.fm/8f/2d/f1/440c064027a60aabd04b2d53fa.mp3",
+    "last_title": "آنسوی آگاهی 5 - ایستادگی در فقدان",
+    "max_length": 84,
+    "median_length": 31,
+    "min_length": 10,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/8f/2d/f1/440c064027a60aabd04b2d53fa.mp3",
+        "at": "2026-09-10T09:41:32Z",
+        "t": "آنسوی آگاهی 5 - ایستادگی در فقدان"
+      },
+      {
+        "a": "https://s3.castbox.fm/b6/25/0d/2ceac74d6885f4bb15793d22c3.mp3",
+        "at": "2026-08-25T20:14:16Z",
+        "t": "آنسوی آگاهی 4 - جامعه سالم"
+      },
+      {
+        "a": "https://s3.castbox.fm/6f/79/01/b452894cacbde1c80a14a15f64.mp3",
+        "at": "2026-08-07T06:47:00Z",
+        "t": "آنسوی آگاهی 3 - اصل و انحراف"
+      },
+      {
+        "a": "https://s3.castbox.fm/08/48/71/5f06b644b6baddc8d1143dd3a5.mp3",
+        "at": "2026-07-27T16:23:36Z",
+        "t": "آنسوی آگاهی 2 - تله‌های ذهنی"
+      },
+      {
+        "a": "https://s3.castbox.fm/62/94/7a/cb73a84099a3a6f634283a007e.mp3",
+        "at": "2026-01-07T16:37:33Z",
+        "t": "آنسوی آگاهی 1 - تقلید بدون آگاهی"
+      },
+      {
+        "a": "https://s3.castbox.fm/ae/14/92/44a6c64c18b7cdf7e3dcae1a4c.mp3",
+        "at": "2021-06-21T14:37:07Z",
+        "t": "اپیزود #5 - منبع انگیزه"
+      },
+      {
+        "a": "https://s3.castbox.fm/2e/15/c5/ed28fd4fa0933b0316b2d05843.mp3",
+        "at": "2021-06-08T14:37:00Z",
+        "t": "پژواک #02"
+      },
+      {
+        "a": "https://s3.castbox.fm/72/66/b8/9dd3294fce9bb25445c1b68c15.mp3",
+        "at": "2021-05-31T14:37:00Z",
+        "t": "اپیزود #4 - از راحتی تا رشد"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-10T09:41:32Z",
+        "link": "https://s3.castbox.fm/8f/2d/f1/440c064027a60aabd04b2d53fa.mp3",
+        "title": "آنسوی آگاهی 5 - ایستادگی در فقدان"
+      },
+      {
+        "at": "2026-08-25T20:14:16Z",
+        "link": "https://s3.castbox.fm/b6/25/0d/2ceac74d6885f4bb15793d22c3.mp3",
+        "title": "آنسوی آگاهی 4 - جامعه سالم"
+      },
+      {
+        "at": "2026-08-07T06:47:00Z",
+        "link": "https://s3.castbox.fm/6f/79/01/b452894cacbde1c80a14a15f64.mp3",
+        "title": "آنسوی آگاهی 3 - اصل و انحراف"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
       0
     ],
     "status": "active"
