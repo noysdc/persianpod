@@ -107,10 +107,6 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://webmasterplus.ir/feed/"
   },
-  "podcast-sndogh": {
-    "error": "ValueError: no items in feed",
-    "rss": "https://feeds.acast.com/public/shows/623de597dc5cd9001589d376"
-  },
   "pzhoak-mahor": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/pejvakemahoor/feed/"
