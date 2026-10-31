@@ -99,6 +99,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podkadeh.cloud/podcastxml/footballlab.xml"
   },
+  "podcast-fotbali-fotbal-trapi": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmirs0ugaxipywzzzcnts"
+  },
   "podcast-khakstri-roan": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.dotcast.org/p/1orxtms6/feed.xml"
