@@ -9,6 +9,7 @@ tags: ["تاریخ", "تاریخ جهان", "تاریخ فرهنگ و تمدن",
 status: "فعال"
 language: "فارسی"
 creator: "سیاوش صفاریان‌پور"
+rss: "https://www.spreaker.com/show/7063548/episodes/feed"
 episode_count: 29
 logo: "/assets/img/podcasts/khdahafz-aafrigha.webp"
 castbox_id: "7440122"
