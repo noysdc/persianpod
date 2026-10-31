@@ -1,37 +1,28 @@
 ## گزارش تأیید و انتقال
 
-- منتقل‌شده از `_drafts/` به `_podcasts/`: **29**
+- منتقل‌شده از `_drafts/` به `_podcasts/`: **20**
 - ردشده (تکراری یا از قبل موجود): 0
-- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **154**
+- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **158**
 
 ### منتقل‌شده
-- `aapartaid-jnsiti.md`
-- `afsanh-hai-khn-parsi.md`
-- `aistgah-hosh-msnoai.md`
-- `astring-kst.md`
-- `bang-bastan.md`
-- `bar-sefr-br-sfr.md`
-- `book-time-i-bok-taim.md`
-- `bors-taim.md`
-- `danshgah-soti-chkidh-mandgar.md`
-- `fza-o-dialktik.md`
-- `green-gate-drichh-sbz.md`
-- `kanal-radio-rahin.md`
-- `klozaap.md`
-- `ktab-hai-soti-jol-aastin.md`
-- `ktabkhoan.md`
-- `lanh-khrgosh.md`
-- `maha.md`
-- `mditishn-farsi-raz-nor.md`
-- `mhdi-akhoan-sals.md`
-- `msnoi-manoi.md`
-- `mtaors.md`
-- `nkth-zist-aamozsh-zist-knkor.md`
-- `ourarchaeology-bastan-shnasi-ma.md`
-- `podcast-hngamh.md`
-- `podcast-hosh-msnoai.md`
-- `podcast-koirhai-airan.md`
-- `podcast-prondh-baz.md`
-- `pzshki-bh-farsi.md`
-- `zhn-hai-nahshiar.md`
+- `ain-zndgi-danmarki.md`
+- `baigani-ha-padkst-mhndsi-snaia.md`
+- `charchrkh.md`
+- `dastan-hai-kotah-farsi.md`
+- `gardeshgari-dar-canada-grdshgri-dr-kanada.md`
+- `ghsh-ghsh.md`
+- `ghsh-hai-mn-o-babam.md`
+- `jlsat-dktr-tosrkani.md`
+- `knkor-ba-mhdi-brati.md`
+- `ktab-mn-pish-az-to.md`
+- `mirim-kh-dashth-bashim.md`
+- `namh-hai-shadabdkht.md`
+- `oghti-nichh-grist.md`
+- `podcast-anso.md`
+- `podcast-danshgah-hiolaha.md`
+- `podcast-hirbd-o-hrms.md`
+- `radio-hzar-o-ik-shb.md`
+- `radio-sitcom-podcast-padkst-radio-sitkam.md`
+- `sdai-mina.md`
+- `shbanh-ha.md`
 

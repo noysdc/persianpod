@@ -16,8 +16,8 @@ pi_id: 6448333
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # قصه های من و بابام
