@@ -1,5 +1,5 @@
 ---
-title: "Radio Sitcom Podcast پادکست رادیو سیتکام"
+title: "پادکست رادیو سیتکام"
 title_en: "Radio Sitcom Podcast"
 slug: "radio-sitcom-podcast-padkst-radio-sitkam"
 description: "رادیو سیتکام یه پادکست کمدی، فلسفی، روانشناسی، جامعه‌شناسی، اجتماعی، تاریخی، جغرافیایی، ادبیاتی، نجومی، بین سیاره‌ای، آموزشی، جنسی، جسمی، روحی، هنری، موسیقیایی، علمی، ورزشی، و حتی پرورشی است..."
