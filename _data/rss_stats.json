@@ -44657,7 +44657,7 @@
       }
     ],
     "recent_30d": [
-      9,
+      8,
       6,
       0,
       2,
@@ -49132,7 +49132,7 @@
       }
     ],
     "recent_30d": [
-      4,
+      3,
       4,
       1,
       1,
@@ -55837,21 +55837,26 @@
     "status": "active"
   },
   "sadeghi-padkst-jnaii-sadghi": {
-    "avg_gap_days": 13.9,
+    "avg_gap_days": 14.0,
     "avg_length": 25,
     "episodes": 50,
-    "eps_365": 10,
-    "eps_90": 6,
-    "first_at": "2024-02-24",
+    "eps_365": 11,
+    "eps_90": 7,
+    "first_at": "2024-03-09",
     "first_year": 1402,
-    "last": "1405/07/24",
-    "last_at": "2026-10-16T14:50:00Z",
-    "last_link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/91.mp3",
-    "last_title": "اپیوزد نود و یک- جنون آنی یا بلوغ؟",
+    "last": "1405/08/09",
+    "last_at": "2026-10-31T16:47:56Z",
+    "last_link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/92.mp3",
+    "last_title": "اپیزود نود و دو ـ دفاع مشروط یا قتل؟",
     "max_length": 47,
     "median_length": 27,
     "min_length": 12,
     "play": [
+      {
+        "a": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/92.mp3",
+        "at": "2026-10-31T16:47:56Z",
+        "t": "اپیزود نود و دو ـ دفاع مشروط یا قتل؟"
+      },
       {
         "a": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/91.mp3",
         "at": "2026-10-16T14:50:00Z",
@@ -55886,14 +55891,14 @@
         "a": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/86.mp3",
         "at": "2026-07-24T04:20:00Z",
         "t": "اپیزود هشتاد و شش ـ یک قتل و کلی راز در گاوداری"
-      },
-      {
-        "a": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/_85.mp3",
-        "at": "2026-07-10T14:56:00Z",
-        "t": "اپیزود هشتاد و پنج ـ خیانتی که به چوبه دار ختم شد"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-31T16:47:56Z",
+        "link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/92.mp3",
+        "title": "اپیزود نود و دو ـ دفاع مشروط یا قتل؟"
+      },
       {
         "at": "2026-10-16T14:50:00Z",
         "link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/91.mp3",
@@ -55903,11 +55908,6 @@
         "at": "2026-10-06T14:53:20Z",
         "link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/90.mp3",
         "title": "اپیزود نود -چه کسی ضربه آخر رو زد؟"
-      },
-      {
-        "at": "2026-09-05T07:32:45Z",
-        "link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/89.mp3",
-        "title": "اپیزود هشتاد و نه ـ خیال یک بوسه‌ی خونین"
       }
     ],
     "recent_30d": [
@@ -55922,7 +55922,7 @@
       2,
       3,
       1,
-      2
+      3
     ],
     "status": "active"
   },
@@ -61402,8 +61402,8 @@
       8,
       80,
       87,
-      100,
-      88,
+      101,
+      87,
       74
     ],
     "status": "active"
