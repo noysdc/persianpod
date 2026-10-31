@@ -50310,20 +50310,25 @@
   },
   "radio-dordane": {
     "avg_gap_days": 0.3,
-    "avg_length": 18,
-    "episodes": 10,
-    "eps_365": 10,
-    "eps_90": 10,
+    "avg_length": 19,
+    "episodes": 11,
+    "eps_365": 11,
+    "eps_90": 11,
     "first_at": "2026-10-27",
     "first_year": 1405,
     "last": "1405/08/09",
-    "last_at": "2026-10-31T07:11:54Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l90",
-    "last_title": "تفاوت برنج کشت اول و کشت دوم چیست؟ مقایسه عطر، کیفیت و قیمت | رادیو دردانه",
+    "last_at": "2026-10-31T09:23:44Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l53",
+    "last_title": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه",
     "max_length": 25,
     "median_length": 21,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1193981e4/podcast/play/128258659/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435212182-44100-2-2a8f19b486097.m4a",
+        "at": "2026-10-31T09:23:44Z",
+        "t": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه"
+      },
       {
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128258784/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435212300-44100-2-742e421307e42.m4a",
         "at": "2026-10-31T07:11:54Z",
@@ -50358,14 +50363,14 @@
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128169688/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F435101832-44100-2-56c80396ce26e.m4a",
         "at": "2026-10-27T10:34:56Z",
         "t": "راهنمای نگهداری برنج ایرانی؛ چطور برنج را تازه و سالم نگه داریم؟ | رادیو دردانه"
-      },
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/128168822/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F435100746-44100-2-95fd746259f15.m4a",
-        "at": "2026-10-27T10:25:08Z",
-        "t": "طرز پخت برنج ایرانی؛ کته یا آبکش؟ فوت‌وفن برنج دانه‌دانه | رادیو دردانه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-31T09:23:44Z",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l53",
+        "title": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه"
+      },
       {
         "at": "2026-10-31T07:11:54Z",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l90",
@@ -50375,11 +50380,6 @@
         "at": "2026-10-29T13:44:52Z",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l18",
         "title": "برنج دودی چیست و چه تفاوتی با برنج معمولی دارد؟ | رادیو دردانه"
-      },
-      {
-        "at": "2026-10-28T10:16:38Z",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8gdb",
-        "title": "برنج نو بهتر است یا برنج کهنه؟ تفاوت عطر، پخت و کیفیت | رادیو دردانه"
       }
     ],
     "recent_30d": [
@@ -50394,7 +50394,7 @@
       0,
       0,
       0,
-      10
+      11
     ],
     "status": "active"
   },
@@ -56013,6 +56013,96 @@
       0,
       0,
       0
+    ],
+    "status": "active"
+  },
+  "sayeroshan": {
+    "avg_gap_days": 7.4,
+    "avg_length": 4,
+    "episodes": 15,
+    "eps_365": 15,
+    "eps_90": 11,
+    "first_at": "2026-07-17",
+    "first_year": 1405,
+    "last": "1405/08/07",
+    "last_at": "2026-10-29T17:30:00Z",
+    "last_link": "https://rss.com/podcasts/sayehroshan/3277429",
+    "last_title": "کافه دنج کنج خیابان (پناهگاه موقت غریبه ها)",
+    "max_length": 8,
+    "median_length": 4,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://content.rss.com/episodes/394852/3277429/sayehroshan/2026_10_29_15_47_21_e3c459ea-7f58-4c70-ad99-98e92154f277.mp3",
+        "at": "2026-10-29T17:30:00Z",
+        "t": "کافه دنج کنج خیابان (پناهگاه موقت غریبه ها)"
+      },
+      {
+        "a": "https://content.rss.com/episodes/394852/3256987/sayehroshan/2026_10_22_15_39_06_f4772ff2-d287-480e-a399-274e82767c96.mp3",
+        "at": "2026-10-22T17:30:00Z",
+        "t": "آشپزخانه در ساعت 3 صبح (پناهگاه بی خواب ها)"
+      },
+      {
+        "a": "https://content.rss.com/episodes/394852/3236761/sayehroshan/2026_10_15_07_06_52_110ab712-eb7d-417d-b6cb-6829fb63a028.mp3",
+        "at": "2026-10-15T17:30:00Z",
+        "t": "نیمکت پارک (شاهد صبور عبور)"
+      },
+      {
+        "a": "https://content.rss.com/episodes/394852/3208653/sayehroshan/2026_10_05_15_06_54_34d520fd-7bed-4244-8500-7af576c4e1ec.mp3",
+        "at": "2026-10-08T17:30:00Z",
+        "t": "بالکن (مرز میان خانه و شهر)"
+      },
+      {
+        "a": "https://content.rss.com/episodes/394852/3161797/sayehroshan/2026_09_17_13_42_57_447af55b-6585-4c34-92b5-60eac7b79c0b.mp3",
+        "at": "2026-09-17T17:30:00Z",
+        "t": "چمدان (کوله بار رهایی)"
+      },
+      {
+        "a": "https://content.rss.com/episodes/394852/3128786/sayehroshan/2026_09_06_18_04_10_3f2d121a-ad12-4b18-95b5-7c266a27087c.mp3",
+        "at": "2026-09-10T17:30:00Z",
+        "t": "گلدان کنج اتاق (هنر صبوری و ریشه ها)"
+      },
+      {
+        "a": "https://content.rss.com/episodes/394852/3107107/sayehroshan/2026_08_30_17_29_36_06ff3a65-6e67-4b20-8002-1ae291ef8b8b.mp3",
+        "at": "2026-09-03T17:30:00Z",
+        "t": "قاب عکس (انجماد یک ثانیه)"
+      },
+      {
+        "a": "https://content.rss.com/episodes/394852/3074970/sayehroshan/2026_08_17_18_20_53_18de9faa-4249-48b6-b044-ff06ea9792ab.mp3",
+        "at": "2026-08-27T17:30:00Z",
+        "t": "کفش (روایت جاده ها و ماندن ها)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-29T17:30:00Z",
+        "link": "https://rss.com/podcasts/sayehroshan/3277429",
+        "title": "کافه دنج کنج خیابان (پناهگاه موقت غریبه ها)"
+      },
+      {
+        "at": "2026-10-22T17:30:00Z",
+        "link": "https://rss.com/podcasts/sayehroshan/3256987",
+        "title": "آشپزخانه در ساعت 3 صبح (پناهگاه بی خواب ها)"
+      },
+      {
+        "at": "2026-10-15T17:30:00Z",
+        "link": "https://rss.com/podcasts/sayehroshan/3236761",
+        "title": "نیمکت پارک (شاهد صبور عبور)"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      4,
+      3,
+      4
     ],
     "status": "active"
   },
