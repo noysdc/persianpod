@@ -30064,8 +30064,8 @@
       11,
       6,
       3,
-      1,
-      4
+      2,
+      3
     ],
     "status": "active"
   },
@@ -33257,21 +33257,26 @@
     "status": "inactive"
   },
   "mozhde-sara-mzhdh-sra": {
-    "avg_gap_days": 12.8,
+    "avg_gap_days": 12.4,
     "avg_length": 36,
-    "episodes": 145,
-    "eps_365": 29,
-    "eps_90": 9,
+    "episodes": 146,
+    "eps_365": 30,
+    "eps_90": 10,
     "first_at": "2024-05-04",
     "first_year": 1403,
-    "last": "1405/08/05",
-    "last_at": "2026-10-27T15:30:00Z",
-    "last_link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6ad8ef5b70af2b1aa7f874ce",
-    "last_title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل اول",
+    "last": "1405/08/09",
+    "last_at": "2026-10-31T15:30:00Z",
+    "last_link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6adc77194395ebfbf1ac60f6",
+    "last_title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل دوم",
     "max_length": 98,
     "median_length": 17,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6adc77194395ebfbf1ac60f6/media.mp3",
+        "at": "2026-10-31T15:30:00Z",
+        "t": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل دوم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6ad8ef5b70af2b1aa7f874ce/media.mp3",
         "at": "2026-10-27T15:30:00Z",
@@ -33306,14 +33311,14 @@
         "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6a7b7a006003752573339ee2/media.mp3",
         "at": "2026-08-18T17:30:00Z",
         "t": "🎧 کتاب صوتی مترو 2033 | Metro 2033 Audiobook - فصل هجدهم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6a7b3417b8e79c154dde58f5/media.mp3",
-        "at": "2026-08-11T17:30:00Z",
-        "t": "کتاب صوتی | هفت دختر هفت پسر | کتاب صوتی فارسی | فصل دوم قسمت دوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-31T15:30:00Z",
+        "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6adc77194395ebfbf1ac60f6",
+        "title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل دوم"
+      },
       {
         "at": "2026-10-27T15:30:00Z",
         "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6ad8ef5b70af2b1aa7f874ce",
@@ -33323,11 +33328,6 @@
         "at": "2026-10-20T15:30:00Z",
         "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/2033-metro-2033-audiobook20",
         "title": "🎧 کتاب صوتی مترو 2033 | Metro 2033 Audiobook - فصل بیستم"
-      },
-      {
-        "at": "2026-09-18T14:48:49Z",
-        "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6aad4f510521dc2c810ddb6c",
-        "title": "کتاب صوتی | هفت دختر هفت پسر | کتاب صوتی فارسی | فصل دوم قسمت پنجم"
       }
     ],
     "recent_30d": [
@@ -33342,7 +33342,7 @@
       4,
       4,
       3,
-      2
+      3
     ],
     "status": "active"
   },
@@ -47987,7 +47987,7 @@
   "podcast-sndogh": {
     "avg_gap_days": 89.3,
     "avg_length": 61,
-    "episodes": 59,
+    "episodes": 57,
     "eps_365": 4,
     "eps_90": 1,
     "first_at": "2019-06-14",
@@ -47997,8 +47997,8 @@
     "last_link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/78fd1d84-58a8-40fd-bc47-be967277e500/play.mp3",
     "last_title": "پادکست صندوق - قسمت 57: Maneskin",
     "max_length": 134,
-    "median_length": 62,
-    "min_length": 2,
+    "median_length": 63,
+    "min_length": 17,
     "play": [
       {
         "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/78fd1d84-58a8-40fd-bc47-be967277e500/play.mp3",
