@@ -9,6 +9,7 @@ tags: ["سبک زندگی و سلامت","خانواده و فرزندپروری
 status: "متوقف شده"
 language: "فارسی"
 creator: "مهسا رضایی- اول از همه یه مامان، موسس مامانست، مدرس و مدیر فناوری اطلاعات"
+rss: "https://feeds.sounder.fm/16420/rss.xml"
 episode_count: 53
 logo: "/assets/img/podcasts/mamanst-mamanest.webp"
 rss: "https://feeds.sounder.fm/16420/rss.xml"
