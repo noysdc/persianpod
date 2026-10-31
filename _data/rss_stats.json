@@ -2250,20 +2250,25 @@
   },
   "aaroyh-srpasi": {
     "avg_gap_days": 1.4,
-    "avg_length": 7,
-    "episodes": 82,
-    "eps_365": 82,
-    "eps_90": 55,
+    "avg_length": 8,
+    "episodes": 83,
+    "eps_365": 83,
+    "eps_90": 56,
     "first_at": "2026-07-06",
     "first_year": 1405,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T19:47:07Z",
-    "last_link": "https://www.spreaker.com/episode/padkst-zndgy-antkhab-shdh-zndgyt-rw-az-nw-antkhab-kn--76008849",
-    "last_title": "پادکست زندگی انتخاب‌شده | زندگیت رو از نو انتخاب کن",
-    "max_length": 23,
+    "last": "1405/08/09",
+    "last_at": "2026-10-31T12:56:24Z",
+    "last_link": "https://www.spreaker.com/episode/padkst-zndgy-antkhab-shdh-ayn-bar-khwdt-rw-ja-ndhar--76098959",
+    "last_title": "پادکست زندگی انتخاب‌شده | این بار خودت رو جا نذار",
+    "max_length": 41,
     "median_length": 7,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76098959/c77011418aa7bd5d18dc1cde64.mp3",
+        "at": "2026-10-31T12:56:24Z",
+        "t": "پادکست زندگی انتخاب‌شده | این بار خودت رو جا نذار"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76008849/810d254ab3bafc17b8c5f92391.mp3",
         "at": "2026-10-26T19:47:07Z",
@@ -2298,14 +2303,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75458272/6e5b2744b0b519d17e3603a38a.mp3",
         "at": "2026-09-30T11:31:00Z",
         "t": "موفقیت اشتباه | بدون تماشاچی، چه چیزی رو انتخاب می‌کنی؟"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75458312/ffd384482da63182e80ecde125.mp3",
-        "at": "2026-09-28T12:29:00Z",
-        "t": "موفقیت اشتباه | قفس طلایی؛ وقتی همه می‌گن خوش به حالت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-31T12:56:24Z",
+        "link": "https://www.spreaker.com/episode/padkst-zndgy-antkhab-shdh-ayn-bar-khwdt-rw-ja-ndhar--76098959",
+        "title": "پادکست زندگی انتخاب‌شده | این بار خودت رو جا نذار"
+      },
       {
         "at": "2026-10-26T19:47:07Z",
         "link": "https://www.spreaker.com/episode/padkst-zndgy-antkhab-shdh-zndgyt-rw-az-nw-antkhab-kn--76008849",
@@ -2315,11 +2320,6 @@
         "at": "2026-10-17T14:01:02Z",
         "link": "https://www.spreaker.com/episode/nqth-y-bazgsht-apyzwd-4--75837747",
         "title": "نقطه‌ی بازگشت | اپیزود 4"
-      },
-      {
-        "at": "2026-10-16T13:58:54Z",
-        "link": "https://www.spreaker.com/episode/nqth-y-bazgsht-apyzwd-3--75826254",
-        "title": "نقطه‌ی بازگشت | اپیزود 3"
       }
     ],
     "recent_30d": [
@@ -2334,7 +2334,7 @@
       27,
       34,
       15,
-      6
+      7
     ],
     "status": "active"
   },
@@ -41261,8 +41261,8 @@
       1,
       0,
       0,
-      0,
-      3,
+      1,
+      2,
       1,
       1,
       2,
@@ -51866,7 +51866,7 @@
       }
     ],
     "recent_30d": [
-      10,
+      9,
       7,
       8,
       9,
@@ -61993,8 +61993,8 @@
       3,
       4,
       4,
-      4,
       5,
+      4,
       4
     ],
     "status": "active"
