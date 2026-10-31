@@ -46285,21 +46285,26 @@
     "status": "active"
   },
   "podcast-pzshki-srm-atlaaat": {
-    "avg_gap_days": 5.0,
+    "avg_gap_days": 57.2,
     "avg_length": 24,
-    "episodes": 91,
-    "eps_365": 6,
-    "eps_90": 0,
+    "episodes": 92,
+    "eps_365": 7,
+    "eps_90": 1,
     "first_at": "2019-08-05",
     "first_year": 1398,
-    "last": "1404/09/09",
-    "last_at": "2025-11-30T00:00:00Z",
+    "last": "1405/07/22",
+    "last_at": "2026-10-14T00:55:00Z",
     "last_link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
-    "last_title": "اپیزود هشتاد و هشتم چرا ز تن نمی رود ۲",
+    "last_title": "اپیزود هشتاد و نهم چرا دارو نیست؟",
     "max_length": 70,
     "median_length": 21,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/audio/15a5f715707ca433/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-10-14T00:55:00Z",
+        "t": "اپیزود هشتاد و نهم چرا دارو نیست؟"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/audio/fdbf345fa43989b1/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2025-11-30T00:00:00Z",
@@ -46334,14 +46339,14 @@
         "a": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/audio/781b4129f6aaea91/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2025-09-06T13:00:00Z",
         "t": "اپیزود هشتاد و دوم دور برگردون"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/audio/a9c0b8b21c8c43cf/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2025-09-06T12:50:00Z",
-        "t": "اپیزود هشتاد و یکم مهمان جدید نسل ما"
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-14T00:55:00Z",
+        "link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
+        "title": "اپیزود هشتاد و نهم چرا دارو نیست؟"
+      },
       {
         "at": "2025-11-30T00:00:00Z",
         "link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
@@ -46351,11 +46356,6 @@
         "at": "2025-11-28T14:55:02Z",
         "link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
         "title": "اپیزود هشتاد و هفتم چرا ز تن نمی رود"
-      },
-      {
-        "at": "2025-11-13T08:19:46Z",
-        "link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
-        "title": "اپیزود هشتاد و ششم همراه بد ماجرا قسمت دوم"
       }
     ],
     "recent_30d": [
@@ -46370,7 +46370,7 @@
       0,
       0,
       0,
-      0
+      1
     ],
     "status": "active"
   },
