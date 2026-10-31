@@ -28,7 +28,7 @@
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
   "baigani-ha-sda": {
-    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
     "rss": "https://musiceiranian.ir/type/audio/feed"
   },
   "dastan-hai-hzar-o-ik-shb": {
@@ -90,10 +90,6 @@
   "marktplatz-zban-aalmani-dr-aghtsad": {
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
-  },
-  "mtaors": {
-    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://feeds.simplecast.com/U4MnbHBx"
   },
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
