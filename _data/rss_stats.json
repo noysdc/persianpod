@@ -48075,20 +48075,30 @@
     "status": "inactive"
   },
   "podcast-sndogh": {
-    "avg_length": 62,
-    "episodes": 4,
+    "avg_length": 61,
+    "episodes": 6,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2019-06-14",
     "first_year": 1398,
-    "last": "1399/10/13",
-    "last_at": "2021-01-02T19:18:57Z",
-    "last_link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/360fff50-66f1-4d16-bff4-5e743d8fae2c/play.mp3",
-    "last_title": "پادکست صندوق - قسمت چهارم: سبک‌های موسیقی مدرن (بخش دوم)",
+    "last": "1400/03/26",
+    "last_at": "2021-06-16T14:59:16Z",
+    "last_link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/aa59c353-61b4-416f-90d6-f7bd00c513d8/play.mp3",
+    "last_title": "پادکست صندوق - قسمت نهم: رابطه بین هنر و هنرمند",
     "max_length": 96,
-    "median_length": 68,
+    "median_length": 63,
     "min_length": 17,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/aa59c353-61b4-416f-90d6-f7bd00c513d8/play.mp3",
+        "at": "2021-06-16T14:59:16Z",
+        "t": "پادکست صندوق - قسمت نهم: رابطه بین هنر و هنرمند"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/e9830646-55b3-4817-bbff-76bd8086c1fd/play.mp3",
+        "at": "2021-03-06T19:38:52Z",
+        "t": "پادکست صندوق - قسمت ششم: زمان در موسیقی، کسر میزان و ریتم"
+      },
       {
         "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/360fff50-66f1-4d16-bff4-5e743d8fae2c/play.mp3",
         "at": "2021-01-02T19:18:57Z",
@@ -48112,19 +48122,19 @@
     ],
     "recent": [
       {
+        "at": "2021-06-16T14:59:16Z",
+        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/aa59c353-61b4-416f-90d6-f7bd00c513d8/play.mp3",
+        "title": "پادکست صندوق - قسمت نهم: رابطه بین هنر و هنرمند"
+      },
+      {
+        "at": "2021-03-06T19:38:52Z",
+        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/e9830646-55b3-4817-bbff-76bd8086c1fd/play.mp3",
+        "title": "پادکست صندوق - قسمت ششم: زمان در موسیقی، کسر میزان و ریتم"
+      },
+      {
         "at": "2021-01-02T19:18:57Z",
         "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/360fff50-66f1-4d16-bff4-5e743d8fae2c/play.mp3",
         "title": "پادکست صندوق - قسمت چهارم: سبک‌های موسیقی مدرن (بخش دوم)"
-      },
-      {
-        "at": "2020-11-28T14:14:56Z",
-        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/e94bf476-dbe9-4998-a04a-2823f1a05c86/play.mp3",
-        "title": "پادکست صندوق - قسمت سوم: سبک‌های موسیقی مدرن (بخش اول)"
-      },
-      {
-        "at": "2020-10-27T14:36:34Z",
-        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/61293f5c-b2ec-4d49-8ede-da99b5d585cf/play.mp3",
-        "title": "پادکست صندوق - قسمت دوم: ساختار قطعات موسیقی"
       }
     ],
     "recent_30d": [
