@@ -13,7 +13,7 @@ started: 1402
 episodes: 59
 schedule: ماهانه
 logo: /assets/img/podcasts/radiodoor.webp
-castbox_id: "7414995"
+castbox_id: ""
 castbox_channel: "https://castbox.fm/ch/7414995"
 apple_podcasts: "https://podcasts.apple.com/us/podcast/radio-door-%D8%B1%D8%A7%D8%AF%DB%8C%D9%88-%D8%AF%D9%88%D8%B1/id1775422795"
 rss: "https://api.rabt.host/podcasts/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/rss"
