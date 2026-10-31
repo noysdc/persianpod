@@ -48075,20 +48075,26 @@
     "status": "inactive"
   },
   "podcast-sndogh": {
-    "avg_length": 17,
-    "episodes": 1,
-    "eps_365": 1,
-    "eps_90": 1,
+    "avg_gap_days": 0.0,
+    "avg_length": 36,
+    "episodes": 2,
+    "eps_365": 2,
+    "eps_90": 2,
     "first_at": "2026-10-31",
     "first_year": 1405,
     "last": "1405/08/09",
-    "last_at": "2026-10-31T13:05:29Z",
-    "last_link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/aa1fca85-1fcd-4b69-a059-623cf1f5a72e/play.mp3",
-    "last_title": "پادکست صندوق - قسمت اول: معرفی سازها",
-    "max_length": 17,
-    "median_length": 17,
+    "last_at": "2026-10-31T13:16:01Z",
+    "last_link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/61293f5c-b2ec-4d49-8ede-da99b5d585cf/play.mp3",
+    "last_title": "پادکست صندوق - قسمت دوم: ساختار قطعات موسیقی",
+    "max_length": 55,
+    "median_length": 36,
     "min_length": 17,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/61293f5c-b2ec-4d49-8ede-da99b5d585cf/play.mp3",
+        "at": "2026-10-31T13:16:01Z",
+        "t": "پادکست صندوق - قسمت دوم: ساختار قطعات موسیقی"
+      },
       {
         "a": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/aa1fca85-1fcd-4b69-a059-623cf1f5a72e/play.mp3",
         "at": "2026-10-31T13:05:29Z",
@@ -48096,6 +48102,11 @@
       }
     ],
     "recent": [
+      {
+        "at": "2026-10-31T13:16:01Z",
+        "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/61293f5c-b2ec-4d49-8ede-da99b5d585cf/play.mp3",
+        "title": "پادکست صندوق - قسمت دوم: ساختار قطعات موسیقی"
+      },
       {
         "at": "2026-10-31T13:05:29Z",
         "link": "https://play.rabt.host/podcast/6aae6da6-4ca4-47bf-9d9d-6607969e49c0/episode/aa1fca85-1fcd-4b69-a059-623cf1f5a72e/play.mp3",
@@ -48114,7 +48125,7 @@
       0,
       0,
       0,
-      1
+      2
     ],
     "status": "active"
   },
@@ -56868,26 +56879,21 @@
     "status": "active"
   },
   "sfir-sda": {
-    "avg_gap_days": 15.2,
+    "avg_gap_days": 15.5,
     "avg_length": 13,
-    "episodes": 60,
-    "eps_365": 25,
-    "eps_90": 12,
+    "episodes": 59,
+    "eps_365": 24,
+    "eps_90": 11,
     "first_at": "2025-03-02",
     "first_year": 1403,
-    "last": "1405/08/09",
-    "last_at": "2026-10-31T12:34:18Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3rfqiq",
-    "last_title": "قصه: هفت خواهر و یک خواهر",
+    "last": "1405/08/02",
+    "last_at": "2026-10-24T12:16:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql434",
+    "last_title": "افسانه اسب باوفا | قسمت دوم",
     "max_length": 33,
-    "median_length": 9,
+    "median_length": 8,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/101e050f4/podcast/play/128493594/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F5ee61303-77cb-e74f-5e96-78d4930a3508.mp3",
-        "at": "2026-10-31T12:34:18Z",
-        "t": "قصه: هفت خواهر و یک خواهر"
-      },
       {
         "a": "https://anchor.fm/s/101e050f4/podcast/play/127618596/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-17%2F3295f5c5-f7e5-a8d1-bf36-2dd687de451f.mp3",
         "at": "2026-10-24T12:16:00Z",
@@ -56922,14 +56928,14 @@
         "a": "https://anchor.fm/s/101e050f4/podcast/play/125263254/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-6%2F95dc9f63-6033-c5cb-6f6d-0b5b30d09d6a.mp3",
         "at": "2026-09-06T02:49:15Z",
         "t": "پادکست افسانه های ایرانی این قسمت :هفت خواهر"
+      },
+      {
+        "a": "https://anchor.fm/s/101e050f4/podcast/play/124897400/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-29%2Fbd5997bb-a789-c678-c08b-8d4a1561dc3a.mp3",
+        "at": "2026-08-29T12:05:15Z",
+        "t": "پادکست افسانه های ایرانی این قسمت :هلِلوم نلِلوم"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-31T12:34:18Z",
-        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3rfqiq",
-        "title": "قصه: هفت خواهر و یک خواهر"
-      },
       {
         "at": "2026-10-24T12:16:00Z",
         "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql434",
@@ -56939,6 +56945,11 @@
         "at": "2026-10-17T12:28:58Z",
         "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql418",
         "title": "افسانه اسب باوفا | قسمت اول"
+      },
+      {
+        "at": "2026-10-10T13:11:37Z",
+        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3q9tbs",
+        "title": "افسانه‌ی شیرزاد | قسمت دوم"
       }
     ],
     "recent_30d": [
@@ -56953,7 +56964,7 @@
       1,
       4,
       3,
-      5
+      4
     ],
     "status": "active"
   },
