@@ -4,7 +4,7 @@ title_en: ""
 slug: "ketabak"
 description: "پادکست کتابک؛ خلاصه‌ی مهم‌ترین ایده‌های بهترین کتاب‌های دنیا در قالب پادکست، از روانشناسی و رشد فردی تا پول، موفقیت، تاریخ و داستان‌های واقعی."
 category: "ادبیات و کتاب"
-subcategories: ["خلاصه کتاب"]
+subcategories: ["کتاب صوتی"]
 tags: ["پادکست کتابک", "خلاصه کتاب", "کتاب صوتی", "روانشناسی", "توسعه فردی", "هوش مالی", "امیرحسین ناظرحضرت"]
 status: "active"
 language: "فارسی"
@@ -65,4 +65,3 @@ collab_types: ""
 
 - [شنیدن کتابک در کست‌باکس](https://castbox.fm/ch7387778){:target="_blank" rel="noopener"}
 - [ایمیل کتابک](mailto:amirkashani21@yahoo.com)
-- [فید RSS کتابک](https://feed.dotcast.org/p/wqlungdt/feed.xml){:target="_blank" rel="noopener"}
