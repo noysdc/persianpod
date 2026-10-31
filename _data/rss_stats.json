@@ -28276,8 +28276,8 @@
       0,
       0,
       0,
-      19,
-      32,
+      20,
+      31,
       0,
       0,
       0,
@@ -39123,11 +39123,11 @@
     "status": "inactive"
   },
   "podcast-bizins-astoriz": {
-    "avg_gap_days": 0.6,
-    "avg_length": 21,
-    "episodes": 32,
-    "eps_365": 32,
-    "eps_90": 32,
+    "avg_gap_days": 0.7,
+    "avg_length": 22,
+    "episodes": 30,
+    "eps_365": 30,
+    "eps_90": 30,
     "first_at": "2026-10-10",
     "first_year": 1405,
     "last": "1405/08/08",
@@ -39135,7 +39135,7 @@
     "last_link": "https://furbodm.com/",
     "last_title": "NETFLIX #6 | تغییر مسیر نت‌فلیکس از دی‌وی‌دی به استریم چطوری بود؟",
     "max_length": 38,
-    "median_length": 22,
+    "median_length": 23,
     "min_length": 4,
     "play": [
       {
@@ -39159,16 +39159,6 @@
         "t": "NETFLIX #3 | نت‌فلیکس از کجا مشتری‌های اولیه خودش رو پیدا کرد؟"
       },
       {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae1ff46305baddee1517ee9/media.mp3",
-        "at": "2026-10-28T13:57:26Z",
-        "t": "NETFLIX #2 | محصول اولیه نت‌فلیکس چی بود؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae0fca933b363c95d0286a5/media.mp3",
-        "at": "2026-10-27T19:34:01Z",
-        "t": "NETFLIX #1 | قبل از نت‌فلیکس مردم چطوری فیلم نگاه می‌کردن؟"
-      },
-      {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae0b1eeab1b1d113dda940e/media.mp3",
         "at": "2026-10-27T14:15:10Z",
         "t": "NETFLIX #0 | فصل دوم پادکست بیزینس استوریز؛ نت‌فلیکس"
@@ -39177,6 +39167,16 @@
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adf56fbb50147298ba80812/media.mp3",
         "at": "2026-10-26T13:34:51Z",
         "t": "REDDIT | داستان بیست‌وپنجم؛ ردیت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adf55d7feb8d1e39cf805b0/media.mp3",
+        "at": "2026-10-26T13:29:59Z",
+        "t": "TWITTER | داستان بیست‌وچهارم؛ توییتر"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6adf3386677cf6f87d5e8d86/media.mp3",
+        "at": "2026-10-26T11:03:34Z",
+        "t": "FEDEX | داستان بیست‌و‌سوم؛ فدکس"
       }
     ],
     "recent": [
@@ -39208,7 +39208,7 @@
       0,
       0,
       0,
-      32
+      30
     ],
     "status": "active"
   },
@@ -40019,7 +40019,7 @@
   },
   "podcast-farsi": {
     "avg_length": 4,
-    "episodes": 66,
+    "episodes": 63,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-06-23",
