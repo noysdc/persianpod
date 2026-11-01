@@ -17,15 +17,21 @@
 @container (min-width: 1000px){ :root .pd-group .pd-row-wrap{ --w:24cqw; } }
 
 /* ردیف تا لبه‌ی باکس کشیده می‌شود */
+/* دسکتاپ/تبلت: کارت‌ها از ابتدای باکس شروع می‌شوند تا نیمه‌ی باکس خالی نماند؛ در موبایل کارت اول وسط می‌نشیند */
 :root .pd-group .pd-row-wrap{ margin-inline:calc(var(--pp-gp) * -1); }
 :root .pd-group .pd-row{
   gap:0;
-  padding:var(--pp-pt) calc(50% - var(--w) / 2 + var(--ov)) 44px;
+  padding:var(--pp-pt) 0 44px;
+  padding-inline-start:calc(var(--ov) + 14px);                 /* کارت اول از ابتدای باکس شروع می‌شود */
+  padding-inline-end:calc(50% - var(--w) / 2 + var(--ov));     /* ولی کارت آخر می‌تواند وسط بیاید */
   margin-bottom:-26px;
   scroll-snap-type:x mandatory;
   scroll-padding-inline:0;
   -webkit-mask-image:linear-gradient(to right, transparent 0, #000 36px, #000 calc(100% - 36px), transparent 100%) !important;
           mask-image:linear-gradient(to right, transparent 0, #000 36px, #000 calc(100% - 36px), transparent 100%) !important;
+}
+@container (min-width: 520px){
+  :root .pd-group .pd-row{ padding-inline:calc(var(--ov) + 26px); }
 }
 :root .pd-group .pd-row-wrap.no-scroll .pd-row{ -webkit-mask-image:none !important; mask-image:none !important; }
 
@@ -38,7 +44,7 @@ html:not(#pp) .pd-group .pd-row .pd-card:focus-within{
   scroll-snap-align:center;
   scroll-snap-stop:always;               /* هر بار فقط یک کارت */
   padding:10px 10px 12px !important;
-  border:1px solid color-mix(in srgb, var(--g) calc(var(--f, 0) * 65%), var(--gl-edge)) !important;
+  border:1px solid color-mix(in srgb, var(--g) calc(var(--f, 0) * 45%), var(--gl-edge)) !important;
   border-radius:26px !important;
   background:var(--gl-fill) !important;
   -webkit-backdrop-filter:blur(14px) saturate(1.5);
@@ -47,7 +53,7 @@ html:not(#pp) .pd-group .pd-row .pd-card:focus-within{
     inset 0 1px 0 var(--gl-hi),
     0 0 0 1px var(--gl-rim),
     0 20px 34px -22px rgba(0,0,0,.55),
-    0 0 calc(var(--f, 0) * 30px) -10px var(--glow) !important;
+    0 0 calc(var(--f, 0) * 24px) -12px var(--glow) !important;
   --pp-cover-radius:17px;
   transition:none !important;            /* حرکت فقط از اسکرول می‌آید، نه از transition */
   transform-origin:50% 130%;
@@ -60,6 +66,20 @@ html:not(#pp) .pd-group .pd-row .pd-card .pd-body{ margin-top:10px; padding-inli
 html:not(#pp) .pd-group .pd-row .pd-card .pd-body h3{ font-size:1rem; min-height:3.4em; }
 html:not(#pp) .pd-group .pd-row .pd-card .pd-meta{ padding-inline:4px; }
 html:not(#pp) .pd-group .pd-row .pd-card .pd-desc{ display:none; }
+
+/* پارالاکس ظریف کاور داخل قاب (با خصوصیت‌های مستقل translate/scale، بدون تداخل با زوم hover سایت) */
+html:not(#pp) .pd-group .pd-row .pd-card .pd-logo img{ scale:1.09; translate:var(--px, 0px) 0; }
+/* درخشش نرمی که با اسکرول روی قاب می‌لغزد */
+html:not(#pp) .pd-group .pd-row .pd-card{ position:relative; overflow:hidden; }
+html:not(#pp) .pd-group .pd-row .pd-card::after{
+  content:""; position:absolute; inset:0; pointer-events:none; border-radius:inherit;
+  background:linear-gradient(105deg, transparent 36%, rgba(255,255,255,.10) 50%, transparent 64%);
+  background-size:260% 100%;
+  background-position:calc(50% + var(--px, 0px) * 14) 0;
+  opacity:calc(.35 + var(--f, 0) * .65);
+}
+html:not(#pp) .pd-group .pd-arrow[aria-disabled=true]{ opacity:.28 !important; pointer-events:none; }
+html:not(#pp) .pd-group .pd-arrow{ transition:opacity .4s ease, box-shadow .2s ease; }
 
 /* دکمه‌های اسلایدر: همیشه (حتی موبایل)، داخل باکس، کنار کاور */
 html:not(#pp) .pd-group .pd-arrow{
