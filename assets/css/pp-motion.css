@@ -3,21 +3,19 @@
    ۲) ردیف‌های صفحه‌ی «تازه‌ها» هنگام اسکرول از دور به نزدیک می‌آیند
    ردیف‌ها با JS ساخته می‌شوند؛ pp-motion.js آن‌ها را خودکار پیدا می‌کند. بعد از بقیه‌ی CSSها لود شود. */
 
-/* ---------- ۱) بادبزنی ظریف ---------- */
-/* هر دسته یک باکس است؛ هرچه داخل ردیف است (کارت‌ها، سایه، چرخش) از لبه‌ی باکس بیرون نمی‌زند. */
+/* ---------- ۱) بادبزنی سنگین و نرم ---------- */
+/* اصل کار: هنگام اسکرول هیچ چیزی در هر فریم محاسبه نمی‌شود (بدون لرزش). JS فقط «کارت فعال» را مشخص می‌کند و
+   حالت هر کارت (چرخش/اندازه/شفافیت) با یک transition طولانی و سنگین عوض می‌شود. */
 :root .pd-group{ overflow:hidden; --pp-gp:22px; --pp-pt:34px; }
 @media (max-width:1199.98px){ :root .pd-group{ --pp-gp:14px; } }
 @media (min-width:600px) and (max-width:1199.98px){ :root .pd-group{ --pp-gp:18px; } }
 @media (max-width:799px){ :root .pd-group{ --pp-pt:26px; } }
 
-/* اندازه‌ی کارت (بزرگ‌تر از قبل) */
 :root .pd-group .pd-row-wrap{ --w:62cqw; --ov:12px; }
 @container (min-width: 520px){ :root .pd-group .pd-row-wrap{ --w:38cqw; } }
 @container (min-width: 760px){ :root .pd-group .pd-row-wrap{ --w:29cqw; } }
 @container (min-width: 1000px){ :root .pd-group .pd-row-wrap{ --w:24cqw; } }
 
-/* ردیف تا لبه‌ی باکس کشیده می‌شود */
-/* دسکتاپ/تبلت: کارت‌ها از ابتدای باکس شروع می‌شوند تا نیمه‌ی باکس خالی نماند؛ در موبایل کارت اول وسط می‌نشیند */
 :root .pd-group .pd-row-wrap{ margin-inline:calc(var(--pp-gp) * -1); }
 :root .pd-group .pd-row{
   gap:0;
@@ -27,39 +25,51 @@
   margin-bottom:-26px;
   scroll-snap-type:x mandatory;
   scroll-padding-inline:0;
-  -webkit-mask-image:linear-gradient(to right, transparent 0, #000 36px, #000 calc(100% - 36px), transparent 100%) !important;
-          mask-image:linear-gradient(to right, transparent 0, #000 36px, #000 calc(100% - 36px), transparent 100%) !important;
+  /* بدون mask (mask هنگام اسکرول هر فریم دوباره رنگ می‌شود و باعث لرزش است) */
+  -webkit-mask-image:none !important; mask-image:none !important;
 }
 @container (min-width: 520px){
   :root .pd-group .pd-row{ padding-inline:calc(var(--ov) + 26px); scroll-padding-inline-start:26px; }
 }
-:root .pd-group .pd-row-wrap.no-scroll .pd-row{ -webkit-mask-image:none !important; mask-image:none !important; }
 
 /* هر پادکست یک قاب شیشه‌ای دارد؛ لبه‌ها کمی روی هم می‌افتند */
 html:not(#pp) .pd-group .pd-row .pd-card,
 html:not(#pp) .pd-group .pd-row .pd-card:hover,
 html:not(#pp) .pd-group .pd-row .pd-card:focus-within{
+  --sg:1; --rz:0deg; --ty:0px; --sc:1; --op:1; --glow-a:0;
   max-width:none;
   margin-inline:calc(var(--ov) * -1);
   scroll-snap-align:center;
   scroll-snap-stop:always;               /* هر بار فقط یک کارت */
   padding:10px 10px 12px !important;
-  border:1px solid color-mix(in srgb, var(--g) calc(var(--f, 0) * 45%), var(--gl-edge)) !important;
+  border:1px solid color-mix(in srgb, var(--g) calc(var(--glow-a) * 40%), var(--gl-edge)) !important;
   border-radius:26px !important;
-  background:var(--gl-fill) !important;
-  -webkit-backdrop-filter:blur(14px) saturate(1.5);
-          backdrop-filter:blur(14px) saturate(1.5);
+  background:var(--gl-fill) !important;  /* شیشه با گرادیان و لبه‌ی روشن؛ بدون backdrop-filter تا هنگام اسکرول سبک بماند */
   box-shadow:
     inset 0 1px 0 var(--gl-hi),
+    inset 0 -1px 0 var(--gl-lo),
     0 0 0 1px var(--gl-rim),
     0 20px 34px -22px rgba(0,0,0,.55),
-    0 0 calc(var(--f, 0) * 24px) -12px var(--glow) !important;
+    0 0 calc(var(--glow-a) * 22px) -12px var(--glow) !important;
   --pp-cover-radius:17px;
-  transition:none !important;            /* حرکت فقط از اسکرول می‌آید، نه از transition */
-  transform-origin:50% 130%;
-  backface-visibility:hidden;
+  transform:translateY(var(--ty)) rotate(var(--rz)) scale(var(--sc)) !important;
+  transform-origin:50% 120%;
+  opacity:var(--op);
+  z-index:calc(10 - var(--d, 3));
   text-align:start;
+  /* حرکت سنگین: شروع نرم، ادامه‌ی آرام، توقف بسیار نرم */
+  transition:
+    transform 1.25s cubic-bezier(.22,.61,.21,1),
+    opacity 1.25s cubic-bezier(.22,.61,.21,1),
+    box-shadow 1.25s ease,
+    border-color 1.25s ease !important;
 }
+/* حالت هر کارت بر اساس فاصله‌اش از کارت فعال (data-d) و سمتش (data-side) */
+html:not(#pp) .pd-group .pd-row .pd-card[data-side="l"]{ --sg:-1; }
+html:not(#pp) .pd-group .pd-row .pd-card[data-d="0"]{ --glow-a:1; }
+html:not(#pp) .pd-group .pd-row .pd-card[data-d="1"]{ --rz:calc(var(--sg) * 1.4deg); --ty:3px;  --sc:.965; --op:.9; }
+html:not(#pp) .pd-group .pd-row .pd-card[data-d="2"]{ --rz:calc(var(--sg) * 2.4deg); --ty:7px;  --sc:.93;  --op:.78; }
+html:not(#pp) .pd-group .pd-row .pd-card[data-d="3"]{ --rz:calc(var(--sg) * 3deg);   --ty:10px; --sc:.9;   --op:.66; }
 html:not(#pp) .pd-group .pd-row .pd-card[aria-current=true]{ border-color:var(--g) !important; }
 html:not(#pp) .pd-group .pd-row .pd-card .pd-logo{ box-shadow:0 0 0 1px var(--gl-rim) !important; }
 html:not(#pp) .pd-group .pd-row .pd-card .pd-body{ margin-top:10px; padding-inline:4px; }
@@ -67,19 +77,9 @@ html:not(#pp) .pd-group .pd-row .pd-card .pd-body h3{ font-size:1rem; min-height
 html:not(#pp) .pd-group .pd-row .pd-card .pd-meta{ padding-inline:4px; }
 html:not(#pp) .pd-group .pd-row .pd-card .pd-desc{ display:none; }
 
-/* پارالاکس ظریف کاور داخل قاب (با خصوصیت‌های مستقل translate/scale، بدون تداخل با زوم hover سایت) */
-html:not(#pp) .pd-group .pd-row .pd-card .pd-logo img{ scale:1.09; translate:var(--px, 0px) 0; }
-/* درخشش نرمی که با اسکرول روی قاب می‌لغزد */
-html:not(#pp) .pd-group .pd-row .pd-card{ position:relative; overflow:hidden; }
-html:not(#pp) .pd-group .pd-row .pd-card::after{
-  content:""; position:absolute; inset:0; pointer-events:none; border-radius:inherit;
-  background:linear-gradient(105deg, transparent 36%, rgba(255,255,255,.10) 50%, transparent 64%);
-  background-size:260% 100%;
-  background-position:calc(50% + var(--px, 0px) * 14) 0;
-  opacity:calc(.35 + var(--f, 0) * .65);
-}
-html:not(#pp) .pd-group .pd-arrow[aria-disabled=true]{ opacity:.28 !important; pointer-events:none; }
-html:not(#pp) .pd-group .pd-arrow{ transition:opacity .4s ease, box-shadow .2s ease; }
+/* ورود هر دسته: کارت‌ها یکی‌یکی و آرام بالا می‌آیند */
+html:not(#pp) .pd-group .pd-row.pp-pre .pd-card{ --op:0; transform:translateY(26px) scale(.94) !important; }
+html:not(#pp) .pd-group .pd-row.pp-intro .pd-card{ transition-delay:calc(var(--i, 0) * 90ms); }
 
 /* هر کارت یک نقطه‌ی توقف مستقل دارد (از ابتدا تا انتها)، پس هر بار دقیقاً یک کارت جابه‌جا می‌شود */
 @container (min-width: 520px){
@@ -90,13 +90,15 @@ html:not(#pp) .pd-group .pd-arrow{ transition:opacity .4s ease, box-shadow .2s e
 
 /* دکمه‌های اسلایدر: همیشه (حتی موبایل)، داخل باکس، کنار کاور */
 html:not(#pp) .pd-group .pd-arrow{
-  display:grid !important; opacity:1 !important; z-index:5;
+  display:grid !important; opacity:1 !important; z-index:20;
   width:40px; height:40px;
   top:calc(var(--pp-pt) + var(--w) / 2);
+  transition:opacity .6s ease, box-shadow .3s ease;
 }
 html:not(#pp) .pd-group .pd-prev{ right:calc(var(--pp-gp) + 8px); left:auto; }
 html:not(#pp) .pd-group .pd-next{ left:calc(var(--pp-gp) + 8px); right:auto; }
 html:not(#pp) .pd-group .pd-row-wrap.no-scroll .pd-arrow{ display:none !important; }
+html:not(#pp) .pd-group .pd-arrow[aria-disabled=true]{ opacity:.28 !important; pointer-events:none; }
 
 @media (max-width:799px){
   html:not(#pp) .pd-group .pd-row .pd-card,
@@ -105,10 +107,10 @@ html:not(#pp) .pd-group .pd-row-wrap.no-scroll .pd-arrow{ display:none !importan
   html:not(#pp) .pd-group .pd-row .pd-card{ --pp-cover-radius:14px; }
   html:not(#pp) .pd-group .pd-row .pd-card .pd-body h3{ font-size:.92rem; }
   html:not(#pp) .pd-group .pd-arrow{ width:36px; height:36px; }
-  :root .pd-group .pd-row{
-    -webkit-mask-image:linear-gradient(to right, transparent 0, #000 16px, #000 calc(100% - 16px), transparent 100%) !important;
-            mask-image:linear-gradient(to right, transparent 0, #000 16px, #000 calc(100% - 16px), transparent 100%) !important;
-  }
+  :root .pd-group .pd-row{ padding-block:26px 52px; margin-bottom:-26px; }
+}
+@media (prefers-reduced-motion:reduce){
+  html:not(#pp) .pd-group .pd-row .pd-card{ transition:none !important; }
 }
 
 /* ---------- ۲) ورود از دور به نزدیک ---------- */

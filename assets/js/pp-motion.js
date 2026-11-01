@@ -8,15 +8,9 @@
   var small = matchMedia("(max-width: 799px)");
   var IO = "IntersectionObserver" in window;
 
-  /* ================= ۱) بادبزنی ظریف ================= */
-  // کارت‌ها مستقیم با موقعیت اسکرول حرکت می‌کنند (بدون تأخیر و لرزش). تغییرات خیلی کوچک و با منحنی نرم‌اند.
-  function P() {
-    return small.matches
-      ? { rz: 2.6, ty: 4, sc: 0.04, op: 0.09, px: 5 }
-      : { rz: 2.8, ty: 5, sc: 0.045, op: 0.09, px: 7 };
-  }
-  function soft(x) { var t = Math.min(1, x / 2.4); return t * t * (3 - 2 * t) * 2.4; }   // smoothstep: شروع و پایان نرم
-
+  /* ================= ۱) بادبزنی سنگین و نرم ================= */
+  // هنگام اسکرول هیچ transform ای در هر فریم نوشته نمی‌شود (این‌ها باعث لرزش بودند).
+  // فقط «کارت فعال» تعیین می‌شود و CSS با transition طولانی حالت بقیه را عوض می‌کند.
   function layout(row) {
     var cards = row.querySelectorAll(".pd-card"), cx = row.clientWidth / 2, sl = row.scrollLeft, ro = row.offsetLeft, fx = cx;
     if (row.clientWidth < 520 && cards.length > 1) {
@@ -29,7 +23,7 @@
     }
     return { cards: cards, cx: cx, fx: fx, sl: sl, ro: ro };
   }
-  function nOf(card, L) {                 // فاصله از فوکوس بر حسب «تعداد کارت»؛ از موقعیت چیدمان (نه transform)
+  function nOf(card, L) {                 // فاصله از فوکوس بر حسب «تعداد کارت»؛ از موقعیت چیدمان
     var w = card.offsetWidth || 1;
     return ((card.offsetLeft - L.ro) + w / 2 - L.sl - L.fx) / w;
   }
@@ -38,27 +32,34 @@
     return getComputedStyle(row).direction === "rtl" ? [-max, 0] : [0, max];
   }
 
-  function paint(row) {
-    var L = layout(row), p = P(), sp = row.__spread === undefined ? 1 : row.__spread;
-    for (var i = 0; i < L.cards.length; i++) {
-      var c = L.cards[i], n = nOf(c, L), an = Math.min(Math.abs(n), 2.4), sg = n < 0 ? -1 : 1;
-      if (reduce) { c.style.removeProperty("transform"); continue; }
-      var e = soft(an);
-      var rz = sg * e * p.rz;
-      var ty = e * e * p.ty * 0.5;
-      var sc = 1.02 - e * p.sc;
-      var tx = sp < 1 ? -n * (c.offsetWidth - 24) * (1 - sp) : 0;       // ورود: کارت‌ها از وسط باز می‌شوند
-      c.style.setProperty("transform",
-        "translateX(" + tx.toFixed(1) + "px) translateY(" + ty.toFixed(2) + "px) rotate(" + rz.toFixed(2) + "deg) scale(" + sc.toFixed(4) + ")", "important");
-      c.style.opacity = (Math.max(0.62, 1 - e * p.op) * (0.25 + 0.75 * sp)).toFixed(3);
-      c.style.setProperty("--f", Math.max(0, 1 - an * 1.5).toFixed(3));
-      c.style.setProperty("--px", (-Math.max(-1.2, Math.min(1.2, n)) * p.px).toFixed(2) + "px");   // پارالاکس کاور داخل قاب
-      c.style.zIndex = String(100 - Math.round(an * 10));
+  function applyActive(row, active) {
+    var cards = row.querySelectorAll(".pd-card");
+    for (var i = 0; i < cards.length; i++) {
+      var d = Math.min(Math.abs(i - active), 3);
+      var c = cards[i];
+      if (c.getAttribute("data-d") !== String(d)) c.setAttribute("data-d", d);
+      var side = i < active ? "l" : "r";
+      // در RTL کارت‌های قبلی (اندیس کمتر) سمت راست‌اند
+      if (getComputedStyle(row).direction === "rtl") side = i < active ? "r" : "l";
+      if (c.getAttribute("data-side") !== side) c.setAttribute("data-side", side);
     }
-    // دکمه‌ها در ابتدا و انتهای ردیف کم‌رنگ و غیرفعال می‌شوند
-    var lim = limits(row), wrap = row.parentNode;
-    var atStart = Math.abs(row.scrollLeft - (getComputedStyle(row).direction === "rtl" ? lim[1] : lim[0])) < 2;
-    var atEnd = Math.abs(row.scrollLeft - (getComputedStyle(row).direction === "rtl" ? lim[0] : lim[1])) < 2;
+    row.__active = active;
+  }
+
+  function update(row) {
+    var L = layout(row), best = 0, bd = 1e9, cur = -1, cd = 1e9;
+    for (var i = 0; i < L.cards.length; i++) {
+      var d = Math.abs(nOf(L.cards[i], L));
+      if (d < bd) { bd = d; best = i; }
+      if (i === row.__active) { cur = i; cd = d; }
+    }
+    // لختی: تا کارت جدید واقعاً نزدیک‌تر نشده، کارت فعال عوض نمی‌شود (جلوگیری از رفت‌وبرگشت در وسط)
+    var active = (cur >= 0 && cd - bd < 0.18) ? cur : best;
+    if (active !== row.__active) applyActive(row, active);
+
+    var lim = limits(row), rtl = getComputedStyle(row).direction === "rtl", wrap = row.parentNode;
+    var atStart = Math.abs(row.scrollLeft - (rtl ? lim[1] : lim[0])) < 2;
+    var atEnd = Math.abs(row.scrollLeft - (rtl ? lim[0] : lim[1])) < 2;
     var pv = wrap.querySelector(".pd-prev"), nx = wrap.querySelector(".pd-next");
     if (pv) pv.setAttribute("aria-disabled", atStart ? "true" : "false");
     if (nx) nx.setAttribute("aria-disabled", atEnd ? "true" : "false");
@@ -69,32 +70,32 @@
     if (queued.indexOf(row) < 0) queued.push(row);
     if (queued.length === 1) requestAnimationFrame(function () {
       var q = queued; queued = [];
-      q.forEach(function (r) { if (r.isConnected) paint(r); });
+      q.forEach(function (r) { if (r.isConnected) update(r); });
     });
   }
 
   function intro(row) {                   // یک بار، وقتی ردیف برای اولین بار دیده می‌شود
-    if (reduce || row.__introDone) return;
-    row.__introDone = true; row.__spread = 0;
-    var t0 = performance.now(), dur = 1500;
-    (function step(now) {
-      var t = Math.min(1, (now - t0) / dur);
-      row.__spread = 1 - Math.pow(1 - t, 4);                 // easeOutQuart
-      paint(row);
-      if (t < 1 && row.isConnected) requestAnimationFrame(step); else row.__spread = 1;
-    })(t0);
+    if (!row.classList.contains("pp-pre")) return;
+    if (reduce) { row.classList.remove("pp-pre"); return; }
+    var cards = row.querySelectorAll(".pd-card");
+    for (var i = 0; i < cards.length; i++) cards[i].style.setProperty("--i", Math.min(i, 6));
+    row.classList.add("pp-intro");
+    requestAnimationFrame(function () { requestAnimationFrame(function () { row.classList.remove("pp-pre"); }); });
+    setTimeout(function () { row.classList.remove("pp-intro"); }, 2400);   // بعد از ورود، تأخیرها حذف شوند
   }
 
   var fanIO = IO ? new IntersectionObserver(function (es) {
-    es.forEach(function (e) { if (e.isIntersecting) { intro(e.target); schedule(e.target); } });
-  }, { threshold: 0.25 }) : null;
+    es.forEach(function (e) { if (e.isIntersecting) { intro(e.target); schedule(e.target); fanIO.unobserve(e.target); } });
+  }, { threshold: 0.2 }) : null;
 
   function addFan(row) {
     if (row.__fan) return;
     row.__fan = true;
+    row.__active = -1;
+    if (!reduce && fanIO) row.classList.add("pp-pre");     // پیش از اولین رنگ‌آمیزی پنهان می‌شود
+    update(row);
     row.addEventListener("scroll", function () { schedule(row); }, { passive: true });
     if (fanIO) fanIO.observe(row);
-    schedule(row);
     setTimeout(function () { schedule(row); }, 150);
   }
   window.addEventListener("resize", function () {
