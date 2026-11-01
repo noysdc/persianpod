@@ -59697,21 +59697,26 @@
     "status": "active"
   },
   "shab-tab-shb-tab": {
-    "avg_gap_days": 41.8,
-    "avg_length": 34,
-    "episodes": 23,
-    "eps_365": 9,
-    "eps_90": 6,
+    "avg_gap_days": 40.1,
+    "avg_length": 35,
+    "episodes": 24,
+    "eps_365": 10,
+    "eps_90": 7,
     "first_at": "2022-06-07",
     "first_year": 1401,
-    "last": "1405/07/14",
-    "last_at": "2026-10-06T15:05:02Z",
-    "last_link": "https://www.spreaker.com/episode/shb-tab-grwh-danr-qsmt-shshm-nh-chndan-njat--75524196",
-    "last_title": "شب تاب: گروه دانر - قسمت ششم: نه چندان نجات",
+    "last": "1405/08/10",
+    "last_at": "2026-11-01T21:38:20Z",
+    "last_link": "https://www.spreaker.com/episode/shb-tab-lysnkw-dr-brabr-wawyluf-qsmt-awl-tla-dr-brabr-bdhr--76120666",
+    "last_title": "شب تاب: لیسنکو در برابر واویلُف - قسمت اول: طلا در برابر بذر",
     "max_length": 52,
     "median_length": 35,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76120666/shabtab_s_06_e_01mp3.mp3",
+        "at": "2026-11-01T21:38:20Z",
+        "t": "شب تاب: لیسنکو در برابر واویلُف - قسمت اول: طلا در برابر بذر"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75524196/episode.mp3",
         "at": "2026-10-06T15:05:02Z",
@@ -59746,14 +59751,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72892775/audio.mp3",
         "at": "2026-02-03T09:00:00Z",
         "t": "ویژه: آگاهی‌بخشی: عادی نیست ولی معمولیه"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72892783/audio.mp3",
-        "at": "2025-11-18T23:56:47Z",
-        "t": "شب تاب: داروین روی کشتی بیگل - بخش پنجم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-01T21:38:20Z",
+        "link": "https://www.spreaker.com/episode/shb-tab-lysnkw-dr-brabr-wawyluf-qsmt-awl-tla-dr-brabr-bdhr--76120666",
+        "title": "شب تاب: لیسنکو در برابر واویلُف - قسمت اول: طلا در برابر بذر"
+      },
       {
         "at": "2026-10-06T15:05:02Z",
         "link": "https://www.spreaker.com/episode/shb-tab-grwh-danr-qsmt-shshm-nh-chndan-njat--75524196",
@@ -59763,11 +59768,6 @@
         "at": "2026-10-02T15:16:08Z",
         "link": "https://www.spreaker.com/episode/shb-tab-grwh-danr-qsmt-pnjm-aumyd-mtrwk--75523476",
         "title": "شب تاب: گروه دانر - قسمت پنجم: اُمید متروک"
-      },
-      {
-        "at": "2026-09-26T14:13:24Z",
-        "link": "https://www.spreaker.com/episode/shb-tab-grwh-danr-qsmt-chharm-brf--75378703",
-        "title": "شب تاب: گروه دانر - قسمت چهارم: برف"
       }
     ],
     "recent_30d": [
@@ -59782,7 +59782,7 @@
       0,
       0,
       5,
-      1
+      2
     ],
     "status": "active"
   },
