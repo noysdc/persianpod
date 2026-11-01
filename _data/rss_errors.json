@@ -28,7 +28,7 @@
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
   "baigani-ha-sda": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://musiceiranian.ir/type/audio/feed"
   },
   "bazariabi-ba-hmid-sbaghi": {
@@ -52,7 +52,7 @@
     "rss": "https://mp3movies.ir/feed"
   },
   "filmhai-sinmaii-airani": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
   "galri-film": {
