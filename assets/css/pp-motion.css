@@ -3,62 +3,84 @@
    ۲) ردیف‌های صفحه‌ی «تازه‌ها» هنگام اسکرول از دور به نزدیک می‌آیند
    ردیف‌ها با JS ساخته می‌شوند؛ pp-motion.js آن‌ها را خودکار پیدا می‌کند. بعد از بقیه‌ی CSSها لود شود. */
 
-/* ---------- ۱) بادبزنی / کاروسل سه‌بعدی ---------- */
-/* کارت بزرگ‌تر از قبل است و کارت وسط روشن‌ترین و جلوترین است؛ کارت‌های کناری کمی چرخیده، کوچک‌تر و نزدیک‌تر به هم‌اند. */
-:root .pd-group .pd-row-wrap{ --w:58cqw; }
-@container (min-width: 520px){ :root .pd-group .pd-row-wrap{ --w:36cqw; } }
-@container (min-width: 760px){ :root .pd-group .pd-row-wrap{ --w:28cqw; } }
-@container (min-width: 1000px){ :root .pd-group .pd-row-wrap{ --w:23cqw; } }
+/* ---------- ۱) بادبزنی ظریف ---------- */
+/* هر دسته یک باکس است؛ هرچه داخل ردیف است (کارت‌ها، سایه، چرخش) از لبه‌ی باکس بیرون نمی‌زند. */
+:root .pd-group{ overflow:hidden; --pp-gp:22px; --pp-pt:34px; }
+@media (max-width:1199.98px){ :root .pd-group{ --pp-gp:14px; } }
+@media (min-width:600px) and (max-width:1199.98px){ :root .pd-group{ --pp-gp:18px; } }
+@media (max-width:799px){ :root .pd-group{ --pp-pt:26px; } }
 
+/* اندازه‌ی کارت (بزرگ‌تر از قبل) */
+:root .pd-group .pd-row-wrap{ --w:62cqw; --ov:12px; }
+@container (min-width: 520px){ :root .pd-group .pd-row-wrap{ --w:38cqw; } }
+@container (min-width: 760px){ :root .pd-group .pd-row-wrap{ --w:29cqw; } }
+@container (min-width: 1000px){ :root .pd-group .pd-row-wrap{ --w:24cqw; } }
+
+/* ردیف تا لبه‌ی باکس کشیده می‌شود */
+:root .pd-group .pd-row-wrap{ margin-inline:calc(var(--pp-gp) * -1); }
 :root .pd-group .pd-row{
   gap:0;
-  /* اولین و آخرین کارت هم می‌توانند وسط بیایند؛ پس هیچ‌وقت نیمه‌بریده نمی‌مانند */
-  padding:34px calc(50% - var(--w) / 2) 64px;
-  margin-bottom:-34px;
+  padding:var(--pp-pt) calc(50% - var(--w) / 2 + var(--ov)) 44px;
+  margin-bottom:-26px;
   scroll-snap-type:x mandatory;
   scroll-padding-inline:0;
-  perspective:1100px;
-  perspective-origin:50% 45%;
-  -webkit-mask-image:linear-gradient(to right, transparent 0, #000 56px, #000 calc(100% - 56px), transparent 100%) !important;
-          mask-image:linear-gradient(to right, transparent 0, #000 56px, #000 calc(100% - 56px), transparent 100%) !important;
+  -webkit-mask-image:linear-gradient(to right, transparent 0, #000 36px, #000 calc(100% - 36px), transparent 100%) !important;
+          mask-image:linear-gradient(to right, transparent 0, #000 36px, #000 calc(100% - 36px), transparent 100%) !important;
 }
 :root .pd-group .pd-row-wrap.no-scroll .pd-row{ -webkit-mask-image:none !important; mask-image:none !important; }
-/* هر پادکست یک قاب (کارت) دارد. قاب مات است تا وقتی لبه‌ها روی هم می‌افتند زیبا و تمیز دیده شود. */
+
+/* هر پادکست یک قاب شیشه‌ای دارد؛ لبه‌ها کمی روی هم می‌افتند */
 html:not(#pp) .pd-group .pd-row .pd-card,
 html:not(#pp) .pd-group .pd-row .pd-card:hover,
 html:not(#pp) .pd-group .pd-row .pd-card:focus-within{
   max-width:none;
+  margin-inline:calc(var(--ov) * -1);
   scroll-snap-align:center;
+  scroll-snap-stop:always;               /* هر بار فقط یک کارت */
   padding:10px 10px 12px !important;
-  border:1px solid color-mix(in srgb, var(--g) calc(var(--f, 0) * 70%), var(--line)) !important;
+  border:1px solid color-mix(in srgb, var(--g) calc(var(--f, 0) * 65%), var(--gl-edge)) !important;
   border-radius:26px !important;
-  background:linear-gradient(160deg, rgba(8,203,0,.10), rgba(8,203,0,0) 55%), var(--card) !important;
+  background:var(--gl-fill) !important;
+  -webkit-backdrop-filter:blur(14px) saturate(1.5);
+          backdrop-filter:blur(14px) saturate(1.5);
   box-shadow:
-    inset 0 1px 0 rgba(255,255,255,.10),
-    0 22px 38px -22px rgba(0,0,0,.65),
-    0 0 calc(var(--f, 0) * 34px) -8px var(--glow) !important;
-  --pp-cover-radius:17px;               /* گردی کاور داخل قاب */
-  transform-origin:50% 100%;
-  will-change:transform, opacity;
+    inset 0 1px 0 var(--gl-hi),
+    0 0 0 1px var(--gl-rim),
+    0 20px 34px -22px rgba(0,0,0,.55),
+    0 0 calc(var(--f, 0) * 30px) -10px var(--glow) !important;
+  --pp-cover-radius:17px;
+  transition:none !important;            /* حرکت فقط از اسکرول می‌آید، نه از transition */
+  transform-origin:50% 130%;
   backface-visibility:hidden;
   text-align:start;
 }
 html:not(#pp) .pd-group .pd-row .pd-card[aria-current=true]{ border-color:var(--g) !important; }
-html:not(#pp) .pd-group .pd-row .pd-card .pd-logo{ box-shadow:0 0 0 1px var(--line) !important; }
-html:not(#pp) .pd-group .pd-row .pd-card .pd-desc{ display:none; }
+html:not(#pp) .pd-group .pd-row .pd-card .pd-logo{ box-shadow:0 0 0 1px var(--gl-rim) !important; }
 html:not(#pp) .pd-group .pd-row .pd-card .pd-body{ margin-top:10px; padding-inline:4px; }
 html:not(#pp) .pd-group .pd-row .pd-card .pd-body h3{ font-size:1rem; min-height:3.4em; }
 html:not(#pp) .pd-group .pd-row .pd-card .pd-meta{ padding-inline:4px; }
+html:not(#pp) .pd-group .pd-row .pd-card .pd-desc{ display:none; }
+
+/* دکمه‌های اسلایدر: همیشه (حتی موبایل)، داخل باکس، کنار کاور */
+html:not(#pp) .pd-group .pd-arrow{
+  display:grid !important; opacity:1 !important; z-index:5;
+  width:40px; height:40px;
+  top:calc(var(--pp-pt) + var(--w) / 2);
+}
+html:not(#pp) .pd-group .pd-prev{ right:calc(var(--pp-gp) + 8px); left:auto; }
+html:not(#pp) .pd-group .pd-next{ left:calc(var(--pp-gp) + 8px); right:auto; }
+html:not(#pp) .pd-group .pd-row-wrap.no-scroll .pd-arrow{ display:none !important; }
+
 @media (max-width:799px){
   html:not(#pp) .pd-group .pd-row .pd-card,
   html:not(#pp) .pd-group .pd-row .pd-card:hover,
   html:not(#pp) .pd-group .pd-row .pd-card:focus-within{ padding:8px 8px 10px !important; border-radius:22px !important; }
   html:not(#pp) .pd-group .pd-row .pd-card{ --pp-cover-radius:14px; }
   html:not(#pp) .pd-group .pd-row .pd-card .pd-body h3{ font-size:.92rem; }
+  html:not(#pp) .pd-group .pd-arrow{ width:36px; height:36px; }
   :root .pd-group .pd-row{
-    padding-block:26px 52px; margin-bottom:-26px;
-    -webkit-mask-image:linear-gradient(to right, transparent 0, #000 22px, #000 calc(100% - 22px), transparent 100%) !important;
-            mask-image:linear-gradient(to right, transparent 0, #000 22px, #000 calc(100% - 22px), transparent 100%) !important;
+    -webkit-mask-image:linear-gradient(to right, transparent 0, #000 16px, #000 calc(100% - 16px), transparent 100%) !important;
+            mask-image:linear-gradient(to right, transparent 0, #000 16px, #000 calc(100% - 16px), transparent 100%) !important;
   }
 }
 

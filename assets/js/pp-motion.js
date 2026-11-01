@@ -8,88 +8,104 @@
   var small = matchMedia("(max-width: 799px)");
   var IO = "IntersectionObserver" in window;
 
-  /* ================= ۱) بادبزنی ================= */
-  var SMOOTH = 0.07;                      // کمتر = آهسته‌تر
+  /* ================= ۱) بادبزنی ظریف ================= */
+  // کارت‌ها مستقیم با موقعیت اسکرول حرکت می‌کنند (بدون تأخیر و لرزش) و فقط کمی کوچک/کم‌رنگ/چرخیده می‌شوند.
   function P() {
     return small.matches
-      ? { rz: 3, ry: 30, z: 50, tx: 22, ty: 7, sc: 0.07, op: 0.1 }
-      : { rz: 3.5, ry: 30, z: 80, tx: 62, ty: 8, sc: 0.10, op: 0.12 };
+      ? { rz: 3.2, ty: 5, sc: 0.05, op: 0.1 }
+      : { rz: 3.6, ty: 6, sc: 0.055, op: 0.11 };
   }
 
-  var fans = [];            // ردیف‌های فعال
-  var raf = 0, last = 0;
+  function layout(row) {
+    return { cards: row.querySelectorAll(".pd-card"), cx: row.clientWidth / 2, sl: row.scrollLeft, ro: row.offsetLeft };
+  }
+  function nOf(card, L) {                 // فاصله از وسط بر حسب «تعداد کارت»؛ از موقعیت چیدمان (نه transform)
+    var w = card.offsetWidth || 1;
+    return ((card.offsetLeft - L.ro) + w / 2 - L.sl - L.cx) / w;
+  }
 
-  function addFan(row) {
-    if (row.__fan) return;
-    row.__fan = { row: row, vis: false, st: null, cards: [] };
-    fans.push(row.__fan);
-    if (IO) {
-      fanIO.observe(row);
-    } else {
-      row.__fan.vis = true; wake();
+  function paint(row) {
+    var L = layout(row), p = P();
+    for (var i = 0; i < L.cards.length; i++) {
+      var c = L.cards[i], n = nOf(c, L), an = Math.min(Math.abs(n), 2.4), sg = n < 0 ? -1 : 1;
+      if (reduce) { c.style.removeProperty("transform"); continue; }
+      var rz = sg * Math.min(an, 2) * p.rz;
+      var ty = an * an * p.ty;
+      var sc = 1.02 - an * p.sc;
+      c.style.setProperty("transform",
+        "translateY(" + ty.toFixed(2) + "px) rotate(" + rz.toFixed(2) + "deg) scale(" + sc.toFixed(4) + ")", "important");
+      c.style.opacity = Math.max(0.6, 1 - an * p.op).toFixed(3);
+      c.style.setProperty("--f", Math.max(0, 1 - an * 1.6).toFixed(3));
+      c.style.zIndex = String(100 - Math.round(an * 10));
     }
-    row.addEventListener("scroll", wake, { passive: true });
+  }
+
+  var queued = [];
+  function schedule(row) {
+    if (queued.indexOf(row) < 0) queued.push(row);
+    if (queued.length === 1) requestAnimationFrame(function () {
+      var q = queued; queued = [];
+      q.forEach(function (r) { if (r.isConnected) paint(r); });
+    });
   }
 
   var fanIO = IO ? new IntersectionObserver(function (es) {
-    es.forEach(function (e) { e.target.__fan.vis = e.isIntersecting; });
-    wake();
-  }, { rootMargin: "150px" }) : null;
+    es.forEach(function (e) { if (e.isIntersecting) schedule(e.target); });
+  }, { rootMargin: "100px" }) : null;
 
-  function wake() { if (!raf) raf = requestAnimationFrame(tick); }
-
-  function tick(now) {
-    var dt = last ? Math.min(now - last, 50) : 16.7;
-    last = now;
-    var k = 1 - Math.pow(1 - SMOOTH, dt / 16.7);   // نرمی مستقل از نرخ فریم
-    var p = P(), busy = false;
-
-    fans = fans.filter(function (f) { return f.row.isConnected; });
-    fans.forEach(function (f) {
-      if (!f.vis) return;
-      var cards = f.row.querySelectorAll(".pd-card");
-      if (cards.length !== f.cards.length) { f.st = null; }       // ردیف دوباره ساخته شد
-      f.cards = cards;
-      var cx = f.row.clientWidth / 2;
-      var sl = f.row.scrollLeft, ro = f.row.offsetLeft;
-      var fresh = !f.st;
-      if (fresh) f.st = [];
-
-      for (var i = 0; i < cards.length; i++) {
-        // از موقعیت چیدمان (نه getBoundingClientRect) می‌خوانیم تا transform خودِ کارت روی محاسبه اثر نگذارد
-        var w = cards[i].offsetWidth || 1;
-        var n = ((cards[i].offsetLeft - ro) + w / 2 - sl - cx) / w;   // فاصله از وسط، بر حسب «تعداد کارت» (۱ = کارت کناری)
-        var an = Math.min(Math.abs(n), 3), sg = n < 0 ? -1 : 1;
-        var t = reduce ? { rz: 0, ry: 0, z: 0, x: 0, y: 0, s: 1, o: 1, f: 0 } : {
-          rz: sg * Math.min(an, 2.2) * p.rz,                 // کمی چرخش مثل بادبزن
-          ry: -sg * Math.min(an, 1.6) / 1.6 * p.ry,          // رو به وسط می‌چرخد (کاروسل)
-          z: -Math.min(an, 2) * p.z,                         // عقب‌تر می‌رود
-          x: -sg * an * p.tx,                                // به هم نزدیک‌تر می‌شوند
-          y: an * an * p.ty,
-          s: 1.05 - Math.min(an, 2.5) * p.sc,
-          o: Math.max(0.45, 1 - an * p.op),
-          f: Math.max(0, 1 - an * 1.5)               // کارت وسط کمی درخشان می‌شود
-        };
-        var s = f.st[i] || (f.st[i] = {});
-        for (var key in t) {
-          if (s[key] === undefined) s[key] = t[key];          // اولین بار بدون پرش
-          var diff = t[key] - s[key];
-          if (Math.abs(diff) > 0.003) busy = true;
-          s[key] += diff * (fresh ? 1 : k);
-        }
-        cards[i].style.setProperty("transform",
-          "translateX(" + s.x.toFixed(2) + "px) translateY(" + s.y.toFixed(2) + "px) translateZ(" + s.z.toFixed(1) + "px) " +
-          "rotateY(" + s.ry.toFixed(2) + "deg) rotate(" + s.rz.toFixed(2) + "deg) scale(" + s.s.toFixed(4) + ")", "important");
-        cards[i].style.opacity = s.o.toFixed(3);
-        cards[i].style.setProperty("--f", s.f.toFixed(3));
-        cards[i].style.zIndex = String(100 - Math.round(an * 10));
-      }
-    });
-
-    if (busy) { raf = requestAnimationFrame(tick); }
-    else { raf = 0; last = 0; }
+  function addFan(row) {
+    if (row.__fan) return;
+    row.__fan = true;
+    row.addEventListener("scroll", function () { schedule(row); }, { passive: true });
+    if (fanIO) fanIO.observe(row);
+    schedule(row);
+    setTimeout(function () { schedule(row); }, 150);
   }
-  window.addEventListener("resize", wake);
+  window.addEventListener("resize", function () {
+    [].forEach.call(document.querySelectorAll(".pd-group .pd-row"), schedule);
+  });
+
+  /* ---- دکمه‌های اسلایدر: هر بار دقیقاً یک کارت، با حرکت آرام ---- */
+  var anim = new WeakMap();
+  function ease(t) { return t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; }   // easeInOutCubic
+
+  function centeredIndex(row) {
+    var L = layout(row), best = 0, bd = 1e9;
+    for (var i = 0; i < L.cards.length; i++) { var d = Math.abs(nOf(L.cards[i], L)); if (d < bd) { bd = d; best = i; } }
+    return best;
+  }
+  function targetLeft(row, idx) {
+    var L = layout(row), c = L.cards[idx];
+    return (c.offsetLeft - L.ro) + c.offsetWidth / 2 - L.cx;
+  }
+  function goTo(row, idx) {
+    var cards = row.querySelectorAll(".pd-card");
+    idx = Math.max(0, Math.min(cards.length - 1, idx));
+    var from = row.scrollLeft, to = targetLeft(row, idx);
+    var st = anim.get(row); if (st) cancelAnimationFrame(st.raf);
+    if (reduce || Math.abs(to - from) < 1) { row.style.scrollSnapType = ""; row.scrollLeft = to; anim.delete(row); return; }
+    var dur = 900, t0 = performance.now();
+    row.style.scrollSnapType = "none";                 // وسط حرکت، snap مزاحم نشود
+    var rec = { idx: idx, raf: 0 };
+    anim.set(row, rec);
+    (function step(now) {
+      var t = Math.min(1, (now - t0) / dur);
+      row.scrollLeft = from + (to - from) * ease(t);
+      if (t < 1) rec.raf = requestAnimationFrame(step);
+      else { row.style.scrollSnapType = ""; anim.delete(row); }
+    })(t0);
+  }
+
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest(".pd-group .pd-arrow");
+    if (!a) return;
+    var row = a.parentNode.querySelector(".pd-row");
+    if (!row) return;
+    e.stopImmediatePropagation(); e.preventDefault();   // کلیک را از اسکریپت قدیمی (که چند کارت می‌پرید) می‌گیریم
+    var rec = anim.get(row);
+    var cur = rec ? rec.idx : centeredIndex(row);
+    goTo(row, cur + (a.getAttribute("data-dir") === "next" ? 1 : -1));
+  }, true);
 
   /* ================= ۲) ورود از دور به نزدیک ================= */
   var seen = {};            // ردیف‌هایی که یک‌بار نمایش داده شده‌اند؛ با بازسازی ۳۰ ثانیه‌ایِ فهرست دوباره حرکت نکنند
