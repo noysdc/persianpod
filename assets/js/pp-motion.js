@@ -9,11 +9,11 @@
   var IO = "IntersectionObserver" in window;
 
   /* ================= ۱) بادبزنی ================= */
-  var SMOOTH = 0.04;                      // کمتر = آهسته‌تر و نرم‌تر
+  var SMOOTH = 0.07;                      // کمتر = آهسته‌تر
   function P() {
     return small.matches
-      ? { angle: 5, drop: 10, shrink: 0.05, fade: 0.22 }   // موبایل: ملایم، تا لبه‌ها بیرون نزنند
-      : { angle: 7, drop: 14, shrink: 0.07, fade: 0.28 };
+      ? { rz: 3, ry: 30, z: 50, tx: 22, ty: 7, sc: 0.07, op: 0.1 }
+      : { rz: 3.5, ry: 30, z: 80, tx: 62, ty: 8, sc: 0.10, op: 0.12 };
   }
 
   var fans = [];            // ردیف‌های فعال
@@ -50,31 +50,39 @@
       var cards = f.row.querySelectorAll(".pd-card");
       if (cards.length !== f.cards.length) { f.st = null; }       // ردیف دوباره ساخته شد
       f.cards = cards;
-      var rr = f.row.getBoundingClientRect();
-      var cx = rr.left + rr.width / 2, half = rr.width / 2 || 1;
+      var cx = f.row.clientWidth / 2;
+      var sl = f.row.scrollLeft, ro = f.row.offsetLeft;
       var fresh = !f.st;
       if (fresh) f.st = [];
 
       for (var i = 0; i < cards.length; i++) {
-        var b = cards[i].getBoundingClientRect();
-        var d = ((b.left + b.width / 2) - cx) / half;            // حدود ۱- تا ۱
-        var ad = Math.min(Math.abs(d), 1.2);
-        var t = reduce ? { r: 0, y: 0, s: 1, o: 1 } : {
-          r: Math.max(-p.angle * 1.2, Math.min(p.angle * 1.2, d * p.angle)),
-          y: ad * ad * p.drop,
-          s: 1 - ad * p.shrink,
-          o: 1 - ad * p.fade
+        // از موقعیت چیدمان (نه getBoundingClientRect) می‌خوانیم تا transform خودِ کارت روی محاسبه اثر نگذارد
+        var w = cards[i].offsetWidth || 1;
+        var n = ((cards[i].offsetLeft - ro) + w / 2 - sl - cx) / w;   // فاصله از وسط، بر حسب «تعداد کارت» (۱ = کارت کناری)
+        var an = Math.min(Math.abs(n), 3), sg = n < 0 ? -1 : 1;
+        var t = reduce ? { rz: 0, ry: 0, z: 0, x: 0, y: 0, s: 1, o: 1, f: 0 } : {
+          rz: sg * Math.min(an, 2.2) * p.rz,                 // کمی چرخش مثل بادبزن
+          ry: -sg * Math.min(an, 1.6) / 1.6 * p.ry,          // رو به وسط می‌چرخد (کاروسل)
+          z: -Math.min(an, 2) * p.z,                         // عقب‌تر می‌رود
+          x: -sg * an * p.tx,                                // به هم نزدیک‌تر می‌شوند
+          y: an * an * p.ty,
+          s: 1.05 - Math.min(an, 2.5) * p.sc,
+          o: Math.max(0.45, 1 - an * p.op),
+          f: Math.max(0, 1 - an * 1.5)               // کارت وسط کمی درخشان می‌شود
         };
-        var s = f.st[i] || (f.st[i] = { r: t.r, y: t.y, s: t.s, o: t.o });   // اولین بار بدون پرش
+        var s = f.st[i] || (f.st[i] = {});
         for (var key in t) {
+          if (s[key] === undefined) s[key] = t[key];          // اولین بار بدون پرش
           var diff = t[key] - s[key];
-          if (Math.abs(diff) > 0.002) busy = true;
+          if (Math.abs(diff) > 0.003) busy = true;
           s[key] += diff * (fresh ? 1 : k);
         }
-        // important: قانون hover سایت (transform:none !important) نباید حرکت را قطع کند
         cards[i].style.setProperty("transform",
-          "translateY(" + s.y.toFixed(2) + "px) rotate(" + s.r.toFixed(2) + "deg) scale(" + s.s.toFixed(4) + ")", "important");
+          "translateX(" + s.x.toFixed(2) + "px) translateY(" + s.y.toFixed(2) + "px) translateZ(" + s.z.toFixed(1) + "px) " +
+          "rotateY(" + s.ry.toFixed(2) + "deg) rotate(" + s.rz.toFixed(2) + "deg) scale(" + s.s.toFixed(4) + ")", "important");
         cards[i].style.opacity = s.o.toFixed(3);
+        cards[i].style.setProperty("--f", s.f.toFixed(3));
+        cards[i].style.zIndex = String(100 - Math.round(an * 10));
       }
     });
 

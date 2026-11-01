@@ -3,21 +3,63 @@
    ۲) ردیف‌های صفحه‌ی «تازه‌ها» هنگام اسکرول از دور به نزدیک می‌آیند
    ردیف‌ها با JS ساخته می‌شوند؛ pp-motion.js آن‌ها را خودکار پیدا می‌کند. بعد از بقیه‌ی CSSها لود شود. */
 
-/* ---------- ۱) بادبزنی ---------- */
-/* فضای بالا/پایین برای گوشه‌های کارتِ چرخیده و فضای دو طرف برای اینکه کارت اول و آخر از کادر بیرون نزنند.
-   margin منفی پایین، فاصله‌ی کلی صفحه را مثل قبل نگه می‌دارد. */
+/* ---------- ۱) بادبزنی / کاروسل سه‌بعدی ---------- */
+/* کارت بزرگ‌تر از قبل است و کارت وسط روشن‌ترین و جلوترین است؛ کارت‌های کناری کمی چرخیده، کوچک‌تر و نزدیک‌تر به هم‌اند. */
+:root .pd-group .pd-row-wrap{ --w:58cqw; }
+@container (min-width: 520px){ :root .pd-group .pd-row-wrap{ --w:36cqw; } }
+@container (min-width: 760px){ :root .pd-group .pd-row-wrap{ --w:28cqw; } }
+@container (min-width: 1000px){ :root .pd-group .pd-row-wrap{ --w:23cqw; } }
+
 :root .pd-group .pd-row{
-  padding:12px 30px 40px;
-  margin-bottom:-24px;
-  scroll-padding-inline:30px;
+  gap:0;
+  /* اولین و آخرین کارت هم می‌توانند وسط بیایند؛ پس هیچ‌وقت نیمه‌بریده نمی‌مانند */
+  padding:34px calc(50% - var(--w) / 2) 64px;
+  margin-bottom:-34px;
+  scroll-snap-type:x mandatory;
+  scroll-padding-inline:0;
+  perspective:1100px;
+  perspective-origin:50% 45%;
+  -webkit-mask-image:linear-gradient(to right, transparent 0, #000 56px, #000 calc(100% - 56px), transparent 100%) !important;
+          mask-image:linear-gradient(to right, transparent 0, #000 56px, #000 calc(100% - 56px), transparent 100%) !important;
 }
-:root .pd-group .pd-row .pd-card{
-  transform-origin:50% 120%;           /* محور چرخش کمی پایین‌تر از کارت = بازشدن مثل بادبزن */
+:root .pd-group .pd-row-wrap.no-scroll .pd-row{ -webkit-mask-image:none !important; mask-image:none !important; }
+/* هر پادکست یک قاب (کارت) دارد. قاب مات است تا وقتی لبه‌ها روی هم می‌افتند زیبا و تمیز دیده شود. */
+html:not(#pp) .pd-group .pd-row .pd-card,
+html:not(#pp) .pd-group .pd-row .pd-card:hover,
+html:not(#pp) .pd-group .pd-row .pd-card:focus-within{
+  max-width:none;
+  scroll-snap-align:center;
+  padding:10px 10px 12px !important;
+  border:1px solid color-mix(in srgb, var(--g) calc(var(--f, 0) * 70%), var(--line)) !important;
+  border-radius:26px !important;
+  background:linear-gradient(160deg, rgba(8,203,0,.10), rgba(8,203,0,0) 55%), var(--card) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.10),
+    0 22px 38px -22px rgba(0,0,0,.65),
+    0 0 calc(var(--f, 0) * 34px) -8px var(--glow) !important;
+  --pp-cover-radius:17px;               /* گردی کاور داخل قاب */
+  transform-origin:50% 100%;
   will-change:transform, opacity;
   backface-visibility:hidden;
+  text-align:start;
 }
+html:not(#pp) .pd-group .pd-row .pd-card[aria-current=true]{ border-color:var(--g) !important; }
+html:not(#pp) .pd-group .pd-row .pd-card .pd-logo{ box-shadow:0 0 0 1px var(--line) !important; }
+html:not(#pp) .pd-group .pd-row .pd-card .pd-desc{ display:none; }
+html:not(#pp) .pd-group .pd-row .pd-card .pd-body{ margin-top:10px; padding-inline:4px; }
+html:not(#pp) .pd-group .pd-row .pd-card .pd-body h3{ font-size:1rem; min-height:3.4em; }
+html:not(#pp) .pd-group .pd-row .pd-card .pd-meta{ padding-inline:4px; }
 @media (max-width:799px){
-  :root .pd-group .pd-row{ padding-inline:26px; scroll-padding-inline:26px; }
+  html:not(#pp) .pd-group .pd-row .pd-card,
+  html:not(#pp) .pd-group .pd-row .pd-card:hover,
+  html:not(#pp) .pd-group .pd-row .pd-card:focus-within{ padding:8px 8px 10px !important; border-radius:22px !important; }
+  html:not(#pp) .pd-group .pd-row .pd-card{ --pp-cover-radius:14px; }
+  html:not(#pp) .pd-group .pd-row .pd-card .pd-body h3{ font-size:.92rem; }
+  :root .pd-group .pd-row{
+    padding-block:26px 52px; margin-bottom:-26px;
+    -webkit-mask-image:linear-gradient(to right, transparent 0, #000 22px, #000 calc(100% - 22px), transparent 100%) !important;
+            mask-image:linear-gradient(to right, transparent 0, #000 22px, #000 calc(100% - 22px), transparent 100%) !important;
+  }
 }
 
 /* ---------- ۲) ورود از دور به نزدیک ---------- */
