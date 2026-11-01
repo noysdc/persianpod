@@ -84,8 +84,8 @@
       0,
       1,
       1,
-      1,
-      2
+      2,
+      1
     ],
     "status": "active"
   },
@@ -1344,8 +1344,8 @@
       0,
       0,
       0,
-      0,
-      2,
+      1,
+      1,
       2,
       0,
       1,
@@ -2253,7 +2253,7 @@
     "avg_length": 8,
     "episodes": 83,
     "eps_365": 83,
-    "eps_90": 56,
+    "eps_90": 55,
     "first_at": "2026-07-06",
     "first_year": 1405,
     "last": "1405/08/09",
@@ -2331,8 +2331,8 @@
       0,
       0,
       0,
-      27,
-      34,
+      28,
+      33,
       15,
       7
     ],
@@ -8190,7 +8190,7 @@
     "avg_length": 46,
     "episodes": 57,
     "eps_365": 13,
-    "eps_90": 7,
+    "eps_90": 6,
     "first_at": "2021-03-09",
     "first_year": 1399,
     "last": "1405/07/15",
@@ -8268,8 +8268,8 @@
       0,
       0,
       2,
-      4,
-      4,
+      5,
+      3,
       1,
       2
     ],
@@ -8354,8 +8354,8 @@
       6,
       2,
       1,
-      5,
-      12,
+      6,
+      11,
       7,
       5,
       5,
@@ -10156,7 +10156,7 @@
     "avg_gap_days": 8.4,
     "avg_length": 19,
     "episodes": 362,
-    "eps_365": 29,
+    "eps_365": 28,
     "eps_90": 0,
     "first_at": "2020-05-30",
     "first_year": 1399,
@@ -19648,7 +19648,7 @@
       }
     ],
     "recent_30d": [
-      2,
+      1,
       2,
       0,
       1,
@@ -20545,8 +20545,8 @@
     "recent_30d": [
       14,
       10,
-      2,
-      9,
+      3,
+      8,
       0,
       0,
       4,
@@ -21079,7 +21079,7 @@
       }
     ],
     "recent_30d": [
-      50,
+      49,
       31,
       17,
       0,
@@ -22386,8 +22386,8 @@
     "recent_30d": [
       4,
       4,
-      4,
-      1,
+      5,
+      0,
       0,
       0,
       0,
@@ -35733,7 +35733,7 @@
     "avg_gap_days": 0.2,
     "avg_length": 8,
     "episodes": 46,
-    "eps_365": 45,
+    "eps_365": 44,
     "eps_90": 0,
     "first_at": "2025-10-31",
     "first_year": 1404,
@@ -42338,8 +42338,8 @@
       0,
       0,
       11,
-      2,
-      4,
+      3,
+      3,
       4
     ],
     "status": "active"
@@ -43151,10 +43151,10 @@
     "status": "active"
   },
   "podcast-hosh-msnoai": {
-    "avg_gap_days": 28.5,
+    "avg_gap_days": 30.7,
     "avg_length": 49,
     "episodes": 28,
-    "eps_365": 12,
+    "eps_365": 11,
     "eps_90": 1,
     "first_at": "2025-08-05",
     "first_year": 1404,
@@ -43226,8 +43226,8 @@
     ],
     "recent_30d": [
       4,
-      3,
-      1,
+      4,
+      0,
       2,
       0,
       0,
@@ -43943,8 +43943,8 @@
     "recent_30d": [
       1,
       1,
-      0,
       1,
+      0,
       0,
       0,
       1,
@@ -44033,8 +44033,8 @@
     "recent_30d": [
       5,
       0,
-      2,
-      2,
+      3,
+      1,
       0,
       0,
       6,
@@ -45200,8 +45200,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       0,
       3,
@@ -46647,7 +46647,7 @@
     "avg_gap_days": 6.3,
     "avg_length": 19,
     "episodes": 90,
-    "eps_365": 59,
+    "eps_365": 58,
     "eps_90": 21,
     "first_at": "2025-02-10",
     "first_year": 1403,
@@ -46718,8 +46718,8 @@
       }
     ],
     "recent_30d": [
-      7,
       8,
+      7,
       0,
       4,
       0,
@@ -46727,8 +46727,8 @@
       2,
       9,
       6,
-      5,
-      8,
+      6,
+      7,
       8
     ],
     "status": "active"
@@ -46989,8 +46989,8 @@
       5,
       7,
       2,
-      9,
       10,
+      9,
       12,
       4,
       2,
@@ -49238,36 +49238,20 @@
     "status": "active"
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
-    "avg_gap_days": 0.0,
-    "avg_length": 54,
-    "episodes": 80,
-    "eps_365": 3,
-    "eps_90": 3,
+    "avg_length": 53,
+    "episodes": 77,
+    "eps_365": 0,
+    "eps_90": 0,
     "first_at": "2023-05-06",
     "first_year": 1402,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T05:10:53Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-3-e3rh7ru",
-    "last_title": "Ebtehaj, Abolhassan Part 3",
-    "max_length": 63,
-    "median_length": 52,
+    "last": "1402/03/21",
+    "last_at": "2023-06-11T20:13:10Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nazih--Hassan-Part-10-e25jccl",
+    "last_title": "Nazih, Hassan Part 10",
+    "max_length": 62,
+    "median_length": 48,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128539966/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F2ab0e766-892f-b752-a5fa-9d6ddec4ed19.mp3",
-        "at": "2026-11-01T05:10:53Z",
-        "t": "Ebtehaj, Abolhassan Part 3"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128539897/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F5d9ee511-9265-26dd-f684-695b854032bc.mp3",
-        "at": "2026-11-01T05:08:49Z",
-        "t": "Ebtehaj, Abolhassan Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128539390/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F9b51b3a0-d82c-1d8d-4f79-1608e8ce2c1c.mp3",
-        "at": "2026-11-01T05:01:48Z",
-        "t": "Ebtehaj, Abolhassan Part 1"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/71987029/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2Fe0e08694%2F71987029%2F284bdbc8e98b86392c49c9251cc994d7.m4a",
         "at": "2023-06-11T20:13:10Z",
@@ -49292,23 +49276,38 @@
         "a": "https://anchor.fm/s/e0e08694/podcast/play/70317146/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-13%2F329326300-44100-2-55563ec8ce464.m4a",
         "at": "2023-05-13T15:20:20Z",
         "t": "Nazih, Hassan Part 6"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/70317054/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2Fe0e08694%2F70317054%2Fb7d59a3f7c1f3eb23a79e1ea8a8b0d5a.m4a",
+        "at": "2023-05-13T15:16:23Z",
+        "t": "Nazih, Hassan Part 5"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/70316563/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2Fe0e08694%2F70316563%2F8b53e80912774a29c868a630bb88d7c3.m4a",
+        "at": "2023-05-13T15:00:48Z",
+        "t": "Nazih, Hassan Part 4"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/70271169/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-12%2F329187207-44100-2-c0fba57eacbf9.m4a",
+        "at": "2023-05-12T16:46:03Z",
+        "t": "Nazih, Hassan Part 3"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-01T05:10:53Z",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-3-e3rh7ru",
-        "title": "Ebtehaj, Abolhassan Part 3"
+        "at": "2023-06-11T20:13:10Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nazih--Hassan-Part-10-e25jccl",
+        "title": "Nazih, Hassan Part 10"
       },
       {
-        "at": "2026-11-01T05:08:49Z",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-2-e3rh7pp",
-        "title": "Ebtehaj, Abolhassan Part 2"
+        "at": "2023-06-11T20:11:56Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nazih--Hassan-Part-9-e25jcb6",
+        "title": "Nazih, Hassan Part 9"
       },
       {
-        "at": "2026-11-01T05:01:48Z",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-1-e3rh79u",
-        "title": "Ebtehaj, Abolhassan Part 1"
+        "at": "2023-06-11T20:05:25Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nazih--Hassan-Part-8-e25jc06",
+        "title": "Nazih, Hassan Part 8"
       }
     ],
     "recent_30d": [
@@ -49323,9 +49322,9 @@
       0,
       0,
       0,
-      3
+      0
     ],
-    "status": "active"
+    "status": "inactive"
   },
   "prssh-o-paskh-bh-soalat-syo": {
     "avg_length": 6,
@@ -51738,10 +51737,10 @@
     "status": "active"
   },
   "radio-mnahj": {
-    "avg_gap_days": 5.0,
+    "avg_gap_days": 5.1,
     "avg_length": 45,
     "episodes": 251,
-    "eps_365": 73,
+    "eps_365": 72,
     "eps_90": 14,
     "first_at": "2023-08-10",
     "first_year": 1402,
@@ -52186,7 +52185,7 @@
     "avg_length": 14,
     "episodes": 51,
     "eps_365": 30,
-    "eps_90": 23,
+    "eps_90": 22,
     "first_at": "2020-05-16",
     "first_year": 1399,
     "last": "1405/07/16",
@@ -52264,8 +52263,8 @@
       0,
       0,
       0,
-      5,
-      12,
+      6,
+      11,
       10,
       1
     ],
@@ -56360,9 +56359,9 @@
       }
     ],
     "recent_30d": [
-      22,
-      11,
-      6,
+      21,
+      12,
+      5,
       18,
       0,
       0,
@@ -56370,8 +56369,8 @@
       0,
       0,
       0,
-      6,
-      20
+      7,
+      19
     ],
     "status": "active"
   },
@@ -62754,7 +62753,7 @@
     "avg_length": 23,
     "episodes": 404,
     "eps_365": 260,
-    "eps_90": 115,
+    "eps_90": 114,
     "first_at": "2024-08-22",
     "first_year": 1403,
     "last": "1405/08/06",
@@ -62832,8 +62831,8 @@
       4,
       16,
       7,
-      13,
-      40,
+      14,
+      39,
       42,
       33
     ],
@@ -63543,8 +63542,8 @@
     "recent_30d": [
       4,
       4,
-      4,
-      4,
+      5,
+      3,
       1,
       2,
       5,
