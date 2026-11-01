@@ -55,21 +55,22 @@ html:not(#pp) .pd-group .pd-row .pd-card:focus-within{
   transform:translateY(var(--ty)) rotate(var(--rz)) scale(var(--sc)) !important;
   transform-origin:50% 120%;
   opacity:var(--op);
-  z-index:calc(10 - var(--d, 3));
+  z-index:7;
   text-align:start;
   /* حرکت سنگین: شروع نرم، ادامه‌ی آرام، توقف بسیار نرم */
   transition:
-    transform 1.25s cubic-bezier(.22,.61,.21,1),
-    opacity 1.25s cubic-bezier(.22,.61,.21,1),
-    box-shadow 1.25s ease,
-    border-color 1.25s ease !important;
+    transform .85s cubic-bezier(.33,.1,.2,1),
+    opacity .85s cubic-bezier(.33,.1,.2,1),
+    box-shadow .85s ease,
+    border-color .85s ease !important;
 }
-/* حالت هر کارت بر اساس فاصله‌اش از کارت فعال (data-d) و سمتش (data-side) */
+/* حالت هر کارت بر اساس فاصله‌اش از کارت فعال (data-d) و سمتش (data-side).
+   کوچک‌شدن کم است تا بین کارت‌ها فاصله‌ی ناخواسته باز نشود؛ ترتیب لایه‌ها هم از وسط به بیرون است (کارت فعال همیشه روی بقیه). */
 html:not(#pp) .pd-group .pd-row .pd-card[data-side="l"]{ --sg:-1; }
-html:not(#pp) .pd-group .pd-row .pd-card[data-d="0"]{ --glow-a:1; }
-html:not(#pp) .pd-group .pd-row .pd-card[data-d="1"]{ --rz:calc(var(--sg) * 1.4deg); --ty:3px;  --sc:.965; --op:.9; }
-html:not(#pp) .pd-group .pd-row .pd-card[data-d="2"]{ --rz:calc(var(--sg) * 2.4deg); --ty:7px;  --sc:.93;  --op:.78; }
-html:not(#pp) .pd-group .pd-row .pd-card[data-d="3"]{ --rz:calc(var(--sg) * 3deg);   --ty:10px; --sc:.9;   --op:.66; }
+html:not(#pp) .pd-group .pd-row .pd-card[data-d="0"]{ --glow-a:1; z-index:10; }
+html:not(#pp) .pd-group .pd-row .pd-card[data-d="1"]{ --rz:calc(var(--sg) * 1.2deg); --ty:2px; --sc:.975; --op:.92; z-index:9; }
+html:not(#pp) .pd-group .pd-row .pd-card[data-d="2"]{ --rz:calc(var(--sg) * 2deg);   --ty:4px; --sc:.95;  --op:.82; z-index:8; }
+html:not(#pp) .pd-group .pd-row .pd-card[data-d="3"]{ --rz:calc(var(--sg) * 2.4deg); --ty:6px; --sc:.94;  --op:.72; z-index:7; }
 html:not(#pp) .pd-group .pd-row .pd-card[aria-current=true]{ border-color:var(--g) !important; }
 html:not(#pp) .pd-group .pd-row .pd-card .pd-logo{ box-shadow:0 0 0 1px var(--gl-rim) !important; }
 html:not(#pp) .pd-group .pd-row .pd-card .pd-body{ margin-top:10px; padding-inline:4px; }
