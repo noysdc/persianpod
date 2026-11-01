@@ -8358,8 +8358,8 @@
       0,
       2,
       5,
-      3,
-      1,
+      4,
+      0,
       2
     ],
     "status": "active"
@@ -16806,7 +16806,7 @@
     "avg_length": 53,
     "episodes": 86,
     "eps_365": 15,
-    "eps_90": 4,
+    "eps_90": 3,
     "first_at": "2021-10-08",
     "first_year": 1400,
     "last": "1405/07/25",
@@ -16884,8 +16884,8 @@
       0,
       0,
       0,
-      11,
-      2,
+      12,
+      1,
       1,
       1
     ],
@@ -46473,21 +46473,26 @@
     "status": "active"
   },
   "podcast-mhrangiz": {
-    "avg_gap_days": 28.1,
-    "avg_length": 61,
-    "episodes": 111,
-    "eps_365": 13,
-    "eps_90": 4,
+    "avg_gap_days": 26.5,
+    "avg_length": 59,
+    "episodes": 112,
+    "eps_365": 14,
+    "eps_90": 5,
     "first_at": "2022-12-10",
     "first_year": 1401,
-    "last": "1405/08/03",
-    "last_at": "2026-10-25T21:37:41Z",
-    "last_link": "https://shows.acast.com/mehrangizpodcast/episodes/6ade76a4025813dc0c3221a0",
-    "last_title": "پژوهش‌های تامل‌برانگیز: یه‌قلوی دوتخمی!",
+    "last": "1405/08/10",
+    "last_at": "2026-11-01T20:31:29Z",
+    "last_link": "https://shows.acast.com/mehrangizpodcast/episodes/6ae7a1a3339f23a7265c95cf",
+    "last_title": "ساپولسکی‌خوانی با رضاامیر",
     "max_length": 122,
     "median_length": 47,
     "min_length": 17,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6394d717c268530011f8301f/e/6ae7a1a3339f23a7265c95cf/media.mp3",
+        "at": "2026-11-01T20:31:29Z",
+        "t": "ساپولسکی‌خوانی با رضاامیر"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6394d717c268530011f8301f/e/6ade76a4025813dc0c3221a0/media.mp3",
         "at": "2026-10-25T21:37:41Z",
@@ -46522,14 +46527,14 @@
         "a": "https://sphinx.acast.com/p/open/s/6394d717c268530011f8301f/e/6a253123250fa4918b52172f/media.mp3",
         "at": "2026-06-07T08:51:46Z",
         "t": "چرا همکاری می‌کنیم؟/ پنج: با اجازه، ما رفتیم!"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6394d717c268530011f8301f/e/69a19404240faaa9b5019488/media.mp3",
-        "at": "2026-02-27T12:54:28Z",
-        "t": "چرا همکاری می‌کنیم؟/چهار: با دوستان مروت، با دشمنان چه کارا؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-01T20:31:29Z",
+        "link": "https://shows.acast.com/mehrangizpodcast/episodes/6ae7a1a3339f23a7265c95cf",
+        "title": "ساپولسکی‌خوانی با رضاامیر"
+      },
       {
         "at": "2026-10-25T21:37:41Z",
         "link": "https://shows.acast.com/mehrangizpodcast/episodes/6ade76a4025813dc0c3221a0",
@@ -46539,11 +46544,6 @@
         "at": "2026-10-12T12:22:34Z",
         "link": "https://shows.acast.com/mehrangizpodcast/episodes/6accd10b7c5c47f85e9a22ec",
         "title": "اپیزود مهمان از پادکست گاوگیجه: خلاصۀ کتاب «مغز ایدئولوژی‌زده»"
-      },
-      {
-        "at": "2026-09-14T04:14:33Z",
-        "link": "https://shows.acast.com/mehrangizpodcast/episodes/6aa774aa1563582c05beba02",
-        "title": "خلاصۀ کتاب «زندگی پنهان ضمیرها»"
       }
     ],
     "recent_30d": [
@@ -46558,7 +46558,7 @@
       2,
       1,
       1,
-      2
+      3
     ],
     "status": "active"
   },
@@ -51039,19 +51039,39 @@
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
     "avg_length": 54,
-    "episodes": 80,
-    "eps_365": 3,
-    "eps_90": 3,
+    "episodes": 84,
+    "eps_365": 7,
+    "eps_90": 7,
     "first_at": "2023-05-06",
     "first_year": 1402,
     "last": "1405/08/10",
-    "last_at": "2026-11-01T05:10:53Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-3-e3rh7ru",
-    "last_title": "Ebtehaj, Abolhassan Part 3",
+    "last_at": "2026-11-01T20:32:02Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-7-e3rictq",
+    "last_title": "Ebtehaj, Abolhassan Part 7",
     "max_length": 63,
-    "median_length": 52,
+    "median_length": 54,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128577914/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2Fb3a764c7-dd64-f12d-7206-906f68bd6158.mp3",
+        "at": "2026-11-01T20:32:02Z",
+        "t": "Ebtehaj, Abolhassan Part 7"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128577784/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F030e552d-e58d-186d-dfa8-e4a5fc9b7bd4.mp3",
+        "at": "2026-11-01T20:30:10Z",
+        "t": "Ebtehaj, Abolhassan Part 6"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128577738/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F54f954c9-3a26-1a12-eaa5-164c42d78707.mp3",
+        "at": "2026-11-01T20:27:25Z",
+        "t": "Ebtehaj, Abolhassan Part 5"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128577638/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F4ae7ad6b-36ab-5cdd-f331-426f60b09fd1.mp3",
+        "at": "2026-11-01T20:25:47Z",
+        "t": "Ebtehaj, Abolhassan Part 4"
+      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128539966/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F2ab0e766-892f-b752-a5fa-9d6ddec4ed19.mp3",
         "at": "2026-11-01T05:10:53Z",
@@ -51071,43 +51091,23 @@
         "a": "https://anchor.fm/s/e0e08694/podcast/play/71987029/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2Fe0e08694%2F71987029%2F284bdbc8e98b86392c49c9251cc994d7.m4a",
         "at": "2023-06-11T20:13:10Z",
         "t": "Nazih, Hassan Part 10"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/71986982/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2Fe0e08694%2F71986982%2F31647c840ce7b67276f473e50bbf1499.m4a",
-        "at": "2023-06-11T20:11:56Z",
-        "t": "Nazih, Hassan Part 9"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/71986630/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2Fe0e08694%2F71986630%2F60813ed54d3970764cf6608392c8acb7.m4a",
-        "at": "2023-06-11T20:05:25Z",
-        "t": "Nazih, Hassan Part 8"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/70317385/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2Fe0e08694%2F70317385%2F9ace7c364f1c4721a641c3ea36f2cd19.m4a",
-        "at": "2023-05-13T15:28:56Z",
-        "t": "Nazih, Hassan Part 7"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/70317146/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-4-13%2F329326300-44100-2-55563ec8ce464.m4a",
-        "at": "2023-05-13T15:20:20Z",
-        "t": "Nazih, Hassan Part 6"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-01T05:10:53Z",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-3-e3rh7ru",
-        "title": "Ebtehaj, Abolhassan Part 3"
+        "at": "2026-11-01T20:32:02Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-7-e3rictq",
+        "title": "Ebtehaj, Abolhassan Part 7"
       },
       {
-        "at": "2026-11-01T05:08:49Z",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-2-e3rh7pp",
-        "title": "Ebtehaj, Abolhassan Part 2"
+        "at": "2026-11-01T20:30:10Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-6-e3ricpo",
+        "title": "Ebtehaj, Abolhassan Part 6"
       },
       {
-        "at": "2026-11-01T05:01:48Z",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-1-e3rh79u",
-        "title": "Ebtehaj, Abolhassan Part 1"
+        "at": "2026-11-01T20:27:25Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-5-e3ricoa",
+        "title": "Ebtehaj, Abolhassan Part 5"
       }
     ],
     "recent_30d": [
@@ -51122,7 +51122,7 @@
       0,
       0,
       0,
-      3
+      7
     ],
     "status": "active"
   },
