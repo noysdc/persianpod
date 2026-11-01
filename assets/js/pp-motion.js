@@ -105,15 +105,21 @@
   var anim = new WeakMap();
   function ease(t) { return t * t * t * (t * (t * 6 - 15) + 10); }       // smootherstep: بسیار نرم
 
-  function centeredIndex(row) {
-    var L = layout(row), best = 0, bd = 1e9;
-    for (var i = 0; i < L.cards.length; i++) { var d = Math.abs(nOf(L.cards[i], L)); if (d < bd) { bd = d; best = i; } }
-    return best;
-  }
-  function targetLeft(row, idx) {
-    var L = layout(row), c = L.cards[idx], lim = limits(row);
-    var to = (c.offsetLeft - L.ro) + c.offsetWidth / 2 - L.cx;
+  function wide(row) { return row.clientWidth >= 520; }
+  function targetLeft(row, idx) {         // همان نقطه‌ی توقفی که CSS برای این کارت می‌سازد
+    var L = layout(row), c = L.cards[idx], lim = limits(row), to;
+    var rtl = getComputedStyle(row).direction === "rtl";
+    if (wide(row)) {                      // دسکتاپ/تبلت: لبه‌ی ابتدای کارت در ۲۶px از ابتدای باکس
+      to = rtl ? (c.offsetLeft - L.ro) + c.offsetWidth - row.clientWidth + 26 : (c.offsetLeft - L.ro) - 26;
+    } else {                              // موبایل: وسط
+      to = (c.offsetLeft - L.ro) + c.offsetWidth / 2 - L.cx;
+    }
     return Math.max(lim[0], Math.min(lim[1], to));                       // از ابتدا/انتها جلوتر نرود
+  }
+  function centeredIndex(row) {           // کارتی که الان روی نقطه‌ی توقفش نشسته (نزدیک‌ترین)
+    var n = row.querySelectorAll(".pd-card").length, best = 0, bd = 1e9;
+    for (var i = 0; i < n; i++) { var d = Math.abs(targetLeft(row, i) - row.scrollLeft); if (d < bd - 0.5) { bd = d; best = i; } }
+    return best;
   }
   function goTo(row, idx) {
     var cards = row.querySelectorAll(".pd-card");
@@ -132,6 +138,31 @@
       else { row.style.scrollSnapType = ""; anim.delete(row); }
     })(t0);
   }
+
+  /* ---- تاچ‌پد / ماوس افقی / کیبورد: هر حرکت دقیقاً یک کارت ---- */
+  function step(row, dir) {                      // dir: +1 = کارت بعدی
+    var rec = anim.get(row);
+    goTo(row, (rec ? rec.idx : centeredIndex(row)) + dir);
+  }
+  function isRtl(row) { return getComputedStyle(row).direction === "rtl"; }
+  document.addEventListener("wheel", function (e) {
+    var row = e.target.closest && e.target.closest(".pd-group .pd-row");
+    if (!row) return;
+    var dx = e.deltaX;
+    if (Math.abs(dx) < Math.abs(e.deltaY) || Math.abs(dx) < 2) return;   // اسکرول عمودی صفحه را دست نمی‌زنیم
+    e.preventDefault();
+    var now = performance.now(), quiet = now - (row.__lastWheel || 0) > 90;   // شروع یک حرکت تازه (نه دنباله‌ی اینرسی)
+    row.__lastWheel = now;
+    if (!quiet || anim.get(row)) return;
+    step(row, (isRtl(row) ? dx < 0 : dx > 0) ? 1 : -1);
+  }, { passive: false });
+  document.addEventListener("keydown", function (e) {
+    var row = e.target.closest && e.target.closest(".pd-group .pd-row");
+    if (!row || (e.key !== "ArrowLeft" && e.key !== "ArrowRight")) return;
+    e.preventDefault();
+    var toLeft = e.key === "ArrowLeft";
+    step(row, (isRtl(row) ? toLeft : !toLeft) ? 1 : -1);
+  });
 
   document.addEventListener("click", function (e) {
     var a = e.target.closest && e.target.closest(".pd-group .pd-arrow");
