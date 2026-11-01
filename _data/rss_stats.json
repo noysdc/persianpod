@@ -1344,8 +1344,8 @@
       0,
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       2,
       0,
       1,
@@ -26780,8 +26780,8 @@
       62,
       60,
       54,
-      75,
-      49
+      76,
+      48
     ],
     "status": "active"
   },
@@ -63387,10 +63387,10 @@
     "status": "active"
   },
   "tarikh-airan-dr-radio-drichh": {
-    "avg_gap_days": 73.2,
+    "avg_gap_days": 66.3,
     "avg_length": 55,
     "episodes": 11,
-    "eps_365": 5,
+    "eps_365": 4,
     "eps_90": 2,
     "first_at": "2025-03-06",
     "first_year": 1403,
@@ -63828,8 +63828,8 @@
       84,
       83,
       105,
-      83,
-      74
+      84,
+      73
     ],
     "status": "active"
   },
