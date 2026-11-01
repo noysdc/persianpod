@@ -1,0 +1,75 @@
+/* =====================================================
+   PersianPod – افکت‌های حرکتی
+   ۱) ردیف بادبزنی کارت پادکست‌ها
+   ۲) ظاهر شدن باکس اپیزودها از دور به نزدیک
+   ===================================================== */
+
+/* ---------- ۱) بادبزنی ---------- */
+.fan-row{
+  --card-w:190px;
+  --gap:18px;
+  display:flex;
+  gap:var(--gap);
+  overflow-x:auto;
+  overflow-y:hidden;
+  /* بالا و پایین زیاد، تا گوشه کارت‌های چرخیده بریده نشوند */
+  padding-block:70px 110px;
+  /* اولین و آخرین کارت می‌توانند دقیقاً به مرکز بیایند، پس هیچ‌وقت از کادر بیرون نمی‌زنند */
+  padding-inline:calc(50% - var(--card-w) / 2);
+  scroll-snap-type:x proximity;
+  scrollbar-width:none;
+  -webkit-overflow-scrolling:touch;
+  overscroll-behavior-x:contain;
+}
+.fan-row::-webkit-scrollbar{display:none}
+
+.fan-card{
+  flex:0 0 auto;
+  width:var(--card-w);
+  scroll-snap-align:center;
+  transform-origin:50% 170%;   /* محور چرخش پایین‌تر از کارت = حالت بادبزن */
+  will-change:transform, opacity;
+  backface-visibility:hidden;
+}
+
+/* hover روی عنصر داخلی، تا با transform کارت تداخل نکند */
+.fan-card-inner{
+  display:block;
+  transition:transform .8s cubic-bezier(.25,.1,.25,1);
+}
+@media (hover:hover){
+  .fan-card:hover .fan-card-inner{ transform:translateY(-6px); }
+}
+
+@media (max-width:640px){
+  .fan-row{
+    --card-w:min(58vw, 210px);
+    --gap:12px;
+    padding-block:50px 90px;
+  }
+  .fan-card{ transform-origin:50% 130%; }
+}
+
+/* ---------- ۲) ورود از دور به نزدیک ---------- */
+.episode-box{
+  opacity:0;
+  transform:perspective(1000px) translateZ(-160px) translateY(56px) scale(.94);
+  filter:blur(3px);
+  transition:
+    transform 2.2s cubic-bezier(.19,.7,.25,1),
+    opacity   1.8s ease-out,
+    filter    1.8s ease-out;
+  transition-delay:var(--delay, 0s);
+  will-change:transform, opacity, filter;
+}
+.episode-box.in-view{
+  opacity:1;
+  transform:perspective(1000px) translateZ(0) translateY(0) scale(1);
+  filter:blur(0);
+}
+
+/* برای کسانی که حرکت کم را در سیستم فعال کرده‌اند */
+@media (prefers-reduced-motion:reduce){
+  .episode-box{ opacity:1; transform:none; filter:none; transition:none; }
+  .fan-card-inner{ transition:none; }
+}
