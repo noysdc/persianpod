@@ -2698,25 +2698,20 @@
   },
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.6,
-    "avg_length": 6,
-    "episodes": 29,
-    "eps_365": 29,
-    "eps_90": 29,
+    "avg_length": 5,
+    "episodes": 28,
+    "eps_365": 28,
+    "eps_90": 28,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T19:05:07Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3ri9g1",
-    "last_title": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت",
+    "last": "1405/08/08",
+    "last_at": "2026-10-30T12:49:40Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rdlc5",
+    "last_title": "کلیله و دمنه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)",
     "max_length": 10,
     "median_length": 5,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/128574401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F39ddd9c3-b13c-c655-fe26-70dc3a0daa7b.mp3",
-        "at": "2026-11-01T19:05:07Z",
-        "t": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت"
-      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/128422725/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-30%2F52401b3b-f9bb-4324-c291-fdcac89fd08a.mp3",
         "at": "2026-10-30T12:49:40Z",
@@ -2751,14 +2746,14 @@
         "a": "https://anchor.fm/s/1165b1438/podcast/play/126410242/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-28%2Fa97cc378-584b-b858-a304-3a1b6eca9119.mp3",
         "at": "2026-09-28T10:25:00Z",
         "t": "شاهنامه کودکانه | قسمت هفتم | فریدون و پایان ضحّاک"
+      },
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/126366973/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-27%2Fe12e9f74-96b6-e1ab-f4e5-b78d1c4566fa.mp3",
+        "at": "2026-09-27T11:44:34Z",
+        "t": "بوستان کودکانه | قسمت چهارم | نوشیروان عادل"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-01T19:05:07Z",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3ri9g1",
-        "title": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت"
-      },
       {
         "at": "2026-10-30T12:49:40Z",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rdlc5",
@@ -2768,6 +2763,11 @@
         "at": "2026-10-28T14:34:33Z",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3r93rr",
         "title": "کلیله و دمنه | قسمت دهم | موش کوچولوی مهربون(۲)"
+      },
+      {
+        "at": "2026-10-24T14:05:34Z",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3r0sup",
+        "title": "شاهنامه کودکانه | قسمت نهم | ایرج مهربان"
       }
     ],
     "recent_30d": [
@@ -2782,7 +2782,7 @@
       0,
       13,
       9,
-      7
+      6
     ],
     "status": "active"
   },
@@ -26777,8 +26777,8 @@
       0,
       0,
       9,
-      60,
-      60,
+      61,
+      59,
       57,
       75,
       46
@@ -29724,21 +29724,26 @@
     "status": "inactive"
   },
   "ktab-soti-lbkhnd-kaghzi": {
-    "avg_gap_days": 1.5,
-    "avg_length": 12,
-    "episodes": 49,
-    "eps_365": 49,
-    "eps_90": 49,
+    "avg_gap_days": 1.7,
+    "avg_length": 13,
+    "episodes": 50,
+    "eps_365": 50,
+    "eps_90": 50,
     "first_at": "2026-08-12",
     "first_year": 1405,
-    "last": "1405/07/30",
-    "last_at": "2026-10-22T18:11:50Z",
-    "last_link": "https://www.spreaker.com/episode/mwsh--75926079",
-    "last_title": "موش",
+    "last": "1405/08/10",
+    "last_at": "2026-11-01T18:24:06Z",
+    "last_link": "https://www.spreaker.com/episode/rwz-nam--76116427",
+    "last_title": "روز نام",
     "max_length": 24,
     "median_length": 12,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://api.spreaker.com/download/episode/76116427/2c7ae64b73a851c1c132c8d37a.mp3",
+        "at": "2026-11-01T18:24:06Z",
+        "t": "روز نام"
+      },
       {
         "a": "https://api.spreaker.com/download/episode/75926079/5fec2c40f280e1e6265a66a021.mp3",
         "at": "2026-10-22T18:11:50Z",
@@ -29773,14 +29778,14 @@
         "a": "https://api.spreaker.com/download/episode/75582933/75e4524f7dade26fb8b2f6b7ba.mp3",
         "at": "2026-10-05T16:26:16Z",
         "t": "توبرموری"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/75567371/71357d4fd3ac795a6d229391b9.mp3",
-        "at": "2026-10-04T15:39:54Z",
-        "t": "سگ های نگهبان"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-01T18:24:06Z",
+        "link": "https://www.spreaker.com/episode/rwz-nam--76116427",
+        "title": "روز نام"
+      },
       {
         "at": "2026-10-22T18:11:50Z",
         "link": "https://www.spreaker.com/episode/mwsh--75926079",
@@ -29790,11 +29795,6 @@
         "at": "2026-10-19T17:25:40Z",
         "link": "https://www.spreaker.com/episode/zny-kh-rast-my-gft--75863028",
         "title": "زنی که راست می گفت"
-      },
-      {
-        "at": "2026-10-14T17:18:08Z",
-        "link": "https://www.spreaker.com/episode/krks-hay-mmnw-h--75790581",
-        "title": "کرکس های ممنوعه"
       }
     ],
     "recent_30d": [
@@ -29809,7 +29809,7 @@
       0,
       17,
       23,
-      9
+      10
     ],
     "status": "active"
   },
@@ -38516,7 +38516,7 @@
   },
   "pli-list": {
     "avg_length": 34,
-    "episodes": 12,
+    "episodes": 13,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-07-08",
@@ -38526,7 +38526,7 @@
     "last_link": "https://podcasters.spotify.com/pod/show/hossein-rasouli-podcast/episodes/--e1kmkol",
     "last_title": "نقد نمایش «باغ» به کارگردانی حسن معجونی - پادکست روزنه آبی تئاتر",
     "max_length": 81,
-    "median_length": 28,
+    "median_length": 29,
     "min_length": 4,
     "play": [
       {
@@ -38555,6 +38555,11 @@
         "t": "پادکست شب‌ های کتاب- عکاسی نوشته محمد محمدعلی"
       },
       {
+        "a": "https://anchor.fm/s/61ee0d34/podcast/play/39715652/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-2%2Fd08eb0c1-d25c-c671-c06e-a928801d39a4.mp3",
+        "at": "2021-09-02T14:03:11Z",
+        "t": "پادکست روزنه آبی تئاتر-نقد و بررسی اجرای چهارراه بهرام بیضایی"
+      },
+      {
         "a": "https://anchor.fm/s/61ee0d34/podcast/play/39519938/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-29%2F050afb47-0bae-9a60-78b0-adaacb15cb33.mp3",
         "at": "2021-08-29T20:17:08Z",
         "t": "هایپرفرهنگ و موسیقی کوچه بازاری"
@@ -38563,11 +38568,6 @@
         "a": "https://anchor.fm/s/61ee0d34/podcast/play/39371175/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-26%2Fefcd87c1-c405-0005-9b39-b2e4b2ecdde3.mp3",
         "at": "2021-08-26T11:55:18Z",
         "t": "پلی لیست موسیقی ترکی ۱ پادکست هایپرفرهنگ"
-      },
-      {
-        "a": "https://anchor.fm/s/61ee0d34/podcast/play/39315941/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-25%2F628d4c96-db26-c81b-b306-619bb15f1321.mp3",
-        "at": "2021-08-25T14:27:15Z",
-        "t": "دنیا تماشاخانه است-پادکست روزنه آبی تئاتر"
       }
     ],
     "recent": [
