@@ -24,7 +24,7 @@
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
   "astring-kst": {
-    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
     "rss": "https://stringcast.ir/feed/podcast/stringcast/"
   },
   "baehsan": {
