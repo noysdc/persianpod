@@ -1,0 +1,45 @@
+/* PersianPod: حرکت نرم
+   ۱) ردیف کارت‌های پادکست (صفحه‌ی اصلی و «گوش بده») حالت بادبزنی دارد
+   ۲) ردیف‌های صفحه‌ی «تازه‌ها» هنگام اسکرول از دور به نزدیک می‌آیند
+   ردیف‌ها با JS ساخته می‌شوند؛ pp-motion.js آن‌ها را خودکار پیدا می‌کند. بعد از بقیه‌ی CSSها لود شود. */
+
+/* ---------- ۱) بادبزنی ---------- */
+/* فضای بالا/پایین برای گوشه‌های کارتِ چرخیده و فضای دو طرف برای اینکه کارت اول و آخر از کادر بیرون نزنند.
+   margin منفی پایین، فاصله‌ی کلی صفحه را مثل قبل نگه می‌دارد. */
+:root .pd-group .pd-row{
+  padding:12px 30px 40px;
+  margin-bottom:-24px;
+  scroll-padding-inline:30px;
+}
+:root .pd-group .pd-row .pd-card{
+  transform-origin:50% 120%;           /* محور چرخش کمی پایین‌تر از کارت = بازشدن مثل بادبزن */
+  will-change:transform, opacity;
+  backface-visibility:hidden;
+}
+@media (max-width:799px){
+  :root .pd-group .pd-row{ padding-inline:26px; scroll-padding-inline:26px; }
+}
+
+/* ---------- ۲) ورود از دور به نزدیک ---------- */
+.nw-list .nw-row.pp-rv{
+  opacity:0;
+  transform:perspective(900px) translateZ(-150px) translateY(52px) scale(.95);
+  transition:
+    transform 2s cubic-bezier(.16,.84,.3,1),
+    opacity 1.5s ease-out,
+    box-shadow .3s ease,
+    border-color .3s ease;
+  transition-delay:var(--pp-d,0s), var(--pp-d,0s), 0s, 0s;
+  will-change:transform, opacity;
+}
+.nw-list .nw-row.pp-rv.in-view{
+  opacity:1;
+  transform:perspective(900px) translateZ(0) translateY(0) scale(1);
+}
+@media (max-width:640px){
+  .nw-list .nw-row.pp-rv{ transform:perspective(900px) translateZ(-110px) translateY(38px) scale(.96); }
+}
+
+@media (prefers-reduced-motion:reduce){
+  .nw-list .nw-row.pp-rv{ opacity:1; transform:none; transition:none; }
+}
