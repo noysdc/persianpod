@@ -15819,21 +15819,26 @@
     "status": "active"
   },
   "frmol-1-farsi": {
-    "avg_gap_days": 13.8,
+    "avg_gap_days": 13.4,
     "avg_length": 39,
-    "episodes": 121,
-    "eps_365": 27,
-    "eps_90": 11,
+    "episodes": 122,
+    "eps_365": 28,
+    "eps_90": 12,
     "first_at": "2022-04-04",
     "first_year": 1401,
-    "last": "1405/08/06",
-    "last_at": "2026-10-28T04:15:00Z",
-    "last_link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/36ngu9u4lp1p",
-    "last_title": "آستین ۲۰۲۶؛ کیمی درخشید، ردبول اشتباه کرد! 🔥 | تحلیل کامل گرندپری آمریکا",
+    "last": "1405/08/10",
+    "last_at": "2026-11-01T16:38:00Z",
+    "last_link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/5n3mfehptaf3",
+    "last_title": "🏎️گرندپری مکزیک: تمرین‌ها + تایمگیری؛ درخشش همیلتون و راسل 💪 به همراه مقایسه موتورها 🐇🐢 و شاسی‌های امسال",
     "max_length": 77,
     "median_length": 36,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/Audio_Oct31_2026.mp3?dest-id=3386261",
+        "at": "2026-11-01T16:38:00Z",
+        "t": "🏎️گرندپری مکزیک: تمرین‌ها + تایمگیری؛ درخشش همیلتون و راسل 💪 به همراه مقایسه موتورها 🐇🐢 و شاسی‌های امسال"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/1027.mp3?dest-id=3386261",
         "at": "2026-10-28T04:15:00Z",
@@ -15868,14 +15873,14 @@
         "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/0929_1.mp3?dest-id=3386261",
         "at": "2026-09-30T03:06:00Z",
         "t": "قوانین جدید فرمول ۱ برای ۲۰۲۷؛ چه چیزهایی تغییر می‌کند؟ 🏎️"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/0917.mp3?dest-id=3386261",
-        "at": "2026-09-18T04:40:00Z",
-        "t": "مادرید ۲۰۲۶؛ هیاهوی بسیار برای هیچ؟ | پیستی که قرار بود آینده فرمول یک باشد!"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-01T16:38:00Z",
+        "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/5n3mfehptaf3",
+        "title": "🏎️گرندپری مکزیک: تمرین‌ها + تایمگیری؛ درخشش همیلتون و راسل 💪 به همراه مقایسه موتورها 🐇🐢 و شاسی‌های امسال"
+      },
       {
         "at": "2026-10-28T04:15:00Z",
         "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/36ngu9u4lp1p",
@@ -15885,11 +15890,6 @@
         "at": "2026-10-25T18:25:00Z",
         "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/-f1",
         "title": "🤖 فرمول یک بدون راننده؟! | ماشین‌های خودران F1  و بررسی تمرین‌ها و کوالیفایینگ آستین ۲۰۲۶ با حسام 🇺🇸"
-      },
-      {
-        "at": "2026-10-14T04:04:00Z",
-        "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/skv34x66psv",
-        "title": "🇸🇬🏁 سنگاپور؛ فراری باز هم خودش را شکست داد؟"
       }
     ],
     "recent_30d": [
@@ -15904,7 +15904,7 @@
       4,
       2,
       4,
-      5
+      6
     ],
     "status": "active"
   },
@@ -56385,8 +56385,8 @@
     ],
     "recent_30d": [
       16,
-      2,
-      1,
+      3,
+      0,
       0,
       0,
       0,
@@ -60503,21 +60503,26 @@
     "status": "inactive"
   },
   "shar-kst": {
-    "avg_gap_days": 14.3,
+    "avg_gap_days": 14.1,
     "avg_length": 6,
-    "episodes": 162,
-    "eps_365": 25,
-    "eps_90": 21,
+    "episodes": 163,
+    "eps_365": 26,
+    "eps_90": 22,
     "first_at": "2022-05-04",
     "first_year": 1401,
-    "last": "1405/08/01",
-    "last_at": "2026-10-23T16:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/e3e5ad4a-c81e-4ae7-914b-5a84b8cfc538/play.mp3",
-    "last_title": "صد و شصت و یک - شادی و درد: رودکی",
+    "last": "1405/08/10",
+    "last_at": "2026-11-01T16:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/d9cbe7d9-f8de-410d-a3bf-6fc7a1374d1e/play.mp3",
+    "last_title": "صد و شصت و دو - سر نِشترِ عشق",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/d9cbe7d9-f8de-410d-a3bf-6fc7a1374d1e/play.mp3",
+        "at": "2026-11-01T16:30:00Z",
+        "t": "صد و شصت و دو - سر نِشترِ عشق"
+      },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/e3e5ad4a-c81e-4ae7-914b-5a84b8cfc538/play.mp3",
         "at": "2026-10-23T16:30:00Z",
@@ -60552,14 +60557,14 @@
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/2b719318-a726-4531-b4eb-4b8f0f735421/play.mp3",
         "at": "2026-10-21T16:30:00Z",
         "t": "صد و پنجاه و پنج - جشن سده: منسوب به فردوسی"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ce75bcae-4773-4439-a033-24c729ee32aa/play.mp3",
-        "at": "2026-10-20T16:32:00Z",
-        "t": "صد و پنجاه و چهار - مسخره‌ٔ جهان: مولانا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-01T16:30:00Z",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/d9cbe7d9-f8de-410d-a3bf-6fc7a1374d1e/play.mp3",
+        "title": "صد و شصت و دو - سر نِشترِ عشق"
+      },
       {
         "at": "2026-10-23T16:30:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/e3e5ad4a-c81e-4ae7-914b-5a84b8cfc538/play.mp3",
@@ -60569,11 +60574,6 @@
         "at": "2026-10-22T16:33:00Z",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/81dc1d7c-cb5e-40a2-a07a-019639e128aa/play.mp3",
         "title": "صد و شصت - سهیلِ یمنی: رودکی"
-      },
-      {
-        "at": "2026-10-22T16:31:00Z",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/e2ffc6ab-f852-4b87-b19b-d6fd122f9edc/play.mp3",
-        "title": "صد و پنجاه و نه – شیر و پلنگ: منسوب به ابوسعید ابوالخیر"
       }
     ],
     "recent_30d": [
@@ -60588,7 +60588,7 @@
       1,
       2,
       0,
-      19
+      20
     ],
     "status": "active"
   },
