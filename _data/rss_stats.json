@@ -24011,8 +24011,8 @@
       0,
       5,
       3,
-      3,
-      3,
+      4,
+      2,
       2
     ],
     "status": "active"
@@ -51039,49 +51039,19 @@
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
     "avg_length": 54,
-    "episodes": 93,
-    "eps_365": 16,
-    "eps_90": 16,
+    "episodes": 87,
+    "eps_365": 10,
+    "eps_90": 10,
     "first_at": "2023-05-06",
     "first_year": 1402,
     "last": "1405/08/10",
-    "last_at": "2026-11-01T23:25:35Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Amini--Ali-Part-6-e3rij8k",
-    "last_title": "Amini, Ali Part 6",
+    "last_at": "2026-11-01T20:36:15Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-10-e3rid31",
+    "last_title": "Ebtehaj, Abolhassan Part 10",
     "max_length": 63,
-    "median_length": 55,
+    "median_length": 54,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128584404/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F92903484-ea5a-dbd3-4dd2-b68efbd7c9a3.mp3",
-        "at": "2026-11-01T23:25:35Z",
-        "t": "Amini, Ali Part 6"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128584369/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2Fcbc5f497-04ea-5906-2e9f-099e3445df4a.mp3",
-        "at": "2026-11-01T23:24:38Z",
-        "t": "Amini, Ali Part 5"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128584215/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F80ca6910-b898-c63f-b0a4-515e5bc7d437.mp3",
-        "at": "2026-11-01T23:23:29Z",
-        "t": "Amini, Ali Part 4"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128584185/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F7ac37eb3-854d-5d3a-4790-d65565a01dc0.mp3",
-        "at": "2026-11-01T23:22:17Z",
-        "t": "Amini, Ali Part 3"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128584123/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2Ff63a8d64-8139-920e-72fa-bf0375fd6384.mp3",
-        "at": "2026-11-01T23:21:00Z",
-        "t": "Amini, Ali Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128583797/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F18c8d31c-9ca3-9b37-f803-6d1647440637.mp3",
-        "at": "2026-11-01T23:18:43Z",
-        "t": "Amini, Ali Part 1"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128578081/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2Fd196b154-6152-f6d0-ebc4-ae1666ef9a7d.mp3",
         "at": "2026-11-01T20:36:15Z",
@@ -51091,23 +51061,53 @@
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128578016/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F464e20e7-0ab3-ccb5-1dba-cf7d6e1d0c32.mp3",
         "at": "2026-11-01T20:34:07Z",
         "t": "Ebtehaj, Abolhassan Part 9"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128577984/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F6737d988-748b-daf9-9e3b-8e9689392a1b.mp3",
+        "at": "2026-11-01T20:33:09Z",
+        "t": "Ebtehaj, Abolhassan Part 8"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128577914/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2Fb3a764c7-dd64-f12d-7206-906f68bd6158.mp3",
+        "at": "2026-11-01T20:32:02Z",
+        "t": "Ebtehaj, Abolhassan Part 7"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128577784/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F030e552d-e58d-186d-dfa8-e4a5fc9b7bd4.mp3",
+        "at": "2026-11-01T20:30:10Z",
+        "t": "Ebtehaj, Abolhassan Part 6"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128577738/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F54f954c9-3a26-1a12-eaa5-164c42d78707.mp3",
+        "at": "2026-11-01T20:27:25Z",
+        "t": "Ebtehaj, Abolhassan Part 5"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128577638/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F4ae7ad6b-36ab-5cdd-f331-426f60b09fd1.mp3",
+        "at": "2026-11-01T20:25:47Z",
+        "t": "Ebtehaj, Abolhassan Part 4"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128539966/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F2ab0e766-892f-b752-a5fa-9d6ddec4ed19.mp3",
+        "at": "2026-11-01T05:10:53Z",
+        "t": "Ebtehaj, Abolhassan Part 3"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-01T23:25:35Z",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Amini--Ali-Part-6-e3rij8k",
-        "title": "Amini, Ali Part 6"
+        "at": "2026-11-01T20:36:15Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-10-e3rid31",
+        "title": "Ebtehaj, Abolhassan Part 10"
       },
       {
-        "at": "2026-11-01T23:24:38Z",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Amini--Ali-Part-5-e3rij7h",
-        "title": "Amini, Ali Part 5"
+        "at": "2026-11-01T20:34:07Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-9-e3rid10",
+        "title": "Ebtehaj, Abolhassan Part 9"
       },
       {
-        "at": "2026-11-01T23:23:29Z",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Amini--Ali-Part-4-e3rij2n",
-        "title": "Amini, Ali Part 4"
+        "at": "2026-11-01T20:33:09Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-8-e3rid00",
+        "title": "Ebtehaj, Abolhassan Part 8"
       }
     ],
     "recent_30d": [
@@ -51122,7 +51122,7 @@
       0,
       0,
       0,
-      16
+      10
     ],
     "status": "active"
   },
