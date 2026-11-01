@@ -48,11 +48,11 @@
     "rss": "https://drdna.ir/category/%D9%81%DB%8C%D9%84%D9%85-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/feed/"
   },
   "film-o-srial-soti": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
     "rss": "https://mp3movies.ir/feed"
   },
   "filmhai-sinmaii-airani": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
   "galri-film": {
@@ -136,7 +136,7 @@
     "rss": "https://paymanpsychology.com/feed/"
   },
   "said-pnahi": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
   "zban-o-adbiat": {
