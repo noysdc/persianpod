@@ -2698,34 +2698,29 @@
   },
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.6,
-    "avg_length": 6,
-    "episodes": 29,
-    "eps_365": 29,
-    "eps_90": 29,
+    "avg_length": 5,
+    "episodes": 28,
+    "eps_365": 28,
+    "eps_90": 28,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T19:05:07Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3ri9g1",
-    "last_title": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت",
+    "last": "1405/08/08",
+    "last_at": "2026-10-30T12:49:40Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rdlc5",
+    "last_title": "کلیله و دمنه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)",
     "max_length": 10,
     "median_length": 5,
     "min_length": 2,
     "play": [
       {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/128574401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F39ddd9c3-b13c-c655-fe26-70dc3a0daa7b.mp3",
-        "at": "2026-11-01T19:05:07Z",
-        "t": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت"
-      },
-      {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/128422725/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-30%2F52401b3b-f9bb-4324-c291-fdcac89fd08a.mp3",
         "at": "2026-10-30T12:49:40Z",
-        "t": "کلیله و دمنه کودکانه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
+        "t": "کلیله و دمنه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
       },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/128273723/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2Fb27e24a1-08c9-428d-3406-7e8c574f6e17.mp3",
         "at": "2026-10-28T14:34:33Z",
-        "t": "کلیله و دمنه کودکانه | قسمت دهم | موش کوچولوی مهربون(۲)"
+        "t": "کلیله و دمنه | قسمت دهم | موش کوچولوی مهربون(۲)"
       },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/128004505/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-24%2Faa571bdd-a916-96aa-7913-00792722e9e6.mp3",
@@ -2751,23 +2746,28 @@
         "a": "https://anchor.fm/s/1165b1438/podcast/play/126410242/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-28%2Fa97cc378-584b-b858-a304-3a1b6eca9119.mp3",
         "at": "2026-09-28T10:25:00Z",
         "t": "شاهنامه کودکانه | قسمت هفتم | فریدون و پایان ضحّاک"
+      },
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/126366973/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-27%2Fe12e9f74-96b6-e1ab-f4e5-b78d1c4566fa.mp3",
+        "at": "2026-09-27T11:44:34Z",
+        "t": "بوستان کودکانه | قسمت چهارم | نوشیروان عادل"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-01T19:05:07Z",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3ri9g1",
-        "title": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت"
-      },
-      {
         "at": "2026-10-30T12:49:40Z",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rdlc5",
-        "title": "کلیله و دمنه کودکانه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
+        "title": "کلیله و دمنه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
       },
       {
         "at": "2026-10-28T14:34:33Z",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3r93rr",
-        "title": "کلیله و دمنه کودکانه | قسمت دهم | موش کوچولوی مهربون(۲)"
+        "title": "کلیله و دمنه | قسمت دهم | موش کوچولوی مهربون(۲)"
+      },
+      {
+        "at": "2026-10-24T14:05:34Z",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3r0sup",
+        "title": "شاهنامه کودکانه | قسمت نهم | ایرج مهربان"
       }
     ],
     "recent_30d": [
@@ -2782,7 +2782,7 @@
       0,
       13,
       9,
-      7
+      6
     ],
     "status": "active"
   },
@@ -15543,8 +15543,8 @@
       0,
       0,
       0,
-      0,
-      10,
+      1,
+      9,
       0
     ],
     "status": "active"
@@ -60308,7 +60308,7 @@
       }
     ],
     "recent_30d": [
-      18,
+      17,
       17,
       14,
       14,
