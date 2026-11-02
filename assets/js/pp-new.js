@@ -46,7 +46,7 @@
         : (at ? [{ at: at, title: st.last_title || p.last_title, link: st.last_link || p.last_link }] : []);
       rec.forEach(function (x) {
         var ms = x && x.at ? Date.parse(x.at) : 0;
-        if (ms && ms <= Date.now() + 3600000) eps.push({ p: p, ms: ms, title: x.title || "", link: safe(x.link) });
+        if (ms && ms <= Date.now() + 3600000) eps.push({ p: p, ms: ms, title: x.title || "", link: safe(x.link), img: safe(x.i) });
       });
     });
     rows.sort(function (a, b) { return (b.ms || 0) - (a.ms || 0) || a.p.title.localeCompare(b.p.title, "fa"); });
@@ -57,6 +57,18 @@
     return p.logo ? '<img class="nw-logo" src="' + esc(p.logo) + '" alt="" width="64" height="64" loading="lazy" decoding="async">'
       : '<i class="nw-logo">' + esc((p.title || "").trim().charAt(0)) + "</i>";
   }
+  /* «به ترتیب اپیزود»: کاور خود قسمت؛ اگر نبود یا لود نشد، لوگوی پادکست */
+  function epLogo(r) {
+    if (!r.img) return logoOf(r.p);
+    return '<img class="nw-logo nw-ep-cover" src="' + esc(r.img) + '" data-fb="' + esc(r.p.logo || "") + '" alt="" width="64" height="64" loading="lazy" decoding="async" referrerpolicy="no-referrer">';
+  }
+  list.addEventListener("error", function (e) {            // کاور قسمت خراب بود ← لوگوی پادکست
+    var im = e.target;
+    if (!im || !im.classList || !im.classList.contains("nw-ep-cover")) return;
+    var fb = im.getAttribute("data-fb");
+    im.classList.remove("nw-ep-cover");
+    if (fb && im.src !== fb) im.src = fb;
+  }, true);
   function listenOf(p) { return '<a class="nw-listen" href="' + esc("/listen/?p=" + encodeURIComponent(p.slug)) + '">گوش بده</a>'; }
 
   function renderFeed() {
@@ -65,7 +77,7 @@
       var p = r.p, isNew = Date.now() - r.ms < 86400000;
       var t = r.title || "قسمت جدید";
       var tl = r.link ? '<a href="' + esc(r.link) + '" target="_blank" rel="noopener noreferrer">' + esc(t) + "</a>" : esc(t);
-      html += '<li class="nw-row nw-feed" data-slug="' + esc(p.slug) + '"><span class="nw-rank" aria-hidden="true">' + toFa(i + 1) + "</span>" + logoOf(p) +
+      html += '<li class="nw-row nw-feed" data-slug="' + esc(p.slug) + '"><span class="nw-rank" aria-hidden="true">' + toFa(i + 1) + "</span>" + epLogo(r) +
         '<div class="nw-main"><h2>' + tl + '</h2><span class="nw-ep"><a href="' + esc(p.url) + '">' + esc(p.title) + '</a><span class="nw-cat">' + esc(p.category) + "</span></span></div>" +
         '<div class="nw-side"><span class="nw-time">' + (isNew ? '<span class="nw-new">جدید</span>' : "") + esc(ago(r.ms)) + "</span>" + listenOf(p) + "</div></li>";
     });

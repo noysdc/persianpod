@@ -19,6 +19,7 @@ PLAY_COUNT = 8                # قسمت‌های آماده‌ی لحظه‌ی 
 ALL_EPS_MAX = 3000            # سقف همه‌ی قسمت‌ها در فایل جدای هر پادکست
 EPS_DIR = ROOT / "assets" / "eps"   # assets/eps/<slug>.json؛ پلیر در صورت نیاز می‌خواندش
 DESC_MAX = 300                # سقف طول توضیح تمیزشده‌ی هر قسمت (برای ایندکس جست‌وجو)
+ALL_IMG_MAX = 60              # کاور اختصاصی فقط برای این تعداد قسمتِ تازه در فایل کامل قسمت‌ها (حجم فایل‌ها کم بماند)
 ERRORS = ROOT / "_data" / "rss_errors.json"
 WORKERS = 12                  # فیدها هم‌زمان گرفته می‌شوند (قبلاً پشت‌سرهم؛ اجرا ۸ تا ۱۱ دقیقه طول می‌کشید)
 PER_HOST = 3                  # حداکثر درخواست هم‌زمان به یک میزبان (acast، castbox و anchor دهها فید دارند)
@@ -216,14 +217,54 @@ def collect_pages(first_items, feed_url, paged):
     return items
 
 
+def _img_url(v):
+    """فقط آدرس https معقول؛ http به https ارتقا می‌یابد."""
+    v = (v or "").strip()
+    if v.startswith("//"):
+        v = "https:" + v
+    if v.lower().startswith("http://"):
+        v = "https://" + v[7:]
+    return v if v.lower().startswith("https://") and len(v) <= 400 and " " not in v else ""
+
+
+def item_image(node):
+    """کاور اختصاصی یک قسمت (یا خود کانال): itunes:image، بعد media:thumbnail / media:content، بعد <image><url>."""
+    cand = {"itunes": "", "media": "", "plain": ""}
+    for ch in node:
+        if not isinstance(ch.tag, str):
+            continue
+        ns, _, tag = ch.tag.rpartition("}")
+        if tag == "image":
+            if "itunes" in ns.lower():
+                cand["itunes"] = cand["itunes"] or (ch.get("href") or "")
+            else:
+                cand["plain"] = cand["plain"] or (ch.findtext("url") or ch.get("href") or "")
+        elif tag == "thumbnail":
+            cand["media"] = cand["media"] or (ch.get("url") or "")
+        elif tag == "content" and ((ch.get("medium") or "") == "image" or (ch.get("type") or "").lower().startswith("image/")):
+            cand["media"] = cand["media"] or (ch.get("url") or "")
+    for k in ("itunes", "media", "plain"):
+        u = _img_url(cand[k])
+        if u:
+            return u
+    return ""
+
+
+def _same_img(a, b):
+    strip = lambda u: (u or "").split("?")[0].split("#")[0].lower()
+    return bool(a) and strip(a) == strip(b)
+
+
 def analyse(feed_url, paged=None):
     root = parse_xml(fetch(feed_url))
     all_items = list(root.iter("item"))
+    channel = root.find("channel")
+    show_img = item_image(channel) if channel is not None else ""   # کاور خود پادکست؛ اگر کاور قسمت همین بود ذخیره نمی‌شود
     if paged:
         all_items = collect_pages(all_items, feed_url, paged)
     items = []
-    eps = []      # (تاریخ، عنوان، لینک) برای صفحه‌ی «تازه‌ها»
-    audio_eps = []  # (تاریخ، عنوان، آدرس فایل صوتی) برای پلیر داخلی
+    eps = []      # (تاریخ، عنوان، لینک، کاور قسمت) برای صفحه‌ی «تازه‌ها»
+    audio_eps = []  # (تاریخ، عنوان، آدرس فایل صوتی، توضیح، کاور قسمت) برای پلیر داخلی
     for it in all_items:
         pub = it.findtext("pubDate")
         if not pub:                                  # بعضی فیدها به‌جای pubDate از dc:date استفاده می‌کنند
@@ -242,12 +283,15 @@ def analyse(feed_url, paged=None):
             enc = it.find("enclosure")
             link = (enc.get("url") if enc is not None else "") or ""
             link = link if link.lower().startswith(("http://", "https://")) else ""
-        eps.append((d, (it.findtext("title") or "").strip()[:160], link))
+        img = item_image(it)
+        if _same_img(img, show_img):
+            img = ""                                  # همان کاور پادکست است؛ سمت سایت از لوگوی پادکست استفاده می‌شود
+        eps.append((d, (it.findtext("title") or "").strip()[:160], link, img))
         enc = it.find("enclosure")                    # فایل صوتی قسمت (برای پلیر داخلی)
         au = ((enc.get("url") if enc is not None else "") or "").strip()
         ty = ((enc.get("type") if enc is not None else "") or "").lower()
         if au.lower().startswith(("http://", "https://")) and (ty.startswith("audio") or ty in ("", "application/octet-stream") or re.search(r"\.(mp3|m4a|aac|ogg|oga|wav)(\?|$)", au, re.I)):
-            audio_eps.append((d, (it.findtext("title") or "").strip()[:160], au, item_desc(it)))
+            audio_eps.append((d, (it.findtext("title") or "").strip()[:160], au, item_desc(it), img))
     if not items:
         raise ValueError("no items in feed")
     result = {"episodes": len(items)}
@@ -269,24 +313,26 @@ def analyse(feed_url, paged=None):
     # --- صفحه‌ی «تازه‌ها»: آخرین قسمت‌ها با زمان دقیق (UTC) ---
     def utc2(d):
         return d.replace(tzinfo=None) if d.tzinfo is None else d.astimezone(dt.timezone.utc).replace(tzinfo=None)
-    newest = sorted(((utc2(d), t, l) for d, t, l in eps if d), key=lambda x: x[0], reverse=True)[:3]
+    newest = sorted(((utc2(d), t, l, im) for d, t, l, im in eps if d), key=lambda x: x[0], reverse=True)[:3]
     if newest:
         result["last_at"] = newest[0][0].strftime("%Y-%m-%dT%H:%M:%SZ")
         result["last_title"] = newest[0][1]
         result["last_link"] = newest[0][2]
-        result["recent"] = [{"at": d.strftime("%Y-%m-%dT%H:%M:%SZ"), "title": t, "link": l} for d, t, l in newest]
+        result["recent"] = [dict({"at": d.strftime("%Y-%m-%dT%H:%M:%SZ"), "title": t, "link": l}, **({"i": im} if im else {})) for d, t, l, im in newest]
     # --- پلیر داخلی: ۸ قسمت آخر که فایل صوتی دارند ---
-    play = sorted(((utc2(d), t, u) for d, t, u, _ in audio_eps if d), key=lambda x: x[0], reverse=True)[:PLAY_COUNT]
+    play = sorted(((utc2(d), t, u, im) for d, t, u, _, im in audio_eps if d), key=lambda x: x[0], reverse=True)[:PLAY_COUNT]
     if play:
-        result["play"] = [{"at": d.strftime("%Y-%m-%dT%H:%M:%SZ"), "t": t, "a": u} for d, t, u in play]
+        result["play"] = [dict({"at": d.strftime("%Y-%m-%dT%H:%M:%SZ"), "t": t, "a": u}, **({"i": im} if im else {})) for d, t, u, im in play]
     # همه‌ی قسمت‌ها (جدیدترین اول؛ بدون تاریخ‌ها آخر). خروجی ثابت است تا بدون قسمت جدید، فایل تغییر نکند.
-    def ep_row(t, u, desc):
+    def ep_row(t, u, desc, img=""):
         row = {"t": t, "a": u}
         if desc:
             row["d"] = desc          # توضیح تمیزشده؛ فقط وقتی هست که فید داشته باشد
+        if img:
+            row["i"] = img           # کاور اختصاصی قسمت؛ فقط وقتی با کاور پادکست فرق دارد
         return row
-    dated_all = sorted(((utc2(d), t, u, x) for d, t, u, x in audio_eps if d), key=lambda x: x[0], reverse=True)
-    all_list = [ep_row(t, u, x) for _, t, u, x in dated_all] + [ep_row(t, u, x) for d, t, u, x in audio_eps if not d]
+    dated_all = sorted(((utc2(d), t, u, x, im) for d, t, u, x, im in audio_eps if d), key=lambda x: x[0], reverse=True)
+    all_list = [ep_row(t, u, x, im if n < ALL_IMG_MAX else "") for n, (_, t, u, x, im) in enumerate(dated_all)] + [ep_row(t, u, x) for d, t, u, x, im in audio_eps if not d]
     if all_list:
         result["_all"] = all_list[:ALL_EPS_MAX]
     # --- آمار تکمیلی برای صفحه‌ی «مقایسه»؛ همه از خود RSS و قابل بازتولید ---

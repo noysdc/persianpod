@@ -30,6 +30,8 @@
   var pillEl, playBtn, seekEl, curEl, durEl, epTEl, podEl, rateBtn, volBtn, volEl, listBtn, infoA, hintEl, seeking = false;
   var lastSave = 0, pendingSeek = 0, hintT = 0;
   var curEpsUrl = "";
+  var curLogo = "";          // لوگوی پادکست؛ جای کاور قسمت‌هایی که کاور اختصاصی ندارند
+  var covEl = null;
   var selRate, selSleep, leftEl, rate = 1, sleepT = 0, sleepTick = 0, sleepAt = 0, sleepEnd = false;
   var RATE_KEY = "pp-rate", RATES = [0.75, 1, 1.25, 1.5, 1.75, 2];
   var audioWrap, audioEl, nowEl, epsEl, mode = "frame", eps = [], epI = 0;
@@ -82,6 +84,7 @@
       '<button type="button" class="ppfp__pb ppfp__play" aria-label="پخش"></button>' +
       '<button type="button" class="ppfp__pb ppfp__skip" data-s="30" aria-label="۳۰ ثانیه جلو" title="۳۰ ثانیه جلو"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-3-6.2M20 4v4.5h-4.5"/><text x="12" y="15.2" text-anchor="middle" font-size="7.2" font-weight="700" fill="currentColor" stroke="none">۳۰</text></svg></button>' +
       "</div>" +
+      '<img class="ppfp__cov" alt="" hidden decoding="async" referrerpolicy="no-referrer">' +
       '<div class="ppfp__mid" dir="rtl">' +
       '<div class="ppfp__meta"><b class="ppfp__ept"></b><span class="ppfp__pod"></span></div>' +
       '<div class="ppfp__prog" dir="ltr"><span class="ppfp__cur">۰:۰۰</span>' +
@@ -241,6 +244,11 @@
     durEl = root.querySelector(".ppfp__dur");
     epTEl = root.querySelector(".ppfp__ept");
     podEl = root.querySelector(".ppfp__pod");
+    covEl = root.querySelector(".ppfp__cov");
+    covEl.addEventListener("error", function () {            // کاور قسمت لود نشد ← لوگوی پادکست؛ آن هم نشد ← مخفی
+      var fb = curLogo && covEl.getAttribute("src") !== curLogo ? curLogo : "";
+      if (fb) covEl.src = fb; else covEl.hidden = true;
+    });
     rateBtn = root.querySelector(".ppfp__rate-b");
     volBtn = root.querySelector(".ppfp__vol");
     volEl = root.querySelector(".ppfp__vslider");
@@ -479,6 +487,7 @@
     setTimeout(function () { load(reloadN); }, 80);
   }
 
+  function imgUrl(u) { return u ? (httpsUrl(u) || "") : ""; }   // رشته‌ی خالی نباید به آدرس خود صفحه تبدیل شود
   /* ---------- پلیر داخلی: پخش مستقیم فایل صوتی قسمت‌ها ---------- */
   function httpsUrl(u) {
     try {
@@ -518,7 +527,7 @@
     sleepTick = setInterval(function () { var left = sleepAt - Date.now(); if (left <= 0) sleepFire(); else leftEl.textContent = fmt(left); }, 1000);
   }
   function cleanEps(list) {
-    return (list || []).map(function (e) { return { t: String((e && (e.t || e.title)) || "").trim(), a: httpsUrl(e && (e.a || e.audio)) }; })
+    return (list || []).map(function (e) { return { t: String((e && (e.t || e.title)) || "").trim(), a: httpsUrl(e && (e.a || e.audio)), i: imgUrl(e && e.i) }; })
       .filter(function (e) { return e.a; });
   }
   function setMode(m) {
@@ -535,7 +544,15 @@
     eps.forEach(function (e, i) {
       var li = document.createElement("li"), b = document.createElement("button");
       b.type = "button"; b.className = "ppfp__ep" + (i === epI ? " on" : "");
-      b.textContent = e.t || "قسمت " + (i + 1); b.title = e.t || "";
+      var cv = e.i || curLogo, label = e.t || "قسمت " + (i + 1);
+      b.title = e.t || "";
+      if (cv) {
+        b.classList.add("has-cov");
+        var im = document.createElement("img"), sp = document.createElement("span");
+        im.className = "pp-epc"; im.alt = ""; im.loading = "lazy"; im.decoding = "async"; im.referrerPolicy = "no-referrer"; im.src = cv;
+        if (e.i && curLogo) im.addEventListener("error", function f() { im.removeEventListener("error", f); im.src = curLogo; });
+        sp.textContent = label; b.appendChild(im); b.appendChild(sp);
+      } else b.textContent = label;
       if (i === epI) b.setAttribute("aria-current", "true");
       b.addEventListener("click", function () { playEp(i); });
       li.appendChild(b); epsEl.appendChild(li);
@@ -545,7 +562,8 @@
   function mediaMeta(e) {
     try {
       if (!("mediaSession" in navigator) || typeof MediaMetadata === "undefined") return;
-      navigator.mediaSession.metadata = new MediaMetadata({ title: e.t || "", artist: titleEl.textContent || "پرشین‌پاد" });
+      var art = e.i || curLogo;
+      navigator.mediaSession.metadata = new MediaMetadata({ title: e.t || "", artist: titleEl.textContent || "پرشین‌پاد", artwork: art ? [{ src: art, sizes: "512x512" }] : [] });
       navigator.mediaSession.setActionHandler("nexttrack", eps[epI + 1] ? function () { playEp(epI + 1); } : null);
       navigator.mediaSession.setActionHandler("previoustrack", epI > 0 ? function () { playEp(epI - 1); } : null);
     } catch (x) {}
@@ -575,6 +593,7 @@
     var e = eps[i];
     nowEl.textContent = e.t || "";
     if (epTEl) { epTEl.textContent = e.t || ""; epTEl.title = e.t || ""; }
+    if (covEl) { var cv = e.i || curLogo; if (cv) { covEl.hidden = false; covEl.src = cv; } else { covEl.hidden = true; covEl.removeAttribute("src"); } }
     showStatus("");
     audioEl.src = e.a;
     pendingSeek = window.PPMem ? window.PPMem.resumeAt(window.PPMem.norm(e.a)) : 0;   // اگر قبلاً نیمه‌کاره مانده بود
@@ -599,6 +618,7 @@
     var idx = Math.max(0, Math.min(list.length - 1, (opts && opts.index) | 0));
     var same = eps.length && eps[0].a === list[0].a && audioEl.getAttribute("src") === list[idx].a;
     eps = list;
+    curLogo = imgUrl(opts && opts.logo);
     titleEl.textContent = (opts && opts.title) || "در حال پخش";
     if (podEl) podEl.textContent = titleEl.textContent;
     var ext = safeUrl(opts && opts.page);
@@ -680,9 +700,10 @@
       var clicked = au.getAttribute("data-pp-audio"), at = 0;
       items.forEach(function (x, i) { if (x.getAttribute("data-pp-audio") === clicked) at = i; });
       open({
-        eps: items.map(function (x) { return { t: x.getAttribute("data-t") || x.textContent.trim(), a: x.getAttribute("data-pp-audio") }; }),
+        eps: items.map(function (x) { return { t: x.getAttribute("data-t") || x.textContent.trim(), a: x.getAttribute("data-pp-audio"), i: x.getAttribute("data-i") || "" }; }),
         index: at,
         title: box.getAttribute("data-title") || "",
+        logo: box.getAttribute("data-logo") || "",
         page: box.getAttribute("data-page") || "",
         epsUrl: box.getAttribute("data-eps-url") || "",
       });
@@ -701,15 +722,24 @@
 
   /* ---------- فهرست قسمت‌ها: اسکرولی؛ با نزدیک شدن به ته، قسمت‌های بعدی اضافه می‌شوند ---------- */
   var CHUNK = 40, PLAY_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
-  function epLi(ep) {
+  function epLi(ep, logo) {
     var li = document.createElement("li"), b = document.createElement("button"), sp = document.createElement("span");
     b.type = "button"; b.setAttribute("data-pp-audio", ep.a); b.setAttribute("data-t", ep.t || ""); b.title = ep.t || "";
-    b.innerHTML = PLAY_ICON; sp.textContent = ep.t || ""; b.appendChild(sp); li.appendChild(b);
+    if (ep.i) b.setAttribute("data-i", ep.i);
+    var cv = ep.i || logo;
+    if (cv) {                                             // کاور قسمت؛ اگر نبود لوگوی پادکست
+      var im = document.createElement("img");
+      im.className = "pp-epc"; im.alt = ""; im.loading = "lazy"; im.decoding = "async"; im.referrerPolicy = "no-referrer"; im.src = cv;
+      if (ep.i && logo) im.addEventListener("error", function f() { im.removeEventListener("error", f); im.src = logo; });
+      b.appendChild(im);
+    } else b.insertAdjacentHTML("beforeend", PLAY_ICON);
+    sp.textContent = ep.t || ""; b.appendChild(sp); li.appendChild(b);
     return li;
   }
-  function fillList(ul, list, skipUrl) {
+  function fillList(ul, list, skipUrl, logo) {
+    logo = imgUrl(logo);
     var items = (list || []).filter(function (e) { return e && e.a && e.a !== skipUrl; }), n = 0;
-    function more() { var end = Math.min(items.length, n + CHUNK); for (; n < end; n++) ul.appendChild(epLi(items[n])); }
+    function more() { var end = Math.min(items.length, n + CHUNK); for (; n < end; n++) ul.appendChild(epLi(items[n], logo)); }
     if (ul._ppScroll) ul.removeEventListener("scroll", ul._ppScroll);
     ul.innerHTML = ""; more();
     ul._ppScroll = function () { if (n < items.length && ul.scrollTop + ul.clientHeight > ul.scrollHeight - 140) more(); };
@@ -724,7 +754,7 @@
       var ul = box.querySelector(".pp-eplist"), first = box.querySelector("[data-pp-audio]");
       if (!ul) return;
       fetchEps(box.getAttribute("data-eps-url")).then(function (list) {
-        if (list.length > ul.children.length) fillList(ul, list, "");
+        if (list.length > ul.children.length) fillList(ul, list, "", box.getAttribute("data-logo") || "");
       }).catch(function () {});
     });
   }

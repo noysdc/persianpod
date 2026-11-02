@@ -254,10 +254,10 @@
     var old = $(".pp-eplist", slot); if (old) old.remove();
     var oldMore = $(".pp-more-btn", slot); if (oldMore) oldMore.remove();
     if (p._eps.length < 2) return;
-    slot.setAttribute("data-pp-playlist", ""); slot.setAttribute("data-title", p.title); slot.setAttribute("data-eps-url", epsUrl(p));
+    slot.setAttribute("data-pp-playlist", ""); slot.setAttribute("data-title", p.title); slot.setAttribute("data-logo", p.logo || ""); slot.setAttribute("data-eps-url", epsUrl(p));
     var ul = document.createElement("ul"); ul.className = "pp-eplist"; ul.setAttribute("aria-label", "قسمت‌ها");
     slot.appendChild(ul);
-    if (window.PPPlayer && window.PPPlayer.fillList) window.PPPlayer.fillList(ul, p._eps, "");
+    if (window.PPPlayer && window.PPPlayer.fillList) window.PPPlayer.fillList(ul, p._eps, "", p.logo);
     else p._eps.slice(0, 100).forEach(function (e) {
       var li = document.createElement("li"), b = document.createElement("button"), sp = document.createElement("span");
       b.type = "button"; b.setAttribute("data-pp-audio", e.a); b.setAttribute("data-t", e.t || ""); b.title = e.t || "";
@@ -279,7 +279,7 @@
     if (!p._eps.length && !p._src) return;
     function go() {
       window.PPPlayer.open(p._eps.length
-        ? { eps: p._eps.map(function (e) { return { t: e.t, a: e.a }; }), index: 0, title: p.title, epsUrl: epsUrl(p) }
+        ? { eps: p._eps.map(function (e) { return { t: e.t, a: e.a, i: e.i }; }), index: 0, title: p.title, logo: p.logo || "", epsUrl: epsUrl(p) }
         : { src: p._src, title: p.title, page: castboxPage(p) || p.podcast_link || "" });
     }
     if (window.PPPlayer) return go();

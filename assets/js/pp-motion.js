@@ -1,5 +1,7 @@
 /* PersianPod: حرکت نرم (بدون کتابخانه)
-   ۱) .pd-group .pd-row  ← کارت‌ها بادبزنی می‌شوند (صفحه‌ی اصلی و گوش بده)
+   ۱) .pd-group .pd-row  ← کارت‌ها «پشته‌ی سه‌بعدی» می‌شوند، دقیقاً مثل کارت‌های اپیزود نویز:
+      یک کارت فعال وسط، بقیه پشت آن (چرخش کم، کوچک‌تر، کم‌رنگ‌تر)، شمارنده‌ی «۱ / ۳۰» و دکمه‌های قبلی/بعدی.
+      (صفحه‌ی اصلی، «پادکست‌ها» و «گوش بده»)
    ۲) .nw-list .nw-row   ← ردیف‌های «تازه‌ها» هنگام اسکرول از دور به نزدیک می‌آیند
    ردیف‌ها بعد از لود با innerHTML ساخته و هر چند ثانیه دوباره ساخته می‌شوند؛ پس با MutationObserver پیدا می‌شوند. */
 (function () {
@@ -8,173 +10,153 @@
   var small = matchMedia("(max-width: 799px)");
   var IO = "IntersectionObserver" in window;
 
-  /* ================= ۱) بادبزنی سنگین و نرم ================= */
-  // هنگام اسکرول هیچ transform ای در هر فریم نوشته نمی‌شود (این‌ها باعث لرزش بودند).
-  // فقط «کارت فعال» تعیین می‌شود و CSS با transition طولانی حالت بقیه را عوض می‌کند.
-  function layout(row) {
-    var cards = row.querySelectorAll(".pd-card"), cx = row.clientWidth / 2, sl = row.scrollLeft, ro = row.offsetLeft, fx = cx;
-    if (row.clientWidth < 520 && cards.length > 1) {
-      // موبایل: در ابتدا کارت اول «فوکوس» است و با اولین اسکرول، فوکوس نرم به وسط می‌آید
-      var x0 = (cards[0].offsetLeft - ro) + cards[0].offsetWidth / 2;
-      var x1 = (cards[1].offsetLeft - ro) + cards[1].offsetWidth / 2;
-      var D = Math.max(40, Math.abs(x1 - cx));
-      var t = Math.min(1, Math.abs(sl) / D);
-      fx = x0 + (cx - x0) * t;
-    }
-    return { cards: cards, cx: cx, fx: fx, sl: sl, ro: ro };
-  }
-  function nOf(card, L) {                 // فاصله از فوکوس بر حسب «تعداد کارت»؛ از موقعیت چیدمان
-    var w = card.offsetWidth || 1;
-    return ((card.offsetLeft - L.ro) + w / 2 - L.sl - L.fx) / w;
-  }
-  function limits(row) {
-    var max = Math.max(0, row.scrollWidth - row.clientWidth);
-    return getComputedStyle(row).direction === "rtl" ? [-max, 0] : [0, max];
-  }
+  /* ================= ۱) پشته‌ی کارت‌ها (الگوی نویز) ================= */
+  var VIS = 3;                        // چند کارت از هر طرف دیده شود
+  var FA = "۰۱۲۳۴۵۶۷۸۹";
+  function toFa(n) { return String(n).replace(/\d/g, function (d) { return FA[d]; }); }
+  var memo = {};                      // دسته ← کارت فعال؛ با بازسازی ۳۰ ثانیه‌ای فهرست، جای کاربر نپرد
 
-  function applyActive(row, active) {
-    var cards = row.querySelectorAll(".pd-card");
-    for (var i = 0; i < cards.length; i++) {
-      var d = Math.min(Math.abs(i - active), 3);
-      var c = cards[i];
-      if (c.getAttribute("data-d") !== String(d)) c.setAttribute("data-d", d);
-      var side = i < active ? "l" : "r";
-      // در RTL کارت‌های قبلی (اندیس کمتر) سمت راست‌اند
-      if (getComputedStyle(row).direction === "rtl") side = i < active ? "r" : "l";
-      if (c.getAttribute("data-side") !== side) c.setAttribute("data-side", side);
-    }
-    row.__active = active;
-  }
-
-  function update(row) {
-    var L = layout(row), best = 0, bd = 1e9, cur = -1, cd = 1e9;
-    for (var i = 0; i < L.cards.length; i++) {
-      var d = Math.abs(nOf(L.cards[i], L));
-      if (d < bd) { bd = d; best = i; }
-      if (i === row.__active) { cur = i; cd = d; }
-    }
-    // لختی: تا کارت جدید واقعاً نزدیک‌تر نشده، کارت فعال عوض نمی‌شود (جلوگیری از رفت‌وبرگشت در وسط)
-    var active = (cur >= 0 && cd - bd < 0.18) ? cur : best;
-    if (active !== row.__active) applyActive(row, active);
-
-    var lim = limits(row), rtl = getComputedStyle(row).direction === "rtl", wrap = row.parentNode;
-    var atStart = Math.abs(row.scrollLeft - (rtl ? lim[1] : lim[0])) < 2;
-    var atEnd = Math.abs(row.scrollLeft - (rtl ? lim[0] : lim[1])) < 2;
-    var pv = wrap.querySelector(".pd-prev"), nx = wrap.querySelector(".pd-next");
-    if (pv) pv.setAttribute("aria-disabled", atStart ? "true" : "false");
-    if (nx) nx.setAttribute("aria-disabled", atEnd ? "true" : "false");
-  }
-
-  var queued = [];
-  function schedule(row) {
-    if (queued.indexOf(row) < 0) queued.push(row);
-    if (queued.length === 1) requestAnimationFrame(function () {
-      var q = queued; queued = [];
-      q.forEach(function (r) { if (r.isConnected) update(r); });
-    });
-  }
-
-  function intro(row) {                   // یک بار، وقتی ردیف برای اولین بار دیده می‌شود
-    if (!row.classList.contains("pp-pre")) return;
-    if (reduce) { row.classList.remove("pp-pre"); return; }
-    var cards = row.querySelectorAll(".pd-card");
-    for (var i = 0; i < cards.length; i++) cards[i].style.setProperty("--i", Math.min(i, 6));
-    row.classList.add("pp-intro");
-    requestAnimationFrame(function () { requestAnimationFrame(function () { row.classList.remove("pp-pre"); }); });
-    setTimeout(function () { row.classList.remove("pp-intro"); }, 2400);   // بعد از ورود، تأخیرها حذف شوند
-  }
-
-  var fanIO = IO ? new IntersectionObserver(function (es) {
-    es.forEach(function (e) { if (e.isIntersecting) { intro(e.target); schedule(e.target); fanIO.unobserve(e.target); } });
-  }, { threshold: 0.2 }) : null;
-
-  function addFan(row) {
-    if (row.__fan) return;
-    row.__fan = true;
-    row.__active = -1;
-    if (!reduce && fanIO) row.classList.add("pp-pre");     // پیش از اولین رنگ‌آمیزی پنهان می‌شود
-    update(row);
-    row.addEventListener("scroll", function () { schedule(row); }, { passive: true });
-    if (fanIO) fanIO.observe(row);
-    setTimeout(function () { schedule(row); }, 150);
-  }
-  window.addEventListener("resize", function () {
-    [].forEach.call(document.querySelectorAll(".pd-group .pd-row"), schedule);
-  });
-
-  /* ---- دکمه‌های اسلایدر: هر بار دقیقاً یک کارت، با حرکت آرام ---- */
-  var anim = new WeakMap();
-  function ease(t) { return t * t * t * (t * (t * 6 - 15) + 10); }       // smootherstep: بسیار نرم
-
-  function wide(row) { return row.clientWidth >= 520; }
-  function targetLeft(row, idx) {         // همان نقطه‌ی توقفی که CSS برای این کارت می‌سازد
-    var L = layout(row), c = L.cards[idx], lim = limits(row), to;
+  function addStack(row) {
+    if (row.__st) return;
+    var group = row.closest(".pd-group"), wrap = row.parentNode;
+    if (!group || !wrap) return;
+    var key = group.getAttribute("aria-label") || "";
     var rtl = getComputedStyle(row).direction === "rtl";
-    if (wide(row)) {                      // دسکتاپ/تبلت: لبه‌ی ابتدای کارت در ۲۶px از ابتدای باکس
-      to = rtl ? (c.offsetLeft - L.ro) + c.offsetWidth - row.clientWidth + 26 : (c.offsetLeft - L.ro) - 26;
-    } else {                              // موبایل: وسط
-      to = (c.offsetLeft - L.ro) + c.offsetWidth / 2 - L.cx;
+    var SIDE = rtl ? -1 : 1;          // کارت‌های بعدی: در راست‌به‌چپ سمت چپ می‌نشینند (مثل نویز)
+    var LEFT_DIR = SIDE === -1 ? 1 : -1;   // دکمه‌ی چپ، کارتِ سمت چپ را می‌آورد وسط
+    var cur = -1;
+
+    function cards() { return [].slice.call(row.querySelectorAll(":scope > .pd-card")); }
+
+    row.classList.add("pp-stack");
+    row.setAttribute("role", "group");
+    row.setAttribute("aria-roledescription", "carousel");
+    if (!row.hasAttribute("tabindex")) row.tabIndex = 0;
+
+    var nav = document.createElement("div");
+    nav.className = "pp-stack-nav";
+    nav.innerHTML =
+      '<button type="button" class="pp-stack-btn" data-dir="' + LEFT_DIR + '" aria-label="کارت سمت چپ">\u2039</button>' +
+      '<span class="pp-stack-count" aria-live="polite"></span>' +
+      '<button type="button" class="pp-stack-btn" data-dir="' + (-LEFT_DIR) + '" aria-label="کارت سمت راست">\u203A</button>';
+    wrap.parentNode.insertBefore(nav, wrap.nextSibling);
+    var count = nav.querySelector(".pp-stack-count");
+    var btns = [].slice.call(nav.querySelectorAll(".pp-stack-btn"));
+
+    function render() {
+      if (!row.isConnected) return;
+      var cs = cards(), n = cs.length;
+      if (!n) return;
+      if (cur < 0) {                                    // شروع: حافظه‌ی دسته، یا کارتِ انتخاب‌شده در «گوش بده»
+        var sel = -1;
+        cs.forEach(function (c, i) { if (sel < 0 && c.getAttribute("aria-current") === "true") sel = i; });
+        cur = memo[key] != null ? memo[key] : (sel >= 0 ? sel : 0);
+      }
+      cur = Math.max(0, Math.min(n - 1, cur));
+      memo[key] = cur;
+
+      var W = row.clientWidth || 320;
+      var cw = Math.round(Math.max(190, Math.min(260, W * 0.62)));
+      row.style.setProperty("--pp-cw", cw + "px");
+
+      var l = Math.min(cur, VIS), r = Math.min(n - 1 - cur, VIS);
+      var shift = (r - l) / 2;
+      var lim = Math.max(0, (W - cw) / 2 - 6) / (cw * 0.55);   // کارت فعال هیچ‌وقت از کادر بیرون نزند
+      shift = Math.max(-lim, Math.min(lim, shift));
+
+      var hmax = 0;
+      cs.forEach(function (c, i) {
+        var d = i - cur, a = Math.abs(d);
+        var dc = d < 0 ? -Math.min(a, VIS + 1) : Math.min(a, VIS + 1);   // کارت‌های دور همه روی یک نقطه می‌مانند
+        var ac = Math.abs(dc);
+        c.style.setProperty("--pp-t",
+          "translateX(" + ((dc - shift) * 55 * SIDE) + "%) " +
+          "translateZ(" + (-ac * 90) + "px) " +
+          "rotateY(" + (dc * 18 * SIDE) + "deg) " +
+          "rotateZ(" + (dc * 4 * SIDE) + "deg)");
+        c.style.zIndex = String(100 - ac);
+        c.style.opacity = a > VIS ? "0" : String(1 - a * 0.18);
+        c.style.pointerEvents = a > VIS ? "none" : "auto";
+        c.style.visibility = a > VIS + 1 ? "hidden" : "";
+        c.classList.toggle("is-active", d === 0);
+        c.tabIndex = d === 0 ? 0 : -1;
+        if (a <= VIS) hmax = Math.max(hmax, c.offsetHeight);
+      });
+      row.style.setProperty("--pp-h", Math.ceil(hmax + 34) + "px");
+      count.textContent = toFa(cur + 1) + " / " + toFa(n);
+      nav.hidden = n < 2;
+      btns.forEach(function (b) {
+        var nx = cur + parseInt(b.getAttribute("data-dir"), 10);
+        b.disabled = nx < 0 || nx > n - 1;
+      });
     }
-    return Math.max(lim[0], Math.min(lim[1], to));                       // از ابتدا/انتها جلوتر نرود
-  }
-  function centeredIndex(row) {           // کارتی که الان روی نقطه‌ی توقفش نشسته (نزدیک‌ترین)
-    var n = row.querySelectorAll(".pd-card").length, best = 0, bd = 1e9;
-    for (var i = 0; i < n; i++) { var d = Math.abs(targetLeft(row, i) - row.scrollLeft); if (d < bd - 0.5) { bd = d; best = i; } }
-    return best;
-  }
-  function goTo(row, idx) {
-    var cards = row.querySelectorAll(".pd-card");
-    idx = Math.max(0, Math.min(cards.length - 1, idx));
-    var from = row.scrollLeft, to = targetLeft(row, idx);
-    var st = anim.get(row); if (st) cancelAnimationFrame(st.raf);
-    if (reduce || Math.abs(to - from) < 1) { row.style.scrollSnapType = ""; if (reduce) row.scrollLeft = to; anim.delete(row); return; }
-    var dur = 1050, t0 = performance.now();
-    row.style.scrollSnapType = "none";                 // وسط حرکت، snap مزاحم نشود
-    var rec = { idx: idx, raf: 0 };
-    anim.set(row, rec);
-    (function step(now) {
-      var t = Math.min(1, (now - t0) / dur);
-      row.scrollLeft = from + (to - from) * ease(t);
-      if (t < 1) rec.raf = requestAnimationFrame(step);
-      else { row.style.scrollSnapType = ""; anim.delete(row); }
-    })(t0);
+    function go(k) {
+      var n = cards().length;
+      var nk = Math.max(0, Math.min(n - 1, k));
+      if (nk === cur) return;
+      cur = nk; render();
+    }
+
+    var st = row.__st = { go: go, render: render, moved: false, index: function (c) { return cards().indexOf(c); }, SIDE: SIDE, LEFT_DIR: LEFT_DIR, get cur() { return cur; } };
+
+    nav.addEventListener("click", function (e) {
+      var b = e.target.closest("[data-dir]");
+      if (b && !b.disabled) go(cur + parseInt(b.getAttribute("data-dir"), 10));
+    });
+
+    row.addEventListener("dragstart", function (e) { e.preventDefault(); });
+    row.addEventListener("load", function () { render(); }, true);   // بعد از لود شدن تصویرها ارتفاع دوباره سنجیده شود
+
+    // کشیدن با موس/لمس (مثل نویز)
+    var startX = null;
+    row.addEventListener("pointerdown", function (e) { startX = e.clientX; st.moved = false; });
+    row.addEventListener("pointermove", function (e) {
+      if (startX === null) return;
+      var dx = e.clientX - startX;
+      if (Math.abs(dx) > 60) { go(cur + (dx * SIDE < 0 ? 1 : -1)); startX = e.clientX; st.moved = true; }
+    });
+    ["pointerup", "pointercancel", "pointerleave"].forEach(function (ev) { row.addEventListener(ev, function () { startX = null; }); });
+
+    // کیبورد
+    row.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowLeft") { go(cur + LEFT_DIR); e.preventDefault(); }
+      else if (e.key === "ArrowRight") { go(cur - LEFT_DIR); e.preventDefault(); }
+    });
+
+    // اگر فقط کارت‌های داخل ردیف عوض شدند (نه خود ردیف)
+    if (window.MutationObserver) new MutationObserver(function () { render(); }).observe(row, { childList: true });
+
+    window.addEventListener("resize", function onR() {
+      if (!row.isConnected) { window.removeEventListener("resize", onR); return; }
+      render();
+    });
+    render();
   }
 
-  /* ---- تاچ‌پد / ماوس افقی / کیبورد: هر حرکت دقیقاً یک کارت ---- */
-  function step(row, dir) {                      // dir: +1 = کارت بعدی
-    var rec = anim.get(row);
-    goTo(row, (rec ? rec.idx : centeredIndex(row)) + dir);
-  }
-  function isRtl(row) { return getComputedStyle(row).direction === "rtl"; }
+  // تاچ‌پد / ماوس افقی: هر حرکت دقیقاً یک کارت
+  var wheelLock = false;
   document.addEventListener("wheel", function (e) {
-    var row = e.target.closest && e.target.closest(".pd-group .pd-row");
-    if (!row) return;
-    var dx = e.deltaX;
-    if (Math.abs(dx) < Math.abs(e.deltaY) || Math.abs(dx) < 2) return;   // اسکرول عمودی صفحه را دست نمی‌زنیم
+    var row = e.target.closest && e.target.closest(".pd-row.pp-stack");
+    if (!row || !row.__st) return;
+    if (Math.abs(e.deltaX) < Math.abs(e.deltaY) || Math.abs(e.deltaX) < 20) return;   // اسکرول عمودی صفحه را دست نمی‌زنیم
     e.preventDefault();
-    var now = performance.now(), quiet = now - (row.__lastWheel || 0) > 90;   // شروع یک حرکت تازه (نه دنباله‌ی اینرسی)
-    row.__lastWheel = now;
-    if (!quiet || anim.get(row)) return;
-    step(row, (isRtl(row) ? dx < 0 : dx > 0) ? 1 : -1);
+    if (wheelLock) return;
+    wheelLock = true;
+    row.__st.go(row.__st.cur + (e.deltaX * row.__st.SIDE > 0 ? 1 : -1));
+    setTimeout(function () { wheelLock = false; }, 350);
   }, { passive: false });
-  document.addEventListener("keydown", function (e) {
-    var row = e.target.closest && e.target.closest(".pd-group .pd-row");
-    if (!row || (e.key !== "ArrowLeft" && e.key !== "ArrowRight")) return;
-    e.preventDefault();
-    var toLeft = e.key === "ArrowLeft";
-    step(row, (isRtl(row) ? toLeft : !toLeft) ? 1 : -1);
-  });
 
+  // کلیک روی کارتِ غیرفعال: اول بیاید وسط (لینک باز نشود)؛ بعد از کشیدن هم کلیکِ اتفاقی خنثی می‌شود
   document.addEventListener("click", function (e) {
-    var a = e.target.closest && e.target.closest(".pd-group .pd-arrow");
-    if (!a) return;
-    var row = a.parentNode.querySelector(".pd-row");
-    if (!row) return;
-    e.stopImmediatePropagation(); e.preventDefault();   // کلیک را از اسکریپت قدیمی (که چند کارت می‌پرید) می‌گیریم
-    if (a.getAttribute("aria-disabled") === "true") return;
-    var rec = anim.get(row);
-    var cur = rec ? rec.idx : centeredIndex(row);
-    goTo(row, cur + (a.getAttribute("data-dir") === "next" ? 1 : -1));
+    var card = e.target.closest && e.target.closest(".pd-row.pp-stack > .pd-card");
+    if (!card) return;
+    var row = card.parentNode, st = row.__st;
+    if (!st) return;
+    if (st.moved) { e.preventDefault(); e.stopImmediatePropagation(); st.moved = false; return; }
+    if (!card.classList.contains("is-active")) {
+      e.preventDefault(); e.stopImmediatePropagation();
+      st.go(st.index(card));
+    }
   }, true);
 
   /* ================= ۲) ورود از دور به نزدیک ================= */
@@ -213,10 +195,10 @@
 
   /* ================= پیدا کردن عناصر ================= */
   function scan(root) {
-    if (root.matches && root.matches(".pd-group .pd-row")) addFan(root);
+    if (root.matches && root.matches(".pd-group .pd-row")) addStack(root);
     if (root.matches && root.matches(".nw-list .nw-row")) addReveal(root);
     if (root.querySelectorAll) {
-      [].forEach.call(root.querySelectorAll(".pd-group .pd-row"), addFan);
+      [].forEach.call(root.querySelectorAll(".pd-group .pd-row"), addStack);
       [].forEach.call(root.querySelectorAll(".nw-list .nw-row"), addReveal);
     }
   }
