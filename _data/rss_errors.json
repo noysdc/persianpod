@@ -11,10 +11,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
   },
-  "aamozsh-mjazi-zban-anglisi": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
-    "rss": "https://elearne.com/notes/feed"
-  },
   "aamozsh-zban-anglisi-talk-stop": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
