@@ -50947,21 +50947,26 @@
     "status": "active"
   },
   "pol-mhm-ast": {
-    "avg_gap_days": 9.8,
+    "avg_gap_days": 9.6,
     "avg_length": 13,
-    "episodes": 115,
-    "eps_365": 37,
-    "eps_90": 11,
+    "episodes": 116,
+    "eps_365": 38,
+    "eps_90": 12,
     "first_at": "2022-08-20",
     "first_year": 1401,
-    "last": "1405/08/06",
-    "last_at": "2026-10-28T05:30:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/dream-of-homeownership-in-australia-what-to-know-before-buying/vlbnkfp9j",
-    "last_title": "رویای خانه‌دار شدن در استرالیا؛ پیش از خرید چه باید بدانیم؟",
+    "last": "1405/08/11",
+    "last_at": "2026-11-02T04:55:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/sydney-housing-market-has-reached-a-new-low-but-are-homes-affordable/zn4rv78hx",
+    "last_title": "بازار مسکن سیدنی به پایین‌ترین سطح جدیدی رسیده است؛ اما آیا خرید خانه آسان شده‌ است؟",
     "max_length": 33,
     "median_length": 10,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/money-matters/20261102155604_863543-persian-f0ae5b4e-f570-44e2-9a5f-78bcaa6041b5.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a1-9a65-d1d6-a5bd-fff757920000&dur_cat=2",
+        "at": "2026-11-02T04:55:00Z",
+        "t": "بازار مسکن سیدنی به پایین‌ترین سطح جدیدی رسیده است؛ اما آیا خرید خانه آسان شده‌ است؟"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/money-matters/20261028163104_789137-persian-c04d1ccf-a04f-4965-a239-d190ba2b9bfd.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a1-80d9-d7ec-a7e3-9ed9f5c40000&dur_cat=3",
         "at": "2026-10-28T05:30:00Z",
@@ -50996,14 +51001,14 @@
         "a": "https://sbs-podcast.streamguys1.com/money-matters/20260917121309_595361-persian-1ee11e2d-bc71-4532-a3cb-ed29c5413606.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a0-acef-d9ac-a7f6-beef74890000&dur_cat=3",
         "at": "2026-09-17T02:13:00Z",
         "t": "افت قیمت خانه‌های لوکس در استرالیا، دو برابر سریع‌تر از بازار ارزان؛ آیا نوبت به خانه‌های متوسط هم می‌رسد؟"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/money-matters/20260910130327_254628-persian-100926-aliyouseficom.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a0-88c4-d72f-a3a1-bfdcc13d0000&dur_cat=3",
-        "at": "2026-09-10T03:02:00Z",
-        "t": "پول از ایران به استرالیا منتقل کرده‌اید؟ آنچه باید درباره مالیات و گزارش‌دهی بدانید"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-02T04:55:00Z",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/sydney-housing-market-has-reached-a-new-low-but-are-homes-affordable/zn4rv78hx",
+        "title": "بازار مسکن سیدنی به پایین‌ترین سطح جدیدی رسیده است؛ اما آیا خرید خانه آسان شده‌ است؟"
+      },
       {
         "at": "2026-10-28T05:30:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/dream-of-homeownership-in-australia-what-to-know-before-buying/vlbnkfp9j",
@@ -51013,11 +51018,6 @@
         "at": "2026-10-21T01:55:00Z",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/artificial-intelligence-money-and-the-future-of-work-in-australia-opportunities-threats-and-skills-to-learn-today/t9r4qm2wb",
         "title": "هوش مصنوعی، پول و آینده کار در استرالیا؛ فرصت‌ها، تهدیدها و مهارت‌هایی که باید از امروز آموخت"
-      },
-      {
-        "at": "2026-10-15T00:52:00Z",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/rising-interest-rates-in-australia-an-accounting-and-tax-experts-practical-tips-for-households-and-small-businesses/scwdm789t",
-        "title": "افزایش نرخ بهره و فشار هزینه های زندگی در استرالیا؛ راهکارهای عملی یک کارشناس مالیاتی برای خانوارها و کسب و کارهای کوچک"
       }
     ],
     "recent_30d": [
@@ -51032,7 +51032,7 @@
       2,
       2,
       4,
-      5
+      6
     ],
     "status": "active"
   },
@@ -54959,8 +54959,8 @@
       12,
       11,
       12,
-      12,
-      12
+      13,
+      11
     ],
     "status": "active"
   },
