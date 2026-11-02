@@ -29704,19 +29704,25 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 19,
-    "episodes": 632,
-    "eps_365": 599,
-    "eps_90": 178,
+    "episodes": 633,
+    "eps_365": 600,
+    "eps_90": 179,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/08/11",
-    "last_at": "2026-11-02T17:27:49Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6ae8c816d6cfd0e9082a74f4",
-    "last_title": "سالگرد - قتل های زنجیره ای - بخش بیست و ششم",
+    "last_at": "2026-11-02T18:10:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6ae8cbc34ca6aa8604af6fe3",
+    "last_title": "سالگرد - قتل های زنجیره ای - بخش بیست و هفتم",
     "max_length": 44,
     "median_length": 16,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ae8cbc34ca6aa8604af6fe3/media.mp3",
+        "at": "2026-11-02T18:10:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793641251565-b5e8dbd5-8450-4c58-9129-f5d2af621ab4.jpeg",
+        "t": "سالگرد - قتل های زنجیره ای - بخش بیست و هفتم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ae8c816d6cfd0e9082a74f4/media.mp3",
         "at": "2026-11-02T17:27:49Z",
@@ -29758,15 +29764,15 @@
         "at": "2026-10-30T18:05:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793381972668-d8004343-b660-4d4f-9b56-eb7d7fa1b5da.jpeg",
         "t": "سالگرد - قتل های زنجیره ای - بخش بیستم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ae4d646b478422f911ba65f/media.mp3",
-        "at": "2026-10-30T17:39:18Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793381819718-92c5cda8-6e4b-4d9f-ac47-431b64d3cc16.jpeg",
-        "t": "سالگرد - قتل های زنجیره ای - بخش نوزدهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-02T18:10:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793641251565-b5e8dbd5-8450-4c58-9129-f5d2af621ab4.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6ae8cbc34ca6aa8604af6fe3",
+        "title": "سالگرد - قتل های زنجیره ای - بخش بیست و هفتم"
+      },
       {
         "at": "2026-11-02T17:27:49Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793640406140-1378e876-d751-4f34-b838-4de850e4c8ea.jpeg",
@@ -29778,12 +29784,6 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793465398750-6599c04b-e54e-4943-af01-7427c4bc16fc.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6ae61d0bb478422f9177e4b2",
         "title": "سالگرد - قتل های زنجیره ای - بخش بیست و پنجم"
-      },
-      {
-        "at": "2026-10-31T18:34:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793465079171-27239c71-069d-4889-b41a-a34bc22f4a9e.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6ae61b6bb478422f91778027",
-        "title": "سالگرد - قتل های زنجیره ای - بخشبیست و چهارم"
       }
     ],
     "recent_30d": [
@@ -29798,7 +29798,7 @@
       59,
       58,
       73,
-      47
+      48
     ],
     "status": "active"
   },
@@ -72336,7 +72336,7 @@
     "avg_length": 21,
     "episodes": 36,
     "eps_365": 22,
-    "eps_90": 14,
+    "eps_90": 13,
     "first_at": "2024-09-14",
     "first_year": 1403,
     "last": "1405/07/20",
@@ -72425,8 +72425,8 @@
       0,
       0,
       4,
-      4,
-      8,
+      5,
+      7,
       4,
       2
     ],
