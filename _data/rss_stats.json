@@ -2483,7 +2483,7 @@
     "avg_length": 8,
     "episodes": 83,
     "eps_365": 83,
-    "eps_90": 52,
+    "eps_90": 51,
     "first_at": "2026-07-06",
     "first_year": 1405,
     "last": "1405/08/09",
@@ -2572,8 +2572,8 @@
       0,
       0,
       0,
-      31,
-      30,
+      32,
+      29,
       16,
       6
     ],
@@ -23447,7 +23447,7 @@
       }
     ],
     "recent_30d": [
-      15,
+      14,
       9,
       3,
       8,
@@ -46054,8 +46054,8 @@
       1,
       0,
       0,
-      1,
-      3,
+      2,
+      2,
       0,
       0,
       1,
@@ -56777,87 +56777,87 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
-    "avg_length": 54,
-    "episodes": 87,
-    "eps_365": 10,
-    "eps_90": 10,
+    "avg_length": 37,
+    "episodes": 122,
+    "eps_365": 45,
+    "eps_90": 45,
     "first_at": "2023-05-06",
     "first_year": 1402,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T20:36:15Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-10-e3rid31",
-    "last_title": "Ebtehaj, Abolhassan Part 10",
+    "last": "1405/08/11",
+    "last_at": "2026-11-02T03:24:16Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Dolatshahi--Mehrangiz-Part-1-e3riqt7",
+    "last_title": "Dolatshahi, Mehrangiz Part 1",
     "max_length": 63,
-    "median_length": 54,
+    "median_length": 46,
     "min_length": 1,
     "play": [
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128578081/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2Fd196b154-6152-f6d0-ebc4-ae1666ef9a7d.mp3",
-        "at": "2026-11-01T20:36:15Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793565355348-0116db43eb5b.jpg",
-        "t": "Ebtehaj, Abolhassan Part 10"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128592231/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F9a99253e-f746-e8bf-f4f3-2d553d299e96.mp3",
+        "at": "2026-11-02T03:24:16Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793589841233-c8a0b8dba19ef.jpg",
+        "t": "Dolatshahi, Mehrangiz Part 1"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128578016/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F464e20e7-0ab3-ccb5-1dba-cf7d6e1d0c32.mp3",
-        "at": "2026-11-01T20:34:07Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793565273481-385064bd1a24b.jpg",
-        "t": "Ebtehaj, Abolhassan Part 9"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128591640/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2Fcd6c55fe-22e4-6aa1-b889-a4991f97835c.mp3",
+        "at": "2026-11-02T03:01:06Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793588454612-93ce2e6370358.jpg",
+        "t": "Toufanian, Hassan Part 20"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128577984/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F6737d988-748b-daf9-9e3b-8e9689392a1b.mp3",
-        "at": "2026-11-01T20:33:09Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793565178505-2704c387747c.jpg",
-        "t": "Ebtehaj, Abolhassan Part 8"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128591600/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F02b2a4f7-0537-981b-ff7f-56f2826803cb.mp3",
+        "at": "2026-11-02T02:59:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793588375903-f13ef12c89253.jpg",
+        "t": "Toufanian, Hassan Part 19"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128577914/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2Fb3a764c7-dd64-f12d-7206-906f68bd6158.mp3",
-        "at": "2026-11-01T20:32:02Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793565110148-e6af76b596646.jpg",
-        "t": "Ebtehaj, Abolhassan Part 7"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128591563/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F13227aa1-09c3-9e6f-0028-a6817137657e.mp3",
+        "at": "2026-11-02T02:58:34Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793588301444-86b4812376baa.jpg",
+        "t": "Toufanian, Hassan Part 18"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128577784/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F030e552d-e58d-186d-dfa8-e4a5fc9b7bd4.mp3",
-        "at": "2026-11-01T20:30:10Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793564935432-1bf9b43034014.jpg",
-        "t": "Ebtehaj, Abolhassan Part 6"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128591507/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F1fcdc08b-5bd9-ba2f-cf51-b95c44367f08.mp3",
+        "at": "2026-11-02T02:56:50Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793588200099-f2897f4b79779.jpg",
+        "t": "Toufanian, Hassan Part 17"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128577738/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F54f954c9-3a26-1a12-eaa5-164c42d78707.mp3",
-        "at": "2026-11-01T20:27:25Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793564836298-dfcf9f6cfa524.jpg",
-        "t": "Ebtehaj, Abolhassan Part 5"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128591427/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F089bd0f0-8c34-f91b-990e-df037f1b472d.mp3",
+        "at": "2026-11-02T02:54:19Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793588039595-a77283f281a3.jpg",
+        "t": "Toufanian, Hassan Part 16"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128577638/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F4ae7ad6b-36ab-5cdd-f331-426f60b09fd1.mp3",
-        "at": "2026-11-01T20:25:47Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793564774392-631dcf62ba673.jpg",
-        "t": "Ebtehaj, Abolhassan Part 4"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128590955/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F7309c26a-eebf-28a3-8b55-f71ec6054b3e.mp3",
+        "at": "2026-11-02T02:40:44Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793587222253-3bf6dfd27bf35.jpg",
+        "t": "Toufanian, Hassan Part 15"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128539966/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F2ab0e766-892f-b752-a5fa-9d6ddec4ed19.mp3",
-        "at": "2026-11-01T05:10:53Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793509843107-dcf352ba3848e.jpg",
-        "t": "Ebtehaj, Abolhassan Part 3"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128590835/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F2927fe51-2867-54ab-4342-3469a94f1ba7.mp3",
+        "at": "2026-11-02T02:38:25Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793587065812-b6b4775cbb927.jpg",
+        "t": "Toufanian, Hassan Part 14"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-01T20:36:15Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793565355348-0116db43eb5b.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-10-e3rid31",
-        "title": "Ebtehaj, Abolhassan Part 10"
+        "at": "2026-11-02T03:24:16Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793589841233-c8a0b8dba19ef.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Dolatshahi--Mehrangiz-Part-1-e3riqt7",
+        "title": "Dolatshahi, Mehrangiz Part 1"
       },
       {
-        "at": "2026-11-01T20:34:07Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793565273481-385064bd1a24b.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-9-e3rid10",
-        "title": "Ebtehaj, Abolhassan Part 9"
+        "at": "2026-11-02T03:01:06Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793588454612-93ce2e6370358.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Toufanian--Hassan-Part-20-e3riqao",
+        "title": "Toufanian, Hassan Part 20"
       },
       {
-        "at": "2026-11-01T20:33:09Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793565178505-2704c387747c.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ebtehaj--Abolhassan-Part-8-e3rid00",
-        "title": "Ebtehaj, Abolhassan Part 8"
+        "at": "2026-11-02T02:59:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793588375903-f13ef12c89253.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Toufanian--Hassan-Part-19-e3riq9g",
+        "title": "Toufanian, Hassan Part 19"
       }
     ],
     "recent_30d": [
@@ -56872,7 +56872,7 @@
       0,
       0,
       0,
-      10
+      45
     ],
     "status": "active"
   },
