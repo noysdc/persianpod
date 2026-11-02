@@ -41076,7 +41076,7 @@
     "avg_gap_days": 0.1,
     "avg_length": 8,
     "episodes": 46,
-    "eps_365": 43,
+    "eps_365": 42,
     "eps_90": 0,
     "first_at": "2025-10-31",
     "first_year": 1404,
@@ -43311,21 +43311,26 @@
     "status": "active"
   },
   "podcast-aamozsh-zban-anglisi-ataii-aanlain": {
-    "avg_gap_days": 23.1,
+    "avg_gap_days": 25.7,
     "avg_length": 16,
-    "episodes": 100,
-    "eps_365": 14,
-    "eps_90": 3,
+    "episodes": 101,
+    "eps_365": 15,
+    "eps_90": 4,
     "first_at": "2022-12-18",
     "first_year": 1401,
-    "last": "1405/06/12",
-    "last_at": "2026-09-03T13:51:36Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/98---e3o9s5s",
-    "last_title": "#98 - مجموعه شماره ۷ از ۳۰ درس کوتاه زبان انگلیسی",
+    "last": "1405/08/11",
+    "last_at": "2026-11-02T14:30:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/99---e3rjkpa",
+    "last_title": "#99 - دوازده اصطلاح انگلیسی با عدد صفر برای تقویت مکالمه",
     "max_length": 43,
     "median_length": 18,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://anchor.fm/s/17433084/podcast/play/128618730/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F435667937-44100-2-18249ac829c5f.mp3",
+        "at": "2026-11-02T14:30:00Z",
+        "t": "#99 - دوازده اصطلاح انگلیسی با عدد صفر برای تقویت مکالمه"
+      },
       {
         "a": "https://anchor.fm/s/17433084/podcast/play/125152892/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-3%2F431113103-44100-2-41f1fd9c96858.mp3",
         "at": "2026-09-03T13:51:36Z",
@@ -43360,14 +43365,14 @@
         "a": "https://anchor.fm/s/17433084/podcast/play/113113440/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-25%2F414999365-44100-2-8b2527241efaf.mp3",
         "at": "2025-12-26T05:44:00Z",
         "t": "#92 - آموزش مکالمه انگلیسی در پمپ بنزین"
-      },
-      {
-        "a": "https://anchor.fm/s/17433084/podcast/play/112813252/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-18%2F414622634-44100-2-5bcbea3b84165.mp3",
-        "at": "2025-12-19T06:10:00Z",
-        "t": "#91 - مجموعه شماره ۶ از ۳۰ درس کوتاه زبان انگلیسی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-02T14:30:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/99---e3rjkpa",
+        "title": "#99 - دوازده اصطلاح انگلیسی با عدد صفر برای تقویت مکالمه"
+      },
       {
         "at": "2026-09-03T13:51:36Z",
         "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/98---e3o9s5s",
@@ -43377,11 +43382,6 @@
         "at": "2026-08-24T14:00:00Z",
         "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/97---e3nqn24",
         "title": "#97 - مکالمه انگلیسی با موضوع سرما خوردگی"
-      },
-      {
-        "at": "2026-08-18T14:30:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/96---e3nh84d",
-        "title": "#96 - مکالمه انگلیسی موقع تصادف"
       }
     ],
     "recent_30d": [
@@ -43396,7 +43396,7 @@
       0,
       3,
       0,
-      0
+      1
     ],
     "status": "active"
   },
@@ -58123,21 +58123,33 @@
     "status": "active"
   },
   "radio-dordane": {
-    "avg_gap_days": 0.3,
+    "avg_gap_days": 0.4,
     "avg_length": 19,
-    "episodes": 11,
-    "eps_365": 11,
-    "eps_90": 11,
+    "episodes": 13,
+    "eps_365": 13,
+    "eps_90": 13,
     "first_at": "2026-10-27",
     "first_year": 1405,
-    "last": "1405/08/09",
-    "last_at": "2026-10-31T09:23:44Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l53",
-    "last_title": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه",
+    "last": "1405/08/11",
+    "last_at": "2026-11-02T08:31:33Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfgm2",
+    "last_title": "بهترین برنج ایرانی برای رستوران کدام است؟ راز پخت برنج خوش‌عطر در حجم بالا | رادیو دردانه",
     "max_length": 25,
-    "median_length": 21,
+    "median_length": 22,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1193981e4/podcast/play/128483458/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F435497722-44100-2-1932d1cc3d9fa.m4a",
+        "at": "2026-11-02T08:31:33Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793436835166-dd05da72045bd.jpg",
+        "t": "بهترین برنج ایرانی برای رستوران کدام است؟ راز پخت برنج خوش‌عطر در حجم بالا | رادیو دردانه"
+      },
+      {
+        "a": "https://anchor.fm/s/1193981e4/podcast/play/128483571/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F435497837-44100-2-3f41fb850d4f8.m4a",
+        "at": "2026-11-02T08:31:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793436983616-c5808f8b7fe5f.jpg",
+        "t": "چرا برنج ایرانی هنگام پخت خرد می‌شود؟ ۵ علت رایج و راه جلوگیری | رادیو دردانه"
+      },
       {
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128258659/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435212182-44100-2-2a8f19b486097.m4a",
         "at": "2026-10-31T09:23:44Z",
@@ -58173,38 +58185,26 @@
         "at": "2026-10-27T11:20:28Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793100034946-4f70cbedfc9a7.jpg",
         "t": "برنج هاشمی، طارم یا جمشید؟ مقایسه و راهنمای انتخاب | رادیو دردانه"
-      },
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/128171902/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F435104384-44100-2-4d737abdea87f.m4a",
-        "at": "2026-10-27T11:07:48Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793099274732-610ffec79250f.jpg",
-        "t": "انواع برنج ایرانی؛ هاشمی، طارم، صدری و کاظمی چه تفاوتی دارند؟ | رادیو دردانه"
-      },
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/128169688/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F435101832-44100-2-56c80396ce26e.m4a",
-        "at": "2026-10-27T10:34:56Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793097304284-a61837cca35d9.jpg",
-        "t": "راهنمای نگهداری برنج ایرانی؛ چطور برنج را تازه و سالم نگه داریم؟ | رادیو دردانه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-02T08:31:33Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793436835166-dd05da72045bd.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfgm2",
+        "title": "بهترین برنج ایرانی برای رستوران کدام است؟ راز پخت برنج خوش‌عطر در حجم بالا | رادیو دردانه"
+      },
+      {
+        "at": "2026-11-02T08:31:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793436983616-c5808f8b7fe5f.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfgpj",
+        "title": "چرا برنج ایرانی هنگام پخت خرد می‌شود؟ ۵ علت رایج و راه جلوگیری | رادیو دردانه"
+      },
       {
         "at": "2026-10-31T09:23:44Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184386488-33fa9bf0ea326.jpg",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l53",
         "title": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه"
-      },
-      {
-        "at": "2026-10-31T07:11:54Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184507172-d0a506e65c68.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l90",
-        "title": "تفاوت برنج کشت اول و کشت دوم چیست؟ مقایسه عطر، کیفیت و قیمت | رادیو دردانه"
-      },
-      {
-        "at": "2026-10-29T13:44:52Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184233185-e5d38ea15bdd9.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l18",
-        "title": "برنج دودی چیست و چه تفاوتی با برنج معمولی دارد؟ | رادیو دردانه"
       }
     ],
     "recent_30d": [
@@ -58219,7 +58219,7 @@
       0,
       0,
       0,
-      11
+      13
     ],
     "status": "active"
   },
