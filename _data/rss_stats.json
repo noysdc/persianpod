@@ -34145,21 +34145,27 @@
     "status": "inactive"
   },
   "ktabkhanh-soti": {
-    "avg_gap_days": 8.7,
+    "avg_gap_days": 8.5,
     "avg_length": 30,
-    "episodes": 41,
-    "eps_365": 41,
-    "eps_90": 7,
+    "episodes": 42,
+    "eps_365": 42,
+    "eps_90": 8,
     "first_at": "2025-11-17",
     "first_year": 1404,
-    "last": "1405/08/07",
-    "last_at": "2026-10-29T15:23:01Z",
-    "last_link": "https://www.spreaker.com/episode/qsh-ha-w-afsanh-ha-bkhsh-1--76055916",
-    "last_title": "قصه‌ها و افسانه‌ها - بخش ۱",
+    "last": "1405/08/11",
+    "last_at": "2026-11-02T15:24:02Z",
+    "last_link": "https://www.spreaker.com/episode/qsh-ha-w-afsanh-ha-bkhsh-2--76055918",
+    "last_title": "قصه‌ها و افسانه‌ها - بخش ۲",
     "max_length": 73,
     "median_length": 25,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76055918/episode.mp3",
+        "at": "2026-11-02T15:24:02Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/61a6acf171f6c6a6b42a205ba1035881.jpg",
+        "t": "قصه‌ها و افسانه‌ها - بخش ۲"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76055916/episode.mp3",
         "at": "2026-10-29T15:23:01Z",
@@ -34201,15 +34207,15 @@
         "at": "2026-08-15T11:03:00Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/039491ca36524f13ccb639b4e524132d.jpg",
         "t": "قصه‌های بابام - بخش ۵"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72936395/7_8_9.mp3",
-        "at": "2026-08-04T11:58:00Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/aaf35279dfde7bc62901e51b81962291.jpg",
-        "t": "قصه‌های بابام - بخش ۴"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-02T15:24:02Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/61a6acf171f6c6a6b42a205ba1035881.jpg",
+        "link": "https://www.spreaker.com/episode/qsh-ha-w-afsanh-ha-bkhsh-2--76055918",
+        "title": "قصه‌ها و افسانه‌ها - بخش ۲"
+      },
       {
         "at": "2026-10-29T15:23:01Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/61a6acf171f6c6a6b42a205ba1035881.jpg",
@@ -34221,12 +34227,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/94988e702a74fc7356f2f78cf8b36962.jpg",
         "link": "https://www.spreaker.com/episode/fyl-bkhsh-2--75478512",
         "title": "فیل - بخش ۲"
-      },
-      {
-        "at": "2026-10-05T15:37:02Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/94988e702a74fc7356f2f78cf8b36962.jpg",
-        "link": "https://www.spreaker.com/episode/fyl-bkhsh-1--75478517",
-        "title": "فیل - بخش ۱"
       }
     ],
     "recent_30d": [
@@ -34241,7 +34241,7 @@
       7,
       2,
       2,
-      3
+      4
     ],
     "status": "active"
   },
