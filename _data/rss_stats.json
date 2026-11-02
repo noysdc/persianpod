@@ -44845,7 +44845,7 @@
       }
     ],
     "recent_30d": [
-      3,
+      2,
       0,
       3,
       5,
@@ -48965,8 +48965,8 @@
       }
     ],
     "recent_30d": [
-      0,
-      4,
+      1,
+      3,
       0,
       2,
       0,
@@ -51038,40 +51038,20 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
-    "avg_length": 48,
-    "episodes": 110,
-    "eps_365": 33,
-    "eps_90": 33,
+    "avg_length": 53,
+    "episodes": 106,
+    "eps_365": 29,
+    "eps_90": 29,
     "first_at": "2023-05-06",
     "first_year": 1402,
     "last": "1405/08/11",
-    "last_at": "2026-11-02T02:25:10Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Toufanian--Hassan-Part-9-e3rip3q",
-    "last_title": "Toufanian, Hassan Part 9",
+    "last_at": "2026-11-02T02:19:54Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Toufanian--Hassan-Part-5-e3riotv",
+    "last_title": "Toufanian, Hassan Part 5",
     "max_length": 63,
-    "median_length": 54,
+    "median_length": 55,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128590394/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2Fd7d24845-f442-eea6-e1f9-1a6d922867cc.mp3",
-        "at": "2026-11-02T02:25:10Z",
-        "t": "Toufanian, Hassan Part 9"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128590351/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F80c5dadd-dd7f-566f-a03e-ba9db15fd4fb.mp3",
-        "at": "2026-11-02T02:24:00Z",
-        "t": "Toufanian, Hassan Part 8"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128590293/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2Fef351d25-00da-adab-a14d-1aba4d3f0fb9.mp3",
-        "at": "2026-11-02T02:22:08Z",
-        "t": "Toufanian, Hassan Part 7"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128590255/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2Fad78ebf2-f076-29dd-b5ab-e580be9fdaef.mp3",
-        "at": "2026-11-02T02:21:15Z",
-        "t": "Toufanian, Hassan Part 6"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128590207/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2Ff5925b67-dd78-6620-b494-f996f9f22cb9.mp3",
         "at": "2026-11-02T02:19:54Z",
@@ -51091,23 +51071,43 @@
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128590039/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F7a3fdb13-3e8c-e66a-99c6-0af29f4d8968.mp3",
         "at": "2026-11-02T02:15:47Z",
         "t": "Toufanian, Hassan Part 2"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128589860/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F78b3e635-b4ad-940d-dc9b-682a1ada07e0.mp3",
+        "at": "2026-11-02T02:14:11Z",
+        "t": "Toufanian, Hassan Part 1"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128587711/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F3d1f3fbd-2834-f20f-ccfd-5c0d4e3786ba.mp3",
+        "at": "2026-11-02T01:09:05Z",
+        "t": "Foroughi, Mahmoud Part 8"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128587679/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F6dbc1596-91df-4021-3d27-dc7720daa456.mp3",
+        "at": "2026-11-02T01:07:56Z",
+        "t": "Foroughi, Mahmoud Part 7"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128587630/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F493fff26-7e62-7dde-cd95-248d2e1a82c2.mp3",
+        "at": "2026-11-02T01:06:34Z",
+        "t": "Foroughi, Mahmoud Part 6"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-02T02:25:10Z",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Toufanian--Hassan-Part-9-e3rip3q",
-        "title": "Toufanian, Hassan Part 9"
+        "at": "2026-11-02T02:19:54Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Toufanian--Hassan-Part-5-e3riotv",
+        "title": "Toufanian, Hassan Part 5"
       },
       {
-        "at": "2026-11-02T02:24:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Toufanian--Hassan-Part-8-e3rip2f",
-        "title": "Toufanian, Hassan Part 8"
+        "at": "2026-11-02T02:18:54Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Toufanian--Hassan-Part-4-e3riosp",
+        "title": "Toufanian, Hassan Part 4"
       },
       {
-        "at": "2026-11-02T02:22:08Z",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Toufanian--Hassan-Part-7-e3rip0l",
-        "title": "Toufanian, Hassan Part 7"
+        "at": "2026-11-02T02:17:51Z",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Toufanian--Hassan-Part-3-e3riord",
+        "title": "Toufanian, Hassan Part 3"
       }
     ],
     "recent_30d": [
@@ -51122,7 +51122,7 @@
       0,
       0,
       0,
-      33
+      29
     ],
     "status": "active"
   },
@@ -62484,8 +62484,8 @@
       0,
       0,
       0,
-      9,
-      13,
+      10,
+      12,
       10,
       6,
       2,
@@ -63819,8 +63819,8 @@
     ],
     "recent_30d": [
       112,
-      116,
-      26,
+      117,
+      25,
       92,
       0,
       0,
