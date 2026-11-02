@@ -17,8 +17,8 @@ pi_id: 3487088
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # کارآفرینی با طعم قاووت

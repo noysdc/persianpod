@@ -17,8 +17,8 @@ pi_id: 4583237
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # مرتضی رجب نیا

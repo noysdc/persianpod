@@ -18,8 +18,8 @@ pi_id: 2112991
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # رتبه لند
