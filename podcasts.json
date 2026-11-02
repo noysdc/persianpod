@@ -42,7 +42,7 @@ permalink: /podcasts.json
   "first_at": {{ st.first_at | jsonify }},
   "start": {% if sy > 0 %}{{ sy }}{% else %}null{% endif %},
   "apple": {{ ap }},
-  "eps": [{% for e in st.play %}{"t": {{ e.t | jsonify }}, "a": {{ e.a | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]
+  "eps": [{% for e in st.play %}{"t": {{ e.t | jsonify }}, "a": {{ e.a | jsonify }}{% if e.i %}, "i": {{ e.i | jsonify }}{% endif %}}{% unless forloop.last %},{% endunless %}{% endfor %}]
 }{% unless forloop.last %},{% endunless %}
 {%- endfor -%}
 ]
