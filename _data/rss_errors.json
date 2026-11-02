@@ -96,7 +96,7 @@
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
   "podcast-fotbal-lb": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "error": "RuntimeError: IncompleteRead: IncompleteRead(6144 bytes read)",
     "rss": "https://feed.podkadeh.cloud/podcastxml/footballlab.xml"
   },
   "podcast-khakstri-roan": {
