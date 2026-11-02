@@ -15,10 +15,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
-  "aapartaid-jnsiti": {
-    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://podcast.thermmedia.com/feed/podcast/gender-apartheid/"
-  },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
@@ -32,7 +28,7 @@
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
   "baigani-ha-sda": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://musiceiranian.ir/type/audio/feed"
   },
   "bazariabi-ba-hmid-sbaghi": {
@@ -102,10 +98,6 @@
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
-  },
-  "podcast-aaoa": {
-    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://podcast.thermmedia.com/feed/podcast/avapodcast/"
   },
   "podcast-fotbal-lb": {
     "error": "RuntimeError: TimeoutError: The read operation timed out",
