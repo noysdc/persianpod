@@ -14641,8 +14641,8 @@
     ],
     "recent_30d": [
       3,
-      4,
-      1,
+      5,
+      0,
       2,
       0,
       0,
@@ -32628,7 +32628,7 @@
       }
     ],
     "recent_30d": [
-      28,
+      27,
       21,
       29,
       29,
@@ -47720,8 +47720,8 @@
       1,
       1,
       0,
-      1,
-      2
+      2,
+      1
     ],
     "status": "active"
   },
@@ -49874,10 +49874,10 @@
     "status": "active"
   },
   "podcast-tarikhi-majon": {
-    "avg_gap_days": 19.9,
+    "avg_gap_days": 20.2,
     "avg_length": 53,
     "episodes": 102,
-    "eps_365": 19,
+    "eps_365": 18,
     "eps_90": 7,
     "first_at": "2019-12-31",
     "first_year": 1398,
@@ -53181,19 +53181,24 @@
   "radio-hkait": {
     "avg_gap_days": 4.5,
     "avg_length": 34,
-    "episodes": 196,
-    "eps_365": 81,
+    "episodes": 197,
+    "eps_365": 82,
     "eps_90": 31,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ed022cb9-ff3f-48b8-a565-77b58d0b3160/play.mp3",
-    "last_title": "چگونه با نویسنده ی اعلامیهُ ترحیمم ملاقات کردم - یارسلاو هاشک",
+    "last": "1405/08/11",
+    "last_at": "2026-11-02T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/210a2fd9-d79e-40d4-9c54-cf507ff85f3e/play.mp3",
+    "last_title": "عزیزم بپسند - عزیز نسین",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/210a2fd9-d79e-40d4-9c54-cf507ff85f3e/play.mp3",
+        "at": "2026-11-02T01:30:00Z",
+        "t": "عزیزم بپسند - عزیز نسین"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ed022cb9-ff3f-48b8-a565-77b58d0b3160/play.mp3",
         "at": "2026-11-01T01:30:00Z",
@@ -53228,14 +53233,14 @@
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/3f73e797-3629-45c4-a3f9-63d64bfc13c5/play.mp3",
         "at": "2026-10-26T01:30:00Z",
         "t": "زرنگی های من - عزیز نسین"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/e142a9ba-dad3-4265-96da-c92336905b47/play.mp3",
-        "at": "2026-10-23T03:30:00Z",
-        "t": "طلا همیشه نیست - ویلیام فاکنر"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-02T01:30:00Z",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/210a2fd9-d79e-40d4-9c54-cf507ff85f3e/play.mp3",
+        "title": "عزیزم بپسند - عزیز نسین"
+      },
       {
         "at": "2026-11-01T01:30:00Z",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ed022cb9-ff3f-48b8-a565-77b58d0b3160/play.mp3",
@@ -53245,26 +53250,21 @@
         "at": "2026-10-31T01:30:00Z",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/c36907be-441c-4d87-94e0-68bbbbb1a339/play.mp3",
         "title": "پلیس و سرود - اُ . هنری"
-      },
-      {
-        "at": "2026-10-30T01:30:00Z",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/c785b4af-fbb4-48bf-a6c2-b89ad465f3a8/play.mp3",
-        "title": "کاغذ دیواری زرد - شارلوت پرکینز گیلمن"
       }
     ],
     "recent_30d": [
-      9,
       8,
-      3,
+      9,
+      2,
       9,
       0,
       0,
-      3,
+      4,
+      8,
       9,
       8,
       9,
-      9,
-      13
+      14
     ],
     "status": "active"
   },
@@ -58076,8 +58076,8 @@
       0,
       0,
       0,
-      0,
-      3,
+      1,
+      2,
       0
     ],
     "status": "active"
@@ -63818,9 +63818,9 @@
       }
     ],
     "recent_30d": [
-      111,
+      112,
       116,
-      27,
+      26,
       92,
       0,
       0,
@@ -65177,7 +65177,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 23,
     "episodes": 404,
-    "eps_365": 260,
+    "eps_365": 259,
     "eps_90": 114,
     "first_at": "2024-08-22",
     "first_year": 1403,
@@ -65258,8 +65258,8 @@
       7,
       14,
       39,
-      43,
-      32
+      44,
+      31
     ],
     "status": "active"
   },
