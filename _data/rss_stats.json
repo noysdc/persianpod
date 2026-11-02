@@ -50931,26 +50931,21 @@
     "status": "active"
   },
   "podcast-khoab-kodkanh": {
-    "avg_gap_days": 9.8,
+    "avg_gap_days": 9.7,
     "avg_length": 9,
-    "episodes": 168,
-    "eps_365": 38,
-    "eps_90": 9,
+    "episodes": 167,
+    "eps_365": 37,
+    "eps_90": 8,
     "first_at": "2022-02-16",
     "first_year": 1400,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T22:42:31Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3rihm9",
-    "last_title": "پپا فوتبال بازی می کند",
+    "last": "1405/07/26",
+    "last_at": "2026-10-18T22:25:38Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3qn9ld",
+    "last_title": "پپا و مهمانی پر ماجرا",
     "max_length": 34,
     "median_length": 11,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/51d21800/podcast/play/128582793/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F435620554-44100-2-19ae5a0c526a5.m4a",
-        "at": "2026-11-01T22:42:31Z",
-        "t": "پپا فوتبال بازی می کند"
-      },
       {
         "a": "https://anchor.fm/s/51d21800/podcast/play/127689837/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-18%2F434457489-44100-2-53556cc7c24d7.m4a",
         "at": "2026-10-18T22:25:38Z",
@@ -50985,14 +50980,14 @@
         "a": "https://anchor.fm/s/51d21800/podcast/play/125427406/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-8%2F431480289-44100-2-0ea8a32e453a4.m4a",
         "at": "2026-09-08T22:09:41Z",
         "t": "پپا به دندانپزشکی می رود"
+      },
+      {
+        "a": "https://anchor.fm/s/51d21800/podcast/play/123993386/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-9%2F429527198-44100-2-931f6e8ea50d7.m4a",
+        "at": "2026-08-09T21:58:19Z",
+        "t": "لاک پشت وروجک"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-01T22:42:31Z",
-        "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3rihm9",
-        "title": "پپا فوتبال بازی می کند"
-      },
       {
         "at": "2026-10-18T22:25:38Z",
         "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3qn9ld",
@@ -51002,6 +50997,11 @@
         "at": "2026-10-11T22:15:34Z",
         "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3qbmbd",
         "title": "روز بازیافت"
+      },
+      {
+        "at": "2026-10-04T22:33:51Z",
+        "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3pt0r2",
+        "title": "پپا با کامپیوتر بازی می کند"
       }
     ],
     "recent_30d": [
@@ -51016,7 +51016,7 @@
       6,
       1,
       4,
-      4
+      3
     ],
     "status": "active"
   },
