@@ -150,9 +150,5 @@
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://ronakottawa.com/feed/podcast/zaban-o-adabiyat/"
-  },
-  "zhn-hai-nahshiar": {
-    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://tehranpodcast.ir/category/mindsoftheunconscious/feed/"
   }
 }
