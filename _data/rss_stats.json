@@ -2483,7 +2483,7 @@
     "avg_length": 8,
     "episodes": 83,
     "eps_365": 83,
-    "eps_90": 53,
+    "eps_90": 52,
     "first_at": "2026-07-06",
     "first_year": 1405,
     "last": "1405/08/09",
@@ -2572,8 +2572,8 @@
       0,
       0,
       0,
-      30,
       31,
+      30,
       16,
       6
     ],
@@ -5925,6 +5925,96 @@
       0,
       0,
       5
+    ],
+    "status": "active"
+  },
+  "aspaniaii-dr-hrkt": {
+    "avg_gap_days": 1.1,
+    "avg_length": 21,
+    "episodes": 22,
+    "eps_365": 22,
+    "eps_90": 22,
+    "first_at": "2026-08-28",
+    "first_year": 1405,
+    "last": "1405/06/30",
+    "last_at": "2026-09-21T18:55:00Z",
+    "last_link": "https://spanish-in-motion-farsi.captivate.fm",
+    "last_title": "E03: (blanco vs blanca؟) راز صفت‌ها، رنگ‌ها و هماهنگی در اسپانیایی",
+    "max_length": 30,
+    "median_length": 21,
+    "min_length": 12,
+    "play": [
+      {
+        "a": "https://episodes.captivate.fm/episode/dbaecb74-fb4b-41cc-92b0-fafd169124d4.mp3",
+        "at": "2026-09-21T18:55:00Z",
+        "t": "E03: (blanco vs blanca؟) راز صفت‌ها، رنگ‌ها و هماهنگی در اسپانیایی"
+      },
+      {
+        "a": "https://episodes.captivate.fm/episode/2c2a677d-1bfc-4a63-9925-e197c507e86e.mp3",
+        "at": "2026-09-21T18:50:00Z",
+        "t": "E02: un و una ,unos و unas — چطور اسپانیایی را درست جمع ببندیم؟"
+      },
+      {
+        "a": "https://episodes.captivate.fm/episode/1f0465bc-64db-4a47-a854-1a15358a01a1.mp3",
+        "at": "2026-09-21T18:45:00Z",
+        "t": "E01: در اسپانیایی یعنی مؤنث؟ نه همیشه a فکر می‌کنی"
+      },
+      {
+        "a": "https://episodes.captivate.fm/episode/d8be27ef-0848-4e28-a0ef-03a167862440.mp3",
+        "at": "2026-09-17T18:50:00Z",
+        "t": "E19: Airbnb"
+      },
+      {
+        "a": "https://episodes.captivate.fm/episode/ffacae80-9f00-46fd-a5ff-635c9478f020.mp3",
+        "at": "2026-09-17T18:50:00Z",
+        "t": "چطور با اسپانیایی‌ها سر صحبت را باز کنیم؟"
+      },
+      {
+        "a": "https://episodes.captivate.fm/episode/1d1f2c57-db05-439e-b935-143296c46f3d.mp3",
+        "at": "2026-09-17T18:45:00Z",
+        "t": "E17: گم نشو در موزه!"
+      },
+      {
+        "a": "https://episodes.captivate.fm/episode/16234977-ac2c-4186-8131-86efd30862e6.mp3",
+        "at": "2026-09-03T07:00:00Z",
+        "t": "E16: 🚕 «آیا آزاد است؟» — تاکسی گرفتن در اسپانیا"
+      },
+      {
+        "a": "https://episodes.captivate.fm/episode/a28df119-93f3-4169-83cc-30d792e1e591.mp3",
+        "at": "2026-09-03T06:30:00Z",
+        "t": "E15: 🎆 اگر گم شدیم، همین‌جا می‌بینیم — شب جشن در اسپانیا"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-21T18:55:00Z",
+        "link": "https://spanish-in-motion-farsi.captivate.fm",
+        "title": "E03: (blanco vs blanca؟) راز صفت‌ها، رنگ‌ها و هماهنگی در اسپانیایی"
+      },
+      {
+        "at": "2026-09-21T18:50:00Z",
+        "link": "https://spanish-in-motion-farsi.captivate.fm",
+        "title": "E02: un و una ,unos و unas — چطور اسپانیایی را درست جمع ببندیم؟"
+      },
+      {
+        "at": "2026-09-21T18:45:00Z",
+        "link": "https://spanish-in-motion-farsi.captivate.fm",
+        "title": "E01: در اسپانیایی یعنی مؤنث؟ نه همیشه a فکر می‌کنی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      6,
+      0
     ],
     "status": "active"
   },
@@ -11443,6 +11533,107 @@
     ],
     "status": "active"
   },
+  "daralokla": {
+    "avg_gap_days": 54.7,
+    "avg_length": 83,
+    "episodes": 66,
+    "eps_365": 7,
+    "eps_90": 2,
+    "first_at": "2021-02-11",
+    "first_year": 1399,
+    "last": "1405/08/03",
+    "last_at": "2026-10-25T19:04:51Z",
+    "last_link": "https://shows.acast.com/darolvokalaa-l-drlol/episodes/gom",
+    "last_title": "شصت و پنجم _ گم خواه",
+    "max_length": 137,
+    "median_length": 80,
+    "min_length": 18,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624d548abd68b30013af6af8/e/6add1735296f30f8e349b49a/media.mp3",
+        "at": "2026-10-25T19:04:51Z",
+        "i": "https://assets.pippa.io/shows/624d548abd68b30013af6af8/1792871023854-b3c53afc-54d4-4e5f-be35-f8c3ddf612cc.jpeg",
+        "t": "شصت و پنجم _ گم خواه"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624d548abd68b30013af6af8/e/6a885f7ba89d26398ee8c320/media.mp3",
+        "at": "2026-08-21T14:23:56Z",
+        "i": "https://assets.pippa.io/shows/624d548abd68b30013af6af8/1787322157604-be586ad0-b49b-46eb-9760-ff46e4347bda.jpeg",
+        "t": "شصت و چهارم _ عاصیس"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624d548abd68b30013af6af8/e/6a5f99a54827c673f0ecf1b9/media.mp3",
+        "at": "2026-07-21T16:09:10Z",
+        "i": "https://assets.pippa.io/shows/624d548abd68b30013af6af8/1784649466506-55f12a33-97e9-4c0a-9de4-4d1b3fe1bd2e.jpeg",
+        "t": "شصت و سوم _ باقالی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624d548abd68b30013af6af8/e/6a4e817efe878dc8e238b695/media.mp3",
+        "at": "2026-07-08T16:57:32Z",
+        "i": "https://assets.pippa.io/shows/624d548abd68b30013af6af8/1783529618728-1433b37e-4358-47a0-b18a-6eb5e59df23e.jpeg",
+        "t": "شصت و دوم _ مسائل حقوقی ارث در رابطه با زمان فوت _ غیر داستانی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624d548abd68b30013af6af8/e/6a2a72d034a0c5b2c29b3519/media.mp3",
+        "at": "2026-06-11T08:33:20Z",
+        "i": "https://assets.pippa.io/shows/624d548abd68b30013af6af8/1781166474850-8fbcac10-938d-4710-82af-11a0103b9826.jpeg",
+        "t": "شصت و یکم _ ژن خوک"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624d548abd68b30013af6af8/e/6a206d9201be5cffcd3c6691/media.mp3",
+        "at": "2026-06-03T18:08:18Z",
+        "i": "https://assets.pippa.io/shows/624d548abd68b30013af6af8/1780509910904-57706d93-468b-4312-9dab-018e2804586d.jpeg",
+        "t": "شصتم _ شما دوست دارین چطوری بمیرین؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624d548abd68b30013af6af8/e/692db005995fb7f1b59eeb7d/media.mp3",
+        "at": "2025-12-01T15:11:01Z",
+        "i": "https://assets.pippa.io/shows/624d548abd68b30013af6af8/1764601788404-e230419d-af0f-420b-8c13-cdf9213c7f65.jpeg",
+        "t": "پنجاه و نهم _ آموزش فرهنگ جنسی (غیر داستانی)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624d548abd68b30013af6af8/e/68f7626c3f3d3898034e927b/media.mp3",
+        "at": "2025-10-21T10:37:31Z",
+        "i": "https://assets.pippa.io/shows/624d548abd68b30013af6af8/1761042085855-0ee8c395-056b-4abe-ae36-83e2f0f0f62a.jpeg",
+        "t": "پنجاه و هشتم _ انتخاب (قسمت دوم)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-25T19:04:51Z",
+        "i": "https://assets.pippa.io/shows/624d548abd68b30013af6af8/1792871023854-b3c53afc-54d4-4e5f-be35-f8c3ddf612cc.jpeg",
+        "link": "https://shows.acast.com/darolvokalaa-l-drlol/episodes/gom",
+        "title": "شصت و پنجم _ گم خواه"
+      },
+      {
+        "at": "2026-08-21T14:23:56Z",
+        "i": "https://assets.pippa.io/shows/624d548abd68b30013af6af8/1787322157604-be586ad0-b49b-46eb-9760-ff46e4347bda.jpeg",
+        "link": "https://shows.acast.com/darolvokalaa-l-drlol/episodes/sd",
+        "title": "شصت و چهارم _ عاصیس"
+      },
+      {
+        "at": "2026-07-21T16:09:10Z",
+        "i": "https://assets.pippa.io/shows/624d548abd68b30013af6af8/1784649466506-55f12a33-97e9-4c0a-9de4-4d1b3fe1bd2e.jpeg",
+        "link": "https://shows.acast.com/darolvokalaa-l-drlol/episodes/sdsdw",
+        "title": "شصت و سوم _ باقالی"
+      }
+    ],
+    "recent_30d": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      1,
+      0,
+      1
+    ],
+    "status": "active"
+  },
   "darma-mditishn": {
     "avg_gap_days": 8.4,
     "avg_length": 19,
@@ -16776,6 +16967,95 @@
     ],
     "status": "inactive"
   },
+  "fnon-mtghaad-sazi": {
+    "avg_length": 12,
+    "episodes": 24,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-02-15",
+    "first_year": 1398,
+    "last": "1398/11/26",
+    "last_at": "2020-02-15T22:10:54Z",
+    "last_link": "https://s3.castbox.fm/e9/ce/92/8bbae24868a34bcf55b81fe466.mp3",
+    "last_title": "مهارت های ارتباطی و متقاعد کردن",
+    "max_length": 55,
+    "median_length": 8,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/e9/ce/92/8bbae24868a34bcf55b81fe466.mp3",
+        "at": "2020-02-15T22:10:54Z",
+        "t": "مهارت های ارتباطی و متقاعد کردن"
+      },
+      {
+        "a": "https://s3.castbox.fm/b1/50/d6/ff987e4388b607a61eb305ff81.mp3",
+        "at": "2020-02-15T22:10:30Z",
+        "t": "متقاعد کردن و فروش به مشتری های بی پول"
+      },
+      {
+        "a": "https://s3.castbox.fm/2d/6e/fb/0bd6004d61ab479dd908276a14.mp3",
+        "at": "2020-02-15T22:10:05Z",
+        "t": "فروش و متقاعد سازی در خیابان"
+      },
+      {
+        "a": "https://s3.castbox.fm/a1/8e/c8/27154449b081fa0abed735a2e0.mp3",
+        "at": "2020-02-15T22:09:25Z",
+        "t": "آموزش سخنراني و قانع سازي 2"
+      },
+      {
+        "a": "https://s3.castbox.fm/03/ac/b8/e9d17843c2b320cd003adff4b3.mp3",
+        "at": "2020-02-15T22:08:33Z",
+        "t": "آموزش سخنراني و قانع سازي 1"
+      },
+      {
+        "a": "https://s3.castbox.fm/a9/c8/3f/dc8553425595961cb35186e212.mp3",
+        "at": "2020-02-15T22:07:09Z",
+        "t": "آموزش اصول و فنون مذاکره و متقاعدسازي"
+      },
+      {
+        "a": "https://s3.castbox.fm/60/52/af/47084b442eadafb0aa027c9a19.mp3",
+        "at": "2020-02-15T22:06:27Z",
+        "t": "اصول مذاکره و متقاعد کردن"
+      },
+      {
+        "a": "https://s3.castbox.fm/2b/5a/69/fdcbfd43cca8c8019472ea4c24.mp3",
+        "at": "2020-02-15T22:05:20Z",
+        "t": "اصول مذاکره و قانع کردن"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-02-15T22:10:54Z",
+        "link": "https://s3.castbox.fm/e9/ce/92/8bbae24868a34bcf55b81fe466.mp3",
+        "title": "مهارت های ارتباطی و متقاعد کردن"
+      },
+      {
+        "at": "2020-02-15T22:10:30Z",
+        "link": "https://s3.castbox.fm/b1/50/d6/ff987e4388b607a61eb305ff81.mp3",
+        "title": "متقاعد کردن و فروش به مشتری های بی پول"
+      },
+      {
+        "at": "2020-02-15T22:10:05Z",
+        "link": "https://s3.castbox.fm/2d/6e/fb/0bd6004d61ab479dd908276a14.mp3",
+        "title": "فروش و متقاعد سازی در خیابان"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "fotbal-paradizo": {
     "avg_gap_days": 0.4,
     "avg_length": 79,
@@ -18335,6 +18615,104 @@
     ],
     "status": "active"
   },
+  "ghesehaye-baran-ghsh-hai-baran": {
+    "avg_length": 7,
+    "episodes": 20,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-12-27",
+    "first_year": 1399,
+    "last": "1400/02/14",
+    "last_at": "2021-05-04T14:45:55Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/anny554/episodes/ep-e107ppm",
+    "last_title": "درخت و باران",
+    "max_length": 15,
+    "median_length": 6,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/459acdac/podcast/play/32810230/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-4-4%2F182706509-44100-1-99fccfd847968.m4a",
+        "at": "2021-05-04T14:45:55Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11577731/11577731-1620156528907-4f7230a3b6ae9.jpg",
+        "t": "درخت و باران"
+      },
+      {
+        "a": "https://anchor.fm/s/459acdac/podcast/play/31124221/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-3-10%2F174105579-44100-1-6404fae2367ad.m4a",
+        "at": "2021-04-10T10:17:30Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11577731/11577731-1618049627131-c9ecbbab6c7af.jpg",
+        "t": "روياي الناز"
+      },
+      {
+        "a": "https://anchor.fm/s/459acdac/podcast/play/29774766/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-2-23%2F168286166-44100-1-cccd770ff757f.m4a",
+        "at": "2021-03-23T19:43:51Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11577731/11577731-1616528555959-8f1f939622017.jpg",
+        "t": "گوسفندي كه ميخواست بزرگ باشد خيلي بزرگ"
+      },
+      {
+        "a": "https://anchor.fm/s/459acdac/podcast/play/29501636/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-2-20%2F167156471-44100-1-da01000f2d83b.m4a",
+        "at": "2021-03-20T13:30:41Z",
+        "t": "پس بزن بريم..."
+      },
+      {
+        "a": "https://anchor.fm/s/459acdac/podcast/play/28506385/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-2-9%2F163266674-44100-1-654c211a2cb8c.m4a",
+        "at": "2021-03-09T21:57:44Z",
+        "t": "شكست ناپذيرها"
+      },
+      {
+        "a": "https://anchor.fm/s/459acdac/podcast/play/27695121/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-2-2%2F160677587-44100-1-94a4c07a8a1af.m4a",
+        "at": "2021-03-02T19:41:54Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11577731/11577731-1614714023046-d5404c4520723.jpg",
+        "t": "دم دراز گاو"
+      },
+      {
+        "a": "https://anchor.fm/s/459acdac/podcast/play/27499627/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-1-27%2F159506414-44100-1-a25f009df6f86.m4a",
+        "at": "2021-02-27T11:20:24Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11577731/11577731-1614424269345-fa775b7cbdabc.jpg",
+        "t": "دختري كه هيچوقت اشتباه نميكرد!"
+      },
+      {
+        "a": "https://anchor.fm/s/459acdac/podcast/play/27101530/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-1-22%2F157859390-44100-1-cbc0ad3397a15.m4a",
+        "at": "2021-02-22T19:41:44Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11577731/11577731-1614022905947-8394cbbe3d5c2.jpg",
+        "t": "حالا چه وقت شنا كردن است؟"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2021-05-04T14:45:55Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11577731/11577731-1620156528907-4f7230a3b6ae9.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/anny554/episodes/ep-e107ppm",
+        "title": "درخت و باران"
+      },
+      {
+        "at": "2021-04-10T10:17:30Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11577731/11577731-1618049627131-c9ecbbab6c7af.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/anny554/episodes/ep-eukb9t",
+        "title": "روياي الناز"
+      },
+      {
+        "at": "2021-03-23T19:43:51Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11577731/11577731-1616528555959-8f1f939622017.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/anny554/episodes/ep-etb5fe",
+        "title": "گوسفندي كه ميخواست بزرگ باشد خيلي بزرگ"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "ghir-az-jng-chh-khbr": {
     "avg_gap_days": 1.5,
     "avg_length": 17,
@@ -18524,6 +18902,96 @@
       0
     ],
     "status": "inactive"
+  },
+  "ghraan-krim-ba-trjmh": {
+    "avg_gap_days": 1.4,
+    "avg_length": 9,
+    "episodes": 249,
+    "eps_365": 189,
+    "eps_90": 0,
+    "first_at": "2020-10-17",
+    "first_year": 1399,
+    "last": "1405/04/30",
+    "last_at": "2026-07-21T00:02:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mohammad-mahdi-nekahi/episodes/ep-e3m9ml5",
+    "last_title": "صفحه ۳۳۰ قرآن کریم",
+    "max_length": 28,
+    "median_length": 8,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/3be53cfc/podcast/play/123050085/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-20%2F60902a80-3c0c-b852-54f3-78923b4dfb9b.mp3",
+        "at": "2026-07-21T00:02:00Z",
+        "t": "صفحه ۳۳۰ قرآن کریم"
+      },
+      {
+        "a": "https://anchor.fm/s/3be53cfc/podcast/play/123049508/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-20%2F087d3a7d-b8cd-dded-de63-18e97ad2257e.mp3",
+        "at": "2026-07-20T00:01:26Z",
+        "t": "صفحه ۳۲۹ قرآن کریم"
+      },
+      {
+        "a": "https://anchor.fm/s/3be53cfc/podcast/play/122481431/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-6%2F979f96f3-b769-31a0-1aec-c4ac70a19140.mp3",
+        "at": "2026-07-07T23:57:00Z",
+        "t": "صفحه ۳۲۸ قرآن کریم"
+      },
+      {
+        "a": "https://anchor.fm/s/3be53cfc/podcast/play/122481398/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-6%2F7abd24bc-3e07-afcf-fee0-c0dd0eb377eb.mp3",
+        "at": "2026-07-06T23:57:16Z",
+        "t": "صفحه ۳۲۷ قرآن کریم"
+      },
+      {
+        "a": "https://anchor.fm/s/3be53cfc/podcast/play/122081861/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-28%2F1b69b990-6c5c-ef94-f07b-f06629ca2683.mp3",
+        "at": "2026-06-28T02:33:38Z",
+        "t": "صفحه ۳۲۶ قرآن کریم"
+      },
+      {
+        "a": "https://anchor.fm/s/3be53cfc/podcast/play/121485386/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-15%2Fdee1f2d7-77b2-c13a-38f2-58ed8e6502b9.mp3",
+        "at": "2026-06-16T01:00:00Z",
+        "t": "صفحه ۳۲۵ قرآن کریم"
+      },
+      {
+        "a": "https://anchor.fm/s/3be53cfc/podcast/play/121484759/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-15%2Fc7d07095-48d5-d694-586f-6cef25c781ac.mp3",
+        "at": "2026-06-15T02:35:12Z",
+        "t": "صفحه ۳۲۴ قرآن کریم"
+      },
+      {
+        "a": "https://anchor.fm/s/3be53cfc/podcast/play/121442049/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-14%2F9ea62e64-a875-5d23-b747-3da2a7a26d3e.mp3",
+        "at": "2026-06-14T00:02:02Z",
+        "t": "صفحه ۳۲۳ قرآن کریم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-07-21T00:02:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/mohammad-mahdi-nekahi/episodes/ep-e3m9ml5",
+        "title": "صفحه ۳۳۰ قرآن کریم"
+      },
+      {
+        "at": "2026-07-20T00:01:26Z",
+        "link": "https://podcasters.spotify.com/pod/show/mohammad-mahdi-nekahi/episodes/ep-e3m9m34",
+        "title": "صفحه ۳۲۹ قرآن کریم"
+      },
+      {
+        "at": "2026-07-07T23:57:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/mohammad-mahdi-nekahi/episodes/ep-e3loban",
+        "title": "صفحه ۳۲۸ قرآن کریم"
+      }
+    ],
+    "recent_30d": [
+      30,
+      24,
+      29,
+      33,
+      30,
+      18,
+      12,
+      4,
+      4,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
   },
   "ghraan-krim-hmrah-ba-trjmh-farsi": {
     "avg_length": 2,
@@ -22701,6 +23169,97 @@
     ],
     "status": "active"
   },
+  "hs-mshtrk": {
+    "avg_length": 15,
+    "episodes": 22,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-12-03",
+    "first_year": 1398,
+    "last": "1399/02/31",
+    "last_at": "2020-05-20T02:00:00Z",
+    "last_link": "https://share.transistor.fm/s/57460d0b",
+    "last_title": "۲۴. پایان",
+    "max_length": 16,
+    "median_length": 15,
+    "min_length": 14,
+    "play": [
+      {
+        "a": "https://media.transistor.fm/57460d0b/bf77b166.mp3",
+        "at": "2020-05-20T02:00:00Z",
+        "i": "https://img.transistor.fm/e0QZSps9894Zywxqg9td6ZKVcXLBpp9d_8tqujTyz-0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzI2MTIyMy8x/NTg5OTAwNzU1LWFy/dHdvcmsuanBn.jpg",
+        "t": "۲۴. پایان"
+      },
+      {
+        "a": "https://media.transistor.fm/73d002be/d783417e.mp3",
+        "at": "2020-05-13T02:30:00Z",
+        "t": "۲۳. حمید مصدق"
+      },
+      {
+        "a": "https://media.transistor.fm/8657bff2/bcc2795f.mp3",
+        "at": "2020-05-06T02:30:00Z",
+        "t": "۲۲. محمدعلی بهمنی"
+      },
+      {
+        "a": "https://media.transistor.fm/fefb235d/f370a847.mp3",
+        "at": "2020-04-29T02:30:00Z",
+        "t": "۲۱. محمدرضا شفیعی کدکنی"
+      },
+      {
+        "a": "https://media.transistor.fm/26ba7aa2/f55a895a.mp3",
+        "at": "2020-04-21T02:30:00Z",
+        "t": "۲۰. ژاله اصفهانی"
+      },
+      {
+        "a": "https://media.transistor.fm/cd74ec13/0442a74b.mp3",
+        "at": "2020-04-14T02:30:00Z",
+        "t": "۱۹. هوشنگ ابتهاج"
+      },
+      {
+        "a": "https://media.transistor.fm/96df8ddf/511547ad.mp3",
+        "at": "2020-04-07T02:30:00Z",
+        "t": "۱۸. حسین منزوی"
+      },
+      {
+        "a": "https://media.transistor.fm/dc223123/f9514dab.mp3",
+        "at": "2020-03-10T02:30:00Z",
+        "t": "حس مشترک ۱۶. احمدرضا احمدی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-05-20T02:00:00Z",
+        "i": "https://img.transistor.fm/e0QZSps9894Zywxqg9td6ZKVcXLBpp9d_8tqujTyz-0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzI2MTIyMy8x/NTg5OTAwNzU1LWFy/dHdvcmsuanBn.jpg",
+        "link": "https://share.transistor.fm/s/57460d0b",
+        "title": "۲۴. پایان"
+      },
+      {
+        "at": "2020-05-13T02:30:00Z",
+        "link": "https://share.transistor.fm/s/73d002be",
+        "title": "۲۳. حمید مصدق"
+      },
+      {
+        "at": "2020-05-06T02:30:00Z",
+        "link": "https://share.transistor.fm/s/8657bff2",
+        "title": "۲۲. محمدعلی بهمنی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "hshiarnamh": {
     "avg_gap_days": 10.0,
     "avg_length": 14,
@@ -24820,6 +25379,106 @@
     ],
     "status": "active"
   },
+  "kafh-gldon": {
+    "avg_length": 11,
+    "episodes": 23,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-10-20",
+    "first_year": 1398,
+    "last": "1400/12/16",
+    "last_at": "2022-03-07T09:11:09Z",
+    "last_link": "https://shenoto.com/album/podcast/64951/بیماری های آگلونما و راه های درمان آن",
+    "last_title": "بیماری های آگلونما و راه های درمان آن",
+    "max_length": 16,
+    "median_length": 12,
+    "min_length": 5,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/8721e408-9df6-11ec-80af-0242ac130005.mp3",
+        "at": "2022-03-07T09:11:09Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/28053cfc-f23f-4408-a5e4-6f90469e8427/cover/3000.jpg",
+        "t": "بیماری های آگلونما و راه های درمان آن"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/4f5488cf-9df4-11ec-80af-0242ac130005.mp3",
+        "at": "2022-03-07T08:55:17Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/20ccc53a-7292-45de-9245-76b79fc41561/cover/3000.jpg",
+        "t": "نگهداری و بیماری های گیاه برگ انجیری"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/e5e6aaca-395f-11ec-9ecf-0242ac120005.mp3",
+        "at": "2021-10-30T09:00:58Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/f974d99a-737a-471d-a749-ffb4702f6bfb/cover/3000.jpg",
+        "t": "همه چیز درباره گیاه اکالیپتوس و خواص آن"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c267fdb6-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-04-05T07:32:32Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/7e12e934-71a8-4f24-9522-3b99d099847a/cover/3000.jpg",
+        "t": "همه چیز درباره گیاه زیبای کالادیوم"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c2485916-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-03-13T08:00:55Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/03a61cf1-97f9-4ed1-9090-3822c0cb263f/cover/3000.jpg",
+        "t": "راهنمای کامل شرایط نگهداری و رشد گیاه پاچیرا"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/bd3ef5e0-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-08-02T07:47:50Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/4b12aa52-8575-4840-aec8-61ccda7e6212/cover/3000.jpg",
+        "t": "4 نکته مهم درباره نگهداری انواع بونسای"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/bd0d8e80-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-07-26T05:16:21Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/68a89c96-07f1-4451-ad88-8799cd757020/cover/3000.jpg",
+        "t": "معرفی، نگهداری و تکثیر گیاه دیفن باخیا"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/bd07640a-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-07-21T03:34:34Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/3f73013c-b957-435f-a228-32c1bb89c88e/cover/3000.jpg",
+        "t": "معرفی، نگهداری و تکثیر گیاه شامادورا"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-03-07T09:11:09Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/28053cfc-f23f-4408-a5e4-6f90469e8427/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/64951/بیماری های آگلونما و راه های درمان آن",
+        "title": "بیماری های آگلونما و راه های درمان آن"
+      },
+      {
+        "at": "2022-03-07T08:55:17Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/20ccc53a-7292-45de-9245-76b79fc41561/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/64949/نگهداری و بیماری های گیاه برگ انجیری",
+        "title": "نگهداری و بیماری های گیاه برگ انجیری"
+      },
+      {
+        "at": "2021-10-30T09:00:58Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/f974d99a-737a-471d-a749-ffb4702f6bfb/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/61570/همه چیز درباره گیاه اکالیپتوس و خواص آن",
+        "title": "همه چیز درباره گیاه اکالیپتوس و خواص آن"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "kafh-gp": {
     "avg_gap_days": 7.0,
     "avg_length": 11,
@@ -25699,6 +26358,106 @@
       0
     ],
     "status": "active"
+  },
+  "karaafrini-ba-tam-ghaoot": {
+    "avg_length": 43,
+    "episodes": 22,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-11-20",
+    "first_year": 1399,
+    "last": "1400/06/18",
+    "last_at": "2021-09-09T14:40:37Z",
+    "last_link": "https://s3.castbox.fm/c8/72/ba/5754cc461f8cabf2147a890cc1.mp3",
+    "last_title": "ویژه برنامه مصاحبه با اعضا هیئت مدیره انجمن شرکت های دانش بنیان استان کرمان",
+    "max_length": 108,
+    "median_length": 42,
+    "min_length": 13,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/c8/72/ba/5754cc461f8cabf2147a890cc1.mp3",
+        "at": "2021-09-09T14:40:37Z",
+        "i": "https://s3.castbox.fm/ee/67/be/078dde4768858ca7b4dbb65983.jpg",
+        "t": "ویژه برنامه مصاحبه با اعضا هیئت مدیره انجمن شرکت های دانش بنیان استان کرمان"
+      },
+      {
+        "a": "https://s3.castbox.fm/c0/e1/e4/d097d7491ba92c404445dd259f.mp3",
+        "at": "2021-08-26T15:40:14Z",
+        "i": "https://s3.castbox.fm/19/8e/85/618f244cfa82b0d31aa6223f52.jpg",
+        "t": "مصاحبه با دکتر عماد جمعه زاده"
+      },
+      {
+        "a": "https://s3.castbox.fm/81/b4/cc/ff721a4aa59554b2b5ec5ac2ed.mp3",
+        "at": "2021-08-12T15:30:00Z",
+        "i": "https://s3.castbox.fm/3c/97/a4/0c757d4275a0589a2748c22290.jpg",
+        "t": "مصاحبه با دکتر دانشور مدیر عامل شرکت پزشکی زیست سالک"
+      },
+      {
+        "a": "https://s3.castbox.fm/9c/c2/e1/d422c94b40a87d5986e61506a4.mp3",
+        "at": "2021-07-29T14:30:00Z",
+        "i": "https://s3.castbox.fm/4a/de/e3/c16c5842eba2f38f350ba1254b.jpg",
+        "t": "اپیزود نوزدهم | مصاحبه با دکتر امامی پور مدیر عامل شرکت دانش بنیان هزار زیره ماهان"
+      },
+      {
+        "a": "https://s3.castbox.fm/29/b3/f7/2f27594e53987eed28c8dde018.mp3",
+        "at": "2021-07-15T13:26:31Z",
+        "i": "https://s3.castbox.fm/67/fd/0a/d6917a40f3af5d8812adfc1fb4.jpg",
+        "t": "مصاحبه با مهندس باقری مدیر عامل شرکت دانش بنیان فلزات نادر رفسنجان"
+      },
+      {
+        "a": "https://s3.castbox.fm/1f/bf/12/d7c833490ba7ce8553d1efb3e3.mp3",
+        "at": "2021-07-01T13:44:21Z",
+        "i": "https://s3.castbox.fm/cb/bb/06/69fe6844e4a158f4cc83c46ab3.jpg",
+        "t": "مصاحبه با دکتر گنجویی مدیر عامل شرکت دانش بنیان بوتیاتک"
+      },
+      {
+        "a": "https://s3.castbox.fm/9c/ec/d0/edc2314073bbee6457f86c51c1.mp3",
+        "at": "2021-06-17T14:30:00Z",
+        "i": "https://s3.castbox.fm/29/04/af/1e647f4c5fa7fc74360e267c8c.jpg",
+        "t": "اپیزود شانزدهم مصاحبه با مهندس ابوالحسن زاده"
+      },
+      {
+        "a": "https://s3.castbox.fm/a6/65/2d/4962fd4fbe9a6db74e7d29df30.mp3",
+        "at": "2021-06-03T16:20:09Z",
+        "i": "https://s3.castbox.fm/fd/1d/57/39fd78433d859ed0948830ebf9.jpg",
+        "t": "مصاحبه با مهندس ترک زاده از شرکت بهارستان رایان"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2021-09-09T14:40:37Z",
+        "i": "https://s3.castbox.fm/ee/67/be/078dde4768858ca7b4dbb65983.jpg",
+        "link": "https://s3.castbox.fm/c8/72/ba/5754cc461f8cabf2147a890cc1.mp3",
+        "title": "ویژه برنامه مصاحبه با اعضا هیئت مدیره انجمن شرکت های دانش بنیان استان کرمان"
+      },
+      {
+        "at": "2021-08-26T15:40:14Z",
+        "i": "https://s3.castbox.fm/19/8e/85/618f244cfa82b0d31aa6223f52.jpg",
+        "link": "https://s3.castbox.fm/c0/e1/e4/d097d7491ba92c404445dd259f.mp3",
+        "title": "مصاحبه با دکتر عماد جمعه زاده"
+      },
+      {
+        "at": "2021-08-12T15:30:00Z",
+        "i": "https://s3.castbox.fm/3c/97/a4/0c757d4275a0589a2748c22290.jpg",
+        "link": "https://s3.castbox.fm/81/b4/cc/ff721a4aa59554b2b5ec5ac2ed.mp3",
+        "title": "مصاحبه با دکتر دانشور مدیر عامل شرکت پزشکی زیست سالک"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "karkst": {
     "avg_gap_days": 85.0,
@@ -37113,6 +37872,107 @@
     ],
     "status": "inactive"
   },
+  "motivashoo-motioasho": {
+    "avg_gap_days": 70.6,
+    "avg_length": 22,
+    "episodes": 26,
+    "eps_365": 6,
+    "eps_90": 4,
+    "first_at": "2025-05-09",
+    "first_year": 1404,
+    "last": "1405/08/10",
+    "last_at": "2026-11-01T20:52:36Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/motivashoo/episodes/ep-e3rid3p",
+    "last_title": "تنهایی عاطفی",
+    "max_length": 64,
+    "median_length": 16,
+    "min_length": 7,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/104b452a8/podcast/play/128578105/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F04b356b9-390d-c048-720f-2b5f8c875d15.mp3",
+        "at": "2026-11-01T20:52:36Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1793567085393-eef3228835882.jpg",
+        "t": "تنهایی عاطفی"
+      },
+      {
+        "a": "https://anchor.fm/s/104b452a8/podcast/play/127676632/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-18%2F33656116-6a9b-4132-5daf-fe40e299bb06.mp3",
+        "at": "2026-10-18T18:15:43Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1792347320601-ff78182983d75.jpg",
+        "t": "تکرار آدم اشتباهی؟"
+      },
+      {
+        "a": "https://anchor.fm/s/104b452a8/podcast/play/127196108/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-9%2F3d37cbac-6ce0-9f02-ba9d-0b991afc63d3.mp3",
+        "at": "2026-10-09T17:50:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1791568200136-16683a6bad49f.jpg",
+        "t": "عشق یا ترس از تنهایی؟"
+      },
+      {
+        "a": "https://anchor.fm/s/104b452a8/podcast/play/126787713/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-4%2F4256b782-2f87-1f03-fc12-35041266813a.mp3",
+        "at": "2026-10-04T09:17:29Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1791105774759-253bdf4e50c33.jpg",
+        "t": "دلبستگی اضطرابی یا اجتنابی؟"
+      },
+      {
+        "a": "https://anchor.fm/s/104b452a8/podcast/play/111643422/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-24%2F4cd751b0-b846-2531-dd75-ab97c9817f8f.mp3",
+        "at": "2025-11-24T17:41:52Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1764006053493-ab5b3d731511a.jpg",
+        "t": "بی حد و مرز"
+      },
+      {
+        "a": "https://anchor.fm/s/104b452a8/podcast/play/111144832/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-13%2F7666c42e-40d9-a494-1248-be723414ee1c.mp3",
+        "at": "2025-11-13T20:03:24Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1763064144597-844c607731ab7.jpg",
+        "t": "چه کسی پنیر مرا جا به جا کرد؟"
+      },
+      {
+        "a": "https://anchor.fm/s/104b452a8/podcast/play/110548682/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-1%2F81a250e1-a6af-ccc2-35af-99c401be6db0.mp3",
+        "at": "2025-11-01T20:00:36Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1762027207751-926d053222101.jpg",
+        "t": "ذهنیت برنده"
+      },
+      {
+        "a": "https://anchor.fm/s/104b452a8/podcast/play/109529391/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-11%2Fa36a6459-3ef0-d512-ed0b-278f08ff5f24.mp3",
+        "at": "2025-10-11T16:52:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1760201530832-08cbb6fc2937f.jpg",
+        "t": "صبح جادویی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-11-01T20:52:36Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1793567085393-eef3228835882.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/motivashoo/episodes/ep-e3rid3p",
+        "title": "تنهایی عاطفی"
+      },
+      {
+        "at": "2026-10-18T18:15:43Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1792347320601-ff78182983d75.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/motivashoo/episodes/ep-e3qmsoo",
+        "title": "تکرار آدم اشتباهی؟"
+      },
+      {
+        "at": "2026-10-09T17:50:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1791568200136-16683a6bad49f.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/motivashoo/episodes/ep-e3q87gc",
+        "title": "عشق یا ترس از تنهایی؟"
+      }
+    ],
+    "recent_30d": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ],
+    "status": "active"
+  },
   "motorasport-airan": {
     "avg_length": 62,
     "episodes": 53,
@@ -37514,6 +38374,106 @@
     ],
     "status": "active"
   },
+  "mrtzi-rjb-nia": {
+    "avg_length": 9,
+    "episodes": 22,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-07-09",
+    "first_year": 1398,
+    "last": "1399/12/19",
+    "last_at": "2021-03-09T10:34:42Z",
+    "last_link": "https://shenoto.com/album/podcast/141346/خودشناسی با مرتضی رجب نیا - قسمت 21",
+    "last_title": "خودشناسی با مرتضی رجب نیا - قسمت 21",
+    "max_length": 38,
+    "median_length": 7,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c244ae0f-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-03-09T10:34:42Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a794ccaa-e852-46fa-9a43-bcbbc3157acb/cover/3000.jpg",
+        "t": "خودشناسی با مرتضی رجب نیا - قسمت 21"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c244a92d-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-03-09T10:33:13Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a794ccaa-e852-46fa-9a43-bcbbc3157acb/cover/3000.jpg",
+        "t": "خودشناسی با مرتضی رجب نیا - قسمت 20"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c244a702-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-03-09T10:32:43Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a794ccaa-e852-46fa-9a43-bcbbc3157acb/cover/3000.jpg",
+        "t": "خودشناسی با مرتضی رجب نیا - قسمت 19"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c244a47a-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-03-09T10:32:09Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a794ccaa-e852-46fa-9a43-bcbbc3157acb/cover/3000.jpg",
+        "t": "خودشناسی با مرتضی رجب نیا - قسمت 18"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c244a249-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-03-09T10:31:29Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a794ccaa-e852-46fa-9a43-bcbbc3157acb/cover/3000.jpg",
+        "t": "خودشناسی با مرتضی رجب نیا - قسمت 17"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c244a02a-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-03-09T10:31:05Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a794ccaa-e852-46fa-9a43-bcbbc3157acb/cover/3000.jpg",
+        "t": "خودشناسی با مرتضی رجب نیا - قسمت 16"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c2449bac-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-03-09T10:30:12Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a794ccaa-e852-46fa-9a43-bcbbc3157acb/cover/3000.jpg",
+        "t": "خودشناسی با مرتضی رجب نیا - قسمت 15"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c2449983-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-03-09T10:29:41Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a794ccaa-e852-46fa-9a43-bcbbc3157acb/cover/3000.jpg",
+        "t": "خودشناسی با مرتضی رجب نیا - قسمت 14"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2021-03-09T10:34:42Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a794ccaa-e852-46fa-9a43-bcbbc3157acb/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/141346/خودشناسی با مرتضی رجب نیا - قسمت 21",
+        "title": "خودشناسی با مرتضی رجب نیا - قسمت 21"
+      },
+      {
+        "at": "2021-03-09T10:33:13Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a794ccaa-e852-46fa-9a43-bcbbc3157acb/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/141351/خودشناسی با مرتضی رجب نیا - قسمت 20",
+        "title": "خودشناسی با مرتضی رجب نیا - قسمت 20"
+      },
+      {
+        "at": "2021-03-09T10:32:43Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a794ccaa-e852-46fa-9a43-bcbbc3157acb/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/141396/خودشناسی با مرتضی رجب نیا - قسمت 19",
+        "title": "خودشناسی با مرتضی رجب نیا - قسمت 19"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "msahbh-hai-dktr-hmid-hsini": {
     "avg_length": 22,
     "episodes": 11,
@@ -37902,6 +38862,106 @@
       0
     ],
     "status": "active"
+  },
+  "msir-mhtoa": {
+    "avg_length": 21,
+    "episodes": 22,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-04-03",
+    "first_year": 1399,
+    "last": "1402/01/24",
+    "last_at": "2023-04-13T12:19:17Z",
+    "last_link": "https://s3.castbox.fm/41/96/3f/197c1240d5a58f72c1b7d038f2.mp3",
+    "last_title": "قسمت 21 (الگوریتم توییتر لو رفت || هک الگوریتم توییتر با چند ترفند ساده )",
+    "max_length": 45,
+    "median_length": 20,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/41/96/3f/197c1240d5a58f72c1b7d038f2.mp3",
+        "at": "2023-04-13T12:19:17Z",
+        "i": "https://s3.castbox.fm/e6/1f/16/152c5744c8a8e754f27739dc91.jpg",
+        "t": "قسمت 21 (الگوریتم توییتر لو رفت || هک الگوریتم توییتر با چند ترفند ساده )"
+      },
+      {
+        "a": "https://s3.castbox.fm/7c/43/fa/aa462f4536a0e6304b7f2371b1.mp3",
+        "at": "2023-02-06T07:53:54Z",
+        "i": "https://s3.castbox.fm/b8/87/0b/413b56416cb8660a179e20ab9f.jpg",
+        "t": "قسمت 20 (ارتباط الگوریتم توییتر با تاپیک و ترندها || سیگنال‌های رتبه بندی محتوا در توییتر )"
+      },
+      {
+        "a": "https://s3.castbox.fm/54/e7/2a/481b4f4212a112296bc374fb91.mp3",
+        "at": "2023-01-24T14:10:20Z",
+        "i": "https://s3.castbox.fm/63/a1/f7/01e0494e94b8512a3385fa4a70.jpg",
+        "t": "قسمت 19 (الگوریتم توییتر چیست و چطور کار می‌کند || الگوریتم توییتر 2023 و تایملاین )"
+      },
+      {
+        "a": "https://s3.castbox.fm/3c/4e/d5/ca72ca44c4ac54c2f19c5caeb8.mp3",
+        "at": "2023-01-14T14:16:02Z",
+        "i": "https://s3.castbox.fm/a1/5d/67/7d0dde431c9469fc86132f6ec9.jpg",
+        "t": "قسمت 18 (چطور روی برند اسم بگذاریم؟ || یک تکنیک طلایی برای نام گذاری برند )"
+      },
+      {
+        "a": "https://s3.castbox.fm/8e/61/f5/6877744d89b4fa7762e341ae68.mp3",
+        "at": "2023-01-06T17:36:17Z",
+        "i": "https://s3.castbox.fm/96/25/bc/4e09d147fcacbf26caf39ba16c.jpg",
+        "t": "قسمت 17 (در شرایط کنونی، بهتر است چی کار کنیم؟ || برنامه‌ریزی محتوایی در شرایط بحرانی )"
+      },
+      {
+        "a": "https://s3.castbox.fm/fe/92/25/2ed3a64486a8f40f912830dce1.mp3",
+        "at": "2023-01-01T19:51:47Z",
+        "i": "https://s3.castbox.fm/55/c1/22/48ba3f4b2b91d66b5931a39ba6.jpg",
+        "t": "قسمت 16 (تاب‌آوری چیست و چطور به یک تاب‌آور تبدیل بشیم؟)"
+      },
+      {
+        "a": "https://s3.castbox.fm/81/73/8e/c65e4046df8d80d54952be8986.m4a",
+        "at": "2022-12-27T13:28:46Z",
+        "i": "https://s3.castbox.fm/78/f3/6c/19cd634b2eae01df4cd17f1f24.jpg",
+        "t": "قسمت 12 + 3 (شروع مسیر با اکسیر ایکی گای)"
+      },
+      {
+        "a": "https://s3.castbox.fm/c9/5c/ce/a7cdc74848ba5b9ca218441d6d.mp3",
+        "at": "2020-09-16T12:30:00Z",
+        "i": "https://s3.castbox.fm/d3/4b/15/25455a4444be36ecf11a11459b.jpg",
+        "t": "قسمت 12 + 2 (راهنمای جامع وبینار در استراتژی بازاریابی محتوایی)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-04-13T12:19:17Z",
+        "i": "https://s3.castbox.fm/e6/1f/16/152c5744c8a8e754f27739dc91.jpg",
+        "link": "https://s3.castbox.fm/41/96/3f/197c1240d5a58f72c1b7d038f2.mp3",
+        "title": "قسمت 21 (الگوریتم توییتر لو رفت || هک الگوریتم توییتر با چند ترفند ساده )"
+      },
+      {
+        "at": "2023-02-06T07:53:54Z",
+        "i": "https://s3.castbox.fm/b8/87/0b/413b56416cb8660a179e20ab9f.jpg",
+        "link": "https://s3.castbox.fm/7c/43/fa/aa462f4536a0e6304b7f2371b1.mp3",
+        "title": "قسمت 20 (ارتباط الگوریتم توییتر با تاپیک و ترندها || سیگنال‌های رتبه بندی محتوا در توییتر )"
+      },
+      {
+        "at": "2023-01-24T14:10:20Z",
+        "i": "https://s3.castbox.fm/63/a1/f7/01e0494e94b8512a3385fa4a70.jpg",
+        "link": "https://s3.castbox.fm/54/e7/2a/481b4f4212a112296bc374fb91.mp3",
+        "title": "قسمت 19 (الگوریتم توییتر چیست و چطور کار می‌کند || الگوریتم توییتر 2023 و تایملاین )"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "msir-slamt": {
     "avg_length": 15,
@@ -53528,6 +54588,107 @@
     ],
     "status": "inactive"
   },
+  "podcast-shb-tab": {
+    "avg_gap_days": 2.2,
+    "avg_length": 35,
+    "episodes": 22,
+    "eps_365": 22,
+    "eps_90": 22,
+    "first_at": "2026-09-15",
+    "first_year": 1405,
+    "last": "1405/08/10",
+    "last_at": "2026-11-01T21:26:56Z",
+    "last_link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/cc9fec0c-388d-40ff-b6d3-5283667f08ae/play.mp3",
+    "last_title": "شب تاب: لیسنکو در برابر واویلُف - قسمت اول: طلا در برابر بذر",
+    "max_length": 46,
+    "median_length": 35,
+    "min_length": 23,
+    "play": [
+      {
+        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/cc9fec0c-388d-40ff-b6d3-5283667f08ae/play.mp3",
+        "at": "2026-11-01T21:26:56Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/cc9fec0c-388d-40ff-b6d3-5283667f08ae/artwork.jpg?v=1",
+        "t": "شب تاب: لیسنکو در برابر واویلُف - قسمت اول: طلا در برابر بذر"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/c9940e8d-9875-4fe7-aab8-30897c2ce9e9/play.mp3",
+        "at": "2026-10-28T13:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/c9940e8d-9875-4fe7-aab8-30897c2ce9e9/artwork.jpg?v=1",
+        "t": "شب تاب: گروه دانر - قسمت ششم: نه چندان نجات"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/9b89cc3e-a136-4237-be8c-e5185368f204/play.mp3",
+        "at": "2026-10-25T13:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/9b89cc3e-a136-4237-be8c-e5185368f204/artwork.jpg?v=1",
+        "t": "شب تاب: گروه دانر - قسمت پنجم: اُمید متروک"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/04c6c2d9-16ca-461e-9113-6a3941143af3/play.mp3",
+        "at": "2026-10-22T13:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/04c6c2d9-16ca-461e-9113-6a3941143af3/artwork.jpg?v=1",
+        "t": "شب تاب: گروه دانر - قسمت چهارم: برف"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/164d1c27-2e41-4acd-a428-8e9bc960df69/play.mp3",
+        "at": "2026-10-19T13:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/164d1c27-2e41-4acd-a428-8e9bc960df69/artwork.jpg?v=1",
+        "t": "شب تاب: گروه دانر - قسمت سوم: اشتباه"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/334ce9dc-c0f9-4d6d-b584-764ce2cfcd97/play.mp3",
+        "at": "2026-10-16T12:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/334ce9dc-c0f9-4d6d-b584-764ce2cfcd97/artwork.jpg?v=1",
+        "t": "شب تاب: گروه دانر ـ قسمت دوم: میان‌بُر"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/e51ea636-9049-474c-96da-4333a8c70267/play.mp3",
+        "at": "2026-10-13T13:13:48Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/e51ea636-9049-474c-96da-4333a8c70267/artwork.jpg?v=1",
+        "t": "شب تاب: گروه دانر - قسمت اول: راهی به بهشت"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/7090716a-a897-4e33-b0d4-0876a29295e8/play.mp3",
+        "at": "2026-10-09T20:58:28Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/7090716a-a897-4e33-b0d4-0876a29295e8/artwork.jpg?v=1",
+        "t": "شب تاب: داروین روی کشتی بیگل - بخش پنجم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-11-01T21:26:56Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/cc9fec0c-388d-40ff-b6d3-5283667f08ae/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/cc9fec0c-388d-40ff-b6d3-5283667f08ae/play.mp3",
+        "title": "شب تاب: لیسنکو در برابر واویلُف - قسمت اول: طلا در برابر بذر"
+      },
+      {
+        "at": "2026-10-28T13:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/c9940e8d-9875-4fe7-aab8-30897c2ce9e9/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/c9940e8d-9875-4fe7-aab8-30897c2ce9e9/play.mp3",
+        "title": "شب تاب: گروه دانر - قسمت ششم: نه چندان نجات"
+      },
+      {
+        "at": "2026-10-25T13:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/9b89cc3e-a136-4237-be8c-e5185368f204/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/9b89cc3e-a136-4237-be8c-e5185368f204/play.mp3",
+        "title": "شب تاب: گروه دانر - قسمت پنجم: اُمید متروک"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      13,
+      9
+    ],
+    "status": "active"
+  },
   "podcast-sinma-aspoilr": {
     "avg_length": 51,
     "episodes": 32,
@@ -56962,21 +58123,33 @@
     "status": "active"
   },
   "radio-dordane": {
-    "avg_gap_days": 0.3,
+    "avg_gap_days": 0.4,
     "avg_length": 19,
-    "episodes": 11,
-    "eps_365": 11,
-    "eps_90": 11,
+    "episodes": 13,
+    "eps_365": 13,
+    "eps_90": 13,
     "first_at": "2026-10-27",
     "first_year": 1405,
-    "last": "1405/08/09",
-    "last_at": "2026-10-31T09:23:44Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l53",
-    "last_title": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه",
+    "last": "1405/08/11",
+    "last_at": "2026-11-02T08:31:33Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfgm2",
+    "last_title": "بهترین برنج ایرانی برای رستوران کدام است؟ راز پخت برنج خوش‌عطر در حجم بالا | رادیو دردانه",
     "max_length": 25,
-    "median_length": 21,
+    "median_length": 22,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1193981e4/podcast/play/128483458/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F435497722-44100-2-1932d1cc3d9fa.m4a",
+        "at": "2026-11-02T08:31:33Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793436835166-dd05da72045bd.jpg",
+        "t": "بهترین برنج ایرانی برای رستوران کدام است؟ راز پخت برنج خوش‌عطر در حجم بالا | رادیو دردانه"
+      },
+      {
+        "a": "https://anchor.fm/s/1193981e4/podcast/play/128483571/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F435497837-44100-2-3f41fb850d4f8.m4a",
+        "at": "2026-11-02T08:31:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793436983616-c5808f8b7fe5f.jpg",
+        "t": "چرا برنج ایرانی هنگام پخت خرد می‌شود؟ ۵ علت رایج و راه جلوگیری | رادیو دردانه"
+      },
       {
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128258659/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435212182-44100-2-2a8f19b486097.m4a",
         "at": "2026-10-31T09:23:44Z",
@@ -57012,38 +58185,26 @@
         "at": "2026-10-27T11:20:28Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793100034946-4f70cbedfc9a7.jpg",
         "t": "برنج هاشمی، طارم یا جمشید؟ مقایسه و راهنمای انتخاب | رادیو دردانه"
-      },
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/128171902/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F435104384-44100-2-4d737abdea87f.m4a",
-        "at": "2026-10-27T11:07:48Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793099274732-610ffec79250f.jpg",
-        "t": "انواع برنج ایرانی؛ هاشمی، طارم، صدری و کاظمی چه تفاوتی دارند؟ | رادیو دردانه"
-      },
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/128169688/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F435101832-44100-2-56c80396ce26e.m4a",
-        "at": "2026-10-27T10:34:56Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793097304284-a61837cca35d9.jpg",
-        "t": "راهنمای نگهداری برنج ایرانی؛ چطور برنج را تازه و سالم نگه داریم؟ | رادیو دردانه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-02T08:31:33Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793436835166-dd05da72045bd.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfgm2",
+        "title": "بهترین برنج ایرانی برای رستوران کدام است؟ راز پخت برنج خوش‌عطر در حجم بالا | رادیو دردانه"
+      },
+      {
+        "at": "2026-11-02T08:31:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793436983616-c5808f8b7fe5f.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfgpj",
+        "title": "چرا برنج ایرانی هنگام پخت خرد می‌شود؟ ۵ علت رایج و راه جلوگیری | رادیو دردانه"
+      },
       {
         "at": "2026-10-31T09:23:44Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184386488-33fa9bf0ea326.jpg",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l53",
         "title": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه"
-      },
-      {
-        "at": "2026-10-31T07:11:54Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184507172-d0a506e65c68.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l90",
-        "title": "تفاوت برنج کشت اول و کشت دوم چیست؟ مقایسه عطر، کیفیت و قیمت | رادیو دردانه"
-      },
-      {
-        "at": "2026-10-29T13:44:52Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184233185-e5d38ea15bdd9.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l18",
-        "title": "برنج دودی چیست و چه تفاوتی با برنج معمولی دارد؟ | رادیو دردانه"
       }
     ],
     "recent_30d": [
@@ -57058,7 +58219,7 @@
       0,
       0,
       0,
-      11
+      13
     ],
     "status": "active"
   },
@@ -58139,6 +59300,96 @@
       0,
       0,
       0
+    ],
+    "status": "active"
+  },
+  "radio-hosh": {
+    "avg_gap_days": 0.3,
+    "avg_length": 18,
+    "episodes": 24,
+    "eps_365": 24,
+    "eps_90": 24,
+    "first_at": "2026-10-25",
+    "first_year": 1405,
+    "last": "1405/08/11",
+    "last_at": "2026-11-02T08:50:33Z",
+    "last_link": "https://share.transistor.fm/s/a5a612d7",
+    "last_title": "‏‫Wizard: دنیای بازی با هوش مصنوعی که در لحظه کنترلش می‌کنید‬",
+    "max_length": 26,
+    "median_length": 18,
+    "min_length": 13,
+    "play": [
+      {
+        "a": "https://media.transistor.fm/a5a612d7/8eca2584.mp3",
+        "at": "2026-11-02T08:50:33Z",
+        "t": "‏‫Wizard: دنیای بازی با هوش مصنوعی که در لحظه کنترلش می‌کنید‬"
+      },
+      {
+        "a": "https://media.transistor.fm/0feb57a3/0232f110.mp3",
+        "at": "2026-11-01T13:57:26Z",
+        "t": "‏‫Elorian و آزمون شمارش: چرا مدل‌های برتر هوش مصنوعی فریب می‌خورند‬"
+      },
+      {
+        "a": "https://media.transistor.fm/1356ff49/7a910323.mp3",
+        "at": "2026-10-31T17:16:20Z",
+        "t": "‏‫Robots.txt برای آموزش هوش مصنوعی؛ توافق OpenAI، Google و Anthropic‬"
+      },
+      {
+        "a": "https://media.transistor.fm/3faa7ad1/e2105d95.mp3",
+        "at": "2026-10-31T15:53:38Z",
+        "t": "‏‫دانشجویان شبح: کلاهبرداری میلیونی از وام دانشجویی با هوش مصنوعی‬"
+      },
+      {
+        "a": "https://media.transistor.fm/d2d49461/434016c9.mp3",
+        "at": "2026-10-30T12:55:41Z",
+        "t": "‏‫Ai2: آیا مدل‌های زبانی می‌توانند نوآوری ایده‌های علمی را بسنجند؟‬"
+      },
+      {
+        "a": "https://media.transistor.fm/a28a6d1b/cdfd85fc.mp3",
+        "at": "2026-10-30T11:20:41Z",
+        "t": "‏‫Google اعتراف کرد: جستجوی هوش مصنوعی درآمد کمتری دارد‬"
+      },
+      {
+        "a": "https://media.transistor.fm/1f39aadb/5f5ef239.mp3",
+        "at": "2026-10-30T10:17:28Z",
+        "t": "‏‫Microsoft به ۶۰ هزار کارمند برای خروج داوطلبانه پول پیشنهاد می‌دهد‬"
+      },
+      {
+        "a": "https://media.transistor.fm/4dee47af/3de3823d.mp3",
+        "at": "2026-10-29T10:19:09Z",
+        "t": "‏‫Anthropic مصاحبه کدنویسی را کنار گذاشت؛ انگیزه مهم‌تر از سابقه‬"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-11-02T08:50:33Z",
+        "link": "https://share.transistor.fm/s/a5a612d7",
+        "title": "‏‫Wizard: دنیای بازی با هوش مصنوعی که در لحظه کنترلش می‌کنید‬"
+      },
+      {
+        "at": "2026-11-01T13:57:26Z",
+        "link": "https://share.transistor.fm/s/0feb57a3",
+        "title": "‏‫Elorian و آزمون شمارش: چرا مدل‌های برتر هوش مصنوعی فریب می‌خورند‬"
+      },
+      {
+        "at": "2026-10-31T17:16:20Z",
+        "link": "https://share.transistor.fm/s/1356ff49",
+        "title": "‏‫Robots.txt برای آموزش هوش مصنوعی؛ توافق OpenAI، Google و Anthropic‬"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      24
     ],
     "status": "active"
   },
@@ -63109,6 +64360,106 @@
     ],
     "status": "active"
   },
+  "rtbh-lnd": {
+    "avg_length": 10,
+    "episodes": 22,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-02-25",
+    "first_year": 1398,
+    "last": "1399/09/13",
+    "last_at": "2020-12-03T18:54:55Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/rotbe-land/episodes/ep-enaldr",
+    "last_title": "درمان وسواس مطالعاتی کنکوری ها",
+    "max_length": 58,
+    "median_length": 6,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/fba70c0/podcast/play/23466875/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-11-3%2F134485516-44100-2-68bc116eb694c.m4a",
+        "at": "2020-12-03T18:54:55Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2538768/2538768-1607021690437-d3758abf51fce.jpg",
+        "t": "درمان وسواس مطالعاتی کنکوری ها"
+      },
+      {
+        "a": "https://anchor.fm/s/fba70c0/podcast/play/23419108/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-11-2%2F134160087-44100-2-8ab3b2be5e552.m4a",
+        "at": "2020-12-02T20:37:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2538768/2538768-1606941417436-692b9967f0168.jpg",
+        "t": "۵ تکنیک افزایش ساعت مطالعه"
+      },
+      {
+        "a": "https://anchor.fm/s/fba70c0/podcast/play/23370447/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-11-1%2F133835050-44100-2-f7325ea685325.m4a",
+        "at": "2020-12-01T21:30:34Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2538768/2538768-1606858232770-6fcc105b9ecc5.jpg",
+        "t": "راهکارهای افزایش سرعت تست زنی"
+      },
+      {
+        "a": "https://anchor.fm/s/fba70c0/podcast/play/23314994/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-30%2F133478282-44100-2-e9e5e4ab29e18.m4a",
+        "at": "2020-11-30T20:54:50Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2538768/2538768-1606769653914-2e839d637264d.jpg",
+        "t": "وظایف والدین کنکوری ها چیست؟"
+      },
+      {
+        "a": "https://anchor.fm/s/fba70c0/podcast/play/23257927/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-29%2F133080023-44100-2-bda3f5d7a2903.m4a",
+        "at": "2020-11-29T16:58:55Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2538768/2538768-1606669131542-bec2411dd6cdc.jpg",
+        "t": "ویژگی رتبه های برتر کنکور چیه؟؟"
+      },
+      {
+        "a": "https://anchor.fm/s/fba70c0/podcast/play/23219433/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-28%2F132815043-44100-2-5235d2d9874dd.m4a",
+        "at": "2020-11-28T15:04:23Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2538768/2538768-1606575896373-fab869cf2317b.jpg",
+        "t": "راهکارهای طلایی رسیدن به بودجه بندی آزمون"
+      },
+      {
+        "a": "https://anchor.fm/s/fba70c0/podcast/play/23200789/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-28%2F132693226-44100-2-593524c5033b9.m4a",
+        "at": "2020-11-28T01:01:07Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2538768/2538768-1606525264071-e662106918055.jpg",
+        "t": "خلاصه نویسی به روش رتبه برترها"
+      },
+      {
+        "a": "https://anchor.fm/s/fba70c0/podcast/play/23152774/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-26%2F132361852-44100-2-11be5cbf4e5f2.m4a",
+        "at": "2020-11-26T22:11:06Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2538768/2538768-1606428661800-5c45d0bf9c9d1.jpg",
+        "t": "عادت های غلط مطالعه کنکوری"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-12-03T18:54:55Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2538768/2538768-1607021690437-d3758abf51fce.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/rotbe-land/episodes/ep-enaldr",
+        "title": "درمان وسواس مطالعاتی کنکوری ها"
+      },
+      {
+        "at": "2020-12-02T20:37:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2538768/2538768-1606941417436-692b9967f0168.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/rotbe-land/episodes/ep-en96p4",
+        "title": "۵ تکنیک افزایش ساعت مطالعه"
+      },
+      {
+        "at": "2020-12-01T21:30:34Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2538768/2538768-1606858232770-6fcc105b9ecc5.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/rotbe-land/episodes/ep-en7n8f",
+        "title": "راهکارهای افزایش سرعت تست زنی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "rza-brahni": {
     "avg_gap_days": 205.0,
     "avg_length": 6,
@@ -63407,6 +64758,106 @@
       3,
       1,
       3
+    ],
+    "status": "active"
+  },
+  "sadkst": {
+    "avg_length": 26,
+    "episodes": 25,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2018-02-26",
+    "first_year": 1396,
+    "last": "1403/10/24",
+    "last_at": "2025-01-13T12:24:26Z",
+    "last_link": "https://s3.castbox.fm/38/34/ac/8346d440d993a6a61128c2037d.wav",
+    "last_title": "صادکست 25 : سفری به دنیای تک‌رنگ عکاسی سیاه و سفید",
+    "max_length": 64,
+    "median_length": 20,
+    "min_length": 5,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/38/34/ac/8346d440d993a6a61128c2037d.wav",
+        "at": "2025-01-13T12:24:26Z",
+        "i": "https://s3.castbox.fm/36/b7/79/23ed9846b0a75c06aacddbb360.jpg",
+        "t": "صادکست 25 : سفری به دنیای تک‌رنگ عکاسی سیاه و سفید"
+      },
+      {
+        "a": "https://s3.castbox.fm/26/3e/8d/27f5844279a4076782aafd9b63.wav",
+        "at": "2024-09-09T09:34:48Z",
+        "i": "https://s3.castbox.fm/e8/04/8d/8f8ae54c20ae93e93edd4a1e4b.jpg",
+        "t": "صادکست 24 – عمودی مرگبار! بررسی تأثیر محتوای عمودی بر هنر و کیفیت محتوا"
+      },
+      {
+        "a": "https://s3.castbox.fm/5e/16/4b/0cffbc4a13bff44dd0fa29a5ec.mp3",
+        "at": "2024-07-31T09:32:48Z",
+        "i": "https://s3.castbox.fm/15/3e/dd/cbdb9945cdb65f8f45af674cd8.jpg",
+        "t": "صادکست 23 - روز داوری ! آیا هوش مصنوعی شغل من را خواهد گرفت؟"
+      },
+      {
+        "a": "https://s3.castbox.fm/07/c8/8d/23cc1e42f78bb00abca085aed3.mp3",
+        "at": "2021-10-25T09:14:50Z",
+        "i": "https://s3.castbox.fm/ff/0d/82/cabe2d4418a99ec1f42a0636ab.jpg",
+        "t": "صادکست 22 - امیرحسام حیدریان ، موسس حس‌ورک"
+      },
+      {
+        "a": "https://s3.castbox.fm/65/7a/06/4c41304ffca7aa92eaf59f26fc.mp3",
+        "at": "2021-08-17T08:00:12Z",
+        "i": "https://s3.castbox.fm/29/60/63/bcb8d54c6b90c7bf271aaf782f.jpg",
+        "t": "صادکست 21 - سینا ایمانی : شوخ فوق عمیق"
+      },
+      {
+        "a": "https://s3.castbox.fm/15/1a/3a/c2b5424b8b8af41f210e6ce7cc.mp3",
+        "at": "2021-07-30T06:57:53Z",
+        "i": "https://s3.castbox.fm/8b/9c/a3/2210634345b5eae9b680dc4d4b.jpg",
+        "t": "صادکست 20 - بیزینس عکاسی با امید اسماعیلی"
+      },
+      {
+        "a": "https://s3.castbox.fm/22/01/7e/3456ae4811bf32d45bfabcab5d.mp3",
+        "at": "2021-07-25T19:13:22Z",
+        "i": "https://s3.castbox.fm/c2/51/26/8f8d4b418cab4c0fb6d9ae0b03.jpg",
+        "t": "صادکست 19 - اعتماد به نفس در عکاسی"
+      },
+      {
+        "a": "https://s3.castbox.fm/73/3d/bb/98b7e849439cc67558dd6e19a5.mp3",
+        "at": "2020-06-29T12:40:52Z",
+        "i": "https://s3.castbox.fm/11/e0/c5/b78a654485bb74ae94439c637b.jpg",
+        "t": "پادکست عکاسی صادکست 18 | اول آموزش یا اول خرید دوربین ؟"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-01-13T12:24:26Z",
+        "i": "https://s3.castbox.fm/36/b7/79/23ed9846b0a75c06aacddbb360.jpg",
+        "link": "https://s3.castbox.fm/38/34/ac/8346d440d993a6a61128c2037d.wav",
+        "title": "صادکست 25 : سفری به دنیای تک‌رنگ عکاسی سیاه و سفید"
+      },
+      {
+        "at": "2024-09-09T09:34:48Z",
+        "i": "https://s3.castbox.fm/e8/04/8d/8f8ae54c20ae93e93edd4a1e4b.jpg",
+        "link": "https://s3.castbox.fm/26/3e/8d/27f5844279a4076782aafd9b63.wav",
+        "title": "صادکست 24 – عمودی مرگبار! بررسی تأثیر محتوای عمودی بر هنر و کیفیت محتوا"
+      },
+      {
+        "at": "2024-07-31T09:32:48Z",
+        "i": "https://s3.castbox.fm/15/3e/dd/cbdb9945cdb65f8f45af674cd8.jpg",
+        "link": "https://s3.castbox.fm/5e/16/4b/0cffbc4a13bff44dd0fa29a5ec.mp3",
+        "title": "صادکست 23 - روز داوری ! آیا هوش مصنوعی شغل من را خواهد گرفت؟"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "status": "active"
   },
@@ -64382,6 +65833,95 @@
       5
     ],
     "status": "active"
+  },
+  "sdai-sonr": {
+    "avg_length": 18,
+    "episodes": 22,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-04-30",
+    "first_year": 1399,
+    "last": "1399/02/18",
+    "last_at": "2020-05-07T07:15:43Z",
+    "last_link": "https://s3.castbox.fm/ea/d5/5a/787e0c45b8b92ca511d32643dc.mp3",
+    "last_title": "22- سخن پایانی",
+    "max_length": 46,
+    "median_length": 18,
+    "min_length": 7,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/ea/d5/5a/787e0c45b8b92ca511d32643dc.mp3",
+        "at": "2020-05-07T07:15:43Z",
+        "t": "22- سخن پایانی"
+      },
+      {
+        "a": "https://s3.castbox.fm/96/48/50/51a36f42d193e2e786812899f0.mp3",
+        "at": "2020-05-07T07:15:34Z",
+        "t": "21- فصل ششم قسمت دوم"
+      },
+      {
+        "a": "https://s3.castbox.fm/bb/8b/8f/faf29a4cb7807e09c7f580f3cc.mp3",
+        "at": "2020-05-06T11:29:53Z",
+        "t": "20- فصل ششم قسمت اول"
+      },
+      {
+        "a": "https://s3.castbox.fm/ef/83/d7/0bc13a43bebe1b16cd2c87b31e.mp3",
+        "at": "2020-05-06T11:29:48Z",
+        "t": "19- فصل پنجم"
+      },
+      {
+        "a": "https://s3.castbox.fm/d2/11/01/627d404823a0caf056620edd39.mp3",
+        "at": "2020-05-06T11:29:02Z",
+        "t": "18- فصل چهارم قسمت دوم"
+      },
+      {
+        "a": "https://s3.castbox.fm/6c/e5/a4/8f70a046d5ae942417fc75288d.MP3",
+        "at": "2020-05-06T11:08:26Z",
+        "t": "15- فصل سوم قسمت چهارم"
+      },
+      {
+        "a": "https://s3.castbox.fm/e2/57/5c/33022a43f1bcae6aba3dac4b18.MP3",
+        "at": "2020-05-06T11:02:59Z",
+        "t": "17- فصل چهارم قسمت اول"
+      },
+      {
+        "a": "https://s3.castbox.fm/ff/c8/0e/a41a1c4f929dffeea213435ec7.MP3",
+        "at": "2020-05-06T11:02:56Z",
+        "t": "16- فصل سوم قسمت پنجم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-05-07T07:15:43Z",
+        "link": "https://s3.castbox.fm/ea/d5/5a/787e0c45b8b92ca511d32643dc.mp3",
+        "title": "22- سخن پایانی"
+      },
+      {
+        "at": "2020-05-07T07:15:34Z",
+        "link": "https://s3.castbox.fm/96/48/50/51a36f42d193e2e786812899f0.mp3",
+        "title": "21- فصل ششم قسمت دوم"
+      },
+      {
+        "at": "2020-05-06T11:29:53Z",
+        "link": "https://s3.castbox.fm/bb/8b/8f/faf29a4cb7807e09c7f580f3cc.mp3",
+        "title": "20- فصل ششم قسمت اول"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "self-growth-podcast": {
     "avg_gap_days": 47.2,
@@ -67421,6 +68961,95 @@
         "at": "2022-08-30T15:00:00Z",
         "link": "https://s3.castbox.fm/3a/fc/9c/a22a2d4613aba1a84cc02c6939.mp3",
         "title": "Sibe Salamat E88 واریس"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
+  "simai-fransh": {
+    "avg_length": 8,
+    "episodes": 24,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-09-04",
+    "first_year": 1398,
+    "last": "1398/12/29",
+    "last_at": "2020-03-19T14:27:28Z",
+    "last_link": "https://www.rfi.fr/fa/%D8%AC%D8%A7%D9%85%D8%B9%D9%87/20200319-%DA%A9%D8%B1%D9%88%D9%86%D8%A7-%D8%A8%D8%B4%D8%B1%DB%8C%D8%AA-%D8%B1%D8%A7-%D8%AF%D8%B1-%D9%85%D8%B9%D8%B1%D8%B6-%D9%86%D8%A7%D8%A8%D9%88%D8%AF%DB%8C-%DB%8C%D8%A7-%DA%AF%D8%B0%D8%A7%D8%B1-%D8%A8%D9%87-%D8%AA%D9%85%D8%AF%D9%86%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1-%D8%AF%D8%A7%D8%AF%D9%87-%D8%A7%D8%B3%D8%AA?PcNCvtcnHj",
+    "last_title": "کرونا بشریت را در معرض نابودی یا گذار به تمدنی جدید قرار داده است؟",
+    "max_length": 12,
+    "median_length": 8,
+    "min_length": 6,
+    "play": [
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202003/Vivre_en_france_ok.mp3?guid=c49bc8d4-69ed-11ea-9abd-005056a959c0&source=PcNCvtcnHj",
+        "at": "2020-03-19T14:27:28Z",
+        "t": "کرونا بشریت را در معرض نابودی یا گذار به تمدنی جدید قرار داده است؟"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202003/Vivre_en_France_12_et_13-03-20.mp3?guid=3d285c2c-6458-11ea-b902-005056a959c0&source=PcNCvtcnHj",
+        "at": "2020-03-12T11:54:31Z",
+        "t": "\"کمون\" و انتخابات شهرداری ها در فرانسه"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202002/vivre_en_france_26_02_20.mp3?guid=8b57aec4-596e-11ea-9405-005056bfc87b&source=PcNCvtcnHj",
+        "at": "2020-02-27T14:36:28Z",
+        "t": "انتخابات شهرداری ها، تلاطم نظام سیاسی و اقبال راست افراطی فرانسه در سال ۲۰۲۲"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202002/VIVRE_EN_FRANCE.mp3?guid=75a8c7e8-53f1-11ea-916d-005056a9c2ac&source=PcNCvtcnHj",
+        "at": "2020-02-20T14:58:28Z",
+        "t": "ماکرون در پیکار با جدایی گرایی اسلامی در فرانسه از مساجد تا مدارس"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202002/VIVRE_EN_fRANCE_13_02.mp3?guid=0e8010f4-4dbf-11ea-81bd-005056bfa465&source=PcNCvtcnHj",
+        "at": "2020-02-12T17:42:34Z",
+        "t": "انسان معلول، پویش برابری"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202002/vivre_en_france_6_02.mp3?guid=aea7935e-48f1-11ea-8001-005056bfa465&source=PcNCvtcnHj",
+        "at": "2020-02-06T15:02:21Z",
+        "t": "آزادی دینی یا آزادی وجدان؟"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202001/vivre_en_france_29_01_20.mp3?guid=67d589e0-42a7-11ea-bbc9-005056a96d1f&source=PcNCvtcnHj",
+        "at": "2020-01-29T14:55:33Z",
+        "t": "آیا توکویل انقلاب معاصر فرانسه را پیش بینی کرده است؟"
+      },
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202001/Vivre_en_France_23_01_Nasser.mp3?guid=60ee7990-3df0-11ea-80e8-005056bf1e68&source=PcNCvtcnHj",
+        "at": "2020-01-23T14:55:19Z",
+        "t": "هویت جامعۀ فرانسه را مبارزۀ طبقات می‌سازد"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-03-19T14:27:28Z",
+        "link": "https://www.rfi.fr/fa/%D8%AC%D8%A7%D9%85%D8%B9%D9%87/20200319-%DA%A9%D8%B1%D9%88%D9%86%D8%A7-%D8%A8%D8%B4%D8%B1%DB%8C%D8%AA-%D8%B1%D8%A7-%D8%AF%D8%B1-%D9%85%D8%B9%D8%B1%D8%B6-%D9%86%D8%A7%D8%A8%D9%88%D8%AF%DB%8C-%DB%8C%D8%A7-%DA%AF%D8%B0%D8%A7%D8%B1-%D8%A8%D9%87-%D8%AA%D9%85%D8%AF%D9%86%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1-%D8%AF%D8%A7%D8%AF%D9%87-%D8%A7%D8%B3%D8%AA?PcNCvtcnHj",
+        "title": "کرونا بشریت را در معرض نابودی یا گذار به تمدنی جدید قرار داده است؟"
+      },
+      {
+        "at": "2020-03-12T11:54:31Z",
+        "link": "https://www.rfi.fr/fa/%D8%B9%D9%85%D9%88%D9%85%DB%8C/20200312-%DA%A9%D9%85%D9%88%D9%86-%D9%88-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%B4%D9%87%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7-%D8%AF%D8%B1-%D9%81%D8%B1%D8%A7%D9%86%D8%B3%D9%87?PcNCvtcnHj",
+        "title": "\"کمون\" و انتخابات شهرداری ها در فرانسه"
+      },
+      {
+        "at": "2020-02-27T14:36:28Z",
+        "link": "https://www.rfi.fr/fa/%D8%B9%D9%85%D9%88%D9%85%DB%8C/20200227-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%B4%D9%87%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7-%D8%AA%D9%84%D8%A7%D8%B7%D9%85-%D9%86%D8%B8%D8%A7%D9%85-%D8%B3%DB%8C%D8%A7%D8%B3%DB%8C-%D9%81%D8%B1%D8%A7%D9%86%D8%B3%D9%87-%D9%88-%D8%A7%D9%82%D8%A8%D8%A7%D9%84-%D8%B1%D8%A7%D8%B3%D8%AA-%D8%A7%D9%81%D8%B1%D8%A7%D8%B7%DB%8C-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%84-%DB%B2%DB%B0%DB%B2%DB%B2?PcNCvtcnHj",
+        "title": "انتخابات شهرداری ها، تلاطم نظام سیاسی و اقبال راست افراطی فرانسه در سال ۲۰۲۲"
       }
     ],
     "recent_30d": [
@@ -73107,6 +74736,95 @@
       0
     ],
     "status": "active"
+  },
+  "zmir-nakhdagah": {
+    "avg_length": 34,
+    "episodes": 23,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-01-04",
+    "first_year": 1398,
+    "last": "1398/10/18",
+    "last_at": "2020-01-08T20:53:51Z",
+    "last_link": "https://s3.castbox.fm/bb/d0/ea/194cd64a519ec2e277422159db.mp3",
+    "last_title": "عشق بی‌ پایه و بی‌ مایه",
+    "max_length": 134,
+    "median_length": 24,
+    "min_length": 5,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/bb/d0/ea/194cd64a519ec2e277422159db.mp3",
+        "at": "2020-01-08T20:53:51Z",
+        "t": "عشق بی‌ پایه و بی‌ مایه"
+      },
+      {
+        "a": "https://s3.castbox.fm/b1/70/88/4aded14845a2b235b8640fc8f9.mp3",
+        "at": "2020-01-04T19:23:15Z",
+        "t": "نفوذ به ضمیر ناخودآگاه و برنامه ریزی آن"
+      },
+      {
+        "a": "https://s3.castbox.fm/59/3a/e2/feb3df46d0a84a1dbe71ca76de.mp3",
+        "at": "2020-01-04T19:22:15Z",
+        "t": "ناخودآگاه و تکنیک تغییر باور"
+      },
+      {
+        "a": "https://s3.castbox.fm/78/38/f5/5a796a4a3b862a0216078f7583.mp3",
+        "at": "2020-01-04T19:21:36Z",
+        "t": "معالجه افسردگی راه اول روان کاوی ضمیر و ذهن ضمیر آگاه و ناآگاه"
+      },
+      {
+        "a": "https://s3.castbox.fm/64/db/e0/51688b4cb494a2d1ebeba2ad1f.mp3",
+        "at": "2020-01-04T19:20:33Z",
+        "t": "قدرت ناخداگاه"
+      },
+      {
+        "a": "https://s3.castbox.fm/be/00/52/eca4b64fcb8f121fe2c8e558aa.mp3",
+        "at": "2020-01-04T19:20:08Z",
+        "t": "ضمير ناخودآگاه و هيپتونيزم"
+      },
+      {
+        "a": "https://s3.castbox.fm/1d/39/38/543fff426abac4d293810ed97a.mp3",
+        "at": "2020-01-04T19:19:35Z",
+        "t": "ضمير ناخودآگاه و کاربرد قانون جذب در موفقیت"
+      },
+      {
+        "a": "https://s3.castbox.fm/be/b9/be/466cef4b998f6d9d7fcbb67eb5.mp3",
+        "at": "2020-01-04T19:18:47Z",
+        "t": "ضمير ناخودآگاه و قدرت باور نکردنی استفاده از کلمه بهترین"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-01-08T20:53:51Z",
+        "link": "https://s3.castbox.fm/bb/d0/ea/194cd64a519ec2e277422159db.mp3",
+        "title": "عشق بی‌ پایه و بی‌ مایه"
+      },
+      {
+        "at": "2020-01-04T19:23:15Z",
+        "link": "https://s3.castbox.fm/b1/70/88/4aded14845a2b235b8640fc8f9.mp3",
+        "title": "نفوذ به ضمیر ناخودآگاه و برنامه ریزی آن"
+      },
+      {
+        "at": "2020-01-04T19:22:15Z",
+        "link": "https://s3.castbox.fm/59/3a/e2/feb3df46d0a84a1dbe71ca76de.mp3",
+        "title": "ناخودآگاه و تکنیک تغییر باور"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "zmzmh-adbi": {
     "avg_length": 18,
