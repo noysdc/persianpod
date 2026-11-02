@@ -27592,21 +27592,27 @@
     "status": "inactive"
   },
   "khdahafz-aafrigha": {
-    "avg_gap_days": 99.7,
-    "avg_length": 34,
-    "episodes": 29,
-    "eps_365": 4,
-    "eps_90": 1,
+    "avg_gap_days": 91.0,
+    "avg_length": 35,
+    "episodes": 30,
+    "eps_365": 5,
+    "eps_90": 2,
     "first_at": "2022-07-07",
     "first_year": 1401,
-    "last": "1405/06/07",
-    "last_at": "2026-08-29T12:05:21Z",
-    "last_link": "https://www.spreaker.com/episode/khdahafz-afryqa-qsmt-byst-w-nhm--74746194",
-    "last_title": "خداحافظ آفریقا: قسمت بیست و نهم",
+    "last": "1405/08/11",
+    "last_at": "2026-11-02T12:30:10Z",
+    "last_link": "https://www.spreaker.com/episode/khdahafz-afryqa-qsmt-sy--76134505",
+    "last_title": "خداحافظ آفریقا: قسمت سی",
     "max_length": 87,
     "median_length": 32,
     "min_length": 23,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76134505/utf_8_b_2k7yr9in2k3yp9mb2lgg2kfzk9mb2lhbjnmc_utf_8_b_2kdfinmc2lpzhdiqiniz24wubxaz.mp3",
+        "at": "2026-11-02T12:30:10Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/73cd338b9159f925fbf129537119a858.jpg",
+        "t": "خداحافظ آفریقا: قسمت سی"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74746194/file.mp3",
         "at": "2026-08-29T12:05:21Z",
@@ -27648,15 +27654,15 @@
         "at": "2025-06-27T18:01:47Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ce5152b1c60f337829f4236ce53fee9c.jpg",
         "t": "خداحافظ آفریقا: قسمت بیست و سوم"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72204882/audio.mp3",
-        "at": "2025-06-06T16:37:26Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/e2dc57856f5a4c2779010ed8acbabc1b.jpg",
-        "t": "خداحافظ آفریقا: قسمت بیست و دوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-02T12:30:10Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/73cd338b9159f925fbf129537119a858.jpg",
+        "link": "https://www.spreaker.com/episode/khdahafz-afryqa-qsmt-sy--76134505",
+        "title": "خداحافظ آفریقا: قسمت سی"
+      },
       {
         "at": "2026-08-29T12:05:21Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/1e73513fcc9438338a5e3a430e626d78.jpg",
@@ -27668,12 +27674,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/389efbb62a1ec5fac26a267b69ff0bc6.jpg",
         "link": "https://www.spreaker.com/episode/khdahafz-afryqa-qsmt-byst-w-hshtm--72224315",
         "title": "خداحافظ آفریقا: قسمت بیست و هشتم"
-      },
-      {
-        "at": "2025-12-12T09:44:53Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/9a616b454f7daeb3513bcbcde55101cd.jpg",
-        "link": "https://www.spreaker.com/episode/khdahafz-afryqa-qsmt-byst-w-hftm--72204855",
-        "title": "خداحافظ آفریقا: قسمت بیست و هفتم"
       }
     ],
     "recent_30d": [
@@ -27688,7 +27688,7 @@
       0,
       1,
       0,
-      0
+      1
     ],
     "status": "active"
   },
@@ -44288,10 +44288,10 @@
     "status": "active"
   },
   "podcast-astorh-shnasi-thot": {
-    "avg_gap_days": 9.5,
+    "avg_gap_days": 9.1,
     "avg_length": 46,
     "episodes": 177,
-    "eps_365": 39,
+    "eps_365": 38,
     "eps_90": 13,
     "first_at": "2024-04-12",
     "first_year": 1403,
@@ -71168,8 +71168,8 @@
       8,
       84,
       83,
-      106,
-      84,
+      107,
+      83,
       79
     ],
     "status": "active"
