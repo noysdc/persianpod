@@ -27153,21 +27153,27 @@
     "status": "active"
   },
   "ketabak": {
-    "avg_gap_days": 7.3,
-    "avg_length": 25,
-    "episodes": 16,
-    "eps_365": 16,
-    "eps_90": 7,
+    "avg_gap_days": 7.9,
+    "avg_length": 27,
+    "episodes": 17,
+    "eps_365": 17,
+    "eps_90": 8,
     "first_at": "2026-06-29",
     "first_year": 1405,
-    "last": "1405/07/26",
-    "last_at": "2026-10-18T14:58:00Z",
-    "last_link": "https://dotcast.org/p/wqlungdt/0zj0d5r0iw/",
-    "last_title": "کتاب درمان شوپنهاور نوشته اروین د یالوم",
-    "max_length": 50,
-    "median_length": 24,
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T20:22:00Z",
+    "last_link": "https://dotcast.org/p/wqlungdt/bvi9on3yv1/",
+    "last_title": "کتاب دوباره فکر کن اثر آدام گرانت",
+    "max_length": 63,
+    "median_length": 27,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/wqlungdt/bvi9on3yv1/2026-11-03-20-18-24.mp3",
+        "at": "2026-11-03T20:22:00Z",
+        "i": "https://feed.dotcast.org/e/wqlungdt/bvi9on3yv1/2026-11-03-20-22-25.jpg",
+        "t": "کتاب دوباره فکر کن اثر آدام گرانت"
+      },
       {
         "a": "https://feed.dotcast.org/e/wqlungdt/0zj0d5r0iw/2026-10-18-11-48-10.mp3",
         "at": "2026-10-18T14:58:00Z",
@@ -27209,15 +27215,15 @@
         "at": "2026-08-16T08:38:00Z",
         "i": "https://feed.dotcast.org/e/wqlungdt/10/2026-09-24-20-08-43.jpg",
         "t": "کتاب وضعیت آخر نوشته توماس.ای.هریس"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/wqlungdt/9/2026-09-03-14-17-15.mp3",
-        "at": "2026-08-05T05:38:07Z",
-        "i": "https://feed.dotcast.org/e/wqlungdt/9/2026-09-24-20-09-21.jpg",
-        "t": "کتاب مزرعه حیوانات نوشته جورج اورول"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T20:22:00Z",
+        "i": "https://feed.dotcast.org/e/wqlungdt/bvi9on3yv1/2026-11-03-20-22-25.jpg",
+        "link": "https://dotcast.org/p/wqlungdt/bvi9on3yv1/",
+        "title": "کتاب دوباره فکر کن اثر آدام گرانت"
+      },
       {
         "at": "2026-10-18T14:58:00Z",
         "i": "https://feed.dotcast.org/e/wqlungdt/0zj0d5r0iw/2026-10-18-14-57-43.jpg",
@@ -27229,12 +27235,6 @@
         "i": "https://feed.dotcast.org/e/wqlungdt/eay0yo7b8o/2026-10-05-09-42-28.jpg",
         "link": "https://dotcast.org/p/wqlungdt/eay0yo7b8o/",
         "title": "کتاب هزاران فرسنگ تا آزادی( فرار از کره شمالی )"
-      },
-      {
-        "at": "2026-09-24T19:50:00Z",
-        "i": "https://feed.dotcast.org/e/wqlungdt/w43w0li1qs/2026-09-24-19-51-26.jpg",
-        "link": "https://dotcast.org/p/wqlungdt/w43w0li1qs/",
-        "title": "کتاب روانشناسی پول از مورگان هاوزل"
       }
     ],
     "recent_30d": [
@@ -27249,7 +27249,7 @@
       4,
       3,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -36200,8 +36200,8 @@
       }
     ],
     "recent_30d": [
-      3,
-      1,
+      4,
+      0,
       0,
       0,
       0,
