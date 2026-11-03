@@ -56779,25 +56779,19 @@
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
     "avg_length": 29,
-    "episodes": 136,
-    "eps_365": 59,
-    "eps_90": 59,
+    "episodes": 135,
+    "eps_365": 58,
+    "eps_90": 58,
     "first_at": "2023-05-06",
     "first_year": 1402,
     "last": "1405/08/12",
-    "last_at": "2026-11-03T01:11:30Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Dolatshahi--Mehrangiz-Part-15-e3rkl9m",
-    "last_title": "Dolatshahi, Mehrangiz Part 15",
+    "last_at": "2026-11-03T01:10:29Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Dolatshahi--Mehrangiz-Part-14-e3rkl7p",
+    "last_title": "Dolatshahi, Mehrangiz Part 14",
     "max_length": 63,
     "median_length": 31,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128652022/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F2ee4c053-ddf6-35b7-07f4-307bd9e1e3f6.mp3",
-        "at": "2026-11-03T01:11:30Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793668275847-2ce98db88096b.jpg",
-        "t": "Dolatshahi, Mehrangiz Part 15"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128651961/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F52b6260f-a205-0a44-d13d-48ee0f46d9a5.mp3",
         "at": "2026-11-03T01:10:29Z",
@@ -56839,15 +56833,15 @@
         "at": "2026-11-03T01:00:59Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793667641368-5c65ad37ffb93.jpg",
         "t": "Dolatshahi, Mehrangiz Part 8"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128647976/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2Fc63fe276-3f68-2a33-71c3-8445aab6843e.mp3",
+        "at": "2026-11-02T23:32:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793662021583-ba002a443ce96.jpg",
+        "t": "Dolatshahi, Mehrangiz Part 7"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-03T01:11:30Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793668275847-2ce98db88096b.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Dolatshahi--Mehrangiz-Part-15-e3rkl9m",
-        "title": "Dolatshahi, Mehrangiz Part 15"
-      },
       {
         "at": "2026-11-03T01:10:29Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793668211774-ed8300641ffda.jpg",
@@ -56859,6 +56853,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793668144761-57152485a2a5c.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Dolatshahi--Mehrangiz-Part-13-e3rkl6m",
         "title": "Dolatshahi, Mehrangiz Part 13"
+      },
+      {
+        "at": "2026-11-03T01:06:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793667995586-e64409543a4b8.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Dolatshahi--Mehrangiz-Part-12-e3rkl3s",
+        "title": "Dolatshahi, Mehrangiz Part 12"
       }
     ],
     "recent_30d": [
@@ -56873,7 +56873,7 @@
       0,
       0,
       0,
-      59
+      58
     ],
     "status": "active"
   },
