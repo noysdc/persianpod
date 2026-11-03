@@ -59307,21 +59307,27 @@
     "status": "active"
   },
   "radio-flsfh-radiofalsafe": {
-    "avg_gap_days": 15.0,
-    "avg_length": 53,
-    "episodes": 65,
-    "eps_365": 24,
-    "eps_90": 8,
+    "avg_gap_days": 14.8,
+    "avg_length": 54,
+    "episodes": 66,
+    "eps_365": 25,
+    "eps_90": 9,
     "first_at": "2024-12-11",
     "first_year": 1403,
-    "last": "1405/08/03",
-    "last_at": "2026-10-25T02:19:11Z",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T17:31:55Z",
     "last_link": "https://podcasters.spotify.com/pod/show/-31570",
-    "last_title": "اطلاعیه | معرفی پادکست جدید و آغاز فصلی تازه در مسیر اندیشه و ادبیات",
+    "last_title": "درباره‌ی فلسفه_ قسمت چهل‌ودوم | شوپنهاور؛ از تولد تا شکل‌گیری یک اندیشه",
     "max_length": 73,
-    "median_length": 44,
+    "median_length": 45,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://audio4.redcircle.com/episodes/e7584c82-293c-4412-8946-a6561e9876f3/stream.mp3",
+        "at": "2026-11-03T17:31:55Z",
+        "i": "https://media.redcircle.com/images/2026/11/3/17/4430c8ed-42b4-4e46-aa35-fabe33bb0e7e_inshot_20261103_205454463.jpg",
+        "t": "درباره‌ی فلسفه_ قسمت چهل‌ودوم | شوپنهاور؛ از تولد تا شکل‌گیری یک اندیشه"
+      },
       {
         "a": "https://audio4.redcircle.com/episodes/53edfb86-d823-4d35-8557-2d190e5c63fa/stream.mp3",
         "at": "2026-10-25T02:19:11Z",
@@ -59363,15 +59369,15 @@
         "at": "2026-08-25T01:06:57Z",
         "i": "https://media.redcircle.com/images/2026/8/25/1/e5ed8d95-0873-43e1-a7f6-de362bc00e51_file_00000000dca482468aebb7ef2a4b546c.jpg",
         "t": "درباره‌ی فلسفه_قسمت سی‌وششم | هگل و علم منطق؛ از وجود تا نامتناهی حقیقی"
-      },
-      {
-        "a": "https://audio4.redcircle.com/episodes/16d7a8e7-7580-424c-b8d4-7fe00305749e/stream.mp3",
-        "at": "2026-08-12T02:52:11Z",
-        "i": "https://media.redcircle.com/images/2026/8/12/2/69cdfdc7-314f-4b9f-8989-db1c4e9a31e8_file_00000000dca482468aebb7ef2a4b546c.jpg",
-        "t": "درباره‌ی فلسفه _ قسمت سی و پنجم | هگل و پدیدارشناسی روح؛ از آگاهی تا گایْسْت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T17:31:55Z",
+        "i": "https://media.redcircle.com/images/2026/11/3/17/4430c8ed-42b4-4e46-aa35-fabe33bb0e7e_inshot_20261103_205454463.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/-31570",
+        "title": "درباره‌ی فلسفه_ قسمت چهل‌ودوم | شوپنهاور؛ از تولد تا شکل‌گیری یک اندیشه"
+      },
       {
         "at": "2026-10-25T02:19:11Z",
         "i": "https://media.redcircle.com/images/2026/10/25/2/4db19dec-4959-4ddd-a71b-1684741b3ee0_file_00000000b5e88206bdbcc1b9f6bc254a.jpg",
@@ -59383,12 +59389,6 @@
         "i": "https://media.redcircle.com/images/2026/10/22/17/743b7f7e-9e9b-4d44-b65b-f8145fdae714_file_0000000050348243885a3626c740e9c3.jpg",
         "link": "https://podcasters.spotify.com/pod/show/-31570",
         "title": "درباره‌ی فلسفه _ قسمت چهل و یکم | در جست‌وجوی خدا؛ واپسین ایستگاه فلسفهٔ هگل"
-      },
-      {
-        "at": "2026-10-10T13:40:27Z",
-        "i": "https://media.redcircle.com/images/2026/10/10/13/d3e9a704-b857-4e74-84b7-cc9aebe3f8dc_file_0000000050348243885a3626c740e9c3.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/-31570",
-        "title": "درباره‌ی فلسفه _ قسمت چهلم | تولد ایدهٔ مطلق؛ آیا هگل به خدا می‌رسد؟"
       }
     ],
     "recent_30d": [
@@ -59403,7 +59403,7 @@
       3,
       2,
       3,
-      3
+      4
     ],
     "status": "active"
   },
@@ -72344,19 +72344,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4242,
-    "eps_365": 801,
-    "eps_90": 269,
+    "episodes": 4243,
+    "eps_365": 802,
+    "eps_90": 270,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/12",
-    "last_at": "2026-11-03T14:30:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ae9ccb74ca6aa86040d1cac",
-    "last_title": "قسمت چهار هزار و دویست و بیست و شش",
+    "last_at": "2026-11-03T17:30:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ae9ccf44ca6aa86040d28cc",
+    "last_title": "قسمت چهار هزار و دویست و بیست و هفت",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ae9ccf44ca6aa86040d28cc/media.mp3",
+        "at": "2026-11-03T17:30:00Z",
+        "t": "قسمت چهار هزار و دویست و بیست و هفت"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ae9ccb74ca6aa86040d1cac/media.mp3",
         "at": "2026-11-03T14:30:00Z",
@@ -72391,14 +72396,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ae78d9d043d1c282f467c86/media.mp3",
         "at": "2026-11-02T04:30:00Z",
         "t": "قسمت چهار هزار و دویست و بیست"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ae78d02339f23a72655bb3f/media.mp3",
-        "at": "2026-11-01T20:06:00Z",
-        "t": "قسمت چهار هزار و دویست و نوزده"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T17:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ae9ccf44ca6aa86040d28cc",
+        "title": "قسمت چهار هزار و دویست و بیست و هفت"
+      },
       {
         "at": "2026-11-03T14:30:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ae9ccb74ca6aa86040d1cac",
@@ -72408,11 +72413,6 @@
         "at": "2026-11-03T13:30:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ae9cc21da7c744de03fd04a",
         "title": "قسمت چهار هزار و دویست و بیست و پنج"
-      },
-      {
-        "at": "2026-11-03T11:56:19Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6ae9cbe0dc2860cef49ded79",
-        "title": "قسمت چهار هزار و دویست و بیست و چهار"
       }
     ],
     "recent_30d": [
@@ -72427,7 +72427,7 @@
       78,
       109,
       80,
-      80
+      81
     ],
     "status": "active"
   },
