@@ -18190,7 +18190,6 @@
       {
         "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgND-3aGpCwyiAQdsaWJyYXJ5/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgMiGlva8CgyiAQdsaWJyYXJ5.mp3",
         "at": "2022-07-14T07:00:00Z",
-        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgMiGlva8CgyiAQdsaWJyYXJ5.jpg?_=1668022736",
         "t": "احساس ناستالژیا یک پایه درعلم روانشناسی"
       },
       {
@@ -36024,19 +36023,25 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 988,
-    "eps_365": 328,
-    "eps_90": 81,
+    "episodes": 989,
+    "eps_365": 329,
+    "eps_90": 82,
     "first_at": "2023-11-21",
     "first_year": 1402,
     "last": "1405/08/12",
-    "last_at": "2026-11-03T03:25:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/a-firearm-buyback-scheme-begins-today-in-the-state-of-new-south-wales/w8qfmxrj3",
-    "last_title": "ممنوعیت شبکه‌های اجتماعی برای کودکان در دادگاه عالی استرالیا به چالش کشیده شد",
+    "last_at": "2026-11-03T04:53:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/rba-increases-interest-rates-again/upx4vbwn2",
+    "last_title": "بانک مرکزی استرالیا نرخ بهره را بار دیگر افزایش داد",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261103155315_564540-persian-5398bb36-ab19-47aa-8faa-6de93a6a92b6.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-9f4d-d326-a5fb-bf6dac110000&dur_cat=3",
+        "at": "2026-11-03T04:53:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261103155318_632930-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "t": "بانک مرکزی استرالیا نرخ بهره را بار دیگر افزایش داد"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261103142601_410394-persian-e6ccfb84-97fa-4442-b2bb-595f7ad9fac8.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-9ebd-d95f-abb5-bfbfb3c50000&dur_cat=2",
         "at": "2026-11-03T03:25:00Z",
@@ -36078,15 +36083,15 @@
         "at": "2026-10-27T04:36:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261027153750_225567-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "t": "هشدار اقتصاددانان؛ استرالیایی‌ها برای افزایش دوباره نرخ بهره آماده باشند"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261027135106_385510-persian-e30e08f3-3f68-42d5-9fa5-90f41a4562d5.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-7b25-d326-a5fb-ff2dbeb80000&dur_cat=2",
-        "at": "2026-10-27T02:50:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261027163305_326643-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "t": "افزایش حملات سایبری مبتنی بر هوش مصنوعی در استرالیا؛ هشدار درباره اختلال در خدمات"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T04:53:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261103155318_632930-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/rba-increases-interest-rates-again/upx4vbwn2",
+        "title": "بانک مرکزی استرالیا نرخ بهره را بار دیگر افزایش داد"
+      },
       {
         "at": "2026-11-03T03:25:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261103142603_949402-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
@@ -36098,12 +36103,6 @@
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261102161004_697718-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/a-firearm-buyback-scheme-begins-today-in-the-state-of-new-south-wales/2si0ax3to",
         "title": "طرح بازخرید سلاح گرم از امروز در ایالت نیو ساوت ولز آغاز می‌شود"
-      },
-      {
-        "at": "2026-10-30T03:13:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261030161249_437536-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/israel-election-voting-irregularities-allegations/ny4vkufr2",
-        "title": "ادعای تخلف در رأی‌گیری انتخابات اسرائیل"
       }
     ],
     "recent_30d": [
@@ -36118,7 +36117,7 @@
       28,
       27,
       25,
-      29
+      30
     ],
     "status": "active"
   },
