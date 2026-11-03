@@ -72614,20 +72614,26 @@
   },
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
-    "avg_length": 23,
-    "episodes": 405,
-    "eps_365": 258,
-    "eps_90": 114,
+    "avg_length": 24,
+    "episodes": 406,
+    "eps_365": 259,
+    "eps_90": 115,
     "first_at": "2024-08-22",
     "first_year": 1403,
-    "last": "1405/08/06",
-    "last_at": "2026-10-28T14:30:00Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6ae19b715a3cc3c4c42eb0cf",
-    "last_title": "روزهای پایانی اکتبر 🍂 | پلی‌لیست لوفی و قهوه گرم",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T09:32:06Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6ae9817d9cb48f65eae015c1",
+    "last_title": "جملات تأکیدی برای شروع روزی آرام و مثبت ✨  عشق به زندگی",
     "max_length": 99,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ae9817d9cb48f65eae015c1/media.mp3",
+        "at": "2026-11-03T09:32:06Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793687927117-3f0d1fd4-e146-4af9-82c6-ea42673ae910.jpeg",
+        "t": "جملات تأکیدی برای شروع روزی آرام و مثبت ✨  عشق به زندگی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ae19b715a3cc3c4c42eb0cf/media.mp3",
         "at": "2026-10-28T14:30:00Z",
@@ -72669,15 +72675,15 @@
         "at": "2026-10-25T04:30:00Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1792229810967-253351b3-a987-46e6-97f0-a81281a419fd.jpeg",
         "t": "جادوگر سفید | اپیزود 12"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6adc50cc296f30f8e303cc6e/media.mp3",
-        "at": "2026-10-24T06:31:40Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1792823110302-50229a9b-886c-4797-8345-dc3be4bb2040.jpeg",
-        "t": "🍂 صبحی پاییزی در جنگلی مه‌آلود | موسیقی‌های قدیمی و دلنشین دیزنی | ملودی‌های نوستالژیک"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T09:32:06Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793687927117-3f0d1fd4-e146-4af9-82c6-ea42673ae910.jpeg",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6ae9817d9cb48f65eae015c1",
+        "title": "جملات تأکیدی برای شروع روزی آرام و مثبت ✨  عشق به زندگی"
+      },
       {
         "at": "2026-10-28T14:30:00Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793169987215-f43d861e-c456-4765-a8df-1db5a052a73a.jpeg",
@@ -72689,12 +72695,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793171053504-0cad652e-d9ab-4e97-8847-c562b4eda0d9.jpeg",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6a86ceaf3c905940604d2d85",
         "title": "مدیتیشن ۵ دقیقه‌ای برای رهایی فوری و آرامش درون مدیتیشن"
-      },
-      {
-        "at": "2026-10-28T06:41:03Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1792818446108-13de41ad-6e10-46df-bf24-906282a456bf.jpeg",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6adc3d6602b9e3b259344b8d",
-        "title": "مدیتیشن | مدیتیشن جذب ثروت و فراوانی | افزایش انرژی پول"
       }
     ],
     "recent_30d": [
@@ -72709,7 +72709,7 @@
       13,
       43,
       41,
-      30
+      31
     ],
     "status": "active"
   },
