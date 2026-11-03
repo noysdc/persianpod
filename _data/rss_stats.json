@@ -27146,7 +27146,7 @@
   },
   "khanoadh-slh": {
     "avg_length": 27,
-    "episodes": 41,
+    "episodes": 42,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-02-06",
@@ -27156,7 +27156,7 @@
     "last_link": "https://podcasters.spotify.com/pod/show/khanevade-solh/episodes/ep-e2mgmiu",
     "last_title": "رادیو موج قسمت چهاردهم",
     "max_length": 58,
-    "median_length": 17,
+    "median_length": 16,
     "min_length": 2,
     "play": [
       {
@@ -43311,30 +43311,25 @@
     "status": "active"
   },
   "podcast-aamozsh-zban-anglisi-ataii-aanlain": {
-    "avg_gap_days": 25.7,
+    "avg_gap_days": 23.1,
     "avg_length": 16,
-    "episodes": 101,
-    "eps_365": 15,
-    "eps_90": 4,
+    "episodes": 100,
+    "eps_365": 14,
+    "eps_90": 3,
     "first_at": "2022-12-18",
     "first_year": 1401,
-    "last": "1405/08/11",
-    "last_at": "2026-11-02T14:30:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/99---e3rjkpa",
-    "last_title": "#99 - دوازده اصطلاح انگلیسی با عدد صفر برای تقویت مکالمه",
+    "last": "1405/06/12",
+    "last_at": "2026-09-03T13:51:36Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/91---e3o9s5s",
+    "last_title": "#91 - مجموعه شماره ۷ از ۳۰ درس کوتاه زبان انگلیسی",
     "max_length": 43,
     "median_length": 18,
     "min_length": 7,
     "play": [
       {
-        "a": "https://anchor.fm/s/17433084/podcast/play/128618730/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F435667937-44100-2-18249ac829c5f.mp3",
-        "at": "2026-11-02T14:30:00Z",
-        "t": "#99 - دوازده اصطلاح انگلیسی با عدد صفر برای تقویت مکالمه"
-      },
-      {
         "a": "https://anchor.fm/s/17433084/podcast/play/125152892/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-3%2F431113103-44100-2-41f1fd9c96858.mp3",
         "at": "2026-09-03T13:51:36Z",
-        "t": "#98 - مجموعه شماره ۷ از ۳۰ درس کوتاه زبان انگلیسی"
+        "t": "#91 - مجموعه شماره ۷ از ۳۰ درس کوتاه زبان انگلیسی"
       },
       {
         "a": "https://anchor.fm/s/17433084/podcast/play/124656132/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-24%2F430431495-44100-2-b8478db6795a4.mp3",
@@ -43365,23 +43360,28 @@
         "a": "https://anchor.fm/s/17433084/podcast/play/113113440/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-25%2F414999365-44100-2-8b2527241efaf.mp3",
         "at": "2025-12-26T05:44:00Z",
         "t": "#92 - آموزش مکالمه انگلیسی در پمپ بنزین"
+      },
+      {
+        "a": "https://anchor.fm/s/17433084/podcast/play/112813252/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-18%2F414622634-44100-2-5bcbea3b84165.mp3",
+        "at": "2025-12-19T06:10:00Z",
+        "t": "#91 - مجموعه شماره ۶ از ۳۰ درس کوتاه زبان انگلیسی"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-02T14:30:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/99---e3rjkpa",
-        "title": "#99 - دوازده اصطلاح انگلیسی با عدد صفر برای تقویت مکالمه"
-      },
-      {
         "at": "2026-09-03T13:51:36Z",
-        "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/98---e3o9s5s",
-        "title": "#98 - مجموعه شماره ۷ از ۳۰ درس کوتاه زبان انگلیسی"
+        "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/91---e3o9s5s",
+        "title": "#91 - مجموعه شماره ۷ از ۳۰ درس کوتاه زبان انگلیسی"
       },
       {
         "at": "2026-08-24T14:00:00Z",
         "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/97---e3nqn24",
         "title": "#97 - مکالمه انگلیسی با موضوع سرما خوردگی"
+      },
+      {
+        "at": "2026-08-18T14:30:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/96---e3nh84d",
+        "title": "#96 - مکالمه انگلیسی موقع تصادف"
       }
     ],
     "recent_30d": [
@@ -43396,7 +43396,7 @@
       0,
       3,
       0,
-      1
+      0
     ],
     "status": "active"
   },
