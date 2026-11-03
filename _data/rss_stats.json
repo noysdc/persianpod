@@ -11145,8 +11145,8 @@
       }
     ],
     "recent_30d": [
-      1,
-      5,
+      2,
+      4,
       0,
       0,
       0,
@@ -18811,7 +18811,7 @@
     "avg_length": 53,
     "episodes": 86,
     "eps_365": 15,
-    "eps_90": 3,
+    "eps_90": 2,
     "first_at": "2021-10-08",
     "first_year": 1400,
     "last": "1405/07/25",
@@ -18900,8 +18900,8 @@
       0,
       0,
       0,
-      12,
-      1,
+      13,
+      0,
       1,
       1
     ],
@@ -30179,8 +30179,8 @@
       }
     ],
     "recent_30d": [
-      54,
-      169,
+      55,
+      168,
       22,
       46,
       0,
@@ -73871,18 +73871,23 @@
     "avg_gap_days": 1.4,
     "avg_length": 28,
     "episodes": 600,
-    "eps_365": 260,
-    "eps_90": 63,
-    "first_at": "2024-07-16",
+    "eps_365": 261,
+    "eps_90": 64,
+    "first_at": "2024-07-17",
     "first_year": 1403,
-    "last": "1405/08/11",
-    "last_at": "2026-11-02T20:30:00Z",
-    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-1320-NQUGdfm5",
-    "last_title": "مکاشفه ۲۲: ۱۶ تا ۲۱",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T20:30:00Z",
+    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-1321-BKeNmxXH",
+    "last_title": "مکاشفه ۱:۱ تا مکاشفه ۲۲: ۲۱",
     "max_length": 32,
     "median_length": 28,
     "min_length": 24,
     "play": [
+      {
+        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/540f9a26-5f7a-4198-a3c8-593dee131fb4/group-item/86dd2176-0c20-494e-96c3-47297e0a2175/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
+        "at": "2026-11-03T20:30:00Z",
+        "t": "مکاشفه ۱:۱ تا مکاشفه ۲۲: ۲۱"
+      },
       {
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/e822c144-e454-4e37-99c8-fd23a4e1fd86/group-item/d05b2791-63ab-406a-8564-55e9a7d9ab21/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-11-02T20:30:00Z",
@@ -73917,14 +73922,14 @@
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/3c5e1ef5-8900-4632-ae75-083a30fb6832/group-item/3c115335-7fcf-48ae-b61c-15eb02707fc2/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-10-25T20:30:00Z",
         "t": "مکاشفه ۲۰: ۱۱ تا ۱۵"
-      },
-      {
-        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/1b99b450-ce3c-40a1-8567-3ef2313f4d49/group-item/84448fb6-e387-4b40-9498-57c51b851874/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
-        "at": "2026-10-22T20:30:00Z",
-        "t": "مکاشفه ۲۰: ۷ تا ۱۰"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T20:30:00Z",
+        "link": "https://tmm-khtb.simplecast.com/episodes/tk-1321-BKeNmxXH",
+        "title": "مکاشفه ۱:۱ تا مکاشفه ۲۲: ۲۱"
+      },
       {
         "at": "2026-11-02T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-1320-NQUGdfm5",
@@ -73934,11 +73939,6 @@
         "at": "2026-11-01T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-1319-H2B6J_TD",
         "title": "مکاشفه ۲۲: ۶ تا ۱۵"
-      },
-      {
-        "at": "2026-10-29T20:30:00Z",
-        "link": "https://tmm-khtb.simplecast.com/episodes/tk-1318-axyfcTSa",
-        "title": "مکاشفه ۲۲: ۱ تا ۵"
       }
     ],
     "recent_30d": [
@@ -73953,7 +73953,7 @@
       22,
       21,
       21,
-      21
+      22
     ],
     "status": "active"
   },
