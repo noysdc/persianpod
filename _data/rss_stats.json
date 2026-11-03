@@ -33864,21 +33864,26 @@
     "status": "inactive"
   },
   "ktab-soti-sh-tfngdar": {
-    "avg_gap_days": 11.5,
-    "avg_length": 28,
-    "episodes": 135,
-    "eps_365": 32,
-    "eps_90": 10,
+    "avg_gap_days": 11.3,
+    "avg_length": 27,
+    "episodes": 136,
+    "eps_365": 33,
+    "eps_90": 11,
     "first_at": "2024-05-18",
     "first_year": 1403,
-    "last": "1405/08/06",
-    "last_at": "2026-10-28T18:52:11Z",
-    "last_link": "https://shows.acast.com/threemusketeers/episodes/6ae2445b7aa7eb2c8a411657",
-    "last_title": "مقدمه قسمت صد و بیستم",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T10:29:42Z",
+    "last_link": "https://shows.acast.com/threemusketeers/episodes/6ae9b795dc2860cef4973121",
+    "last_title": "قسمت صد و بیستم",
     "max_length": 42,
     "median_length": 30,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6ae9b795dc2860cef4973121/media.mp3",
+        "at": "2026-11-03T10:29:42Z",
+        "t": "قسمت صد و بیستم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6ae2445b7aa7eb2c8a411657/media.mp3",
         "at": "2026-10-28T18:52:11Z",
@@ -33913,14 +33918,14 @@
         "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6a941c7b1d52ae16ba79b772/media.mp3",
         "at": "2026-08-30T12:12:34Z",
         "t": "قسمت صد و شانزدهم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6a88551d49da908299d22500/media.mp3",
-        "at": "2026-08-21T13:39:42Z",
-        "t": "مقدمه قسمت ۱۱۶"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T10:29:42Z",
+        "link": "https://shows.acast.com/threemusketeers/episodes/6ae9b795dc2860cef4973121",
+        "title": "قسمت صد و بیستم"
+      },
       {
         "at": "2026-10-28T18:52:11Z",
         "link": "https://shows.acast.com/threemusketeers/episodes/6ae2445b7aa7eb2c8a411657",
@@ -33930,11 +33935,6 @@
         "at": "2026-10-24T12:08:35Z",
         "link": "https://shows.acast.com/threemusketeers/episodes/6adc9fc3296f30f8e31f0cc0",
         "title": "قسمت صد و نوزدهم"
-      },
-      {
-        "at": "2026-10-17T19:07:17Z",
-        "link": "https://shows.acast.com/threemusketeers/episodes/6ad3c76694a3daa98effffcd",
-        "title": "قسمت صد و هجدهم(قسمت اول سیزن پنجم)"
       }
     ],
     "recent_30d": [
@@ -33949,7 +33949,7 @@
       5,
       4,
       2,
-      4
+      5
     ],
     "status": "active"
   },
