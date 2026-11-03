@@ -16,8 +16,8 @@ pi_id: 1920429
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Yek Rooze Varzeshi یک روز ورزشی

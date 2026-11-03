@@ -17,8 +17,8 @@ pi_id: 7934053
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # فال تاروت(سفری با کهن الگو ها)

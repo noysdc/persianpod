@@ -17,8 +17,8 @@ pi_id: 7453138
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # کتاب مسیرهای زندگی
