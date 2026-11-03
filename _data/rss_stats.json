@@ -10167,8 +10167,8 @@
       }
     ],
     "recent_30d": [
-      8,
-      6,
+      9,
+      5,
       1,
       0,
       0,
@@ -30096,19 +30096,25 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 20,
-    "episodes": 635,
-    "eps_365": 602,
-    "eps_90": 178,
+    "episodes": 636,
+    "eps_365": 603,
+    "eps_90": 179,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/08/12",
-    "last_at": "2026-11-03T17:05:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6ae8ccf59cb48f65ea98a1b3",
-    "last_title": "سالگرد - قتل های زنجیره ای - بخش بیست و نهم",
+    "last_at": "2026-11-03T18:30:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6ae8d4d19cb48f65ea9c5ef7",
+    "last_title": "مالیات خروج - وضعیت متاهل - اپیزود معرفی",
     "max_length": 44,
     "median_length": 16,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ae8d4d19cb48f65ea9c5ef7/media.mp3",
+        "at": "2026-11-03T18:30:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793643436576-272e4c56-9769-4269-bfab-36d19103dd97.jpeg",
+        "t": "مالیات خروج - وضعیت متاهل - اپیزود معرفی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ae8ccf59cb48f65ea98a1b3/media.mp3",
         "at": "2026-11-03T17:05:00Z",
@@ -30150,15 +30156,15 @@
         "at": "2026-10-31T18:05:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793464941820-25f73e30-dda0-454a-a0d0-b81be8accdd3.jpeg",
         "t": "سالگرد - قتل های زنجیره ای - بخش بیست و سوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ae61a41cbe86b4b979939a5/media.mp3",
-        "at": "2026-10-31T16:41:36Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793464333961-9047d9d2-b4b6-4f00-9c70-3a3f2fafd4ab.jpeg",
-        "t": "سالگرد - قتل های زنجیره ای - بخش بیست و دوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T18:30:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793643436576-272e4c56-9769-4269-bfab-36d19103dd97.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6ae8d4d19cb48f65ea9c5ef7",
+        "title": "مالیات خروج - وضعیت متاهل - اپیزود معرفی"
+      },
       {
         "at": "2026-11-03T17:05:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793641624978-b60c86ae-67f1-42fb-b73d-fff39170f933.jpeg",
@@ -30170,12 +30176,6 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793641565541-fc4d8a71-acdc-4b57-81ea-e5d23c7abe9e.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6ae8cc4385d3a44762558771",
         "title": "سالگرد - قتل های زنجیره ای - بخش بیست و هشتم"
-      },
-      {
-        "at": "2026-11-02T18:10:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793641251565-b5e8dbd5-8450-4c58-9129-f5d2af621ab4.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6ae8cbc34ca6aa8604af6fe3",
-        "title": "سالگرد - قتل های زنجیره ای - بخش بیست و هفتم"
       }
     ],
     "recent_30d": [
@@ -30190,7 +30190,7 @@
       57,
       57,
       71,
-      50
+      51
     ],
     "status": "active"
   },
@@ -52706,21 +52706,27 @@
     "status": "active"
   },
   "podcast-mosighi-rah-gosh": {
-    "avg_gap_days": 4.1,
-    "avg_length": 68,
-    "episodes": 52,
-    "eps_365": 9,
-    "eps_90": 9,
+    "avg_gap_days": 4.4,
+    "avg_length": 71,
+    "episodes": 53,
+    "eps_365": 10,
+    "eps_90": 10,
     "first_at": "2022-05-10",
     "first_year": 1401,
-    "last": "1405/08/05",
-    "last_at": "2026-10-27T18:30:00Z",
-    "last_link": "https://shows.acast.com/rahegoosh/episodes/6adc76b6fe64430a9343e9ab",
-    "last_title": "استندآپ گِله؛ رسام عالَم‌زاده",
-    "max_length": 145,
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T18:30:00Z",
+    "last_link": "https://youtu.be/iWwkig9EjjI",
+    "last_title": "موسیقی و رویای آزادی؛ موقعیتِ ایران",
+    "max_length": 156,
     "median_length": 62,
     "min_length": 16,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6ae97d5a4ca6aa8604f3a7a9/media.mp3",
+        "at": "2026-11-03T18:30:00Z",
+        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1793685992842-81c5d408-9d88-4fbc-b027-baab51fd500b.jpeg",
+        "t": "موسیقی و رویای آزادی؛ موقعیتِ ایران"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6adc76b6fe64430a9343e9ab/media.mp3",
         "at": "2026-10-27T18:30:00Z",
@@ -52762,15 +52768,15 @@
         "at": "2026-10-06T18:30:00Z",
         "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1792001547222-e556ae77-03ce-4aec-9fbe-053a0a9a6d79.jpeg",
         "t": "ایران و آمریکا/مقایسه‌ی تربیتِ آکادمیکِ موسیقی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6ac375778da1db2e6fb10e07/media.mp3",
-        "at": "2026-10-05T18:30:00Z",
-        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1792001600142-8a7bc380-4530-448a-9b7d-6c544241ca2d.jpeg",
-        "t": "نسل زِد موزیسین ایرانی؛ گفت‌وگو با علی (ویولن‌نواز) و رامتین (کلارینت‌نواز)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T18:30:00Z",
+        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1793685992842-81c5d408-9d88-4fbc-b027-baab51fd500b.jpeg",
+        "link": "https://youtu.be/iWwkig9EjjI",
+        "title": "موسیقی و رویای آزادی؛ موقعیتِ ایران"
+      },
       {
         "at": "2026-10-27T18:30:00Z",
         "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1792832946468-b8380892-8d1c-4acb-903d-d151bd40101e.jpeg",
@@ -52782,12 +52788,6 @@
         "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1792831665821-21e0d48f-7b18-4965-9e5a-243c3eccb73e.jpeg",
         "link": "https://youtu.be/g5Gwu1vXxTw",
         "title": "نسل زِد موزیسین ایرانی؛ گفت‌وگو با با پرنیان پارسایی (خواننده و قانون‌نواز) و النا بنائی (تارنواز)"
-      },
-      {
-        "at": "2026-10-20T18:30:00Z",
-        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1792221378013-7fb84656-ac42-4988-a9c6-392d3660aab5.jpeg",
-        "link": "https://youtu.be/poNQlDKQ3k0",
-        "title": "نقدهایِ بدن‌مند در موسیقی ایران"
       }
     ],
     "recent_30d": [
@@ -52802,7 +52802,7 @@
       0,
       0,
       1,
-      8
+      9
     ],
     "status": "active"
   },
