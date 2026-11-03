@@ -50719,21 +50719,27 @@
     "status": "active"
   },
   "podcast-jnaii-ki-aas": {
-    "avg_gap_days": 10.8,
+    "avg_gap_days": 10.6,
     "avg_length": 50,
-    "episodes": 132,
-    "eps_365": 34,
-    "eps_90": 15,
+    "episodes": 133,
+    "eps_365": 35,
+    "eps_90": 16,
     "first_at": "2023-11-02",
     "first_year": 1402,
-    "last": "1405/08/07",
-    "last_at": "2026-10-29T15:55:32Z",
-    "last_link": "https://s3.castbox.fm/fc/d5/19/9352334f5d96583494596498c8.mp3",
-    "last_title": "اپیزود 129 - هیولای بلنگلو (یک از پنج)",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T12:37:56Z",
+    "last_link": "https://s3.castbox.fm/a8/9a/76/854fe1412799866a05fd94b2e9.mp3",
+    "last_title": "پرمیوم ششم \"ج\" (لینک در توضیحات)",
     "max_length": 108,
     "median_length": 51,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/a8/9a/76/854fe1412799866a05fd94b2e9.mp3",
+        "at": "2026-11-03T12:37:56Z",
+        "i": "https://s3.castbox.fm/57/bc/b9/440661471e866313336621e53e.jpg",
+        "t": "پرمیوم ششم \"ج\" (لینک در توضیحات)"
+      },
       {
         "a": "https://s3.castbox.fm/fc/d5/19/9352334f5d96583494596498c8.mp3",
         "at": "2026-10-29T15:55:32Z",
@@ -50744,13 +50750,13 @@
         "a": "https://s3.castbox.fm/c0/9e/b3/371b80498d9c8910c7992b2728.mp3",
         "at": "2026-10-25T10:30:49Z",
         "i": "https://s3.castbox.fm/a5/05/dd/96798543c7bec01c5f81e69a77.jpg",
-        "t": "بونس پنجم \"ث\" (لینک در توضیحات)"
+        "t": "پرمیوم پنجم \"ث\" (لینک در توضیحات)"
       },
       {
         "a": "https://s3.castbox.fm/9c/b9/f6/66101241bebf8b088a31d7a9aa.mp3",
         "at": "2026-10-20T06:37:14Z",
         "i": "https://s3.castbox.fm/83/9c/c6/d7edbe450a823cb40f018d6324.jpg",
-        "t": "بونس چهارم \"ت\"  (لینک در توضیحات)"
+        "t": "پرمیوم چهارم \"ت\"  (لینک در توضیحات)"
       },
       {
         "a": "https://s3.castbox.fm/5f/1b/dc/ca01ee40d286547073416f48d2.mp3",
@@ -50768,22 +50774,22 @@
         "a": "https://s3.castbox.fm/73/9a/d5/3e363648e7b66b6b886dc7b7be.mp3",
         "at": "2026-10-09T07:22:44Z",
         "i": "https://s3.castbox.fm/d6/a6/92/4dd12444cf85500389ab53cb81.jpg",
-        "t": "بونس دوم و سوم \"ب\" و \"پ\" (لینک در توضیحات)"
+        "t": "پرمیوم دوم و سوم \"ب\" و \"پ\" (لینک در توضیحات)"
       },
       {
         "a": "https://s3.castbox.fm/37/a4/5e/4d4a7f451187c00e93f623dd30.mp3",
         "at": "2026-10-02T11:42:59Z",
         "i": "https://s3.castbox.fm/dd/9b/23/0695094e6280535d743f75c774.jpg",
         "t": "اپیزود 126 -انگیزه قتل - قسمت یک از سه"
-      },
-      {
-        "a": "https://s3.castbox.fm/65/0f/9e/edac324b1c80daab1f969aeb41.mp3",
-        "at": "2026-09-25T08:57:45Z",
-        "i": "https://s3.castbox.fm/20/3c/b9/d9a8f74e3fb3cbdd9a94f744b8.jpg",
-        "t": "بونس اول \"الف\" (لینک در توضیحات)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T12:37:56Z",
+        "i": "https://s3.castbox.fm/57/bc/b9/440661471e866313336621e53e.jpg",
+        "link": "https://s3.castbox.fm/a8/9a/76/854fe1412799866a05fd94b2e9.mp3",
+        "title": "پرمیوم ششم \"ج\" (لینک در توضیحات)"
+      },
       {
         "at": "2026-10-29T15:55:32Z",
         "i": "https://s3.castbox.fm/1f/19/b8/c40cfa4998b1395c9ec07fb7b4.jpg",
@@ -50794,13 +50800,7 @@
         "at": "2026-10-25T10:30:49Z",
         "i": "https://s3.castbox.fm/a5/05/dd/96798543c7bec01c5f81e69a77.jpg",
         "link": "https://s3.castbox.fm/c0/9e/b3/371b80498d9c8910c7992b2728.mp3",
-        "title": "بونس پنجم \"ث\" (لینک در توضیحات)"
-      },
-      {
-        "at": "2026-10-20T06:37:14Z",
-        "i": "https://s3.castbox.fm/83/9c/c6/d7edbe450a823cb40f018d6324.jpg",
-        "link": "https://s3.castbox.fm/9c/b9/f6/66101241bebf8b088a31d7a9aa.mp3",
-        "title": "بونس چهارم \"ت\"  (لینک در توضیحات)"
+        "title": "پرمیوم پنجم \"ث\" (لینک در توضیحات)"
       }
     ],
     "recent_30d": [
@@ -50815,7 +50815,7 @@
       5,
       5,
       4,
-      6
+      7
     ],
     "status": "active"
   },
