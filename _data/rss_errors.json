@@ -59,10 +59,6 @@
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
   },
-  "ghir-az-jng-chh-khbr": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
-    "rss": "https://www.pariha.org/podcast/feed.xml"
-  },
   "hnr-jng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://namlik.me/rss/318"
