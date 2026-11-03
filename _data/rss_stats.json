@@ -65735,21 +65735,27 @@
     "status": "active"
   },
   "sdai-slamt": {
-    "avg_gap_days": 12.4,
-    "avg_length": 14,
-    "episodes": 102,
-    "eps_365": 27,
-    "eps_90": 16,
+    "avg_gap_days": 12.2,
+    "avg_length": 15,
+    "episodes": 103,
+    "eps_365": 28,
+    "eps_90": 17,
     "first_at": "2023-02-04",
     "first_year": 1401,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T04:41:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/gambling-addiction-where-to-get-help/xvea1azje",
-    "last_title": "«پناه» به قمار؛ علائم اعتیاد چیست؟ و از کجا کمک بگیریم؟",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T08:15:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/september-suicide-prevention-month-are-we-ignoring-danger-signs/kks2tga9s",
+    "last_title": "سپتامبر، ماه پیشگیری از خودکشی؛ آیا نشانه‌های خطر را نادیده می‌گیریم؟",
     "max_length": 37,
     "median_length": 9,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20261103191528_044116-dr-behnia-final.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a1-a063-d326-a5fb-a46f8f570000&dur_cat=4",
+        "at": "2026-11-03T08:15:00Z",
+        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261103191531_150928-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
+        "t": "سپتامبر، ماه پیشگیری از خودکشی؛ آیا نشانه‌های خطر را نادیده می‌گیریم؟"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20261026154136_249527-persian-da933379-4d9f-4049-a7df-e19c0b934aae.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a1-762c-d7ec-a7e3-7eece5ff0000&dur_cat=3",
         "at": "2026-10-26T04:41:00Z",
@@ -65791,15 +65797,15 @@
         "at": "2026-09-28T07:15:00Z",
         "i": "https://sbs-rss.streamguys1.com/voice-of-health/20260928171608_666913-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
         "t": "از نیاز به حمایت تا زندگی مستقل؛ NDIS چگونه کمک می‌کند؟"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20260909173013_174299-persian-43536905-13f1-4a72-a9ac-a91fc0cec7ca.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a0-848f-dc82-afa3-e7af7a700000&dur_cat=4",
-        "at": "2026-09-09T07:30:00Z",
-        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20260909173326_002604-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
-        "t": "سپتامبر، ماه پیشگیری از خودکشی؛ آیا نشانه‌های خطر را نادیده می‌گیریم؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T08:15:00Z",
+        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261103191531_150928-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/september-suicide-prevention-month-are-we-ignoring-danger-signs/kks2tga9s",
+        "title": "سپتامبر، ماه پیشگیری از خودکشی؛ آیا نشانه‌های خطر را نادیده می‌گیریم؟"
+      },
       {
         "at": "2026-10-26T04:41:00Z",
         "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261027162241_294432-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
@@ -65811,12 +65817,6 @@
         "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261020102752_073267-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/visiting-a-psychoanalyst-where-to-start-and-what-to-expect/fl8ydj8u4",
         "title": "مراجعه به روان‌کاو؛ از کجا شروع کنیم؟ و چه انتظاراتی داشته باشیم؟"
-      },
-      {
-        "at": "2026-10-14T04:29:00Z",
-        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261014153107_972113-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/the-surprising-health-condition-some-people-develop-after-moving-to-australia/bxtgxi7y2",
-        "title": "چرا برخی مهاجران پس از ورود به استرالیا دچار این مشکل سلامتی می‌شوند؟"
       }
     ],
     "recent_30d": [
@@ -65831,7 +65831,7 @@
       2,
       8,
       3,
-      5
+      6
     ],
     "status": "active"
   },
@@ -72700,8 +72700,8 @@
     "recent_30d": [
       30,
       22,
-      21,
-      26,
+      22,
+      25,
       0,
       5,
       16,
