@@ -300,6 +300,107 @@
     ],
     "status": "inactive"
   },
+  "aadmizad": {
+    "avg_gap_days": 43.1,
+    "avg_length": 81,
+    "episodes": 21,
+    "eps_365": 9,
+    "eps_90": 3,
+    "first_at": "2025-04-25",
+    "first_year": 1404,
+    "last": "1405/08/03",
+    "last_at": "2026-10-25T09:15:23Z",
+    "last_link": "https://shenoto.com/channel/podcast/Adamizadpodcast",
+    "last_title": "لئو",
+    "max_length": 110,
+    "median_length": 83,
+    "min_length": 56,
+    "play": [
+      {
+        "a": "https://audio4.redcircle.com/episodes/a1b438df-5aed-482e-a43e-0f0f6afdd068/stream.mp3",
+        "at": "2026-10-25T09:15:23Z",
+        "i": "https://media.redcircle.com/images/2026/10/25/8/c7a0dec1-1e19-4e3c-91e9-9daf6486c74f_img_4929.jpg",
+        "t": "لئو"
+      },
+      {
+        "a": "https://audio4.redcircle.com/episodes/9cec2d9e-9b28-4586-8a19-ae1eb4f80ca3/stream.mp3",
+        "at": "2026-10-04T07:00:12Z",
+        "i": "https://media.redcircle.com/images/2026/10/4/2/92d5300c-322b-4f67-9231-3da579fa4932_img_4450.jpg",
+        "t": "ثمین"
+      },
+      {
+        "a": "https://audio4.redcircle.com/episodes/02576fc7-56ff-4128-93aa-1dbc72a478bc/stream.mp3",
+        "at": "2026-08-18T12:00:33Z",
+        "i": "https://media.redcircle.com/images/2026/8/18/6/5a17bdf6-d035-41e4-a89c-29a51b0d67dc_img_3038.jpg",
+        "t": "حنا"
+      },
+      {
+        "a": "https://audio4.redcircle.com/episodes/2767862e-15ec-42ce-ad5e-9fa7ed63d07a/stream.mp3",
+        "at": "2026-07-17T05:30:40Z",
+        "i": "https://media.redcircle.com/images/2026/7/16/12/b01771fd-be00-486f-8ab4-8fdad1f243f4_phonto.jpg",
+        "t": "نور"
+      },
+      {
+        "a": "https://audio4.redcircle.com/episodes/44de006b-f369-4213-9592-5e8e7c509799/stream.mp3",
+        "at": "2026-06-29T21:16:55Z",
+        "i": "https://media.redcircle.com/images/2026/6/29/21/c912017b-da38-4e95-92b7-991d805b14d4_phonto.jpg",
+        "t": "مهیا"
+      },
+      {
+        "a": "https://audio4.redcircle.com/episodes/989e4439-6774-42a0-871d-27a5c09d30ca/stream.mp3",
+        "at": "2026-06-12T03:36:22Z",
+        "i": "https://media.redcircle.com/images/2026/6/17/18/8e680d08-eb98-46de-a22a-7a719ced326f_3000.jpg",
+        "t": "شوهو"
+      },
+      {
+        "a": "https://audio4.redcircle.com/episodes/bff7ca20-4ff4-401f-87a7-c35d5e006991/stream.mp3",
+        "at": "2025-12-19T21:42:07Z",
+        "i": "https://media.redcircle.com/images/2026/6/17/18/e1122d14-b60b-4ec5-b13b-709c7b52537b_3000.jpg",
+        "t": "نفس"
+      },
+      {
+        "a": "https://audio4.redcircle.com/episodes/bef83b88-ead0-4afa-8dac-cce781b005dc/stream.mp3",
+        "at": "2025-12-06T22:42:51Z",
+        "i": "https://media.redcircle.com/images/2026/6/17/18/b32e51db-3464-40bd-af75-1eafada103e0_3000.jpg",
+        "t": "پناه"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-25T09:15:23Z",
+        "i": "https://media.redcircle.com/images/2026/10/25/8/c7a0dec1-1e19-4e3c-91e9-9daf6486c74f_img_4929.jpg",
+        "link": "https://shenoto.com/channel/podcast/Adamizadpodcast",
+        "title": "لئو"
+      },
+      {
+        "at": "2026-10-04T07:00:12Z",
+        "i": "https://media.redcircle.com/images/2026/10/4/2/92d5300c-322b-4f67-9231-3da579fa4932_img_4450.jpg",
+        "link": "https://shenoto.com/channel/podcast/Adamizadpodcast",
+        "title": "ثمین"
+      },
+      {
+        "at": "2026-08-18T12:00:33Z",
+        "i": "https://media.redcircle.com/images/2026/8/18/6/5a17bdf6-d035-41e4-a89c-29a51b0d67dc_img_3038.jpg",
+        "link": "https://shenoto.com/channel/podcast/Adamizadpodcast",
+        "title": "حنا"
+      }
+    ],
+    "recent_30d": [
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "active"
+  },
   "aahn-o-folad-aasron": {
     "avg_length": 5,
     "episodes": 56,
@@ -15740,6 +15841,107 @@
     ],
     "status": "active"
   },
+  "fal-tarot-sfri-ba-khn-algo-ha": {
+    "avg_gap_days": 6.4,
+    "avg_length": 45,
+    "episodes": 20,
+    "eps_365": 20,
+    "eps_90": 7,
+    "first_at": "2026-06-09",
+    "first_year": 1405,
+    "last": "1405/07/17",
+    "last_at": "2026-10-09T16:49:32Z",
+    "last_link": "https://shows.acast.com/taroutreza/episodes/6ac91b1de53019e890f7f84e",
+    "last_title": "قسمت چهارده: اعتدال",
+    "max_length": 68,
+    "median_length": 44,
+    "min_length": 28,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a27ad9a6642088a10907825/e/6ac91b1de53019e890f7f84e/media.mp3",
+        "at": "2026-10-09T16:49:32Z",
+        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1791563645503-550df44e-dfc0-4459-be06-9f9ace3a914b.jpeg",
+        "t": "قسمت چهارده: اعتدال"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a27ad9a6642088a10907825/e/6abceda006846f55a31c6c63/media.mp3",
+        "at": "2026-09-30T11:08:17Z",
+        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1790766319359-ebc1dd46-298e-4c01-8410-13f4f90a1864.jpeg",
+        "t": "قسمت سیزده: مرگ"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a27ad9a6642088a10907825/e/6a981199a4a22c581738f644/media.mp3",
+        "at": "2026-09-02T12:07:52Z",
+        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1788350854173-fde8d726-b849-482f-b8b2-8abccf80b377.jpeg",
+        "t": "قسمت دوازده: مرد آویخته"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a27ad9a6642088a10907825/e/6a8c76906d62278f8395d419/media.mp3",
+        "at": "2026-08-24T16:51:27Z",
+        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1787590165632-0da3d278-7bfb-4c57-af8a-4eb5d26b2106.jpeg",
+        "t": "قسمت یازده: قدرت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a27ad9a6642088a10907825/e/6a81cc6603af5e222abf320a/media.mp3",
+        "at": "2026-08-16T14:42:44Z",
+        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1786891278736-47cb7788-924e-4adb-82a1-c659eecc589d.jpeg",
+        "t": "قسمت ده: چرخ اقبال (دوم)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a27ad9a6642088a10907825/e/6a7899f4c3e1347e8b4db4d7/media.mp3",
+        "at": "2026-08-09T15:17:08Z",
+        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1786288526519-d12ce761-10d6-4f19-a911-b8e4e226366f.jpeg",
+        "t": "قسمت ده: چرخ اقبال (یکم)"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a27ad9a6642088a10907825/e/6a7461fa72138046c6660ec5/media.mp3",
+        "at": "2026-08-06T10:29:14Z",
+        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1786011976850-80b6d8c9-bc9d-4033-a935-b93974740780.jpeg",
+        "t": "ماندالا دوم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a27ad9a6642088a10907825/e/6a6cecba61ae402f613e8587/media.mp3",
+        "at": "2026-07-31T18:43:06Z",
+        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1785523264022-ec07d6d5-4716-4a0b-ae26-3feb9999c94e.jpeg",
+        "t": "ماندالا یکم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-09T16:49:32Z",
+        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1791563645503-550df44e-dfc0-4459-be06-9f9ace3a914b.jpeg",
+        "link": "https://shows.acast.com/taroutreza/episodes/6ac91b1de53019e890f7f84e",
+        "title": "قسمت چهارده: اعتدال"
+      },
+      {
+        "at": "2026-09-30T11:08:17Z",
+        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1790766319359-ebc1dd46-298e-4c01-8410-13f4f90a1864.jpeg",
+        "link": "https://shows.acast.com/taroutreza/episodes/6abceda006846f55a31c6c63",
+        "title": "قسمت سیزده: مرگ"
+      },
+      {
+        "at": "2026-09-02T12:07:52Z",
+        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1788350854173-fde8d726-b849-482f-b8b2-8abccf80b377.jpeg",
+        "link": "https://shows.acast.com/taroutreza/episodes/6a981199a4a22c581738f644",
+        "title": "قسمت دوازده: مرد آویخته"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      9,
+      4,
+      5,
+      1,
+      1
+    ],
+    "status": "active"
+  },
   "farks-ba-aranth": {
     "avg_gap_days": 18.2,
     "avg_length": 26,
@@ -16578,6 +16780,95 @@
       0
     ],
     "status": "active"
+  },
+  "fkr-baz": {
+    "avg_length": 26,
+    "episodes": 21,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-08-08",
+    "first_year": 1400,
+    "last": "1401/09/25",
+    "last_at": "2022-12-16T09:03:13Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/masoud-moosavi/episodes/12------e1rovpc",
+    "last_title": "12 چکیده تاریخ ایران - از ناصرالدین شاه تا پایان پهلوی",
+    "max_length": 66,
+    "median_length": 23,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/66df7cc4/podcast/play/61684972/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-5%2F190bed58-ba95-936f-d213-3556084a891c.mp3",
+        "at": "2022-12-16T09:03:13Z",
+        "t": "12 چکیده تاریخ ایران - از ناصرالدین شاه تا پایان پهلوی"
+      },
+      {
+        "a": "https://anchor.fm/s/66df7cc4/podcast/play/61684749/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-5%2F6dfdd79c-78eb-cd41-e514-04aaf1401250.mp3",
+        "at": "2022-12-15T08:53:30Z",
+        "t": "11چکیده تاریخ ایران - بعد از نادر - زندیه - قاجاریه تا ناصرالدین شاه"
+      },
+      {
+        "a": "https://anchor.fm/s/66df7cc4/podcast/play/61684596/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-5%2F56910095-d9e6-404e-55a8-b6f72a0808ab.mp3",
+        "at": "2022-12-14T08:46:17Z",
+        "t": "10 چکیده تاریخ ایران - افغان ها و نادر شاه"
+      },
+      {
+        "a": "https://anchor.fm/s/66df7cc4/podcast/play/61684354/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-5%2F3dc81de1-cb11-8533-c4c6-f9147bc470cd.mp3",
+        "at": "2022-12-13T08:35:18Z",
+        "t": "چکیده تاریخ ایران - نوشته حسن نراقی"
+      },
+      {
+        "a": "https://anchor.fm/s/66df7cc4/podcast/play/61684116/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-5%2F3de88b38-0a2b-eca4-5cd8-2fea67be267c.mp3",
+        "at": "2022-12-12T08:23:16Z",
+        "t": "چکیده تاریخ ایران - نوشته حسن نراقی"
+      },
+      {
+        "a": "https://anchor.fm/s/66df7cc4/podcast/play/61683965/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-5%2F1c8f6ead-3695-1b2c-06e3-874d98249190.mp3",
+        "at": "2022-12-11T08:16:59Z",
+        "t": "چکیده تاریخ ایران - نوشته حسن نراقی"
+      },
+      {
+        "a": "https://anchor.fm/s/66df7cc4/podcast/play/61683841/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-5%2F100d49d2-69c2-447d-e583-55d0d506d0a2.mp3",
+        "at": "2022-12-10T08:11:34Z",
+        "t": "چکیده تاریخ ایران - نوشته حسن نراقی"
+      },
+      {
+        "a": "https://anchor.fm/s/66df7cc4/podcast/play/61683719/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-11-5%2F38e4c0a6-4be2-7544-f27d-cab1faea63b1.mp3",
+        "at": "2022-12-09T08:07:36Z",
+        "t": "چکیده تاریخ ایران - نوشته حسن نراقی - تا پایان ساسانیان"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-12-16T09:03:13Z",
+        "link": "https://podcasters.spotify.com/pod/show/masoud-moosavi/episodes/12------e1rovpc",
+        "title": "12 چکیده تاریخ ایران - از ناصرالدین شاه تا پایان پهلوی"
+      },
+      {
+        "at": "2022-12-15T08:53:30Z",
+        "link": "https://podcasters.spotify.com/pod/show/masoud-moosavi/episodes/11-------------e1rovid",
+        "title": "11چکیده تاریخ ایران - بعد از نادر - زندیه - قاجاریه تا ناصرالدین شاه"
+      },
+      {
+        "at": "2022-12-14T08:46:17Z",
+        "link": "https://podcasters.spotify.com/pod/show/masoud-moosavi/episodes/10------e1rovdk",
+        "title": "10 چکیده تاریخ ایران - افغان ها و نادر شاه"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "flsfh-alm": {
     "avg_length": 67,
@@ -18190,6 +18481,7 @@
       {
         "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgND-3aGpCwyiAQdsaWJyYXJ5/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgMiGlva8CgyiAQdsaWJyYXJ5.mp3",
         "at": "2022-07-14T07:00:00Z",
+        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgMiGlva8CgyiAQdsaWJyYXJ5.jpg?_=1668022736",
         "t": "احساس ناستالژیا یک پایه درعلم روانشناسی"
       },
       {
@@ -20765,6 +21057,106 @@
       0
     ],
     "status": "active"
+  },
+  "gooshfang-goshfng": {
+    "avg_length": 9,
+    "episodes": 21,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-09-18",
+    "first_year": 1398,
+    "last": "1398/12/14",
+    "last_at": "2020-03-04T23:00:00Z",
+    "last_link": "https://s3.castbox.fm/8e/e9/a9/6be6af4666a645998155224771.mp3",
+    "last_title": "gooshfang E21 تبعات روانی مهاجرت در کودکی",
+    "max_length": 11,
+    "median_length": 9,
+    "min_length": 5,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/8e/e9/a9/6be6af4666a645998155224771.mp3",
+        "at": "2020-03-04T23:00:00Z",
+        "i": "https://s3.castbox.fm/29/68/5f/4d1fc3430e8b081d508bc0808a.jpg",
+        "t": "gooshfang E21 تبعات روانی مهاجرت در کودکی"
+      },
+      {
+        "a": "https://s3.castbox.fm/0c/31/4a/b0a5604e9583f3f4fcee352bb9.mp3",
+        "at": "2020-02-19T23:00:00Z",
+        "i": "https://s3.castbox.fm/82/47/01/92e1e8407da2e81fa06263f713.jpg",
+        "t": "gooshfang E20 مهاجرت و تنوع فرهنگی در محیط کار"
+      },
+      {
+        "a": "https://s3.castbox.fm/7a/be/75/2bd04d42c6a0cfe4f9000831d3.mp3",
+        "at": "2020-02-12T23:00:00Z",
+        "i": "https://s3.castbox.fm/98/ec/bf/12eb924cce9647a843c4698e8d.jpg",
+        "t": "gooshfang E19 سلامت روان کودکان پناهنده"
+      },
+      {
+        "a": "https://s3.castbox.fm/a4/0b/6f/1d1a624bd09dfac6aa3a4dfa3c.mp3",
+        "at": "2020-01-29T23:00:00Z",
+        "i": "https://s3.castbox.fm/63/97/cd/2f847a4c5d95f6f99d6a864c00.jpg",
+        "t": "gooshfang E18 پرورش کودک موفق پس از مهاجرت"
+      },
+      {
+        "a": "https://s3.castbox.fm/8b/b5/23/dfdc8844e6b123e007367028e9.mp3",
+        "at": "2020-01-08T23:00:00Z",
+        "i": "https://s3.castbox.fm/d1/60/2e/5d8803482ea3c9b581325afc7a.jpg",
+        "t": "gooshfang E17 سازگاری کودکان پس از مهاجرت"
+      },
+      {
+        "a": "https://s3.castbox.fm/b2/b6/f1/c088084ccb871d7bdab9effab0.mp3",
+        "at": "2020-01-01T23:00:00Z",
+        "i": "https://s3.castbox.fm/b6/aa/15/c29b5042398166d3e3ddc258cf.jpg",
+        "t": "gooshfang E16 گریز از هموطن در غربت"
+      },
+      {
+        "a": "https://s3.castbox.fm/6b/6f/fc/0f82a54f809c45a2c1f09025d6.mp3",
+        "at": "2019-12-18T23:00:00Z",
+        "i": "https://s3.castbox.fm/f6/5b/54/c9f1d6448e9087a0425b1839ba.jpg",
+        "t": "gooshfang E15 تفاوت فرهنگی والدین و فرزندان پس از مهاجرت"
+      },
+      {
+        "a": "https://s3.castbox.fm/27/99/33/a58d1148548e4d88878ba059de.mp3",
+        "at": "2019-12-11T23:00:00Z",
+        "i": "https://s3.castbox.fm/65/cd/f5/00682b4aaaa5218415ea301be1.jpg",
+        "t": "gooshfang E14 افسردگی کودک مهاجر"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-03-04T23:00:00Z",
+        "i": "https://s3.castbox.fm/29/68/5f/4d1fc3430e8b081d508bc0808a.jpg",
+        "link": "https://s3.castbox.fm/8e/e9/a9/6be6af4666a645998155224771.mp3",
+        "title": "gooshfang E21 تبعات روانی مهاجرت در کودکی"
+      },
+      {
+        "at": "2020-02-19T23:00:00Z",
+        "i": "https://s3.castbox.fm/82/47/01/92e1e8407da2e81fa06263f713.jpg",
+        "link": "https://s3.castbox.fm/0c/31/4a/b0a5604e9583f3f4fcee352bb9.mp3",
+        "title": "gooshfang E20 مهاجرت و تنوع فرهنگی در محیط کار"
+      },
+      {
+        "at": "2020-02-12T23:00:00Z",
+        "i": "https://s3.castbox.fm/98/ec/bf/12eb924cce9647a843c4698e8d.jpg",
+        "link": "https://s3.castbox.fm/7a/be/75/2bd04d42c6a0cfe4f9000831d3.mp3",
+        "title": "gooshfang E19 سلامت روان کودکان پناهنده"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "green-gate-drichh-sbz": {
     "avg_length": 5,
@@ -31243,6 +31635,106 @@
       0
     ],
     "status": "inactive"
+  },
+  "ktab-msirhai-zndgi": {
+    "avg_length": 19,
+    "episodes": 21,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2025-08-16",
+    "first_year": 1404,
+    "last": "1404/07/16",
+    "last_at": "2025-10-08T12:55:30Z",
+    "last_link": "https://vavkhan.com/book/2572/",
+    "last_title": "(21) پی‌گفتار",
+    "max_length": 81,
+    "median_length": 14,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68a04966436325e278df506e/e/68e65f41f513ad2b81061f79/media.mp3",
+        "at": "2025-10-08T12:55:30Z",
+        "i": "https://assets.pippa.io/shows/68a04966436325e278df506e/1759928080106-e0aa2dd7-74b7-4ff4-9769-dd4675d10655.jpeg",
+        "t": "(21) پی‌گفتار"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68a04966436325e278df506e/e/68e65eadd858270250e7cfad/media.mp3",
+        "at": "2025-10-08T12:53:02Z",
+        "i": "https://assets.pippa.io/shows/68a04966436325e278df506e/1759927863259-60879f25-85f3-438c-a796-0d632ed8027c.jpeg",
+        "t": "(20) نفرت چیست؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68a04966436325e278df506e/e/68e65d5c3f1dfe794ee9ae53/media.mp3",
+        "at": "2025-10-08T12:47:25Z",
+        "i": "https://assets.pippa.io/shows/68a04966436325e278df506e/1759927616284-881c1264-b002-4dcd-ad95-ffcc711a4e6d.jpeg",
+        "t": "(19) تاملات"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68a04966436325e278df506e/e/68d3c69bd5de959dc40cf221/media.mp3",
+        "at": "2025-09-24T10:23:23Z",
+        "i": "https://assets.pippa.io/shows/68a04966436325e278df506e/1758709307149-30516939-2ace-473c-99ee-7dc8658ae5be.jpeg",
+        "t": "(18) داستان ششم - مارگوت و لیلکا، ازورشو به سیدنی و دوباره ورشو"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68a04966436325e278df506e/e/68d3c52ab443c5f7bcaed9c3/media.mp3",
+        "at": "2025-09-24T10:17:13Z",
+        "i": "https://assets.pippa.io/shows/68a04966436325e278df506e/1758708982701-f1f3fe2d-d3a3-4a0e-b40e-c0e65ae77142.jpeg",
+        "t": "(17) داستان پنجم - گلوریا، حکمت از سویدای دل"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68a04966436325e278df506e/e/68c53b2724c6e67e6803ad42/media.mp3",
+        "at": "2025-09-13T09:36:38Z",
+        "i": "https://assets.pippa.io/shows/68a04966436325e278df506e/1757756170991-f1bcdca1-f3b8-4c4d-8e91-56b3b5b18ab5.jpeg",
+        "t": "(16) داستان چهارم - هلگا، سوداگران اشک - میکله -6"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68a04966436325e278df506e/e/68c53ab486eb67a6f66305b4/media.mp3",
+        "at": "2025-09-13T09:34:43Z",
+        "i": "https://assets.pippa.io/shows/68a04966436325e278df506e/1757756047685-69470b0b-8131-4022-8808-3d17016931bb.jpeg",
+        "t": "(15) داستان چهارم - هلگا، سوداگران اشک - هلگا -5"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68a04966436325e278df506e/e/68c53a30ac97a487df53bef0/media.mp3",
+        "at": "2025-09-13T09:32:31Z",
+        "i": "https://assets.pippa.io/shows/68a04966436325e278df506e/1757754599182-557bb463-57ab-4e96-a206-1db5b56e3f30.jpeg",
+        "t": "(14) داستان چهارم - هلگا، سوداگران اشک - میکله -4"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-10-08T12:55:30Z",
+        "i": "https://assets.pippa.io/shows/68a04966436325e278df506e/1759928080106-e0aa2dd7-74b7-4ff4-9769-dd4675d10655.jpeg",
+        "link": "https://vavkhan.com/book/2572/",
+        "title": "(21) پی‌گفتار"
+      },
+      {
+        "at": "2025-10-08T12:53:02Z",
+        "i": "https://assets.pippa.io/shows/68a04966436325e278df506e/1759927863259-60879f25-85f3-438c-a796-0d632ed8027c.jpeg",
+        "link": "https://vavkhan.com/book/2572/",
+        "title": "(20) نفرت چیست؟"
+      },
+      {
+        "at": "2025-10-08T12:47:25Z",
+        "i": "https://assets.pippa.io/shows/68a04966436325e278df506e/1759927616284-881c1264-b002-4dcd-ad95-ffcc711a4e6d.jpeg",
+        "link": "https://vavkhan.com/book/2572/",
+        "title": "(19) تاملات"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
   },
   "ktab-nfr-digri-kh-dr-bhsht-mlaghat-miknid-kaml-zhanr-flsfh": {
     "avg_length": 10,
@@ -45175,6 +45667,95 @@
     ],
     "status": "active"
   },
+  "podcast-bors-baz": {
+    "avg_length": 9,
+    "episodes": 21,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2022-01-16",
+    "first_year": 1400,
+    "last": "1401/05/14",
+    "last_at": "2022-08-05T15:41:25Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-norouzi-ziveh/episodes/12--1401-e1m4vvq",
+    "last_title": "معاملات 12 مرداد 1401 بازار سرمایه",
+    "max_length": 15,
+    "median_length": 9,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/7c8217f8/podcast/play/55786938/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-7-5%2F9e7b5e9c-44f0-2b7f-95ab-1b696e142bda.mp3",
+        "at": "2022-08-05T15:41:25Z",
+        "t": "معاملات 12 مرداد 1401 بازار سرمایه"
+      },
+      {
+        "a": "https://anchor.fm/s/7c8217f8/podcast/play/55220331/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-23%2F0f51b584-e31a-cd09-e97c-78c9b637b8ca.mp3",
+        "at": "2022-07-23T17:43:40Z",
+        "t": "معاملات 1 مردادماه 1401 بازار سرمایه"
+      },
+      {
+        "a": "https://anchor.fm/s/7c8217f8/podcast/play/55127626/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-6-21%2F60ec9b25-d3a7-85a5-e843-3e8060fdff34.mp3",
+        "at": "2022-07-21T11:42:58Z",
+        "t": "معاملات 29 تیرماه 1401 بازار سرمایه"
+      },
+      {
+        "a": "https://anchor.fm/s/7c8217f8/podcast/play/47553107/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F7c8217f8%2F47553107%2F249a3ff8f0829e128752efea3556867d.m4a",
+        "at": "2022-02-12T09:38:27Z",
+        "t": "معاملات ۲۳ بهمن ۱۴۰۰ بازار سرمایه"
+      },
+      {
+        "a": "https://anchor.fm/s/7c8217f8/podcast/play/47409731/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F7c8217f8%2F47409731%2F1570141333931c4d6426b2662cd37952.m4a",
+        "at": "2022-02-09T09:48:27Z",
+        "t": "تحلیل ۲۰ بهمن ۱۴۰۰ بازار سرمایه"
+      },
+      {
+        "a": "https://anchor.fm/s/7c8217f8/podcast/play/47357752/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F7c8217f8%2F47357752%2F273c830bca2a434a1d06bdb87e2b7777.m4a",
+        "at": "2022-02-08T11:29:55Z",
+        "t": "تحلیل معاملات ۱۹ بهمن ۱۴۰۰ بازار سرمایه"
+      },
+      {
+        "a": "https://anchor.fm/s/7c8217f8/podcast/play/47298521/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F7c8217f8%2F47298521%2F7dbbeccad018b1a8ab04fe5658e3565d.m4a",
+        "at": "2022-02-07T09:14:22Z",
+        "t": "تحلیل ۱۸ بهمن ۱۴۰۰ بازار سرمایه"
+      },
+      {
+        "a": "https://anchor.fm/s/7c8217f8/podcast/play/47253572/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F7c8217f8%2F47253572%2Fd4ad898c07204e1da75a855b9896be60.m4a",
+        "at": "2022-02-06T09:47:20Z",
+        "t": "تحلیل ۱۷ بهمن ۱۴۰۰ بازار سرمایه"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-08-05T15:41:25Z",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-norouzi-ziveh/episodes/12--1401-e1m4vvq",
+        "title": "معاملات 12 مرداد 1401 بازار سرمایه"
+      },
+      {
+        "at": "2022-07-23T17:43:40Z",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-norouzi-ziveh/episodes/1--1401-e1ljmlb",
+        "title": "معاملات 1 مردادماه 1401 بازار سرمایه"
+      },
+      {
+        "at": "2022-07-21T11:42:58Z",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-norouzi-ziveh/episodes/29--1401-e1lgs4a",
+        "title": "معاملات 29 تیرماه 1401 بازار سرمایه"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "podcast-brnamh-noisan": {
     "avg_length": 17,
     "episodes": 40,
@@ -45770,6 +46351,206 @@
       0
     ],
     "status": "active"
+  },
+  "podcast-dmbl": {
+    "avg_length": 35,
+    "episodes": 21,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-11-09",
+    "first_year": 1400,
+    "last": "1404/03/17",
+    "last_at": "2025-06-07T00:07:09Z",
+    "last_link": "https://s3.castbox.fm/23/e2/cf/3498d74f0488c70a1f2f6f8e2e.mp3",
+    "last_title": "کراتین! ترس یا واقعیت؟",
+    "max_length": 86,
+    "median_length": 28,
+    "min_length": 13,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/23/e2/cf/3498d74f0488c70a1f2f6f8e2e.mp3",
+        "at": "2025-06-07T00:07:09Z",
+        "i": "https://s3.castbox.fm/9b/13/61/f21e554717888d5c54c3502429.jpg",
+        "t": "کراتین! ترس یا واقعیت؟"
+      },
+      {
+        "a": "https://s3.castbox.fm/26/2a/3f/0ae0464222b613e6355f55f769.mp3",
+        "at": "2025-05-16T18:00:59Z",
+        "i": "https://s3.castbox.fm/8a/fb/79/7d1e5040edba6074e36d141ea5.jpg",
+        "t": "حجم تمرین کافی"
+      },
+      {
+        "a": "https://s3.castbox.fm/e8/1f/4d/59721e4c00a0e959029160b1f1.mp3",
+        "at": "2025-04-29T06:54:38Z",
+        "i": "https://s3.castbox.fm/21/cc/1b/a6cd9d4cf2903c472b5339ebe5.jpg",
+        "t": "تمرین هوشمندانه"
+      },
+      {
+        "a": "https://s3.castbox.fm/71/b3/d4/9b59394fb190e307604edde6fb.mp3",
+        "at": "2025-04-16T17:35:27Z",
+        "i": "https://s3.castbox.fm/e6/70/d1/7659924046bb76d85a110c521e.jpg",
+        "t": "دیلود"
+      },
+      {
+        "a": "https://s3.castbox.fm/4c/ed/f0/f883c34169b9f07f431db011d4.mp3",
+        "at": "2024-04-17T10:05:58Z",
+        "i": "https://s3.castbox.fm/5a/4f/f2/b8289e4b6e9c311336c877c768.jpg",
+        "t": "طب سنتی"
+      },
+      {
+        "a": "https://s3.castbox.fm/4e/2d/ac/ad194d42c194518a31cf23ec45.mp3",
+        "at": "2024-04-07T08:24:23Z",
+        "i": "https://s3.castbox.fm/1e/ea/a9/7fd1c84d1ca712e0d942f09b6a.jpg",
+        "t": "مهمان ویژه"
+      },
+      {
+        "a": "https://s3.castbox.fm/82/4e/c9/9126894093a2ae2efb2dda0a0f.mp3",
+        "at": "2024-02-23T19:22:09Z",
+        "i": "https://s3.castbox.fm/b9/ab/c6/0f14454ea29cdd5a1bfe47470a.jpg",
+        "t": "شدت تلاش"
+      },
+      {
+        "a": "https://s3.castbox.fm/26/fb/8e/e2dd67442db296f01d103cbb7f.mp3",
+        "at": "2024-01-28T11:41:20Z",
+        "i": "https://s3.castbox.fm/ac/2a/b6/8764e5416ea85cda52fe5e1b82.jpg",
+        "t": "پای صحبت یک متخصص"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-06-07T00:07:09Z",
+        "i": "https://s3.castbox.fm/9b/13/61/f21e554717888d5c54c3502429.jpg",
+        "link": "https://s3.castbox.fm/23/e2/cf/3498d74f0488c70a1f2f6f8e2e.mp3",
+        "title": "کراتین! ترس یا واقعیت؟"
+      },
+      {
+        "at": "2025-05-16T18:00:59Z",
+        "i": "https://s3.castbox.fm/8a/fb/79/7d1e5040edba6074e36d141ea5.jpg",
+        "link": "https://s3.castbox.fm/26/2a/3f/0ae0464222b613e6355f55f769.mp3",
+        "title": "حجم تمرین کافی"
+      },
+      {
+        "at": "2025-04-29T06:54:38Z",
+        "i": "https://s3.castbox.fm/21/cc/1b/a6cd9d4cf2903c472b5339ebe5.jpg",
+        "link": "https://s3.castbox.fm/e8/1f/4d/59721e4c00a0e959029160b1f1.mp3",
+        "title": "تمرین هوشمندانه"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "podcast-dniai-ghsh-ha": {
+    "avg_length": 22,
+    "episodes": 21,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-11-18",
+    "first_year": 1400,
+    "last": "1402/02/21",
+    "last_at": "2023-05-11T16:22:41Z",
+    "last_link": "https://s3.castbox.fm/df/51/61/86c690461590a482c8317e1f80.mp3",
+    "last_title": "Ep 21 :Ghost Of Tsushima",
+    "max_length": 41,
+    "median_length": 20,
+    "min_length": 9,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/df/51/61/86c690461590a482c8317e1f80.mp3",
+        "at": "2023-05-11T16:22:41Z",
+        "i": "https://s3.castbox.fm/50/6a/5e/2e25d6463fb40ce1e6d1bfd735.jpg",
+        "t": "Ep 21 :Ghost Of Tsushima"
+      },
+      {
+        "a": "https://s3.castbox.fm/a0/52/10/8e7a524fd5b7596d3e31d2ea62.mp3",
+        "at": "2023-03-25T13:40:08Z",
+        "i": "https://s3.castbox.fm/f1/a0/7b/08946b4c5dadf82da871ee9808.jpg",
+        "t": "World Of Lore Ep 20:Death Stranding"
+      },
+      {
+        "a": "https://s3.castbox.fm/0d/9c/c0/ba319a47a7a21193efd42d4f2d.mp3",
+        "at": "2022-09-09T11:17:21Z",
+        "i": "https://s3.castbox.fm/d0/29/e5/4758034d76a3c0d805a45c372b.jpg",
+        "t": "World Of Lore Ep 19:Dark Souls"
+      },
+      {
+        "a": "https://s3.castbox.fm/01/f5/e8/f027264534916b77ad51964436.mp3",
+        "at": "2022-07-29T10:27:00Z",
+        "i": "https://s3.castbox.fm/4e/ae/6c/de4fd84298a2ad734dd94718ad.jpg",
+        "t": "World Of Lore Ep 18: Alan Wake"
+      },
+      {
+        "a": "https://s3.castbox.fm/b7/c2/38/a6073749e4a0786acd501b4bf7.mp3",
+        "at": "2022-06-17T13:49:08Z",
+        "i": "https://s3.castbox.fm/91/86/86/6ef1a34a948002281abfe24ea1.jpg",
+        "t": "World Of Lore Ep 17: Hellblade senua's sacrifice"
+      },
+      {
+        "a": "https://s3.castbox.fm/ab/3e/c2/12969746abb61d7bb4612364cd.mp3",
+        "at": "2022-06-03T14:51:29Z",
+        "i": "https://s3.castbox.fm/ec/8e/87/cfe042419abc938f686b165294.jpg",
+        "t": "World Of Lore Ep 16:Devil May Cry"
+      },
+      {
+        "a": "https://s3.castbox.fm/99/e4/36/016a4f4f50a6f203073d2b913d.mp3",
+        "at": "2022-05-01T10:22:07Z",
+        "i": "https://s3.castbox.fm/3b/1b/45/4a793d45b880181621be135da6.jpg",
+        "t": "World Of lore Ep 15:Quinn And Xin"
+      },
+      {
+        "a": "https://s3.castbox.fm/c3/61/59/224f234205ab857586b8fe066b.mp3",
+        "at": "2022-04-15T12:01:09Z",
+        "i": "https://s3.castbox.fm/ed/c3/c5/2919e74e13a397c97a927098a7.jpg",
+        "t": "World of Lore EP 14: Galio  the Colossus"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-05-11T16:22:41Z",
+        "i": "https://s3.castbox.fm/50/6a/5e/2e25d6463fb40ce1e6d1bfd735.jpg",
+        "link": "https://s3.castbox.fm/df/51/61/86c690461590a482c8317e1f80.mp3",
+        "title": "Ep 21 :Ghost Of Tsushima"
+      },
+      {
+        "at": "2023-03-25T13:40:08Z",
+        "i": "https://s3.castbox.fm/f1/a0/7b/08946b4c5dadf82da871ee9808.jpg",
+        "link": "https://s3.castbox.fm/a0/52/10/8e7a524fd5b7596d3e31d2ea62.mp3",
+        "title": "World Of Lore Ep 20:Death Stranding"
+      },
+      {
+        "at": "2022-09-09T11:17:21Z",
+        "i": "https://s3.castbox.fm/d0/29/e5/4758034d76a3c0d805a45c372b.jpg",
+        "link": "https://s3.castbox.fm/0d/9c/c0/ba319a47a7a21193efd42d4f2d.mp3",
+        "title": "World Of Lore Ep 19:Dark Souls"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "podcast-dr-amtdad-bazar-srmaih": {
     "avg_gap_days": 40.0,
@@ -62139,6 +62920,95 @@
     ],
     "status": "inactive"
   },
+  "rah-hai-rsidn-bh-hal-khosh-manoi-o-nshat-zndgi": {
+    "avg_length": 58,
+    "episodes": 22,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-10-21",
+    "first_year": 1399,
+    "last": "1399/09/17",
+    "last_at": "2020-12-07T00:10:20Z",
+    "last_link": "https://s3.castbox.fm/42/31/f2/0751d44d95afce0dd7e4d151cd.mp3",
+    "last_title": "جلسۀ22(960330): کسب نشاط دائمی و روبه تزاید",
+    "max_length": 70,
+    "median_length": 58,
+    "min_length": 43,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/42/31/f2/0751d44d95afce0dd7e4d151cd.mp3",
+        "at": "2020-12-07T00:10:20Z",
+        "t": "جلسۀ22(960330): کسب نشاط دائمی و روبه تزاید"
+      },
+      {
+        "a": "https://s3.castbox.fm/d5/30/23/61907a448e9fc7d2c73b33a5f8.mp3",
+        "at": "2020-12-07T00:06:22Z",
+        "t": "جلسۀ21(960329): سهولت رسیدن به نشاط واقعی"
+      },
+      {
+        "a": "https://s3.castbox.fm/ee/57/ca/f6b6dc44dbb59bfe71048d7f94.mp3",
+        "at": "2020-12-07T00:03:44Z",
+        "t": "جلسۀ20(960328): فرق نشاط کاذب و نشاط حقیقی"
+      },
+      {
+        "a": "https://s3.castbox.fm/c1/6f/90/69e40a4112b294f25d26d9d51a.mp3",
+        "at": "2020-12-07T00:00:51Z",
+        "t": "جلسۀ19(960326): تأثیر نیت الهی بر کسب نشاط"
+      },
+      {
+        "a": "https://s3.castbox.fm/9c/51/77/10ed5a40249799362b914686cd.MP3",
+        "at": "2020-12-06T23:58:44Z",
+        "t": "جلسۀ18(960324): ضرورت همراهی دینداری با عاشقی"
+      },
+      {
+        "a": "https://s3.castbox.fm/a5/3c/d2/03a42d4392bb1e5f9e3031ead0.mp3",
+        "at": "2020-12-06T23:55:52Z",
+        "t": "جلسۀ17(960322): تأثیر محبت به اهل بیت(ع) بر نشاط"
+      },
+      {
+        "a": "https://s3.castbox.fm/78/2f/1b/f47f32452bb6841b314f906ce3.mp3",
+        "at": "2020-12-06T23:53:05Z",
+        "t": "جلسۀ16(960321): تأثیر عشق و محبت بر ایجاد عمیق‌ترین نشاط‌ها"
+      },
+      {
+        "a": "https://s3.castbox.fm/4d/97/9f/f60cbd4733b827b88b751ca9b3.mp3",
+        "at": "2020-12-06T23:48:55Z",
+        "t": "جلسۀ15(960320): ولی خدا؛ عامل بالاترین نشاط معنوی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-12-07T00:10:20Z",
+        "link": "https://s3.castbox.fm/42/31/f2/0751d44d95afce0dd7e4d151cd.mp3",
+        "title": "جلسۀ22(960330): کسب نشاط دائمی و روبه تزاید"
+      },
+      {
+        "at": "2020-12-07T00:06:22Z",
+        "link": "https://s3.castbox.fm/d5/30/23/61907a448e9fc7d2c73b33a5f8.mp3",
+        "title": "جلسۀ21(960329): سهولت رسیدن به نشاط واقعی"
+      },
+      {
+        "at": "2020-12-07T00:03:44Z",
+        "link": "https://s3.castbox.fm/ee/57/ca/f6b6dc44dbb59bfe71048d7f94.mp3",
+        "title": "جلسۀ20(960328): فرق نشاط کاذب و نشاط حقیقی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "rai-bn-mstnd": {
     "avg_gap_days": 43.2,
     "avg_length": 67,
@@ -63987,6 +64857,107 @@
     ],
     "status": "active"
   },
+  "rozanh-hai-tndrsti": {
+    "avg_gap_days": 1.0,
+    "avg_length": 19,
+    "episodes": 20,
+    "eps_365": 20,
+    "eps_90": 20,
+    "first_at": "2026-10-14",
+    "first_year": 1405,
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T03:00:00Z",
+    "last_link": "https://rss.com/podcasts/salamati/3280756",
+    "last_title": "درمان آرتروز با تحرک و بازسازی غضروف: پمپ جادویی مفاصل در سنین بالای ۵۰ سال",
+    "max_length": 30,
+    "median_length": 18,
+    "min_length": 12,
+    "play": [
+      {
+        "a": "https://content.rss.com/episodes/406068/3280756/salamati/2026_10_30_17_18_13_6bc6d704-0b76-4d50-bc4a-21dc89f45191.mp3",
+        "at": "2026-11-03T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261030_171804_de9c75fc6ee462d86d8ce0efbda44f1f.jpg",
+        "t": "درمان آرتروز با تحرک و بازسازی غضروف: پمپ جادویی مفاصل در سنین بالای ۵۰ سال"
+      },
+      {
+        "a": "https://content.rss.com/episodes/406068/3275179/salamati/2026_10_28_21_16_12_c2f7de52-de09-4818-95d7-4b789dfb6520.mp3",
+        "at": "2026-11-02T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261028_211556_a1359f291ff95c8f4f51fbc0680921f6.jpg",
+        "t": "درمان دردهای مفصلی با اصلاح کدهای بیولوژیک: معجزه رژیم مدیترانه‌ای و مهار التهاب"
+      },
+      {
+        "a": "https://content.rss.com/episodes/406068/3275176/salamati/2026_10_28_21_14_02_74ebf188-1fad-443c-bf8f-93ecf43bd52f.mp3",
+        "at": "2026-11-01T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261030_171619_ddb89030886bd767b217108db180764e.jpg",
+        "t": "راز پاکسازی سلول‌ها با روزه متناوب: معجزه اتوفاژی در سنین بالای ۵۰ سال"
+      },
+      {
+        "a": "https://content.rss.com/episodes/406068/3275063/salamati/2026_10_28_20_16_53_15b493a0-5838-48ec-9d8b-febcc72ba08e.mp3",
+        "at": "2026-10-31T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261028_201636_7e6b21844b34126bd905ad92d65c37ae.jpg",
+        "t": "راز جوانسازی بدن در باکتری‌های روده: معجزه میکروبیوم و فیبرهای پربیوتیک"
+      },
+      {
+        "a": "https://content.rss.com/episodes/406068/3275031/salamati/2026_10_28_20_06_19_7e93e755-a4ca-41f0-8c78-338dfd88fef8.mp3",
+        "at": "2026-10-30T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261028_200607_658da178809ed83296869396a5379165.jpg",
+        "t": "پاکسازی مغز در خواب برای مهار آلزایمر: کشف شگفت‌انگیز سیستم گلیمفاتیک"
+      },
+      {
+        "a": "https://content.rss.com/episodes/406068/3274947/salamati/2026_10_28_19_36_39_99a64614-607e-40a3-8460-3ea1c35149a7.mp3",
+        "at": "2026-10-29T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261028_193625_c28425a24007c052b32336e0978d0646.jpg",
+        "t": "طنین جوانی: چگونه موسیقی مغز را بازسازی و از زوال عقل پیشگیری می‌کند؟"
+      },
+      {
+        "a": "https://content.rss.com/episodes/406068/3254700/salamati/2026_10_21_19_19_53_6e0529e6-8fb9-4b7d-954a-6e007127fdce.mp3",
+        "at": "2026-10-27T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261021_191943_5f32a63ad81ecf9701a6daf6d0bbb6c0.jpg",
+        "t": "لبنیات، تغذیه و سلامت"
+      },
+      {
+        "a": "https://content.rss.com/episodes/406068/3254686/salamati/2026_10_21_19_08_25_bb052f48-bf2a-4edc-8a29-5deebe3ec4c7.mp3",
+        "at": "2026-10-26T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261021_190813_a49799b4043381c34bb4e3ad00ed49d4.jpg",
+        "t": "مهار زوال عقل: رویکردهای مدرن و سبک زندگی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-11-03T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261030_171804_de9c75fc6ee462d86d8ce0efbda44f1f.jpg",
+        "link": "https://rss.com/podcasts/salamati/3280756",
+        "title": "درمان آرتروز با تحرک و بازسازی غضروف: پمپ جادویی مفاصل در سنین بالای ۵۰ سال"
+      },
+      {
+        "at": "2026-11-02T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261028_211556_a1359f291ff95c8f4f51fbc0680921f6.jpg",
+        "link": "https://rss.com/podcasts/salamati/3275179",
+        "title": "درمان دردهای مفصلی با اصلاح کدهای بیولوژیک: معجزه رژیم مدیترانه‌ای و مهار التهاب"
+      },
+      {
+        "at": "2026-11-01T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261030_171619_ddb89030886bd767b217108db180764e.jpg",
+        "link": "https://rss.com/podcasts/salamati/3275176",
+        "title": "راز پاکسازی سلول‌ها با روزه متناوب: معجزه اتوفاژی در سنین بالای ۵۰ سال"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20
+    ],
+    "status": "active"
+  },
   "rozi-rozgari-sinma": {
     "avg_length": 27,
     "episodes": 5,
@@ -65251,6 +66222,107 @@
       0
     ],
     "status": "inactive"
+  },
+  "sda-syo": {
+    "avg_gap_days": 296.0,
+    "avg_length": 95,
+    "episodes": 21,
+    "eps_365": 2,
+    "eps_90": 1,
+    "first_at": "2024-05-20",
+    "first_year": 1403,
+    "last": "1405/07/01",
+    "last_at": "2026-09-23T12:29:17Z",
+    "last_link": "https://poriajasemian.ir/podcast/hadi-khezrpur/",
+    "last_title": "اپیزود 21 : هادی خضرپور",
+    "max_length": 176,
+    "median_length": 88,
+    "min_length": 45,
+    "play": [
+      {
+        "a": "https://poriajasemian.ir/wp-content/uploads/2026/09/Hadi-Khezrpur.mp3",
+        "at": "2026-09-23T12:29:17Z",
+        "i": "https://poriajasemian.ir/wp-content/uploads/2026/09/photo_2026-09-23_15-53-28.jpg",
+        "t": "اپیزود 21 : هادی خضرپور"
+      },
+      {
+        "a": "https://poriajasemian.ir/wp-content/uploads/2026/09/Hossein-Yousefi.mp3",
+        "at": "2025-12-01T11:40:42Z",
+        "i": "https://poriajasemian.ir/wp-content/uploads/2026/09/حسین-یوسفی.jpg",
+        "t": "اپیزود 20: حسین یوسفی"
+      },
+      {
+        "a": "https://poriajasemian.ir/wp-content/uploads/2026/09/mehdi-safavi.mp3",
+        "at": "2025-11-02T11:39:06Z",
+        "i": "https://poriajasemian.ir/wp-content/uploads/2026/09/مهدی-صفوی.jpg",
+        "t": "اپیزود 19: مهدی صفوی"
+      },
+      {
+        "a": "https://poriajasemian.ir/wp-content/uploads/2026/09/Ali-Jahani.mp3",
+        "at": "2025-07-16T11:29:20Z",
+        "i": "https://poriajasemian.ir/wp-content/uploads/2025/07/photo_2025-07-23_21-51-01.jpg",
+        "t": "اپیزود 18: علی جهانی"
+      },
+      {
+        "a": "https://poriajasemian.ir/wp-content/uploads/2026/09/Mohmmad-afshar.mp3",
+        "at": "2025-06-04T11:18:59Z",
+        "i": "https://poriajasemian.ir/wp-content/uploads/2025/07/photo_2025-07-23_21-49-20.jpg",
+        "t": "اپیزود 17: محمد افشار"
+      },
+      {
+        "a": "https://poriajasemian.ir/wp-content/uploads/2026/09/SalahZohrabi.mp3",
+        "at": "2025-04-21T11:14:19Z",
+        "i": "https://poriajasemian.ir/wp-content/uploads/2025/07/photo_2025-07-23_21-44-28.jpg",
+        "t": "اپیزود 16: صلاح ظهرابی"
+      },
+      {
+        "a": "https://poriajasemian.ir/wp-content/uploads/2026/09/Amin-hashmi.mp3",
+        "at": "2025-02-21T11:09:43Z",
+        "i": "https://poriajasemian.ir/wp-content/uploads/2025/07/photo_2025-07-23_21-41-28.jpg",
+        "t": "اپیزود 15 : امین هاشمی"
+      },
+      {
+        "a": "https://poriajasemian.ir/wp-content/uploads/2026/09/MohmadMaleknezhad.mp3",
+        "at": "2025-01-31T10:54:25Z",
+        "i": "https://poriajasemian.ir/wp-content/uploads/2025/07/photo_2025-07-23_21-38-34.jpg",
+        "t": "اپیزود 14: محمد ملک نژاد"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-23T12:29:17Z",
+        "i": "https://poriajasemian.ir/wp-content/uploads/2026/09/photo_2026-09-23_15-53-28.jpg",
+        "link": "https://poriajasemian.ir/podcast/hadi-khezrpur/",
+        "title": "اپیزود 21 : هادی خضرپور"
+      },
+      {
+        "at": "2025-12-01T11:40:42Z",
+        "i": "https://poriajasemian.ir/wp-content/uploads/2026/09/حسین-یوسفی.jpg",
+        "link": "https://poriajasemian.ir/podcast/hossein-yousefi/",
+        "title": "اپیزود 20: حسین یوسفی"
+      },
+      {
+        "at": "2025-11-02T11:39:06Z",
+        "i": "https://poriajasemian.ir/wp-content/uploads/2026/09/مهدی-صفوی.jpg",
+        "link": "https://poriajasemian.ir/podcast/mehdi-safavi/",
+        "title": "اپیزود 19: مهدی صفوی"
+      }
+    ],
+    "recent_30d": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "status": "active"
   },
   "sdai-aashna": {
     "avg_length": 18,
@@ -68321,6 +69393,95 @@
     ],
     "status": "active"
   },
+  "shkst-ashghi": {
+    "avg_length": 22,
+    "episodes": 21,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-12-31",
+    "first_year": 1398,
+    "last": "1398/10/18",
+    "last_at": "2020-01-08T19:54:45Z",
+    "last_link": "https://s3.castbox.fm/df/cd/b0/0fe0cb41609fd7a0cec7ac090f.mp3",
+    "last_title": "فراموش کردن روابط عاطفی قبلی و شکست های عشقی",
+    "max_length": 104,
+    "median_length": 16,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/df/cd/b0/0fe0cb41609fd7a0cec7ac090f.mp3",
+        "at": "2020-01-08T19:54:45Z",
+        "t": "فراموش کردن روابط عاطفی قبلی و شکست های عشقی"
+      },
+      {
+        "a": "https://s3.castbox.fm/9b/a3/d9/1126c14380b3ef4a7754574ec2.mp3",
+        "at": "2020-01-08T19:50:41Z",
+        "t": "پس از شکست عاطفی در عشقی یکطرفه"
+      },
+      {
+        "a": "https://s3.castbox.fm/84/02/8b/bb70ca489eb6deeeb3a2a8f3d8.mp3",
+        "at": "2020-01-08T19:46:14Z",
+        "t": "راهنمایی پس از شکست عشقی"
+      },
+      {
+        "a": "https://s3.castbox.fm/94/97/dd/07d81b43059daf4a1de6e08917.mp3",
+        "at": "2020-01-08T19:40:09Z",
+        "t": "بعد از خیانت چه کنم"
+      },
+      {
+        "a": "https://s3.castbox.fm/79/80/d6/234f4f46c4b32dfd397fdcd516.mp3",
+        "at": "2020-01-08T19:39:36Z",
+        "t": "با همین کارها شکست عشقی می خورید"
+      },
+      {
+        "a": "https://s3.castbox.fm/83/ec/c8/669a1e4cbe984e7c35f1c4d0c0.mp3",
+        "at": "2020-01-08T19:17:56Z",
+        "t": "با شکست عشقی چه کنیم 2"
+      },
+      {
+        "a": "https://s3.castbox.fm/eb/75/39/0c2d3c4e17a6ca05e99aee485f.mp3",
+        "at": "2020-01-08T19:08:51Z",
+        "t": "با شکست عشقی چه کنیم 1"
+      },
+      {
+        "a": "https://s3.castbox.fm/99/4a/c7/bc9827474dbb1bd21b918005f5.mp3",
+        "at": "2020-01-08T18:55:21Z",
+        "t": "کسانی که شکست عشقی خوردند"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-01-08T19:54:45Z",
+        "link": "https://s3.castbox.fm/df/cd/b0/0fe0cb41609fd7a0cec7ac090f.mp3",
+        "title": "فراموش کردن روابط عاطفی قبلی و شکست های عشقی"
+      },
+      {
+        "at": "2020-01-08T19:50:41Z",
+        "link": "https://s3.castbox.fm/9b/a3/d9/1126c14380b3ef4a7754574ec2.mp3",
+        "title": "پس از شکست عاطفی در عشقی یکطرفه"
+      },
+      {
+        "at": "2020-01-08T19:46:14Z",
+        "link": "https://s3.castbox.fm/84/02/8b/bb70ca489eb6deeeb3a2a8f3d8.mp3",
+        "title": "راهنمایی پس از شکست عشقی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "shm-sinma": {
     "avg_length": 20,
     "episodes": 16,
@@ -70594,6 +71755,102 @@
     ],
     "status": "active"
   },
+  "tanojaan-tn-o-jan": {
+    "avg_gap_days": 29.0,
+    "avg_length": 38,
+    "episodes": 21,
+    "eps_365": 11,
+    "eps_90": 3,
+    "first_at": "2025-04-06",
+    "first_year": 1404,
+    "last": "1405/06/26",
+    "last_at": "2026-09-17T06:38:17Z",
+    "last_link": "https://www.spreaker.com/episode/21-wly-aftad-mshklha-gftgw-ba-mtkhss-drbarh-tkhmk-ahdayy--75366980",
+    "last_title": "21-ولی افتاد مشکلها ... (گفتگو با متخصص درباره تخمک اهدایی)",
+    "max_length": 69,
+    "median_length": 37,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75366980/file_1.mp3",
+        "at": "2026-09-17T06:38:17Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/dc69fbefa342758ce543ceb338b8db9f.jpg",
+        "t": "21-ولی افتاد مشکلها ... (گفتگو با متخصص درباره تخمک اهدایی)"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75180130/file_1.mp3",
+        "at": "2026-09-17T06:38:17Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/72fd1fb9896da277425aff1bd3166000.jpg",
+        "t": "21-ولی افتاد مشکلها ... (گفتگو با متخصص درباره تخمک اهدایی)"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74531007/file.mp3",
+        "at": "2026-08-22T16:47:43Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/72fd1fb9896da277425aff1bd3166000.jpg",
+        "t": "20-فحشی تا ابد (درباره ناباروری مردانه)"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/73815556/c275664acebee448a6152cf007.mp3",
+        "at": "2026-07-30T19:48:14Z",
+        "t": "19-و زنی که کافی نیست (روایتی زنانه از باروری با تخمک اهدایی)"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/73815592/d63d9d49f38a86d43096d1c2b3.mp3",
+        "at": "2026-07-21T15:19:34Z",
+        "t": "18:در من فرزندی دیگر شکفت (درباره تخمک اهدایی)"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/73815578/89f0764fd1b06becacc4d5aa66.mp3",
+        "at": "2026-04-24T17:43:07Z",
+        "t": "هفدهم: که تو آبادی و من آزادم (درباره جنگ و ترک خانه)"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/73815609/2cd3124784a58ac346a9254b58.mp3",
+        "at": "2026-04-24T17:41:00Z",
+        "t": "شانزدهم: من تهران را بلدم(درباره جنگ و ماندن در تهران)"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/73815569/b47e3d4e34b18f3df5b2b3c325.mp3",
+        "at": "2026-04-20T18:55:12Z",
+        "t": "پانزدهم: بدن، سرزمین فراموش شده( گفتگو با متخصص درباره آسیب های ورزشی)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-17T06:38:17Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/dc69fbefa342758ce543ceb338b8db9f.jpg",
+        "link": "https://www.spreaker.com/episode/21-wly-aftad-mshklha-gftgw-ba-mtkhss-drbarh-tkhmk-ahdayy--75366980",
+        "title": "21-ولی افتاد مشکلها ... (گفتگو با متخصص درباره تخمک اهدایی)"
+      },
+      {
+        "at": "2026-09-17T06:38:17Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/72fd1fb9896da277425aff1bd3166000.jpg",
+        "link": "https://www.spreaker.com/episode/21-wly-aftad-mshklha-gftgw-ba-mtkhss-drbarh-tkhmk-ahdayy--75180130",
+        "title": "21-ولی افتاد مشکلها ... (گفتگو با متخصص درباره تخمک اهدایی)"
+      },
+      {
+        "at": "2026-08-22T16:47:43Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/72fd1fb9896da277425aff1bd3166000.jpg",
+        "link": "https://www.spreaker.com/episode/20-fhshy-ta-abd-drbarh-nabarwry-mrdanh--74531007",
+        "title": "20-فحشی تا ابد (درباره ناباروری مردانه)"
+      }
+    ],
+    "recent_30d": [
+      1,
+      2,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      2,
+      1,
+      2,
+      0
+    ],
+    "status": "active"
+  },
   "tarikh-airan": {
     "avg_length": 159,
     "episodes": 21,
@@ -72242,6 +73499,95 @@
     ],
     "status": "inactive"
   },
+  "tdris-dros-maarf-danshgah": {
+    "avg_length": 32,
+    "episodes": 22,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-04-17",
+    "first_year": 1399,
+    "last": "1399/02/12",
+    "last_at": "2020-05-01T13:46:12Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/hasan-mousawi/episodes/ep-edg3lm",
+    "last_title": "تفسیر نهج البلاغه جلسه ششم",
+    "max_length": 37,
+    "median_length": 31,
+    "min_length": 29,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/1d48e190/podcast/play/13159542/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-27%2F68050136-44100-2-ca9bf9ba61606.mp3",
+        "at": "2020-05-01T13:46:12Z",
+        "t": "تفسیر نهج البلاغه جلسه ششم"
+      },
+      {
+        "a": "https://anchor.fm/s/1d48e190/podcast/play/13159516/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-27%2F68050422-44100-2-b4056abc36958.mp3",
+        "at": "2020-05-01T13:45:39Z",
+        "t": "دانش خانواده جلسه ششم"
+      },
+      {
+        "a": "https://anchor.fm/s/1d48e190/podcast/play/13159487/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-25%2F67505379-44100-2-1db8ae510a932.mp3",
+        "at": "2020-05-01T13:44:51Z",
+        "t": "تفسیر نهج البلاغه جلسه پنجم"
+      },
+      {
+        "a": "https://anchor.fm/s/1d48e190/podcast/play/13159423/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-25%2F67505376-44100-2-da230a132d9f2.mp3",
+        "at": "2020-05-01T13:43:55Z",
+        "t": "اخلاق اسلامی جلسه پنجم"
+      },
+      {
+        "a": "https://anchor.fm/s/1d48e190/podcast/play/13159396/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-25%2F67505401-44100-2-3f04e39bd8e24.mp3",
+        "at": "2020-05-01T13:43:04Z",
+        "t": "دانش خانواده جلسه پنجم"
+      },
+      {
+        "a": "https://anchor.fm/s/1d48e190/podcast/play/13159371/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-25%2F67504316-44100-2-625eb92846245.mp3",
+        "at": "2020-05-01T13:42:24Z",
+        "t": "آئین زندگی جلسه پنجم"
+      },
+      {
+        "a": "https://anchor.fm/s/1d48e190/podcast/play/13159339/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-3-25%2F67512997-44100-2-c4b5ca92ce0d6.m4a",
+        "at": "2020-05-01T13:41:27Z",
+        "t": "تفسیر نهج البلاغه جلسه چهارم"
+      },
+      {
+        "a": "https://anchor.fm/s/1d48e190/podcast/play/13159319/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-25%2F67504352-44100-2-c5c7c0ff11171.mp3",
+        "at": "2020-05-01T13:40:44Z",
+        "t": "اخلاق اسلامی جلسه چهارم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-05-01T13:46:12Z",
+        "link": "https://podcasters.spotify.com/pod/show/hasan-mousawi/episodes/ep-edg3lm",
+        "title": "تفسیر نهج البلاغه جلسه ششم"
+      },
+      {
+        "at": "2020-05-01T13:45:39Z",
+        "link": "https://podcasters.spotify.com/pod/show/hasan-mousawi/episodes/ep-edg3ks",
+        "title": "دانش خانواده جلسه ششم"
+      },
+      {
+        "at": "2020-05-01T13:44:51Z",
+        "link": "https://podcasters.spotify.com/pod/show/hasan-mousawi/episodes/ep-edg3jv",
+        "title": "تفسیر نهج البلاغه جلسه پنجم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "tghiir-dr-baorha": {
     "avg_length": 22,
     "episodes": 31,
@@ -73663,6 +75009,95 @@
         "at": "2019-12-15T10:31:00Z",
         "link": "https://s3.castbox.fm/b9/dc/f6/7905804d1db756245219d78ae7.mp3",
         "title": "ارزیابی روابط روسیه اوکراین-آبان 98-شماره سیزدهم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
+  "yek-rooze-varzeshi-ik-roz-orzshi": {
+    "avg_length": 26,
+    "episodes": 21,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2022-02-28",
+    "first_year": 1400,
+    "last": "1401/06/07",
+    "last_at": "2022-08-29T22:30:00Z",
+    "last_link": "https://s3.castbox.fm/ac/4c/92/bbb7aa4c67a4774e868a289d4a.mp3",
+    "last_title": "Yek Rooze Varzeshi E21 یک روز ورزشی",
+    "max_length": 31,
+    "median_length": 25,
+    "min_length": 20,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/ac/4c/92/bbb7aa4c67a4774e868a289d4a.mp3",
+        "at": "2022-08-29T22:30:00Z",
+        "t": "Yek Rooze Varzeshi E21 یک روز ورزشی"
+      },
+      {
+        "a": "https://s3.castbox.fm/86/e6/cd/170dac4eb0be45fe5d5fc45a4d.mp3",
+        "at": "2022-08-22T22:00:00Z",
+        "t": "Yek Rooze Varzeshi E20 یک روز ورزشی"
+      },
+      {
+        "a": "https://s3.castbox.fm/af/ce/69/624b544c62ac1c003c5f40da75.mp3",
+        "at": "2022-08-15T22:30:00Z",
+        "t": "Yek Rooze Varzeshi E19 یک روز ورزشی"
+      },
+      {
+        "a": "https://s3.castbox.fm/49/1c/12/c373414209be5d50c4f93373b5.mp3",
+        "at": "2022-08-08T22:30:00Z",
+        "t": "Yek Rooze Varzeshi E18 یک روز ورزشی"
+      },
+      {
+        "a": "https://s3.castbox.fm/9c/7a/b3/adb5e5431ca954412d37fae065.mp3",
+        "at": "2022-07-25T22:30:00Z",
+        "t": "Yek Rooze Varzeshi E17 یک روز ورزشی"
+      },
+      {
+        "a": "https://s3.castbox.fm/70/55/9b/f3038a4141a06a8a6db4eef79c.mp3",
+        "at": "2022-07-18T22:30:00Z",
+        "t": "Yek Rooze Varzeshi E16 یک روز ورزشی"
+      },
+      {
+        "a": "https://s3.castbox.fm/1e/3a/5e/f9a82f4f6d926a0439b5f2aa29.mp3",
+        "at": "2022-07-11T22:30:00Z",
+        "t": "Yek Rooze Varzeshi E15 یک روز ورزشی"
+      },
+      {
+        "a": "https://s3.castbox.fm/0a/47/2c/009c1746f492b14e83b4e41edb.mp3",
+        "at": "2022-06-20T22:30:00Z",
+        "t": "Yek Rooze Varzeshi E14 یک روز ورزشی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-08-29T22:30:00Z",
+        "link": "https://s3.castbox.fm/ac/4c/92/bbb7aa4c67a4774e868a289d4a.mp3",
+        "title": "Yek Rooze Varzeshi E21 یک روز ورزشی"
+      },
+      {
+        "at": "2022-08-22T22:00:00Z",
+        "link": "https://s3.castbox.fm/86/e6/cd/170dac4eb0be45fe5d5fc45a4d.mp3",
+        "title": "Yek Rooze Varzeshi E20 یک روز ورزشی"
+      },
+      {
+        "at": "2022-08-15T22:30:00Z",
+        "link": "https://s3.castbox.fm/af/ce/69/624b544c62ac1c003c5f40da75.mp3",
+        "title": "Yek Rooze Varzeshi E19 یک روز ورزشی"
       }
     ],
     "recent_30d": [
