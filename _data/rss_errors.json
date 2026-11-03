@@ -15,6 +15,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
+  "aghtsad-o-siast-jhani": {
+    "error": "RuntimeError: IncompleteRead: IncompleteRead(54092 bytes read)",
+    "rss": "https://feed.dotcast.org/p/ctka8bck/feed.xml"
+  },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
@@ -58,6 +62,10 @@
   "galri-film": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
+  },
+  "ghir-az-jng-chh-khbr": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://www.pariha.org/podcast/feed.xml"
   },
   "hnr-jng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
