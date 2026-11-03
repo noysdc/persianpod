@@ -3942,21 +3942,26 @@
     "status": "active"
   },
   "airan-braamdn-rzakhan-braftadn-ghajar-o-nghsh-anglis-ha": {
-    "avg_gap_days": 9.6,
-    "avg_length": 17,
-    "episodes": 29,
-    "eps_365": 29,
-    "eps_90": 8,
+    "avg_gap_days": 9.7,
+    "avg_length": 18,
+    "episodes": 30,
+    "eps_365": 30,
+    "eps_90": 9,
     "first_at": "2026-01-24",
     "first_year": 1404,
-    "last": "1405/07/28",
-    "last_at": "2026-10-20T00:10:32Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3qp3s1",
-    "last_title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل ششم - بخش دوم - مقدمه کودتا",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T01:39:19Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/-----------------e3rkm7a",
+    "last_title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل ششم - بخش سوم و آخر - مقدمه کودتا",
     "max_length": 25,
     "median_length": 17,
     "min_length": 11,
     "play": [
+      {
+        "a": "https://anchor.fm/s/10e427598/podcast/play/128652970/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F36e5f94d-0b44-9351-f5dc-76e4353f6473.mp3",
+        "at": "2026-11-03T01:39:19Z",
+        "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل ششم - بخش سوم و آخر - مقدمه کودتا"
+      },
       {
         "a": "https://anchor.fm/s/10e427598/podcast/play/127749441/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-20%2F1d6bbbd2-50e4-46cf-7812-118fe34a3ce3.mp3",
         "at": "2026-10-20T00:10:32Z",
@@ -3991,14 +3996,14 @@
         "a": "https://anchor.fm/s/10e427598/podcast/play/124686321/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-25%2F41dc2e6d-dbe5-65a8-8fa7-40636192c782.mp3",
         "at": "2026-08-25T00:25:37Z",
         "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش دوم - نخست وزیری سپهدار"
-      },
-      {
-        "a": "https://anchor.fm/s/10e427598/podcast/play/124389470/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-29%2F40342beb-d11a-2bda-c39a-77fd3c9016c9.mp3",
-        "at": "2026-08-18T13:45:04Z",
-        "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش اول - نخست وزیری سپهدار"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T01:39:19Z",
+        "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/-----------------e3rkm7a",
+        "title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل ششم - بخش سوم و آخر - مقدمه کودتا"
+      },
       {
         "at": "2026-10-20T00:10:32Z",
         "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3qp3s1",
@@ -4008,11 +4013,6 @@
         "at": "2026-10-07T15:20:27Z",
         "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3q3bc1",
         "title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل ششم - بخش اول - مقدمه کودتا"
-      },
-      {
-        "at": "2026-09-21T23:55:55Z",
-        "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/-----------------e3p72lp",
-        "title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش ششم و آخر - نخست وزیری سپهدار"
       }
     ],
     "recent_30d": [
@@ -4027,7 +4027,7 @@
       4,
       3,
       3,
-      2
+      3
     ],
     "status": "active"
   },
@@ -15253,8 +15253,8 @@
     ],
     "recent_30d": [
       2,
-      2,
-      1,
+      3,
+      0,
       3,
       0,
       0,
@@ -52719,27 +52719,33 @@
       6,
       8,
       6,
-      8,
-      9
+      9,
+      8
     ],
     "status": "active"
   },
   "podcast-prondh-baz": {
-    "avg_gap_days": 5.2,
+    "avg_gap_days": 5.1,
     "avg_length": 43,
-    "episodes": 27,
-    "eps_365": 27,
-    "eps_90": 20,
+    "episodes": 28,
+    "eps_365": 28,
+    "eps_90": 21,
     "first_at": "2026-06-16",
     "first_year": 1405,
-    "last": "1405/08/09",
-    "last_at": "2026-10-31T04:00:00Z",
-    "last_link": "https://shows.acast.com/parvandebaz/episodes/6ae4643639c71ad1746f3950",
-    "last_title": "پرونده بیلی میلیگان - قسمت ۵: معلم",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T04:00:00Z",
+    "last_link": "https://shows.acast.com/parvandebaz/episodes/6ae4630e092a0dff19f805ea",
+    "last_title": "پرونده بیلی میلیگان - قسمت ۶: کریستوفر کار",
     "max_length": 66,
-    "median_length": 36,
+    "median_length": 37,
     "min_length": 29,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a30d4e3a893cd95ca9864a2/e/6ae4630e092a0dff19f805ea/media.mp3",
+        "at": "2026-11-03T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1793352330034-9f40d6fa-206a-468c-bd3b-7eeec467be2b.jpeg",
+        "t": "پرونده بیلی میلیگان - قسمت ۶: کریستوفر کار"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6a30d4e3a893cd95ca9864a2/e/6ae4643639c71ad1746f3950/media.mp3",
         "at": "2026-10-31T04:00:00Z",
@@ -52781,15 +52787,15 @@
         "at": "2026-10-10T04:00:00Z",
         "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1791349420403-86ef5057-5f76-4c2e-9056-a3b0810db800.jpeg",
         "t": "پسران اسکس - قسمت ۳: بن‌بست ورک‌هاوس لین"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6a30d4e3a893cd95ca9864a2/e/6ac3318852f9e4485ffae45d/media.mp3",
-        "at": "2026-10-06T04:00:00Z",
-        "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1791176747146-c4e375b0-fda6-48d5-bca9-1aefe0613d3e.jpeg",
-        "t": "پرونده پسران اسکس: قسمت ۲: قرص، دختر و امپراتوری"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1793352330034-9f40d6fa-206a-468c-bd3b-7eeec467be2b.jpeg",
+        "link": "https://shows.acast.com/parvandebaz/episodes/6ae4630e092a0dff19f805ea",
+        "title": "پرونده بیلی میلیگان - قسمت ۶: کریستوفر کار"
+      },
       {
         "at": "2026-10-31T04:00:00Z",
         "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1793352719302-0093718e-1241-44ef-92e9-472976c5eacf.jpeg",
@@ -52801,12 +52807,6 @@
         "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1792824381286-8a6d03d2-039e-4512-8802-be7379505e58.jpeg",
         "link": "https://shows.acast.com/parvandebaz/episodes/6adc54cf02b9e3b2593c06d1",
         "title": "پرونده بیلی میلیگان - قسمت ۴: اتاق ۹‌بی"
-      },
-      {
-        "at": "2026-10-24T04:00:00Z",
-        "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1792667415404-7ee7a1a9-aa3c-4364-a1de-67f7f8113748.jpeg",
-        "link": "https://shows.acast.com/parvandebaz/episodes/6ad9ee772ae01c30d91d1c0e",
-        "title": "پرونده بیلی میلیگان - قسمت ۳: ده نفر در یک سلول"
       }
     ],
     "recent_30d": [
@@ -52821,7 +52821,7 @@
       5,
       4,
       8,
-      8
+      9
     ],
     "status": "active"
   },
@@ -56778,87 +56778,87 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
-    "avg_length": 30,
-    "episodes": 138,
-    "eps_365": 61,
-    "eps_90": 61,
+    "avg_length": 31,
+    "episodes": 153,
+    "eps_365": 76,
+    "eps_90": 76,
     "first_at": "2023-05-06",
     "first_year": 1402,
     "last": "1405/08/12",
-    "last_at": "2026-11-03T03:22:09Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-1-e3rkpji",
-    "last_title": "Farmanfarmaian, Khodadad Part 1",
+    "last_at": "2026-11-03T03:47:16Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-16-e3rkqr7",
+    "last_title": "Farmanfarmaian, Khodadad Part 16",
     "max_length": 63,
     "median_length": 31,
     "min_length": 1,
     "play": [
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128656434/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Fb547d95d-3152-22eb-9946-6a15ae60f0e6.mp3",
-        "at": "2026-11-03T03:22:09Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793676101157-62fd77c0b42b9.jpg",
-        "t": "Farmanfarmaian, Khodadad Part 1"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128657703/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Fd574ba63-e8d5-51dd-cf36-20efaf62d1e1.mp3",
+        "at": "2026-11-03T03:47:16Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793677627356-18566373187fa.jpg",
+        "t": "Farmanfarmaian, Khodadad Part 16"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128652090/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Fab96e5bc-4830-e383-e94a-08a2a5851a79.mp3",
-        "at": "2026-11-03T01:17:27Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793668633615-723a5fae13473.jpg",
-        "t": "Ladjevardian, Akbar Part 1"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128657597/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F578eef17-fd17-ff47-ce5c-332ee08d4a5c.mp3",
+        "at": "2026-11-03T03:45:35Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793677511935-ff40926091e35.jpg",
+        "t": "Farmanfarmaian, Khodadad Part 15"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128652022/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F2ee4c053-ddf6-35b7-07f4-307bd9e1e3f6.mp3",
-        "at": "2026-11-03T01:11:30Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793668275847-2ce98db88096b.jpg",
-        "t": "Dolatshahi, Mehrangiz Part 15"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128657457/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F66d0c4fe-c853-006e-69bc-17f821fee90c.mp3",
+        "at": "2026-11-03T03:44:11Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793677433574-6e023ba6d1836.jpg",
+        "t": "Farmanfarmaian, Khodadad Part 14"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128651961/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F52b6260f-a205-0a44-d13d-48ee0f46d9a5.mp3",
-        "at": "2026-11-03T01:10:29Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793668211774-ed8300641ffda.jpg",
-        "t": "Dolatshahi, Mehrangiz Part 14"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128657406/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Fdc2300ce-d6df-32cb-5d85-c5196ba39d65.mp3",
+        "at": "2026-11-03T03:40:39Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793677225737-6f5e452bc4ca6.jpg",
+        "t": "Farmanfarmaian, Khodadad Part 13"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128651926/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F198df03f-9013-9372-95fb-03f72f1dca11.mp3",
-        "at": "2026-11-03T01:09:17Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793668144761-57152485a2a5c.jpg",
-        "t": "Dolatshahi, Mehrangiz Part 13"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128657254/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Fe7c727e0-f1ff-8627-8eff-1db9b3262152.mp3",
+        "at": "2026-11-03T03:37:42Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793677043631-17b958d49d934.jpg",
+        "t": "Farmanfarmaian, Khodadad Part 12"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128651836/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F3a75abc2-eb5e-f782-af25-2f7d77e94a22.mp3",
-        "at": "2026-11-03T01:06:48Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793667995586-e64409543a4b8.jpg",
-        "t": "Dolatshahi, Mehrangiz Part 12"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128657209/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F7fd58bcf-c187-e90f-cd58-b7063354c5cc.mp3",
+        "at": "2026-11-03T03:36:23Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793676970140-c6db4f719a83e.jpg",
+        "t": "Farmanfarmaian, Khodadad Part 11"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128651803/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Fbbfdf6ee-64f8-a920-fe57-36ee56dfdb93.mp3",
-        "at": "2026-11-03T01:05:47Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793667924817-549245692fbac.jpg",
-        "t": "Dolatshahi, Mehrangiz Part 11"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128657140/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F83feed0f-a2a2-4e9e-430f-b054c81e4492.mp3",
+        "at": "2026-11-03T03:35:25Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793676905663-4f48ad1dd5539.jpg",
+        "t": "Farmanfarmaian, Khodadad Part 10"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128651756/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Fb3b8ca07-799d-c642-5ed3-a43ecd80040c.mp3",
-        "at": "2026-11-03T01:04:38Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793667866175-284aa575693b2.jpg",
-        "t": "Dolatshahi, Mehrangiz Part 10"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128657089/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Fd874d109-0ae3-8fa7-4bf8-50e927efc564.mp3",
+        "at": "2026-11-03T03:34:10Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793676837617-94d6437ff2c8.jpg",
+        "t": "Farmanfarmaian, Khodadad Part 9"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-03T03:22:09Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793676101157-62fd77c0b42b9.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-1-e3rkpji",
-        "title": "Farmanfarmaian, Khodadad Part 1"
+        "at": "2026-11-03T03:47:16Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793677627356-18566373187fa.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-16-e3rkqr7",
+        "title": "Farmanfarmaian, Khodadad Part 16"
       },
       {
-        "at": "2026-11-03T01:17:27Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793668633615-723a5fae13473.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ladjevardian--Akbar-Part-1-e3rklbq",
-        "title": "Ladjevardian, Akbar Part 1"
+        "at": "2026-11-03T03:45:35Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793677511935-ff40926091e35.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-15-e3rkqnt",
+        "title": "Farmanfarmaian, Khodadad Part 15"
       },
       {
-        "at": "2026-11-03T01:11:30Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793668275847-2ce98db88096b.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Dolatshahi--Mehrangiz-Part-15-e3rkl9m",
-        "title": "Dolatshahi, Mehrangiz Part 15"
+        "at": "2026-11-03T03:44:11Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793677433574-6e023ba6d1836.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-14-e3rkqjh",
+        "title": "Farmanfarmaian, Khodadad Part 14"
       }
     ],
     "recent_30d": [
@@ -56873,7 +56873,7 @@
       0,
       0,
       0,
-      61
+      76
     ],
     "status": "active"
   },
@@ -57155,8 +57155,8 @@
       0,
       0,
       10,
-      8,
       9,
+      8,
       0,
       0,
       0,
@@ -58612,8 +58612,8 @@
       }
     ],
     "recent_30d": [
-      3,
-      3,
+      4,
+      2,
       1,
       1,
       0,
@@ -65820,8 +65820,8 @@
       }
     ],
     "recent_30d": [
-      0,
-      5,
+      1,
+      4,
       3,
       1,
       0,
