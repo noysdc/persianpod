@@ -22018,8 +22018,8 @@
       0,
       0,
       0,
-      7,
-      16,
+      10,
+      13,
       0,
       0,
       0
@@ -22322,8 +22322,8 @@
   },
   "hmsfr": {
     "avg_gap_days": 35.3,
-    "avg_length": 59,
-    "episodes": 70,
+    "avg_length": 60,
+    "episodes": 69,
     "eps_365": 11,
     "eps_90": 5,
     "first_at": "2023-06-27",
@@ -59705,20 +59705,26 @@
   },
   "radio-ghsh": {
     "avg_gap_days": 2.8,
-    "avg_length": 19,
-    "episodes": 32,
-    "eps_365": 32,
-    "eps_90": 32,
+    "avg_length": 18,
+    "episodes": 33,
+    "eps_365": 33,
+    "eps_90": 33,
     "first_at": "2026-08-07",
     "first_year": 1405,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T15:30:00Z",
-    "last_link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-awl-grdbad--76113752",
-    "last_title": "جادوگر شهر اوز| قسمت اول | گردباد",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T15:30:33Z",
+    "last_link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-fsl-dwm-mlaqat-ba-manchkyn-ha--76157549",
+    "last_title": "جادوگر شهر اوز| فصل دوم | ملاقات با مانچکین ها",
     "max_length": 44,
-    "median_length": 15,
+    "median_length": 14,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76157549/media.mp3",
+        "at": "2026-11-03T15:30:33Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
+        "t": "جادوگر شهر اوز| فصل دوم | ملاقات با مانچکین ها"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76113752/media.mp3",
         "at": "2026-11-01T15:30:00Z",
@@ -59760,15 +59766,15 @@
         "at": "2026-10-18T15:30:00Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/563dbfe51b525a349fd4c1a893437426.jpg",
         "t": "صندوق پرنده"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75810120/media.mp3",
-        "at": "2026-10-15T15:30:00Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/8045cc2648403407ad73b2a6b36ed7c2.jpg",
-        "t": "قوهای وحشی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T15:30:33Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
+        "link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-fsl-dwm-mlaqat-ba-manchkyn-ha--76157549",
+        "title": "جادوگر شهر اوز| فصل دوم | ملاقات با مانچکین ها"
+      },
       {
         "at": "2026-11-01T15:30:00Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
@@ -59780,12 +59786,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ff0b2d3118edb5be66f8aeab90a36447.jpg",
         "link": "https://www.spreaker.com/episode/kfsh-hay-shans--76073550",
         "title": "کفش‌های شانس"
-      },
-      {
-        "at": "2026-10-27T15:30:00Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/0970d11e7bdd91d959a31a580376bae9.jpg",
-        "link": "https://www.spreaker.com/episode/sayh--76031606",
-        "title": "سایه"
       }
     ],
     "recent_30d": [
@@ -59800,7 +59800,7 @@
       0,
       8,
       12,
-      12
+      13
     ],
     "status": "active"
   },
