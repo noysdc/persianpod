@@ -37674,8 +37674,8 @@
     "recent_30d": [
       0,
       7,
-      15,
-      10,
+      16,
+      9,
       0,
       0,
       12,
@@ -51802,21 +51802,27 @@
     "status": "active"
   },
   "podcast-khrghh": {
-    "avg_gap_days": 8.3,
-    "avg_length": 35,
-    "episodes": 133,
-    "eps_365": 44,
-    "eps_90": 17,
+    "avg_gap_days": 8.2,
+    "avg_length": 34,
+    "episodes": 134,
+    "eps_365": 45,
+    "eps_90": 18,
     "first_at": "2019-12-09",
     "first_year": 1398,
-    "last": "1405/08/08",
-    "last_at": "2026-10-30T11:00:00Z",
-    "last_link": "https://dotcast.org/p/7nmh50se/khgmrq7hha/",
-    "last_title": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وهشتم",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T15:20:00Z",
+    "last_link": "https://dotcast.org/p/7nmh50se/blz7e7xt1e/",
+    "last_title": "کتاب صوتی «عارف جان‌سوخته»/ قسمت پایانی + موخره",
     "max_length": 110,
     "median_length": 33,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/7nmh50se/blz7e7xt1e/2026-11-03-15-23-13.mp3",
+        "at": "2026-11-03T15:20:00Z",
+        "i": "https://feed.dotcast.org/e/7nmh50se/blz7e7xt1e/2026-11-03-15-16-15.jpg",
+        "t": "کتاب صوتی «عارف جان‌سوخته»/ قسمت پایانی + موخره"
+      },
       {
         "a": "https://feed.dotcast.org/e/7nmh50se/khgmrq7hha/2026-10-30-11-09-39.mp3",
         "at": "2026-10-30T11:00:00Z",
@@ -51858,15 +51864,15 @@
         "at": "2026-09-27T15:40:00Z",
         "i": "https://feed.dotcast.org/e/7nmh50se/2n4fggjhhv/2026-09-27-15-36-24.jpg",
         "t": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وسوم"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/7nmh50se/ihv76bgh6c/2026-09-23-16-46-52.mp3",
-        "at": "2026-09-23T16:40:00Z",
-        "i": "https://feed.dotcast.org/e/7nmh50se/ihv76bgh6c/2026-09-23-16-47-03.jpg",
-        "t": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌دوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T15:20:00Z",
+        "i": "https://feed.dotcast.org/e/7nmh50se/blz7e7xt1e/2026-11-03-15-16-15.jpg",
+        "link": "https://dotcast.org/p/7nmh50se/blz7e7xt1e/",
+        "title": "کتاب صوتی «عارف جان‌سوخته»/ قسمت پایانی + موخره"
+      },
       {
         "at": "2026-10-30T11:00:00Z",
         "i": "https://feed.dotcast.org/e/7nmh50se/khgmrq7hha/2026-10-30-10-59-15.jpg",
@@ -51878,12 +51884,6 @@
         "i": "https://feed.dotcast.org/e/7nmh50se/mxk5mgn2er/2026-10-25-13-09-12.jpg",
         "link": "https://dotcast.org/p/7nmh50se/mxk5mgn2er/",
         "title": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وهفتم"
-      },
-      {
-        "at": "2026-10-19T14:50:00Z",
-        "i": "https://feed.dotcast.org/e/7nmh50se/t6451cdfch/2026-10-19-14-38-54.jpg",
-        "link": "https://dotcast.org/p/7nmh50se/t6451cdfch/",
-        "title": "کتاب صوتی «عارف جان‌سوخته»/ قسمت بیست‌وششم"
       }
     ],
     "recent_30d": [
@@ -51898,7 +51898,7 @@
       10,
       6,
       6,
-      5
+      6
     ],
     "status": "active"
   },
