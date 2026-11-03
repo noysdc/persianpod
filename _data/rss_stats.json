@@ -23839,7 +23839,7 @@
       }
     ],
     "recent_30d": [
-      14,
+      13,
       8,
       3,
       8,
@@ -38566,21 +38566,27 @@
     "status": "inactive"
   },
   "mozhde-sara-mzhdh-sra": {
-    "avg_gap_days": 12.4,
+    "avg_gap_days": 12.1,
     "avg_length": 36,
-    "episodes": 146,
-    "eps_365": 30,
-    "eps_90": 9,
+    "episodes": 147,
+    "eps_365": 31,
+    "eps_90": 10,
     "first_at": "2024-05-04",
     "first_year": 1403,
-    "last": "1405/08/09",
-    "last_at": "2026-10-31T15:30:00Z",
-    "last_link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6adc77194395ebfbf1ac60f6",
-    "last_title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل دوم",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T15:30:00Z",
+    "last_link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6adf3b53dd5d6293db6f8ef5",
+    "last_title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل سوم",
     "max_length": 98,
     "median_length": 17,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6adf3b53dd5d6293db6f8ef5/media.mp3",
+        "at": "2026-11-03T15:30:00Z",
+        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1793014559951-671ec403-dee9-4c3f-a8a2-c34bb08d299a.jpeg",
+        "t": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل سوم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6adc77194395ebfbf1ac60f6/media.mp3",
         "at": "2026-10-31T15:30:00Z",
@@ -38622,15 +38628,15 @@
         "at": "2026-08-25T17:30:00Z",
         "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1787649995312-e9f5e76b-851c-435d-973f-aa8d6380aace.jpeg",
         "t": "کتاب صوتی | هفت دختر هفت پسر | کتاب صوتی فارسی | فصل دوم قسمت سوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6a7b7a006003752573339ee2/media.mp3",
-        "at": "2026-08-18T17:30:00Z",
-        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1786476998226-aee0766f-c3fd-4155-9c5b-b7f17b6251ed.jpeg",
-        "t": "🎧 کتاب صوتی مترو 2033 | Metro 2033 Audiobook - فصل هجدهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T15:30:00Z",
+        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1793014559951-671ec403-dee9-4c3f-a8a2-c34bb08d299a.jpeg",
+        "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6adf3b53dd5d6293db6f8ef5",
+        "title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل سوم"
+      },
       {
         "at": "2026-10-31T15:30:00Z",
         "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1792833244412-434523a2-0a52-44ab-bb98-80266ce9c420.jpeg",
@@ -38642,12 +38648,6 @@
         "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1792601798009-008d289b-91be-47ca-bcd2-34ba14c2f04f.jpeg",
         "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6ad8ef5b70af2b1aa7f874ce",
         "title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل اول"
-      },
-      {
-        "at": "2026-10-20T15:30:00Z",
-        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1792402931506-5904d554-072c-4393-b98c-1b1ec3b73d2f.jpeg",
-        "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/2033-metro-2033-audiobook20",
-        "title": "🎧 کتاب صوتی مترو 2033 | Metro 2033 Audiobook - فصل بیستم"
       }
     ],
     "recent_30d": [
@@ -38662,7 +38662,7 @@
       5,
       4,
       2,
-      3
+      4
     ],
     "status": "active"
   },
@@ -52004,20 +52004,26 @@
   },
   "podcast-ktab-jibi": {
     "avg_gap_days": 16.0,
-    "avg_length": 61,
-    "episodes": 141,
-    "eps_365": 22,
-    "eps_90": 5,
+    "avg_length": 62,
+    "episodes": 142,
+    "eps_365": 23,
+    "eps_90": 6,
     "first_at": "2020-11-13",
     "first_year": 1399,
-    "last": "1405/07/26",
-    "last_at": "2026-10-18T10:25:39Z",
-    "last_link": "https://shows.acast.com/ketabjibi/episodes/141",
-    "last_title": "اپیزود ۱۴۱: خلاصه کتاب ۱۰۰+۱۰ راه برای انگیزه دادن به خود (قسمت اول)",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T15:31:32Z",
+    "last_link": "https://shows.acast.com/ketabjibi/episodes/142",
+    "last_title": "اپیزود ۱۴۲: خلاصه کتاب ۱۰۰+۱۰ راه برای انگیزه دادن به خود (قسمت دوم)",
     "max_length": 120,
     "median_length": 44,
     "min_length": 15,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/660c391837d90000161ffc26/e/6ae9fe56dc2860cef4af5dbd/media.mp3",
+        "at": "2026-11-03T15:31:32Z",
+        "i": "https://assets.pippa.io/shows/660c391837d90000161ffc26/1793715011197-33dbc682-ce03-494e-8086-1dde128e6b57.jpeg",
+        "t": "اپیزود ۱۴۲: خلاصه کتاب ۱۰۰+۱۰ راه برای انگیزه دادن به خود (قسمت دوم)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/660c391837d90000161ffc26/e/6ad49ea4a2384a57217a8813/media.mp3",
         "at": "2026-10-18T10:25:39Z",
@@ -52059,15 +52065,15 @@
         "at": "2026-07-17T12:51:46Z",
         "i": "https://assets.pippa.io/shows/660c391837d90000161ffc26/1784291862926-2e806dee-b61b-4f3d-bd67-7b85e6a58dbb.jpeg",
         "t": "اپیزود ۱۳۵: خلاصه کتاب روانشناسی رانندگی (قسمت دوم)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/660c391837d90000161ffc26/e/6a514d9cd2dde6b09af97a00/media.mp3",
-        "at": "2026-07-10T19:52:48Z",
-        "i": "https://assets.pippa.io/shows/660c391837d90000161ffc26/1783713735480-b9823759-5237-4ec0-ba1a-7192178d70d7.jpeg",
-        "t": "اپیزود ۱۳۴: خلاصه کتاب روانشناسی رانندگی (قسمت اول)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T15:31:32Z",
+        "i": "https://assets.pippa.io/shows/660c391837d90000161ffc26/1793715011197-33dbc682-ce03-494e-8086-1dde128e6b57.jpeg",
+        "link": "https://shows.acast.com/ketabjibi/episodes/142",
+        "title": "اپیزود ۱۴۲: خلاصه کتاب ۱۰۰+۱۰ راه برای انگیزه دادن به خود (قسمت دوم)"
+      },
       {
         "at": "2026-10-18T10:25:39Z",
         "i": "https://assets.pippa.io/shows/660c391837d90000161ffc26/1792317318480-b2efe38a-309a-41f0-a4f3-ecdc8795168b.jpeg",
@@ -52079,12 +52085,6 @@
         "i": "https://assets.pippa.io/shows/660c391837d90000161ffc26/1789923320557-391a2af6-7772-461d-8477-94a3691c3a76.jpeg",
         "link": "https://shows.acast.com/ketabjibi/episodes/140",
         "title": "اپیزود ۱۴۰: خلاصه کتاب بیژن"
-      },
-      {
-        "at": "2026-09-04T13:59:48Z",
-        "i": "https://assets.pippa.io/shows/660c391837d90000161ffc26/1788523867176-a8760f40-f4b1-4245-8040-9110bcc9ede6.jpeg",
-        "link": "https://shows.acast.com/ketabjibi/episodes/139",
-        "title": "اپیزود ۱۳۹: خلاصه کتاب کلیدهای رویارویی با خشونت در کودکان"
       }
     ],
     "recent_30d": [
@@ -52099,7 +52099,7 @@
       3,
       3,
       1,
-      1
+      2
     ],
     "status": "active"
   },
@@ -72418,8 +72418,8 @@
     "recent_30d": [
       114,
       119,
-      27,
-      85,
+      28,
+      84,
       0,
       0,
       8,
