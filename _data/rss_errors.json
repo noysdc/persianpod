@@ -48,11 +48,11 @@
     "rss": "https://drdna.ir/category/%D9%81%DB%8C%D9%84%D9%85-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/feed/"
   },
   "film-o-srial-soti": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
     "rss": "https://mp3movies.ir/feed"
   },
   "filmhai-sinmaii-airani": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
   "galri-film": {
@@ -68,7 +68,7 @@
     "rss": "https://feed.pod.co/hese-khob"
   },
   "khatrh-angiz": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
   },
   "kit-aahng": {
@@ -92,7 +92,7 @@
     "rss": "https://feeds.sounder.fm/16420/rss.xml"
   },
   "marktplatz-zban-aalmani-dr-aghtsad": {
-    "error": "ParseError: syntax error: line 1, column 0",
+    "error": "ValueError: no items in feed",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
   },
   "o-ain-tnha-bazi-jhan-bod": {
