@@ -112,8 +112,12 @@
     "rss": "https://feed.podkadeh.cloud/podcastxml/footballlab.xml"
   },
   "podcast-khakstri-roan": {
-    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
     "rss": "https://feed.dotcast.org/p/1orxtms6/feed.xml"
+  },
+  "podcast-khrghh": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://feed.dotcast.org/p/7nmh50se/feed.xml"
   },
   "podcast-obmstr-plas": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
@@ -154,6 +158,14 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
+  },
+  "sdai-bazar": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://feed.dotcast.org/p/bozvcayr/feed.xml"
+  },
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
