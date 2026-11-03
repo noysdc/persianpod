@@ -18481,6 +18481,7 @@
       {
         "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgND-3aGpCwyiAQdsaWJyYXJ5/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgMiGlva8CgyiAQdsaWJyYXJ5.mp3",
         "at": "2022-07-14T07:00:00Z",
+        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgMiGlva8CgyiAQdsaWJyYXJ5.jpg?_=1668022736",
         "t": "احساس ناستالژیا یک پایه درعلم روانشناسی"
       },
       {
@@ -45381,20 +45382,26 @@
   },
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.7,
-    "avg_length": 20,
-    "episodes": 34,
-    "eps_365": 34,
-    "eps_90": 34,
+    "avg_length": 19,
+    "episodes": 35,
+    "eps_365": 35,
+    "eps_90": 35,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T18:30:17Z",
-    "last_link": "https://furbodm.com",
-    "last_title": "NETFLIX #8 | چرا نت‌فلیکس به سمت تولید فیلم و سریال اختصاصی رفت؟",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T11:29:07Z",
+    "last_link": "https://furbodm.com/",
+    "last_title": "NETFLIX #9 | چرا نت‌فلیکس همه قسمت‌های فصل سریال رو یک‌جا منتشر می‌کنه؟",
     "max_length": 38,
     "median_length": 22,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae9c584d6cfd0e90885b580/media.mp3",
+        "at": "2026-11-03T11:29:07Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793705204610-6f01c690-513a-46a2-a2d7-6dc0258e9d3e.jpeg",
+        "t": "NETFLIX #9 | چرا نت‌فلیکس همه قسمت‌های فصل سریال رو یک‌جا منتشر می‌کنه؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae78539043d1c282f434ecf/media.mp3",
         "at": "2026-11-01T18:30:17Z",
@@ -45436,15 +45443,15 @@
         "at": "2026-10-31T17:52:00Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469343646-9eaca649-3036-4484-acb8-00d5aafd0a7d.jpeg",
         "t": "NETFLIX #2 | محصول اولیه نت‌فلیکس چی بود؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62b90ace2d1bf65357ee6/media.mp3",
-        "at": "2026-10-31T17:50:00Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469227474-d16602c6-2ce0-4a6a-bf12-7738a7b41eed.jpeg",
-        "t": "NETFLIX #1 | قبل از نت‌فلیکس مردم چطوری فیلم نگاه می‌کردن؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T11:29:07Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793705204610-6f01c690-513a-46a2-a2d7-6dc0258e9d3e.jpeg",
+        "link": "https://furbodm.com/",
+        "title": "NETFLIX #9 | چرا نت‌فلیکس همه قسمت‌های فصل سریال رو یک‌جا منتشر می‌کنه؟"
+      },
       {
         "at": "2026-11-01T18:30:17Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793557613103-1b043e7f-af98-4dab-a966-f2d46ff10cb3.jpeg",
@@ -45456,12 +45463,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469628275-e016b549-67e5-46cf-99c5-269e1f22b98c.jpeg",
         "link": "https://furbodm.com/",
         "title": "NETFLIX #7 | داستان اولین شکست استراتژیک نت‌فلیکس با کوئیکستر چی بود؟"
-      },
-      {
-        "at": "2026-10-31T18:00:00Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469570176-a886ac2a-cca3-4003-bf3f-d3674fdf7f3f.jpeg",
-        "link": "https://furbodm.com/",
-        "title": "NETFLIX #6 | تغییر مسیر نت‌فلیکس از دی‌وی‌دی به استریم چطوری بود؟"
       }
     ],
     "recent_30d": [
@@ -45476,7 +45477,7 @@
       0,
       0,
       0,
-      34
+      35
     ],
     "status": "active"
   },
@@ -66413,21 +66414,26 @@
     "status": "inactive"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.3,
+    "avg_gap_days": 4.2,
     "avg_length": 21,
-    "episodes": 487,
-    "eps_365": 86,
-    "eps_90": 27,
+    "episodes": 488,
+    "eps_365": 87,
+    "eps_90": 28,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/08/11",
-    "last_at": "2026-11-02T12:00:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/7nso531fi6/",
-    "last_title": "انتخابات کنگره و گزارش اشتغال امریکا؛ کدام نتیجه بازار را غافلگیر می‌کند؟",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T11:10:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/ljd0bmj542/",
+    "last_title": "بازارها در روز انتخابات آمریکا؛ بازگشت نفت و تداوم فشار بر سهام و طلا",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/ljd0bmj542/2026-11-03-11-23-37.mp3",
+        "at": "2026-11-03T11:10:00Z",
+        "t": "بازارها در روز انتخابات آمریکا؛ بازگشت نفت و تداوم فشار بر سهام و طلا"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/7nso531fi6/2026-11-02-12-32-24.mp3",
         "at": "2026-11-02T12:00:00Z",
@@ -66462,14 +66468,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/y64cqvqehs/2026-10-23-11-57-20.mp3",
         "at": "2026-10-23T11:40:00Z",
         "t": "معمای بازار؛ چرا طلا و سهام با وجود افت بازدهی سقوط کردند؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/8r4q9thjlq/2026-10-22-12-24-51.mp3",
-        "at": "2026-10-22T12:10:00Z",
-        "t": "طلا زیر فشار تنش‌ها؛ وقتی پناهگاه امن هم فروخته می‌شود"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T11:10:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/ljd0bmj542/",
+        "title": "بازارها در روز انتخابات آمریکا؛ بازگشت نفت و تداوم فشار بر سهام و طلا"
+      },
       {
         "at": "2026-11-02T12:00:00Z",
         "link": "https://dotcast.org/p/bozvcayr/7nso531fi6/",
@@ -66479,11 +66485,6 @@
         "at": "2026-10-30T11:50:00Z",
         "link": "https://dotcast.org/p/bozvcayr/hd3meukk5h/",
         "title": "افت همزمان طلا و نزدک؛ چرا کاهش بازده اوراق کافی نبود؟"
-      },
-      {
-        "at": "2026-10-29T10:20:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/eydmxb5zxb/",
-        "title": "شوک آلفابت به وال‌استریت؛ نگاه بازار به آمازون و تورم آمریکا"
       }
     ],
     "recent_30d": [
@@ -66498,7 +66499,7 @@
       0,
       0,
       7,
-      20
+      21
     ],
     "status": "active"
   },
@@ -69861,21 +69862,27 @@
     "status": "active"
   },
   "siaht-namh-abrahim-big-haj-siah-taj-alsltnh": {
-    "avg_gap_days": 6.6,
+    "avg_gap_days": 7.4,
     "avg_length": 26,
-    "episodes": 77,
-    "eps_365": 49,
-    "eps_90": 3,
+    "episodes": 78,
+    "eps_365": 50,
+    "eps_90": 4,
     "first_at": "2025-09-23",
     "first_year": 1404,
-    "last": "1405/06/28",
-    "last_at": "2026-09-19T18:25:58Z",
-    "last_link": "https://shows.acast.com/siahat01/episodes/siahaj23",
-    "last_title": "سیاحت‌نامه حاج سیاح-(23) ورود به اصفهان، محلات، سلطان‌آباد",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T11:29:34Z",
+    "last_link": "https://shows.acast.com/siahat01/episodes/siahat24",
+    "last_title": "سیاحت‌نامه حاج سیاح-(24) دفعه‌ی دوم ورود به تهران و حرکت به سوی رشت و انزلی",
     "max_length": 38,
     "median_length": 26,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68d2871040bbaff2b9c7d089/e/6ae9c59d4ca6aa86040ae9dd/media.mp3",
+        "at": "2026-11-03T11:29:34Z",
+        "i": "https://assets.pippa.io/shows/68d2871040bbaff2b9c7d089/1793705293458-6fad46cb-6666-4b98-96b0-24880dffe0b6.jpeg",
+        "t": "سیاحت‌نامه حاج سیاح-(24) دفعه‌ی دوم ورود به تهران و حرکت به سوی رشت و انزلی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/68d2871040bbaff2b9c7d089/e/6aaed3b63544546cb8cdf597/media.mp3",
         "at": "2026-09-19T18:25:58Z",
@@ -69917,15 +69924,15 @@
         "at": "2026-06-23T12:25:17Z",
         "i": "https://assets.pippa.io/shows/68d2871040bbaff2b9c7d089/1782217428725-11842891-1a7b-4d28-81de-b36b4e4ddc77.jpeg",
         "t": "سیاحت‌نامه حاج سیاح-(20) ورود به سیستان و بم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/68d2871040bbaff2b9c7d089/e/6a37cc404a187774acb6f007/media.mp3",
-        "at": "2026-06-21T11:34:18Z",
-        "i": "https://assets.pippa.io/shows/68d2871040bbaff2b9c7d089/1782041519099-995580f1-297c-40c1-9bf3-45c985c41edd.jpeg",
-        "t": "خاطرات تاج‌السلطنه (13) - عشق جوانی تاج‌السلطنه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-03T11:29:34Z",
+        "i": "https://assets.pippa.io/shows/68d2871040bbaff2b9c7d089/1793705293458-6fad46cb-6666-4b98-96b0-24880dffe0b6.jpeg",
+        "link": "https://shows.acast.com/siahat01/episodes/siahat24",
+        "title": "سیاحت‌نامه حاج سیاح-(24) دفعه‌ی دوم ورود به تهران و حرکت به سوی رشت و انزلی"
+      },
       {
         "at": "2026-09-19T18:25:58Z",
         "i": "https://assets.pippa.io/shows/68d2871040bbaff2b9c7d089/1789842094156-9559b09e-ca81-4aa1-8479-39d169074e49.jpeg",
@@ -69937,12 +69944,6 @@
         "i": "https://assets.pippa.io/shows/68d2871040bbaff2b9c7d089/1786800048982-417168a0-13bf-4efe-9f14-cb1f45294503.jpeg",
         "link": "https://shows.acast.com/siahat01/episodes/taj16",
         "title": "خاطرات تاج‌السلطنه (16) - ترک نماز و دین- طلاق"
-      },
-      {
-        "at": "2026-08-05T16:54:40Z",
-        "i": "https://assets.pippa.io/shows/68d2871040bbaff2b9c7d089/1785948814726-497620a5-73c0-4f72-a804-41fc5adc8803.jpeg",
-        "link": "https://shows.acast.com/siahat01/episodes/siahat22",
-        "title": "سیاحت‌نامه حاج سیاح-(22) ورود به شیراز، یزد، اردکان، نایین  اردکان"
       }
     ],
     "recent_30d": [
@@ -69957,7 +69958,7 @@
       0,
       2,
       1,
-      0
+      1
     ],
     "status": "active"
   },
