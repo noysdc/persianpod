@@ -57559,25 +57559,19 @@
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
     "avg_length": 31,
-    "episodes": 165,
-    "eps_365": 88,
-    "eps_90": 88,
+    "episodes": 164,
+    "eps_365": 87,
+    "eps_90": 87,
     "first_at": "2023-05-06",
     "first_year": 1402,
     "last": "1405/08/12",
-    "last_at": "2026-11-03T23:44:42Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-28-e3rmt07",
-    "last_title": "Farmanfarmaian, Khodadad Part 28",
+    "last_at": "2026-11-03T04:21:16Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-27-e3rkrvi",
+    "last_title": "Farmanfarmaian, Khodadad Part 27",
     "max_length": 63,
     "median_length": 31,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128725447/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F4d09c536-3efb-c259-ab60-10cebfd63389.mp3",
-        "at": "2026-11-03T23:44:42Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793749496637-33d4cc2d6eb3c.jpg",
-        "t": "Farmanfarmaian, Khodadad Part 28"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128658866/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F606e6cdd-2634-fc8f-e878-c62711efbe59.mp3",
         "at": "2026-11-03T04:21:16Z",
@@ -57619,15 +57613,15 @@
         "at": "2026-11-03T04:00:06Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793678388892-7e7305b87ba2d.jpg",
         "t": "Farmanfarmaian, Khodadad Part 21"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128658117/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Fd0936324-6c37-413f-b85c-8d9324f2667b.mp3",
+        "at": "2026-11-03T03:57:47Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793678254082-6d92852d1d7a.jpg",
+        "t": "Farmanfarmaian, Khodadad Part 20"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-03T23:44:42Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793749496637-33d4cc2d6eb3c.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-28-e3rmt07",
-        "title": "Farmanfarmaian, Khodadad Part 28"
-      },
       {
         "at": "2026-11-03T04:21:16Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793679668638-93db487cb5da8.jpg",
@@ -57639,6 +57633,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793679542152-ee6f1b7345245.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-26-e3rkrtj",
         "title": "Farmanfarmaian, Khodadad Part 26"
+      },
+      {
+        "at": "2026-11-03T04:17:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793679384390-68e8a88467825.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-25-e3rkrqq",
+        "title": "Farmanfarmaian, Khodadad Part 25"
       }
     ],
     "recent_30d": [
@@ -57653,7 +57653,7 @@
       0,
       0,
       0,
-      88
+      87
     ],
     "status": "active"
   },
