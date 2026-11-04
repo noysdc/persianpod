@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: jekyll-build-perf-{{ github.ref }}
+  group: jekyll-build-perf-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
