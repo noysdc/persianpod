@@ -17,8 +17,8 @@ pi_id: 7789011
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # تفسیرو خوانش نیمه ی تاریک وجود نوشته ی دبی فورد
