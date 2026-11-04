@@ -626,7 +626,7 @@
   });
 
   var url = document.body.getAttribute("data-search");
-  var ssrCount = out.querySelectorAll(".pd-card").length;     // تعداد کارت‌های HTML تازه‌ی همین صفحه، مرجع درستی داده
+  var ssrCount = parseInt(out.getAttribute("data-total"), 10) || out.querySelectorAll(".pd-card").length;     // تعداد کل پادکست‌ها؛ مستقل از تعداد کارت‌های اولیه
   function loadData(bust) {
     var u = bust ? url + (url.indexOf("?") > -1 ? "&" : "?") + "r=" + Date.now() : url;
     return fetch(u, bust ? { cache: "reload" } : undefined).then(function (r) { if (!r.ok) throw 0; return r.json(); });
