@@ -4124,8 +4124,8 @@
       2,
       5,
       3,
-      2,
-      4,
+      3,
+      3,
       3,
       3,
       3
@@ -66336,21 +66336,26 @@
     "status": "inactive"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.3,
-    "avg_length": 21,
-    "episodes": 488,
-    "eps_365": 86,
-    "eps_90": 28,
+    "avg_gap_days": 4.2,
+    "avg_length": 22,
+    "episodes": 489,
+    "eps_365": 87,
+    "eps_90": 29,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T11:10:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/ljd0bmj542/",
-    "last_title": "بازارها در روز انتخابات آمریکا؛ بازگشت نفت و تداوم فشار بر سهام و طلا",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T11:40:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/2jk8lzf7l9/",
+    "last_title": "پیروزی دموکرات‌ها و جهش طلا؛ بازارها چه چیزی را قیمت‌گذاری می‌کنند؟",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/2jk8lzf7l9/2026-11-04-12-01-09.mp3",
+        "at": "2026-11-04T11:40:00Z",
+        "t": "پیروزی دموکرات‌ها و جهش طلا؛ بازارها چه چیزی را قیمت‌گذاری می‌کنند؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/ljd0bmj542/2026-11-03-11-23-37.mp3",
         "at": "2026-11-03T11:10:00Z",
@@ -66385,14 +66390,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/g5r7mwjlr7/2026-10-26-11-39-58.mp3",
         "at": "2026-10-26T11:30:00Z",
         "t": "آرامش شکننده بازار؛ هفته بانک‌های مرکزی و غول‌های فناوری"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/y64cqvqehs/2026-10-23-11-57-20.mp3",
-        "at": "2026-10-23T11:40:00Z",
-        "t": "معمای بازار؛ چرا طلا و سهام با وجود افت بازدهی سقوط کردند؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T11:40:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/2jk8lzf7l9/",
+        "title": "پیروزی دموکرات‌ها و جهش طلا؛ بازارها چه چیزی را قیمت‌گذاری می‌کنند؟"
+      },
       {
         "at": "2026-11-03T11:10:00Z",
         "link": "https://dotcast.org/p/bozvcayr/ljd0bmj542/",
@@ -66402,11 +66407,6 @@
         "at": "2026-11-02T12:00:00Z",
         "link": "https://dotcast.org/p/bozvcayr/7nso531fi6/",
         "title": "انتخابات کنگره و گزارش اشتغال امریکا؛ کدام نتیجه بازار را غافلگیر می‌کند؟"
-      },
-      {
-        "at": "2026-10-30T11:50:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/hd3meukk5h/",
-        "title": "افت همزمان طلا و نزدک؛ چرا کاهش بازده اوراق کافی نبود؟"
       }
     ],
     "recent_30d": [
@@ -66421,7 +66421,7 @@
       0,
       0,
       7,
-      21
+      22
     ],
     "status": "active"
   },
