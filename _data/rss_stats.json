@@ -9304,8 +9304,8 @@
       1,
       6,
       3,
-      0,
-      2
+      1,
+      1
     ],
     "status": "active"
   },
@@ -62528,10 +62528,10 @@
     "status": "active"
   },
   "radiodoor": {
-    "avg_gap_days": 36.1,
+    "avg_gap_days": 38.6,
     "avg_length": 85,
     "episodes": 61,
-    "eps_365": 11,
+    "eps_365": 10,
     "eps_90": 4,
     "first_at": "2023-12-25",
     "first_year": 1402,
