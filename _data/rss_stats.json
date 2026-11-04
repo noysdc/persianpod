@@ -3074,19 +3074,25 @@
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.6,
     "avg_length": 6,
-    "episodes": 29,
-    "eps_365": 29,
-    "eps_90": 29,
+    "episodes": 30,
+    "eps_365": 30,
+    "eps_90": 30,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T19:05:07Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3ri9g1",
-    "last_title": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T17:22:49Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
+    "last_title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)",
     "max_length": 10,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/128781996/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fd0d322a2-b448-a8f5-1487-d65fbe8525cb.mp3",
+        "at": "2026-11-04T17:22:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
+        "t": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
+      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/128574401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F39ddd9c3-b13c-c655-fe26-70dc3a0daa7b.mp3",
         "at": "2026-11-01T19:05:07Z",
@@ -3128,15 +3134,15 @@
         "at": "2026-10-12T11:22:25Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1791804244385-b0917308b42b8.jpg",
         "t": "کلیله‌ودمنه کودکانه | قسمت هشتم | پایان داستان"
-      },
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/126410242/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-28%2Fa97cc378-584b-b858-a304-3a1b6eca9119.mp3",
-        "at": "2026-09-28T10:25:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1790591107531-8d10289b0ad3b.jpg",
-        "t": "شاهنامه کودکانه | قسمت هفتم | فریدون و پایان ضحّاک"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T17:22:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
+        "title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
+      },
       {
         "at": "2026-11-01T19:05:07Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793559915422-eb9a246b41b18.jpg",
@@ -3148,12 +3154,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793364589985-916c09dd464d3.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rdlc5",
         "title": "کلیله و دمنه کودکانه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
-      },
-      {
-        "at": "2026-10-28T14:34:33Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793198080683-fbff1d2126bfb.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3r93rr",
-        "title": "کلیله و دمنه کودکانه | قسمت دهم | موش کوچولوی مهربون(۲)"
       }
     ],
     "recent_30d": [
@@ -3168,7 +3168,7 @@
       0,
       14,
       8,
-      7
+      8
     ],
     "status": "active"
   },
@@ -58263,87 +58263,87 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
-    "avg_length": 28,
-    "episodes": 183,
-    "eps_365": 106,
-    "eps_90": 106,
+    "avg_length": 27,
+    "episodes": 209,
+    "eps_365": 132,
+    "eps_90": 132,
     "first_at": "2023-05-06",
     "first_year": 1402,
     "last": "1405/08/13",
-    "last_at": "2026-11-04T03:39:28Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-14-e3rn8n9",
-    "last_title": "Nozari-Kasrai, Mehri Part 14",
+    "last_at": "2026-11-04T20:30:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-26-e3rp0nk",
+    "last_title": "Hashemi, Manouchehr Part 26",
     "max_length": 63,
     "median_length": 31,
     "min_length": 1,
     "play": [
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737449/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F7fb0a504-a07d-048d-d4e8-57eb825a021c.mp3",
-        "at": "2026-11-04T03:39:28Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763561243-e474f1331996.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 14"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794804/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F1cf95b14-523b-3bea-81c6-32bc98b9ac0e.mp3",
+        "at": "2026-11-04T20:30:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824191261-55b66a59970c2.jpg",
+        "t": "Hashemi, Manouchehr Part 26"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737417/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F7b8ebb46-f863-9948-de2c-62b2aa213479.mp3",
-        "at": "2026-11-04T03:39:03Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763530126-3be08313c663.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 13"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794772/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Ff75e1bfc-4207-0169-4887-833cceaceb8b.mp3",
+        "at": "2026-11-04T20:29:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824156710-c3bfb8bbffc3c.jpg",
+        "t": "Hashemi, Manouchehr Part 25"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737396/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F2857f4b3-a7c3-d2f0-67e0-a2249361e79f.mp3",
-        "at": "2026-11-04T03:38:30Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763495878-a27d04bb745c9.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 12"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794740/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F07c77bfa-b16c-0983-02f9-2d153f700c3e.mp3",
+        "at": "2026-11-04T20:28:58Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824116477-9251a2ec81242.jpg",
+        "t": "Hashemi, Manouchehr Part 24"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737364/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fb782045b-68c7-147b-0c6d-2a0bba6ef2ce.mp3",
-        "at": "2026-11-04T03:37:57Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763465455-275bb83e6256f.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 11"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794711/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F062dbae2-c46f-f2a9-9189-1efb4df14618.mp3",
+        "at": "2026-11-04T20:28:17Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824081385-d3682b30d361e.jpg",
+        "t": "Hashemi, Manouchehr Part 23"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737338/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F755d0207-4c30-9ac2-ae73-3a93accb0e70.mp3",
-        "at": "2026-11-04T03:37:24Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763430590-522a4157d1b26.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 10"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794635/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F18cdc68e-2b5d-1a98-1d2c-3ede29ab4434.mp3",
+        "at": "2026-11-04T20:27:43Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824046853-d2ece5093a899.jpg",
+        "t": "Hashemi, Manouchehr Part 22"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737314/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fc88e5464-e0bb-28c0-2a0e-e386cb295548.mp3",
-        "at": "2026-11-04T03:36:51Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763397505-0034d9ca866cb.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 9"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794612/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F6a5d56be-2476-f72b-67b7-833204a09268.mp3",
+        "at": "2026-11-04T20:27:08Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824018408-952fc09f748a2.jpg",
+        "t": "Hashemi, Manouchehr Part 21"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737286/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fc254ff66-ad4b-ca74-6361-dd2fab5b631e.mp3",
-        "at": "2026-11-04T03:36:19Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763365135-477eceb40c94e.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 8"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794569/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fa6e622c3-7c0d-4ed0-dc3f-3be8f8336788.mp3",
+        "at": "2026-11-04T20:26:39Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793823983933-f69465145f3b9.jpg",
+        "t": "Hashemi, Manouchehr Part 20"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737273/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fdff58904-0beb-f126-398b-03a1bb69b6db.mp3",
-        "at": "2026-11-04T03:35:47Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763342469-1951cc5bfa796.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 7"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794541/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Ffc0a3d70-4cfa-4f6c-bb57-b499bae1209d.mp3",
+        "at": "2026-11-04T20:26:04Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793823947261-c3b9ce02872b4.jpg",
+        "t": "Hashemi, Manouchehr Part 19"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-04T03:39:28Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763561243-e474f1331996.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-14-e3rn8n9",
-        "title": "Nozari-Kasrai, Mehri Part 14"
+        "at": "2026-11-04T20:30:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824191261-55b66a59970c2.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-26-e3rp0nk",
+        "title": "Hashemi, Manouchehr Part 26"
       },
       {
-        "at": "2026-11-04T03:39:03Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763530126-3be08313c663.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-13-e3rn8m9",
-        "title": "Nozari-Kasrai, Mehri Part 13"
+        "at": "2026-11-04T20:29:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824156710-c3bfb8bbffc3c.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-25-e3rp0mk",
+        "title": "Hashemi, Manouchehr Part 25"
       },
       {
-        "at": "2026-11-04T03:38:30Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763495878-a27d04bb745c9.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-12-e3rn8lk",
-        "title": "Nozari-Kasrai, Mehri Part 12"
+        "at": "2026-11-04T20:28:58Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824116477-9251a2ec81242.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-24-e3rp0lk",
+        "title": "Hashemi, Manouchehr Part 24"
       }
     ],
     "recent_30d": [
@@ -58358,7 +58358,7 @@
       0,
       0,
       0,
-      106
+      132
     ],
     "status": "active"
   },
