@@ -434,7 +434,7 @@
       }).join("");
       markScrollable();
     } else {
-      out.innerHTML = '<div class="pd-grid">' + list.map(card).join("") + "</div>";
+      out.innerHTML = '<div class="pd-grid">' + list.slice(0, displayLimit).map(card).join("") + "</div>";
     }
 
     var moreButton = $("#pd-more");
