@@ -5367,21 +5367,27 @@
     "status": "active"
   },
   "anglisi-iadbgirid": {
-    "avg_gap_days": 9.8,
+    "avg_gap_days": 10.1,
     "avg_length": 9,
-    "episodes": 160,
-    "eps_365": 36,
-    "eps_90": 6,
+    "episodes": 161,
+    "eps_365": 37,
+    "eps_90": 7,
     "first_at": "2022-03-02",
     "first_year": 1400,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T05:16:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/121-picking-up-a-prescription/gjpwrr2ha",
-    "last_title": "#121 Picking up a prescription (Med) - قسمت SBS Learn English ۱۲۱؛ دریافت دارو از داروخانه",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T03:32:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/122-asking-someone-to-take-your-photo-med/bj4pdea57",
+    "last_title": "#122 Asking someone to take your photo (Med) - قسمت SBS Learn English ۱۲۲: چطور از دیگران بخواهیم از ما عکس بگیرند؟",
     "max_length": 20,
     "median_length": 13,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/sbs-learn-english-persian/20261104143250_131122-persian-02a8fe81-26dc-4bec-b0ce-6d8d05e7fe43.mp3?awCollectionId=sbs-learn-english-persian&awGenre=Society+and+Culture&awEpisodeId=000001a1-a492-d7ec-a7e3-bed2ea0e0000&dur_cat=3",
+        "at": "2026-11-04T03:32:00Z",
+        "i": "https://sbs-rss.streamguys1.com/sbs-learn-english-persian/20261104143423_545426-learn-english-in-persian-3000-x-3000.jpg",
+        "t": "#122 Asking someone to take your photo (Med) - قسمت SBS Learn English ۱۲۲: چطور از دیگران بخواهیم از ما عکس بگیرند؟"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/sbs-learn-english-persian/20261014161655_682073-persian-0e0daac3-6624-4fbd-b1e0-76f55f21d8bf.mp3?awCollectionId=sbs-learn-english-persian&awGenre=Society+and+Culture&awEpisodeId=000001a1-38d2-d3ab-a3eb-7bdeed750000&dur_cat=3",
         "at": "2026-10-14T05:16:00Z",
@@ -5423,15 +5429,15 @@
         "at": "2026-07-27T06:12:00Z",
         "i": "https://sbs-rss.streamguys1.com/sbs-learn-english-persian/20260727161252_938839-learn-english-in-persian-3000-x-3000.jpg",
         "t": "#115 Working on the side (Med) - قسمت SBS Learn English ۱۱۵: کار جانبی داشتن"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/sbs-learn-english-persian/20260714144232-persian-6853446e-5e07-4194-b785-be382bd21855.mp3?awCollectionId=sbs-learn-english-persian&awGenre=Society+and+Culture&awEpisodeId=0000019f-5ee1-de23-afbf-7ef5ab9f0000&dur_cat=3",
-        "at": "2026-07-14T04:42:00Z",
-        "i": "https://sbs-rss.streamguys1.com/sbs-learn-english-persian/20260714144408_916239-learn-english-in-persian-3000-x-3000.jpg",
-        "t": "#114 Talking about the Census and data security (Med) - قسمت SBS Learn English ۱۱۴: صحبت درباره سرشماری و امنیت اطلاعات"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T03:32:00Z",
+        "i": "https://sbs-rss.streamguys1.com/sbs-learn-english-persian/20261104143423_545426-learn-english-in-persian-3000-x-3000.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/122-asking-someone-to-take-your-photo-med/bj4pdea57",
+        "title": "#122 Asking someone to take your photo (Med) - قسمت SBS Learn English ۱۲۲: چطور از دیگران بخواهیم از ما عکس بگیرند؟"
+      },
       {
         "at": "2026-10-14T05:16:00Z",
         "i": "https://sbs-rss.streamguys1.com/sbs-learn-english-persian/20261014161749_790679-learn-english-in-persian-3000-x-3000.jpg",
@@ -5443,12 +5449,6 @@
         "i": "https://sbs-rss.streamguys1.com/sbs-learn-english-persian/20261006133126_242361-learn-english-in-persian-3000-x-3000.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/120-going-to-a-wedding/ez75vczmh",
         "title": "#120 Going to a wedding (Med) - قسمت SBS Learn English ۱۲۰: رفتن به یک مراسم عروسی"
-      },
-      {
-        "at": "2026-09-24T05:04:00Z",
-        "i": "https://sbs-rss.streamguys1.com/sbs-learn-english-persian/20260924150505_859335-learn-english-in-persian-3000-x-3000.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/119-talking-about-hay-fever/5pk37dy93",
-        "title": "#119 Talking about hay fever (Med) - قسمت SBS Learn English ۱۱۹: صحبت کردن درباره حساسیت فصلی"
       }
     ],
     "recent_30d": [
@@ -5463,7 +5463,7 @@
       2,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -57558,87 +57558,87 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
-    "avg_length": 30,
-    "episodes": 169,
-    "eps_365": 92,
-    "eps_90": 92,
+    "avg_length": 28,
+    "episodes": 183,
+    "eps_365": 106,
+    "eps_90": 106,
     "first_at": "2023-05-06",
     "first_year": 1402,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T23:57:28Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-32-e3rmtij",
-    "last_title": "Farmanfarmaian, Khodadad Part 32",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T03:39:28Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-14-e3rn8n9",
+    "last_title": "Nozari-Kasrai, Mehri Part 14",
     "max_length": 63,
     "median_length": 31,
     "min_length": 1,
     "play": [
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128726035/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F7a56941f-08ad-80ec-1be7-ed07c76f30f9.mp3",
-        "at": "2026-11-03T23:57:28Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793750234437-2ef93955ac33d.jpg",
-        "t": "Farmanfarmaian, Khodadad Part 32"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737449/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F7fb0a504-a07d-048d-d4e8-57eb825a021c.mp3",
+        "at": "2026-11-04T03:39:28Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763561243-e474f1331996.jpg",
+        "t": "Nozari-Kasrai, Mehri Part 14"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128725968/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F68e0098b-0d3c-6c38-b80e-a2a417d4dcbb.mp3",
-        "at": "2026-11-03T23:56:02Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793750144959-f93f89ac81f0e.jpg",
-        "t": "Farmanfarmaian, Khodadad Part 31"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737417/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F7b8ebb46-f863-9948-de2c-62b2aa213479.mp3",
+        "at": "2026-11-04T03:39:03Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763530126-3be08313c663.jpg",
+        "t": "Nozari-Kasrai, Mehri Part 13"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128725824/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F42bfcb3d-4403-cdb8-4b36-20db5c0759cc.mp3",
-        "at": "2026-11-03T23:53:15Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793749980849-a4c7aec2340c.jpg",
-        "t": "Farmanfarmaian, Khodadad Part 30"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737396/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F2857f4b3-a7c3-d2f0-67e0-a2249361e79f.mp3",
+        "at": "2026-11-04T03:38:30Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763495878-a27d04bb745c9.jpg",
+        "t": "Nozari-Kasrai, Mehri Part 12"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128725667/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Fc526915f-6231-608f-560b-96566a1182c3.mp3",
-        "at": "2026-11-03T23:49:38Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793749764505-f91a653afb21.jpg",
-        "t": "Farmanfarmaian, Khodadad Part 29"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737364/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fb782045b-68c7-147b-0c6d-2a0bba6ef2ce.mp3",
+        "at": "2026-11-04T03:37:57Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763465455-275bb83e6256f.jpg",
+        "t": "Nozari-Kasrai, Mehri Part 11"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128725447/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F4d09c536-3efb-c259-ab60-10cebfd63389.mp3",
-        "at": "2026-11-03T23:44:42Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793749496637-33d4cc2d6eb3c.jpg",
-        "t": "Farmanfarmaian, Khodadad Part 28"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737338/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F755d0207-4c30-9ac2-ae73-3a93accb0e70.mp3",
+        "at": "2026-11-04T03:37:24Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763430590-522a4157d1b26.jpg",
+        "t": "Nozari-Kasrai, Mehri Part 10"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128658866/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F606e6cdd-2634-fc8f-e878-c62711efbe59.mp3",
-        "at": "2026-11-03T04:21:16Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793679668638-93db487cb5da8.jpg",
-        "t": "Farmanfarmaian, Khodadad Part 27"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737314/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fc88e5464-e0bb-28c0-2a0e-e386cb295548.mp3",
+        "at": "2026-11-04T03:36:51Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763397505-0034d9ca866cb.jpg",
+        "t": "Nozari-Kasrai, Mehri Part 9"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128658803/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Fafeccfcf-8ede-af80-eb7e-924fed9e5656.mp3",
-        "at": "2026-11-03T04:19:17Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793679542152-ee6f1b7345245.jpg",
-        "t": "Farmanfarmaian, Khodadad Part 26"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737286/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fc254ff66-ad4b-ca74-6361-dd2fab5b631e.mp3",
+        "at": "2026-11-04T03:36:19Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763365135-477eceb40c94e.jpg",
+        "t": "Nozari-Kasrai, Mehri Part 8"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128658714/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Fc1ab1a7c-6cac-21a7-1f1e-15306e9ab1fb.mp3",
-        "at": "2026-11-03T04:17:20Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793679384390-68e8a88467825.jpg",
-        "t": "Farmanfarmaian, Khodadad Part 25"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737273/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fdff58904-0beb-f126-398b-03a1bb69b6db.mp3",
+        "at": "2026-11-04T03:35:47Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763342469-1951cc5bfa796.jpg",
+        "t": "Nozari-Kasrai, Mehri Part 7"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-03T23:57:28Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793750234437-2ef93955ac33d.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-32-e3rmtij",
-        "title": "Farmanfarmaian, Khodadad Part 32"
+        "at": "2026-11-04T03:39:28Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763561243-e474f1331996.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-14-e3rn8n9",
+        "title": "Nozari-Kasrai, Mehri Part 14"
       },
       {
-        "at": "2026-11-03T23:56:02Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793750144959-f93f89ac81f0e.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-31-e3rmtgg",
-        "title": "Farmanfarmaian, Khodadad Part 31"
+        "at": "2026-11-04T03:39:03Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763530126-3be08313c663.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-13-e3rn8m9",
+        "title": "Nozari-Kasrai, Mehri Part 13"
       },
       {
-        "at": "2026-11-03T23:53:15Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793749980849-a4c7aec2340c.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-30-e3rmtc0",
-        "title": "Farmanfarmaian, Khodadad Part 30"
+        "at": "2026-11-04T03:38:30Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763495878-a27d04bb745c9.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-12-e3rn8lk",
+        "title": "Nozari-Kasrai, Mehri Part 12"
       }
     ],
     "recent_30d": [
@@ -57653,7 +57653,7 @@
       0,
       0,
       0,
-      92
+      106
     ],
     "status": "active"
   },
