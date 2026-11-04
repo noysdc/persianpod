@@ -59,10 +59,6 @@
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
   },
-  "green-gate-drichh-sbz": {
-    "error": "RuntimeError: HTTP 429 (Too Many Requests) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://radioiranshahr.org/feed/podcast?name=psychology"
-  },
   "hnr-jng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://namlik.me/rss/318"
@@ -82,10 +78,6 @@
   "kodkan-mana": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
-  },
-  "literature-with-dr-karimi-hakkak-adbiat-ba-dktr-krimi-hkak": {
-    "error": "RuntimeError: HTTP 429 (Too Many Requests) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://radioiranshahr.org/feed/podcast?name=dr-karimi"
   },
   "lzt-dniai-ktab": {
     "error": "RuntimeError: TimeoutError: The read operation timed out",
@@ -154,10 +146,6 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
-  },
-  "science-and-technology-news-akhbar-alm-o-tknolozhi": {
-    "error": "RuntimeError: HTTP 429 (Too Many Requests) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://radioiranshahr.org/feed/podcast?name=science-and-technology-news"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
