@@ -60,7 +60,7 @@
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
   },
   "green-gate-drichh-sbz": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "error": "RuntimeError: HTTP 429 (Too Many Requests) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://radioiranshahr.org/feed/podcast?name=psychology"
   },
   "hnr-jng": {
@@ -84,7 +84,7 @@
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
   },
   "literature-with-dr-karimi-hakkak-adbiat-ba-dktr-krimi-hkak": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "error": "RuntimeError: HTTP 429 (Too Many Requests) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://radioiranshahr.org/feed/podcast?name=dr-karimi"
   },
   "lzt-dniai-ktab": {
@@ -156,7 +156,7 @@
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
   "science-and-technology-news-akhbar-alm-o-tknolozhi": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "error": "RuntimeError: HTTP 429 (Too Many Requests) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://radioiranshahr.org/feed/podcast?name=science-and-technology-news"
   },
   "zban-o-adbiat": {
