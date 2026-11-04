@@ -69400,21 +69400,27 @@
     "status": "active"
   },
   "shar-ba-sdai-shaar": {
-    "avg_gap_days": 2.5,
+    "avg_gap_days": 2.6,
     "avg_length": 4,
-    "episodes": 348,
-    "eps_365": 142,
-    "eps_90": 32,
+    "episodes": 349,
+    "eps_365": 143,
+    "eps_90": 33,
     "first_at": "2025-01-23",
     "first_year": 1403,
-    "last": "1405/08/08",
-    "last_at": "2026-10-30T19:30:00Z",
-    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c1d9a295fc6e848987c2e",
-    "last_title": "فریدون مشیری | دست‌هامان",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T19:30:00Z",
+    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c1e2c7cf1b7ec45a52c41",
+    "last_title": "حسین منزوی | کسی نشناخت",
     "max_length": 44,
     "median_length": 4,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c1e2c7cf1b7ec45a52c41/media.mp3",
+        "at": "2026-11-04T19:30:00Z",
+        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450376464-7280b0aa-6449-45a8-815a-159c158e88d1.jpeg",
+        "t": "حسین منزوی | کسی نشناخت"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c1d9a295fc6e848987c2e/media.mp3",
         "at": "2026-10-30T19:30:00Z",
@@ -69456,15 +69462,15 @@
         "at": "2026-10-10T19:30:00Z",
         "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763449295111-ac217b7c-6a73-4271-a967-8b0187815ce2.jpeg",
         "t": "عالمتاج قائم مقامی | پیام به ناآمدگان | صدای مریم کوشا"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c1afc589629f7d6b0a008/media.mp3",
-        "at": "2026-10-06T19:30:00Z",
-        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763449555025-b2426b93-d86b-40a8-b2e7-8cbdb891fe08.jpeg",
-        "t": "هوشنگ ابتهاج | جمع پراکنده"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T19:30:00Z",
+        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450376464-7280b0aa-6449-45a8-815a-159c158e88d1.jpeg",
+        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1e2c7cf1b7ec45a52c41",
+        "title": "حسین منزوی | کسی نشناخت"
+      },
       {
         "at": "2026-10-30T19:30:00Z",
         "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450231551-24400fbd-1382-4070-9040-f5b029ea6c4d.jpeg",
@@ -69476,12 +69482,6 @@
         "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450034015-5e086637-bb39-4133-bef0-0c015f431618.jpeg",
         "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1cd4295fc6e848984d54",
         "title": "حسین پناهی | سه شعر کوتاه (با صدای شاعر)"
-      },
-      {
-        "at": "2026-10-23T19:30:00Z",
-        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763449069043-0bc2e6ec-514f-41fa-b3cb-90d12de5101b.jpeg",
-        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c190d295fc6e848977def",
-        "title": "بیژن الهی | آزادی و تو"
       }
     ],
     "recent_30d": [
@@ -69496,7 +69496,7 @@
       15,
       14,
       10,
-      8
+      9
     ],
     "status": "active"
   },
