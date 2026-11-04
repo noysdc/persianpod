@@ -3074,19 +3074,25 @@
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.6,
     "avg_length": 6,
-    "episodes": 29,
-    "eps_365": 29,
-    "eps_90": 29,
+    "episodes": 30,
+    "eps_365": 30,
+    "eps_90": 30,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T19:05:07Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3ri9g1",
-    "last_title": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T17:22:49Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
+    "last_title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)",
     "max_length": 10,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/128781996/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fd0d322a2-b448-a8f5-1487-d65fbe8525cb.mp3",
+        "at": "2026-11-04T17:22:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
+        "t": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
+      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/128574401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F39ddd9c3-b13c-c655-fe26-70dc3a0daa7b.mp3",
         "at": "2026-11-01T19:05:07Z",
@@ -3128,15 +3134,15 @@
         "at": "2026-10-12T11:22:25Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1791804244385-b0917308b42b8.jpg",
         "t": "کلیله‌ودمنه کودکانه | قسمت هشتم | پایان داستان"
-      },
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/126410242/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-28%2Fa97cc378-584b-b858-a304-3a1b6eca9119.mp3",
-        "at": "2026-09-28T10:25:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1790591107531-8d10289b0ad3b.jpg",
-        "t": "شاهنامه کودکانه | قسمت هفتم | فریدون و پایان ضحّاک"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T17:22:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
+        "title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
+      },
       {
         "at": "2026-11-01T19:05:07Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793559915422-eb9a246b41b18.jpg",
@@ -3148,12 +3154,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793364589985-916c09dd464d3.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rdlc5",
         "title": "کلیله و دمنه کودکانه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
-      },
-      {
-        "at": "2026-10-28T14:34:33Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793198080683-fbff1d2126bfb.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3r93rr",
-        "title": "کلیله و دمنه کودکانه | قسمت دهم | موش کوچولوی مهربون(۲)"
       }
     ],
     "recent_30d": [
@@ -3168,7 +3168,7 @@
       0,
       14,
       8,
-      7
+      8
     ],
     "status": "active"
   },
@@ -4880,19 +4880,25 @@
   "ali-sdart": {
     "avg_gap_days": 4.9,
     "avg_length": 32,
-    "episodes": 447,
-    "eps_365": 74,
-    "eps_90": 14,
+    "episodes": 448,
+    "eps_365": 75,
+    "eps_90": 15,
     "first_at": "2020-06-15",
     "first_year": 1399,
-    "last": "1405/08/05",
-    "last_at": "2026-10-27T01:32:08Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3r59mh",
-    "last_title": "صدارت⁠- سرنوشت نامشخص ما، با نقش‌آفرینی توسط ما مردم مشخص می‌شود، نه با دخالت قدرت‌ها و احزاب",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T21:29:15Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/------------e3rp41e",
+    "last_title": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم",
     "max_length": 146,
     "median_length": 38,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/2f313e0c/podcast/play/128798190/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fddb5f1e8-7935-42d2-604b-3f363e9138a8.mp3",
+        "at": "2026-11-04T21:29:15Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793827719022-7d664039ef3ab.jpg",
+        "t": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم"
+      },
       {
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/128148625/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F86d1b280-fce8-230c-d7b1-e99d9f78068e.mp3",
         "at": "2026-10-27T01:32:08Z",
@@ -4934,15 +4940,15 @@
         "at": "2026-09-21T21:57:23Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1790027804334-74bde1aa871e3.jpg",
         "t": "صدارت⁠- سرنوشت تنگه‌های هرمز و باب‌المندب، سرنوشت دنیا را رقم خواهد زد"
-      },
-      {
-        "a": "https://anchor.fm/s/2f313e0c/podcast/play/125873918/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-17%2F2494683d-5bef-da19-d13c-c0225399b9e1.mp3",
-        "at": "2026-09-17T16:51:40Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1789663875312-bacacd75f0443.jpg",
-        "t": "⁠صدارت⁠- نقش رسانه‌های شخصی در کاهش انحصار روایت‌سازی قدرت‌ها و کم‌اثرتر شدن اسلحه در دست ابرقدرت‌ها"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T21:29:15Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793827719022-7d664039ef3ab.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/------------e3rp41e",
+        "title": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم"
+      },
       {
         "at": "2026-10-27T01:32:08Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793064697238-da02b26520a9.jpg",
@@ -4954,12 +4960,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1792693972854-f2ac2f5a09b13.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qtuf6",
         "title": "صدارت-نیاز قدرت‌ها برای جابجایی جایگاه خادمان و خائنان، در جنگ روانی آن‌ها علیه ملت‌ها"
-      },
-      {
-        "at": "2026-10-20T00:43:47Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1792457011730-a0dde11efbc33.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qp4si",
-        "title": "صدارت⁠- تهدید «مادر همه بمب‌ها» توسط «مادر همه ابرقدرت‌ها» بعد از «مادر همه انتخابات‌ها»!؟"
       }
     ],
     "recent_30d": [
@@ -4974,7 +4974,7 @@
       5,
       5,
       4,
-      5
+      6
     ],
     "status": "active"
   },
@@ -58264,19 +58264,25 @@
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
     "avg_length": 27,
-    "episodes": 208,
-    "eps_365": 131,
-    "eps_90": 131,
+    "episodes": 209,
+    "eps_365": 132,
+    "eps_90": 132,
     "first_at": "2023-05-06",
     "first_year": 1402,
     "last": "1405/08/13",
-    "last_at": "2026-11-04T20:29:32Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-25-e3rp0mk",
-    "last_title": "Hashemi, Manouchehr Part 25",
+    "last_at": "2026-11-04T20:30:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-26-e3rp0nk",
+    "last_title": "Hashemi, Manouchehr Part 26",
     "max_length": 63,
     "median_length": 31,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794804/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F1cf95b14-523b-3bea-81c6-32bc98b9ac0e.mp3",
+        "at": "2026-11-04T20:30:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824191261-55b66a59970c2.jpg",
+        "t": "Hashemi, Manouchehr Part 26"
+      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128794772/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Ff75e1bfc-4207-0169-4887-833cceaceb8b.mp3",
         "at": "2026-11-04T20:29:32Z",
@@ -58318,15 +58324,15 @@
         "at": "2026-11-04T20:26:04Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793823947261-c3b9ce02872b4.jpg",
         "t": "Hashemi, Manouchehr Part 19"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794513/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F8fecd52b-7eca-638e-25a9-7c8eb0741f98.mp3",
-        "at": "2026-11-04T20:25:27Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793823912330-f1018b75ee0b4.jpg",
-        "t": "Hashemi, Manouchehr Part 18"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T20:30:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824191261-55b66a59970c2.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-26-e3rp0nk",
+        "title": "Hashemi, Manouchehr Part 26"
+      },
       {
         "at": "2026-11-04T20:29:32Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824156710-c3bfb8bbffc3c.jpg",
@@ -58338,12 +58344,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824116477-9251a2ec81242.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-24-e3rp0lk",
         "title": "Hashemi, Manouchehr Part 24"
-      },
-      {
-        "at": "2026-11-04T20:28:17Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824081385-d3682b30d361e.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-23-e3rp0kn",
-        "title": "Hashemi, Manouchehr Part 23"
       }
     ],
     "recent_30d": [
@@ -58358,7 +58358,7 @@
       0,
       0,
       0,
-      131
+      132
     ],
     "status": "active"
   },
