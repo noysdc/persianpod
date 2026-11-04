@@ -440,6 +440,7 @@
     var moreButton = $("#pd-more");
     if (moreButton) {
       moreButton.hidden = list.length <= displayLimit;
+      moreButton.disabled = moreButton.hidden;
       moreButton.textContent = moreButton.hidden ? "" : "نمایش " + toFa(Math.min(DISPLAY_STEP, list.length - displayLimit)) + " پادکست دیگر";
     }
 
