@@ -19199,7 +19199,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 9,
     "episodes": 249,
-    "eps_365": 188,
+    "eps_365": 187,
     "eps_90": 0,
     "first_at": "2020-10-17",
     "first_year": 1399,
@@ -19272,7 +19272,7 @@
     "recent_30d": [
       30,
       24,
-      30,
+      29,
       35,
       28,
       17,
@@ -63385,8 +63385,8 @@
     ],
     "recent_30d": [
       4,
-      4,
       5,
+      4,
       3,
       3,
       2,
@@ -64859,19 +64859,25 @@
   "rozanh-hai-tndrsti": {
     "avg_gap_days": 1.0,
     "avg_length": 19,
-    "episodes": 20,
-    "eps_365": 20,
-    "eps_90": 20,
+    "episodes": 21,
+    "eps_365": 21,
+    "eps_90": 21,
     "first_at": "2026-10-14",
     "first_year": 1405,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T03:00:00Z",
-    "last_link": "https://rss.com/podcasts/salamati/3280756",
-    "last_title": "درمان آرتروز با تحرک و بازسازی غضروف: پمپ جادویی مفاصل در سنین بالای ۵۰ سال",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T03:00:00Z",
+    "last_link": "https://rss.com/podcasts/salamati/3280760",
+    "last_title": "پیشگیری از تحلیل ماکولا با AREDS2: معجزه لوتئین و عینک آفتابی درونی چشم",
     "max_length": 30,
     "median_length": 18,
     "min_length": 12,
     "play": [
+      {
+        "a": "https://content.rss.com/episodes/406068/3280760/salamati/2026_10_30_17_20_06_2dc96dd3-4d90-43a6-bb65-ec3e1025a67f.mp3",
+        "at": "2026-11-04T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261030_171948_0775952437c76d9a2a4802d80bec04d7.jpg",
+        "t": "پیشگیری از تحلیل ماکولا با AREDS2: معجزه لوتئین و عینک آفتابی درونی چشم"
+      },
       {
         "a": "https://content.rss.com/episodes/406068/3280756/salamati/2026_10_30_17_18_13_6bc6d704-0b76-4d50-bc4a-21dc89f45191.mp3",
         "at": "2026-11-03T03:00:00Z",
@@ -64913,15 +64919,15 @@
         "at": "2026-10-27T03:00:00Z",
         "i": "https://media.rss.com/salamati/ep_cover_20261021_191943_5f32a63ad81ecf9701a6daf6d0bbb6c0.jpg",
         "t": "لبنیات، تغذیه و سلامت"
-      },
-      {
-        "a": "https://content.rss.com/episodes/406068/3254686/salamati/2026_10_21_19_08_25_bb052f48-bf2a-4edc-8a29-5deebe3ec4c7.mp3",
-        "at": "2026-10-26T03:00:00Z",
-        "i": "https://media.rss.com/salamati/ep_cover_20261021_190813_a49799b4043381c34bb4e3ad00ed49d4.jpg",
-        "t": "مهار زوال عقل: رویکردهای مدرن و سبک زندگی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261030_171948_0775952437c76d9a2a4802d80bec04d7.jpg",
+        "link": "https://rss.com/podcasts/salamati/3280760",
+        "title": "پیشگیری از تحلیل ماکولا با AREDS2: معجزه لوتئین و عینک آفتابی درونی چشم"
+      },
       {
         "at": "2026-11-03T03:00:00Z",
         "i": "https://media.rss.com/salamati/ep_cover_20261030_171804_de9c75fc6ee462d86d8ce0efbda44f1f.jpg",
@@ -64933,12 +64939,6 @@
         "i": "https://media.rss.com/salamati/ep_cover_20261028_211556_a1359f291ff95c8f4f51fbc0680921f6.jpg",
         "link": "https://rss.com/podcasts/salamati/3275179",
         "title": "درمان دردهای مفصلی با اصلاح کدهای بیولوژیک: معجزه رژیم مدیترانه‌ای و مهار التهاب"
-      },
-      {
-        "at": "2026-11-01T03:00:00Z",
-        "i": "https://media.rss.com/salamati/ep_cover_20261030_171619_ddb89030886bd767b217108db180764e.jpg",
-        "link": "https://rss.com/podcasts/salamati/3275176",
-        "title": "راز پاکسازی سلول‌ها با روزه متناوب: معجزه اتوفاژی در سنین بالای ۵۰ سال"
       }
     ],
     "recent_30d": [
@@ -64953,7 +64953,7 @@
       0,
       0,
       0,
-      20
+      21
     ],
     "status": "active"
   },
@@ -66604,11 +66604,11 @@
     "status": "active"
   },
   "sdai-mhajr": {
-    "avg_gap_days": 77.0,
+    "avg_gap_days": 71.6,
     "avg_length": 51,
     "episodes": 61,
-    "eps_365": 5,
-    "eps_90": 2,
+    "eps_365": 6,
+    "eps_90": 3,
     "first_at": "2023-02-12",
     "first_year": 1401,
     "last": "1405/08/13",
@@ -66700,7 +66700,7 @@
       0,
       1,
       1,
-      0
+      1
     ],
     "status": "active"
   },
