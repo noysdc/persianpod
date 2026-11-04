@@ -3074,19 +3074,25 @@
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.6,
     "avg_length": 6,
-    "episodes": 29,
-    "eps_365": 29,
-    "eps_90": 29,
+    "episodes": 30,
+    "eps_365": 30,
+    "eps_90": 30,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T19:05:07Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3ri9g1",
-    "last_title": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T17:22:49Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
+    "last_title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)",
     "max_length": 10,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/128781996/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fd0d322a2-b448-a8f5-1487-d65fbe8525cb.mp3",
+        "at": "2026-11-04T17:22:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
+        "t": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
+      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/128574401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F39ddd9c3-b13c-c655-fe26-70dc3a0daa7b.mp3",
         "at": "2026-11-01T19:05:07Z",
@@ -3128,15 +3134,15 @@
         "at": "2026-10-12T11:22:25Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1791804244385-b0917308b42b8.jpg",
         "t": "کلیله‌ودمنه کودکانه | قسمت هشتم | پایان داستان"
-      },
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/126410242/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-28%2Fa97cc378-584b-b858-a304-3a1b6eca9119.mp3",
-        "at": "2026-09-28T10:25:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1790591107531-8d10289b0ad3b.jpg",
-        "t": "شاهنامه کودکانه | قسمت هفتم | فریدون و پایان ضحّاک"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T17:22:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
+        "title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
+      },
       {
         "at": "2026-11-01T19:05:07Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793559915422-eb9a246b41b18.jpg",
@@ -3148,12 +3154,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793364589985-916c09dd464d3.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rdlc5",
         "title": "کلیله و دمنه کودکانه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
-      },
-      {
-        "at": "2026-10-28T14:34:33Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793198080683-fbff1d2126bfb.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3r93rr",
-        "title": "کلیله و دمنه کودکانه | قسمت دهم | موش کوچولوی مهربون(۲)"
       }
     ],
     "recent_30d": [
@@ -3168,7 +3168,7 @@
       0,
       14,
       8,
-      7
+      8
     ],
     "status": "active"
   },
@@ -30777,9 +30777,9 @@
       46,
       0,
       0,
-      9,
+      10,
       67,
-      58,
+      57,
       53,
       64,
       48
@@ -72376,8 +72376,8 @@
       0,
       0,
       3,
-      4,
-      1,
+      5,
+      0,
       4
     ],
     "status": "active"
