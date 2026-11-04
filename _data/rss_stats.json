@@ -53405,20 +53405,26 @@
   },
   "podcast-prchm-sfid": {
     "avg_gap_days": 5.9,
-    "avg_length": 43,
-    "episodes": 177,
-    "eps_365": 62,
-    "eps_90": 23,
+    "avg_length": 44,
+    "episodes": 178,
+    "eps_365": 63,
+    "eps_90": 24,
     "first_at": "2018-11-17",
     "first_year": 1397,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T04:00:00Z",
-    "last_link": "https://shows.acast.com/white-flag-pdcst/episodes/6ae464dd53fe55e775bbbb09",
-    "last_title": "استقلالِ مشروط - پرونده انقلاب کوبا - قسمت ۱",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T04:00:00Z",
+    "last_link": "https://shows.acast.com/white-flag-pdcst/episodes/6ae9f7c0b1966848f39455b1",
+    "last_title": "مردم کوبا، بیدار شوید! - پرونده انقلاب کوبا - قسمت ۲",
     "max_length": 102,
     "median_length": 41,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6ae9f7c0b1966848f39455b1/media.mp3",
+        "at": "2026-11-04T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1793721921385-fbab0c65-5f2d-4762-9995-89bfd81b8d6c.jpeg",
+        "t": "مردم کوبا، بیدار شوید! - پرونده انقلاب کوبا - قسمت ۲"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6ae464dd53fe55e775bbbb09/media.mp3",
         "at": "2026-11-01T04:00:00Z",
@@ -53460,15 +53466,15 @@
         "at": "2026-10-11T04:00:00Z",
         "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1791529531943-abf3ed9f-0081-438a-85bd-bbd54ae6bb3d.jpeg",
         "t": "یازده سپتامبر و عملیات آزادی پایدار - پرونده جنگ افغانستان - قسمت ۱۱"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6ac335585558f9dbe24ceaf3/media.mp3",
-        "at": "2026-10-07T04:00:00Z",
-        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1791179432005-8b50eb4f-4dda-4a3c-9362-bbe6210eb8ef.jpeg",
-        "t": "امارت ملا عمر - پرونده جنگ افغانستان - قسمت ۱۰"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1793721921385-fbab0c65-5f2d-4762-9995-89bfd81b8d6c.jpeg",
+        "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ae9f7c0b1966848f39455b1",
+        "title": "مردم کوبا، بیدار شوید! - پرونده انقلاب کوبا - قسمت ۲"
+      },
       {
         "at": "2026-11-01T04:00:00Z",
         "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1793352814916-3bd2b501-4b23-4411-b049-5abbc972f80c.jpeg",
@@ -53480,12 +53486,6 @@
         "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1793088594813-9cd88d26-0103-4bf2-83d0-b2b4b4c372d1.jpeg",
         "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ae05c826df2307811616b7b",
         "title": "سقوط کابل و میراث چهار دهه جنگ - پرونده جنگ افغانستان - قسمت آخر"
-      },
-      {
-        "at": "2026-10-25T04:00:00Z",
-        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1792667762586-90cdfd36-fd32-4719-87d6-c5d00d42910b.jpeg",
-        "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ad9f12b13113bbc762b2da3",
-        "title": "راه دوحه و سقوط دوباره - پرونده جنگ افغانستان - قسمت ۱۵"
       }
     ],
     "recent_30d": [
@@ -53500,7 +53500,7 @@
       8,
       6,
       9,
-      8
+      9
     ],
     "status": "active"
   },
