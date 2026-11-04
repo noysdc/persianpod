@@ -47239,8 +47239,8 @@
       1,
       0,
       1,
-      0,
-      2,
+      1,
+      1,
       0,
       0,
       0,
@@ -63434,10 +63434,10 @@
     "status": "active"
   },
   "radiogik-radiogeek": {
-    "avg_gap_days": 5.3,
+    "avg_gap_days": 4.9,
     "avg_length": 22,
     "episodes": 230,
-    "eps_365": 68,
+    "eps_365": 67,
     "eps_90": 21,
     "first_at": "2012-03-21",
     "first_year": 1391,
