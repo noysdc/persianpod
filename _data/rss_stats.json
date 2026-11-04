@@ -16222,10 +16222,10 @@
     "status": "inactive"
   },
   "farsi-okr": {
-    "avg_gap_days": 15.2,
+    "avg_gap_days": 15.5,
     "avg_length": 23,
     "episodes": 69,
-    "eps_365": 24,
+    "eps_365": 23,
     "eps_90": 7,
     "first_at": "2024-12-30",
     "first_year": 1403,
@@ -16307,8 +16307,8 @@
       }
     ],
     "recent_30d": [
-      3,
-      5,
+      4,
+      4,
       0,
       2,
       0,
@@ -36598,13 +36598,13 @@
       }
     ],
     "recent_30d": [
-      27,
-      23,
+      28,
+      22,
       29,
       27,
       30,
-      24,
-      29,
+      25,
+      28,
       24,
       29,
       27,
@@ -50200,7 +50200,7 @@
       }
     ],
     "recent_30d": [
-      4,
+      3,
       4,
       0,
       0,
@@ -54402,8 +54402,8 @@
       4,
       3,
       3,
-      2,
-      2,
+      3,
+      1,
       3
     ],
     "status": "active"
@@ -59897,19 +59897,25 @@
   "radio-hkait": {
     "avg_gap_days": 4.4,
     "avg_length": 35,
-    "episodes": 198,
+    "episodes": 199,
     "eps_365": 83,
-    "eps_90": 32,
+    "eps_90": 33,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/3c190c2d-cf69-4aa8-8daf-8c825474eee5/play.mp3",
-    "last_title": "انعکاس آفتاب بر تخته های بار انداز - جی دی سالینجر",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ac97900b-3181-47f5-a509-808c967f7229/play.mp3",
+    "last_title": "قطار ۵:۲۲ - جرج هارار",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ac97900b-3181-47f5-a509-808c967f7229/play.mp3",
+        "at": "2026-11-04T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ac97900b-3181-47f5-a509-808c967f7229/artwork.jpg?v=1",
+        "t": "قطار ۵:۲۲ - جرج هارار"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/3c190c2d-cf69-4aa8-8daf-8c825474eee5/play.mp3",
         "at": "2026-11-03T01:30:00Z",
@@ -59951,15 +59957,15 @@
         "at": "2026-10-28T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/fe9c6e3d-c2df-41aa-a70d-d01284a9fa21/artwork.jpg?v=1",
         "t": "ابراهیم - رسول پرویزی"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ddec1f20-a7ab-4392-a55a-a79234620cec/play.mp3",
-        "at": "2026-10-27T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ddec1f20-a7ab-4392-a55a-a79234620cec/artwork.jpg?v=1",
-        "t": "جاسوس او ایکس سیزده - عزیز نسین"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ac97900b-3181-47f5-a509-808c967f7229/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ac97900b-3181-47f5-a509-808c967f7229/play.mp3",
+        "title": "قطار ۵:۲۲ - جرج هارار"
+      },
       {
         "at": "2026-11-03T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/3c190c2d-cf69-4aa8-8daf-8c825474eee5/artwork.jpg?v=1",
@@ -59971,27 +59977,21 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/210a2fd9-d79e-40d4-9c54-cf507ff85f3e/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/210a2fd9-d79e-40d4-9c54-cf507ff85f3e/play.mp3",
         "title": "عزیزم بپسند - عزیز نسین"
-      },
-      {
-        "at": "2026-11-01T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ed022cb9-ff3f-48b8-a565-77b58d0b3160/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ed022cb9-ff3f-48b8-a565-77b58d0b3160/play.mp3",
-        "title": "چگونه با نویسنده ی اعلامیهُ ترحیمم ملاقات کردم - یارسلاو هاشک"
       }
     ],
     "recent_30d": [
-      8,
       9,
+      8,
       3,
       8,
       0,
       0,
       4,
-      8,
-      9,
       9,
       8,
-      15
+      9,
+      8,
+      16
     ],
     "status": "active"
   },
@@ -72425,8 +72425,8 @@
       8,
       93,
       80,
-      107,
-      80,
+      108,
+      79,
       81
     ],
     "status": "active"
