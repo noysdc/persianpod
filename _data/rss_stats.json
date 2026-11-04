@@ -61645,21 +61645,27 @@
     "status": "active"
   },
   "radio-saikt-mdrsh-alm-o-fnaori-koantom": {
-    "avg_gap_days": 19.4,
-    "avg_length": 25,
-    "episodes": 173,
-    "eps_365": 19,
-    "eps_90": 5,
+    "avg_gap_days": 19.1,
+    "avg_length": 26,
+    "episodes": 174,
+    "eps_365": 20,
+    "eps_90": 6,
     "first_at": "2023-12-18",
     "first_year": 1402,
-    "last": "1405/07/29",
-    "last_at": "2026-10-21T11:20:46Z",
-    "last_link": "https://shenoto.com/album/podcast/1891526/کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش 1",
-    "last_title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش 1",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T07:43:00Z",
+    "last_link": "https://shenoto.com/album/podcast/1894380/کتاب آرمان‌ها و واقعیت‌ها؛ بخش دوم: نظم اقتصادی بین‌المللی نوین",
+    "last_title": "کتاب آرمان‌ها و واقعیت‌ها؛ بخش دوم: نظم اقتصادی بین‌المللی نوین",
     "max_length": 99,
     "median_length": 27,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/5bd5d80a-d823-11f1-a824-b2bc6c7247b5.mp3",
+        "at": "2026-11-04T07:43:00Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a8bff4be-f12f-4185-8762-1fbbdc8fde0d/cover/3000.jpg",
+        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ بخش دوم: نظم اقتصادی بین‌المللی نوین"
+      },
       {
         "a": "https://shenoto.com/service/api/play/podcast/75f6d484-cd41-11f1-8d55-d2483d1b3a72.mp3",
         "at": "2026-10-21T11:20:46Z",
@@ -61701,15 +61707,15 @@
         "at": "2026-06-13T07:04:12Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/2be2c599-e307-4b9e-a494-f7155de0ffbb/cover/3000.jpg",
         "t": "اپیزود سوم فصل \"در جستجوی برتری کوانتومی\"؛ آیا الگوریتم‌های کوانتومی جهان ما را تغییر خواهند داد؟"
-      },
-      {
-        "a": "https://shenoto.com/service/api/play/podcast/85eee020-5f14-11f1-a697-5e49d4b26530.mp3",
-        "at": "2026-06-03T06:21:57Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/421708df-18ef-4761-a6c2-68d646473b8a/cover/3000.jpg",
-        "t": "اپیزود دوم فصل \"در جستجوی برتری کوانتومی\"؛ محاسبات سخت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T07:43:00Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a8bff4be-f12f-4185-8762-1fbbdc8fde0d/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/1894380/کتاب آرمان‌ها و واقعیت‌ها؛ بخش دوم: نظم اقتصادی بین‌المللی نوین",
+        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ بخش دوم: نظم اقتصادی بین‌المللی نوین"
+      },
       {
         "at": "2026-10-21T11:20:46Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/eabba802-0602-4fa0-80e8-76d07a1bef05/cover/3000.jpg",
@@ -61721,12 +61727,6 @@
         "i": "https://cdn-arch.shenoto.com/shenoto-album/944fbc9f-c75a-4637-98ae-6c494f87e586/cover/3000.jpg",
         "link": "https://shenoto.com/album/podcast/1891521/کتاب آرمان‌ها و واقعیت‌ها؛ یادداشت ویراستار",
         "title": "کتاب آرمان‌ها و واقعیت‌ها؛ یادداشت ویراستار"
-      },
-      {
-        "at": "2026-10-21T10:31:36Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/b70a3289-21e6-4ef4-9b19-37a0a1914bf0/cover/3000.jpg",
-        "link": "https://shenoto.com/album/podcast/1891510/کتاب آرمان‌ها و واقعیت‌ها؛ معرفی",
-        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ معرفی"
       }
     ],
     "recent_30d": [
@@ -61741,7 +61741,7 @@
       1,
       0,
       1,
-      4
+      5
     ],
     "status": "active"
   },
