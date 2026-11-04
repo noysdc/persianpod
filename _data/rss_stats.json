@@ -36605,8 +36605,8 @@
       29,
       26,
       27,
-      24,
-      29,
+      25,
+      28,
       27,
       25,
       30
@@ -57559,31 +57559,19 @@
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
     "avg_length": 30,
-    "episodes": 171,
-    "eps_365": 94,
-    "eps_90": 94,
+    "episodes": 169,
+    "eps_365": 92,
+    "eps_90": 92,
     "first_at": "2023-05-06",
     "first_year": 1402,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T03:33:19Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-2-e3rn8e0",
-    "last_title": "Nozari-Kasrai, Mehri Part 2",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T23:57:28Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-32-e3rmtij",
+    "last_title": "Farmanfarmaian, Khodadad Part 32",
     "max_length": 63,
     "median_length": 31,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737152/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fd4ca10dc-8b16-f65a-aadc-8574f552803f.mp3",
-        "at": "2026-11-04T03:33:19Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763184759-ba6a6c0ef22f4.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128736926/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Ffe07a281-5239-e431-05c8-b87ca78c496b.mp3",
-        "at": "2026-11-04T03:32:22Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763137243-26578331fd9f9.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 1"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128726035/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F7a56941f-08ad-80ec-1be7-ed07c76f30f9.mp3",
         "at": "2026-11-03T23:57:28Z",
@@ -57619,26 +57607,38 @@
         "at": "2026-11-03T04:21:16Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793679668638-93db487cb5da8.jpg",
         "t": "Farmanfarmaian, Khodadad Part 27"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128658803/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Fafeccfcf-8ede-af80-eb7e-924fed9e5656.mp3",
+        "at": "2026-11-03T04:19:17Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793679542152-ee6f1b7345245.jpg",
+        "t": "Farmanfarmaian, Khodadad Part 26"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128658714/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Fc1ab1a7c-6cac-21a7-1f1e-15306e9ab1fb.mp3",
+        "at": "2026-11-03T04:17:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793679384390-68e8a88467825.jpg",
+        "t": "Farmanfarmaian, Khodadad Part 25"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-04T03:33:19Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763184759-ba6a6c0ef22f4.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-2-e3rn8e0",
-        "title": "Nozari-Kasrai, Mehri Part 2"
-      },
-      {
-        "at": "2026-11-04T03:32:22Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763137243-26578331fd9f9.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-1-e3rn86u",
-        "title": "Nozari-Kasrai, Mehri Part 1"
-      },
       {
         "at": "2026-11-03T23:57:28Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793750234437-2ef93955ac33d.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-32-e3rmtij",
         "title": "Farmanfarmaian, Khodadad Part 32"
+      },
+      {
+        "at": "2026-11-03T23:56:02Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793750144959-f93f89ac81f0e.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-31-e3rmtgg",
+        "title": "Farmanfarmaian, Khodadad Part 31"
+      },
+      {
+        "at": "2026-11-03T23:53:15Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793749980849-a4c7aec2340c.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Farmanfarmaian--Khodadad-Part-30-e3rmtc0",
+        "title": "Farmanfarmaian, Khodadad Part 30"
       }
     ],
     "recent_30d": [
@@ -57653,7 +57653,7 @@
       0,
       0,
       0,
-      94
+      92
     ],
     "status": "active"
   },
