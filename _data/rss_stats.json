@@ -36714,95 +36714,6 @@
     ],
     "status": "inactive"
   },
-  "midan-arg": {
-    "avg_length": 14,
-    "episodes": 65,
-    "eps_365": 0,
-    "eps_90": 0,
-    "first_at": "2021-07-01",
-    "first_year": 1400,
-    "last": "1401/06/10",
-    "last_at": "2022-09-01T12:45:28Z",
-    "last_link": "https://www.spreaker.com/episode/mydan-arg-ngahy-bh-gl-hay-rngarng-shmarh-276--51104229",
-    "last_title": "میدان ارگ، نگاهی به گل‌های رنگارنگ شماره ۲۷۶",
-    "max_length": 42,
-    "median_length": 12,
-    "min_length": 12,
-    "play": [
-      {
-        "a": "https://api.spreaker.com/download/episode/51104229/meydane_arg_ep_64_276.mp3",
-        "at": "2022-09-01T12:45:28Z",
-        "t": "میدان ارگ، نگاهی به گل‌های رنگارنگ شماره ۲۷۶"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/50918608/meydane_arg_ep_63_275.mp3",
-        "at": "2022-08-15T13:09:54Z",
-        "t": "میدان ارگ، نگاهی به گل‌های رنگارنگ شماره ۲۷۵"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/50885371/meydane_arg_ep_62_271.mp3",
-        "at": "2022-08-11T11:46:46Z",
-        "t": "میدان ارگ، نگاهی به گل‌های رنگارنگ شماره ۲۷۱"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/50824462/meidane_arg_ep_61_269.mp3",
-        "at": "2022-08-05T13:09:27Z",
-        "t": "میدان ارگ، نگاهی به گل‌های رنگارنگ شماره ۲۶۹"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/50735495/meydane_arg_ep_60_265.mp3",
-        "at": "2022-07-30T11:30:03Z",
-        "t": "میدان ارگ، نگاهی به گل‌های رنگارنگ شماره ۲۶۵"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/50735490/meydane_arg_ep_59_264.mp3",
-        "at": "2022-07-28T10:25:24Z",
-        "t": "میدان ارگ، نگاهی به گل‌های رنگارنگ شماره ۲۶۴"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/50558606/meydane_arg_ep_58_263.mp3",
-        "at": "2022-07-13T14:07:53Z",
-        "t": "میدان ارگ، نگاهی به گل‌های رنگارنگ شماره ۲۶۳"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/50467994/meydane_arg_ep_57_262.mp3",
-        "at": "2022-07-05T11:27:46Z",
-        "t": "میدان ارگ، نگاهی به گل‌های رنگارنگ شماره ۲۶۲"
-      }
-    ],
-    "recent": [
-      {
-        "at": "2022-09-01T12:45:28Z",
-        "link": "https://www.spreaker.com/episode/mydan-arg-ngahy-bh-gl-hay-rngarng-shmarh-276--51104229",
-        "title": "میدان ارگ، نگاهی به گل‌های رنگارنگ شماره ۲۷۶"
-      },
-      {
-        "at": "2022-08-15T13:09:54Z",
-        "link": "https://www.spreaker.com/episode/mydan-arg-ngahy-bh-gl-hay-rngarng-shmarh-275--50918608",
-        "title": "میدان ارگ، نگاهی به گل‌های رنگارنگ شماره ۲۷۵"
-      },
-      {
-        "at": "2022-08-11T11:46:46Z",
-        "link": "https://www.spreaker.com/episode/mydan-arg-ngahy-bh-gl-hay-rngarng-shmarh-271--50885371",
-        "title": "میدان ارگ، نگاهی به گل‌های رنگارنگ شماره ۲۷۱"
-      }
-    ],
-    "recent_30d": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "status": "inactive"
-  },
   "midnightcast": {
     "avg_gap_days": 34.3,
     "avg_length": 61,
@@ -73972,7 +73883,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 24,
     "episodes": 406,
-    "eps_365": 259,
+    "eps_365": 258,
     "eps_90": 115,
     "first_at": "2024-08-22",
     "first_year": 1403,
