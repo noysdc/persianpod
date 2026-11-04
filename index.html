@@ -27,7 +27,7 @@ scripts: [/assets/js/pp-order.js, /assets/js/pp-ep-search.js, /assets/js/pp-dire
       {% endfor %}
     </div>
   </div>
-  <button type="button" id="pd-more" class="pd-eps-more" {% if total <= 48 %}hidden{% endif %}>نمایش پادکست‌های بیشتر</button>
+  <button type="button" id="pd-more" class="pd-eps-more" disabled {% if total <= 48 %}hidden{% endif %}>نمایش پادکست‌های بیشتر</button>
   <section id="pd-eps-wrap" class="pd-eps-wrap" aria-label="قسمت‌های مطابق جست‌وجو" hidden>
     <h2 class="pd-h2" id="pd-eps-title">قسمت‌ها</h2>
     <div id="pd-eps" class="pd-eps" role="status" aria-live="polite"></div>
