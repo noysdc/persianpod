@@ -10185,19 +10185,25 @@
   "chh-hsi-dari-roanshnasi-khodshnasi": {
     "avg_gap_days": 1.0,
     "avg_length": 18,
-    "episodes": 99,
-    "eps_365": 99,
-    "eps_90": 78,
+    "episodes": 100,
+    "eps_365": 100,
+    "eps_90": 79,
     "first_at": "2026-07-29",
     "first_year": 1405,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T16:34:20Z",
-    "last_link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-17-shrm--76157750",
-    "last_title": "غلبه بر افکار منفی مزاحم ۱۷ (شرم)",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T16:53:14Z",
+    "last_link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-18-ahsas-hqart--76177600",
+    "last_title": "غلبه بر افکار منفی مزاحم ۱۸ (احساس حقارت)",
     "max_length": 33,
     "median_length": 16,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76177600/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27hbuc5tcdm.mp3",
+        "at": "2026-11-04T16:53:14Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/a1e46dab4b5dc050e61a3d061f166d59.jpg",
+        "t": "غلبه بر افکار منفی مزاحم ۱۸ (احساس حقارت)"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76157750/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27hbty5tcdm.mp3",
         "at": "2026-11-03T16:34:20Z",
@@ -10239,15 +10245,15 @@
         "at": "2026-10-27T19:26:19Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/a1e46dab4b5dc050e61a3d061f166d59.jpg",
         "t": "غلبه بر افکار منفی مزاحم ۱۱(نشخوار فکری)"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76035775/utf_8_b_2lrzhnio2ycg2kjyssdyp9mb2qnyp9ixinmf_utf_8_b_2ybzgduminmf2llyp9it2yug27hbsc5tcdm.mp3",
-        "at": "2026-10-27T19:22:58Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/a1e46dab4b5dc050e61a3d061f166d59.jpg",
-        "t": "غلبه بر افکار منفی مزاحم ۱۰(نشخوار فکری)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T16:53:14Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/a1e46dab4b5dc050e61a3d061f166d59.jpg",
+        "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-18-ahsas-hqart--76177600",
+        "title": "غلبه بر افکار منفی مزاحم ۱۸ (احساس حقارت)"
+      },
       {
         "at": "2026-11-03T16:34:20Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/a1e46dab4b5dc050e61a3d061f166d59.jpg",
@@ -10259,12 +10265,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/a1e46dab4b5dc050e61a3d061f166d59.jpg",
         "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-16-shrm--76157038",
         "title": "غلبه بر افکار منفی مزاحم ۱۶ (شرم)"
-      },
-      {
-        "at": "2026-11-01T18:53:29Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/a1e46dab4b5dc050e61a3d061f166d59.jpg",
-        "link": "https://www.spreaker.com/episode/ghlbh-br-afkar-mnfy-mzahm-15-shrm--76115514",
-        "title": "غلبه بر افکار منفی مزاحم ۱۵ (شرم)"
       }
     ],
     "recent_30d": [
@@ -10279,7 +10279,7 @@
       21,
       26,
       17,
-      35
+      36
     ],
     "status": "active"
   },
