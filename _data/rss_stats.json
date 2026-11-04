@@ -49136,10 +49136,10 @@
     "status": "active"
   },
   "podcast-fotbali-fotbal-trapi": {
-    "avg_gap_days": 4.4,
+    "avg_gap_days": 4.7,
     "avg_length": 77,
     "episodes": 100,
-    "eps_365": 15,
+    "eps_365": 14,
     "eps_90": 0,
     "first_at": "2024-04-27",
     "first_year": 1403,
@@ -52418,8 +52418,8 @@
       1,
       0,
       0,
-      0,
       1,
+      0,
       2,
       1,
       1,
@@ -61556,21 +61556,27 @@
     "status": "active"
   },
   "radio-saikt-mdrsh-alm-o-fnaori-koantom": {
-    "avg_gap_days": 15.8,
-    "avg_length": 24,
-    "episodes": 178,
-    "eps_365": 24,
-    "eps_90": 10,
+    "avg_gap_days": 15.1,
+    "avg_length": 26,
+    "episodes": 179,
+    "eps_365": 25,
+    "eps_90": 11,
     "first_at": "2023-12-18",
     "first_year": 1402,
     "last": "1405/08/13",
-    "last_at": "2026-11-04T08:39:52Z",
-    "last_link": "https://shenoto.com/album/podcast/1894466/کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش سوم: نابینایی جهان سوم",
-    "last_title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش سوم: نابینایی جهان سوم",
+    "last_at": "2026-11-04T08:52:32Z",
+    "last_link": "https://shenoto.com/album/podcast/1894486/کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش چهارم",
+    "last_title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش چهارم",
     "max_length": 99,
     "median_length": 27,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/12d37b10-d82d-11f1-a824-b2bc6c7247b5.mp3",
+        "at": "2026-11-04T08:52:32Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/2f0cb55f-a678-455e-8d2c-b203e9adfccb/cover/3000.jpg",
+        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش چهارم"
+      },
       {
         "a": "https://shenoto.com/service/api/play/podcast/4db5926f-d82b-11f1-a824-b2bc6c7247b5.mp3",
         "at": "2026-11-04T08:39:52Z",
@@ -61612,15 +61618,15 @@
         "at": "2026-10-21T11:01:49Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/944fbc9f-c75a-4637-98ae-6c494f87e586/cover/3000.jpg",
         "t": "کتاب آرمان‌ها و واقعیت‌ها؛ یادداشت ویراستار"
-      },
-      {
-        "a": "https://shenoto.com/service/api/play/podcast/97f6fd70-cd3a-11f1-8d55-d2483d1b3a72.mp3",
-        "at": "2026-10-21T10:31:36Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/b70a3289-21e6-4ef4-9b19-37a0a1914bf0/cover/3000.jpg",
-        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ معرفی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T08:52:32Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/2f0cb55f-a678-455e-8d2c-b203e9adfccb/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/1894486/کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش چهارم",
+        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش چهارم"
+      },
       {
         "at": "2026-11-04T08:39:52Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/f5fe86a8-1b62-4491-a153-ce14c672da5f/cover/3000.jpg",
@@ -61632,12 +61638,6 @@
         "i": "https://cdn-arch.shenoto.com/shenoto-album/b5ad6b25-b4e3-4bef-bb56-e2043dcceed9/cover/3000.jpg",
         "link": "https://shenoto.com/album/podcast/1894445/کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش دوم",
         "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش دوم"
-      },
-      {
-        "at": "2026-11-04T08:05:18Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/e4e4fdc7-368f-4c56-a9a0-acbb42572c18/cover/3000.jpg",
-        "link": "https://shenoto.com/album/podcast/1894414/کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش اول: علم و تکنولوژی در کشورهای در حال توسعه",
-        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش اول: علم و تکنولوژی در کشورهای در حال توسعه"
       }
     ],
     "recent_30d": [
@@ -61652,7 +61652,7 @@
       1,
       0,
       1,
-      9
+      10
     ],
     "status": "active"
   },
