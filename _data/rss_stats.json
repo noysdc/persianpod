@@ -9395,7 +9395,7 @@
       }
     ],
     "recent_30d": [
-      6,
+      5,
       6,
       1,
       1,
@@ -61556,21 +61556,27 @@
     "status": "active"
   },
   "radio-saikt-mdrsh-alm-o-fnaori-koantom": {
-    "avg_gap_days": 16.5,
+    "avg_gap_days": 15.8,
     "avg_length": 24,
-    "episodes": 177,
-    "eps_365": 23,
-    "eps_90": 9,
+    "episodes": 178,
+    "eps_365": 24,
+    "eps_90": 10,
     "first_at": "2023-12-18",
     "first_year": 1402,
     "last": "1405/08/13",
-    "last_at": "2026-11-04T08:25:26Z",
-    "last_link": "https://shenoto.com/album/podcast/1894445/کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش دوم",
-    "last_title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش دوم",
+    "last_at": "2026-11-04T08:39:52Z",
+    "last_link": "https://shenoto.com/album/podcast/1894466/کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش سوم: نابینایی جهان سوم",
+    "last_title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش سوم: نابینایی جهان سوم",
     "max_length": 99,
     "median_length": 27,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/4db5926f-d82b-11f1-a824-b2bc6c7247b5.mp3",
+        "at": "2026-11-04T08:39:52Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/f5fe86a8-1b62-4491-a153-ce14c672da5f/cover/3000.jpg",
+        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش سوم: نابینایی جهان سوم"
+      },
       {
         "a": "https://shenoto.com/service/api/play/podcast/49966f9f-d829-11f1-a824-b2bc6c7247b5.mp3",
         "at": "2026-11-04T08:25:26Z",
@@ -61612,15 +61618,15 @@
         "at": "2026-10-21T10:31:36Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/b70a3289-21e6-4ef4-9b19-37a0a1914bf0/cover/3000.jpg",
         "t": "کتاب آرمان‌ها و واقعیت‌ها؛ معرفی"
-      },
-      {
-        "a": "https://shenoto.com/service/api/play/podcast/b286adc4-c482-11f1-b7a1-e2d04c12946c.mp3",
-        "at": "2026-10-10T08:15:04Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/8d63606e-8e0e-4b11-be60-5e1ba1b9cee8/cover/3000.jpg",
-        "t": "اپیزود نخست فصل \"عصر دوم کوانتوم\"؛ دنیای کوانتوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T08:39:52Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/f5fe86a8-1b62-4491-a153-ce14c672da5f/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/1894466/کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش سوم: نابینایی جهان سوم",
+        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش سوم: نابینایی جهان سوم"
+      },
       {
         "at": "2026-11-04T08:25:26Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/b5ad6b25-b4e3-4bef-bb56-e2043dcceed9/cover/3000.jpg",
@@ -61632,12 +61638,6 @@
         "i": "https://cdn-arch.shenoto.com/shenoto-album/e4e4fdc7-368f-4c56-a9a0-acbb42572c18/cover/3000.jpg",
         "link": "https://shenoto.com/album/podcast/1894414/کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش اول: علم و تکنولوژی در کشورهای در حال توسعه",
         "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش اول: علم و تکنولوژی در کشورهای در حال توسعه"
-      },
-      {
-        "at": "2026-11-04T07:48:51Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/60871d30-df80-4ff1-9e26-617aac9820c6/cover/3000.jpg",
-        "link": "https://shenoto.com/album/podcast/1894389/کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش دوم: بیماری‌های اغنیا و بیماری‌های فقرا",
-        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش دوم: بیماری‌های اغنیا و بیماری‌های فقرا"
       }
     ],
     "recent_30d": [
@@ -61652,7 +61652,7 @@
       1,
       0,
       1,
-      8
+      9
     ],
     "status": "active"
   },
@@ -63427,7 +63427,7 @@
     "avg_gap_days": 7.6,
     "avg_length": 31,
     "episodes": 148,
-    "eps_365": 49,
+    "eps_365": 48,
     "eps_90": 27,
     "first_at": "2025-02-05",
     "first_year": 1403,
