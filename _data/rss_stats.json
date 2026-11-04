@@ -45383,19 +45383,25 @@
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.7,
     "avg_length": 19,
-    "episodes": 35,
-    "eps_365": 35,
-    "eps_90": 35,
+    "episodes": 36,
+    "eps_365": 36,
+    "eps_90": 36,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T11:29:07Z",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T05:30:00Z",
     "last_link": "https://furbodm.com/",
-    "last_title": "NETFLIX #9 | چرا نت‌فلیکس همه قسمت‌های فصل سریال رو یک‌جا منتشر می‌کنه؟",
+    "last_title": "NETFLIX #10 | نت‌فلیکس از کجا سلیقه سینمایی آدم‌ها رو تشخیص میده؟",
     "max_length": 38,
     "median_length": 22,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6aea6a93e6f94e041974cefe/media.mp3",
+        "at": "2026-11-04T05:30:00Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793747277351-59f01f24-37ad-43ff-9603-89fa86788f88.jpeg",
+        "t": "NETFLIX #10 | نت‌فلیکس از کجا سلیقه سینمایی آدم‌ها رو تشخیص میده؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae9c584d6cfd0e90885b580/media.mp3",
         "at": "2026-11-03T11:29:07Z",
@@ -45437,15 +45443,15 @@
         "at": "2026-10-31T17:54:00Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469409466-77da6c27-fe39-4365-ade8-3325631b4774.jpeg",
         "t": "NETFLIX #3 | نت‌فلیکس از کجا مشتری‌های اولیه خودش رو پیدا کرد؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62bd0497ef148b86a49f6/media.mp3",
-        "at": "2026-10-31T17:52:00Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469343646-9eaca649-3036-4484-acb8-00d5aafd0a7d.jpeg",
-        "t": "NETFLIX #2 | محصول اولیه نت‌فلیکس چی بود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T05:30:00Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793747277351-59f01f24-37ad-43ff-9603-89fa86788f88.jpeg",
+        "link": "https://furbodm.com/",
+        "title": "NETFLIX #10 | نت‌فلیکس از کجا سلیقه سینمایی آدم‌ها رو تشخیص میده؟"
+      },
       {
         "at": "2026-11-03T11:29:07Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793705204610-6f01c690-513a-46a2-a2d7-6dc0258e9d3e.jpeg",
@@ -45457,12 +45463,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793557613103-1b043e7f-af98-4dab-a966-f2d46ff10cb3.jpeg",
         "link": "https://furbodm.com",
         "title": "NETFLIX #8 | چرا نت‌فلیکس به سمت تولید فیلم و سریال اختصاصی رفت؟"
-      },
-      {
-        "at": "2026-10-31T18:02:32Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469628275-e016b549-67e5-46cf-99c5-269e1f22b98c.jpeg",
-        "link": "https://furbodm.com/",
-        "title": "NETFLIX #7 | داستان اولین شکست استراتژیک نت‌فلیکس با کوئیکستر چی بود؟"
       }
     ],
     "recent_30d": [
@@ -45477,7 +45477,7 @@
       0,
       0,
       0,
-      35
+      36
     ],
     "status": "active"
   },
