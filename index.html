@@ -14,7 +14,7 @@ scripts: [/assets/js/pp-order.js, /assets/js/pp-ep-search.js, /assets/js/pp-dire
   </div>
   <hr class="pp-divider pp-divider-tight" aria-hidden="true">
   <div id="pd-chips" class="pd-chips" aria-label="انتخاب‌های فعال"></div>
-  <div id="pd-results">
+  <div id="pd-results" data-total="{{ total }}">
     <div class="pd-grid">
       {% assign sorted = site.podcasts | sort: 'title' %}
       {% for p in sorted limit: 48 %}
