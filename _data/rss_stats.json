@@ -2573,8 +2573,8 @@
       0,
       0,
       1,
-      4,
       5,
+      4,
       2
     ],
     "status": "active"
@@ -16497,8 +16497,8 @@
       }
     ],
     "recent_30d": [
-      2,
-      5,
+      3,
+      4,
       0,
       0,
       0,
@@ -56976,10 +56976,10 @@
     "status": "active"
   },
   "podcast-zhrfa": {
-    "avg_gap_days": 9.5,
+    "avg_gap_days": 9.3,
     "avg_length": 23,
     "episodes": 81,
-    "eps_365": 24,
+    "eps_365": 23,
     "eps_90": 0,
     "first_at": "2024-09-17",
     "first_year": 1403,
