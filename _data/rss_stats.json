@@ -54426,8 +54426,8 @@
       3,
       8,
       6,
-      6,
-      8,
+      7,
+      7,
       7
     ],
     "status": "active"
@@ -61556,21 +61556,27 @@
     "status": "active"
   },
   "radio-saikt-mdrsh-alm-o-fnaori-koantom": {
-    "avg_gap_days": 15.1,
+    "avg_gap_days": 14.5,
     "avg_length": 26,
-    "episodes": 179,
-    "eps_365": 25,
-    "eps_90": 11,
+    "episodes": 180,
+    "eps_365": 26,
+    "eps_90": 12,
     "first_at": "2023-12-18",
     "first_year": 1402,
     "last": "1405/08/13",
-    "last_at": "2026-11-04T08:52:32Z",
-    "last_link": "https://shenoto.com/album/podcast/1894486/کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش چهارم",
-    "last_title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش چهارم",
+    "last_at": "2026-11-04T09:04:51Z",
+    "last_link": "https://shenoto.com/album/podcast/1894504/کتاب آرمان‌ها و واقعیت‌ها؛ فصل سوم، بخش اول: نیاز به مرکز بین‌المللی فیزیک نظری",
+    "last_title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل سوم، بخش اول: نیاز به مرکز بین‌المللی فیزیک نظری",
     "max_length": 99,
     "median_length": 27,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/cb67af4c-d82e-11f1-a824-b2bc6c7247b5.mp3",
+        "at": "2026-11-04T09:04:51Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/d8281166-d98d-404d-954d-8c7cc6e61d81/cover/3000.jpg",
+        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل سوم، بخش اول: نیاز به مرکز بین‌المللی فیزیک نظری"
+      },
       {
         "a": "https://shenoto.com/service/api/play/podcast/12d37b10-d82d-11f1-a824-b2bc6c7247b5.mp3",
         "at": "2026-11-04T08:52:32Z",
@@ -61612,15 +61618,15 @@
         "at": "2026-10-21T11:20:46Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/eabba802-0602-4fa0-80e8-76d07a1bef05/cover/3000.jpg",
         "t": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش اول"
-      },
-      {
-        "a": "https://shenoto.com/service/api/play/podcast/d04c765d-cd3e-11f1-8d55-d2483d1b3a72.mp3",
-        "at": "2026-10-21T11:01:49Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/944fbc9f-c75a-4637-98ae-6c494f87e586/cover/3000.jpg",
-        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ یادداشت ویراستار"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T09:04:51Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/d8281166-d98d-404d-954d-8c7cc6e61d81/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/1894504/کتاب آرمان‌ها و واقعیت‌ها؛ فصل سوم، بخش اول: نیاز به مرکز بین‌المللی فیزیک نظری",
+        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل سوم، بخش اول: نیاز به مرکز بین‌المللی فیزیک نظری"
+      },
       {
         "at": "2026-11-04T08:52:32Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/2f0cb55f-a678-455e-8d2c-b203e9adfccb/cover/3000.jpg",
@@ -61632,12 +61638,6 @@
         "i": "https://cdn-arch.shenoto.com/shenoto-album/f5fe86a8-1b62-4491-a153-ce14c672da5f/cover/3000.jpg",
         "link": "https://shenoto.com/album/podcast/1894466/کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش سوم: نابینایی جهان سوم",
         "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش سوم: نابینایی جهان سوم"
-      },
-      {
-        "at": "2026-11-04T08:25:26Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/b5ad6b25-b4e3-4bef-bb56-e2043dcceed9/cover/3000.jpg",
-        "link": "https://shenoto.com/album/podcast/1894445/کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش دوم",
-        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش دوم"
       }
     ],
     "recent_30d": [
@@ -61652,7 +61652,7 @@
       1,
       0,
       1,
-      10
+      11
     ],
     "status": "active"
   },
