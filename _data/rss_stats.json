@@ -3166,8 +3166,8 @@
       0,
       0,
       0,
-      13,
-      9,
+      14,
+      8,
       7
     ],
     "status": "active"
@@ -60010,19 +60010,24 @@
   "radio-hosh": {
     "avg_gap_days": 0.4,
     "avg_length": 17,
-    "episodes": 27,
-    "eps_365": 27,
-    "eps_90": 27,
+    "episodes": 28,
+    "eps_365": 28,
+    "eps_90": 28,
     "first_at": "2026-10-25",
     "first_year": 1405,
     "last": "1405/08/13",
-    "last_at": "2026-11-04T11:18:31Z",
-    "last_link": "https://share.transistor.fm/s/31b011a5",
-    "last_title": "‏‫Siri در iOS 27.3: هوش مصنوعی اپل حالا داخل اپ‌های دیگر کار می‌کند‬",
+    "last_at": "2026-11-04T11:58:34Z",
+    "last_link": "https://share.transistor.fm/s/fab4cc23",
+    "last_title": "‏‫یورو دیجیتال و هوش مصنوعی: ECB پرداخت با AI agent را آزمایش می‌کند‬",
     "max_length": 26,
     "median_length": 17,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://media.transistor.fm/fab4cc23/37552978.mp3",
+        "at": "2026-11-04T11:58:34Z",
+        "t": "‏‫یورو دیجیتال و هوش مصنوعی: ECB پرداخت با AI agent را آزمایش می‌کند‬"
+      },
       {
         "a": "https://media.transistor.fm/31b011a5/49b479ac.mp3",
         "at": "2026-11-04T11:18:31Z",
@@ -60057,14 +60062,14 @@
         "a": "https://media.transistor.fm/3faa7ad1/e2105d95.mp3",
         "at": "2026-10-31T15:53:38Z",
         "t": "‏‫دانشجویان شبح: کلاهبرداری میلیونی از وام دانشجویی با هوش مصنوعی‬"
-      },
-      {
-        "a": "https://media.transistor.fm/d2d49461/434016c9.mp3",
-        "at": "2026-10-30T12:55:41Z",
-        "t": "‏‫Ai2: آیا مدل‌های زبانی می‌توانند نوآوری ایده‌های علمی را بسنجند؟‬"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T11:58:34Z",
+        "link": "https://share.transistor.fm/s/fab4cc23",
+        "title": "‏‫یورو دیجیتال و هوش مصنوعی: ECB پرداخت با AI agent را آزمایش می‌کند‬"
+      },
       {
         "at": "2026-11-04T11:18:31Z",
         "link": "https://share.transistor.fm/s/31b011a5",
@@ -60074,11 +60079,6 @@
         "at": "2026-11-03T10:30:13Z",
         "link": "https://share.transistor.fm/s/61c22aec",
         "title": "‏‫هوش مصنوعی در مدارس: آیا آموزش از دانش‌آموزان عقب مانده است؟‬"
-      },
-      {
-        "at": "2026-11-03T09:10:16Z",
-        "link": "https://share.transistor.fm/s/3e787165",
-        "title": "‏‫LifeVal از OpenAI: آزمونی برای سنجش کمک هوش مصنوعی در کارهای روزمره‬"
       }
     ],
     "recent_30d": [
@@ -60093,7 +60093,7 @@
       0,
       0,
       0,
-      27
+      28
     ],
     "status": "active"
   },
