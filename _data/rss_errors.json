@@ -59,6 +59,10 @@
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
   },
+  "green-gate-drichh-sbz": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://radioiranshahr.org/feed/podcast?name=psychology"
+  },
   "hnr-jng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://namlik.me/rss/318"
@@ -78,6 +82,10 @@
   "kodkan-mana": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
+  },
+  "literature-with-dr-karimi-hakkak-adbiat-ba-dktr-krimi-hkak": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://radioiranshahr.org/feed/podcast?name=dr-karimi"
   },
   "lzt-dniai-ktab": {
     "error": "RuntimeError: TimeoutError: The read operation timed out",
@@ -150,6 +158,10 @@
   "science-and-technology-news-akhbar-alm-o-tknolozhi": {
     "error": "RuntimeError: TimeoutError: The read operation timed out",
     "rss": "https://radioiranshahr.org/feed/podcast?name=science-and-technology-news"
+  },
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
