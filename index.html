@@ -17,7 +17,7 @@ scripts: [/assets/js/pp-order.js, /assets/js/pp-ep-search.js, /assets/js/pp-dire
   <div id="pd-results">
     <div class="pd-grid">
       {% assign sorted = site.podcasts | sort: 'title' %}
-      {% for p in sorted %}
+      {% for p in sorted limit: 48 %}
       {% assign logo = p.logo %}{% if logo and logo contains '://' %}{% assign logo_url = logo %}{% elsif logo %}{% assign logo_url = logo | relative_url %}{% else %}{% assign logo_url = '' %}{% endif %}
       <a class="pd-card" href="{{ p.url | relative_url }}" title="{{ p.description | strip_html | escape }}">
         <span class="pd-logo">{% if logo_url != '' %}{% if forloop.first %}<img src="{{ logo_url }}" alt="" loading="eager" fetchpriority="high" decoding="async" width="160" height="160">{% else %}<img src="{{ logo_url }}" alt="" loading="lazy" decoding="async" width="160" height="160">{% endif %}{% else %}<i>{{ p.title | slice: 0 }}</i>{% endif %}</span>
@@ -27,6 +27,7 @@ scripts: [/assets/js/pp-order.js, /assets/js/pp-ep-search.js, /assets/js/pp-dire
       {% endfor %}
     </div>
   </div>
+  <button type="button" id="pd-more" class="pd-eps-more" {% if total <= 48 %}hidden{% endif %}>نمایش پادکست‌های بیشتر</button>
   <section id="pd-eps-wrap" class="pd-eps-wrap" aria-label="قسمت‌های مطابق جست‌وجو" hidden>
     <h2 class="pd-h2" id="pd-eps-title">قسمت‌ها</h2>
     <div id="pd-eps" class="pd-eps" role="status" aria-live="polite"></div>
