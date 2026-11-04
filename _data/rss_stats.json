@@ -24337,7 +24337,7 @@
     "avg_gap_days": 1.8,
     "avg_length": 48,
     "episodes": 1272,
-    "eps_365": 138,
+    "eps_365": 137,
     "eps_90": 0,
     "first_at": "2020-04-04",
     "first_year": 1399,
@@ -30108,9 +30108,9 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 20,
-    "episodes": 636,
-    "eps_365": 603,
-    "eps_90": 179,
+    "episodes": 632,
+    "eps_365": 599,
+    "eps_90": 175,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/08/12",
@@ -30118,7 +30118,7 @@
     "last_link": "https://shows.acast.com/statusmarried/episodes/6ae8d4d19cb48f65ea9c5ef7",
     "last_title": "مالیات خروج - وضعیت متاهل - اپیزود معرفی",
     "max_length": 44,
-    "median_length": 16,
+    "median_length": 17,
     "min_length": 2,
     "play": [
       {
@@ -30201,7 +30201,7 @@
       67,
       57,
       57,
-      71,
+      67,
       51
     ],
     "status": "active"
@@ -42048,8 +42048,8 @@
       }
     ],
     "recent_30d": [
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -60787,8 +60787,8 @@
     "recent_30d": [
       9,
       7,
-      7,
-      9,
+      8,
+      8,
       0,
       0,
       1,
@@ -74555,7 +74555,7 @@
     "avg_length": 11,
     "episodes": 44,
     "eps_365": 44,
-    "eps_90": 44,
+    "eps_90": 43,
     "first_at": "2026-08-06",
     "first_year": 1405,
     "last": "1405/08/11",
@@ -74644,8 +74644,8 @@
       0,
       0,
       0,
-      0,
-      29,
+      1,
+      28,
       14,
       1
     ],
