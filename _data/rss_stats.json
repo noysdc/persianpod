@@ -36139,21 +36139,27 @@
     "status": "inactive"
   },
   "majrai-mshroth": {
-    "avg_gap_days": 37.1,
+    "avg_gap_days": 36.4,
     "avg_length": 122,
-    "episodes": 34,
-    "eps_365": 10,
-    "eps_90": 2,
+    "episodes": 35,
+    "eps_365": 11,
+    "eps_90": 3,
     "first_at": "2023-10-06",
     "first_year": 1402,
-    "last": "1405/07/13",
-    "last_at": "2026-10-05T20:30:47Z",
-    "last_link": "https://shows.acast.com/mashruteh/episodes/33",
-    "last_title": "سی‌وسوم: آذر و دی 1286",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T20:55:56Z",
+    "last_link": "https://shows.acast.com/mashruteh/episodes/34",
+    "last_title": "سی و چهارم: بهمن و اسفند 1286",
     "max_length": 160,
     "median_length": 123,
     "min_length": 38,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6ab1977e35231e4f55c9df8b/e/6aeb9bc0651640b48a0f28cb/media.mp3",
+        "at": "2026-11-04T20:55:56Z",
+        "i": "https://assets.pippa.io/shows/6ab1977e35231e4f55c9df8b/1793825296662-3aa2fffc-8674-44f1-8f4b-2029fdfa7f8f.jpeg",
+        "t": "سی و چهارم: بهمن و اسفند 1286"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6ab1977e35231e4f55c9df8b/e/6ac407c46c844f245f9ec3f5/media.mp3",
         "at": "2026-10-05T20:30:47Z",
@@ -36195,15 +36201,15 @@
         "at": "2026-03-04T23:35:18Z",
         "i": "https://assets.pippa.io/shows/6ab1977e35231e4f55c9df8b/00aba0cf9f808b9f38789a9971c6d885.png",
         "t": "بیست‌وهفتم: خرداد 1286"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6ab1977e35231e4f55c9df8b/e/mashruteh.podbean.com%2F66d1166c-9f09-379c-ab12-53b3da7a6f32/media.mp3",
-        "at": "2026-01-03T21:51:05Z",
-        "i": "https://assets.pippa.io/shows/6ab1977e35231e4f55c9df8b/db23859267abc35cade7e43f03c82fb6.jpg",
-        "t": "بیست‌وششم: فروردین و اردیبهشت 1286"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T20:55:56Z",
+        "i": "https://assets.pippa.io/shows/6ab1977e35231e4f55c9df8b/1793825296662-3aa2fffc-8674-44f1-8f4b-2029fdfa7f8f.jpeg",
+        "link": "https://shows.acast.com/mashruteh/episodes/34",
+        "title": "سی و چهارم: بهمن و اسفند 1286"
+      },
       {
         "at": "2026-10-05T20:30:47Z",
         "i": "https://assets.pippa.io/shows/6ab1977e35231e4f55c9df8b/1791231679236-6238a7bc-9025-400b-96df-0dbb0dbd118a.jpeg",
@@ -36215,12 +36221,6 @@
         "i": "https://assets.pippa.io/shows/6ab1977e35231e4f55c9df8b/7a6d9d2377f60cf2820373262e887bf1.jpg",
         "link": "https://mashruteh.podbean.com/e/%d8%b3%db%8c%e2%80%8c%d9%88%d8%af%d9%88%d9%85-%d9%85%d9%87%d8%b1-%d9%88-%d8%a2%d8%a8%d8%a7%d9%86-1286/",
         "title": "سی‌ودوم: مهر و آبان 1286"
-      },
-      {
-        "at": "2026-07-10T21:04:53Z",
-        "i": "https://assets.pippa.io/shows/6ab1977e35231e4f55c9df8b/39797b7fc459250251e3e5a021b7813e.jpg",
-        "link": "https://mashruteh.podbean.com/e/%d8%b3%db%8c%e2%80%8c%d9%88%db%8c%da%a9%d9%85-%d8%b4%d9%87%d8%b1%db%8c%d9%88%d8%b1-1286/",
-        "title": "سی‌ویکم: شهریور 1286"
       }
     ],
     "recent_30d": [
@@ -36235,7 +36235,7 @@
       1,
       1,
       1,
-      0
+      1
     ],
     "status": "active"
   },
