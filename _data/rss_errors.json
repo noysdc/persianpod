@@ -27,6 +27,10 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
+  "baigani-ha-padkst-mhndsi-snaia": {
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "rss": "https://iien.ir/category/podcast/feed/"
+  },
   "baigani-ha-sda": {
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://musiceiranian.ir/type/audio/feed"
@@ -48,11 +52,11 @@
     "rss": "https://drdna.ir/category/%D9%81%DB%8C%D9%84%D9%85-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/feed/"
   },
   "film-o-srial-soti": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/feed"
   },
   "filmhai-sinmaii-airani": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
   "galri-film": {
