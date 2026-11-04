@@ -36212,7 +36212,7 @@
       }
     ],
     "recent_30d": [
-      4,
+      3,
       0,
       0,
       0,
@@ -44883,8 +44883,8 @@
       0,
       1,
       0,
-      3,
-      6,
+      4,
+      5,
       6,
       4,
       4,
@@ -53416,10 +53416,10 @@
     "status": "inactive"
   },
   "podcast-prchm-sfid": {
-    "avg_gap_days": 5.9,
+    "avg_gap_days": 5.8,
     "avg_length": 44,
     "episodes": 178,
-    "eps_365": 63,
+    "eps_365": 62,
     "eps_90": 24,
     "first_at": "2018-11-17",
     "first_year": 1397,
@@ -57151,8 +57151,8 @@
     ],
     "recent_30d": [
       3,
-      5,
-      5,
+      6,
+      4,
       4,
       4,
       1,
@@ -61645,38 +61645,44 @@
     "status": "active"
   },
   "radio-saikt-mdrsh-alm-o-fnaori-koantom": {
-    "avg_gap_days": 18.1,
+    "avg_gap_days": 17.3,
     "avg_length": 25,
-    "episodes": 175,
-    "eps_365": 21,
-    "eps_90": 7,
+    "episodes": 176,
+    "eps_365": 22,
+    "eps_90": 8,
     "first_at": "2023-12-18",
     "first_year": 1402,
     "last": "1405/08/13",
-    "last_at": "2026-11-04T07:48:51Z",
-    "last_link": "https://shenoto.com/album/podcast/1894389/کتاب آرمان‌ها و واقعیت‌ها؛ فصل اول، بخش دوم: بیماری‌های اغنیا و بیماری‌های فقرا",
-    "last_title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل اول، بخش دوم: بیماری‌های اغنیا و بیماری‌های فقرا",
+    "last_at": "2026-11-04T08:05:18Z",
+    "last_link": "https://shenoto.com/album/podcast/1894414/کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش اول: علم و تکنولوژی در کشورهای در حال توسعه",
+    "last_title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش اول: علم و تکنولوژی در کشورهای در حال توسعه",
     "max_length": 99,
     "median_length": 27,
     "min_length": 3,
     "play": [
       {
+        "a": "https://shenoto.com/service/api/play/podcast/79a93ca7-d826-11f1-a824-b2bc6c7247b5.mp3",
+        "at": "2026-11-04T08:05:18Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/e4e4fdc7-368f-4c56-a9a0-acbb42572c18/cover/3000.jpg",
+        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش اول: علم و تکنولوژی در کشورهای در حال توسعه"
+      },
+      {
         "a": "https://shenoto.com/service/api/play/podcast/2d6a861a-d824-11f1-a824-b2bc6c7247b5.mp3",
         "at": "2026-11-04T07:48:51Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/60871d30-df80-4ff1-9e26-617aac9820c6/cover/3000.jpg",
-        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل اول، بخش دوم: بیماری‌های اغنیا و بیماری‌های فقرا"
+        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش دوم: بیماری‌های اغنیا و بیماری‌های فقرا"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/5bd5d80a-d823-11f1-a824-b2bc6c7247b5.mp3",
         "at": "2026-11-04T07:43:00Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/a8bff4be-f12f-4185-8762-1fbbdc8fde0d/cover/3000.jpg",
-        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ بخش دوم: نظم اقتصادی بین‌المللی نوین"
+        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست: نظم اقتصادی بین‌المللی نوین"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/75f6d484-cd41-11f1-8d55-d2483d1b3a72.mp3",
         "at": "2026-10-21T11:20:46Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/eabba802-0602-4fa0-80e8-76d07a1bef05/cover/3000.jpg",
-        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش 1"
+        "t": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش اول"
       },
       {
         "a": "https://shenoto.com/service/api/play/podcast/d04c765d-cd3e-11f1-8d55-d2483d1b3a72.mp3",
@@ -61701,32 +61707,26 @@
         "at": "2026-09-09T11:53:25Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/d2989007-ff23-4d1e-98af-94b833b89a24/cover/3000.jpg",
         "t": "اپیزود معرفی فصل \"عصر دوم کوانتوم\""
-      },
-      {
-        "a": "https://shenoto.com/service/api/play/podcast/3c62a5a2-82a3-11f1-afe3-fe131d34812e.mp3",
-        "at": "2026-07-18T12:21:42Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/989cc4a8-5c54-4191-93f9-dd53820ed8ee/cover/3000.jpg",
-        "t": "اپیزود چهارم فصل \"در جستجوی برتری کوانتومی\"؛ هوش کوانتومی"
       }
     ],
     "recent": [
       {
+        "at": "2026-11-04T08:05:18Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/e4e4fdc7-368f-4c56-a9a0-acbb42572c18/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/1894414/کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش اول: علم و تکنولوژی در کشورهای در حال توسعه",
+        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل دوم، بخش اول: علم و تکنولوژی در کشورهای در حال توسعه"
+      },
+      {
         "at": "2026-11-04T07:48:51Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/60871d30-df80-4ff1-9e26-617aac9820c6/cover/3000.jpg",
-        "link": "https://shenoto.com/album/podcast/1894389/کتاب آرمان‌ها و واقعیت‌ها؛ فصل اول، بخش دوم: بیماری‌های اغنیا و بیماری‌های فقرا",
-        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل اول، بخش دوم: بیماری‌های اغنیا و بیماری‌های فقرا"
+        "link": "https://shenoto.com/album/podcast/1894389/کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش دوم: بیماری‌های اغنیا و بیماری‌های فقرا",
+        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش دوم: بیماری‌های اغنیا و بیماری‌های فقرا"
       },
       {
         "at": "2026-11-04T07:43:00Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/a8bff4be-f12f-4185-8762-1fbbdc8fde0d/cover/3000.jpg",
-        "link": "https://shenoto.com/album/podcast/1894380/کتاب آرمان‌ها و واقعیت‌ها؛ بخش دوم: نظم اقتصادی بین‌المللی نوین",
-        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ بخش دوم: نظم اقتصادی بین‌المللی نوین"
-      },
-      {
-        "at": "2026-10-21T11:20:46Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/eabba802-0602-4fa0-80e8-76d07a1bef05/cover/3000.jpg",
-        "link": "https://shenoto.com/album/podcast/1891526/کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش 1",
-        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست، بخش 1"
+        "link": "https://shenoto.com/album/podcast/1894380/کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست: نظم اقتصادی بین‌المللی نوین",
+        "title": "کتاب آرمان‌ها و واقعیت‌ها؛ فصل نخست: نظم اقتصادی بین‌المللی نوین"
       }
     ],
     "recent_30d": [
@@ -61741,7 +61741,7 @@
       1,
       0,
       1,
-      6
+      7
     ],
     "status": "active"
   },
@@ -65137,8 +65137,8 @@
       }
     ],
     "recent_30d": [
-      0,
       1,
+      0,
       0,
       3,
       0,
