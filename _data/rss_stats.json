@@ -39461,10 +39461,10 @@
     "status": "inactive"
   },
   "mozhde-sara-mzhdh-sra": {
-    "avg_gap_days": 12.5,
+    "avg_gap_days": 12.6,
     "avg_length": 36,
     "episodes": 147,
-    "eps_365": 30,
+    "eps_365": 29,
     "eps_90": 10,
     "first_at": "2024-05-04",
     "first_year": 1403,
@@ -66263,7 +66263,7 @@
   },
   "roanshnasi-shkhsit-o-khoshbkhti": {
     "avg_length": 12,
-    "episodes": 1037,
+    "episodes": 1041,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2020-06-07",
@@ -66273,7 +66273,7 @@
     "last_link": "https://podcasters.spotify.com/pod/show/plato32/episodes/ep-epfn6p",
     "last_title": "مراحل رشدروانی در کودکی و تأثیر آن روی نظام‌ذهنی بزرگسالی",
     "max_length": 2202,
-    "median_length": 21,
+    "median_length": 22,
     "min_length": 1,
     "play": [
       {
@@ -67817,19 +67817,25 @@
   "sayeroshan": {
     "avg_gap_days": 7.4,
     "avg_length": 4,
-    "episodes": 15,
-    "eps_365": 15,
-    "eps_90": 10,
+    "episodes": 16,
+    "eps_365": 16,
+    "eps_90": 11,
     "first_at": "2026-07-17",
     "first_year": 1405,
-    "last": "1405/08/07",
-    "last_at": "2026-10-29T17:30:00Z",
-    "last_link": "https://rss.com/podcasts/sayehroshan/3277429",
-    "last_title": "کافه دنج کنج خیابان (پناهگاه موقت غریبه ها)",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T17:30:00Z",
+    "last_link": "https://rss.com/podcasts/sayehroshan/3292657",
+    "last_title": "کتاب فروشی قدیمی (کپسول زمان ورق ها و غبار)",
     "max_length": 8,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://content.rss.com/episodes/394852/3292657/sayehroshan/2026_11_04_07_55_23_36dea012-d5b9-46ef-bcea-78c614d85aed.mp3",
+        "at": "2026-11-05T17:30:00Z",
+        "i": "https://media.rss.com/sayehroshan/ep_cover_20261104_075514_ba915016b8e0a1c8f7cf72d95a84d050.jpg",
+        "t": "کتاب فروشی قدیمی (کپسول زمان ورق ها و غبار)"
+      },
       {
         "a": "https://content.rss.com/episodes/394852/3277429/sayehroshan/2026_10_29_15_47_21_e3c459ea-7f58-4c70-ad99-98e92154f277.mp3",
         "at": "2026-10-29T17:30:00Z",
@@ -67871,15 +67877,15 @@
         "at": "2026-09-03T17:30:00Z",
         "i": "https://media.rss.com/sayehroshan/ep_cover_20260830_172930_141ff0f7176e95b400f1e645d3256b29.png",
         "t": "قاب عکس (انجماد یک ثانیه)"
-      },
-      {
-        "a": "https://content.rss.com/episodes/394852/3074970/sayehroshan/2026_08_17_18_20_53_18de9faa-4249-48b6-b044-ff06ea9792ab.mp3",
-        "at": "2026-08-27T17:30:00Z",
-        "i": "https://media.rss.com/sayehroshan/ep_cover_20260817_182045_3ce6a8aaaa94aabd77608546b2ba76fa.png",
-        "t": "کفش (روایت جاده ها و ماندن ها)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T17:30:00Z",
+        "i": "https://media.rss.com/sayehroshan/ep_cover_20261104_075514_ba915016b8e0a1c8f7cf72d95a84d050.jpg",
+        "link": "https://rss.com/podcasts/sayehroshan/3292657",
+        "title": "کتاب فروشی قدیمی (کپسول زمان ورق ها و غبار)"
+      },
       {
         "at": "2026-10-29T17:30:00Z",
         "i": "https://media.rss.com/sayehroshan/ep_cover_20261029_154709_0b7de77e49ae88868553d5b6a6791e1b.jpg",
@@ -67891,12 +67897,6 @@
         "i": "https://media.rss.com/sayehroshan/ep_cover_20261022_153900_64e9373822f7d4e819165a80eed8e3c5.jpg",
         "link": "https://rss.com/podcasts/sayehroshan/3256987",
         "title": "آشپزخانه در ساعت 3 صبح (پناهگاه بی خواب ها)"
-      },
-      {
-        "at": "2026-10-15T17:30:00Z",
-        "i": "https://media.rss.com/sayehroshan/ep_cover_20261015_070639_8be35ccf7237141d51977c7ecb5288ff.jpg",
-        "link": "https://rss.com/podcasts/sayehroshan/3236761",
-        "title": "نیمکت پارک (شاهد صبور عبور)"
       }
     ],
     "recent_30d": [
@@ -67911,7 +67911,7 @@
       5,
       4,
       2,
-      4
+      5
     ],
     "status": "active"
   },
@@ -69694,10 +69694,10 @@
     "status": "active"
   },
   "shab-tab-shb-tab": {
-    "avg_gap_days": 40.1,
+    "avg_gap_days": 43.4,
     "avg_length": 35,
     "episodes": 24,
-    "eps_365": 10,
+    "eps_365": 9,
     "eps_90": 7,
     "first_at": "2022-06-07",
     "first_year": 1401,
@@ -74509,7 +74509,7 @@
       }
     ],
     "recent_30d": [
-      115,
+      114,
       115,
       32,
       76,
@@ -74816,7 +74816,7 @@
   },
   "tarikh-mamari": {
     "avg_length": 13,
-    "episodes": 31,
+    "episodes": 33,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-09-17",
@@ -74836,10 +74836,22 @@
         "t": "قسمت سی و نهم | اصول معماری ایرانی"
       },
       {
+        "a": "https://anchor.fm/s/6bf43074/podcast/play/53082271/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-6%2F2dabdc43-690e-ec3a-f37f-6d0a492b1231.mp3",
+        "at": "2022-06-06T07:31:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/18011653/18011653-1654500667655-21c6bd872de1f.jpg",
+        "t": "قسمت سی و هفتم | معماری پرش کیهانی"
+      },
+      {
         "a": "https://anchor.fm/s/6bf43074/podcast/play/52028867/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-15%2F7a146d57-0a84-4f1d-33b5-2a0ad46ca176.mp3",
         "at": "2022-05-15T14:19:53Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/18011653/18011653-1652624304928-50a136f470206.jpg",
         "t": "قسمت سی و پنجم | معماری دیکانستراکشن"
+      },
+      {
+        "a": "https://anchor.fm/s/6bf43074/podcast/play/51690502/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-8%2F41b01101-616f-bb0f-b56b-2ad448e8e36f.mp3",
+        "at": "2022-05-08T12:24:36Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/18011653/18011653-1652012618891-bb054097c1935.jpg",
+        "t": "قسمت سی و چهارم | معماری نئوکلاسیک"
       },
       {
         "a": "https://anchor.fm/s/6bf43074/podcast/play/51358764/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-4-1%2F4bec86d8-6c94-d6ad-9a43-4dd75c303583.mp3",
@@ -74864,18 +74876,6 @@
         "at": "2022-04-10T14:47:37Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/18011653/18011653-1649601922500-8bf94da6331ed.jpg",
         "t": "قسمت سی‌ام | آغاز عصر پست مدرن"
-      },
-      {
-        "a": "https://anchor.fm/s/6bf43074/podcast/play/50028674/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-3%2F17806ea0-3d29-ed9b-3abf-1e0ea464a19c.mp3",
-        "at": "2022-04-03T11:33:45Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/18011653/18011653-1648985535174-1dda39a7c8372.jpg",
-        "t": "قسمت بیست و نهم | معماری بروتالیسم و معماری تندیسگرا"
-      },
-      {
-        "a": "https://anchor.fm/s/6bf43074/podcast/play/49696933/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-2-27%2F35076e10-4e47-f698-70db-16e9c67d8880.mp3",
-        "at": "2022-03-27T18:02:56Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/18011653/18011653-1648404139550-a8b05674c881f.jpg",
-        "t": "قسمت بیست و هشتم | معماری مینیمالیسم"
       }
     ],
     "recent": [
@@ -74886,16 +74886,16 @@
         "title": "قسمت سی و نهم | اصول معماری ایرانی"
       },
       {
+        "at": "2022-06-06T07:31:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/18011653/18011653-1654500667655-21c6bd872de1f.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/92494/episodes/ep-e1jiemv",
+        "title": "قسمت سی و هفتم | معماری پرش کیهانی"
+      },
+      {
         "at": "2022-05-15T14:19:53Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/18011653/18011653-1652624304928-50a136f470206.jpg",
         "link": "https://podcasters.spotify.com/pod/show/92494/episodes/ep-e1iia03",
         "title": "قسمت سی و پنجم | معماری دیکانستراکشن"
-      },
-      {
-        "at": "2022-05-01T13:12:52Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/18011653/18011653-1651410696613-62bb0e2805591.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/92494/episodes/--e1htrjc",
-        "title": "قسمت سی و سوم | معماری اکو-تک"
       }
     ],
     "recent_30d": [
