@@ -9209,21 +9209,27 @@
     "status": "active"
   },
   "boutigha": {
-    "avg_gap_days": 10.3,
+    "avg_gap_days": 11.7,
     "avg_length": 46,
-    "episodes": 57,
-    "eps_365": 13,
-    "eps_90": 5,
+    "episodes": 58,
+    "eps_365": 14,
+    "eps_90": 6,
     "first_at": "2021-03-09",
     "first_year": 1399,
-    "last": "1405/07/15",
-    "last_at": "2026-10-07T19:51:27Z",
-    "last_link": "https://shows.acast.com/boutighapodcast/episodes/48",
-    "last_title": "48 –  غصهٔ زمانه",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T10:18:07Z",
+    "last_link": "https://shows.acast.com/boutighapodcast/episodes/49",
+    "last_title": "49 – گربهٔ خاموش",
     "max_length": 91,
     "median_length": 51,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624957f6f5bbfe0012f8de54/e/6aec57df51ac9ecbba3ed24b/media.mp3",
+        "at": "2026-11-05T10:18:07Z",
+        "i": "https://assets.pippa.io/shows/624957f6f5bbfe0012f8de54/1793873604117-1b6f585f-92e4-4532-acc4-0eb478ae973e.jpeg",
+        "t": "49 – گربهٔ خاموش"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/624957f6f5bbfe0012f8de54/e/6ac63b8429b9fbfbe24b2513/media.mp3",
         "at": "2026-10-07T19:51:27Z",
@@ -9265,15 +9271,15 @@
         "at": "2026-08-03T10:29:30Z",
         "i": "https://assets.pippa.io/shows/624957f6f5bbfe0012f8de54/1785608822448-799aab2d-784a-4bf1-9e3a-dfa5ececa731.jpeg",
         "t": "لن‌ترونی – قسمت سوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/624957f6f5bbfe0012f8de54/e/6a6e3a10f7c2060a1f63c734/media.mp3",
-        "at": "2026-08-01T18:25:19Z",
-        "i": "https://assets.pippa.io/shows/624957f6f5bbfe0012f8de54/1785606609796-56fd9f91-b074-4c35-978c-2775ea44e585.jpeg",
-        "t": "46 – صفت زلف"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T10:18:07Z",
+        "i": "https://assets.pippa.io/shows/624957f6f5bbfe0012f8de54/1793873604117-1b6f585f-92e4-4532-acc4-0eb478ae973e.jpeg",
+        "link": "https://shows.acast.com/boutighapodcast/episodes/49",
+        "title": "49 – گربهٔ خاموش"
+      },
       {
         "at": "2026-10-07T19:51:27Z",
         "i": "https://assets.pippa.io/shows/624957f6f5bbfe0012f8de54/1791402233364-5a38770d-7bbe-4704-8bd2-dcb287912c70.jpeg",
@@ -9285,12 +9291,6 @@
         "i": "https://assets.pippa.io/shows/624957f6f5bbfe0012f8de54/1791179988489-3b3f24e1-8b8a-446e-8aa2-d26af005af0c.jpeg",
         "link": "https://shows.acast.com/boutighapodcast/episodes/6ac33d431b614c9be09d9bcf",
         "title": "لن‌ترونی – قسمت هفتم [پیش‌نمایش]"
-      },
-      {
-        "at": "2026-09-02T20:35:23Z",
-        "i": "https://assets.pippa.io/shows/624957f6f5bbfe0012f8de54/1788379381713-f458441c-31ea-4533-a9f3-48d6807c175c.jpeg",
-        "link": "https://shows.acast.com/boutighapodcast/episodes/47",
-        "title": "47 – بادهٔ مغانه"
       }
     ],
     "recent_30d": [
@@ -9305,7 +9305,7 @@
       6,
       3,
       1,
-      1
+      2
     ],
     "status": "active"
   },
