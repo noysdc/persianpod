@@ -47550,21 +47550,27 @@
     "status": "active"
   },
   "podcast-farsi-dioan": {
-    "avg_gap_days": 19.0,
+    "avg_gap_days": 18.8,
     "avg_length": 26,
-    "episodes": 47,
-    "eps_365": 19,
-    "eps_90": 6,
+    "episodes": 48,
+    "eps_365": 20,
+    "eps_90": 7,
     "first_at": "2024-10-01",
     "first_year": 1403,
-    "last": "1405/07/30",
-    "last_at": "2026-10-22T06:00:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E1-e3qesst",
-    "last_title": "S6E1 : آن سه هٓوٓل",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T07:00:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E2-e3qevvb",
+    "last_title": "S6E2: یوسف و زلیخا",
     "max_length": 36,
     "median_length": 25,
     "min_length": 19,
     "play": [
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/127417771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2Fd40003ae-1019-497a-8771-4c446b7c8d40.mp3",
+        "at": "2026-11-05T07:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791915547645-beb762b3d9532.jpg",
+        "t": "S6E2: یوسف و زلیخا"
+      },
       {
         "a": "https://anchor.fm/s/10a344184/podcast/play/127414621/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F7d7f2fc2-17bc-8ef0-71af-be8000188cd9.mp3",
         "at": "2026-10-22T06:00:00Z",
@@ -47606,15 +47612,15 @@
         "at": "2026-07-30T06:00:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779126664892-08b33663e8aae.jpg",
         "t": "S5E6 : ملاقات خصوصی."
-      },
-      {
-        "a": "https://anchor.fm/s/10a344184/podcast/play/120180532/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2Ff66db591-0ba6-ecab-8b0a-0d3732786e47.mp3",
-        "at": "2026-07-16T06:00:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779126531079-0b842d336c1a9.jpg",
-        "t": "S5E5 : پروژه آپولو ۱."
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T07:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791915547645-beb762b3d9532.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E2-e3qevvb",
+        "title": "S6E2: یوسف و زلیخا"
+      },
       {
         "at": "2026-10-22T06:00:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791915007963-485b59218c882.jpg",
@@ -47626,12 +47632,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779127753590-66f556dbb2894.jpg",
         "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E11-e3ji5c6",
         "title": "S5E11 : رستم و سهراب."
-      },
-      {
-        "at": "2026-09-24T06:00:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779127631281-5a1a755dc50b5.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E10-e3ji58s",
-        "title": "S5E10 : خورشید پشت ابر."
       }
     ],
     "recent_30d": [
@@ -47646,7 +47646,7 @@
       2,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -55568,8 +55568,8 @@
       }
     ],
     "recent_30d": [
-      6,
-      9,
+      7,
+      8,
       3,
       11,
       9,
@@ -59710,21 +59710,27 @@
     "status": "active"
   },
   "radio-dornma": {
-    "avg_gap_days": 224.0,
+    "avg_gap_days": 163.0,
     "avg_length": 56,
-    "episodes": 88,
-    "eps_365": 2,
-    "eps_90": 0,
+    "episodes": 89,
+    "eps_365": 3,
+    "eps_90": 1,
     "first_at": "2019-12-07",
     "first_year": 1398,
-    "last": "1405/05/04",
-    "last_at": "2026-07-26T10:01:29Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/doornamaa/episodes/ep-e3micrl",
-    "last_title": "عطف، قسمت دوم: «تجدیدنظر طلبی» در تاریخ قرآن؛ از ونسبرا تا شومیکر",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T08:00:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/doornamaa/episodes/ep-e3rp844",
+    "last_title": "نشست چهارم دورنما: روایات دینی و تاریخ ذهنیات",
     "max_length": 124,
-    "median_length": 32,
+    "median_length": 33,
     "min_length": 16,
     "play": [
+      {
+        "a": "https://anchor.fm/s/a2c2554/podcast/play/128802372/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fa3d37145-ca88-2ac8-476c-23d7334592ea.mp3",
+        "at": "2026-11-05T08:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/1606653/1606653-1793831955834-ba41a815a48bd.jpg",
+        "t": "نشست چهارم دورنما: روایات دینی و تاریخ ذهنیات"
+      },
       {
         "a": "https://anchor.fm/s/a2c2554/podcast/play/123334965/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-26%2F4e5b01ca-e3cb-6cdf-a4af-899cffd06793.mp3",
         "at": "2026-07-26T10:01:29Z",
@@ -59766,15 +59772,15 @@
         "at": "2025-05-28T19:11:54Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/1606653/1606653-1748459421622-d29e57c4ce442.jpg",
         "t": "راوی، قسمت هفتم: رهبانیت، از روحانیت تا عزوبت"
-      },
-      {
-        "a": "https://anchor.fm/s/a2c2554/podcast/play/101633570/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-3-22%2F5ac08dd3-32c6-53bb-5dec-09d37868ab51.mp3",
-        "at": "2025-04-22T18:47:18Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/1606653/1606653-1745347591238-0a2bf426005f7.jpg",
-        "t": "عطف، قسمت صفرم: مروری بر تاریخ مطالعات اسلام در غرب"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T08:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/1606653/1606653-1793831955834-ba41a815a48bd.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/doornamaa/episodes/ep-e3rp844",
+        "title": "نشست چهارم دورنما: روایات دینی و تاریخ ذهنیات"
+      },
       {
         "at": "2026-07-26T10:01:29Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/1606653/1606653-1785060071358-3003052576e2c.jpg",
@@ -59786,12 +59792,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/1606653/1606653-1765641986577-93d1c2923a212.jpg",
         "link": "https://podcasters.spotify.com/pod/show/doornamaa/episodes/ep-e3caacm",
         "title": "راوی، قسمت دهم (پایانی): مشق تاریخ"
-      },
-      {
-        "at": "2025-10-11T16:12:33Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/1606653/1606653-1760198941485-9eda4333e44b2.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/doornamaa/episodes/ep-e39d1ks",
-        "title": "راوی، قسمت نهم: مصر در نخستین سده‌های اسلامی"
       }
     ],
     "recent_30d": [
@@ -59806,7 +59806,7 @@
       1,
       0,
       0,
-      0
+      1
     ],
     "status": "active"
   },
