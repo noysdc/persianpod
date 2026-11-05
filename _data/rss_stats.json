@@ -35416,8 +35416,8 @@
     "recent_30d": [
       0,
       3,
-      1,
-      4,
+      2,
+      3,
       0,
       0,
       3,
@@ -58952,50 +58952,20 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
-    "avg_length": 62,
-    "episodes": 212,
-    "eps_365": 184,
-    "eps_90": 184,
-    "first_at": "2023-05-07",
+    "avg_length": 49,
+    "episodes": 226,
+    "eps_365": 179,
+    "eps_90": 179,
+    "first_at": "2023-05-06",
     "first_year": 1402,
     "last": "1405/08/14",
-    "last_at": "2026-11-05T19:38:29Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Saedi--Gholam-Hossein-Part-2-e3rrccs",
-    "last_title": "Saedi, Gholam-Hossein Part 2",
+    "last_at": "2026-11-05T17:43:22Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pezechgpour--Mohsen-Part-8-e3rr4rj",
+    "last_title": "Pezechgpour, Mohsen Part 8",
     "max_length": 125,
     "median_length": 30,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128872284/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F2ce013d0-bdf3-d780-63c4-224855087e0b.mp3",
-        "at": "2026-11-05T19:38:29Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793907453641-709e904df0a42.jpg",
-        "t": "Saedi, Gholam-Hossein Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128872025/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F5cfd4fb3-212d-7569-1d04-162e0d64fb2c.mp3",
-        "at": "2026-11-05T19:33:55Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793907168715-5f1c4f032077d.jpg",
-        "t": "Saedi, Gholam-Hossein Part 1"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128869209/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2Ff04acdae-ff75-3a08-f72e-b644a92593b6.mp3",
-        "at": "2026-11-05T18:44:41Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793904254675-1587a3f957d9e.jpg",
-        "t": "Nategh, Homa Part 3"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128869142/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2Feba98c6a-86d6-5bd2-f69e-3e5f4e1ef1c3.mp3",
-        "at": "2026-11-05T18:43:53Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793904168491-bd5aaa5915b6e.jpg",
-        "t": "Nategh, Homa Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128869050/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2Fcfe15c3c-a7fd-d14f-3000-35aaf117ce71.mp3",
-        "at": "2026-11-05T18:42:29Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793904083536-498515b0ea6e2.jpg",
-        "t": "Nategh, Homa Part 1"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128864563/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F6f705eb7-c9e9-61e7-dbd9-9965cff91138.mp3",
         "at": "2026-11-05T17:43:22Z",
@@ -59013,26 +58983,56 @@
         "at": "2026-11-05T17:40:59Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793900411476-c3aadecf1aa37.jpg",
         "t": "Pezechgpour, Mohsen Part 6"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128864283/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F23c4fdaa-369f-8e35-4bd2-ce0028fa4b10.mp3",
+        "at": "2026-11-05T17:39:53Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793900327689-da1d2943688f3.jpg",
+        "t": "Pezechgpour, Mohsen Part 5"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128864195/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F6b0994ae-20ae-9ca9-da36-cd0e24b66a95.mp3",
+        "at": "2026-11-05T17:38:31Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793900242113-cc379c0a0d386.jpg",
+        "t": "Pezechgpour, Mohsen Part 4"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128864093/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2Fbd03ede3-4589-3ce3-e64a-01ce4532f1dd.mp3",
+        "at": "2026-11-05T17:37:04Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793900155733-7a96c5207c4b4.jpg",
+        "t": "Pezechgpour, Mohsen Part 3"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128864011/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2Ff77ff361-5706-eeff-af45-809d39f9495f.mp3",
+        "at": "2026-11-05T17:35:39Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793900071364-5eeb264879ecc.jpg",
+        "t": "Pezechgpour, Mohsen Part 2"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128863537/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F3a333ea5-7ebd-6670-5297-476f519f0b5d.mp3",
+        "at": "2026-11-05T17:34:14Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793900050569-7633711e67625.jpg",
+        "t": "Pezechgpour, Mohsen Part 1"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-05T19:38:29Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793907453641-709e904df0a42.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Saedi--Gholam-Hossein-Part-2-e3rrccs",
-        "title": "Saedi, Gholam-Hossein Part 2"
+        "at": "2026-11-05T17:43:22Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793900570590-4d8c12755d681.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pezechgpour--Mohsen-Part-8-e3rr4rj",
+        "title": "Pezechgpour, Mohsen Part 8"
       },
       {
-        "at": "2026-11-05T19:33:55Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793907168715-5f1c4f032077d.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Saedi--Gholam-Hossein-Part-1-e3rrc4p",
-        "title": "Saedi, Gholam-Hossein Part 1"
+        "at": "2026-11-05T17:42:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793900475546-6c946eced2495.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pezechgpour--Mohsen-Part-7-e3rr4ns",
+        "title": "Pezechgpour, Mohsen Part 7"
       },
       {
-        "at": "2026-11-05T18:44:41Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793904254675-1587a3f957d9e.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nategh--Homa-Part-3-e3rr9cp",
-        "title": "Nategh, Homa Part 3"
+        "at": "2026-11-05T17:40:59Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793900411476-c3aadecf1aa37.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pezechgpour--Mohsen-Part-6-e3rr4lu",
+        "title": "Pezechgpour, Mohsen Part 6"
       }
     ],
     "recent_30d": [
@@ -59047,7 +59047,7 @@
       0,
       0,
       0,
-      184
+      179
     ],
     "status": "active"
   },
@@ -74466,9 +74466,9 @@
         "t": "قسمت چهار هزار و دویست و بیست و هشت"
       },
       {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6aece1522cf7bf424454df75/media.mp3",
-        "at": "2026-11-05T06:47:00Z",
-        "t": "قسمت چهار هزار و دویست و سی و دو"
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6aece6c32cf7bf424458a935/media.mp3",
+        "at": "2026-11-05T13:30:00Z",
+        "t": "قسمت چهار هزار و دویست و سی و پنج"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ae9ccf44ca6aa86040d28cc/media.mp3",
@@ -76055,17 +76055,22 @@
     "avg_length": 28,
     "episodes": 600,
     "eps_365": 261,
-    "eps_90": 64,
-    "first_at": "2024-07-18",
+    "eps_90": 65,
+    "first_at": "2024-07-21",
     "first_year": 1403,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T20:30:00Z",
-    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-1322-uNSjinH0",
-    "last_title": "متی ۱:۱ تا مکاشفه ۲۲: ۲۱",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T20:30:00Z",
+    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-1323-R4KJX4V8",
+    "last_title": "پيدايش ۱: ۱ تا مکاشفه ۲۲: ۲۱",
     "max_length": 32,
     "median_length": 28,
     "min_length": 24,
     "play": [
+      {
+        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/0a426356-7c15-4e53-99e4-ddaf7b81a2fe/group-item/db58d88e-0a7a-4c96-ace4-acb1cbbba1fb/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
+        "at": "2026-11-05T20:30:00Z",
+        "t": "پيدايش ۱: ۱ تا مکاشفه ۲۲: ۲۱"
+      },
       {
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/814c06e7-a450-49d2-b853-861fee5cd573/group-item/2c46e582-ae0f-4fbc-b82a-f98fb0237911/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-11-04T20:30:00Z",
@@ -76100,14 +76105,14 @@
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/30b45d77-8417-47a9-bf0c-1d664f4b4ec8/group-item/bf41b6b9-e5c8-480e-a799-9bbe0caaf39a/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-10-27T20:30:00Z",
         "t": "مکاشفه ۲۱: ۷ تا ۱۱"
-      },
-      {
-        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/76787380-ef0e-4220-9da5-5125d306beff/group-item/eeeb7e17-278c-4695-8ccd-8c1679a269ba/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
-        "at": "2026-10-26T20:30:00Z",
-        "t": "مکاشفه ۲۱: ۱ تا ۶"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T20:30:00Z",
+        "link": "https://tmm-khtb.simplecast.com/episodes/tk-1323-R4KJX4V8",
+        "title": "پيدايش ۱: ۱ تا مکاشفه ۲۲: ۲۱"
+      },
       {
         "at": "2026-11-04T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-1322-uNSjinH0",
@@ -76117,24 +76122,19 @@
         "at": "2026-11-03T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-1321-BKeNmxXH",
         "title": "مکاشفه ۱:۱ تا مکاشفه ۲۲: ۲۱"
-      },
-      {
-        "at": "2026-11-02T20:30:00Z",
-        "link": "https://tmm-khtb.simplecast.com/episodes/tk-1320-NQUGdfm5",
-        "title": "مکاشفه ۲۲: ۱۶ تا ۲۱"
       }
     ],
     "recent_30d": [
       22,
+      21,
+      21,
+      22,
       22,
       20,
       22,
       22,
       21,
       21,
-      22,
-      22,
-      20,
       22,
       22
     ],
