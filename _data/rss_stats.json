@@ -53196,10 +53196,10 @@
     "status": "active"
   },
   "podcast-khrghh": {
-    "avg_gap_days": 8.2,
+    "avg_gap_days": 8.3,
     "avg_length": 34,
     "episodes": 134,
-    "eps_365": 45,
+    "eps_365": 44,
     "eps_90": 18,
     "first_at": "2019-12-09",
     "first_year": 1398,
@@ -53290,8 +53290,8 @@
       0,
       0,
       10,
-      6,
       7,
+      6,
       5
     ],
     "status": "active"
@@ -56170,8 +56170,8 @@
       5,
       7,
       3,
-      11,
-      9,
+      12,
+      8,
       9,
       5,
       1,
@@ -58749,10 +58749,10 @@
     "status": "inactive"
   },
   "podgir": {
-    "avg_gap_days": 16.5,
+    "avg_gap_days": 16.6,
     "avg_length": 41,
     "episodes": 71,
-    "eps_365": 21,
+    "eps_365": 20,
     "eps_90": 4,
     "first_at": "2023-06-10",
     "first_year": 1402,
@@ -63720,21 +63720,27 @@
     "status": "active"
   },
   "radio-tragedy-radio-trazhdi": {
-    "avg_gap_days": 49.2,
-    "avg_length": 76,
-    "episodes": 73,
-    "eps_365": 7,
-    "eps_90": 2,
+    "avg_gap_days": 49.9,
+    "avg_length": 75,
+    "episodes": 74,
+    "eps_365": 8,
+    "eps_90": 3,
     "first_at": "2020-09-10",
     "first_year": 1399,
-    "last": "1405/06/21",
-    "last_at": "2026-09-12T17:26:40Z",
-    "last_link": "https://s3.castbox.fm/ec/d4/29/a0eed947b6be0e991204227216.mp3",
-    "last_title": "رادیو تراژدی ۶۸ عبدالحسین سپنتا",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T16:48:58Z",
+    "last_link": "https://s3.castbox.fm/e5/9a/c8/e295874fbe8c8e1cc3199c9c93.mp3",
+    "last_title": "رادیو تراژدی ۶۹ اقدس پورتراب",
     "max_length": 211,
     "median_length": 77,
     "min_length": 30,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/e5/9a/c8/e295874fbe8c8e1cc3199c9c93.mp3",
+        "at": "2026-11-05T16:48:58Z",
+        "i": "https://s3.castbox.fm/c1/30/da/f380fe4b868ba824af65404379.jpg",
+        "t": "رادیو تراژدی ۶۹ اقدس پورتراب"
+      },
       {
         "a": "https://s3.castbox.fm/ec/d4/29/a0eed947b6be0e991204227216.mp3",
         "at": "2026-09-12T17:26:40Z",
@@ -63776,15 +63782,15 @@
         "at": "2025-11-20T18:04:08Z",
         "i": "https://s3.castbox.fm/e8/52/7f/968e2949ed87d35c7beb0eb2cf.jpg",
         "t": "رادیو تراژدی ۶۵ سید ضیاالدین طباطبایی"
-      },
-      {
-        "a": "https://s3.castbox.fm/ee/a0/9c/88c5b74b3abefa0f824d7cccd1.mp3",
-        "at": "2025-10-14T18:30:05Z",
-        "i": "https://s3.castbox.fm/81/a8/9e/e7fe684290a65401a3f4d4d966.jpg",
-        "t": "رادیو تراژدی ۶۴ داریوش مهرجویی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T16:48:58Z",
+        "i": "https://s3.castbox.fm/c1/30/da/f380fe4b868ba824af65404379.jpg",
+        "link": "https://s3.castbox.fm/e5/9a/c8/e295874fbe8c8e1cc3199c9c93.mp3",
+        "title": "رادیو تراژدی ۶۹ اقدس پورتراب"
+      },
       {
         "at": "2026-09-12T17:26:40Z",
         "i": "https://s3.castbox.fm/8e/d6/f0/7efa244f9ca02fb4d7ab5c2c1e.jpg",
@@ -63796,12 +63802,6 @@
         "i": "https://s3.castbox.fm/89/5d/03/64d69c46c1a2d214f94c14e310.jpg",
         "link": "https://s3.castbox.fm/c0/6d/1c/5c09a541c3b2c391ce8c79febe.mp3",
         "title": "⁩رادیو تراژدی ۶۷ مصطفی شعاعیان"
-      },
-      {
-        "at": "2026-05-15T15:10:07Z",
-        "i": "https://s3.castbox.fm/ad/ad/8b/a4696147ebacb8df6171597dfb.jpg",
-        "link": "https://s3.castbox.fm/27/87/64/7c0e2248d9ace308a755a40358.mp3",
-        "title": "رادیو تراژدی ۶۶ معین‌التجار بوشهری"
       }
     ],
     "recent_30d": [
@@ -63816,7 +63816,7 @@
       0,
       1,
       1,
-      0
+      1
     ],
     "status": "active"
   },
@@ -74516,8 +74516,8 @@
       0,
       0,
       8,
-      96,
-      81,
+      97,
+      80,
       106,
       85,
       73
