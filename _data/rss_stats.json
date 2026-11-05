@@ -3074,19 +3074,25 @@
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.6,
     "avg_length": 6,
-    "episodes": 29,
-    "eps_365": 29,
-    "eps_90": 29,
+    "episodes": 30,
+    "eps_365": 30,
+    "eps_90": 30,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T19:05:07Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3ri9g1",
-    "last_title": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T17:22:49Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
+    "last_title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)",
     "max_length": 10,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/128781996/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fd0d322a2-b448-a8f5-1487-d65fbe8525cb.mp3",
+        "at": "2026-11-04T17:22:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
+        "t": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
+      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/128574401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F39ddd9c3-b13c-c655-fe26-70dc3a0daa7b.mp3",
         "at": "2026-11-01T19:05:07Z",
@@ -3128,15 +3134,15 @@
         "at": "2026-10-12T11:22:25Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1791804244385-b0917308b42b8.jpg",
         "t": "کلیله‌ودمنه کودکانه | قسمت هشتم | پایان داستان"
-      },
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/126410242/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-28%2Fa97cc378-584b-b858-a304-3a1b6eca9119.mp3",
-        "at": "2026-09-28T10:25:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1790591107531-8d10289b0ad3b.jpg",
-        "t": "شاهنامه کودکانه | قسمت هفتم | فریدون و پایان ضحّاک"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T17:22:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
+        "title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
+      },
       {
         "at": "2026-11-01T19:05:07Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793559915422-eb9a246b41b18.jpg",
@@ -3148,12 +3154,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793364589985-916c09dd464d3.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rdlc5",
         "title": "کلیله و دمنه کودکانه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
-      },
-      {
-        "at": "2026-10-28T14:34:33Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793198080683-fbff1d2126bfb.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3r93rr",
-        "title": "کلیله و دمنه کودکانه | قسمت دهم | موش کوچولوی مهربون(۲)"
       }
     ],
     "recent_30d": [
@@ -3168,7 +3168,7 @@
       0,
       14,
       8,
-      7
+      8
     ],
     "status": "active"
   },
@@ -4880,19 +4880,25 @@
   "ali-sdart": {
     "avg_gap_days": 4.9,
     "avg_length": 32,
-    "episodes": 447,
-    "eps_365": 74,
-    "eps_90": 14,
+    "episodes": 448,
+    "eps_365": 75,
+    "eps_90": 15,
     "first_at": "2020-06-15",
     "first_year": 1399,
-    "last": "1405/08/05",
-    "last_at": "2026-10-27T01:32:08Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3r59mh",
-    "last_title": "صدارت⁠- سرنوشت نامشخص ما، با نقش‌آفرینی توسط ما مردم مشخص می‌شود، نه با دخالت قدرت‌ها و احزاب",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T21:29:15Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/------------e3rp41e",
+    "last_title": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم",
     "max_length": 146,
     "median_length": 38,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/2f313e0c/podcast/play/128798190/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fddb5f1e8-7935-42d2-604b-3f363e9138a8.mp3",
+        "at": "2026-11-04T21:29:15Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793827719022-7d664039ef3ab.jpg",
+        "t": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم"
+      },
       {
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/128148625/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F86d1b280-fce8-230c-d7b1-e99d9f78068e.mp3",
         "at": "2026-10-27T01:32:08Z",
@@ -4934,15 +4940,15 @@
         "at": "2026-09-21T21:57:23Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1790027804334-74bde1aa871e3.jpg",
         "t": "صدارت⁠- سرنوشت تنگه‌های هرمز و باب‌المندب، سرنوشت دنیا را رقم خواهد زد"
-      },
-      {
-        "a": "https://anchor.fm/s/2f313e0c/podcast/play/125873918/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-17%2F2494683d-5bef-da19-d13c-c0225399b9e1.mp3",
-        "at": "2026-09-17T16:51:40Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1789663875312-bacacd75f0443.jpg",
-        "t": "⁠صدارت⁠- نقش رسانه‌های شخصی در کاهش انحصار روایت‌سازی قدرت‌ها و کم‌اثرتر شدن اسلحه در دست ابرقدرت‌ها"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T21:29:15Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793827719022-7d664039ef3ab.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/------------e3rp41e",
+        "title": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم"
+      },
       {
         "at": "2026-10-27T01:32:08Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793064697238-da02b26520a9.jpg",
@@ -4954,12 +4960,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1792693972854-f2ac2f5a09b13.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qtuf6",
         "title": "صدارت-نیاز قدرت‌ها برای جابجایی جایگاه خادمان و خائنان، در جنگ روانی آن‌ها علیه ملت‌ها"
-      },
-      {
-        "at": "2026-10-20T00:43:47Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1792457011730-a0dde11efbc33.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qp4si",
-        "title": "صدارت⁠- تهدید «مادر همه بمب‌ها» توسط «مادر همه ابرقدرت‌ها» بعد از «مادر همه انتخابات‌ها»!؟"
       }
     ],
     "recent_30d": [
@@ -4974,7 +4974,7 @@
       5,
       5,
       4,
-      5
+      6
     ],
     "status": "active"
   },
@@ -17847,21 +17847,27 @@
     "status": "active"
   },
   "frmol-1-farsi": {
-    "avg_gap_days": 13.4,
-    "avg_length": 39,
-    "episodes": 122,
-    "eps_365": 27,
-    "eps_90": 12,
+    "avg_gap_days": 13.0,
+    "avg_length": 41,
+    "episodes": 123,
+    "eps_365": 28,
+    "eps_90": 13,
     "first_at": "2022-04-04",
     "first_year": 1401,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T16:38:00Z",
-    "last_link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/5n3mfehptaf3",
-    "last_title": "مکزیک ۲۰۲۶؛ همه‌چیز در پیچ اول تعیین می‌شه؟ 🏎️ به همراه مقایسه موتورها 🐇🐢 و شاسی‌های امسال",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T00:48:00Z",
+    "last_link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/6qvnza2ee3jv",
+    "last_title": "گرندپری مکزیک: تاریخ‌سازی کیمی 🍾🏆بالا گرفتن درگیری داخلی فراری‌ها ⚔️🏎️ به نفع مکس 😊",
     "max_length": 77,
     "median_length": 36,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/audio3014904223.m4a?dest-id=3386261",
+        "at": "2026-11-05T00:48:00Z",
+        "i": "https://static.libsyn.com/p/assets/9/e/8/0/9e8055d8e9fa1743a04421dee9605cbd/what-a-picture-what-a-podium-what-a-champion-kimi-antonelli-v0-vbgisc3f33zh1.webp",
+        "t": "گرندپری مکزیک: تاریخ‌سازی کیمی 🍾🏆بالا گرفتن درگیری داخلی فراری‌ها ⚔️🏎️ به نفع مکس 😊"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/Audio_Oct31_2026.mp3?dest-id=3386261",
         "at": "2026-11-01T16:38:00Z",
@@ -17903,15 +17909,15 @@
         "at": "2026-10-01T17:30:00Z",
         "i": "https://static.libsyn.com/p/assets/b/1/e/a/b1ea88764901404d88c4a68c3ddbc4f2/ChatGPT_Image_Oct_1_2026_12_35_57_PM.png",
         "t": "پای اختلاف ارضی انگلیس و آرژانتین به باکو باز شد! 🇬🇧🇦🇷💥 باکو ۲۰۲۶"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/0929_1.mp3?dest-id=3386261",
-        "at": "2026-09-30T03:06:00Z",
-        "i": "https://static.libsyn.com/p/assets/1/4/b/5/14b58c05bf30c360e5bbc093207a2619/ChatGPT_Image_Sep_29_2026_10_09_52_PM.png",
-        "t": "قوانین جدید فرمول ۱ برای ۲۰۲۷؛ چه چیزهایی تغییر می‌کند؟ 🏎️"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T00:48:00Z",
+        "i": "https://static.libsyn.com/p/assets/9/e/8/0/9e8055d8e9fa1743a04421dee9605cbd/what-a-picture-what-a-podium-what-a-champion-kimi-antonelli-v0-vbgisc3f33zh1.webp",
+        "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/6qvnza2ee3jv",
+        "title": "گرندپری مکزیک: تاریخ‌سازی کیمی 🍾🏆بالا گرفتن درگیری داخلی فراری‌ها ⚔️🏎️ به نفع مکس 😊"
+      },
       {
         "at": "2026-11-01T16:38:00Z",
         "i": "https://static.libsyn.com/p/assets/4/8/c/4/48c486609e39c8045f2e77a3093c12a1/89B1E494-F91A-419A-9A11-DF021E07C061.png",
@@ -17923,12 +17929,6 @@
         "i": "https://static.libsyn.com/p/assets/e/d/0/1/ed01599d3fdfb8405f2e77a3093c12a1/______.png",
         "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/36ngu9u4lp1p",
         "title": "آستین ۲۰۲۶؛ کیمی درخشید، ردبول اشتباه کرد! 🔥 | تحلیل کامل گرندپری آمریکا"
-      },
-      {
-        "at": "2026-10-25T18:25:00Z",
-        "i": "https://static.libsyn.com/p/assets/f/f/5/4/ff542ee1870286e5a04421dee9605cbd/Austin__Formula_One_Without_a_Driver_.png",
-        "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/-f1",
-        "title": "🤖 فرمول یک بدون راننده؟! | ماشین‌های خودران F1  و بررسی تمرین‌ها و کوالیفایینگ آستین ۲۰۲۶ با حسام 🇺🇸"
       }
     ],
     "recent_30d": [
@@ -17943,7 +17943,7 @@
       4,
       2,
       4,
-      6
+      7
     ],
     "status": "active"
   },
@@ -58264,86 +58264,86 @@
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
     "avg_length": 28,
-    "episodes": 183,
-    "eps_365": 106,
-    "eps_90": 106,
+    "episodes": 236,
+    "eps_365": 159,
+    "eps_90": 159,
     "first_at": "2023-05-06",
     "first_year": 1402,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T03:39:28Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-14-e3rn8n9",
-    "last_title": "Nozari-Kasrai, Mehri Part 14",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T00:40:56Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adamiyatt--Tahmouress-Part-27-e3rpedh",
+    "last_title": "Adamiyatt, Tahmouress Part 27",
     "max_length": 63,
-    "median_length": 31,
+    "median_length": 30,
     "min_length": 1,
     "play": [
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737449/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F7fb0a504-a07d-048d-d4e8-57eb825a021c.mp3",
-        "at": "2026-11-04T03:39:28Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763561243-e474f1331996.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 14"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808817/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F05f0c47f-7f54-ad36-323e-309015f6b4ab.mp3",
+        "at": "2026-11-05T00:40:56Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839240222-79baf40ecb6dd.jpg",
+        "t": "Adamiyatt, Tahmouress Part 27"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737417/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F7b8ebb46-f863-9948-de2c-62b2aa213479.mp3",
-        "at": "2026-11-04T03:39:03Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763530126-3be08313c663.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 13"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808789/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F15995c02-7cc0-4a98-9a95-1444a1ae55cf.mp3",
+        "at": "2026-11-05T00:40:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839207109-799e1addbb12b.jpg",
+        "t": "Adamiyatt, Tahmouress Part 26"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737396/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F2857f4b3-a7c3-d2f0-67e0-a2249361e79f.mp3",
-        "at": "2026-11-04T03:38:30Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763495878-a27d04bb745c9.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 12"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808759/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F176c81d7-8c24-34a0-01c1-0663560d0c30.mp3",
+        "at": "2026-11-05T00:39:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839173528-015af37efc5f3.jpg",
+        "t": "Adamiyatt, Tahmouress Part 25"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737364/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fb782045b-68c7-147b-0c6d-2a0bba6ef2ce.mp3",
-        "at": "2026-11-04T03:37:57Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763465455-275bb83e6256f.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 11"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808724/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2Feeb1fc25-7e20-d768-aae8-ed182b00513e.mp3",
+        "at": "2026-11-05T00:39:15Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839138933-8da345b0a48e4.jpg",
+        "t": "Adamiyatt, Tahmouress Part 24"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737338/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F755d0207-4c30-9ac2-ae73-3a93accb0e70.mp3",
-        "at": "2026-11-04T03:37:24Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763430590-522a4157d1b26.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 10"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808701/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2Fcc7225e4-6300-abc5-67fc-9ad6effb06b0.mp3",
+        "at": "2026-11-05T00:38:39Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839102820-3326c52e19a82.jpg",
+        "t": "Adamiyatt, Tahmouress Part 23"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737314/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fc88e5464-e0bb-28c0-2a0e-e386cb295548.mp3",
-        "at": "2026-11-04T03:36:51Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763397505-0034d9ca866cb.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 9"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808667/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F68de4761-311e-c00d-b547-86fdd2ebc622.mp3",
+        "at": "2026-11-05T00:38:03Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839068563-1cc4ba5042b94.jpg",
+        "t": "Adamiyatt, Tahmouress Part 22"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737286/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fc254ff66-ad4b-ca74-6361-dd2fab5b631e.mp3",
-        "at": "2026-11-04T03:36:19Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763365135-477eceb40c94e.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 8"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808634/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F71f0efff-3ebb-f69f-cad8-886821550a44.mp3",
+        "at": "2026-11-05T00:37:27Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839032062-cd02261e6aee.jpg",
+        "t": "Adamiyatt, Tahmouress Part 21"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128737273/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fdff58904-0beb-f126-398b-03a1bb69b6db.mp3",
-        "at": "2026-11-04T03:35:47Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763342469-1951cc5bfa796.jpg",
-        "t": "Nozari-Kasrai, Mehri Part 7"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808563/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F74b20278-9226-5e76-a860-1a84be9a69dd.mp3",
+        "at": "2026-11-05T00:36:51Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793838958505-74bb0bbd11f91.jpg",
+        "t": "Adamiyatt, Tahmouress Part 20"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-04T03:39:28Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763561243-e474f1331996.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-14-e3rn8n9",
-        "title": "Nozari-Kasrai, Mehri Part 14"
+        "at": "2026-11-05T00:40:56Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839240222-79baf40ecb6dd.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adamiyatt--Tahmouress-Part-27-e3rpedh",
+        "title": "Adamiyatt, Tahmouress Part 27"
       },
       {
-        "at": "2026-11-04T03:39:03Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763530126-3be08313c663.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-13-e3rn8m9",
-        "title": "Nozari-Kasrai, Mehri Part 13"
+        "at": "2026-11-05T00:40:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839207109-799e1addbb12b.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adamiyatt--Tahmouress-Part-26-e3rpecl",
+        "title": "Adamiyatt, Tahmouress Part 26"
       },
       {
-        "at": "2026-11-04T03:38:30Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793763495878-a27d04bb745c9.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-12-e3rn8lk",
-        "title": "Nozari-Kasrai, Mehri Part 12"
+        "at": "2026-11-05T00:39:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839173528-015af37efc5f3.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adamiyatt--Tahmouress-Part-25-e3rpebn",
+        "title": "Adamiyatt, Tahmouress Part 25"
       }
     ],
     "recent_30d": [
@@ -58358,7 +58358,7 @@
       0,
       0,
       0,
-      106
+      159
     ],
     "status": "active"
   },
