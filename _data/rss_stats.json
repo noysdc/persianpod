@@ -991,10 +991,10 @@
     "status": "inactive"
   },
   "aamozsh-fransh-ba-mstfi-shalchi": {
-    "avg_gap_days": 2.3,
+    "avg_gap_days": 2.2,
     "avg_length": 9,
     "episodes": 38,
-    "eps_365": 7,
+    "eps_365": 6,
     "eps_90": 0,
     "first_at": "2021-08-04",
     "first_year": 1400,
@@ -4224,8 +4224,8 @@
       0,
       0,
       0,
-      10,
-      15,
+      11,
+      14,
       18,
       11,
       2,
@@ -45886,20 +45886,26 @@
   },
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.7,
-    "avg_length": 19,
-    "episodes": 36,
-    "eps_365": 36,
-    "eps_90": 36,
+    "avg_length": 22,
+    "episodes": 37,
+    "eps_365": 37,
+    "eps_90": 37,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T05:30:00Z",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T14:22:24Z",
     "last_link": "https://furbodm.com/",
-    "last_title": "NETFLIX #10 | نت‌فلیکس از کجا سلیقه سینمایی آدم‌ها رو تشخیص میده؟",
-    "max_length": 38,
+    "last_title": "NETFLIX | داستان کامل نت‌فلیکس؛ از پاکت قرمز تا فرش قرمز",
+    "max_length": 115,
     "median_length": 22,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6aec91213f1905fd0061186d/media.mp3",
+        "at": "2026-11-05T14:22:24Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793888166348-91e60087-cf5f-4513-ab5d-de5265aaf04a.jpeg",
+        "t": "NETFLIX | داستان کامل نت‌فلیکس؛ از پاکت قرمز تا فرش قرمز"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6aea6a93e6f94e041974cefe/media.mp3",
         "at": "2026-11-04T05:30:00Z",
@@ -45941,15 +45947,15 @@
         "at": "2026-10-31T17:56:00Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469467794-296686a6-7168-4d7a-ae92-d341ba58872c.jpeg",
         "t": "NETFLIX #4 | روش نت‌فلیکس برای حفظ مشتری چی بود؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62bfdace2d1bf65359d79/media.mp3",
-        "at": "2026-10-31T17:54:00Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469409466-77da6c27-fe39-4365-ade8-3325631b4774.jpeg",
-        "t": "NETFLIX #3 | نت‌فلیکس از کجا مشتری‌های اولیه خودش رو پیدا کرد؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T14:22:24Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793888166348-91e60087-cf5f-4513-ab5d-de5265aaf04a.jpeg",
+        "link": "https://furbodm.com/",
+        "title": "NETFLIX | داستان کامل نت‌فلیکس؛ از پاکت قرمز تا فرش قرمز"
+      },
       {
         "at": "2026-11-04T05:30:00Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793747277351-59f01f24-37ad-43ff-9603-89fa86788f88.jpeg",
@@ -45961,12 +45967,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793705204610-6f01c690-513a-46a2-a2d7-6dc0258e9d3e.jpeg",
         "link": "https://furbodm.com/",
         "title": "NETFLIX #9 | چرا نت‌فلیکس همه قسمت‌های فصل سریال رو یک‌جا منتشر می‌کنه؟"
-      },
-      {
-        "at": "2026-11-01T18:30:17Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793557613103-1b043e7f-af98-4dab-a966-f2d46ff10cb3.jpeg",
-        "link": "https://furbodm.com",
-        "title": "NETFLIX #8 | چرا نت‌فلیکس به سمت تولید فیلم و سریال اختصاصی رفت؟"
       }
     ],
     "recent_30d": [
@@ -45981,7 +45981,7 @@
       0,
       0,
       0,
-      36
+      37
     ],
     "status": "active"
   },
@@ -47746,8 +47746,8 @@
       2,
       0,
       1,
-      3,
-      7
+      4,
+      6
     ],
     "status": "active"
   },
@@ -73630,8 +73630,8 @@
       96,
       81,
       106,
-      83,
-      75
+      84,
+      74
     ],
     "status": "active"
   },
