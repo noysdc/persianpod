@@ -4880,25 +4880,19 @@
   "ali-sdart": {
     "avg_gap_days": 4.9,
     "avg_length": 32,
-    "episodes": 448,
-    "eps_365": 75,
-    "eps_90": 15,
+    "episodes": 447,
+    "eps_365": 74,
+    "eps_90": 14,
     "first_at": "2020-06-15",
     "first_year": 1399,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T21:29:15Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/------------e3rp41e",
-    "last_title": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم",
+    "last": "1405/08/05",
+    "last_at": "2026-10-27T01:32:08Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3r59mh",
+    "last_title": "صدارت⁠- سرنوشت نامشخص ما، با نقش‌آفرینی توسط ما مردم مشخص می‌شود، نه با دخالت قدرت‌ها و احزاب",
     "max_length": 146,
     "median_length": 38,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/2f313e0c/podcast/play/128798190/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fddb5f1e8-7935-42d2-604b-3f363e9138a8.mp3",
-        "at": "2026-11-04T21:29:15Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793827719022-7d664039ef3ab.jpg",
-        "t": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم"
-      },
       {
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/128148625/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F86d1b280-fce8-230c-d7b1-e99d9f78068e.mp3",
         "at": "2026-10-27T01:32:08Z",
@@ -4940,15 +4934,15 @@
         "at": "2026-09-21T21:57:23Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1790027804334-74bde1aa871e3.jpg",
         "t": "صدارت⁠- سرنوشت تنگه‌های هرمز و باب‌المندب، سرنوشت دنیا را رقم خواهد زد"
+      },
+      {
+        "a": "https://anchor.fm/s/2f313e0c/podcast/play/125873918/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-17%2F2494683d-5bef-da19-d13c-c0225399b9e1.mp3",
+        "at": "2026-09-17T16:51:40Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1789663875312-bacacd75f0443.jpg",
+        "t": "⁠صدارت⁠- نقش رسانه‌های شخصی در کاهش انحصار روایت‌سازی قدرت‌ها و کم‌اثرتر شدن اسلحه در دست ابرقدرت‌ها"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-04T21:29:15Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793827719022-7d664039ef3ab.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/------------e3rp41e",
-        "title": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم"
-      },
       {
         "at": "2026-10-27T01:32:08Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793064697238-da02b26520a9.jpg",
@@ -4960,6 +4954,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1792693972854-f2ac2f5a09b13.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qtuf6",
         "title": "صدارت-نیاز قدرت‌ها برای جابجایی جایگاه خادمان و خائنان، در جنگ روانی آن‌ها علیه ملت‌ها"
+      },
+      {
+        "at": "2026-10-20T00:43:47Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1792457011730-a0dde11efbc33.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qp4si",
+        "title": "صدارت⁠- تهدید «مادر همه بمب‌ها» توسط «مادر همه ابرقدرت‌ها» بعد از «مادر همه انتخابات‌ها»!؟"
       }
     ],
     "recent_30d": [
@@ -4974,7 +4974,7 @@
       5,
       5,
       5,
-      5
+      4
     ],
     "status": "active"
   },
@@ -37195,8 +37195,8 @@
       23,
       27,
       28,
-      30,
-      25,
+      31,
+      24,
       27,
       26,
       29,
@@ -58263,87 +58263,87 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
-    "avg_length": 27,
-    "episodes": 209,
-    "eps_365": 132,
-    "eps_90": 132,
+    "avg_length": 28,
+    "episodes": 236,
+    "eps_365": 159,
+    "eps_90": 159,
     "first_at": "2023-05-06",
     "first_year": 1402,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T20:30:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-26-e3rp0nk",
-    "last_title": "Hashemi, Manouchehr Part 26",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T00:40:56Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adamiyatt--Tahmouress-Part-27-e3rpedh",
+    "last_title": "Adamiyatt, Tahmouress Part 27",
     "max_length": 63,
-    "median_length": 31,
+    "median_length": 30,
     "min_length": 1,
     "play": [
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794804/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F1cf95b14-523b-3bea-81c6-32bc98b9ac0e.mp3",
-        "at": "2026-11-04T20:30:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824191261-55b66a59970c2.jpg",
-        "t": "Hashemi, Manouchehr Part 26"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808817/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F05f0c47f-7f54-ad36-323e-309015f6b4ab.mp3",
+        "at": "2026-11-05T00:40:56Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839240222-79baf40ecb6dd.jpg",
+        "t": "Adamiyatt, Tahmouress Part 27"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794772/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Ff75e1bfc-4207-0169-4887-833cceaceb8b.mp3",
-        "at": "2026-11-04T20:29:32Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824156710-c3bfb8bbffc3c.jpg",
-        "t": "Hashemi, Manouchehr Part 25"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808789/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F15995c02-7cc0-4a98-9a95-1444a1ae55cf.mp3",
+        "at": "2026-11-05T00:40:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839207109-799e1addbb12b.jpg",
+        "t": "Adamiyatt, Tahmouress Part 26"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794740/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F07c77bfa-b16c-0983-02f9-2d153f700c3e.mp3",
-        "at": "2026-11-04T20:28:58Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824116477-9251a2ec81242.jpg",
-        "t": "Hashemi, Manouchehr Part 24"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808759/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F176c81d7-8c24-34a0-01c1-0663560d0c30.mp3",
+        "at": "2026-11-05T00:39:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839173528-015af37efc5f3.jpg",
+        "t": "Adamiyatt, Tahmouress Part 25"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794711/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F062dbae2-c46f-f2a9-9189-1efb4df14618.mp3",
-        "at": "2026-11-04T20:28:17Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824081385-d3682b30d361e.jpg",
-        "t": "Hashemi, Manouchehr Part 23"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808724/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2Feeb1fc25-7e20-d768-aae8-ed182b00513e.mp3",
+        "at": "2026-11-05T00:39:15Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839138933-8da345b0a48e4.jpg",
+        "t": "Adamiyatt, Tahmouress Part 24"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794635/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F18cdc68e-2b5d-1a98-1d2c-3ede29ab4434.mp3",
-        "at": "2026-11-04T20:27:43Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824046853-d2ece5093a899.jpg",
-        "t": "Hashemi, Manouchehr Part 22"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808701/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2Fcc7225e4-6300-abc5-67fc-9ad6effb06b0.mp3",
+        "at": "2026-11-05T00:38:39Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839102820-3326c52e19a82.jpg",
+        "t": "Adamiyatt, Tahmouress Part 23"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794612/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F6a5d56be-2476-f72b-67b7-833204a09268.mp3",
-        "at": "2026-11-04T20:27:08Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824018408-952fc09f748a2.jpg",
-        "t": "Hashemi, Manouchehr Part 21"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808667/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F68de4761-311e-c00d-b547-86fdd2ebc622.mp3",
+        "at": "2026-11-05T00:38:03Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839068563-1cc4ba5042b94.jpg",
+        "t": "Adamiyatt, Tahmouress Part 22"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794569/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fa6e622c3-7c0d-4ed0-dc3f-3be8f8336788.mp3",
-        "at": "2026-11-04T20:26:39Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793823983933-f69465145f3b9.jpg",
-        "t": "Hashemi, Manouchehr Part 20"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808634/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F71f0efff-3ebb-f69f-cad8-886821550a44.mp3",
+        "at": "2026-11-05T00:37:27Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839032062-cd02261e6aee.jpg",
+        "t": "Adamiyatt, Tahmouress Part 21"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128794541/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Ffc0a3d70-4cfa-4f6c-bb57-b499bae1209d.mp3",
-        "at": "2026-11-04T20:26:04Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793823947261-c3b9ce02872b4.jpg",
-        "t": "Hashemi, Manouchehr Part 19"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808563/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F74b20278-9226-5e76-a860-1a84be9a69dd.mp3",
+        "at": "2026-11-05T00:36:51Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793838958505-74bb0bbd11f91.jpg",
+        "t": "Adamiyatt, Tahmouress Part 20"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-04T20:30:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824191261-55b66a59970c2.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-26-e3rp0nk",
-        "title": "Hashemi, Manouchehr Part 26"
+        "at": "2026-11-05T00:40:56Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839240222-79baf40ecb6dd.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adamiyatt--Tahmouress-Part-27-e3rpedh",
+        "title": "Adamiyatt, Tahmouress Part 27"
       },
       {
-        "at": "2026-11-04T20:29:32Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824156710-c3bfb8bbffc3c.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-25-e3rp0mk",
-        "title": "Hashemi, Manouchehr Part 25"
+        "at": "2026-11-05T00:40:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839207109-799e1addbb12b.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adamiyatt--Tahmouress-Part-26-e3rpecl",
+        "title": "Adamiyatt, Tahmouress Part 26"
       },
       {
-        "at": "2026-11-04T20:28:58Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793824116477-9251a2ec81242.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-24-e3rp0lk",
-        "title": "Hashemi, Manouchehr Part 24"
+        "at": "2026-11-05T00:39:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839173528-015af37efc5f3.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adamiyatt--Tahmouress-Part-25-e3rpebn",
+        "title": "Adamiyatt, Tahmouress Part 25"
       }
     ],
     "recent_30d": [
@@ -58358,7 +58358,7 @@
       0,
       0,
       0,
-      132
+      159
     ],
     "status": "active"
   },
@@ -68502,21 +68502,27 @@
     "status": "active"
   },
   "sfri-dr-dl-tarikh": {
-    "avg_gap_days": 16.8,
+    "avg_gap_days": 16.5,
     "avg_length": 49,
-    "episodes": 68,
-    "eps_365": 22,
-    "eps_90": 7,
+    "episodes": 69,
+    "eps_365": 23,
+    "eps_90": 8,
     "first_at": "2018-11-05",
     "first_year": 1397,
-    "last": "1405/08/03",
-    "last_at": "2026-10-25T03:30:00Z",
-    "last_link": "https://shows.acast.com/travelcast/episodes/cyrus-cylinder-babylon-to-london",
-    "last_title": "داستان استوانه کوروش از بابل تا لندن",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T03:30:00Z",
+    "last_link": "https://shows.acast.com/travelcast/episodes/tower-of-london-part-1",
+    "last_title": "برجی برای اعدام | برج لندن قسمت اول",
     "max_length": 76,
     "median_length": 37,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/628e5d6928045e0012b17009/e/6ae329ded925811fc2b940b1/media.mp3",
+        "at": "2026-11-05T03:30:00Z",
+        "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1793721963491-9dfc343e-254e-48f6-a329-520d7c047e64.jpeg",
+        "t": "برجی برای اعدام | برج لندن قسمت اول"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/628e5d6928045e0012b17009/e/6ad71988819a15003cb6a531/media.mp3",
         "at": "2026-10-25T03:30:00Z",
@@ -68558,15 +68564,15 @@
         "at": "2026-08-15T04:30:00Z",
         "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1786365520304-e3f072cd-0abb-4568-8ec2-7468ffc20b97.jpeg",
         "t": "برنامه ریزی جنگ در کاخ سفید | تغییر رژیم (2)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/628e5d6928045e0012b17009/e/6a71b5b447235c354d3d6efe/media.mp3",
-        "at": "2026-08-05T04:30:00Z",
-        "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1786365469619-d90391aa-a3a7-40e9-a30f-707bc685e32d.jpeg",
-        "t": "بازگشت به کاخ سفید | تغییر رژیم (1)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T03:30:00Z",
+        "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1793721963491-9dfc343e-254e-48f6-a329-520d7c047e64.jpeg",
+        "link": "https://shows.acast.com/travelcast/episodes/tower-of-london-part-1",
+        "title": "برجی برای اعدام | برج لندن قسمت اول"
+      },
       {
         "at": "2026-10-25T03:30:00Z",
         "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1792481089332-538d19f5-f896-4623-b6f4-4f37ff38da53.jpeg",
@@ -68578,12 +68584,6 @@
         "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1792484117621-406df622-d803-4cf6-8aaf-19df02916455.jpeg",
         "link": "https://shows.acast.com/travelcast/episodes/neuschwanstein-disney-castle",
         "title": "از رؤیای یک پادشاه تا قلعه دیزنی"
-      },
-      {
-        "at": "2026-09-30T04:30:00Z",
-        "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1790279005157-bb96f6d0-e7c4-4647-8cb1-8fd27b69895c.jpeg",
-        "link": "https://shows.acast.com/travelcast/episodes/troy-4-trojan-horse",
-        "title": "اسب تروآ و سقوط شهر تروی (4)"
       }
     ],
     "recent_30d": [
@@ -68598,7 +68598,7 @@
       3,
       3,
       2,
-      2
+      3
     ],
     "status": "active"
   },
