@@ -46474,20 +46474,26 @@
   },
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.7,
-    "avg_length": 22,
-    "episodes": 37,
-    "eps_365": 37,
-    "eps_90": 37,
+    "avg_length": 21,
+    "episodes": 38,
+    "eps_365": 38,
+    "eps_90": 38,
     "first_at": "2026-10-10",
     "first_year": 1405,
     "last": "1405/08/14",
-    "last_at": "2026-11-05T14:22:24Z",
-    "last_link": "https://furbodm.com/",
-    "last_title": "NETFLIX | داستان کامل نت‌فلیکس؛ از پاکت قرمز تا فرش قرمز",
+    "last_at": "2026-11-05T21:29:14Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6aecf52a2cf7bf42446155b6",
+    "last_title": "پروژه پادکست؛ آموزش کامل ساخت پادکست",
     "max_length": 115,
     "median_length": 22,
-    "min_length": 4,
+    "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6aecf52a2cf7bf42446155b6/media.mp3",
+        "at": "2026-11-05T21:29:14Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793913744989-4031df28-5b5d-45ca-95bd-646da7bef9c4.jpeg",
+        "t": "پروژه پادکست؛ آموزش کامل ساخت پادکست"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6aec91213f1905fd0061186d/media.mp3",
         "at": "2026-11-05T14:22:24Z",
@@ -46529,15 +46535,15 @@
         "at": "2026-10-31T17:59:00Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469514398-c92998f3-2db7-4bf8-a830-bcf49562d2ea.jpeg",
         "t": "NETFLIX #5 | چرا بلاک باستر، بازیگر اصلی بازار، نت‌فلیکس رو نخرید؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62c37f6b38070e28b4ead/media.mp3",
-        "at": "2026-10-31T17:56:00Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469467794-296686a6-7168-4d7a-ae92-d341ba58872c.jpeg",
-        "t": "NETFLIX #4 | روش نت‌فلیکس برای حفظ مشتری چی بود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T21:29:14Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793913744989-4031df28-5b5d-45ca-95bd-646da7bef9c4.jpeg",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6aecf52a2cf7bf42446155b6",
+        "title": "پروژه پادکست؛ آموزش کامل ساخت پادکست"
+      },
       {
         "at": "2026-11-05T14:22:24Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793888166348-91e60087-cf5f-4513-ab5d-de5265aaf04a.jpeg",
@@ -46549,12 +46555,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793747277351-59f01f24-37ad-43ff-9603-89fa86788f88.jpeg",
         "link": "https://furbodm.com/",
         "title": "NETFLIX #10 | نت‌فلیکس از کجا سلیقه سینمایی آدم‌ها رو تشخیص میده؟"
-      },
-      {
-        "at": "2026-11-03T11:29:07Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793705204610-6f01c690-513a-46a2-a2d7-6dc0258e9d3e.jpeg",
-        "link": "https://furbodm.com/",
-        "title": "NETFLIX #9 | چرا نت‌فلیکس همه قسمت‌های فصل سریال رو یک‌جا منتشر می‌کنه؟"
       }
     ],
     "recent_30d": [
@@ -46569,7 +46569,7 @@
       0,
       0,
       0,
-      37
+      38
     ],
     "status": "active"
   },
@@ -58953,9 +58953,9 @@
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
     "avg_length": 62,
-    "episodes": 185,
-    "eps_365": 157,
-    "eps_90": 157,
+    "episodes": 212,
+    "eps_365": 184,
+    "eps_90": 184,
     "first_at": "2023-05-07",
     "first_year": 1402,
     "last": "1405/08/14",
@@ -59047,7 +59047,7 @@
       0,
       0,
       0,
-      157
+      184
     ],
     "status": "active"
   },
@@ -66263,7 +66263,7 @@
   },
   "roanshnasi-shkhsit-o-khoshbkhti": {
     "avg_length": 12,
-    "episodes": 1037,
+    "episodes": 1039,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2020-06-07",
