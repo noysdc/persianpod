@@ -4880,19 +4880,25 @@
   "ali-sdart": {
     "avg_gap_days": 4.9,
     "avg_length": 32,
-    "episodes": 447,
-    "eps_365": 74,
-    "eps_90": 14,
+    "episodes": 448,
+    "eps_365": 75,
+    "eps_90": 15,
     "first_at": "2020-06-15",
     "first_year": 1399,
-    "last": "1405/08/05",
-    "last_at": "2026-10-27T01:32:08Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3r59mh",
-    "last_title": "صدارت⁠- سرنوشت نامشخص ما، با نقش‌آفرینی توسط ما مردم مشخص می‌شود، نه با دخالت قدرت‌ها و احزاب",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T21:29:15Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/------------e3rp41e",
+    "last_title": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم",
     "max_length": 146,
     "median_length": 38,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/2f313e0c/podcast/play/128798190/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fddb5f1e8-7935-42d2-604b-3f363e9138a8.mp3",
+        "at": "2026-11-04T21:29:15Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793827719022-7d664039ef3ab.jpg",
+        "t": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم"
+      },
       {
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/128148625/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2F86d1b280-fce8-230c-d7b1-e99d9f78068e.mp3",
         "at": "2026-10-27T01:32:08Z",
@@ -4934,15 +4940,15 @@
         "at": "2026-09-21T21:57:23Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1790027804334-74bde1aa871e3.jpg",
         "t": "صدارت⁠- سرنوشت تنگه‌های هرمز و باب‌المندب، سرنوشت دنیا را رقم خواهد زد"
-      },
-      {
-        "a": "https://anchor.fm/s/2f313e0c/podcast/play/125873918/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-17%2F2494683d-5bef-da19-d13c-c0225399b9e1.mp3",
-        "at": "2026-09-17T16:51:40Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1789663875312-bacacd75f0443.jpg",
-        "t": "⁠صدارت⁠- نقش رسانه‌های شخصی در کاهش انحصار روایت‌سازی قدرت‌ها و کم‌اثرتر شدن اسلحه در دست ابرقدرت‌ها"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-04T21:29:15Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793827719022-7d664039ef3ab.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/------------e3rp41e",
+        "title": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم"
+      },
       {
         "at": "2026-10-27T01:32:08Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793064697238-da02b26520a9.jpg",
@@ -4954,12 +4960,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1792693972854-f2ac2f5a09b13.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qtuf6",
         "title": "صدارت-نیاز قدرت‌ها برای جابجایی جایگاه خادمان و خائنان، در جنگ روانی آن‌ها علیه ملت‌ها"
-      },
-      {
-        "at": "2026-10-20T00:43:47Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1792457011730-a0dde11efbc33.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qp4si",
-        "title": "صدارت⁠- تهدید «مادر همه بمب‌ها» توسط «مادر همه ابرقدرت‌ها» بعد از «مادر همه انتخابات‌ها»!؟"
       }
     ],
     "recent_30d": [
@@ -4974,7 +4974,7 @@
       5,
       5,
       5,
-      4
+      5
     ],
     "status": "active"
   },
@@ -9310,33 +9310,21 @@
     "status": "active"
   },
   "bplus": {
-    "avg_gap_days": 6.0,
-    "avg_length": 67,
-    "episodes": 301,
-    "eps_365": 61,
-    "eps_90": 13,
+    "avg_gap_days": 6.2,
+    "avg_length": 65,
+    "episodes": 299,
+    "eps_365": 59,
+    "eps_90": 11,
     "first_at": "2018-05-01",
     "first_year": 1397,
     "last": "1405/08/12",
-    "last_at": "2026-11-03T04:49:19Z",
-    "last_link": "https://shows.acast.com/bplus/episodes/6ae967d0375d48fb43539fbc",
+    "last_at": "2026-11-03T04:48:16Z",
+    "last_link": "https://shows.acast.com/bplus/episodes/6ae96798375d48fb43539328",
     "last_title": "راز ماندگاری ایران جغرافیاست؟",
     "max_length": 131,
     "median_length": 58,
     "min_length": 9,
     "play": [
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65417dfc6143f1001280fb90/e/6ae967d0375d48fb43539fbc/media.mp3",
-        "at": "2026-11-03T04:49:19Z",
-        "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1793680816553-69cdb9f9-b20a-45aa-afdf-bf7af1be861a.jpeg",
-        "t": "راز ماندگاری ایران جغرافیاست؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65417dfc6143f1001280fb90/e/6ae967bb4ca6aa8604ee12c3/media.mp3",
-        "at": "2026-11-03T04:48:32Z",
-        "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1793680816553-69cdb9f9-b20a-45aa-afdf-bf7af1be861a.jpeg",
-        "t": "راز ماندگاری ایران جغرافیاست؟"
-      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65417dfc6143f1001280fb90/e/6ae96798375d48fb43539328/media.mp3",
         "at": "2026-11-03T04:48:16Z",
@@ -9372,26 +9360,38 @@
         "at": "2026-09-16T08:47:30Z",
         "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1789548425033-d05900dc-e4c3-4534-8e8c-74db12ca139c.jpeg",
         "t": "خلاصه کتاب اولویت دموکراسی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65417dfc6143f1001280fb90/e/6a9e6f153559f174784a99b4/media.mp3",
+        "at": "2026-09-07T08:07:16Z",
+        "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1788766906481-38a95757-b79e-464a-84cc-852c36e5928f.jpeg",
+        "t": "داستان یک شهر: پکن، پایتخت چین"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65417dfc6143f1001280fb90/e/6a854b0d39e73ea8f31b4f8a/media.mp3",
+        "at": "2026-09-02T04:19:52Z",
+        "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1787375453066-a611161b-0e61-413c-974e-37545d5de495.jpeg",
+        "t": "سناریوی کابوس: بسته‌شدن همزمان تنگه هرمز و باب‌المندب"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-03T04:49:19Z",
-        "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1793680816553-69cdb9f9-b20a-45aa-afdf-bf7af1be861a.jpeg",
-        "link": "https://shows.acast.com/bplus/episodes/6ae967d0375d48fb43539fbc",
-        "title": "راز ماندگاری ایران جغرافیاست؟"
-      },
-      {
-        "at": "2026-11-03T04:48:32Z",
-        "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1793680816553-69cdb9f9-b20a-45aa-afdf-bf7af1be861a.jpeg",
-        "link": "https://shows.acast.com/bplus/episodes/6ae967bb4ca6aa8604ee12c3",
-        "title": "راز ماندگاری ایران جغرافیاست؟"
-      },
       {
         "at": "2026-11-03T04:48:16Z",
         "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1793680816553-69cdb9f9-b20a-45aa-afdf-bf7af1be861a.jpeg",
         "link": "https://shows.acast.com/bplus/episodes/6ae96798375d48fb43539328",
         "title": "راز ماندگاری ایران جغرافیاست؟"
+      },
+      {
+        "at": "2026-10-22T14:14:40Z",
+        "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1791791472412-dd0fbdc0-005f-4ea7-9fa0-42fc798db9ff.jpeg",
+        "link": "https://shows.acast.com/bplus/episodes/6acc91cc7ce338e8cd71a739",
+        "title": "عربستان بن سلمان؛ پرواز یا سقوط؟"
+      },
+      {
+        "at": "2026-10-14T11:36:57Z",
+        "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1791887103694-0545f5bb-258f-4381-8810-c0055b4c1283.jpeg",
+        "link": "https://shows.acast.com/bplus/episodes/6acda8e568b7ce6ffbfe072c",
+        "title": "خلاصه كتاب ارزش‌ها"
       }
     ],
     "recent_30d": [
@@ -9406,7 +9406,7 @@
       5,
       4,
       3,
-      6
+      4
     ],
     "status": "active"
   },
