@@ -47550,21 +47550,27 @@
     "status": "active"
   },
   "podcast-farsi-dioan": {
-    "avg_gap_days": 19.0,
+    "avg_gap_days": 18.8,
     "avg_length": 26,
-    "episodes": 47,
-    "eps_365": 19,
-    "eps_90": 6,
+    "episodes": 48,
+    "eps_365": 20,
+    "eps_90": 7,
     "first_at": "2024-10-01",
     "first_year": 1403,
-    "last": "1405/07/30",
-    "last_at": "2026-10-22T06:00:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E1-e3qesst",
-    "last_title": "S6E1 : آن سه هٓوٓل",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T07:00:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E2-e3qevvb",
+    "last_title": "S6E2: یوسف و زلیخا",
     "max_length": 36,
     "median_length": 25,
     "min_length": 19,
     "play": [
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/127417771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2Fd40003ae-1019-497a-8771-4c446b7c8d40.mp3",
+        "at": "2026-11-05T07:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791915547645-beb762b3d9532.jpg",
+        "t": "S6E2: یوسف و زلیخا"
+      },
       {
         "a": "https://anchor.fm/s/10a344184/podcast/play/127414621/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F7d7f2fc2-17bc-8ef0-71af-be8000188cd9.mp3",
         "at": "2026-10-22T06:00:00Z",
@@ -47606,15 +47612,15 @@
         "at": "2026-07-30T06:00:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779126664892-08b33663e8aae.jpg",
         "t": "S5E6 : ملاقات خصوصی."
-      },
-      {
-        "a": "https://anchor.fm/s/10a344184/podcast/play/120180532/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2Ff66db591-0ba6-ecab-8b0a-0d3732786e47.mp3",
-        "at": "2026-07-16T06:00:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779126531079-0b842d336c1a9.jpg",
-        "t": "S5E5 : پروژه آپولو ۱."
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T07:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791915547645-beb762b3d9532.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E2-e3qevvb",
+        "title": "S6E2: یوسف و زلیخا"
+      },
       {
         "at": "2026-10-22T06:00:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791915007963-485b59218c882.jpg",
@@ -47626,12 +47632,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779127753590-66f556dbb2894.jpg",
         "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E11-e3ji5c6",
         "title": "S5E11 : رستم و سهراب."
-      },
-      {
-        "at": "2026-09-24T06:00:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779127631281-5a1a755dc50b5.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E10-e3ji58s",
-        "title": "S5E10 : خورشید پشت ابر."
       }
     ],
     "recent_30d": [
@@ -47646,7 +47646,7 @@
       2,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -62540,20 +62540,26 @@
   },
   "radio-shakh": {
     "avg_gap_days": 2.7,
-    "avg_length": 63,
-    "episodes": 224,
-    "eps_365": 135,
-    "eps_90": 35,
+    "avg_length": 64,
+    "episodes": 225,
+    "eps_365": 136,
+    "eps_90": 36,
     "first_at": "2024-10-31",
     "first_year": 1403,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T07:03:08Z",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T07:29:52Z",
     "last_link": "https://www.yourvoice.fm",
-    "last_title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۸ | از بمبِ حلالِ هسته‌ای  تا صندوقِ رأیِ اسرائیلی",
+    "last_title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۹ | از پالایشگاهِ خانگی تا وافورِ اینترنتی",
     "max_length": 198,
     "median_length": 63,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6721c1d9fab47fdf26442707/e/6aec2eab92924d4001c675f5/media.mp3",
+        "at": "2026-11-05T07:29:52Z",
+        "i": "https://assets.pippa.io/shows/6721c1d9fab47fdf26442707/1793862517698-a810d251-ceef-490a-b750-82208cf10933.jpeg",
+        "t": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۹ | از پالایشگاهِ خانگی تا وافورِ اینترنتی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6721c1d9fab47fdf26442707/e/6ae9729e4ca6aa8604f0fe71/media.mp3",
         "at": "2026-11-03T07:03:08Z",
@@ -62595,15 +62601,15 @@
         "at": "2026-10-20T06:50:10Z",
         "i": "https://assets.pippa.io/shows/6721c1d9fab47fdf26442707/1792473497778-57be2db0-1a04-42e4-ad9c-7545e0fc30e2.jpeg",
         "t": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۲ | ماجراهای خانواده‌ی بمب‌ها"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6721c1d9fab47fdf26442707/e/6ad2ffa8e039ee8e85192b8d/media.mp3",
-        "at": "2026-10-17T05:35:26Z",
-        "i": "https://assets.pippa.io/shows/6721c1d9fab47fdf26442707/1792215184149-34117958-1da4-4686-97f9-534c8a8bdeba.jpeg",
-        "t": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۱ | آیفون تازه جنوب، صید روز"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T07:29:52Z",
+        "i": "https://assets.pippa.io/shows/6721c1d9fab47fdf26442707/1793862517698-a810d251-ceef-490a-b750-82208cf10933.jpeg",
+        "link": "https://www.yourvoice.fm",
+        "title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۹ | از پالایشگاهِ خانگی تا وافورِ اینترنتی"
+      },
       {
         "at": "2026-11-03T07:03:08Z",
         "i": "https://assets.pippa.io/shows/6721c1d9fab47fdf26442707/1793683990645-2ead44e3-23b6-4509-abe3-88427284d166.jpeg",
@@ -62615,12 +62621,6 @@
         "i": "https://assets.pippa.io/shows/6721c1d9fab47fdf26442707/1793426225358-92f57014-c9a5-4447-bf61-18df2c732ee3.jpeg",
         "link": "https://www.yourvoice.fm",
         "title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۷ | از کدوی هالووین  تا باسنِ نیکی میناژ"
-      },
-      {
-        "at": "2026-10-29T04:20:39Z",
-        "i": "https://assets.pippa.io/shows/6721c1d9fab47fdf26442707/1793246700436-482f3312-ab65-4ec7-8478-6c7bab93f29d.jpeg",
-        "link": "https://www.yourvoice.fm",
-        "title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۶ | از توهمِ برهنگی تا شورتِ رهبری"
       }
     ],
     "recent_30d": [
@@ -62635,7 +62635,7 @@
       12,
       11,
       12,
-      12
+      13
     ],
     "status": "active"
   },
