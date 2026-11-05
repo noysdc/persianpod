@@ -80,7 +80,7 @@
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
   },
   "lzt-dniai-ktab": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://feed.podkadeh.cloud/podcastxml/lezate-donyaye-ketab.xml"
   },
   "malino": {
