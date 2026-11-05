@@ -58941,20 +58941,26 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
-    "avg_length": 60,
-    "episodes": 211,
-    "eps_365": 183,
-    "eps_90": 183,
+    "avg_length": 62,
+    "episodes": 212,
+    "eps_365": 184,
+    "eps_90": 184,
     "first_at": "2023-05-07",
     "first_year": 1402,
     "last": "1405/08/14",
-    "last_at": "2026-11-05T19:33:55Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Saedi--Gholam-Hossein-Part-1-e3rrc4p",
-    "last_title": "Saedi, Gholam-Hossein Part 1",
+    "last_at": "2026-11-05T19:38:29Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Saedi--Gholam-Hossein-Part-2-e3rrccs",
+    "last_title": "Saedi, Gholam-Hossein Part 2",
     "max_length": 125,
     "median_length": 30,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128872284/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F2ce013d0-bdf3-d780-63c4-224855087e0b.mp3",
+        "at": "2026-11-05T19:38:29Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793907453641-709e904df0a42.jpg",
+        "t": "Saedi, Gholam-Hossein Part 2"
+      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128872025/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F5cfd4fb3-212d-7569-1d04-162e0d64fb2c.mp3",
         "at": "2026-11-05T19:33:55Z",
@@ -58996,15 +59002,15 @@
         "at": "2026-11-05T17:40:59Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793900411476-c3aadecf1aa37.jpg",
         "t": "Pezechgpour, Mohsen Part 6"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128864283/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F23c4fdaa-369f-8e35-4bd2-ce0028fa4b10.mp3",
-        "at": "2026-11-05T17:39:53Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793900327689-da1d2943688f3.jpg",
-        "t": "Pezechgpour, Mohsen Part 5"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T19:38:29Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793907453641-709e904df0a42.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Saedi--Gholam-Hossein-Part-2-e3rrccs",
+        "title": "Saedi, Gholam-Hossein Part 2"
+      },
       {
         "at": "2026-11-05T19:33:55Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793907168715-5f1c4f032077d.jpg",
@@ -59016,12 +59022,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793904254675-1587a3f957d9e.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nategh--Homa-Part-3-e3rr9cp",
         "title": "Nategh, Homa Part 3"
-      },
-      {
-        "at": "2026-11-05T18:43:53Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793904168491-bd5aaa5915b6e.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nategh--Homa-Part-2-e3rr9am",
-        "title": "Nategh, Homa Part 2"
       }
     ],
     "recent_30d": [
@@ -59036,7 +59036,7 @@
       0,
       0,
       0,
-      183
+      184
     ],
     "status": "active"
   },
@@ -74426,19 +74426,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4246,
-    "eps_365": 801,
-    "eps_90": 263,
+    "episodes": 4247,
+    "eps_365": 802,
+    "eps_90": 264,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/14",
-    "last_at": "2026-11-05T20:03:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aecdd4e3a774bc73146c904",
-    "last_title": "قسمت چهار هزار و دویست و بیست و نه",
+    "last_at": "2026-11-05T20:13:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aecde0374a96cc5a4cf32b2",
+    "last_title": "قسمت چهار هزار و دویست و سی",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6aecde0374a96cc5a4cf32b2/media.mp3",
+        "at": "2026-11-05T20:13:00Z",
+        "t": "قسمت چهار هزار و دویست و سی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6aecdd4e3a774bc73146c904/media.mp3",
         "at": "2026-11-05T20:03:00Z",
@@ -74473,14 +74478,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ae9cbe0dc2860cef49ded79/media.mp3",
         "at": "2026-11-03T11:56:19Z",
         "t": "قسمت چهار هزار و دویست و بیست و چهار"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ae7901fc89efe5866d20467/media.mp3",
-        "at": "2026-11-02T15:30:00Z",
-        "t": "قسمت چهار هزار و دویست و بیست و سه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T20:13:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aecde0374a96cc5a4cf32b2",
+        "title": "قسمت چهار هزار و دویست و سی"
+      },
       {
         "at": "2026-11-05T20:03:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aecdd4e3a774bc73146c904",
@@ -74490,11 +74495,6 @@
         "at": "2026-11-05T19:45:23Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aecdcd34cac7bbabb2a052e",
         "title": "قسمت چهار هزار و دویست و بیست و هشت"
-      },
-      {
-        "at": "2026-11-05T06:47:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aece1522cf7bf424454df75",
-        "title": "قسمت چهار هزار و دویست و سی و دو"
       }
     ],
     "recent_30d": [
@@ -74509,7 +74509,7 @@
       82,
       102,
       85,
-      76
+      77
     ],
     "status": "active"
   },
