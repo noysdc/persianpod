@@ -27432,21 +27432,27 @@
     "status": "active"
   },
   "kapitan": {
-    "avg_gap_days": 29.1,
-    "avg_length": 76,
-    "episodes": 80,
-    "eps_365": 13,
-    "eps_90": 8,
+    "avg_gap_days": 28.0,
+    "avg_length": 77,
+    "episodes": 81,
+    "eps_365": 14,
+    "eps_90": 9,
     "first_at": "2023-07-25",
     "first_year": 1402,
-    "last": "1405/07/29",
-    "last_at": "2026-10-21T11:28:43Z",
-    "last_link": "https://t.me/CaptainFPLPodcast",
-    "last_title": "هفته هشتم -  اولین بردها، اولین باخت‌ها و غافلگیری‌های فانتزی",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T15:52:57Z",
+    "last_link": "https://shows.acast.com/captain/episodes/6aeca6575e56bd617c5f5ab8",
+    "last_title": "هفته نهم - به سوی تعطیلات",
     "max_length": 132,
-    "median_length": 77,
+    "median_length": 78,
     "min_length": 27,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64b4f4dc71b6290011f2b886/e/6aeca6575e56bd617c5f5ab8/media.mp3",
+        "at": "2026-11-05T15:52:57Z",
+        "i": "https://assets.pippa.io/shows/64b4f4dc71b6290011f2b886/1793893490323-9686f4d6-fc6e-4df7-be94-c66ce82eedec.jpeg",
+        "t": "هفته نهم - به سوی تعطیلات"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/64b4f4dc71b6290011f2b886/e/6ad89e4e70af2b1aa7dafa9a/media.mp3",
         "at": "2026-10-21T11:28:43Z",
@@ -27488,15 +27494,15 @@
         "at": "2026-08-17T17:33:57Z",
         "i": "https://assets.pippa.io/shows/64b4f4dc71b6290011f2b886/1786981234786-cbf3ca2f-86e3-4353-82ef-4eabe9805455.jpeg",
         "t": "فصل چهارم - قسمت سوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/64b4f4dc71b6290011f2b886/e/6a776bf2e188bf946fb01ebb/media.mp3",
-        "at": "2026-08-08T17:48:35Z",
-        "i": "https://assets.pippa.io/shows/64b4f4dc71b6290011f2b886/1786210854588-4bf03911-1967-486e-9809-24db4c73b871.jpeg",
-        "t": "فصل چهارم - قسمت دوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T15:52:57Z",
+        "i": "https://assets.pippa.io/shows/64b4f4dc71b6290011f2b886/1793893490323-9686f4d6-fc6e-4df7-be94-c66ce82eedec.jpeg",
+        "link": "https://shows.acast.com/captain/episodes/6aeca6575e56bd617c5f5ab8",
+        "title": "هفته نهم - به سوی تعطیلات"
+      },
       {
         "at": "2026-10-21T11:28:43Z",
         "i": "https://assets.pippa.io/shows/64b4f4dc71b6290011f2b886/1792581120189-cdc99fe1-f028-4049-96b7-50344ffcf472.jpeg",
@@ -27508,12 +27514,6 @@
         "i": "https://assets.pippa.io/shows/64b4f4dc71b6290011f2b886/1792064839698-f67e4311-fc3f-4d03-b54c-4692b955376a.jpeg",
         "link": "https://t.me/CaptainFPLPodcast",
         "title": "هفته هفتم - مانی بال | بازیِ اعداد"
-      },
-      {
-        "at": "2026-10-05T06:00:00Z",
-        "i": "https://assets.pippa.io/shows/64b4f4dc71b6290011f2b886/1791158526351-ca22b61a-19b0-47bc-b7c6-3c5dcf91f804.jpeg",
-        "link": "https://t.me/CaptainFPLPodcast",
-        "title": "هفته ششم - بازگشت از تعطیلات؛ سیتی در دادگاه"
       }
     ],
     "recent_30d": [
@@ -27528,7 +27528,7 @@
       1,
       4,
       2,
-      2
+      3
     ],
     "status": "active"
   },
