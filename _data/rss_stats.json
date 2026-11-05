@@ -2786,7 +2786,7 @@
     "avg_length": 12,
     "episodes": 1240,
     "eps_365": 3,
-    "eps_90": 3,
+    "eps_90": 2,
     "first_at": "2021-01-31",
     "first_year": 1399,
     "last": "1405/05/17",
@@ -2864,8 +2864,8 @@
       0,
       0,
       0,
-      0,
-      3,
+      1,
+      2,
       0,
       0
     ],
@@ -22303,8 +22303,8 @@
       0,
       0,
       0,
-      20,
-      3,
+      23,
+      0,
       0,
       0,
       0
@@ -27328,7 +27328,7 @@
       }
     ],
     "recent_30d": [
-      6,
+      5,
       2,
       0,
       0,
@@ -37980,8 +37980,8 @@
       6,
       0,
       0,
-      11,
       12,
+      11,
       21,
       12,
       12,
@@ -44401,7 +44401,7 @@
     "avg_length": 23,
     "episodes": 70,
     "eps_365": 26,
-    "eps_90": 11,
+    "eps_90": 10,
     "first_at": "2025-01-25",
     "first_year": 1403,
     "last": "1405/05/19",
@@ -44490,8 +44490,8 @@
       0,
       0,
       0,
-      6,
-      11,
+      7,
+      10,
       0,
       0
     ],
@@ -63133,25 +63133,25 @@
   },
   "radiocrime-padkst-jnaii-radio-kraim": {
     "avg_gap_days": 15.7,
-    "avg_length": 35,
+    "avg_length": 36,
     "episodes": 84,
     "eps_365": 24,
     "eps_90": 17,
     "first_at": "2024-07-04",
     "first_year": 1403,
     "last": "1405/08/14",
-    "last_at": "2026-11-05T15:10:07Z",
-    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9c5074a96cc5a4aa5f20",
-    "last_title": "قتل کالین اسلمر | قاتلش خیال مردن نداره!",
+    "last_at": "2026-11-05T15:20:21Z",
+    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9eb63be80be7f3a4ac4c",
+    "last_title": "پرونده حل‌نشده گرگوری کیث؛ مردی که بدون هیچ ردی ناپدید شد",
     "max_length": 78,
     "median_length": 14,
     "min_length": 4,
     "play": [
       {
-        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6aec9c5074a96cc5a4aa5f20/media.mp3",
-        "at": "2026-11-05T15:10:07Z",
-        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891234592-a13fb613-3891-4512-b494-7084c04ee18c.jpeg",
-        "t": "قتل کالین اسلمر | قاتلش خیال مردن نداره!"
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6aec9eb63be80be7f3a4ac4c/media.mp3",
+        "at": "2026-11-05T15:20:21Z",
+        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891711122-7af11282-3cc5-48bb-bf1d-a2e4940c9dcf.jpeg",
+        "t": "پرونده حل‌نشده گرگوری کیث؛ مردی که بدون هیچ ردی ناپدید شد"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6aec9b5574a96cc5a4a9e587/media.mp3",
@@ -63198,10 +63198,10 @@
     ],
     "recent": [
       {
-        "at": "2026-11-05T15:10:07Z",
-        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891234592-a13fb613-3891-4512-b494-7084c04ee18c.jpeg",
-        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9c5074a96cc5a4aa5f20",
-        "title": "قتل کالین اسلمر | قاتلش خیال مردن نداره!"
+        "at": "2026-11-05T15:20:21Z",
+        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891711122-7af11282-3cc5-48bb-bf1d-a2e4940c9dcf.jpeg",
+        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9eb63be80be7f3a4ac4c",
+        "title": "پرونده حل‌نشده گرگوری کیث؛ مردی که بدون هیچ ردی ناپدید شد"
       },
       {
         "at": "2026-11-05T15:05:55Z",
@@ -74210,8 +74210,8 @@
       5,
       4,
       4,
-      4,
-      5
+      5,
+      4
     ],
     "status": "active"
   },
