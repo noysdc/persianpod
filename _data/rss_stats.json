@@ -37108,19 +37108,25 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 990,
-    "eps_365": 327,
-    "eps_90": 81,
+    "episodes": 991,
+    "eps_365": 328,
+    "eps_90": 82,
     "first_at": "2023-11-21",
     "first_year": 1402,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T03:16:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/early-results-are-beginning-to-come-in-for-the-us-midterm-elections/0754euzjj",
-    "last_title": "نتایج اولیه انتخابات میان‌دوره‌ای آمریکا به‌تدریج اعلام می‌شود",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T01:46:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/david-jones-collapses-into-administration-with-thousands-of-jobs-at-risk/yl2ofu3ba",
+    "last_title": "فروشگاه زنجیره‌ای دیوید جونز پس از ۱۸۸ سال فعالیت، در آستانه فروپاشی قرار گرفت",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261105124652_961988-311-nf-finaql-v2.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-a940-d644-a3b7-f9f955230000&dur_cat=2",
+        "at": "2026-11-05T01:46:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261105124656_684653-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "t": "فروشگاه زنجیره‌ای دیوید جونز پس از ۱۸۸ سال فعالیت، در آستانه فروپاشی قرار گرفت"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261104141640_209704-persian-97c8e208-9e5c-4612-a4f7-ab730ff142c0.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-a475-d644-a3b7-f4fdf4a80000&dur_cat=2",
         "at": "2026-11-04T03:16:00Z",
@@ -37162,15 +37168,15 @@
         "at": "2026-10-29T03:36:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261029143820_567743-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "t": "تلاش برای نجات توافق تجارت آزاد استرالیا و اتحادیه اروپا"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261028124329_654209-persian-441695a1-33ff-439b-b3c5-a84d61ebb40f.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-8008-d803-a1ed-bf3aaab30000&dur_cat=2",
-        "at": "2026-10-28T01:43:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261028142421_967336-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "t": "درخواست‌ها برای بازنگری در روند مقابله با نژادپرستی در استرالیا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T01:46:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261105124656_684653-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/david-jones-collapses-into-administration-with-thousands-of-jobs-at-risk/yl2ofu3ba",
+        "title": "فروشگاه زنجیره‌ای دیوید جونز پس از ۱۸۸ سال فعالیت، در آستانه فروپاشی قرار گرفت"
+      },
       {
         "at": "2026-11-04T03:16:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261104141738_561956-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
@@ -37182,12 +37188,6 @@
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261104113747_024545-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/rba-increases-interest-rates-again/upx4vbwn2",
         "title": "بانک مرکزی استرالیا نرخ بهره را بار دیگر افزایش داد"
-      },
-      {
-        "at": "2026-11-03T03:25:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261103183329_511742-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/a-firearm-buyback-scheme-begins-today-in-the-state-of-new-south-wales/w8qfmxrj3",
-        "title": "ممنوعیت شبکه‌های اجتماعی برای کودکان در دادگاه عالی استرالیا به چالش کشیده شد"
       }
     ],
     "recent_30d": [
@@ -37201,7 +37201,7 @@
       26,
       28,
       26,
-      25,
+      26,
       30
     ],
     "status": "active"
