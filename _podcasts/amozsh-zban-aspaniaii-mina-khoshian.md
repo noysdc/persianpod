@@ -16,8 +16,8 @@ pi_id: 2490677
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # اموزش زبان اسپانیایی Mina khoshian

@@ -18,8 +18,8 @@ pi_id: 2475949
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # پناه

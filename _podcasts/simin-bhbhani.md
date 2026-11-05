@@ -18,8 +18,8 @@ pi_id: 7202651
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # سیمین بهبهانی
