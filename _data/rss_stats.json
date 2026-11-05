@@ -58264,19 +58264,25 @@
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
     "avg_length": 28,
-    "episodes": 236,
-    "eps_365": 159,
-    "eps_90": 159,
+    "episodes": 237,
+    "eps_365": 160,
+    "eps_90": 160,
     "first_at": "2023-05-06",
     "first_year": 1402,
     "last": "1405/08/14",
-    "last_at": "2026-11-05T00:40:56Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adamiyatt--Tahmouress-Part-27-e3rpedh",
-    "last_title": "Adamiyatt, Tahmouress Part 27",
+    "last_at": "2026-11-05T04:10:11Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Homayoun--Daryoush-Part-1-e3rpolc",
+    "last_title": "Homayoun, Daryoush Part 1",
     "max_length": 63,
     "median_length": 30,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128819308/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2Fc2f6b894-2adc-a8ff-0f06-2a90a1416c68.mp3",
+        "at": "2026-11-05T04:10:11Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793851808173-857f354ce2903.jpg",
+        "t": "Homayoun, Daryoush Part 1"
+      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128808817/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F05f0c47f-7f54-ad36-323e-309015f6b4ab.mp3",
         "at": "2026-11-05T00:40:56Z",
@@ -58318,15 +58324,15 @@
         "at": "2026-11-05T00:37:27Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839032062-cd02261e6aee.jpg",
         "t": "Adamiyatt, Tahmouress Part 21"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128808563/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F74b20278-9226-5e76-a860-1a84be9a69dd.mp3",
-        "at": "2026-11-05T00:36:51Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793838958505-74bb0bbd11f91.jpg",
-        "t": "Adamiyatt, Tahmouress Part 20"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-05T04:10:11Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793851808173-857f354ce2903.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Homayoun--Daryoush-Part-1-e3rpolc",
+        "title": "Homayoun, Daryoush Part 1"
+      },
       {
         "at": "2026-11-05T00:40:56Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839240222-79baf40ecb6dd.jpg",
@@ -58338,12 +58344,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839207109-799e1addbb12b.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adamiyatt--Tahmouress-Part-26-e3rpecl",
         "title": "Adamiyatt, Tahmouress Part 26"
-      },
-      {
-        "at": "2026-11-05T00:39:48Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793839173528-015af37efc5f3.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adamiyatt--Tahmouress-Part-25-e3rpebn",
-        "title": "Adamiyatt, Tahmouress Part 25"
       }
     ],
     "recent_30d": [
@@ -58358,7 +58358,7 @@
       0,
       0,
       0,
-      159
+      160
     ],
     "status": "active"
   },
