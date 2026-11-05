@@ -2186,6 +2186,95 @@
     ],
     "status": "inactive"
   },
+  "aaoai-ktab-ghsh-hai-kodkanh": {
+    "avg_length": 8,
+    "episodes": 20,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-05-10",
+    "first_year": 1400,
+    "last": "1400/08/26",
+    "last_at": "2021-11-17T04:08:08Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/maryam-baneshi/episodes/ep-e1ad4o3",
+    "last_title": "پهلوون پنبه",
+    "max_length": 17,
+    "median_length": 8,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/53d81b54/podcast/play/43471043/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-17%2F44f5675c76969e60a9475a4fb4d26e86.m4a",
+        "at": "2021-11-17T04:08:08Z",
+        "t": "پهلوون پنبه"
+      },
+      {
+        "a": "https://anchor.fm/s/53d81b54/podcast/play/39873122/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-8-6%2F216838581-48000-2-f305381032d15.mp3",
+        "at": "2021-09-06T05:36:19Z",
+        "t": "جک و لوبیای سحر آمیز (بخش دوم )"
+      },
+      {
+        "a": "https://anchor.fm/s/53d81b54/podcast/play/39600679/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-08-31%2F7d7de9903501751dad8c264b5efed60f.m4a",
+        "at": "2021-08-31T11:39:54Z",
+        "t": "جک و لوبیای سحر آمیز (بخش اول)"
+      },
+      {
+        "a": "https://anchor.fm/s/53d81b54/podcast/play/39013878/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-08-19%2Fed719a814c72a304738af3fcfe0771b0.m4a",
+        "at": "2021-08-20T13:01:08Z",
+        "t": "نام داستان:فریب روباه(بخش دوم) از کتاب قصه های خوب برای بچه های خوب"
+      },
+      {
+        "a": "https://anchor.fm/s/53d81b54/podcast/play/39012789/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-08-19%2Fdc35b89f423fa2f913909accee1dbaee.m4a",
+        "at": "2021-08-19T12:35:54Z",
+        "t": "نام داستان :فریب روباه (بخش اول) از کتاب قصه های خوب برای بچه های خوب"
+      },
+      {
+        "a": "https://anchor.fm/s/53d81b54/podcast/play/38795417/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-7-15%2F212600511-44100-2-c08d4606a5b57.m4a",
+        "at": "2021-08-15T04:47:06Z",
+        "t": "موش شهری و موش روستایی"
+      },
+      {
+        "a": "https://anchor.fm/s/53d81b54/podcast/play/37914337/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-27%2F208435638-44100-2-d7df3dd12da1c.m4a",
+        "at": "2021-07-27T18:00:26Z",
+        "t": "پیرمرد و حیوانات جنگل"
+      },
+      {
+        "a": "https://anchor.fm/s/53d81b54/podcast/play/37620203/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-6-21%2F207127560-44100-2-30808466f8f69.m4a",
+        "at": "2021-07-21T21:38:02Z",
+        "t": "زمستان و عمه قزی."
+      }
+    ],
+    "recent": [
+      {
+        "at": "2021-11-17T04:08:08Z",
+        "link": "https://podcasters.spotify.com/pod/show/maryam-baneshi/episodes/ep-e1ad4o3",
+        "title": "پهلوون پنبه"
+      },
+      {
+        "at": "2021-09-06T05:36:19Z",
+        "link": "https://podcasters.spotify.com/pod/show/maryam-baneshi/episodes/ep-e16vb52",
+        "title": "جک و لوبیای سحر آمیز (بخش دوم )"
+      },
+      {
+        "at": "2021-08-31T11:39:54Z",
+        "link": "https://podcasters.spotify.com/pod/show/maryam-baneshi/episodes/ep-e16n137",
+        "title": "جک و لوبیای سحر آمیز (بخش اول)"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "aaoai-mhit-zist": {
     "avg_gap_days": 27.0,
     "avg_length": 84,
@@ -5066,6 +5155,106 @@
       0
     ],
     "status": "active"
+  },
+  "amozsh-zban-aspaniaii-mina-khoshian": {
+    "avg_length": 11,
+    "episodes": 20,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-06-28",
+    "first_year": 1399,
+    "last": "1399/05/10",
+    "last_at": "2020-07-31T08:42:47Z",
+    "last_link": "https://s3.castbox.fm/bc/9e/f8/bb87c84c5392368d7969c65cd4.mp3",
+    "last_title": "صرف افعال بی قاعده در زمان حال ساده قسمت دوم.",
+    "max_length": 16,
+    "median_length": 11,
+    "min_length": 8,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/bc/9e/f8/bb87c84c5392368d7969c65cd4.mp3",
+        "at": "2020-07-31T08:42:47Z",
+        "i": "https://s3.castbox.fm/fc/0b/27/da499d4afcbc1038fd7155d26b.jpg",
+        "t": "صرف افعال بی قاعده در زمان حال ساده قسمت دوم."
+      },
+      {
+        "a": "https://s3.castbox.fm/53/2e/2c/83c22c4cdb96ef43e7c8342475.mp3",
+        "at": "2020-07-27T21:18:19Z",
+        "i": "https://s3.castbox.fm/26/4e/47/298f8f4f698bd8debc534b29f3.jpg",
+        "t": "تدریس کتاب پریسما توسط میناخشیان"
+      },
+      {
+        "a": "https://s3.castbox.fm/73/2a/6f/ccd56e41c6afa8a2901441fb93.mp3",
+        "at": "2020-07-27T12:38:05Z",
+        "i": "https://s3.castbox.fm/d4/fb/72/0548b04223bfffe7e79882f34f.jpg",
+        "t": "Ser o Estar"
+      },
+      {
+        "a": "https://s3.castbox.fm/d1/8f/9c/28093a442a8b01ee1fb70be4aa.mp3",
+        "at": "2020-07-27T12:37:03Z",
+        "i": "https://s3.castbox.fm/49/e0/d6/d9163a40d0a097e7c374569335.jpg",
+        "t": "صرف فعل"
+      },
+      {
+        "a": "https://s3.castbox.fm/e6/87/70/926ca548cfb0938bd79ac49c11.mp3",
+        "at": "2020-07-20T16:53:38Z",
+        "i": "https://s3.castbox.fm/0b/84/7b/a1f36d4e228d4cc0e0f93eadb1.jpg",
+        "t": "Airport اسپانیایی در فرودگاه"
+      },
+      {
+        "a": "https://s3.castbox.fm/88/30/27/a6d08a488681492ef4a49bcbf1.mp3",
+        "at": "2020-07-20T14:55:06Z",
+        "i": "https://s3.castbox.fm/f3/1f/c8/5a26bd4e0db2653c2eb2c02396.jpg",
+        "t": "#cantidad"
+      },
+      {
+        "a": "https://s3.castbox.fm/d3/6b/dc/3c42834100a2a99a1ff88e7ec4.mp3",
+        "at": "2020-07-16T09:46:00Z",
+        "i": "https://s3.castbox.fm/54/ad/50/289120406ea5494e82d4088865.jpg",
+        "t": "اصطلاحات مربوط به غذا در اسپانیایی"
+      },
+      {
+        "a": "https://s3.castbox.fm/6e/8d/42/c2053942d48998b4cf07f4e66e.mp3",
+        "at": "2020-07-15T12:30:24Z",
+        "i": "https://s3.castbox.fm/27/f0/fe/e1e1dd47eda76b6cb58eb5ec14.jpg",
+        "t": "Quedar y Quedarse Part 2"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-07-31T08:42:47Z",
+        "i": "https://s3.castbox.fm/fc/0b/27/da499d4afcbc1038fd7155d26b.jpg",
+        "link": "https://s3.castbox.fm/bc/9e/f8/bb87c84c5392368d7969c65cd4.mp3",
+        "title": "صرف افعال بی قاعده در زمان حال ساده قسمت دوم."
+      },
+      {
+        "at": "2020-07-27T21:18:19Z",
+        "i": "https://s3.castbox.fm/26/4e/47/298f8f4f698bd8debc534b29f3.jpg",
+        "link": "https://s3.castbox.fm/53/2e/2c/83c22c4cdb96ef43e7c8342475.mp3",
+        "title": "تدریس کتاب پریسما توسط میناخشیان"
+      },
+      {
+        "at": "2020-07-27T12:38:05Z",
+        "i": "https://s3.castbox.fm/d4/fb/72/0548b04223bfffe7e79882f34f.jpg",
+        "link": "https://s3.castbox.fm/73/2a/6f/ccd56e41c6afa8a2901441fb93.mp3",
+        "title": "Ser o Estar"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "anghlab-hana-aarnt": {
     "avg_gap_days": 0.1,
@@ -24718,6 +24907,107 @@
     ],
     "status": "inactive"
   },
+  "ilda-mhdoi-brnamh-hai-gnj-hzor": {
+    "avg_gap_days": 17.6,
+    "avg_length": 59,
+    "episodes": 19,
+    "eps_365": 19,
+    "eps_90": 18,
+    "first_at": "2025-12-21",
+    "first_year": 1404,
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T01:50:52Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3rkmg3",
+    "last_title": "برنامه شماره ۱۹",
+    "max_length": 86,
+    "median_length": 63,
+    "min_length": 34,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/116ea0d64/podcast/play/128653251/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F868d5b6f-4a08-ed97-5a48-ea21957b90b2.mp3",
+        "at": "2026-11-03T01:50:52Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793670660688-c32052520f96b.jpg",
+        "t": "برنامه شماره ۱۹"
+      },
+      {
+        "a": "https://anchor.fm/s/116ea0d64/podcast/play/128653040/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2Ffdef3268-d658-db70-50b1-a2d50f6fe192.mp3",
+        "at": "2026-11-03T01:45:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793670320492-5b9013cfbc759.jpg",
+        "t": "برنامه شماره ۱۸"
+      },
+      {
+        "a": "https://anchor.fm/s/116ea0d64/podcast/play/128637722/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F3c47023f-2b75-622f-2db3-08d13da11e37.mp3",
+        "at": "2026-11-02T19:51:55Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793649145243-ee97b1171380b.jpg",
+        "t": "برنامه شماره ۱۷"
+      },
+      {
+        "a": "https://anchor.fm/s/116ea0d64/podcast/play/128637281/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2Fc408e05b-2143-8016-25b3-5368dd98f9bb.mp3",
+        "at": "2026-11-02T19:39:38Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793648387821-84ea3e2eb595c.jpg",
+        "t": "برنامه شماره ۱۶"
+      },
+      {
+        "a": "https://anchor.fm/s/116ea0d64/podcast/play/128636948/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2Fc6a6e2e6-f562-9c4d-ca48-1cf46c4f688f.mp3",
+        "at": "2026-11-02T19:33:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793647999799-6041aad60c5e7.jpg",
+        "t": "برنامه شماره ۱۵"
+      },
+      {
+        "a": "https://anchor.fm/s/116ea0d64/podcast/play/128635749/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F877126b5-76ac-dce9-5ee5-5af7dce53533.mp3",
+        "at": "2026-11-02T19:20:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793647210047-1ad0bbdec1bd.jpg",
+        "t": "برنامه شماره ۱۴"
+      },
+      {
+        "a": "https://anchor.fm/s/116ea0d64/podcast/play/128635332/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F8b64d682-3054-9956-7008-37646601794b.mp3",
+        "at": "2026-11-02T19:00:45Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793646055049-b7c3b055bb19a.jpg",
+        "t": "برنامه شماره ۱۳"
+      },
+      {
+        "a": "https://anchor.fm/s/116ea0d64/podcast/play/128634853/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F62a80e8e-fd1f-809e-4a71-0438bf4566e2.mp3",
+        "at": "2026-11-02T18:53:01Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793645591988-9a7461b18e282.jpg",
+        "t": "برنامه شماره ۱۲"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-11-03T01:50:52Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793670660688-c32052520f96b.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3rkmg3",
+        "title": "برنامه شماره ۱۹"
+      },
+      {
+        "at": "2026-11-03T01:45:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793670320492-5b9013cfbc759.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3rkm9g",
+        "title": "برنامه شماره ۱۸"
+      },
+      {
+        "at": "2026-11-02T19:51:55Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793649145243-ee97b1171380b.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3rk7aq",
+        "title": "برنامه شماره ۱۷"
+      }
+    ],
+    "recent_30d": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      15
+    ],
+    "status": "active"
+  },
   "ismcast": {
     "avg_gap_days": 11.4,
     "avg_length": 29,
@@ -27539,6 +27829,107 @@
       0,
       0,
       1,
+      1,
+      1
+    ],
+    "status": "active"
+  },
+  "kart-sda": {
+    "avg_gap_days": 34.2,
+    "avg_length": 86,
+    "episodes": 19,
+    "eps_365": 11,
+    "eps_90": 2,
+    "first_at": "2025-03-21",
+    "first_year": 1404,
+    "last": "1405/07/23",
+    "last_at": "2026-10-15T14:09:41Z",
+    "last_link": "https://player.rabt.space/podcast/f103036f-f999-40a9-a2b4-df2de3b45537/episode/2be7fdf1-839c-4bb2-9465-7cfc065895d6/play.mp3",
+    "last_title": "کارت دوم، فصل دوم",
+    "max_length": 150,
+    "median_length": 79,
+    "min_length": 31,
+    "play": [
+      {
+        "a": "https://player.rabt.space/podcast/f103036f-f999-40a9-a2b4-df2de3b45537/episode/2be7fdf1-839c-4bb2-9465-7cfc065895d6/play.mp3",
+        "at": "2026-10-15T14:09:41Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f103036f-f999-40a9-a2b4-df2de3b45537/episodes/2be7fdf1-839c-4bb2-9465-7cfc065895d6/artwork.jpg?v=1",
+        "t": "کارت دوم، فصل دوم"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/f103036f-f999-40a9-a2b4-df2de3b45537/episode/1d05c9fa-530b-43d1-899f-85f5aa82d66b/play.mp3",
+        "at": "2026-09-10T16:22:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f103036f-f999-40a9-a2b4-df2de3b45537/episodes/1d05c9fa-530b-43d1-899f-85f5aa82d66b/cover.webp?v=1",
+        "t": "کارت اول فصل دوم"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/f103036f-f999-40a9-a2b4-df2de3b45537/episode/33694fb1-8dc0-4002-b6b3-646481b72774/play.mp3",
+        "at": "2026-07-15T11:34:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f103036f-f999-40a9-a2b4-df2de3b45537/episodes/33694fb1-8dc0-4002-b6b3-646481b72774/cover.webp?v=1",
+        "t": "کارت جامانده"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/f103036f-f999-40a9-a2b4-df2de3b45537/episode/6e3eeed3-7ef3-446c-8615-01a481499a00/play.mp3",
+        "at": "2026-06-28T17:40:18Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f103036f-f999-40a9-a2b4-df2de3b45537/episodes/6e3eeed3-7ef3-446c-8615-01a481499a00/cover.webp?v=1",
+        "t": "کارت مهمان"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/f103036f-f999-40a9-a2b4-df2de3b45537/episode/62099663-b9f1-465f-8341-929db4261901/play.mp3",
+        "at": "2026-04-10T10:13:53Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f103036f-f999-40a9-a2b4-df2de3b45537/episodes/62099663-b9f1-465f-8341-929db4261901/cover.webp?v=1",
+        "t": "اپیزود ویژه میانه‌ی جنگ"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/f103036f-f999-40a9-a2b4-df2de3b45537/episode/ecbd63bb-7011-4422-894a-813f549e13d9/play.mp3",
+        "at": "2026-02-19T09:30:42Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f103036f-f999-40a9-a2b4-df2de3b45537/episodes/ecbd63bb-7011-4422-894a-813f549e13d9/cover.webp?v=1",
+        "t": "اپیزود ویژه بهمن ۱۴۰۴"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/f103036f-f999-40a9-a2b4-df2de3b45537/episode/ff6bd32f-108f-4e48-9c90-a9cd0eab7ebb/play.mp3",
+        "at": "2026-01-27T16:30:02Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f103036f-f999-40a9-a2b4-df2de3b45537/episodes/ff6bd32f-108f-4e48-9c90-a9cd0eab7ebb/cover.webp?v=1",
+        "t": "کارت بی‌صدا - اپیزود ویژه‌ی دی ماه ۱۴۰۴(روزهای نخست قطعی اینترنت)"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/f103036f-f999-40a9-a2b4-df2de3b45537/episode/73b35fdd-ae23-41ea-b6c6-5448bc6f3064/play.mp3",
+        "at": "2025-12-22T14:36:48Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f103036f-f999-40a9-a2b4-df2de3b45537/episodes/73b35fdd-ae23-41ea-b6c6-5448bc6f3064/cover.webp?v=1",
+        "t": "کارت دهم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-15T14:09:41Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f103036f-f999-40a9-a2b4-df2de3b45537/episodes/2be7fdf1-839c-4bb2-9465-7cfc065895d6/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/f103036f-f999-40a9-a2b4-df2de3b45537/episode/2be7fdf1-839c-4bb2-9465-7cfc065895d6/play.mp3",
+        "title": "کارت دوم، فصل دوم"
+      },
+      {
+        "at": "2026-09-10T16:22:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f103036f-f999-40a9-a2b4-df2de3b45537/episodes/1d05c9fa-530b-43d1-899f-85f5aa82d66b/cover.webp?v=1",
+        "link": "https://player.rabt.space/podcast/f103036f-f999-40a9-a2b4-df2de3b45537/episode/1d05c9fa-530b-43d1-899f-85f5aa82d66b/play.mp3",
+        "title": "کارت اول فصل دوم"
+      },
+      {
+        "at": "2026-07-15T11:34:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f103036f-f999-40a9-a2b4-df2de3b45537/episodes/33694fb1-8dc0-4002-b6b3-646481b72774/cover.webp?v=1",
+        "link": "https://player.rabt.space/podcast/f103036f-f999-40a9-a2b4-df2de3b45537/episode/33694fb1-8dc0-4002-b6b3-646481b72774/play.mp3",
+        "title": "کارت جامانده"
+      }
+    ],
+    "recent_30d": [
+      2,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
       1,
       1
     ],
@@ -43917,6 +44308,106 @@
     ],
     "status": "inactive"
   },
+  "pnah": {
+    "avg_length": 20,
+    "episodes": 20,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-03-28",
+    "first_year": 1399,
+    "last": "1399/07/21",
+    "last_at": "2020-10-12T06:40:44Z",
+    "last_link": "https://shenoto.com/album/podcast/43862/پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت نوزدهم",
+    "last_title": "پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت نوزدهم",
+    "max_length": 31,
+    "median_length": 20,
+    "min_length": 9,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/bffbaf75-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-10-12T06:40:44Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/fd446438-5c01-45f9-9582-efee85505bfb/cover/3000.jpg",
+        "t": "پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت نوزدهم"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/be82d6a4-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-09-08T05:39:01Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/807aaea8-282e-4539-a86a-a222fac5d521/cover/3000.jpg",
+        "t": "پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت هجدهم"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/be4ef592-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-08-26T03:38:42Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/efcd6f9a-0e73-4d5d-bee6-abfa981fffc4/cover/3000.jpg",
+        "t": "پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت هفدهم"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/bd0cdd7c-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-07-25T04:37:49Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/79643fa9-32d5-4925-8110-b954993c62db/cover/3000.jpg",
+        "t": "پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت شانزدهم"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/bcac2aba-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-07-06T07:37:15Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/484fd508-09bd-4d85-80d4-346d7fecbd70/cover/3000.jpg",
+        "t": "پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت پانزدهم"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/bc619f37-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-06-21T06:36:22Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/2a600cd4-b6ad-4692-a7a7-7d6d367866d3/cover/3000.jpg",
+        "t": "پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت چهاردهم"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/bc3ba42d-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-06-07T06:36:31Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/69f2d18b-7d35-4a9a-901b-8698540b5795/cover/3000.jpg",
+        "t": "پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت سیزدهم"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/bc24eca3-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2020-05-27T05:35:19Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/1546a8d7-f79a-44e1-bf8c-b84b8c395823/cover/3000.jpg",
+        "t": "پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت دوازدهم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-10-12T06:40:44Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/fd446438-5c01-45f9-9582-efee85505bfb/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/43862/پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت نوزدهم",
+        "title": "پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت نوزدهم"
+      },
+      {
+        "at": "2020-09-08T05:39:01Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/807aaea8-282e-4539-a86a-a222fac5d521/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/42490/پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت هجدهم",
+        "title": "پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت هجدهم"
+      },
+      {
+        "at": "2020-08-26T03:38:42Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/efcd6f9a-0e73-4d5d-bee6-abfa981fffc4/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/41932/پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت هفدهم",
+        "title": "پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت هفدهم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "podcast-10-sbh": {
     "avg_length": 63,
     "episodes": 163,
@@ -44116,6 +44607,103 @@
       0
     ],
     "status": "active"
+  },
+  "podcast-aahng-shb": {
+    "avg_length": 15,
+    "episodes": 20,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-02-24",
+    "first_year": 1399,
+    "last": "1400/06/25",
+    "last_at": "2021-09-16T17:30:00Z",
+    "last_link": "https://www.spreaker.com/user/15268603/nightmusics08e06",
+    "last_title": "NightMusicS08E06",
+    "max_length": 20,
+    "median_length": 16,
+    "min_length": 7,
+    "play": [
+      {
+        "a": "https://api.spreaker.com/download/episode/46563908/a91a80fe_6f0e_a588_55a1_2d6d86a8f7d1.mp3",
+        "at": "2021-09-16T17:30:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ab70a40ed94155ea74d307f20557e7c4.jpg",
+        "t": "NightMusicS08E06"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/46563915/08d02e0c082fa89e3163451298c15479.mp3",
+        "at": "2021-09-11T17:30:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ab70a40ed94155ea74d307f20557e7c4.jpg",
+        "t": "NightMusicS08E05"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/46563909/93574d98_6811_7894_2ba9_ea531614b3a2.mp3",
+        "at": "2021-09-09T17:30:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ab70a40ed94155ea74d307f20557e7c4.jpg",
+        "t": "NightMusicS08E04"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/46563910/08acd92bb2a1470edccc52ba2fc4da7a.mp3",
+        "at": "2021-09-04T17:30:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ab70a40ed94155ea74d307f20557e7c4.jpg",
+        "t": "NightMusicS08E03"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/46563918/f2c84987_ba19_80b7_608b_6f3b843ca0ce.mp3",
+        "at": "2021-09-01T17:30:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ab70a40ed94155ea74d307f20557e7c4.jpg",
+        "t": "NightMusicS08E02"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/46563911/7add2cfe5ca54ecbb0dde2ce525a36cd.mp3",
+        "at": "2021-08-29T18:36:36Z",
+        "t": "NightMusicS08E01"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/46563929/b5d2edd9_d013_0c3b_f2f6_09b0921ffb24.mp3",
+        "at": "2021-08-24T17:30:00Z",
+        "t": "NightMusicS07E08"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/46563919/204b8102_bd10_bb3f_c1a6_ed14de8a9e3e.mp3",
+        "at": "2021-08-17T17:30:00Z",
+        "t": "NightMusicS07E07"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2021-09-16T17:30:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ab70a40ed94155ea74d307f20557e7c4.jpg",
+        "link": "https://www.spreaker.com/user/15268603/nightmusics08e06",
+        "title": "NightMusicS08E06"
+      },
+      {
+        "at": "2021-09-11T17:30:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ab70a40ed94155ea74d307f20557e7c4.jpg",
+        "link": "https://www.spreaker.com/user/15268603/nightmusics08e05",
+        "title": "NightMusicS08E05"
+      },
+      {
+        "at": "2021-09-09T17:30:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ab70a40ed94155ea74d307f20557e7c4.jpg",
+        "link": "https://www.spreaker.com/user/15268603/nightmusics08e04",
+        "title": "NightMusicS08E04"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "podcast-aaih-hai-mlkot": {
     "avg_length": 5,
@@ -47242,6 +47830,107 @@
       1,
       1,
       1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "podcast-dr-dri": {
+    "avg_gap_days": 7.6,
+    "avg_length": 22,
+    "episodes": 19,
+    "eps_365": 13,
+    "eps_90": 0,
+    "first_at": "2025-09-28",
+    "first_year": 1404,
+    "last": "1404/11/19",
+    "last_at": "2026-02-08T04:26:49Z",
+    "last_link": "https://share.transistor.fm/s/4faf034a",
+    "last_title": "قسمت ۲۰ - قسمت دوم: نقش شعر و داستان در شکل‌دهی نگرش صلح‌آمیز در نوجوانان",
+    "max_length": 23,
+    "median_length": 21,
+    "min_length": 20,
+    "play": [
+      {
+        "a": "https://media.transistor.fm/4faf034a/fbf87265.mp3",
+        "at": "2026-02-08T04:26:49Z",
+        "i": "https://img.transistorcdn.com/Qqud1k94Z_qg8549mkwwpd2T-Xxj6H8XX1ZB5VeknY0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hM2Yy/MTlmMzllMzRkZjA0/YzQ0YWY3Y2M3N2M0/OTJiZC5qcGc.jpg",
+        "t": "قسمت ۲۰ - قسمت دوم: نقش شعر و داستان در شکل‌دهی نگرش صلح‌آمیز در نوجوانان"
+      },
+      {
+        "a": "https://media.transistor.fm/b7e0c600/114ab091.mp3",
+        "at": "2026-02-01T02:30:00Z",
+        "i": "https://img.transistorcdn.com/k_Ov3nhgjtKd2KB2qfJuNKuby3R-iel9Grf-K_3DsYg/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9kMWY2/MGVmY2ZjYTJjNGIw/MmE4NzM0NzNlY2M3/ZjRmYy5qcGc.jpg",
+        "t": "قسمت ۱۹- ادبیات و کودک قسمت اول: ادبیات کودک و پیام‌های صلح‌آمیز در قصه‌ها"
+      },
+      {
+        "a": "https://media.transistor.fm/8961b49c/71e01157.mp3",
+        "at": "2026-01-25T04:11:54Z",
+        "i": "https://img.transistorcdn.com/gQX59oOVBgCkwSJ7WQb6rOyz0OKrcjq-Ct_z7Q9Xs50/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81NTE2/NTA2NDNlNTEwNjlj/YWQzYTNmOGQyMjA3/MGI1MS5qcGc.jpg",
+        "t": "قسمت ۱۸- نقش زنان در ترویج صلح از دیدگاه ادبیات فارسی"
+      },
+      {
+        "a": "https://media.transistor.fm/98aee53a/435f1140.mp3",
+        "at": "2026-01-11T06:07:43Z",
+        "i": "https://img.transistorcdn.com/fBYRqRslXxZkDPvLXkjs5zYDtxdTZ2pYaa3vxxMTnHg/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wZGJl/NDgwNTFlMjU5OTBi/NWJhMTBmZmQ4ZTc3/M2EyNS5qcGc.jpg",
+        "t": "قسمت ۱۷- ادبیات سفرنامه‌ای و شناخت میان‌فرهنگی"
+      },
+      {
+        "a": "https://media.transistor.fm/0244c9e0/27686b37.mp3",
+        "at": "2026-01-04T02:30:00Z",
+        "i": "https://img.transistorcdn.com/fJt6vLm7kK_mQw9HNS1gfa3kKBs-kqkNsjk37ycbtCU/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS83ZWY2/YWEyNjhkNjEzMzI2/YjZmNDFmZDIwMWU1/NGQyZS5qcGc.jpg",
+        "t": "قسمت ۱۶ - تاریخ‌نویسی در ادبیات فارسی؛ بازتاب صلح و عدالت"
+      },
+      {
+        "a": "https://media.transistor.fm/0850880b/530d115a.mp3",
+        "at": "2025-12-28T05:59:58Z",
+        "i": "https://img.transistorcdn.com/bAHoxGJceSOo7RoO5vrGV3LI3Khbkjq7LsZIGNQr3VM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hYWYy/NmM5ODdkMTc4ZTI3/ZTJiZWE5Mzc3OTUy/OGU1Yi5qcGc.jpg",
+        "t": "قسمت ۱۴ - داستان‌های کوتاه فارسی و پیام‌های صلح‌آمیز آن‌ها"
+      },
+      {
+        "a": "https://media.transistor.fm/2223c935/2d82bd37.mp3",
+        "at": "2025-12-21T02:30:00Z",
+        "i": "https://img.transistorcdn.com/1qz4R_WGo9-dZ7n_2oUMJ5l0-LgCu2TJtFHgxt_3Aj4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zYzk0/YzNmODUxNTY0ODM0/OGU4NWM4Y2RkODFj/YWEwOC5qcGc.jpg",
+        "t": "قسمت ۱۳ - داستان‌های عامیانه در تقویت روحیه هم‌زیستی"
+      },
+      {
+        "a": "https://media.transistor.fm/7c189f37/c446b865.mp3",
+        "at": "2025-12-14T02:30:00Z",
+        "i": "https://img.transistorcdn.com/Vbk4V2PKgvAtXJyo0OSAHw4Jsl179RyHFbQXxnGqLqA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hOWEx/NmU1NDY3YmEwMTQ3/ODU5MzBiOGYwNzM1/NGMyYi5qcGc.jpg",
+        "t": "قسمت ۱۲ - حیوانات و نگاه به حیوانات در ادبیات فارسی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-02-08T04:26:49Z",
+        "i": "https://img.transistorcdn.com/Qqud1k94Z_qg8549mkwwpd2T-Xxj6H8XX1ZB5VeknY0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hM2Yy/MTlmMzllMzRkZjA0/YzQ0YWY3Y2M3N2M0/OTJiZC5qcGc.jpg",
+        "link": "https://share.transistor.fm/s/4faf034a",
+        "title": "قسمت ۲۰ - قسمت دوم: نقش شعر و داستان در شکل‌دهی نگرش صلح‌آمیز در نوجوانان"
+      },
+      {
+        "at": "2026-02-01T02:30:00Z",
+        "i": "https://img.transistorcdn.com/k_Ov3nhgjtKd2KB2qfJuNKuby3R-iel9Grf-K_3DsYg/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9kMWY2/MGVmY2ZjYTJjNGIw/MmE4NzM0NzNlY2M3/ZjRmYy5qcGc.jpg",
+        "link": "https://share.transistor.fm/s/b7e0c600",
+        "title": "قسمت ۱۹- ادبیات و کودک قسمت اول: ادبیات کودک و پیام‌های صلح‌آمیز در قصه‌ها"
+      },
+      {
+        "at": "2026-01-25T04:11:54Z",
+        "i": "https://img.transistorcdn.com/gQX59oOVBgCkwSJ7WQb6rOyz0OKrcjq-Ct_z7Q9Xs50/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81NTE2/NTA2NDNlNTEwNjlj/YWQzYTNmOGQyMjA3/MGI1MS5qcGc.jpg",
+        "link": "https://share.transistor.fm/s/8961b49c",
+        "title": "قسمت ۱۸- نقش زنان در ترویج صلح از دیدگاه ادبیات فارسی"
+      }
+    ],
+    "recent_30d": [
+      4,
+      4,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -58264,7 +58953,7 @@
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
     "avg_length": 28,
-    "episodes": 235,
+    "episodes": 218,
     "eps_365": 171,
     "eps_90": 171,
     "first_at": "2023-05-06",
@@ -63131,6 +63820,106 @@
     ],
     "status": "active"
   },
+  "radio-trsim-padkst-mamari-tarsim": {
+    "avg_length": 22,
+    "episodes": 20,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-12-11",
+    "first_year": 1398,
+    "last": "1399/08/24",
+    "last_at": "2020-11-14T06:28:12Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/tarsim/episodes/ep-emfbqf",
+    "last_title": "بیستم. پادکست ترسیم. چطور وارد شغل بازسازی بشیم؟",
+    "max_length": 47,
+    "median_length": 20,
+    "min_length": 11,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/1105f134/podcast/play/22572303/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-10-14%2F128468768-44100-2-f5a776e25d106.mp3",
+        "at": "2020-11-14T06:28:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2756021/2756021-1605335293875-6779f693778bc.jpg",
+        "t": "بیستم. پادکست ترسیم. چطور وارد شغل بازسازی بشیم؟"
+      },
+      {
+        "a": "https://anchor.fm/s/1105f134/podcast/play/21954998/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-10-1%2F124357799-44100-2-b92c5f1e201fe.mp3",
+        "at": "2020-11-01T17:05:09Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2756021/2756021-1604250619751-27dd41fbd13ac.jpg",
+        "t": "نوزدهم. چهارده سبک طراحی داخلی. قسمت دو از دو"
+      },
+      {
+        "a": "https://anchor.fm/s/1105f134/podcast/play/21246014/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-9-17%2F119337849-44100-2-53158f2a42ada.mp3",
+        "at": "2020-10-17T17:30:50Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2756021/2756021-1602956064462-b64aa3fa3ec9c.jpg",
+        "t": "هجدهم. چهارده سبک طراحی داخلی. قسمت یک از دو"
+      },
+      {
+        "a": "https://anchor.fm/s/1105f134/podcast/play/17524543/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-7-4%2F95526492-44100-2-2fe80b7a4f8f.mp3",
+        "at": "2020-08-04T03:43:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2756021/2756021-1596512628118-fb57d6d453a3e.jpg",
+        "t": "هفدهم. رنگ در معماری و دکوراسیون. قسمت سوم ( آخر). خلاصه مقاله"
+      },
+      {
+        "a": "https://anchor.fm/s/1105f134/podcast/play/13585040/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-4-11%2F72084048-44100-2-dc24b8cfb6c1.mp3",
+        "at": "2020-05-11T06:54:02Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2756021/2756021-1589180231860-e5a1e93b2290e.jpg",
+        "t": "شانزدهم. رنگ در معماری و دکوراسیون (خلاصه مقاله) بخش دوم"
+      },
+      {
+        "a": "https://anchor.fm/s/1105f134/podcast/play/11743448/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-2-30%2F60171829-44100-2-3069d5c0077e9.mp3",
+        "at": "2020-03-30T08:17:24Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2756021/2756021-1585556262246-aafc226c640f4.jpg",
+        "t": "پانزدهم. رنگ در معماری و دکوراسیون (خلاصه مقاله)"
+      },
+      {
+        "a": "https://anchor.fm/s/1105f134/podcast/play/11450400/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-2-24%2F58554997-44100-2-713263a73a714.mp3",
+        "at": "2020-03-24T04:56:44Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2756021/2756021-1585025813707-6d3150c9774ba.jpg",
+        "t": "چهارده. مراحل انجام عملیات بازسازی و دکوراسیون"
+      },
+      {
+        "a": "https://anchor.fm/s/1105f134/podcast/play/10911375/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-2-8%2F55307501-44100-2-3a3e1f49b7236.mp3",
+        "at": "2020-03-08T06:03:21Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2756021/2756021-1583678369594-197c5c8f753a5.jpg",
+        "t": "سیزده. نکاتی در طراحی کابینت"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-11-14T06:28:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2756021/2756021-1605335293875-6779f693778bc.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/tarsim/episodes/ep-emfbqf",
+        "title": "بیستم. پادکست ترسیم. چطور وارد شغل بازسازی بشیم؟"
+      },
+      {
+        "at": "2020-11-01T17:05:09Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2756021/2756021-1604250619751-27dd41fbd13ac.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/tarsim/episodes/ep-elsgvm",
+        "title": "نوزدهم. چهارده سبک طراحی داخلی. قسمت دو از دو"
+      },
+      {
+        "at": "2020-10-17T17:30:50Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2756021/2756021-1602956064462-b64aa3fa3ec9c.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/tarsim/episodes/ep-el6sju",
+        "title": "هجدهم. چهارده سبک طراحی داخلی. قسمت یک از دو"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "radiocrime-padkst-jnaii-radio-kraim": {
     "avg_gap_days": 15.7,
     "avg_length": 36,
@@ -63513,8 +64302,8 @@
       1,
       0,
       0,
-      16,
-      8,
+      17,
+      7,
       7,
       3,
       10,
@@ -71521,6 +72310,106 @@
       0,
       0,
       0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "simin-bhbhani": {
+    "avg_length": 4,
+    "episodes": 19,
+    "eps_365": 1,
+    "eps_90": 0,
+    "first_at": "2025-01-14",
+    "first_year": 1403,
+    "last": "1404/11/29",
+    "last_at": "2026-02-18T15:42:31Z",
+    "last_link": "https://shenoto.com/album/podcast/1556459/سیمین بهبهانی | ای شهر",
+    "last_title": "سیمین بهبهانی | ای شهر",
+    "max_length": 16,
+    "median_length": 3,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/6fb2dddf-0ce0-11f1-b314-0242ac120014.mp3",
+        "at": "2026-02-18T15:42:31Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/b82fc46c-d220-469f-aff2-53fc7aa807fc/cover/3000.jpg",
+        "t": "سیمین بهبهانی | ای شهر"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/544f8af3-865c-11f0-b314-0242ac120014.mp3",
+        "at": "2025-08-31T11:19:15Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/ece0dbb2-3ad3-4b24-a9e1-4acceb9ce39a/cover/3000.jpg",
+        "t": "مصاحبه با سیمین بهبهانی"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/9bb4f423-7e58-11f0-b314-0242ac120014.mp3",
+        "at": "2025-08-21T06:32:28Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a39f0e80-861f-40c9-bdb7-f84cd1b6fdc4/cover/3000.jpg",
+        "t": "سیمین بهبهانی | پسته"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/ee95abd8-f987-11ef-a347-0242ac120014.mp3",
+        "at": "2025-03-05T06:06:09Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/f8ec8311-9a2b-4d5e-bb86-024380fb981f/cover/3000.jpg",
+        "t": "سیمین بهبهانی | دوباره می‌سازمت وطن"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c36f766e-deee-11ef-b7ed-0242ac120002.mp3",
+        "at": "2025-01-30T09:44:13Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/45956e74-b123-4867-bb26-f76eab05db1d/cover/3000.jpg",
+        "t": "سیمین بهبهانی | وقتی که تهمت می‌گذارند"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/fdcabaf4-db4e-11ef-919c-0242ac120015.mp3",
+        "at": "2025-01-25T19:02:58Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/19ae6822-6a76-4d93-93a0-8380ec9ae5fd/cover/3000.jpg",
+        "t": "سیمین بهبهانی | دالان سمن‌ها"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/ea42e50a-da43-11ef-919c-0242ac120015.mp3",
+        "at": "2025-01-24T11:11:09Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/4922ac25-fc6a-4c95-9d4f-6725fe445920/cover/3000.jpg",
+        "t": "سیمین بهبهانی | در انتظار تناسخ"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/51a3c2b1-d974-11ef-919c-0242ac120015.mp3",
+        "at": "2025-01-23T10:25:08Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/2a489567-313f-481f-8061-f88bc65b83ef/cover/3000.jpg",
+        "t": "سیمین بهبهانی | ای بسته تو در تو"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-02-18T15:42:31Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/b82fc46c-d220-469f-aff2-53fc7aa807fc/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/1556459/سیمین بهبهانی | ای شهر",
+        "title": "سیمین بهبهانی | ای شهر"
+      },
+      {
+        "at": "2025-08-31T11:19:15Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/ece0dbb2-3ad3-4b24-a9e1-4acceb9ce39a/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/413305/مصاحبه با سیمین بهبهانی",
+        "title": "مصاحبه با سیمین بهبهانی"
+      },
+      {
+        "at": "2025-08-21T06:32:28Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/a39f0e80-861f-40c9-bdb7-f84cd1b6fdc4/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/386544/سیمین بهبهانی | پسته",
+        "title": "سیمین بهبهانی | پسته"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      1,
       0,
       0,
       0,
