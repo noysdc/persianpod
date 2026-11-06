@@ -322,12 +322,12 @@ def analyse(feed_url, paged=None):
             result["status"] = "inactive"
         else:
             result["status"] = "stopped"
-    else:
-        # فید بدون تاریخ معتبر: نه فعال فرض می‌شود و نه متوقف‌شده؛ نیازمند بررسی است.
-        result["status"] = "unknown"
         recent = sorted([(utc(d), x) for d, x in dated if x > 0], key=lambda t: t[0], reverse=True)[:RECENT_FOR_AVG]
         if recent:
             result["avg_length"] = max(1, round(statistics.mean(x for _, x in recent) / 60))
+    else:
+        # فید بدون تاریخ معتبر: نه فعال فرض می‌شود و نه متوقف‌شده؛ نیازمند بررسی است.
+        result["status"] = "unknown"
     # --- صفحه‌ی «تازه‌ها»: آخرین قسمت‌ها با زمان دقیق (UTC) ---
     def utc2(d):
         return d.replace(tzinfo=None) if d.tzinfo is None else d.astimezone(dt.timezone.utc).replace(tzinfo=None)
