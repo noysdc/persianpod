@@ -37498,20 +37498,26 @@
   },
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
-    "avg_length": 7,
-    "episodes": 991,
-    "eps_365": 328,
-    "eps_90": 80,
+    "avg_length": 6,
+    "episodes": 992,
+    "eps_365": 329,
+    "eps_90": 81,
     "first_at": "2023-11-21",
     "first_year": 1402,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T01:46:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/david-jones-collapses-into-administration-with-thousands-of-jobs-at-risk/yl2ofu3ba",
-    "last_title": "فروشگاه زنجیره‌ای دیوید جونز پس از ۱۸۸ سال فعالیت، در آستانه فروپاشی قرار گرفت",
+    "last": "1405/08/15",
+    "last_at": "2026-11-06T01:20:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/ministers-meet-to-discuss-closing-the-gap-targets/t023dfrh5",
+    "last_title": "نشست وزیران برای بررسی اهداف طرح «کاهش شکاف»",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261106122121_341779-persian-061126-fn.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-ae64-d6d8-a5ff-ae7556bb0000&dur_cat=2",
+        "at": "2026-11-06T01:20:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261106122123_170571-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "t": "نشست وزیران برای بررسی اهداف طرح «کاهش شکاف»"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261105124652_961988-311-nf-finaql-v2.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-a940-d644-a3b7-f9f955230000&dur_cat=2",
         "at": "2026-11-05T01:46:00Z",
@@ -37553,15 +37559,15 @@
         "at": "2026-10-30T00:56:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261030115935_241466-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "t": "تجدیدنظرخواهی قاتل پرونده قارچ سمی رد شد؛ حبس ابد بدون آزادی مشروط"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261029143653_102624-persian-f95a007e-fc4d-4e60-ab06-42634c026eca.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-8598-db6d-a7e3-8dda64930000&dur_cat=2",
-        "at": "2026-10-29T03:36:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261029143820_567743-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "t": "تلاش برای نجات توافق تجارت آزاد استرالیا و اتحادیه اروپا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T01:20:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261106122123_170571-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/ministers-meet-to-discuss-closing-the-gap-targets/t023dfrh5",
+        "title": "نشست وزیران برای بررسی اهداف طرح «کاهش شکاف»"
+      },
       {
         "at": "2026-11-05T01:46:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261105154619_938055-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
@@ -37573,12 +37579,6 @@
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261104141738_561956-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/early-results-are-beginning-to-come-in-for-the-us-midterm-elections/0754euzjj",
         "title": "نتایج اولیه انتخابات میان‌دوره‌ای آمریکا به‌تدریج اعلام می‌شود"
-      },
-      {
-        "at": "2026-11-03T04:53:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261104113747_024545-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/rba-increases-interest-rates-again/upx4vbwn2",
-        "title": "بانک مرکزی استرالیا نرخ بهره را بار دیگر افزایش داد"
       }
     ],
     "recent_30d": [
@@ -37593,7 +37593,7 @@
       29,
       24,
       27,
-      29
+      30
     ],
     "status": "active"
   },
