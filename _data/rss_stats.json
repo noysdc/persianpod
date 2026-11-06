@@ -38570,8 +38570,8 @@
     "recent_30d": [
       0,
       10,
-      15,
-      7,
+      16,
+      6,
       0,
       0,
       17,
@@ -56288,7 +56288,7 @@
     "avg_length": 14,
     "episodes": 89,
     "eps_365": 64,
-    "eps_90": 6,
+    "eps_90": 5,
     "first_at": "2025-06-20",
     "first_year": 1404,
     "last": "1405/08/12",
@@ -56366,8 +56366,8 @@
       7,
       5,
       4,
-      2,
       3,
+      2,
       2,
       1
     ],
@@ -72523,21 +72523,27 @@
     "status": "active"
   },
   "siri-dr-tarikh-o-frhng-airan": {
-    "avg_gap_days": 66.4,
-    "avg_length": 36,
-    "episodes": 156,
-    "eps_365": 6,
-    "eps_90": 1,
+    "avg_gap_days": 58.5,
+    "avg_length": 35,
+    "episodes": 157,
+    "eps_365": 7,
+    "eps_90": 2,
     "first_at": "2020-12-10",
     "first_year": 1399,
-    "last": "1405/07/26",
-    "last_at": "2026-10-18T09:45:20Z",
-    "last_link": "https://s3.castbox.fm/6a/1e/a0/9f6e4c470e9f6a87ab7ee98e3b.m4a",
-    "last_title": "ایران و زخمهایش",
+    "last": "1405/08/15",
+    "last_at": "2026-11-06T09:36:06Z",
+    "last_link": "https://s3.castbox.fm/4d/01/4a/99c7f946d68b632ed4a7f21289.m4a",
+    "last_title": "نگاهی به آسیبهای فرهنگی در فضای مجازی",
     "max_length": 56,
     "median_length": 31,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/4d/01/4a/99c7f946d68b632ed4a7f21289.m4a",
+        "at": "2026-11-06T09:36:06Z",
+        "i": "https://s3.castbox.fm/3b/40/c5/6fd21d4a8194667323359cc171.jpg",
+        "t": "نگاهی به آسیبهای فرهنگی در فضای مجازی"
+      },
       {
         "a": "https://s3.castbox.fm/6a/1e/a0/9f6e4c470e9f6a87ab7ee98e3b.m4a",
         "at": "2026-10-18T09:45:20Z",
@@ -72579,15 +72585,15 @@
         "at": "2025-11-06T08:35:57Z",
         "i": "https://s3.castbox.fm/f8/c5/d8/0d59164b0aab040d4aeae1099e.jpg",
         "t": "پرسشگری های حافظانه"
-      },
-      {
-        "a": "https://s3.castbox.fm/fa/60/c5/97db544df9bc054e643329bde3.m4a",
-        "at": "2025-10-04T09:17:12Z",
-        "i": "https://s3.castbox.fm/ff/8f/2d/ba3faf468592e8e63635eb6c24.jpg",
-        "t": "برخی غلط های رایج در تاریخ"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T09:36:06Z",
+        "i": "https://s3.castbox.fm/3b/40/c5/6fd21d4a8194667323359cc171.jpg",
+        "link": "https://s3.castbox.fm/4d/01/4a/99c7f946d68b632ed4a7f21289.m4a",
+        "title": "نگاهی به آسیبهای فرهنگی در فضای مجازی"
+      },
       {
         "at": "2026-10-18T09:45:20Z",
         "i": "https://s3.castbox.fm/4c/91/a0/25711c42bebe5c27bc830fdc9b.jpg",
@@ -72599,12 +72605,6 @@
         "i": "https://s3.castbox.fm/4f/d7/68/84ac6645b081e456112f7bedab.jpg",
         "link": "https://s3.castbox.fm/9a/62/9b/30da614a71b402b0f74b71d4f4.m4a",
         "title": "تاب آوری های حافظانه در روزگار بی ثباتی ها"
-      },
-      {
-        "at": "2026-01-02T07:31:07Z",
-        "i": "https://s3.castbox.fm/a4/ff/1c/dbf51c45859894b4e2bb10557a.jpg",
-        "link": "https://s3.castbox.fm/b5/72/8d/6f3122480290108d1812f199ab.m4a",
-        "title": "سکوت فردوسی درباره هخامنشیان"
       }
     ],
     "recent_30d": [
@@ -72619,7 +72619,7 @@
       0,
       0,
       0,
-      1
+      2
     ],
     "status": "active"
   },
@@ -74538,19 +74538,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4250,
-    "eps_365": 805,
-    "eps_90": 266,
+    "episodes": 4251,
+    "eps_365": 806,
+    "eps_90": 267,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/15",
-    "last_at": "2026-11-06T07:56:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aece5372cf7bf424457dc20",
-    "last_title": "قسمت چهار هزار و دویست و سی و سه",
+    "last_at": "2026-11-06T09:30:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aece6195e56bd617c83b59d",
+    "last_title": "قسمت چهار هزار و دویست و سی و چهار",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6aece6195e56bd617c83b59d/media.mp3",
+        "at": "2026-11-06T09:30:00Z",
+        "t": "قسمت چهار هزار و دویست و سی و چهار"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6aece5372cf7bf424457dc20/media.mp3",
         "at": "2026-11-06T07:56:00Z",
@@ -74585,14 +74590,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6aece6c32cf7bf424458a935/media.mp3",
         "at": "2026-11-05T13:30:00Z",
         "t": "قسمت چهار هزار و دویست و سی و پنج"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6ae9ccf44ca6aa86040d28cc/media.mp3",
-        "at": "2026-11-03T17:30:00Z",
-        "t": "قسمت چهار هزار و دویست و بیست و هفت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T09:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aece6195e56bd617c83b59d",
+        "title": "قسمت چهار هزار و دویست و سی و چهار"
+      },
       {
         "at": "2026-11-06T07:56:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aece5372cf7bf424457dc20",
@@ -74602,11 +74607,6 @@
         "at": "2026-11-06T06:47:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aece1522cf7bf424454df75",
         "title": "قسمت چهار هزار و دویست و سی و دو"
-      },
-      {
-        "at": "2026-11-06T06:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aecdf143a774bc7314791fd",
-        "title": "قسمت چهار هزار و دویست و سی و یک"
       }
     ],
     "recent_30d": [
@@ -74621,7 +74621,7 @@
       83,
       103,
       83,
-      80
+      81
     ],
     "status": "active"
   },
