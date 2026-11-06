@@ -2,6 +2,7 @@
 """خواندن RSS پادکست‌ها و ساخت _data/rss_stats.json
 برای هر فایل _podcasts/<slug>.md که فیلد rss: دارد:
   episodes (تعداد)، avg_length (دقیقه)، first_year (شمسی)، last (تاریخ آخرین قسمت، شمسی)، status
+  status از تاریخ آخرین اپیزود: تا ۳ سال فعال، ۳ تا ۴ سال غیرفعال، از ۴ سال متوقف‌شده.
 فقط با کتابخانه‌ی استاندارد پایتون + PyYAML."""
 import concurrent.futures, gzip, html, json, os, re, socket, statistics, sys, threading, time, urllib.error, urllib.parse, urllib.request, zlib
 import datetime as dt
@@ -13,7 +14,8 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 PODCASTS = ROOT / "_podcasts"
 OUT = ROOT / "_data" / "rss_stats.json"
-INACTIVE_AFTER_DAYS = 1095    # بدون قسمت جدید بیش از ۳ سال = غیرفعال
+INACTIVE_AFTER_YEARS = 3     # پس از سه سال بدون قسمت جدید: غیرفعال
+STOPPED_AFTER_YEARS = 4       # پس از چهار سال بدون قسمت جدید: متوقف‌شده
 RECENT_FOR_AVG = 30           # میانگین طول از چند قسمت آخر
 PLAY_COUNT = 8                # قسمت‌های آماده‌ی لحظه‌ی اول (داخل rss_stats و podcasts.json)
 ALL_EPS_MAX = 3000            # سقف همه‌ی قسمت‌ها در فایل جدای هر پادکست
@@ -164,6 +166,14 @@ def parse_xml(data):
         return ET.fromstring(fixed.encode("utf-8"))
 
 
+def year_cutoff(now, years):
+    """تاریخ دقیقِ n سال قبل؛ ۲۹ فوریه در سال غیرکبیسه به ۲۸ فوریه تبدیل می‌شود."""
+    try:
+        return now.replace(year=now.year - years)
+    except ValueError:
+        return now.replace(year=now.year - years, day=28)
+
+
 def parse_date(text):
     text = (text or "").strip()
     if not text:
@@ -305,8 +315,16 @@ def analyse(feed_url, paged=None):
         result["first_at"] = first.strftime("%Y-%m-%d")      # تاریخ اولین قسمت (میلادی)؛ برای برچسب «جدید»
         jy, jm, jd = g2j(last.year, last.month, last.day)
         result["last"] = f"{jy:04d}/{jm:02d}/{jd:02d}"
-        age = (dt.datetime.now(dt.timezone.utc).replace(tzinfo=None) - last).days
-        result["status"] = "active" if age <= INACTIVE_AFTER_DAYS else "inactive"
+        now = dt.datetime.now(dt.timezone.utc).replace(tzinfo=None)
+        if last > year_cutoff(now, INACTIVE_AFTER_YEARS):
+            result["status"] = "active"
+        elif last > year_cutoff(now, STOPPED_AFTER_YEARS):
+            result["status"] = "inactive"
+        else:
+            result["status"] = "stopped"
+    else:
+        # فید بدون تاریخ معتبر: نه فعال فرض می‌شود و نه متوقف‌شده؛ نیازمند بررسی است.
+        result["status"] = "unknown"
         recent = sorted([(utc(d), x) for d, x in dated if x > 0], key=lambda t: t[0], reverse=True)[:RECENT_FOR_AVG]
         if recent:
             result["avg_length"] = max(1, round(statistics.mean(x for _, x in recent) / 60))
