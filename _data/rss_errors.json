@@ -67,10 +67,6 @@
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
   },
-  "han": {
-    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.audiyacreators.one/cmispceibuk0wxtn1k1lx"
-  },
   "hnr-jng": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://namlik.me/rss/318"
@@ -84,7 +80,7 @@
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
   },
   "kit-aahng": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
     "rss": "https://www.baranbax.com/category/sample-loop/kit/feed/"
   },
   "kodkan-mana": {
@@ -158,10 +154,6 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
-  },
-  "shar-o-ghsh-khoani": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
-    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
