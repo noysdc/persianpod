@@ -52880,21 +52880,27 @@
     "status": "active"
   },
   "podcast-jnaii-ki-aas": {
-    "avg_gap_days": 10.6,
-    "avg_length": 50,
-    "episodes": 133,
-    "eps_365": 35,
-    "eps_90": 15,
+    "avg_gap_days": 10.4,
+    "avg_length": 51,
+    "episodes": 134,
+    "eps_365": 36,
+    "eps_90": 16,
     "first_at": "2023-11-02",
     "first_year": 1402,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T12:37:56Z",
-    "last_link": "https://s3.castbox.fm/a8/9a/76/854fe1412799866a05fd94b2e9.mp3",
-    "last_title": "پرمیوم ششم \"ج\" (لینک در توضیحات)",
+    "last": "1405/08/15",
+    "last_at": "2026-11-06T15:21:43Z",
+    "last_link": "https://s3.castbox.fm/07/bf/3b/91805f461a801b480174f61f5f.mp3",
+    "last_title": "اپیزود 130 - هیولای بلنگلو (دو از پنج)",
     "max_length": 108,
     "median_length": 51,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/07/bf/3b/91805f461a801b480174f61f5f.mp3",
+        "at": "2026-11-06T15:21:43Z",
+        "i": "https://s3.castbox.fm/85/f3/29/f149964290ba8258b71dbf54a1.jpg",
+        "t": "اپیزود 130 - هیولای بلنگلو (دو از پنج)"
+      },
       {
         "a": "https://s3.castbox.fm/a8/9a/76/854fe1412799866a05fd94b2e9.mp3",
         "at": "2026-11-03T12:37:56Z",
@@ -52936,15 +52942,15 @@
         "at": "2026-10-09T07:22:44Z",
         "i": "https://s3.castbox.fm/d6/a6/92/4dd12444cf85500389ab53cb81.jpg",
         "t": "پرمیوم دوم و سوم \"ب\" و \"پ\" (لینک در توضیحات)"
-      },
-      {
-        "a": "https://s3.castbox.fm/37/a4/5e/4d4a7f451187c00e93f623dd30.mp3",
-        "at": "2026-10-02T11:42:59Z",
-        "i": "https://s3.castbox.fm/dd/9b/23/0695094e6280535d743f75c774.jpg",
-        "t": "اپیزود 126 -انگیزه قتل - قسمت یک از سه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T15:21:43Z",
+        "i": "https://s3.castbox.fm/85/f3/29/f149964290ba8258b71dbf54a1.jpg",
+        "link": "https://s3.castbox.fm/07/bf/3b/91805f461a801b480174f61f5f.mp3",
+        "title": "اپیزود 130 - هیولای بلنگلو (دو از پنج)"
+      },
       {
         "at": "2026-11-03T12:37:56Z",
         "i": "https://s3.castbox.fm/57/bc/b9/440661471e866313336621e53e.jpg",
@@ -52956,12 +52962,6 @@
         "i": "https://s3.castbox.fm/1f/19/b8/c40cfa4998b1395c9ec07fb7b4.jpg",
         "link": "https://s3.castbox.fm/fc/d5/19/9352334f5d96583494596498c8.mp3",
         "title": "اپیزود 129 - هیولای بلنگلو (یک از پنج)"
-      },
-      {
-        "at": "2026-10-25T10:30:49Z",
-        "i": "https://s3.castbox.fm/a5/05/dd/96798543c7bec01c5f81e69a77.jpg",
-        "link": "https://s3.castbox.fm/c0/9e/b3/371b80498d9c8910c7992b2728.mp3",
-        "title": "پرمیوم پنجم \"ث\" (لینک در توضیحات)"
       }
     ],
     "recent_30d": [
@@ -52976,7 +52976,7 @@
       5,
       4,
       4,
-      7
+      8
     ],
     "status": "active"
   },
