@@ -2669,21 +2669,27 @@
     "status": "active"
   },
   "aaroyh-srpasi": {
-    "avg_gap_days": 1.4,
-    "avg_length": 8,
-    "episodes": 83,
-    "eps_365": 83,
-    "eps_90": 44,
+    "avg_gap_days": 1.5,
+    "avg_length": 9,
+    "episodes": 84,
+    "eps_365": 84,
+    "eps_90": 45,
     "first_at": "2026-07-06",
     "first_year": 1405,
-    "last": "1405/08/09",
-    "last_at": "2026-10-31T12:56:24Z",
-    "last_link": "https://www.spreaker.com/episode/padkst-zndgy-antkhab-shdh-ayn-bar-khwdt-rw-ja-ndhar--76098959",
-    "last_title": "پادکست زندگی انتخاب‌شده | این بار خودت رو جا نذار",
+    "last": "1405/08/15",
+    "last_at": "2026-11-06T14:08:28Z",
+    "last_link": "https://www.spreaker.com/episode/bazsazy-hwyt-wqty-dygran-hnwz-tw-rw-bh-gdhshth-at-my-shnasn--76211091",
+    "last_title": "بازسازی هویت - وقتی دیگران هنوز تو رو به گذشته‌ات می‌شناسن",
     "max_length": 41,
     "median_length": 7,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76211091/5edd454915a83a7bca3dc10707.mp3",
+        "at": "2026-11-06T14:08:28Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/64cc9339890f7ab85d999b7b915c7e9c.jpg",
+        "t": "بازسازی هویت - وقتی دیگران هنوز تو رو به گذشته‌ات می‌شناسن"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76098959/c77011418aa7bd5d18dc1cde64.mp3",
         "at": "2026-10-31T12:56:24Z",
@@ -2725,15 +2731,15 @@
         "at": "2026-10-02T11:32:00Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ab4ac38a2a0ee90a765b624907ff4a93.jpg",
         "t": "موفقیت اشتباه | موفقیت رو دوباره تعریف کن"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75458272/6e5b2744b0b519d17e3603a38a.mp3",
-        "at": "2026-09-30T11:31:00Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ab4ac38a2a0ee90a765b624907ff4a93.jpg",
-        "t": "موفقیت اشتباه | بدون تماشاچی، چه چیزی رو انتخاب می‌کنی؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T14:08:28Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/64cc9339890f7ab85d999b7b915c7e9c.jpg",
+        "link": "https://www.spreaker.com/episode/bazsazy-hwyt-wqty-dygran-hnwz-tw-rw-bh-gdhshth-at-my-shnasn--76211091",
+        "title": "بازسازی هویت - وقتی دیگران هنوز تو رو به گذشته‌ات می‌شناسن"
+      },
       {
         "at": "2026-10-31T12:56:24Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/13a5b3ffe5593d725fba4d7ccad35a7c.jpg",
@@ -2745,12 +2751,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/024a17f755f5300ba5d1e017391c5569.jpg",
         "link": "https://www.spreaker.com/episode/padkst-zndgy-antkhab-shdh-zndgyt-rw-az-nw-antkhab-kn--76008849",
         "title": "پادکست زندگی انتخاب‌شده | زندگیت رو از نو انتخاب کن"
-      },
-      {
-        "at": "2026-10-17T14:01:02Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/70d3848269d8076ba07b1472a984168d.jpg",
-        "link": "https://www.spreaker.com/episode/nqth-y-bazgsht-apyzwd-4--75837747",
-        "title": "نقطه‌ی بازگشت | اپیزود 4"
       }
     ],
     "recent_30d": [
@@ -2765,7 +2765,7 @@
       35,
       25,
       13,
-      6
+      7
     ],
     "status": "active"
   },
@@ -4313,8 +4313,8 @@
       0,
       0,
       0,
-      11,
-      14,
+      12,
+      13,
       18,
       11,
       2,
@@ -11914,8 +11914,8 @@
       9,
       5,
       3,
-      5,
-      4
+      6,
+      3
     ],
     "status": "active"
   },
