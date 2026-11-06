@@ -15012,21 +15012,27 @@
     "status": "stopped"
   },
   "dktr-ali-saghbi": {
-    "avg_gap_days": 14.4,
-    "avg_length": 37,
-    "episodes": 158,
-    "eps_365": 25,
-    "eps_90": 7,
+    "avg_gap_days": 14.2,
+    "avg_length": 38,
+    "episodes": 159,
+    "eps_365": 26,
+    "eps_90": 8,
     "first_at": "2020-06-13",
     "first_year": 1399,
-    "last": "1405/08/06",
-    "last_at": "2026-10-28T07:01:42Z",
-    "last_link": "https://s3.castbox.fm/92/af/2d/928e954805b88b80f88b81dcaf.mp3",
-    "last_title": "وقتی کلمات زندگی را زیرورو می‌کنند",
+    "last": "1405/08/15",
+    "last_at": "2026-11-06T19:48:22Z",
+    "last_link": "https://s3.castbox.fm/10/e6/45/9e120d41aab8120d4c2ccfc3b2.mp3",
+    "last_title": "رنگِ رهایی",
     "max_length": 121,
     "median_length": 55,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/10/e6/45/9e120d41aab8120d4c2ccfc3b2.mp3",
+        "at": "2026-11-06T19:48:22Z",
+        "i": "https://s3.castbox.fm/23/62/52/34a6f249dda6e140f26b5e1b0a.jpg",
+        "t": "رنگِ رهایی"
+      },
       {
         "a": "https://s3.castbox.fm/92/af/2d/928e954805b88b80f88b81dcaf.mp3",
         "at": "2026-10-28T07:01:42Z",
@@ -15068,15 +15074,15 @@
         "at": "2026-08-19T12:03:35Z",
         "i": "https://s3.castbox.fm/bf/5c/a1/2e02e64a7d8a0e3532f3cb135c.jpg",
         "t": "روان‌کاویِ واقع‌نگری"
-      },
-      {
-        "a": "https://s3.castbox.fm/45/8d/c5/09503240b8a7d97c9872e2c70d.MP3",
-        "at": "2026-07-29T06:09:39Z",
-        "i": "https://s3.castbox.fm/88/14/9d/855c10424ab666b9b7fa7d7e97.jpg",
-        "t": "رنگِ تعلق"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T19:48:22Z",
+        "i": "https://s3.castbox.fm/23/62/52/34a6f249dda6e140f26b5e1b0a.jpg",
+        "link": "https://s3.castbox.fm/10/e6/45/9e120d41aab8120d4c2ccfc3b2.mp3",
+        "title": "رنگِ رهایی"
+      },
       {
         "at": "2026-10-28T07:01:42Z",
         "i": "https://s3.castbox.fm/a1/aa/f3/8f9f8741a0a245b4b94ca7de40.jpg",
@@ -15088,12 +15094,6 @@
         "i": "https://s3.castbox.fm/9a/b8/de/061a34481db54ecb789fb43f90.jpg",
         "link": "https://s3.castbox.fm/02/38/1e/85cef34647a2d3579958a007d3.mp3",
         "title": "چند توصیه به پزشکان جوان"
-      },
-      {
-        "at": "2026-09-17T06:45:42Z",
-        "i": "https://s3.castbox.fm/aa/82/8e/46b12b4146bb2da3da2bc70e94.jpg",
-        "link": "https://s3.castbox.fm/64/85/63/2c7c124783938b052eea2e49ac.mp3",
-        "title": "در جهان، هر کسی عزیز کسی‌ست"
       }
     ],
     "recent_30d": [
@@ -15108,7 +15108,7 @@
       1,
       2,
       3,
-      2
+      3
     ],
     "status": "active"
   },
@@ -25475,8 +25475,8 @@
       }
     ],
     "recent_30d": [
-      37,
-      31,
+      38,
+      30,
       12,
       0,
       0,
@@ -42172,8 +42172,8 @@
       3,
       2,
       2,
-      1,
-      5,
+      2,
+      4,
       0,
       0,
       3,
