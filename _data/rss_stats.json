@@ -24702,8 +24702,8 @@
       5,
       7,
       8,
-      8,
-      8
+      9,
+      7
     ],
     "status": "active"
   },
@@ -61066,21 +61066,27 @@
     "status": "active"
   },
   "radio-dordane": {
-    "avg_gap_days": 0.4,
-    "avg_length": 19,
-    "episodes": 13,
-    "eps_365": 13,
-    "eps_90": 13,
+    "avg_gap_days": 0.8,
+    "avg_length": 20,
+    "episodes": 14,
+    "eps_365": 14,
+    "eps_90": 14,
     "first_at": "2026-10-27",
     "first_year": 1405,
-    "last": "1405/08/11",
-    "last_at": "2026-11-02T08:31:33Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfgm2",
-    "last_title": "بهترین برنج ایرانی برای رستوران کدام است؟ راز پخت برنج خوش‌عطر در حجم بالا | رادیو دردانه",
+    "last": "1405/08/15",
+    "last_at": "2026-11-06T14:13:45Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfguc",
+    "last_title": "برنج ایرانی سورت‌شده چیست؟ مزایا و تفاوت آن با برنج معمولی | رادیو دردانه",
     "max_length": 25,
     "median_length": 22,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1193981e4/podcast/play/128483724/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2Fd0082774-78d4-0d9e-6e0d-190523576255.mp3",
+        "at": "2026-11-06T14:13:45Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793437147564-afaf355064b32.jpg",
+        "t": "برنج ایرانی سورت‌شده چیست؟ مزایا و تفاوت آن با برنج معمولی | رادیو دردانه"
+      },
       {
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128483458/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F435497722-44100-2-1932d1cc3d9fa.m4a",
         "at": "2026-11-02T08:31:33Z",
@@ -61122,15 +61128,15 @@
         "at": "2026-10-27T11:24:54Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793100301928-53e059e04a66b.jpg",
         "t": "چگونه برنج مرغوب را تشخیص دهیم؟ ۷ روش کاربردی | رادیو دردانه"
-      },
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/128172695/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-27%2Ffc7baadd-7f1c-e088-0745-58b8d6252313.mp3",
-        "at": "2026-10-27T11:20:28Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793100034946-4f70cbedfc9a7.jpg",
-        "t": "برنج هاشمی، طارم یا جمشید؟ مقایسه و راهنمای انتخاب | رادیو دردانه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T14:13:45Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793437147564-afaf355064b32.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfguc",
+        "title": "برنج ایرانی سورت‌شده چیست؟ مزایا و تفاوت آن با برنج معمولی | رادیو دردانه"
+      },
       {
         "at": "2026-11-02T08:31:33Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793436835166-dd05da72045bd.jpg",
@@ -61142,12 +61148,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793436983616-c5808f8b7fe5f.jpg",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfgpj",
         "title": "چرا برنج ایرانی هنگام پخت خرد می‌شود؟ ۵ علت رایج و راه جلوگیری | رادیو دردانه"
-      },
-      {
-        "at": "2026-10-31T09:23:44Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184386488-33fa9bf0ea326.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3r8l53",
-        "title": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه"
       }
     ],
     "recent_30d": [
@@ -61162,7 +61162,7 @@
       0,
       0,
       0,
-      13
+      14
     ],
     "status": "active"
   },
@@ -71539,21 +71539,27 @@
     "status": "stopped"
   },
   "shar-kst": {
-    "avg_gap_days": 12.3,
+    "avg_gap_days": 11.9,
     "avg_length": 6,
-    "episodes": 167,
-    "eps_365": 30,
-    "eps_90": 25,
+    "episodes": 168,
+    "eps_365": 31,
+    "eps_90": 26,
     "first_at": "2022-05-04",
     "first_year": 1401,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T13:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/3c7c302f-e6cd-4980-b358-f5da9a246fd1/play.mp3",
-    "last_title": "صد و شصت و شش - جسُتنِ جام جم: خیام",
+    "last": "1405/08/15",
+    "last_at": "2026-11-06T14:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/75f03ffd-29f5-4be1-998a-b5c0363c46eb/play.mp3",
+    "last_title": "صد و شصت و هفت - چهار و هفت: خیام",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/75f03ffd-29f5-4be1-998a-b5c0363c46eb/play.mp3",
+        "at": "2026-11-06T14:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/75f03ffd-29f5-4be1-998a-b5c0363c46eb/artwork.jpg?v=1",
+        "t": "صد و شصت و هفت - چهار و هفت: خیام"
+      },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/3c7c302f-e6cd-4980-b358-f5da9a246fd1/play.mp3",
         "at": "2026-11-05T13:30:00Z",
@@ -71595,15 +71601,15 @@
         "at": "2026-10-22T16:33:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/81dc1d7c-cb5e-40a2-a07a-019639e128aa/artwork.jpg?v=1",
         "t": "صد و شصت - سهیلِ یمنی: رودکی"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/e2ffc6ab-f852-4b87-b19b-d6fd122f9edc/play.mp3",
-        "at": "2026-10-22T16:31:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/e2ffc6ab-f852-4b87-b19b-d6fd122f9edc/artwork.jpg?v=1",
-        "t": "صد و پنجاه و نه – شیر و پلنگ: منسوب به ابوسعید ابوالخیر"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T14:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/75f03ffd-29f5-4be1-998a-b5c0363c46eb/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/75f03ffd-29f5-4be1-998a-b5c0363c46eb/play.mp3",
+        "title": "صد و شصت و هفت - چهار و هفت: خیام"
+      },
       {
         "at": "2026-11-05T13:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/3c7c302f-e6cd-4980-b358-f5da9a246fd1/artwork.jpg?v=1",
@@ -71615,12 +71621,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/8b945fd2-df0b-40c6-9e92-9904fea1f946/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/8b945fd2-df0b-40c6-9e92-9904fea1f946/play.mp3",
         "title": "صد و شصت و پنج - کارگهِ کوزه‌گر: خیام"
-      },
-      {
-        "at": "2026-11-03T14:30:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/c713f675-4d92-43a1-bdae-cd470ace3da5/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/c713f675-4d92-43a1-bdae-cd470ace3da5/play.mp3",
-        "title": "صد و شصت و چهار - صحرای علل: خیام"
       }
     ],
     "recent_30d": [
@@ -71635,7 +71635,7 @@
       2,
       1,
       0,
-      24
+      25
     ],
     "status": "active"
   },
