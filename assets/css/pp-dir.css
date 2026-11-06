@@ -129,3 +129,12 @@
 /* آمار کلی زیر شعار صفحه‌ی اصلی */
 .pd-stats{margin:8px 0 0;font-size:.92rem;line-height:1.8;color:var(--mut)}
 .pd-stats b{color:var(--ink);font-weight:800}
+
+
+/* وضعیت پادکست روی کارت‌ها: رنگ + متن برای تشخیص سریع و دسترس‌پذیر */
+.pd-status{display:inline-flex;align-items:center;gap:6px;padding:1px 9px;border:1px solid currentColor;border-radius:999px;font-size:.74rem;font-weight:800;line-height:1.9;white-space:nowrap}
+.pd-status::before{content:"";width:7px;height:7px;flex:none;border-radius:50%;background:currentColor}
+.pd-status--active{color:#16803c;background:rgba(22,128,60,.10);border-color:rgba(22,128,60,.42)}
+.pd-status--inactive{color:#a66a00;background:rgba(234,179,8,.13);border-color:rgba(202,138,4,.48)}
+.pd-status--stopped{color:#c62828;background:rgba(220,38,38,.10);border-color:rgba(220,38,38,.42)}
+.pd-status--unknown,.pd-status--ended{color:var(--mut);background:var(--bg);border-color:var(--line)}
