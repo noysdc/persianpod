@@ -149,13 +149,23 @@
   }
 
   /* ---------- نمایش ---------- */
+  function statusBadge(p) {
+    var s = String(p.status || "active").trim().toLowerCase();
+    var info = s === "inactive" || s === "paused" || s === "غیرفعال" ? ["inactive", "غیرفعال"] :
+      s === "stopped" || s === "متوقف" || s === "متوقف‌شده" ? ["stopped", "متوقف‌شده"] :
+      s === "unknown" ? ["unknown", "نیازمند بررسی"] :
+      s === "ended" || s === "تمام‌شده" ? ["ended", "پایان‌یافته"] : ["active", "فعال"];
+    return '<span class="pd-status pd-status--' + info[0] + '" aria-label="وضعیت پادکست: ' + info[1] + '">' + info[1] + "</span>";
+  }
+
   function card(p) {
     var logo = p.logo ? '<img src="' + esc(p.logo) + '" alt="" loading="lazy" decoding="async" width="72" height="72">' : "<i>" + esc((p.title || "").trim().charAt(0)) + "</i>";
     return '<button type="button" class="pd-card pl-card" data-id="' + esc(p.id) + '"' + (current && current.id === p.id ? ' aria-current="true"' : "") + ">" +
       '<span class="pd-logo">' + logo + "</span>" +
       '<span class="pd-body">' + (p._new ? '<span class="pd-b new">جدید</span>' : "") + "<h3>" + esc(p.title) + "</h3>" +
       (p.description ? '<span class="pd-desc">' + esc(p.description) + "</span>" : "") +
-      '<span class="pl-play">' + PLAY + "پخش</span></span></button>";
+      '<span class="pl-play">' + PLAY + "پخش</span>" +
+      '<span class="pd-meta">' + statusBadge(p) + "</span></span></button>";
   }
   function render() {
     var f = read();
