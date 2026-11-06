@@ -189,10 +189,9 @@
   function statusBadge(p) {
     var s = String(p.status || "active").trim().toLowerCase();
     var info = s === "inactive" || s === "paused" || s === "غیرفعال" ? ["inactive", "غیرفعال"] :
-      s === "stopped" || s === "متوقف" || s === "متوقف‌شده" ? ["stopped", "متوقف‌شده"] :
-      s === "unknown" ? ["unknown", "نیازمند بررسی"] :
-      s === "ended" || s === "تمام‌شده" ? ["ended", "پایان‌یافته"] : ["active", "فعال"];
-    return '<span class="pd-status pd-status--' + info[0] + '" aria-label="وضعیت پادکست: ' + info[1] + '">' + info[1] + "</span>";
+      s === "stopped" || s === "متوقف" || s === "متوقف‌شده" || s === "ended" || s === "تمام‌شده" ? ["stopped", "متوقف"] :
+      s === "unknown" ? ["unknown", "نیازمند بررسی"] : ["active", "فعال"];
+    return '<span class="pd-status pd-status--' + info[0] + '" role="img" aria-label="وضعیت پادکست: ' + info[1] + '" title="' + info[1] + '"></span>';
   }
   function tagHref(c, sb) { return "?category=" + encodeURIComponent(c) + (sb ? "&sub=" + encodeURIComponent(sb) : ""); }
   function card(p) {
