@@ -55999,8 +55999,8 @@
       9,
       5,
       7,
-      7,
-      7
+      8,
+      6
     ],
     "status": "active"
   },
@@ -61582,19 +61582,24 @@
   "radio-hosh": {
     "avg_gap_days": 0.4,
     "avg_length": 17,
-    "episodes": 29,
-    "eps_365": 29,
-    "eps_90": 29,
+    "episodes": 30,
+    "eps_365": 30,
+    "eps_90": 30,
     "first_at": "2026-10-25",
     "first_year": 1405,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T13:14:11Z",
-    "last_link": "https://share.transistor.fm/s/aa5d57fd",
-    "last_title": "‏‫Apple بودجه هوش مصنوعی کارمندانش را کم می‌کند‬",
+    "last": "1405/08/15",
+    "last_at": "2026-11-06T08:41:59Z",
+    "last_link": "https://share.transistor.fm/s/be747ade",
+    "last_title": "‏‫Claude Opus یا مدل ارزان‌تر؟ چطور بفهمیم کدام هوش مصنوعی جواب می‌دهد‬",
     "max_length": 26,
     "median_length": 17,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://media.transistor.fm/be747ade/9951460d.mp3",
+        "at": "2026-11-06T08:41:59Z",
+        "t": "‏‫Claude Opus یا مدل ارزان‌تر؟ چطور بفهمیم کدام هوش مصنوعی جواب می‌دهد‬"
+      },
       {
         "a": "https://media.transistor.fm/aa5d57fd/6cf91c4f.mp3",
         "at": "2026-11-05T13:14:11Z",
@@ -61629,14 +61634,14 @@
         "a": "https://media.transistor.fm/0feb57a3/0232f110.mp3",
         "at": "2026-11-01T13:57:26Z",
         "t": "‏‫Elorian و آزمون شمارش: چرا مدل‌های برتر هوش مصنوعی فریب می‌خورند‬"
-      },
-      {
-        "a": "https://media.transistor.fm/1356ff49/7a910323.mp3",
-        "at": "2026-10-31T17:16:20Z",
-        "t": "‏‫Robots.txt برای آموزش هوش مصنوعی؛ توافق OpenAI، Google و Anthropic‬"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T08:41:59Z",
+        "link": "https://share.transistor.fm/s/be747ade",
+        "title": "‏‫Claude Opus یا مدل ارزان‌تر؟ چطور بفهمیم کدام هوش مصنوعی جواب می‌دهد‬"
+      },
       {
         "at": "2026-11-05T13:14:11Z",
         "link": "https://share.transistor.fm/s/aa5d57fd",
@@ -61646,11 +61651,6 @@
         "at": "2026-11-04T11:58:34Z",
         "link": "https://share.transistor.fm/s/fab4cc23",
         "title": "‏‫یورو دیجیتال و هوش مصنوعی: ECB پرداخت با AI agent را آزمایش می‌کند‬"
-      },
-      {
-        "at": "2026-11-04T11:18:31Z",
-        "link": "https://share.transistor.fm/s/31b011a5",
-        "title": "‏‫Siri در iOS 27.3: هوش مصنوعی اپل حالا داخل اپ‌های دیگر کار می‌کند‬"
       }
     ],
     "recent_30d": [
@@ -61665,7 +61665,7 @@
       0,
       0,
       0,
-      29
+      30
     ],
     "status": "active"
   },
