@@ -25393,7 +25393,7 @@
     "avg_gap_days": 1.9,
     "avg_length": 48,
     "episodes": 1272,
-    "eps_365": 131,
+    "eps_365": 129,
     "eps_90": 0,
     "first_at": "2020-04-04",
     "first_year": 1399,
@@ -44385,21 +44385,27 @@
     "status": "active"
   },
   "peaceful-presence-path-msir-hzor-aaramsh-padkst-mditishn": {
-    "avg_gap_days": 7.3,
+    "avg_gap_days": 7.6,
     "avg_length": 10,
-    "episodes": 106,
-    "eps_365": 48,
-    "eps_90": 6,
+    "episodes": 107,
+    "eps_365": 49,
+    "eps_90": 7,
     "first_at": "2024-10-17",
     "first_year": 1403,
-    "last": "1405/07/24",
-    "last_at": "2026-10-16T17:19:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-You-Dont-Have-to-Control-Everything-e3q03qr",
-    "last_title": "When You Don’t Have to Control Everything/وقتی لازم نیست همه‌چیز را کنترل کنی",
+    "last": "1405/08/15",
+    "last_at": "2026-11-06T18:46:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-Your-Heart-Feels-Heavy-for-No-Clear-Reason-e3rgddc",
+    "last_title": "When Your Heart Feels Heavy for No Clear Reason/وقتی دلت گرفته ولی دلیلش را نمی‌دانی",
     "max_length": 18,
     "median_length": 9,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://anchor.fm/s/fadf5764/podcast/play/128512876/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2Fc3b8953e-9901-8b1a-a2d4-c49f37cab7b6.mp3",
+        "at": "2026-11-06T18:46:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41989409/41989409-1793472379348-4d1a511edf98c.jpg",
+        "t": "When Your Heart Feels Heavy for No Clear Reason/وقتی دلت گرفته ولی دلیلش را نمی‌دانی"
+      },
       {
         "a": "https://anchor.fm/s/fadf5764/podcast/play/126930203/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F912113a1-4998-671c-0f11-3a7f0fbf838f.mp3",
         "at": "2026-10-16T17:19:00Z",
@@ -44441,15 +44447,15 @@
         "at": "2026-08-07T13:41:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41989409/41989409-1785320617002-a53cab141fbca.jpg",
         "t": "‎وقتی هیچ چیز درست پیش نمی‌رود/When Nothing Is Going Right"
-      },
-      {
-        "a": "https://anchor.fm/s/fadf5764/podcast/play/121887480/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-23%2Fa54231c7-e068-ef70-249c-9533d2ee881d.mp3",
-        "at": "2026-07-31T18:30:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41989409/41989409-1782224912955-7f774edaf7137.jpg",
-        "t": "Returning to Your Mind’s Natural State|    بازگشت به حالت طبیعی ذهن"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T18:46:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41989409/41989409-1793472379348-4d1a511edf98c.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-Your-Heart-Feels-Heavy-for-No-Clear-Reason-e3rgddc",
+        "title": "When Your Heart Feels Heavy for No Clear Reason/وقتی دلت گرفته ولی دلیلش را نمی‌دانی"
+      },
       {
         "at": "2026-10-16T17:19:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41989409/41989409-1791288868813-10487529ea796.jpg",
@@ -44461,12 +44467,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41989409/41989409-1791288825065-69b5fd19c8dc.jpg",
         "link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-Your-Mind-Wont-Let-You-Rest-e3q02dc",
         "title": "‏/وقتی ذهنت نمی‌گذارد آرام باشی When Your Mind Won’t Let You Rest"
-      },
-      {
-        "at": "2026-10-02T15:04:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41989409/41989409-1790157881007-ab1fc154689b.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-You-Just-Want-Everything-to-Stop-e3p9b3i",
-        "title": "When You Just Want Everything to Stop/وقتی فقط می‌خواهی همه چیز متوقف شود"
       }
     ],
     "recent_30d": [
@@ -44481,7 +44481,7 @@
       6,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -46728,8 +46728,8 @@
       4,
       6,
       0,
-      0,
       1,
+      0,
       1,
       3,
       5,
@@ -75471,8 +75471,8 @@
       }
     ],
     "recent_30d": [
-      114,
-      110,
+      115,
+      109,
       36,
       72,
       0,
