@@ -58952,26 +58952,20 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
-    "avg_length": 102,
-    "episodes": 154,
-    "eps_365": 136,
-    "eps_90": 136,
+    "avg_length": 99,
+    "episodes": 153,
+    "eps_365": 135,
+    "eps_90": 135,
     "first_at": "2023-05-12",
     "first_year": 1402,
     "last": "1405/08/15",
-    "last_at": "2026-11-06T04:12:09Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-3-e3rs75q",
-    "last_title": "Hashemi, Manouchehr Part 3",
+    "last_at": "2026-11-06T04:10:48Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-2-e3rs72r",
+    "last_title": "Hashemi, Manouchehr Part 2",
     "max_length": 125,
     "median_length": 31,
     "min_length": 10,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128899706/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2Ff2bf3c40-e2ff-3ef6-48e9-ea0cde05a784.mp3",
-        "at": "2026-11-06T04:12:09Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793938265494-684fe1119e6d7.jpg",
-        "t": "Hashemi, Manouchehr Part 3"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128899611/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F44bd9b95-cc19-1b89-aa41-e68b90519feb.mp3",
         "at": "2026-11-06T04:10:48Z",
@@ -59013,15 +59007,15 @@
         "at": "2026-11-06T00:16:15Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793924150203-6e6656f077df5.jpg",
         "t": "Hairi-Yazdi, Mehdi Part 3"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128888701/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2Fccbdcdac-4fd2-a005-82c6-171f5a8457c2.mp3",
+        "at": "2026-11-06T00:15:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793924060396-6ea9ddce7fedc.jpg",
+        "t": "Hairi-Yazdi, Mehdi Part 2"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-06T04:12:09Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793938265494-684fe1119e6d7.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-3-e3rs75q",
-        "title": "Hashemi, Manouchehr Part 3"
-      },
       {
         "at": "2026-11-06T04:10:48Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793938160043-4997e9dc65e51.jpg",
@@ -59033,6 +59027,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793938089863-e693c0586cb3b.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-1-e3rs70v",
         "title": "Hashemi, Manouchehr Part 1"
+      },
+      {
+        "at": "2026-11-06T02:09:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793930975362-43923ba1a07b4.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Homayoun--Daryoush-Part-4-e3rs1j9",
+        "title": "Homayoun, Daryoush Part 4"
       }
     ],
     "recent_30d": [
@@ -59047,7 +59047,7 @@
       0,
       0,
       0,
-      136
+      135
     ],
     "status": "active"
   },
