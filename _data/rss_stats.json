@@ -20634,8 +20634,8 @@
       0,
       0,
       0,
-      1,
-      5,
+      2,
+      4,
       0,
       0,
       0,
@@ -23565,10 +23565,10 @@
     "status": "active"
   },
   "hosh-trsnak": {
-    "avg_gap_days": 25.7,
+    "avg_gap_days": 26.2,
     "avg_length": 48,
     "episodes": 34,
-    "eps_365": 14,
+    "eps_365": 13,
     "eps_90": 3,
     "first_at": "2024-09-03",
     "first_year": 1403,
