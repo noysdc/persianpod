@@ -104,7 +104,7 @@
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
   },
   "o-ain-tnha-bazi-jhan-bod": {
-    "error": "ValueError: no items in feed",
+    "error": "ParseError: no element found: line 1, column 0",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
   "podcast-fotbal-lb": {
