@@ -43608,19 +43608,24 @@
   "one-thusand-and-one": {
     "avg_gap_days": 0.2,
     "avg_length": 11,
-    "episodes": 13,
-    "eps_365": 13,
-    "eps_90": 13,
+    "episodes": 14,
+    "eps_365": 14,
+    "eps_90": 14,
     "first_at": "2026-11-03",
     "first_year": 1405,
     "last": "1405/08/15",
-    "last_at": "2026-11-06T10:35:31Z",
-    "last_link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/a0004b3e-ac16-46b3-9969-88559a2197b3/play.mp3",
-    "last_title": "حکایت شب  دوازدهم _ هزار و یک شب.",
+    "last_at": "2026-11-06T10:53:35Z",
+    "last_link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/f340ff3c-021e-4835-8376-c95dc8b02a2a/play.mp3",
+    "last_title": "شب سیزدهم_هزار و یک شب",
     "max_length": 13,
     "median_length": 11,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/f340ff3c-021e-4835-8376-c95dc8b02a2a/play.mp3",
+        "at": "2026-11-06T10:53:35Z",
+        "t": "شب سیزدهم_هزار و یک شب"
+      },
       {
         "a": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/a0004b3e-ac16-46b3-9969-88559a2197b3/play.mp3",
         "at": "2026-11-06T10:35:31Z",
@@ -43660,15 +43665,14 @@
         "at": "2026-11-04T07:22:04Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/18682672-0338-48fb-aa63-ae2f93acdcb7/artwork.jpg?v=1",
         "t": "حکایت شب ششم_هزار و یک شب"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/e4a81966-555d-4779-937b-22f06a69aa2b/play.mp3",
-        "at": "2026-11-04T06:59:02Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/e4a81966-555d-4779-937b-22f06a69aa2b/artwork.jpg?v=1",
-        "t": "حکایت شب پنجم _هزار و یک شب"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T10:53:35Z",
+        "link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/f340ff3c-021e-4835-8376-c95dc8b02a2a/play.mp3",
+        "title": "شب سیزدهم_هزار و یک شب"
+      },
       {
         "at": "2026-11-06T10:35:31Z",
         "link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/a0004b3e-ac16-46b3-9969-88559a2197b3/play.mp3",
@@ -43679,12 +43683,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/96075aaa-cbb8-4eac-a15e-d7807b01f96f/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/96075aaa-cbb8-4eac-a15e-d7807b01f96f/play.mp3",
         "title": "شب یازدهم_هزار و یک شب"
-      },
-      {
-        "at": "2026-11-05T15:16:37Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/a4632e8e-5d78-458d-929b-4b250e7db950/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/a4632e8e-5d78-458d-929b-4b250e7db950/play.mp3",
-        "title": "شب دهم_هزار و یک شب"
       }
     ],
     "recent_30d": [
@@ -43699,7 +43697,7 @@
       0,
       0,
       0,
-      13
+      14
     ],
     "status": "active"
   },
@@ -72903,8 +72901,8 @@
     "recent_30d": [
       10,
       9,
-      4,
-      10,
+      5,
+      9,
       0,
       0,
       1,
@@ -77187,8 +77185,8 @@
       }
     ],
     "recent_30d": [
-      33,
-      20,
+      34,
+      19,
       25,
       20,
       0,
