@@ -2,13 +2,13 @@
 
    قاعده‌ها
    1) چرخش دایره‌ای روزانه (به وقت تهران): ترتیب پایه‌ی هر گروه ثابت است (بر اساس هش شناسه) و
-      نقطه‌ی شروع هر روز یک گام (STEP) جلو می‌رود. پس برای همه‌ی بازدیدکننده‌های یک روز ترتیب یکسان است،
-      فردا عوض می‌شود، و در طول زمان همه‌ی پادکست‌ها به‌اندازه‌ی هم به ردیف اول می‌رسند.
-   2) فعال‌ها اول، غیرفعال‌ها (بیش از ۳ سال بدون قسمت) بعد؛ هرکدام چرخش جدا. هیچ‌کس حذف نمی‌شود.
-   3) همه برابرند: نشان «جدید» و جایگاه ویژه برای پادکست‌های تازه وجود ندارد. تابع isNew فقط برای سازگاری با
-      فایل‌های دیگر می‌ماند و همیشه false برمی‌گرداند.
-   scope: نام صفحه/دسته؛ برای اینکه ردیف اول هر دسته و هر صفحه با بقیه فرق کند. */
+      نقطه‌ی شروع هر روز یک گام جلو می‌رود. برای همه‌ی بازدیدکننده‌های یک روز ترتیب یکسان است.
+   2) فقط پادکست‌هایی که وضعیت صریحاً active دارند در چرخه‌ی فعال‌ها هستند.
+      تمام وضعیت‌های دیگر (از جمله inactive، paused و stopped) در چرخه‌ی جداگانه‌ی انتهایی می‌مانند.
+   3) مرز دو گروه هرگز جابه‌جا نمی‌شود؛ چرخش یک گروه روی گروه دیگر اثر ندارد.
+   scope: نام صفحه/دسته؛ برای اینکه ترتیب هر دسته مستقل باشد. */
 (function () {
+  "use strict";
   var STEP = 6, KEY_STEP = 3;
 
   function hash(s) {                                   // FNV-1a ۳۲ بیتی
@@ -17,7 +17,7 @@
     for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; }
     return h >>> 0;
   }
-  function dayNumber() {                               // شماره‌ی روز به وقت تهران؛ نیمه‌شب تهران همه با هم عوض می‌شوند
+  function dayNumber() {                               // شماره‌ی روز به وقت تهران
     var y, m, d;
     try {
       var p = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Tehran", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date()).split("-");
@@ -26,15 +26,31 @@
     return Math.floor(Date.UTC(y, m - 1, d) / 864e5);
   }
   function keyOf(p) { return String(p.slug || p.id || p._id || p.url || p.title || ""); }
-  function isActive(p) { return p._active != null ? !!p._active : String(p.status || "active") === "active"; }
-  function isNew() { return false; }                  // نشان «جدید» حذف شده است
+
+  function isActive(p) {
+    // اگر status موجود باشد، فقط active (یا معادل فارسی آن) فعال محسوب می‌شود.
+    // عمداً از Boolean(value) استفاده نمی‌کنیم؛ چون رشته‌ی "false" و "inactive" هم truthy هستند.
+    if (p && p.status != null && String(p.status).trim() !== "") {
+      var status = String(p.status).trim().toLowerCase();
+      return status === "active" || status === "فعال";
+    }
+    // سازگاری با داده‌های آماده‌شده‌ی صفحه‌ی فهرست
+    if (p && typeof p._active === "boolean") return p._active;
+    if (p && typeof p._active === "string") {
+      var flag = p._active.trim().toLowerCase();
+      return flag === "true" || flag === "active" || flag === "فعال";
+    }
+    return true; // نبودن وضعیت، مانند قبل، فعال در نظر گرفته می‌شود.
+  }
+
+  function isNew() { return false; }
   function base(list) {                                // ترتیب پایه‌ی ثابت
     return list.map(function (p) { var k = keyOf(p); return { p: p, k: k, h: hash(k) }; })
       .sort(function (a, b) { return a.h - b.h || (a.k < b.k ? -1 : a.k > b.k ? 1 : 0); })
       .map(function (x) { return x.p; });
   }
   function gcd(a, b) { while (b) { var t = a % b; a = b; b = t; } return a; }
-  function stepFor(n, step) {                          // گامی نزدیک به step که با n نسبت به هم اول باشد باشد تا نوبت اول هم دقیقاً برابر بچرخد
+  function stepFor(n, step) {
     for (var s = step; s < step + n; s++) if (gcd(s, n) === 1) return s;
     return 1;
   }
@@ -44,15 +60,22 @@
     var k = (((dayNumber() * stepFor(n, step) + hash(salt)) % n) + n) % n;
     return arr.slice(k).concat(arr.slice(0, k));
   }
+
   function order(list, scope) {
     scope = scope || "all";
-    var act = [], off = [];
-    list.forEach(function (p) { if (isActive(p)) act.push(p); else off.push(p); });
-    act = rotate(base(act), scope + "|act", STEP);
-    off = rotate(base(off), scope + "|off", STEP);
-    return act.concat(off);
+    var active = [], inactive = [];
+    list.forEach(function (p) {
+      if (isActive(p)) active.push(p);
+      else inactive.push(p);
+    });
+
+    // دو چرخش کاملاً مستقل: هیچ عضو گروه غیرفعال وارد چرخه‌ی فعال‌ها نمی‌شود.
+    var activeOrder = rotate(base(active), scope + "|active", STEP);
+    var inactiveOrder = rotate(base(inactive), scope + "|inactive", STEP);
+    return activeOrder.concat(inactiveOrder);
   }
-  function orderKeys(keys, scope) {                    // ترتیب دسته‌ها: همان چرخش روزانه
+
+  function orderKeys(keys, scope) {
     var b = keys.map(function (k) { return { k: k, h: hash(k) }; })
       .sort(function (a, c) { return a.h - c.h || (a.k < c.k ? -1 : a.k > c.k ? 1 : 0); })
       .map(function (x) { return x.k; });
