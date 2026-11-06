@@ -29830,8 +29830,8 @@
       5,
       6,
       5,
-      5,
-      5,
+      6,
+      4,
       5
     ],
     "status": "active"
@@ -58952,20 +58952,56 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.0,
-    "avg_length": 94,
-    "episodes": 177,
-    "eps_365": 159,
-    "eps_90": 159,
+    "avg_length": 103,
+    "episodes": 157,
+    "eps_365": 139,
+    "eps_90": 139,
     "first_at": "2023-05-12",
     "first_year": 1402,
     "last": "1405/08/15",
-    "last_at": "2026-11-06T02:09:48Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Homayoun--Daryoush-Part-4-e3rs1j9",
-    "last_title": "Homayoun, Daryoush Part 4",
-    "max_length": 125,
+    "last_at": "2026-11-06T04:16:29Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-6-e3rs7dh",
+    "last_title": "Hashemi, Manouchehr Part 6",
+    "max_length": 134,
     "median_length": 31,
     "min_length": 10,
     "play": [
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128899953/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F6c617457-1df5-1086-0451-99c8ee32b388.mp3",
+        "at": "2026-11-06T04:16:29Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793938521685-c07d8058fa725.jpg",
+        "t": "Hashemi, Manouchehr Part 6"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128899849/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F19b5543d-e613-bbec-905d-48a48da31af5.mp3",
+        "at": "2026-11-06T04:15:03Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793938433651-40b1870a179ef.jpg",
+        "t": "Hashemi, Manouchehr Part 5"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128899767/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F621813ae-ad1e-a6e4-dd5f-1c87648deb79.mp3",
+        "at": "2026-11-06T04:13:35Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793938347953-dca1614898954.jpg",
+        "t": "Hashemi, Manouchehr Part 4"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128899706/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2Ff2bf3c40-e2ff-3ef6-48e9-ea0cde05a784.mp3",
+        "at": "2026-11-06T04:12:09Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793938265494-684fe1119e6d7.jpg",
+        "t": "Hashemi, Manouchehr Part 3"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128899611/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F44bd9b95-cc19-1b89-aa41-e68b90519feb.mp3",
+        "at": "2026-11-06T04:10:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793938160043-4997e9dc65e51.jpg",
+        "t": "Hashemi, Manouchehr Part 2"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128899551/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2Fdbba9131-af9e-d160-b7df-5014b60313ec.mp3",
+        "at": "2026-11-06T04:08:59Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793938089863-e693c0586cb3b.jpg",
+        "t": "Hashemi, Manouchehr Part 1"
+      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128893993/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F4e26dea0-63b8-b807-ec8f-ae63371ea911.mp3",
         "at": "2026-11-06T02:09:48Z",
@@ -58977,62 +59013,26 @@
         "at": "2026-11-06T02:09:18Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793930892687-5f2a8513bcdb9.jpg",
         "t": "Homayoun, Daryoush Part 3"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128893898/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F30b434bf-ffcf-5b43-a230-5fcdc0cbabab.mp3",
-        "at": "2026-11-06T02:07:53Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793930830512-00de39b478b74.jpg",
-        "t": "Homayoun, Daryoush Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128893844/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F4a669c06-4a8c-ef1c-a08b-530b5529e4a6.mp3",
-        "at": "2026-11-06T02:06:52Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793930746865-7333daa87444f.jpg",
-        "t": "Homayoun, Daryoush Part 1"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128888768/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2Ff8b5f4a3-0815-c97c-0b2a-764c0c8de2be.mp3",
-        "at": "2026-11-06T00:16:15Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793924150203-6e6656f077df5.jpg",
-        "t": "Hairi-Yazdi, Mehdi Part 3"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128888701/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2Fccbdcdac-4fd2-a005-82c6-171f5a8457c2.mp3",
-        "at": "2026-11-06T00:15:32Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793924060396-6ea9ddce7fedc.jpg",
-        "t": "Hairi-Yazdi, Mehdi Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128888640/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F301bfe8c-0d47-c952-644d-37c541795b9e.mp3",
-        "at": "2026-11-06T00:14:02Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793923994259-b422175375419.jpg",
-        "t": "Hairi-Yazdi, Mehdi Part 1"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128880701/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F811367a4-c491-8c48-54b4-44c8c8e0bb5e.mp3",
-        "at": "2026-11-05T21:40:09Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793914747986-02b4f599fc73c.jpg",
-        "t": "Adamiyatt, Tahmouress Part 7"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-06T02:09:48Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793930975362-43923ba1a07b4.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Homayoun--Daryoush-Part-4-e3rs1j9",
-        "title": "Homayoun, Daryoush Part 4"
+        "at": "2026-11-06T04:16:29Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793938521685-c07d8058fa725.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-6-e3rs7dh",
+        "title": "Hashemi, Manouchehr Part 6"
       },
       {
-        "at": "2026-11-06T02:09:18Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793930892687-5f2a8513bcdb9.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Homayoun--Daryoush-Part-3-e3rs1hd",
-        "title": "Homayoun, Daryoush Part 3"
+        "at": "2026-11-06T04:15:03Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793938433651-40b1870a179ef.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-5-e3rs7a9",
+        "title": "Hashemi, Manouchehr Part 5"
       },
       {
-        "at": "2026-11-06T02:07:53Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793930830512-00de39b478b74.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Homayoun--Daryoush-Part-2-e3rs1ga",
-        "title": "Homayoun, Daryoush Part 2"
+        "at": "2026-11-06T04:13:35Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1793938347953-dca1614898954.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hashemi--Manouchehr-Part-4-e3rs77n",
+        "title": "Hashemi, Manouchehr Part 4"
       }
     ],
     "recent_30d": [
@@ -59047,7 +59047,7 @@
       0,
       0,
       0,
-      159
+      139
     ],
     "status": "active"
   },
