@@ -42851,8 +42851,8 @@
       0,
       0,
       0,
-      2,
-      1,
+      3,
+      0,
       3,
       0,
       0
@@ -73282,20 +73282,27 @@
     "status": "active"
   },
   "simin-bhbhani": {
+    "avg_gap_days": 260.0,
     "avg_length": 4,
-    "episodes": 19,
-    "eps_365": 1,
-    "eps_90": 0,
+    "episodes": 20,
+    "eps_365": 2,
+    "eps_90": 1,
     "first_at": "2025-01-14",
     "first_year": 1403,
-    "last": "1404/11/29",
-    "last_at": "2026-02-18T15:42:31Z",
-    "last_link": "https://shenoto.com/album/podcast/1556459/سیمین بهبهانی | ای شهر",
-    "last_title": "سیمین بهبهانی | ای شهر",
+    "last": "1405/08/15",
+    "last_at": "2026-11-06T11:37:25Z",
+    "last_link": "https://shenoto.com/album/podcast/1894998/سیمین بهبهانی | بگو چگونه بنویسم",
+    "last_title": "سیمین بهبهانی | بگو چگونه بنویسم",
     "max_length": 16,
     "median_length": 3,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/704893b2-d9d6-11f1-a824-b2bc6c7247b5.mp3",
+        "at": "2026-11-06T11:37:25Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/210a6314-a48c-4aaa-8c2e-4c78c1bd0410/cover/3000.jpg",
+        "t": "سیمین بهبهانی | بگو چگونه بنویسم"
+      },
       {
         "a": "https://shenoto.com/service/api/play/podcast/6fb2dddf-0ce0-11f1-b314-0242ac120014.mp3",
         "at": "2026-02-18T15:42:31Z",
@@ -73337,15 +73344,15 @@
         "at": "2025-01-24T11:11:09Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/4922ac25-fc6a-4c95-9d4f-6725fe445920/cover/3000.jpg",
         "t": "سیمین بهبهانی | در انتظار تناسخ"
-      },
-      {
-        "a": "https://shenoto.com/service/api/play/podcast/51a3c2b1-d974-11ef-919c-0242ac120015.mp3",
-        "at": "2025-01-23T10:25:08Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/2a489567-313f-481f-8061-f88bc65b83ef/cover/3000.jpg",
-        "t": "سیمین بهبهانی | ای بسته تو در تو"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T11:37:25Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/210a6314-a48c-4aaa-8c2e-4c78c1bd0410/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/1894998/سیمین بهبهانی | بگو چگونه بنویسم",
+        "title": "سیمین بهبهانی | بگو چگونه بنویسم"
+      },
       {
         "at": "2026-02-18T15:42:31Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/b82fc46c-d220-469f-aff2-53fc7aa807fc/cover/3000.jpg",
@@ -73357,12 +73364,6 @@
         "i": "https://cdn-arch.shenoto.com/shenoto-album/ece0dbb2-3ad3-4b24-a9e1-4acceb9ce39a/cover/3000.jpg",
         "link": "https://shenoto.com/album/podcast/413305/مصاحبه با سیمین بهبهانی",
         "title": "مصاحبه با سیمین بهبهانی"
-      },
-      {
-        "at": "2025-08-21T06:32:28Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/a39f0e80-861f-40c9-bdb7-f84cd1b6fdc4/cover/3000.jpg",
-        "link": "https://shenoto.com/album/podcast/386544/سیمین بهبهانی | پسته",
-        "title": "سیمین بهبهانی | پسته"
       }
     ],
     "recent_30d": [
@@ -73377,7 +73378,7 @@
       0,
       0,
       0,
-      0
+      1
     ],
     "status": "active"
   },
