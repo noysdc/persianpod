@@ -132,7 +132,7 @@
 
 
 /* وضعیت پادکست روی کارت‌ها: رنگ + متن برای تشخیص سریع و دسترس‌پذیر */
-.pd-status{position:absolute;top:10px;right:10px;z-index:2;display:block;width:10px;height:10px;padding:0;border:2px solid var(--card);border-radius:50%;font-size:0;line-height:0;box-shadow:0 0 0 1px rgba(0,0,0,.12)}
+.pd-status{position:absolute;top:auto;right:auto;bottom:10px;left:10px;z-index:2;display:block;width:10px;height:10px;padding:0;border:2px solid var(--card);border-radius:50%;font-size:0;line-height:0;box-shadow:0 0 0 1px rgba(0,0,0,.12)}
 .pd-status--active{background:#16a34a}
 .pd-status--inactive{background:#eab308}
 .pd-status--stopped{background:#dc2626}
