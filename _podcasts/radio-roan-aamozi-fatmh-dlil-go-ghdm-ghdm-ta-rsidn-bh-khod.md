@@ -17,8 +17,8 @@ pi_id: 7570900
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # رادیو روان آموزی، فاطمه دلیل گو، قدم قدم تا رسیدن به خود

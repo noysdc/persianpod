@@ -17,8 +17,8 @@ pi_id: 5636894
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # مرکز مطالعات سیاسی و بین المللی
