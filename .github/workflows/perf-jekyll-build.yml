@@ -1,0 +1,32 @@
+name: Performance branch - Jekyll build
+
+on:
+  push:
+    branches:
+      - perf/mobile-core-web-vitals
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: jekyll-build-perf-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build with GitHub Pages Jekyll environment
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Upload preview artifact (no deployment)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site

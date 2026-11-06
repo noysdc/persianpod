@@ -390,8 +390,11 @@
     scrollToResults();
   }
 
+  var DISPLAY_STEP = 48, displayLimit = DISPLAY_STEP, lastDisplayKey = null;
   function render() {
     var f = read();
+    var displayKey = JSON.stringify([f.q, f.cat, f.sub, f.status, f.recent, f.city, f.lang, f.country, f.geo, f.yf, f.yt, f.emin, f.emax, f.lmin, f.lmax, f.creator, f.tag, f.sort, f.group, f.saved]);
+    if (displayKey !== lastDisplayKey) { displayLimit = DISPLAY_STEP; lastDisplayKey = displayKey; }
     var list = sortList(data.filter(function (p) { return match(p, f); }), f.sort);
     if (f.S && f.sort === "random") list.sort(function (a, b) { return (f.S.score[b._sid] || 0) - (f.S.score[a._sid] || 0); });   // با جست‌وجو: به ترتیب ارتباط
     var filtered = isFiltered(f);
@@ -414,8 +417,11 @@
         order.sort(function (a, b) { return catRank[a] - catRank[b]; });   // ترتیب دسته‌ها: تصادفی با هر لود صفحه (در همان بازدید ثابت می‌ماند)
         order.forEach(function (c) { groups[c] = window.PPOrder.order(groups[c], "home:" + c); });
       } else order.sort(function (a, b) { return f.sort === "random" ? catRank[a] - catRank[b] : collator.compare(a, b); });
+      var remaining = displayLimit;
       out.innerHTML = order.map(function (c, idx) {
-        var items = groups[c];
+        var items = groups[c].slice(0, remaining);
+        remaining = Math.max(0, remaining - items.length);
+        if (!items.length) return "";
         return (idx ? WAVE : "") + '<section class="pd-group" aria-label="' + esc(c) + '">' +
           '<h2 class="pd-cat"><a class="pd-cat-link" href="?category=' + encodeURIComponent(c) + '" data-cat="' + esc(c) + '">' +
           '<span class="pd-cat-ic">' + iconSvg(iconFor(c)) + "</span>" + esc(c) + " <small>" + toFa(groups[c].length) + "</small>" +
@@ -428,7 +434,14 @@
       }).join("");
       markScrollable();
     } else {
-      out.innerHTML = '<div class="pd-grid">' + list.map(card).join("") + "</div>";
+      out.innerHTML = '<div class="pd-grid">' + list.slice(0, displayLimit).map(card).join("") + "</div>";
+    }
+
+    var moreButton = $("#pd-more");
+    if (moreButton) {
+      moreButton.hidden = list.length <= displayLimit;
+      moreButton.disabled = moreButton.hidden;
+      moreButton.textContent = moreButton.hidden ? "" : "نمایش " + toFa(Math.min(DISPLAY_STEP, list.length - displayLimit)) + " پادکست دیگر";
     }
 
     var sim = filtered && list.length ? similarTo(list) : [];
@@ -591,6 +604,8 @@
       var h = $(".pd-head"); if (h) h.scrollIntoView({ behavior: "smooth", block: "start" });
     }
     out.addEventListener("click", tagClick);
+    var moreButton = $("#pd-more");
+    if (moreButton) moreButton.addEventListener("click", function () { displayLimit += DISPLAY_STEP; render(); });
     var simBox = $("#pd-similar"); if (simBox) simBox.addEventListener("click", tagClick);
     $("#pd-chips").addEventListener("click", function (e) {
       var b = e.target.closest(".pd-chip"); if (b) clearChip(b.getAttribute("data-k"));
@@ -612,7 +627,7 @@
   });
 
   var url = document.body.getAttribute("data-search");
-  var ssrCount = out.querySelectorAll(".pd-card").length;     // تعداد کارت‌های HTML تازه‌ی همین صفحه، مرجع درستی داده
+  var ssrCount = parseInt(out.getAttribute("data-total"), 10) || out.querySelectorAll(".pd-card").length;     // تعداد کل پادکست‌ها؛ مستقل از تعداد کارت‌های اولیه
   function loadData(bust) {
     var u = bust ? url + (url.indexOf("?") > -1 ? "&" : "?") + "r=" + Date.now() : url;
     return fetch(u, bust ? { cache: "reload" } : undefined).then(function (r) { if (!r.ok) throw 0; return r.json(); });
