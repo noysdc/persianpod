@@ -186,6 +186,14 @@
 
   /* ---------- نمایش ---------- */
   function badge(t, on) { return '<span class="pd-b' + (on ? " on" : "") + '">' + t + "</span>"; }
+  function statusBadge(p) {
+    var s = String(p.status || "active").trim().toLowerCase();
+    var info = s === "inactive" || s === "paused" || s === "غیرفعال" ? ["inactive", "غیرفعال"] :
+      s === "stopped" || s === "متوقف" || s === "متوقف‌شده" ? ["stopped", "متوقف‌شده"] :
+      s === "unknown" ? ["unknown", "نیازمند بررسی"] :
+      s === "ended" || s === "تمام‌شده" ? ["ended", "پایان‌یافته"] : ["active", "فعال"];
+    return '<span class="pd-status pd-status--' + info[0] + '" aria-label="وضعیت پادکست: ' + info[1] + '">' + info[1] + "</span>";
+  }
   function tagHref(c, sb) { return "?category=" + encodeURIComponent(c) + (sb ? "&sub=" + encodeURIComponent(sb) : ""); }
   function card(p) {
     var subs = (p.subcategories || []).slice(0, 3).map(function (x) {
@@ -197,7 +205,7 @@
     return '<article class="pd-card"><a class="pd-link" href="' + esc(p.url) + '" title="' + esc(p.description || "") + '"><span class="pd-logo">' + logo + "</span>" +
       '<span class="pd-body"><h3>' + esc(p.title) + "</h3></span></a>" +
       '<span class="pd-meta">' + (p._new ? '<span class="pd-b new">جدید</span>' : "") + '<a class="pd-b pd-tag" href="' + tagHref(p._cat) + '" data-cat="' + esc(p._cat) + '">' + esc(p._cat) + "</a>" + subs +
-      (p._active ? "" : '<span class="pd-b off">' + (p.status === "stopped" || p.status === "paused" ? "متوقف‌شده" : p.status === "unknown" ? "نیازمند بررسی" : p.status === "ended" ? "پایان‌یافته" : "غیرفعال") + '</span>') + "</span></article>";
+      statusBadge(p) + "</span></article>";
   }
 
   function sortList(list, mode) {
