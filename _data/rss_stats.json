@@ -12811,8 +12811,8 @@
       1,
       1,
       0,
-      1,
-      1,
+      2,
+      0,
       1
     ],
     "status": "active"
@@ -37688,21 +37688,27 @@
     "status": "inactive"
   },
   "midnightcast": {
-    "avg_gap_days": 34.3,
+    "avg_gap_days": 33.4,
     "avg_length": 61,
-    "episodes": 49,
-    "eps_365": 10,
-    "eps_90": 3,
+    "episodes": 50,
+    "eps_365": 11,
+    "eps_90": 4,
     "first_at": "2018-07-14",
     "first_year": 1397,
-    "last": "1405/07/19",
-    "last_at": "2026-10-11T14:03:44Z",
-    "last_link": "https://shows.acast.com/midnightcast/episodes/spiderman-evolution",
-    "last_title": "داستان اسپایدرمن؛ فرگشت در تاریخ سینما",
+    "last": "1405/08/15",
+    "last_at": "2026-11-06T08:45:13Z",
+    "last_link": "https://shows.acast.com/midnightcast/episodes/6aecafd45e56bd617c66ec5e",
+    "last_title": "مارتین اسکورسیزی؛ بنیاد (قصه نگاتیو، نابودی و نجات فیلم‌ها)",
     "max_length": 125,
     "median_length": 49,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6aecafd45e56bd617c66ec5e/media.mp3",
+        "at": "2026-11-06T08:45:13Z",
+        "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1793890042875-22bf5b65-0289-4675-8f2e-1795e597478b.jpeg",
+        "t": "مارتین اسکورسیزی؛ بنیاد (قصه نگاتیو، نابودی و نجات فیلم‌ها)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6acb974068b7ce6ffbc92cfc/media.mp3",
         "at": "2026-10-11T14:03:44Z",
@@ -37744,15 +37750,15 @@
         "at": "2026-06-25T15:25:13Z",
         "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1782400766103-2e3e91ac-4a9a-4ace-8d01-8958c7c1c9a4.jpeg",
         "t": "نیمه شب 36 - اسکورسیزی؛ رهایی (فیلم‌های هیوگو، گرگ وال استریت و سکوت)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6a38fbf6db494ef85ca144d9/media.mp3",
-        "at": "2026-06-22T09:22:05Z",
-        "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1782119929008-e54e5037-635c-48c9-bb87-17fbf5b5d513.jpeg",
-        "t": "خاندان اژدها؛ مرور کامل فصل‌های اول و دوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T08:45:13Z",
+        "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1793890042875-22bf5b65-0289-4675-8f2e-1795e597478b.jpeg",
+        "link": "https://shows.acast.com/midnightcast/episodes/6aecafd45e56bd617c66ec5e",
+        "title": "مارتین اسکورسیزی؛ بنیاد (قصه نگاتیو، نابودی و نجات فیلم‌ها)"
+      },
       {
         "at": "2026-10-11T14:03:44Z",
         "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1791726904825-5698f9f4-82ce-4fad-a9af-01fa1fab1cb9.jpeg",
@@ -37764,12 +37770,6 @@
         "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1789648297202-a06e0abe-9743-4b33-be48-f305d2467caa.jpeg",
         "link": "https://shows.acast.com/midnightcast/episodes/histoires-paralleles",
         "title": "داستان‌های موازی؛ فیلم بلندی درباره چی؟ (نقد و بررسی تازه‌ترین فیلم اصغر فرهادی)"
-      },
-      {
-        "at": "2026-08-11T11:55:49Z",
-        "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1786437965003-0c589612-309a-4f17-906b-c188bdf4b946.jpeg",
-        "link": "https://shows.acast.com/midnightcast/episodes/the-iliad",
-        "title": "خلاصه داستان ایلیاد هومر"
       }
     ],
     "recent_30d": [
@@ -37784,7 +37784,7 @@
       2,
       1,
       1,
-      1
+      2
     ],
     "status": "active"
   },
@@ -55908,7 +55908,7 @@
     "avg_length": 19,
     "episodes": 90,
     "eps_365": 57,
-    "eps_90": 21,
+    "eps_90": 20,
     "first_at": "2025-02-10",
     "first_year": 1403,
     "last": "1405/08/09",
@@ -55997,8 +55997,8 @@
       0,
       3,
       9,
-      5,
-      7,
+      6,
+      6,
       8,
       6
     ],
