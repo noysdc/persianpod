@@ -2763,8 +2763,8 @@
       0,
       4,
       35,
-      24,
-      14,
+      25,
+      13,
       6
     ],
     "status": "active"
@@ -57040,21 +57040,27 @@
     "status": "active"
   },
   "podcast-roanshnasi-saikopad": {
-    "avg_gap_days": 10.6,
+    "avg_gap_days": 10.5,
     "avg_length": 66,
-    "episodes": 199,
-    "eps_365": 34,
-    "eps_90": 11,
+    "episodes": 200,
+    "eps_365": 35,
+    "eps_90": 12,
     "first_at": "2021-06-18",
     "first_year": 1400,
-    "last": "1405/08/08",
-    "last_at": "2026-10-30T09:30:00Z",
-    "last_link": "https://dotcast.org/p/lu8pm6lt/hdl3itgvuy/",
-    "last_title": "گوسفند سفید خانواده | تلاش برای خوب بودن به عنوان مرض",
+    "last": "1405/08/15",
+    "last_at": "2026-11-06T10:50:00Z",
+    "last_link": "https://dotcast.org/p/lu8pm6lt/l08t3tj3s7/",
+    "last_title": "اضطراب | رنج مقدس یا درد مخرب!؟",
     "max_length": 132,
     "median_length": 53,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/lu8pm6lt/l08t3tj3s7/2026-11-06-11-13-32.mp3",
+        "at": "2026-11-06T10:50:00Z",
+        "i": "https://feed.dotcast.org/e/lu8pm6lt/l08t3tj3s7/2026-11-06-10-50-56.jpg",
+        "t": "اضطراب | رنج مقدس یا درد مخرب!؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/lu8pm6lt/hdl3itgvuy/2026-10-30-09-55-22.mp3",
         "at": "2026-10-30T09:30:00Z",
@@ -57095,15 +57101,15 @@
         "at": "2026-09-04T11:30:00Z",
         "i": "https://feed.dotcast.org/e/lu8pm6lt/788yszt9v5/2026-09-04-11-32-59.jpg",
         "t": "توهم احترام، چرا مخالف منطقی ما، توهین تلقی می شود؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/lu8pm6lt/w7h1wzshcx/2026-08-28-10-56-17.mp3",
-        "at": "2026-08-28T10:40:00Z",
-        "i": "https://feed.dotcast.org/e/lu8pm6lt/w7h1wzshcx/2026-08-28-10-55-30.jpg",
-        "t": "شرم،‌قاتل خاموش صمیمت در رابطه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T10:50:00Z",
+        "i": "https://feed.dotcast.org/e/lu8pm6lt/l08t3tj3s7/2026-11-06-10-50-56.jpg",
+        "link": "https://dotcast.org/p/lu8pm6lt/l08t3tj3s7/",
+        "title": "اضطراب | رنج مقدس یا درد مخرب!؟"
+      },
       {
         "at": "2026-10-30T09:30:00Z",
         "i": "https://feed.dotcast.org/e/lu8pm6lt/hdl3itgvuy/2026-10-30-09-33-49.jpg",
@@ -57115,11 +57121,6 @@
         "i": "https://feed.dotcast.org/e/lu8pm6lt/bbx40j1vm6/2026-10-23-16-53-33.jpg",
         "link": "https://dotcast.org/p/lu8pm6lt/bbx40j1vm6/",
         "title": "انزوای لوکس | کمال گرایی و انواع آن"
-      },
-      {
-        "at": "2026-10-16T13:30:00Z",
-        "link": "https://dotcast.org/p/lu8pm6lt/kmj7383mff/",
-        "title": "شمسی تراپی | کالبدشکافی استعاره عمه‌تراپی در برابر روان‌شناسی استاندارد"
       }
     ],
     "recent_30d": [
@@ -57134,7 +57135,7 @@
       5,
       5,
       2,
-      4
+      5
     ],
     "status": "active"
   },
@@ -69174,21 +69175,26 @@
     "status": "stopped"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.3,
+    "avg_gap_days": 4.2,
     "avg_length": 22,
-    "episodes": 490,
-    "eps_365": 86,
-    "eps_90": 30,
+    "episodes": 491,
+    "eps_365": 87,
+    "eps_90": 31,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T11:40:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/tr550ft0sw/",
-    "last_title": "ریزش نفت، صعود طلا؛ آیا بازارها پایان جنگ را قیمت‌گذاری می‌کنند؟",
+    "last": "1405/08/15",
+    "last_at": "2026-11-06T11:00:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/0jd87468ny/",
+    "last_title": "وال‌استریت زیر فشار؛ از نگرانی هوش مصنوعی تا آزمون اشتغال آمریکا",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/0jd87468ny/2026-11-06-11-11-55.mp3",
+        "at": "2026-11-06T11:00:00Z",
+        "t": "وال‌استریت زیر فشار؛ از نگرانی هوش مصنوعی تا آزمون اشتغال آمریکا"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/tr550ft0sw/2026-11-05-12-07-37.mp3",
         "at": "2026-11-05T11:40:00Z",
@@ -69223,14 +69229,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/xamqcdt2jc/2026-10-28-12-18-29.mp3",
         "at": "2026-10-28T12:00:00Z",
         "t": "غافلگیری نیوزیلند و توقف احتمالی فدرال رزرو در روز تعیین‌کننده بانک‌های مرکزی"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/jnnwgusajw/2026-10-27-12-19-50.mp3",
-        "at": "2026-10-27T12:10:00Z",
-        "t": "بازگشت خریداران دلار؛ آیا نشست فد مسیر بازار را تغییر می‌دهد؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T11:00:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/0jd87468ny/",
+        "title": "وال‌استریت زیر فشار؛ از نگرانی هوش مصنوعی تا آزمون اشتغال آمریکا"
+      },
       {
         "at": "2026-11-05T11:40:00Z",
         "link": "https://dotcast.org/p/bozvcayr/tr550ft0sw/",
@@ -69240,11 +69246,6 @@
         "at": "2026-11-04T11:40:00Z",
         "link": "https://dotcast.org/p/bozvcayr/2jk8lzf7l9/",
         "title": "پیروزی دموکرات‌ها و جهش طلا؛ بازارها چه چیزی را قیمت‌گذاری می‌کنند؟"
-      },
-      {
-        "at": "2026-11-03T11:10:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/ljd0bmj542/",
-        "title": "بازارها در روز انتخابات آمریکا؛ بازگشت نفت و تداوم فشار بر سهام و طلا"
       }
     ],
     "recent_30d": [
@@ -69259,7 +69260,7 @@
       0,
       0,
       9,
-      21
+      22
     ],
     "status": "active"
   },
