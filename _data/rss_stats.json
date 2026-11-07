@@ -5053,8 +5053,8 @@
     ],
     "recent_30d": [
       7,
-      6,
-      8,
+      7,
+      7,
       10,
       5,
       6,
@@ -37870,7 +37870,7 @@
     "avg_gap_days": 1.1,
     "avg_length": 7,
     "episodes": 993,
-    "eps_365": 329,
+    "eps_365": 328,
     "eps_90": 82,
     "first_at": "2023-11-21",
     "first_year": 1402,
@@ -49193,7 +49193,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       4,
       0,
       1,
@@ -51577,21 +51577,27 @@
     "status": "active"
   },
   "podcast-ghsh-go-ghesegoo": {
-    "avg_gap_days": 15.2,
-    "avg_length": 41,
-    "episodes": 55,
-    "eps_365": 24,
-    "eps_90": 6,
+    "avg_gap_days": 15.1,
+    "avg_length": 42,
+    "episodes": 56,
+    "eps_365": 25,
+    "eps_90": 7,
     "first_at": "2024-11-10",
     "first_year": 1403,
-    "last": "1405/08/02",
-    "last_at": "2026-10-24T02:30:44Z",
-    "last_link": "https://youtu.be/NL9eeB1kkGs",
-    "last_title": "جیسون و مده‌آ",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T01:30:09Z",
+    "last_link": "https://www.youtube.com/watch?v=3XnKRRqvpiI&t=1s",
+    "last_title": "بهرام گور و هفت پیکر",
     "max_length": 84,
-    "median_length": 28,
+    "median_length": 29,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://audio3.redcircle.com/episodes/01509e35-2129-44b8-aa9c-b7214605bc3f/stream.mp3",
+        "at": "2026-11-07T01:30:09Z",
+        "i": "https://media.redcircle.com/images/2026/11/6/20/96d4719a-8ed8-47d4-847f-e4dc146573fa_56.jpg",
+        "t": "بهرام گور و هفت پیکر"
+      },
       {
         "a": "https://audio3.redcircle.com/episodes/1f606c88-97a9-4aac-9a5b-f45450a64adc/stream.mp3",
         "at": "2026-10-24T02:30:44Z",
@@ -51633,15 +51639,15 @@
         "at": "2026-08-01T01:30:46Z",
         "i": "https://media.redcircle.com/images/2026/7/29/16/6f30cb2f-939a-4696-abbd-f137589c7f8e_49.jpg",
         "t": "رستم و سهراب"
-      },
-      {
-        "a": "https://audio3.redcircle.com/episodes/96af3fe0-31b2-441d-a748-32930a2d0134/stream.mp3",
-        "at": "2026-07-18T01:30:26Z",
-        "i": "https://media.redcircle.com/images/2026/5/21/13/0194d4ba-2048-481d-be00-a9d264ae1407_48.jpg",
-        "t": "شاه آرتور - بخش آخر"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T01:30:09Z",
+        "i": "https://media.redcircle.com/images/2026/11/6/20/96d4719a-8ed8-47d4-847f-e4dc146573fa_56.jpg",
+        "link": "https://www.youtube.com/watch?v=3XnKRRqvpiI&t=1s",
+        "title": "بهرام گور و هفت پیکر"
+      },
       {
         "at": "2026-10-24T02:30:44Z",
         "i": "https://media.redcircle.com/images/2026/10/23/18/53053278-d845-4dbc-a6a8-82ae11a7f4da_55.jpg",
@@ -51653,12 +51659,6 @@
         "i": "https://media.redcircle.com/images/2026/10/9/16/830bdd7c-2b27-41ac-b3fb-2968144783dc_54.jpg",
         "link": "https://www.youtube.com/watch?v=5V00F2z9AvI",
         "title": "جیسون و پشم زرین"
-      },
-      {
-        "at": "2026-09-26T01:30:41Z",
-        "i": "https://media.redcircle.com/images/2026/9/25/12/53bed4b3-6515-4be3-b480-8349bb78b70b_53.jpg",
-        "link": "https://www.youtube.com/watch?v=B1AGkjs8lcI&t=2s",
-        "title": "مرگ رستم"
       }
     ],
     "recent_30d": [
@@ -51673,7 +51673,7 @@
       3,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -58524,8 +58524,8 @@
     "recent_30d": [
       2,
       2,
-      1,
       2,
+      1,
       0,
       0,
       1,
@@ -59722,43 +59722,19 @@
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.1,
     "avg_length": 117,
-    "episodes": 89,
-    "eps_365": 79,
-    "eps_90": 79,
+    "episodes": 92,
+    "eps_365": 82,
+    "eps_90": 82,
     "first_at": "2023-05-12",
     "first_year": 1402,
     "last": "1405/08/16",
-    "last_at": "2026-11-07T01:17:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Foroughi--Mahmoud-Part-4-e3ru65n",
-    "last_title": "Foroughi, Mahmoud Part 4",
+    "last_at": "2026-11-07T00:45:47Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hajiseyd-Djavadi--Ali-Asghar-Part-4-e3ru511",
+    "last_title": "Hajiseyd-Djavadi, Ali-Asghar Part 4",
     "max_length": 134,
-    "median_length": 112,
+    "median_length": 97,
     "min_length": 20,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128964215/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F4e33b7e4-b5e8-0340-6441-89093d03f083.mp3",
-        "at": "2026-11-07T01:17:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794014160395-06dbc84071f93.jpg",
-        "t": "Foroughi, Mahmoud Part 4"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128964140/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F08d502d9-8a82-54e6-5592-481100008dae.mp3",
-        "at": "2026-11-07T01:15:02Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794014041317-07d34709c2ffc.jpg",
-        "t": "Foroughi, Mahmoud Part 3"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128964065/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F57a799f5-fc3e-1b0e-d642-4992dfe50f1b.mp3",
-        "at": "2026-11-07T01:13:02Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794013921336-ceea0553d6e1f.jpg",
-        "t": "Foroughi, Mahmoud Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128963993/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2Ff0707656-72d4-db9b-f902-72a5287f1900.mp3",
-        "at": "2026-11-07T01:10:58Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794013790134-45b1264062ab5.jpg",
-        "t": "Foroughi, Mahmoud Part 1"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128963041/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F12fb30e7-0b2d-3dc0-9d99-e47ca61a9d70.mp3",
         "at": "2026-11-07T00:45:47Z",
@@ -59782,26 +59758,50 @@
         "at": "2026-11-07T00:41:42Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794012039230-288990c6bacca.jpg",
         "t": "Hajiseyd-Djavadi, Ali-Asghar Part 1"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128958283/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F5e0349e4-5724-e0a9-0c77-25bc6f90aaac.mp3",
+        "at": "2026-11-06T22:50:35Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794005371806-98f6fc30b6505.jpg",
+        "t": "Nozari-Kasrai, Mehri Part 3"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128958188/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F3c83285c-a42b-3ad4-733e-37f5580f0dc0.mp3",
+        "at": "2026-11-06T22:48:42Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794005250871-76e92ceda8bd5.jpg",
+        "t": "Nozari-Kasrai, Mehri Part 2"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128958112/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F666e88fd-b623-ef1c-19b0-74d5ec2e1481.mp3",
+        "at": "2026-11-06T22:47:11Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794005159216-8f2eb71bd71b9.jpg",
+        "t": "Nozari-Kasrai, Mehri Part 1"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128955246/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F987e7b80-ad84-e851-1310-b574b2dc63fc.mp3",
+        "at": "2026-11-06T21:53:06Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794001906238-c6fb6833d68ae.jpg",
+        "t": "Dolatshahi, Mehrangiz Part 5"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-07T01:17:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794014160395-06dbc84071f93.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Foroughi--Mahmoud-Part-4-e3ru65n",
-        "title": "Foroughi, Mahmoud Part 4"
+        "at": "2026-11-07T00:45:47Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794012293738-cfd6652fd39ae.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hajiseyd-Djavadi--Ali-Asghar-Part-4-e3ru511",
+        "title": "Hajiseyd-Djavadi, Ali-Asghar Part 4"
       },
       {
-        "at": "2026-11-07T01:15:02Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794014041317-07d34709c2ffc.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Foroughi--Mahmoud-Part-3-e3ru63c",
-        "title": "Foroughi, Mahmoud Part 3"
+        "at": "2026-11-07T00:44:33Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794012203192-9d9e211a453a5.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hajiseyd-Djavadi--Ali-Asghar-Part-3-e3ru4vk",
+        "title": "Hajiseyd-Djavadi, Ali-Asghar Part 3"
       },
       {
-        "at": "2026-11-07T01:13:02Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794013921336-ceea0553d6e1f.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Foroughi--Mahmoud-Part-2-e3ru611",
-        "title": "Foroughi, Mahmoud Part 2"
+        "at": "2026-11-07T00:43:03Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794012121368-d371e8cf53d37.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hajiseyd-Djavadi--Ali-Asghar-Part-2-e3ru4u3",
+        "title": "Hajiseyd-Djavadi, Ali-Asghar Part 2"
       }
     ],
     "recent_30d": [
@@ -59816,7 +59816,7 @@
       0,
       0,
       0,
-      79
+      82
     ],
     "status": "active"
   },
@@ -62060,19 +62060,25 @@
   "radio-hkait": {
     "avg_gap_days": 4.3,
     "avg_length": 34,
-    "episodes": 201,
+    "episodes": 202,
     "eps_365": 85,
-    "eps_90": 34,
+    "eps_90": 35,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/67e43052-b19e-4b70-86c0-e0d8251d5e9e/play.mp3",
-    "last_title": "مسائل بیمارستانی – دینو بوتزاتی",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/780d85c0-f168-4f21-aea9-49e76f37df86/play.mp3",
+    "last_title": "دروغ ها - جی. ام. کوتزی",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/780d85c0-f168-4f21-aea9-49e76f37df86/play.mp3",
+        "at": "2026-11-07T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/780d85c0-f168-4f21-aea9-49e76f37df86/artwork.jpg?v=1",
+        "t": "دروغ ها - جی. ام. کوتزی"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/67e43052-b19e-4b70-86c0-e0d8251d5e9e/play.mp3",
         "at": "2026-11-06T01:30:00Z",
@@ -62114,15 +62120,15 @@
         "at": "2026-10-31T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/c36907be-441c-4d87-94e0-68bbbbb1a339/artwork.jpg?v=1",
         "t": "پلیس و سرود - اُ . هنری"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/c785b4af-fbb4-48bf-a6c2-b89ad465f3a8/play.mp3",
-        "at": "2026-10-30T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/c785b4af-fbb4-48bf-a6c2-b89ad465f3a8/artwork.jpg?v=1",
-        "t": "کاغذ دیواری زرد - شارلوت پرکینز گیلمن"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/780d85c0-f168-4f21-aea9-49e76f37df86/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/780d85c0-f168-4f21-aea9-49e76f37df86/play.mp3",
+        "title": "دروغ ها - جی. ام. کوتزی"
+      },
       {
         "at": "2026-11-06T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/67e43052-b19e-4b70-86c0-e0d8251d5e9e/artwork.jpg?v=1",
@@ -62134,27 +62140,21 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/f0210190-7d1d-4ba9-833d-62823c00bf77/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/f0210190-7d1d-4ba9-833d-62823c00bf77/play.mp3",
         "title": "مسابقه - ناهید طباطبایی"
-      },
-      {
-        "at": "2026-11-04T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ac97900b-3181-47f5-a509-808c967f7229/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ac97900b-3181-47f5-a509-808c967f7229/play.mp3",
-        "title": "قطار ۵:۲۲ - جرج هارار"
       }
     ],
     "recent_30d": [
-      8,
-      8,
-      3,
-      8,
+      9,
+      7,
+      4,
+      7,
       0,
       0,
       5,
-      8,
       9,
       8,
       9,
-      17
+      8,
+      18
     ],
     "status": "active"
   },
@@ -77195,8 +77195,8 @@
       0,
       7,
       15,
-      7,
-      17,
+      8,
+      16,
       44,
       40,
       26
