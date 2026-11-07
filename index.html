@@ -22,7 +22,7 @@ scripts: [/assets/js/pp-order.js, /assets/js/pp-ep-search.js, /assets/js/pp-dire
       <a class="pd-card" href="{{ p.url | relative_url }}" title="{{ p.description | strip_html | escape }}">
         <span class="pd-logo">{% if logo_url != '' %}<img src="{{ logo_url }}" alt="" loading="lazy" width="160" height="160">{% else %}<i>{{ p.title | slice: 0 }}</i>{% endif %}</span>
         <span class="pd-body"><h3>{{ p.title }}</h3>
-        <span class="pd-meta"><span class="pd-b">{{ p.category }}</span><span class="pd-status pd-status--{{ card_status_class }}" role="img" aria-label="وضعیت پادکست: {{ card_status_label }}" title="{{ card_status_label }}"></span></span></span>
+        <span class="pd-meta"><span class="pd-b">{{ p.category }}</span></span></span><span class="pd-status pd-status--{{ card_status_class }}" role="img" aria-label="وضعیت پادکست: {{ card_status_label }}" title="{{ card_status_label }}"></span>
       </a>
       {% endfor %}
     </div>
