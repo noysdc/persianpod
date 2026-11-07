@@ -26584,8 +26584,8 @@
       2,
       0,
       0,
-      3,
-      5,
+      4,
+      4,
       2,
       11,
       12,
@@ -70886,21 +70886,27 @@
     "status": "active"
   },
   "sfir-sda": {
-    "avg_gap_days": 15.5,
+    "avg_gap_days": 15.1,
     "avg_length": 13,
-    "episodes": 60,
-    "eps_365": 24,
-    "eps_90": 11,
+    "episodes": 61,
+    "eps_365": 25,
+    "eps_90": 12,
     "first_at": "2025-03-02",
     "first_year": 1403,
-    "last": "1405/08/09",
-    "last_at": "2026-10-31T12:34:18Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3rfqiq",
-    "last_title": "قصه: هفت خواهر و یک خواهر",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T12:17:32Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ruuim",
+    "last_title": "قصه: هفت زن دماغ بریده",
     "max_length": 33,
     "median_length": 9,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/101e050f4/podcast/play/128989206/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F68e9f505-78d7-0085-a9e4-d11b597609af.mp3",
+        "at": "2026-11-07T12:17:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794053765174-38951d298c5bc.jpg",
+        "t": "قصه: هفت زن دماغ بریده"
+      },
       {
         "a": "https://anchor.fm/s/101e050f4/podcast/play/128493594/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F5ee61303-77cb-e74f-5e96-78d4930a3508.mp3",
         "at": "2026-10-31T12:34:18Z",
@@ -70942,15 +70948,15 @@
         "at": "2026-09-19T12:31:31Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1789821055144-c4e47076ae3e2.jpg",
         "t": "افسانه‌های ایران | ملک جمشید | قسمت دوم"
-      },
-      {
-        "a": "https://anchor.fm/s/101e050f4/podcast/play/125263254/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-6%2F95dc9f63-6033-c5cb-6f6d-0b5b30d09d6a.mp3",
-        "at": "2026-09-06T02:49:15Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1788662939819-cac5b58e22898.jpg",
-        "t": "پادکست افسانه های ایرانی این قسمت :هفت خواهر"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T12:17:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794053765174-38951d298c5bc.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ruuim",
+        "title": "قصه: هفت زن دماغ بریده"
+      },
       {
         "at": "2026-10-31T12:34:18Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1793449979955-d1dad2ddf3fe3.jpg",
@@ -70962,12 +70968,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1792240194770-cacd483d8e974.jpg",
         "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql434",
         "title": "افسانه اسب باوفا | قسمت دوم"
-      },
-      {
-        "at": "2026-10-17T12:28:58Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1792240059751-c517618949412.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql418",
-        "title": "افسانه اسب باوفا | قسمت اول"
       }
     ],
     "recent_30d": [
@@ -70982,7 +70982,7 @@
       2,
       4,
       3,
-      4
+      5
     ],
     "status": "active"
   },
@@ -71480,8 +71480,8 @@
       0,
       0,
       0,
-      20,
-      23,
+      21,
+      22,
       20,
       19,
       25
