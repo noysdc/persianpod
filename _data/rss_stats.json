@@ -19867,7 +19867,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 9,
     "episodes": 249,
-    "eps_365": 185,
+    "eps_365": 184,
     "eps_90": 0,
     "first_at": "2020-10-17",
     "first_year": 1399,
@@ -19940,8 +19940,8 @@
     "recent_30d": [
       30,
       24,
-      30,
-      35,
+      32,
+      32,
       27,
       16,
       10,
@@ -37958,8 +37958,8 @@
       28,
       31,
       22,
-      30,
-      27,
+      31,
+      26,
       26,
       25,
       27,
@@ -43609,19 +43609,31 @@
   "one-thusand-and-one": {
     "avg_gap_days": 0.2,
     "avg_length": 11,
-    "episodes": 15,
-    "eps_365": 15,
-    "eps_90": 15,
+    "episodes": 17,
+    "eps_365": 17,
+    "eps_90": 17,
     "first_at": "2026-11-03",
     "first_year": 1405,
     "last": "1405/08/16",
-    "last_at": "2026-11-07T02:52:51Z",
-    "last_link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/4c927716-8020-4606-8a3d-1d2f1718bd88/play.mp3",
-    "last_title": "شب چهاردهم _ هزار و یک شب",
+    "last_at": "2026-11-07T02:59:48Z",
+    "last_link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/abefa3bd-75c0-461e-9c9a-b24f52c406da/play.mp3",
+    "last_title": "شب شانزدهم _ هزار و یک شب",
     "max_length": 13,
     "median_length": 11,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/abefa3bd-75c0-461e-9c9a-b24f52c406da/play.mp3",
+        "at": "2026-11-07T02:59:48Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/abefa3bd-75c0-461e-9c9a-b24f52c406da/artwork.jpg?v=1",
+        "t": "شب شانزدهم _ هزار و یک شب"
+      },
+      {
+        "a": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/01c408fd-4fef-4e93-9bfb-2959c57511c7/play.mp3",
+        "at": "2026-11-07T02:56:46Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/01c408fd-4fef-4e93-9bfb-2959c57511c7/artwork.jpg?v=1",
+        "t": "شب پانزدهم _ هزار و یک شب"
+      },
       {
         "a": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/4c927716-8020-4606-8a3d-1d2f1718bd88/play.mp3",
         "at": "2026-11-07T02:52:51Z",
@@ -43655,35 +43667,26 @@
         "at": "2026-11-05T02:51:13Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/5a69003a-7cd4-4b8c-bacb-68d2050b75a9/artwork.jpg?v=1",
         "t": "شب نهم _ هزار و یک شب"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/4ec0a7b4-50aa-4674-8965-fe2a8d4f415a/play.mp3",
-        "at": "2026-11-04T21:04:39Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/4ec0a7b4-50aa-4674-8965-fe2a8d4f415a/artwork.jpg?v=1",
-        "t": "شب هشتم_هزار و یک شب"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/2816d1cc-2892-4e13-ab40-15d857707310/play.mp3",
-        "at": "2026-11-04T08:04:43Z",
-        "t": "شب هفتم_هزار و یک شب"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T02:59:48Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/abefa3bd-75c0-461e-9c9a-b24f52c406da/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/abefa3bd-75c0-461e-9c9a-b24f52c406da/play.mp3",
+        "title": "شب شانزدهم _ هزار و یک شب"
+      },
+      {
+        "at": "2026-11-07T02:56:46Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/01c408fd-4fef-4e93-9bfb-2959c57511c7/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/01c408fd-4fef-4e93-9bfb-2959c57511c7/play.mp3",
+        "title": "شب پانزدهم _ هزار و یک شب"
+      },
       {
         "at": "2026-11-07T02:52:51Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/4c927716-8020-4606-8a3d-1d2f1718bd88/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/4c927716-8020-4606-8a3d-1d2f1718bd88/play.mp3",
         "title": "شب چهاردهم _ هزار و یک شب"
-      },
-      {
-        "at": "2026-11-06T10:53:35Z",
-        "link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/f340ff3c-021e-4835-8376-c95dc8b02a2a/play.mp3",
-        "title": "شب سیزدهم_هزار و یک شب"
-      },
-      {
-        "at": "2026-11-06T10:35:31Z",
-        "link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/a0004b3e-ac16-46b3-9969-88559a2197b3/play.mp3",
-        "title": "حکایت شب  دوازدهم _ هزار و یک شب."
       }
     ],
     "recent_30d": [
@@ -43698,7 +43701,7 @@
       0,
       0,
       0,
-      15
+      17
     ],
     "status": "active"
   },
@@ -57245,7 +57248,7 @@
     "avg_length": 35,
     "episodes": 70,
     "eps_365": 49,
-    "eps_90": 17,
+    "eps_90": 16,
     "first_at": "2025-02-07",
     "first_year": 1403,
     "last": "1405/08/15",
@@ -57334,8 +57337,8 @@
       0,
       5,
       8,
-      13,
-      6,
+      14,
+      5,
       6,
       5
     ],
@@ -67523,19 +67526,25 @@
   "rozanh-hai-tndrsti": {
     "avg_gap_days": 1.0,
     "avg_length": 18,
-    "episodes": 23,
-    "eps_365": 23,
-    "eps_90": 23,
+    "episodes": 24,
+    "eps_365": 24,
+    "eps_90": 24,
     "first_at": "2026-10-14",
     "first_year": 1405,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T03:00:00Z",
-    "last_link": "https://rss.com/podcasts/salamati/3280776",
-    "last_title": "جوانی رگ‌ها با لبو و باکتری‌های دهان: معجزه نیتریک اکسید در مهار فشار خون",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T03:00:00Z",
+    "last_link": "https://rss.com/podcasts/salamati/3280779",
+    "last_title": "توقف تحلیل عضلات سالمندی: برتری تمرینات سرعتی و قدرتی روی صندلی",
     "max_length": 30,
     "median_length": 18,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://content.rss.com/episodes/406068/3280779/salamati/2026_10_30_17_25_08_88158c1b-2fa1-48fe-8a44-8ac9979394f9.mp3",
+        "at": "2026-11-07T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261030_172456_a552e1a8e774906d1bb599b76cf09a9b.jpg",
+        "t": "توقف تحلیل عضلات سالمندی: برتری تمرینات سرعتی و قدرتی روی صندلی"
+      },
       {
         "a": "https://content.rss.com/episodes/406068/3280776/salamati/2026_10_30_17_23_44_d6a1b4a4-cf10-4e6a-8587-6f567d3e59bc.mp3",
         "at": "2026-11-06T03:00:00Z",
@@ -67577,15 +67586,15 @@
         "at": "2026-10-31T03:00:00Z",
         "i": "https://media.rss.com/salamati/ep_cover_20261028_201636_7e6b21844b34126bd905ad92d65c37ae.jpg",
         "t": "راز جوانسازی بدن در باکتری‌های روده: معجزه میکروبیوم و فیبرهای پربیوتیک"
-      },
-      {
-        "a": "https://content.rss.com/episodes/406068/3275031/salamati/2026_10_28_20_06_19_7e93e755-a4ca-41f0-8c78-338dfd88fef8.mp3",
-        "at": "2026-10-30T03:00:00Z",
-        "i": "https://media.rss.com/salamati/ep_cover_20261028_200607_658da178809ed83296869396a5379165.jpg",
-        "t": "پاکسازی مغز در خواب برای مهار آلزایمر: کشف شگفت‌انگیز سیستم گلیمفاتیک"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261030_172456_a552e1a8e774906d1bb599b76cf09a9b.jpg",
+        "link": "https://rss.com/podcasts/salamati/3280779",
+        "title": "توقف تحلیل عضلات سالمندی: برتری تمرینات سرعتی و قدرتی روی صندلی"
+      },
       {
         "at": "2026-11-06T03:00:00Z",
         "i": "https://media.rss.com/salamati/ep_cover_20261030_172328_0a4e11277992c555ef14f812743a9ad8.jpg",
@@ -67597,12 +67606,6 @@
         "i": "https://media.rss.com/salamati/ep_cover_20261030_172136_89a8f0fc226f0495dd42813fedf1b5b2.jpg",
         "link": "https://rss.com/podcasts/salamati/3280772",
         "title": "آب چغندر و پیاده‌روی برای جوانسازی رگ‌ها: مهار سفتی شریان‌ها و پیشگیری از سکته"
-      },
-      {
-        "at": "2026-11-04T03:00:00Z",
-        "i": "https://media.rss.com/salamati/ep_cover_20261030_171948_0775952437c76d9a2a4802d80bec04d7.jpg",
-        "link": "https://rss.com/podcasts/salamati/3280760",
-        "title": "پیشگیری از تحلیل ماکولا با AREDS2: معجزه لوتئین و عینک آفتابی درونی چشم"
       }
     ],
     "recent_30d": [
@@ -67617,7 +67620,7 @@
       0,
       0,
       0,
-      23
+      24
     ],
     "status": "active"
   },
@@ -79876,8 +79879,8 @@
       0,
       0,
       12,
-      7,
       11,
+      7,
       0,
       15,
       0,
