@@ -28,7 +28,7 @@
 .pp-map .pin{cursor:pointer}
 .pp-map .pin circle{fill:#08cb00;stroke:var(--card);stroke-width:2;vector-effect:non-scaling-stroke;filter:drop-shadow(0 1px 3px rgba(0,0,0,.35));transition:fill .2s ease}
 .pp-map .pin:hover circle,.pp-map .pin:focus-visible circle{fill:#00ff9c;stroke-width:3;outline:none}
-.pp-map .pin text{font-family:Vazirmatn,sans-serif;font-size:var(--fc,1.7px);font-weight:700;text-anchor:middle;fill:var(--ink);paint-order:stroke;stroke:var(--card);stroke-width:var(--halo,.4px);stroke-linejoin:round;pointer-events:none}
+.pp-map .pin text{font-family:Vazirmatn,sans-serif;font-size:var(--fc,1.7px);font-weight:700;text-anchor:middle;fill:var(--ink);paint-order:stroke;stroke:var(--card);stroke-width:var(--halo,.4px);stroke-linejoin:round;pointer-events:auto;cursor:pointer}
 /* نوشته‌ها تا پایان چیدمان پنهان می‌مانند تا یک لحظه روی هم نیفتند */
 .pp-map .plabels text,.pp-map .pin text{transition:opacity .35s ease}
 .pp-map:not(.laid) .plabels text,.pp-map:not(.laid) .pin text{opacity:0}
