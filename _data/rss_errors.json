@@ -88,7 +88,7 @@
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
   },
   "lzt-dniai-ktab": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "error": "RuntimeError: HTTP 504 (Gateway Timeout) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podkadeh.cloud/podcastxml/lezate-donyaye-ketab.xml"
   },
   "malino": {
@@ -107,8 +107,12 @@
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
+  "podcast-farsi-fikshn-fiction-podcast": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j"
+  },
   "podcast-fotbal-lb": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "error": "RuntimeError: HTTP 504 (Gateway Timeout) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podkadeh.cloud/podcastxml/footballlab.xml"
   },
   "podcast-khakstri-roan": {
