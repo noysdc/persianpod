@@ -5843,8 +5843,8 @@
     ],
     "recent_30d": [
       10,
-      3,
-      5,
+      4,
+      4,
       5,
       10,
       2,
@@ -47869,20 +47869,26 @@
   },
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.7,
-    "avg_length": 21,
-    "episodes": 38,
-    "eps_365": 38,
-    "eps_90": 38,
+    "avg_length": 20,
+    "episodes": 39,
+    "eps_365": 39,
+    "eps_90": 39,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T16:30:06Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6aee008e897b960231884036",
-    "last_title": "پروژه پادکست؛ راهنمای کامل ساخت پادکست",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T14:23:08Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6aef344c97f44ee2483db1b5",
+    "last_title": "چطوری پادکست بیزینس استوریز توی هفت روز به درآمدزایی رسید؟ | پروژه پادکست",
     "max_length": 115,
     "median_length": 22,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6aef344c97f44ee2483db1b5/media.mp3",
+        "at": "2026-11-07T14:23:08Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794061249310-458e4d45-c371-4e84-a20f-459f0b07643d.jpeg",
+        "t": "چطوری پادکست بیزینس استوریز توی هفت روز به درآمدزایی رسید؟ | پروژه پادکست"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6aee008e897b960231884036/media.mp3",
         "at": "2026-11-06T16:30:06Z",
@@ -47924,15 +47930,15 @@
         "at": "2026-10-31T18:00:00Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469570176-a886ac2a-cca3-4003-bf3f-d3674fdf7f3f.jpeg",
         "t": "NETFLIX #6 | تغییر مسیر نت‌فلیکس از دی‌وی‌دی به استریم چطوری بود؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62c71b478422f917c2bc0/media.mp3",
-        "at": "2026-10-31T17:59:00Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469514398-c92998f3-2db7-4bf8-a830-bcf49562d2ea.jpeg",
-        "t": "NETFLIX #5 | چرا بلاک باستر، بازیگر اصلی بازار، نت‌فلیکس رو نخرید؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T14:23:08Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794061249310-458e4d45-c371-4e84-a20f-459f0b07643d.jpeg",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6aef344c97f44ee2483db1b5",
+        "title": "چطوری پادکست بیزینس استوریز توی هفت روز به درآمدزایی رسید؟ | پروژه پادکست"
+      },
       {
         "at": "2026-11-06T16:30:06Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793982521565-65d3f12c-d872-4764-a375-85c3c1649d5c.jpeg",
@@ -47944,12 +47950,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793888166348-91e60087-cf5f-4513-ab5d-de5265aaf04a.jpeg",
         "link": "https://furbodm.com/",
         "title": "NETFLIX | داستان کامل نت‌فلیکس؛ از پاکت قرمز تا فرش قرمز"
-      },
-      {
-        "at": "2026-11-04T05:30:00Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793747277351-59f01f24-37ad-43ff-9603-89fa86788f88.jpeg",
-        "link": "https://furbodm.com/",
-        "title": "NETFLIX #10 | نت‌فلیکس از کجا سلیقه سینمایی آدم‌ها رو تشخیص میده؟"
       }
     ],
     "recent_30d": [
@@ -47964,7 +47964,7 @@
       0,
       0,
       0,
-      38
+      39
     ],
     "status": "active"
   },
@@ -72175,8 +72175,8 @@
       0,
       0,
       2,
-      1,
       2,
+      1,
       1,
       2,
       1
