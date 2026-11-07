@@ -1,6 +1,10 @@
 name: 01 Update RSS stats [auto, every 10 min]
 
 on:
+  push:
+    paths:
+      - "scripts/update_rss.py"
+      - ".github/workflows/update-rss.yml"
   schedule:
     - cron: "*/10 * * * *"   # هر ۱۰ دقیقه (گیت‌هاب ممکن است چند دقیقه دیرتر اجرا کند)
   workflow_dispatch:           # اجرای دستی از تب Actions
