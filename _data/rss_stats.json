@@ -51562,8 +51562,8 @@
       }
     ],
     "recent_30d": [
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -70363,20 +70363,26 @@
   },
   "sfrnamh-hai-soti-lst-sknd": {
     "avg_gap_days": 1.2,
-    "avg_length": 21,
-    "episodes": 106,
-    "eps_365": 106,
-    "eps_90": 64,
+    "avg_length": 20,
+    "episodes": 107,
+    "eps_365": 107,
+    "eps_90": 65,
     "first_at": "2026-06-29",
     "first_year": 1405,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T13:34:00Z",
-    "last_link": "https://bavexa.com/e/56361-jamov-deep-silver-night",
-    "last_title": "Jamov Deep - Silver Night",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T06:15:00Z",
+    "last_link": "https://bavexa.com/e/56707-baroon-remix",
+    "last_title": "Shadmehr Aghili & Horoush Band - Baroon",
     "max_length": 110,
     "median_length": 19,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://cdn-bavexa.version.ir/episodes/56707/source.mp3",
+        "at": "2026-11-07T06:15:00Z",
+        "i": "https://cdn.bavexa.com/episodes/XeorDRgV3yaYbneRsbK0gDI1VDZ7DdYZzpfz4wYs.jpg",
+        "t": "Shadmehr Aghili & Horoush Band - Baroon"
+      },
       {
         "a": "https://cdn-bavexa.version.ir/episodes/56361/source.mp3",
         "at": "2026-11-04T13:34:00Z",
@@ -70418,15 +70424,15 @@
         "at": "2026-10-28T04:30:00Z",
         "i": "https://cdn.bavexa.com/episodes/GRZfCM2AmTRjwVYyZ2dwLwTHmyTJdSh6SFy46EX6.jpg",
         "t": "Mohreh - DeadLight Ep.08"
-      },
-      {
-        "a": "https://cdn-bavexa.version.ir/episodes/53334/source.mp3",
-        "at": "2026-10-27T04:30:00Z",
-        "i": "https://cdn.bavexa.com/episodes/EalAvxGINSmxZNzGM5FKF6pGOeEHT83xGWhrVNJk.jpg",
-        "t": "DJ WERSY - Agen EP.01"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T06:15:00Z",
+        "i": "https://cdn.bavexa.com/episodes/XeorDRgV3yaYbneRsbK0gDI1VDZ7DdYZzpfz4wYs.jpg",
+        "link": "https://bavexa.com/e/56707-baroon-remix",
+        "title": "Shadmehr Aghili & Horoush Band - Baroon"
+      },
       {
         "at": "2026-11-04T13:34:00Z",
         "i": "https://cdn.bavexa.com/episodes/PfSXNfXFtbWvabTM6eg8MSQ0JoqKKyiqzsbmxMaG.jpg",
@@ -70438,12 +70444,6 @@
         "i": "https://cdn.bavexa.com/episodes/0WMlJVApT4UMH6BwE6VLaPU8drY4zoUPpIb2R0LU.jpg",
         "link": "https://bavexa.com/e/55554-shahrad-omidvar-diamond-mashup-12",
         "title": "Shahrad Omidvar - Diamond Mashup 12"
-      },
-      {
-        "at": "2026-11-02T14:01:00Z",
-        "i": "https://cdn.bavexa.com/episodes/DYU8xAPeW0fPqJ5SGlmCr8CcIMESsdRjQOkHcRxB.jpg",
-        "link": "https://bavexa.com/e/55519-dj-alizo-radio-alizo-67",
-        "title": "Dj Alizo - Radio Alizo Ep.67"
       }
     ],
     "recent_30d": [
@@ -70458,7 +70458,7 @@
       22,
       21,
       19,
-      24
+      25
     ],
     "status": "active"
   },
