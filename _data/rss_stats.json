@@ -2771,19 +2771,25 @@
   "aaroyh-srpasi": {
     "avg_gap_days": 1.5,
     "avg_length": 9,
-    "episodes": 84,
-    "eps_365": 84,
-    "eps_90": 42,
+    "episodes": 85,
+    "eps_365": 85,
+    "eps_90": 43,
     "first_at": "2026-07-06",
     "first_year": 1405,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T14:08:28Z",
-    "last_link": "https://www.spreaker.com/episode/bazsazy-hwyt-wqty-dygran-hnwz-tw-rw-bh-gdhshth-at-my-shnasn--76211091",
-    "last_title": "بازسازی هویت - وقتی دیگران هنوز تو رو به گذشته‌ات می‌شناسن",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T21:22:00Z",
+    "last_link": "https://www.spreaker.com/episode/bazsazy-hwyt-chtwr-rwy-khwdt-hsab-kny--76236746",
+    "last_title": "بازسازی هویت - چطور روی خودت حساب کنی؟",
     "max_length": 41,
     "median_length": 7,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76236746/34785744b5953b2ce2df548140.mp3",
+        "at": "2026-11-07T21:22:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/1e97bedd258b3a025448c0b76ea0cb45.jpg",
+        "t": "بازسازی هویت - چطور روی خودت حساب کنی؟"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76211091/5edd454915a83a7bca3dc10707.mp3",
         "at": "2026-11-06T14:08:28Z",
@@ -2825,15 +2831,15 @@
         "at": "2026-10-14T12:02:17Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/70d3848269d8076ba07b1472a984168d.jpg",
         "t": "نقطه‌ی بازگشت | اپیزود ۱"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75519458/30093c4ccaa938063077af0244.mp3",
-        "at": "2026-10-02T11:32:00Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ab4ac38a2a0ee90a765b624907ff4a93.jpg",
-        "t": "موفقیت اشتباه | موفقیت رو دوباره تعریف کن"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T21:22:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/1e97bedd258b3a025448c0b76ea0cb45.jpg",
+        "link": "https://www.spreaker.com/episode/bazsazy-hwyt-chtwr-rwy-khwdt-hsab-kny--76236746",
+        "title": "بازسازی هویت - چطور روی خودت حساب کنی؟"
+      },
       {
         "at": "2026-11-06T14:08:28Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/64cc9339890f7ab85d999b7b915c7e9c.jpg",
@@ -2845,12 +2851,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/13a5b3ffe5593d725fba4d7ccad35a7c.jpg",
         "link": "https://www.spreaker.com/episode/padkst-zndgy-antkhab-shdh-ayn-bar-khwdt-rw-ja-ndhar--76098959",
         "title": "پادکست زندگی انتخاب‌شده | این بار خودت رو جا نذار"
-      },
-      {
-        "at": "2026-10-26T19:47:07Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/024a17f755f5300ba5d1e017391c5569.jpg",
-        "link": "https://www.spreaker.com/episode/padkst-zndgy-antkhab-shdh-zndgyt-rw-az-nw-antkhab-kn--76008849",
-        "title": "پادکست زندگی انتخاب‌شده | زندگیت رو از نو انتخاب کن"
       }
     ],
     "recent_30d": [
@@ -2865,7 +2865,7 @@
       36,
       23,
       12,
-      7
+      8
     ],
     "status": "active"
   },
