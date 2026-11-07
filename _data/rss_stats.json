@@ -55286,21 +55286,27 @@
     "status": "active"
   },
   "podcast-mdrsh-rabth": {
-    "avg_gap_days": 49.6,
-    "avg_length": 46,
-    "episodes": 118,
-    "eps_365": 8,
-    "eps_90": 2,
+    "avg_gap_days": 45.2,
+    "avg_length": 45,
+    "episodes": 119,
+    "eps_365": 9,
+    "eps_90": 3,
     "first_at": "2019-08-15",
     "first_year": 1398,
-    "last": "1405/08/02",
-    "last_at": "2026-10-24T13:57:55Z",
-    "last_link": "https://s3.castbox.fm/d0/a9/65/c9767c4131af3986ff93edb8e6.MP3",
-    "last_title": "در رابطه با حیوانات همراه با فرح طاهری",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T23:55:24Z",
+    "last_link": "https://s3.castbox.fm/67/ba/81/724cf744b2988c3c745c5c8d9a.MP3",
+    "last_title": "خودشفقتی و تأثیر آن بر روابط عاطفی | همراه با سلاله امینی",
     "max_length": 98,
     "median_length": 49,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/67/ba/81/724cf744b2988c3c745c5c8d9a.MP3",
+        "at": "2026-11-07T23:55:24Z",
+        "i": "https://s3.castbox.fm/8e/a7/41/a310f14a6389c8d502846b61d5.jpg",
+        "t": "خودشفقتی و تأثیر آن بر روابط عاطفی | همراه با سلاله امینی"
+      },
       {
         "a": "https://s3.castbox.fm/d0/a9/65/c9767c4131af3986ff93edb8e6.MP3",
         "at": "2026-10-24T13:57:55Z",
@@ -55342,15 +55348,15 @@
         "at": "2025-12-27T21:38:25Z",
         "i": "https://s3.castbox.fm/79/6f/34/85be5045edbb002e7218f80a76.jpg",
         "t": "مصائب عشق - قسمت دوم"
-      },
-      {
-        "a": "https://s3.castbox.fm/ac/df/d2/b745194060ab3db0547466488c.mp3",
-        "at": "2025-11-10T14:38:22Z",
-        "i": "https://s3.castbox.fm/b8/fe/bf/890d9046c5a5b5463c6973f826.jpg",
-        "t": "مصائب عشق - قسمت اول"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T23:55:24Z",
+        "i": "https://s3.castbox.fm/8e/a7/41/a310f14a6389c8d502846b61d5.jpg",
+        "link": "https://s3.castbox.fm/67/ba/81/724cf744b2988c3c745c5c8d9a.MP3",
+        "title": "خودشفقتی و تأثیر آن بر روابط عاطفی | همراه با سلاله امینی"
+      },
       {
         "at": "2026-10-24T13:57:55Z",
         "i": "https://s3.castbox.fm/24/18/ca/566ca2465cac40a7de06fc89bc.jpg",
@@ -55362,12 +55368,6 @@
         "i": "https://s3.castbox.fm/00/f4/7f/81ca2b4b8cb20f9d6c812cca46.jpg",
         "link": "https://s3.castbox.fm/20/7e/59/7f16cf4a6aa7e37d743ae357cd.mp3",
         "title": "اپیزود ۱۱۸ | تست شخصیت‌شناسی NEO"
-      },
-      {
-        "at": "2026-07-18T22:57:58Z",
-        "i": "https://s3.castbox.fm/29/64/2a/088b944f6281cb156fdfc1c5a8.jpg",
-        "link": "https://s3.castbox.fm/40/7d/1b/edd6834eff8741f3d7373ba246.MP3",
-        "title": "از بارداری تا 1 سالگی کودک | همراه با غزال نصیری"
       }
     ],
     "recent_30d": [
@@ -55382,7 +55382,7 @@
       2,
       0,
       0,
-      2
+      3
     ],
     "status": "active"
   },
