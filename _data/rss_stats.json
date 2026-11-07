@@ -5646,8 +5646,8 @@
       1,
       2,
       1,
-      3,
-      6,
+      4,
+      5,
       6,
       2,
       2,
@@ -62942,20 +62942,26 @@
   },
   "radio-mnahj": {
     "avg_gap_days": 5.1,
-    "avg_length": 44,
-    "episodes": 252,
-    "eps_365": 71,
-    "eps_90": 15,
+    "avg_length": 45,
+    "episodes": 253,
+    "eps_365": 72,
+    "eps_90": 16,
     "first_at": "2023-08-10",
     "first_year": 1402,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T06:30:00Z",
-    "last_link": "https://s3.castbox.fm/0b/c5/be/9af0ff4cd8bda59b253be6b359.mp3",
-    "last_title": "دختر پیامبر:  قسمت سوم | لشکر اسامه، حدیث ثقلین و ماجرای سقیفه",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T06:19:24Z",
+    "last_link": "https://s3.castbox.fm/25/c7/2a/820f414ac88e0c739226efa65e.mp3",
+    "last_title": "دختر پیامبر: قسمت چهارم | ماجرای فدک و خطبه حضرت زهرا (س)",
     "max_length": 109,
     "median_length": 28,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/25/c7/2a/820f414ac88e0c739226efa65e.mp3",
+        "at": "2026-11-07T06:19:24Z",
+        "i": "https://s3.castbox.fm/c8/2b/2b/13a5ac47f694ce2445dbe4d504.jpg",
+        "t": "دختر پیامبر: قسمت چهارم | ماجرای فدک و خطبه حضرت زهرا (س)"
+      },
       {
         "a": "https://s3.castbox.fm/0b/c5/be/9af0ff4cd8bda59b253be6b359.mp3",
         "at": "2026-11-03T06:30:00Z",
@@ -62997,15 +63003,15 @@
         "at": "2026-10-15T07:54:09Z",
         "i": "https://s3.castbox.fm/77/26/d6/7b1bec4375abe08e565185f8ad.jpg",
         "t": "تکمیلی ۱- قسمت اول قوم نافرمان  | راز تحریف تاریخ یهود و ترور شخصیت پیامبران!"
-      },
-      {
-        "a": "https://s3.castbox.fm/20/2d/f4/ff06ae4ac2991f690db71e4a1d.mp3",
-        "at": "2026-10-13T09:14:00Z",
-        "i": "https://s3.castbox.fm/03/43/95/3b6c364ba59d5f82f41f3679d0.jpg",
-        "t": "جنگ‌نامه: قسمت ۱ | جنگ ایران و پرتغال ـ اشغال هرمز"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T06:19:24Z",
+        "i": "https://s3.castbox.fm/c8/2b/2b/13a5ac47f694ce2445dbe4d504.jpg",
+        "link": "https://s3.castbox.fm/25/c7/2a/820f414ac88e0c739226efa65e.mp3",
+        "title": "دختر پیامبر: قسمت چهارم | ماجرای فدک و خطبه حضرت زهرا (س)"
+      },
       {
         "at": "2026-11-03T06:30:00Z",
         "i": "https://s3.castbox.fm/13/36/8f/080405474588b4cdf345514a6b.jpg",
@@ -63017,12 +63023,6 @@
         "i": "https://s3.castbox.fm/ac/04/6d/e95d4a455393811009fa97987d.jpg",
         "link": "https://s3.castbox.fm/3d/0c/eb/555d5f416b8bdf4933631b07c4.mp3",
         "title": "دختر پیامبر:  قسمت دوم | ماجرای ازدواج حضرت زهرا سلام‌الله‌علیها"
-      },
-      {
-        "at": "2026-10-29T07:46:52Z",
-        "i": "https://s3.castbox.fm/16/5d/19/b405de440bb90c70e5f05cbb12.jpg",
-        "link": "https://s3.castbox.fm/82/cb/8e/0999494313b4f7b8652d096127.mp3",
-        "title": "سرگذشت آلبوکرک | فرمانده پرتغالی‌ها در جنگ ایران و پرتغال"
       }
     ],
     "recent_30d": [
@@ -63037,7 +63037,7 @@
       3,
       3,
       2,
-      10
+      11
     ],
     "status": "active"
   },
