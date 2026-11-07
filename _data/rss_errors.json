@@ -12,11 +12,11 @@
     "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
   },
   "aamozsh-zban-anglisi-talk-stop": {
-    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
   "aistgah-mosighi": {
-    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
   },
   "archgap-padkst-mamari-aark-gp": {
