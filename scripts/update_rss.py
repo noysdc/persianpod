@@ -21,7 +21,6 @@ PLAY_COUNT = 8                # قسمت‌های آماده‌ی لحظه‌ی 
 ALL_EPS_MAX = 3000            # سقف همه‌ی قسمت‌ها در فایل جدای هر پادکست
 EPS_DIR = ROOT / "assets" / "eps"   # assets/eps/<slug>.json؛ پلیر در صورت نیاز می‌خواندش
 DESC_MAX = 300                # سقف طول توضیح تمیزشده‌ی هر قسمت (برای ایندکس جست‌وجو)
-ALL_IMG_MAX = 60              # کاور اختصاصی فقط برای این تعداد قسمتِ تازه در فایل کامل قسمت‌ها (حجم فایل‌ها کم بماند)
 ERRORS = ROOT / "_data" / "rss_errors.json"
 WORKERS = 12                  # فیدها هم‌زمان گرفته می‌شوند (قبلاً پشت‌سرهم؛ اجرا ۸ تا ۱۱ دقیقه طول می‌کشید)
 PER_HOST = 3                  # حداکثر درخواست هم‌زمان به یک میزبان (acast، castbox و anchor دهها فید دارند)
@@ -238,22 +237,33 @@ def _img_url(v):
 
 
 def item_image(node):
-    """کاور اختصاصی یک قسمت (یا خود کانال): itunes:image، بعد media:thumbnail / media:content، بعد <image><url>."""
-    cand = {"itunes": "", "media": "", "plain": ""}
-    for ch in node:
+    """کاور قسمت/کانال را از تگ‌های تصویر RSS استخراج می‌کند؛ جست‌وجو بازگشتی است تا media:group هم پوشش داده شود."""
+    cand = {"itunes": "", "podcast": "", "media": "", "plain": ""}
+    # iter() مهم است: بعضی میزبان‌ها media:thumbnail و media:content را داخل media:group می‌گذارند.
+    for ch in node.iter():
         if not isinstance(ch.tag, str):
             continue
         ns, _, tag = ch.tag.rpartition("}")
+        ns = ns.lower()
         if tag == "image":
-            if "itunes" in ns.lower():
-                cand["itunes"] = cand["itunes"] or (ch.get("href") or "")
+            if "itunes" in ns:
+                cand["itunes"] = cand["itunes"] or (ch.get("href") or ch.get("url") or "")
+            elif "podcast" in ns:
+                # Podcasting 2.0 و میزبان‌هایی که تصویر را در podcast:image می‌گذارند
+                cand["podcast"] = cand["podcast"] or (ch.get("href") or ch.get("src") or ch.get("url") or "")
+            elif "media" in ns:
+                cand["media"] = cand["media"] or (ch.get("url") or ch.get("href") or "")
             else:
-                cand["plain"] = cand["plain"] or (ch.findtext("url") or ch.get("href") or "")
+                cand["plain"] = cand["plain"] or (ch.findtext("url") or ch.get("href") or ch.get("url") or "")
         elif tag == "thumbnail":
-            cand["media"] = cand["media"] or (ch.get("url") or "")
-        elif tag == "content" and ((ch.get("medium") or "") == "image" or (ch.get("type") or "").lower().startswith("image/")):
-            cand["media"] = cand["media"] or (ch.get("url") or "")
-    for k in ("itunes", "media", "plain"):
+            cand["media"] = cand["media"] or (ch.get("url") or ch.get("href") or "")
+        elif tag == "content" and (
+            (ch.get("medium") or "").lower() == "image"
+            or (ch.get("type") or "").lower().startswith("image/")
+        ):
+            cand["media"] = cand["media"] or (ch.get("url") or ch.get("href") or "")
+    # اولویت با تصویر صریح اپیزود است؛ بعد استانداردهای Podcasting 2.0 و Media RSS.
+    for k in ("itunes", "podcast", "media", "plain"):
         u = _img_url(cand[k])
         if u:
             return u
@@ -350,7 +360,7 @@ def analyse(feed_url, paged=None):
             row["i"] = img           # کاور اختصاصی قسمت؛ فقط وقتی با کاور پادکست فرق دارد
         return row
     dated_all = sorted(((utc2(d), t, u, x, im) for d, t, u, x, im in audio_eps if d), key=lambda x: x[0], reverse=True)
-    all_list = [ep_row(t, u, x, im if n < ALL_IMG_MAX else "") for n, (_, t, u, x, im) in enumerate(dated_all)] + [ep_row(t, u, x) for d, t, u, x, im in audio_eps if not d]
+    all_list = [ep_row(t, u, x, im) for _, t, u, x, im in dated_all] + [ep_row(t, u, x, im) for d, t, u, x, im in audio_eps if not d]
     if all_list:
         result["_all"] = all_list[:ALL_EPS_MAX]
     # --- آمار تکمیلی برای صفحه‌ی «مقایسه»؛ همه از خود RSS و قابل بازتولید ---
