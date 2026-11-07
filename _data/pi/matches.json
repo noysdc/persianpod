@@ -575,6 +575,20 @@
    "index_title": "AWR فارسی - مکاشفه امید [Persian/Farsi ROH]"
   },
   {
+   "file": "az-amroz.md",
+   "dir": "_podcasts",
+   "pi_id": 6745810,
+   "how": "url",
+   "index_title": "Az Emrooz | از امروز"
+  },
+  {
+   "file": "azt-nfs.md",
+   "dir": "_podcasts",
+   "pi_id": 1726876,
+   "how": "url",
+   "index_title": "عزت نفس"
+  },
+  {
    "file": "ba-man-varagh-bezan-ba-mn-orgh-bzn.md",
    "dir": "_podcasts",
    "pi_id": 2459143,
@@ -1273,6 +1287,13 @@
    "pi_id": 7934053,
    "how": "url",
    "index_title": "فال تاروت(سفری با کهن الگو ها)"
+  },
+  {
+   "file": "fantzi-aao-przhia.md",
+   "dir": "_podcasts",
+   "pi_id": 7453142,
+   "how": "url",
+   "index_title": "فانتزی آو پرژیا"
   },
   {
    "file": "farks-ba-aranth.md",
@@ -2759,6 +2780,13 @@
    "index_title": "کتاب صوتی"
   },
   {
+   "file": "ktabkhanh-nimh-shb-mt-hig.md",
+   "dir": "_podcasts",
+   "pi_id": 6341367,
+   "how": "url",
+   "index_title": "کتابخانه نیمه شب- مت هیگ"
+  },
+  {
    "file": "ktabkhanh-soti.md",
    "dir": "_podcasts",
    "pi_id": 7621105,
@@ -3011,6 +3039,13 @@
    "index_title": "من و کتاب"
   },
   {
+   "file": "mn-zn.md",
+   "dir": "_podcasts",
+   "pi_id": 7484661,
+   "how": "url",
+   "index_title": "من، زن"
+  },
+  {
    "file": "mnaba-farsi-bit-koin.md",
    "dir": "_podcasts",
    "pi_id": 4272509,
@@ -3072,6 +3107,13 @@
    "pi_id": 5262968,
    "how": "url",
    "index_title": "مرکز عدالت برای کودکان و نوجوانان"
+  },
+  {
+   "file": "mrkz-mtalaat-siasi-o-bin-almlli.md",
+   "dir": "_podcasts",
+   "pi_id": 5636894,
+   "how": "url",
+   "index_title": "مرکز مطالعات سیاسی و بین المللی"
   },
   {
    "file": "mrkz-mzakrh-airan.md",
@@ -3198,6 +3240,13 @@
    "pi_id": 7869683,
    "how": "url",
    "index_title": "نقشه راه مدیریت"
+  },
+  {
+   "file": "nik-o-ghsh-hai-shbanh.md",
+   "dir": "_podcasts",
+   "pi_id": 7957594,
+   "how": "url",
+   "index_title": "نیک و قصه های شبانه"
   },
   {
    "file": "nima-ioshij.md",
@@ -4274,7 +4323,7 @@
    "file": "podcast-roanshnasi-saikopad.md",
    "dir": "_podcasts",
    "pi_id": 4186001,
-   "how": "url",
+   "how": "title",
    "index_title": "پادکست روانشناسی سایکوپاد"
   },
   {
@@ -4789,6 +4838,13 @@
    "index_title": "رادیو روایت"
   },
   {
+   "file": "radio-roan-aamozi-fatmh-dlil-go-ghdm-ghdm-ta-rsidn-bh-khod.md",
+   "dir": "_podcasts",
+   "pi_id": 7570900,
+   "how": "url",
+   "index_title": "رادیو روان آموزی، فاطمه دلیل گو، قدم قدم تا رسیدن به خود"
+  },
+  {
    "file": "radio-saikt-mdrsh-alm-o-fnaori-koantom.md",
    "dir": "_podcasts",
    "pi_id": 8074538,
@@ -4885,6 +4941,13 @@
    "pi_id": 1284532,
    "how": "url",
    "index_title": "رادیومالی99"
+  },
+  {
+   "file": "radioni.md",
+   "dir": "_podcasts",
+   "pi_id": 1214282,
+   "how": "url",
+   "index_title": "رادیونی"
   },
   {
    "file": "rah-awin.md",
@@ -5333,6 +5396,13 @@
    "pi_id": 6926146,
    "how": "url",
    "index_title": "شاهنامه شنیدنی .Whispers of the Shahnameh"
+  },
+  {
+   "file": "shakhe-nabat-shakhh-nbat.md",
+   "dir": "_podcasts",
+   "pi_id": 4798246,
+   "how": "url",
+   "index_title": "Shakhe nabat شاخه نبات"
   },
   {
    "file": "shar-ba-sdai-shaar.md",
@@ -5829,7 +5899,7 @@
    "dir": "_podcasts",
    "pi_id": 8090198,
    "how": "url",
-   "index_title": "Peydayesh | پیدایش"
+   "index_title": "UltraMind | فراذهن"
   },
   {
    "file": "women-in-science.md",
@@ -6112,6 +6182,13 @@
    "index_title": "امروز در تاریخ | On This Day In Iran"
   },
   {
+   "file": "antkhab-nzam-1400.md",
+   "dir": "_blocked",
+   "pi_id": 4912432,
+   "how": "url",
+   "index_title": "انتخاب نظام ۱۴۰۰ - یک دیدگاه"
+  },
+  {
    "file": "antkhabat-ghirmntzrh.md",
    "dir": "_blocked",
    "pi_id": 6921659,
@@ -6187,6 +6264,13 @@
    "pi_id": 3142100,
    "how": "url",
    "index_title": "برنامه‌های ویژه"
+  },
+  {
+   "file": "brrsi-msayl-roz-az-didigah-hghoghi.md",
+   "dir": "_blocked",
+   "pi_id": 1883449,
+   "how": "url",
+   "index_title": "بررسی مسائل روز از دیدیگاه حقوقی - دکتر عرفان لاجوردی - دارالوکاله فرصت"
   },
   {
    "file": "bshnoid.md",
@@ -6539,6 +6623,13 @@
    "index_title": "خوانش کتاب برای انسان خردمند (2)"
   },
   {
+   "file": "klisa-o-shma-pwr.md",
+   "dir": "_blocked",
+   "pi_id": 6429403,
+   "how": "url",
+   "index_title": "کلیسا و شما-PWR"
+  },
+  {
    "file": "knj-kao.md",
    "dir": "_blocked",
    "pi_id": 6773829,
@@ -6747,6 +6838,13 @@
    "pi_id": 6653929,
    "how": "url",
    "index_title": "پادکست انقلاب"
+  },
+  {
+   "file": "podcast-atlaaat-roz.md",
+   "dir": "_blocked",
+   "pi_id": 6586975,
+   "how": "url",
+   "index_title": "پادکست اطلاعات روز"
   },
   {
    "file": "podcast-bhzad-blor.md",
@@ -7153,6 +7251,13 @@
    "pi_id": 3187056,
    "how": "url",
    "index_title": "ترانه‌های تازه"
+  },
+  {
+   "file": "tribon-raoi.md",
+   "dir": "_blocked",
+   "pi_id": 7558443,
+   "how": "url",
+   "index_title": "تریبون راوی"
   },
   {
    "file": "znan-aazadh.md",
