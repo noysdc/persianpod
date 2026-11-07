@@ -5641,8 +5641,8 @@
       }
     ],
     "recent_30d": [
-      6,
-      2,
+      7,
+      1,
       1,
       2,
       1,
@@ -44385,21 +44385,27 @@
     "status": "active"
   },
   "peaceful-presence-path-msir-hzor-aaramsh-padkst-mditishn": {
-    "avg_gap_days": 7.3,
+    "avg_gap_days": 7.6,
     "avg_length": 10,
-    "episodes": 106,
-    "eps_365": 48,
-    "eps_90": 6,
+    "episodes": 107,
+    "eps_365": 49,
+    "eps_90": 7,
     "first_at": "2024-10-17",
     "first_year": 1403,
-    "last": "1405/07/24",
-    "last_at": "2026-10-16T17:19:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-You-Dont-Have-to-Control-Everything-e3q03qr",
-    "last_title": "When You Don’t Have to Control Everything/وقتی لازم نیست همه‌چیز را کنترل کنی",
+    "last": "1405/08/15",
+    "last_at": "2026-11-06T18:46:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-Your-Heart-Feels-Heavy-for-No-Clear-Reason-e3rgddc",
+    "last_title": "When Your Heart Feels Heavy for No Clear Reason/وقتی دلت گرفته ولی دلیلش را نمی‌دانی",
     "max_length": 18,
     "median_length": 9,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://anchor.fm/s/fadf5764/podcast/play/128512876/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2Fc3b8953e-9901-8b1a-a2d4-c49f37cab7b6.mp3",
+        "at": "2026-11-06T18:46:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41989409/41989409-1793472379348-4d1a511edf98c.jpg",
+        "t": "When Your Heart Feels Heavy for No Clear Reason/وقتی دلت گرفته ولی دلیلش را نمی‌دانی"
+      },
       {
         "a": "https://anchor.fm/s/fadf5764/podcast/play/126930203/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F912113a1-4998-671c-0f11-3a7f0fbf838f.mp3",
         "at": "2026-10-16T17:19:00Z",
@@ -44441,15 +44447,15 @@
         "at": "2026-08-07T13:41:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41989409/41989409-1785320617002-a53cab141fbca.jpg",
         "t": "‎وقتی هیچ چیز درست پیش نمی‌رود/When Nothing Is Going Right"
-      },
-      {
-        "a": "https://anchor.fm/s/fadf5764/podcast/play/121887480/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-23%2Fa54231c7-e068-ef70-249c-9533d2ee881d.mp3",
-        "at": "2026-07-31T18:30:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41989409/41989409-1782224912955-7f774edaf7137.jpg",
-        "t": "Returning to Your Mind’s Natural State|    بازگشت به حالت طبیعی ذهن"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-06T18:46:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41989409/41989409-1793472379348-4d1a511edf98c.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-Your-Heart-Feels-Heavy-for-No-Clear-Reason-e3rgddc",
+        "title": "When Your Heart Feels Heavy for No Clear Reason/وقتی دلت گرفته ولی دلیلش را نمی‌دانی"
+      },
       {
         "at": "2026-10-16T17:19:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41989409/41989409-1791288868813-10487529ea796.jpg",
@@ -44461,12 +44467,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41989409/41989409-1791288825065-69b5fd19c8dc.jpg",
         "link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-Your-Mind-Wont-Let-You-Rest-e3q02dc",
         "title": "‏/وقتی ذهنت نمی‌گذارد آرام باشی When Your Mind Won’t Let You Rest"
-      },
-      {
-        "at": "2026-10-02T15:04:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41989409/41989409-1790157881007-ab1fc154689b.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/peacefulpresencepath/episodes/When-You-Just-Want-Everything-to-Stop-e3p9b3i",
-        "title": "When You Just Want Everything to Stop/وقتی فقط می‌خواهی همه چیز متوقف شود"
       }
     ],
     "recent_30d": [
@@ -44481,7 +44481,7 @@
       6,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -59721,20 +59721,44 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.1,
-    "avg_length": 113,
-    "episodes": 96,
-    "eps_365": 78,
-    "eps_90": 78,
+    "avg_length": 117,
+    "episodes": 92,
+    "eps_365": 82,
+    "eps_90": 82,
     "first_at": "2023-05-12",
     "first_year": 1402,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T22:50:35Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-3-e3ru0cb",
-    "last_title": "Nozari-Kasrai, Mehri Part 3",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T00:45:47Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hajiseyd-Djavadi--Ali-Asghar-Part-4-e3ru511",
+    "last_title": "Hajiseyd-Djavadi, Ali-Asghar Part 4",
     "max_length": 134,
-    "median_length": 81,
+    "median_length": 97,
     "min_length": 20,
     "play": [
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128963041/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F12fb30e7-0b2d-3dc0-9d99-e47ca61a9d70.mp3",
+        "at": "2026-11-07T00:45:47Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794012293738-cfd6652fd39ae.jpg",
+        "t": "Hajiseyd-Djavadi, Ali-Asghar Part 4"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128962996/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2Fd7ec3ec0-2517-0758-2088-419a2812dd3a.mp3",
+        "at": "2026-11-07T00:44:33Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794012203192-9d9e211a453a5.jpg",
+        "t": "Hajiseyd-Djavadi, Ali-Asghar Part 3"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128962947/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F4e964df8-e315-79be-c037-f81ed5fc7bf9.mp3",
+        "at": "2026-11-07T00:43:03Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794012121368-d371e8cf53d37.jpg",
+        "t": "Hajiseyd-Djavadi, Ali-Asghar Part 2"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128962900/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2Fb0fc9945-8693-716f-92c3-279fa87ada0f.mp3",
+        "at": "2026-11-07T00:41:42Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794012039230-288990c6bacca.jpg",
+        "t": "Hajiseyd-Djavadi, Ali-Asghar Part 1"
+      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128958283/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F5e0349e4-5724-e0a9-0c77-25bc6f90aaac.mp3",
         "at": "2026-11-06T22:50:35Z",
@@ -59758,50 +59782,26 @@
         "at": "2026-11-06T21:53:06Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794001906238-c6fb6833d68ae.jpg",
         "t": "Dolatshahi, Mehrangiz Part 5"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128955129/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2Fd1512b85-2c83-5d4c-f440-83a07d388e71.mp3",
-        "at": "2026-11-06T21:51:24Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794001780114-3c97125563737.jpg",
-        "t": "Dolatshahi, Mehrangiz Part 4"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128955020/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F50d05ffc-5d0e-62ae-4fba-083c04233ffe.mp3",
-        "at": "2026-11-06T21:48:41Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794001643919-b6b801760ce54.jpg",
-        "t": "Dolatshahi, Mehrangiz Part 3"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128954945/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2F8e8bf9d0-5a6e-f896-095e-a3edc69404f1.mp3",
-        "at": "2026-11-06T21:47:03Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794001558442-c61ebf2bce681.jpg",
-        "t": "Dolatshahi, Mehrangiz Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128954875/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-6%2Fd8dd5d33-7c58-539f-87d8-6cdda464b393.mp3",
-        "at": "2026-11-06T21:45:35Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794001472588-7172ddfe43499.jpg",
-        "t": "Dolatshahi, Mehrangiz Part 1"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-06T22:50:35Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794005371806-98f6fc30b6505.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-3-e3ru0cb",
-        "title": "Nozari-Kasrai, Mehri Part 3"
+        "at": "2026-11-07T00:45:47Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794012293738-cfd6652fd39ae.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hajiseyd-Djavadi--Ali-Asghar-Part-4-e3ru511",
+        "title": "Hajiseyd-Djavadi, Ali-Asghar Part 4"
       },
       {
-        "at": "2026-11-06T22:48:42Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794005250871-76e92ceda8bd5.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-2-e3ru09c",
-        "title": "Nozari-Kasrai, Mehri Part 2"
+        "at": "2026-11-07T00:44:33Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794012203192-9d9e211a453a5.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hajiseyd-Djavadi--Ali-Asghar-Part-3-e3ru4vk",
+        "title": "Hajiseyd-Djavadi, Ali-Asghar Part 3"
       },
       {
-        "at": "2026-11-06T22:47:11Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794005159216-8f2eb71bd71b9.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nozari-Kasrai--Mehri-Part-1-e3ru070",
-        "title": "Nozari-Kasrai, Mehri Part 1"
+        "at": "2026-11-07T00:43:03Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794012121368-d371e8cf53d37.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Hajiseyd-Djavadi--Ali-Asghar-Part-2-e3ru4u3",
+        "title": "Hajiseyd-Djavadi, Ali-Asghar Part 2"
       }
     ],
     "recent_30d": [
@@ -59816,7 +59816,7 @@
       0,
       0,
       0,
-      78
+      82
     ],
     "status": "active"
   },
