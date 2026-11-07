@@ -2652,7 +2652,7 @@
       }
     ],
     "recent_30d": [
-      1,
+      0,
       1,
       0,
       0,
@@ -17224,8 +17224,8 @@
       }
     ],
     "recent_30d": [
-      2,
-      4,
+      3,
+      3,
       0,
       0,
       0,
@@ -31796,25 +31796,19 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 20,
-    "episodes": 625,
-    "eps_365": 592,
-    "eps_90": 164,
+    "episodes": 624,
+    "eps_365": 591,
+    "eps_90": 163,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/08/15",
-    "last_at": "2026-11-06T19:10:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6ae8d4d19cb48f65ea9c5ef7",
-    "last_title": "مالیات خروج - وضعیت متاهل - اپیزود معرفی",
+    "last_at": "2026-11-06T17:44:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6aee093fdabcb4d1f2fe8ab3",
+    "last_title": "سالگرد - قتل های زنجیره ای - بخش سی و دوم",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ae8d4d19cb48f65ea9c5ef7/media.mp3",
-        "at": "2026-11-06T19:10:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793643436576-272e4c56-9769-4269-bfab-36d19103dd97.jpeg",
-        "t": "مالیات خروج - وضعیت متاهل - اپیزود معرفی"
-      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6aee093fdabcb4d1f2fe8ab3/media.mp3",
         "at": "2026-11-06T17:44:00Z",
@@ -31856,15 +31850,15 @@
         "at": "2026-10-31T18:52:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793465398750-6599c04b-e54e-4943-af01-7427c4bc16fc.jpeg",
         "t": "سالگرد - قتل های زنجیره ای - بخش بیست و پنجم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ae61b6bb478422f91778027/media.mp3",
+        "at": "2026-10-31T18:34:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793465079171-27239c71-069d-4889-b41a-a34bc22f4a9e.jpeg",
+        "t": "سالگرد - قتل های زنجیره ای - بخشبیست و چهارم"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-06T19:10:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793643436576-272e4c56-9769-4269-bfab-36d19103dd97.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6ae8d4d19cb48f65ea9c5ef7",
-        "title": "مالیات خروج - وضعیت متاهل - اپیزود معرفی"
-      },
       {
         "at": "2026-11-06T17:44:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793984667824-06674483-69f2-43f5-b1d6-bb300a2b7378.jpeg",
@@ -31876,6 +31870,12 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793983570669-87280552-82e5-42bf-9fb4-ee6306673e67.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6aee0490dabcb4d1f2fc4f88",
         "title": "سالگرد - قتل های زنجیره ای - بخش  سی ام"
+      },
+      {
+        "at": "2026-11-03T17:05:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793641624978-b60c86ae-67f1-42fb-b73d-fff39170f933.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6ae8ccf59cb48f65ea98a1b3",
+        "title": "سالگرد - قتل های زنجیره ای - بخش بیست و نهم"
       }
     ],
     "recent_30d": [
@@ -31890,7 +31890,7 @@
       58,
       56,
       61,
-      47
+      46
     ],
     "status": "active"
   },
@@ -70886,27 +70886,21 @@
     "status": "active"
   },
   "sfir-sda": {
-    "avg_gap_days": 15.1,
+    "avg_gap_days": 15.5,
     "avg_length": 13,
-    "episodes": 61,
-    "eps_365": 25,
-    "eps_90": 12,
+    "episodes": 60,
+    "eps_365": 24,
+    "eps_90": 11,
     "first_at": "2025-03-02",
     "first_year": 1403,
-    "last": "1405/08/16",
-    "last_at": "2026-11-07T12:17:32Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ruuim",
-    "last_title": "قصه: هفت زن دماغ بریده",
+    "last": "1405/08/09",
+    "last_at": "2026-10-31T12:34:18Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3rfqiq",
+    "last_title": "قصه: هفت خواهر و یک خواهر",
     "max_length": 33,
     "median_length": 9,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/101e050f4/podcast/play/128989206/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F68e9f505-78d7-0085-a9e4-d11b597609af.mp3",
-        "at": "2026-11-07T12:17:32Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794053765174-38951d298c5bc.jpg",
-        "t": "قصه: هفت زن دماغ بریده"
-      },
       {
         "a": "https://anchor.fm/s/101e050f4/podcast/play/128493594/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F5ee61303-77cb-e74f-5e96-78d4930a3508.mp3",
         "at": "2026-10-31T12:34:18Z",
@@ -70948,15 +70942,15 @@
         "at": "2026-09-19T12:31:31Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1789821055144-c4e47076ae3e2.jpg",
         "t": "افسانه‌های ایران | ملک جمشید | قسمت دوم"
+      },
+      {
+        "a": "https://anchor.fm/s/101e050f4/podcast/play/125263254/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-6%2F95dc9f63-6033-c5cb-6f6d-0b5b30d09d6a.mp3",
+        "at": "2026-09-06T02:49:15Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1788662939819-cac5b58e22898.jpg",
+        "t": "پادکست افسانه های ایرانی این قسمت :هفت خواهر"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-07T12:17:32Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794053765174-38951d298c5bc.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ruuim",
-        "title": "قصه: هفت زن دماغ بریده"
-      },
       {
         "at": "2026-10-31T12:34:18Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1793449979955-d1dad2ddf3fe3.jpg",
@@ -70968,6 +70962,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1792240194770-cacd483d8e974.jpg",
         "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql434",
         "title": "افسانه اسب باوفا | قسمت دوم"
+      },
+      {
+        "at": "2026-10-17T12:28:58Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1792240059751-c517618949412.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql418",
+        "title": "افسانه اسب باوفا | قسمت اول"
       }
     ],
     "recent_30d": [
@@ -70982,7 +70982,7 @@
       2,
       4,
       3,
-      5
+      4
     ],
     "status": "active"
   },
