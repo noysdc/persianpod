@@ -31795,20 +31795,26 @@
   },
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
-    "avg_length": 20,
-    "episodes": 625,
-    "eps_365": 592,
-    "eps_90": 164,
+    "avg_length": 21,
+    "episodes": 626,
+    "eps_365": 593,
+    "eps_90": 165,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/08/16",
-    "last_at": "2026-11-07T16:59:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6aee05f0897b9602318c989a",
-    "last_title": "سالگرد - قتل های زنجیره ای - بخش سی و یکم",
+    "last_at": "2026-11-07T17:35:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6aef161d36841fe014884f5b",
+    "last_title": "سالگرد - قتل های زنجیره ای - بخش سی و سوم",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6aef161d36841fe014884f5b/media.mp3",
+        "at": "2026-11-07T17:35:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794053242438-b7381b80-3227-434f-ae43-e812fb9b69be.jpeg",
+        "t": "سالگرد - قتل های زنجیره ای - بخش سی و سوم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6aee05f0897b9602318c989a/media.mp3",
         "at": "2026-11-07T16:59:00Z",
@@ -31850,15 +31856,15 @@
         "at": "2026-11-02T17:27:49Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793640406140-1378e876-d751-4f34-b838-4de850e4c8ea.jpeg",
         "t": "سالگرد - قتل های زنجیره ای - بخش بیست و ششم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ae61d0bb478422f9177e4b2/media.mp3",
-        "at": "2026-10-31T18:52:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793465398750-6599c04b-e54e-4943-af01-7427c4bc16fc.jpeg",
-        "t": "سالگرد - قتل های زنجیره ای - بخش بیست و پنجم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T17:35:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794053242438-b7381b80-3227-434f-ae43-e812fb9b69be.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6aef161d36841fe014884f5b",
+        "title": "سالگرد - قتل های زنجیره ای - بخش سی و سوم"
+      },
       {
         "at": "2026-11-07T16:59:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793983765350-f08061e5-c6f4-4508-85b4-1807dc931e0d.jpeg",
@@ -31870,12 +31876,6 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793984667824-06674483-69f2-43f5-b1d6-bb300a2b7378.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6aee093fdabcb4d1f2fe8ab3",
         "title": "سالگرد - قتل های زنجیره ای - بخش سی و دوم"
-      },
-      {
-        "at": "2026-11-06T16:47:11Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793983570669-87280552-82e5-42bf-9fb4-ee6306673e67.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6aee0490dabcb4d1f2fc4f88",
-        "title": "سالگرد - قتل های زنجیره ای - بخش  سی ام"
       }
     ],
     "recent_30d": [
@@ -31890,7 +31890,7 @@
       58,
       57,
       60,
-      47
+      48
     ],
     "status": "active"
   },
@@ -49529,8 +49529,8 @@
     "status": "active"
   },
   "podcast-farsi-barkd-mjmoa-shnidari-tyatr-o": {
-    "avg_length": 150,
-    "episodes": 87,
+    "avg_length": 147,
+    "episodes": 78,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-08-05",
@@ -49540,7 +49540,7 @@
     "last_link": "https://podcasters.spotify.com/pod/show/barcod/episodes/ep-e2p3tb4",
     "last_title": "🎊💫 مأموریت برای وطنم 🥹 🔖۲/۳✍️ محمدرضا 👑 پهلوی 😍❤️",
     "max_length": 665,
-    "median_length": 32,
+    "median_length": 34,
     "min_length": 15,
     "play": [
       {
@@ -49585,10 +49585,10 @@
         "t": "✨🎧🎭 نسخه شنیداری نمایشنامۀ شیطان و خدا ✍️ ژان پل سارتر"
       },
       {
-        "a": "https://anchor.fm/s/4bdd6238/podcast/play/58071551/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-8-24%2F287489363-48000-2-bd2253580ef05.mp3",
-        "at": "2022-09-24T23:46:52Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/12627998/12627998-1664063134200-cc264d61f22e4.jpg",
-        "t": "نسخه شنیداری 🎧🎭 نمایشنامه آنتیگون 🗽 ژان آنوی"
+        "a": "https://anchor.fm/s/4bdd6238/podcast/play/53213150/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F4bdd6238%2F53213150%2F043c9e4cc39a9cfed2493a1513676de3.m4a",
+        "at": "2022-06-08T17:48:07Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/12627998/12627998-1654709201704-a9e4112bb0241.jpg",
+        "t": "نسخۀ شنیداری 🎧🎭 نمایش لیر شاه ✍️اثر: ویلیام شکسپیر"
       }
     ],
     "recent": [
