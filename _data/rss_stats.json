@@ -64100,20 +64100,26 @@
   },
   "radio-shakh": {
     "avg_gap_days": 2.7,
-    "avg_length": 64,
-    "episodes": 225,
-    "eps_365": 136,
-    "eps_90": 35,
+    "avg_length": 62,
+    "episodes": 226,
+    "eps_365": 137,
+    "eps_90": 36,
     "first_at": "2024-10-31",
     "first_year": 1403,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T07:29:52Z",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T05:53:48Z",
     "last_link": "https://www.yourvoice.fm",
-    "last_title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۹ | از پالایشگاهِ خانگی تا وافورِ اینترنتی",
+    "last_title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۳۰ | ۲۰۰ شاخ و هزار امید، این پایان قصه نیست",
     "max_length": 198,
     "median_length": 63,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6721c1d9fab47fdf26442707/e/6aeeb93c218f4807f25f2e85/media.mp3",
+        "at": "2026-11-07T05:53:48Z",
+        "i": "https://assets.pippa.io/shows/6721c1d9fab47fdf26442707/1794029651888-99569657-7d97-4a3b-a536-b4530a9c60fa.jpeg",
+        "t": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۳۰ | ۲۰۰ شاخ و هزار امید، این پایان قصه نیست"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6721c1d9fab47fdf26442707/e/6aec2eab92924d4001c675f5/media.mp3",
         "at": "2026-11-05T07:29:52Z",
@@ -64155,15 +64161,15 @@
         "at": "2026-10-22T05:34:24Z",
         "i": "https://assets.pippa.io/shows/6721c1d9fab47fdf26442707/1792646317592-8a8b32a1-2f50-430c-9a7c-1710f8f30516.jpeg",
         "t": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۳ | ترامپ در قفس، روحانی در استخر"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6721c1d9fab47fdf26442707/e/6ad6fa18d068f31796e51940/media.mp3",
-        "at": "2026-10-20T06:50:10Z",
-        "i": "https://assets.pippa.io/shows/6721c1d9fab47fdf26442707/1792473497778-57be2db0-1a04-42e4-ad9c-7545e0fc30e2.jpeg",
-        "t": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۲ | ماجراهای خانواده‌ی بمب‌ها"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T05:53:48Z",
+        "i": "https://assets.pippa.io/shows/6721c1d9fab47fdf26442707/1794029651888-99569657-7d97-4a3b-a536-b4530a9c60fa.jpeg",
+        "link": "https://www.yourvoice.fm",
+        "title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۳۰ | ۲۰۰ شاخ و هزار امید، این پایان قصه نیست"
+      },
       {
         "at": "2026-11-05T07:29:52Z",
         "i": "https://assets.pippa.io/shows/6721c1d9fab47fdf26442707/1793862517698-a810d251-ceef-490a-b750-82208cf10933.jpeg",
@@ -64175,12 +64181,6 @@
         "i": "https://assets.pippa.io/shows/6721c1d9fab47fdf26442707/1793683990645-2ead44e3-23b6-4509-abe3-88427284d166.jpeg",
         "link": "https://www.yourvoice.fm",
         "title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۸ | از بمبِ حلالِ هسته‌ای  تا صندوقِ رأیِ اسرائیلی"
-      },
-      {
-        "at": "2026-10-31T06:37:21Z",
-        "i": "https://assets.pippa.io/shows/6721c1d9fab47fdf26442707/1793426225358-92f57014-c9a5-4447-bf61-18df2c732ee3.jpeg",
-        "link": "https://www.yourvoice.fm",
-        "title": "رادیو شاخ با فرشید منافی | فصل دوم اپیزود ۱۲۷ | از کدوی هالووین  تا باسنِ نیکی میناژ"
       }
     ],
     "recent_30d": [
@@ -64193,9 +64193,9 @@
       13,
       12,
       12,
-      10,
-      12,
-      13
+      11,
+      11,
+      14
     ],
     "status": "active"
   },
