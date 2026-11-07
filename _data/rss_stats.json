@@ -49108,21 +49108,27 @@
     "status": "active"
   },
   "podcast-farsi-fikshn-fiction-podcast": {
-    "avg_gap_days": 14.2,
+    "avg_gap_days": 13.8,
     "avg_length": 42,
-    "episodes": 234,
-    "eps_365": 26,
-    "eps_90": 11,
+    "episodes": 235,
+    "eps_365": 27,
+    "eps_90": 12,
     "first_at": "2019-07-06",
     "first_year": 1398,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T05:27:53Z",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T01:30:00Z",
     "last_link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
-    "last_title": "رقصیدن با مرگ",
+    "last_title": "شیفت شب",
     "max_length": 75,
     "median_length": 34,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/465fa78620b1034b/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-11-07T01:30:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/465fa78620b1034b/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "شیفت شب"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/237697b2f212a633/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-11-03T05:27:53Z",
@@ -49164,15 +49170,15 @@
         "at": "2026-10-06T14:30:00Z",
         "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/103186360bb677c6/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "t": "جنایت در روز تعطیل"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/95e52fc36ef60237/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2026-09-30T01:30:00Z",
-        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/95e52fc36ef60237/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "t": "هیولایی در جنگل"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T01:30:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/465fa78620b1034b/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
+        "title": "شیفت شب"
+      },
       {
         "at": "2026-11-03T05:27:53Z",
         "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/237697b2f212a633/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
@@ -49184,12 +49190,6 @@
         "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/3902cf193bcddd62/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
         "title": "هیولا در خانه"
-      },
-      {
-        "at": "2026-10-27T13:30:00Z",
-        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/92fe990ca970dec5/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
-        "title": "قتل در شب کریسمس"
       }
     ],
     "recent_30d": [
@@ -49204,7 +49204,7 @@
       0,
       1,
       4,
-      6
+      7
     ],
     "status": "active"
   },
