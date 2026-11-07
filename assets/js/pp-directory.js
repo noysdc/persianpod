@@ -204,7 +204,7 @@
     return '<article class="pd-card"><a class="pd-link" href="' + esc(p.url) + '" title="' + esc(p.description || "") + '"><span class="pd-logo">' + logo + "</span>" +
       '<span class="pd-body"><h3>' + esc(p.title) + "</h3></span></a>" +
       '<span class="pd-meta">' + (p._new ? '<span class="pd-b new">جدید</span>' : "") + '<a class="pd-b pd-tag" href="' + tagHref(p._cat) + '" data-cat="' + esc(p._cat) + '">' + esc(p._cat) + "</a>" + subs +
-      statusBadge(p) + "</span></article>";
+      "</span>" + statusBadge(p) + "</article>";
   }
 
   function sortList(list, mode) {
