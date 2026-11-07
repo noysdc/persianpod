@@ -69523,21 +69523,27 @@
     "status": "active"
   },
   "sadrati": {
-    "avg_gap_days": 120.5,
-    "avg_length": 59,
-    "episodes": 30,
-    "eps_365": 3,
-    "eps_90": 2,
+    "avg_gap_days": 89.7,
+    "avg_length": 61,
+    "episodes": 31,
+    "eps_365": 4,
+    "eps_90": 3,
     "first_at": "2022-01-11",
     "first_year": 1400,
-    "last": "1405/07/18",
-    "last_at": "2026-10-10T04:09:01Z",
-    "last_link": "https://shows.acast.com/saderati/episodes/6ac9ba5e39599f7c568e49f5",
-    "last_title": "بزم در رزم ۲",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T15:10:36Z",
+    "last_link": "https://shows.acast.com/saderati/episodes/6aef3f6d9272884e5790c9e5",
+    "last_title": "کار بی استاد خواهی ساختن؟",
     "max_length": 121,
     "median_length": 67,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64f56f967aa73b00112b7403/e/6aef3f6d9272884e5790c9e5/media.mp3",
+        "at": "2026-11-07T15:10:36Z",
+        "i": "https://assets.pippa.io/shows/64f56f967aa73b00112b7403/1794063941693-f6f6657c-c8a2-4f74-a93b-c3ec0fdc819e.jpeg",
+        "t": "کار بی استاد خواهی ساختن؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/64f56f967aa73b00112b7403/e/6ac9ba5e39599f7c568e49f5/media.mp3",
         "at": "2026-10-10T04:09:01Z",
@@ -69578,15 +69584,15 @@
         "at": "2024-10-15T06:55:44Z",
         "i": "https://assets.pippa.io/shows/64f56f967aa73b00112b7403/1728899048288-31c77b8e-63ef-4437-9133-fda968f380f0.jpeg",
         "t": "آن سبو بشکست و آن پیمانه ریخت-گفت و گو با آقای دکتر طهرانی در باب اهمیت خلق ارزش در واسطه گری صادراتی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/64f56f967aa73b00112b7403/e/66926fb2ade4ffab3edb3bff/media.mp3",
-        "at": "2024-07-19T17:44:04Z",
-        "i": "https://assets.pippa.io/shows/64f56f967aa73b00112b7403/1721191185406-262d85a2e80158024c078a23623c86b1.jpeg",
-        "t": "خود زنی صادراتی- در باب رقابت منفی صادرکنندگان ایرانی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T15:10:36Z",
+        "i": "https://assets.pippa.io/shows/64f56f967aa73b00112b7403/1794063941693-f6f6657c-c8a2-4f74-a93b-c3ec0fdc819e.jpeg",
+        "link": "https://shows.acast.com/saderati/episodes/6aef3f6d9272884e5790c9e5",
+        "title": "کار بی استاد خواهی ساختن؟"
+      },
       {
         "at": "2026-10-10T04:09:01Z",
         "i": "https://assets.pippa.io/shows/64f56f967aa73b00112b7403/1791605240664-9fdd9168-de0d-47ff-9cc2-f87c85e7380a.jpeg",
@@ -69598,11 +69604,6 @@
         "i": "https://assets.pippa.io/shows/64f56f967aa73b00112b7403/1788333188728-548922a4-858d-45a6-a015-f2484522fe03.jpeg",
         "link": "https://shows.acast.com/saderati/episodes/s2e9",
         "title": "بزم در رزم ۱"
-      },
-      {
-        "at": "2026-02-10T16:31:09Z",
-        "link": "https://shows.acast.com/saderati/episodes/saderati",
-        "title": "صادرات در دنیای موازی!"
       }
     ],
     "recent_30d": [
@@ -69617,7 +69618,7 @@
       0,
       1,
       0,
-      1
+      2
     ],
     "status": "active"
   },
