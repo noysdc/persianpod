@@ -52278,21 +52278,27 @@
     "status": "stopped"
   },
   "podcast-hoadari-prspolis": {
-    "avg_gap_days": 13.7,
+    "avg_gap_days": 13.4,
     "avg_length": 43,
-    "episodes": 64,
-    "eps_365": 27,
-    "eps_90": 16,
+    "episodes": 65,
+    "eps_365": 28,
+    "eps_90": 17,
     "first_at": "2025-01-19",
     "first_year": 1403,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T06:30:00Z",
-    "last_link": "https://s3.castbox.fm/48/d8/a8/fcc8fe4dafa45a71a29f6a3401.MP3",
-    "last_title": "برد ارزشمند پرسپولیس در مازندران | درخشش محبی و پیام نیازمند",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T04:06:19Z",
+    "last_link": "https://s3.castbox.fm/ee/73/15/1ed05647be9990cb19f8a99c8e.MP3",
+    "last_title": "پرسپولیسِ تارتار؛ رابین‌هود معکوس! | شکست تلخ مقابل فجر سپاسی",
     "max_length": 69,
     "median_length": 43,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/ee/73/15/1ed05647be9990cb19f8a99c8e.MP3",
+        "at": "2026-11-07T04:06:19Z",
+        "i": "https://s3.castbox.fm/2e/d3/a7/1706cf41438730dafecf6ecd87.jpg",
+        "t": "پرسپولیسِ تارتار؛ رابین‌هود معکوس! | شکست تلخ مقابل فجر سپاسی"
+      },
       {
         "a": "https://s3.castbox.fm/48/d8/a8/fcc8fe4dafa45a71a29f6a3401.MP3",
         "at": "2026-11-01T06:30:00Z",
@@ -52334,15 +52340,15 @@
         "at": "2026-09-29T08:47:16Z",
         "i": "https://s3.castbox.fm/e8/87/cc/91363e4f289848f9f19d551fb5.jpg",
         "t": "بررسی فوتبال رو به افول ایران | تیم ملی، پرسپولیس و البته منچسترسیتی"
-      },
-      {
-        "a": "https://s3.castbox.fm/22/eb/c7/c9fa054521a526369084290359.MP3",
-        "at": "2026-09-22T18:49:12Z",
-        "i": "https://s3.castbox.fm/b9/de/23/c5980f4aa4be5f14e5eacde009.jpg",
-        "t": "بررسی کامل اتفاقات فوتبالی هفته"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T04:06:19Z",
+        "i": "https://s3.castbox.fm/2e/d3/a7/1706cf41438730dafecf6ecd87.jpg",
+        "link": "https://s3.castbox.fm/ee/73/15/1ed05647be9990cb19f8a99c8e.MP3",
+        "title": "پرسپولیسِ تارتار؛ رابین‌هود معکوس! | شکست تلخ مقابل فجر سپاسی"
+      },
       {
         "at": "2026-11-01T06:30:00Z",
         "i": "https://s3.castbox.fm/b6/60/81/bd7e5b440284d01443200ff1b9.jpg",
@@ -52354,12 +52360,6 @@
         "i": "https://s3.castbox.fm/84/05/32/86270b41818f14eb2dc7cb35bd.jpg",
         "link": "https://s3.castbox.fm/b5/54/f6/128e274f16953d9905e73a2f4b.MP3",
         "title": "پرسپولیس ۰-۱ فولاد | مشکل تارتار مقابل مدعیان چیست؟"
-      },
-      {
-        "at": "2026-10-20T10:06:38Z",
-        "i": "https://s3.castbox.fm/09/39/e1/b4fa254ab2983eeeff1ed80c23.jpg",
-        "link": "https://s3.castbox.fm/0d/f7/01/4adf0a492393dcac13e096f37b.MP3",
-        "title": "بررسی و تحلیل برد پرسپولیس ۳-۰ مس شهر بابک | سوپرگل صادقی و حواشی عجیب فوتبال ایران"
       }
     ],
     "recent_30d": [
@@ -52374,7 +52374,7 @@
       2,
       7,
       4,
-      5
+      6
     ],
     "status": "active"
   },
