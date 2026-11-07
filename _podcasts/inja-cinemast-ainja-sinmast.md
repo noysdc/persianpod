@@ -16,8 +16,8 @@ pi_id: 2454436
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Inja Cinemast اینجا سینماست
