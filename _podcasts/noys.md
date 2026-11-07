@@ -17,6 +17,7 @@ frequency: "نامنظم"
 logo: "/assets/img/podcasts/noys.webp"
 castbox_id: "7361321"
 castbox_channel: "https://castbox.fm/ch/7361321"
+apple_podcasts: "https://podcasts.apple.com/us/podcast/%D9%86%D9%88%DB%8C%D8%B2-|-noys/id6832026824"
 rss: "https://api.rabt.host/podcasts/f341ce22-a0e2-40fe-9ae1-d53b166c753b/rss"
 instagram: "https://instagram.com/noysdc"
 telegram: "https://t.me/NOYSDC"
@@ -97,6 +98,7 @@ collab_types: "اسپانسری قسمت"
 اگر می‌خواهید حقیقت‌هایی که پشت قاب تلویزیون پنهان می‌مانند را از نزدیک دنبال کنید، از راه‌های زیر با نویز همراه شوید:
 
 - [شنیدن نویز در کست‌باکس](https://castbox.fm/ch/7361321){:target="_blank" rel="noopener"}
+- [شنیدن نویز در اپل پادکست](https://podcasts.apple.com/us/podcast/%D9%86%D9%88%DB%8C%D8%B2-|-noys/id6832026824){:target="_blank" rel="noopener"}
 - [وب‌سایت نویز](https://noysdc.ir){:target="_blank" rel="noopener"}
 - [اینستاگرام نویز](https://instagram.com/noysdc){:target="_blank" rel="noopener"}
 - [تلگرام نویز](https://t.me/NOYSDC){:target="_blank" rel="noopener"}
