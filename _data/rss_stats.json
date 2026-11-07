@@ -7798,10 +7798,10 @@
       }
     ],
     "recent_30d": [
-      2,
-      2,
-      0,
+      3,
       1,
+      1,
+      0,
       0,
       0,
       0,
@@ -40369,21 +40369,27 @@
     "status": "inactive"
   },
   "mozhde-sara-mzhdh-sra": {
-    "avg_gap_days": 12.6,
+    "avg_gap_days": 12.3,
     "avg_length": 36,
-    "episodes": 147,
-    "eps_365": 29,
-    "eps_90": 10,
+    "episodes": 148,
+    "eps_365": 30,
+    "eps_90": 11,
     "first_at": "2024-05-04",
     "first_year": 1403,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T15:30:00Z",
-    "last_link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6adf3b53dd5d6293db6f8ef5",
-    "last_title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل سوم",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T15:30:00Z",
+    "last_link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6ae9c29bda7c744de03d32c3",
+    "last_title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل چهارم",
     "max_length": 98,
     "median_length": 17,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6ae9c29bda7c744de03d32c3/media.mp3",
+        "at": "2026-11-07T15:30:00Z",
+        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1793704508689-cd4103fa-d3b6-42ad-ae7e-5bc0a1b503e5.jpeg",
+        "t": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل چهارم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6adf3b53dd5d6293db6f8ef5/media.mp3",
         "at": "2026-11-03T15:30:00Z",
@@ -40425,15 +40431,15 @@
         "at": "2026-09-01T17:30:00Z",
         "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1788279270982-29b47310-9965-456f-adff-a92b2259db05.jpeg",
         "t": "کتاب صوتی | هفت دختر هفت پسر | کتاب صوتی فارسی | فصل دوم قسمت چهارم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6a8d610ef97516394c5cdd35/media.mp3",
-        "at": "2026-08-25T17:30:00Z",
-        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1787649995312-e9f5e76b-851c-435d-973f-aa8d6380aace.jpeg",
-        "t": "کتاب صوتی | هفت دختر هفت پسر | کتاب صوتی فارسی | فصل دوم قسمت سوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T15:30:00Z",
+        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1793704508689-cd4103fa-d3b6-42ad-ae7e-5bc0a1b503e5.jpeg",
+        "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6ae9c29bda7c744de03d32c3",
+        "title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل چهارم"
+      },
       {
         "at": "2026-11-03T15:30:00Z",
         "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1793014559951-671ec403-dee9-4c3f-a8a2-c34bb08d299a.jpeg",
@@ -40445,12 +40451,6 @@
         "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1792833244412-434523a2-0a52-44ab-bb98-80266ce9c420.jpeg",
         "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6adc77194395ebfbf1ac60f6",
         "title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل دوم"
-      },
-      {
-        "at": "2026-10-27T15:30:00Z",
-        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1792601798009-008d289b-91be-47ca-bcd2-34ba14c2f04f.jpeg",
-        "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6ad8ef5b70af2b1aa7f874ce",
-        "title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل اول"
       }
     ],
     "recent_30d": [
@@ -40465,7 +40465,7 @@
       4,
       4,
       2,
-      4
+      5
     ],
     "status": "active"
   },
