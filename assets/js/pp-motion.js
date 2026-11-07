@@ -64,7 +64,11 @@
       var lim = Math.max(0, (W - cw) / 2 - 6) / (cw * 0.55);   // کارت فعال هیچ‌وقت از کادر بیرون نزند
       shift = Math.max(-lim, Math.min(lim, shift));
 
+      // Read visible card heights together before writing transforms; avoids repeated forced layout.
       var hmax = 0;
+      cs.forEach(function (c, i) {
+        if (Math.abs(i - cur) <= VIS) hmax = Math.max(hmax, c.offsetHeight);
+      });
       cs.forEach(function (c, i) {
         var d = i - cur, a = Math.abs(d);
         var dc = d < 0 ? -Math.min(a, VIS + 1) : Math.min(a, VIS + 1);   // کارت‌های دور همه روی یک نقطه می‌مانند
@@ -80,7 +84,6 @@
         c.style.visibility = a > VIS + 1 ? "hidden" : "";
         c.classList.toggle("is-active", d === 0);
         c.tabIndex = d === 0 ? 0 : -1;
-        if (a <= VIS) hmax = Math.max(hmax, c.offsetHeight);
       });
       row.style.setProperty("--pp-h", Math.ceil(hmax + 34) + "px");
       count.textContent = toFa(cur + 1) + " / " + toFa(n);
@@ -105,7 +108,6 @@
     });
 
     row.addEventListener("dragstart", function (e) { e.preventDefault(); });
-    row.addEventListener("load", function () { render(); }, true);   // بعد از لود شدن تصویرها ارتفاع دوباره سنجیده شود
 
     // کشیدن با موس/لمس (مثل نویز)
     var startX = null;
