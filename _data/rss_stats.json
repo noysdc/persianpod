@@ -31897,19 +31897,25 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 21,
-    "episodes": 628,
-    "eps_365": 595,
-    "eps_90": 167,
+    "episodes": 629,
+    "eps_365": 596,
+    "eps_90": 168,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/08/16",
-    "last_at": "2026-11-07T18:30:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6aef1a1f9272884e57821155",
-    "last_title": "سالگرد - قتل های زنجیره ای - بخش سی و پنجم",
+    "last_at": "2026-11-07T18:56:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6ae8d4d19cb48f65ea9c5ef7",
+    "last_title": "مالیات خروج - وضعیت متاهل - اپیزود معرفی",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ae8d4d19cb48f65ea9c5ef7/media.mp3",
+        "at": "2026-11-07T18:56:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793643436576-272e4c56-9769-4269-bfab-36d19103dd97.jpeg",
+        "t": "مالیات خروج - وضعیت متاهل - اپیزود معرفی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6aef1a1f9272884e57821155/media.mp3",
         "at": "2026-11-07T18:30:00Z",
@@ -31951,15 +31957,15 @@
         "at": "2026-11-03T17:05:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793641624978-b60c86ae-67f1-42fb-b73d-fff39170f933.jpeg",
         "t": "سالگرد - قتل های زنجیره ای - بخش بیست و نهم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6ae8cc4385d3a44762558771/media.mp3",
-        "at": "2026-11-02T18:35:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793641565541-fc4d8a71-acdc-4b57-81ea-e5d23c7abe9e.jpeg",
-        "t": "سالگرد - قتل های زنجیره ای - بخش بیست و هشتم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T18:56:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793643436576-272e4c56-9769-4269-bfab-36d19103dd97.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6ae8d4d19cb48f65ea9c5ef7",
+        "title": "مالیات خروج - وضعیت متاهل - اپیزود معرفی"
+      },
       {
         "at": "2026-11-07T18:30:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794054079377-7b1cc076-f327-4f24-9a70-be00585ee1bb.jpeg",
@@ -31971,12 +31977,6 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794053891853-78cf282f-833e-46ed-8b0a-79290c076189.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6aef179497f44ee24832244e",
         "title": "سالگرد - قتل های زنجیره ای - بخش سی و چهارم"
-      },
-      {
-        "at": "2026-11-07T17:35:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794053242438-b7381b80-3227-434f-ae43-e812fb9b69be.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6aef161d36841fe014884f5b",
-        "title": "سالگرد - قتل های زنجیره ای - بخش سی و سوم"
       }
     ],
     "recent_30d": [
@@ -31991,7 +31991,7 @@
       57,
       58,
       61,
-      48
+      49
     ],
     "status": "active"
   },
@@ -53096,107 +53096,6 @@
       7,
       4,
       6
-    ],
-    "status": "active"
-  },
-  "podcast-hosh-msnoai": {
-    "avg_gap_days": 33.0,
-    "avg_length": 49,
-    "episodes": 29,
-    "eps_365": 12,
-    "eps_90": 2,
-    "first_at": "2025-08-05",
-    "first_year": 1404,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T11:08:14Z",
-    "last_link": "https://s3.castbox.fm/08/66/dd/fce1444d8bb66f2c038fe3eeb8.MP3",
-    "last_title": "چت با دیتابیس با AI | آینده‌ی دیتا آنالیست و BI | محمد خوبانی | EP 29",
-    "max_length": 121,
-    "median_length": 46,
-    "min_length": 25,
-    "play": [
-      {
-        "a": "https://s3.castbox.fm/08/66/dd/fce1444d8bb66f2c038fe3eeb8.MP3",
-        "at": "2026-11-06T11:08:14Z",
-        "i": "https://s3.castbox.fm/17/fb/48/4593f2445bbbe57be04cddeb27.jpg",
-        "t": "چت با دیتابیس با AI | آینده‌ی دیتا آنالیست و BI | محمد خوبانی | EP 29"
-      },
-      {
-        "a": "https://s3.castbox.fm/4e/e5/8e/8ed06b454cb12e3713624dc64f.MP3",
-        "at": "2026-09-11T14:36:47Z",
-        "i": "https://s3.castbox.fm/7a/f4/9f/d8c806464984d51acf837c8de2.jpg",
-        "t": "چگونه AI Engineer شویم؟ - پوریا جهاندیده | EP 28"
-      },
-      {
-        "a": "https://s3.castbox.fm/81/cb/02/c3997a49fe858f66dc9e231f47.MP3",
-        "at": "2026-03-02T21:38:00Z",
-        "i": "https://s3.castbox.fm/c9/46/29/2e31f04b41b43fb1b5c4d5fe94.jpg",
-        "t": "چگونه گروه زر داده‌محور شد؟ تجربه واقعی پیاده‌سازی هوش تجاری (BI) در صنعت ایران - سجاد مفوض | EP 27"
-      },
-      {
-        "a": "https://s3.castbox.fm/fc/ef/da/0f165447ddb64a4ff5419ca12f.MP3",
-        "at": "2026-02-16T08:10:00Z",
-        "i": "https://s3.castbox.fm/60/c3/80/a8ff5440f7a16799ce767225ea.jpg",
-        "t": "کاربرد هوش مصنوعی (AI) در کسب‌وکارهای ایرانی با مدیر دیتای اسنپ کیچن - مجتبی پرستاری | EP 26"
-      },
-      {
-        "a": "https://s3.castbox.fm/1b/21/56/aa4d9549f58c3202fdbad5d1c9.MP3",
-        "at": "2026-01-05T10:37:19Z",
-        "i": "https://s3.castbox.fm/07/3a/e1/94237e44dc9f099188bfce4a60.jpg",
-        "t": "قسمت 26 - تحلیل کسب‌وکار چیست؟ - مجید موسوی"
-      },
-      {
-        "a": "https://s3.castbox.fm/5d/55/b0/29ab8c440abf2d21e8a504fba7.MP3",
-        "at": "2025-12-20T19:10:32Z",
-        "i": "https://s3.castbox.fm/07/4b/0a/1dc44143fba730b3072c849044.jpg",
-        "t": "قسمت 24: تجربه پیاده سازی هوش تجاری در گروه مپنا - رضا قاسمی"
-      },
-      {
-        "a": "https://s3.castbox.fm/34/5c/1d/9ce2d148d2a1659a927e588230.MP3",
-        "at": "2025-12-14T20:56:14Z",
-        "i": "https://s3.castbox.fm/39/c7/9b/7ced3645a282ca9082411ce805.jpg",
-        "t": "چالش‌های اخلاقی علوم داده و هوش مصنوعی - محمدجواد جعفری | قسمت 23"
-      },
-      {
-        "a": "https://s3.castbox.fm/a2/8a/c2/d628eb4a86bbbd89055108cfdf.MP3",
-        "at": "2025-12-08T05:00:00Z",
-        "i": "https://s3.castbox.fm/91/8b/99/18dde54285b34c2bc573cf726a.jpg",
-        "t": "قسمت 22 | مصاحبه با مسئول ارشد استخدام اسنپ؛ راهنمای کامل برای رزومه اولی‌ها - محمدرضا سمیعی"
-      }
-    ],
-    "recent": [
-      {
-        "at": "2026-11-06T11:08:14Z",
-        "i": "https://s3.castbox.fm/17/fb/48/4593f2445bbbe57be04cddeb27.jpg",
-        "link": "https://s3.castbox.fm/08/66/dd/fce1444d8bb66f2c038fe3eeb8.MP3",
-        "title": "چت با دیتابیس با AI | آینده‌ی دیتا آنالیست و BI | محمد خوبانی | EP 29"
-      },
-      {
-        "at": "2026-09-11T14:36:47Z",
-        "i": "https://s3.castbox.fm/7a/f4/9f/d8c806464984d51acf837c8de2.jpg",
-        "link": "https://s3.castbox.fm/4e/e5/8e/8ed06b454cb12e3713624dc64f.MP3",
-        "title": "چگونه AI Engineer شویم؟ - پوریا جهاندیده | EP 28"
-      },
-      {
-        "at": "2026-03-02T21:38:00Z",
-        "i": "https://s3.castbox.fm/c9/46/29/2e31f04b41b43fb1b5c4d5fe94.jpg",
-        "link": "https://s3.castbox.fm/81/cb/02/c3997a49fe858f66dc9e231f47.MP3",
-        "title": "چگونه گروه زر داده‌محور شد؟ تجربه واقعی پیاده‌سازی هوش تجاری (BI) در صنعت ایران - سجاد مفوض | EP 27"
-      }
-    ],
-    "recent_30d": [
-      4,
-      3,
-      0,
-      2,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      1
     ],
     "status": "active"
   },
