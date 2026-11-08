@@ -2861,8 +2861,8 @@
       0,
       0,
       0,
-      6,
-      36,
+      7,
+      35,
       23,
       12,
       8
@@ -3432,6 +3432,95 @@
         "at": "2020-01-15T03:32:14Z",
         "link": "https://s3.castbox.fm/e2/93/40/357c3f4153ab162b714f005a9e.mp3",
         "title": "دکتر هلاکویی -سی دی افسردگی - قسمت 30"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "stopped"
+  },
+  "aghaid-ik-dlghk": {
+    "avg_length": 34,
+    "episodes": 17,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-05-15",
+    "first_year": 1399,
+    "last": "1399/03/17",
+    "last_at": "2020-06-06T03:22:02Z",
+    "last_link": "https://s3.castbox.fm/71/ba/f3/90decd44b0b6d0f2fe964497c7.mp3",
+    "last_title": "17",
+    "max_length": 47,
+    "median_length": 37,
+    "min_length": 18,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/71/ba/f3/90decd44b0b6d0f2fe964497c7.mp3",
+        "at": "2020-06-06T03:22:02Z",
+        "t": "17"
+      },
+      {
+        "a": "https://s3.castbox.fm/58/18/b1/aa2edc447580a4c8fdddaccf97.mp3",
+        "at": "2020-06-05T04:14:54Z",
+        "t": "16"
+      },
+      {
+        "a": "https://s3.castbox.fm/5d/cf/9a/30dc2445e8b687f8223cc1708f.mp3",
+        "at": "2020-06-04T09:37:48Z",
+        "t": "15"
+      },
+      {
+        "a": "https://s3.castbox.fm/b0/bd/98/43db294154824d432eafdc3621.mp3",
+        "at": "2020-06-03T09:06:41Z",
+        "t": "14"
+      },
+      {
+        "a": "https://s3.castbox.fm/51/75/c2/e4bc584f358a6f9c4b1fc800a0.mp3",
+        "at": "2020-06-02T05:19:09Z",
+        "t": "13"
+      },
+      {
+        "a": "https://s3.castbox.fm/90/33/bc/b927044cb295e06b5e3232882b.mp3",
+        "at": "2020-06-01T02:33:12Z",
+        "t": "12"
+      },
+      {
+        "a": "https://s3.castbox.fm/4a/02/1f/ef49d1440ba40a8c6397749938.mp3",
+        "at": "2020-05-31T03:14:41Z",
+        "t": "11"
+      },
+      {
+        "a": "https://s3.castbox.fm/54/dd/26/0b95fb48fba17bfe31c87151e6.mp3",
+        "at": "2020-05-29T12:17:09Z",
+        "t": "10"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-06-06T03:22:02Z",
+        "link": "https://s3.castbox.fm/71/ba/f3/90decd44b0b6d0f2fe964497c7.mp3",
+        "title": "17"
+      },
+      {
+        "at": "2020-06-05T04:14:54Z",
+        "link": "https://s3.castbox.fm/58/18/b1/aa2edc447580a4c8fdddaccf97.mp3",
+        "title": "16"
+      },
+      {
+        "at": "2020-06-04T09:37:48Z",
+        "link": "https://s3.castbox.fm/5d/cf/9a/30dc2445e8b687f8223cc1708f.mp3",
+        "title": "15"
       }
     ],
     "recent_30d": [
@@ -4139,6 +4228,106 @@
       0,
       1,
       1
+    ],
+    "status": "active"
+  },
+  "ain-ghsh-mnh": {
+    "avg_length": 23,
+    "episodes": 17,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2022-03-03",
+    "first_year": 1400,
+    "last": "1404/01/15",
+    "last_at": "2025-04-04T15:00:00Z",
+    "last_link": "https://www.buzzsprout.com/1950123/episodes/16917342-.mp3",
+    "last_title": "بابا توی کل عمرش زندگی‌کردن را به من یاد داد",
+    "max_length": 36,
+    "median_length": 22,
+    "min_length": 13,
+    "play": [
+      {
+        "a": "https://www.buzzsprout.com/1950123/episodes/16917342-.mp3",
+        "at": "2025-04-04T15:00:00Z",
+        "i": "https://storage.buzzsprout.com/pz2qkxuvzt9c5ddudc5e768dj66d?.jpg",
+        "t": "بابا توی کل عمرش زندگی‌کردن را به من یاد داد"
+      },
+      {
+        "a": "https://www.buzzsprout.com/1950123/episodes/14657855-.mp3",
+        "at": "2024-03-09T17:00:00Z",
+        "i": "https://storage.buzzsprout.com/n7tycr7vzgul7uywb6tdrd9j9s5b?.jpg",
+        "t": "کمردردی که بیدارم کرد"
+      },
+      {
+        "a": "https://www.buzzsprout.com/1950123/episodes/13353187-.mp3",
+        "at": "2023-08-05T12:00:00Z",
+        "i": "https://storage.buzzsprout.com/dtxd0la8yvofxyg7oeel5wiul96o?.jpg",
+        "t": "هیچ زبانی مثل زبان مادری با قلب آدم حرف نمی‌زند"
+      },
+      {
+        "a": "https://www.buzzsprout.com/1950123/episodes/11947652-.mp3",
+        "at": "2022-12-29T16:00:00Z",
+        "i": "https://storage.buzzsprout.com/bqkwhmmuoazm9j2y8oo6hmpllzx3?.jpg",
+        "t": "روایت یک اعدام"
+      },
+      {
+        "a": "https://www.buzzsprout.com/1950123/episodes/11166810-.mp3",
+        "at": "2022-09-02T11:00:00Z",
+        "i": "https://storage.buzzsprout.com/onizjywo67p9y9mdedd30590o4t4?.jpg",
+        "t": "این قصه منه چطور متولد شد؟ (قسمت ویژه)"
+      },
+      {
+        "a": "https://www.buzzsprout.com/1950123/episodes/10939426-.mp3",
+        "at": "2022-08-19T11:00:00Z",
+        "i": "https://storage.buzzsprout.com/7ryqpfu7xkdds2pwofku8rdrgxp7?.jpg",
+        "t": "چرا ایتالیایی یاد گرفتم (نیمهٔ دوم)"
+      },
+      {
+        "a": "https://www.buzzsprout.com/1950123/episodes/10939407-.mp3",
+        "at": "2022-08-05T11:00:00Z",
+        "i": "https://storage.buzzsprout.com/pttlqi8if2dwzub9y6mpx3pu4qc5?.jpg",
+        "t": "چرا ایتالیایی یاد گرفتم (نیمهٔ اول)"
+      },
+      {
+        "a": "https://www.buzzsprout.com/1950123/episodes/10702354-.mp3",
+        "at": "2022-07-22T11:00:00Z",
+        "i": "https://storage.buzzsprout.com/zejpp72wzwk1ty2n9q44sntr2tty?.jpg",
+        "t": "نوشتن برایم طاقت‌فرساست اما نمی‌خواهم داستانم ناگفته بماند"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-04-04T15:00:00Z",
+        "i": "https://storage.buzzsprout.com/pz2qkxuvzt9c5ddudc5e768dj66d?.jpg",
+        "link": "https://www.buzzsprout.com/1950123/episodes/16917342-.mp3",
+        "title": "بابا توی کل عمرش زندگی‌کردن را به من یاد داد"
+      },
+      {
+        "at": "2024-03-09T17:00:00Z",
+        "i": "https://storage.buzzsprout.com/n7tycr7vzgul7uywb6tdrd9j9s5b?.jpg",
+        "link": "https://www.buzzsprout.com/1950123/episodes/14657855-.mp3",
+        "title": "کمردردی که بیدارم کرد"
+      },
+      {
+        "at": "2023-08-05T12:00:00Z",
+        "i": "https://storage.buzzsprout.com/dtxd0la8yvofxyg7oeel5wiul96o?.jpg",
+        "link": "https://www.buzzsprout.com/1950123/episodes/13353187-.mp3",
+        "title": "هیچ زبانی مثل زبان مادری با قلب آدم حرف نمی‌زند"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "status": "active"
   },
@@ -11050,6 +11239,106 @@
       0
     ],
     "status": "stopped"
+  },
+  "chkidh-ai-az-shahnamh-bzm-o-rzm-rstm": {
+    "avg_length": 36,
+    "episodes": 17,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-04-09",
+    "first_year": 1399,
+    "last": "1402/02/19",
+    "last_at": "2023-05-09T13:29:41Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/FriendsOfShahnameh/episodes/ep-e23oqr2",
+    "last_title": "اباذر با داستان بهرام گودرز در شاهنامه",
+    "max_length": 104,
+    "median_length": 24,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/1a6950e0/podcast/play/70068514/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F1a6950e0%2F70068514%2F09df00969a1903ed35e92f796cfbcde9.m4a",
+        "at": "2023-05-09T13:29:41Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/4331096/4331096-1683638683263-c5fbd549f4157.jpg",
+        "t": "اباذر با داستان بهرام گودرز در شاهنامه"
+      },
+      {
+        "a": "https://anchor.fm/s/1a6950e0/podcast/play/69673523/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2023-4-2%2F327268675-44100-1-2f789761cfade.mp3",
+        "at": "2023-05-02T16:50:11Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/4331096/4331096-1683046206173-93a0c3600e8e1.jpg",
+        "t": "زنان و عشق در شاهنامه. دکتر ثریا فیلی به مناسبت سیزدهمین بزرگداشت فردوسی در منچستر. ۲۰۲۳"
+      },
+      {
+        "a": "https://anchor.fm/s/1a6950e0/podcast/play/69673030/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2023-4-2%2F327268135-44100-1-98748fc22d2c.mp3",
+        "at": "2023-05-02T16:43:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/4331096/4331096-1683045727285-7073d2e1d9f4a.jpg",
+        "t": "Women and Love in Shahnameh, by Soraya Feili"
+      },
+      {
+        "a": "https://anchor.fm/s/1a6950e0/podcast/play/51411260/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F1a6950e0%2F51411260%2F78db68d4b0e4936e429d411af3abd50d.m4a",
+        "at": "2022-05-07T16:03:11Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/4331096/4331096-1651515443983-7cd343afe3c3d.jpg",
+        "t": "شادی‌گرایی در شاهنامه، دکتر ثریا فیلی"
+      },
+      {
+        "a": "https://anchor.fm/s/1a6950e0/podcast/play/51288008/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-3-29%2F262579061-44100-2-ba5e2ffdfaa5e.m4a",
+        "at": "2022-04-29T16:45:03Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/4331096/4331096-1651250473029-2779cf8bc6607.jpg",
+        "t": "زبان اسطوره"
+      },
+      {
+        "a": "https://anchor.fm/s/1a6950e0/podcast/play/46157069/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-14%2F242409452-44100-2-60d7428c11f71.m4a",
+        "at": "2022-01-14T18:11:58Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/4331096/4331096-1642183542382-46d867561d361.jpg",
+        "t": "مثبت‌اندیشی در شاهنامه، رزم رستم و اشکبوس"
+      },
+      {
+        "a": "https://anchor.fm/s/1a6950e0/podcast/play/45869044/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2022-0-8%2F241391792-44100-2-fe3823034c85d.mp3",
+        "at": "2022-01-08T19:04:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/4331096/4331096-1641668445050-9e7b5f744efee.jpg",
+        "t": "Radio Reform Interview about jarofwords.com"
+      },
+      {
+        "a": "https://anchor.fm/s/1a6950e0/podcast/play/33466714/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-14%2F186208749-44100-2-9df3154429978.m4a",
+        "at": "2021-05-14T06:56:05Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/4331096/4331096-1620975305950-099d8ad4d474.jpg",
+        "t": "گیو و بیژن به روایت دکتر شهیره شریف"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-05-09T13:29:41Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/4331096/4331096-1683638683263-c5fbd549f4157.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/FriendsOfShahnameh/episodes/ep-e23oqr2",
+        "title": "اباذر با داستان بهرام گودرز در شاهنامه"
+      },
+      {
+        "at": "2023-05-02T16:50:11Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/4331096/4331096-1683046206173-93a0c3600e8e1.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/FriendsOfShahnameh/episodes/ep-e23cp3j",
+        "title": "زنان و عشق در شاهنامه. دکتر ثریا فیلی به مناسبت سیزدهمین بزرگداشت فردوسی در منچستر. ۲۰۲۳"
+      },
+      {
+        "at": "2023-05-02T16:43:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/4331096/4331096-1683045727285-7073d2e1d9f4a.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/FriendsOfShahnameh/episodes/Women-and-Love-in-Shahnameh--by-Soraya-Feili-e23cok6",
+        "title": "Women and Love in Shahnameh, by Soraya Feili"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
   },
   "chlsi-airani": {
     "avg_length": 53,
@@ -20123,6 +20412,95 @@
     ],
     "status": "active"
   },
+  "ghoanin-mraghbh-o-mraghbt": {
+    "avg_length": 4,
+    "episodes": 18,
+    "eps_365": 1,
+    "eps_90": 1,
+    "first_at": "2025-06-02",
+    "first_year": 1404,
+    "last": "1405/07/30",
+    "last_at": "2026-10-22T05:37:07Z",
+    "last_link": "https://shows.acast.com/daneshemoraghebe/episodes/6ad9a1041eb6e512e5969aa8",
+    "last_title": "بعضی جواب‌ها صدا ندارن",
+    "max_length": 9,
+    "median_length": 4,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/683d7d6a0d2b3bac3ef94d15/e/6ad9a1041eb6e512e5969aa8/media.mp3",
+        "at": "2026-10-22T05:37:07Z",
+        "t": "بعضی جواب‌ها صدا ندارن"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/683d7d6a0d2b3bac3ef94d15/e/689071beeb4229c91921b2ee/media.mp3",
+        "at": "2025-08-04T08:39:26Z",
+        "t": "مدیتیشن، اونجوری که هیچ‌کس یادت نداده…"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/683d7d6a0d2b3bac3ef94d15/e/688df8b2be8bca0ca2a740d0/media.mp3",
+        "at": "2025-08-02T11:38:26Z",
+        "t": "چرا همیشه یه چیزی کم داریم؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/683d7d6a0d2b3bac3ef94d15/e/688607662a38d6f5cb1f1a1d/media.mp3",
+        "at": "2025-07-27T11:03:02Z",
+        "t": "برگشت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/683d7d6a0d2b3bac3ef94d15/e/687029da2a19450763059972/media.mp3",
+        "at": "2025-07-10T21:00:09Z",
+        "t": "هدف"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/683d7d6a0d2b3bac3ef94d15/e/685e77dd081ac1df5d1f6350/media.mp3",
+        "at": "2025-06-27T10:52:12Z",
+        "t": "خشم یا زخم؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/683d7d6a0d2b3bac3ef94d15/e/685d84e0e36cea9c162116f5/media.mp3",
+        "at": "2025-06-26T17:35:27Z",
+        "t": "وقتی دیگه حتی نمی‌تونی توی چشمت نگاه کنی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/683d7d6a0d2b3bac3ef94d15/e/6857ff7bc1af62f0271c09c6/media.mp3",
+        "at": "2025-06-22T13:04:59Z",
+        "t": "تاب‌آوری در دل درد جمعی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-22T05:37:07Z",
+        "link": "https://shows.acast.com/daneshemoraghebe/episodes/6ad9a1041eb6e512e5969aa8",
+        "title": "بعضی جواب‌ها صدا ندارن"
+      },
+      {
+        "at": "2025-08-04T08:39:26Z",
+        "link": "https://shows.acast.com/daneshemoraghebe/episodes/689071beeb4229c91921b2ee",
+        "title": "مدیتیشن، اونجوری که هیچ‌کس یادت نداده…"
+      },
+      {
+        "at": "2025-08-02T11:38:26Z",
+        "link": "https://shows.acast.com/daneshemoraghebe/episodes/688df8b2be8bca0ca2a740d0",
+        "title": "چرا همیشه یه چیزی کم داریم؟"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "status": "active"
+  },
   "ghraan-farsi-trjmh-farsi-ghraan-krim-mani-ghraan": {
     "avg_length": 1,
     "episodes": 114,
@@ -23244,6 +23622,106 @@
     ],
     "status": "stopped"
   },
+  "hm-aaoaian-simrgh-hm-aaoaii-mnzomh-mntgh": {
+    "avg_length": 59,
+    "episodes": 18,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-04-18",
+    "first_year": 1403,
+    "last": "1403/06/22",
+    "last_at": "2024-09-12T02:16:56Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/-46344/episodes/--e2o9vta",
+    "last_title": "هم آوایان سیمرغ قسمت ۱۸- پایان",
+    "max_length": 128,
+    "median_length": 63,
+    "min_length": 24,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/f510a8c4/podcast/play/91602282/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-12%2F386209735-44100-2-15ae00c7f4cf9.mp3",
+        "at": "2024-09-12T02:16:56Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41015097/41015097-1726107399536-6294134b373b1.jpg",
+        "t": "هم آوایان سیمرغ قسمت ۱۸- پایان"
+      },
+      {
+        "a": "https://anchor.fm/s/f510a8c4/podcast/play/91602193/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-12%2F386209580-44100-2-76c5fb5cbed6f.mp3",
+        "at": "2024-09-12T02:10:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41015097/41015097-1726107042387-3f7dc091364ca.jpg",
+        "t": "۱۷- هم آوایان سیمرغ -در بیان وادی فقر و فنا"
+      },
+      {
+        "a": "https://anchor.fm/s/f510a8c4/podcast/play/90824776/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-24%2F385250846-44100-2-bfc9e016d410b.mp3",
+        "at": "2024-08-24T07:29:31Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41015097/41015097-1724484558904-2fad4003efa3d.jpg",
+        "t": "هم آوایان سیمرغ ۱۶-در بیان وادی ششم- حیرت Wadi-e-Hairat"
+      },
+      {
+        "a": "https://anchor.fm/s/f510a8c4/podcast/play/90824723/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-24%2F385250766-44100-2-e7abfb5d9c889.mp3",
+        "at": "2024-08-24T07:27:01Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41015097/41015097-1724484359869-d6d11b4529c58.jpg",
+        "t": "هم آوایان سیمرغ ۱۵- در بیان وادی توحید. وادی پنجم"
+      },
+      {
+        "a": "https://anchor.fm/s/f510a8c4/podcast/play/89047284/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-10%2F382884709-44100-2-69f8786eee098.mp3",
+        "at": "2024-07-12T06:07:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41015097/41015097-1720591371203-e1c4e5b544473.jpg",
+        "t": "۱۴-وادی استغنا"
+      },
+      {
+        "a": "https://anchor.fm/s/f510a8c4/podcast/play/88634906/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-30%2F382017580-44100-2-311e5eab8303a.mp3",
+        "at": "2024-07-10T06:07:11Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41015097/41015097-1719714157013-de0aad824eb0c.jpg",
+        "t": "هم اوایان سیمرغ قسمت ۱۳در بیان وادی معرفت."
+      },
+      {
+        "a": "https://anchor.fm/s/f510a8c4/podcast/play/88524833/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-27%2F381784187-44100-2-884e171ba2764.mp3",
+        "at": "2024-06-27T05:18:54Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41015097/41015097-1719465517478-1c1098c891e67.jpg",
+        "t": "هم اوایان سیمرغ قسمت ۱۲- -در بیان وادی عشق"
+      },
+      {
+        "a": "https://anchor.fm/s/f510a8c4/podcast/play/88249223/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-20%2F8a79043a-2617-fcce-f30f-a0f2d131f2c7.mp3",
+        "at": "2024-06-20T05:53:05Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41015097/41015097-1718862766186-56182f92da1cd.jpg",
+        "t": "هم اوایان سیمرغ قسمت ۱۱- وادی طلب"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-09-12T02:16:56Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41015097/41015097-1726107399536-6294134b373b1.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/-46344/episodes/--e2o9vta",
+        "title": "هم آوایان سیمرغ قسمت ۱۸- پایان"
+      },
+      {
+        "at": "2024-09-12T02:10:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41015097/41015097-1726107042387-3f7dc091364ca.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/-46344/episodes/-------e2o9vqh",
+        "title": "۱۷- هم آوایان سیمرغ -در بیان وادی فقر و فنا"
+      },
+      {
+        "at": "2024-08-24T07:29:31Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41015097/41015097-1724484558904-2fad4003efa3d.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/-46344/episodes/-------Wadi-e-Hairat-e2ni8k8",
+        "title": "هم آوایان سیمرغ ۱۶-در بیان وادی ششم- حیرت Wadi-e-Hairat"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "hmh-i-znan-shar-frogh": {
     "avg_gap_days": 0.0,
     "avg_length": 40,
@@ -26292,6 +26770,106 @@
         "at": "2025-04-12T00:30:05Z",
         "link": "https://podcasters.spotify.com/pod/show/dr-farhang-holakouee7/episodes/_-e31ecjt",
         "title": "جامعه سالم_ حقوق خانواده، مجازات و قانون جزا"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "jerz-padkst-mamari-jrz": {
+    "avg_length": 73,
+    "episodes": 17,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-12-15",
+    "first_year": 1400,
+    "last": "1402/12/10",
+    "last_at": "2024-02-29T12:30:00Z",
+    "last_link": "https://s3.castbox.fm/cb/fd/0d/7d3c9448c0bf7bb15402b38385.mp3",
+    "last_title": "JERZ 2-8 |  کارفرمای جهنمی",
+    "max_length": 100,
+    "median_length": 72,
+    "min_length": 47,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/cb/fd/0d/7d3c9448c0bf7bb15402b38385.mp3",
+        "at": "2024-02-29T12:30:00Z",
+        "i": "https://s3.castbox.fm/89/b3/d6/8c3f664cee99d86a8afca574d9.jpg",
+        "t": "JERZ 2-8 |  کارفرمای جهنمی"
+      },
+      {
+        "a": "https://s3.castbox.fm/10/d9/36/c7c8e84d3290e92a164363ed91.mp3",
+        "at": "2024-01-26T09:30:00Z",
+        "i": "https://s3.castbox.fm/93/de/aa/a5bcc3409185c30723a68095e8.jpg",
+        "t": "JERZ 2-7 |  هجرت"
+      },
+      {
+        "a": "https://s3.castbox.fm/d1/14/20/81e4f5439399d9b14acc3a5158.mp3",
+        "at": "2023-12-08T14:30:00Z",
+        "i": "https://s3.castbox.fm/ec/80/08/52df4c4fc4a47938dffc0148b9.jpg",
+        "t": "JERZ 2-6 |  ویلای امروز"
+      },
+      {
+        "a": "https://s3.castbox.fm/50/ca/84/ee56eb4b3685aff668fb9f5292.mp3",
+        "at": "2023-10-26T15:32:08Z",
+        "i": "https://s3.castbox.fm/48/23/4e/6bc2da4e31a4e82e2175ca9606.jpg",
+        "t": "JERZ 2-5 |  کپی کاری"
+      },
+      {
+        "a": "https://s3.castbox.fm/49/02/01/71f0a94be682ae6b022da7f682.mp3",
+        "at": "2023-09-18T17:51:39Z",
+        "i": "https://s3.castbox.fm/85/0d/44/d5c0f24d42bf90727a57248afa.jpg",
+        "t": "JERZ 2-4 | کنش نسل ها"
+      },
+      {
+        "a": "https://s3.castbox.fm/a5/1b/79/2e248347a9a8a06d53da29678a.mp3",
+        "at": "2023-08-05T16:00:52Z",
+        "i": "https://s3.castbox.fm/1c/73/17/67157f4de48310b11a3e88e53a.jpg",
+        "t": "JERZ 2-3 |  اقیانوس سرخ معماری"
+      },
+      {
+        "a": "https://s3.castbox.fm/48/9e/f8/1aec99467cbc6687157b608890.mp3",
+        "at": "2023-07-19T10:19:31Z",
+        "i": "https://s3.castbox.fm/33/75/7c/d3abca4738aeb16950da97ed1d.jpg",
+        "t": "JERZ 2-2 |  معمار مصنوعی 2"
+      },
+      {
+        "a": "https://s3.castbox.fm/c2/99/2e/4bd80944e7a67d24d9d9294cda.mp3",
+        "at": "2023-07-12T14:14:15Z",
+        "i": "https://s3.castbox.fm/49/22/bb/9fbe5544f39b918ae4f0d492d0.jpg",
+        "t": "JERZ 2-1 |  معمار مصنوعی 1"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-02-29T12:30:00Z",
+        "i": "https://s3.castbox.fm/89/b3/d6/8c3f664cee99d86a8afca574d9.jpg",
+        "link": "https://s3.castbox.fm/cb/fd/0d/7d3c9448c0bf7bb15402b38385.mp3",
+        "title": "JERZ 2-8 |  کارفرمای جهنمی"
+      },
+      {
+        "at": "2024-01-26T09:30:00Z",
+        "i": "https://s3.castbox.fm/93/de/aa/a5bcc3409185c30723a68095e8.jpg",
+        "link": "https://s3.castbox.fm/10/d9/36/c7c8e84d3290e92a164363ed91.mp3",
+        "title": "JERZ 2-7 |  هجرت"
+      },
+      {
+        "at": "2023-12-08T14:30:00Z",
+        "i": "https://s3.castbox.fm/ec/80/08/52df4c4fc4a47938dffc0148b9.jpg",
+        "link": "https://s3.castbox.fm/d1/14/20/81e4f5439399d9b14acc3a5158.mp3",
+        "title": "JERZ 2-6 |  ویلای امروز"
       }
     ],
     "recent_30d": [
@@ -32480,6 +33058,106 @@
     ],
     "status": "stopped"
   },
+  "ktab-glhai-jng-kaml-zhanr-hmasi-aashghanh-tarikhi": {
+    "avg_length": 19,
+    "episodes": 18,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2025-08-11",
+    "first_year": 1404,
+    "last": "1404/07/02",
+    "last_at": "2025-09-24T10:01:40Z",
+    "last_link": "https://vavkhan.com/book/2604/",
+    "last_title": "کتاب صوتی گلهای جنگ - فصل هجدهم",
+    "max_length": 40,
+    "median_length": 16,
+    "min_length": 9,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6899b8ba2c2bd3fa2a93c4be/e/68d3c185826776877cd73ddd/media.mp3",
+        "at": "2025-09-24T10:01:40Z",
+        "i": "https://assets.pippa.io/shows/6899b8ba2c2bd3fa2a93c4be/1758708065680-1febc6a0-747c-4a7d-b242-f779d45b80c9.jpeg",
+        "t": "کتاب صوتی گلهای جنگ - فصل هجدهم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6899b8ba2c2bd3fa2a93c4be/e/68d3c10e563e57ba4a4b532f/media.mp3",
+        "at": "2025-09-24T09:59:41Z",
+        "i": "https://assets.pippa.io/shows/6899b8ba2c2bd3fa2a93c4be/1758707952159-9c3159f5-a7dc-49c5-a01f-5b2236a1b3ed.jpeg",
+        "t": "کتاب صوتی گلهای جنگ - فصل هفدهم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6899b8ba2c2bd3fa2a93c4be/e/68cef739f5e00f6ca4aaf87c/media.mp3",
+        "at": "2025-09-20T18:49:19Z",
+        "i": "https://assets.pippa.io/shows/6899b8ba2c2bd3fa2a93c4be/1758394136853-7b155ae6-931e-4e4e-8779-1ec4d85e706d.jpeg",
+        "t": "کتاب صوتی گلهای جنگ - فصل شانزدهم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6899b8ba2c2bd3fa2a93c4be/e/68cef48288c516d26eaedd56/media.mp3",
+        "at": "2025-09-20T18:37:43Z",
+        "i": "https://assets.pippa.io/shows/6899b8ba2c2bd3fa2a93c4be/1758393210687-14cd9c35-3dba-441a-87db-ab55b4fa7032.jpeg",
+        "t": "کتاب صوتی گلهای جنگ - فصل پانزدهم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6899b8ba2c2bd3fa2a93c4be/e/68cd07b62368c9ec80cb6a3d/media.mp3",
+        "at": "2025-09-19T07:35:11Z",
+        "i": "https://assets.pippa.io/shows/6899b8ba2c2bd3fa2a93c4be/1758267284906-2dcaf7d0-72ce-4b72-97da-79922a98e1d6.jpeg",
+        "t": "کتاب صوتی گلهای جنگ - فصل چهاردهم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6899b8ba2c2bd3fa2a93c4be/e/68c9c3542c8045b9a281eda2/media.mp3",
+        "at": "2025-09-16T20:06:43Z",
+        "i": "https://assets.pippa.io/shows/6899b8ba2c2bd3fa2a93c4be/1758053057406-2cb508dc-ccb0-4789-94fb-ccd975d0540a.jpeg",
+        "t": "کتاب صوتی گلهای جنگ - فصل سیزدهم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6899b8ba2c2bd3fa2a93c4be/e/68c5265624c6e67e68fe728c/media.mp3",
+        "at": "2025-09-13T08:07:49Z",
+        "i": "https://assets.pippa.io/shows/6899b8ba2c2bd3fa2a93c4be/1757750664062-28a90b3f-d5df-4b93-a72f-215d13004e6e.jpeg",
+        "t": "کتاب صوتی گلهای جنگ - فصل دوازدهم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6899b8ba2c2bd3fa2a93c4be/e/68c5250424c6e67e68fe09bb/media.mp3",
+        "at": "2025-09-13T08:02:11Z",
+        "i": "https://assets.pippa.io/shows/6899b8ba2c2bd3fa2a93c4be/1757750499449-d986ecbd-a0f7-40c8-9b7c-3496e1e847e1.jpeg",
+        "t": "کتاب صوتی گلهای جنگ - فصل یازدهم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-09-24T10:01:40Z",
+        "i": "https://assets.pippa.io/shows/6899b8ba2c2bd3fa2a93c4be/1758708065680-1febc6a0-747c-4a7d-b242-f779d45b80c9.jpeg",
+        "link": "https://vavkhan.com/book/2604/",
+        "title": "کتاب صوتی گلهای جنگ - فصل هجدهم"
+      },
+      {
+        "at": "2025-09-24T09:59:41Z",
+        "i": "https://assets.pippa.io/shows/6899b8ba2c2bd3fa2a93c4be/1758707952159-9c3159f5-a7dc-49c5-a01f-5b2236a1b3ed.jpeg",
+        "link": "https://vavkhan.com/book/2604/",
+        "title": "کتاب صوتی گلهای جنگ - فصل هفدهم"
+      },
+      {
+        "at": "2025-09-20T18:49:19Z",
+        "i": "https://assets.pippa.io/shows/6899b8ba2c2bd3fa2a93c4be/1758394136853-7b155ae6-931e-4e4e-8779-1ec4d85e706d.jpeg",
+        "link": "https://vavkhan.com/book/2604/",
+        "title": "کتاب صوتی گلهای جنگ - فصل شانزدهم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "ktab-ha-o-andishh-ha": {
     "avg_length": 13,
     "episodes": 24,
@@ -37348,6 +38026,101 @@
     ],
     "status": "stopped"
   },
+  "mah-kst-mahcast": {
+    "avg_length": 27,
+    "episodes": 18,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2022-06-06",
+    "first_year": 1401,
+    "last": "1402/06/23",
+    "last_at": "2023-09-14T08:21:02Z",
+    "last_link": "https://shows.acast.com/mahcas/episodes/6502c0fc5e6fb3001100a2a1",
+    "last_title": "عقده ادیپ",
+    "max_length": 43,
+    "median_length": 26,
+    "min_length": 20,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/629dd92b6501a700123952a9/e/6502c0fc5e6fb3001100a2a1/media.mp3",
+        "at": "2023-09-14T08:21:02Z",
+        "i": "https://assets.pippa.io/shows/629dd92b6501a700123952a9/1694679123904-ec93f3c8ede51c72cd0ee2581d587cae.jpeg",
+        "t": "عقده ادیپ"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/629dd92b6501a700123952a9/e/64ad39d243ce3d0011a3ed8d/media.mp3",
+        "at": "2023-07-11T11:25:23Z",
+        "i": "https://assets.pippa.io/shows/629dd92b6501a700123952a9/1689073883577-ae0bedeb6ed865a4faca461354af07ab.jpeg",
+        "t": "از هر چیزی اندکی در ما باقی می ماند"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/629dd92b6501a700123952a9/e/648ac283d96a300011d079e7/media.mp3",
+        "at": "2023-06-15T07:49:22Z",
+        "i": "https://assets.pippa.io/shows/629dd92b6501a700123952a9/1686815199163-72bce5ec2459ac923fb0a623c2bbde2a.jpeg",
+        "t": "زندگی نامه ملانی کلین"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/629dd92b6501a700123952a9/e/6466065d0c37ff00113a53ad/media.mp3",
+        "at": "2023-05-24T14:36:08Z",
+        "t": "روش های درمانی یونگ"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/629dd92b6501a700123952a9/e/644244938711620011dcb5c6/media.mp3",
+        "at": "2023-04-21T08:08:51Z",
+        "t": "مراحل رشد شخصیت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/629dd92b6501a700123952a9/e/644243c5dcef5900111acc04/media.mp3",
+        "at": "2023-04-21T08:05:24Z",
+        "t": "تیپ های شخصیتی در نظریات یونگ"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/629dd92b6501a700123952a9/e/640c86987af9a20011331fa9/media.mp3",
+        "at": "2023-02-23T21:07:46Z",
+        "t": "درونگرایی و برونگرایی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/629dd92b6501a700123952a9/e/63f7a88a6c3fc00011a7ef93/media.mp3",
+        "at": "2023-02-23T18:14:57Z",
+        "t": "مفهوم نگرش"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-09-14T08:21:02Z",
+        "i": "https://assets.pippa.io/shows/629dd92b6501a700123952a9/1694679123904-ec93f3c8ede51c72cd0ee2581d587cae.jpeg",
+        "link": "https://shows.acast.com/mahcas/episodes/6502c0fc5e6fb3001100a2a1",
+        "title": "عقده ادیپ"
+      },
+      {
+        "at": "2023-07-11T11:25:23Z",
+        "i": "https://assets.pippa.io/shows/629dd92b6501a700123952a9/1689073883577-ae0bedeb6ed865a4faca461354af07ab.jpeg",
+        "link": "https://shows.acast.com/mahcas/episodes/64ad39d243ce3d0011a3ed8d",
+        "title": "از هر چیزی اندکی در ما باقی می ماند"
+      },
+      {
+        "at": "2023-06-15T07:49:22Z",
+        "i": "https://assets.pippa.io/shows/629dd92b6501a700123952a9/1686815199163-72bce5ec2459ac923fb0a623c2bbde2a.jpeg",
+        "link": "https://shows.acast.com/mahcas/episodes/648ac283d96a300011d079e7",
+        "title": "زندگی نامه ملانی کلین"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "maha": {
     "avg_length": 34,
     "episodes": 26,
@@ -39086,6 +39859,106 @@
       0
     ],
     "status": "active"
+  },
+  "mjlh-soti-nogam": {
+    "avg_length": 36,
+    "episodes": 18,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-02-08",
+    "first_year": 1397,
+    "last": "1398/12/04",
+    "last_at": "2020-02-23T13:42:13Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/novgam/episodes/ep-eb0u9g",
+    "last_title": "مجله صوتی نوگام قسمت بیستم",
+    "max_length": 48,
+    "median_length": 35,
+    "min_length": 18,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/8bcc0fc/podcast/play/10565360/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-1-23%2F51888538-44100-1-3a8d219117e34.mp3",
+        "at": "2020-02-23T13:42:13Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1365879/1365879-1582465341734-35230edc374eb.jpg",
+        "t": "مجله صوتی نوگام قسمت بیستم"
+      },
+      {
+        "a": "https://anchor.fm/s/8bcc0fc/podcast/play/10331145/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-1-12%2F48227956-44100-1-2e6547e6ec71a.mp3",
+        "at": "2020-02-12T11:00:34Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1365879/1365879-1581505242650-35ba2ae25d212.jpg",
+        "t": "مجله صوتی نوگام قسمت نوزدهم"
+      },
+      {
+        "a": "https://anchor.fm/s/8bcc0fc/podcast/play/9641446/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-0-12%2F43106584-44100-1-904da29cc190b.mp3",
+        "at": "2020-01-12T16:03:50Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1365879/1365879-1578845021422-70d4e7ec6cf6e.jpg",
+        "t": "مجله صوتی نوگام قسمت هفدهم"
+      },
+      {
+        "a": "https://anchor.fm/s/8bcc0fc/podcast/play/8849047/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-6%2F36907347-44100-1-60a778f65d77d.mp3",
+        "at": "2019-12-06T16:07:27Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1365879/1365879-1575648439597-450b1e0504acc.jpg",
+        "t": "مجله صوتی نوگام قسمت پانزدهم"
+      },
+      {
+        "a": "https://anchor.fm/s/8bcc0fc/podcast/play/8366805/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-11%2F33700246-44100-1-8b02762bf77c1.mp3",
+        "at": "2019-11-10T15:24:03Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1365879/1365879-1573399443669-7f03ae022739f.jpg",
+        "t": "مجله صوتی نوگام قسمت چهاردهم"
+      },
+      {
+        "a": "https://anchor.fm/s/8bcc0fc/podcast/play/8204269/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-4%2F32758096-44100-2-cc46230e47916.mp3",
+        "at": "2019-11-04T18:44:01Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1365879/1365879-1572893049696-b8f7b6d86aad3.jpg",
+        "t": "مجله صوتی نوگام قسمت سیزدهم"
+      },
+      {
+        "a": "https://anchor.fm/s/8bcc0fc/podcast/play/6287556/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-9-12%2F28125621-44100-2-58e83d1d7d2.mp3",
+        "at": "2019-10-12T11:01:57Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1365879/1365879-1570878125735-6c32a9a63c415.jpg",
+        "t": "مجله صوتی نوگام قسمت دوازدهم"
+      },
+      {
+        "a": "https://anchor.fm/s/8bcc0fc/podcast/play/4929634/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-8-28%2F25242204-48000-2-08483306e355c.mp3",
+        "at": "2019-09-28T16:55:05Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1365879/1365879-1569689710570-59da1758fb4b4.jpg",
+        "t": "مجله صوتی نوگام قسمت یازدهم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-02-23T13:42:13Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1365879/1365879-1582465341734-35230edc374eb.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/novgam/episodes/ep-eb0u9g",
+        "title": "مجله صوتی نوگام قسمت بیستم"
+      },
+      {
+        "at": "2020-02-12T11:00:34Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1365879/1365879-1581505242650-35ba2ae25d212.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/novgam/episodes/ep-eappi9",
+        "title": "مجله صوتی نوگام قسمت نوزدهم"
+      },
+      {
+        "at": "2020-01-12T16:03:50Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1365879/1365879-1578845021422-70d4e7ec6cf6e.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/novgam/episodes/ep-ea4o16",
+        "title": "مجله صوتی نوگام قسمت هفدهم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "stopped"
   },
   "mjmoah-bazi-hai-miras": {
     "avg_length": 84,
@@ -47762,6 +48635,107 @@
     ],
     "status": "stopped"
   },
+  "podcast-bazjo": {
+    "avg_gap_days": 7.0,
+    "avg_length": 42,
+    "episodes": 17,
+    "eps_365": 7,
+    "eps_90": 0,
+    "first_at": "2025-09-30",
+    "first_year": 1404,
+    "last": "1404/10/06",
+    "last_at": "2025-12-27T09:42:13Z",
+    "last_link": "https://shows.acast.com/bazjoo-podcast/episodes/devils-cinema-3",
+    "last_title": "سینمای شیطان ۳ - خاطرات مکتوب!",
+    "max_length": 62,
+    "median_length": 43,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68da5ff22552b72c2010494d/e/694fa9f56d80a931eb4a2ce3/media.mp3",
+        "at": "2025-12-27T09:42:13Z",
+        "i": "https://assets.pippa.io/shows/68da5ff22552b72c2010494d/1766828289772-03edf8b1-f369-4693-af66-7a954c903419.jpeg",
+        "t": "سینمای شیطان ۳ - خاطرات مکتوب!"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68da5ff22552b72c2010494d/e/6945e2be921dd3db0b99fbc1/media.mp3",
+        "at": "2025-12-20T02:30:00Z",
+        "i": "https://assets.pippa.io/shows/68da5ff22552b72c2010494d/1766187482265-db59da8a-a441-4ea5-b0fd-c1f48f6a4621.jpeg",
+        "t": "سینمای شیطان ۲ - نزدیک بود!"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68da5ff22552b72c2010494d/e/693ce0412bda36b353829d42/media.mp3",
+        "at": "2025-12-13T03:40:48Z",
+        "i": "https://assets.pippa.io/shows/68da5ff22552b72c2010494d/1765596906431-64872a3f-6153-4ad8-8654-fe4c184167cf.jpeg",
+        "t": "سینمای شیطان ۱ - آن که فرار کرد"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68da5ff22552b72c2010494d/e/6933a5754a0500b757a083bc/media.mp3",
+        "at": "2025-12-06T03:39:33Z",
+        "i": "https://assets.pippa.io/shows/68da5ff22552b72c2010494d/1764992130570-48f17f33-d132-4f6d-9ee5-4b500b512b51.jpeg",
+        "t": "ملقب به توکیو جو ۲ - قانون سوم نیوتن"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68da5ff22552b72c2010494d/e/6929e919426af84c6d5a2a85/media.mp3",
+        "at": "2025-11-29T02:30:00Z",
+        "i": "https://assets.pippa.io/shows/68da5ff22552b72c2010494d/1764353164915-0eefc4db-fea9-421a-afb7-9b2233a3122f.jpeg",
+        "t": "ملقب به توکیو جو ۱ - سه گلوله"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68da5ff22552b72c2010494d/e/6921e4c600a96fa12b71af44/media.mp3",
+        "at": "2025-11-22T16:28:53Z",
+        "i": "https://assets.pippa.io/shows/68da5ff22552b72c2010494d/1763828623535-325055b0-54d3-4cc3-9c48-cf29f80a71d2.jpeg",
+        "t": "مهربانِ آدمکش"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68da5ff22552b72c2010494d/e/69179793243c8d88705f3b16/media.mp3",
+        "at": "2025-11-15T02:30:00Z",
+        "i": "https://assets.pippa.io/shows/68da5ff22552b72c2010494d/1763152879271-90079677-4b0b-4d7a-8cd7-11bc69ec821d.jpeg",
+        "t": "فرشتگان چارلی ۲ - دندان عفونی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68da5ff22552b72c2010494d/e/690e79f7a17ebcde889b66c8/media.mp3",
+        "at": "2025-11-08T02:30:00Z",
+        "i": "https://assets.pippa.io/shows/68da5ff22552b72c2010494d/1762579542880-25dd4189-7b26-441b-be34-e86a48d43762.jpeg",
+        "t": "فرشتگان چارلی ۱ - رشد عنکبوت"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-12-27T09:42:13Z",
+        "i": "https://assets.pippa.io/shows/68da5ff22552b72c2010494d/1766828289772-03edf8b1-f369-4693-af66-7a954c903419.jpeg",
+        "link": "https://shows.acast.com/bazjoo-podcast/episodes/devils-cinema-3",
+        "title": "سینمای شیطان ۳ - خاطرات مکتوب!"
+      },
+      {
+        "at": "2025-12-20T02:30:00Z",
+        "i": "https://assets.pippa.io/shows/68da5ff22552b72c2010494d/1766187482265-db59da8a-a441-4ea5-b0fd-c1f48f6a4621.jpeg",
+        "link": "https://shows.acast.com/bazjoo-podcast/episodes/devils-cinema-2",
+        "title": "سینمای شیطان ۲ - نزدیک بود!"
+      },
+      {
+        "at": "2025-12-13T03:40:48Z",
+        "i": "https://assets.pippa.io/shows/68da5ff22552b72c2010494d/1765596906431-64872a3f-6153-4ad8-8654-fe4c184167cf.jpeg",
+        "link": "https://shows.acast.com/bazjoo-podcast/episodes/devils-cinema-1",
+        "title": "سینمای شیطان ۱ - آن که فرار کرد"
+      }
+    ],
+    "recent_30d": [
+      5,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "podcast-bdon-tmbr-bdon-tarikh": {
     "avg_length": 13,
     "episodes": 104,
@@ -53400,6 +54374,106 @@
     ],
     "status": "active"
   },
+  "podcast-jdi": {
+    "avg_length": 6,
+    "episodes": 16,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2021-01-23",
+    "first_year": 1399,
+    "last": "1400/10/26",
+    "last_at": "2022-01-16T21:34:32Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/jeddi-podcasts/episodes/ep-e1d1jsp",
+    "last_title": "جدی هجدهم",
+    "max_length": 17,
+    "median_length": 5,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/48cb5bf4/podcast/play/46239065/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-16%2F67f6f489-2787-5082-f25f-d206ba33b3af.mp3",
+        "at": "2022-01-16T21:34:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo400/12112869/12112869-1642367416588-a07d127f1e7eb.jpg",
+        "t": "جدی هجدهم"
+      },
+      {
+        "a": "https://anchor.fm/s/48cb5bf4/podcast/play/26271835/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-1-5%2Fe5a7a0e6-9adc-5ab4-101f-c227a7a9f3b9.mp3",
+        "at": "2021-02-05T19:54:29Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/12112869/12112869-1612554877370-45bed547382a.jpg",
+        "t": "جدی هفدهم"
+      },
+      {
+        "a": "https://anchor.fm/s/48cb5bf4/podcast/play/25595386/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-23%2F2ba78d56-04d2-e89e-5fa1-c9ff49926d24.mp3",
+        "at": "2021-01-23T03:03:17Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/12112869/12112869-1611371005733-7529b74908a5d.jpg",
+        "t": "جدی شانزده"
+      },
+      {
+        "a": "https://anchor.fm/s/48cb5bf4/podcast/play/25595245/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-23%2Ff74bfcd2-6eca-39d3-2308-ff8658b1d80a.mp3",
+        "at": "2021-01-23T02:54:59Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/12112869/12112869-1611370507390-267cbde544cfe.jpg",
+        "t": "جدی پانزده"
+      },
+      {
+        "a": "https://anchor.fm/s/48cb5bf4/podcast/play/25595178/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-23%2Fc762ab28-42aa-a59d-1df6-91ee7c644afc.mp3",
+        "at": "2021-01-23T02:50:07Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/12112869/12112869-1611370215420-378fbc9a691b7.jpg",
+        "t": "جدی چهارده"
+      },
+      {
+        "a": "https://anchor.fm/s/48cb5bf4/podcast/play/25595005/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-23%2F390ac1c8-63dc-1408-cef2-35a81dae5218.mp3",
+        "at": "2021-01-23T02:47:25Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/12112869/12112869-1611370053603-a760610aeba59.jpg",
+        "t": "جدی سیزده"
+      },
+      {
+        "a": "https://anchor.fm/s/48cb5bf4/podcast/play/25594844/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-23%2F9a388961-3bde-835d-54b3-519b87855fac.mp3",
+        "at": "2021-01-23T02:39:44Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/12112869/12112869-1611369592353-aa7e844696ee3.jpg",
+        "t": "جدی دوازده"
+      },
+      {
+        "a": "https://anchor.fm/s/48cb5bf4/podcast/play/25594728/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-0-23%2Ffacadeb8-be20-1fc0-7231-c8da28f38e9d.mp3",
+        "at": "2021-01-23T02:33:52Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/12112869/12112869-1611369240220-f57b5c8a4c068.jpg",
+        "t": "جدی یازده"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-01-16T21:34:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo400/12112869/12112869-1642367416588-a07d127f1e7eb.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/jeddi-podcasts/episodes/ep-e1d1jsp",
+        "title": "جدی هجدهم"
+      },
+      {
+        "at": "2021-02-05T19:54:29Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/12112869/12112869-1612554877370-45bed547382a.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/jeddi-podcasts/episodes/ep-eq08kr",
+        "title": "جدی هفدهم"
+      },
+      {
+        "at": "2021-01-23T03:03:17Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/12112869/12112869-1611371005733-7529b74908a5d.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/jeddi-podcasts/episodes/ep-epbk1q",
+        "title": "جدی شانزده"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "stopped"
+  },
   "podcast-jnaii-khon": {
     "avg_gap_days": 20.1,
     "avg_length": 62,
@@ -56284,6 +57358,107 @@
       0
     ],
     "status": "stopped"
+  },
+  "podcast-nim-chasht": {
+    "avg_gap_days": 42.7,
+    "avg_length": 38,
+    "episodes": 23,
+    "eps_365": 8,
+    "eps_90": 3,
+    "first_at": "2025-03-05",
+    "first_year": 1403,
+    "last": "1405/06/27",
+    "last_at": "2026-09-18T13:30:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/nimchasht6/episodes/ep-e3p1hnf",
+    "last_title": "تاجر مرگ",
+    "max_length": 66,
+    "median_length": 38,
+    "min_length": 6,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/102281a4c/podcast/play/125928623/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-18%2F1aa3fbd2-ed5a-65a4-97fc-a0444e421d6f.mp3",
+        "at": "2026-09-18T13:30:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43211499/43211499-1789726349964-c8755526ef832.jpg",
+        "t": "تاجر مرگ"
+      },
+      {
+        "a": "https://anchor.fm/s/102281a4c/podcast/play/125147540/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-3%2Fb32000a2-a237-948c-3a69-c3fb78823329.mp3",
+        "at": "2026-09-03T13:30:01Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43211499/43211499-1788436992951-a7200e597b83e.jpg",
+        "t": "فریدا کالو"
+      },
+      {
+        "a": "https://anchor.fm/s/102281a4c/podcast/play/124447635/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-19%2Fdda25c06-1799-01f1-2cf1-1b70b91a9770.mp3",
+        "at": "2026-08-19T17:30:52Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43211499/43211499-1787160246952-4d18e4e752fea.jpg",
+        "t": "نیکولا تسلا"
+      },
+      {
+        "a": "https://anchor.fm/s/102281a4c/podcast/play/123866837/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-6%2F77b95d33-e9c1-b2ab-b168-c761fcb68baa.mp3",
+        "at": "2026-08-06T16:42:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43211499/43211499-1786034232025-c4a51687390a2.jpg",
+        "t": "پرنسس دایانا"
+      },
+      {
+        "a": "https://anchor.fm/s/102281a4c/podcast/play/122595405/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-9%2F7bfb049d-18ee-2e60-605a-076aceedf904.mp3",
+        "at": "2026-07-09T14:30:01Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43211499/43211499-1783589273638-df54c58a5bbc5.jpg",
+        "t": "بین دو نیمه"
+      },
+      {
+        "a": "https://anchor.fm/s/102281a4c/podcast/play/122403801/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-7%2Fc7029cac-503b-375e-715a-91878eed0567.mp3",
+        "at": "2026-07-07T09:18:06Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43211499/43211499-1783244222498-ac4082922781.jpg",
+        "t": "فصل دوم | پیشگفتار"
+      },
+      {
+        "a": "https://anchor.fm/s/102281a4c/podcast/play/112943330/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-21%2F866e8fbd-a249-8a8c-6cde-958767357221.mp3",
+        "at": "2025-12-21T15:10:29Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43211499/43211499-1766329694151-2ff905afaed62.jpg",
+        "t": "عکاسی"
+      },
+      {
+        "a": "https://anchor.fm/s/102281a4c/podcast/play/111580844/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-23%2Ff1cb6fbc-113b-cb1e-9d91-3c1d09825574.mp3",
+        "at": "2025-11-23T11:41:53Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43211499/43211499-1763897920796-9ce4c84475089.jpg",
+        "t": "روابط سمی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-18T13:30:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43211499/43211499-1789726349964-c8755526ef832.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/nimchasht6/episodes/ep-e3p1hnf",
+        "title": "تاجر مرگ"
+      },
+      {
+        "at": "2026-09-03T13:30:01Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43211499/43211499-1788436992951-a7200e597b83e.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/nimchasht6/episodes/ep-e3o9muk",
+        "title": "فریدا کالو"
+      },
+      {
+        "at": "2026-08-19T17:30:52Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43211499/43211499-1787160246952-4d18e4e752fea.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/nimchasht6/episodes/ep-e3nkbej",
+        "title": "نیکولا تسلا"
+      }
+    ],
+    "recent_30d": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      2,
+      1,
+      0
+    ],
+    "status": "active"
   },
   "podcast-orzshi-gaiton-hal-guyton-hall": {
     "avg_gap_days": 15.2,
@@ -66994,6 +68169,106 @@
     ],
     "status": "active"
   },
+  "rdram": {
+    "avg_length": 37,
+    "episodes": 17,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2018-04-07",
+    "first_year": 1397,
+    "last": "1401/11/03",
+    "last_at": "2023-01-23T05:37:59Z",
+    "last_link": "https://shenoto.com/album/podcast/164617/آندری چیکاتیلو - قصاب روستوف",
+    "last_title": "آندری چیکاتیلو - قصاب روستوف",
+    "max_length": 63,
+    "median_length": 37,
+    "min_length": 22,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/18e88ae1-9ae0-11ed-9944-0242ac160003.mp3",
+        "at": "2023-01-23T05:37:59Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/8eb179f4-21cf-4cea-9a0e-806ce2754774/cover/3000.jpg",
+        "t": "آندری چیکاتیلو - قصاب روستوف"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/24fec423-212f-11ed-8dc8-0242ac130003.mp3",
+        "at": "2022-08-21T08:56:28Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/97767dc7-4192-4d89-9ea7-c765cfbceb6c/cover/3000.jpg",
+        "t": "غلامرضا خوشرو - خفاش شب"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/9967bbbd-f223-11ec-92c2-0242ac130005.mp3",
+        "at": "2022-06-22T12:05:25Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/e22b12cf-2172-4ab6-9929-5ce6fa312b7c/cover/3000.jpg",
+        "t": "جفری دامر - هیولای آدمخوار"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/1466e673-e17e-11ec-92c2-0242ac130005.mp3",
+        "at": "2022-06-01T07:40:16Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/ffde985c-0693-4ccf-a670-42d1d501995e/cover/3000.jpg",
+        "t": "ریچارد رامیرز - قاتل شبگرد"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/60d96122-a539-11ec-883b-0242ac130005.mp3",
+        "at": "2022-03-16T14:57:19Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/e927e9d1-28bc-4c3d-9e98-47e8a30c5fb4/cover/3000.jpg",
+        "t": "مری بل - پرتره یک قاتل 11 ساله"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/ad268d95-7eb6-11ec-824c-0242ac130005.mp3",
+        "at": "2022-01-26T14:45:59Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/cc68fa06-cff1-40a0-8073-7d8fe491d91c/cover/3000.jpg",
+        "t": "فلورنسیو فرناندز - خون آشام آرژانتین"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/8c48c15e-60f0-11ec-88ff-0242ac120006.mp3",
+        "at": "2021-12-19T17:24:40Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/ca657e96-97f7-4512-9e03-d655e9646188/cover/3000.jpg",
+        "t": "پدرو لوپز - هیولای کوه های آند"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/5a94265d-3cae-11ec-9ecf-0242ac120005.mp3",
+        "at": "2021-11-03T14:00:08Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/c9531216-cc54-421b-8a6e-bcbcc5fa97ae/cover/3000.jpg",
+        "t": "جان وین گیسی - دلقک قاتل"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-01-23T05:37:59Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/8eb179f4-21cf-4cea-9a0e-806ce2754774/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/164617/آندری چیکاتیلو - قصاب روستوف",
+        "title": "آندری چیکاتیلو - قصاب روستوف"
+      },
+      {
+        "at": "2022-08-21T08:56:28Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/97767dc7-4192-4d89-9ea7-c765cfbceb6c/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/71111/غلامرضا خوشرو - خفاش شب",
+        "title": "غلامرضا خوشرو - خفاش شب"
+      },
+      {
+        "at": "2022-06-22T12:05:25Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/e22b12cf-2172-4ab6-9929-5ce6fa312b7c/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/69508/جفری دامر - هیولای آدمخوار",
+        "title": "جفری دامر - هیولای آدمخوار"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "rhbri-droni": {
     "avg_gap_days": 10.6,
     "avg_length": 25,
@@ -67385,6 +68660,106 @@
       0
     ],
     "status": "inactive"
+  },
+  "roabt-aatfi": {
+    "avg_length": 39,
+    "episodes": 18,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-01-05",
+    "first_year": 1398,
+    "last": "1398/10/15",
+    "last_at": "2020-01-05T19:42:58Z",
+    "last_link": "https://s3.castbox.fm/ef/a4/e9/31c3634a4a8f1673fbf12ba52e.mp3",
+    "last_title": "سبک زندگی عاشقانه و موفق",
+    "max_length": 171,
+    "median_length": 30,
+    "min_length": 8,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/ef/a4/e9/31c3634a4a8f1673fbf12ba52e.mp3",
+        "at": "2020-01-05T19:42:58Z",
+        "i": "https://s3.castbox.fm/06/9b/60/ba5485408f835e162a63cebf0c.jpg",
+        "t": "سبک زندگی عاشقانه و موفق"
+      },
+      {
+        "a": "https://s3.castbox.fm/bc/2b/40/bcb925481abd128d70e217f018.mp3",
+        "at": "2020-01-05T19:42:01Z",
+        "i": "https://s3.castbox.fm/06/9b/60/ba5485408f835e162a63cebf0c.jpg",
+        "t": "نشانه های یک رابطه عاشقانه و مسیرعشق"
+      },
+      {
+        "a": "https://s3.castbox.fm/b5/44/7a/0c9b584eac894019e965b9e68d.mp3",
+        "at": "2020-01-05T19:41:30Z",
+        "i": "https://s3.castbox.fm/06/9b/60/ba5485408f835e162a63cebf0c.jpg",
+        "t": "مهمترین مساله در ازدواج"
+      },
+      {
+        "a": "https://s3.castbox.fm/c6/2d/b0/86cb6f46dba5ce2b0b91eb7b59.mp3",
+        "at": "2020-01-05T19:40:58Z",
+        "i": "https://s3.castbox.fm/06/9b/60/ba5485408f835e162a63cebf0c.jpg",
+        "t": "لازمه یک ازدواج موفق چیست؟"
+      },
+      {
+        "a": "https://s3.castbox.fm/c4/ed/3b/ad5f6b41d488f6ae6d1471a423.mp3",
+        "at": "2020-01-05T19:40:15Z",
+        "i": "https://s3.castbox.fm/06/9b/60/ba5485408f835e162a63cebf0c.jpg",
+        "t": "عشق رابطه ازدواج"
+      },
+      {
+        "a": "https://s3.castbox.fm/17/bb/cb/863e7f4291b4c8d6f9c4644cf3.mp3",
+        "at": "2020-01-05T19:39:37Z",
+        "i": "https://s3.castbox.fm/06/9b/60/ba5485408f835e162a63cebf0c.jpg",
+        "t": "عشق پاینده عوامل یک ازدواج موفق"
+      },
+      {
+        "a": "https://s3.castbox.fm/80/9f/2a/3c93764f28bf4963c854ac17a4.mp3",
+        "at": "2020-01-05T19:38:20Z",
+        "i": "https://s3.castbox.fm/06/9b/60/ba5485408f835e162a63cebf0c.jpg",
+        "t": "زنان موفق، روابط ناموفق"
+      },
+      {
+        "a": "https://s3.castbox.fm/cf/a9/86/ca2c56402c8f2c963c24c372a0.mp3",
+        "at": "2020-01-05T19:37:48Z",
+        "i": "https://s3.castbox.fm/06/9b/60/ba5485408f835e162a63cebf0c.jpg",
+        "t": "روابط زناشویی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-01-05T19:42:58Z",
+        "i": "https://s3.castbox.fm/06/9b/60/ba5485408f835e162a63cebf0c.jpg",
+        "link": "https://s3.castbox.fm/ef/a4/e9/31c3634a4a8f1673fbf12ba52e.mp3",
+        "title": "سبک زندگی عاشقانه و موفق"
+      },
+      {
+        "at": "2020-01-05T19:42:01Z",
+        "i": "https://s3.castbox.fm/06/9b/60/ba5485408f835e162a63cebf0c.jpg",
+        "link": "https://s3.castbox.fm/bc/2b/40/bcb925481abd128d70e217f018.mp3",
+        "title": "نشانه های یک رابطه عاشقانه و مسیرعشق"
+      },
+      {
+        "at": "2020-01-05T19:41:30Z",
+        "i": "https://s3.castbox.fm/06/9b/60/ba5485408f835e162a63cebf0c.jpg",
+        "link": "https://s3.castbox.fm/b5/44/7a/0c9b584eac894019e965b9e68d.mp3",
+        "title": "مهمترین مساله در ازدواج"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "stopped"
   },
   "roait-bhmn": {
     "avg_length": 8,
@@ -73174,6 +74549,107 @@
       0,
       8,
       1,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "shb-ghsh-ghsh-ghsh": {
+    "avg_gap_days": 36.5,
+    "avg_length": 9,
+    "episodes": 17,
+    "eps_365": 7,
+    "eps_90": 0,
+    "first_at": "2025-08-23",
+    "first_year": 1404,
+    "last": "1405/04/08",
+    "last_at": "2026-06-29T17:53:09Z",
+    "last_link": "https://www.spreaker.com/episode/shngwl-w-mngwl-w-hbh-angwr--72744922",
+    "last_title": "شنگول و منگول و حبه انگور",
+    "max_length": 21,
+    "median_length": 6,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72744922/episode_72744922.mp3",
+        "at": "2026-06-29T17:53:09Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/03842629aca1b39a57d2d143624f211c.jpg",
+        "t": "شنگول و منگول و حبه انگور"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72593408/episode_72593408.mp3",
+        "at": "2026-06-19T04:45:31Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/67303d17a8c2bf537f0f92549e0a275b.jpg",
+        "t": "لاک پشت و خرگوش"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/70213253/episode_70213253.mp3",
+        "at": "2026-02-22T16:38:07Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ea67c916a6f20360f2b244e68cb93319.jpg",
+        "t": "گل بو و گل رو"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/69977408/episode_69977408.mp3",
+        "at": "2026-02-11T16:18:14Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/2bba6cfbd5dab7b77a1f58f913ea071b.jpg",
+        "t": "علاالدین و غول چراغ جادو"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/69847845/hasaniyemayebarredasht.mp3",
+        "at": "2026-02-06T17:58:10Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/1b02cb3e067a45bf19ef06ce28129973.jpg",
+        "t": "حسنی ما یه بره داشت"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/69014726/episode_69014726.mp3",
+        "at": "2025-12-12T21:19:44Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3953cd2e96ec697672b5143ca192a2e1.jpg",
+        "t": "خرس و کوزه عسل"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/68685217/tin.mp3",
+        "at": "2025-11-21T21:26:48Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/15586fa25cb394b234e94b9eae4e77bb.jpg",
+        "t": "آنها باعث خجالت ما نشدند"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/68465309/episode_68465309.mp3",
+        "at": "2025-11-07T18:26:34Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/104b4c69221124b68b6a15bdc387088b.jpg",
+        "t": "هفت کلاغ سیاه"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-06-29T17:53:09Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/03842629aca1b39a57d2d143624f211c.jpg",
+        "link": "https://www.spreaker.com/episode/shngwl-w-mngwl-w-hbh-angwr--72744922",
+        "title": "شنگول و منگول و حبه انگور"
+      },
+      {
+        "at": "2026-06-19T04:45:31Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/67303d17a8c2bf537f0f92549e0a275b.jpg",
+        "link": "https://www.spreaker.com/episode/lak-psht-w-khrgwsh--72593408",
+        "title": "لاک پشت و خرگوش"
+      },
+      {
+        "at": "2026-02-22T16:38:07Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ea67c916a6f20360f2b244e68cb93319.jpg",
+        "link": "https://www.spreaker.com/episode/gl-bw-w-gl-rw--70213253",
+        "title": "گل بو و گل رو"
+      }
+    ],
+    "recent_30d": [
+      2,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
       0,
       0
     ],
