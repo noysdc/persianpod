@@ -3263,19 +3263,25 @@
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.6,
     "avg_length": 6,
-    "episodes": 30,
-    "eps_365": 30,
-    "eps_90": 30,
+    "episodes": 31,
+    "eps_365": 31,
+    "eps_90": 31,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T17:22:49Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
-    "last_title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)",
+    "last": "1405/08/17",
+    "last_at": "2026-11-08T19:19:10Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s16hr",
+    "last_title": "شاهنامه کودکانه | قسمت يازدهم | زالِ سپیدمو و سیمرغ",
     "max_length": 10,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/129062907/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2F5c8b76f0-c655-ca6e-8876-42cb05f9fe6f.mp3",
+        "at": "2026-11-08T19:19:10Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794165564454-33fb9aba08035.jpg",
+        "t": "شاهنامه کودکانه | قسمت يازدهم | زالِ سپیدمو و سیمرغ"
+      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/128781996/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fd0d322a2-b448-a8f5-1487-d65fbe8525cb.mp3",
         "at": "2026-11-04T17:22:49Z",
@@ -3317,15 +3323,15 @@
         "at": "2026-10-12T14:26:43Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1791815212678-0a7167b09a2bd.jpg",
         "t": "شاهنامه کودکانه |قسمت هشتم | سه پسر فریدون"
-      },
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/127334975/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-12%2F26a20cbe-27bf-caf3-2af7-b5e224c1fbf8.mp3",
-        "at": "2026-10-12T11:22:25Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1791804244385-b0917308b42b8.jpg",
-        "t": "کلیله‌ودمنه کودکانه | قسمت هشتم | پایان داستان"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-08T19:19:10Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794165564454-33fb9aba08035.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s16hr",
+        "title": "شاهنامه کودکانه | قسمت يازدهم | زالِ سپیدمو و سیمرغ"
+      },
       {
         "at": "2026-11-04T17:22:49Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
@@ -3337,12 +3343,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793559915422-eb9a246b41b18.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3ri9g1",
         "title": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت"
-      },
-      {
-        "at": "2026-10-30T12:49:40Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793364589985-916c09dd464d3.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rdlc5",
-        "title": "کلیله و دمنه کودکانه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
       }
     ],
     "recent_30d": [
@@ -3357,7 +3357,7 @@
       0,
       16,
       6,
-      8
+      9
     ],
     "status": "active"
   },
@@ -40666,8 +40666,8 @@
     "status": "active"
   },
   "mnaba-farsi-bit-koin": {
-    "avg_length": 41,
-    "episodes": 11,
+    "avg_length": 28,
+    "episodes": 8,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-09-14",
@@ -40676,8 +40676,8 @@
     "last_at": "2022-08-24T21:02:46Z",
     "last_link": "https://podcasters.spotify.com/pod/show/bitcoind-me/episodes/ep-e1mtbsq",
     "last_title": "۱۳. بیتکوین، حریم خصوصی، و آزادی",
-    "max_length": 82,
-    "median_length": 27,
+    "max_length": 59,
+    "median_length": 23,
     "min_length": 11,
     "play": [
       {
@@ -40716,16 +40716,16 @@
         "t": "۷. اهمیت قیمت‌ها در اقتصاد چیست و مداخله دولت در قیمت‌ها چه تبعاتی در پی دارد | پویا ناظران"
       },
       {
-        "a": "https://anchor.fm/s/6a28fc34/podcast/play/41068807/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-30%2F84d2c89b-e061-c1f6-32a5-17ee75f24990.mp3",
-        "at": "2021-10-31T05:00:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded400/17710709/17710709-1630697174133-083ea4bdfb86d.jpg",
-        "t": "۶. مقدمه‌ای بر مکتب اقتصادی اتریش، از منظر بیت‌کوین | گوینده: coinlet_hodler@"
-      },
-      {
         "a": "https://anchor.fm/s/6a28fc34/podcast/play/41068149/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-30%2F75332f43-cc05-d26b-e2b8-912858ed4a78.mp3",
         "at": "2021-10-17T14:49:12Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded400/17710709/17710709-1630697174133-083ea4bdfb86d.jpg",
         "t": "۵. آخرین روزهای ساتوشی | گوینده: Chap_dastt@"
+      },
+      {
+        "a": "https://anchor.fm/s/6a28fc34/podcast/play/40268098/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-14%2Fd0b9bd27-5a30-d023-d96b-a73217fcd3eb.mp3",
+        "at": "2021-09-14T13:00:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded400/17710709/17710709-1630697174133-083ea4bdfb86d.jpg",
+        "t": "۲. چرا بیت‌کوین یک طرح کلاه‌برداری پانزی نیست | گوینده: sedmedi@"
       }
     ],
     "recent": [
@@ -65526,8 +65526,8 @@
     "status": "active"
   },
   "radio-nmashom": {
-    "avg_length": 40,
-    "episodes": 730,
+    "avg_length": 41,
+    "episodes": 724,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2019-06-05",
@@ -65537,7 +65537,7 @@
     "last_link": "https://podcasters.spotify.com/pod/show/persianradio/episodes/ep-e2b1o4i",
     "last_title": "آزاده طباطبائی: استرس مثبت و منفی",
     "max_length": 149,
-    "median_length": 10,
+    "median_length": 9,
     "min_length": 1,
     "play": [
       {
@@ -66387,7 +66387,7 @@
       }
     ],
     "recent_30d": [
-      8,
+      7,
       13,
       12,
       12,
