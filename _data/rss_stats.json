@@ -73955,26 +73955,21 @@
     "status": "active"
   },
   "shar-farsi-ba-aamr-ghoanini": {
-    "avg_gap_days": 17.2,
+    "avg_gap_days": 16.3,
     "avg_length": 2,
-    "episodes": 102,
-    "eps_365": 22,
-    "eps_90": 2,
+    "episodes": 101,
+    "eps_365": 21,
+    "eps_90": 1,
     "first_at": "2025-07-13",
     "first_year": 1404,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T16:50:05Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/amer-ghavanini5/episodes/--e3s104v",
-    "last_title": "بالا تر از تو نیست - صائب",
+    "last": "1405/07/11",
+    "last_at": "2026-10-03T14:13:02Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/amer-ghavanini5/episodes/ep-e3pqfge",
+    "last_title": "در خانه غم بودن، مولانا",
     "max_length": 9,
     "median_length": 2,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/107345f64/podcast/play/129056351/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2Ff647f660-4cfa-cb73-9445-c0f1a690893c.m4a",
-        "at": "2026-11-08T16:50:05Z",
-        "t": "بالا تر از تو نیست - صائب"
-      },
       {
         "a": "https://anchor.fm/s/107345f64/podcast/play/126745550/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-3%2F73a543f5-cf53-8c41-778d-8a4e76332180.m4a",
         "at": "2026-10-03T14:13:02Z",
@@ -74009,14 +74004,14 @@
         "a": "https://anchor.fm/s/107345f64/podcast/play/115898655/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-23%2F418691325-44100-2-509d8d1f5e354.m4a",
         "at": "2026-02-23T23:32:17Z",
         "t": "سوگند، شهید بلخی"
+      },
+      {
+        "a": "https://anchor.fm/s/107345f64/podcast/play/115895043/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-23%2F418623424-44100-2-f40969ddfcf39.m4a",
+        "at": "2026-02-23T02:05:39Z",
+        "t": "شب، نیما یوشیج"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-08T16:50:05Z",
-        "link": "https://podcasters.spotify.com/pod/show/amer-ghavanini5/episodes/--e3s104v",
-        "title": "بالا تر از تو نیست - صائب"
-      },
       {
         "at": "2026-10-03T14:13:02Z",
         "link": "https://podcasters.spotify.com/pod/show/amer-ghavanini5/episodes/ep-e3pqfge",
@@ -74026,6 +74021,11 @@
         "at": "2026-03-30T23:49:59Z",
         "link": "https://podcasters.spotify.com/pod/show/amer-ghavanini5/episodes/ep-e3h6tpf",
         "title": "وطن، میرزاده عشقی"
+      },
+      {
+        "at": "2026-03-28T17:56:16Z",
+        "link": "https://podcasters.spotify.com/pod/show/amer-ghavanini5/episodes/ep-e3h3ln6",
+        "title": "با دل خونین لب خندان بیاور، حافظ"
       }
     ],
     "recent_30d": [
@@ -74040,7 +74040,7 @@
       0,
       0,
       1,
-      1
+      0
     ],
     "status": "active"
   },
