@@ -3830,19 +3830,25 @@
   "aghtsad-o-siast-jhani": {
     "avg_gap_days": 4.2,
     "avg_length": 18,
-    "episodes": 215,
-    "eps_365": 86,
-    "eps_90": 19,
+    "episodes": 216,
+    "eps_365": 87,
+    "eps_90": 20,
     "first_at": "2023-12-16",
     "first_year": 1402,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T17:00:00Z",
-    "last_link": "https://dotcast.org/p/ctka8bck/yf0x44atk5/",
-    "last_title": "جنگ با ایران، برگ برنده یا پاشنه آشیل ترامپ در انتخابات آمریکا؟",
+    "last": "1405/08/17",
+    "last_at": "2026-11-08T16:30:00Z",
+    "last_link": "https://dotcast.org/p/ctka8bck/t106aa9r3x/",
+    "last_title": "هوش مصنوعی می‌ماند، سرمایه‌گذاران ورشکست می‌شوند؟",
     "max_length": 72,
     "median_length": 21,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/ctka8bck/t106aa9r3x/2026-11-08-15-54-25.mp3",
+        "at": "2026-11-08T16:30:00Z",
+        "i": "https://feed.dotcast.org/e/ctka8bck/t106aa9r3x/2026-11-08-15-46-14.jpg",
+        "t": "هوش مصنوعی می‌ماند، سرمایه‌گذاران ورشکست می‌شوند؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/ctka8bck/yf0x44atk5/2026-11-03-16-26-14.mp3",
         "at": "2026-11-03T17:00:00Z",
@@ -3884,15 +3890,15 @@
         "at": "2026-10-10T16:30:00Z",
         "i": "https://feed.dotcast.org/e/ctka8bck/k5113rri43/2026-10-10-13-03-57.jpg",
         "t": "خاورمیانه بدون آمریکا؛ پایان یک نظم ۳۵ ساله"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/ctka8bck/xsgomty8t0/2026-10-07-14-24-12.mp3",
-        "at": "2026-10-07T16:30:00Z",
-        "i": "https://feed.dotcast.org/e/ctka8bck/xsgomty8t0/2026-10-07-14-16-01.jpg",
-        "t": "توهم بزرگ هوش مصنوعی؛ چرا بهره‌وری بیشتر ممکن است به ضرر انسان تمام شود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-08T16:30:00Z",
+        "i": "https://feed.dotcast.org/e/ctka8bck/t106aa9r3x/2026-11-08-15-46-14.jpg",
+        "link": "https://dotcast.org/p/ctka8bck/t106aa9r3x/",
+        "title": "هوش مصنوعی می‌ماند، سرمایه‌گذاران ورشکست می‌شوند؟"
+      },
       {
         "at": "2026-11-03T17:00:00Z",
         "i": "https://feed.dotcast.org/e/ctka8bck/yf0x44atk5/2026-11-03-16-40-21.jpg",
@@ -3904,27 +3910,21 @@
         "i": "https://feed.dotcast.org/e/ctka8bck/0326xref2e/2026-10-27-13-49-29.jpg",
         "link": "https://dotcast.org/p/ctka8bck/0326xref2e/",
         "title": "اعتراضات فرانسه فقط شروع ماجراست؛ اروپا به کدام سمت می‌رود؟"
-      },
-      {
-        "at": "2026-10-25T13:30:00Z",
-        "i": "https://feed.dotcast.org/e/ctka8bck/s9ezry24bt/2026-10-25-06-30-08.jpg",
-        "link": "https://dotcast.org/p/ctka8bck/s9ezry24bt/",
-        "title": "از ویتنام تا ایران؛ چرا قدرت نظامی همیشه تعیین‌کننده نتیجه جنگ نیست؟"
       }
     ],
     "recent_30d": [
-      18,
+      17,
       13,
-      9,
-      13,
+      10,
+      12,
       0,
       0,
       0,
-      3,
-      7,
+      4,
+      6,
       8,
       4,
-      7
+      8
     ],
     "status": "active"
   },
@@ -55080,8 +55080,8 @@
       3,
       1,
       0,
-      4,
-      2,
+      5,
+      1,
       0,
       12,
       0,
@@ -65707,8 +65707,8 @@
       0,
       0,
       0,
-      0,
-      11,
+      1,
+      10,
       9,
       8,
       0
@@ -78175,8 +78175,8 @@
       }
     ],
     "recent_30d": [
-      114,
-      103,
+      115,
+      102,
       44,
       64,
       0,
@@ -82120,10 +82120,10 @@
     "status": "stopped"
   },
   "zistn-ba-adbiat": {
-    "avg_gap_days": 11.5,
+    "avg_gap_days": 11.8,
     "avg_length": 16,
     "episodes": 46,
-    "eps_365": 26,
+    "eps_365": 25,
     "eps_90": 3,
     "first_at": "2025-08-05",
     "first_year": 1404,
