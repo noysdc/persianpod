@@ -3263,25 +3263,19 @@
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.6,
     "avg_length": 6,
-    "episodes": 31,
-    "eps_365": 31,
-    "eps_90": 31,
+    "episodes": 30,
+    "eps_365": 30,
+    "eps_90": 30,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T19:19:10Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s16hr",
-    "last_title": "شاهنامه کودکانه | قسمت يازدهم | زالِ سپیدمو و سیمرغ",
+    "last": "1405/08/13",
+    "last_at": "2026-11-04T17:22:49Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
+    "last_title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)",
     "max_length": 10,
     "median_length": 5,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/129062907/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2F5c8b76f0-c655-ca6e-8876-42cb05f9fe6f.mp3",
-        "at": "2026-11-08T19:19:10Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794165564454-33fb9aba08035.jpg",
-        "t": "شاهنامه کودکانه | قسمت يازدهم | زالِ سپیدمو و سیمرغ"
-      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/128781996/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fd0d322a2-b448-a8f5-1487-d65fbe8525cb.mp3",
         "at": "2026-11-04T17:22:49Z",
@@ -3323,15 +3317,15 @@
         "at": "2026-10-12T14:26:43Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1791815212678-0a7167b09a2bd.jpg",
         "t": "شاهنامه کودکانه |قسمت هشتم | سه پسر فریدون"
+      },
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/127334975/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-12%2F26a20cbe-27bf-caf3-2af7-b5e224c1fbf8.mp3",
+        "at": "2026-10-12T11:22:25Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1791804244385-b0917308b42b8.jpg",
+        "t": "کلیله‌ودمنه کودکانه | قسمت هشتم | پایان داستان"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-08T19:19:10Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794165564454-33fb9aba08035.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s16hr",
-        "title": "شاهنامه کودکانه | قسمت يازدهم | زالِ سپیدمو و سیمرغ"
-      },
       {
         "at": "2026-11-04T17:22:49Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
@@ -3343,6 +3337,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793559915422-eb9a246b41b18.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3ri9g1",
         "title": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت"
+      },
+      {
+        "at": "2026-10-30T12:49:40Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793364589985-916c09dd464d3.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rdlc5",
+        "title": "کلیله و دمنه کودکانه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
       }
     ],
     "recent_30d": [
@@ -3357,7 +3357,7 @@
       0,
       16,
       6,
-      9
+      8
     ],
     "status": "active"
   },
@@ -26491,8 +26491,8 @@
       }
     ],
     "recent_30d": [
-      36,
-      31,
+      37,
+      30,
       10,
       0,
       0,
@@ -27273,10 +27273,10 @@
     "status": "active"
   },
   "jnaii-khoani": {
-    "avg_gap_days": 6.5,
+    "avg_gap_days": 6.6,
     "avg_length": 34,
     "episodes": 100,
-    "eps_365": 46,
+    "eps_365": 45,
     "eps_90": 21,
     "first_at": "2025-02-22",
     "first_year": 1403,
@@ -61829,38 +61829,20 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.1,
-    "avg_length": 113,
-    "episodes": 81,
-    "eps_365": 81,
-    "eps_90": 81,
+    "avg_length": 115,
+    "episodes": 84,
+    "eps_365": 84,
+    "eps_90": 84,
     "first_at": "2026-11-01",
     "first_year": 1405,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T18:26:28Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Amini--Ali-Part-3-e3s14bb",
-    "last_title": "Amini, Ali Part 3",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T03:26:55Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nazih--Hassan-Part-5-e3ruape",
+    "last_title": "Nazih, Hassan Part 5",
     "max_length": 134,
-    "median_length": 117,
+    "median_length": 115,
     "min_length": 20,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129060651/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2Ff28b5af4-60c9-0888-a1c5-4e04c3d31cb6.mp3",
-        "at": "2026-11-08T18:26:28Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794162342057-24f69bef771a8.jpg",
-        "t": "Amini, Ali Part 3"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129060582/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2Fdfcf293c-52f2-1783-c2d1-1cfa0b59b4f4.mp3",
-        "at": "2026-11-08T18:25:17Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794162258782-0434e0338dd5c.jpg",
-        "t": "Amini, Ali Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129060508/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2Fa88f36df-cc9a-018c-d5d5-4464aa778e02.mp3",
-        "at": "2026-11-08T18:23:51Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794162158591-4de05b63b041d.jpg",
-        "t": "Amini, Ali Part 1"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/128968942/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F1c501fad-9b98-869e-63b4-68e4cae4fdad.mp3",
         "at": "2026-11-07T03:26:55Z",
@@ -61890,26 +61872,44 @@
         "at": "2026-11-07T03:20:24Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794021550611-7d1347fc786d5.jpg",
         "t": "Nazih, Hassan Part 1"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128964215/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F4e33b7e4-b5e8-0340-6441-89093d03f083.mp3",
+        "at": "2026-11-07T01:17:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794014160395-06dbc84071f93.jpg",
+        "t": "Foroughi, Mahmoud Part 4"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128964140/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F08d502d9-8a82-54e6-5592-481100008dae.mp3",
+        "at": "2026-11-07T01:15:02Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794014041317-07d34709c2ffc.jpg",
+        "t": "Foroughi, Mahmoud Part 3"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128964065/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F57a799f5-fc3e-1b0e-d642-4992dfe50f1b.mp3",
+        "at": "2026-11-07T01:13:02Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794013921336-ceea0553d6e1f.jpg",
+        "t": "Foroughi, Mahmoud Part 2"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-08T18:26:28Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794162342057-24f69bef771a8.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Amini--Ali-Part-3-e3s14bb",
-        "title": "Amini, Ali Part 3"
+        "at": "2026-11-07T03:26:55Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794021954874-14755fc9d34d.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nazih--Hassan-Part-5-e3ruape",
+        "title": "Nazih, Hassan Part 5"
       },
       {
-        "at": "2026-11-08T18:25:17Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794162258782-0434e0338dd5c.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Amini--Ali-Part-2-e3s1496",
-        "title": "Amini, Ali Part 2"
+        "at": "2026-11-07T03:25:21Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794021857746-21f4caa2ad6de.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nazih--Hassan-Part-4-e3ruana",
+        "title": "Nazih, Hassan Part 4"
       },
       {
-        "at": "2026-11-08T18:23:51Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794162158591-4de05b63b041d.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Amini--Ali-Part-1-e3s146s",
-        "title": "Amini, Ali Part 1"
+        "at": "2026-11-07T03:23:36Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794021769503-76bb2fb1be0c8.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nazih--Hassan-Part-3-e3rualh",
+        "title": "Nazih, Hassan Part 3"
       }
     ],
     "recent_30d": [
@@ -61924,7 +61924,7 @@
       0,
       0,
       0,
-      81
+      84
     ],
     "status": "active"
   },
