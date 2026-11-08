@@ -16965,8 +16965,8 @@
       8,
       5,
       3,
-      1,
-      1
+      2,
+      0
     ],
     "status": "active"
   },
@@ -24014,8 +24014,8 @@
   },
   "hmsfr": {
     "avg_gap_days": 35.3,
-    "avg_length": 60,
-    "episodes": 69,
+    "avg_length": 64,
+    "episodes": 65,
     "eps_365": 11,
     "eps_90": 5,
     "first_at": "2023-06-27",
@@ -24025,8 +24025,8 @@
     "last_link": "https://shows.acast.com/hamsafar/episodes/6ae87323d64a96f0f34bfec7",
     "last_title": "داستان پسری که در ۲۰ سالگی توانایی راه‌ رفتن رو از دست داد ولی …",
     "max_length": 104,
-    "median_length": 56,
-    "min_length": 3,
+    "median_length": 57,
+    "min_length": 7,
     "play": [
       {
         "a": "https://sphinx.acast.com/p/open/s/67371180ba4404855a74dd08/e/6ae87323d64a96f0f34bfec7/media.mp3",
