@@ -11724,7 +11724,7 @@
       }
     ],
     "recent_30d": [
-      2,
+      1,
       4,
       0,
       0,
@@ -20227,7 +20227,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 9,
     "episodes": 249,
-    "eps_365": 184,
+    "eps_365": 183,
     "eps_90": 0,
     "first_at": "2020-10-17",
     "first_year": 1399,
@@ -20301,7 +20301,7 @@
       30,
       24,
       33,
-      31,
+      30,
       28,
       16,
       9,
@@ -56577,9 +56577,9 @@
       1,
       0,
       8,
-      6,
+      7,
       3,
-      6,
+      5,
       8,
       6,
       9,
@@ -67069,7 +67069,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       4,
       4,
       3,
@@ -68544,19 +68544,25 @@
   "rozanh-hai-tndrsti": {
     "avg_gap_days": 1.0,
     "avg_length": 18,
-    "episodes": 24,
-    "eps_365": 24,
-    "eps_90": 24,
+    "episodes": 25,
+    "eps_365": 25,
+    "eps_90": 25,
     "first_at": "2026-10-14",
     "first_year": 1405,
-    "last": "1405/08/16",
-    "last_at": "2026-11-07T03:00:00Z",
-    "last_link": "https://rss.com/podcasts/salamati/3280779",
-    "last_title": "توقف تحلیل عضلات سالمندی: برتری تمرینات سرعتی و قدرتی روی صندلی",
+    "last": "1405/08/17",
+    "last_at": "2026-11-08T03:00:00Z",
+    "last_link": "https://rss.com/podcasts/salamati/3280786",
+    "last_title": "پیشگیری از زوال عقل با درمان کم‌شنوایی: نجات حافظه از فرسایش پنهان مغز",
     "max_length": 30,
     "median_length": 18,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://content.rss.com/episodes/406068/3280786/salamati/2026_10_30_17_26_55_4371a107-7150-45dc-a749-ca15616b698b.mp3",
+        "at": "2026-11-08T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261030_172640_40c4132698b49190ef7fe29772064557.jpg",
+        "t": "پیشگیری از زوال عقل با درمان کم‌شنوایی: نجات حافظه از فرسایش پنهان مغز"
+      },
       {
         "a": "https://content.rss.com/episodes/406068/3280779/salamati/2026_10_30_17_25_08_88158c1b-2fa1-48fe-8a44-8ac9979394f9.mp3",
         "at": "2026-11-07T03:00:00Z",
@@ -68598,15 +68604,15 @@
         "at": "2026-11-01T03:00:00Z",
         "i": "https://media.rss.com/salamati/ep_cover_20261030_171619_ddb89030886bd767b217108db180764e.jpg",
         "t": "راز پاکسازی سلول‌ها با روزه متناوب: معجزه اتوفاژی در سنین بالای ۵۰ سال"
-      },
-      {
-        "a": "https://content.rss.com/episodes/406068/3275063/salamati/2026_10_28_20_16_53_15b493a0-5838-48ec-9d8b-febcc72ba08e.mp3",
-        "at": "2026-10-31T03:00:00Z",
-        "i": "https://media.rss.com/salamati/ep_cover_20261028_201636_7e6b21844b34126bd905ad92d65c37ae.jpg",
-        "t": "راز جوانسازی بدن در باکتری‌های روده: معجزه میکروبیوم و فیبرهای پربیوتیک"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-08T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261030_172640_40c4132698b49190ef7fe29772064557.jpg",
+        "link": "https://rss.com/podcasts/salamati/3280786",
+        "title": "پیشگیری از زوال عقل با درمان کم‌شنوایی: نجات حافظه از فرسایش پنهان مغز"
+      },
       {
         "at": "2026-11-07T03:00:00Z",
         "i": "https://media.rss.com/salamati/ep_cover_20261030_172456_a552e1a8e774906d1bb599b76cf09a9b.jpg",
@@ -68618,12 +68624,6 @@
         "i": "https://media.rss.com/salamati/ep_cover_20261030_172328_0a4e11277992c555ef14f812743a9ad8.jpg",
         "link": "https://rss.com/podcasts/salamati/3280776",
         "title": "جوانی رگ‌ها با لبو و باکتری‌های دهان: معجزه نیتریک اکسید در مهار فشار خون"
-      },
-      {
-        "at": "2026-11-05T03:00:00Z",
-        "i": "https://media.rss.com/salamati/ep_cover_20261030_172136_89a8f0fc226f0495dd42813fedf1b5b2.jpg",
-        "link": "https://rss.com/podcasts/salamati/3280772",
-        "title": "آب چغندر و پیاده‌روی برای جوانسازی رگ‌ها: مهار سفتی شریان‌ها و پیشگیری از سکته"
       }
     ],
     "recent_30d": [
@@ -68638,7 +68638,7 @@
       0,
       0,
       0,
-      24
+      25
     ],
     "status": "active"
   },
