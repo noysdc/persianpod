@@ -1597,21 +1597,27 @@
     "status": "stopped"
   },
   "aamozsh-zban-anglisi": {
-    "avg_gap_days": 38.3,
-    "avg_length": 16,
-    "episodes": 15,
-    "eps_365": 10,
-    "eps_90": 3,
+    "avg_gap_days": 36.3,
+    "avg_length": 17,
+    "episodes": 16,
+    "eps_365": 11,
+    "eps_90": 4,
     "first_at": "2025-08-18",
     "first_year": 1404,
-    "last": "1405/07/28",
-    "last_at": "2026-10-20T19:22:33Z",
-    "last_link": "https://www.spreaker.com/episode/fun-facts--75885086",
-    "last_title": "Fun facts",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T18:52:00Z",
+    "last_link": "https://www.spreaker.com/episode/rahkarhay-tqwyt-anglysy--76239532",
+    "last_title": "راهکارهای تقویت انگلیسی",
     "max_length": 37,
-    "median_length": 15,
+    "median_length": 16,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76239532/episode.mp3",
+        "at": "2026-11-07T18:52:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/db9ef6b1ad5f37fc2341cdd806efd469.jpg",
+        "t": "راهکارهای تقویت انگلیسی"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75885086/episode.mp3",
         "at": "2026-10-20T19:22:33Z",
@@ -1653,15 +1659,15 @@
         "at": "2026-06-04T09:21:03Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/1db2c66ca1a3a68a4bc5705191a8a992.jpg",
         "t": "Tom Hardy's biography"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72993102/audio.mp3",
-        "at": "2025-12-21T06:42:07Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bf14778841ffe3842caa731400b3855d.jpg",
-        "t": "The clockmaker's secret"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-07T18:52:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/db9ef6b1ad5f37fc2341cdd806efd469.jpg",
+        "link": "https://www.spreaker.com/episode/rahkarhay-tqwyt-anglysy--76239532",
+        "title": "راهکارهای تقویت انگلیسی"
+      },
       {
         "at": "2026-10-20T19:22:33Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/2ad0949ab9cf6e5a3d15e13e96ecbad4.jpg",
@@ -1673,12 +1679,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/9a87695cf32889f0f48af5512e5bc029.jpg",
         "link": "https://www.spreaker.com/episode/vocabulary-prograstinate--75552093",
         "title": "Vocabulary: prograstinate"
-      },
-      {
-        "at": "2026-10-01T15:22:19Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/76b035d43cc7830caa16a8f9a88abdd1.jpg",
-        "link": "https://www.spreaker.com/episode/never-give-up--75485040",
-        "title": "Never give up"
       }
     ],
     "recent_30d": [
@@ -1693,7 +1693,7 @@
       1,
       0,
       2,
-      1
+      2
     ],
     "status": "active"
   },
@@ -18568,8 +18568,8 @@
       0,
       0,
       0,
-      11,
-      8,
+      12,
+      7,
       8
     ],
     "status": "active"
@@ -60223,8 +60223,8 @@
     ],
     "recent_30d": [
       4,
-      5,
-      4,
+      6,
+      3,
       5,
       4,
       0,
