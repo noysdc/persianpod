@@ -1,22 +1,25 @@
 ## گزارش تأیید و انتقال
 
-- منتقل‌شده از `_drafts/` به `_podcasts/`: **14**
+- منتقل‌شده از `_drafts/` به `_podcasts/`: **17**
 - ردشده (تکراری یا از قبل موجود): 0
-- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **180**
+- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **185**
 
 ### منتقل‌شده
-- `aakadmi-bad-pnjm-hmrah-ba-zrtsht.md`
-- `darma-motioishn.md`
-- `dastan-kafh-ha.md`
-- `hosh-mtn.md`
-- `inja-cinemast-ainja-sinmast.md`
-- `nghd-o-brrsi-froshgah-hai-kadoii.md`
-- `nsht-nsha-khoansh.md`
-- `podcast-jor-digr.md`
-- `podcast-ktibh.md`
-- `podcast-mghalat-mhrmndan.md`
-- `radio-shhr-mofghit.md`
-- `radio-tion.md`
-- `shahnameh-and-myth-shahnamh-o-astorh.md`
-- `tknonmashom.md`
+- `aghaid-ik-dlghk.md`
+- `ain-ghsh-mnh.md`
+- `bookafe-bokafh.md`
+- `chkidh-ai-az-shahnamh-bzm-o-rzm-rstm.md`
+- `ghoanin-mraghbh-o-mraghbt.md`
+- `hm-aaoaian-simrgh-hm-aaoaii-mnzomh-mntgh.md`
+- `jerz-padkst-mamari-jrz.md`
+- `ktab-glhai-jng-kaml-zhanr-hmasi-aashghanh-tarikhi.md`
+- `mah-kst-mahcast.md`
+- `mjlh-soti-nogam.md`
+- `podcast-bazjo.md`
+- `podcast-jdi.md`
+- `podcast-nim-chasht.md`
+- `radio-ghjrtaim.md`
+- `rdram.md`
+- `roabt-aatfi.md`
+- `shb-ghsh-ghsh-ghsh.md`
 

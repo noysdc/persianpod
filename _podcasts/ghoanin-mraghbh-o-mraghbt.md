@@ -16,8 +16,8 @@ pi_id: 7359532
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # قوانین مراقبه و مراقبت

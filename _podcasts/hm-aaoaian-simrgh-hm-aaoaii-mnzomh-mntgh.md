@@ -17,8 +17,8 @@ pi_id: 6901183
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # هم آوایان سیمرغ .هم آوایی منظومه منطق الطیرازعطارنیشابوری کاری ازانجمن ادب پارسی

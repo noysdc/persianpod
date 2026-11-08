@@ -18,8 +18,8 @@ pi_id: 1231141
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # چکیده‌ای از شاهنامه، بزم و رزم رستم
