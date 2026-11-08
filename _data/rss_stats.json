@@ -13166,21 +13166,27 @@
     "status": "inactive"
   },
   "dastan-hai-kotah-ba-rza": {
-    "avg_gap_days": 52.7,
+    "avg_gap_days": 49.3,
     "avg_length": 10,
-    "episodes": 204,
-    "eps_365": 7,
-    "eps_90": 2,
+    "episodes": 205,
+    "eps_365": 8,
+    "eps_90": 3,
     "first_at": "2020-05-01",
     "first_year": 1399,
-    "last": "1405/07/18",
-    "last_at": "2026-10-10T04:45:24Z",
-    "last_link": "https://s3.castbox.fm/61/85/11/03908846c3909b15485c9a0180.mp3",
-    "last_title": "شکست عشقی",
+    "last": "1405/08/17",
+    "last_at": "2026-11-08T08:02:22Z",
+    "last_link": "https://s3.castbox.fm/0c/2f/bf/95fac34f08b18be00340386df0.mp3",
+    "last_title": "ایجاد ارتباط مردمی در هر محیطی",
     "max_length": 41,
     "median_length": 5,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/0c/2f/bf/95fac34f08b18be00340386df0.mp3",
+        "at": "2026-11-08T08:02:22Z",
+        "i": "https://s3.castbox.fm/ec/3e/4d/293a994bcfb9c3a60e4a12795b.jpg",
+        "t": "ایجاد ارتباط مردمی در هر محیطی"
+      },
       {
         "a": "https://s3.castbox.fm/61/85/11/03908846c3909b15485c9a0180.mp3",
         "at": "2026-10-10T04:45:24Z",
@@ -13222,15 +13228,15 @@
         "at": "2025-11-27T19:16:59Z",
         "i": "https://s3.castbox.fm/4d/45/1b/f0d273449fbd6cb8b835b2a589.jpg",
         "t": "ثروتمندتر از بیل گیتس"
-      },
-      {
-        "a": "https://s3.castbox.fm/97/f1/5e/cd0d194e6587823d87b73e9d04.mp3",
-        "at": "2025-10-31T17:40:22Z",
-        "i": "https://s3.castbox.fm/06/6c/3e/cbde4e4dd68820023213c72809.jpg",
-        "t": "مادر ترزا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-08T08:02:22Z",
+        "i": "https://s3.castbox.fm/ec/3e/4d/293a994bcfb9c3a60e4a12795b.jpg",
+        "link": "https://s3.castbox.fm/0c/2f/bf/95fac34f08b18be00340386df0.mp3",
+        "title": "ایجاد ارتباط مردمی در هر محیطی"
+      },
       {
         "at": "2026-10-10T04:45:24Z",
         "i": "https://s3.castbox.fm/e6/00/a9/352fba4a14bb35e4592334b60f.jpg",
@@ -13242,12 +13248,6 @@
         "i": "https://s3.castbox.fm/19/0f/ff/5c8df24c8db0a4285b2fd4cfea.jpg",
         "link": "https://s3.castbox.fm/95/62/a8/32395b486a90ce20df48f9d4cf.mp3",
         "title": "زندگی پر از استرس است"
-      },
-      {
-        "at": "2026-08-09T07:03:55Z",
-        "i": "https://s3.castbox.fm/47/c8/20/7e7d5849f989cb47bdc9f048b6.jpg",
-        "link": "https://s3.castbox.fm/d3/93/27/5fdb8b4096940a18334ba26e97.mp3",
-        "title": "تصمیم درست اغلب نادرست بنظر میرسد"
       }
     ],
     "recent_30d": [
@@ -13262,7 +13262,7 @@
       1,
       1,
       0,
-      1
+      2
     ],
     "status": "active"
   },
