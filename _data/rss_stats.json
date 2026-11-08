@@ -61614,21 +61614,27 @@
     "status": "inactive"
   },
   "podgir": {
-    "avg_gap_days": 16.6,
+    "avg_gap_days": 17.6,
     "avg_length": 41,
-    "episodes": 71,
-    "eps_365": 20,
-    "eps_90": 4,
+    "episodes": 72,
+    "eps_365": 21,
+    "eps_90": 5,
     "first_at": "2023-06-10",
     "first_year": 1402,
-    "last": "1405/07/10",
-    "last_at": "2026-10-02T02:30:00Z",
+    "last": "1405/08/17",
+    "last_at": "2026-11-08T10:16:01Z",
     "last_link": "https://podgirpodcast.ir/",
-    "last_title": "ویژه روز جهانی پادکست",
+    "last_title": "از فقر تا تئاتر",
     "max_length": 84,
     "median_length": 40,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/668948539bf81dc06aedaf3d/e/6af04be1baaf18ccf937481a/media.mp3",
+        "at": "2026-11-08T10:16:01Z",
+        "i": "https://assets.pippa.io/shows/668948539bf81dc06aedaf3d/1794132934900-3f3738b9-def6-45a6-80a5-109af997d274.jpeg",
+        "t": "از فقر تا تئاتر"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/668948539bf81dc06aedaf3d/e/6abe6ed1fa77186ceb5cf1d7/media.mp3",
         "at": "2026-10-02T02:30:00Z",
@@ -61670,15 +61676,15 @@
         "at": "2026-07-17T02:30:00Z",
         "i": "https://assets.pippa.io/shows/668948539bf81dc06aedaf3d/1784198899737-a50247bc-6715-44c9-890c-f6d585f716a1.jpeg",
         "t": "از اینجا به بعد"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/668948539bf81dc06aedaf3d/e/6a490a6904fac73b24237bbf/media.mp3",
-        "at": "2026-07-06T02:30:00Z",
-        "i": "https://assets.pippa.io/shows/668948539bf81dc06aedaf3d/1783170772298-70b45fcd-6efc-419d-97ee-925366e36075.jpeg",
-        "t": "دانزی - برای آگاهی | در باب اختیار"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-08T10:16:01Z",
+        "i": "https://assets.pippa.io/shows/668948539bf81dc06aedaf3d/1794132934900-3f3738b9-def6-45a6-80a5-109af997d274.jpeg",
+        "link": "https://podgirpodcast.ir/",
+        "title": "از فقر تا تئاتر"
+      },
       {
         "at": "2026-10-02T02:30:00Z",
         "i": "https://assets.pippa.io/shows/668948539bf81dc06aedaf3d/1790864609836-978a4e87-d91a-4073-a698-4d5cfa11bbfd.jpeg",
@@ -61690,12 +61696,6 @@
         "i": "https://assets.pippa.io/shows/668948539bf81dc06aedaf3d/1789309754984-7a4b3d6f-289c-4786-a106-461a0e87ab5f.jpeg",
         "link": "https://podgirpodcast.ir/",
         "title": "یک خبر درباره دانزی"
-      },
-      {
-        "at": "2026-09-03T11:58:08Z",
-        "i": "https://assets.pippa.io/shows/668948539bf81dc06aedaf3d/1788434678083-70862321-4b00-4acb-bf2b-15ce5475fdfd.jpeg",
-        "link": "https://podgirpodcast.ir/",
-        "title": "از زمین تا فیلتر"
       }
     ],
     "recent_30d": [
@@ -61710,7 +61710,7 @@
       3,
       2,
       2,
-      0
+      1
     ],
     "status": "active"
   },
@@ -82650,7 +82650,7 @@
       }
     ],
     "recent_30d": [
-      20,
+      14,
       2,
       0,
       0,
