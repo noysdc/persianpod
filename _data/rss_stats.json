@@ -40666,8 +40666,8 @@
     "status": "active"
   },
   "mnaba-farsi-bit-koin": {
-    "avg_length": 41,
-    "episodes": 11,
+    "avg_length": 28,
+    "episodes": 8,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-09-14",
@@ -40676,8 +40676,8 @@
     "last_at": "2022-08-24T21:02:46Z",
     "last_link": "https://podcasters.spotify.com/pod/show/bitcoind-me/episodes/ep-e1mtbsq",
     "last_title": "۱۳. بیتکوین، حریم خصوصی، و آزادی",
-    "max_length": 82,
-    "median_length": 27,
+    "max_length": 59,
+    "median_length": 23,
     "min_length": 11,
     "play": [
       {
@@ -40716,16 +40716,16 @@
         "t": "۷. اهمیت قیمت‌ها در اقتصاد چیست و مداخله دولت در قیمت‌ها چه تبعاتی در پی دارد | پویا ناظران"
       },
       {
-        "a": "https://anchor.fm/s/6a28fc34/podcast/play/41068807/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-30%2F84d2c89b-e061-c1f6-32a5-17ee75f24990.mp3",
-        "at": "2021-10-31T05:00:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded400/17710709/17710709-1630697174133-083ea4bdfb86d.jpg",
-        "t": "۶. مقدمه‌ای بر مکتب اقتصادی اتریش، از منظر بیت‌کوین | گوینده: coinlet_hodler@"
-      },
-      {
         "a": "https://anchor.fm/s/6a28fc34/podcast/play/41068149/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-30%2F75332f43-cc05-d26b-e2b8-912858ed4a78.mp3",
         "at": "2021-10-17T14:49:12Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded400/17710709/17710709-1630697174133-083ea4bdfb86d.jpg",
         "t": "۵. آخرین روزهای ساتوشی | گوینده: Chap_dastt@"
+      },
+      {
+        "a": "https://anchor.fm/s/6a28fc34/podcast/play/40268098/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-14%2Fd0b9bd27-5a30-d023-d96b-a73217fcd3eb.mp3",
+        "at": "2021-09-14T13:00:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded400/17710709/17710709-1630697174133-083ea4bdfb86d.jpg",
+        "t": "۲. چرا بیت‌کوین یک طرح کلاه‌برداری پانزی نیست | گوینده: sedmedi@"
       }
     ],
     "recent": [
@@ -45215,19 +45215,25 @@
   "one-thusand-and-one": {
     "avg_gap_days": 0.3,
     "avg_length": 11,
-    "episodes": 19,
-    "eps_365": 19,
-    "eps_90": 19,
+    "episodes": 20,
+    "eps_365": 20,
+    "eps_90": 20,
     "first_at": "2026-11-03",
     "first_year": 1405,
     "last": "1405/08/17",
-    "last_at": "2026-11-08T21:18:10Z",
-    "last_link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/c1d73e76-4c8b-41ec-9887-7f8e76c733b7/play.mp3?v=1",
-    "last_title": "شب هجدهم _ هزار و یک شب",
+    "last_at": "2026-11-08T22:15:38Z",
+    "last_link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/df2be78e-ed4d-47be-8e0d-245e62425e50/play.mp3?v=1",
+    "last_title": "شب نوزدهم _ هزار و یک شب",
     "max_length": 13,
     "median_length": 11,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/df2be78e-ed4d-47be-8e0d-245e62425e50/play.mp3?v=1",
+        "at": "2026-11-08T22:15:38Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/df2be78e-ed4d-47be-8e0d-245e62425e50/artwork.jpg?v=1",
+        "t": "شب نوزدهم _ هزار و یک شب"
+      },
       {
         "a": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/c1d73e76-4c8b-41ec-9887-7f8e76c733b7/play.mp3?v=1",
         "at": "2026-11-08T21:18:10Z",
@@ -45266,15 +45272,15 @@
         "a": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/a0004b3e-ac16-46b3-9969-88559a2197b3/play.mp3?v=1",
         "at": "2026-11-06T10:35:31Z",
         "t": "حکایت شب  دوازدهم _ هزار و یک شب."
-      },
-      {
-        "a": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/96075aaa-cbb8-4eac-a15e-d7807b01f96f/play.mp3?v=1",
-        "at": "2026-11-05T15:56:28Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/96075aaa-cbb8-4eac-a15e-d7807b01f96f/artwork.jpg?v=1",
-        "t": "شب یازدهم_هزار و یک شب"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-08T22:15:38Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/df2be78e-ed4d-47be-8e0d-245e62425e50/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/df2be78e-ed4d-47be-8e0d-245e62425e50/play.mp3?v=1",
+        "title": "شب نوزدهم _ هزار و یک شب"
+      },
       {
         "at": "2026-11-08T21:18:10Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/c1d73e76-4c8b-41ec-9887-7f8e76c733b7/artwork.jpg?v=1",
@@ -45286,11 +45292,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/24279b55-3bd5-4c63-a965-95c4df1527d0/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/24279b55-3bd5-4c63-a965-95c4df1527d0/play.mp3?v=1",
         "title": "شب هفدهم _هزار و یک شب"
-      },
-      {
-        "at": "2026-11-07T03:25:27Z",
-        "link": "https://play.rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/17f48bf3-3f5e-407e-b7d3-162869d8e622/play.mp3?v=1",
-        "title": "شب شانزدهم _هزار و یک شب"
       }
     ],
     "recent_30d": [
@@ -45305,7 +45306,7 @@
       0,
       0,
       0,
-      19
+      20
     ],
     "status": "active"
   },
