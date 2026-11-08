@@ -2180,8 +2180,8 @@
       5,
       20,
       18,
-      20,
-      17,
+      21,
+      16,
       10
     ],
     "status": "active"
@@ -78315,20 +78315,26 @@
   },
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
-    "avg_length": 24,
-    "episodes": 406,
-    "eps_365": 255,
-    "eps_90": 109,
+    "avg_length": 22,
+    "episodes": 407,
+    "eps_365": 256,
+    "eps_90": 110,
     "first_at": "2024-08-22",
     "first_year": 1403,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T09:32:06Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6ae9817d9cb48f65eae015c1",
-    "last_title": "جملات تأکیدی برای شروع روزی آرام و مثبت ✨  عشق به زندگی",
+    "last": "1405/08/17",
+    "last_at": "2026-11-08T06:37:16Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6af0189d36841fe014db74b4",
+    "last_title": "مدیتیشن سبک کردن بار سنگین گذشته از روی قلب | مدیتیشن",
     "max_length": 99,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af0189d36841fe014db74b4/media.mp3",
+        "at": "2026-11-08T06:37:16Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794119653664-6b4cf510-4a95-4eb1-83f2-fc4e30200ebc.jpeg",
+        "t": "مدیتیشن سبک کردن بار سنگین گذشته از روی قلب | مدیتیشن"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ae9817d9cb48f65eae015c1/media.mp3",
         "at": "2026-11-03T09:32:06Z",
@@ -78370,15 +78376,15 @@
         "at": "2026-10-25T08:10:31Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1792915626765-633f2441-9f4e-43bc-b94e-89a49ed45c22.jpeg",
         "t": "مدیتیشن ۵ دقیقه‌ای | رهایی فوری از افکار مدیتیشن"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ad342b0253c13a898594b64/media.mp3",
-        "at": "2026-10-25T04:30:00Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1792229810967-253351b3-a987-46e6-97f0-a81281a419fd.jpeg",
-        "t": "جادوگر سفید | اپیزود 12"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-08T06:37:16Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794119653664-6b4cf510-4a95-4eb1-83f2-fc4e30200ebc.jpeg",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6af0189d36841fe014db74b4",
+        "title": "مدیتیشن سبک کردن بار سنگین گذشته از روی قلب | مدیتیشن"
+      },
       {
         "at": "2026-11-03T09:32:06Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793687927117-3f0d1fd4-e146-4af9-82c6-ea42673ae910.jpeg",
@@ -78390,12 +78396,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793169987215-f43d861e-c456-4765-a8df-1db5a052a73a.jpeg",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6ae19b715a3cc3c4c42eb0cf",
         "title": "روزهای پایانی اکتبر 🍂 | پلی‌لیست لوفی و قهوه گرم"
-      },
-      {
-        "at": "2026-10-28T07:04:22Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793171053504-0cad652e-d9ab-4e97-8847-c562b4eda0d9.jpeg",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6a86ceaf3c905940604d2d85",
-        "title": "مدیتیشن ۵ دقیقه‌ای برای رهایی فوری و آرامش درون مدیتیشن"
       }
     ],
     "recent_30d": [
@@ -78410,7 +78410,7 @@
       16,
       45,
       40,
-      24
+      25
     ],
     "status": "active"
   },
