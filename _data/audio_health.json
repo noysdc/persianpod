@@ -1,14 +1,13 @@
 {
- "checked_at": "2026-11-01T10:03:10Z",
- "podcasts": 732,
- "probes": 1460,
- "ok": 1436,
+ "checked_at": "2026-11-08T09:51:26Z",
+ "podcasts": 841,
+ "probes": 1679,
+ "ok": 1650,
  "kinds": {
-  "ok": 1436,
+  "ok": 1650,
   "forbidden": 6,
-  "network": 6,
-  "server-error": 10,
-  "not-audio": 2
+  "network": 12,
+  "server-error": 11
  },
  "problems": {
   "aapdit-ba-hsin": {
@@ -19,14 +18,14 @@
      "code": 403,
      "ct": "text/html",
      "host": "www.buzzsprout.com",
-     "ep": "اقتصاد در عصر هوش مصنوعی؛ چه کسی برنده می‌شود؟"
+     "ep": "تسلا ماشین پرنده ساخت؟! هوش مصنوعی خطرناک شده، ناسا هم برنام"
     },
     {
      "kind": "forbidden",
      "code": 403,
      "ct": "text/html",
      "host": "www.buzzsprout.com",
-     "ep": "تسلا ماشین پرنده ساخت؟! هوش مصنوعی خطرناک شده، ناسا هم برنام"
+     "ep": "اقتصاد در عصر هوش مصنوعی؛ چه کسی برنده می‌شود؟"
     }
    ]
   },
@@ -49,14 +48,25 @@
      "code": 403,
      "ct": "text/html",
      "host": "dts.podtrac.com",
-     "ep": "Pulse and Perfusion series - part 4 - bedside echocardiograp"
+     "ep": "#020 - PAS special episode - part 3"
     },
     {
      "kind": "forbidden",
      "code": 403,
      "ct": "text/html",
      "host": "dts.podtrac.com",
-     "ep": "#020 - PAS special episode - part 3"
+     "ep": "Pulse and Perfusion series - part 4 - bedside echocardiograp"
+    }
+   ]
+  },
+  "aslam-mirzaii": {
+   "status": "partial",
+   "samples": [
+    {
+     "kind": "network",
+     "host": "dl14.zahra-media.ir",
+     "ep": "یا زینب یا زینب – اسلام میرزایی",
+     "err": "URLError: <urlopen error timed out>"
     }
    ]
   },
@@ -91,25 +101,6 @@
     }
    ]
   },
-  "dastan-hai-tarikhi": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "not-audio",
-     "code": 200,
-     "ct": "text/html",
-     "host": "qajartime.com",
-     "ep": "شکر تلخ؛ فصل پنجم – قسمت چهارم"
-    },
-    {
-     "kind": "not-audio",
-     "code": 200,
-     "ct": "text/html",
-     "host": "qajartime.com",
-     "ep": "قلم سرنوشت؛ پايانِ کار، ۲۵ از ۲۵ (پايان)"
-    }
-   ]
-  },
   "frdai-aghtsad": {
    "status": "partial",
    "samples": [
@@ -118,12 +109,35 @@
      "code": 504,
      "ct": "text/html",
      "host": "rss.audiyacreators.one",
-     "ep": "رشد اسمی، ریسک واقعی؛ معادله تازه بورس چیست؟"
+     "ep": "سوت پایان خرید آسان در بورس"
+    }
+   ]
+  },
+  "han": {
+   "status": "partial",
+   "samples": [
+    {
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "هان! شب بیست و هفتم رجب - مبعث حضرت رسالت2"
+    }
+   ]
+  },
+  "ismcast": {
+   "status": "partial",
+   "samples": [
+    {
+     "kind": "network",
+     "host": "player.rabt.space",
+     "ep": "سوسیالیسم",
+     "err": "TimeoutError: The read operation timed out"
     }
    ]
   },
   "jnaii-khoani": {
-   "status": "all-bad",
+   "status": "partial",
    "samples": [
     {
      "kind": "server-error",
@@ -131,13 +145,17 @@
      "ct": "text/html",
      "host": "rss.audiyacreators.one",
      "ep": "قسمت 25| قتل با سم مار؛ یک قتل بی‌نقص"
-    },
+    }
+   ]
+  },
+  "kart-sda": {
+   "status": "partial",
+   "samples": [
     {
-     "kind": "server-error",
-     "code": 504,
-     "ct": "text/html",
-     "host": "rss.audiyacreators.one",
-     "ep": "قسمت ۳۶ | فاجعه نجف‌آباد | قتل یا ترور سیاسی"
+     "kind": "network",
+     "host": "player.rabt.space",
+     "ep": "کارت هشتم",
+     "err": "TimeoutError: The read operation timed out"
     }
    ]
   },
@@ -177,6 +195,23 @@
     }
    ]
   },
+  "lzt-dniai-ktab": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "network",
+     "host": "podkadeh.com",
+     "ep": "اپیزود سی و سوم از روح تسخیرناپذیر نوشته مایکل سینگر و با صد",
+     "err": "TimeoutError: The read operation timed out"
+    },
+    {
+     "kind": "network",
+     "host": "podkadeh.com",
+     "ep": "اپیزود بیست وسوم از رمان بربادرفته اثر مارگارت میچل، ترجمه ش",
+     "err": "TimeoutError: The read operation timed out"
+    }
+   ]
+  },
   "mtaors": {
    "status": "partial",
    "samples": [
@@ -185,7 +220,7 @@
      "code": 504,
      "ct": "text/html",
      "host": "rss.audiyacreators.one",
-     "ep": "اپیزود شماره 26 - پادکست متاورس"
+     "ep": "اپیزود شماره 13- پادکست متاورس"
     }
    ]
   },
@@ -197,30 +232,43 @@
      "code": 504,
      "ct": "text/html",
      "host": "rss.audiyacreators.one",
-     "ep": "ثروت کشنده"
+     "ep": "مجرم تحت تعقیب"
     }
    ]
   },
-  "podcast-fotbali-fotbal-trapi": {
-   "status": "partial",
+  "podcast-fotbal-lb": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "network",
+     "host": "podkadeh.com",
+     "ep": "9-8 هالووین غیر فوتبالی!",
+     "err": "TimeoutError: The read operation timed out"
+    },
+    {
+     "kind": "network",
+     "host": "podkadeh.com",
+     "ep": "یورو 2024 - رختکن بازنده ها",
+     "err": "TimeoutError: The read operation timed out"
+    }
+   ]
+  },
+  "podcast-jor-digr": {
+   "status": "all-bad",
    "samples": [
     {
      "kind": "server-error",
      "code": 504,
      "ct": "text/html",
      "host": "rss.audiyacreators.one",
-     "ep": "فصل6| قسمت20: از پس تیرگی آفتابی درآید..."
-    }
-   ]
-  },
-  "podcast-jnaii-rdpa": {
-   "status": "partial",
-   "samples": [
+     "ep": "اپیزود نه - تحلیل جامعه‌شناختی دموکراسی (بخش دوم)"
+    },
     {
-     "kind": "network",
-     "host": "player.rabt.space",
-     "ep": "قول،فاتحه ای بر رمان پلیسی./۲۵,۲۶",
-     "err": "TimeoutError: The read operation timed out"
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "اپیزود هیجدهم - تحلیل جامعه‌شناختی برای ایران امروز"
     }
    ]
   },
@@ -232,7 +280,7 @@
      "code": 504,
      "ct": "text/html",
      "host": "rss.audiyacreators.one",
-     "ep": "اپیزود هشتاد و نهم چرا دارو نیست؟"
+     "ep": "اپیزود چهل و چهارم: درمان جایگزینی کلیه قسمت اول"
     }
    ]
   },
