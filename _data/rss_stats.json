@@ -56487,21 +56487,27 @@
     "status": "stopped"
   },
   "podcast-prchm-sfid": {
-    "avg_gap_days": 5.8,
-    "avg_length": 44,
-    "episodes": 178,
-    "eps_365": 62,
-    "eps_90": 23,
+    "avg_gap_days": 5.7,
+    "avg_length": 45,
+    "episodes": 179,
+    "eps_365": 63,
+    "eps_90": 24,
     "first_at": "2018-11-17",
     "first_year": 1397,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T04:00:00Z",
-    "last_link": "https://shows.acast.com/white-flag-pdcst/episodes/6ae9f7c0b1966848f39455b1",
-    "last_title": "مردم کوبا، بیدار شوید! - پرونده انقلاب کوبا - قسمت ۲",
+    "last": "1405/08/17",
+    "last_at": "2026-11-08T04:00:00Z",
+    "last_link": "https://shows.acast.com/white-flag-pdcst/episodes/6aeae6092d18c73dd5fad693",
+    "last_title": "تاریخ مرا تبرئه خواهد کرد - پرونده انقلاب کوبا - قسمت ۳",
     "max_length": 102,
     "median_length": 41,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6aeae6092d18c73dd5fad693/media.mp3",
+        "at": "2026-11-08T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1793779200607-d64221be-902f-4a49-b8fe-b5d1f41eacf9.jpeg",
+        "t": "تاریخ مرا تبرئه خواهد کرد - پرونده انقلاب کوبا - قسمت ۳"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6ae9f7c0b1966848f39455b1/media.mp3",
         "at": "2026-11-04T04:00:00Z",
@@ -56543,15 +56549,15 @@
         "at": "2026-10-14T04:00:00Z",
         "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1791903667316-8152dfed-d118-4d3d-b197-611725a3b35e.jpeg",
         "t": "از تورا بورا تا کنفرانس بن - پرونده جنگ افغانستان - قسمت ۱۲"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6ac8933f3b418431371d4165/media.mp3",
-        "at": "2026-10-11T04:00:00Z",
-        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1791529531943-abf3ed9f-0081-438a-85bd-bbd54ae6bb3d.jpeg",
-        "t": "یازده سپتامبر و عملیات آزادی پایدار - پرونده جنگ افغانستان - قسمت ۱۱"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-08T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1793779200607-d64221be-902f-4a49-b8fe-b5d1f41eacf9.jpeg",
+        "link": "https://shows.acast.com/white-flag-pdcst/episodes/6aeae6092d18c73dd5fad693",
+        "title": "تاریخ مرا تبرئه خواهد کرد - پرونده انقلاب کوبا - قسمت ۳"
+      },
       {
         "at": "2026-11-04T04:00:00Z",
         "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1793721921385-fbab0c65-5f2d-4762-9995-89bfd81b8d6c.jpeg",
@@ -56563,12 +56569,6 @@
         "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1793352814916-3bd2b501-4b23-4411-b049-5abbc972f80c.jpeg",
         "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ae464dd53fe55e775bbbb09",
         "title": "استقلالِ مشروط - پرونده انقلاب کوبا - قسمت ۱"
-      },
-      {
-        "at": "2026-10-28T04:00:00Z",
-        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1793088594813-9cd88d26-0103-4bf2-83d0-b2b4b4c372d1.jpeg",
-        "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ae05c826df2307811616b7b",
-        "title": "سقوط کابل و میراث چهار دهه جنگ - پرونده جنگ افغانستان - قسمت آخر"
       }
     ],
     "recent_30d": [
@@ -56583,7 +56583,7 @@
       8,
       7,
       8,
-      8
+      9
     ],
     "status": "active"
   },
