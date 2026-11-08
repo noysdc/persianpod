@@ -58048,8 +58048,8 @@
     "recent_30d": [
       5,
       3,
-      0,
-      3,
+      1,
+      2,
       0,
       2,
       1,
@@ -78316,19 +78316,25 @@
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
     "avg_length": 22,
-    "episodes": 407,
-    "eps_365": 256,
-    "eps_90": 109,
+    "episodes": 408,
+    "eps_365": 257,
+    "eps_90": 110,
     "first_at": "2024-08-22",
     "first_year": 1403,
     "last": "1405/08/17",
-    "last_at": "2026-11-08T06:37:16Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6af0189d36841fe014db74b4",
-    "last_title": "مدیتیشن سبک کردن بار سنگین گذشته از روی قلب | مدیتیشن",
+    "last_at": "2026-11-08T09:16:51Z",
+    "last_link": "https://www.youtube.com/channel/UC3ZvaakuP5D1X1YuxJExM-A",
+    "last_title": "مدیتیشن مدار ثروت و فراوانی 💰 | جذب برکت مالی مدیتیشن",
     "max_length": 99,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af03d9f6767b86e14c6e24e/media.mp3",
+        "at": "2026-11-08T09:16:51Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794129302059-ede3ac8d-e8fc-4265-837b-3e1e4d3c36a9.jpeg",
+        "t": "مدیتیشن مدار ثروت و فراوانی 💰 | جذب برکت مالی مدیتیشن"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af0189d36841fe014db74b4/media.mp3",
         "at": "2026-11-08T06:37:16Z",
@@ -78370,15 +78376,15 @@
         "at": "2026-10-25T16:46:00Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1792920533537-676fd49c-7d14-43ea-9a52-6eac7a3a31f1.jpeg",
         "t": "مدیتیشن قبل خواب | رهایی از افکار و خواب عمیق مدیتیشن"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6addb978959e7ea69d010353/media.mp3",
-        "at": "2026-10-25T08:10:31Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1792915626765-633f2441-9f4e-43bc-b94e-89a49ed45c22.jpeg",
-        "t": "مدیتیشن ۵ دقیقه‌ای | رهایی فوری از افکار مدیتیشن"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-08T09:16:51Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794129302059-ede3ac8d-e8fc-4265-837b-3e1e4d3c36a9.jpeg",
+        "link": "https://www.youtube.com/channel/UC3ZvaakuP5D1X1YuxJExM-A",
+        "title": "مدیتیشن مدار ثروت و فراوانی 💰 | جذب برکت مالی مدیتیشن"
+      },
       {
         "at": "2026-11-08T06:37:16Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794119653664-6b4cf510-4a95-4eb1-83f2-fc4e30200ebc.jpeg",
@@ -78390,12 +78396,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793687927117-3f0d1fd4-e146-4af9-82c6-ea42673ae910.jpeg",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6ae9817d9cb48f65eae015c1",
         "title": "جملات تأکیدی برای شروع روزی آرام و مثبت ✨  عشق به زندگی"
-      },
-      {
-        "at": "2026-10-28T14:30:00Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793169987215-f43d861e-c456-4765-a8df-1db5a052a73a.jpeg",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6ae19b715a3cc3c4c42eb0cf",
-        "title": "روزهای پایانی اکتبر 🍂 | پلی‌لیست لوفی و قهوه گرم"
       }
     ],
     "recent_30d": [
@@ -78410,7 +78410,7 @@
       17,
       45,
       39,
-      25
+      26
     ],
     "status": "active"
   },
