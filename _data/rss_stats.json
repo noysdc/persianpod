@@ -37700,11 +37700,11 @@
     "status": "active"
   },
   "ktabkhanh-soti": {
-    "avg_gap_days": 6.4,
-    "avg_length": 31,
-    "episodes": 57,
-    "eps_365": 57,
-    "eps_90": 23,
+    "avg_gap_days": 6.5,
+    "avg_length": 32,
+    "episodes": 56,
+    "eps_365": 56,
+    "eps_90": 22,
     "first_at": "2025-11-17",
     "first_year": 1404,
     "last": "1405/08/18",
@@ -37734,12 +37734,6 @@
         "t": "آنجا که تمام می‌شود، پیدایم کن (بخش هفتم)"
       },
       {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76262195/episode.mp3",
-        "at": "2026-11-09T10:15:12Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
-        "t": "آنجا که تمام می‌شود، پیدایم کن (بخش ششم)"
-      },
-      {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76056227/episode.mp3",
         "at": "2026-11-09T10:10:12Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/28da75832353fabc6090711a410810b4.jpg",
@@ -37762,6 +37756,12 @@
         "at": "2026-11-09T10:05:12Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
         "t": "آنجا که تمام می‌شود، پیدایم کن (بخش چهارم)"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76261954/episode.mp3",
+        "at": "2026-11-09T10:00:12Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
+        "t": "آنجا که تمام می‌شود، پیدایم کن (بخش سوم)"
       }
     ],
     "recent": [
@@ -37796,7 +37796,7 @@
       5,
       2,
       4,
-      17
+      16
     ],
     "status": "active"
   },
@@ -50025,8 +50025,8 @@
       0,
       0,
       0,
-      0,
-      39
+      1,
+      38
     ],
     "status": "active"
   },
@@ -63101,20 +63101,56 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.1,
-    "avg_length": 113,
-    "episodes": 87,
-    "eps_365": 87,
-    "eps_90": 87,
+    "avg_length": 112,
+    "episodes": 93,
+    "eps_365": 93,
+    "eps_90": 93,
     "first_at": "2026-11-01",
     "first_year": 1405,
     "last": "1405/08/18",
-    "last_at": "2026-11-09T16:08:14Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakdaman--Nasser-Part-2-e3s37k9",
-    "last_title": "Pakdaman, Nasser Part 2",
+    "last_at": "2026-11-09T18:24:32Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Alikhani--Ali-Naghi-Part-6-e3s3hdr",
+    "last_title": "Alikhani, Ali-Naghi Part 6",
     "max_length": 134,
     "median_length": 116,
     "min_length": 20,
     "play": [
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129139579/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2Fa34b65b8-2c6f-4227-305f-580c483b49cf.mp3",
+        "at": "2026-11-09T18:24:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794248600454-54f1483c3e18e.jpg",
+        "t": "Alikhani, Ali-Naghi Part 6"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129139486/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F1c0860fb-3288-7f05-77c0-003c473baa61.mp3",
+        "at": "2026-11-09T18:23:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794248518091-b69fb815b1643.jpg",
+        "t": "Alikhani, Ali-Naghi Part 5"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129139407/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F781d5f83-5419-96f7-7241-785e5e011c42.mp3",
+        "at": "2026-11-09T18:21:38Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794248435655-29f59ba272f17.jpg",
+        "t": "Alikhani, Ali-Naghi Part 4"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129139315/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F007a76f2-6d30-a378-8ad8-0165a35cb803.mp3",
+        "at": "2026-11-09T18:20:15Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794248354609-7b11130b95de1.jpg",
+        "t": "Alikhani, Ali-Naghi Part 3"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129139258/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2Fc9dea849-399b-e0e0-3bf5-6605d6705387.mp3",
+        "at": "2026-11-09T18:18:53Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794248276512-68283f21424e4.jpg",
+        "t": "Alikhani, Ali-Naghi Part 2"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129139010/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F8d6013c9-9329-8a30-2d94-ebf5f346baca.mp3",
+        "at": "2026-11-09T18:17:37Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794248249289-bb22f4fc281b9.jpg",
+        "t": "Alikhani, Ali-Naghi Part 1"
+      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/129129545/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F981aaacd-f44d-4a51-2353-d313bb97552e.mp3",
         "at": "2026-11-09T16:08:14Z",
@@ -63126,62 +63162,26 @@
         "at": "2026-11-09T16:06:49Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240398859-5756e37d6ca1b.jpg",
         "t": "Pakdaman, Nasser Part 1"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129075733/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2Fd855d523-79a6-471c-08e3-e0467bf00138.mp3",
-        "at": "2026-11-09T00:46:19Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794239284504-a5ae11ab2a715.jpg",
-        "t": "Pakravan, Fatemeh Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129075407/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F5c733c0a-26dc-61dc-8e69-94d5d31b793c.mp3",
-        "at": "2026-11-09T00:44:51Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794239257838-401903c58e551.jpg",
-        "t": "Pakravan, Fatemeh Part 1"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129074017/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F57045f23-2dfc-4c6d-eef6-16200b76082e.mp3",
-        "at": "2026-11-09T00:02:11Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794182466358-d6f1126d5334.jpg",
-        "t": "Bakhtiar, Chapour Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129063556/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2Fd5cdef44-e083-dbed-9834-172e8ef620e2.mp3",
-        "at": "2026-11-09T00:00:47Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794182442158-a95b745ad4497.jpg",
-        "t": "Bakhtiar, Chapour Part 1"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129060651/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2Ff28b5af4-60c9-0888-a1c5-4e04c3d31cb6.mp3",
-        "at": "2026-11-08T18:26:28Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794162342057-24f69bef771a8.jpg",
-        "t": "Amini, Ali Part 3"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129060582/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2Fdfcf293c-52f2-1783-c2d1-1cfa0b59b4f4.mp3",
-        "at": "2026-11-08T18:25:17Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794162258782-0434e0338dd5c.jpg",
-        "t": "Amini, Ali Part 2"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-09T16:08:14Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240433773-516bed184f615.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakdaman--Nasser-Part-2-e3s37k9",
-        "title": "Pakdaman, Nasser Part 2"
+        "at": "2026-11-09T18:24:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794248600454-54f1483c3e18e.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Alikhani--Ali-Naghi-Part-6-e3s3hdr",
+        "title": "Alikhani, Ali-Naghi Part 6"
       },
       {
-        "at": "2026-11-09T16:06:49Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240398859-5756e37d6ca1b.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakdaman--Nasser-Part-1-e3s37bo",
-        "title": "Pakdaman, Nasser Part 1"
+        "at": "2026-11-09T18:23:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794248518091-b69fb815b1643.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Alikhani--Ali-Naghi-Part-5-e3s3hau",
+        "title": "Alikhani, Ali-Naghi Part 5"
       },
       {
-        "at": "2026-11-09T00:46:19Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794239284504-a5ae11ab2a715.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakravan--Fatemeh-Part-2-e3s1j2l",
-        "title": "Pakravan, Fatemeh Part 2"
+        "at": "2026-11-09T18:21:38Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794248435655-29f59ba272f17.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Alikhani--Ali-Naghi-Part-4-e3s3h8f",
+        "title": "Alikhani, Ali-Naghi Part 4"
       }
     ],
     "recent_30d": [
@@ -63196,7 +63196,7 @@
       0,
       0,
       0,
-      87
+      93
     ],
     "status": "active"
   },
@@ -79754,7 +79754,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4255,
-    "eps_365": 803,
+    "eps_365": 802,
     "eps_90": 256,
     "first_at": "2023-09-13",
     "first_year": 1402,
@@ -79825,14 +79825,14 @@
       }
     ],
     "recent_30d": [
-      113,
-      98,
+      114,
+      97,
       48,
       60,
       0,
       0,
-      15,
-      105,
+      16,
+      104,
       85,
       102,
       82,
@@ -82412,8 +82412,8 @@
       0,
       0,
       7,
-      26,
-      10,
+      27,
+      9,
       1
     ],
     "status": "active"
