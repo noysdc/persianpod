@@ -60320,8 +60320,8 @@
       4,
       12,
       9,
-      6,
-      5,
+      7,
+      4,
       4,
       3,
       2,
@@ -68065,10 +68065,10 @@
     "status": "stopped"
   },
   "radio-sitcom-podcast-padkst-radio-sitkam": {
-    "avg_gap_days": 281.0,
-    "avg_length": 74,
-    "episodes": 25,
-    "eps_365": 2,
+    "avg_gap_days": 143.5,
+    "avg_length": 71,
+    "episodes": 26,
+    "eps_365": 3,
     "eps_90": 1,
     "first_at": "2020-03-06",
     "first_year": 1398,
@@ -68077,8 +68077,8 @@
     "last_link": "https://www.spreaker.com/episode/fsl-dwm-qsmt-dhm-zndgy-dr-nqth-thabt-brwyr--74684061",
     "last_title": "فصل دوم، قسمت دهم: زندگی در نقطه ثابت بروئر",
     "max_length": 150,
-    "median_length": 62,
-    "min_length": 3,
+    "median_length": 61,
+    "min_length": 2,
     "play": [
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74684061/s2_e10_0.mp3",
@@ -68091,6 +68091,12 @@
         "at": "2025-11-16T16:54:50Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/f528ad59ef9439c0c97d678636cccedd.jpg",
         "t": "فصل دوم، قسمت نهم: پیانو روی کامیونِ آرتور شوپنهاور"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76272932/episode.mp3",
+        "at": "2025-11-10T21:02:50Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/46dc10c6d6f694c32321098b6ec3b9b4.jpg",
+        "t": "تیزر اپیزود نهم از فصل دوم رادیو سیتکام"
       },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72892822/audio.mp3",
@@ -68121,12 +68127,6 @@
         "at": "2023-08-03T17:46:37Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/6433bc1410a31ab59fb95f061eea4e63.jpg",
         "t": "فصل دوم، قسمت چهارم: فرار از قرن‌های تاریک با اسپینوزا"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72892819/audio.mp3",
-        "at": "2023-03-18T15:01:06Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/c8cac1f546fc5b1150c70166e662d335.jpg",
-        "t": "فصل دوم، قسمت سوم: براتیگان، تاریخچه‌ی یک مرگ رمانتیک"
       }
     ],
     "recent": [
@@ -68143,10 +68143,10 @@
         "title": "فصل دوم، قسمت نهم: پیانو روی کامیونِ آرتور شوپنهاور"
       },
       {
-        "at": "2025-09-07T15:01:13Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/8d4f2c758dcd4de119dcba30be1565fc.jpg",
-        "link": "https://www.spreaker.com/episode/fsl-dwm-qsmt-hshtm-slyn-w-dsth-gynywl-ha--72892822",
-        "title": "فصل دوم، قسمت هشتم: سلین و دسته گینیول‌ها"
+        "at": "2025-11-10T21:02:50Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/46dc10c6d6f694c32321098b6ec3b9b4.jpg",
+        "link": "https://www.spreaker.com/episode/tyzr-apyzwd-nhm-az-fsl-dwm-radyw-sytkam--76272932",
+        "title": "تیزر اپیزود نهم از فصل دوم رادیو سیتکام"
       }
     ],
     "recent_30d": [
