@@ -71683,19 +71683,24 @@
   "sdai-bazar": {
     "avg_gap_days": 4.2,
     "avg_length": 22,
-    "episodes": 491,
-    "eps_365": 86,
-    "eps_90": 31,
+    "episodes": 492,
+    "eps_365": 87,
+    "eps_90": 32,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T11:00:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/0jd87468ny/",
-    "last_title": "وال‌استریت زیر فشار؛ از نگرانی هوش مصنوعی تا آزمون اشتغال آمریکا",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T11:50:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/4mte1e0wj7/",
+    "last_title": "نفت در انتظار دیدار ترامپ با نخست‌وزیر قطر",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/4mte1e0wj7/2026-11-09-12-00-10.mp3",
+        "at": "2026-11-09T11:50:00Z",
+        "t": "نفت در انتظار دیدار ترامپ با نخست‌وزیر قطر"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/0jd87468ny/2026-11-06-11-11-55.mp3",
         "at": "2026-11-06T11:00:00Z",
@@ -71730,14 +71735,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/eydmxb5zxb/2026-10-29-12-47-14.mp3",
         "at": "2026-10-29T10:20:00Z",
         "t": "شوک آلفابت به وال‌استریت؛ نگاه بازار به آمازون و تورم آمریکا"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/xamqcdt2jc/2026-10-28-12-18-29.mp3",
-        "at": "2026-10-28T12:00:00Z",
-        "t": "غافلگیری نیوزیلند و توقف احتمالی فدرال رزرو در روز تعیین‌کننده بانک‌های مرکزی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T11:50:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/4mte1e0wj7/",
+        "title": "نفت در انتظار دیدار ترامپ با نخست‌وزیر قطر"
+      },
       {
         "at": "2026-11-06T11:00:00Z",
         "link": "https://dotcast.org/p/bozvcayr/0jd87468ny/",
@@ -71747,11 +71752,6 @@
         "at": "2026-11-05T11:40:00Z",
         "link": "https://dotcast.org/p/bozvcayr/tr550ft0sw/",
         "title": "ریزش نفت، صعود طلا؛ آیا بازارها پایان جنگ را قیمت‌گذاری می‌کنند؟"
-      },
-      {
-        "at": "2026-11-04T11:40:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/2jk8lzf7l9/",
-        "title": "پیروزی دموکرات‌ها و جهش طلا؛ بازارها چه چیزی را قیمت‌گذاری می‌کنند؟"
       }
     ],
     "recent_30d": [
@@ -71766,7 +71766,7 @@
       0,
       0,
       11,
-      20
+      21
     ],
     "status": "active"
   },
