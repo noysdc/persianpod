@@ -74716,21 +74716,27 @@
     "status": "active"
   },
   "shab-tab-shb-tab": {
-    "avg_gap_days": 43.4,
+    "avg_gap_days": 39.4,
     "avg_length": 35,
-    "episodes": 24,
-    "eps_365": 9,
-    "eps_90": 7,
+    "episodes": 25,
+    "eps_365": 10,
+    "eps_90": 8,
     "first_at": "2022-06-07",
     "first_year": 1401,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T21:38:20Z",
-    "last_link": "https://www.spreaker.com/episode/shb-tab-lysnkw-dr-brabr-wawyluf-qsmt-awl-tla-dr-brabr-bdhr--76120666",
-    "last_title": "شب تاب: لیسنکو در برابر واویلُف - قسمت اول: طلا در برابر بذر",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T18:49:04Z",
+    "last_link": "https://www.spreaker.com/episode/shb-tab-lysnkw-dr-brabr-wawyluf-qsmt-dwm-azmaysh-ya-nmaysh--76272782",
+    "last_title": "شب تاب: لیسنکو در برابر واویلُف - قسمت دوم: آزمایش یا نمایش؟",
     "max_length": 52,
     "median_length": 35,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76272782/shabtab_s_06_e_02.mp3",
+        "at": "2026-11-09T18:49:04Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/4826d173f82d2216123e52350d2101a0.jpg",
+        "t": "شب تاب: لیسنکو در برابر واویلُف - قسمت دوم: آزمایش یا نمایش؟"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76120666/shabtab_s_06_e_01mp3.mp3",
         "at": "2026-11-01T21:38:20Z",
@@ -74772,15 +74778,15 @@
         "at": "2026-09-11T00:25:22Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/04af54480f45ed7775dec004dbd2a27c.jpg",
         "t": "شب تاب: گروه دانر - قسمت اول: راهی به بهشت"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72892775/audio.mp3",
-        "at": "2026-02-03T09:00:00Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/f241b635060632632c89df1b5a367d8b.jpg",
-        "t": "ویژه: آگاهی‌بخشی: عادی نیست ولی معمولیه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T18:49:04Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/4826d173f82d2216123e52350d2101a0.jpg",
+        "link": "https://www.spreaker.com/episode/shb-tab-lysnkw-dr-brabr-wawyluf-qsmt-dwm-azmaysh-ya-nmaysh--76272782",
+        "title": "شب تاب: لیسنکو در برابر واویلُف - قسمت دوم: آزمایش یا نمایش؟"
+      },
       {
         "at": "2026-11-01T21:38:20Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3cfe38345462e6c975f9d729fe0b458f.jpg",
@@ -74792,12 +74798,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/dd278856e12519247880419730558d1b.jpg",
         "link": "https://www.spreaker.com/episode/shb-tab-grwh-danr-qsmt-shshm-nh-chndan-njat--75524196",
         "title": "شب تاب: گروه دانر - قسمت ششم: نه چندان نجات"
-      },
-      {
-        "at": "2026-10-02T15:16:08Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/234ce283c6ee7f610be00f3b0bb8d5c3.jpg",
-        "link": "https://www.spreaker.com/episode/shb-tab-grwh-danr-qsmt-pnjm-aumyd-mtrwk--75523476",
-        "title": "شب تاب: گروه دانر - قسمت پنجم: اُمید متروک"
       }
     ],
     "recent_30d": [
@@ -74812,7 +74812,7 @@
       0,
       0,
       6,
-      1
+      2
     ],
     "status": "active"
   },
