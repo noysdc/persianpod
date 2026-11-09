@@ -15748,8 +15748,8 @@
     "recent_30d": [
       2,
       2,
-      5,
-      5,
+      6,
+      4,
       0,
       3,
       0,
@@ -40073,21 +40073,27 @@
     "status": "active"
   },
   "mjmoah-i-rman-hai-jnaii-o-trsnak": {
-    "avg_gap_days": 2.9,
+    "avg_gap_days": 2.8,
     "avg_length": 27,
-    "episodes": 154,
-    "eps_365": 128,
-    "eps_90": 51,
+    "episodes": 155,
+    "eps_365": 129,
+    "eps_90": 52,
     "first_at": "2025-08-07",
     "first_year": 1404,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T11:37:34Z",
-    "last_link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-byst-w-hsht--76242399",
-    "last_title": "رمان جنایی آدم‌برفی-بخش بیست و هشت",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T09:02:55Z",
+    "last_link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-byst-w-nh--76262913",
+    "last_title": "رمان جنایی آدم‌برفی-بخش بیست و نه",
     "max_length": 59,
     "median_length": 39,
     "min_length": 11,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76262913/utf_8_b_2kfyr9mfinio2lhzgduminuy27kubxaz.mp3",
+        "at": "2026-11-09T09:02:55Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
+        "t": "رمان جنایی آدم‌برفی-بخش بیست و نه"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76242399/utf_8_b_2kfyr9mfinio2lhzgduminuy27gubxaz.mp3",
         "at": "2026-11-08T11:37:34Z",
@@ -40129,15 +40135,15 @@
         "at": "2026-10-31T13:24:51Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
         "t": "رمان جنایی آدم‌برفی-بخش بیست و دو"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76081420/utf_8_b_2kfyr9mfinio2lhzgduminuy27eubxaz.mp3",
-        "at": "2026-10-30T06:57:56Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
-        "t": "رمان جنایی آدم‌برفی-بخش بیست و یک"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T09:02:55Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
+        "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-byst-w-nh--76262913",
+        "title": "رمان جنایی آدم‌برفی-بخش بیست و نه"
+      },
       {
         "at": "2026-11-08T11:37:34Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
@@ -40149,12 +40155,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
         "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-byst-w-hft--76231671",
         "title": "رمان جنایی آدم‌برفی-بخش بیست و هفت"
-      },
-      {
-        "at": "2026-11-06T19:10:50Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
-        "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-byst-w-shsh--76218259",
-        "title": "رمان جنایی آدم‌برفی-بخش بیست و شش"
       }
     ],
     "recent_30d": [
@@ -40169,7 +40169,7 @@
       21,
       9,
       14,
-      28
+      29
     ],
     "status": "active"
   },
@@ -58774,8 +58774,8 @@
       4,
       8,
       6,
-      6,
-      9,
+      7,
+      8,
       5
     ],
     "status": "active"
@@ -68664,8 +68664,8 @@
       0,
       0,
       4,
-      10,
-      8,
+      11,
+      7,
       9
     ],
     "status": "active"
