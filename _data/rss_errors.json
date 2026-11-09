@@ -166,5 +166,9 @@
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://ronakottawa.com/feed/podcast/zaban-o-adabiyat/"
+  },
+  "zmin-o-zman": {
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feed.podbean.com/Zamin-o-Zaman/feed.xml"
   }
 }
