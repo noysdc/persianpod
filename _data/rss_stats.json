@@ -67095,21 +67095,27 @@
     "status": "stopped"
   },
   "radiocrime-padkst-jnaii-radio-kraim": {
-    "avg_gap_days": 14.5,
+    "avg_gap_days": 14.0,
     "avg_length": 36,
-    "episodes": 84,
-    "eps_365": 23,
-    "eps_90": 16,
+    "episodes": 85,
+    "eps_365": 24,
+    "eps_90": 17,
     "first_at": "2024-07-04",
     "first_year": 1403,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T15:20:21Z",
-    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9eb63be80be7f3a4ac4c",
-    "last_title": "پرونده حل‌نشده گرگوری کیث؛ مردی که بدون هیچ ردی ناپدید شد",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T15:30:07Z",
+    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9c5074a96cc5a4aa5f20",
+    "last_title": "قتل کالین اسلمر | قاتلش خیال مردن نداره!",
     "max_length": 78,
     "median_length": 14,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6aec9c5074a96cc5a4aa5f20/media.mp3",
+        "at": "2026-11-09T15:30:07Z",
+        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891234592-a13fb613-3891-4512-b494-7084c04ee18c.jpeg",
+        "t": "قتل کالین اسلمر | قاتلش خیال مردن نداره!"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6aec9eb63be80be7f3a4ac4c/media.mp3",
         "at": "2026-11-05T15:20:21Z",
@@ -67151,15 +67157,15 @@
         "at": "2026-10-15T15:52:06Z",
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1792077875883-ecfca3d0-5770-4255-b949-b782db5e5bd8.jpeg",
         "t": "پشت درهای بسته‌ی خانه‌ی وحشت چه می‌گذشت؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6accefe339599f7c56e311f8/media.mp3",
-        "at": "2026-10-12T17:53:27Z",
-        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1791815571514-8f9b30ad-331e-41c7-9ac1-1e1aa8e2555b.jpeg",
-        "t": "آخرین اخبار پرونده لیندزی کلنسی؛ آیا محاکمه دوباره برگزار می‌شود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T15:30:07Z",
+        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891234592-a13fb613-3891-4512-b494-7084c04ee18c.jpeg",
+        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9c5074a96cc5a4aa5f20",
+        "title": "قتل کالین اسلمر | قاتلش خیال مردن نداره!"
+      },
       {
         "at": "2026-11-05T15:20:21Z",
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891711122-7af11282-3cc5-48bb-bf1d-a2e4940c9dcf.jpeg",
@@ -67171,12 +67177,6 @@
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793890480006-6d10ab39-804a-4eb0-aec4-5303ace88c61.jpeg",
         "link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9b5574a96cc5a4a9e587",
         "title": "۷ دانشجو، یک پرونده جنجالی؛ رسوایی جنسی دانشگاه کرنل"
-      },
-      {
-        "at": "2026-10-29T15:05:06Z",
-        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793286296591-aec75549-81bb-4b65-a6b0-9bb9ccabc4fc.jpeg",
-        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6ae360a182192fb628ca58d8",
-        "title": "مرد ناشناسِ سرگردان؛ رازی که بعد از ۴۰ سال فاش شد!"
       }
     ],
     "recent_30d": [
@@ -67191,7 +67191,7 @@
       2,
       4,
       4,
-      8
+      9
     ],
     "status": "active"
   },
@@ -78687,7 +78687,7 @@
     "avg_length": 11,
     "episodes": 24,
     "eps_365": 24,
-    "eps_90": 13,
+    "eps_90": 12,
     "first_at": "2026-05-26",
     "first_year": 1405,
     "last": "1405/08/12",
@@ -78765,8 +78765,8 @@
       0,
       3,
       4,
-      4,
       5,
+      4,
       4,
       4
     ],
