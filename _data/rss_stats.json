@@ -32487,19 +32487,25 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 21,
-    "episodes": 632,
-    "eps_365": 599,
-    "eps_90": 170,
+    "episodes": 633,
+    "eps_365": 600,
+    "eps_90": 171,
     "first_at": "2025-10-22",
     "first_year": 1404,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T18:31:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6af0bcccbaaf18ccf95e832c",
-    "last_title": "سالگرد - قتل های زنجیره ای - بخش سی و هشتم - پایان",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T17:04:20Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6af1fd134639eb370f6d9d40",
+    "last_title": "معرفی کتاب - جزیره ی مرگ 2026",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af1fd134639eb370f6d9d40/media.mp3",
+        "at": "2026-11-09T17:04:20Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794243842001-c87a0108-c764-4701-966c-ab8af3465793.jpeg",
+        "t": "معرفی کتاب - جزیره ی مرگ 2026"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af0bcccbaaf18ccf95e832c/media.mp3",
         "at": "2026-11-08T18:31:00Z",
@@ -32541,15 +32547,15 @@
         "at": "2026-11-07T17:35:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794053242438-b7381b80-3227-434f-ae43-e812fb9b69be.jpeg",
         "t": "سالگرد - قتل های زنجیره ای - بخش سی و سوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6aee05f0897b9602318c989a/media.mp3",
-        "at": "2026-11-07T16:59:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793983765350-f08061e5-c6f4-4508-85b4-1807dc931e0d.jpeg",
-        "t": "سالگرد - قتل های زنجیره ای - بخش سی و یکم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T17:04:20Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794243842001-c87a0108-c764-4701-966c-ab8af3465793.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6af1fd134639eb370f6d9d40",
+        "title": "معرفی کتاب - جزیره ی مرگ 2026"
+      },
       {
         "at": "2026-11-08T18:31:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794161760374-0209ae62-67b9-47be-b64b-a3435de02fef.jpeg",
@@ -32561,12 +32567,6 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794161647824-73d00b8c-6fdc-426b-b6cb-2c148bd5084c.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6af0bc35071ec4ae39cdecd8",
         "title": "سالگرد - قتل های زنجیره ای - بخش سی و هفتم"
-      },
-      {
-        "at": "2026-11-08T16:55:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794054792583-edc16119-4f11-4c9f-b3c5-7730759b8178.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6aef1b32a942810f4c763a20",
-        "title": "سالگرد - قتل های زنجیره ای - بخش سی و  ششم"
       }
     ],
     "recent_30d": [
@@ -32581,7 +32581,7 @@
       56,
       61,
       60,
-      49
+      50
     ],
     "status": "active"
   },
