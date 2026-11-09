@@ -15755,8 +15755,8 @@
       0,
       0,
       1,
-      2,
       3,
+      2,
       3
     ],
     "status": "active"
@@ -37219,21 +37219,45 @@
     "status": "active"
   },
   "ktabkhanh-soti": {
-    "avg_gap_days": 7.4,
-    "avg_length": 32,
-    "episodes": 49,
-    "eps_365": 49,
-    "eps_90": 15,
+    "avg_gap_days": 6.8,
+    "avg_length": 33,
+    "episodes": 53,
+    "eps_365": 53,
+    "eps_90": 19,
     "first_at": "2025-11-17",
     "first_year": 1404,
     "last": "1405/08/18",
-    "last_at": "2026-11-09T10:00:12Z",
-    "last_link": "https://www.spreaker.com/episode/anja-kh-tmam-my-shwd-pydaym-kn-bkhsh-swm--76261954",
-    "last_title": "آنجا که تمام می‌شود، پیدایم کن (بخش سوم)",
+    "last_at": "2026-11-09T10:10:12Z",
+    "last_link": "https://www.spreaker.com/episode/bchh-ha-dr-jshn-twld-bkhsh-5-payan--76056227",
+    "last_title": "بچه‌ها در جشن تولد - بخش ۵ (پایان)",
     "max_length": 73,
-    "median_length": 25,
+    "median_length": 27,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76056227/episode.mp3",
+        "at": "2026-11-09T10:10:12Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/28da75832353fabc6090711a410810b4.jpg",
+        "t": "بچه‌ها در جشن تولد - بخش ۵ (پایان)"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76262123/episode.mp3",
+        "at": "2026-11-09T10:05:14Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
+        "t": "آنجا که تمام می‌شود، پیدایم کن (بخش پنجم)"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76056226/episode.mp3",
+        "at": "2026-11-09T10:05:13Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/28da75832353fabc6090711a410810b4.jpg",
+        "t": "بچه‌ها در جشن تولد - بخش ۴"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76262035/episode.mp3",
+        "at": "2026-11-09T10:05:12Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
+        "t": "آنجا که تمام می‌شود، پیدایم کن (بخش چهارم)"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76261954/episode.mp3",
         "at": "2026-11-09T10:00:12Z",
@@ -37257,50 +37281,26 @@
         "at": "2026-11-09T09:45:12Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/28da75832353fabc6090711a410810b4.jpg",
         "t": "بچه‌ها در جشن تولد - بخش ۱"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76261788/episode.mp3",
-        "at": "2026-11-09T09:20:12Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
-        "t": "آنجا که تمام می‌شود، پیدایم کن (بخش دوم)"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76261775/episode.mp3",
-        "at": "2026-11-09T09:15:12Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
-        "t": "آنجا که تمام می‌شود، پیدایم کن (بخش اول)"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76056098/episode.mp3",
-        "at": "2026-11-05T15:25:02Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/61a6acf171f6c6a6b42a205ba1035881.jpg",
-        "t": "قصه‌ها و افسانه‌ها - بخش ۳"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76055918/episode.mp3",
-        "at": "2026-11-02T15:24:02Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/61a6acf171f6c6a6b42a205ba1035881.jpg",
-        "t": "قصه‌ها و افسانه‌ها - بخش ۲"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-09T10:00:12Z",
+        "at": "2026-11-09T10:10:12Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/28da75832353fabc6090711a410810b4.jpg",
+        "link": "https://www.spreaker.com/episode/bchh-ha-dr-jshn-twld-bkhsh-5-payan--76056227",
+        "title": "بچه‌ها در جشن تولد - بخش ۵ (پایان)"
+      },
+      {
+        "at": "2026-11-09T10:05:14Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
-        "link": "https://www.spreaker.com/episode/anja-kh-tmam-my-shwd-pydaym-kn-bkhsh-swm--76261954",
-        "title": "آنجا که تمام می‌شود، پیدایم کن (بخش سوم)"
+        "link": "https://www.spreaker.com/episode/anja-kh-tmam-my-shwd-pydaym-kn-bkhsh-pnjm--76262123",
+        "title": "آنجا که تمام می‌شود، پیدایم کن (بخش پنجم)"
       },
       {
-        "at": "2026-11-09T10:00:12Z",
+        "at": "2026-11-09T10:05:13Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/28da75832353fabc6090711a410810b4.jpg",
-        "link": "https://www.spreaker.com/episode/bchh-ha-dr-jshn-twld-bkhsh-3--76056225",
-        "title": "بچه‌ها در جشن تولد - بخش ۳"
-      },
-      {
-        "at": "2026-11-09T09:50:12Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/28da75832353fabc6090711a410810b4.jpg",
-        "link": "https://www.spreaker.com/episode/bchh-ha-dr-jshn-twld-bkhsh-2--76056222",
-        "title": "بچه‌ها در جشن تولد - بخش ۲"
+        "link": "https://www.spreaker.com/episode/bchh-ha-dr-jshn-twld-bkhsh-4--76056226",
+        "title": "بچه‌ها در جشن تولد - بخش ۴"
       }
     ],
     "recent_30d": [
@@ -37315,7 +37315,7 @@
       5,
       2,
       4,
-      9
+      13
     ],
     "status": "active"
   },
