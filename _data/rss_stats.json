@@ -10281,19 +10281,25 @@
   "brnamh-hai-roanshnasi-persianbms": {
     "avg_gap_days": 7.0,
     "avg_length": 17,
-    "episodes": 23,
-    "eps_365": 23,
-    "eps_90": 12,
+    "episodes": 24,
+    "eps_365": 24,
+    "eps_90": 13,
     "first_at": "2026-06-01",
     "first_year": 1405,
-    "last": "1405/08/11",
-    "last_at": "2026-11-02T05:30:00Z",
-    "last_link": "https://share.transistor.fm/s/931a241e",
-    "last_title": "راهی هست: ۵. پس از خودکشی؛ چگونه از بازماندگان مراقبت کنیم؟",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T05:30:00Z",
+    "last_link": "https://share.transistor.fm/s/a80ffeca",
+    "last_title": "راهی هست: ۶. «طرح ایمنی»، راهی برای نجات از افکار خودکشی",
     "max_length": 26,
-    "median_length": 19,
+    "median_length": 16,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://media.transistor.fm/a80ffeca/42903236.mp3",
+        "at": "2026-11-09T05:30:00Z",
+        "i": "https://img.transistorcdn.com/PkBD57SzxDIAhtcBY6-zU3cKK0AdXJgVj_DMyU6B4Bk/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zMWQy/OTg3MDhiODRhYzhh/NTM2NWVkY2Y3ZmZl/NmYyYS5qcGc.jpg",
+        "t": "راهی هست: ۶. «طرح ایمنی»، راهی برای نجات از افکار خودکشی"
+      },
       {
         "a": "https://media.transistor.fm/931a241e/3f1ba8f0.mp3",
         "at": "2026-11-02T05:30:00Z",
@@ -10335,15 +10341,15 @@
         "at": "2026-09-21T06:30:00Z",
         "i": "https://img.transistorcdn.com/trdZv_LU2mXIXIx5mMhYLFqMORA6fGZPk2nlbB4sUmI/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lNjg3/NDVhYjhiNDA2Zjkz/OWM2NDAxNjNiNjg3/ZDBhYy5qcGc.jpg",
         "t": "اتاق آبی: ۱۱. چطور رشته تحصیلی و یا شغل مناسبی انتخاب کنیم؟"
-      },
-      {
-        "a": "https://media.transistor.fm/4d352131/4003754d.mp3",
-        "at": "2026-09-14T12:30:00Z",
-        "i": "https://img.transistorcdn.com/G3Ru-O_S5IfIKxXXmS6EkTfs0-vyk9wdbwSobHbPwIU/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9jYTY0/MzQwOTI1N2ZlZGJh/NmI1ZDE1MmU4OWJm/YzEyZi5qcGc.jpg",
-        "t": "اتاق آبی: ۱۰. موفقیت و امیدواری چه ارتباطی با هم دارند؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T05:30:00Z",
+        "i": "https://img.transistorcdn.com/PkBD57SzxDIAhtcBY6-zU3cKK0AdXJgVj_DMyU6B4Bk/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zMWQy/OTg3MDhiODRhYzhh/NTM2NWVkY2Y3ZmZl/NmYyYS5qcGc.jpg",
+        "link": "https://share.transistor.fm/s/a80ffeca",
+        "title": "راهی هست: ۶. «طرح ایمنی»، راهی برای نجات از افکار خودکشی"
+      },
       {
         "at": "2026-11-02T05:30:00Z",
         "i": "https://img.transistorcdn.com/st9fs0nvXgziIFrcOq6NWz4VGWwILVO3sOPL01Fgmls/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81ZGFk/YTE4MWU4YmMxNWJi/MTc3NzE0OGI0MjQ4/Mjg3ZS5qcGc.jpg",
@@ -10355,12 +10361,6 @@
         "i": "https://img.transistorcdn.com/mTVtfHOP04DR0Y5bP2pG5NlvNzMxWggQOJJIzdBhORE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9iNzA0/MTRhYzllNmMzYTBh/Y2IyMGU3OTFmOTNm/ZjVmNS5qcGc.jpg",
         "link": "https://share.transistor.fm/s/60d01559",
         "title": "راهی هست: ۴. خانواده، سپری در برابر خودکشی"
-      },
-      {
-        "at": "2026-10-19T05:30:00Z",
-        "i": "https://img.transistorcdn.com/mt_RQS-RKW_gzWQB8LRWTOJ3F3GogjUmn8VBanw77Ec/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81YmFm/OGJkZWQyZGMyMjJh/NjFjMzRjZjE2Yjg4/YTNmOC5qcGc.jpg",
-        "link": "https://share.transistor.fm/s/53d1c712",
-        "title": "راهی هست: ۳. چگونه با فردی که به خودکشی فکر می‌کند رفتار کنیم؟"
       }
     ],
     "recent_30d": [
@@ -10375,7 +10375,7 @@
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   },
