@@ -60823,21 +60823,27 @@
     "status": "stopped"
   },
   "podcast-shb-tab": {
-    "avg_gap_days": 2.2,
-    "avg_length": 35,
-    "episodes": 22,
-    "eps_365": 22,
-    "eps_90": 22,
+    "avg_gap_days": 2.5,
+    "avg_length": 36,
+    "episodes": 23,
+    "eps_365": 23,
+    "eps_90": 23,
     "first_at": "2026-09-15",
     "first_year": 1405,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T21:26:56Z",
-    "last_link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/cc9fec0c-388d-40ff-b6d3-5283667f08ae/play.mp3?v=1",
-    "last_title": "شب تاب: لیسنکو در برابر واویلُف - قسمت اول: طلا در برابر بذر",
-    "max_length": 46,
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T18:37:47Z",
+    "last_link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/414cac28-3098-4b35-81e5-d70b83e4851e/play.mp3?v=1",
+    "last_title": "شب تاب: لیسنکو در برابر واویلُف - قسمت دوم: آزمایش یا نمایش؟",
+    "max_length": 48,
     "median_length": 35,
     "min_length": 23,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/414cac28-3098-4b35-81e5-d70b83e4851e/play.mp3?v=1",
+        "at": "2026-11-09T18:37:47Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/414cac28-3098-4b35-81e5-d70b83e4851e/artwork.jpg?v=1",
+        "t": "شب تاب: لیسنکو در برابر واویلُف - قسمت دوم: آزمایش یا نمایش؟"
+      },
       {
         "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/cc9fec0c-388d-40ff-b6d3-5283667f08ae/play.mp3?v=1",
         "at": "2026-11-01T21:26:56Z",
@@ -60879,15 +60885,15 @@
         "at": "2026-10-13T13:13:48Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/e51ea636-9049-474c-96da-4333a8c70267/artwork.jpg?v=1",
         "t": "شب تاب: گروه دانر - قسمت اول: راهی به بهشت"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/7090716a-a897-4e33-b0d4-0876a29295e8/play.mp3?v=1",
-        "at": "2026-10-09T20:58:28Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/7090716a-a897-4e33-b0d4-0876a29295e8/artwork.jpg?v=1",
-        "t": "شب تاب: داروین روی کشتی بیگل - بخش پنجم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T18:37:47Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/414cac28-3098-4b35-81e5-d70b83e4851e/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/414cac28-3098-4b35-81e5-d70b83e4851e/play.mp3?v=1",
+        "title": "شب تاب: لیسنکو در برابر واویلُف - قسمت دوم: آزمایش یا نمایش؟"
+      },
       {
         "at": "2026-11-01T21:26:56Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/cc9fec0c-388d-40ff-b6d3-5283667f08ae/artwork.jpg?v=1",
@@ -60899,12 +60905,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/c9940e8d-9875-4fe7-aab8-30897c2ce9e9/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/c9940e8d-9875-4fe7-aab8-30897c2ce9e9/play.mp3?v=1",
         "title": "شب تاب: گروه دانر - قسمت ششم: نه چندان نجات"
-      },
-      {
-        "at": "2026-10-25T13:30:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/9b89cc3e-a136-4237-be8c-e5185368f204/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/9b89cc3e-a136-4237-be8c-e5185368f204/play.mp3?v=1",
-        "title": "شب تاب: گروه دانر - قسمت پنجم: اُمید متروک"
       }
     ],
     "recent_30d": [
@@ -60919,7 +60919,7 @@
       0,
       0,
       15,
-      7
+      8
     ],
     "status": "active"
   },
@@ -79754,7 +79754,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4255,
-    "eps_365": 802,
+    "eps_365": 801,
     "eps_90": 256,
     "first_at": "2023-09-13",
     "first_year": 1402,
