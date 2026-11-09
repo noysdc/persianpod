@@ -48248,21 +48248,27 @@
     "status": "active"
   },
   "podcast-astorh-shnasi-thot": {
-    "avg_gap_days": 8.9,
+    "avg_gap_days": 8.8,
     "avg_length": 46,
-    "episodes": 178,
-    "eps_365": 39,
-    "eps_90": 12,
+    "episodes": 179,
+    "eps_365": 40,
+    "eps_90": 13,
     "first_at": "2024-04-12",
     "first_year": 1403,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T17:18:52Z",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T06:53:35Z",
     "last_link": "https://thothpodcast.com/",
-    "last_title": "گیلگمش - مقدمه",
+    "last_title": "فصل پنجم - اساطیر هند - رامایانا : نجات 4",
     "max_length": 90,
     "median_length": 39,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6af16def90fa9555b368213a/media.mp3",
+        "at": "2026-11-09T06:53:35Z",
+        "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1794204754414-4c0fcc1a-74f1-414d-82e4-7a16b696a14d.jpeg",
+        "t": "فصل پنجم - اساطیر هند - رامایانا : نجات 4"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6aeb68fd7be9b695a640f09d/media.mp3",
         "at": "2026-11-04T17:18:52Z",
@@ -48304,15 +48310,15 @@
         "at": "2026-09-20T08:00:00Z",
         "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1790658072290-9eb06aac-ba26-48cc-a95b-e7afbee19221.jpeg",
         "t": "فصل پنجم - اساطیر هند - رامایانا : نجات 1"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6aa674c31563582c0590617e/media.mp3",
-        "at": "2026-09-13T10:02:43Z",
-        "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1789293635584-0cfa89e1-0713-45be-9465-b6cd419c6c3a.jpeg",
-        "t": "تاریخ جادوگری - کارکرد جادو در جوامع"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T06:53:35Z",
+        "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1794204754414-4c0fcc1a-74f1-414d-82e4-7a16b696a14d.jpeg",
+        "link": "https://thothpodcast.com/",
+        "title": "فصل پنجم - اساطیر هند - رامایانا : نجات 4"
+      },
       {
         "at": "2026-11-04T17:18:52Z",
         "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1793812516639-57684bd1-e5d9-49d1-ab66-e2d69cca4958.jpeg",
@@ -48324,12 +48330,6 @@
         "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1793448846908-bd94dc85-83af-45b2-b8ed-d02820ca2f80.jpeg",
         "link": "https://thothpodcast.com/",
         "title": "خانه ای تازه برای تحوت"
-      },
-      {
-        "at": "2026-10-25T13:10:42Z",
-        "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1792933129701-60e38d86-28ff-4a63-92c3-1f2d913d51ef.jpeg",
-        "link": "https://thothpodcast.com/",
-        "title": "اساطیر روم باستان - قسمت اول"
       }
     ],
     "recent_30d": [
@@ -48344,7 +48344,7 @@
       7,
       4,
       3,
-      5
+      6
     ],
     "status": "active"
   },
@@ -65527,8 +65527,8 @@
     "status": "active"
   },
   "radio-nmashom": {
-    "avg_length": 41,
-    "episodes": 724,
+    "avg_length": 40,
+    "episodes": 730,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2019-06-05",
@@ -65538,7 +65538,7 @@
     "last_link": "https://podcasters.spotify.com/pod/show/persianradio/episodes/ep-e2b1o4i",
     "last_title": "آزاده طباطبائی: استرس مثبت و منفی",
     "max_length": 149,
-    "median_length": 9,
+    "median_length": 10,
     "min_length": 1,
     "play": [
       {
