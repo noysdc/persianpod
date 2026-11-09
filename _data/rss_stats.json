@@ -79528,21 +79528,27 @@
     "status": "stopped"
   },
   "the-spies-circle": {
-    "avg_gap_days": 5.4,
+    "avg_gap_days": 6.4,
     "avg_length": 21,
-    "episodes": 36,
-    "eps_365": 22,
-    "eps_90": 11,
+    "episodes": 37,
+    "eps_365": 23,
+    "eps_90": 12,
     "first_at": "2024-09-14",
     "first_year": 1403,
-    "last": "1405/07/20",
-    "last_at": "2026-10-12T17:45:00Z",
-    "last_link": "https://shows.acast.com/the-spies-circle/episodes/6accb3568f90a39dfc586694",
-    "last_title": "گونتر گیوم؛ جاسوسی که به دفتر صدراعظم رسید",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T17:45:00Z",
+    "last_link": "https://shows.acast.com/the-spies-circle/episodes/6af20491876cc2ea402f1a63",
+    "last_title": "ولادیمیر وتروف؛ مردی که شبکهٔ سرقت فناوری شوروی را لو داد",
     "max_length": 49,
     "median_length": 22,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66d944afeeeb1e3b757154c0/e/6af20491876cc2ea402f1a63/media.mp3",
+        "at": "2026-11-09T17:45:00Z",
+        "i": "https://assets.pippa.io/shows/66d944afeeeb1e3b757154c0/1794245645799-9e0a1b87-003a-4e3b-9a7f-f0f84b715b2b.jpeg",
+        "t": "ولادیمیر وتروف؛ مردی که شبکهٔ سرقت فناوری شوروی را لو داد"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/66d944afeeeb1e3b757154c0/e/6accb3568f90a39dfc586694/media.mp3",
         "at": "2026-10-12T17:45:00Z",
@@ -79584,15 +79590,15 @@
         "at": "2026-08-30T09:11:41Z",
         "i": "https://assets.pippa.io/shows/66d944afeeeb1e3b757154c0/1788080982365-2e3fa4da-2a44-44bf-9c97-bdcef5908460.jpeg",
         "t": "اولگ پنکوفسکی؛ جاسوسی که پشت بلوف شوروی را دید - بخش دوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/66d944afeeeb1e3b757154c0/e/6a93e4be1d52ae16ba721871/media.mp3",
-        "at": "2026-08-30T08:07:26Z",
-        "i": "https://assets.pippa.io/shows/66d944afeeeb1e3b757154c0/1788077076523-3de67a5d-d835-4fac-950f-a86a153541f8.jpeg",
-        "t": "اولگ پنکوفسکی؛ جاسوسی که پشت بلوف شوروی را دید - بخش اول"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T17:45:00Z",
+        "i": "https://assets.pippa.io/shows/66d944afeeeb1e3b757154c0/1794245645799-9e0a1b87-003a-4e3b-9a7f-f0f84b715b2b.jpeg",
+        "link": "https://shows.acast.com/the-spies-circle/episodes/6af20491876cc2ea402f1a63",
+        "title": "ولادیمیر وتروف؛ مردی که شبکهٔ سرقت فناوری شوروی را لو داد"
+      },
       {
         "at": "2026-10-12T17:45:00Z",
         "i": "https://assets.pippa.io/shows/66d944afeeeb1e3b757154c0/1791800062596-356017ae-072a-42c5-a038-60bc008faea8.jpeg",
@@ -79604,12 +79610,6 @@
         "i": "https://assets.pippa.io/shows/66d944afeeeb1e3b757154c0/1791744210769-0ba60ff0-5b24-4378-872b-c2246f8a3c7e.jpeg",
         "link": "https://shows.acast.com/the-spies-circle/episodes/6acbdbb429b9fbfbe229c9aa",
         "title": "قرار بود ده جاسوس باشن…: چند کلمه دربارهٔ ادامهٔ فصل سوم"
-      },
-      {
-        "at": "2026-09-19T13:30:00Z",
-        "i": "https://assets.pippa.io/shows/66d944afeeeb1e3b757154c0/1789821757306-81d56f18-71b7-4c81-a8e0-d8d03484c228.jpeg",
-        "link": "https://shows.acast.com/the-spies-circle/episodes/6aae4a410a12e917748564b8",
-        "title": "جان آنتونی واکر؛ پدری که خانواده‌اش را جاسوس کرد - بخش دوم"
       }
     ],
     "recent_30d": [
@@ -79624,7 +79624,7 @@
       7,
       7,
       2,
-      2
+      3
     ],
     "status": "active"
   },
