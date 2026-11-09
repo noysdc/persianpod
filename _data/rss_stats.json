@@ -39279,8 +39279,8 @@
       20,
       30,
       28,
-      29,
-      26,
+      30,
+      25,
       30,
       23,
       28,
@@ -61730,19 +61730,25 @@
   "pol-mhm-ast": {
     "avg_gap_days": 9.6,
     "avg_length": 13,
-    "episodes": 116,
-    "eps_365": 38,
-    "eps_90": 12,
+    "episodes": 117,
+    "eps_365": 39,
+    "eps_90": 13,
     "first_at": "2022-08-20",
     "first_year": 1401,
-    "last": "1405/08/11",
-    "last_at": "2026-11-02T04:55:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/sydney-housing-market-has-reached-a-new-low-but-are-homes-affordable/zn4rv78hx",
-    "last_title": "بازار مسکن سیدنی به پایین‌ترین سطح جدیدی رسیده است؛ اما آیا خرید خانه آسان شده‌ است؟",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T03:04:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/cant-afford-to-buy-a-home-you-might-just-be-better-off/gsaadsz8e",
+    "last_title": "بخریم یا نه؛ آیا خانه‌دارشدن در استرالیا یک سرمایه‌گذاری موثر است؟",
     "max_length": 33,
     "median_length": 10,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/money-matters/20261109140412_880428-persian-b303ea3b-081a-4f98-af02-c8b9fbb653ed.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a1-bdec-d376-a9af-fffc91ad0000&dur_cat=3",
+        "at": "2026-11-09T03:04:00Z",
+        "i": "https://sbs-rss.streamguys1.com/money-matters/20261109140617_528216-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
+        "t": "بخریم یا نه؛ آیا خانه‌دارشدن در استرالیا یک سرمایه‌گذاری موثر است؟"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/money-matters/20261102155604_863543-persian-f0ae5b4e-f570-44e2-9a5f-78bcaa6041b5.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a1-9a65-d1d6-a5bd-fff757920000&dur_cat=2",
         "at": "2026-11-02T04:55:00Z",
@@ -61784,15 +61790,15 @@
         "at": "2026-09-24T06:55:00Z",
         "i": "https://sbs-rss.streamguys1.com/money-matters/20260924165525_904607-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
         "t": "قرض و بدهی در استرالیا؛ چه حقوقی داریم و چه راه‌هایی پیش روست؟"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/money-matters/20260917121309_595361-persian-1ee11e2d-bc71-4532-a3cb-ed29c5413606.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a0-acef-d9ac-a7f6-beef74890000&dur_cat=3",
-        "at": "2026-09-17T02:13:00Z",
-        "i": "https://sbs-rss.streamguys1.com/money-matters/20260917121316_843415-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
-        "t": "افت قیمت خانه‌های لوکس در استرالیا، دو برابر سریع‌تر از بازار ارزان؛ آیا نوبت به خانه‌های متوسط هم می‌رسد؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T03:04:00Z",
+        "i": "https://sbs-rss.streamguys1.com/money-matters/20261109140617_528216-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/cant-afford-to-buy-a-home-you-might-just-be-better-off/gsaadsz8e",
+        "title": "بخریم یا نه؛ آیا خانه‌دارشدن در استرالیا یک سرمایه‌گذاری موثر است؟"
+      },
       {
         "at": "2026-11-02T04:55:00Z",
         "i": "https://sbs-rss.streamguys1.com/money-matters/20261102155638_948848-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
@@ -61804,12 +61810,6 @@
         "i": "https://sbs-rss.streamguys1.com/money-matters/20261028163106_668210-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/dream-of-homeownership-in-australia-what-to-know-before-buying/vlbnkfp9j",
         "title": "رویای خانه‌دار شدن در استرالیا؛ پیش از خرید چه باید بدانیم؟"
-      },
-      {
-        "at": "2026-10-21T01:55:00Z",
-        "i": "https://sbs-rss.streamguys1.com/money-matters/20261022163126_506934-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/artificial-intelligence-money-and-the-future-of-work-in-australia-opportunities-threats-and-skills-to-learn-today/t9r4qm2wb",
-        "title": "هوش مصنوعی، پول و آینده کار در استرالیا؛ فرصت‌ها، تهدیدها و مهارت‌هایی که باید از امروز آموخت"
       }
     ],
     "recent_30d": [
@@ -61824,7 +61824,7 @@
       1,
       4,
       2,
-      6
+      7
     ],
     "status": "active"
   },
