@@ -1,11 +1,12 @@
 ## ممیزی تکراری‌ها
 
-- فایل‌های بررسی‌شده: **981** (`_podcasts/`: 818 · `_drafts/`: 0 · `_blocked/`: 163)
-- جفت‌های تکراریِ قطعی: **21**
-- جفت‌های هم‌نام با سازنده‌ی متفاوت (احتمالاً دو پادکستِ جدا؛ فقط برای اطلاع): **12**
+- فایل‌های بررسی‌شده: **1107** (`_podcasts/`: 901 · `_drafts/`: 21 · `_blocked/`: 185)
+- جفت‌های تکراریِ قطعی: **23**
+- جفت‌های هم‌نام با سازنده‌ی متفاوت (احتمالاً دو پادکستِ جدا؛ فقط برای اطلاع): **14**
 
 ### تکراری (باید یکی‌شان حذف یا بلاک شود)
 - `_blocked/prshin-trnd.md` «پرشین ترند» ⟷ `_podcasts/persian-trend.md` «پرشین ترند» — pi_id یکسان، RSS یکسان، شناسه‌ی اپل یکسان، عنوان و سازنده یکسان
+- `_blocked/podcast-hosh-msnoai.md` «پادکست هوش مصنوعی» ⟷ `_podcasts/ai-natives.md` «پادکست هوش مصنوعی | AI Natives» — RSS یکسان، هم‌نام با سازنده‌ی متفاوت
 - `_blocked/dghdghh-airan-8008842.md` «دغدغه ایران» ⟷ `_podcasts/dghdghh-airan.md` «دغدغه ایران» — عنوان و سازنده یکسان
 - `_blocked/frdai-aghtsad-8017031.md` «فردای اقتصاد» ⟷ `_podcasts/frdai-aghtsad.md` «فردای اقتصاد» — عنوان و سازنده یکسان
 - `_blocked/frdai-aghtsad-8017032.md` «فردای اقتصاد» ⟷ `_podcasts/frdai-aghtsad.md` «فردای اقتصاد» — عنوان و سازنده یکسان
@@ -26,14 +27,17 @@
 - `_blocked/podcast-roanshnasi-saikopad-3427358.md` «پادکست روانشناسی سایکوپاد» ⟷ `_podcasts/podcast-roanshnasi-saikopad.md` «پادکست روانشناسی سایکوپاد» — عنوان و سازنده یکسان
 - `_blocked/radio-dastan-1509162.md` «رادیو داستان» ⟷ `_podcasts/radio-dastan.md` «رادیو داستان» — عنوان و سازنده یکسان
 - `_podcasts/synapselingo-iadgiri-zban-aalmani.md` «SynapseLingo یادگیری زبان آلمانی» ⟷ `_podcasts/synapselingo-iadgiri-zban-anglisi.md` «SynapseLingo یادگیری زبان انگلیسی» — عنوان و سازنده یکسان
+- `_blocked/klisa-o-shma-pwr.md` «کلیسا و شما-PWR» ⟷ `_blocked/pigham-roz.md` «پیغام روز» — عنوان و سازنده یکسان
 
 
 ### هم‌نام، سازنده‌ی متفاوت
 - `_blocked/arttuneradio-radio-aaoai-hnr-878947.md` «ArtTuneRadio/رادیو آوای هنر» ⟷ `_podcasts/arttuneradio-radio-aaoai-hnr.md` «ArtTuneRadio/رادیو آوای هنر» — هم‌نام با سازنده‌ی متفاوت
 - `_blocked/bplus-bi-plas-padkst-farsi-khlash-ktab.md` «BPLUS بی‌پلاس پادکست فارسی خلاصه کتاب» ⟷ `_podcasts/bplus.md` «بی پلاس؛ قدم‌های کوچک در راه کنجکاوی‌های بزرگ» — هم‌نام با سازنده‌ی متفاوت
 - `_blocked/dastan-hai-hzar-o-ik-shb-7528813.md` «داستان‌های هزار و یک شب» ⟷ `_podcasts/dastan-hai-hzar-o-ik-shb.md` «داستان های هزار و یک شب» — هم‌نام با سازنده‌ی متفاوت
+- `_podcasts/hzar-o-ik-shb.md` «هزار و یک شب» ⟷ `_podcasts/one-thusand-and-one.md` «هزار و یک شب» — هم‌نام با سازنده‌ی متفاوت
 - `_blocked/jamah-1080211.md` «جامعه» ⟷ `_podcasts/jamah.md` «جامعه» — هم‌نام با سازنده‌ی متفاوت
 - `_podcasts/kodk-mn-4854622.md` «کودک من» ⟷ `_podcasts/kodk-mn.md` «کودک من» — هم‌نام با سازنده‌ی متفاوت
+- `_podcasts/ktab-nfr-digri-kh-dr-bhsht-mlaghat-miknid-kaml-zhanr-flsfh.md` «کتاب \» ⟷ `_podcasts/rah-awin.md` «رهاوین | کتاب | عرفان و خودشناسی» — هم‌نام با سازنده‌ی متفاوت
 - `_podcasts/podcast-roanshnasi.md` «پادکست روانشناسی» ⟷ `_podcasts/psychology-roanshnasi.md` «Psychology / روانشناسی» — هم‌نام با سازنده‌ی متفاوت
 - `_blocked/podcast-radio-karaafrini-ali-khadm-alrza.md` «پادکست رادیو کارآفرینی علی خادم الرضا» ⟷ `_podcasts/radio-karaafrini-ali-khadm-alrza.md` «رادیو کارآفرینی علی خادم الرضا» — هم‌نام با سازنده‌ی متفاوت
 - `_podcasts/sayeroshan-podcast.md` «سایه‌روشن؛ پادکست شبانه» ⟷ `_podcasts/shabaneh-padkst-shbanh.md` «shabaneh/پادکست شبانه» — هم‌نام با سازنده‌ی متفاوت
