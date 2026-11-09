@@ -73561,21 +73561,27 @@
     "status": "active"
   },
   "shahnamh-khodmoni": {
-    "avg_gap_days": 29.9,
-    "avg_length": 65,
-    "episodes": 54,
-    "eps_365": 12,
-    "eps_90": 4,
+    "avg_gap_days": 28.5,
+    "avg_length": 66,
+    "episodes": 55,
+    "eps_365": 13,
+    "eps_90": 5,
     "first_at": "2020-12-10",
     "first_year": 1399,
-    "last": "1405/08/05",
-    "last_at": "2026-10-27T13:14:09Z",
-    "last_link": "https://shenoto.com/album/podcast/1892953/اپیزود۵۴- تویی که نمی‌شناختمت",
-    "last_title": "اپیزود۵۴- تویی که نمی‌شناختمت",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T15:24:43Z",
+    "last_link": "https://shenoto.com/album/podcast/1895906/اپیزود۵۵- مسافری از هند",
+    "last_title": "اپیزود۵۵- مسافری از هند",
     "max_length": 93,
-    "median_length": 52,
+    "median_length": 53,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/b0327f8c-dc51-11f1-946a-4ef03eea55df.mp3",
+        "at": "2026-11-09T15:24:43Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/49430087-36b2-461a-a26d-4a5e3a485c18/cover/3000.jpg",
+        "t": "اپیزود۵۵- مسافری از هند"
+      },
       {
         "a": "https://shenoto.com/service/api/play/podcast/4ba7ebad-d208-11f1-9733-b6a9b1f724f3.mp3",
         "at": "2026-10-27T13:14:09Z",
@@ -73617,15 +73623,15 @@
         "at": "2026-06-13T18:41:51Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/24022da7-9d68-4636-9ce3-021d1f349593/cover/3000.jpg",
         "t": "اپیزود۴۸- محاکمۀ یک فرمانده"
-      },
-      {
-        "a": "https://shenoto.com/service/api/play/podcast/30a20273-5c3d-11f1-a697-5e49d4b26530.mp3",
-        "at": "2026-05-30T15:35:30Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/41e7c8ea-3013-4021-8d53-cbfdb79f3209/cover/3000.jpg",
-        "t": "اپیزود۴۷- تاج خائن رو بردار!"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T15:24:43Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/49430087-36b2-461a-a26d-4a5e3a485c18/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/1895906/اپیزود۵۵- مسافری از هند",
+        "title": "اپیزود۵۵- مسافری از هند"
+      },
       {
         "at": "2026-10-27T13:14:09Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/16df8767-cb76-42eb-bf3e-34a85806dcfc/cover/3000.jpg",
@@ -73637,12 +73643,6 @@
         "i": "https://cdn-arch.shenoto.com/shenoto-album/df4ee99a-3f49-4167-a31b-f1079ed235ba/cover/3000.jpg",
         "link": "https://shenoto.com/album/podcast/1886369/اپیزود۵۳- جهان‌پهلوان برمی‌خیزد",
         "title": "اپیزود۵۳- جهان‌پهلوان برمی‌خیزد"
-      },
-      {
-        "at": "2026-09-13T09:53:23Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/b56e08eb-96f0-4fe1-864e-649e60e04112/cover/3000.jpg",
-        "link": "https://shenoto.com/album/podcast/1881736/اپیزود۵۲- دار و دستۀ چینی‌ها",
-        "title": "اپیزود۵۲- دار و دستۀ چینی‌ها"
       }
     ],
     "recent_30d": [
@@ -73657,7 +73657,7 @@
       1,
       1,
       2,
-      1
+      2
     ],
     "status": "active"
   },
