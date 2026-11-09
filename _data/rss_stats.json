@@ -55682,26 +55682,21 @@
     "status": "active"
   },
   "podcast-khoab-kodkanh": {
-    "avg_gap_days": 9.8,
+    "avg_gap_days": 9.9,
     "avg_length": 9,
-    "episodes": 169,
-    "eps_365": 38,
-    "eps_90": 9,
+    "episodes": 168,
+    "eps_365": 37,
+    "eps_90": 8,
     "first_at": "2022-02-16",
     "first_year": 1400,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T22:37:17Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3s1e9c",
-    "last_title": "چه کسی برف ها رو دزدیده",
+    "last": "1405/08/10",
+    "last_at": "2026-11-01T22:42:31Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3rihm9",
+    "last_title": "پپا فوتبال بازی می کند",
     "max_length": 34,
     "median_length": 11,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/51d21800/podcast/play/129070828/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2F436245201-44100-2-3dd87985575f.m4a",
-        "at": "2026-11-08T22:37:17Z",
-        "t": "چه کسی برف ها رو دزدیده"
-      },
       {
         "a": "https://anchor.fm/s/51d21800/podcast/play/128582793/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F435620554-44100-2-19ae5a0c526a5.m4a",
         "at": "2026-11-01T22:42:31Z",
@@ -55736,14 +55731,14 @@
         "a": "https://anchor.fm/s/51d21800/podcast/play/125686595/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-13%2F431823204-44100-2-1389ba55a615d.m4a",
         "at": "2026-09-13T21:24:47Z",
         "t": "فرانکلین و معلم جدید"
+      },
+      {
+        "a": "https://anchor.fm/s/51d21800/podcast/play/125427406/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-8%2F431480289-44100-2-0ea8a32e453a4.m4a",
+        "at": "2026-09-08T22:09:41Z",
+        "t": "پپا به دندانپزشکی می رود"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-08T22:37:17Z",
-        "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3s1e9c",
-        "title": "چه کسی برف ها رو دزدیده"
-      },
       {
         "at": "2026-11-01T22:42:31Z",
         "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3rihm9",
@@ -55753,6 +55748,11 @@
         "at": "2026-10-18T22:25:38Z",
         "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3qn9ld",
         "title": "پپا و مهمانی پر ماجرا"
+      },
+      {
+        "at": "2026-10-11T22:15:34Z",
+        "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3qbmbd",
+        "title": "روز بازیافت"
       }
     ],
     "recent_30d": [
@@ -55767,7 +55767,7 @@
       6,
       1,
       4,
-      4
+      3
     ],
     "status": "active"
   },
