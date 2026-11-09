@@ -3263,25 +3263,19 @@
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.6,
     "avg_length": 6,
-    "episodes": 32,
-    "eps_365": 32,
-    "eps_90": 32,
+    "episodes": 31,
+    "eps_365": 31,
+    "eps_90": 31,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T15:32:30Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s345g",
-    "last_title": "کلیله‌ودمنه کودکانه | قسمت سیزدهم | بوم و زاغ (١)",
+    "last": "1405/08/17",
+    "last_at": "2026-11-08T19:19:10Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s16hr",
+    "last_title": "شاهنامه کودکانه | قسمت يازدهم | زالِ سپیدمو و سیمرغ",
     "max_length": 10,
     "median_length": 5,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/129126000/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F66a8e5bc-491f-7fc5-9902-d4ce0dbd808e.mp3",
-        "at": "2026-11-09T15:32:30Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794238359403-a118ae05441df.jpg",
-        "t": "کلیله‌ودمنه کودکانه | قسمت سیزدهم | بوم و زاغ (١)"
-      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/129062907/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2F5c8b76f0-c655-ca6e-8876-42cb05f9fe6f.mp3",
         "at": "2026-11-08T19:19:10Z",
@@ -3323,15 +3317,15 @@
         "at": "2026-10-17T10:10:31Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1792231810787-dfe6d721271cd.jpg",
         "t": "کلیله و دمنه کودکانه | قسمت نهم | کبوتر طوق‌دار(۱)"
+      },
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/127342009/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-12%2F8f92b62c-affd-14e9-f006-58ba95b7acfb.mp3",
+        "at": "2026-10-12T14:26:43Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1791815212678-0a7167b09a2bd.jpg",
+        "t": "شاهنامه کودکانه |قسمت هشتم | سه پسر فریدون"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-09T15:32:30Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794238359403-a118ae05441df.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s345g",
-        "title": "کلیله‌ودمنه کودکانه | قسمت سیزدهم | بوم و زاغ (١)"
-      },
       {
         "at": "2026-11-08T19:19:10Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794165564454-33fb9aba08035.jpg",
@@ -3343,6 +3337,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
         "title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
+      },
+      {
+        "at": "2026-11-01T19:05:07Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793559915422-eb9a246b41b18.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3ri9g1",
+        "title": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت"
       }
     ],
     "recent_30d": [
@@ -3357,7 +3357,7 @@
       0,
       16,
       6,
-      10
+      9
     ],
     "status": "active"
   },
@@ -29337,8 +29337,8 @@
       0,
       1,
       1,
-      0,
       1,
+      0,
       2
     ],
     "status": "active"
@@ -61829,42 +61829,30 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.1,
-    "avg_length": 113,
-    "episodes": 87,
-    "eps_365": 87,
-    "eps_90": 87,
+    "avg_length": 111,
+    "episodes": 85,
+    "eps_365": 85,
+    "eps_90": 85,
     "first_at": "2026-11-01",
     "first_year": 1405,
     "last": "1405/08/18",
-    "last_at": "2026-11-09T16:08:14Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakdaman--Nasser-Part-2-e3s37k9",
-    "last_title": "Pakdaman, Nasser Part 2",
+    "last_at": "2026-11-09T00:46:19Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakravan--Fatemeh-Part-2-e3s1j2l",
+    "last_title": "Pakravan, Fatemeh Part 2",
     "max_length": 134,
     "median_length": 116,
     "min_length": 20,
     "play": [
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129129545/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F981aaacd-f44d-4a51-2353-d313bb97552e.mp3",
-        "at": "2026-11-09T16:08:14Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240433773-516bed184f615.jpg",
-        "t": "Pakdaman, Nasser Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129129272/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F91eed52d-dc41-7881-c1f0-dc0518e4654d.mp3",
-        "at": "2026-11-09T16:06:49Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240398859-5756e37d6ca1b.jpg",
-        "t": "Pakdaman, Nasser Part 1"
-      },
-      {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/129075733/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2Fd855d523-79a6-471c-08e3-e0467bf00138.mp3",
         "at": "2026-11-09T00:46:19Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794239284504-a5ae11ab2a715.jpg",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794185110747-bac9f99518603.jpg",
         "t": "Pakravan, Fatemeh Part 2"
       },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/129075407/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F5c733c0a-26dc-61dc-8e69-94d5d31b793c.mp3",
         "at": "2026-11-09T00:44:51Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794239257838-401903c58e551.jpg",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794185087956-1d9d6ac37d128.jpg",
         "t": "Pakravan, Fatemeh Part 1"
       },
       {
@@ -61890,26 +61878,38 @@
         "at": "2026-11-08T18:25:17Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794162258782-0434e0338dd5c.jpg",
         "t": "Amini, Ali Part 2"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129060508/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2Fa88f36df-cc9a-018c-d5d5-4464aa778e02.mp3",
+        "at": "2026-11-08T18:23:51Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794162158591-4de05b63b041d.jpg",
+        "t": "Amini, Ali Part 1"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128968942/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F1c501fad-9b98-869e-63b4-68e4cae4fdad.mp3",
+        "at": "2026-11-07T03:26:55Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794021954874-14755fc9d34d.jpg",
+        "t": "Nazih, Hassan Part 5"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-09T16:08:14Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240433773-516bed184f615.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakdaman--Nasser-Part-2-e3s37k9",
-        "title": "Pakdaman, Nasser Part 2"
-      },
-      {
-        "at": "2026-11-09T16:06:49Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240398859-5756e37d6ca1b.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakdaman--Nasser-Part-1-e3s37bo",
-        "title": "Pakdaman, Nasser Part 1"
-      },
-      {
         "at": "2026-11-09T00:46:19Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794239284504-a5ae11ab2a715.jpg",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794185110747-bac9f99518603.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakravan--Fatemeh-Part-2-e3s1j2l",
         "title": "Pakravan, Fatemeh Part 2"
+      },
+      {
+        "at": "2026-11-09T00:44:51Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794185087956-1d9d6ac37d128.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakravan--Fatemeh-Part-1-e3s1iof",
+        "title": "Pakravan, Fatemeh Part 1"
+      },
+      {
+        "at": "2026-11-09T00:02:11Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794182466358-d6f1126d5334.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Bakhtiar--Chapour-Part-2-e3s1hd1",
+        "title": "Bakhtiar, Chapour Part 2"
       }
     ],
     "recent_30d": [
@@ -61924,7 +61924,7 @@
       0,
       0,
       0,
-      87
+      85
     ],
     "status": "active"
   },
@@ -78382,21 +78382,27 @@
     "status": "stopped"
   },
   "tarikh-hnr-khfn": {
-    "avg_gap_days": 21.7,
+    "avg_gap_days": 21.2,
     "avg_length": 61,
-    "episodes": 66,
-    "eps_365": 17,
-    "eps_90": 4,
+    "episodes": 67,
+    "eps_365": 18,
+    "eps_90": 5,
     "first_at": "2024-06-17",
     "first_year": 1403,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T14:23:47Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/ep-e3r4877",
-    "last_title": "فصل سوم، مقدمه",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T15:57:23Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/ep-e3s2jge",
+    "last_title": "ساکن شدن خدایان",
     "max_length": 87,
     "median_length": 59,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://anchor.fm/s/f7bbd8dc/podcast/play/129108942/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2Fcc1c2e76-1f82-f705-369f-264982ac8b3e.mp3",
+        "at": "2026-11-09T15:57:23Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41462831/41462831-1794228166677-db20b96ec88f4.jpg",
+        "t": "ساکن شدن خدایان"
+      },
       {
         "a": "https://anchor.fm/s/f7bbd8dc/podcast/play/128114343/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-26%2Fd35c03bd-e3cf-19f9-7972-e5db1b6f1c7d.mp3",
         "at": "2026-10-26T14:23:47Z",
@@ -78438,15 +78444,15 @@
         "at": "2026-06-27T06:42:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41462831/41462831-1782482742151-504ddd0919682.jpg",
         "t": "پارینه سنگی قدیم در ایران - بخش دوم"
-      },
-      {
-        "a": "https://anchor.fm/s/f7bbd8dc/podcast/play/121160993/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-8%2F7add93b5-3cf1-fc4b-53a5-79201c3ff1fb.mp3",
-        "at": "2026-06-08T15:43:08Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41462831/41462831-1780933356105-c2c908fbc3ede.jpg",
-        "t": "پارینه سنگی قدیم در ایران"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T15:57:23Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41462831/41462831-1794228166677-db20b96ec88f4.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/ep-e3s2jge",
+        "title": "ساکن شدن خدایان"
+      },
       {
         "at": "2026-10-26T14:23:47Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41462831/41462831-1793024608552-f8f21a3a6dc5c.jpg",
@@ -78458,12 +78464,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41462831/41462831-1791134228668-274b10abd33e5.jpg",
         "link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/--e3psehi",
         "title": "انسان خردمند - قسمت دوم"
-      },
-      {
-        "at": "2026-09-21T12:24:48Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41462831/41462831-1789992897459-f43173bb7b538.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/--e3p6381",
-        "title": "انسان خردمند - قسمت اول"
       }
     ],
     "recent_30d": [
@@ -78478,7 +78478,7 @@
       2,
       1,
       2,
-      1
+      2
     ],
     "status": "active"
   },
