@@ -34417,10 +34417,10 @@
     "status": "stopped"
   },
   "ktab-saih-robah": {
-    "avg_gap_days": 20.8,
+    "avg_gap_days": 24.0,
     "avg_length": 24,
     "episodes": 37,
-    "eps_365": 6,
+    "eps_365": 5,
     "eps_90": 0,
     "first_at": "2025-08-25",
     "first_year": 1404,
@@ -73857,7 +73857,7 @@
     "avg_gap_days": 2.6,
     "avg_length": 4,
     "episodes": 349,
-    "eps_365": 140,
+    "eps_365": 139,
     "eps_90": 31,
     "first_at": "2025-01-23",
     "first_year": 1403,
