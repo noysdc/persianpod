@@ -26497,8 +26497,8 @@
       0,
       0,
       0,
-      11,
-      23,
+      12,
+      22,
       0,
       0,
       0,
@@ -63177,20 +63177,26 @@
   },
   "radio-dordane": {
     "avg_gap_days": 0.8,
-    "avg_length": 19,
-    "episodes": 15,
-    "eps_365": 15,
-    "eps_90": 15,
+    "avg_length": 18,
+    "episodes": 16,
+    "eps_365": 16,
+    "eps_90": 16,
     "first_at": "2026-10-27",
     "first_year": 1405,
-    "last": "1405/08/16",
-    "last_at": "2026-11-07T15:10:56Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfh1c",
-    "last_title": "هر کیلو برنج برای چند نفر کافی است؟ محاسبه مقدار برنج برای مهمانی | رادیو دردانه",
+    "last": "1405/08/17",
+    "last_at": "2026-11-08T13:41:16Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfh48",
+    "last_title": "چرا برنج ایرانی بعد از پخت قد می‌کشد؟ راز دانه‌های کشیده و خوش‌پخت | رادیو دردانه",
     "max_length": 25,
     "median_length": 22,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1193981e4/podcast/play/128483912/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F435498192-44100-2-2845e31b885b.m4a",
+        "at": "2026-11-08T13:41:16Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793437578288-32e3cbd83961f.jpg",
+        "t": "چرا برنج ایرانی بعد از پخت قد می‌کشد؟ راز دانه‌های کشیده و خوش‌پخت | رادیو دردانه"
+      },
       {
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128483820/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F435498090-44100-2-5e57f9cccf1f7.m4a",
         "at": "2026-11-07T15:10:56Z",
@@ -63232,15 +63238,15 @@
         "at": "2026-10-29T13:44:52Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184233185-e5d38ea15bdd9.jpg",
         "t": "برنج دودی چیست و چه تفاوتی با برنج معمولی دارد؟ | رادیو دردانه"
-      },
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/128253803/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435206321-44100-2-c92a3d9da63ee.m4a",
-        "at": "2026-10-28T10:16:38Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793182605827-1affdb4c92b92.jpg",
-        "t": "برنج نو بهتر است یا برنج کهنه؟ تفاوت عطر، پخت و کیفیت | رادیو دردانه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-08T13:41:16Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793437578288-32e3cbd83961f.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfh48",
+        "title": "چرا برنج ایرانی بعد از پخت قد می‌کشد؟ راز دانه‌های کشیده و خوش‌پخت | رادیو دردانه"
+      },
       {
         "at": "2026-11-07T15:10:56Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793437452391-1b3494db459f2.jpg",
@@ -63252,12 +63258,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793437147564-afaf355064b32.jpg",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfguc",
         "title": "برنج ایرانی سورت‌شده چیست؟ مزایا و تفاوت آن با برنج معمولی | رادیو دردانه"
-      },
-      {
-        "at": "2026-11-02T08:31:33Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793436835166-dd05da72045bd.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfgm2",
-        "title": "بهترین برنج ایرانی برای رستوران کدام است؟ راز پخت برنج خوش‌عطر در حجم بالا | رادیو دردانه"
       }
     ],
     "recent_30d": [
@@ -63272,7 +63272,7 @@
       0,
       0,
       0,
-      15
+      16
     ],
     "status": "active"
   },
