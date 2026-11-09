@@ -11528,8 +11528,8 @@
       0,
       0,
       0,
-      2,
-      1,
+      3,
+      0,
       0,
       0,
       0,
@@ -21975,10 +21975,10 @@
     "status": "stopped"
   },
   "ghsh-haii-brai-khoab-kodkan": {
-    "avg_gap_days": 1.3,
+    "avg_gap_days": 1.4,
     "avg_length": 9,
     "episodes": 68,
-    "eps_365": 23,
+    "eps_365": 21,
     "eps_90": 0,
     "first_at": "2025-09-23",
     "first_year": 1404,
@@ -25724,8 +25724,8 @@
       0,
       0,
       0,
-      2,
       3,
+      2,
       0,
       1,
       0,
@@ -29227,8 +29227,8 @@
       }
     ],
     "recent_30d": [
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -59133,8 +59133,8 @@
       }
     ],
     "recent_30d": [
-      7,
       8,
+      7,
       4,
       12,
       9,
@@ -64452,21 +64452,26 @@
     "status": "active"
   },
   "radio-hosh": {
-    "avg_gap_days": 0.4,
+    "avg_gap_days": 0.5,
     "avg_length": 17,
-    "episodes": 31,
-    "eps_365": 31,
-    "eps_90": 31,
+    "episodes": 32,
+    "eps_365": 32,
+    "eps_90": 32,
     "first_at": "2026-10-25",
     "first_year": 1405,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T13:11:06Z",
-    "last_link": "https://share.transistor.fm/s/4b5b36c5",
-    "last_title": "‏‫Inkling 2 Small؛ مدل سبک‌تر و ارزان‌تر Thinking Machines Lab‬",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T12:57:46Z",
+    "last_link": "https://share.transistor.fm/s/ad463496",
+    "last_title": "‏‫Nvidia: تحقیق هیئت مدیره درباره جنسن هوانگ و ادعای جاسوسی چین‬",
     "max_length": 26,
     "median_length": 17,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://media.transistor.fm/ad463496/7581bf5b.mp3",
+        "at": "2026-11-09T12:57:46Z",
+        "t": "‏‫Nvidia: تحقیق هیئت مدیره درباره جنسن هوانگ و ادعای جاسوسی چین‬"
+      },
       {
         "a": "https://media.transistor.fm/4b5b36c5/0b664736.mp3",
         "at": "2026-11-06T13:11:06Z",
@@ -64501,14 +64506,14 @@
         "a": "https://media.transistor.fm/3e787165/b458e581.mp3",
         "at": "2026-11-03T09:10:16Z",
         "t": "‏‫LifeVal از OpenAI: آزمونی برای سنجش کمک هوش مصنوعی در کارهای روزمره‬"
-      },
-      {
-        "a": "https://media.transistor.fm/a5a612d7/8eca2584.mp3",
-        "at": "2026-11-02T08:50:33Z",
-        "t": "‏‫Wizard: دنیای بازی با هوش مصنوعی که در لحظه کنترلش می‌کنید‬"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T12:57:46Z",
+        "link": "https://share.transistor.fm/s/ad463496",
+        "title": "‏‫Nvidia: تحقیق هیئت مدیره درباره جنسن هوانگ و ادعای جاسوسی چین‬"
+      },
       {
         "at": "2026-11-06T13:11:06Z",
         "link": "https://share.transistor.fm/s/4b5b36c5",
@@ -64518,11 +64523,6 @@
         "at": "2026-11-06T08:41:59Z",
         "link": "https://share.transistor.fm/s/be747ade",
         "title": "‏‫Claude Opus یا مدل ارزان‌تر؟ چطور بفهمیم کدام هوش مصنوعی جواب می‌دهد‬"
-      },
-      {
-        "at": "2026-11-05T13:14:11Z",
-        "link": "https://share.transistor.fm/s/aa5d57fd",
-        "title": "‏‫Apple بودجه هوش مصنوعی کارمندانش را کم می‌کند‬"
       }
     ],
     "recent_30d": [
@@ -64537,7 +64537,7 @@
       0,
       0,
       0,
-      31
+      32
     ],
     "status": "active"
   },
@@ -72868,19 +72868,25 @@
   "sfrnamh-hai-soti-lst-sknd": {
     "avg_gap_days": 1.2,
     "avg_length": 20,
-    "episodes": 108,
-    "eps_365": 108,
-    "eps_90": 63,
+    "episodes": 109,
+    "eps_365": 109,
+    "eps_90": 64,
     "first_at": "2026-06-29",
     "first_year": 1405,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T13:29:00Z",
-    "last_link": "https://bavexa.com/e/56983-navid-javadi-detune-04",
-    "last_title": "Navid Javadi - Detune Ep.04",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T13:00:00Z",
+    "last_link": "https://bavexa.com/e/57304-dj-hornet-top-hits-11",
+    "last_title": "Dj Hornet - Top Hits Ep.11",
     "max_length": 110,
     "median_length": 19,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://cdn-bavexa.version.ir/episodes/57304/source.mp3",
+        "at": "2026-11-09T13:00:00Z",
+        "i": "https://cdn.bavexa.com/episodes/u0ieuivUtKdM37szxQxveHAjO8DEo17Nkj4S8CiY.jpg",
+        "t": "Dj Hornet - Top Hits Ep.11"
+      },
       {
         "a": "https://cdn-bavexa.version.ir/episodes/56983/source.mp3",
         "at": "2026-11-08T13:29:00Z",
@@ -72922,15 +72928,15 @@
         "at": "2026-10-31T02:18:00Z",
         "i": "https://cdn.bavexa.com/episodes/Enpjp12WhmlNZvJ1AviLRIYcrDIbpHqeOtXfSNXu.jpg",
         "t": "Ehsan Ramsy - Night Ep.08"
-      },
-      {
-        "a": "https://cdn-bavexa.version.ir/episodes/53333/source.mp3",
-        "at": "2026-10-29T04:30:00Z",
-        "i": "https://cdn.bavexa.com/episodes/y8E5Eb5xUseVtRZ8wfsQLd2nlH8izhyk8VVFqy77.jpg",
-        "t": "DJ Hesam - Rangarang Ep.08"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T13:00:00Z",
+        "i": "https://cdn.bavexa.com/episodes/u0ieuivUtKdM37szxQxveHAjO8DEo17Nkj4S8CiY.jpg",
+        "link": "https://bavexa.com/e/57304-dj-hornet-top-hits-11",
+        "title": "Dj Hornet - Top Hits Ep.11"
+      },
       {
         "at": "2026-11-08T13:29:00Z",
         "i": "https://cdn.bavexa.com/episodes/djN2w3FFkIdLzk5TT3oWRxD1FnGLL8d6Yeofdnzr.jpg",
@@ -72942,12 +72948,6 @@
         "i": "https://cdn.bavexa.com/episodes/XeorDRgV3yaYbneRsbK0gDI1VDZ7DdYZzpfz4wYs.jpg",
         "link": "https://bavexa.com/e/56707-baroon-remix",
         "title": "Shadmehr Aghili & Horoush Band - Baroon"
-      },
-      {
-        "at": "2026-11-04T13:34:00Z",
-        "i": "https://cdn.bavexa.com/episodes/PfSXNfXFtbWvabTM6eg8MSQ0JoqKKyiqzsbmxMaG.jpg",
-        "link": "https://bavexa.com/e/56361-jamov-deep-silver-night",
-        "title": "Jamov Deep - Silver Night"
       }
     ],
     "recent_30d": [
@@ -72962,7 +72962,7 @@
       22,
       19,
       19,
-      25
+      26
     ],
     "status": "active"
   },
@@ -82857,8 +82857,8 @@
       3,
       2,
       1,
-      3,
-      5,
+      4,
+      4,
       4,
       4,
       5,
