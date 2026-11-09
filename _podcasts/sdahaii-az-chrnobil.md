@@ -17,8 +17,8 @@ pi_id: 7528811
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # صداهایی از چرنوبیل

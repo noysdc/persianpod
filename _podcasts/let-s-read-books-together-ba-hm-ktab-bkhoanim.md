@@ -18,8 +18,8 @@ pi_id: 3525558
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Let's Read Books Together با هم کتاب بخوانیم
