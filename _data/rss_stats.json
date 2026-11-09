@@ -2773,7 +2773,7 @@
     "avg_length": 9,
     "episodes": 85,
     "eps_365": 85,
-    "eps_90": 40,
+    "eps_90": 39,
     "first_at": "2026-07-06",
     "first_year": 1405,
     "last": "1405/08/16",
@@ -2862,8 +2862,8 @@
       0,
       0,
       7,
-      38,
-      20,
+      39,
+      19,
       12,
       8
     ],
@@ -2964,8 +2964,8 @@
       0,
       0,
       0,
-      0,
-      4,
+      1,
+      3,
       2
     ],
     "status": "active"
@@ -3263,19 +3263,25 @@
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.6,
     "avg_length": 6,
-    "episodes": 31,
-    "eps_365": 31,
-    "eps_90": 31,
+    "episodes": 32,
+    "eps_365": 32,
+    "eps_90": 32,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T19:19:10Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s16hr",
-    "last_title": "شاهنامه کودکانه | قسمت يازدهم | زالِ سپیدمو و سیمرغ",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T15:32:30Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s345g",
+    "last_title": "کلیله‌ودمنه کودکانه | قسمت سیزدهم | بوم و زاغ (١)",
     "max_length": 10,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/129126000/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F66a8e5bc-491f-7fc5-9902-d4ce0dbd808e.mp3",
+        "at": "2026-11-09T15:32:30Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794238359403-a118ae05441df.jpg",
+        "t": "کلیله‌ودمنه کودکانه | قسمت سیزدهم | بوم و زاغ (١)"
+      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/129062907/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2F5c8b76f0-c655-ca6e-8876-42cb05f9fe6f.mp3",
         "at": "2026-11-08T19:19:10Z",
@@ -3317,15 +3323,15 @@
         "at": "2026-10-17T10:10:31Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1792231810787-dfe6d721271cd.jpg",
         "t": "کلیله و دمنه کودکانه | قسمت نهم | کبوتر طوق‌دار(۱)"
-      },
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/127342009/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-12%2F8f92b62c-affd-14e9-f006-58ba95b7acfb.mp3",
-        "at": "2026-10-12T14:26:43Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1791815212678-0a7167b09a2bd.jpg",
-        "t": "شاهنامه کودکانه |قسمت هشتم | سه پسر فریدون"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T15:32:30Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794238359403-a118ae05441df.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s345g",
+        "title": "کلیله‌ودمنه کودکانه | قسمت سیزدهم | بوم و زاغ (١)"
+      },
       {
         "at": "2026-11-08T19:19:10Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794165564454-33fb9aba08035.jpg",
@@ -3337,12 +3343,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
         "title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
-      },
-      {
-        "at": "2026-11-01T19:05:07Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793559915422-eb9a246b41b18.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3ri9g1",
-        "title": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت"
       }
     ],
     "recent_30d": [
@@ -3357,7 +3357,7 @@
       0,
       16,
       6,
-      9
+      10
     ],
     "status": "active"
   },
@@ -3831,8 +3831,8 @@
     "avg_gap_days": 4.3,
     "avg_length": 18,
     "episodes": 216,
-    "eps_365": 86,
-    "eps_90": 20,
+    "eps_365": 85,
+    "eps_90": 19,
     "first_at": "2023-12-16",
     "first_year": 1402,
     "last": "1405/08/17",
@@ -3914,17 +3914,17 @@
     ],
     "recent_30d": [
       17,
-      13,
+      12,
       10,
       12,
       0,
       0,
       0,
       4,
-      6,
-      8,
-      4,
-      8
+      7,
+      7,
+      5,
+      7
     ],
     "status": "active"
   },
@@ -6523,10 +6523,10 @@
     "status": "stopped"
   },
   "aslam-mirzaii": {
-    "avg_gap_days": 13.4,
-    "episodes": 29,
-    "eps_365": 26,
-    "eps_90": 5,
+    "avg_gap_days": 13.9,
+    "episodes": 28,
+    "eps_365": 25,
+    "eps_90": 4,
     "first_at": "2018-07-16",
     "first_year": 1397,
     "last": "1405/08/01",
@@ -6604,7 +6604,7 @@
       1,
       0,
       0,
-      5
+      4
     ],
     "status": "active"
   },
@@ -8088,14 +8088,14 @@
       }
     ],
     "recent_30d": [
-      3,
-      1,
-      1,
-      0,
-      0,
-      0,
-      0,
       2,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
       3,
       2,
       2,
@@ -9573,8 +9573,8 @@
       3,
       6,
       2,
-      6,
-      7
+      7,
+      6
     ],
     "status": "active"
   },
@@ -10163,7 +10163,7 @@
       }
     ],
     "recent_30d": [
-      6,
+      5,
       5,
       1,
       1,
@@ -10955,7 +10955,7 @@
     "avg_length": 18,
     "episodes": 102,
     "eps_365": 102,
-    "eps_90": 76,
+    "eps_90": 75,
     "first_at": "2026-07-29",
     "first_year": 1405,
     "last": "1405/08/17",
@@ -11044,10 +11044,10 @@
       0,
       0,
       0,
-      26,
-      24,
-      18,
-      34
+      27,
+      23,
+      20,
+      32
     ],
     "status": "active"
   },
@@ -11528,8 +11528,8 @@
       0,
       0,
       0,
-      2,
-      1,
+      3,
+      0,
       0,
       0,
       0,
@@ -12400,8 +12400,8 @@
       0,
       0,
       0,
-      3,
-      6,
+      5,
+      4,
       5,
       3,
       6,
@@ -19065,10 +19065,10 @@
     "status": "active"
   },
   "frogh-frkhzad": {
-    "avg_gap_days": 74.7,
+    "avg_gap_days": 93.5,
     "avg_length": 6,
     "episodes": 23,
-    "eps_365": 4,
+    "eps_365": 3,
     "eps_90": 0,
     "first_at": "2025-01-13",
     "first_year": 1403,
@@ -21975,10 +21975,10 @@
     "status": "stopped"
   },
   "ghsh-haii-brai-khoab-kodkan": {
-    "avg_gap_days": 1.3,
+    "avg_gap_days": 1.2,
     "avg_length": 9,
     "episodes": 68,
-    "eps_365": 24,
+    "eps_365": 18,
     "eps_90": 0,
     "first_at": "2025-09-23",
     "first_year": 1404,
@@ -24098,7 +24098,7 @@
       }
     ],
     "recent_30d": [
-      3,
+      2,
       0,
       0,
       0,
@@ -24752,8 +24752,8 @@
       4,
       12,
       9,
-      6,
-      8,
+      7,
+      7,
       3,
       3,
       2,
@@ -25537,19 +25537,25 @@
   "hzar-o-ik-shb": {
     "avg_gap_days": 5.1,
     "avg_length": 32,
-    "episodes": 279,
-    "eps_365": 72,
+    "episodes": 280,
+    "eps_365": 73,
     "eps_90": 23,
     "first_at": "2020-04-27",
     "first_year": 1399,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T16:51:44Z",
-    "last_link": "https://s3.castbox.fm/2c/f1/68/790f6e4dababd675a96a1df668.mp3",
-    "last_title": "سرزمین جاوید2 -ماجرای بردیای جدید و سوء قصد به داریوش-اپیزود 6 (بخش دوم)",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T17:42:28Z",
+    "last_link": "https://s3.castbox.fm/f5/fe/7f/84532b44468291e27e8fa0da28.mp3",
+    "last_title": "سرزمین جاوید 2 - محاصره بلخ - اپیزود 7 (بخش اول)",
     "max_length": 48,
     "median_length": 32,
     "min_length": 12,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/f5/fe/7f/84532b44468291e27e8fa0da28.mp3",
+        "at": "2026-11-09T17:42:28Z",
+        "i": "https://s3.castbox.fm/04/60/77/d18fac4d20b6ed32cdd82cbf8e.jpg",
+        "t": "سرزمین جاوید 2 - محاصره بلخ - اپیزود 7 (بخش اول)"
+      },
       {
         "a": "https://s3.castbox.fm/2c/f1/68/790f6e4dababd675a96a1df668.mp3",
         "at": "2026-11-05T16:51:44Z",
@@ -25591,15 +25597,15 @@
         "at": "2026-10-15T05:34:29Z",
         "i": "https://s3.castbox.fm/3d/99/08/edc5ba4b8b94be1f815bc48673.jpg",
         "t": "سرزمین جاوید 2- مقابله با تجاوز سیت ها - اپیزود 4 (بخش اول)"
-      },
-      {
-        "a": "https://s3.castbox.fm/60/76/67/3cf73c4e488ff38fe8ccdd1d77.mp3",
-        "at": "2026-10-07T14:36:56Z",
-        "i": "https://s3.castbox.fm/36/21/f1/984afe49eabd43e7f551f0357d.jpg",
-        "t": "سرزمین جاوید2-کارهای بزرگ فرهنگی و عمرانی داریوش در طول 6سال فرمانروایی او- اپیزود 3 (بخش سوم)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T17:42:28Z",
+        "i": "https://s3.castbox.fm/04/60/77/d18fac4d20b6ed32cdd82cbf8e.jpg",
+        "link": "https://s3.castbox.fm/f5/fe/7f/84532b44468291e27e8fa0da28.mp3",
+        "title": "سرزمین جاوید 2 - محاصره بلخ - اپیزود 7 (بخش اول)"
+      },
       {
         "at": "2026-11-05T16:51:44Z",
         "i": "https://s3.castbox.fm/05/66/12/36525d495f9398c0b21f9742b7.jpg",
@@ -25611,12 +25617,6 @@
         "i": "https://s3.castbox.fm/de/5e/f4/869a004712ae838b518d85bf00.jpg",
         "link": "https://s3.castbox.fm/5d/a4/f2/cbb31948ff8736f50df19627e2.mp3",
         "title": "سرزمین جاوید2- ماجرای بردیای جدید و سوء قصد به داریوش-اپیزود6 (بخش اول)"
-      },
-      {
-        "at": "2026-10-28T17:23:45Z",
-        "i": "https://s3.castbox.fm/9b/91/38/f0a26e4fdc88863a49541f939b.jpg",
-        "link": "https://s3.castbox.fm/9c/b7/b9/29a58a491495549f7784ce2268.mp3",
-        "title": "سرزمین جاوید 2- حمله به سرزمین سیت ها در کنار رودخانه دانوب- اپیزود 5 (بخش دوم)"
       }
     ],
     "recent_30d": [
@@ -25628,10 +25628,10 @@
       1,
       3,
       6,
-      7,
-      7,
+      8,
+      6,
       9,
-      7
+      8
     ],
     "status": "active"
   },
@@ -25724,8 +25724,8 @@
       0,
       0,
       0,
-      2,
       3,
+      2,
       0,
       1,
       0,
@@ -26491,7 +26491,7 @@
       }
     ],
     "recent_30d": [
-      36,
+      35,
       31,
       9,
       0,
@@ -29227,8 +29227,8 @@
       }
     ],
     "recent_30d": [
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -29337,8 +29337,8 @@
       0,
       1,
       1,
-      0,
       1,
+      0,
       2
     ],
     "status": "active"
@@ -30091,8 +30091,8 @@
       }
     ],
     "recent_30d": [
-      3,
-      3,
+      4,
+      2,
       0,
       0,
       0,
@@ -32487,19 +32487,31 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 21,
-    "episodes": 632,
-    "eps_365": 599,
+    "episodes": 634,
+    "eps_365": 601,
     "eps_90": 170,
     "first_at": "2025-10-22",
     "first_year": 1404,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T18:31:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6af0bcccbaaf18ccf95e832c",
-    "last_title": "سالگرد - قتل های زنجیره ای - بخش سی و هشتم - پایان",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T17:23:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6af1fe4448e2b12de6018708",
+    "last_title": "جزیره مرگ - بخش دوم",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af1fe4448e2b12de6018708/media.mp3",
+        "at": "2026-11-09T17:23:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794243962588-005cf0a3-83e7-4280-a3a0-0733f0345f2b.jpeg",
+        "t": "جزیره مرگ - بخش دوم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af1fd134639eb370f6d9d40/media.mp3",
+        "at": "2026-11-09T17:04:20Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794243842001-c87a0108-c764-4701-966c-ab8af3465793.jpeg",
+        "t": "معرفی کتاب - جزیره ی مرگ 2026"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af0bcccbaaf18ccf95e832c/media.mp3",
         "at": "2026-11-08T18:31:00Z",
@@ -32535,38 +32547,26 @@
         "at": "2026-11-07T18:05:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794053891853-78cf282f-833e-46ed-8b0a-79290c076189.jpeg",
         "t": "سالگرد - قتل های زنجیره ای - بخش سی و چهارم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6aef161d36841fe014884f5b/media.mp3",
-        "at": "2026-11-07T17:35:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794053242438-b7381b80-3227-434f-ae43-e812fb9b69be.jpeg",
-        "t": "سالگرد - قتل های زنجیره ای - بخش سی و سوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6aee05f0897b9602318c989a/media.mp3",
-        "at": "2026-11-07T16:59:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1793983765350-f08061e5-c6f4-4508-85b4-1807dc931e0d.jpeg",
-        "t": "سالگرد - قتل های زنجیره ای - بخش سی و یکم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T17:23:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794243962588-005cf0a3-83e7-4280-a3a0-0733f0345f2b.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6af1fe4448e2b12de6018708",
+        "title": "جزیره مرگ - بخش دوم"
+      },
+      {
+        "at": "2026-11-09T17:04:20Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794243842001-c87a0108-c764-4701-966c-ab8af3465793.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6af1fd134639eb370f6d9d40",
+        "title": "معرفی کتاب - جزیره ی مرگ 2026"
+      },
       {
         "at": "2026-11-08T18:31:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794161760374-0209ae62-67b9-47be-b64b-a3435de02fef.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6af0bcccbaaf18ccf95e832c",
         "title": "سالگرد - قتل های زنجیره ای - بخش سی و هشتم - پایان"
-      },
-      {
-        "at": "2026-11-08T18:15:16Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794161647824-73d00b8c-6fdc-426b-b6cb-2c148bd5084c.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6af0bc35071ec4ae39cdecd8",
-        "title": "سالگرد - قتل های زنجیره ای - بخش سی و هفتم"
-      },
-      {
-        "at": "2026-11-08T16:55:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794054792583-edc16119-4f11-4c9f-b3c5-7730759b8178.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6aef1b32a942810f4c763a20",
-        "title": "سالگرد - قتل های زنجیره ای - بخش سی و  ششم"
       }
     ],
     "recent_30d": [
@@ -32576,12 +32576,12 @@
       38,
       0,
       0,
-      19,
-      63,
-      56,
+      20,
+      62,
+      58,
       60,
-      61,
-      49
+      60,
+      50
     ],
     "status": "active"
   },
@@ -34417,10 +34417,10 @@
     "status": "stopped"
   },
   "ktab-saih-robah": {
-    "avg_gap_days": 20.8,
+    "avg_gap_days": 24.0,
     "avg_length": 24,
     "episodes": 37,
-    "eps_365": 6,
+    "eps_365": 5,
     "eps_90": 0,
     "first_at": "2025-08-25",
     "first_year": 1404,
@@ -36062,8 +36062,8 @@
       0,
       0,
       24,
-      19,
-      9
+      20,
+      8
     ],
     "status": "active"
   },
@@ -36443,8 +36443,8 @@
     ],
     "recent_30d": [
       0,
-      7,
-      7,
+      8,
+      6,
       0,
       0,
       0,
@@ -36929,8 +36929,8 @@
       0,
       0,
       4,
-      3,
-      6,
+      4,
+      5,
       4,
       2,
       4
@@ -37219,21 +37219,27 @@
     "status": "active"
   },
   "ktabkhanh-soti": {
-    "avg_gap_days": 6.5,
+    "avg_gap_days": 6.4,
     "avg_length": 31,
-    "episodes": 56,
-    "eps_365": 56,
-    "eps_90": 22,
+    "episodes": 57,
+    "eps_365": 57,
+    "eps_90": 23,
     "first_at": "2025-11-17",
     "first_year": 1404,
     "last": "1405/08/18",
-    "last_at": "2026-11-09T10:15:13Z",
-    "last_link": "https://www.spreaker.com/episode/anja-kh-tmam-my-shwd-pydaym-kn-bkhsh-hshtm--76262873",
-    "last_title": "آنجا که تمام می‌شود، پیدایم کن (بخش هشتم)",
+    "last_at": "2026-11-09T15:26:01Z",
+    "last_link": "https://www.spreaker.com/episode/qsh-ha-w-afsanh-ha-bkhsh-4--76056113",
+    "last_title": "قصه‌ها و افسانه‌ها - بخش ۴",
     "max_length": 73,
-    "median_length": 25,
+    "median_length": 26,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76056113/episode.mp3",
+        "at": "2026-11-09T15:26:01Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/61a6acf171f6c6a6b42a205ba1035881.jpg",
+        "t": "قصه‌ها و افسانه‌ها - بخش ۴"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76262873/episode.mp3",
         "at": "2026-11-09T10:15:13Z",
@@ -37275,15 +37281,15 @@
         "at": "2026-11-09T10:05:12Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
         "t": "آنجا که تمام می‌شود، پیدایم کن (بخش چهارم)"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76261954/episode.mp3",
-        "at": "2026-11-09T10:00:12Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
-        "t": "آنجا که تمام می‌شود، پیدایم کن (بخش سوم)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T15:26:01Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/61a6acf171f6c6a6b42a205ba1035881.jpg",
+        "link": "https://www.spreaker.com/episode/qsh-ha-w-afsanh-ha-bkhsh-4--76056113",
+        "title": "قصه‌ها و افسانه‌ها - بخش ۴"
+      },
       {
         "at": "2026-11-09T10:15:13Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
@@ -37295,12 +37301,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
         "link": "https://www.spreaker.com/episode/anja-kh-tmam-my-shwd-pydaym-kn-bkhsh-hftm--76262805",
         "title": "آنجا که تمام می‌شود، پیدایم کن (بخش هفتم)"
-      },
-      {
-        "at": "2026-11-09T10:15:12Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
-        "link": "https://www.spreaker.com/episode/anja-kh-tmam-my-shwd-pydaym-kn-bkhsh-shshm--76262195",
-        "title": "آنجا که تمام می‌شود، پیدایم کن (بخش ششم)"
       }
     ],
     "recent_30d": [
@@ -37310,12 +37310,12 @@
       0,
       0,
       7,
-      8,
-      11,
+      9,
+      10,
       5,
       2,
       4,
-      16
+      17
     ],
     "status": "active"
   },
@@ -40077,7 +40077,7 @@
     "avg_length": 27,
     "episodes": 155,
     "eps_365": 129,
-    "eps_90": 52,
+    "eps_90": 51,
     "first_at": "2025-08-07",
     "first_year": 1404,
     "last": "1405/08/18",
@@ -40165,19 +40165,19 @@
       0,
       0,
       12,
-      14,
+      15,
       21,
-      9,
+      8,
       14,
       29
     ],
     "status": "active"
   },
   "mjmoah-ktab-hai-pndragn": {
-    "avg_gap_days": 19.0,
+    "avg_gap_days": 18.0,
     "avg_length": 28,
     "episodes": 18,
-    "eps_365": 3,
+    "eps_365": 2,
     "eps_90": 0,
     "first_at": "2025-09-23",
     "first_year": 1404,
@@ -41359,7 +41359,7 @@
     "avg_length": 36,
     "episodes": 148,
     "eps_365": 30,
-    "eps_90": 11,
+    "eps_90": 10,
     "first_at": "2024-05-04",
     "first_year": 1403,
     "last": "1405/08/16",
@@ -41440,7 +41440,7 @@
       }
     ],
     "recent_30d": [
-      6,
+      5,
       1,
       0,
       0,
@@ -41448,8 +41448,8 @@
       0,
       3,
       4,
-      4,
       5,
+      4,
       1,
       5
     ],
@@ -42528,8 +42528,8 @@
       0,
       0,
       4,
-      4,
       5,
+      4,
       4
     ],
     "status": "active"
@@ -42903,8 +42903,8 @@
       6,
       1,
       3,
-      12,
-      6,
+      13,
+      5,
       4,
       3,
       5,
@@ -45982,8 +45982,8 @@
       0,
       0,
       2,
-      8,
-      3,
+      10,
+      1,
       1,
       3,
       0,
@@ -46077,7 +46077,7 @@
       }
     ],
     "recent_30d": [
-      6,
+      5,
       3,
       3,
       5,
@@ -46368,8 +46368,8 @@
       }
     ],
     "recent_30d": [
-      2,
-      2,
+      3,
+      1,
       0,
       0,
       0,
@@ -52104,7 +52104,7 @@
     "avg_length": 34,
     "episodes": 101,
     "eps_365": 13,
-    "eps_90": 4,
+    "eps_90": 3,
     "first_at": "2020-03-31",
     "first_year": 1399,
     "last": "1405/06/12",
@@ -52193,8 +52193,8 @@
       0,
       1,
       0,
-      6,
-      4,
+      7,
+      3,
       0,
       0
     ],
@@ -54993,7 +54993,7 @@
     "avg_gap_days": 10.3,
     "avg_length": 25,
     "episodes": 116,
-    "eps_365": 27,
+    "eps_365": 26,
     "eps_90": 0,
     "first_at": "2024-10-21",
     "first_year": 1403,
@@ -55681,10 +55681,10 @@
     "status": "active"
   },
   "podcast-khoab-kodkanh": {
-    "avg_gap_days": 9.8,
+    "avg_gap_days": 9.7,
     "avg_length": 9,
     "episodes": 169,
-    "eps_365": 38,
+    "eps_365": 37,
     "eps_90": 9,
     "first_at": "2022-02-16",
     "first_year": 1400,
@@ -55762,8 +55762,8 @@
       0,
       2,
       3,
-      3,
-      6,
+      4,
+      5,
       1,
       4,
       4
@@ -56057,7 +56057,7 @@
       }
     ],
     "recent_30d": [
-      4,
+      3,
       2,
       1,
       1,
@@ -56467,8 +56467,8 @@
       2,
       1,
       0,
-      0,
-      3
+      1,
+      2
     ],
     "status": "active"
   },
@@ -59133,8 +59133,8 @@
       }
     ],
     "recent_30d": [
-      7,
       8,
+      7,
       4,
       12,
       9,
@@ -59233,7 +59233,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       3,
       1,
       2,
@@ -61829,30 +61829,42 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.1,
-    "avg_length": 111,
-    "episodes": 85,
-    "eps_365": 85,
-    "eps_90": 85,
+    "avg_length": 113,
+    "episodes": 87,
+    "eps_365": 87,
+    "eps_90": 87,
     "first_at": "2026-11-01",
     "first_year": 1405,
     "last": "1405/08/18",
-    "last_at": "2026-11-09T00:46:19Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakravan--Fatemeh-Part-2-e3s1j2l",
-    "last_title": "Pakravan, Fatemeh Part 2",
+    "last_at": "2026-11-09T16:08:14Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakdaman--Nasser-Part-2-e3s37k9",
+    "last_title": "Pakdaman, Nasser Part 2",
     "max_length": 134,
     "median_length": 116,
     "min_length": 20,
     "play": [
       {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129129545/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F981aaacd-f44d-4a51-2353-d313bb97552e.mp3",
+        "at": "2026-11-09T16:08:14Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240433773-516bed184f615.jpg",
+        "t": "Pakdaman, Nasser Part 2"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129129272/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F91eed52d-dc41-7881-c1f0-dc0518e4654d.mp3",
+        "at": "2026-11-09T16:06:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240398859-5756e37d6ca1b.jpg",
+        "t": "Pakdaman, Nasser Part 1"
+      },
+      {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/129075733/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2Fd855d523-79a6-471c-08e3-e0467bf00138.mp3",
         "at": "2026-11-09T00:46:19Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794185110747-bac9f99518603.jpg",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794239284504-a5ae11ab2a715.jpg",
         "t": "Pakravan, Fatemeh Part 2"
       },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/129075407/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F5c733c0a-26dc-61dc-8e69-94d5d31b793c.mp3",
         "at": "2026-11-09T00:44:51Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794185087956-1d9d6ac37d128.jpg",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794239257838-401903c58e551.jpg",
         "t": "Pakravan, Fatemeh Part 1"
       },
       {
@@ -61878,38 +61890,26 @@
         "at": "2026-11-08T18:25:17Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794162258782-0434e0338dd5c.jpg",
         "t": "Amini, Ali Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129060508/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2Fa88f36df-cc9a-018c-d5d5-4464aa778e02.mp3",
-        "at": "2026-11-08T18:23:51Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794162158591-4de05b63b041d.jpg",
-        "t": "Amini, Ali Part 1"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/128968942/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F1c501fad-9b98-869e-63b4-68e4cae4fdad.mp3",
-        "at": "2026-11-07T03:26:55Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794021954874-14755fc9d34d.jpg",
-        "t": "Nazih, Hassan Part 5"
       }
     ],
     "recent": [
       {
+        "at": "2026-11-09T16:08:14Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240433773-516bed184f615.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakdaman--Nasser-Part-2-e3s37k9",
+        "title": "Pakdaman, Nasser Part 2"
+      },
+      {
+        "at": "2026-11-09T16:06:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240398859-5756e37d6ca1b.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakdaman--Nasser-Part-1-e3s37bo",
+        "title": "Pakdaman, Nasser Part 1"
+      },
+      {
         "at": "2026-11-09T00:46:19Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794185110747-bac9f99518603.jpg",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794239284504-a5ae11ab2a715.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakravan--Fatemeh-Part-2-e3s1j2l",
         "title": "Pakravan, Fatemeh Part 2"
-      },
-      {
-        "at": "2026-11-09T00:44:51Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794185087956-1d9d6ac37d128.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakravan--Fatemeh-Part-1-e3s1iof",
-        "title": "Pakravan, Fatemeh Part 1"
-      },
-      {
-        "at": "2026-11-09T00:02:11Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794182466358-d6f1126d5334.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Bakhtiar--Chapour-Part-2-e3s1hd1",
-        "title": "Bakhtiar, Chapour Part 2"
       }
     ],
     "recent_30d": [
@@ -61924,7 +61924,7 @@
       0,
       0,
       0,
-      85
+      87
     ],
     "status": "active"
   },
@@ -63673,8 +63673,8 @@
       2,
       3,
       3,
-      2,
-      4
+      3,
+      3
     ],
     "status": "active"
   },
@@ -64172,10 +64172,10 @@
     "status": "active"
   },
   "radio-ghsh-kodk": {
-    "avg_gap_days": 11.8,
+    "avg_gap_days": 10.3,
     "avg_length": 12,
     "episodes": 188,
-    "eps_365": 12,
+    "eps_365": 11,
     "eps_90": 0,
     "first_at": "2019-12-01",
     "first_year": 1398,
@@ -64452,21 +64452,31 @@
     "status": "active"
   },
   "radio-hosh": {
-    "avg_gap_days": 0.4,
+    "avg_gap_days": 0.5,
     "avg_length": 17,
-    "episodes": 31,
-    "eps_365": 31,
-    "eps_90": 31,
+    "episodes": 33,
+    "eps_365": 33,
+    "eps_90": 33,
     "first_at": "2026-10-25",
     "first_year": 1405,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T13:11:06Z",
-    "last_link": "https://share.transistor.fm/s/4b5b36c5",
-    "last_title": "‏‫Inkling 2 Small؛ مدل سبک‌تر و ارزان‌تر Thinking Machines Lab‬",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T16:10:20Z",
+    "last_link": "https://share.transistor.fm/s/33442db6",
+    "last_title": "‏‫Anthropic و اجزای حافظه در ایجنت‌های هوش مصنوعی‬",
     "max_length": 26,
     "median_length": 17,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://media.transistor.fm/33442db6/6cdd8b65.mp3",
+        "at": "2026-11-09T16:10:20Z",
+        "t": "‏‫Anthropic و اجزای حافظه در ایجنت‌های هوش مصنوعی‬"
+      },
+      {
+        "a": "https://media.transistor.fm/ad463496/7581bf5b.mp3",
+        "at": "2026-11-09T12:57:46Z",
+        "t": "‏‫Nvidia: تحقیق هیئت مدیره درباره جنسن هوانگ و ادعای جاسوسی چین‬"
+      },
       {
         "a": "https://media.transistor.fm/4b5b36c5/0b664736.mp3",
         "at": "2026-11-06T13:11:06Z",
@@ -64496,33 +64506,23 @@
         "a": "https://media.transistor.fm/61c22aec/fa5d8f7f.mp3",
         "at": "2026-11-03T10:30:13Z",
         "t": "‏‫هوش مصنوعی در مدارس: آیا آموزش از دانش‌آموزان عقب مانده است؟‬"
-      },
-      {
-        "a": "https://media.transistor.fm/3e787165/b458e581.mp3",
-        "at": "2026-11-03T09:10:16Z",
-        "t": "‏‫LifeVal از OpenAI: آزمونی برای سنجش کمک هوش مصنوعی در کارهای روزمره‬"
-      },
-      {
-        "a": "https://media.transistor.fm/a5a612d7/8eca2584.mp3",
-        "at": "2026-11-02T08:50:33Z",
-        "t": "‏‫Wizard: دنیای بازی با هوش مصنوعی که در لحظه کنترلش می‌کنید‬"
       }
     ],
     "recent": [
       {
+        "at": "2026-11-09T16:10:20Z",
+        "link": "https://share.transistor.fm/s/33442db6",
+        "title": "‏‫Anthropic و اجزای حافظه در ایجنت‌های هوش مصنوعی‬"
+      },
+      {
+        "at": "2026-11-09T12:57:46Z",
+        "link": "https://share.transistor.fm/s/ad463496",
+        "title": "‏‫Nvidia: تحقیق هیئت مدیره درباره جنسن هوانگ و ادعای جاسوسی چین‬"
+      },
+      {
         "at": "2026-11-06T13:11:06Z",
         "link": "https://share.transistor.fm/s/4b5b36c5",
         "title": "‏‫Inkling 2 Small؛ مدل سبک‌تر و ارزان‌تر Thinking Machines Lab‬"
-      },
-      {
-        "at": "2026-11-06T08:41:59Z",
-        "link": "https://share.transistor.fm/s/be747ade",
-        "title": "‏‫Claude Opus یا مدل ارزان‌تر؟ چطور بفهمیم کدام هوش مصنوعی جواب می‌دهد‬"
-      },
-      {
-        "at": "2026-11-05T13:14:11Z",
-        "link": "https://share.transistor.fm/s/aa5d57fd",
-        "title": "‏‫Apple بودجه هوش مصنوعی کارمندانش را کم می‌کند‬"
       }
     ],
     "recent_30d": [
@@ -64537,7 +64537,7 @@
       0,
       0,
       0,
-      31
+      33
     ],
     "status": "active"
   },
@@ -65619,7 +65619,7 @@
     "avg_length": 14,
     "episodes": 51,
     "eps_365": 30,
-    "eps_90": 17,
+    "eps_90": 16,
     "first_at": "2020-05-16",
     "first_year": 1399,
     "last": "1405/07/16",
@@ -65708,8 +65708,8 @@
       0,
       0,
       1,
-      10,
-      9,
+      11,
+      8,
       8,
       0
     ],
@@ -67095,21 +67095,27 @@
     "status": "stopped"
   },
   "radiocrime-padkst-jnaii-radio-kraim": {
-    "avg_gap_days": 15.7,
+    "avg_gap_days": 14.0,
     "avg_length": 36,
-    "episodes": 84,
+    "episodes": 85,
     "eps_365": 24,
-    "eps_90": 16,
+    "eps_90": 17,
     "first_at": "2024-07-04",
     "first_year": 1403,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T15:20:21Z",
-    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9eb63be80be7f3a4ac4c",
-    "last_title": "پرونده حل‌نشده گرگوری کیث؛ مردی که بدون هیچ ردی ناپدید شد",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T15:30:07Z",
+    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9c5074a96cc5a4aa5f20",
+    "last_title": "قتل کالین اسلمر | قاتلش خیال مردن نداره!",
     "max_length": 78,
     "median_length": 14,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6aec9c5074a96cc5a4aa5f20/media.mp3",
+        "at": "2026-11-09T15:30:07Z",
+        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891234592-a13fb613-3891-4512-b494-7084c04ee18c.jpeg",
+        "t": "قتل کالین اسلمر | قاتلش خیال مردن نداره!"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6aec9eb63be80be7f3a4ac4c/media.mp3",
         "at": "2026-11-05T15:20:21Z",
@@ -67151,15 +67157,15 @@
         "at": "2026-10-15T15:52:06Z",
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1792077875883-ecfca3d0-5770-4255-b949-b782db5e5bd8.jpeg",
         "t": "پشت درهای بسته‌ی خانه‌ی وحشت چه می‌گذشت؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6accefe339599f7c56e311f8/media.mp3",
-        "at": "2026-10-12T17:53:27Z",
-        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1791815571514-8f9b30ad-331e-41c7-9ac1-1e1aa8e2555b.jpeg",
-        "t": "آخرین اخبار پرونده لیندزی کلنسی؛ آیا محاکمه دوباره برگزار می‌شود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T15:30:07Z",
+        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891234592-a13fb613-3891-4512-b494-7084c04ee18c.jpeg",
+        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9c5074a96cc5a4aa5f20",
+        "title": "قتل کالین اسلمر | قاتلش خیال مردن نداره!"
+      },
       {
         "at": "2026-11-05T15:20:21Z",
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891711122-7af11282-3cc5-48bb-bf1d-a2e4940c9dcf.jpeg",
@@ -67171,12 +67177,6 @@
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793890480006-6d10ab39-804a-4eb0-aec4-5303ace88c61.jpeg",
         "link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9b5574a96cc5a4a9e587",
         "title": "۷ دانشجو، یک پرونده جنجالی؛ رسوایی جنسی دانشگاه کرنل"
-      },
-      {
-        "at": "2026-10-29T15:05:06Z",
-        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793286296591-aec75549-81bb-4b65-a6b0-9bb9ccabc4fc.jpeg",
-        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6ae360a182192fb628ca58d8",
-        "title": "مرد ناشناسِ سرگردان؛ رازی که بعد از ۴۰ سال فاش شد!"
       }
     ],
     "recent_30d": [
@@ -67189,9 +67189,9 @@
       2,
       2,
       2,
-      3,
-      5,
-      8
+      4,
+      4,
+      9
     ],
     "status": "active"
   },
@@ -67969,8 +67969,8 @@
       0,
       0,
       0,
-      3,
-      2,
+      4,
+      1,
       1,
       0,
       0
@@ -68569,10 +68569,10 @@
     "status": "active"
   },
   "rman-hai-jnaii-ba-noshin": {
-    "avg_gap_days": 7.4,
+    "avg_gap_days": 7.7,
     "avg_length": 31,
     "episodes": 150,
-    "eps_365": 50,
+    "eps_365": 48,
     "eps_90": 26,
     "first_at": "2025-02-05",
     "first_year": 1403,
@@ -69149,8 +69149,8 @@
       1,
       6,
       7,
-      6,
-      6,
+      7,
+      5,
       3
     ],
     "status": "active"
@@ -71100,10 +71100,9 @@
     "status": "active"
   },
   "salon-parvaz-saln-proaz": {
-    "avg_gap_days": 27.0,
     "avg_length": 62,
     "episodes": 52,
-    "eps_365": 2,
+    "eps_365": 1,
     "eps_90": 0,
     "first_at": "2021-03-23",
     "first_year": 1400,
@@ -71284,8 +71283,8 @@
       0,
       0,
       5,
-      4,
-      3,
+      5,
+      2,
       4
     ],
     "status": "active"
@@ -72459,8 +72458,8 @@
       0,
       2,
       4,
-      3,
-      5
+      4,
+      4
     ],
     "status": "active"
   },
@@ -72868,19 +72867,25 @@
   "sfrnamh-hai-soti-lst-sknd": {
     "avg_gap_days": 1.2,
     "avg_length": 20,
-    "episodes": 108,
-    "eps_365": 108,
-    "eps_90": 63,
+    "episodes": 109,
+    "eps_365": 109,
+    "eps_90": 64,
     "first_at": "2026-06-29",
     "first_year": 1405,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T13:29:00Z",
-    "last_link": "https://bavexa.com/e/56983-navid-javadi-detune-04",
-    "last_title": "Navid Javadi - Detune Ep.04",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T13:00:00Z",
+    "last_link": "https://bavexa.com/e/57304-dj-hornet-top-hits-11",
+    "last_title": "Dj Hornet - Top Hits Ep.11",
     "max_length": 110,
     "median_length": 19,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://cdn-bavexa.version.ir/episodes/57304/source.mp3",
+        "at": "2026-11-09T13:00:00Z",
+        "i": "https://cdn.bavexa.com/episodes/u0ieuivUtKdM37szxQxveHAjO8DEo17Nkj4S8CiY.jpg",
+        "t": "Dj Hornet - Top Hits Ep.11"
+      },
       {
         "a": "https://cdn-bavexa.version.ir/episodes/56983/source.mp3",
         "at": "2026-11-08T13:29:00Z",
@@ -72922,15 +72927,15 @@
         "at": "2026-10-31T02:18:00Z",
         "i": "https://cdn.bavexa.com/episodes/Enpjp12WhmlNZvJ1AviLRIYcrDIbpHqeOtXfSNXu.jpg",
         "t": "Ehsan Ramsy - Night Ep.08"
-      },
-      {
-        "a": "https://cdn-bavexa.version.ir/episodes/53333/source.mp3",
-        "at": "2026-10-29T04:30:00Z",
-        "i": "https://cdn.bavexa.com/episodes/y8E5Eb5xUseVtRZ8wfsQLd2nlH8izhyk8VVFqy77.jpg",
-        "t": "DJ Hesam - Rangarang Ep.08"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T13:00:00Z",
+        "i": "https://cdn.bavexa.com/episodes/u0ieuivUtKdM37szxQxveHAjO8DEo17Nkj4S8CiY.jpg",
+        "link": "https://bavexa.com/e/57304-dj-hornet-top-hits-11",
+        "title": "Dj Hornet - Top Hits Ep.11"
+      },
       {
         "at": "2026-11-08T13:29:00Z",
         "i": "https://cdn.bavexa.com/episodes/djN2w3FFkIdLzk5TT3oWRxD1FnGLL8d6Yeofdnzr.jpg",
@@ -72942,12 +72947,6 @@
         "i": "https://cdn.bavexa.com/episodes/XeorDRgV3yaYbneRsbK0gDI1VDZ7DdYZzpfz4wYs.jpg",
         "link": "https://bavexa.com/e/56707-baroon-remix",
         "title": "Shadmehr Aghili & Horoush Band - Baroon"
-      },
-      {
-        "at": "2026-11-04T13:34:00Z",
-        "i": "https://cdn.bavexa.com/episodes/PfSXNfXFtbWvabTM6eg8MSQ0JoqKKyiqzsbmxMaG.jpg",
-        "link": "https://bavexa.com/e/56361-jamov-deep-silver-night",
-        "title": "Jamov Deep - Silver Night"
       }
     ],
     "recent_30d": [
@@ -72958,11 +72957,11 @@
       0,
       0,
       0,
-      23,
-      22,
+      24,
+      21,
       19,
       19,
-      25
+      26
     ],
     "status": "active"
   },
@@ -73561,21 +73560,27 @@
     "status": "active"
   },
   "shahnamh-khodmoni": {
-    "avg_gap_days": 29.9,
-    "avg_length": 65,
-    "episodes": 54,
-    "eps_365": 12,
-    "eps_90": 4,
+    "avg_gap_days": 28.5,
+    "avg_length": 66,
+    "episodes": 55,
+    "eps_365": 13,
+    "eps_90": 5,
     "first_at": "2020-12-10",
     "first_year": 1399,
-    "last": "1405/08/05",
-    "last_at": "2026-10-27T13:14:09Z",
-    "last_link": "https://shenoto.com/album/podcast/1892953/اپیزود۵۴- تویی که نمی‌شناختمت",
-    "last_title": "اپیزود۵۴- تویی که نمی‌شناختمت",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T15:24:43Z",
+    "last_link": "https://shenoto.com/album/podcast/1895906/اپیزود۵۵- مسافری از هند",
+    "last_title": "اپیزود۵۵- مسافری از هند",
     "max_length": 93,
-    "median_length": 52,
+    "median_length": 53,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/b0327f8c-dc51-11f1-946a-4ef03eea55df.mp3",
+        "at": "2026-11-09T15:24:43Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/49430087-36b2-461a-a26d-4a5e3a485c18/cover/3000.jpg",
+        "t": "اپیزود۵۵- مسافری از هند"
+      },
       {
         "a": "https://shenoto.com/service/api/play/podcast/4ba7ebad-d208-11f1-9733-b6a9b1f724f3.mp3",
         "at": "2026-10-27T13:14:09Z",
@@ -73617,15 +73622,15 @@
         "at": "2026-06-13T18:41:51Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/24022da7-9d68-4636-9ce3-021d1f349593/cover/3000.jpg",
         "t": "اپیزود۴۸- محاکمۀ یک فرمانده"
-      },
-      {
-        "a": "https://shenoto.com/service/api/play/podcast/30a20273-5c3d-11f1-a697-5e49d4b26530.mp3",
-        "at": "2026-05-30T15:35:30Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/41e7c8ea-3013-4021-8d53-cbfdb79f3209/cover/3000.jpg",
-        "t": "اپیزود۴۷- تاج خائن رو بردار!"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T15:24:43Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/49430087-36b2-461a-a26d-4a5e3a485c18/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/1895906/اپیزود۵۵- مسافری از هند",
+        "title": "اپیزود۵۵- مسافری از هند"
+      },
       {
         "at": "2026-10-27T13:14:09Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/16df8767-cb76-42eb-bf3e-34a85806dcfc/cover/3000.jpg",
@@ -73637,12 +73642,6 @@
         "i": "https://cdn-arch.shenoto.com/shenoto-album/df4ee99a-3f49-4167-a31b-f1079ed235ba/cover/3000.jpg",
         "link": "https://shenoto.com/album/podcast/1886369/اپیزود۵۳- جهان‌پهلوان برمی‌خیزد",
         "title": "اپیزود۵۳- جهان‌پهلوان برمی‌خیزد"
-      },
-      {
-        "at": "2026-09-13T09:53:23Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/b56e08eb-96f0-4fe1-864e-649e60e04112/cover/3000.jpg",
-        "link": "https://shenoto.com/album/podcast/1881736/اپیزود۵۲- دار و دستۀ چینی‌ها",
-        "title": "اپیزود۵۲- دار و دستۀ چینی‌ها"
       }
     ],
     "recent_30d": [
@@ -73657,7 +73656,7 @@
       1,
       1,
       2,
-      1
+      2
     ],
     "status": "active"
   },
@@ -73857,7 +73856,7 @@
     "avg_gap_days": 2.6,
     "avg_length": 4,
     "episodes": 349,
-    "eps_365": 140,
+    "eps_365": 139,
     "eps_90": 31,
     "first_at": "2025-01-23",
     "first_year": 1403,
@@ -73945,8 +73944,8 @@
       12,
       2,
       1,
-      9,
-      18,
+      10,
+      17,
       16,
       14,
       9,
@@ -74145,21 +74144,27 @@
     "status": "stopped"
   },
   "shar-kst": {
-    "avg_gap_days": 11.2,
+    "avg_gap_days": 10.9,
     "avg_length": 5,
-    "episodes": 170,
-    "eps_365": 33,
-    "eps_90": 28,
+    "episodes": 171,
+    "eps_365": 34,
+    "eps_90": 29,
     "first_at": "2022-05-04",
     "first_year": 1401,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T14:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/f9785b6a-8088-4c8c-9262-6858f4c7e5e7/play.mp3?v=1",
-    "last_title": "صد و شصت و نه - رخِ نازنین: منسوب به خیام",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T16:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/808e576b-8da4-48d1-a62c-ae68dae69ade/play.mp3?v=1",
+    "last_title": "صد و هفتاد - رخِ لاله: منسوب به خیام",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/808e576b-8da4-48d1-a62c-ae68dae69ade/play.mp3?v=1",
+        "at": "2026-11-09T16:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/808e576b-8da4-48d1-a62c-ae68dae69ade/artwork.jpg?v=1",
+        "t": "صد و هفتاد - رخِ لاله: منسوب به خیام"
+      },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/f9785b6a-8088-4c8c-9262-6858f4c7e5e7/play.mp3?v=1",
         "at": "2026-11-08T14:30:00Z",
@@ -74201,15 +74206,15 @@
         "at": "2026-11-02T13:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/cc31d538-5259-4f20-9846-30f510083488/artwork.jpg?v=1",
         "t": "صد و شصت و سه - ترکیبِ طبایع: خیام"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/d9cbe7d9-f8de-410d-a3bf-6fc7a1374d1e/play.mp3?v=1",
-        "at": "2026-11-01T16:30:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/d9cbe7d9-f8de-410d-a3bf-6fc7a1374d1e/artwork.jpg?v=1",
-        "t": "صد و شصت و دو - سر نِشترِ عشق"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T16:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/808e576b-8da4-48d1-a62c-ae68dae69ade/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/808e576b-8da4-48d1-a62c-ae68dae69ade/play.mp3?v=1",
+        "title": "صد و هفتاد - رخِ لاله: منسوب به خیام"
+      },
       {
         "at": "2026-11-08T14:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/f9785b6a-8088-4c8c-9262-6858f4c7e5e7/artwork.jpg?v=1",
@@ -74221,12 +74226,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/61c305ca-46e1-4975-8d41-2aa8d19d2662/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/61c305ca-46e1-4975-8d41-2aa8d19d2662/play.mp3?v=1",
         "title": "صد و شصت و هشت - لگدِ تجربه: منسوب به خیام"
-      },
-      {
-        "at": "2026-11-06T14:30:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/75f03ffd-29f5-4be1-998a-b5c0363c46eb/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/75f03ffd-29f5-4be1-998a-b5c0363c46eb/play.mp3?v=1",
-        "title": "صد و شصت و هفت - چهار و هفت: خیام"
       }
     ],
     "recent_30d": [
@@ -74241,7 +74240,7 @@
       2,
       1,
       0,
-      27
+      28
     ],
     "status": "active"
   },
@@ -74274,8 +74273,8 @@
       }
     ],
     "recent_30d": [
-      1,
-      1,
+      2,
+      0,
       0,
       0,
       0,
@@ -75521,10 +75520,10 @@
     "status": "active"
   },
   "siaht-namh-abrahim-big-haj-siah-taj-alsltnh": {
-    "avg_gap_days": 7.7,
+    "avg_gap_days": 8.0,
     "avg_length": 26,
     "episodes": 79,
-    "eps_365": 48,
+    "eps_365": 46,
     "eps_90": 4,
     "first_at": "2025-09-23",
     "first_year": 1404,
@@ -76626,7 +76625,7 @@
       }
     ],
     "recent_30d": [
-      7,
+      6,
       4,
       0,
       0,
@@ -77517,21 +77516,27 @@
     "status": "active"
   },
   "tanojaan-tn-o-jan": {
-    "avg_gap_days": 32.2,
-    "avg_length": 37,
-    "episodes": 20,
-    "eps_365": 10,
-    "eps_90": 2,
+    "avg_gap_days": 34.4,
+    "avg_length": 38,
+    "episodes": 21,
+    "eps_365": 11,
+    "eps_90": 3,
     "first_at": "2025-04-06",
     "first_year": 1404,
-    "last": "1405/06/26",
-    "last_at": "2026-09-17T06:38:17Z",
-    "last_link": "https://www.spreaker.com/episode/21-wly-aftad-mshklha-gftgw-ba-mtkhss-drbarh-tkhmk-ahdayy--75366980",
-    "last_title": "21-ولی افتاد مشکلها ... (گفتگو با متخصص درباره تخمک اهدایی)",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T14:27:00Z",
+    "last_link": "https://www.spreaker.com/episode/22-chshm-dl-baz-kn-kh-jan-byny-chrayy-rkh-dadn-bymary-hay-saykw-swmatyk--76267338",
+    "last_title": "22-چشم دل باز کن که جان بینی (چرایی رخ دادن بیماری های سایکو سوماتیک)",
     "max_length": 69,
-    "median_length": 36,
+    "median_length": 37,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76267338/episode.mp3",
+        "at": "2026-11-09T14:27:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/72fd1fb9896da277425aff1bd3166000.jpg",
+        "t": "22-چشم دل باز کن که جان بینی (چرایی رخ دادن بیماری های سایکو سوماتیک)"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75366980/file_1.mp3",
         "at": "2026-09-17T06:38:17Z",
@@ -77568,14 +77573,15 @@
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/73815569/b47e3d4e34b18f3df5b2b3c325.mp3",
         "at": "2026-04-20T18:55:12Z",
         "t": "پانزدهم: بدن، سرزمین فراموش شده( گفتگو با متخصص درباره آسیب های ورزشی)"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/73815572/42e503408696cd367ca7684942.mp3",
-        "at": "2025-12-29T10:22:09Z",
-        "t": "چهاردهم: زندگی سخت می گذره، اگه دیوونه نباشی! (درباره آسیب نخاعی)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T14:27:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/72fd1fb9896da277425aff1bd3166000.jpg",
+        "link": "https://www.spreaker.com/episode/22-chshm-dl-baz-kn-kh-jan-byny-chrayy-rkh-dadn-bymary-hay-saykw-swmatyk--76267338",
+        "title": "22-چشم دل باز کن که جان بینی (چرایی رخ دادن بیماری های سایکو سوماتیک)"
+      },
       {
         "at": "2026-09-17T06:38:17Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/dc69fbefa342758ce543ceb338b8db9f.jpg",
@@ -77587,11 +77593,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/72fd1fb9896da277425aff1bd3166000.jpg",
         "link": "https://www.spreaker.com/episode/20-fhshy-ta-abd-drbarh-nabarwry-mrdanh--74531007",
         "title": "20-فحشی تا ابد (درباره ناباروری مردانه)"
-      },
-      {
-        "at": "2026-07-30T19:48:14Z",
-        "link": "https://www.spreaker.com/episode/19-w-zny-kh-kafy-nyst-rwayty-znanh-az-barwry-ba-tkhmk-ahdayy--73815556",
-        "title": "19-و زنی که کافی نیست (روایتی زنانه از باروری با تخمک اهدایی)"
       }
     ],
     "recent_30d": [
@@ -77606,7 +77607,7 @@
       2,
       1,
       1,
-      0
+      1
     ],
     "status": "active"
   },
@@ -78105,7 +78106,7 @@
     "avg_length": 10,
     "episodes": 4255,
     "eps_365": 803,
-    "eps_90": 260,
+    "eps_90": 256,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/17",
@@ -78175,18 +78176,18 @@
       }
     ],
     "recent_30d": [
-      115,
-      99,
-      45,
-      63,
+      113,
+      98,
+      48,
+      60,
       0,
       0,
-      12,
-      107,
-      82,
+      14,
       106,
-      80,
-      74
+      85,
+      102,
+      82,
+      72
     ],
     "status": "active"
   },
@@ -78380,21 +78381,27 @@
     "status": "stopped"
   },
   "tarikh-hnr-khfn": {
-    "avg_gap_days": 21.7,
+    "avg_gap_days": 21.2,
     "avg_length": 61,
-    "episodes": 66,
-    "eps_365": 17,
-    "eps_90": 4,
+    "episodes": 67,
+    "eps_365": 18,
+    "eps_90": 5,
     "first_at": "2024-06-17",
     "first_year": 1403,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T14:23:47Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/ep-e3r4877",
-    "last_title": "فصل سوم، مقدمه",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T15:57:23Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/ep-e3s2jge",
+    "last_title": "ساکن شدن خدایان",
     "max_length": 87,
     "median_length": 59,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://anchor.fm/s/f7bbd8dc/podcast/play/129108942/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2Fcc1c2e76-1f82-f705-369f-264982ac8b3e.mp3",
+        "at": "2026-11-09T15:57:23Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41462831/41462831-1794228166677-db20b96ec88f4.jpg",
+        "t": "ساکن شدن خدایان"
+      },
       {
         "a": "https://anchor.fm/s/f7bbd8dc/podcast/play/128114343/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-26%2Fd35c03bd-e3cf-19f9-7972-e5db1b6f1c7d.mp3",
         "at": "2026-10-26T14:23:47Z",
@@ -78436,15 +78443,15 @@
         "at": "2026-06-27T06:42:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41462831/41462831-1782482742151-504ddd0919682.jpg",
         "t": "پارینه سنگی قدیم در ایران - بخش دوم"
-      },
-      {
-        "a": "https://anchor.fm/s/f7bbd8dc/podcast/play/121160993/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-8%2F7add93b5-3cf1-fc4b-53a5-79201c3ff1fb.mp3",
-        "at": "2026-06-08T15:43:08Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41462831/41462831-1780933356105-c2c908fbc3ede.jpg",
-        "t": "پارینه سنگی قدیم در ایران"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T15:57:23Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41462831/41462831-1794228166677-db20b96ec88f4.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/ep-e3s2jge",
+        "title": "ساکن شدن خدایان"
+      },
       {
         "at": "2026-10-26T14:23:47Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41462831/41462831-1793024608552-f8f21a3a6dc5c.jpg",
@@ -78456,12 +78463,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41462831/41462831-1791134228668-274b10abd33e5.jpg",
         "link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/--e3psehi",
         "title": "انسان خردمند - قسمت دوم"
-      },
-      {
-        "at": "2026-09-21T12:24:48Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41462831/41462831-1789992897459-f43173bb7b538.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/paneer-podcast2/episodes/--e3p6381",
-        "title": "انسان خردمند - قسمت اول"
       }
     ],
     "recent_30d": [
@@ -78476,7 +78477,7 @@
       2,
       1,
       2,
-      1
+      2
     ],
     "status": "active"
   },
@@ -78685,7 +78686,7 @@
     "avg_length": 11,
     "episodes": 24,
     "eps_365": 24,
-    "eps_90": 13,
+    "eps_90": 12,
     "first_at": "2026-05-26",
     "first_year": 1405,
     "last": "1405/08/12",
@@ -78763,8 +78764,8 @@
       0,
       3,
       4,
-      4,
       5,
+      4,
       4,
       4
     ],
@@ -79527,21 +79528,27 @@
     "status": "stopped"
   },
   "the-spies-circle": {
-    "avg_gap_days": 5.4,
+    "avg_gap_days": 6.4,
     "avg_length": 21,
-    "episodes": 36,
-    "eps_365": 22,
-    "eps_90": 11,
+    "episodes": 37,
+    "eps_365": 23,
+    "eps_90": 12,
     "first_at": "2024-09-14",
     "first_year": 1403,
-    "last": "1405/07/20",
-    "last_at": "2026-10-12T17:45:00Z",
-    "last_link": "https://shows.acast.com/the-spies-circle/episodes/6accb3568f90a39dfc586694",
-    "last_title": "گونتر گیوم؛ جاسوسی که به دفتر صدراعظم رسید",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T17:45:00Z",
+    "last_link": "https://shows.acast.com/the-spies-circle/episodes/6af20491876cc2ea402f1a63",
+    "last_title": "ولادیمیر وتروف؛ مردی که شبکهٔ سرقت فناوری شوروی را لو داد",
     "max_length": 49,
     "median_length": 22,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66d944afeeeb1e3b757154c0/e/6af20491876cc2ea402f1a63/media.mp3",
+        "at": "2026-11-09T17:45:00Z",
+        "i": "https://assets.pippa.io/shows/66d944afeeeb1e3b757154c0/1794245645799-9e0a1b87-003a-4e3b-9a7f-f0f84b715b2b.jpeg",
+        "t": "ولادیمیر وتروف؛ مردی که شبکهٔ سرقت فناوری شوروی را لو داد"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/66d944afeeeb1e3b757154c0/e/6accb3568f90a39dfc586694/media.mp3",
         "at": "2026-10-12T17:45:00Z",
@@ -79583,15 +79590,15 @@
         "at": "2026-08-30T09:11:41Z",
         "i": "https://assets.pippa.io/shows/66d944afeeeb1e3b757154c0/1788080982365-2e3fa4da-2a44-44bf-9c97-bdcef5908460.jpeg",
         "t": "اولگ پنکوفسکی؛ جاسوسی که پشت بلوف شوروی را دید - بخش دوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/66d944afeeeb1e3b757154c0/e/6a93e4be1d52ae16ba721871/media.mp3",
-        "at": "2026-08-30T08:07:26Z",
-        "i": "https://assets.pippa.io/shows/66d944afeeeb1e3b757154c0/1788077076523-3de67a5d-d835-4fac-950f-a86a153541f8.jpeg",
-        "t": "اولگ پنکوفسکی؛ جاسوسی که پشت بلوف شوروی را دید - بخش اول"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T17:45:00Z",
+        "i": "https://assets.pippa.io/shows/66d944afeeeb1e3b757154c0/1794245645799-9e0a1b87-003a-4e3b-9a7f-f0f84b715b2b.jpeg",
+        "link": "https://shows.acast.com/the-spies-circle/episodes/6af20491876cc2ea402f1a63",
+        "title": "ولادیمیر وتروف؛ مردی که شبکهٔ سرقت فناوری شوروی را لو داد"
+      },
       {
         "at": "2026-10-12T17:45:00Z",
         "i": "https://assets.pippa.io/shows/66d944afeeeb1e3b757154c0/1791800062596-356017ae-072a-42c5-a038-60bc008faea8.jpeg",
@@ -79603,12 +79610,6 @@
         "i": "https://assets.pippa.io/shows/66d944afeeeb1e3b757154c0/1791744210769-0ba60ff0-5b24-4378-872b-c2246f8a3c7e.jpeg",
         "link": "https://shows.acast.com/the-spies-circle/episodes/6acbdbb429b9fbfbe229c9aa",
         "title": "قرار بود ده جاسوس باشن…: چند کلمه دربارهٔ ادامهٔ فصل سوم"
-      },
-      {
-        "at": "2026-09-19T13:30:00Z",
-        "i": "https://assets.pippa.io/shows/66d944afeeeb1e3b757154c0/1789821757306-81d56f18-71b7-4c81-a8e0-d8d03484c228.jpeg",
-        "link": "https://shows.acast.com/the-spies-circle/episodes/6aae4a410a12e917748564b8",
-        "title": "جان آنتونی واکر؛ پدری که خانواده‌اش را جاسوس کرد - بخش دوم"
       }
     ],
     "recent_30d": [
@@ -79623,7 +79624,7 @@
       7,
       7,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -79900,7 +79901,7 @@
     "avg_length": 22,
     "episodes": 408,
     "eps_365": 257,
-    "eps_90": 108,
+    "eps_90": 107,
     "first_at": "2024-08-22",
     "first_year": 1403,
     "last": "1405/08/17",
@@ -79981,18 +79982,18 @@
       }
     ],
     "recent_30d": [
-      32,
-      18,
+      34,
+      16,
       30,
       15,
       0,
+      11,
+      11,
       10,
-      12,
-      10,
-      18,
-      45,
-      37,
-      26
+      19,
+      44,
+      38,
+      25
     ],
     "status": "active"
   },
@@ -82779,21 +82780,26 @@
     "status": "active"
   },
   "zndgi-shad-rozanh-ba-jois-mair": {
-    "avg_gap_days": 8.3,
+    "avg_gap_days": 8.2,
     "avg_length": 25,
-    "episodes": 287,
-    "eps_365": 44,
-    "eps_90": 12,
+    "episodes": 288,
+    "eps_365": 45,
+    "eps_90": 13,
     "first_at": "2020-12-10",
     "first_year": 1399,
-    "last": "1405/08/11",
-    "last_at": "2026-11-02T13:00:00Z",
-    "last_link": "https://joycemeyerfa.libsyn.com/l0wprelb4q3e",
-    "last_title": "رشد روحانی، ثمره روح، صبر و استقامت",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T13:00:00Z",
+    "last_link": "https://joycemeyerfa.libsyn.com/episode--1-3",
+    "last_title": "استراتيجيات المعركة لتجديد الذهن -1",
     "max_length": 28,
     "median_length": 25,
     "min_length": 18,
     "play": [
+      {
+        "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1411_5.mp3?dest-id=2501420",
+        "at": "2026-11-09T13:00:00Z",
+        "t": "استراتيجيات المعركة لتجديد الذهن -1"
+      },
       {
         "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1411_3.mp3?dest-id=2501420",
         "at": "2026-11-02T13:00:00Z",
@@ -82828,14 +82834,14 @@
         "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1398_1.mp3?dest-id=2501420",
         "at": "2026-09-14T13:00:00Z",
         "t": "چاه‌های خشک شده ۱"
-      },
-      {
-        "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1390_2.mp3?dest-id=2501420",
-        "at": "2026-09-07T13:00:00Z",
-        "t": "یادگیری برای دریافت ۲"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T13:00:00Z",
+        "link": "https://joycemeyerfa.libsyn.com/episode--1-3",
+        "title": "استراتيجيات المعركة لتجديد الذهن -1"
+      },
       {
         "at": "2026-11-02T13:00:00Z",
         "link": "https://joycemeyerfa.libsyn.com/l0wprelb4q3e",
@@ -82845,11 +82851,6 @@
         "at": "2026-10-26T13:00:00Z",
         "link": "https://joycemeyerfa.libsyn.com/pifpq5ccbim4",
         "title": "بخشش - قسمت سوم"
-      },
-      {
-        "at": "2026-10-19T13:00:00Z",
-        "link": "https://joycemeyerfa.libsyn.com/a03ymqia8vv2",
-        "title": "رشد روحانی، اطاعت، نگرش"
       }
     ],
     "recent_30d": [
@@ -82857,14 +82858,14 @@
       3,
       2,
       1,
-      3,
-      5,
+      4,
+      4,
       4,
       4,
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   }
