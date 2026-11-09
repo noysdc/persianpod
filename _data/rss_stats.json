@@ -31162,7 +31162,7 @@
       {
         "a": "https://sbs-podcast.streamguys1.com/khoresht-e-tech/20261109120411_334969-persian-21c8c177-cb7e-457b-9e63-5f8dce2e6a49.mp3?awCollectionId=khoresht-e-tech&awGenre=Technology&awEpisodeId=000001a1-bd83-daac-ada7-bdd7831b0000&dur_cat=3",
         "at": "2026-11-09T01:03:00Z",
-        "i": "https://sbs-rss.streamguys1.com/khoresht-e-tech/20261109120415_087770-sbs-podcasts-khoresht-e-tech-update-2023-3000x3000px-medium-bold-v1.jpg",
+        "i": "https://sbs-rss.streamguys1.com/khoresht-e-tech/20261109122754_128551-sbs-podcasts-khoresht-e-tech-update-2023-3000x3000px-medium-bold-v1.jpg",
         "t": "رابطه پنهانی مدیر یک غول فناوری با زنی مرتبط با چین؛ پای جاسوسی در میان است؟"
       },
       {
@@ -31211,7 +31211,7 @@
     "recent": [
       {
         "at": "2026-11-09T01:03:00Z",
-        "i": "https://sbs-rss.streamguys1.com/khoresht-e-tech/20261109120415_087770-sbs-podcasts-khoresht-e-tech-update-2023-3000x3000px-medium-bold-v1.jpg",
+        "i": "https://sbs-rss.streamguys1.com/khoresht-e-tech/20261109122754_128551-sbs-podcasts-khoresht-e-tech-update-2023-3000x3000px-medium-bold-v1.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/secret-relationship-between-tech-giant-ceo-and-woman-linked-to-china-is-espionage-involved/5t98m0axh",
         "title": "رابطه پنهانی مدیر یک غول فناوری با زنی مرتبط با چین؛ پای جاسوسی در میان است؟"
       },
@@ -53381,8 +53381,8 @@
       3,
       2,
       2,
-      2,
-      3
+      3,
+      2
     ],
     "status": "active"
   },
@@ -53986,10 +53986,10 @@
     "status": "stopped"
   },
   "podcast-hoadari-prspolis": {
-    "avg_gap_days": 13.4,
+    "avg_gap_days": 13.7,
     "avg_length": 43,
     "episodes": 65,
-    "eps_365": 28,
+    "eps_365": 27,
     "eps_90": 17,
     "first_at": "2025-01-19",
     "first_year": 1403,
@@ -58674,8 +58674,8 @@
       4,
       2,
       3,
-      1,
-      3
+      2,
+      2
     ],
     "status": "active"
   },
@@ -60631,8 +60631,8 @@
       }
     ],
     "recent_30d": [
-      2,
-      2,
+      3,
+      1,
       2,
       1,
       0,
@@ -64263,21 +64263,27 @@
     "status": "active"
   },
   "radio-hkait": {
-    "avg_gap_days": 4.3,
-    "avg_length": 34,
-    "episodes": 203,
-    "eps_365": 86,
+    "avg_gap_days": 4.2,
+    "avg_length": 35,
+    "episodes": 204,
+    "eps_365": 87,
     "eps_90": 36,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/20eb8c97-7261-46d1-b4e4-e404605a8767/play.mp3?v=1",
-    "last_title": "باردار - آنا گاوالدا",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ecb7ec77-49c2-4a15-93af-5a333b4d2ba8/play.mp3?v=1",
+    "last_title": "پیرو - گی دو موپوسان",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ecb7ec77-49c2-4a15-93af-5a333b4d2ba8/play.mp3?v=1",
+        "at": "2026-11-09T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ecb7ec77-49c2-4a15-93af-5a333b4d2ba8/artwork.jpg?v=1",
+        "t": "پیرو - گی دو موپوسان"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/20eb8c97-7261-46d1-b4e4-e404605a8767/play.mp3?v=1",
         "at": "2026-11-08T01:30:00Z",
@@ -64319,15 +64325,15 @@
         "at": "2026-11-02T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/210a2fd9-d79e-40d4-9c54-cf507ff85f3e/artwork.jpg?v=1",
         "t": "عزیزم بپسند - عزیز نسین"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ed022cb9-ff3f-48b8-a565-77b58d0b3160/play.mp3?v=1",
-        "at": "2026-11-01T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ed022cb9-ff3f-48b8-a565-77b58d0b3160/artwork.jpg?v=1",
-        "t": "چگونه با نویسنده ی اعلامیهُ ترحیمم ملاقات کردم - یارسلاو هاشک"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ecb7ec77-49c2-4a15-93af-5a333b4d2ba8/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ecb7ec77-49c2-4a15-93af-5a333b4d2ba8/play.mp3?v=1",
+        "title": "پیرو - گی دو موپوسان"
+      },
       {
         "at": "2026-11-08T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/20eb8c97-7261-46d1-b4e4-e404605a8767/artwork.jpg?v=1",
@@ -64339,27 +64345,21 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/780d85c0-f168-4f21-aea9-49e76f37df86/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/780d85c0-f168-4f21-aea9-49e76f37df86/play.mp3?v=1",
         "title": "دروغ ها - جی. ام. کوتزی"
-      },
-      {
-        "at": "2026-11-06T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/67e43052-b19e-4b70-86c0-e0d8251d5e9e/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/67e43052-b19e-4b70-86c0-e0d8251d5e9e/play.mp3?v=1",
-        "title": "مسائل بیمارستانی – دینو بوتزاتی"
       }
     ],
     "recent_30d": [
-      9,
+      8,
       7,
       4,
       7,
       0,
       0,
-      5,
+      6,
+      8,
       9,
       8,
       9,
-      9,
-      18
+      19
     ],
     "status": "active"
   },
@@ -79901,7 +79901,7 @@
     "avg_length": 22,
     "episodes": 408,
     "eps_365": 257,
-    "eps_90": 110,
+    "eps_90": 109,
     "first_at": "2024-08-22",
     "first_year": 1403,
     "last": "1405/08/17",
@@ -79990,8 +79990,8 @@
       9,
       13,
       10,
-      16,
-      46,
+      17,
+      45,
       38,
       26
     ],
