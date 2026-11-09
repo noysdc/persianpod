@@ -72074,21 +72074,27 @@
     "status": "active"
   },
   "sdai-slamt": {
-    "avg_gap_days": 12.2,
+    "avg_gap_days": 12.0,
     "avg_length": 15,
-    "episodes": 103,
-    "eps_365": 28,
-    "eps_90": 16,
+    "episodes": 104,
+    "eps_365": 29,
+    "eps_90": 17,
     "first_at": "2023-02-04",
     "first_year": 1401,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T08:15:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/dr-fariba-behnia-willison-has-been-nominated-for-the-2027-south-australian-of-the-year-award/kks2tga9s",
-    "last_title": "دکتر فریبا بهنیا ویلیسون نامزد جایزه چهره سال استرالیای جنوبی ۲۰۲۷ شد",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T04:51:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/why-your-next-specialist-visit-could-cost-a-lot-more-than-expected/56ep5j1gi",
+    "last_title": "«سیستم ازکارافتاده»؛ هزینه ویزیت پزشکان متخصص در استرالیا گران‌تر می‌شود",
     "max_length": 37,
     "median_length": 9,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20261109155113_638245-persian-d5872177-2b1d-47b4-8d07-d25264ed30a9.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a1-be68-d0fe-a1b9-fe6e531d0000&dur_cat=2",
+        "at": "2026-11-09T04:51:00Z",
+        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261109155118_639745-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
+        "t": "«سیستم ازکارافتاده»؛ هزینه ویزیت پزشکان متخصص در استرالیا گران‌تر می‌شود"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20261103191528_044116-dr-behnia-final.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a1-a063-d326-a5fb-a46f8f570000&dur_cat=4",
         "at": "2026-11-03T08:15:00Z",
@@ -72130,15 +72136,15 @@
         "at": "2026-10-01T01:47:00Z",
         "i": "https://sbs-rss.streamguys1.com/sbs-persian/20261001114727_449161-sbs-podcasts-sbspersian-3000x3000px.jpg",
         "t": "آنچه باید درباره تغییر ساعت تابستانی در استرالیا بدانید: چرا هنوز ساعت‌ها را تغییر می‌دهیم؟"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20260928171602_086268-persian-05d1508f-70b0-424b-8ac5-56bd01fc26ec.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a0-e6c9-de4e-a7ab-ffe99c630000&dur_cat=3",
-        "at": "2026-09-28T07:15:00Z",
-        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20260928171608_666913-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
-        "t": "از نیاز به حمایت تا زندگی مستقل؛ NDIS چگونه کمک می‌کند؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T04:51:00Z",
+        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261109155118_639745-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/why-your-next-specialist-visit-could-cost-a-lot-more-than-expected/56ep5j1gi",
+        "title": "«سیستم ازکارافتاده»؛ هزینه ویزیت پزشکان متخصص در استرالیا گران‌تر می‌شود"
+      },
       {
         "at": "2026-11-03T08:15:00Z",
         "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261104104743_149049-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
@@ -72150,12 +72156,6 @@
         "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261027162241_294432-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/gambling-addiction-where-to-get-help/xvea1azje",
         "title": "«پناه» به قمار؛ علائم اعتیاد چیست؟ و از کجا کمک بگیریم؟"
-      },
-      {
-        "at": "2026-10-19T06:17:00Z",
-        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261020102752_073267-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/visiting-a-psychoanalyst-where-to-start-and-what-to-expect/fl8ydj8u4",
-        "title": "مراجعه به روان‌کاو؛ از کجا شروع کنیم؟ و چه انتظاراتی داشته باشیم؟"
       }
     ],
     "recent_30d": [
@@ -72170,7 +72170,7 @@
       3,
       8,
       3,
-      5
+      6
     ],
     "status": "active"
   },
