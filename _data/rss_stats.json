@@ -33060,9 +33060,9 @@
       20,
       62,
       58,
+      61,
       60,
-      60,
-      51
+      50
     ],
     "status": "active"
   },
@@ -63101,32 +63101,20 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.1,
-    "avg_length": 113,
-    "episodes": 87,
-    "eps_365": 87,
-    "eps_90": 87,
+    "avg_length": 111,
+    "episodes": 85,
+    "eps_365": 85,
+    "eps_90": 85,
     "first_at": "2026-11-01",
     "first_year": 1405,
     "last": "1405/08/18",
-    "last_at": "2026-11-09T16:08:14Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakdaman--Nasser-Part-2-e3s37k9",
-    "last_title": "Pakdaman, Nasser Part 2",
+    "last_at": "2026-11-09T00:46:19Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakravan--Fatemeh-Part-2-e3s1j2l",
+    "last_title": "Pakravan, Fatemeh Part 2",
     "max_length": 134,
     "median_length": 116,
     "min_length": 20,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129129545/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F981aaacd-f44d-4a51-2353-d313bb97552e.mp3",
-        "at": "2026-11-09T16:08:14Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240433773-516bed184f615.jpg",
-        "t": "Pakdaman, Nasser Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129129272/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F91eed52d-dc41-7881-c1f0-dc0518e4654d.mp3",
-        "at": "2026-11-09T16:06:49Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240398859-5756e37d6ca1b.jpg",
-        "t": "Pakdaman, Nasser Part 1"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/129075733/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2Fd855d523-79a6-471c-08e3-e0467bf00138.mp3",
         "at": "2026-11-09T00:46:19Z",
@@ -63162,26 +63150,38 @@
         "at": "2026-11-08T18:25:17Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794162258782-0434e0338dd5c.jpg",
         "t": "Amini, Ali Part 2"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129060508/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2Fa88f36df-cc9a-018c-d5d5-4464aa778e02.mp3",
+        "at": "2026-11-08T18:23:51Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794162158591-4de05b63b041d.jpg",
+        "t": "Amini, Ali Part 1"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/128968942/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F1c501fad-9b98-869e-63b4-68e4cae4fdad.mp3",
+        "at": "2026-11-07T03:26:55Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794021954874-14755fc9d34d.jpg",
+        "t": "Nazih, Hassan Part 5"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-09T16:08:14Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240433773-516bed184f615.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakdaman--Nasser-Part-2-e3s37k9",
-        "title": "Pakdaman, Nasser Part 2"
-      },
-      {
-        "at": "2026-11-09T16:06:49Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794240398859-5756e37d6ca1b.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakdaman--Nasser-Part-1-e3s37bo",
-        "title": "Pakdaman, Nasser Part 1"
-      },
       {
         "at": "2026-11-09T00:46:19Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794239284504-a5ae11ab2a715.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakravan--Fatemeh-Part-2-e3s1j2l",
         "title": "Pakravan, Fatemeh Part 2"
+      },
+      {
+        "at": "2026-11-09T00:44:51Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794239257838-401903c58e551.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Pakravan--Fatemeh-Part-1-e3s1iof",
+        "title": "Pakravan, Fatemeh Part 1"
+      },
+      {
+        "at": "2026-11-09T00:02:11Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794182466358-d6f1126d5334.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Bakhtiar--Chapour-Part-2-e3s1hd1",
+        "title": "Bakhtiar, Chapour Part 2"
       }
     ],
     "recent_30d": [
@@ -63196,7 +63196,7 @@
       0,
       0,
       0,
-      87
+      85
     ],
     "status": "active"
   },
