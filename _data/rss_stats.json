@@ -17339,21 +17339,27 @@
     "status": "stopped"
   },
   "farsi-okr": {
-    "avg_gap_days": 15.5,
+    "avg_gap_days": 15.8,
     "avg_length": 23,
-    "episodes": 69,
-    "eps_365": 23,
-    "eps_90": 6,
+    "episodes": 70,
+    "eps_365": 24,
+    "eps_90": 7,
     "first_at": "2024-12-30",
     "first_year": 1403,
-    "last": "1405/07/27",
-    "last_at": "2026-10-19T01:30:00Z",
-    "last_link": "https://shows.acast.com/okr/episodes/6ad2fe477c5c47f85e2bf455",
-    "last_title": "پشت صحنه مدیریت گوگل (بخش آخر)",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T01:30:00Z",
+    "last_link": "https://shows.acast.com/okr/episodes/6aeac833f7e4924fb7ce9d14",
+    "last_title": "تصمیم های دقیق اما اشتباه",
     "max_length": 37,
     "median_length": 22,
     "min_length": 12,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/676edd4b2472a043c01b942a/e/6aeac833f7e4924fb7ce9d14/media.mp3",
+        "at": "2026-11-09T01:30:00Z",
+        "i": "https://assets.pippa.io/shows/676edd4b2472a043c01b942a/1793771498825-01b6bd50-81bd-4da9-842f-8534a7bcdb46.jpeg",
+        "t": "تصمیم های دقیق اما اشتباه"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/676edd4b2472a043c01b942a/e/6ad2fe477c5c47f85e2bf455/media.mp3",
         "at": "2026-10-19T01:30:00Z",
@@ -17395,15 +17401,15 @@
         "at": "2026-08-10T01:30:00Z",
         "i": "https://assets.pippa.io/shows/676edd4b2472a043c01b942a/1786159666293-76aebd04-17ab-473b-b9ec-f7a29b33a242.jpeg",
         "t": "سه نسل اوکی آر و هشت تله هوش مصنوعی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/676edd4b2472a043c01b942a/e/6a6d8507c7cc27169d2d2fc3/media.mp3",
-        "at": "2026-08-03T01:30:00Z",
-        "i": "https://assets.pippa.io/shows/676edd4b2472a043c01b942a/1785562226218-2a1da423-b338-43b0-a3d1-df9e82ff8951.jpeg",
-        "t": "مهارتی که معمولا سازمان ها بلد نیستند، علم عذرخواهی سازمانی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T01:30:00Z",
+        "i": "https://assets.pippa.io/shows/676edd4b2472a043c01b942a/1793771498825-01b6bd50-81bd-4da9-842f-8534a7bcdb46.jpeg",
+        "link": "https://shows.acast.com/okr/episodes/6aeac833f7e4924fb7ce9d14",
+        "title": "تصمیم های دقیق اما اشتباه"
+      },
       {
         "at": "2026-10-19T01:30:00Z",
         "i": "https://assets.pippa.io/shows/676edd4b2472a043c01b942a/1792212335936-d10eacf7-3cf5-4cbb-ade2-ab204e329175.jpeg",
@@ -17415,12 +17421,6 @@
         "i": "https://assets.pippa.io/shows/676edd4b2472a043c01b942a/1791348824655-4a8fd323-766f-4558-8867-869ca89a4696.jpeg",
         "link": "https://shows.acast.com/okr/episodes/6ac5d23a29b9fbfbe22de059",
         "title": "پشت صحنه مدیریت گوگل (بخش اول)"
-      },
-      {
-        "at": "2026-09-14T01:30:00Z",
-        "i": "https://assets.pippa.io/shows/676edd4b2472a043c01b942a/1789186731546-fb7cb908-8971-4eff-8a41-c37797b98e63.jpeg",
-        "link": "https://shows.acast.com/okr/episodes/6aa4d2cf7d9d1b167853ce1e",
-        "title": "ساده سازی های دنیای پیچیده و پیچیده کردن های رعب آور"
       }
     ],
     "recent_30d": [
@@ -17435,7 +17435,7 @@
       5,
       3,
       1,
-      2
+      3
     ],
     "status": "active"
   },
@@ -31162,7 +31162,7 @@
       {
         "a": "https://sbs-podcast.streamguys1.com/khoresht-e-tech/20261109120411_334969-persian-21c8c177-cb7e-457b-9e63-5f8dce2e6a49.mp3?awCollectionId=khoresht-e-tech&awGenre=Technology&awEpisodeId=000001a1-bd83-daac-ada7-bdd7831b0000&dur_cat=3",
         "at": "2026-11-09T01:03:00Z",
-        "i": "https://sbs-rss.streamguys1.com/khoresht-e-tech/20261109122754_128551-sbs-podcasts-khoresht-e-tech-update-2023-3000x3000px-medium-bold-v1.jpg",
+        "i": "https://sbs-rss.streamguys1.com/khoresht-e-tech/20261109123202_774927-sbs-podcasts-khoresht-e-tech-update-2023-3000x3000px-medium-bold-v1.jpg",
         "t": "رابطه پنهانی مدیر یک غول فناوری با زنی مرتبط با چین؛ پای جاسوسی در میان است؟"
       },
       {
@@ -31211,7 +31211,7 @@
     "recent": [
       {
         "at": "2026-11-09T01:03:00Z",
-        "i": "https://sbs-rss.streamguys1.com/khoresht-e-tech/20261109122754_128551-sbs-podcasts-khoresht-e-tech-update-2023-3000x3000px-medium-bold-v1.jpg",
+        "i": "https://sbs-rss.streamguys1.com/khoresht-e-tech/20261109123202_774927-sbs-podcasts-khoresht-e-tech-update-2023-3000x3000px-medium-bold-v1.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/secret-relationship-between-tech-giant-ceo-and-woman-linked-to-china-is-espionage-involved/5t98m0axh",
         "title": "رابطه پنهانی مدیر یک غول فناوری با زنی مرتبط با چین؛ پای جاسوسی در میان است؟"
       },
@@ -40666,8 +40666,8 @@
     "status": "active"
   },
   "mnaba-farsi-bit-koin": {
-    "avg_length": 28,
-    "episodes": 8,
+    "avg_length": 41,
+    "episodes": 11,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-09-14",
@@ -40676,8 +40676,8 @@
     "last_at": "2022-08-24T21:02:46Z",
     "last_link": "https://podcasters.spotify.com/pod/show/bitcoind-me/episodes/ep-e1mtbsq",
     "last_title": "۱۳. بیتکوین، حریم خصوصی، و آزادی",
-    "max_length": 59,
-    "median_length": 23,
+    "max_length": 82,
+    "median_length": 27,
     "min_length": 11,
     "play": [
       {
@@ -40716,16 +40716,16 @@
         "t": "۷. اهمیت قیمت‌ها در اقتصاد چیست و مداخله دولت در قیمت‌ها چه تبعاتی در پی دارد | پویا ناظران"
       },
       {
+        "a": "https://anchor.fm/s/6a28fc34/podcast/play/41068807/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-30%2F84d2c89b-e061-c1f6-32a5-17ee75f24990.mp3",
+        "at": "2021-10-31T05:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded400/17710709/17710709-1630697174133-083ea4bdfb86d.jpg",
+        "t": "۶. مقدمه‌ای بر مکتب اقتصادی اتریش، از منظر بیت‌کوین | گوینده: coinlet_hodler@"
+      },
+      {
         "a": "https://anchor.fm/s/6a28fc34/podcast/play/41068149/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-30%2F75332f43-cc05-d26b-e2b8-912858ed4a78.mp3",
         "at": "2021-10-17T14:49:12Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded400/17710709/17710709-1630697174133-083ea4bdfb86d.jpg",
         "t": "۵. آخرین روزهای ساتوشی | گوینده: Chap_dastt@"
-      },
-      {
-        "a": "https://anchor.fm/s/6a28fc34/podcast/play/40268098/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-14%2Fd0b9bd27-5a30-d023-d96b-a73217fcd3eb.mp3",
-        "at": "2021-09-14T13:00:12Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded400/17710709/17710709-1630697174133-083ea4bdfb86d.jpg",
-        "t": "۲. چرا بیت‌کوین یک طرح کلاه‌برداری پانزی نیست | گوینده: sedmedi@"
       }
     ],
     "recent": [
