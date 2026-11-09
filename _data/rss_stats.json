@@ -37219,21 +37219,27 @@
     "status": "active"
   },
   "ktabkhanh-soti": {
-    "avg_gap_days": 8.3,
-    "avg_length": 31,
-    "episodes": 44,
-    "eps_365": 44,
-    "eps_90": 10,
+    "avg_gap_days": 8.1,
+    "avg_length": 32,
+    "episodes": 45,
+    "eps_365": 45,
+    "eps_90": 11,
     "first_at": "2025-11-17",
     "first_year": 1404,
     "last": "1405/08/18",
-    "last_at": "2026-11-09T09:15:12Z",
-    "last_link": "https://www.spreaker.com/episode/anja-kh-tmam-my-shwd-pydaym-kn-bkhsh-awl--76261775",
-    "last_title": "آنجا که تمام می‌شود، پیدایم کن (بخش اول)",
+    "last_at": "2026-11-09T09:20:12Z",
+    "last_link": "https://www.spreaker.com/episode/anja-kh-tmam-my-shwd-pydaym-kn-bkhsh-dwm--76261788",
+    "last_title": "آنجا که تمام می‌شود، پیدایم کن (بخش دوم)",
     "max_length": 73,
     "median_length": 25,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76261788/episode.mp3",
+        "at": "2026-11-09T09:20:12Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
+        "t": "آنجا که تمام می‌شود، پیدایم کن (بخش دوم)"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76261775/episode.mp3",
         "at": "2026-11-09T09:15:12Z",
@@ -37275,15 +37281,15 @@
         "at": "2026-10-01T15:33:02Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/e45d4564e1af2a4b0ba6d41f7b0a732d.jpg",
         "t": "من؟ من با همه فرق می‌کنم"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74995003/episode.mp3",
-        "at": "2026-09-14T16:53:02Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/b7a1e3a199f20e9d3e2cf925e03eb596.jpg",
-        "t": "بره‌ای در پوست گرگ"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-09T09:20:12Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
+        "link": "https://www.spreaker.com/episode/anja-kh-tmam-my-shwd-pydaym-kn-bkhsh-dwm--76261788",
+        "title": "آنجا که تمام می‌شود، پیدایم کن (بخش دوم)"
+      },
       {
         "at": "2026-11-09T09:15:12Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/417b71fad76dc0557cf0a568a562df7a.jpg",
@@ -37295,12 +37301,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/61a6acf171f6c6a6b42a205ba1035881.jpg",
         "link": "https://www.spreaker.com/episode/qsh-ha-w-afsanh-ha-bkhsh-3--76056098",
         "title": "قصه‌ها و افسانه‌ها - بخش ۳"
-      },
-      {
-        "at": "2026-11-02T15:24:02Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/61a6acf171f6c6a6b42a205ba1035881.jpg",
-        "link": "https://www.spreaker.com/episode/qsh-ha-w-afsanh-ha-bkhsh-2--76055918",
-        "title": "قصه‌ها و افسانه‌ها - بخش ۲"
       }
     ],
     "recent_30d": [
@@ -37315,7 +37315,7 @@
       5,
       2,
       4,
-      4
+      5
     ],
     "status": "active"
   },
@@ -40666,8 +40666,8 @@
     "status": "active"
   },
   "mnaba-farsi-bit-koin": {
-    "avg_length": 28,
-    "episodes": 8,
+    "avg_length": 41,
+    "episodes": 11,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-09-14",
@@ -40676,8 +40676,8 @@
     "last_at": "2022-08-24T21:02:46Z",
     "last_link": "https://podcasters.spotify.com/pod/show/bitcoind-me/episodes/ep-e1mtbsq",
     "last_title": "۱۳. بیتکوین، حریم خصوصی، و آزادی",
-    "max_length": 59,
-    "median_length": 23,
+    "max_length": 82,
+    "median_length": 27,
     "min_length": 11,
     "play": [
       {
@@ -40716,16 +40716,16 @@
         "t": "۷. اهمیت قیمت‌ها در اقتصاد چیست و مداخله دولت در قیمت‌ها چه تبعاتی در پی دارد | پویا ناظران"
       },
       {
+        "a": "https://anchor.fm/s/6a28fc34/podcast/play/41068807/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-30%2F84d2c89b-e061-c1f6-32a5-17ee75f24990.mp3",
+        "at": "2021-10-31T05:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded400/17710709/17710709-1630697174133-083ea4bdfb86d.jpg",
+        "t": "۶. مقدمه‌ای بر مکتب اقتصادی اتریش، از منظر بیت‌کوین | گوینده: coinlet_hodler@"
+      },
+      {
         "a": "https://anchor.fm/s/6a28fc34/podcast/play/41068149/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-30%2F75332f43-cc05-d26b-e2b8-912858ed4a78.mp3",
         "at": "2021-10-17T14:49:12Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded400/17710709/17710709-1630697174133-083ea4bdfb86d.jpg",
         "t": "۵. آخرین روزهای ساتوشی | گوینده: Chap_dastt@"
-      },
-      {
-        "a": "https://anchor.fm/s/6a28fc34/podcast/play/40268098/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-14%2Fd0b9bd27-5a30-d023-d96b-a73217fcd3eb.mp3",
-        "at": "2021-09-14T13:00:12Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded400/17710709/17710709-1630697174133-083ea4bdfb86d.jpg",
-        "t": "۲. چرا بیت‌کوین یک طرح کلاه‌برداری پانزی نیست | گوینده: sedmedi@"
       }
     ],
     "recent": [
@@ -59046,8 +59046,8 @@
     "recent_30d": [
       6,
       6,
-      3,
-      12,
+      4,
+      11,
       10,
       8,
       4,
@@ -68574,7 +68574,7 @@
     "avg_length": 31,
     "episodes": 150,
     "eps_365": 50,
-    "eps_90": 27,
+    "eps_90": 26,
     "first_at": "2025-02-05",
     "first_year": 1403,
     "last": "1405/08/16",
@@ -68663,8 +68663,8 @@
       0,
       0,
       0,
-      4,
-      11,
+      5,
+      10,
       7,
       9
     ],
