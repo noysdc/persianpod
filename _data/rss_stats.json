@@ -81480,20 +81480,25 @@
   },
   "tmam-ktab": {
     "avg_gap_days": 1.4,
-    "avg_length": 28,
+    "avg_length": 29,
     "episodes": 600,
     "eps_365": 261,
     "eps_90": 64,
-    "first_at": "2024-07-23",
+    "first_at": "2024-07-24",
     "first_year": 1403,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T20:30:00Z",
-    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-0002-0b4IFGLj-J_ll_E0A",
-    "last_title": "مقدمه، قسمت دوم",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T20:30:00Z",
+    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-0003-kSfNXEbM-tSkC5tCr",
+    "last_title": "مقدمه، قسمت سوم",
     "max_length": 37,
     "median_length": 28,
     "min_length": 24,
     "play": [
+      {
+        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/ecd549fb-baa1-4973-9a4e-9f514077b1a3/group-item/9170f625-794e-4087-a9a7-dc97e77366d2/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
+        "at": "2026-11-10T20:30:00Z",
+        "t": "مقدمه، قسمت سوم"
+      },
       {
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/f8deedeb-10ad-4d6f-8a51-137bfddd62fc/group-item/25b67e61-3a2f-4d1f-964a-2250732b197c/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-11-09T20:30:00Z",
@@ -81528,14 +81533,14 @@
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/1e493a61-99b8-4046-ae4e-ef2533ace887/group-item/551c261d-8e7d-4326-8f15-4d69649d3532/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-11-01T20:30:00Z",
         "t": "مکاشفه ۲۲: ۶ تا ۱۵"
-      },
-      {
-        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/cbd385a8-7a17-4d3b-be89-010f6db25442/group-item/d8cb8801-d3d5-4286-957b-de892fde0a9a/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
-        "at": "2026-10-29T20:30:00Z",
-        "t": "مکاشفه ۲۲: ۱ تا ۵"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T20:30:00Z",
+        "link": "https://tmm-khtb.simplecast.com/episodes/tk-0003-kSfNXEbM-tSkC5tCr",
+        "title": "مقدمه، قسمت سوم"
+      },
       {
         "at": "2026-11-09T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-0002-0b4IFGLj-J_ll_E0A",
@@ -81545,18 +81550,9 @@
         "at": "2026-11-08T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-0001-ejNFiOKZ-KxRVzz22",
         "title": "مقدمه، قسمت اول"
-      },
-      {
-        "at": "2026-11-05T20:30:00Z",
-        "link": "https://tmm-khtb.simplecast.com/episodes/tk-1323-R4KJX4V8",
-        "title": "پيدايش ۱: ۱ تا مکاشفه ۲۲: ۲۱"
       }
     ],
     "recent_30d": [
-      21,
-      22,
-      22,
-      20,
       22,
       22,
       21,
@@ -81564,6 +81560,10 @@
       22,
       22,
       20,
+      22,
+      22,
+      21,
+      21,
       22
     ],
     "status": "active"
