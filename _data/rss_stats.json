@@ -39873,19 +39873,25 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 994,
-    "eps_365": 327,
-    "eps_90": 81,
+    "episodes": 995,
+    "eps_365": 328,
+    "eps_90": 82,
     "first_at": "2023-11-21",
     "first_year": 1402,
     "last": "1405/08/19",
-    "last_at": "2026-11-10T02:33:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/labor-vows-inflation-relief-as-criticism-mounts-after-fifth-straight-rate-rise/gms2ogno1",
-    "last_title": "دولت کارگر زیر فشار پنجمین افزایش پیاپی نرخ بهره: برای مهار تورم اقدام می کنیم",
+    "last_at": "2026-11-10T04:39:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/the-australian-government-has-backed-down-on-the-sale-of-67-military-properties/cekgqqvl7",
+    "last_title": "دولت استرالیا از فروش ۶۷ ملک نظامی عقب‌نشینی کرد",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261110154008_291117-persian-7d7b2b04-df4c-43af-8eaa-daf1593fd717.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-c3bd-da5a-adfb-efff74780000&dur_cat=3",
+        "at": "2026-11-10T04:39:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261110154011_242001-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "t": "دولت استرالیا از فروش ۶۷ ملک نظامی عقب‌نشینی کرد"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261110133403_304576-persian-101126-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-c347-d95f-abb5-fb57571b0000&dur_cat=2",
         "at": "2026-11-10T02:33:00Z",
@@ -39927,15 +39933,15 @@
         "at": "2026-11-03T03:25:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261103183329_511742-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "t": "ممنوعیت شبکه‌های اجتماعی برای کودکان در دادگاه عالی استرالیا به چالش کشیده شد"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261102141415_937320-persian-e6ccfb84-97fa-4442-b2bb-595f7ad9fac8.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-9a3b-d1d6-a5bd-fffb61070000&dur_cat=2",
-        "at": "2026-11-02T03:14:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261102161004_697718-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "t": "طرح بازخرید سلاح گرم از امروز در ایالت نیو ساوت ولز آغاز می‌شود"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T04:39:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261110154011_242001-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/the-australian-government-has-backed-down-on-the-sale-of-67-military-properties/cekgqqvl7",
+        "title": "دولت استرالیا از فروش ۶۷ ملک نظامی عقب‌نشینی کرد"
+      },
       {
         "at": "2026-11-10T02:33:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261110133405_624357-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
@@ -39947,12 +39953,6 @@
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261106171111_430055-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/australia-has-asked-washington-to-end-the-war-with-iran/hf73m1uaq",
         "title": "استرالیا از واشنگتن خواست به جنگ با ایران پایان دهد"
-      },
-      {
-        "at": "2026-11-06T01:20:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261106122123_170571-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/ministers-meet-to-discuss-closing-the-gap-targets/t023dfrh5",
-        "title": "نشست وزیران برای بررسی اهداف طرح «کاهش شکاف»"
       }
     ],
     "recent_30d": [
@@ -39967,7 +39967,7 @@
       28,
       28,
       25,
-      28
+      29
     ],
     "status": "active"
   },
