@@ -73264,21 +73264,26 @@
     "status": "stopped"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.3,
+    "avg_gap_days": 4.2,
     "avg_length": 22,
-    "episodes": 492,
-    "eps_365": 86,
-    "eps_90": 32,
+    "episodes": 493,
+    "eps_365": 87,
+    "eps_90": 33,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T11:50:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/4mte1e0wj7/",
-    "last_title": "نفت در انتظار دیدار ترامپ با نخست‌وزیر قطر",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T11:10:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/8n12669awh/",
+    "last_title": "۲۵ یا ۵۰ واحد پایه؟ نگاه بازار به تورم هسته آمریکا در سایه صحبت‌های والر",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/8n12669awh/2026-11-10-11-30-51.mp3",
+        "at": "2026-11-10T11:10:00Z",
+        "t": "۲۵ یا ۵۰ واحد پایه؟ نگاه بازار به تورم هسته آمریکا در سایه صحبت‌های والر"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/4mte1e0wj7/2026-11-09-12-00-10.mp3",
         "at": "2026-11-09T11:50:00Z",
@@ -73313,14 +73318,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/hd3meukk5h/2026-10-30-12-18-26.mp3",
         "at": "2026-10-30T11:50:00Z",
         "t": "افت همزمان طلا و نزدک؛ چرا کاهش بازده اوراق کافی نبود؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/eydmxb5zxb/2026-10-29-12-47-14.mp3",
-        "at": "2026-10-29T10:20:00Z",
-        "t": "شوک آلفابت به وال‌استریت؛ نگاه بازار به آمازون و تورم آمریکا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T11:10:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/8n12669awh/",
+        "title": "۲۵ یا ۵۰ واحد پایه؟ نگاه بازار به تورم هسته آمریکا در سایه صحبت‌های والر"
+      },
       {
         "at": "2026-11-09T11:50:00Z",
         "link": "https://dotcast.org/p/bozvcayr/4mte1e0wj7/",
@@ -73330,11 +73335,6 @@
         "at": "2026-11-06T11:00:00Z",
         "link": "https://dotcast.org/p/bozvcayr/0jd87468ny/",
         "title": "وال‌استریت زیر فشار؛ از نگرانی هوش مصنوعی تا آزمون اشتغال آمریکا"
-      },
-      {
-        "at": "2026-11-05T11:40:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/tr550ft0sw/",
-        "title": "ریزش نفت، صعود طلا؛ آیا بازارها پایان جنگ را قیمت‌گذاری می‌کنند؟"
       }
     ],
     "recent_30d": [
@@ -73349,7 +73349,7 @@
       0,
       0,
       11,
-      21
+      22
     ],
     "status": "active"
   },
