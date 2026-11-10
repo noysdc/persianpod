@@ -13138,8 +13138,8 @@
       1,
       0,
       0,
-      2,
-      19,
+      3,
+      18,
       2,
       1,
       1,
@@ -77103,21 +77103,26 @@
     "status": "stopped"
   },
   "shokhi-ba-tarikh": {
-    "avg_gap_days": 8.2,
+    "avg_gap_days": 8.9,
     "avg_length": 30,
-    "episodes": 97,
-    "eps_365": 18,
-    "eps_90": 10,
+    "episodes": 98,
+    "eps_365": 19,
+    "eps_90": 11,
     "first_at": "2023-08-09",
     "first_year": 1402,
-    "last": "1405/07/28",
-    "last_at": "2026-10-20T09:27:39Z",
-    "last_link": "https://www.radiofarda.com/a/33880068.html",
-    "last_title": "از شیطان تا دات‌کام؛ وقتی تاریخ قافیه می‌سازد",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T10:09:57Z",
+    "last_link": "https://www.radiofarda.com/a/sassanid-dynasty-history-jocking/33894499.html",
+    "last_title": "ساسانیان؛ امپراطور در مشت شاپور",
     "max_length": 43,
     "median_length": 28,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://rfe-audio-ns.akamaized.net/frd/2026/11/10/e253b3f1-4615-462f-207a-08df3ee801b8_hq.mp3",
+        "at": "2026-11-10T10:09:57Z",
+        "t": "ساسانیان؛ امپراطور در مشت شاپور"
+      },
       {
         "a": "https://rfe-audio-ns.akamaized.net/frd/2026/10/20/0fddd59a-49f2-415f-4bc0-08df13aec0bb_hq.mp3",
         "at": "2026-10-20T09:27:39Z",
@@ -77152,14 +77157,14 @@
         "a": "https://rfe-audio-ns.akamaized.net/frd/2026/09/07/fc128f95-be76-45f4-fddb-08def2b08775_hq.mp3",
         "at": "2026-09-08T03:30:00Z",
         "t": "روسیه علیه روسیه؛ ۳۷ هزار کیلومتر تا شکست"
-      },
-      {
-        "a": "https://rfe-audio-ns.akamaized.net/frd/2026/08/31/83bfb393-47ff-47a4-4b2b-08decacf94d0_hq.mp3",
-        "at": "2026-09-01T02:30:00Z",
-        "t": "سقوط اصفهان؛ کمدی انفعال و آبگوشت جادویی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T10:09:57Z",
+        "link": "https://www.radiofarda.com/a/sassanid-dynasty-history-jocking/33894499.html",
+        "title": "ساسانیان؛ امپراطور در مشت شاپور"
+      },
       {
         "at": "2026-10-20T09:27:39Z",
         "link": "https://www.radiofarda.com/a/33880068.html",
@@ -77169,11 +77174,6 @@
         "at": "2026-10-13T09:23:01Z",
         "link": "https://www.radiofarda.com/a/33875671.html",
         "title": "اشتباهاتی که زیادی گران تمام شدند"
-      },
-      {
-        "at": "2026-10-06T06:30:00Z",
-        "link": "https://www.radiofarda.com/a/33870747.html",
-        "title": "قتل در سفارت؛ الماس در دربار تزار"
       }
     ],
     "recent_30d": [
@@ -77188,7 +77188,7 @@
       3,
       4,
       4,
-      2
+      3
     ],
     "status": "active"
   },
