@@ -4011,8 +4011,8 @@
       0,
       4,
       7,
-      7,
-      5,
+      8,
+      4,
       7
     ],
     "status": "active"
@@ -33053,8 +33053,8 @@
     "recent_30d": [
       85,
       133,
-      34,
-      34,
+      36,
+      32,
       0,
       0,
       21,
@@ -42047,21 +42047,27 @@
     "status": "inactive"
   },
   "mozhde-sara-mzhdh-sra": {
-    "avg_gap_days": 12.3,
+    "avg_gap_days": 12.0,
     "avg_length": 36,
-    "episodes": 148,
-    "eps_365": 30,
-    "eps_90": 10,
+    "episodes": 149,
+    "eps_365": 31,
+    "eps_90": 11,
     "first_at": "2024-05-04",
     "first_year": 1403,
-    "last": "1405/08/16",
-    "last_at": "2026-11-07T15:30:00Z",
-    "last_link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6ae9c29bda7c744de03d32c3",
-    "last_title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل چهارم",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T15:30:00Z",
+    "last_link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6af07ca9baaf18ccf9499255",
+    "last_title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل پنجم",
     "max_length": 98,
     "median_length": 17,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6af07ca9baaf18ccf9499255/media.mp3",
+        "at": "2026-11-10T15:30:00Z",
+        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1794145271986-31f51d34-7d9f-436d-9cf5-18f96f6abf03.jpeg",
+        "t": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل پنجم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6ae9c29bda7c744de03d32c3/media.mp3",
         "at": "2026-11-07T15:30:00Z",
@@ -42103,15 +42109,15 @@
         "at": "2026-09-08T17:30:00Z",
         "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1788808470253-4081b99b-d44a-4d9b-a7f9-05ad65aaba47.jpeg",
         "t": "🎧 کتاب صوتی مترو 2033 | Metro 2033 Audiobook - فصل نوزدهم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6a96fa03da248a131d0c2a72/media.mp3",
-        "at": "2026-09-01T17:30:00Z",
-        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1788279270982-29b47310-9965-456f-adff-a92b2259db05.jpeg",
-        "t": "کتاب صوتی | هفت دختر هفت پسر | کتاب صوتی فارسی | فصل دوم قسمت چهارم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T15:30:00Z",
+        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1794145271986-31f51d34-7d9f-436d-9cf5-18f96f6abf03.jpeg",
+        "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6af07ca9baaf18ccf9499255",
+        "title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل پنجم"
+      },
       {
         "at": "2026-11-07T15:30:00Z",
         "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1793704508689-cd4103fa-d3b6-42ad-ae7e-5bc0a1b503e5.jpeg",
@@ -42123,12 +42129,6 @@
         "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1793014559951-671ec403-dee9-4c3f-a8a2-c34bb08d299a.jpeg",
         "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6adf3b53dd5d6293db6f8ef5",
         "title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل سوم"
-      },
-      {
-        "at": "2026-10-31T15:30:00Z",
-        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1792833244412-434523a2-0a52-44ab-bb98-80266ce9c420.jpeg",
-        "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6adc77194395ebfbf1ac60f6",
-        "title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل دوم"
       }
     ],
     "recent_30d": [
@@ -42143,7 +42143,7 @@
       5,
       4,
       1,
-      5
+      6
     ],
     "status": "active"
   },
@@ -51410,7 +51410,7 @@
   },
   "podcast-farsi": {
     "avg_length": 4,
-    "episodes": 62,
+    "episodes": 63,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-06-23",
@@ -65462,8 +65462,8 @@
       0,
       1,
       9,
-      11,
-      13
+      12,
+      12
     ],
     "status": "active"
   },
@@ -79777,19 +79777,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4257,
-    "eps_365": 801,
-    "eps_90": 256,
+    "episodes": 4258,
+    "eps_365": 802,
+    "eps_90": 257,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/19",
-    "last_at": "2026-11-10T11:49:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af2fe8c43e2f445c24c4984",
-    "last_title": "قسمت چهار هزار و دویست و چهل",
+    "last_at": "2026-11-10T15:30:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af2feefc2a93694e209aaea",
+    "last_title": "قسمت چهار هزار و دویست و چهل ویک",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6af2feefc2a93694e209aaea/media.mp3",
+        "at": "2026-11-10T15:30:00Z",
+        "t": "قسمت چهار هزار و دویست و چهل ویک"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6af2fe8c43e2f445c24c4984/media.mp3",
         "at": "2026-11-10T11:49:00Z",
@@ -79824,14 +79829,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6aece6195e56bd617c83b59d/media.mp3",
         "at": "2026-11-06T09:30:00Z",
         "t": "قسمت چهار هزار و دویست و سی و چهار"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6aece5372cf7bf424457dc20/media.mp3",
-        "at": "2026-11-06T07:56:00Z",
-        "t": "قسمت چهار هزار و دویست و سی و سه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T15:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af2feefc2a93694e209aaea",
+        "title": "قسمت چهار هزار و دویست و چهل ویک"
+      },
       {
         "at": "2026-11-10T11:49:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af2fe8c43e2f445c24c4984",
@@ -79841,11 +79846,6 @@
         "at": "2026-11-10T11:20:46Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af2fe0c8516e953281c15fa",
         "title": "قسمت چهار هزار و دویست و سی و نه"
-      },
-      {
-        "at": "2026-11-08T17:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af06366218f4807f2eb37b9",
-        "title": "قسمت چهار هزار و دویست و سی و هشت"
       }
     ],
     "recent_30d": [
@@ -79855,12 +79855,12 @@
       56,
       0,
       2,
-      17,
+      18,
       103,
-      85,
-      101,
-      83,
-      72
+      84,
+      102,
+      82,
+      73
     ],
     "status": "active"
   },
