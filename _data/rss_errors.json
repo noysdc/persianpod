@@ -32,7 +32,7 @@
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
   "baigani-ha-padkst-mhndsi-snaia": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://iien.ir/category/podcast/feed/"
   },
   "bazariabi-ba-hmid-sbaghi": {
