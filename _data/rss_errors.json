@@ -31,9 +31,9 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
-  "baigani-ha-padkst-mhndsi-snaia": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://iien.ir/category/podcast/feed/"
+  "baigani-ha-sda": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://musiceiranian.ir/type/audio/feed"
   },
   "bazariabi-ba-hmid-sbaghi": {
     "error": "ValueError: no items in feed",
