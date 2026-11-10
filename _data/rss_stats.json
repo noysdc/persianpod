@@ -4791,8 +4791,8 @@
       2,
       0,
       0,
-      2,
-      10,
+      3,
+      9,
       15,
       18,
       11,
@@ -40767,19 +40767,25 @@
   "mjmoah-i-rman-hai-jnaii-o-trsnak": {
     "avg_gap_days": 2.8,
     "avg_length": 27,
-    "episodes": 155,
-    "eps_365": 128,
-    "eps_90": 51,
+    "episodes": 156,
+    "eps_365": 129,
+    "eps_90": 52,
     "first_at": "2025-08-07",
     "first_year": 1404,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T09:02:55Z",
-    "last_link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-byst-w-nh--76262913",
-    "last_title": "رمان جنایی آدم‌برفی-بخش بیست و نه",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T11:40:07Z",
+    "last_link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-sy--76283333",
+    "last_title": "رمان جنایی آدم‌برفی-بخش سی",
     "max_length": 59,
     "median_length": 39,
     "min_length": 11,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76283333/utf_8_b_2kfyr9mfinio2lhzgduminuz27aubxaz.mp3",
+        "at": "2026-11-10T11:40:07Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
+        "t": "رمان جنایی آدم‌برفی-بخش سی"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76262913/utf_8_b_2kfyr9mfinio2lhzgduminuy27kubxaz.mp3",
         "at": "2026-11-09T09:02:55Z",
@@ -40821,15 +40827,15 @@
         "at": "2026-11-01T21:04:08Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
         "t": "رمان جنایی آدم‌برفی-بخش بیست و سه"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76098882/utf_8_b_2kfyr9mfinio2lhzgduminuy27iubxaz.mp3",
-        "at": "2026-10-31T13:24:51Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
-        "t": "رمان جنایی آدم‌برفی-بخش بیست و دو"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T11:40:07Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
+        "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-sy--76283333",
+        "title": "رمان جنایی آدم‌برفی-بخش سی"
+      },
       {
         "at": "2026-11-09T09:02:55Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
@@ -40841,12 +40847,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
         "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-byst-w-hsht--76242399",
         "title": "رمان جنایی آدم‌برفی-بخش بیست و هشت"
-      },
-      {
-        "at": "2026-11-07T11:24:12Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
-        "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-byst-w-hft--76231671",
-        "title": "رمان جنایی آدم‌برفی-بخش بیست و هفت"
       }
     ],
     "recent_30d": [
@@ -40861,7 +40861,7 @@
       21,
       8,
       14,
-      29
+      30
     ],
     "status": "active"
   },
@@ -56780,7 +56780,7 @@
     "avg_length": 34,
     "episodes": 134,
     "eps_365": 44,
-    "eps_90": 17,
+    "eps_90": 16,
     "first_at": "2019-12-09",
     "first_year": 1398,
     "last": "1405/08/12",
@@ -56869,8 +56869,8 @@
       0,
       0,
       2,
-      9,
-      6,
+      10,
+      5,
       6,
       5
     ],
@@ -64473,25 +64473,19 @@
   "radio-dordane": {
     "avg_gap_days": 0.8,
     "avg_length": 18,
-    "episodes": 17,
-    "eps_365": 17,
-    "eps_90": 17,
+    "episodes": 16,
+    "eps_365": 16,
+    "eps_90": 16,
     "first_at": "2026-10-27",
     "first_year": 1405,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T09:49:27Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfi82",
-    "last_title": "شپشک برنج از چی بدش میاد؟ ۷ روش جلوگیری از شپشک زدن برنج | رادیو دردانه",
+    "last": "1405/08/17",
+    "last_at": "2026-11-08T13:41:16Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfh48",
+    "last_title": "چرا برنج ایرانی بعد از پخت قد می‌کشد؟ راز دانه‌های کشیده و خوش‌پخت | رادیو دردانه",
     "max_length": 25,
-    "median_length": 21,
+    "median_length": 22,
     "min_length": 5,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/128485058/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F435499638-44100-2-2aa718525d37f.m4a",
-        "at": "2026-11-10T09:49:27Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793438212487-307f129a5b2b3.jpg",
-        "t": "شپشک برنج از چی بدش میاد؟ ۷ روش جلوگیری از شپشک زدن برنج | رادیو دردانه"
-      },
       {
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128483912/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F435498192-44100-2-2845e31b885b.m4a",
         "at": "2026-11-08T13:41:16Z",
@@ -64533,15 +64527,15 @@
         "at": "2026-10-31T07:11:54Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184507172-d0a506e65c68.jpg",
         "t": "تفاوت برنج کشت اول و کشت دوم چیست؟ مقایسه عطر، کیفیت و قیمت | رادیو دردانه"
+      },
+      {
+        "a": "https://anchor.fm/s/1193981e4/podcast/play/128258536/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435212000-44100-2-075056662643b.m4a",
+        "at": "2026-10-29T13:44:52Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184233185-e5d38ea15bdd9.jpg",
+        "t": "برنج دودی چیست و چه تفاوتی با برنج معمولی دارد؟ | رادیو دردانه"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-10T09:49:27Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793438212487-307f129a5b2b3.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfi82",
-        "title": "شپشک برنج از چی بدش میاد؟ ۷ روش جلوگیری از شپشک زدن برنج | رادیو دردانه"
-      },
       {
         "at": "2026-11-08T13:41:16Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793437578288-32e3cbd83961f.jpg",
@@ -64553,6 +64547,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793437452391-1b3494db459f2.jpg",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfh1c",
         "title": "هر کیلو برنج برای چند نفر کافی است؟ محاسبه مقدار برنج برای مهمانی | رادیو دردانه"
+      },
+      {
+        "at": "2026-11-06T14:13:45Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793437147564-afaf355064b32.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfguc",
+        "title": "برنج ایرانی سورت‌شده چیست؟ مزایا و تفاوت آن با برنج معمولی | رادیو دردانه"
       }
     ],
     "recent_30d": [
@@ -64567,7 +64567,7 @@
       0,
       0,
       0,
-      17
+      16
     ],
     "status": "active"
   },
