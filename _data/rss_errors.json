@@ -31,10 +31,6 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
-  "baigani-ha-sda": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
-    "rss": "https://musiceiranian.ir/type/audio/feed"
-  },
   "bazariabi-ba-hmid-sbaghi": {
     "error": "ValueError: no items in feed",
     "rss": "https://rss.castbox.fm/everest/08e76cc25e4849cfb964b07b784572cb.xml"
@@ -106,6 +102,14 @@
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
+  },
+  "podcast-dats": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmirr88fetztwmiq39efe"
+  },
+  "podcast-jor-digr": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feeds.simplecast.com/ikkk3ru_"
   },
   "podcast-khakstri-roan": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
