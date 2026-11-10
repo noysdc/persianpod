@@ -4613,24 +4613,19 @@
   "airan-braamdn-rzakhan-braftadn-ghajar-o-nghsh-anglis-ha": {
     "avg_gap_days": 9.7,
     "avg_length": 18,
-    "episodes": 31,
-    "eps_365": 31,
-    "eps_90": 10,
+    "episodes": 30,
+    "eps_365": 30,
+    "eps_90": 9,
     "first_at": "2026-01-24",
     "first_year": 1404,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T14:31:56Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3s5574",
-    "last_title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل هفتم - بخش اول - رضا خان و کودتای سوم اسفند",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T01:39:19Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/-----------------e3rkm7a",
+    "last_title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل ششم - بخش سوم و آخر - مقدمه کودتا",
     "max_length": 25,
     "median_length": 17,
     "min_length": 11,
     "play": [
-      {
-        "a": "https://anchor.fm/s/10e427598/podcast/play/129192612/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2Ffa48b9c1-f473-f2b2-135c-ed8695a716d3.mp3",
-        "at": "2026-11-10T14:31:56Z",
-        "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل هفتم - بخش اول - رضا خان و کودتای سوم اسفند"
-      },
       {
         "a": "https://anchor.fm/s/10e427598/podcast/play/128652970/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F36e5f94d-0b44-9351-f5dc-76e4353f6473.mp3",
         "at": "2026-11-03T01:39:19Z",
@@ -4665,14 +4660,14 @@
         "a": "https://anchor.fm/s/10e427598/podcast/play/125013438/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-31%2F943e0256-10c3-1be4-4da1-0e92acdb0c44.mp3",
         "at": "2026-08-31T23:59:21Z",
         "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش سوم - نخست وزیری سپهدار"
+      },
+      {
+        "a": "https://anchor.fm/s/10e427598/podcast/play/124686321/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-25%2F41dc2e6d-dbe5-65a8-8fa7-40636192c782.mp3",
+        "at": "2026-08-25T00:25:37Z",
+        "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش دوم - نخست وزیری سپهدار"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-10T14:31:56Z",
-        "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3s5574",
-        "title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل هفتم - بخش اول - رضا خان و کودتای سوم اسفند"
-      },
       {
         "at": "2026-11-03T01:39:19Z",
         "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/-----------------e3rkm7a",
@@ -4682,6 +4677,11 @@
         "at": "2026-10-20T00:10:32Z",
         "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3qp3s1",
         "title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل ششم - بخش دوم - مقدمه کودتا"
+      },
+      {
+        "at": "2026-10-07T15:20:27Z",
+        "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3q3bc1",
+        "title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل ششم - بخش اول - مقدمه کودتا"
       }
     ],
     "recent_30d": [
@@ -4696,7 +4696,7 @@
       3,
       3,
       4,
-      3
+      2
     ],
     "status": "active"
   },
@@ -56776,10 +56776,10 @@
     "status": "active"
   },
   "podcast-khrghh": {
-    "avg_gap_days": 8.3,
+    "avg_gap_days": 8.5,
     "avg_length": 34,
     "episodes": 134,
-    "eps_365": 44,
+    "eps_365": 43,
     "eps_90": 16,
     "first_at": "2019-12-09",
     "first_year": 1398,
@@ -80359,17 +80359,22 @@
     "avg_length": 11,
     "episodes": 24,
     "eps_365": 24,
-    "eps_90": 12,
-    "first_at": "2026-05-26",
+    "eps_90": 13,
+    "first_at": "2026-06-02",
     "first_year": 1405,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T15:51:40Z",
-    "last_link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261103-%D8%A2%DB%8C%D8%A7-%D9%BE%DB%8C%D8%B1%D9%88%D8%B2%DB%8C-%D8%AF%D9%85%D9%88%DA%A9%D8%B1%D8%A7%D8%AA-%D9%87%D8%A7-%D8%AF%D8%B1-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D9%85%DB%8C%D8%A7%D9%86-%D8%AF%D9%88%D8%B1%D9%87-%D8%A7%DB%8C-%D8%AA%D8%B1%D8%A7%D9%85%D9%BE-%D8%B1%D8%A7-%D8%A7%D8%B2-%D8%A8%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D9%86-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A8%D8%A7%D8%B2-%D8%AE%D9%88%D8%A7%D9%87%D8%AF-%D8%AF%D8%A7%D8%B4%D8%AA?PcNCvtcnHj",
-    "last_title": "آیا پیروزی دموکرات‌ها در انتخابات میان‌دوره‌ای ترامپ را از بمباران ایران باز خواهد داشت؟",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T15:06:35Z",
+    "last_link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261110-%DB%8C%D9%87%D9%88%D8%AF%DB%8C-%D9%87%D8%A7%DB%8C-%D9%85%DB%8C%D8%B4%DB%8C%DA%AF%D8%A7%D9%86-%D8%B1%D8%A7%D9%87-%D9%88%D8%B1%D9%88%D8%AF-%DB%8C%DA%A9-%D9%85%D8%B3%D9%84%D9%85%D8%A7%D9%86-%D9%87%D9%88%D8%A7%D8%AF%D8%A7%D8%B1-%D9%81%D9%84%D8%B3%D8%B7%DB%8C%D9%86%DB%8C-%D9%87%D8%A7-%D8%B1%D8%A7-%D8%A8%D9%87-%D8%B3%D9%86%D8%A7%DB%8C-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D9%87%D9%85%D9%88%D8%A7%D8%B1-%DA%A9%D8%B1%D8%AF%D9%86%D8%AF?PcNCvtcnHj",
+    "last_title": "یهودی‌های میشیگان راه ورود یک مسلمان هوادار فلسطینی‌ها را به سنای آمریکا هموار کردند",
     "max_length": 12,
     "median_length": 11,
     "min_length": 10,
     "play": [
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202611/PDP_-_2026_-_11_-_10.mp3?guid=277754a8-dd11-11f1-81b4-3fe224e0df0b&source=PcNCvtcnHj",
+        "at": "2026-11-10T15:06:35Z",
+        "t": "یهودی‌های میشیگان راه ورود یک مسلمان هوادار فلسطینی‌ها را به سنای آمریکا هموار کردند"
+      },
       {
         "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202611/PDP_-_2026_-_11_-_03.mp3?guid=ee15545a-d791-11f1-8332-6f63410db7ca&source=PcNCvtcnHj",
         "at": "2026-11-03T15:51:40Z",
@@ -80404,14 +80409,14 @@
         "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202609/PDP_-_2026_-_09_-_22.mp3?guid=eca7a32a-b68a-11f1-8aae-a5f7a32e56c2&source=PcNCvtcnHj",
         "at": "2026-09-22T14:55:10Z",
         "t": "خودداری ترکیه از رویارویی با حوثی‌های یمن علل تاریخی و راهبردی دارد"
-      },
-      {
-        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202609/PDP_-_2026_-_09_-_15.mp3?guid=2e8f5180-b112-11f1-990e-7f527f662a07&source=PcNCvtcnHj",
-        "at": "2026-09-15T15:09:10Z",
-        "t": "چگونه جنبش «زن، زندگی، آزادی» از آزمون تاریخ سربلند بیرون آمد؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T15:06:35Z",
+        "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261110-%DB%8C%D9%87%D9%88%D8%AF%DB%8C-%D9%87%D8%A7%DB%8C-%D9%85%DB%8C%D8%B4%DB%8C%DA%AF%D8%A7%D9%86-%D8%B1%D8%A7%D9%87-%D9%88%D8%B1%D9%88%D8%AF-%DB%8C%DA%A9-%D9%85%D8%B3%D9%84%D9%85%D8%A7%D9%86-%D9%87%D9%88%D8%A7%D8%AF%D8%A7%D8%B1-%D9%81%D9%84%D8%B3%D8%B7%DB%8C%D9%86%DB%8C-%D9%87%D8%A7-%D8%B1%D8%A7-%D8%A8%D9%87-%D8%B3%D9%86%D8%A7%DB%8C-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D9%87%D9%85%D9%88%D8%A7%D8%B1-%DA%A9%D8%B1%D8%AF%D9%86%D8%AF?PcNCvtcnHj",
+        "title": "یهودی‌های میشیگان راه ورود یک مسلمان هوادار فلسطینی‌ها را به سنای آمریکا هموار کردند"
+      },
       {
         "at": "2026-11-03T15:51:40Z",
         "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261103-%D8%A2%DB%8C%D8%A7-%D9%BE%DB%8C%D8%B1%D9%88%D8%B2%DB%8C-%D8%AF%D9%85%D9%88%DA%A9%D8%B1%D8%A7%D8%AA-%D9%87%D8%A7-%D8%AF%D8%B1-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D9%85%DB%8C%D8%A7%D9%86-%D8%AF%D9%88%D8%B1%D9%87-%D8%A7%DB%8C-%D8%AA%D8%B1%D8%A7%D9%85%D9%BE-%D8%B1%D8%A7-%D8%A7%D8%B2-%D8%A8%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D9%86-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A8%D8%A7%D8%B2-%D8%AE%D9%88%D8%A7%D9%87%D8%AF-%D8%AF%D8%A7%D8%B4%D8%AA?PcNCvtcnHj",
@@ -80421,11 +80426,6 @@
         "at": "2026-10-27T18:16:57Z",
         "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261027-%D9%86%D8%A7%D8%A2%D8%B1%D8%A7%D9%85%DB%8C-%D9%87%D8%A7%DB%8C-%D9%81%D8%B1%D8%A7%D9%86%D8%B3%D9%87-%D8%A8%D9%87%D8%B1%D9%87-%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D8%B3%DB%8C%D8%A7%D8%B3%DB%8C%D9%90-%D9%86%D8%AA%D8%A7%D9%86%DB%8C%D8%A7%D9%87%D9%88-%D9%88-%D8%AA%D8%B1%D8%A7%D9%85%D9%BE-%D9%88-%D8%B4%D8%A7%D8%AF%D9%85%D8%A7%D9%86%DB%8C-%D9%BE%D9%88%D8%AA%DB%8C%D9%86-%D9%88-%D8%AC%D9%85%D9%87%D9%88%D8%B1%DB%8C-%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C?PcNCvtcnHj",
         "title": "ناآرامی‌های فرانسه : بهره برداری سیاسیِ نتانیاهو و ترامپ و شادمانی پوتین و جمهوری اسلامی"
-      },
-      {
-        "at": "2026-10-20T16:08:27Z",
-        "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261020-%D8%A2%D8%B4%D9%88%D8%A8%DA%AF%D8%B1%D8%A7%D9%86-%D9%88-%D8%BA%D8%A7%D8%B1%D8%AA%DA%AF%D8%B1%D8%A7%D9%86-%D8%AF%D8%B1-%D8%AA%D8%B8%D8%A7%D9%87%D8%B1%D8%A7%D8%AA-%D8%AE%DB%8C%D8%A7%D8%A8%D8%A7%D9%86%DB%8C-%D9%81%D8%B1%D8%A7%D9%86%D8%B3%D9%87-%DA%A9%DB%8C%D8%B3%D8%AA%D9%86%D8%AF-%D9%88-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D9%85%DB%8C-%DA%AF%DB%8C%D8%B1%D9%86%D8%AF?PcNCvtcnHj",
-        "title": "آشوبگران و غارتگران در تظاهرات خیابانی فرانسه کیستند و از کجا دستور می‌گیرند؟"
       }
     ],
     "recent_30d": [
@@ -80435,12 +80435,12 @@
       0,
       0,
       0,
-      3,
+      2,
       4,
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   },
