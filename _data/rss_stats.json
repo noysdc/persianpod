@@ -82443,20 +82443,26 @@
   },
   "vidathereader": {
     "avg_gap_days": 7.6,
-    "avg_length": 37,
-    "episodes": 172,
-    "eps_365": 48,
-    "eps_90": 15,
+    "avg_length": 36,
+    "episodes": 173,
+    "eps_365": 49,
+    "eps_90": 16,
     "first_at": "2025-02-02",
     "first_year": 1403,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T05:23:00Z",
-    "last_link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/9ddcbc31-4a68-413f-87d6-3e3d62a18acc/play.mp3?v=3",
-    "last_title": "رودین _ بخش چهارم",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T20:36:00Z",
+    "last_link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/4fec7242-6105-4733-a2e3-27cf2e2cc2cc/play.mp3?v=1",
+    "last_title": "رودین_بخش پنجم",
     "max_length": 78,
     "median_length": 28,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/4fec7242-6105-4733-a2e3-27cf2e2cc2cc/play.mp3?v=1",
+        "at": "2026-11-10T20:36:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/21059de6-e00d-4f29-8a35-645f3d8132c2/episodes/4fec7242-6105-4733-a2e3-27cf2e2cc2cc/artwork.jpg?v=1",
+        "t": "رودین_بخش پنجم"
+      },
       {
         "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/9ddcbc31-4a68-413f-87d6-3e3d62a18acc/play.mp3?v=3",
         "at": "2026-11-04T05:23:00Z",
@@ -82498,15 +82504,15 @@
         "at": "2026-09-30T02:30:22Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/21059de6-e00d-4f29-8a35-645f3d8132c2/episodes/0613b31b-1c97-4651-b978-8024c65c15b1/artwork.jpg?v=121",
         "t": "مرگ ایوان ایلیچ_بخش نهم"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/0ecb53e1-114a-4961-b938-af03a6170ad8/play.mp3?v=1",
-        "at": "2026-09-26T02:30:30Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/21059de6-e00d-4f29-8a35-645f3d8132c2/episodes/0ecb53e1-114a-4961-b938-af03a6170ad8/artwork.jpg?v=121",
-        "t": "مرگ ایوان ایلیچ_بخش هشتم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T20:36:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/21059de6-e00d-4f29-8a35-645f3d8132c2/episodes/4fec7242-6105-4733-a2e3-27cf2e2cc2cc/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/4fec7242-6105-4733-a2e3-27cf2e2cc2cc/play.mp3?v=1",
+        "title": "رودین_بخش پنجم"
+      },
       {
         "at": "2026-11-04T05:23:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/21059de6-e00d-4f29-8a35-645f3d8132c2/episodes/9ddcbc31-4a68-413f-87d6-3e3d62a18acc/artwork.jpg?v=1",
@@ -82518,12 +82524,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/21059de6-e00d-4f29-8a35-645f3d8132c2/episodes/09ce40ee-4f18-4643-84e3-3f51a841d1c7/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/09ce40ee-4f18-4643-84e3-3f51a841d1c7/play.mp3?v=1",
         "title": "رودین _بخش سوم"
-      },
-      {
-        "at": "2026-10-20T20:36:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/21059de6-e00d-4f29-8a35-645f3d8132c2/episodes/79c8e3f7-1cd9-46e8-9b06-0e9eb0a91a6c/artwork.jpg?v=120",
-        "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/79c8e3f7-1cd9-46e8-9b06-0e9eb0a91a6c/play.mp3?v=2",
-        "title": "رودین _بخش دوم"
       }
     ],
     "recent_30d": [
@@ -82538,7 +82538,7 @@
       4,
       3,
       8,
-      4
+      5
     ],
     "status": "active"
   },
