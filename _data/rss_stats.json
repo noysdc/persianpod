@@ -9652,8 +9652,8 @@
       }
     ],
     "recent_30d": [
-      6,
-      3,
+      7,
+      2,
       0,
       0,
       0,
@@ -73656,11 +73656,11 @@
     "status": "active"
   },
   "sdai-slamt": {
-    "avg_gap_days": 11.6,
-    "avg_length": 15,
-    "episodes": 105,
-    "eps_365": 30,
-    "eps_90": 18,
+    "avg_gap_days": 11.2,
+    "avg_length": 16,
+    "episodes": 106,
+    "eps_365": 31,
+    "eps_90": 19,
     "first_at": "2023-02-04",
     "first_year": 1401,
     "last": "1405/08/19",
@@ -73674,7 +73674,13 @@
       {
         "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20261110160946_134929-behruz-finalll-128kbps-1.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a1-c3db-d95f-abb5-fbdf47170000&dur_cat=3",
         "at": "2026-11-10T05:09:00Z",
-        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261110161225_887536-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
+        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261110181347_622484-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
+        "t": "بهروزآقاجانلو با نوآوری در فناوری شنوایی، جایزه فلوری را از آن خود کرد"
+      },
+      {
+        "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20261110181540_678331-behruz-finalll-128kbps-1.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a1-c2f3-d95f-abb5-fbf7ab540000&dur_cat=3",
+        "at": "2026-11-10T01:20:00Z",
+        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261110181543_279035-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
         "t": "بهروزآقاجانلو با نوآوری در فناوری شنوایی، جایزه فلوری را از آن خود کرد"
       },
       {
@@ -73712,19 +73718,19 @@
         "at": "2026-10-12T03:36:00Z",
         "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261012143934_922090-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
         "t": "ورزش در ساعت کاری؛ چرا پژوهشگران استرالیایی می‌گویند باید برای آن پول گرفت؟"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20261007171005_657011-persian-3d528a00-38f7-4083-b07d-aeaa85d73f43.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a1-14d7-d89b-a1fb-5cf79f670000&dur_cat=3",
-        "at": "2026-10-07T06:09:00Z",
-        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261007172502_296966-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
-        "t": "کارگران آسیب‌دیده در استرالیا؛ ورک کاور (Work Cover) چه حمایت‌هایی ارائه می‌دهد؟"
       }
     ],
     "recent": [
       {
         "at": "2026-11-10T05:09:00Z",
-        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261110161225_887536-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
+        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261110181347_622484-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/behrouz-aghajanloo-won-the-flory-award-for-her-innovation-in-hearing-technology/h1nwt38cp",
+        "title": "بهروزآقاجانلو با نوآوری در فناوری شنوایی، جایزه فلوری را از آن خود کرد"
+      },
+      {
+        "at": "2026-11-10T01:20:00Z",
+        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261110181543_279035-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/behrouz-aghajanloo-won-the-flory-award-for-her-innovation-in-hearing-technology/93pvo5tq9",
         "title": "بهروزآقاجانلو با نوآوری در فناوری شنوایی، جایزه فلوری را از آن خود کرد"
       },
       {
@@ -73732,12 +73738,6 @@
         "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261109155234_821576-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/why-your-next-specialist-visit-could-cost-a-lot-more-than-expected/56ep5j1gi",
         "title": "«سیستم ازکارافتاده»؛ هزینه ویزیت پزشکان متخصص در استرالیا گران‌تر می‌شود"
-      },
-      {
-        "at": "2026-11-03T08:15:00Z",
-        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261104104743_149049-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/dr-fariba-behnia-willison-has-been-nominated-for-the-2027-south-australian-of-the-year-award/kks2tga9s",
-        "title": "دکتر فریبا بهنیا ویلیسون نامزد جایزه چهره سال استرالیای جنوبی ۲۰۲۷ شد"
       }
     ],
     "recent_30d": [
@@ -73752,7 +73752,7 @@
       3,
       8,
       3,
-      7
+      8
     ],
     "status": "active"
   },
@@ -81572,19 +81572,25 @@
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
     "avg_length": 22,
-    "episodes": 408,
-    "eps_365": 257,
+    "episodes": 409,
+    "eps_365": 258,
     "eps_90": 107,
     "first_at": "2024-08-22",
     "first_year": 1403,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T09:16:51Z",
-    "last_link": "https://www.youtube.com/channel/UC3ZvaakuP5D1X1YuxJExM-A",
-    "last_title": "مدیتیشن مدار ثروت و فراوانی 💰 | جذب برکت مالی مدیتیشن",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T07:08:45Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6af2c2fe71f47eaba61d3782",
+    "last_title": "مدیتیشن |مدیتیشن ۵ دقیقه‌ای آرامش ذهن 🧘",
     "max_length": 99,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af2c2fe71f47eaba61d3782/media.mp3",
+        "at": "2026-11-10T07:08:45Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794294336723-254c2c96-70a1-498e-a8b9-41086c4ce8c1.jpeg",
+        "t": "مدیتیشن |مدیتیشن ۵ دقیقه‌ای آرامش ذهن 🧘"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af03d9f6767b86e14c6e24e/media.mp3",
         "at": "2026-11-08T09:16:51Z",
@@ -81626,15 +81632,15 @@
         "at": "2026-10-28T00:30:00Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1790504448323-60d65f35-535d-4078-a11e-e481409b1e84.jpeg",
         "t": "من پذیرای اتفاق‌های خوب و فرصت‌های ارزشمند هستم."
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6addcd16d39b76001f98fdd4/media.mp3",
-        "at": "2026-10-25T16:46:00Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1792920533537-676fd49c-7d14-43ea-9a52-6eac7a3a31f1.jpeg",
-        "t": "مدیتیشن قبل خواب | رهایی از افکار و خواب عمیق مدیتیشن"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T07:08:45Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794294336723-254c2c96-70a1-498e-a8b9-41086c4ce8c1.jpeg",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6af2c2fe71f47eaba61d3782",
+        "title": "مدیتیشن |مدیتیشن ۵ دقیقه‌ای آرامش ذهن 🧘"
+      },
       {
         "at": "2026-11-08T09:16:51Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794129302059-ede3ac8d-e8fc-4265-837b-3e1e4d3c36a9.jpeg",
@@ -81646,12 +81652,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794119653664-6b4cf510-4a95-4eb1-83f2-fc4e30200ebc.jpeg",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6af0189d36841fe014db74b4",
         "title": "مدیتیشن سبک کردن بار سنگین گذشته از روی قلب | مدیتیشن"
-      },
-      {
-        "at": "2026-11-03T09:32:06Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793687927117-3f0d1fd4-e146-4af9-82c6-ea42673ae910.jpeg",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6ae9817d9cb48f65eae015c1",
-        "title": "جملات تأکیدی برای شروع روزی آرام و مثبت ✨  عشق به زندگی"
       }
     ],
     "recent_30d": [
@@ -81663,10 +81663,10 @@
       11,
       11,
       10,
-      19,
-      44,
+      20,
+      43,
       38,
-      25
+      26
     ],
     "status": "active"
   },
