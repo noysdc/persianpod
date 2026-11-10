@@ -58959,21 +58959,27 @@
     "status": "active"
   },
   "podcast-prondh-baz": {
-    "avg_gap_days": 5.1,
-    "avg_length": 43,
-    "episodes": 28,
-    "eps_365": 28,
-    "eps_90": 20,
+    "avg_gap_days": 5.2,
+    "avg_length": 44,
+    "episodes": 29,
+    "eps_365": 29,
+    "eps_90": 21,
     "first_at": "2026-06-16",
     "first_year": 1405,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T04:00:00Z",
-    "last_link": "https://shows.acast.com/parvandebaz/episodes/6ae4630e092a0dff19f805ea",
-    "last_title": "پرونده بیلی میلیگان - قسمت ۶: کریستوفر کار",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T04:00:00Z",
+    "last_link": "https://shows.acast.com/parvandebaz/episodes/6af0620abaaf18ccf94028b7",
+    "last_title": "پرونده نانسی گاتری: شبی که دوربین خاموش شد - ۱",
     "max_length": 66,
     "median_length": 37,
     "min_length": 29,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a30d4e3a893cd95ca9864a2/e/6af0620abaaf18ccf94028b7/media.mp3",
+        "at": "2026-11-10T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1794138443009-39c954dd-0c2b-49ff-a236-d0b5b5be84f3.jpeg",
+        "t": "پرونده نانسی گاتری: شبی که دوربین خاموش شد - ۱"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6a30d4e3a893cd95ca9864a2/e/6ae4630e092a0dff19f805ea/media.mp3",
         "at": "2026-11-03T04:00:00Z",
@@ -59015,15 +59021,15 @@
         "at": "2026-10-13T04:55:32Z",
         "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1791866914933-269e45c1-53ee-42c4-bb26-7dfeb4443dab.jpeg",
         "t": "پسران اسکس - قسمت ۴: خبرچین"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6a30d4e3a893cd95ca9864a2/e/6ac5d3b229b9fbfbe22e38a0/media.mp3",
-        "at": "2026-10-10T04:00:00Z",
-        "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1791349420403-86ef5057-5f76-4c2e-9056-a3b0810db800.jpeg",
-        "t": "پسران اسکس - قسمت ۳: بن‌بست ورک‌هاوس لین"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1794138443009-39c954dd-0c2b-49ff-a236-d0b5b5be84f3.jpeg",
+        "link": "https://shows.acast.com/parvandebaz/episodes/6af0620abaaf18ccf94028b7",
+        "title": "پرونده نانسی گاتری: شبی که دوربین خاموش شد - ۱"
+      },
       {
         "at": "2026-11-03T04:00:00Z",
         "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1793352330034-9f40d6fa-206a-468c-bd3b-7eeec467be2b.jpeg",
@@ -59035,12 +59041,6 @@
         "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1793352719302-0093718e-1241-44ef-92e9-472976c5eacf.jpeg",
         "link": "https://shows.acast.com/parvandebaz/episodes/6ae4643639c71ad1746f3950",
         "title": "پرونده بیلی میلیگان - قسمت ۵: معلم"
-      },
-      {
-        "at": "2026-10-27T04:00:00Z",
-        "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1792824381286-8a6d03d2-039e-4512-8802-be7379505e58.jpeg",
-        "link": "https://shows.acast.com/parvandebaz/episodes/6adc54cf02b9e3b2593c06d1",
-        "title": "پرونده بیلی میلیگان - قسمت ۴: اتاق ۹‌بی"
       }
     ],
     "recent_30d": [
@@ -59055,7 +59055,7 @@
       5,
       4,
       9,
-      7
+      8
     ],
     "status": "active"
   },
