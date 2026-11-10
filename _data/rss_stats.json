@@ -26973,8 +26973,8 @@
     ],
     "recent_30d": [
       36,
-      30,
-      9,
+      31,
+      8,
       0,
       0,
       0,
@@ -73656,27 +73656,21 @@
     "status": "active"
   },
   "sdai-slamt": {
-    "avg_gap_days": 11.2,
-    "avg_length": 16,
-    "episodes": 106,
-    "eps_365": 31,
-    "eps_90": 19,
+    "avg_gap_days": 11.6,
+    "avg_length": 15,
+    "episodes": 105,
+    "eps_365": 30,
+    "eps_90": 18,
     "first_at": "2023-02-04",
     "first_year": 1401,
     "last": "1405/08/19",
-    "last_at": "2026-11-10T05:09:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/behrouz-aghajanloo-won-the-flory-award-for-her-innovation-in-hearing-technology/h1nwt38cp",
+    "last_at": "2026-11-10T01:20:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/behrouz-aghajanloo-won-the-flory-award-for-her-innovation-in-hearing-technology/93pvo5tq9",
     "last_title": "بهروزآقاجانلو با نوآوری در فناوری شنوایی، جایزه فلوری را از آن خود کرد",
     "max_length": 37,
     "median_length": 9,
     "min_length": 3,
     "play": [
-      {
-        "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20261110160946_134929-behruz-finalll-128kbps-1.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a1-c3db-d95f-abb5-fbdf47170000&dur_cat=3",
-        "at": "2026-11-10T05:09:00Z",
-        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261110181347_622484-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
-        "t": "بهروزآقاجانلو با نوآوری در فناوری شنوایی، جایزه فلوری را از آن خود کرد"
-      },
       {
         "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20261110181540_678331-behruz-finalll-128kbps-1.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a1-c2f3-d95f-abb5-fbf7ab540000&dur_cat=3",
         "at": "2026-11-10T01:20:00Z",
@@ -73718,15 +73712,15 @@
         "at": "2026-10-12T03:36:00Z",
         "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261012143934_922090-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
         "t": "ورزش در ساعت کاری؛ چرا پژوهشگران استرالیایی می‌گویند باید برای آن پول گرفت؟"
+      },
+      {
+        "a": "https://sbs-podcast.streamguys1.com/voice-of-health/20261007171005_657011-persian-3d528a00-38f7-4083-b07d-aeaa85d73f43.mp3?awCollectionId=voice-of-health&awGenre=Health&awEpisodeId=000001a1-14d7-d89b-a1fb-5cf79f670000&dur_cat=3",
+        "at": "2026-10-07T06:09:00Z",
+        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261007172502_296966-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
+        "t": "کارگران آسیب‌دیده در استرالیا؛ ورک کاور (Work Cover) چه حمایت‌هایی ارائه می‌دهد؟"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-10T05:09:00Z",
-        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261110181347_622484-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/behrouz-aghajanloo-won-the-flory-award-for-her-innovation-in-hearing-technology/h1nwt38cp",
-        "title": "بهروزآقاجانلو با نوآوری در فناوری شنوایی، جایزه فلوری را از آن خود کرد"
-      },
       {
         "at": "2026-11-10T01:20:00Z",
         "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261110181543_279035-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
@@ -73738,6 +73732,12 @@
         "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261109155234_821576-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/why-your-next-specialist-visit-could-cost-a-lot-more-than-expected/56ep5j1gi",
         "title": "«سیستم ازکارافتاده»؛ هزینه ویزیت پزشکان متخصص در استرالیا گران‌تر می‌شود"
+      },
+      {
+        "at": "2026-11-03T08:15:00Z",
+        "i": "https://sbs-rss.streamguys1.com/voice-of-health/20261104104743_149049-sbs-podcasts-persian-health-3000x3000px-rtl.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/dr-fariba-behnia-willison-has-been-nominated-for-the-2027-south-australian-of-the-year-award/kks2tga9s",
+        "title": "دکتر فریبا بهنیا ویلیسون نامزد جایزه چهره سال استرالیای جنوبی ۲۰۲۷ شد"
       }
     ],
     "recent_30d": [
@@ -73752,7 +73752,7 @@
       3,
       8,
       3,
-      8
+      7
     ],
     "status": "active"
   },
