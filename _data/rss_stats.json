@@ -39873,19 +39873,25 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 993,
-    "eps_365": 327,
-    "eps_90": 80,
+    "episodes": 994,
+    "eps_365": 328,
+    "eps_90": 81,
     "first_at": "2023-11-21",
     "first_year": 1402,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T06:08:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/australia-has-asked-washington-to-end-the-war-with-iran/hf73m1uaq",
-    "last_title": "استرالیا از واشنگتن خواست به جنگ با ایران پایان دهد",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T02:33:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/labor-vows-inflation-relief-as-criticism-mounts-after-fifth-straight-rate-rise/gms2ogno1",
+    "last_title": "دولت کارگر زیر فشار پنجمین افزایش پیاپی نرخ بهره: برای مهار تورم اقدام می کنیم",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261110133403_304576-persian-101126-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-c347-d95f-abb5-fb57571b0000&dur_cat=2",
+        "at": "2026-11-10T02:33:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261110133405_624357-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "t": "دولت کارگر زیر فشار پنجمین افزایش پیاپی نرخ بهره: برای مهار تورم اقدام می کنیم"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261106170907_374742-persian-f52c6883-a7dc-4128-b266-bd6d4b36bd03.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-af72-d6d8-a5ff-af7339890000&dur_cat=3",
         "at": "2026-11-06T06:08:00Z",
@@ -39927,15 +39933,15 @@
         "at": "2026-11-02T03:14:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261102161004_697718-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "t": "طرح بازخرید سلاح گرم از امروز در ایالت نیو ساوت ولز آغاز می‌شود"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261030141339_929301-persian-bb038471-5261-4a13-be20-7b93086778fa.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-8ab3-d1d6-a5bd-fff364860000&dur_cat=3",
-        "at": "2026-10-30T03:13:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261030161249_437536-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "t": "ادعای تخلف در رأی‌گیری انتخابات اسرائیل"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T02:33:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261110133405_624357-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/labor-vows-inflation-relief-as-criticism-mounts-after-fifth-straight-rate-rise/gms2ogno1",
+        "title": "دولت کارگر زیر فشار پنجمین افزایش پیاپی نرخ بهره: برای مهار تورم اقدام می کنیم"
+      },
       {
         "at": "2026-11-06T06:08:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261106171111_430055-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
@@ -39947,12 +39953,6 @@
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261106122123_170571-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/ministers-meet-to-discuss-closing-the-gap-targets/t023dfrh5",
         "title": "نشست وزیران برای بررسی اهداف طرح «کاهش شکاف»"
-      },
-      {
-        "at": "2026-11-05T01:46:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261106200343_489055-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/david-jones-collapses-into-administration-with-thousands-of-jobs-at-risk/yl2ofu3ba",
-        "title": "فروشگاه زنجیره‌ای دیوید جونز پس از ۱۸۸ سال فعالیت، در آستانه فروپاشی قرار گرفت"
       }
     ],
     "recent_30d": [
@@ -39967,7 +39967,7 @@
       28,
       28,
       25,
-      27
+      28
     ],
     "status": "active"
   },
