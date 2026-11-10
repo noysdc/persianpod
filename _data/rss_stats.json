@@ -29422,10 +29422,10 @@
     "status": "active"
   },
   "karaafrin-saibri": {
-    "avg_gap_days": 5.7,
+    "avg_gap_days": 6.2,
     "avg_length": 10,
     "episodes": 48,
-    "eps_365": 8,
+    "eps_365": 7,
     "eps_90": 0,
     "first_at": "2024-12-03",
     "first_year": 1403,
@@ -50416,7 +50416,7 @@
     "avg_length": 36,
     "episodes": 31,
     "eps_365": 5,
-    "eps_90": 2,
+    "eps_90": 1,
     "first_at": "2024-08-16",
     "first_year": 1403,
     "last": "1405/06/04",
@@ -50505,8 +50505,8 @@
       0,
       0,
       1,
-      2,
-      2,
+      3,
+      1,
       0,
       0
     ],
@@ -51410,7 +51410,7 @@
   },
   "podcast-farsi": {
     "avg_length": 4,
-    "episodes": 63,
+    "episodes": 62,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-06-23",
