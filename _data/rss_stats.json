@@ -19046,21 +19046,27 @@
     "status": "stopped"
   },
   "frdai-aghtsad": {
-    "avg_gap_days": 2.3,
+    "avg_gap_days": 2.5,
     "avg_length": 62,
-    "episodes": 27,
-    "eps_365": 27,
-    "eps_90": 27,
+    "episodes": 28,
+    "eps_365": 28,
+    "eps_90": 28,
     "first_at": "2026-09-02",
     "first_year": 1405,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T08:18:44Z",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T08:00:06Z",
     "last_link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
-    "last_title": "از اصلاح سرخ بورس تا سناریوی شاخص ۱۱ میلیونی",
+    "last_title": "آدرس غلط درباره نرخ بهره؛ تهدید اصلی بورس کجاست؟",
     "max_length": 77,
     "median_length": 61,
     "min_length": 48,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/f5a9d7371910f8c9/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-11-10T08:00:06Z",
+        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/f5a9d7371910f8c9/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "آدرس غلط درباره نرخ بهره؛ تهدید اصلی بورس کجاست؟"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/946dcd97c58fd01e/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-11-03T08:18:44Z",
@@ -19102,15 +19108,15 @@
         "at": "2026-10-13T07:59:05Z",
         "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/21bef484fc2d589e/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "t": "رالی سهام دارویی؛ رشد سود هنوز از قیمت‌ها جا مانده است؟"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/814c8922f8aa56d6/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2026-10-11T08:10:48Z",
-        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/814c8922f8aa56d6/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "t": "بورس در دوراهی تصمیم؛ فروش یا نگهداری؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T08:00:06Z",
+        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/f5a9d7371910f8c9/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
+        "title": "آدرس غلط درباره نرخ بهره؛ تهدید اصلی بورس کجاست؟"
+      },
       {
         "at": "2026-11-03T08:18:44Z",
         "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/946dcd97c58fd01e/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
@@ -19122,12 +19128,6 @@
         "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/cf29c6cfa2f805c4/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
         "title": "بورس در قیمت منصفانه؛ فرصت خرید کجاست؟"
-      },
-      {
-        "at": "2026-10-27T08:10:23Z",
-        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/82b1b78219a0e76f/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
-        "title": "بورس با چه قواعدی به استقبال بحران بعدی می‌رود؟"
       }
     ],
     "recent_30d": [
@@ -19142,7 +19142,7 @@
       0,
       12,
       8,
-      7
+      8
     ],
     "status": "active"
   },
@@ -67688,8 +67688,8 @@
       12,
       11,
       8,
-      11,
-      14,
+      12,
+      13,
       10,
       13,
       11,
