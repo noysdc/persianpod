@@ -6612,16 +6612,16 @@
     "status": "stopped"
   },
   "aslam-mirzaii": {
-    "avg_gap_days": 13.9,
-    "episodes": 28,
-    "eps_365": 25,
-    "eps_90": 4,
+    "avg_gap_days": 14.0,
+    "episodes": 29,
+    "eps_365": 26,
+    "eps_90": 5,
     "first_at": "2018-07-16",
     "first_year": 1397,
-    "last": "1405/08/01",
-    "last_at": "2026-10-23T13:56:08Z",
-    "last_link": "https://www.zahra-media.ir/%d9%81%d8%a7%d8%b7%d9%85%db%8c%d9%87-1400-%d8%a7%d8%b3%d9%84%d8%a7%d9%85-%d9%85%db%8c%d8%b1%d8%b2%d8%a7%db%8c%db%8c/",
-    "last_title": "فاطمیه ۱۴۰۰ – اسلام میرزایی",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T02:02:42Z",
+    "last_link": "https://www.zahra-media.ir/%d9%81%d8%a7%d8%b7%d9%85%db%8c%d9%87-88-%d8%a7%d8%b3%d9%84%d8%a7%d9%85-%d9%85%db%8c%d8%b1%d8%b2%d8%a7%db%8c%db%8c/",
+    "last_title": "فاطمیه ۸۸ – اسلام میرزایی",
     "play": [
       {
         "a": "https://dl14.zahra-media.ir//ya%20amiralmomonin/eslam/eslam-zeinab%20zeinab.mp3",
@@ -6666,6 +6666,11 @@
     ],
     "recent": [
       {
+        "at": "2026-11-10T02:02:42Z",
+        "link": "https://www.zahra-media.ir/%d9%81%d8%a7%d8%b7%d9%85%db%8c%d9%87-88-%d8%a7%d8%b3%d9%84%d8%a7%d9%85-%d9%85%db%8c%d8%b1%d8%b2%d8%a7%db%8c%db%8c/",
+        "title": "فاطمیه ۸۸ – اسلام میرزایی"
+      },
+      {
         "at": "2026-10-23T13:56:08Z",
         "link": "https://www.zahra-media.ir/%d9%81%d8%a7%d8%b7%d9%85%db%8c%d9%87-1400-%d8%a7%d8%b3%d9%84%d8%a7%d9%85-%d9%85%db%8c%d8%b1%d8%b2%d8%a7%db%8c%db%8c/",
         "title": "فاطمیه ۱۴۰۰ – اسلام میرزایی"
@@ -6674,11 +6679,6 @@
         "at": "2026-10-23T12:43:30Z",
         "link": "https://www.zahra-media.ir/%d9%81%d8%a7%d8%b7%d9%85%db%8c%d9%87-99-%d8%a7%d8%b3%d9%84%d8%a7%d9%85-%d9%85%db%8c%d8%b1%d8%b2%d8%a7%db%8c%db%8c/",
         "title": "فاطمیه ۹۹ – اسلام میرزایی"
-      },
-      {
-        "at": "2026-10-22T13:42:38Z",
-        "link": "https://www.zahra-media.ir/%d9%81%d8%a7%d8%b7%d9%85%db%8c%d9%87-95-%d8%a7%d8%b3%d9%84%d8%a7%d9%85-%d9%85%db%8c%d8%b1%d8%b2%d8%a7%db%8c%db%8c/",
-        "title": "فاطمیه ۹۵ – اسلام میرزایی"
       }
     ],
     "recent_30d": [
@@ -6693,7 +6693,7 @@
       1,
       0,
       0,
-      4
+      5
     ],
     "status": "active"
   },
