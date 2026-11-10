@@ -5446,21 +5446,27 @@
     "status": "inactive"
   },
   "ali-sdart": {
-    "avg_gap_days": 4.8,
+    "avg_gap_days": 4.9,
     "avg_length": 32,
-    "episodes": 448,
-    "eps_365": 74,
-    "eps_90": 13,
+    "episodes": 449,
+    "eps_365": 75,
+    "eps_90": 14,
     "first_at": "2020-06-15",
     "first_year": 1399,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T21:29:15Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/------------e3rp41e",
-    "last_title": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T19:31:40Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3s5pmr",
+    "last_title": "صدارت⁠- نتایج مقاومت ایرانیان در مقابل جنایت و تجاوز انیرانیان!",
     "max_length": 146,
     "median_length": 38,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/2f313e0c/podcast/play/129213595/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2Fe7fd93d1-4093-e4e7-a501-cfaebb3f2860.mp3",
+        "at": "2026-11-10T19:31:40Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1794339081089-c8b81307ad18c.jpg",
+        "t": "صدارت⁠- نتایج مقاومت ایرانیان در مقابل جنایت و تجاوز انیرانیان!"
+      },
       {
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/128798190/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fddb5f1e8-7935-42d2-604b-3f363e9138a8.mp3",
         "at": "2026-11-04T21:29:15Z",
@@ -5502,15 +5508,15 @@
         "at": "2026-09-28T22:49:21Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1790635702835-b7561e32f1c2.jpg",
         "t": "صدارت-ایران کانون موضوعات اجلاس ۸۱ سازمان ملل"
-      },
-      {
-        "a": "https://anchor.fm/s/2f313e0c/podcast/play/126105347/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-21%2F913da504-2679-ce62-bd80-26aec90f6deb.mp3",
-        "at": "2026-09-21T21:57:23Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1790027804334-74bde1aa871e3.jpg",
-        "t": "صدارت⁠- سرنوشت تنگه‌های هرمز و باب‌المندب، سرنوشت دنیا را رقم خواهد زد"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T19:31:40Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1794339081089-c8b81307ad18c.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3s5pmr",
+        "title": "صدارت⁠- نتایج مقاومت ایرانیان در مقابل جنایت و تجاوز انیرانیان!"
+      },
       {
         "at": "2026-11-04T21:29:15Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793827719022-7d664039ef3ab.jpg",
@@ -5522,12 +5528,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793064697238-da02b26520a9.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3r59mh",
         "title": "صدارت⁠- سرنوشت نامشخص ما، با نقش‌آفرینی توسط ما مردم مشخص می‌شود، نه با دخالت قدرت‌ها و احزاب"
-      },
-      {
-        "at": "2026-10-22T18:33:17Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1792693972854-f2ac2f5a09b13.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qtuf6",
-        "title": "صدارت-نیاز قدرت‌ها برای جابجایی جایگاه خادمان و خائنان، در جنگ روانی آن‌ها علیه ملت‌ها"
       }
     ],
     "recent_30d": [
@@ -5542,7 +5542,7 @@
       6,
       4,
       4,
-      5
+      6
     ],
     "status": "active"
   },
@@ -43994,27 +43994,21 @@
     "status": "stopped"
   },
   "nghashi-khial-ba-shar": {
-    "avg_gap_days": 31.9,
+    "avg_gap_days": 32.4,
     "avg_length": 3,
-    "episodes": 107,
-    "eps_365": 12,
-    "eps_90": 8,
+    "episodes": 106,
+    "eps_365": 11,
+    "eps_90": 7,
     "first_at": "2020-08-14",
     "first_year": 1399,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T08:26:06Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3s4keb",
-    "last_title": "خاموش!",
+    "last": "1405/07/22",
+    "last_at": "2026-10-14T13:00:23Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3qg8t3",
+    "last_title": "گفته بودم",
     "max_length": 13,
     "median_length": 3,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/2ec157f4/podcast/play/129175435/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2Fcd4306e8-7d01-f6eb-7843-6a5b4bd201b5.mp3",
-        "at": "2026-11-10T08:26:06Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1794299100488-3c1227156730f.jpg",
-        "t": "خاموش!"
-      },
       {
         "a": "https://anchor.fm/s/2ec157f4/podcast/play/127459683/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-14%2F5b271052-afb0-e4e0-39ff-5a0d2398693b.mp3",
         "at": "2026-10-14T13:00:23Z",
@@ -44056,15 +44050,15 @@
         "at": "2026-08-19T11:00:57Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1787137214931-be2bc1aab424b.jpg",
         "t": "سرو کوهی"
+      },
+      {
+        "a": "https://anchor.fm/s/2ec157f4/podcast/play/122660931/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-10%2F99c01bda-d7e9-6215-36ad-a04455c15560.mp3",
+        "at": "2026-07-10T16:30:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1783700978426-dc7b8cdcdc3e5.jpg",
+        "t": "خزان"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-10T08:26:06Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1794299100488-3c1227156730f.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3s4keb",
-        "title": "خاموش!"
-      },
       {
         "at": "2026-10-14T13:00:23Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1791982642503-92883c672854d.jpg",
@@ -44076,6 +44070,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1791375943191-73fe15beec9d9.jpg",
         "link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3q329e",
         "title": "نیمه شرقی"
+      },
+      {
+        "at": "2026-10-04T02:32:53Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1791081139989-0529396609c8a.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3prb4m",
+        "title": "من آمدم"
       }
     ],
     "recent_30d": [
@@ -44090,7 +44090,7 @@
       0,
       2,
       4,
-      2
+      1
     ],
     "status": "active"
   },
@@ -79848,7 +79848,7 @@
       }
     ],
     "recent_30d": [
-      118,
+      117,
       91,
       52,
       56,
