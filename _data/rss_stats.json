@@ -26107,8 +26107,8 @@
       5,
       0,
       1,
-      3,
-      6,
+      4,
+      5,
       8,
       6,
       9,
@@ -33057,8 +33057,8 @@
       29,
       0,
       0,
-      22,
-      61,
+      23,
+      60,
       58,
       60,
       60,
@@ -57980,21 +57980,27 @@
     "status": "active"
   },
   "podcast-mosighi-rah-gosh": {
-    "avg_gap_days": 4.5,
-    "avg_length": 69,
-    "episodes": 54,
-    "eps_365": 11,
-    "eps_90": 11,
+    "avg_gap_days": 4.3,
+    "avg_length": 67,
+    "episodes": 55,
+    "eps_365": 12,
+    "eps_90": 12,
     "first_at": "2022-05-10",
     "first_year": 1401,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T18:30:00Z",
-    "last_link": "https://youtu.be/1fJk2MmOD-Y",
-    "last_title": "استندآپ گِله؛ محمد عشقی",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T18:30:00Z",
+    "last_link": "https://youtu.be/94M-33lcSFw",
+    "last_title": "استندآپ گِله؛ بهار مدیری",
     "max_length": 156,
-    "median_length": 62,
+    "median_length": 61,
     "min_length": 16,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6aeccf9e3a774bc7313fe880/media.mp3",
+        "at": "2026-11-10T18:30:00Z",
+        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1793904168233-852f3918-02ed-4e66-8d46-b1abfa1163d2.jpeg",
+        "t": "استندآپ گِله؛ بهار مدیری"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6aeccd0d3be80be7f3bf2f50/media.mp3",
         "at": "2026-11-08T18:30:00Z",
@@ -58036,15 +58042,15 @@
         "at": "2026-10-13T18:30:00Z",
         "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1791621891132-6c3f57da-73ae-4080-90ef-b591e101e933.jpeg",
         "t": "استندآپ گِله؛ شیما شاه‌محمدی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6ac9470c39599f7c567d444c/media.mp3",
-        "at": "2026-10-11T18:30:00Z",
-        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1792001492515-e3927e70-6c93-4c1e-9a2f-10702499a455.jpeg",
-        "t": "از لس‌آنجلس تا هرمزگان؛ بندری/نوبندری"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T18:30:00Z",
+        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1793904168233-852f3918-02ed-4e66-8d46-b1abfa1163d2.jpeg",
+        "link": "https://youtu.be/94M-33lcSFw",
+        "title": "استندآپ گِله؛ بهار مدیری"
+      },
       {
         "at": "2026-11-08T18:30:00Z",
         "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1793903479185-792ad44c-a19c-49e5-8cc5-28e1d9d22900.jpeg",
@@ -58056,12 +58062,6 @@
         "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1793685992842-81c5d408-9d88-4fbc-b027-baab51fd500b.jpeg",
         "link": "https://youtu.be/iWwkig9EjjI",
         "title": "موسیقی و رویای آزادی؛ موقعیتِ ایران"
-      },
-      {
-        "at": "2026-10-27T18:30:00Z",
-        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1792832946468-b8380892-8d1c-4acb-903d-d151bd40101e.jpeg",
-        "link": "https://shows.acast.com/rahegoosh/episodes/6adc76b6fe64430a9343e9ab",
-        "title": "استندآپ گِله؛ رسام عالَم‌زاده"
       }
     ],
     "recent_30d": [
@@ -58076,7 +58076,7 @@
       0,
       0,
       4,
-      7
+      8
     ],
     "status": "active"
   },
