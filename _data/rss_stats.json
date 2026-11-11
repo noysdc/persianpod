@@ -65366,21 +65366,27 @@
     "status": "active"
   },
   "radio-ghsh": {
-    "avg_gap_days": 2.7,
+    "avg_gap_days": 2.8,
     "avg_length": 17,
-    "episodes": 34,
-    "eps_365": 34,
-    "eps_90": 33,
+    "episodes": 35,
+    "eps_365": 35,
+    "eps_90": 34,
     "first_at": "2026-08-07",
     "first_year": 1405,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T15:32:16Z",
-    "last_link": "https://www.spreaker.com/episode/fsl-swm-chgwnh-drwty-mtrsk-ra-njat-dad-hadwgr-shhr-az--76193326",
-    "last_title": "فصل سوم | چگونه دروتی مترسک را نجات داد | حادوگر شهر از",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T05:19:08Z",
+    "last_link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-chharm-bwr-az-myan-jngl--76294968",
+    "last_title": "جادوگر شهر اوز | قسمت چهارم | عبور از میان جنگل",
     "max_length": 44,
     "median_length": 14,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76294968/media.mp3",
+        "at": "2026-11-11T05:19:08Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3b61313f87a69b32ee6a8d95fdb3abf8.jpg",
+        "t": "جادوگر شهر اوز | قسمت چهارم | عبور از میان جنگل"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76193326/media.mp3",
         "at": "2026-11-05T15:32:16Z",
@@ -65422,15 +65428,15 @@
         "at": "2026-10-22T15:30:00Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/0aa679adc652e8d979da7278869f6c86.jpg",
         "t": "سوسک نادان"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75879132/media.mp3",
-        "at": "2026-10-20T15:30:00Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/f81d840ba71e0d5bae876ac419172500.jpg",
-        "t": "نخودهای پرنده"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T05:19:08Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3b61313f87a69b32ee6a8d95fdb3abf8.jpg",
+        "link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-chharm-bwr-az-myan-jngl--76294968",
+        "title": "جادوگر شهر اوز | قسمت چهارم | عبور از میان جنگل"
+      },
       {
         "at": "2026-11-05T15:32:16Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
@@ -65442,12 +65448,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
         "link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-fsl-dwm-mlaqat-ba-manchkyn-ha--76157549",
         "title": "جادوگر شهر اوز| فصل دوم | ملاقات با مانچکین ها"
-      },
-      {
-        "at": "2026-11-01T15:30:00Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
-        "link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-awl-grdbad--76113752",
-        "title": "جادوگر شهر اوز| قسمت اول | گردباد"
       }
     ],
     "recent_30d": [
@@ -65462,7 +65462,7 @@
       1,
       9,
       12,
-      12
+      13
     ],
     "status": "active"
   },
