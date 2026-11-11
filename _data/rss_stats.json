@@ -72279,21 +72279,27 @@
     "status": "active"
   },
   "rman-hai-jnaii-ba-noshin": {
-    "avg_gap_days": 8.0,
-    "avg_length": 31,
-    "episodes": 150,
-    "eps_365": 46,
-    "eps_90": 26,
+    "avg_gap_days": 7.9,
+    "avg_length": 32,
+    "episodes": 151,
+    "eps_365": 47,
+    "eps_90": 27,
     "first_at": "2025-02-05",
     "first_year": 1403,
-    "last": "1405/08/16",
-    "last_at": "2026-11-07T12:20:29Z",
-    "last_link": "https://shows.acast.com/nooshin/episodes/6aef178d9272884e57811f80",
-    "last_title": "راز رازها (فصل نودوشش تا نودوهشت)",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T18:52:32Z",
+    "last_link": "https://shows.acast.com/nooshin/episodes/6af4b9700d8e2af0b27377f9",
+    "last_title": "راز رازها (فصل نودونه تاصدودو)",
     "max_length": 83,
     "median_length": 40,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67a3a19f33bffa4af0de931a/e/6af4b9700d8e2af0b27377f9/media.mp3",
+        "at": "2026-11-11T18:52:32Z",
+        "i": "https://assets.pippa.io/shows/67a3a19f33bffa4af0de931a/1794422973162-d8bf4adc-b341-4d2b-a690-a701b0c5594c.jpeg",
+        "t": "راز رازها (فصل نودونه تاصدودو)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67a3a19f33bffa4af0de931a/e/6aef178d9272884e57811f80/media.mp3",
         "at": "2026-11-07T12:20:29Z",
@@ -72335,15 +72341,15 @@
         "at": "2026-10-24T19:34:31Z",
         "i": "https://assets.pippa.io/shows/67a3a19f33bffa4af0de931a/1792869903547-9a55cd17-b5a0-490b-aa12-87a44eb6bfe8.jpeg",
         "t": "راز رازها (فصل هفتاد وهشت تا هشتاد)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67a3a19f33bffa4af0de931a/e/6ad14e4ce65da00825e5b9ae/media.mp3",
-        "at": "2026-10-15T22:06:05Z",
-        "i": "https://assets.pippa.io/shows/67a3a19f33bffa4af0de931a/1792101844374-5efe3bcb-4d33-462f-b101-da2dbdca2084.jpeg",
-        "t": "راز رازها (فصل هفتاد وپنج تا هفتاد و هفت)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T18:52:32Z",
+        "i": "https://assets.pippa.io/shows/67a3a19f33bffa4af0de931a/1794422973162-d8bf4adc-b341-4d2b-a690-a701b0c5594c.jpeg",
+        "link": "https://shows.acast.com/nooshin/episodes/6af4b9700d8e2af0b27377f9",
+        "title": "راز رازها (فصل نودونه تاصدودو)"
+      },
       {
         "at": "2026-11-07T12:20:29Z",
         "i": "https://assets.pippa.io/shows/67a3a19f33bffa4af0de931a/1794053387883-4fedb641-af7b-441f-b961-aa8d0a1919fd.jpeg",
@@ -72355,12 +72361,6 @@
         "i": "https://assets.pippa.io/shows/67a3a19f33bffa4af0de931a/1794053183322-e66b9738-b118-4dce-9b20-054a8ee9689a.jpeg",
         "link": "https://shows.acast.com/nooshin/episodes/6aef1488218f4807f27e7f88",
         "title": "راز رازها (فصل نودوسه تا نودو پنج)"
-      },
-      {
-        "at": "2026-11-03T09:27:28Z",
-        "i": "https://assets.pippa.io/shows/67a3a19f33bffa4af0de931a/1793697853417-54be29b8-7599-44af-a1fc-e18f25507825.jpeg",
-        "link": "https://shows.acast.com/nooshin/episodes/6ae9a8fedc2860cef491737c",
-        "title": "راز رازها (فصل هشتادونه ونود و دو)"
       }
     ],
     "recent_30d": [
@@ -72375,7 +72375,7 @@
       5,
       10,
       7,
-      9
+      10
     ],
     "status": "active"
   },
@@ -82555,7 +82555,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4263,
-    "eps_365": 801,
+    "eps_365": 800,
     "eps_90": 258,
     "first_at": "2023-09-13",
     "first_year": 1402,
