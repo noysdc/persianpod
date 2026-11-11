@@ -5446,21 +5446,27 @@
     "status": "inactive"
   },
   "ali-sdart": {
-    "avg_gap_days": 4.8,
+    "avg_gap_days": 4.9,
     "avg_length": 32,
-    "episodes": 448,
-    "eps_365": 74,
-    "eps_90": 13,
+    "episodes": 449,
+    "eps_365": 75,
+    "eps_90": 14,
     "first_at": "2020-06-15",
     "first_year": 1399,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T21:29:15Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/------------e3rp41e",
-    "last_title": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T19:31:40Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3s5pmr",
+    "last_title": "صدارت⁠- نتایج مقاومت ایرانیان در مقابل جنایت و تجاوز انیرانیان!",
     "max_length": 146,
     "median_length": 38,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/2f313e0c/podcast/play/129213595/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2Fe7fd93d1-4093-e4e7-a501-cfaebb3f2860.mp3",
+        "at": "2026-11-10T19:31:40Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1794339081089-c8b81307ad18c.jpg",
+        "t": "صدارت⁠- نتایج مقاومت ایرانیان در مقابل جنایت و تجاوز انیرانیان!"
+      },
       {
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/128798190/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2Fddb5f1e8-7935-42d2-604b-3f363e9138a8.mp3",
         "at": "2026-11-04T21:29:15Z",
@@ -5502,15 +5508,15 @@
         "at": "2026-09-28T22:49:21Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1790635702835-b7561e32f1c2.jpg",
         "t": "صدارت-ایران کانون موضوعات اجلاس ۸۱ سازمان ملل"
-      },
-      {
-        "a": "https://anchor.fm/s/2f313e0c/podcast/play/126105347/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-21%2F913da504-2679-ce62-bd80-26aec90f6deb.mp3",
-        "at": "2026-09-21T21:57:23Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1790027804334-74bde1aa871e3.jpg",
-        "t": "صدارت⁠- سرنوشت تنگه‌های هرمز و باب‌المندب، سرنوشت دنیا را رقم خواهد زد"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-10T19:31:40Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1794339081089-c8b81307ad18c.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3s5pmr",
+        "title": "صدارت⁠- نتایج مقاومت ایرانیان در مقابل جنایت و تجاوز انیرانیان!"
+      },
       {
         "at": "2026-11-04T21:29:15Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793827719022-7d664039ef3ab.jpg",
@@ -5522,12 +5528,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793064697238-da02b26520a9.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3r59mh",
         "title": "صدارت⁠- سرنوشت نامشخص ما، با نقش‌آفرینی توسط ما مردم مشخص می‌شود، نه با دخالت قدرت‌ها و احزاب"
-      },
-      {
-        "at": "2026-10-22T18:33:17Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1792693972854-f2ac2f5a09b13.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3qtuf6",
-        "title": "صدارت-نیاز قدرت‌ها برای جابجایی جایگاه خادمان و خائنان، در جنگ روانی آن‌ها علیه ملت‌ها"
       }
     ],
     "recent_30d": [
@@ -5542,7 +5542,7 @@
       6,
       4,
       4,
-      5
+      6
     ],
     "status": "active"
   },
@@ -21063,8 +21063,8 @@
       32,
       28,
       14,
-      8,
-      6,
+      9,
+      5,
       2,
       0,
       0,
