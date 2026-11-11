@@ -31,6 +31,10 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
+  "baigani-ha-padkst-mhndsi-snaia": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://iien.ir/category/podcast/feed/"
+  },
   "baigani-ha-sda": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://musiceiranian.ir/type/audio/feed"
@@ -87,10 +91,6 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
   },
-  "khorsht-tknolozhi": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
-    "rss": "https://sbs-ondemand.streamguys1.com/khoresht-e-tech/"
-  },
   "kit-aahng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://www.baranbax.com/category/sample-loop/kit/feed/"
@@ -110,10 +110,6 @@
   "marktplatz-zban-aalmani-dr-aghtsad": {
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
-  },
-  "mhm-trin-akhbar-amroz-astralia": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
-    "rss": "https://sbs-ondemand.streamguys1.com/persian-newsflash/"
   },
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
