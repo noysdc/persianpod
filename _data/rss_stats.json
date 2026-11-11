@@ -37805,21 +37805,27 @@
     "status": "stopped"
   },
   "ktab-soti-lbkhnd-kaghzi": {
-    "avg_gap_days": 1.6,
+    "avg_gap_days": 1.8,
     "avg_length": 12,
-    "episodes": 52,
-    "eps_365": 52,
-    "eps_90": 50,
+    "episodes": 53,
+    "eps_365": 53,
+    "eps_90": 51,
     "first_at": "2026-08-12",
     "first_year": 1405,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T19:28:33Z",
-    "last_link": "https://www.spreaker.com/episode/fylbwyd-astaj--76179843",
-    "last_title": "فیلبوید استاج",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T15:22:07Z",
+    "last_link": "https://www.spreaker.com/episode/ps-zmynh--76302622",
+    "last_title": "پس زمینه",
     "max_length": 24,
     "median_length": 12,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://api.spreaker.com/download/episode/76302622/1f0b4c4a3dbd8d204192ac1d6b.mp3",
+        "at": "2026-11-11T15:22:07Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/29a3a15237db9cd8d8d1b1d23189a0f6.jpg",
+        "t": "پس زمینه"
+      },
       {
         "a": "https://api.spreaker.com/download/episode/76179843/6d3f37467084e5f5f9641e36d4.mp3",
         "at": "2026-11-04T19:28:33Z",
@@ -37861,15 +37867,15 @@
         "at": "2026-10-13T17:30:49Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/df5bb91f0d065e88d1d39650d74163cf.jpg",
         "t": "آرامش قبل از انتخابات"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/75701570/c363ee47df91920432e60e56f4.mp3",
-        "at": "2026-10-11T17:01:14Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/1a9e9628ab2a7aae906356723389ae60.jpg",
-        "t": "باغ گاه به گاه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T15:22:07Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/29a3a15237db9cd8d8d1b1d23189a0f6.jpg",
+        "link": "https://www.spreaker.com/episode/ps-zmynh--76302622",
+        "title": "پس زمینه"
+      },
       {
         "at": "2026-11-04T19:28:33Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/52c23ab3f167cae8ec91146f15296802.jpg",
@@ -37881,12 +37887,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/7da71877d4a2b95ca3994ec7760ebddc.jpg",
         "link": "https://www.spreaker.com/episode/drkht-bh--76140788",
         "title": "درخت به"
-      },
-      {
-        "at": "2026-11-01T18:24:06Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/c19769f8d892c8e394ee8a724ff755db.jpg",
-        "link": "https://www.spreaker.com/episode/rwz-nam--76116427",
-        "title": "روز نام"
       }
     ],
     "recent_30d": [
@@ -37901,7 +37901,7 @@
       2,
       24,
       19,
-      7
+      8
     ],
     "status": "active"
   },
@@ -67068,8 +67068,8 @@
       0,
       0,
       0,
-      0,
-      2,
+      1,
+      1,
       1,
       1,
       5
