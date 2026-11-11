@@ -69763,27 +69763,21 @@
     "status": "active"
   },
   "rkhtkn-bazndh-ha": {
-    "avg_gap_days": 68.2,
+    "avg_gap_days": 66.5,
     "avg_length": 96,
-    "episodes": 33,
-    "eps_365": 6,
-    "eps_90": 2,
+    "episodes": 32,
+    "eps_365": 5,
+    "eps_90": 1,
     "first_at": "2023-04-02",
     "first_year": 1402,
-    "last": "1405/08/06",
-    "last_at": "2026-10-28T18:51:21Z",
-    "last_link": "https://www.spreaker.com/episode/apyzwd-shmarh-33-rkhtkn-bazndh-ha-bazndh-ly-rda-rhymy--76055322",
-    "last_title": "اپیزود شماره ۳۳ -رختکن بازنده‌ها-بازنده: علی‌رضا رحیمی",
+    "last": "1405/05/23",
+    "last_at": "2026-08-14T06:25:02Z",
+    "last_link": "https://www.spreaker.com/episode/apyzwd-shmarh-sy-w-dw-rkhtkn-bazndh-ha-bazndh-prwyn-mrany--73938746",
+    "last_title": "اپیزود شماره سی و دو - رختکن بازنده‌ها - بازنده: پروین عمرانی",
     "max_length": 125,
     "median_length": 97,
     "min_length": 54,
     "play": [
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76055322/utf_8_b_2kfzvtum2llzinivini02yxyp9ix2ycg27m_utf_8_b_27mgldix2k7yqtqp2yyg2kjyp9iy2ybyr9mh_utf_8_b_x9mh2kct2kjyp9iy2ybyr9mhic0g2lnzha_utf_8_b_24xf2lhyttininix2k3bjnmf24wubxaz.mp3",
-        "at": "2026-10-28T18:51:21Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bca12138ce932368430e30f8efe575b0.jpg",
-        "t": "اپیزود شماره ۳۳ -رختکن بازنده‌ها-بازنده: علی‌رضا رحیمی"
-      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/73938746/rakhtkane_bazandeha_ep32.mp3",
         "at": "2026-08-14T06:25:02Z",
@@ -69825,15 +69819,15 @@
         "at": "2025-07-31T09:33:06Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/50eb6ad5e5dbb034a36c5e80e2ddc8d0.jpg",
         "t": "اپیزود شماره بیست و ششم - رختکن بازنده‌ها - بازنده: نگار ارجمند"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72204848/audio.mp3",
+        "at": "2025-07-01T18:50:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/10499236adddaf3975cb22bf5cd8f931.jpg",
+        "t": "اپیزود شماره بیست و پنجم - رختکن بازنده‌ها - بازنده: هاله هاشمی"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-28T18:51:21Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bca12138ce932368430e30f8efe575b0.jpg",
-        "link": "https://www.spreaker.com/episode/apyzwd-shmarh-33-rkhtkn-bazndh-ha-bazndh-ly-rda-rhymy--76055322",
-        "title": "اپیزود شماره ۳۳ -رختکن بازنده‌ها-بازنده: علی‌رضا رحیمی"
-      },
       {
         "at": "2026-08-14T06:25:02Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/53df100c37aaf0bfc03b3785ecd18759.jpg",
@@ -69845,6 +69839,12 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/4e752223a3d5de655cb0e9cda312842f.jpg",
         "link": "https://www.spreaker.com/episode/apyzwd-shmarh-sy-w-yk-rkhtkn-bazndh-ha-bazndh-whyd-sht--73104008",
         "title": "اپیزود شماره سی و یک - رختکن بازنده‌ها - بازنده: وحید صحت"
+      },
+      {
+        "at": "2026-06-08T16:55:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/e28d66843ae12c0dc2556ca20f4bb829.jpg",
+        "link": "https://www.spreaker.com/episode/apyzwd-shmarh-sy-rkhtkn-bazndh-ha-bazndh-ramyn-prchmy--72422623",
+        "title": "اپیزود شماره سی - رختکن بازنده‌ها - بازنده: رامین پرچمی"
       }
     ],
     "recent_30d": [
@@ -69859,7 +69859,7 @@
       1,
       1,
       0,
-      1
+      0
     ],
     "status": "active"
   },
