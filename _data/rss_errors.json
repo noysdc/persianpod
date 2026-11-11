@@ -20,7 +20,7 @@
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
   },
   "archgap-padkst-mamari-aark-gp": {
-    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
   "ashgh-ziba": {
@@ -31,9 +31,9 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
-  "baigani-ha-padkst-mhndsi-snaia": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://iien.ir/category/podcast/feed/"
+  "baigani-ha-sda": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://musiceiranian.ir/type/audio/feed"
   },
   "bazariabi-ba-hmid-sbaghi": {
     "error": "ValueError: no items in feed",
@@ -47,13 +47,41 @@
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
   },
+  "dastan-hai-kotah-ba-rza": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.castbox.fm/everest/e01f9471144a4899b050b6e7b07716a0.xml"
+  },
+  "dastan-zndgi-mn-ba-aiman-khrmi-nzhad": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "http://rss.castbox.fm/everest/74db79e7abd343b4a209c655e410b894.xml"
+  },
+  "dastanp": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.castbox.fm/everest/1b2dd951fd95439480c5d45eda74fee0.xml"
+  },
+  "diapazon-atls-mosighi-ghrn-bistm": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.castbox.fm/everest/be5a3f3f7bfa43eaa4e8a5a10471dc6e.xml"
+  },
   "dkhtri-ba-hft-asm": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/5586a8d0/podcast/rss"
   },
+  "dklmh-hai-nab": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.castbox.fm/everest/0bf682ac9ea44b3394712957db74985c.xml"
+  },
+  "dktr-ali-saghbi": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "http://rss.castbox.fm/everest/b46600d8fe28428a93021fbc4da8648e.xml"
+  },
   "dopamin": {
     "error": "RuntimeError: HTTP 410 (Gone) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/dopaminecast/feed.xml"
+  },
+  "farks-ba-aranth": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "http://rss.castbox.fm/everest/02339b422c1446cdaba0ee3c172c6012.xml"
   },
   "film-aamozshi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -114,6 +142,22 @@
   "podcast-obmstr-plas": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://webmasterplus.ir/feed/"
+  },
+  "podcast-radiotori": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "http://rss.castbox.fm/everest/f75d3a8cd2564ab0a0a25cb9d295e6ba.xml"
+  },
+  "podcast-sinmaii-aap-aratch-i-marfi-film": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.castbox.fm/everest/d6d38202c68a4246a1abc000016c6e18.xml"
+  },
+  "podcast-tknik-mdirit-zman-o-brnamh-rizi": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "http://rss.castbox.fm/everest/72f334c945ba482eb6aff51ce38556d7.xml"
+  },
+  "podcast-total-fotbal": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "http://rss.castbox.fm/everest/085dde763dad45df9bd917b595f10cb0.xml"
   },
   "pzhoak-mahor": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
