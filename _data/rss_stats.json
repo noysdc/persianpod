@@ -51770,19 +51770,25 @@
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.8,
     "avg_length": 19,
-    "episodes": 40,
-    "eps_365": 40,
-    "eps_90": 40,
+    "episodes": 41,
+    "eps_365": 41,
+    "eps_90": 41,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T14:56:01Z",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T15:50:52Z",
     "last_link": "https://furbodm.com/",
-    "last_title": "Disney #0 | فصل سوم پادکست بیزینس استوریز؛ والت دیزنی",
+    "last_title": "Disney #1 | دنیای کارتون و انیمیشن قبل از دیزنی چه شکلی بود؟",
     "max_length": 115,
     "median_length": 21,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af48edd3709f3cff23b9d85/media.mp3",
+        "at": "2026-11-11T15:50:52Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794412151410-14b7b211-3c22-4b76-8b6c-15948ca0d938.jpeg",
+        "t": "Disney #1 | دنیای کارتون و انیمیشن قبل از دیزنی چه شکلی بود؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af33082268f0de56a70cc53/media.mp3",
         "at": "2026-11-10T14:56:01Z",
@@ -51824,15 +51830,15 @@
         "at": "2026-11-01T18:30:17Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793557613103-1b043e7f-af98-4dab-a966-f2d46ff10cb3.jpeg",
         "t": "NETFLIX #8 | چرا نت‌فلیکس به سمت تولید فیلم و سریال اختصاصی رفت؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62d38339f23a726f55bee/media.mp3",
-        "at": "2026-10-31T18:02:32Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469628275-e016b549-67e5-46cf-99c5-269e1f22b98c.jpeg",
-        "t": "NETFLIX #7 | داستان اولین شکست استراتژیک نت‌فلیکس با کوئیکستر چی بود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T15:50:52Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794412151410-14b7b211-3c22-4b76-8b6c-15948ca0d938.jpeg",
+        "link": "https://furbodm.com/",
+        "title": "Disney #1 | دنیای کارتون و انیمیشن قبل از دیزنی چه شکلی بود؟"
+      },
       {
         "at": "2026-11-10T14:56:01Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794322140453-2157de57-8ff9-4ff8-b67f-364f6b256299.jpeg",
@@ -51844,12 +51850,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794061249310-458e4d45-c371-4e84-a20f-459f0b07643d.jpeg",
         "link": "https://shows.acast.com/business-stories-podcast/episodes/6aef344c97f44ee2483db1b5",
         "title": "چطوری پادکست بیزینس استوریز توی هفت روز به درآمدزایی رسید؟ | پروژه پادکست"
-      },
-      {
-        "at": "2026-11-06T16:30:06Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793982521565-65d3f12c-d872-4764-a375-85c3c1649d5c.jpeg",
-        "link": "https://shows.acast.com/business-stories-podcast/episodes/6aee008e897b960231884036",
-        "title": "پروژه پادکست؛ راهنمای کامل ساخت پادکست"
       }
     ],
     "recent_30d": [
@@ -51864,7 +51864,7 @@
       0,
       0,
       1,
-      39
+      40
     ],
     "status": "active"
   },
