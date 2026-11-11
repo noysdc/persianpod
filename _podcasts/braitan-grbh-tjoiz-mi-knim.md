@@ -17,8 +17,8 @@ pi_id: 8000268
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # برایتان گربه تجویز می‌کنیم

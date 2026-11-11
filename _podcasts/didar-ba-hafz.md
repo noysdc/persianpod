@@ -18,8 +18,8 @@ pi_id: 6738491
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # دیدار با حافظ

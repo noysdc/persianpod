@@ -17,8 +17,8 @@ pi_id: 8017286
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # بک‌گراند

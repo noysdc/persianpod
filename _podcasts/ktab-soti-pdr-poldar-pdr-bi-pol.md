@@ -16,8 +16,8 @@ pi_id: 1777221
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # کتاب صوتی پدر پولدار پدر بی پول

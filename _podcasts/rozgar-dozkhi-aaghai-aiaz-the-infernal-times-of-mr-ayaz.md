@@ -17,8 +17,8 @@ pi_id: 3461221
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # روزگار دوزخی آقای ایاز (The Infernal Times of Mr. Ayaz)
