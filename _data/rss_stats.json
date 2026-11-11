@@ -43481,27 +43481,21 @@
     "status": "stopped"
   },
   "motivashoo-motioasho": {
-    "avg_gap_days": 60.5,
-    "avg_length": 23,
-    "episodes": 27,
-    "eps_365": 7,
-    "eps_90": 5,
+    "avg_gap_days": 70.6,
+    "avg_length": 22,
+    "episodes": 26,
+    "eps_365": 6,
+    "eps_90": 4,
     "first_at": "2025-05-09",
     "first_year": 1404,
-    "last": "1405/08/20",
-    "last_at": "2026-11-11T23:03:25Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/motivashoo/episodes/ep-e3s80o2",
-    "last_title": "رها کردن",
+    "last": "1405/08/10",
+    "last_at": "2026-11-01T20:52:36Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/motivashoo/episodes/ep-e3rid3p",
+    "last_title": "تنهایی عاطفی",
     "max_length": 64,
-    "median_length": 17,
+    "median_length": 16,
     "min_length": 7,
     "play": [
-      {
-        "a": "https://anchor.fm/s/104b452a8/podcast/play/129286338/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2Fd7551a53-c0db-d69e-6d4a-1c4b1cd529c3.mp3",
-        "at": "2026-11-11T23:03:25Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1794438250903-1b44f53c861e9.jpg",
-        "t": "رها کردن"
-      },
       {
         "a": "https://anchor.fm/s/104b452a8/podcast/play/128578105/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F04b356b9-390d-c048-720f-2b5f8c875d15.mp3",
         "at": "2026-11-01T20:52:36Z",
@@ -43543,15 +43537,15 @@
         "at": "2025-11-01T20:00:36Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1762027207751-926d053222101.jpg",
         "t": "ذهنیت برنده"
+      },
+      {
+        "a": "https://anchor.fm/s/104b452a8/podcast/play/109529391/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-11%2Fa36a6459-3ef0-d512-ed0b-278f08ff5f24.mp3",
+        "at": "2025-10-11T16:52:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1760201530832-08cbb6fc2937f.jpg",
+        "t": "صبح جادویی"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-11T23:03:25Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1794438250903-1b44f53c861e9.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/motivashoo/episodes/ep-e3s80o2",
-        "title": "رها کردن"
-      },
       {
         "at": "2026-11-01T20:52:36Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1793567085393-eef3228835882.jpg",
@@ -43563,6 +43557,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1792347320601-ff78182983d75.jpg",
         "link": "https://podcasters.spotify.com/pod/show/motivashoo/episodes/ep-e3qmsoo",
         "title": "تکرار آدم اشتباهی؟"
+      },
+      {
+        "at": "2026-10-09T17:50:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43638938/43638938-1791568200136-16683a6bad49f.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/motivashoo/episodes/ep-e3q87gc",
+        "title": "عشق یا ترس از تنهایی؟"
       }
     ],
     "recent_30d": [
@@ -43577,7 +43577,7 @@
       0,
       0,
       2,
-      3
+      2
     ],
     "status": "active"
   },
@@ -65250,86 +65250,86 @@
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.1,
     "avg_length": 111,
-    "episodes": 122,
-    "eps_365": 122,
-    "eps_90": 122,
+    "episodes": 114,
+    "eps_365": 114,
+    "eps_90": 114,
     "first_at": "2026-11-01",
     "first_year": 1405,
     "last": "1405/08/20",
-    "last_at": "2026-11-11T22:57:25Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Yeganeh--Mohammad-Part-8-e3s81t1",
-    "last_title": "Yeganeh, Mohammad Part 8",
-    "max_length": 135,
-    "median_length": 117,
+    "last_at": "2026-11-11T03:07:53Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adl-Naficy--Ozma-Part-1-e3s6dsd",
+    "last_title": "Adl-Naficy, Ozma Part 1",
+    "max_length": 134,
+    "median_length": 116,
     "min_length": 20,
     "play": [
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129287521/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2Ff1d6fafd-46e7-143e-8e81-2d2717e97bcc.mp3",
-        "at": "2026-11-11T22:57:25Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437802929-10cd4923e20c2.jpg",
-        "t": "Yeganeh, Mohammad Part 8"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129234253/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2F97a4189e-0398-c0d9-c672-3214ab2ca8cc.mp3",
+        "at": "2026-11-11T03:07:53Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794366426799-33c8c2ccedb0f.jpg",
+        "t": "Adl-Naficy, Ozma Part 1"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129287461/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2F69c5a939-eba2-353d-044b-dd085ffd7aaa.mp3",
-        "at": "2026-11-11T22:56:22Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437717238-ba6edafe255a4.jpg",
-        "t": "Yeganeh, Mohammad Part 7"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129165001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2F9da03938-8556-0e8e-51d5-c218a2c8fb8f.mp3",
+        "at": "2026-11-10T03:02:16Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794279670129-3834139f01b47.jpg",
+        "t": "Nahavandi, Houshang Part 6"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129287396/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2Ff98129d2-e1bd-58cc-b78a-c2936055f339.mp3",
-        "at": "2026-11-11T22:54:56Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437628883-d2b4f6f1a7011.jpg",
-        "t": "Yeganeh, Mohammad Part 6"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129164951/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2F8d58f204-5873-d76e-d571-557e84cf21e8.mp3",
+        "at": "2026-11-10T03:00:52Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794279594738-1ddb9f471b172.jpg",
+        "t": "Nahavandi, Houshang Part 5"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129287342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2Fced299d9-4a3c-7626-231f-b44e22a08f55.mp3",
-        "at": "2026-11-11T22:53:29Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437535527-c6248eeb71edf.jpg",
-        "t": "Yeganeh, Mohammad Part 5"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129164866/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2F665583c9-7a27-e9b0-d87c-2a6611fba774.mp3",
+        "at": "2026-11-10T02:59:34Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794279514914-73cfe377b586.jpg",
+        "t": "Nahavandi, Houshang Part 4"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129287300/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2Fb9f7c872-803e-93dc-43b8-4759e115a580.mp3",
-        "at": "2026-11-11T22:51:57Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437455618-3dfcc2e812f59.jpg",
-        "t": "Yeganeh, Mohammad Part 4"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129164758/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2F50d813ef-6b94-846b-82b5-02c4c9e03266.mp3",
+        "at": "2026-11-10T02:58:10Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794279435560-a8509997110fd.jpg",
+        "t": "Nahavandi, Houshang Part 3"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129287233/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2Fc0b9ca0e-c0a2-c07f-3c22-d2308913b4ed.mp3",
-        "at": "2026-11-11T22:50:35Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437364742-2f2fd552fbc8b.jpg",
-        "t": "Yeganeh, Mohammad Part 3"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129164699/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2F56f9a048-e999-6517-20c5-cfa78f5d1e14.mp3",
+        "at": "2026-11-10T02:56:57Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794279341937-e9ccdf425bff9.jpg",
+        "t": "Nahavandi, Houshang Part 2"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129287178/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2Fcc576313-fa31-99cb-2588-d35369ea8aef.mp3",
-        "at": "2026-11-11T22:49:04Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437271657-9f237e6b20ed1.jpg",
-        "t": "Yeganeh, Mohammad Part 2"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129164654/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2F382b979b-3ddd-c98e-52d2-75db6fa89cbb.mp3",
+        "at": "2026-11-10T02:55:22Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794279264015-aff4c16eafeaa.jpg",
+        "t": "Nahavandi, Houshang Part 1"
       },
       {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129287126/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2F2a541e52-2dc9-ab41-2a33-9e7bb94675e6.mp3",
-        "at": "2026-11-11T22:47:32Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437189727-3f1b5e3c9d8c2.jpg",
-        "t": "Yeganeh, Mohammad Part 1"
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129156172/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F53579364-9000-8e66-25cf-0d6ee082759e.mp3",
+        "at": "2026-11-09T23:46:25Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794267933340-5be77f56dfc88.jpg",
+        "t": "Ensha (Razavi), Fereshte"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-11T22:57:25Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437802929-10cd4923e20c2.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Yeganeh--Mohammad-Part-8-e3s81t1",
-        "title": "Yeganeh, Mohammad Part 8"
+        "at": "2026-11-11T03:07:53Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794366426799-33c8c2ccedb0f.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adl-Naficy--Ozma-Part-1-e3s6dsd",
+        "title": "Adl-Naficy, Ozma Part 1"
       },
       {
-        "at": "2026-11-11T22:56:22Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437717238-ba6edafe255a4.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Yeganeh--Mohammad-Part-7-e3s81r5",
-        "title": "Yeganeh, Mohammad Part 7"
+        "at": "2026-11-10T03:02:16Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794279670129-3834139f01b47.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nahavandi--Houshang-Part-6-e3s4a89",
+        "title": "Nahavandi, Houshang Part 6"
       },
       {
-        "at": "2026-11-11T22:54:56Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437628883-d2b4f6f1a7011.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Yeganeh--Mohammad-Part-6-e3s81p4",
-        "title": "Yeganeh, Mohammad Part 6"
+        "at": "2026-11-10T03:00:52Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794279594738-1ddb9f471b172.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nahavandi--Houshang-Part-5-e3s4a6n",
+        "title": "Nahavandi, Houshang Part 5"
       }
     ],
     "recent_30d": [
@@ -65344,7 +65344,7 @@
       0,
       0,
       0,
-      122
+      114
     ],
     "status": "active"
   },
