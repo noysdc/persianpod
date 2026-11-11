@@ -45153,19 +45153,24 @@
   "naaji": {
     "avg_gap_days": 6.9,
     "avg_length": 37,
-    "episodes": 110,
-    "eps_365": 51,
-    "eps_90": 12,
+    "episodes": 111,
+    "eps_365": 52,
+    "eps_90": 13,
     "first_at": "2020-04-16",
     "first_year": 1399,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T16:14:12Z",
-    "last_link": "https://shows.acast.com/naaji/episodes/6aeb59d47be9b695a63ac361",
-    "last_title": "Ep 144 - بهت کم‌محلی میکنه ولی تو بیشتر بهش جذب‌ میشی؟ - Emotional Uncertainty",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T17:10:08Z",
+    "last_link": "https://shows.acast.com/naaji/episodes/6af4a173280bc7461ace79f0",
+    "last_title": "Ep 145 - میترسی بقیه ازت ناراحت بشن ؟ - People Pleasing",
     "max_length": 71,
     "median_length": 32,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67ca6c9effae9c0f4e3e7637/e/6af4a173280bc7461ace79f0/media.mp3",
+        "at": "2026-11-11T17:10:08Z",
+        "t": "Ep 145 - میترسی بقیه ازت ناراحت بشن ؟ - People Pleasing"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67ca6c9effae9c0f4e3e7637/e/6aeb59d47be9b695a63ac361/media.mp3",
         "at": "2026-11-04T16:14:12Z",
@@ -45200,14 +45205,14 @@
         "a": "https://sphinx.acast.com/p/open/s/67ca6c9effae9c0f4e3e7637/e/6aa987ec7f8a8df4336097b6/media.mp3",
         "at": "2026-09-15T18:01:16Z",
         "t": "Ep 138 - خیانت - Betrayal"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67ca6c9effae9c0f4e3e7637/e/6aa055917275dabe9591c80c/media.mp3",
-        "at": "2026-09-08T18:35:59Z",
-        "t": "Ep 137 - آیا ازدواج گورستانِ عشق‌است ؟ - Marriage or Love?"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T17:10:08Z",
+        "link": "https://shows.acast.com/naaji/episodes/6af4a173280bc7461ace79f0",
+        "title": "Ep 145 - میترسی بقیه ازت ناراحت بشن ؟ - People Pleasing"
+      },
       {
         "at": "2026-11-04T16:14:12Z",
         "link": "https://shows.acast.com/naaji/episodes/6aeb59d47be9b695a63ac361",
@@ -45217,11 +45222,6 @@
         "at": "2026-10-28T18:23:25Z",
         "link": "https://shows.acast.com/naaji/episodes/6ae23d9d5a3cc3c4c459b8eb",
         "title": "Ep 143 - چرا نمی‌تونی احساساتت رو بگی؟ - Expressing Feelings"
-      },
-      {
-        "at": "2026-10-21T10:30:00Z",
-        "link": "https://shows.acast.com/naaji/episodes/6ad8356b3ad7f68551d20895",
-        "title": "Ep 142 - تصمیم‌گیری در دوراهی‌های بزرگ زندگی - Decision Making"
       }
     ],
     "recent_30d": [
@@ -45236,7 +45236,7 @@
       3,
       5,
       3,
-      4
+      5
     ],
     "status": "active"
   },
