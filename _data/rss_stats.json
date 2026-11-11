@@ -63124,20 +63124,26 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.1,
-    "avg_length": 112,
-    "episodes": 113,
-    "eps_365": 113,
-    "eps_90": 113,
+    "avg_length": 111,
+    "episodes": 114,
+    "eps_365": 114,
+    "eps_90": 114,
     "first_at": "2026-11-01",
     "first_year": 1405,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T03:02:16Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nahavandi--Houshang-Part-6-e3s4a89",
-    "last_title": "Nahavandi, Houshang Part 6",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T03:07:53Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adl-Naficy--Ozma-Part-1-e3s6dsd",
+    "last_title": "Adl-Naficy, Ozma Part 1",
     "max_length": 134,
     "median_length": 116,
     "min_length": 20,
     "play": [
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129234253/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2F97a4189e-0398-c0d9-c672-3214ab2ca8cc.mp3",
+        "at": "2026-11-11T03:07:53Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794366426799-33c8c2ccedb0f.jpg",
+        "t": "Adl-Naficy, Ozma Part 1"
+      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/129165001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2F9da03938-8556-0e8e-51d5-c218a2c8fb8f.mp3",
         "at": "2026-11-10T03:02:16Z",
@@ -63179,15 +63185,15 @@
         "at": "2026-11-09T23:46:25Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794267933340-5be77f56dfc88.jpg",
         "t": "Ensha (Razavi), Fereshte"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129153873/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F838888cd-d14b-42e5-4a29-513e0a026065.mp3",
-        "at": "2026-11-09T22:52:43Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794264687923-287b726edbfe.jpg",
-        "t": "Amini, Nosratollah Part 7"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T03:07:53Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794366426799-33c8c2ccedb0f.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adl-Naficy--Ozma-Part-1-e3s6dsd",
+        "title": "Adl-Naficy, Ozma Part 1"
+      },
       {
         "at": "2026-11-10T03:02:16Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794279670129-3834139f01b47.jpg",
@@ -63199,12 +63205,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794279594738-1ddb9f471b172.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nahavandi--Houshang-Part-5-e3s4a6n",
         "title": "Nahavandi, Houshang Part 5"
-      },
-      {
-        "at": "2026-11-10T02:59:34Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794279514914-73cfe377b586.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nahavandi--Houshang-Part-4-e3s4a42",
-        "title": "Nahavandi, Houshang Part 4"
       }
     ],
     "recent_30d": [
@@ -63219,7 +63219,7 @@
       0,
       0,
       0,
-      113
+      114
     ],
     "status": "active"
   },
