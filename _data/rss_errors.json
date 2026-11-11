@@ -80,7 +80,7 @@
     "rss": "https://feed.pod.co/hese-khob"
   },
   "khatrh-angiz": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
   },
   "kit-aahng": {
