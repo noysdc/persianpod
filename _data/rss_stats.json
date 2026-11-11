@@ -4204,8 +4204,8 @@
       }
     ],
     "recent_30d": [
-      1,
-      3,
+      2,
+      2,
       0,
       0,
       2,
@@ -73268,21 +73268,26 @@
     "status": "stopped"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.3,
+    "avg_gap_days": 4.2,
     "avg_length": 22,
-    "episodes": 493,
-    "eps_365": 86,
-    "eps_90": 33,
+    "episodes": 494,
+    "eps_365": 87,
+    "eps_90": 34,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T11:10:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/8n12669awh/",
-    "last_title": "۲۵ یا ۵۰ واحد پایه؟ نگاه بازار به تورم هسته آمریکا در سایه صحبت‌های والر",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T11:40:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/6pav8iyfvw/",
+    "last_title": "از هشدار والر تا جهش فیوچرز نزدک زیر سایه فشارهای تورمی",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/6pav8iyfvw/2026-11-11-11-47-21.mp3",
+        "at": "2026-11-11T11:40:00Z",
+        "t": "از هشدار والر تا جهش فیوچرز نزدک زیر سایه فشارهای تورمی"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/8n12669awh/2026-11-10-11-30-51.mp3",
         "at": "2026-11-10T11:10:00Z",
@@ -73317,14 +73322,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/7nso531fi6/2026-11-02-12-32-24.mp3",
         "at": "2026-11-02T12:00:00Z",
         "t": "انتخابات کنگره و گزارش اشتغال امریکا؛ کدام نتیجه بازار را غافلگیر می‌کند؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/hd3meukk5h/2026-10-30-12-18-26.mp3",
-        "at": "2026-10-30T11:50:00Z",
-        "t": "افت همزمان طلا و نزدک؛ چرا کاهش بازده اوراق کافی نبود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T11:40:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/6pav8iyfvw/",
+        "title": "از هشدار والر تا جهش فیوچرز نزدک زیر سایه فشارهای تورمی"
+      },
       {
         "at": "2026-11-10T11:10:00Z",
         "link": "https://dotcast.org/p/bozvcayr/8n12669awh/",
@@ -73334,11 +73339,6 @@
         "at": "2026-11-09T11:50:00Z",
         "link": "https://dotcast.org/p/bozvcayr/4mte1e0wj7/",
         "title": "نفت در انتظار دیدار ترامپ با نخست‌وزیر قطر"
-      },
-      {
-        "at": "2026-11-06T11:00:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/0jd87468ny/",
-        "title": "وال‌استریت زیر فشار؛ از نگرانی هوش مصنوعی تا آزمون اشتغال آمریکا"
       }
     ],
     "recent_30d": [
@@ -73353,7 +73353,7 @@
       0,
       0,
       12,
-      21
+      22
     ],
     "status": "active"
   },
