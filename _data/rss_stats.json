@@ -61750,21 +61750,27 @@
     "status": "active"
   },
   "podcast-tarikhi-majon": {
-    "avg_gap_days": 20.2,
-    "avg_length": 53,
-    "episodes": 102,
-    "eps_365": 18,
-    "eps_90": 6,
+    "avg_gap_days": 20.0,
+    "avg_length": 54,
+    "episodes": 103,
+    "eps_365": 19,
+    "eps_90": 7,
     "first_at": "2019-12-31",
     "first_year": 1398,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T01:30:00Z",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T01:30:00Z",
     "last_link": "https://majoonpod.ir",
-    "last_title": "93) رویای ایرانشهر بزرگ (3) | شاپور دوم ساسانی",
+    "last_title": "94) بهرام گور | بهرام پنجم ساسانی",
     "max_length": 91,
     "median_length": 55,
     "min_length": 15,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6af396261b42b04d6225a958/media.mp3",
+        "at": "2026-11-11T01:30:00Z",
+        "i": "https://assets.pippa.io/shows/6860ebc2653df36e7b81252f/1794348682065-3fc44b49-e6d1-4b81-a491-39b3e2f48f80.jpeg",
+        "t": "94) بهرام گور | بهرام پنجم ساسانی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6ade6b9b959e7ea69d3625d6/media.mp3",
         "at": "2026-10-26T01:30:00Z",
@@ -61806,15 +61812,15 @@
         "at": "2026-08-05T01:30:00Z",
         "i": "https://assets.pippa.io/shows/6860ebc2653df36e7b81252f/1786918178032-53442b43-d333-4764-aba9-0fd46dd04feb.jpeg",
         "t": "87) خمرهای سرخ | پل پوت؛ پارت دوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6860ebc2653df36e7b81252f/e/6a667186fa6cc1e0304d2e5c/media.mp3",
-        "at": "2026-07-28T01:35:00Z",
-        "i": "https://assets.pippa.io/shows/6860ebc2653df36e7b81252f/1786918203659-e6953644-3c9f-4db4-8617-c8a182b0c1a9.jpeg",
-        "t": "86)  خمرهای سرخ | پل پوت؛ پارت اول"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T01:30:00Z",
+        "i": "https://assets.pippa.io/shows/6860ebc2653df36e7b81252f/1794348682065-3fc44b49-e6d1-4b81-a491-39b3e2f48f80.jpeg",
+        "link": "https://majoonpod.ir",
+        "title": "94) بهرام گور | بهرام پنجم ساسانی"
+      },
       {
         "at": "2026-10-26T01:30:00Z",
         "i": "https://assets.pippa.io/shows/6860ebc2653df36e7b81252f/1792962387124-43ea7b5f-f9d1-4ba1-a591-9628580e2ba1.jpeg",
@@ -61826,12 +61832,6 @@
         "i": "https://assets.pippa.io/shows/6860ebc2653df36e7b81252f/1791928334809-9d626785-d3e1-4f2c-90cd-172a7210813b.jpeg",
         "link": "https://majoonpod.ir",
         "title": "92) رویای ایرانشهر بزرگ (2) | شاپور اول ساسانی"
-      },
-      {
-        "at": "2026-09-27T01:30:00Z",
-        "i": "https://assets.pippa.io/shows/6860ebc2653df36e7b81252f/1790458331253-871eb663-5a9b-4d8e-8f90-ac48eb2b7dc7.jpeg",
-        "link": "https://majoonpod.ir",
-        "title": "91) رویای ایرانشهر بزرگ (1) | اردشیر بابکان"
       }
     ],
     "recent_30d": [
@@ -61846,7 +61846,7 @@
       2,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -65559,19 +65559,25 @@
   "radio-hkait": {
     "avg_gap_days": 4.2,
     "avg_length": 34,
-    "episodes": 205,
-    "eps_365": 87,
-    "eps_90": 37,
+    "episodes": 206,
+    "eps_365": 88,
+    "eps_90": 38,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/e751144b-56a8-49be-bec9-7035ae7fd3ef/play.mp3?v=1",
-    "last_title": "ملت این در و آن در زدن - آرکادی آورچنکو",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/14f4feea-0e18-4155-8a32-9cfe9ec39dc6/play.mp3?v=1",
+    "last_title": "سقوط خانهُ آشر - بخش اول - ادگار آلن پو",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/14f4feea-0e18-4155-8a32-9cfe9ec39dc6/play.mp3?v=1",
+        "at": "2026-11-11T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/14f4feea-0e18-4155-8a32-9cfe9ec39dc6/artwork.jpg?v=1",
+        "t": "سقوط خانهُ آشر - بخش اول - ادگار آلن پو"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/e751144b-56a8-49be-bec9-7035ae7fd3ef/play.mp3?v=1",
         "at": "2026-11-10T01:30:00Z",
@@ -65613,15 +65619,15 @@
         "at": "2026-11-04T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ac97900b-3181-47f5-a509-808c967f7229/artwork.jpg?v=1",
         "t": "قطار ۵:۲۲ - جرج هارار"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/3c190c2d-cf69-4aa8-8daf-8c825474eee5/play.mp3?v=1",
-        "at": "2026-11-03T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/3c190c2d-cf69-4aa8-8daf-8c825474eee5/artwork.jpg?v=1",
-        "t": "انعکاس آفتاب بر تخته های بار انداز - جی دی سالینجر"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/14f4feea-0e18-4155-8a32-9cfe9ec39dc6/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/14f4feea-0e18-4155-8a32-9cfe9ec39dc6/play.mp3?v=1",
+        "title": "سقوط خانهُ آشر - بخش اول - ادگار آلن پو"
+      },
       {
         "at": "2026-11-10T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/e751144b-56a8-49be-bec9-7035ae7fd3ef/artwork.jpg?v=1",
@@ -65633,12 +65639,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ecb7ec77-49c2-4a15-93af-5a333b4d2ba8/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ecb7ec77-49c2-4a15-93af-5a333b4d2ba8/play.mp3?v=1",
         "title": "پیرو - گی دو موپوسان"
-      },
-      {
-        "at": "2026-11-08T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/20eb8c97-7261-46d1-b4e4-e404605a8767/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/20eb8c97-7261-46d1-b4e4-e404605a8767/play.mp3?v=1",
-        "title": "باردار - آنا گاوالدا"
       }
     ],
     "recent_30d": [
@@ -65653,7 +65653,7 @@
       8,
       9,
       8,
-      20
+      21
     ],
     "status": "active"
   },
