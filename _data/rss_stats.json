@@ -65747,20 +65747,25 @@
   },
   "radio-hosh": {
     "avg_gap_days": 0.5,
-    "avg_length": 17,
-    "episodes": 34,
-    "eps_365": 34,
-    "eps_90": 34,
+    "avg_length": 16,
+    "episodes": 35,
+    "eps_365": 35,
+    "eps_90": 35,
     "first_at": "2026-10-25",
     "first_year": 1405,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T17:13:31Z",
-    "last_link": "https://share.transistor.fm/s/578abd93",
-    "last_title": "‏‫OpenAI و Upwork: هوش مصنوعی چطور کار فریلنسری را تغییر می‌دهد‬",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T10:44:15Z",
+    "last_link": "https://share.transistor.fm/s/0c7f3c24",
+    "last_title": "‏‫انفجار هوش در ۲۰۲۷: به‌روزرسانی پیش‌بینی زمان‌بندی AI Futures‬",
     "max_length": 26,
-    "median_length": 17,
+    "median_length": 16,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://media.transistor.fm/0c7f3c24/673b4f2c.mp3",
+        "at": "2026-11-11T10:44:15Z",
+        "t": "‏‫انفجار هوش در ۲۰۲۷: به‌روزرسانی پیش‌بینی زمان‌بندی AI Futures‬"
+      },
       {
         "a": "https://media.transistor.fm/578abd93/b06e07f9.mp3",
         "at": "2026-11-10T17:13:31Z",
@@ -65795,14 +65800,14 @@
         "a": "https://media.transistor.fm/fab4cc23/37552978.mp3",
         "at": "2026-11-04T11:58:34Z",
         "t": "‏‫یورو دیجیتال و هوش مصنوعی: ECB پرداخت با AI agent را آزمایش می‌کند‬"
-      },
-      {
-        "a": "https://media.transistor.fm/31b011a5/49b479ac.mp3",
-        "at": "2026-11-04T11:18:31Z",
-        "t": "‏‫Siri در iOS 27.3: هوش مصنوعی اپل حالا داخل اپ‌های دیگر کار می‌کند‬"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T10:44:15Z",
+        "link": "https://share.transistor.fm/s/0c7f3c24",
+        "title": "‏‫انفجار هوش در ۲۰۲۷: به‌روزرسانی پیش‌بینی زمان‌بندی AI Futures‬"
+      },
       {
         "at": "2026-11-10T17:13:31Z",
         "link": "https://share.transistor.fm/s/578abd93",
@@ -65812,11 +65817,6 @@
         "at": "2026-11-09T16:10:20Z",
         "link": "https://share.transistor.fm/s/33442db6",
         "title": "‏‫Anthropic و اجزای حافظه در ایجنت‌های هوش مصنوعی‬"
-      },
-      {
-        "at": "2026-11-09T12:57:46Z",
-        "link": "https://share.transistor.fm/s/ad463496",
-        "title": "‏‫Nvidia: تحقیق هیئت مدیره درباره جنسن هوانگ و ادعای جاسوسی چین‬"
       }
     ],
     "recent_30d": [
@@ -65831,7 +65831,7 @@
       0,
       0,
       0,
-      34
+      35
     ],
     "status": "active"
   },
