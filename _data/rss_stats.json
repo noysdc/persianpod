@@ -58762,7 +58762,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       3,
       0,
       0,
@@ -59279,21 +59279,27 @@
     "status": "active"
   },
   "podcast-pzshki-srm-atlaaat": {
-    "avg_gap_days": 83.5,
+    "avg_gap_days": 72.6,
     "avg_length": 24,
-    "episodes": 92,
-    "eps_365": 5,
-    "eps_90": 1,
+    "episodes": 93,
+    "eps_365": 6,
+    "eps_90": 2,
     "first_at": "2019-08-05",
     "first_year": 1398,
-    "last": "1405/07/22",
-    "last_at": "2026-10-14T00:55:00Z",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T10:49:46Z",
     "last_link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
-    "last_title": "اپیزود هشتاد و نهم چرا دارو نیست؟",
+    "last_title": "اپیزود نودم: چرا در میانسالی چاق می شویم؟",
     "max_length": 70,
     "median_length": 21,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/audio/604486298d8421f4/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-11-11T10:49:46Z",
+        "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/604486298d8421f4/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "اپیزود نودم: چرا در میانسالی چاق می شویم؟"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/audio/15a5f715707ca433/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-10-14T00:55:00Z",
@@ -59335,15 +59341,15 @@
         "at": "2025-11-04T22:21:57Z",
         "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/dbfc0573626864f9/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "t": "اپیزود هشتاد و سوم استعداد یا دردسر"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/audio/781b4129f6aaea91/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2025-09-06T13:00:00Z",
-        "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/781b4129f6aaea91/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "t": "اپیزود هشتاد و دوم دور برگردون"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T10:49:46Z",
+        "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/604486298d8421f4/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
+        "title": "اپیزود نودم: چرا در میانسالی چاق می شویم؟"
+      },
       {
         "at": "2026-10-14T00:55:00Z",
         "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/15a5f715707ca433/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
@@ -59355,12 +59361,6 @@
         "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/fdbf345fa43989b1/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
         "title": "اپیزود هشتاد و هشتم چرا ز تن نمی رود ۲"
-      },
-      {
-        "at": "2025-11-28T14:55:02Z",
-        "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/086ce4fdadb117f9/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
-        "title": "اپیزود هشتاد و هفتم چرا ز تن نمی رود"
       }
     ],
     "recent_30d": [
@@ -59375,7 +59375,7 @@
       0,
       0,
       0,
-      1
+      2
     ],
     "status": "active"
   },
@@ -73336,8 +73336,8 @@
       }
     ],
     "recent_30d": [
-      20,
-      10,
+      21,
+      9,
       10,
       10,
       0,
