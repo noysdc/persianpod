@@ -58769,8 +58769,8 @@
       0,
       0,
       0,
-      2,
-      5,
+      3,
+      4,
       2,
       0,
       0,
@@ -63124,20 +63124,26 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.1,
-    "avg_length": 112,
-    "episodes": 113,
-    "eps_365": 113,
-    "eps_90": 113,
+    "avg_length": 111,
+    "episodes": 114,
+    "eps_365": 114,
+    "eps_90": 114,
     "first_at": "2026-11-01",
     "first_year": 1405,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T03:02:16Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nahavandi--Houshang-Part-6-e3s4a89",
-    "last_title": "Nahavandi, Houshang Part 6",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T03:07:53Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adl-Naficy--Ozma-Part-1-e3s6dsd",
+    "last_title": "Adl-Naficy, Ozma Part 1",
     "max_length": 134,
     "median_length": 116,
     "min_length": 20,
     "play": [
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129234253/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2F97a4189e-0398-c0d9-c672-3214ab2ca8cc.mp3",
+        "at": "2026-11-11T03:07:53Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794366426799-33c8c2ccedb0f.jpg",
+        "t": "Adl-Naficy, Ozma Part 1"
+      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/129165001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2F9da03938-8556-0e8e-51d5-c218a2c8fb8f.mp3",
         "at": "2026-11-10T03:02:16Z",
@@ -63179,15 +63185,15 @@
         "at": "2026-11-09T23:46:25Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794267933340-5be77f56dfc88.jpg",
         "t": "Ensha (Razavi), Fereshte"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129153873/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F838888cd-d14b-42e5-4a29-513e0a026065.mp3",
-        "at": "2026-11-09T22:52:43Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794264687923-287b726edbfe.jpg",
-        "t": "Amini, Nosratollah Part 7"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T03:07:53Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794366426799-33c8c2ccedb0f.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Adl-Naficy--Ozma-Part-1-e3s6dsd",
+        "title": "Adl-Naficy, Ozma Part 1"
+      },
       {
         "at": "2026-11-10T03:02:16Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794279670129-3834139f01b47.jpg",
@@ -63199,12 +63205,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794279594738-1ddb9f471b172.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nahavandi--Houshang-Part-5-e3s4a6n",
         "title": "Nahavandi, Houshang Part 5"
-      },
-      {
-        "at": "2026-11-10T02:59:34Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794279514914-73cfe377b586.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Nahavandi--Houshang-Part-4-e3s4a42",
-        "title": "Nahavandi, Houshang Part 4"
       }
     ],
     "recent_30d": [
@@ -63219,7 +63219,7 @@
       0,
       0,
       0,
-      113
+      114
     ],
     "status": "active"
   },
@@ -64472,25 +64472,19 @@
   "radio-dordane": {
     "avg_gap_days": 0.8,
     "avg_length": 18,
-    "episodes": 18,
-    "eps_365": 18,
-    "eps_90": 18,
+    "episodes": 17,
+    "eps_365": 17,
+    "eps_90": 17,
     "first_at": "2026-10-27",
     "first_year": 1405,
-    "last": "1405/08/20",
-    "last_at": "2026-11-11T05:26:38Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfipr",
-    "last_title": "چرا بعضی برنج‌ها بعد از پخت شفته می‌شوند؟ علت‌ها و راه‌های جلوگیری | رادیو دردانه",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T09:49:27Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfi82",
+    "last_title": "شپشک برنج از چی بدش میاد؟ ۷ روش جلوگیری از شپشک زدن برنج | رادیو دردانه",
     "max_length": 25,
     "median_length": 21,
     "min_length": 5,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/128485627/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F435500346-44100-2-a1deaa680ecb4.m4a",
-        "at": "2026-11-11T05:26:38Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1794064790443-a9a8aa602613d.jpg",
-        "t": "چرا بعضی برنج‌ها بعد از پخت شفته می‌شوند؟ علت‌ها و راه‌های جلوگیری | رادیو دردانه"
-      },
       {
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128485058/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F435499638-44100-2-2aa718525d37f.m4a",
         "at": "2026-11-10T09:49:27Z",
@@ -64532,15 +64526,15 @@
         "at": "2026-10-31T09:23:44Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184386488-33fa9bf0ea326.jpg",
         "t": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه"
+      },
+      {
+        "a": "https://anchor.fm/s/1193981e4/podcast/play/128258784/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435212300-44100-2-742e421307e42.m4a",
+        "at": "2026-10-31T07:11:54Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184507172-d0a506e65c68.jpg",
+        "t": "تفاوت برنج کشت اول و کشت دوم چیست؟ مقایسه عطر، کیفیت و قیمت | رادیو دردانه"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-11T05:26:38Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1794064790443-a9a8aa602613d.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfipr",
-        "title": "چرا بعضی برنج‌ها بعد از پخت شفته می‌شوند؟ علت‌ها و راه‌های جلوگیری | رادیو دردانه"
-      },
       {
         "at": "2026-11-10T09:49:27Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793438212487-307f129a5b2b3.jpg",
@@ -64552,6 +64546,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793437578288-32e3cbd83961f.jpg",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfh48",
         "title": "چرا برنج ایرانی بعد از پخت قد می‌کشد؟ راز دانه‌های کشیده و خوش‌پخت | رادیو دردانه"
+      },
+      {
+        "at": "2026-11-07T15:10:56Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793437452391-1b3494db459f2.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfh1c",
+        "title": "هر کیلو برنج برای چند نفر کافی است؟ محاسبه مقدار برنج برای مهمانی | رادیو دردانه"
       }
     ],
     "recent_30d": [
@@ -64566,7 +64566,7 @@
       0,
       0,
       0,
-      18
+      17
     ],
     "status": "active"
   },
@@ -79776,19 +79776,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4260,
-    "eps_365": 801,
-    "eps_90": 257,
+    "episodes": 4261,
+    "eps_365": 802,
+    "eps_90": 258,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/20",
-    "last_at": "2026-11-11T04:30:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af300248516e953281d0572",
-    "last_title": "قسمت چهار هزار و دویست و چهل و سه",
+    "last_at": "2026-11-11T06:30:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af3007271f47eaba62ffd7c",
+    "last_title": "قسمت چهار هزار و دویست و چهل و چهار",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6af3007271f47eaba62ffd7c/media.mp3",
+        "at": "2026-11-11T06:30:00Z",
+        "t": "قسمت چهار هزار و دویست و چهل و چهار"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6af300248516e953281d0572/media.mp3",
         "at": "2026-11-11T04:30:00Z",
@@ -79823,14 +79828,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6af062f59272884e57efc2ee/media.mp3",
         "at": "2026-11-08T15:30:00Z",
         "t": "قسمت چهار هزار و دویست و سی و هفت"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6af062a731e3e56d44efd050/media.mp3",
-        "at": "2026-11-08T12:30:00Z",
-        "t": "قسمت چهار هزار و دویست و سی و شش"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T06:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af3007271f47eaba62ffd7c",
+        "title": "قسمت چهار هزار و دویست و چهل و چهار"
+      },
       {
         "at": "2026-11-11T04:30:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af300248516e953281d0572",
@@ -79840,11 +79845,6 @@
         "at": "2026-11-10T17:30:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af2ff8d268f0de56a608fe5",
         "title": "قسمت چهار هزار و دویست و چهل و دو"
-      },
-      {
-        "at": "2026-11-10T15:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af2feefc2a93694e209aaea",
-        "title": "قسمت چهار هزار و دویست و چهل ویک"
       }
     ],
     "recent_30d": [
@@ -79859,7 +79859,7 @@
       85,
       103,
       87,
-      67
+      68
     ],
     "status": "active"
   },
