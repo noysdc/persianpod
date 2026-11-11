@@ -12492,21 +12492,27 @@
     "status": "inactive"
   },
   "danshgah-soti-chkidh-mandgar": {
-    "avg_gap_days": 5.6,
-    "avg_length": 43,
-    "episodes": 26,
-    "eps_365": 26,
-    "eps_90": 12,
+    "avg_gap_days": 5.9,
+    "avg_length": 44,
+    "episodes": 27,
+    "eps_365": 27,
+    "eps_90": 13,
     "first_at": "2026-06-10",
     "first_year": 1405,
-    "last": "1405/08/07",
-    "last_at": "2026-10-29T18:47:25Z",
-    "last_link": "https://omny.fm/shows/abstract/b6e019f9-fcd1-42d8-a7af-b4f20131aec9",
-    "last_title": "خلاصه کتاب راه بردگی، فردریش هایک در ۵۶ دقیقه",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T11:02:13Z",
+    "last_link": "https://omny.fm/shows/abstract/ccf15e51-bddb-4fb6-9f7c-b4ff00b2f563",
+    "last_title": "خلاصه کتاب فراجامعه، نوشته پیتر تورچین در ۶۳ دقیقه",
     "max_length": 70,
     "median_length": 46,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://traffic.omny.fm/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/ccf15e51-bddb-4fb6-9f7c-b4ff00b2f563/audio.mp3?utm_source=Podcast&in_playlist=9a743b9b-23ff-4f61-a709-b465007e39d7",
+        "at": "2026-11-11T11:02:13Z",
+        "i": "https://www.omnycontent.com/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/ccf15e51-bddb-4fb6-9f7c-b4ff00b2f563/image.jpg?t=1794394298&size=Large",
+        "t": "خلاصه کتاب فراجامعه، نوشته پیتر تورچین در ۶۳ دقیقه"
+      },
       {
         "a": "https://traffic.omny.fm/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/b6e019f9-fcd1-42d8-a7af-b4f20131aec9/audio.mp3?utm_source=Podcast&in_playlist=9a743b9b-23ff-4f61-a709-b465007e39d7",
         "at": "2026-10-29T18:47:25Z",
@@ -12548,15 +12554,15 @@
         "at": "2026-09-24T20:38:25Z",
         "i": "https://www.omnycontent.com/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/ac0db16e-e6b8-4d1d-9d98-b4cf01515d05/image.jpg?t=1790281701&size=Large",
         "t": "خلاصه کتاب تاریخ بی‌خردی: از تروا تا ویتنام، باربارا تاکمن"
-      },
-      {
-        "a": "https://traffic.omny.fm/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/79433301-af6d-4a33-ad20-b4c800e2ade9/audio.mp3?utm_source=Podcast&in_playlist=9a743b9b-23ff-4f61-a709-b465007e39d7",
-        "at": "2026-09-17T13:54:42Z",
-        "i": "https://www.omnycontent.com/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/79433301-af6d-4a33-ad20-b4c800e2ade9/image.jpg?t=1789652725&size=Large",
-        "t": "خلاصه کتاب ما چگونه ما شدیم، صادق زیباکلام"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T11:02:13Z",
+        "i": "https://www.omnycontent.com/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/ccf15e51-bddb-4fb6-9f7c-b4ff00b2f563/image.jpg?t=1794394298&size=Large",
+        "link": "https://omny.fm/shows/abstract/ccf15e51-bddb-4fb6-9f7c-b4ff00b2f563",
+        "title": "خلاصه کتاب فراجامعه، نوشته پیتر تورچین در ۶۳ دقیقه"
+      },
       {
         "at": "2026-10-29T18:47:25Z",
         "i": "https://www.omnycontent.com/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/b6e019f9-fcd1-42d8-a7af-b4f20131aec9/image.jpg?t=1793298780&size=Large",
@@ -12568,12 +12574,6 @@
         "i": "https://www.omnycontent.com/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/2e3b901b-1215-45ba-a4e1-b4ea01485fbe/image.jpg?t=1792612537&size=Large",
         "link": "https://omny.fm/shows/abstract/2e3b901b-1215-45ba-a4e1-b4ea01485fbe",
         "title": "خلاصه کتاب ظهور و افول قدرتهای بزرگ، نوشته: پل کندی"
-      },
-      {
-        "at": "2026-10-14T16:18:12Z",
-        "i": "https://www.omnycontent.com/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/91864069-229a-4fcc-bc7e-b4e30109f588/image.jpg?t=1791994102&size=Large",
-        "link": "https://omny.fm/shows/abstract/91864069-229a-4fcc-bc7e-b4e30109f588",
-        "title": "خلاصه صوتی کتاب ریشه‌های دیکتاتوری و دموکراسی، برینگتون مور در ۵۷ دقیقه"
       }
     ],
     "recent_30d": [
@@ -12588,7 +12588,7 @@
       3,
       3,
       6,
-      3
+      4
     ],
     "status": "active"
   },
@@ -26020,7 +26020,7 @@
     "avg_length": 32,
     "episodes": 280,
     "eps_365": 72,
-    "eps_90": 23,
+    "eps_90": 22,
     "first_at": "2020-04-27",
     "first_year": 1399,
     "last": "1405/08/18",
@@ -26109,8 +26109,8 @@
       1,
       4,
       5,
-      8,
-      6,
+      9,
+      5,
       9,
       8
     ],
@@ -59287,7 +59287,7 @@
     "first_at": "2019-08-05",
     "first_year": 1398,
     "last": "1405/08/20",
-    "last_at": "2026-11-11T10:49:46Z",
+    "last_at": "2026-11-11T10:49:00Z",
     "last_link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
     "last_title": "اپیزود نودم: چرا در میانسالی چاق می شویم؟",
     "max_length": 70,
@@ -59295,9 +59295,9 @@
     "min_length": 1,
     "play": [
       {
-        "a": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/audio/604486298d8421f4/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2026-11-11T10:49:46Z",
-        "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/604486298d8421f4/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "a": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/audio/1ef92b6e9bf7056e/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-11-11T10:49:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/1ef92b6e9bf7056e/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "t": "اپیزود نودم: چرا در میانسالی چاق می شویم؟"
       },
       {
@@ -59345,8 +59345,8 @@
     ],
     "recent": [
       {
-        "at": "2026-11-11T10:49:46Z",
-        "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/604486298d8421f4/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-11-11T10:49:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/1ef92b6e9bf7056e/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
         "title": "اپیزود نودم: چرا در میانسالی چاق می شویم؟"
       },
