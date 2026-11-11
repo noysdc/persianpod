@@ -16579,21 +16579,27 @@
     "status": "active"
   },
   "doxpodcast": {
-    "avg_gap_days": 20.2,
+    "avg_gap_days": 19.8,
     "avg_length": 68,
-    "episodes": 105,
-    "eps_365": 18,
-    "eps_90": 5,
+    "episodes": 106,
+    "eps_365": 19,
+    "eps_90": 6,
     "first_at": "2020-10-02",
     "first_year": 1399,
-    "last": "1405/08/06",
-    "last_at": "2026-10-28T04:00:00Z",
-    "last_link": "https://doxpodcast.com/episodes/kumare-guru/",
-    "last_title": "اپیزود صد و چهارم- کوماره، دنیای گوروها",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T04:00:00Z",
+    "last_link": "https://doxpodcast.com/episodes/hare-krishna-movement",
+    "last_title": "اپیزود صد و پنجم- هاره کریشنا",
     "max_length": 89,
     "median_length": 70,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/653820e8bc6f9000122c7492/e/6af3736eee158fb93831e6d7/media.mp3",
+        "at": "2026-11-11T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/653820e8bc6f9000122c7492/1794340661364-e77f1859-8acc-4b8c-b4ea-512238d7c175.jpeg",
+        "t": "اپیزود صد و پنجم- هاره کریشنا"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/653820e8bc6f9000122c7492/e/6adf649d8f6f9dc453ce361d/media.mp3",
         "at": "2026-10-28T04:00:00Z",
@@ -16635,15 +16641,15 @@
         "at": "2026-07-15T02:00:00Z",
         "i": "https://assets.pippa.io/shows/653820e8bc6f9000122c7492/1784055216146-403eb3d3-3312-40f3-b693-03d2223ce6e8.jpeg",
         "t": "اپیزود نود و هشتم- ورزش به سبک نروژی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/653820e8bc6f9000122c7492/e/6a4425a0e80d75fcb82150c8/media.mp3",
-        "at": "2026-07-01T03:30:00Z",
-        "i": "https://assets.pippa.io/shows/653820e8bc6f9000122c7492/1782851167216-59619366-05d7-46bc-a755-7f2d5313b3e6.jpeg",
-        "t": "اپیزود نود و هفتم- جاودانگی دیجیتال"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/653820e8bc6f9000122c7492/1794340661364-e77f1859-8acc-4b8c-b4ea-512238d7c175.jpeg",
+        "link": "https://doxpodcast.com/episodes/hare-krishna-movement",
+        "title": "اپیزود صد و پنجم- هاره کریشنا"
+      },
       {
         "at": "2026-10-28T04:00:00Z",
         "i": "https://assets.pippa.io/shows/653820e8bc6f9000122c7492/1793024933936-bbda9899-40cf-46e9-adcc-2c4ba6e66384.jpeg",
@@ -16655,12 +16661,6 @@
         "i": "https://assets.pippa.io/shows/653820e8bc6f9000122c7492/1791830766275-fa9e3f6b-0ec0-4a52-93d3-831e64dc0d52.jpeg",
         "link": "https://doxpodcast.com/episodes/womens-sports/",
         "title": "اپیزود صد و سوم - ورزش زنان، میدان مبارزه"
-      },
-      {
-        "at": "2026-09-23T03:00:00Z",
-        "i": "https://assets.pippa.io/shows/653820e8bc6f9000122c7492/1790109023980-ebfb609e-682d-4213-8a88-45f671757842.jpeg",
-        "link": "https://doxpodcast.com/episodes/episodes-iranian-caucasus-migrants/",
-        "title": "اپیزود صد و دوم- مهاجران قفقاز"
       }
     ],
     "recent_30d": [
@@ -16675,7 +16675,7 @@
       2,
       2,
       1,
-      2
+      3
     ],
     "status": "active"
   },
@@ -51409,7 +51409,7 @@
   },
   "podcast-farsi": {
     "avg_length": 4,
-    "episodes": 62,
+    "episodes": 63,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-06-23",
@@ -58880,20 +58880,26 @@
   },
   "podcast-prchm-sfid": {
     "avg_gap_days": 5.7,
-    "avg_length": 45,
-    "episodes": 179,
-    "eps_365": 63,
-    "eps_90": 23,
+    "avg_length": 46,
+    "episodes": 180,
+    "eps_365": 64,
+    "eps_90": 24,
     "first_at": "2018-11-17",
     "first_year": 1397,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T04:00:00Z",
-    "last_link": "https://shows.acast.com/white-flag-pdcst/episodes/6aeae6092d18c73dd5fad693",
-    "last_title": "تاریخ مرا تبرئه خواهد کرد - پرونده انقلاب کوبا - قسمت ۳",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T04:00:00Z",
+    "last_link": "https://shows.acast.com/white-flag-pdcst/episodes/6af0642031e3e56d44f099bb",
+    "last_title": "درس گواتمالا - پرونده انقلاب کوبا - قسمت ۴",
     "max_length": 102,
     "median_length": 41,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6af0642031e3e56d44f099bb/media.mp3",
+        "at": "2026-11-11T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1794138995368-6e6dea18-52ab-4421-b866-5dd3714634eb.jpeg",
+        "t": "درس گواتمالا - پرونده انقلاب کوبا - قسمت ۴"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6aeae6092d18c73dd5fad693/media.mp3",
         "at": "2026-11-08T04:00:00Z",
@@ -58935,15 +58941,15 @@
         "at": "2026-10-18T04:47:01Z",
         "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1792043346551-99f5d1e3-d974-483d-bab7-7974c54719e5.jpeg",
         "t": "بازگشت طالبان - پرونده جنگ افغانستان - قسمت ۱۳"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6ace48569fea6e0a64dd5630/media.mp3",
-        "at": "2026-10-14T04:00:00Z",
-        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1791903667316-8152dfed-d118-4d3d-b197-611725a3b35e.jpeg",
-        "t": "از تورا بورا تا کنفرانس بن - پرونده جنگ افغانستان - قسمت ۱۲"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1794138995368-6e6dea18-52ab-4421-b866-5dd3714634eb.jpeg",
+        "link": "https://shows.acast.com/white-flag-pdcst/episodes/6af0642031e3e56d44f099bb",
+        "title": "درس گواتمالا - پرونده انقلاب کوبا - قسمت ۴"
+      },
       {
         "at": "2026-11-08T04:00:00Z",
         "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1793779200607-d64221be-902f-4a49-b8fe-b5d1f41eacf9.jpeg",
@@ -58955,12 +58961,6 @@
         "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1793721921385-fbab0c65-5f2d-4762-9995-89bfd81b8d6c.jpeg",
         "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ae9f7c0b1966848f39455b1",
         "title": "مردم کوبا، بیدار شوید! - پرونده انقلاب کوبا - قسمت ۲"
-      },
-      {
-        "at": "2026-11-01T04:00:00Z",
-        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1793352814916-3bd2b501-4b23-4411-b049-5abbc972f80c.jpeg",
-        "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ae464dd53fe55e775bbbb09",
-        "title": "استقلالِ مشروط - پرونده انقلاب کوبا - قسمت ۱"
       }
     ],
     "recent_30d": [
@@ -58975,7 +58975,7 @@
       8,
       6,
       9,
-      8
+      9
     ],
     "status": "active"
   },
@@ -75626,10 +75626,10 @@
     "status": "active"
   },
   "shar-farsi-ba-aamr-ghoanini": {
-    "avg_gap_days": 16.5,
+    "avg_gap_days": 17.1,
     "avg_length": 2,
     "episodes": 103,
-    "eps_365": 23,
+    "eps_365": 22,
     "eps_90": 3,
     "first_at": "2025-07-13",
     "first_year": 1404,
