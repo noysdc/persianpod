@@ -2763,8 +2763,8 @@
       0,
       2,
       5,
-      3,
-      2
+      4,
+      1
     ],
     "status": "active"
   },
@@ -34325,19 +34325,25 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 21,
-    "episodes": 642,
-    "eps_365": 609,
+    "episodes": 643,
+    "eps_365": 610,
     "eps_90": 176,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/08/20",
-    "last_at": "2026-11-11T17:50:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6af4a4603709f3cff2483d36",
-    "last_title": "جزیره مرگ - بخش دهم",
+    "last_at": "2026-11-11T18:25:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6af4a5b03709f3cff248d30e",
+    "last_title": "جزیره مرگ - بخش یازدهم",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af4a5b03709f3cff248d30e/media.mp3",
+        "at": "2026-11-11T18:25:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794418023289-28639f43-5b00-4e83-80d2-698b95f3d563.jpeg",
+        "t": "جزیره مرگ - بخش یازدهم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af4a4603709f3cff2483d36/media.mp3",
         "at": "2026-11-11T17:50:00Z",
@@ -34379,15 +34385,15 @@
         "at": "2026-11-10T03:30:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794244331955-06198dbd-cbb6-4411-ab9f-aa39c7731028.jpeg",
         "t": "جزیره مرگ - بخش چهارم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af1febb0045eff641e657ce/media.mp3",
-        "at": "2026-11-09T17:59:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794244220975-1e77b62b-89f5-4f03-b23c-12ea7cb86125.jpeg",
-        "t": "جزیره مرگ - بخش سوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-11T18:25:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794418023289-28639f43-5b00-4e83-80d2-698b95f3d563.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6af4a5b03709f3cff248d30e",
+        "title": "جزیره مرگ - بخش یازدهم"
+      },
       {
         "at": "2026-11-11T17:50:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794417788332-0c98b9d9-a351-48af-94b3-f69242f44756.jpeg",
@@ -34399,27 +34405,21 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794401286633-03c91872-fd0f-4187-954c-9e6c13ef0915.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6af4a2863709f3cff246f8c1",
         "title": "جزیره مرگ - بخش نهم"
-      },
-      {
-        "at": "2026-11-10T17:05:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794319368778-8dc34b2a-4521-40d5-a91d-44482138c125.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6af32475e790ef6e1d444b57",
-        "title": "جزیره مرگ - بخش هشتم"
       }
     ],
     "recent_30d": [
       85,
       132,
-      44,
-      24,
+      45,
+      23,
       0,
       0,
       23,
-      61,
+      62,
       58,
-      59,
+      58,
       61,
-      56
+      57
     ],
     "status": "active"
   },
@@ -82555,8 +82555,8 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4263,
-    "eps_365": 802,
-    "eps_90": 259,
+    "eps_365": 801,
+    "eps_90": 258,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/20",
@@ -82627,15 +82627,15 @@
     ],
     "recent_30d": [
       113,
-      91,
-      55,
-      53,
+      90,
+      56,
+      52,
       0,
       3,
       21,
       101,
-      85,
-      102,
+      86,
+      101,
       87,
       70
     ],
@@ -85123,7 +85123,7 @@
     "avg_length": 11,
     "episodes": 44,
     "eps_365": 44,
-    "eps_90": 36,
+    "eps_90": 35,
     "first_at": "2026-08-06",
     "first_year": 1405,
     "last": "1405/08/11",
@@ -85212,9 +85212,9 @@
       0,
       0,
       0,
-      8,
+      9,
       27,
-      8,
+      7,
       1
     ],
     "status": "active"
