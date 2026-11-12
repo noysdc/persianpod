@@ -22147,7 +22147,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 9,
     "episodes": 249,
-    "eps_365": 180,
+    "eps_365": 179,
     "eps_90": 0,
     "first_at": "2020-10-17",
     "first_year": 1399,
@@ -22221,7 +22221,7 @@
       30,
       24,
       33,
-      32,
+      31,
       26,
       15,
       9,
@@ -60895,9 +60895,9 @@
       0,
       9,
       6,
-      3,
+      4,
       6,
-      8,
+      7,
       6,
       9,
       9
@@ -74014,21 +74014,27 @@
     "status": "active"
   },
   "rozanh-hai-tndrsti": {
-    "avg_gap_days": 1.0,
+    "avg_gap_days": 1.1,
     "avg_length": 18,
-    "episodes": 26,
-    "eps_365": 26,
-    "eps_90": 26,
+    "episodes": 27,
+    "eps_365": 27,
+    "eps_90": 27,
     "first_at": "2026-10-14",
     "first_year": 1405,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T03:00:00Z",
-    "last_link": "https://rss.com/podcasts/salamati/3280788",
-    "last_title": "تأثیر شگفت‌انگیز معنای زندگی بر ساعت بیولوژیک: راز ایکیگای در مهار پیری ژنتیکی",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T03:00:00Z",
+    "last_link": "https://rss.com/podcasts/salamati/3303306",
+    "last_title": "چرا غذای سالم بعد از جراحی روده خطرناک است؟ راهنمای تغذیه آرام برای گوارش حساس",
     "max_length": 30,
-    "median_length": 19,
+    "median_length": 18,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://content.rss.com/episodes/406068/3303306/salamati/2026_11_08_19_08_59_c3ee8b9f-92bd-4014-bd5a-8da0df3d13be.mp3",
+        "at": "2026-11-12T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261108_190849_7c33dbd2dd8adeb10e254c237ceee231.jpg",
+        "t": "چرا غذای سالم بعد از جراحی روده خطرناک است؟ راهنمای تغذیه آرام برای گوارش حساس"
+      },
       {
         "a": "https://content.rss.com/episodes/406068/3280788/salamati/2026_10_30_17_29_01_8659e50b-cde9-45db-9d17-fe32999f0fdb.mp3",
         "at": "2026-11-09T03:00:00Z",
@@ -74070,15 +74076,15 @@
         "at": "2026-11-03T03:00:00Z",
         "i": "https://media.rss.com/salamati/ep_cover_20261030_171804_de9c75fc6ee462d86d8ce0efbda44f1f.jpg",
         "t": "درمان آرتروز با تحرک و بازسازی غضروف: پمپ جادویی مفاصل در سنین بالای ۵۰ سال"
-      },
-      {
-        "a": "https://content.rss.com/episodes/406068/3275179/salamati/2026_10_28_21_16_12_c2f7de52-de09-4818-95d7-4b789dfb6520.mp3",
-        "at": "2026-11-02T03:00:00Z",
-        "i": "https://media.rss.com/salamati/ep_cover_20261028_211556_a1359f291ff95c8f4f51fbc0680921f6.jpg",
-        "t": "درمان دردهای مفصلی با اصلاح کدهای بیولوژیک: معجزه رژیم مدیترانه‌ای و مهار التهاب"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-12T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261108_190849_7c33dbd2dd8adeb10e254c237ceee231.jpg",
+        "link": "https://rss.com/podcasts/salamati/3303306",
+        "title": "چرا غذای سالم بعد از جراحی روده خطرناک است؟ راهنمای تغذیه آرام برای گوارش حساس"
+      },
       {
         "at": "2026-11-09T03:00:00Z",
         "i": "https://media.rss.com/salamati/ep_cover_20261030_172846_660c731bb5eec217b726a9ad462294e3.jpg",
@@ -74090,12 +74096,6 @@
         "i": "https://media.rss.com/salamati/ep_cover_20261030_172640_40c4132698b49190ef7fe29772064557.jpg",
         "link": "https://rss.com/podcasts/salamati/3280786",
         "title": "پیشگیری از زوال عقل با درمان کم‌شنوایی: نجات حافظه از فرسایش پنهان مغز"
-      },
-      {
-        "at": "2026-11-07T03:00:00Z",
-        "i": "https://media.rss.com/salamati/ep_cover_20261030_172456_a552e1a8e774906d1bb599b76cf09a9b.jpg",
-        "link": "https://rss.com/podcasts/salamati/3280779",
-        "title": "توقف تحلیل عضلات سالمندی: برتری تمرینات سرعتی و قدرتی روی صندلی"
       }
     ],
     "recent_30d": [
@@ -74110,7 +74110,7 @@
       0,
       0,
       0,
-      26
+      27
     ],
     "status": "active"
   },
