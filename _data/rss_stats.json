@@ -69998,8 +69998,8 @@
       }
     ],
     "recent_30d": [
-      8,
-      14,
+      9,
+      13,
       11,
       11,
       8,
@@ -84350,19 +84350,25 @@
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
     "avg_length": 22,
-    "episodes": 419,
-    "eps_365": 257,
-    "eps_90": 104,
+    "episodes": 420,
+    "eps_365": 258,
+    "eps_90": 105,
     "first_at": "2024-08-22",
     "first_year": 1403,
-    "last": "1405/08/20",
-    "last_at": "2026-11-11T11:50:13Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6af454c390e0e94801e8629c",
-    "last_title": "یک گوشه دنج، هزار دلیل برای لبخند 🍁☕ | موسیقی لوفای پاییزی برای حال خوب، سرزندگی و آرامش",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T06:53:43Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6af56279973efbd7c10b23ba",
+    "last_title": "مدیتیشن صبحگاهی ۱۰ دقیقه‌ای | ارتعاش مغناطیسی و نور درون",
     "max_length": 99,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af56279973efbd7c10b23ba/media.mp3",
+        "at": "2026-11-12T06:53:43Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794466066106-3607d1c8-d693-4419-bf01-c95710c637fa.jpeg",
+        "t": "مدیتیشن صبحگاهی ۱۰ دقیقه‌ای | ارتعاش مغناطیسی و نور درون"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af454c390e0e94801e8629c/media.mp3",
         "at": "2026-11-11T11:50:13Z",
@@ -84404,15 +84410,15 @@
         "at": "2026-10-28T07:04:22Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793171053504-0cad652e-d9ab-4e97-8847-c562b4eda0d9.jpeg",
         "t": "مدیتیشن ۵ دقیقه‌ای برای رهایی فوری و آرامش درون مدیتیشن"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6adc3d6602b9e3b259344b8d/media.mp3",
-        "at": "2026-10-28T06:41:03Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1792818446108-13de41ad-6e10-46df-bf24-906282a456bf.jpeg",
-        "t": "مدیتیشن | مدیتیشن جذب ثروت و فراوانی | افزایش انرژی پول"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-12T06:53:43Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794466066106-3607d1c8-d693-4419-bf01-c95710c637fa.jpeg",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6af56279973efbd7c10b23ba",
+        "title": "مدیتیشن صبحگاهی ۱۰ دقیقه‌ای | ارتعاش مغناطیسی و نور درون"
+      },
       {
         "at": "2026-11-11T11:50:13Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794397059981-f15e19b1-9a80-4754-9702-8c9e74345e74.jpeg",
@@ -84424,12 +84430,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794294336723-254c2c96-70a1-498e-a8b9-41086c4ce8c1.jpeg",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6af2c2fe71f47eaba61d3782",
         "title": "مدیتیشن |مدیتیشن ۵ دقیقه‌ای آرامش ذهن 🧘"
-      },
-      {
-        "at": "2026-11-08T09:16:51Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794129302059-ede3ac8d-e8fc-4265-837b-3e1e4d3c36a9.jpeg",
-        "link": "https://www.youtube.com/channel/UC3ZvaakuP5D1X1YuxJExM-A",
-        "title": "مدیتیشن مدار ثروت و فراوانی 💰 | جذب برکت مالی مدیتیشن"
       }
     ],
     "recent_30d": [
@@ -84444,7 +84444,7 @@
       24,
       43,
       38,
-      23
+      24
     ],
     "status": "active"
   },
