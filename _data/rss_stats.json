@@ -6979,8 +6979,8 @@
       2,
       0,
       2,
-      14,
-      1,
+      15,
+      0,
       1,
       0,
       0,
@@ -52540,21 +52540,27 @@
     "status": "active"
   },
   "podcast-dastani-mhrad-bzrgr": {
-    "avg_gap_days": 71.0,
+    "avg_gap_days": 65.2,
     "avg_length": 22,
-    "episodes": 53,
-    "eps_365": 5,
-    "eps_90": 1,
+    "episodes": 54,
+    "eps_365": 6,
+    "eps_90": 2,
     "first_at": "2025-04-02",
     "first_year": 1404,
-    "last": "1405/07/09",
-    "last_at": "2026-10-01T12:45:04Z",
-    "last_link": "https://shows.acast.com/dst-dstn-mhrd-bthrr/episodes/6abe55d0205819f3d7346721",
-    "last_title": "شهرستان نیکویی",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T13:47:11Z",
+    "last_link": "https://shows.acast.com/dst-dstn-mhrd-bthrr/episodes/6af5c360c9e5f91f9e7a2279",
+    "last_title": "مرزبان‌نامه به دو روایت",
     "max_length": 54,
     "median_length": 10,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/62661a168cf2d1001348d128/e/6af5c360c9e5f91f9e7a2279/media.mp3",
+        "at": "2026-11-12T13:47:11Z",
+        "i": "https://assets.pippa.io/shows/62661a168cf2d1001348d128/1794490815675-ff815524-7f13-4c46-b772-862edca65a1d.jpeg",
+        "t": "مرزبان‌نامه به دو روایت"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/62661a168cf2d1001348d128/e/6abe55d0205819f3d7346721/media.mp3",
         "at": "2026-10-01T12:45:04Z",
@@ -52596,15 +52602,15 @@
         "at": "2025-10-13T09:27:29Z",
         "i": "https://assets.pippa.io/shows/62661a168cf2d1001348d128/1760347058199-acd3e203-770e-410c-bcbd-92d986b8ad73.jpeg",
         "t": "داستان مناظره مرزبان و وزیر"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/62661a168cf2d1001348d128/e/68c90f3c22062501637ce7bb/media.mp3",
-        "at": "2025-09-16T07:18:20Z",
-        "i": "https://assets.pippa.io/shows/62661a168cf2d1001348d128/1758007078674-a3bbc6c0-4fc9-46b9-be3f-490de668c1df.jpeg",
-        "t": "داستان شهریار بابل و شهریار زاده"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-12T13:47:11Z",
+        "i": "https://assets.pippa.io/shows/62661a168cf2d1001348d128/1794490815675-ff815524-7f13-4c46-b772-862edca65a1d.jpeg",
+        "link": "https://shows.acast.com/dst-dstn-mhrd-bthrr/episodes/6af5c360c9e5f91f9e7a2279",
+        "title": "مرزبان‌نامه به دو روایت"
+      },
       {
         "at": "2026-10-01T12:45:04Z",
         "i": "https://assets.pippa.io/shows/62661a168cf2d1001348d128/1790858324866-2e2b7176-1a7b-4b5b-9020-78a1ce721dac.jpeg",
@@ -52616,12 +52622,6 @@
         "i": "https://assets.pippa.io/shows/62661a168cf2d1001348d128/1786694763893-bf93f87f-f4a0-4c32-9ba0-9bf0077e9ccb.jpeg",
         "link": "https://shows.acast.com/dst-dstn-mhrd-bthrr/episodes/6a7ed45e248fe5d9f8d9130f",
         "title": "داستانی تاریخی از اردشیر بابکان به چهار روایت"
-      },
-      {
-        "at": "2026-06-25T13:05:42Z",
-        "i": "https://assets.pippa.io/shows/62661a168cf2d1001348d128/1782392279954-83b7ae6f-c60b-4865-9714-198e42b43eca.jpeg",
-        "link": "https://shows.acast.com/dst-dstn-mhrd-bthrr/episodes/6a3d27a75116c2c9344e24f5",
-        "title": "داستانهای بزرگمهر حکیم"
       }
     ],
     "recent_30d": [
@@ -52636,7 +52636,7 @@
       1,
       0,
       1,
-      0
+      1
     ],
     "status": "active"
   },
