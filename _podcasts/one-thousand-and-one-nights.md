@@ -94,7 +94,7 @@ submitted: "2026-11-12T07:47:40.539Z"
 
 اگر می‌خواهید شب‌هایتان را با قصه‌های کهن شرقی پر کنید، از راه‌های زیر با هزار و یک شب همراه شوید:
 
-- [شنیدن هزار و یک شب در رابِت](https://rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b){:target="_blank" rel="noopener"}
+- [شنیدن هزار و یک شب در ربط هاست](https://rabt.host/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b){:target="_blank" rel="noopener"}
 - [شنیدن هزار و یک شب در کست‌باکس](https://castbox.fm/ch/7479715){:target="_blank" rel="noopener"}
 - [ایمیل هزار و یک شب](mailto:saeeid.hossinnezhad@gmail.com)
 - [تلگرام (برای تبلیغات و حمایت)](https://t.me/saeedhosseinnejad){:target="_blank" rel="noopener"}
