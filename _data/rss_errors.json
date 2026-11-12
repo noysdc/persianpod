@@ -47,10 +47,6 @@
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
   },
-  "dastan-soti-kodkan": {
-    "error": "ParseError: junk after document element: line 2, column 0",
-    "rss": "https://www.istgahekoodak.ir/category/childrens-audio-stories/feed/"
-  },
   "didar-ba-hafz": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/didarbahafez/feed.xml"
