@@ -75859,21 +75859,26 @@
     "status": "stopped"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.3,
+    "avg_gap_days": 4.2,
     "avg_length": 22,
-    "episodes": 494,
-    "eps_365": 86,
-    "eps_90": 34,
+    "episodes": 495,
+    "eps_365": 87,
+    "eps_90": 35,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/08/20",
-    "last_at": "2026-11-11T11:40:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/6pav8iyfvw/",
-    "last_title": "از هشدار والر تا جهش فیوچرز نزدک زیر سایه فشارهای تورمی",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T12:10:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/hlygjwtpta/",
+    "last_title": "از رکورد تازه سهام اروپا تا نگرانی وال‌استریت درباره انویدیا",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/hlygjwtpta/2026-11-12-12-43-03.mp3",
+        "at": "2026-11-12T12:10:00Z",
+        "t": "از رکورد تازه سهام اروپا تا نگرانی وال‌استریت درباره انویدیا"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/6pav8iyfvw/2026-11-11-11-47-21.mp3",
         "at": "2026-11-11T11:40:00Z",
@@ -75908,14 +75913,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/ljd0bmj542/2026-11-03-11-23-37.mp3",
         "at": "2026-11-03T11:10:00Z",
         "t": "بازارها در روز انتخابات آمریکا؛ بازگشت نفت و تداوم فشار بر سهام و طلا"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/7nso531fi6/2026-11-02-12-32-24.mp3",
-        "at": "2026-11-02T12:00:00Z",
-        "t": "انتخابات کنگره و گزارش اشتغال امریکا؛ کدام نتیجه بازار را غافلگیر می‌کند؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-12T12:10:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/hlygjwtpta/",
+        "title": "از رکورد تازه سهام اروپا تا نگرانی وال‌استریت درباره انویدیا"
+      },
       {
         "at": "2026-11-11T11:40:00Z",
         "link": "https://dotcast.org/p/bozvcayr/6pav8iyfvw/",
@@ -75925,11 +75930,6 @@
         "at": "2026-11-10T11:10:00Z",
         "link": "https://dotcast.org/p/bozvcayr/8n12669awh/",
         "title": "۲۵ یا ۵۰ واحد پایه؟ نگاه بازار به تورم هسته آمریکا در سایه صحبت‌های والر"
-      },
-      {
-        "at": "2026-11-09T11:50:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/4mte1e0wj7/",
-        "title": "نفت در انتظار دیدار ترامپ با نخست‌وزیر قطر"
       }
     ],
     "recent_30d": [
@@ -75944,7 +75944,7 @@
       0,
       0,
       13,
-      21
+      22
     ],
     "status": "active"
   },
