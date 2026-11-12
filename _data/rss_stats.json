@@ -14109,8 +14109,8 @@
       1,
       0,
       0,
-      5,
-      16,
+      6,
+      15,
       2,
       1,
       1,
@@ -37901,8 +37901,8 @@
       0,
       3,
       24,
-      18,
-      8
+      19,
+      7
     ],
     "status": "active"
   },
@@ -50761,8 +50761,8 @@
       0,
       0,
       0,
-      14,
-      6
+      15,
+      5
     ],
     "status": "active"
   },
@@ -52842,21 +52842,27 @@
     "status": "active"
   },
   "podcast-dndanpzshki-bistori": {
-    "avg_gap_days": 12.4,
-    "avg_length": 76,
-    "episodes": 137,
-    "eps_365": 29,
-    "eps_90": 12,
+    "avg_gap_days": 12.3,
+    "avg_length": 77,
+    "episodes": 138,
+    "eps_365": 30,
+    "eps_90": 13,
     "first_at": "2022-08-24",
     "first_year": 1401,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T19:25:44Z",
-    "last_link": "https://shows.acast.com/bistoori/episodes/bistoori131b",
-    "last_title": "بیستوری ۱۳۱| نازنین ادیبی بخش دوم: فرهنگ سازمانی در اشترومن خاورمیانه",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T17:20:45Z",
+    "last_link": "https://shows.acast.com/bistoori/episodes/bistoori132",
+    "last_title": "بیستوری ۱۳۲| فرید هاشم نژاد: دندانسازی؛ چالشهای امروز و چشم انداز فردا",
     "max_length": 141,
     "median_length": 71,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6302f99289c44f001281e16a/e/6af5f56e28531eda457ac979/media.mp3",
+        "at": "2026-11-12T17:20:45Z",
+        "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1794503850902-6c7822fe-2ec8-4d6b-a8dd-315197c3719f.jpeg",
+        "t": "بیستوری ۱۳۲| فرید هاشم نژاد: دندانسازی؛ چالشهای امروز و چشم انداز فردا"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6302f99289c44f001281e16a/e/6ae79238b478422f91ddc573/media.mp3",
         "at": "2026-11-01T19:25:44Z",
@@ -52898,15 +52904,15 @@
         "at": "2026-10-08T17:27:53Z",
         "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1791480388992-1b2913d7-9e29-416c-b7af-c60c1bfd4ddd.jpeg",
         "t": "بیستوری ۱۲۶| سروش صلواتیان بخش دوم: داستان تولد کچکک"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6302f99289c44f001281e16a/e/6ac3aa59ceaaaa9e66968043/media.mp3",
-        "at": "2026-10-05T13:47:05Z",
-        "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1791207892306-66cf13c2-657d-4497-8deb-055a551dada7.jpeg",
-        "t": "بیستوری ۱۲۶| سروش صلواتیان بخش اول: جازموریان [دیگر] تنها نیست"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-12T17:20:45Z",
+        "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1794503850902-6c7822fe-2ec8-4d6b-a8dd-315197c3719f.jpeg",
+        "link": "https://shows.acast.com/bistoori/episodes/bistoori132",
+        "title": "بیستوری ۱۳۲| فرید هاشم نژاد: دندانسازی؛ چالشهای امروز و چشم انداز فردا"
+      },
       {
         "at": "2026-11-01T19:25:44Z",
         "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1793560862877-a3e6a7e1-5440-4129-b121-003874816939.jpeg",
@@ -52918,12 +52924,6 @@
         "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1793560775055-d1d95527-8faf-40cd-a65d-7ee29ad629a1.jpeg",
         "link": "https://shows.acast.com/bistoori/episodes/bistoori131a",
         "title": "بیستوری ۱۳۱| نازنین ادیبی بخش اول: از مترجم مهرآرابن تا مدیرعامل اشترومن خاورمیانه"
-      },
-      {
-        "at": "2026-10-25T20:00:07Z",
-        "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1792958356575-167fcd55-ff7b-4bb9-b28d-bda6248d313d.jpeg",
-        "link": "https://shows.acast.com/bistoori/episodes/bistoori129",
-        "title": "بیستوری ۱۲۹| سپنج۲| پرونده دندانپزشکی در سینما"
       }
     ],
     "recent_30d": [
@@ -52938,7 +52938,7 @@
       3,
       3,
       3,
-      6
+      7
     ],
     "status": "active"
   },
@@ -58795,8 +58795,8 @@
       0,
       0,
       0,
-      3,
-      9,
+      4,
+      8,
       5,
       7,
       4
@@ -71195,8 +71195,8 @@
       2,
       10,
       1,
-      13,
-      7
+      15,
+      5
     ],
     "status": "active"
   },
@@ -75272,19 +75272,25 @@
   "sayeroshan": {
     "avg_gap_days": 7.4,
     "avg_length": 4,
-    "episodes": 16,
-    "eps_365": 16,
-    "eps_90": 10,
+    "episodes": 17,
+    "eps_365": 17,
+    "eps_90": 11,
     "first_at": "2026-07-17",
     "first_year": 1405,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T17:30:00Z",
-    "last_link": "https://rss.com/podcasts/sayehroshan/3292657",
-    "last_title": "کتاب فروشی قدیمی (کپسول زمان ورق ها و غبار)",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T17:30:00Z",
+    "last_link": "https://rss.com/podcasts/sayehroshan/3314531",
+    "last_title": "آسانسور (جعبه‌ی معلق سکوت های اجباری)",
     "max_length": 8,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://content.rss.com/episodes/394852/3314531/sayehroshan/2026_11_12_13_21_44_852051d5-f777-4244-9aaa-e1a664d15ce6.mp3",
+        "at": "2026-11-12T17:30:00Z",
+        "i": "https://media.rss.com/sayehroshan/ep_cover_20261112_132135_f8d91d886f46e91ee7c7010f09eba87e.jpg",
+        "t": "آسانسور (جعبه‌ی معلق سکوت های اجباری)"
+      },
       {
         "a": "https://content.rss.com/episodes/394852/3292657/sayehroshan/2026_11_04_07_55_23_36dea012-d5b9-46ef-bcea-78c614d85aed.mp3",
         "at": "2026-11-05T17:30:00Z",
@@ -75326,15 +75332,15 @@
         "at": "2026-09-10T17:30:00Z",
         "i": "https://media.rss.com/sayehroshan/ep_cover_20260906_180404_69cddde6d025c8e4cc18b667d839df81.jpg",
         "t": "گلدان کنج اتاق (هنر صبوری و ریشه ها)"
-      },
-      {
-        "a": "https://content.rss.com/episodes/394852/3107107/sayehroshan/2026_08_30_17_29_36_06ff3a65-6e67-4b20-8002-1ae291ef8b8b.mp3",
-        "at": "2026-09-03T17:30:00Z",
-        "i": "https://media.rss.com/sayehroshan/ep_cover_20260830_172930_141ff0f7176e95b400f1e645d3256b29.png",
-        "t": "قاب عکس (انجماد یک ثانیه)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-12T17:30:00Z",
+        "i": "https://media.rss.com/sayehroshan/ep_cover_20261112_132135_f8d91d886f46e91ee7c7010f09eba87e.jpg",
+        "link": "https://rss.com/podcasts/sayehroshan/3314531",
+        "title": "آسانسور (جعبه‌ی معلق سکوت های اجباری)"
+      },
       {
         "at": "2026-11-05T17:30:00Z",
         "i": "https://media.rss.com/sayehroshan/ep_cover_20261104_075514_ba915016b8e0a1c8f7cf72d95a84d050.jpg",
@@ -75346,12 +75352,6 @@
         "i": "https://media.rss.com/sayehroshan/ep_cover_20261029_154709_0b7de77e49ae88868553d5b6a6791e1b.jpg",
         "link": "https://rss.com/podcasts/sayehroshan/3277429",
         "title": "کافه دنج کنج خیابان (پناهگاه موقت غریبه ها)"
-      },
-      {
-        "at": "2026-10-22T17:30:00Z",
-        "i": "https://media.rss.com/sayehroshan/ep_cover_20261022_153900_64e9373822f7d4e819165a80eed8e3c5.jpg",
-        "link": "https://rss.com/podcasts/sayehroshan/3256987",
-        "title": "آشپزخانه در ساعت 3 صبح (پناهگاه بی خواب ها)"
       }
     ],
     "recent_30d": [
@@ -75366,7 +75366,7 @@
       6,
       4,
       2,
-      4
+      5
     ],
     "status": "active"
   },
@@ -77030,8 +77030,8 @@
     "recent_30d": [
       3,
       2,
-      0,
-      2,
+      1,
+      1,
       0,
       0,
       1,
@@ -81098,7 +81098,7 @@
     "avg_length": 53,
     "episodes": 430,
     "eps_365": 10,
-    "eps_90": 4,
+    "eps_90": 3,
     "first_at": "2019-06-26",
     "first_year": 1398,
     "last": "1405/08/11",
@@ -81186,8 +81186,8 @@
       0,
       0,
       0,
-      2,
-      1,
+      3,
+      0,
       1,
       2
     ],
@@ -82630,7 +82630,7 @@
     ],
     "recent_30d": [
       113,
-      87,
+      86,
       58,
       50,
       0,
