@@ -51771,20 +51771,26 @@
   },
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.8,
-    "avg_length": 19,
-    "episodes": 41,
-    "eps_365": 41,
-    "eps_90": 41,
+    "avg_length": 18,
+    "episodes": 42,
+    "eps_365": 42,
+    "eps_90": 42,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/20",
-    "last_at": "2026-11-11T15:50:52Z",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T18:48:03Z",
     "last_link": "https://furbodm.com/",
-    "last_title": "Disney #1 | دنیای کارتون و انیمیشن قبل از دیزنی چه شکلی بود؟",
+    "last_title": "Disney #2 | اولین انیمیشن دیزنی که به سالن‌های سینما رفت چی بود؟",
     "max_length": 115,
     "median_length": 21,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af609e405dc66c15db8ecb0/media.mp3",
+        "at": "2026-11-12T18:48:03Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794509191116-4d20860c-074f-46ba-9b6d-d4caf11f5382.jpeg",
+        "t": "Disney #2 | اولین انیمیشن دیزنی که به سالن‌های سینما رفت چی بود؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af48edd3709f3cff23b9d85/media.mp3",
         "at": "2026-11-11T15:50:52Z",
@@ -51826,15 +51832,15 @@
         "at": "2026-11-03T11:29:07Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793705204610-6f01c690-513a-46a2-a2d7-6dc0258e9d3e.jpeg",
         "t": "NETFLIX #9 | چرا نت‌فلیکس همه قسمت‌های فصل سریال رو یک‌جا منتشر می‌کنه؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae78539043d1c282f434ecf/media.mp3",
-        "at": "2026-11-01T18:30:17Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793557613103-1b043e7f-af98-4dab-a966-f2d46ff10cb3.jpeg",
-        "t": "NETFLIX #8 | چرا نت‌فلیکس به سمت تولید فیلم و سریال اختصاصی رفت؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-12T18:48:03Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794509191116-4d20860c-074f-46ba-9b6d-d4caf11f5382.jpeg",
+        "link": "https://furbodm.com/",
+        "title": "Disney #2 | اولین انیمیشن دیزنی که به سالن‌های سینما رفت چی بود؟"
+      },
       {
         "at": "2026-11-11T15:50:52Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794412151410-14b7b211-3c22-4b76-8b6c-15948ca0d938.jpeg",
@@ -51846,12 +51852,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794322140453-2157de57-8ff9-4ff8-b67f-364f6b256299.jpeg",
         "link": "https://furbodm.com/",
         "title": "Disney #0 | فصل سوم پادکست بیزینس استوریز؛ والت دیزنی"
-      },
-      {
-        "at": "2026-11-07T14:23:08Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794061249310-458e4d45-c371-4e84-a20f-459f0b07643d.jpeg",
-        "link": "https://shows.acast.com/business-stories-podcast/episodes/6aef344c97f44ee2483db1b5",
-        "title": "چطوری پادکست بیزینس استوریز توی هفت روز به درآمدزایی رسید؟ | پروژه پادکست"
       }
     ],
     "recent_30d": [
@@ -51866,7 +51866,7 @@
       0,
       0,
       1,
-      40
+      41
     ],
     "status": "active"
   },
@@ -62270,8 +62270,8 @@
       7,
       5,
       12,
-      9,
-      7,
+      10,
+      6,
       4,
       3,
       3,
@@ -82629,8 +82629,8 @@
       }
     ],
     "recent_30d": [
-      113,
-      86,
+      114,
+      85,
       60,
       48,
       0,
