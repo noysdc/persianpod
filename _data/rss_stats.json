@@ -17642,20 +17642,26 @@
     "status": "stopped"
   },
   "dorh-antghadi-tarikh-flsfh-ghrb": {
-    "avg_length": 85,
-    "episodes": 45,
-    "eps_365": 0,
-    "eps_90": 0,
+    "avg_length": 83,
+    "episodes": 46,
+    "eps_365": 1,
+    "eps_90": 1,
     "first_at": "2022-06-14",
     "first_year": 1401,
-    "last": "1403/11/14",
-    "last_at": "2025-02-02T10:08:19Z",
-    "last_link": "https://academyshamseh.com",
-    "last_title": "فایل صوتی نشست اینک رهایی",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T11:13:29Z",
+    "last_link": "https://academyshamseh.com/",
+    "last_title": "مدرسه عالی زبان‌های باستانی آکادمی شمسه",
     "max_length": 131,
-    "median_length": 84,
+    "median_length": 83,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/62a8746d04bdd2001177fa37/e/6af59f59fa6439256339fb4e/media.mp3",
+        "at": "2026-11-12T11:13:29Z",
+        "i": "https://assets.pippa.io/shows/62a8746d04bdd2001177fa37/1794481889050-1c3e1747-9eb4-44ff-9997-6da5969e6dfa.jpeg",
+        "t": "مدرسه عالی زبان‌های باستانی آکادمی شمسه"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/62a8746d04bdd2001177fa37/e/679f441290375a81fe998073/media.mp3",
         "at": "2025-02-02T10:08:19Z",
@@ -17696,15 +17702,15 @@
         "at": "2022-07-21T06:18:37Z",
         "i": "https://assets.pippa.io/shows/62a8746d04bdd2001177fa37/1658384167614-f6843f5cfbfd517755232adff031e740.jpeg",
         "t": "ترم هشتم | جلسه 2 | کانت و متافیزیک: انقلاب یا ضد انقلاب | دکتر محمد مهدی اردبیلی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/62a8746d04bdd2001177fa37/e/62d8eeeb62d8c5001182af74/media.mp3",
-        "at": "2022-07-21T06:15:07Z",
-        "i": "https://assets.pippa.io/shows/62a8746d04bdd2001177fa37/1658384090841-b329a252b2add61c3421417d546cb501.jpeg",
-        "t": "ترم هشتم | جلسه 1 | کانت و متافیزیک: انقلاب یا ضد انقلاب | دکتر محمد مهدی اردبیلی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-12T11:13:29Z",
+        "i": "https://assets.pippa.io/shows/62a8746d04bdd2001177fa37/1794481889050-1c3e1747-9eb4-44ff-9997-6da5969e6dfa.jpeg",
+        "link": "https://academyshamseh.com/",
+        "title": "مدرسه عالی زبان‌های باستانی آکادمی شمسه"
+      },
       {
         "at": "2025-02-02T10:08:19Z",
         "i": "https://assets.pippa.io/shows/62a8746d04bdd2001177fa37/1738490711670-3031496c-c19c-40a0-ace1-710247d5e859.jpeg",
@@ -17716,11 +17722,6 @@
         "i": "https://assets.pippa.io/shows/62a8746d04bdd2001177fa37/1668073128521-ea3662e6c45a9f442326e7556d37a3f8.jpeg",
         "link": "https://shows.acast.com/626661519b00b300123894d4",
         "title": "درباره درسگفتارهای آکادمی شمسه"
-      },
-      {
-        "at": "2022-07-21T06:28:23Z",
-        "link": "https://academyshamseh.com",
-        "title": "ترم هشتم | جلسه 6 | کانت و متافیزیک: انقلاب یا ضد انقلاب | دکتر محمد مهدی اردبیلی"
       }
     ],
     "recent_30d": [
@@ -17735,7 +17736,7 @@
       0,
       0,
       0,
-      0
+      1
     ],
     "status": "active"
   },
@@ -56066,7 +56067,7 @@
         "t": "فصل6| قسمت18: وای چقدر غیرتی‌ام روت"
       },
       {
-        "a": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/b29c9f5a-7427-4132-a0da-4910eebbd6bf/play.mp3?v=2",
+        "a": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/b29c9f5a-7427-4132-a0da-4910eebbd6bf/play.mp3?v=3",
         "at": "2025-12-16T13:10:44Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/b29c9f5a-7427-4132-a0da-4910eebbd6bf/artwork.jpg?v=1",
         "t": "فصل6| قسمت17: یالا بزن تو دنده!"
@@ -75942,8 +75943,8 @@
       0,
       0,
       0,
-      12,
-      22
+      13,
+      21
     ],
     "status": "active"
   },
