@@ -163,9 +163,17 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
+  "shst-namh": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://tehranpodcast.ir/category/shastnameh/feed/"
+  },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://ronakottawa.com/feed/podcast/zaban-o-adabiyat/"
+  },
+  "zhn-hai-nahshiar": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "rss": "https://tehranpodcast.ir/category/mindsoftheunconscious/feed/"
   },
   "zmin-o-zman": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
