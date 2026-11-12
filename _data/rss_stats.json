@@ -22818,8 +22818,8 @@
       0,
       0,
       1,
-      0,
       1,
+      0,
       0
     ],
     "status": "active"
@@ -56015,10 +56015,10 @@
     "status": "active"
   },
   "podcast-fotbali-fotbal-trapi": {
-    "avg_gap_days": 25.9,
-    "avg_length": 72,
-    "episodes": 108,
-    "eps_365": 15,
+    "avg_gap_days": 24.2,
+    "avg_length": 71,
+    "episodes": 109,
+    "eps_365": 16,
     "eps_90": 5,
     "first_at": "2024-04-05",
     "first_year": 1403,
@@ -56061,6 +56061,12 @@
         "t": "فصل7| قسمت1: سقوط دستاوردها: آیا پرمیرلیگ جرات مجازات سنگین سیتی را دارد؟"
       },
       {
+        "a": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/8611210f-108f-41c7-97e3-0c6eb14afcf5/play.mp3?v=1",
+        "at": "2025-12-30T09:10:19Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/8611210f-108f-41c7-97e3-0c6eb14afcf5/artwork.jpg?v=2",
+        "t": "فصل6| قسمت19: ولووز، فلسفه و صمد مرفاوی"
+      },
+      {
         "a": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/afcf1bbc-7929-4ce8-8c8c-d122e8adae74/play.mp3?v=1",
         "at": "2025-12-23T10:57:46Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/afcf1bbc-7929-4ce8-8c8c-d122e8adae74/artwork.jpg?v=1",
@@ -56071,12 +56077,6 @@
         "at": "2025-12-16T13:10:44Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/b29c9f5a-7427-4132-a0da-4910eebbd6bf/artwork.jpg?v=1",
         "t": "فصل6| قسمت17: یالا بزن تو دنده!"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/c2827192-6737-4815-bcc6-9738735896ed/play.mp3?v=3",
-        "at": "2025-12-08T10:27:03Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/c2827192-6737-4815-bcc6-9738735896ed/artwork.jpg?v=1",
-        "t": "فصل6| قسمت16: حالا هرچی به صلاحه!"
       }
     ],
     "recent": [
@@ -56101,7 +56101,7 @@
     ],
     "recent_30d": [
       8,
-      1,
+      2,
       0,
       0,
       0,
