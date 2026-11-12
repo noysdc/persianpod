@@ -16230,8 +16230,8 @@
       0,
       2,
       3,
-      2,
-      2,
+      3,
+      1,
       1,
       1,
       1
@@ -27271,7 +27271,7 @@
     "avg_gap_days": 5.1,
     "avg_length": 32,
     "episodes": 280,
-    "eps_365": 72,
+    "eps_365": 71,
     "eps_90": 22,
     "first_at": "2020-04-27",
     "first_year": 1399,
@@ -70808,21 +70808,27 @@
     "status": "stopped"
   },
   "radiocrime-padkst-jnaii-radio-kraim": {
-    "avg_gap_days": 14.0,
-    "avg_length": 36,
-    "episodes": 85,
-    "eps_365": 24,
-    "eps_90": 16,
+    "avg_gap_days": 13.6,
+    "avg_length": 38,
+    "episodes": 86,
+    "eps_365": 25,
+    "eps_90": 17,
     "first_at": "2024-07-04",
     "first_year": 1403,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T15:30:07Z",
-    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9c5074a96cc5a4aa5f20",
-    "last_title": "قتل کالین اسلمر | قاتلش خیال مردن نداره!",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T15:39:51Z",
+    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6af5ddc7d397467e34e76670",
+    "last_title": "دوستی مرگبار | راز مرگ کیسی تری و دروغ‌های مگان ساندوال",
     "max_length": 78,
     "median_length": 14,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6af5ddc7d397467e34e76670/media.mp3",
+        "at": "2026-11-12T15:39:51Z",
+        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1794497787424-d2b585b2-854e-4c09-a1e0-ee71f805b522.jpeg",
+        "t": "دوستی مرگبار | راز مرگ کیسی تری و دروغ‌های مگان ساندوال"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6aec9c5074a96cc5a4aa5f20/media.mp3",
         "at": "2026-11-09T15:30:07Z",
@@ -70864,15 +70870,15 @@
         "at": "2026-10-19T15:30:00Z",
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1792368334660-299c521b-3fcc-4ba9-8706-4be39d3d76ee.jpeg",
         "t": "مرگ لاکیشا تامپسون؛ تناقض‌هایی که خانواده را رها نمی‌کنند"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6ad0f6a8e53019e890c5487b/media.mp3",
-        "at": "2026-10-15T15:52:06Z",
-        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1792077875883-ecfca3d0-5770-4255-b949-b782db5e5bd8.jpeg",
-        "t": "پشت درهای بسته‌ی خانه‌ی وحشت چه می‌گذشت؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-12T15:39:51Z",
+        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1794497787424-d2b585b2-854e-4c09-a1e0-ee71f805b522.jpeg",
+        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6af5ddc7d397467e34e76670",
+        "title": "دوستی مرگبار | راز مرگ کیسی تری و دروغ‌های مگان ساندوال"
+      },
       {
         "at": "2026-11-09T15:30:07Z",
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891234592-a13fb613-3891-4512-b494-7084c04ee18c.jpeg",
@@ -70884,12 +70890,6 @@
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891711122-7af11282-3cc5-48bb-bf1d-a2e4940c9dcf.jpeg",
         "link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9eb63be80be7f3a4ac4c",
         "title": "پرونده حل‌نشده گرگوری کیث؛ مردی که بدون هیچ ردی ناپدید شد"
-      },
-      {
-        "at": "2026-11-05T15:05:55Z",
-        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793890480006-6d10ab39-804a-4eb0-aec4-5303ace88c61.jpeg",
-        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9b5574a96cc5a4a9e587",
-        "title": "۷ دانشجو، یک پرونده جنجالی؛ رسوایی جنسی دانشگاه کرنل"
       }
     ],
     "recent_30d": [
@@ -70904,7 +70904,7 @@
       3,
       3,
       5,
-      8
+      9
     ],
     "status": "active"
   },
