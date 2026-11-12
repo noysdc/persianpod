@@ -49790,21 +49790,26 @@
     "status": "active"
   },
   "podcast-aamozsh-zban-anglisi-ataii-aanlain": {
-    "avg_gap_days": 27.2,
+    "avg_gap_days": 25.9,
     "avg_length": 16,
-    "episodes": 101,
-    "eps_365": 14,
-    "eps_90": 4,
+    "episodes": 102,
+    "eps_365": 15,
+    "eps_90": 5,
     "first_at": "2022-12-18",
     "first_year": 1401,
-    "last": "1405/08/11",
-    "last_at": "2026-11-02T14:30:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/99---e3rjkpa",
-    "last_title": "#99 - دوازده اصطلاح انگلیسی با عدد صفر برای تقویت مکالمه",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T14:02:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/100---e3s8m4j",
+    "last_title": "#100 - ده اصطلاح محاوره ای انگلیسی با عدد یک",
     "max_length": 43,
     "median_length": 18,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://anchor.fm/s/17433084/podcast/play/129308243/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-12%2F436555432-44100-2-e3687f648c93c.mp3",
+        "at": "2026-11-12T14:02:00Z",
+        "t": "#100 - ده اصطلاح محاوره ای انگلیسی با عدد یک"
+      },
       {
         "a": "https://anchor.fm/s/17433084/podcast/play/128618730/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F435667937-44100-2-18249ac829c5f.mp3",
         "at": "2026-11-02T14:30:00Z",
@@ -49839,14 +49844,14 @@
         "a": "https://anchor.fm/s/17433084/podcast/play/120654074/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-28%2F425040161-44100-2-a62d6867fa9be.mp3",
         "at": "2026-05-28T13:03:00Z",
         "t": "#93 - مکالمه انگلیسی درباره کلاس کسل کننده"
-      },
-      {
-        "a": "https://anchor.fm/s/17433084/podcast/play/113113440/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-25%2F414999365-44100-2-8b2527241efaf.mp3",
-        "at": "2025-12-26T05:44:00Z",
-        "t": "#92 - آموزش مکالمه انگلیسی در پمپ بنزین"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-12T14:02:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/100---e3s8m4j",
+        "title": "#100 - ده اصطلاح محاوره ای انگلیسی با عدد یک"
+      },
       {
         "at": "2026-11-02T14:30:00Z",
         "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/99---e3rjkpa",
@@ -49856,11 +49861,6 @@
         "at": "2026-09-03T13:51:36Z",
         "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/98---e3o9s5s",
         "title": "#98 - مجموعه شماره ۷ از ۳۰ درس کوتاه زبان انگلیسی"
-      },
-      {
-        "at": "2026-08-24T14:00:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/97---e3nqn24",
-        "title": "#97 - مکالمه انگلیسی با موضوع سرما خوردگی"
       }
     ],
     "recent_30d": [
@@ -49875,7 +49875,7 @@
       0,
       3,
       0,
-      1
+      2
     ],
     "status": "active"
   },
@@ -82559,7 +82559,7 @@
     "avg_length": 10,
     "episodes": 4263,
     "eps_365": 800,
-    "eps_90": 256,
+    "eps_90": 255,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/20",
@@ -82637,8 +82637,8 @@
       3,
       21,
       105,
-      84,
-      103,
+      85,
+      102,
       83,
       70
     ],
