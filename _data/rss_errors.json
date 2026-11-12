@@ -135,6 +135,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/2e6e9794/podcast/rss"
   },
+  "radio-nmana": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://tehranpodcast.ir/category/nmana/feed/"
+  },
   "radio-tion": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/tune/feed/"
