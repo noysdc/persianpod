@@ -111,13 +111,29 @@
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
+  "podcast-jnaii-mkhtomh": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://feed.dotcast.org/p/oi8pbwpr/feed.xml"
+  },
   "podcast-khakstri-roan": {
-    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
     "rss": "https://feed.dotcast.org/p/1orxtms6/feed.xml"
+  },
+  "podcast-khrghh": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://feed.dotcast.org/p/7nmh50se/feed.xml"
   },
   "podcast-obmstr-plas": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://webmasterplus.ir/feed/"
+  },
+  "podcast-roanshnasi-saikodid": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://feed.dotcast.org/p/ybxaq83v/feed.xml"
+  },
+  "podcast-roanshnasi-saikopad": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://feed.dotcast.org/p/lu8pm6lt/feed.xml"
   },
   "pzhoak-mahor": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -162,6 +178,14 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
+  },
+  "sdai-bazar": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://feed.dotcast.org/p/bozvcayr/feed.xml"
+  },
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
