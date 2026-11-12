@@ -53735,10 +53735,10 @@
     "status": "active"
   },
   "podcast-farsi-fikshn-fiction-podcast": {
-    "avg_gap_days": 13.4,
+    "avg_gap_days": 13.7,
     "avg_length": 44,
     "episodes": 236,
-    "eps_365": 28,
+    "eps_365": 27,
     "eps_90": 13,
     "first_at": "2019-07-06",
     "first_year": 1398,
@@ -53820,8 +53820,8 @@
       }
     ],
     "recent_30d": [
-      4,
-      4,
+      5,
+      3,
       0,
       1,
       0,
@@ -67771,21 +67771,27 @@
     "status": "active"
   },
   "radio-hkait": {
-    "avg_gap_days": 4.2,
+    "avg_gap_days": 4.1,
     "avg_length": 34,
-    "episodes": 206,
-    "eps_365": 88,
-    "eps_90": 38,
+    "episodes": 207,
+    "eps_365": 89,
+    "eps_90": 39,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/08/20",
-    "last_at": "2026-11-11T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/14f4feea-0e18-4155-8a32-9cfe9ec39dc6/play.mp3?v=1",
-    "last_title": "سقوط خانهُ آشر - بخش اول - ادگار آلن پو",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/b8f4a61e-e595-43b8-96b0-30224ebf7f64/play.mp3?v=1",
+    "last_title": "سقوط خانهُ آشر - بخش دوم - ادگار آلن پو",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/b8f4a61e-e595-43b8-96b0-30224ebf7f64/play.mp3?v=1",
+        "at": "2026-11-12T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/b8f4a61e-e595-43b8-96b0-30224ebf7f64/artwork.jpg?v=1",
+        "t": "سقوط خانهُ آشر - بخش دوم - ادگار آلن پو"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/14f4feea-0e18-4155-8a32-9cfe9ec39dc6/play.mp3?v=1",
         "at": "2026-11-11T01:30:00Z",
@@ -67827,15 +67833,15 @@
         "at": "2026-11-05T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/f0210190-7d1d-4ba9-833d-62823c00bf77/artwork.jpg?v=1",
         "t": "مسابقه - ناهید طباطبایی"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ac97900b-3181-47f5-a509-808c967f7229/play.mp3?v=1",
-        "at": "2026-11-04T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ac97900b-3181-47f5-a509-808c967f7229/artwork.jpg?v=1",
-        "t": "قطار ۵:۲۲ - جرج هارار"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-12T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/b8f4a61e-e595-43b8-96b0-30224ebf7f64/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/b8f4a61e-e595-43b8-96b0-30224ebf7f64/play.mp3?v=1",
+        "title": "سقوط خانهُ آشر - بخش دوم - ادگار آلن پو"
+      },
       {
         "at": "2026-11-11T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/14f4feea-0e18-4155-8a32-9cfe9ec39dc6/artwork.jpg?v=1",
@@ -67847,26 +67853,20 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/e751144b-56a8-49be-bec9-7035ae7fd3ef/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/e751144b-56a8-49be-bec9-7035ae7fd3ef/play.mp3?v=1",
         "title": "ملت این در و آن در زدن - آرکادی آورچنکو"
-      },
-      {
-        "at": "2026-11-09T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ecb7ec77-49c2-4a15-93af-5a333b4d2ba8/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ecb7ec77-49c2-4a15-93af-5a333b4d2ba8/play.mp3?v=1",
-        "title": "پیرو - گی دو موپوسان"
       }
     ],
     "recent_30d": [
       9,
       6,
+      6,
       5,
-      6,
       0,
       0,
       6,
       9,
       8,
       9,
-      8,
+      9,
       21
     ],
     "status": "active"
@@ -84441,8 +84441,8 @@
       10,
       10,
       24,
-      41,
-      40,
+      42,
+      39,
       23
     ],
     "status": "active"
