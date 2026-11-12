@@ -13178,8 +13178,8 @@
       1,
       0,
       0,
-      0,
-      2,
+      1,
+      1,
       0,
       0,
       0,
@@ -47734,8 +47734,8 @@
       0,
       0,
       2,
-      0,
       1,
+      0,
       2
     ],
     "status": "active"
@@ -63283,7 +63283,7 @@
     "last": "1405/08/18",
     "last_at": "2026-11-09T02:30:00Z",
     "last_link": "https://share.transistor.fm/s/198cab67",
-    "last_title": "نقش فعال جامعه بهائی در روند تدوین اعلامیه جهانی حقوق بشر ۱۹۴۶ - ۱۹۴۸- بخش۲",
+    "last_title": "نقش جامعه بهائی در تدوین «اعلامیه جهانی حقوق بشر» ۱۹۴۶ - ۱۹۴۸ (بخش ۲)",
     "max_length": 45,
     "median_length": 13,
     "min_length": 8,
@@ -63292,13 +63292,13 @@
         "a": "https://media.transistor.fm/198cab67/b328df62.mp3",
         "at": "2026-11-09T02:30:00Z",
         "i": "https://img.transistorcdn.com/aWPMNtfUrRVHez7j4Eg2ftGmXPIQOCiyZYmn5EsNdvA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wYzA5/NDI4ZmQ3OTA0MTYw/NDYwYjE5OTA2OGVm/MGVjZi5qcGc.jpg",
-        "t": "نقش فعال جامعه بهائی در روند تدوین اعلامیه جهانی حقوق بشر ۱۹۴۶ - ۱۹۴۸- بخش۲"
+        "t": "نقش جامعه بهائی در تدوین «اعلامیه جهانی حقوق بشر» ۱۹۴۶ - ۱۹۴۸ (بخش ۲)"
       },
       {
         "a": "https://media.transistor.fm/ca8945fd/9a3594bc.mp3",
         "at": "2026-11-02T02:30:00Z",
         "i": "https://img.transistorcdn.com/jofJCFxUcFjfCMMAz5nMLmxyNF0jeIpr_dIGtXmbyD8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS85MGQ5/YTRmZmVkNjNkNWUx/YTI0YTM2ZTI5NDUy/ODdiYi5qcGc.jpg",
-        "t": "نقش فعال جامعه بهائی در روند تدوین «اعلامیه جهانی حقوق بشر» ۱۹۴۶ - ۱۹۴۸- قسمت۱"
+        "t": "نقش جامعه بهائی در تدوین «اعلامیه جهانی حقوق بشر» ۱۹۴۶ - ۱۹۴۸ (بخش ۱)"
       },
       {
         "a": "https://media.transistor.fm/c45bfc1a/ae2a08c0.mp3",
@@ -63342,13 +63342,13 @@
         "at": "2026-11-09T02:30:00Z",
         "i": "https://img.transistorcdn.com/aWPMNtfUrRVHez7j4Eg2ftGmXPIQOCiyZYmn5EsNdvA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wYzA5/NDI4ZmQ3OTA0MTYw/NDYwYjE5OTA2OGVm/MGVjZi5qcGc.jpg",
         "link": "https://share.transistor.fm/s/198cab67",
-        "title": "نقش فعال جامعه بهائی در روند تدوین اعلامیه جهانی حقوق بشر ۱۹۴۶ - ۱۹۴۸- بخش۲"
+        "title": "نقش جامعه بهائی در تدوین «اعلامیه جهانی حقوق بشر» ۱۹۴۶ - ۱۹۴۸ (بخش ۲)"
       },
       {
         "at": "2026-11-02T02:30:00Z",
         "i": "https://img.transistorcdn.com/jofJCFxUcFjfCMMAz5nMLmxyNF0jeIpr_dIGtXmbyD8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS85MGQ5/YTRmZmVkNjNkNWUx/YTI0YTM2ZTI5NDUy/ODdiYi5qcGc.jpg",
         "link": "https://share.transistor.fm/s/ca8945fd",
-        "title": "نقش فعال جامعه بهائی در روند تدوین «اعلامیه جهانی حقوق بشر» ۱۹۴۶ - ۱۹۴۸- قسمت۱"
+        "title": "نقش جامعه بهائی در تدوین «اعلامیه جهانی حقوق بشر» ۱۹۴۶ - ۱۹۴۸ (بخش ۱)"
       },
       {
         "at": "2026-09-07T02:30:00Z",
@@ -72089,26 +72089,21 @@
     "status": "inactive"
   },
   "rhbri-droni": {
-    "avg_gap_days": 10.7,
+    "avg_gap_days": 10.6,
     "avg_length": 25,
-    "episodes": 58,
-    "eps_365": 35,
-    "eps_90": 7,
+    "episodes": 57,
+    "eps_365": 34,
+    "eps_90": 6,
     "first_at": "2025-04-10",
     "first_year": 1404,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T03:00:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/---e3s18d3",
-    "last_title": "یک-دو-سه بیزینس نو: دریافت شهودی برای خلق ارزش تجاری",
+    "last": "1405/08/07",
+    "last_at": "2026-10-29T03:00:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3r28gk",
+    "last_title": "مدیتیشن کودک درونت باید آینده‌اش را ببیند 🎨",
     "max_length": 49,
     "median_length": 23,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1035f1fc8/podcast/play/129064803/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2F436237093-44100-2-428b657bf41c1.m4a",
-        "at": "2026-11-12T03:00:00Z",
-        "t": "یک-دو-سه بیزینس نو: دریافت شهودی برای خلق ارزش تجاری"
-      },
       {
         "a": "https://anchor.fm/s/1035f1fc8/podcast/play/128049108/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-25%2F434943759-44100-2-0ffc9a0a872d3.m4a",
         "at": "2026-10-29T03:00:00Z",
@@ -72143,14 +72138,14 @@
         "a": "https://anchor.fm/s/1035f1fc8/podcast/play/123704367/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-3%2F429132917-44100-2-b7eeaddb3bbe4.m4a",
         "at": "2026-08-06T02:00:00Z",
         "t": "مدیتیشن چهار میثاق: قرارداد آزادی درونی"
+      },
+      {
+        "a": "https://anchor.fm/s/1035f1fc8/podcast/play/123127450/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-21%2F428353988-44100-2-39181a8bba24c.m4a",
+        "at": "2026-07-23T02:00:00Z",
+        "t": "مدیتیشن شفای سرنوشت موروثی"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-12T03:00:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/---e3s18d3",
-        "title": "یک-دو-سه بیزینس نو: دریافت شهودی برای خلق ارزش تجاری"
-      },
       {
         "at": "2026-10-29T03:00:00Z",
         "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3r28gk",
@@ -72160,6 +72155,11 @@
         "at": "2026-10-15T02:00:00Z",
         "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3qaro7",
         "title": "نهال عزت نفس و تمرین قدرتمند من امن"
+      },
+      {
+        "at": "2026-10-01T02:00:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3pifck",
+        "title": "💕 مدیتیشن پنج زبان عشق"
       }
     ],
     "recent_30d": [
@@ -72174,7 +72174,7 @@
       2,
       2,
       2,
-      3
+      2
     ],
     "status": "active"
   },
