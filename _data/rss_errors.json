@@ -15,6 +15,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
+  "aghtsad-o-siast-jhani": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://feed.dotcast.org/p/ctka8bck/feed.xml"
+  },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
@@ -71,9 +75,17 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
+  "freecast-fri-kst": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://feed.dotcast.org/p/FreeCast/feed.xml"
+  },
   "galri-film": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
+  },
+  "ghsh-klidr": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://feed.dotcast.org/p/kn9hjovu/feed.xml"
   },
   "hnr-jng": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
@@ -82,6 +94,14 @@
   "hs-khob": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.pod.co/hese-khob"
+  },
+  "karkst": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://feed.dotcast.org/p/karcast/feed.xml"
+  },
+  "ketabak": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://feed.dotcast.org/p/wqlungdt/feed.xml"
   },
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
@@ -130,10 +150,6 @@
   "podcast-roanshnasi-saikodid": {
     "error": "RuntimeError: TimeoutError: The read operation timed out",
     "rss": "https://feed.dotcast.org/p/ybxaq83v/feed.xml"
-  },
-  "podcast-roanshnasi-saikopad": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
-    "rss": "https://feed.dotcast.org/p/lu8pm6lt/feed.xml"
   },
   "pzhoak-mahor": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
