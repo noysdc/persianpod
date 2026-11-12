@@ -56014,21 +56014,27 @@
     "status": "active"
   },
   "podcast-fotbali-fotbal-trapi": {
-    "avg_gap_days": 32.4,
-    "avg_length": 72,
-    "episodes": 105,
-    "eps_365": 12,
-    "eps_90": 4,
+    "avg_gap_days": 30.2,
+    "avg_length": 71,
+    "episodes": 106,
+    "eps_365": 13,
+    "eps_90": 5,
     "first_at": "2024-04-05",
     "first_year": 1403,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T13:36:00Z",
-    "last_link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/58ac5c83-db2f-40f3-840c-11a65eb14c0f/play.mp3?v=1",
-    "last_title": "فصل7| قسمت4: حمله اخراجی به رونالدو!",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T05:46:08Z",
+    "last_link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/12e1fa3d-19e9-4db2-b1d3-51469e342ac9/play.mp3?v=1",
+    "last_title": "فصل7| قسمت5| بخش اول:  سقوط شهر منچستر",
     "max_length": 136,
     "median_length": 87,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/12e1fa3d-19e9-4db2-b1d3-51469e342ac9/play.mp3?v=1",
+        "at": "2026-11-12T05:46:08Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/12e1fa3d-19e9-4db2-b1d3-51469e342ac9/artwork.jpg?v=1",
+        "t": "فصل7| قسمت5| بخش اول:  سقوط شهر منچستر"
+      },
       {
         "a": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/58ac5c83-db2f-40f3-840c-11a65eb14c0f/play.mp3?v=1",
         "at": "2026-11-05T13:36:00Z",
@@ -56069,15 +56075,15 @@
         "at": "2025-12-02T07:49:17Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/38b7baaf-435c-46ca-8de8-c259d20017c7/artwork.jpg?v=6",
         "t": "فصل6| قسمت 15: واااای مارسکام!"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/b084b073-31e5-4c4d-9e5d-6fb4ee76ddf6/play.mp3?v=2",
-        "at": "2025-11-25T07:47:04Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/b084b073-31e5-4c4d-9e5d-6fb4ee76ddf6/artwork.jpg?v=6",
-        "t": "فصل6| قسمت14: ازّه‌ت زیاد!"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-12T05:46:08Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/12e1fa3d-19e9-4db2-b1d3-51469e342ac9/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/12e1fa3d-19e9-4db2-b1d3-51469e342ac9/play.mp3?v=1",
+        "title": "فصل7| قسمت5| بخش اول:  سقوط شهر منچستر"
+      },
       {
         "at": "2026-11-05T13:36:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/58ac5c83-db2f-40f3-840c-11a65eb14c0f/artwork.jpg?v=1",
@@ -56089,12 +56095,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/f5d2c751-ed6b-44e6-8dbc-e31496da4ccc/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/f5d2c751-ed6b-44e6-8dbc-e31496da4ccc/play.mp3?v=1",
         "title": "فصل7| قسمت3: جنگ داخلی در یونایتد"
-      },
-      {
-        "at": "2026-10-22T08:50:34Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/9ba40b2a-c650-4a0d-b008-c449224ca32e/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/9ba40b2a-c650-4a0d-b008-c449224ca32e/play.mp3?v=1",
-        "title": "فصل 7|قسمت2:آمار ماورایی یامال در برابر جادوی مورینیو"
       }
     ],
     "recent_30d": [
@@ -56109,7 +56109,7 @@
       0,
       0,
       0,
-      4
+      5
     ],
     "status": "active"
   },
