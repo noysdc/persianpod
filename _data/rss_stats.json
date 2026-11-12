@@ -30468,8 +30468,8 @@
       0,
       0,
       0,
-      1,
-      8,
+      4,
+      5,
       5,
       0,
       0,
@@ -34411,8 +34411,8 @@
     "recent_30d": [
       85,
       132,
-      46,
-      22,
+      47,
+      21,
       0,
       0,
       23,
@@ -48311,21 +48311,27 @@
     "status": "stopped"
   },
   "parseh-podcast-padkst-prsh": {
-    "avg_gap_days": 14.3,
-    "avg_length": 61,
-    "episodes": 77,
-    "eps_365": 23,
-    "eps_90": 4,
+    "avg_gap_days": 14.0,
+    "avg_length": 62,
+    "episodes": 78,
+    "eps_365": 24,
+    "eps_90": 5,
     "first_at": "2020-07-17",
     "first_year": 1399,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T15:00:00Z",
-    "last_link": "https://youtu.be/863EbH8vDg8",
-    "last_title": "66- The Human Chain I (زنجیره‌ی انسانی ۱)",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T15:31:38Z",
+    "last_link": "https://youtu.be/E1M9O9l8xAs",
+    "last_title": "67- The Human Chain II (زنجیره انسانی ۲)",
     "max_length": 118,
     "median_length": 52,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6af30aa171f47eaba632f44e/media.mp3",
+        "at": "2026-11-12T15:31:38Z",
+        "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1794312857158-32755d5d-2158-44b1-9102-b45784ab0544.jpeg",
+        "t": "67- The Human Chain II (زنجیره انسانی ۲)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6ae9a0f5da7c744de02fed39/media.mp3",
         "at": "2026-11-03T15:00:00Z",
@@ -48367,15 +48373,15 @@
         "at": "2026-06-19T16:30:00Z",
         "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1781876342954-46d39a72-cab1-4b7a-b477-5120683a0893.jpeg",
         "t": "60 - Portrait of a Defeat VII (شمایل یک شکست 7)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a285c51c022d9c4fe23798d/media.mp3",
-        "at": "2026-06-12T17:00:00Z",
-        "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1781029830353-08ba2fc6-16f8-4e26-811d-a92a3823aed2.jpeg",
-        "t": "59- شمایل یک شکست قسمت ششم (نسخه کم‌حجک)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-12T15:31:38Z",
+        "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1794312857158-32755d5d-2158-44b1-9102-b45784ab0544.jpeg",
+        "link": "https://youtu.be/E1M9O9l8xAs",
+        "title": "67- The Human Chain II (زنجیره انسانی ۲)"
+      },
       {
         "at": "2026-11-03T15:00:00Z",
         "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1793695640733-6cc842bf-59e8-413a-b954-bd0f81452654.jpeg",
@@ -48387,12 +48393,6 @@
         "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1792064050163-f6e9920c-56c8-4542-b974-654a2da42a20.jpeg",
         "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/65-conversation",
         "title": "65- Conversation گفتگو با رضا امیر درباره‌ی کتاب «چگونه زنده‌ایم»"
-      },
-      {
-        "at": "2026-08-27T15:30:00Z",
-        "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1787818393069-b6958e4d-258a-4ac2-8d71-c3155a3f596c.jpeg",
-        "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/64-limits-of-justice-iii",
-        "title": "64- Limits of Justice III (حدود عدالت ۳)"
       }
     ],
     "recent_30d": [
@@ -48407,7 +48407,7 @@
       2,
       2,
       0,
-      2
+      3
     ],
     "status": "active"
   },
