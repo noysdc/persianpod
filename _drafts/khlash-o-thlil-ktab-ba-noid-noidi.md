@@ -2,7 +2,7 @@
 title: "خلاصه و تحلیل کتاب با نوید نویدی"
 title_en: ""
 slug: "khlash-o-thlil-ktab-ba-noid-noidi"
-description: "خلاصه و تحلیل کتابهای رشد و تعالی فردی، بازاریابی و فروش و مدیریتتهیه و تنظیمنوید نویدیhttps://navidnavidi.com/کانال تلگرام👇🏾👇🏾https://t.me/navidnavidii"
+description: "خلاصه و تحلیل کتابهای رشد و تعالی فردی، بازاریابی و فروش و مدیریت تهیه و تنظیم نوید نویدیhttps://navidnavidi.com/کانال تلگرام👇🏾👇🏾https://t.me/navidnavidii"
 category: "ادبیات و کتاب"
 subcategories: ["معرفی کتاب","کتاب صوتی"]
 tags: ["ادبیات و کتاب","معرفی کتاب","کتاب صوتی"]
