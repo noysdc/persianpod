@@ -17,8 +17,8 @@ pi_id: 4617019
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Majnoone Modern / پادکست مجنون مدرن

@@ -17,8 +17,8 @@ pi_id: 1227505
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # من برندم هستم

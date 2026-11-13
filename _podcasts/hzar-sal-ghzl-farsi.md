@@ -18,8 +18,8 @@ pi_id: 7868720
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # هزار سال غزل فارسی
