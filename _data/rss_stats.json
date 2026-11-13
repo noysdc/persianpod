@@ -64531,21 +64531,27 @@
     "status": "active"
   },
   "podcast-roanshnasi-saikopad": {
-    "avg_gap_days": 10.5,
-    "avg_length": 66,
-    "episodes": 200,
-    "eps_365": 35,
-    "eps_90": 10,
+    "avg_gap_days": 10.4,
+    "avg_length": 65,
+    "episodes": 201,
+    "eps_365": 36,
+    "eps_90": 11,
     "first_at": "2021-06-18",
     "first_year": 1400,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T10:50:00Z",
-    "last_link": "https://dotcast.org/p/lu8pm6lt/l08t3tj3s7/",
-    "last_title": "اضطراب | رنج مقدس یا درد مخرب!؟",
+    "last": "1405/08/22",
+    "last_at": "2026-11-13T17:10:00Z",
+    "last_link": "https://dotcast.org/p/lu8pm6lt/2r4nr2mc2i/",
+    "last_title": "در سوگ مارشا لینهان",
     "max_length": 132,
     "median_length": 53,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/lu8pm6lt/2r4nr2mc2i/2026-11-13-17-22-35.mp3",
+        "at": "2026-11-13T17:10:00Z",
+        "i": "https://feed.dotcast.org/e/lu8pm6lt/2r4nr2mc2i/2026-11-13-17-19-49.jpg",
+        "t": "در سوگ مارشا لینهان"
+      },
       {
         "a": "https://feed.dotcast.org/e/lu8pm6lt/l08t3tj3s7/2026-11-06-11-13-32.mp3",
         "at": "2026-11-06T10:50:00Z",
@@ -64586,15 +64592,15 @@
         "at": "2026-09-10T08:40:00Z",
         "i": "https://feed.dotcast.org/e/lu8pm6lt/o7dh64bji4/2026-09-10-08-45-57.jpg",
         "t": "آیا شما گوسفند سیاه خانواده تان هستید؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/lu8pm6lt/788yszt9v5/2026-09-04-11-35-42.mp3",
-        "at": "2026-09-04T11:30:00Z",
-        "i": "https://feed.dotcast.org/e/lu8pm6lt/788yszt9v5/2026-09-04-11-32-59.jpg",
-        "t": "توهم احترام، چرا مخالف منطقی ما، توهین تلقی می شود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-13T17:10:00Z",
+        "i": "https://feed.dotcast.org/e/lu8pm6lt/2r4nr2mc2i/2026-11-13-17-19-49.jpg",
+        "link": "https://dotcast.org/p/lu8pm6lt/2r4nr2mc2i/",
+        "title": "در سوگ مارشا لینهان"
+      },
       {
         "at": "2026-11-06T10:50:00Z",
         "i": "https://feed.dotcast.org/e/lu8pm6lt/l08t3tj3s7/2026-11-06-10-50-56.jpg",
@@ -64606,12 +64612,6 @@
         "i": "https://feed.dotcast.org/e/lu8pm6lt/hdl3itgvuy/2026-10-30-09-33-49.jpg",
         "link": "https://dotcast.org/p/lu8pm6lt/hdl3itgvuy/",
         "title": "گوسفند سفید خانواده | تلاش برای خوب بودن به عنوان مرض"
-      },
-      {
-        "at": "2026-10-23T16:50:00Z",
-        "i": "https://feed.dotcast.org/e/lu8pm6lt/bbx40j1vm6/2026-10-23-16-53-33.jpg",
-        "link": "https://dotcast.org/p/lu8pm6lt/bbx40j1vm6/",
-        "title": "انزوای لوکس | کمال گرایی و انواع آن"
       }
     ],
     "recent_30d": [
@@ -64626,7 +64626,7 @@
       6,
       4,
       2,
-      4
+      5
     ],
     "status": "active"
   },
