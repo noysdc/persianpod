@@ -15537,10 +15537,10 @@
     "status": "active"
   },
   "dastan-trsnak": {
-    "avg_gap_days": 48.0,
+    "avg_gap_days": 55.0,
     "avg_length": 20,
     "episodes": 15,
-    "eps_365": 7,
+    "eps_365": 6,
     "eps_90": 2,
     "first_at": "2025-09-18",
     "first_year": 1404,
@@ -31936,8 +31936,8 @@
       0,
       0,
       0,
-      0,
-      5,
+      1,
+      4,
       4,
       4,
       7
