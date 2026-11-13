@@ -167,10 +167,6 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
-  "synapselingo-iadgiri-zban-aalmani": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://synapselingo-persian-learn-german.podigee.io/feed/mp3"
-  },
   "synapselingo-iadgiri-zban-anglisi": {
     "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://synapselingo-persian-learn-english.podigee.io/feed/mp3"
