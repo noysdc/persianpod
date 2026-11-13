@@ -22225,8 +22225,8 @@
       31,
       26,
       16,
-      8,
-      4,
+      9,
+      3,
       2,
       0,
       0,
@@ -41520,19 +41520,25 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 997,
-    "eps_365": 327,
-    "eps_90": 81,
+    "episodes": 998,
+    "eps_365": 328,
+    "eps_90": 82,
     "first_at": "2023-11-21",
     "first_year": 1402,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T03:02:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/pocock-criticises-albanese-for-omitting-fossil-fuels-from-cop31-climate-appeal/ptiikawji",
-    "last_title": "انتقاد از آنتونی آلبانیزی در COP31؛ پوکاک: سکوت درباره سوخت‌های فسیلی با آینده اقیانوس آرام سازگار نیست",
+    "last": "1405/08/22",
+    "last_at": "2026-11-13T01:00:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/nvidia-ceo-jensen-huang-resigns-over-relationship-with-executive-suspected-of-spying-for-china/slm4c2tws",
+    "last_title": "جنسن هوانگ، مدیرعامل انویدیا، در پی افشای رابطه با یک مدیر مظنون به جاسوسی برای چین استعفا داد",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261113120053_655411-persian-578c7a27-2d29-4594-bd89-52dfb49c3369.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-d264-d7ac-a1a7-f3fdd2850000&dur_cat=3",
+        "at": "2026-11-13T01:00:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261113120058_741939-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "t": "جنسن هوانگ، مدیرعامل انویدیا، در پی افشای رابطه با یک مدیر مظنون به جاسوسی برای چین استعفا داد"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261112140249_225686-persian-25a1d47d-9eff-4f69-a356-341722bcf791.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-cdab-da13-ada3-edafd7f80000&dur_cat=2",
         "at": "2026-11-12T03:02:00Z",
@@ -41574,15 +41580,15 @@
         "at": "2026-11-05T01:46:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261106200343_489055-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "t": "فروشگاه زنجیره‌ای دیوید جونز پس از ۱۸۸ سال فعالیت، در آستانه فروپاشی قرار گرفت"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261104141640_209704-persian-97c8e208-9e5c-4612-a4f7-ab730ff142c0.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-a475-d644-a3b7-f4fdf4a80000&dur_cat=2",
-        "at": "2026-11-04T03:16:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261104141738_561956-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "t": "نتایج اولیه انتخابات میان‌دوره‌ای آمریکا به‌تدریج اعلام می‌شود"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-13T01:00:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261113120058_741939-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/nvidia-ceo-jensen-huang-resigns-over-relationship-with-executive-suspected-of-spying-for-china/slm4c2tws",
+        "title": "جنسن هوانگ، مدیرعامل انویدیا، در پی افشای رابطه با یک مدیر مظنون به جاسوسی برای چین استعفا داد"
+      },
       {
         "at": "2026-11-12T03:02:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261112145208_437759-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
@@ -41594,12 +41600,6 @@
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261111140728_842784-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/australia-one-minute-silence-to-honour-fallen-warriors/hia0g7u7t",
         "title": "طنین یک دقیقه سکوت در استرالیا به یاد جان‌باختگان جنگ‌های گذشته"
-      },
-      {
-        "at": "2026-11-10T04:39:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261110154035_409217-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/the-australian-government-has-backed-down-on-the-sale-of-67-military-properties/cekgqqvl7",
-        "title": "دولت استرالیا از فروش ۶۷ ملک نظامی عقب‌نشینی کرد"
       }
     ],
     "recent_30d": [
@@ -41614,7 +41614,7 @@
       28,
       25,
       29,
-      27
+      28
     ],
     "status": "active"
   },
@@ -67177,8 +67177,8 @@
     "recent_30d": [
       3,
       2,
-      1,
-      1,
+      2,
+      0,
       0,
       1,
       2,
