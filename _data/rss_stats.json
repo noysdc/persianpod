@@ -13651,8 +13651,8 @@
       0,
       0,
       0,
-      5,
-      1,
+      6,
+      0,
       1
     ],
     "status": "active"
@@ -64642,7 +64642,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       6,
       3,
       5,
@@ -82834,10 +82834,10 @@
     "status": "stopped"
   },
   "tarikh-hnr-khfn": {
-    "avg_gap_days": 21.2,
+    "avg_gap_days": 21.9,
     "avg_length": 61,
     "episodes": 67,
-    "eps_365": 18,
+    "eps_365": 17,
     "eps_90": 5,
     "first_at": "2024-06-17",
     "first_year": 1403,
