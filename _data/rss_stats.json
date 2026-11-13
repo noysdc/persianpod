@@ -35895,19 +35895,25 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 21,
-    "episodes": 647,
+    "episodes": 648,
     "eps_365": 613,
-    "eps_90": 178,
+    "eps_90": 179,
     "first_at": "2025-10-22",
     "first_year": 1404,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T18:32:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6af5cd5f41ca9a3ff10176cc",
-    "last_title": "جزیره ی مرگ - بخش پانزدهم",
+    "last": "1405/08/22",
+    "last_at": "2026-11-13T16:30:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6af72a1134f69b9edd52cbe8",
+    "last_title": "جزیره مرگ - بخش شانزدهم",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af72a1134f69b9edd52cbe8/media.mp3",
+        "at": "2026-11-13T16:30:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794582956899-f3c243f1-1bfe-4703-bb75-0edfc4ab5384.jpeg",
+        "t": "جزیره مرگ - بخش شانزدهم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af5cd5f41ca9a3ff10176cc/media.mp3",
         "at": "2026-11-12T18:32:00Z",
@@ -35949,15 +35955,15 @@
         "at": "2026-11-11T16:15:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794401286633-03c91872-fd0f-4187-954c-9e6c13ef0915.jpeg",
         "t": "جزیره مرگ - بخش نهم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af32475e790ef6e1d444b57/media.mp3",
-        "at": "2026-11-10T17:05:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794319368778-8dc34b2a-4521-40d5-a91d-44482138c125.jpeg",
-        "t": "جزیره مرگ - بخش هشتم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-13T16:30:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794582956899-f3c243f1-1bfe-4703-bb75-0edfc4ab5384.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6af72a1134f69b9edd52cbe8",
+        "title": "جزیره مرگ - بخش شانزدهم"
+      },
       {
         "at": "2026-11-12T18:32:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794493781737-e79f0388-fe43-4137-968c-a2ab69ddfbfd.jpeg",
@@ -35969,19 +35975,13 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794493408058-2f1de6c9-3edc-489b-876f-2037915ff26f.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6af5cc762d9a42ce5526d4d2",
         "title": "جزیره مرگ - بخش چهاردهم"
-      },
-      {
-        "at": "2026-11-12T17:34:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794493239684-b16895ce-cb56-4f12-8521-19d4cf52e2d9.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6af5cba9c109238cc74b1eb2",
-        "title": "جزیره مرگ - بخش سیزدهم"
       }
     ],
     "recent_30d": [
       85,
       132,
-      48,
-      20,
+      49,
+      19,
       0,
       0,
       25,
@@ -35989,7 +35989,7 @@
       60,
       56,
       64,
-      58
+      59
     ],
     "status": "active"
   },
