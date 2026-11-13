@@ -19,6 +19,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
   },
+  "anglisi-iadbgirid": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feeds.sbs.com.au/sbs-learn-english-persian"
+  },
   "archgap-padkst-mamari-aark-gp": {
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
@@ -51,6 +55,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/didarbahafez/feed.xml"
   },
+  "dingo": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://www.radiofarda.com/podcast/?zoneId=23098"
+  },
   "dkhtri-ba-hft-asm": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/5586a8d0/podcast/rss"
@@ -74,6 +82,14 @@
   "galri-film": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
+  },
+  "gnj-namh": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://www.radiofarda.com/podcast/?zoneId=23071"
+  },
+  "hachin-oachin": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://www.radiofarda.com/podcast/?zoneId=23183"
   },
   "hnr-jng": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
@@ -107,9 +123,17 @@
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
   },
+  "mkalmh-sadh-zban-zhapni": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://www3.nhk.or.jp/nhkworld/lesson/fa/rss/podcast.xml"
+  },
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
+  },
+  "panzi": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://www.radiofarda.com/podcast/?zoneId=23230"
   },
   "podcast-khakstri-roan": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -118,6 +142,10 @@
   "podcast-obmstr-plas": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://webmasterplus.ir/feed/"
+  },
+  "pol-mhm-ast": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feeds.sbs.com.au/money-matters"
   },
   "pzhoak-mahor": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -170,6 +198,10 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
+  },
+  "shokhi-ba-tarikh": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://www.radiofarda.com/podcast/?zoneId=22987"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
