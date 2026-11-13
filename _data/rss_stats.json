@@ -26126,21 +26126,26 @@
     "status": "active"
   },
   "hosh-trsnak": {
-    "avg_gap_days": 26.2,
+    "avg_gap_days": 27.2,
     "avg_length": 48,
-    "episodes": 34,
-    "eps_365": 13,
-    "eps_90": 3,
+    "episodes": 35,
+    "eps_365": 14,
+    "eps_90": 4,
     "first_at": "2024-09-03",
     "first_year": 1403,
-    "last": "1405/07/15",
-    "last_at": "2026-10-07T01:11:25Z",
-    "last_link": "https://share.transistor.fm/s/84a407f5",
-    "last_title": "قسمت 32: در برابر دنیای آینده، چه مهارتی را باید زنده نگه داشت؟",
+    "last": "1405/08/22",
+    "last_at": "2026-11-13T14:05:08Z",
+    "last_link": "https://share.transistor.fm/s/a5c9d80a",
+    "last_title": "قسمت 33: از شبیه‌سازی مغز تا شبیه‌سازی جهان",
     "max_length": 54,
     "median_length": 47,
     "min_length": 38,
     "play": [
+      {
+        "a": "https://2.gum.fm/op3.dev/e/pscrb.fm/rss/p/pdst.fm/e/dts.podtrac.com/redirect.mp3/prfx.byspotify.com/e/media.transistor.fm/a5c9d80a/ef32b160.mp3",
+        "at": "2026-11-13T14:05:08Z",
+        "t": "قسمت 33: از شبیه‌سازی مغز تا شبیه‌سازی جهان"
+      },
       {
         "a": "https://2.gum.fm/op3.dev/e/pscrb.fm/rss/p/pdst.fm/e/dts.podtrac.com/redirect.mp3/prfx.byspotify.com/e/media.transistor.fm/84a407f5/95475160.mp3",
         "at": "2026-10-07T01:11:25Z",
@@ -26175,15 +26180,14 @@
         "a": "https://2.gum.fm/op3.dev/e/pscrb.fm/rss/p/pdst.fm/e/dts.podtrac.com/redirect.mp3/prfx.byspotify.com/e/media.transistor.fm/bb7f79c2/1ceb7f2e.mp3",
         "at": "2026-05-22T06:51:26Z",
         "t": "قسمت 26: هوش مصنوعی، بحران اعتماد، و مساله ی توهم"
-      },
-      {
-        "a": "https://2.gum.fm/op3.dev/e/pscrb.fm/rss/p/pdst.fm/e/dts.podtrac.com/redirect.mp3/prfx.byspotify.com/e/media.transistor.fm/cb97ba66/15a68582.mp3",
-        "at": "2026-04-28T07:46:48Z",
-        "i": "https://img.transistorcdn.com/If84AO0jx3R7YWJsapB0WkGk7bYLBkQdg_00nwT22kY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNjUw/YTQzOGU1ZDJhZGYx/ZjEwNzBiMzQyYmEz/ZWU1MC5qcGc.jpg",
-        "t": "قسمت 25: مهاجرت ذهنی، هوش مصنوعی، و ارتباطات عاطفی با ماشین ها"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-13T14:05:08Z",
+        "link": "https://share.transistor.fm/s/a5c9d80a",
+        "title": "قسمت 33: از شبیه‌سازی مغز تا شبیه‌سازی جهان"
+      },
       {
         "at": "2026-10-07T01:11:25Z",
         "link": "https://share.transistor.fm/s/84a407f5",
@@ -26193,11 +26197,6 @@
         "at": "2026-09-13T08:12:32Z",
         "link": "https://share.transistor.fm/s/b5d277a5",
         "title": "قسمت 31: شناخت کربنی در برابر حیات سیلیکونی"
-      },
-      {
-        "at": "2026-08-19T05:45:35Z",
-        "link": "https://share.transistor.fm/s/d422c822",
-        "title": "قسمت 30: وزنه برداری، لیفتراک، و ایجنت های خودمختار هوش مصنوعی"
       }
     ],
     "recent_30d": [
@@ -26212,7 +26211,7 @@
       2,
       2,
       1,
-      0
+      1
     ],
     "status": "active"
   },
