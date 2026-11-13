@@ -44773,26 +44773,21 @@
     "status": "stopped"
   },
   "msnoi-khoani": {
-    "avg_gap_days": 15.0,
+    "avg_gap_days": 15.3,
     "avg_length": 67,
-    "episodes": 312,
-    "eps_365": 22,
-    "eps_90": 13,
+    "episodes": 311,
+    "eps_365": 21,
+    "eps_90": 12,
     "first_at": "2019-02-07",
     "first_year": 1397,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T16:05:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3mev4k",
-    "last_title": "قسمت سیصد و دهم ابیات ۲۳۴۳۰ تا ۲۳۵۳۱",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T16:03:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3mev23",
+    "last_title": "قسمت سیصد و نهم ابیات ۲۳۳۴۸ تا ۲۳۴۲۹",
     "max_length": 89,
     "median_length": 47,
     "min_length": 11,
     "play": [
-      {
-        "a": "https://anchor.fm/s/9109e20/podcast/play/123222612/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-23%2F176cc507-e6d3-0635-c4fb-a49a0f13ad0a.mp3",
-        "at": "2026-11-12T16:05:00Z",
-        "t": "قسمت سیصد و دهم ابیات ۲۳۴۳۰ تا ۲۳۵۳۱"
-      },
       {
         "a": "https://anchor.fm/s/9109e20/podcast/play/123222531/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-23%2F57ded77b-d468-500c-4337-7dbc929512c1.mp3",
         "at": "2026-11-05T16:03:00Z",
@@ -44827,14 +44822,14 @@
         "a": "https://anchor.fm/s/9109e20/podcast/play/123221693/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-23%2F3a79dffb-4d5e-29b4-9862-ca8c1d72fdc3.mp3",
         "at": "2026-09-24T15:41:00Z",
         "t": "قسمت سیصد و سوم ابیات ۲۲۶۵۵ تا ۲۲۷۵۹"
+      },
+      {
+        "a": "https://anchor.fm/s/9109e20/podcast/play/123221685/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-23%2F77158dfc-56ba-91c7-2e53-7c45171ee23a.mp3",
+        "at": "2026-09-17T15:41:00Z",
+        "t": "قسمت سیصد و دوم ابیات ۲۲۵۵۰ تا ۲۲۶۵۴"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-12T16:05:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3mev4k",
-        "title": "قسمت سیصد و دهم ابیات ۲۳۴۳۰ تا ۲۳۵۳۱"
-      },
       {
         "at": "2026-11-05T16:03:00Z",
         "link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3mev23",
@@ -44844,6 +44839,11 @@
         "at": "2026-10-29T16:02:00Z",
         "link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3meuvr",
         "title": "قسمت سیصد و هشتم ابیات ۲۳۲۲۶ تا ۲۳۳۴۷"
+      },
+      {
+        "at": "2026-10-22T16:01:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/jazire-masnavi/episodes/ep-e3meuv1",
+        "title": "قسمت سیصد و هفتم ابیات ۲۳۰۹۲ تا ۲۳۲۲۵"
       }
     ],
     "recent_30d": [
@@ -44858,7 +44858,7 @@
       5,
       4,
       4,
-      5
+      4
     ],
     "status": "active"
   },
@@ -51777,14 +51777,20 @@
     "eps_90": 41,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T18:48:03Z",
-    "last_link": "https://furbodm.com/",
-    "last_title": "Disney #2 | اولین انیمیشن دیزنی که به سالن‌های سینما رفت چی بود؟",
+    "last": "1405/08/22",
+    "last_at": "2026-11-13T04:27:29Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6af691b228531eda45b921f2",
+    "last_title": "آموزش کامل و رایگان ساخت و انتشار پادکست",
     "max_length": 115,
     "median_length": 21,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af691b228531eda45b921f2/media.mp3",
+        "at": "2026-11-13T04:27:29Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794543904012-621f76ac-d714-4873-984f-e6c1ad2db320.jpeg",
+        "t": "آموزش کامل و رایگان ساخت و انتشار پادکست"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af609e405dc66c15db8ecb0/media.mp3",
         "at": "2026-11-12T18:48:03Z",
@@ -51802,12 +51808,6 @@
         "at": "2026-11-10T14:56:01Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794322140453-2157de57-8ff9-4ff8-b67f-364f6b256299.jpeg",
         "t": "Disney #0 | فصل سوم پادکست بیزینس استوریز؛ والت دیزنی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6aef344c97f44ee2483db1b5/media.mp3",
-        "at": "2026-11-07T14:23:08Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794061249310-458e4d45-c371-4e84-a20f-459f0b07643d.jpeg",
-        "t": "چطوری پادکست بیزینس استوریز توی هفت روز به درآمدزایی رسید؟ | پروژه پادکست"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6aec91213f1905fd0061186d/media.mp3",
@@ -51836,6 +51836,12 @@
     ],
     "recent": [
       {
+        "at": "2026-11-13T04:27:29Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794543904012-621f76ac-d714-4873-984f-e6c1ad2db320.jpeg",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6af691b228531eda45b921f2",
+        "title": "آموزش کامل و رایگان ساخت و انتشار پادکست"
+      },
+      {
         "at": "2026-11-12T18:48:03Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794509191116-4d20860c-074f-46ba-9b6d-d4caf11f5382.jpeg",
         "link": "https://furbodm.com/",
@@ -51846,12 +51852,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794412151410-14b7b211-3c22-4b76-8b6c-15948ca0d938.jpeg",
         "link": "https://furbodm.com/",
         "title": "Disney #1 | دنیای کارتون و انیمیشن قبل از دیزنی چه شکلی بود؟"
-      },
-      {
-        "at": "2026-11-10T14:56:01Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794322140453-2157de57-8ff9-4ff8-b67f-364f6b256299.jpeg",
-        "link": "https://furbodm.com/",
-        "title": "Disney #0 | فصل سوم پادکست بیزینس استوریز؛ والت دیزنی"
       }
     ],
     "recent_30d": [
@@ -62673,8 +62673,8 @@
       2,
       0,
       0,
-      8,
-      8,
+      9,
+      7,
       12,
       5,
       5,
@@ -76346,8 +76346,8 @@
       1,
       4,
       6,
-      4,
-      6
+      5,
+      5
     ],
     "status": "active"
   },
@@ -76947,7 +76947,7 @@
     "avg_length": 49,
     "episodes": 69,
     "eps_365": 22,
-    "eps_90": 8,
+    "eps_90": 7,
     "first_at": "2018-11-05",
     "first_year": 1397,
     "last": "1405/08/14",
@@ -77036,8 +77036,8 @@
       0,
       1,
       3,
-      2,
       3,
+      2,
       2,
       3
     ],
@@ -82636,8 +82636,8 @@
       0,
       3,
       21,
-      105,
-      88,
+      106,
+      87,
       100,
       84,
       72
