@@ -49790,26 +49790,21 @@
     "status": "active"
   },
   "podcast-aamozsh-zban-anglisi-ataii-aanlain": {
-    "avg_gap_days": 25.9,
+    "avg_gap_days": 27.2,
     "avg_length": 16,
-    "episodes": 102,
-    "eps_365": 15,
-    "eps_90": 5,
+    "episodes": 101,
+    "eps_365": 14,
+    "eps_90": 4,
     "first_at": "2022-12-18",
     "first_year": 1401,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T14:02:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/100---e3s8m4j",
-    "last_title": "#100 - ده اصطلاح محاوره ای انگلیسی با عدد یک",
+    "last": "1405/08/11",
+    "last_at": "2026-11-02T14:30:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/99---e3rjkpa",
+    "last_title": "#99 - دوازده اصطلاح انگلیسی با عدد صفر برای تقویت مکالمه",
     "max_length": 43,
     "median_length": 18,
     "min_length": 7,
     "play": [
-      {
-        "a": "https://anchor.fm/s/17433084/podcast/play/129308243/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-12%2F436555432-44100-2-e3687f648c93c.mp3",
-        "at": "2026-11-12T14:02:00Z",
-        "t": "#100 - ده اصطلاح محاوره ای انگلیسی با عدد یک"
-      },
       {
         "a": "https://anchor.fm/s/17433084/podcast/play/128618730/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F435667937-44100-2-18249ac829c5f.mp3",
         "at": "2026-11-02T14:30:00Z",
@@ -49844,14 +49839,14 @@
         "a": "https://anchor.fm/s/17433084/podcast/play/120654074/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-28%2F425040161-44100-2-a62d6867fa9be.mp3",
         "at": "2026-05-28T13:03:00Z",
         "t": "#93 - مکالمه انگلیسی درباره کلاس کسل کننده"
+      },
+      {
+        "a": "https://anchor.fm/s/17433084/podcast/play/113113440/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-25%2F414999365-44100-2-8b2527241efaf.mp3",
+        "at": "2025-12-26T05:44:00Z",
+        "t": "#92 - آموزش مکالمه انگلیسی در پمپ بنزین"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-12T14:02:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/100---e3s8m4j",
-        "title": "#100 - ده اصطلاح محاوره ای انگلیسی با عدد یک"
-      },
       {
         "at": "2026-11-02T14:30:00Z",
         "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/99---e3rjkpa",
@@ -49861,6 +49856,11 @@
         "at": "2026-09-03T13:51:36Z",
         "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/98---e3o9s5s",
         "title": "#98 - مجموعه شماره ۷ از ۳۰ درس کوتاه زبان انگلیسی"
+      },
+      {
+        "at": "2026-08-24T14:00:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/97---e3nqn24",
+        "title": "#97 - مکالمه انگلیسی با موضوع سرما خوردگی"
       }
     ],
     "recent_30d": [
@@ -49875,7 +49875,7 @@
       0,
       3,
       0,
-      2
+      1
     ],
     "status": "active"
   },
@@ -67775,20 +67775,26 @@
   },
   "radio-hkait": {
     "avg_gap_days": 4.1,
-    "avg_length": 34,
-    "episodes": 207,
-    "eps_365": 89,
-    "eps_90": 38,
+    "avg_length": 35,
+    "episodes": 208,
+    "eps_365": 90,
+    "eps_90": 39,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/b8f4a61e-e595-43b8-96b0-30224ebf7f64/play.mp3?v=1",
-    "last_title": "سقوط خانهُ آشر - بخش دوم - ادگار آلن پو",
+    "last": "1405/08/22",
+    "last_at": "2026-11-13T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/c704b6b3-428e-4942-b075-56aa52a412e3/play.mp3?v=1",
+    "last_title": "خانه ای در آسمان - گلی ترقی",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/c704b6b3-428e-4942-b075-56aa52a412e3/play.mp3?v=1",
+        "at": "2026-11-13T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/c704b6b3-428e-4942-b075-56aa52a412e3/artwork.jpg?v=1",
+        "t": "خانه ای در آسمان - گلی ترقی"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/b8f4a61e-e595-43b8-96b0-30224ebf7f64/play.mp3?v=1",
         "at": "2026-11-12T01:30:00Z",
@@ -67830,15 +67836,15 @@
         "at": "2026-11-06T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/67e43052-b19e-4b70-86c0-e0d8251d5e9e/artwork.jpg?v=1",
         "t": "مسائل بیمارستانی – دینو بوتزاتی"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/f0210190-7d1d-4ba9-833d-62823c00bf77/play.mp3?v=1",
-        "at": "2026-11-05T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/f0210190-7d1d-4ba9-833d-62823c00bf77/artwork.jpg?v=1",
-        "t": "مسابقه - ناهید طباطبایی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-13T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/c704b6b3-428e-4942-b075-56aa52a412e3/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/c704b6b3-428e-4942-b075-56aa52a412e3/play.mp3?v=1",
+        "title": "خانه ای در آسمان - گلی ترقی"
+      },
       {
         "at": "2026-11-12T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/b8f4a61e-e595-43b8-96b0-30224ebf7f64/artwork.jpg?v=1",
@@ -67850,12 +67856,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/14f4feea-0e18-4155-8a32-9cfe9ec39dc6/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/14f4feea-0e18-4155-8a32-9cfe9ec39dc6/play.mp3?v=1",
         "title": "سقوط خانهُ آشر - بخش اول - ادگار آلن پو"
-      },
-      {
-        "at": "2026-11-10T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/e751144b-56a8-49be-bec9-7035ae7fd3ef/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/e751144b-56a8-49be-bec9-7035ae7fd3ef/play.mp3?v=1",
-        "title": "ملت این در و آن در زدن - آرکادی آورچنکو"
       }
     ],
     "recent_30d": [
@@ -67870,7 +67870,7 @@
       9,
       8,
       9,
-      21
+      22
     ],
     "status": "active"
   },
