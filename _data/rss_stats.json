@@ -35895,19 +35895,25 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 21,
-    "episodes": 649,
-    "eps_365": 614,
-    "eps_90": 180,
+    "episodes": 650,
+    "eps_365": 615,
+    "eps_90": 181,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/08/22",
-    "last_at": "2026-11-13T17:05:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6af72b429dce432809fb8fd8",
-    "last_title": "جزیره مرگ - بخش شانزدهم",
+    "last_at": "2026-11-13T17:29:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6af743479d9936aaac4dcf97",
+    "last_title": "جزیره مرک - بخش هفدهم",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af743479d9936aaac4dcf97/media.mp3",
+        "at": "2026-11-13T17:29:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794589612058-ade8c2c7-bacd-476c-8bde-a25aa89070e2.jpeg",
+        "t": "جزیره مرک - بخش هفدهم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af72b429dce432809fb8fd8/media.mp3",
         "at": "2026-11-13T17:05:00Z",
@@ -35949,15 +35955,15 @@
         "at": "2026-11-11T18:25:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794418023289-28639f43-5b00-4e83-80d2-698b95f3d563.jpeg",
         "t": "جزیره مرگ - بخش یازدهم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af4a4603709f3cff2483d36/media.mp3",
-        "at": "2026-11-11T17:50:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794417788332-0c98b9d9-a351-48af-94b3-f69242f44756.jpeg",
-        "t": "جزیره مرگ - بخش دهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-13T17:29:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794589612058-ade8c2c7-bacd-476c-8bde-a25aa89070e2.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6af743479d9936aaac4dcf97",
+        "title": "جزیره مرک - بخش هفدهم"
+      },
       {
         "at": "2026-11-13T17:05:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794583219696-97a5d40e-b5ff-4756-9370-1ab746f1dee4.jpeg",
@@ -35969,12 +35975,6 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794582956899-f3c243f1-1bfe-4703-bb75-0edfc4ab5384.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6af72a1134f69b9edd52cbe8",
         "title": "جزیره مرگ - بخش شانزدهم"
-      },
-      {
-        "at": "2026-11-12T18:32:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794493781737-e79f0388-fe43-4137-968c-a2ab69ddfbfd.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6af5cd5f41ca9a3ff10176cc",
-        "title": "جزیره ی مرگ - بخش پانزدهم"
       }
     ],
     "recent_30d": [
@@ -35989,7 +35989,7 @@
       60,
       56,
       64,
-      60
+      61
     ],
     "status": "active"
   },
@@ -84029,21 +84029,26 @@
     "status": "stopped"
   },
   "status-married": {
-    "avg_gap_days": 11.1,
-    "avg_length": 10,
-    "episodes": 24,
-    "eps_365": 24,
-    "eps_90": 9,
+    "avg_gap_days": 10.9,
+    "avg_length": 11,
+    "episodes": 25,
+    "eps_365": 25,
+    "eps_90": 10,
     "first_at": "2026-02-24",
     "first_year": 1404,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T17:35:00Z",
-    "last_link": "https://shows.acast.com/vaziyatmoteahel/episodes/6aecdd9a2cf7bf4244534b13",
-    "last_title": "اپیزود چهارم - قول",
+    "last": "1405/08/22",
+    "last_at": "2026-11-13T17:35:00Z",
+    "last_link": "https://shows.acast.com/vaziyatmoteahel/episodes/6af72c0f34f69b9edd534f2c",
+    "last_title": "اپیزود پنجم - خبر",
     "max_length": 30,
     "median_length": 8,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6af72c0f34f69b9edd534f2c/media.mp3",
+        "at": "2026-11-13T17:35:00Z",
+        "t": "اپیزود پنجم - خبر"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6aecdd9a2cf7bf4244534b13/media.mp3",
         "at": "2026-11-06T17:35:00Z",
@@ -84083,14 +84088,14 @@
         "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6a5ceebd461a6a4190d72273/media.mp3",
         "at": "2026-08-29T17:33:00Z",
         "t": "کنار هم رشد می‌کنیم یا از هم دور؟ | رشد مشترک"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/68f2a7b84c07b133bfa873d2/e/6a5cee644d4b991ebead6a2f/media.mp3",
-        "at": "2026-08-22T17:33:00Z",
-        "t": "وقتی قدرت توی رابطه دست یک نفر می‌افته | توازن قدرت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-13T17:35:00Z",
+        "link": "https://shows.acast.com/vaziyatmoteahel/episodes/6af72c0f34f69b9edd534f2c",
+        "title": "اپیزود پنجم - خبر"
+      },
       {
         "at": "2026-11-06T17:35:00Z",
         "i": "https://assets.pippa.io/shows/68f2a7b84c07b133bfa873d2/1793910984454-9a054fc8-ada4-44ec-ab84-8ae066636243.jpeg",
@@ -84102,12 +84107,6 @@
         "i": "https://assets.pippa.io/shows/68f2a7b84c07b133bfa873d2/1793090132686-e2765218-3699-43a5-85ea-7e171f6e24f2.jpeg",
         "link": "https://shows.acast.com/vaziyatmoteahel/episodes/6adfa20c8a43f71499753cc8",
         "title": "اپیزود سوم - انکار"
-      },
-      {
-        "at": "2026-10-23T17:35:00Z",
-        "i": "https://assets.pippa.io/shows/68f2a7b84c07b133bfa873d2/1792692812908-23c51cb6-b574-42dc-9482-785d3045f126.jpeg",
-        "link": "https://shows.acast.com/vaziyatmoteahel/episodes/6ad60689d69b40ef5e12215e",
-        "title": "اپیزود دوم- انتقام"
       }
     ],
     "recent_30d": [
@@ -84122,7 +84121,7 @@
       4,
       4,
       0,
-      5
+      6
     ],
     "status": "active"
   },
@@ -85266,8 +85265,8 @@
     "recent_30d": [
       114,
       81,
-      61,
-      47,
+      62,
+      46,
       0,
       3,
       21,
