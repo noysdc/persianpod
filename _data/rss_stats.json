@@ -36193,20 +36193,26 @@
   },
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
-    "avg_length": 21,
-    "episodes": 651,
-    "eps_365": 615,
-    "eps_90": 180,
+    "avg_length": 20,
+    "episodes": 652,
+    "eps_365": 616,
+    "eps_90": 181,
     "first_at": "2025-10-22",
     "first_year": 1404,
-    "last": "1405/08/22",
-    "last_at": "2026-11-13T17:57:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6af744b6da1c080cb92dc901",
-    "last_title": "جزیره مرگ - بخش هجدهم",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T16:15:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6af858e59d9936aaac8b9b2a",
+    "last_title": "جزیره مرگ - بخش نوزدهم",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af858e59d9936aaac8b9b2a/media.mp3",
+        "at": "2026-11-14T16:15:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794660397078-11c37a7c-7c23-465a-b828-53b2bcabf684.jpeg",
+        "t": "جزیره مرگ - بخش نوزدهم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af744b6da1c080cb92dc901/media.mp3",
         "at": "2026-11-13T17:57:00Z",
@@ -36248,15 +36254,15 @@
         "at": "2026-11-12T17:34:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794493239684-b16895ce-cb56-4f12-8521-19d4cf52e2d9.jpeg",
         "t": "جزیره مرگ - بخش سیزدهم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af5cb1b42f026b93b362490/media.mp3",
-        "at": "2026-11-12T16:59:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794493081668-f1d56d2d-0747-47d6-b7bb-962d93b61b29.jpeg",
-        "t": "جزیره مرگ - بخش دوازدهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T16:15:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794660397078-11c37a7c-7c23-465a-b828-53b2bcabf684.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6af858e59d9936aaac8b9b2a",
+        "title": "جزیره مرگ - بخش نوزدهم"
+      },
       {
         "at": "2026-11-13T17:57:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794589671583-7b92ae99-f8c9-471d-887c-a8eb8cdb5802.jpeg",
@@ -36268,12 +36274,6 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794589612058-ade8c2c7-bacd-476c-8bde-a25aa89070e2.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6af743479d9936aaac4dcf97",
         "title": "جزیره مرک - بخش هفدهم"
-      },
-      {
-        "at": "2026-11-13T17:05:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794583219696-97a5d40e-b5ff-4756-9370-1ab746f1dee4.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6af72b429dce432809fb8fd8",
-        "title": "جزیره مرگ - بخش شانزدهم"
       }
     ],
     "recent_30d": [
@@ -36288,7 +36288,7 @@
       62,
       54,
       66,
-      60
+      61
     ],
     "status": "active"
   },
@@ -65913,8 +65913,8 @@
       0,
       0,
       0,
-      1,
-      15,
+      2,
+      14,
       8
     ],
     "status": "active"
@@ -68298,55 +68298,19 @@
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.1,
     "avg_length": 111,
-    "episodes": 128,
-    "eps_365": 128,
-    "eps_90": 128,
+    "episodes": 122,
+    "eps_365": 122,
+    "eps_90": 122,
     "first_at": "2026-11-01",
     "first_year": 1405,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T05:07:57Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Azar--Mehdi-Part-4-e3sbuqj",
-    "last_title": "Azar, Mehdi Part 4",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T22:57:25Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Yeganeh--Mohammad-Part-8-e3s81t1",
+    "last_title": "Yeganeh, Mohammad Part 8",
     "max_length": 135,
     "median_length": 117,
     "min_length": 20,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129415443/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F312abd12-bfdf-caaa-96d5-7e78fe6b0c7e.mp3",
-        "at": "2026-11-14T05:07:57Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794632806768-c1ecf90c084e2.jpg",
-        "t": "Azar, Mehdi Part 4"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129415403/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2Fc955412e-d6a6-f56e-c673-a8a93b66aadb.mp3",
-        "at": "2026-11-14T05:06:10Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794632701564-42b092de21e36.jpg",
-        "t": "Azar, Mehdi Part 3"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129415355/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2Fd8cde4b0-aec1-bb23-89ee-1957e1b694c9.mp3",
-        "at": "2026-11-14T05:04:06Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794632557162-306b768ba2633.jpg",
-        "t": "Azar, Mehdi Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129415321/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F4c607824-baad-0e86-441c-b6bb22ee85b8.mp3",
-        "at": "2026-11-14T05:02:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794632444580-7745bc009a656.jpg",
-        "t": "Azar, Mehdi Part 1"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129407846/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F7085bf29-47df-080b-70bc-7d04f78e61c9.mp3",
-        "at": "2026-11-14T00:15:46Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794615313917-1c7d0eb269f6e.jpg",
-        "t": "Abbas-Attaie, Ramzi Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129407814/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F4585282f-678f-591d-44cf-60baab9f8fd2.mp3",
-        "at": "2026-11-14T00:14:55Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794615229937-2eb0407ef6979.jpg",
-        "t": "Abbas-Attaie, Ramzi Part 1"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/129287521/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2Ff1d6fafd-46e7-143e-8e81-2d2717e97bcc.mp3",
         "at": "2026-11-11T22:57:25Z",
@@ -68358,26 +68322,62 @@
         "at": "2026-11-11T22:56:22Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437717238-ba6edafe255a4.jpg",
         "t": "Yeganeh, Mohammad Part 7"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129287396/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2Ff98129d2-e1bd-58cc-b78a-c2936055f339.mp3",
+        "at": "2026-11-11T22:54:56Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437628883-d2b4f6f1a7011.jpg",
+        "t": "Yeganeh, Mohammad Part 6"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129287342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2Fced299d9-4a3c-7626-231f-b44e22a08f55.mp3",
+        "at": "2026-11-11T22:53:29Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437535527-c6248eeb71edf.jpg",
+        "t": "Yeganeh, Mohammad Part 5"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129287300/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2Fb9f7c872-803e-93dc-43b8-4759e115a580.mp3",
+        "at": "2026-11-11T22:51:57Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437455618-3dfcc2e812f59.jpg",
+        "t": "Yeganeh, Mohammad Part 4"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129287233/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2Fc0b9ca0e-c0a2-c07f-3c22-d2308913b4ed.mp3",
+        "at": "2026-11-11T22:50:35Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437364742-2f2fd552fbc8b.jpg",
+        "t": "Yeganeh, Mohammad Part 3"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129287178/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2Fcc576313-fa31-99cb-2588-d35369ea8aef.mp3",
+        "at": "2026-11-11T22:49:04Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437271657-9f237e6b20ed1.jpg",
+        "t": "Yeganeh, Mohammad Part 2"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129287126/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2F2a541e52-2dc9-ab41-2a33-9e7bb94675e6.mp3",
+        "at": "2026-11-11T22:47:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437189727-3f1b5e3c9d8c2.jpg",
+        "t": "Yeganeh, Mohammad Part 1"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-14T05:07:57Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794632806768-c1ecf90c084e2.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Azar--Mehdi-Part-4-e3sbuqj",
-        "title": "Azar, Mehdi Part 4"
+        "at": "2026-11-11T22:57:25Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437802929-10cd4923e20c2.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Yeganeh--Mohammad-Part-8-e3s81t1",
+        "title": "Yeganeh, Mohammad Part 8"
       },
       {
-        "at": "2026-11-14T05:06:10Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794632701564-42b092de21e36.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Azar--Mehdi-Part-3-e3sbupb",
-        "title": "Azar, Mehdi Part 3"
+        "at": "2026-11-11T22:56:22Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437717238-ba6edafe255a4.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Yeganeh--Mohammad-Part-7-e3s81r5",
+        "title": "Yeganeh, Mohammad Part 7"
       },
       {
-        "at": "2026-11-14T05:04:06Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794632557162-306b768ba2633.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Azar--Mehdi-Part-2-e3sbunr",
-        "title": "Azar, Mehdi Part 2"
+        "at": "2026-11-11T22:54:56Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794437628883-d2b4f6f1a7011.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Yeganeh--Mohammad-Part-6-e3s81p4",
+        "title": "Yeganeh, Mohammad Part 6"
       }
     ],
     "recent_30d": [
@@ -68392,7 +68392,7 @@
       0,
       0,
       0,
-      128
+      122
     ],
     "status": "active"
   },
