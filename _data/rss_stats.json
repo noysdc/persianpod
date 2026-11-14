@@ -47478,21 +47478,27 @@
     "status": "stopped"
   },
   "nghashi-khial-ba-shar": {
-    "avg_gap_days": 31.9,
+    "avg_gap_days": 29.6,
     "avg_length": 3,
-    "episodes": 107,
-    "eps_365": 12,
-    "eps_90": 8,
+    "episodes": 108,
+    "eps_365": 13,
+    "eps_90": 9,
     "first_at": "2020-08-14",
     "first_year": 1399,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T08:26:06Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3s4keb",
-    "last_title": "خاموش!",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T08:37:28Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3sc33p",
+    "last_title": "نیم‌دایره",
     "max_length": 13,
     "median_length": 3,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/2ec157f4/podcast/play/129419833/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F5ec145fe-0852-04b5-96ec-c6226daed07c.mp3",
+        "at": "2026-11-14T08:37:28Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1794645056918-b6b5f4949b772.jpg",
+        "t": "نیم‌دایره"
+      },
       {
         "a": "https://anchor.fm/s/2ec157f4/podcast/play/129175435/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2Fcd4306e8-7d01-f6eb-7843-6a5b4bd201b5.mp3",
         "at": "2026-11-10T08:26:06Z",
@@ -47534,15 +47540,15 @@
         "at": "2026-09-04T12:51:41Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1788525702412-f19d996089002.jpg",
         "t": "چشم‌آبی"
-      },
-      {
-        "a": "https://anchor.fm/s/2ec157f4/podcast/play/124431753/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-19%2F3094d976-7821-3475-5903-f080dd1f3f86.mp3",
-        "at": "2026-08-19T11:00:57Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1787137214931-be2bc1aab424b.jpg",
-        "t": "سرو کوهی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T08:37:28Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1794645056918-b6b5f4949b772.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3sc33p",
+        "title": "نیم‌دایره"
+      },
       {
         "at": "2026-11-10T08:26:06Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1794299100488-3c1227156730f.jpg",
@@ -47554,12 +47560,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1791982642503-92883c672854d.jpg",
         "link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3qg8t3",
         "title": "گفته بودم"
-      },
-      {
-        "at": "2026-10-07T12:26:13Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1791375943191-73fe15beec9d9.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3q329e",
-        "title": "نیمه شرقی"
       }
     ],
     "recent_30d": [
@@ -47574,7 +47574,7 @@
       0,
       2,
       5,
-      1
+      2
     ],
     "status": "active"
   },
@@ -75285,7 +75285,7 @@
       }
     ],
     "recent_30d": [
-      10,
+      9,
       2,
       0,
       0,
