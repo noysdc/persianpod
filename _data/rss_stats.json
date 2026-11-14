@@ -10056,10 +10056,10 @@
     "status": "stopped"
   },
   "bi-bi-gl-ghsh-go": {
-    "avg_gap_days": 5.8,
+    "avg_gap_days": 6.0,
     "avg_length": 7,
     "episodes": 151,
-    "eps_365": 10,
+    "eps_365": 9,
     "eps_90": 0,
     "first_at": "2021-04-19",
     "first_year": 1400,
@@ -78472,8 +78472,8 @@
       0,
       0,
       0,
-      14,
-      22
+      15,
+      21
     ],
     "status": "active"
   },
