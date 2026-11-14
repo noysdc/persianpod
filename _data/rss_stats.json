@@ -3261,21 +3261,27 @@
     "status": "active"
   },
   "afsanh-hai-khn-parsi": {
-    "avg_gap_days": 2.6,
+    "avg_gap_days": 2.7,
     "avg_length": 6,
-    "episodes": 32,
-    "eps_365": 32,
-    "eps_90": 32,
+    "episodes": 33,
+    "eps_365": 33,
+    "eps_90": 33,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T15:32:30Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s345g",
-    "last_title": "کلیله‌ودمنه کودکانه | قسمت سیزدهم | بوم و زاغ (١)",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T17:47:20Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3scjo4",
+    "last_title": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه",
     "max_length": 10,
-    "median_length": 5,
+    "median_length": 6,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/129436868/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2Fc2ca4618-0ea3-1624-5c34-2c1de66817d0.mp3",
+        "at": "2026-11-14T17:47:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794679069038-3d0036a762cab.jpg",
+        "t": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه"
+      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/129126000/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F66a8e5bc-491f-7fc5-9902-d4ce0dbd808e.mp3",
         "at": "2026-11-09T15:32:30Z",
@@ -3317,15 +3323,15 @@
         "at": "2026-10-24T14:05:34Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1792850742480-f6d6f1fde7e73.jpg",
         "t": "شاهنامه کودکانه | قسمت نهم | ایرج مهربان"
-      },
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/127615313/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-17%2F82aff75b-6b2a-ddea-7384-23ecbdd3c674.mp3",
-        "at": "2026-10-17T10:10:31Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1792231810787-dfe6d721271cd.jpg",
-        "t": "کلیله و دمنه کودکانه | قسمت نهم | کبوتر طوق‌دار(۱)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T17:47:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794679069038-3d0036a762cab.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3scjo4",
+        "title": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه"
+      },
       {
         "at": "2026-11-09T15:32:30Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794238359403-a118ae05441df.jpg",
@@ -3337,12 +3343,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794165564454-33fb9aba08035.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s16hr",
         "title": "شاهنامه کودکانه | قسمت يازدهم | زالِ سپیدمو و سیمرغ"
-      },
-      {
-        "at": "2026-11-04T17:22:49Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
-        "title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
       }
     ],
     "recent_30d": [
@@ -3357,7 +3357,7 @@
       0,
       17,
       7,
-      8
+      9
     ],
     "status": "active"
   },
@@ -36195,7 +36195,7 @@
     "avg_gap_days": 0.6,
     "avg_length": 20,
     "episodes": 655,
-    "eps_365": 618,
+    "eps_365": 617,
     "eps_90": 183,
     "first_at": "2025-10-22",
     "first_year": 1404,
