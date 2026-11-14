@@ -65017,21 +65017,27 @@
     "status": "stopped"
   },
   "podcast-shb-tab": {
-    "avg_gap_days": 2.5,
+    "avg_gap_days": 2.6,
     "avg_length": 36,
-    "episodes": 23,
-    "eps_365": 23,
-    "eps_90": 23,
+    "episodes": 24,
+    "eps_365": 24,
+    "eps_90": 24,
     "first_at": "2026-09-15",
     "first_year": 1405,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T18:37:47Z",
-    "last_link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/414cac28-3098-4b35-81e5-d70b83e4851e/play.mp3?v=1",
-    "last_title": "شب تاب: لیسنکو در برابر واویلُف - قسمت دوم: آزمایش یا نمایش؟",
-    "max_length": 48,
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T11:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/0c98f963-e756-4280-a7d7-1a428c9fc91e/play.mp3?v=1",
+    "last_title": "شب تاب: لیسنکو در برابر واویلُف - قسمت سوم: اقتصادِ ترس",
+    "max_length": 50,
     "median_length": 35,
     "min_length": 23,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/0c98f963-e756-4280-a7d7-1a428c9fc91e/play.mp3?v=1",
+        "at": "2026-11-14T11:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/0c98f963-e756-4280-a7d7-1a428c9fc91e/artwork.jpg?v=1",
+        "t": "شب تاب: لیسنکو در برابر واویلُف - قسمت سوم: اقتصادِ ترس"
+      },
       {
         "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/414cac28-3098-4b35-81e5-d70b83e4851e/play.mp3?v=1",
         "at": "2026-11-09T18:37:47Z",
@@ -65073,15 +65079,15 @@
         "at": "2026-10-16T12:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/334ce9dc-c0f9-4d6d-b584-764ce2cfcd97/artwork.jpg?v=1",
         "t": "شب تاب: گروه دانر ـ قسمت دوم: میان‌بُر"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/e51ea636-9049-474c-96da-4333a8c70267/play.mp3?v=1",
-        "at": "2026-10-13T13:13:48Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/e51ea636-9049-474c-96da-4333a8c70267/artwork.jpg?v=1",
-        "t": "شب تاب: گروه دانر - قسمت اول: راهی به بهشت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T11:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/0c98f963-e756-4280-a7d7-1a428c9fc91e/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/0c98f963-e756-4280-a7d7-1a428c9fc91e/play.mp3?v=1",
+        "title": "شب تاب: لیسنکو در برابر واویلُف - قسمت سوم: اقتصادِ ترس"
+      },
       {
         "at": "2026-11-09T18:37:47Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/414cac28-3098-4b35-81e5-d70b83e4851e/artwork.jpg?v=1",
@@ -65093,12 +65099,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/cc9fec0c-388d-40ff-b6d3-5283667f08ae/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/cc9fec0c-388d-40ff-b6d3-5283667f08ae/play.mp3?v=1",
         "title": "شب تاب: لیسنکو در برابر واویلُف - قسمت اول: طلا در برابر بذر"
-      },
-      {
-        "at": "2026-10-28T13:30:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/c9940e8d-9875-4fe7-aab8-30897c2ce9e9/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/c9940e8d-9875-4fe7-aab8-30897c2ce9e9/play.mp3?v=1",
-        "title": "شب تاب: گروه دانر - قسمت ششم: نه چندان نجات"
       }
     ],
     "recent_30d": [
@@ -65113,7 +65113,7 @@
       0,
       0,
       16,
-      7
+      8
     ],
     "status": "active"
   },
@@ -67974,24 +67974,19 @@
   "rabth-ma": {
     "avg_gap_days": 3.5,
     "avg_length": 10,
-    "episodes": 15,
-    "eps_365": 15,
-    "eps_90": 15,
+    "episodes": 14,
+    "eps_365": 14,
+    "eps_90": 14,
     "first_at": "2026-09-25",
     "first_year": 1405,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T11:18:49Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sc738",
-    "last_title": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T00:59:16Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3s698q",
+    "last_title": "چرا تو رابطه با یه اتفاق ساده، یا غیب می‌شم یا دیوونه؟ | سبک دلبستگی",
     "max_length": 21,
-    "median_length": 10,
+    "median_length": 11,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/117bc39b0/podcast/play/129423912/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F436712616-44100-2-fd74d9dfbc2c8.m4a",
-        "at": "2026-11-14T11:18:49Z",
-        "t": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه"
-      },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/129229530/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2F436449973-44100-2-f517fa828c896.m4a",
         "at": "2026-11-11T00:59:16Z",
@@ -68027,14 +68022,14 @@
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/126853461/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-5%2F433368872-44100-2-96411179d3be5.m4a",
         "at": "2026-10-05T06:38:11Z",
         "t": "اضطراب در رابطه | چطور چرخه‌ تکراری را عوض کنم؟"
+      },
+      {
+        "a": "https://anchor.fm/s/117bc39b0/podcast/play/126672433/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-2%2F433145598-44100-2-450a4c4d7c977.m4a",
+        "at": "2026-10-02T08:33:43Z",
+        "t": "کنترل گری یا مرز؟ | نیاز، درخواست و مرز سالم در رابطه"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-14T11:18:49Z",
-        "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sc738",
-        "title": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه"
-      },
       {
         "at": "2026-11-11T00:59:16Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3s698q",
@@ -68044,6 +68039,12 @@
         "at": "2026-11-05T01:47:12Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3rphjq",
         "title": "چرا همیشه عاشق یک جور آدم می‌شم؟ | تکرار الگو در انتخاب پارتنر"
+      },
+      {
+        "at": "2026-10-27T15:07:04Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46831788/46831788-1793113631545-5d4d7b59872d2.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3qjlv1",
+        "title": "نشانه‌های علاقه | از کجا بفهمم دوستم داره؟"
       }
     ],
     "recent_30d": [
@@ -68058,7 +68059,7 @@
       0,
       0,
       11,
-      4
+      3
     ],
     "status": "active"
   },
@@ -85260,8 +85261,8 @@
     "recent_30d": [
       116,
       79,
-      65,
-      43,
+      66,
+      42,
       0,
       4,
       20,
