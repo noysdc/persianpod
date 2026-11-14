@@ -8670,10 +8670,10 @@
     "status": "stopped"
   },
   "bandar-e-tehran": {
-    "avg_gap_days": 23.3,
+    "avg_gap_days": 23.9,
     "avg_length": 92,
     "episodes": 184,
-    "eps_365": 16,
+    "eps_365": 15,
     "eps_90": 6,
     "first_at": "2018-08-17",
     "first_year": 1397,
@@ -8762,8 +8762,8 @@
       0,
       0,
       1,
-      1,
-      3,
+      2,
+      2,
       2,
       2,
       2
@@ -32241,8 +32241,8 @@
       0,
       2,
       3,
-      2,
-      3
+      3,
+      2
     ],
     "status": "active"
   },
@@ -54319,26 +54319,20 @@
   },
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.8,
-    "avg_length": 19,
-    "episodes": 41,
-    "eps_365": 41,
-    "eps_90": 41,
+    "avg_length": 20,
+    "episodes": 40,
+    "eps_365": 40,
+    "eps_90": 40,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/22",
-    "last_at": "2026-11-13T04:27:29Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6af691b228531eda45b921f2",
-    "last_title": "آموزش کامل و رایگان ساخت و انتشار پادکست",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T18:48:03Z",
+    "last_link": "https://furbodm.com/",
+    "last_title": "Disney #2 | اولین انیمیشن دیزنی که به سالن‌های سینما رفت چی بود؟",
     "max_length": 115,
     "median_length": 21,
-    "min_length": 2,
+    "min_length": 4,
     "play": [
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af691b228531eda45b921f2/media.mp3",
-        "at": "2026-11-13T04:27:29Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794543904012-621f76ac-d714-4873-984f-e6c1ad2db320.jpeg",
-        "t": "آموزش کامل و رایگان ساخت و انتشار پادکست"
-      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af609e405dc66c15db8ecb0/media.mp3",
         "at": "2026-11-12T18:48:03Z",
@@ -54380,15 +54374,15 @@
         "at": "2026-11-01T18:30:17Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793557613103-1b043e7f-af98-4dab-a966-f2d46ff10cb3.jpeg",
         "t": "NETFLIX #8 | چرا نت‌فلیکس به سمت تولید فیلم و سریال اختصاصی رفت؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62d38339f23a726f55bee/media.mp3",
+        "at": "2026-10-31T18:02:32Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469628275-e016b549-67e5-46cf-99c5-269e1f22b98c.jpeg",
+        "t": "NETFLIX #7 | داستان اولین شکست استراتژیک نت‌فلیکس با کوئیکستر چی بود؟"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-13T04:27:29Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794543904012-621f76ac-d714-4873-984f-e6c1ad2db320.jpeg",
-        "link": "https://shows.acast.com/business-stories-podcast/episodes/6af691b228531eda45b921f2",
-        "title": "آموزش کامل و رایگان ساخت و انتشار پادکست"
-      },
       {
         "at": "2026-11-12T18:48:03Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794509191116-4d20860c-074f-46ba-9b6d-d4caf11f5382.jpeg",
@@ -54400,6 +54394,12 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794412151410-14b7b211-3c22-4b76-8b6c-15948ca0d938.jpeg",
         "link": "https://furbodm.com/",
         "title": "Disney #1 | دنیای کارتون و انیمیشن قبل از دیزنی چه شکلی بود؟"
+      },
+      {
+        "at": "2026-11-10T14:56:01Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794322140453-2157de57-8ff9-4ff8-b67f-364f6b256299.jpeg",
+        "link": "https://furbodm.com/",
+        "title": "Disney #0 | فصل سوم پادکست بیزینس استوریز؛ والت دیزنی"
       }
     ],
     "recent_30d": [
@@ -54414,7 +54414,7 @@
       0,
       0,
       1,
-      40
+      39
     ],
     "status": "active"
   },
@@ -60962,8 +60962,8 @@
       0,
       0,
       0,
-      0,
-      11,
+      1,
+      10,
       2,
       3,
       0
@@ -70909,8 +70909,8 @@
       0,
       2,
       9,
-      13,
-      12
+      14,
+      11
     ],
     "status": "active"
   },
@@ -70991,8 +70991,8 @@
     "recent_30d": [
       2,
       0,
-      4,
-      4,
+      5,
+      3,
       1,
       0,
       0,
@@ -86383,7 +86383,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4270,
-    "eps_365": 797,
+    "eps_365": 796,
     "eps_90": 251,
     "first_at": "2023-09-13",
     "first_year": 1402,
