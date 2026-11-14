@@ -31352,7 +31352,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       4,
       3,
       0,
@@ -79576,20 +79576,26 @@
   },
   "sfrnamh-hai-soti-lst-sknd": {
     "avg_gap_days": 1.2,
-    "avg_length": 21,
-    "episodes": 112,
-    "eps_365": 112,
-    "eps_90": 66,
+    "avg_length": 20,
+    "episodes": 113,
+    "eps_365": 113,
+    "eps_90": 67,
     "first_at": "2026-06-29",
     "first_year": 1405,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T06:49:00Z",
-    "last_link": "https://bavexa.com/e/57562-dj-hesam-rangarang-1",
-    "last_title": "DJ Hesam - Rangarang Ep.01",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T09:29:00Z",
+    "last_link": "https://bavexa.com/e/57711-tehran-feat-58",
+    "last_title": "Dj Barbod & Mohamad Mouryani - Tehran Feat 58",
     "max_length": 110,
     "median_length": 19,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://cdn-bavexa.version.ir/episodes/57711/source.mp3",
+        "at": "2026-11-14T09:29:00Z",
+        "i": "https://cdn.bavexa.com/episodes/TRRFvW0ODkuKnAiHUY0UXeN0JKF4JUwQYwSTNUp5.jpg",
+        "t": "Dj Barbod & Mohamad Mouryani - Tehran Feat 58"
+      },
       {
         "a": "https://cdn-bavexa.version.ir/episodes/57562/source.mp3",
         "at": "2026-11-12T06:49:00Z",
@@ -79631,15 +79637,15 @@
         "at": "2026-11-04T13:34:00Z",
         "i": "https://cdn.bavexa.com/episodes/PfSXNfXFtbWvabTM6eg8MSQ0JoqKKyiqzsbmxMaG.jpg",
         "t": "Jamov Deep - Silver Night"
-      },
-      {
-        "a": "https://cdn-bavexa.version.ir/episodes/55554/source.mp3",
-        "at": "2026-11-03T13:35:00Z",
-        "i": "https://cdn.bavexa.com/episodes/0WMlJVApT4UMH6BwE6VLaPU8drY4zoUPpIb2R0LU.jpg",
-        "t": "Shahrad Omidvar - Diamond Mashup 12"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T09:29:00Z",
+        "i": "https://cdn.bavexa.com/episodes/TRRFvW0ODkuKnAiHUY0UXeN0JKF4JUwQYwSTNUp5.jpg",
+        "link": "https://bavexa.com/e/57711-tehran-feat-58",
+        "title": "Dj Barbod & Mohamad Mouryani - Tehran Feat 58"
+      },
       {
         "at": "2026-11-12T06:49:00Z",
         "i": "https://cdn.bavexa.com/episodes/sqhchB757tlYgXqgV9JKHu1enVLN6ZDwX0GTPZz9.jpg",
@@ -79651,12 +79657,6 @@
         "i": "https://cdn.bavexa.com/episodes/qGrNEtqJtl7q9yrimJKzGXNRNX4RXp87uKDdXICO.jpg",
         "link": "https://bavexa.com/e/57554-ferovaal-nostalgia-club-04",
         "title": "Ferovaal - NOSTALGIA CLUB Ep.04"
-      },
-      {
-        "at": "2026-11-10T09:00:00Z",
-        "i": "https://cdn.bavexa.com/episodes/t89YEBOHbOrVMfazmAh1881PGiLrfkEHz04gN6cU.jpg",
-        "link": "https://bavexa.com/e/57502-dj-momtaz-mixbox-07",
-        "title": "Dj Momtaz - Mix Box Ep.07"
       }
     ],
     "recent_30d": [
@@ -79671,7 +79671,7 @@
       16,
       20,
       23,
-      23
+      24
     ],
     "status": "active"
   },
@@ -85190,7 +85190,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4270,
-    "eps_365": 799,
+    "eps_365": 798,
     "eps_90": 251,
     "first_at": "2023-09-13",
     "first_year": 1402,
