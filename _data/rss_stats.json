@@ -26611,10 +26611,10 @@
     "status": "stopped"
   },
   "hmsfr": {
-    "avg_gap_days": 35.3,
+    "avg_gap_days": 37.7,
     "avg_length": 64,
     "episodes": 65,
-    "eps_365": 11,
+    "eps_365": 10,
     "eps_90": 5,
     "first_at": "2023-06-27",
     "first_year": 1402,
@@ -40437,7 +40437,7 @@
     "avg_length": 27,
     "episodes": 136,
     "eps_365": 31,
-    "eps_90": 10,
+    "eps_90": 9,
     "first_at": "2024-05-18",
     "first_year": 1403,
     "last": "1405/08/12",
@@ -40515,8 +40515,8 @@
       0,
       4,
       4,
-      5,
-      5,
+      6,
+      4,
       1,
       4
     ],
