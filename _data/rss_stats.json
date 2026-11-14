@@ -76387,8 +76387,8 @@
       2,
       6,
       7,
-      6,
-      6,
+      7,
+      5,
       2
     ],
     "status": "active"
@@ -81059,21 +81059,27 @@
     "status": "active"
   },
   "shab-tab-shb-tab": {
-    "avg_gap_days": 39.4,
-    "avg_length": 35,
-    "episodes": 25,
-    "eps_365": 10,
-    "eps_90": 8,
+    "avg_gap_days": 36.0,
+    "avg_length": 36,
+    "episodes": 26,
+    "eps_365": 11,
+    "eps_90": 9,
     "first_at": "2022-06-07",
     "first_year": 1401,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T18:49:04Z",
-    "last_link": "https://www.spreaker.com/episode/shb-tab-lysnkw-dr-brabr-wawyluf-qsmt-dwm-azmaysh-ya-nmaysh--76272782",
-    "last_title": "شب تاب: لیسنکو در برابر واویلُف - قسمت دوم: آزمایش یا نمایش؟",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T17:20:02Z",
+    "last_link": "https://www.spreaker.com/episode/shb-tab-lysnkw-dr-brabr-wawyluf-qsmt-swm-aqtsadi-trs--76348710",
+    "last_title": "شب تاب: لیسنکو در برابر واویلُف - قسمت سوم: اقتصادِ ترس",
     "max_length": 52,
     "median_length": 35,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76348710/shabtab_s_06_e_03.mp3",
+        "at": "2026-11-14T17:20:02Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ed12aee10bf3ee4c591ade5d14835943.jpg",
+        "t": "شب تاب: لیسنکو در برابر واویلُف - قسمت سوم: اقتصادِ ترس"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76272782/shabtab_s_06_e_02.mp3",
         "at": "2026-11-09T18:49:04Z",
@@ -81115,15 +81121,15 @@
         "at": "2026-09-15T17:15:02Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3da2fc6897131b7f7ecd34b43f39f2f1.jpg",
         "t": "شب تاب: گروه دانر ـ قسمت دوم: میان‌بُر"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75060311/shabtab_s_05_e_01.mp3",
-        "at": "2026-09-11T00:25:22Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/04af54480f45ed7775dec004dbd2a27c.jpg",
-        "t": "شب تاب: گروه دانر - قسمت اول: راهی به بهشت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T17:20:02Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ed12aee10bf3ee4c591ade5d14835943.jpg",
+        "link": "https://www.spreaker.com/episode/shb-tab-lysnkw-dr-brabr-wawyluf-qsmt-swm-aqtsadi-trs--76348710",
+        "title": "شب تاب: لیسنکو در برابر واویلُف - قسمت سوم: اقتصادِ ترس"
+      },
       {
         "at": "2026-11-09T18:49:04Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/4826d173f82d2216123e52350d2101a0.jpg",
@@ -81135,12 +81141,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3cfe38345462e6c975f9d729fe0b458f.jpg",
         "link": "https://www.spreaker.com/episode/shb-tab-lysnkw-dr-brabr-wawyluf-qsmt-awl-tla-dr-brabr-bdhr--76120666",
         "title": "شب تاب: لیسنکو در برابر واویلُف - قسمت اول: طلا در برابر بذر"
-      },
-      {
-        "at": "2026-10-06T15:05:02Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/dd278856e12519247880419730558d1b.jpg",
-        "link": "https://www.spreaker.com/episode/shb-tab-grwh-danr-qsmt-shshm-nh-chndan-njat--75524196",
-        "title": "شب تاب: گروه دانر - قسمت ششم: نه چندان نجات"
       }
     ],
     "recent_30d": [
@@ -81155,7 +81155,7 @@
       0,
       2,
       4,
-      2
+      3
     ],
     "status": "active"
   },
