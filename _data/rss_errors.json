@@ -76,7 +76,7 @@
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
   },
   "hnr-jng": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
     "rss": "http://namlik.me/rss/318"
   },
   "hs-khob": {
