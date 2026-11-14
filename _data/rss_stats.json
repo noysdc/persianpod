@@ -59466,21 +59466,27 @@
     "status": "stopped"
   },
   "podcast-jnaii-khon": {
-    "avg_gap_days": 20.1,
-    "avg_length": 62,
-    "episodes": 26,
-    "eps_365": 18,
-    "eps_90": 10,
+    "avg_gap_days": 19.4,
+    "avg_length": 61,
+    "episodes": 27,
+    "eps_365": 19,
+    "eps_90": 11,
     "first_at": "2025-07-30",
     "first_year": 1404,
-    "last": "1405/08/16",
-    "last_at": "2026-11-07T02:20:16Z",
-    "last_link": "https://redcircle.com/shows/03281b3e-2e41-4243-8743-4f4c1e6894ac/episodes/551af2bb-b27d-4303-93ee-258aad18ca0a",
-    "last_title": "بیست و شش | سریال پروفایل | فصل اول ، قسمت اول: دختران",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T02:15:48Z",
+    "last_link": "https://redcircle.com/shows/03281b3e-2e41-4243-8743-4f4c1e6894ac/episodes/fbe5f0b6-6655-4c62-bf34-b0025e40f3d7",
+    "last_title": "بیست و هفت | سریال پروفایل | فصل اول ، قسمت دوم : انباری",
     "max_length": 103,
-    "median_length": 58,
+    "median_length": 57,
     "min_length": 25,
     "play": [
+      {
+        "a": "https://audio1.redcircle.com/episodes/fbe5f0b6-6655-4c62-bf34-b0025e40f3d7/stream.mp3",
+        "at": "2026-11-14T02:15:48Z",
+        "i": "https://media.redcircle.com/images/2026/11/13/16/4f1bd7f5-0d4a-4f60-924b-28b22bfc2de3_untitled_design.jpg",
+        "t": "بیست و هفت | سریال پروفایل | فصل اول ، قسمت دوم : انباری"
+      },
       {
         "a": "https://audio1.redcircle.com/episodes/551af2bb-b27d-4303-93ee-258aad18ca0a/stream.mp3",
         "at": "2026-11-07T02:20:16Z",
@@ -59522,15 +59528,15 @@
         "at": "2026-09-19T02:33:44Z",
         "i": "https://media.redcircle.com/images/2026/9/18/19/c1a5cce4-5c10-4b04-b648-2107bf0d0b0e___________.jpg",
         "t": "بیست | بیست و سه سال بعد"
-      },
-      {
-        "a": "https://audio1.redcircle.com/episodes/9805d7ee-56af-4bd1-89ce-186552ad04a8/stream.mp3",
-        "at": "2026-09-12T03:13:41Z",
-        "i": "https://media.redcircle.com/images/2026/9/11/16/dc4859b2-43a3-4a2b-b833-ff1c2bd631c3____________.jpg",
-        "t": "نوزده | اسلیو مستر"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T02:15:48Z",
+        "i": "https://media.redcircle.com/images/2026/11/13/16/4f1bd7f5-0d4a-4f60-924b-28b22bfc2de3_untitled_design.jpg",
+        "link": "https://redcircle.com/shows/03281b3e-2e41-4243-8743-4f4c1e6894ac/episodes/fbe5f0b6-6655-4c62-bf34-b0025e40f3d7",
+        "title": "بیست و هفت | سریال پروفایل | فصل اول ، قسمت دوم : انباری"
+      },
       {
         "at": "2026-11-07T02:20:16Z",
         "i": "https://media.redcircle.com/images/2026/11/6/19/628a17f4-e7b6-4924-ad6f-5718c682aeeb_untitled_design.jpg",
@@ -59542,12 +59548,6 @@
         "i": "https://media.redcircle.com/images/2026/10/23/17/0fe79483-62ed-4386-b6c4-7126f900f0fe_untitled_design.jpg",
         "link": "https://redcircle.com/shows/03281b3e-2e41-4243-8743-4f4c1e6894ac/episodes/1432ba8d-abef-4075-8c20-5a365e29a383",
         "title": "بیست و پنج | معصوم"
-      },
-      {
-        "at": "2026-10-17T02:15:05Z",
-        "i": "https://media.redcircle.com/images/2026/10/16/18/9dc27775-9e7e-4521-8075-61f4e10a4c6c_untitled_design.jpg",
-        "link": "https://redcircle.com/shows/03281b3e-2e41-4243-8743-4f4c1e6894ac/episodes/e522547e-e904-4fb1-a3d8-fdfd636c3647",
-        "title": "بیست و چهار | فرشته ی مرگ"
       }
     ],
     "recent_30d": [
@@ -59562,7 +59562,7 @@
       2,
       3,
       4,
-      3
+      4
     ],
     "status": "active"
   },
