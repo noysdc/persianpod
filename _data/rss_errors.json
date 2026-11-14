@@ -35,6 +35,10 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
+  "baigani-ha-padkst-mhndsi-snaia": {
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "rss": "https://iien.ir/category/podcast/feed/"
+  },
   "baigani-ha-sda": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://musiceiranian.ir/type/audio/feed"
@@ -99,10 +103,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
   },
-  "lzt-dniai-ktab": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://feed.podkadeh.cloud/podcastxml/lezate-donyaye-ketab.xml"
-  },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://www.malino.co/feed/podcast/malinopodcast/"
@@ -118,10 +118,6 @@
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
-  },
-  "podcast-fotbal-lb": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://feed.podkadeh.cloud/podcastxml/footballlab.xml"
   },
   "podcast-khakstri-roan": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
