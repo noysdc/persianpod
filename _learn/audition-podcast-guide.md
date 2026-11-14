@@ -41,7 +41,7 @@ kbd.audition-key {
 }
 .audition-control-item { display: inline-flex; align-items: center; gap: .45em; }
 .audition-control-label { font-size: .9em; }
-.audition-arrow { color: #16865b; font-weight: 800; }
+.audition-arrow { display: inline-block; direction: ltr; unicode-bidi: isolate; white-space: nowrap; color: #16865b; font-weight: 800; }
 .audition-track-demo {
   display: inline-flex; align-items: center; flex-wrap: wrap; gap: .45em;
   padding: .55em .7em; border: 1px solid rgba(128,128,128,.5);
@@ -60,6 +60,7 @@ kbd.audition-key {
 .audition-figure figcaption { margin-top: .6em; font-size: .9em; opacity: .85; line-height: 1.8; }
 .audition-figure a { display: block; }
 .audition-icon { width: 30px !important; height: 30px !important; object-fit: contain; vertical-align: middle; }
+.audition-icon-letter { display: inline-flex; flex: 0 0 30px; width: 30px; height: 30px; align-items: center; justify-content: center; box-sizing: border-box; border: 1px solid rgba(110,110,110,.55); border-radius: 4px; background: rgba(128,128,128,.14); color: inherit; font: 700 16px/1 Arial, sans-serif; direction: ltr; unicode-bidi: isolate; }
 .audition-icon-row { display: flex; flex-wrap: wrap; gap: 1.2em; align-items: center; margin: .8em 0; }
 .audition-icon-item { display: inline-flex; align-items: center; gap: .5em; }
 
@@ -110,7 +111,7 @@ kbd.audition-key {
   <span class="audition-control-item"><span class="audition-ui"><span class="audition-stop-square"></span> Stop</span><span class="audition-control-label">توقف</span></span>
 </div>
 
-> **راهنمای نشانه‌ها:** کلیدهای کیبورد با قاب برجسته مثل <kbd class="audition-key">Ctrl</kbd> نشان داده می‌شوند؛ نام دکمه‌ها و گزینه‌های داخل Audition داخل قاب ساده می‌آیند. فلش سبز <span class="audition-arrow">→</span> مسیر حرکت در منوها را نشان می‌دهد. شکل‌های این صفحه برای تشخیص کنترل‌ها هستند؛ برای جای دقیق هر گزینه، توضیح همان مرحله را دنبال کن.
+> **راهنمای نشانه‌ها:** کلیدهای کیبورد با قاب برجسته مثل <kbd class="audition-key">Ctrl</kbd> نشان داده می‌شوند؛ نام دکمه‌ها و گزینه‌های داخل Audition داخل قاب ساده می‌آیند. فلش سبز <span class="audition-arrow" dir="ltr">→</span> مسیر حرکت در منوها را نشان می‌دهد. شکل‌های این صفحه برای تشخیص کنترل‌ها هستند؛ برای جای دقیق هر گزینه، توضیح همان مرحله را دنبال کن.
 
 اگر پادکست ضبط می‌کنی اما بعد از ادیت هنوز صدایت آن‌طور که می‌خواهی شنیده نمی‌شود، این راهنما کمک می‌کند قدم‌به‌قدم بهترش کنی. نشانه‌های «خام» بودن صدا این‌هاست:
 
@@ -195,7 +196,7 @@ kbd.audition-key {
 
 مسیر کار این است:
 
-> **۱) ضبط** <span class="audition-arrow">→</span> **۲) قالب سشن** <span class="audition-arrow">→</span> **۳) تمیزکاری** <span class="audition-arrow">→</span> **۴) برش** <span class="audition-arrow">→</span> **۵) زنجیره‌ی صدا** <span class="audition-arrow">→</span> **۶) موزیک** <span class="audition-arrow">→</span> **۷) افکت‌ها** <span class="audition-arrow">→</span> **۸) مستر** <span class="audition-arrow">→</span> **۹) خروجی** <span class="audition-arrow">→</span> **۱۰) گوش‌دادن**
+> **۱) ضبط** <span class="audition-arrow" dir="ltr">←</span> **۲) قالب سشن** <span class="audition-arrow" dir="ltr">←</span> **۳) تمیزکاری** <span class="audition-arrow" dir="ltr">←</span> **۴) برش** <span class="audition-arrow" dir="ltr">←</span> **۵) زنجیره‌ی صدا** <span class="audition-arrow" dir="ltr">←</span> **۶) موزیک** <span class="audition-arrow" dir="ltr">←</span> **۷) افکت‌ها** <span class="audition-arrow" dir="ltr">←</span> **۸) مستر** <span class="audition-arrow" dir="ltr">←</span> **۹) خروجی** <span class="audition-arrow" dir="ltr">←</span> **۱۰) گوش‌دادن**
 
 ترتیب اتفاقی نیست و دلیل دارد. این منطق را بدان تا در بقیه‌ی مسیر گم نشوی:
 
@@ -375,13 +376,13 @@ True Peak برآوردی از قله‌های سیگنال بازسازی‌شد
 
 **الف) تنظیم سخت‌افزار** (یک بار):
 
-1. **Edit <span class="audition-arrow">→</span> Preferences <span class="audition-arrow">→</span> Audio Hardware** را باز کن.
+1. **Edit <span class="audition-arrow" dir="ltr">→</span> Preferences <span class="audition-arrow" dir="ltr">→</span> Audio Hardware** را باز کن.
 2. **Default Input** را میکروفون خودت، **Default Output** را هدفونت و **Sample Rate** را **48000** بگذار. OK.
 
 **ب) آماده‌سازی ترک** (در سشن اولیه‌ای که در بخش ۶ می‌سازی؛ از اپیزود دوم به بعد، قالب آماده است):
 
 1. **ترک اول (Voice)** را انتخاب کن.
-2. منوی **ورودی** ترک (فلش <span class="audition-arrow">→</span> داخل هدر ترک) را باز کن و **ورودی مونوی میکروفون** را انتخاب کن.
+2. منوی **ورودی** ترک (فلش <span class="audition-arrow" dir="ltr">→</span> داخل هدر ترک) را باز کن و **ورودی مونوی میکروفون** را انتخاب کن.
 3. دکمه‌ی <span class="audition-ui">R</span> (Record Arm) همان ترک را بزن تا قرمز شود. **فقط این ترک.** این دکمه را با کلید <kbd class="audition-key">R</kbd> روی کیبورد اشتباه نگیر؛ منظور، کنترل داخل هدر همان ترک است.
 
 <figure class="audition-figure">
@@ -396,8 +397,8 @@ True Peak برآوردی از قله‌های سیگنال بازسازی‌شد
   <figcaption>نمای شماتیک هدر ترک: دکمه‌ی <b>R</b> را فقط روی ترک صدای راوی فعال کن. این تصویر بازسازی آموزشی است، نه اسکرین‌شات محیط برنامه. ظاهر و ترتیب کنترل‌ها ممکن است با نسخه یا چیدمان پنجره فرق کند.</figcaption>
 </figure>
 <div class="audition-icon-row" aria-label="آیکون‌های واقعی کنترل ترک در مستندات Adobe">
-  <span class="audition-icon-item"><img class="audition-icon" src="https://helpx.adobe.com/content/dam/help/icons/arm_for_record.png" alt="آیکون Arm For Record با حرف R" loading="lazy"> <span><b>Arm For Record (R)</b> — آماده‌کردن ترک برای ضبط</span></span>
-  <span class="audition-icon-item"><img class="audition-icon" src="https://helpx.adobe.com/content/dam/help/icons/monitor_input.png" alt="آیکون Monitor Input با حرف I" loading="lazy"> <span><b>Monitor Input (I)</b> — شنیدن ورودی زنده</span></span>
+  <span class="audition-icon-item"><span class="audition-icon-letter" role="img" aria-label="دکمه Arm For Record با حرف R">R</span> <span><b>Arm For Record (R)</b> — آماده‌کردن ترک برای ضبط</span></span>
+  <span class="audition-icon-item"><span class="audition-icon-letter" role="img" aria-label="دکمه Monitor Input با حرف I">I</span> <span><b>Monitor Input (I)</b> — شنیدن ورودی زنده</span></span>
 </div>
 <figure class="audition-figure">
   <a href="https://helpx.adobe.com/audition/desktop/importing-recording-and-playing/recording-audio.html">
@@ -450,7 +451,7 @@ True Peak برآوردی از قله‌های سیگنال بازسازی‌شد
 
 ### ۶.۲ ساخت سشن
 
-1. **File <span class="audition-arrow">→</span> New <span class="audition-arrow">→</span> Multitrack Session.**
+1. **File <span class="audition-arrow" dir="ltr">→</span> New <span class="audition-arrow" dir="ltr">→</span> Multitrack Session.**
 2. اسم دلخواه بده (مثلاً `NOYS_Template`) و پوشه‌ی ذخیره را انتخاب کن.
 3. **Sample Rate:** 48000 Hz.
 4. **Bit Depth:** 32.
@@ -475,13 +476,13 @@ True Peak برآوردی از قله‌های سیگنال بازسازی‌شد
 
 **ساخت باس موزیک:**
 
-1. **Multitrack <span class="audition-arrow">→</span> Tracks <span class="audition-arrow">→</span> Add Stereo Bus Track.**
+1. **Multitrack <span class="audition-arrow" dir="ltr">→</span> Tracks <span class="audition-arrow" dir="ltr">→</span> Add Stereo Bus Track.**
 2. روی اسمش دو بار کلیک کن و **Music Bus** بنویس.
 3. در هدر ترک **Music**، منوی **خروجی** (فلش به چپ، پایین ورودی) را باز کن و **Music Bus** را انتخاب کن.
 
 **ساخت ترک SFX:**
 
-1. **Multitrack <span class="audition-arrow">→</span> Tracks <span class="audition-arrow">→</span> Add Stereo Audio Track.**
+1. **Multitrack <span class="audition-arrow" dir="ltr">→</span> Tracks <span class="audition-arrow" dir="ltr">→</span> Add Stereo Audio Track.**
 2. اسمش را **SFX** بگذار. خروجی‌اش **Mix** بماند (به چیز دیگری وصل نکن).
 
 **چرا SFX ترک جدا است و روی باس موزیک نمی‌رود؟** موزیک از Music Bus رد می‌شود که ایکیو (برای کم‌کردن محدوده‌ی صدای گفتار) و Stereo Expander دارد. اگر افکت صوتی را روی همان ترک یا باس بگذاری، همین پردازش‌ها آن را تار و کم‌وضوح می‌کنند. ترک جدا حجم، پن (چپ و راست) و ایکیوی مستقل هم به تو می‌دهد.
@@ -507,25 +508,25 @@ True Peak برآوردی از قله‌های سیگنال بازسازی‌شد
 1. بار اول، یک اپیزود آزمایشی را با همین سشن جلو ببر. ترک‌ها، باس‌ها، مسیردهی و افکت‌ها را تنظیم کن و نتیجه را گوش بده.
 2. وقتی از ساختار سشن راضی شدی، یک نسخه‌ی تمیز از آن بساز: کلیپ‌های صوتی، مارکرهای مخصوص اپیزود و هر تنظیمی را که فقط به همان اپیزود مربوط است پاک کن. ترک‌ها، باس‌ها، مسیردهی، افکت‌ها و مقدارهای شروع باید باقی بمانند.
 3. سشن را ذخیره کن و مطمئن شو هیچ کلیپ یا فایل مربوط به اپیزود آزمایشی داخلش نمانده است.
-4. از منوی **File <span class="audition-arrow">→</span> Export <span class="audition-arrow">→</span> Session as Template** قالب را ذخیره کن و یک نام مشخص، مثلاً `NOYS_Podcast_Template`، برایش بگذار.
+4. از منوی **File <span class="audition-arrow" dir="ltr">→</span> Export <span class="audition-arrow" dir="ltr">→</span> Session as Template** قالب را ذخیره کن و یک نام مشخص، مثلاً `NOYS_Podcast_Template`، برایش بگذار.
 5. برای اطمینان، یک سشن تازه بساز و از منوی Template همین قالب را انتخاب کن. بررسی کن که ترک‌ها، مسیردهی و افکت‌ها درست بارگذاری شده‌اند.
 
-**از اپیزود بعد به بعد:** از مسیر **File <span class="audition-arrow">→</span> New <span class="audition-arrow">→</span> Multitrack Session** یک سشن تازه بساز و قالب خودت را از فهرست Template انتخاب کن. بعد همان ابتدا سشن را با نام اپیزود جدید ذخیره کن.
+**از اپیزود بعد به بعد:** از مسیر **File <span class="audition-arrow" dir="ltr">→</span> New <span class="audition-arrow" dir="ltr">→</span> Multitrack Session** یک سشن تازه بساز و قالب خودت را از فهرست Template انتخاب کن. بعد همان ابتدا سشن را با نام اپیزود جدید ذخیره کن.
 
-> **نکته‌ی مهم درباره‌ی فایل SESX:** فایل سشن خودش صدای ضبط‌شده را داخلش نگه نمی‌دارد؛ فقط مسیر فایل‌های صوتی و تنظیم‌های پروژه را ثبت می‌کند. پس فایل‌های داخل پوشه‌های Recordings، Music و SFX را جابه‌جا یا حذف نکن. اگر پروژه را به کامپیوتر دیگری می‌بری یا می‌خواهی یک نسخه‌ی کامل آرشیوی داشته باشی، از قابلیت **File <span class="audition-arrow">→</span> Export <span class="audition-arrow">→</span> Session** برای ساخت آرشیو همراه فایل‌های وابسته استفاده کن.
+> **نکته‌ی مهم درباره‌ی فایل SESX:** فایل سشن خودش صدای ضبط‌شده را داخلش نگه نمی‌دارد؛ فقط مسیر فایل‌های صوتی و تنظیم‌های پروژه را ثبت می‌کند. پس فایل‌های داخل پوشه‌های Recordings، Music و SFX را جابه‌جا یا حذف نکن. اگر پروژه را به کامپیوتر دیگری می‌بری یا می‌خواهی یک نسخه‌ی کامل آرشیوی داشته باشی، از قابلیت **File <span class="audition-arrow" dir="ltr">→</span> Export <span class="audition-arrow" dir="ltr">→</span> Session** برای ساخت آرشیو همراه فایل‌های وابسته استفاده کن.
 
 ### ۶.۷ ساختار پوشه‌ها (پیشنهاد)
 
 برای هر اپیزود یک پوشه بساز:
 
 - `Episode-03/`
-  - `Recordings/` <span class="audition-arrow">→</span> ضبط‌های خام
-  - `Music/` <span class="audition-arrow">→</span> موزیک‌ها
-  - `SFX/` <span class="audition-arrow">→</span> افکت‌ها
-  - `Session/` <span class="audition-arrow">→</span> فایل `.sesx`
-  - `Exports/` <span class="audition-arrow">→</span> WAV و MP3 نهایی
+  - `Recordings/` <span class="audition-arrow" dir="ltr">←</span> ضبط‌های خام
+  - `Music/` <span class="audition-arrow" dir="ltr">←</span> موزیک‌ها
+  - `SFX/` <span class="audition-arrow" dir="ltr">←</span> افکت‌ها
+  - `Session/` <span class="audition-arrow" dir="ltr">←</span> فایل `.sesx`
+  - `Exports/` <span class="audition-arrow" dir="ltr">←</span> WAV و MP3 نهایی
 
-فایل SESX را کنار این پوشه‌ها نگه دار و مسیر فایل‌های منبع را تغییر نده. اگر قرار است کل پروژه را جابه‌جا کنی، به‌جای کپی‌کردن فقط فایل SESX، از **File <span class="audition-arrow">→</span> Export <span class="audition-arrow">→</span> Session** استفاده کن تا فایل‌های وابسته هم همراه پروژه آرشیو شوند.
+فایل SESX را کنار این پوشه‌ها نگه دار و مسیر فایل‌های منبع را تغییر نده. اگر قرار است کل پروژه را جابه‌جا کنی، به‌جای کپی‌کردن فقط فایل SESX، از **File <span class="audition-arrow" dir="ltr">→</span> Export <span class="audition-arrow" dir="ltr">→</span> Session** استفاده کن تا فایل‌های وابسته هم همراه پروژه آرشیو شوند.
 
 ---
 
@@ -568,7 +569,7 @@ True Peak برآوردی از قله‌های سیگنال بازسازی‌شد
 **اگر داری:**
 
 1. کل فایل را انتخاب کن (<kbd class="audition-key">Ctrl</kbd> + <kbd class="audition-key">A</kbd>).
-2. **Effects <span class="audition-arrow">→</span> Noise Reduction / Restoration <span class="audition-arrow">→</span> DeHummer.**
+2. **Effects <span class="audition-arrow" dir="ltr">→</span> Noise Reduction / Restoration <span class="audition-arrow" dir="ltr">→</span> DeHummer.**
 3. **Frequency** را **50** بگذار و تعداد هارمونیک‌ها را حدود 3 تا 4.
 4. با Preview گوش کن. وزوز باید کم شود و صدای تو **دست‌نخورده** بماند.
 5. Apply.
@@ -580,9 +581,9 @@ True Peak برآوردی از قله‌های سیگنال بازسازی‌شد
 **روش کار:** نرم‌افزار باید بداند «نویز» دقیقاً چه صدایی دارد تا فقط همان را کم کند. برای این کار به یک نمونه‌ی خالص از نویز (همان ۱۰ ثانیه سکوت ابتدای ضبط) نیاز دارد.
 
 1. در Waveform editor، با ماوس یک تکه‌ی **۱ تا ۲ ثانیه** از سکوت ابتدایی را انتخاب کن (جایی که **فقط نویز** است و حرفی نیست).
-2. **Effects <span class="audition-arrow">→</span> Noise Reduction / Restoration <span class="audition-arrow">→</span> Capture Noise Print** (یا <kbd class="audition-key">Shift</kbd> + <kbd class="audition-key">P</kbd>). اکنون «اثر انگشت» نویز ذخیره شد.
+2. **Effects <span class="audition-arrow" dir="ltr">→</span> Noise Reduction / Restoration <span class="audition-arrow" dir="ltr">→</span> Capture Noise Print** (یا <kbd class="audition-key">Shift</kbd> + <kbd class="audition-key">P</kbd>). اکنون «اثر انگشت» نویز ذخیره شد.
 3. <kbd class="audition-key">Ctrl</kbd> + <kbd class="audition-key">A</kbd> تا کل فایل انتخاب شود.
-4. **Effects <span class="audition-arrow">→</span> Noise Reduction / Restoration <span class="audition-arrow">→</span> Noise Reduction.**
+4. **Effects <span class="audition-arrow" dir="ltr">→</span> Noise Reduction / Restoration <span class="audition-arrow" dir="ltr">→</span> Noise Reduction.**
 5. تنظیم‌ها:
 
 <div class="table-wrap" markdown="1">
@@ -616,7 +617,7 @@ True Peak برآوردی از قله‌های سیگنال بازسازی‌شد
 1. <kbd class="audition-key">Shift</kbd> + <kbd class="audition-key">D</kbd> را بزن تا طیف باز شود.
 2. تق لب به‌صورت یک **خط عمودی باریک و روشن** دیده می‌شود.
 3. با ابزار **Marquee** (انتخاب مستطیلی، در نوار ابزار بالا) دور همان خط را انتخاب کن.
-4. **Favorites <span class="audition-arrow">→</span> Auto Heal** را اجرا کن. Audition بخش انتخاب‌شده را با اطلاعات اطرافش ترمیم می‌کند. اگر از Spot Healing Brush استفاده کنی، با کشیدن قلم روی عیب، همین فرمان به‌صورت خودکار اجرا می‌شود.
+4. **Favorites <span class="audition-arrow" dir="ltr">→</span> Auto Heal** را اجرا کن. Audition بخش انتخاب‌شده را با اطلاعات اطرافش ترمیم می‌کند. اگر از Spot Healing Brush استفاده کنی، با کشیدن قلم روی عیب، همین فرمان به‌صورت خودکار اجرا می‌شود.
 5. اگر نتیجه‌ی بهتری لازم بود، ابزار **Spot Healing Brush** (قلم‌مو در نوار ابزار) را امتحان کن. این ابزار برای عیب‌های کوچک و جداگانه مناسب است و هر انتخاب نباید بیشتر از ۴ ثانیه باشد.
 
 **روش ۲: خودکار** (برای صدها مورد): ابزاری مثل **Mouth De-click** در iZotope RX این کار را روی کل فایل خودکار انجام می‌دهد و برای فایل طولانی خیلی سریع‌تر است.
@@ -630,7 +631,7 @@ True Peak برآوردی از قله‌های سیگنال بازسازی‌شد
 **روش درست:**
 
 1. در طیف، پلوزیو به‌صورت **لکه‌ی روشن پایین** دیده می‌شود. فقط **همان تکه‌ی کوتاه** (کمتر از 0.2 ثانیه، روی همان حرف) را انتخاب کن.
-2. **Effects <span class="audition-arrow">→</span> Filter and EQ <span class="audition-arrow">→</span> Scientific Filter.**
+2. **Effects <span class="audition-arrow" dir="ltr">→</span> Filter and EQ <span class="audition-arrow" dir="ltr">→</span> Scientific Filter.**
 3. تنظیم‌ها:
    - **Types:** Bessel
    - **Modes:** HighPass
@@ -669,7 +670,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 ### ۸.۱ ریختن فایل‌ها روی ترک
 
-اگر مستقیم در Audition ضبط کرده‌ای، کلیپ‌ها قبلاً روی ترک هستند. اگر فایل جداگانه داری، از پنل **Files** (سمت چپ) آن را به ترک **Voice** بکش، یا **File <span class="audition-arrow">→</span> Import <span class="audition-arrow">→</span> File** و بعد بکش.
+اگر مستقیم در Audition ضبط کرده‌ای، کلیپ‌ها قبلاً روی ترک هستند. اگر فایل جداگانه داری، از پنل **Files** (سمت چپ) آن را به ترک **Voice** بکش، یا **File <span class="audition-arrow" dir="ltr">→</span> Import <span class="audition-arrow" dir="ltr">→</span> File** و بعد بکش.
 
 ### ۸.۲ برش
 
@@ -744,7 +745,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 **چه می‌کند؟** نویز خفیف باقی‌مانده را کم می‌کند.
 
-**مسیر:** Effects <span class="audition-arrow">→</span> Noise Reduction / Restoration <span class="audition-arrow">→</span> **DeNoise**.
+**مسیر:** Effects <span class="audition-arrow" dir="ltr">→</span> Noise Reduction / Restoration <span class="audition-arrow" dir="ltr">→</span> **DeNoise**.
 
 <div class="table-wrap" markdown="1">
 
@@ -761,7 +762,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 **چه می‌کند؟** بلندی جمله‌های راوی را به‌صورت خودکار هموار می‌کند، مثل یک مهندس صدا که دائم دست روی دکمه‌ی حجم دارد.
 
-**مسیر:** Effects <span class="audition-arrow">→</span> Amplitude and Compression <span class="audition-arrow">→</span> **Speech Volume Leveler**.
+**مسیر:** Effects <span class="audition-arrow" dir="ltr">→</span> Amplitude and Compression <span class="audition-arrow" dir="ltr">→</span> **Speech Volume Leveler**.
 
 <div class="table-wrap" markdown="1">
 
@@ -781,7 +782,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 **چه می‌کند؟** بم و زیر صدا را شکل می‌دهد: لرزش زیر را می‌برد، گرمی اضافه می‌کند و وضوح می‌دهد.
 
-**مسیر:** Effects <span class="audition-arrow">→</span> Filter and EQ <span class="audition-arrow">→</span> **Parametric Equalizer**.
+**مسیر:** Effects <span class="audition-arrow" dir="ltr">→</span> Filter and EQ <span class="audition-arrow" dir="ltr">→</span> **Parametric Equalizer**.
 
 **آماده‌سازی:** پایین پنجره، گزینه‌ی **Constant** را روی **Q** بگذار تا مقدار Q بنویسی. در پایین پنجره، هر باند یک دکمه دارد (HP، L، 1، 2، 3، 4، 5، H، LP). برای **روشن‌کردن** یک باند روی دکمه‌اش کلیک کن.
 
@@ -826,7 +827,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 **چه می‌کند؟** بخش‌های بلند را کمی پایین می‌آورد تا صدا یکدست و «چسبیده» شود.
 
-**مسیر:** Effects <span class="audition-arrow">→</span> Amplitude and Compression <span class="audition-arrow">→</span> **Single-band Compressor**.
+**مسیر:** Effects <span class="audition-arrow" dir="ltr">→</span> Amplitude and Compression <span class="audition-arrow" dir="ltr">→</span> **Single-band Compressor**.
 
 <div class="table-wrap" markdown="1">
 
@@ -852,13 +853,13 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 **نکته‌ی گوش‌دادن:** وقتی بلندی را برابر کردی، با کمپرسور باید صدا **یکدست‌تر و نزدیک‌تر** باشد، نه فقط بلندتر. بلندتر بودن گوش را گول می‌زند و همیشه «بهتر» به نظر می‌رسد.
 
- <span class="audition-arrow">→</span> **اشتباه مهم:** نام دو ابزار شبیه هم است. **Single-band Compressor** کل صدا را فشرده می‌کند، اما **Multiband Compressor** چهار ناحیه‌ی فرکانسی جدا دارد. دو کمپرسور تمام‌باند را بی‌دلیل پشت‌سرهم نگذار؛ برای کنترل «س» و «ش» از افکت اختصاصی **DeEsser** در اسلات بعد استفاده می‌کنیم.
+ <span class="audition-arrow" dir="ltr">→</span> **اشتباه مهم:** نام دو ابزار شبیه هم است. **Single-band Compressor** کل صدا را فشرده می‌کند، اما **Multiband Compressor** چهار ناحیه‌ی فرکانسی جدا دارد. دو کمپرسور تمام‌باند را بی‌دلیل پشت‌سرهم نگذار؛ برای کنترل «س» و «ش» از افکت اختصاصی **DeEsser** در اسلات بعد استفاده می‌کنیم.
 
 ### اسلات ۵: DeEsser (کنترل «س» و «ش»)
 
 **چه می‌کند؟** صدای «س» و «ش» را وقتی بیش‌ازحد تیز می‌شوند، کنترل می‌کند. برخلاف EQ ثابت، DeEsser فقط وقتی محدوده‌ی سیبیلنس از آستانه عبور کند وارد عمل می‌شود.
 
-**مسیر:** Effects <span class="audition-arrow">→</span> Amplitude and Compression <span class="audition-arrow">→</span> **DeEsser**.
+**مسیر:** Effects <span class="audition-arrow" dir="ltr">→</span> Amplitude and Compression <span class="audition-arrow" dir="ltr">→</span> **DeEsser**.
 
 <figure class="audition-figure">
   <a href="https://helpx.adobe.com/audition/desktop/effects-reference/amplitude-compression-effects.html">
@@ -884,7 +885,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 **چه می‌کند؟** کمی حس «بودن در یک اتاق» به صدا می‌دهد تا خشک و بی‌عمق نباشد. این افکت **ظریف‌ترین** است و باید خیلی کم باشد. هدف این است که وقتی خاموشش می‌کنی حس کنی «چیزی کم شد»، ولی وقتی روشن است، متوجه «ریورب» نشوی.
 
-**مسیر:** Effects <span class="audition-arrow">→</span> Reverb <span class="audition-arrow">→</span> **Studio Reverb**.
+**مسیر:** Effects <span class="audition-arrow" dir="ltr">→</span> Reverb <span class="audition-arrow" dir="ltr">→</span> **Studio Reverb**.
 
 <div class="table-wrap" markdown="1">
 
@@ -988,7 +989,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 **اگر موزیک با صدای راوی تداخل دارد،** ممکن است یک برش ملایم در محدوده‌ی وضوح گفتار کمک کند. اما صرف اینکه هر دو صدا در محدوده‌ی 2 تا 4 کیلوهرتز انرژی دارند، به این معنی نیست که حتماً باید EQ بزنی؛ اول سطح موزیک را تنظیم کن و فقط در صورت شنیدن ماسک‌شدن کلمات سراغ EQ برو.
 
-**روی Music Bus یک Parametric Equalizer بگذار** (مسیر: Effects <span class="audition-arrow">→</span> Filter and EQ <span class="audition-arrow">→</span> Parametric Equalizer، روی اسلات 1 باس):
+**روی Music Bus یک Parametric Equalizer بگذار** (مسیر: Effects <span class="audition-arrow" dir="ltr">→</span> Filter and EQ <span class="audition-arrow" dir="ltr">→</span> Parametric Equalizer، روی اسلات 1 باس):
 
 <div class="table-wrap" markdown="1">
 
@@ -1009,7 +1010,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 **چه می‌کند؟** موزیک استریو را کمی «بازتر» می‌کند تا از دو طرف شنیده شود و حس فضا بدهد، در حالی که صدای راوی در وسط می‌ماند.
 
-**مسیر:** روی **Music Bus**، اسلات 2 <span class="audition-arrow">→</span> Effects <span class="audition-arrow">→</span> Stereo Imagery <span class="audition-arrow">→</span> **Stereo Expander**.
+**مسیر:** روی **Music Bus**، اسلات 2 <span class="audition-arrow" dir="ltr">→</span> Effects <span class="audition-arrow" dir="ltr">→</span> Stereo Imagery <span class="audition-arrow" dir="ltr">→</span> **Stereo Expander**.
 
 <div class="table-wrap" markdown="1">
 
@@ -1068,7 +1069,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 - **کلیک روی خط** = یک نقطه (مربع کوچک) ساخته می‌شود.
 - **کشیدن نقطه به بالا یا پایین** = بلندتر یا آرام‌تر. وقتی ماوس روی نقطه است، مقدار dB را می‌بینی.
 - **کشیدن به چپ و راست** = تغییر زمان.
-- **حذف نقطه:** کلیک راست روی آن <span class="audition-arrow">→</span> **Delete Selected Keyframes**. یا <kbd class="audition-key">Ctrl</kbd> + <kbd class="audition-key">Z</kbd>.
+- **حذف نقطه:** کلیک راست روی آن <span class="audition-arrow" dir="ltr">→</span> **Delete Selected Keyframes**. یا <kbd class="audition-key">Ctrl</kbd> + <kbd class="audition-key">Z</kbd>.
 - بین دو نقطه، Audition خودش یک **شیب نرم** می‌سازد. پس برای هر تغییر فقط دو نقطه لازم داری: «از کجا شروع شود» و «کجا تمام شود».
 
 **الگوهای کاربردی:**
@@ -1207,17 +1208,17 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 **انجام:**
 
-1. **Multitrack <span class="audition-arrow">→</span> Mixdown Session to New File <span class="audition-arrow">→</span> Entire Session.**
+1. **Multitrack <span class="audition-arrow" dir="ltr">→</span> Mixdown Session to New File <span class="audition-arrow" dir="ltr">→</span> Entire Session.**
 2. صبر کن تا تمام شود. برای یک اپیزود یک‌ساعته چند دقیقه طول می‌کشد.
 3. یک فایل جدید در **Waveform editor** باز می‌شود.
 
-**چک مهم:** در پنل **Files** (بالا سمت چپ)، ستون **Channels** فایل جدید را ببین. باید **Stereo** بنویسد، و اسم فایل باید با اسم سشن درست شروع شود. اگر **Mono** نوشته، یعنی از سشن اشتباه (مونو یا قدیمی) Mixdown گرفته‌ای. فایل را ببند (File <span class="audition-arrow">→</span> Close، بدون ذخیره) و از سشن درست دوباره بگیر.
+**چک مهم:** در پنل **Files** (بالا سمت چپ)، ستون **Channels** فایل جدید را ببین. باید **Stereo** بنویسد، و اسم فایل باید با اسم سشن درست شروع شود. اگر **Mono** نوشته، یعنی از سشن اشتباه (مونو یا قدیمی) Mixdown گرفته‌ای. فایل را ببند (File <span class="audition-arrow" dir="ltr">→</span> Close، بدون ذخیره) و از سشن درست دوباره بگیر.
 
 ### ۱۳.۲ Match Loudness: تنظیم بلندی نهایی
 
 **هدف پیشنهادی برای شروع:** برای یک فایل استریوی پادکست می‌توانی از حدود **‎-16 تا ‎-18 LUFS** و سقف True Peak نزدیک **‎-1 dBTP** شروع کنی. راهنمای Adobe بازه‌ی ‎-20 تا ‎-16 LUFS را برای پادکست مطرح می‌کند و ‎-18 LUFS را هدف استاندارد ITU می‌داند. اگر پلتفرم مقصد مشخصات دیگری اعلام کرده، همان را ملاک بگیر؛ این عددها نسخه‌ی قطعی برای همه نیستند.
 
-**گام ۱: باز کردن پنل.** با فایل Mixdown باز در Waveform editor: **Window <span class="audition-arrow">→</span> Match Loudness.** پنل Match Loudness باز می‌شود.
+**گام ۱: باز کردن پنل.** با فایل Mixdown باز در Waveform editor: **Window <span class="audition-arrow" dir="ltr">→</span> Match Loudness.** پنل Match Loudness باز می‌شود.
 
 **گام ۲: تنظیمات.** روی دکمه‌ی **Match Loudness Settings** کلیک کن و این‌ها را بگذار. انتخاب ITU-R BS.1770-3 روش اندازه‌گیری بلندی را مشخص می‌کند؛ مقدار Target Loudness را جداگانه وارد می‌کنی:
 
@@ -1285,7 +1286,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 **الف) آرشیو (WAV):**
 
-1. **File <span class="audition-arrow">→</span> Save As.**
+1. **File <span class="audition-arrow" dir="ltr">→</span> Save As.**
 2. **Format:** Wave PCM.
 3. **Sample Type:** **24-bit** (با دکمه‌ی Change).
 4. اسم: مثلاً `ep03_master.wav`. در پوشه‌ی `Exports`.
@@ -1294,7 +1295,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 **ب) انتشار (MP3):**
 
-1. دوباره **File <span class="audition-arrow">→</span> Save As.**
+1. دوباره **File <span class="audition-arrow" dir="ltr">→</span> Save As.**
 2. **Format:** **MP3 Audio.**
 3. روی **Change** (کنار تنظیمات فرمت) بزن:
    - **Bitrate:** **128 kbps، Constant (CBR).**
@@ -1361,7 +1362,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 6. **موزیک** روی ترک Music: Fade، فیدر Music Bus، keyframe (ورود راوی، گذارها، پایان).
 7. **افکت‌های صوتی** روی ترک SFX (اگر لازم است).
 8. **کنترل مترها:** اگر Mix از صفر dBFS عبور می‌کند، سطح ترک‌ها و باس‌ها را پایین بیاور تا پیش از خروجی گرفتن هدروم کافی داشته باشی. در سشن 32-bit float عبور داخلی از صفر لزوماً به معنی کلیپ دائمی نیست، اما خروجی نهایی باید سقف دیجیتال را رعایت کند.
-9. **Mixdown** (Channels = Stereo) <span class="audition-arrow">→</span> **Match Loudness** روی ‎-18 LUFS (یا هدف تعیین‌شده برای مقصد).
+9. **Mixdown** (Channels = Stereo) <span class="audition-arrow" dir="ltr">→</span> **Match Loudness** روی ‎-18 LUFS (یا هدف تعیین‌شده برای مقصد).
 10. **WAV 24-bit** (آرشیو) و **MP3 128 kbps** (انتشار).
 11. **گوش‌دادن** به MP3 با هدفون، گوشی، ایرفون (و ماشین).
 12. **انتشار** و یک گوش‌دادن نهایی از پلتفرم.
@@ -1427,7 +1428,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 | صدا **گل‌آلود و جعبه‌ای** | انرژی زیاد در 250 تا 400 Hz | اگر با گوش تأیید شد، یک برش ملایم در محدوده‌ی 250 تا 400Hz امتحان کن؛ از ‎-1 تا ‎-2 dB شروع کن. |
 | صدا **دماغی** | انرژی زیاد حول 1 kHz | یک باند باریک در 1kHz با ‎-2 dB. |
 | «پوف» روی «پ» و «ب» | پلوزیو | فقط روی تکه‌ی بد Scientific Filter با حدود 80 تا 120Hz (با گوش تنظیم کن). میکروفون را کمی کنار دهان بگذار و پاپ‌فیلتر استفاده کن. |
-| «تک» و «چل‌چل» | تق لب | Spot Healing Brush یا فرمان Favorites <span class="audition-arrow">→</span> Auto Heal. آب بنوش. |
+| «تک» و «چل‌چل» | تق لب | Spot Healing Brush یا فرمان Favorites <span class="audition-arrow" dir="ltr">→</span> Auto Heal. آب بنوش. |
 | وزوز بم ثابت | هام برق شهر | DeHummer روی 50Hz یا 60Hz، متناسب با برق محل (فقط اگر هام شنیده می‌شود). |
 | «شششش» | نویز | Noise Reduction با Reduce by بین 6 و 10 dB. با Output Noise Only بسنج. |
 | صدا «زیر آبی» یا رباتی | نویزگیری بیش از حد | مقدار Reduce by و Amount را کم کن. یکی از دو نویزگیر را خاموش کن. |
@@ -1510,7 +1511,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 **۳) استفاده از ابزار اشتباه برای دی‌اسر.**
 
-در زنجیره‌ی اولیه، Multiband Compressor را به‌جای افکت اختصاصی DeEsser به کار برده بودیم؛ این کار تنظیمات و دکمه‌های بیشتری دارد و احتمال خطا را بالا می‌برد. **درست:** از Effects <span class="audition-arrow">→</span> Amplitude and Compression <span class="audition-arrow">→</span> DeEsser استفاده کن و با Output Sibilance Only، Center Frequency و Threshold آن را روی صدای واقعی تنظیم کن.
+در زنجیره‌ی اولیه، Multiband Compressor را به‌جای افکت اختصاصی DeEsser به کار برده بودیم؛ این کار تنظیمات و دکمه‌های بیشتری دارد و احتمال خطا را بالا می‌برد. **درست:** از Effects <span class="audition-arrow" dir="ltr">→</span> Amplitude and Compression <span class="audition-arrow" dir="ltr">→</span> DeEsser استفاده کن و با Output Sibilance Only، Center Frequency و Threshold آن را روی صدای واقعی تنظیم کن.
 
 **۴) نرمالایز ‎-3 dB به‌جای LUFS.**
 
@@ -1551,16 +1552,16 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 | کار | در Audition | معادل در Audacity |
 |---|---|---|
 | **ضبط مونو** | ورودی مونو | ترک مونو (Mono) با Sample Rate برابر 48000 |
-| **نویز** | Noise Reduction | **Effect <span class="audition-arrow">→</span> Noise Reduction**: اول Get Noise Profile روی سکوت، بعد کل فایل. Reduction بین 6 و 10 dB. |
-| **High-pass** | Parametric EQ، باند HP | **Effect <span class="audition-arrow">→</span> High-Pass Filter** را فقط در صورت نیاز از حدود 70 تا 90Hz امتحان کن؛ عدد ثابت بر اساس جنسیت وجود ندارد |
-| **ایکیو** | Parametric Equalizer | **Effect <span class="audition-arrow">→</span> Filter Curve EQ** یا Graphic EQ |
-| **کمپرسور** | Single-band Compressor | **Effect <span class="audition-arrow">→</span> Compressor**: Ratio حدود 2.5:1، Threshold طوری که 3 تا 4 dB کاهش در جاهای بلند باشد |
+| **نویز** | Noise Reduction | **Effect <span class="audition-arrow" dir="ltr">→</span> Noise Reduction**: اول Get Noise Profile روی سکوت، بعد کل فایل. Reduction بین 6 و 10 dB. |
+| **High-pass** | Parametric EQ، باند HP | **Effect <span class="audition-arrow" dir="ltr">→</span> High-Pass Filter** را فقط در صورت نیاز از حدود 70 تا 90Hz امتحان کن؛ عدد ثابت بر اساس جنسیت وجود ندارد |
+| **ایکیو** | Parametric Equalizer | **Effect <span class="audition-arrow" dir="ltr">→</span> Filter Curve EQ** یا Graphic EQ |
+| **کمپرسور** | Single-band Compressor | **Effect <span class="audition-arrow" dir="ltr">→</span> Compressor**: Ratio حدود 2.5:1، Threshold طوری که 3 تا 4 dB کاهش در جاهای بلند باشد |
 | **دی‌اسر** | Multiband (باند 4.5 تا 8kHz) | در فهرست افکت‌های داخلی Audacity، De-Esser اختصاصی وجود ندارد. برای کنترل ملایم «س» و «ش» می‌توانی یک **Filter Curve EQ** با برش ‎-3 تا ‎-4 dB باریک در محدوده‌ی 5 تا 7 kHz امتحان کنی؛ راه دقیق‌تر استفاده از یک پلاگین De-Esser سازگار است. EQ جایگزین کامل دی‌اسر نیست. |
-| **شکل‌دادن به موزیک** | Volume keyframe | **Envelope Tool** (کلید <kbd class="audition-key">F2</kbd>) برای کشیدن نقطه‌ها روی ترک، یا **Effect <span class="audition-arrow">→</span> Auto Duck** |
-| **Fade** | مربع‌های گوشه‌ی کلیپ | **Effect <span class="audition-arrow">→</span> Fade In** و **Fade Out** |
-| **لیمیتر** | Hard Limiter | **Effect <span class="audition-arrow">→</span> Limiter** (Hard Limit) با سقف ‎-1 dB |
-| **بلندی نهایی** | Match Loudness | **Effect <span class="audition-arrow">→</span> Loudness Normalization**: Perceived loudness حدود ‎-16 تا ‎-18 LUFS، با توجه به مقصد |
-| **خروجی MP3** | Save As MP3 | **File <span class="audition-arrow">→</span> Export <span class="audition-arrow">→</span> Export as MP3**: Constant، 128 kbps، Stereo |
+| **شکل‌دادن به موزیک** | Volume keyframe | **Envelope Tool** (کلید <kbd class="audition-key">F2</kbd>) برای کشیدن نقطه‌ها روی ترک، یا **Effect <span class="audition-arrow" dir="ltr">→</span> Auto Duck** |
+| **Fade** | مربع‌های گوشه‌ی کلیپ | **Effect <span class="audition-arrow" dir="ltr">→</span> Fade In** و **Fade Out** |
+| **لیمیتر** | Hard Limiter | **Effect <span class="audition-arrow" dir="ltr">→</span> Limiter** (Hard Limit) با سقف ‎-1 dB |
+| **بلندی نهایی** | Match Loudness | **Effect <span class="audition-arrow" dir="ltr">→</span> Loudness Normalization**: Perceived loudness حدود ‎-16 تا ‎-18 LUFS، با توجه به مقصد |
+| **خروجی MP3** | Save As MP3 | **File <span class="audition-arrow" dir="ltr">→</span> Export <span class="audition-arrow" dir="ltr">→</span> Export as MP3**: Constant، 128 kbps، Stereo |
 
 </div>
 
@@ -1636,7 +1637,7 @@ Peak Normalize فقط بلندترین قله‌ی نمونه را به سقف �
 
 **کامپیوترم موقع پخش کند می‌شود. چه کنم؟**
 
-زنجیره‌ی افکت سنگین است. راه‌حل: **Bounce** کن. ترک Voice را انتخاب کن و از منوی **Multitrack <span class="audition-arrow">→</span> Bounce to New Track** استفاده کن. یک ترک جدید با صدای افکت‌خورده ساخته می‌شود. ترک اصلی را Mute کن و افکت‌های ترک جدید را **نگذار** (چون اثرشان قبلاً اعمال شده). فایل Bounce اولیه را (قبل از افکت) نگه دار تا اگر خواستی تنظیم را عوض کنی، برگردی.
+زنجیره‌ی افکت سنگین است. راه‌حل: **Bounce** کن. ترک Voice را انتخاب کن و از منوی **Multitrack <span class="audition-arrow" dir="ltr">→</span> Bounce to New Track** استفاده کن. یک ترک جدید با صدای افکت‌خورده ساخته می‌شود. ترک اصلی را Mute کن و افکت‌های ترک جدید را **نگذار** (چون اثرشان قبلاً اعمال شده). فایل Bounce اولیه را (قبل از افکت) نگه دار تا اگر خواستی تنظیم را عوض کنی، برگردی.
 
 **چرا کنار اسم پریست ستاره (\*) هست؟**
 یعنی پریست را تغییر داده‌ای و ذخیره نکرده‌ای. اگر می‌خواهی تغییر بماند، دوباره ذخیره کن.
@@ -1815,7 +1816,7 @@ Peak Normalize فقط بلندترین قله‌ی نمونه را به سقف �
 
 ## منابع فنی و تاریخ بازبینی
 
-این راهنما ترکیبی از تجربه‌ی عملی و پیشنهادهای شروع است؛ عددهای زنجیره‌ی صدا نسخه‌ی قطعی برای همه‌ی میکروفون‌ها، اتاق‌ها و صداها نیستند. هفت تصویر محیط برنامه در خود مخزن پرشین‌پاد نگهداری می‌شوند. دو آیکون کوچک Arm For Record و Monitor Input از نشانی‌های رسمی Adobe بارگذاری می‌شوند. تصاویر و آیکون‌ها برای تشخیص کنترل‌ها هستند؛ ممکن است چیدمان نسخه‌ی نصب‌شده‌ی تو کمی فرق کند. منابع رسمی زیر برای کنترل نکات فنی و تصویری استفاده شده‌اند:
+این راهنما ترکیبی از تجربه‌ی عملی و پیشنهادهای شروع است؛ عددهای زنجیره‌ی صدا نسخه‌ی قطعی برای همه‌ی میکروفون‌ها، اتاق‌ها و صداها نیستند. هفت تصویر محیط برنامه در خود مخزن پرشین‌پاد نگهداری می‌شوند. دو کنترل کوچک Arm For Record و Monitor Input با نشان‌های R و I به‌صورت محلی و بدون وابستگی به بارگذاری تصویر از سایت Adobe نمایش داده می‌شوند. تصاویر و آیکون‌ها برای تشخیص کنترل‌ها هستند؛ ممکن است چیدمان نسخه‌ی نصب‌شده‌ی تو کمی فرق کند. منابع رسمی زیر برای کنترل نکات فنی و تصویری استفاده شده‌اند:
 
 - [Adobe: Recording audio](https://helpx.adobe.com/audition/desktop/importing-recording-and-playing/recording-audio.html) — دکمه‌ی Arm For Record، انتخاب ورودی ترک و دکمه‌ی Record در Waveform و Multitrack.
 - [Adobe: Multitrack Editor overview](https://helpx.adobe.com/audition/desktop/mixing-multitrack-sessions/multitrack-editor-overview.html) — شناخت بخش‌های اصلی محیط Multitrack و کنترل‌های ترک.
