@@ -3261,27 +3261,21 @@
     "status": "active"
   },
   "afsanh-hai-khn-parsi": {
-    "avg_gap_days": 2.7,
+    "avg_gap_days": 2.6,
     "avg_length": 6,
-    "episodes": 33,
-    "eps_365": 33,
-    "eps_90": 33,
+    "episodes": 32,
+    "eps_365": 32,
+    "eps_90": 32,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T17:47:20Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3scjo4",
-    "last_title": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه",
+    "last": "1405/08/18",
+    "last_at": "2026-11-09T15:32:30Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s345g",
+    "last_title": "کلیله‌ودمنه کودکانه | قسمت سیزدهم | بوم و زاغ (١)",
     "max_length": 10,
-    "median_length": 6,
+    "median_length": 5,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/129436868/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2Fc2ca4618-0ea3-1624-5c34-2c1de66817d0.mp3",
-        "at": "2026-11-14T17:47:20Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794679069038-3d0036a762cab.jpg",
-        "t": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه"
-      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/129126000/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F66a8e5bc-491f-7fc5-9902-d4ce0dbd808e.mp3",
         "at": "2026-11-09T15:32:30Z",
@@ -3323,15 +3317,15 @@
         "at": "2026-10-24T14:05:34Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1792850742480-f6d6f1fde7e73.jpg",
         "t": "شاهنامه کودکانه | قسمت نهم | ایرج مهربان"
+      },
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/127615313/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-17%2F82aff75b-6b2a-ddea-7384-23ecbdd3c674.mp3",
+        "at": "2026-10-17T10:10:31Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1792231810787-dfe6d721271cd.jpg",
+        "t": "کلیله و دمنه کودکانه | قسمت نهم | کبوتر طوق‌دار(۱)"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-14T17:47:20Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794679069038-3d0036a762cab.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3scjo4",
-        "title": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه"
-      },
       {
         "at": "2026-11-09T15:32:30Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794238359403-a118ae05441df.jpg",
@@ -3343,6 +3337,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794165564454-33fb9aba08035.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s16hr",
         "title": "شاهنامه کودکانه | قسمت يازدهم | زالِ سپیدمو و سیمرغ"
+      },
+      {
+        "at": "2026-11-04T17:22:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
+        "title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
       }
     ],
     "recent_30d": [
@@ -3357,7 +3357,7 @@
       0,
       17,
       7,
-      9
+      8
     ],
     "status": "active"
   },
@@ -36277,8 +36277,8 @@
       }
     ],
     "recent_30d": [
-      87,
-      128,
+      88,
+      127,
       57,
       11,
       0,
@@ -68876,19 +68876,24 @@
   "rabth-ma": {
     "avg_gap_days": 3.5,
     "avg_length": 10,
-    "episodes": 14,
-    "eps_365": 14,
-    "eps_90": 14,
+    "episodes": 15,
+    "eps_365": 15,
+    "eps_90": 15,
     "first_at": "2026-09-25",
     "first_year": 1405,
-    "last": "1405/08/20",
-    "last_at": "2026-11-11T00:59:16Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3s698q",
-    "last_title": "چرا تو رابطه با یه اتفاق ساده، یا غیب می‌شم یا دیوونه؟ | سبک دلبستگی",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T11:18:49Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sc738",
+    "last_title": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه",
     "max_length": 21,
-    "median_length": 11,
+    "median_length": 10,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/117bc39b0/podcast/play/129423912/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F436712616-44100-2-fd74d9dfbc2c8.m4a",
+        "at": "2026-11-14T11:18:49Z",
+        "t": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه"
+      },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/129229530/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2F436449973-44100-2-f517fa828c896.m4a",
         "at": "2026-11-11T00:59:16Z",
@@ -68924,14 +68929,14 @@
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/126853461/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-5%2F433368872-44100-2-96411179d3be5.m4a",
         "at": "2026-10-05T06:38:11Z",
         "t": "اضطراب در رابطه | چطور چرخه‌ تکراری را عوض کنم؟"
-      },
-      {
-        "a": "https://anchor.fm/s/117bc39b0/podcast/play/126672433/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-2%2F433145598-44100-2-450a4c4d7c977.m4a",
-        "at": "2026-10-02T08:33:43Z",
-        "t": "کنترل گری یا مرز؟ | نیاز، درخواست و مرز سالم در رابطه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T11:18:49Z",
+        "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sc738",
+        "title": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه"
+      },
       {
         "at": "2026-11-11T00:59:16Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3s698q",
@@ -68941,12 +68946,6 @@
         "at": "2026-11-05T01:47:12Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3rphjq",
         "title": "چرا همیشه عاشق یک جور آدم می‌شم؟ | تکرار الگو در انتخاب پارتنر"
-      },
-      {
-        "at": "2026-10-27T15:07:04Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46831788/46831788-1793113631545-5d4d7b59872d2.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3qjlv1",
-        "title": "نشانه‌های علاقه | از کجا بفهمم دوستم داره؟"
       }
     ],
     "recent_30d": [
@@ -68961,7 +68960,7 @@
       0,
       0,
       11,
-      3
+      4
     ],
     "status": "active"
   },
