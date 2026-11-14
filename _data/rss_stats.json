@@ -6981,8 +6981,8 @@
       0,
       1,
       0,
-      0,
-      6
+      1,
+      5
     ],
     "status": "active"
   },
@@ -67974,19 +67974,24 @@
   "rabth-ma": {
     "avg_gap_days": 3.5,
     "avg_length": 10,
-    "episodes": 14,
-    "eps_365": 14,
-    "eps_90": 14,
+    "episodes": 15,
+    "eps_365": 15,
+    "eps_90": 15,
     "first_at": "2026-09-25",
     "first_year": 1405,
-    "last": "1405/08/20",
-    "last_at": "2026-11-11T00:59:16Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3s698q",
-    "last_title": "چرا تو رابطه با یه اتفاق ساده، یا غیب می‌شم یا دیوونه؟ | سبک دلبستگی",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T11:18:49Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sc738",
+    "last_title": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه",
     "max_length": 21,
-    "median_length": 11,
+    "median_length": 10,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/117bc39b0/podcast/play/129423912/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F436712616-44100-2-fd74d9dfbc2c8.m4a",
+        "at": "2026-11-14T11:18:49Z",
+        "t": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه"
+      },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/129229530/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2F436449973-44100-2-f517fa828c896.m4a",
         "at": "2026-11-11T00:59:16Z",
@@ -68022,14 +68027,14 @@
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/126853461/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-5%2F433368872-44100-2-96411179d3be5.m4a",
         "at": "2026-10-05T06:38:11Z",
         "t": "اضطراب در رابطه | چطور چرخه‌ تکراری را عوض کنم؟"
-      },
-      {
-        "a": "https://anchor.fm/s/117bc39b0/podcast/play/126672433/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-2%2F433145598-44100-2-450a4c4d7c977.m4a",
-        "at": "2026-10-02T08:33:43Z",
-        "t": "کنترل گری یا مرز؟ | نیاز، درخواست و مرز سالم در رابطه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T11:18:49Z",
+        "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sc738",
+        "title": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه"
+      },
       {
         "at": "2026-11-11T00:59:16Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3s698q",
@@ -68039,12 +68044,6 @@
         "at": "2026-11-05T01:47:12Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3rphjq",
         "title": "چرا همیشه عاشق یک جور آدم می‌شم؟ | تکرار الگو در انتخاب پارتنر"
-      },
-      {
-        "at": "2026-10-27T15:07:04Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46831788/46831788-1793113631545-5d4d7b59872d2.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3qjlv1",
-        "title": "نشانه‌های علاقه | از کجا بفهمم دوستم داره؟"
       }
     ],
     "recent_30d": [
@@ -68059,7 +68058,7 @@
       0,
       0,
       11,
-      3
+      4
     ],
     "status": "active"
   },
@@ -74714,7 +74713,7 @@
     "avg_length": 32,
     "episodes": 151,
     "eps_365": 45,
-    "eps_90": 26,
+    "eps_90": 25,
     "first_at": "2025-02-05",
     "first_year": 1403,
     "last": "1405/08/20",
@@ -74803,8 +74802,8 @@
       0,
       0,
       0,
-      6,
-      10,
+      7,
+      9,
       7,
       9
     ],
