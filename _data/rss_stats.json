@@ -5639,19 +5639,24 @@
   "ali-sdart": {
     "avg_gap_days": 4.9,
     "avg_length": 32,
-    "episodes": 449,
-    "eps_365": 75,
-    "eps_90": 14,
+    "episodes": 450,
+    "eps_365": 76,
+    "eps_90": 15,
     "first_at": "2020-06-15",
     "first_year": 1399,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T19:31:40Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3s5pmr",
-    "last_title": "صدارت⁠- نتایج مقاومت ایرانیان در مقابل جنایت و تجاوز انیرانیان!",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T00:08:08Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3sbn74",
+    "last_title": "صدارت⁠- شعار نتانیاهو و شرکا: جنگ! جنگ! تا پیروزی «اسرائیل بزرگ» به‌عنوان «سرزمین موعود» برای «قوم برگزیده»",
     "max_length": 146,
     "median_length": 38,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/2f313e0c/podcast/play/129407652/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F147a6fdb-8be0-f726-1e3a-011ee2e086a6.mp3",
+        "at": "2026-11-14T00:08:08Z",
+        "t": "صدارت⁠- شعار نتانیاهو و شرکا: جنگ! جنگ! تا پیروزی «اسرائیل بزرگ» به‌عنوان «سرزمین موعود» برای «قوم برگزیده»"
+      },
       {
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/129213595/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2Fe7fd93d1-4093-e4e7-a501-cfaebb3f2860.mp3",
         "at": "2026-11-10T19:31:40Z",
@@ -5693,15 +5698,14 @@
         "at": "2026-10-06T01:11:32Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1791248993572-a7037987c110f.jpg",
         "t": "صدارت⁠- رویکرد مردم به خشونت، وضعیت ما را از این هم بدتر خواهد کرد"
-      },
-      {
-        "a": "https://anchor.fm/s/2f313e0c/podcast/play/126451244/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-28%2F6b304a3c-0a8a-c8ef-f1c1-113d99e89187.mp3",
-        "at": "2026-09-28T22:49:21Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1790635702835-b7561e32f1c2.jpg",
-        "t": "صدارت-ایران کانون موضوعات اجلاس ۸۱ سازمان ملل"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T00:08:08Z",
+        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3sbn74",
+        "title": "صدارت⁠- شعار نتانیاهو و شرکا: جنگ! جنگ! تا پیروزی «اسرائیل بزرگ» به‌عنوان «سرزمین موعود» برای «قوم برگزیده»"
+      },
       {
         "at": "2026-11-10T19:31:40Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1794339081089-c8b81307ad18c.jpg",
@@ -5713,12 +5717,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793827719022-7d664039ef3ab.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/------------e3rp41e",
         "title": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم"
-      },
-      {
-        "at": "2026-10-27T01:32:08Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793064697238-da02b26520a9.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3r59mh",
-        "title": "صدارت⁠- سرنوشت نامشخص ما، با نقش‌آفرینی توسط ما مردم مشخص می‌شود، نه با دخالت قدرت‌ها و احزاب"
       }
     ],
     "recent_30d": [
@@ -5733,7 +5731,7 @@
       5,
       4,
       4,
-      6
+      7
     ],
     "status": "active"
   },
