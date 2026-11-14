@@ -60870,21 +60870,26 @@
     "status": "active"
   },
   "podcast-jnon": {
-    "avg_gap_days": 13.1,
-    "avg_length": 75,
-    "episodes": 91,
-    "eps_365": 25,
-    "eps_90": 5,
+    "avg_gap_days": 14.3,
+    "avg_length": 76,
+    "episodes": 92,
+    "eps_365": 26,
+    "eps_90": 6,
     "first_at": "2020-05-20",
     "first_year": 1399,
-    "last": "1405/07/10",
-    "last_at": "2026-10-02T17:00:03Z",
-    "last_link": "https://junoonpodcast.com/%db%b9%db%b1-%d8%b4%d8%a8%da%a9%d9%87%d9%94-%d8%aa%d8%a7%d8%b1%db%8c%da%a9-%d8%a2%d8%ae%d8%b1%d8%9b-%d8%b9%d9%85%d9%84%db%8c%d8%a7%d8%aa-%d8%aa%d8%b1%d9%88%d8%ac%d8%a7%d9%86-%d8%b4%db%8c%d9%84%d8%af/",
-    "last_title": "۹۱- شـبــکه تـاریـک (پـایـان؛ عملیـات تـروجـان شیـلــد)",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T17:27:00Z",
+    "last_link": "https://junoonpodcast.com/episode92/",
+    "last_title": "۹۲- خـون تـلـخ (یکـم؛ تام لینـچ)",
     "max_length": 135,
     "median_length": 64,
     "min_length": 38,
     "play": [
+      {
+        "a": "https://media.blubrry.com/_17/rss.audiyacreators.one/media/cmirrqmo8htxlz4wxraos/audio/f8e66a5159dd7d61/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-11-14T17:27:00Z",
+        "t": "۹۲- خـون تـلـخ (یکـم؛ تام لینـچ)"
+      },
       {
         "a": "https://media.blubrry.com/_17/junoonpodcast.com/wp-content/uploads/2026/10/E91-NC-128kb.mp3",
         "at": "2026-10-02T17:00:03Z",
@@ -60926,15 +60931,14 @@
         "at": "2026-08-07T16:30:03Z",
         "i": "https://junoonpodcast.com/wp-content/uploads/2026/08/junoon-e85-feed-artwork-9d212c685b.jpg",
         "t": "۸۵- بابـی خیـام (سوم؛ دِرِک کـافمـن)"
-      },
-      {
-        "a": "https://media.blubrry.com/_17/junoonpodcast.com/wp-content/uploads/2026/10/E84-NC-160kb.mp3",
-        "at": "2026-07-30T17:30:02Z",
-        "i": "https://junoonpodcast.com/wp-content/uploads/2026/07/junoon-e84-feed-artwork-b30d9d2c58.jpg",
-        "t": "۸۴- بابـی خیـام (دوم؛ مارتـی پوچـیـو)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T17:27:00Z",
+        "link": "https://junoonpodcast.com/episode92/",
+        "title": "۹۲- خـون تـلـخ (یکـم؛ تام لینـچ)"
+      },
       {
         "at": "2026-10-02T17:00:03Z",
         "i": "https://junoonpodcast.com/wp-content/uploads/2026/10/junoon-e91-feed-artwork-4558c2b32b.jpg",
@@ -60946,12 +60950,6 @@
         "i": "https://junoonpodcast.com/wp-content/uploads/2026/09/junoon-e90-feed-artwork-42d2401ec3.jpg",
         "link": "https://junoonpodcast.com/%db%b9%db%b0-%d8%b4%d8%a8%da%a9%d9%87%d9%94-%d8%aa%d8%a7%d8%b1%db%8c%da%a9-%d8%b3%d9%88%d9%85%d8%9b-%d9%85%d8%a7%db%8c%da%a9%d8%b1%d9%88%d8%b3%d8%a7%d9%81%d8%aa/",
         "title": "۹۰- شـبــکه تـاریـک (سوم؛ مـایکــروسافـت)"
-      },
-      {
-        "at": "2026-09-19T17:29:41Z",
-        "i": "https://junoonpodcast.com/wp-content/uploads/2026/09/junoon-e89-feed-artwork-a33cb45adc.jpg",
-        "link": "https://junoonpodcast.com/%db%b8%db%b9-%d8%b4%d8%a8%da%a9%d9%87%d9%94-%d8%aa%d8%a7%d8%b1%db%8c%da%a9-%d8%af%d9%88%d9%85%d8%9b-%d8%a7%d9%86%d8%af%d8%b1%d9%88-%db%8c%d8%a7%d9%86%da%af/",
-        "title": "۸۹- شـبــکه تـاریـک (دوم؛ دادستـان یـانگ)"
       }
     ],
     "recent_30d": [
@@ -60966,7 +60964,7 @@
       10,
       2,
       3,
-      0
+      1
     ],
     "status": "active"
   },
