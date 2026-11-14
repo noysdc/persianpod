@@ -39768,7 +39768,7 @@
     "avg_length": 12,
     "episodes": 53,
     "eps_365": 53,
-    "eps_90": 49,
+    "eps_90": 48,
     "first_at": "2026-08-12",
     "first_year": 1405,
     "last": "1405/08/20",
@@ -39857,8 +39857,8 @@
       0,
       0,
       0,
-      4,
-      25,
+      5,
+      24,
       18,
       6
     ],
@@ -54319,20 +54319,26 @@
   },
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.8,
-    "avg_length": 20,
-    "episodes": 40,
-    "eps_365": 40,
-    "eps_90": 40,
+    "avg_length": 19,
+    "episodes": 41,
+    "eps_365": 41,
+    "eps_90": 41,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T18:48:03Z",
-    "last_link": "https://furbodm.com/",
-    "last_title": "Disney #2 | اولین انیمیشن دیزنی که به سالن‌های سینما رفت چی بود؟",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T16:55:21Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6af89279cc8db260abc6d251",
+    "last_title": "Disney #3 | دیزنی چطور حقوق اولین کاراکتر خودش رو از دست داد؟",
     "max_length": 115,
     "median_length": 21,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af89279cc8db260abc6d251/media.mp3",
+        "at": "2026-11-14T16:55:21Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794675200899-1ecd0c73-c511-41cc-bd4b-6e503dbd69d5.jpeg",
+        "t": "Disney #3 | دیزنی چطور حقوق اولین کاراکتر خودش رو از دست داد؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af609e405dc66c15db8ecb0/media.mp3",
         "at": "2026-11-12T18:48:03Z",
@@ -54374,15 +54380,15 @@
         "at": "2026-11-01T18:30:17Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793557613103-1b043e7f-af98-4dab-a966-f2d46ff10cb3.jpeg",
         "t": "NETFLIX #8 | چرا نت‌فلیکس به سمت تولید فیلم و سریال اختصاصی رفت؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62d38339f23a726f55bee/media.mp3",
-        "at": "2026-10-31T18:02:32Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469628275-e016b549-67e5-46cf-99c5-269e1f22b98c.jpeg",
-        "t": "NETFLIX #7 | داستان اولین شکست استراتژیک نت‌فلیکس با کوئیکستر چی بود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T16:55:21Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794675200899-1ecd0c73-c511-41cc-bd4b-6e503dbd69d5.jpeg",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6af89279cc8db260abc6d251",
+        "title": "Disney #3 | دیزنی چطور حقوق اولین کاراکتر خودش رو از دست داد؟"
+      },
       {
         "at": "2026-11-12T18:48:03Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794509191116-4d20860c-074f-46ba-9b6d-d4caf11f5382.jpeg",
@@ -54394,12 +54400,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794412151410-14b7b211-3c22-4b76-8b6c-15948ca0d938.jpeg",
         "link": "https://furbodm.com/",
         "title": "Disney #1 | دنیای کارتون و انیمیشن قبل از دیزنی چه شکلی بود؟"
-      },
-      {
-        "at": "2026-11-10T14:56:01Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794322140453-2157de57-8ff9-4ff8-b67f-364f6b256299.jpeg",
-        "link": "https://furbodm.com/",
-        "title": "Disney #0 | فصل سوم پادکست بیزینس استوریز؛ والت دیزنی"
       }
     ],
     "recent_30d": [
@@ -54414,7 +54414,7 @@
       0,
       0,
       1,
-      39
+      40
     ],
     "status": "active"
   },
