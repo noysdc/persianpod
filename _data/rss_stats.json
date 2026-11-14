@@ -52814,21 +52814,27 @@
     "status": "active"
   },
   "podcast-astorh-shnasi-thot": {
-    "avg_gap_days": 8.8,
+    "avg_gap_days": 8.7,
     "avg_length": 46,
-    "episodes": 179,
-    "eps_365": 40,
-    "eps_90": 11,
+    "episodes": 180,
+    "eps_365": 41,
+    "eps_90": 12,
     "first_at": "2024-04-12",
     "first_year": 1403,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T06:53:35Z",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T12:07:14Z",
     "last_link": "https://thothpodcast.com/",
-    "last_title": "فصل پنجم - اساطیر هند - رامایانا : نجات 4",
+    "last_title": "دعوت به آیین گشایش محفل نحوت - اپیزود موقت",
     "max_length": 90,
     "median_length": 39,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6af84ef328531eda45343a4d/media.mp3",
+        "at": "2026-11-14T12:07:14Z",
+        "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1794657761081-b9fbde7c-fbc0-4f17-8c4a-ef22e33917f4.jpeg",
+        "t": "دعوت به آیین گشایش محفل نحوت - اپیزود موقت"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6af16def90fa9555b368213a/media.mp3",
         "at": "2026-11-09T06:53:35Z",
@@ -52870,15 +52876,15 @@
         "at": "2026-09-27T14:35:53Z",
         "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1791728183735-eef177a4-7787-4f79-abae-b07fd053d39b.jpeg",
         "t": "فصل پنجم - اساطیر هند - رامایانا : نجات 2"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6aae982a7aa361c612f3c1ca/media.mp3",
-        "at": "2026-09-20T08:00:00Z",
-        "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1790658072290-9eb06aac-ba26-48cc-a95b-e7afbee19221.jpeg",
-        "t": "فصل پنجم - اساطیر هند - رامایانا : نجات 1"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T12:07:14Z",
+        "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1794657761081-b9fbde7c-fbc0-4f17-8c4a-ef22e33917f4.jpeg",
+        "link": "https://thothpodcast.com/",
+        "title": "دعوت به آیین گشایش محفل نحوت - اپیزود موقت"
+      },
       {
         "at": "2026-11-09T06:53:35Z",
         "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1794204754414-4c0fcc1a-74f1-414d-82e4-7a16b696a14d.jpeg",
@@ -52890,12 +52896,6 @@
         "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1793812516639-57684bd1-e5d9-49d1-ab66-e2d69cca4958.jpeg",
         "link": "https://thothpodcast.com/",
         "title": "گیلگمش - مقدمه"
-      },
-      {
-        "at": "2026-10-31T12:17:19Z",
-        "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1793448846908-bd94dc85-83af-45b2-b8ed-d02820ca2f80.jpeg",
-        "link": "https://thothpodcast.com/",
-        "title": "خانه ای تازه برای تحوت"
       }
     ],
     "recent_30d": [
@@ -52910,7 +52910,7 @@
       8,
       3,
       3,
-      5
+      6
     ],
     "status": "active"
   },
@@ -59650,8 +59650,8 @@
       }
     ],
     "recent_30d": [
-      4,
-      3,
+      5,
+      2,
       0,
       2,
       0,
@@ -67974,24 +67974,19 @@
   "rabth-ma": {
     "avg_gap_days": 3.5,
     "avg_length": 10,
-    "episodes": 15,
-    "eps_365": 15,
-    "eps_90": 15,
+    "episodes": 14,
+    "eps_365": 14,
+    "eps_90": 14,
     "first_at": "2026-09-25",
     "first_year": 1405,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T11:18:49Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sc738",
-    "last_title": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه",
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T00:59:16Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3s698q",
+    "last_title": "چرا تو رابطه با یه اتفاق ساده، یا غیب می‌شم یا دیوونه؟ | سبک دلبستگی",
     "max_length": 21,
-    "median_length": 10,
+    "median_length": 11,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/117bc39b0/podcast/play/129423912/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F436712616-44100-2-fd74d9dfbc2c8.m4a",
-        "at": "2026-11-14T11:18:49Z",
-        "t": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه"
-      },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/129229530/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2F436449973-44100-2-f517fa828c896.m4a",
         "at": "2026-11-11T00:59:16Z",
@@ -68027,14 +68022,14 @@
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/126853461/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-5%2F433368872-44100-2-96411179d3be5.m4a",
         "at": "2026-10-05T06:38:11Z",
         "t": "اضطراب در رابطه | چطور چرخه‌ تکراری را عوض کنم؟"
+      },
+      {
+        "a": "https://anchor.fm/s/117bc39b0/podcast/play/126672433/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-2%2F433145598-44100-2-450a4c4d7c977.m4a",
+        "at": "2026-10-02T08:33:43Z",
+        "t": "کنترل گری یا مرز؟ | نیاز، درخواست و مرز سالم در رابطه"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-14T11:18:49Z",
-        "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sc738",
-        "title": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه"
-      },
       {
         "at": "2026-11-11T00:59:16Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3s698q",
@@ -68044,6 +68039,12 @@
         "at": "2026-11-05T01:47:12Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3rphjq",
         "title": "چرا همیشه عاشق یک جور آدم می‌شم؟ | تکرار الگو در انتخاب پارتنر"
+      },
+      {
+        "at": "2026-10-27T15:07:04Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46831788/46831788-1793113631545-5d4d7b59872d2.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3qjlv1",
+        "title": "نشانه‌های علاقه | از کجا بفهمم دوستم داره؟"
       }
     ],
     "recent_30d": [
@@ -68058,7 +68059,7 @@
       0,
       0,
       11,
-      4
+      3
     ],
     "status": "active"
   },
