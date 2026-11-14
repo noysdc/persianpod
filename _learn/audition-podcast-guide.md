@@ -402,7 +402,7 @@ True Peak برآوردی از قله‌های سیگنال بازسازی‌شد
 </div>
 <figure class="audition-figure">
   <a href="https://helpx.adobe.com/audition/desktop/importing-recording-and-playing/recording-audio.html">
-    <img src="https://helpx-prod.scene7.com/is/image/HelpxProd/multitrack-editor-overview-01-au?%24pjpeg%24=&amp;jpegSize=200&amp;wid=1200" alt="نمای واقعی Editor در Adobe Audition با کنترل‌های ترک و تایم‌لاین" loading="lazy">
+    <img src="/assets/img/learn/audition/multitrack-editor-overview-01-au.webp" alt="نمای واقعی Editor در Adobe Audition با کنترل‌های ترک و تایم‌لاین" loading="lazy">
   </a>
   <figcaption>نمای واقعی محیط Multitrack از راهنمای رسمی Adobe. برای این مرحله، روی کنترل‌های هدر ترک در سمت چپ تمرکز کن؛ R ترک را برای ضبط آماده می‌کند و I مانیتور ورودی را فعال می‌کند. چیدمان ممکن است با Workspace شخصی تو کمی فرق داشته باشد.</figcaption>
 </figure>
@@ -598,7 +598,7 @@ True Peak برآوردی از قله‌های سیگنال بازسازی‌شد
 
 <figure class="audition-figure">
   <a href="https://helpx.adobe.com/audition/desktop/effects-reference/noise-reduction-restoration-effects.html">
-    <img src="https://helpx-prod.scene7.com/is/image/HelpxProd/noise-reduction-restoration-effects-01-au?%24pjpeg%24=&amp;jpegSize=200&amp;wid=1300" alt="نمودار افکت Noise Reduction در Adobe Audition" loading="lazy">
+    <img src="/assets/img/learn/audition/noise-reduction-restoration-effects-01-au.webp" alt="نمودار افکت Noise Reduction در Adobe Audition" loading="lazy">
   </a>
   <figcaption>نمای رسمی نمودار Noise Reduction. منحنی آبی مقدار کاهش نویز را در فرکانس‌های مختلف نشان می‌دهد. این نمودار برای فهم کنترل‌هاست؛ مقدارهای این آموزش را با گوش و فایل خودت تنظیم کن.</figcaption>
 </figure>
@@ -734,7 +734,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 <figure class="audition-figure">
   <a href="https://helpx.adobe.com/audition/desktop/applying-effects/effects-controls.html">
-    <img src="https://helpx-prod.scene7.com/is/image/HelpxProd/effectsrack-controls?%24png%24=&amp;jpegSize=300&amp;wid=1920" alt="نمای واقعی Effects Rack و کنترل اسلات‌ها و دکمه‌ی روشن و خاموش در Adobe Audition" loading="lazy">
+    <img src="/assets/img/learn/audition/effectsrack-controls.webp" alt="نمای واقعی Effects Rack و کنترل اسلات‌ها و دکمه‌ی روشن و خاموش در Adobe Audition" loading="lazy">
   </a>
   <figcaption>تصویر رسمی Effects Rack: اسلات‌ها محل افزودن افکت‌اند و دکمه‌ی Power اصلی در پایین Rack همه‌ی افکت‌ها را یک‌جا روشن یا خاموش می‌کند. برای مقایسه‌ی قبل و بعد از پردازش، از همین کنترل استفاده کن.</figcaption>
 </figure>
@@ -806,7 +806,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 <figure class="audition-figure">
   <a href="https://helpx.adobe.com/audition/desktop/effects-reference/filter-equalizer-effects.html">
-    <img src="https://helpx-prod.scene7.com/is/image/HelpxProd/filter-equalizer-effects-04-au?%24pjpeg%24=&amp;jpegSize=200&amp;wid=1300" alt="پنجره Parametric Equalizer در Adobe Audition و نمودار فرکانس" loading="lazy">
+    <img src="/assets/img/learn/audition/filter-equalizer-effects-04-au.webp" alt="پنجره Parametric Equalizer در Adobe Audition و نمودار فرکانس" loading="lazy">
   </a>
   <figcaption>تصویر رسمی Parametric Equalizer. نقاط روی نمودار شکل تغییر فرکانس را نشان می‌دهند؛ دکمه‌های باند در پایین پنجره هر باند را فعال می‌کنند. در شروع همه‌ی باندهای اصلاحی را روی صفر نگه دار و فقط در صورت شنیدن مشکل تغییر بده.</figcaption>
 </figure>
@@ -863,7 +863,7 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 <figure class="audition-figure">
   <a href="https://helpx.adobe.com/audition/desktop/effects-reference/amplitude-compression-effects.html">
-    <img src="https://helpx-prod.scene7.com/is/image/HelpxProd/amplitude-compression-effects-03-au?%24pjpeg%24=&amp;jpegSize=200&amp;wid=960" alt="پنجره DeEsser در Adobe Audition با گزینه‌های Threshold و Bandwidth و Center Frequency" loading="lazy">
+    <img src="/assets/img/learn/audition/amplitude-compression-effects-03-au.webp" alt="پنجره DeEsser در Adobe Audition با گزینه‌های Threshold و Bandwidth و Center Frequency" loading="lazy">
   </a>
   <figcaption>تصویر رسمی DeEsser. نمودار محدوده‌ی فرکانسی پردازش را نشان می‌دهد؛ Center Frequency و Bandwidth را هنگام پخش جمله‌ی واقعی تنظیم کن و با Output Sibilance Only مطمئن شو فقط «س» و «ش» انتخاب شده‌اند.</figcaption>
 </figure>
@@ -1238,13 +1238,13 @@ RX ماژول‌های خودکار و دقیق‌تری دارد. اگر دار
 
 <figure class="audition-figure">
   <a href="https://helpx.adobe.com/audition/desktop/editing-audio-files/match-loudness.html">
-    <img src="https://helpx-prod.scene7.com/is/image/HelpxProd/Match%20Loudness?%24png%24=&amp;jpegSize=100&amp;wid=487" alt="پنل Match Loudness در Adobe Audition" loading="lazy">
+    <img src="/assets/img/learn/audition/Match%20Loudness.webp" alt="پنل Match Loudness در Adobe Audition" loading="lazy">
   </a>
   <figcaption>پنل Match Loudness در مستندات رسمی Adobe. فایل Mixdown را در این پنل وارد می‌کنی، Scan می‌گیری و بعد تنظیمات هدف را اجرا می‌کنی.</figcaption>
 </figure>
 <figure class="audition-figure">
   <a href="https://helpx.adobe.com/audition/desktop/editing-audio-files/match-loudness.html">
-    <img src="https://helpx-prod.scene7.com/is/image/HelpxProd/Match%20Loudness%20Settings?%24png%24=&amp;jpegSize=100&amp;wid=289" alt="تنظیمات Match Loudness در Adobe Audition" loading="lazy">
+    <img src="/assets/img/learn/audition/Match%20Loudness%20Settings.webp" alt="تنظیمات Match Loudness در Adobe Audition" loading="lazy">
   </a>
   <figcaption>پنجره‌ی تنظیمات Match Loudness. نام و جای بعضی گزینه‌ها ممکن است در نسخه‌های مختلف فرق کند؛ مقدارها را با عنوان پارامترها تطبیق بده، نه فقط جای ظاهری آن‌ها.</figcaption>
 </figure>
