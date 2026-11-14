@@ -6410,7 +6410,7 @@
       }
     ],
     "recent_30d": [
-      9,
+      8,
       4,
       5,
       6,
@@ -30265,8 +30265,8 @@
       4,
       5,
       3,
-      12,
-      9,
+      13,
+      8,
       7
     ],
     "status": "active"
@@ -55869,7 +55869,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       3,
       0,
       1,
@@ -56672,7 +56672,7 @@
       }
     ],
     "recent_30d": [
-      3,
+      2,
       0,
       0,
       1,
@@ -66019,8 +66019,8 @@
       1,
       2,
       2,
-      2,
       3,
+      2,
       2
     ],
     "status": "active"
@@ -70015,19 +70015,25 @@
   "radio-hkait": {
     "avg_gap_days": 4.1,
     "avg_length": 35,
-    "episodes": 208,
+    "episodes": 209,
     "eps_365": 90,
-    "eps_90": 39,
+    "eps_90": 40,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/08/22",
-    "last_at": "2026-11-13T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/c704b6b3-428e-4942-b075-56aa52a412e3/play.mp3?v=1",
-    "last_title": "خانه ای در آسمان - گلی ترقی",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/dae8dfce-61f6-495d-a7e0-a6f9a2c61ad7/play.mp3?v=1",
+    "last_title": "تقصیر خودته - عزیز نسین",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/dae8dfce-61f6-495d-a7e0-a6f9a2c61ad7/play.mp3?v=1",
+        "at": "2026-11-14T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/dae8dfce-61f6-495d-a7e0-a6f9a2c61ad7/artwork.jpg?v=1",
+        "t": "تقصیر خودته - عزیز نسین"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/c704b6b3-428e-4942-b075-56aa52a412e3/play.mp3?v=1",
         "at": "2026-11-13T01:30:00Z",
@@ -70069,15 +70075,15 @@
         "at": "2026-11-07T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/780d85c0-f168-4f21-aea9-49e76f37df86/artwork.jpg?v=1",
         "t": "دروغ ها - جی. ام. کوتزی"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/67e43052-b19e-4b70-86c0-e0d8251d5e9e/play.mp3?v=1",
-        "at": "2026-11-06T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/67e43052-b19e-4b70-86c0-e0d8251d5e9e/artwork.jpg?v=1",
-        "t": "مسائل بیمارستانی – دینو بوتزاتی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/dae8dfce-61f6-495d-a7e0-a6f9a2c61ad7/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/dae8dfce-61f6-495d-a7e0-a6f9a2c61ad7/play.mp3?v=1",
+        "title": "تقصیر خودته - عزیز نسین"
+      },
       {
         "at": "2026-11-13T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/c704b6b3-428e-4942-b075-56aa52a412e3/artwork.jpg?v=1",
@@ -70089,27 +70095,21 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/b8f4a61e-e595-43b8-96b0-30224ebf7f64/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/b8f4a61e-e595-43b8-96b0-30224ebf7f64/play.mp3?v=1",
         "title": "سقوط خانهُ آشر - بخش دوم - ادگار آلن پو"
-      },
-      {
-        "at": "2026-11-11T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/14f4feea-0e18-4155-8a32-9cfe9ec39dc6/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/14f4feea-0e18-4155-8a32-9cfe9ec39dc6/play.mp3?v=1",
-        "title": "سقوط خانهُ آشر - بخش اول - ادگار آلن پو"
       }
     ],
     "recent_30d": [
-      8,
-      6,
-      6,
+      9,
       5,
+      7,
+      4,
       0,
       0,
       7,
-      8,
       9,
       8,
       9,
-      22
+      8,
+      23
     ],
     "status": "active"
   },
