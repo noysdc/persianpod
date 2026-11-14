@@ -60,6 +60,7 @@ kbd.audition-key {
 .audition-figure figcaption { margin-top: .6em; font-size: .9em; opacity: .85; line-height: 1.8; }
 .audition-figure a { display: block; }
 .audition-icon { width: 30px !important; height: 30px !important; object-fit: contain; vertical-align: middle; }
+.audition-icon-letter { display: inline-flex; flex: 0 0 30px; width: 30px; height: 30px; align-items: center; justify-content: center; box-sizing: border-box; border: 1px solid rgba(110,110,110,.55); border-radius: 4px; background: rgba(128,128,128,.14); color: inherit; font: 700 16px/1 Arial, sans-serif; direction: ltr; unicode-bidi: isolate; }
 .audition-icon-row { display: flex; flex-wrap: wrap; gap: 1.2em; align-items: center; margin: .8em 0; }
 .audition-icon-item { display: inline-flex; align-items: center; gap: .5em; }
 
@@ -396,8 +397,8 @@ True Peak برآوردی از قله‌های سیگنال بازسازی‌شد
   <figcaption>نمای شماتیک هدر ترک: دکمه‌ی <b>R</b> را فقط روی ترک صدای راوی فعال کن. این تصویر بازسازی آموزشی است، نه اسکرین‌شات محیط برنامه. ظاهر و ترتیب کنترل‌ها ممکن است با نسخه یا چیدمان پنجره فرق کند.</figcaption>
 </figure>
 <div class="audition-icon-row" aria-label="آیکون‌های واقعی کنترل ترک در مستندات Adobe">
-  <span class="audition-icon-item"><img class="audition-icon" src="https://helpx.adobe.com/content/dam/help/icons/arm_for_record.png" alt="آیکون Arm For Record با حرف R" loading="lazy"> <span><b>Arm For Record (R)</b> — آماده‌کردن ترک برای ضبط</span></span>
-  <span class="audition-icon-item"><img class="audition-icon" src="https://helpx.adobe.com/content/dam/help/icons/monitor_input.png" alt="آیکون Monitor Input با حرف I" loading="lazy"> <span><b>Monitor Input (I)</b> — شنیدن ورودی زنده</span></span>
+  <span class="audition-icon-item"><span class="audition-icon-letter" role="img" aria-label="دکمه Arm For Record با حرف R">R</span> <span><b>Arm For Record (R)</b> — آماده‌کردن ترک برای ضبط</span></span>
+  <span class="audition-icon-item"><span class="audition-icon-letter" role="img" aria-label="دکمه Monitor Input با حرف I">I</span> <span><b>Monitor Input (I)</b> — شنیدن ورودی زنده</span></span>
 </div>
 <figure class="audition-figure">
   <a href="https://helpx.adobe.com/audition/desktop/importing-recording-and-playing/recording-audio.html">
@@ -1815,7 +1816,7 @@ Peak Normalize فقط بلندترین قله‌ی نمونه را به سقف �
 
 ## منابع فنی و تاریخ بازبینی
 
-این راهنما ترکیبی از تجربه‌ی عملی و پیشنهادهای شروع است؛ عددهای زنجیره‌ی صدا نسخه‌ی قطعی برای همه‌ی میکروفون‌ها، اتاق‌ها و صداها نیستند. هفت تصویر محیط برنامه در خود مخزن پرشین‌پاد نگهداری می‌شوند. دو آیکون کوچک Arm For Record و Monitor Input از نشانی‌های رسمی Adobe بارگذاری می‌شوند. تصاویر و آیکون‌ها برای تشخیص کنترل‌ها هستند؛ ممکن است چیدمان نسخه‌ی نصب‌شده‌ی تو کمی فرق کند. منابع رسمی زیر برای کنترل نکات فنی و تصویری استفاده شده‌اند:
+این راهنما ترکیبی از تجربه‌ی عملی و پیشنهادهای شروع است؛ عددهای زنجیره‌ی صدا نسخه‌ی قطعی برای همه‌ی میکروفون‌ها، اتاق‌ها و صداها نیستند. هفت تصویر محیط برنامه در خود مخزن پرشین‌پاد نگهداری می‌شوند. دو کنترل کوچک Arm For Record و Monitor Input با نشان‌های R و I به‌صورت محلی و بدون وابستگی به بارگذاری تصویر از سایت Adobe نمایش داده می‌شوند. تصاویر و آیکون‌ها برای تشخیص کنترل‌ها هستند؛ ممکن است چیدمان نسخه‌ی نصب‌شده‌ی تو کمی فرق کند. منابع رسمی زیر برای کنترل نکات فنی و تصویری استفاده شده‌اند:
 
 - [Adobe: Recording audio](https://helpx.adobe.com/audition/desktop/importing-recording-and-playing/recording-audio.html) — دکمه‌ی Arm For Record، انتخاب ورودی ترک و دکمه‌ی Record در Waveform و Multitrack.
 - [Adobe: Multitrack Editor overview](https://helpx.adobe.com/audition/desktop/mixing-multitrack-sessions/multitrack-editor-overview.html) — شناخت بخش‌های اصلی محیط Multitrack و کنترل‌های ترک.
