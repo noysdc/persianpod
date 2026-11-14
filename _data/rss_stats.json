@@ -8670,10 +8670,10 @@
     "status": "stopped"
   },
   "bandar-e-tehran": {
-    "avg_gap_days": 23.3,
+    "avg_gap_days": 23.9,
     "avg_length": 92,
     "episodes": 184,
-    "eps_365": 16,
+    "eps_365": 15,
     "eps_90": 6,
     "first_at": "2018-08-17",
     "first_year": 1397,
@@ -8762,8 +8762,8 @@
       0,
       0,
       1,
-      1,
-      3,
+      2,
+      2,
       2,
       2,
       2
@@ -28719,7 +28719,7 @@
       }
     ],
     "recent_30d": [
-      12,
+      11,
       7,
       6,
       3,
@@ -32241,8 +32241,8 @@
       0,
       2,
       3,
-      2,
-      3
+      3,
+      2
     ],
     "status": "active"
   },
@@ -46031,21 +46031,27 @@
     "status": "inactive"
   },
   "mozhde-sara-mzhdh-sra": {
-    "avg_gap_days": 12.4,
+    "avg_gap_days": 12.1,
     "avg_length": 36,
-    "episodes": 149,
-    "eps_365": 30,
-    "eps_90": 11,
+    "episodes": 150,
+    "eps_365": 31,
+    "eps_90": 12,
     "first_at": "2024-05-04",
     "first_year": 1403,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T15:30:00Z",
-    "last_link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6af07ca9baaf18ccf9499255",
-    "last_title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل پنجم",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T15:30:00Z",
+    "last_link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6af2efe9c2a93694e203ee9d",
+    "last_title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل ششم",
     "max_length": 98,
     "median_length": 17,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6af2efe9c2a93694e203ee9d/media.mp3",
+        "at": "2026-11-14T15:30:00Z",
+        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1794305860762-14eecce4-72a3-4b39-a2cb-0cc8950812fa.jpeg",
+        "t": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل ششم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6af07ca9baaf18ccf9499255/media.mp3",
         "at": "2026-11-10T15:30:00Z",
@@ -46087,15 +46093,15 @@
         "at": "2026-09-18T14:48:49Z",
         "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1789742859656-95386ade-0c32-49a7-9b06-2ce43bccedc5.jpeg",
         "t": "کتاب صوتی | هفت دختر هفت پسر | کتاب صوتی فارسی | فصل دوم قسمت پنجم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/682ca297f5721925a0e1f4a5/e/6a9f0d440c727006154c4d4a/media.mp3",
-        "at": "2026-09-08T17:30:00Z",
-        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1788808470253-4081b99b-d44a-4d9b-a7f9-05ad65aaba47.jpeg",
-        "t": "🎧 کتاب صوتی مترو 2033 | Metro 2033 Audiobook - فصل نوزدهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T15:30:00Z",
+        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1794305860762-14eecce4-72a3-4b39-a2cb-0cc8950812fa.jpeg",
+        "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6af2efe9c2a93694e203ee9d",
+        "title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل ششم"
+      },
       {
         "at": "2026-11-10T15:30:00Z",
         "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1794145271986-31f51d34-7d9f-436d-9cf5-18f96f6abf03.jpeg",
@@ -46107,12 +46113,6 @@
         "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1793704508689-cd4103fa-d3b6-42ad-ae7e-5bc0a1b503e5.jpeg",
         "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6ae9c29bda7c744de03d32c3",
         "title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل چهارم"
-      },
-      {
-        "at": "2026-11-03T15:30:00Z",
-        "i": "https://assets.pippa.io/shows/682ca297f5721925a0e1f4a5/1793014559951-671ec403-dee9-4c3f-a8a2-c34bb08d299a.jpeg",
-        "link": "https://shows.acast.com/ketabkhanegomshodeh/episodes/6adf3b53dd5d6293db6f8ef5",
-        "title": "سیرکی که هیچ‌وقت نباید واردش بشی! 🎪 | کتاب صوتی سیرک عجایب - فصل سوم"
       }
     ],
     "recent_30d": [
@@ -46127,7 +46127,7 @@
       4,
       4,
       1,
-      6
+      7
     ],
     "status": "active"
   },
@@ -54319,26 +54319,20 @@
   },
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.8,
-    "avg_length": 19,
-    "episodes": 41,
-    "eps_365": 41,
-    "eps_90": 41,
+    "avg_length": 20,
+    "episodes": 40,
+    "eps_365": 40,
+    "eps_90": 40,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/22",
-    "last_at": "2026-11-13T04:27:29Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6af691b228531eda45b921f2",
-    "last_title": "آموزش کامل و رایگان ساخت و انتشار پادکست",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T18:48:03Z",
+    "last_link": "https://furbodm.com/",
+    "last_title": "Disney #2 | اولین انیمیشن دیزنی که به سالن‌های سینما رفت چی بود؟",
     "max_length": 115,
     "median_length": 21,
-    "min_length": 2,
+    "min_length": 4,
     "play": [
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af691b228531eda45b921f2/media.mp3",
-        "at": "2026-11-13T04:27:29Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794543904012-621f76ac-d714-4873-984f-e6c1ad2db320.jpeg",
-        "t": "آموزش کامل و رایگان ساخت و انتشار پادکست"
-      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af609e405dc66c15db8ecb0/media.mp3",
         "at": "2026-11-12T18:48:03Z",
@@ -54380,15 +54374,15 @@
         "at": "2026-11-01T18:30:17Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793557613103-1b043e7f-af98-4dab-a966-f2d46ff10cb3.jpeg",
         "t": "NETFLIX #8 | چرا نت‌فلیکس به سمت تولید فیلم و سریال اختصاصی رفت؟"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae62d38339f23a726f55bee/media.mp3",
+        "at": "2026-10-31T18:02:32Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793469628275-e016b549-67e5-46cf-99c5-269e1f22b98c.jpeg",
+        "t": "NETFLIX #7 | داستان اولین شکست استراتژیک نت‌فلیکس با کوئیکستر چی بود؟"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-13T04:27:29Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794543904012-621f76ac-d714-4873-984f-e6c1ad2db320.jpeg",
-        "link": "https://shows.acast.com/business-stories-podcast/episodes/6af691b228531eda45b921f2",
-        "title": "آموزش کامل و رایگان ساخت و انتشار پادکست"
-      },
       {
         "at": "2026-11-12T18:48:03Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794509191116-4d20860c-074f-46ba-9b6d-d4caf11f5382.jpeg",
@@ -54400,6 +54394,12 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794412151410-14b7b211-3c22-4b76-8b6c-15948ca0d938.jpeg",
         "link": "https://furbodm.com/",
         "title": "Disney #1 | دنیای کارتون و انیمیشن قبل از دیزنی چه شکلی بود؟"
+      },
+      {
+        "at": "2026-11-10T14:56:01Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794322140453-2157de57-8ff9-4ff8-b67f-364f6b256299.jpeg",
+        "link": "https://furbodm.com/",
+        "title": "Disney #0 | فصل سوم پادکست بیزینس استوریز؛ والت دیزنی"
       }
     ],
     "recent_30d": [
@@ -54414,7 +54414,7 @@
       0,
       0,
       1,
-      40
+      39
     ],
     "status": "active"
   },
@@ -60962,8 +60962,8 @@
       0,
       0,
       0,
-      0,
-      11,
+      1,
+      10,
       2,
       3,
       0
@@ -70909,8 +70909,8 @@
       0,
       2,
       9,
-      13,
-      12
+      14,
+      11
     ],
     "status": "active"
   },
@@ -70991,8 +70991,8 @@
     "recent_30d": [
       2,
       0,
-      4,
-      4,
+      5,
+      3,
       1,
       0,
       0,
@@ -80266,21 +80266,27 @@
     "status": "active"
   },
   "sfir-sda": {
-    "avg_gap_days": 15.5,
-    "avg_length": 13,
-    "episodes": 61,
-    "eps_365": 24,
-    "eps_90": 11,
+    "avg_gap_days": 15.2,
+    "avg_length": 14,
+    "episodes": 62,
+    "eps_365": 25,
+    "eps_90": 12,
     "first_at": "2025-03-02",
     "first_year": 1403,
-    "last": "1405/08/16",
-    "last_at": "2026-11-07T12:17:32Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ruuim",
-    "last_title": "قصه: هفت زن دماغ بریده",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T15:22:16Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3scf3s",
+    "last_title": "افسانه : یک کلاغ ، چهل کلاغ !",
     "max_length": 33,
     "median_length": 9,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/101e050f4/podcast/play/129432124/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F538d1e36-0efd-70e4-3b53-5b8cadd57db6.mp3",
+        "at": "2026-11-14T15:22:16Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794669639637-fe4eadb670973.jpg",
+        "t": "افسانه : یک کلاغ ، چهل کلاغ !"
+      },
       {
         "a": "https://anchor.fm/s/101e050f4/podcast/play/128989206/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F68e9f505-78d7-0085-a9e4-d11b597609af.mp3",
         "at": "2026-11-07T12:17:32Z",
@@ -80322,15 +80328,15 @@
         "at": "2026-09-26T13:11:59Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1790428188456-e6d648de1e3df.jpg",
         "t": "قصه ی گل و نسترن"
-      },
-      {
-        "a": "https://anchor.fm/s/101e050f4/podcast/play/125989496/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-19%2Faed717b3-6230-5fb1-ab5d-a434f4655fe3.mp3",
-        "at": "2026-09-19T12:31:31Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1789821055144-c4e47076ae3e2.jpg",
-        "t": "افسانه‌های ایران | ملک جمشید | قسمت دوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T15:22:16Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794669639637-fe4eadb670973.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3scf3s",
+        "title": "افسانه : یک کلاغ ، چهل کلاغ !"
+      },
       {
         "at": "2026-11-07T12:17:32Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794053765174-38951d298c5bc.jpg",
@@ -80342,12 +80348,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1793449979955-d1dad2ddf3fe3.jpg",
         "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3rfqiq",
         "title": "قصه: هفت خواهر و یک خواهر"
-      },
-      {
-        "at": "2026-10-24T12:16:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1792240194770-cacd483d8e974.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql434",
-        "title": "افسانه اسب باوفا | قسمت دوم"
       }
     ],
     "recent_30d": [
@@ -80362,7 +80362,7 @@
       3,
       3,
       4,
-      4
+      5
     ],
     "status": "active"
   },
@@ -86383,7 +86383,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4270,
-    "eps_365": 797,
+    "eps_365": 796,
     "eps_90": 251,
     "first_at": "2023-09-13",
     "first_year": 1402,
@@ -86461,8 +86461,8 @@
       0,
       4,
       20,
-      114,
-      87,
+      115,
+      86,
       95,
       84,
       72
