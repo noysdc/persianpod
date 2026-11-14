@@ -5639,24 +5639,19 @@
   "ali-sdart": {
     "avg_gap_days": 4.9,
     "avg_length": 32,
-    "episodes": 450,
-    "eps_365": 76,
-    "eps_90": 15,
+    "episodes": 449,
+    "eps_365": 75,
+    "eps_90": 14,
     "first_at": "2020-06-15",
     "first_year": 1399,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T00:08:08Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3sbn74",
-    "last_title": "صدارت⁠- شعار نتانیاهو و شرکا: جنگ! جنگ! تا پیروزی «اسرائیل بزرگ» به‌عنوان «سرزمین موعود» برای «قوم برگزیده»",
+    "last": "1405/08/19",
+    "last_at": "2026-11-10T19:31:40Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3s5pmr",
+    "last_title": "صدارت⁠- نتایج مقاومت ایرانیان در مقابل جنایت و تجاوز انیرانیان!",
     "max_length": 146,
     "median_length": 38,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/2f313e0c/podcast/play/129407652/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F147a6fdb-8be0-f726-1e3a-011ee2e086a6.mp3",
-        "at": "2026-11-14T00:08:08Z",
-        "t": "صدارت⁠- شعار نتانیاهو و شرکا: جنگ! جنگ! تا پیروزی «اسرائیل بزرگ» به‌عنوان «سرزمین موعود» برای «قوم برگزیده»"
-      },
       {
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/129213595/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2Fe7fd93d1-4093-e4e7-a501-cfaebb3f2860.mp3",
         "at": "2026-11-10T19:31:40Z",
@@ -5698,14 +5693,15 @@
         "at": "2026-10-06T01:11:32Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1791248993572-a7037987c110f.jpg",
         "t": "صدارت⁠- رویکرد مردم به خشونت، وضعیت ما را از این هم بدتر خواهد کرد"
+      },
+      {
+        "a": "https://anchor.fm/s/2f313e0c/podcast/play/126451244/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-28%2F6b304a3c-0a8a-c8ef-f1c1-113d99e89187.mp3",
+        "at": "2026-09-28T22:49:21Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1790635702835-b7561e32f1c2.jpg",
+        "t": "صدارت-ایران کانون موضوعات اجلاس ۸۱ سازمان ملل"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-14T00:08:08Z",
-        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3sbn74",
-        "title": "صدارت⁠- شعار نتانیاهو و شرکا: جنگ! جنگ! تا پیروزی «اسرائیل بزرگ» به‌عنوان «سرزمین موعود» برای «قوم برگزیده»"
-      },
       {
         "at": "2026-11-10T19:31:40Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1794339081089-c8b81307ad18c.jpg",
@@ -5717,6 +5713,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793827719022-7d664039ef3ab.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/------------e3rp41e",
         "title": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم"
+      },
+      {
+        "at": "2026-10-27T01:32:08Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793064697238-da02b26520a9.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3r59mh",
+        "title": "صدارت⁠- سرنوشت نامشخص ما، با نقش‌آفرینی توسط ما مردم مشخص می‌شود، نه با دخالت قدرت‌ها و احزاب"
       }
     ],
     "recent_30d": [
@@ -5731,7 +5733,7 @@
       5,
       4,
       4,
-      7
+      6
     ],
     "status": "active"
   },
@@ -27351,8 +27353,8 @@
       11,
       7,
       4,
-      3,
       4,
+      3,
       1,
       2,
       2
@@ -47478,21 +47480,27 @@
     "status": "stopped"
   },
   "nghashi-khial-ba-shar": {
-    "avg_gap_days": 31.9,
+    "avg_gap_days": 29.6,
     "avg_length": 3,
-    "episodes": 107,
-    "eps_365": 12,
-    "eps_90": 8,
+    "episodes": 108,
+    "eps_365": 13,
+    "eps_90": 9,
     "first_at": "2020-08-14",
     "first_year": 1399,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T08:26:06Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3s4keb",
-    "last_title": "خاموش!",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T08:37:28Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3sc33p",
+    "last_title": "نیم‌دایره",
     "max_length": 13,
     "median_length": 3,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/2ec157f4/podcast/play/129419833/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F5ec145fe-0852-04b5-96ec-c6226daed07c.mp3",
+        "at": "2026-11-14T08:37:28Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1794645056918-b6b5f4949b772.jpg",
+        "t": "نیم‌دایره"
+      },
       {
         "a": "https://anchor.fm/s/2ec157f4/podcast/play/129175435/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2Fcd4306e8-7d01-f6eb-7843-6a5b4bd201b5.mp3",
         "at": "2026-11-10T08:26:06Z",
@@ -47534,15 +47542,15 @@
         "at": "2026-09-04T12:51:41Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1788525702412-f19d996089002.jpg",
         "t": "چشم‌آبی"
-      },
-      {
-        "a": "https://anchor.fm/s/2ec157f4/podcast/play/124431753/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-19%2F3094d976-7821-3475-5903-f080dd1f3f86.mp3",
-        "at": "2026-08-19T11:00:57Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1787137214931-be2bc1aab424b.jpg",
-        "t": "سرو کوهی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T08:37:28Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1794645056918-b6b5f4949b772.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3sc33p",
+        "title": "نیم‌دایره"
+      },
       {
         "at": "2026-11-10T08:26:06Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1794299100488-3c1227156730f.jpg",
@@ -47554,12 +47562,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1791982642503-92883c672854d.jpg",
         "link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3qg8t3",
         "title": "گفته بودم"
-      },
-      {
-        "at": "2026-10-07T12:26:13Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7744229/7744229-1791375943191-73fe15beec9d9.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/gholamreza-aminian/episodes/ep-e3q329e",
-        "title": "نیمه شرقی"
       }
     ],
     "recent_30d": [
@@ -47574,7 +47576,7 @@
       0,
       2,
       5,
-      1
+      2
     ],
     "status": "active"
   },
@@ -62072,7 +62074,6 @@
       {
         "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6aeccf9e3a774bc7313fe880/media.mp3",
         "at": "2026-11-10T18:30:00Z",
-        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1793904168233-852f3918-02ed-4e66-8d46-b1abfa1163d2.jpeg",
         "t": "استندآپ گِله؛ بهار مدیری"
       },
       {
@@ -62121,7 +62122,6 @@
     "recent": [
       {
         "at": "2026-11-10T18:30:00Z",
-        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1793904168233-852f3918-02ed-4e66-8d46-b1abfa1163d2.jpeg",
         "link": "https://youtu.be/94M-33lcSFw",
         "title": "استندآپ گِله؛ بهار مدیری"
       },
@@ -72438,8 +72438,8 @@
       10,
       10,
       11,
-      12,
-      12,
+      13,
+      11,
       13,
       11,
       12,
