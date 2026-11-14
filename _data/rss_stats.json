@@ -29606,10 +29606,10 @@
     "status": "active"
   },
   "jadh-mofghit": {
-    "avg_gap_days": 2.1,
+    "avg_gap_days": 2.2,
     "avg_length": 48,
     "episodes": 1272,
-    "eps_365": 110,
+    "eps_365": 109,
     "eps_90": 0,
     "first_at": "2020-04-04",
     "first_year": 1399,
@@ -80266,27 +80266,21 @@
     "status": "active"
   },
   "sfir-sda": {
-    "avg_gap_days": 15.2,
-    "avg_length": 14,
-    "episodes": 62,
-    "eps_365": 25,
-    "eps_90": 12,
+    "avg_gap_days": 15.5,
+    "avg_length": 13,
+    "episodes": 61,
+    "eps_365": 24,
+    "eps_90": 11,
     "first_at": "2025-03-02",
     "first_year": 1403,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T15:22:16Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3scf3s",
-    "last_title": "افسانه : یک کلاغ ، چهل کلاغ !",
+    "last": "1405/08/16",
+    "last_at": "2026-11-07T12:17:32Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ruuim",
+    "last_title": "قصه: هفت زن دماغ بریده",
     "max_length": 33,
     "median_length": 9,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/101e050f4/podcast/play/129432124/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F538d1e36-0efd-70e4-3b53-5b8cadd57db6.mp3",
-        "at": "2026-11-14T15:22:16Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794669639637-fe4eadb670973.jpg",
-        "t": "افسانه : یک کلاغ ، چهل کلاغ !"
-      },
       {
         "a": "https://anchor.fm/s/101e050f4/podcast/play/128989206/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-7%2F68e9f505-78d7-0085-a9e4-d11b597609af.mp3",
         "at": "2026-11-07T12:17:32Z",
@@ -80328,15 +80322,15 @@
         "at": "2026-09-26T13:11:59Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1790428188456-e6d648de1e3df.jpg",
         "t": "قصه ی گل و نسترن"
+      },
+      {
+        "a": "https://anchor.fm/s/101e050f4/podcast/play/125989496/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-19%2Faed717b3-6230-5fb1-ab5d-a434f4655fe3.mp3",
+        "at": "2026-09-19T12:31:31Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1789821055144-c4e47076ae3e2.jpg",
+        "t": "افسانه‌های ایران | ملک جمشید | قسمت دوم"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-14T15:22:16Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794669639637-fe4eadb670973.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3scf3s",
-        "title": "افسانه : یک کلاغ ، چهل کلاغ !"
-      },
       {
         "at": "2026-11-07T12:17:32Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794053765174-38951d298c5bc.jpg",
@@ -80348,6 +80342,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1793449979955-d1dad2ddf3fe3.jpg",
         "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3rfqiq",
         "title": "قصه: هفت خواهر و یک خواهر"
+      },
+      {
+        "at": "2026-10-24T12:16:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1792240194770-cacd483d8e974.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ql434",
+        "title": "افسانه اسب باوفا | قسمت دوم"
       }
     ],
     "recent_30d": [
@@ -80362,7 +80362,7 @@
       3,
       3,
       4,
-      5
+      4
     ],
     "status": "active"
   },
