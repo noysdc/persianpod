@@ -51151,8 +51151,8 @@
       0,
       0,
       0,
-      3,
-      20,
+      4,
+      19,
       0,
       0,
       0,
@@ -81847,19 +81847,25 @@
   "shar-ba-sdai-shaar": {
     "avg_gap_days": 2.6,
     "avg_length": 4,
-    "episodes": 350,
-    "eps_365": 139,
-    "eps_90": 29,
+    "episodes": 351,
+    "eps_365": 140,
+    "eps_90": 30,
     "first_at": "2025-01-23",
     "first_year": 1403,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T19:30:00Z",
-    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c1eb1295fc6e84898b8de",
-    "last_title": "رضا براهنی | موسیقی",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T19:30:00Z",
+    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c1b557cf1b7ec45a48919",
+    "last_title": "نیما یوشیج | مرغ شب‌آویز | صدای احمد کیایی",
     "max_length": 44,
     "median_length": 4,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c1b557cf1b7ec45a48919/media.mp3",
+        "at": "2026-11-14T19:30:00Z",
+        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763449636968-383d4b46-7658-49f9-b0fb-4e4eefd7026f.jpeg",
+        "t": "نیما یوشیج | مرغ شب‌آویز | صدای احمد کیایی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c1eb1295fc6e84898b8de/media.mp3",
         "at": "2026-11-10T19:30:00Z",
@@ -81901,15 +81907,15 @@
         "at": "2026-10-17T19:30:00Z",
         "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763449735565-4c9f3efe-5e22-4d59-88f9-f692d7af1632.jpeg",
         "t": "مشفق کاشانی | نمی‌دانم کیم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/69183f0d1029ec1fed293d7a/media.mp3",
-        "at": "2026-10-14T19:30:00Z",
-        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763196650019-9b3e2a85-1576-49da-a61d-0f38e4271e31.jpeg",
-        "t": "یدالله رویایی | میوه‌های ملال"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T19:30:00Z",
+        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763449636968-383d4b46-7658-49f9-b0fb-4e4eefd7026f.jpeg",
+        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1b557cf1b7ec45a48919",
+        "title": "نیما یوشیج | مرغ شب‌آویز | صدای احمد کیایی"
+      },
       {
         "at": "2026-11-10T19:30:00Z",
         "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450510379-a2d278a8-0420-498d-8e8a-e5ebcfa4b2b3.jpeg",
@@ -81921,12 +81927,6 @@
         "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450376464-7280b0aa-6449-45a8-815a-159c158e88d1.jpeg",
         "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1e2c7cf1b7ec45a52c41",
         "title": "حسین منزوی | کسی نشناخت"
-      },
-      {
-        "at": "2026-10-30T19:30:00Z",
-        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450231551-24400fbd-1382-4070-9040-f5b029ea6c4d.jpeg",
-        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1d9a295fc6e848987c2e",
-        "title": "فریدون مشیری | دست‌هامان"
       }
     ],
     "recent_30d": [
@@ -81941,7 +81941,7 @@
       17,
       14,
       8,
-      7
+      8
     ],
     "status": "active"
   },
