@@ -3279,7 +3279,6 @@
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/129436868/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2Fc2ca4618-0ea3-1624-5c34-2c1de66817d0.mp3",
         "at": "2026-11-14T17:47:20Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794679069038-3d0036a762cab.jpg",
         "t": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه"
       },
       {
@@ -3328,7 +3327,6 @@
     "recent": [
       {
         "at": "2026-11-14T17:47:20Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794679069038-3d0036a762cab.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3scjo4",
         "title": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه"
       },
@@ -36194,19 +36192,25 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 20,
-    "episodes": 654,
-    "eps_365": 618,
-    "eps_90": 182,
+    "episodes": 655,
+    "eps_365": 619,
+    "eps_90": 183,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/08/23",
-    "last_at": "2026-11-14T17:32:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6af85ae77d5cb93e7d24c3ee",
-    "last_title": "جزیره مرگ - بخش بیست و یکم",
+    "last_at": "2026-11-14T18:05:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6af85b8e28531eda4539aaab",
+    "last_title": "جزیره مرگ - بخش بیست و دوم",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af85b8e28531eda4539aaab/media.mp3",
+        "at": "2026-11-14T18:05:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794661252170-37e92996-a217-42ac-91b4-885e41031971.jpeg",
+        "t": "جزیره مرگ - بخش بیست و دوم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af85ae77d5cb93e7d24c3ee/media.mp3",
         "at": "2026-11-14T17:32:00Z",
@@ -36248,15 +36252,15 @@
         "at": "2026-11-13T16:30:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794582956899-f3c243f1-1bfe-4703-bb75-0edfc4ab5384.jpeg",
         "t": "جزیره مرگ - بخش شانزدهم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af5cd5f41ca9a3ff10176cc/media.mp3",
-        "at": "2026-11-12T18:32:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794493781737-e79f0388-fe43-4137-968c-a2ab69ddfbfd.jpeg",
-        "t": "جزیره ی مرگ - بخش پانزدهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T18:05:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794661252170-37e92996-a217-42ac-91b4-885e41031971.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6af85b8e28531eda4539aaab",
+        "title": "جزیره مرگ - بخش بیست و دوم"
+      },
       {
         "at": "2026-11-14T17:32:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794660954534-9927bb39-a3ae-4a30-b36c-c1cc49ebe9c4.jpeg",
@@ -36268,16 +36272,10 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794660636065-c762bce3-875d-4634-926d-1f7172bf00ed.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6af859db28531eda45391a2f",
         "title": "جزیره مرگ - بخش بیستم"
-      },
-      {
-        "at": "2026-11-14T16:15:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794660397078-11c37a7c-7c23-465a-b828-53b2bcabf684.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6af858e59d9936aaac8b9b2a",
-        "title": "جزیره مرگ - بخش نوزدهم"
       }
     ],
     "recent_30d": [
-      87,
+      86,
       129,
       56,
       12,
@@ -36288,7 +36286,7 @@
       63,
       56,
       63,
-      63
+      64
     ],
     "status": "active"
   },
@@ -50370,8 +50368,8 @@
       0,
       0,
       0,
-      4,
-      3,
+      5,
+      2,
       2,
       0,
       0,
@@ -60459,8 +60457,8 @@
       0,
       0,
       1,
-      5,
-      5,
+      6,
+      4,
       4,
       4,
       6
