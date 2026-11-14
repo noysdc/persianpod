@@ -75,10 +75,6 @@
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
   },
-  "green-gate-drichh-sbz": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://radioiranshahr.org/feed/podcast?name=psychology"
-  },
   "hnr-jng": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://namlik.me/rss/318"
@@ -98,14 +94,6 @@
   "kodkan-mana": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
-  },
-  "let-s-read-books-together-ba-hm-ktab-bkhoanim": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://radioiranshahr.org/feed/podcast?name=lets-read-books-together"
-  },
-  "literature-with-dr-karimi-hakkak-adbiat-ba-dktr-krimi-hkak": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://radioiranshahr.org/feed/podcast?name=dr-karimi"
   },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -183,16 +171,12 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
-  "science-and-technology-news-akhbar-alm-o-tknolozhi": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://radioiranshahr.org/feed/podcast?name=science-and-technology-news"
-  },
-  "shahnameh-and-myth-shahnamh-o-astorh": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://radioiranshahr.org/feed/podcast?name=shahnameh-and-myth"
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://ronakottawa.com/feed/podcast/zaban-o-adabiyat/"
   },
   "zmin-o-zman": {
