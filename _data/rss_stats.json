@@ -29315,27 +29315,21 @@
     "status": "stopped"
   },
   "ilda-mhdoi-brnamh-hai-gnj-hzor": {
-    "avg_gap_days": 17.2,
+    "avg_gap_days": 17.6,
     "avg_length": 59,
-    "episodes": 20,
-    "eps_365": 20,
-    "eps_90": 19,
+    "episodes": 19,
+    "eps_365": 19,
+    "eps_90": 18,
     "first_at": "2025-12-21",
     "first_year": 1404,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T19:45:55Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3scp78",
-    "last_title": "برنامه شماره ۲۰",
+    "last": "1405/08/12",
+    "last_at": "2026-11-03T01:50:52Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3rkmg3",
+    "last_title": "برنامه شماره ۱۹",
     "max_length": 86,
-    "median_length": 62,
+    "median_length": 63,
     "min_length": 34,
     "play": [
-      {
-        "a": "https://anchor.fm/s/116ea0d64/podcast/play/129442472/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F20488dce-6959-1712-44f0-86fe2fae13c0.mp3",
-        "at": "2026-11-14T19:45:55Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1794685562104-10e081e28e28e.jpg",
-        "t": "برنامه شماره ۲۰"
-      },
       {
         "a": "https://anchor.fm/s/116ea0d64/podcast/play/128653251/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-3%2F868d5b6f-4a08-ed97-5a48-ea21957b90b2.mp3",
         "at": "2026-11-03T01:50:52Z",
@@ -29377,15 +29371,15 @@
         "at": "2026-11-02T19:00:45Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793646055049-b7c3b055bb19a.jpg",
         "t": "برنامه شماره ۱۳"
+      },
+      {
+        "a": "https://anchor.fm/s/116ea0d64/podcast/play/128634853/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F62a80e8e-fd1f-809e-4a71-0438bf4566e2.mp3",
+        "at": "2026-11-02T18:53:01Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793645591988-9a7461b18e282.jpg",
+        "t": "برنامه شماره ۱۲"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-14T19:45:55Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1794685562104-10e081e28e28e.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3scp78",
-        "title": "برنامه شماره ۲۰"
-      },
       {
         "at": "2026-11-03T01:50:52Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793670660688-c32052520f96b.jpg",
@@ -29397,6 +29391,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793670320492-5b9013cfbc759.jpg",
         "link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3rkm9g",
         "title": "برنامه شماره ۱۸"
+      },
+      {
+        "at": "2026-11-02T19:51:55Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793649145243-ee97b1171380b.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3rk7aq",
+        "title": "برنامه شماره ۱۷"
       }
     ],
     "recent_30d": [
@@ -29411,7 +29411,7 @@
       0,
       1,
       3,
-      15
+      14
     ],
     "status": "active"
   },
