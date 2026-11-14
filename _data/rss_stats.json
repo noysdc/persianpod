@@ -19002,21 +19002,27 @@
     "status": "active"
   },
   "fal-tarot-sfri-ba-khn-algo-ha": {
-    "avg_gap_days": 6.4,
-    "avg_length": 45,
-    "episodes": 20,
-    "eps_365": 20,
-    "eps_90": 5,
+    "avg_gap_days": 7.8,
+    "avg_length": 46,
+    "episodes": 21,
+    "eps_365": 21,
+    "eps_90": 6,
     "first_at": "2026-06-09",
     "first_year": 1405,
-    "last": "1405/07/17",
-    "last_at": "2026-10-09T16:49:32Z",
-    "last_link": "https://shows.acast.com/taroutreza/episodes/6ac91b1de53019e890f7f84e",
-    "last_title": "قسمت چهارده: اعتدال",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T01:22:38Z",
+    "last_link": "https://shows.acast.com/taroutreza/episodes/6af7b7deda1c080cb94c8d71",
+    "last_title": "قسمت پانزده: دیو",
     "max_length": 68,
-    "median_length": 44,
+    "median_length": 45,
     "min_length": 28,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a27ad9a6642088a10907825/e/6af7b7deda1c080cb94c8d71/media.mp3",
+        "at": "2026-11-14T01:22:38Z",
+        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1794619353813-9a250f27-cafc-44a2-bfc2-16d014c2b28a.jpeg",
+        "t": "قسمت پانزده: دیو"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6a27ad9a6642088a10907825/e/6ac91b1de53019e890f7f84e/media.mp3",
         "at": "2026-10-09T16:49:32Z",
@@ -19058,15 +19064,15 @@
         "at": "2026-08-06T10:29:14Z",
         "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1786011976850-80b6d8c9-bc9d-4033-a935-b93974740780.jpeg",
         "t": "ماندالا دوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6a27ad9a6642088a10907825/e/6a6cecba61ae402f613e8587/media.mp3",
-        "at": "2026-07-31T18:43:06Z",
-        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1785523264022-ec07d6d5-4716-4a0b-ae26-3feb9999c94e.jpeg",
-        "t": "ماندالا یکم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T01:22:38Z",
+        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1794619353813-9a250f27-cafc-44a2-bfc2-16d014c2b28a.jpeg",
+        "link": "https://shows.acast.com/taroutreza/episodes/6af7b7deda1c080cb94c8d71",
+        "title": "قسمت پانزده: دیو"
+      },
       {
         "at": "2026-10-09T16:49:32Z",
         "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1791563645503-550df44e-dfc0-4459-be06-9f9ace3a914b.jpeg",
@@ -19078,12 +19084,6 @@
         "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1790766319359-ebc1dd46-298e-4c01-8410-13f4f90a1864.jpeg",
         "link": "https://shows.acast.com/taroutreza/episodes/6abceda006846f55a31c6c63",
         "title": "قسمت سیزده: مرگ"
-      },
-      {
-        "at": "2026-09-02T12:07:52Z",
-        "i": "https://assets.pippa.io/shows/6a27ad9a6642088a10907825/1788350854173-fde8d726-b849-482f-b8b2-8abccf80b377.jpeg",
-        "link": "https://shows.acast.com/taroutreza/episodes/6a981199a4a22c581738f644",
-        "title": "قسمت دوازده: مرد آویخته"
       }
     ],
     "recent_30d": [
@@ -19098,7 +19098,7 @@
       4,
       3,
       2,
-      0
+      1
     ],
     "status": "active"
   },
