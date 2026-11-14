@@ -28528,8 +28528,8 @@
       6,
       8,
       6,
-      8,
-      8
+      9,
+      7
     ],
     "status": "active"
   },
@@ -29496,8 +29496,8 @@
       0,
       0,
       0,
-      15,
-      19,
+      16,
+      18,
       0,
       0,
       0,
@@ -58062,21 +58062,27 @@
     "status": "active"
   },
   "podcast-fotbali-fotbal-trapi": {
-    "avg_gap_days": 21.1,
+    "avg_gap_days": 20.0,
     "avg_length": 72,
-    "episodes": 112,
-    "eps_365": 18,
-    "eps_90": 6,
+    "episodes": 113,
+    "eps_365": 19,
+    "eps_90": 7,
     "first_at": "2024-04-05",
     "first_year": 1403,
-    "last": "1405/08/22",
-    "last_at": "2026-11-13T08:46:10Z",
-    "last_link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/44918424-bb65-4d32-9ca2-456c55352a3f/play.mp3?v=1",
-    "last_title": "فصل7| قسمت5| بخش دوم: رافائل نادال رییس رئال می‌شود؟",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T05:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/ba0c97ae-1932-4593-9d12-926fe95cbb26/play.mp3?v=1",
+    "last_title": "فصل7| قسمت5| بخش آخر: شخم زدن منچستر توسط مدیرورزشی ۸ ساله!",
     "max_length": 136,
-    "median_length": 87,
+    "median_length": 86,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/ba0c97ae-1932-4593-9d12-926fe95cbb26/play.mp3?v=1",
+        "at": "2026-11-14T05:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/ba0c97ae-1932-4593-9d12-926fe95cbb26/artwork.jpg?v=1",
+        "t": "فصل7| قسمت5| بخش آخر: شخم زدن منچستر توسط مدیرورزشی ۸ ساله!"
+      },
       {
         "a": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/44918424-bb65-4d32-9ca2-456c55352a3f/play.mp3?v=1",
         "at": "2026-11-13T08:46:10Z",
@@ -58118,15 +58124,15 @@
         "at": "2026-01-06T08:01:12Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/45d99aee-5988-426b-bdb2-10df53bc9436/artwork.jpg?v=2",
         "t": "فصل6| قسمت20: از پس تیرگی آفتابی درآید..."
-      },
-      {
-        "a": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/9ef9c482-b849-4af1-90a5-e0ae29322d57/play.mp3?v=2",
-        "at": "2026-01-01T09:38:43Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/9ef9c482-b849-4af1-90a5-e0ae29322d57/artwork.jpg?v=1",
-        "t": "فوتبال فانتزی لیگ برتر انگلیس- قسمت سیزدهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T05:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/ba0c97ae-1932-4593-9d12-926fe95cbb26/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/ba0c97ae-1932-4593-9d12-926fe95cbb26/play.mp3?v=1",
+        "title": "فصل7| قسمت5| بخش آخر: شخم زدن منچستر توسط مدیرورزشی ۸ ساله!"
+      },
       {
         "at": "2026-11-13T08:46:10Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/44918424-bb65-4d32-9ca2-456c55352a3f/artwork.jpg?v=1",
@@ -58138,12 +58144,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/12e1fa3d-19e9-4db2-b1d3-51469e342ac9/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/12e1fa3d-19e9-4db2-b1d3-51469e342ac9/play.mp3?v=1",
         "title": "فصل7| قسمت5| بخش اول:  سقوط شهر منچستر"
-      },
-      {
-        "at": "2026-11-05T13:36:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/58ac5c83-db2f-40f3-840c-11a65eb14c0f/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/58ac5c83-db2f-40f3-840c-11a65eb14c0f/play.mp3?v=1",
-        "title": "فصل7| قسمت4: حمله اخراجی به رونالدو!"
       }
     ],
     "recent_30d": [
@@ -58158,7 +58158,7 @@
       0,
       0,
       0,
-      6
+      7
     ],
     "status": "active"
   },
@@ -87252,8 +87252,8 @@
       34,
       11,
       1,
-      12,
-      9,
+      13,
+      8,
       10,
       26,
       45,
