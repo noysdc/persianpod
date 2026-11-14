@@ -2861,8 +2861,8 @@
       0,
       0,
       0,
-      11,
-      35,
+      12,
+      34,
       22,
       10,
       7
@@ -52832,7 +52832,7 @@
       {
         "a": "https://sphinx.acast.com/p/open/s/66b9c67dfa05c89378c80694/e/6af84ef328531eda45343a4d/media.mp3",
         "at": "2026-11-14T12:07:14Z",
-        "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1794657761081-b9fbde7c-fbc0-4f17-8c4a-ef22e33917f4.jpeg",
+        "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1794660511125-8febe119-d36c-4b8a-8a15-6f79c8615375.jpeg",
         "t": "دعوت به آیین گشایش محفل نحوت - اپیزود موقت"
       },
       {
@@ -52881,7 +52881,7 @@
     "recent": [
       {
         "at": "2026-11-14T12:07:14Z",
-        "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1794657761081-b9fbde7c-fbc0-4f17-8c4a-ef22e33917f4.jpeg",
+        "i": "https://assets.pippa.io/shows/66b9c67dfa05c89378c80694/1794660511125-8febe119-d36c-4b8a-8a15-6f79c8615375.jpeg",
         "link": "https://thothpodcast.com/",
         "title": "دعوت به آیین گشایش محفل نحوت - اپیزود موقت"
       },
@@ -58262,21 +58262,27 @@
     "status": "active"
   },
   "podcast-ghsh-go-ghesegoo": {
-    "avg_gap_days": 15.5,
+    "avg_gap_days": 15.2,
     "avg_length": 42,
-    "episodes": 56,
-    "eps_365": 24,
-    "eps_90": 6,
+    "episodes": 57,
+    "eps_365": 25,
+    "eps_90": 7,
     "first_at": "2024-11-10",
     "first_year": 1403,
-    "last": "1405/08/16",
-    "last_at": "2026-11-07T01:30:09Z",
-    "last_link": "https://www.youtube.com/watch?v=3XnKRRqvpiI&t=1s",
-    "last_title": "بهرام گور و هفت پیکر",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T12:50:17Z",
+    "last_link": "https://www.youtube.com/watch?v=9cUcpiubcWA",
+    "last_title": "یزدگرد و بهرام",
     "max_length": 84,
-    "median_length": 29,
+    "median_length": 30,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://audio3.redcircle.com/episodes/95518f5d-d05b-42e4-9aca-d2712353c172/stream.mp3",
+        "at": "2026-11-14T12:50:17Z",
+        "i": "https://media.redcircle.com/images/2026/11/14/12/a43bba2c-a5a5-410c-8aa8-f5323f0b3dcf_57.jpg",
+        "t": "یزدگرد و بهرام"
+      },
       {
         "a": "https://audio3.redcircle.com/episodes/01509e35-2129-44b8-aa9c-b7214605bc3f/stream.mp3",
         "at": "2026-11-07T01:30:09Z",
@@ -58318,15 +58324,15 @@
         "at": "2026-08-15T01:30:43Z",
         "i": "https://media.redcircle.com/images/2026/8/14/10/a1bec87c-aafa-4050-a362-bdf0b846b2a9_50.jpg",
         "t": "خدای مردگان"
-      },
-      {
-        "a": "https://audio3.redcircle.com/episodes/c4270cdd-0a9b-402d-847e-36990637f46a/stream.mp3",
-        "at": "2026-08-01T01:30:46Z",
-        "i": "https://media.redcircle.com/images/2026/7/29/16/6f30cb2f-939a-4696-abbd-f137589c7f8e_49.jpg",
-        "t": "رستم و سهراب"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T12:50:17Z",
+        "i": "https://media.redcircle.com/images/2026/11/14/12/a43bba2c-a5a5-410c-8aa8-f5323f0b3dcf_57.jpg",
+        "link": "https://www.youtube.com/watch?v=9cUcpiubcWA",
+        "title": "یزدگرد و بهرام"
+      },
       {
         "at": "2026-11-07T01:30:09Z",
         "i": "https://media.redcircle.com/images/2026/11/6/20/96d4719a-8ed8-47d4-847f-e4dc146573fa_56.jpg",
@@ -58338,12 +58344,6 @@
         "i": "https://media.redcircle.com/images/2026/10/23/18/53053278-d845-4dbc-a6a8-82ae11a7f4da_55.jpg",
         "link": "https://youtu.be/NL9eeB1kkGs",
         "title": "جیسون و مده‌آ"
-      },
-      {
-        "at": "2026-10-10T01:30:12Z",
-        "i": "https://media.redcircle.com/images/2026/10/9/16/830bdd7c-2b27-41ac-b3fb-2968144783dc_54.jpg",
-        "link": "https://www.youtube.com/watch?v=5V00F2z9AvI",
-        "title": "جیسون و پشم زرین"
       }
     ],
     "recent_30d": [
@@ -58358,7 +58358,7 @@
       3,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -83331,8 +83331,8 @@
     "recent_30d": [
       1,
       0,
-      0,
       1,
+      0,
       0,
       0,
       0,
