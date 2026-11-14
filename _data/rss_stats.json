@@ -4325,7 +4325,7 @@
     "avg_length": 5,
     "episodes": 15,
     "eps_365": 15,
-    "eps_90": 9,
+    "eps_90": 8,
     "first_at": "2026-08-10",
     "first_year": 1405,
     "last": "1405/06/20",
@@ -4403,8 +4403,8 @@
       0,
       0,
       0,
-      6,
-      9,
+      7,
+      8,
       0,
       0
     ],
@@ -55771,8 +55771,8 @@
       2,
       1,
       0,
-      0,
-      3,
+      1,
+      2,
       0,
       2,
       3,
@@ -75575,8 +75575,8 @@
       }
     ],
     "recent_30d": [
-      3,
-      3,
+      4,
+      2,
       0,
       2,
       2,
@@ -89324,37 +89324,44 @@
       {
         "a": "https://sphinx.acast.com/p/open/s/66a8eadf66e879d7b6dbf5db/e/6913ee80c1ed8717c51b91a7/media.mp3",
         "at": "2025-11-12T02:18:40Z",
-        "t": "اپیزود 33- از بهشت تا ساوانا"
+        "i": "https://assets.pippa.io/shows/66a8eadf66e879d7b6dbf5db/1794639661719-ac3e798c-267a-473b-a992-ae3a535e5878.jpeg",
+        "t": "اپیزود ۳۳ | از بهشت تا ساوانا"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/66a8eadf66e879d7b6dbf5db/e/6900e2952d04968b77469adc/media.mp3",
         "at": "2025-10-28T15:34:45Z",
-        "t": "اپیزود 32: غریزه‌ی زبان"
+        "i": "https://assets.pippa.io/shows/66a8eadf66e879d7b6dbf5db/1794639652557-7d013f03-d13d-4142-92a8-e7cecd6ce11a.jpeg",
+        "t": "اپیزود ۳۲ | زبان در کجای مغز است؟"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/66a8eadf66e879d7b6dbf5db/e/68d61034acc34956e62d496a/media.mp3",
         "at": "2025-09-26T04:01:56Z",
-        "t": "اپیزود 31-چی ما انسان‌ها رو خاص میکنه؟"
+        "i": "https://assets.pippa.io/shows/66a8eadf66e879d7b6dbf5db/1794639643677-fc4c5967-7678-44b8-98c2-94268b09b158.jpeg",
+        "t": "اپیزود ۳۱ | چه چیزی ما را انسان کرد؟"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/66a8eadf66e879d7b6dbf5db/e/68c799ea6078db9201b4c54d/media.mp3",
         "at": "2025-09-15T04:45:30Z",
-        "t": "اپیزود 30-وقتی مغز آینده را اختراع کرد"
+        "i": "https://assets.pippa.io/shows/66a8eadf66e879d7b6dbf5db/1794639617644-28279510-c7cc-4cbd-87bd-87dd5b8aa516.jpeg",
+        "t": "اپیزود ۳۰ | وقتی مغز آینده را اختراع کرد"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/66a8eadf66e879d7b6dbf5db/e/68b2a67ce9dcbdcab980a83c/media.mp3",
         "at": "2025-08-30T07:21:32Z",
-        "t": "اپیزود 29: نورون های آینه ای"
+        "i": "https://assets.pippa.io/shows/66a8eadf66e879d7b6dbf5db/1794639608407-4cd66e87-b0f4-47b5-bb05-5eee8606e7be.jpeg",
+        "t": "اپیزود ۲۹ | ساندویچی که یک کشف بزرگ را رقم زد"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/66a8eadf66e879d7b6dbf5db/e/68a5586ee2f63983a77cbffc/media.mp3",
         "at": "2025-08-20T05:09:01Z",
-        "t": "اپیزود 28-آینه‌های ذهن: از شبیه‌سازی خود تا درک دیگران"
+        "i": "https://assets.pippa.io/shows/66a8eadf66e879d7b6dbf5db/1794639598565-35bdcf30-37d2-4510-93d8-279ad6677ba4.jpeg",
+        "t": "اپیزود ۲۸ | خودم را جای تو می‌گذارم"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/66a8eadf66e879d7b6dbf5db/e/688ee647eb4229c919c51e30/media.mp3",
         "at": "2025-08-03T04:32:07Z",
-        "t": "اپیزود 27- ذهن نخستی‌ها: از مدل‌سازی دانش تا درک خود و دیگران"
+        "i": "https://assets.pippa.io/shows/66a8eadf66e879d7b6dbf5db/1794639589612-d7d7609f-b4b8-4d31-b946-f26f4bca1565.jpeg",
+        "t": "اپیزود ۲۷ | مغزی که درباره‌ی خودش فکر می‌کند"
       }
     ],
     "recent": [
@@ -89365,13 +89372,15 @@
       },
       {
         "at": "2025-11-12T02:18:40Z",
+        "i": "https://assets.pippa.io/shows/66a8eadf66e879d7b6dbf5db/1794639661719-ac3e798c-267a-473b-a992-ae3a535e5878.jpeg",
         "link": "https://shows.acast.com/zehne-ziba/episodes/6913ee80c1ed8717c51b91a7",
-        "title": "اپیزود 33- از بهشت تا ساوانا"
+        "title": "اپیزود ۳۳ | از بهشت تا ساوانا"
       },
       {
         "at": "2025-10-28T15:34:45Z",
+        "i": "https://assets.pippa.io/shows/66a8eadf66e879d7b6dbf5db/1794639652557-7d013f03-d13d-4142-92a8-e7cecd6ce11a.jpeg",
         "link": "https://shows.acast.com/zehne-ziba/episodes/6900e2952d04968b77469adc",
-        "title": "اپیزود 32: غریزه‌ی زبان"
+        "title": "اپیزود ۳۲ | زبان در کجای مغز است؟"
       }
     ],
     "recent_30d": [
