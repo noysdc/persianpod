@@ -57961,88 +57961,86 @@
     "status": "stopped"
   },
   "podcast-fotbal-lb": {
-    "avg_gap_days": 6.3,
-    "avg_length": 143,
-    "episodes": 828,
-    "eps_365": 57,
-    "eps_90": 8,
-    "first_at": "1970-01-01",
-    "first_year": 1348,
-    "last": "1405/08/09",
-    "last_at": "2026-10-31T18:14:25Z",
-    "last_link": "https://podkadeh.com/podcast/footballlab/6ae62ffc11e983737ff7b196",
-    "last_title": "9-8 هالووین غیر فوتبالی!",
-    "max_length": 568,
-    "median_length": 63,
+    "avg_gap_days": 6.4,
+    "avg_length": 145,
+    "episodes": 645,
+    "eps_365": 58,
+    "eps_90": 9,
+    "first_at": "2019-06-20",
+    "first_year": 1398,
+    "last": "1405/08/22",
+    "last_at": "2026-11-13T12:07:27Z",
+    "last_link": "https://player.rabt.space/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/694ef93c-bbde-4e18-893f-0ee1e2e5c8ff/play.mp3?v=1",
+    "last_title": "9-9 کامبک در کامبک",
+    "max_length": 932,
+    "median_length": 88,
     "min_length": 1,
     "play": [
       {
-        "a": "https://podkadeh.com/hosting/630258c758a0c38881812b52/ep-6ae62ffc11e983737ff7b196-1793470462.mp3",
+        "a": "https://player.rabt.space/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/694ef93c-bbde-4e18-893f-0ee1e2e5c8ff/play.mp3?v=1",
+        "at": "2026-11-13T12:07:27Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/694ef93c-bbde-4e18-893f-0ee1e2e5c8ff/artwork.jpg?v=1",
+        "t": "9-9 کامبک در کامبک"
+      },
+      {
+        "a": "https://player.rabt.space/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/cea7b704-6865-461f-84ac-3255034d1ac5/play.mp3?v=1",
         "at": "2026-10-31T18:14:25Z",
-        "i": "https://img-cdn.podkadeh.cloud/footballlab/ep-6ae62ffc11e983737ff7b196-1793470461.jpg",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/cea7b704-6865-461f-84ac-3255034d1ac5/artwork.jpg?v=1",
         "t": "9-8 هالووین غیر فوتبالی!"
       },
       {
-        "a": "https://podkadeh.com/hosting/630258c758a0c38881812b52/ep-6adfda97f3be80350bd5f8c6-1793055385.mp3",
+        "a": "https://player.rabt.space/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/daf246ba-22b8-4058-9b32-f9a3e0c4ac4b/play.mp3?v=2",
         "at": "2026-10-26T22:56:29Z",
-        "i": "https://img-cdn.podkadeh.cloud/footballlab/ep-6adfda97f3be80350bd5f8c6-1793055384.jpg",
         "t": "9-7 بارسا، لات کوچه خلوت!"
       },
       {
-        "a": "https://podkadeh.com/hosting/630258c758a0c38881812b52/ep-6adbef2d4cccca8a6307a6c0-1792798509.mp3",
+        "a": "https://player.rabt.space/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/1df51352-c9c0-4fc0-a5d9-aee0953ae229/play.mp3?v=2",
         "at": "2026-10-23T23:35:16Z",
-        "i": "https://img-cdn.podkadeh.cloud/footballlab/ep-6adbef2d4cccca8a6307a6c0-1792798509.jpg",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/1df51352-c9c0-4fc0-a5d9-aee0953ae229/artwork.jpg?v=1",
         "t": "9-6 طوفان مهاجم ها"
       },
       {
-        "a": "https://podkadeh.com/hosting/630258c758a0c38881812b52/ep-6ace05064cccca8a63ffe94a-1791886600.mp3",
+        "a": "https://player.rabt.space/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/2a973eab-42f3-4a4c-866b-1c0fbd903277/play.mp3?v=3",
         "at": "2026-10-13T10:16:55Z",
-        "i": "https://img-cdn.podkadeh.cloud/footballlab/ep-6ace05064cccca8a63ffe94a-1791886598.jpg",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/2a973eab-42f3-4a4c-866b-1c0fbd903277/artwork.jpg?v=1",
         "t": "9-5 حرامزاده های نامقدس"
       },
       {
-        "a": "https://podkadeh.com/hosting/630258c758a0c38881812b52/ep-6ab395ff401fed8dcdde110c-1790154241.mp3",
+        "a": "https://player.rabt.space/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/536adef2-8b68-43a3-9bf9-eb09630045fa/play.mp3?v=2",
         "at": "2026-09-23T09:04:03Z",
-        "i": "https://img-cdn.podkadeh.cloud/footballlab/ep-6ab395ff401fed8dcdde110c-1790154239.jpg",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/536adef2-8b68-43a3-9bf9-eb09630045fa/artwork.jpg?v=1",
         "t": "9-4 لوزرهای برتر اروپا"
       },
       {
-        "a": "https://podkadeh.com/hosting/630258c758a0c38881812b52/ep-6aae7fb6e4c537574c4c8d3c-1789820854.mp3",
+        "a": "https://player.rabt.space/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/8d74a267-65ba-44fb-9fe8-03302a137b52/play.mp3?v=1",
         "at": "2026-09-19T12:27:37Z",
-        "i": "https://img-cdn.podkadeh.cloud/footballlab/ep-6aae7fb6e4c537574c4c8d3c-1789820854.jpg",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/8d74a267-65ba-44fb-9fe8-03302a137b52/artwork.jpg?v=1",
         "t": "9-3 مشکل ساختاری یونایتد"
       },
       {
-        "a": "https://podkadeh.com/hosting/630258c758a0c38881812b52/ep-6aa04b230415b94433c83177-1788889892.mp3",
+        "a": "https://player.rabt.space/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/c9a7a693-5b46-451e-865f-6b3044b5a3d2/play.mp3?v=1",
         "at": "2026-09-08T17:51:34Z",
-        "i": "https://img-cdn.podkadeh.cloud/footballlab/ep-6aa04b230415b94433c83177-1788889891.jpg",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/c9a7a693-5b46-451e-865f-6b3044b5a3d2/artwork.jpg?v=1",
         "t": "9-2 افتری جام جهانی"
-      },
-      {
-        "a": "https://podkadeh.com/hosting/630258c758a0c38881812b52/ep-6a97ec4e0415b94433c25310-1788341327.mp3",
-        "at": "2026-09-02T09:28:49Z",
-        "i": "https://img-cdn.podkadeh.cloud/footballlab/ep-6a97ec4e0415b94433c25310-1788341326.jpg",
-        "t": "9-1 آغاز فصل مسترکلاس ها"
       }
     ],
     "recent": [
       {
+        "at": "2026-11-13T12:07:27Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/694ef93c-bbde-4e18-893f-0ee1e2e5c8ff/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/694ef93c-bbde-4e18-893f-0ee1e2e5c8ff/play.mp3?v=1",
+        "title": "9-9 کامبک در کامبک"
+      },
+      {
         "at": "2026-10-31T18:14:25Z",
-        "i": "https://img-cdn.podkadeh.cloud/footballlab/ep-6ae62ffc11e983737ff7b196-1793470461.jpg",
-        "link": "https://podkadeh.com/podcast/footballlab/6ae62ffc11e983737ff7b196",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/cea7b704-6865-461f-84ac-3255034d1ac5/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/cea7b704-6865-461f-84ac-3255034d1ac5/play.mp3?v=1",
         "title": "9-8 هالووین غیر فوتبالی!"
       },
       {
         "at": "2026-10-26T22:56:29Z",
-        "i": "https://img-cdn.podkadeh.cloud/footballlab/ep-6adfda97f3be80350bd5f8c6-1793055384.jpg",
-        "link": "https://podkadeh.com/podcast/footballlab/6adfda97f3be80350bd5f8c6",
+        "link": "https://player.rabt.space/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/daf246ba-22b8-4058-9b32-f9a3e0c4ac4b/play.mp3?v=2",
         "title": "9-7 بارسا، لات کوچه خلوت!"
-      },
-      {
-        "at": "2026-10-23T23:35:16Z",
-        "i": "https://img-cdn.podkadeh.cloud/footballlab/ep-6adbef2d4cccca8a6307a6c0-1792798509.jpg",
-        "link": "https://podkadeh.com/podcast/footballlab/6adbef2d4cccca8a6307a6c0",
-        "title": "9-6 طوفان مهاجم ها"
       }
     ],
     "recent_30d": [
@@ -58057,7 +58055,7 @@
       4,
       2,
       3,
-      3
+      4
     ],
     "status": "active"
   },
@@ -77893,8 +77891,8 @@
       0,
       0,
       0,
-      1,
-      5,
+      2,
+      4,
       4,
       2,
       5
