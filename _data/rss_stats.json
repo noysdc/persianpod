@@ -3261,21 +3261,27 @@
     "status": "active"
   },
   "afsanh-hai-khn-parsi": {
-    "avg_gap_days": 2.6,
+    "avg_gap_days": 2.7,
     "avg_length": 6,
-    "episodes": 32,
-    "eps_365": 32,
-    "eps_90": 32,
+    "episodes": 33,
+    "eps_365": 33,
+    "eps_90": 33,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T15:32:30Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s345g",
-    "last_title": "کلیله‌ودمنه کودکانه | قسمت سیزدهم | بوم و زاغ (١)",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T17:47:20Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3scjo4",
+    "last_title": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه",
     "max_length": 10,
-    "median_length": 5,
+    "median_length": 6,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/129436868/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2Fc2ca4618-0ea3-1624-5c34-2c1de66817d0.mp3",
+        "at": "2026-11-14T17:47:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794679069038-3d0036a762cab.jpg",
+        "t": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه"
+      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/129126000/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-9%2F66a8e5bc-491f-7fc5-9902-d4ce0dbd808e.mp3",
         "at": "2026-11-09T15:32:30Z",
@@ -3317,15 +3323,15 @@
         "at": "2026-10-24T14:05:34Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1792850742480-f6d6f1fde7e73.jpg",
         "t": "شاهنامه کودکانه | قسمت نهم | ایرج مهربان"
-      },
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/127615313/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-17%2F82aff75b-6b2a-ddea-7384-23ecbdd3c674.mp3",
-        "at": "2026-10-17T10:10:31Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1792231810787-dfe6d721271cd.jpg",
-        "t": "کلیله و دمنه کودکانه | قسمت نهم | کبوتر طوق‌دار(۱)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T17:47:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794679069038-3d0036a762cab.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3scjo4",
+        "title": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه"
+      },
       {
         "at": "2026-11-09T15:32:30Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794238359403-a118ae05441df.jpg",
@@ -3337,12 +3343,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794165564454-33fb9aba08035.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s16hr",
         "title": "شاهنامه کودکانه | قسمت يازدهم | زالِ سپیدمو و سیمرغ"
-      },
-      {
-        "at": "2026-11-04T17:22:49Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3rok7c",
-        "title": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
       }
     ],
     "recent_30d": [
@@ -3357,7 +3357,7 @@
       0,
       17,
       7,
-      8
+      9
     ],
     "status": "active"
   },
@@ -36195,7 +36195,7 @@
     "avg_gap_days": 0.6,
     "avg_length": 20,
     "episodes": 655,
-    "eps_365": 619,
+    "eps_365": 618,
     "eps_90": 183,
     "first_at": "2025-10-22",
     "first_year": 1404,
@@ -36279,8 +36279,8 @@
     "recent_30d": [
       87,
       128,
-      56,
-      12,
+      57,
+      11,
       0,
       0,
       27,
@@ -39766,19 +39766,25 @@
   "ktab-soti-lbkhnd-kaghzi": {
     "avg_gap_days": 1.8,
     "avg_length": 12,
-    "episodes": 53,
-    "eps_365": 53,
-    "eps_90": 48,
+    "episodes": 54,
+    "eps_365": 54,
+    "eps_90": 49,
     "first_at": "2026-08-12",
     "first_year": 1405,
-    "last": "1405/08/20",
-    "last_at": "2026-11-11T15:22:07Z",
-    "last_link": "https://www.spreaker.com/episode/ps-zmynh--76302622",
-    "last_title": "پس زمینه",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T17:49:29Z",
+    "last_link": "https://www.spreaker.com/episode/shwkhy-hay-astryngham--76370632",
+    "last_title": "شوخی های استرینگهام",
     "max_length": 24,
     "median_length": 12,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://api.spreaker.com/download/episode/76370632/937b264d9a8ba7ba42d0059812.mp3",
+        "at": "2026-11-14T17:49:29Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/326dfc2f194c1fcc1b730e08495dd925.jpg",
+        "t": "شوخی های استرینگهام"
+      },
       {
         "a": "https://api.spreaker.com/download/episode/76302622/1f0b4c4a3dbd8d204192ac1d6b.mp3",
         "at": "2026-11-11T15:22:07Z",
@@ -39820,15 +39826,15 @@
         "at": "2026-10-14T17:18:08Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/9f94916ed087650aa22655490678404d.jpg",
         "t": "کرکس های ممنوعه"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/75764596/f25cc7478593f1948798056dbd.mp3",
-        "at": "2026-10-13T17:30:49Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/df5bb91f0d065e88d1d39650d74163cf.jpg",
-        "t": "آرامش قبل از انتخابات"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T17:49:29Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/326dfc2f194c1fcc1b730e08495dd925.jpg",
+        "link": "https://www.spreaker.com/episode/shwkhy-hay-astryngham--76370632",
+        "title": "شوخی های استرینگهام"
+      },
       {
         "at": "2026-11-11T15:22:07Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/29a3a15237db9cd8d8d1b1d23189a0f6.jpg",
@@ -39840,12 +39846,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/52c23ab3f167cae8ec91146f15296802.jpg",
         "link": "https://www.spreaker.com/episode/fylbwyd-astaj--76179843",
         "title": "فیلبوید استاج"
-      },
-      {
-        "at": "2026-11-02T18:13:45Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/7da71877d4a2b95ca3994ec7760ebddc.jpg",
-        "link": "https://www.spreaker.com/episode/drkht-bh--76140788",
-        "title": "درخت به"
       }
     ],
     "recent_30d": [
@@ -39860,7 +39860,7 @@
       5,
       24,
       18,
-      6
+      7
     ],
     "status": "active"
   },
@@ -81930,14 +81930,14 @@
       }
     ],
     "recent_30d": [
-      18,
+      17,
       13,
       18,
       10,
       2,
       2,
-      11,
-      16,
+      12,
+      15,
       17,
       13,
       9,
@@ -86454,14 +86454,14 @@
       }
     ],
     "recent_30d": [
-      113,
+      112,
       79,
       68,
       40,
       0,
       5,
-      21,
-      113,
+      22,
+      112,
       86,
       95,
       84,
@@ -88445,8 +88445,8 @@
       1,
       13,
       9,
-      9,
-      28,
+      10,
+      27,
       44,
       37,
       21
@@ -89229,7 +89229,7 @@
     "avg_length": 11,
     "episodes": 44,
     "eps_365": 44,
-    "eps_90": 33,
+    "eps_90": 32,
     "first_at": "2026-08-06",
     "first_year": 1405,
     "last": "1405/08/11",
@@ -89318,8 +89318,8 @@
       0,
       0,
       0,
-      11,
-      27,
+      12,
+      26,
       5,
       1
     ],
