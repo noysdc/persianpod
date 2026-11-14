@@ -114,10 +114,10 @@
   /* ---------- فهرست ---------- */
   var FIELDS = [["title", 10], ["title_en", 8], ["creator", 7], ["tags", 5], ["subs", 5], ["cat", 4], ["place", 3], ["desc", 3], ["lang", 2], ["body", 1]];
   var W = {}; FIELDS.forEach(function (f) { W[f[0]] = f[1]; });
-  var LIST = [], BYID = {}, VOCAB = null;
+  var LIST = [], BYID = {}, VOCAB = null, SEARCH_CACHE = null;
 
   function build(list) {
-    LIST = list || []; BYID = {}; VOCAB = null;
+    LIST = list || []; BYID = {}; VOCAB = null; SEARCH_CACHE = null;
     LIST.forEach(function (p) {
       var tags = Array.isArray(p.tags) ? p.tags : (p.tags ? String(p.tags).split(/[,،]/) : []);
       var subs = Array.isArray(p.subcategories) ? p.subcategories : (p.subcategory ? [p.subcategory] : []);
@@ -188,8 +188,10 @@
   /* ---------- جست‌وجو ---------- */
   function search(q, opts) {
     opts = opts || {};
-    var qn = norm(q), res = { score: {}, order: [], intents: [], terms: [], relaxed: false, ignoredIntents: false };
-    if (!qn) return res;
+    var qn = norm(q), cacheKey = qn + "|" + (opts.intents === false ? "0" : "1");
+    if (!qn) return { score: {}, order: [], intents: [], terms: [], relaxed: false, ignoredIntents: false };
+    if (SEARCH_CACHE && SEARCH_CACHE.key === cacheKey) return SEARCH_CACHE.result;
+    var res = { score: {}, order: [], intents: [], terms: [], relaxed: false, ignoredIntents: false };
     var parsed = parseIntents(qn), intents = opts.intents === false ? [] : parsed.intents;
     if (opts.intents === false) { parsed = { intents: parsed.intents, rest: qn }; res.ignoredIntents = parsed.intents.length > 0; res.intents = parsed.intents; }
     else res.intents = intents;
@@ -227,6 +229,7 @@
     }
     out.sort(function (a, b) { return b[1] - a[1]; });
     out.forEach(function (x) { res.score[x[0]] = x[1]; res.order.push(x[0]); });
+    SEARCH_CACHE = { key: cacheKey, result: res };
     return res;
   }
 
