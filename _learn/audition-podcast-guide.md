@@ -3,7 +3,7 @@
 layout: page
 title: "از صدای خام تا پادکست حرفه‌ای: راهنمای کامل ادیت و میکس با Adobe Audition"
 description: "آموزش کامل و قدم‌به‌قدم ضبط، تمیزکاری، ادیت، میکس، موزیک، افکت صوتی و مستر پادکست فارسی با Adobe Audition. همراه با تنظیم‌های دقیق، قالب آماده، تمرین، عیب‌یابی و معادل رایگان با Audacity. مناسب مبتدی‌ها."
-image: /assets/img/learn/audition-podcast-guide/cover.webp
+image: /assets/img/learn/audition-podcast-guide/audition-podcast-guide.webp
 date: 2026-11-12
 tags: [آموزش, پادکست, ادیت صدا, Adobe Audition, میکس, مستر, ضبط پادکست, Audacity]
 ---
