@@ -55784,21 +55784,27 @@
     "status": "active"
   },
   "podcast-farsi-fikshn-fiction-podcast": {
-    "avg_gap_days": 13.7,
+    "avg_gap_days": 13.3,
     "avg_length": 44,
-    "episodes": 236,
-    "eps_365": 27,
-    "eps_90": 13,
+    "episodes": 237,
+    "eps_365": 28,
+    "eps_90": 14,
     "first_at": "2019-07-06",
     "first_year": 1398,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T10:13:56Z",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T01:30:00Z",
     "last_link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
-    "last_title": "قاتل عاشق",
+    "last_title": "شش روز شکنجه",
     "max_length": 75,
     "median_length": 34,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/e5e7e76921d57a02/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-11-14T01:30:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/e5e7e76921d57a02/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "شش روز شکنجه"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/3bc25faf0be53d48/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-11-10T10:13:56Z",
@@ -55840,15 +55846,15 @@
         "at": "2026-10-17T13:30:00Z",
         "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/5788e5972d207c21/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "t": "کثیف‌ترین فتیش دنیا"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/5246df8a97a4a122/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2026-10-13T16:27:10Z",
-        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/5246df8a97a4a122/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "t": "راز قتل نیمه شب"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-14T01:30:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/e5e7e76921d57a02/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
+        "title": "شش روز شکنجه"
+      },
       {
         "at": "2026-11-10T10:13:56Z",
         "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/3bc25faf0be53d48/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
@@ -55860,12 +55866,6 @@
         "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/465fa78620b1034b/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
         "title": "شیفت شب"
-      },
-      {
-        "at": "2026-11-03T05:27:53Z",
-        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/237697b2f212a633/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
-        "title": "رقصیدن با مرگ"
       }
     ],
     "recent_30d": [
@@ -55880,7 +55880,7 @@
       0,
       2,
       4,
-      7
+      8
     ],
     "status": "active"
   },
@@ -74607,8 +74607,8 @@
       2,
       2,
       2,
-      2,
-      3
+      3,
+      2
     ],
     "status": "active"
   },
