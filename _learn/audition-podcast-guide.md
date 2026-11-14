@@ -8,7 +8,7 @@ date: 2026-11-12
 tags: [آموزش, پادکست, ادیت صدا, Adobe Audition, میکس, مستر, ضبط پادکست, Audacity]
 ---
 
-![از صدای خام تا پادکست حرفه‌ای: راهنمای کامل ادیت و میکس با Adobe Audition](/assets/img/learn/audition-podcast-guide/cover.png)
+![از صدای خام تا پادکست حرفه‌ای: راهنمای کامل ادیت و میکس با Adobe Audition](/assets/img/learn/audition-podcast-guide/audition-podcast-guide.webp)
 
 <style>
 .table-wrap { overflow-x: auto; max-width: 100%; margin: 1em 0; }
