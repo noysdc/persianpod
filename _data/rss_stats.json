@@ -77917,26 +77917,21 @@
     "status": "active"
   },
   "roznamh-khatrat-nasraldin-shah-dr-sfr-som-frngstan": {
-    "avg_gap_days": 19.9,
+    "avg_gap_days": 19.8,
     "avg_length": 28,
-    "episodes": 46,
-    "eps_365": 19,
-    "eps_90": 6,
+    "episodes": 45,
+    "eps_365": 18,
+    "eps_90": 5,
     "first_at": "2024-08-03",
     "first_year": 1403,
-    "last": "1405/08/24",
-    "last_at": "2026-11-15T00:00:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/hamidehkazemi/episodes/--e3sc9c4",
-    "last_title": "گفتار ۱۴ - دفتر ۲",
+    "last": "1405/08/03",
+    "last_at": "2026-10-25T00:59:25Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/hamidehkazemi/episodes/--e3r1g5i",
+    "last_title": "گفتار ۱۳ - دفتر ۲",
     "max_length": 43,
     "median_length": 30,
     "min_length": 4,
     "play": [
-      {
-        "a": "https://anchor.fm/s/f94ce8bc/podcast/play/129426244/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F4dfa1a4b-604b-3974-0bdd-5f29c7a9ab93.mp3",
-        "at": "2026-11-15T00:00:00Z",
-        "t": "گفتار ۱۴ - دفتر ۲"
-      },
       {
         "a": "https://anchor.fm/s/f94ce8bc/podcast/play/128024178/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-25%2Ff4afd99a-5e20-1576-ae2b-0ac308632c59.mp3",
         "at": "2026-10-25T00:59:25Z",
@@ -77971,14 +77966,14 @@
         "a": "https://anchor.fm/s/f94ce8bc/podcast/play/123016715/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-19%2Fa5a20f03-c8b1-992e-f9d5-9264ee30ecf2.mp3",
         "at": "2026-07-26T00:00:00Z",
         "t": "گفتار ۷ - دفتر ۲"
+      },
+      {
+        "a": "https://anchor.fm/s/f94ce8bc/podcast/play/122693586/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-11%2F0d927b83-0633-05b6-2d0f-29837e9a60ca.mp3",
+        "at": "2026-07-12T00:00:00Z",
+        "t": "گفتار ۶ - دفتر ۲"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-15T00:00:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/hamidehkazemi/episodes/--e3sc9c4",
-        "title": "گفتار ۱۴ - دفتر ۲"
-      },
       {
         "at": "2026-10-25T00:59:25Z",
         "link": "https://podcasters.spotify.com/pod/show/hamidehkazemi/episodes/--e3r1g5i",
@@ -77988,6 +77983,11 @@
         "at": "2026-10-11T09:21:06Z",
         "link": "https://podcasters.spotify.com/pod/show/hamidehkazemi/episodes/--e3qastm",
         "title": "گفتار ۱۲ - دفتر ۲"
+      },
+      {
+        "at": "2026-09-29T14:47:32Z",
+        "link": "https://podcasters.spotify.com/pod/show/hamidehkazemi/episodes/--e3pirf1",
+        "title": "گفتار ۱۱- دفتر ۲"
       }
     ],
     "recent_30d": [
@@ -78002,7 +78002,7 @@
       2,
       2,
       2,
-      2
+      1
     ],
     "status": "active"
   },
