@@ -59766,21 +59766,27 @@
     "status": "stopped"
   },
   "podcast-hoadari-prspolis": {
-    "avg_gap_days": 13.7,
-    "avg_length": 43,
-    "episodes": 65,
-    "eps_365": 27,
-    "eps_90": 16,
+    "avg_gap_days": 13.5,
+    "avg_length": 44,
+    "episodes": 66,
+    "eps_365": 28,
+    "eps_90": 17,
     "first_at": "2025-01-19",
     "first_year": 1403,
-    "last": "1405/08/16",
-    "last_at": "2026-11-07T04:06:19Z",
-    "last_link": "https://s3.castbox.fm/ee/73/15/1ed05647be9990cb19f8a99c8e.MP3",
-    "last_title": "پرسپولیسِ تارتار؛ رابین‌هود معکوس! | شکست تلخ مقابل فجر سپاسی",
+    "last": "1405/08/24",
+    "last_at": "2026-11-15T03:33:56Z",
+    "last_link": "https://s3.castbox.fm/df/02/e3/409ff54685b06491229f6b0f82.MP3",
+    "last_title": "آگهی فروش امیرحسین محمودی | تارتار بماند یا برود؟",
     "max_length": 69,
     "median_length": 43,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/df/02/e3/409ff54685b06491229f6b0f82.MP3",
+        "at": "2026-11-15T03:33:56Z",
+        "i": "https://s3.castbox.fm/33/56/f7/3c52ac4ef498d253fb9216584b.jpg",
+        "t": "آگهی فروش امیرحسین محمودی | تارتار بماند یا برود؟"
+      },
       {
         "a": "https://s3.castbox.fm/ee/73/15/1ed05647be9990cb19f8a99c8e.MP3",
         "at": "2026-11-07T04:06:19Z",
@@ -59822,15 +59828,15 @@
         "at": "2026-10-06T08:30:00Z",
         "i": "https://s3.castbox.fm/c1/f8/ed/b0dfc14914b91a37232327e32c.jpg",
         "t": "بررسی شرایط پرسپولیس | پیش‌بازی صنعت نفت آبادان"
-      },
-      {
-        "a": "https://s3.castbox.fm/45/76/da/87972846deaf7afd2775d209fa.MP3",
-        "at": "2026-09-29T08:47:16Z",
-        "i": "https://s3.castbox.fm/e8/87/cc/91363e4f289848f9f19d551fb5.jpg",
-        "t": "بررسی فوتبال رو به افول ایران | تیم ملی، پرسپولیس و البته منچسترسیتی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-15T03:33:56Z",
+        "i": "https://s3.castbox.fm/33/56/f7/3c52ac4ef498d253fb9216584b.jpg",
+        "link": "https://s3.castbox.fm/df/02/e3/409ff54685b06491229f6b0f82.MP3",
+        "title": "آگهی فروش امیرحسین محمودی | تارتار بماند یا برود؟"
+      },
       {
         "at": "2026-11-07T04:06:19Z",
         "i": "https://s3.castbox.fm/2e/d3/a7/1706cf41438730dafecf6ecd87.jpg",
@@ -59842,12 +59848,6 @@
         "i": "https://s3.castbox.fm/b6/60/81/bd7e5b440284d01443200ff1b9.jpg",
         "link": "https://s3.castbox.fm/48/d8/a8/fcc8fe4dafa45a71a29f6a3401.MP3",
         "title": "برد ارزشمند پرسپولیس در مازندران | درخشش محبی و پیام نیازمند"
-      },
-      {
-        "at": "2026-10-26T05:30:00Z",
-        "i": "https://s3.castbox.fm/84/05/32/86270b41818f14eb2dc7cb35bd.jpg",
-        "link": "https://s3.castbox.fm/b5/54/f6/128e274f16953d9905e73a2f4b.MP3",
-        "title": "پرسپولیس ۰-۱ فولاد | مشکل تارتار مقابل مدعیان چیست؟"
       }
     ],
     "recent_30d": [
@@ -59862,7 +59862,7 @@
       3,
       7,
       5,
-      4
+      5
     ],
     "status": "active"
   },
@@ -80669,21 +80669,27 @@
     "status": "active"
   },
   "sfri-dr-dl-tarikh": {
-    "avg_gap_days": 16.9,
+    "avg_gap_days": 16.5,
     "avg_length": 49,
-    "episodes": 69,
-    "eps_365": 22,
-    "eps_90": 7,
+    "episodes": 70,
+    "eps_365": 23,
+    "eps_90": 8,
     "first_at": "2018-11-05",
     "first_year": 1397,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T03:30:00Z",
-    "last_link": "https://shows.acast.com/travelcast/episodes/tower-of-london-part-1",
-    "last_title": "برجی برای اعدام | برج لندن قسمت اول",
+    "last": "1405/08/24",
+    "last_at": "2026-11-15T03:30:00Z",
+    "last_link": "https://shows.acast.com/travelcast/episodes/tower-of-london-part-2-guy-fawkes-gunpowder-plot",
+    "last_title": "مردی که میخواست پارلمان را منفجر کند؛ برج لندن قسمت دوم",
     "max_length": 76,
-    "median_length": 37,
+    "median_length": 38,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/628e5d6928045e0012b17009/e/6ae32ccad925811fc2b9f504/media.mp3",
+        "at": "2026-11-15T03:30:00Z",
+        "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1794665018280-f6609c70-79c4-4f07-b1cc-6fbba230a478.jpeg",
+        "t": "مردی که میخواست پارلمان را منفجر کند؛ برج لندن قسمت دوم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/628e5d6928045e0012b17009/e/6ae329ded925811fc2b940b1/media.mp3",
         "at": "2026-11-05T03:30:00Z",
@@ -80725,15 +80731,15 @@
         "at": "2026-08-25T04:30:00Z",
         "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1787474950776-850efd13-8ef0-4ff2-82eb-6a96048311e9.jpeg",
         "t": "از افسانه هومر تا شهر تاریخی تروی (1)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/628e5d6928045e0012b17009/e/6a7991c65a90490c34c58f88/media.mp3",
-        "at": "2026-08-15T04:30:00Z",
-        "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1786365520304-e3f072cd-0abb-4568-8ec2-7468ffc20b97.jpeg",
-        "t": "برنامه ریزی جنگ در کاخ سفید | تغییر رژیم (2)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-15T03:30:00Z",
+        "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1794665018280-f6609c70-79c4-4f07-b1cc-6fbba230a478.jpeg",
+        "link": "https://shows.acast.com/travelcast/episodes/tower-of-london-part-2-guy-fawkes-gunpowder-plot",
+        "title": "مردی که میخواست پارلمان را منفجر کند؛ برج لندن قسمت دوم"
+      },
       {
         "at": "2026-11-05T03:30:00Z",
         "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1794668521196-2a4684c1-90bd-4e45-ba0a-f1c60e28c673.jpeg",
@@ -80745,12 +80751,6 @@
         "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1792481089332-538d19f5-f896-4623-b6f4-4f37ff38da53.jpeg",
         "link": "https://shows.acast.com/travelcast/episodes/cyrus-cylinder-babylon-to-london",
         "title": "داستان استوانه کوروش از بابل تا لندن"
-      },
-      {
-        "at": "2026-10-15T04:30:00Z",
-        "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1792484117621-406df622-d803-4cf6-8aaf-19df02916455.jpeg",
-        "link": "https://shows.acast.com/travelcast/episodes/neuschwanstein-disney-castle",
-        "title": "از رؤیای یک پادشاه تا قلعه دیزنی"
       }
     ],
     "recent_30d": [
@@ -80765,7 +80765,7 @@
       3,
       3,
       2,
-      2
+      3
     ],
     "status": "active"
   },
