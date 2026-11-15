@@ -21096,21 +21096,27 @@
     "status": "stopped"
   },
   "frdai-aghtsad": {
-    "avg_gap_days": 2.5,
+    "avg_gap_days": 2.6,
     "avg_length": 62,
-    "episodes": 28,
-    "eps_365": 28,
-    "eps_90": 28,
+    "episodes": 29,
+    "eps_365": 29,
+    "eps_90": 29,
     "first_at": "2026-09-02",
     "first_year": 1405,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T08:00:06Z",
+    "last": "1405/08/24",
+    "last_at": "2026-11-15T08:10:03Z",
     "last_link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
-    "last_title": "آدرس غلط درباره نرخ بهره؛ تهدید اصلی بورس کجاست؟",
+    "last_title": "درآمد بیشتر، حاشیه سود کمتر؛ کجای بورس فرصت مانده؟",
     "max_length": 77,
     "median_length": 61,
     "min_length": 48,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/55726be231430474/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-11-15T08:10:03Z",
+        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/55726be231430474/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "درآمد بیشتر، حاشیه سود کمتر؛ کجای بورس فرصت مانده؟"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/f5a9d7371910f8c9/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-11-10T08:00:06Z",
@@ -21152,15 +21158,15 @@
         "at": "2026-10-18T08:08:03Z",
         "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/f17ba5af5da715b7/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "t": "فرار از تورم؛ فرصت بورس هنوز باقی است؟"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/21bef484fc2d589e/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2026-10-13T07:59:05Z",
-        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/21bef484fc2d589e/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "t": "رالی سهام دارویی؛ رشد سود هنوز از قیمت‌ها جا مانده است؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-15T08:10:03Z",
+        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/55726be231430474/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
+        "title": "درآمد بیشتر، حاشیه سود کمتر؛ کجای بورس فرصت مانده؟"
+      },
       {
         "at": "2026-11-10T08:00:06Z",
         "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/f5a9d7371910f8c9/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
@@ -21172,12 +21178,6 @@
         "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/946dcd97c58fd01e/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
         "title": "از اصلاح سرخ بورس تا سناریوی شاخص ۱۱ میلیونی"
-      },
-      {
-        "at": "2026-11-01T10:56:36Z",
-        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/cf29c6cfa2f805c4/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
-        "title": "بورس در قیمت منصفانه؛ فرصت خرید کجاست؟"
       }
     ],
     "recent_30d": [
@@ -21192,7 +21192,7 @@
       0,
       13,
       8,
-      7
+      8
     ],
     "status": "active"
   },
