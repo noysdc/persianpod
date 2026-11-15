@@ -63756,19 +63756,25 @@
   "podcast-prchm-sfid": {
     "avg_gap_days": 5.7,
     "avg_length": 46,
-    "episodes": 180,
-    "eps_365": 64,
-    "eps_90": 23,
+    "episodes": 181,
+    "eps_365": 65,
+    "eps_90": 24,
     "first_at": "2018-11-17",
     "first_year": 1397,
-    "last": "1405/08/20",
-    "last_at": "2026-11-11T04:00:00Z",
-    "last_link": "https://shows.acast.com/white-flag-pdcst/episodes/6af0642031e3e56d44f099bb",
-    "last_title": "درس گواتمالا - پرونده انقلاب کوبا - قسمت ۴",
+    "last": "1405/08/24",
+    "last_at": "2026-11-15T04:00:00Z",
+    "last_link": "https://shows.acast.com/white-flag-pdcst/episodes/6af6a73d7d5cb93e7db2734a",
+    "last_title": "هشتاد و دو نفر - پرونده انقلاب کوبا - قسمت ۵",
     "max_length": 102,
     "median_length": 41,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6af6a73d7d5cb93e7db2734a/media.mp3",
+        "at": "2026-11-15T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1794549382656-1dbb506c-a279-4d9f-b8e1-a2d6bb8f2ca3.jpeg",
+        "t": "هشتاد و دو نفر - پرونده انقلاب کوبا - قسمت ۵"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6af0642031e3e56d44f099bb/media.mp3",
         "at": "2026-11-11T04:00:00Z",
@@ -63810,15 +63816,15 @@
         "at": "2026-10-21T04:00:00Z",
         "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1792412318183-b634d107-0588-4a2d-be76-a0d35527b8f9.jpeg",
         "t": "تلاش برای پیروزی - پرونده جنگ افغانستان - قسمت ۱۴"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/69c78827b9917327710c49c5/e/6ad068118f34078889b1ec12/media.mp3",
-        "at": "2026-10-18T04:47:01Z",
-        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1792043346551-99f5d1e3-d974-483d-bab7-7974c54719e5.jpeg",
-        "t": "بازگشت طالبان - پرونده جنگ افغانستان - قسمت ۱۳"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-15T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1794549382656-1dbb506c-a279-4d9f-b8e1-a2d6bb8f2ca3.jpeg",
+        "link": "https://shows.acast.com/white-flag-pdcst/episodes/6af6a73d7d5cb93e7db2734a",
+        "title": "هشتاد و دو نفر - پرونده انقلاب کوبا - قسمت ۵"
+      },
       {
         "at": "2026-11-11T04:00:00Z",
         "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1794138995368-6e6dea18-52ab-4421-b866-5dd3714634eb.jpeg",
@@ -63830,12 +63836,6 @@
         "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1793779200607-d64221be-902f-4a49-b8fe-b5d1f41eacf9.jpeg",
         "link": "https://shows.acast.com/white-flag-pdcst/episodes/6aeae6092d18c73dd5fad693",
         "title": "تاریخ مرا تبرئه خواهد کرد - پرونده انقلاب کوبا - قسمت ۳"
-      },
-      {
-        "at": "2026-11-04T04:00:00Z",
-        "i": "https://assets.pippa.io/shows/69c78827b9917327710c49c5/1793721921385-fbab0c65-5f2d-4762-9995-89bfd81b8d6c.jpeg",
-        "link": "https://shows.acast.com/white-flag-pdcst/episodes/6ae9f7c0b1966848f39455b1",
-        "title": "مردم کوبا، بیدار شوید! - پرونده انقلاب کوبا - قسمت ۲"
       }
     ],
     "recent_30d": [
@@ -63850,7 +63850,7 @@
       8,
       7,
       8,
-      8
+      9
     ],
     "status": "active"
   },
@@ -70408,7 +70408,7 @@
       }
     ],
     "recent_30d": [
-      4,
+      3,
       1,
       2,
       0,
