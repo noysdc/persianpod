@@ -211,13 +211,14 @@ body.reading .pp-side,body.reading .pp-filters-side{display:none}
 @media(max-width:799px){.pp-divider.pp-divider-tight{margin:16px auto 14px}}
 
 
-/* ---------- PersianPod tool action buttons ---------- */
-.pp-action-buttons{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px;margin:22px auto 26px;direction:rtl}
-.pp-action-btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:10px 22px;border:1px solid var(--line);border-radius:999px;text-align:center;text-decoration:none!important;font:inherit;font-size:.94rem;font-weight:800;line-height:1.5;transition:transform .2s ease,box-shadow .2s ease,background .2s ease}
-.pp-action-btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px var(--glow-soft)}
-.pp-action-primary{background:#08cb00;color:#0b0e0c!important;border-color:#08cb00}
-.pp-action-secondary{background:var(--card);color:var(--ink)!important}
-.pp-action-tertiary{background:transparent;color:var(--ink)!important;border-color:var(--line)}
-.pp-action-btn:focus-visible{outline:3px solid #08cb00;outline-offset:3px}
-@media(max-width:560px){.pp-action-buttons{flex-direction:column;align-items:stretch;gap:9px}.pp-action-btn{width:100%;box-sizing:border-box}}
+/* ---------- PersianPod tool action buttons: glass UI ---------- */
+.pp-action-buttons{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:14px;margin:26px auto 34px;direction:rtl}
+.pp-action-btn{position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;min-width:210px;min-height:52px;padding:11px 26px;border:1px solid var(--glass-line);border-radius:18px;text-align:center;text-decoration:none!important;font:inherit;font-size:.95rem;font-weight:800;line-height:1.55;color:var(--ink)!important;background:var(--glass);-webkit-backdrop-filter:blur(20px) saturate(175%);backdrop-filter:blur(20px) saturate(175%);box-shadow:0 10px 28px rgba(0,0,0,.10),inset 0 1px 0 rgba(255,255,255,.34);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease,background .2s ease}
+.pp-action-btn:before{content:"";position:absolute;z-index:-1;inset:0;background:linear-gradient(120deg,rgba(255,255,255,.22),transparent 48%,rgba(255,255,255,.06));pointer-events:none}
+.pp-action-btn:hover{transform:translateY(-3px);border-color:rgba(8,203,0,.52);box-shadow:0 16px 34px rgba(0,0,0,.15),0 0 24px var(--glow-soft),inset 0 1px 0 rgba(255,255,255,.48)}
+.pp-action-primary{color:#071707!important;background:linear-gradient(135deg,rgba(8,203,0,.84),rgba(0,255,156,.48));border-color:rgba(8,203,0,.58);box-shadow:0 10px 28px rgba(0,160,60,.18),inset 0 1px 0 rgba(255,255,255,.42)}
+.pp-action-secondary{background:rgba(128,145,136,.19);border-color:rgba(128,145,136,.38)}
+.pp-action-btn[aria-busy=true]{opacity:.78;cursor:wait}
+.pp-action-btn:focus-visible{outline:3px solid #08cb00;outline-offset:4px}
+@media(max-width:560px){.pp-action-buttons{flex-direction:column;align-items:stretch;gap:10px;margin:22px auto 28px}.pp-action-btn{width:100%;min-width:0;box-sizing:border-box}}
 @media(prefers-reduced-motion:reduce){.pp-action-btn{transition:none}.pp-action-btn:hover{transform:none}}
