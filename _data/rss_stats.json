@@ -55581,8 +55581,8 @@
       0,
       1,
       0,
-      0,
-      6,
+      2,
+      4,
       4,
       3,
       3,
@@ -80669,10 +80669,10 @@
     "status": "active"
   },
   "sfri-dr-dl-tarikh": {
-    "avg_gap_days": 16.5,
+    "avg_gap_days": 16.9,
     "avg_length": 49,
     "episodes": 70,
-    "eps_365": 23,
+    "eps_365": 22,
     "eps_90": 8,
     "first_at": "2018-11-05",
     "first_year": 1397,
