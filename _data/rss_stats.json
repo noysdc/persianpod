@@ -36283,8 +36283,8 @@
       }
     ],
     "recent_30d": [
-      89,
-      126,
+      90,
+      125,
       57,
       11,
       0,
@@ -82144,21 +82144,27 @@
     "status": "stopped"
   },
   "shar-kst": {
-    "avg_gap_days": 9.0,
+    "avg_gap_days": 8.9,
     "avg_length": 5,
-    "episodes": 174,
-    "eps_365": 36,
-    "eps_90": 32,
+    "episodes": 175,
+    "eps_365": 37,
+    "eps_90": 33,
     "first_at": "2022-05-04",
     "first_year": 1401,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T14:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/a7303574-2288-4fed-bbe8-18ad8f7c7704/play.mp3?v=1",
-    "last_title": "صد و هفتاد و سه – گُلِ تازه: منسوب به خیام",
+    "last": "1405/08/24",
+    "last_at": "2026-11-15T14:06:13Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/e75fb181-e125-4835-b030-0b0d5e60403d/play.mp3?v=1",
+    "last_title": "صد و هفتاد و چهار - خور و خواب: منسوب به خیام",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/e75fb181-e125-4835-b030-0b0d5e60403d/play.mp3?v=1",
+        "at": "2026-11-15T14:06:13Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/e75fb181-e125-4835-b030-0b0d5e60403d/artwork.jpg?v=1",
+        "t": "صد و هفتاد و چهار - خور و خواب: منسوب به خیام"
+      },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/a7303574-2288-4fed-bbe8-18ad8f7c7704/play.mp3?v=1",
         "at": "2026-11-12T14:30:00Z",
@@ -82200,15 +82206,15 @@
         "at": "2026-11-06T14:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/75f03ffd-29f5-4be1-998a-b5c0363c46eb/artwork.jpg?v=1",
         "t": "صد و شصت و هفت - چهار و هفت: خیام"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/3c7c302f-e6cd-4980-b358-f5da9a246fd1/play.mp3?v=1",
-        "at": "2026-11-05T13:30:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/3c7c302f-e6cd-4980-b358-f5da9a246fd1/artwork.jpg?v=1",
-        "t": "صد و شصت و شش - جسُتنِ جام جم: خیام"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-15T14:06:13Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/e75fb181-e125-4835-b030-0b0d5e60403d/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/e75fb181-e125-4835-b030-0b0d5e60403d/play.mp3?v=1",
+        "title": "صد و هفتاد و چهار - خور و خواب: منسوب به خیام"
+      },
       {
         "at": "2026-11-12T14:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/a7303574-2288-4fed-bbe8-18ad8f7c7704/artwork.jpg?v=1",
@@ -82220,12 +82226,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/11bc2b80-2000-4d74-8344-8f3c192899da/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/11bc2b80-2000-4d74-8344-8f3c192899da/play.mp3?v=1",
         "title": "صد و هفتاد و دو - شیشه‌گر: منسوب به خیام"
-      },
-      {
-        "at": "2026-11-10T13:30:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/d57bb843-59c3-4d40-ad82-42e15ff8e720/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/d57bb843-59c3-4d40-ad82-42e15ff8e720/play.mp3?v=1",
-        "title": "صد و هفتاد و یک - فلکِ گرداگرد: منسوب به خیام"
       }
     ],
     "recent_30d": [
@@ -82240,7 +82240,7 @@
       2,
       1,
       1,
-      30
+      31
     ],
     "status": "active"
   },
