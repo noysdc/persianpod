@@ -211,14 +211,15 @@ body.reading .pp-side,body.reading .pp-filters-side{display:none}
 @media(max-width:799px){.pp-divider.pp-divider-tight{margin:16px auto 14px}}
 
 
-/* ---------- PersianPod tool action buttons: glass UI ---------- */
+/* ---------- PersianPod action buttons: consistent glass controls ---------- */
 .pp-action-buttons{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:14px;margin:26px auto 34px;direction:rtl}
-.pp-action-btn{position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;min-width:210px;min-height:52px;padding:11px 26px;border:1px solid var(--glass-line);border-radius:18px;text-align:center;text-decoration:none!important;font:inherit;font-size:.95rem;font-weight:800;line-height:1.55;color:var(--ink)!important;background:var(--glass);-webkit-backdrop-filter:blur(20px) saturate(175%);backdrop-filter:blur(20px) saturate(175%);box-shadow:0 10px 28px rgba(0,0,0,.10),inset 0 1px 0 rgba(255,255,255,.34);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease,background .2s ease}
-.pp-action-btn:before{content:"";position:absolute;z-index:-1;inset:0;background:linear-gradient(120deg,rgba(255,255,255,.22),transparent 48%,rgba(255,255,255,.06));pointer-events:none}
-.pp-action-btn:hover{transform:translateY(-3px);border-color:rgba(8,203,0,.52);box-shadow:0 16px 34px rgba(0,0,0,.15),0 0 24px var(--glow-soft),inset 0 1px 0 rgba(255,255,255,.48)}
-.pp-action-primary{color:#071707!important;background:linear-gradient(135deg,rgba(8,203,0,.84),rgba(0,255,156,.48));border-color:rgba(8,203,0,.58);box-shadow:0 10px 28px rgba(0,160,60,.18),inset 0 1px 0 rgba(255,255,255,.42)}
-.pp-action-secondary{background:rgba(128,145,136,.19);border-color:rgba(128,145,136,.38)}
-.pp-action-btn[aria-busy=true]{opacity:.78;cursor:wait}
-.pp-action-btn:focus-visible{outline:3px solid #08cb00;outline-offset:4px}
-@media(max-width:560px){.pp-action-buttons{flex-direction:column;align-items:stretch;gap:10px;margin:22px auto 28px}.pp-action-btn{width:100%;min-width:0;box-sizing:border-box}}
-@media(prefers-reduced-motion:reduce){.pp-action-btn{transition:none}.pp-action-btn:hover{transform:none}}
+.pp-action-buttons .pp-action-btn{box-sizing:border-box;position:relative;display:inline-flex;align-items:center;justify-content:center;min-width:210px;min-height:52px;padding:11px 26px;border:1px solid rgba(255,255,255,.28);border-radius:16px;text-align:center;text-decoration:none!important;font:inherit;font-size:.95rem;font-weight:800;line-height:1.55;color:var(--ink,#16201a);background:rgba(255,255,255,.18);-webkit-backdrop-filter:blur(16px) saturate(165%);backdrop-filter:blur(16px) saturate(165%);box-shadow:0 8px 24px rgba(0,0,0,.12),inset 0 1px 0 rgba(255,255,255,.3);transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease,background .18s ease}
+.pp-action-buttons .pp-action-btn:hover{transform:translateY(-2px);border-color:rgba(8,203,0,.55);background:rgba(255,255,255,.27);box-shadow:0 12px 28px rgba(0,0,0,.15),0 0 20px rgba(0,255,156,.16)}
+.pp-action-buttons .pp-action-primary{color:#071707;background:linear-gradient(135deg,rgba(8,203,0,.88),rgba(0,255,156,.58));border-color:rgba(8,203,0,.6)}
+.pp-action-buttons .pp-action-secondary{color:var(--ink,#16201a);background:rgba(128,145,136,.2);border-color:rgba(128,145,136,.42)}
+.pp-action-buttons .pp-action-tertiary{color:var(--ink,#16201a);background:rgba(128,145,136,.12);border-color:rgba(128,145,136,.32)}
+.pp-action-buttons .pp-action-btn:focus-visible{outline:3px solid #08cb00;outline-offset:4px}
+.pp-action-buttons .pp-action-btn[aria-busy=true]{opacity:.78;cursor:wait}
+:root[data-theme=dark] .pp-action-buttons .pp-action-secondary,:root[data-theme=dark] .pp-action-buttons .pp-action-tertiary{color:#e9f0ea;background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.17)}
+@media(max-width:560px){.pp-action-buttons{flex-direction:column;align-items:stretch;gap:10px;margin:22px auto 28px}.pp-action-buttons .pp-action-btn{width:100%;min-width:0}}
+@media(prefers-reduced-motion:reduce){.pp-action-buttons .pp-action-btn{transition:none}.pp-action-buttons .pp-action-btn:hover{transform:none}}
