@@ -60869,8 +60869,8 @@
       0,
       6,
       0,
-      0,
-      12,
+      1,
+      11,
       0,
       0,
       0
@@ -74851,6 +74851,7 @@
       {
         "a": "https://s3.castbox.fm/0d/5b/5e/d604e746dfa7927becca97521e.mp3",
         "at": "2026-11-15T07:41:00Z",
+        "i": "https://s3.castbox.fm/df/60/06/cd4e564418a3ca8f53177c2767.jpg",
         "t": "معرفی کتاب چگونه سفر روح آموختم"
       },
       {
@@ -74899,6 +74900,7 @@
     "recent": [
       {
         "at": "2026-11-15T07:41:00Z",
+        "i": "https://s3.castbox.fm/df/60/06/cd4e564418a3ca8f53177c2767.jpg",
         "link": "https://s3.castbox.fm/0d/5b/5e/d604e746dfa7927becca97521e.mp3",
         "title": "معرفی کتاب چگونه سفر روح آموختم"
       },
@@ -78618,7 +78620,7 @@
     "first_at": "2024-03-23",
     "first_year": 1403,
     "last": "1405/08/23",
-    "last_at": "2026-11-14T10:37:15Z",
+    "last_at": "2026-11-14T10:37:00Z",
     "last_link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/93.mp3",
     "last_title": "اپیزود نود و سه _ قتل عمد یا خطای محض",
     "max_length": 47,
@@ -78627,8 +78629,8 @@
     "play": [
       {
         "a": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/93.mp3",
-        "at": "2026-11-14T10:37:15Z",
-        "i": "https://assets.blubrry.com/coverart/episode/1467187/orig/156029856-1794652634.jpg",
+        "at": "2026-11-14T10:37:00Z",
+        "i": "https://assets.blubrry.com/coverart/episode/1467187/orig/156029856-1794728545.jpg",
         "t": "اپیزود نود و سه _ قتل عمد یا خطای محض"
       },
       {
@@ -78676,8 +78678,8 @@
     ],
     "recent": [
       {
-        "at": "2026-11-14T10:37:15Z",
-        "i": "https://assets.blubrry.com/coverart/episode/1467187/orig/156029856-1794652634.jpg",
+        "at": "2026-11-14T10:37:00Z",
+        "i": "https://assets.blubrry.com/coverart/episode/1467187/orig/156029856-1794728545.jpg",
         "link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/93.mp3",
         "title": "اپیزود نود و سه _ قتل عمد یا خطای محض"
       },
