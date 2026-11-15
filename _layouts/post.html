@@ -1,4 +1,22 @@
 ---
-layout: podcast
+layout: default
 ---
-{{ content }}
+<link rel="stylesheet" href="{{ '/assets/css/pp-learn.css' | relative_url }}?v={{ site.asset_v }}">
+<article class="pl-post" dir="rtl">
+  <nav class="pl-crumb" aria-label="مسیر صفحه"><a href="{{ '/learn/' | relative_url }}">آموزش پادکست‌سازی</a> / <span>{{ page.title }}</span></nav>
+  <header>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="pl-post-lead">{{ page.description }}</p>{% endif %}
+    <div class="pl-post-meta">
+      {% if page.date %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>{% endif %}
+      {% for tag in page.tags %}<span class="pl-tag">{{ tag }}</span>{% endfor %}
+    </div>
+  </header>
+  {% if page.image %}
+  <figure class="pl-post-cover">
+    <img src="{{ page.image | relative_url }}" alt="تصویر مطلب: {{ page.title | escape }}" width="1200" height="675" fetchpriority="high">
+  </figure>
+  {% endif %}
+  <div class="pl-post-body">{{ content }}</div>
+  <p class="pl-post-back"><a href="{{ '/learn/' | relative_url }}">← بازگشت به فهرست آموزش‌ها</a></p>
+</article>
