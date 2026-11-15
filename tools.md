@@ -21,9 +21,11 @@ permalink: /tools/
 - خروجی PNG، JPG و WebP
 - مناسب ساخت کاور پادکست و تصویرهای شبکه‌های اجتماعی
 
-**[باز کردن کاورساز پادکست](/assets/downloads/podcast-cover-maker/podcast-cover-maker.html)**
-
-[دانلود فایل مستقل کاورساز](https://github.com/noysdc/persianpod/raw/refs/heads/master/assets/downloads/podcast-cover-maker/podcast-cover-maker.html) · [راهنمای کامل استفاده](/learn/podcast-cover-maker/)
+<div class="pp-action-buttons">
+  <a class="pp-action-btn pp-action-primary" href="/assets/downloads/podcast-cover-maker/podcast-cover-maker.html">اجرای آنلاین کاورساز</a>
+  <a class="pp-action-btn pp-action-secondary" href="https://github.com/noysdc/persianpod/raw/refs/heads/master/assets/downloads/podcast-cover-maker/podcast-cover-maker.html" download>دانلود فایل مستقل</a>
+  <a class="pp-action-btn pp-action-tertiary" href="/learn/podcast-cover-maker/">راهنمای کامل استفاده</a>
+</div>
 
 ---
 
