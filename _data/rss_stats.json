@@ -2477,10 +2477,10 @@
     "status": "active"
   },
   "aapartaid-jnsiti": {
-    "avg_gap_days": 21.9,
+    "avg_gap_days": 23.7,
     "avg_length": 34,
     "episodes": 27,
-    "eps_365": 13,
+    "eps_365": 12,
     "eps_90": 0,
     "first_at": "2025-03-04",
     "first_year": 1403,
@@ -53018,10 +53018,10 @@
     "status": "active"
   },
   "podcast-aaoa": {
-    "avg_gap_days": 10.7,
+    "avg_gap_days": 11.1,
     "avg_length": 23,
     "episodes": 70,
-    "eps_365": 26,
+    "eps_365": 25,
     "eps_90": 0,
     "first_at": "2025-01-25",
     "first_year": 1403,
@@ -54908,21 +54908,27 @@
     "status": "stopped"
   },
   "podcast-bizins-astoriz": {
-    "avg_gap_days": 0.8,
+    "avg_gap_days": 0.9,
     "avg_length": 19,
-    "episodes": 41,
-    "eps_365": 41,
-    "eps_90": 41,
+    "episodes": 42,
+    "eps_365": 42,
+    "eps_90": 42,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T16:55:21Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6af89279cc8db260abc6d251",
-    "last_title": "Disney #3 | دیزنی چطور حقوق اولین کاراکتر خودش رو از دست داد؟",
+    "last": "1405/08/24",
+    "last_at": "2026-11-15T17:08:23Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6af9e70765520960bac6153f",
+    "last_title": "Disney #4 | میکی‌ ماوس چه تفاوتی با بقیه کارتون‌ها داشت که موفق شد؟",
     "max_length": 115,
     "median_length": 21,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af9e70765520960bac6153f/media.mp3",
+        "at": "2026-11-15T17:08:23Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794762388768-3bd1357c-e5d7-4aaf-865f-e5126b7ae947.jpeg",
+        "t": "Disney #4 | میکی‌ ماوس چه تفاوتی با بقیه کارتون‌ها داشت که موفق شد؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af89279cc8db260abc6d251/media.mp3",
         "at": "2026-11-14T16:55:21Z",
@@ -54964,15 +54970,15 @@
         "at": "2026-11-03T11:29:07Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793705204610-6f01c690-513a-46a2-a2d7-6dc0258e9d3e.jpeg",
         "t": "NETFLIX #9 | چرا نت‌فلیکس همه قسمت‌های فصل سریال رو یک‌جا منتشر می‌کنه؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae78539043d1c282f434ecf/media.mp3",
-        "at": "2026-11-01T18:30:17Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793557613103-1b043e7f-af98-4dab-a966-f2d46ff10cb3.jpeg",
-        "t": "NETFLIX #8 | چرا نت‌فلیکس به سمت تولید فیلم و سریال اختصاصی رفت؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-15T17:08:23Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794762388768-3bd1357c-e5d7-4aaf-865f-e5126b7ae947.jpeg",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6af9e70765520960bac6153f",
+        "title": "Disney #4 | میکی‌ ماوس چه تفاوتی با بقیه کارتون‌ها داشت که موفق شد؟"
+      },
       {
         "at": "2026-11-14T16:55:21Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794675200899-1ecd0c73-c511-41cc-bd4b-6e503dbd69d5.jpeg",
@@ -54984,12 +54990,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794509191116-4d20860c-074f-46ba-9b6d-d4caf11f5382.jpeg",
         "link": "https://furbodm.com/",
         "title": "Disney #2 | اولین انیمیشن دیزنی که به سالن‌های سینما رفت چی بود؟"
-      },
-      {
-        "at": "2026-11-11T15:50:52Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794412151410-14b7b211-3c22-4b76-8b6c-15948ca0d938.jpeg",
-        "link": "https://furbodm.com/",
-        "title": "Disney #1 | دنیای کارتون و انیمیشن قبل از دیزنی چه شکلی بود؟"
       }
     ],
     "recent_30d": [
@@ -55004,7 +55004,7 @@
       0,
       0,
       1,
-      40
+      41
     ],
     "status": "active"
   },
@@ -62444,8 +62444,8 @@
     "status": "active"
   },
   "podcast-ktibh": {
-    "avg_length": 27,
-    "episodes": 17,
+    "avg_length": 28,
+    "episodes": 13,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2019-11-11",
@@ -62463,12 +62463,6 @@
         "at": "2020-05-02T15:41:22Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1588434090926-14709ce24241b.jpg",
         "t": "اپیزود نخست کتاب شهریار"
-      },
-      {
-        "a": "https://anchor.fm/s/10455a14/podcast/play/11857770/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-1%2F60837416-48000-2-ac5244063b2af.m4a",
-        "at": "2020-04-01T16:59:14Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1585760807912-c114960f8444a.jpg",
-        "t": "اپیزود یازدهم رمان طاعون"
       },
       {
         "a": "https://anchor.fm/s/10455a14/podcast/play/11512875/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-2-25%2F58884193-44100-2-36df4cad2c2ac.m4a",
@@ -62489,22 +62483,28 @@
         "t": "اپیزود ششم رمان طاعون"
       },
       {
-        "a": "https://anchor.fm/s/10455a14/podcast/play/8623121/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-23%2F35398007-48000-2-23b42af780b1a.mp3",
-        "at": "2019-11-26T08:15:45Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1575294238926-6072fef55b4bf.jpg",
-        "t": "اپیزود سوم رمان طاعون"
-      },
-      {
         "a": "https://anchor.fm/s/10455a14/podcast/play/8564125/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-20%2F35008588-48000-2-dd8daaf6e7874.m4a",
         "at": "2019-11-21T11:20:39Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1575294204427-43a39b0842b89.jpg",
         "t": "اپیزود دوم رمان طاعون"
       },
       {
-        "a": "https://anchor.fm/s/10455a14/podcast/play/8514387/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-18%2F34642426-48000-2-9a39c5a5903f1.m4a",
-        "at": "2019-11-18T14:04:23Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1575294153668-65edd089f523a.jpg",
-        "t": "اپیزود اول رمان طاعون"
+        "a": "https://anchor.fm/s/10455a14/podcast/play/8388689/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2019-10-11%2F33752176-44100-2-35ad74dc62847e1d.mp3",
+        "at": "2019-11-11T16:44:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2629805/8ea1a0ce7f0501a7.jpeg",
+        "t": "اپیزود هشتم (پایانی): خاطرات موتورسیکلت"
+      },
+      {
+        "a": "https://anchor.fm/s/10455a14/podcast/play/8383855/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-10%2F33592413-44100-2-481ef4058c27d.mp3",
+        "at": "2019-11-11T13:52:28Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1573480356475-ee22ee37ec57d.jpg",
+        "t": "اپیزود هفتم: خاطرات موتورسیکلت"
+      },
+      {
+        "a": "https://anchor.fm/s/10455a14/podcast/play/8383766/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-9%2F33502291-44100-2-d8a36615348fe.mp3",
+        "at": "2019-11-11T13:44:33Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1573479881727-64aef6029af2c.jpg",
+        "t": "اپیزود ششم: خاطرات موتورسیکلت"
       }
     ],
     "recent": [
@@ -62515,16 +62515,16 @@
         "title": "اپیزود نخست کتاب شهریار"
       },
       {
-        "at": "2020-04-01T16:59:14Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1585760807912-c114960f8444a.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/r-kh7/episodes/ep-ec8cda",
-        "title": "اپیزود یازدهم رمان طاعون"
-      },
-      {
         "at": "2020-03-25T13:50:28Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1585144237095-f1f37135346ab.jpg",
         "link": "https://podcasters.spotify.com/pod/show/r-kh7/episodes/ep-ebtrjb",
         "title": "اپیزود دهم رمان طاعون"
+      },
+      {
+        "at": "2019-12-22T21:12:18Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1577049146193-e00d5613cec93.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/r-kh7/episodes/ep-e9nl95",
+        "title": "اپیزود هشتم رمان طاعون"
       }
     ],
     "recent_30d": [
@@ -71978,7 +71978,7 @@
   },
   "radio-ht-trik": {
     "avg_length": 21,
-    "episodes": 23,
+    "episodes": 22,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-07-21",
@@ -82432,8 +82432,8 @@
     "recent_30d": [
       1,
       6,
-      0,
-      6,
+      1,
+      5,
       0,
       1,
       7,
