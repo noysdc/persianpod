@@ -60768,8 +60768,8 @@
       0,
       1,
       2,
-      1,
-      3,
+      2,
+      2,
       3,
       3,
       1
@@ -70824,19 +70824,25 @@
   "radio-ghsh": {
     "avg_gap_days": 2.8,
     "avg_length": 16,
-    "episodes": 36,
-    "eps_365": 36,
-    "eps_90": 33,
+    "episodes": 37,
+    "eps_365": 37,
+    "eps_90": 34,
     "first_at": "2026-08-07",
     "first_year": 1405,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T16:21:29Z",
-    "last_link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-pnjm-njat-hyzm-shkn--76319909",
-    "last_title": "« جادوگر شهر اوز، قسمت پنجم، «نجات هیزم شکن",
+    "last": "1405/08/24",
+    "last_at": "2026-11-15T16:11:29Z",
+    "last_link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-shshm-shyr-trsw--76388397",
+    "last_title": "« جادوگر شهر اوز، قسمت ششم، «شیر ترسو",
     "max_length": 44,
-    "median_length": 14,
+    "median_length": 13,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76388397/media.mp3",
+        "at": "2026-11-15T16:11:29Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
+        "t": "« جادوگر شهر اوز، قسمت ششم، «شیر ترسو"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76319909/media.mp3",
         "at": "2026-11-12T16:21:29Z",
@@ -70878,15 +70884,15 @@
         "at": "2026-10-27T15:30:00Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/0970d11e7bdd91d959a31a580376bae9.jpg",
         "t": "سایه"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75977223/media.mp3",
-        "at": "2026-10-25T16:09:02Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/76ff50333de45c2777ba2e00d047f713.jpg",
-        "t": "سرگذشت یک مادر"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-15T16:11:29Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
+        "link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-shshm-shyr-trsw--76388397",
+        "title": "« جادوگر شهر اوز، قسمت ششم، «شیر ترسو"
+      },
       {
         "at": "2026-11-12T16:21:29Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
@@ -70898,12 +70904,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3b61313f87a69b32ee6a8d95fdb3abf8.jpg",
         "link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-chharm-bwr-az-myan-jngl--76294968",
         "title": "جادوگر شهر اوز | قسمت چهارم | عبور از میان جنگل"
-      },
-      {
-        "at": "2026-11-05T15:32:16Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
-        "link": "https://www.spreaker.com/episode/fsl-swm-chgwnh-drwty-mtrsk-ra-njat-dad-hadwgr-shhr-az--76193326",
-        "title": "فصل سوم | چگونه دروتی مترسک را نجات داد | حادوگر شهر از"
       }
     ],
     "recent_30d": [
@@ -70918,7 +70918,7 @@
       3,
       9,
       13,
-      11
+      12
     ],
     "status": "active"
   },
