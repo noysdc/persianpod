@@ -60670,21 +60670,27 @@
     "status": "inactive"
   },
   "podcast-jnaii-noar-zrd": {
-    "avg_gap_days": 21.5,
+    "avg_gap_days": 22.3,
     "avg_length": 46,
-    "episodes": 65,
-    "eps_365": 16,
-    "eps_90": 6,
+    "episodes": 66,
+    "eps_365": 17,
+    "eps_90": 7,
     "first_at": "2021-07-25",
     "first_year": 1400,
-    "last": "1405/07/19",
-    "last_at": "2026-10-11T13:50:50Z",
+    "last": "1405/08/24",
+    "last_at": "2026-11-15T06:30:00Z",
     "last_link": "https://daramet.com/navarezardpodcast",
-    "last_title": "قسمت ۴۸.پایان شوم عشق",
+    "last_title": "قسمت ۴۹.فاطمه حقیقت پژوه",
     "max_length": 91,
     "median_length": 48,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/626ce50492829f00120e8192/e/6af817de34f69b9edd8837af/media.mp3",
+        "at": "2026-11-15T06:30:00Z",
+        "i": "https://assets.pippa.io/shows/626ce50492829f00120e8192/1794643015404-ccbe84f8-7461-42c5-9c1e-73d586b08e2b.jpeg",
+        "t": "قسمت ۴۹.فاطمه حقیقت پژوه"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/626ce50492829f00120e8192/e/6acb943ce53019e8903cd6a5/media.mp3",
         "at": "2026-10-11T13:50:50Z",
@@ -60726,15 +60732,15 @@
         "at": "2026-08-15T06:30:00Z",
         "i": "https://assets.pippa.io/shows/626ce50492829f00120e8192/1786691836767-a177cb17-63d4-40c0-a4e2-bfc0c036f944.jpeg",
         "t": "قسمت۴۴.جنایت در کیش"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/626ce50492829f00120e8192/e/6a687ea8a02cbcf2a100edfb/media.mp3",
-        "at": "2026-07-28T10:04:20Z",
-        "i": "https://assets.pippa.io/shows/626ce50492829f00120e8192/1785231292621-e38fffb6-847e-4976-b594-738b9b5daac7.jpeg",
-        "t": "قسمت ۴۳.سلفی با مرگ"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-15T06:30:00Z",
+        "i": "https://assets.pippa.io/shows/626ce50492829f00120e8192/1794643015404-ccbe84f8-7461-42c5-9c1e-73d586b08e2b.jpeg",
+        "link": "https://daramet.com/navarezardpodcast",
+        "title": "قسمت ۴۹.فاطمه حقیقت پژوه"
+      },
       {
         "at": "2026-10-11T13:50:50Z",
         "i": "https://assets.pippa.io/shows/626ce50492829f00120e8192/1791725435360-aae69394-a720-46b4-bb79-e4d3abc43599.jpeg",
@@ -60746,12 +60752,6 @@
         "i": "https://assets.pippa.io/shows/626ce50492829f00120e8192/1790437990170-7e1fdd54-e571-4c20-9eae-3123b1049e9b.jpeg",
         "link": "https://daramet.com/navarezardpodcast",
         "title": "قسمت۴۷.بخش دوم"
-      },
-      {
-        "at": "2026-09-19T06:30:00Z",
-        "i": "https://assets.pippa.io/shows/626ce50492829f00120e8192/1789758626093-63c048aa-d9a7-4bc4-98e4-93e43927a60e.jpeg",
-        "link": "https://daramet.com/navarezardpodcast",
-        "title": "قسمت ۴۷.بخش اول"
       }
     ],
     "recent_30d": [
@@ -60766,7 +60766,7 @@
       3,
       3,
       3,
-      0
+      1
     ],
     "status": "active"
   },
