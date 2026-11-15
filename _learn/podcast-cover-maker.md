@@ -16,13 +16,10 @@ image: /assets/img/learn/podcast-cover-site.webp
 
 ## شروع سریع
 
-<blockquote>
-**می‌خواهی همین حالا کاور بسازی؟**
-
-- [باز کردن کاورساز و استفاده‌ی آنلاین](https://persianpod.ir/assets/downloads/podcast-cover-maker/podcast-cover-maker.html)
-- [دانلود فایل مستقل برای نگهداری و استفاده‌ی آفلاین](https://github.com/noysdc/persianpod/raw/refs/heads/master/assets/downloads/podcast-cover-maker/podcast-cover-maker.html)
-- [مشاهده‌ی فایل برنامه در مخزن GitHub](https://github.com/noysdc/persianpod/blob/master/assets/downloads/podcast-cover-maker/podcast-cover-maker.html)
-</blockquote>
+<div class="pp-action-buttons">
+  <a class="pp-action-btn pp-action-primary" href="/assets/downloads/podcast-cover-maker/podcast-cover-maker.html">اجرای آنلاین کاورساز</a>
+  <a class="pp-action-btn pp-action-secondary" href="https://github.com/noysdc/persianpod/raw/refs/heads/master/assets/downloads/podcast-cover-maker/podcast-cover-maker.html" download>دانلود فایل مستقل</a>
+</div>
 
 **نکته:** لینک اول ابزار را در مرورگر باز می‌کند. لینک دوم فایل HTML برنامه را می‌گیرد؛ آن را روی دستگاهت ذخیره کن و برای اجرا با یک مرورگر به‌روز مثل Chrome یا Edge بازش کن. برای استفاده‌ی آفلاین، فایل دانلودشده باید روی دستگاهت باقی بماند. اجرای فایل محلی روی بعضی گوشی‌ها به سیستم‌عامل و مرورگر بستگی دارد؛ اگر باز نشد، از نسخه‌ی آنلاین استفاده کن.
 
@@ -63,7 +60,7 @@ image: /assets/img/learn/podcast-cover-site.webp
 
 ## چطور از آن استفاده کنم؟
 
-۱. [ابزار را باز کن](https://persianpod.ir/assets/downloads/podcast-cover-maker/podcast-cover-maker.html).
+۱. ابزار را باز کن.
 
 ۲. عکس را با انتخاب فایل یا کشیدن آن به محیط ابزار وارد کن.
 
@@ -93,7 +90,7 @@ image: /assets/img/learn/podcast-cover-site.webp
 
 برای استفاده‌ی آفلاین:
 
-۱. [فایل مستقل را دانلود کن](https://github.com/noysdc/persianpod/raw/refs/heads/master/assets/downloads/podcast-cover-maker/podcast-cover-maker.html).
+۱. فایل مستقل را دانلود کن.
 
 ۲. فایل را در پوشه‌ای روی دستگاهت نگه دار.
 
