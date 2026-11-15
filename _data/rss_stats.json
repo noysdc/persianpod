@@ -11378,7 +11378,6 @@
       {
         "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgNCji6qECAyiAQdsaWJyYXJ5/c7201e9b-9f74-4221-b778-ba2ffee98f59.mp3",
         "at": "2023-09-06T15:42:00Z",
-        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/c7201e9b-9f74-4221-b778-ba2ffee98f59.jpg?_=1694187960",
         "t": "Book04-Part06 - عشق و چیزهای دیگر - قسمت ششم"
       },
       {
@@ -11427,7 +11426,6 @@
       },
       {
         "at": "2023-09-06T15:42:00Z",
-        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/c7201e9b-9f74-4221-b778-ba2ffee98f59.jpg?_=1694187960",
         "link": "https://www.radiobamdad.com/diba",
         "title": "Book04-Part06 - عشق و چیزهای دیگر - قسمت ششم"
       }
@@ -36584,19 +36582,25 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 20,
-    "episodes": 657,
-    "eps_365": 618,
-    "eps_90": 183,
+    "episodes": 658,
+    "eps_365": 619,
+    "eps_90": 184,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/08/24",
-    "last_at": "2026-11-15T16:53:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6af97be228531eda45905f61",
-    "last_title": "جزیره مرگ - بخش بیست و چهارم",
+    "last_at": "2026-11-15T18:13:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6af97c6a9d9936aaace25df3",
+    "last_title": "جزیره مرگ - بخش بیست و پنجم",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af97c6a9d9936aaace25df3/media.mp3",
+        "at": "2026-11-15T18:13:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794735195703-bebf5b4e-d7e3-4074-8d30-bc90bb172f23.jpeg",
+        "t": "جزیره مرگ - بخش بیست و پنجم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af97be228531eda45905f61/media.mp3",
         "at": "2026-11-15T16:53:00Z",
@@ -36638,15 +36642,15 @@
         "at": "2026-11-13T17:57:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794589671583-7b92ae99-f8c9-471d-887c-a8eb8cdb5802.jpeg",
         "t": "جزیره مرگ - بخش هجدهم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6af743479d9936aaac4dcf97/media.mp3",
-        "at": "2026-11-13T17:29:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794589612058-ade8c2c7-bacd-476c-8bde-a25aa89070e2.jpeg",
-        "t": "جزیره مرک - بخش هفدهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-15T18:13:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794735195703-bebf5b4e-d7e3-4074-8d30-bc90bb172f23.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6af97c6a9d9936aaace25df3",
+        "title": "جزیره مرگ - بخش بیست و پنجم"
+      },
       {
         "at": "2026-11-15T16:53:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794735055013-8fdae36c-3603-4037-b266-d7cd4525a589.jpeg",
@@ -36658,12 +36662,6 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794734958416-a42361b3-f5ef-4210-b5a6-c34395757c34.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6af97b85cc8db260ab0d680b",
         "title": "جزیره مرگ - بخش بیست و سوم"
-      },
-      {
-        "at": "2026-11-14T18:05:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794661252170-37e92996-a217-42ac-91b4-885e41031971.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6af85b8e28531eda4539aaab",
-        "title": "جزیره مرگ - بخش بیست و دوم"
       }
     ],
     "recent_30d": [
@@ -36674,11 +36672,11 @@
       0,
       0,
       27,
-      60,
-      63,
+      61,
+      62,
       56,
       62,
-      65
+      66
     ],
     "status": "active"
   },
