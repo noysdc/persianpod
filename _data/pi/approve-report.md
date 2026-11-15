@@ -1,21 +1,16 @@
 ## گزارش تأیید و انتقال
 
-- منتقل‌شده از `_drafts/` به `_podcasts/`: **13**
+- منتقل‌شده از `_drafts/` به `_podcasts/`: **8**
 - ردشده (تکراری یا از قبل موجود): 0
-- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **196**
+- در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **197**
 
 ### منتقل‌شده
-- `classicbaz-klasik-baz.md`
-- `dradiokola.md`
-- `karzi.md`
-- `ktab-soti-spitman-kaml.md`
-- `ma-brgshtim-sr-jamon.md`
-- `podcast-dastani-torba.md`
-- `podcast-farsi-orzshi-top.md`
-- `podcast-farsi-raoi-sho.md`
-- `podcast-slh-aakhr.md`
-- `radio-astrofil-radio-astrophile.md`
-- `radio-rak.md`
-- `rsm-aashgh-kshi.md`
-- `tosah-grdshgri-orzshi.md`
+- `asmaail-khoii.md`
+- `cafe-mim-kafh-mim.md`
+- `hali-no.md`
+- `introducing-washington-dc-aashnai-ba-shhr-oashngtn-d-s.md`
+- `ktab-soti-lzt-noshth-hsinghli-mstaan.md`
+- `naef-brand-nayf-brnd.md`
+- `podcast-farsi-mscht.md`
+- `podcast-trminolozhi.md`
 

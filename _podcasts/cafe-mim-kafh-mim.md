@@ -17,8 +17,8 @@ pi_id: 2955607
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Cafe Mim کافه میم

@@ -18,8 +18,8 @@ pi_id: 3520957
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Introducing Washington DC آشنايى با شهر واشنگتن دى سى
