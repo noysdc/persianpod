@@ -4881,8 +4881,8 @@
       2,
       0,
       0,
-      4,
-      9,
+      5,
+      8,
       18,
       17,
       8,
@@ -23497,7 +23497,7 @@
       }
     ],
     "recent_30d": [
-      31,
+      30,
       24,
       33,
       31,
@@ -62444,8 +62444,8 @@
     "status": "active"
   },
   "podcast-ktibh": {
-    "avg_length": 27,
-    "episodes": 17,
+    "avg_length": 28,
+    "episodes": 13,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2019-11-11",
@@ -62463,12 +62463,6 @@
         "at": "2020-05-02T15:41:22Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1588434090926-14709ce24241b.jpg",
         "t": "اپیزود نخست کتاب شهریار"
-      },
-      {
-        "a": "https://anchor.fm/s/10455a14/podcast/play/11857770/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-1%2F60837416-48000-2-ac5244063b2af.m4a",
-        "at": "2020-04-01T16:59:14Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1585760807912-c114960f8444a.jpg",
-        "t": "اپیزود یازدهم رمان طاعون"
       },
       {
         "a": "https://anchor.fm/s/10455a14/podcast/play/11512875/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-2-25%2F58884193-44100-2-36df4cad2c2ac.m4a",
@@ -62489,22 +62483,28 @@
         "t": "اپیزود ششم رمان طاعون"
       },
       {
-        "a": "https://anchor.fm/s/10455a14/podcast/play/8623121/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-23%2F35398007-48000-2-23b42af780b1a.mp3",
-        "at": "2019-11-26T08:15:45Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1575294238926-6072fef55b4bf.jpg",
-        "t": "اپیزود سوم رمان طاعون"
-      },
-      {
         "a": "https://anchor.fm/s/10455a14/podcast/play/8564125/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-20%2F35008588-48000-2-dd8daaf6e7874.m4a",
         "at": "2019-11-21T11:20:39Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1575294204427-43a39b0842b89.jpg",
         "t": "اپیزود دوم رمان طاعون"
       },
       {
-        "a": "https://anchor.fm/s/10455a14/podcast/play/8514387/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-18%2F34642426-48000-2-9a39c5a5903f1.m4a",
-        "at": "2019-11-18T14:04:23Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1575294153668-65edd089f523a.jpg",
-        "t": "اپیزود اول رمان طاعون"
+        "a": "https://anchor.fm/s/10455a14/podcast/play/8388689/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2019-10-11%2F33752176-44100-2-35ad74dc62847e1d.mp3",
+        "at": "2019-11-11T16:44:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2629805/8ea1a0ce7f0501a7.jpeg",
+        "t": "اپیزود هشتم (پایانی): خاطرات موتورسیکلت"
+      },
+      {
+        "a": "https://anchor.fm/s/10455a14/podcast/play/8383855/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-10%2F33592413-44100-2-481ef4058c27d.mp3",
+        "at": "2019-11-11T13:52:28Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1573480356475-ee22ee37ec57d.jpg",
+        "t": "اپیزود هفتم: خاطرات موتورسیکلت"
+      },
+      {
+        "a": "https://anchor.fm/s/10455a14/podcast/play/8383766/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-9%2F33502291-44100-2-d8a36615348fe.mp3",
+        "at": "2019-11-11T13:44:33Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1573479881727-64aef6029af2c.jpg",
+        "t": "اپیزود ششم: خاطرات موتورسیکلت"
       }
     ],
     "recent": [
@@ -62515,16 +62515,16 @@
         "title": "اپیزود نخست کتاب شهریار"
       },
       {
-        "at": "2020-04-01T16:59:14Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1585760807912-c114960f8444a.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/r-kh7/episodes/ep-ec8cda",
-        "title": "اپیزود یازدهم رمان طاعون"
-      },
-      {
         "at": "2020-03-25T13:50:28Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1585144237095-f1f37135346ab.jpg",
         "link": "https://podcasters.spotify.com/pod/show/r-kh7/episodes/ep-ebtrjb",
         "title": "اپیزود دهم رمان طاعون"
+      },
+      {
+        "at": "2019-12-22T21:12:18Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1577049146193-e00d5613cec93.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/r-kh7/episodes/ep-e9nl95",
+        "title": "اپیزود هشتم رمان طاعون"
       }
     ],
     "recent_30d": [
@@ -76398,11 +76398,11 @@
     "status": "active"
   },
   "rkhtkn-bazndh-ha": {
-    "avg_gap_days": 71.8,
+    "avg_gap_days": 59.8,
     "avg_length": 96,
-    "episodes": 33,
-    "eps_365": 6,
-    "eps_90": 1,
+    "episodes": 34,
+    "eps_365": 7,
+    "eps_90": 2,
     "first_at": "2023-04-02",
     "first_year": 1402,
     "last": "1405/08/24",
@@ -76410,7 +76410,7 @@
     "last_link": "https://www.spreaker.com/episode/apyzwd-shmarh-sy-w-chhar-rkhtkn-bazndh-ha-bazndh-tara-mhsny-kya--76389529",
     "last_title": "اپیزود شماره سی و چهار - رختکن بازنده‌ها - بازنده: تارا محسنی‌کیا",
     "max_length": 125,
-    "median_length": 96,
+    "median_length": 97,
     "min_length": 54,
     "play": [
       {
@@ -76418,6 +76418,12 @@
         "at": "2026-11-15T19:00:02Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ec7677ea293e14c9f2f7fdedaea57682.jpg",
         "t": "اپیزود شماره سی و چهار - رختکن بازنده‌ها - بازنده: تارا محسنی‌کیا"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76055322/utf_8_b_2kfzvtum2llzinivini02yxyp9ix2ycg27m_utf_8_b_27mgldix2k7yqtqp2yyg2kjyp9iy2ybyr9mh_utf_8_b_x9mh2kct2kjyp9iy2ybyr9mhic0g2lnzha_utf_8_b_24xf2lhyttininix2k3bjnmf24wubxaz.mp3",
+        "at": "2026-10-28T18:51:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bca12138ce932368430e30f8efe575b0.jpg",
+        "t": "اپیزود شماره ۳۳ -رختکن بازنده‌ها-بازنده: علی‌رضا رحیمی"
       },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/73938746/rakhtkane_bazandeha_ep32.mp3",
@@ -76454,12 +76460,6 @@
         "at": "2025-09-24T18:47:42Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/a1d99558f2c9a96c4c376a39be7d43c0.jpg",
         "t": "اپیزود شماره بیست و هفتم - رختکن بازنده‌ها - بازنده: زهرا نعمتی"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72204833/audio.mp3",
-        "at": "2025-07-31T09:33:06Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/50eb6ad5e5dbb034a36c5e80e2ddc8d0.jpg",
-        "t": "اپیزود شماره بیست و ششم - رختکن بازنده‌ها - بازنده: نگار ارجمند"
       }
     ],
     "recent": [
@@ -76470,20 +76470,20 @@
         "title": "اپیزود شماره سی و چهار - رختکن بازنده‌ها - بازنده: تارا محسنی‌کیا"
       },
       {
+        "at": "2026-10-28T18:51:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bca12138ce932368430e30f8efe575b0.jpg",
+        "link": "https://www.spreaker.com/episode/apyzwd-shmarh-33-rkhtkn-bazndh-ha-bazndh-ly-rda-rhymy--76055322",
+        "title": "اپیزود شماره ۳۳ -رختکن بازنده‌ها-بازنده: علی‌رضا رحیمی"
+      },
+      {
         "at": "2026-08-14T06:25:02Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/53df100c37aaf0bfc03b3785ecd18759.jpg",
         "link": "https://www.spreaker.com/episode/apyzwd-shmarh-sy-w-dw-rkhtkn-bazndh-ha-bazndh-prwyn-mrany--73938746",
         "title": "اپیزود شماره سی و دو - رختکن بازنده‌ها - بازنده: پروین عمرانی"
-      },
-      {
-        "at": "2026-07-23T18:40:00Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/4e752223a3d5de655cb0e9cda312842f.jpg",
-        "link": "https://www.spreaker.com/episode/apyzwd-shmarh-sy-w-yk-rkhtkn-bazndh-ha-bazndh-whyd-sht--73104008",
-        "title": "اپیزود شماره سی و یک - رختکن بازنده‌ها - بازنده: وحید صحت"
       }
     ],
     "recent_30d": [
-      1,
+      0,
       1,
       0,
       0,
@@ -76494,7 +76494,7 @@
       2,
       0,
       0,
-      1
+      2
     ],
     "status": "active"
   },
