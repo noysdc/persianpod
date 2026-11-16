@@ -2861,8 +2861,8 @@
       0,
       0,
       0,
-      13,
-      33,
+      14,
+      32,
       23,
       11,
       5
@@ -3261,27 +3261,21 @@
     "status": "active"
   },
   "afsanh-hai-khn-parsi": {
-    "avg_gap_days": 2.6,
+    "avg_gap_days": 2.7,
     "avg_length": 6,
-    "episodes": 34,
-    "eps_365": 34,
-    "eps_90": 34,
+    "episodes": 33,
+    "eps_365": 33,
+    "eps_90": 33,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T12:07:21Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3sfo9m",
-    "last_title": "کلیله و دمنه کودکانه | قسمت چهاردهم | بوم و زاغ (۲)",
-    "max_length": 11,
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T17:47:20Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3scjo4",
+    "last_title": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه",
+    "max_length": 10,
     "median_length": 6,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/129539830/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F3831a313-2f54-f19d-dcbf-9f883a918a27.mp3",
-        "at": "2026-11-16T12:07:21Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794830871271-16946b5ebe26d.jpg",
-        "t": "کلیله و دمنه کودکانه | قسمت چهاردهم | بوم و زاغ (۲)"
-      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/129436868/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2Fc2ca4618-0ea3-1624-5c34-2c1de66817d0.mp3",
         "at": "2026-11-14T17:47:20Z",
@@ -3323,15 +3317,15 @@
         "at": "2026-10-28T14:34:33Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793198080683-fbff1d2126bfb.jpg",
         "t": "کلیله و دمنه کودکانه | قسمت دهم | موش کوچولوی مهربون(۲)"
+      },
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/128004505/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-24%2Faa571bdd-a916-96aa-7913-00792722e9e6.mp3",
+        "at": "2026-10-24T14:05:34Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1792850742480-f6d6f1fde7e73.jpg",
+        "t": "شاهنامه کودکانه | قسمت نهم | ایرج مهربان"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-16T12:07:21Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794830871271-16946b5ebe26d.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3sfo9m",
-        "title": "کلیله و دمنه کودکانه | قسمت چهاردهم | بوم و زاغ (۲)"
-      },
       {
         "at": "2026-11-14T17:47:20Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794679069038-3d0036a762cab.jpg",
@@ -3343,6 +3337,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794238359403-a118ae05441df.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s345g",
         "title": "کلیله‌ودمنه کودکانه | قسمت سیزدهم | بوم و زاغ (١)"
+      },
+      {
+        "at": "2026-11-08T19:19:10Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794165564454-33fb9aba08035.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s16hr",
+        "title": "شاهنامه کودکانه | قسمت يازدهم | زالِ سپیدمو و سیمرغ"
       }
     ],
     "recent_30d": [
@@ -3357,7 +3357,7 @@
       0,
       18,
       7,
-      9
+      8
     ],
     "status": "active"
   },
@@ -41304,8 +41304,8 @@
       1,
       0,
       0,
-      4,
       5,
+      4,
       5,
       4,
       1,
