@@ -68697,21 +68697,27 @@
     "status": "active"
   },
   "pol-mhm-ast": {
-    "avg_gap_days": 9.1,
+    "avg_gap_days": 9.0,
     "avg_length": 13,
-    "episodes": 117,
-    "eps_365": 38,
-    "eps_90": 12,
+    "episodes": 118,
+    "eps_365": 39,
+    "eps_90": 13,
     "first_at": "2022-08-20",
     "first_year": 1401,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T03:04:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/cant-afford-to-buy-a-home-you-might-just-be-better-off/gsaadsz8e",
-    "last_title": "بخریم یا نه؛ آیا خانه‌دارشدن در استرالیا یک سرمایه‌گذاری موثر است؟",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T00:36:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/can-black-friday-reverse-shopper-slump/6f4gbw7ey",
+    "last_title": "بلک فرایدی؛ ناجی بازار خرده‌فروشی یا تخفیفی بی‌اثر؟",
     "max_length": 33,
     "median_length": 10,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/money-matters/20261116113612_535511-persian-161126-sales.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a1-e1be-d8a8-a7bf-f1bebcce0000&dur_cat=3",
+        "at": "2026-11-16T00:36:00Z",
+        "i": "https://sbs-rss.streamguys1.com/money-matters/20261116114338_979024-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
+        "t": "بلک فرایدی؛ ناجی بازار خرده‌فروشی یا تخفیفی بی‌اثر؟"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/money-matters/20261109140412_880428-persian-b303ea3b-081a-4f98-af02-c8b9fbb653ed.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a1-bdec-d376-a9af-fffc91ad0000&dur_cat=3",
         "at": "2026-11-09T03:04:00Z",
@@ -68753,15 +68759,15 @@
         "at": "2026-10-13T00:57:00Z",
         "i": "https://sbs-rss.streamguys1.com/money-matters/20261013120920_229572-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
         "t": "قیمت خانه در استرالیا در حال کاهش است اما آیا این باعث می‌شود خانه‌ها مقرون به صرفه‌تر شوند؟"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/money-matters/20260924165518_180763-persian-1fa832f4-c95d-4f1d-992d-276e9292c521.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a0-d212-d303-adb9-da93ad700000&dur_cat=4",
-        "at": "2026-09-24T06:55:00Z",
-        "i": "https://sbs-rss.streamguys1.com/money-matters/20260924165525_904607-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
-        "t": "قرض و بدهی در استرالیا؛ چه حقوقی داریم و چه راه‌هایی پیش روست؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T00:36:00Z",
+        "i": "https://sbs-rss.streamguys1.com/money-matters/20261116114338_979024-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/can-black-friday-reverse-shopper-slump/6f4gbw7ey",
+        "title": "بلک فرایدی؛ ناجی بازار خرده‌فروشی یا تخفیفی بی‌اثر؟"
+      },
       {
         "at": "2026-11-09T03:04:00Z",
         "i": "https://sbs-rss.streamguys1.com/money-matters/20261109140617_528216-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
@@ -68773,12 +68779,6 @@
         "i": "https://sbs-rss.streamguys1.com/money-matters/20261102155638_948848-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/sydney-housing-market-has-reached-a-new-low-but-are-homes-affordable/zn4rv78hx",
         "title": "بازار مسکن سیدنی به پایین‌ترین سطح جدیدی رسیده است؛ اما آیا خرید خانه آسان شده‌ است؟"
-      },
-      {
-        "at": "2026-10-28T05:30:00Z",
-        "i": "https://sbs-rss.streamguys1.com/money-matters/20261028163106_668210-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/dream-of-homeownership-in-australia-what-to-know-before-buying/vlbnkfp9j",
-        "title": "رویای خانه‌دار شدن در استرالیا؛ پیش از خرید چه باید بدانیم؟"
       }
     ],
     "recent_30d": [
@@ -68793,7 +68793,7 @@
       2,
       3,
       5,
-      4
+      5
     ],
     "status": "active"
   },
