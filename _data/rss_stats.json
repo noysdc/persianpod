@@ -53990,8 +53990,8 @@
       }
     ],
     "recent_30d": [
-      6,
-      4,
+      7,
+      3,
       0,
       1,
       0,
@@ -70912,21 +70912,27 @@
     "status": "stopped"
   },
   "radio-fikshn-dastan": {
-    "avg_gap_days": 28.8,
-    "avg_length": 36,
-    "episodes": 82,
-    "eps_365": 13,
-    "eps_90": 7,
+    "avg_gap_days": 28.0,
+    "avg_length": 35,
+    "episodes": 83,
+    "eps_365": 14,
+    "eps_90": 8,
     "first_at": "2024-09-30",
     "first_year": 1403,
-    "last": "1405/08/07",
-    "last_at": "2026-10-29T15:57:41Z",
-    "last_link": "https://www.spreaker.com/episode/chra-az-brd-dygran-mybazym--76073380",
-    "last_title": "چرا از برد دیگران میبازیم؟",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T16:14:42Z",
+    "last_link": "https://www.spreaker.com/episode/waldyn-nsl-sandwychy--76404181",
+    "last_title": "والدین نسل ساندویچی",
     "max_length": 133,
     "median_length": 27,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://api.spreaker.com/download/episode/76404181/media.mp3",
+        "at": "2026-11-16T16:14:42Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/b52ecf5d2e9cc9f4ed81497e12085e3b.jpg",
+        "t": "والدین نسل ساندویچی"
+      },
       {
         "a": "https://api.spreaker.com/download/episode/76073380/media.mp3",
         "at": "2026-10-29T15:57:41Z",
@@ -70968,15 +70974,15 @@
         "at": "2026-08-19T14:34:11Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/6e57e45dcfeacaa54edefd3f84e64cf5.jpg",
         "t": "قصه های فرهنگ سازمانی به سبک رادیو فیکشن"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/73564185/media.mp3",
-        "at": "2026-08-06T14:37:37Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/639b9e8bd3327981c2f203b0b9c19801.jpg",
-        "t": "سرگیجه -تصمیمها و نوسان های سخت زندگی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T16:14:42Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/b52ecf5d2e9cc9f4ed81497e12085e3b.jpg",
+        "link": "https://www.spreaker.com/episode/waldyn-nsl-sandwychy--76404181",
+        "title": "والدین نسل ساندویچی"
+      },
       {
         "at": "2026-10-29T15:57:41Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/b5caeb3d000f732377ceae1980b02ed3.jpg",
@@ -70988,12 +70994,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/e0c561bda572171b6d1ea3b5feff9a05.jpg",
         "link": "https://www.spreaker.com/episode/trah-mzwny-kh-bh-fkr-baznshstgy-bwd--75940178",
         "title": "طراح مزونی که  به فکر بازنشستگی بود"
-      },
-      {
-        "at": "2026-10-20T22:18:58Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/48348c5f9b9b790b2fe04901fb6b8c35.jpg",
-        "link": "https://www.spreaker.com/episode/yh-ktab-rw-az-rwy-jldsh-qdawt-nkn--75888825",
-        "title": "یه کتاب رو از روی جلدش قضاوت نکن"
       }
     ],
     "recent_30d": [
@@ -71008,7 +71008,7 @@
       1,
       2,
       2,
-      3
+      4
     ],
     "status": "active"
   },
@@ -88680,8 +88680,8 @@
       0,
       0,
       0,
-      4,
-      7,
+      5,
+      6,
       7,
       4,
       1
