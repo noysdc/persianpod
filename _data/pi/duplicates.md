@@ -1,6 +1,6 @@
 ## ممیزی تکراری‌ها
 
-- فایل‌های بررسی‌شده: **1107** (`_podcasts/`: 901 · `_drafts/`: 21 · `_blocked/`: 185)
+- فایل‌های بررسی‌شده: **1215** (`_podcasts/`: 1001 · `_drafts/`: 17 · `_blocked/`: 197)
 - جفت‌های تکراریِ قطعی: **23**
 - جفت‌های هم‌نام با سازنده‌ی متفاوت (احتمالاً دو پادکستِ جدا؛ فقط برای اطلاع): **14**
 
@@ -34,7 +34,7 @@
 - `_blocked/arttuneradio-radio-aaoai-hnr-878947.md` «ArtTuneRadio/رادیو آوای هنر» ⟷ `_podcasts/arttuneradio-radio-aaoai-hnr.md` «ArtTuneRadio/رادیو آوای هنر» — هم‌نام با سازنده‌ی متفاوت
 - `_blocked/bplus-bi-plas-padkst-farsi-khlash-ktab.md` «BPLUS بی‌پلاس پادکست فارسی خلاصه کتاب» ⟷ `_podcasts/bplus.md` «بی پلاس؛ قدم‌های کوچک در راه کنجکاوی‌های بزرگ» — هم‌نام با سازنده‌ی متفاوت
 - `_blocked/dastan-hai-hzar-o-ik-shb-7528813.md` «داستان‌های هزار و یک شب» ⟷ `_podcasts/dastan-hai-hzar-o-ik-shb.md` «داستان های هزار و یک شب» — هم‌نام با سازنده‌ی متفاوت
-- `_podcasts/hzar-o-ik-shb.md` «هزار و یک شب» ⟷ `_podcasts/one-thusand-and-one.md` «هزار و یک شب» — هم‌نام با سازنده‌ی متفاوت
+- `_podcasts/hzar-o-ik-shb.md` «هزار و یک شب» ⟷ `_podcasts/one-thousand-and-one-nights.md` «هزار و یک شب» — هم‌نام با سازنده‌ی متفاوت
 - `_blocked/jamah-1080211.md` «جامعه» ⟷ `_podcasts/jamah.md` «جامعه» — هم‌نام با سازنده‌ی متفاوت
 - `_podcasts/kodk-mn-4854622.md` «کودک من» ⟷ `_podcasts/kodk-mn.md` «کودک من» — هم‌نام با سازنده‌ی متفاوت
 - `_podcasts/ktab-nfr-digri-kh-dr-bhsht-mlaghat-miknid-kaml-zhanr-flsfh.md` «کتاب \» ⟷ `_podcasts/rah-awin.md` «رهاوین | کتاب | عرفان و خودشناسی» — هم‌نام با سازنده‌ی متفاوت
