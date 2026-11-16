@@ -75024,21 +75024,27 @@
     "status": "stopped"
   },
   "radiocrime-padkst-jnaii-radio-kraim": {
-    "avg_gap_days": 13.6,
-    "avg_length": 38,
-    "episodes": 86,
-    "eps_365": 25,
-    "eps_90": 17,
+    "avg_gap_days": 13.2,
+    "avg_length": 39,
+    "episodes": 87,
+    "eps_365": 26,
+    "eps_90": 18,
     "first_at": "2024-07-04",
     "first_year": 1403,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T15:39:51Z",
-    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6af5ddc7d397467e34e76670",
-    "last_title": "دوستی مرگبار | راز مرگ کیسی تری و دروغ‌های مگان ساندوال",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T19:10:50Z",
+    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6afb553b95548cad2aeb0335",
+    "last_title": "جنیفر پن؛ دختری که برای رسیدن به آزادی، خانواده‌اش را قربانی کرد",
     "max_length": 78,
     "median_length": 14,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6afb553b95548cad2aeb0335/media.mp3",
+        "at": "2026-11-16T19:10:50Z",
+        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1794856235707-c3c19eab-c865-4469-83d4-3fcb985f834e.jpeg",
+        "t": "جنیفر پن؛ دختری که برای رسیدن به آزادی، خانواده‌اش را قربانی کرد"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6af5ddc7d397467e34e76670/media.mp3",
         "at": "2026-11-12T15:39:51Z",
@@ -75080,15 +75086,15 @@
         "at": "2026-10-26T15:08:41Z",
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793027032743-3d551e27-d904-4670-853e-1ff0e3039551.jpeg",
         "t": "پرونده لوئیجی منجیونی؛ چرا بخشی از آمریکا از متهم قتل حمایت کرد؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6ad55faaa2384a5721b7ca5e/media.mp3",
-        "at": "2026-10-19T15:30:00Z",
-        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1792368334660-299c521b-3fcc-4ba9-8706-4be39d3d76ee.jpeg",
-        "t": "مرگ لاکیشا تامپسون؛ تناقض‌هایی که خانواده را رها نمی‌کنند"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T19:10:50Z",
+        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1794856235707-c3c19eab-c865-4469-83d4-3fcb985f834e.jpeg",
+        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6afb553b95548cad2aeb0335",
+        "title": "جنیفر پن؛ دختری که برای رسیدن به آزادی، خانواده‌اش را قربانی کرد"
+      },
       {
         "at": "2026-11-12T15:39:51Z",
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1794497787424-d2b585b2-854e-4c09-a1e0-ee71f805b522.jpeg",
@@ -75100,12 +75106,6 @@
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891234592-a13fb613-3891-4512-b494-7084c04ee18c.jpeg",
         "link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9c5074a96cc5a4aa5f20",
         "title": "قتل کالین اسلمر | قاتلش خیال مردن نداره!"
-      },
-      {
-        "at": "2026-11-05T15:20:21Z",
-        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891711122-7af11282-3cc5-48bb-bf1d-a2e4940c9dcf.jpeg",
-        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9eb63be80be7f3a4ac4c",
-        "title": "پرونده حل‌نشده گرگوری کیث؛ مردی که بدون هیچ ردی ناپدید شد"
       }
     ],
     "recent_30d": [
@@ -75120,7 +75120,7 @@
       3,
       3,
       6,
-      8
+      9
     ],
     "status": "active"
   },
@@ -89048,7 +89048,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 21,
     "episodes": 422,
-    "eps_365": 256,
+    "eps_365": 255,
     "eps_90": 99,
     "first_at": "2024-08-22",
     "first_year": 1403,
