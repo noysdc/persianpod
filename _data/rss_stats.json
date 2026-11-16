@@ -22187,27 +22187,21 @@
     "status": "stopped"
   },
   "gah-kst": {
-    "avg_gap_days": 13.8,
+    "avg_gap_days": 13.5,
     "avg_length": 29,
-    "episodes": 34,
-    "eps_365": 6,
-    "eps_90": 6,
+    "episodes": 33,
+    "eps_365": 5,
+    "eps_90": 5,
     "first_at": "2024-11-04",
     "first_year": 1403,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T04:04:20Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3sf36e",
-    "last_title": "در",
+    "last": "1405/08/10",
+    "last_at": "2026-11-01T22:37:23Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3riheq",
+    "last_title": "تخصص",
     "max_length": 57,
     "median_length": 24,
     "min_length": 14,
     "play": [
-      {
-        "a": "https://anchor.fm/s/fd24950c/podcast/play/129518222/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F32faeec3-e58a-79f1-2f6c-84dc8b532c2a.mp3",
-        "at": "2026-11-16T04:04:20Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1794801845489-7906d9a09d494.jpg",
-        "t": "در"
-      },
       {
         "a": "https://anchor.fm/s/fd24950c/podcast/play/128582554/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F0ecbd545-a8cd-b299-6d20-2752db7dad0b.mp3",
         "at": "2026-11-01T22:37:23Z",
@@ -22249,15 +22243,15 @@
         "at": "2025-10-20T02:11:01Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1760925674738-2d576f37bd45b.jpg",
         "t": "نامجو"
+      },
+      {
+        "a": "https://anchor.fm/s/fd24950c/podcast/play/109249925/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-5%2F8b10d54b-cbf1-da4a-5dbb-317dbd32855f.mp3",
+        "at": "2025-10-05T20:51:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1759696725452-d0a2fd67bc246.jpg",
+        "t": "درخشش ابدی یک ذهن بی‌عیب"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-16T04:04:20Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1794801845489-7906d9a09d494.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3sf36e",
-        "title": "در"
-      },
       {
         "at": "2026-11-01T22:37:23Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1793572585076-d838177b45fa9.jpg",
@@ -22269,6 +22263,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1791834678850-21f6d2ae5a454.jpg",
         "link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3qd6l5",
         "title": "بمب ساعتی"
+      },
+      {
+        "at": "2026-09-27T23:36:18Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1790551004526-078b389d6cef7.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3pfkv1",
+        "title": "داستان‌های موازی"
       }
     ],
     "recent_30d": [
@@ -22283,7 +22283,7 @@
       0,
       2,
       2,
-      2
+      1
     ],
     "status": "active"
   },
@@ -61050,8 +61050,8 @@
       2,
       0,
       0,
-      1,
-      6,
+      2,
+      5,
       4,
       4,
       5,
@@ -61453,8 +61453,8 @@
       0,
       6,
       0,
-      1,
-      11,
+      2,
+      10,
       0,
       0,
       0
@@ -82345,27 +82345,21 @@
     "status": "active"
   },
   "shahnamh-shnidni-whispers-of-the-shahnameh": {
-    "avg_gap_days": 9.4,
-    "avg_length": 47,
-    "episodes": 125,
-    "eps_365": 39,
-    "eps_90": 10,
+    "avg_gap_days": 8.9,
+    "avg_length": 46,
+    "episodes": 124,
+    "eps_365": 38,
+    "eps_90": 9,
     "first_at": "2024-04-25",
     "first_year": 1403,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T02:10:48Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/parsiadab9/episodes/ep-e3setg8",
-    "last_title": "۳۲ لذتِ شعر از کجاست؟ چهار لایهٔ لذت ادبیات شاهنامه خوانی نشست ۳۲ هفت خان رستم",
+    "last": "1405/07/26",
+    "last_at": "2026-10-18T18:33:17Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/parsiadab9/episodes/--e3qmvdj",
+    "last_title": "۳۱ - هفت خوان رستم در شاهنامه",
     "max_length": 322,
     "median_length": 49,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/f4deef14/podcast/play/129512392/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F436826351-44100-2-60a7098ff932e.mp3",
-        "at": "2026-11-16T02:10:48Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/40982509/40982509-1794793530463-ccd7575494447.jpg",
-        "t": "۳۲ لذتِ شعر از کجاست؟ چهار لایهٔ لذت ادبیات شاهنامه خوانی نشست ۳۲ هفت خان رستم"
-      },
       {
         "a": "https://anchor.fm/s/f4deef14/podcast/play/127679347/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-18%2F434443986-44100-2-3c030862aace7.mp3",
         "at": "2026-10-18T18:33:17Z",
@@ -82407,15 +82401,15 @@
         "at": "2026-08-18T19:33:07Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/40982509/40982509-1787081465068-ca952df3433af.jpg",
         "t": "پادشاهی نوذر: از بی‌دادگری تا حمله افراسیاب | شاهنامه‌خوانی ۲۵"
+      },
+      {
+        "a": "https://anchor.fm/s/f4deef14/podcast/play/124403632/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-18%2F430088626-44100-2-d4f7311fba055.mp3",
+        "at": "2026-08-18T19:29:23Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/40982509/40982509-1787081350445-92df9e54dee86.jpg",
+        "t": "Meet the dance group community Skip navigation Search    Create  9+  Avatar image نشست بیست و چهارم شاهنامه دیدار سام و رستم 1"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-16T02:10:48Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/40982509/40982509-1794793530463-ccd7575494447.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/parsiadab9/episodes/ep-e3setg8",
-        "title": "۳۲ لذتِ شعر از کجاست؟ چهار لایهٔ لذت ادبیات شاهنامه خوانی نشست ۳۲ هفت خان رستم"
-      },
       {
         "at": "2026-10-18T18:33:17Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/40982509/40982509-1792348365547-c68cad7feb111.jpg",
@@ -82427,6 +82421,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/40982509/40982509-1792344504160-0c6729aaa3b51.jpg",
         "link": "https://podcasters.spotify.com/pod/show/parsiadab9/episodes/--e3qmq52",
         "title": "حماسه مازندران در شاهنامه۳۰ -کاووس، دیو سپید و کوری سپاه ایران | شاهنامه‌خوانی، نشست سی‌ام"
+      },
+      {
+        "at": "2026-10-05T03:28:04Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/40982509/40982509-1791170120262-20a392c726184.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/parsiadab9/episodes/---e3ptfjg",
+        "title": "شکوه شاهنامه ۲۹--شاهنامه‌خوانی، نشست ۲۹ | پایان پادشاهی کیقباد و آغاز کار کیکاووس؛ آوازِ مازندران"
       }
     ],
     "recent_30d": [
@@ -82441,7 +82441,7 @@
       2,
       6,
       1,
-      3
+      2
     ],
     "status": "active"
   },
