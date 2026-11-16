@@ -3921,7 +3921,7 @@
     "avg_length": 18,
     "episodes": 218,
     "eps_365": 81,
-    "eps_90": 20,
+    "eps_90": 19,
     "first_at": "2023-12-16",
     "first_year": 1402,
     "last": "1405/08/23",
@@ -4010,8 +4010,8 @@
       0,
       0,
       6,
-      6,
       7,
+      6,
       6,
       7
     ],
@@ -36674,8 +36674,8 @@
       0,
       0,
       27,
-      61,
-      63,
+      62,
+      62,
       58,
       62,
       64
@@ -46521,11 +46521,11 @@
     "status": "inactive"
   },
   "mozhde-sara-mzhdh-sra": {
-    "avg_gap_days": 12.5,
+    "avg_gap_days": 12.9,
     "avg_length": 36,
     "episodes": 150,
-    "eps_365": 30,
-    "eps_90": 12,
+    "eps_365": 29,
+    "eps_90": 11,
     "first_at": "2024-05-04",
     "first_year": 1403,
     "last": "1405/08/23",
@@ -46614,8 +46614,8 @@
       0,
       4,
       4,
-      4,
-      4,
+      5,
+      3,
       1,
       7
     ],
@@ -60959,32 +60959,32 @@
     "status": "active"
   },
   "podcast-jnaii-ki-aas": {
-    "avg_gap_days": 10.8,
+    "avg_gap_days": 10.9,
     "avg_length": 54,
     "episodes": 133,
     "eps_365": 34,
     "eps_90": 14,
     "first_at": "2023-11-02",
     "first_year": 1402,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T17:16:10Z",
-    "last_link": "https://s3.castbox.fm/8f/9f/47/80a02946d8b6074a44c7c22a9b.mp3",
-    "last_title": "اپیزود 131 - هیولای بلنگلو (سه از پنج)",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T17:30:18Z",
+    "last_link": "https://s3.castbox.fm/b3/4b/1c/3b39634aa58874d1caf22fe57e.mp3",
+    "last_title": "پرمیوم هشتم \"ح\" (لینک در توضیحات)",
     "max_length": 108,
     "median_length": 51,
     "min_length": 2,
     "play": [
       {
+        "a": "https://s3.castbox.fm/b3/4b/1c/3b39634aa58874d1caf22fe57e.mp3",
+        "at": "2026-11-16T17:30:18Z",
+        "i": "https://s3.castbox.fm/cb/ae/44/18487f46f8a32d5973c4c77bd5.jpg",
+        "t": "پرمیوم هشتم \"ح\" (لینک در توضیحات)"
+      },
+      {
         "a": "https://s3.castbox.fm/8f/9f/47/80a02946d8b6074a44c7c22a9b.mp3",
         "at": "2026-11-12T17:16:10Z",
         "i": "https://s3.castbox.fm/5a/56/b0/f72e5f443db89d30355bf79050.jpg",
         "t": "اپیزود 131 - هیولای بلنگلو (سه از پنج)"
-      },
-      {
-        "a": "https://s3.castbox.fm/2e/89/73/d2a90848a0841f43d7b7c4faaf.mp3",
-        "at": "2026-11-09T09:54:56Z",
-        "i": "https://s3.castbox.fm/c4/48/df/2b7c45422dad833361a931659b.jpg",
-        "t": "پرمیوم هفتم \"چ\" (لینک در توضیحات)"
       },
       {
         "a": "https://s3.castbox.fm/07/bf/3b/91805f461a801b480174f61f5f.mp3",
@@ -61025,16 +61025,16 @@
     ],
     "recent": [
       {
+        "at": "2026-11-16T17:30:18Z",
+        "i": "https://s3.castbox.fm/cb/ae/44/18487f46f8a32d5973c4c77bd5.jpg",
+        "link": "https://s3.castbox.fm/b3/4b/1c/3b39634aa58874d1caf22fe57e.mp3",
+        "title": "پرمیوم هشتم \"ح\" (لینک در توضیحات)"
+      },
+      {
         "at": "2026-11-12T17:16:10Z",
         "i": "https://s3.castbox.fm/5a/56/b0/f72e5f443db89d30355bf79050.jpg",
         "link": "https://s3.castbox.fm/8f/9f/47/80a02946d8b6074a44c7c22a9b.mp3",
         "title": "اپیزود 131 - هیولای بلنگلو (سه از پنج)"
-      },
-      {
-        "at": "2026-11-09T09:54:56Z",
-        "i": "https://s3.castbox.fm/c4/48/df/2b7c45422dad833361a931659b.jpg",
-        "link": "https://s3.castbox.fm/2e/89/73/d2a90848a0841f43d7b7c4faaf.mp3",
-        "title": "پرمیوم هفتم \"چ\" (لینک در توضیحات)"
       },
       {
         "at": "2026-11-06T15:21:43Z",
@@ -72581,7 +72581,7 @@
   },
   "radio-mili": {
     "avg_length": 9,
-    "episodes": 57,
+    "episodes": 58,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2019-06-16",
@@ -79780,8 +79780,8 @@
       0,
       2,
       4,
-      4,
-      3,
+      5,
+      2,
       4
     ],
     "status": "active"
@@ -87076,7 +87076,7 @@
     "avg_length": 10,
     "episodes": 4270,
     "eps_365": 788,
-    "eps_90": 249,
+    "eps_90": 248,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/22",
@@ -87147,16 +87147,16 @@
     ],
     "recent_30d": [
       113,
-      73,
+      72,
       75,
       33,
       0,
       7,
       29,
       107,
-      84,
+      85,
       97,
-      81,
+      80,
       71
     ],
     "status": "active"
