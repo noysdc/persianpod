@@ -80278,19 +80278,24 @@
   "sdai-bazar": {
     "avg_gap_days": 4.2,
     "avg_length": 22,
-    "episodes": 496,
-    "eps_365": 86,
-    "eps_90": 36,
+    "episodes": 497,
+    "eps_365": 87,
+    "eps_90": 37,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/08/22",
-    "last_at": "2026-11-13T09:20:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/nxzb24ukqe/",
-    "last_title": "آیا PPI احتمال افزایش ۵۰ واحد پایه‌ای نرخ بهره را بالا می‌برد؟",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T11:50:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/4azu1bfoa9/",
+    "last_title": "آیا حمایت ۱٫۱۰ یورو‌دلار دوام می‌آورد؟",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/4azu1bfoa9/2026-11-16-12-06-06.mp3",
+        "at": "2026-11-16T11:50:00Z",
+        "t": "آیا حمایت ۱٫۱۰ یورو‌دلار دوام می‌آورد؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/nxzb24ukqe/2026-11-13-09-32-28.mp3",
         "at": "2026-11-13T09:20:00Z",
@@ -80325,14 +80330,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/tr550ft0sw/2026-11-05-12-07-37.mp3",
         "at": "2026-11-05T11:40:00Z",
         "t": "ریزش نفت، صعود طلا؛ آیا بازارها پایان جنگ را قیمت‌گذاری می‌کنند؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/2jk8lzf7l9/2026-11-04-12-01-09.mp3",
-        "at": "2026-11-04T11:40:00Z",
-        "t": "پیروزی دموکرات‌ها و جهش طلا؛ بازارها چه چیزی را قیمت‌گذاری می‌کنند؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T11:50:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/4azu1bfoa9/",
+        "title": "آیا حمایت ۱٫۱۰ یورو‌دلار دوام می‌آورد؟"
+      },
       {
         "at": "2026-11-13T09:20:00Z",
         "link": "https://dotcast.org/p/bozvcayr/nxzb24ukqe/",
@@ -80342,11 +80347,6 @@
         "at": "2026-11-12T12:10:00Z",
         "link": "https://dotcast.org/p/bozvcayr/hlygjwtpta/",
         "title": "از رکورد تازه سهام اروپا تا نگرانی وال‌استریت درباره انویدیا"
-      },
-      {
-        "at": "2026-11-11T11:40:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/6pav8iyfvw/",
-        "title": "از هشدار والر تا جهش فیوچرز نزدک زیر سایه فشارهای تورمی"
       }
     ],
     "recent_30d": [
@@ -80361,7 +80361,7 @@
       0,
       0,
       16,
-      20
+      21
     ],
     "status": "active"
   },
@@ -87154,8 +87154,8 @@
       0,
       7,
       28,
-      105,
-      85,
+      106,
+      84,
       98,
       82,
       71
