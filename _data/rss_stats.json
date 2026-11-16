@@ -22187,21 +22187,27 @@
     "status": "stopped"
   },
   "gah-kst": {
-    "avg_gap_days": 13.5,
+    "avg_gap_days": 13.8,
     "avg_length": 29,
-    "episodes": 33,
-    "eps_365": 5,
-    "eps_90": 5,
+    "episodes": 34,
+    "eps_365": 6,
+    "eps_90": 6,
     "first_at": "2024-11-04",
     "first_year": 1403,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T22:37:23Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3riheq",
-    "last_title": "تخصص",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T04:04:20Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3sf36e",
+    "last_title": "در",
     "max_length": 57,
     "median_length": 24,
     "min_length": 14,
     "play": [
+      {
+        "a": "https://anchor.fm/s/fd24950c/podcast/play/129518222/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F32faeec3-e58a-79f1-2f6c-84dc8b532c2a.mp3",
+        "at": "2026-11-16T04:04:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1794801845489-7906d9a09d494.jpg",
+        "t": "در"
+      },
       {
         "a": "https://anchor.fm/s/fd24950c/podcast/play/128582554/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F0ecbd545-a8cd-b299-6d20-2752db7dad0b.mp3",
         "at": "2026-11-01T22:37:23Z",
@@ -22243,15 +22249,15 @@
         "at": "2025-10-20T02:11:01Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1760925674738-2d576f37bd45b.jpg",
         "t": "نامجو"
-      },
-      {
-        "a": "https://anchor.fm/s/fd24950c/podcast/play/109249925/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-5%2F8b10d54b-cbf1-da4a-5dbb-317dbd32855f.mp3",
-        "at": "2025-10-05T20:51:48Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1759696725452-d0a2fd67bc246.jpg",
-        "t": "درخشش ابدی یک ذهن بی‌عیب"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T04:04:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1794801845489-7906d9a09d494.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3sf36e",
+        "title": "در"
+      },
       {
         "at": "2026-11-01T22:37:23Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1793572585076-d838177b45fa9.jpg",
@@ -22263,12 +22269,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1791834678850-21f6d2ae5a454.jpg",
         "link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3qd6l5",
         "title": "بمب ساعتی"
-      },
-      {
-        "at": "2026-09-27T23:36:18Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1790551004526-078b389d6cef7.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3pfkv1",
-        "title": "داستان‌های موازی"
       }
     ],
     "recent_30d": [
@@ -22283,7 +22283,7 @@
       0,
       2,
       2,
-      1
+      2
     ],
     "status": "active"
   },
@@ -50578,21 +50578,27 @@
     "status": "stopped"
   },
   "one-thousand-and-one-nights": {
-    "avg_gap_days": 0.4,
+    "avg_gap_days": 0.5,
     "avg_length": 11,
-    "episodes": 28,
-    "eps_365": 28,
-    "eps_90": 28,
+    "episodes": 29,
+    "eps_365": 29,
+    "eps_90": 29,
     "first_at": "2026-11-03",
     "first_year": 1405,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T17:55:26Z",
-    "last_link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/3599f3e4-648d-4a88-bd22-6b728d015cdb/play.mp3?v=3",
-    "last_title": "شب بیست و هفتم _ هزار و یک شب",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T04:08:09Z",
+    "last_link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/261a5a95-8b89-487c-a638-404aa752532a/play.mp3?v=1",
+    "last_title": "شب بیست و هشتم _هزار و یک شب",
     "max_length": 13,
     "median_length": 11,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/261a5a95-8b89-487c-a638-404aa752532a/play.mp3?v=1",
+        "at": "2026-11-16T04:08:09Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/261a5a95-8b89-487c-a638-404aa752532a/artwork.jpg?v=1",
+        "t": "شب بیست و هشتم _هزار و یک شب"
+      },
       {
         "a": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/3599f3e4-648d-4a88-bd22-6b728d015cdb/play.mp3?v=3",
         "at": "2026-11-14T17:55:26Z",
@@ -50634,15 +50640,15 @@
         "at": "2026-11-10T02:56:31Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/39d2e381-96f0-415c-b0c0-9b4fb2af027f/artwork.jpg?v=1",
         "t": "شب بیست و یکم _ هزار و یک شب"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/2b04cfd6-25e5-463e-8196-0bd05e86af07/play.mp3?v=1",
-        "at": "2026-11-09T21:08:04Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/2b04cfd6-25e5-463e-8196-0bd05e86af07/artwork.jpg?v=1",
-        "t": "شب بیستم _ هزار و یک شب"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T04:08:09Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/261a5a95-8b89-487c-a638-404aa752532a/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/261a5a95-8b89-487c-a638-404aa752532a/play.mp3?v=1",
+        "title": "شب بیست و هشتم _هزار و یک شب"
+      },
       {
         "at": "2026-11-14T17:55:26Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/3599f3e4-648d-4a88-bd22-6b728d015cdb/artwork.jpg?v=1",
@@ -50654,12 +50660,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/f820c51f-91ff-4cc5-9c8f-12082aefcda4/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/f820c51f-91ff-4cc5-9c8f-12082aefcda4/play.mp3?v=1",
         "title": "شب بیست و ششم _ هزار و یک شب"
-      },
-      {
-        "at": "2026-11-13T21:09:55Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/ec47e27c-8465-47ce-85e0-2dfdaca1765e/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/ec47e27c-8465-47ce-85e0-2dfdaca1765e/play.mp3?v=1",
-        "title": "شب بیست و پنجم _ هزار و یک شب"
       }
     ],
     "recent_30d": [
@@ -50674,7 +50674,7 @@
       0,
       0,
       0,
-      28
+      29
     ],
     "status": "active"
   },
