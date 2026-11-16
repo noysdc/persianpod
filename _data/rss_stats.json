@@ -11552,19 +11552,25 @@
   "brnamh-hai-roanshnasi-persianbms": {
     "avg_gap_days": 7.0,
     "avg_length": 17,
-    "episodes": 24,
-    "eps_365": 24,
-    "eps_90": 12,
+    "episodes": 25,
+    "eps_365": 25,
+    "eps_90": 13,
     "first_at": "2026-06-01",
     "first_year": 1405,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T05:30:00Z",
-    "last_link": "https://share.transistor.fm/s/a80ffeca",
-    "last_title": "راهی هست: ۶. «طرح ایمنی»، راهی برای نجات از افکار خودکشی",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T06:30:00Z",
+    "last_link": "https://share.transistor.fm/s/a3109267",
+    "last_title": "راهی هست: ۷. چگونه سن، فرهنگ و رسانه خطر خودکشی را افزایش می‌دهند؟",
     "max_length": 26,
-    "median_length": 16,
+    "median_length": 14,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://media.transistor.fm/a3109267/8dcbf983.mp3",
+        "at": "2026-11-16T06:30:00Z",
+        "i": "https://img.transistorcdn.com/Mtr4YQJlY7QnAZq9t3SBUUfcpwglOZh_Pr27GGXVrF0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS84NzNi/MGVlMWQ4Yjg0NzU1/ZTA1MmI0NDhiODJm/NWVkNS5qcGc.jpg",
+        "t": "راهی هست: ۷. چگونه سن، فرهنگ و رسانه خطر خودکشی را افزایش می‌دهند؟"
+      },
       {
         "a": "https://media.transistor.fm/a80ffeca/42903236.mp3",
         "at": "2026-11-09T05:30:00Z",
@@ -11606,15 +11612,15 @@
         "at": "2026-09-28T06:30:00Z",
         "i": "https://img.transistorcdn.com/Y9YIxleQT70bzHZgLGlYUBY9cxibeWxSLngMxiU_y0A/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9kOGI0/ZjQ5YTY3ZTIzZjVk/Yzg4NGJkNzYxMzVl/YzUxMC5qcGc.jpg",
         "t": "اتاق آبی: ۱۲. آیا رقابت در زندگی ما را به رضامندی خواهد رساند؟"
-      },
-      {
-        "a": "https://media.transistor.fm/8c3ab5b8/f7ef2d3e.mp3",
-        "at": "2026-09-21T06:30:00Z",
-        "i": "https://img.transistorcdn.com/trdZv_LU2mXIXIx5mMhYLFqMORA6fGZPk2nlbB4sUmI/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lNjg3/NDVhYjhiNDA2Zjkz/OWM2NDAxNjNiNjg3/ZDBhYy5qcGc.jpg",
-        "t": "اتاق آبی: ۱۱. چطور رشته تحصیلی و یا شغل مناسبی انتخاب کنیم؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T06:30:00Z",
+        "i": "https://img.transistorcdn.com/Mtr4YQJlY7QnAZq9t3SBUUfcpwglOZh_Pr27GGXVrF0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS84NzNi/MGVlMWQ4Yjg0NzU1/ZTA1MmI0NDhiODJm/NWVkNS5qcGc.jpg",
+        "link": "https://share.transistor.fm/s/a3109267",
+        "title": "راهی هست: ۷. چگونه سن، فرهنگ و رسانه خطر خودکشی را افزایش می‌دهند؟"
+      },
       {
         "at": "2026-11-09T05:30:00Z",
         "i": "https://img.transistorcdn.com/PkBD57SzxDIAhtcBY6-zU3cKK0AdXJgVj_DMyU6B4Bk/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zMWQy/OTg3MDhiODRhYzhh/NTM2NWVkY2Y3ZmZl/NmYyYS5qcGc.jpg",
@@ -11626,12 +11632,6 @@
         "i": "https://img.transistorcdn.com/st9fs0nvXgziIFrcOq6NWz4VGWwILVO3sOPL01Fgmls/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81ZGFk/YTE4MWU4YmMxNWJi/MTc3NzE0OGI0MjQ4/Mjg3ZS5qcGc.jpg",
         "link": "https://share.transistor.fm/s/931a241e",
         "title": "راهی هست: ۵. پس از خودکشی؛ چگونه از بازماندگان مراقبت کنیم؟"
-      },
-      {
-        "at": "2026-10-26T05:30:00Z",
-        "i": "https://img.transistorcdn.com/mTVtfHOP04DR0Y5bP2pG5NlvNzMxWggQOJJIzdBhORE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9iNzA0/MTRhYzllNmMzYTBh/Y2IyMGU3OTFmOTNm/ZjVmNS5qcGc.jpg",
-        "link": "https://share.transistor.fm/s/60d01559",
-        "title": "راهی هست: ۴. خانواده، سپری در برابر خودکشی"
       }
     ],
     "recent_30d": [
@@ -11646,7 +11646,7 @@
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   },
