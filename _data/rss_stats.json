@@ -62052,21 +62052,26 @@
     "status": "active"
   },
   "podcast-khoab-kodkanh": {
-    "avg_gap_days": 9.7,
+    "avg_gap_days": 9.6,
     "avg_length": 9,
-    "episodes": 169,
-    "eps_365": 37,
-    "eps_90": 9,
+    "episodes": 170,
+    "eps_365": 38,
+    "eps_90": 10,
     "first_at": "2022-02-16",
     "first_year": 1400,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T22:37:17Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3s1e9c",
-    "last_title": "چه کسی برف ها رو دزدیده",
+    "last": "1405/08/24",
+    "last_at": "2026-11-15T22:28:55Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3sem6o",
+    "last_title": "پپا و ماجرا جویی در روز پاییزی",
     "max_length": 34,
-    "median_length": 11,
+    "median_length": 10,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/51d21800/podcast/play/129504920/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F436815975-44100-2-bfa7d4c79aa3c.m4a",
+        "at": "2026-11-15T22:28:55Z",
+        "t": "پپا و ماجرا جویی در روز پاییزی"
+      },
       {
         "a": "https://anchor.fm/s/51d21800/podcast/play/129070828/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2F436245201-44100-2-3dd87985575f.m4a",
         "at": "2026-11-08T22:37:17Z",
@@ -62101,14 +62106,14 @@
         "a": "https://anchor.fm/s/51d21800/podcast/play/126051612/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-20%2F432317989-44100-2-94e41ccc04688.m4a",
         "at": "2026-09-20T21:43:59Z",
         "t": "پپا عینک می زند"
-      },
-      {
-        "a": "https://anchor.fm/s/51d21800/podcast/play/125686595/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-13%2F431823204-44100-2-1389ba55a615d.m4a",
-        "at": "2026-09-13T21:24:47Z",
-        "t": "فرانکلین و معلم جدید"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-15T22:28:55Z",
+        "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3sem6o",
+        "title": "پپا و ماجرا جویی در روز پاییزی"
+      },
       {
         "at": "2026-11-08T22:37:17Z",
         "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3s1e9c",
@@ -62118,11 +62123,6 @@
         "at": "2026-11-01T22:42:31Z",
         "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3rihm9",
         "title": "پپا فوتبال بازی می کند"
-      },
-      {
-        "at": "2026-10-18T22:25:38Z",
-        "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3qn9ld",
-        "title": "پپا و مهمانی پر ماجرا"
       }
     ],
     "recent_30d": [
@@ -62137,7 +62137,7 @@
       4,
       2,
       4,
-      3
+      4
     ],
     "status": "active"
   },
@@ -62444,8 +62444,8 @@
     "status": "active"
   },
   "podcast-ktibh": {
-    "avg_length": 27,
-    "episodes": 17,
+    "avg_length": 28,
+    "episodes": 13,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2019-11-11",
@@ -62463,12 +62463,6 @@
         "at": "2020-05-02T15:41:22Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1588434090926-14709ce24241b.jpg",
         "t": "اپیزود نخست کتاب شهریار"
-      },
-      {
-        "a": "https://anchor.fm/s/10455a14/podcast/play/11857770/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-1%2F60837416-48000-2-ac5244063b2af.m4a",
-        "at": "2020-04-01T16:59:14Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1585760807912-c114960f8444a.jpg",
-        "t": "اپیزود یازدهم رمان طاعون"
       },
       {
         "a": "https://anchor.fm/s/10455a14/podcast/play/11512875/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-2-25%2F58884193-44100-2-36df4cad2c2ac.m4a",
@@ -62489,22 +62483,28 @@
         "t": "اپیزود ششم رمان طاعون"
       },
       {
-        "a": "https://anchor.fm/s/10455a14/podcast/play/8623121/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-23%2F35398007-48000-2-23b42af780b1a.mp3",
-        "at": "2019-11-26T08:15:45Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1575294238926-6072fef55b4bf.jpg",
-        "t": "اپیزود سوم رمان طاعون"
-      },
-      {
         "a": "https://anchor.fm/s/10455a14/podcast/play/8564125/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-20%2F35008588-48000-2-dd8daaf6e7874.m4a",
         "at": "2019-11-21T11:20:39Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1575294204427-43a39b0842b89.jpg",
         "t": "اپیزود دوم رمان طاعون"
       },
       {
-        "a": "https://anchor.fm/s/10455a14/podcast/play/8514387/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-18%2F34642426-48000-2-9a39c5a5903f1.m4a",
-        "at": "2019-11-18T14:04:23Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1575294153668-65edd089f523a.jpg",
-        "t": "اپیزود اول رمان طاعون"
+        "a": "https://anchor.fm/s/10455a14/podcast/play/8388689/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2019-10-11%2F33752176-44100-2-35ad74dc62847e1d.mp3",
+        "at": "2019-11-11T16:44:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2629805/8ea1a0ce7f0501a7.jpeg",
+        "t": "اپیزود هشتم (پایانی): خاطرات موتورسیکلت"
+      },
+      {
+        "a": "https://anchor.fm/s/10455a14/podcast/play/8383855/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-10%2F33592413-44100-2-481ef4058c27d.mp3",
+        "at": "2019-11-11T13:52:28Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1573480356475-ee22ee37ec57d.jpg",
+        "t": "اپیزود هفتم: خاطرات موتورسیکلت"
+      },
+      {
+        "a": "https://anchor.fm/s/10455a14/podcast/play/8383766/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-10-9%2F33502291-44100-2-d8a36615348fe.mp3",
+        "at": "2019-11-11T13:44:33Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1573479881727-64aef6029af2c.jpg",
+        "t": "اپیزود ششم: خاطرات موتورسیکلت"
       }
     ],
     "recent": [
@@ -62515,16 +62515,16 @@
         "title": "اپیزود نخست کتاب شهریار"
       },
       {
-        "at": "2020-04-01T16:59:14Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1585760807912-c114960f8444a.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/r-kh7/episodes/ep-ec8cda",
-        "title": "اپیزود یازدهم رمان طاعون"
-      },
-      {
         "at": "2020-03-25T13:50:28Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1585144237095-f1f37135346ab.jpg",
         "link": "https://podcasters.spotify.com/pod/show/r-kh7/episodes/ep-ebtrjb",
         "title": "اپیزود دهم رمان طاعون"
+      },
+      {
+        "at": "2019-12-22T21:12:18Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2629805/2629805-1577049146193-e00d5613cec93.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/r-kh7/episodes/ep-e9nl95",
+        "title": "اپیزود هشتم رمان طاعون"
       }
     ],
     "recent_30d": [
@@ -65343,8 +65343,8 @@
       4,
       1,
       3,
-      2,
-      2
+      3,
+      1
     ],
     "status": "active"
   },
@@ -67415,10 +67415,10 @@
     "status": "active"
   },
   "podcast-tarikhi-majon": {
-    "avg_gap_days": 20.0,
+    "avg_gap_days": 20.2,
     "avg_length": 54,
     "episodes": 103,
-    "eps_365": 19,
+    "eps_365": 18,
     "eps_90": 6,
     "first_at": "2019-12-31",
     "first_year": 1398,
@@ -68681,7 +68681,7 @@
       }
     ],
     "recent_30d": [
-      4,
+      3,
       3,
       2,
       0,
@@ -71701,7 +71701,7 @@
     "avg_length": 35,
     "episodes": 210,
     "eps_365": 91,
-    "eps_90": 41,
+    "eps_90": 40,
     "first_at": "2024-05-01",
     "first_year": 1403,
     "last": "1405/08/24",
@@ -71782,16 +71782,16 @@
       }
     ],
     "recent_30d": [
-      9,
+      8,
       5,
-      7,
-      4,
+      8,
+      3,
       0,
       0,
       7,
+      9,
       9,
       8,
-      9,
       9,
       23
     ],
@@ -77551,7 +77551,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       0,
       0,
       0,
