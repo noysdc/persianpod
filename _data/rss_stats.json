@@ -5729,8 +5729,8 @@
       8,
       5,
       6,
-      3,
-      5,
+      4,
+      4,
       6
     ],
     "status": "active"
@@ -45825,8 +45825,8 @@
       0,
       2,
       2,
-      2,
-      2,
+      3,
+      1,
       0
     ],
     "status": "active"
@@ -74723,10 +74723,9 @@
     "status": "stopped"
   },
   "radio-sitcom-podcast-padkst-radio-sitkam": {
-    "avg_gap_days": 281.0,
     "avg_length": 71,
     "episodes": 26,
-    "eps_365": 2,
+    "eps_365": 1,
     "eps_90": 1,
     "first_at": "2020-03-06",
     "first_year": 1398,
@@ -77071,7 +77070,7 @@
       }
     ],
     "recent_30d": [
-      9,
+      8,
       2,
       0,
       0,
