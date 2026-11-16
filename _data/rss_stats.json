@@ -57071,8 +57071,8 @@
       1,
       0,
       2,
-      4,
-      8
+      5,
+      7
     ],
     "status": "active"
   },
@@ -57880,10 +57880,10 @@
     "status": "active"
   },
   "podcast-farsi-msti-o-rasti": {
-    "avg_gap_days": 20.8,
+    "avg_gap_days": 21.9,
     "avg_length": 60,
     "episodes": 46,
-    "eps_365": 18,
+    "eps_365": 17,
     "eps_90": 5,
     "first_at": "2020-03-03",
     "first_year": 1398,
@@ -87076,7 +87076,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4270,
-    "eps_365": 791,
+    "eps_365": 790,
     "eps_90": 251,
     "first_at": "2023-09-13",
     "first_year": 1402,
@@ -87154,8 +87154,8 @@
       0,
       7,
       28,
-      106,
-      84,
+      107,
+      83,
       98,
       82,
       71
