@@ -71007,8 +71007,8 @@
       1,
       1,
       2,
-      1,
-      4
+      2,
+      3
     ],
     "status": "active"
   },
@@ -92134,21 +92134,26 @@
     "status": "active"
   },
   "zndgi-shad-rozanh-ba-jois-mair": {
-    "avg_gap_days": 8.3,
+    "avg_gap_days": 8.2,
     "avg_length": 25,
-    "episodes": 288,
-    "eps_365": 44,
-    "eps_90": 12,
+    "episodes": 289,
+    "eps_365": 45,
+    "eps_90": 13,
     "first_at": "2020-12-10",
     "first_year": 1399,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T13:00:00Z",
-    "last_link": "https://joycemeyerfa.libsyn.com/episode--1-3",
-    "last_title": "استراتيجيات المعركة لتجديد الذهن -1",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T14:00:00Z",
+    "last_link": "https://joycemeyerfa.libsyn.com/hzx8gc2bbtql",
+    "last_title": "با خودتان صبور باشید ۱",
     "max_length": 28,
     "median_length": 25,
     "min_length": 18,
     "play": [
+      {
+        "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1413_1.mp3?dest-id=2501420",
+        "at": "2026-11-16T14:00:00Z",
+        "t": "با خودتان صبور باشید ۱"
+      },
       {
         "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1411_5.mp3?dest-id=2501420",
         "at": "2026-11-09T13:00:00Z",
@@ -92183,14 +92188,14 @@
         "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1405_3.mp3?dest-id=2501420",
         "at": "2026-09-28T13:00:00Z",
         "t": "با خدا همه چیز امکان پذیر است ۱"
-      },
-      {
-        "a": "https://traffic.libsyn.com/secure/joycemeyerfa/FAS_1398_1.mp3?dest-id=2501420",
-        "at": "2026-09-14T13:00:00Z",
-        "t": "چاه‌های خشک شده ۱"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T14:00:00Z",
+        "link": "https://joycemeyerfa.libsyn.com/hzx8gc2bbtql",
+        "title": "با خودتان صبور باشید ۱"
+      },
       {
         "at": "2026-11-09T13:00:00Z",
         "link": "https://joycemeyerfa.libsyn.com/episode--1-3",
@@ -92200,11 +92205,6 @@
         "at": "2026-11-02T13:00:00Z",
         "link": "https://joycemeyerfa.libsyn.com/l0wprelb4q3e",
         "title": "رشد روحانی، ثمره روح، صبر و استقامت"
-      },
-      {
-        "at": "2026-10-26T13:00:00Z",
-        "link": "https://joycemeyerfa.libsyn.com/pifpq5ccbim4",
-        "title": "بخشش - قسمت سوم"
       }
     ],
     "recent_30d": [
@@ -92219,7 +92219,7 @@
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   }
