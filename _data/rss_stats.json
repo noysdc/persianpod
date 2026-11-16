@@ -30756,21 +30756,27 @@
     "status": "stopped"
   },
   "jmlat-takidi-rozanh": {
-    "avg_gap_days": 6.3,
-    "avg_length": 22,
-    "episodes": 44,
-    "eps_365": 44,
-    "eps_90": 28,
+    "avg_gap_days": 6.2,
+    "avg_length": 23,
+    "episodes": 45,
+    "eps_365": 45,
+    "eps_90": 29,
     "first_at": "2026-02-17",
     "first_year": 1404,
-    "last": "1405/08/24",
-    "last_at": "2026-11-15T05:30:00Z",
-    "last_link": "https://shows.acast.com/jomalatetakidi/episodes/6ae0817c8cf5c6557c228e28",
-    "last_title": ": امروز روز معجزه است | شروع روز با انرژی مثبت",
-    "max_length": 30,
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T10:17:02Z",
+    "last_link": "https://shows.acast.com/jomalatetakidi/episodes/6aa66138c939da27952aa393",
+    "last_title": "جملات تأکیدی برای تغییر حال و تقویت ذهن 💫 | انرژی مثبت، شادی و اعتمادبه‌نفس",
+    "max_length": 32,
     "median_length": 23,
     "min_length": 11,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/694bd1dc30165a956d0caddf/e/6aa66138c939da27952aa393/media.mp3",
+        "at": "2026-11-16T10:17:02Z",
+        "i": "https://assets.pippa.io/shows/694bd1dc30165a956d0caddf/1789288719473-b6cca5a9-e3ff-4344-b4df-4384eeb5e05a.jpeg",
+        "t": "جملات تأکیدی برای تغییر حال و تقویت ذهن 💫 | انرژی مثبت، شادی و اعتمادبه‌نفس"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/694bd1dc30165a956d0caddf/e/6ae0817c8cf5c6557c228e28/media.mp3",
         "at": "2026-11-15T05:30:00Z",
@@ -30812,15 +30818,15 @@
         "at": "2026-10-20T02:30:00Z",
         "i": "https://assets.pippa.io/shows/694bd1dc30165a956d0caddf/1789289023148-c648eeeb-240b-4b87-94bc-87708fe876de.jpeg",
         "t": "جملات تاکیدی شکرگزاری و جذب برکت 🌿✨ | سپاسگزاری برای فراوانی، آرامش و نعمت‌های زندگی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/694bd1dc30165a956d0caddf/e/6ab2b5adf161207303095e2f/media.mp3",
-        "at": "2026-10-16T01:30:00Z",
-        "i": "https://assets.pippa.io/shows/694bd1dc30165a956d0caddf/1790096256762-bb61aa82-8f89-4cfd-b9a8-60193b8e635a.jpeg",
-        "t": "جملات تأکیدی قدرتمند برای اتصال به جریان فراوانی و آرامش مطلق"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T10:17:02Z",
+        "i": "https://assets.pippa.io/shows/694bd1dc30165a956d0caddf/1789288719473-b6cca5a9-e3ff-4344-b4df-4384eeb5e05a.jpeg",
+        "link": "https://shows.acast.com/jomalatetakidi/episodes/6aa66138c939da27952aa393",
+        "title": "جملات تأکیدی برای تغییر حال و تقویت ذهن 💫 | انرژی مثبت، شادی و اعتمادبه‌نفس"
+      },
       {
         "at": "2026-11-15T05:30:00Z",
         "i": "https://assets.pippa.io/shows/694bd1dc30165a956d0caddf/1793097854841-37d09885-1d09-4e24-ba90-5fdbd986f543.jpeg",
@@ -30832,12 +30838,6 @@
         "i": "https://assets.pippa.io/shows/694bd1dc30165a956d0caddf/1792428805364-b20c543f-f7dc-45f7-a5de-6de0077c511b.jpeg",
         "link": "https://shows.acast.com/jomalatetakidi/episodes/6ad5e758b3fd74c05a6451b0",
         "title": "🌞 قبل از اینکه روزت را شروع کنی، چند دقیقه به خودت هدیه بده!"
-      },
-      {
-        "at": "2026-11-05T01:30:00Z",
-        "i": "https://assets.pippa.io/shows/694bd1dc30165a956d0caddf/1792394133639-d00187c8-8651-4748-9591-ba6dc195800e.jpeg",
-        "link": "https://shows.acast.com/jomalatetakidi/episodes/6ad5c3ad336b44639e2bb3d9",
-        "title": "جملات تاکیدی صبحگاهی برای شروعی تازه"
       }
     ],
     "recent_30d": [
@@ -30852,7 +30852,7 @@
       4,
       13,
       8,
-      7
+      8
     ],
     "status": "active"
   },
@@ -45153,7 +45153,7 @@
     "avg_gap_days": 2.8,
     "avg_length": 28,
     "episodes": 160,
-    "eps_365": 132,
+    "eps_365": 131,
     "eps_90": 51,
     "first_at": "2025-08-07",
     "first_year": 1404,
@@ -62343,21 +62343,27 @@
     "status": "active"
   },
   "podcast-ktab-jibi": {
-    "avg_gap_days": 16.5,
-    "avg_length": 62,
-    "episodes": 142,
-    "eps_365": 22,
-    "eps_90": 5,
+    "avg_gap_days": 16.4,
+    "avg_length": 64,
+    "episodes": 143,
+    "eps_365": 23,
+    "eps_90": 6,
     "first_at": "2020-11-13",
     "first_year": 1399,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T15:31:32Z",
-    "last_link": "https://shows.acast.com/ketabjibi/episodes/142",
-    "last_title": "اپیزود ۱۴۲: خلاصه کتاب ۱۰۰+۱۰ راه برای انگیزه دادن به خود (قسمت دوم)",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T10:18:00Z",
+    "last_link": "https://shows.acast.com/ketabjibi/episodes/143",
+    "last_title": "اپیزود ۱۴۳: خلاصه کتاب ۱۰۰+۱۰ راه برای انگیزه دادن به خود (قسمت سوم)",
     "max_length": 120,
     "median_length": 44,
     "min_length": 15,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/660c391837d90000161ffc26/e/6afad85a21921e26024c0247/media.mp3",
+        "at": "2026-11-16T10:18:00Z",
+        "i": "https://assets.pippa.io/shows/660c391837d90000161ffc26/1794821292091-284ba646-4ed7-4117-b525-25ef3908e55a.jpeg",
+        "t": "اپیزود ۱۴۳: خلاصه کتاب ۱۰۰+۱۰ راه برای انگیزه دادن به خود (قسمت سوم)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/660c391837d90000161ffc26/e/6ae9fe56dc2860cef4af5dbd/media.mp3",
         "at": "2026-11-03T15:31:32Z",
@@ -62399,15 +62405,15 @@
         "at": "2026-07-31T11:55:30Z",
         "i": "https://assets.pippa.io/shows/660c391837d90000161ffc26/1785417621451-941a5d4b-d36d-462a-bdbb-1fd1658deb1b.jpeg",
         "t": "اپیزود ۱۳۶: خلاصه کتاب مایکل فلپس (قسمت اول)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/660c391837d90000161ffc26/e/6a5a25624d4b991ebe0433fe/media.mp3",
-        "at": "2026-07-17T12:51:46Z",
-        "i": "https://assets.pippa.io/shows/660c391837d90000161ffc26/1784291862926-2e806dee-b61b-4f3d-bd67-7b85e6a58dbb.jpeg",
-        "t": "اپیزود ۱۳۵: خلاصه کتاب روانشناسی رانندگی (قسمت دوم)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T10:18:00Z",
+        "i": "https://assets.pippa.io/shows/660c391837d90000161ffc26/1794821292091-284ba646-4ed7-4117-b525-25ef3908e55a.jpeg",
+        "link": "https://shows.acast.com/ketabjibi/episodes/143",
+        "title": "اپیزود ۱۴۳: خلاصه کتاب ۱۰۰+۱۰ راه برای انگیزه دادن به خود (قسمت سوم)"
+      },
       {
         "at": "2026-11-03T15:31:32Z",
         "i": "https://assets.pippa.io/shows/660c391837d90000161ffc26/1793715011197-33dbc682-ce03-494e-8086-1dde128e6b57.jpeg",
@@ -62419,12 +62425,6 @@
         "i": "https://assets.pippa.io/shows/660c391837d90000161ffc26/1792317318480-b2efe38a-309a-41f0-a4f3-ecdc8795168b.jpeg",
         "link": "https://shows.acast.com/ketabjibi/episodes/141",
         "title": "اپیزود ۱۴۱: خلاصه کتاب ۱۰۰+۱۰ راه برای انگیزه دادن به خود (قسمت اول)"
-      },
-      {
-        "at": "2026-09-20T17:07:09Z",
-        "i": "https://assets.pippa.io/shows/660c391837d90000161ffc26/1789923320557-391a2af6-7772-461d-8477-94a3691c3a76.jpeg",
-        "link": "https://shows.acast.com/ketabjibi/episodes/140",
-        "title": "اپیزود ۱۴۰: خلاصه کتاب بیژن"
       }
     ],
     "recent_30d": [
@@ -62439,7 +62439,7 @@
       2,
       2,
       1,
-      2
+      3
     ],
     "status": "active"
   },
@@ -72684,7 +72684,7 @@
     "avg_length": 46,
     "episodes": 255,
     "eps_365": 73,
-    "eps_90": 17,
+    "eps_90": 16,
     "first_at": "2023-08-10",
     "first_year": 1402,
     "last": "1405/08/24",
@@ -72765,7 +72765,7 @@
       }
     ],
     "recent_30d": [
-      8,
+      7,
       5,
       14,
       2,
@@ -72773,8 +72773,8 @@
       0,
       13,
       10,
-      2,
       3,
+      2,
       6,
       8
     ],
