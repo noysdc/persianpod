@@ -44353,8 +44353,8 @@
     ],
     "recent_30d": [
       23,
-      24,
-      30,
+      25,
+      29,
       29,
       27,
       28,
@@ -71013,21 +71013,27 @@
     "status": "active"
   },
   "radio-flsfh-radiofalsafe": {
-    "avg_gap_days": 15.1,
+    "avg_gap_days": 15.0,
     "avg_length": 54,
-    "episodes": 66,
-    "eps_365": 24,
-    "eps_90": 8,
+    "episodes": 67,
+    "eps_365": 25,
+    "eps_90": 9,
     "first_at": "2024-12-11",
     "first_year": 1403,
-    "last": "1405/08/12",
-    "last_at": "2026-11-03T17:31:55Z",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T01:28:35Z",
     "last_link": "https://podcasters.spotify.com/pod/show/-31570",
-    "last_title": "درباره‌ی فلسفه_ قسمت چهل‌ودوم | شوپنهاور؛ از تولد تا شکل‌گیری یک اندیشه",
+    "last_title": "درباره‌ی فلسفه_ قسمت چهل‌وسوم | از پیش‌نیازهای فلسفهٔ شوپنهاور تا نقد فیشته و شلینگ",
     "max_length": 73,
-    "median_length": 45,
+    "median_length": 46,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://audio4.redcircle.com/episodes/4b7dc5e4-4285-4fb0-9a34-ec7bd5f4340d/stream.mp3",
+        "at": "2026-11-16T01:28:35Z",
+        "i": "https://media.redcircle.com/images/2026/11/16/1/99137f7a-3529-493d-826c-71927d9d25ea_file_0000000007c48246991efbca2ba2d04d.jpg",
+        "t": "درباره‌ی فلسفه_ قسمت چهل‌وسوم | از پیش‌نیازهای فلسفهٔ شوپنهاور تا نقد فیشته و شلینگ"
+      },
       {
         "a": "https://audio4.redcircle.com/episodes/e7584c82-293c-4412-8946-a6561e9876f3/stream.mp3",
         "at": "2026-11-03T17:31:55Z",
@@ -71069,15 +71075,15 @@
         "at": "2026-09-06T03:27:13Z",
         "i": "https://media.redcircle.com/images/2026/9/6/3/8d294397-662e-43b3-93e0-636d3aed6f4d_file_00000000dca482468aebb7ef2a4b546c.jpg",
         "t": "درباره‌ی فلسفه_قسمت سی و هفتم | علم منطق، آموزه‌ی ذات؛ وقتی وجود به حقیقتِ خود بازمی‌گردد"
-      },
-      {
-        "a": "https://audio4.redcircle.com/episodes/5165db8d-81b4-4048-afbc-0410b45b51f4/stream.mp3",
-        "at": "2026-08-25T01:06:57Z",
-        "i": "https://media.redcircle.com/images/2026/8/25/1/e5ed8d95-0873-43e1-a7f6-de362bc00e51_file_00000000dca482468aebb7ef2a4b546c.jpg",
-        "t": "درباره‌ی فلسفه_قسمت سی‌وششم | هگل و علم منطق؛ از وجود تا نامتناهی حقیقی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T01:28:35Z",
+        "i": "https://media.redcircle.com/images/2026/11/16/1/99137f7a-3529-493d-826c-71927d9d25ea_file_0000000007c48246991efbca2ba2d04d.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/-31570",
+        "title": "درباره‌ی فلسفه_ قسمت چهل‌وسوم | از پیش‌نیازهای فلسفهٔ شوپنهاور تا نقد فیشته و شلینگ"
+      },
       {
         "at": "2026-11-03T17:31:55Z",
         "i": "https://media.redcircle.com/images/2026/11/3/17/4430c8ed-42b4-4e46-aa35-fabe33bb0e7e_inshot_20261103_205454463.jpg",
@@ -71089,12 +71095,6 @@
         "i": "https://media.redcircle.com/images/2026/10/25/2/4db19dec-4959-4ddd-a71b-1684741b3ee0_file_00000000b5e88206bdbcc1b9f6bc254a.jpg",
         "link": "https://podcasters.spotify.com/pod/show/-31570",
         "title": "اطلاعیه | معرفی پادکست جدید و آغاز فصلی تازه در مسیر اندیشه و ادبیات"
-      },
-      {
-        "at": "2026-10-22T17:11:01Z",
-        "i": "https://media.redcircle.com/images/2026/10/22/17/743b7f7e-9e9b-4d44-b65b-f8145fdae714_file_0000000050348243885a3626c740e9c3.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/-31570",
-        "title": "درباره‌ی فلسفه _ قسمت چهل و یکم | در جست‌وجوی خدا؛ واپسین ایستگاه فلسفهٔ هگل"
       }
     ],
     "recent_30d": [
@@ -71109,7 +71109,7 @@
       2,
       3,
       2,
-      3
+      4
     ],
     "status": "active"
   },
@@ -71699,19 +71699,25 @@
   "radio-hkait": {
     "avg_gap_days": 4.0,
     "avg_length": 35,
-    "episodes": 210,
-    "eps_365": 91,
-    "eps_90": 40,
+    "episodes": 211,
+    "eps_365": 92,
+    "eps_90": 41,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/08/24",
-    "last_at": "2026-11-15T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/22629747-20dd-4557-9a8d-ef76218d2a21/play.mp3?v=1",
-    "last_title": "آنیوتا - آنتوان چخوف",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/8f4010a5-edba-44bf-8af3-505de99b4ea4/play.mp3?v=1",
+    "last_title": "شب بلند - منیرو روانی پور",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/8f4010a5-edba-44bf-8af3-505de99b4ea4/play.mp3?v=1",
+        "at": "2026-11-16T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/8f4010a5-edba-44bf-8af3-505de99b4ea4/artwork.jpg?v=1",
+        "t": "شب بلند - منیرو روانی پور"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/22629747-20dd-4557-9a8d-ef76218d2a21/play.mp3?v=1",
         "at": "2026-11-15T01:30:00Z",
@@ -71753,15 +71759,15 @@
         "at": "2026-11-09T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ecb7ec77-49c2-4a15-93af-5a333b4d2ba8/artwork.jpg?v=1",
         "t": "پیرو - گی دو موپوسان"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/20eb8c97-7261-46d1-b4e4-e404605a8767/play.mp3?v=1",
-        "at": "2026-11-08T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/20eb8c97-7261-46d1-b4e4-e404605a8767/artwork.jpg?v=1",
-        "t": "باردار - آنا گاوالدا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/8f4010a5-edba-44bf-8af3-505de99b4ea4/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/8f4010a5-edba-44bf-8af3-505de99b4ea4/play.mp3?v=1",
+        "title": "شب بلند - منیرو روانی پور"
+      },
       {
         "at": "2026-11-15T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/22629747-20dd-4557-9a8d-ef76218d2a21/artwork.jpg?v=1",
@@ -71773,12 +71779,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/dae8dfce-61f6-495d-a7e0-a6f9a2c61ad7/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/dae8dfce-61f6-495d-a7e0-a6f9a2c61ad7/play.mp3?v=1",
         "title": "تقصیر خودته - عزیز نسین"
-      },
-      {
-        "at": "2026-11-13T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/c704b6b3-428e-4942-b075-56aa52a412e3/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/c704b6b3-428e-4942-b075-56aa52a412e3/play.mp3?v=1",
-        "title": "خانه ای در آسمان - گلی ترقی"
       }
     ],
     "recent_30d": [
@@ -71793,7 +71793,7 @@
       9,
       8,
       9,
-      23
+      24
     ],
     "status": "active"
   },
