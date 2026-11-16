@@ -22187,27 +22187,21 @@
     "status": "stopped"
   },
   "gah-kst": {
-    "avg_gap_days": 13.8,
+    "avg_gap_days": 13.5,
     "avg_length": 29,
-    "episodes": 34,
-    "eps_365": 6,
-    "eps_90": 6,
+    "episodes": 33,
+    "eps_365": 5,
+    "eps_90": 5,
     "first_at": "2024-11-04",
     "first_year": 1403,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T04:04:20Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3sf36e",
-    "last_title": "در",
+    "last": "1405/08/10",
+    "last_at": "2026-11-01T22:37:23Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3riheq",
+    "last_title": "تخصص",
     "max_length": 57,
     "median_length": 24,
     "min_length": 14,
     "play": [
-      {
-        "a": "https://anchor.fm/s/fd24950c/podcast/play/129518222/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F32faeec3-e58a-79f1-2f6c-84dc8b532c2a.mp3",
-        "at": "2026-11-16T04:04:20Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1794801845489-7906d9a09d494.jpg",
-        "t": "در"
-      },
       {
         "a": "https://anchor.fm/s/fd24950c/podcast/play/128582554/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F0ecbd545-a8cd-b299-6d20-2752db7dad0b.mp3",
         "at": "2026-11-01T22:37:23Z",
@@ -22249,15 +22243,15 @@
         "at": "2025-10-20T02:11:01Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1760925674738-2d576f37bd45b.jpg",
         "t": "نامجو"
+      },
+      {
+        "a": "https://anchor.fm/s/fd24950c/podcast/play/109249925/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-5%2F8b10d54b-cbf1-da4a-5dbb-317dbd32855f.mp3",
+        "at": "2025-10-05T20:51:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1759696725452-d0a2fd67bc246.jpg",
+        "t": "درخشش ابدی یک ذهن بی‌عیب"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-16T04:04:20Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1794801845489-7906d9a09d494.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3sf36e",
-        "title": "در"
-      },
       {
         "at": "2026-11-01T22:37:23Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1793572585076-d838177b45fa9.jpg",
@@ -22269,6 +22263,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1791834678850-21f6d2ae5a454.jpg",
         "link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3qd6l5",
         "title": "بمب ساعتی"
+      },
+      {
+        "at": "2026-09-27T23:36:18Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42370331/42370331-1790551004526-078b389d6cef7.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/bardia-doosti/episodes/ep-e3pfkv1",
+        "title": "داستان‌های موازی"
       }
     ],
     "recent_30d": [
@@ -22283,7 +22283,7 @@
       0,
       2,
       2,
-      2
+      1
     ],
     "status": "active"
   },
@@ -62052,21 +62052,26 @@
     "status": "active"
   },
   "podcast-khoab-kodkanh": {
-    "avg_gap_days": 9.7,
+    "avg_gap_days": 9.6,
     "avg_length": 9,
-    "episodes": 169,
-    "eps_365": 37,
-    "eps_90": 9,
+    "episodes": 170,
+    "eps_365": 38,
+    "eps_90": 10,
     "first_at": "2022-02-16",
     "first_year": 1400,
-    "last": "1405/08/17",
-    "last_at": "2026-11-08T22:37:17Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3s1e9c",
-    "last_title": "چه کسی برف ها رو دزدیده",
+    "last": "1405/08/24",
+    "last_at": "2026-11-15T22:28:55Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3sem6o",
+    "last_title": "پپا و ماجرا جویی در روز پاییزی",
     "max_length": 34,
-    "median_length": 11,
+    "median_length": 10,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/51d21800/podcast/play/129504920/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F436815975-44100-2-bfa7d4c79aa3c.m4a",
+        "at": "2026-11-15T22:28:55Z",
+        "t": "پپا و ماجرا جویی در روز پاییزی"
+      },
       {
         "a": "https://anchor.fm/s/51d21800/podcast/play/129070828/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2F436245201-44100-2-3dd87985575f.m4a",
         "at": "2026-11-08T22:37:17Z",
@@ -62101,14 +62106,14 @@
         "a": "https://anchor.fm/s/51d21800/podcast/play/126051612/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-20%2F432317989-44100-2-94e41ccc04688.m4a",
         "at": "2026-09-20T21:43:59Z",
         "t": "پپا عینک می زند"
-      },
-      {
-        "a": "https://anchor.fm/s/51d21800/podcast/play/125686595/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-13%2F431823204-44100-2-1389ba55a615d.m4a",
-        "at": "2026-09-13T21:24:47Z",
-        "t": "فرانکلین و معلم جدید"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-15T22:28:55Z",
+        "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3sem6o",
+        "title": "پپا و ماجرا جویی در روز پاییزی"
+      },
       {
         "at": "2026-11-08T22:37:17Z",
         "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3s1e9c",
@@ -62118,11 +62123,6 @@
         "at": "2026-11-01T22:42:31Z",
         "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3rihm9",
         "title": "پپا فوتبال بازی می کند"
-      },
-      {
-        "at": "2026-10-18T22:25:38Z",
-        "link": "https://podcasters.spotify.com/pod/show/jila-hashemian/episodes/ep-e3qn9ld",
-        "title": "پپا و مهمانی پر ماجرا"
       }
     ],
     "recent_30d": [
@@ -62137,7 +62137,7 @@
       4,
       2,
       4,
-      3
+      4
     ],
     "status": "active"
   },
