@@ -36674,8 +36674,8 @@
       0,
       0,
       27,
-      63,
-      61,
+      64,
+      60,
       58,
       62,
       64
@@ -54909,20 +54909,26 @@
   },
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.9,
-    "avg_length": 19,
-    "episodes": 42,
-    "eps_365": 42,
-    "eps_90": 42,
+    "avg_length": 18,
+    "episodes": 43,
+    "eps_365": 43,
+    "eps_90": 43,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/24",
-    "last_at": "2026-11-15T17:08:23Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6af9e70765520960bac6153f",
-    "last_title": "Disney #4 | میکی‌ ماوس چه تفاوتی با بقیه کارتون‌ها داشت که موفق شد؟",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T18:15:18Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6afb48378b6a3d4d2e8a7e8d",
+    "last_title": "Disney #5 | دیزنی چطوری از شخصیت‌های خودش خارج از سینما هم پول درمیاره؟",
     "max_length": 115,
     "median_length": 21,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6afb48378b6a3d4d2e8a7e8d/media.mp3",
+        "at": "2026-11-16T18:15:18Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794852829761-d05a0e2a-7d6f-41d0-b64f-6d4bfe0a62c7.jpeg",
+        "t": "Disney #5 | دیزنی چطوری از شخصیت‌های خودش خارج از سینما هم پول درمیاره؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af9e70765520960bac6153f/media.mp3",
         "at": "2026-11-15T17:08:23Z",
@@ -54964,15 +54970,15 @@
         "at": "2026-11-04T05:30:00Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793747277351-59f01f24-37ad-43ff-9603-89fa86788f88.jpeg",
         "t": "NETFLIX #10 | نت‌فلیکس از کجا سلیقه سینمایی آدم‌ها رو تشخیص میده؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6ae9c584d6cfd0e90885b580/media.mp3",
-        "at": "2026-11-03T11:29:07Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793705204610-6f01c690-513a-46a2-a2d7-6dc0258e9d3e.jpeg",
-        "t": "NETFLIX #9 | چرا نت‌فلیکس همه قسمت‌های فصل سریال رو یک‌جا منتشر می‌کنه؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T18:15:18Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794852829761-d05a0e2a-7d6f-41d0-b64f-6d4bfe0a62c7.jpeg",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6afb48378b6a3d4d2e8a7e8d",
+        "title": "Disney #5 | دیزنی چطوری از شخصیت‌های خودش خارج از سینما هم پول درمیاره؟"
+      },
       {
         "at": "2026-11-15T17:08:23Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794762388768-3bd1357c-e5d7-4aaf-865f-e5126b7ae947.jpeg",
@@ -54984,12 +54990,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794675200899-1ecd0c73-c511-41cc-bd4b-6e503dbd69d5.jpeg",
         "link": "https://shows.acast.com/business-stories-podcast/episodes/6af89279cc8db260abc6d251",
         "title": "Disney #3 | دیزنی چطور حقوق اولین کاراکتر خودش رو از دست داد؟"
-      },
-      {
-        "at": "2026-11-12T18:48:03Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794509191116-4d20860c-074f-46ba-9b6d-d4caf11f5382.jpeg",
-        "link": "https://furbodm.com/",
-        "title": "Disney #2 | اولین انیمیشن دیزنی که به سالن‌های سینما رفت چی بود؟"
       }
     ],
     "recent_30d": [
@@ -55004,7 +55004,7 @@
       0,
       0,
       1,
-      41
+      42
     ],
     "status": "active"
   },
@@ -72581,7 +72581,7 @@
   },
   "radio-mili": {
     "avg_length": 9,
-    "episodes": 57,
+    "episodes": 59,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2019-06-16",
