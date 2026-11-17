@@ -1,4 +1,6 @@
 ---
+title: "نارون"
+title_en: "NOYS"
 rss: "https://api.rabt.host/podcasts/8e4ada4a-2bc5-41a7-89c5-faf41af96b9f/rss"
 name_fa: "نارون"
 name_en: "Narvan"
