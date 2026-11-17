@@ -56858,20 +56858,26 @@
   },
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.9,
-    "avg_length": 18,
-    "episodes": 43,
-    "eps_365": 43,
-    "eps_90": 43,
+    "avg_length": 17,
+    "episodes": 44,
+    "eps_365": 44,
+    "eps_90": 44,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T18:15:18Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6afb48378b6a3d4d2e8a7e8d",
-    "last_title": "Disney #5 | دیزنی چطوری از شخصیت‌های خودش خارج از سینما هم پول درمیاره؟",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T19:09:50Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6afca67ebc3a8347410c3306",
+    "last_title": "Disney #6 | ماجرای ساخت انیمیشن سفید برفی و حماقت دیزنی چی بود؟",
     "max_length": 115,
     "median_length": 21,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6afca67ebc3a8347410c3306/media.mp3",
+        "at": "2026-11-17T19:09:50Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794942443329-7865bd2b-73e1-4724-9d11-e55370ea4ea2.jpeg",
+        "t": "Disney #6 | ماجرای ساخت انیمیشن سفید برفی و حماقت دیزنی چی بود؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6afb48378b6a3d4d2e8a7e8d/media.mp3",
         "at": "2026-11-16T18:15:18Z",
@@ -56913,15 +56919,15 @@
         "at": "2026-11-05T14:22:24Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793888166348-91e60087-cf5f-4513-ab5d-de5265aaf04a.jpeg",
         "t": "NETFLIX | داستان کامل نت‌فلیکس؛ از پاکت قرمز تا فرش قرمز"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6aea6a93e6f94e041974cefe/media.mp3",
-        "at": "2026-11-04T05:30:00Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1793747277351-59f01f24-37ad-43ff-9603-89fa86788f88.jpeg",
-        "t": "NETFLIX #10 | نت‌فلیکس از کجا سلیقه سینمایی آدم‌ها رو تشخیص میده؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T19:09:50Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794942443329-7865bd2b-73e1-4724-9d11-e55370ea4ea2.jpeg",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6afca67ebc3a8347410c3306",
+        "title": "Disney #6 | ماجرای ساخت انیمیشن سفید برفی و حماقت دیزنی چی بود؟"
+      },
       {
         "at": "2026-11-16T18:15:18Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794852829761-d05a0e2a-7d6f-41d0-b64f-6d4bfe0a62c7.jpeg",
@@ -56933,12 +56939,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794762388768-3bd1357c-e5d7-4aaf-865f-e5126b7ae947.jpeg",
         "link": "https://shows.acast.com/business-stories-podcast/episodes/6af9e70765520960bac6153f",
         "title": "Disney #4 | میکی‌ ماوس چه تفاوتی با بقیه کارتون‌ها داشت که موفق شد؟"
-      },
-      {
-        "at": "2026-11-14T16:55:21Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794675200899-1ecd0c73-c511-41cc-bd4b-6e503dbd69d5.jpeg",
-        "link": "https://shows.acast.com/business-stories-podcast/episodes/6af89279cc8db260abc6d251",
-        "title": "Disney #3 | دیزنی چطور حقوق اولین کاراکتر خودش رو از دست داد؟"
       }
     ],
     "recent_30d": [
@@ -56953,7 +56953,7 @@
       0,
       0,
       1,
-      42
+      43
     ],
     "status": "active"
   },
@@ -91757,7 +91757,7 @@
       }
     ],
     "recent_30d": [
-      32,
+      31,
       10,
       38,
       7,
