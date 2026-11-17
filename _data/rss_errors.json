@@ -191,9 +191,9 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
-  "sfrnamh-hai-soti-lst-sknd": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://rss.castbox.fm/everest/5e688cc290dd4c7f95f991d6b477c10a.xml"
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
