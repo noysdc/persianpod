@@ -71243,19 +71243,25 @@
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.1,
     "avg_length": 139,
-    "episodes": 136,
-    "eps_365": 136,
-    "eps_90": 136,
+    "episodes": 137,
+    "eps_365": 137,
+    "eps_90": 137,
     "first_at": "2026-11-01",
     "first_year": 1405,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T23:03:08Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Sanjabi--Karim-Part-8-e3sd08f",
-    "last_title": "Sanjabi, Karim Part 8",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T00:06:28Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Firouz-Nemazee--Safiyeh-e3sh32k",
+    "last_title": "Firouz (Nemazee), Safiyeh",
     "max_length": 249,
     "median_length": 117,
     "min_length": 20,
     "play": [
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129583636/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F9e966684-7213-fe1d-6dd5-eea3b8ea5bdd.mp3",
+        "at": "2026-11-17T00:06:28Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794873929199-bbb33b3ea5e3b.jpg",
+        "t": "Firouz (Nemazee), Safiyeh"
+      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/129449679/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2Fea966a87-e32b-a0bb-6a34-6e1f82dc47da.mp3",
         "at": "2026-11-14T23:03:08Z",
@@ -71297,15 +71303,15 @@
         "at": "2026-11-14T22:47:20Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794696332760-7c1dcd39570ba.jpg",
         "t": "Sanjabi, Karim Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129448917/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F7d185a02-a766-716c-eaf9-1824174dc469.mp3",
-        "at": "2026-11-14T22:39:54Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794695861284-8535d02f0a2d5.jpg",
-        "t": "Sanjabi, Karim Part 1"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T00:06:28Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794873929199-bbb33b3ea5e3b.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Firouz-Nemazee--Safiyeh-e3sh32k",
+        "title": "Firouz (Nemazee), Safiyeh"
+      },
       {
         "at": "2026-11-14T23:03:08Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794697305498-fbf66d7d0904e.jpg",
@@ -71317,12 +71323,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794697154384-6dc826362e77c.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Sanjabi--Karim-Part-7-e3sd05u",
         "title": "Sanjabi, Karim Part 7"
-      },
-      {
-        "at": "2026-11-14T22:58:16Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1794696965573-2c785fd37d5d2.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Sanjabi--Karim-Part-6-e3sd02u",
-        "title": "Sanjabi, Karim Part 6"
       }
     ],
     "recent_30d": [
@@ -71337,7 +71337,7 @@
       0,
       0,
       0,
-      136
+      137
     ],
     "status": "active"
   },
