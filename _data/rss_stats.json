@@ -44269,19 +44269,25 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 1000,
-    "eps_365": 327,
-    "eps_90": 81,
+    "episodes": 1001,
+    "eps_365": 328,
+    "eps_90": 82,
     "first_at": "2023-11-21",
     "first_year": 1402,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T02:41:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/historic-apec-summit-meeting-trump-xi-and-putin-to-hold-landmark-talks/eww5tgfqf",
-    "last_title": "دیدار تاریخی ترامپ، شی و پوتین در اپک؛ از نگرانی‌های اقلیمی تا حمله سایبری به کولز",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T01:13:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/english-backpacker-visa-shake-up-to-push-more-workers-into-regional-australia/vt3gawsut",
+    "last_title": "تغییر در ویزاهای کوله‌گردی؛ کارگران بیشتری به مناطق روستایی استرالیا می‌روند",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261117121317_486594-persian-171126-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-e704-dea3-adeb-efaf6b990000&dur_cat=2",
+        "at": "2026-11-17T01:13:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261117121319_965726-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "t": "تغییر در ویزاهای کوله‌گردی؛ کارگران بیشتری به مناطق روستایی استرالیا می‌روند"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261116134140_606669-persian-161126-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-e22c-de51-affb-ff7c8a920000&dur_cat=2",
         "at": "2026-11-16T02:41:00Z",
@@ -44323,15 +44329,15 @@
         "at": "2026-11-10T02:33:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261110133405_624357-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "t": "دولت کارگر زیر فشار پنجمین افزایش پیاپی نرخ بهره: برای مهار تورم اقدام می کنیم"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261106170907_374742-persian-f52c6883-a7dc-4128-b266-bd6d4b36bd03.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-af72-d6d8-a5ff-af7339890000&dur_cat=3",
-        "at": "2026-11-06T06:08:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261106171111_430055-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "t": "استرالیا از واشنگتن خواست به جنگ با ایران پایان دهد"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T01:13:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261117121319_965726-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/english-backpacker-visa-shake-up-to-push-more-workers-into-regional-australia/vt3gawsut",
+        "title": "تغییر در ویزاهای کوله‌گردی؛ کارگران بیشتری به مناطق روستایی استرالیا می‌روند"
+      },
       {
         "at": "2026-11-16T02:41:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261116134214_507350-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
@@ -44343,12 +44349,6 @@
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261113124159_506339-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/australian-security-agencies-impacted-by-massive-global-microsoft-outage/g85ysck2q",
         "title": "اختلال گسترده جهانی مایکروسافت؛ نهادهای امنیتی استرالیا هم تحت تاثیر قرار گرفتند"
-      },
-      {
-        "at": "2026-11-13T01:00:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261113120058_741939-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/nvidia-ceo-jensen-huang-resigns-over-relationship-with-executive-suspected-of-spying-for-china/slm4c2tws",
-        "title": "جنسن هوانگ، مدیرعامل انویدیا، در پی افشای رابطه با یک مدیر مظنون به جاسوسی برای چین استعفا داد"
       }
     ],
     "recent_30d": [
@@ -44363,7 +44363,7 @@
       30,
       26,
       28,
-      27
+      28
     ],
     "status": "active"
   },
