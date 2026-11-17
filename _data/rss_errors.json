@@ -59,6 +59,10 @@
     "error": "RuntimeError: HTTP 410 (Gone) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/dopaminecast/feed.xml"
   },
+  "farks-ba-aitska": {
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feed.podbean.com/itscabrokers/feed.xml"
+  },
   "film-aamozshi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://drdna.ir/category/%D9%81%DB%8C%D9%84%D9%85-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/feed/"
@@ -74,6 +78,10 @@
   "galri-film": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
+  },
+  "ghsh-hai-kotah-az-hirbd-hiomn": {
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://media.rss.com/hirbod/feed.xml"
   },
   "hnr-jng": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
@@ -94,6 +102,14 @@
   "kodkan-mana": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
+  },
+  "ktab-bazi-orast": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feeds.acast.com/public/shows/67fa3495d67315f9f43af138"
+  },
+  "ktab-soti-7954218": {
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://www.spreaker.com/show/7177177/episodes/feed"
   },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
