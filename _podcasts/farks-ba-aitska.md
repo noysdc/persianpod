@@ -17,8 +17,8 @@ pi_id: 6956539
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # فارکس با ایتسکا
