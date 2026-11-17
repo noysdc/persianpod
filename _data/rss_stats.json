@@ -4701,21 +4701,26 @@
     "status": "active"
   },
   "airan-braamdn-rzakhan-braftadn-ghajar-o-nghsh-anglis-ha": {
-    "avg_gap_days": 9.7,
+    "avg_gap_days": 9.5,
     "avg_length": 18,
-    "episodes": 31,
-    "eps_365": 31,
-    "eps_90": 9,
+    "episodes": 32,
+    "eps_365": 32,
+    "eps_90": 10,
     "first_at": "2026-01-24",
     "first_year": 1404,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T14:31:56Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3s5574",
-    "last_title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل هفتم - بخش اول - رضا خان و کودتای سوم اسفند",
-    "max_length": 25,
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T00:54:13Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3sh5a1",
+    "last_title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل هفتم - بخش دوم - رضا خان و کودتای سوم اسفند",
+    "max_length": 27,
     "median_length": 17,
     "min_length": 11,
     "play": [
+      {
+        "a": "https://anchor.fm/s/10e427598/podcast/play/129585921/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F46b64407-9dfe-0ae5-a56c-3b1b15067633.mp3",
+        "at": "2026-11-17T00:54:13Z",
+        "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل هفتم - بخش دوم - رضا خان و کودتای سوم اسفند"
+      },
       {
         "a": "https://anchor.fm/s/10e427598/podcast/play/129192612/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-10%2Ffa48b9c1-f473-f2b2-135c-ed8695a716d3.mp3",
         "at": "2026-11-10T14:31:56Z",
@@ -4750,14 +4755,14 @@
         "a": "https://anchor.fm/s/10e427598/podcast/play/125744105/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-14%2Fc90b68f2-bc96-5aa4-986c-0e18af51ce71.mp3",
         "at": "2026-09-14T23:54:55Z",
         "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش پنجم - نخست وزیری سپهدار"
-      },
-      {
-        "a": "https://anchor.fm/s/10e427598/podcast/play/125013438/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-31%2F943e0256-10c3-1be4-4da1-0e92acdb0c44.mp3",
-        "at": "2026-08-31T23:59:21Z",
-        "t": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل پنجم - بخش سوم - نخست وزیری سپهدار"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T00:54:13Z",
+        "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3sh5a1",
+        "title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل هفتم - بخش دوم - رضا خان و کودتای سوم اسفند"
+      },
       {
         "at": "2026-11-10T14:31:56Z",
         "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3s5574",
@@ -4767,11 +4772,6 @@
         "at": "2026-11-03T01:39:19Z",
         "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/-----------------e3rkm7a",
         "title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل ششم - بخش سوم و آخر - مقدمه کودتا"
-      },
-      {
-        "at": "2026-10-20T00:10:32Z",
-        "link": "https://podcasters.spotify.com/pod/show/namashoum-ghani-rezashah/episodes/---------------e3qp3s1",
-        "title": "ایران و برآمدن رضا شاه - دکتر سیروس غنی - فصل ششم - بخش دوم - مقدمه کودتا"
       }
     ],
     "recent_30d": [
@@ -4786,7 +4786,7 @@
       4,
       3,
       3,
-      3
+      4
     ],
     "status": "active"
   },
