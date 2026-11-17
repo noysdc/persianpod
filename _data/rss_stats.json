@@ -990,6 +990,105 @@
     ],
     "status": "active"
   },
+  "aalfakst": {
+    "avg_gap_days": 2.5,
+    "avg_length": 14,
+    "episodes": 12,
+    "eps_365": 12,
+    "eps_90": 0,
+    "first_at": "2026-07-08",
+    "first_year": 1405,
+    "last": "1405/05/15",
+    "last_at": "2026-08-06T10:58:03Z",
+    "last_link": "https://shows.acast.com/alphacast/episodes/6a7468bb237988582e41a254",
+    "last_title": "آلفاکست | قسمت ۱۲",
+    "max_length": 44,
+    "median_length": 12,
+    "min_length": 7,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a4e29361c8f5a97d8481f29/e/6a7468bb237988582e41a254/media.mp3",
+        "at": "2026-08-06T10:58:03Z",
+        "t": "آلفاکست | قسمت ۱۲"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a4e29361c8f5a97d8481f29/e/6a67321e3e2f0b6f92d69cdf/media.mp3",
+        "at": "2026-07-27T10:25:34Z",
+        "i": "https://assets.pippa.io/shows/6a4e29361c8f5a97d8481f29/1785147875989-b2f6d8f1-53ba-492c-85cc-e0978b9c6281.jpeg",
+        "t": "آلفاکست | قسمت ۱۱"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a4e29361c8f5a97d8481f29/e/6a5a04644d4b991ebefa08ed/media.mp3",
+        "at": "2026-07-17T10:31:00Z",
+        "i": "https://assets.pippa.io/shows/6a4e29361c8f5a97d8481f29/1784284203037-c907e770-8846-48d9-847e-9a5dcc7ac7d0.jpeg",
+        "t": "آلفاکست | قسمت ۱۰"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a4e29361c8f5a97d8481f29/e/6a59fe2a4d4b991ebef70ea1/media.mp3",
+        "at": "2026-07-17T10:04:26Z",
+        "i": "https://assets.pippa.io/shows/6a4e29361c8f5a97d8481f29/1784282619444-55be8666-a554-4013-b277-382342843e14.jpeg",
+        "t": "آلفاکست | قسمت ۹"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a4e29361c8f5a97d8481f29/e/6a577a04c90e948cc4185a5a/media.mp3",
+        "at": "2026-07-15T12:16:04Z",
+        "i": "https://assets.pippa.io/shows/6a4e29361c8f5a97d8481f29/1784117721711-c09b1a68-7a22-441c-acc2-7e74348fadab.jpeg",
+        "t": "آلفاکست | قسمت ۸"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a4e29361c8f5a97d8481f29/e/6a562192f96471dde487df41/media.mp3",
+        "at": "2026-07-14T11:46:26Z",
+        "i": "https://assets.pippa.io/shows/6a4e29361c8f5a97d8481f29/1784029551991-e54a3656-bb1d-4c13-93a9-e574912fa659.jpeg",
+        "t": "آلفاکست | قسمت ۷"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a4e29361c8f5a97d8481f29/e/6a54c67708f5afd134fe4dde/media.mp3",
+        "at": "2026-07-13T11:05:26Z",
+        "i": "https://assets.pippa.io/shows/6a4e29361c8f5a97d8481f29/1783940675255-b32faec7-85d9-4896-a78b-9f17a1419744.jpeg",
+        "t": "آلفاکست | قسمت ۶"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a4e29361c8f5a97d8481f29/e/6a50e0b3e8973e4a616fa839/media.mp3",
+        "at": "2026-07-10T12:08:19Z",
+        "i": "https://assets.pippa.io/shows/6a4e29361c8f5a97d8481f29/1783685254077-ab7c139b-2e9c-4d08-a7bc-2bda935959f1.jpeg",
+        "t": "آلفاکست | قسمت ۵"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-08-06T10:58:03Z",
+        "link": "https://shows.acast.com/alphacast/episodes/6a7468bb237988582e41a254",
+        "title": "آلفاکست | قسمت ۱۲"
+      },
+      {
+        "at": "2026-07-27T10:25:34Z",
+        "i": "https://assets.pippa.io/shows/6a4e29361c8f5a97d8481f29/1785147875989-b2f6d8f1-53ba-492c-85cc-e0978b9c6281.jpeg",
+        "link": "https://shows.acast.com/alphacast/episodes/6a67321e3e2f0b6f92d69cdf",
+        "title": "آلفاکست | قسمت ۱۱"
+      },
+      {
+        "at": "2026-07-17T10:31:00Z",
+        "i": "https://assets.pippa.io/shows/6a4e29361c8f5a97d8481f29/1784284203037-c907e770-8846-48d9-847e-9a5dcc7ac7d0.jpeg",
+        "link": "https://shows.acast.com/alphacast/episodes/6a5a04644d4b991ebefa08ed",
+        "title": "آلفاکست | قسمت ۱۰"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      2,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "aamozsh-ainstagram": {
     "avg_length": 3,
     "episodes": 19,
@@ -5434,6 +5533,107 @@
     ],
     "status": "stopped"
   },
+  "akohsht": {
+    "avg_gap_days": 6.5,
+    "avg_length": 49,
+    "episodes": 12,
+    "eps_365": 12,
+    "eps_90": 12,
+    "first_at": "2026-09-02",
+    "first_year": 1405,
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T09:08:48Z",
+    "last_link": "https://www.spreaker.com/episode/kht-fqr-ya-kht-mrg-sqwt-tbqh-mtwst-aya-ma-hm-fqyr-shdym--76362485",
+    "last_title": "خط فقر یا خط مرگ؟ |  سقوط طبقه متوسط؛ آیا ما هم فقیر شدیم؟",
+    "max_length": 82,
+    "median_length": 50,
+    "min_length": 26,
+    "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76362485/episode.mp3",
+        "at": "2026-11-14T09:08:48Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/eecda864b4c5d3ae4b40a3ac8fe1442a.jpg",
+        "t": "خط فقر یا خط مرگ؟ |  سقوط طبقه متوسط؛ آیا ما هم فقیر شدیم؟"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75993927/episode.mp3",
+        "at": "2026-10-25T09:23:01Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/f2f25993875e5b5ef25803887cfa756a.jpg",
+        "t": "بازار دلار، طلا و مسکن در سناریوهای جنگ و صلح | اکوهشت با پیام الیاس‌کردی"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75726383/episode.mp3",
+        "at": "2026-10-12T09:57:45Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d4e5b60bea488c07ab87085f45388a68.jpg",
+        "t": "نسخه غیردولتی برای اشتغال | تجربه توانمندسازی اجتماعی  بدون تسهیلات"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75576081/episode.mp3",
+        "at": "2026-10-05T08:05:08Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/5bdb0ae40616459389c12e09ce86bc6b.jpg",
+        "t": "چگونه نظام کارشناسی اقتصادی در خدمت منافع الیگارشی درآمد؟"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75057372/episode.mp3",
+        "at": "2026-09-10T21:05:27Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/66caed7ae32cdd7661e6fcb16b3a57fd.jpg",
+        "t": "زیر و بم بنزین؛ جایگاه‌داران درباره قاچاق، قیمت و کیفیت بنزین چه می‌گویند؟"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74815342/episode.mp3",
+        "at": "2026-09-02T15:58:09Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/7dcb2dd61d14ddda6903468d694afe4c.jpg",
+        "t": "بورس پس از یک سال طلایی؛ ادامه صعود یا شروع اصلاح؟"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74815337/episode.mp3",
+        "at": "2026-09-02T15:58:02Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/28fd2a70dc5f56e394dd0a608c34afd7.jpg",
+        "t": "معادله چند مجهولی بنزین چگونه حل میشود؟"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74815327/episode.mp3",
+        "at": "2026-09-02T15:57:54Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/e556611612d3daf7e678de0a27f804d4.jpg",
+        "t": "تاکسی اینترنتی، ارزان یا گران؟ رانندگان در منگنه کار سخت و اعتراض مسافران | اکوهشت 05"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-11-14T09:08:48Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/eecda864b4c5d3ae4b40a3ac8fe1442a.jpg",
+        "link": "https://www.spreaker.com/episode/kht-fqr-ya-kht-mrg-sqwt-tbqh-mtwst-aya-ma-hm-fqyr-shdym--76362485",
+        "title": "خط فقر یا خط مرگ؟ |  سقوط طبقه متوسط؛ آیا ما هم فقیر شدیم؟"
+      },
+      {
+        "at": "2026-10-25T09:23:01Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/f2f25993875e5b5ef25803887cfa756a.jpg",
+        "link": "https://www.spreaker.com/episode/bazar-dlar-tla-w-mskn-dr-snarywhay-jng-w-slh-akwhsht-ba-pyam-alyas-krdy--75993927",
+        "title": "بازار دلار، طلا و مسکن در سناریوهای جنگ و صلح | اکوهشت با پیام الیاس‌کردی"
+      },
+      {
+        "at": "2026-10-12T09:57:45Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d4e5b60bea488c07ab87085f45388a68.jpg",
+        "link": "https://www.spreaker.com/episode/nskhh-ghyrdwlty-bray-ashtghal-tjrbh-twanmndsazy-ajtma-y-bdwn-tshylat--75726383",
+        "title": "نسخه غیردولتی برای اشتغال | تجربه توانمندسازی اجتماعی  بدون تسهیلات"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      2,
+      2
+    ],
+    "status": "active"
+  },
   "akotopia": {
     "avg_gap_days": 124.0,
     "avg_length": 51,
@@ -6622,6 +6822,102 @@
     ],
     "status": "active"
   },
+  "arash-va-izadan-aarsh-o-aizdan": {
+    "avg_length": 43,
+    "episodes": 16,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2022-04-26",
+    "first_year": 1401,
+    "last": "1404/02/11",
+    "last_at": "2025-05-01T03:14:33Z",
+    "last_link": "https://shows.acast.com/arash-va-izadan/episodes/6812e7196ac0e5213bc0df6e",
+    "last_title": "فصل نهم (قسمت دوم) - ترک اعتیاد",
+    "max_length": 96,
+    "median_length": 36,
+    "min_length": 16,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6267820761c96c001321b959/e/6812e7196ac0e5213bc0df6e/media.mp3",
+        "at": "2025-05-01T03:14:33Z",
+        "i": "https://assets.pippa.io/shows/6267820761c96c001321b959/1746072039603-1c1dfbad-39e6-4a5b-8d4e-4ecfd4479e07.jpeg",
+        "t": "فصل نهم (قسمت دوم) - ترک اعتیاد"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6267820761c96c001321b959/e/67f5e20cfbfca819ff742937/media.mp3",
+        "at": "2025-04-09T02:57:15Z",
+        "i": "https://assets.pippa.io/shows/6267820761c96c001321b959/1744167283267-4fd8912d-4ad3-4de3-9a44-224ea12d0aa7.jpeg",
+        "t": "فصل نهم (قسمت اول) - ترک اعتیاد"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6267820761c96c001321b959/e/66501c1fc085240012f6ceb9/media.mp3",
+        "at": "2024-05-24T04:48:30Z",
+        "i": "https://assets.pippa.io/shows/6267820761c96c001321b959/1716525431129-90f6eb81dfff42690b7958ce1aaf6812.jpeg",
+        "t": "فصل هشتم - خشم خدایان"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6267820761c96c001321b959/e/65698ebd480dcb001273186a/media.mp3",
+        "at": "2023-12-01T07:43:56Z",
+        "i": "https://assets.pippa.io/shows/6267820761c96c001321b959/1701416195899-dfc0d2b195a15fd23080e3ffac754b8a.jpeg",
+        "t": "فصل هفتم - قسمت دوم - خر سه پا"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6267820761c96c001321b959/e/648968abd7a9f200111193a0/media.mp3",
+        "at": "2023-06-14T07:13:47Z",
+        "t": "فصل هفتم - قسمت اول - خر سه پا"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6267820761c96c001321b959/e/64477d4ca189ca001148804c/media.mp3",
+        "at": "2023-04-25T07:12:12Z",
+        "t": "فصل ششم - قسمت سوم - بزرگترین نقطه ضعف من"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6267820761c96c001321b959/e/642a35f813df9d0011ae288c/media.mp3",
+        "at": "2023-04-03T02:12:08Z",
+        "t": "فصل ششم - قسمت دوم - بزرگترین نقطه ضعف من"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6267820761c96c001321b959/e/6326a0c375a7480014de570b/media.mp3",
+        "at": "2022-09-18T04:38:27Z",
+        "t": "فصل ششم - قسمت اول - بزرگترین نقطه ضعف من"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-05-01T03:14:33Z",
+        "i": "https://assets.pippa.io/shows/6267820761c96c001321b959/1746072039603-1c1dfbad-39e6-4a5b-8d4e-4ecfd4479e07.jpeg",
+        "link": "https://shows.acast.com/arash-va-izadan/episodes/6812e7196ac0e5213bc0df6e",
+        "title": "فصل نهم (قسمت دوم) - ترک اعتیاد"
+      },
+      {
+        "at": "2025-04-09T02:57:15Z",
+        "i": "https://assets.pippa.io/shows/6267820761c96c001321b959/1744167283267-4fd8912d-4ad3-4de3-9a44-224ea12d0aa7.jpeg",
+        "link": "https://shows.acast.com/arash-va-izadan/episodes/67f5e20cfbfca819ff742937",
+        "title": "فصل نهم (قسمت اول) - ترک اعتیاد"
+      },
+      {
+        "at": "2024-05-24T04:48:30Z",
+        "i": "https://assets.pippa.io/shows/6267820761c96c001321b959/1716525431129-90f6eb81dfff42690b7958ce1aaf6812.jpeg",
+        "link": "https://shows.acast.com/arash-va-izadan/episodes/66501c1fc085240012f6ceb9",
+        "title": "فصل هشتم - خشم خدایان"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "arttuneradio-radio-aaoai-hnr": {
     "avg_length": 29,
     "episodes": 27,
@@ -6882,6 +7178,95 @@
         "at": "2020-10-19T13:00:19Z",
         "link": "https://podcasters.spotify.com/pod/show/semiramis-badri/episodes/ep-el92ui",
         "title": "پل"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "stopped"
+  },
+  "ashgh-iktrfh": {
+    "avg_length": 18,
+    "episodes": 13,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-01-08",
+    "first_year": 1398,
+    "last": "1398/10/18",
+    "last_at": "2020-01-08T22:27:08Z",
+    "last_link": "https://s3.castbox.fm/fd/35/1f/220d10412cbf574ff0b83c4a19.mp3",
+    "last_title": "نميتونم کسي که دوسش داشتم رو فراموش کنم",
+    "max_length": 49,
+    "median_length": 15,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/fd/35/1f/220d10412cbf574ff0b83c4a19.mp3",
+        "at": "2020-01-08T22:27:08Z",
+        "t": "نميتونم کسي که دوسش داشتم رو فراموش کنم"
+      },
+      {
+        "a": "https://s3.castbox.fm/11/f7/24/3cc4064ee5921ceb3f1faf287b.mp3",
+        "at": "2020-01-08T22:26:32Z",
+        "t": "ناتوانی در خروج از رابطه عاطفی"
+      },
+      {
+        "a": "https://s3.castbox.fm/c9/a2/59/ba5f5344969707a0cee1a497a3.mp3",
+        "at": "2020-01-08T21:29:59Z",
+        "t": "معنی عشق چیست"
+      },
+      {
+        "a": "https://s3.castbox.fm/53/21/ab/2d31104c098350b73523c09e7d.mp3",
+        "at": "2020-01-08T21:27:40Z",
+        "t": "عشق يک طرفه و ريشه ي مهم شکست هاي عشقي"
+      },
+      {
+        "a": "https://s3.castbox.fm/81/25/69/d269694e73ac7b8a6ee0bd8b12.mp3",
+        "at": "2020-01-08T21:03:09Z",
+        "t": "عشق و اخلاق"
+      },
+      {
+        "a": "https://s3.castbox.fm/6a/19/08/4b81094fc594cbaf4e2de45adf.mp3",
+        "at": "2020-01-08T20:42:01Z",
+        "t": "عشق باید دو طرفه باشد"
+      },
+      {
+        "a": "https://s3.castbox.fm/82/5b/25/dc3b11460783852fea89d8e242.mp3",
+        "at": "2020-01-08T20:35:27Z",
+        "t": "تصمیم به قطع رابطه"
+      },
+      {
+        "a": "https://s3.castbox.fm/a3/6a/4a/13d6ed4e7b947a35e493a930d6.mp3",
+        "at": "2020-01-08T20:29:15Z",
+        "t": "چطور او را نیز عاشق خود کنیم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-01-08T22:27:08Z",
+        "link": "https://s3.castbox.fm/fd/35/1f/220d10412cbf574ff0b83c4a19.mp3",
+        "title": "نميتونم کسي که دوسش داشتم رو فراموش کنم"
+      },
+      {
+        "at": "2020-01-08T22:26:32Z",
+        "link": "https://s3.castbox.fm/11/f7/24/3cc4064ee5921ceb3f1faf287b.mp3",
+        "title": "ناتوانی در خروج از رابطه عاطفی"
+      },
+      {
+        "at": "2020-01-08T21:29:59Z",
+        "link": "https://s3.castbox.fm/c9/a2/59/ba5f5344969707a0cee1a497a3.mp3",
+        "title": "معنی عشق چیست"
       }
     ],
     "recent_30d": [
@@ -7766,6 +8151,106 @@
     ],
     "status": "stopped"
   },
+  "atagh-aabi": {
+    "avg_length": 23,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2023-11-16",
+    "first_year": 1402,
+    "last": "1402/11/02",
+    "last_at": "2024-01-22T13:58:19Z",
+    "last_link": "https://share.transistor.fm/s/d04dcd6e",
+    "last_title": "آیا رقابت در زندگی ما را به رضامندی خواهد رساند؟",
+    "max_length": 26,
+    "median_length": 23,
+    "min_length": 19,
+    "play": [
+      {
+        "a": "https://media.transistor.fm/d04dcd6e/d5d03683.mp3",
+        "at": "2024-01-22T13:58:19Z",
+        "i": "https://img.transistor.fm/JHXkYgq7g4Dr5-b5R3ufVMRRgrfdDIzLH3y1kKo36co/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2OTkwOTkv/MTcwNTkzMTg5OS1h/cnR3b3JrLmpwZw.jpg",
+        "t": "آیا رقابت در زندگی ما را به رضامندی خواهد رساند؟"
+      },
+      {
+        "a": "https://media.transistor.fm/9664a728/b11c79b7.mp3",
+        "at": "2024-01-14T18:29:40Z",
+        "i": "https://img.transistor.fm/RqwZVmXv8agWnzrn7-G4Bhyq3sJ7e4KzCqhdE6jqAqg/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2ODkzNzUv/MTcwNTI1Njk4MC1h/cnR3b3JrLmpwZw.jpg",
+        "t": "چطور رشته تحصیلی و یا شغل مناسبی انتخاب کنیم؟"
+      },
+      {
+        "a": "https://media.transistor.fm/20bd38a4/6ed1722c.mp3",
+        "at": "2024-01-09T08:20:55Z",
+        "i": "https://img.transistor.fm/A9eF0oRpU9k_WDLdEX9QadR8_APyeR1MDgaNVMOJ1os/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2ODAyMTAv/MTcwNDc4ODQ1NS1h/cnR3b3JrLmpwZw.jpg",
+        "t": "موفقیت و امیدواری چه ارتباطی با هم دارند؟"
+      },
+      {
+        "a": "https://media.transistor.fm/79e4b077/1d86e220.mp3",
+        "at": "2023-12-30T17:56:21Z",
+        "i": "https://img.transistor.fm/xunTvzh2sk_2AUjCQ9PFIgk7_4Kt0X_0LxVpYQ1lI7g/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2Njc2OTAv/MTcwMzk1ODk4MS1h/cnR3b3JrLmpwZw.jpg",
+        "t": "موفقیت چطور تعریف می‌شود؟"
+      },
+      {
+        "a": "https://media.transistor.fm/b0228e91/5d32b344.mp3",
+        "at": "2023-12-25T15:26:23Z",
+        "i": "https://img.transistor.fm/-nA0pEHM2dnemYt-vJee4GDPflzpW8dhi1RMcmL78ug/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NTk4ODkv/MTcwMzUxNzk4My1h/cnR3b3JrLmpwZw.jpg",
+        "t": "چطور دستیابی به تعادل در زندگی می‌تواند به خوشبختی منجر شود؟"
+      },
+      {
+        "a": "https://media.transistor.fm/8df62f96/422f3b83.mp3",
+        "at": "2023-12-22T07:19:00Z",
+        "i": "https://img.transistor.fm/cGIg1V8wD39dpSVwcdINp71NDy3c7tnVQeXbtOrGWDk/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NTA1OTAv/MTcwMjk3MDM4OC1h/cnR3b3JrLmpwZw.jpg",
+        "t": "پذیرش و مواجهه با مرگ چگونه می‌تواند بر معنای زندگی تاثیرگذار باشد؟"
+      },
+      {
+        "a": "https://media.transistor.fm/af31f413/0d317e68.mp3",
+        "at": "2023-12-19T07:17:03Z",
+        "i": "https://img.transistor.fm/QycE4Vtj-dMhqr4wJDbDd66NNZPbojSc1N5bGV7y9M8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2NTA1ODkv/MTcwMjk3MDIyMy1h/cnR3b3JrLmpwZw.jpg",
+        "t": "چطور یافتن هویت می‌تواند به پیدا کردن معنای زندگی کمک کند؟"
+      },
+      {
+        "a": "https://media.transistor.fm/58dbe1e5/cfb67400.mp3",
+        "at": "2023-12-04T05:05:31Z",
+        "i": "https://img.transistor.fm/z-mGARct7lJ3qFWq7R3C6AmAwmwLBb4_LopDrYYsyrw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2Mjc1NDkv/MTcwMTY2NjMzMS1h/cnR3b3JrLmpwZw.jpg",
+        "t": "هویت انسانی چه تعریفی دارد؟"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-01-22T13:58:19Z",
+        "i": "https://img.transistor.fm/JHXkYgq7g4Dr5-b5R3ufVMRRgrfdDIzLH3y1kKo36co/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2OTkwOTkv/MTcwNTkzMTg5OS1h/cnR3b3JrLmpwZw.jpg",
+        "link": "https://share.transistor.fm/s/d04dcd6e",
+        "title": "آیا رقابت در زندگی ما را به رضامندی خواهد رساند؟"
+      },
+      {
+        "at": "2024-01-14T18:29:40Z",
+        "i": "https://img.transistor.fm/RqwZVmXv8agWnzrn7-G4Bhyq3sJ7e4KzCqhdE6jqAqg/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2ODkzNzUv/MTcwNTI1Njk4MC1h/cnR3b3JrLmpwZw.jpg",
+        "link": "https://share.transistor.fm/s/9664a728",
+        "title": "چطور رشته تحصیلی و یا شغل مناسبی انتخاب کنیم؟"
+      },
+      {
+        "at": "2024-01-09T08:20:55Z",
+        "i": "https://img.transistor.fm/A9eF0oRpU9k_WDLdEX9QadR8_APyeR1MDgaNVMOJ1os/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzE2ODAyMTAv/MTcwNDc4ODQ1NS1h/cnR3b3JrLmpwZw.jpg",
+        "link": "https://share.transistor.fm/s/20bd38a4",
+        "title": "موفقیت و امیدواری چه ارتباطی با هم دارند؟"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "atagh-mosighi": {
     "avg_length": 13,
     "episodes": 24,
@@ -7837,6 +8322,95 @@
         "at": "2020-02-06T17:27:16Z",
         "link": "https://www.rfi.fr/fa/%D9%81%D8%B1%D9%87%D9%86%DA%AF-%D9%88-%D9%87%D9%86%D8%B1/20200206-%D8%B3%D8%AA%D8%A7%DB%8C%D8%B4-%D8%B4%D8%A7%D8%AF%DB%8C-%D8%A8%D8%AA%D9%87%D9%88%D9%88%D9%86-%D9%86%D8%BA%D9%85%DB%80-%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C-%D9%86%D9%88%D8%B9-%D8%A8%D8%B4%D8%B1?PcNCvtcnHj",
         "title": "\"ستایش شادی\" بتهوون: نغمۀ آزادی نوع بشر"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "stopped"
+  },
+  "atobos": {
+    "avg_length": 9,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-08-06",
+    "first_year": 1399,
+    "last": "1399/08/03",
+    "last_at": "2020-10-24T21:52:29Z",
+    "last_link": "https://share.transistor.fm/s/efc51dbd",
+    "last_title": "۱۲. درس‌های اتوبوسی",
+    "max_length": 9,
+    "median_length": 9,
+    "min_length": 8,
+    "play": [
+      {
+        "a": "https://media.transistor.fm/efc51dbd/56396f66.mp3",
+        "at": "2020-10-24T21:52:29Z",
+        "t": "۱۲. درس‌های اتوبوسی"
+      },
+      {
+        "a": "https://media.transistor.fm/47caba2f/664ba923.mp3",
+        "at": "2020-10-17T00:16:53Z",
+        "t": "۱۱. همدم"
+      },
+      {
+        "a": "https://media.transistor.fm/ddd55399/83600962.mp3",
+        "at": "2020-10-09T23:57:07Z",
+        "t": "۱۰. نقاش"
+      },
+      {
+        "a": "https://media.transistor.fm/80f14492/2f6aee24.mp3",
+        "at": "2020-10-04T01:00:00Z",
+        "t": "۹. همه مسافریم!"
+      },
+      {
+        "a": "https://media.transistor.fm/dcc19869/93f4ca83.mp3",
+        "at": "2020-09-27T00:53:45Z",
+        "t": "۸. مصاحبه"
+      },
+      {
+        "a": "https://media.transistor.fm/7db9f70b/be7d7443.mp3",
+        "at": "2020-09-19T20:11:24Z",
+        "t": "۷. روز مادر"
+      },
+      {
+        "a": "https://media.transistor.fm/f82c339f/9e14e36c.mp3",
+        "at": "2020-09-12T22:48:43Z",
+        "t": "۶. خانم و آقای عزتی"
+      },
+      {
+        "a": "https://media.transistor.fm/1aae50a8/b2907c27.mp3",
+        "at": "2020-09-05T22:56:56Z",
+        "t": "۵. زنی با دامن بلند قهوه‌ای"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-10-24T21:52:29Z",
+        "link": "https://share.transistor.fm/s/efc51dbd",
+        "title": "۱۲. درس‌های اتوبوسی"
+      },
+      {
+        "at": "2020-10-17T00:16:53Z",
+        "link": "https://share.transistor.fm/s/47caba2f",
+        "title": "۱۱. همدم"
+      },
+      {
+        "at": "2020-10-09T23:57:07Z",
+        "link": "https://share.transistor.fm/s/ddd55399",
+        "title": "۱۰. نقاش"
       }
     ],
     "recent_30d": [
@@ -10159,6 +10733,101 @@
     ],
     "status": "inactive"
   },
+  "bhnod-digr": {
+    "avg_length": 14,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-06-29",
+    "first_year": 1403,
+    "last": "1403/05/28",
+    "last_at": "2024-08-18T23:46:41Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/behnoud-digar/episodes/ep-e2nb45h",
+    "last_title": "«نوارهای نور» (نوار دوازدهم)",
+    "max_length": 22,
+    "median_length": 14,
+    "min_length": 5,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/f7e6e7e8/podcast/play/90590833/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-18%2F384959785-44100-2-d16fb95038fe1.mp3",
+        "at": "2024-08-18T23:46:41Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41491050/41491050-1724024766780-d9893b1a1a273.jpg",
+        "t": "«نوارهای نور» (نوار دوازدهم)"
+      },
+      {
+        "a": "https://anchor.fm/s/f7e6e7e8/podcast/play/90178554/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-7%2F384456003-44100-2-9f54de34c2a3a.mp3",
+        "at": "2024-08-07T23:11:21Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41491050/41491050-1723071658964-2d794b2c9fc64.jpg",
+        "t": "«چشم‌ها به آسمان» (نوار یازدهم)"
+      },
+      {
+        "a": "https://anchor.fm/s/f7e6e7e8/podcast/play/89847814/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-30%2Fbe33a920-7aaf-7ae4-9579-efe202adc36b.mp3",
+        "at": "2024-07-30T14:58:08Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41491050/41491050-1722351468076-b74da1dde6c01.jpg",
+        "t": "«سینه‌سرخ‌های خاموش» (نوار دهم)"
+      },
+      {
+        "a": "https://anchor.fm/s/f7e6e7e8/podcast/play/89578233/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-23%2F383711481-44100-2-78492653001df.mp3",
+        "at": "2024-07-23T18:29:34Z",
+        "t": "«سرخ، اما سرد» (نوار نهم)"
+      },
+      {
+        "a": "https://anchor.fm/s/f7e6e7e8/podcast/play/88911063/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-6%2F382598566-44100-2-53843f8dc8f2d.mp3",
+        "at": "2024-07-06T20:52:44Z",
+        "t": "«فردای قلم» (نوار هشتم)"
+      },
+      {
+        "a": "https://anchor.fm/s/f7e6e7e8/podcast/play/88823182/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-4%2F382412305-44100-2-af69f6bab66a7.mp3",
+        "at": "2024-07-04T11:57:12Z",
+        "t": "«روزهای تاریک، شبان روشن» (نوار هفتم)"
+      },
+      {
+        "a": "https://anchor.fm/s/f7e6e7e8/podcast/play/88643499/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-30%2F382036491-44100-2-58720bb3a7efe.mp3",
+        "at": "2024-06-30T11:00:14Z",
+        "t": "از پنجره به... (نوار ششم)"
+      },
+      {
+        "a": "https://anchor.fm/s/f7e6e7e8/podcast/play/88620599/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-29%2F381984223-44100-2-ccdf0149d34da.mp3",
+        "at": "2024-06-29T14:45:41Z",
+        "t": "نامه‌ای به رییس جمهور (نوار پنجم)"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-08-18T23:46:41Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41491050/41491050-1724024766780-d9893b1a1a273.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/behnoud-digar/episodes/ep-e2nb45h",
+        "title": "«نوارهای نور» (نوار دوازدهم)"
+      },
+      {
+        "at": "2024-08-07T23:11:21Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41491050/41491050-1723071658964-2d794b2c9fc64.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/behnoud-digar/episodes/ep-e2muhhq",
+        "title": "«چشم‌ها به آسمان» (نوار یازدهم)"
+      },
+      {
+        "at": "2024-07-30T14:58:08Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41491050/41491050-1722351468076-b74da1dde6c01.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/behnoud-digar/episodes/ep-e2mkei6",
+        "title": "«سینه‌سرخ‌های خاموش» (نوار دهم)"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "bhtrin-padkst-airani": {
     "avg_length": 68,
     "episodes": 26,
@@ -10342,6 +11011,106 @@
       0,
       0,
       0,
+      0
+    ],
+    "status": "active"
+  },
+  "bidar": {
+    "avg_length": 69,
+    "episodes": 13,
+    "eps_365": 1,
+    "eps_90": 1,
+    "first_at": "2024-06-18",
+    "first_year": 1403,
+    "last": "1405/07/26",
+    "last_at": "2026-10-18T11:15:13Z",
+    "last_link": "https://www.spreaker.com/episode/bydar-13-jshn-sdh--72946913",
+    "last_title": "بیدار (۱۳) | جشن سده",
+    "max_length": 117,
+    "median_length": 65,
+    "min_length": 41,
+    "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72946913/audio.mp3",
+        "at": "2026-10-18T11:15:13Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/91ff766c27935bb4e66c3b96763a2877.jpg",
+        "t": "بیدار (۱۳) | جشن سده"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72946920/audio.mp3",
+        "at": "2025-06-09T07:00:08Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/96b6b88ffa60f26b77dd985849861932.jpg",
+        "t": "بیدار(۱۲)| نمونه‌ای درخشان از خودنگاری ایرانی"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72946919/audio.mp3",
+        "at": "2025-04-17T14:34:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/35cc4b91644f355d59a4ed9638a19d2f.jpg",
+        "t": "بیدار (۱۱)| شجاعت خود بودن"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72946916/audio.mp3",
+        "at": "2025-03-20T06:30:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/098e6ad8db0093b9241e9084d195f544.jpg",
+        "t": "بیدار(۱۰)| در ستایش آشوب!"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72946914/audio.mp3",
+        "at": "2025-03-12T15:30:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb5283400a4e1a0adb35f38628a3c170.jpg",
+        "t": "بیدار(۹)| آخرین بازمانده از جنگِ طولانی"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72946925/audio.mp3",
+        "at": "2025-03-08T18:35:10Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/46dafb6e91ace62c57a151508d49da54.jpg",
+        "t": "بیدار(۸)| ای ایران، ای خرم بهشت من"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72946921/audio.mp3",
+        "at": "2025-01-10T15:33:15Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/fe7409a845d3922843138baf1e439b13.jpg",
+        "t": "بیدار(۷)| مهرت از دل کی برون کنم؟"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72946922/audio.mp3",
+        "at": "2024-12-26T02:00:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/cc1d9d55249beda81ad11935745d6504.jpg",
+        "t": "بیدار(۶)| سرودهای میهنی، از سوگ‌ها و حماسه‌ها"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-10-18T11:15:13Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/91ff766c27935bb4e66c3b96763a2877.jpg",
+        "link": "https://www.spreaker.com/episode/bydar-13-jshn-sdh--72946913",
+        "title": "بیدار (۱۳) | جشن سده"
+      },
+      {
+        "at": "2025-06-09T07:00:08Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/96b6b88ffa60f26b77dd985849861932.jpg",
+        "link": "https://www.spreaker.com/episode/bydar-12-nmwnh-ay-drkhshan-az-khwdngary-ayrany--72946920",
+        "title": "بیدار(۱۲)| نمونه‌ای درخشان از خودنگاری ایرانی"
+      },
+      {
+        "at": "2025-04-17T14:34:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/35cc4b91644f355d59a4ed9638a19d2f.jpg",
+        "link": "https://www.spreaker.com/episode/bydar-11-shja-t-khwd-bwdn--72946919",
+        "title": "بیدار (۱۱)| شجاعت خود بودن"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
       0
     ],
     "status": "active"
@@ -12027,6 +12796,100 @@
       0
     ],
     "status": "active"
+  },
+  "brsd-bh-dst-to": {
+    "avg_length": 13,
+    "episodes": 13,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-03-07",
+    "first_year": 1398,
+    "last": "1399/03/18",
+    "last_at": "2020-06-07T02:30:00Z",
+    "last_link": "https://share.transistor.fm/s/16e54662",
+    "last_title": "۱۳. ماسک",
+    "max_length": 18,
+    "median_length": 13,
+    "min_length": 10,
+    "play": [
+      {
+        "a": "https://media.transistor.fm/16e54662/0ea9bdd2.mp3",
+        "at": "2020-06-07T02:30:00Z",
+        "t": "۱۳. ماسک"
+      },
+      {
+        "a": "https://media.transistor.fm/915172a6/faef2218.mp3",
+        "at": "2020-05-31T02:30:00Z",
+        "i": "https://img.transistor.fm/pZNRbDLb9MLvfAEj-zIRa7Aw-K94xN28I1Gx6Y4WnBg/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzI2NzU3Ni8x/NTkwODcxMTE3LWFy/dHdvcmsuanBn.jpg",
+        "t": "۱۲. کُره"
+      },
+      {
+        "a": "https://media.transistor.fm/17315a12/b6a73aeb.mp3",
+        "at": "2020-05-24T02:00:00Z",
+        "i": "https://img.transistor.fm/ceB9BYedIhyTgN6SN4dnYgw6tQf8RZOpi2t2Ot4-DeQ/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzI2MzY5NS8x/NTkwMjYwNDU2LWFy/dHdvcmsuanBn.jpg",
+        "t": "۱۱. کلاس زبان"
+      },
+      {
+        "a": "https://media.transistor.fm/40351893/02ecbd20.mp3",
+        "at": "2020-05-17T02:30:00Z",
+        "i": "https://img.transistor.fm/Yiv-1mDJfAtKCFJo_f5OHne_FCJAmQRxgrmsHkmjnD8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzI1OTcwOC8x/NTg5NjQ0MTE0LWFy/dHdvcmsuanBn.jpg",
+        "t": "۱۰. سیندرلا"
+      },
+      {
+        "a": "https://media.transistor.fm/f36dfbb2/22e2018c.mp3",
+        "at": "2020-05-10T02:30:00Z",
+        "t": "۹. خلبان"
+      },
+      {
+        "a": "https://media.transistor.fm/1ede09ee/1ca99313.mp3",
+        "at": "2020-05-03T02:30:00Z",
+        "t": "۸. کارنامه"
+      },
+      {
+        "a": "https://media.transistor.fm/14932908/afe7f025.mp3",
+        "at": "2020-04-26T02:30:00Z",
+        "t": "۷. قانون نیوتن"
+      },
+      {
+        "a": "https://media.transistor.fm/cbfb77d1/c7daf609.mp3",
+        "at": "2020-04-19T02:30:00Z",
+        "t": "۶. کوچه شادمان"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-06-07T02:30:00Z",
+        "link": "https://share.transistor.fm/s/16e54662",
+        "title": "۱۳. ماسک"
+      },
+      {
+        "at": "2020-05-31T02:30:00Z",
+        "i": "https://img.transistor.fm/pZNRbDLb9MLvfAEj-zIRa7Aw-K94xN28I1Gx6Y4WnBg/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzI2NzU3Ni8x/NTkwODcxMTE3LWFy/dHdvcmsuanBn.jpg",
+        "link": "https://share.transistor.fm/s/915172a6",
+        "title": "۱۲. کُره"
+      },
+      {
+        "at": "2020-05-24T02:00:00Z",
+        "i": "https://img.transistor.fm/ceB9BYedIhyTgN6SN4dnYgw6tQf8RZOpi2t2Ot4-DeQ/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzI2MzY5NS8x/NTkwMjYwNDU2LWFy/dHdvcmsuanBn.jpg",
+        "link": "https://share.transistor.fm/s/17315a12",
+        "title": "۱۱. کلاس زبان"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "stopped"
   },
   "bzm-shaaranh": {
     "avg_length": 27,
@@ -15855,6 +16718,106 @@
     ],
     "status": "stopped"
   },
+  "dastan-hai-nilofr": {
+    "avg_length": 11,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2022-08-18",
+    "first_year": 1401,
+    "last": "1401/08/26",
+    "last_at": "2022-11-17T04:11:15Z",
+    "last_link": "https://share.transistor.fm/s/8a488385",
+    "last_title": "قسمت ۱۲ - آرامش و نیایش",
+    "max_length": 12,
+    "median_length": 11,
+    "min_length": 10,
+    "play": [
+      {
+        "a": "https://media.transistor.fm/8a488385/2684eb04.mp3",
+        "at": "2022-11-17T04:11:15Z",
+        "i": "https://img.transistor.fm/uCxsr8U6vkR9M_Pc5fv00cRYglkwENB1yjo7V34GxVw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzExMDA1MTAv/MTY2ODY1ODI3NS1h/cnR3b3JrLmpwZw.jpg",
+        "t": "قسمت ۱۲ - آرامش و نیایش"
+      },
+      {
+        "a": "https://media.transistor.fm/42be0916/72e1d452.mp3",
+        "at": "2022-11-10T04:09:27Z",
+        "i": "https://img.transistor.fm/LBDR9CCdLFN0-RSEQLnwr3i0SaJyx9uk_CdNpZPBVjA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzEwOTI3NjMv/MTY2ODA1MzM2Ny1h/cnR3b3JrLmpwZw.jpg",
+        "t": "قسمت ۱۱ - نیلوفر حواس پرت"
+      },
+      {
+        "a": "https://media.transistor.fm/3f19bc6e/bc5d18d8.mp3",
+        "at": "2022-11-03T02:30:00Z",
+        "i": "https://img.transistor.fm/0wlXofYvY8z5TWH63Ten8QQPGGShWcOFY_S6O_ytW8U/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzEwODQwNDMv/MTY2NzM3OTIwMi1h/cnR3b3JrLmpwZw.jpg",
+        "t": "قسمت ۱۰ - دستِ شکسته نیلوفر"
+      },
+      {
+        "a": "https://media.transistor.fm/f38a23c7/4bd62472.mp3",
+        "at": "2022-10-20T02:52:04Z",
+        "i": "https://img.transistor.fm/PvNedK6lYmEjmJ0vooURCVMlLRfDpc6_fFAgRX2_fAU/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzEwNzAxOTcv/MTY2NjIzNDMyNC1h/cnR3b3JrLmpwZw.jpg",
+        "t": "قسمت ۹ - اسباب‌کشی"
+      },
+      {
+        "a": "https://media.transistor.fm/7f42942e/a3fb648c.mp3",
+        "at": "2022-10-13T02:30:00Z",
+        "i": "https://img.transistor.fm/q7qLA-WKsUGCeoXzFDzgAgVRbUwjHgKNq2ZkPAPLGsw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzEwNjIyMzUv/MTY2NTYyMTA5NS1h/cnR3b3JrLmpwZw.jpg",
+        "t": "قسمت ۸ - خودکار اکلیلی"
+      },
+      {
+        "a": "https://media.transistor.fm/8a170be5/9c7dde42.mp3",
+        "at": "2022-10-06T03:18:00Z",
+        "i": "https://img.transistor.fm/BctL4QY_q76iNQQbMwDCiO_cSAj6Z8ZhZTk45iP7J8A/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzEwNTAxNDYv/MTY2NDk1NDMzNS1h/cnR3b3JrLmpwZw.jpg",
+        "t": "قسمت ۷ - نیلوفر هنرمند"
+      },
+      {
+        "a": "https://media.transistor.fm/2a3d94e2/7e682e47.mp3",
+        "at": "2022-09-22T02:30:00Z",
+        "i": "https://img.transistor.fm/UDOFoWBpUOYGmZ0vtcVYfrFfDjagoWkP9mqPBxAZsCc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzEwMzE3Njkv/MTY2Mzc2ODMxOS1h/cnR3b3JrLmpwZw.jpg",
+        "t": "قسمت 6 - راز و نیاز"
+      },
+      {
+        "a": "https://media.transistor.fm/121dc3f9/58cc435b.mp3",
+        "at": "2022-09-15T01:30:00Z",
+        "i": "https://img.transistor.fm/71oUmtktZkRLr0tWJaYut291SPmzgTQeN_UzVqRzlPo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzEwMjQ0ODYv/MTY2MzE4NTIzNy1h/cnR3b3JrLmpwZw.jpg",
+        "t": "قسمت 5 - خنده و گریه"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-11-17T04:11:15Z",
+        "i": "https://img.transistor.fm/uCxsr8U6vkR9M_Pc5fv00cRYglkwENB1yjo7V34GxVw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzExMDA1MTAv/MTY2ODY1ODI3NS1h/cnR3b3JrLmpwZw.jpg",
+        "link": "https://share.transistor.fm/s/8a488385",
+        "title": "قسمت ۱۲ - آرامش و نیایش"
+      },
+      {
+        "at": "2022-11-10T04:09:27Z",
+        "i": "https://img.transistor.fm/LBDR9CCdLFN0-RSEQLnwr3i0SaJyx9uk_CdNpZPBVjA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzEwOTI3NjMv/MTY2ODA1MzM2Ny1h/cnR3b3JrLmpwZw.jpg",
+        "link": "https://share.transistor.fm/s/42be0916",
+        "title": "قسمت ۱۱ - نیلوفر حواس پرت"
+      },
+      {
+        "at": "2022-11-03T02:30:00Z",
+        "i": "https://img.transistor.fm/0wlXofYvY8z5TWH63Ten8QQPGGShWcOFY_S6O_ytW8U/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lcGlz/b2RlLzEwODQwNDMv/MTY2NzM3OTIwMi1h/cnR3b3JrLmpwZw.jpg",
+        "link": "https://share.transistor.fm/s/3f19bc6e",
+        "title": "قسمت ۱۰ - دستِ شکسته نیلوفر"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "stopped"
+  },
   "dastan-hai-tarikhi": {
     "episodes": 79,
     "eps_365": 0,
@@ -16132,6 +17095,106 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37683270/37683270-1706125270639-8082b0a37c86a.jpg",
         "link": "https://podcasters.spotify.com/pod/show/lil-stories/episodes/Persian-Cat-Museum-by-Samin-e2esucb",
         "title": "Persian Cat Museum by Samin | میوزهٔ گربهٔ ایرانی، ثمین"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "dastan-mamari": {
+    "avg_length": 23,
+    "episodes": 13,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-08-04",
+    "first_year": 1399,
+    "last": "1404/01/04",
+    "last_at": "2025-03-24T12:20:33Z",
+    "last_link": "https://shenoto.com/album/podcast/313407/داستان معماری-قصه مجموعه های مسکونی-قسمت سه و نیم-در جستجوی فضای از دست رفته",
+    "last_title": "داستان معماری-قصه مجموعه های مسکونی-قسمت سه و نیم-در جستجوی فضای از دست رفته",
+    "max_length": 47,
+    "median_length": 16,
+    "min_length": 12,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/6238cdcf-08aa-11f0-b314-0242ac120014.mp3",
+        "at": "2025-03-24T12:20:33Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/b0351df8-f398-4b08-b837-cd814264cffa/cover/3000.jpg",
+        "t": "داستان معماری-قصه مجموعه های مسکونی-قسمت سه و نیم-در جستجوی فضای از دست رفته"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/147aa39f-03e0-11ef-9081-0242ac120015.mp3",
+        "at": "2024-04-26T15:17:22Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/b47800e7-48fc-497d-8fbe-8349b2f8e15a/cover/3000.jpg",
+        "t": "داستان معماری-قصه مجموعه های مسکونی-قسمت سوم-در شرق خبری هست"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/76dd58e3-5b1c-11ee-9dda-0242ac170010.mp3",
+        "at": "2023-09-24T20:53:50Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/ef7df131-c68d-4f20-a3a9-26e63656dc6c/cover/3000.jpg",
+        "t": "داستان معماری-قصه مجموعه های مسکونی-قسمت دوونیم-آنجا که با هم هستیم"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/25573396-f0cd-11ec-92c2-0242ac130005.mp3",
+        "at": "2022-06-20T19:14:02Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/83fd4fc4-af5c-42ff-b6a8-5da4b8bf6dff/cover/3000.jpg",
+        "t": "داستان معماری - داستان معماری-قصه مجموعه های مسکونی-قسمت دوم-گریز از مرکز"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/d904bf05-8d07-11ec-be92-0242ac130005.mp3",
+        "at": "2022-02-13T20:02:18Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/83fd4fc4-af5c-42ff-b6a8-5da4b8bf6dff/cover/3000.jpg",
+        "t": "داستان معماری - داستان معماری-قصه مجموعه های مسکونی-قسمت اول-سرزمین پریان"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c295a478-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-04-24T08:41:23Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/83fd4fc4-af5c-42ff-b6a8-5da4b8bf6dff/cover/3000.jpg",
+        "t": "داستان معماری - داستان معماری-قصه مدرسه-قسمت هشتم-امروز"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c23ed489-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-03-05T08:16:30Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/83fd4fc4-af5c-42ff-b6a8-5da4b8bf6dff/cover/3000.jpg",
+        "t": "داستان معماری - داستان معماری-قصه مدرسه-قسمت هفتم-رجوع"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/c1f15a78-2127-11ec-9090-0242ac120005.mp3",
+        "at": "2021-02-04T18:05:57Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/83fd4fc4-af5c-42ff-b6a8-5da4b8bf6dff/cover/3000.jpg",
+        "t": "داستان معماری - داستان معماری-قصه مدرسه-قسمت ششم-قبض"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-03-24T12:20:33Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/b0351df8-f398-4b08-b837-cd814264cffa/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/313407/داستان معماری-قصه مجموعه های مسکونی-قسمت سه و نیم-در جستجوی فضای از دست رفته",
+        "title": "داستان معماری-قصه مجموعه های مسکونی-قسمت سه و نیم-در جستجوی فضای از دست رفته"
+      },
+      {
+        "at": "2024-04-26T15:17:22Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/b47800e7-48fc-497d-8fbe-8349b2f8e15a/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/246610/داستان معماری-قصه مجموعه های مسکونی-قسمت سوم-در شرق خبری هست",
+        "title": "داستان معماری-قصه مجموعه های مسکونی-قسمت سوم-در شرق خبری هست"
+      },
+      {
+        "at": "2023-09-24T20:53:50Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/ef7df131-c68d-4f20-a3a9-26e63656dc6c/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/211322/داستان معماری-قصه مجموعه های مسکونی-قسمت دوونیم-آنجا که با هم هستیم",
+        "title": "داستان معماری-قصه مجموعه های مسکونی-قسمت دوونیم-آنجا که با هم هستیم"
       }
     ],
     "recent_30d": [
@@ -35240,6 +36303,104 @@
     ],
     "status": "stopped"
   },
+  "khodshnasi-dr-ksb-o-kar": {
+    "avg_length": 11,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-04-05",
+    "first_year": 1403,
+    "last": "1404/01/22",
+    "last_at": "2025-04-11T20:48:18Z",
+    "last_link": "https://shows.acast.com/selfbiss/episodes/12",
+    "last_title": "12.قدرت رها کردن",
+    "max_length": 14,
+    "median_length": 12,
+    "min_length": 5,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66106cf2cb989b0017a839b5/e/67f98013d5ed0d5b9de05d8e/media.mp3",
+        "at": "2025-04-11T20:48:18Z",
+        "i": "https://assets.pippa.io/shows/66106cf2cb989b0017a839b5/1744404305910-a688f607-74eb-4856-ab34-5dcf33010ece.jpeg",
+        "t": "12.قدرت رها کردن"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66106cf2cb989b0017a839b5/e/671a8392af78fefdd11a5117/media.mp3",
+        "at": "2024-10-24T17:27:45Z",
+        "i": "https://assets.pippa.io/shows/66106cf2cb989b0017a839b5/1729789442369-a507ca64-797b-4a3f-abba-1393286e3d95.jpeg",
+        "t": "11. ابزار اصلی در کسب و کار"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66106cf2cb989b0017a839b5/e/66c3a11da294c7a6629b07a2/media.mp3",
+        "at": "2024-08-19T19:46:34Z",
+        "i": "https://assets.pippa.io/shows/66106cf2cb989b0017a839b5/1724096504448-2c2e288d-dd5d-4a33-9b9c-a34ed2bc43b8.jpeg",
+        "t": "10. تلاش بی وقفه"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66106cf2cb989b0017a839b5/e/66a87d6766e879d7b6c251a5/media.mp3",
+        "at": "2024-07-30T05:43:02Z",
+        "i": "https://assets.pippa.io/shows/66106cf2cb989b0017a839b5/1722318105907-d0b3412a-0788-4a32-aaf4-1b36d69a7d36.jpeg",
+        "t": "استراتژی خدا"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66106cf2cb989b0017a839b5/e/6684e4c704b201dd341d49db/media.mp3",
+        "at": "2024-07-03T05:42:30Z",
+        "i": "https://assets.pippa.io/shows/66106cf2cb989b0017a839b5/1719985219735-953ce357e0e2539905412cf77ab82c90.jpeg",
+        "t": "کارهای مهم و فوری بهانست"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66106cf2cb989b0017a839b5/e/66351ebd21435d001221d581/media.mp3",
+        "at": "2024-05-03T17:28:29Z",
+        "i": "https://assets.pippa.io/shows/66106cf2cb989b0017a839b5/1714757283907-01c29f14f9d1b91ea43409fa89c00c19.jpeg",
+        "t": "بازی کسب و کار"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66106cf2cb989b0017a839b5/e/662536a509a93200123f25bd/media.mp3",
+        "at": "2024-04-21T15:54:12Z",
+        "t": "تلاش ساده به جای تلاش کم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66106cf2cb989b0017a839b5/e/661e263984d98d00170fc325/media.mp3",
+        "at": "2024-04-16T07:18:15Z",
+        "t": "رها کردن نتیجه"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-04-11T20:48:18Z",
+        "i": "https://assets.pippa.io/shows/66106cf2cb989b0017a839b5/1744404305910-a688f607-74eb-4856-ab34-5dcf33010ece.jpeg",
+        "link": "https://shows.acast.com/selfbiss/episodes/12",
+        "title": "12.قدرت رها کردن"
+      },
+      {
+        "at": "2024-10-24T17:27:45Z",
+        "i": "https://assets.pippa.io/shows/66106cf2cb989b0017a839b5/1729789442369-a507ca64-797b-4a3f-abba-1393286e3d95.jpeg",
+        "link": "https://shows.acast.com/selfbiss/episodes/11",
+        "title": "11. ابزار اصلی در کسب و کار"
+      },
+      {
+        "at": "2024-08-19T19:46:34Z",
+        "i": "https://assets.pippa.io/shows/66106cf2cb989b0017a839b5/1724096504448-2c2e288d-dd5d-4a33-9b9c-a34ed2bc43b8.jpeg",
+        "link": "https://shows.acast.com/selfbiss/episodes/10",
+        "title": "10. تلاش بی وقفه"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "khorsht-tknolozhi": {
     "avg_gap_days": 6.8,
     "avg_length": 9,
@@ -35423,6 +36584,106 @@
         "i": "https://cdn-arch.shenoto.com/shenoto-album/57f1b69a-e133-4c1b-b7a6-83d7ee3f64be/cover/3000.jpg",
         "link": "https://shenoto.com/album/podcast/278906/قسمت چهلم",
         "title": "قسمت چهلم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "kif-pol": {
+    "avg_length": 37,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2025-02-06",
+    "first_year": 1403,
+    "last": "1404/08/24",
+    "last_at": "2025-11-15T10:32:33Z",
+    "last_link": "https://rss.audiyacreators.one/cmirrkv0prg060548a9od",
+    "last_title": "۱۱- خرید خانه از واقعیت تا رویا",
+    "max_length": 49,
+    "median_length": 35,
+    "min_length": 20,
+    "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/audio/668019267e71e23d/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2025-11-15T10:32:33Z",
+        "i": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/cover/668019267e71e23d/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "۱۱- خرید خانه از واقعیت تا رویا"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/audio/cd640af36276c713/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2025-10-22T19:38:51Z",
+        "i": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/cover/cd640af36276c713/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "۱۰- بایدها و نبایدهای سرمایه گذاری روی ملک"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/audio/8f1411c3330f21a4/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2025-09-27T19:07:24Z",
+        "i": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/cover/8f1411c3330f21a4/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "تأثیر شلیک ماشه بر جیب ما - اپیزود ویژه"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/audio/5a9307949ba17f9e/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2025-07-27T11:57:09Z",
+        "i": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/cover/5a9307949ba17f9e/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "۹-ریسک بورس!"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/audio/499a2b484c438a5e/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2025-06-04T22:00:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/cover/499a2b484c438a5e/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "۸-بورس‌بازی"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/audio/b65eded3f5cddf62/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2025-05-01T22:00:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/cover/b65eded3f5cddf62/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "۷-ایران و مذاکره"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/audio/a7db74bdb675bad1/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2025-04-27T22:00:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/cover/a7db74bdb675bad1/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "۶-داستان طلا؛ حباب‌ها می‌ترکند"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/audio/e4f5688da9da74dd/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2025-04-09T00:00:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/cover/e4f5688da9da74dd/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "۵-داستان دلار"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-11-15T10:32:33Z",
+        "i": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/cover/668019267e71e23d/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmirrkv0prg060548a9od",
+        "title": "۱۱- خرید خانه از واقعیت تا رویا"
+      },
+      {
+        "at": "2025-10-22T19:38:51Z",
+        "i": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/cover/cd640af36276c713/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmirrkv0prg060548a9od",
+        "title": "۱۰- بایدها و نبایدهای سرمایه گذاری روی ملک"
+      },
+      {
+        "at": "2025-09-27T19:07:24Z",
+        "i": "https://rss.audiyacreators.one/media/cmirrkv0prg060548a9od/cover/8f1411c3330f21a4/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmirrkv0prg060548a9od",
+        "title": "تأثیر شلیک ماشه بر جیب ما - اپیزود ویژه"
       }
     ],
     "recent_30d": [
@@ -39077,6 +40338,106 @@
         "at": "2025-11-17T12:58:20Z",
         "link": "https://www.audiya.pub/episode/cmi35m6t0002pif04i061luq1",
         "title": "قصه‌های بابام بخش 14"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "ktab-soti-ahzar-doalpai-rsoaii-ba-pai-sib-az-spidh-ghlian": {
+    "avg_length": 21,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-05-13",
+    "first_year": 1403,
+    "last": "1403/02/24",
+    "last_at": "2024-05-13T14:20:11Z",
+    "last_link": "https://shows.acast.com/davalpa-sepideh-gholian/episodes/6642219be18d8b001313f5ac",
+    "last_title": "۱۲ - کارگاه قنادی پنگ",
+    "max_length": 52,
+    "median_length": 15,
+    "min_length": 7,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66420abb7c2bf10013209551/e/6642219be18d8b001313f5ac/media.mp3",
+        "at": "2024-05-13T14:20:11Z",
+        "i": "https://assets.pippa.io/shows/66420abb7c2bf10013209551/1715609974762-31b8e9a503b69b00cffc596dc4b6a527.jpeg",
+        "t": "۱۲ - کارگاه قنادی پنگ"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66420abb7c2bf10013209551/e/664220ed7c2bf1001325cb8d/media.mp3",
+        "at": "2024-05-13T14:17:16Z",
+        "i": "https://assets.pippa.io/shows/66420abb7c2bf10013209551/1715609806938-fd121abf28bcfaae970b82049ac868f9.jpeg",
+        "t": "۱۱ - مادلن برای تو"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66420abb7c2bf10013209551/e/66421fd57c2bf10013258095/media.mp3",
+        "at": "2024-05-13T14:12:37Z",
+        "i": "https://assets.pippa.io/shows/66420abb7c2bf10013209551/1715609550595-ca9cfedb6dbddfc168d53b69c8b7ab9f.jpeg",
+        "t": "۱۰ - سندی از نامه"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66420abb7c2bf10013209551/e/66421f3ae18d8b0013134d34/media.mp3",
+        "at": "2024-05-13T14:10:02Z",
+        "i": "https://assets.pippa.io/shows/66420abb7c2bf10013209551/1715609370022-5a6bbe0b964bb0526a0708f64501a909.jpeg",
+        "t": "۹ - نجات سه‌شنبه‌ها از کسالت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66420abb7c2bf10013209551/e/66421e9a0122a600130a56ea/media.mp3",
+        "at": "2024-05-13T14:07:22Z",
+        "i": "https://assets.pippa.io/shows/66420abb7c2bf10013209551/1715609186516-c37df3f4376381cf18ef8823e81e1779.jpeg",
+        "t": "۸ - ملاقات با پائولینا سالاس"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66420abb7c2bf10013209551/e/66421dc30122a600130a2f83/media.mp3",
+        "at": "2024-05-13T14:03:46Z",
+        "i": "https://assets.pippa.io/shows/66420abb7c2bf10013209551/1715609003201-2e223d13abb2f1377fcde22da811eea9.jpeg",
+        "t": "۷ - و اینک نمایش سایه‌ها"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66420abb7c2bf10013209551/e/66421cff1d878a0012b230da/media.mp3",
+        "at": "2024-05-13T14:00:31Z",
+        "i": "https://assets.pippa.io/shows/66420abb7c2bf10013209551/1715608731221-3be58a3fd9bcce142b03797b01c5ad22.jpeg",
+        "t": "۶ - یک سال پیش از تهوع"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66420abb7c2bf10013209551/e/66421c23e18d8b001312a6f2/media.mp3",
+        "at": "2024-05-13T13:56:51Z",
+        "i": "https://assets.pippa.io/shows/66420abb7c2bf10013209551/1715608581464-c94e285f1ee234628f1057c85fef671a.jpeg",
+        "t": "۵ - الماس سنگ‌بری"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-05-13T14:20:11Z",
+        "i": "https://assets.pippa.io/shows/66420abb7c2bf10013209551/1715609974762-31b8e9a503b69b00cffc596dc4b6a527.jpeg",
+        "link": "https://shows.acast.com/davalpa-sepideh-gholian/episodes/6642219be18d8b001313f5ac",
+        "title": "۱۲ - کارگاه قنادی پنگ"
+      },
+      {
+        "at": "2024-05-13T14:17:16Z",
+        "i": "https://assets.pippa.io/shows/66420abb7c2bf10013209551/1715609806938-fd121abf28bcfaae970b82049ac868f9.jpeg",
+        "link": "https://shows.acast.com/davalpa-sepideh-gholian/episodes/664220ed7c2bf1001325cb8d",
+        "title": "۱۱ - مادلن برای تو"
+      },
+      {
+        "at": "2024-05-13T14:12:37Z",
+        "i": "https://assets.pippa.io/shows/66420abb7c2bf10013209551/1715609550595-ca9cfedb6dbddfc168d53b69c8b7ab9f.jpeg",
+        "link": "https://shows.acast.com/davalpa-sepideh-gholian/episodes/66421fd57c2bf10013258095",
+        "title": "۱۰ - سندی از نامه"
       }
     ],
     "recent_30d": [
@@ -48178,6 +49539,106 @@
     ],
     "status": "active"
   },
+  "nadr-nadrpor": {
+    "avg_length": 5,
+    "episodes": 13,
+    "eps_365": 1,
+    "eps_90": 0,
+    "first_at": "2025-01-15",
+    "first_year": 1403,
+    "last": "1405/03/30",
+    "last_at": "2026-06-20T12:24:24Z",
+    "last_link": "https://shenoto.com/album/podcast/1795478/نادر نادرپور | اسب، هواپیما، رودکی و من",
+    "last_title": "نادر نادرپور | اسب، هواپیما، رودکی و من",
+    "max_length": 9,
+    "median_length": 4,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/f91baa44-6ca2-11f1-a365-0ac643a531ba.mp3",
+        "at": "2026-06-20T12:24:24Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/bce42ef6-a6e6-4935-b241-74d3a86f1234/cover/3000.jpg",
+        "t": "نادر نادرپور | اسب، هواپیما، رودکی و من"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/b178fd8e-deec-11ef-b7ed-0242ac120002.mp3",
+        "at": "2025-01-30T09:29:24Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/e2f119b9-f672-42c1-ae6a-97a315e231b4/cover/3000.jpg",
+        "t": "نادر نادرپور | آشتی"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/2eb5f49d-db4f-11ef-919c-0242ac120015.mp3",
+        "at": "2025-01-25T19:04:20Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/09f07b78-aeef-496e-aa23-df18f0db7669/cover/3000.jpg",
+        "t": "نادر نادرپور | بت تراش (پیکر تراش)"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/b7d98af1-da41-11ef-919c-0242ac120015.mp3",
+        "at": "2025-01-24T10:55:26Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/d10f6fdb-bd8a-4ac1-880a-50e30642bd08/cover/3000.jpg",
+        "t": "نادر نادرپور | ویرانه‌ی قرون"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/160bf5a5-d973-11ef-919c-0242ac120015.mp3",
+        "at": "2025-01-23T10:16:18Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/25016990-8182-4908-a76f-9a293e9498c6/cover/3000.jpg",
+        "t": "نادر نادرپور | نقاب و نماز"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/4a48ab1c-d88c-11ef-919c-0242ac120015.mp3",
+        "at": "2025-01-22T06:44:12Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/6f8d547b-a1ed-45de-9413-3e080f25a0d0/cover/3000.jpg",
+        "t": "نادر نادرپور | کهن دیارا"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/4b30be16-d7e3-11ef-919c-0242ac120015.mp3",
+        "at": "2025-01-21T10:34:29Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/b31f0e48-534b-479e-92f8-df4470a6eb4a/cover/3000.jpg",
+        "t": "نادر نادرپور | کتاب پریشان"
+      },
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/f98910a3-d700-11ef-919c-0242ac120015.mp3",
+        "at": "2025-01-20T07:34:25Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/522a18a1-8e17-4d1b-af8c-cce3f42b00b4/cover/3000.jpg",
+        "t": "نادر نادرپور | ستارهٔ دور"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-06-20T12:24:24Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/bce42ef6-a6e6-4935-b241-74d3a86f1234/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/1795478/نادر نادرپور | اسب، هواپیما، رودکی و من",
+        "title": "نادر نادرپور | اسب، هواپیما، رودکی و من"
+      },
+      {
+        "at": "2025-01-30T09:29:24Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/e2f119b9-f672-42c1-ae6a-97a315e231b4/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/297265/نادر نادرپور | آشتی",
+        "title": "نادر نادرپور | آشتی"
+      },
+      {
+        "at": "2025-01-25T19:04:20Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/09f07b78-aeef-496e-aa23-df18f0db7669/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/294185/نادر نادرپور | بت تراش (پیکر تراش)",
+        "title": "نادر نادرپور | بت تراش (پیکر تراش)"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "naef-brand-nayf-brnd": {
     "avg_length": 22,
     "episodes": 13,
@@ -50967,6 +52428,106 @@
     ],
     "status": "stopped"
   },
+  "padks": {
+    "avg_length": 3,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-07-21",
+    "first_year": 1398,
+    "last": "1399/07/18",
+    "last_at": "2020-10-09T14:01:51Z",
+    "last_link": "https://s3.castbox.fm/5d/94/29/d4e3a64051a490eeb6b2eababd.mp3",
+    "last_title": "درفراق استاد محمد رضا شجریان",
+    "max_length": 12,
+    "median_length": 2,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/5d/94/29/d4e3a64051a490eeb6b2eababd.mp3",
+        "at": "2020-10-09T14:01:51Z",
+        "i": "https://s3.castbox.fm/58/a8/6c/825a024e12bac9644ffdf16c16.jpg",
+        "t": "درفراق استاد محمد رضا شجریان"
+      },
+      {
+        "a": "https://s3.castbox.fm/4d/ef/1c/a0313a44e993e80092ef3cdb0d.mp3",
+        "at": "2020-10-09T14:00:12Z",
+        "i": "https://s3.castbox.fm/c6/21/c0/e3b7824ca09a3be6a3ce4d491f.jpg",
+        "t": "آواز مرا میبینی و هر دم ... استاد شجریان"
+      },
+      {
+        "a": "https://s3.castbox.fm/03/43/57/cefa5b4a588a923eaa4e1ab75c.mp3",
+        "at": "2020-09-12T12:09:42Z",
+        "i": "https://s3.castbox.fm/a2/17/f7/925b3044578c929461be762592.jpg",
+        "t": "maleka"
+      },
+      {
+        "a": "https://s3.castbox.fm/eb/b8/5f/a3a2a64997a29c7a4e06c25019.mp3",
+        "at": "2020-08-20T09:53:25Z",
+        "i": "https://s3.castbox.fm/bd/46/de/58bd104c0bab8313e71410caee.jpg",
+        "t": "فریدون مشیری دل که تنگ است"
+      },
+      {
+        "a": "https://s3.castbox.fm/9c/ff/1e/5566044027ac206bf4f37f2155.mp3",
+        "at": "2020-08-03T20:54:04Z",
+        "i": "https://s3.castbox.fm/84/c4/35/6aae064ad89c152dc8dfdbc47a.jpg",
+        "t": "دکلمه : ساقیا..."
+      },
+      {
+        "a": "https://s3.castbox.fm/1a/3f/cc/36ed424ffcb89c1cb6956e04b6.mp3",
+        "at": "2020-07-23T09:25:55Z",
+        "i": "https://s3.castbox.fm/49/d5/36/9bc2e24e99b5ae8fd7be66947c.jpg",
+        "t": "dozari"
+      },
+      {
+        "a": "https://s3.castbox.fm/14/33/38/0ae91742639d78fd72247e3303.mp3",
+        "at": "2020-07-15T10:15:38Z",
+        "i": "https://s3.castbox.fm/fb/72/2d/b3dc624c55bdfb333cedd0fac5.jpg",
+        "t": "از ماست که بر ماست_mixdown"
+      },
+      {
+        "a": "https://s3.castbox.fm/72/8d/42/6cf1ad4aaba012f492624b9507.mp3",
+        "at": "2020-07-12T20:42:46Z",
+        "i": "https://s3.castbox.fm/cf/7a/85/7e3e3b43c5a0de61e0d070b662.jpg",
+        "t": "ای عشق_mixdown"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-10-09T14:01:51Z",
+        "i": "https://s3.castbox.fm/58/a8/6c/825a024e12bac9644ffdf16c16.jpg",
+        "link": "https://s3.castbox.fm/5d/94/29/d4e3a64051a490eeb6b2eababd.mp3",
+        "title": "درفراق استاد محمد رضا شجریان"
+      },
+      {
+        "at": "2020-10-09T14:00:12Z",
+        "i": "https://s3.castbox.fm/c6/21/c0/e3b7824ca09a3be6a3ce4d491f.jpg",
+        "link": "https://s3.castbox.fm/4d/ef/1c/a0313a44e993e80092ef3cdb0d.mp3",
+        "title": "آواز مرا میبینی و هر دم ... استاد شجریان"
+      },
+      {
+        "at": "2020-09-12T12:09:42Z",
+        "i": "https://s3.castbox.fm/a2/17/f7/925b3044578c929461be762592.jpg",
+        "link": "https://s3.castbox.fm/03/43/57/cefa5b4a588a923eaa4e1ab75c.mp3",
+        "title": "maleka"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "stopped"
+  },
   "padkst": {
     "avg_gap_days": 8.8,
     "avg_length": 7,
@@ -52239,6 +53800,95 @@
       0
     ],
     "status": "active"
+  },
+  "pirng": {
+    "avg_length": 15,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2019-10-04",
+    "first_year": 1398,
+    "last": "1398/08/28",
+    "last_at": "2019-11-19T05:00:00Z",
+    "last_link": "https://share.transistor.fm/s/2f697e9a",
+    "last_title": "۱۲. با کمالِ تأسف - بهرام صادقی",
+    "max_length": 16,
+    "median_length": 15,
+    "min_length": 15,
+    "play": [
+      {
+        "a": "https://media.transistor.fm/2f697e9a/c2400d49.mp3",
+        "at": "2019-11-19T05:00:00Z",
+        "t": "۱۲. با کمالِ تأسف - بهرام صادقی"
+      },
+      {
+        "a": "https://media.transistor.fm/5c8d1fdc/c3666dc8.mp3",
+        "at": "2019-11-13T05:00:00Z",
+        "t": "۱۱. دو رهگذر - محمدرضا صفدری"
+      },
+      {
+        "a": "https://media.transistor.fm/0d435f75/81cfd87e.mp3",
+        "at": "2019-11-08T05:00:00Z",
+        "t": "۱۰. جزیره - غزاله علیزاده"
+      },
+      {
+        "a": "https://media.transistor.fm/d47ff180/f39cce4b.mp3",
+        "at": "2019-11-01T04:00:00Z",
+        "t": "۹. شهر کوچک ما - احمد محمود"
+      },
+      {
+        "a": "https://media.transistor.fm/1fe82c40/829d4d6f.mp3",
+        "at": "2019-10-24T04:00:00Z",
+        "t": "۸. عروسک چینی من - هوشنگ گلشیری"
+      },
+      {
+        "a": "https://media.transistor.fm/b683ef9c/c50959c1.mp3",
+        "at": "2019-10-15T04:00:00Z",
+        "t": "۷. باغ فرخ‌لقا - شهرنوش پارسی‌پور"
+      },
+      {
+        "a": "https://media.transistor.fm/b9c65ed5/8f4e7e54.mp3",
+        "at": "2019-10-08T04:00:00Z",
+        "t": "۶. گدا - غلامحسین ساعدی"
+      },
+      {
+        "a": "https://media.transistor.fm/b67ba8a2/380fcf42.mp3",
+        "at": "2019-10-04T06:20:00Z",
+        "t": "۵. زخم - قاضی ربیحاوی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2019-11-19T05:00:00Z",
+        "link": "https://share.transistor.fm/s/2f697e9a",
+        "title": "۱۲. با کمالِ تأسف - بهرام صادقی"
+      },
+      {
+        "at": "2019-11-13T05:00:00Z",
+        "link": "https://share.transistor.fm/s/5c8d1fdc",
+        "title": "۱۱. دو رهگذر - محمدرضا صفدری"
+      },
+      {
+        "at": "2019-11-08T05:00:00Z",
+        "link": "https://share.transistor.fm/s/0d435f75",
+        "title": "۱۰. جزیره - غزاله علیزاده"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "stopped"
   },
   "pli-list": {
     "avg_length": 34,
@@ -59653,6 +61303,106 @@
     ],
     "status": "active"
   },
+  "podcast-ghrn-bistm": {
+    "avg_length": 46,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-08-05",
+    "first_year": 1403,
+    "last": "1404/05/09",
+    "last_at": "2025-07-31T12:36:40Z",
+    "last_link": "https://www.spreaker.com/episode/fsl-awl-apyzwd-dwazdhm-jadh-y-59--72963814",
+    "last_title": "فصل اول، اپیزود دوازدهم | جاده‌ی ۵۹",
+    "max_length": 69,
+    "median_length": 48,
+    "min_length": 27,
+    "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72963814/audio.mp3",
+        "at": "2025-07-31T12:36:40Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/a378603f49fbdfda1c9dfdd83ef6fc79.jpg",
+        "t": "فصل اول، اپیزود دوازدهم | جاده‌ی ۵۹"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72963824/audio.mp3",
+        "at": "2025-05-21T07:20:34Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/e37f9ea2c8a919b1f73e183d0895f28b.jpg",
+        "t": "فصل اول، اپیزود یازدهم| رادیو، رادیو است"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72963822/audio.mp3",
+        "at": "2025-04-12T17:55:15Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d66ddefad8aafd08f0c9e0f65ac80bcf.jpg",
+        "t": "فصل اول، اپیزود دهم| روزی که ایران، ایران شد"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72963820/audio.mp3",
+        "at": "2025-03-11T16:09:48Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/4e535bdf095800ba809d544358cc187e.jpg",
+        "t": "فصل اول، اپیزود نهم | فوق العاده؛ قرارداد نفت الغا شد"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72963823/audio.mp3",
+        "at": "2025-02-22T08:57:36Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/b8d693ddd2f469a148893f3ae13f6ab7.jpg",
+        "t": "فصل اول، اپیزود هشتم | روزی که تهران تعطیل شد"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72963821/audio.mp3",
+        "at": "2025-01-20T07:00:55Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3e72ae999ba00442f6dda065d9d2a8cc.jpg",
+        "t": "فصل اول، اپیزود هفتم | شهر دانشگاه در جلالیه"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72963818/audio.mp3",
+        "at": "2024-12-23T12:24:20Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/4d22b76a2df57e5bf093d6012626958a.jpg",
+        "t": "فصل اول، اپیزود ‌ششم | کریسمس در صفحه‌ی اول"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72963816/audio.mp3",
+        "at": "2024-11-24T11:47:24Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/6783f4fb40d9f7ab9096a09c91eba8cf.jpg",
+        "t": "فصل اول، اپیزود پنجم | کنسرت‌های ایران"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-07-31T12:36:40Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/a378603f49fbdfda1c9dfdd83ef6fc79.jpg",
+        "link": "https://www.spreaker.com/episode/fsl-awl-apyzwd-dwazdhm-jadh-y-59--72963814",
+        "title": "فصل اول، اپیزود دوازدهم | جاده‌ی ۵۹"
+      },
+      {
+        "at": "2025-05-21T07:20:34Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/e37f9ea2c8a919b1f73e183d0895f28b.jpg",
+        "link": "https://www.spreaker.com/episode/fsl-awl-apyzwd-yazdhm-radyw-radyw-ast--72963824",
+        "title": "فصل اول، اپیزود یازدهم| رادیو، رادیو است"
+      },
+      {
+        "at": "2025-04-12T17:55:15Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d66ddefad8aafd08f0c9e0f65ac80bcf.jpg",
+        "link": "https://www.spreaker.com/episode/fsl-awl-apyzwd-dhm-rwzy-kh-ayran-ayran-shd--72963822",
+        "title": "فصل اول، اپیزود دهم| روزی که ایران، ایران شد"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "podcast-ghsh-go": {
     "avg_gap_days": 132.5,
     "avg_length": 35,
@@ -62542,6 +64292,106 @@
     ],
     "status": "active"
   },
+  "podcast-ktab-namh": {
+    "avg_length": 40,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-10-11",
+    "first_year": 1403,
+    "last": "1403/12/20",
+    "last_at": "2025-03-10T21:40:57Z",
+    "last_link": "https://www.spreaker.com/episode/fsl-awl-apyzwd-dwazdh-rwayt-hayy-kmtr-shnydh-shdh-az-zndgy-zhalh-amwzgar--72964021",
+    "last_title": "فصل اول|  اپیزود دوازده | روایت‌هایی کمتر شنیده شده از زندگی ژاله آموزگار",
+    "max_length": 49,
+    "median_length": 40,
+    "min_length": 31,
+    "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72964021/audio.mp3",
+        "at": "2025-03-10T21:40:57Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/b19cb2b18352dd8864d8654da2b63cda.jpg",
+        "t": "فصل اول|  اپیزود دوازده | روایت‌هایی کمتر شنیده شده از زندگی ژاله آموزگار"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72964026/audio.mp3",
+        "at": "2025-02-24T10:05:01Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/98d5b2bdea8e4dda243ce1582e3e885f.jpg",
+        "t": "فصل اول|اپیزود یازدهم| یک عمر عاشقی؛ امجدیه، قیطریه، اورنج‌کانتی"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72964024/audio.mp3",
+        "at": "2025-02-10T21:06:06Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/a3d2b6b793da13e5bf60a142c4957068.jpg",
+        "t": "فصل اول | اپیزود دهم | سال‌های ابری در زندان اوین"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72964027/audio.mp3",
+        "at": "2025-01-27T12:00:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/437b0c206b8b09353a6e3892584f3f6c.jpg",
+        "t": "فصل اول| اپیزود ۹ | پشت پرده سوء قصد به محمدعلی شاه"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72964023/audio.mp3",
+        "at": "2025-01-13T10:24:34Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/c821804e6d99a4d1ebe2de25a368ed3d.jpg",
+        "t": "فصل اول،اپیزود هشتم| صدسال داستانی‌نویسی ایران"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72964030/audio.mp3",
+        "at": "2024-12-30T13:25:46Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/b3940f61c0a9baab69aeff288323b756.jpg",
+        "t": "فصل اول، اپیزود ‌هفتم | مخاطب شعر کوچه فریدون مشیری چه کسی‌ست؟"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72964022/audio.mp3",
+        "at": "2024-12-16T12:15:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/9c646c986959d29cdbe7b8e9462baa75.jpg",
+        "t": "فصل اول، اپیزود ششم | چهل سال زندگی احمد شاملو با گیلگمش"
+      },
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/72964025/audio.mp3",
+        "at": "2024-12-02T11:29:33Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/c03766a847736efae464df606099bba8.jpg",
+        "t": "فصل اول| اپیزود ۵|مجتمع مسکونی خاوران و شکست‌هایش"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-03-10T21:40:57Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/b19cb2b18352dd8864d8654da2b63cda.jpg",
+        "link": "https://www.spreaker.com/episode/fsl-awl-apyzwd-dwazdh-rwayt-hayy-kmtr-shnydh-shdh-az-zndgy-zhalh-amwzgar--72964021",
+        "title": "فصل اول|  اپیزود دوازده | روایت‌هایی کمتر شنیده شده از زندگی ژاله آموزگار"
+      },
+      {
+        "at": "2025-02-24T10:05:01Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/98d5b2bdea8e4dda243ce1582e3e885f.jpg",
+        "link": "https://www.spreaker.com/episode/fsl-awl-apyzwd-yazdhm-yk-mr-ashqy-amjdyh-qytryh-awrnj-kanty--72964026",
+        "title": "فصل اول|اپیزود یازدهم| یک عمر عاشقی؛ امجدیه، قیطریه، اورنج‌کانتی"
+      },
+      {
+        "at": "2025-02-10T21:06:06Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/a3d2b6b793da13e5bf60a142c4957068.jpg",
+        "link": "https://www.spreaker.com/episode/fsl-awl-apyzwd-dhm-sal-hay-abry-dr-zndan-awyn--72964024",
+        "title": "فصل اول | اپیزود دهم | سال‌های ابری در زندان اوین"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "podcast-ktibh": {
     "avg_length": 28,
     "episodes": 13,
@@ -65041,6 +66891,106 @@
       0,
       0,
       1,
+      0
+    ],
+    "status": "active"
+  },
+  "podcast-radio-rg": {
+    "avg_length": 30,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2025-02-15",
+    "first_year": 1403,
+    "last": "1404/03/17",
+    "last_at": "2025-06-07T02:30:00Z",
+    "last_link": "https://share.transistor.fm/s/93a8125d",
+    "last_title": "قسمت ۱۲ - ایران",
+    "max_length": 32,
+    "median_length": 30,
+    "min_length": 24,
+    "play": [
+      {
+        "a": "https://media.transistor.fm/93a8125d/4b2b2603.mp3",
+        "at": "2025-06-07T02:30:00Z",
+        "i": "https://img.transistorcdn.com/Y5Mi22flDbZB5UcJdY8pxMiHV0Ck_r4CC1nA5KD5VGk/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS85OTQ4/M2EzYmM1NTJkN2I5/NmMwNjYwNDdjYWQ0/ZTU1NS5qcGc.jpg",
+        "t": "قسمت ۱۲ - ایران"
+      },
+      {
+        "a": "https://media.transistor.fm/47f3270f/98808f6c.mp3",
+        "at": "2025-05-03T02:30:00Z",
+        "i": "https://img.transistorcdn.com/-ArILovB9dLm9OopsVWiA8saz3O7wlCE5Re5N_oP2VQ/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS82MzE1/ZDJiMmQ1MzllNWQx/MzRmY2UwYzRlYmQ5/ZmI0OC5qcGc.jpg",
+        "t": "قسمت ۱۱- زیبایی"
+      },
+      {
+        "a": "https://media.transistor.fm/dd7ec601/1b12b9aa.mp3",
+        "at": "2025-04-26T02:30:00Z",
+        "i": "https://img.transistorcdn.com/Bseg1Ca9b2NP-x0TIoW-JLp_UGaElJdViEeQyHOKYGg/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9mMzVm/YjY3NDhhZDg5NjE4/MWEwZmUwOTNiZWZk/MWIyYy5qcGc.jpg",
+        "t": "قسمت ۱۰ - صدا"
+      },
+      {
+        "a": "https://media.transistor.fm/1fd13330/353d2bc7.mp3",
+        "at": "2025-04-19T02:30:00Z",
+        "i": "https://img.transistorcdn.com/TMOgR5otFE3EOqBnwIxVgUxjA1x-6kF3o1sW3uvw5ss/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS83ZmQ3/Zjc2YmFjYjFjYTY4/Zjk5MzRkZjNlMjAx/Y2YyZi5qcGc.jpg",
+        "t": "قسمت ۹ - سفر"
+      },
+      {
+        "a": "https://media.transistor.fm/f6cc655c/18cce209.mp3",
+        "at": "2025-04-12T02:30:00Z",
+        "i": "https://img.transistorcdn.com/jDmYRf9OEWRdNql4yk3p0Hik4YroI5vlcsD7S8xzhoA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS80NTlk/YjU1MzkzNjVkYjBk/ZjMxNDE1YWQ2NWNm/MTY2Mi5qcGc.jpg",
+        "t": "قسمت ۸ - امید"
+      },
+      {
+        "a": "https://media.transistor.fm/444209e5/60a33617.mp3",
+        "at": "2025-04-05T02:30:00Z",
+        "i": "https://img.transistorcdn.com/7IpWZLfPJlAEFPOKUgecsaiuKti9MbshYxRxwwCb470/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS82Mzcy/YjljZDhkNGQ3MWRm/NjRkZDEyZWNmOTAz/ZmFjYS5qcGc.jpg",
+        "t": "قسمت ۷ - انسان"
+      },
+      {
+        "a": "https://media.transistor.fm/bcb46c58/d3d2bfc0.mp3",
+        "at": "2025-03-29T02:30:00Z",
+        "i": "https://img.transistorcdn.com/MBPQa9JBh3DEY31gGeBHiX89gDNblg9W4CMUH4t1Q88/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9jZTk3/NDc5N2IxYTRjZDE0/Yjg3M2JmNjFjZjIz/ZmNhZi5qcGc.jpg",
+        "t": "قسمت ۶ - رنج"
+      },
+      {
+        "a": "https://media.transistor.fm/ba59e606/98d23881.mp3",
+        "at": "2025-03-15T02:30:00Z",
+        "i": "https://img.transistorcdn.com/7hskpsTmf3-IH3uhKprfSe__ZgmJMmsqq4QFPpozwBw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81Zjg4/NmU2OTZjM2IzN2Vm/NjI5ZjQ5N2FlZmUz/MGQ0Yy5qcGc.jpg",
+        "t": "قسمت ۵ - آزادی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-06-07T02:30:00Z",
+        "i": "https://img.transistorcdn.com/Y5Mi22flDbZB5UcJdY8pxMiHV0Ck_r4CC1nA5KD5VGk/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS85OTQ4/M2EzYmM1NTJkN2I5/NmMwNjYwNDdjYWQ0/ZTU1NS5qcGc.jpg",
+        "link": "https://share.transistor.fm/s/93a8125d",
+        "title": "قسمت ۱۲ - ایران"
+      },
+      {
+        "at": "2025-05-03T02:30:00Z",
+        "i": "https://img.transistorcdn.com/-ArILovB9dLm9OopsVWiA8saz3O7wlCE5Re5N_oP2VQ/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS82MzE1/ZDJiMmQ1MzllNWQx/MzRmY2UwYzRlYmQ5/ZmI0OC5qcGc.jpg",
+        "link": "https://share.transistor.fm/s/47f3270f",
+        "title": "قسمت ۱۱- زیبایی"
+      },
+      {
+        "at": "2025-04-26T02:30:00Z",
+        "i": "https://img.transistorcdn.com/Bseg1Ca9b2NP-x0TIoW-JLp_UGaElJdViEeQyHOKYGg/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9mMzVm/YjY3NDhhZDg5NjE4/MWEwZmUwOTNiZWZk/MWIyYy5qcGc.jpg",
+        "link": "https://share.transistor.fm/s/dd7ec601",
+        "title": "قسمت ۱۰ - صدا"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0
     ],
     "status": "active"
@@ -72377,6 +74327,106 @@
     ],
     "status": "active"
   },
+  "radio-knkor": {
+    "avg_length": 22,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-03-06",
+    "first_year": 1398,
+    "last": "1398/12/27",
+    "last_at": "2020-03-17T19:30:00Z",
+    "last_link": "https://s3.castbox.fm/db/d8/e8/837b5a43ad80b713a1f1277799.mp3",
+    "last_title": "12 موهوم انگیزه ( بخش 1 )",
+    "max_length": 27,
+    "median_length": 23,
+    "min_length": 16,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/db/d8/e8/837b5a43ad80b713a1f1277799.mp3",
+        "at": "2020-03-17T19:30:00Z",
+        "i": "https://s3.castbox.fm/d2/80/2d/4014c6430f895617332bfde882.jpg",
+        "t": "12 موهوم انگیزه ( بخش 1 )"
+      },
+      {
+        "a": "https://s3.castbox.fm/74/ef/b0/5a69624ecca4b7d410798f196e.mp3",
+        "at": "2020-03-16T19:30:00Z",
+        "i": "https://s3.castbox.fm/cc/2b/ce/a8ae4e4a0789cb203e961e7434.jpg",
+        "t": "11 انگیزه"
+      },
+      {
+        "a": "https://s3.castbox.fm/55/ed/b9/3840894519bb7ca6981bd64387.mp3",
+        "at": "2020-03-15T19:30:00Z",
+        "i": "https://s3.castbox.fm/d0/44/a2/55ba684380a843ec73dd7c8372.jpg",
+        "t": "10 توهم نتیجه"
+      },
+      {
+        "a": "https://s3.castbox.fm/92/eb/c2/33de9340bd8e1fac58d1163636.mp3",
+        "at": "2020-03-14T19:30:00Z",
+        "i": "https://s3.castbox.fm/f8/c2/2d/f6d5a0458d9ef29a244006999b.jpg",
+        "t": "09 رادیو کنکور (( اهمیت خواب ))"
+      },
+      {
+        "a": "https://s3.castbox.fm/e9/b7/e2/32f1b943e594907f8771bf6495.mp3",
+        "at": "2020-03-13T19:30:00Z",
+        "i": "https://s3.castbox.fm/3f/9f/dc/ea91164866826be41fe4857090.jpg",
+        "t": "08 ترس از شکست ( بخش 1 )"
+      },
+      {
+        "a": "https://s3.castbox.fm/8d/c2/a3/b690254ccfae44de0c8a2988ac.mp3",
+        "at": "2020-03-12T19:30:00Z",
+        "i": "https://s3.castbox.fm/8f/8a/fb/51af2649ba96b84b2bcf30f656.jpg",
+        "t": "07 سخت گیری صحیح"
+      },
+      {
+        "a": "https://s3.castbox.fm/bd/86/50/858b744db9bd88d1aab62b03a7.mp3",
+        "at": "2020-03-11T19:30:00Z",
+        "i": "https://s3.castbox.fm/b6/25/5a/09ffbc471392c4174407f7bbc4.jpg",
+        "t": "06 کنکور آزمایشی ممنوع ( بخش 1 )"
+      },
+      {
+        "a": "https://s3.castbox.fm/ee/62/38/4107494cf0942c058eecf737e9.mp3",
+        "at": "2020-03-10T19:30:00Z",
+        "i": "https://s3.castbox.fm/b3/08/9f/ac2962455c934e5f3d69739b41.jpg",
+        "t": "05 فرق یادگیری و یادگیری کاربردی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-03-17T19:30:00Z",
+        "i": "https://s3.castbox.fm/d2/80/2d/4014c6430f895617332bfde882.jpg",
+        "link": "https://s3.castbox.fm/db/d8/e8/837b5a43ad80b713a1f1277799.mp3",
+        "title": "12 موهوم انگیزه ( بخش 1 )"
+      },
+      {
+        "at": "2020-03-16T19:30:00Z",
+        "i": "https://s3.castbox.fm/cc/2b/ce/a8ae4e4a0789cb203e961e7434.jpg",
+        "link": "https://s3.castbox.fm/74/ef/b0/5a69624ecca4b7d410798f196e.mp3",
+        "title": "11 انگیزه"
+      },
+      {
+        "at": "2020-03-15T19:30:00Z",
+        "i": "https://s3.castbox.fm/d0/44/a2/55ba684380a843ec73dd7c8372.jpg",
+        "link": "https://s3.castbox.fm/55/ed/b9/3840894519bb7ca6981bd64387.mp3",
+        "title": "10 توهم نتیجه"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "stopped"
+  },
   "radio-knsh": {
     "avg_gap_days": 19.1,
     "avg_length": 17,
@@ -72677,6 +74727,95 @@
       0
     ],
     "status": "active"
+  },
+  "radio-mhrm": {
+    "avg_length": 26,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-08-26",
+    "first_year": 1399,
+    "last": "1399/06/09",
+    "last_at": "2020-08-30T18:48:34Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mmsums/episodes/ep-eismt6",
+    "last_title": "رادیو محرم‌ | قسمت یازدهم (پایانی)",
+    "max_length": 47,
+    "median_length": 24,
+    "min_length": 6,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/333099bc/podcast/play/18815334/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-7-30%2F102892392-44100-2-c653bfe1c9a72.mp3",
+        "at": "2020-08-30T18:48:34Z",
+        "t": "رادیو محرم‌ | قسمت یازدهم (پایانی)"
+      },
+      {
+        "a": "https://anchor.fm/s/333099bc/podcast/play/18772996/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-7-29%2F102642430-44100-2-e7f3c29adcd15.mp3",
+        "at": "2020-08-29T18:45:53Z",
+        "t": "رادیو محرم | قسمت دهم"
+      },
+      {
+        "a": "https://anchor.fm/s/333099bc/podcast/play/18722397/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-7-28%2F102339844-44100-2-c7c903c20a4bb.mp3",
+        "at": "2020-08-28T16:08:50Z",
+        "t": "رادیو محرم | قسمت نهم"
+      },
+      {
+        "a": "https://anchor.fm/s/333099bc/podcast/play/18674361/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-7-27%2F102067804-44100-2-5daa793734eb4.mp3",
+        "at": "2020-08-27T17:39:02Z",
+        "t": "رادیو محرم | قسمت هشتم"
+      },
+      {
+        "a": "https://anchor.fm/s/333099bc/podcast/play/18629673/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-7-26%2F101791467-44100-2-bcac8e011b68b.mp3",
+        "at": "2020-08-26T18:58:06Z",
+        "t": "رادیو محرم | قسمت هفتم"
+      },
+      {
+        "a": "https://anchor.fm/s/333099bc/podcast/play/18613643/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-26%2F101702783-44100-2-4ea89a34be78b.m4a",
+        "at": "2020-08-26T13:00:17Z",
+        "t": "رادیو محرم | قسمت ششم"
+      },
+      {
+        "a": "https://anchor.fm/s/333099bc/podcast/play/18613587/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-26%2F101699442-44100-2-9bd2b2a318994.m4a",
+        "at": "2020-08-26T12:58:35Z",
+        "t": "رادیو محرم | قسمت پنجم"
+      },
+      {
+        "a": "https://anchor.fm/s/333099bc/podcast/play/18613508/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-26%2F101696410-44100-2-c2d578a81563.m4a",
+        "at": "2020-08-26T12:56:56Z",
+        "t": "رادیو محرم | قسمت چهارم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2020-08-30T18:48:34Z",
+        "link": "https://podcasters.spotify.com/pod/show/mmsums/episodes/ep-eismt6",
+        "title": "رادیو محرم‌ | قسمت یازدهم (پایانی)"
+      },
+      {
+        "at": "2020-08-29T18:45:53Z",
+        "link": "https://podcasters.spotify.com/pod/show/mmsums/episodes/ep-eirdi4",
+        "title": "رادیو محرم | قسمت دهم"
+      },
+      {
+        "at": "2020-08-28T16:08:50Z",
+        "link": "https://podcasters.spotify.com/pod/show/mmsums/episodes/ep-eips4t",
+        "title": "رادیو محرم | قسمت نهم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "stopped"
   },
   "radio-mili": {
     "avg_length": 9,
@@ -73544,6 +75683,95 @@
       2
     ],
     "status": "active"
+  },
+  "radio-oiolt": {
+    "avg_length": 9,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2020-05-04",
+    "first_year": 1399,
+    "last": "1400/05/08",
+    "last_at": "2021-07-30T07:37:03Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/radioviolet/episodes/ep-e154vdo",
+    "last_title": "قسمت دوازدهم | انواع آکنه",
+    "max_length": 18,
+    "median_length": 8,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/1f17d33c/podcast/play/37960568/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-30%2F57d3b6888b92b19ade952707b0e5bae8.m4a",
+        "at": "2021-07-30T07:37:03Z",
+        "t": "قسمت دوازدهم | انواع آکنه"
+      },
+      {
+        "a": "https://anchor.fm/s/1f17d33c/podcast/play/33422586/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-05-14%2F128ac7f589f924d752f0ab835f31888d.m4a",
+        "at": "2021-05-14T15:17:55Z",
+        "t": "قسمت یازدهم | فولیکولیت مالاسزیا(اکنه قارچی)"
+      },
+      {
+        "a": "https://anchor.fm/s/1f17d33c/podcast/play/30094612/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-03-28%2F9333a73476a0641051bfca4a00117e54.m4a",
+        "at": "2021-03-28T13:56:51Z",
+        "t": "قسمت دهم |اسکین تگ و راه های درمان آن"
+      },
+      {
+        "a": "https://anchor.fm/s/1f17d33c/podcast/play/26455863/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-02-10%2F66b13fd06e678e052ddcc1ab71d8d5f7.m4a",
+        "at": "2021-02-10T10:53:16Z",
+        "t": "قسمت نهم| غبغب و راه های از بین بردن آن"
+      },
+      {
+        "a": "https://anchor.fm/s/1f17d33c/podcast/play/21238090/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-10-17%2F0111ead00267335a366802402a03a6a1.m4a",
+        "at": "2020-10-17T15:12:06Z",
+        "t": "قسمت هشتم | لابیاپلاستی و عوارض آن"
+      },
+      {
+        "a": "https://anchor.fm/s/1f17d33c/podcast/play/17198897/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-08-02%2F5a53c3890cc48276701f11ac20c6b0f4.m4a",
+        "at": "2020-08-02T15:25:15Z",
+        "t": "قسمت هفتم | سرطان پوست"
+      },
+      {
+        "a": "https://anchor.fm/s/1f17d33c/podcast/play/16499487/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-07-23%2F7ecace127ebdc57488ba8dafcae65c4a.m4a",
+        "at": "2020-07-13T11:42:17Z",
+        "t": "قسمت ششم | برطرف کردن شلی پوست"
+      },
+      {
+        "a": "https://anchor.fm/s/1f17d33c/podcast/play/15493497/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-06-21%2F3e534bfdc3730386bd6daddf392a28ce.m4a",
+        "at": "2020-06-21T12:33:33Z",
+        "t": "قسمت پنجم | عرق سوز"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2021-07-30T07:37:03Z",
+        "link": "https://podcasters.spotify.com/pod/show/radioviolet/episodes/ep-e154vdo",
+        "title": "قسمت دوازدهم | انواع آکنه"
+      },
+      {
+        "at": "2021-05-14T15:17:55Z",
+        "link": "https://podcasters.spotify.com/pod/show/radioviolet/episodes/ep-e10qfpq",
+        "title": "قسمت یازدهم | فولیکولیت مالاسزیا(اکنه قارچی)"
+      },
+      {
+        "at": "2021-03-28T13:56:51Z",
+        "link": "https://podcasters.spotify.com/pod/show/radioviolet/episodes/ep-etktqk",
+        "title": "قسمت دهم |اسکین تگ و راه های درمان آن"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "stopped"
   },
   "radio-rak": {
     "avg_gap_days": 12.0,
@@ -74920,6 +77148,106 @@
       0
     ],
     "status": "active"
+  },
+  "radio-slamti": {
+    "avg_length": 20,
+    "episodes": 12,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2022-03-01",
+    "first_year": 1400,
+    "last": "1401/03/23",
+    "last_at": "2022-06-13T15:00:00Z",
+    "last_link": "https://www.buzzsprout.com/1941797/episodes/10780679-everything-about-menopause.mp3",
+    "last_title": "Everything about Menopause | واقعیت ها و افسانه های یائسگی",
+    "max_length": 41,
+    "median_length": 18,
+    "min_length": 6,
+    "play": [
+      {
+        "a": "https://www.buzzsprout.com/1941797/episodes/10780679-everything-about-menopause.mp3",
+        "at": "2022-06-13T15:00:00Z",
+        "i": "https://storage.buzzsprout.com/ntz3rhog539eirunr5axr4i3qnnq?.jpg",
+        "t": "Everything about Menopause | واقعیت ها و افسانه های یائسگی"
+      },
+      {
+        "a": "https://www.buzzsprout.com/1941797/episodes/10666368-meditation-for-pain.mp3",
+        "at": "2022-05-23T14:00:00Z",
+        "i": "https://storage.buzzsprout.com/xsb9bmjzi5qq0e2r3cl0wg1qtwcy?.jpg",
+        "t": "مدیتیشن | Meditation for Pain"
+      },
+      {
+        "a": "https://www.buzzsprout.com/1941797/episodes/10585245-myths-and-facts-about-core-muscles.mp3",
+        "at": "2022-05-09T13:00:00Z",
+        "i": "https://storage.buzzsprout.com/nhcfusefjr3jzr2wan6gfqfcv9el?.jpg",
+        "t": "افسانه های عضلات مرکزی | Myths and Facts about Core Muscles"
+      },
+      {
+        "a": "https://www.buzzsprout.com/1941797/episodes/10499922-self-esteem-self-confidence.mp3",
+        "at": "2022-04-25T16:00:00Z",
+        "i": "https://storage.buzzsprout.com/6s8pc7qy86ko3zoadv4ci5pqv4vq?.jpg",
+        "t": "نقش عزت نفس در زندگی سالم | Self Esteem & Self Confidence"
+      },
+      {
+        "a": "https://www.buzzsprout.com/1941797/episodes/10434446-how-do-you-find-a-good-healthcare-provider.mp3",
+        "at": "2022-04-13T21:00:00Z",
+        "i": "https://storage.buzzsprout.com/mcvo1cic63nrf5opl7tk2nm0y84e?.jpg",
+        "t": "خصوصیات متخصص خوب. How do you find a good healthcare provider?"
+      },
+      {
+        "a": "https://www.buzzsprout.com/1941797/episodes/10376038-everything-about-osteoprosis.mp3",
+        "at": "2022-04-04T16:00:00Z",
+        "i": "https://storage.buzzsprout.com/ub3o6k0gf0k3q7gpm8ha93q5vz6h?.jpg",
+        "t": "افسانه های پوکی استخوان . Everything about Osteoprosis"
+      },
+      {
+        "a": "https://www.buzzsprout.com/1941797/episodes/10330918-muscle-stiffness-and-tightness.mp3",
+        "at": "2022-03-28T04:00:00Z",
+        "i": "https://storage.buzzsprout.com/0tnfgdmhwziaijn6scsvfqqwip47?.jpg",
+        "t": "Muscle stiffness and tightness. دلیل خشکی بدن و درمان های اشتباه"
+      },
+      {
+        "a": "https://www.buzzsprout.com/1941797/episodes/10231637-facts-and-myths-about-arthritis.mp3",
+        "at": "2022-03-21T04:00:00Z",
+        "i": "https://storage.buzzsprout.com/6y8rolt6n73jyc3ixhdwjnrzv630?.jpg",
+        "t": "افسانه های آرتروز . Facts and Myths about Arthritis"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2022-06-13T15:00:00Z",
+        "i": "https://storage.buzzsprout.com/ntz3rhog539eirunr5axr4i3qnnq?.jpg",
+        "link": "https://www.buzzsprout.com/1941797/episodes/10780679-everything-about-menopause.mp3",
+        "title": "Everything about Menopause | واقعیت ها و افسانه های یائسگی"
+      },
+      {
+        "at": "2022-05-23T14:00:00Z",
+        "i": "https://storage.buzzsprout.com/xsb9bmjzi5qq0e2r3cl0wg1qtwcy?.jpg",
+        "link": "https://www.buzzsprout.com/1941797/episodes/10666368-meditation-for-pain.mp3",
+        "title": "مدیتیشن | Meditation for Pain"
+      },
+      {
+        "at": "2022-05-09T13:00:00Z",
+        "i": "https://storage.buzzsprout.com/nhcfusefjr3jzr2wan6gfqfcv9el?.jpg",
+        "link": "https://www.buzzsprout.com/1941797/episodes/10585245-myths-and-facts-about-core-muscles.mp3",
+        "title": "افسانه های عضلات مرکزی | Myths and Facts about Core Muscles"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "stopped"
   },
   "radio-tragedy-radio-trazhdi": {
     "avg_gap_days": 49.9,
