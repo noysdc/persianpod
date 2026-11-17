@@ -71699,19 +71699,25 @@
   "radio-hkait": {
     "avg_gap_days": 4.0,
     "avg_length": 35,
-    "episodes": 211,
-    "eps_365": 92,
-    "eps_90": 41,
+    "episodes": 212,
+    "eps_365": 93,
+    "eps_90": 42,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/8f4010a5-edba-44bf-8af3-505de99b4ea4/play.mp3?v=1",
-    "last_title": "شب بلند - منیرو روانی پور",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7c26c6f0-c785-4288-9a17-f93bfdaee1db/play.mp3?v=1",
+    "last_title": "همهُ صاحب خانه ها بد نیستند - عزیز نسین",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7c26c6f0-c785-4288-9a17-f93bfdaee1db/play.mp3?v=1",
+        "at": "2026-11-17T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/7c26c6f0-c785-4288-9a17-f93bfdaee1db/artwork.jpg?v=1",
+        "t": "همهُ صاحب خانه ها بد نیستند - عزیز نسین"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/8f4010a5-edba-44bf-8af3-505de99b4ea4/play.mp3?v=1",
         "at": "2026-11-16T01:30:00Z",
@@ -71753,15 +71759,15 @@
         "at": "2026-11-10T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/e751144b-56a8-49be-bec9-7035ae7fd3ef/artwork.jpg?v=1",
         "t": "ملت این در و آن در زدن - آرکادی آورچنکو"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ecb7ec77-49c2-4a15-93af-5a333b4d2ba8/play.mp3?v=1",
-        "at": "2026-11-09T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ecb7ec77-49c2-4a15-93af-5a333b4d2ba8/artwork.jpg?v=1",
-        "t": "پیرو - گی دو موپوسان"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/7c26c6f0-c785-4288-9a17-f93bfdaee1db/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7c26c6f0-c785-4288-9a17-f93bfdaee1db/play.mp3?v=1",
+        "title": "همهُ صاحب خانه ها بد نیستند - عزیز نسین"
+      },
       {
         "at": "2026-11-16T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/8f4010a5-edba-44bf-8af3-505de99b4ea4/artwork.jpg?v=1",
@@ -71773,12 +71779,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/22629747-20dd-4557-9a8d-ef76218d2a21/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/22629747-20dd-4557-9a8d-ef76218d2a21/play.mp3?v=1",
         "title": "آنیوتا - آنتوان چخوف"
-      },
-      {
-        "at": "2026-11-14T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/dae8dfce-61f6-495d-a7e0-a6f9a2c61ad7/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/dae8dfce-61f6-495d-a7e0-a6f9a2c61ad7/play.mp3?v=1",
-        "title": "تقصیر خودته - عزیز نسین"
       }
     ],
     "recent_30d": [
@@ -71793,7 +71793,7 @@
       9,
       9,
       8,
-      24
+      25
     ],
     "status": "active"
   },
