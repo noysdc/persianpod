@@ -2089,8 +2089,8 @@
     "avg_gap_days": 3.1,
     "avg_length": 7,
     "episodes": 161,
-    "eps_365": 112,
-    "eps_90": 41,
+    "eps_365": 111,
+    "eps_90": 40,
     "first_at": "2025-08-26",
     "first_year": 1404,
     "last": "1405/07/30",
@@ -2171,18 +2171,18 @@
       }
     ],
     "recent_30d": [
-      18,
-      1,
+      19,
       0,
       0,
       0,
       0,
-      10,
+      0,
+      11,
       17,
       22,
-      19,
-      17,
-      5
+      18,
+      18,
+      4
     ],
     "status": "active"
   },
@@ -2477,10 +2477,10 @@
     "status": "active"
   },
   "aapartaid-jnsiti": {
-    "avg_gap_days": 23.7,
+    "avg_gap_days": 25.8,
     "avg_length": 34,
     "episodes": 27,
-    "eps_365": 12,
+    "eps_365": 11,
     "eps_90": 0,
     "first_at": "2025-03-04",
     "first_year": 1403,
@@ -2861,8 +2861,8 @@
       0,
       0,
       0,
-      14,
-      32,
+      15,
+      31,
       23,
       12,
       4
@@ -4204,8 +4204,8 @@
       }
     ],
     "recent_30d": [
-      3,
-      1,
+      4,
+      0,
       0,
       0,
       2,
@@ -4881,8 +4881,8 @@
       2,
       0,
       0,
-      5,
-      8,
+      6,
+      7,
       19,
       17,
       7,
@@ -6228,7 +6228,7 @@
     "avg_length": 9,
     "episodes": 162,
     "eps_365": 36,
-    "eps_90": 7,
+    "eps_90": 6,
     "first_at": "2022-03-02",
     "first_year": 1400,
     "last": "1405/08/26",
@@ -6317,8 +6317,8 @@
       4,
       6,
       5,
-      2,
-      2,
+      3,
+      1,
       3,
       2
     ],
@@ -6413,12 +6413,12 @@
       8,
       8,
       2,
-      5,
-      8,
+      7,
+      6,
       2,
       0,
-      3,
-      5,
+      4,
+      4,
       8,
       0,
       0
@@ -10447,21 +10447,27 @@
     "status": "active"
   },
   "biografi": {
-    "avg_gap_days": 9.4,
-    "avg_length": 39,
-    "episodes": 128,
-    "eps_365": 37,
-    "eps_90": 13,
+    "avg_gap_days": 9.8,
+    "avg_length": 38,
+    "episodes": 129,
+    "eps_365": 38,
+    "eps_90": 14,
     "first_at": "2023-03-08",
     "first_year": 1401,
-    "last": "1405/08/04",
-    "last_at": "2026-10-26T07:32:10Z",
-    "last_link": "https://shows.acast.com/biografi/episodes/6adf01f9409b9c216a150a9d",
-    "last_title": "والت دیزنی (قسمت آخر)",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T08:29:31Z",
+    "last_link": "https://shows.acast.com/biografi/episodes/6afc1076290474d5abae9f04",
+    "last_title": "مقدمه سریال وندربیلت‌ها؛ خانواده‌ای که بزرگ‌ترین ثروت تاریخ را بر باد داد",
     "max_length": 64,
     "median_length": 40,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6afc1076290474d5abae9f04/media.mp3",
+        "at": "2026-11-17T08:29:31Z",
+        "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1794903702775-fd282d2b-bf33-4d73-a91d-e7b572cdca78.jpeg",
+        "t": "مقدمه سریال وندربیلت‌ها؛ خانواده‌ای که بزرگ‌ترین ثروت تاریخ را بر باد داد"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6adf01f9409b9c216a150a9d/media.mp3",
         "at": "2026-10-26T07:32:10Z",
@@ -10503,15 +10509,15 @@
         "at": "2026-10-10T13:08:44Z",
         "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1791637237584-2989585b-561e-419c-8da4-40ebd1f025fe.jpeg",
         "t": "پرنسس دایانا (قسمت اول) ✨"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6a422c37f045c2057f37ce3c/media.mp3",
-        "at": "2026-09-17T06:56:55Z",
-        "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1782721038734-3540e52a-69d1-43b6-a85e-e6d3d1ffa679.jpeg",
-        "t": "معمای فرار آناستازیا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T08:29:31Z",
+        "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1794903702775-fd282d2b-bf33-4d73-a91d-e7b572cdca78.jpeg",
+        "link": "https://shows.acast.com/biografi/episodes/6afc1076290474d5abae9f04",
+        "title": "مقدمه سریال وندربیلت‌ها؛ خانواده‌ای که بزرگ‌ترین ثروت تاریخ را بر باد داد"
+      },
       {
         "at": "2026-10-26T07:32:10Z",
         "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1792999414852-cb854a3c-b28b-4615-8060-c0dc5f9b8e15.jpeg",
@@ -10523,16 +10529,10 @@
         "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1792911757491-911d5f0f-bc55-4349-8bf5-7b8c9ac63a9a.jpeg",
         "link": "https://shows.acast.com/biografi/episodes/6addab7e025813dc0cf58220",
         "title": "والت دیزنی (قسمت دوم)✨"
-      },
-      {
-        "at": "2026-10-24T06:44:05Z",
-        "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1792823872177-06b881c5-8b99-4bbd-bd22-7fe01184f821.jpeg",
-        "link": "https://shows.acast.com/biografi/episodes/6adc53b5959e7ea69d8c678b",
-        "title": "(والت دیزنی( قسمت اول ✨"
       }
     ],
     "recent_30d": [
-      6,
+      5,
       2,
       0,
       0,
@@ -10543,7 +10543,7 @@
       4,
       6,
       4,
-      3
+      4
     ],
     "status": "active"
   },
@@ -12517,8 +12517,8 @@
       0,
       33,
       20,
-      26,
-      26
+      28,
+      24
     ],
     "status": "active"
   },
@@ -16931,7 +16931,7 @@
     "avg_length": 73,
     "episodes": 170,
     "eps_365": 16,
-    "eps_90": 3,
+    "eps_90": 2,
     "first_at": "2021-01-09",
     "first_year": 1399,
     "last": "1405/07/27",
@@ -17020,8 +17020,8 @@
       3,
       2,
       3,
-      1,
-      1,
+      2,
+      0,
       1,
       1
     ],
@@ -17315,8 +17315,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -17909,7 +17909,7 @@
     "avg_length": 38,
     "episodes": 159,
     "eps_365": 25,
-    "eps_90": 8,
+    "eps_90": 7,
     "first_at": "2020-06-13",
     "first_year": 1399,
     "last": "1405/08/15",
@@ -17998,8 +17998,8 @@
       1,
       0,
       0,
-      1,
-      5,
+      2,
+      4,
       0,
       3
     ],
@@ -21299,19 +21299,25 @@
   "frdai-aghtsad": {
     "avg_gap_days": 2.6,
     "avg_length": 62,
-    "episodes": 29,
-    "eps_365": 29,
-    "eps_90": 29,
+    "episodes": 30,
+    "eps_365": 30,
+    "eps_90": 30,
     "first_at": "2026-09-02",
     "first_year": 1405,
-    "last": "1405/08/24",
-    "last_at": "2026-11-15T08:10:03Z",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T09:08:07Z",
     "last_link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
-    "last_title": "درآمد بیشتر، حاشیه سود کمتر؛ کجای بورس فرصت مانده؟",
+    "last_title": "پول داغ در بورس؛ سود شرکت‌ها چقدر پشتوانه صعود است؟",
     "max_length": 77,
-    "median_length": 61,
+    "median_length": 62,
     "min_length": 48,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/bdc539d09fda1970/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-11-17T09:08:07Z",
+        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/bdc539d09fda1970/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "پول داغ در بورس؛ سود شرکت‌ها چقدر پشتوانه صعود است؟"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/55726be231430474/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-11-15T08:10:03Z",
@@ -21353,15 +21359,15 @@
         "at": "2026-10-20T08:36:13Z",
         "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/adc813adfee8a149/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "t": "شاخص ۱۲ میلیونی؛ سناریوی بورس تا پایان سال؟"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/f17ba5af5da715b7/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2026-10-18T08:08:03Z",
-        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/f17ba5af5da715b7/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "t": "فرار از تورم؛ فرصت بورس هنوز باقی است؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T09:08:07Z",
+        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/bdc539d09fda1970/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
+        "title": "پول داغ در بورس؛ سود شرکت‌ها چقدر پشتوانه صعود است؟"
+      },
       {
         "at": "2026-11-15T08:10:03Z",
         "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/55726be231430474/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
@@ -21373,12 +21379,6 @@
         "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/f5a9d7371910f8c9/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
         "title": "آدرس غلط درباره نرخ بهره؛ تهدید اصلی بورس کجاست؟"
-      },
-      {
-        "at": "2026-11-03T08:18:44Z",
-        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/946dcd97c58fd01e/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
-        "title": "از اصلاح سرخ بورس تا سناریوی شاخص ۱۱ میلیونی"
       }
     ],
     "recent_30d": [
@@ -21392,7 +21392,7 @@
       0,
       0,
       13,
-      8,
+      9,
       8
     ],
     "status": "active"
@@ -23223,12 +23223,12 @@
       0,
       0,
       0,
-      14,
+      15,
       29,
-      17,
+      16,
       0,
-      25,
-      9,
+      26,
+      8,
       0
     ],
     "status": "active"
@@ -24886,10 +24886,10 @@
     "status": "stopped"
   },
   "ghsh-haii-brai-khoab-kodkan": {
-    "avg_gap_days": 1.2,
+    "avg_gap_days": 2.3,
     "avg_length": 9,
     "episodes": 68,
-    "eps_365": 18,
+    "eps_365": 8,
     "eps_90": 0,
     "first_at": "2025-09-23",
     "first_year": 1404,
@@ -24971,7 +24971,7 @@
       }
     ],
     "recent_30d": [
-      8,
+      5,
       0,
       0,
       0,
@@ -28314,14 +28314,14 @@
       }
     ],
     "recent_30d": [
-      5,
-      2,
-      0,
-      0,
-      0,
-      0,
-      2,
       4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
       0,
       0,
       0,
@@ -29993,7 +29993,7 @@
     "avg_gap_days": 2.2,
     "avg_length": 48,
     "episodes": 1272,
-    "eps_365": 106,
+    "eps_365": 105,
     "eps_90": 0,
     "first_at": "2020-04-04",
     "first_year": 1399,
@@ -30077,12 +30077,12 @@
     "recent_30d": [
       35,
       30,
-      2,
+      1,
       0,
       0,
       0,
-      18,
-      16,
+      19,
+      15,
       0,
       0,
       0,
@@ -30850,8 +30850,8 @@
       4,
       5,
       4,
-      14,
-      7,
+      15,
+      6,
       8
     ],
     "status": "active"
@@ -31944,8 +31944,8 @@
     ],
     "recent_30d": [
       4,
-      4,
-      3,
+      5,
+      2,
       0,
       0,
       0,
@@ -32925,8 +32925,8 @@
     "recent_30d": [
       0,
       0,
-      9,
-      5,
+      10,
+      4,
       0,
       0,
       0,
@@ -32939,21 +32939,27 @@
     "status": "active"
   },
   "karkst": {
-    "avg_gap_days": 102.3,
+    "avg_gap_days": 84.2,
     "avg_length": 45,
-    "episodes": 83,
-    "eps_365": 4,
-    "eps_90": 2,
+    "episodes": 84,
+    "eps_365": 5,
+    "eps_90": 3,
     "first_at": "2020-03-31",
     "first_year": 1399,
-    "last": "1405/07/26",
-    "last_at": "2026-10-18T09:50:00Z",
-    "last_link": "https://dotcast.org/p/karcast/g8dmd9t6ql/",
-    "last_title": "۸۳: مدیریت بحران",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T08:10:00Z",
+    "last_link": "https://dotcast.org/p/karcast/ev33fyjo3m/",
+    "last_title": "۸۴: آیکیا",
     "max_length": 83,
     "median_length": 32,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/karcast/ev33fyjo3m/2026-11-17-08-28-01.mp3",
+        "at": "2026-11-17T08:10:00Z",
+        "i": "https://feed.dotcast.org/e/karcast/ev33fyjo3m/2026-11-17-08-26-58.jpg",
+        "t": "۸۴: آیکیا"
+      },
       {
         "a": "https://feed.dotcast.org/e/karcast/g8dmd9t6ql/2026-10-18-09-32-38.mp3",
         "at": "2026-10-18T09:50:00Z",
@@ -32995,15 +33001,15 @@
         "at": "2025-09-09T08:20:00Z",
         "i": "https://feed.dotcast.org/e/karcast/tc26xd8t6u/2025-09-09-08-28-59.jpg",
         "t": "۷۷: سرمایه‌گذاری"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/karcast/mljfeexbrs/2025-08-11-08-16-30.mp3",
-        "at": "2025-08-12T08:30:00Z",
-        "i": "https://feed.dotcast.org/e/karcast/mljfeexbrs/2025-08-05-14-21-42.jpg",
-        "t": "۷۶: تاب‌آوری"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T08:10:00Z",
+        "i": "https://feed.dotcast.org/e/karcast/ev33fyjo3m/2026-11-17-08-26-58.jpg",
+        "link": "https://dotcast.org/p/karcast/ev33fyjo3m/",
+        "title": "۸۴: آیکیا"
+      },
       {
         "at": "2026-10-18T09:50:00Z",
         "i": "https://feed.dotcast.org/e/karcast/g8dmd9t6ql/2026-10-18-09-16-28.jpg",
@@ -33015,12 +33021,6 @@
         "i": "https://feed.dotcast.org/e/karcast/oicf4uma7v/2026-09-08-07-45-02.jpg",
         "link": "https://dotcast.org/p/karcast/oicf4uma7v/",
         "title": "۸۲: کمیابی"
-      },
-      {
-        "at": "2026-08-17T08:10:00Z",
-        "i": "https://feed.dotcast.org/e/karcast/aay4q19iqh/2026-08-15-08-15-58.jpg",
-        "link": "https://dotcast.org/p/karcast/aay4q19iqh/",
-        "title": "۸۱: مثل همیشه"
       }
     ],
     "recent_30d": [
@@ -33034,7 +33034,7 @@
       0,
       1,
       1,
-      0,
+      1,
       1
     ],
     "status": "active"
@@ -33988,8 +33988,8 @@
       }
     ],
     "recent_30d": [
-      3,
-      2,
+      4,
+      1,
       0,
       0,
       0,
@@ -36667,8 +36667,8 @@
       }
     ],
     "recent_30d": [
-      100,
-      110,
+      106,
+      104,
       64,
       4,
       0,
@@ -38514,10 +38514,10 @@
     "status": "stopped"
   },
   "ktab-saih-robah": {
-    "avg_gap_days": 24.0,
+    "avg_gap_days": 28.0,
     "avg_length": 24,
     "episodes": 37,
-    "eps_365": 5,
+    "eps_365": 4,
     "eps_90": 0,
     "first_at": "2025-08-25",
     "first_year": 1404,
@@ -38907,10 +38907,9 @@
     "status": "active"
   },
   "ktab-soti-7608085": {
-    "avg_gap_days": 0.0,
     "avg_length": 21,
     "episodes": 14,
-    "eps_365": 14,
+    "eps_365": 0,
     "eps_90": 0,
     "first_at": "2025-11-17",
     "first_year": 1404,
@@ -40735,8 +40734,8 @@
       0,
       0,
       0,
-      7,
-      3,
+      8,
+      2,
       0,
       0,
       0,
@@ -41126,8 +41125,8 @@
       0,
       1,
       4,
-      2,
-      4,
+      3,
+      3,
       0,
       0,
       0
@@ -41694,10 +41693,10 @@
     "status": "active"
   },
   "ktabkhanh-soti": {
-    "avg_gap_days": 8.3,
+    "avg_gap_days": 7.9,
     "avg_length": 31,
     "episodes": 45,
-    "eps_365": 45,
+    "eps_365": 44,
     "eps_90": 10,
     "first_at": "2025-11-17",
     "first_year": 1404,
@@ -44359,8 +44358,8 @@
       30,
       27,
       26,
-      23,
-      30,
+      24,
+      29,
       26,
       27,
       29
@@ -44862,7 +44861,7 @@
     "avg_length": 25,
     "episodes": 36,
     "eps_365": 1,
-    "eps_90": 1,
+    "eps_90": 0,
     "first_at": "2020-10-02",
     "first_year": 1399,
     "last": "1405/05/28",
@@ -44942,8 +44941,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       0
     ],
@@ -45150,21 +45149,27 @@
     "status": "active"
   },
   "mjmoah-i-rman-hai-jnaii-o-trsnak": {
-    "avg_gap_days": 2.8,
+    "avg_gap_days": 2.7,
     "avg_length": 28,
-    "episodes": 160,
-    "eps_365": 131,
-    "eps_90": 51,
+    "episodes": 161,
+    "eps_365": 132,
+    "eps_90": 52,
     "first_at": "2025-08-07",
     "first_year": 1404,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T08:34:33Z",
-    "last_link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-sy-w-chhar--76398082",
-    "last_title": "رمان جنایی آدم‌برفی-بخش سی و چهار",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T11:41:41Z",
+    "last_link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-sy-w-pnj--76419808",
+    "last_title": "رمان جنایی آدم‌برفی-بخش سی و پنج",
     "max_length": 59,
     "median_length": 38,
     "min_length": 11,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76419808/utf_8_b_2kfyr9mfinio2lhzgduminuz27uubxaz.mp3",
+        "at": "2026-11-17T11:41:41Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
+        "t": "رمان جنایی آدم‌برفی-بخش سی و پنج"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76398082/utf_8_b_2kfyr9mfinio2lhzgduminuz27qubxaz.mp3",
         "at": "2026-11-16T08:34:33Z",
@@ -45206,15 +45211,15 @@
         "at": "2026-11-08T11:37:34Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
         "t": "رمان جنایی آدم‌برفی-بخش بیست و هشت"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76231671/utf_8_b_2kfyr9mfinio2lhzgduminuy27cubxaz.mp3",
-        "at": "2026-11-07T11:24:12Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
-        "t": "رمان جنایی آدم‌برفی-بخش بیست و هفت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T11:41:41Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
+        "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-sy-w-pnj--76419808",
+        "title": "رمان جنایی آدم‌برفی-بخش سی و پنج"
+      },
       {
         "at": "2026-11-16T08:34:33Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
@@ -45226,12 +45231,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
         "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-sy-w-sh--76387223",
         "title": "رمان جنایی آدم‌برفی-بخش سی و سه"
-      },
-      {
-        "at": "2026-11-14T11:36:59Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
-        "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-sy-w-dw--76362362",
-        "title": "رمان جنایی آدم‌برفی-بخش سی و دو"
       }
     ],
     "recent_30d": [
@@ -45246,7 +45245,7 @@
       22,
       3,
       24,
-      24
+      25
     ],
     "status": "active"
   },
@@ -48064,7 +48063,7 @@
       }
     ],
     "recent_30d": [
-      2,
+      1,
       3,
       6,
       0,
@@ -48573,7 +48572,7 @@
     "avg_length": 3,
     "episodes": 108,
     "eps_365": 13,
-    "eps_90": 9,
+    "eps_90": 8,
     "first_at": "2020-08-14",
     "first_year": 1399,
     "last": "1405/08/23",
@@ -48662,8 +48661,8 @@
       0,
       1,
       1,
-      0,
-      2,
+      1,
+      1,
       5,
       2
     ],
@@ -48862,8 +48861,8 @@
       0,
       1,
       1,
-      2,
-      2,
+      3,
+      1,
       1,
       1,
       0
@@ -49908,8 +49907,8 @@
       0,
       0,
       2,
-      0,
       1,
+      0,
       0
     ],
     "status": "active"
@@ -53018,10 +53017,10 @@
     "status": "active"
   },
   "podcast-aaoa": {
-    "avg_gap_days": 11.1,
+    "avg_gap_days": 11.4,
     "avg_length": 23,
     "episodes": 70,
-    "eps_365": 25,
+    "eps_365": 24,
     "eps_90": 0,
     "first_at": "2025-01-25",
     "first_year": 1403,
@@ -53909,7 +53908,7 @@
     "avg_length": 46,
     "episodes": 181,
     "eps_365": 42,
-    "eps_90": 13,
+    "eps_90": 12,
     "first_at": "2024-04-12",
     "first_year": 1403,
     "last": "1405/08/24",
@@ -53998,8 +53997,8 @@
       1,
       6,
       3,
-      8,
-      3,
+      9,
+      2,
       3,
       7
     ],
@@ -56362,8 +56361,8 @@
       0,
       1,
       0,
-      0,
       1,
+      0,
       1,
       1,
       0,
@@ -57954,8 +57953,8 @@
       }
     ],
     "recent_30d": [
-      2,
-      2,
+      3,
+      1,
       0,
       0,
       0,
@@ -58174,7 +58173,7 @@
     "avg_length": 43,
     "episodes": 46,
     "eps_365": 6,
-    "eps_90": 3,
+    "eps_90": 2,
     "first_at": "2022-09-04",
     "first_year": 1401,
     "last": "1405/08/19",
@@ -58252,8 +58251,8 @@
       0,
       1,
       1,
-      0,
       1,
+      0,
       0,
       2
     ],
@@ -58350,8 +58349,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       9,
       1,
@@ -59438,7 +59437,7 @@
       }
     ],
     "recent_30d": [
-      25,
+      23,
       7,
       0,
       0,
@@ -61044,7 +61043,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       2,
       1,
       1,
@@ -61053,8 +61052,8 @@
       2,
       5,
       4,
-      4,
       5,
+      4,
       5
     ],
     "status": "active"
@@ -61345,7 +61344,7 @@
       }
     ],
     "recent_30d": [
-      1,
+      0,
       1,
       1,
       0,
@@ -61547,7 +61546,7 @@
       }
     ],
     "recent_30d": [
-      7,
+      5,
       0,
       0,
       0,
@@ -62438,8 +62437,8 @@
       4,
       2,
       2,
-      1,
-      3
+      2,
+      2
     ],
     "status": "active"
   },
@@ -64035,8 +64034,8 @@
       0,
       2,
       1,
-      2,
-      1,
+      3,
+      0,
       0
     ],
     "status": "active"
@@ -65353,7 +65352,7 @@
     "avg_length": 19,
     "episodes": 90,
     "eps_365": 54,
-    "eps_90": 18,
+    "eps_90": 17,
     "first_at": "2025-02-10",
     "first_year": 1403,
     "last": "1405/08/09",
@@ -65434,16 +65433,16 @@
       }
     ],
     "recent_30d": [
-      9,
+      8,
       3,
       2,
       2,
       0,
       0,
-      6,
-      8,
-      6,
-      6,
+      7,
+      7,
+      7,
+      5,
       9,
       3
     ],
@@ -66012,8 +66011,8 @@
       3,
       4,
       5,
-      4,
-      3,
+      5,
+      2,
       4
     ],
     "status": "active"
@@ -66420,14 +66419,14 @@
     "first_year": 1405,
     "last": "1405/08/23",
     "last_at": "2026-11-14T11:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/0c98f963-e756-4280-a7d7-1a428c9fc91e/play.mp3?v=1",
+    "last_link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/0c98f963-e756-4280-a7d7-1a428c9fc91e/play.mp3?v=3",
     "last_title": "شب تاب: لیسنکو در برابر واویلُف - قسمت سوم: اقتصادِ ترس",
     "max_length": 50,
     "median_length": 35,
     "min_length": 23,
     "play": [
       {
-        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/0c98f963-e756-4280-a7d7-1a428c9fc91e/play.mp3?v=1",
+        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/0c98f963-e756-4280-a7d7-1a428c9fc91e/play.mp3?v=3",
         "at": "2026-11-14T11:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/0c98f963-e756-4280-a7d7-1a428c9fc91e/artwork.jpg?v=1",
         "t": "شب تاب: لیسنکو در برابر واویلُف - قسمت سوم: اقتصادِ ترس"
@@ -66479,7 +66478,7 @@
       {
         "at": "2026-11-14T11:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/0c98f963-e756-4280-a7d7-1a428c9fc91e/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/0c98f963-e756-4280-a7d7-1a428c9fc91e/play.mp3?v=1",
+        "link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/0c98f963-e756-4280-a7d7-1a428c9fc91e/play.mp3?v=3",
         "title": "شب تاب: لیسنکو در برابر واویلُف - قسمت سوم: اقتصادِ ترس"
       },
       {
@@ -70912,10 +70911,10 @@
     "status": "stopped"
   },
   "radio-fikshn-dastan": {
-    "avg_gap_days": 28.0,
+    "avg_gap_days": 30.2,
     "avg_length": 35,
     "episodes": 83,
-    "eps_365": 14,
+    "eps_365": 13,
     "eps_90": 8,
     "first_at": "2024-09-30",
     "first_year": 1403,
@@ -72680,10 +72679,10 @@
     "status": "active"
   },
   "radio-mnahj": {
-    "avg_gap_days": 5.0,
+    "avg_gap_days": 5.1,
     "avg_length": 46,
     "episodes": 255,
-    "eps_365": 73,
+    "eps_365": 72,
     "eps_90": 16,
     "first_at": "2023-08-10",
     "first_year": 1402,
@@ -72765,18 +72764,18 @@
       }
     ],
     "recent_30d": [
-      8,
+      7,
       4,
       14,
       2,
       0,
       0,
-      13,
-      10,
+      14,
+      9,
       3,
       2,
-      6,
-      8
+      7,
+      7
     ],
     "status": "active"
   },
@@ -73532,7 +73531,7 @@
       }
     ],
     "recent_30d": [
-      3,
+      2,
       0,
       0,
       0,
@@ -74217,13 +74216,13 @@
       }
     ],
     "recent_30d": [
-      9,
-      13,
-      12,
       10,
-      9,
-      12,
       13,
+      12,
+      9,
+      10,
+      12,
+      12,
       11,
       13,
       11,
@@ -75519,19 +75518,25 @@
   "rah-awin": {
     "avg_gap_days": 1.0,
     "avg_length": 28,
-    "episodes": 41,
-    "eps_365": 2,
-    "eps_90": 2,
+    "episodes": 42,
+    "eps_365": 3,
+    "eps_90": 3,
     "first_at": "2022-03-26",
     "first_year": 1401,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T07:41:41Z",
-    "last_link": "https://s3.castbox.fm/ef/2f/93/249b5845e3bd9cee836318870c.mp3",
-    "last_title": "چگونه سفر روح را آموختم _ قسمت اول",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T07:41:00Z",
+    "last_link": "https://s3.castbox.fm/00/96/2a/3bd3364867b2a405d972ec968d.mp3",
+    "last_title": "چگونه سفر روح را آموختم _ قسمت دوم",
     "max_length": 48,
-    "median_length": 30,
+    "median_length": 29,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/00/96/2a/3bd3364867b2a405d972ec968d.mp3",
+        "at": "2026-11-17T07:41:00Z",
+        "i": "https://s3.castbox.fm/03/38/f6/2a145643d395a133905f144834.jpg",
+        "t": "چگونه سفر روح را آموختم _ قسمت دوم"
+      },
       {
         "a": "https://s3.castbox.fm/ef/2f/93/249b5845e3bd9cee836318870c.mp3",
         "at": "2026-11-16T07:41:41Z",
@@ -75573,15 +75578,15 @@
         "at": "2023-05-01T02:48:14Z",
         "i": "https://s3.castbox.fm/41/c3/74/b800ce430cb1f2fe0306cd671b.png",
         "t": "کتاب طریقت تولتکی مرور دوباره _ بخش دوم _ قسمت نهم"
-      },
-      {
-        "a": "https://s3.castbox.fm/47/96/43/8dc242407ba44fe256a3bbf781.mp3",
-        "at": "2023-04-26T11:57:48Z",
-        "i": "https://s3.castbox.fm/ff/c8/e7/feea5c41a6a607f0d1df0f6276.png",
-        "t": "کتاب طریقت تولتکی مرور دوباره _ بخش دوم _ قسمت هشتم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T07:41:00Z",
+        "i": "https://s3.castbox.fm/03/38/f6/2a145643d395a133905f144834.jpg",
+        "link": "https://s3.castbox.fm/00/96/2a/3bd3364867b2a405d972ec968d.mp3",
+        "title": "چگونه سفر روح را آموختم _ قسمت دوم"
+      },
       {
         "at": "2026-11-16T07:41:41Z",
         "i": "https://s3.castbox.fm/d1/91/a7/b30f5f4ee7976efc4e018a3ad8.jpg",
@@ -75593,12 +75598,6 @@
         "i": "https://s3.castbox.fm/df/60/06/cd4e564418a3ca8f53177c2767.jpg",
         "link": "https://s3.castbox.fm/0d/5b/5e/d604e746dfa7927becca97521e.mp3",
         "title": "معرفی کتاب چگونه سفر روح را آموختم"
-      },
-      {
-        "at": "2023-06-24T19:32:53Z",
-        "i": "https://s3.castbox.fm/37/78/ba/ecb98c46819c49fe2ea052b7a9.jpeg",
-        "link": "https://s3.castbox.fm/7f/b8/71/6ae80e4290b8eb17aa7e986361.mp3",
-        "title": "کتاب طریقت تولتکی مرور دوباره_ پیوست ها و درباره نویسنده"
       }
     ],
     "recent_30d": [
@@ -75613,7 +75612,7 @@
       0,
       0,
       0,
-      2
+      3
     ],
     "status": "active"
   },
@@ -76503,7 +76502,7 @@
     "avg_length": 32,
     "episodes": 151,
     "eps_365": 45,
-    "eps_90": 25,
+    "eps_90": 24,
     "first_at": "2025-02-05",
     "first_year": 1403,
     "last": "1405/08/20",
@@ -76592,8 +76591,8 @@
       0,
       0,
       0,
-      7,
-      9,
+      8,
+      8,
       8,
       8
     ],
@@ -76985,10 +76984,10 @@
     "status": "inactive"
   },
   "roait-lain": {
-    "avg_gap_days": 8.5,
+    "avg_gap_days": 8.6,
     "avg_length": 59,
     "episodes": 42,
-    "eps_365": 42,
+    "eps_365": 41,
     "eps_90": 13,
     "first_at": "2025-11-17",
     "first_year": 1404,
@@ -80277,19 +80276,24 @@
   "sdai-bazar": {
     "avg_gap_days": 4.2,
     "avg_length": 22,
-    "episodes": 497,
+    "episodes": 498,
     "eps_365": 87,
-    "eps_90": 37,
+    "eps_90": 38,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T11:50:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/4azu1bfoa9/",
-    "last_title": "آیا حمایت ۱٫۱۰ یورو‌دلار دوام می‌آورد؟",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T11:50:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/qaphuqbyha/",
+    "last_title": "افت سهام فناوری و مقاومت دلار پیش از گزارش انویدیا",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/qaphuqbyha/2026-11-17-11-55-02.mp3",
+        "at": "2026-11-17T11:50:00Z",
+        "t": "افت سهام فناوری و مقاومت دلار پیش از گزارش انویدیا"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/4azu1bfoa9/2026-11-16-12-06-06.mp3",
         "at": "2026-11-16T11:50:00Z",
@@ -80324,14 +80328,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/0jd87468ny/2026-11-06-11-11-55.mp3",
         "at": "2026-11-06T11:00:00Z",
         "t": "وال‌استریت زیر فشار؛ از نگرانی هوش مصنوعی تا آزمون اشتغال آمریکا"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/tr550ft0sw/2026-11-05-12-07-37.mp3",
-        "at": "2026-11-05T11:40:00Z",
-        "t": "ریزش نفت، صعود طلا؛ آیا بازارها پایان جنگ را قیمت‌گذاری می‌کنند؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T11:50:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/qaphuqbyha/",
+        "title": "افت سهام فناوری و مقاومت دلار پیش از گزارش انویدیا"
+      },
       {
         "at": "2026-11-16T11:50:00Z",
         "link": "https://dotcast.org/p/bozvcayr/4azu1bfoa9/",
@@ -80341,18 +80345,13 @@
         "at": "2026-11-13T09:20:00Z",
         "link": "https://dotcast.org/p/bozvcayr/nxzb24ukqe/",
         "title": "آیا PPI احتمال افزایش ۵۰ واحد پایه‌ای نرخ بهره را بالا می‌برد؟"
-      },
-      {
-        "at": "2026-11-12T12:10:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/hlygjwtpta/",
-        "title": "از رکورد تازه سهام اروپا تا نگرانی وال‌استریت درباره انویدیا"
       }
     ],
     "recent_30d": [
-      19,
-      6,
-      14,
-      6,
+      20,
+      5,
+      15,
+      5,
       0,
       0,
       0,
@@ -80360,7 +80359,7 @@
       0,
       0,
       16,
-      21
+      22
     ],
     "status": "active"
   },
@@ -81043,7 +81042,7 @@
       }
     ],
     "recent_30d": [
-      6,
+      5,
       2,
       0,
       0,
@@ -81461,20 +81460,26 @@
   },
   "sfrnamh-hai-soti-lst-sknd": {
     "avg_gap_days": 1.2,
-    "avg_length": 20,
-    "episodes": 115,
-    "eps_365": 115,
+    "avg_length": 19,
+    "episodes": 116,
+    "eps_365": 116,
     "eps_90": 67,
     "first_at": "2026-06-29",
     "first_year": 1405,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T10:11:00Z",
-    "last_link": "https://bavexa.com/e/57776-shahram-rahimi-walkman-5",
-    "last_title": "Shahram Rahimi - Walkman Ep.05",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T13:55:00Z",
+    "last_link": "https://bavexa.com/e/57782-dj-momtaz-mixbox-6",
+    "last_title": "DJ Momtaz - Mix Box Ep.06",
     "max_length": 110,
     "median_length": 19,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://cdn-bavexa.version.ir/episodes/57782/source.mp3",
+        "at": "2026-11-17T13:55:00Z",
+        "i": "https://cdn.bavexa.com/episodes/4vejpNoTpo2oL2mP9AIjbueSnJ3lJY1loeLGOBo2.jpg",
+        "t": "DJ Momtaz - Mix Box Ep.06"
+      },
       {
         "a": "https://cdn-bavexa.version.ir/episodes/57776/source.mp3",
         "at": "2026-11-16T10:11:00Z",
@@ -81516,15 +81521,15 @@
         "at": "2026-11-09T13:00:00Z",
         "i": "https://cdn.bavexa.com/episodes/u0ieuivUtKdM37szxQxveHAjO8DEo17Nkj4S8CiY.jpg",
         "t": "Dj Hornet - Top Hits Ep.11"
-      },
-      {
-        "a": "https://cdn-bavexa.version.ir/episodes/56983/source.mp3",
-        "at": "2026-11-08T13:29:00Z",
-        "i": "https://cdn.bavexa.com/episodes/djN2w3FFkIdLzk5TT3oWRxD1FnGLL8d6Yeofdnzr.jpg",
-        "t": "Navid Javadi - Detune Ep.04"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T13:55:00Z",
+        "i": "https://cdn.bavexa.com/episodes/4vejpNoTpo2oL2mP9AIjbueSnJ3lJY1loeLGOBo2.jpg",
+        "link": "https://bavexa.com/e/57782-dj-momtaz-mixbox-6",
+        "title": "DJ Momtaz - Mix Box Ep.06"
+      },
       {
         "at": "2026-11-16T10:11:00Z",
         "i": "https://cdn.bavexa.com/episodes/Y3XiLsNmFMgqG3JKYQAlB4jFsNXJafmRJwv8eW6V.jpg",
@@ -81536,12 +81541,6 @@
         "i": "https://cdn.bavexa.com/episodes/AtLGSaVt5rStfkQILRpxaRdK0zlK1E9DsEg9wBGj.jpg",
         "link": "https://bavexa.com/e/57742-ehsan-ramsy-night-13",
         "title": "Ehsan Ramsy - Night Ep.13"
-      },
-      {
-        "at": "2026-11-14T09:29:00Z",
-        "i": "https://cdn.bavexa.com/episodes/TRRFvW0ODkuKnAiHUY0UXeN0JKF4JUwQYwSTNUp5.jpg",
-        "link": "https://bavexa.com/e/57711-tehran-feat-58",
-        "title": "Dj Barbod & Mohamad Mouryani - Tehran Feat 58"
       }
     ],
     "recent_30d": [
@@ -81552,10 +81551,10 @@
       0,
       0,
       0,
-      31,
+      32,
       17,
-      20,
-      21,
+      19,
+      22,
       26
     ],
     "status": "active"
@@ -82540,7 +82539,7 @@
     "avg_gap_days": 2.6,
     "avg_length": 4,
     "episodes": 351,
-    "eps_365": 139,
+    "eps_365": 138,
     "eps_90": 29,
     "first_at": "2025-01-23",
     "first_year": 1403,
@@ -84114,21 +84113,26 @@
     "status": "stopped"
   },
   "shokhi-ba-tarikh": {
-    "avg_gap_days": 8.9,
+    "avg_gap_days": 8.8,
     "avg_length": 30,
-    "episodes": 98,
-    "eps_365": 19,
-    "eps_90": 10,
+    "episodes": 99,
+    "eps_365": 20,
+    "eps_90": 11,
     "first_at": "2023-08-09",
     "first_year": 1402,
-    "last": "1405/08/19",
-    "last_at": "2026-11-10T10:09:57Z",
-    "last_link": "https://www.radiofarda.com/a/sassanid-dynasty-history-jocking/33894499.html",
-    "last_title": "ساسانیان؛ امپراطور در مشت شاپور",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T08:30:00Z",
+    "last_link": "https://www.radiofarda.com/a/33899745.html",
+    "last_title": "ساسانیان؛ قباد، مزدک و زن‌های اشتراکی",
     "max_length": 43,
     "median_length": 28,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://rfe-audio-ns.akamaized.net/frd/2026/11/16/455ec868-78ee-423a-2d9a-08df407f9921_hq.mp3",
+        "at": "2026-11-17T08:30:00Z",
+        "t": "ساسانیان؛ قباد، مزدک و زن‌های اشتراکی"
+      },
       {
         "a": "https://rfe-audio-ns.akamaized.net/frd/2026/11/10/e253b3f1-4615-462f-207a-08df3ee801b8_hq.mp3",
         "at": "2026-11-10T10:09:57Z",
@@ -84163,14 +84167,14 @@
         "a": "https://rfe-audio-ns.akamaized.net/frd/2026/09/14/dc66aac9-ce22-4b56-84a8-08df0f43374f_hq.mp3",
         "at": "2026-09-15T07:05:20Z",
         "t": "از تلگراف تا طیاره؛ ورود آینده به ایران"
-      },
-      {
-        "a": "https://rfe-audio-ns.akamaized.net/frd/2026/09/07/fc128f95-be76-45f4-fddb-08def2b08775_hq.mp3",
-        "at": "2026-09-08T03:30:00Z",
-        "t": "روسیه علیه روسیه؛ ۳۷ هزار کیلومتر تا شکست"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T08:30:00Z",
+        "link": "https://www.radiofarda.com/a/33899745.html",
+        "title": "ساسانیان؛ قباد، مزدک و زن‌های اشتراکی"
+      },
       {
         "at": "2026-11-10T10:09:57Z",
         "link": "https://www.radiofarda.com/a/sassanid-dynasty-history-jocking/33894499.html",
@@ -84180,11 +84184,6 @@
         "at": "2026-10-20T09:27:39Z",
         "link": "https://www.radiofarda.com/a/33880068.html",
         "title": "از شیطان تا دات‌کام؛ وقتی تاریخ قافیه می‌سازد"
-      },
-      {
-        "at": "2026-10-13T09:23:01Z",
-        "link": "https://www.radiofarda.com/a/33875671.html",
-        "title": "اشتباهاتی که زیادی گران تمام شدند"
       }
     ],
     "recent_30d": [
@@ -84199,7 +84198,7 @@
       3,
       4,
       4,
-      2
+      3
     ],
     "status": "active"
   },
@@ -84474,7 +84473,7 @@
       }
     ],
     "recent_30d": [
-      9,
+      8,
       6,
       9,
       5,
@@ -85052,8 +85051,8 @@
       0,
       0,
       0,
-      0,
-      2
+      1,
+      1
     ],
     "status": "active"
   },
@@ -85423,7 +85422,7 @@
     "avg_gap_days": 6.5,
     "avg_length": 29,
     "episodes": 200,
-    "eps_365": 54,
+    "eps_365": 53,
     "eps_90": 8,
     "first_at": "2020-03-18",
     "first_year": 1398,
@@ -85494,7 +85493,7 @@
       }
     ],
     "recent_30d": [
-      6,
+      5,
       3,
       0,
       0,
@@ -87074,19 +87073,34 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4270,
-    "eps_365": 787,
-    "eps_90": 247,
+    "episodes": 4273,
+    "eps_365": 788,
+    "eps_90": 250,
     "first_at": "2023-09-13",
     "first_year": 1402,
-    "last": "1405/08/22",
-    "last_at": "2026-11-13T11:30:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af5f87879bddcbf5374d926",
-    "last_title": "قسمت چهارهزار و دویست و پنجاه و سه",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T12:30:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6afc30fc1a7785c803c7a3e1",
+    "last_title": "قسمت چهارهزار و دویست و پنجاه و شش",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6afc30fc1a7785c803c7a3e1/media.mp3",
+        "at": "2026-11-17T12:30:00Z",
+        "t": "قسمت چهارهزار و دویست و پنجاه و شش"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6afc30b2228213ae4e2c70db/media.mp3",
+        "at": "2026-11-17T11:30:00Z",
+        "t": "قسمت چهارهزار و دویست و پنجاه و پنج"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6afc2fc427224dadceb59120/media.mp3",
+        "at": "2026-11-17T10:43:18Z",
+        "t": "قسمت چهارهزار و دویست و پنجاه و چهار"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6af5f87879bddcbf5374d926/media.mp3",
         "at": "2026-11-13T11:30:00Z",
@@ -87111,53 +87125,38 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6af5e4da753953bebbc20a6f/media.mp3",
         "at": "2026-11-12T16:59:00Z",
         "t": "قسمت چهار هزار و دویست و چهل و نه"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6af5e3d107d81676de137f65/media.mp3",
-        "at": "2026-11-12T16:30:00Z",
-        "t": "قسمت چهار هزار و دویست و چهل وهشت"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6af5dfc507d81676de11954d/media.mp3",
-        "at": "2026-11-12T15:48:21Z",
-        "t": "قسمت چهار هزار و دویست و چهل و هفت"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6af3018ace118fd5b5da1b6e/media.mp3",
-        "at": "2026-11-11T14:30:00Z",
-        "t": "قسمت چهار هزار و دویست و چهل و شش"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-13T11:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af5f87879bddcbf5374d926",
-        "title": "قسمت چهارهزار و دویست و پنجاه و سه"
+        "at": "2026-11-17T12:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6afc30fc1a7785c803c7a3e1",
+        "title": "قسمت چهارهزار و دویست و پنجاه و شش"
       },
       {
-        "at": "2026-11-13T09:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af5f6ea7d5cb93e7d6fea27",
-        "title": "قسمت چهارهزار و دویست و پنجاه و دو"
+        "at": "2026-11-17T11:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6afc30b2228213ae4e2c70db",
+        "title": "قسمت چهارهزار و دویست و پنجاه و پنج"
       },
       {
-        "at": "2026-11-13T06:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6af5f3aa28531eda4579686d",
-        "title": "قسمت چهارهزار و دویست و پنجاه و یک"
+        "at": "2026-11-17T10:43:18Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6afc2fc427224dadceb59120",
+        "title": "قسمت چهارهزار و دویست و پنجاه و چهار"
       }
     ],
     "recent_30d": [
-      112,
-      71,
-      76,
-      32,
+      114,
+      69,
+      79,
+      29,
       0,
       7,
-      29,
-      107,
-      86,
-      98,
-      78,
-      71
+      30,
+      110,
+      82,
+      99,
+      77,
+      74
     ],
     "status": "active"
   },
@@ -87436,8 +87435,8 @@
       }
     ],
     "recent_30d": [
-      2,
-      1,
+      3,
+      0,
       0,
       1,
       0,
@@ -89048,7 +89047,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 21,
     "episodes": 422,
-    "eps_365": 255,
+    "eps_365": 253,
     "eps_90": 99,
     "first_at": "2024-08-22",
     "first_year": 1403,
@@ -89130,18 +89129,18 @@
       }
     ],
     "recent_30d": [
-      33,
+      32,
       10,
-      37,
-      8,
+      38,
+      7,
       1,
       13,
       10,
       10,
       30,
       42,
-      35,
-      22
+      36,
+      21
     ],
     "status": "active"
   },
@@ -90104,8 +90103,8 @@
     ],
     "recent_30d": [
       4,
-      4,
       5,
+      4,
       1,
       1,
       5,
@@ -90688,7 +90687,7 @@
       }
     ],
     "recent_30d": [
-      2,
+      1,
       0,
       0,
       0,
@@ -92032,10 +92031,10 @@
     "status": "active"
   },
   "zndgi-ps-az-zndgi": {
-    "avg_gap_days": 39.4,
+    "avg_gap_days": 42.4,
     "avg_length": 79,
     "episodes": 146,
-    "eps_365": 9,
+    "eps_365": 8,
     "eps_90": 2,
     "first_at": "2022-04-19",
     "first_year": 1401,
@@ -92214,8 +92213,8 @@
       4,
       4,
       4,
-      4,
       5,
+      4,
       4,
       4,
       5
