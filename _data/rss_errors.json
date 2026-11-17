@@ -75,6 +75,10 @@
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
   },
+  "green-gate-drichh-sbz": {
+    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://radioiranshahr.org/feed/podcast?name=psychology"
+  },
   "hnr-jng": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://namlik.me/rss/318"
@@ -82,6 +86,10 @@
   "hs-khob": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.pod.co/hese-khob"
+  },
+  "introducing-washington-dc-aashnai-ba-shhr-oashngtn-d-s": {
+    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://radioiranshahr.org/rss/podcast?name=washington-dc"
   },
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
@@ -94,6 +102,14 @@
   "kodkan-mana": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
+  },
+  "let-s-read-books-together-ba-hm-ktab-bkhoanim": {
+    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://radioiranshahr.org/feed/podcast?name=lets-read-books-together"
+  },
+  "literature-with-dr-karimi-hakkak-adbiat-ba-dktr-krimi-hkak": {
+    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://radioiranshahr.org/feed/podcast?name=dr-karimi"
   },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
