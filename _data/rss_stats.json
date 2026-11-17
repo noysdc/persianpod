@@ -18734,7 +18734,7 @@
     "avg_length": 68,
     "episodes": 106,
     "eps_365": 19,
-    "eps_90": 6,
+    "eps_90": 5,
     "first_at": "2020-10-02",
     "first_year": 1399,
     "last": "1405/08/20",
@@ -18823,8 +18823,8 @@
       0,
       2,
       2,
-      1,
       2,
+      1,
       2,
       2
     ],
@@ -23426,7 +23426,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 9,
     "episodes": 249,
-    "eps_365": 175,
+    "eps_365": 174,
     "eps_90": 0,
     "first_at": "2020-10-17",
     "first_year": 1399,
@@ -23498,9 +23498,9 @@
     ],
     "recent_30d": [
       30,
-      24,
-      33,
-      33,
+      23,
+      34,
+      32,
       23,
       14,
       8,
@@ -44271,7 +44271,7 @@
     "avg_length": 7,
     "episodes": 1001,
     "eps_365": 327,
-    "eps_90": 82,
+    "eps_90": 81,
     "first_at": "2023-11-21",
     "first_year": 1402,
     "last": "1405/08/26",
@@ -44360,8 +44360,8 @@
       27,
       27,
       23,
-      29,
-      27,
+      30,
+      26,
       27,
       28
     ],
@@ -78235,20 +78235,26 @@
   },
   "rozanh-hai-tndrsti": {
     "avg_gap_days": 1.1,
-    "avg_length": 17,
-    "episodes": 31,
-    "eps_365": 31,
-    "eps_90": 31,
+    "avg_length": 18,
+    "episodes": 32,
+    "eps_365": 32,
+    "eps_90": 32,
     "first_at": "2026-10-14",
     "first_year": 1405,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T03:00:00Z",
-    "last_link": "https://rss.com/podcasts/salamati/3312357",
-    "last_title": "معمای افت انرژی و خستگی بعد از ۵۰ سالگی: خطرات پنهان قرص‌های ضداسید معده و کمبود ویتامین B12",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T03:00:00Z",
+    "last_link": "https://rss.com/podcasts/salamati/3312363",
+    "last_title": "خطر خم شدن اول صبح برای کمر: راز هیدراتاسیون شبانه دیسک‌ها و حرکات ایمن بامدادی",
     "max_length": 30,
     "median_length": 18,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://content.rss.com/episodes/406068/3312363/salamati/2026_11_11_20_56_23_5233b0c2-07fa-4c09-a2dc-961f5b952757.mp3",
+        "at": "2026-11-17T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261111_205611_4ff74bebaabd95ac3025d3c0d6419841.jpg",
+        "t": "خطر خم شدن اول صبح برای کمر: راز هیدراتاسیون شبانه دیسک‌ها و حرکات ایمن بامدادی"
+      },
       {
         "a": "https://content.rss.com/episodes/406068/3312357/salamati/2026_11_11_20_54_25_3bf5753b-ab8b-4f22-93ec-5f7e72f187b8.mp3",
         "at": "2026-11-16T03:00:00Z",
@@ -78290,15 +78296,15 @@
         "at": "2026-11-08T03:00:00Z",
         "i": "https://media.rss.com/salamati/ep_cover_20261030_172640_40c4132698b49190ef7fe29772064557.jpg",
         "t": "پیشگیری از زوال عقل با درمان کم‌شنوایی: نجات حافظه از فرسایش پنهان مغز"
-      },
-      {
-        "a": "https://content.rss.com/episodes/406068/3280779/salamati/2026_10_30_17_25_08_88158c1b-2fa1-48fe-8a44-8ac9979394f9.mp3",
-        "at": "2026-11-07T03:00:00Z",
-        "i": "https://media.rss.com/salamati/ep_cover_20261030_172456_a552e1a8e774906d1bb599b76cf09a9b.jpg",
-        "t": "توقف تحلیل عضلات سالمندی: برتری تمرینات سرعتی و قدرتی روی صندلی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261111_205611_4ff74bebaabd95ac3025d3c0d6419841.jpg",
+        "link": "https://rss.com/podcasts/salamati/3312363",
+        "title": "خطر خم شدن اول صبح برای کمر: راز هیدراتاسیون شبانه دیسک‌ها و حرکات ایمن بامدادی"
+      },
       {
         "at": "2026-11-16T03:00:00Z",
         "i": "https://media.rss.com/salamati/ep_cover_20261111_205418_fdf08a1c6dc817d3113e4504cba992a0.jpg",
@@ -78310,12 +78316,6 @@
         "i": "https://media.rss.com/salamati/ep_cover_20261108_203356_96f1e8ca5158caedb6cc14a39d971fa8.jpg",
         "link": "https://rss.com/podcasts/salamati/3303446",
         "title": "درمان سوزش معده با فیزیک بدن: مهار رفلاکس شبانه با قوانین ساده جاذبه و هندسه"
-      },
-      {
-        "at": "2026-11-14T03:00:00Z",
-        "i": "https://media.rss.com/salamati/ep_cover_20261108_191317_30c09f523459d632991f3d2f2f4a022f.jpg",
-        "link": "https://rss.com/podcasts/salamati/3303320",
-        "title": "درمان کبد چرب با تغییرات ساده آشپزخانه: نجات کارخانه سم‌زدایی بدن بدون داروی شیمیایی"
       }
     ],
     "recent_30d": [
@@ -78330,7 +78330,7 @@
       0,
       0,
       5,
-      26
+      27
     ],
     "status": "active"
   },
