@@ -16,8 +16,8 @@ pi_id: 7083779
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # Peaceful Presence path podcast- مسیر حضور آرامش پادکست
