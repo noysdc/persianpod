@@ -38028,15 +38028,15 @@
       }
     ],
     "recent_30d": [
-      111,
-      99,
+      112,
+      98,
       64,
       4,
       0,
       0,
       30,
-      63,
       64,
+      63,
       56,
       58,
       67
@@ -43975,7 +43975,7 @@
       }
     ],
     "recent_30d": [
-      1,
+      0,
       2,
       0,
       0,
@@ -65595,21 +65595,27 @@
     "status": "active"
   },
   "podcast-mosighi-rah-gosh": {
-    "avg_gap_days": 4.3,
-    "avg_length": 66,
-    "episodes": 56,
-    "eps_365": 13,
-    "eps_90": 13,
+    "avg_gap_days": 4.2,
+    "avg_length": 63,
+    "episodes": 57,
+    "eps_365": 14,
+    "eps_90": 14,
     "first_at": "2022-05-10",
     "first_year": 1401,
-    "last": "1405/08/24",
-    "last_at": "2026-11-15T18:30:00Z",
-    "last_link": "https://youtu.be/4EywK8JWLhQ",
-    "last_title": "استندآپ گِله؛ سحر لطفی",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T18:30:00Z",
+    "last_link": "https://youtu.be/q12_RHYB7bo",
+    "last_title": "استندآپ گِله؛ محبوبه گلزاری",
     "max_length": 156,
-    "median_length": 60,
+    "median_length": 59,
     "min_length": 16,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6af43bc83925cd47eb545523/media.mp3",
+        "at": "2026-11-17T18:30:00Z",
+        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1794390890858-cbc83ffa-f805-49fb-95ba-63fc3e50c6ea.jpeg",
+        "t": "استندآپ گِله؛ محبوبه گلزاری"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6af43af40f31499d9194a8a1/media.mp3",
         "at": "2026-11-15T18:30:00Z",
@@ -65650,15 +65656,15 @@
         "at": "2026-10-20T18:30:00Z",
         "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1792221378013-7fb84656-ac42-4988-a9c6-392d3660aab5.jpeg",
         "t": "نقدهایِ بدن‌مند در موسیقی ایران"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6ad3158ce039ee8e851aa415/media.mp3",
-        "at": "2026-10-18T18:30:00Z",
-        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1792217994387-bcd1c942-8277-42e0-9bff-07b6b06da9cc.jpeg",
-        "t": "استندآپ گِله؛ محبوبه شوریده"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T18:30:00Z",
+        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1794390890858-cbc83ffa-f805-49fb-95ba-63fc3e50c6ea.jpeg",
+        "link": "https://youtu.be/q12_RHYB7bo",
+        "title": "استندآپ گِله؛ محبوبه گلزاری"
+      },
       {
         "at": "2026-11-15T18:30:00Z",
         "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1794386660414-43d9c5e7-4759-4ced-9fff-bc956b6ada30.jpeg",
@@ -65669,12 +65675,6 @@
         "at": "2026-11-10T18:30:00Z",
         "link": "https://youtu.be/94M-33lcSFw",
         "title": "استندآپ گِله؛ بهار مدیری"
-      },
-      {
-        "at": "2026-11-08T18:30:00Z",
-        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1793903479185-792ad44c-a19c-49e5-8cc5-28e1d9d22900.jpeg",
-        "link": "https://youtu.be/1fJk2MmOD-Y",
-        "title": "استندآپ گِله؛ محمد عشقی"
       }
     ],
     "recent_30d": [
@@ -65688,7 +65688,7 @@
       0,
       0,
       0,
-      5,
+      6,
       8
     ],
     "status": "active"
@@ -85067,8 +85067,8 @@
       7,
       4,
       3,
-      1,
-      3
+      2,
+      2
     ],
     "status": "active"
   },
@@ -85249,7 +85249,7 @@
       }
     ],
     "recent_30d": [
-      18,
+      17,
       11,
       19,
       9,
@@ -89774,7 +89774,7 @@
     ],
     "recent_30d": [
       113,
-      68,
+      67,
       80,
       28,
       0,
@@ -89782,8 +89782,8 @@
       33,
       107,
       82,
-      100,
-      76,
+      101,
+      75,
       75
     ],
     "status": "active"
@@ -92548,7 +92548,7 @@
     "avg_length": 11,
     "episodes": 44,
     "eps_365": 44,
-    "eps_90": 30,
+    "eps_90": 29,
     "first_at": "2026-08-06",
     "first_year": 1405,
     "last": "1405/08/11",
@@ -92637,8 +92637,8 @@
       0,
       0,
       0,
-      14,
-      26,
+      15,
+      25,
       3,
       1
     ],
