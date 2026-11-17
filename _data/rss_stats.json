@@ -81460,20 +81460,26 @@
   },
   "sfrnamh-hai-soti-lst-sknd": {
     "avg_gap_days": 1.2,
-    "avg_length": 20,
-    "episodes": 115,
-    "eps_365": 115,
-    "eps_90": 66,
+    "avg_length": 19,
+    "episodes": 116,
+    "eps_365": 116,
+    "eps_90": 67,
     "first_at": "2026-06-29",
     "first_year": 1405,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T10:11:00Z",
-    "last_link": "https://bavexa.com/e/57776-shahram-rahimi-walkman-5",
-    "last_title": "Shahram Rahimi - Walkman Ep.05",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T13:55:00Z",
+    "last_link": "https://bavexa.com/e/57782-dj-momtaz-mixbox-6",
+    "last_title": "DJ Momtaz - Mix Box Ep.06",
     "max_length": 110,
     "median_length": 19,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://cdn-bavexa.version.ir/episodes/57782/source.mp3",
+        "at": "2026-11-17T13:55:00Z",
+        "i": "https://cdn.bavexa.com/episodes/4vejpNoTpo2oL2mP9AIjbueSnJ3lJY1loeLGOBo2.jpg",
+        "t": "DJ Momtaz - Mix Box Ep.06"
+      },
       {
         "a": "https://cdn-bavexa.version.ir/episodes/57776/source.mp3",
         "at": "2026-11-16T10:11:00Z",
@@ -81515,15 +81521,15 @@
         "at": "2026-11-09T13:00:00Z",
         "i": "https://cdn.bavexa.com/episodes/u0ieuivUtKdM37szxQxveHAjO8DEo17Nkj4S8CiY.jpg",
         "t": "Dj Hornet - Top Hits Ep.11"
-      },
-      {
-        "a": "https://cdn-bavexa.version.ir/episodes/56983/source.mp3",
-        "at": "2026-11-08T13:29:00Z",
-        "i": "https://cdn.bavexa.com/episodes/djN2w3FFkIdLzk5TT3oWRxD1FnGLL8d6Yeofdnzr.jpg",
-        "t": "Navid Javadi - Detune Ep.04"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T13:55:00Z",
+        "i": "https://cdn.bavexa.com/episodes/4vejpNoTpo2oL2mP9AIjbueSnJ3lJY1loeLGOBo2.jpg",
+        "link": "https://bavexa.com/e/57782-dj-momtaz-mixbox-6",
+        "title": "DJ Momtaz - Mix Box Ep.06"
+      },
       {
         "at": "2026-11-16T10:11:00Z",
         "i": "https://cdn.bavexa.com/episodes/Y3XiLsNmFMgqG3JKYQAlB4jFsNXJafmRJwv8eW6V.jpg",
@@ -81535,12 +81541,6 @@
         "i": "https://cdn.bavexa.com/episodes/AtLGSaVt5rStfkQILRpxaRdK0zlK1E9DsEg9wBGj.jpg",
         "link": "https://bavexa.com/e/57742-ehsan-ramsy-night-13",
         "title": "Ehsan Ramsy - Night Ep.13"
-      },
-      {
-        "at": "2026-11-14T09:29:00Z",
-        "i": "https://cdn.bavexa.com/episodes/TRRFvW0ODkuKnAiHUY0UXeN0JKF4JUwQYwSTNUp5.jpg",
-        "link": "https://bavexa.com/e/57711-tehran-feat-58",
-        "title": "Dj Barbod & Mohamad Mouryani - Tehran Feat 58"
       }
     ],
     "recent_30d": [
@@ -81555,7 +81555,7 @@
       17,
       19,
       22,
-      25
+      26
     ],
     "status": "active"
   },
