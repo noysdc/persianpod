@@ -29004,8 +29004,8 @@
       12,
       11,
       6,
-      4,
-      4,
+      5,
+      3,
       3,
       1,
       2,
@@ -73657,19 +73657,25 @@
   "radio-ghsh": {
     "avg_gap_days": 2.8,
     "avg_length": 16,
-    "episodes": 37,
-    "eps_365": 37,
-    "eps_90": 34,
+    "episodes": 38,
+    "eps_365": 38,
+    "eps_90": 35,
     "first_at": "2026-08-07",
     "first_year": 1405,
-    "last": "1405/08/24",
-    "last_at": "2026-11-15T16:11:29Z",
-    "last_link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-shshm-shyr-trsw--76388397",
-    "last_title": "« جادوگر شهر اوز، قسمت ششم، «شیر ترسو",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T16:28:22Z",
+    "last_link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-hftm-sfr-bh-swy-awz-bzrg--76424253",
+    "last_title": "جادوگر شهر اوز، قسمت هفتم، سفر به سوی اوز بزرگ",
     "max_length": 44,
     "median_length": 13,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76424253/media.mp3",
+        "at": "2026-11-17T16:28:22Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
+        "t": "جادوگر شهر اوز، قسمت هفتم، سفر به سوی اوز بزرگ"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76388397/media.mp3",
         "at": "2026-11-15T16:11:29Z",
@@ -73711,15 +73717,15 @@
         "at": "2026-10-29T15:30:00Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/ff0b2d3118edb5be66f8aeab90a36447.jpg",
         "t": "کفش‌های شانس"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76031606/media.mp3",
-        "at": "2026-10-27T15:30:00Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/0970d11e7bdd91d959a31a580376bae9.jpg",
-        "t": "سایه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T16:28:22Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
+        "link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-hftm-sfr-bh-swy-awz-bzrg--76424253",
+        "title": "جادوگر شهر اوز، قسمت هفتم، سفر به سوی اوز بزرگ"
+      },
       {
         "at": "2026-11-15T16:11:29Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
@@ -73731,12 +73737,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
         "link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-pnjm-njat-hyzm-shkn--76319909",
         "title": "« جادوگر شهر اوز، قسمت پنجم، «نجات هیزم شکن"
-      },
-      {
-        "at": "2026-11-11T05:19:08Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3b61313f87a69b32ee6a8d95fdb3abf8.jpg",
-        "link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-chharm-bwr-az-myan-jngl--76294968",
-        "title": "جادوگر شهر اوز | قسمت چهارم | عبور از میان جنگل"
       }
     ],
     "recent_30d": [
@@ -73751,7 +73751,7 @@
       3,
       10,
       13,
-      11
+      12
     ],
     "status": "active"
   },
@@ -76249,8 +76249,8 @@
       }
     ],
     "recent_30d": [
-      0,
-      19,
+      2,
+      17,
       0,
       0,
       0,
