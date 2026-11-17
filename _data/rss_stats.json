@@ -44269,19 +44269,25 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 1001,
-    "eps_365": 327,
-    "eps_90": 81,
+    "episodes": 1002,
+    "eps_365": 328,
+    "eps_90": 82,
     "first_at": "2023-11-21",
     "first_year": 1402,
     "last": "1405/08/26",
-    "last_at": "2026-11-17T01:13:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/english-backpacker-visa-shake-up-to-push-more-workers-into-regional-australia/vt3gawsut",
-    "last_title": "تغییر در ویزاهای کوله‌گردی؛ کارگران بیشتری به مناطق روستایی استرالیا می‌روند",
+    "last_at": "2026-11-17T04:41:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/albanese-meets-with-fellow-quad-leaders-for-the-first-time-in-two-years/zkb4ajodu",
+    "last_title": "آلبانیزی پس از دو سال با دیگر رهبران گروه کواد دیدار می‌کند",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261117154114_722317-persian-4487eb8e-1a3b-42ee-b433-dd9e90576fe0.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-e7c8-d775-a9e5-ffd91f500000&dur_cat=3",
+        "at": "2026-11-17T04:41:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261117154207_823080-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "t": "آلبانیزی پس از دو سال با دیگر رهبران گروه کواد دیدار می‌کند"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261117121317_486594-persian-171126-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-e704-dea3-adeb-efaf6b990000&dur_cat=2",
         "at": "2026-11-17T01:13:00Z",
@@ -44323,15 +44329,15 @@
         "at": "2026-11-10T04:39:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261110154035_409217-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "t": "دولت استرالیا از فروش ۶۷ ملک نظامی عقب‌نشینی کرد"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261110133403_304576-persian-101126-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-c347-d95f-abb5-fb57571b0000&dur_cat=2",
-        "at": "2026-11-10T02:33:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261110133405_624357-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "t": "دولت کارگر زیر فشار پنجمین افزایش پیاپی نرخ بهره: برای مهار تورم اقدام می کنیم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T04:41:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261117154207_823080-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/albanese-meets-with-fellow-quad-leaders-for-the-first-time-in-two-years/zkb4ajodu",
+        "title": "آلبانیزی پس از دو سال با دیگر رهبران گروه کواد دیدار می‌کند"
+      },
       {
         "at": "2026-11-17T01:13:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261117121319_965726-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
@@ -44343,12 +44349,6 @@
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261116134214_507350-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/historic-apec-summit-meeting-trump-xi-and-putin-to-hold-landmark-talks/eww5tgfqf",
         "title": "دیدار تاریخی ترامپ، شی و پوتین در اپک؛ از نگرانی‌های اقلیمی تا حمله سایبری به کولز"
-      },
-      {
-        "at": "2026-11-13T01:40:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261113124159_506339-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/australian-security-agencies-impacted-by-massive-global-microsoft-outage/g85ysck2q",
-        "title": "اختلال گسترده جهانی مایکروسافت؛ نهادهای امنیتی استرالیا هم تحت تاثیر قرار گرفتند"
       }
     ],
     "recent_30d": [
@@ -44363,7 +44363,7 @@
       30,
       26,
       27,
-      28
+      29
     ],
     "status": "active"
   },
