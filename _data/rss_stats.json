@@ -6224,21 +6224,27 @@
     "status": "active"
   },
   "anglisi-iadbgirid": {
-    "avg_gap_days": 10.2,
+    "avg_gap_days": 10.3,
     "avg_length": 9,
-    "episodes": 161,
-    "eps_365": 35,
-    "eps_90": 6,
+    "episodes": 162,
+    "eps_365": 36,
+    "eps_90": 7,
     "first_at": "2022-03-02",
     "first_year": 1400,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T03:32:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/122-asking-someone-to-take-your-photo-med/bj4pdea57",
-    "last_title": "#122 Asking someone to take your photo (Med) - قسمت SBS Learn English ۱۲۲: چطور از دیگران بخواهیم از ما عکس بگیرند؟",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T03:09:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/123-talking-about-a-big-night-med/k2wt9ib3o",
+    "last_title": "#123 Talking about a big night (Med) - قسمت SBS Learn English ۱۲۳؛ چطور به انگلیسی درباره یک شب به‌یادماندنی صحبت کنیم؟",
     "max_length": 20,
     "median_length": 13,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/sbs-learn-english-persian/20261117140936_240606-persian-5d3fde96-bdb5-4a8f-aa37-3bf9b149597f.mp3?awCollectionId=sbs-learn-english-persian&awGenre=Society+and+Culture&awEpisodeId=000001a1-e767-d775-a9e5-ffffc41d0000&dur_cat=3",
+        "at": "2026-11-17T03:09:00Z",
+        "i": "https://sbs-rss.streamguys1.com/sbs-learn-english-persian/20261117140939_687640-learn-english-in-persian-3000-x-3000.jpg",
+        "t": "#123 Talking about a big night (Med) - قسمت SBS Learn English ۱۲۳؛ چطور به انگلیسی درباره یک شب به‌یادماندنی صحبت کنیم؟"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/sbs-learn-english-persian/20261104143250_131122-persian-02a8fe81-26dc-4bec-b0ce-6d8d05e7fe43.mp3?awCollectionId=sbs-learn-english-persian&awGenre=Society+and+Culture&awEpisodeId=000001a1-a492-d7ec-a7e3-bed2ea0e0000&dur_cat=3",
         "at": "2026-11-04T03:32:00Z",
@@ -6280,15 +6286,15 @@
         "at": "2026-08-17T06:18:00Z",
         "i": "https://sbs-rss.streamguys1.com/sbs-learn-english-persian/20260817161941_496137-learn-english-in-persian-3000-x-3000.jpg",
         "t": "#116 Visiting a vet (Med) - قسمت SBS Learn English ۱۱۶: مراجعه به دامپزشک"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/sbs-learn-english-persian/20260727161247-persian-0d7f3cab-9287-4144-b471-a5849a15101b.mp3?awCollectionId=sbs-learn-english-persian&awGenre=Society+and+Culture&awEpisodeId=0000019f-a22c-df0f-a9df-ae2f852f0000&dur_cat=3",
-        "at": "2026-07-27T06:12:00Z",
-        "i": "https://sbs-rss.streamguys1.com/sbs-learn-english-persian/20260727161252_938839-learn-english-in-persian-3000-x-3000.jpg",
-        "t": "#115 Working on the side (Med) - قسمت SBS Learn English ۱۱۵: کار جانبی داشتن"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T03:09:00Z",
+        "i": "https://sbs-rss.streamguys1.com/sbs-learn-english-persian/20261117140939_687640-learn-english-in-persian-3000-x-3000.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/123-talking-about-a-big-night-med/k2wt9ib3o",
+        "title": "#123 Talking about a big night (Med) - قسمت SBS Learn English ۱۲۳؛ چطور به انگلیسی درباره یک شب به‌یادماندنی صحبت کنیم؟"
+      },
       {
         "at": "2026-11-04T03:32:00Z",
         "i": "https://sbs-rss.streamguys1.com/sbs-learn-english-persian/20261104143423_545426-learn-english-in-persian-3000-x-3000.jpg",
@@ -6300,12 +6306,6 @@
         "i": "https://sbs-rss.streamguys1.com/sbs-learn-english-persian/20261014161749_790679-learn-english-in-persian-3000-x-3000.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/121-picking-up-a-prescription/gjpwrr2ha",
         "title": "#121 Picking up a prescription (Med) - قسمت SBS Learn English ۱۲۱؛ دریافت دارو از داروخانه"
-      },
-      {
-        "at": "2026-10-06T02:31:00Z",
-        "i": "https://sbs-rss.streamguys1.com/sbs-learn-english-persian/20261006133126_242361-learn-english-in-persian-3000-x-3000.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/120-going-to-a-wedding/ez75vczmh",
-        "title": "#120 Going to a wedding (Med) - قسمت SBS Learn English ۱۲۰: رفتن به یک مراسم عروسی"
       }
     ],
     "recent_30d": [
@@ -6320,7 +6320,7 @@
       2,
       2,
       3,
-      1
+      2
     ],
     "status": "active"
   },
