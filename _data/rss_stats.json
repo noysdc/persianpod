@@ -4118,19 +4118,25 @@
   "aghtsad-o-siast-jhani": {
     "avg_gap_days": 4.5,
     "avg_length": 18,
-    "episodes": 218,
+    "episodes": 219,
     "eps_365": 81,
-    "eps_90": 19,
+    "eps_90": 20,
     "first_at": "2023-12-16",
     "first_year": 1402,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T16:30:00Z",
-    "last_link": "https://dotcast.org/p/ctka8bck/3hupilx6ii/",
-    "last_title": "جهان چقدر با جنگ جهانی سوم فاصله دارد؟ آخرین فرصت برای نجات صلح",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T16:30:00Z",
+    "last_link": "https://dotcast.org/p/ctka8bck/lg8xcyu1qd/",
+    "last_title": "از دل اوپن‌ای‌آی تا فتح بازار هوش مصنوعی؛ آیا آنتروپیک جای چت‌جی‌پی‌تی را می‌گیرد؟",
     "max_length": 72,
     "median_length": 21,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/ctka8bck/lg8xcyu1qd/2026-11-17-14-20-03.mp3",
+        "at": "2026-11-17T16:30:00Z",
+        "i": "https://feed.dotcast.org/e/ctka8bck/lg8xcyu1qd/2026-11-17-14-23-00.jpg",
+        "t": "از دل اوپن‌ای‌آی تا فتح بازار هوش مصنوعی؛ آیا آنتروپیک جای چت‌جی‌پی‌تی را می‌گیرد؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/ctka8bck/3hupilx6ii/2026-11-14-13-35-16.mp3",
         "at": "2026-11-14T16:30:00Z",
@@ -4172,15 +4178,15 @@
         "at": "2026-10-21T16:30:00Z",
         "i": "https://feed.dotcast.org/e/ctka8bck/fdwirsxbpw/2026-10-21-12-51-47.jpg",
         "t": "توافق ترامپ با پوتین؛ شروع فصل تازه‌ای در جنگ اوکراین؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/ctka8bck/esi5z8kx00/2026-10-17-13-18-36.mp3",
-        "at": "2026-10-17T16:30:00Z",
-        "i": "https://feed.dotcast.org/e/ctka8bck/esi5z8kx00/2026-10-17-13-14-22.jpg",
-        "t": "آیا هوش مصنوعی از کنترل خارج می‌شود؟ هشدار عجیب غول‌های فناوری"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T16:30:00Z",
+        "i": "https://feed.dotcast.org/e/ctka8bck/lg8xcyu1qd/2026-11-17-14-23-00.jpg",
+        "link": "https://dotcast.org/p/ctka8bck/lg8xcyu1qd/",
+        "title": "از دل اوپن‌ای‌آی تا فتح بازار هوش مصنوعی؛ آیا آنتروپیک جای چت‌جی‌پی‌تی را می‌گیرد؟"
+      },
       {
         "at": "2026-11-14T16:30:00Z",
         "i": "https://feed.dotcast.org/e/ctka8bck/3hupilx6ii/2026-11-14-13-34-08.jpg",
@@ -4192,19 +4198,13 @@
         "i": "https://feed.dotcast.org/e/ctka8bck/rcpxunx4ie/2026-11-11-13-25-50.jpg",
         "link": "https://dotcast.org/p/ctka8bck/rcpxunx4ie/",
         "title": "فرصت طلایی پوتین؛ سرنوشت اوکراین در دستان ترامپ؟"
-      },
-      {
-        "at": "2026-11-08T16:30:00Z",
-        "i": "https://feed.dotcast.org/e/ctka8bck/t106aa9r3x/2026-11-08-15-46-14.jpg",
-        "link": "https://dotcast.org/p/ctka8bck/t106aa9r3x/",
-        "title": "هوش مصنوعی می‌ماند، سرمایه‌گذاران ورشکست می‌شوند؟"
       }
     ],
     "recent_30d": [
       18,
       7,
-      16,
-      6,
+      17,
+      5,
       0,
       0,
       0,
@@ -4212,7 +4212,7 @@
       7,
       6,
       6,
-      7
+      8
     ],
     "status": "active"
   },
@@ -5082,8 +5082,8 @@
       0,
       6,
       7,
-      19,
-      17,
+      20,
+      16,
       7,
       0,
       0
@@ -30172,7 +30172,7 @@
       }
     ],
     "recent_30d": [
-      11,
+      10,
       7,
       7,
       2,
@@ -32105,15 +32105,15 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       3,
       3,
       2,
       0,
       0,
       1,
-      4,
       5,
+      4,
       20,
       0,
       0
@@ -56441,7 +56441,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       1,
       0,
       0,
@@ -89602,7 +89602,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4274,
-    "eps_365": 789,
+    "eps_365": 788,
     "eps_90": 251,
     "first_at": "2023-09-13",
     "first_year": 1402,
@@ -89679,8 +89679,8 @@
       29,
       0,
       7,
-      32,
-      108,
+      33,
+      107,
       82,
       99,
       77,
@@ -94086,15 +94086,15 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       2,
       3,
       2,
       0,
       0,
       1,
-      4,
       5,
+      4,
       1,
       0,
       0
