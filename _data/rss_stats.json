@@ -23504,8 +23504,8 @@
       23,
       15,
       8,
-      3,
-      2,
+      4,
+      1,
       0,
       0,
       0
@@ -40158,7 +40158,7 @@
     "avg_length": 12,
     "episodes": 55,
     "eps_365": 55,
-    "eps_90": 49,
+    "eps_90": 48,
     "first_at": "2026-08-12",
     "first_year": 1405,
     "last": "1405/08/24",
@@ -40247,8 +40247,8 @@
       0,
       0,
       0,
-      6,
-      24,
+      7,
+      23,
       17,
       8
     ],
@@ -42998,21 +42998,27 @@
     "status": "stopped"
   },
   "majnoone-modern-padkst-mjnon-mdrn": {
-    "avg_gap_days": 2.0,
+    "avg_gap_days": 3.5,
     "avg_length": 40,
-    "episodes": 31,
-    "eps_365": 2,
-    "eps_90": 2,
+    "episodes": 32,
+    "eps_365": 3,
+    "eps_90": 3,
     "first_at": "2021-05-21",
     "first_year": 1400,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T06:40:57Z",
-    "last_link": "https://shows.acast.com/majnoonemodern/episodes/majnoone-modern-e32",
-    "last_title": "Majnoone Modern - E32 - شیوه های هنری عباس کیارستمی",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T23:58:10Z",
+    "last_link": "https://shows.acast.com/majnoonemodern/episodes/majnoone-modern-e33",
+    "last_title": "Majnoone Modern - E33 - زندگی‌ و آثار استیون اسپیلبرگ",
     "max_length": 87,
     "median_length": 32,
     "min_length": 12,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/62519d8c41eb8300140b642e/e/6afb98931633e7cafb632d01/media.mp3",
+        "at": "2026-11-16T23:58:10Z",
+        "i": "https://assets.pippa.io/shows/62519d8c41eb8300140b642e/1794873220666-6c9a8cd0-f722-4ca1-a773-5c1cdb99b99e.jpeg",
+        "t": "Majnoone Modern - E33 - زندگی‌ و آثار استیون اسپیلبرگ"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/62519d8c41eb8300140b642e/e/6af55f7ab089f98c153ca7d7/media.mp3",
         "at": "2026-11-12T06:40:57Z",
@@ -43054,15 +43060,15 @@
         "at": "2023-01-10T07:05:32Z",
         "i": "https://assets.pippa.io/shows/62519d8c41eb8300140b642e/1794467561326-87ea999d-64cf-4b90-a616-5ad6071827e9.jpeg",
         "t": "Majnoone Modern - E26 - نمایش جلاپاد قسمت سوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/62519d8c41eb8300140b642e/e/639df74448b0900011f9bbca/media.mp3",
-        "at": "2022-12-17T17:07:16Z",
-        "i": "https://assets.pippa.io/shows/62519d8c41eb8300140b642e/1794467611038-2c194337-ae3b-4d76-a674-8e5697e3e5e7.jpeg",
-        "t": "Majnoone Modern - E25 - نمایش جلاپاد قسمت دوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T23:58:10Z",
+        "i": "https://assets.pippa.io/shows/62519d8c41eb8300140b642e/1794873220666-6c9a8cd0-f722-4ca1-a773-5c1cdb99b99e.jpeg",
+        "link": "https://shows.acast.com/majnoonemodern/episodes/majnoone-modern-e33",
+        "title": "Majnoone Modern - E33 - زندگی‌ و آثار استیون اسپیلبرگ"
+      },
       {
         "at": "2026-11-12T06:40:57Z",
         "i": "https://assets.pippa.io/shows/62519d8c41eb8300140b642e/1794465601250-582641b9-ff79-4819-b680-9f7985a979e4.jpeg",
@@ -43074,12 +43080,6 @@
         "i": "https://assets.pippa.io/shows/62519d8c41eb8300140b642e/1794248831946-9daaaf75-da87-466c-9f8c-e7b5de04040b.jpeg",
         "link": "https://shows.acast.com/majnoonemodern/episodes/majnoone-modern-e31",
         "title": "Majnoone Modern - E31 - زندگی‌ دیوید لینچ"
-      },
-      {
-        "at": "2023-06-27T07:04:14Z",
-        "i": "https://assets.pippa.io/shows/62519d8c41eb8300140b642e/1794467317792-63758ba3-1efe-489d-89b4-dad7e420aa8b.jpeg",
-        "link": "https://shows.acast.com/majnoonemodern/episodes/majnoone-modern-e30",
-        "title": "Majnoone Modern - E30 - نمایش داستان باغ وحش"
       }
     ],
     "recent_30d": [
@@ -43094,7 +43094,7 @@
       0,
       0,
       0,
-      2
+      3
     ],
     "status": "active"
   },
