@@ -24886,10 +24886,10 @@
     "status": "stopped"
   },
   "ghsh-haii-brai-khoab-kodkan": {
-    "avg_gap_days": 1.2,
+    "avg_gap_days": 1.3,
     "avg_length": 9,
     "episodes": 68,
-    "eps_365": 18,
+    "eps_365": 17,
     "eps_90": 0,
     "first_at": "2025-09-23",
     "first_year": 1404,
@@ -29993,7 +29993,7 @@
     "avg_gap_days": 2.2,
     "avg_length": 48,
     "episodes": 1272,
-    "eps_365": 106,
+    "eps_365": 105,
     "eps_90": 0,
     "first_at": "2020-04-04",
     "first_year": 1399,
@@ -38514,10 +38514,10 @@
     "status": "stopped"
   },
   "ktab-saih-robah": {
-    "avg_gap_days": 24.0,
+    "avg_gap_days": 28.0,
     "avg_length": 24,
     "episodes": 37,
-    "eps_365": 5,
+    "eps_365": 4,
     "eps_90": 0,
     "first_at": "2025-08-25",
     "first_year": 1404,
@@ -45150,21 +45150,27 @@
     "status": "active"
   },
   "mjmoah-i-rman-hai-jnaii-o-trsnak": {
-    "avg_gap_days": 2.8,
+    "avg_gap_days": 2.7,
     "avg_length": 28,
-    "episodes": 160,
-    "eps_365": 131,
-    "eps_90": 51,
+    "episodes": 161,
+    "eps_365": 132,
+    "eps_90": 52,
     "first_at": "2025-08-07",
     "first_year": 1404,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T08:34:33Z",
-    "last_link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-sy-w-chhar--76398082",
-    "last_title": "رمان جنایی آدم‌برفی-بخش سی و چهار",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T11:41:41Z",
+    "last_link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-sy-w-pnj--76419808",
+    "last_title": "رمان جنایی آدم‌برفی-بخش سی و پنج",
     "max_length": 59,
     "median_length": 38,
     "min_length": 11,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76419808/utf_8_b_2kfyr9mfinio2lhzgduminuz27uubxaz.mp3",
+        "at": "2026-11-17T11:41:41Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
+        "t": "رمان جنایی آدم‌برفی-بخش سی و پنج"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76398082/utf_8_b_2kfyr9mfinio2lhzgduminuz27qubxaz.mp3",
         "at": "2026-11-16T08:34:33Z",
@@ -45206,15 +45212,15 @@
         "at": "2026-11-08T11:37:34Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
         "t": "رمان جنایی آدم‌برفی-بخش بیست و هشت"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76231671/utf_8_b_2kfyr9mfinio2lhzgduminuy27cubxaz.mp3",
-        "at": "2026-11-07T11:24:12Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
-        "t": "رمان جنایی آدم‌برفی-بخش بیست و هفت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T11:41:41Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
+        "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-sy-w-pnj--76419808",
+        "title": "رمان جنایی آدم‌برفی-بخش سی و پنج"
+      },
       {
         "at": "2026-11-16T08:34:33Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
@@ -45226,12 +45232,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
         "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-sy-w-sh--76387223",
         "title": "رمان جنایی آدم‌برفی-بخش سی و سه"
-      },
-      {
-        "at": "2026-11-14T11:36:59Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
-        "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-sy-w-dw--76362362",
-        "title": "رمان جنایی آدم‌برفی-بخش سی و دو"
       }
     ],
     "recent_30d": [
@@ -45246,7 +45246,7 @@
       22,
       3,
       24,
-      24
+      25
     ],
     "status": "active"
   },
@@ -58350,8 +58350,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       9,
       1,
