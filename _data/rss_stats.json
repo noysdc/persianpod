@@ -11315,21 +11315,27 @@
     "status": "active"
   },
   "biografi": {
-    "avg_gap_days": 9.8,
-    "avg_length": 38,
-    "episodes": 129,
-    "eps_365": 38,
-    "eps_90": 14,
+    "avg_gap_days": 9.5,
+    "avg_length": 37,
+    "episodes": 130,
+    "eps_365": 39,
+    "eps_90": 15,
     "first_at": "2023-03-08",
     "first_year": 1401,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T08:29:31Z",
-    "last_link": "https://shows.acast.com/biografi/episodes/6afc1076290474d5abae9f04",
-    "last_title": "مقدمه سریال وندربیلت‌ها؛ خانواده‌ای که بزرگ‌ترین ثروت تاریخ را بر باد داد",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T07:23:28Z",
+    "last_link": "https://shows.acast.com/biografi/episodes/6afd5275bc3a834741527436",
+    "last_title": "مقدمه‌ای بر عصر طلایی آمریکا",
     "max_length": 64,
     "median_length": 40,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6afd5275bc3a834741527436/media.mp3",
+        "at": "2026-11-18T07:23:28Z",
+        "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1794986371425-917d4e8e-a3ab-4579-ac1b-b4d3ebf22ded.jpeg",
+        "t": "مقدمه‌ای بر عصر طلایی آمریکا"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6afc1076290474d5abae9f04/media.mp3",
         "at": "2026-11-17T08:29:31Z",
@@ -11371,15 +11377,15 @@
         "at": "2026-10-11T13:38:54Z",
         "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1791725504201-89c105ac-5f0a-4acf-bb30-d2def62e633a.jpeg",
         "t": "پرنسس دایانا (قسمت دوم)✨"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6aca38dd937a3c900f521591/media.mp3",
-        "at": "2026-10-10T13:08:44Z",
-        "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1791637237584-2989585b-561e-419c-8da4-40ebd1f025fe.jpeg",
-        "t": "پرنسس دایانا (قسمت اول) ✨"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T07:23:28Z",
+        "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1794986371425-917d4e8e-a3ab-4579-ac1b-b4d3ebf22ded.jpeg",
+        "link": "https://shows.acast.com/biografi/episodes/6afd5275bc3a834741527436",
+        "title": "مقدمه‌ای بر عصر طلایی آمریکا"
+      },
       {
         "at": "2026-11-17T08:29:31Z",
         "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1794903702775-fd282d2b-bf33-4d73-a91d-e7b572cdca78.jpeg",
@@ -11391,12 +11397,6 @@
         "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1792999414852-cb854a3c-b28b-4615-8060-c0dc5f9b8e15.jpeg",
         "link": "https://shows.acast.com/biografi/episodes/6adf01f9409b9c216a150a9d",
         "title": "والت دیزنی (قسمت آخر)"
-      },
-      {
-        "at": "2026-10-25T07:10:54Z",
-        "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1792911757491-911d5f0f-bc55-4349-8bf5-7b8c9ac63a9a.jpeg",
-        "link": "https://shows.acast.com/biografi/episodes/6addab7e025813dc0cf58220",
-        "title": "والت دیزنی (قسمت دوم)✨"
       }
     ],
     "recent_30d": [
@@ -11411,7 +11411,7 @@
       4,
       6,
       4,
-      4
+      5
     ],
     "status": "active"
   },
@@ -24385,12 +24385,12 @@
       0,
       0,
       0,
-      15,
-      29,
       16,
+      29,
+      15,
       0,
-      26,
-      8,
+      27,
+      7,
       0
     ],
     "status": "active"
@@ -31284,8 +31284,8 @@
     ],
     "recent_30d": [
       36,
-      29,
-      1,
+      30,
+      0,
       0,
       0,
       0,
@@ -77802,10 +77802,10 @@
     "status": "active"
   },
   "radiodoor": {
-    "avg_gap_days": 36.3,
+    "avg_gap_days": 39.3,
     "avg_length": 87,
     "episodes": 62,
-    "eps_365": 11,
+    "eps_365": 10,
     "eps_90": 4,
     "first_at": "2023-12-25",
     "first_year": 1402,
@@ -89753,7 +89753,7 @@
     "avg_length": 10,
     "episodes": 4274,
     "eps_365": 784,
-    "eps_90": 249,
+    "eps_90": 248,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/26",
@@ -89831,8 +89831,8 @@
       7,
       33,
       107,
-      84,
-      100,
+      85,
+      99,
       74,
       75
     ],
