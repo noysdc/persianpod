@@ -68016,8 +68016,8 @@
       4,
       6,
       12,
-      11,
-      6,
+      12,
+      5,
       2,
       1,
       1,
@@ -78484,21 +78484,27 @@
     "status": "active"
   },
   "rai-bn-mstnd": {
-    "avg_gap_days": 43.2,
-    "avg_length": 67,
-    "episodes": 27,
-    "eps_365": 7,
-    "eps_90": 1,
+    "avg_gap_days": 47.0,
+    "avg_length": 66,
+    "episodes": 28,
+    "eps_365": 8,
+    "eps_90": 2,
     "first_at": "2022-08-05",
     "first_year": 1401,
-    "last": "1405/06/19",
-    "last_at": "2026-09-10T04:00:03Z",
-    "last_link": "https://s3.castbox.fm/e2/3f/07/5abab0472b9dea0bffe045b706.mp3",
-    "last_title": "شماره‌ی بیست‌وپنجم: جنگ شد - روایت پنجم",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T12:13:25Z",
+    "last_link": "https://s3.castbox.fm/8c/4c/80/c9fb3142a2a26cb6099ee68af1.mp3",
+    "last_title": "شماره‌ی بیست‌وششم: جنگ شد - روایت ششم",
     "max_length": 107,
     "median_length": 63,
     "min_length": 13,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/8c/4c/80/c9fb3142a2a26cb6099ee68af1.mp3",
+        "at": "2026-11-18T12:13:25Z",
+        "i": "https://s3.castbox.fm/7b/73/3d/8e6e67436e943315eb06fe394c.jpg",
+        "t": "شماره‌ی بیست‌وششم: جنگ شد - روایت ششم"
+      },
       {
         "a": "https://s3.castbox.fm/e2/3f/07/5abab0472b9dea0bffe045b706.mp3",
         "at": "2026-09-10T04:00:03Z",
@@ -78540,15 +78546,15 @@
         "at": "2025-12-24T05:03:14Z",
         "i": "https://s3.castbox.fm/cf/1b/a2/8f471b41ce86aa9dcddb645dc9.jpg",
         "t": "شماره‌ی بیستم: زخم، قاشق"
-      },
-      {
-        "a": "https://s3.castbox.fm/b5/c6/62/73197d4d89bcebf214c890e894.mp3",
-        "at": "2025-09-08T06:37:20Z",
-        "i": "https://s3.castbox.fm/32/9c/07/440372415dad7607e876bb0372.jpg",
-        "t": "شماره‌ی نوزدهم: معصومه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T12:13:25Z",
+        "i": "https://s3.castbox.fm/7b/73/3d/8e6e67436e943315eb06fe394c.jpg",
+        "link": "https://s3.castbox.fm/8c/4c/80/c9fb3142a2a26cb6099ee68af1.mp3",
+        "title": "شماره‌ی بیست‌وششم: جنگ شد - روایت ششم"
+      },
       {
         "at": "2026-09-10T04:00:03Z",
         "i": "https://s3.castbox.fm/c6/25/d0/1c4b2c461dacdcf4504148aa79.jpg",
@@ -78560,12 +78566,6 @@
         "i": "https://s3.castbox.fm/ae/a8/9a/dd6afe4b74828c2d39013a6f41.jpg",
         "link": "https://s3.castbox.fm/c9/d6/90/a620ee4c1abb64ada5754e8b78.mp3",
         "title": "شماره‌ی بیست‌وچهارم: جنگ شد - روایت چهارم"
-      },
-      {
-        "at": "2026-07-12T15:16:22Z",
-        "i": "https://s3.castbox.fm/83/80/4f/57897946fca457ee776daa4d8d.jpg",
-        "link": "https://s3.castbox.fm/aa/08/93/b24b474caa800cdaa65c725382.mp3",
-        "title": "شماره‌ی بیست‌وسوم: جنگ شد - روایت سوم"
       }
     ],
     "recent_30d": [
@@ -78580,7 +78580,7 @@
       1,
       1,
       0,
-      0
+      1
     ],
     "status": "active"
   },
