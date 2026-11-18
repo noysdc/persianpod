@@ -1,7 +1,7 @@
 ---
 title: "رادیکال میم؛ نمایشنامه‌خوانی ایران و جهان"
 title_en: "Radical Mim"
-slug: "radical-mim"
+slug: "radicalmim"
 description: "ما تو «رادیکال میم» نمایشنامه‌های جذاب و ماندگار ایران و جهان رو می‌خونیم و کمی دربارشون حرف می‌زنیم."
 category: "هنر"
 subcategories: ["نمایش رادیویی و فیلم صوتی"]
@@ -16,7 +16,7 @@ schedule: "دو هفته یک‌بار"
 city: "تهران"
 country: "Iran"
 frequency: ""
-logo: "/assets/img/podcasts/radical-mim.webp"
+logo: "/assets/img/podcasts/radicalmim.webp"
 castbox_id: "6917272"
 castbox_channel: "https://castbox.fm/channel/id6917272"
 rss: "https://anchor.fm/s/10c1c09c8/podcast/rss"
