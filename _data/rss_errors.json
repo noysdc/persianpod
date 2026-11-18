@@ -27,6 +27,10 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://loveziba.com/feed/"
   },
+  "aslam-mirzaii": {
+    "error": "RuntimeError: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)>",
+    "rss": "https://www.zahra-media.ir/category/%d9%85%d8%af%d8%a7%d8%ad%db%8c/%d8%a7%d8%b3%d9%84%d8%a7%d9%85-%d9%85%db%8c%d8%b1%d8%b2%d8%a7%db%8c%db%8c/feed/"
+  },
   "baehsan": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
@@ -68,11 +72,11 @@
     "rss": "https://drdna.ir/category/%D9%81%DB%8C%D9%84%D9%85-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/feed/"
   },
   "film-o-srial-soti": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)>",
     "rss": "https://mp3movies.ir/feed"
   },
   "filmhai-sinmaii-airani": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)>",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
   "galri-film": {
@@ -92,7 +96,7 @@
     "rss": "https://feed.pod.co/hese-khob"
   },
   "khatrh-angiz": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)>",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
   },
   "kit-aahng": {
@@ -184,7 +188,7 @@
     "rss": "https://paymanpsychology.com/feed/"
   },
   "said-pnahi": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)>",
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
   "zban-o-adbiat": {

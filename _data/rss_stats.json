@@ -2279,8 +2279,8 @@
       17,
       21,
       19,
-      17,
-      4
+      18,
+      3
     ],
     "status": "active"
   },
@@ -2860,8 +2860,8 @@
       0,
       0,
       3,
-      4,
-      4,
+      5,
+      3,
       1
     ],
     "status": "active"
@@ -2961,8 +2961,8 @@
       0,
       16,
       30,
-      23,
-      12,
+      24,
+      11,
       4
     ],
     "status": "active"
@@ -12118,19 +12118,25 @@
   "bplus": {
     "avg_gap_days": 6.2,
     "avg_length": 67,
-    "episodes": 301,
-    "eps_365": 59,
-    "eps_90": 11,
+    "episodes": 302,
+    "eps_365": 60,
+    "eps_90": 12,
     "first_at": "2018-05-01",
     "first_year": 1397,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T14:16:35Z",
-    "last_link": "https://shows.acast.com/bplus/episodes/6ae9b8d1da7c744de03949ed",
-    "last_title": "ایران و شورای همکاری خلیج فارس؛ ترس مشترک، راه‌های جدا",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T08:36:52Z",
+    "last_link": "https://shows.acast.com/bplus/episodes/6afd37b309470f94203d504e",
+    "last_title": "خلاصه کتاب پشه",
     "max_length": 131,
     "median_length": 58,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65417dfc6143f1001280fb90/e/6afd37b309470f94203d504e/media.mp3",
+        "at": "2026-11-18T08:36:52Z",
+        "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1794990940701-034afd8e-1cc0-45e0-8959-04106134e171.jpeg",
+        "t": "خلاصه کتاب پشه"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65417dfc6143f1001280fb90/e/6ae9b8d1da7c744de03949ed/media.mp3",
         "at": "2026-11-14T14:16:35Z",
@@ -12172,15 +12178,15 @@
         "at": "2026-09-22T04:26:43Z",
         "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1789911641215-7fc5a85f-69c3-40f5-947d-9c54b560ca48.jpeg",
         "t": "چرا کشورها به پارلمان نیاز دارند؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65417dfc6143f1001280fb90/e/6aa69d3b564171e32ae318db/media.mp3",
-        "at": "2026-09-16T08:47:30Z",
-        "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1789548425033-d05900dc-e4c3-4534-8e8c-74db12ca139c.jpeg",
-        "t": "خلاصه کتاب اولویت دموکراسی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T08:36:52Z",
+        "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1794990940701-034afd8e-1cc0-45e0-8959-04106134e171.jpeg",
+        "link": "https://shows.acast.com/bplus/episodes/6afd37b309470f94203d504e",
+        "title": "خلاصه کتاب پشه"
+      },
       {
         "at": "2026-11-14T14:16:35Z",
         "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1793702049192-7645d3ab-973d-480c-a8d3-4123987a5329.jpeg",
@@ -12192,12 +12198,6 @@
         "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1793705010708-c777ca50-a17e-4aa1-80d4-ef96b2efdcf1.jpeg",
         "link": "https://shows.acast.com/bplus/episodes/6ae9c4e3da7c744de03dcd9c",
         "title": "تاریخ لهستان: کشوری که بارها مرد و دوباره زنده شد"
-      },
-      {
-        "at": "2026-11-03T04:48:16Z",
-        "i": "https://assets.pippa.io/shows/65417dfc6143f1001280fb90/1793680816553-69cdb9f9-b20a-45aa-afdf-bf7af1be861a.jpeg",
-        "link": "https://shows.acast.com/bplus/episodes/6ae96798375d48fb43539328",
-        "title": "راز ماندگاری ایران جغرافیاست؟"
       }
     ],
     "recent_30d": [
@@ -12212,7 +12212,7 @@
       4,
       4,
       3,
-      4
+      5
     ],
     "status": "active"
   },
@@ -13479,8 +13479,8 @@
       0,
       33,
       21,
-      27,
-      24
+      28,
+      23
     ],
     "status": "active"
   },
@@ -13960,8 +13960,8 @@
       0,
       0,
       0,
-      0,
-      3,
+      1,
+      2,
       0,
       0,
       0,
@@ -20657,8 +20657,8 @@
       0,
       0,
       0,
-      6,
-      5,
+      7,
+      4,
       5,
       2,
       2,
@@ -21401,7 +21401,7 @@
       }
     ],
     "recent_30d": [
-      4,
+      2,
       0,
       2,
       0,
@@ -25269,7 +25269,7 @@
     "avg_length": 3,
     "episodes": 15,
     "eps_365": 15,
-    "eps_90": 14,
+    "eps_90": 10,
     "first_at": "2026-08-20",
     "first_year": 1405,
     "last": "1405/06/03",
@@ -25347,8 +25347,8 @@
       0,
       0,
       0,
-      1,
-      14,
+      5,
+      10,
       0,
       0
     ],
@@ -29001,8 +29001,8 @@
       3,
       6,
       12,
-      11,
-      6,
+      12,
+      5,
       5,
       3,
       3,
@@ -31201,7 +31201,7 @@
     "avg_gap_days": 2.2,
     "avg_length": 48,
     "episodes": 1272,
-    "eps_365": 105,
+    "eps_365": 104,
     "eps_90": 0,
     "first_at": "2020-04-04",
     "first_year": 1399,
@@ -31283,7 +31283,7 @@
       }
     ],
     "recent_30d": [
-      36,
+      35,
       30,
       0,
       0,
@@ -38078,8 +38078,8 @@
       }
     ],
     "recent_30d": [
-      115,
-      93,
+      117,
+      91,
       64,
       4,
       0,
@@ -47245,7 +47245,7 @@
     "avg_length": 54,
     "episodes": 18,
     "eps_365": 14,
-    "eps_90": 4,
+    "eps_90": 3,
     "first_at": "2025-09-11",
     "first_year": 1404,
     "last": "1405/07/24",
@@ -47334,8 +47334,8 @@
       2,
       0,
       2,
-      2,
       3,
+      2,
       1,
       0
     ],
@@ -50484,7 +50484,7 @@
     "avg_length": 33,
     "episodes": 20,
     "eps_365": 10,
-    "eps_90": 2,
+    "eps_90": 1,
     "first_at": "2025-03-28",
     "first_year": 1404,
     "last": "1405/06/31",
@@ -50573,8 +50573,8 @@
       1,
       1,
       3,
-      1,
-      1,
+      2,
+      0,
       1,
       0
     ],
@@ -52175,8 +52175,8 @@
       0,
       0,
       0,
-      0,
       10,
+      0,
       0,
       0,
       0,
@@ -58975,21 +58975,27 @@
     "status": "active"
   },
   "podcast-farsi-fikshn-fiction-podcast": {
-    "avg_gap_days": 13.3,
+    "avg_gap_days": 13.0,
     "avg_length": 44,
-    "episodes": 237,
-    "eps_365": 28,
-    "eps_90": 13,
+    "episodes": 238,
+    "eps_365": 29,
+    "eps_90": 14,
     "first_at": "2019-07-06",
     "first_year": 1398,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T01:30:00Z",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T02:00:00Z",
     "last_link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
-    "last_title": "شش روز شکنجه",
+    "last_title": "سطل آشغال",
     "max_length": 75,
     "median_length": 34,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/bb18a37dc6353c26/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-11-17T02:00:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/bb18a37dc6353c26/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "سطل آشغال"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/e5e7e76921d57a02/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-11-14T01:30:00Z",
@@ -59031,15 +59037,15 @@
         "at": "2026-10-24T13:30:00Z",
         "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/9f3098a364e75b3e/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "t": "خشن‌ترین قاتل جهان"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/5788e5972d207c21/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2026-10-17T13:30:00Z",
-        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/5788e5972d207c21/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "t": "کثیف‌ترین فتیش دنیا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-17T02:00:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/bb18a37dc6353c26/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
+        "title": "سطل آشغال"
+      },
       {
         "at": "2026-11-14T01:30:00Z",
         "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/e5e7e76921d57a02/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
@@ -59051,12 +59057,6 @@
         "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/3bc25faf0be53d48/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
         "title": "قاتل عاشق"
-      },
-      {
-        "at": "2026-11-07T01:30:00Z",
-        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/465fa78620b1034b/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
-        "title": "شیفت شب"
       }
     ],
     "recent_30d": [
@@ -59071,7 +59071,7 @@
       1,
       1,
       5,
-      7
+      8
     ],
     "status": "active"
   },
@@ -60259,10 +60259,10 @@
     "status": "active"
   },
   "podcast-farsi-orzshgah-fotbal": {
-    "avg_gap_days": 24.1,
+    "avg_gap_days": 24.7,
     "avg_length": 34,
     "episodes": 101,
-    "eps_365": 13,
+    "eps_365": 12,
     "eps_90": 1,
     "first_at": "2020-03-31",
     "first_year": 1399,
@@ -61352,10 +61352,10 @@
     "status": "stopped"
   },
   "podcast-fotbal-lb": {
-    "avg_gap_days": 6.4,
+    "avg_gap_days": 6.5,
     "avg_length": 149,
     "episodes": 646,
-    "eps_365": 57,
+    "eps_365": 56,
     "eps_90": 10,
     "first_at": "2019-06-20",
     "first_year": 1398,
@@ -61444,10 +61444,10 @@
       0,
       0,
       0,
-      9,
-      4,
-      2,
+      10,
       3,
+      3,
+      2,
       5
     ],
     "status": "active"
@@ -61538,8 +61538,8 @@
       }
     ],
     "recent_30d": [
-      6,
-      4,
+      7,
+      3,
       0,
       0,
       0,
@@ -63552,8 +63552,8 @@
       0,
       6,
       0,
-      2,
-      10,
+      3,
+      9,
       0,
       0,
       0
@@ -63646,7 +63646,7 @@
       }
     ],
     "recent_30d": [
-      4,
+      3,
       0,
       0,
       0,
@@ -66225,7 +66225,7 @@
       }
     ],
     "recent_30d": [
-      2,
+      1,
       0,
       0,
       0,
@@ -67735,15 +67735,15 @@
     "recent_30d": [
       8,
       3,
-      2,
-      2,
+      3,
+      1,
       0,
       0,
       7,
       7,
       7,
-      5,
-      9,
+      6,
+      8,
       3
     ],
     "status": "active"
@@ -68016,13 +68016,13 @@
       4,
       6,
       12,
-      11,
-      6,
+      12,
+      5,
       2,
       1,
       1,
-      0,
       1,
+      0,
       2
     ],
     "status": "active"
@@ -68109,8 +68109,8 @@
       11,
       5,
       3,
-      3,
-      3,
+      4,
+      2,
       2,
       2,
       2
@@ -70678,8 +70678,8 @@
       }
     ],
     "recent_30d": [
-      4,
-      6,
+      5,
+      5,
       4,
       4,
       3,
@@ -71278,8 +71278,8 @@
       0,
       0,
       8,
-      2,
-      2,
+      3,
+      1,
       2,
       2,
       0
@@ -74477,10 +74477,10 @@
     "status": "active"
   },
   "radio-karaafrini-ali-khadm-alrza": {
-    "avg_gap_days": 120.5,
+    "avg_gap_days": 18.0,
     "avg_length": 46,
     "episodes": 102,
-    "eps_365": 3,
+    "eps_365": 2,
     "eps_90": 0,
     "first_at": "2017-07-17",
     "first_year": 1396,
@@ -75255,12 +75255,12 @@
     "recent_30d": [
       6,
       4,
-      14,
-      2,
+      15,
+      1,
       0,
       0,
-      14,
-      9,
+      15,
+      8,
       3,
       2,
       7,
@@ -76593,8 +76593,8 @@
       }
     ],
     "recent_30d": [
-      0,
-      6,
+      4,
+      2,
       1,
       1,
       0,
@@ -77811,14 +77811,14 @@
     "first_year": 1402,
     "last": "1405/08/25",
     "last_at": "2026-11-16T13:42:30Z",
-    "last_link": "https://play.rabt.host/podcast/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episode/675d3e79-ff4d-450a-999c-d5dcefc4d86b/play.mp3?v=2",
+    "last_link": "https://play.rabt.host/podcast/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episode/675d3e79-ff4d-450a-999c-d5dcefc4d86b/play.mp3?v=3",
     "last_title": "قسمت شصت‌ویکم، سامان _ آتن",
     "max_length": 161,
     "median_length": 81,
     "min_length": 5,
     "play": [
       {
-        "a": "https://play.rabt.host/podcast/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episode/675d3e79-ff4d-450a-999c-d5dcefc4d86b/play.mp3?v=2",
+        "a": "https://play.rabt.host/podcast/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episode/675d3e79-ff4d-450a-999c-d5dcefc4d86b/play.mp3?v=3",
         "at": "2026-11-16T13:42:30Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episodes/675d3e79-ff4d-450a-999c-d5dcefc4d86b/artwork.jpg?v=1",
         "t": "قسمت شصت‌ویکم، سامان _ آتن"
@@ -77870,7 +77870,7 @@
       {
         "at": "2026-11-16T13:42:30Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episodes/675d3e79-ff4d-450a-999c-d5dcefc4d86b/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episode/675d3e79-ff4d-450a-999c-d5dcefc4d86b/play.mp3?v=2",
+        "link": "https://play.rabt.host/podcast/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episode/675d3e79-ff4d-450a-999c-d5dcefc4d86b/play.mp3?v=3",
         "title": "قسمت شصت‌ویکم، سامان _ آتن"
       },
       {
@@ -77887,8 +77887,8 @@
       }
     ],
     "recent_30d": [
-      2,
-      1,
+      3,
+      0,
       0,
       0,
       0,
@@ -77903,21 +77903,27 @@
     "status": "active"
   },
   "radioeshgh-radio-ashgh": {
-    "avg_gap_days": 111.0,
+    "avg_gap_days": 94.7,
     "avg_length": 75,
-    "episodes": 46,
-    "eps_365": 3,
-    "eps_90": 1,
+    "episodes": 47,
+    "eps_365": 4,
+    "eps_90": 2,
     "first_at": "2020-05-01",
     "first_year": 1399,
-    "last": "1405/06/26",
-    "last_at": "2026-09-17T08:05:38Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3ovjnf",
-    "last_title": "پادکست شماره ۸۵",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T09:26:58Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3sc90j",
+    "last_title": "پادکست شماره ۸۶",
     "max_length": 150,
     "median_length": 67,
     "min_length": 37,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1f3a0330/podcast/play/129425875/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F8a83e0b8-eda6-e0f7-d5c9-750d7e6c04b6.mp3",
+        "at": "2026-11-18T09:26:58Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1794659957208-b4578d8c47261.jpg",
+        "t": "پادکست شماره ۸۶"
+      },
       {
         "a": "https://anchor.fm/s/1f3a0330/podcast/play/125865135/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-17%2Fc9424c15-66b8-9ff4-1b0a-42a0ab05fcff.mp3",
         "at": "2026-09-17T08:05:38Z",
@@ -77959,15 +77965,15 @@
         "at": "2025-03-05T12:12:24Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1741176225728-331f5d0d4910f.jpg",
         "t": "پادکست شماره ۷۳"
-      },
-      {
-        "a": "https://anchor.fm/s/1f3a0330/podcast/play/93687853/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-29%2F87cd52c5-ca47-05ab-cd24-1003bc1703a8.mp3",
-        "at": "2024-10-29T12:47:52Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1741175860732-7e12e83a1a9a1.jpg",
-        "t": "پادکست شماره ۷۲"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T09:26:58Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1794659957208-b4578d8c47261.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3sc90j",
+        "title": "پادکست شماره ۸۶"
+      },
       {
         "at": "2026-09-17T08:05:38Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1789631584504-a20fe4d40258d.jpg",
@@ -77979,12 +77985,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1780421895240-6ecf285903dd6.jpg",
         "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3k8803",
         "title": "پادکست شماره ۸۳"
-      },
-      {
-        "at": "2026-02-07T06:51:13Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1770447058881-2c79e4a0242db.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3eooim",
-        "title": "پادکست شماره ۸۲"
       }
     ],
     "recent_30d": [
@@ -77999,7 +77999,7 @@
       0,
       1,
       0,
-      0
+      1
     ],
     "status": "active"
   },
@@ -78484,21 +78484,27 @@
     "status": "active"
   },
   "rai-bn-mstnd": {
-    "avg_gap_days": 43.2,
-    "avg_length": 67,
-    "episodes": 27,
-    "eps_365": 7,
-    "eps_90": 1,
+    "avg_gap_days": 47.0,
+    "avg_length": 66,
+    "episodes": 28,
+    "eps_365": 8,
+    "eps_90": 2,
     "first_at": "2022-08-05",
     "first_year": 1401,
-    "last": "1405/06/19",
-    "last_at": "2026-09-10T04:00:03Z",
-    "last_link": "https://s3.castbox.fm/e2/3f/07/5abab0472b9dea0bffe045b706.mp3",
-    "last_title": "شماره‌ی بیست‌وپنجم: جنگ شد - روایت پنجم",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T12:13:25Z",
+    "last_link": "https://s3.castbox.fm/8c/4c/80/c9fb3142a2a26cb6099ee68af1.mp3",
+    "last_title": "شماره‌ی بیست‌وششم: جنگ شد - روایت ششم",
     "max_length": 107,
     "median_length": 63,
     "min_length": 13,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/8c/4c/80/c9fb3142a2a26cb6099ee68af1.mp3",
+        "at": "2026-11-18T12:13:25Z",
+        "i": "https://s3.castbox.fm/7b/73/3d/8e6e67436e943315eb06fe394c.jpg",
+        "t": "شماره‌ی بیست‌وششم: جنگ شد - روایت ششم"
+      },
       {
         "a": "https://s3.castbox.fm/e2/3f/07/5abab0472b9dea0bffe045b706.mp3",
         "at": "2026-09-10T04:00:03Z",
@@ -78540,15 +78546,15 @@
         "at": "2025-12-24T05:03:14Z",
         "i": "https://s3.castbox.fm/cf/1b/a2/8f471b41ce86aa9dcddb645dc9.jpg",
         "t": "شماره‌ی بیستم: زخم، قاشق"
-      },
-      {
-        "a": "https://s3.castbox.fm/b5/c6/62/73197d4d89bcebf214c890e894.mp3",
-        "at": "2025-09-08T06:37:20Z",
-        "i": "https://s3.castbox.fm/32/9c/07/440372415dad7607e876bb0372.jpg",
-        "t": "شماره‌ی نوزدهم: معصومه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T12:13:25Z",
+        "i": "https://s3.castbox.fm/7b/73/3d/8e6e67436e943315eb06fe394c.jpg",
+        "link": "https://s3.castbox.fm/8c/4c/80/c9fb3142a2a26cb6099ee68af1.mp3",
+        "title": "شماره‌ی بیست‌وششم: جنگ شد - روایت ششم"
+      },
       {
         "at": "2026-09-10T04:00:03Z",
         "i": "https://s3.castbox.fm/c6/25/d0/1c4b2c461dacdcf4504148aa79.jpg",
@@ -78560,12 +78566,6 @@
         "i": "https://s3.castbox.fm/ae/a8/9a/dd6afe4b74828c2d39013a6f41.jpg",
         "link": "https://s3.castbox.fm/c9/d6/90/a620ee4c1abb64ada5754e8b78.mp3",
         "title": "شماره‌ی بیست‌وچهارم: جنگ شد - روایت چهارم"
-      },
-      {
-        "at": "2026-07-12T15:16:22Z",
-        "i": "https://s3.castbox.fm/83/80/4f/57897946fca457ee776daa4d8d.jpg",
-        "link": "https://s3.castbox.fm/aa/08/93/b24b474caa800cdaa65c725382.mp3",
-        "title": "شماره‌ی بیست‌وسوم: جنگ شد - روایت سوم"
       }
     ],
     "recent_30d": [
@@ -78580,7 +78580,7 @@
       1,
       1,
       0,
-      0
+      1
     ],
     "status": "active"
   },
@@ -81360,8 +81360,8 @@
     "recent_30d": [
       2,
       1,
-      0,
       1,
+      0,
       0,
       2,
       2,
@@ -82954,19 +82954,24 @@
   "sdai-bazar": {
     "avg_gap_days": 4.2,
     "avg_length": 22,
-    "episodes": 498,
+    "episodes": 499,
     "eps_365": 87,
-    "eps_90": 38,
+    "eps_90": 39,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T11:50:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/qaphuqbyha/",
-    "last_title": "افت سهام فناوری و مقاومت دلار پیش از گزارش انویدیا",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T12:00:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/c0p5yrrg63/",
+    "last_title": "صورت‌جلسهٔ فد دربارهٔ افزایش‌های بعدی نرخ بهره چه می‌گوید؟",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/c0p5yrrg63/2026-11-18-12-18-15.mp3",
+        "at": "2026-11-18T12:00:00Z",
+        "t": "صورت‌جلسهٔ فد دربارهٔ افزایش‌های بعدی نرخ بهره چه می‌گوید؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/qaphuqbyha/2026-11-17-11-55-02.mp3",
         "at": "2026-11-17T11:50:00Z",
@@ -83001,14 +83006,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/4mte1e0wj7/2026-11-09-12-00-10.mp3",
         "at": "2026-11-09T11:50:00Z",
         "t": "نفت در انتظار دیدار ترامپ با نخست‌وزیر قطر"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/0jd87468ny/2026-11-06-11-11-55.mp3",
-        "at": "2026-11-06T11:00:00Z",
-        "t": "وال‌استریت زیر فشار؛ از نگرانی هوش مصنوعی تا آزمون اشتغال آمریکا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T12:00:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/c0p5yrrg63/",
+        "title": "صورت‌جلسهٔ فد دربارهٔ افزایش‌های بعدی نرخ بهره چه می‌گوید؟"
+      },
       {
         "at": "2026-11-17T11:50:00Z",
         "link": "https://dotcast.org/p/bozvcayr/qaphuqbyha/",
@@ -83018,16 +83023,11 @@
         "at": "2026-11-16T11:50:00Z",
         "link": "https://dotcast.org/p/bozvcayr/4azu1bfoa9/",
         "title": "آیا حمایت ۱٫۱۰ یورو‌دلار دوام می‌آورد؟"
-      },
-      {
-        "at": "2026-11-13T09:20:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/nxzb24ukqe/",
-        "title": "آیا PPI احتمال افزایش ۵۰ واحد پایه‌ای نرخ بهره را بالا می‌برد؟"
       }
     ],
     "recent_30d": [
-      20,
-      5,
+      21,
+      4,
       15,
       5,
       0,
@@ -83036,7 +83036,7 @@
       0,
       0,
       0,
-      16,
+      17,
       22
     ],
     "status": "active"
@@ -83729,8 +83729,8 @@
       1,
       0,
       3,
-      3,
-      5,
+      4,
+      4,
       4
     ],
     "status": "active"
@@ -84229,8 +84229,8 @@
       0,
       0,
       0,
-      32,
-      17,
+      33,
+      16,
       19,
       22,
       26
@@ -87066,10 +87066,10 @@
     "status": "active"
   },
   "siaht-namh-abrahim-big-haj-siah-taj-alsltnh": {
-    "avg_gap_days": 8.5,
+    "avg_gap_days": 8.6,
     "avg_length": 25,
     "episodes": 81,
-    "eps_365": 43,
+    "eps_365": 42,
     "eps_90": 5,
     "first_at": "2025-09-23",
     "first_year": 1404,
@@ -87151,14 +87151,14 @@
       }
     ],
     "recent_30d": [
-      8,
-      6,
+      9,
+      5,
       9,
       5,
       0,
       0,
-      1,
-      5,
+      2,
+      4,
       2,
       0,
       1,
@@ -89753,7 +89753,7 @@
     "avg_length": 10,
     "episodes": 4274,
     "eps_365": 784,
-    "eps_90": 248,
+    "eps_90": 247,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/26",
@@ -89829,10 +89829,10 @@
       28,
       0,
       7,
-      33,
-      107,
-      85,
-      99,
+      34,
+      106,
+      86,
+      98,
       74,
       75
     ],
@@ -91358,8 +91358,8 @@
       0,
       6,
       5,
-      7,
-      4,
+      8,
+      3,
       1
     ],
     "status": "active"
@@ -91807,10 +91807,10 @@
       }
     ],
     "recent_30d": [
-      31,
-      10,
-      38,
-      7,
+      32,
+      9,
+      39,
+      6,
       1,
       13,
       10,
@@ -92493,21 +92493,27 @@
     "status": "active"
   },
   "ultramind": {
-    "avg_gap_days": 60.4,
-    "avg_length": 37,
-    "episodes": 15,
-    "eps_365": 6,
-    "eps_90": 3,
+    "avg_gap_days": 52.3,
+    "avg_length": 38,
+    "episodes": 16,
+    "eps_365": 7,
+    "eps_90": 4,
     "first_at": "2021-03-21",
     "first_year": 1400,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T08:29:57Z",
-    "last_link": "https://s3.castbox.fm/ad/78/c3/3a18da4a5b8f10a1234910cd6a.mp3",
-    "last_title": "آنسوی آگاهی 6 - توقع",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T11:25:54Z",
+    "last_link": "https://s3.castbox.fm/f8/6e/e7/0be33a4643bf023d921d9800a1.mp3",
+    "last_title": "آنسوی آگاهی 7 - اختلاف نظر",
     "max_length": 84,
-    "median_length": 32,
+    "median_length": 36,
     "min_length": 10,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/f8/6e/e7/0be33a4643bf023d921d9800a1.mp3",
+        "at": "2026-11-18T11:25:54Z",
+        "i": "https://s3.castbox.fm/9a/e9/c2/53741c4d2a87b12d52b227b25e.jpg",
+        "t": "آنسوی آگاهی 7 - اختلاف نظر"
+      },
       {
         "a": "https://s3.castbox.fm/ad/78/c3/3a18da4a5b8f10a1234910cd6a.mp3",
         "at": "2026-11-06T08:29:57Z",
@@ -92549,15 +92555,15 @@
         "at": "2021-06-21T14:37:07Z",
         "i": "https://s3.castbox.fm/8e/62/d5/ea63fb479abb70d89e4a98fb58.jpg",
         "t": "اپیزود #5 - منبع انگیزه"
-      },
-      {
-        "a": "https://s3.castbox.fm/2e/15/c5/ed28fd4fa0933b0316b2d05843.mp3",
-        "at": "2021-06-08T14:37:00Z",
-        "i": "https://s3.castbox.fm/60/ee/5d/4b4cb748118ead68f381f0b8d9.jpg",
-        "t": "پژواک #02"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T11:25:54Z",
+        "i": "https://s3.castbox.fm/9a/e9/c2/53741c4d2a87b12d52b227b25e.jpg",
+        "link": "https://s3.castbox.fm/f8/6e/e7/0be33a4643bf023d921d9800a1.mp3",
+        "title": "آنسوی آگاهی 7 - اختلاف نظر"
+      },
       {
         "at": "2026-11-06T08:29:57Z",
         "i": "https://s3.castbox.fm/56/11/3e/3bbcb74a478d474a449e74425b.jpg",
@@ -92569,12 +92575,6 @@
         "i": "https://s3.castbox.fm/fd/2d/02/aa924d490ba3b351464763c20c.jpg",
         "link": "https://s3.castbox.fm/8f/2d/f1/440c064027a60aabd04b2d53fa.mp3",
         "title": "آنسوی آگاهی 5 - ایستادگی در فقدان"
-      },
-      {
-        "at": "2026-08-25T20:14:16Z",
-        "i": "https://s3.castbox.fm/f7/12/e5/596253446b90628d17da5301d0.jpg",
-        "link": "https://s3.castbox.fm/b6/25/0d/2ceac74d6885f4bb15793d22c3.mp3",
-        "title": "آنسوی آگاهی 4 - جامعه سالم"
       }
     ],
     "recent_30d": [
@@ -92589,7 +92589,7 @@
       2,
       2,
       0,
-      1
+      2
     ],
     "status": "active"
   },
