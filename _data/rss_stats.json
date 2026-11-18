@@ -47158,8 +47158,8 @@
       1,
       0,
       4,
-      10,
-      17,
+      11,
+      16,
       22,
       3,
       25,
@@ -92434,16 +92434,21 @@
     "episodes": 600,
     "eps_365": 261,
     "eps_90": 64,
-    "first_at": "2024-07-31",
+    "first_at": "2024-08-01",
     "first_year": 1403,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T20:30:00Z",
-    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-0008-miAd5Cfj-H48TyStS",
-    "last_title": "مقدمه، قسمت هشتم",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T20:30:00Z",
+    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-0009-1cO5CiMM-ogNRH6c8",
+    "last_title": "مقدمه، قسمت نهم",
     "max_length": 41,
     "median_length": 28,
     "min_length": 24,
     "play": [
+      {
+        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/205ecff3-de30-4fdc-890a-2185d3ff4b91/group-item/57a9708e-c632-49e2-87cc-f9cfb07e7644/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
+        "at": "2026-11-18T20:30:00Z",
+        "t": "مقدمه، قسمت نهم"
+      },
       {
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/e2725975-768a-40da-a20e-bde6d31e8ec4/group-item/35ade68d-f02e-4ed8-81a4-41f05b827b94/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-11-17T20:30:00Z",
@@ -92478,14 +92483,14 @@
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/f8deedeb-10ad-4d6f-8a51-137bfddd62fc/group-item/25b67e61-3a2f-4d1f-964a-2250732b197c/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-11-09T20:30:00Z",
         "t": "مقدمه، قسمت دوم"
-      },
-      {
-        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/43d54350-3eb9-472f-8272-74dbc13876c3/group-item/8b3a11e1-a163-4f4d-a94a-528c28cd8b0b/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
-        "at": "2026-11-08T20:30:00Z",
-        "t": "مقدمه، قسمت اول"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T20:30:00Z",
+        "link": "https://tmm-khtb.simplecast.com/episodes/tk-0009-1cO5CiMM-ogNRH6c8",
+        "title": "مقدمه، قسمت نهم"
+      },
       {
         "at": "2026-11-17T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-0008-miAd5Cfj-H48TyStS",
@@ -92495,14 +92500,12 @@
         "at": "2026-11-16T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-0007-9tOcM5QK-Qqml_c_a",
         "title": "مقدمه، قسمت هفتم"
-      },
-      {
-        "at": "2026-11-15T20:30:00Z",
-        "link": "https://tmm-khtb.simplecast.com/episodes/tk-0006-3uCwszTo-MpLsFMyn",
-        "title": "مقدمه، قسمت ششم"
       }
     ],
     "recent_30d": [
+      22,
+      22,
+      20,
       22,
       22,
       21,
@@ -92511,9 +92514,6 @@
       22,
       20,
       22,
-      22,
-      21,
-      21,
       22
     ],
     "status": "active"
