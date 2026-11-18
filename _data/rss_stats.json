@@ -31245,20 +31245,27 @@
     "status": "stopped"
   },
   "iran-nameh": {
-    "avg_length": 26,
-    "episodes": 1,
-    "eps_365": 1,
-    "eps_90": 1,
+    "avg_gap_days": 0.0,
+    "avg_length": 34,
+    "episodes": 2,
+    "eps_365": 2,
+    "eps_90": 2,
     "first_at": "2026-11-17",
     "first_year": 1405,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T19:56:26Z",
-    "last_link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/045e565b-e1f1-41e5-a557-13d059ae71ae/play.mp3?v=1",
-    "last_title": "قسمت اول ایران‌نامه | تمدن گمشده زاگرس؛ راز  قدیمی ترین خط ایران",
-    "max_length": 26,
-    "median_length": 26,
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T14:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/ac61bd97-0a59-4d12-b31a-05348c3d94d7/play.mp3?v=1",
+    "last_title": "قسمت دوم ایران‌نامه | چرا عرب نشدیم؟ راز بقای هویت ایران",
+    "max_length": 42,
+    "median_length": 34,
     "min_length": 26,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/ac61bd97-0a59-4d12-b31a-05348c3d94d7/play.mp3?v=1",
+        "at": "2026-11-18T14:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/ac61bd97-0a59-4d12-b31a-05348c3d94d7/artwork.jpg?v=1",
+        "t": "قسمت دوم ایران‌نامه | چرا عرب نشدیم؟ راز بقای هویت ایران"
+      },
       {
         "a": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/045e565b-e1f1-41e5-a557-13d059ae71ae/play.mp3?v=1",
         "at": "2026-11-17T19:56:26Z",
@@ -31267,6 +31274,12 @@
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T14:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/ac61bd97-0a59-4d12-b31a-05348c3d94d7/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/ac61bd97-0a59-4d12-b31a-05348c3d94d7/play.mp3?v=1",
+        "title": "قسمت دوم ایران‌نامه | چرا عرب نشدیم؟ راز بقای هویت ایران"
+      },
       {
         "at": "2026-11-17T19:56:26Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/045e565b-e1f1-41e5-a557-13d059ae71ae/artwork.jpg?v=1",
@@ -31286,7 +31299,7 @@
       0,
       0,
       0,
-      1
+      2
     ],
     "status": "active"
   },
@@ -88955,7 +88968,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       3,
       0,
       0,
@@ -90609,8 +90622,8 @@
     "recent_30d": [
       112,
       67,
-      81,
-      27,
+      82,
+      26,
       0,
       7,
       35,
