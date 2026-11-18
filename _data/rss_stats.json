@@ -4983,8 +4983,8 @@
       2,
       3,
       3,
-      3,
-      3,
+      4,
+      2,
       4
     ],
     "status": "active"
@@ -78599,21 +78599,27 @@
     "status": "active"
   },
   "radiodoor": {
-    "avg_gap_days": 42.4,
-    "avg_length": 85,
-    "episodes": 61,
-    "eps_365": 9,
-    "eps_90": 3,
+    "avg_gap_days": 39.3,
+    "avg_length": 87,
+    "episodes": 62,
+    "eps_365": 10,
+    "eps_90": 4,
     "first_at": "2023-12-25",
     "first_year": 1402,
-    "last": "1405/08/09",
-    "last_at": "2026-10-31T17:03:01Z",
-    "last_link": "https://play.rabt.host/podcast/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episode/4a2b6ca8-1dc3-400f-bd88-10043dd7ce7b/play.mp3?v=1",
-    "last_title": "قسمت شصتم، سمیرا _ وکلابروک",
+    "last": "1405/08/25",
+    "last_at": "2026-11-16T13:42:30Z",
+    "last_link": "https://play.rabt.host/podcast/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episode/675d3e79-ff4d-450a-999c-d5dcefc4d86b/play.mp3?v=4",
+    "last_title": "قسمت شصت‌ویکم، سامان _ آتن",
     "max_length": 161,
     "median_length": 81,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episode/675d3e79-ff4d-450a-999c-d5dcefc4d86b/play.mp3?v=4",
+        "at": "2026-11-16T13:42:30Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episodes/675d3e79-ff4d-450a-999c-d5dcefc4d86b/artwork.jpg?v=1",
+        "t": "قسمت شصت‌ویکم، سامان _ آتن"
+      },
       {
         "a": "https://play.rabt.host/podcast/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episode/4a2b6ca8-1dc3-400f-bd88-10043dd7ce7b/play.mp3?v=1",
         "at": "2026-10-31T17:03:01Z",
@@ -78655,15 +78661,15 @@
         "at": "2025-12-23T09:27:42Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episodes/884427f2-a255-444d-85b0-e5df9c5520f7/artwork.jpg?v=1",
         "t": "قسمت پنجاه‌وچهارم، بهارک _ هلسینکی"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episode/90b9f849-c080-4f1a-b9a4-6dcdd4e24206/play.mp3?v=1",
-        "at": "2025-12-09T07:40:34Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episodes/90b9f849-c080-4f1a-b9a4-6dcdd4e24206/artwork.jpg?v=1",
-        "t": "قسمت پنجاه‌وسوم، آوا و مریم _ اربیل"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-16T13:42:30Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episodes/675d3e79-ff4d-450a-999c-d5dcefc4d86b/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episode/675d3e79-ff4d-450a-999c-d5dcefc4d86b/play.mp3?v=4",
+        "title": "قسمت شصت‌ویکم، سامان _ آتن"
+      },
       {
         "at": "2026-10-31T17:03:01Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episodes/4a2b6ca8-1dc3-400f-bd88-10043dd7ce7b/artwork.jpg?v=2",
@@ -78675,12 +78681,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episodes/81476547-28ac-446c-824e-e724cdbbd2d5/artwork.jpg?v=2",
         "link": "https://play.rabt.host/podcast/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episode/81476547-28ac-446c-824e-e724cdbbd2d5/play.mp3?v=1",
         "title": "قسمت پنجاه‌و نهم، سورنا _ هلند"
-      },
-      {
-        "at": "2026-09-05T09:50:50Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episodes/c6ee624d-57ff-428e-ace5-8d0141b1623a/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/dd19cd16-6f08-4d73-8b71-14c8dd556ccc/episode/c6ee624d-57ff-428e-ace5-8d0141b1623a/play.mp3?v=1",
-        "title": "قسمت پنجاه‌وهشتم، علی _ سنت‌پترزبورگ"
       }
     ],
     "recent_30d": [
@@ -78695,7 +78695,7 @@
       1,
       1,
       1,
-      1
+      2
     ],
     "status": "active"
   },
@@ -90630,8 +90630,8 @@
       104,
       85,
       98,
-      75,
-      78
+      76,
+      77
     ],
     "status": "active"
   },
@@ -91207,8 +91207,8 @@
       0,
       0,
       2,
-      4,
       5,
+      4,
       4,
       4,
       5
