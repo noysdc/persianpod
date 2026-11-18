@@ -13539,7 +13539,7 @@
     "avg_length": 17,
     "episodes": 105,
     "eps_365": 105,
-    "eps_90": 72,
+    "eps_90": 71,
     "first_at": "2026-07-29",
     "first_year": 1405,
     "last": "1405/08/20",
@@ -13628,8 +13628,8 @@
       0,
       0,
       0,
-      33,
-      21,
+      34,
+      20,
       28,
       23
     ],
@@ -30280,21 +30280,27 @@
     "status": "active"
   },
   "hzar-o-ik-shb": {
-    "avg_gap_days": 5.2,
+    "avg_gap_days": 5.3,
     "avg_length": 32,
-    "episodes": 280,
-    "eps_365": 69,
-    "eps_90": 20,
+    "episodes": 281,
+    "eps_365": 70,
+    "eps_90": 21,
     "first_at": "2020-04-27",
     "first_year": 1399,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T17:42:28Z",
-    "last_link": "https://s3.castbox.fm/f5/fe/7f/84532b44468291e27e8fa0da28.mp3",
-    "last_title": "سرزمین جاوید 2 - محاصره بلخ - اپیزود 7 (بخش اول)",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T17:22:19Z",
+    "last_link": "https://s3.castbox.fm/46/5d/f9/cb16ca4ed1b3cc00cabd03948c.mp3",
+    "last_title": "سرزمین جاوید 2 - محاصره بلخ - اپیزود 7 (بخش دوم)",
     "max_length": 48,
     "median_length": 32,
     "min_length": 12,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/46/5d/f9/cb16ca4ed1b3cc00cabd03948c.mp3",
+        "at": "2026-11-18T17:22:19Z",
+        "i": "https://s3.castbox.fm/a6/d1/e9/16a84e4b90a60daa316a18a3a6.jpg",
+        "t": "سرزمین جاوید 2 - محاصره بلخ - اپیزود 7 (بخش دوم)"
+      },
       {
         "a": "https://s3.castbox.fm/f5/fe/7f/84532b44468291e27e8fa0da28.mp3",
         "at": "2026-11-09T17:42:28Z",
@@ -30336,15 +30342,15 @@
         "at": "2026-10-17T13:52:31Z",
         "i": "https://s3.castbox.fm/46/81/19/fcdcad4825a5b21e9624751b0e.jpg",
         "t": "سرزمین جاوید 2 - مقابله با تجاوز سیت ها - اپیزود 4 (بخش دوم)"
-      },
-      {
-        "a": "https://s3.castbox.fm/5c/db/5c/9243094d10b5ff529b707fcad6.mp3",
-        "at": "2026-10-15T05:34:29Z",
-        "i": "https://s3.castbox.fm/3d/99/08/edc5ba4b8b94be1f815bc48673.jpg",
-        "t": "سرزمین جاوید 2- مقابله با تجاوز سیت ها - اپیزود 4 (بخش اول)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T17:22:19Z",
+        "i": "https://s3.castbox.fm/a6/d1/e9/16a84e4b90a60daa316a18a3a6.jpg",
+        "link": "https://s3.castbox.fm/46/5d/f9/cb16ca4ed1b3cc00cabd03948c.mp3",
+        "title": "سرزمین جاوید 2 - محاصره بلخ - اپیزود 7 (بخش دوم)"
+      },
       {
         "at": "2026-11-09T17:42:28Z",
         "i": "https://s3.castbox.fm/04/60/77/d18fac4d20b6ed32cdd82cbf8e.jpg",
@@ -30356,12 +30362,6 @@
         "i": "https://s3.castbox.fm/05/66/12/36525d495f9398c0b21f9742b7.jpg",
         "link": "https://s3.castbox.fm/2c/f1/68/790f6e4dababd675a96a1df668.mp3",
         "title": "سرزمین جاوید2 -ماجرای بردیای جدید و سوء قصد به داریوش-اپیزود 6 (بخش دوم)"
-      },
-      {
-        "at": "2026-11-02T18:41:47Z",
-        "i": "https://s3.castbox.fm/de/5e/f4/869a004712ae838b518d85bf00.jpg",
-        "link": "https://s3.castbox.fm/5d/a4/f2/cbb31948ff8736f50df19627e2.mp3",
-        "title": "سرزمین جاوید2- ماجرای بردیای جدید و سوء قصد به داریوش-اپیزود6 (بخش اول)"
       }
     ],
     "recent_30d": [
@@ -30376,7 +30376,7 @@
       9,
       6,
       8,
-      6
+      7
     ],
     "status": "active"
   },
@@ -38294,8 +38294,8 @@
       31,
       65,
       62,
-      56,
-      58,
+      57,
+      57,
       69
     ],
     "status": "active"
@@ -41966,8 +41966,8 @@
       0,
       8,
       23,
-      16,
-      8
+      17,
+      7
     ],
     "status": "active"
   },
