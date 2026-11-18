@@ -25269,7 +25269,7 @@
     "avg_length": 3,
     "episodes": 15,
     "eps_365": 15,
-    "eps_90": 15,
+    "eps_90": 14,
     "first_at": "2026-08-20",
     "first_year": 1405,
     "last": "1405/06/03",
@@ -25347,8 +25347,8 @@
       0,
       0,
       0,
-      0,
-      15,
+      1,
+      14,
       0,
       0
     ],
@@ -73950,21 +73950,26 @@
     "status": "active"
   },
   "radio-hkait": {
-    "avg_gap_days": 4.0,
-    "avg_length": 35,
-    "episodes": 212,
-    "eps_365": 92,
-    "eps_90": 42,
+    "avg_gap_days": 3.9,
+    "avg_length": 36,
+    "episodes": 213,
+    "eps_365": 93,
+    "eps_90": 43,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7c26c6f0-c785-4288-9a17-f93bfdaee1db/play.mp3?v=1",
-    "last_title": "همهُ صاحب خانه ها بد نیستند - عزیز نسین",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/9610f63e-4f72-4ca7-94ff-c1ae16353fc8/play.mp3?v=1",
+    "last_title": "مجموعه نامرئی – بخش اول (روایت داستان) – اشتفان تسوایگ",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/9610f63e-4f72-4ca7-94ff-c1ae16353fc8/play.mp3?v=1",
+        "at": "2026-11-18T01:30:00Z",
+        "t": "مجموعه نامرئی – بخش اول (روایت داستان) – اشتفان تسوایگ"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7c26c6f0-c785-4288-9a17-f93bfdaee1db/play.mp3?v=1",
         "at": "2026-11-17T01:30:00Z",
@@ -74006,15 +74011,14 @@
         "at": "2026-11-11T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/14f4feea-0e18-4155-8a32-9cfe9ec39dc6/artwork.jpg?v=1",
         "t": "سقوط خانهُ آشر - بخش اول - ادگار آلن پو"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/e751144b-56a8-49be-bec9-7035ae7fd3ef/play.mp3?v=1",
-        "at": "2026-11-10T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/e751144b-56a8-49be-bec9-7035ae7fd3ef/artwork.jpg?v=1",
-        "t": "ملت این در و آن در زدن - آرکادی آورچنکو"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T01:30:00Z",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/9610f63e-4f72-4ca7-94ff-c1ae16353fc8/play.mp3?v=1",
+        "title": "مجموعه نامرئی – بخش اول (روایت داستان) – اشتفان تسوایگ"
+      },
       {
         "at": "2026-11-17T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/7c26c6f0-c785-4288-9a17-f93bfdaee1db/artwork.jpg?v=1",
@@ -74026,12 +74030,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/8f4010a5-edba-44bf-8af3-505de99b4ea4/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/8f4010a5-edba-44bf-8af3-505de99b4ea4/play.mp3?v=1",
         "title": "شب بلند - منیرو روانی پور"
-      },
-      {
-        "at": "2026-11-15T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/22629747-20dd-4557-9a8d-ef76218d2a21/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/22629747-20dd-4557-9a8d-ef76218d2a21/play.mp3?v=1",
-        "title": "آنیوتا - آنتوان چخوف"
       }
     ],
     "recent_30d": [
@@ -74046,7 +74044,7 @@
       8,
       9,
       8,
-      25
+      26
     ],
     "status": "active"
   },
