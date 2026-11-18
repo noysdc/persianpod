@@ -5938,25 +5938,19 @@
   "ali-sdart": {
     "avg_gap_days": 4.9,
     "avg_length": 32,
-    "episodes": 451,
-    "eps_365": 74,
-    "eps_90": 15,
+    "episodes": 450,
+    "eps_365": 73,
+    "eps_90": 14,
     "first_at": "2020-06-15",
     "first_year": 1399,
-    "last": "1405/08/27",
-    "last_at": "2026-11-18T03:54:38Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3sjepb",
-    "last_title": "⁠ ⁠صدارت⁠- نقش‌آفرینی عقاید «دینی» در رژیم اسرائیل و ایران و امریکا، نفی لائیسیته",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T00:08:08Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3sbn74",
+    "last_title": "صدارت⁠- شعار نتانیاهو و شرکا: جنگ! جنگ! تا پیروزی «اسرائیل بزرگ» به‌عنوان «سرزمین موعود» برای «قوم برگزیده»",
     "max_length": 146,
     "median_length": 38,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/2f313e0c/podcast/play/129661163/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fb208063a-7a2b-8d30-39ef-a36946dbfc95.mp3",
-        "at": "2026-11-18T03:54:38Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1794974037249-61dba64438018.jpg",
-        "t": "⁠ ⁠صدارت⁠- نقش‌آفرینی عقاید «دینی» در رژیم اسرائیل و ایران و امریکا، نفی لائیسیته"
-      },
       {
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/129407652/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F147a6fdb-8be0-f726-1e3a-011ee2e086a6.mp3",
         "at": "2026-11-14T00:08:08Z",
@@ -5997,15 +5991,15 @@
         "at": "2026-10-15T12:43:19Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1792068144114-b376594debd6b.jpg",
         "t": "صدارت--پنجمین سال فقدان بنی‌صدر؛ جای خالیِ حقوق‌مداری، به‌ویژه استقلال و آزادی"
+      },
+      {
+        "a": "https://anchor.fm/s/2f313e0c/podcast/play/126908816/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F9ed273b6-a296-4fbf-8e1e-ef9964e7364f.mp3",
+        "at": "2026-10-06T01:11:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1791248993572-a7037987c110f.jpg",
+        "t": "صدارت⁠- رویکرد مردم به خشونت، وضعیت ما را از این هم بدتر خواهد کرد"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-18T03:54:38Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1794974037249-61dba64438018.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3sjepb",
-        "title": "⁠ ⁠صدارت⁠- نقش‌آفرینی عقاید «دینی» در رژیم اسرائیل و ایران و امریکا، نفی لائیسیته"
-      },
       {
         "at": "2026-11-14T00:08:08Z",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3sbn74",
@@ -6016,6 +6010,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1794339081089-c8b81307ad18c.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3s5pmr",
         "title": "صدارت⁠- نتایج مقاومت ایرانیان در مقابل جنایت و تجاوز انیرانیان!"
+      },
+      {
+        "at": "2026-11-04T21:29:15Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1793827719022-7d664039ef3ab.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/------------e3rp41e",
+        "title": "صدارت⁠- صدور انقلاب، اسلام‌ستیزی، انتخابات، مذاکرات، تشدید تجاوزها، افول «ابرقدرت»ها-همه مرتبط با هم"
       }
     ],
     "recent_30d": [
@@ -6030,7 +6030,7 @@
       6,
       4,
       4,
-      7
+      6
     ],
     "status": "active"
   },
@@ -78700,21 +78700,27 @@
     "status": "active"
   },
   "radioeshgh-radio-ashgh": {
-    "avg_gap_days": 111.0,
+    "avg_gap_days": 94.7,
     "avg_length": 75,
-    "episodes": 46,
-    "eps_365": 3,
-    "eps_90": 1,
+    "episodes": 47,
+    "eps_365": 4,
+    "eps_90": 2,
     "first_at": "2020-05-01",
     "first_year": 1399,
-    "last": "1405/06/26",
-    "last_at": "2026-09-17T08:05:38Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3ovjnf",
-    "last_title": "پادکست شماره ۸۵",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T09:26:58Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3sc90j",
+    "last_title": "پادکست شماره ۸۶",
     "max_length": 150,
     "median_length": 67,
     "min_length": 37,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1f3a0330/podcast/play/129425875/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F8a83e0b8-eda6-e0f7-d5c9-750d7e6c04b6.mp3",
+        "at": "2026-11-18T09:26:58Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1794659957208-b4578d8c47261.jpg",
+        "t": "پادکست شماره ۸۶"
+      },
       {
         "a": "https://anchor.fm/s/1f3a0330/podcast/play/125865135/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-17%2Fc9424c15-66b8-9ff4-1b0a-42a0ab05fcff.mp3",
         "at": "2026-09-17T08:05:38Z",
@@ -78756,15 +78762,15 @@
         "at": "2025-03-05T12:12:24Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1741176225728-331f5d0d4910f.jpg",
         "t": "پادکست شماره ۷۳"
-      },
-      {
-        "a": "https://anchor.fm/s/1f3a0330/podcast/play/93687853/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-29%2F87cd52c5-ca47-05ab-cd24-1003bc1703a8.mp3",
-        "at": "2024-10-29T12:47:52Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1741175860732-7e12e83a1a9a1.jpg",
-        "t": "پادکست شماره ۷۲"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T09:26:58Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1794659957208-b4578d8c47261.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3sc90j",
+        "title": "پادکست شماره ۸۶"
+      },
       {
         "at": "2026-09-17T08:05:38Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1789631584504-a20fe4d40258d.jpg",
@@ -78776,12 +78782,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1780421895240-6ecf285903dd6.jpg",
         "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3k8803",
         "title": "پادکست شماره ۸۳"
-      },
-      {
-        "at": "2026-02-07T06:51:13Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1770447058881-2c79e4a0242db.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3eooim",
-        "title": "پادکست شماره ۸۲"
       }
     ],
     "recent_30d": [
@@ -78796,7 +78796,7 @@
       0,
       1,
       0,
-      0
+      1
     ],
     "status": "active"
   },
@@ -86302,21 +86302,27 @@
     "status": "stopped"
   },
   "shar-kst": {
-    "avg_gap_days": 8.4,
+    "avg_gap_days": 8.3,
     "avg_length": 5,
-    "episodes": 177,
-    "eps_365": 39,
-    "eps_90": 35,
+    "episodes": 178,
+    "eps_365": 40,
+    "eps_90": 36,
     "first_at": "2022-05-04",
     "first_year": 1401,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T14:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/276635a8-ea11-437e-8bad-64cfe0faa4a4/play.mp3?v=1",
-    "last_title": "صد و هفتاد و شش - بادهٔ خام: منسوب به خیام",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T14:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ed6fc9d1-378c-4d25-8f93-6ac157bd1474/play.mp3?v=1",
+    "last_title": "صد و هفتاد و هفت - غم و مَی و تریاک: منسوب به خیام",
     "max_length": 19,
     "median_length": 5,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ed6fc9d1-378c-4d25-8f93-6ac157bd1474/play.mp3?v=1",
+        "at": "2026-11-18T14:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/ed6fc9d1-378c-4d25-8f93-6ac157bd1474/artwork.jpg?v=1",
+        "t": "صد و هفتاد و هفت - غم و مَی و تریاک: منسوب به خیام"
+      },
       {
         "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/276635a8-ea11-437e-8bad-64cfe0faa4a4/play.mp3?v=1",
         "at": "2026-11-17T14:30:00Z",
@@ -86358,15 +86364,15 @@
         "at": "2026-11-09T16:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/808e576b-8da4-48d1-a62c-ae68dae69ade/artwork.jpg?v=1",
         "t": "صد و هفتاد - رخِ لاله: منسوب به خیام"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/f9785b6a-8088-4c8c-9262-6858f4c7e5e7/play.mp3?v=1",
-        "at": "2026-11-08T14:30:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/f9785b6a-8088-4c8c-9262-6858f4c7e5e7/artwork.jpg?v=1",
-        "t": "صد و شصت و نه - رخِ نازنین: منسوب به خیام"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T14:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/ed6fc9d1-378c-4d25-8f93-6ac157bd1474/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/ed6fc9d1-378c-4d25-8f93-6ac157bd1474/play.mp3?v=1",
+        "title": "صد و هفتاد و هفت - غم و مَی و تریاک: منسوب به خیام"
+      },
       {
         "at": "2026-11-17T14:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/276635a8-ea11-437e-8bad-64cfe0faa4a4/artwork.jpg?v=1",
@@ -86378,12 +86384,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/b1c2b1be-9e04-4019-adff-80c1bcb0c4b0/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/b1c2b1be-9e04-4019-adff-80c1bcb0c4b0/play.mp3?v=1",
         "title": "صد و هفتاد و پنج - جورِ فَلَک: منسوب به خیام"
-      },
-      {
-        "at": "2026-11-15T14:06:13Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episodes/e75fb181-e125-4835-b030-0b0d5e60403d/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/23e4db09-e0a7-4f54-8b6c-61f21133f7f9/episode/e75fb181-e125-4835-b030-0b0d5e60403d/play.mp3?v=1",
-        "title": "صد و هفتاد و چهار - خور و خواب: منسوب به خیام"
       }
     ],
     "recent_30d": [
@@ -86398,7 +86398,7 @@
       2,
       1,
       6,
-      28
+      29
     ],
     "status": "active"
   },
