@@ -5075,7 +5075,7 @@
       }
     ],
     "recent_30d": [
-      3,
+      2,
       1,
       2,
       0,
@@ -77783,8 +77783,8 @@
     "recent_30d": [
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       1,
       0,
       0,
@@ -92520,20 +92520,26 @@
   },
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
-    "avg_length": 21,
-    "episodes": 425,
-    "eps_365": 255,
-    "eps_90": 100,
+    "avg_length": 19,
+    "episodes": 426,
+    "eps_365": 256,
+    "eps_90": 101,
     "first_at": "2024-08-22",
     "first_year": 1403,
     "last": "1405/08/27",
-    "last_at": "2026-11-18T16:15:33Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6af04e786767b86e14ccb2c7",
-    "last_title": "سلام آذرماه دنج و زیبا! 🕯️ | جملات تأکیدی آرامش‌بخش برای شروع ماه جدید",
+    "last_at": "2026-11-18T17:09:22Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6afddbc558de7292de72acbe",
+    "last_title": "مدیتیشن | مدیتیشن اتصال به زمین، رهایی از اضطراب و آرامش درونی",
     "max_length": 99,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6afddbc558de7292de72acbe/media.mp3",
+        "at": "2026-11-18T17:09:22Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795021567810-1600efe2-c552-42ad-b94d-15a7a297592c.jpeg",
+        "t": "مدیتیشن | مدیتیشن اتصال به زمین، رهایی از اضطراب و آرامش درونی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af04e786767b86e14ccb2c7/media.mp3",
         "at": "2026-11-18T16:15:33Z",
@@ -92575,15 +92581,15 @@
         "at": "2026-11-10T07:08:45Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794294336723-254c2c96-70a1-498e-a8b9-41086c4ce8c1.jpeg",
         "t": "مدیتیشن |مدیتیشن ۵ دقیقه‌ای آرامش ذهن 🧘"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af03d9f6767b86e14c6e24e/media.mp3",
-        "at": "2026-11-08T09:16:51Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794129302059-ede3ac8d-e8fc-4265-837b-3e1e4d3c36a9.jpeg",
-        "t": "مدیتیشن مدار ثروت و فراوانی 💰 | جذب برکت مالی مدیتیشن"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T17:09:22Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795021567810-1600efe2-c552-42ad-b94d-15a7a297592c.jpeg",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6afddbc558de7292de72acbe",
+        "title": "مدیتیشن | مدیتیشن اتصال به زمین، رهایی از اضطراب و آرامش درونی"
+      },
       {
         "at": "2026-11-18T16:15:33Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794133475298-58b758df-7bb9-4c1e-843e-f6c584bd4b5a.jpeg",
@@ -92595,12 +92601,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794937173749-126a420b-8250-41d3-bf5c-f0ee3b1788fe.jpeg",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6afc912009470f9420f7c389",
         "title": "مدیتیشن ثروت و فراوانی 💰 | برنامه‌ریزی ناخودآگاه مراقبه ذهن"
-      },
-      {
-        "at": "2026-11-15T18:54:13Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794767268165-1267ba82-b936-46da-98f3-3ab220b537b5.jpeg",
-        "link": "https://youtu.be/PvVbDSgBLJ4",
-        "title": "مدیتیشن |مدیتیشن گنجینه درون تو"
       }
     ],
     "recent_30d": [
@@ -92615,7 +92615,7 @@
       31,
       43,
       35,
-      22
+      23
     ],
     "status": "active"
   },
