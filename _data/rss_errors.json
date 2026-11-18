@@ -47,10 +47,6 @@
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
   },
-  "dastan-hai-tarikhi": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://qajartime.com/feed/podcast/historical-stories/"
-  },
   "didar-ba-hafz": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/didarbahafez/feed.xml"
@@ -88,7 +84,7 @@
     "rss": "https://media.rss.com/hirbod/feed.xml"
   },
   "hnr-jng": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://namlik.me/rss/318"
   },
   "hs-khob": {
@@ -143,10 +139,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/pejvakemahoor/feed/"
   },
-  "radio-ghjrtaim": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://qajartime.com/feed/podcast/radioqajartime/"
-  },
   "radio-hzar-o-ik-shb": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://hezaryekshab.ir/Files/rss-feed.xml"
@@ -194,6 +186,10 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
+  },
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
