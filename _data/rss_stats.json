@@ -11400,7 +11400,7 @@
       }
     ],
     "recent_30d": [
-      6,
+      5,
       1,
       0,
       0,
@@ -69615,19 +69615,25 @@
   "podcast-tarikh-bh-roait-morkh": {
     "avg_gap_days": 7.0,
     "avg_length": 20,
-    "episodes": 115,
-    "eps_365": 23,
-    "eps_90": 12,
+    "episodes": 116,
+    "eps_365": 24,
+    "eps_90": 13,
     "first_at": "2017-01-09",
     "first_year": 1395,
-    "last": "1405/08/20",
-    "last_at": "2026-11-11T07:30:00Z",
-    "last_link": "https://share.transistor.fm/s/48131e4b",
-    "last_title": "رادمردان جاوید: عبدالحمید اشراق خاوری (بخش ۲)",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T07:30:00Z",
+    "last_link": "https://share.transistor.fm/s/6e9066b9",
+    "last_title": "رادمردان جاوید: عبدالحمید اشراق خاوری (بخش ۳)",
     "max_length": 24,
     "median_length": 18,
     "min_length": 14,
     "play": [
+      {
+        "a": "https://media.transistor.fm/6e9066b9/cca95a89.mp3",
+        "at": "2026-11-18T07:30:00Z",
+        "i": "https://img.transistorcdn.com/N6xI4qAEg4nFHipSq1Cybz_yLxN3X1Wvd4ZREGd9BM0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS83Mjkx/ZmUwNjM0ODRhNjA5/YzZkOWY2MWY3YTJj/OTc3ZC5qcGc.jpg",
+        "t": "رادمردان جاوید: عبدالحمید اشراق خاوری (بخش ۳)"
+      },
       {
         "a": "https://media.transistor.fm/48131e4b/577e605d.mp3",
         "at": "2026-11-11T07:30:00Z",
@@ -69669,15 +69675,15 @@
         "at": "2026-09-30T06:30:00Z",
         "i": "https://img.transistorcdn.com/QhI9pcGyRvxjXHZ7yZCNyWoDNWuSTd5hs25ZGkJmLN4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS80Yjc4/YjViOGNkYWJlZWU2/NDdkYzBjZDgxNzYx/NjkwNi5qcGc.jpg",
         "t": "رادمردان جاوید: ابوالفضائل گلپایگانی (بخش ۲)"
-      },
-      {
-        "a": "https://media.transistor.fm/574b817d/519f32c0.mp3",
-        "at": "2026-09-23T05:30:00Z",
-        "i": "https://img.transistorcdn.com/P81W8QHz502SXG6OCEFdrYLcVTXHADMjOpRp5ra37VE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wYThk/YjFhOTdkMWNkNzJh/MTM5MTAyNWZmODgw/NzEyNS5qcGc.jpg",
-        "t": "رادمردان جاوید: ابوالفضائل گلپایگانی (بخش ۱)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T07:30:00Z",
+        "i": "https://img.transistorcdn.com/N6xI4qAEg4nFHipSq1Cybz_yLxN3X1Wvd4ZREGd9BM0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS83Mjkx/ZmUwNjM0ODRhNjA5/YzZkOWY2MWY3YTJj/OTc3ZC5qcGc.jpg",
+        "link": "https://share.transistor.fm/s/6e9066b9",
+        "title": "رادمردان جاوید: عبدالحمید اشراق خاوری (بخش ۳)"
+      },
       {
         "at": "2026-11-11T07:30:00Z",
         "i": "https://img.transistorcdn.com/enWCWFanw2Pwthn-CaFGEcKjI44v8uqCWXZ_j89o6GM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS83MDFl/YjUxZmZkZTkzNjhj/OTcwYWFlZTdhMjFl/NWZkNy5qcGc.jpg",
@@ -69689,12 +69695,6 @@
         "i": "https://img.transistorcdn.com/GbHaE8JXf-hmcyX0ZGqHiIakOKnusRTq2bXXLwMLZu8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9iMmJh/MDYzYzUwNmE5MDA5/OTZiZmRlN2RjZTNl/MmFiOC5qcGc.jpg",
         "link": "https://share.transistor.fm/s/8d378953",
         "title": "رادمردان جاوید: عبدالحمید اشراق خاوری (بخش ۱)"
-      },
-      {
-        "at": "2026-10-28T07:30:00Z",
-        "i": "https://img.transistorcdn.com/9L-YkS53jIGiaYxbW8Td0P62kruCzOh3N0DsQ1dwj84/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS84NDdk/ZWVmNGJlN2E1MjAx/OGU3ZmMxYjA0NzFi/MTg3MS5qcGc.jpg",
-        "link": "https://share.transistor.fm/s/ec6ab772",
-        "title": "رادمردان جاوید: ابوالفضائل گلپایگانی (بخش ۶)"
       }
     ],
     "recent_30d": [
@@ -69709,7 +69709,7 @@
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   },
