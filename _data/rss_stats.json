@@ -33703,21 +33703,27 @@
     "status": "active"
   },
   "kapitan": {
-    "avg_gap_days": 29.2,
-    "avg_length": 77,
-    "episodes": 81,
-    "eps_365": 13,
-    "eps_90": 7,
+    "avg_gap_days": 27.9,
+    "avg_length": 76,
+    "episodes": 82,
+    "eps_365": 14,
+    "eps_90": 8,
     "first_at": "2023-07-25",
     "first_year": 1402,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T15:52:57Z",
-    "last_link": "https://shows.acast.com/captain/episodes/6aeca6575e56bd617c5f5ab8",
-    "last_title": "هفته نهم - به سوی تعطیلات",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T01:00:13Z",
+    "last_link": "https://t.me/CaptainFPLPodcast",
+    "last_title": "اپیزود یازدهم کاپیتان | هرج و مرج در فانتزی | 10 گیم‌ویک در 45 روز",
     "max_length": 132,
-    "median_length": 78,
+    "median_length": 77,
     "min_length": 27,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/64b4f4dc71b6290011f2b886/e/6afcf89d605c1e811d62ea16/media.mp3",
+        "at": "2026-11-18T01:00:13Z",
+        "i": "https://assets.pippa.io/shows/64b4f4dc71b6290011f2b886/1794963410084-bc0fe7ff-90b8-483c-a272-e9ec763f7524.jpeg",
+        "t": "اپیزود یازدهم کاپیتان | هرج و مرج در فانتزی | 10 گیم‌ویک در 45 روز"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/64b4f4dc71b6290011f2b886/e/6aeca6575e56bd617c5f5ab8/media.mp3",
         "at": "2026-11-05T15:52:57Z",
@@ -33759,15 +33765,15 @@
         "at": "2026-08-26T03:57:13Z",
         "i": "https://assets.pippa.io/shows/64b4f4dc71b6290011f2b886/1787714689674-1f276997-1ad1-4261-ae8c-3df7aa129afe.jpeg",
         "t": "سوت اول - شروغ فصل ۲۷-۲۰۲۶"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/64b4f4dc71b6290011f2b886/e/6a8346057324a0381cbeaf56/media.mp3",
-        "at": "2026-08-17T17:33:57Z",
-        "i": "https://assets.pippa.io/shows/64b4f4dc71b6290011f2b886/1786981234786-cbf3ca2f-86e3-4353-82ef-4eabe9805455.jpeg",
-        "t": "فصل چهارم - قسمت سوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T01:00:13Z",
+        "i": "https://assets.pippa.io/shows/64b4f4dc71b6290011f2b886/1794963410084-bc0fe7ff-90b8-483c-a272-e9ec763f7524.jpeg",
+        "link": "https://t.me/CaptainFPLPodcast",
+        "title": "اپیزود یازدهم کاپیتان | هرج و مرج در فانتزی | 10 گیم‌ویک در 45 روز"
+      },
       {
         "at": "2026-11-05T15:52:57Z",
         "i": "https://assets.pippa.io/shows/64b4f4dc71b6290011f2b886/1793893490323-9686f4d6-fc6e-4df7-be94-c66ce82eedec.jpeg",
@@ -33779,12 +33785,6 @@
         "i": "https://assets.pippa.io/shows/64b4f4dc71b6290011f2b886/1792581120189-cdc99fe1-f028-4049-96b7-50344ffcf472.jpeg",
         "link": "https://t.me/CaptainFPLPodcast",
         "title": "هفته هشتم -  اولین بردها، اولین باخت‌ها و غافلگیری‌های فانتزی"
-      },
-      {
-        "at": "2026-10-15T15:30:00Z",
-        "i": "https://assets.pippa.io/shows/64b4f4dc71b6290011f2b886/1792064839698-f67e4311-fc3f-4d03-b54c-4692b955376a.jpeg",
-        "link": "https://t.me/CaptainFPLPodcast",
-        "title": "هفته هفتم - مانی بال | بازیِ اعداد"
       }
     ],
     "recent_30d": [
@@ -33799,7 +33799,7 @@
       3,
       3,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -35334,8 +35334,8 @@
       }
     ],
     "recent_30d": [
-      4,
-      2,
+      5,
+      1,
       0,
       0,
       0,
