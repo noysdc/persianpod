@@ -18,8 +18,8 @@ pi_id: 1328241
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # نامه‌های دایی بهمن

@@ -18,8 +18,8 @@ pi_id: 1194485
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # محمدحسین طباطبائیان، محمدمهدی منصوری
