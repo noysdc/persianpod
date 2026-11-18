@@ -20,7 +20,7 @@
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
   },
   "archgap-padkst-mamari-aark-gp": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
   "ashgh-ziba": {
@@ -39,37 +39,9 @@
     "error": "ValueError: no items in feed",
     "rss": "https://rss.castbox.fm/everest/08e76cc25e4849cfb964b07b784572cb.xml"
   },
-  "bazi-kst": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.castbox.fm/everest/e841248368b34eac89be130f1b2ac3bd.xml"
-  },
-  "bhtrin-padkst-airani": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "http://rss.castbox.fm/everest/ccdf0ca7b397400a9046ef4468dd218d.xml"
-  },
-  "bist-o-hsht-roz-shkrgzari": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.castbox.fm/everest/af43d41b9d834778aa2b7519968e0941.xml"
-  },
-  "bizins-aanatomi": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "http://rss.castbox.fm/everest/bd394c68e9dc4fca9e529bb22c362108.xml"
-  },
   "bookafe-bokafh": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/saharnik1981/feed.xml"
-  },
-  "bors-taim": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.castbox.fm/everest/3405b7eeb69040b6b6515b979ba8e44b.xml"
-  },
-  "bourse-bors-plas": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.castbox.fm/everest/266e3d2c91c44c0ebd5e39710afc5846.xml"
-  },
-  "chhl-ghaadh-ashgh": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "http://rss.castbox.fm/everest/df7841fb8bf14d3fb38c2cab6fbe826f.xml"
   },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
@@ -90,10 +62,6 @@
   "farks-ba-aitska": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/itscabrokers/feed.xml"
-  },
-  "farks-ba-aranth": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "http://rss.castbox.fm/everest/02339b422c1446cdaba0ee3c172c6012.xml"
   },
   "film-aamozshi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -138,10 +106,6 @@
   "ktab-soti-7954218": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://www.spreaker.com/show/7177177/episodes/feed"
-  },
-  "ktabkhanh-nimh-shb-mt-hig": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "http://rss.castbox.fm/everest/1b1c8990a3564f148456be68f2d9072a.xml"
   },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
