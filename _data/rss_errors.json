@@ -111,10 +111,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://www.spreaker.com/show/7177177/episodes/feed"
   },
-  "laghri": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://aliazad.ir/feed/"
-  },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://www.malino.co/feed/podcast/malinopodcast/"
@@ -126,6 +122,10 @@
   "marktplatz-zban-aalmani-dr-aghtsad": {
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
+  },
+  "mtaors": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feeds.simplecast.com/U4MnbHBx"
   },
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
@@ -192,7 +192,7 @@
     "rss": "https://paymanpsychology.com/feed/"
   },
   "said-pnahi": {
-    "error": "RuntimeError: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)>",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
   "zban-o-adbiat": {
