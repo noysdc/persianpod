@@ -24588,7 +24588,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 9,
     "episodes": 249,
-    "eps_365": 174,
+    "eps_365": 173,
     "eps_90": 0,
     "first_at": "2020-10-17",
     "first_year": 1399,
@@ -24659,10 +24659,10 @@
       }
     ],
     "recent_30d": [
-      30,
+      31,
       24,
       33,
-      33,
+      32,
       22,
       14,
       8,
@@ -45817,8 +45817,8 @@
     ],
     "recent_30d": [
       24,
-      26,
-      28,
+      27,
+      27,
       28,
       29,
       28,
@@ -66588,8 +66588,8 @@
       1,
       9,
       5,
-      4,
-      7,
+      5,
+      6,
       8,
       6,
       9,
@@ -79012,8 +79012,8 @@
     ],
     "recent_30d": [
       4,
-      4,
       5,
+      4,
       2,
       3,
       2,
@@ -80864,20 +80864,26 @@
   },
   "rozanh-hai-tndrsti": {
     "avg_gap_days": 1.1,
-    "avg_length": 18,
-    "episodes": 32,
-    "eps_365": 32,
-    "eps_90": 32,
+    "avg_length": 17,
+    "episodes": 33,
+    "eps_365": 33,
+    "eps_90": 33,
     "first_at": "2026-10-14",
     "first_year": 1405,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T03:00:00Z",
-    "last_link": "https://rss.com/podcasts/salamati/3312363",
-    "last_title": "خطر خم شدن اول صبح برای کمر: راز هیدراتاسیون شبانه دیسک‌ها و حرکات ایمن بامدادی",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T03:00:00Z",
+    "last_link": "https://rss.com/podcasts/salamati/3312367",
+    "last_title": "چرا قدرت پنجه دست کلید طول عمر است؟ راز باز کردن شیشه مربا و حفظ استقلال در میانسالی",
     "max_length": 30,
     "median_length": 18,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://content.rss.com/episodes/406068/3312367/salamati/2026_11_11_20_58_26_9c9831c9-a447-4212-9a5c-da443eea01cb.mp3",
+        "at": "2026-11-18T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261111_205816_d1c3b5546a939837568a90998b476c38.jpg",
+        "t": "چرا قدرت پنجه دست کلید طول عمر است؟ راز باز کردن شیشه مربا و حفظ استقلال در میانسالی"
+      },
       {
         "a": "https://content.rss.com/episodes/406068/3312363/salamati/2026_11_11_20_56_23_5233b0c2-07fa-4c09-a2dc-961f5b952757.mp3",
         "at": "2026-11-17T03:00:00Z",
@@ -80919,15 +80925,15 @@
         "at": "2026-11-09T03:00:00Z",
         "i": "https://media.rss.com/salamati/ep_cover_20261030_172846_660c731bb5eec217b726a9ad462294e3.jpg",
         "t": "تأثیر شگفت‌انگیز معنای زندگی بر ساعت بیولوژیک: راز ایکیگای در مهار پیری ژنتیکی"
-      },
-      {
-        "a": "https://content.rss.com/episodes/406068/3280786/salamati/2026_10_30_17_26_55_4371a107-7150-45dc-a749-ca15616b698b.mp3",
-        "at": "2026-11-08T03:00:00Z",
-        "i": "https://media.rss.com/salamati/ep_cover_20261030_172640_40c4132698b49190ef7fe29772064557.jpg",
-        "t": "پیشگیری از زوال عقل با درمان کم‌شنوایی: نجات حافظه از فرسایش پنهان مغز"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261111_205816_d1c3b5546a939837568a90998b476c38.jpg",
+        "link": "https://rss.com/podcasts/salamati/3312367",
+        "title": "چرا قدرت پنجه دست کلید طول عمر است؟ راز باز کردن شیشه مربا و حفظ استقلال در میانسالی"
+      },
       {
         "at": "2026-11-17T03:00:00Z",
         "i": "https://media.rss.com/salamati/ep_cover_20261111_205611_4ff74bebaabd95ac3025d3c0d6419841.jpg",
@@ -80939,12 +80945,6 @@
         "i": "https://media.rss.com/salamati/ep_cover_20261111_205418_fdf08a1c6dc817d3113e4504cba992a0.jpg",
         "link": "https://rss.com/podcasts/salamati/3312357",
         "title": "معمای افت انرژی و خستگی بعد از ۵۰ سالگی: خطرات پنهان قرص‌های ضداسید معده و کمبود ویتامین B12"
-      },
-      {
-        "at": "2026-11-15T03:00:00Z",
-        "i": "https://media.rss.com/salamati/ep_cover_20261108_203356_96f1e8ca5158caedb6cc14a39d971fa8.jpg",
-        "link": "https://rss.com/podcasts/salamati/3303446",
-        "title": "درمان سوزش معده با فیزیک بدن: مهار رفلاکس شبانه با قوانین ساده جاذبه و هندسه"
       }
     ],
     "recent_30d": [
@@ -80959,7 +80959,7 @@
       0,
       0,
       6,
-      26
+      27
     ],
     "status": "active"
   },
