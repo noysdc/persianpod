@@ -38292,8 +38292,8 @@
       0,
       0,
       31,
-      63,
       64,
+      63,
       55,
       58,
       68
@@ -68698,8 +68698,8 @@
       }
     ],
     "recent_30d": [
-      8,
-      5,
+      9,
+      4,
       6,
       12,
       12,
@@ -75274,21 +75274,27 @@
     "status": "active"
   },
   "radio-karaafrini-ali-khadm-alrza": {
-    "avg_gap_days": 18.0,
-    "avg_length": 46,
-    "episodes": 102,
-    "eps_365": 2,
-    "eps_90": 0,
+    "avg_gap_days": 71.0,
+    "avg_length": 45,
+    "episodes": 103,
+    "eps_365": 3,
+    "eps_90": 1,
     "first_at": "2017-07-17",
     "first_year": 1396,
-    "last": "1405/04/26",
-    "last_at": "2026-07-17T15:14:53Z",
-    "last_link": "https://s3.castbox.fm/39/1d/9c/8ed5d94f688d941e8051fb97f4.mp3",
-    "last_title": "پادکست رادیو کارآفرینی - آموزشی ۳۸ | نظریه ای درباره نظریه پردازی! چگونه در علوم مدیریتی نظریه پردازی کنیم؟ از نگاه هنری مینتزبرگ",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T16:17:39Z",
+    "last_link": "https://s3.castbox.fm/b1/8e/21/1a51b246408192ce515bf820f7.mp3",
+    "last_title": "پادکست رادیو کارآفرینی – آموزشی 39  - واکاوی پدیده کارآفرینی مبتنی بر مقایسه تطبیقی میان اگزیستانسیالیسم و تحلیل گفتمان قدرت فوکو",
     "max_length": 230,
     "median_length": 36,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/b1/8e/21/1a51b246408192ce515bf820f7.mp3",
+        "at": "2026-11-18T16:17:39Z",
+        "i": "https://s3.castbox.fm/fb/27/65/d5d00e40759d571ded982003a8.jpg",
+        "t": "پادکست رادیو کارآفرینی – آموزشی 39  - واکاوی پدیده کارآفرینی مبتنی بر مقایسه تطبیقی میان اگزیستانسیالیسم و تحلیل گفتمان قدرت فوکو"
+      },
       {
         "a": "https://s3.castbox.fm/39/1d/9c/8ed5d94f688d941e8051fb97f4.mp3",
         "at": "2026-07-17T15:14:53Z",
@@ -75330,15 +75336,15 @@
         "at": "2025-09-03T17:18:58Z",
         "i": "https://s3.castbox.fm/58/40/da/c8ed4a4291a9a394121721c789.jpg",
         "t": "پادکست رادیو کارآفرینی - آموزشی ۳۳ - سلسله مراتب اهداف غایی کسب و کار"
-      },
-      {
-        "a": "https://s3.castbox.fm/fc/bc/09/9c463c4d1bb0b318a9a7905a70.mp3",
-        "at": "2025-08-16T05:53:54Z",
-        "i": "https://s3.castbox.fm/29/fe/f5/1172614a17abbc2a995ef06e2a.jpg",
-        "t": "پادکست رادیو کارآفرینی – آموزشی ۳۲ – فهم؛ غایت و بالاترین دستاورد علوم انسانی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T16:17:39Z",
+        "i": "https://s3.castbox.fm/fb/27/65/d5d00e40759d571ded982003a8.jpg",
+        "link": "https://s3.castbox.fm/b1/8e/21/1a51b246408192ce515bf820f7.mp3",
+        "title": "پادکست رادیو کارآفرینی – آموزشی 39  - واکاوی پدیده کارآفرینی مبتنی بر مقایسه تطبیقی میان اگزیستانسیالیسم و تحلیل گفتمان قدرت فوکو"
+      },
       {
         "at": "2026-07-17T15:14:53Z",
         "i": "https://s3.castbox.fm/b8/10/ef/1b37554609bc7dd61103c2a246.jpg",
@@ -75350,12 +75356,6 @@
         "i": "https://s3.castbox.fm/b8/b5/56/47910a41b39566892a937d7107.jpg",
         "link": "https://s3.castbox.fm/78/40/c3/f77d144aada3fed69e89ca0fb0.mp3",
         "title": "پادکست رادیو کارآفرینی - آموزشی ۳۷ - اخلاق اگزیستانسیال در تصمیم گیری های کارآفرینانه و کسب و کار"
-      },
-      {
-        "at": "2025-11-18T10:00:01Z",
-        "i": "https://s3.castbox.fm/fd/ec/b3/c7b7a94723ae283a4078691501.jpg",
-        "link": "https://s3.castbox.fm/eb/73/89/2bd4434b37a50ae7f09d9c0806.mp3",
-        "title": "پادکست رادیو کارآفرینی آموزشی ۳۶ – برندینگ شهری"
       }
     ],
     "recent_30d": [
@@ -75370,7 +75370,7 @@
       0,
       0,
       0,
-      0
+      1
     ],
     "status": "active"
   },
@@ -92521,19 +92521,25 @@
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
     "avg_length": 21,
-    "episodes": 424,
-    "eps_365": 254,
-    "eps_90": 99,
+    "episodes": 425,
+    "eps_365": 255,
+    "eps_90": 100,
     "first_at": "2024-08-22",
     "first_year": 1403,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T17:41:44Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6afc912009470f9420f7c389",
-    "last_title": "مدیتیشن ثروت و فراوانی 💰 | برنامه‌ریزی ناخودآگاه مراقبه ذهن",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T16:15:33Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6af04e786767b86e14ccb2c7",
+    "last_title": "سلام آذرماه دنج و زیبا! 🕯️ | جملات تأکیدی آرامش‌بخش برای شروع ماه جدید",
     "max_length": 99,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af04e786767b86e14ccb2c7/media.mp3",
+        "at": "2026-11-18T16:15:33Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794133475298-58b758df-7bb9-4c1e-843e-f6c584bd4b5a.jpeg",
+        "t": "سلام آذرماه دنج و زیبا! 🕯️ | جملات تأکیدی آرامش‌بخش برای شروع ماه جدید"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6afc912009470f9420f7c389/media.mp3",
         "at": "2026-11-17T17:41:44Z",
@@ -92575,15 +92581,15 @@
         "at": "2026-11-08T09:16:51Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794129302059-ede3ac8d-e8fc-4265-837b-3e1e4d3c36a9.jpeg",
         "t": "مدیتیشن مدار ثروت و فراوانی 💰 | جذب برکت مالی مدیتیشن"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af0189d36841fe014db74b4/media.mp3",
-        "at": "2026-11-08T06:37:16Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794119653664-6b4cf510-4a95-4eb1-83f2-fc4e30200ebc.jpeg",
-        "t": "مدیتیشن سبک کردن بار سنگین گذشته از روی قلب | مدیتیشن"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T16:15:33Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794133475298-58b758df-7bb9-4c1e-843e-f6c584bd4b5a.jpeg",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6af04e786767b86e14ccb2c7",
+        "title": "سلام آذرماه دنج و زیبا! 🕯️ | جملات تأکیدی آرامش‌بخش برای شروع ماه جدید"
+      },
       {
         "at": "2026-11-17T17:41:44Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794937173749-126a420b-8250-41d3-bf5c-f0ee3b1788fe.jpeg",
@@ -92595,12 +92601,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794767268165-1267ba82-b936-46da-98f3-3ab220b537b5.jpeg",
         "link": "https://youtu.be/PvVbDSgBLJ4",
         "title": "مدیتیشن |مدیتیشن گنجینه درون تو"
-      },
-      {
-        "at": "2026-11-12T20:30:00Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794473807217-55686541-7cfc-48d2-bb8e-bab960359def.jpeg",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6af57f683ea14959054db800",
-        "title": "تو به اندازه کافی باارزشی ✨ | مدیتیشن پذیرش خود"
       }
     ],
     "recent_30d": [
@@ -92615,7 +92615,7 @@
       31,
       43,
       35,
-      21
+      22
     ],
     "status": "active"
   },
