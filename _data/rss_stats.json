@@ -93761,20 +93761,27 @@
     "status": "active"
   },
   "zhn-ngar": {
+    "avg_gap_days": 19.0,
     "avg_length": 26,
-    "episodes": 21,
-    "eps_365": 1,
-    "eps_90": 1,
+    "episodes": 22,
+    "eps_365": 2,
+    "eps_90": 2,
     "first_at": "2020-09-04",
     "first_year": 1399,
-    "last": "1405/08/07",
-    "last_at": "2026-10-29T15:04:54Z",
-    "last_link": "https://s3.castbox.fm/a8/16/33/e9bd8a4144af98d8be533429b3.mp3",
-    "last_title": "سیم کشی مغز",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T07:12:12Z",
+    "last_link": "https://s3.castbox.fm/65/ce/5f/d9bf8d45e6b826b076123bfa4b.mp3",
+    "last_title": "یادگرفتن از بازی ها",
     "max_length": 30,
     "median_length": 26,
     "min_length": 16,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/65/ce/5f/d9bf8d45e6b826b076123bfa4b.mp3",
+        "at": "2026-11-18T07:12:12Z",
+        "i": "https://s3.castbox.fm/25/de/f4/a491fe4b4cbcd45b545aabee36.jpg",
+        "t": "یادگرفتن از بازی ها"
+      },
       {
         "a": "https://s3.castbox.fm/a8/16/33/e9bd8a4144af98d8be533429b3.mp3",
         "at": "2026-10-29T15:04:54Z",
@@ -93816,15 +93823,15 @@
         "at": "2024-04-30T10:12:02Z",
         "i": "https://s3.castbox.fm/49/08/78/4943e241efaab74eb7ed70212d.jpg",
         "t": "چالش با ارزش ها"
-      },
-      {
-        "a": "https://s3.castbox.fm/56/a4/56/8906324820821cf7b762415c7d.mp3",
-        "at": "2024-04-07T05:25:23Z",
-        "i": "https://s3.castbox.fm/d4/59/7e/5549a6459fb96c5a750d752a8a.jpg",
-        "t": "فلسفه بهوشیاری"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T07:12:12Z",
+        "i": "https://s3.castbox.fm/25/de/f4/a491fe4b4cbcd45b545aabee36.jpg",
+        "link": "https://s3.castbox.fm/65/ce/5f/d9bf8d45e6b826b076123bfa4b.mp3",
+        "title": "یادگرفتن از بازی ها"
+      },
       {
         "at": "2026-10-29T15:04:54Z",
         "i": "https://s3.castbox.fm/31/20/7c/994c4447948d0ec51167f6a54e.jpg",
@@ -93836,12 +93843,6 @@
         "i": "https://s3.castbox.fm/d1/d6/6a/8935d64edba7f0d5f72f6b4848.jpg",
         "link": "https://s3.castbox.fm/fc/3a/ec/cfa92747699aa989a2960c8ca8.mp3",
         "title": "خودمراقبتی"
-      },
-      {
-        "at": "2024-06-16T15:42:19Z",
-        "i": "https://s3.castbox.fm/69/fd/30/8ec380405f9c3e22e4a54b4fe2.jpg",
-        "link": "https://s3.castbox.fm/6c/e6/c5/94d77e411eb47f67e41286c7aa.wav",
-        "title": "افسردگی نهفته"
       }
     ],
     "recent_30d": [
@@ -93856,7 +93857,7 @@
       0,
       0,
       0,
-      1
+      2
     ],
     "status": "active"
   },
