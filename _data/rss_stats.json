@@ -22452,27 +22452,21 @@
     "status": "active"
   },
   "fragftar": {
-    "avg_gap_days": 75.0,
+    "avg_gap_days": 85.3,
     "avg_length": 62,
-    "episodes": 70,
-    "eps_365": 5,
-    "eps_90": 3,
+    "episodes": 68,
+    "eps_365": 4,
+    "eps_90": 2,
     "first_at": "2020-01-01",
     "first_year": 1398,
-    "last": "1405/07/28",
-    "last_at": "2026-10-20T18:20:58Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/reza-sadr/episodes/ep-e3qjncs",
-    "last_title": "خاقانی شروانی، شاعر حسرت و عبرت خاطرات ایرانشهر",
+    "last": "1405/06/15",
+    "last_at": "2026-09-06T21:54:18Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/reza-sadr/episodes/--e3odpqh",
+    "last_title": "ترومای جمعی ایرانیان - قسمت دوم",
     "max_length": 107,
     "median_length": 57,
     "min_length": 3,
     "play": [
-      {
-        "a": "https://anchor.fm/s/109143ac/podcast/play/127572828/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-19%2F7fc28c97-9fba-1cdd-db4f-3012e9facbc2.mp3",
-        "at": "2026-10-20T18:20:58Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2679555/2679555-1792407530314-6048b700450e4.jpg",
-        "t": "خاقانی شروانی، شاعر حسرت و عبرت خاطرات ایرانشهر"
-      },
       {
         "a": "https://anchor.fm/s/109143ac/podcast/play/125281553/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-6%2F0d338794-d15a-32a7-ff15-c31fef6483c3.mp3",
         "at": "2026-09-06T21:54:18Z",
@@ -22514,15 +22508,15 @@
         "at": "2025-09-02T01:23:30Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2679555/2679555-1756776651144-e30afcd2fe4a4.jpg",
         "t": "انوری، شاعر تناقض‌های درون و کشمکش‌های بیرون"
+      },
+      {
+        "a": "https://anchor.fm/s/109143ac/podcast/play/104291066/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-18%2F0c8726dd-fe5b-a6d9-3b41-57cabc05e26c.mp3",
+        "at": "2025-06-18T22:58:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2679555/2679555-1750211276575-d07f532a3061c.jpg",
+        "t": "شعر مهستی گنجوی، طنینی زنانه در دل ادبیات مردسالار"
       }
     ],
     "recent": [
-      {
-        "at": "2026-10-20T18:20:58Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2679555/2679555-1792407530314-6048b700450e4.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/reza-sadr/episodes/ep-e3qjncs",
-        "title": "خاقانی شروانی، شاعر حسرت و عبرت خاطرات ایرانشهر"
-      },
       {
         "at": "2026-09-06T21:54:18Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2679555/2679555-1788702276439-74597f354db79.jpg",
@@ -22534,6 +22528,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2679555/2679555-1788702934417-e56dde89a72a5.jpg",
         "link": "https://podcasters.spotify.com/pod/show/reza-sadr/episodes/--e3octo5",
         "title": "ترومای جمعی ایرانیان -قسمت اول"
+      },
+      {
+        "at": "2025-12-24T04:17:19Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2679555/2679555-1766371383081-42133c57c92d2.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/reza-sadr/episodes/ep-e3cl8hm",
+        "title": "یلدا سرایی در شعر فارسی ۲"
       }
     ],
     "recent_30d": [
@@ -22548,7 +22548,7 @@
       0,
       2,
       0,
-      1
+      0
     ],
     "status": "active"
   },
@@ -61955,21 +61955,27 @@
     "status": "active"
   },
   "podcast-fotbali-fotbal-trapi": {
-    "avg_gap_days": 21.0,
+    "avg_gap_days": 20.2,
     "avg_length": 72,
-    "episodes": 113,
-    "eps_365": 18,
-    "eps_90": 7,
+    "episodes": 114,
+    "eps_365": 19,
+    "eps_90": 8,
     "first_at": "2024-04-05",
     "first_year": 1403,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T05:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/ba0c97ae-1932-4593-9d12-926fe95cbb26/play.mp3?v=1",
-    "last_title": "فصل7| قسمت5| بخش آخر: شخم زدن منچستر توسط مدیرورزشی ۸ ساله!",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T11:22:01Z",
+    "last_link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/a5adfb40-d5d4-42c1-a390-652e55bbed53/play.mp3?v=1",
+    "last_title": "فصل7| قسمت6|  از جت گربه رونالدو و بمب ساعتی یونایتد تا راز ۳۰۰ میلیونی مسی!",
     "max_length": 136,
     "median_length": 86,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/a5adfb40-d5d4-42c1-a390-652e55bbed53/play.mp3?v=1",
+        "at": "2026-11-19T11:22:01Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/a5adfb40-d5d4-42c1-a390-652e55bbed53/artwork.jpg?v=1",
+        "t": "فصل7| قسمت6|  از جت گربه رونالدو و بمب ساعتی یونایتد تا راز ۳۰۰ میلیونی مسی!"
+      },
       {
         "a": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/ba0c97ae-1932-4593-9d12-926fe95cbb26/play.mp3?v=1",
         "at": "2026-11-14T05:30:00Z",
@@ -62011,15 +62017,15 @@
         "at": "2026-10-15T10:39:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/6738e9ec-bde4-4c9f-bfcc-f07ce3f050f4/artwork.jpg?v=286",
         "t": "فصل7| قسمت1: سقوط دستاوردها: آیا پرمیرلیگ جرات مجازات سنگین سیتی را دارد؟"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/45d99aee-5988-426b-bdb2-10df53bc9436/play.mp3?v=1",
-        "at": "2026-01-06T08:01:12Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/45d99aee-5988-426b-bdb2-10df53bc9436/artwork.jpg?v=2",
-        "t": "فصل6| قسمت20: از پس تیرگی آفتابی درآید..."
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T11:22:01Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/a5adfb40-d5d4-42c1-a390-652e55bbed53/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/a5adfb40-d5d4-42c1-a390-652e55bbed53/play.mp3?v=1",
+        "title": "فصل7| قسمت6|  از جت گربه رونالدو و بمب ساعتی یونایتد تا راز ۳۰۰ میلیونی مسی!"
+      },
       {
         "at": "2026-11-14T05:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/ba0c97ae-1932-4593-9d12-926fe95cbb26/artwork.jpg?v=1",
@@ -62031,12 +62037,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/44918424-bb65-4d32-9ca2-456c55352a3f/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/44918424-bb65-4d32-9ca2-456c55352a3f/play.mp3?v=1",
         "title": "فصل7| قسمت5| بخش دوم: رافائل نادال رییس رئال می‌شود؟"
-      },
-      {
-        "at": "2026-11-12T05:46:08Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f79bafc8-8daf-4968-981b-594a3f0290fd/episodes/12e1fa3d-19e9-4db2-b1d3-51469e342ac9/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/f79bafc8-8daf-4968-981b-594a3f0290fd/episode/12e1fa3d-19e9-4db2-b1d3-51469e342ac9/play.mp3?v=1",
-        "title": "فصل7| قسمت5| بخش اول:  سقوط شهر منچستر"
       }
     ],
     "recent_30d": [
@@ -62051,7 +62051,7 @@
       0,
       0,
       1,
-      6
+      7
     ],
     "status": "active"
   },
