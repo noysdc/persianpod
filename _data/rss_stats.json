@@ -12660,8 +12660,8 @@
       0,
       0,
       0,
-      3,
-      5,
+      4,
+      4,
       4,
       4,
       5,
@@ -24579,12 +24579,12 @@
       0,
       0,
       0,
-      16,
+      17,
       29,
-      15,
+      14,
       0,
-      27,
-      7,
+      28,
+      6,
       0
     ],
     "status": "active"
@@ -59370,21 +59370,27 @@
     "status": "active"
   },
   "podcast-farsi-dioan": {
-    "avg_gap_days": 19.1,
+    "avg_gap_days": 18.8,
     "avg_length": 26,
-    "episodes": 48,
-    "eps_365": 19,
-    "eps_90": 6,
+    "episodes": 49,
+    "eps_365": 20,
+    "eps_90": 7,
     "first_at": "2024-10-01",
     "first_year": 1403,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T07:00:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E2-e3qevvb",
-    "last_title": "S6E2: یوسف و زلیخا",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T07:00:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E3-e3qf0ks",
+    "last_title": "S6E3: بدهاماورانی",
     "max_length": 36,
     "median_length": 25,
     "min_length": 19,
     "play": [
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/127418460/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F19eff3ae-f554-a780-0689-35643a381c4a.mp3",
+        "at": "2026-11-19T07:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791916114845-d7d97a7bcc033.jpg",
+        "t": "S6E3: بدهاماورانی"
+      },
       {
         "a": "https://anchor.fm/s/10a344184/podcast/play/127417771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2Fd40003ae-1019-497a-8771-4c446b7c8d40.mp3",
         "at": "2026-11-05T07:00:00Z",
@@ -59426,15 +59432,15 @@
         "at": "2026-08-13T06:00:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779127014745-bad650021b6e6.jpg",
         "t": "S5E7 : آغاز ماجرا."
-      },
-      {
-        "a": "https://anchor.fm/s/10a344184/podcast/play/120180619/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F9463deb7-5444-abbc-520e-e4c9777d9c1a.mp3",
-        "at": "2026-07-30T06:00:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779126664892-08b33663e8aae.jpg",
-        "t": "S5E6 : ملاقات خصوصی."
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T07:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791916114845-d7d97a7bcc033.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E3-e3qf0ks",
+        "title": "S6E3: بدهاماورانی"
+      },
       {
         "at": "2026-11-05T07:00:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791915547645-beb762b3d9532.jpg",
@@ -59446,12 +59452,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791915007963-485b59218c882.jpg",
         "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E1-e3qesst",
         "title": "S6E1 : آن سه هٓوٓل"
-      },
-      {
-        "at": "2026-10-08T06:00:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779127753590-66f556dbb2894.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E11-e3ji5c6",
-        "title": "S5E11 : رستم و سهراب."
       }
     ],
     "recent_30d": [
@@ -59466,7 +59466,7 @@
       2,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -72648,8 +72648,8 @@
       1,
       0,
       1,
-      2,
       3,
+      2,
       1
     ],
     "status": "active"
@@ -76062,8 +76062,8 @@
       8,
       3,
       2,
-      7,
-      7
+      8,
+      6
     ],
     "status": "active"
   },
