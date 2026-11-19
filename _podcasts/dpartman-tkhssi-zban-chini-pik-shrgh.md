@@ -16,8 +16,8 @@ pi_id: 1859790
 source: "podcastindex"
 ai_category: true
 auto_imported: true
-reviewed: false
-published: false
+reviewed: true
+published: true
 ---
 
 # دپارتمان تخصصی زبان چینی پیک شرق
