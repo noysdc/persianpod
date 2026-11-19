@@ -71592,21 +71592,27 @@
     "status": "active"
   },
   "pol-mhm-ast": {
-    "avg_gap_days": 9.0,
+    "avg_gap_days": 8.8,
     "avg_length": 13,
-    "episodes": 118,
-    "eps_365": 39,
-    "eps_90": 13,
+    "episodes": 119,
+    "eps_365": 40,
+    "eps_90": 14,
     "first_at": "2022-08-20",
     "first_year": 1401,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T00:36:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/can-black-friday-reverse-shopper-slump/6f4gbw7ey",
-    "last_title": "بلک فرایدی؛ ناجی بازار خرده‌فروشی یا تخفیفی بی‌اثر؟",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T01:38:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/australias-fastest-house-price-fall-in-40-years-opportunity-or-trap-for-home-buyers/y40vl97v3",
+    "last_title": "افت بی سابقه قیمت مسکن در استرالیا؛ فرصت طلایی خرید یا تله ای برای خریداران خانه اولی؟",
     "max_length": 33,
     "median_length": 10,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/money-matters/20261119123822_826211-persian-25128d91-dbc9-4f0c-a4ef-05a19a9f3435.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a1-f104-d23d-a7bd-fbcda42b0000&dur_cat=3",
+        "at": "2026-11-19T01:38:00Z",
+        "i": "https://sbs-rss.streamguys1.com/money-matters/20261119123856_510442-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
+        "t": "افت بی سابقه قیمت مسکن در استرالیا؛ فرصت طلایی خرید یا تله ای برای خریداران خانه اولی؟"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/money-matters/20261116113612_535511-persian-161126-sales.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a1-e1be-d8a8-a7bf-f1bebcce0000&dur_cat=3",
         "at": "2026-11-16T00:36:00Z",
@@ -71648,15 +71654,15 @@
         "at": "2026-10-14T00:01:00Z",
         "i": "https://sbs-rss.streamguys1.com/sbs-persian/20261014132604_734890-sbs-podcasts-sbspersian-3000x3000px.jpg",
         "t": "به‌ دنبال بیشترین سود بانکی در استرالیا هستید؟ اول باید این نکته را بدانید"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/money-matters/20261013115736_922685-persian-131026-housing.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a1-3288-d3ab-a3eb-739cd1b10000&dur_cat=3",
-        "at": "2026-10-13T00:57:00Z",
-        "i": "https://sbs-rss.streamguys1.com/money-matters/20261013120920_229572-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
-        "t": "قیمت خانه در استرالیا در حال کاهش است اما آیا این باعث می‌شود خانه‌ها مقرون به صرفه‌تر شوند؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T01:38:00Z",
+        "i": "https://sbs-rss.streamguys1.com/money-matters/20261119123856_510442-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/australias-fastest-house-price-fall-in-40-years-opportunity-or-trap-for-home-buyers/y40vl97v3",
+        "title": "افت بی سابقه قیمت مسکن در استرالیا؛ فرصت طلایی خرید یا تله ای برای خریداران خانه اولی؟"
+      },
       {
         "at": "2026-11-16T00:36:00Z",
         "i": "https://sbs-rss.streamguys1.com/money-matters/20261116114338_979024-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
@@ -71668,12 +71674,6 @@
         "i": "https://sbs-rss.streamguys1.com/money-matters/20261109140617_528216-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/cant-afford-to-buy-a-home-you-might-just-be-better-off/gsaadsz8e",
         "title": "بخریم یا نه؛ آیا خانه‌دارشدن در استرالیا یک سرمایه‌گذاری موثر است؟"
-      },
-      {
-        "at": "2026-11-02T04:55:00Z",
-        "i": "https://sbs-rss.streamguys1.com/money-matters/20261102155638_948848-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/sydney-housing-market-has-reached-a-new-low-but-are-homes-affordable/zn4rv78hx",
-        "title": "بازار مسکن سیدنی به پایین‌ترین سطح جدیدی رسیده است؛ اما آیا خرید خانه آسان شده‌ است؟"
       }
     ],
     "recent_30d": [
@@ -71688,7 +71688,7 @@
       2,
       4,
       4,
-      5
+      6
     ],
     "status": "active"
   },
