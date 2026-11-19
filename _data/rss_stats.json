@@ -39181,19 +39181,25 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 21,
-    "episodes": 667,
-    "eps_365": 628,
-    "eps_90": 184,
+    "episodes": 668,
+    "eps_365": 629,
+    "eps_90": 185,
     "first_at": "2025-10-22",
     "first_year": 1404,
-    "last": "1405/08/27",
-    "last_at": "2026-11-18T18:30:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6afc23b4428ad87c0d580074",
-    "last_title": "جزیره مرگ - بخش سی و چهارم",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T16:45:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6afc43ddbd05b48ec8bd0594",
+    "last_title": "جزیره مرگ - بخش سی و پنجم",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6afc43ddbd05b48ec8bd0594/media.mp3",
+        "at": "2026-11-19T16:45:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794994750200-aa397cb5-212d-46fc-8f86-7773188d7c17.jpeg",
+        "t": "جزیره مرگ - بخش سی و پنجم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6afc23b4428ad87c0d580074/media.mp3",
         "at": "2026-11-18T18:30:00Z",
@@ -39235,15 +39241,15 @@
         "at": "2026-11-17T17:25:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794897472824-40cc065b-5d83-44e6-afbc-9ff591445bea.jpeg",
         "t": "جزیره مرگ - بخش بیست و هشتم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6afbf624a7a01041bb6482b8/media.mp3",
-        "at": "2026-11-17T16:39:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794897399531-c3abc60b-a0f9-4bc4-995e-937016757375.jpeg",
-        "t": "جزیره مرگ - بخش بیست و هفتم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T16:45:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794994750200-aa397cb5-212d-46fc-8f86-7773188d7c17.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6afc43ddbd05b48ec8bd0594",
+        "title": "جزیره مرگ - بخش سی و پنجم"
+      },
       {
         "at": "2026-11-18T18:30:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794909030345-c6fc3651-2e5d-4506-ac3f-e4ace48e2c56.jpeg",
@@ -39255,12 +39261,6 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794908845522-475dd581-9240-422c-b0bf-4e812aecd697.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6afc2322428ad87c0d57abc0",
         "title": "جزیره مرگ - بخش سی و سوم"
-      },
-      {
-        "at": "2026-11-18T17:10:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794908741027-d894a8ae-bb74-48c7-8658-37241bdbd264.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6afc2287290474d5abb95f93",
-        "title": "جزیره مرگ - بخش سی و دوم"
       }
     ],
     "recent_30d": [
@@ -39275,7 +39275,7 @@
       62,
       57,
       59,
-      68
+      69
     ],
     "status": "active"
   },
