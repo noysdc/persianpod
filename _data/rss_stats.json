@@ -1192,7 +1192,7 @@
   "aamozsh-fransh-ba-mstfi-shalchi": {
     "avg_length": 9,
     "episodes": 38,
-    "eps_365": 1,
+    "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-08-04",
     "first_year": 1400,
@@ -3062,8 +3062,8 @@
       0,
       0,
       0,
-      1,
-      3,
+      2,
+      2,
       3
     ],
     "status": "active"
@@ -74985,27 +74985,21 @@
     "status": "active"
   },
   "radio-dordane": {
-    "avg_gap_days": 1.3,
+    "avg_gap_days": 0.8,
     "avg_length": 18,
-    "episodes": 19,
-    "eps_365": 19,
-    "eps_90": 19,
+    "episodes": 18,
+    "eps_365": 18,
+    "eps_90": 18,
     "first_at": "2026-10-27",
     "first_year": 1405,
-    "last": "1405/08/28",
-    "last_at": "2026-11-19T13:47:50Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3sm5qh",
-    "last_title": "فرق برنج هاشمی و علی کاظمی و عنبربو؛ مقایسه عطر، قد کشیدن و پخت | رادیو دردانه",
-    "max_length": 26,
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T05:26:38Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfipr",
+    "last_title": "چرا بعضی برنج‌ها بعد از پخت شفته می‌شوند؟ علت‌ها و راه‌های جلوگیری | رادیو دردانه",
+    "max_length": 25,
     "median_length": 21,
     "min_length": 5,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/129750289/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-19%2F437142907-44100-2-30c94acf63f4e.m4a",
-        "at": "2026-11-19T13:47:50Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1795096076233-79842308d6fbf.jpg",
-        "t": "فرق برنج هاشمی و علی کاظمی و عنبربو؛ مقایسه عطر، قد کشیدن و پخت | رادیو دردانه"
-      },
       {
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128485627/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F435500346-44100-2-a1deaa680ecb4.m4a",
         "at": "2026-11-11T05:26:38Z",
@@ -75047,15 +75041,15 @@
         "at": "2026-11-02T08:31:20Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793436983616-c5808f8b7fe5f.jpg",
         "t": "چرا برنج ایرانی هنگام پخت خرد می‌شود؟ ۵ علت رایج و راه جلوگیری | رادیو دردانه"
+      },
+      {
+        "a": "https://anchor.fm/s/1193981e4/podcast/play/128258659/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435212182-44100-2-2a8f19b486097.m4a",
+        "at": "2026-10-31T09:23:44Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184386488-33fa9bf0ea326.jpg",
+        "t": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-19T13:47:50Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1795096076233-79842308d6fbf.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3sm5qh",
-        "title": "فرق برنج هاشمی و علی کاظمی و عنبربو؛ مقایسه عطر، قد کشیدن و پخت | رادیو دردانه"
-      },
       {
         "at": "2026-11-11T05:26:38Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1794064790443-a9a8aa602613d.jpg",
@@ -75067,6 +75061,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793438212487-307f129a5b2b3.jpg",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfi82",
         "title": "شپشک برنج از چی بدش میاد؟ ۷ روش جلوگیری از شپشک زدن برنج | رادیو دردانه"
+      },
+      {
+        "at": "2026-11-08T13:41:16Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793437578288-32e3cbd83961f.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfh48",
+        "title": "چرا برنج ایرانی بعد از پخت قد می‌کشد؟ راز دانه‌های کشیده و خوش‌پخت | رادیو دردانه"
       }
     ],
     "recent_30d": [
@@ -75081,7 +75081,7 @@
       0,
       0,
       0,
-      19
+      18
     ],
     "status": "active"
   },
