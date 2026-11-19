@@ -31934,21 +31934,27 @@
     "status": "stopped"
   },
   "iran-nameh": {
-    "avg_gap_days": 0.0,
-    "avg_length": 34,
-    "episodes": 2,
-    "eps_365": 2,
-    "eps_90": 2,
+    "avg_gap_days": 0.5,
+    "avg_length": 29,
+    "episodes": 3,
+    "eps_365": 3,
+    "eps_90": 3,
     "first_at": "2026-11-17",
     "first_year": 1405,
-    "last": "1405/08/27",
-    "last_at": "2026-11-18T14:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/ac61bd97-0a59-4d12-b31a-05348c3d94d7/play.mp3?v=1",
-    "last_title": "قسمت دوم ایران‌نامه | چرا عرب نشدیم؟ راز بقای هویت ایران",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T18:56:14Z",
+    "last_link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/7d4bec43-e204-4037-88c9-1dd4917a1f7e/play.mp3?v=1",
+    "last_title": "بومیان ایران پیش از آریایی‌ها | قسمت  سوم  پادکست ایران نامه",
     "max_length": 42,
-    "median_length": 34,
-    "min_length": 26,
+    "median_length": 26,
+    "min_length": 18,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/7d4bec43-e204-4037-88c9-1dd4917a1f7e/play.mp3?v=1",
+        "at": "2026-11-19T18:56:14Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/7d4bec43-e204-4037-88c9-1dd4917a1f7e/artwork.jpg?v=1",
+        "t": "بومیان ایران پیش از آریایی‌ها | قسمت  سوم  پادکست ایران نامه"
+      },
       {
         "a": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/ac61bd97-0a59-4d12-b31a-05348c3d94d7/play.mp3?v=1",
         "at": "2026-11-18T14:30:00Z",
@@ -31963,6 +31969,12 @@
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T18:56:14Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/7d4bec43-e204-4037-88c9-1dd4917a1f7e/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/7d4bec43-e204-4037-88c9-1dd4917a1f7e/play.mp3?v=1",
+        "title": "بومیان ایران پیش از آریایی‌ها | قسمت  سوم  پادکست ایران نامه"
+      },
       {
         "at": "2026-11-18T14:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/ac61bd97-0a59-4d12-b31a-05348c3d94d7/artwork.jpg?v=1",
@@ -31988,7 +32000,7 @@
       0,
       0,
       0,
-      2
+      3
     ],
     "status": "active"
   },
