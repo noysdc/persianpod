@@ -54933,21 +54933,27 @@
     "status": "stopped"
   },
   "parseh-podcast-padkst-prsh": {
-    "avg_gap_days": 14.0,
+    "avg_gap_days": 13.8,
     "avg_length": 62,
-    "episodes": 78,
-    "eps_365": 24,
-    "eps_90": 4,
+    "episodes": 79,
+    "eps_365": 25,
+    "eps_90": 5,
     "first_at": "2020-07-17",
     "first_year": 1399,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T15:31:38Z",
-    "last_link": "https://youtu.be/E1M9O9l8xAs",
-    "last_title": "67- The Human Chain II (زنجیره انسانی ۲)",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T15:30:00Z",
+    "last_link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/68-the-human-chain-iii",
+    "last_title": "68- The Human Chain III (زنجیره‌ی انسانی ۳)",
     "max_length": 118,
     "median_length": 52,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6afea9d6b4e29f42171dc9c6/media.mp3",
+        "at": "2026-11-19T15:30:00Z",
+        "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1795072462935-611b6793-dfc2-4dbf-a515-3fe5fb3e51a7.jpeg",
+        "t": "68- The Human Chain III (زنجیره‌ی انسانی ۳)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6af30aa171f47eaba632f44e/media.mp3",
         "at": "2026-11-12T15:31:38Z",
@@ -54989,15 +54995,15 @@
         "at": "2026-07-31T14:50:11Z",
         "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1785509349885-64b876ad-073f-4d32-89d9-962a72631ce1.jpeg",
         "t": "61 - Parseh Live (اجرای زنده پادکست پرسه)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a3553c66f90df4cb715b458/media.mp3",
-        "at": "2026-06-19T16:30:00Z",
-        "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1781876342954-46d39a72-cab1-4b7a-b477-5120683a0893.jpeg",
-        "t": "60 - Portrait of a Defeat VII (شمایل یک شکست 7)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T15:30:00Z",
+        "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1795072462935-611b6793-dfc2-4dbf-a515-3fe5fb3e51a7.jpeg",
+        "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/68-the-human-chain-iii",
+        "title": "68- The Human Chain III (زنجیره‌ی انسانی ۳)"
+      },
       {
         "at": "2026-11-12T15:31:38Z",
         "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1794312857158-32755d5d-2158-44b1-9102-b45784ab0544.jpeg",
@@ -55009,12 +55015,6 @@
         "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1793695640733-6cc842bf-59e8-413a-b954-bd0f81452654.jpeg",
         "link": "https://youtu.be/863EbH8vDg8",
         "title": "66- The Human Chain I (زنجیره‌ی انسانی ۱)"
-      },
-      {
-        "at": "2026-10-15T16:30:00Z",
-        "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1792064050163-f6e9920c-56c8-4542-b974-654a2da42a20.jpeg",
-        "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/65-conversation",
-        "title": "65- Conversation گفتگو با رضا امیر درباره‌ی کتاب «چگونه زنده‌ایم»"
       }
     ],
     "recent_30d": [
@@ -55029,7 +55029,7 @@
       3,
       1,
       1,
-      2
+      3
     ],
     "status": "active"
   },
@@ -74985,27 +74985,21 @@
     "status": "active"
   },
   "radio-dordane": {
-    "avg_gap_days": 1.3,
+    "avg_gap_days": 0.8,
     "avg_length": 18,
-    "episodes": 19,
-    "eps_365": 19,
-    "eps_90": 19,
+    "episodes": 18,
+    "eps_365": 18,
+    "eps_90": 18,
     "first_at": "2026-10-27",
     "first_year": 1405,
-    "last": "1405/08/28",
-    "last_at": "2026-11-19T13:47:50Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3sm5qh",
-    "last_title": "فرق برنج هاشمی و علی کاظمی و عنبربو؛ مقایسه عطر، قد کشیدن و پخت | رادیو دردانه",
-    "max_length": 26,
+    "last": "1405/08/20",
+    "last_at": "2026-11-11T05:26:38Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfipr",
+    "last_title": "چرا بعضی برنج‌ها بعد از پخت شفته می‌شوند؟ علت‌ها و راه‌های جلوگیری | رادیو دردانه",
+    "max_length": 25,
     "median_length": 21,
     "min_length": 5,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/129750289/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-19%2F437142907-44100-2-30c94acf63f4e.m4a",
-        "at": "2026-11-19T13:47:50Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1795096076233-79842308d6fbf.jpg",
-        "t": "فرق برنج هاشمی و علی کاظمی و عنبربو؛ مقایسه عطر، قد کشیدن و پخت | رادیو دردانه"
-      },
       {
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128485627/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F435500346-44100-2-a1deaa680ecb4.m4a",
         "at": "2026-11-11T05:26:38Z",
@@ -75047,15 +75041,15 @@
         "at": "2026-11-02T08:31:20Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793436983616-c5808f8b7fe5f.jpg",
         "t": "چرا برنج ایرانی هنگام پخت خرد می‌شود؟ ۵ علت رایج و راه جلوگیری | رادیو دردانه"
+      },
+      {
+        "a": "https://anchor.fm/s/1193981e4/podcast/play/128258659/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435212182-44100-2-2a8f19b486097.m4a",
+        "at": "2026-10-31T09:23:44Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184386488-33fa9bf0ea326.jpg",
+        "t": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-19T13:47:50Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1795096076233-79842308d6fbf.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3sm5qh",
-        "title": "فرق برنج هاشمی و علی کاظمی و عنبربو؛ مقایسه عطر، قد کشیدن و پخت | رادیو دردانه"
-      },
       {
         "at": "2026-11-11T05:26:38Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1794064790443-a9a8aa602613d.jpg",
@@ -75067,6 +75061,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793438212487-307f129a5b2b3.jpg",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfi82",
         "title": "شپشک برنج از چی بدش میاد؟ ۷ روش جلوگیری از شپشک زدن برنج | رادیو دردانه"
+      },
+      {
+        "at": "2026-11-08T13:41:16Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793437578288-32e3cbd83961f.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfh48",
+        "title": "چرا برنج ایرانی بعد از پخت قد می‌کشد؟ راز دانه‌های کشیده و خوش‌پخت | رادیو دردانه"
       }
     ],
     "recent_30d": [
@@ -75081,7 +75081,7 @@
       0,
       0,
       0,
-      19
+      18
     ],
     "status": "active"
   },
