@@ -22747,8 +22747,8 @@
       0,
       0,
       0,
-      13,
-      9,
+      14,
+      8,
       8
     ],
     "status": "active"
@@ -56494,8 +56494,8 @@
       7,
       3,
       8,
-      2,
-      4,
+      3,
+      3,
       6
     ],
     "status": "active"
@@ -59370,21 +59370,27 @@
     "status": "active"
   },
   "podcast-farsi-dioan": {
-    "avg_gap_days": 19.1,
+    "avg_gap_days": 18.8,
     "avg_length": 26,
-    "episodes": 48,
-    "eps_365": 19,
-    "eps_90": 6,
+    "episodes": 49,
+    "eps_365": 20,
+    "eps_90": 7,
     "first_at": "2024-10-01",
     "first_year": 1403,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T07:00:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E2-e3qevvb",
-    "last_title": "S6E2: یوسف و زلیخا",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T07:00:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E3-e3qf0ks",
+    "last_title": "S6E3: بدهاماورانی",
     "max_length": 36,
     "median_length": 25,
     "min_length": 19,
     "play": [
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/127418460/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F19eff3ae-f554-a780-0689-35643a381c4a.mp3",
+        "at": "2026-11-19T07:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791916114845-d7d97a7bcc033.jpg",
+        "t": "S6E3: بدهاماورانی"
+      },
       {
         "a": "https://anchor.fm/s/10a344184/podcast/play/127417771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2Fd40003ae-1019-497a-8771-4c446b7c8d40.mp3",
         "at": "2026-11-05T07:00:00Z",
@@ -59426,15 +59432,15 @@
         "at": "2026-08-13T06:00:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779127014745-bad650021b6e6.jpg",
         "t": "S5E7 : آغاز ماجرا."
-      },
-      {
-        "a": "https://anchor.fm/s/10a344184/podcast/play/120180619/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F9463deb7-5444-abbc-520e-e4c9777d9c1a.mp3",
-        "at": "2026-07-30T06:00:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779126664892-08b33663e8aae.jpg",
-        "t": "S5E6 : ملاقات خصوصی."
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T07:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791916114845-d7d97a7bcc033.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E3-e3qf0ks",
+        "title": "S6E3: بدهاماورانی"
+      },
       {
         "at": "2026-11-05T07:00:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791915547645-beb762b3d9532.jpg",
@@ -59446,12 +59452,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791915007963-485b59218c882.jpg",
         "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E1-e3qesst",
         "title": "S6E1 : آن سه هٓوٓل"
-      },
-      {
-        "at": "2026-10-08T06:00:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779127753590-66f556dbb2894.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E11-e3ji5c6",
-        "title": "S5E11 : رستم و سهراب."
       }
     ],
     "recent_30d": [
@@ -59466,7 +59466,7 @@
       2,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -78702,21 +78702,27 @@
     "status": "active"
   },
   "radioeshgh-radio-ashgh": {
-    "avg_gap_days": 111.0,
+    "avg_gap_days": 94.7,
     "avg_length": 75,
-    "episodes": 46,
-    "eps_365": 3,
-    "eps_90": 1,
+    "episodes": 47,
+    "eps_365": 4,
+    "eps_90": 2,
     "first_at": "2020-05-01",
     "first_year": 1399,
-    "last": "1405/06/26",
-    "last_at": "2026-09-17T08:05:38Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3ovjnf",
-    "last_title": "پادکست شماره ۸۵",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T09:26:58Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3sc90j",
+    "last_title": "پادکست شماره ۸۶",
     "max_length": 150,
     "median_length": 67,
     "min_length": 37,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1f3a0330/podcast/play/129425875/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F8a83e0b8-eda6-e0f7-d5c9-750d7e6c04b6.mp3",
+        "at": "2026-11-18T09:26:58Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1794659957208-b4578d8c47261.jpg",
+        "t": "پادکست شماره ۸۶"
+      },
       {
         "a": "https://anchor.fm/s/1f3a0330/podcast/play/125865135/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-17%2Fc9424c15-66b8-9ff4-1b0a-42a0ab05fcff.mp3",
         "at": "2026-09-17T08:05:38Z",
@@ -78758,15 +78764,15 @@
         "at": "2025-03-05T12:12:24Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1741176225728-331f5d0d4910f.jpg",
         "t": "پادکست شماره ۷۳"
-      },
-      {
-        "a": "https://anchor.fm/s/1f3a0330/podcast/play/93687853/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-29%2F87cd52c5-ca47-05ab-cd24-1003bc1703a8.mp3",
-        "at": "2024-10-29T12:47:52Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1741175860732-7e12e83a1a9a1.jpg",
-        "t": "پادکست شماره ۷۲"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-18T09:26:58Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1794659957208-b4578d8c47261.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3sc90j",
+        "title": "پادکست شماره ۸۶"
+      },
       {
         "at": "2026-09-17T08:05:38Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1789631584504-a20fe4d40258d.jpg",
@@ -78778,12 +78784,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1780421895240-6ecf285903dd6.jpg",
         "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3k8803",
         "title": "پادکست شماره ۸۳"
-      },
-      {
-        "at": "2026-02-07T06:51:13Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1770447058881-2c79e4a0242db.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3eooim",
-        "title": "پادکست شماره ۸۲"
       }
     ],
     "recent_30d": [
@@ -78798,7 +78798,7 @@
       0,
       1,
       0,
-      0
+      1
     ],
     "status": "active"
   },
