@@ -43,10 +43,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/saharnik1981/feed.xml"
   },
-  "danlod-raigan-ktab-soti-panth-aa": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://panteashop.ir/feed/"
-  },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
@@ -102,6 +98,10 @@
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
+  },
+  "kif-pol": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://www.omnycontent.com/d/playlist/05c002e0-37f2-42b5-a34d-b38c00523ad5/e53cb592-a850-4301-be13-b4290114a207/4aa88480-e187-40df-9128-b4290114a37f/podcast.rss"
   },
   "kit-aahng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
@@ -198,6 +198,10 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
+  },
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
