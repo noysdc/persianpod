@@ -95,6 +95,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.pod.co/hese-khob"
   },
+  "kaktos": {
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
+    "rss": "https://hmpc.ir/feed/podcast/cactus/"
+  },
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
@@ -107,9 +111,17 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
   },
+  "ktab-asr-mrkb": {
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
+    "rss": "https://hmpc.ir/feed/podcast/asare-morakab/"
+  },
   "ktab-soti-7954218": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://www.spreaker.com/show/7177177/episodes/feed"
+  },
+  "lzt-dniai-ktab": {
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
+    "rss": "https://feed.podkadeh.cloud/podcastxml/lezate-donyaye-ketab.xml"
   },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -130,6 +142,10 @@
   "podcast-farsi-mscht": {
     "error": "ValueError: no items in feed",
     "rss": "https://feeds.acast.com/public/shows/6722758777f0e7cbfba1f7a2"
+  },
+  "podcast-fotbal-lb": {
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
+    "rss": "https://feed.podkadeh.cloud/podcastxml/footballlab.xml"
   },
   "podcast-khakstri-roan": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
