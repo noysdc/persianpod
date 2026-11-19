@@ -59370,27 +59370,21 @@
     "status": "active"
   },
   "podcast-farsi-dioan": {
-    "avg_gap_days": 18.8,
+    "avg_gap_days": 19.1,
     "avg_length": 26,
-    "episodes": 49,
-    "eps_365": 20,
-    "eps_90": 7,
+    "episodes": 48,
+    "eps_365": 19,
+    "eps_90": 6,
     "first_at": "2024-10-01",
     "first_year": 1403,
-    "last": "1405/08/28",
-    "last_at": "2026-11-19T07:00:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E3-e3qf0ks",
-    "last_title": "S6E3: بدهاماورانی",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T07:00:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E2-e3qevvb",
+    "last_title": "S6E2: یوسف و زلیخا",
     "max_length": 36,
     "median_length": 25,
     "min_length": 19,
     "play": [
-      {
-        "a": "https://anchor.fm/s/10a344184/podcast/play/127418460/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F19eff3ae-f554-a780-0689-35643a381c4a.mp3",
-        "at": "2026-11-19T07:00:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791916114845-d7d97a7bcc033.jpg",
-        "t": "S6E3: بدهاماورانی"
-      },
       {
         "a": "https://anchor.fm/s/10a344184/podcast/play/127417771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2Fd40003ae-1019-497a-8771-4c446b7c8d40.mp3",
         "at": "2026-11-05T07:00:00Z",
@@ -59432,15 +59426,15 @@
         "at": "2026-08-13T06:00:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779127014745-bad650021b6e6.jpg",
         "t": "S5E7 : آغاز ماجرا."
+      },
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/120180619/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F9463deb7-5444-abbc-520e-e4c9777d9c1a.mp3",
+        "at": "2026-07-30T06:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779126664892-08b33663e8aae.jpg",
+        "t": "S5E6 : ملاقات خصوصی."
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-19T07:00:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791916114845-d7d97a7bcc033.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E3-e3qf0ks",
-        "title": "S6E3: بدهاماورانی"
-      },
       {
         "at": "2026-11-05T07:00:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791915547645-beb762b3d9532.jpg",
@@ -59452,6 +59446,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791915007963-485b59218c882.jpg",
         "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E1-e3qesst",
         "title": "S6E1 : آن سه هٓوٓل"
+      },
+      {
+        "at": "2026-10-08T06:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779127753590-66f556dbb2894.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E11-e3ji5c6",
+        "title": "S5E11 : رستم و سهراب."
       }
     ],
     "recent_30d": [
@@ -59466,7 +59466,7 @@
       2,
       2,
       2,
-      3
+      2
     ],
     "status": "active"
   },
@@ -67643,44 +67643,50 @@
     "status": "active"
   },
   "podcast-radio-frosh": {
-    "avg_gap_days": 294.0,
+    "avg_gap_days": 164.0,
     "avg_length": 29,
-    "episodes": 25,
-    "eps_365": 2,
-    "eps_90": 1,
+    "episodes": 26,
+    "eps_365": 3,
+    "eps_90": 2,
     "first_at": "2025-02-24",
     "first_year": 1403,
-    "last": "1405/07/24",
-    "last_at": "2026-10-16T06:59:19Z",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T07:19:54Z",
     "last_link": "https://radioforoush.com",
-    "last_title": "فصل دوم - انواع مدل کسب وکار - قسمت دوم",
+    "last_title": "انواع مدل کسب وکار - قسمت سوم",
     "max_length": 56,
-    "median_length": 32,
+    "median_length": 30,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67bcb7ecb63437eabc46d0fc/e/6afeb1174312344565148a16/media.mp3",
+        "at": "2026-11-19T07:19:54Z",
+        "i": "https://assets.pippa.io/shows/67bcb7ecb63437eabc46d0fc/1795075847340-c40c68f7-69a0-4ac6-bbe6-85b2ce0527b9.jpeg",
+        "t": "انواع مدل کسب وکار - قسمت سوم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67bcb7ecb63437eabc46d0fc/e/6ad1d33668b7ce6ffb64df93/media.mp3",
         "at": "2026-10-16T06:59:19Z",
         "i": "https://assets.pippa.io/shows/67bcb7ecb63437eabc46d0fc/1792135965707-248dba16-f396-4c4d-a6d5-4bd232af8f68.jpeg",
-        "t": "فصل دوم - انواع مدل کسب وکار - قسمت دوم"
+        "t": "انواع مدل کسب وکار - قسمت دوم"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/67bcb7ecb63437eabc46d0fc/e/694d54cfcb029db757bd6f6e/media.mp3",
         "at": "2025-12-25T15:34:01Z",
         "i": "https://assets.pippa.io/shows/67bcb7ecb63437eabc46d0fc/1766676715810-68026a89-518b-475c-bf93-69470207bfee.jpeg",
-        "t": "فصل دوم - انواع مدل کسب وکار - قسمت اول"
+        "t": "انواع مدل کسب وکار - قسمت اول"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/67bcb7ecb63437eabc46d0fc/e/69050d9547e14fea24430d8a/media.mp3",
         "at": "2025-11-03T19:49:11Z",
         "i": "https://assets.pippa.io/shows/67bcb7ecb63437eabc46d0fc/1762199180433-352fb234-01de-44b4-8825-fe02d8e9c374.jpeg",
-        "t": "فصل دوم - کلید واژه های فروش - مارجین و مارک آپ"
+        "t": "مارجین و مارک آپ"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/67bcb7ecb63437eabc46d0fc/e/68f1f47918d2c089ef14b836/media.mp3",
         "at": "2025-10-17T07:52:36Z",
         "i": "https://assets.pippa.io/shows/67bcb7ecb63437eabc46d0fc/1762245865735-acf047e4-dc9c-41ff-8e88-a15d521eb585.jpeg",
-        "t": "CCR  فصل اول - شاخص های عملکردی فروش - نرخ ریزش مشتری"
+        "t": "CCR   نرخ ریزش مشتری"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/67bcb7ecb63437eabc46d0fc/e/68d980492552b72c20cfb107/media.mp3",
@@ -67699,32 +67705,26 @@
         "at": "2025-09-03T18:31:36Z",
         "i": "https://assets.pippa.io/shows/67bcb7ecb63437eabc46d0fc/1756924094311-5ee4efdb-3199-43fb-a459-b999af5a532b.jpeg",
         "t": "فصل دوم - کلید واژه های فروش - مشتری ، فاز وفادارسازی مشتری"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67bcb7ecb63437eabc46d0fc/e/68a36023411aa254d3e3766e/media.mp3",
-        "at": "2025-08-18T17:31:16Z",
-        "i": "https://assets.pippa.io/shows/67bcb7ecb63437eabc46d0fc/1755538191298-46c502ea-cdd8-4d6e-a61e-0897bcfb3541.jpeg",
-        "t": "فصل دوم - کلید واژه های فروش - مشتری ، فاز بعد از خرید"
       }
     ],
     "recent": [
       {
+        "at": "2026-11-19T07:19:54Z",
+        "i": "https://assets.pippa.io/shows/67bcb7ecb63437eabc46d0fc/1795075847340-c40c68f7-69a0-4ac6-bbe6-85b2ce0527b9.jpeg",
+        "link": "https://radioforoush.com",
+        "title": "انواع مدل کسب وکار - قسمت سوم"
+      },
+      {
         "at": "2026-10-16T06:59:19Z",
         "i": "https://assets.pippa.io/shows/67bcb7ecb63437eabc46d0fc/1792135965707-248dba16-f396-4c4d-a6d5-4bd232af8f68.jpeg",
         "link": "https://radioforoush.com",
-        "title": "فصل دوم - انواع مدل کسب وکار - قسمت دوم"
+        "title": "انواع مدل کسب وکار - قسمت دوم"
       },
       {
         "at": "2025-12-25T15:34:01Z",
         "i": "https://assets.pippa.io/shows/67bcb7ecb63437eabc46d0fc/1766676715810-68026a89-518b-475c-bf93-69470207bfee.jpeg",
         "link": "https://radioforoush.com",
-        "title": "فصل دوم - انواع مدل کسب وکار - قسمت اول"
-      },
-      {
-        "at": "2025-11-03T19:49:11Z",
-        "i": "https://assets.pippa.io/shows/67bcb7ecb63437eabc46d0fc/1762199180433-352fb234-01de-44b4-8825-fe02d8e9c374.jpeg",
-        "link": "https://radioforoush.com",
-        "title": "فصل دوم - کلید واژه های فروش - مارجین و مارک آپ"
+        "title": "انواع مدل کسب وکار - قسمت اول"
       }
     ],
     "recent_30d": [
@@ -67739,7 +67739,7 @@
       0,
       0,
       1,
-      0
+      1
     ],
     "status": "active"
   },
@@ -74987,19 +74987,24 @@
   "radio-hosh": {
     "avg_gap_days": 0.6,
     "avg_length": 16,
-    "episodes": 38,
-    "eps_365": 38,
-    "eps_90": 38,
+    "episodes": 39,
+    "eps_365": 39,
+    "eps_90": 39,
     "first_at": "2026-10-25",
     "first_year": 1405,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T15:13:22Z",
-    "last_link": "https://share.transistor.fm/s/bcb12f2a",
-    "last_title": "‏‫هوش مصنوعی و تعدیل نیرو: AI washing و آنچه آمار بازار کار نشان می‌دهد‬",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T08:24:49Z",
+    "last_link": "https://share.transistor.fm/s/27af4df0",
+    "last_title": "‏‫GPT-6.2 Astra و Sol؛ مدل‌های ارزان‌تر OpenAI و نظرهای متفاوت‬",
     "max_length": 26,
     "median_length": 16,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://media.transistor.fm/27af4df0/a29e1c5a.mp3",
+        "at": "2026-11-19T08:24:49Z",
+        "t": "‏‫GPT-6.2 Astra و Sol؛ مدل‌های ارزان‌تر OpenAI و نظرهای متفاوت‬"
+      },
       {
         "a": "https://media.transistor.fm/bcb12f2a/b53465c8.mp3",
         "at": "2026-11-17T15:13:22Z",
@@ -75034,14 +75039,14 @@
         "a": "https://media.transistor.fm/ad463496/7581bf5b.mp3",
         "at": "2026-11-09T12:57:46Z",
         "t": "‏‫Nvidia: تحقیق هیئت مدیره درباره جنسن هوانگ و ادعای جاسوسی چین‬"
-      },
-      {
-        "a": "https://media.transistor.fm/4b5b36c5/0b664736.mp3",
-        "at": "2026-11-06T13:11:06Z",
-        "t": "‏‫Inkling 2 Small؛ مدل سبک‌تر و ارزان‌تر Thinking Machines Lab‬"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T08:24:49Z",
+        "link": "https://share.transistor.fm/s/27af4df0",
+        "title": "‏‫GPT-6.2 Astra و Sol؛ مدل‌های ارزان‌تر OpenAI و نظرهای متفاوت‬"
+      },
       {
         "at": "2026-11-17T15:13:22Z",
         "link": "https://share.transistor.fm/s/bcb12f2a",
@@ -75051,11 +75056,6 @@
         "at": "2026-11-16T13:12:02Z",
         "link": "https://share.transistor.fm/s/fa9b1830",
         "title": "‏‫Starship در پرواز پانزدهم؛ SpaceX فضاپیما را هنگام بازگشت گرفت‬"
-      },
-      {
-        "at": "2026-11-16T10:04:08Z",
-        "link": "https://share.transistor.fm/s/2446944c",
-        "title": "‏‫Nvidia به کجا می‌رود؟ تحلیل Steve Blank از آینده غول تراشه‬"
       }
     ],
     "recent_30d": [
@@ -75070,7 +75070,7 @@
       0,
       0,
       0,
-      38
+      39
     ],
     "status": "active"
   },
