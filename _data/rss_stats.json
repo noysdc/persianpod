@@ -62357,21 +62357,26 @@
     "status": "active"
   },
   "podcast-ghsh-go-ghesegoo": {
-    "avg_gap_days": 15.5,
-    "avg_length": 42,
-    "episodes": 57,
-    "eps_365": 24,
-    "eps_90": 7,
+    "avg_gap_days": 15.1,
+    "avg_length": 40,
+    "episodes": 58,
+    "eps_365": 25,
+    "eps_90": 8,
     "first_at": "2024-11-10",
     "first_year": 1403,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T12:50:17Z",
-    "last_link": "https://www.youtube.com/watch?v=9cUcpiubcWA",
-    "last_title": "یزدگرد و بهرام",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T13:45:52Z",
+    "last_link": "https://redcircle.com/shows/4710ee66-1230-458d-ab37-621adb425528/episodes/0b5750d6-032a-464a-9ca4-b0c953b5037f",
+    "last_title": "خبر مهم",
     "max_length": 84,
-    "median_length": 30,
-    "min_length": 6,
+    "median_length": 29,
+    "min_length": 2,
     "play": [
+      {
+        "a": "https://audio3.redcircle.com/episodes/0b5750d6-032a-464a-9ca4-b0c953b5037f/stream.mp3",
+        "at": "2026-11-19T13:45:52Z",
+        "t": "خبر مهم"
+      },
       {
         "a": "https://audio3.redcircle.com/episodes/95518f5d-d05b-42e4-9aca-d2712353c172/stream.mp3",
         "at": "2026-11-14T12:50:17Z",
@@ -62413,15 +62418,14 @@
         "at": "2026-08-29T01:30:20Z",
         "i": "https://media.redcircle.com/images/2026/8/27/10/74824e24-4c09-48bd-a84b-b5ab32c554cf_51.jpg",
         "t": "دختر نارنج و ترنج"
-      },
-      {
-        "a": "https://audio3.redcircle.com/episodes/0e81fbde-9d24-4e09-af32-b657fd559e12/stream.mp3",
-        "at": "2026-08-15T01:30:43Z",
-        "i": "https://media.redcircle.com/images/2026/8/14/10/a1bec87c-aafa-4050-a362-bdf0b846b2a9_50.jpg",
-        "t": "خدای مردگان"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T13:45:52Z",
+        "link": "https://redcircle.com/shows/4710ee66-1230-458d-ab37-621adb425528/episodes/0b5750d6-032a-464a-9ca4-b0c953b5037f",
+        "title": "خبر مهم"
+      },
       {
         "at": "2026-11-14T12:50:17Z",
         "i": "https://media.redcircle.com/images/2026/11/14/12/a43bba2c-a5a5-410c-8aa8-f5323f0b3dcf_57.jpg",
@@ -62433,12 +62437,6 @@
         "i": "https://media.redcircle.com/images/2026/11/6/20/96d4719a-8ed8-47d4-847f-e4dc146573fa_56.jpg",
         "link": "https://www.youtube.com/watch?v=3XnKRRqvpiI&t=1s",
         "title": "بهرام گور و هفت پیکر"
-      },
-      {
-        "at": "2026-10-24T02:30:44Z",
-        "i": "https://media.redcircle.com/images/2026/10/23/18/53053278-d845-4dbc-a6a8-82ae11a7f4da_55.jpg",
-        "link": "https://youtu.be/NL9eeB1kkGs",
-        "title": "جیسون و مده‌آ"
       }
     ],
     "recent_30d": [
@@ -62453,7 +62451,7 @@
       2,
       2,
       2,
-      3
+      4
     ],
     "status": "active"
   },
@@ -73714,21 +73712,26 @@
     "status": "active"
   },
   "radio-dordane": {
-    "avg_gap_days": 0.8,
+    "avg_gap_days": 1.3,
     "avg_length": 18,
-    "episodes": 18,
-    "eps_365": 18,
-    "eps_90": 18,
+    "episodes": 19,
+    "eps_365": 19,
+    "eps_90": 19,
     "first_at": "2026-10-27",
     "first_year": 1405,
-    "last": "1405/08/20",
-    "last_at": "2026-11-11T05:26:38Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfipr",
-    "last_title": "چرا بعضی برنج‌ها بعد از پخت شفته می‌شوند؟ علت‌ها و راه‌های جلوگیری | رادیو دردانه",
-    "max_length": 25,
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T13:47:50Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3sm5qh",
+    "last_title": "فرق برنج هاشمی و علی کاظمی و عنبربو؛ مقایسه عطر، قد کشیدن و پخت | رادیو دردانه",
+    "max_length": 26,
     "median_length": 21,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1193981e4/podcast/play/129750289/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-19%2F437142907-44100-2-30c94acf63f4e.m4a",
+        "at": "2026-11-19T13:47:50Z",
+        "t": "فرق برنج هاشمی و علی کاظمی و عنبربو؛ مقایسه عطر، قد کشیدن و پخت | رادیو دردانه"
+      },
       {
         "a": "https://anchor.fm/s/1193981e4/podcast/play/128485627/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-31%2F435500346-44100-2-a1deaa680ecb4.m4a",
         "at": "2026-11-11T05:26:38Z",
@@ -73770,15 +73773,14 @@
         "at": "2026-11-02T08:31:20Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793436983616-c5808f8b7fe5f.jpg",
         "t": "چرا برنج ایرانی هنگام پخت خرد می‌شود؟ ۵ علت رایج و راه جلوگیری | رادیو دردانه"
-      },
-      {
-        "a": "https://anchor.fm/s/1193981e4/podcast/play/128258659/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2F435212182-44100-2-2a8f19b486097.m4a",
-        "at": "2026-10-31T09:23:44Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793184386488-33fa9bf0ea326.jpg",
-        "t": "قیمت برنج ایرانی به چه عواملی بستگی دارد؟ | رادیو دردانه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T13:47:50Z",
+        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3sm5qh",
+        "title": "فرق برنج هاشمی و علی کاظمی و عنبربو؛ مقایسه عطر، قد کشیدن و پخت | رادیو دردانه"
+      },
       {
         "at": "2026-11-11T05:26:38Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1794064790443-a9a8aa602613d.jpg",
@@ -73790,12 +73792,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793438212487-307f129a5b2b3.jpg",
         "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfi82",
         "title": "شپشک برنج از چی بدش میاد؟ ۷ روش جلوگیری از شپشک زدن برنج | رادیو دردانه"
-      },
-      {
-        "at": "2026-11-08T13:41:16Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/47081665/47081665-1793437578288-32e3cbd83961f.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/mahdi-today/episodes/ep-e3rfh48",
-        "title": "چرا برنج ایرانی بعد از پخت قد می‌کشد؟ راز دانه‌های کشیده و خوش‌پخت | رادیو دردانه"
       }
     ],
     "recent_30d": [
@@ -73810,7 +73806,7 @@
       0,
       0,
       0,
-      18
+      19
     ],
     "status": "active"
   },
