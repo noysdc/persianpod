@@ -11405,21 +11405,27 @@
     "status": "active"
   },
   "biografi": {
-    "avg_gap_days": 9.3,
+    "avg_gap_days": 9.1,
     "avg_length": 37,
-    "episodes": 131,
-    "eps_365": 40,
-    "eps_90": 16,
+    "episodes": 132,
+    "eps_365": 41,
+    "eps_90": 17,
     "first_at": "2023-03-08",
     "first_year": 1401,
-    "last": "1405/08/27",
-    "last_at": "2026-11-18T07:42:04Z",
-    "last_link": "https://shows.acast.com/biografi/episodes/6afd56d2da978fb09069d985",
-    "last_title": "وندربیلت‌ها :قسمت اول؛ تولد یک امپراتوری",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T07:33:24Z",
+    "last_link": "https://shows.acast.com/biografi/episodes/6afea644543098e2b81a4f8b",
+    "last_title": "وندربیلت‌ها :قسمت دوم؛ مرگ امپراطور و میراثی خونین",
     "max_length": 64,
     "median_length": 40,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6afea644543098e2b81a4f8b/media.mp3",
+        "at": "2026-11-19T07:33:24Z",
+        "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1795072927454-172c7402-b7ef-463b-b15a-6fa55fa54367.jpeg",
+        "t": "وندربیلت‌ها :قسمت دوم؛ مرگ امپراطور و میراثی خونین"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6afd56d2da978fb09069d985/media.mp3",
         "at": "2026-11-18T07:42:04Z",
@@ -11461,15 +11467,15 @@
         "at": "2026-10-14T08:04:19Z",
         "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1791726775424-8d0651c2-6e6a-414c-964c-c62b60a798c6.jpeg",
         "t": "پرنسس دایانا (قسمت آخر)✨"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6517d338ebbe5d0011a4ac1b/e/6acb93f8e53019e8903cd141/media.mp3",
-        "at": "2026-10-13T06:48:22Z",
-        "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1791725992060-6f3addfa-6caf-4aa5-b309-0814784929ad.jpeg",
-        "t": "پرنسس دایانا (قسمت سوم)✨"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T07:33:24Z",
+        "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1795072927454-172c7402-b7ef-463b-b15a-6fa55fa54367.jpeg",
+        "link": "https://shows.acast.com/biografi/episodes/6afea644543098e2b81a4f8b",
+        "title": "وندربیلت‌ها :قسمت دوم؛ مرگ امپراطور و میراثی خونین"
+      },
       {
         "at": "2026-11-18T07:42:04Z",
         "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1794987531206-e31dc441-32c4-4064-9c3a-029a5cd1b751.jpeg",
@@ -11481,12 +11487,6 @@
         "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1794986371425-917d4e8e-a3ab-4579-ac1b-b4d3ebf22ded.jpeg",
         "link": "https://shows.acast.com/biografi/episodes/6afd5275bc3a834741527436",
         "title": "مقدمه‌ای بر عصر طلایی آمریکا"
-      },
-      {
-        "at": "2026-11-17T08:29:31Z",
-        "i": "https://assets.pippa.io/shows/6517d338ebbe5d0011a4ac1b/1794903702775-fd282d2b-bf33-4d73-a91d-e7b572cdca78.jpeg",
-        "link": "https://shows.acast.com/biografi/episodes/6afc1076290474d5abae9f04",
-        "title": "مقدمه سریال وندربیلت‌ها؛ خانواده‌ای که بزرگ‌ترین ثروت تاریخ را بر باد داد"
       }
     ],
     "recent_30d": [
@@ -11501,7 +11501,7 @@
       4,
       6,
       4,
-      6
+      7
     ],
     "status": "active"
   },
@@ -59370,27 +59370,21 @@
     "status": "active"
   },
   "podcast-farsi-dioan": {
-    "avg_gap_days": 18.8,
+    "avg_gap_days": 19.1,
     "avg_length": 26,
-    "episodes": 49,
-    "eps_365": 20,
-    "eps_90": 7,
+    "episodes": 48,
+    "eps_365": 19,
+    "eps_90": 6,
     "first_at": "2024-10-01",
     "first_year": 1403,
-    "last": "1405/08/28",
-    "last_at": "2026-11-19T07:00:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E3-e3qf0ks",
-    "last_title": "S6E3: بدهاماورانی",
+    "last": "1405/08/14",
+    "last_at": "2026-11-05T07:00:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E2-e3qevvb",
+    "last_title": "S6E2: یوسف و زلیخا",
     "max_length": 36,
     "median_length": 25,
     "min_length": 19,
     "play": [
-      {
-        "a": "https://anchor.fm/s/10a344184/podcast/play/127418460/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2F19eff3ae-f554-a780-0689-35643a381c4a.mp3",
-        "at": "2026-11-19T07:00:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791916114845-d7d97a7bcc033.jpg",
-        "t": "S6E3: بدهاماورانی"
-      },
       {
         "a": "https://anchor.fm/s/10a344184/podcast/play/127417771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-13%2Fd40003ae-1019-497a-8771-4c446b7c8d40.mp3",
         "at": "2026-11-05T07:00:00Z",
@@ -59432,15 +59426,15 @@
         "at": "2026-08-13T06:00:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779127014745-bad650021b6e6.jpg",
         "t": "S5E7 : آغاز ماجرا."
+      },
+      {
+        "a": "https://anchor.fm/s/10a344184/podcast/play/120180619/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F9463deb7-5444-abbc-520e-e4c9777d9c1a.mp3",
+        "at": "2026-07-30T06:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779126664892-08b33663e8aae.jpg",
+        "t": "S5E6 : ملاقات خصوصی."
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-19T07:00:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791916114845-d7d97a7bcc033.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E3-e3qf0ks",
-        "title": "S6E3: بدهاماورانی"
-      },
       {
         "at": "2026-11-05T07:00:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791915547645-beb762b3d9532.jpg",
@@ -59452,6 +59446,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1791915007963-485b59218c882.jpg",
         "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S6E1-e3qesst",
         "title": "S6E1 : آن سه هٓوٓل"
+      },
+      {
+        "at": "2026-10-08T06:00:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/44561641/44561641-1779127753590-66f556dbb2894.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/hamid-hashemi1/episodes/S5E11-e3ji5c6",
+        "title": "S5E11 : رستم و سهراب."
       }
     ],
     "recent_30d": [
@@ -59466,7 +59466,7 @@
       2,
       2,
       2,
-      3
+      2
     ],
     "status": "active"
   },
@@ -78995,19 +78995,25 @@
   "rah-awin": {
     "avg_gap_days": 1.0,
     "avg_length": 27,
-    "episodes": 43,
-    "eps_365": 4,
-    "eps_90": 4,
+    "episodes": 44,
+    "eps_365": 5,
+    "eps_90": 5,
     "first_at": "2022-03-26",
     "first_year": 1401,
-    "last": "1405/08/27",
-    "last_at": "2026-11-18T07:41:00Z",
-    "last_link": "https://s3.castbox.fm/32/d8/0f/6c5d9245bc9b5e25bdfc1a4502.mp3",
-    "last_title": "چگونه سفر روح آموختم _ قسمت سوم",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T07:41:00Z",
+    "last_link": "https://s3.castbox.fm/cc/0d/52/82987d4332b0d4e719961c9036.mp3",
+    "last_title": "چگونه سفر روح آموختم _ قسمت چهارم",
     "max_length": 48,
     "median_length": 29,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/cc/0d/52/82987d4332b0d4e719961c9036.mp3",
+        "at": "2026-11-19T07:41:00Z",
+        "i": "https://s3.castbox.fm/fd/2d/a0/fd19294f3684837025f7442eb8.jpg",
+        "t": "چگونه سفر روح آموختم _ قسمت چهارم"
+      },
       {
         "a": "https://s3.castbox.fm/32/d8/0f/6c5d9245bc9b5e25bdfc1a4502.mp3",
         "at": "2026-11-18T07:41:00Z",
@@ -79049,15 +79055,15 @@
         "at": "2023-05-15T18:41:01Z",
         "i": "https://s3.castbox.fm/4a/6e/cb/11ec10427ebe121356801f6ec5.jpeg",
         "t": "کتاب طریقت تولتکی مرور دوباره _ بخش دوم _ قسمت یازدهم"
-      },
-      {
-        "a": "https://s3.castbox.fm/41/61/65/226d894eb481cad49be2c58848.mp3",
-        "at": "2023-05-10T06:32:02Z",
-        "i": "https://s3.castbox.fm/7b/cb/e7/99ed7941199cc63da1116c03f3.png",
-        "t": "کتاب طریقت تولتکی مرور دوباره _ بخش دوم _ قسمت دهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T07:41:00Z",
+        "i": "https://s3.castbox.fm/fd/2d/a0/fd19294f3684837025f7442eb8.jpg",
+        "link": "https://s3.castbox.fm/cc/0d/52/82987d4332b0d4e719961c9036.mp3",
+        "title": "چگونه سفر روح آموختم _ قسمت چهارم"
+      },
       {
         "at": "2026-11-18T07:41:00Z",
         "i": "https://s3.castbox.fm/12/18/5b/abf6f6432a9b72758904d6f381.jpg",
@@ -79069,12 +79075,6 @@
         "i": "https://s3.castbox.fm/03/38/f6/2a145643d395a133905f144834.jpg",
         "link": "https://s3.castbox.fm/00/96/2a/3bd3364867b2a405d972ec968d.mp3",
         "title": "چگونه سفر روح را آموختم _ قسمت دوم"
-      },
-      {
-        "at": "2026-11-16T07:41:41Z",
-        "i": "https://s3.castbox.fm/d1/91/a7/b30f5f4ee7976efc4e018a3ad8.jpg",
-        "link": "https://s3.castbox.fm/ef/2f/93/249b5845e3bd9cee836318870c.mp3",
-        "title": "چگونه سفر روح را آموختم _ قسمت اول"
       }
     ],
     "recent_30d": [
@@ -79089,7 +79089,7 @@
       0,
       0,
       0,
-      4
+      5
     ],
     "status": "active"
   },
