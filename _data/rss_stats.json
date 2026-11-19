@@ -12166,21 +12166,27 @@
     "status": "active"
   },
   "boutigha": {
-    "avg_gap_days": 11.7,
-    "avg_length": 46,
-    "episodes": 58,
-    "eps_365": 14,
-    "eps_90": 4,
+    "avg_gap_days": 11.9,
+    "avg_length": 44,
+    "episodes": 59,
+    "eps_365": 15,
+    "eps_90": 5,
     "first_at": "2021-03-09",
     "first_year": 1399,
-    "last": "1405/08/14",
-    "last_at": "2026-11-05T10:18:07Z",
-    "last_link": "https://shows.acast.com/boutighapodcast/episodes/49",
-    "last_title": "49 – گربهٔ خاموش",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T13:58:56Z",
+    "last_link": "https://shows.acast.com/boutighapodcast/episodes/6afeffe6dd60ec849fe57d72",
+    "last_title": "لن‌ترونی – قسمت هشتم [پیش‌نمایش]",
     "max_length": 91,
     "median_length": 51,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624957f6f5bbfe0012f8de54/e/6afeffe6dd60ec849fe57d72/media.mp3",
+        "at": "2026-11-19T13:58:56Z",
+        "i": "https://assets.pippa.io/shows/624957f6f5bbfe0012f8de54/1795096539551-2db39745-0254-4b8e-9f95-c9e8ee000f9c.jpeg",
+        "t": "لن‌ترونی – قسمت هشتم [پیش‌نمایش]"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/624957f6f5bbfe0012f8de54/e/6aec57df51ac9ecbba3ed24b/media.mp3",
         "at": "2026-11-05T10:18:07Z",
@@ -12222,15 +12228,15 @@
         "at": "2026-08-05T10:30:00Z",
         "i": "https://assets.pippa.io/shows/624957f6f5bbfe0012f8de54/1785753089997-3ba27a51-8009-4dc6-aa90-3a062dedac46.jpeg",
         "t": "لن‌ترونی – قسمت چهارم [پیش‌نمایش]"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/624957f6f5bbfe0012f8de54/e/6a6e3accc7cc27169d5e6fb6/media.mp3",
-        "at": "2026-08-03T10:29:30Z",
-        "i": "https://assets.pippa.io/shows/624957f6f5bbfe0012f8de54/1785608822448-799aab2d-784a-4bf1-9e3a-dfa5ececa731.jpeg",
-        "t": "لن‌ترونی – قسمت سوم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T13:58:56Z",
+        "i": "https://assets.pippa.io/shows/624957f6f5bbfe0012f8de54/1795096539551-2db39745-0254-4b8e-9f95-c9e8ee000f9c.jpeg",
+        "link": "https://shows.acast.com/boutighapodcast/episodes/6afeffe6dd60ec849fe57d72",
+        "title": "لن‌ترونی – قسمت هشتم [پیش‌نمایش]"
+      },
       {
         "at": "2026-11-05T10:18:07Z",
         "i": "https://assets.pippa.io/shows/624957f6f5bbfe0012f8de54/1793873604117-1b6f585f-92e4-4532-acc4-0eb478ae973e.jpeg",
@@ -12242,12 +12248,6 @@
         "i": "https://assets.pippa.io/shows/624957f6f5bbfe0012f8de54/1791402233364-5a38770d-7bbe-4704-8bd2-dcb287912c70.jpeg",
         "link": "https://shows.acast.com/boutighapodcast/episodes/48",
         "title": "48 –  غصهٔ زمانه"
-      },
-      {
-        "at": "2026-10-05T06:01:39Z",
-        "i": "https://assets.pippa.io/shows/624957f6f5bbfe0012f8de54/1791179988489-3b3f24e1-8b8a-446e-8aa2-d26af005af0c.jpeg",
-        "link": "https://shows.acast.com/boutighapodcast/episodes/6ac33d431b614c9be09d9bcf",
-        "title": "لن‌ترونی – قسمت هفتم [پیش‌نمایش]"
       }
     ],
     "recent_30d": [
@@ -12262,7 +12262,7 @@
       7,
       1,
       2,
-      1
+      2
     ],
     "status": "active"
   },
@@ -38285,7 +38285,7 @@
       }
     ],
     "recent_30d": [
-      121,
+      120,
       84,
       64,
       4,
@@ -61939,7 +61939,7 @@
       }
     ],
     "recent_30d": [
-      25,
+      24,
       5,
       0,
       0,
