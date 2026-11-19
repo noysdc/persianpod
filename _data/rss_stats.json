@@ -92520,20 +92520,26 @@
   },
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
-    "avg_length": 19,
-    "episodes": 426,
-    "eps_365": 255,
-    "eps_90": 100,
+    "avg_length": 20,
+    "episodes": 427,
+    "eps_365": 256,
+    "eps_90": 101,
     "first_at": "2024-08-22",
     "first_year": 1403,
-    "last": "1405/08/27",
-    "last_at": "2026-11-18T17:09:22Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6afddbc558de7292de72acbe",
-    "last_title": "مدیتیشن | مدیتیشن اتصال به زمین، رهایی از اضطراب و آرامش درونی",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T00:30:00Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6ae9816df5930510a0c326e6",
+    "last_title": "من قوی، باارزش و آماده‌ی معجزه‌ام ✨ | قوی‌ترین جملات تاکیدی صبحگاهی",
     "max_length": 99,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ae9816df5930510a0c326e6/media.mp3",
+        "at": "2026-11-19T00:30:00Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793687906349-401dbe3e-fa1f-4396-ad76-cbeda6485771.jpeg",
+        "t": "من قوی، باارزش و آماده‌ی معجزه‌ام ✨ | قوی‌ترین جملات تاکیدی صبحگاهی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6afddbc558de7292de72acbe/media.mp3",
         "at": "2026-11-18T17:09:22Z",
@@ -92575,15 +92581,15 @@
         "at": "2026-11-11T11:50:13Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794397059981-f15e19b1-9a80-4754-9702-8c9e74345e74.jpeg",
         "t": "یک گوشه دنج، هزار دلیل برای لبخند 🍁☕ | موسیقی لوفای پاییزی برای حال خوب، سرزندگی و آرامش"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af2c2fe71f47eaba61d3782/media.mp3",
-        "at": "2026-11-10T07:08:45Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794294336723-254c2c96-70a1-498e-a8b9-41086c4ce8c1.jpeg",
-        "t": "مدیتیشن |مدیتیشن ۵ دقیقه‌ای آرامش ذهن 🧘"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T00:30:00Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793687906349-401dbe3e-fa1f-4396-ad76-cbeda6485771.jpeg",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6ae9816df5930510a0c326e6",
+        "title": "من قوی، باارزش و آماده‌ی معجزه‌ام ✨ | قوی‌ترین جملات تاکیدی صبحگاهی"
+      },
       {
         "at": "2026-11-18T17:09:22Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795021567810-1600efe2-c552-42ad-b94d-15a7a297592c.jpeg",
@@ -92595,12 +92601,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794133475298-58b758df-7bb9-4c1e-843e-f6c584bd4b5a.jpeg",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6af04e786767b86e14ccb2c7",
         "title": "سلام آذرماه دنج و زیبا! 🕯️ | جملات تأکیدی آرامش‌بخش برای شروع ماه جدید"
-      },
-      {
-        "at": "2026-11-17T17:41:44Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794937173749-126a420b-8250-41d3-bf5c-f0ee3b1788fe.jpeg",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6afc912009470f9420f7c389",
-        "title": "مدیتیشن ثروت و فراوانی 💰 | برنامه‌ریزی ناخودآگاه مراقبه ذهن"
       }
     ],
     "recent_30d": [
@@ -92615,7 +92615,7 @@
       32,
       43,
       34,
-      23
+      24
     ],
     "status": "active"
   },
