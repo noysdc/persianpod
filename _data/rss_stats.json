@@ -10226,25 +10226,19 @@
   },
   "bazi-baz": {
     "avg_length": 60,
-    "episodes": 20,
+    "episodes": 19,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2019-07-02",
     "first_year": 1398,
-    "last": "1399/06/05",
-    "last_at": "2020-08-26T21:30:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/bazibaz/episodes/The-Last-of-Us-2-eimh7q",
-    "last_title": "The Last of Us 2",
+    "last": "1399/05/01",
+    "last_at": "2020-07-22T16:14:42Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/bazibaz/episodes/--eh2qka",
+    "last_title": "اپیزود ویژه - همکاری جدید",
     "max_length": 97,
-    "median_length": 68,
+    "median_length": 69,
     "min_length": 5,
     "play": [
-      {
-        "a": "https://anchor.fm/s/c49e088/podcast/play/18612922/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-26%2Ffa690d55-c446-62f2-370f-c3b559e90936.mp3",
-        "at": "2020-08-26T21:30:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1961682/1961682-1598445841636-5f19d60c7e445.jpg",
-        "t": "The Last of Us 2"
-      },
       {
         "a": "https://anchor.fm/s/c49e088/podcast/play/16918602/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-6-22%2Fd74c1ee1-f613-8b94-6fd5-36dfa909d4e7.mp3",
         "at": "2020-07-22T16:14:42Z",
@@ -10286,15 +10280,15 @@
         "at": "2019-12-24T05:30:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1961682/1961682-1577095806344-59a367e8fa1e1.jpg",
         "t": "Uncharted 3: Drake's Deception"
+      },
+      {
+        "a": "https://anchor.fm/s/c49e088/podcast/play/9027402/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-16%2F38889088-44100-1-df8ba7cb288e8.mp3",
+        "at": "2019-12-16T05:18:24Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1961682/1961682-1576473512066-3e5c326bcd322.jpg",
+        "t": "Uncharted 2: Among Thieves"
       }
     ],
     "recent": [
-      {
-        "at": "2020-08-26T21:30:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1961682/1961682-1598445841636-5f19d60c7e445.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/bazibaz/episodes/The-Last-of-Us-2-eimh7q",
-        "title": "The Last of Us 2"
-      },
       {
         "at": "2020-07-22T16:14:42Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1961682/1961682-1595393381063-f18d504b33449.jpg",
@@ -10306,6 +10300,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1961682/1961682-1586864555542-f7b63860e248a.jpg",
         "link": "https://podcasters.spotify.com/pod/show/bazibaz/episodes/Resident-Evil-Part-3-ecp49c",
         "title": "Resident Evil (Part 3)"
+      },
+      {
+        "at": "2020-03-19T05:30:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1961682/1961682-1584526898488-92754452a68ab.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/bazibaz/episodes/Resident-Evil-Part-1-ebkn4n",
+        "title": "Resident Evil (Part 1)"
       }
     ],
     "recent_30d": [
@@ -39282,8 +39282,8 @@
       4,
       0,
       0,
-      36,
-      64,
+      37,
+      63,
       59,
       60,
       59,
@@ -77921,8 +77921,8 @@
       0,
       2,
       13,
-      8,
-      5,
+      9,
+      4,
       0
     ],
     "status": "active"
@@ -87306,7 +87306,7 @@
     "avg_length": 4,
     "episodes": 351,
     "eps_365": 136,
-    "eps_90": 28,
+    "eps_90": 27,
     "first_at": "2025-01-23",
     "first_year": 1403,
     "last": "1405/08/23",
@@ -87394,11 +87394,11 @@
       2,
       2,
       15,
-      14,
+      15,
       17,
-      13,
-      8,
-      7
+      12,
+      9,
+      6
     ],
     "status": "active"
   },
@@ -91911,8 +91911,8 @@
       }
     ],
     "recent_30d": [
-      110,
-      61,
+      111,
+      60,
       88,
       20,
       0,
