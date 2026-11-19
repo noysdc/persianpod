@@ -79777,21 +79777,27 @@
     "status": "stopped"
   },
   "radiocrime-padkst-jnaii-radio-kraim": {
-    "avg_gap_days": 13.2,
-    "avg_length": 39,
-    "episodes": 87,
-    "eps_365": 26,
-    "eps_90": 18,
+    "avg_gap_days": 12.8,
+    "avg_length": 40,
+    "episodes": 88,
+    "eps_365": 27,
+    "eps_90": 19,
     "first_at": "2024-07-04",
     "first_year": 1403,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T19:10:50Z",
-    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6afb553b95548cad2aeb0335",
-    "last_title": "جنیفر پن؛ دختری که برای رسیدن به آزادی، خانواده‌اش را قربانی کرد",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T17:05:41Z",
+    "last_link": "https://shows.acast.com/radiocrime-podcast/episodes/6aff2c642c093095d7db4c7b",
+    "last_title": "آخرین روزهای زندگی الی همل؛ روایتی تکان‌دهنده از خشونت خانگی",
     "max_length": 78,
     "median_length": 14,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6aff2c642c093095d7db4c7b/media.mp3",
+        "at": "2026-11-19T17:05:41Z",
+        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1795106817227-5b467200-95d7-43de-8647-c08819eb3d4f.jpeg",
+        "t": "آخرین روزهای زندگی الی همل؛ روایتی تکان‌دهنده از خشونت خانگی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6afb553b95548cad2aeb0335/media.mp3",
         "at": "2026-11-16T19:10:50Z",
@@ -79833,15 +79839,15 @@
         "at": "2026-10-26T15:13:27Z",
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793027385030-c52e6c20-abe8-495d-ab2a-a54b157667da.jpeg",
         "t": "قاتل در میان نزدیکانش بود؟ معمای قتل نوری آمایا"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6683f24d4cb273e461378fc6/e/6adf6cf9feb8d1e39c037b51/media.mp3",
-        "at": "2026-10-26T15:08:41Z",
-        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793027032743-3d551e27-d904-4670-853e-1ff0e3039551.jpeg",
-        "t": "پرونده لوئیجی منجیونی؛ چرا بخشی از آمریکا از متهم قتل حمایت کرد؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T17:05:41Z",
+        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1795106817227-5b467200-95d7-43de-8647-c08819eb3d4f.jpeg",
+        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6aff2c642c093095d7db4c7b",
+        "title": "آخرین روزهای زندگی الی همل؛ روایتی تکان‌دهنده از خشونت خانگی"
+      },
       {
         "at": "2026-11-16T19:10:50Z",
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1794856235707-c3c19eab-c865-4469-83d4-3fcb985f834e.jpeg",
@@ -79853,12 +79859,6 @@
         "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1794497787424-d2b585b2-854e-4c09-a1e0-ee71f805b522.jpeg",
         "link": "https://shows.acast.com/radiocrime-podcast/episodes/6af5ddc7d397467e34e76670",
         "title": "دوستی مرگبار | راز مرگ کیسی تری و دروغ‌های مگان ساندوال"
-      },
-      {
-        "at": "2026-11-09T15:30:07Z",
-        "i": "https://assets.pippa.io/shows/6683f24d4cb273e461378fc6/1793891234592-a13fb613-3891-4512-b494-7084c04ee18c.jpeg",
-        "link": "https://shows.acast.com/radiocrime-podcast/episodes/6aec9c5074a96cc5a4aa5f20",
-        "title": "قتل کالین اسلمر | قاتلش خیال مردن نداره!"
       }
     ],
     "recent_30d": [
@@ -79873,7 +79873,7 @@
       3,
       4,
       6,
-      8
+      9
     ],
     "status": "active"
   },
