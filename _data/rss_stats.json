@@ -54147,8 +54147,8 @@
       0,
       0,
       0,
-      7,
-      16,
+      8,
+      15,
       0,
       0,
       0,
@@ -80924,8 +80924,8 @@
       }
     ],
     "recent_30d": [
-      4,
-      3,
+      5,
+      2,
       1,
       1,
       8,
@@ -84938,7 +84938,7 @@
     "avg_length": 20,
     "episodes": 117,
     "eps_365": 117,
-    "eps_90": 68,
+    "eps_90": 67,
     "first_at": "2026-06-29",
     "first_year": 1405,
     "last": "1405/08/27",
@@ -85027,8 +85027,8 @@
       0,
       0,
       33,
-      16,
-      20,
+      17,
+      19,
       22,
       26
     ],
@@ -94079,21 +94079,27 @@
     "status": "inactive"
   },
   "zangetarikh": {
-    "avg_gap_days": 66.6,
-    "avg_length": 47,
-    "episodes": 90,
-    "eps_365": 6,
-    "eps_90": 2,
+    "avg_gap_days": 60.2,
+    "avg_length": 46,
+    "episodes": 91,
+    "eps_365": 7,
+    "eps_90": 3,
     "first_at": "2021-01-08",
     "first_year": 1399,
-    "last": "1405/07/30",
-    "last_at": "2026-10-22T07:54:58Z",
-    "last_link": "https://shows.acast.com/zn-trkh-or-zangetarikh/episodes/s5",
-    "last_title": "فصل 5 سلوکیان و اشکانیان",
+    "last": "1405/08/28",
+    "last_at": "2026-11-19T04:30:00Z",
+    "last_link": "https://shows.acast.com/zn-trkh-or-zangetarikh/episodes/50",
+    "last_title": "اپیزود 50 تاریخ اساطیری ایران (ااز گشتاسب تا اسکندر)",
     "max_length": 95,
-    "median_length": 44,
+    "median_length": 43,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/6afd9cde5ca4ff63ce4bdc05/media.mp3",
+        "at": "2026-11-19T04:30:00Z",
+        "i": "https://assets.pippa.io/shows/624017fbb07b8a00124d6eee/1795005573143-24f5ee94-03fc-42fd-b5d3-e08f748fb84a.jpeg",
+        "t": "اپیزود 50 تاریخ اساطیری ایران (ااز گشتاسب تا اسکندر)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/6ad9c14470af2b1aa71fbb5a/media.mp3",
         "at": "2026-10-22T07:54:58Z",
@@ -94133,15 +94139,15 @@
         "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/69021bb59b0ac9b41877d498/media.mp3",
         "at": "2025-10-29T13:50:44Z",
         "t": "هفت آبان, نه تولد هست نه جهانی. پس ریشه تاریخی روز کوروش کجاست؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/68fa37d318bcdad2ab8ad96c/media.mp3",
-        "at": "2025-10-23T14:12:35Z",
-        "i": "https://assets.pippa.io/shows/624017fbb07b8a00124d6eee/1761228726535-628aca59-9ef6-46e8-9834-a248af2470b6.jpeg",
-        "t": "اپیزود 47 و سر انجام پایان (داریوش سوم و حمله اسکندر"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-19T04:30:00Z",
+        "i": "https://assets.pippa.io/shows/624017fbb07b8a00124d6eee/1795005573143-24f5ee94-03fc-42fd-b5d3-e08f748fb84a.jpeg",
+        "link": "https://shows.acast.com/zn-trkh-or-zangetarikh/episodes/50",
+        "title": "اپیزود 50 تاریخ اساطیری ایران (ااز گشتاسب تا اسکندر)"
+      },
       {
         "at": "2026-10-22T07:54:58Z",
         "i": "https://assets.pippa.io/shows/624017fbb07b8a00124d6eee/1792655632966-e5eb738a-0943-4eba-91be-a41685933930.jpeg",
@@ -94153,12 +94159,6 @@
         "i": "https://assets.pippa.io/shows/624017fbb07b8a00124d6eee/1787331357501-8a88825a-ea8a-4259-8db6-bca422077ccc.jpeg",
         "link": "https://shows.acast.com/zn-trkh-or-zangetarikh/episodes/30-1405",
         "title": "لایو 30 مرداد 1405: چرا انسانها مجبور شدند حکومت تشکیل بدند؟"
-      },
-      {
-        "at": "2026-07-24T14:36:51Z",
-        "i": "https://assets.pippa.io/shows/624017fbb07b8a00124d6eee/1784903791332-c05434d5-be9c-4f5b-945c-536dbdfee6ae.jpeg",
-        "link": "https://shows.acast.com/zn-trkh-or-zangetarikh/episodes/49",
-        "title": "اپیزود 49 تاریخ هخامنشیان در یک نگاه"
       }
     ],
     "recent_30d": [
@@ -94173,7 +94173,7 @@
       1,
       1,
       0,
-      1
+      2
     ],
     "status": "active"
   },
