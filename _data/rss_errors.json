@@ -99,6 +99,10 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
   },
+  "kif-pol": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://www.omnycontent.com/d/playlist/05c002e0-37f2-42b5-a34d-b38c00523ad5/e53cb592-a850-4301-be13-b4290114a207/4aa88480-e187-40df-9128-b4290114a37f/podcast.rss"
+  },
   "kit-aahng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
     "rss": "https://www.baranbax.com/category/sample-loop/kit/feed/"
