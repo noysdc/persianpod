@@ -9444,21 +9444,27 @@
     "status": "stopped"
   },
   "bandar-e-tehran": {
-    "avg_gap_days": 23.9,
-    "avg_length": 92,
-    "episodes": 184,
-    "eps_365": 15,
-    "eps_90": 5,
+    "avg_gap_days": 23.7,
+    "avg_length": 91,
+    "episodes": 185,
+    "eps_365": 16,
+    "eps_90": 6,
     "first_at": "2018-08-17",
     "first_year": 1397,
-    "last": "1405/08/08",
-    "last_at": "2026-10-30T15:30:00Z",
-    "last_link": "https://shows.acast.com/bandaretehran/episodes/184b",
-    "last_title": "صد و هشتاد و چهارم | ناگهان نوبت تو نمی‌شود",
+    "last": "1405/08/29",
+    "last_at": "2026-11-20T15:30:00Z",
+    "last_link": "https://shows.acast.com/bandaretehran/episodes/185b",
+    "last_title": "صد و هشتاد و پنجم | از خانه فراری، در خیابان آواره",
     "max_length": 190,
     "median_length": 82,
     "min_length": 32,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6afdd74db5464c5e00eeef27/media.mp3",
+        "at": "2026-11-20T15:30:00Z",
+        "i": "https://assets.pippa.io/shows/65e9c8c0fe108d0016af50de/1795020207571-66b1daad-10e9-4d6f-8403-6e36ff6281be.jpeg",
+        "t": "صد و هشتاد و پنجم | از خانه فراری، در خیابان آواره"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6ae4793e309881b50b28b92b/media.mp3",
         "at": "2026-10-30T15:30:00Z",
@@ -9500,15 +9506,15 @@
         "at": "2026-08-07T15:30:00Z",
         "i": "https://assets.pippa.io/shows/65e9c8c0fe108d0016af50de/1786029431074-0ed02a98-cf12-4eec-88ee-e5b0fd8e96b7.jpeg",
         "t": "صد و هفتاد و هشتم | نامه به عشق تریاکی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6a61fcc57d20badb28028408/media.mp3",
-        "at": "2026-07-24T15:30:00Z",
-        "i": "https://assets.pippa.io/shows/65e9c8c0fe108d0016af50de/1784806214491-35056f3d-e73f-4396-9a1b-ad2a1cde31e1.jpeg",
-        "t": "صد و هفتاد و هفتم | اجاره‌نشین‌ها"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-20T15:30:00Z",
+        "i": "https://assets.pippa.io/shows/65e9c8c0fe108d0016af50de/1795020207571-66b1daad-10e9-4d6f-8403-6e36ff6281be.jpeg",
+        "link": "https://shows.acast.com/bandaretehran/episodes/185b",
+        "title": "صد و هشتاد و پنجم | از خانه فراری، در خیابان آواره"
+      },
       {
         "at": "2026-10-30T15:30:00Z",
         "i": "https://assets.pippa.io/shows/65e9c8c0fe108d0016af50de/1793357374391-8f846326-8b3e-43a2-b46b-7e9261350d87.jpeg",
@@ -9520,12 +9526,6 @@
         "i": "https://assets.pippa.io/shows/65e9c8c0fe108d0016af50de/1792071419659-184da9c7-f086-4c2d-9cba-3ae65e84a9c6.jpeg",
         "link": "https://shows.acast.com/bandaretehran/episodes/183b",
         "title": "صد و هشتاد و سوم | اکبر"
-      },
-      {
-        "at": "2026-10-09T15:30:00Z",
-        "i": "https://assets.pippa.io/shows/65e9c8c0fe108d0016af50de/1791556127290-5caab9e7-f88e-40ae-aaa2-bd7c382d0252.jpeg",
-        "link": "https://shows.acast.com/bandaretehran/episodes/182b",
-        "title": "صد و هشتاد و دوم | دویدن بره‌ها در آینه"
       }
     ],
     "recent_30d": [
@@ -9540,7 +9540,7 @@
       3,
       2,
       2,
-      1
+      2
     ],
     "status": "active"
   },
@@ -56713,21 +56713,26 @@
     "status": "active"
   },
   "podcast-aamozsh-zban-anglisi-ataii-aanlain": {
-    "avg_gap_days": 27.4,
-    "avg_length": 16,
-    "episodes": 102,
-    "eps_365": 14,
-    "eps_90": 4,
+    "avg_gap_days": 25.9,
+    "avg_length": 17,
+    "episodes": 103,
+    "eps_365": 15,
+    "eps_90": 5,
     "first_at": "2022-12-18",
     "first_year": 1401,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T14:02:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/100---e3s8m4j",
-    "last_title": "#100 - ده اصطلاح محاوره ای انگلیسی با عدد یک",
+    "last": "1405/08/29",
+    "last_at": "2026-11-20T05:32:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/101---e3smef0",
+    "last_title": "#101 - مجموعه شماره ۸ از ۳۰ درس کوتاه زبان انگلیسی",
     "max_length": 43,
     "median_length": 18,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://anchor.fm/s/17433084/podcast/play/129759136/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-19%2F437155435-44100-2-f377cc2713db78.mp3",
+        "at": "2026-11-20T05:32:00Z",
+        "t": "#101 - مجموعه شماره ۸ از ۳۰ درس کوتاه زبان انگلیسی"
+      },
       {
         "a": "https://anchor.fm/s/17433084/podcast/play/129308243/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-12%2F436555432-44100-2-e3687f648c93c.mp3",
         "at": "2026-11-12T14:02:00Z",
@@ -56762,14 +56767,14 @@
         "a": "https://anchor.fm/s/17433084/podcast/play/121037586/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-5%2F425552783-44100-2-284b830b85883.mp3",
         "at": "2026-06-05T06:25:43Z",
         "t": "#94 - مکالمه انگلیسی درباره آشپزی"
-      },
-      {
-        "a": "https://anchor.fm/s/17433084/podcast/play/120654074/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-28%2F425040161-44100-2-a62d6867fa9be.mp3",
-        "at": "2026-05-28T13:03:00Z",
-        "t": "#93 - مکالمه انگلیسی درباره کلاس کسل کننده"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-20T05:32:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/101---e3smef0",
+        "title": "#101 - مجموعه شماره ۸ از ۳۰ درس کوتاه زبان انگلیسی"
+      },
       {
         "at": "2026-11-12T14:02:00Z",
         "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/100---e3s8m4j",
@@ -56779,11 +56784,6 @@
         "at": "2026-11-02T14:30:00Z",
         "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/99---e3rjkpa",
         "title": "#99 - دوازده اصطلاح انگلیسی با عدد صفر برای تقویت مکالمه"
-      },
-      {
-        "at": "2026-09-03T13:51:36Z",
-        "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/98---e3o9s5s",
-        "title": "#98 - مجموعه شماره ۷ از ۳۰ درس کوتاه زبان انگلیسی"
       }
     ],
     "recent_30d": [
@@ -56798,7 +56798,7 @@
       1,
       2,
       0,
-      2
+      3
     ],
     "status": "active"
   },
