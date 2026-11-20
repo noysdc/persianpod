@@ -78888,8 +78888,8 @@
       11,
       12,
       12,
-      11,
-      13,
+      12,
+      12,
       11,
       12,
       8
@@ -80283,19 +80283,25 @@
   "rah-awin": {
     "avg_gap_days": 1.0,
     "avg_length": 27,
-    "episodes": 44,
-    "eps_365": 5,
-    "eps_90": 5,
+    "episodes": 45,
+    "eps_365": 6,
+    "eps_90": 6,
     "first_at": "2022-03-26",
     "first_year": 1401,
-    "last": "1405/08/28",
-    "last_at": "2026-11-19T07:41:00Z",
-    "last_link": "https://s3.castbox.fm/cc/0d/52/82987d4332b0d4e719961c9036.mp3",
-    "last_title": "چگونه سفر روح آموختم _ قسمت چهارم",
+    "last": "1405/08/29",
+    "last_at": "2026-11-20T07:41:00Z",
+    "last_link": "https://s3.castbox.fm/ef/3b/6b/73ac8043118ce82bf6fb2faaf0.mp3",
+    "last_title": "چگونه سفر روح آموختم _ قسمت پنجم",
     "max_length": 48,
     "median_length": 29,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/ef/3b/6b/73ac8043118ce82bf6fb2faaf0.mp3",
+        "at": "2026-11-20T07:41:00Z",
+        "i": "https://s3.castbox.fm/4c/d7/c5/a54f354438888b247404400860.jpg",
+        "t": "چگونه سفر روح آموختم _ قسمت پنجم"
+      },
       {
         "a": "https://s3.castbox.fm/cc/0d/52/82987d4332b0d4e719961c9036.mp3",
         "at": "2026-11-19T07:41:00Z",
@@ -80337,15 +80343,15 @@
         "at": "2023-05-30T06:19:08Z",
         "i": "https://s3.castbox.fm/0d/22/30/cc21004087b4867d8bb3033ba2.jpeg",
         "t": "کتاب طریقت تولتکی مرور دوباره_ بخش دوم _ قسمت دوازدهم"
-      },
-      {
-        "a": "https://s3.castbox.fm/76/7e/d4/6b88d14387a896d3201af23d14.mp3",
-        "at": "2023-05-15T18:41:01Z",
-        "i": "https://s3.castbox.fm/4a/6e/cb/11ec10427ebe121356801f6ec5.jpeg",
-        "t": "کتاب طریقت تولتکی مرور دوباره _ بخش دوم _ قسمت یازدهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-20T07:41:00Z",
+        "i": "https://s3.castbox.fm/4c/d7/c5/a54f354438888b247404400860.jpg",
+        "link": "https://s3.castbox.fm/ef/3b/6b/73ac8043118ce82bf6fb2faaf0.mp3",
+        "title": "چگونه سفر روح آموختم _ قسمت پنجم"
+      },
       {
         "at": "2026-11-19T07:41:00Z",
         "i": "https://s3.castbox.fm/fd/2d/a0/fd19294f3684837025f7442eb8.jpg",
@@ -80357,12 +80363,6 @@
         "i": "https://s3.castbox.fm/12/18/5b/abf6f6432a9b72758904d6f381.jpg",
         "link": "https://s3.castbox.fm/32/d8/0f/6c5d9245bc9b5e25bdfc1a4502.mp3",
         "title": "چگونه سفر روح آموختم _ قسمت سوم"
-      },
-      {
-        "at": "2026-11-17T07:41:00Z",
-        "i": "https://s3.castbox.fm/03/38/f6/2a145643d395a133905f144834.jpg",
-        "link": "https://s3.castbox.fm/00/96/2a/3bd3364867b2a405d972ec968d.mp3",
-        "title": "چگونه سفر روح را آموختم _ قسمت دوم"
       }
     ],
     "recent_30d": [
@@ -80377,7 +80377,7 @@
       0,
       0,
       0,
-      5
+      6
     ],
     "status": "active"
   },
