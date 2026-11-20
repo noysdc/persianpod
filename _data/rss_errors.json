@@ -111,6 +111,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://www.spreaker.com/show/7177177/episodes/feed"
   },
+  "lzt-dniai-ktab": {
+    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feed.podkadeh.cloud/podcastxml/lezate-donyaye-ketab.xml"
+  },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://www.malino.co/feed/podcast/malinopodcast/"
