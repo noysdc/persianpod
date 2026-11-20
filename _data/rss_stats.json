@@ -10226,25 +10226,19 @@
   },
   "bazi-baz": {
     "avg_length": 60,
-    "episodes": 20,
+    "episodes": 19,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2019-07-02",
     "first_year": 1398,
-    "last": "1399/06/05",
-    "last_at": "2020-08-26T21:30:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/bazibaz/episodes/The-Last-of-Us-2-eimh7q",
-    "last_title": "The Last of Us 2",
+    "last": "1399/05/01",
+    "last_at": "2020-07-22T16:14:42Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/bazibaz/episodes/--eh2qka",
+    "last_title": "اپیزود ویژه - همکاری جدید",
     "max_length": 97,
-    "median_length": 68,
+    "median_length": 69,
     "min_length": 5,
     "play": [
-      {
-        "a": "https://anchor.fm/s/c49e088/podcast/play/18612922/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-26%2Ffa690d55-c446-62f2-370f-c3b559e90936.mp3",
-        "at": "2020-08-26T21:30:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1961682/1961682-1598445841636-5f19d60c7e445.jpg",
-        "t": "The Last of Us 2"
-      },
       {
         "a": "https://anchor.fm/s/c49e088/podcast/play/16918602/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-6-22%2Fd74c1ee1-f613-8b94-6fd5-36dfa909d4e7.mp3",
         "at": "2020-07-22T16:14:42Z",
@@ -10286,15 +10280,15 @@
         "at": "2019-12-24T05:30:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1961682/1961682-1577095806344-59a367e8fa1e1.jpg",
         "t": "Uncharted 3: Drake's Deception"
+      },
+      {
+        "a": "https://anchor.fm/s/c49e088/podcast/play/9027402/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-16%2F38889088-44100-1-df8ba7cb288e8.mp3",
+        "at": "2019-12-16T05:18:24Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1961682/1961682-1576473512066-3e5c326bcd322.jpg",
+        "t": "Uncharted 2: Among Thieves"
       }
     ],
     "recent": [
-      {
-        "at": "2020-08-26T21:30:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1961682/1961682-1598445841636-5f19d60c7e445.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/bazibaz/episodes/The-Last-of-Us-2-eimh7q",
-        "title": "The Last of Us 2"
-      },
       {
         "at": "2020-07-22T16:14:42Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1961682/1961682-1595393381063-f18d504b33449.jpg",
@@ -10306,6 +10300,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1961682/1961682-1586864555542-f7b63860e248a.jpg",
         "link": "https://podcasters.spotify.com/pod/show/bazibaz/episodes/Resident-Evil-Part-3-ecp49c",
         "title": "Resident Evil (Part 3)"
+      },
+      {
+        "at": "2020-03-19T05:30:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1961682/1961682-1584526898488-92754452a68ab.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/bazibaz/episodes/Resident-Evil-Part-1-ebkn4n",
+        "title": "Resident Evil (Part 1)"
       }
     ],
     "recent_30d": [
@@ -72463,8 +72463,8 @@
       }
     ],
     "recent_30d": [
-      4,
-      2,
+      5,
+      1,
       0,
       0,
       0,
@@ -91838,19 +91838,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4280,
-    "eps_365": 782,
-    "eps_90": 250,
+    "episodes": 4281,
+    "eps_365": 783,
+    "eps_90": 251,
     "first_at": "2023-09-13",
     "first_year": 1402,
-    "last": "1405/08/28",
-    "last_at": "2026-11-19T19:13:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aff474e3c298292f3fcebce",
-    "last_title": "قسمت چهارهزار و دویست و شصت و دو",
+    "last": "1405/08/29",
+    "last_at": "2026-11-20T15:01:22Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b0060bed0e980d0cfc2fafd",
+    "last_title": "قسمت چهارهزار و دویست و شصت و سه",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6b0060bed0e980d0cfc2fafd/media.mp3",
+        "at": "2026-11-20T15:01:22Z",
+        "t": "قسمت چهارهزار و دویست و شصت و سه"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6aff474e3c298292f3fcebce/media.mp3",
         "at": "2026-11-19T19:13:00Z",
@@ -91885,14 +91890,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6afc3140277fc1579fda5059/media.mp3",
         "at": "2026-11-17T14:30:00Z",
         "t": "قسمت چهارهزار و دویست و پنجاه و هفت"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6afc30fc1a7785c803c7a3e1/media.mp3",
-        "at": "2026-11-17T12:30:00Z",
-        "t": "قسمت چهارهزار و دویست و پنجاه و شش"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-20T15:01:22Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b0060bed0e980d0cfc2fafd",
+        "title": "قسمت چهارهزار و دویست و شصت و سه"
+      },
       {
         "at": "2026-11-19T19:13:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aff474e3c298292f3fcebce",
@@ -91901,11 +91906,6 @@
       {
         "at": "2026-11-19T18:34:13Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aff412518a3c93bdb4a77c3",
-        "title": "قسمت چهارهزار و دویست و شصت و یک"
-      },
-      {
-        "at": "2026-11-18T15:44:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6afda87120b40c3539a4255b",
         "title": "قسمت چهارهزار و دویست و شصت و یک"
       }
     ],
@@ -91921,7 +91921,7 @@
       83,
       102,
       75,
-      73
+      74
     ],
     "status": "active"
   },
