@@ -18272,21 +18272,27 @@
     "status": "active"
   },
   "dastan-zndgi-mn-ba-aiman-khrmi-nzhad": {
-    "avg_gap_days": 37.4,
+    "avg_gap_days": 35.8,
     "avg_length": 155,
-    "episodes": 248,
-    "eps_365": 10,
-    "eps_90": 4,
+    "episodes": 249,
+    "eps_365": 11,
+    "eps_90": 5,
     "first_at": "2021-11-04",
     "first_year": 1400,
-    "last": "1405/08/08",
-    "last_at": "2026-10-30T17:20:42Z",
-    "last_link": "https://s3.castbox.fm/54/e8/08/75cbd64e7b9c127063e8b72cda.mp3",
-    "last_title": "EP 125 - Pardis Taherzadeh (بدون موسیقی)",
+    "last": "1405/08/29",
+    "last_at": "2026-11-20T17:19:03Z",
+    "last_link": "https://s3.castbox.fm/fd/f9/b3/912c0a4efdb67f001508974fed.mp3",
+    "last_title": "Ep 126 - Ali Najefi (با موسیقی)",
     "max_length": 315,
-    "median_length": 136,
+    "median_length": 137,
     "min_length": 41,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/fd/f9/b3/912c0a4efdb67f001508974fed.mp3",
+        "at": "2026-11-20T17:19:03Z",
+        "i": "https://s3.castbox.fm/15/98/56/48ad9b49a8a13515062e5ebc06.jpg",
+        "t": "Ep 126 - Ali Najefi (با موسیقی)"
+      },
       {
         "a": "https://s3.castbox.fm/54/e8/08/75cbd64e7b9c127063e8b72cda.mp3",
         "at": "2026-10-30T17:20:42Z",
@@ -18328,15 +18334,15 @@
         "at": "2025-12-23T17:55:29Z",
         "i": "https://s3.castbox.fm/e5/36/7d/c5a676496dbf7acb2c0c45629e.jpg",
         "t": "Ep 122 - Mana Sadeghi (بدون موسیقی)"
-      },
-      {
-        "a": "https://s3.castbox.fm/c0/ae/48/03629d4bce8001c4b3b7ce4f1a.mp3",
-        "at": "2025-12-23T17:40:25Z",
-        "i": "https://s3.castbox.fm/58/74/64/0e081d4f29aef4fed47d778e82.jpg",
-        "t": "Ep 122 - Mana Sadeghi (با موسیقی)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-20T17:19:03Z",
+        "i": "https://s3.castbox.fm/15/98/56/48ad9b49a8a13515062e5ebc06.jpg",
+        "link": "https://s3.castbox.fm/fd/f9/b3/912c0a4efdb67f001508974fed.mp3",
+        "title": "Ep 126 - Ali Najefi (با موسیقی)"
+      },
       {
         "at": "2026-10-30T17:20:42Z",
         "i": "https://s3.castbox.fm/c9/9e/11/c58fdc46fa88b8a9e01e1ea89b.jpg",
@@ -18348,12 +18354,6 @@
         "i": "https://s3.castbox.fm/b4/f9/33/e4c55849c5ae45a771a4113f7e.jpg",
         "link": "https://s3.castbox.fm/3a/c3/d7/f72d0842ba9ab9f7dd265c0fcd.mp3",
         "title": "EP 125 - Pardis Taherzadeh (با موسیقی)"
-      },
-      {
-        "at": "2026-10-08T15:59:57Z",
-        "i": "https://s3.castbox.fm/f7/be/c9/24d2044795a0c0d1f23ec5fe2f.jpg",
-        "link": "https://s3.castbox.fm/30/34/ad/6c9f4c435096ba0830713621cd.mp3",
-        "title": "Ep 124 - Dr. Kamyar A. Majlan (بدون موسیقی)"
       }
     ],
     "recent_30d": [
@@ -18368,7 +18368,7 @@
       2,
       0,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -55134,8 +55134,8 @@
       3,
       4,
       6,
-      4,
       5,
+      4,
       4,
       5,
       5,
