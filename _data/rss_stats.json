@@ -3159,21 +3159,27 @@
     "status": "active"
   },
   "accord": {
-    "avg_gap_days": 11.9,
+    "avg_gap_days": 11.7,
     "avg_length": 3,
-    "episodes": 52,
-    "eps_365": 31,
-    "eps_90": 12,
+    "episodes": 53,
+    "eps_365": 32,
+    "eps_90": 13,
     "first_at": "2025-06-27",
     "first_year": 1404,
-    "last": "1405/08/22",
-    "last_at": "2026-11-13T12:44:51Z",
-    "last_link": "https://play.rabt.host/podcast/81024046-55ad-470d-a6fd-17a90ef04596/episode/afd166ba-e68c-43b3-9eee-5e17a5b49795/play.mp3?v=1",
-    "last_title": "درد تنهایی",
+    "last": "1405/08/29",
+    "last_at": "2026-11-20T10:21:59Z",
+    "last_link": "https://play.rabt.host/podcast/81024046-55ad-470d-a6fd-17a90ef04596/episode/ead17093-af33-4f56-a89d-07f4d5dc117b/play.mp3?v=2",
+    "last_title": "قسمت 53",
     "max_length": 28,
     "median_length": 3,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/81024046-55ad-470d-a6fd-17a90ef04596/episode/ead17093-af33-4f56-a89d-07f4d5dc117b/play.mp3?v=2",
+        "at": "2026-11-20T10:21:59Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/81024046-55ad-470d-a6fd-17a90ef04596/episodes/ead17093-af33-4f56-a89d-07f4d5dc117b/artwork.jpg?v=2",
+        "t": "قسمت 53"
+      },
       {
         "a": "https://play.rabt.host/podcast/81024046-55ad-470d-a6fd-17a90ef04596/episode/afd166ba-e68c-43b3-9eee-5e17a5b49795/play.mp3?v=1",
         "at": "2026-11-13T12:44:51Z",
@@ -3215,15 +3221,15 @@
         "at": "2026-10-02T17:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/81024046-55ad-470d-a6fd-17a90ef04596/episodes/576d78cc-56e3-45dc-8c2b-1f85fe3dca30/artwork.jpg?v=5",
         "t": "پشت دریاها"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/81024046-55ad-470d-a6fd-17a90ef04596/episode/abd564a9-32d8-42ef-bd69-1f215a6422fb/play.mp3?v=1",
-        "at": "2026-09-25T17:30:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/81024046-55ad-470d-a6fd-17a90ef04596/episodes/abd564a9-32d8-42ef-bd69-1f215a6422fb/artwork.jpg?v=5",
-        "t": "به کجا چنین شتابان"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-20T10:21:59Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/81024046-55ad-470d-a6fd-17a90ef04596/episodes/ead17093-af33-4f56-a89d-07f4d5dc117b/artwork.jpg?v=2",
+        "link": "https://play.rabt.host/podcast/81024046-55ad-470d-a6fd-17a90ef04596/episode/ead17093-af33-4f56-a89d-07f4d5dc117b/play.mp3?v=2",
+        "title": "قسمت 53"
+      },
       {
         "at": "2026-11-13T12:44:51Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/81024046-55ad-470d-a6fd-17a90ef04596/episodes/afd166ba-e68c-43b3-9eee-5e17a5b49795/artwork.jpg?v=1",
@@ -3235,12 +3241,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/81024046-55ad-470d-a6fd-17a90ef04596/episodes/3975971f-0274-4cda-b51a-bd8936e1bc9c/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/81024046-55ad-470d-a6fd-17a90ef04596/episode/3975971f-0274-4cda-b51a-bd8936e1bc9c/play.mp3?v=1",
         "title": "عشق تو"
-      },
-      {
-        "at": "2026-10-30T17:30:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/81024046-55ad-470d-a6fd-17a90ef04596/episodes/1918d9aa-8d6b-4635-b0ba-65f9ca2aef6f/artwork.jpg?v=5",
-        "link": "https://play.rabt.host/podcast/81024046-55ad-470d-a6fd-17a90ef04596/episode/1918d9aa-8d6b-4635-b0ba-65f9ca2aef6f/play.mp3?v=1",
-        "title": "سروِ روان من"
       }
     ],
     "recent_30d": [
@@ -3255,7 +3255,7 @@
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   },
