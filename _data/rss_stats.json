@@ -2961,8 +2961,8 @@
       0,
       18,
       28,
-      25,
-      10,
+      26,
+      9,
       4
     ],
     "status": "active"
@@ -70104,21 +70104,27 @@
     "status": "active"
   },
   "podcast-roanshnasi-saikopad": {
-    "avg_gap_days": 10.5,
-    "avg_length": 65,
-    "episodes": 201,
-    "eps_365": 35,
-    "eps_90": 10,
+    "avg_gap_days": 10.4,
+    "avg_length": 66,
+    "episodes": 202,
+    "eps_365": 36,
+    "eps_90": 11,
     "first_at": "2021-06-18",
     "first_year": 1400,
-    "last": "1405/08/22",
-    "last_at": "2026-11-13T17:10:00Z",
-    "last_link": "https://dotcast.org/p/lu8pm6lt/2r4nr2mc2i/",
-    "last_title": "در سوگ مارشا لینهان",
+    "last": "1405/08/29",
+    "last_at": "2026-11-20T09:40:00Z",
+    "last_link": "https://dotcast.org/p/lu8pm6lt/i58tw45m4n/",
+    "last_title": "بازی های روانی | ناجی، زجردهنده، قربانی",
     "max_length": 132,
     "median_length": 53,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/lu8pm6lt/i58tw45m4n/2026-11-20-09-54-32.mp3",
+        "at": "2026-11-20T09:40:00Z",
+        "i": "https://feed.dotcast.org/e/lu8pm6lt/i58tw45m4n/2026-11-20-09-35-19.jpg",
+        "t": "بازی های روانی | ناجی، زجردهنده، قربانی"
+      },
       {
         "a": "https://feed.dotcast.org/e/lu8pm6lt/2r4nr2mc2i/2026-11-13-17-22-35.mp3",
         "at": "2026-11-13T17:10:00Z",
@@ -70159,15 +70165,15 @@
         "at": "2026-09-18T09:20:00Z",
         "i": "https://feed.dotcast.org/e/lu8pm6lt/6z92gziugc/2026-09-18-09-26-41.jpg",
         "t": "روانشناسی خصومت | چگونه خصومت پنهان را تشخیص بدهیم؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/lu8pm6lt/o7dh64bji4/2026-09-10-08-49-55.mp3",
-        "at": "2026-09-10T08:40:00Z",
-        "i": "https://feed.dotcast.org/e/lu8pm6lt/o7dh64bji4/2026-09-10-08-45-57.jpg",
-        "t": "آیا شما گوسفند سیاه خانواده تان هستید؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-20T09:40:00Z",
+        "i": "https://feed.dotcast.org/e/lu8pm6lt/i58tw45m4n/2026-11-20-09-35-19.jpg",
+        "link": "https://dotcast.org/p/lu8pm6lt/i58tw45m4n/",
+        "title": "بازی های روانی | ناجی، زجردهنده، قربانی"
+      },
       {
         "at": "2026-11-13T17:10:00Z",
         "i": "https://feed.dotcast.org/e/lu8pm6lt/2r4nr2mc2i/2026-11-13-17-19-49.jpg",
@@ -70179,12 +70185,6 @@
         "i": "https://feed.dotcast.org/e/lu8pm6lt/l08t3tj3s7/2026-11-06-10-50-56.jpg",
         "link": "https://dotcast.org/p/lu8pm6lt/l08t3tj3s7/",
         "title": "اضطراب | رنج مقدس یا درد مخرب!؟"
-      },
-      {
-        "at": "2026-10-30T09:30:00Z",
-        "i": "https://feed.dotcast.org/e/lu8pm6lt/hdl3itgvuy/2026-10-30-09-33-49.jpg",
-        "link": "https://dotcast.org/p/lu8pm6lt/hdl3itgvuy/",
-        "title": "گوسفند سفید خانواده | تلاش برای خوب بودن به عنوان مرض"
       }
     ],
     "recent_30d": [
@@ -70199,7 +70199,7 @@
       6,
       4,
       2,
-      4
+      5
     ],
     "status": "active"
   },
@@ -93810,20 +93810,26 @@
   },
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
-    "avg_length": 21,
-    "episodes": 429,
-    "eps_365": 257,
-    "eps_90": 102,
+    "avg_length": 20,
+    "episodes": 430,
+    "eps_365": 258,
+    "eps_90": 103,
     "first_at": "2024-08-22",
     "first_year": 1403,
     "last": "1405/08/29",
-    "last_at": "2026-11-20T01:30:00Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6afd9378f890ca881b5d707d",
-    "last_title": "صبح دل‌انگیز نوامبر ❄️ | موسیقی برای آرامش، تمرکز و زندگی آهسته",
+    "last_at": "2026-11-20T10:02:22Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6b00077411cce4ba963ae5a2",
+    "last_title": "جادوگر سفید | اپیزود 13",
     "max_length": 99,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6b00077411cce4ba963ae5a2/media.mp3",
+        "at": "2026-11-20T10:02:22Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795163998686-14365006-d184-4667-b092-6f1e53dcd64b.jpeg",
+        "t": "جادوگر سفید | اپیزود 13"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6afd9378f890ca881b5d707d/media.mp3",
         "at": "2026-11-20T01:30:00Z",
@@ -93865,15 +93871,15 @@
         "at": "2026-11-15T18:54:13Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794767268165-1267ba82-b936-46da-98f3-3ab220b537b5.jpeg",
         "t": "مدیتیشن |مدیتیشن گنجینه درون تو"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af57f683ea14959054db800/media.mp3",
-        "at": "2026-11-12T20:30:00Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794473807217-55686541-7cfc-48d2-bb8e-bab960359def.jpeg",
-        "t": "تو به اندازه کافی باارزشی ✨ | مدیتیشن پذیرش خود"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-20T10:02:22Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795163998686-14365006-d184-4667-b092-6f1e53dcd64b.jpeg",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6b00077411cce4ba963ae5a2",
+        "title": "جادوگر سفید | اپیزود 13"
+      },
       {
         "at": "2026-11-20T01:30:00Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795002883124-68c180cf-945b-402c-88be-329cc3338462.jpeg",
@@ -93885,12 +93891,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794133003826-30b4ef67-316f-48c6-b6fa-ffa8c67248db.jpeg",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6af04c41218f4807f2e1f768",
         "title": "جملات تأکیدی جذب برکت، آرامش درون و مدار فراوانی کائنات"
-      },
-      {
-        "at": "2026-11-19T00:30:00Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793687906349-401dbe3e-fa1f-4396-ad76-cbeda6485771.jpeg",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6ae9816df5930510a0c326e6",
-        "title": "من قوی، باارزش و آماده‌ی معجزه‌ام ✨ | قوی‌ترین جملات تاکیدی صبحگاهی"
       }
     ],
     "recent_30d": [
@@ -93905,7 +93905,7 @@
       32,
       45,
       32,
-      25
+      26
     ],
     "status": "active"
   },
