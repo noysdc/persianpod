@@ -87,10 +87,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://media.rss.com/hirbod/feed.xml"
   },
-  "hghogh-ansan-az-didgah-aslam": {
-    "error": "RuntimeError: HTTP 521 (<none>) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://islamhouse.com/pc/708170"
-  },
   "hnr-jng": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://namlik.me/rss/318"
