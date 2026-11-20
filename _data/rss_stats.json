@@ -56713,26 +56713,21 @@
     "status": "active"
   },
   "podcast-aamozsh-zban-anglisi-ataii-aanlain": {
-    "avg_gap_days": 25.9,
-    "avg_length": 17,
-    "episodes": 103,
-    "eps_365": 15,
-    "eps_90": 5,
+    "avg_gap_days": 27.4,
+    "avg_length": 16,
+    "episodes": 102,
+    "eps_365": 14,
+    "eps_90": 4,
     "first_at": "2022-12-18",
     "first_year": 1401,
-    "last": "1405/08/29",
-    "last_at": "2026-11-20T05:32:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/101---e3smef0",
-    "last_title": "#101 - مجموعه شماره ۸ از ۳۰ درس کوتاه زبان انگلیسی",
+    "last": "1405/08/21",
+    "last_at": "2026-11-12T14:02:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/100---e3s8m4j",
+    "last_title": "#100 - ده اصطلاح محاوره ای انگلیسی با عدد یک",
     "max_length": 43,
     "median_length": 18,
     "min_length": 7,
     "play": [
-      {
-        "a": "https://anchor.fm/s/17433084/podcast/play/129759136/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-19%2F437155435-44100-2-f377cc2713db78.mp3",
-        "at": "2026-11-20T05:32:00Z",
-        "t": "#101 - مجموعه شماره ۸ از ۳۰ درس کوتاه زبان انگلیسی"
-      },
       {
         "a": "https://anchor.fm/s/17433084/podcast/play/129308243/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-12%2F436555432-44100-2-e3687f648c93c.mp3",
         "at": "2026-11-12T14:02:00Z",
@@ -56767,14 +56762,14 @@
         "a": "https://anchor.fm/s/17433084/podcast/play/121037586/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-5%2F425552783-44100-2-284b830b85883.mp3",
         "at": "2026-06-05T06:25:43Z",
         "t": "#94 - مکالمه انگلیسی درباره آشپزی"
+      },
+      {
+        "a": "https://anchor.fm/s/17433084/podcast/play/120654074/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-28%2F425040161-44100-2-a62d6867fa9be.mp3",
+        "at": "2026-05-28T13:03:00Z",
+        "t": "#93 - مکالمه انگلیسی درباره کلاس کسل کننده"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-20T05:32:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/101---e3smef0",
-        "title": "#101 - مجموعه شماره ۸ از ۳۰ درس کوتاه زبان انگلیسی"
-      },
       {
         "at": "2026-11-12T14:02:00Z",
         "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/100---e3s8m4j",
@@ -56784,6 +56779,11 @@
         "at": "2026-11-02T14:30:00Z",
         "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/99---e3rjkpa",
         "title": "#99 - دوازده اصطلاح انگلیسی با عدد صفر برای تقویت مکالمه"
+      },
+      {
+        "at": "2026-09-03T13:51:36Z",
+        "link": "https://podcasters.spotify.com/pod/show/ataeionline/episodes/98---e3o9s5s",
+        "title": "#98 - مجموعه شماره ۷ از ۳۰ درس کوتاه زبان انگلیسی"
       }
     ],
     "recent_30d": [
@@ -56798,7 +56798,7 @@
       1,
       2,
       0,
-      3
+      2
     ],
     "status": "active"
   },
@@ -69016,8 +69016,8 @@
       }
     ],
     "recent_30d": [
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -91838,19 +91838,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4281,
-    "eps_365": 783,
-    "eps_90": 250,
+    "episodes": 4282,
+    "eps_365": 784,
+    "eps_90": 251,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/29",
-    "last_at": "2026-11-20T15:01:22Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b0060bed0e980d0cfc2fafd",
-    "last_title": "قسمت چهارهزار و دویست و شصت و سه",
+    "last_at": "2026-11-20T15:30:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b006104d0e980d0cfc32139",
+    "last_title": "قسمت چهارهزار و دویست و شصت و چهار",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6b006104d0e980d0cfc32139/media.mp3",
+        "at": "2026-11-20T15:30:00Z",
+        "t": "قسمت چهارهزار و دویست و شصت و چهار"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6b0060bed0e980d0cfc2fafd/media.mp3",
         "at": "2026-11-20T15:01:22Z",
@@ -91885,14 +91890,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6afda628f1d98ec6b528fa5e/media.mp3",
         "at": "2026-11-18T13:20:42Z",
         "t": "قسمت چهارهزار و دویست و پنجاه و هشت"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6afc3140277fc1579fda5059/media.mp3",
-        "at": "2026-11-17T14:30:00Z",
-        "t": "قسمت چهارهزار و دویست و پنجاه و هفت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-20T15:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b006104d0e980d0cfc32139",
+        "title": "قسمت چهارهزار و دویست و شصت و چهار"
+      },
       {
         "at": "2026-11-20T15:01:22Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b0060bed0e980d0cfc2fafd",
@@ -91902,11 +91907,6 @@
         "at": "2026-11-19T19:13:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aff474e3c298292f3fcebce",
         "title": "قسمت چهارهزار و دویست و شصت و دو"
-      },
-      {
-        "at": "2026-11-19T18:34:13Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6aff412518a3c93bdb4a77c3",
-        "title": "قسمت چهارهزار و دویست و شصت و یک"
       }
     ],
     "recent_30d": [
@@ -91921,7 +91921,7 @@
       84,
       102,
       74,
-      74
+      75
     ],
     "status": "active"
   },
