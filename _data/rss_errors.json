@@ -144,7 +144,7 @@
     "rss": "https://tehranpodcast.ir/category/pejvakemahoor/feed/"
   },
   "radio-ghjrtaim": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://qajartime.com/feed/podcast/radioqajartime/"
   },
   "radio-hzar-o-ik-shb": {
