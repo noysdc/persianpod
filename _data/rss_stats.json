@@ -43528,8 +43528,8 @@
       }
     ],
     "recent_30d": [
-      2,
-      10,
+      3,
+      9,
       2,
       0,
       0,
@@ -44023,21 +44023,26 @@
     "status": "stopped"
   },
   "ktab-soti-sh-tfngdar": {
-    "avg_gap_days": 11.0,
-    "avg_length": 27,
-    "episodes": 137,
-    "eps_365": 32,
-    "eps_90": 9,
+    "avg_gap_days": 10.7,
+    "avg_length": 28,
+    "episodes": 138,
+    "eps_365": 33,
+    "eps_90": 10,
     "first_at": "2024-05-18",
     "first_year": 1403,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T20:17:01Z",
-    "last_link": "https://shows.acast.com/threemusketeers/episodes/6afcb63fbc3a834741124a65",
-    "last_title": "قسمت صد و بیست و یکم",
+    "last": "1405/08/29",
+    "last_at": "2026-11-20T19:25:58Z",
+    "last_link": "https://shows.acast.com/threemusketeers/episodes/6b009ec74f7f96174da24a68",
+    "last_title": "قسمت صد و بیست و دوم",
     "max_length": 42,
     "median_length": 30,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6b009ec74f7f96174da24a68/media.mp3",
+        "at": "2026-11-20T19:25:58Z",
+        "t": "قسمت صد و بیست و دوم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6afcb63fbc3a834741124a65/media.mp3",
         "at": "2026-11-17T20:17:01Z",
@@ -44072,14 +44077,14 @@
         "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6aa6dbca1563582c05a44feb/media.mp3",
         "at": "2026-09-13T17:22:18Z",
         "t": "قسمت آخر سیزن چهارم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6a9c42482a7730b896c3969b/media.mp3",
-        "at": "2026-09-05T16:24:40Z",
-        "t": "قسمت ویژه (انتقام 🥀🔥)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-20T19:25:58Z",
+        "link": "https://shows.acast.com/threemusketeers/episodes/6b009ec74f7f96174da24a68",
+        "title": "قسمت صد و بیست و دوم"
+      },
       {
         "at": "2026-11-17T20:17:01Z",
         "link": "https://shows.acast.com/threemusketeers/episodes/6afcb63fbc3a834741124a65",
@@ -44089,11 +44094,6 @@
         "at": "2026-11-03T10:29:42Z",
         "link": "https://shows.acast.com/threemusketeers/episodes/6ae9b795dc2860cef4973121",
         "title": "قسمت صد و بیستم"
-      },
-      {
-        "at": "2026-10-28T18:52:11Z",
-        "link": "https://shows.acast.com/threemusketeers/episodes/6ae2445b7aa7eb2c8a411657",
-        "title": "مقدمه قسمت صد و بیستم"
       }
     ],
     "recent_30d": [
@@ -44108,7 +44108,7 @@
       5,
       3,
       2,
-      4
+      5
     ],
     "status": "active"
   },
@@ -64140,7 +64140,7 @@
   "podcast-hngamh": {
     "avg_gap_days": 58.8,
     "avg_length": 82,
-    "episodes": 49,
+    "episodes": 47,
     "eps_365": 5,
     "eps_90": 2,
     "first_at": "2019-08-24",
@@ -64150,7 +64150,7 @@
     "last_link": "https://podcasters.spotify.com/pod/show/kamran856/episodes/ep-e3qrcnu",
     "last_title": "ماسکیسم: راهنمایی برای سرگشتگان",
     "max_length": 254,
-    "median_length": 61,
+    "median_length": 63,
     "min_length": 24,
     "play": [
       {
@@ -87392,11 +87392,11 @@
       6,
       2,
       2,
-      15,
-      15,
+      16,
+      14,
       17,
-      12,
-      9,
+      13,
+      8,
       7
     ],
     "status": "active"
@@ -91911,8 +91911,8 @@
       }
     ],
     "recent_30d": [
-      113,
-      58,
+      114,
+      57,
       92,
       16,
       0,
