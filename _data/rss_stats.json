@@ -59866,21 +59866,27 @@
     "status": "active"
   },
   "podcast-dndanpzshki-bistori": {
-    "avg_gap_days": 12.1,
+    "avg_gap_days": 12.0,
     "avg_length": 77,
-    "episodes": 138,
-    "eps_365": 29,
-    "eps_90": 12,
+    "episodes": 139,
+    "eps_365": 30,
+    "eps_90": 13,
     "first_at": "2022-08-24",
     "first_year": 1401,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T17:20:45Z",
-    "last_link": "https://shows.acast.com/bistoori/episodes/bistoori132",
-    "last_title": "بیستوری ۱۳۲| فرید هاشم نژاد: دندانسازی؛ چالشهای امروز و چشم انداز فردا",
+    "last": "1405/08/29",
+    "last_at": "2026-11-20T15:12:27Z",
+    "last_link": "https://shows.acast.com/bistoori/episodes/bistoori133",
+    "last_title": "بیستوری ۱۳۳| دکتر ساندرا خدابنده لو| از دندانپزشکی عمومی تا امضای شخصی در دندانپزشکی زیبایی",
     "max_length": 141,
     "median_length": 71,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6302f99289c44f001281e16a/e/6b00635bd0e980d0cfc48f7a/media.mp3",
+        "at": "2026-11-20T15:12:27Z",
+        "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1795187533912-bb90e67d-b8c0-40b2-9062-6b815ff0d80f.jpeg",
+        "t": "بیستوری ۱۳۳| دکتر ساندرا خدابنده لو| از دندانپزشکی عمومی تا امضای شخصی در دندانپزشکی زیبایی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6302f99289c44f001281e16a/e/6af5f56e28531eda457ac979/media.mp3",
         "at": "2026-11-12T17:20:45Z",
@@ -59922,15 +59928,15 @@
         "at": "2026-10-18T19:09:15Z",
         "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1792355710494-713cb1cb-86a2-40e5-af3d-8281f4daaa5d.jpeg",
         "t": "بیستوری ۱۲۷| نازنین آرین| دندانپزشکی که کتابفروش شد"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6302f99289c44f001281e16a/e/6ac7d2999fea6e0a64128d67/media.mp3",
-        "at": "2026-10-08T17:27:53Z",
-        "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1791480388992-1b2913d7-9e29-416c-b7af-c60c1bfd4ddd.jpeg",
-        "t": "بیستوری ۱۲۶| سروش صلواتیان بخش دوم: داستان تولد کچکک"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-20T15:12:27Z",
+        "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1795187533912-bb90e67d-b8c0-40b2-9062-6b815ff0d80f.jpeg",
+        "link": "https://shows.acast.com/bistoori/episodes/bistoori133",
+        "title": "بیستوری ۱۳۳| دکتر ساندرا خدابنده لو| از دندانپزشکی عمومی تا امضای شخصی در دندانپزشکی زیبایی"
+      },
       {
         "at": "2026-11-12T17:20:45Z",
         "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1794503850902-6c7822fe-2ec8-4d6b-a8dd-315197c3719f.jpeg",
@@ -59942,12 +59948,6 @@
         "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1793560862877-a3e6a7e1-5440-4129-b121-003874816939.jpeg",
         "link": "https://shows.acast.com/bistoori/episodes/bistoori131b",
         "title": "بیستوری ۱۳۱| نازنین ادیبی بخش دوم: فرهنگ سازمانی در اشترومن خاورمیانه"
-      },
-      {
-        "at": "2026-11-01T19:20:22Z",
-        "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1793560775055-d1d95527-8faf-40cd-a65d-7ee29ad629a1.jpeg",
-        "link": "https://shows.acast.com/bistoori/episodes/bistoori131a",
-        "title": "بیستوری ۱۳۱| نازنین ادیبی بخش اول: از مترجم مهرآرابن تا مدیرعامل اشترومن خاورمیانه"
       }
     ],
     "recent_30d": [
@@ -59962,7 +59962,7 @@
       2,
       3,
       4,
-      5
+      6
     ],
     "status": "active"
   },
@@ -69898,7 +69898,7 @@
       }
     ],
     "recent_30d": [
-      7,
+      6,
       4,
       6,
       12,
@@ -81263,21 +81263,27 @@
     "status": "active"
   },
   "rman-hai-jnaii-ba-noshin": {
-    "avg_gap_days": 8.0,
+    "avg_gap_days": 7.9,
     "avg_length": 31,
-    "episodes": 152,
-    "eps_365": 46,
-    "eps_90": 25,
+    "episodes": 153,
+    "eps_365": 47,
+    "eps_90": 26,
     "first_at": "2025-02-05",
     "first_year": 1403,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T16:01:05Z",
-    "last_link": "https://shows.acast.com/nooshin/episodes/6afc7a40228213ae4e530435",
-    "last_title": "راز رازها (فصل صدوسه تا صدوپنج)",
+    "last": "1405/08/29",
+    "last_at": "2026-11-20T15:14:29Z",
+    "last_link": "https://shows.acast.com/nooshin/episodes/6b0063d3a94212ad7c21a70f",
+    "last_title": "راز رازها (فصل صدوشش و صدوهفت)",
     "max_length": 83,
     "median_length": 39,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67a3a19f33bffa4af0de931a/e/6b0063d3a94212ad7c21a70f/media.mp3",
+        "at": "2026-11-20T15:14:29Z",
+        "i": "https://assets.pippa.io/shows/67a3a19f33bffa4af0de931a/1795187537283-08546b6a-a9d2-4806-848b-8c1cc65c78a7.jpeg",
+        "t": "راز رازها (فصل صدوشش و صدوهفت)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67a3a19f33bffa4af0de931a/e/6afc7a40228213ae4e530435/media.mp3",
         "at": "2026-11-17T16:01:05Z",
@@ -81319,15 +81325,15 @@
         "at": "2026-10-26T19:34:54Z",
         "i": "https://assets.pippa.io/shows/67a3a19f33bffa4af0de931a/1793043144193-33cb3f96-fe16-4ef0-abc8-f6fb2ca6298e.jpeg",
         "t": "راز رازها (فصل هشتادوسه و هشتادوپنج)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67a3a19f33bffa4af0de931a/e/6add09d7d39b76001f5c66f4/media.mp3",
-        "at": "2026-10-24T19:41:12Z",
-        "i": "https://assets.pippa.io/shows/67a3a19f33bffa4af0de931a/1792870821590-ae41182e-4a58-44a2-a50f-e59a465f46a8.jpeg",
-        "t": "راز رازها (فصل هشتادویک و هشتادودو)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-20T15:14:29Z",
+        "i": "https://assets.pippa.io/shows/67a3a19f33bffa4af0de931a/1795187537283-08546b6a-a9d2-4806-848b-8c1cc65c78a7.jpeg",
+        "link": "https://shows.acast.com/nooshin/episodes/6b0063d3a94212ad7c21a70f",
+        "title": "راز رازها (فصل صدوشش و صدوهفت)"
+      },
       {
         "at": "2026-11-17T16:01:05Z",
         "i": "https://assets.pippa.io/shows/67a3a19f33bffa4af0de931a/1794931223588-35faef27-c949-4018-84ba-04ba6b6ab7d6.jpeg",
@@ -81339,12 +81345,6 @@
         "i": "https://assets.pippa.io/shows/67a3a19f33bffa4af0de931a/1794422973162-d8bf4adc-b341-4d2b-a690-a701b0c5594c.jpeg",
         "link": "https://shows.acast.com/nooshin/episodes/6af4b9700d8e2af0b27377f9",
         "title": "راز رازها (فصل نودونه تاصدودو)"
-      },
-      {
-        "at": "2026-11-07T12:20:29Z",
-        "i": "https://assets.pippa.io/shows/67a3a19f33bffa4af0de931a/1794053387883-4fedb641-af7b-441f-b961-aa8d0a1919fd.jpeg",
-        "link": "https://shows.acast.com/nooshin/episodes/6aef178d9272884e57811f80",
-        "title": "راز رازها (فصل نودوشش تا نودوهشت)"
       }
     ],
     "recent_30d": [
@@ -81359,7 +81359,7 @@
       8,
       9,
       7,
-      9
+      10
     ],
     "status": "active"
   },
