@@ -3168,14 +3168,14 @@
     "first_year": 1404,
     "last": "1405/08/29",
     "last_at": "2026-11-20T10:21:59Z",
-    "last_link": "https://play.rabt.host/podcast/81024046-55ad-470d-a6fd-17a90ef04596/episode/ead17093-af33-4f56-a89d-07f4d5dc117b/play.mp3?v=2",
+    "last_link": "https://play.rabt.host/podcast/81024046-55ad-470d-a6fd-17a90ef04596/episode/ead17093-af33-4f56-a89d-07f4d5dc117b/play.mp3?v=3",
     "last_title": "قسمت 53",
     "max_length": 28,
     "median_length": 3,
     "min_length": 1,
     "play": [
       {
-        "a": "https://play.rabt.host/podcast/81024046-55ad-470d-a6fd-17a90ef04596/episode/ead17093-af33-4f56-a89d-07f4d5dc117b/play.mp3?v=2",
+        "a": "https://play.rabt.host/podcast/81024046-55ad-470d-a6fd-17a90ef04596/episode/ead17093-af33-4f56-a89d-07f4d5dc117b/play.mp3?v=3",
         "at": "2026-11-20T10:21:59Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/81024046-55ad-470d-a6fd-17a90ef04596/episodes/ead17093-af33-4f56-a89d-07f4d5dc117b/artwork.jpg?v=2",
         "t": "قسمت 53"
@@ -3227,7 +3227,7 @@
       {
         "at": "2026-11-20T10:21:59Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/81024046-55ad-470d-a6fd-17a90ef04596/episodes/ead17093-af33-4f56-a89d-07f4d5dc117b/artwork.jpg?v=2",
-        "link": "https://play.rabt.host/podcast/81024046-55ad-470d-a6fd-17a90ef04596/episode/ead17093-af33-4f56-a89d-07f4d5dc117b/play.mp3?v=2",
+        "link": "https://play.rabt.host/podcast/81024046-55ad-470d-a6fd-17a90ef04596/episode/ead17093-af33-4f56-a89d-07f4d5dc117b/play.mp3?v=3",
         "title": "قسمت 53"
       },
       {
@@ -90184,21 +90184,26 @@
     "status": "stopped"
   },
   "slh-dron": {
-    "avg_gap_days": 6.5,
+    "avg_gap_days": 6.8,
     "avg_length": 29,
     "episodes": 200,
-    "eps_365": 53,
-    "eps_90": 8,
-    "first_at": "2020-03-18",
+    "eps_365": 54,
+    "eps_90": 9,
+    "first_at": "2020-03-19",
     "first_year": 1398,
-    "last": "1405/08/06",
-    "last_at": "2026-10-28T07:13:54Z",
-    "last_link": "https://sepblog.podbean.com/e/%d8%a7%d9%be%db%8c%d8%b2%d9%88%d8%af-%db%b2%db%b2%db%b3%d8%a7%d8%b6%d8%b7%d8%b1%d8%a7%d8%a8%d8%a8%d9%84%d8%a7%d8%aa%da%a9/",
-    "last_title": "اپیزود ۲۲۳ - اضطراب بلاتکلیفی؛ چطور وقتی نمی‌دونیم قراره چه اتفاقی بیفته، آروم بمونیم؟",
+    "last": "1405/08/29",
+    "last_at": "2026-11-20T10:52:34Z",
+    "last_link": "https://sepblog.podbean.com/e/%d8%a7%d9%be%db%8c%d8%b2%d9%88%d8%af-%db%b2%db%b2%db%b4%d9%88%d9%82%d8%aa%db%8c-%d8%ae%d9%88%d9%86%d9%87-%d8%ac%d8%a7%db%8c-%d8%a7%d9%85%d9%86/",
+    "last_title": "اپیزود ۲۲۴ - وقتی خونه جای امنی نیست",
     "max_length": 77,
     "median_length": 22,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://mcdn.podbean.com/mf/web/qqs23eqdxy7tg9bi/224-solhedaroon.mp3",
+        "at": "2026-11-20T10:52:34Z",
+        "t": "اپیزود ۲۲۴ - وقتی خونه جای امنی نیست"
+      },
       {
         "a": "https://mcdn.podbean.com/mf/web/4pmpj3uyaibp5g2z/223-solhedaroon.m4a",
         "at": "2026-10-28T07:13:54Z",
@@ -90233,14 +90238,14 @@
         "a": "https://mcdn.podbean.com/mf/web/kmzkgjzc9acqbvjw/220-solhedaroon.m4a",
         "at": "2026-09-01T07:21:33Z",
         "t": "اپیزود ۲۲۰ - شاید اون بلاتکلیف نیست و تصمیمش رو گرفته، اما تو چطور؟"
-      },
-      {
-        "a": "https://mcdn.podbean.com/mf/web/jj6ck87j3vesh6hd/219-solhedaroon.m4a",
-        "at": "2026-08-29T04:48:01Z",
-        "t": "اپیزود ۲۱۹ - ۷ طرحواره پنهانی که آرامش و روابط ما رو تخریب میکنند"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-20T10:52:34Z",
+        "link": "https://sepblog.podbean.com/e/%d8%a7%d9%be%db%8c%d8%b2%d9%88%d8%af-%db%b2%db%b2%db%b4%d9%88%d9%82%d8%aa%db%8c-%d8%ae%d9%88%d9%86%d9%87-%d8%ac%d8%a7%db%8c-%d8%a7%d9%85%d9%86/",
+        "title": "اپیزود ۲۲۴ - وقتی خونه جای امنی نیست"
+      },
       {
         "at": "2026-10-28T07:13:54Z",
         "link": "https://sepblog.podbean.com/e/%d8%a7%d9%be%db%8c%d8%b2%d9%88%d8%af-%db%b2%db%b2%db%b3%d8%a7%d8%b6%d8%b7%d8%b1%d8%a7%d8%a8%d8%a8%d9%84%d8%a7%d8%aa%da%a9/",
@@ -90250,11 +90255,6 @@
         "at": "2026-10-18T15:25:53Z",
         "link": "https://sepblog.podbean.com/e/%d8%b5%d9%84%d8%ad-%d8%af%d8%b1%d9%88%d9%86-%d8%af%d8%b1-%db%8c%d9%88%d8%aa%db%8c%d9%88%d8%a8%da%86%d8%b1%d8%a7%d9%88%d9%84%d8%b4-%d9%86/",
         "title": "صلح درون در یوتیوب - چرا ولش نمیکنم؟"
-      },
-      {
-        "at": "2026-10-11T15:45:49Z",
-        "link": "https://sepblog.podbean.com/e/%d8%a7%d9%be%db%8c%d8%b2%d9%88%d8%af-%db%b2%db%b2%db%b2%d8%b1%d9%88%d8%b2-%d8%af%d8%ae%d8%aa%d8%b1-%d8%af%d8%ae%d8%aa%d8%b1%db%8c/",
-        "title": "اپیزود ۲۲۲ - روز دختر | دختری که همیشه باید خوب می‌بود"
       }
     ],
     "recent_30d": [
@@ -90269,7 +90269,7 @@
       9,
       2,
       5,
-      1
+      2
     ],
     "status": "active"
   },
