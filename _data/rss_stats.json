@@ -31033,21 +31033,27 @@
     "status": "stopped"
   },
   "hri-patr-ba-lomos": {
-    "avg_gap_days": 19.2,
-    "avg_length": 92,
-    "episodes": 209,
-    "eps_365": 13,
-    "eps_90": 0,
+    "avg_gap_days": 27.9,
+    "avg_length": 93,
+    "episodes": 210,
+    "eps_365": 14,
+    "eps_90": 1,
     "first_at": "2021-02-25",
     "first_year": 1399,
-    "last": "1405/04/20",
-    "last_at": "2026-07-11T13:30:00Z",
-    "last_link": "https://wzrcnt.com/lumos_s7e14/",
-    "last_title": "یادگاران مرگ – فصل ۱۴: دزد",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T13:30:00Z",
+    "last_link": "https://wzrcnt.com/lumos_s7e15/",
+    "last_title": "یادگاران مرگ – فصل ۱۵: انتقام گابلین",
     "max_length": 164,
     "median_length": 83,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624033855f49c70012cb4dfe/e/6b0147a84f7f96174de3cda7/media.mp3",
+        "at": "2026-11-21T13:30:00Z",
+        "i": "https://assets.pippa.io/shows/624033855f49c70012cb4dfe/1795245227431-0e538167-f447-4f4f-a52c-e5aa8c747c2d.jpeg",
+        "t": "یادگاران مرگ – فصل ۱۵: انتقام گابلین"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/624033855f49c70012cb4dfe/e/6a50453f0be8a677173ee345/media.mp3",
         "at": "2026-07-11T13:30:00Z",
@@ -31089,15 +31095,15 @@
         "at": "2026-01-03T13:30:00Z",
         "i": "https://assets.pippa.io/shows/624033855f49c70012cb4dfe/1767440394970-cb54ac4c-fd98-4d4f-95e3-8070dbe37d9f.jpeg",
         "t": "یادگاران مرگ - فصل ۸: عروسی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/624033855f49c70012cb4dfe/e/69504ecec9578c8cdadf087c/media.mp3",
-        "at": "2025-12-27T13:30:00Z",
-        "i": "https://assets.pippa.io/shows/624033855f49c70012cb4dfe/1766870658103-4f820971-5e79-40b7-839b-81e592df0f02.jpeg",
-        "t": "یادگاران مرگ - فصل ۷: وصیت‌نامهٔ آلبوس دامبلدور"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T13:30:00Z",
+        "i": "https://assets.pippa.io/shows/624033855f49c70012cb4dfe/1795245227431-0e538167-f447-4f4f-a52c-e5aa8c747c2d.jpeg",
+        "link": "https://wzrcnt.com/lumos_s7e15/",
+        "title": "یادگاران مرگ – فصل ۱۵: انتقام گابلین"
+      },
       {
         "at": "2026-07-11T13:30:00Z",
         "i": "https://assets.pippa.io/shows/624033855f49c70012cb4dfe/1783645281839-9bbf55e8-6581-4904-95ed-27367d50e3a3.jpeg",
@@ -31109,12 +31115,6 @@
         "i": "https://assets.pippa.io/shows/624033855f49c70012cb4dfe/1783170082512-fd733c8c-1c15-49f6-8523-0891d53a57ca.jpeg",
         "link": "https://wzrcnt.com/lumos_s7e13/",
         "title": "یادگاران مرگ – فصل ۱۳: کمیتهٔ ثبت‌نام ماگل‌زاده‌ها"
-      },
-      {
-        "at": "2026-06-27T13:30:00Z",
-        "i": "https://assets.pippa.io/shows/624033855f49c70012cb4dfe/1782482342085-000b8e9b-7447-4c9a-86f9-356d95dcec0c.jpeg",
-        "link": "https://wzrcnt.com/lumos_s7e12/",
-        "title": "یادگاران مرگ – فصل ۱۲: جادو، قدرت است"
       }
     ],
     "recent_30d": [
@@ -31129,7 +31129,7 @@
       0,
       0,
       0,
-      0
+      1
     ],
     "status": "active"
   },
