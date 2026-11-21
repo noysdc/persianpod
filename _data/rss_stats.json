@@ -69042,21 +69042,27 @@
     "status": "active"
   },
   "podcast-mdrsh-rabth": {
-    "avg_gap_days": 40.2,
-    "avg_length": 45,
-    "episodes": 120,
-    "eps_365": 9,
-    "eps_90": 4,
+    "avg_gap_days": 36.4,
+    "avg_length": 44,
+    "episodes": 121,
+    "eps_365": 10,
+    "eps_90": 5,
     "first_at": "2019-08-15",
     "first_year": 1398,
-    "last": "1405/08/24",
-    "last_at": "2026-11-15T18:21:39Z",
-    "last_link": "https://s3.castbox.fm/ea/36/10/25135e4331be4488e6e5541c80.mp3",
-    "last_title": "سوگ جدایی (عبور از رابطه) | همراه با دکتر رضا محقق",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T18:50:59Z",
+    "last_link": "https://s3.castbox.fm/b2/fa/d5/bc41354c4892e7e1be0454abd8.mp3",
+    "last_title": "اختلالات شخصیت و تأثیر آن‌ها بر روابط عاطفی | همراه با دکتر مهشید بیات",
     "max_length": 98,
     "median_length": 49,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/b2/fa/d5/bc41354c4892e7e1be0454abd8.mp3",
+        "at": "2026-11-21T18:50:59Z",
+        "i": "https://s3.castbox.fm/4d/fc/98/126bd14d039eea470209fca96e.jpg",
+        "t": "اختلالات شخصیت و تأثیر آن‌ها بر روابط عاطفی | همراه با دکتر مهشید بیات"
+      },
       {
         "a": "https://s3.castbox.fm/ea/36/10/25135e4331be4488e6e5541c80.mp3",
         "at": "2026-11-15T18:21:39Z",
@@ -69098,15 +69104,15 @@
         "at": "2026-07-05T23:02:45Z",
         "i": "https://s3.castbox.fm/a8/d4/88/cf4e8244f2a2362c2e85a051f8.jpg",
         "t": "چرا در دعواهای رابطه قفل می‌کنیم؟"
-      },
-      {
-        "a": "https://s3.castbox.fm/1e/c0/19/11f06740b0b6f46d6c23a0167b.mp3",
-        "at": "2026-05-20T17:42:21Z",
-        "i": "https://s3.castbox.fm/c7/d3/ba/0a6f0a4fcb9bab6e355d37e053.jpg",
-        "t": "کمال گرایی در رابطه-بخش اول"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T18:50:59Z",
+        "i": "https://s3.castbox.fm/4d/fc/98/126bd14d039eea470209fca96e.jpg",
+        "link": "https://s3.castbox.fm/b2/fa/d5/bc41354c4892e7e1be0454abd8.mp3",
+        "title": "اختلالات شخصیت و تأثیر آن‌ها بر روابط عاطفی | همراه با دکتر مهشید بیات"
+      },
       {
         "at": "2026-11-15T18:21:39Z",
         "i": "https://s3.castbox.fm/13/a9/5c/b0b1d64412ae6677e90e348779.jpg",
@@ -69118,12 +69124,6 @@
         "i": "https://s3.castbox.fm/8e/a7/41/a310f14a6389c8d502846b61d5.jpg",
         "link": "https://s3.castbox.fm/67/ba/81/724cf744b2988c3c745c5c8d9a.MP3",
         "title": "خودشفقتی و تأثیر آن بر روابط عاطفی | همراه با سلاله امینی"
-      },
-      {
-        "at": "2026-10-24T13:57:55Z",
-        "i": "https://s3.castbox.fm/24/18/ca/566ca2465cac40a7de06fc89bc.jpg",
-        "link": "https://s3.castbox.fm/d0/a9/65/c9767c4131af3986ff93edb8e6.MP3",
-        "title": "در رابطه با حیوانات همراه با فرح طاهری"
       }
     ],
     "recent_30d": [
@@ -69138,7 +69138,7 @@
       0,
       0,
       1,
-      3
+      4
     ],
     "status": "active"
   },
@@ -71933,7 +71933,7 @@
     "avg_gap_days": 5.8,
     "avg_length": 13,
     "episodes": 91,
-    "eps_365": 64,
+    "eps_365": 63,
     "eps_90": 7,
     "first_at": "2025-06-20",
     "first_year": 1404,
@@ -94530,7 +94530,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4284,
-    "eps_365": 782,
+    "eps_365": 781,
     "eps_90": 249,
     "first_at": "2023-09-13",
     "first_year": 1402,
