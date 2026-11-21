@@ -13,27 +13,19 @@ scripts: [/assets/js/pp-order.js, /assets/js/pp-ep-search.js, /assets/js/pp-dire
     {% include pp-stats.html %}
   </div>
   <hr class="pp-divider pp-divider-tight" aria-hidden="true">
-  <section class="pd-owner-feature" aria-labelledby="pd-owner-title">
-    <div class="pd-owner-heading">
-      <span class="pd-owner-kicker">معرفی شفاف سازنده‌ی پرشین‌پاد</span>
-      <h2 id="pd-owner-title">پادکست نویز (NOYS)</h2>
-    </div>
-    <a class="pd-owner-card" href="/podcasts/noys/" aria-label="آشنایی با پادکست نویز">
-      <img src="/assets/img/podcasts/noys.webp" alt="کاور پادکست نویز" width="112" height="112" loading="eager" decoding="async">
-      <span class="pd-owner-copy">
-        <strong>نویز؛ روایت‌های واقعی از گوشه‌وکنار دنیا</strong>
-        <span>مستندهای روایی درباره‌ی داستان‌های واقعی، کسب‌وکارهای سایه و بازارهای سیاه.</span>
-        <span class="pd-owner-link">مشاهده‌ی صفحه‌ی نویز و شنیدن قسمت‌ها ←</span>
-      </span>
-    </a>
-  </section>
   <div id="pd-chips" class="pd-chips" aria-label="انتخاب‌های فعال"></div>
   <div id="pd-results">
     <div class="pd-grid">
       {% assign sorted = site.podcasts | sort: 'title' %}
-      {% for p in sorted %}
+      {% assign without_noys = sorted | where_exp: "podcast", "podcast.slug != 'noys'" %}
+      {% assign noys = sorted | where: "slug", "noys" %}
+      {% assign first_three = without_noys | slice: 0, 3 %}
+      {% assign initial_cards = first_three | concat: noys %}
+      {% assign remaining_cards = without_noys | slice: 3, 10000 %}
+      {% assign initial_cards = initial_cards | concat: remaining_cards %}
+      {% for p in initial_cards %}
       {% assign logo = p.logo %}{% assign rss = site.data.rss_stats[p.slug] %}{% assign card_status = rss.status | default: p.status_override | default: p.status | default: 'active' %}{% assign card_status_class = 'active' %}{% assign card_status_label = 'فعال' %}{% if card_status == 'غیرفعال' or card_status == 'inactive' or card_status == 'paused' %}{% assign card_status_class = 'inactive' %}{% assign card_status_label = 'غیرفعال' %}{% elsif card_status == 'متوقف' or card_status == 'متوقف‌شده' or card_status == 'stopped' %}{% assign card_status_class = 'stopped' %}{% assign card_status_label = 'متوقف' %}{% elsif card_status == 'unknown' %}{% assign card_status_class = 'unknown' %}{% assign card_status_label = 'نیازمند بررسی' %}{% elsif card_status == 'تمام‌شده' or card_status == 'ended' %}{% assign card_status_class = 'ended' %}{% assign card_status_label = 'پایان‌یافته' %}{% endif %}{% if logo and logo contains '://' %}{% assign logo_url = logo %}{% elsif logo %}{% assign logo_url = logo | relative_url %}{% else %}{% assign logo_url = '' %}{% endif %}
-      <a class="pd-card" href="{{ p.url | relative_url }}" title="{{ p.description | strip_html | escape }}">
+      <a class="pd-card" data-podcast-slug="{{ p.slug }}" href="{{ p.url | relative_url }}" title="{{ p.description | strip_html | escape }}">
         <span class="pd-logo">{% if logo_url != '' %}{% if forloop.first %}<img src="{{ logo_url }}" alt="" loading="eager" fetchpriority="high" decoding="async" width="160" height="160">{% else %}<img src="{{ logo_url }}" alt="" loading="lazy" decoding="async" width="160" height="160">{% endif %}{% else %}<i>{{ p.title | slice: 0 }}</i>{% endif %}</span>
         <span class="pd-body"><h3>{{ p.title }}</h3>
         <span class="pd-meta"><span class="pd-b">{{ p.category }}</span></span></span><span class="pd-status pd-status--{{ card_status_class }}" role="img" aria-label="وضعیت پادکست: {{ card_status_label }}" title="{{ card_status_label }}"></span>
@@ -41,6 +33,19 @@ scripts: [/assets/js/pp-order.js, /assets/js/pp-ep-search.js, /assets/js/pp-dire
       {% endfor %}
     </div>
   </div>
+  <script>
+    (function () {
+      var grid = document.querySelector("#pd-results .pd-grid");
+      if (!grid) return;
+      var card = grid.querySelector('[data-podcast-slug="noys"]');
+      if (!card) return;
+      var cards = Array.prototype.slice.call(grid.querySelectorAll(":scope > .pd-card"));
+      if (cards.indexOf(card) === -1 || cards.length < 4) return;
+      var position = Math.floor(Math.random() * 4);
+      var reference = cards[position];
+      grid.insertBefore(card, reference);
+    })();
+  </script>
   <section id="pd-eps-wrap" class="pd-eps-wrap" aria-label="قسمت‌های مطابق جست‌وجو" hidden>
     <h2 class="pd-h2" id="pd-eps-title">قسمت‌ها</h2>
     <div id="pd-eps" class="pd-eps" role="status" aria-live="polite"></div>
