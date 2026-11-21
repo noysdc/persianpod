@@ -17,6 +17,9 @@ scripts: [/assets/js/pp-order.js, /assets/js/pp-ep-search.js, /assets/js/pp-dire
   <div id="pd-results">
     <div class="pd-grid">
       {% assign sorted = site.podcasts | sort: 'title' %}
+      {% assign noys_first = site.podcasts | where: 'slug', 'noys' %}
+      {% assign others = sorted | where_exp: 'p', "p.slug != 'noys'" %}
+      {% assign sorted = noys_first | concat: others %}
       {% for p in sorted %}
       {% assign logo = p.logo %}{% assign rss = site.data.rss_stats[p.slug] %}{% assign card_status = rss.status | default: p.status_override | default: p.status | default: 'active' %}{% assign card_status_class = 'active' %}{% assign card_status_label = 'فعال' %}{% if card_status == 'غیرفعال' or card_status == 'inactive' or card_status == 'paused' %}{% assign card_status_class = 'inactive' %}{% assign card_status_label = 'غیرفعال' %}{% elsif card_status == 'متوقف' or card_status == 'متوقف‌شده' or card_status == 'stopped' %}{% assign card_status_class = 'stopped' %}{% assign card_status_label = 'متوقف' %}{% elsif card_status == 'unknown' %}{% assign card_status_class = 'unknown' %}{% assign card_status_label = 'نیازمند بررسی' %}{% elsif card_status == 'تمام‌شده' or card_status == 'ended' %}{% assign card_status_class = 'ended' %}{% assign card_status_label = 'پایان‌یافته' %}{% endif %}{% if logo and logo contains '://' %}{% assign logo_url = logo %}{% elsif logo %}{% assign logo_url = logo | relative_url %}{% else %}{% assign logo_url = '' %}{% endif %}
       <a class="pd-card" href="{{ p.url | relative_url }}" title="{{ p.description | strip_html | escape }}">
