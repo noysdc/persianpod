@@ -3460,21 +3460,27 @@
     "status": "active"
   },
   "afsanh-hai-khn-parsi": {
-    "avg_gap_days": 2.6,
+    "avg_gap_days": 2.7,
     "avg_length": 6,
-    "episodes": 34,
-    "eps_365": 34,
-    "eps_90": 31,
+    "episodes": 35,
+    "eps_365": 35,
+    "eps_90": 32,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T12:07:21Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3sfo9m",
-    "last_title": "کلیله و دمنه کودکانه | قسمت چهاردهم | بوم و زاغ (۲)",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T16:20:25Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3spj2l",
+    "last_title": "شاهنامه کودکانه | قسمت سیزدهم | تولد رستم",
     "max_length": 11,
     "median_length": 6,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/129862165/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F2468c241-f00e-9968-12aa-420ffba90c31.mp3",
+        "at": "2026-11-21T16:20:25Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795278033095-9398b599715b8.jpg",
+        "t": "شاهنامه کودکانه | قسمت سیزدهم | تولد رستم"
+      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/129539830/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F3831a313-2f54-f19d-dcbf-9f883a918a27.mp3",
         "at": "2026-11-16T12:07:21Z",
@@ -3516,15 +3522,15 @@
         "at": "2026-10-30T12:49:40Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793364589985-916c09dd464d3.jpg",
         "t": "کلیله و دمنه کودکانه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
-      },
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/128273723/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-28%2Fb27e24a1-08c9-428d-3406-7e8c574f6e17.mp3",
-        "at": "2026-10-28T14:34:33Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793198080683-fbff1d2126bfb.jpg",
-        "t": "کلیله و دمنه کودکانه | قسمت دهم | موش کوچولوی مهربون(۲)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T16:20:25Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795278033095-9398b599715b8.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3spj2l",
+        "title": "شاهنامه کودکانه | قسمت سیزدهم | تولد رستم"
+      },
       {
         "at": "2026-11-16T12:07:21Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794830871271-16946b5ebe26d.jpg",
@@ -3536,12 +3542,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794679069038-3d0036a762cab.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3scjo4",
         "title": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه"
-      },
-      {
-        "at": "2026-11-09T15:32:30Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794238359403-a118ae05441df.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3s345g",
-        "title": "کلیله‌ودمنه کودکانه | قسمت سیزدهم | بوم و زاغ (١)"
       }
     ],
     "recent_30d": [
@@ -3556,7 +3556,7 @@
       3,
       16,
       6,
-      9
+      10
     ],
     "status": "active"
   },
@@ -40710,19 +40710,25 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 22,
-    "episodes": 676,
-    "eps_365": 633,
-    "eps_90": 192,
+    "episodes": 677,
+    "eps_365": 634,
+    "eps_90": 193,
     "first_at": "2025-10-22",
     "first_year": 1404,
-    "last": "1405/08/29",
-    "last_at": "2026-11-20T18:49:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6afd932e813f9c9b5c485a28",
-    "last_title": "جزیره مرگ - بخش چهل و دوم",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T16:43:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6afd94bf813f9c9b5c493b04",
+    "last_title": "جزیره مرگ - بخش چهل و سوم - پایان",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6afd94bf813f9c9b5c493b04/media.mp3",
+        "at": "2026-11-21T16:43:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795003421622-f57b96f5-ed06-4668-8376-40ed0b0b0bcc.jpeg",
+        "t": "جزیره مرگ - بخش چهل و سوم - پایان"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6afd932e813f9c9b5c485a28/media.mp3",
         "at": "2026-11-20T18:49:00Z",
@@ -40764,15 +40770,15 @@
         "at": "2026-11-19T18:00:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794994889515-24b611f0-2902-4c6c-aa78-93ad96e5fe2a.jpeg",
         "t": "جزیره مرگ - بخش سی و هفتم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6afd72e349ecb9dfcb8a658f/media.mp3",
-        "at": "2026-11-19T17:25:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794994782084-2198e682-4528-4a3d-a6ed-4775038ba97b.jpeg",
-        "t": "جزیره مرگ - بخش سی و ششم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T16:43:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795003421622-f57b96f5-ed06-4668-8376-40ed0b0b0bcc.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6afd94bf813f9c9b5c493b04",
+        "title": "جزیره مرگ - بخش چهل و سوم - پایان"
+      },
       {
         "at": "2026-11-20T18:49:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795001094544-876cba9d-768d-4469-a8aa-ca5e8cb8cc12.jpeg",
@@ -40784,12 +40790,6 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795000935486-56df432d-2a96-466a-ad1a-7fc7f17860a0.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6afd93245ca4ff63ce44a2e6",
         "title": "جزیره مرگ - بخش چهل و یکم"
-      },
-      {
-        "at": "2026-11-20T17:50:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795000918600-2e36beb7-718a-4ae0-8999-7b85971d69a5.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6afd8ab7813f9c9b5c437a67",
-        "title": "جزیره مرگ - بخش چهلم"
       }
     ],
     "recent_30d": [
@@ -40804,7 +40804,7 @@
       56,
       62,
       56,
-      74
+      75
     ],
     "status": "active"
   },
