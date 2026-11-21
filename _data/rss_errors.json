@@ -136,7 +136,7 @@
     "rss": "https://feed.dotcast.org/p/1orxtms6/feed.xml"
   },
   "podcast-mshorp": {
-    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/mashverpp/feed/"
   },
   "podcast-obmstr-plas": {
