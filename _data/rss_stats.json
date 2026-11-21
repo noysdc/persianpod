@@ -62553,21 +62553,27 @@
     "status": "active"
   },
   "podcast-farsi-radio-mrz": {
-    "avg_gap_days": 40.6,
+    "avg_gap_days": 38.9,
     "avg_length": 186,
-    "episodes": 92,
-    "eps_365": 9,
-    "eps_90": 3,
+    "episodes": 93,
+    "eps_365": 10,
+    "eps_90": 4,
     "first_at": "2018-07-08",
     "first_year": 1397,
-    "last": "1405/08/05",
-    "last_at": "2026-10-27T03:30:00Z",
-    "last_link": "https://shows.acast.com/radio-marz-or/episodes/6adfb063b50147298bcd9a46",
-    "last_title": "رادیو مرز ۹۳ - پسوریازیس",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T03:30:00Z",
+    "last_link": "https://shows.acast.com/radio-marz-or/episodes/6b00b262d0e980d0cfea02ba",
+    "last_title": "رادیو مرز ۹۴ - ارث",
     "max_length": 259,
     "median_length": 136,
     "min_length": 31,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/6b00b262d0e980d0cfea02ba/media.mp3",
+        "at": "2026-11-21T03:30:00Z",
+        "i": "https://assets.pippa.io/shows/65674fccc3ca8a00127b7474/1795206361843-2407c4dc-ec28-43d5-93d8-e034bc7889f0.jpeg",
+        "t": "رادیو مرز ۹۴ - ارث"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/6adfb063b50147298bcd9a46/media.mp3",
         "at": "2026-10-27T03:30:00Z",
@@ -62609,15 +62615,15 @@
         "at": "2026-05-18T19:44:49Z",
         "i": "https://assets.pippa.io/shows/65674fccc3ca8a00127b7474/1779133236474-97241ad2-bf48-4d20-8173-dff495e457ec.jpeg",
         "t": "رادیو مرز ۸۷ - کمک رساندن"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65674fccc3ca8a00127b7474/e/699592fbc4b7a0510ca17d73/media.mp3",
-        "at": "2026-02-18T10:22:50Z",
-        "i": "https://assets.pippa.io/shows/65674fccc3ca8a00127b7474/1771409615279-f377b39a-b706-42d5-8d2a-5c705b74593d.jpeg",
-        "t": "رادیو مرز ۸۶ - دوام آوردن"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T03:30:00Z",
+        "i": "https://assets.pippa.io/shows/65674fccc3ca8a00127b7474/1795206361843-2407c4dc-ec28-43d5-93d8-e034bc7889f0.jpeg",
+        "link": "https://shows.acast.com/radio-marz-or/episodes/6b00b262d0e980d0cfea02ba",
+        "title": "رادیو مرز ۹۴ - ارث"
+      },
       {
         "at": "2026-10-27T03:30:00Z",
         "i": "https://assets.pippa.io/shows/65674fccc3ca8a00127b7474/1793044270839-73f5d996-c93c-4d39-8b79-30b1fe2d6754.jpeg",
@@ -62629,12 +62635,6 @@
         "i": "https://assets.pippa.io/shows/65674fccc3ca8a00127b7474/1791317161319-bb913a13-546b-4644-a7ef-a652562dc85d.jpeg",
         "link": "https://shows.acast.com/radio-marz-or/episodes/6ac5564029b9fbfbe20ce84f",
         "title": "رادیو مرز ۹۲ - پریود"
-      },
-      {
-        "at": "2026-09-15T11:55:16Z",
-        "i": "https://assets.pippa.io/shows/65674fccc3ca8a00127b7474/1789409399786-e3957aec-b51d-4a81-8a10-cdb8af879a9f.jpeg",
-        "link": "https://shows.acast.com/radio-marz-or/episodes/6aa932265d36baebf19a133d",
-        "title": "رادیو مرز ۹۱ - تعدیل"
       }
     ],
     "recent_30d": [
@@ -62649,7 +62649,7 @@
       1,
       1,
       1,
-      1
+      2
     ],
     "status": "active"
   },
@@ -82218,7 +82218,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       2,
       1,
       1,
