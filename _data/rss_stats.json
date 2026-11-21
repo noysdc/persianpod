@@ -22846,7 +22846,7 @@
       0,
       0
     ],
-    "status": "active"
+    "status": "inactive"
   },
   "fkr-baz": {
     "avg_length": 26,
@@ -78406,10 +78406,10 @@
     "status": "active"
   },
   "radio-mnahj": {
-    "avg_gap_days": 5.1,
+    "avg_gap_days": 5.2,
     "avg_length": 46,
     "episodes": 255,
-    "eps_365": 71,
+    "eps_365": 70,
     "eps_90": 16,
     "first_at": "2023-08-10",
     "first_year": 1402,
