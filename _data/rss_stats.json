@@ -5082,8 +5082,8 @@
       0,
       7,
       10,
-      17,
-      17,
+      18,
+      16,
       5,
       0,
       0
@@ -24579,21 +24579,27 @@
     "status": "active"
   },
   "frmol-1-farsi": {
-    "avg_gap_days": 12.4,
+    "avg_gap_days": 12.3,
     "avg_length": 42,
-    "episodes": 125,
-    "eps_365": 29,
-    "eps_90": 14,
+    "episodes": 126,
+    "eps_365": 30,
+    "eps_90": 15,
     "first_at": "2022-04-04",
     "first_year": 1401,
-    "last": "1405/08/20",
-    "last_at": "2026-11-11T06:32:00Z",
-    "last_link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/nwgcl40hahv6",
-    "last_title": "🇧🇷🏁 برزیل ۲۰۲۶؛ قدرت‌نمایی نوریس، جنجال دستور تیمی ردبول! 🔥",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T17:35:00Z",
+    "last_link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/cygctmf9u9l6",
+    "last_title": "لاس‌وگاس ۲۰۲۶؛ پول پوزیشن کیمی در شهر قمار! 🎰🏁",
     "max_length": 77,
     "median_length": 36,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/Audio-Nov20.mp3?dest-id=3386261",
+        "at": "2026-11-21T17:35:00Z",
+        "i": "https://static.libsyn.com/p/assets/8/1/a/e/81ae883702caf2415f2e77a3093c12a1/____-20261121-lwlju99d0k.png",
+        "t": "لاس‌وگاس ۲۰۲۶؛ پول پوزیشن کیمی در شهر قمار! 🎰🏁"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/1111.mp3?dest-id=3386261",
         "at": "2026-11-11T06:32:00Z",
@@ -24635,15 +24641,15 @@
         "at": "2026-10-14T04:04:00Z",
         "i": "https://static.libsyn.com/p/assets/9/3/6/f/936fa81f171c90ec5f2e77a3093c12a1/Singapore_GP__Ferraris_Night_of_Defeat.png",
         "t": "🇸🇬🏁 سنگاپور؛ فراری باز هم خودش را شکست داد؟"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/audio1176110908.m4a?dest-id=3386261",
-        "at": "2026-10-10T22:04:00Z",
-        "i": "https://static.libsyn.com/p/assets/3/0/f/9/30f911c3a53258aae5bbc093207a2619/Singapore_F1_Nights__Racing_and_Podcast.png",
-        "t": "🏁 سنگاپور ۲۰۲۶؛ برای اولین بار با حسام! | بررسی تمرین‌ها، اسپرینت و کوالیفایینگ‌های فرمول ۱ 🇸🇬"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T17:35:00Z",
+        "i": "https://static.libsyn.com/p/assets/8/1/a/e/81ae883702caf2415f2e77a3093c12a1/____-20261121-lwlju99d0k.png",
+        "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/cygctmf9u9l6",
+        "title": "لاس‌وگاس ۲۰۲۶؛ پول پوزیشن کیمی در شهر قمار! 🎰🏁"
+      },
       {
         "at": "2026-11-11T06:32:00Z",
         "i": "https://static.libsyn.com/p/assets/2/6/3/8/263872f8bf5c15e7a04421dee9605cbd/Brazil_2026__Norris_Takes_Charge.png",
@@ -24655,12 +24661,6 @@
         "i": "https://static.libsyn.com/p/assets/3/7/f/1/37f1a8626fc6e16da04421dee9605cbd/Rainy_Brazilian_Grand_Prix_2026_Preview.png",
         "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/94yx06el49o1",
         "title": "🇧🇷🏁 برزیل ۲۰۲۶؛ باران همه‌چیز رو به هم می‌ریزه؟! 🌧️🔥"
-      },
-      {
-        "at": "2026-11-05T00:48:00Z",
-        "i": "https://static.libsyn.com/p/assets/9/5/8/6/9586ba316a8d1d5a5f2e77a3093c12a1/Mexico_2026__Kimis_Historic_Triumph.png",
-        "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/6qvnza2ee3jv",
-        "title": "🇲🇽🏁 مکزیک ۲۰۲۶؛ قهرمانی تاریخی کیمی، جنگ داخلی فراری! 🔥"
       }
     ],
     "recent_30d": [
@@ -24675,7 +24675,7 @@
       2,
       3,
       5,
-      6
+      7
     ],
     "status": "active"
   },
@@ -48011,8 +48011,8 @@
     "recent_30d": [
       4,
       1,
-      1,
-      1,
+      2,
+      0,
       0,
       0,
       1,
@@ -55793,19 +55793,25 @@
   "one-thousand-and-one-nights": {
     "avg_gap_days": 0.6,
     "avg_length": 11,
-    "episodes": 30,
-    "eps_365": 30,
-    "eps_90": 30,
+    "episodes": 31,
+    "eps_365": 31,
+    "eps_90": 31,
     "first_at": "2026-11-03",
     "first_year": 1405,
     "last": "1405/08/30",
-    "last_at": "2026-11-21T16:02:37Z",
-    "last_link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/457d2a4e-72db-4b96-9ced-8ec9db076c7b/play.mp3?v=1",
-    "last_title": "شب بیست و نهم _ هزار و یک شب",
+    "last_at": "2026-11-21T18:01:05Z",
+    "last_link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/67a70b44-c979-4926-a77d-73347e5f3373/play.mp3?v=1",
+    "last_title": "شب سی ام _ هزار و یک شب",
     "max_length": 14,
     "median_length": 11,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/67a70b44-c979-4926-a77d-73347e5f3373/play.mp3?v=1",
+        "at": "2026-11-21T18:01:05Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/67a70b44-c979-4926-a77d-73347e5f3373/artwork.jpg?v=1",
+        "t": "شب سی ام _ هزار و یک شب"
+      },
       {
         "a": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/457d2a4e-72db-4b96-9ced-8ec9db076c7b/play.mp3?v=1",
         "at": "2026-11-21T16:02:37Z",
@@ -55847,15 +55853,15 @@
         "at": "2026-11-11T13:49:17Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/31377e1e-5b45-4062-baee-6bc7755c1ad6/artwork.jpg?v=1",
         "t": "شب بیست و سوم _هزار  و  یک شب"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/9c498be3-615d-4a4e-b968-16ed7459e724/play.mp3?v=1",
-        "at": "2026-11-10T04:16:46Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/9c498be3-615d-4a4e-b968-16ed7459e724/artwork.jpg?v=1",
-        "t": "شب بیست و دوم _ هزار و یک شب"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T18:01:05Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/67a70b44-c979-4926-a77d-73347e5f3373/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/67a70b44-c979-4926-a77d-73347e5f3373/play.mp3?v=1",
+        "title": "شب سی ام _ هزار و یک شب"
+      },
       {
         "at": "2026-11-21T16:02:37Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/457d2a4e-72db-4b96-9ced-8ec9db076c7b/artwork.jpg?v=1",
@@ -55867,12 +55873,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/261a5a95-8b89-487c-a638-404aa752532a/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/261a5a95-8b89-487c-a638-404aa752532a/play.mp3?v=1",
         "title": "شب بیست و هشتم _هزار و یک شب"
-      },
-      {
-        "at": "2026-11-14T17:55:26Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/3599f3e4-648d-4a88-bd22-6b728d015cdb/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/3599f3e4-648d-4a88-bd22-6b728d015cdb/play.mp3?v=3",
-        "title": "شب بیست و هفتم _ هزار و یک شب"
       }
     ],
     "recent_30d": [
@@ -55887,7 +55887,7 @@
       0,
       0,
       0,
-      30
+      31
     ],
     "status": "active"
   },
@@ -65148,8 +65148,8 @@
       0,
       0,
       0,
-      10,
-      3,
+      11,
+      2,
       3,
       2,
       6
