@@ -9727,15 +9727,15 @@
       }
     ],
     "recent_30d": [
-      2,
-      1,
-      1,
-      0,
-      0,
-      0,
-      1,
-      2,
       3,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      3,
+      2,
       2,
       2,
       2
@@ -40793,8 +40793,8 @@
       }
     ],
     "recent_30d": [
-      143,
-      60,
+      144,
+      59,
       64,
       4,
       0,
@@ -59699,8 +59699,8 @@
       1,
       0,
       1,
-      7,
-      3,
+      8,
+      2,
       8,
       3,
       3,
@@ -60613,19 +60613,25 @@
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.9,
     "avg_length": 16,
-    "episodes": 47,
-    "eps_365": 47,
-    "eps_90": 47,
+    "episodes": 48,
+    "eps_365": 48,
+    "eps_90": 48,
     "first_at": "2026-10-10",
     "first_year": 1405,
     "last": "1405/08/30",
-    "last_at": "2026-11-21T10:17:08Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6b016fa44f7f96174df2bb11",
-    "last_title": "Disney #9 | چرا دیزنی با هفت میلیارد دلار استودیو پیکسار رو خرید؟",
+    "last_at": "2026-11-21T15:26:18Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6b01b81a8e8174f983fb2a38",
+    "last_title": "Disney #10 | داستان دیزنی؛ شش سال آزمون و خطا (از ۱۹۲۲ تا ۱۹۲۸)",
     "max_length": 115,
     "median_length": 20,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b01b81a8e8174f983fb2a38/media.mp3",
+        "at": "2026-11-21T15:26:18Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795274442898-e5666efa-5a5c-4af8-9dfa-46aa1b2651ec.jpeg",
+        "t": "Disney #10 | داستان دیزنی؛ شش سال آزمون و خطا (از ۱۹۲۲ تا ۱۹۲۸)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b016fa44f7f96174df2bb11/media.mp3",
         "at": "2026-11-21T10:17:08Z",
@@ -60667,15 +60673,15 @@
         "at": "2026-11-14T16:55:21Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794675200899-1ecd0c73-c511-41cc-bd4b-6e503dbd69d5.jpeg",
         "t": "Disney #3 | دیزنی چطور حقوق اولین کاراکتر خودش رو از دست داد؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af609e405dc66c15db8ecb0/media.mp3",
-        "at": "2026-11-12T18:48:03Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794509191116-4d20860c-074f-46ba-9b6d-d4caf11f5382.jpeg",
-        "t": "Disney #2 | اولین انیمیشن دیزنی که به سالن‌های سینما رفت چی بود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T15:26:18Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795274442898-e5666efa-5a5c-4af8-9dfa-46aa1b2651ec.jpeg",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6b01b81a8e8174f983fb2a38",
+        "title": "Disney #10 | داستان دیزنی؛ شش سال آزمون و خطا (از ۱۹۲۲ تا ۱۹۲۸)"
+      },
       {
         "at": "2026-11-21T10:17:08Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795256183966-a315dd78-e174-464b-9281-59aa175908bd.jpeg",
@@ -60687,12 +60693,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795152264666-c70b6fb5-58df-4c6d-89b6-04e33d1251ae.jpeg",
         "link": "https://shows.acast.com/business-stories-podcast/episodes/6affda9b18a3c93bdb905800",
         "title": "Disney #8 | کمپین تبلیغاتی «میرم دیزنی‌ورلد» و بازاریابی لحظه‌ای دیزنی چطوری بود؟"
-      },
-      {
-        "at": "2026-11-19T05:45:50Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795066977156-7485f5fd-c1fa-41c0-9a1b-0932016f0e0b.jpeg",
-        "link": "https://shows.acast.com/business-stories-podcast/episodes/6afe8d0ef5fd2d631cc718dc",
-        "title": "Disney #7 | داستان افتتاح پارک دیزنی‌لند و ساخت برنامه تلویزیونی دیزنی چی بود؟"
       }
     ],
     "recent_30d": [
@@ -60707,7 +60707,7 @@
       0,
       0,
       17,
-      30
+      31
     ],
     "status": "active"
   },
@@ -78002,9 +78002,9 @@
       0,
       0,
       4,
-      10,
+      11,
       13,
-      12
+      11
     ],
     "status": "active"
   },
@@ -84617,8 +84617,8 @@
       4,
       2,
       1,
-      1,
-      8,
+      2,
+      7,
       1,
       0,
       0,
@@ -94602,14 +94602,14 @@
       }
     ],
     "recent_30d": [
-      111,
+      110,
       55,
-      94,
-      14,
+      95,
+      13,
       0,
       7,
-      47,
-      102,
+      48,
+      101,
       84,
       99,
       77,
