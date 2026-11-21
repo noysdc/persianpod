@@ -5834,6 +5834,104 @@
     ],
     "status": "inactive"
   },
+  "alhiat": {
+    "avg_length": 64,
+    "episodes": 10,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2023-12-23",
+    "first_year": 1402,
+    "last": "1403/11/27",
+    "last_at": "2025-02-15T04:22:22Z",
+    "last_link": "https://www.mofidu.ac.ir/podcast/p0244-nokati-piramoon-zaban-qouran/",
+    "last_title": "نکاتی پیرامون زبان قرآن",
+    "max_length": 151,
+    "median_length": 56,
+    "min_length": 20,
+    "play": [
+      {
+        "a": "https://www.mofidu.ac.ir/wp-content/uploads/dl/podcast/P0244-Nokati-Piramoon-Zaban-Qouran.mp3",
+        "at": "2025-02-15T04:22:22Z",
+        "t": "نکاتی پیرامون زبان قرآن"
+      },
+      {
+        "a": "https://www.mofidu.ac.ir/wp-content/uploads/dl/podcast/P0235-Vazeeyat-Eslam-va-Mosalmanan-dar-Keshvar-Holand.mp3",
+        "at": "2024-09-28T06:33:48Z",
+        "i": "https://www.mofidu.ac.ir/wp-content/uploads/2024/09/برنامه-235.jpg",
+        "t": "وضعیت اسلام و مسلمانان در کشور هلند"
+      },
+      {
+        "a": "https://www.mofidu.ac.ir/wp-content/uploads/dl/podcast/P0230-Hamzisti-Mosalematamiz-dar-Moton-Moqadas-Yahood.mp3",
+        "at": "2024-06-22T04:44:39Z",
+        "i": "https://www.mofidu.ac.ir/wp-content/uploads/2024/06/برنامه-230.jpg",
+        "t": "همزیستی مسالمت آمیز در متون مقدس یهود"
+      },
+      {
+        "a": "https://www.mofidu.ac.ir/wp-content/uploads/dl/podcast/P0226-Hermenotik-va-Din.mp3",
+        "at": "2024-05-25T06:11:43Z",
+        "i": "https://www.mofidu.ac.ir/wp-content/uploads/2024/05/برنامه-126.jpg",
+        "t": "هرمنوتیک و دین"
+      },
+      {
+        "a": "https://www.mofidu.ac.ir/wp-content/uploads/dl/podcast/P0225-Mavane-Hamzisti-Mosalematamiz-Adyan.mp3",
+        "at": "2024-05-18T06:08:53Z",
+        "i": "https://www.mofidu.ac.ir/wp-content/uploads/2024/05/برنامه-125.jpg",
+        "t": "موانع نظری همزیستی مسالمت آمیز ادیان"
+      },
+      {
+        "a": "https://www.mofidu.ac.ir/wp-content/uploads/dl/podcast/P0224-Resalat-Rohaniat-dar-Asr-Hazer.mp3",
+        "at": "2024-05-11T05:46:48Z",
+        "i": "https://www.mofidu.ac.ir/wp-content/uploads/2024/05/برنامه-224.jpg",
+        "t": "رسالت روحانیت در عصر حاضر از دیدگاه شهید مطهری"
+      },
+      {
+        "a": "https://www.mofidu.ac.ir/wp-content/uploads/dl/podcast/P0223-Arae-Zabani-va-Hermenotiki-Abozeyd-dar-Shenakht-Nas-Qouran.mp3",
+        "at": "2024-04-20T05:06:08Z",
+        "i": "https://www.mofidu.ac.ir/wp-content/uploads/2024/04/برنامه-223.jpg",
+        "t": "آراء زبانی و هرمنوتیکی نصر حامد ابوزید در شناخت نص قرآن"
+      },
+      {
+        "a": "https://www.mofidu.ac.ir/wp-content/uploads/dl/podcast/P0213-Arzesh-va-Ahammiat-Pazhohesh-dar-Masahef-Kohan-Qorani.mp3",
+        "at": "2024-01-13T06:34:33Z",
+        "i": "https://www.mofidu.ac.ir/wp-content/uploads/2024/01/برنامه-113.jpg",
+        "t": "«ارزش و اهمیت پژوهش در مصاحف کهن قرآنی (همراه با معرفی مصحف مشهد رضوی)»"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-02-15T04:22:22Z",
+        "link": "https://www.mofidu.ac.ir/podcast/p0244-nokati-piramoon-zaban-qouran/",
+        "title": "نکاتی پیرامون زبان قرآن"
+      },
+      {
+        "at": "2024-09-28T06:33:48Z",
+        "i": "https://www.mofidu.ac.ir/wp-content/uploads/2024/09/برنامه-235.jpg",
+        "link": "https://www.mofidu.ac.ir/podcast/p0235-vazeeyat-eslam-va-mosalmanan-dar-keshvar-holand/",
+        "title": "وضعیت اسلام و مسلمانان در کشور هلند"
+      },
+      {
+        "at": "2024-06-22T04:44:39Z",
+        "i": "https://www.mofidu.ac.ir/wp-content/uploads/2024/06/برنامه-230.jpg",
+        "link": "https://www.mofidu.ac.ir/podcast/p0230-hamzisti-mosalematamiz-dar-moton-moqadas-yahood-mp3/",
+        "title": "همزیستی مسالمت آمیز در متون مقدس یهود"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "ali-akbr-iaghi-tbar": {
     "avg_gap_days": 0.2,
     "avg_length": 5,
@@ -11404,6 +11502,96 @@
     ],
     "status": "active"
   },
+  "bidari-zhn": {
+    "avg_gap_days": 18.6,
+    "avg_length": 25,
+    "episodes": 23,
+    "eps_365": 20,
+    "eps_90": 8,
+    "first_at": "2025-11-07",
+    "first_year": 1404,
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T12:02:22Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/davood-khaki/episodes/ep-e3sc84n",
+    "last_title": "تو هم کمالگرا هستی",
+    "max_length": 56,
+    "median_length": 26,
+    "min_length": 7,
+    "play": [
+      {
+        "a": "https://anchor.fm/s/10b61027c/podcast/play/129424983/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F6e0f7d18-bf20-bf4e-37fa-4c0223c77a9e.mp3",
+        "at": "2026-11-14T12:02:22Z",
+        "t": "تو هم کمالگرا هستی"
+      },
+      {
+        "a": "https://anchor.fm/s/10b61027c/podcast/play/128570815/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F413cc711-514e-fe07-3576-b62ab6426d30.mp3",
+        "at": "2026-11-01T17:39:57Z",
+        "t": "فکرم، آرامشم را گرفته"
+      },
+      {
+        "a": "https://anchor.fm/s/10b61027c/podcast/play/127964384/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-23%2F3e49d722-aa3d-5e9b-ce7a-869e8052922c.mp3",
+        "at": "2026-10-23T17:21:22Z",
+        "t": "هنوز نمی‌توانی فراموشش کنی"
+      },
+      {
+        "a": "https://anchor.fm/s/10b61027c/podcast/play/127449418/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-14%2F0fb69c2b-8dd1-55c0-5a0e-d844bad5b6c8.mp3",
+        "at": "2026-10-14T07:37:38Z",
+        "t": "چرا شنبه‌ها هیچ‌وقت نمیان؟"
+      },
+      {
+        "a": "https://anchor.fm/s/10b61027c/podcast/play/127104182/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-8%2Fcedabce9-8e9b-b14f-9352-a1819983bcde.mp3",
+        "at": "2026-10-08T12:11:42Z",
+        "t": "در این شرایط، چه چیزی هنوز در اختیار انتخاب من است؟"
+      },
+      {
+        "a": "https://anchor.fm/s/10b61027c/podcast/play/126177132/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-23%2Fb95fd2fe-f188-065d-2de9-e496149abce8.mp3",
+        "at": "2026-09-23T06:09:15Z",
+        "t": "انگیزه هیچ کاری رو ندارم"
+      },
+      {
+        "a": "https://anchor.fm/s/10b61027c/podcast/play/125767517/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-15%2F431936990-44100-2-e1cef23d89f3c.m4a",
+        "at": "2026-09-15T13:32:22Z",
+        "t": "آیا تغییر کردن اینقدر سخته ؟"
+      },
+      {
+        "a": "https://anchor.fm/s/10b61027c/podcast/play/124799233/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-27%2F430630768-44100-2-6b7724ef56d5.m4a",
+        "at": "2026-08-27T07:30:50Z",
+        "t": "این بار واقعاً تغییر می‌کنم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-11-14T12:02:22Z",
+        "link": "https://podcasters.spotify.com/pod/show/davood-khaki/episodes/ep-e3sc84n",
+        "title": "تو هم کمالگرا هستی"
+      },
+      {
+        "at": "2026-11-01T17:39:57Z",
+        "link": "https://podcasters.spotify.com/pod/show/davood-khaki/episodes/ep-e3ri5vv",
+        "title": "فکرم، آرامشم را گرفته"
+      },
+      {
+        "at": "2026-10-23T17:21:22Z",
+        "link": "https://podcasters.spotify.com/pod/show/davood-khaki/episodes/ep-e3qvlp0",
+        "title": "هنوز نمی‌توانی فراموشش کنی"
+      }
+    ],
+    "recent_30d": [
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      3,
+      2,
+      3,
+      3
+    ],
+    "status": "active"
+  },
   "bil-bord": {
     "avg_gap_days": 1.3,
     "avg_length": 17,
@@ -15980,6 +16168,95 @@
     ],
     "status": "active"
   },
+  "dansti-hai-lknt-zban": {
+    "avg_length": 4,
+    "episodes": 10,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2025-09-22",
+    "first_year": 1404,
+    "last": "1404/07/12",
+    "last_at": "2025-10-04T14:52:36Z",
+    "last_link": "https://skillaravan.com/podcast/%d9%be%d8%a7%d8%af%da%a9%d8%b3%d8%aa-%d9%81%d8%b1%d8%b2%d9%86%d8%af%d9%be%d8%b1%d9%88%d8%b1%db%8c-%d9%85%d8%ab%d8%a8%d8%aa-%d9%be%d8%a7%d8%b1%d8%aa-3/",
+    "last_title": "پادکست فرزندپروری مثبت – پارت 3",
+    "max_length": 4,
+    "median_length": 4,
+    "min_length": 4,
+    "play": [
+      {
+        "a": "https://skillaravan.com/podcast-download/14404/%d9%be%d8%a7%d8%af%da%a9%d8%b3%d8%aa-%d9%81%d8%b1%d8%b2%d9%86%d8%af%d9%be%d8%b1%d9%88%d8%b1%db%8c-%d9%85%d8%ab%d8%a8%d8%aa-%d9%be%d8%a7%d8%b1%d8%aa-3.mp3",
+        "at": "2025-10-04T14:52:36Z",
+        "t": "پادکست فرزندپروری مثبت – پارت 3"
+      },
+      {
+        "a": "https://skillaravan.com/podcast-download/14391/%d9%81%d8%b1%d8%b2%d9%86%d8%af-%d9%be%d8%b1%d9%88%d8%b1%db%8c-%d9%85%d8%ab%d8%a8%d8%aa-%d9%be%d8%a7%d8%b1%d8%aa-2.mp3",
+        "at": "2025-10-04T14:28:01Z",
+        "t": "فرزند پروری مثبت – پارت 2"
+      },
+      {
+        "a": "https://skillaravan.com/podcast-download/14385/%d9%81%d8%b1%d8%b2%d9%86%d8%af-%d9%be%d8%b1%d9%88%d8%b1%db%8c-%d9%85%d8%ab%d8%a8%d8%aa-%d9%be%d8%a7%d8%b1%d8%aa-1.mp3",
+        "at": "2025-10-04T14:15:59Z",
+        "t": "فرزند پروری مثبت – پارت 1"
+      },
+      {
+        "a": "https://skillaravan.com/podcast-download/14125/%d9%85%d8%ac%d9%85%d9%88%d8%b9%d9%87-%d9%be%d8%a7%d8%af%da%a9%d8%b3%d8%aa-%d9%87%d8%a7%db%8c-%d9%81%d8%b1%d8%b2%d9%86%d8%af%d9%be%d8%b1%d9%88%d8%b1%db%8c-%d9%be%d8%a7%d8%b1%d8%aa-5.mp3",
+        "at": "2025-09-23T20:45:21Z",
+        "t": "مجموعه پادکست های فرزندپروری – پارت 5"
+      },
+      {
+        "a": "https://skillaravan.com/podcast-download/14126/%d9%85%d8%ac%d9%85%d9%88%d8%b9%d9%87-%d9%be%d8%a7%d8%af%da%a9%d8%b3%d8%aa-%d9%87%d8%a7%db%8c-%d9%81%d8%b1%d8%b2%d9%86%d8%af%d9%be%d8%b1%d9%88%d8%b1%db%8c-%d9%be%d8%a7%d8%b1%d8%aa-6.mp3",
+        "at": "2025-09-23T20:40:35Z",
+        "t": "مجموعه پادکست های فرزندپروری – پارت 6"
+      },
+      {
+        "a": "https://skillaravan.com/podcast-download/14123/%d9%be%d8%a7%d8%af%da%a9%d8%b3%d8%aa-%d9%81%d8%b1%d8%b2%d9%86%d8%af%d8%b1%d9%88%db%8c-%d9%be%d8%a7%d8%b1%d8%aa-4.mp3",
+        "at": "2025-09-23T20:35:48Z",
+        "t": "پادکست فرزندپروری پارت 4"
+      },
+      {
+        "a": "https://skillaravan.com/podcast-download/14067/%d9%be%d8%a7%d8%af%da%a9%d8%b3%d8%aa-%d8%b3%d9%84%d8%a7%d9%85%d8%aa-%d8%b1%d9%88%d8%a7%d9%86-%d9%82%d8%b3%d9%85%d8%aa-%d8%a7%d9%88%d9%84.mp3",
+        "at": "2025-09-22T12:28:46Z",
+        "t": "پادکست سلامت روان – قسمت اول"
+      },
+      {
+        "a": "https://skillaravan.com/podcast-download/14057/%d9%be%d8%a7%d8%af%da%a9%d8%b3%d8%aa-%d8%b3%d9%84%d8%a7%d9%85%d8%aa-%d8%b1%d9%88%d8%a7%d9%86-%d9%82%d8%b3%d9%85%d8%aa-%d9%87%d9%81%d8%aa%d9%85.mp3",
+        "at": "2025-09-22T11:56:39Z",
+        "t": "پادکست سلامت روان – قسمت هفتم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-10-04T14:52:36Z",
+        "link": "https://skillaravan.com/podcast/%d9%be%d8%a7%d8%af%da%a9%d8%b3%d8%aa-%d9%81%d8%b1%d8%b2%d9%86%d8%af%d9%be%d8%b1%d9%88%d8%b1%db%8c-%d9%85%d8%ab%d8%a8%d8%aa-%d9%be%d8%a7%d8%b1%d8%aa-3/",
+        "title": "پادکست فرزندپروری مثبت – پارت 3"
+      },
+      {
+        "at": "2025-10-04T14:28:01Z",
+        "link": "https://skillaravan.com/podcast/%d9%81%d8%b1%d8%b2%d9%86%d8%af-%d9%be%d8%b1%d9%88%d8%b1%db%8c-%d9%85%d8%ab%d8%a8%d8%aa-%d9%be%d8%a7%d8%b1%d8%aa-2/",
+        "title": "فرزند پروری مثبت – پارت 2"
+      },
+      {
+        "at": "2025-10-04T14:15:59Z",
+        "link": "https://skillaravan.com/podcast/%d9%81%d8%b1%d8%b2%d9%86%d8%af-%d9%be%d8%b1%d9%88%d8%b1%db%8c-%d9%85%d8%ab%d8%a8%d8%aa-%d9%be%d8%a7%d8%b1%d8%aa-1/",
+        "title": "فرزند پروری مثبت – پارت 1"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "danzi": {
     "avg_gap_days": 7.5,
     "avg_length": 30,
@@ -19141,6 +19418,106 @@
     ],
     "status": "active"
   },
+  "deine-band-ba-ok-danke-tsch-ss": {
+    "avg_length": 3,
+    "episodes": 10,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-01-18",
+    "first_year": 1402,
+    "last": "1402/11/02",
+    "last_at": "2024-01-22T16:15:00Z",
+    "last_link": "https://learngerman.dw.com/fa-ir/5-mietverzug/l-68024887?maca=per-DKpodcast_deineband_audio_per-35895-xml-mrss",
+    "last_title": "5 Mietverzug",
+    "max_length": 4,
+    "median_length": 3,
+    "min_length": 3,
+    "play": [
+      {
+        "a": "https://radiodownloaddw-a.akamaihd.net/Events/podcasts/per/35895_DKpodcast_deineband_audio_per/Deine-Band-Folge-05-Mietverzug-podcast-35895-68024887.mp3",
+        "at": "2024-01-22T16:15:00Z",
+        "i": "https://static.dw.com/image/62080113_806.jpg",
+        "t": "5 Mietverzug"
+      },
+      {
+        "a": "https://radiodownloaddw-a.akamaihd.net/Events/podcasts/per/35895_DKpodcast_deineband_audio_per/Deine-Band-Folge-06-Ich-poste-also-bin-ich-podcast-35895-68030018.mp3",
+        "at": "2024-01-19T16:43:00Z",
+        "i": "https://static.dw.com/image/62080125_806.jpg",
+        "t": "6 Ich post, also bin ich"
+      },
+      {
+        "a": "https://radiodownloaddw-a.akamaihd.net/Events/podcasts/per/35895_DKpodcast_deineband_audio_per/Deine-Band-Folge-10-Koennt-ihr-mich-hoeren-podcast-35895-68037021.mp3",
+        "at": "2024-01-19T16:33:00Z",
+        "i": "https://static.dw.com/image/62080173_806.jpg",
+        "t": "10 ?Könnt ihr mich hören"
+      },
+      {
+        "a": "https://radiodownloaddw-a.akamaihd.net/Events/podcasts/per/35895_DKpodcast_deineband_audio_per/Deine-Band-Folge-09-Buerokratie-podcast-35895-68036026.mp3",
+        "at": "2024-01-19T15:34:00Z",
+        "i": "https://static.dw.com/image/62080161_806.jpg",
+        "t": "9 Bürokratie"
+      },
+      {
+        "a": "https://radiodownloaddw-a.akamaihd.net/Events/podcasts/per/35895_DKpodcast_deineband_audio_per/Deine-Band-Folge-08-Bitte-wenden-podcast-35895-68034831.mp3",
+        "at": "2024-01-19T13:43:00Z",
+        "i": "https://static.dw.com/image/62080149_806.jpg",
+        "t": "8 Bitte wenden"
+      },
+      {
+        "a": "https://radiodownloaddw-a.akamaihd.net/Events/podcasts/per/35895_DKpodcast_deineband_audio_per/Deine-Band-Folge-07-Handtuch-podcast-35895-68029359.mp3",
+        "at": "2024-01-19T10:04:00Z",
+        "i": "https://static.dw.com/image/62080137_806.jpg",
+        "t": "7 Handtuch"
+      },
+      {
+        "a": "https://radiodownloaddw-a.akamaihd.net/Events/podcasts/per/35895_DKpodcast_deineband_audio_per/Deine-Band-Folge-03-Zeug-podcast-35895-68021664.mp3",
+        "at": "2024-01-18T15:59:00Z",
+        "i": "https://static.dw.com/image/62080089_806.jpg",
+        "t": "3 Zeug"
+      },
+      {
+        "a": "https://radiodownloaddw-a.akamaihd.net/Events/podcasts/per/35895_DKpodcast_deineband_audio_per/Deine-Band-Folge-01-Deine-Liebe-podcast-35895-68022293.mp3",
+        "at": "2024-01-18T14:13:00Z",
+        "i": "https://static.dw.com/image/62080065_806.jpg",
+        "t": "1 Deine Liebe"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-01-22T16:15:00Z",
+        "i": "https://static.dw.com/image/62080113_806.jpg",
+        "link": "https://learngerman.dw.com/fa-ir/5-mietverzug/l-68024887?maca=per-DKpodcast_deineband_audio_per-35895-xml-mrss",
+        "title": "5 Mietverzug"
+      },
+      {
+        "at": "2024-01-19T16:43:00Z",
+        "i": "https://static.dw.com/image/62080125_806.jpg",
+        "link": "https://learngerman.dw.com/fa-ir/6-ich-post-also-bin-ich/l-68030018?maca=per-DKpodcast_deineband_audio_per-35895-xml-mrss",
+        "title": "6 Ich post, also bin ich"
+      },
+      {
+        "at": "2024-01-19T16:33:00Z",
+        "i": "https://static.dw.com/image/62080173_806.jpg",
+        "link": "https://learngerman.dw.com/fa-ir/10-könnt-ihr-mich-hören/l-68037021?maca=per-DKpodcast_deineband_audio_per-35895-xml-mrss",
+        "title": "10 ?Könnt ihr mich hören"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "dghdghh-airan": {
     "avg_gap_days": 21.9,
     "avg_length": 73,
@@ -20794,6 +21171,107 @@
       0
     ],
     "status": "stopped"
+  },
+  "dniai-slamt": {
+    "avg_gap_days": 0.3,
+    "avg_length": 51,
+    "episodes": 10,
+    "eps_365": 10,
+    "eps_90": 10,
+    "first_at": "2026-11-16",
+    "first_year": 1405,
+    "last": "1405/08/29",
+    "last_at": "2026-11-20T12:41:46Z",
+    "last_link": "https://persianmixradio.com",
+    "last_title": "دنیای سلامت",
+    "max_length": 57,
+    "median_length": 51,
+    "min_length": 46,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6afb09f921921e260269727e/e/6b00400a73381802b4f032dd/media.mp3",
+        "at": "2026-11-20T12:41:46Z",
+        "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1795178488572-35207fd5-d0e8-43e2-8422-0dc0df4ec909.jpeg",
+        "t": "دنیای سلامت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6afb09f921921e260269727e/e/6b003dc9322405712cabcbde/media.mp3",
+        "at": "2026-11-20T12:32:09Z",
+        "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1795177909515-0deb7275-d4df-4e4a-87de-0479b102945c.jpeg",
+        "t": "دنیای سلامت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6afb09f921921e260269727e/e/6b003d5f73381802b4eeab3b/media.mp3",
+        "at": "2026-11-20T12:30:23Z",
+        "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1795177791616-06cead61-5791-4a44-8a73-9e3110d69d65.jpeg",
+        "t": "دنیای سلامت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6afb09f921921e260269727e/e/6b003c898cc2ad58c773ec72/media.mp3",
+        "at": "2026-11-20T12:26:48Z",
+        "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1795177579667-46be3518-165e-4fb1-907c-896b350f4a18.jpeg",
+        "t": "دنیای سلامت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6afb09f921921e260269727e/e/6afefc16dd60ec849fe4163a/media.mp3",
+        "at": "2026-11-19T13:39:34Z",
+        "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1795095564364-9bd4361e-e9f9-452b-ba21-cf5e63f9675d.jpeg",
+        "t": "دنیای سلامت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6afb09f921921e260269727e/e/6afefb653c298292f3d2967f/media.mp3",
+        "at": "2026-11-19T13:36:37Z",
+        "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1795095391908-f5c64b16-3a9f-4ecb-adea-0721989cf206.jpeg",
+        "t": "دنیای سلامت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6afb09f921921e260269727e/e/6afb2d0b1633e7cafb305274/media.mp3",
+        "at": "2026-11-16T16:19:23Z",
+        "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1794845929392-6d44ea30-0ac0-451d-96e0-ad61321ff8c3.jpeg",
+        "t": "دنیای سلامت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6afb09f921921e260269727e/e/6afb1e45b0272e33d68a64db/media.mp3",
+        "at": "2026-11-16T15:16:21Z",
+        "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1794842171133-21f0c90f-c608-4b18-ae3c-5ac3a805843a.jpeg",
+        "t": "دنیای سلامت"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-11-20T12:41:46Z",
+        "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1795178488572-35207fd5-d0e8-43e2-8422-0dc0df4ec909.jpeg",
+        "link": "https://persianmixradio.com",
+        "title": "دنیای سلامت"
+      },
+      {
+        "at": "2026-11-20T12:32:09Z",
+        "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1795177909515-0deb7275-d4df-4e4a-87de-0479b102945c.jpeg",
+        "link": "https://persianmixradio.com",
+        "title": "دنیای سلامت"
+      },
+      {
+        "at": "2026-11-20T12:30:23Z",
+        "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1795177791616-06cead61-5791-4a44-8a73-9e3110d69d65.jpeg",
+        "link": "https://persianmixradio.com",
+        "title": "دنیای سلامت"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10
+    ],
+    "status": "active"
   },
   "dorh-aamozsh-aalmani-a2": {
     "avg_length": 2,
@@ -28090,6 +28568,95 @@
     ],
     "status": "stopped"
   },
+  "ghsh-mrdm": {
+    "avg_length": 12,
+    "episodes": 10,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2023-11-17",
+    "first_year": 1402,
+    "last": "1402/08/26",
+    "last_at": "2023-11-17T15:24:54Z",
+    "last_link": "https://www.spreaker.com/episode/qsh-mrdm-whyd-srlk--57683708",
+    "last_title": "قصه مردم - وحید سرلک",
+    "max_length": 13,
+    "median_length": 12,
+    "min_length": 12,
+    "play": [
+      {
+        "a": "https://api.spreaker.com/download/episode/57683708/episode_57683708.mp3",
+        "at": "2023-11-17T15:24:54Z",
+        "t": "قصه مردم - وحید سرلک"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/57683707/episode_57683707.mp3",
+        "at": "2023-11-17T15:24:47Z",
+        "t": "قصه مردم - مرضیه حمیدی"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/57683706/episode_57683706.mp3",
+        "at": "2023-11-17T15:24:41Z",
+        "t": "قصه مردم - آتنا دائمی"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/57683705/episode_57683705.mp3",
+        "at": "2023-11-17T15:24:34Z",
+        "t": "قصه مردم - خاله کنیز"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/57683704/episode_57683704.mp3",
+        "at": "2023-11-17T15:24:27Z",
+        "t": "قصه مردم - فاطمه سپهری"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/57683703/episode_57683703.mp3",
+        "at": "2023-11-17T15:24:22Z",
+        "t": "قصه مردم - سهیلا فراهانی"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/57683702/episode_57683702.mp3",
+        "at": "2023-11-17T15:24:14Z",
+        "t": "قصه مردم - سارو قهرمانی"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/57683701/episode_57683701.mp3",
+        "at": "2023-11-17T15:24:08Z",
+        "t": "قصه مردم - محبوبه رمضانی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-11-17T15:24:54Z",
+        "link": "https://www.spreaker.com/episode/qsh-mrdm-whyd-srlk--57683708",
+        "title": "قصه مردم - وحید سرلک"
+      },
+      {
+        "at": "2023-11-17T15:24:47Z",
+        "link": "https://www.spreaker.com/episode/qsh-mrdm-mrdyh-hmydy--57683707",
+        "title": "قصه مردم - مرضیه حمیدی"
+      },
+      {
+        "at": "2023-11-17T15:24:41Z",
+        "link": "https://www.spreaker.com/episode/qsh-mrdm-atna-daymy--57683706",
+        "title": "قصه مردم - آتنا دائمی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "inactive"
+  },
   "gnj-namh": {
     "avg_length": 21,
     "episodes": 47,
@@ -31921,6 +32488,95 @@
       2,
       1,
       4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "hzarto": {
+    "avg_length": 19,
+    "episodes": 10,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-05-23",
+    "first_year": 1403,
+    "last": "1403/07/05",
+    "last_at": "2024-09-26T12:40:07Z",
+    "last_link": "https://www.radiofarda.com/a/33136171.html",
+    "last_title": "کودک کار افغان در ایران: هیچ آرزویی ندارم",
+    "max_length": 29,
+    "median_length": 20,
+    "min_length": 1,
+    "play": [
+      {
+        "a": "https://rfe-audio.rferl.org/frd/2024/09/26/e77d1e19-bc79-48ee-a017-5185ba6140dd_hq.mp3",
+        "at": "2024-09-26T12:40:07Z",
+        "t": "کودک کار افغان در ایران: هیچ آرزویی ندارم"
+      },
+      {
+        "a": "https://rfe-audio.rferl.org/frd/2024/09/05/edf7f8d8-b07a-4ed4-bec7-81a0ee04904a_hq.mp3",
+        "at": "2024-09-05T18:45:41Z",
+        "t": "ابراهیم مهتری: کابل برای من، تهرانِ کمی غمگین‌تر کمی خاک‌آلوده‌تر و زخمی‌تر است"
+      },
+      {
+        "a": "https://rfe-audio.rferl.org/frd/2024/08/22/01000000-c0a8-0242-219c-08dcc2b1c30e_hq.mp3",
+        "at": "2024-08-22T12:56:39Z",
+        "t": "دختر مهاجر افغان: می‌گویند به مجردها خانه نمی‌دهیم"
+      },
+      {
+        "a": "https://rfe-audio.rferl.org/frd/2024/08/08/01000000-0aff-0242-0248-08dcb7b18708_hq.mp3",
+        "at": "2024-08-08T12:40:31Z",
+        "t": "مهاجران افغانستانی: با ویزایی که سفارت ایران فروخته هم اخراج شدیم"
+      },
+      {
+        "a": "https://rfe-audio.rferl.org/frd/2024/07/18/01000000-0a00-0242-d9f3-08dca6c6f393_hq.mp3",
+        "at": "2024-07-18T07:35:00Z",
+        "t": "زن افغانستانی: چون اتباع هستم برای نوزادم شیر نمی‌فروشند"
+      },
+      {
+        "a": "https://rfe-audio.rferl.org/frd/2024/07/04/01000000-0a00-0242-2b6e-08dc9c129798_hq.mp3",
+        "at": "2024-07-04T10:28:47Z",
+        "t": "صحرا کریمی، فیلمساز و رئیس سابق «افغان فیلم»: جای مرا یک ملا گرفته - قسمت دوم"
+      },
+      {
+        "a": "https://rfe-audio.rferl.org/frd/2024/06/27/01000000-0aff-0242-9114-08dc968cefb1_hq.mp3",
+        "at": "2024-06-27T09:52:42Z",
+        "t": "صحرا کریمی، فیلمساز و رئیس سابق «افغان فیلم»: جای مرا یک ملا گرفته"
+      },
+      {
+        "a": "https://rfe-audio.rferl.org/frd/2024/06/13/01000000-0aff-0242-8304-08dc8b8088db_hq.mp3",
+        "at": "2024-06-13T08:19:52Z",
+        "t": "زنی تنها در تنهایی هزارتوی مهاجرت"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-09-26T12:40:07Z",
+        "link": "https://www.radiofarda.com/a/33136171.html",
+        "title": "کودک کار افغان در ایران: هیچ آرزویی ندارم"
+      },
+      {
+        "at": "2024-09-05T18:45:41Z",
+        "link": "https://www.radiofarda.com/a/33108652.html",
+        "title": "ابراهیم مهتری: کابل برای من، تهرانِ کمی غمگین‌تر کمی خاک‌آلوده‌تر و زخمی‌تر است"
+      },
+      {
+        "at": "2024-08-22T12:56:39Z",
+        "link": "https://www.radiofarda.com/a/33088784.html",
+        "title": "دختر مهاجر افغان: می‌گویند به مجردها خانه نمی‌دهیم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -40230,8 +40886,8 @@
       }
     ],
     "recent_30d": [
-      141,
-      62,
+      142,
+      61,
       64,
       4,
       0,
@@ -42757,6 +43413,206 @@
       0
     ],
     "status": "stopped"
+  },
+  "ktab-soti-ba-sdai-smira": {
+    "avg_length": 19,
+    "episodes": 10,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-08-10",
+    "first_year": 1403,
+    "last": "1403/05/20",
+    "last_at": "2024-08-10T04:17:34Z",
+    "last_link": "https://shows.acast.com/samira/episodes/66b6e9defade109817cf551e",
+    "last_title": "\"تمامن مخصوص\" عباس معروفی",
+    "max_length": 28,
+    "median_length": 20,
+    "min_length": 11,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66b6c4596b3febd270600501/e/66b6e9defade109817cf551e/media.mp3",
+        "at": "2024-08-10T04:17:34Z",
+        "i": "https://assets.pippa.io/shows/66b6c4596b3febd270600501/1723263443365-36660784-2f64-470f-9156-9d21f1b70091.jpeg",
+        "t": "\"تمامن مخصوص\" عباس معروفی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66b6c4596b3febd270600501/e/66b6e9dba20d945cbccb273f/media.mp3",
+        "at": "2024-08-10T04:17:31Z",
+        "i": "https://assets.pippa.io/shows/66b6c4596b3febd270600501/1723263443365-36660784-2f64-470f-9156-9d21f1b70091.jpeg",
+        "t": "\"تمامن مخصوص\" عباس معروفی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66b6c4596b3febd270600501/e/66b6e99eeda70b6bfd38af3e/media.mp3",
+        "at": "2024-08-10T04:16:29Z",
+        "i": "https://assets.pippa.io/shows/66b6c4596b3febd270600501/1723263379013-d8932525-f8be-455e-80e3-1b47cc7c7e11.jpeg",
+        "t": "\"تمامن مخصوص\" عباس معروفی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66b6c4596b3febd270600501/e/66b6e8f0fade109817cf263d/media.mp3",
+        "at": "2024-08-10T04:13:36Z",
+        "i": "https://assets.pippa.io/shows/66b6c4596b3febd270600501/1723263204883-d076c550-67bc-4f78-bb49-eff6ac76f0d8.jpeg",
+        "t": "\"تمامن مخصوص\" عباس معروفی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66b6c4596b3febd270600501/e/66b6e8eeeda70b6bfd388ddc/media.mp3",
+        "at": "2024-08-10T04:13:34Z",
+        "i": "https://assets.pippa.io/shows/66b6c4596b3febd270600501/1723263204883-d076c550-67bc-4f78-bb49-eff6ac76f0d8.jpeg",
+        "t": "\"تمامن مخصوص\" عباس معروفی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66b6c4596b3febd270600501/e/66b6e8c8fade109817cf1ed5/media.mp3",
+        "at": "2024-08-10T04:12:56Z",
+        "i": "https://assets.pippa.io/shows/66b6c4596b3febd270600501/1723263163369-50b615c4-bcf8-417f-be72-8312dd5ccd79.jpeg",
+        "t": "\"تمامن مخصوص\" عباس معروفی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66b6c4596b3febd270600501/e/66b6c6a2eda70b6bfd31b68d/media.mp3",
+        "at": "2024-08-10T01:47:12Z",
+        "i": "https://assets.pippa.io/shows/66b6c4596b3febd270600501/1723254424149-9bb346d2-ffc4-4b40-a516-aebe9be5f3a6.jpeg",
+        "t": "\"تمامن مخصوص\" عباس معروفی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66b6c4596b3febd270600501/e/66b6c676491100609f57be7c/media.mp3",
+        "at": "2024-08-10T01:46:28Z",
+        "i": "https://assets.pippa.io/shows/66b6c4596b3febd270600501/1723254376565-1b67a00c-f44b-4d67-bc21-9169501c3357.jpeg",
+        "t": "\"تمامن مخصوص\" عباس معروفی"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-08-10T04:17:34Z",
+        "i": "https://assets.pippa.io/shows/66b6c4596b3febd270600501/1723263443365-36660784-2f64-470f-9156-9d21f1b70091.jpeg",
+        "link": "https://shows.acast.com/samira/episodes/66b6e9defade109817cf551e",
+        "title": "\"تمامن مخصوص\" عباس معروفی"
+      },
+      {
+        "at": "2024-08-10T04:17:31Z",
+        "i": "https://assets.pippa.io/shows/66b6c4596b3febd270600501/1723263443365-36660784-2f64-470f-9156-9d21f1b70091.jpeg",
+        "link": "https://shows.acast.com/samira/episodes/66b6e9dba20d945cbccb273f",
+        "title": "\"تمامن مخصوص\" عباس معروفی"
+      },
+      {
+        "at": "2024-08-10T04:16:29Z",
+        "i": "https://assets.pippa.io/shows/66b6c4596b3febd270600501/1723263379013-d8932525-f8be-455e-80e3-1b47cc7c7e11.jpeg",
+        "link": "https://shows.acast.com/samira/episodes/66b6e99eeda70b6bfd38af3e",
+        "title": "\"تمامن مخصوص\" عباس معروفی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
+  "ktab-soti-bad-az-ashgh-ba-sdai-msi-godini": {
+    "avg_length": 14,
+    "episodes": 10,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-01-04",
+    "first_year": 1402,
+    "last": "1402/10/14",
+    "last_at": "2024-01-04T16:52:17Z",
+    "last_link": "https://s3.castbox.fm/9b/57/00/2dfb52488ba0631b0dfd2135f8.m4a",
+    "last_title": "بعد از عشق 10",
+    "max_length": 20,
+    "median_length": 15,
+    "min_length": 7,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/9b/57/00/2dfb52488ba0631b0dfd2135f8.m4a",
+        "at": "2024-01-04T16:52:17Z",
+        "i": "https://s3.castbox.fm/b7/19/2b/1c4fc248d6b052438f5ec06a43.jpg",
+        "t": "بعد از عشق 10"
+      },
+      {
+        "a": "https://s3.castbox.fm/8f/50/fd/c97f10420f879f40fe773c5649.mp3",
+        "at": "2024-01-04T16:28:53Z",
+        "i": "https://s3.castbox.fm/83/fc/b9/cb83024fc5959f3d0c8a3f875f.jpg",
+        "t": "9 بعد از عشق"
+      },
+      {
+        "a": "https://s3.castbox.fm/01/13/12/cb7ef147ec9839584260b595fd.mp3",
+        "at": "2024-01-04T16:28:16Z",
+        "i": "https://s3.castbox.fm/96/1b/09/1356284f0d97f67fc0c5ce3185.jpg",
+        "t": "8بعد از عشق"
+      },
+      {
+        "a": "https://s3.castbox.fm/e7/5c/f1/ce24e44af181b9fe48a126399f.mp3",
+        "at": "2024-01-04T16:25:04Z",
+        "i": "https://s3.castbox.fm/b4/fe/d5/88622e412f9ae64b830e746382.jpg",
+        "t": "7 بعد از عشق"
+      },
+      {
+        "a": "https://s3.castbox.fm/63/43/13/637f42482ab92cd07d3f0de00d.mp3",
+        "at": "2024-01-04T16:14:23Z",
+        "i": "https://s3.castbox.fm/ca/b4/31/3551954184ae959b44b104e912.jpg",
+        "t": "6 بعد از عشق"
+      },
+      {
+        "a": "https://s3.castbox.fm/fc/35/81/b7f2934ed9bf14bbacef44067f.mp3",
+        "at": "2024-01-04T16:11:55Z",
+        "i": "https://s3.castbox.fm/89/a7/bb/6aeec6402bbf88dc1f158de35a.jpg",
+        "t": "بعد از عشق 5"
+      },
+      {
+        "a": "https://s3.castbox.fm/7c/0d/6d/8888ab4716952676d778ef91b0.mp3",
+        "at": "2024-01-04T16:10:29Z",
+        "i": "https://s3.castbox.fm/ed/c8/8f/625c2949bf89a0e73f3082fd77.jpg",
+        "t": "بعد از عشق4"
+      },
+      {
+        "a": "https://s3.castbox.fm/7f/2f/51/a1e69e4d9a9b94272034e60531.mp3",
+        "at": "2024-01-04T16:05:57Z",
+        "i": "https://s3.castbox.fm/88/c8/3c/b15fef425dbb55cff40b292c6a.jpg",
+        "t": "بعد از عشق 3"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-01-04T16:52:17Z",
+        "i": "https://s3.castbox.fm/b7/19/2b/1c4fc248d6b052438f5ec06a43.jpg",
+        "link": "https://s3.castbox.fm/9b/57/00/2dfb52488ba0631b0dfd2135f8.m4a",
+        "title": "بعد از عشق 10"
+      },
+      {
+        "at": "2024-01-04T16:28:53Z",
+        "i": "https://s3.castbox.fm/83/fc/b9/cb83024fc5959f3d0c8a3f875f.jpg",
+        "link": "https://s3.castbox.fm/8f/50/fd/c97f10420f879f40fe773c5649.mp3",
+        "title": "9 بعد از عشق"
+      },
+      {
+        "at": "2024-01-04T16:28:16Z",
+        "i": "https://s3.castbox.fm/96/1b/09/1356284f0d97f67fc0c5ce3185.jpg",
+        "link": "https://s3.castbox.fm/01/13/12/cb7ef147ec9839584260b595fd.mp3",
+        "title": "8بعد از عشق"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
   },
   "ktab-soti-bar-hsti-asr-milan-kondra": {
     "avg_length": 19,
@@ -56096,6 +56952,106 @@
       1,
       1,
       3
+    ],
+    "status": "active"
+  },
+  "pas-pas": {
+    "avg_length": 8,
+    "episodes": 10,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-12-04",
+    "first_year": 1403,
+    "last": "1404/01/22",
+    "last_at": "2025-04-11T18:14:26Z",
+    "last_link": "https://shows.acast.com/pas/episodes/67f95b546e56bbcda3e0e4b2",
+    "last_title": "اپیزود دهم/پیاده روی",
+    "max_length": 12,
+    "median_length": 8,
+    "min_length": 7,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66fd95492838c1aca5b8e17d/e/67f95b546e56bbcda3e0e4b2/media.mp3",
+        "at": "2025-04-11T18:14:26Z",
+        "i": "https://assets.pippa.io/shows/66fd95492838c1aca5b8e17d/1744394801803-9888dfdb-83f2-4aa5-8e3b-c4e2b2d3cc03.jpeg",
+        "t": "اپیزود دهم/پیاده روی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66fd95492838c1aca5b8e17d/e/67cdbe4f55101d96443581e7/media.mp3",
+        "at": "2025-03-09T16:16:53Z",
+        "i": "https://assets.pippa.io/shows/66fd95492838c1aca5b8e17d/1741536820021-0981545c-2021-4e1a-9d73-ac767486fa7f.jpeg",
+        "t": "اپیزود نهم/انواع روغن های خوراکی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66fd95492838c1aca5b8e17d/e/67ab7e5d505cb2a0a3002d67/media.mp3",
+        "at": "2025-02-12T00:30:00Z",
+        "i": "https://assets.pippa.io/shows/66fd95492838c1aca5b8e17d/1739292260371-ba6a41db-d705-4b17-aa24-a75d98a84419.jpeg",
+        "t": "اپیزود هشتم/درمان اختلالات چربی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66fd95492838c1aca5b8e17d/e/6787a37c3b6e600d6986b6a4/media.mp3",
+        "at": "2025-01-15T12:03:30Z",
+        "i": "https://assets.pippa.io/shows/66fd95492838c1aca5b8e17d/1736942597622-bb5f07c8-1039-410d-86e9-ac2f4c1bbaa5.jpeg",
+        "t": "اپیزود هفتم/اختلالات چربی خون"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66fd95492838c1aca5b8e17d/e/677d6d371f00b28b23bc2351/media.mp3",
+        "at": "2025-01-08T04:00:58Z",
+        "i": "https://assets.pippa.io/shows/66fd95492838c1aca5b8e17d/1736272125905-813a0a11-0ba5-4e5f-a3c0-6ef0c2bf1afd.jpeg",
+        "t": "اپیزود ششم/خطر 10 ساله بیماری قلبی"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66fd95492838c1aca5b8e17d/e/677449ebc82b0a641396131a/media.mp3",
+        "at": "2025-01-01T04:00:59Z",
+        "i": "https://assets.pippa.io/shows/66fd95492838c1aca5b8e17d/1735674405960-0b73805f-b2e0-4ded-baa8-0f61fca69948.jpeg",
+        "t": "اپیزود پنجم/فشار خون بالا در بارداری"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66fd95492838c1aca5b8e17d/e/676b206e2931d5881876a574/media.mp3",
+        "at": "2024-12-25T03:00:37Z",
+        "i": "https://assets.pippa.io/shows/66fd95492838c1aca5b8e17d/1735073598195-fd0203bf-1889-4112-9bb8-5d3af8039549.jpeg",
+        "t": "اپیزود چهارم/علائم و پیشگیری از فشار خون"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66fd95492838c1aca5b8e17d/e/6761dc41ad8634974190b1c2/media.mp3",
+        "at": "2024-12-18T09:45:55Z",
+        "i": "https://assets.pippa.io/shows/66fd95492838c1aca5b8e17d/1734466370779-7e0d0dff-a5c3-4959-af19-cdbb7165b6ca.jpeg",
+        "t": "اپیزود سوم/درمان فشار خون"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-04-11T18:14:26Z",
+        "i": "https://assets.pippa.io/shows/66fd95492838c1aca5b8e17d/1744394801803-9888dfdb-83f2-4aa5-8e3b-c4e2b2d3cc03.jpeg",
+        "link": "https://shows.acast.com/pas/episodes/67f95b546e56bbcda3e0e4b2",
+        "title": "اپیزود دهم/پیاده روی"
+      },
+      {
+        "at": "2025-03-09T16:16:53Z",
+        "i": "https://assets.pippa.io/shows/66fd95492838c1aca5b8e17d/1741536820021-0981545c-2021-4e1a-9d73-ac767486fa7f.jpeg",
+        "link": "https://shows.acast.com/pas/episodes/67cdbe4f55101d96443581e7",
+        "title": "اپیزود نهم/انواع روغن های خوراکی"
+      },
+      {
+        "at": "2025-02-12T00:30:00Z",
+        "i": "https://assets.pippa.io/shows/66fd95492838c1aca5b8e17d/1739292260371-ba6a41db-d705-4b17-aa24-a75d98a84419.jpeg",
+        "link": "https://shows.acast.com/pas/episodes/67ab7e5d505cb2a0a3002d67",
+        "title": "اپیزود هشتم/درمان اختلالات چربی"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "status": "active"
   },
@@ -81313,7 +82269,7 @@
       }
     ],
     "recent_30d": [
-      3,
+      2,
       0,
       0,
       0,
@@ -82308,6 +83264,106 @@
     ],
     "status": "active"
   },
+  "raz-mgo": {
+    "avg_length": 2,
+    "episodes": 10,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2023-12-27",
+    "first_year": 1402,
+    "last": "1402/10/06",
+    "last_at": "2023-12-27T10:38:51Z",
+    "last_link": "https://s3.castbox.fm/cc/37/da/555ae043f397fbb1d2585b99b0.mp3",
+    "last_title": "۱۰- راز مگو، اپیزود دهم",
+    "max_length": 4,
+    "median_length": 2,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://s3.castbox.fm/cc/37/da/555ae043f397fbb1d2585b99b0.mp3",
+        "at": "2023-12-27T10:38:51Z",
+        "i": "https://s3.castbox.fm/32/65/09/fcad6f495ab6995e311ff9b348.jpg",
+        "t": "۱۰- راز مگو، اپیزود دهم"
+      },
+      {
+        "a": "https://s3.castbox.fm/00/8c/83/eeb0e64f23a55214a1a21d43a0.mp3",
+        "at": "2023-12-27T10:37:41Z",
+        "i": "https://s3.castbox.fm/d9/19/4d/c1af7d44deadf8dc3546b7535a.jpg",
+        "t": "۰۹- راز مگو، اپیزود نهم"
+      },
+      {
+        "a": "https://s3.castbox.fm/9d/60/e7/648b2049eca7d9717b70911dc6.mp3",
+        "at": "2023-12-27T10:36:31Z",
+        "i": "https://s3.castbox.fm/7a/90/17/df94f34c95b1ca40522359761f.jpg",
+        "t": "۰۸- راز مگو، اپیزود هشتم"
+      },
+      {
+        "a": "https://s3.castbox.fm/46/29/08/79b58a4325b4decef6838d9110.mp3",
+        "at": "2023-12-27T10:35:04Z",
+        "i": "https://s3.castbox.fm/83/2d/71/ce662742bca4a11ac11eecc4d0.jpg",
+        "t": "۰۷- راز مگو، اپیزود هفتم"
+      },
+      {
+        "a": "https://s3.castbox.fm/65/20/ed/c4600b4192bfbad4795be9f763.mp3",
+        "at": "2023-12-27T10:32:28Z",
+        "i": "https://s3.castbox.fm/55/0b/a4/b804434468b1eb5fcc4ec88a32.jpg",
+        "t": "۰۶- راز مگو، اپیزود ششم"
+      },
+      {
+        "a": "https://s3.castbox.fm/e3/e9/9c/749c494dbf8c1fd9d0bb7df52a.mp3",
+        "at": "2023-12-27T10:32:00Z",
+        "i": "https://s3.castbox.fm/48/17/05/4d6c634718a8ae941c46b3ad18.jpg",
+        "t": "۰۵ - راز مگو، اپیزود پنجم"
+      },
+      {
+        "a": "https://s3.castbox.fm/4e/eb/76/a329384a8081fa664b842ebb75.mp3",
+        "at": "2023-12-27T10:16:33Z",
+        "i": "https://s3.castbox.fm/8a/ad/f7/5979bb46629c209cf521977c4a.jpg",
+        "t": "۰۴ - راز مگو، اپیزود چهارم"
+      },
+      {
+        "a": "https://s3.castbox.fm/b7/4f/30/165f3b4a538f880ed561127e0e.mp3",
+        "at": "2023-12-27T10:15:05Z",
+        "i": "https://s3.castbox.fm/83/ed/d6/4916524c6fa6702114057bd02b.jpg",
+        "t": "۰۳- راز مگو، اپیزود سوم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2023-12-27T10:38:51Z",
+        "i": "https://s3.castbox.fm/32/65/09/fcad6f495ab6995e311ff9b348.jpg",
+        "link": "https://s3.castbox.fm/cc/37/da/555ae043f397fbb1d2585b99b0.mp3",
+        "title": "۱۰- راز مگو، اپیزود دهم"
+      },
+      {
+        "at": "2023-12-27T10:37:41Z",
+        "i": "https://s3.castbox.fm/d9/19/4d/c1af7d44deadf8dc3546b7535a.jpg",
+        "link": "https://s3.castbox.fm/00/8c/83/eeb0e64f23a55214a1a21d43a0.mp3",
+        "title": "۰۹- راز مگو، اپیزود نهم"
+      },
+      {
+        "at": "2023-12-27T10:36:31Z",
+        "i": "https://s3.castbox.fm/7a/90/17/df94f34c95b1ca40522359761f.jpg",
+        "link": "https://s3.castbox.fm/9d/60/e7/648b2049eca7d9717b70911dc6.mp3",
+        "title": "۰۸- راز مگو، اپیزود هشتم"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "rdram": {
     "avg_length": 37,
     "episodes": 17,
@@ -82495,6 +83551,106 @@
       2,
       2,
       2
+    ],
+    "status": "active"
+  },
+  "rikaori": {
+    "avg_length": 164,
+    "episodes": 11,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2023-10-23",
+    "first_year": 1402,
+    "last": "1404/03/26",
+    "last_at": "2025-06-16T12:07:42Z",
+    "last_link": "https://podkadeh.com/podcast/Recovery/6850090c012961cc2651caa9",
+    "last_title": "ریکاوری یازدهم - حفظ آرامش روان در شرایط جنگی",
+    "max_length": 405,
+    "median_length": 127,
+    "min_length": 51,
+    "play": [
+      {
+        "a": "https://podkadeh.com/hosting/65369dcbcdbbe210e8e5889a/ep-6850090c012961cc2651caa9-1750075661.mp3",
+        "at": "2025-06-16T12:07:42Z",
+        "i": "https://img-cdn.podkadeh.cloud/Recovery/ep-6850090c012961cc2651caa9-1750075817.jpg",
+        "t": "ریکاوری یازدهم - حفظ آرامش روان در شرایط جنگی"
+      },
+      {
+        "a": "https://podkadeh.com/hosting/65369dcbcdbbe210e8e5889a/ep-67257900232a12f151d3411b-1730509057.mp3",
+        "at": "2024-11-02T00:57:38Z",
+        "i": "https://img-cdn.podkadeh.cloud/Recovery/ep-67257900232a12f151d3411b-1730509056.jpg",
+        "t": "ریکاوری دهم - نیکوتین - بخش دو"
+      },
+      {
+        "a": "https://podkadeh.com/hosting/65369dcbcdbbe210e8e5889a/ep-666b2354d7be25d06f0898c3-1718297430.mp3",
+        "at": "2024-06-13T16:50:31Z",
+        "i": "https://img-cdn.podkadeh.cloud/Recovery/ep-666b2354d7be25d06f0898c3-1718297428.jpg",
+        "t": "ریکاوری نهم - نیکوتین - بخش یک"
+      },
+      {
+        "a": "https://podkadeh.com/hosting/65369dcbcdbbe210e8e5889a/ep-6630585947f40aee9479903a-1714444378.mp3",
+        "at": "2024-04-30T02:33:01Z",
+        "i": "https://img-cdn.podkadeh.cloud/Recovery/ep-6630585947f40aee9479903a-1714444377.jpg",
+        "t": "ریکاوری هشتم - دوپامین - بخش آخر +18"
+      },
+      {
+        "a": "https://podkadeh.com/hosting/65369dcbcdbbe210e8e5889a/ep-659d63efdf684bbc1134eee9-1704813552.mp3",
+        "at": "2024-01-09T15:19:36Z",
+        "i": "https://img-cdn.podkadeh.cloud/Recovery/ep-659d63efdf684bbc1134eee9-1704813551.jpg",
+        "t": "ریکاوری هفتم - دوپامین - بخش سه +18"
+      },
+      {
+        "a": "https://podkadeh.com/hosting/65369dcbcdbbe210e8e5889a/ep-6558dd79cdbbe210e8ff951a-1700322683.mp3",
+        "at": "2023-11-18T15:51:27Z",
+        "i": "https://img-cdn.podkadeh.cloud/Recovery/ep-6558dd79cdbbe210e8ff951a-1700322681.jpg",
+        "t": "ریکاوری ششم - دوپامین - بخش دو +18"
+      },
+      {
+        "a": "https://podkadeh.com/hosting/65369dcbcdbbe210e8e5889a/ep-6536a7dfcdbbe210e8e5a0dd-1698080736.mp3",
+        "at": "2023-10-23T17:05:45Z",
+        "i": "https://img-cdn.podkadeh.cloud/Recovery/ep-6536a7dfcdbbe210e8e5a0dd-1698080735.jpg",
+        "t": "ریکاوری پنجم - دوپامین - بخش یک +18"
+      },
+      {
+        "a": "https://podkadeh.com/hosting/65369dcbcdbbe210e8e5889a/ep-6536a60acdbbe210e8e59d62-1698080267.mp3",
+        "at": "2023-10-23T16:58:06Z",
+        "i": "https://img-cdn.podkadeh.cloud/Recovery/ep-6536a60acdbbe210e8e59d62-1698080266.jpg",
+        "t": "ریکاوری چهارم - ماریجوانا"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-06-16T12:07:42Z",
+        "i": "https://img-cdn.podkadeh.cloud/Recovery/ep-6850090c012961cc2651caa9-1750075817.jpg",
+        "link": "https://podkadeh.com/podcast/Recovery/6850090c012961cc2651caa9",
+        "title": "ریکاوری یازدهم - حفظ آرامش روان در شرایط جنگی"
+      },
+      {
+        "at": "2024-11-02T00:57:38Z",
+        "i": "https://img-cdn.podkadeh.cloud/Recovery/ep-67257900232a12f151d3411b-1730509056.jpg",
+        "link": "https://podkadeh.com/podcast/Recovery/67257900232a12f151d3411b",
+        "title": "ریکاوری دهم - نیکوتین - بخش دو"
+      },
+      {
+        "at": "2024-06-13T16:50:31Z",
+        "i": "https://img-cdn.podkadeh.cloud/Recovery/ep-666b2354d7be25d06f0898c3-1718297428.jpg",
+        "link": "https://podkadeh.com/podcast/Recovery/666b2354d7be25d06f0898c3",
+        "title": "ریکاوری نهم - نیکوتین - بخش یک"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "status": "active"
   },
@@ -83570,7 +84726,7 @@
     "avg_gap_days": 0.0,
     "avg_length": 21,
     "episodes": 27,
-    "eps_365": 3,
+    "eps_365": 2,
     "eps_90": 0,
     "first_at": "2019-12-07",
     "first_year": 1398,
@@ -87059,21 +88215,27 @@
     "status": "active"
   },
   "sfir-sda": {
-    "avg_gap_days": 15.5,
+    "avg_gap_days": 15.1,
     "avg_length": 14,
-    "episodes": 62,
-    "eps_365": 24,
-    "eps_90": 11,
+    "episodes": 63,
+    "eps_365": 25,
+    "eps_90": 12,
     "first_at": "2025-03-02",
     "first_year": 1403,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T15:22:16Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3scf3s",
-    "last_title": "افسانه : یک کلاغ ، چهل کلاغ !",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T12:39:48Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3spci6",
+    "last_title": "افسانه : هفت خواهر که بی تقصیر طلاقشان دادن و ساربان بی نوا",
     "max_length": 33,
     "median_length": 9,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/101e050f4/podcast/play/129855494/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F3d9b29bf-c787-65ea-3b50-d8e79eb3b6a2.mp3",
+        "at": "2026-11-21T12:39:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1795264685861-d8f099853a636.jpg",
+        "t": "افسانه : هفت خواهر که بی تقصیر طلاقشان دادن و ساربان بی نوا"
+      },
       {
         "a": "https://anchor.fm/s/101e050f4/podcast/play/129432124/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F538d1e36-0efd-70e4-3b53-5b8cadd57db6.mp3",
         "at": "2026-11-14T15:22:16Z",
@@ -87115,15 +88277,15 @@
         "at": "2026-10-03T12:20:11Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1791029964319-e22a5e9a33ee6.jpg",
         "t": "افسانه‌ی شیرزاد | قسمت اول"
-      },
-      {
-        "a": "https://anchor.fm/s/101e050f4/podcast/play/126336537/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-26%2F0eed4469-8b94-885f-b9ee-ba679f3cc825.mp3",
-        "at": "2026-09-26T13:11:59Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1790428188456-e6d648de1e3df.jpg",
-        "t": "قصه ی گل و نسترن"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T12:39:48Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1795264685861-d8f099853a636.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3spci6",
+        "title": "افسانه : هفت خواهر که بی تقصیر طلاقشان دادن و ساربان بی نوا"
+      },
       {
         "at": "2026-11-14T15:22:16Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794669639637-fe4eadb670973.jpg",
@@ -87135,12 +88297,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794053765174-38951d298c5bc.jpg",
         "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ruuim",
         "title": "قصه: هفت زن دماغ بریده"
-      },
-      {
-        "at": "2026-10-31T12:34:18Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1793449979955-d1dad2ddf3fe3.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3rfqiq",
-        "title": "قصه: هفت خواهر و یک خواهر"
       }
     ],
     "recent_30d": [
@@ -87155,7 +88311,7 @@
       4,
       3,
       4,
-      4
+      5
     ],
     "status": "active"
   },
@@ -90489,6 +91645,95 @@
     ],
     "status": "active"
   },
+  "shstmin-fraz": {
+    "avg_length": 84,
+    "episodes": 10,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2025-08-29",
+    "first_year": 1404,
+    "last": "1404/06/13",
+    "last_at": "2025-09-04T20:29:32Z",
+    "last_link": "https://www.spreaker.com/episode/shstmyn-fraz-qsmt-dhm-14010612--67637537",
+    "last_title": "شصتمین فراز - قسمت دهم- ۱۴۰۱۰۶۱۲",
+    "max_length": 96,
+    "median_length": 84,
+    "min_length": 77,
+    "play": [
+      {
+        "a": "https://api.spreaker.com/download/episode/67637537/episode_67637537.mp3",
+        "at": "2025-09-04T20:29:32Z",
+        "t": "شصتمین فراز - قسمت دهم- ۱۴۰۱۰۶۱۲"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/67621922/episode_67621922.mp3",
+        "at": "2025-09-03T18:34:29Z",
+        "t": "شصتمین فراز - قسمت نهم - ۱۴۰۴۰۶۱۱"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/67620718/episode_67620718.mp3",
+        "at": "2025-09-03T18:26:55Z",
+        "t": "شصتمین فراز - قسمت هشتم- ۱۴۰۱۰۶۱۰"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/67574760/episode_67574760.mp3",
+        "at": "2025-08-31T21:55:50Z",
+        "t": "شصتمین فراز - قسمت هفتم - ۱۴۰۴۰۶۰۹"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/67564893/episode_67564893.mp3",
+        "at": "2025-08-30T21:11:38Z",
+        "t": "شصتمین فراز - قسمت ششم - ۱۴۰۴۰۶۰۸"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/67564834/episode_67564834.mp3",
+        "at": "2025-08-30T21:05:18Z",
+        "t": "شصتمین فراز - قسمت پنجم - ۱۴۰۴۰۶۰۷"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/67552198/episode_67552198.mp3",
+        "at": "2025-08-29T11:21:16Z",
+        "t": "شصتمین فراز - قسمت چهارم - ۱۴۰۴۰۶۰۶"
+      },
+      {
+        "a": "https://api.spreaker.com/download/episode/67552175/episode_67552175.mp3",
+        "at": "2025-08-29T11:10:56Z",
+        "t": "شصتمین فراز - قسمت سوم - ۱۴۰۴۰۶۰۵"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2025-09-04T20:29:32Z",
+        "link": "https://www.spreaker.com/episode/shstmyn-fraz-qsmt-dhm-14010612--67637537",
+        "title": "شصتمین فراز - قسمت دهم- ۱۴۰۱۰۶۱۲"
+      },
+      {
+        "at": "2025-09-03T18:34:29Z",
+        "link": "https://www.spreaker.com/episode/shstmyn-fraz-qsmt-nhm-14040611--67621922",
+        "title": "شصتمین فراز - قسمت نهم - ۱۴۰۴۰۶۱۱"
+      },
+      {
+        "at": "2025-09-03T18:26:55Z",
+        "link": "https://www.spreaker.com/episode/shstmyn-fraz-qsmt-hshtm-14010610--67620718",
+        "title": "شصتمین فراز - قسمت هشتم- ۱۴۰۱۰۶۱۰"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "active"
+  },
   "siaht-namh-abrahim-big-haj-siah-taj-alsltnh": {
     "avg_gap_days": 8.6,
     "avg_length": 25,
@@ -93086,20 +94331,27 @@
     "status": "active"
   },
   "tarikh-alm-o-andishh": {
-    "avg_length": 69,
-    "episodes": 42,
-    "eps_365": 1,
-    "eps_90": 0,
+    "avg_gap_days": 194.0,
+    "avg_length": 68,
+    "episodes": 43,
+    "eps_365": 2,
+    "eps_90": 1,
     "first_at": "2020-02-12",
     "first_year": 1398,
-    "last": "1405/02/21",
-    "last_at": "2026-05-11T10:14:37Z",
-    "last_link": "https://s3.castbox.fm/5e/78/0c/784f114a9f9f2191b1c48c97e4.m4a",
-    "last_title": "پارادوکس سادگی: چرا مدل‌های نجومی مکتب مراغه پیچیده شدند؟",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T13:50:38Z",
+    "last_link": "https://s3.castbox.fm/08/af/3a/dd1ece4d138538d56fcc1d4189.m4a",
+    "last_title": "نوآوری محمدباقر یزدی در پیوند ساعت‌های آفتابی و قبله",
     "max_length": 148,
-    "median_length": 47,
+    "median_length": 44,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/08/af/3a/dd1ece4d138538d56fcc1d4189.m4a",
+        "at": "2026-11-21T13:50:38Z",
+        "i": "https://s3.castbox.fm/76/f8/30/a4cabb4da588fb99572bffef28.jpg",
+        "t": "نوآوری محمدباقر یزدی در پیوند ساعت‌های آفتابی و قبله"
+      },
       {
         "a": "https://s3.castbox.fm/5e/78/0c/784f114a9f9f2191b1c48c97e4.m4a",
         "at": "2026-05-11T10:14:37Z",
@@ -93141,15 +94393,15 @@
         "at": "2023-10-02T09:40:10Z",
         "i": "https://s3.castbox.fm/79/72/9e/252d5346d1be78e65879a6de37.jpg",
         "t": "استفاده از علم جدید برای تبلیغ دین"
-      },
-      {
-        "a": "https://s3.castbox.fm/d9/4a/0c/7962e941fe913baa69a58829f0.mp3",
-        "at": "2023-08-08T07:52:16Z",
-        "i": "https://s3.castbox.fm/3d/bf/af/2207064022848dbb0c387898b1.jpg",
-        "t": "داروین در کتابهای درسی مدارس ایران"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T13:50:38Z",
+        "i": "https://s3.castbox.fm/76/f8/30/a4cabb4da588fb99572bffef28.jpg",
+        "link": "https://s3.castbox.fm/08/af/3a/dd1ece4d138538d56fcc1d4189.m4a",
+        "title": "نوآوری محمدباقر یزدی در پیوند ساعت‌های آفتابی و قبله"
+      },
       {
         "at": "2026-05-11T10:14:37Z",
         "i": "https://s3.castbox.fm/c3/61/07/b2065d4a8eae3f5ad358fabcca.jpg",
@@ -93161,12 +94413,6 @@
         "i": "https://s3.castbox.fm/8c/b5/53/3e136b4fb9b36a1ec87ac81328.jpg",
         "link": "https://s3.castbox.fm/47/87/d1/60574a4a6cbbb0c1ed64088313.mp3",
         "title": "نخستین گزارش‌ها از نظریۀ خورشیدمرکزی در سفرنامه‌های دوران قاجار"
-      },
-      {
-        "at": "2024-12-26T13:51:34Z",
-        "i": "https://s3.castbox.fm/cf/3b/68/c189a4486c821d893981616b88.jpg",
-        "link": "https://s3.castbox.fm/6c/ff/7b/15ddef4c5b8ddb16b29de37b2d.mp3",
-        "title": "شَبَح علم: آیا فلسفۀ علم می‌تواند ما را از «شر» شبه‌علم خلاص کند"
       }
     ],
     "recent_30d": [
@@ -93176,6 +94422,95 @@
       0,
       0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "status": "active"
+  },
+  "tarikh-ashghal-airan-dr-1320": {
+    "avg_length": 18,
+    "episodes": 10,
+    "eps_365": 0,
+    "eps_90": 0,
+    "first_at": "2024-03-31",
+    "first_year": 1403,
+    "last": "1403/06/06",
+    "last_at": "2024-08-27T18:10:10Z",
+    "last_link": "http://iranseda.ir",
+    "last_title": "۱۰",
+    "max_length": 20,
+    "median_length": 18,
+    "min_length": 11,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6609bfbdf993490016e506b5/e/66ce16837badf4b7d8ebea9e/media.mp3",
+        "at": "2024-08-27T18:10:10Z",
+        "t": "۱۰"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6609bfbdf993490016e506b5/e/66ce1619cadc382a6b00b470/media.mp3",
+        "at": "2024-08-27T18:08:24Z",
+        "t": "۹"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6609bfbdf993490016e506b5/e/66ce150e7badf4b7d8eb7968/media.mp3",
+        "at": "2024-08-27T18:03:56Z",
+        "t": "۸"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6609bfbdf993490016e506b5/e/66468fbfb9914900122d4592/media.mp3",
+        "at": "2024-06-18T19:41:41Z",
+        "t": "۷"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6609bfbdf993490016e506b5/e/6615b3ccdd3b8b00172c1216/media.mp3",
+        "at": "2024-04-09T21:31:55Z",
+        "t": "۶"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6609bfbdf993490016e506b5/e/6615949c2178ca0016a29058/media.mp3",
+        "at": "2024-04-09T19:18:50Z",
+        "t": "۵"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6609bfbdf993490016e506b5/e/66125b96d88ec9001792f63a/media.mp3",
+        "at": "2024-04-07T08:38:45Z",
+        "t": "۴"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6609bfbdf993490016e506b5/e/660c4eec5ad9410016cb4d4d/media.mp3",
+        "at": "2024-04-03T01:30:24Z",
+        "t": "۳"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2024-08-27T18:10:10Z",
+        "link": "http://iranseda.ir",
+        "title": "۱۰"
+      },
+      {
+        "at": "2024-08-27T18:08:24Z",
+        "link": "http://iranseda.ir",
+        "title": "۹"
+      },
+      {
+        "at": "2024-08-27T18:03:56Z",
+        "link": "http://iranseda.ir",
+        "title": "۸"
+      }
+    ],
+    "recent_30d": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -93379,7 +94714,7 @@
     "avg_length": 10,
     "episodes": 4284,
     "eps_365": 785,
-    "eps_90": 253,
+    "eps_90": 252,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/08/30",
@@ -93457,8 +94792,8 @@
       7,
       47,
       102,
-      81,
-      102,
+      82,
+      101,
       77,
       74
     ],
@@ -95344,6 +96679,107 @@
       22,
       22,
       21
+    ],
+    "status": "active"
+  },
+  "tmashai-ghrob": {
+    "avg_gap_days": 137.5,
+    "avg_length": 61,
+    "episodes": 10,
+    "eps_365": 3,
+    "eps_90": 1,
+    "first_at": "2025-02-11",
+    "first_year": 1403,
+    "last": "1405/07/02",
+    "last_at": "2026-09-24T14:05:00Z",
+    "last_link": "https://rss.audiyacreators.one/cmi7ikjrxmjqp5zueuer1",
+    "last_title": "شماره‌ی ۶ | درد که کسی را نمی‌کشد",
+    "max_length": 78,
+    "median_length": 58,
+    "min_length": 47,
+    "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/audio/fc593a48db3dc4bf/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-09-24T14:05:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/cover/fc593a48db3dc4bf/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "شماره‌ی ۶ | درد که کسی را نمی‌کشد"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/audio/966f0a04a1376a23/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-07-09T16:40:02Z",
+        "i": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/cover/966f0a04a1376a23/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "شماره ۵ | جنگ ما | چهل روز زیر بمب"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/audio/798d0bf913d537a5/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2025-12-22T15:02:36Z",
+        "i": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/cover/798d0bf913d537a5/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "شماره‌ی ۴ | تهران من کجاست | انارستان و توتستان"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/audio/de9025581b1f2792/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2025-11-20T15:08:05Z",
+        "i": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/cover/de9025581b1f2792/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "شماره‌ی ۰۰۰۰ | تهران از این طرف | از چشم خارجی‌ها"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/audio/af63048cbd41912b/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2025-10-23T16:20:26Z",
+        "i": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/cover/af63048cbd41912b/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "شماره‌ی ۳ | تهران من کجاست | کوچه‌های آفتاب"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/audio/b8a4158a26dbd7b6/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2025-09-13T16:44:28Z",
+        "i": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/cover/b8a4158a26dbd7b6/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "شماره‌ی۲ | آن ۱۲ روز | صداهایی از بیرون"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/audio/83318ddad62e49a4/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2025-08-27T17:28:41Z",
+        "i": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/cover/83318ddad62e49a4/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "شماره‌ی ۱ | ۱۲ روز بعد | صداهایی از ایران"
+      },
+      {
+        "a": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/audio/89abd86c05b1708f/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2025-07-27T16:58:23Z",
+        "i": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/cover/89abd86c05b1708f/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "بوشهر - کوچه‌های دریا"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-09-24T14:05:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/cover/fc593a48db3dc4bf/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmi7ikjrxmjqp5zueuer1",
+        "title": "شماره‌ی ۶ | درد که کسی را نمی‌کشد"
+      },
+      {
+        "at": "2026-07-09T16:40:02Z",
+        "i": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/cover/966f0a04a1376a23/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmi7ikjrxmjqp5zueuer1",
+        "title": "شماره ۵ | جنگ ما | چهل روز زیر بمب"
+      },
+      {
+        "at": "2025-12-22T15:02:36Z",
+        "i": "https://rss.audiyacreators.one/media/cmi7ikjrxmjqp5zueuer1/cover/798d0bf913d537a5/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmi7ikjrxmjqp5zueuer1",
+        "title": "شماره‌ی ۴ | تهران من کجاست | انارستان و توتستان"
+      }
+    ],
+    "recent_30d": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
     ],
     "status": "active"
   },
@@ -97296,6 +98732,107 @@
       0
     ],
     "status": "stopped"
+  },
+  "zhn-aaram-o-khlagh": {
+    "avg_gap_days": 16.4,
+    "avg_length": 13,
+    "episodes": 92,
+    "eps_365": 23,
+    "eps_90": 12,
+    "first_at": "2023-06-01",
+    "first_year": 1402,
+    "last": "1405/08/29",
+    "last_at": "2026-11-20T08:12:42Z",
+    "last_link": "https://shows.acast.com/thhn-aram-o-khlak/episodes/6b0000fa11cce4ba9637ec75",
+    "last_title": "شش ستون عزت نفس، جلسه چهارم ؛ ابراز وجود",
+    "max_length": 22,
+    "median_length": 11,
+    "min_length": 2,
+    "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65b22054c4139800169e2378/e/6b0000fa11cce4ba9637ec75/media.mp3",
+        "at": "2026-11-20T08:12:42Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1795162196915-a5ced1b0-5b79-4990-9d82-e31f0069b32b.jpeg",
+        "t": "شش ستون عزت نفس، جلسه چهارم ؛ ابراز وجود"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65b22054c4139800169e2378/e/6afdb775f1d98ec6b531d86f/media.mp3",
+        "at": "2026-11-18T14:34:31Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1795012278969-1a479706-b23b-41e0-b03c-e0d4f8dd50f0.jpeg",
+        "t": "شش ستون عزت نفس، جلسه سوم ؛ مسئولیتش با منه"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65b22054c4139800169e2378/e/6afb26a34d3a0f0d90d40e4c/media.mp3",
+        "at": "2026-11-16T15:52:07Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1794843992123-8e4b52fa-7f11-43a5-b700-ea7bb8b836e1.jpeg",
+        "t": "شش ستون عزت نفس، جلسه دوم؛ پذیرفتن و بغل کردن خودِ واقعی‌مون"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65b22054c4139800169e2378/e/6af87dff28531eda45452f5e/media.mp3",
+        "at": "2026-11-14T15:28:01Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1794669861679-32e455a6-6574-416c-95dd-d8132f5643e6.jpeg",
+        "t": "شش ستون عزت نفس، جلسه اول؛ چشم باز کردن به واقعیت"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65b22054c4139800169e2378/e/6ac8b04ad3bfab176e0e08b1/media.mp3",
+        "at": "2026-10-14T15:00:00Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1791536908117-c2d8093c-27d3-4095-9e69-9ed9a121cd83.jpeg",
+        "t": "درس های گذشته من"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65b22054c4139800169e2378/e/6ac767c0eea51f2aa3c53193/media.mp3",
+        "at": "2026-10-12T19:30:00Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1791452842737-8b16f806-727a-4f7f-be1c-851217f701dd.jpeg",
+        "t": "من آن هستم"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65b22054c4139800169e2378/e/6ac76524eea51f2aa3c4df45/media.mp3",
+        "at": "2026-10-10T19:30:00Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1791452408848-f4129615-e2b5-40c4-b418-c420fff238e2.jpeg",
+        "t": "فرافکنی های من"
+      },
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65b22054c4139800169e2378/e/6ac761ea9fea6e0a64fd521a/media.mp3",
+        "at": "2026-10-08T09:27:07Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1791451596681-c1336bd5-f6d8-4f37-ab9d-26beb0efe2c6.jpeg",
+        "t": "بغل کردن سایه های خودم"
+      }
+    ],
+    "recent": [
+      {
+        "at": "2026-11-20T08:12:42Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1795162196915-a5ced1b0-5b79-4990-9d82-e31f0069b32b.jpeg",
+        "link": "https://shows.acast.com/thhn-aram-o-khlak/episodes/6b0000fa11cce4ba9637ec75",
+        "title": "شش ستون عزت نفس، جلسه چهارم ؛ ابراز وجود"
+      },
+      {
+        "at": "2026-11-18T14:34:31Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1795012278969-1a479706-b23b-41e0-b03c-e0d4f8dd50f0.jpeg",
+        "link": "https://shows.acast.com/thhn-aram-o-khlak/episodes/6afdb775f1d98ec6b531d86f",
+        "title": "شش ستون عزت نفس، جلسه سوم ؛ مسئولیتش با منه"
+      },
+      {
+        "at": "2026-11-16T15:52:07Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1794843992123-8e4b52fa-7f11-43a5-b700-ea7bb8b836e1.jpeg",
+        "link": "https://shows.acast.com/thhn-aram-o-khlak/episodes/6afb26a34d3a0f0d90d40e4c",
+        "title": "شش ستون عزت نفس، جلسه دوم؛ پذیرفتن و بغل کردن خودِ واقعی‌مون"
+      }
+    ],
+    "recent_30d": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      2,
+      2,
+      3,
+      2,
+      6,
+      4
+    ],
+    "status": "active"
   },
   "zhn-borsi": {
     "avg_length": 4,
