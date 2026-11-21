@@ -60921,21 +60921,27 @@
     "status": "active"
   },
   "podcast-dndanpzshki-bistori": {
-    "avg_gap_days": 12.0,
-    "avg_length": 77,
-    "episodes": 139,
-    "eps_365": 30,
-    "eps_90": 13,
+    "avg_gap_days": 11.6,
+    "avg_length": 80,
+    "episodes": 140,
+    "eps_365": 31,
+    "eps_90": 14,
     "first_at": "2022-08-24",
     "first_year": 1401,
-    "last": "1405/08/29",
-    "last_at": "2026-11-20T15:12:27Z",
-    "last_link": "https://shows.acast.com/bistoori/episodes/bistoori133",
-    "last_title": "بیستوری ۱۳۳| دکتر ساندرا خدابنده لو| از دندانپزشکی عمومی تا امضای شخصی در دندانپزشکی زیبایی",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T09:55:19Z",
+    "last_link": "https://shows.acast.com/bistoori/episodes/bistoori134",
+    "last_title": "بیستوری ۱۳۴| سپنج ۳| با حضور فیروزه گلسرخی و افشین قناد",
     "max_length": 141,
-    "median_length": 71,
+    "median_length": 72,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6302f99289c44f001281e16a/e/6b016a874f7f96174deffd5b/media.mp3",
+        "at": "2026-11-21T09:55:19Z",
+        "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1795254869482-2e0f4113-0178-403b-9838-543e002d6ea7.jpeg",
+        "t": "بیستوری ۱۳۴| سپنج ۳| با حضور فیروزه گلسرخی و افشین قناد"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6302f99289c44f001281e16a/e/6b00635bd0e980d0cfc48f7a/media.mp3",
         "at": "2026-11-20T15:12:27Z",
@@ -60977,15 +60983,15 @@
         "at": "2026-10-20T19:37:43Z",
         "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1792525003865-93e8d1cb-46b0-421a-8baa-bef28adc0099.jpeg",
         "t": "بیستوری ۱۲۸| سپنج ۱| بسته پیشنهادی فرهنگ و هنر"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6302f99289c44f001281e16a/e/6ad5195b0c6b30397bc27add/media.mp3",
-        "at": "2026-10-18T19:09:15Z",
-        "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1792355710494-713cb1cb-86a2-40e5-af3d-8281f4daaa5d.jpeg",
-        "t": "بیستوری ۱۲۷| نازنین آرین| دندانپزشکی که کتابفروش شد"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T09:55:19Z",
+        "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1795254869482-2e0f4113-0178-403b-9838-543e002d6ea7.jpeg",
+        "link": "https://shows.acast.com/bistoori/episodes/bistoori134",
+        "title": "بیستوری ۱۳۴| سپنج ۳| با حضور فیروزه گلسرخی و افشین قناد"
+      },
       {
         "at": "2026-11-20T15:12:27Z",
         "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1795187533912-bb90e67d-b8c0-40b2-9062-6b815ff0d80f.jpeg",
@@ -60997,12 +61003,6 @@
         "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1794503850902-6c7822fe-2ec8-4d6b-a8dd-315197c3719f.jpeg",
         "link": "https://shows.acast.com/bistoori/episodes/bistoori132",
         "title": "بیستوری ۱۳۲| فرید هاشم نژاد: دندانسازی؛ چالشهای امروز و چشم انداز فردا"
-      },
-      {
-        "at": "2026-11-01T19:25:44Z",
-        "i": "https://assets.pippa.io/shows/6302f99289c44f001281e16a/1793560862877-a3e6a7e1-5440-4129-b121-003874816939.jpeg",
-        "link": "https://shows.acast.com/bistoori/episodes/bistoori131b",
-        "title": "بیستوری ۱۳۱| نازنین ادیبی بخش دوم: فرهنگ سازمانی در اشترومن خاورمیانه"
       }
     ],
     "recent_30d": [
@@ -61017,7 +61017,7 @@
       2,
       3,
       4,
-      6
+      7
     ],
     "status": "active"
   },
@@ -67381,10 +67381,10 @@
     "status": "active"
   },
   "podcast-ktab-jibi": {
-    "avg_gap_days": 16.4,
+    "avg_gap_days": 17.0,
     "avg_length": 64,
     "episodes": 143,
-    "eps_365": 23,
+    "eps_365": 22,
     "eps_90": 6,
     "first_at": "2020-11-13",
     "first_year": 1399,
@@ -98529,8 +98529,8 @@
       0,
       11,
       7,
-      8,
-      7,
+      14,
+      1,
       11,
       0,
       4
