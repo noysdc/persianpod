@@ -251,6 +251,10 @@
     "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://shenoto.net/service/api/feed/Masnavi-Manavi"
   },
+  "mtaors": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feeds.simplecast.com/U4MnbHBx"
+  },
   "nadr-nadrpor": {
     "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://shenoto.net/service/api/feed/Nader-Naderpour"
