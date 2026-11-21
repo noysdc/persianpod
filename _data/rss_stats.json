@@ -45251,8 +45251,8 @@
       2,
       0,
       0,
-      0,
-      9,
+      1,
+      8,
       1,
       0,
       0,
@@ -65056,10 +65056,10 @@
     "status": "stopped"
   },
   "podcast-fotbal-lb": {
-    "avg_gap_days": 6.5,
+    "avg_gap_days": 6.6,
     "avg_length": 149,
     "episodes": 647,
-    "eps_365": 57,
+    "eps_365": 56,
     "eps_90": 11,
     "first_at": "2019-06-20",
     "first_year": 1398,
