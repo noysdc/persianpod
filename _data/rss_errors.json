@@ -115,10 +115,6 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://bonyantakvin.ir/feed/podcast/sazandegi/"
   },
-  "lzt-dniai-ktab": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
-    "rss": "https://feed.podkadeh.cloud/podcastxml/lezate-donyaye-ketab.xml"
-  },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://www.malino.co/feed/podcast/malinopodcast/"
