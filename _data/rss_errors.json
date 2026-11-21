@@ -335,6 +335,10 @@
     "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://shenoto.net/service/api/feed/travelmelody"
   },
+  "radio-fol-astk": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://api.sokanacademy.com/api/podcast/feed"
+  },
   "radio-ghjrtaim": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://qajartime.com/feed/podcast/radioqajartime/"
@@ -430,10 +434,6 @@
   "shahnamh-khodmoni": {
     "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://shenoto.net/service/api/feed/shahname"
-  },
-  "shar-o-ghsh-khoani": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
-    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "shar-o-tranh-hai-amir-khoshaoi": {
     "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
