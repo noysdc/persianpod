@@ -1,27 +1,28 @@
 ## گزارش تأیید و انتقال
 
-- منتقل‌شده از `_drafts/` به `_podcasts/`: **19**
-- ردشده (تکراری یا از قبل موجود): 0
+- منتقل‌شده از `_drafts/` به `_podcasts/`: **18**
+- ردشده (تکراری یا از قبل موجود): 1
 - در `_blocked/` (دست‌نخورده، منتشر نمی‌شود): **207**
 
 ### منتقل‌شده
-- `asnad-mlki-raij.md`
-- `bors-namh-ba-alirza-ghdrblnd.md`
-- `bot-kmp-knkor.md`
-- `chragh-khoab.md`
-- `fors-mazhor.md`
-- `fraaind-rabth.md`
-- `gftgo.md`
-- `ghdrt-aadt-ktab-soti.md`
-- `iad-bgirid-anglisi-shbt-knid.md`
-- `mrori-br-ktab-astad-ashgh-zndgi-namh-prfsor-hsabi.md`
-- `podcast-mamari-alf-sad.md`
-- `podcast-mshorp.md`
-- `podcast-satori.md`
-- `radio-drkht.md`
-- `radio-pol-nioz.md`
-- `radio-pzshki-fankshnal.md`
-- `sog-madr.md`
-- `srot-khamosh-silent-wealth.md`
-- `traoshat-drhm-zhn-mn.md`
+- `alhiat.md`
+- `bidari-zhn.md`
+- `dansti-hai-lknt-zban.md`
+- `deine-band-ba-ok-danke-tsch-ss.md`
+- `dniai-slamt.md`
+- `ghsh-mrdm.md`
+- `hzarto.md`
+- `ktab-soti-ba-sdai-smira.md`
+- `ktab-soti-bad-az-ashgh-ba-sdai-msi-godini.md`
+- `ktab-soti-msyolit-o-sazndgi.md`
+- `pas-pas.md`
+- `raz-mgo.md`
+- `rikaori.md`
+- `shstmin-fraz.md`
+- `tarikh-ashghal-airan-dr-1320.md`
+- `tk-aahng.md`
+- `tmashai-ghrob.md`
+- `zhn-aaram-o-khlagh.md`
 
+### ردشده
+- ghsh-hai-fsghli-ha-archives.md — تکراری (عنوان و سازنده یکسان) با `podcast-archives.md`؛ در _drafts ماند. اگر مطمئنی تکراری نیست FORCE=1
