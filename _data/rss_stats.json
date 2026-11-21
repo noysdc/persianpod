@@ -4201,7 +4201,7 @@
       }
     ],
     "recent_30d": [
-      18,
+      17,
       6,
       19,
       3,
@@ -5081,8 +5081,8 @@
       0,
       0,
       6,
-      10,
-      18,
+      11,
+      17,
       17,
       5,
       0,
@@ -63365,7 +63365,7 @@
       }
     ],
     "recent_30d": [
-      6,
+      4,
       0,
       0,
       0,
@@ -67564,20 +67564,26 @@
     "status": "active"
   },
   "podcast-kafh-bist-ta-si": {
-    "avg_length": 63,
-    "episodes": 106,
-    "eps_365": 0,
-    "eps_90": 0,
+    "avg_length": 62,
+    "episodes": 107,
+    "eps_365": 1,
+    "eps_90": 1,
     "first_at": "2017-01-03",
     "first_year": 1395,
-    "last": "1404/03/13",
-    "last_at": "2025-06-03T16:26:46Z",
-    "last_link": "https://shows.acast.com/20ta30/episodes/nabehengam-3-12",
-    "last_title": "چرا شاخص‌ها همه‌چیز را نمی‌گویند؟",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T16:25:18Z",
+    "last_link": "https://shows.acast.com/20ta30/episodes/s4e1-why-wait-for-dialogue",
+    "last_title": "چرا برای گفت‌وگو منتظر دیگری بمانیم؟",
     "max_length": 127,
     "median_length": 58,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/626c2af04e6d72001222399b/e/6b01c5eed0e980d0cf5594a4/media.mp3",
+        "at": "2026-11-21T16:25:18Z",
+        "i": "https://assets.pippa.io/shows/626c2af04e6d72001222399b/1795278273269-c7016a54-f57d-4e88-b37c-0d0935e66dfd.jpeg",
+        "t": "چرا برای گفت‌وگو منتظر دیگری بمانیم؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/626c2af04e6d72001222399b/e/683f209e0fde3d62aa9d9d2d/media.mp3",
         "at": "2025-06-03T16:26:46Z",
@@ -67619,15 +67625,15 @@
         "at": "2025-03-20T04:16:17Z",
         "i": "https://assets.pippa.io/shows/626c2af04e6d72001222399b/1742444129492-59920df7-e36f-45c7-a0d2-b8b3b326bb8d.jpeg",
         "t": "صنعت توسعه‌ی فردی یا صنعت توهم؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/626c2af04e6d72001222399b/e/67cc62978c2cf351b1e8845f/media.mp3",
-        "at": "2025-03-08T15:30:31Z",
-        "i": "https://assets.pippa.io/shows/626c2af04e6d72001222399b/1744886853279-d37eeebd-5744-4cd5-9b09-2a1389e2e179.jpeg",
-        "t": "پیش‌بینی یا توهمِ کنترل؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T16:25:18Z",
+        "i": "https://assets.pippa.io/shows/626c2af04e6d72001222399b/1795278273269-c7016a54-f57d-4e88-b37c-0d0935e66dfd.jpeg",
+        "link": "https://shows.acast.com/20ta30/episodes/s4e1-why-wait-for-dialogue",
+        "title": "چرا برای گفت‌وگو منتظر دیگری بمانیم؟"
+      },
       {
         "at": "2025-06-03T16:26:46Z",
         "i": "https://assets.pippa.io/shows/626c2af04e6d72001222399b/1748967575065-95b1340a-2275-415c-a13c-d05e955d208f.jpeg",
@@ -67639,12 +67645,6 @@
         "i": "https://assets.pippa.io/shows/626c2af04e6d72001222399b/1746988032618-dd297f07-e1a1-4558-b9a8-3ddd03e341f3.jpeg",
         "link": "https://shows.acast.com/20ta30/episodes/nabehengam-3-11",
         "title": "از مسئولیت تا عاملیت: ما چقدر در زندگی‌مان نقش داریم؟"
-      },
-      {
-        "at": "2025-04-03T15:34:08Z",
-        "i": "https://assets.pippa.io/shows/626c2af04e6d72001222399b/1743692602785-8d86e772-8997-4e82-b62e-ec0444f0c2ac.jpeg",
-        "link": "https://shows.acast.com/20ta30/episodes/nabehengam-3-10",
-        "title": "خلاقیت در عصر هوش مصنوعی"
       }
     ],
     "recent_30d": [
@@ -67659,7 +67659,7 @@
       0,
       0,
       0,
-      0
+      1
     ],
     "status": "active"
   },
@@ -90086,8 +90086,8 @@
       1,
       2,
       0,
-      15,
-      22
+      17,
+      20
     ],
     "status": "active"
   },
@@ -94607,8 +94607,8 @@
       13,
       0,
       7,
-      48,
-      101,
+      49,
+      100,
       85,
       98,
       77,
