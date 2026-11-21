@@ -23,6 +23,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
+  "aapartaid-jnsiti": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://podcast.thermmedia.com/feed/podcast/gender-apartheid/"
+  },
   "aghtsad-bama": {
     "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://shenoto.net/feed/BAMAECONOMY"
@@ -286,6 +290,10 @@
   "pnah-br-sda": {
     "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://shenoto.net/service/api/feed/Refuge-in-sound"
+  },
+  "podcast-aaoa": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://podcast.thermmedia.com/feed/podcast/avapodcast/"
   },
   "podcast-farsi-ansank": {
     "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
