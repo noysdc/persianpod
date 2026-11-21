@@ -111,6 +111,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://www.spreaker.com/show/7177177/episodes/feed"
   },
+  "lzt-dniai-ktab": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://feed.podkadeh.cloud/podcastxml/lezate-donyaye-ketab.xml"
+  },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://www.malino.co/feed/podcast/malinopodcast/"
@@ -148,7 +152,7 @@
     "rss": "https://tehranpodcast.ir/category/satori/feed/"
   },
   "pzhoak-mahor": {
-    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/pejvakemahoor/feed/"
   },
   "radio-drkht": {
