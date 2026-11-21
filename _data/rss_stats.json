@@ -59750,19 +59750,25 @@
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.9,
     "avg_length": 16,
-    "episodes": 46,
-    "eps_365": 46,
-    "eps_90": 46,
+    "episodes": 47,
+    "eps_365": 47,
+    "eps_90": 47,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/08/29",
-    "last_at": "2026-11-20T05:28:59Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6affda9b18a3c93bdb905800",
-    "last_title": "Disney #8 | کمپین تبلیغاتی «میرم دیزنی‌ورلد» و بازاریابی لحظه‌ای دیزنی چطوری بود؟",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T10:17:08Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6b016fa44f7f96174df2bb11",
+    "last_title": "Disney #9 | چرا دیزنی با هفت میلیارد دلار استودیو پیکسار رو خرید؟",
     "max_length": 115,
     "median_length": 20,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b016fa44f7f96174df2bb11/media.mp3",
+        "at": "2026-11-21T10:17:08Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795256183966-a315dd78-e174-464b-9281-59aa175908bd.jpeg",
+        "t": "Disney #9 | چرا دیزنی با هفت میلیارد دلار استودیو پیکسار رو خرید؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6affda9b18a3c93bdb905800/media.mp3",
         "at": "2026-11-20T05:28:59Z",
@@ -59804,15 +59810,15 @@
         "at": "2026-11-12T18:48:03Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794509191116-4d20860c-074f-46ba-9b6d-d4caf11f5382.jpeg",
         "t": "Disney #2 | اولین انیمیشن دیزنی که به سالن‌های سینما رفت چی بود؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6af48edd3709f3cff23b9d85/media.mp3",
-        "at": "2026-11-11T15:50:52Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794412151410-14b7b211-3c22-4b76-8b6c-15948ca0d938.jpeg",
-        "t": "Disney #1 | دنیای کارتون و انیمیشن قبل از دیزنی چه شکلی بود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T10:17:08Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795256183966-a315dd78-e174-464b-9281-59aa175908bd.jpeg",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6b016fa44f7f96174df2bb11",
+        "title": "Disney #9 | چرا دیزنی با هفت میلیارد دلار استودیو پیکسار رو خرید؟"
+      },
       {
         "at": "2026-11-20T05:28:59Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795152264666-c70b6fb5-58df-4c6d-89b6-04e33d1251ae.jpeg",
@@ -59824,12 +59830,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795066977156-7485f5fd-c1fa-41c0-9a1b-0932016f0e0b.jpeg",
         "link": "https://shows.acast.com/business-stories-podcast/episodes/6afe8d0ef5fd2d631cc718dc",
         "title": "Disney #7 | داستان افتتاح پارک دیزنی‌لند و ساخت برنامه تلویزیونی دیزنی چی بود؟"
-      },
-      {
-        "at": "2026-11-17T19:09:50Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1794942443329-7865bd2b-73e1-4724-9d11-e55370ea4ea2.jpeg",
-        "link": "https://shows.acast.com/business-stories-podcast/episodes/6afca67ebc3a8347410c3306",
-        "title": "Disney #6 | ماجرای ساخت انیمیشن سفید برفی و حماقت دیزنی چی بود؟"
       }
     ],
     "recent_30d": [
@@ -59844,7 +59844,7 @@
       0,
       0,
       17,
-      29
+      30
     ],
     "status": "active"
   },
