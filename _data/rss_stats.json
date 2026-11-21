@@ -3159,10 +3159,10 @@
     "status": "active"
   },
   "accord": {
-    "avg_gap_days": 11.7,
+    "avg_gap_days": 11.9,
     "avg_length": 3,
     "episodes": 53,
-    "eps_365": 32,
+    "eps_365": 31,
     "eps_90": 13,
     "first_at": "2025-06-27",
     "first_year": 1404,
@@ -75574,10 +75574,10 @@
     "status": "stopped"
   },
   "radio-astartap-360": {
-    "avg_gap_days": 13.0,
+    "avg_gap_days": 13.2,
     "avg_length": 5,
     "episodes": 343,
-    "eps_365": 29,
+    "eps_365": 28,
     "eps_90": 10,
     "first_at": "2019-04-19",
     "first_year": 1398,
@@ -75655,8 +75655,8 @@
       0,
       0,
       3,
-      2,
-      4,
+      3,
+      3,
       2,
       3,
       5
