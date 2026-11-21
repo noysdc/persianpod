@@ -135,13 +135,25 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.dotcast.org/p/1orxtms6/feed.xml"
   },
+  "podcast-mshorp": {
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://tehranpodcast.ir/category/mashverpp/feed/"
+  },
   "podcast-obmstr-plas": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://webmasterplus.ir/feed/"
   },
+  "podcast-satori": {
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://tehranpodcast.ir/category/satori/feed/"
+  },
   "pzhoak-mahor": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/pejvakemahoor/feed/"
+  },
+  "radio-drkht": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
+    "rss": "https://derakht.radio/feed/podcast.xml"
   },
   "radio-ghjrtaim": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
