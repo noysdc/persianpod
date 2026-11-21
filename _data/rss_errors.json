@@ -1,8 +1,4 @@
 {
-  "60-sanih-ktab": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/feed/60sanieketab"
-  },
   "aajil": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feeds.libsyn.com/419687/rss"
@@ -10,10 +6,6 @@
   "aamozsh-aalmani-ba-doich-kst": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/deutschcast/feed/"
-  },
-  "aamozsh-ainstagram": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/instagram"
   },
   "aamozsh-blak-chin-o-kripto-ha": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -23,29 +15,9 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
-  "aghtsad-bama": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/feed/BAMAECONOMY"
-  },
-  "ahmd-shamlo": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Ahmad-Shamlou"
-  },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
-  },
-  "akhlagh-brai-nojoanan": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/AkhlaghNojavanan"
-  },
-  "alf-ghaf": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/alefquf"
-  },
-  "ali-akbr-iaghi-tbar": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/yaghitabar"
   },
   "archgap-padkst-mamari-aark-gp": {
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
@@ -55,14 +27,6 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://loveziba.com/feed/"
   },
-  "asmaail-khoii": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Esmaeilkhoei"
-  },
-  "asranh-hnr": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Eveningart"
-  },
   "baehsan": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
@@ -71,25 +35,13 @@
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://musiceiranian.ir/type/audio/feed"
   },
-  "bazar-srmaih-bors": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/feed/bazaresarmaye"
-  },
   "bazariabi-ba-hmid-sbaghi": {
     "error": "ValueError: no items in feed",
     "rss": "https://rss.castbox.fm/everest/08e76cc25e4849cfb964b07b784572cb.xml"
   },
-  "bimh-saman": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/saman-insurance"
-  },
   "bookafe-bokafh": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/saharnik1981/feed.xml"
-  },
-  "darochi": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/darochi"
   },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
@@ -98,10 +50,6 @@
   "dastan-hai-tarikhi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://qajartime.com/feed/podcast/historical-stories/"
-  },
-  "dastan-mamari": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/dastanmemari"
   },
   "didar-ba-hafz": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -114,10 +62,6 @@
   "dopamin": {
     "error": "RuntimeError: HTTP 410 (Gone) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/dopaminecast/feed.xml"
-  },
-  "error404": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/feed/error404"
   },
   "farks-ba-aitska": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -135,14 +79,6 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
-  "frahosh": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Frahosh"
-  },
-  "frogh-frkhzad": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Farokhzad"
-  },
   "galri-film": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
@@ -151,49 +87,17 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://media.rss.com/hirbod/feed.xml"
   },
-  "hafz-khoani-bh-roait-ahmd-shamlo": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/HAfEZ-e-SHAMLU"
-  },
   "hnr-jng": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://namlik.me/rss/318"
-  },
-  "hrf-hsab": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/harf-e-hesab"
   },
   "hs-khob": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.pod.co/hese-khob"
   },
-  "hsin-mnzoi": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Hossein-Monzavi"
-  },
-  "hzar-sal-ghzl-farsi": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Hezar-Saal-Ghaza"
-  },
-  "idallh-roiaii": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Yadollah-Royaei"
-  },
-  "kafh-bzrgsali": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/adultclub"
-  },
-  "kafh-gldon": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/cafegoldoon"
-  },
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/%D8%AE%D8%A7%D8%B7%D8%B1%D9%87-%D8%A7%D9%86%DA%AF%DB%8C%D8%B2/feed"
-  },
-  "khsro-o-shirin-bh-roait-astad-saad-baghri": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/khosroshirin"
   },
   "kit-aahng": {
     "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
@@ -202,10 +106,6 @@
   "kodkan-mana": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
-  },
-  "kshor-shahnamh-khoansh-dastan-hai-shahnamh-frdosi": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/KeshvareShahnam"
   },
   "ktab-soti-7954218": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -223,121 +123,25 @@
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
   },
-  "mbl-ghrmz": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Mobleqermez"
-  },
-  "mhajrt-ba-elovisa": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Elovisa"
-  },
-  "mhdi-akhoan-sals": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Akhavan-Sales"
-  },
-  "mhdi-hmidi-shirazi": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Hamidi-Shirazi"
-  },
-  "mhmdhsin-tbatbayian-mhmdmhdi-mnsori": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/feed/ZabanDirectory"
-  },
-  "mrkz-mzakrh-airan": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/ftehrani"
-  },
-  "mrtzi-rjb-nia": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/ertebatesabz"
-  },
-  "msnoi-manoi": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Masnavi-Manavi"
-  },
-  "nadr-nadrpor": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Nader-Naderpour"
-  },
-  "nima-ioshij": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Nima-Youshij"
-  },
-  "nima-o-miras-ao": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Mirasenima"
-  },
-  "noid-kmali": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/NavidKamali"
-  },
-  "noissh-kst": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Nevisesh"
-  },
-  "nshat-rkh": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Neshatrokh"
-  },
   "o-ain-tnha-bazi-jhan-bod": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
+    "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
-  },
-  "pnah": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.com/service/api/feed/PANAH"
-  },
-  "pnah-br-sda": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Refuge-in-sound"
-  },
-  "podcast-farsi-ansank": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/ensanak"
-  },
-  "podcast-farsi-hai-chnl-hichannelpodcast-hai-chnl": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/HiChannelPodcast"
-  },
-  "podcast-farsi-kripto-namh": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Crypto-nameh"
   },
   "podcast-farsi-mscht": {
     "error": "ValueError: no items in feed",
     "rss": "https://feeds.acast.com/public/shows/6722758777f0e7cbfba1f7a2"
   },
-  "podcast-hnr-o-mamari-oadi": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Vadi-podcast"
-  },
   "podcast-khakstri-roan": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.dotcast.org/p/1orxtms6/feed.xml"
-  },
-  "podcast-mamari-piko-aark": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Pico-Arch"
   },
   "podcast-obmstr-plas": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://webmasterplus.ir/feed/"
   },
-  "podcast-orzshi-gaiton-hal-guyton-hall": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/guyton-hall"
-  },
-  "podcast-slh-aakhr": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/feed/LasttPeace"
-  },
   "pzhoak-mahor": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/pejvakemahoor/feed/"
-  },
-  "radio-aahng-sfr": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/travelmelody"
   },
   "radio-ghjrtaim": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -363,18 +167,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/radiovaj/feed/"
   },
-  "radio-roait": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/radiorevayat"
-  },
-  "radio-saikt-mdrsh-alm-o-fnaori-koantom": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/psiketcenter"
-  },
-  "radio-shb-thran": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Tehrannightradio"
-  },
   "radio-tion": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/tune/feed/"
@@ -383,29 +175,13 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/tajrobeh/feed/"
   },
-  "radiomali99": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/RadioMali99"
-  },
   "radioni": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/ney/feed/"
   },
-  "raoi": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Raavi"
-  },
-  "rdram": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/REDRUM"
-  },
   "roait-ahd": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://ajalallah.com/category/sokhanraniha/akharinsokhanrani/revayat-ahd/feed/"
-  },
-  "roan-diar": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://feeds.acast.com/public/shows/683578a6998551779f1c96b1"
   },
   "roanshnasi-bh-zban-sadh": {
     "error": "ValueError: no items in feed",
@@ -415,49 +191,13 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/37c7e32c/podcast/rss"
   },
-  "roanshnasi-jamah": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/feed/dr-alishamisa"
-  },
   "roanshnasi-piman": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://paymanpsychology.com/feed/"
   },
-  "rza-brahni": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Reza-Baraheni"
-  },
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
-  },
-  "shahnamh-khodmoni": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/shahname"
-  },
-  "shar-o-tranh-hai-amir-khoshaoi": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/AmirKhoshavi"
-  },
-  "simin-bhbhani": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Simin-Behbehani"
-  },
-  "spidh-ghsh-go": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/sepidehghesegoo"
-  },
-  "tarikh-bihghi-a-tarikh-beyhaqi": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/Tarikhbeyhaghi"
-  },
-  "tarikkhanh-tarikh": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/t-tarikh"
-  },
-  "yuri-on-radio-iori-br-radio": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://shenoto.net/service/api/feed/yurionradio"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
