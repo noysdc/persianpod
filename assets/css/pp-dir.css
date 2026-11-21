@@ -137,3 +137,19 @@
 .pd-status--inactive{background:#eab308}
 .pd-status--stopped{background:#dc2626}
 .pd-status--unknown,.pd-status--ended{background:#9ca3af}
+
+
+/* معرفی شفاف پادکست سازنده‌ی پرشین‌پاد */
+.pd-owner-feature{margin:18px 0 22px;padding:16px;border:1px solid var(--line);border-radius:22px;background:var(--card);box-shadow:0 8px 26px var(--glow-soft)}
+.pd-owner-heading{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.pd-owner-heading h2{margin:0;font-size:1.2rem}
+.pd-owner-kicker{font-size:.78rem;color:var(--mut)}
+.pd-owner-card{display:flex;align-items:center;gap:16px;color:var(--ink);text-decoration:none;border-radius:16px}
+.pd-owner-card:focus-visible{outline:3px solid #08cb00;outline-offset:4px}
+.pd-owner-card>img{flex:none;width:112px;height:112px;object-fit:cover;border-radius:18px}
+.pd-owner-copy{display:grid;gap:6px;min-width:0;line-height:1.8}
+.pd-owner-copy>strong{font-size:1.05rem}
+.pd-owner-copy>span:not(.pd-owner-link){color:var(--mut);font-size:.9rem}
+.pd-owner-link{width:max-content;max-width:100%;color:var(--acc);font-size:.88rem;font-weight:800}
+.pd-owner-card:hover .pd-owner-link{text-decoration:underline}
+@media(max-width:599px){.pd-owner-feature{padding:13px}.pd-owner-card{align-items:flex-start;gap:12px}.pd-owner-card>img{width:76px;height:76px;border-radius:14px}.pd-owner-copy>strong{font-size:.96rem}.pd-owner-copy>span:not(.pd-owner-link){font-size:.83rem}.pd-owner-link{font-size:.82rem}}
