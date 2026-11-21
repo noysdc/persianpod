@@ -32,7 +32,7 @@
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
   "baigani-ha-sda": {
-    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
     "rss": "https://musiceiranian.ir/type/audio/feed"
   },
   "bazariabi-ba-hmid-sbaghi": {
@@ -43,10 +43,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/saharnik1981/feed.xml"
   },
-  "danlod-raigan-ktab-soti-panth-aa": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
-    "rss": "https://panteashop.ir/feed/"
-  },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
@@ -54,10 +50,6 @@
   "dastan-hai-tarikhi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://qajartime.com/feed/podcast/historical-stories/"
-  },
-  "dastan-soti-kodkan": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
-    "rss": "https://www.istgahekoodak.ir/category/childrens-audio-stories/feed/"
   },
   "didar-ba-hafz": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
