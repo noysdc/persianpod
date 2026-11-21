@@ -15,7 +15,7 @@ city: ""
 start_year: ""
 episode_count: 56
 frequency: "دو هفته یک‌بار"
-logo: "/assets/img/podcasts/ERROR404.webp"
+logo: "/assets/img/podcasts/error404.webp"
 rss: "https://shenoto.net/feed/error404"
 castbox_channel: "https://castbox.fm/ch/6467353"
 email: "podcasterror404.m@gmail.com"
