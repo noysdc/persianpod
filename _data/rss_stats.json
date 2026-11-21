@@ -25371,7 +25371,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 9,
     "episodes": 249,
-    "eps_365": 171,
+    "eps_365": 170,
     "eps_90": 0,
     "first_at": "2020-10-17",
     "first_year": 1399,
@@ -25445,7 +25445,7 @@
       30,
       24,
       33,
-      31,
+      30,
       23,
       12,
       8,
@@ -47075,7 +47075,7 @@
     "avg_gap_days": 1.1,
     "avg_length": 7,
     "episodes": 1004,
-    "eps_365": 326,
+    "eps_365": 325,
     "eps_90": 81,
     "first_at": "2023-11-21",
     "first_year": 1402,
@@ -71687,8 +71687,8 @@
     "recent_30d": [
       2,
       1,
-      2,
-      1,
+      3,
+      0,
       0,
       0,
       2,
@@ -76548,7 +76548,7 @@
       }
     ],
     "recent_30d": [
-      2,
+      1,
       0,
       0,
       0,
@@ -81149,8 +81149,8 @@
       5,
       4,
       4,
-      2,
       3,
+      2,
       2,
       2,
       3,
@@ -83000,19 +83000,25 @@
   "rozanh-hai-tndrsti": {
     "avg_gap_days": 1.1,
     "avg_length": 17,
-    "episodes": 35,
-    "eps_365": 35,
-    "eps_90": 35,
+    "episodes": 36,
+    "eps_365": 36,
+    "eps_90": 36,
     "first_at": "2026-10-14",
     "first_year": 1405,
-    "last": "1405/08/29",
-    "last_at": "2026-11-20T03:00:00Z",
-    "last_link": "https://rss.com/podcasts/salamati/3322106",
-    "last_title": "درمان طبیعی درد مفاصل در آشپزخانه: خاموش کردن زنگ خطر التهاب با معجزه ادویه‌ها و روغن‌ها",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T03:00:00Z",
+    "last_link": "https://rss.com/podcasts/salamati/3322117",
+    "last_title": "علت بیدار شدن نیمه‌شب برای دستشویی: راز پنهان فشار خون و تخلیه مایعات انباشته در پاها",
     "max_length": 30,
     "median_length": 18,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://content.rss.com/episodes/406068/3322117/salamati/2026_11_15_18_38_44_07adc65e-f3ed-45a4-802e-431b37a81678.mp3",
+        "at": "2026-11-21T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261115_183836_e5435a89e06ad09fd23b6195939e20bc.jpg",
+        "t": "علت بیدار شدن نیمه‌شب برای دستشویی: راز پنهان فشار خون و تخلیه مایعات انباشته در پاها"
+      },
       {
         "a": "https://content.rss.com/episodes/406068/3322106/salamati/2026_11_15_18_35_21_0d0133ac-38a5-44c8-9392-ab2d47cd2a5c.mp3",
         "at": "2026-11-20T03:00:00Z",
@@ -83054,15 +83060,15 @@
         "at": "2026-11-14T03:00:00Z",
         "i": "https://media.rss.com/salamati/ep_cover_20261108_191317_30c09f523459d632991f3d2f2f4a022f.jpg",
         "t": "درمان کبد چرب با تغییرات ساده آشپزخانه: نجات کارخانه سم‌زدایی بدن بدون داروی شیمیایی"
-      },
-      {
-        "a": "https://content.rss.com/episodes/406068/3303316/salamati/2026_11_08_19_11_33_b7b61a72-b0ba-4599-8a89-1e5eedb628fb.mp3",
-        "at": "2026-11-13T03:00:00Z",
-        "i": "https://media.rss.com/salamati/ep_cover_20261108_191122_4d08d6a8d8becc3a03444d471e62d728.jpg",
-        "t": "اشتباهات رایج در تزریق قلم انسولین: نکات طلایی برای کنترل قند بدون درد و افت ناگهانی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T03:00:00Z",
+        "i": "https://media.rss.com/salamati/ep_cover_20261115_183836_e5435a89e06ad09fd23b6195939e20bc.jpg",
+        "link": "https://rss.com/podcasts/salamati/3322117",
+        "title": "علت بیدار شدن نیمه‌شب برای دستشویی: راز پنهان فشار خون و تخلیه مایعات انباشته در پاها"
+      },
       {
         "at": "2026-11-20T03:00:00Z",
         "i": "https://media.rss.com/salamati/ep_cover_20261115_183505_d1cb8bab00a8539568a6783e6f33df25.jpg",
@@ -83074,12 +83080,6 @@
         "i": "https://media.rss.com/salamati/ep_cover_20261115_183325_73cef7c525f02eb1947f7a37705e02c3.jpg",
         "link": "https://rss.com/podcasts/salamati/3322104",
         "title": "جلوگیری از تحلیل عضلات بعد از ۵۰ سالگی: راز حفظ اسکلت بدن و مقابله با سارکوپنیا"
-      },
-      {
-        "at": "2026-11-18T03:00:00Z",
-        "i": "https://media.rss.com/salamati/ep_cover_20261111_205816_d1c3b5546a939837568a90998b476c38.jpg",
-        "link": "https://rss.com/podcasts/salamati/3312367",
-        "title": "چرا قدرت پنجه دست کلید طول عمر است؟ راز باز کردن شیشه مربا و حفظ استقلال در میانسالی"
       }
     ],
     "recent_30d": [
@@ -83094,7 +83094,7 @@
       0,
       0,
       9,
-      26
+      27
     ],
     "status": "active"
   },

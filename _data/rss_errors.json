@@ -68,7 +68,7 @@
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
   "baigani-ha-sda": {
-    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
     "rss": "https://musiceiranian.ir/type/audio/feed"
   },
   "bazar-srmaih-bors": {
@@ -334,10 +334,6 @@
   "radio-aahng-sfr": {
     "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://shenoto.net/service/api/feed/travelmelody"
-  },
-  "radio-fol-astk": {
-    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://api.sokanacademy.com/api/podcast/feed"
   },
   "radio-ghjrtaim": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
