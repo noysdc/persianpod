@@ -72,11 +72,6 @@
     // دو چرخش کاملاً مستقل: هیچ عضو گروه غیرفعال وارد چرخه‌ی فعال‌ها نمی‌شود.
     var activeOrder = rotate(base(active), scope + "|active", STEP);
     var inactiveOrder = rotate(base(inactive), scope + "|inactive", STEP);
-    // نویز در ابتدای فهرست اصلی صفحه‌ی خانه ثابت می‌ماند؛ بقیه‌ی پادکست‌ها همچنان چرخشی‌اند.
-    if (scope === "home:all") {
-      var noysIndex = activeOrder.findIndex(function (p) { return keyOf(p) === "noys"; });
-      if (noysIndex > 0) activeOrder.unshift(activeOrder.splice(noysIndex, 1)[0]);
-    }
     return activeOrder.concat(inactiveOrder);
   }
 
