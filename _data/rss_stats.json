@@ -79078,21 +79078,26 @@
     "status": "active"
   },
   "radio-oaldgri": {
-    "avg_gap_days": 61.6,
+    "avg_gap_days": 54.2,
     "avg_length": 22,
-    "episodes": 80,
-    "eps_365": 6,
-    "eps_90": 4,
+    "episodes": 81,
+    "eps_365": 7,
+    "eps_90": 5,
     "first_at": "2021-10-11",
     "first_year": 1400,
-    "last": "1405/08/13",
-    "last_at": "2026-11-04T02:30:00Z",
-    "last_link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/6ae9fb6b6bf03d95801f137c",
-    "last_title": "چطور با کودک به زبانِ هماهنگ برسیم؟ ( گام های عملی برای همسویی والد و فرزند)",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T06:37:43Z",
+    "last_link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/6b013c384f7f96174de0652c",
+    "last_title": "آراد چطور وارد باشگاه شد و ماند؟ روایتی از راهبری آگاهانه کودک",
     "max_length": 62,
     "median_length": 26,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/6b013c384f7f96174de0652c/media.mp3",
+        "at": "2026-11-21T06:37:43Z",
+        "t": "آراد چطور وارد باشگاه شد و ماند؟ روایتی از راهبری آگاهانه کودک"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/6ae9fb6b6bf03d95801f137c/media.mp3",
         "at": "2026-11-04T02:30:00Z",
@@ -79130,15 +79135,14 @@
         "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/68ef34e7ce402940bc5e952f/media.mp3",
         "at": "2025-10-15T05:45:09Z",
         "t": "اپیزود 72 - معرفی کتاب نه تنبیه و نه تشویق"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/62e78125a143fb001220f40c/e/6864d99d2afa19dc3df8f255/media.mp3",
-        "at": "2025-07-02T07:02:52Z",
-        "i": "https://assets.pippa.io/shows/62e78125a143fb001220f40c/1788852160388-d54d8633-0260-4422-baec-1fdb0d722012.jpeg",
-        "t": "مجموعه‌ی آموزشی نکته های کلیدی رشد کودک از یکسالگی تا سه سالگی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T06:37:43Z",
+        "link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/6b013c384f7f96174de0652c",
+        "title": "آراد چطور وارد باشگاه شد و ماند؟ روایتی از راهبری آگاهانه کودک"
+      },
       {
         "at": "2026-11-04T02:30:00Z",
         "link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/6ae9fb6b6bf03d95801f137c",
@@ -79148,12 +79152,6 @@
         "at": "2026-10-28T02:30:00Z",
         "link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/6ae0d5505a3cc3c4c4e20d38",
         "title": "چرا رابطه‌ی ما با کودک کوک نیست؟ (ریشه‌های تنش و ناهمسویی در رابطه والد - کودک)"
-      },
-      {
-        "at": "2026-10-14T02:30:00Z",
-        "i": "https://assets.pippa.io/shows/62e78125a143fb001220f40c/1793520917238-6bf0478e-786a-430d-9290-f08e5fa2ad82.jpeg",
-        "link": "https://shows.acast.com/rdo-oldr-dst-ronshns-od-o-old/episodes/20",
-        "title": "20 باور و رفتار غلط والد در سه سال اول زندگی کودک"
       }
     ],
     "recent_30d": [
@@ -79168,7 +79166,7 @@
       0,
       0,
       2,
-      2
+      3
     ],
     "status": "active"
   },
