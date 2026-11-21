@@ -4118,19 +4118,25 @@
   "aghtsad-o-siast-jhani": {
     "avg_gap_days": 4.5,
     "avg_length": 18,
-    "episodes": 219,
-    "eps_365": 80,
-    "eps_90": 19,
+    "episodes": 220,
+    "eps_365": 81,
+    "eps_90": 20,
     "first_at": "2023-12-16",
     "first_year": 1402,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T16:30:00Z",
-    "last_link": "https://dotcast.org/p/ctka8bck/lg8xcyu1qd/",
-    "last_title": "از دل اوپن‌ای‌آی تا فتح بازار هوش مصنوعی؛ آیا آنتروپیک جای چت‌جی‌پی‌تی را می‌گیرد؟",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T19:10:00Z",
+    "last_link": "https://dotcast.org/p/ctka8bck/s9rqdx1ij5/",
+    "last_title": "پشت پرده اختلالات آمریکا؛ حمله سایبری یا خطای هوش مصنوعی؟",
     "max_length": 72,
     "median_length": 21,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/ctka8bck/s9rqdx1ij5/2026-11-21-19-03-20.mp3",
+        "at": "2026-11-21T19:10:00Z",
+        "i": "https://feed.dotcast.org/e/ctka8bck/s9rqdx1ij5/2026-11-21-19-05-53.jpg",
+        "t": "پشت پرده اختلالات آمریکا؛ حمله سایبری یا خطای هوش مصنوعی؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/ctka8bck/lg8xcyu1qd/2026-11-17-14-20-03.mp3",
         "at": "2026-11-17T16:30:00Z",
@@ -4172,15 +4178,15 @@
         "at": "2026-10-25T13:30:00Z",
         "i": "https://feed.dotcast.org/e/ctka8bck/s9ezry24bt/2026-10-25-06-30-08.jpg",
         "t": "از ویتنام تا ایران؛ چرا قدرت نظامی همیشه تعیین‌کننده نتیجه جنگ نیست؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/ctka8bck/fdwirsxbpw/2026-10-21-12-51-35.mp3",
-        "at": "2026-10-21T16:30:00Z",
-        "i": "https://feed.dotcast.org/e/ctka8bck/fdwirsxbpw/2026-10-21-12-51-47.jpg",
-        "t": "توافق ترامپ با پوتین؛ شروع فصل تازه‌ای در جنگ اوکراین؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-21T19:10:00Z",
+        "i": "https://feed.dotcast.org/e/ctka8bck/s9rqdx1ij5/2026-11-21-19-05-53.jpg",
+        "link": "https://dotcast.org/p/ctka8bck/s9rqdx1ij5/",
+        "title": "پشت پرده اختلالات آمریکا؛ حمله سایبری یا خطای هوش مصنوعی؟"
+      },
       {
         "at": "2026-11-17T16:30:00Z",
         "i": "https://feed.dotcast.org/e/ctka8bck/lg8xcyu1qd/2026-11-17-14-23-00.jpg",
@@ -4192,12 +4198,6 @@
         "i": "https://feed.dotcast.org/e/ctka8bck/3hupilx6ii/2026-11-14-13-34-08.jpg",
         "link": "https://dotcast.org/p/ctka8bck/3hupilx6ii/",
         "title": "جهان چقدر با جنگ جهانی سوم فاصله دارد؟ آخرین فرصت برای نجات صلح"
-      },
-      {
-        "at": "2026-11-11T16:30:00Z",
-        "i": "https://feed.dotcast.org/e/ctka8bck/rcpxunx4ie/2026-11-11-13-25-50.jpg",
-        "link": "https://dotcast.org/p/ctka8bck/rcpxunx4ie/",
-        "title": "فرصت طلایی پوتین؛ سرنوشت اوکراین در دستان ترامپ؟"
       }
     ],
     "recent_30d": [
@@ -4212,7 +4212,7 @@
       7,
       5,
       7,
-      7
+      8
     ],
     "status": "active"
   },
