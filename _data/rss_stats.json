@@ -65642,8 +65642,8 @@
       }
     ],
     "recent_30d": [
-      4,
-      2,
+      5,
+      1,
       1,
       0,
       0,
@@ -78100,20 +78100,26 @@
   },
   "radio-hkait": {
     "avg_gap_days": 3.8,
-    "avg_length": 32,
-    "episodes": 216,
-    "eps_365": 95,
-    "eps_90": 45,
+    "avg_length": 33,
+    "episodes": 217,
+    "eps_365": 96,
+    "eps_90": 46,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/08/30",
-    "last_at": "2026-11-21T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/b1ad161e-e815-4cb5-8672-b01784596145/play.mp3?v=1",
-    "last_title": "یک شب بی خوابی - صادق چوبک",
+    "last": "1405/09/01",
+    "last_at": "2026-11-22T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7c003bf3-6a97-42df-901c-51173c688b9e/play.mp3?v=1",
+    "last_title": "طلاق - ایوان کلیما",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7c003bf3-6a97-42df-901c-51173c688b9e/play.mp3?v=1",
+        "at": "2026-11-22T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/7c003bf3-6a97-42df-901c-51173c688b9e/artwork.jpg?v=1",
+        "t": "طلاق - ایوان کلیما"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/b1ad161e-e815-4cb5-8672-b01784596145/play.mp3?v=1",
         "at": "2026-11-21T01:30:00Z",
@@ -78155,15 +78161,15 @@
         "at": "2026-11-15T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/22629747-20dd-4557-9a8d-ef76218d2a21/artwork.jpg?v=1",
         "t": "آنیوتا - آنتوان چخوف"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/dae8dfce-61f6-495d-a7e0-a6f9a2c61ad7/play.mp3?v=1",
-        "at": "2026-11-14T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/dae8dfce-61f6-495d-a7e0-a6f9a2c61ad7/artwork.jpg?v=1",
-        "t": "تقصیر خودته - عزیز نسین"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-22T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/7c003bf3-6a97-42df-901c-51173c688b9e/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7c003bf3-6a97-42df-901c-51173c688b9e/play.mp3?v=1",
+        "title": "طلاق - ایوان کلیما"
+      },
       {
         "at": "2026-11-21T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/b1ad161e-e815-4cb5-8672-b01784596145/artwork.jpg?v=1",
@@ -78175,12 +78181,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/2bc8150c-1396-4cbf-95e7-634a71d45532/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/2bc8150c-1396-4cbf-95e7-634a71d45532/play.mp3?v=1",
         "title": "جوجهُ سرکنده - اوراسیو کیروگا"
-      },
-      {
-        "at": "2026-11-19T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/033fc52d-9dda-4616-b871-7f47965302fe/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/033fc52d-9dda-4616-b871-7f47965302fe/play.mp3?v=1",
-        "title": "مجموعه نامرئی – بخش دوم (معرفی نویسنده و تحلیل داستان) – اشتفان تسوایگ"
       }
     ],
     "recent_30d": [
@@ -78195,7 +78195,7 @@
       8,
       9,
       8,
-      28
+      29
     ],
     "status": "active"
   },
