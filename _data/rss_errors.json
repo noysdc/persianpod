@@ -39,6 +39,10 @@
     "error": "ValueError: no items in feed",
     "rss": "https://rss.castbox.fm/everest/08e76cc25e4849cfb964b07b784572cb.xml"
   },
+  "bit-baigani": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://textmaker.ir/category/beat/feed/"
+  },
   "bookafe-bokafh": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/saharnik1981/feed.xml"
@@ -102,6 +106,10 @@
   "ktab-soti-msyolit-o-sazndgi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://bonyantakvin.ir/feed/podcast/sazandegi/"
+  },
+  "laghri": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://aliazad.ir/feed/"
   },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
