@@ -56204,19 +56204,25 @@
   "one-thousand-and-one-nights": {
     "avg_gap_days": 0.6,
     "avg_length": 11,
-    "episodes": 32,
-    "eps_365": 32,
-    "eps_90": 32,
+    "episodes": 33,
+    "eps_365": 33,
+    "eps_90": 33,
     "first_at": "2026-11-03",
     "first_year": 1405,
     "last": "1405/09/01",
-    "last_at": "2026-11-22T11:49:57Z",
-    "last_link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/1d61e32a-4b4a-4599-98e7-6e93f3cb29b4/play.mp3?v=1",
-    "last_title": "شب سی و یکم _ هزار و یک شب",
+    "last_at": "2026-11-22T19:01:38Z",
+    "last_link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/8a84b13a-c3f7-497e-8d3d-f5a7b70cd9b9/play.mp3?v=1",
+    "last_title": "شب سی و دوم _ هزار و یک شب",
     "max_length": 14,
     "median_length": 11,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/8a84b13a-c3f7-497e-8d3d-f5a7b70cd9b9/play.mp3?v=1",
+        "at": "2026-11-22T19:01:38Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/8a84b13a-c3f7-497e-8d3d-f5a7b70cd9b9/artwork.jpg?v=1",
+        "t": "شب سی و دوم _ هزار و یک شب"
+      },
       {
         "a": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/1d61e32a-4b4a-4599-98e7-6e93f3cb29b4/play.mp3?v=1",
         "at": "2026-11-22T11:49:57Z",
@@ -56258,15 +56264,15 @@
         "at": "2026-11-13T21:09:55Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/ec47e27c-8465-47ce-85e0-2dfdaca1765e/artwork.jpg?v=1",
         "t": "شب بیست و پنجم _ هزار و یک شب"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/e37032aa-2e72-49bf-930b-c0bf58c61932/play.mp3?v=1",
-        "at": "2026-11-12T03:47:04Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/e37032aa-2e72-49bf-930b-c0bf58c61932/artwork.jpg?v=1",
-        "t": "شب بیست و چهارم _هزار و یک شب"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-22T19:01:38Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/8a84b13a-c3f7-497e-8d3d-f5a7b70cd9b9/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/8a84b13a-c3f7-497e-8d3d-f5a7b70cd9b9/play.mp3?v=1",
+        "title": "شب سی و دوم _ هزار و یک شب"
+      },
       {
         "at": "2026-11-22T11:49:57Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/1d61e32a-4b4a-4599-98e7-6e93f3cb29b4/artwork.jpg?v=1",
@@ -56278,12 +56284,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/67a70b44-c979-4926-a77d-73347e5f3373/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/67a70b44-c979-4926-a77d-73347e5f3373/play.mp3?v=1",
         "title": "شب سی ام _ هزار و یک شب"
-      },
-      {
-        "at": "2026-11-21T16:02:37Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/457d2a4e-72db-4b96-9ced-8ec9db076c7b/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/457d2a4e-72db-4b96-9ced-8ec9db076c7b/play.mp3?v=1",
-        "title": "شب بیست و نهم _ هزار و یک شب"
       }
     ],
     "recent_30d": [
@@ -56298,7 +56298,7 @@
       0,
       0,
       0,
-      32
+      33
     ],
     "status": "active"
   },
@@ -69948,10 +69948,10 @@
     "status": "stopped"
   },
   "podcast-mhrangiz": {
-    "avg_gap_days": 26.5,
+    "avg_gap_days": 25.9,
     "avg_length": 59,
     "episodes": 112,
-    "eps_365": 14,
+    "eps_365": 13,
     "eps_90": 5,
     "first_at": "2022-12-10",
     "first_year": 1401,
@@ -95421,7 +95421,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4286,
-    "eps_365": 780,
+    "eps_365": 779,
     "eps_90": 247,
     "first_at": "2023-09-13",
     "first_year": 1402,
