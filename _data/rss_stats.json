@@ -21173,21 +21173,26 @@
     "status": "stopped"
   },
   "dniai-slamt": {
-    "avg_gap_days": 0.3,
-    "avg_length": 51,
-    "episodes": 10,
-    "eps_365": 10,
-    "eps_90": 10,
+    "avg_gap_days": 0.5,
+    "avg_length": 52,
+    "episodes": 11,
+    "eps_365": 11,
+    "eps_90": 11,
     "first_at": "2026-11-16",
     "first_year": 1405,
-    "last": "1405/08/29",
-    "last_at": "2026-11-20T12:41:46Z",
+    "last": "1405/09/01",
+    "last_at": "2026-11-22T10:19:38Z",
     "last_link": "https://persianmixradio.com",
-    "last_title": "دنیای سلامت",
-    "max_length": 57,
-    "median_length": 51,
+    "last_title": "دنیای سلامت: دندانپزشکی کودکان",
+    "max_length": 58,
+    "median_length": 52,
     "min_length": 46,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6afb09f921921e260269727e/e/6b02c1bac2063ef630f74fe8/media.mp3",
+        "at": "2026-11-22T10:19:38Z",
+        "t": "دنیای سلامت: دندانپزشکی کودکان"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6afb09f921921e260269727e/e/6b00400a73381802b4f032dd/media.mp3",
         "at": "2026-11-20T12:41:46Z",
@@ -21229,15 +21234,14 @@
         "at": "2026-11-16T16:19:23Z",
         "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1794845929392-6d44ea30-0ac0-451d-96e0-ad61321ff8c3.jpeg",
         "t": "دنیای سلامت"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6afb09f921921e260269727e/e/6afb1e45b0272e33d68a64db/media.mp3",
-        "at": "2026-11-16T15:16:21Z",
-        "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1794842171133-21f0c90f-c608-4b18-ae3c-5ac3a805843a.jpeg",
-        "t": "دنیای سلامت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-22T10:19:38Z",
+        "link": "https://persianmixradio.com",
+        "title": "دنیای سلامت: دندانپزشکی کودکان"
+      },
       {
         "at": "2026-11-20T12:41:46Z",
         "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1795178488572-35207fd5-d0e8-43e2-8422-0dc0df4ec909.jpeg",
@@ -21247,12 +21251,6 @@
       {
         "at": "2026-11-20T12:32:09Z",
         "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1795177909515-0deb7275-d4df-4e4a-87de-0479b102945c.jpeg",
-        "link": "https://persianmixradio.com",
-        "title": "دنیای سلامت"
-      },
-      {
-        "at": "2026-11-20T12:30:23Z",
-        "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1795177791616-06cead61-5791-4a44-8a73-9e3110d69d65.jpeg",
         "link": "https://persianmixradio.com",
         "title": "دنیای سلامت"
       }
@@ -21269,7 +21267,7 @@
       0,
       0,
       0,
-      10
+      11
     ],
     "status": "active"
   },
@@ -98268,10 +98266,10 @@
     "status": "inactive"
   },
   "zangetarikh": {
-    "avg_gap_days": 60.2,
+    "avg_gap_days": 66.4,
     "avg_length": 46,
     "episodes": 91,
-    "eps_365": 7,
+    "eps_365": 6,
     "eps_90": 2,
     "first_at": "2021-01-08",
     "first_year": 1399,
