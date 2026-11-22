@@ -78550,21 +78550,26 @@
     "status": "active"
   },
   "radio-hosh": {
-    "avg_gap_days": 0.6,
+    "avg_gap_days": 0.7,
     "avg_length": 15,
-    "episodes": 42,
-    "eps_365": 42,
-    "eps_90": 42,
+    "episodes": 43,
+    "eps_365": 43,
+    "eps_90": 43,
     "first_at": "2026-10-25",
     "first_year": 1405,
-    "last": "1405/08/29",
-    "last_at": "2026-11-20T10:43:16Z",
-    "last_link": "https://share.transistor.fm/s/474b57dc",
-    "last_title": "‏‫Microsoft Copilot در Ignite 2026: هوش مصنوعی ساخته‌شده برای کار‬",
+    "last": "1405/09/01",
+    "last_at": "2026-11-22T12:51:44Z",
+    "last_link": "https://share.transistor.fm/s/913445b5",
+    "last_title": "‏‫OpenAI و Distillation: مقابله با کپی‌برداری رقبا از مدل‌های هوش مصنوعی‬",
     "max_length": 26,
     "median_length": 16,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://media.transistor.fm/913445b5/30a6f324.mp3",
+        "at": "2026-11-22T12:51:44Z",
+        "t": "‏‫OpenAI و Distillation: مقابله با کپی‌برداری رقبا از مدل‌های هوش مصنوعی‬"
+      },
       {
         "a": "https://media.transistor.fm/474b57dc/5516d9c1.mp3",
         "at": "2026-11-20T10:43:16Z",
@@ -78599,14 +78604,14 @@
         "a": "https://media.transistor.fm/2446944c/534672b7.mp3",
         "at": "2026-11-16T10:04:08Z",
         "t": "‏‫Nvidia به کجا می‌رود؟ تحلیل Steve Blank از آینده غول تراشه‬"
-      },
-      {
-        "a": "https://media.transistor.fm/0c7f3c24/673b4f2c.mp3",
-        "at": "2026-11-11T10:44:15Z",
-        "t": "‏‫انفجار هوش در ۲۰۲۷: به‌روزرسانی پیش‌بینی زمان‌بندی AI Futures‬"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-22T12:51:44Z",
+        "link": "https://share.transistor.fm/s/913445b5",
+        "title": "‏‫OpenAI و Distillation: مقابله با کپی‌برداری رقبا از مدل‌های هوش مصنوعی‬"
+      },
       {
         "at": "2026-11-20T10:43:16Z",
         "link": "https://share.transistor.fm/s/474b57dc",
@@ -78616,11 +78621,6 @@
         "at": "2026-11-19T11:09:01Z",
         "link": "https://share.transistor.fm/s/b3968057",
         "title": "‏‫KPMG: عامل‌های هوش مصنوعی در حسابرسی بهتر از حسابداران سؤال پرسیدند‬"
-      },
-      {
-        "at": "2026-11-19T11:07:35Z",
-        "link": "https://share.transistor.fm/s/3ab361e7",
-        "title": "‏‫Gemini 4 Neon؛ مدل جدید Google رقیب جدی Claude Opus 5.5‬"
       }
     ],
     "recent_30d": [
@@ -78635,7 +78635,7 @@
       0,
       0,
       0,
-      42
+      43
     ],
     "status": "active"
   },
