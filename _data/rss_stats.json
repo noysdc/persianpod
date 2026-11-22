@@ -13231,7 +13231,7 @@
     "avg_length": 17,
     "episodes": 25,
     "eps_365": 25,
-    "eps_90": 13,
+    "eps_90": 12,
     "first_at": "2026-06-01",
     "first_year": 1405,
     "last": "1405/08/25",
@@ -13320,8 +13320,8 @@
       0,
       4,
       4,
-      4,
       5,
+      4,
       4,
       4
     ],
@@ -24548,21 +24548,27 @@
     "status": "stopped"
   },
   "frdai-aghtsad": {
-    "avg_gap_days": 2.6,
+    "avg_gap_days": 2.7,
     "avg_length": 62,
-    "episodes": 30,
-    "eps_365": 30,
-    "eps_90": 30,
+    "episodes": 31,
+    "eps_365": 31,
+    "eps_90": 31,
     "first_at": "2026-09-02",
     "first_year": 1405,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T09:08:07Z",
+    "last": "1405/09/01",
+    "last_at": "2026-11-22T08:02:46Z",
     "last_link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
-    "last_title": "پول داغ در بورس؛ سود شرکت‌ها چقدر پشتوانه صعود است؟",
+    "last_title": "بورس در نقطه عطف؛ سهام با تخفیف جنگ",
     "max_length": 77,
-    "median_length": 62,
+    "median_length": 61,
     "min_length": 48,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/702daf5c3a1a1c3c/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-11-22T08:02:46Z",
+        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/702daf5c3a1a1c3c/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "بورس در نقطه عطف؛ سهام با تخفیف جنگ"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/bdc539d09fda1970/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-11-17T09:08:07Z",
@@ -24604,15 +24610,15 @@
         "at": "2026-10-25T08:03:41Z",
         "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/e2b4ae7d8cc3c69c/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "t": "بورس در انتظار پایان «نه جنگ، نه صلح»"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/audio/adc813adfee8a149/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2026-10-20T08:36:13Z",
-        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/adc813adfee8a149/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "t": "شاخص ۱۲ میلیونی؛ سناریوی بورس تا پایان سال؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-22T08:02:46Z",
+        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/702daf5c3a1a1c3c/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
+        "title": "بورس در نقطه عطف؛ سهام با تخفیف جنگ"
+      },
       {
         "at": "2026-11-17T09:08:07Z",
         "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/bdc539d09fda1970/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
@@ -24624,12 +24630,6 @@
         "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/55726be231430474/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
         "title": "درآمد بیشتر، حاشیه سود کمتر؛ کجای بورس فرصت مانده؟"
-      },
-      {
-        "at": "2026-11-10T08:00:06Z",
-        "i": "https://rss.audiyacreators.one/media/cmtk2un7qklgnqrg09tl4/cover/f5a9d7371910f8c9/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "link": "https://rss.audiyacreators.one/cmtk2un7qklgnqrg09tl4",
-        "title": "آدرس غلط درباره نرخ بهره؛ تهدید اصلی بورس کجاست؟"
       }
     ],
     "recent_30d": [
@@ -24644,7 +24644,7 @@
       0,
       15,
       8,
-      7
+      8
     ],
     "status": "active"
   },
@@ -87590,8 +87590,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0
     ],
     "status": "active"
@@ -91989,8 +91989,8 @@
       2,
       0,
       0,
-      3,
-      3,
+      4,
+      2,
       2,
       1,
       0,
@@ -94877,7 +94877,7 @@
     "avg_length": 10,
     "episodes": 4286,
     "eps_365": 783,
-    "eps_90": 250,
+    "eps_90": 249,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/09/01",
@@ -94955,8 +94955,8 @@
       7,
       49,
       105,
-      81,
-      97,
+      82,
+      96,
       78,
       75
     ],
