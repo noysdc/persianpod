@@ -115,6 +115,10 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://bonyantakvin.ir/feed/podcast/sazandegi/"
   },
+  "lzt-dniai-ktab": {
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
+    "rss": "https://feed.podkadeh.cloud/podcastxml/lezate-donyaye-ketab.xml"
+  },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://www.malino.co/feed/podcast/malinopodcast/"
@@ -131,9 +135,17 @@
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
+  "pnah": {
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
+    "rss": "https://shenoto.com/service/api/feed/PANAH"
+  },
   "podcast-farsi-mscht": {
     "error": "ValueError: no items in feed",
     "rss": "https://feeds.acast.com/public/shows/6722758777f0e7cbfba1f7a2"
+  },
+  "podcast-fotbal-lb": {
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
+    "rss": "https://feed.podkadeh.cloud/podcastxml/footballlab.xml"
   },
   "podcast-khakstri-roan": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -218,10 +230,6 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
-  },
-  "shar-o-ghsh-khoani": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
-    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
