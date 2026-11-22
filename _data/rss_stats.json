@@ -16544,8 +16544,8 @@
       3,
       5,
       4,
-      3,
-      2,
+      4,
+      1,
       0,
       0,
       0,
@@ -33446,21 +33446,27 @@
     "status": "stopped"
   },
   "iran-nameh": {
-    "avg_gap_days": 0.3,
-    "avg_length": 26,
-    "episodes": 4,
-    "eps_365": 4,
-    "eps_90": 4,
+    "avg_gap_days": 1.0,
+    "avg_length": 24,
+    "episodes": 5,
+    "eps_365": 5,
+    "eps_90": 5,
     "first_at": "2026-11-17",
     "first_year": 1405,
-    "last": "1405/08/28",
-    "last_at": "2026-11-19T19:32:42Z",
-    "last_link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/3254b368-347d-4bc1-b11f-0981e5480d32/play.mp3?v=1",
-    "last_title": "پیشگویی اوستا از آخرالزمان | قسمت چهارم ایران نامه",
+    "last": "1405/09/01",
+    "last_at": "2026-11-22T07:46:53Z",
+    "last_link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/6c671879-cad7-49f1-b84c-c07c263d8e94/play.mp3?v=1",
+    "last_title": "تمدن گمشده ارته | قسمت پنجم ایران نامه",
     "max_length": 42,
-    "median_length": 22,
+    "median_length": 19,
     "min_length": 15,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/6c671879-cad7-49f1-b84c-c07c263d8e94/play.mp3?v=1",
+        "at": "2026-11-22T07:46:53Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/6c671879-cad7-49f1-b84c-c07c263d8e94/artwork.jpg?v=1",
+        "t": "تمدن گمشده ارته | قسمت پنجم ایران نامه"
+      },
       {
         "a": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/3254b368-347d-4bc1-b11f-0981e5480d32/play.mp3?v=1",
         "at": "2026-11-19T19:32:42Z",
@@ -33488,6 +33494,12 @@
     ],
     "recent": [
       {
+        "at": "2026-11-22T07:46:53Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/6c671879-cad7-49f1-b84c-c07c263d8e94/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/6c671879-cad7-49f1-b84c-c07c263d8e94/play.mp3?v=1",
+        "title": "تمدن گمشده ارته | قسمت پنجم ایران نامه"
+      },
+      {
         "at": "2026-11-19T19:32:42Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/3254b368-347d-4bc1-b11f-0981e5480d32/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/3254b368-347d-4bc1-b11f-0981e5480d32/play.mp3?v=1",
@@ -33498,12 +33510,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/7d4bec43-e204-4037-88c9-1dd4917a1f7e/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/7d4bec43-e204-4037-88c9-1dd4917a1f7e/play.mp3?v=1",
         "title": "بومیان ایران پیش از آریایی‌ها | قسمت  سوم  پادکست ایران نامه"
-      },
-      {
-        "at": "2026-11-18T14:30:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/ac61bd97-0a59-4d12-b31a-05348c3d94d7/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/ac61bd97-0a59-4d12-b31a-05348c3d94d7/play.mp3?v=1",
-        "title": "قسمت دوم ایران‌نامه | چرا عرب نشدیم؟ راز بقای هویت ایران"
       }
     ],
     "recent_30d": [
@@ -33518,7 +33524,7 @@
       0,
       0,
       0,
-      4
+      5
     ],
     "status": "active"
   },
@@ -52992,8 +52998,8 @@
       3,
       6,
       0,
-      9,
-      9,
+      10,
+      8,
       5,
       4,
       3,
