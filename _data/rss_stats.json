@@ -41105,14 +41105,14 @@
       }
     ],
     "recent_30d": [
-      151,
-      48,
+      152,
+      47,
       64,
       4,
       0,
       0,
-      45,
-      64,
+      46,
+      63,
       53,
       61,
       58,
@@ -90593,19 +90593,25 @@
   "shar-ba-sdai-shaar": {
     "avg_gap_days": 2.7,
     "avg_length": 4,
-    "episodes": 352,
-    "eps_365": 135,
-    "eps_90": 27,
+    "episodes": 353,
+    "eps_365": 136,
+    "eps_90": 28,
     "first_at": "2025-01-23",
     "first_year": 1403,
-    "last": "1405/08/28",
-    "last_at": "2026-11-19T19:30:00Z",
-    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c1f797b9e972a6bf44dcd",
-    "last_title": "نصرت رحمانی | زمزمه‌ای در محراب",
+    "last": "1405/09/01",
+    "last_at": "2026-11-22T19:30:00Z",
+    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c1fae295fc6e84898f496",
+    "last_title": "مهدی فرجی | حوت",
     "max_length": 44,
     "median_length": 4,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c1fae295fc6e84898f496/media.mp3",
+        "at": "2026-11-22T19:30:00Z",
+        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450765083-25cb8fd7-5468-4d27-bf26-ce59f5009692.jpeg",
+        "t": "مهدی فرجی | حوت"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c1f797b9e972a6bf44dcd/media.mp3",
         "at": "2026-11-19T19:30:00Z",
@@ -90647,15 +90653,15 @@
         "at": "2026-10-23T19:30:00Z",
         "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763449069043-0bc2e6ec-514f-41fa-b3cb-90d12de5101b.jpeg",
         "t": "بیژن الهی | آزادی و تو"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c160b589629f7d6af756a/media.mp3",
-        "at": "2026-10-20T19:30:00Z",
-        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763448295380-980e68fa-0a8c-4dc5-9cbe-3444c8cd7f35.jpeg",
-        "t": "نیما یوشیج | در فروبند"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-22T19:30:00Z",
+        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450765083-25cb8fd7-5468-4d27-bf26-ce59f5009692.jpeg",
+        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1fae295fc6e84898f496",
+        "title": "مهدی فرجی | حوت"
+      },
       {
         "at": "2026-11-19T19:30:00Z",
         "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450681971-3ae7713e-42cc-49e3-a0b8-1f811e812ba7.jpeg",
@@ -90667,12 +90673,6 @@
         "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763449636968-383d4b46-7658-49f9-b0fb-4e4eefd7026f.jpeg",
         "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1b557cf1b7ec45a48919",
         "title": "نیما یوشیج | مرغ شب‌آویز | صدای احمد کیایی"
-      },
-      {
-        "at": "2026-11-10T19:30:00Z",
-        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450510379-a2d278a8-0420-498d-8e8a-e5ebcfa4b2b3.jpeg",
-        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1eb1295fc6e84898b8de",
-        "title": "رضا براهنی | موسیقی"
       }
     ],
     "recent_30d": [
@@ -90687,7 +90687,7 @@
       17,
       12,
       9,
-      6
+      7
     ],
     "status": "active"
   },
