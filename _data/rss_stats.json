@@ -96604,20 +96604,26 @@
   },
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
-    "avg_length": 20,
-    "episodes": 432,
-    "eps_365": 260,
-    "eps_90": 102,
+    "avg_length": 21,
+    "episodes": 433,
+    "eps_365": 261,
+    "eps_90": 103,
     "first_at": "2024-08-22",
     "first_year": 1403,
-    "last": "1405/08/30",
-    "last_at": "2026-11-21T04:30:00Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6aff055ec838fad86f14b7d1",
-    "last_title": "مدیتیشن|مدیتیشن ۵دقیقه‌ای صبح جذب ثروت و آرامش",
+    "last": "1405/09/01",
+    "last_at": "2026-11-22T03:30:00Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6ae981d1f5930510a0c33bca",
+    "last_title": "سلام آذرماه من 🍂 | جملات صبحگاهی و آرامش",
     "max_length": 99,
-    "median_length": 11,
+    "median_length": 12,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ae981d1f5930510a0c33bca/media.mp3",
+        "at": "2026-11-22T03:30:00Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793687942275-28455c95-6ea1-433f-930e-22e71161ea9d.jpeg",
+        "t": "سلام آذرماه من 🍂 | جملات صبحگاهی و آرامش"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6aff055ec838fad86f14b7d1/media.mp3",
         "at": "2026-11-21T04:30:00Z",
@@ -96659,15 +96665,15 @@
         "at": "2026-11-18T17:09:22Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795021567810-1600efe2-c552-42ad-b94d-15a7a297592c.jpeg",
         "t": "مدیتیشن | مدیتیشن اتصال به زمین، رهایی از اضطراب و آرامش درونی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af04e786767b86e14ccb2c7/media.mp3",
-        "at": "2026-11-18T16:15:33Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794133475298-58b758df-7bb9-4c1e-843e-f6c584bd4b5a.jpeg",
-        "t": "سلام آذرماه دنج و زیبا! 🕯️ | جملات تأکیدی آرامش‌بخش برای شروع ماه جدید"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-22T03:30:00Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793687942275-28455c95-6ea1-433f-930e-22e71161ea9d.jpeg",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6ae981d1f5930510a0c33bca",
+        "title": "سلام آذرماه من 🍂 | جملات صبحگاهی و آرامش"
+      },
       {
         "at": "2026-11-21T04:30:00Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795097538846-42eef682-37c9-4bda-a803-3f473336b8fc.jpeg",
@@ -96679,12 +96685,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794132103007-ba9bc9e3-fa53-428a-a092-2eee9d73004e.jpeg",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6af048f56767b86e14cad26e",
         "title": "امروز را با آرامش و حال خوب بغل کن ✨ | قوی‌ترین جملات تأکیدی صبحگاهی"
-      },
-      {
-        "at": "2026-11-20T10:02:22Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795163998686-14365006-d184-4667-b092-6f1e53dcd64b.jpeg",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6b00077411cce4ba963ae5a2",
-        "title": "جادوگر سفید | اپیزود 13"
       }
     ],
     "recent_30d": [
@@ -96699,7 +96699,7 @@
       35,
       43,
       33,
-      26
+      27
     ],
     "status": "active"
   },
