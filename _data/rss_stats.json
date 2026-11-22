@@ -55898,21 +55898,27 @@
     "status": "active"
   },
   "osoas-jnait": {
-    "avg_gap_days": 63.8,
+    "avg_gap_days": 58.0,
     "avg_length": 41,
-    "episodes": 43,
-    "eps_365": 6,
-    "eps_90": 3,
+    "episodes": 44,
+    "eps_365": 7,
+    "eps_90": 4,
     "first_at": "2022-12-28",
     "first_year": 1401,
-    "last": "1405/08/02",
-    "last_at": "2026-10-24T14:36:11Z",
-    "last_link": "https://shows.acast.com/crime-obsession/episodes/6adcc25afe64430a935e64bc",
-    "last_title": "اپیزود 11- دو جسد، یک قاتل نامرئی- قسمت دوم و پایانی",
+    "last": "1405/09/01",
+    "last_at": "2026-11-22T09:25:35Z",
+    "last_link": "https://shows.acast.com/crime-obsession/episodes/6b02b50fd0e980d0cfa6e06c",
+    "last_title": "اپیزود 12- مردی که از تاریکی می آمد",
     "max_length": 55,
     "median_length": 41,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6802fb196aefdc1cfc23680b/e/6b02b50fd0e980d0cfa6e06c/media.mp3",
+        "at": "2026-11-22T09:25:35Z",
+        "i": "https://assets.pippa.io/shows/6802fb196aefdc1cfc23680b/1795339319892-8dd7d727-b175-4556-b2ad-967a5783112b.jpeg",
+        "t": "اپیزود 12- مردی که از تاریکی می آمد"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6802fb196aefdc1cfc23680b/e/6adcc25afe64430a935e64bc/media.mp3",
         "at": "2026-10-24T14:36:11Z",
@@ -55954,15 +55960,15 @@
         "at": "2025-08-28T03:36:27Z",
         "i": "https://assets.pippa.io/shows/6802fb196aefdc1cfc23680b/1756352272054-c8038f16-47f9-4cef-a73e-7e4ebb55f2fe.jpeg",
         "t": "اپیزود 05- باشگاه آدمکشها"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6802fb196aefdc1cfc23680b/e/68721562fe0897380e1ca647/media.mp3",
-        "at": "2025-07-12T07:57:21Z",
-        "i": "https://assets.pippa.io/shows/6802fb196aefdc1cfc23680b/1752307173671-cc020ffe-1344-4803-8eb1-4d2036657270.jpeg",
-        "t": "اپیزود 04: عشق یا وسواس"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-22T09:25:35Z",
+        "i": "https://assets.pippa.io/shows/6802fb196aefdc1cfc23680b/1795339319892-8dd7d727-b175-4556-b2ad-967a5783112b.jpeg",
+        "link": "https://shows.acast.com/crime-obsession/episodes/6b02b50fd0e980d0cfa6e06c",
+        "title": "اپیزود 12- مردی که از تاریکی می آمد"
+      },
       {
         "at": "2026-10-24T14:36:11Z",
         "i": "https://assets.pippa.io/shows/6802fb196aefdc1cfc23680b/1792852059715-54020c8b-8ed0-4597-a49d-578bd8276205.jpeg",
@@ -55974,12 +55980,6 @@
         "i": "https://assets.pippa.io/shows/6802fb196aefdc1cfc23680b/1792215768736-ef417bc8-19d6-4cf0-9cbd-276d5d2c7aa4.jpeg",
         "link": "https://shows.acast.com/crime-obsession/episodes/6ad30bd2b9a0305b85833184",
         "title": "اپیزود 10- دو جسد، یک قاتل نامرئی- قسمت اول"
-      },
-      {
-        "at": "2026-09-13T06:57:11Z",
-        "i": "https://assets.pippa.io/shows/6802fb196aefdc1cfc23680b/1789282323246-ba8ede24-19e7-4025-a683-49cbb33b4c17.jpeg",
-        "link": "https://shows.acast.com/crime-obsession/episodes/6aa64949b54f356fc75301df",
-        "title": "اپیزود 9- من نباید به دنیا می آمدم"
       }
     ],
     "recent_30d": [
@@ -55994,7 +55994,7 @@
       1,
       1,
       1,
-      1
+      2
     ],
     "status": "active"
   },
@@ -71559,7 +71559,7 @@
     "avg_gap_days": 6.5,
     "avg_length": 19,
     "episodes": 90,
-    "eps_365": 54,
+    "eps_365": 53,
     "eps_90": 17,
     "first_at": "2025-02-10",
     "first_year": 1403,
