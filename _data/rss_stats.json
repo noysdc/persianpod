@@ -48794,7 +48794,7 @@
     "avg_length": 7,
     "episodes": 1004,
     "eps_365": 325,
-    "eps_90": 81,
+    "eps_90": 80,
     "first_at": "2023-11-21",
     "first_year": 1402,
     "last": "1405/08/29",
@@ -48883,8 +48883,8 @@
       27,
       28,
       25,
-      26,
       27,
+      26,
       29,
       25
     ],
@@ -75767,26 +75767,21 @@
     "status": "stopped"
   },
   "rabth-ma": {
-    "avg_gap_days": 3.8,
+    "avg_gap_days": 3.5,
     "avg_length": 10,
-    "episodes": 16,
-    "eps_365": 16,
-    "eps_90": 16,
+    "episodes": 15,
+    "eps_365": 15,
+    "eps_90": 15,
     "first_at": "2026-09-25",
     "first_year": 1405,
-    "last": "1405/08/30",
-    "last_at": "2026-11-21T22:14:41Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sptkp",
-    "last_title": "چرا وقتی کنارشی، بازم تنهایی",
+    "last": "1405/08/23",
+    "last_at": "2026-11-14T11:18:49Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sc738",
+    "last_title": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه",
     "max_length": 21,
     "median_length": 10,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/117bc39b0/podcast/play/129872985/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F437311063-44100-2-9659525b89976.m4a",
-        "at": "2026-11-21T22:14:41Z",
-        "t": "چرا وقتی کنارشی، بازم تنهایی"
-      },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/129423912/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F436712616-44100-2-fd74d9dfbc2c8.m4a",
         "at": "2026-11-14T11:18:49Z",
@@ -75822,14 +75817,14 @@
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/127015082/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-7%2F433572690-44100-2-7d3ba4a9c8fd8.m4a",
         "at": "2026-10-07T09:43:17Z",
         "t": "نجات رابطه | اگر فقط من تغییر کنم، کافی است؟"
+      },
+      {
+        "a": "https://anchor.fm/s/117bc39b0/podcast/play/126853461/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-5%2F433368872-44100-2-96411179d3be5.m4a",
+        "at": "2026-10-05T06:38:11Z",
+        "t": "اضطراب در رابطه | چطور چرخه‌ تکراری را عوض کنم؟"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-21T22:14:41Z",
-        "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sptkp",
-        "title": "چرا وقتی کنارشی، بازم تنهایی"
-      },
       {
         "at": "2026-11-14T11:18:49Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sc738",
@@ -75839,6 +75834,11 @@
         "at": "2026-11-11T00:59:16Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3s698q",
         "title": "چرا تو رابطه با یه اتفاق ساده، یا غیب می‌شم یا دیوونه؟ | سبک دلبستگی"
+      },
+      {
+        "at": "2026-11-05T01:47:12Z",
+        "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3rphjq",
+        "title": "چرا همیشه عاشق یک جور آدم می‌شم؟ | تکرار الگو در انتخاب پارتنر"
       }
     ],
     "recent_30d": [
@@ -75853,7 +75853,7 @@
       0,
       0,
       11,
-      5
+      4
     ],
     "status": "active"
   },
