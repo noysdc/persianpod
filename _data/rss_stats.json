@@ -22345,7 +22345,7 @@
     "avg_length": 46,
     "episodes": 21,
     "eps_365": 21,
-    "eps_90": 5,
+    "eps_90": 4,
     "first_at": "2026-06-09",
     "first_year": 1405,
     "last": "1405/08/23",
@@ -22434,8 +22434,8 @@
       0,
       8,
       4,
-      4,
-      2,
+      5,
+      1,
       2,
       1
     ],
@@ -32600,8 +32600,8 @@
       5,
       5,
       10,
-      6,
-      8,
+      7,
+      7,
       6
     ],
     "status": "active"
@@ -78323,7 +78323,7 @@
   },
   "radio-fndgh": {
     "avg_length": 26,
-    "episodes": 30,
+    "episodes": 29,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2018-07-12",
@@ -78333,7 +78333,7 @@
     "last_link": "https://podcasters.spotify.com/pod/show/radiofandoq/episodes/ep-e2if0ek",
     "last_title": "در انتظار یک زندگی طبیعی",
     "max_length": 52,
-    "median_length": 22,
+    "median_length": 23,
     "min_length": 8,
     "play": [
       {
@@ -83000,38 +83000,26 @@
     "status": "active"
   },
   "radioeshgh-radio-ashgh": {
-    "avg_gap_days": 94.7,
-    "avg_length": 75,
-    "episodes": 47,
-    "eps_365": 4,
-    "eps_90": 2,
+    "avg_gap_days": 222.0,
+    "avg_length": 69,
+    "episodes": 42,
+    "eps_365": 2,
+    "eps_90": 1,
     "first_at": "2020-05-01",
     "first_year": 1399,
-    "last": "1405/08/27",
-    "last_at": "2026-11-18T09:26:58Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3sc90j",
-    "last_title": "پادکست شماره ۸۶",
-    "max_length": 150,
-    "median_length": 67,
+    "last": "1405/06/26",
+    "last_at": "2026-09-17T08:05:38Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3ovjnf",
+    "last_title": "پادکست شماره ۸۵",
+    "max_length": 87,
+    "median_length": 66,
     "min_length": 37,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1f3a0330/podcast/play/129425875/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F8a83e0b8-eda6-e0f7-d5c9-750d7e6c04b6.mp3",
-        "at": "2026-11-18T09:26:58Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1794659957208-b4578d8c47261.jpg",
-        "t": "پادکست شماره ۸۶"
-      },
       {
         "a": "https://anchor.fm/s/1f3a0330/podcast/play/125865135/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-17%2Fc9424c15-66b8-9ff4-1b0a-42a0ab05fcff.mp3",
         "at": "2026-09-17T08:05:38Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1789631584504-a20fe4d40258d.jpg",
         "t": "پادکست شماره ۸۵"
-      },
-      {
-        "a": "https://anchor.fm/s/1f3a0330/podcast/play/120905155/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F31c654bd-8894-8b1b-520c-ff777c9808ac.mp3",
-        "at": "2026-06-02T17:38:05Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1780421895240-6ecf285903dd6.jpg",
-        "t": "پادکست شماره ۸۳"
       },
       {
         "a": "https://anchor.fm/s/1f3a0330/podcast/play/115154966/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-7%2Ff7551bd2-1ebc-1f63-2cf9-d5301e3e6258.mp3",
@@ -83062,15 +83050,21 @@
         "at": "2025-03-05T12:12:24Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1741176225728-331f5d0d4910f.jpg",
         "t": "پادکست شماره ۷۳"
+      },
+      {
+        "a": "https://anchor.fm/s/1f3a0330/podcast/play/93687853/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-29%2F87cd52c5-ca47-05ab-cd24-1003bc1703a8.mp3",
+        "at": "2024-10-29T12:47:52Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1741175860732-7e12e83a1a9a1.jpg",
+        "t": "پادکست شماره ۷۲"
+      },
+      {
+        "a": "https://anchor.fm/s/1f3a0330/podcast/play/93687496/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-29%2F265a2d50-f499-52c3-74b4-cb6e2bcbc77d.mp3",
+        "at": "2024-10-29T12:36:18Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1741175931215-43b55d2e6ae5b.jpg",
+        "t": "پادکست شماره ۷۱"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-18T09:26:58Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1794659957208-b4578d8c47261.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3sc90j",
-        "title": "پادکست شماره ۸۶"
-      },
       {
         "at": "2026-09-17T08:05:38Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1789631584504-a20fe4d40258d.jpg",
@@ -83078,10 +83072,16 @@
         "title": "پادکست شماره ۸۵"
       },
       {
-        "at": "2026-06-02T17:38:05Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1780421895240-6ecf285903dd6.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3k8803",
-        "title": "پادکست شماره ۸۳"
+        "at": "2026-02-07T06:51:13Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1770447058881-2c79e4a0242db.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3eooim",
+        "title": "پادکست شماره ۸۲"
+      },
+      {
+        "at": "2025-10-22T10:07:28Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1761127654647-f935804d0c97.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e39speq",
+        "title": "پادکست شماره ۷۹"
       }
     ],
     "recent_30d": [
@@ -83091,12 +83091,12 @@
       0,
       0,
       0,
+      0,
+      0,
+      0,
       1,
       0,
-      0,
-      1,
-      0,
-      1
+      0
     ],
     "status": "active"
   },
