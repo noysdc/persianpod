@@ -2871,7 +2871,7 @@
     "avg_length": 9,
     "episodes": 85,
     "eps_365": 85,
-    "eps_90": 37,
+    "eps_90": 36,
     "first_at": "2026-07-06",
     "first_year": 1405,
     "last": "1405/08/16",
@@ -2960,8 +2960,8 @@
       0,
       0,
       20,
-      28,
-      25,
+      29,
+      24,
       8,
       4
     ],
@@ -56054,19 +56054,25 @@
   "one-thousand-and-one-nights": {
     "avg_gap_days": 0.6,
     "avg_length": 11,
-    "episodes": 31,
-    "eps_365": 31,
-    "eps_90": 31,
+    "episodes": 32,
+    "eps_365": 32,
+    "eps_90": 32,
     "first_at": "2026-11-03",
     "first_year": 1405,
-    "last": "1405/08/30",
-    "last_at": "2026-11-21T18:01:05Z",
-    "last_link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/67a70b44-c979-4926-a77d-73347e5f3373/play.mp3?v=1",
-    "last_title": "شب سی ام _ هزار و یک شب",
+    "last": "1405/09/01",
+    "last_at": "2026-11-22T11:49:57Z",
+    "last_link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/1d61e32a-4b4a-4599-98e7-6e93f3cb29b4/play.mp3?v=1",
+    "last_title": "شب سی و یکم _ هزار و یک شب",
     "max_length": 14,
     "median_length": 11,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/1d61e32a-4b4a-4599-98e7-6e93f3cb29b4/play.mp3?v=1",
+        "at": "2026-11-22T11:49:57Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/1d61e32a-4b4a-4599-98e7-6e93f3cb29b4/artwork.jpg?v=1",
+        "t": "شب سی و یکم _ هزار و یک شب"
+      },
       {
         "a": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/67a70b44-c979-4926-a77d-73347e5f3373/play.mp3?v=1",
         "at": "2026-11-21T18:01:05Z",
@@ -56108,15 +56114,15 @@
         "at": "2026-11-12T03:47:04Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/e37032aa-2e72-49bf-930b-c0bf58c61932/artwork.jpg?v=1",
         "t": "شب بیست و چهارم _هزار و یک شب"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/31377e1e-5b45-4062-baee-6bc7755c1ad6/play.mp3?v=1",
-        "at": "2026-11-11T13:49:17Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/31377e1e-5b45-4062-baee-6bc7755c1ad6/artwork.jpg?v=1",
-        "t": "شب بیست و سوم _هزار  و  یک شب"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-22T11:49:57Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/1d61e32a-4b4a-4599-98e7-6e93f3cb29b4/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/1d61e32a-4b4a-4599-98e7-6e93f3cb29b4/play.mp3?v=1",
+        "title": "شب سی و یکم _ هزار و یک شب"
+      },
       {
         "at": "2026-11-21T18:01:05Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/67a70b44-c979-4926-a77d-73347e5f3373/artwork.jpg?v=1",
@@ -56128,12 +56134,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/457d2a4e-72db-4b96-9ced-8ec9db076c7b/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/457d2a4e-72db-4b96-9ced-8ec9db076c7b/play.mp3?v=1",
         "title": "شب بیست و نهم _ هزار و یک شب"
-      },
-      {
-        "at": "2026-11-16T04:08:09Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episodes/261a5a95-8b89-487c-a638-404aa752532a/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/f0667b60-a83b-4bb7-8dd5-34e54dc1224b/episode/261a5a95-8b89-487c-a638-404aa752532a/play.mp3?v=1",
-        "title": "شب بیست و هشتم _هزار و یک شب"
       }
     ],
     "recent_30d": [
@@ -56148,7 +56148,7 @@
       0,
       0,
       0,
-      31
+      32
     ],
     "status": "active"
   },
@@ -74841,7 +74841,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       5,
       4,
       5,
