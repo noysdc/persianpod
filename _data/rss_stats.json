@@ -83000,38 +83000,26 @@
     "status": "active"
   },
   "radioeshgh-radio-ashgh": {
-    "avg_gap_days": 94.7,
-    "avg_length": 75,
-    "episodes": 47,
-    "eps_365": 4,
-    "eps_90": 2,
+    "avg_gap_days": 222.0,
+    "avg_length": 69,
+    "episodes": 42,
+    "eps_365": 2,
+    "eps_90": 1,
     "first_at": "2020-05-01",
     "first_year": 1399,
-    "last": "1405/08/27",
-    "last_at": "2026-11-18T09:26:58Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3sc90j",
-    "last_title": "پادکست شماره ۸۶",
-    "max_length": 150,
-    "median_length": 67,
+    "last": "1405/06/26",
+    "last_at": "2026-09-17T08:05:38Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3ovjnf",
+    "last_title": "پادکست شماره ۸۵",
+    "max_length": 87,
+    "median_length": 66,
     "min_length": 37,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1f3a0330/podcast/play/129425875/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F8a83e0b8-eda6-e0f7-d5c9-750d7e6c04b6.mp3",
-        "at": "2026-11-18T09:26:58Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1794659957208-b4578d8c47261.jpg",
-        "t": "پادکست شماره ۸۶"
-      },
       {
         "a": "https://anchor.fm/s/1f3a0330/podcast/play/125865135/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-17%2Fc9424c15-66b8-9ff4-1b0a-42a0ab05fcff.mp3",
         "at": "2026-09-17T08:05:38Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1789631584504-a20fe4d40258d.jpg",
         "t": "پادکست شماره ۸۵"
-      },
-      {
-        "a": "https://anchor.fm/s/1f3a0330/podcast/play/120905155/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F31c654bd-8894-8b1b-520c-ff777c9808ac.mp3",
-        "at": "2026-06-02T17:38:05Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1780421895240-6ecf285903dd6.jpg",
-        "t": "پادکست شماره ۸۳"
       },
       {
         "a": "https://anchor.fm/s/1f3a0330/podcast/play/115154966/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-7%2Ff7551bd2-1ebc-1f63-2cf9-d5301e3e6258.mp3",
@@ -83062,15 +83050,21 @@
         "at": "2025-03-05T12:12:24Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1741176225728-331f5d0d4910f.jpg",
         "t": "پادکست شماره ۷۳"
+      },
+      {
+        "a": "https://anchor.fm/s/1f3a0330/podcast/play/93687853/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-29%2F87cd52c5-ca47-05ab-cd24-1003bc1703a8.mp3",
+        "at": "2024-10-29T12:47:52Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1741175860732-7e12e83a1a9a1.jpg",
+        "t": "پادکست شماره ۷۲"
+      },
+      {
+        "a": "https://anchor.fm/s/1f3a0330/podcast/play/93687496/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-29%2F265a2d50-f499-52c3-74b4-cb6e2bcbc77d.mp3",
+        "at": "2024-10-29T12:36:18Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1741175931215-43b55d2e6ae5b.jpg",
+        "t": "پادکست شماره ۷۱"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-18T09:26:58Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1794659957208-b4578d8c47261.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3sc90j",
-        "title": "پادکست شماره ۸۶"
-      },
       {
         "at": "2026-09-17T08:05:38Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1789631584504-a20fe4d40258d.jpg",
@@ -83078,10 +83072,16 @@
         "title": "پادکست شماره ۸۵"
       },
       {
-        "at": "2026-06-02T17:38:05Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1780421895240-6ecf285903dd6.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3k8803",
-        "title": "پادکست شماره ۸۳"
+        "at": "2026-02-07T06:51:13Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1770447058881-2c79e4a0242db.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e3eooim",
+        "title": "پادکست شماره ۸۲"
+      },
+      {
+        "at": "2025-10-22T10:07:28Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/5138956/5138956-1761127654647-f935804d0c97.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/Radioeshgh/episodes/ep-e39speq",
+        "title": "پادکست شماره ۷۹"
       }
     ],
     "recent_30d": [
@@ -83091,12 +83091,12 @@
       0,
       0,
       0,
+      0,
+      0,
+      0,
       1,
       0,
-      0,
-      1,
-      0,
-      1
+      0
     ],
     "status": "active"
   },
@@ -99442,21 +99442,27 @@
     "status": "stopped"
   },
   "zhn-aaram-o-khlagh": {
-    "avg_gap_days": 16.4,
+    "avg_gap_days": 15.8,
     "avg_length": 13,
-    "episodes": 92,
-    "eps_365": 23,
-    "eps_90": 12,
+    "episodes": 93,
+    "eps_365": 24,
+    "eps_90": 13,
     "first_at": "2023-06-01",
     "first_year": 1402,
-    "last": "1405/08/29",
-    "last_at": "2026-11-20T08:12:42Z",
-    "last_link": "https://shows.acast.com/thhn-aram-o-khlak/episodes/6b0000fa11cce4ba9637ec75",
-    "last_title": "شش ستون عزت نفس، جلسه چهارم ؛ ابراز وجود",
+    "last": "1405/09/01",
+    "last_at": "2026-11-22T20:00:14Z",
+    "last_link": "https://shows.acast.com/thhn-aram-o-khlak/episodes/6b0005ca357d3a43adf8ddaf",
+    "last_title": "شش ستون عزت نفس، جلسه پنجم ؛ هدف زندگیم",
     "max_length": 22,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65b22054c4139800169e2378/e/6b0005ca357d3a43adf8ddaf/media.mp3",
+        "at": "2026-11-22T20:00:14Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1795163537830-6fc8c4bc-3b60-4245-a4aa-9fbb46fa8237.jpeg",
+        "t": "شش ستون عزت نفس، جلسه پنجم ؛ هدف زندگیم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65b22054c4139800169e2378/e/6b0000fa11cce4ba9637ec75/media.mp3",
         "at": "2026-11-20T08:12:42Z",
@@ -99498,15 +99504,15 @@
         "at": "2026-10-10T19:30:00Z",
         "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1791452408848-f4129615-e2b5-40c4-b418-c420fff238e2.jpeg",
         "t": "فرافکنی های من"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65b22054c4139800169e2378/e/6ac761ea9fea6e0a64fd521a/media.mp3",
-        "at": "2026-10-08T09:27:07Z",
-        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1791451596681-c1336bd5-f6d8-4f37-ab9d-26beb0efe2c6.jpeg",
-        "t": "بغل کردن سایه های خودم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-22T20:00:14Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1795163537830-6fc8c4bc-3b60-4245-a4aa-9fbb46fa8237.jpeg",
+        "link": "https://shows.acast.com/thhn-aram-o-khlak/episodes/6b0005ca357d3a43adf8ddaf",
+        "title": "شش ستون عزت نفس، جلسه پنجم ؛ هدف زندگیم"
+      },
       {
         "at": "2026-11-20T08:12:42Z",
         "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1795162196915-a5ced1b0-5b79-4990-9d82-e31f0069b32b.jpeg",
@@ -99518,12 +99524,6 @@
         "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1795012278969-1a479706-b23b-41e0-b03c-e0d4f8dd50f0.jpeg",
         "link": "https://shows.acast.com/thhn-aram-o-khlak/episodes/6afdb775f1d98ec6b531d86f",
         "title": "شش ستون عزت نفس، جلسه سوم ؛ مسئولیتش با منه"
-      },
-      {
-        "at": "2026-11-16T15:52:07Z",
-        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1794843992123-8e4b52fa-7f11-43a5-b700-ea7bb8b836e1.jpeg",
-        "link": "https://shows.acast.com/thhn-aram-o-khlak/episodes/6afb26a34d3a0f0d90d40e4c",
-        "title": "شش ستون عزت نفس، جلسه دوم؛ پذیرفتن و بغل کردن خودِ واقعی‌مون"
       }
     ],
     "recent_30d": [
@@ -99538,7 +99538,7 @@
       3,
       2,
       6,
-      4
+      5
     ],
     "status": "active"
   },
