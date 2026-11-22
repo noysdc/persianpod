@@ -1,50 +1,16 @@
 {
- "checked_at": "2026-11-15T10:24:58Z",
- "podcasts": 946,
- "probes": 1889,
- "ok": 1749,
+ "checked_at": "2026-11-22T10:42:34Z",
+ "podcasts": 1034,
+ "probes": 2065,
+ "ok": 2024,
  "kinds": {
-  "ok": 1749,
-  "forbidden": 10,
-  "network": 127,
-  "gone": 2,
-  "server-error": 1
+  "ok": 2024,
+  "forbidden": 12,
+  "network": 9,
+  "gone": 8,
+  "server-error": 12
  },
  "problems": {
-  "60-sanih-ktab": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "هنر شفاف اندیشیدن - تضاد انتخاب",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "هنر شفاف اندیشیدن - اثر مقایسه ای",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "aamozsh-ainstagram": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "تبلیغات در اینستاگرام - تبلیغات در پیج های اینستاگرام",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "امنیت اینستاگرام",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
   "aapdit-ba-hsin": {
    "status": "all-bad",
    "samples": [
@@ -64,40 +30,6 @@
     }
    ]
   },
-  "aghtsad-bama": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "تیتر اول / یک شنبه 13 شهریور 1401",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "تیتر اول / چهارشنبه 30 شهریور",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "ahmd-shamlo": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "احمد شاملو | ما نیز",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "احمد شاملو | ساعت اعدام",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
   "ain-ghsh-mnh": {
    "status": "all-bad",
    "samples": [
@@ -106,14 +38,14 @@
      "code": 403,
      "ct": "text/html",
      "host": "www.buzzsprout.com",
-     "ep": "بابا توی کل عمرش زندگی‌کردن را به من یاد داد"
+     "ep": "اسپانیایی تنها جاده‌ایست که مرا به مادرم می‌رساند"
     },
     {
      "kind": "forbidden",
      "code": 403,
      "ct": "text/html",
      "host": "www.buzzsprout.com",
-     "ep": "اسپانیایی تنها جاده‌ایست که مرا به مادرم می‌رساند"
+     "ep": "بابا توی کل عمرش زندگی‌کردن را به من یاد داد"
     }
    ]
   },
@@ -125,57 +57,6 @@
      "host": "newsmedia.tasnimnews.com",
      "ep": "آب شرب جی‌جیان دو ماه یک بار وصل می‌شود + صوت",
      "err": "URLError: <urlopen error [Errno -2] Name or service not known>"
-    }
-   ]
-  },
-  "akhlagh-brai-nojoanan": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "اخلاق برای نوجوانان ـ فصل ششم (تواضع) - ۵۶ـ چطور متواضع باشی",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "اخلاق برای نوجوانان ـ فصل دوم ( ریا و اخلاص) - 27_ چرا ریا م",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "alf-ghaf": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "شتاب کردم که آفتاب بیاید ....",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "کتاب صوتی اکنون - قسمت سی و یکم",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "ali-akbr-iaghi-tbar": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "علی اکبر یاغی‌تبار | رواق | نسخه اول",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "علی‌اکبر یاغی‌تبار | امن باران شدم",
-     "err": "URLError: <urlopen error timed out>"
     }
    ]
   },
@@ -198,23 +79,6 @@
     }
    ]
   },
-  "asranh-hnr": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "عصرانه هنر/ داستان دهم: مکتب های هنری در دوره صفوی ( بخش دوم",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "عصرانه هنر/ داستان بیستم: خاستگاه هنر نوگرای جهان",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
   "baigani-ha-sda": {
    "status": "all-bad",
    "samples": [
@@ -223,218 +87,104 @@
      "code": 403,
      "ct": "text/html",
      "host": "musiceiranian.ir",
-     "ep": "با موسیقی و تنظیم «مسعود سخاوت»"
+     "ep": "از طریق سایت خبری و تحلیلی «موسیقی ایرانیان» آنلاین بشنوید و"
     },
     {
      "kind": "forbidden",
      "code": 403,
      "ct": "text/html",
      "host": "musiceiranian.ir",
-     "ep": "از طریق سایت خبری و تحلیلی «موسیقی ایرانیان» آنلاین بشنوید و"
+     "ep": "با موسیقی و تنظیم «مسعود سخاوت»"
     }
    ]
   },
-  "bazar-srmaih-bors": {
+  "dairh-dastan": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "عیدانه دایره داستان - متخصص هدیه نوشته کسری کبیری"
+    },
+    {
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "خانه امن - اینجا خانه است - قسمت ۵"
+    }
+   ]
+  },
+  "dastan-hai-tarikhi": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "gone",
+     "code": 404,
+     "ct": "text/html",
+     "host": "qajartime.com",
+     "ep": "شکر تلخ؛ فصل پنجم – قسمت چهارم"
+    },
+    {
+     "kind": "gone",
+     "code": 404,
+     "ct": "text/html",
+     "host": "qajartime.com",
+     "ep": "قلم سرنوشت؛ پايانِ کار، ۲۵ از ۲۵ (پايان)"
+    }
+   ]
+  },
+  "ghsh-hai-fsghli-ha-archives": {
    "status": "all-bad",
    "samples": [
     {
      "kind": "network",
-     "host": "shenoto.com",
-     "ep": "اخبار و خلاصه رویداد های بورس - رویدادهای مهم بازار سرمایه،ب",
-     "err": "URLError: <urlopen error timed out>"
+     "host": "someina.com",
+     "ep": "فری فرزه",
+     "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 32-34: ordinal not i"
     },
     {
      "kind": "network",
-     "host": "shenoto.com",
-     "ep": "اخبار و خلاصه رویداد های بورس - رویدادهای مهم بازار سرمایه،ب",
-     "err": "URLError: <urlopen error timed out>"
+     "host": "someina.com",
+     "ep": "ریسی رییس+قصه صوتی شب",
+     "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 32-35: ordinal not i"
     }
    ]
   },
-  "bimh-saman": {
-   "status": "all-bad",
+  "han": {
+   "status": "partial",
    "samples": [
     {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "نباید های بیمه تکمیلی",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "سود مرکب بیمه نامه عمر",
-     "err": "URLError: <urlopen error timed out>"
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "هان! شب بیست و هفتم رجب - مبعث حضرت رسالت2"
     }
    ]
   },
-  "darochi": {
-   "status": "all-bad",
+  "jnaii-khoani": {
+   "status": "partial",
    "samples": [
     {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "خواب (I)- شناخت خواب و معرفی کم خوابی",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "آهن در کودکان( کم خونی فقر آهن ، پیشگیری، تشخیص و درمان)",
-     "err": "URLError: <urlopen error timed out>"
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "قسمت ۳۶ | فاجعه نجف‌آباد | قتل یا ترور سیاسی"
     }
    ]
   },
-  "frahosh": {
-   "status": "all-bad",
+  "kart-sda": {
+   "status": "partial",
    "samples": [
     {
      "kind": "network",
-     "host": "shenoto.com",
-     "ep": "فصل 2 | اپیسود 18: روش مطالعه درس دینی",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "فصل 2 | اپیسود 2: ارتباط دانشگاه با بازار کار و صنعت",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "frogh-frkhzad": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "مصاحبه با فروغ فرخ‌زاد | پالایش شده",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "فروغ فرخزاد | ایمان بیاوریم به آغاز فصل سرد (پالایش شده)",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "hafz-khoani-bh-roait-ahmd-shamlo": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "غزليات شماره 487 و 488 و 489 - حافظ خواني به روايت احمد شامل",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "غزليات شماره 343 و 344 و 345 - حافظ خواني به روايت احمد شامل",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "hrf-hsab": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "استاندارد حسابداری 15 - طبقه بندی سرمایه گذاری‌ها",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "دفاتر قانونی حسابداری",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "hsin-mnzoi": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "حسین منزوی | زنی که صاعقه وار آنک",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "حسین منزوی | نام من عشق است، آیا می‌شناسیدم؟",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "hzar-sal-ghzl-farsi": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "هزار سال غزل فارسی ۱۴ (آخر)",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "هزار سال غزل فارسی ۷",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "idallh-roiaii": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "یدالله رویایی | شدن ِ مادر",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "یدالله رویایی | دلتنگی شماره ۱۴",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "kafh-bzrgsali": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "قسمت سیزدهم تانگو در معابر: \"سفر\"",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "35__کافه بزرگسالی__گناهکار",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "kafh-gldon": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "بیماری های آگلونما و راه های درمان آن",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "بونسای جنسینگ، نگهداری و بیماری های آن",
-     "err": "URLError: <urlopen error timed out>"
+     "host": "player.rabt.space",
+     "ep": "کارت هشتم",
+     "err": "TimeoutError: The read operation timed out"
     }
    ]
   },
@@ -457,37 +207,15 @@
     }
    ]
   },
-  "khsro-o-shirin-bh-roait-astad-saad-baghri": {
-   "status": "all-bad",
+  "kif-pol": {
+   "status": "partial",
    "samples": [
     {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "قسمت چهل‌ودوم",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "قسمت بیستم",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "kshor-shahnamh-khoansh-dastan-hai-shahnamh-frdosi": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "داستان ۹۸ شاهنامه فردوسی | داستان ۲۰ سیاوش",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "داستان چهل‌ونهم از شاهنامه فردوسی",
-     "err": "URLError: <urlopen error timed out>"
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "۱۱- خرید خانه از واقعیت تا رویا"
     }
    ]
   },
@@ -508,586 +236,103 @@
     }
    ]
   },
-  "mbl-ghrmz": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "S10E03: سرگشته میان جنگ و تنش",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "S06E02: سایکو سینما",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "mhajrt-ba-elovisa": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "زندگی در انگلیس - اپیزود 3",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "زندگی در اسپانیا - اپیزود 2",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "mhdi-akhoan-sals": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "مصاحبه با مهدی اخوان ثالث - ۱۳۶۴",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "مهدی اخوان ثالث | ای درخت معرفت",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "mhdi-hmidi-shirazi": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "سخنرانی دکتر مهدی حمیدی شیرازی: شعر جاویدان",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "مهدی حمیدی شیرازی | پادشاه بی‌تخت",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "mrkz-mzakrh-airan": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "چالش 6 روزه افزایش فروش - چالش روز اول",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "تحلیل سناریوی مذاکره",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "mrtzi-rjb-nia": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "خودشناسی با مرتضی رجب نیا - قسمت 10",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "خودشناسی با مرتضی رجب نیا - قسمت 21",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "msnoi-manoi": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "مثنوی معنوی ۲ | جلسهٔ ۱۳ و آخر",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "مثنوی معنوی ۱ | جلسهٔ ۱۳",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "nima-ioshij": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "نیما یوشیج | نام بعضی نفرات | صدای احمد کیایی",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "نیما یوشیج | خانه‌ام ابریست",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "nima-o-miras-ao": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "قسمت سی‌وهفتم: شاه کوهان شعری مهم در معرفی منظومهٔ فکری نیما",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "خوانش شعر «وای بر من» سرودهٔ نیما یوشیج به سال ۱۳۱۸",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "noid-kmali": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "ژئوپلیتیک و ژئواستراتژی چیست؟",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "جنگ شناختی / چرا رسانه‌های داخلی در خلق روایت اول ناموفق هست",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "noissh-kst": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "چطور محتوای متمرکز بنویسیم؟",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "۱ - ۱۵: کپی رایتر و نویسنده محتوا چه تفاوتی با هم دارند؟",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "nshat-rkh": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "راهنمای خرید پیلینگ",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "راهنمای خرید واریاسیون",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "pnah": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت نهم",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "پناه؛ پادکست مقاله‌خوانی درباره کودکان کار - قسمت نوزدهم",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "pnah-br-sda": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "عشق چیست؟",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "قسمت پنجم  - خلاصه کتاب « معمای معنا   / در جستجوی معنای زند",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "podcast-farsi-ansank": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "شصت و سه: گُستار عمل",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "اپیزود سی و یکم: ادب جدایی",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "podcast-farsi-hai-chnl-hichannelpodcast-hai-chnl": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "اپیزود 13- زندگی کنید، همین قدر ساده (قسمت اول) | عباس کیارس",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "اپیزود ۲۵- قسمت سوم مخترع قرن بیستم | نیکولا تسلا",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "podcast-farsi-kripto-namh": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "اپیزود منفی ۱۲ -  لانگ اسکوئیز و شورت اسکوئیز چیست؟ - پادکست",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "راه نجات بشر از تسلط هوش مصنوعی: بلاکچین، کریپتو و DAO |  کر",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "podcast-hnr-o-mamari-oadi": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "17-چگونه مانند یک امپراتور فکر کنیم",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "قسمت هشتم: معماری شادمانی",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "podcast-mamari-piko-aark": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "پادکست معماری پیکو آرک - قسمت سیزدهم: کتاب معماری و سینمای م",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "قسمت ششم: کتاب درآمدی بر معماری ژاپن (با حضور جناب آقای حسام",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "podcast-orzshi-gaiton-hal-guyton-hall": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "رویکرد اصلاحی درمانی کندال",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "درمان بیش‌‌تمرینی",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "podcast-slh-aakhr": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "13. جنگ جهانی دوم: سفری به عصر هسته‌ای",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "7. جنگ جهانی دوم: سامورایی‌ها پا به عرصه‌ی نبرد می‌گذارند !",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "radio-aahng-sfr": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "سفری به جنوبِ هند با نسیم کمپانی- اپیزود چهارم",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "گفتگوهای جالب و اختصاصی با اینفلونسرهای سفر - مصاحبه رادیو آ",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "radio-hkait": {
+  "mtaors": {
    "status": "partial",
    "samples": [
     {
-     "kind": "network",
-     "host": "player.rabt.space",
-     "ep": "مسخ - بخش دوم -فرانتس کافکا",
-     "err": "TimeoutError: The read operation timed out"
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "اپیزود شماره 13- پادکست متاورس"
     }
    ]
   },
-  "radio-roait": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "خدمت به مردم، ذات طلبگی",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "روایت انقلاب - قسمت پنجم - کشش فطری",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "radio-saikt-mdrsh-alm-o-fnaori-koantom": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "اپیزود دوم فصل \"عصر دوم کوانتوم\"؛ حسگری کوانتومی، بخش اول",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "کتاب دنیایی که من می‌بینم: قسمت نهم",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "radio-shb-thran": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "پاسپورت",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "تجریش یعنی دلتنگی",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "radiomali99": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "رادیو مالی شصت و دوم",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "مالیات بر درآمد املاك (قسمت پنجم)",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "raoi": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "«راوی»،جلد دوم، فصل دوم «نفرتی که تو می‌کاری»: RAAVI [VOLUME",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "«راوی»، جلد اول، فصل شانزده: RAAVI [VOLUME I] CHAPTER 16",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "rdram": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "آندری چیکاتیلو - قصاب روستوف",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "جوانا برازا - قاتل مادربزرگ ها",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "roan-diar": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "جورنالینگ چیه؟| چطور با جورنالینگ حس و حالم رو بهتر کنم؟",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "با حال بدم چیکار کنم؟| مدیریت خلق و خوی منفی",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "roanshnasi-jamah": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "پادکست ترور شخصیت",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "اپیزود اول روان‌شناسی مثبت",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "rza-brahni": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "رضا براهنی | رویای روبرو (باغ‌های کیوی)",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "رضا براهنی | مختاری (مرثیه)",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "self-growth-podcast": {
+  "podcast-dats": {
    "status": "partial",
    "samples": [
     {
-     "kind": "network",
-     "host": "player.rabt.space",
-     "ep": "آیا احساسی بودن به معنی مهربون بودنه؟",
-     "err": "TimeoutError: The read operation timed out"
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "علی آردم داروسازی که نمی‌خواست داروساز بماند"
     }
    ]
   },
-  "shahnamh-khodmoni": {
+  "podcast-farsi-fikshn-fiction-podcast": {
    "status": "all-bad",
    "samples": [
     {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "اپیزود۵۵- مسافری از هند",
-     "err": "URLError: <urlopen error timed out>"
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "آتش و خون"
     },
     {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "اپیزود۲۸- در جست‌وجوی بابارستم",
-     "err": "URLError: <urlopen error timed out>"
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "چشمان آبی جسد"
     }
    ]
   },
-  "shar-o-tranh-hai-amir-khoshaoi": {
+  "podcast-pzshki-srm-atlaaat": {
    "status": "all-bad",
    "samples": [
     {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "امیر خوشاوی - آهکلان(دکلمه)",
-     "err": "URLError: <urlopen error timed out>"
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "اپیزود چهل و ششم: ویژه برنامه نابینایان"
     },
     {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "برای سینما لاله(دکلمه‌ترانه).امیر خوشاوی",
-     "err": "URLError: <urlopen error timed out>"
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "اپیزود نودم: چرا در میانسالی چاق می شویم؟"
+    }
+   ]
+  },
+  "radio-ghjrtaim": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "gone",
+     "code": 404,
+     "ct": "text/html",
+     "host": "qajartime.com",
+     "ep": "اپیزود هفدهم؛ انقلاب دود (۳)؛ فاصله‌ی خشم تا اشک‌"
+    },
+    {
+     "kind": "gone",
+     "code": 404,
+     "ct": "text/html",
+     "host": "qajartime.com",
+     "ep": "اپیزود نهم؛ کودتای میدان توپخانه"
+    }
+   ]
+  },
+  "radio-slamti": {
+   "status": "all-bad",
+   "samples": [
+    {
+     "kind": "forbidden",
+     "code": 403,
+     "ct": "text/html",
+     "host": "www.buzzsprout.com",
+     "ep": "Everything about Menopause | واقعیت ها و افسانه های یائسگی"
+    },
+    {
+     "kind": "forbidden",
+     "code": 403,
+     "ct": "text/html",
+     "host": "www.buzzsprout.com",
+     "ep": "Muscle stiffness and tightness. دلیل خشکی بدن و درمان های اش"
     }
    ]
   },
@@ -1110,23 +355,6 @@
     }
    ]
   },
-  "simin-bhbhani": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "سیمین بهبهانی | بگو چگونه بنویسم",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "سیمین بهبهانی | سنگسار",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
   "skhnrani-ha-mizgrdha-o-msahbh-hai-almi": {
    "status": "all-bad",
    "samples": [
@@ -1144,54 +372,34 @@
     }
    ]
   },
-  "spidh-ghsh-go": {
+  "tfsiro-khoansh-nimh-i-tarik-ojod-noshth-i-dbi-ford": {
    "status": "all-bad",
    "samples": [
     {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "فارسی چهارم دبستان - 24.دری سیزدهم لطف حق",
-     "err": "URLError: <urlopen error timed out>"
+     "kind": "gone",
+     "code": 404,
+     "ct": "text/plain",
+     "host": "sphinx.acast.com",
+     "ep": "تمرین خودشناسی دبی فورد"
     },
     {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "تک کتاب - کتی .من خودم به دستشویی میروم",
-     "err": "URLError: <urlopen error timed out>"
+     "kind": "gone",
+     "code": 404,
+     "ct": "text/plain",
+     "host": "sphinx.acast.com",
+     "ep": "فصل پنجم؛ سایه ات را بشناس، بخش اول"
     }
    ]
   },
-  "tarikh-bihghi-a-tarikh-beyhaqi": {
-   "status": "all-bad",
+  "tmashai-ghrob": {
+   "status": "partial",
    "samples": [
     {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "صد و یکم _ روایت خواجه احمد عبدالصمد",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "پنجاه و يکم-تعيين بوسهل به عارضي",
-     "err": "URLError: <urlopen error timed out>"
-    }
-   ]
-  },
-  "tarikkhanh-tarikh": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "تعزیه در عصر ناصری- بخش دوم",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "احمد قوام ؛ جادوگر سیاست ایران",
-     "err": "URLError: <urlopen error timed out>"
+     "kind": "server-error",
+     "code": 504,
+     "ct": "text/html",
+     "host": "rss.audiyacreators.one",
+     "ep": "شماره‌ی۲ | آن ۱۲ روز | صداهایی از بیرون"
     }
    ]
   },
@@ -1199,28 +407,10 @@
    "status": "partial",
    "samples": [
     {
-     "kind": "server-error",
-     "code": 503,
-     "ct": "text/plain",
+     "kind": "network",
      "host": "player.rabt.space",
-     "ep": "قسمت هشتم| سریال چهره‌های پنهان(۱)، زندگینامه کاترین جانسون"
-    }
-   ]
-  },
-  "yuri-on-radio-iori-br-radio": {
-   "status": "all-bad",
-   "samples": [
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "«یوری!!! بر رادیو»، قسمت دهم (آخر) فصل پنجم: MAKE YOUR OWN T",
-     "err": "URLError: <urlopen error timed out>"
-    },
-    {
-     "kind": "network",
-     "host": "shenoto.com",
-     "ep": "«یوری!!! بر رادیو»، قسمت پنجم فصل سوم: WILD WILD WEST (AND E",
-     "err": "URLError: <urlopen error timed out>"
+     "ep": "قسمت هشتم| سریال چهره‌های پنهان(۱)، زندگینامه کاترین جانسون",
+     "err": "TimeoutError: The read operation timed out"
     }
    ]
   }
