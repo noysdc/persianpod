@@ -26998,8 +26998,8 @@
       24,
       33,
       30,
-      22,
-      14,
+      23,
+      13,
       6,
       5,
       0,
@@ -72249,8 +72249,8 @@
       3,
       2,
       2,
-      3,
-      2
+      4,
+      1
     ],
     "status": "active"
   },
@@ -78323,7 +78323,7 @@
   },
   "radio-fndgh": {
     "avg_length": 26,
-    "episodes": 30,
+    "episodes": 29,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2018-07-12",
@@ -78333,7 +78333,7 @@
     "last_link": "https://podcasters.spotify.com/pod/show/radiofandoq/episodes/ep-e2if0ek",
     "last_title": "در انتظار یک زندگی طبیعی",
     "max_length": 52,
-    "median_length": 22,
+    "median_length": 23,
     "min_length": 8,
     "play": [
       {
@@ -78907,19 +78907,25 @@
   "radio-hkait": {
     "avg_gap_days": 3.8,
     "avg_length": 33,
-    "episodes": 217,
-    "eps_365": 96,
+    "episodes": 218,
+    "eps_365": 97,
     "eps_90": 46,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/09/01",
-    "last_at": "2026-11-22T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7c003bf3-6a97-42df-901c-51173c688b9e/play.mp3?v=1",
-    "last_title": "طلاق - ایوان کلیما",
+    "last": "1405/09/02",
+    "last_at": "2026-11-23T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7d2fb758-7f85-4d3a-835c-ab60b3d23887/play.mp3?v=1",
+    "last_title": "یدکی - عزیز نسین",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7d2fb758-7f85-4d3a-835c-ab60b3d23887/play.mp3?v=1",
+        "at": "2026-11-23T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/7d2fb758-7f85-4d3a-835c-ab60b3d23887/artwork.jpg?v=1",
+        "t": "یدکی - عزیز نسین"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7c003bf3-6a97-42df-901c-51173c688b9e/play.mp3?v=1",
         "at": "2026-11-22T01:30:00Z",
@@ -78961,15 +78967,15 @@
         "at": "2026-11-16T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/8f4010a5-edba-44bf-8af3-505de99b4ea4/artwork.jpg?v=1",
         "t": "شب بلند - منیرو روانی پور"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/22629747-20dd-4557-9a8d-ef76218d2a21/play.mp3?v=1",
-        "at": "2026-11-15T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/22629747-20dd-4557-9a8d-ef76218d2a21/artwork.jpg?v=1",
-        "t": "آنیوتا - آنتوان چخوف"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-23T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/7d2fb758-7f85-4d3a-835c-ab60b3d23887/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7d2fb758-7f85-4d3a-835c-ab60b3d23887/play.mp3?v=1",
+        "title": "یدکی - عزیز نسین"
+      },
       {
         "at": "2026-11-22T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/7c003bf3-6a97-42df-901c-51173c688b9e/artwork.jpg?v=1",
@@ -78981,27 +78987,21 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/b1ad161e-e815-4cb5-8672-b01784596145/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/b1ad161e-e815-4cb5-8672-b01784596145/play.mp3?v=1",
         "title": "یک شب بی خوابی - صادق چوبک"
-      },
-      {
-        "at": "2026-11-20T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/2bc8150c-1396-4cbf-95e7-634a71d45532/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/2bc8150c-1396-4cbf-95e7-634a71d45532/play.mp3?v=1",
-        "title": "جوجهُ سرکنده - اوراسیو کیروگا"
       }
     ],
     "recent_30d": [
-      9,
+      8,
       3,
       11,
       0,
       0,
       0,
-      9,
+      10,
+      8,
       9,
       8,
       9,
-      9,
-      28
+      29
     ],
     "status": "active"
   },
