@@ -59331,21 +59331,27 @@
     "status": "active"
   },
   "podcast-ain-rozha": {
-    "avg_gap_days": 8.8,
+    "avg_gap_days": 8.7,
     "avg_length": 8,
-    "episodes": 207,
-    "eps_365": 41,
-    "eps_90": 9,
+    "episodes": 208,
+    "eps_365": 42,
+    "eps_90": 10,
     "first_at": "2019-02-11",
     "first_year": 1397,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T02:30:00Z",
-    "last_link": "https://share.transistor.fm/s/2d0a283d",
-    "last_title": "روز جهانی مدارا",
+    "last": "1405/09/02",
+    "last_at": "2026-11-23T02:30:00Z",
+    "last_link": "https://share.transistor.fm/s/48fc1c0a",
+    "last_title": "سازمان ملل بار دیگر نقض حقوق بشر در ایران و تشدید آزار و سرکوب جامعه بهایی را محکوم کرد.",
     "max_length": 45,
     "median_length": 6,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://media.transistor.fm/48fc1c0a/ee7cfe0a.mp3",
+        "at": "2026-11-23T02:30:00Z",
+        "i": "https://img.transistorcdn.com/c7FBgu0eMGx51zq90N_-5hXs3ZkYNn5BdgstMdHIKRw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS84NDQ0/Yzg0ZDI3MjZjMDlj/OGM5OTMwNzhiZGI4/ZjJlYS5qcGc.jpg",
+        "t": "سازمان ملل بار دیگر نقض حقوق بشر در ایران و تشدید آزار و سرکوب جامعه بهایی را محکوم کرد."
+      },
       {
         "a": "https://media.transistor.fm/2d0a283d/f4bcb093.mp3",
         "at": "2026-11-16T02:30:00Z",
@@ -59387,15 +59393,15 @@
         "at": "2026-09-14T02:30:00Z",
         "i": "https://img.transistorcdn.com/9T9VlAMfXkjpUp88B4F8_fiuIg84bvtsVgTm5YhOOB4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9kYTI3/ZDhhMDM0NDlkNjhl/Yjk2NTI1NzJjODZi/MzM5ZC5qcGc.jpg",
         "t": "هنر و مغز انسان"
-      },
-      {
-        "a": "https://media.transistor.fm/47789af1/dcd50be9.mp3",
-        "at": "2026-09-07T02:30:00Z",
-        "i": "https://img.transistorcdn.com/kkBzy9XIZ3m2XyyMQOxHriVQADHD211XrE4_J1CZVWA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81OWYw/YTgxYzY0NzUwYzhl/OTA5ZThhYjc4YWM5/MWU3MS5qcGc.jpg",
-        "t": "به مناسبت روز جهانی سوادآموزی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-23T02:30:00Z",
+        "i": "https://img.transistorcdn.com/c7FBgu0eMGx51zq90N_-5hXs3ZkYNn5BdgstMdHIKRw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS84NDQ0/Yzg0ZDI3MjZjMDlj/OGM5OTMwNzhiZGI4/ZjJlYS5qcGc.jpg",
+        "link": "https://share.transistor.fm/s/48fc1c0a",
+        "title": "سازمان ملل بار دیگر نقض حقوق بشر در ایران و تشدید آزار و سرکوب جامعه بهایی را محکوم کرد."
+      },
       {
         "at": "2026-11-16T02:30:00Z",
         "i": "https://img.transistorcdn.com/tnzH7LmqwqulIKjASsIIhpA4oif8kX4oIJhmlpwvTfc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81MDNk/YTg2ODcxYWRjMWQ0/NTk4NTRkY2RjNTk4/ZTliNC5qcGc.jpg",
@@ -59407,12 +59413,6 @@
         "i": "https://img.transistorcdn.com/JMlf973Vd02tM_bE8xauEyvZScNnewt-adb0mpDZ_WQ/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zODc0/NGVkMDc3MmY0YWZk/YzRiNjI3ZDI4YjU0/Y2VlOS5qcGc.jpg",
         "link": "https://share.transistor.fm/s/5341fc0f",
         "title": "هفته جهانی علم و صلح"
-      },
-      {
-        "at": "2026-11-02T02:30:00Z",
-        "i": "https://img.transistorcdn.com/3gNkCFT1nANkJxJr_FImNUxaX3DbMFODrvCmeMqCHfM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9mY2Vm/MTBhNTY4ZWQ2ZjY1/NmM2NDA0MzU5MDE4/MDFiMS5qcGc.jpg",
-        "link": "https://share.transistor.fm/s/56990c56",
-        "title": "روز جهانی پایان دادن به مصونیت از مجازات برای جرائم علیه روزنامه‌نگاران"
       }
     ],
     "recent_30d": [
@@ -59427,7 +59427,7 @@
       5,
       4,
       2,
-      3
+      4
     ],
     "status": "active"
   },
