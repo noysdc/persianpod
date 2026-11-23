@@ -79096,20 +79096,25 @@
   },
   "radio-hosh": {
     "avg_gap_days": 0.7,
-    "avg_length": 15,
-    "episodes": 43,
-    "eps_365": 43,
-    "eps_90": 43,
+    "avg_length": 16,
+    "episodes": 44,
+    "eps_365": 44,
+    "eps_90": 44,
     "first_at": "2026-10-25",
     "first_year": 1405,
-    "last": "1405/09/01",
-    "last_at": "2026-11-22T12:51:44Z",
-    "last_link": "https://share.transistor.fm/s/913445b5",
-    "last_title": "‏‫OpenAI و Distillation: مقابله با کپی‌برداری رقبا از مدل‌های هوش مصنوعی‬",
+    "last": "1405/09/02",
+    "last_at": "2026-11-23T10:20:12Z",
+    "last_link": "https://share.transistor.fm/s/4b065bcd",
+    "last_title": "‏‫هوش مصنوعی در فروشگاه اینترنتی: تغییر خرید و فروش آنلاین در B2B و B2C‬",
     "max_length": 26,
     "median_length": 16,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://media.transistor.fm/4b065bcd/423b4f0a.mp3",
+        "at": "2026-11-23T10:20:12Z",
+        "t": "‏‫هوش مصنوعی در فروشگاه اینترنتی: تغییر خرید و فروش آنلاین در B2B و B2C‬"
+      },
       {
         "a": "https://media.transistor.fm/913445b5/30a6f324.mp3",
         "at": "2026-11-22T12:51:44Z",
@@ -79144,14 +79149,14 @@
         "a": "https://media.transistor.fm/fa9b1830/914e35fd.mp3",
         "at": "2026-11-16T13:12:02Z",
         "t": "‏‫Starship در پرواز پانزدهم؛ SpaceX فضاپیما را هنگام بازگشت گرفت‬"
-      },
-      {
-        "a": "https://media.transistor.fm/2446944c/534672b7.mp3",
-        "at": "2026-11-16T10:04:08Z",
-        "t": "‏‫Nvidia به کجا می‌رود؟ تحلیل Steve Blank از آینده غول تراشه‬"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-23T10:20:12Z",
+        "link": "https://share.transistor.fm/s/4b065bcd",
+        "title": "‏‫هوش مصنوعی در فروشگاه اینترنتی: تغییر خرید و فروش آنلاین در B2B و B2C‬"
+      },
       {
         "at": "2026-11-22T12:51:44Z",
         "link": "https://share.transistor.fm/s/913445b5",
@@ -79161,11 +79166,6 @@
         "at": "2026-11-20T10:43:16Z",
         "link": "https://share.transistor.fm/s/474b57dc",
         "title": "‏‫Microsoft Copilot در Ignite 2026: هوش مصنوعی ساخته‌شده برای کار‬"
-      },
-      {
-        "at": "2026-11-19T11:09:01Z",
-        "link": "https://share.transistor.fm/s/b3968057",
-        "title": "‏‫KPMG: عامل‌های هوش مصنوعی در حسابرسی بهتر از حسابداران سؤال پرسیدند‬"
       }
     ],
     "recent_30d": [
@@ -79180,7 +79180,7 @@
       0,
       0,
       0,
-      43
+      44
     ],
     "status": "active"
   },
