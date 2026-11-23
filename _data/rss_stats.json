@@ -46137,8 +46137,8 @@
       5,
       5,
       3,
-      2,
-      5
+      3,
+      4
     ],
     "status": "active"
   },
@@ -93009,21 +93009,27 @@
     "status": "active"
   },
   "siri-dr-tarikh-o-frhng-airan": {
-    "avg_gap_days": 67.4,
-    "avg_length": 35,
-    "episodes": 157,
-    "eps_365": 6,
-    "eps_90": 2,
+    "avg_gap_days": 59.0,
+    "avg_length": 34,
+    "episodes": 158,
+    "eps_365": 7,
+    "eps_90": 3,
     "first_at": "2020-12-10",
     "first_year": 1399,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T09:36:06Z",
-    "last_link": "https://s3.castbox.fm/4d/01/4a/99c7f946d68b632ed4a7f21289.m4a",
-    "last_title": "نگاهی به آسیبهای فرهنگی در فضای مجازی",
+    "last": "1405/09/02",
+    "last_at": "2026-11-23T12:07:30Z",
+    "last_link": "https://s3.castbox.fm/02/e2/54/1512dd4890b6b97f25000b551b.m4a",
+    "last_title": "طلوع مجلس در ایران",
     "max_length": 56,
     "median_length": 31,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://s3.castbox.fm/02/e2/54/1512dd4890b6b97f25000b551b.m4a",
+        "at": "2026-11-23T12:07:30Z",
+        "i": "https://s3.castbox.fm/c4/7c/fc/14994e47b59e9ec5b34b9a0ee1.jpg",
+        "t": "طلوع مجلس در ایران"
+      },
       {
         "a": "https://s3.castbox.fm/4d/01/4a/99c7f946d68b632ed4a7f21289.m4a",
         "at": "2026-11-06T09:36:06Z",
@@ -93065,15 +93071,15 @@
         "at": "2025-11-20T09:29:52Z",
         "i": "https://s3.castbox.fm/17/a8/81/16a75e44e5a8fa50dab8b786aa.jpg",
         "t": "امام محمد غزالی - تحلیگر و نقاد"
-      },
-      {
-        "a": "https://s3.castbox.fm/85/14/f8/4c2121499aa286b119027eef02.m4a",
-        "at": "2025-11-06T08:35:57Z",
-        "i": "https://s3.castbox.fm/f8/c5/d8/0d59164b0aab040d4aeae1099e.jpg",
-        "t": "پرسشگری های حافظانه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-23T12:07:30Z",
+        "i": "https://s3.castbox.fm/c4/7c/fc/14994e47b59e9ec5b34b9a0ee1.jpg",
+        "link": "https://s3.castbox.fm/02/e2/54/1512dd4890b6b97f25000b551b.m4a",
+        "title": "طلوع مجلس در ایران"
+      },
       {
         "at": "2026-11-06T09:36:06Z",
         "i": "https://s3.castbox.fm/3b/40/c5/6fd21d4a8194667323359cc171.jpg",
@@ -93085,12 +93091,6 @@
         "i": "https://s3.castbox.fm/4c/91/a0/25711c42bebe5c27bc830fdc9b.jpg",
         "link": "https://s3.castbox.fm/6a/1e/a0/9f6e4c470e9f6a87ab7ee98e3b.m4a",
         "title": "ایران و زخمهایش"
-      },
-      {
-        "at": "2026-02-27T10:09:15Z",
-        "i": "https://s3.castbox.fm/4f/d7/68/84ac6645b081e456112f7bedab.jpg",
-        "link": "https://s3.castbox.fm/9a/62/9b/30da614a71b402b0f74b71d4f4.m4a",
-        "title": "تاب آوری های حافظانه در روزگار بی ثباتی ها"
       }
     ],
     "recent_30d": [
@@ -93105,7 +93105,7 @@
       0,
       0,
       1,
-      1
+      2
     ],
     "status": "active"
   },
