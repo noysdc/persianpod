@@ -9345,7 +9345,6 @@
       {
         "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgPCkuurNCgyiAQdsaWJyYXJ5/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgIicoJvqCQyiAQdsaWJyYXJ5.mp3",
         "at": "2022-02-14T07:00:00Z",
-        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgIicoJvqCQyiAQdsaWJyYXJ5.jpg?_=1644822000",
         "t": "#14 - نمایش‌های رادیویی"
       },
       {
@@ -9363,7 +9362,6 @@
       {
         "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgPCkuurNCgyiAQdsaWJyYXJ5/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgIis59v1CQyiAQdsaWJyYXJ5.mp3",
         "at": "2021-10-13T07:00:00Z",
-        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgIis59v1CQyiAQdsaWJyYXJ5.jpg?_=1644822000",
         "t": "#11 - اقتباس در آثار نمایشی"
       },
       {
@@ -9394,7 +9392,6 @@
     "recent": [
       {
         "at": "2022-02-14T07:00:00Z",
-        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgIicoJvqCQyiAQdsaWJyYXJ5.jpg?_=1644822000",
         "link": "https://www.radiobamdad.com/theater",
         "title": "#14 - نمایش‌های رادیویی"
       },
@@ -40818,10 +40815,10 @@
     "status": "active"
   },
   "kshor-shahnamh-khoansh-dastan-hai-shahnamh-frdosi": {
-    "avg_gap_days": 10.0,
+    "avg_gap_days": 10.4,
     "avg_length": 13,
     "episodes": 100,
-    "eps_365": 10,
+    "eps_365": 9,
     "eps_90": 0,
     "first_at": "2024-01-27",
     "first_year": 1402,
