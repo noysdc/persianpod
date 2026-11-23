@@ -4949,7 +4949,7 @@
     "avg_length": 18,
     "episodes": 32,
     "eps_365": 32,
-    "eps_90": 10,
+    "eps_90": 9,
     "first_at": "2026-01-24",
     "first_year": 1404,
     "last": "1405/08/26",
@@ -5027,8 +5027,8 @@
       4,
       2,
       3,
-      3,
-      5,
+      4,
+      4,
       2,
       3
     ],
@@ -75603,21 +75603,27 @@
     "status": "active"
   },
   "pol-mhm-ast": {
-    "avg_gap_days": 8.8,
-    "avg_length": 13,
-    "episodes": 119,
-    "eps_365": 40,
-    "eps_90": 14,
+    "avg_gap_days": 8.7,
+    "avg_length": 12,
+    "episodes": 120,
+    "eps_365": 41,
+    "eps_90": 15,
     "first_at": "2022-08-20",
     "first_year": 1401,
-    "last": "1405/08/28",
-    "last_at": "2026-11-19T01:38:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/australias-fastest-house-price-fall-in-40-years-opportunity-or-trap-for-home-buyers/y40vl97v3",
-    "last_title": "افت بی سابقه قیمت مسکن در استرالیا؛ فرصت طلایی خرید یا تله ای برای خریداران خانه اولی؟",
+    "last": "1405/09/02",
+    "last_at": "2026-11-23T00:15:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/why-does-the-economic-recession-formula-left-over-from-world-war-ii-no-longer-explain-todays-reality/p808gckud",
+    "last_title": "چرا فرمول «رکود اقتصادی» به جا مانده از دوران جنگ جهانی دوم دیگر واقعیت امروز استرالیا را توضیح نمی‌دهد؟",
     "max_length": 33,
     "median_length": 10,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/money-matters/20261123111554_279936-persian-231126-economy.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a2-05ac-d315-a5e6-7deec94d0000&dur_cat=2",
+        "at": "2026-11-23T00:15:00Z",
+        "i": "https://sbs-rss.streamguys1.com/money-matters/20261123111850_288454-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
+        "t": "چرا فرمول «رکود اقتصادی» به جا مانده از دوران جنگ جهانی دوم دیگر واقعیت امروز استرالیا را توضیح نمی‌دهد؟"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/money-matters/20261119123822_826211-persian-25128d91-dbc9-4f0c-a4ef-05a19a9f3435.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a1-f104-d23d-a7bd-fbcda42b0000&dur_cat=3",
         "at": "2026-11-19T01:38:00Z",
@@ -75659,15 +75665,15 @@
         "at": "2026-10-15T00:52:00Z",
         "i": "https://sbs-rss.streamguys1.com/money-matters/20261016133145_379632-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
         "t": "افزایش نرخ بهره و فشار هزینه های زندگی در استرالیا؛ راهکارهای عملی یک کارشناس مالیاتی برای خانوارها و کسب و کارهای کوچک"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/sbs-persian/20261014110244_439922-persian-fe26e85e-fb9f-4043-88b5-21cf0895912c.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a1-376d-d2b3-adad-77fd89cf0000&dur_cat=2",
-        "at": "2026-10-14T00:01:00Z",
-        "i": "https://sbs-rss.streamguys1.com/sbs-persian/20261014132604_734890-sbs-podcasts-sbspersian-3000x3000px.jpg",
-        "t": "به‌ دنبال بیشترین سود بانکی در استرالیا هستید؟ اول باید این نکته را بدانید"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-23T00:15:00Z",
+        "i": "https://sbs-rss.streamguys1.com/money-matters/20261123111850_288454-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/why-does-the-economic-recession-formula-left-over-from-world-war-ii-no-longer-explain-todays-reality/p808gckud",
+        "title": "چرا فرمول «رکود اقتصادی» به جا مانده از دوران جنگ جهانی دوم دیگر واقعیت امروز استرالیا را توضیح نمی‌دهد؟"
+      },
       {
         "at": "2026-11-19T01:38:00Z",
         "i": "https://sbs-rss.streamguys1.com/money-matters/20261119155508_539280-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
@@ -75679,12 +75685,6 @@
         "i": "https://sbs-rss.streamguys1.com/money-matters/20261116114338_979024-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/can-black-friday-reverse-shopper-slump/6f4gbw7ey",
         "title": "بلک فرایدی؛ ناجی بازار خرده‌فروشی یا تخفیفی بی‌اثر؟"
-      },
-      {
-        "at": "2026-11-09T03:04:00Z",
-        "i": "https://sbs-rss.streamguys1.com/money-matters/20261109140617_528216-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/cant-afford-to-buy-a-home-you-might-just-be-better-off/gsaadsz8e",
-        "title": "بخریم یا نه؛ آیا خانه‌دارشدن در استرالیا یک سرمایه‌گذاری موثر است؟"
       }
     ],
     "recent_30d": [
@@ -75699,7 +75699,7 @@
       1,
       4,
       5,
-      5
+      6
     ],
     "status": "active"
   },
