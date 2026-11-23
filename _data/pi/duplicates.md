@@ -1,7 +1,7 @@
 ## ممیزی تکراری‌ها
 
-- فایل‌های بررسی‌شده: **1215** (`_podcasts/`: 1001 · `_drafts/`: 17 · `_blocked/`: 197)
-- جفت‌های تکراریِ قطعی: **23**
+- فایل‌های بررسی‌شده: **1332** (`_podcasts/`: 1102 · `_drafts/`: 15 · `_blocked/`: 215)
+- جفت‌های تکراریِ قطعی: **28**
 - جفت‌های هم‌نام با سازنده‌ی متفاوت (احتمالاً دو پادکستِ جدا؛ فقط برای اطلاع): **14**
 
 ### تکراری (باید یکی‌شان حذف یا بلاک شود)
@@ -22,7 +22,12 @@
 - `_blocked/ghsh-hai-airani-1268484.md` «قصه‌های ایرانی» ⟷ `_podcasts/ghsh-hai-airani.md` «قصه‌های ایرانی» — عنوان و سازنده یکسان
 - `_blocked/ghsh-hai-airani-2451663.md` «قصه‌های ایرانی» ⟷ `_podcasts/ghsh-hai-airani.md` «قصه‌های ایرانی» — عنوان و سازنده یکسان
 - `_blocked/ghsh-hai-airani-1268484.md` «قصه‌های ایرانی» ⟷ `_blocked/ghsh-hai-airani-2451663.md` «قصه‌های ایرانی» — عنوان و سازنده یکسان
+- `_podcasts/ghsh-hai-fsghli-ha-archives.md` «قصه‌های فسقلی‌ها Archives» ⟷ `_podcasts/podcast-archives.md` «جادی - پادکست Archives» — عنوان و سازنده یکسان
+- `_drafts/ghsh-kodkanh-mtn-archives.md` «قصه‌ کودکانه (متن) Archives» ⟷ `_podcasts/ghsh-hai-fsghli-ha-archives.md` «قصه‌های فسقلی‌ها Archives» — عنوان و سازنده یکسان
+- `_drafts/ghsh-kodkanh-mtn-archives.md` «قصه‌ کودکانه (متن) Archives» ⟷ `_podcasts/podcast-archives.md` «جادی - پادکست Archives» — عنوان و سازنده یکسان
 - `_podcasts/kadi-podcast.md` «پادکست کادی؛ پشتِ صدای کتاب‌ها» ⟷ `_podcasts/kadi.md` «کتاب‌های کادی» — عنوان و سازنده یکسان
+- `_podcasts/narvan.md` «نارون» ⟷ `_podcasts/noys.md` «نویز؛ روایت‌های واقعی از گوشه‌و کنار دنیا» — عنوان و سازنده یکسان
+- `_podcasts/peaceful-presence-path-msir-hzor-aaramsh-padkst-mditishn.md` «Peaceful.Presence.Path- مسیر حضور آرامش ( پادکست مدیتیشن-مراقبه کوتاه فارسی با شبنم-)» ⟷ `_podcasts/peaceful-presence-path-podcast-msir-hzor-aaramsh-padkst.md` «Peaceful Presence path podcast- مسیر حضور آرامش پادکست» — عنوان و سازنده یکسان
 - `_blocked/casa-milan-persian-podcast-kaza-milan.md` «Casa Milan Persian Podcast کازا میلان» ⟷ `_podcasts/podcast-kaza-milan.md` «پادکست کازا میلان» — عنوان و سازنده یکسان
 - `_blocked/podcast-roanshnasi-saikopad-3427358.md` «پادکست روانشناسی سایکوپاد» ⟷ `_podcasts/podcast-roanshnasi-saikopad.md` «پادکست روانشناسی سایکوپاد» — عنوان و سازنده یکسان
 - `_blocked/radio-dastan-1509162.md` «رادیو داستان» ⟷ `_podcasts/radio-dastan.md` «رادیو داستان» — عنوان و سازنده یکسان
