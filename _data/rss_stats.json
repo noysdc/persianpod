@@ -31419,8 +31419,8 @@
     "recent_30d": [
       6,
       2,
-      6,
-      12,
+      7,
+      11,
       12,
       6,
       4,
@@ -99151,21 +99151,26 @@
     "status": "inactive"
   },
   "zangetarikh": {
-    "avg_gap_days": 66.4,
+    "avg_gap_days": 56.0,
     "avg_length": 46,
-    "episodes": 91,
-    "eps_365": 6,
-    "eps_90": 2,
+    "episodes": 92,
+    "eps_365": 7,
+    "eps_90": 3,
     "first_at": "2021-01-08",
     "first_year": 1399,
-    "last": "1405/08/28",
-    "last_at": "2026-11-19T04:30:00Z",
-    "last_link": "https://shows.acast.com/zn-trkh-or-zangetarikh/episodes/50",
-    "last_title": "اپیزود 50 تاریخ اساطیری ایران (ااز گشتاسب تا اسکندر)",
+    "last": "1405/09/02",
+    "last_at": "2026-11-23T12:37:47Z",
+    "last_link": "https://shows.acast.com/zn-trkh-or-zangetarikh/episodes/ein",
+    "last_title": "از این به بعد زنگ تاریخ هر هفته اپیزود جدید داره. منتها به شرطی که در این فایل میشنوید",
     "max_length": 95,
-    "median_length": 43,
+    "median_length": 42,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/6b043363eb893786aeae1253/media.mp3",
+        "at": "2026-11-23T12:37:47Z",
+        "t": "از این به بعد زنگ تاریخ هر هفته اپیزود جدید داره. منتها به شرطی که در این فایل میشنوید"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/6afd9cde5ca4ff63ce4bdc05/media.mp3",
         "at": "2026-11-19T04:30:00Z",
@@ -99206,14 +99211,14 @@
         "at": "2025-11-22T10:29:58Z",
         "i": "https://assets.pippa.io/shows/624017fbb07b8a00124d6eee/1763807307175-81d01df3-7eea-4939-9f91-b8cde3bb39c3.jpeg",
         "t": "اپیزود 48 جامعه و اقتصاد در دوره هخامنشی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/624017fbb07b8a00124d6eee/e/69021bb59b0ac9b41877d498/media.mp3",
-        "at": "2025-10-29T13:50:44Z",
-        "t": "هفت آبان, نه تولد هست نه جهانی. پس ریشه تاریخی روز کوروش کجاست؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-23T12:37:47Z",
+        "link": "https://shows.acast.com/zn-trkh-or-zangetarikh/episodes/ein",
+        "title": "از این به بعد زنگ تاریخ هر هفته اپیزود جدید داره. منتها به شرطی که در این فایل میشنوید"
+      },
       {
         "at": "2026-11-19T04:30:00Z",
         "i": "https://assets.pippa.io/shows/624017fbb07b8a00124d6eee/1795005573143-24f5ee94-03fc-42fd-b5d3-e08f748fb84a.jpeg",
@@ -99225,12 +99230,6 @@
         "i": "https://assets.pippa.io/shows/624017fbb07b8a00124d6eee/1792655632966-e5eb738a-0943-4eba-91be-a41685933930.jpeg",
         "link": "https://shows.acast.com/zn-trkh-or-zangetarikh/episodes/s5",
         "title": "فصل 5 سلوکیان و اشکانیان"
-      },
-      {
-        "at": "2026-08-21T16:56:09Z",
-        "i": "https://assets.pippa.io/shows/624017fbb07b8a00124d6eee/1787331357501-8a88825a-ea8a-4259-8db6-bca422077ccc.jpeg",
-        "link": "https://shows.acast.com/zn-trkh-or-zangetarikh/episodes/30-1405",
-        "title": "لایو 30 مرداد 1405: چرا انسانها مجبور شدند حکومت تشکیل بدند؟"
       }
     ],
     "recent_30d": [
@@ -99245,7 +99244,7 @@
       1,
       0,
       1,
-      1
+      2
     ],
     "status": "active"
   },
