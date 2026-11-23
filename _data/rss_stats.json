@@ -2187,8 +2187,8 @@
     "avg_gap_days": 3.1,
     "avg_length": 7,
     "episodes": 161,
-    "eps_365": 109,
-    "eps_90": 37,
+    "eps_365": 108,
+    "eps_90": 36,
     "first_at": "2025-08-26",
     "first_year": 1404,
     "last": "1405/07/30",
@@ -2276,9 +2276,9 @@
       0,
       0,
       15,
-      16,
+      17,
       22,
-      20,
+      19,
       17,
       0
     ],
@@ -13274,19 +13274,25 @@
   "brnamh-hai-roanshnasi-persianbms": {
     "avg_gap_days": 7.0,
     "avg_length": 17,
-    "episodes": 25,
-    "eps_365": 25,
-    "eps_90": 12,
+    "episodes": 26,
+    "eps_365": 26,
+    "eps_90": 13,
     "first_at": "2026-06-01",
     "first_year": 1405,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T06:30:00Z",
-    "last_link": "https://share.transistor.fm/s/a3109267",
-    "last_title": "راهی هست: ۷. چگونه سن، فرهنگ و رسانه خطر خودکشی را افزایش می‌دهند؟",
+    "last": "1405/09/02",
+    "last_at": "2026-11-23T06:30:00Z",
+    "last_link": "https://share.transistor.fm/s/e2f69c5c",
+    "last_title": "راهی هست: ۸. نقش دین و معنویت در حمایت روانی و پیشگیری از خودکشی",
     "max_length": 26,
     "median_length": 14,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://media.transistor.fm/e2f69c5c/20417903.mp3",
+        "at": "2026-11-23T06:30:00Z",
+        "i": "https://img.transistorcdn.com/WSAW8PW6CG8QA7RTe_CLpExEVosMFWOvaJDx_L3duSQ/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS85ZWU3/M2UxMDk0ODlhYTVl/ZDhlYjNiZGM3MWYy/NGRmZi5qcGc.jpg",
+        "t": "راهی هست: ۸. نقش دین و معنویت در حمایت روانی و پیشگیری از خودکشی"
+      },
       {
         "a": "https://media.transistor.fm/a3109267/8dcbf983.mp3",
         "at": "2026-11-16T06:30:00Z",
@@ -13328,15 +13334,15 @@
         "at": "2026-10-05T05:30:00Z",
         "i": "https://img.transistorcdn.com/6Jkli365WQNthRPpyh1IFfMgVCsBAouVULCQbjOruq8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS83OGQ5/MjZkMWU5ODAwZWNi/OTI3ZmIzZmIyOTYw/YWIxZS5qcGc.jpg",
         "t": "راهی هست: ۱. چه‌قدر تنها بودی تو این همه فشار"
-      },
-      {
-        "a": "https://media.transistor.fm/980154b5/02756fc9.mp3",
-        "at": "2026-09-28T06:30:00Z",
-        "i": "https://img.transistorcdn.com/Y9YIxleQT70bzHZgLGlYUBY9cxibeWxSLngMxiU_y0A/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9kOGI0/ZjQ5YTY3ZTIzZjVk/Yzg4NGJkNzYxMzVl/YzUxMC5qcGc.jpg",
-        "t": "اتاق آبی: ۱۲. آیا رقابت در زندگی ما را به رضامندی خواهد رساند؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-23T06:30:00Z",
+        "i": "https://img.transistorcdn.com/WSAW8PW6CG8QA7RTe_CLpExEVosMFWOvaJDx_L3duSQ/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS85ZWU3/M2UxMDk0ODlhYTVl/ZDhlYjNiZGM3MWYy/NGRmZi5qcGc.jpg",
+        "link": "https://share.transistor.fm/s/e2f69c5c",
+        "title": "راهی هست: ۸. نقش دین و معنویت در حمایت روانی و پیشگیری از خودکشی"
+      },
       {
         "at": "2026-11-16T06:30:00Z",
         "i": "https://img.transistorcdn.com/Mtr4YQJlY7QnAZq9t3SBUUfcpwglOZh_Pr27GGXVrF0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS84NzNi/MGVlMWQ4Yjg0NzU1/ZTA1MmI0NDhiODJm/NWVkNS5qcGc.jpg",
@@ -13348,12 +13354,6 @@
         "i": "https://img.transistorcdn.com/PkBD57SzxDIAhtcBY6-zU3cKK0AdXJgVj_DMyU6B4Bk/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zMWQy/OTg3MDhiODRhYzhh/NTM2NWVkY2Y3ZmZl/NmYyYS5qcGc.jpg",
         "link": "https://share.transistor.fm/s/a80ffeca",
         "title": "راهی هست: ۶. «طرح ایمنی»، راهی برای نجات از افکار خودکشی"
-      },
-      {
-        "at": "2026-11-02T05:30:00Z",
-        "i": "https://img.transistorcdn.com/st9fs0nvXgziIFrcOq6NWz4VGWwILVO3sOPL01Fgmls/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81ZGFk/YTE4MWU4YmMxNWJi/MTc3NzE0OGI0MjQ4/Mjg3ZS5qcGc.jpg",
-        "link": "https://share.transistor.fm/s/931a241e",
-        "title": "راهی هست: ۵. پس از خودکشی؛ چگونه از بازماندگان مراقبت کنیم؟"
       }
     ],
     "recent_30d": [
@@ -13368,7 +13368,7 @@
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   },
@@ -70949,10 +70949,10 @@
     "status": "active"
   },
   "podcast-orzshi-gaiton-hal-guyton-hall": {
-    "avg_gap_days": 16.3,
+    "avg_gap_days": 17.0,
     "avg_length": 10,
     "episodes": 100,
-    "eps_365": 16,
+    "eps_365": 15,
     "eps_90": 0,
     "first_at": "2023-11-05",
     "first_year": 1402,
@@ -71041,8 +71041,8 @@
       0,
       0,
       4,
-      4,
-      1,
+      5,
+      0,
       0,
       0,
       0
@@ -81900,8 +81900,8 @@
       12,
       12,
       12,
-      11,
-      13,
+      12,
+      12,
       6
     ],
     "status": "active"
@@ -95420,19 +95420,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4286,
-    "eps_365": 779,
-    "eps_90": 247,
+    "episodes": 4287,
+    "eps_365": 780,
+    "eps_90": 248,
     "first_at": "2023-09-13",
     "first_year": 1402,
-    "last": "1405/09/01",
-    "last_at": "2026-11-22T07:30:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b01aca69870152240a29984",
-    "last_title": "قسمت چهارهزار و دویست و شصت و هفت",
+    "last": "1405/09/02",
+    "last_at": "2026-11-23T06:30:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b035c85c2063ef630382ef2",
+    "last_title": "قسمت چهارهزار و دویست و شصت و هشت",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6b035c85c2063ef630382ef2/media.mp3",
+        "at": "2026-11-23T06:30:00Z",
+        "t": "قسمت چهارهزار و دویست و شصت و هشت"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6b01aca69870152240a29984/media.mp3",
         "at": "2026-11-22T07:30:00Z",
@@ -95467,14 +95472,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6aff474e3c298292f3fcebce/media.mp3",
         "at": "2026-11-19T19:13:00Z",
         "t": "قسمت چهارهزار و دویست و شصت و دو"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6aff412518a3c93bdb4a77c3/media.mp3",
-        "at": "2026-11-19T18:34:13Z",
-        "t": "قسمت چهارهزار و دویست و شصت و یک"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-23T06:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b035c85c2063ef630382ef2",
+        "title": "قسمت چهارهزار و دویست و شصت و هشت"
+      },
       {
         "at": "2026-11-22T07:30:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b01aca69870152240a29984",
@@ -95484,11 +95489,6 @@
         "at": "2026-11-22T05:30:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b01aaa2a94212ad7ca4a000",
         "title": "قسمت چهارهزار و دویست و شصت و شش"
-      },
-      {
-        "at": "2026-11-21T11:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b00619b98701522401f5431",
-        "title": "قسمت چهارهزار و دویست و شصت و پنج"
       }
     ],
     "recent_30d": [
@@ -95497,13 +95497,13 @@
       100,
       8,
       0,
-      7,
-      53,
+      8,
+      52,
       101,
       84,
       98,
       74,
-      75
+      76
     ],
     "status": "active"
   },
@@ -97587,8 +97587,8 @@
       11,
       36,
       42,
-      34,
-      26
+      35,
+      25
     ],
     "status": "active"
   },
