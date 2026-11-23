@@ -9988,21 +9988,27 @@
     "status": "active"
   },
   "baran": {
-    "avg_gap_days": 11.4,
+    "avg_gap_days": 11.8,
     "avg_length": 36,
-    "episodes": 73,
-    "eps_365": 6,
-    "eps_90": 6,
+    "episodes": 74,
+    "eps_365": 7,
+    "eps_90": 7,
     "first_at": "2022-05-21",
     "first_year": 1401,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T04:24:34Z",
-    "last_link": "https://shows.acast.com/baran-or-brn/episodes/6aed6fa32cf7bf4244877827",
-    "last_title": "اپیزود ششم: چطور لویاتان را مهار کنیم؟",
+    "last": "1405/09/02",
+    "last_at": "2026-11-23T04:24:24Z",
+    "last_link": "https://shows.acast.com/baran-or-brn/episodes/6b01db394f7f96174d1e860c",
+    "last_title": "اپیزود هفتم: شیب لغزنده",
     "max_length": 62,
     "median_length": 38,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/625818e3e7163d001271b159/e/6b01db394f7f96174d1e860c/media.mp3",
+        "at": "2026-11-23T04:24:24Z",
+        "i": "https://assets.pippa.io/shows/625818e3e7163d001271b159/1795228259111-2e277ec5-feee-44d8-9f41-882c9fd22f54.jpeg",
+        "t": "اپیزود هفتم: شیب لغزنده"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/625818e3e7163d001271b159/e/6aed6fa32cf7bf4244877827/media.mp3",
         "at": "2026-11-09T04:24:34Z",
@@ -10044,15 +10050,15 @@
         "at": "2025-09-15T03:00:00Z",
         "i": "https://assets.pippa.io/shows/625818e3e7163d001271b159/1757822152420-b68dff72-f138-4309-8bc3-54ce49be2b33.jpeg",
         "t": "اپیزود شانزدهم: اطلاعیه دوره جهش 4 و دوره جریان"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/625818e3e7163d001271b159/e/6890355ac6d705dd3a6a250a/media.mp3",
-        "at": "2025-08-04T04:21:43Z",
-        "i": "https://assets.pippa.io/shows/625818e3e7163d001271b159/1754281162564-51b681f2-96f1-458b-b29f-d3c3653604b3.jpeg",
-        "t": "اپیزود پانزدهم: چطور تغییر قصه شما، زندگی شما رو عوض می کنه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-23T04:24:24Z",
+        "i": "https://assets.pippa.io/shows/625818e3e7163d001271b159/1795228259111-2e277ec5-feee-44d8-9f41-882c9fd22f54.jpeg",
+        "link": "https://shows.acast.com/baran-or-brn/episodes/6b01db394f7f96174d1e860c",
+        "title": "اپیزود هفتم: شیب لغزنده"
+      },
       {
         "at": "2026-11-09T04:24:34Z",
         "i": "https://assets.pippa.io/shows/625818e3e7163d001271b159/1793943808697-ecc1f3d3-83e7-4672-8e19-9d45fdd3c118.jpeg",
@@ -10064,12 +10070,6 @@
         "i": "https://assets.pippa.io/shows/625818e3e7163d001271b159/1790724643152-ab81a69c-fe77-401c-8be5-c4861ccd4b80.jpeg",
         "link": "https://shows.acast.com/baran-or-brn/episodes/6abc4b33e1bd8d0f19b88dbe",
         "title": "اپیزود پنجم: دولت قدرتمند یا هنجارها؟"
-      },
-      {
-        "at": "2026-10-12T03:30:00Z",
-        "i": "https://assets.pippa.io/shows/625818e3e7163d001271b159/1790441851863-7d6d1925-41b0-4f89-9032-5648bfc91d72.jpeg",
-        "link": "https://shows.acast.com/baran-or-brn/episodes/6ab7fce859a98735e1ce60ad",
-        "title": "اپیزود چهارم: لویاتان؛ هیولایی برای نجات انسان؟"
       }
     ],
     "recent_30d": [
@@ -10084,7 +10084,7 @@
       0,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -89417,7 +89417,7 @@
     "avg_length": 49,
     "episodes": 70,
     "eps_365": 22,
-    "eps_90": 8,
+    "eps_90": 7,
     "first_at": "2018-11-05",
     "first_year": 1397,
     "last": "1405/08/24",
@@ -89506,8 +89506,8 @@
       0,
       2,
       3,
-      2,
       3,
+      2,
       2,
       3
     ],
