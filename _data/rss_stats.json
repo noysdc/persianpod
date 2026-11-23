@@ -67768,21 +67768,27 @@
     "status": "inactive"
   },
   "podcast-jnaii-noar-zrd": {
-    "avg_gap_days": 21.5,
+    "avg_gap_days": 20.7,
     "avg_length": 46,
-    "episodes": 66,
-    "eps_365": 16,
-    "eps_90": 6,
+    "episodes": 67,
+    "eps_365": 17,
+    "eps_90": 7,
     "first_at": "2021-07-25",
     "first_year": 1400,
-    "last": "1405/08/24",
-    "last_at": "2026-11-15T06:30:00Z",
+    "last": "1405/09/02",
+    "last_at": "2026-11-23T06:30:00Z",
     "last_link": "https://daramet.com/navarezardpodcast",
-    "last_title": "قسمت ۴۹.فاطمه حقیقت پژوه",
+    "last_title": "قسمت ۵۰.گردن زنی",
     "max_length": 91,
-    "median_length": 48,
+    "median_length": 47,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/626ce50492829f00120e8192/e/6b01edb58e8174f98311266d/media.mp3",
+        "at": "2026-11-23T06:30:00Z",
+        "i": "https://assets.pippa.io/shows/626ce50492829f00120e8192/1795286788203-95788341-9d37-4ea3-aa0d-7c20983ad207.jpeg",
+        "t": "قسمت ۵۰.گردن زنی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/626ce50492829f00120e8192/e/6af817de34f69b9edd8837af/media.mp3",
         "at": "2026-11-15T06:30:00Z",
@@ -67824,15 +67830,15 @@
         "at": "2026-08-22T06:30:00Z",
         "i": "https://assets.pippa.io/shows/626ce50492829f00120e8192/1787348100611-ad875a34-8c2f-41d6-994f-dce0681ce2e6.jpeg",
         "t": "قسمت ۴۵.کشتار برای چند مثقال طلا"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/626ce50492829f00120e8192/e/6a7ec3f7f8e81c4395c6d6d9/media.mp3",
-        "at": "2026-08-15T06:30:00Z",
-        "i": "https://assets.pippa.io/shows/626ce50492829f00120e8192/1786691836767-a177cb17-63d4-40c0-a4e2-bfc0c036f944.jpeg",
-        "t": "قسمت۴۴.جنایت در کیش"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-23T06:30:00Z",
+        "i": "https://assets.pippa.io/shows/626ce50492829f00120e8192/1795286788203-95788341-9d37-4ea3-aa0d-7c20983ad207.jpeg",
+        "link": "https://daramet.com/navarezardpodcast",
+        "title": "قسمت ۵۰.گردن زنی"
+      },
       {
         "at": "2026-11-15T06:30:00Z",
         "i": "https://assets.pippa.io/shows/626ce50492829f00120e8192/1794643015404-ccbe84f8-7461-42c5-9c1e-73d586b08e2b.jpeg",
@@ -67844,12 +67850,6 @@
         "i": "https://assets.pippa.io/shows/626ce50492829f00120e8192/1791725435360-aae69394-a720-46b4-bb79-e4d3abc43599.jpeg",
         "link": "https://daramet.com/navarezardpodcast",
         "title": "قسمت ۴۸.پایان شوم عشق"
-      },
-      {
-        "at": "2026-09-26T16:48:04Z",
-        "i": "https://assets.pippa.io/shows/626ce50492829f00120e8192/1790437990170-7e1fdd54-e571-4c20-9eae-3123b1049e9b.jpeg",
-        "link": "https://daramet.com/navarezardpodcast",
-        "title": "قسمت۴۷.بخش دوم"
       }
     ],
     "recent_30d": [
@@ -67864,7 +67864,7 @@
       3,
       3,
       2,
-      1
+      2
     ],
     "status": "active"
   },
