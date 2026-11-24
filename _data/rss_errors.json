@@ -12,7 +12,7 @@
     "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
   },
   "aamozsh-mkalmh-anglisi": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "error": "RuntimeError: HTTP 418 (reauthentication required) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://languagedownload.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B2%D8%A8%D8%A7%D9%86-%D8%A7%D9%86%DA%AF%D9%84%DB%8C%D8%B3%DB%8C/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D9%87-%D8%A7%D9%86%DA%AF%D9%84%DB%8C%D8%B3%DB%8C/feed/"
   },
   "aamozsh-zban-anglisi-talk-stop": {
@@ -40,7 +40,7 @@
     "rss": "https://stringcast.ir/feed/podcast/stringcast/"
   },
   "awr-farsi": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 113] No route to host>",
     "rss": "https://podcasts.awr.org/xml/xmliTunes/FASBE_ROH.xml"
   },
   "baehsan": {
@@ -196,7 +196,7 @@
     "rss": "http://hezaryekshab.ir/Files/rss-feed.xml"
   },
   "radio-jhani-adontist": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 113] No route to host>",
     "rss": "https://podcasts.awr.org/xml/xmliTunes/FASCO_AWR.xml"
   },
   "radio-mfid": {
