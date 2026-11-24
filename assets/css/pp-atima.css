@@ -3,7 +3,8 @@
   max-width:74ch;
   font-size:1.02rem;
   line-height:2.15;
-  overflow-wrap:anywhere;
+  overflow-wrap:normal;
+  word-break:normal;
 }
 .pod .body > p{
   margin:0 0 1.35em;
