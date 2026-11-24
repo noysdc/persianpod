@@ -26016,6 +26016,7 @@
       {
         "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgND-3aGpCwyiAQdsaWJyYXJ5/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgMiGlva8CgyiAQdsaWJyYXJ5.mp3",
         "at": "2022-07-14T07:00:00Z",
+        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgMiGlva8CgyiAQdsaWJyYXJ5.jpg?_=1668022736",
         "t": "احساس ناستالژیا یک پایه درعلم روانشناسی"
       },
       {
@@ -85526,8 +85527,8 @@
       4,
       2,
       2,
-      2,
-      7,
+      3,
+      6,
       0,
       0,
       0,
@@ -97597,19 +97598,25 @@
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
     "avg_length": 20,
-    "episodes": 435,
-    "eps_365": 260,
-    "eps_90": 103,
+    "episodes": 436,
+    "eps_365": 261,
+    "eps_90": 104,
     "first_at": "2024-08-22",
     "first_year": 1403,
     "last": "1405/09/03",
-    "last_at": "2026-11-24T14:21:34Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6b059d72062dc4efc03bf9a2",
-    "last_title": "مدیتیشن قبل از جلسه کاری و مذاکره 💼✨ | آرامش ذهن، وضوح فکر و اعتمادبه‌نفس برای تصمیم‌گیری درست",
+    "last_at": "2026-11-24T14:30:00Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6af04aab9272884e57e5c9a0",
+    "last_title": "به مسیر زندگی اعتماد کن ✨ | جملات تأکیدی قدرتمند",
     "max_length": 99,
     "median_length": 12,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af04aab9272884e57e5c9a0/media.mp3",
+        "at": "2026-11-24T14:30:00Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794132318517-60fd58ab-8763-4f85-b737-e7c935c826bd.jpeg",
+        "t": "به مسیر زندگی اعتماد کن ✨ | جملات تأکیدی قدرتمند"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6b059d72062dc4efc03bf9a2/media.mp3",
         "at": "2026-11-24T14:21:34Z",
@@ -97651,15 +97658,15 @@
         "at": "2026-11-20T01:30:00Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795002883124-68c180cf-945b-402c-88be-329cc3338462.jpeg",
         "t": "صبح دل‌انگیز نوامبر ❄️ | موسیقی برای آرامش، تمرکز و زندگی آهسته"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af04c41218f4807f2e1f768/media.mp3",
-        "at": "2026-11-20T00:30:00Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794133003826-30b4ef67-316f-48c6-b6fa-ffa8c67248db.jpeg",
-        "t": "جملات تأکیدی جذب برکت، آرامش درون و مدار فراوانی کائنات"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T14:30:00Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794132318517-60fd58ab-8763-4f85-b737-e7c935c826bd.jpeg",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6af04aab9272884e57e5c9a0",
+        "title": "به مسیر زندگی اعتماد کن ✨ | جملات تأکیدی قدرتمند"
+      },
       {
         "at": "2026-11-24T14:21:34Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795529921572-3262c504-8933-4d32-ac59-8590705302ac.jpeg",
@@ -97671,12 +97678,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795501180904-1c3b8ee9-079b-4f62-acdd-5aa700288eb5.jpeg",
         "link": "https://youtu.be/d6eih_Ye2HU",
         "title": "مدیتیشن | مدیتیشن آرامش ذهن و زندگی در زمان حال"
-      },
-      {
-        "at": "2026-11-22T03:30:00Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793687942275-28455c95-6ea1-433f-930e-22e71161ea9d.jpeg",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6ae981d1f5930510a0c33bca",
-        "title": "سلام آذرماه من 🍂 | جملات صبحگاهی و آرامش"
       }
     ],
     "recent_30d": [
@@ -97691,7 +97692,7 @@
       36,
       41,
       37,
-      25
+      26
     ],
     "status": "active"
   },
