@@ -79179,8 +79179,8 @@
       0,
       0,
       0,
-      0,
-      44
+      1,
+      43
     ],
     "status": "active"
   },
@@ -85153,21 +85153,27 @@
     "status": "active"
   },
   "roan-diar": {
-    "avg_gap_days": 4.4,
-    "avg_length": 10,
-    "episodes": 6,
-    "eps_365": 6,
-    "eps_90": 6,
+    "avg_gap_days": 7.5,
+    "avg_length": 12,
+    "episodes": 7,
+    "eps_365": 7,
+    "eps_90": 7,
     "first_at": "2026-10-09",
     "first_year": 1405,
-    "last": "1405/08/10",
-    "last_at": "2026-11-01T10:13:44Z",
-    "last_link": "https://shenoto.com/album/podcast/1893827/جورنالینگ چیه؟| چطور با جورنالینگ حس و حالم رو بهتر کنم؟",
-    "last_title": "جورنالینگ چیه؟| چطور با جورنالینگ حس و حالم رو بهتر کنم؟",
-    "max_length": 13,
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T10:06:22Z",
+    "last_link": "https://shenoto.com/album/podcast/1899212/کنترل دوپامین | چرا هرچی بیشتر لذت میبری بیشتر درد میکشی؟",
+    "last_title": "کنترل دوپامین | چرا هرچی بیشتر لذت میبری بیشتر درد میکشی؟",
+    "max_length": 24,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/b374d20c-e7ee-11f1-bfe0-fa9949eecb4b.mp3",
+        "at": "2026-11-24T10:06:22Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/b993a5c3-03a2-49a0-b9cf-80e1c9eea5fd/cover/3000.jpg",
+        "t": "کنترل دوپامین | چرا هرچی بیشتر لذت میبری بیشتر درد میکشی؟"
+      },
       {
         "a": "https://shenoto.com/service/api/play/podcast/eb4e1039-d5dc-11f1-aa88-5ec33253e410.mp3",
         "at": "2026-11-01T10:13:44Z",
@@ -85207,6 +85213,12 @@
     ],
     "recent": [
       {
+        "at": "2026-11-24T10:06:22Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/b993a5c3-03a2-49a0-b9cf-80e1c9eea5fd/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/1899212/کنترل دوپامین | چرا هرچی بیشتر لذت میبری بیشتر درد میکشی؟",
+        "title": "کنترل دوپامین | چرا هرچی بیشتر لذت میبری بیشتر درد میکشی؟"
+      },
+      {
         "at": "2026-11-01T10:13:44Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/17cbb5cb-9218-4a9a-a889-a067f1e21e14/cover/3000.jpg",
         "link": "https://shenoto.com/album/podcast/1893827/جورنالینگ چیه؟| چطور با جورنالینگ حس و حالم رو بهتر کنم؟",
@@ -85217,12 +85229,6 @@
         "i": "https://cdn-arch.shenoto.com/shenoto-album/b18afec6-40d5-4c02-8ab6-a7b1e7be7c4f/cover/3000.jpg",
         "link": "https://shenoto.com/album/podcast/1892962/اون از من بهتره | راه مدیریت احساس کافی نبودن در اثر خطای مقایسه",
         "title": "اون از من بهتره | راه مدیریت احساس کافی نبودن در اثر خطای مقایسه"
-      },
-      {
-        "at": "2026-10-22T08:00:20Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/89ec6bdc-647b-4a3d-ba8a-a7238760a85e/cover/3000.jpg",
-        "link": "https://shenoto.com/album/podcast/1891717/چرا همیشه خستم؟| انواع خستگی و راهکارهای غلبه به آن",
-        "title": "چرا همیشه خستم؟| انواع خستگی و راهکارهای غلبه به آن"
       }
     ],
     "recent_30d": [
@@ -85237,7 +85243,7 @@
       0,
       0,
       4,
-      2
+      3
     ],
     "status": "active"
   },
@@ -90380,8 +90386,8 @@
       }
     ],
     "recent_30d": [
-      1,
-      1,
+      2,
+      0,
       1,
       0,
       0,
