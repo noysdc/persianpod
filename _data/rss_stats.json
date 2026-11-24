@@ -26645,7 +26645,7 @@
     "avg_length": 17,
     "episodes": 94,
     "eps_365": 94,
-    "eps_90": 32,
+    "eps_90": 31,
     "first_at": "2026-05-07",
     "first_year": 1405,
     "last": "1405/07/05",
@@ -26720,11 +26720,11 @@
       0,
       0,
       0,
-      21,
+      22,
       29,
-      10,
-      2,
-      30,
+      9,
+      3,
+      29,
       2,
       0
     ],
@@ -34805,8 +34805,8 @@
       4,
       5,
       5,
-      16,
-      6,
+      17,
+      5,
       11
     ],
     "status": "active"
@@ -50280,8 +50280,8 @@
       18,
       19,
       1,
-      30,
-      20
+      31,
+      19
     ],
     "status": "active"
   },
@@ -89513,20 +89513,26 @@
   },
   "sfrnamh-hai-soti-lst-sknd": {
     "avg_gap_days": 1.2,
-    "avg_length": 20,
-    "episodes": 120,
-    "eps_365": 120,
-    "eps_90": 66,
+    "avg_length": 19,
+    "episodes": 121,
+    "eps_365": 121,
+    "eps_90": 67,
     "first_at": "2026-06-29",
     "first_year": 1405,
-    "last": "1405/09/02",
-    "last_at": "2026-11-23T09:05:00Z",
-    "last_link": "https://bavexa.com/e/58482-dj-pasha-pashamix-23",
-    "last_title": "Dj Pasha - PashaMix Ep.23",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T07:30:00Z",
+    "last_link": "https://bavexa.com/e/58592-deejay-al-dordor-19",
+    "last_title": "Deejay Al - Dor Dor Ep.19",
     "max_length": 110,
     "median_length": 19,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://cdn-bavexa.version.ir/episodes/58592/source.mp3",
+        "at": "2026-11-24T07:30:00Z",
+        "i": "https://cdn.bavexa.com/episodes/z1zW39PzNNhJGCjmi9qbrLIXyTUtwUaBlTUNGbEx.jpg",
+        "t": "Deejay Al - Dor Dor Ep.19"
+      },
       {
         "a": "https://cdn-bavexa.version.ir/episodes/58482/source.mp3",
         "at": "2026-11-23T09:05:00Z",
@@ -89568,15 +89574,15 @@
         "at": "2026-11-15T13:00:00Z",
         "i": "https://cdn.bavexa.com/episodes/AtLGSaVt5rStfkQILRpxaRdK0zlK1E9DsEg9wBGj.jpg",
         "t": "Ehsan Ramsy - Night Ep.13"
-      },
-      {
-        "a": "https://media-cdn.bavexa.com/episodes/57711/source.mp3",
-        "at": "2026-11-14T09:29:00Z",
-        "i": "https://cdn.bavexa.com/episodes/TRRFvW0ODkuKnAiHUY0UXeN0JKF4JUwQYwSTNUp5.jpg",
-        "t": "Dj Barbod & Mohamad Mouryani - Tehran Feat 58"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T07:30:00Z",
+        "i": "https://cdn.bavexa.com/episodes/z1zW39PzNNhJGCjmi9qbrLIXyTUtwUaBlTUNGbEx.jpg",
+        "link": "https://bavexa.com/e/58592-deejay-al-dordor-19",
+        "title": "Deejay Al - Dor Dor Ep.19"
+      },
       {
         "at": "2026-11-23T09:05:00Z",
         "i": "https://cdn.bavexa.com/episodes/wSjXlaatvNTxbsoHfk2ItBgvt3637P3zMsVcpdv5.jpg",
@@ -89588,12 +89594,6 @@
         "i": "https://cdn.bavexa.com/episodes/Pchv9a6GuxtPgGPrz02uE0biGWiiPXYxxmfOPY1Q.jpg",
         "link": "https://bavexa.com/e/58365-seyyed-autobahn-14",
         "title": "Seyyed - Autobahn Ep.14"
-      },
-      {
-        "at": "2026-11-19T11:30:00Z",
-        "i": "https://cdn.bavexa.com/podcasts/55/episodes/57807/Pj3Vf06PxzzSjP7TwhBmlFqLc2ynAKENyBpTHseF.jpg",
-        "link": "https://bavexa.com/e/57807-dj-hesam-rangarang-11",
-        "title": "Dj Hesam - Rangarang Ep.11"
       }
     ],
     "recent_30d": [
@@ -89608,7 +89608,7 @@
       17,
       19,
       22,
-      25
+      26
     ],
     "status": "active"
   },
@@ -95490,8 +95490,8 @@
       }
     ],
     "recent_30d": [
-      119,
-      40,
+      120,
+      39,
       104,
       4,
       0,
