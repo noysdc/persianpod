@@ -204,7 +204,7 @@
     "rss": "https://tehranpodcast.ir/category/radiovaj/feed/"
   },
   "radio-pzshki-fankshnal": {
-    "error": "RuntimeError: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
     "rss": "https://ketonia.life/feed/podcast/"
   },
   "radio-tion": {
