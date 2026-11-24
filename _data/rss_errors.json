@@ -36,7 +36,7 @@
     "rss": "https://loveziba.com/feed/"
   },
   "astring-kst": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
     "rss": "https://stringcast.ir/feed/podcast/stringcast/"
   },
   "baehsan": {
@@ -170,10 +170,6 @@
   "podcast-obmstr-plas": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://webmasterplus.ir/feed/"
-  },
-  "podcast-pzshki-srm-atlaaat": {
-    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog"
   },
   "podcast-satori": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
