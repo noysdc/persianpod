@@ -14343,7 +14343,7 @@
     "avg_length": 17,
     "episodes": 105,
     "eps_365": 105,
-    "eps_90": 67,
+    "eps_90": 66,
     "first_at": "2026-07-29",
     "first_year": 1405,
     "last": "1405/08/20",
@@ -14432,8 +14432,8 @@
       0,
       0,
       0,
-      38,
-      19,
+      39,
+      18,
       30,
       18
     ],
@@ -90402,21 +90402,27 @@
     "status": "active"
   },
   "shahnamh-khodmoni": {
-    "avg_gap_days": 28.5,
-    "avg_length": 66,
-    "episodes": 55,
-    "eps_365": 13,
-    "eps_90": 4,
+    "avg_gap_days": 27.5,
+    "avg_length": 67,
+    "episodes": 56,
+    "eps_365": 14,
+    "eps_90": 5,
     "first_at": "2020-12-10",
     "first_year": 1399,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T15:24:43Z",
-    "last_link": "https://shenoto.com/album/podcast/1895906/اپیزود۵۵- مسافری از هند",
-    "last_title": "اپیزود۵۵- مسافری از هند",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T15:38:01Z",
+    "last_link": "https://shenoto.com/album/podcast/1899278/اپیزود۵۶- رستم و خاقان چین",
+    "last_title": "اپیزود۵۶- رستم و خاقان چین",
     "max_length": 93,
     "median_length": 53,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/07fe73ed-e81d-11f1-924a-469daf09b0ad.mp3",
+        "at": "2026-11-24T15:38:01Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/8f1699fc-dd70-4ea0-82a8-a7ce5e2af97c/cover/3000.jpg",
+        "t": "اپیزود۵۶- رستم و خاقان چین"
+      },
       {
         "a": "https://shenoto.com/service/api/play/podcast/b0327f8c-dc51-11f1-946a-4ef03eea55df.mp3",
         "at": "2026-11-09T15:24:43Z",
@@ -90458,15 +90464,15 @@
         "at": "2026-07-10T14:26:10Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/7a423874-cdfd-4522-8111-03d0d288e2a0/cover/3000.jpg",
         "t": "اپیزود۴۹- مَرد و نامرد"
-      },
-      {
-        "a": "https://shenoto.com/service/api/play/podcast/8ab0b0e4-6757-11f1-8911-3e153af63c97.mp3",
-        "at": "2026-06-13T18:41:51Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/24022da7-9d68-4636-9ce3-021d1f349593/cover/3000.jpg",
-        "t": "اپیزود۴۸- محاکمۀ یک فرمانده"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T15:38:01Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/8f1699fc-dd70-4ea0-82a8-a7ce5e2af97c/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/1899278/اپیزود۵۶- رستم و خاقان چین",
+        "title": "اپیزود۵۶- رستم و خاقان چین"
+      },
       {
         "at": "2026-11-09T15:24:43Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/49430087-36b2-461a-a26d-4a5e3a485c18/cover/3000.jpg",
@@ -90478,12 +90484,6 @@
         "i": "https://cdn-arch.shenoto.com/shenoto-album/16df8767-cb76-42eb-bf3e-34a85806dcfc/cover/3000.jpg",
         "link": "https://shenoto.com/album/podcast/1892953/اپیزود۵۴- تویی که نمی‌شناختمت",
         "title": "اپیزود۵۴- تویی که نمی‌شناختمت"
-      },
-      {
-        "at": "2026-10-06T10:38:13Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/df4ee99a-3f49-4167-a31b-f1079ed235ba/cover/3000.jpg",
-        "link": "https://shenoto.com/album/podcast/1886369/اپیزود۵۳- جهان‌پهلوان برمی‌خیزد",
-        "title": "اپیزود۵۳- جهان‌پهلوان برمی‌خیزد"
       }
     ],
     "recent_30d": [
@@ -90498,7 +90498,7 @@
       2,
       1,
       1,
-      2
+      3
     ],
     "status": "active"
   },
@@ -95602,8 +95602,8 @@
       4,
       0,
       8,
-      58,
-      95,
+      59,
+      94,
       88,
       100,
       68,
