@@ -16689,8 +16689,8 @@
       3,
       3,
       5,
-      4,
       5,
+      4,
       0,
       0,
       0,
@@ -43138,7 +43138,7 @@
       }
     ],
     "recent_30d": [
-      2,
+      1,
       0,
       2,
       0,
@@ -49585,8 +49585,8 @@
       0,
       0,
       2,
-      2,
-      2,
+      3,
+      1,
       1,
       1,
       1
@@ -88433,21 +88433,26 @@
     "status": "stopped"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.3,
+    "avg_gap_days": 4.2,
     "avg_length": 21,
-    "episodes": 502,
-    "eps_365": 86,
-    "eps_90": 42,
+    "episodes": 503,
+    "eps_365": 87,
+    "eps_90": 43,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/09/02",
-    "last_at": "2026-11-23T11:20:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/bweksfr8tl/",
-    "last_title": "جهش طلا و فیوچرز نزدک در آستانهٔ PMI آمریکا",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T11:40:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/2d6dprnwtf/",
+    "last_title": "چرا دلار هم‌زمان با جهش سهام تقویت شد؟",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/2d6dprnwtf/2026-11-24-12-03-59.mp3",
+        "at": "2026-11-24T11:40:00Z",
+        "t": "چرا دلار هم‌زمان با جهش سهام تقویت شد؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/bweksfr8tl/2026-11-23-11-32-44.mp3",
         "at": "2026-11-23T11:20:00Z",
@@ -88482,14 +88487,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/nxzb24ukqe/2026-11-13-09-32-28.mp3",
         "at": "2026-11-13T09:20:00Z",
         "t": "آیا PPI احتمال افزایش ۵۰ واحد پایه‌ای نرخ بهره را بالا می‌برد؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/hlygjwtpta/2026-11-12-12-43-03.mp3",
-        "at": "2026-11-12T12:10:00Z",
-        "t": "از رکورد تازه سهام اروپا تا نگرانی وال‌استریت درباره انویدیا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T11:40:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/2d6dprnwtf/",
+        "title": "چرا دلار هم‌زمان با جهش سهام تقویت شد؟"
+      },
       {
         "at": "2026-11-23T11:20:00Z",
         "link": "https://dotcast.org/p/bozvcayr/bweksfr8tl/",
@@ -88499,11 +88504,6 @@
         "at": "2026-11-20T09:10:00Z",
         "link": "https://dotcast.org/p/bozvcayr/av1p1np2yi/",
         "title": "چرا خوش‌بینی به عرضهٔ آنتروپیک دوام نیاورد؟"
-      },
-      {
-        "at": "2026-11-19T11:30:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/mh7ah44d6g/",
-        "title": "افت اشتغال استرالیا و تقویت انتظار کاهش نرخ در ۲۰۲۷"
       }
     ],
     "recent_30d": [
@@ -88518,7 +88518,7 @@
       0,
       3,
       18,
-      21
+      22
     ],
     "status": "active"
   },
