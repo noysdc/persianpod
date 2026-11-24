@@ -694,6 +694,13 @@
    "index_title": "اتاق موسیقی"
   },
   {
+   "file": "atima.md",
+   "dir": "_podcasts",
+   "pi_id": 8127853,
+   "how": "url",
+   "index_title": "Atima | آتیما"
+  },
+  {
    "file": "atobos.md",
    "dir": "_podcasts",
    "pi_id": 1296104,
@@ -1748,7 +1755,7 @@
    "dir": "_podcasts",
    "pi_id": 8124123,
    "how": "url",
-   "index_title": "پادکست فارسی ارور۴۰۴ | ادبیات • فلسفه • ذهن"
+   "index_title": "پادکست ارور۴۰۴ | کتاب • ادبیات • فلسفه"
   },
   {
    "file": "fal-tarot-sfri-ba-khn-algo-ha.md",
@@ -4960,7 +4967,7 @@
    "file": "podcast-farsi-raoi.md",
    "dir": "_podcasts",
    "pi_id": 398849,
-   "how": "url",
+   "how": "title",
    "index_title": "Ravi | پادکست فارسی راوی"
   },
   {
@@ -7680,11 +7687,109 @@
    "index_title": "زندگی شاد روزانه با جویس مایر"
   },
   {
+   "file": "bazariabi-dr-ainstagram.md",
+   "dir": "_drafts",
+   "pi_id": 4796848,
+   "how": "url",
+   "index_title": "بازاریابی در اینستاگرام"
+  },
+  {
+   "file": "borsaoai-ktab.md",
+   "dir": "_drafts",
+   "pi_id": 3375594,
+   "how": "url",
+   "index_title": "بورساوای کتاب | B BourseAva"
+  },
+  {
+   "file": "bramj.md",
+   "dir": "_drafts",
+   "pi_id": 2283186,
+   "how": "url",
+   "index_title": "برامج"
+  },
+  {
    "file": "ghsh-kodkanh-mtn-archives.md",
    "dir": "_drafts",
    "pi_id": 4575295,
    "how": "url",
    "index_title": "قصه‌ کودکانه (متن) Archives - رادیو قصه صوتی کودکانه"
+  },
+  {
+   "file": "ghsh-o-tranh-kodkanh.md",
+   "dir": "_drafts",
+   "pi_id": 5451303,
+   "how": "url",
+   "index_title": "قصه و ترانه کودکانه | زرافه جادویی"
+  },
+  {
+   "file": "hnr-shfaf-andishidn-aadl-frdosi-por.md",
+   "dir": "_drafts",
+   "pi_id": 6006126,
+   "how": "url",
+   "index_title": "هنر شفاف اندیشیدن (عادل فردوسی پور)"
+  },
+  {
+   "file": "khoansh-hai-gnjor.md",
+   "dir": "_drafts",
+   "pi_id": 2479701,
+   "how": "url",
+   "index_title": "خوانش‌های گنجور"
+  },
+  {
+   "file": "ktab-soti-5996155.md",
+   "dir": "_drafts",
+   "pi_id": 5996155,
+   "how": "url",
+   "index_title": "کتاب صوتی"
+  },
+  {
+   "file": "mjmoah-ha.md",
+   "dir": "_drafts",
+   "pi_id": 2484957,
+   "how": "url",
+   "index_title": "مجموعه ها – مغز رپ"
+  },
+  {
+   "file": "padkst-mraghbh-i-farsi-mditishn-padkst.md",
+   "dir": "_drafts",
+   "pi_id": 1253610,
+   "how": "url",
+   "index_title": "meditation podcast | پادكست مراقبه ي فارسي مدیتیشن پادکست"
+  },
+  {
+   "file": "paskal.md",
+   "dir": "_drafts",
+   "pi_id": 357770,
+   "how": "url",
+   "index_title": "Pascal | پاسکال"
+  },
+  {
+   "file": "pltfrm-mamari-pi.md",
+   "dir": "_drafts",
+   "pi_id": 8053658,
+   "how": "url",
+   "index_title": "PeyPlatform | پلتفرم معماری پِی"
+  },
+  {
+   "file": "roanshnasi-tghzih.md",
+   "dir": "_drafts",
+   "pi_id": 4721256,
+   "how": "url",
+   "index_title": "روانشناسی تغذیه – مجله سلامتی دکتر کرمانی"
+  },
+  {
+   "file": "s-al-o-joab.md",
+   "dir": "_drafts",
+   "pi_id": 8125488,
+   "how": "url",
+   "index_title": "سؤال و جواب"
+  },
+  {
+   "file": "shb-aaoa.md",
+   "dir": "_drafts",
+   "pi_id": 2475802,
+   "how": "url",
+   "index_title": "شب آوا"
   },
   {
    "file": "24-with-fardad-farahzad-24-ba-frdad-frhzad.md",
