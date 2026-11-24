@@ -22902,8 +22902,8 @@
       0,
       0,
       0,
-      4,
       5,
+      4,
       2,
       2,
       1
@@ -34806,8 +34806,8 @@
       5,
       5,
       16,
-      5,
-      12
+      6,
+      11
     ],
     "status": "active"
   },
@@ -66255,8 +66255,8 @@
       0,
       0,
       2,
-      2,
       3,
+      2,
       2,
       2,
       3,
@@ -72245,8 +72245,8 @@
       0,
       0,
       3,
-      4,
-      3,
+      5,
+      2,
       2,
       2,
       4,
@@ -78907,19 +78907,25 @@
   "radio-hkait": {
     "avg_gap_days": 3.8,
     "avg_length": 33,
-    "episodes": 218,
-    "eps_365": 97,
-    "eps_90": 46,
+    "episodes": 219,
+    "eps_365": 98,
+    "eps_90": 47,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/09/02",
-    "last_at": "2026-11-23T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7d2fb758-7f85-4d3a-835c-ab60b3d23887/play.mp3?v=1",
-    "last_title": "یدکی - عزیز نسین",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/3aa2b1e7-6f83-453a-b241-81ab84e2cb69/play.mp3?v=1",
+    "last_title": "یک زن خوشبخت -بخش اول (روایت داستان) - بزرگ علوی",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/3aa2b1e7-6f83-453a-b241-81ab84e2cb69/play.mp3?v=1",
+        "at": "2026-11-24T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/3aa2b1e7-6f83-453a-b241-81ab84e2cb69/artwork.jpg?v=1",
+        "t": "یک زن خوشبخت -بخش اول (روایت داستان) - بزرگ علوی"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7d2fb758-7f85-4d3a-835c-ab60b3d23887/play.mp3?v=1",
         "at": "2026-11-23T01:30:00Z",
@@ -78961,15 +78967,15 @@
         "at": "2026-11-17T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/7c26c6f0-c785-4288-9a17-f93bfdaee1db/artwork.jpg?v=1",
         "t": "همهُ صاحب خانه ها بد نیستند - عزیز نسین"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/8f4010a5-edba-44bf-8af3-505de99b4ea4/play.mp3?v=1",
-        "at": "2026-11-16T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/8f4010a5-edba-44bf-8af3-505de99b4ea4/artwork.jpg?v=1",
-        "t": "شب بلند - منیرو روانی پور"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/3aa2b1e7-6f83-453a-b241-81ab84e2cb69/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/3aa2b1e7-6f83-453a-b241-81ab84e2cb69/play.mp3?v=1",
+        "title": "یک زن خوشبخت -بخش اول (روایت داستان) - بزرگ علوی"
+      },
       {
         "at": "2026-11-23T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/7d2fb758-7f85-4d3a-835c-ab60b3d23887/artwork.jpg?v=1",
@@ -78981,12 +78987,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/7c003bf3-6a97-42df-901c-51173c688b9e/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7c003bf3-6a97-42df-901c-51173c688b9e/play.mp3?v=1",
         "title": "طلاق - ایوان کلیما"
-      },
-      {
-        "at": "2026-11-21T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/b1ad161e-e815-4cb5-8672-b01784596145/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/b1ad161e-e815-4cb5-8672-b01784596145/play.mp3?v=1",
-        "title": "یک شب بی خوابی - صادق چوبک"
       }
     ],
     "recent_30d": [
@@ -78995,13 +78995,13 @@
       11,
       0,
       0,
-      0,
-      10,
-      8,
+      1,
       9,
       8,
       9,
-      29
+      8,
+      9,
+      30
     ],
     "status": "active"
   },
@@ -97493,7 +97493,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 21,
     "episodes": 433,
-    "eps_365": 259,
+    "eps_365": 258,
     "eps_90": 101,
     "first_at": "2024-08-22",
     "first_year": 1403,
