@@ -239,10 +239,6 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
-  "sda-syo": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
-    "rss": "https://poriajasemian.ir/feed/podcast/seosound/"
-  },
   "sot-o-film": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://mousanajafi.ir/category/%D8%B5%D9%88%D8%AA-%D9%88-%D9%81%DB%8C%D9%84%D9%85/feed/"
