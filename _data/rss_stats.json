@@ -5035,10 +5035,10 @@
     "status": "active"
   },
   "airan-tak": {
-    "avg_gap_days": 4.8,
+    "avg_gap_days": 4.7,
     "avg_length": 89,
     "episodes": 62,
-    "eps_365": 61,
+    "eps_365": 60,
     "eps_90": 4,
     "first_at": "2025-11-23",
     "first_year": 1404,
@@ -49105,7 +49105,7 @@
     "avg_gap_days": 1.1,
     "avg_length": 7,
     "episodes": 1005,
-    "eps_365": 326,
+    "eps_365": 325,
     "eps_90": 79,
     "first_at": "2023-11-21",
     "first_year": 1402,
@@ -59416,15 +59416,15 @@
       }
     ],
     "recent_30d": [
-      2,
-      2,
+      3,
+      1,
       2,
       4,
       5,
       4,
       4,
-      4,
       5,
+      4,
       4,
       2,
       4
@@ -60706,7 +60706,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       0,
       0,
       0,
@@ -67252,8 +67252,8 @@
     "recent_30d": [
       0,
       2,
-      4,
-      6,
+      5,
+      5,
       1,
       0,
       0,
@@ -73803,15 +73803,15 @@
       }
     ],
     "recent_30d": [
-      4,
-      4,
+      5,
+      3,
       3,
       2,
       2,
       2,
       4,
-      4,
       5,
+      4,
       2,
       0,
       4
@@ -77702,7 +77702,7 @@
       }
     ],
     "recent_30d": [
-      1,
+      0,
       1,
       0,
       0,
@@ -93551,9 +93551,9 @@
       0,
       0,
       0,
-      1,
+      2,
       19,
-      8,
+      7,
       8,
       3,
       4,
@@ -95490,8 +95490,8 @@
       }
     ],
     "recent_30d": [
-      117,
-      42,
+      118,
+      41,
       104,
       4,
       0,
@@ -97681,7 +97681,7 @@
   },
   "tnz-mozikal-kshorgrafi": {
     "avg_length": 38,
-    "episodes": 14,
+    "episodes": 13,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-04-29",
@@ -97691,7 +97691,7 @@
     "last_link": "https://podcasters.spotify.com/pod/show/keshvargraphy/episodes/ep-e1gaogc",
     "last_title": "نوروز! خارج از ایران",
     "max_length": 59,
-    "median_length": 38,
+    "median_length": 37,
     "min_length": 23,
     "play": [
       {
@@ -97725,12 +97725,6 @@
         "t": "اتیوپی | حبشه مدرن"
       },
       {
-        "a": "https://anchor.fm/s/58715c48/podcast/play/43389001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-10-4%2F228687538-44100-2-c58a8967f63dd.mp3",
-        "at": "2021-11-15T19:21:52Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/14738242/14738242-1637004104283-35d72e4871a.jpg",
-        "t": "کره شمالی | جنگ ناتمام"
-      },
-      {
         "a": "https://anchor.fm/s/58715c48/podcast/play/42215248/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-23%2F133fb522-0131-104d-5b53-a0860ad05e91.mp3",
         "at": "2021-10-23T13:05:01Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/14738242/14738242-1634994284333-04bd07ef73078.jpg",
@@ -97741,6 +97735,12 @@
         "at": "2021-10-11T21:37:54Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/14738242/14738242-1633988247821-35666430a6dbc.jpg",
         "t": "شوروی | چرنوبیل"
+      },
+      {
+        "a": "https://anchor.fm/s/58715c48/podcast/play/40834566/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-25%2Ff0e57c68-8160-8464-fd8a-3edb3939761e.mp3",
+        "at": "2021-09-25T16:56:01Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/14738242/14738242-1632588872788-2955290267ce6.jpg",
+        "t": "ترکیه | توریست"
       }
     ],
     "recent": [
