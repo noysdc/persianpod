@@ -6771,7 +6771,7 @@
     "avg_length": 6,
     "episodes": 51,
     "eps_365": 46,
-    "eps_90": 4,
+    "eps_90": 3,
     "first_at": "2025-11-16",
     "first_year": 1404,
     "last": "1405/06/08",
@@ -6860,8 +6860,8 @@
       2,
       0,
       6,
-      6,
-      4,
+      7,
+      3,
       0,
       0
     ],
@@ -70053,7 +70053,7 @@
     "avg_length": 59,
     "episodes": 112,
     "eps_365": 13,
-    "eps_90": 5,
+    "eps_90": 4,
     "first_at": "2022-12-10",
     "first_year": 1401,
     "last": "1405/08/10",
@@ -70142,8 +70142,8 @@
       0,
       1,
       2,
-      0,
-      2,
+      1,
+      1,
       1,
       2
     ],
@@ -83281,8 +83281,8 @@
       0,
       16,
       6,
-      6,
-      4,
+      7,
+      3,
       12,
       1,
       13,
@@ -96106,17 +96106,22 @@
     "avg_length": 11,
     "episodes": 24,
     "eps_365": 24,
-    "eps_90": 12,
-    "first_at": "2026-06-09",
+    "eps_90": 13,
+    "first_at": "2026-06-16",
     "first_year": 1405,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T15:41:29Z",
-    "last_link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261117-%D8%B1%D8%A7%D8%B2-%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%AA-%D8%AD%D9%88%D8%AB%DB%8C-%D9%87%D8%A7-%D9%88-%D8%AA%D9%88%D8%A7%D9%86%D9%90-%D9%BE%DB%8C%D8%B4%D8%B1%D9%88%DB%8C-%D8%A2%D9%86%D8%A7%D9%86-%D8%AF%D8%B1-%D8%AC%D9%86%DA%AF-%D8%A8%D8%A7-%D8%AF%D8%B4%D9%85%D9%86%D8%A7%D9%86%D8%B4%D8%A7%D9%86?PcNCvtcnHj",
-    "last_title": "راز مقاومت حوثی‌ها و توانِ پیشروی آنان در جنگ با دشمنانشان",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T16:01:19Z",
+    "last_link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261124-%D8%B4%DA%A9%D9%86%D9%86%D8%AF%DA%AF%DB%8C-%D9%88%D8%AD%D8%AF%D8%AA-%D8%A7%D8%B1%D9%88%D9%BE%D8%A7-%D9%88-%D8%A8%D9%84%D9%86%D8%AF%D9%BE%D8%B1%D9%88%D8%A7%D8%B2%DB%8C-%D9%87%D8%A7%DB%8C-%D9%BE%D9%88%D8%AA%DB%8C%D9%86?PcNCvtcnHj",
+    "last_title": "شکنندگی وحدت اروپا و بلندپروازی‌های پوتین",
     "max_length": 12,
     "median_length": 11,
     "min_length": 10,
     "play": [
+      {
+        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202611/PDP_-_2026_-_11_-_24.mp3?guid=515f4a52-e81d-11f1-8be7-21a161f46de9&source=PcNCvtcnHj",
+        "at": "2026-11-24T16:01:19Z",
+        "t": "شکنندگی وحدت اروپا و بلندپروازی‌های پوتین"
+      },
       {
         "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202611/PDP_-_2026_-_11_-_17.mp3?guid=8e94c542-e290-11f1-b400-e7d3bfd60e3f&source=PcNCvtcnHj",
         "at": "2026-11-17T15:41:29Z",
@@ -96151,14 +96156,14 @@
         "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202610/PDP_-_2026_-_10_-_06.mp3?guid=2ffdbf6e-c195-11f1-acac-23727062d0ff&source=PcNCvtcnHj",
         "at": "2026-10-06T15:12:45Z",
         "t": "ناکامی نتانیاهو در رسیدن به هدف‌های راهبُردی‌اش پس از رویدادهای ۷ اکتبر ۲۰۲۳"
-      },
-      {
-        "a": "https://audio.audiomeans.fr/pfx/b035a7c4-de15-11ef-9e7b-cfc4fb0c91f4/aod-rfi.akamaized.net/rfi/persan/audio/modules/actu/202609/PDP_-_2026_-_09_-_29.mp3?guid=9b26eb36-bc17-11f1-8ec1-afcf1c939ea7&source=PcNCvtcnHj",
-        "at": "2026-09-29T15:42:43Z",
-        "t": "بازنگری در تاریخچۀ رویدادهای ۷ اکتبر ۲۰۲۳ در پرتو داده‌های جدید"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T16:01:19Z",
+        "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261124-%D8%B4%DA%A9%D9%86%D9%86%D8%AF%DA%AF%DB%8C-%D9%88%D8%AD%D8%AF%D8%AA-%D8%A7%D8%B1%D9%88%D9%BE%D8%A7-%D9%88-%D8%A8%D9%84%D9%86%D8%AF%D9%BE%D8%B1%D9%88%D8%A7%D8%B2%DB%8C-%D9%87%D8%A7%DB%8C-%D9%BE%D9%88%D8%AA%DB%8C%D9%86?PcNCvtcnHj",
+        "title": "شکنندگی وحدت اروپا و بلندپروازی‌های پوتین"
+      },
       {
         "at": "2026-11-17T15:41:29Z",
         "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261117-%D8%B1%D8%A7%D8%B2-%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%AA-%D8%AD%D9%88%D8%AB%DB%8C-%D9%87%D8%A7-%D9%88-%D8%AA%D9%88%D8%A7%D9%86%D9%90-%D9%BE%DB%8C%D8%B4%D8%B1%D9%88%DB%8C-%D8%A2%D9%86%D8%A7%D9%86-%D8%AF%D8%B1-%D8%AC%D9%86%DA%AF-%D8%A8%D8%A7-%D8%AF%D8%B4%D9%85%D9%86%D8%A7%D9%86%D8%B4%D8%A7%D9%86?PcNCvtcnHj",
@@ -96168,11 +96173,6 @@
         "at": "2026-11-10T15:06:35Z",
         "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261110-%DB%8C%D9%87%D9%88%D8%AF%DB%8C-%D9%87%D8%A7%DB%8C-%D9%85%DB%8C%D8%B4%DB%8C%DA%AF%D8%A7%D9%86-%D8%B1%D8%A7%D9%87-%D9%88%D8%B1%D9%88%D8%AF-%DB%8C%DA%A9-%D9%85%D8%B3%D9%84%D9%85%D8%A7%D9%86-%D9%87%D9%88%D8%A7%D8%AF%D8%A7%D8%B1-%D9%81%D9%84%D8%B3%D8%B7%DB%8C%D9%86%DB%8C-%D9%87%D8%A7-%D8%B1%D8%A7-%D8%A8%D9%87-%D8%B3%D9%86%D8%A7%DB%8C-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D9%87%D9%85%D9%88%D8%A7%D8%B1-%DA%A9%D8%B1%D8%AF%D9%86%D8%AF?PcNCvtcnHj",
         "title": "یهودی‌های میشیگان راه ورود یک مسلمان هوادار فلسطینی‌ها را به سنای آمریکا هموار کردند"
-      },
-      {
-        "at": "2026-11-03T15:51:40Z",
-        "link": "https://www.rfi.fr/fa/%D9%BE%D8%A7%D8%AF%DA%A9%D8%B3%D8%AA/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%AA%D8%A7%D8%B2%D9%87-%D9%87%D8%A7/20261103-%D8%A2%DB%8C%D8%A7-%D9%BE%DB%8C%D8%B1%D9%88%D8%B2%DB%8C-%D8%AF%D9%85%D9%88%DA%A9%D8%B1%D8%A7%D8%AA-%D9%87%D8%A7-%D8%AF%D8%B1-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D9%85%DB%8C%D8%A7%D9%86-%D8%AF%D9%88%D8%B1%D9%87-%D8%A7%DB%8C-%D8%AA%D8%B1%D8%A7%D9%85%D9%BE-%D8%B1%D8%A7-%D8%A7%D8%B2-%D8%A8%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D9%86-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A8%D8%A7%D8%B2-%D8%AE%D9%88%D8%A7%D9%87%D8%AF-%D8%AF%D8%A7%D8%B4%D8%AA?PcNCvtcnHj",
-        "title": "آیا پیروزی دموکرات‌ها در انتخابات میان‌دوره‌ای ترامپ را از بمباران ایران باز خواهد داشت؟"
       }
     ],
     "recent_30d": [
@@ -96182,12 +96182,12 @@
       0,
       0,
       0,
-      3,
+      2,
       4,
       5,
       4,
       4,
-      4
+      5
     ],
     "status": "active"
   },
