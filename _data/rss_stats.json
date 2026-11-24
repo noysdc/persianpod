@@ -13872,11 +13872,13 @@
       {
         "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgNCXtvj_CgyiAQdsaWJyYXJ5/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgNC33ryACAyiAQdsaWJyYXJ5.mp3",
         "at": "2021-05-08T07:00:00Z",
+        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgNC33ryACAyiAQdsaWJyYXJ5.jpg?_=1621666800",
         "t": "#12 - رهی معیری - بخش دوم"
       },
       {
         "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgNCXtvj_CgyiAQdsaWJyYXJ5/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgNDX85m4CAyiAQdsaWJyYXJ5.mp3",
         "at": "2021-05-01T07:00:00Z",
+        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgNDX85m4CAyiAQdsaWJyYXJ5.jpg?_=1621666800",
         "t": "#11 - رهی معیری - بخش اول"
       },
       {
@@ -13900,6 +13902,7 @@
       {
         "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgNCXtvj_CgyiAQdsaWJyYXJ5/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgNC3vZ_7CAyiAQdsaWJyYXJ5.mp3",
         "at": "2021-04-03T07:00:00Z",
+        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgNC3vZ_7CAyiAQdsaWJyYXJ5.jpg?_=1621666800",
         "t": "#7 - نواب صفا"
       }
     ],
@@ -13918,6 +13921,7 @@
       },
       {
         "at": "2021-05-08T07:00:00Z",
+        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgNC33ryACAyiAQdsaWJyYXJ5.jpg?_=1621666800",
         "link": "https://www.radiobamdad.com/niki",
         "title": "#12 - رهی معیری - بخش دوم"
       }
@@ -35624,21 +35628,27 @@
     "status": "active"
   },
   "kadi-podcast": {
-    "avg_gap_days": 5.5,
+    "avg_gap_days": 5.8,
     "avg_length": 7,
-    "episodes": 5,
-    "eps_365": 5,
-    "eps_90": 5,
+    "episodes": 6,
+    "eps_365": 6,
+    "eps_90": 6,
     "first_at": "2026-10-26",
     "first_year": 1405,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T20:16:55Z",
-    "last_link": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/0b72ae16-b31a-4bb7-8fdb-07d20fa9057e/play.mp3?v=1",
-    "last_title": "اپیزود 04- او هنری  (آخرین برگ)",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T20:52:31Z",
+    "last_link": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/675911d3-a1e9-47bb-88f1-60e0d12efae2/play.mp3?v=1",
+    "last_title": "اپیزود 05- آندری سدنیف  (جادوی بداهه گویی)",
     "max_length": 10,
-    "median_length": 8,
+    "median_length": 7,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/675911d3-a1e9-47bb-88f1-60e0d12efae2/play.mp3?v=1",
+        "at": "2026-11-24T20:52:31Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/17b98529-6242-40b2-9b95-2761593d026b/episodes/675911d3-a1e9-47bb-88f1-60e0d12efae2/artwork.jpg?v=1",
+        "t": "اپیزود 05- آندری سدنیف  (جادوی بداهه گویی)"
+      },
       {
         "a": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/0b72ae16-b31a-4bb7-8fdb-07d20fa9057e/play.mp3?v=1",
         "at": "2026-11-17T20:16:55Z",
@@ -35672,6 +35682,12 @@
     ],
     "recent": [
       {
+        "at": "2026-11-24T20:52:31Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/17b98529-6242-40b2-9b95-2761593d026b/episodes/675911d3-a1e9-47bb-88f1-60e0d12efae2/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/675911d3-a1e9-47bb-88f1-60e0d12efae2/play.mp3?v=1",
+        "title": "اپیزود 05- آندری سدنیف  (جادوی بداهه گویی)"
+      },
+      {
         "at": "2026-11-17T20:16:55Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/17b98529-6242-40b2-9b95-2761593d026b/episodes/0b72ae16-b31a-4bb7-8fdb-07d20fa9057e/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/0b72ae16-b31a-4bb7-8fdb-07d20fa9057e/play.mp3?v=1",
@@ -35682,12 +35698,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/17b98529-6242-40b2-9b95-2761593d026b/episodes/1841dd28-8e86-4c68-bcb9-99a7b71f3c32/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/1841dd28-8e86-4c68-bcb9-99a7b71f3c32/play.mp3?v=1",
         "title": "اپیزود 03- آنتون چخوف (تهمت)"
-      },
-      {
-        "at": "2026-11-04T06:54:42Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/17b98529-6242-40b2-9b95-2761593d026b/episodes/e5235ce5-3a86-4383-8854-08f8a1c5ebe6/artwork.jpg?v=2",
-        "link": "https://play.rabt.host/podcast/17b98529-6242-40b2-9b95-2761593d026b/episode/e5235ce5-3a86-4383-8854-08f8a1c5ebe6/play.mp3?v=1",
-        "title": "اپیزود 02- هانس کریستین آندرسن (کفش های قرمز)"
       }
     ],
     "recent_30d": [
@@ -35702,7 +35712,7 @@
       0,
       0,
       0,
-      5
+      6
     ],
     "status": "active"
   },
@@ -54128,6 +54138,7 @@
       {
         "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgNDbpKe_CQyiAQdsaWJyYXJ5/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgLDhw_G3CAyiAQdsaWJyYXJ5.mp3",
         "at": "2021-06-12T07:00:00Z",
+        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgLDhw_G3CAyiAQdsaWJyYXJ5.jpg?_=1623999600",
         "t": "قاجاریه، بخش  هفتم، آغاز سلطنت ناصرالدین شاه و قتل امیر کبیر به فرمان پادشاه"
       },
       {
