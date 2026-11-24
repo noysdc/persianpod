@@ -26535,8 +26535,8 @@
       0,
       0,
       0,
-      7,
-      6,
+      8,
+      5,
       1,
       1,
       1
@@ -97410,16 +97410,21 @@
     "episodes": 600,
     "eps_365": 261,
     "eps_90": 64,
-    "first_at": "2024-08-06",
+    "first_at": "2024-08-07",
     "first_year": 1403,
-    "last": "1405/09/02",
-    "last_at": "2026-11-23T20:30:00Z",
-    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-0012-x4Ix9hm3-Op7vMXWa",
-    "last_title": "معرفی کتاب پیدایش، قسمت دوم",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T20:30:00Z",
+    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-0013-xMG9P0rD-oXf_cvW0",
+    "last_title": "پيدايش ۱: ۱",
     "max_length": 41,
     "median_length": 28,
     "min_length": 24,
     "play": [
+      {
+        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/05a66322-6fcd-4c12-8cb8-f443f057bcac/group-item/a96a4311-2de4-41a6-a58c-f14610d540bc/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
+        "at": "2026-11-24T20:30:00Z",
+        "t": "پيدايش ۱: ۱"
+      },
       {
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/a397d6d0-50ef-45ff-a3fc-e37740704b3f/group-item/51d6efa3-9e22-4fee-ae05-a803c415cdb3/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-11-23T20:30:00Z",
@@ -97454,14 +97459,14 @@
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/d5ba99ec-693b-4fac-b54c-c1b7b4f1a70f/group-item/1c04d9e7-6281-45e0-89b1-52f4b717aa9a/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-11-15T20:30:00Z",
         "t": "مقدمه، قسمت ششم"
-      },
-      {
-        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/908159b6-d591-4e83-a359-0e024828509a/group-item/446c6133-336a-45fd-882c-4952fd248112/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
-        "at": "2026-11-12T20:30:00Z",
-        "t": "مقدمه، قسمت پنجم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T20:30:00Z",
+        "link": "https://tmm-khtb.simplecast.com/episodes/tk-0013-xMG9P0rD-oXf_cvW0",
+        "title": "پيدايش ۱: ۱"
+      },
       {
         "at": "2026-11-23T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-0012-x4Ix9hm3-Op7vMXWa",
@@ -97471,18 +97476,9 @@
         "at": "2026-11-22T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-0011-hofVSz8H-dlUQpFxZ",
         "title": "معرفی کتاب پیدایش، قسمت اول"
-      },
-      {
-        "at": "2026-11-19T20:30:00Z",
-        "link": "https://tmm-khtb.simplecast.com/episodes/tk-0010-1p2pqUf_-_EweQx1J",
-        "title": "مقدمه، قسمت دهم"
       }
     ],
     "recent_30d": [
-      21,
-      22,
-      22,
-      20,
       22,
       22,
       21,
@@ -97490,6 +97486,10 @@
       22,
       22,
       20,
+      22,
+      22,
+      21,
+      21,
       22
     ],
     "status": "active"
