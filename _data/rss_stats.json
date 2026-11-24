@@ -26923,7 +26923,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 9,
     "episodes": 249,
-    "eps_365": 168,
+    "eps_365": 167,
     "eps_90": 0,
     "first_at": "2020-10-17",
     "first_year": 1399,
@@ -26997,7 +26997,7 @@
       30,
       24,
       33,
-      29,
+      28,
       24,
       12,
       6,
@@ -49104,19 +49104,25 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 1005,
-    "eps_365": 325,
-    "eps_90": 79,
+    "episodes": 1006,
+    "eps_365": 326,
+    "eps_90": 80,
     "first_at": "2023-11-21",
     "first_year": 1402,
-    "last": "1405/09/02",
-    "last_at": "2026-11-23T02:44:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/pressure-on-anthony-albaneses-government-in-the-last-week-of-parliamentary-work/u85ie9jra",
-    "last_title": "فشار بر دولت آنتونی آلبانیزی در آخرین هفته کاری پارلمان",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T02:59:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/nvidia-news-sparks-wall-street-rally/06xhxwczw",
+    "last_title": "خبرهای انویدیا باعث جهش شاخص‌های بورس وال‌استریت شد",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261124135921_282290-persian-0778a2b3-f6ef-4ecd-8a62-a6ed8724fc11.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a2-0b5e-d975-a7bf-cbdf12920000&dur_cat=2",
+        "at": "2026-11-24T02:59:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261124135925_532325-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "t": "خبرهای انویدیا باعث جهش شاخص‌های بورس وال‌استریت شد"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261123134436_062134-persian-231126-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a2-0645-db46-a5f6-4f67ed540000&dur_cat=2",
         "at": "2026-11-23T02:44:00Z",
@@ -49158,15 +49164,15 @@
         "at": "2026-11-13T01:40:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261113124159_506339-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "t": "اختلال گسترده جهانی مایکروسافت؛ نهادهای امنیتی استرالیا هم تحت تاثیر قرار گرفتند"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261113120053_655411-persian-578c7a27-2d29-4594-bd89-52dfb49c3369.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-d264-d7ac-a1a7-f3fdd2850000&dur_cat=3",
-        "at": "2026-11-13T01:00:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261113120058_741939-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "t": "جنسن هوانگ، مدیرعامل انویدیا، در پی افشای رابطه با یک مدیر مظنون به جاسوسی برای چین استعفا داد"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T02:59:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261124135925_532325-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/nvidia-news-sparks-wall-street-rally/06xhxwczw",
+        "title": "خبرهای انویدیا باعث جهش شاخص‌های بورس وال‌استریت شد"
+      },
       {
         "at": "2026-11-23T02:44:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261123134439_921086-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
@@ -49178,12 +49184,6 @@
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261120114227_743789-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/anthony-albaneses-direct-appeal-to-putin-to-end-the-ukraine-war/wq79gqq3b",
         "title": "درخواست مستقیم آنتونی آلبانیزی از پوتین برای پایان دادن به جنگ اوکراین"
-      },
-      {
-        "at": "2026-11-18T03:43:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261118144324_061559-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/pauline-hanson-one-nation-to-scrap-permanent-parental-visas-increase-refugee-admissions-to-2-000/xeqtgr6q1",
-        "title": "پائولین هنسون: «وان نیشن» ویزای دائم والدین را لغو می کند و پذیرش پناهنده را به ۲۰۰۰ نفر می رساند"
       }
     ],
     "recent_30d": [
@@ -49198,7 +49198,7 @@
       29,
       24,
       29,
-      26
+      27
     ],
     "status": "active"
   },
@@ -71239,8 +71239,8 @@
       1,
       1,
       3,
-      8,
-      4,
+      9,
+      3,
       5,
       8,
       7,
@@ -86296,8 +86296,8 @@
       0,
       0,
       0,
-      11,
-      25
+      12,
+      24
     ],
     "status": "active"
   },
