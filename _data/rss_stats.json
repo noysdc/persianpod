@@ -6082,7 +6082,7 @@
     "avg_gap_days": 4.9,
     "avg_length": 31,
     "episodes": 452,
-    "eps_365": 75,
+    "eps_365": 74,
     "eps_90": 16,
     "first_at": "2020-06-15",
     "first_year": 1399,
@@ -41206,7 +41206,7 @@
       }
     ],
     "recent_30d": [
-      155,
+      154,
       52,
       58,
       0,
@@ -62487,8 +62487,8 @@
       5,
       2,
       3,
-      5,
-      6
+      6,
+      5
     ],
     "status": "active"
   },
@@ -95598,8 +95598,8 @@
     "recent_30d": [
       116,
       39,
-      104,
-      4,
+      105,
+      3,
       0,
       8,
       60,
@@ -99545,21 +99545,27 @@
     "status": "stopped"
   },
   "zhn-aaram-o-khlagh": {
-    "avg_gap_days": 15.4,
+    "avg_gap_days": 14.8,
     "avg_length": 13,
-    "episodes": 93,
-    "eps_365": 23,
-    "eps_90": 13,
+    "episodes": 94,
+    "eps_365": 24,
+    "eps_90": 14,
     "first_at": "2023-06-01",
     "first_year": 1402,
-    "last": "1405/09/01",
-    "last_at": "2026-11-22T20:00:14Z",
-    "last_link": "https://shows.acast.com/thhn-aram-o-khlak/episodes/6b0005ca357d3a43adf8ddaf",
-    "last_title": "شش ستون عزت نفس، جلسه پنجم ؛ هدف زندگیم",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T20:00:00Z",
+    "last_link": "https://shows.acast.com/thhn-aram-o-khlak/episodes/6b000a7e322405712c94dcda",
+    "last_title": "شش ستون عزت نفس، جلسه ششم ؛ صداقت با خودم",
     "max_length": 22,
     "median_length": 11,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65b22054c4139800169e2378/e/6b000a7e322405712c94dcda/media.mp3",
+        "at": "2026-11-24T20:00:00Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1795164772293-49b74a4d-ecfa-4385-b5c6-53d38f5fdb46.jpeg",
+        "t": "شش ستون عزت نفس، جلسه ششم ؛ صداقت با خودم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65b22054c4139800169e2378/e/6b0005ca357d3a43adf8ddaf/media.mp3",
         "at": "2026-11-22T20:00:14Z",
@@ -99601,15 +99607,15 @@
         "at": "2026-10-12T19:30:00Z",
         "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1791452842737-8b16f806-727a-4f7f-be1c-851217f701dd.jpeg",
         "t": "من آن هستم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65b22054c4139800169e2378/e/6ac76524eea51f2aa3c4df45/media.mp3",
-        "at": "2026-10-10T19:30:00Z",
-        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1791452408848-f4129615-e2b5-40c4-b418-c420fff238e2.jpeg",
-        "t": "فرافکنی های من"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T20:00:00Z",
+        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1795164772293-49b74a4d-ecfa-4385-b5c6-53d38f5fdb46.jpeg",
+        "link": "https://shows.acast.com/thhn-aram-o-khlak/episodes/6b000a7e322405712c94dcda",
+        "title": "شش ستون عزت نفس، جلسه ششم ؛ صداقت با خودم"
+      },
       {
         "at": "2026-11-22T20:00:14Z",
         "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1795163537830-6fc8c4bc-3b60-4245-a4aa-9fbb46fa8237.jpeg",
@@ -99621,12 +99627,6 @@
         "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1795162196915-a5ced1b0-5b79-4990-9d82-e31f0069b32b.jpeg",
         "link": "https://shows.acast.com/thhn-aram-o-khlak/episodes/6b0000fa11cce4ba9637ec75",
         "title": "شش ستون عزت نفس، جلسه چهارم ؛ ابراز وجود"
-      },
-      {
-        "at": "2026-11-18T14:34:31Z",
-        "i": "https://assets.pippa.io/shows/65b22054c4139800169e2378/1795012278969-1a479706-b23b-41e0-b03c-e0d4f8dd50f0.jpeg",
-        "link": "https://shows.acast.com/thhn-aram-o-khlak/episodes/6afdb775f1d98ec6b531d86f",
-        "title": "شش ستون عزت نفس، جلسه سوم ؛ مسئولیتش با منه"
       }
     ],
     "recent_30d": [
@@ -99641,7 +99641,7 @@
       2,
       2,
       6,
-      5
+      6
     ],
     "status": "active"
   },
