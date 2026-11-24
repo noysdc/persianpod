@@ -35,6 +35,10 @@
     "error": "RuntimeError: TimeoutError: The read operation timed out",
     "rss": "https://stringcast.ir/feed/podcast/stringcast/"
   },
+  "awr-farsi": {
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "rss": "https://podcasts.awr.org/xml/xmliTunes/FASBE_ROH.xml"
+  },
   "baehsan": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
@@ -188,7 +192,7 @@
     "rss": "http://hezaryekshab.ir/Files/rss-feed.xml"
   },
   "radio-jhani-adontist": {
-    "error": "ValueError: no items in feed",
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
     "rss": "https://podcasts.awr.org/xml/xmliTunes/FASCO_AWR.xml"
   },
   "radio-mfid": {
