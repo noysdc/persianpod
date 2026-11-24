@@ -49196,8 +49196,8 @@
       27,
       24,
       29,
-      25,
-      28,
+      26,
+      27,
       27
     ],
     "status": "active"
@@ -71252,20 +71252,26 @@
   },
   "podcast-prondh-baz": {
     "avg_gap_days": 5.3,
-    "avg_length": 44,
-    "episodes": 30,
-    "eps_365": 30,
-    "eps_90": 20,
+    "avg_length": 45,
+    "episodes": 31,
+    "eps_365": 31,
+    "eps_90": 21,
     "first_at": "2026-06-16",
     "first_year": 1405,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T04:00:00Z",
-    "last_link": "https://shows.acast.com/parvandebaz/episodes/6af93ed07d5cb93e7d695882",
-    "last_title": "پرونده نانسی گاتری: مرد ایوان - ۲",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T04:00:00Z",
+    "last_link": "https://shows.acast.com/parvandebaz/episodes/6afecef78f8ad2908f6f2122",
+    "last_title": "چهار پنی برای یک شب - جک ریپر - قسمت ۱",
     "max_length": 66,
-    "median_length": 37,
+    "median_length": 38,
     "min_length": 29,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a30d4e3a893cd95ca9864a2/e/6afecef78f8ad2908f6f2122/media.mp3",
+        "at": "2026-11-24T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1795083915862-7d3acc95-3ee0-4917-84ac-d7d393e2f978.jpeg",
+        "t": "چهار پنی برای یک شب - جک ریپر - قسمت ۱"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6a30d4e3a893cd95ca9864a2/e/6af93ed07d5cb93e7d695882/media.mp3",
         "at": "2026-11-17T04:00:00Z",
@@ -71307,15 +71313,15 @@
         "at": "2026-10-20T04:00:00Z",
         "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1792389125812-6bdb7560-3207-4d8f-b1f0-e5c87c8129a1.jpeg",
         "t": "پرونده بیلی میلیگان - قسمت ۲: پسری که زمان را گم می‌کرد"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6a30d4e3a893cd95ca9864a2/e/6ad06d0a0c6b30397b24273c/media.mp3",
-        "at": "2026-10-17T04:00:00Z",
-        "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1792044175385-1f907d05-23f6-4581-b2e9-30da875ff637.jpeg",
-        "t": "پرونده بیلی میلیگان - قسمت ۱: بیلی خواب است"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T04:00:00Z",
+        "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1795083915862-7d3acc95-3ee0-4917-84ac-d7d393e2f978.jpeg",
+        "link": "https://shows.acast.com/parvandebaz/episodes/6afecef78f8ad2908f6f2122",
+        "title": "چهار پنی برای یک شب - جک ریپر - قسمت ۱"
+      },
       {
         "at": "2026-11-17T04:00:00Z",
         "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1794719433804-b47ab5d1-284e-43fe-aa64-fa4ac08ab99f.jpeg",
@@ -71327,12 +71333,6 @@
         "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1794138443009-39c954dd-0c2b-49ff-a236-d0b5b5be84f3.jpeg",
         "link": "https://shows.acast.com/parvandebaz/episodes/6af0620abaaf18ccf94028b7",
         "title": "پرونده نانسی گاتری: شبی که دوربین خاموش شد - ۱"
-      },
-      {
-        "at": "2026-11-03T04:00:00Z",
-        "i": "https://assets.pippa.io/shows/6a30d4e3a893cd95ca9864a2/1793352330034-9f40d6fa-206a-468c-bd3b-7eeec467be2b.jpeg",
-        "link": "https://shows.acast.com/parvandebaz/episodes/6ae4630e092a0dff19f805ea",
-        "title": "پرونده بیلی میلیگان - قسمت ۶: کریستوفر کار"
       }
     ],
     "recent_30d": [
@@ -71347,7 +71347,7 @@
       5,
       6,
       9,
-      5
+      6
     ],
     "status": "active"
   },
