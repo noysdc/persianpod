@@ -49187,8 +49187,8 @@
       }
     ],
     "recent_30d": [
-      22,
-      28,
+      23,
+      27,
       29,
       27,
       27,
@@ -75895,50 +75895,20 @@
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
     "avg_gap_days": 0.1,
-    "avg_length": 192,
-    "episodes": 150,
-    "eps_365": 150,
-    "eps_90": 150,
+    "avg_length": 174,
+    "episodes": 145,
+    "eps_365": 145,
+    "eps_90": 145,
     "first_at": "2026-11-01",
     "first_year": 1405,
-    "last": "1405/09/03",
-    "last_at": "2026-11-24T02:18:32Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baghaie-Kermani--Mozaffar-Part-5-e3stidt",
-    "last_title": "Baghaie-Kermani, Mozaffar Part 5",
+    "last": "1405/08/29",
+    "last_at": "2026-11-20T23:27:19Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baheri--Mohammad-Part-8-e3sopcm",
+    "last_title": "Baheri, Mohammad Part 8",
     "max_length": 250,
     "median_length": 119,
     "min_length": 20,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129992573/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fa24f1c20-83c6-29e8-e2df-a2aa5f969d42.mp3",
-        "at": "2026-11-24T02:18:32Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486587235-f8a73957d38e3.jpg",
-        "t": "Baghaie-Kermani, Mozaffar Part 5"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129992462/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fad153cb5-5fcd-1d92-9381-828c678a651a.mp3",
-        "at": "2026-11-24T02:16:04Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486417763-2ee7fa65866c.jpg",
-        "t": "Baghaie-Kermani, Mozaffar Part 4"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129992367/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2F2f29e9a5-c6ab-52e8-6c48-6215f99b1e9e.mp3",
-        "at": "2026-11-24T02:13:17Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486271576-3c08a58b043ce.jpg",
-        "t": "Baghaie-Kermani, Mozaffar Part 3"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129992285/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Faf548164-6502-140c-ee3c-b81a8a3656bb.mp3",
-        "at": "2026-11-24T02:10:50Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486132377-5dda443b8581b.jpg",
-        "t": "Baghaie-Kermani, Mozaffar Part 2"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/129992195/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2F560758e4-94c4-96ed-928e-6c4b0c6bb3c2.mp3",
-        "at": "2026-11-24T02:08:32Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486000472-3d15c586e7ae8.jpg",
-        "t": "Baghaie-Kermani, Mozaffar Part 1"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/129835862/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2Fd9df1032-cd28-1293-6387-86d3ac0b788e.mp3",
         "at": "2026-11-20T23:27:19Z",
@@ -75956,26 +75926,56 @@
         "at": "2026-11-20T23:22:10Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795216797423-e1a359ce1e7c6.jpg",
         "t": "Baheri, Mohammad Part 6"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129835399/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2Fe46f5b14-4f80-df05-912a-1e6a8a2747dd.mp3",
+        "at": "2026-11-20T23:19:22Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795216630539-a5733bbce5cd8.jpg",
+        "t": "Baheri, Mohammad Part 5"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129835312/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2Fca2b0832-f3f2-e19f-67fe-b49182363603.mp3",
+        "at": "2026-11-20T23:16:37Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795216460188-d39d59620d62d.jpg",
+        "t": "Baheri, Mohammad Part 4"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129835226/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2F2827421f-66b3-8963-45af-855327b1d90f.mp3",
+        "at": "2026-11-20T23:13:49Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795216293784-f73c19eff979c.jpg",
+        "t": "Baheri, Mohammad Part 3"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129835145/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2Fa7bca2c7-9c73-fcee-bce9-5a0264b0a169.mp3",
+        "at": "2026-11-20T23:11:05Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795216133239-d1a531ef79861.jpg",
+        "t": "Baheri, Mohammad Part 2"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129835069/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2F02947e05-dae1-a77a-6f01-6ab817ab1ec3.mp3",
+        "at": "2026-11-20T23:08:25Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795215971044-48cd059537de2.jpg",
+        "t": "Baheri, Mohammad Part 1"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-24T02:18:32Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486587235-f8a73957d38e3.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baghaie-Kermani--Mozaffar-Part-5-e3stidt",
-        "title": "Baghaie-Kermani, Mozaffar Part 5"
+        "at": "2026-11-20T23:27:19Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795217148205-fe3b65f97f3e1.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baheri--Mohammad-Part-8-e3sopcm",
+        "title": "Baheri, Mohammad Part 8"
       },
       {
-        "at": "2026-11-24T02:16:04Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486417763-2ee7fa65866c.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baghaie-Kermani--Mozaffar-Part-4-e3stiae",
-        "title": "Baghaie-Kermani, Mozaffar Part 4"
+        "at": "2026-11-20T23:24:50Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795216957893-60f04906352f.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baheri--Mohammad-Part-7-e3sop3h",
+        "title": "Baheri, Mohammad Part 7"
       },
       {
-        "at": "2026-11-24T02:13:17Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486271576-3c08a58b043ce.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baghaie-Kermani--Mozaffar-Part-3-e3sti7f",
-        "title": "Baghaie-Kermani, Mozaffar Part 3"
+        "at": "2026-11-20T23:22:10Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795216797423-e1a359ce1e7c6.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baheri--Mohammad-Part-6-e3sop0i",
+        "title": "Baheri, Mohammad Part 6"
       }
     ],
     "recent_30d": [
@@ -75990,7 +75990,7 @@
       0,
       0,
       0,
-      150
+      145
     ],
     "status": "active"
   },
@@ -97681,7 +97681,7 @@
   },
   "tnz-mozikal-kshorgrafi": {
     "avg_length": 38,
-    "episodes": 13,
+    "episodes": 14,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2021-04-29",
@@ -97691,7 +97691,7 @@
     "last_link": "https://podcasters.spotify.com/pod/show/keshvargraphy/episodes/ep-e1gaogc",
     "last_title": "نوروز! خارج از ایران",
     "max_length": 59,
-    "median_length": 37,
+    "median_length": 38,
     "min_length": 23,
     "play": [
       {
@@ -97725,6 +97725,12 @@
         "t": "اتیوپی | حبشه مدرن"
       },
       {
+        "a": "https://anchor.fm/s/58715c48/podcast/play/43389001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-10-4%2F228687538-44100-2-c58a8967f63dd.mp3",
+        "at": "2021-11-15T19:21:52Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/14738242/14738242-1637004104283-35d72e4871a.jpg",
+        "t": "کره شمالی | جنگ ناتمام"
+      },
+      {
         "a": "https://anchor.fm/s/58715c48/podcast/play/42215248/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-9-23%2F133fb522-0131-104d-5b53-a0860ad05e91.mp3",
         "at": "2021-10-23T13:05:01Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/14738242/14738242-1634994284333-04bd07ef73078.jpg",
@@ -97735,12 +97741,6 @@
         "at": "2021-10-11T21:37:54Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/14738242/14738242-1633988247821-35666430a6dbc.jpg",
         "t": "شوروی | چرنوبیل"
-      },
-      {
-        "a": "https://anchor.fm/s/58715c48/podcast/play/40834566/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-8-25%2Ff0e57c68-8160-8464-fd8a-3edb3939761e.mp3",
-        "at": "2021-09-25T16:56:01Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/14738242/14738242-1632588872788-2955290267ce6.jpg",
-        "t": "ترکیه | توریست"
       }
     ],
     "recent": [
