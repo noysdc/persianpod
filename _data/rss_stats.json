@@ -27096,8 +27096,8 @@
       30,
       24,
       33,
-      29,
-      23,
+      30,
+      22,
       12,
       6,
       5,
@@ -29280,6 +29280,7 @@
       {
         "a": "https://podcast.zenomedia.com/public/podcasts/media/agxzfnplbm8tc3RhdHNyKwsSCkF1dGhFbnRpdHkYgICQk8rG9goMCxIHUG9kY2FzdBiAgLDM7rmfCgyiAQdsaWJyYXJ5/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgIjeya-nCQyiAQdsaWJyYXJ5.mp3",
         "at": "2022-03-07T07:00:00Z",
+        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgIjeya-nCQyiAQdsaWJyYXJ5.jpg?_=1647237600",
         "t": "#43 - انگلستان - بخش اول"
       },
       {
@@ -29328,6 +29329,7 @@
       },
       {
         "at": "2022-03-07T07:00:00Z",
+        "i": "https://podcast.zenomedia.com/public/podcasts/episodes/images/agxzfnplbm8tc3RhdHNyFgsSCU1lZGlhSXRlbRiAgIjeya-nCQyiAQdsaWJyYXJ5.jpg?_=1647237600",
         "link": "https://www.radiobamdad.com/minoo",
         "title": "#43 - انگلستان - بخش اول"
       },
@@ -33374,21 +33376,27 @@
     "status": "stopped"
   },
   "ilda-mhdoi-brnamh-hai-gnj-hzor": {
-    "avg_gap_days": 17.2,
-    "avg_length": 59,
-    "episodes": 20,
-    "eps_365": 20,
-    "eps_90": 19,
+    "avg_gap_days": 16.9,
+    "avg_length": 60,
+    "episodes": 21,
+    "eps_365": 21,
+    "eps_90": 20,
     "first_at": "2025-12-21",
     "first_year": 1404,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T19:45:55Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3scp78",
-    "last_title": "برنامه شماره ۲۰",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T10:12:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3su5ba",
+    "last_title": "برنامه شماره ۲۱",
     "max_length": 86,
-    "median_length": 62,
+    "median_length": 63,
     "min_length": 34,
     "play": [
+      {
+        "a": "https://anchor.fm/s/116ea0d64/podcast/play/130011946/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Ff827eb36-9e85-b9d4-03e2-fbef59c3900e.mp3",
+        "at": "2026-11-24T10:12:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1795515135169-868c532b3100a.jpg",
+        "t": "برنامه شماره ۲۱"
+      },
       {
         "a": "https://anchor.fm/s/116ea0d64/podcast/play/129442472/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F20488dce-6959-1712-44f0-86fe2fae13c0.mp3",
         "at": "2026-11-14T19:45:55Z",
@@ -33430,15 +33438,15 @@
         "at": "2026-11-02T19:20:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793647210047-1ad0bbdec1bd.jpg",
         "t": "برنامه شماره ۱۴"
-      },
-      {
-        "a": "https://anchor.fm/s/116ea0d64/podcast/play/128635332/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F8b64d682-3054-9956-7008-37646601794b.mp3",
-        "at": "2026-11-02T19:00:45Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793646055049-b7c3b055bb19a.jpg",
-        "t": "برنامه شماره ۱۳"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T10:12:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1795515135169-868c532b3100a.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3su5ba",
+        "title": "برنامه شماره ۲۱"
+      },
       {
         "at": "2026-11-14T19:45:55Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1794685562104-10e081e28e28e.jpg",
@@ -33450,12 +33458,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793670660688-c32052520f96b.jpg",
         "link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3rkmg3",
         "title": "برنامه شماره ۱۹"
-      },
-      {
-        "at": "2026-11-03T01:45:12Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793670320492-5b9013cfbc759.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3rkm9g",
-        "title": "برنامه شماره ۱۸"
       }
     ],
     "recent_30d": [
@@ -33470,7 +33472,7 @@
       0,
       1,
       3,
-      15
+      16
     ],
     "status": "active"
   },
@@ -41209,11 +41211,11 @@
       0,
       0,
       52,
-      62,
-      52,
       63,
-      52,
-      72
+      51,
+      63,
+      53,
+      71
     ],
     "status": "active"
   },
@@ -70347,21 +70349,27 @@
     "status": "active"
   },
   "podcast-mosighi-rah-gosh": {
-    "avg_gap_days": 4.2,
-    "avg_length": 60,
-    "episodes": 58,
-    "eps_365": 15,
-    "eps_90": 15,
+    "avg_gap_days": 4.1,
+    "avg_length": 56,
+    "episodes": 59,
+    "eps_365": 16,
+    "eps_90": 16,
     "first_at": "2022-05-10",
     "first_year": 1401,
-    "last": "1405/09/01",
-    "last_at": "2026-11-22T18:30:00Z",
-    "last_link": "https://youtu.be/jxqjtZdzSxc",
-    "last_title": "نسل زِدِ موزیسین ایرانی؛ گفت‌وگو با مهیار زند و مسیحا ذاکری",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T18:30:00Z",
+    "last_link": "https://youtu.be/ZoEPBYuX9Sc",
+    "last_title": "استندآپ گِله؛ مقداد شاه‌حسینی",
     "max_length": 156,
     "median_length": 58,
     "min_length": 16,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6afe9ba39abb746806b3ec90/media.mp3",
+        "at": "2026-11-24T18:30:00Z",
+        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1795070262233-bc6e0fcc-2687-421c-a8ee-dd48dd62dc02.jpeg",
+        "t": "استندآپ گِله؛ مقداد شاه‌حسینی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6afe98c7543098e2b8162249/media.mp3",
         "at": "2026-11-22T18:30:00Z",
@@ -70403,15 +70411,15 @@
         "at": "2026-10-27T18:30:00Z",
         "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1792832946468-b8380892-8d1c-4acb-903d-d151bd40101e.jpeg",
         "t": "استندآپ گِله؛ رسام عالَم‌زاده"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/627aaa14f8074c0012c28528/e/6adc7550959e7ea69d97ee04/media.mp3",
-        "at": "2026-10-25T18:30:00Z",
-        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1792831665821-21e0d48f-7b18-4965-9e5a-243c3eccb73e.jpeg",
-        "t": "نسل زِد موزیسین ایرانی؛ گفت‌وگو با با پرنیان پارسایی (خواننده و قانون‌نواز) و النا بنائی (تارنواز)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T18:30:00Z",
+        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1795070262233-bc6e0fcc-2687-421c-a8ee-dd48dd62dc02.jpeg",
+        "link": "https://youtu.be/ZoEPBYuX9Sc",
+        "title": "استندآپ گِله؛ مقداد شاه‌حسینی"
+      },
       {
         "at": "2026-11-22T18:30:00Z",
         "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1795069191018-240bfc46-bfb6-450e-b3df-e1fc7a46eba9.jpeg",
@@ -70423,12 +70431,6 @@
         "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1794390890858-cbc83ffa-f805-49fb-95ba-63fc3e50c6ea.jpeg",
         "link": "https://youtu.be/q12_RHYB7bo",
         "title": "استندآپ گِله؛ محبوبه گلزاری"
-      },
-      {
-        "at": "2026-11-15T18:30:00Z",
-        "i": "https://assets.pippa.io/shows/627aaa14f8074c0012c28528/1794386660414-43d9c5e7-4759-4ced-9fff-bc956b6ada30.jpeg",
-        "link": "https://youtu.be/4EywK8JWLhQ",
-        "title": "استندآپ گِله؛ سحر لطفی"
       }
     ],
     "recent_30d": [
@@ -70442,7 +70444,7 @@
       0,
       0,
       1,
-      6,
+      7,
       8
     ],
     "status": "active"
@@ -95521,7 +95523,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4288,
-    "eps_365": 774,
+    "eps_365": 773,
     "eps_90": 241,
     "first_at": "2023-09-13",
     "first_year": 1402,
@@ -95592,7 +95594,7 @@
       }
     ],
     "recent_30d": [
-      119,
+      118,
       39,
       104,
       4,
@@ -97686,8 +97688,8 @@
       7,
       13,
       35,
-      41,
-      38,
+      42,
+      37,
       25
     ],
     "status": "active"
@@ -98569,7 +98571,7 @@
     "avg_length": 11,
     "episodes": 44,
     "eps_365": 44,
-    "eps_90": 25,
+    "eps_90": 24,
     "first_at": "2026-08-06",
     "first_year": 1405,
     "last": "1405/08/11",
@@ -98658,8 +98660,8 @@
       0,
       0,
       0,
-      19,
-      24,
+      20,
+      23,
       0,
       1
     ],
