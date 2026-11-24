@@ -203,6 +203,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/radiovaj/feed/"
   },
+  "radio-pzshki-fankshnal": {
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
+    "rss": "https://ketonia.life/feed/podcast/"
+  },
   "radio-tion": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/tune/feed/"
