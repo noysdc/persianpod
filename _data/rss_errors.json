@@ -19,10 +19,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
-  "aghtsad-bama": {
-    "error": "ParseError: no element found: line 1, column 0",
-    "rss": "https://shenoto.net/feed/BAMAECONOMY"
-  },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
@@ -31,10 +27,6 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://golbargmehr.com/category/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1-%D9%88-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/feed/"
   },
-  "akhlagh-brai-nojoanan": {
-    "error": "ParseError: no element found: line 1, column 0",
-    "rss": "https://shenoto.net/service/api/feed/AkhlaghNojavanan"
-  },
   "archgap-padkst-mamari-aark-gp": {
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
@@ -42,10 +34,6 @@
   "ashgh-ziba": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://loveziba.com/feed/"
-  },
-  "asmaail-khoii": {
-    "error": "ParseError: no element found: line 1, column 0",
-    "rss": "https://shenoto.net/service/api/feed/Esmaeilkhoei"
   },
   "astring-kst": {
     "error": "RuntimeError: TimeoutError: The read operation timed out",
@@ -103,14 +91,6 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
-  "frahosh": {
-    "error": "ParseError: no element found: line 1, column 0",
-    "rss": "https://shenoto.net/service/api/feed/Frahosh"
-  },
-  "frogh-frkhzad": {
-    "error": "ParseError: no element found: line 1, column 0",
-    "rss": "https://shenoto.net/service/api/feed/Farokhzad"
-  },
   "galri-film": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
@@ -119,10 +99,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://media.rss.com/hirbod/feed.xml"
   },
-  "hafz-khoani-bh-roait-ahmd-shamlo": {
-    "error": "ParseError: no element found: line 1, column 0",
-    "rss": "https://shenoto.net/service/api/feed/HAfEZ-e-SHAMLU"
-  },
   "hnr-jng": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://namlik.me/rss/318"
@@ -130,10 +106,6 @@
   "hs-khob": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.pod.co/hese-khob"
-  },
-  "idallh-roiaii": {
-    "error": "ParseError: no element found: line 1, column 0",
-    "rss": "https://shenoto.net/service/api/feed/Yadollah-Royaei"
   },
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
@@ -146,10 +118,6 @@
   "kodkan-mana": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
-  },
-  "kshor-shahnamh-khoansh-dastan-hai-shahnamh-frdosi": {
-    "error": "ParseError: no element found: line 1, column 0",
-    "rss": "https://shenoto.net/service/api/feed/KeshvareShahnam"
   },
   "ktab-soti-7954218": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -170,18 +138,6 @@
   "marktplatz-zban-aalmani-dr-aghtsad": {
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
-  },
-  "mhmdhsin-tbatbayian-mhmdmhdi-mnsori": {
-    "error": "ParseError: no element found: line 1, column 0",
-    "rss": "https://shenoto.net/feed/ZabanDirectory"
-  },
-  "msnoi-manoi": {
-    "error": "ParseError: no element found: line 1, column 0",
-    "rss": "https://shenoto.net/service/api/feed/Masnavi-Manavi"
-  },
-  "noid-kmali": {
-    "error": "ParseError: no element found: line 1, column 0",
-    "rss": "https://shenoto.net/service/api/feed/NavidKamali"
   },
   "nt-piano": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
@@ -214,6 +170,10 @@
   "podcast-obmstr-plas": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://webmasterplus.ir/feed/"
+  },
+  "podcast-pzshki-srm-atlaaat": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog"
   },
   "podcast-satori": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
