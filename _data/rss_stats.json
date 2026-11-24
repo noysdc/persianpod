@@ -22810,21 +22810,27 @@
     "status": "stopped"
   },
   "farsi-okr": {
-    "avg_gap_days": 15.9,
+    "avg_gap_days": 15.8,
     "avg_length": 23,
-    "episodes": 70,
-    "eps_365": 23,
-    "eps_90": 5,
+    "episodes": 71,
+    "eps_365": 24,
+    "eps_90": 6,
     "first_at": "2024-12-30",
     "first_year": 1403,
-    "last": "1405/08/18",
-    "last_at": "2026-11-09T01:30:00Z",
-    "last_link": "https://shows.acast.com/okr/episodes/6aeac833f7e4924fb7ce9d14",
-    "last_title": "تصمیم های دقیق اما اشتباه",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T01:30:00Z",
+    "last_link": "https://shows.acast.com/okr/episodes/6b03c1c3987015224067ad5a",
+    "last_title": "دست نامرئی قویتر از دست پنهان",
     "max_length": 37,
     "median_length": 22,
     "min_length": 12,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/676edd4b2472a043c01b942a/e/6b03c1c3987015224067ad5a/media.mp3",
+        "at": "2026-11-24T01:30:00Z",
+        "i": "https://assets.pippa.io/shows/676edd4b2472a043c01b942a/1795408194602-c03f0a08-f1c9-4f47-8683-e9aa95ff6fb5.jpeg",
+        "t": "دست نامرئی قویتر از دست پنهان"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/676edd4b2472a043c01b942a/e/6aeac833f7e4924fb7ce9d14/media.mp3",
         "at": "2026-11-09T01:30:00Z",
@@ -22866,15 +22872,15 @@
         "at": "2026-08-17T01:30:00Z",
         "i": "https://assets.pippa.io/shows/676edd4b2472a043c01b942a/1786425902758-b06d8f88-37b5-442c-bc0f-203d83c99dc2.jpeg",
         "t": "چهار تیپ شخصیت در سازمان و نحوه تعامل با آنها"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/676edd4b2472a043c01b942a/e/6a76a2c091f158549e76109d/media.mp3",
-        "at": "2026-08-10T01:30:00Z",
-        "i": "https://assets.pippa.io/shows/676edd4b2472a043c01b942a/1786159666293-76aebd04-17ab-473b-b9ec-f7a29b33a242.jpeg",
-        "t": "سه نسل اوکی آر و هشت تله هوش مصنوعی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T01:30:00Z",
+        "i": "https://assets.pippa.io/shows/676edd4b2472a043c01b942a/1795408194602-c03f0a08-f1c9-4f47-8683-e9aa95ff6fb5.jpeg",
+        "link": "https://shows.acast.com/okr/episodes/6b03c1c3987015224067ad5a",
+        "title": "دست نامرئی قویتر از دست پنهان"
+      },
       {
         "at": "2026-11-09T01:30:00Z",
         "i": "https://assets.pippa.io/shows/676edd4b2472a043c01b942a/1793771498825-01b6bd50-81bd-4da9-842f-8534a7bcdb46.jpeg",
@@ -22886,12 +22892,6 @@
         "i": "https://assets.pippa.io/shows/676edd4b2472a043c01b942a/1792212335936-d10eacf7-3cf5-4cbb-ade2-ab204e329175.jpeg",
         "link": "https://shows.acast.com/okr/episodes/6ad2fe477c5c47f85e2bf455",
         "title": "پشت صحنه مدیریت گوگل (بخش آخر)"
-      },
-      {
-        "at": "2026-10-12T01:30:00Z",
-        "i": "https://assets.pippa.io/shows/676edd4b2472a043c01b942a/1791348824655-4a8fd323-766f-4558-8867-869ca89a4696.jpeg",
-        "link": "https://shows.acast.com/okr/episodes/6ac5d23a29b9fbfbe22de059",
-        "title": "پشت صحنه مدیریت گوگل (بخش اول)"
       }
     ],
     "recent_30d": [
@@ -22906,7 +22906,7 @@
       4,
       2,
       2,
-      1
+      2
     ],
     "status": "active"
   },
@@ -39572,8 +39572,8 @@
       5,
       4,
       5,
-      5,
-      7,
+      6,
+      6,
       3,
       6,
       6
@@ -83105,7 +83105,7 @@
     "avg_length": 23,
     "episodes": 231,
     "eps_365": 68,
-    "eps_90": 22,
+    "eps_90": 21,
     "first_at": "2012-03-21",
     "first_year": 1391,
     "last": "1405/08/29",
@@ -83183,8 +83183,8 @@
       2,
       8,
       12,
-      0,
-      14,
+      1,
+      13,
       7,
       1
     ],
