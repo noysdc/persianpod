@@ -41886,8 +41886,8 @@
       0,
       0,
       0,
-      0,
-      7,
+      1,
+      6,
       2,
       0,
       0,
@@ -79179,8 +79179,8 @@
       0,
       0,
       0,
-      1,
-      43
+      2,
+      42
     ],
     "status": "active"
   },
@@ -97496,20 +97496,26 @@
   },
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
-    "avg_length": 21,
-    "episodes": 433,
-    "eps_365": 258,
-    "eps_90": 101,
+    "avg_length": 20,
+    "episodes": 434,
+    "eps_365": 259,
+    "eps_90": 102,
     "first_at": "2024-08-22",
     "first_year": 1403,
-    "last": "1405/09/01",
-    "last_at": "2026-11-22T03:30:00Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6ae981d1f5930510a0c33bca",
-    "last_title": "سلام آذرماه من 🍂 | جملات صبحگاهی و آرامش",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T10:17:21Z",
+    "last_link": "https://youtu.be/d6eih_Ye2HU",
+    "last_title": "مدیتیشن | مدیتیشن آرامش ذهن و زندگی در زمان حال",
     "max_length": 99,
     "median_length": 12,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6b052e8c062dc4efc003ab8c/media.mp3",
+        "at": "2026-11-24T10:17:21Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795501180904-1c3b8ee9-079b-4f62-acdd-5aa700288eb5.jpeg",
+        "t": "مدیتیشن | مدیتیشن آرامش ذهن و زندگی در زمان حال"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6ae981d1f5930510a0c33bca/media.mp3",
         "at": "2026-11-22T03:30:00Z",
@@ -97551,15 +97557,15 @@
         "at": "2026-11-19T00:30:00Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793687906349-401dbe3e-fa1f-4396-ad76-cbeda6485771.jpeg",
         "t": "من قوی، باارزش و آماده‌ی معجزه‌ام ✨ | قوی‌ترین جملات تاکیدی صبحگاهی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6afddbc558de7292de72acbe/media.mp3",
-        "at": "2026-11-18T17:09:22Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795021567810-1600efe2-c552-42ad-b94d-15a7a297592c.jpeg",
-        "t": "مدیتیشن | مدیتیشن اتصال به زمین، رهایی از اضطراب و آرامش درونی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T10:17:21Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795501180904-1c3b8ee9-079b-4f62-acdd-5aa700288eb5.jpeg",
+        "link": "https://youtu.be/d6eih_Ye2HU",
+        "title": "مدیتیشن | مدیتیشن آرامش ذهن و زندگی در زمان حال"
+      },
       {
         "at": "2026-11-22T03:30:00Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1793687942275-28455c95-6ea1-433f-930e-22e71161ea9d.jpeg",
@@ -97571,12 +97577,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795097538846-42eef682-37c9-4bda-a803-3f473336b8fc.jpeg",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6aff055ec838fad86f14b7d1",
         "title": "مدیتیشن|مدیتیشن ۵دقیقه‌ای صبح جذب ثروت و آرامش"
-      },
-      {
-        "at": "2026-11-21T01:30:00Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794132103007-ba9bc9e3-fa53-428a-a092-2eee9d73004e.jpeg",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6af048f56767b86e14cad26e",
-        "title": "امروز را با آرامش و حال خوب بغل کن ✨ | قوی‌ترین جملات تأکیدی صبحگاهی"
       }
     ],
     "recent_30d": [
@@ -97591,7 +97591,7 @@
       36,
       41,
       37,
-      23
+      24
     ],
     "status": "active"
   },
