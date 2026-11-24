@@ -49104,19 +49104,25 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 1006,
-    "eps_365": 326,
-    "eps_90": 80,
+    "episodes": 1007,
+    "eps_365": 327,
+    "eps_90": 81,
     "first_at": "2023-11-21",
     "first_year": 1402,
     "last": "1405/09/03",
-    "last_at": "2026-11-24T02:59:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/nvidia-news-sparks-wall-street-rally/06xhxwczw",
-    "last_title": "خبرهای انویدیا باعث جهش شاخص‌های بورس وال‌استریت شد",
+    "last_at": "2026-11-24T04:40:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/possibility-of-the-labor-party-recording-its-worst-ever-result-in-victorias-history/qcdk20bzr",
+    "last_title": "احتمال ثبت بدترین نتیجه انتخاباتی حزب کارگر در تاریخ ویکتوریا",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261124154051_658944-persian-83403bdb-0bc3-4053-a4b8-059438c7ae65.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a2-0bd6-d47b-a5e7-7ff6d9ec0000&dur_cat=3",
+        "at": "2026-11-24T04:40:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261124154055_807308-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "t": "احتمال ثبت بدترین نتیجه انتخاباتی حزب کارگر در تاریخ ویکتوریا"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261124135921_282290-persian-0778a2b3-f6ef-4ecd-8a62-a6ed8724fc11.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a2-0b5e-d975-a7bf-cbdf12920000&dur_cat=2",
         "at": "2026-11-24T02:59:00Z",
@@ -49158,15 +49164,15 @@
         "at": "2026-11-16T02:41:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261116134214_507350-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "t": "دیدار تاریخی ترامپ، شی و پوتین در اپک؛ از نگرانی‌های اقلیمی تا حمله سایبری به کولز"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261113124031_752975-persian-131126-iran.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-d27d-d364-a3af-f7fde4170000&dur_cat=2",
-        "at": "2026-11-13T01:40:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261113124159_506339-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "t": "اختلال گسترده جهانی مایکروسافت؛ نهادهای امنیتی استرالیا هم تحت تاثیر قرار گرفتند"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T04:40:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261124154055_807308-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/possibility-of-the-labor-party-recording-its-worst-ever-result-in-victorias-history/qcdk20bzr",
+        "title": "احتمال ثبت بدترین نتیجه انتخاباتی حزب کارگر در تاریخ ویکتوریا"
+      },
       {
         "at": "2026-11-24T02:59:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261124135925_532325-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
@@ -49178,12 +49184,6 @@
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261123134439_921086-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/pressure-on-anthony-albaneses-government-in-the-last-week-of-parliamentary-work/u85ie9jra",
         "title": "فشار بر دولت آنتونی آلبانیزی در آخرین هفته کاری پارلمان"
-      },
-      {
-        "at": "2026-11-20T00:42:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261120114227_743789-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/anthony-albaneses-direct-appeal-to-putin-to-end-the-ukraine-war/wq79gqq3b",
-        "title": "درخواست مستقیم آنتونی آلبانیزی از پوتین برای پایان دادن به جنگ اوکراین"
       }
     ],
     "recent_30d": [
@@ -49198,7 +49198,7 @@
       28,
       26,
       27,
-      27
+      28
     ],
     "status": "active"
   },
