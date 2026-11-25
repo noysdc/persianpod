@@ -3507,19 +3507,25 @@
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.7,
     "avg_length": 6,
-    "episodes": 35,
-    "eps_365": 35,
-    "eps_90": 26,
+    "episodes": 36,
+    "eps_365": 36,
+    "eps_90": 27,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/08/30",
-    "last_at": "2026-11-21T16:20:25Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3spj2l",
-    "last_title": "شاهنامه کودکانه | قسمت سیزدهم | تولد رستم",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T15:14:27Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3t0rk1",
+    "last_title": "کلیله‌ودمنه کودکانه | قسمت پانزدهم | بوم و زاغ (۳)",
     "max_length": 11,
     "median_length": 6,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/130100289/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-25%2F56580714-628c-7e0e-d844-36c0e1210300.mp3",
+        "at": "2026-11-25T15:14:27Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795619674988-1d255c68811c6.jpg",
+        "t": "کلیله‌ودمنه کودکانه | قسمت پانزدهم | بوم و زاغ (۳)"
+      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/129862165/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F2468c241-f00e-9968-12aa-420ffba90c31.mp3",
         "at": "2026-11-21T16:20:25Z",
@@ -3561,15 +3567,15 @@
         "at": "2026-11-01T19:05:07Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793559915422-eb9a246b41b18.jpg",
         "t": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت"
-      },
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/128422725/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-30%2F52401b3b-f9bb-4324-c291-fdcac89fd08a.mp3",
-        "at": "2026-10-30T12:49:40Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793364589985-916c09dd464d3.jpg",
-        "t": "کلیله و دمنه کودکانه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T15:14:27Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795619674988-1d255c68811c6.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3t0rk1",
+        "title": "کلیله‌ودمنه کودکانه | قسمت پانزدهم | بوم و زاغ (۳)"
+      },
       {
         "at": "2026-11-21T16:20:25Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795278033095-9398b599715b8.jpg",
@@ -3581,12 +3587,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794830871271-16946b5ebe26d.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3sfo9m",
         "title": "کلیله و دمنه کودکانه | قسمت چهاردهم | بوم و زاغ (۲)"
-      },
-      {
-        "at": "2026-11-14T17:47:20Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794679069038-3d0036a762cab.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3scjo4",
-        "title": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه"
       }
     ],
     "recent_30d": [
@@ -3601,7 +3601,7 @@
       9,
       10,
       7,
-      9
+      10
     ],
     "status": "active"
   },
@@ -6469,19 +6469,25 @@
   },
   "angizshi-padkst-angizshi-ba-mhiar-akbri-ik-hs-khob": {
     "avg_length": 4,
-    "episodes": 10,
-    "eps_365": 0,
-    "eps_90": 0,
+    "episodes": 11,
+    "eps_365": 1,
+    "eps_90": 1,
     "first_at": "2019-11-05",
     "first_year": 1398,
-    "last": "1403/06/12",
-    "last_at": "2024-09-02T22:11:32Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e2nu1uh",
-    "last_title": "پاشو همین حالا واسه همیشه از منطقه امنت بزن بیرون! پادکست انگیزشی درجه یک",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T17:11:32Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e3t13se",
+    "last_title": "انتهای شب وقت تصمیم های بزرگ جسورانس پادکست انگیزشی",
     "max_length": 5,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1026a844/podcast/play/130108750/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-25%2F2a021b1d-a364-985b-1581-923e5f606d70.mp3",
+        "at": "2026-11-25T17:11:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2609689/2609689-1795626496456-c4fe4a30c1a15.jpg",
+        "t": "انتهای شب وقت تصمیم های بزرگ جسورانس پادکست انگیزشی"
+      },
       {
         "a": "https://anchor.fm/s/1026a844/podcast/play/91211153/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-2%2F62ac2fbd-8437-d640-3bca-182ce3731428.mp3",
         "at": "2024-09-02T22:11:32Z",
@@ -6523,15 +6529,15 @@
         "at": "2022-02-04T16:20:10Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2609689/2609689-1643991224396-0c45540a6526f.jpg",
         "t": "رفیق صمیمی روزای سخت زندگیت این پادکست انگیزشی فوق العادس"
-      },
-      {
-        "a": "https://anchor.fm/s/1026a844/podcast/play/46485536/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-21%2F77d1d6f0-d8c1-6b20-209d-ca41fde08f25.mp3",
-        "at": "2022-01-21T18:59:31Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2609689/2609689-1642791378323-91fc6ab1b6108.jpg",
-        "t": "خارق العاده! این چیزیه که تو هستی و باید باشی! پادکست انگیزشی خارق العاده"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T17:11:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2609689/2609689-1795626496456-c4fe4a30c1a15.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e3t13se",
+        "title": "انتهای شب وقت تصمیم های بزرگ جسورانس پادکست انگیزشی"
+      },
       {
         "at": "2024-09-02T22:11:32Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2609689/2609689-1725315008708-8aca047723aa2.jpg",
@@ -6543,12 +6549,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2609689/2609689-1688160814745-f3637d7a62505.jpg",
         "link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e26dfq5",
         "title": "تلاشتو بکن کافیتو بخور و همه چیو بسپار به زمان... پادکست انگیزشی بی نظیر"
-      },
-      {
-        "at": "2022-11-25T20:40:38Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2609689/2609689-1669408504379-51fa7b76b9338.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e1raecs",
-        "title": "رهایی... واسه وقتایی که حالت بده بهش گوش کن... پادکست انگیزشی احساسی"
       }
     ],
     "recent_30d": [
@@ -6563,7 +6563,7 @@
       0,
       0,
       0,
-      0
+      1
     ],
     "status": "active"
   },
@@ -22533,8 +22533,8 @@
       0,
       0,
       0,
-      8,
-      4,
+      9,
+      3,
       5,
       1,
       2,
@@ -41218,8 +41218,8 @@
       }
     ],
     "recent_30d": [
-      159,
-      47,
+      160,
+      46,
       57,
       0,
       0,
@@ -90708,7 +90708,7 @@
     "avg_gap_days": 2.7,
     "avg_length": 5,
     "episodes": 354,
-    "eps_365": 136,
+    "eps_365": 135,
     "eps_90": 28,
     "first_at": "2025-01-23",
     "first_year": 1403,
@@ -92642,8 +92642,8 @@
       }
     ],
     "recent_30d": [
-      10,
-      3,
+      11,
+      2,
       14,
       0,
       0,
@@ -95606,8 +95606,8 @@
       }
     ],
     "recent_30d": [
-      119,
-      36,
+      120,
+      35,
       108,
       0,
       0,
@@ -95616,8 +95616,8 @@
       97,
       92,
       97,
-      66,
-      75
+      67,
+      74
     ],
     "status": "active"
   },
@@ -98583,7 +98583,7 @@
     "avg_length": 11,
     "episodes": 44,
     "eps_365": 44,
-    "eps_90": 24,
+    "eps_90": 23,
     "first_at": "2026-08-06",
     "first_year": 1405,
     "last": "1405/08/11",
@@ -98672,8 +98672,8 @@
       0,
       0,
       0,
-      20,
-      23,
+      21,
+      22,
       0,
       1
     ],
