@@ -18964,21 +18964,27 @@
     "status": "active"
   },
   "dastan-trsnak": {
-    "avg_gap_days": 60.2,
+    "avg_gap_days": 52.0,
     "avg_length": 20,
-    "episodes": 16,
-    "eps_365": 7,
-    "eps_90": 2,
+    "episodes": 17,
+    "eps_365": 8,
+    "eps_90": 3,
     "first_at": "2025-09-18",
     "first_year": 1404,
-    "last": "1405/09/01",
-    "last_at": "2026-11-22T15:28:58Z",
-    "last_link": "https://redcircle.com/shows/3388813b-bb45-448b-9541-e9f7c4e63c2f/episodes/1f7474a7-814a-474c-a66c-38b839404bce",
-    "last_title": "EPISODE 15 – The Seer of Possibilities",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T18:45:24Z",
+    "last_link": "https://redcircle.com/shows/3388813b-bb45-448b-9541-e9f7c4e63c2f/episodes/905da4b0-f4f5-4a91-be04-67f2258b42e3",
+    "last_title": "EPISODE 16 – Dan's Apologies",
     "max_length": 39,
     "median_length": 17,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://audio2.redcircle.com/episodes/905da4b0-f4f5-4a91-be04-67f2258b42e3/stream.mp3",
+        "at": "2026-11-25T18:45:24Z",
+        "i": "https://media.redcircle.com/images/2026/11/25/18/e40fe4f0-3196-4514-b8a0-29a35fe206d1_creepy_zone__dan_s_apologies.jpg",
+        "t": "EPISODE 16 – Dan's Apologies"
+      },
       {
         "a": "https://audio2.redcircle.com/episodes/1f7474a7-814a-474c-a66c-38b839404bce/stream.mp3",
         "at": "2026-11-22T15:28:58Z",
@@ -19020,15 +19026,15 @@
         "at": "2025-11-26T13:04:26Z",
         "i": "https://media.redcircle.com/images/2026/9/15/11/4a428176-5998-4b81-b1cf-9b7bf2427e5c_e9.png",
         "t": "اپیزود 9 – Through the Looking Glass"
-      },
-      {
-        "a": "https://audio2.redcircle.com/episodes/df76a7ab-3993-476f-8d7e-be4aade94d09/stream.mp3",
-        "at": "2025-11-13T15:09:36Z",
-        "i": "https://media.redcircle.com/images/2026/9/15/11/9a9a59ae-1ba0-4782-bfeb-a8fba4ae14f6_e8.png",
-        "t": "اپیزود ۸ – NoEnd House"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T18:45:24Z",
+        "i": "https://media.redcircle.com/images/2026/11/25/18/e40fe4f0-3196-4514-b8a0-29a35fe206d1_creepy_zone__dan_s_apologies.jpg",
+        "link": "https://redcircle.com/shows/3388813b-bb45-448b-9541-e9f7c4e63c2f/episodes/905da4b0-f4f5-4a91-be04-67f2258b42e3",
+        "title": "EPISODE 16 – Dan's Apologies"
+      },
       {
         "at": "2026-11-22T15:28:58Z",
         "i": "https://media.redcircle.com/images/2026/11/22/15/d7612f28-448b-49f0-95c7-026ac30e4d23_creepy_zone_the_seer_of_possibilities.jpg",
@@ -19040,12 +19046,6 @@
         "i": "https://media.redcircle.com/images/2026/9/15/11/a4468915-21ae-4997-b7d4-68a6480577ed_e14.png",
         "link": "https://CreepyZone.podbean.com/e/episode-14-%e2%80%93-a-shattered-life/",
         "title": "EPISODE 14 – A Shattered Life"
-      },
-      {
-        "at": "2026-08-22T13:03:48Z",
-        "i": "https://media.redcircle.com/images/2026/9/15/11/94cf7e80-40e3-4101-a9a8-82b98c43dd51_e13.png",
-        "link": "https://CreepyZone.podbean.com/e/episode-13-%e2%80%93-the-shadow-surgeon/",
-        "title": "EPISODE 13 – The Shadow Surgeon"
       }
     ],
     "recent_30d": [
@@ -19060,7 +19060,7 @@
       1,
       1,
       0,
-      1
+      2
     ],
     "status": "active"
   },
@@ -94178,21 +94178,27 @@
     "status": "stopped"
   },
   "srot-khamosh-silent-wealth": {
-    "avg_gap_days": 4.6,
-    "avg_length": 14,
-    "episodes": 10,
-    "eps_365": 10,
-    "eps_90": 10,
+    "avg_gap_days": 5.0,
+    "avg_length": 15,
+    "episodes": 11,
+    "eps_365": 11,
+    "eps_90": 11,
     "first_at": "2026-10-06",
     "first_year": 1405,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T18:17:29Z",
-    "last_link": "https://shows.acast.com/silent-wealth/episodes/6acdd663d3bfab176ea22a3e",
-    "last_title": "عادت‌های به ظاهر فقرایه‌ای که طبقه ثروتمند عاشق آن‌هاست!",
-    "max_length": 19,
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T18:51:09Z",
+    "last_link": "https://shows.acast.com/silent-wealth/episodes/6b0199218e8174f983f08825",
+    "last_title": "کارهای به ظاهر کسل‌کننده‌ای که ثروتمندان هر ماه انجام می‌دهند!",
+    "max_length": 20,
     "median_length": 16,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6ac4bf8be5a4bb3faec37212/e/6b0199218e8174f983f08825/media.mp3",
+        "at": "2026-11-25T18:51:09Z",
+        "i": "https://assets.pippa.io/shows/6ac4bf8be5a4bb3faec37212/1795266827848-8a7a0d3d-2d17-43ef-bf97-f1771c516c46.jpeg",
+        "t": "کارهای به ظاهر کسل‌کننده‌ای که ثروتمندان هر ماه انجام می‌دهند!"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6ac4bf8be5a4bb3faec37212/e/6acdd663d3bfab176ea22a3e/media.mp3",
         "at": "2026-11-16T18:17:29Z",
@@ -94234,15 +94240,15 @@
         "at": "2026-10-12T05:30:00Z",
         "i": "https://assets.pippa.io/shows/6ac4bf8be5a4bb3faec37212/1791357023829-b75dd67d-8810-4a01-81a8-0901693bffe2.jpeg",
         "t": "۱۰ نکته‌ای که ثروتمندان می‌بینند و بقیه از آن رد می‌شوند"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6ac4bf8be5a4bb3faec37212/e/6ac5ef4c8f90a39dfc502ba5/media.mp3",
-        "at": "2026-10-08T11:44:55Z",
-        "i": "https://assets.pippa.io/shows/6ac4bf8be5a4bb3faec37212/1791356561735-13af5b1a-e94b-4520-a0ab-65444d90b286.jpeg",
-        "t": "چرا با وجود افزایش درآمد، هنوز احساس آرامش مالی نمی‌کنیم؟ 💰"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T18:51:09Z",
+        "i": "https://assets.pippa.io/shows/6ac4bf8be5a4bb3faec37212/1795266827848-8a7a0d3d-2d17-43ef-bf97-f1771c516c46.jpeg",
+        "link": "https://shows.acast.com/silent-wealth/episodes/6b0199218e8174f983f08825",
+        "title": "کارهای به ظاهر کسل‌کننده‌ای که ثروتمندان هر ماه انجام می‌دهند!"
+      },
       {
         "at": "2026-11-16T18:17:29Z",
         "i": "https://assets.pippa.io/shows/6ac4bf8be5a4bb3faec37212/1791874616290-e0521883-d21c-4d31-9a49-7bc67aa569c1.jpeg",
@@ -94254,12 +94260,6 @@
         "i": "https://assets.pippa.io/shows/6ac4bf8be5a4bb3faec37212/1791874329070-7d9db357-6dd7-429e-987f-0195f3c75142.jpeg",
         "link": "https://shows.acast.com/silent-wealth/episodes/stealth-wealth",
         "title": "ثروت خاموش؛ چطور بدون جلب توجه ثروتمند شویم؟ 💎"
-      },
-      {
-        "at": "2026-11-04T08:29:14Z",
-        "i": "https://assets.pippa.io/shows/6ac4bf8be5a4bb3faec37212/1791874198686-72ced73d-7642-4684-8a59-c0bf7259866b.jpeg",
-        "link": "https://shows.acast.com/silent-wealth/episodes/6acdd4aad3bfab176ea20720",
-        "title": "آزمون خاموش؛ ثروتمندان چطور در سکوت عیار شما را می‌سنجند؟"
       }
     ],
     "recent_30d": [
@@ -94274,7 +94274,7 @@
       0,
       0,
       6,
-      4
+      5
     ],
     "status": "active"
   },
@@ -95534,19 +95534,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4290,
-    "eps_365": 775,
-    "eps_90": 239,
+    "episodes": 4291,
+    "eps_365": 776,
+    "eps_90": 240,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/09/04",
-    "last_at": "2026-11-25T18:30:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b0715e4ae6c02a868035b13",
-    "last_title": "قسمت چهارهزار و دویست و هفتاد و یک",
+    "last_at": "2026-11-25T18:50:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b07165df37086a1276cbe26",
+    "last_title": "قسمت چهارهزار و دویست و هفتاد و دو",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6b07165df37086a1276cbe26/media.mp3",
+        "at": "2026-11-25T18:50:00Z",
+        "t": "قسمت چهارهزار و دویست و هفتاد و دو"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6b0715e4ae6c02a868035b13/media.mp3",
         "at": "2026-11-25T18:30:00Z",
@@ -95581,14 +95586,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6b00619b98701522401f5431/media.mp3",
         "at": "2026-11-21T11:30:00Z",
         "t": "قسمت چهارهزار و دویست و شصت و پنج"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6b0061458e8174f98370b5e8/media.mp3",
-        "at": "2026-11-21T04:30:00Z",
-        "t": "قسمت چهارهزار و دویست و شصت و چهار"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T18:50:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b07165df37086a1276cbe26",
+        "title": "قسمت چهارهزار و دویست و هفتاد و دو"
+      },
       {
         "at": "2026-11-25T18:30:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b0715e4ae6c02a868035b13",
@@ -95598,11 +95603,6 @@
         "at": "2026-11-25T17:05:48Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b07156937fa8fa0c486ea6c",
         "title": "قسمت چهارهزار و دویست و هفتاد"
-      },
-      {
-        "at": "2026-11-23T07:30:00Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b035d3698701522403f77d5",
-        "title": "قسمت چهارهزار و دویست و شصت و نه"
       }
     ],
     "recent_30d": [
@@ -95617,7 +95617,7 @@
       92,
       97,
       67,
-      75
+      76
     ],
     "status": "active"
   },
