@@ -16215,20 +16215,26 @@
   },
   "danshgah-soti-chkidh-mandgar": {
     "avg_gap_days": 6.0,
-    "avg_length": 45,
-    "episodes": 28,
-    "eps_365": 28,
-    "eps_90": 12,
+    "avg_length": 46,
+    "episodes": 29,
+    "eps_365": 29,
+    "eps_90": 13,
     "first_at": "2026-06-10",
     "first_year": 1405,
-    "last": "1405/08/27",
-    "last_at": "2026-11-18T12:45:14Z",
-    "last_link": "https://omny.fm/shows/abstract/a4bb7cb5-69fd-4349-9724-b50600cef24e",
-    "last_title": "خلاصه صوتی کتاب نظام سیاسی آمریکا به زبان ساده، در ۷۵ دقیقه",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T17:57:29Z",
+    "last_link": "https://omny.fm/shows/abstract/e8d164bc-3343-4f70-91c2-b50d012552b6",
+    "last_title": "خلاصه صوتی کتاب گریز از آزادی، اریک فروم، در ۵۵ دقیقه",
     "max_length": 75,
     "median_length": 47,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://traffic.omny.fm/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/e8d164bc-3343-4f70-91c2-b50d012552b6/audio.mp3?utm_source=Podcast&in_playlist=9a743b9b-23ff-4f61-a709-b465007e39d7",
+        "at": "2026-11-25T17:57:29Z",
+        "i": "https://www.omnycontent.com/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/e8d164bc-3343-4f70-91c2-b50d012552b6/image.jpg?t=1795628880&size=Large",
+        "t": "خلاصه صوتی کتاب گریز از آزادی، اریک فروم، در ۵۵ دقیقه"
+      },
       {
         "a": "https://traffic.omny.fm/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/a4bb7cb5-69fd-4349-9724-b50600cef24e/audio.mp3?utm_source=Podcast&in_playlist=9a743b9b-23ff-4f61-a709-b465007e39d7",
         "at": "2026-11-18T12:45:14Z",
@@ -16270,15 +16276,15 @@
         "at": "2026-09-30T19:27:22Z",
         "i": "https://www.omnycontent.com/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/348fe7eb-eea2-4574-aa97-b4d5013d8fc9/image.jpg?t=1790795775&size=Large",
         "t": "خلاصه کتاب اسلحه میکروب فولاد، نوشته: جرد دایموند"
-      },
-      {
-        "a": "https://traffic.omny.fm/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/ca9018df-0a64-428a-9a7f-b4d1015895bc/audio.mp3?utm_source=Podcast&in_playlist=9a743b9b-23ff-4f61-a709-b465007e39d7",
-        "at": "2026-09-26T21:02:07Z",
-        "i": "https://www.omnycontent.com/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/ca9018df-0a64-428a-9a7f-b4d1015895bc/image.jpg?t=1790456079&size=Large",
-        "t": "چهار ستون لرزان پادکستها در ایران"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T17:57:29Z",
+        "i": "https://www.omnycontent.com/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/e8d164bc-3343-4f70-91c2-b50d012552b6/image.jpg?t=1795628880&size=Large",
+        "link": "https://omny.fm/shows/abstract/e8d164bc-3343-4f70-91c2-b50d012552b6",
+        "title": "خلاصه صوتی کتاب گریز از آزادی، اریک فروم، در ۵۵ دقیقه"
+      },
       {
         "at": "2026-11-18T12:45:14Z",
         "i": "https://www.omnycontent.com/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/a4bb7cb5-69fd-4349-9724-b50600cef24e/image.jpg?t=1795005211&size=Large",
@@ -16290,12 +16296,6 @@
         "i": "https://www.omnycontent.com/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/ccf15e51-bddb-4fb6-9f7c-b4ff00b2f563/image.jpg?t=1794394298&size=Large",
         "link": "https://omny.fm/shows/abstract/ccf15e51-bddb-4fb6-9f7c-b4ff00b2f563",
         "title": "خلاصه کتاب فراجامعه، نوشته پیتر تورچین در ۶۳ دقیقه"
-      },
-      {
-        "at": "2026-10-29T18:47:25Z",
-        "i": "https://www.omnycontent.com/d/clips/05c002e0-37f2-42b5-a34d-b38c00523ad5/3b076643-27b2-484a-bf6b-b465007e35f5/b6e019f9-fcd1-42d8-a7af-b4f20131aec9/image.jpg?t=1793298780&size=Large",
-        "link": "https://omny.fm/shows/abstract/b6e019f9-fcd1-42d8-a7af-b4f20131aec9",
-        "title": "خلاصه کتاب راه بردگی، فردریش هایک در ۵۶ دقیقه"
       }
     ],
     "recent_30d": [
@@ -16310,7 +16310,7 @@
       4,
       4,
       5,
-      3
+      4
     ],
     "status": "active"
   },
@@ -41135,19 +41135,25 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 22,
-    "episodes": 679,
-    "eps_365": 626,
-    "eps_90": 187,
+    "episodes": 680,
+    "eps_365": 627,
+    "eps_90": 188,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/09/04",
-    "last_at": "2026-11-25T17:20:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6b0691b2d9269d9a22027d40",
-    "last_title": "من و تو، دوباره و دوباره - بخش اول",
+    "last_at": "2026-11-25T17:52:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6b069307ea5e837f8fd7aac3",
+    "last_title": "من و تو، دوباره و دوباره - بخش دوم",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6b069307ea5e837f8fd7aac3/media.mp3",
+        "at": "2026-11-25T17:52:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795592921495-c1723f8d-f181-4977-8dfe-db83e4764687.jpeg",
+        "t": "من و تو، دوباره و دوباره - بخش دوم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6b0691b2d9269d9a22027d40/media.mp3",
         "at": "2026-11-25T17:20:00Z",
@@ -41189,15 +41195,15 @@
         "at": "2026-11-20T16:41:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794995207070-82b2a27a-14d2-451a-ac44-106da502443b.jpeg",
         "t": "جزیره مرگ - بخش سی و نهم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6afd7559990afed4ab885b50/media.mp3",
-        "at": "2026-11-20T16:41:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1794995207070-82b2a27a-14d2-451a-ac44-106da502443b.jpeg",
-        "t": "جزیره مرگ - بخش سی و نهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T17:52:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795592921495-c1723f8d-f181-4977-8dfe-db83e4764687.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6b069307ea5e837f8fd7aac3",
+        "title": "من و تو، دوباره و دوباره - بخش دوم"
+      },
       {
         "at": "2026-11-25T17:20:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795592561984-1961353c-af3c-4acf-8573-f6d78c26e65e.jpeg",
@@ -41209,12 +41215,6 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795592222984-eeead0e0-c759-4cfe-80f9-d84c7e487ab7.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6b06912f8e063f5b5100780f",
         "title": "معرفی کتاب جدید - من و تو، دوباره و دوباره"
-      },
-      {
-        "at": "2026-11-21T16:43:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795003421622-f57b96f5-ed06-4668-8376-40ed0b0b0bcc.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6afd94bf813f9c9b5c493b04",
-        "title": "جزیره مرگ - بخش چهل و سوم - پایان"
       }
     ],
     "recent_30d": [
@@ -41229,7 +41229,7 @@
       52,
       63,
       55,
-      69
+      70
     ],
     "status": "active"
   },
@@ -44215,8 +44215,8 @@
       0,
       0,
       0,
-      14,
-      37,
+      15,
+      36,
       0,
       0,
       0,
