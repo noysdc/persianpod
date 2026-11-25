@@ -33762,21 +33762,27 @@
     "status": "stopped"
   },
   "iran-nameh": {
-    "avg_gap_days": 1.0,
-    "avg_length": 24,
-    "episodes": 5,
-    "eps_365": 5,
-    "eps_90": 5,
+    "avg_gap_days": 1.4,
+    "avg_length": 25,
+    "episodes": 6,
+    "eps_365": 6,
+    "eps_90": 6,
     "first_at": "2026-11-17",
     "first_year": 1405,
-    "last": "1405/09/01",
-    "last_at": "2026-11-22T07:46:53Z",
-    "last_link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/6c671879-cad7-49f1-b84c-c07c263d8e94/play.mp3?v=1",
-    "last_title": "تمدن گمشده ارته | قسمت پنجم ایران نامه",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T08:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/play.mp3?v=1",
+    "last_title": "اسرار جشن آذرگان دروازه‌ای میان دو جهان | قسمت ششم ایران نامه",
     "max_length": 42,
-    "median_length": 19,
+    "median_length": 23,
     "min_length": 15,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/play.mp3?v=1",
+        "at": "2026-11-25T08:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/artwork.jpg?v=1",
+        "t": "اسرار جشن آذرگان دروازه‌ای میان دو جهان | قسمت ششم ایران نامه"
+      },
       {
         "a": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/6c671879-cad7-49f1-b84c-c07c263d8e94/play.mp3?v=1",
         "at": "2026-11-22T07:46:53Z",
@@ -33810,6 +33816,12 @@
     ],
     "recent": [
       {
+        "at": "2026-11-25T08:30:00Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/play.mp3?v=1",
+        "title": "اسرار جشن آذرگان دروازه‌ای میان دو جهان | قسمت ششم ایران نامه"
+      },
+      {
         "at": "2026-11-22T07:46:53Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/6c671879-cad7-49f1-b84c-c07c263d8e94/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/6c671879-cad7-49f1-b84c-c07c263d8e94/play.mp3?v=1",
@@ -33820,12 +33832,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/3254b368-347d-4bc1-b11f-0981e5480d32/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/3254b368-347d-4bc1-b11f-0981e5480d32/play.mp3?v=1",
         "title": "پیشگویی اوستا از آخرالزمان | قسمت چهارم ایران نامه"
-      },
-      {
-        "at": "2026-11-19T18:56:14Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/7d4bec43-e204-4037-88c9-1dd4917a1f7e/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/7d4bec43-e204-4037-88c9-1dd4917a1f7e/play.mp3?v=1",
-        "title": "بومیان ایران پیش از آریایی‌ها | قسمت  سوم  پادکست ایران نامه"
       }
     ],
     "recent_30d": [
@@ -33840,7 +33846,7 @@
       0,
       0,
       0,
-      5
+      6
     ],
     "status": "active"
   },
@@ -38181,7 +38187,7 @@
     "avg_length": 32,
     "episodes": 50,
     "eps_365": 26,
-    "eps_90": 15,
+    "eps_90": 14,
     "first_at": "2025-05-26",
     "first_year": 1404,
     "last": "1405/08/29",
@@ -38259,8 +38265,8 @@
       0,
       0,
       2,
-      4,
       5,
+      4,
       4,
       6
     ],
@@ -97688,8 +97694,8 @@
     "recent_30d": [
       25,
       11,
-      39,
-      1,
+      40,
+      0,
       2,
       15,
       8,
