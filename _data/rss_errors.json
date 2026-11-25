@@ -40,7 +40,7 @@
     "rss": "https://stringcast.ir/feed/podcast/stringcast/"
   },
   "awr-farsi": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 113] No route to host>",
     "rss": "https://podcasts.awr.org/xml/xmliTunes/FASBE_ROH.xml"
   },
   "baehsan": {
@@ -54,6 +54,10 @@
   "bazariabi-ba-hmid-sbaghi": {
     "error": "ValueError: no items in feed",
     "rss": "https://rss.castbox.fm/everest/08e76cc25e4849cfb964b07b784572cb.xml"
+  },
+  "bit-baigani": {
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://textmaker.ir/category/beat/feed/"
   },
   "bookafe-bokafh": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -155,6 +159,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/ilka/feed/"
   },
+  "podcast-dats": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmirr88fetztwmiq39efe"
+  },
   "podcast-farsi-mscht": {
     "error": "ValueError: no items in feed",
     "rss": "https://feeds.acast.com/public/shows/6722758777f0e7cbfba1f7a2"
@@ -196,7 +204,7 @@
     "rss": "http://hezaryekshab.ir/Files/rss-feed.xml"
   },
   "radio-jhani-adontist": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 113] No route to host>",
     "rss": "https://podcasts.awr.org/xml/xmliTunes/FASCO_AWR.xml"
   },
   "radio-mfid": {
