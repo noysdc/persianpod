@@ -11,6 +11,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
   },
+  "aamozsh-mjazi-zban-anglisi": {
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "rss": "https://elearne.com/notes/feed"
+  },
   "aamozsh-zban-anglisi-talk-stop": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
@@ -19,25 +23,13 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
   },
-  "akhbar-bit-ion": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "http://rss.castbox.fm/everest/f2e83c15a7b744a188895b6e6ea19a39.xml"
-  },
   "akhbar-o-mghalat": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://golbargmehr.com/category/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1-%D9%88-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/feed/"
   },
-  "amozsh-zban-aspaniaii-mina-khoshian": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.castbox.fm/everest/b3f981dfd0434eada66815ff94cc6e3c.xml"
-  },
   "archgap-padkst-mamari-aark-gp": {
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
-  },
-  "ashgh-iktrfh": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.castbox.fm/everest/aae4b4b23ea34a96b6ec6ef11ea13ca8.xml"
   },
   "ashgh-ziba": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -46,18 +38,6 @@
   "astring-kst": {
     "error": "RuntimeError: TimeoutError: The read operation timed out",
     "rss": "https://stringcast.ir/feed/podcast/stringcast/"
-  },
-  "avayesher-shar-o-dklmh-aaoai-shar": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.castbox.fm/everest/b571f609a8804ffaadb504c66c181d71.xml"
-  },
-  "az-amroz": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "http://rss.castbox.fm/everest/893e23838e124897ae1652fcd7441c7c.xml"
-  },
-  "azt-nfs": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.castbox.fm/everest/a3e39412052849778c11798eb0652a60.xml"
   },
   "baehsan": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
@@ -159,10 +139,6 @@
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
   },
-  "nsht-nsha-khoansh": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.castbox.fm/everest/b00d988afd2741b880c2c72c2499085e.xml"
-  },
   "nt-piano": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://feeds.feedburner.com/poiu/bJJk"
@@ -262,10 +238,6 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
-  },
-  "shar-o-ghsh-khoani": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
-    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "sot-o-film": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
