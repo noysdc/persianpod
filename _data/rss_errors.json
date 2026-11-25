@@ -95,10 +95,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://media.rss.com/hirbod/feed.xml"
   },
-  "green-gate-drichh-sbz": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://radioiranshahr.org/feed/podcast?name=psychology"
-  },
   "hnr-jng": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://namlik.me/rss/318"
