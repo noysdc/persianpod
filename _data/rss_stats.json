@@ -3507,25 +3507,19 @@
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.7,
     "avg_length": 6,
-    "episodes": 36,
-    "eps_365": 36,
-    "eps_90": 27,
+    "episodes": 35,
+    "eps_365": 35,
+    "eps_90": 26,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/09/04",
-    "last_at": "2026-11-25T15:14:27Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3t0rk1",
-    "last_title": "کلیله‌ودمنه کودکانه | قسمت پانزدهم | بوم و زاغ (۳)",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T16:20:25Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3spj2l",
+    "last_title": "شاهنامه کودکانه | قسمت سیزدهم | تولد رستم",
     "max_length": 11,
     "median_length": 6,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/130100289/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-25%2F56580714-628c-7e0e-d844-36c0e1210300.mp3",
-        "at": "2026-11-25T15:14:27Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795619674988-1d255c68811c6.jpg",
-        "t": "کلیله‌ودمنه کودکانه | قسمت پانزدهم | بوم و زاغ (۳)"
-      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/129862165/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F2468c241-f00e-9968-12aa-420ffba90c31.mp3",
         "at": "2026-11-21T16:20:25Z",
@@ -3567,15 +3561,15 @@
         "at": "2026-11-01T19:05:07Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793559915422-eb9a246b41b18.jpg",
         "t": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت"
+      },
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/128422725/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-30%2F52401b3b-f9bb-4324-c291-fdcac89fd08a.mp3",
+        "at": "2026-10-30T12:49:40Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793364589985-916c09dd464d3.jpg",
+        "t": "کلیله و دمنه کودکانه | قسمت یازدهم | دوست تازه، کلاغ باهوش(۳)"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-25T15:14:27Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795619674988-1d255c68811c6.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3t0rk1",
-        "title": "کلیله‌ودمنه کودکانه | قسمت پانزدهم | بوم و زاغ (۳)"
-      },
       {
         "at": "2026-11-21T16:20:25Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795278033095-9398b599715b8.jpg",
@@ -3587,6 +3581,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794830871271-16946b5ebe26d.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3sfo9m",
         "title": "کلیله و دمنه کودکانه | قسمت چهاردهم | بوم و زاغ (۲)"
+      },
+      {
+        "at": "2026-11-14T17:47:20Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794679069038-3d0036a762cab.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3scjo4",
+        "title": "شاهنامه کودکانه | قسمت دوازدهم | زال و رودابه"
       }
     ],
     "recent_30d": [
@@ -3601,7 +3601,7 @@
       9,
       10,
       7,
-      10
+      9
     ],
     "status": "active"
   },
@@ -32692,8 +32692,8 @@
       }
     ],
     "recent_30d": [
-      10,
-      4,
+      11,
+      3,
       9,
       0,
       0,
@@ -33771,14 +33771,14 @@
     "first_year": 1405,
     "last": "1405/09/04",
     "last_at": "2026-11-25T08:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/play.mp3?v=2",
+    "last_link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/play.mp3?v=3",
     "last_title": "اسرار جشن آذرگان دروازه‌ای میان دو جهان | قسمت ششم ایران نامه",
     "max_length": 42,
     "median_length": 23,
     "min_length": 15,
     "play": [
       {
-        "a": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/play.mp3?v=2",
+        "a": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/play.mp3?v=3",
         "at": "2026-11-25T08:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/artwork.jpg?v=1",
         "t": "اسرار جشن آذرگان دروازه‌ای میان دو جهان | قسمت ششم ایران نامه"
@@ -33818,7 +33818,7 @@
       {
         "at": "2026-11-25T08:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/play.mp3?v=2",
+        "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/play.mp3?v=3",
         "title": "اسرار جشن آذرگان دروازه‌ای میان دو جهان | قسمت ششم ایران نامه"
       },
       {
@@ -50389,8 +50389,8 @@
       0,
       0,
       6,
-      13,
-      17,
+      14,
+      16,
       19,
       1,
       32,
@@ -89552,13 +89552,13 @@
         "a": "https://sphinx.acast.com/p/open/s/628e5d6928045e0012b17009/e/6ae32ccad925811fc2b9f504/media.mp3",
         "at": "2026-11-15T03:30:00Z",
         "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1794665018280-f6609c70-79c4-4f07-b1cc-6fbba230a478.jpeg",
-        "t": "مردی که میخواست پارلمان را منفجر کند؛ برج لندن(2)"
+        "t": "(2) توطئه انفجار پارلمان در برج لندن"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/628e5d6928045e0012b17009/e/6ae329ded925811fc2b940b1/media.mp3",
         "at": "2026-11-05T03:30:00Z",
         "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1794668521196-2a4684c1-90bd-4e45-ba0a-f1c60e28c673.jpeg",
-        "t": "برجی برای اعدام | برج لندن (1)"
+        "t": "برج لندن ؛ قلعه‌ای برای اعدام (1)"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/628e5d6928045e0012b17009/e/6ad71988819a15003cb6a531/media.mp3",
@@ -89602,13 +89602,13 @@
         "at": "2026-11-15T03:30:00Z",
         "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1794665018280-f6609c70-79c4-4f07-b1cc-6fbba230a478.jpeg",
         "link": "https://shows.acast.com/travelcast/episodes/tower-of-london-part-2-guy-fawkes-gunpowder-plot",
-        "title": "مردی که میخواست پارلمان را منفجر کند؛ برج لندن(2)"
+        "title": "(2) توطئه انفجار پارلمان در برج لندن"
       },
       {
         "at": "2026-11-05T03:30:00Z",
         "i": "https://assets.pippa.io/shows/628e5d6928045e0012b17009/1794668521196-2a4684c1-90bd-4e45-ba0a-f1c60e28c673.jpeg",
         "link": "https://shows.acast.com/travelcast/episodes/tower-of-london-part-1",
-        "title": "برجی برای اعدام | برج لندن (1)"
+        "title": "برج لندن ؛ قلعه‌ای برای اعدام (1)"
       }
     ],
     "recent_30d": [
@@ -96193,8 +96193,8 @@
       0,
       0,
       2,
-      4,
       5,
+      4,
       4,
       4,
       5
