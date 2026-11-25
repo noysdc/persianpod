@@ -24895,21 +24895,27 @@
     "status": "active"
   },
   "frmol-1-farsi": {
-    "avg_gap_days": 12.3,
-    "avg_length": 42,
-    "episodes": 126,
-    "eps_365": 30,
-    "eps_90": 15,
+    "avg_gap_days": 12.0,
+    "avg_length": 43,
+    "episodes": 127,
+    "eps_365": 31,
+    "eps_90": 16,
     "first_at": "2022-04-04",
     "first_year": 1401,
-    "last": "1405/08/30",
-    "last_at": "2026-11-21T17:35:00Z",
-    "last_link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/cygctmf9u9l6",
-    "last_title": "لاس‌وگاس ۲۰۲۶؛ پول پوزیشن کیمی در شهر قمار! 🎰🏁",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T07:03:00Z",
+    "last_link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/1isomeccuhdi",
+    "last_title": "🎰🏁 لاس‌وگاس ۲۰۲۶؛ مکس برد، مرسدس باخت!",
     "max_length": 77,
     "median_length": 36,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/1125.mp3?dest-id=3386261",
+        "at": "2026-11-25T07:03:00Z",
+        "i": "https://static.libsyn.com/p/assets/d/7/c/e/d7ce151f1471461da04421dee9605cbd/Vegas_F1_Drama__McLaren_Mercedes_Ferrarisealed.png",
+        "t": "🎰🏁 لاس‌وگاس ۲۰۲۶؛ مکس برد، مرسدس باخت!"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/Audio-Nov20.mp3?dest-id=3386261",
         "at": "2026-11-21T17:35:00Z",
@@ -24951,15 +24957,15 @@
         "at": "2026-10-25T18:25:00Z",
         "i": "https://static.libsyn.com/p/assets/f/f/5/4/ff542ee1870286e5a04421dee9605cbd/Austin__Formula_One_Without_a_Driver_.png",
         "t": "🤖 فرمول یک بدون راننده؟! | ماشین‌های خودران F1  و بررسی تمرین‌ها و کوالیفایینگ آستین ۲۰۲۶ با حسام 🇺🇸"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d/Audio.mp3?dest-id=3386261",
-        "at": "2026-10-14T04:04:00Z",
-        "i": "https://static.libsyn.com/p/assets/9/3/6/f/936fa81f171c90ec5f2e77a3093c12a1/Singapore_GP__Ferraris_Night_of_Defeat.png",
-        "t": "🇸🇬🏁 سنگاپور؛ فراری باز هم خودش را شکست داد؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T07:03:00Z",
+        "i": "https://static.libsyn.com/p/assets/d/7/c/e/d7ce151f1471461da04421dee9605cbd/Vegas_F1_Drama__McLaren_Mercedes_Ferrarisealed.png",
+        "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/1isomeccuhdi",
+        "title": "🎰🏁 لاس‌وگاس ۲۰۲۶؛ مکس برد، مرسدس باخت!"
+      },
       {
         "at": "2026-11-21T17:35:00Z",
         "i": "https://static.libsyn.com/p/assets/8/1/a/e/81ae883702caf2415f2e77a3093c12a1/____-20261121-lwlju99d0k.png",
@@ -24971,12 +24977,6 @@
         "i": "https://static.libsyn.com/p/assets/2/6/3/8/263872f8bf5c15e7a04421dee9605cbd/Brazil_2026__Norris_Takes_Charge.png",
         "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/nwgcl40hahv6",
         "title": "🇧🇷🏁 برزیل ۲۰۲۶؛ قدرت‌نمایی نوریس، جنجال دستور تیمی ردبول! 🔥"
-      },
-      {
-        "at": "2026-11-08T08:19:00Z",
-        "i": "https://static.libsyn.com/p/assets/3/7/f/1/37f1a8626fc6e16da04421dee9605cbd/Rainy_Brazilian_Grand_Prix_2026_Preview.png",
-        "link": "https://4f3c0e32-6b3d-40ab-b6ee-86c1c93fb19d.libsyn.com/94yx06el49o1",
-        "title": "🇧🇷🏁 برزیل ۲۰۲۶؛ باران همه‌چیز رو به هم می‌ریزه؟! 🌧️🔥"
       }
     ],
     "recent_30d": [
@@ -24991,7 +24991,7 @@
       2,
       3,
       6,
-      6
+      7
     ],
     "status": "active"
   },
@@ -89719,8 +89719,8 @@
       38,
       18,
       18,
-      23,
-      24
+      24,
+      23
     ],
     "status": "active"
   },
