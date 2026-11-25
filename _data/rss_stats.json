@@ -22433,8 +22433,8 @@
       0,
       0,
       5,
-      4,
-      4,
+      5,
+      3,
       4,
       3,
       2
@@ -61137,19 +61137,25 @@
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.8,
     "avg_length": 13,
-    "episodes": 54,
-    "eps_365": 54,
-    "eps_90": 54,
+    "episodes": 55,
+    "eps_365": 55,
+    "eps_90": 55,
     "first_at": "2026-10-10",
     "first_year": 1405,
     "last": "1405/09/04",
-    "last_at": "2026-11-25T06:31:00Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6b050be7062dc4efc0f58dbc",
-    "last_title": "Toyota #1 | داستان تویوتا؛ بزرگ‌ترین خودروساز جهان؛ میراث ماشین بافندگی",
+    "last_at": "2026-11-25T11:30:00Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6b050d88a1933fc906a12b9c",
+    "last_title": "Toyota #2 | (1890 - 1930) داستان تویوتا؛ از کارگاه بافندگی تا رویای ساخت خودرو",
     "max_length": 115,
-    "median_length": 18,
+    "median_length": 17,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b050d88a1933fc906a12b9c/media.mp3",
+        "at": "2026-11-25T11:30:00Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795493066248-e2854cf0-1f16-4e98-848c-ed69fcef716c.jpeg",
+        "t": "Toyota #2 | (1890 - 1930) داستان تویوتا؛ از کارگاه بافندگی تا رویای ساخت خودرو"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b050be7062dc4efc0f58dbc/media.mp3",
         "at": "2026-11-25T06:31:00Z",
@@ -61191,15 +61197,15 @@
         "at": "2026-11-21T15:26:18Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795274442898-e5666efa-5a5c-4af8-9dfa-46aa1b2651ec.jpeg",
         "t": "Disney #10 | (1922 - 1928) داستان دیزنی؛ شش سال آزمون و خطا"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b016fa44f7f96174df2bb11/media.mp3",
-        "at": "2026-11-21T10:17:08Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795256183966-a315dd78-e174-464b-9281-59aa175908bd.jpeg",
-        "t": "Disney #9 | چرا دیزنی با هفت میلیارد دلار استودیو پیکسار رو خرید؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T11:30:00Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795493066248-e2854cf0-1f16-4e98-848c-ed69fcef716c.jpeg",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6b050d88a1933fc906a12b9c",
+        "title": "Toyota #2 | (1890 - 1930) داستان تویوتا؛ از کارگاه بافندگی تا رویای ساخت خودرو"
+      },
       {
         "at": "2026-11-25T06:31:00Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795492597578-a415225b-66da-4a47-b488-e1a87d12bc4a.jpeg",
@@ -61211,12 +61217,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795492174819-b6d4c156-d4bd-4d51-a6dd-230d5a4f9367.jpeg",
         "link": "https://shows.acast.com/business-stories-podcast/episodes/6b050a966d7baea6e192c602",
         "title": "Toyota #0 | فصل چهارم پادکست بیزینس استوریز؛ تویوتا موتور"
-      },
-      {
-        "at": "2026-11-24T06:30:00Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795327233994-f51e2d17-5d7c-480c-8e8d-6d72dbd16f57.jpeg",
-        "link": "https://shows.acast.com/business-stories-podcast/episodes/6b02862ec2063ef630e19afa",
-        "title": "Disney #14 | (2005 - 2026) داستان دیزنی؛ قسمت آخر؛ صد سال سرگرمی"
       }
     ],
     "recent_30d": [
@@ -61231,7 +61231,7 @@
       0,
       0,
       23,
-      31
+      32
     ],
     "status": "active"
   },
