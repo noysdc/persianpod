@@ -176,7 +176,7 @@
     "rss": "https://derakht.radio/feed/podcast.xml"
   },
   "radio-ghjrtaim": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno 111] Connection refused>",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://qajartime.com/feed/podcast/radioqajartime/"
   },
   "radio-hzar-o-ik-shb": {
@@ -230,6 +230,10 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
+  },
+  "shar-o-ghsh-khoani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
+    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "sot-o-film": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
