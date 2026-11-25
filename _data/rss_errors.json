@@ -231,10 +231,6 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
   },
-  "shar-o-ghsh-khoani": {
-    "error": "ParseError: syntax error: line 1, column 0",
-    "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
-  },
   "sot-o-film": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://mousanajafi.ir/category/%D8%B5%D9%88%D8%AA-%D9%88-%D9%81%DB%8C%D9%84%D9%85/feed/"
