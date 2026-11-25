@@ -11739,26 +11739,21 @@
     "status": "active"
   },
   "bil-bord": {
-    "avg_gap_days": 1.9,
+    "avg_gap_days": 1.3,
     "avg_length": 17,
-    "episodes": 12,
-    "eps_365": 12,
-    "eps_90": 12,
+    "episodes": 11,
+    "eps_365": 11,
+    "eps_90": 11,
     "first_at": "2026-11-04",
     "first_year": 1405,
-    "last": "1405/09/04",
-    "last_at": "2026-11-25T19:30:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/semicolon-marketing2/episodes/ep-e3t19vu",
-    "last_title": "مهلت وام سیبا تا ۳۱ دسامبر، سایت مجانی اوبر ایتس برای رستوران‌ها و صفحه‌ی «زود برمی‌گردیم» در بلک فرایدی | قسمت ۱۳",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T12:20:16Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/semicolon-marketing2/episodes/Copilot-e3shvq2",
+    "last_title": "۸۳ درصد کانادایی‌ها محلی می‌خرند، بزرگ‌ترین آپگرید سرچ گوگل و فروشگاه شما در Copilot | قسمت ۱۲",
     "max_length": 27,
-    "median_length": 16,
+    "median_length": 15,
     "min_length": 12,
     "play": [
-      {
-        "a": "https://anchor.fm/s/119a84750/podcast/play/130115006/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-25%2Feb199ea6-9fa9-4096-5a3b-cc8a671b743f.mp3",
-        "at": "2026-11-25T19:30:00Z",
-        "t": "مهلت وام سیبا تا ۳۱ دسامبر، سایت مجانی اوبر ایتس برای رستوران‌ها و صفحه‌ی «زود برمی‌گردیم» در بلک فرایدی | قسمت ۱۳"
-      },
       {
         "a": "https://anchor.fm/s/119a84750/podcast/play/129613058/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F7b5bcbb6-7d69-f0d1-ba98-76991f31cd84.mp3",
         "at": "2026-11-17T12:20:16Z",
@@ -11793,14 +11788,14 @@
         "a": "https://anchor.fm/s/119a84750/podcast/play/128784424/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F575c9633-6519-fa64-5d10-c7b370542ff1.mp3",
         "at": "2026-11-04T18:59:00Z",
         "t": "خرید آخر سال کانادا، تأیید پروفایل گوگل با کارت شناسایی و خطر کپی‌رایت عکس در گوگل ادز | قسمت ۵"
+      },
+      {
+        "a": "https://anchor.fm/s/119a84750/podcast/play/128784389/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F0d548fef-0350-1035-e078-5e87e619f75e.mp3",
+        "at": "2026-11-04T18:58:00Z",
+        "t": "۱۰ خبر مهم: متا تبلیغ به تیک‌تاک را بست، سبد خرید تازه‌ی گوگل، Ask YouTube و خرید آخر سال کانادا | قسمت ۴"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-25T19:30:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/semicolon-marketing2/episodes/ep-e3t19vu",
-        "title": "مهلت وام سیبا تا ۳۱ دسامبر، سایت مجانی اوبر ایتس برای رستوران‌ها و صفحه‌ی «زود برمی‌گردیم» در بلک فرایدی | قسمت ۱۳"
-      },
       {
         "at": "2026-11-17T12:20:16Z",
         "link": "https://podcasters.spotify.com/pod/show/semicolon-marketing2/episodes/Copilot-e3shvq2",
@@ -11810,6 +11805,11 @@
         "at": "2026-11-14T08:05:48Z",
         "link": "https://podcasters.spotify.com/pod/show/semicolon-marketing2/episodes/Business-Hub--ChatGPT-e3sc2g2",
         "title": "آپدیت گوگل درست قبل از بلک فرایدی، هزینه‌ی ۶۹۹ دلاری کارت‌خوان و Business Hub در ChatGPT | قسمت ۱۱"
+      },
+      {
+        "at": "2026-11-11T17:24:03Z",
+        "link": "https://podcasters.spotify.com/pod/show/semicolon-marketing2/episodes/ep-e3s7hr0",
+        "title": "بودجه‌ی کانادا برای بیزینس‌های کوچک، تخفیفی که گوگل به اسم شما نشان می‌دهد و هوش مصنوعی که بیزینس محلی را انتخاب می‌کند | قسمت ۱۰"
       }
     ],
     "recent_30d": [
@@ -11824,7 +11824,7 @@
       0,
       0,
       0,
-      12
+      11
     ],
     "status": "active"
   },
@@ -95535,7 +95535,7 @@
     "avg_gap_days": 0.5,
     "avg_length": 10,
     "episodes": 4291,
-    "eps_365": 773,
+    "eps_365": 772,
     "eps_90": 240,
     "first_at": "2023-09-13",
     "first_year": 1402,
