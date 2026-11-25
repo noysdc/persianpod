@@ -49211,19 +49211,25 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 1007,
-    "eps_365": 326,
-    "eps_90": 79,
+    "episodes": 1008,
+    "eps_365": 327,
+    "eps_90": 80,
     "first_at": "2023-11-21",
     "first_year": 1402,
-    "last": "1405/09/03",
-    "last_at": "2026-11-24T04:40:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/possibility-of-the-labor-party-recording-its-worst-ever-result-in-victorias-history/qcdk20bzr",
-    "last_title": "احتمال ثبت بدترین نتیجه انتخاباتی حزب کارگر در تاریخ ویکتوریا",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T04:06:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/inflation-rises-again-ahead-of-the-reserve-banks-next-interest-rate-decision/p6vkhavcl",
+    "last_title": "افزایش دوباره نرخ تورم در آستانه تصمیم بعدی بانک مرکزی استرالیا درباره نرخ بهره",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261125150635_882436-persian-251126-fn.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a2-10ce-d47b-a5e7-7dfee3850000&dur_cat=2",
+        "at": "2026-11-25T04:06:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261125150953_306763-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "t": "افزایش دوباره نرخ تورم در آستانه تصمیم بعدی بانک مرکزی استرالیا درباره نرخ بهره"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261124154051_658944-persian-83403bdb-0bc3-4053-a4b8-059438c7ae65.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a2-0bd6-d47b-a5e7-7ff6d9ec0000&dur_cat=3",
         "at": "2026-11-24T04:40:00Z",
@@ -49265,15 +49271,15 @@
         "at": "2026-11-17T01:13:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261117121319_965726-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "t": "تغییر در ویزاهای کوله‌گردی؛ کارگران بیشتری به مناطق روستایی استرالیا می‌روند"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261116134140_606669-persian-161126-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-e22c-de51-affb-ff7c8a920000&dur_cat=2",
-        "at": "2026-11-16T02:41:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261116134214_507350-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "t": "دیدار تاریخی ترامپ، شی و پوتین در اپک؛ از نگرانی‌های اقلیمی تا حمله سایبری به کولز"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T04:06:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261125150953_306763-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/inflation-rises-again-ahead-of-the-reserve-banks-next-interest-rate-decision/p6vkhavcl",
+        "title": "افزایش دوباره نرخ تورم در آستانه تصمیم بعدی بانک مرکزی استرالیا درباره نرخ بهره"
+      },
       {
         "at": "2026-11-24T04:40:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261124154144_930396-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
@@ -49285,12 +49291,6 @@
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261124135925_532325-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/nvidia-news-sparks-wall-street-rally/06xhxwczw",
         "title": "خبرهای انویدیا باعث جهش شاخص‌های بورس وال‌استریت شد"
-      },
-      {
-        "at": "2026-11-23T02:44:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261123134439_921086-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/pressure-on-anthony-albaneses-government-in-the-last-week-of-parliamentary-work/u85ie9jra",
-        "title": "فشار بر دولت آنتونی آلبانیزی در آخرین هفته کاری پارلمان"
       }
     ],
     "recent_30d": [
@@ -49305,7 +49305,7 @@
       29,
       24,
       28,
-      27
+      28
     ],
     "status": "active"
   },
