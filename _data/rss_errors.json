@@ -8,7 +8,7 @@
     "rss": "https://tehranpodcast.ir/category/deutschcast/feed/"
   },
   "aamozsh-blak-chin-o-kripto-ha": {
-    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
   },
   "aamozsh-zban-anglisi-talk-stop": {
@@ -50,10 +50,6 @@
   "bookafe-bokafh": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/saharnik1981/feed.xml"
-  },
-  "danlod-raigan-ktab-soti-panth-aa": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://panteashop.ir/feed/"
   },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
