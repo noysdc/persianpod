@@ -43,10 +43,6 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
-  "baigani-ha-padkst-mhndsi-snaia": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://iien.ir/category/podcast/feed/"
-  },
   "baigani-ha-sda": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://musiceiranian.ir/type/audio/feed"
@@ -58,10 +54,6 @@
   "bookafe-bokafh": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/saharnik1981/feed.xml"
-  },
-  "danlod-raigan-ktab-soti-panth-aa": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://panteashop.ir/feed/"
   },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
@@ -134,10 +126,6 @@
   "ktab-soti-msyolit-o-sazndgi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://bonyantakvin.ir/feed/podcast/sazandegi/"
-  },
-  "lzt-dniai-ktab": {
-    "error": "RuntimeError: HTTP 502 (Bad Gateway) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://feed.podkadeh.cloud/podcastxml/lezate-donyaye-ketab.xml"
   },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -230,10 +218,6 @@
   "radioni": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/ney/feed/"
-  },
-  "rikaori": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
-    "rss": "https://feed.podkadeh.cloud/podcastxml/Recovery.xml"
   },
   "roait-ahd": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",

@@ -54402,21 +54402,27 @@
     "status": "stopped"
   },
   "nghshh-rah-mdirit": {
-    "avg_gap_days": 25.6,
+    "avg_gap_days": 29.4,
     "avg_length": 33,
-    "episodes": 20,
-    "eps_365": 10,
-    "eps_90": 1,
+    "episodes": 21,
+    "eps_365": 11,
+    "eps_90": 2,
     "first_at": "2025-03-28",
     "first_year": 1404,
-    "last": "1405/06/31",
-    "last_at": "2026-09-22T09:32:19Z",
-    "last_link": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/c0/2c/b6/112137469a929c1294d585a5ce.mp3",
-    "last_title": "Evolving Structures | ساختارهای در حال تحول",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T05:00:00Z",
+    "last_link": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/90/6f/51/f33d8b40829c3f45ce32a7232b.mp3",
+    "last_title": "Building Support | جلب پشتیبانی",
     "max_length": 59,
-    "median_length": 35,
+    "median_length": 34,
     "min_length": 16,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/90/6f/51/f33d8b40829c3f45ce32a7232b.mp3",
+        "at": "2026-11-25T05:00:00Z",
+        "i": "https://s3.castbox.fm/da/75/8f/6bf1c645d387fb3a94fc7d672b.jpg",
+        "t": "Building Support | جلب پشتیبانی"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/c0/2c/b6/112137469a929c1294d585a5ce.mp3",
         "at": "2026-09-22T09:32:19Z",
@@ -54458,15 +54464,15 @@
         "at": "2026-06-02T04:30:14Z",
         "i": "https://s3.castbox.fm/f6/0c/71/b047794d2b9aff614b273b6cf0.jpg",
         "t": "IT Management | مدیریت فناوری اطلاعات"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/91/dd/ad/00f2d74c78b1ac2cb1350a108b.mp3",
-        "at": "2026-05-17T09:55:57Z",
-        "i": "https://s3.castbox.fm/53/48/c8/cf898f4df187cf4b0964ad2de6.jpg",
-        "t": "Quality Management | مدیریت کیفیت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T05:00:00Z",
+        "i": "https://s3.castbox.fm/da/75/8f/6bf1c645d387fb3a94fc7d672b.jpg",
+        "link": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/90/6f/51/f33d8b40829c3f45ce32a7232b.mp3",
+        "title": "Building Support | جلب پشتیبانی"
+      },
       {
         "at": "2026-09-22T09:32:19Z",
         "i": "https://s3.castbox.fm/e8/66/78/a4589b4151a89ea7d1b7b1a1a9.jpg",
@@ -54478,12 +54484,6 @@
         "i": "https://s3.castbox.fm/c7/9a/bb/e3ae9d41c3bf25a77b2cf3200e.jpg",
         "link": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/c8/4b/12/7869ea4b738510053944842bf9.mp3",
         "title": "Types of Organizations | انواع سازمان"
-      },
-      {
-        "at": "2026-08-05T07:29:48Z",
-        "i": "https://s3.castbox.fm/35/a6/5d/1572ed46ffa4a2f7212d2bc404.jpg",
-        "link": "https://dts.podtrac.com/redirect.mp3/https://s3.castbox.fm/37/37/f1/caffcb4a9ca56dbcace31a906a.mp3",
-        "title": "Hidden Ledger | حساب پنهان"
       }
     ],
     "recent_30d": [
@@ -54498,7 +54498,7 @@
       2,
       1,
       0,
-      0
+      1
     ],
     "status": "active"
   },
@@ -61130,20 +61130,26 @@
   },
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.9,
-    "avg_length": 15,
-    "episodes": 52,
-    "eps_365": 52,
-    "eps_90": 52,
+    "avg_length": 14,
+    "episodes": 53,
+    "eps_365": 53,
+    "eps_90": 53,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/09/03",
-    "last_at": "2026-11-24T06:30:00Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6b02862ec2063ef630e19afa",
-    "last_title": "Disney #14 | (2005 - 2026) داستان دیزنی؛ قسمت آخر؛ صد سال سرگرمی",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T04:54:35Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6b050a966d7baea6e192c602",
+    "last_title": "Toyota #0 | فصل چهارم پادکست بیزینس استوریز؛ تویوتا",
     "max_length": 115,
     "median_length": 18,
-    "min_length": 4,
+    "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b050a966d7baea6e192c602/media.mp3",
+        "at": "2026-11-25T04:54:35Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795492174819-b6d4c156-d4bd-4d51-a6dd-230d5a4f9367.jpeg",
+        "t": "Toyota #0 | فصل چهارم پادکست بیزینس استوریز؛ تویوتا"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b02862ec2063ef630e19afa/media.mp3",
         "at": "2026-11-24T06:30:00Z",
@@ -61185,15 +61191,15 @@
         "at": "2026-11-20T05:28:59Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795152264666-c70b6fb5-58df-4c6d-89b6-04e33d1251ae.jpeg",
         "t": "Disney #8 | کمپین تبلیغاتی «میرم دیزنی‌ورلد» و بازاریابی لحظه‌ای دیزنی چطوری بود؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6afe8d0ef5fd2d631cc718dc/media.mp3",
-        "at": "2026-11-19T05:45:50Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795066977156-7485f5fd-c1fa-41c0-9a1b-0932016f0e0b.jpeg",
-        "t": "Disney #7 | داستان افتتاح پارک دیزنی‌لند و ساخت برنامه تلویزیونی دیزنی چی بود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T04:54:35Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795492174819-b6d4c156-d4bd-4d51-a6dd-230d5a4f9367.jpeg",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6b050a966d7baea6e192c602",
+        "title": "Toyota #0 | فصل چهارم پادکست بیزینس استوریز؛ تویوتا"
+      },
       {
         "at": "2026-11-24T06:30:00Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795327233994-f51e2d17-5d7c-480c-8e8d-6d72dbd16f57.jpeg",
@@ -61205,12 +61211,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795327022653-689b582a-9c37-42ee-986d-e5c53780fde5.jpeg",
         "link": "https://shows.acast.com/business-stories-podcast/episodes/6b0284eed0e980d0cf977b7a",
         "title": "Disney #13 | (1966 - 2005) داستان دیزنی؛ میراث والت‌؛ بحران، رنسانس، امپراتوری"
-      },
-      {
-        "at": "2026-11-22T14:30:00Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795326758279-c09bc763-974d-4c57-b9ca-041a90f5ecce.jpeg",
-        "link": "https://shows.acast.com/business-stories-podcast/episodes/6b0283f8d0e980d0cf9736cb",
-        "title": "Disney #12 | (1954 - 1966) داستان دیزنی؛ از دنیای قصه‌ها تا دنیای واقعی"
       }
     ],
     "recent_30d": [
@@ -61225,7 +61225,7 @@
       0,
       0,
       22,
-      30
+      31
     ],
     "status": "active"
   },
@@ -89523,10 +89523,10 @@
     "status": "active"
   },
   "sfri-dr-dl-tarikh": {
-    "avg_gap_days": 16.5,
+    "avg_gap_days": 16.9,
     "avg_length": 48,
     "episodes": 71,
-    "eps_365": 23,
+    "eps_365": 22,
     "eps_90": 8,
     "first_at": "2018-11-05",
     "first_year": 1397,
