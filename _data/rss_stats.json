@@ -33378,21 +33378,27 @@
     "status": "stopped"
   },
   "ilda-mhdoi-brnamh-hai-gnj-hzor": {
-    "avg_gap_days": 17.2,
-    "avg_length": 59,
-    "episodes": 20,
-    "eps_365": 20,
-    "eps_90": 19,
+    "avg_gap_days": 16.9,
+    "avg_length": 60,
+    "episodes": 21,
+    "eps_365": 21,
+    "eps_90": 20,
     "first_at": "2025-12-21",
     "first_year": 1404,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T19:45:55Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3scp78",
-    "last_title": "برنامه شماره ۲۰",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T10:12:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3su5ba",
+    "last_title": "برنامه شماره ۲۱",
     "max_length": 86,
-    "median_length": 62,
+    "median_length": 63,
     "min_length": 34,
     "play": [
+      {
+        "a": "https://anchor.fm/s/116ea0d64/podcast/play/130011946/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Ff827eb36-9e85-b9d4-03e2-fbef59c3900e.mp3",
+        "at": "2026-11-24T10:12:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1795515135169-868c532b3100a.jpg",
+        "t": "برنامه شماره ۲۱"
+      },
       {
         "a": "https://anchor.fm/s/116ea0d64/podcast/play/129442472/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F20488dce-6959-1712-44f0-86fe2fae13c0.mp3",
         "at": "2026-11-14T19:45:55Z",
@@ -33434,15 +33440,15 @@
         "at": "2026-11-02T19:20:00Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793647210047-1ad0bbdec1bd.jpg",
         "t": "برنامه شماره ۱۴"
-      },
-      {
-        "a": "https://anchor.fm/s/116ea0d64/podcast/play/128635332/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-2%2F8b64d682-3054-9956-7008-37646601794b.mp3",
-        "at": "2026-11-02T19:00:45Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793646055049-b7c3b055bb19a.jpg",
-        "t": "برنامه شماره ۱۳"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-24T10:12:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1795515135169-868c532b3100a.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3su5ba",
+        "title": "برنامه شماره ۲۱"
+      },
       {
         "at": "2026-11-14T19:45:55Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1794685562104-10e081e28e28e.jpg",
@@ -33454,12 +33460,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793670660688-c32052520f96b.jpg",
         "link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3rkmg3",
         "title": "برنامه شماره ۱۹"
-      },
-      {
-        "at": "2026-11-03T01:45:12Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46694049/46694049-1793670320492-5b9013cfbc759.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/yalda-mahdavi3/episodes/ep-e3rkm9g",
-        "title": "برنامه شماره ۱۸"
       }
     ],
     "recent_30d": [
@@ -33474,7 +33474,7 @@
       0,
       1,
       3,
-      15
+      16
     ],
     "status": "active"
   },
@@ -38923,7 +38923,7 @@
   },
   "khoansh-ktab-brai-ansan-khrdmnd": {
     "avg_length": 25,
-    "episodes": 190,
+    "episodes": 179,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2020-07-13",
@@ -38933,7 +38933,7 @@
     "last_link": "https://podcasters.spotify.com/pod/show/farhad-arkani/episodes/3-e1qmk43",
     "last_title": "3🧠 خطاهای شناختی در تصمیم‌گیری",
     "max_length": 468,
-    "median_length": 20,
+    "median_length": 19,
     "min_length": 2,
     "play": [
       {
@@ -39682,8 +39682,8 @@
       6,
       6,
       3,
-      6,
-      6
+      7,
+      5
     ],
     "status": "active"
   },
