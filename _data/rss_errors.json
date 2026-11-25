@@ -59,6 +59,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/saharnik1981/feed.xml"
   },
+  "dairh-dastan": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmismooeraoigjuiteua2"
+  },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
@@ -250,14 +254,6 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
-  },
-  "shst-namh": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
-    "rss": "https://tehranpodcast.ir/category/shastnameh/feed/"
-  },
-  "skhnrani-ha-mizgrdha-o-msahbh-hai-almi": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
-    "rss": "https://www.souzanchi.ir/category/sokhanrani/feed/"
   },
   "sot-o-film": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
