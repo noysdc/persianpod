@@ -89630,19 +89630,25 @@
   "sfrnamh-hai-soti-lst-sknd": {
     "avg_gap_days": 1.2,
     "avg_length": 19,
-    "episodes": 121,
-    "eps_365": 121,
-    "eps_90": 65,
+    "episodes": 122,
+    "eps_365": 122,
+    "eps_90": 66,
     "first_at": "2026-06-29",
     "first_year": 1405,
-    "last": "1405/09/03",
-    "last_at": "2026-11-24T07:30:00Z",
-    "last_link": "https://bavexa.com/e/58592-deejay-al-dordor-19",
-    "last_title": "Deejay Al - Dor Dor Ep.19",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T09:48:00Z",
+    "last_link": "https://bavexa.com/e/58636-dj-sool-Nima-generation-01",
+    "last_title": "Dj-Sool & Nima Ghoreishi -  Generation Ep.01",
     "max_length": 110,
     "median_length": 19,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://cdn-bavexa.version.ir/episodes/58636/source.mp3",
+        "at": "2026-11-25T09:48:00Z",
+        "i": "https://cdn.bavexa.com/episodes/gbomwYdepgMSfr9x8yRChVAkk8uY7J8gW6piX40S.jpg",
+        "t": "Dj-Sool & Nima Ghoreishi -  Generation Ep.01"
+      },
       {
         "a": "https://cdn-bavexa.version.ir/episodes/58592/source.mp3",
         "at": "2026-11-24T07:30:00Z",
@@ -89684,15 +89690,15 @@
         "at": "2026-11-16T10:11:00Z",
         "i": "https://cdn.bavexa.com/episodes/Y3XiLsNmFMgqG3JKYQAlB4jFsNXJafmRJwv8eW6V.jpg",
         "t": "Shahram Rahimi - Walkman Ep.05"
-      },
-      {
-        "a": "https://media-cdn.bavexa.com/episodes/57742/source.mp3",
-        "at": "2026-11-15T13:00:00Z",
-        "i": "https://cdn.bavexa.com/episodes/AtLGSaVt5rStfkQILRpxaRdK0zlK1E9DsEg9wBGj.jpg",
-        "t": "Ehsan Ramsy - Night Ep.13"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T09:48:00Z",
+        "i": "https://cdn.bavexa.com/episodes/gbomwYdepgMSfr9x8yRChVAkk8uY7J8gW6piX40S.jpg",
+        "link": "https://bavexa.com/e/58636-dj-sool-Nima-generation-01",
+        "title": "Dj-Sool & Nima Ghoreishi -  Generation Ep.01"
+      },
       {
         "at": "2026-11-24T07:30:00Z",
         "i": "https://cdn.bavexa.com/episodes/z1zW39PzNNhJGCjmi9qbrLIXyTUtwUaBlTUNGbEx.jpg",
@@ -89704,12 +89710,6 @@
         "i": "https://cdn.bavexa.com/episodes/wSjXlaatvNTxbsoHfk2ItBgvt3637P3zMsVcpdv5.jpg",
         "link": "https://bavexa.com/e/58482-dj-pasha-pashamix-23",
         "title": "Dj Pasha - PashaMix Ep.23"
-      },
-      {
-        "at": "2026-11-22T06:14:00Z",
-        "i": "https://cdn.bavexa.com/episodes/Pchv9a6GuxtPgGPrz02uE0biGWiiPXYxxmfOPY1Q.jpg",
-        "link": "https://bavexa.com/e/58365-seyyed-autobahn-14",
-        "title": "Seyyed - Autobahn Ep.14"
       }
     ],
     "recent_30d": [
@@ -89724,7 +89724,7 @@
       18,
       18,
       24,
-      23
+      24
     ],
     "status": "active"
   },
