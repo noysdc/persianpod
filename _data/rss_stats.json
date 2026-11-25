@@ -24478,8 +24478,8 @@
     ],
     "recent_30d": [
       0,
-      7,
-      13,
+      8,
+      12,
       0,
       0,
       0,
@@ -80933,8 +80933,8 @@
       }
     ],
     "recent_30d": [
-      0,
-      2,
+      1,
+      1,
       0,
       0,
       0,
@@ -98677,20 +98677,26 @@
   },
   "vidathereader": {
     "avg_gap_days": 7.5,
-    "avg_length": 35,
-    "episodes": 174,
-    "eps_365": 48,
-    "eps_90": 16,
+    "avg_length": 34,
+    "episodes": 175,
+    "eps_365": 49,
+    "eps_90": 17,
     "first_at": "2025-02-02",
     "first_year": 1403,
-    "last": "1405/08/26",
-    "last_at": "2026-11-17T20:36:00Z",
-    "last_link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/69a58ae0-c59b-41a7-bc20-9e6dd6f54f45/play.mp3?v=1",
-    "last_title": "رودین_بخش ششم",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T07:00:57Z",
+    "last_link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/9ef5f53b-7aea-4889-a2bb-de5799414fd8/play.mp3?v=1",
+    "last_title": "رودین _بخش هفتم",
     "max_length": 78,
     "median_length": 28,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/9ef5f53b-7aea-4889-a2bb-de5799414fd8/play.mp3?v=1",
+        "at": "2026-11-25T07:00:57Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/21059de6-e00d-4f29-8a35-645f3d8132c2/episodes/9ef5f53b-7aea-4889-a2bb-de5799414fd8/artwork.jpg?v=1",
+        "t": "رودین _بخش هفتم"
+      },
       {
         "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/69a58ae0-c59b-41a7-bc20-9e6dd6f54f45/play.mp3?v=1",
         "at": "2026-11-17T20:36:00Z",
@@ -98732,15 +98738,15 @@
         "at": "2026-10-07T12:08:04Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/21059de6-e00d-4f29-8a35-645f3d8132c2/episodes/461ef1ea-4322-46d8-9cc0-81acf8d6e1bd/artwork.jpg?v=121",
         "t": "فصل دوم_معرفی دو رمان از ایوان تورگنیف"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/67cb2657-a586-4e84-b4d5-ae47cf6f2ee8/play.mp3?v=1",
-        "at": "2026-10-03T02:30:46Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/21059de6-e00d-4f29-8a35-645f3d8132c2/episodes/67cb2657-a586-4e84-b4d5-ae47cf6f2ee8/artwork.jpg?v=121",
-        "t": "مرگ ایوان ایلیچ_ بخش پایانی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T07:00:57Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/21059de6-e00d-4f29-8a35-645f3d8132c2/episodes/9ef5f53b-7aea-4889-a2bb-de5799414fd8/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/9ef5f53b-7aea-4889-a2bb-de5799414fd8/play.mp3?v=1",
+        "title": "رودین _بخش هفتم"
+      },
       {
         "at": "2026-11-17T20:36:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/21059de6-e00d-4f29-8a35-645f3d8132c2/episodes/69a58ae0-c59b-41a7-bc20-9e6dd6f54f45/artwork.jpg?v=1",
@@ -98752,12 +98758,6 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/21059de6-e00d-4f29-8a35-645f3d8132c2/episodes/4fec7242-6105-4733-a2e3-27cf2e2cc2cc/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/4fec7242-6105-4733-a2e3-27cf2e2cc2cc/play.mp3?v=1",
         "title": "رودین_بخش پنجم"
-      },
-      {
-        "at": "2026-11-04T05:23:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/21059de6-e00d-4f29-8a35-645f3d8132c2/episodes/9ddcbc31-4a68-413f-87d6-3e3d62a18acc/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/21059de6-e00d-4f29-8a35-645f3d8132c2/episode/9ddcbc31-4a68-413f-87d6-3e3d62a18acc/play.mp3?v=3",
-        "title": "رودین _ بخش چهارم"
       }
     ],
     "recent_30d": [
@@ -98772,7 +98772,7 @@
       3,
       7,
       5,
-      4
+      5
     ],
     "status": "active"
   },
