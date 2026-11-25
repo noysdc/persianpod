@@ -54599,8 +54599,8 @@
       3,
       1,
       1,
-      5,
-      1,
+      6,
+      0,
       0,
       1,
       3,
@@ -79210,19 +79210,24 @@
   "radio-hosh": {
     "avg_gap_days": 0.7,
     "avg_length": 15,
-    "episodes": 45,
-    "eps_365": 45,
-    "eps_90": 45,
+    "episodes": 46,
+    "eps_365": 46,
+    "eps_90": 46,
     "first_at": "2026-10-25",
     "first_year": 1405,
-    "last": "1405/09/03",
-    "last_at": "2026-11-24T11:42:02Z",
-    "last_link": "https://share.transistor.fm/s/e6f72815",
-    "last_title": "‏‫Claude Ship؛ هوش مصنوعی Anthropic کد را بررسی، اصلاح و تأیید می‌کند‬",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T22:26:37Z",
+    "last_link": "https://share.transistor.fm/s/f99a3da1",
+    "last_title": "‏‫فرضیه ریمان و هوش مصنوعی: ماجرای اثبات و سهم واقعی AI‬",
     "max_length": 26,
     "median_length": 16,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://media.transistor.fm/f99a3da1/566369da.mp3",
+        "at": "2026-11-25T22:26:37Z",
+        "t": "‏‫فرضیه ریمان و هوش مصنوعی: ماجرای اثبات و سهم واقعی AI‬"
+      },
       {
         "a": "https://media.transistor.fm/e6f72815/6ea94e26.mp3",
         "at": "2026-11-24T11:42:02Z",
@@ -79257,14 +79262,14 @@
         "a": "https://media.transistor.fm/27af4df0/a29e1c5a.mp3",
         "at": "2026-11-19T08:24:49Z",
         "t": "‏‫GPT-6.2 Astra و Sol؛ مدل‌های ارزان‌تر OpenAI و نظرهای متفاوت‬"
-      },
-      {
-        "a": "https://media.transistor.fm/bcb12f2a/b53465c8.mp3",
-        "at": "2026-11-17T15:13:22Z",
-        "t": "‏‫هوش مصنوعی و تعدیل نیرو: AI washing و آنچه آمار بازار کار نشان می‌دهد‬"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T22:26:37Z",
+        "link": "https://share.transistor.fm/s/f99a3da1",
+        "title": "‏‫فرضیه ریمان و هوش مصنوعی: ماجرای اثبات و سهم واقعی AI‬"
+      },
       {
         "at": "2026-11-24T11:42:02Z",
         "link": "https://share.transistor.fm/s/e6f72815",
@@ -79274,11 +79279,6 @@
         "at": "2026-11-23T10:20:12Z",
         "link": "https://share.transistor.fm/s/4b065bcd",
         "title": "‏‫هوش مصنوعی در فروشگاه اینترنتی: تغییر خرید و فروش آنلاین در B2B و B2C‬"
-      },
-      {
-        "at": "2026-11-22T12:51:44Z",
-        "link": "https://share.transistor.fm/s/913445b5",
-        "title": "‏‫OpenAI و Distillation: مقابله با کپی‌برداری رقبا از مدل‌های هوش مصنوعی‬"
       }
     ],
     "recent_30d": [
@@ -79293,7 +79293,7 @@
       0,
       0,
       7,
-      38
+      39
     ],
     "status": "active"
   },
