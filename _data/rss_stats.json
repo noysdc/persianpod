@@ -35632,8 +35632,8 @@
       0,
       0,
       0,
-      0,
-      5
+      1,
+      4
     ],
     "status": "active"
   },
@@ -93778,10 +93778,10 @@
     "status": "stopped"
   },
   "smimi-ba-khod": {
-    "avg_gap_days": 37.9,
+    "avg_gap_days": 44.4,
     "avg_length": 53,
     "episodes": 430,
-    "eps_365": 10,
+    "eps_365": 8,
     "eps_90": 3,
     "first_at": "2019-06-26",
     "first_year": 1398,
