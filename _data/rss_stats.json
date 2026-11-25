@@ -2269,7 +2269,7 @@
       }
     ],
     "recent_30d": [
-      14,
+      13,
       0,
       0,
       0,
@@ -38815,8 +38815,8 @@
       1,
       1,
       0,
-      0,
       1,
+      0,
       1
     ],
     "status": "active"
@@ -61129,21 +61129,27 @@
     "status": "stopped"
   },
   "podcast-bizins-astoriz": {
-    "avg_gap_days": 0.9,
-    "avg_length": 14,
-    "episodes": 53,
-    "eps_365": 53,
-    "eps_90": 53,
+    "avg_gap_days": 0.8,
+    "avg_length": 13,
+    "episodes": 54,
+    "eps_365": 54,
+    "eps_90": 54,
     "first_at": "2026-10-10",
     "first_year": 1405,
     "last": "1405/09/04",
-    "last_at": "2026-11-25T04:54:35Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6b050a966d7baea6e192c602",
-    "last_title": "Toyota #0 | فصل چهارم پادکست بیزینس استوریز؛ تویوتا موتور",
+    "last_at": "2026-11-25T06:31:00Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6b050be7062dc4efc0f58dbc",
+    "last_title": "Toyota #1 | داستان تویوتا بزرگ‌ترین خودروساز جهان؛ میراث ماشین بافندگی",
     "max_length": 115,
     "median_length": 18,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b050be7062dc4efc0f58dbc/media.mp3",
+        "at": "2026-11-25T06:31:00Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795492597578-a415225b-66da-4a47-b488-e1a87d12bc4a.jpeg",
+        "t": "Toyota #1 | داستان تویوتا بزرگ‌ترین خودروساز جهان؛ میراث ماشین بافندگی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b050a966d7baea6e192c602/media.mp3",
         "at": "2026-11-25T04:54:35Z",
@@ -61185,15 +61191,15 @@
         "at": "2026-11-21T10:17:08Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795256183966-a315dd78-e174-464b-9281-59aa175908bd.jpeg",
         "t": "Disney #9 | چرا دیزنی با هفت میلیارد دلار استودیو پیکسار رو خرید؟"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6affda9b18a3c93bdb905800/media.mp3",
-        "at": "2026-11-20T05:28:59Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795152264666-c70b6fb5-58df-4c6d-89b6-04e33d1251ae.jpeg",
-        "t": "Disney #8 | کمپین تبلیغاتی «میرم دیزنی‌ورلد» و بازاریابی لحظه‌ای دیزنی چطوری بود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T06:31:00Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795492597578-a415225b-66da-4a47-b488-e1a87d12bc4a.jpeg",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6b050be7062dc4efc0f58dbc",
+        "title": "Toyota #1 | داستان تویوتا بزرگ‌ترین خودروساز جهان؛ میراث ماشین بافندگی"
+      },
       {
         "at": "2026-11-25T04:54:35Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795492174819-b6d4c156-d4bd-4d51-a6dd-230d5a4f9367.jpeg",
@@ -61205,12 +61211,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795327233994-f51e2d17-5d7c-480c-8e8d-6d72dbd16f57.jpeg",
         "link": "https://shows.acast.com/business-stories-podcast/episodes/6b02862ec2063ef630e19afa",
         "title": "Disney #14 | (2005 - 2026) داستان دیزنی؛ قسمت آخر؛ صد سال سرگرمی"
-      },
-      {
-        "at": "2026-11-23T04:30:00Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795327022653-689b582a-9c37-42ee-986d-e5c53780fde5.jpeg",
-        "link": "https://shows.acast.com/business-stories-podcast/episodes/6b0284eed0e980d0cf977b7a",
-        "title": "Disney #13 | (1966 - 2005) داستان دیزنی؛ میراث والت‌؛ بحران، رنسانس، امپراتوری"
       }
     ],
     "recent_30d": [
@@ -61225,7 +61225,7 @@
       0,
       0,
       22,
-      31
+      32
     ],
     "status": "active"
   },
