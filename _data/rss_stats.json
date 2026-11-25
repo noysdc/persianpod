@@ -80761,10 +80761,10 @@
     "status": "inactive"
   },
   "radio-nojoan": {
-    "avg_gap_days": 11.3,
+    "avg_gap_days": 3.3,
     "avg_length": 14,
     "episodes": 51,
-    "eps_365": 29,
+    "eps_365": 28,
     "eps_90": 11,
     "first_at": "2020-05-16",
     "first_year": 1399,
@@ -84672,8 +84672,8 @@
       0,
       10,
       8,
-      8,
-      9
+      9,
+      8
     ],
     "status": "active"
   },
@@ -95606,7 +95606,7 @@
       }
     ],
     "recent_30d": [
-      118,
+      117,
       35,
       108,
       0,
