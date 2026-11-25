@@ -6469,19 +6469,25 @@
   },
   "angizshi-padkst-angizshi-ba-mhiar-akbri-ik-hs-khob": {
     "avg_length": 4,
-    "episodes": 10,
-    "eps_365": 0,
-    "eps_90": 0,
+    "episodes": 11,
+    "eps_365": 1,
+    "eps_90": 1,
     "first_at": "2019-11-05",
     "first_year": 1398,
-    "last": "1403/06/12",
-    "last_at": "2024-09-02T22:11:32Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e2nu1uh",
-    "last_title": "پاشو همین حالا واسه همیشه از منطقه امنت بزن بیرون! پادکست انگیزشی درجه یک",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T17:11:32Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e3t13se",
+    "last_title": "انتهای شب وقت تصمیم های بزرگ جسورانس پادکست انگیزشی",
     "max_length": 5,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1026a844/podcast/play/130108750/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-25%2F2a021b1d-a364-985b-1581-923e5f606d70.mp3",
+        "at": "2026-11-25T17:11:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2609689/2609689-1795626496456-c4fe4a30c1a15.jpg",
+        "t": "انتهای شب وقت تصمیم های بزرگ جسورانس پادکست انگیزشی"
+      },
       {
         "a": "https://anchor.fm/s/1026a844/podcast/play/91211153/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-2%2F62ac2fbd-8437-d640-3bca-182ce3731428.mp3",
         "at": "2024-09-02T22:11:32Z",
@@ -6523,15 +6529,15 @@
         "at": "2022-02-04T16:20:10Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2609689/2609689-1643991224396-0c45540a6526f.jpg",
         "t": "رفیق صمیمی روزای سخت زندگیت این پادکست انگیزشی فوق العادس"
-      },
-      {
-        "a": "https://anchor.fm/s/1026a844/podcast/play/46485536/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-21%2F77d1d6f0-d8c1-6b20-209d-ca41fde08f25.mp3",
-        "at": "2022-01-21T18:59:31Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2609689/2609689-1642791378323-91fc6ab1b6108.jpg",
-        "t": "خارق العاده! این چیزیه که تو هستی و باید باشی! پادکست انگیزشی خارق العاده"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T17:11:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2609689/2609689-1795626496456-c4fe4a30c1a15.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e3t13se",
+        "title": "انتهای شب وقت تصمیم های بزرگ جسورانس پادکست انگیزشی"
+      },
       {
         "at": "2024-09-02T22:11:32Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2609689/2609689-1725315008708-8aca047723aa2.jpg",
@@ -6543,12 +6549,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2609689/2609689-1688160814745-f3637d7a62505.jpg",
         "link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e26dfq5",
         "title": "تلاشتو بکن کافیتو بخور و همه چیو بسپار به زمان... پادکست انگیزشی بی نظیر"
-      },
-      {
-        "at": "2022-11-25T20:40:38Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2609689/2609689-1669408504379-51fa7b76b9338.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e1raecs",
-        "title": "رهایی... واسه وقتایی که حالت بده بهش گوش کن... پادکست انگیزشی احساسی"
       }
     ],
     "recent_30d": [
@@ -6563,7 +6563,7 @@
       0,
       0,
       0,
-      0
+      1
     ],
     "status": "active"
   },
@@ -41225,8 +41225,8 @@
       0,
       0,
       54,
-      61,
-      52,
+      62,
+      51,
       63,
       55,
       69
@@ -57577,8 +57577,8 @@
       5,
       6,
       4,
-      4,
       5,
+      4,
       5,
       4,
       1,
