@@ -15,6 +15,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
+  "aamozshgah-zban-airan-aaksford": {
+    "error": "RuntimeError: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
+    "rss": "https://iran-oxford.com/feed/"
+  },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
