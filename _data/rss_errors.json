@@ -19,6 +19,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
+  "aapartaid-jnsiti": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://podcast.thermmedia.com/feed/podcast/gender-apartheid/"
+  },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
@@ -147,13 +151,13 @@
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
+  "podcast-aaoa": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://podcast.thermmedia.com/feed/podcast/avapodcast/"
+  },
   "podcast-ailka": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/ilka/feed/"
-  },
-  "podcast-farsi-fikshn-fiction-podcast": {
-    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j"
   },
   "podcast-farsi-mscht": {
     "error": "ValueError: no items in feed",
