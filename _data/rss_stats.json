@@ -6469,25 +6469,19 @@
   },
   "angizshi-padkst-angizshi-ba-mhiar-akbri-ik-hs-khob": {
     "avg_length": 4,
-    "episodes": 11,
-    "eps_365": 1,
-    "eps_90": 1,
+    "episodes": 10,
+    "eps_365": 0,
+    "eps_90": 0,
     "first_at": "2019-11-05",
     "first_year": 1398,
-    "last": "1405/09/04",
-    "last_at": "2026-11-25T17:11:32Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e3t13se",
-    "last_title": "انتهای شب وقت تصمیم های بزرگ جسورانس پادکست انگیزشی",
+    "last": "1403/06/12",
+    "last_at": "2024-09-02T22:11:32Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e2nu1uh",
+    "last_title": "پاشو همین حالا واسه همیشه از منطقه امنت بزن بیرون! پادکست انگیزشی درجه یک",
     "max_length": 5,
     "median_length": 4,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1026a844/podcast/play/130108750/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-25%2F2a021b1d-a364-985b-1581-923e5f606d70.mp3",
-        "at": "2026-11-25T17:11:32Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2609689/2609689-1795626496456-c4fe4a30c1a15.jpg",
-        "t": "انتهای شب وقت تصمیم های بزرگ جسورانس پادکست انگیزشی"
-      },
       {
         "a": "https://anchor.fm/s/1026a844/podcast/play/91211153/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-2%2F62ac2fbd-8437-d640-3bca-182ce3731428.mp3",
         "at": "2024-09-02T22:11:32Z",
@@ -6529,15 +6523,15 @@
         "at": "2022-02-04T16:20:10Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2609689/2609689-1643991224396-0c45540a6526f.jpg",
         "t": "رفیق صمیمی روزای سخت زندگیت این پادکست انگیزشی فوق العادس"
+      },
+      {
+        "a": "https://anchor.fm/s/1026a844/podcast/play/46485536/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-0-21%2F77d1d6f0-d8c1-6b20-209d-ca41fde08f25.mp3",
+        "at": "2022-01-21T18:59:31Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2609689/2609689-1642791378323-91fc6ab1b6108.jpg",
+        "t": "خارق العاده! این چیزیه که تو هستی و باید باشی! پادکست انگیزشی خارق العاده"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-25T17:11:32Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2609689/2609689-1795626496456-c4fe4a30c1a15.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e3t13se",
-        "title": "انتهای شب وقت تصمیم های بزرگ جسورانس پادکست انگیزشی"
-      },
       {
         "at": "2024-09-02T22:11:32Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2609689/2609689-1725315008708-8aca047723aa2.jpg",
@@ -6549,6 +6543,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/2609689/2609689-1688160814745-f3637d7a62505.jpg",
         "link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e26dfq5",
         "title": "تلاشتو بکن کافیتو بخور و همه چیو بسپار به زمان... پادکست انگیزشی بی نظیر"
+      },
+      {
+        "at": "2022-11-25T20:40:38Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/2609689/2609689-1669408504379-51fa7b76b9338.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/yekhesekhob/episodes/ep-e1raecs",
+        "title": "رهایی... واسه وقتایی که حالت بده بهش گوش کن... پادکست انگیزشی احساسی"
       }
     ],
     "recent_30d": [
@@ -6563,7 +6563,7 @@
       0,
       0,
       0,
-      1
+      0
     ],
     "status": "active"
   },
@@ -11739,26 +11739,21 @@
     "status": "active"
   },
   "bil-bord": {
-    "avg_gap_days": 1.9,
+    "avg_gap_days": 1.3,
     "avg_length": 17,
-    "episodes": 12,
-    "eps_365": 12,
-    "eps_90": 12,
+    "episodes": 11,
+    "eps_365": 11,
+    "eps_90": 11,
     "first_at": "2026-11-04",
     "first_year": 1405,
-    "last": "1405/09/04",
-    "last_at": "2026-11-25T19:30:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/semicolon-marketing2/episodes/ep-e3t19vu",
-    "last_title": "مهلت وام سیبا تا ۳۱ دسامبر، سایت مجانی اوبر ایتس برای رستوران‌ها و صفحه‌ی «زود برمی‌گردیم» در بلک فرایدی | قسمت ۱۳",
+    "last": "1405/08/26",
+    "last_at": "2026-11-17T12:20:16Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/semicolon-marketing2/episodes/Copilot-e3shvq2",
+    "last_title": "۸۳ درصد کانادایی‌ها محلی می‌خرند، بزرگ‌ترین آپگرید سرچ گوگل و فروشگاه شما در Copilot | قسمت ۱۲",
     "max_length": 27,
-    "median_length": 16,
+    "median_length": 15,
     "min_length": 12,
     "play": [
-      {
-        "a": "https://anchor.fm/s/119a84750/podcast/play/130115006/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-25%2Feb199ea6-9fa9-4096-5a3b-cc8a671b743f.mp3",
-        "at": "2026-11-25T19:30:00Z",
-        "t": "مهلت وام سیبا تا ۳۱ دسامبر، سایت مجانی اوبر ایتس برای رستوران‌ها و صفحه‌ی «زود برمی‌گردیم» در بلک فرایدی | قسمت ۱۳"
-      },
       {
         "a": "https://anchor.fm/s/119a84750/podcast/play/129613058/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F7b5bcbb6-7d69-f0d1-ba98-76991f31cd84.mp3",
         "at": "2026-11-17T12:20:16Z",
@@ -11793,14 +11788,14 @@
         "a": "https://anchor.fm/s/119a84750/podcast/play/128784424/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F575c9633-6519-fa64-5d10-c7b370542ff1.mp3",
         "at": "2026-11-04T18:59:00Z",
         "t": "خرید آخر سال کانادا، تأیید پروفایل گوگل با کارت شناسایی و خطر کپی‌رایت عکس در گوگل ادز | قسمت ۵"
+      },
+      {
+        "a": "https://anchor.fm/s/119a84750/podcast/play/128784389/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F0d548fef-0350-1035-e078-5e87e619f75e.mp3",
+        "at": "2026-11-04T18:58:00Z",
+        "t": "۱۰ خبر مهم: متا تبلیغ به تیک‌تاک را بست، سبد خرید تازه‌ی گوگل، Ask YouTube و خرید آخر سال کانادا | قسمت ۴"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-25T19:30:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/semicolon-marketing2/episodes/ep-e3t19vu",
-        "title": "مهلت وام سیبا تا ۳۱ دسامبر، سایت مجانی اوبر ایتس برای رستوران‌ها و صفحه‌ی «زود برمی‌گردیم» در بلک فرایدی | قسمت ۱۳"
-      },
       {
         "at": "2026-11-17T12:20:16Z",
         "link": "https://podcasters.spotify.com/pod/show/semicolon-marketing2/episodes/Copilot-e3shvq2",
@@ -11810,6 +11805,11 @@
         "at": "2026-11-14T08:05:48Z",
         "link": "https://podcasters.spotify.com/pod/show/semicolon-marketing2/episodes/Business-Hub--ChatGPT-e3sc2g2",
         "title": "آپدیت گوگل درست قبل از بلک فرایدی، هزینه‌ی ۶۹۹ دلاری کارت‌خوان و Business Hub در ChatGPT | قسمت ۱۱"
+      },
+      {
+        "at": "2026-11-11T17:24:03Z",
+        "link": "https://podcasters.spotify.com/pod/show/semicolon-marketing2/episodes/ep-e3s7hr0",
+        "title": "بودجه‌ی کانادا برای بیزینس‌های کوچک، تخفیفی که گوگل به اسم شما نشان می‌دهد و هوش مصنوعی که بیزینس محلی را انتخاب می‌کند | قسمت ۱۰"
       }
     ],
     "recent_30d": [
@@ -11824,7 +11824,7 @@
       0,
       0,
       0,
-      12
+      11
     ],
     "status": "active"
   },
@@ -97420,16 +97420,21 @@
     "episodes": 600,
     "eps_365": 261,
     "eps_90": 64,
-    "first_at": "2024-08-07",
+    "first_at": "2024-08-08",
     "first_year": 1403,
-    "last": "1405/09/03",
-    "last_at": "2026-11-24T20:30:00Z",
-    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-0013-xMG9P0rD-oXf_cvW0",
-    "last_title": "پيدايش ۱: ۱",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T20:30:00Z",
+    "last_link": "https://tmm-khtb.simplecast.com/episodes/tk-0014-W3XiV_0Z-DZlgIDFt",
+    "last_title": "پيدايش ۱: ۲ تا ۳۱ قسمت اول",
     "max_length": 41,
     "median_length": 28,
     "min_length": 24,
     "play": [
+      {
+        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/99866be1-e15b-43d2-91fa-bd85a2d8c6fd/group-item/56b6ff5c-ff5d-4d6f-a5bd-38737cc1cd4e/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
+        "at": "2026-11-25T20:30:00Z",
+        "t": "پيدايش ۱: ۲ تا ۳۱ قسمت اول"
+      },
       {
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/05a66322-6fcd-4c12-8cb8-f443f057bcac/group-item/a96a4311-2de4-41a6-a58c-f14610d540bc/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-11-24T20:30:00Z",
@@ -97464,14 +97469,14 @@
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/627b6173-728b-4796-b05c-1f21f53fc7fc/group-item/c1d8ac08-7c38-4ce8-8c0c-5e524f05bd9a/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
         "at": "2026-11-16T20:30:00Z",
         "t": "مقدمه، قسمت هفتم"
-      },
-      {
-        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/4ab6b81b-43ce-45ad-bc04-69e533fa5836/episodes/audio/group/d5ba99ec-693b-4fac-b54c-c1b7b4f1a70f/group-item/1c04d9e7-6281-45e0-89b1-52f4b717aa9a/128_default_tc.mp3?aid=rss_feed&feed=pFYhyFWo",
-        "at": "2026-11-15T20:30:00Z",
-        "t": "مقدمه، قسمت ششم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T20:30:00Z",
+        "link": "https://tmm-khtb.simplecast.com/episodes/tk-0014-W3XiV_0Z-DZlgIDFt",
+        "title": "پيدايش ۱: ۲ تا ۳۱ قسمت اول"
+      },
       {
         "at": "2026-11-24T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-0013-xMG9P0rD-oXf_cvW0",
@@ -97481,14 +97486,12 @@
         "at": "2026-11-23T20:30:00Z",
         "link": "https://tmm-khtb.simplecast.com/episodes/tk-0012-x4Ix9hm3-Op7vMXWa",
         "title": "معرفی کتاب پیدایش، قسمت دوم"
-      },
-      {
-        "at": "2026-11-22T20:30:00Z",
-        "link": "https://tmm-khtb.simplecast.com/episodes/tk-0011-hofVSz8H-dlUQpFxZ",
-        "title": "معرفی کتاب پیدایش، قسمت اول"
       }
     ],
     "recent_30d": [
+      22,
+      22,
+      20,
       22,
       22,
       21,
@@ -97497,9 +97500,6 @@
       22,
       20,
       22,
-      22,
-      21,
-      21,
       22
     ],
     "status": "active"
@@ -97695,8 +97695,8 @@
       11,
       39,
       0,
-      2,
-      15,
+      3,
+      14,
       8,
       12,
       38,
