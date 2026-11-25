@@ -22911,10 +22911,10 @@
     "status": "stopped"
   },
   "farsi-okr": {
-    "avg_gap_days": 15.8,
+    "avg_gap_days": 16.2,
     "avg_length": 23,
     "episodes": 71,
-    "eps_365": 24,
+    "eps_365": 23,
     "eps_90": 6,
     "first_at": "2024-12-30",
     "first_year": 1403,
@@ -22996,8 +22996,8 @@
       }
     ],
     "recent_30d": [
-      4,
-      2,
+      5,
+      1,
       1,
       1,
       0,
@@ -63384,8 +63384,8 @@
       0,
       0,
       2,
-      2,
-      1,
+      3,
+      0,
       1,
       2,
       5,
@@ -66365,8 +66365,8 @@
       3,
       2,
       2,
-      2,
       3,
+      2,
       3
     ],
     "status": "active"
@@ -72355,8 +72355,8 @@
       5,
       2,
       2,
-      2,
-      4,
+      3,
+      3,
       1
     ],
     "status": "active"
@@ -74513,8 +74513,8 @@
       }
     ],
     "recent_30d": [
-      2,
-      2,
+      3,
+      1,
       2,
       0,
       0,
@@ -74523,8 +74523,8 @@
       1,
       3,
       2,
-      2,
-      2
+      3,
+      1
     ],
     "status": "active"
   },
@@ -79012,21 +79012,27 @@
     "status": "active"
   },
   "radio-hkait": {
-    "avg_gap_days": 3.8,
-    "avg_length": 33,
-    "episodes": 219,
+    "avg_gap_days": 3.7,
+    "avg_length": 34,
+    "episodes": 220,
     "eps_365": 98,
-    "eps_90": 47,
+    "eps_90": 48,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/09/03",
-    "last_at": "2026-11-24T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/3aa2b1e7-6f83-453a-b241-81ab84e2cb69/play.mp3?v=1",
-    "last_title": "یک زن خوشبخت -بخش اول (روایت داستان) - بزرگ علوی",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/9617756f-0955-4933-ac50-94558020a989/play.mp3?v=1",
+    "last_title": "یک زن خوشبخت – بخش دوم (زندگی بزرگ علوی، گفت‌وگو و تحلیل داستان)",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/9617756f-0955-4933-ac50-94558020a989/play.mp3?v=1",
+        "at": "2026-11-25T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/9617756f-0955-4933-ac50-94558020a989/artwork.jpg?v=1",
+        "t": "یک زن خوشبخت – بخش دوم (زندگی بزرگ علوی، گفت‌وگو و تحلیل داستان)"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/3aa2b1e7-6f83-453a-b241-81ab84e2cb69/play.mp3?v=1",
         "at": "2026-11-24T01:30:00Z",
@@ -79068,15 +79074,15 @@
         "at": "2026-11-18T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/9610f63e-4f72-4ca7-94ff-c1ae16353fc8/artwork.jpg?v=1",
         "t": "مجموعه نامرئی – بخش اول (روایت داستان) – اشتفان تسوایگ"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7c26c6f0-c785-4288-9a17-f93bfdaee1db/play.mp3?v=1",
-        "at": "2026-11-17T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/7c26c6f0-c785-4288-9a17-f93bfdaee1db/artwork.jpg?v=1",
-        "t": "همهُ صاحب خانه ها بد نیستند - عزیز نسین"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-25T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/9617756f-0955-4933-ac50-94558020a989/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/9617756f-0955-4933-ac50-94558020a989/play.mp3?v=1",
+        "title": "یک زن خوشبخت – بخش دوم (زندگی بزرگ علوی، گفت‌وگو و تحلیل داستان)"
+      },
       {
         "at": "2026-11-24T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/3aa2b1e7-6f83-453a-b241-81ab84e2cb69/artwork.jpg?v=1",
@@ -79088,26 +79094,20 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/7d2fb758-7f85-4d3a-835c-ab60b3d23887/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7d2fb758-7f85-4d3a-835c-ab60b3d23887/play.mp3?v=1",
         "title": "یدکی - عزیز نسین"
-      },
-      {
-        "at": "2026-11-22T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/7c003bf3-6a97-42df-901c-51173c688b9e/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/7c003bf3-6a97-42df-901c-51173c688b9e/play.mp3?v=1",
-        "title": "طلاق - ایوان کلیما"
       }
     ],
     "recent_30d": [
-      8,
-      3,
+      9,
+      2,
       11,
       0,
       0,
-      1,
+      2,
+      8,
       9,
       8,
       9,
       9,
-      8,
       30
     ],
     "status": "active"
