@@ -6080,26 +6080,20 @@
   },
   "ali-sdart": {
     "avg_gap_days": 4.9,
-    "avg_length": 31,
-    "episodes": 452,
-    "eps_365": 74,
-    "eps_90": 16,
+    "avg_length": 32,
+    "episodes": 451,
+    "eps_365": 73,
+    "eps_90": 15,
     "first_at": "2020-06-15",
     "first_year": 1399,
-    "last": "1405/09/03",
-    "last_at": "2026-11-24T15:00:05Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3sujko",
-    "last_title": "⁠ ⁠صدارت⁠- سلطه‌سالاری و تبعیض، ریشهٌ بحران‌ها",
+    "last": "1405/08/27",
+    "last_at": "2026-11-18T03:54:38Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3sjepb",
+    "last_title": "⁠ ⁠صدارت⁠- نقش‌آفرینی عقاید «دینی» در رژیم اسرائیل و ایران و امریکا، نفی لائیسیته",
     "max_length": 146,
     "median_length": 38,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/2f313e0c/podcast/play/130026584/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2F7f5552e1-966a-958d-b6b6-8be1f5d9c25c.mp3",
-        "at": "2026-11-24T15:00:05Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1795532383965-6641dd4b322ff.jpg",
-        "t": "⁠ ⁠صدارت⁠- سلطه‌سالاری و تبعیض، ریشهٌ بحران‌ها"
-      },
       {
         "a": "https://anchor.fm/s/2f313e0c/podcast/play/129661163/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fb208063a-7a2b-8d30-39ef-a36946dbfc95.mp3",
         "at": "2026-11-18T03:54:38Z",
@@ -6140,15 +6134,15 @@
         "at": "2026-10-20T00:43:47Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1792457011730-a0dde11efbc33.jpg",
         "t": "صدارت⁠- تهدید «مادر همه بمب‌ها» توسط «مادر همه ابرقدرت‌ها» بعد از «مادر همه انتخابات‌ها»!؟"
+      },
+      {
+        "a": "https://anchor.fm/s/2f313e0c/podcast/play/127517977/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-15%2Fef40035e-5c87-f2cc-8d52-eb3c88872e6a.mp3",
+        "at": "2026-10-15T12:43:19Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1792068144114-b376594debd6b.jpg",
+        "t": "صدارت--پنجمین سال فقدان بنی‌صدر؛ جای خالیِ حقوق‌مداری، به‌ویژه استقلال و آزادی"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-24T15:00:05Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1795532383965-6641dd4b322ff.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3sujko",
-        "title": "⁠ ⁠صدارت⁠- سلطه‌سالاری و تبعیض، ریشهٌ بحران‌ها"
-      },
       {
         "at": "2026-11-18T03:54:38Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1794974037249-61dba64438018.jpg",
@@ -6159,6 +6153,12 @@
         "at": "2026-11-14T00:08:08Z",
         "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3sbn74",
         "title": "صدارت⁠- شعار نتانیاهو و شرکا: جنگ! جنگ! تا پیروزی «اسرائیل بزرگ» به‌عنوان «سرزمین موعود» برای «قوم برگزیده»"
+      },
+      {
+        "at": "2026-11-10T19:31:40Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/7817563/7817563-1794339081089-c8b81307ad18c.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sedarat/episodes/--e3s5pmr",
+        "title": "صدارت⁠- نتایج مقاومت ایرانیان در مقابل جنایت و تجاوز انیرانیان!"
       }
     ],
     "recent_30d": [
@@ -6173,7 +6173,7 @@
       5,
       5,
       5,
-      6
+      5
     ],
     "status": "active"
   },
