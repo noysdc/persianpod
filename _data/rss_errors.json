@@ -40,7 +40,7 @@
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
   "baigani-ha-sda": {
-    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
     "rss": "https://musiceiranian.ir/type/audio/feed"
   },
   "bazariabi-ba-hmid-sbaghi": {
@@ -50,6 +50,10 @@
   "bookafe-bokafh": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/saharnik1981/feed.xml"
+  },
+  "dairh-dastan": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmismooeraoigjuiteua2"
   },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
