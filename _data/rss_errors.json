@@ -92,7 +92,7 @@
     "rss": "https://media.rss.com/hirbod/feed.xml"
   },
   "hnr-jng": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://namlik.me/rss/318"
   },
   "hs-khob": {
@@ -142,6 +142,10 @@
   "podcast-ailka": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/ilka/feed/"
+  },
+  "podcast-dats": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmirr88fetztwmiq39efe"
   },
   "podcast-farsi-mscht": {
     "error": "ValueError: no items in feed",
