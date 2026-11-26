@@ -61137,19 +61137,25 @@
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.8,
     "avg_length": 13,
-    "episodes": 55,
-    "eps_365": 55,
-    "eps_90": 55,
+    "episodes": 56,
+    "eps_365": 56,
+    "eps_90": 56,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/09/04",
-    "last_at": "2026-11-25T11:30:00Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6b050d88a1933fc906a12b9c",
-    "last_title": "Toyota #2 | (1890 - 1930) داستان تویوتا؛ از کارگاه بافندگی تا رویای ساخت خودرو",
+    "last": "1405/09/05",
+    "last_at": "2026-11-26T11:30:00Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6b050f3cced26bb723b268d6",
+    "last_title": "Toyota #3 | (1930 - 1937) داستان تویوتا؛ شرکت تویودا چطوری تبدیل به تویوتا شد؟",
     "max_length": 115,
-    "median_length": 17,
+    "median_length": 16,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b050f3cced26bb723b268d6/media.mp3",
+        "at": "2026-11-26T11:30:00Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795493528678-2978d22d-fbd2-4a11-bd0a-61428d3f466f.jpeg",
+        "t": "Toyota #3 | (1930 - 1937) داستان تویوتا؛ شرکت تویودا چطوری تبدیل به تویوتا شد؟"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b050d88a1933fc906a12b9c/media.mp3",
         "at": "2026-11-25T11:30:00Z",
@@ -61191,15 +61197,15 @@
         "at": "2026-11-22T05:52:16Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795326338605-0a5f592a-fb3b-4bfc-9164-c58fa171ec79.jpeg",
         "t": "Disney #11 | (1928 - 1950) داستان دیزنی؛ از جسارت سفید برفی تا امید به سیندرلا"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b01b81a8e8174f983fb2a38/media.mp3",
-        "at": "2026-11-21T15:26:18Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795274442898-e5666efa-5a5c-4af8-9dfa-46aa1b2651ec.jpeg",
-        "t": "Disney #10 | (1922 - 1928) داستان دیزنی؛ شش سال آزمون و خطا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-26T11:30:00Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795493528678-2978d22d-fbd2-4a11-bd0a-61428d3f466f.jpeg",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6b050f3cced26bb723b268d6",
+        "title": "Toyota #3 | (1930 - 1937) داستان تویوتا؛ شرکت تویودا چطوری تبدیل به تویوتا شد؟"
+      },
       {
         "at": "2026-11-25T11:30:00Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795493066248-e2854cf0-1f16-4e98-848c-ed69fcef716c.jpeg",
@@ -61211,12 +61217,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795492597578-a415225b-66da-4a47-b488-e1a87d12bc4a.jpeg",
         "link": "https://shows.acast.com/business-stories-podcast/episodes/6b050be7062dc4efc0f58dbc",
         "title": "Toyota #1 | داستان تویوتا؛ بزرگ‌ترین خودروساز جهان؛ میراث ماشین بافندگی"
-      },
-      {
-        "at": "2026-11-25T04:54:35Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795492174819-b6d4c156-d4bd-4d51-a6dd-230d5a4f9367.jpeg",
-        "link": "https://shows.acast.com/business-stories-podcast/episodes/6b050a966d7baea6e192c602",
-        "title": "Toyota #0 | فصل چهارم پادکست بیزینس استوریز؛ تویوتا موتور"
       }
     ],
     "recent_30d": [
@@ -61231,7 +61231,7 @@
       0,
       0,
       25,
-      30
+      31
     ],
     "status": "active"
   },
