@@ -88241,7 +88241,7 @@
       }
     ],
     "recent_30d": [
-      1,
+      0,
       0,
       0,
       0,
@@ -88444,21 +88444,26 @@
     "status": "stopped"
   },
   "sdai-bazar": {
-    "avg_gap_days": 4.3,
+    "avg_gap_days": 4.2,
     "avg_length": 20,
-    "episodes": 504,
-    "eps_365": 86,
-    "eps_90": 44,
+    "episodes": 505,
+    "eps_365": 87,
+    "eps_90": 45,
     "first_at": "2024-09-02",
     "first_year": 1403,
-    "last": "1405/09/04",
-    "last_at": "2026-11-25T12:00:00Z",
-    "last_link": "https://dotcast.org/p/bozvcayr/2ufmpjxqbo/",
-    "last_title": "از بازگشت نگرانی تعرفه‌ای تا آزمون تورم آمریکا",
+    "last": "1405/09/05",
+    "last_at": "2026-11-26T11:10:00Z",
+    "last_link": "https://dotcast.org/p/bozvcayr/r150zg22vy/",
+    "last_title": "آیا بازگشت نزدک و طلا دوام می‌آورد؟",
     "max_length": 62,
     "median_length": 15,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/bozvcayr/r150zg22vy/2026-11-26-11-32-51.mp3",
+        "at": "2026-11-26T11:10:00Z",
+        "t": "آیا بازگشت نزدک و طلا دوام می‌آورد؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/bozvcayr/2ufmpjxqbo/2026-11-25-12-13-48.mp3",
         "at": "2026-11-25T12:00:00Z",
@@ -88493,14 +88498,14 @@
         "a": "https://feed.dotcast.org/e/bozvcayr/qaphuqbyha/2026-11-17-11-55-02.mp3",
         "at": "2026-11-17T11:50:00Z",
         "t": "افت سهام فناوری و مقاومت دلار پیش از گزارش انویدیا"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/bozvcayr/4azu1bfoa9/2026-11-16-12-06-06.mp3",
-        "at": "2026-11-16T11:50:00Z",
-        "t": "آیا حمایت ۱٫۱۰ یورو‌دلار دوام می‌آورد؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-26T11:10:00Z",
+        "link": "https://dotcast.org/p/bozvcayr/r150zg22vy/",
+        "title": "آیا بازگشت نزدک و طلا دوام می‌آورد؟"
+      },
       {
         "at": "2026-11-25T12:00:00Z",
         "link": "https://dotcast.org/p/bozvcayr/2ufmpjxqbo/",
@@ -88510,11 +88515,6 @@
         "at": "2026-11-24T11:40:00Z",
         "link": "https://dotcast.org/p/bozvcayr/2d6dprnwtf/",
         "title": "چرا دلار هم‌زمان با جهش سهام تقویت شد؟"
-      },
-      {
-        "at": "2026-11-23T11:20:00Z",
-        "link": "https://dotcast.org/p/bozvcayr/bweksfr8tl/",
-        "title": "جهش طلا و فیوچرز نزدک در آستانهٔ PMI آمریکا"
       }
     ],
     "recent_30d": [
@@ -88529,7 +88529,7 @@
       0,
       3,
       19,
-      22
+      23
     ],
     "status": "active"
   },
@@ -89723,8 +89723,8 @@
       0,
       38,
       18,
-      18,
-      25,
+      19,
+      24,
       24
     ],
     "status": "active"
