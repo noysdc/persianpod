@@ -20,7 +20,7 @@
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
   },
   "akhbar-ghshm-baigani": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://www.hormozban.ir/name/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1-%D9%82%D8%B4%D9%85/feed"
   },
   "akhbar-o-mghalat": {
