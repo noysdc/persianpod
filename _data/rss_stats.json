@@ -41134,20 +41134,25 @@
   },
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
-    "avg_length": 22,
-    "episodes": 682,
-    "eps_365": 629,
-    "eps_90": 189,
+    "avg_length": 21,
+    "episodes": 683,
+    "eps_365": 630,
+    "eps_90": 190,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/09/05",
-    "last_at": "2026-11-26T17:23:19Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6b086b07f82f6a279ca8b1e7",
-    "last_title": "من و تو، دوباره و دوباره - بخش چهارم",
+    "last_at": "2026-11-26T17:50:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6b086c58abd504a626569505",
+    "last_title": "من و تو، دوباره و دوباره - بخش پنجم",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6b086c58abd504a626569505/media.mp3",
+        "at": "2026-11-26T17:50:00Z",
+        "t": "من و تو، دوباره و دوباره - بخش پنجم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6b086b07f82f6a279ca8b1e7/media.mp3",
         "at": "2026-11-26T17:23:19Z",
@@ -41189,15 +41194,14 @@
         "at": "2026-11-20T18:49:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795001094544-876cba9d-768d-4469-a8aa-ca5e8cb8cc12.jpeg",
         "t": "جزیره مرگ - بخش چهل و دوم"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6afd93245ca4ff63ce44a2e6/media.mp3",
-        "at": "2026-11-20T18:24:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795000935486-56df432d-2a96-466a-ad1a-7fc7f17860a0.jpeg",
-        "t": "جزیره مرگ - بخش چهل و یکم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-26T17:50:00Z",
+        "link": "https://shows.acast.com/statusmarried/episodes/6b086c58abd504a626569505",
+        "title": "من و تو، دوباره و دوباره - بخش پنجم"
+      },
       {
         "at": "2026-11-26T17:23:19Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795713586232-d3a2a8e9-9637-4aa9-9035-698ef6a05f0d.jpeg",
@@ -41209,12 +41213,6 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795713501978-03401258-4ae4-4498-8a22-73c9132b0be3.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6b086a0ef37086a127110c29",
         "title": "من و تو، دوباره و دوباره - بخش سوم"
-      },
-      {
-        "at": "2026-11-25T17:52:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795592921495-c1723f8d-f181-4977-8dfe-db83e4764687.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6b069307ea5e837f8fd7aac3",
-        "title": "من و تو، دوباره و دوباره - بخش دوم"
       }
     ],
     "recent_30d": [
@@ -41229,7 +41227,7 @@
       50,
       64,
       54,
-      71
+      72
     ],
     "status": "active"
   },
@@ -49515,7 +49513,7 @@
     "last": "1405/09/05",
     "last_at": "2026-11-26T17:45:46Z",
     "last_link": "https://shows.acast.com/midnightcast/episodes/a-forgotten-odyssey",
-    "last_title": "ادیسه؛ فراموش شدنی (نقد و بررسی فیلم ادیسه، اثر کریستوفر نولان)",
+    "last_title": "ادیسه؛ فراموش شدنی (نقد و بررسی فیلم ادیسهِ نولان)",
     "max_length": 125,
     "median_length": 49,
     "min_length": 5,
@@ -49524,7 +49522,7 @@
         "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6b08705019eabcafe8f3c0fa/media.mp3",
         "at": "2026-11-26T17:45:46Z",
         "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1795714585915-e7ca5850-1d5f-49b1-a4b4-206bbe4ba4e5.jpeg",
-        "t": "ادیسه؛ فراموش شدنی (نقد و بررسی فیلم ادیسه، اثر کریستوفر نولان)"
+        "t": "ادیسه؛ فراموش شدنی (نقد و بررسی فیلم ادیسهِ نولان)"
       },
       {
         "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6aecafd45e56bd617c66ec5e/media.mp3",
@@ -49574,7 +49572,7 @@
         "at": "2026-11-26T17:45:46Z",
         "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1795714585915-e7ca5850-1d5f-49b1-a4b4-206bbe4ba4e5.jpeg",
         "link": "https://shows.acast.com/midnightcast/episodes/a-forgotten-odyssey",
-        "title": "ادیسه؛ فراموش شدنی (نقد و بررسی فیلم ادیسه، اثر کریستوفر نولان)"
+        "title": "ادیسه؛ فراموش شدنی (نقد و بررسی فیلم ادیسهِ نولان)"
       },
       {
         "at": "2026-11-06T08:45:13Z",
@@ -71666,21 +71664,27 @@
     "status": "active"
   },
   "podcast-pzshki-srm-atlaaat": {
-    "avg_gap_days": 115.7,
+    "avg_gap_days": 90.8,
     "avg_length": 24,
-    "episodes": 93,
-    "eps_365": 4,
-    "eps_90": 2,
+    "episodes": 94,
+    "eps_365": 5,
+    "eps_90": 3,
     "first_at": "2019-08-05",
     "first_year": 1398,
-    "last": "1405/08/20",
-    "last_at": "2026-11-11T10:49:00Z",
+    "last": "1405/09/05",
+    "last_at": "2026-11-26T17:48:00Z",
     "last_link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
-    "last_title": "اپیزود نودم: چرا در میانسالی چاق می شویم؟",
+    "last_title": "اپیزود نود و یکم: چرا نمی شود به پزشک اعتماد کرد؟",
     "max_length": 70,
     "median_length": 21,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/audio/ce93bcdf140cc017/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-11-26T17:48:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/ce93bcdf140cc017/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "اپیزود نود و یکم: چرا نمی شود به پزشک اعتماد کرد؟"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/audio/1ef92b6e9bf7056e/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-11-11T10:49:00Z",
@@ -71722,15 +71726,15 @@
         "at": "2025-11-06T05:59:33Z",
         "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/ad7c40efecf29ab9/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "t": "اپیزود هشتاد و چهارم ستون‌ها رو محکم کن!"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/audio/dbfc0573626864f9/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2025-11-04T22:21:57Z",
-        "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/dbfc0573626864f9/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "t": "اپیزود هشتاد و سوم استعداد یا دردسر"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-26T17:48:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/ce93bcdf140cc017/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
+        "title": "اپیزود نود و یکم: چرا نمی شود به پزشک اعتماد کرد؟"
+      },
       {
         "at": "2026-11-11T10:49:00Z",
         "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/1ef92b6e9bf7056e/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
@@ -71742,12 +71746,6 @@
         "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/15a5f715707ca433/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
         "title": "اپیزود هشتاد و نهم چرا دارو نیست؟"
-      },
-      {
-        "at": "2025-11-30T00:00:00Z",
-        "i": "https://rss.audiyacreators.one/media/cmisrvai3iyr6c4fsgxog/cover/fdbf345fa43989b1/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "link": "https://rss.audiyacreators.one/cmisrvai3iyr6c4fsgxog",
-        "title": "اپیزود هشتاد و هشتم چرا ز تن نمی رود ۲"
       }
     ],
     "recent_30d": [
@@ -71762,7 +71760,7 @@
       0,
       0,
       1,
-      1
+      2
     ],
     "status": "active"
   },
@@ -91606,8 +91604,8 @@
       0,
       0,
       0,
-      1,
-      1,
+      2,
+      0,
       0,
       0,
       0,
