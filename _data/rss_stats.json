@@ -49217,19 +49217,25 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 1008,
+    "episodes": 1009,
     "eps_365": 326,
-    "eps_90": 80,
+    "eps_90": 81,
     "first_at": "2023-11-21",
     "first_year": 1402,
-    "last": "1405/09/04",
-    "last_at": "2026-11-25T04:06:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/inflation-rises-again-ahead-of-the-reserve-banks-next-interest-rate-decision/p6vkhavcl",
-    "last_title": "افزایش دوباره نرخ تورم در آستانه تصمیم بعدی بانک مرکزی استرالیا درباره نرخ بهره",
+    "last": "1405/09/05",
+    "last_at": "2026-11-26T04:05:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/south-australian-liberal-senator-defects-to-one-nation/xlb7kv7x7",
+    "last_title": "سناتور لیبرال ساوت استرالیا به حزب وان نیشن پیوست",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261126150533_314919-persian-a320f805-ceb2-4641-87ae-e81c281d33d2.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a2-1601-d80b-a7b2-1f8d105b0000&dur_cat=2",
+        "at": "2026-11-26T04:05:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261126150536_287878-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "t": "سناتور لیبرال ساوت استرالیا به حزب وان نیشن پیوست"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261125150635_882436-persian-251126-fn.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a2-10ce-d47b-a5e7-7dfee3850000&dur_cat=2",
         "at": "2026-11-25T04:06:00Z",
@@ -49271,15 +49277,15 @@
         "at": "2026-11-17T04:41:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261117154207_823080-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "t": "آلبانیزی پس از دو سال با دیگر رهبران گروه کواد دیدار می‌کند"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261117121317_486594-persian-171126-nf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-e704-dea3-adeb-efaf6b990000&dur_cat=2",
-        "at": "2026-11-17T01:13:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261117121319_965726-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "t": "تغییر در ویزاهای کوله‌گردی؛ کارگران بیشتری به مناطق روستایی استرالیا می‌روند"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-26T04:05:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261126150536_287878-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/south-australian-liberal-senator-defects-to-one-nation/xlb7kv7x7",
+        "title": "سناتور لیبرال ساوت استرالیا به حزب وان نیشن پیوست"
+      },
       {
         "at": "2026-11-25T04:06:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261125150953_306763-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
@@ -49291,12 +49297,6 @@
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261124154144_930396-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/possibility-of-the-labor-party-recording-its-worst-ever-result-in-victorias-history/qcdk20bzr",
         "title": "احتمال ثبت بدترین نتیجه انتخاباتی حزب کارگر در تاریخ ویکتوریا"
-      },
-      {
-        "at": "2026-11-24T02:59:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261124135925_532325-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/nvidia-news-sparks-wall-street-rally/06xhxwczw",
-        "title": "خبرهای انویدیا باعث جهش شاخص‌های بورس وال‌استریت شد"
       }
     ],
     "recent_30d": [
@@ -49311,7 +49311,7 @@
       28,
       24,
       29,
-      27
+      28
     ],
     "status": "active"
   },
@@ -84286,21 +84286,26 @@
     "status": "inactive"
   },
   "rhbri-droni": {
-    "avg_gap_days": 10.9,
+    "avg_gap_days": 11.0,
     "avg_length": 25,
-    "episodes": 58,
-    "eps_365": 33,
-    "eps_90": 6,
+    "episodes": 59,
+    "eps_365": 34,
+    "eps_90": 7,
     "first_at": "2025-04-10",
     "first_year": 1404,
-    "last": "1405/08/21",
-    "last_at": "2026-11-12T03:00:00Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/---e3s18d3",
-    "last_title": "یک-دو-سه بیزینس نو: دریافت شهودی برای خلق ارزش تجاری",
+    "last": "1405/09/05",
+    "last_at": "2026-11-26T03:00:00Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3t0575",
+    "last_title": "گشودن جلسات کاری با مدیتیشن",
     "max_length": 49,
     "median_length": 23,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1035f1fc8/podcast/play/130077349/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-25%2F437585442-44100-2-e3845fcf41559.m4a",
+        "at": "2026-11-26T03:00:00Z",
+        "t": "گشودن جلسات کاری با مدیتیشن"
+      },
       {
         "a": "https://anchor.fm/s/1035f1fc8/podcast/play/129064803/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-8%2F436237093-44100-2-428b657bf41c1.m4a",
         "at": "2026-11-12T03:00:00Z",
@@ -84335,14 +84340,14 @@
         "a": "https://anchor.fm/s/1035f1fc8/podcast/play/124054582/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-11%2F429610610-44100-2-928b4533968b8.m4a",
         "at": "2026-08-20T02:00:00Z",
         "t": "شهود و فراآگاهی: تمرین‌های سوماتیک برای شناخت «آری» و «نه» بدن"
-      },
-      {
-        "a": "https://anchor.fm/s/1035f1fc8/podcast/play/123704367/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-3%2F429132917-44100-2-b7eeaddb3bbe4.m4a",
-        "at": "2026-08-06T02:00:00Z",
-        "t": "مدیتیشن چهار میثاق: قرارداد آزادی درونی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-26T03:00:00Z",
+        "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3t0575",
+        "title": "گشودن جلسات کاری با مدیتیشن"
+      },
       {
         "at": "2026-11-12T03:00:00Z",
         "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/---e3s18d3",
@@ -84352,11 +84357,6 @@
         "at": "2026-10-29T03:00:00Z",
         "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3r28gk",
         "title": "مدیتیشن کودک درونت باید آینده‌اش را ببیند 🎨"
-      },
-      {
-        "at": "2026-10-15T02:00:00Z",
-        "link": "https://podcasters.spotify.com/pod/show/afi-coaching--mindful-car/episodes/ep-e3qaro7",
-        "title": "نهال عزت نفس و تمرین قدرتمند من امن"
       }
     ],
     "recent_30d": [
@@ -84371,7 +84371,7 @@
       2,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
