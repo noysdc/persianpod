@@ -50389,8 +50389,8 @@
       0,
       0,
       6,
-      14,
-      17,
+      15,
+      16,
       18,
       3,
       31,
@@ -78830,20 +78830,26 @@
   },
   "radio-ghsh": {
     "avg_gap_days": 2.7,
-    "avg_length": 15,
-    "episodes": 41,
-    "eps_365": 41,
-    "eps_90": 36,
+    "avg_length": 16,
+    "episodes": 42,
+    "eps_365": 42,
+    "eps_90": 37,
     "first_at": "2026-08-07",
     "first_year": 1405,
-    "last": "1405/09/03",
-    "last_at": "2026-11-24T15:30:00Z",
-    "last_link": "https://www.spreaker.com/episode/jadwgr-shhr-auz-qsmt-dhm-nghban-drwazh--76561805",
-    "last_title": "جادوگر شهر اُز | قسمت دهم | نگهبان دروازه",
+    "last": "1405/09/05",
+    "last_at": "2026-11-26T15:30:00Z",
+    "last_link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-yazdhm-shhr-shgft-angyz-zmrd--76625775",
+    "last_title": "جادوگر شهر اوز | قسمت یازدهم | شهر شگفت انگیز زمرد",
     "max_length": 44,
     "median_length": 13,
     "min_length": 8,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76625775/media.mp3",
+        "at": "2026-11-26T15:30:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3b61313f87a69b32ee6a8d95fdb3abf8.jpg",
+        "t": "جادوگر شهر اوز | قسمت یازدهم | شهر شگفت انگیز زمرد"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76561805/media.mp3",
         "at": "2026-11-24T15:30:00Z",
@@ -78885,15 +78891,15 @@
         "at": "2026-11-11T05:19:08Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3b61313f87a69b32ee6a8d95fdb3abf8.jpg",
         "t": "جادوگر شهر اوز | قسمت چهارم | عبور از میان جنگل"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76193326/media.mp3",
-        "at": "2026-11-05T15:32:16Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/56b613691f698ee5d0dcd3f14beffc58.jpg",
-        "t": "فصل سوم | چگونه دروتی مترسک را نجات داد | حادوگر شهر از"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-26T15:30:00Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3b61313f87a69b32ee6a8d95fdb3abf8.jpg",
+        "link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-yazdhm-shhr-shgft-angyz-zmrd--76625775",
+        "title": "جادوگر شهر اوز | قسمت یازدهم | شهر شگفت انگیز زمرد"
+      },
       {
         "at": "2026-11-24T15:30:00Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3b61313f87a69b32ee6a8d95fdb3abf8.jpg",
@@ -78905,12 +78911,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/58f03510a2b439998c1ea09a5938afae.jpg",
         "link": "https://www.spreaker.com/episode/jadwgr-shhr-awz-qsmt-nhm-mlkh-y-mwsh-hay-shrayy--76525099",
         "title": "جادوگر شهر اوز | قسمت نهم | ملکه‌ی موش های صحرایی"
-      },
-      {
-        "at": "2026-11-19T15:30:00Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/3b61313f87a69b32ee6a8d95fdb3abf8.jpg",
-        "link": "https://www.spreaker.com/episode/jadwgr-shhr-auz-qsmt-hshtm-dsht-shqayq-hay-mrgbar--76466168",
-        "title": "جادوگر شهر اُز | قسمت هشتم | دشت شقایق‌های مرگبار"
       }
     ],
     "recent_30d": [
@@ -78925,7 +78925,7 @@
       5,
       12,
       13,
-      11
+      12
     ],
     "status": "active"
   },
