@@ -78233,21 +78233,27 @@
     "status": "stopped"
   },
   "radio-fikshn-dastan": {
-    "avg_gap_days": 30.4,
+    "avg_gap_days": 28.6,
     "avg_length": 35,
-    "episodes": 83,
-    "eps_365": 12,
-    "eps_90": 7,
+    "episodes": 84,
+    "eps_365": 13,
+    "eps_90": 8,
     "first_at": "2024-09-30",
     "first_year": 1403,
-    "last": "1405/08/25",
-    "last_at": "2026-11-16T16:14:42Z",
-    "last_link": "https://www.spreaker.com/episode/waldyn-nsl-sandwychy--76404181",
-    "last_title": "والدین نسل ساندویچی",
+    "last": "1405/09/05",
+    "last_at": "2026-11-26T00:31:50Z",
+    "last_link": "https://www.spreaker.com/episode/dastan-zndgy-mn-mhndsy-mba-w-bymh-mr--76607732",
+    "last_title": "- داستان زندگی من : مهندسی، MBA  و بیمه عمر  -",
     "max_length": 133,
     "median_length": 27,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://api.spreaker.com/download/episode/76607732/media.mp3",
+        "at": "2026-11-26T00:31:50Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/64e9f59d537e56c8d0297fe9ca4eee58.jpg",
+        "t": "- داستان زندگی من : مهندسی، MBA  و بیمه عمر  -"
+      },
       {
         "a": "https://api.spreaker.com/download/episode/76404181/media.mp3",
         "at": "2026-11-16T16:14:42Z",
@@ -78289,15 +78295,15 @@
         "at": "2026-09-14T18:10:17Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/6942ead2c1e2db8bc31537781590498e.jpg",
         "t": "نسل زد در آمریکا"
-      },
-      {
-        "a": "https://api.spreaker.com/download/episode/74320109/media.mp3",
-        "at": "2026-08-19T14:34:11Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/6e57e45dcfeacaa54edefd3f84e64cf5.jpg",
-        "t": "قصه های فرهنگ سازمانی به سبک رادیو فیکشن"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-26T00:31:50Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/64e9f59d537e56c8d0297fe9ca4eee58.jpg",
+        "link": "https://www.spreaker.com/episode/dastan-zndgy-mn-mhndsy-mba-w-bymh-mr--76607732",
+        "title": "- داستان زندگی من : مهندسی، MBA  و بیمه عمر  -"
+      },
       {
         "at": "2026-11-16T16:14:42Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/b52ecf5d2e9cc9f4ed81497e12085e3b.jpg",
@@ -78309,12 +78315,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/b5caeb3d000f732377ceae1980b02ed3.jpg",
         "link": "https://www.spreaker.com/episode/chra-az-brd-dygran-mybazym--76073380",
         "title": "چرا از برد دیگران میبازیم؟"
-      },
-      {
-        "at": "2026-10-23T13:30:00Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/e0c561bda572171b6d1ea3b5feff9a05.jpg",
-        "link": "https://www.spreaker.com/episode/trah-mzwny-kh-bh-fkr-baznshstgy-bwd--75940178",
-        "title": "طراح مزونی که  به فکر بازنشستگی بود"
       }
     ],
     "recent_30d": [
@@ -78329,7 +78329,7 @@
       2,
       1,
       4,
-      2
+      3
     ],
     "status": "active"
   },
@@ -85534,8 +85534,8 @@
       }
     ],
     "recent_30d": [
-      4,
-      2,
+      5,
+      1,
       2,
       4,
       5,
