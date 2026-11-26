@@ -51,6 +51,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/saharnik1981/feed.xml"
   },
+  "dairh-dastan": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmismooeraoigjuiteua2"
+  },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
@@ -155,6 +159,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/c6c31a9c/podcast/rss"
   },
+  "podcast-jor-digr": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feeds.simplecast.com/ikkk3ru_"
+  },
   "podcast-khakstri-roan": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.dotcast.org/p/1orxtms6/feed.xml"
@@ -194,6 +202,10 @@
   "radio-mfid": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/2e6e9794/podcast/rss"
+  },
+  "radio-msir": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feeds.simplecast.com/PEcbc7TY"
   },
   "radio-nmana": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
