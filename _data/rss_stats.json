@@ -90706,19 +90706,25 @@
   "shar-ba-sdai-shaar": {
     "avg_gap_days": 2.7,
     "avg_length": 5,
-    "episodes": 354,
-    "eps_365": 135,
-    "eps_90": 27,
+    "episodes": 355,
+    "eps_365": 136,
+    "eps_90": 28,
     "first_at": "2025-01-23",
     "first_year": 1403,
-    "last": "1405/09/03",
-    "last_at": "2026-11-24T08:50:12Z",
-    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/691c1989295fc6e8489793a5",
-    "last_title": "مهدی حمیدی شیرازی | بت شکن بابل",
+    "last": "1405/09/05",
+    "last_at": "2026-11-26T19:30:00Z",
+    "last_link": "https://shows.acast.com/sedaye-shaer/episodes/699ac2e20e5c959d59ca3296",
+    "last_title": "احمدرضا احمدی | بر این جاده‌ها",
     "max_length": 44,
     "median_length": 4,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/699ac2e20e5c959d59ca3296/media.mp3",
+        "at": "2026-11-26T19:30:00Z",
+        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1794828709237-2244156a-f631-4dea-9ea2-1eebeb8bcf7c.jpeg",
+        "t": "احمدرضا احمدی | بر این جاده‌ها"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c1989295fc6e8489793a5/media.mp3",
         "at": "2026-11-24T08:50:12Z",
@@ -90760,15 +90766,15 @@
         "at": "2026-10-30T19:30:00Z",
         "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450231551-24400fbd-1382-4070-9040-f5b029ea6c4d.jpeg",
         "t": "فریدون مشیری | دست‌هامان"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67b236158fcb78617500b8a5/e/691c1cd4295fc6e848984d54/media.mp3",
-        "at": "2026-10-26T19:30:00Z",
-        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450034015-5e086637-bb39-4133-bef0-0c015f431618.jpeg",
-        "t": "حسین پناهی | سه شعر کوتاه (با صدای شاعر)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-26T19:30:00Z",
+        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1794828709237-2244156a-f631-4dea-9ea2-1eebeb8bcf7c.jpeg",
+        "link": "https://shows.acast.com/sedaye-shaer/episodes/699ac2e20e5c959d59ca3296",
+        "title": "احمدرضا احمدی | بر این جاده‌ها"
+      },
       {
         "at": "2026-11-24T08:50:12Z",
         "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763449178887-e49c9bef-7bc2-4146-a9ba-a56f60631d99.jpeg",
@@ -90780,12 +90786,6 @@
         "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450765083-25cb8fd7-5468-4d27-bf26-ce59f5009692.jpeg",
         "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1fae295fc6e84898f496",
         "title": "مهدی فرجی | حوت"
-      },
-      {
-        "at": "2026-11-19T19:30:00Z",
-        "i": "https://assets.pippa.io/shows/67b236158fcb78617500b8a5/1763450681971-3ae7713e-42cc-49e3-a0b8-1f811e812ba7.jpeg",
-        "link": "https://shows.acast.com/sedaye-shaer/episodes/691c1f797b9e972a6bf44dcd",
-        "title": "نصرت رحمانی | زمزمه‌ای در محراب"
       }
     ],
     "recent_30d": [
@@ -90800,7 +90800,7 @@
       16,
       11,
       9,
-      7
+      8
     ],
     "status": "active"
   },
