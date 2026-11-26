@@ -27024,7 +27024,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 9,
     "episodes": 249,
-    "eps_365": 166,
+    "eps_365": 165,
     "eps_90": 0,
     "first_at": "2020-10-17",
     "first_year": 1399,
@@ -27097,8 +27097,8 @@
     "recent_30d": [
       30,
       24,
-      33,
-      30,
+      34,
+      29,
       21,
       12,
       7,
@@ -71352,8 +71352,8 @@
       1,
       1,
       4,
-      8,
-      3,
+      9,
+      2,
       5,
       8,
       8,
@@ -79398,10 +79398,10 @@
     "status": "stopped"
   },
   "radio-joloun-padkst-sfr-radio-jolon": {
-    "avg_gap_days": 82.0,
+    "avg_gap_days": 101.3,
     "avg_length": 65,
     "episodes": 102,
-    "eps_365": 5,
+    "eps_365": 4,
     "eps_90": 2,
     "first_at": "2017-10-14",
     "first_year": 1396,
@@ -86412,8 +86412,8 @@
       0,
       0,
       0,
-      13,
-      23
+      14,
+      22
     ],
     "status": "active"
   },
