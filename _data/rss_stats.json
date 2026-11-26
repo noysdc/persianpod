@@ -14343,7 +14343,7 @@
     "avg_length": 18,
     "episodes": 106,
     "eps_365": 106,
-    "eps_90": 67,
+    "eps_90": 66,
     "first_at": "2026-07-29",
     "first_year": 1405,
     "last": "1405/09/04",
@@ -14432,8 +14432,8 @@
       0,
       0,
       6,
-      33,
-      20,
+      34,
+      19,
       32,
       15
     ],
@@ -49505,21 +49505,27 @@
     "status": "stopped"
   },
   "midnightcast": {
-    "avg_gap_days": 33.4,
-    "avg_length": 61,
-    "episodes": 50,
-    "eps_365": 11,
-    "eps_90": 3,
+    "avg_gap_days": 32.3,
+    "avg_length": 60,
+    "episodes": 51,
+    "eps_365": 12,
+    "eps_90": 4,
     "first_at": "2018-07-14",
     "first_year": 1397,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T08:45:13Z",
-    "last_link": "https://shows.acast.com/midnightcast/episodes/6aecafd45e56bd617c66ec5e",
-    "last_title": "مارتین اسکورسیزی؛ بنیاد (قصه نگاتیو، نابودی و نجات فیلم‌ها)",
+    "last": "1405/09/05",
+    "last_at": "2026-11-26T17:45:46Z",
+    "last_link": "https://shows.acast.com/midnightcast/episodes/a-forgotten-odyssey",
+    "last_title": "ادیسه؛ فراموش شدنی (نقد و بررسی فیلم ادیسه، اثر کریستوفر نولان)",
     "max_length": 125,
     "median_length": 49,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6b08705019eabcafe8f3c0fa/media.mp3",
+        "at": "2026-11-26T17:45:46Z",
+        "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1795714585915-e7ca5850-1d5f-49b1-a4b4-206bbe4ba4e5.jpeg",
+        "t": "ادیسه؛ فراموش شدنی (نقد و بررسی فیلم ادیسه، اثر کریستوفر نولان)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6aecafd45e56bd617c66ec5e/media.mp3",
         "at": "2026-11-06T08:45:13Z",
@@ -49561,15 +49567,15 @@
         "at": "2026-07-04T12:27:38Z",
         "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1783167837341-c90bb4b9-44a9-47a1-8c7b-52c84c3f0863.jpeg",
         "t": "جیسریس ولاریون؛ تراژدی راب استارک، زخم‌های جان اسنو"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/624bbbaa006ae30013d6f945/e/6a3d41cb0ad32116868ef67f/media.mp3",
-        "at": "2026-06-25T15:25:13Z",
-        "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1782400766103-2e3e91ac-4a9a-4ace-8d01-8958c7c1c9a4.jpeg",
-        "t": "نیمه شب 36 - اسکورسیزی؛ رهایی (فیلم‌های هیوگو، گرگ وال استریت و سکوت)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-26T17:45:46Z",
+        "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1795714585915-e7ca5850-1d5f-49b1-a4b4-206bbe4ba4e5.jpeg",
+        "link": "https://shows.acast.com/midnightcast/episodes/a-forgotten-odyssey",
+        "title": "ادیسه؛ فراموش شدنی (نقد و بررسی فیلم ادیسه، اثر کریستوفر نولان)"
+      },
       {
         "at": "2026-11-06T08:45:13Z",
         "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1793890042875-22bf5b65-0289-4675-8f2e-1795e597478b.jpeg",
@@ -49581,12 +49587,6 @@
         "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1791726904825-5698f9f4-82ce-4fad-a9af-01fa1fab1cb9.jpeg",
         "link": "https://shows.acast.com/midnightcast/episodes/spiderman-evolution",
         "title": "داستان اسپایدرمن؛ فرگشت در تاریخ سینما"
-      },
-      {
-        "at": "2026-09-17T12:39:09Z",
-        "i": "https://assets.pippa.io/shows/624bbbaa006ae30013d6f945/1789648297202-a06e0abe-9743-4b33-be48-f305d2467caa.jpeg",
-        "link": "https://shows.acast.com/midnightcast/episodes/histoires-paralleles",
-        "title": "داستان‌های موازی؛ فیلم بلندی درباره چی؟ (نقد و بررسی تازه‌ترین فیلم اصغر فرهادی)"
       }
     ],
     "recent_30d": [
@@ -49601,7 +49601,7 @@
       1,
       1,
       1,
-      1
+      2
     ],
     "status": "active"
   },
@@ -53419,8 +53419,8 @@
       2,
       9,
       8,
-      4,
-      4,
+      5,
+      3,
       4,
       4,
       3,
