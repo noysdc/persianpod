@@ -34818,21 +34818,27 @@
     "status": "stopped"
   },
   "jmlat-takidi-rozanh": {
-    "avg_gap_days": 5.7,
+    "avg_gap_days": 5.6,
     "avg_length": 24,
-    "episodes": 50,
-    "eps_365": 50,
-    "eps_90": 33,
+    "episodes": 51,
+    "eps_365": 51,
+    "eps_90": 34,
     "first_at": "2026-02-17",
     "first_year": 1404,
-    "last": "1405/09/02",
-    "last_at": "2026-11-23T16:30:00Z",
-    "last_link": "https://shows.acast.com/jomalatetakidi/episodes/6aa65bd8ff74edfd00e5fa21",
-    "last_title": "جملات تأکیدی شبانه برای خواب عمیق و آرامش ذهن",
+    "last": "1405/09/05",
+    "last_at": "2026-11-26T11:10:27Z",
+    "last_link": "https://shows.acast.com/jomalatetakidi/episodes/6b03cadd8e8174f983bdc932",
+    "last_title": "روزت را با قدرت و حال خوب شروع کن!",
     "max_length": 32,
     "median_length": 23,
     "min_length": 11,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/694bd1dc30165a956d0caddf/e/6b03cadd8e8174f983bdc932/media.mp3",
+        "at": "2026-11-26T11:10:27Z",
+        "i": "https://assets.pippa.io/shows/694bd1dc30165a956d0caddf/1795410644549-afcf9520-7750-4e6c-9eee-12be2e1a8cdc.jpeg",
+        "t": "روزت را با قدرت و حال خوب شروع کن!"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/694bd1dc30165a956d0caddf/e/6aa65bd8ff74edfd00e5fa21/media.mp3",
         "at": "2026-11-23T16:30:00Z",
@@ -34874,15 +34880,15 @@
         "at": "2026-11-15T05:30:00Z",
         "i": "https://assets.pippa.io/shows/694bd1dc30165a956d0caddf/1793097854841-37d09885-1d09-4e24-ba90-5fdbd986f543.jpeg",
         "t": ": امروز روز معجزه است | شروع روز با انرژی مثبت"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/694bd1dc30165a956d0caddf/e/6ad5e758b3fd74c05a6451b0/media.mp3",
-        "at": "2026-11-10T00:30:00Z",
-        "i": "https://assets.pippa.io/shows/694bd1dc30165a956d0caddf/1792428805364-b20c543f-f7dc-45f7-a5de-6de0077c511b.jpeg",
-        "t": "🌞 قبل از اینکه روزت را شروع کنی، چند دقیقه به خودت هدیه بده!"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-26T11:10:27Z",
+        "i": "https://assets.pippa.io/shows/694bd1dc30165a956d0caddf/1795410644549-afcf9520-7750-4e6c-9eee-12be2e1a8cdc.jpeg",
+        "link": "https://shows.acast.com/jomalatetakidi/episodes/6b03cadd8e8174f983bdc932",
+        "title": "روزت را با قدرت و حال خوب شروع کن!"
+      },
       {
         "at": "2026-11-23T16:30:00Z",
         "i": "https://assets.pippa.io/shows/694bd1dc30165a956d0caddf/1789287376466-fd97ca3f-69f3-4795-aa68-80957dc0713e.jpeg",
@@ -34894,12 +34900,6 @@
         "i": "https://assets.pippa.io/shows/694bd1dc30165a956d0caddf/1795410114848-6f75c603-16db-4d74-828b-ee60260df416.jpeg",
         "link": "https://shows.acast.com/jomalatetakidi/episodes/6b03c8d93ad67ecda2f80e5f",
         "title": "جملات تاکیدی فراوانی و باورهای مالی ذهنیت"
-      },
-      {
-        "at": "2026-11-21T02:30:00Z",
-        "i": "https://assets.pippa.io/shows/694bd1dc30165a956d0caddf/1794829208039-3c4e7b77-ac6c-46cf-aba0-c9bf8751351d.jpeg",
-        "link": "https://shows.acast.com/jomalatetakidi/episodes/6afae1e7abfa3ac131f1ef1c",
-        "title": "به خودت آرامش هدیه بده! 🌿 | جملات تأکیدی برای رهایی از نگرانی و جذب حس خوب"
       }
     ],
     "recent_30d": [
@@ -34914,7 +34914,7 @@
       5,
       17,
       5,
-      11
+      12
     ],
     "status": "active"
   },
@@ -78028,8 +78028,8 @@
       0,
       0,
       0,
-      5,
-      14
+      6,
+      13
     ],
     "status": "active"
   },
