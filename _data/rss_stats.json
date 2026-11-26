@@ -57286,21 +57286,27 @@
     "status": "stopped"
   },
   "parseh-podcast-padkst-prsh": {
-    "avg_gap_days": 13.8,
-    "avg_length": 62,
-    "episodes": 79,
-    "eps_365": 25,
-    "eps_90": 4,
+    "avg_gap_days": 13.5,
+    "avg_length": 60,
+    "episodes": 80,
+    "eps_365": 26,
+    "eps_90": 5,
     "first_at": "2020-07-17",
     "first_year": 1399,
-    "last": "1405/08/28",
-    "last_at": "2026-11-19T15:30:00Z",
-    "last_link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/68-the-human-chain-iii",
-    "last_title": "68- The Human Chain III (زنجیره‌ی انسانی ۳)",
+    "last": "1405/09/05",
+    "last_at": "2026-11-26T13:24:46Z",
+    "last_link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/6b0831f2ae6c02a8688d71e2",
+    "last_title": "پلی‌لیست پرسه ۱ (حدود عدالت)",
     "max_length": 118,
     "median_length": 52,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6b0831f2ae6c02a8688d71e2/media.mp3",
+        "at": "2026-11-26T13:24:46Z",
+        "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1795696703045-0b6fdd46-9ac9-4d15-b680-7e835113a8f2.jpeg",
+        "t": "پلی‌لیست پرسه ۱ (حدود عدالت)"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6afea9d6b4e29f42171dc9c6/media.mp3",
         "at": "2026-11-19T15:30:00Z",
@@ -57342,15 +57348,15 @@
         "at": "2026-08-13T17:30:00Z",
         "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1786625680028-013b2962-bd63-47ce-b4e6-4703e3e4ede2.jpeg",
         "t": "62- Limits of Justice I (حدود عدالت ۱)"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65826bcc96b66a0016c9396a/e/6a6cb623c826d9d5c9b06337/media.mp3",
-        "at": "2026-07-31T14:50:11Z",
-        "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1785509349885-64b876ad-073f-4d32-89d9-962a72631ce1.jpeg",
-        "t": "61 - Parseh Live (اجرای زنده پادکست پرسه)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-26T13:24:46Z",
+        "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1795696703045-0b6fdd46-9ac9-4d15-b680-7e835113a8f2.jpeg",
+        "link": "https://shows.acast.com/parseh-podcast-padkst-prsh/episodes/6b0831f2ae6c02a8688d71e2",
+        "title": "پلی‌لیست پرسه ۱ (حدود عدالت)"
+      },
       {
         "at": "2026-11-19T15:30:00Z",
         "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1795072462935-611b6793-dfc2-4dbf-a515-3fe5fb3e51a7.jpeg",
@@ -57362,12 +57368,6 @@
         "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1794312857158-32755d5d-2158-44b1-9102-b45784ab0544.jpeg",
         "link": "https://youtu.be/E1M9O9l8xAs",
         "title": "67- The Human Chain II (زنجیره انسانی ۲)"
-      },
-      {
-        "at": "2026-11-03T15:00:00Z",
-        "i": "https://assets.pippa.io/shows/65826bcc96b66a0016c9396a/1793695640733-6cc842bf-59e8-413a-b954-bd0f81452654.jpeg",
-        "link": "https://youtu.be/863EbH8vDg8",
-        "title": "66- The Human Chain I (زنجیره‌ی انسانی ۱)"
       }
     ],
     "recent_30d": [
@@ -57382,7 +57382,7 @@
       4,
       0,
       1,
-      3
+      4
     ],
     "status": "active"
   },
