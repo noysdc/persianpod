@@ -20829,7 +20829,7 @@
       }
     ],
     "recent_30d": [
-      4,
+      3,
       0,
       0,
       0,
@@ -63394,8 +63394,8 @@
       0,
       1,
       2,
-      5,
-      9
+      6,
+      8
     ],
     "status": "active"
   },
@@ -64203,21 +64203,26 @@
     "status": "active"
   },
   "podcast-farsi-msti-o-rasti": {
-    "avg_gap_days": 23.8,
-    "avg_length": 60,
-    "episodes": 46,
-    "eps_365": 15,
-    "eps_90": 5,
+    "avg_gap_days": 23.6,
+    "avg_length": 58,
+    "episodes": 47,
+    "eps_365": 16,
+    "eps_90": 6,
     "first_at": "2020-03-03",
     "first_year": 1398,
-    "last": "1405/08/15",
-    "last_at": "2026-11-06T06:09:40Z",
-    "last_link": "https://shows.acast.com/mastyorasty/episodes/6aed6f243a774bc7317aedac",
-    "last_title": "صبر، اعتیاد و انتخابات",
+    "last": "1405/09/05",
+    "last_at": "2026-11-26T13:28:38Z",
+    "last_link": "https://shows.acast.com/mastyorasty/episodes/6b083407ae6c02a8688e80e0",
+    "last_title": "ونکوور، خوشبختی و همسر سنتی",
     "max_length": 119,
     "median_length": 55,
     "min_length": 30,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/66ddea9a505674fba498fcff/e/6b083407ae6c02a8688e80e0/media.mp3",
+        "at": "2026-11-26T13:28:38Z",
+        "t": "ونکوور، خوشبختی و همسر سنتی"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/66ddea9a505674fba498fcff/e/6aed6f243a774bc7317aedac/media.mp3",
         "at": "2026-11-06T06:09:40Z",
@@ -64252,14 +64257,14 @@
         "a": "https://sphinx.acast.com/p/open/s/66ddea9a505674fba498fcff/e/6a56579dc90e948cc4c0af4b/media.mp3",
         "at": "2026-07-14T15:37:00Z",
         "t": "Ashh Nm - Music and Displacement Part 1"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/66ddea9a505674fba498fcff/e/6a4658533734a82b35f901ef/media.mp3",
-        "at": "2026-07-08T12:24:40Z",
-        "t": "Taha Mazaheri (Guitarist) - Part 2"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-26T13:28:38Z",
+        "link": "https://shows.acast.com/mastyorasty/episodes/6b083407ae6c02a8688e80e0",
+        "title": "ونکوور، خوشبختی و همسر سنتی"
+      },
       {
         "at": "2026-11-06T06:09:40Z",
         "link": "https://shows.acast.com/mastyorasty/episodes/6aed6f243a774bc7317aedac",
@@ -64269,11 +64274,6 @@
         "at": "2026-10-05T16:12:34Z",
         "link": "https://shows.acast.com/mastyorasty/episodes/6ac3cc736c844f245f879b6f",
         "title": "کبوتر با کبوتر باز با باز"
-      },
-      {
-        "at": "2026-09-19T16:12:54Z",
-        "link": "https://shows.acast.com/mastyorasty/episodes/10-lessons-life-taught-me-the-hardest-way-part-2",
-        "title": "10 lessons life taught me the hardest way (Part 2)"
       }
     ],
     "recent_30d": [
@@ -64288,7 +64288,7 @@
       0,
       3,
       1,
-      1
+      2
     ],
     "status": "active"
   },
