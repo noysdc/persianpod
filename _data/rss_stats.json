@@ -67580,32 +67580,32 @@
     "status": "active"
   },
   "podcast-jnaii-ki-aas": {
-    "avg_gap_days": 11.2,
+    "avg_gap_days": 11.3,
     "avg_length": 54,
     "episodes": 134,
     "eps_365": 33,
     "eps_90": 13,
     "first_at": "2023-11-02",
     "first_year": 1402,
-    "last": "1405/08/29",
-    "last_at": "2026-11-20T12:25:12Z",
-    "last_link": "https://s3.castbox.fm/e3/1a/5d/fa9f9c4d4aad5224ca2543a0e3.mp3",
-    "last_title": "اپیزود 132 - هیولای بلنگلو (چهار از پنج)",
+    "last": "1405/09/05",
+    "last_at": "2026-11-26T06:12:43Z",
+    "last_link": "https://s3.castbox.fm/3d/d2/f6/d520654e969f16c24ed1617ce3.mp3",
+    "last_title": "پرمیوم نهم \"خ\" (لینک در توضیحات)",
     "max_length": 108,
     "median_length": 51,
     "min_length": 2,
     "play": [
       {
+        "a": "https://s3.castbox.fm/3d/d2/f6/d520654e969f16c24ed1617ce3.mp3",
+        "at": "2026-11-26T06:12:43Z",
+        "i": "https://s3.castbox.fm/c3/fe/3b/bbe6f9443c9b35bab2b9db3a0e.jpg",
+        "t": "پرمیوم نهم \"خ\" (لینک در توضیحات)"
+      },
+      {
         "a": "https://s3.castbox.fm/e3/1a/5d/fa9f9c4d4aad5224ca2543a0e3.mp3",
         "at": "2026-11-20T12:25:12Z",
         "i": "https://s3.castbox.fm/58/28/c1/c6c4ff44cfb7adb5003da4c900.jpg",
         "t": "اپیزود 132 - هیولای بلنگلو (چهار از پنج)"
-      },
-      {
-        "a": "https://s3.castbox.fm/b3/4b/1c/3b39634aa58874d1caf22fe57e.mp3",
-        "at": "2026-11-16T17:30:18Z",
-        "i": "https://s3.castbox.fm/cb/ae/44/18487f46f8a32d5973c4c77bd5.jpg",
-        "t": "پرمیوم هشتم \"ح\" (لینک در توضیحات)"
       },
       {
         "a": "https://s3.castbox.fm/8f/9f/47/80a02946d8b6074a44c7c22a9b.mp3",
@@ -67646,16 +67646,16 @@
     ],
     "recent": [
       {
+        "at": "2026-11-26T06:12:43Z",
+        "i": "https://s3.castbox.fm/c3/fe/3b/bbe6f9443c9b35bab2b9db3a0e.jpg",
+        "link": "https://s3.castbox.fm/3d/d2/f6/d520654e969f16c24ed1617ce3.mp3",
+        "title": "پرمیوم نهم \"خ\" (لینک در توضیحات)"
+      },
+      {
         "at": "2026-11-20T12:25:12Z",
         "i": "https://s3.castbox.fm/58/28/c1/c6c4ff44cfb7adb5003da4c900.jpg",
         "link": "https://s3.castbox.fm/e3/1a/5d/fa9f9c4d4aad5224ca2543a0e3.mp3",
         "title": "اپیزود 132 - هیولای بلنگلو (چهار از پنج)"
-      },
-      {
-        "at": "2026-11-16T17:30:18Z",
-        "i": "https://s3.castbox.fm/cb/ae/44/18487f46f8a32d5973c4c77bd5.jpg",
-        "link": "https://s3.castbox.fm/b3/4b/1c/3b39634aa58874d1caf22fe57e.mp3",
-        "title": "پرمیوم هشتم \"ح\" (لینک در توضیحات)"
       },
       {
         "at": "2026-11-12T17:16:10Z",
