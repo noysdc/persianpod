@@ -10,6 +10,15 @@ permalink: /learn/
   <h1>آموزش پادکست‌سازی</h1>
   <p class="pp-lead">آموزش‌های رایگان درباره‌ی ساخت پادکست؛ مطلب‌های خود پرشین‌پاد، به‌علاوه راهنماهایی که خود پادکسترها و سایت‌های معتبر منتشر کرده‌اند. لینک‌های بیرونی به منبع اصلی می‌روند.</p>
 
+  <a class="pp-learn-compass" href="{{ '/compass/' | relative_url }}">
+    <span class="pp-learn-compass-icon" aria-hidden="true">✦</span>
+    <span class="pp-learn-compass-copy">
+      <strong>نمی‌دانی چه پادکستی بسازی؟</strong>
+      <span>با قطب‌نمای پادکست، علایق و تجربه‌هایت را به چند مسیر و ایده‌ی قابل‌اجرا تبدیل کن.</span>
+    </span>
+    <span class="pp-learn-compass-cta">شروع کشف مسیر <b aria-hidden="true">←</b></span>
+  </a>
+
   {% assign posts = site.learn | sort: 'date' | reverse %}
   {% assign links = site.data.learn_links %}
 
@@ -73,4 +82,4 @@ permalink: /learn/
   {% endif %}
 </section>
 
-<script src="{{ '/assets/js/pp-learn.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/pp-learn.js' | relative_url }}?v={{ site.asset_v }}" defer></script>
