@@ -175,10 +175,6 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://www.aharri.ir/category/%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%AA%D8%B1%DA%A9%DB%8C/feed/"
   },
-  "mtaors": {
-    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://feeds.simplecast.com/U4MnbHBx"
-  },
   "nt-piano": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://feeds.feedburner.com/poiu/bJJk"
