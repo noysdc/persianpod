@@ -2592,7 +2592,7 @@
       {
         "a": "https://content.rss.com/episodes/89104/3360695/avaemohitzist/2026_11_27_07_50_03_075e2cf3-8804-49fb-8494-3e6e2430e904.mp3",
         "at": "2026-11-27T07:50:17Z",
-        "i": "https://media.rss.com/avaemohitzist/ep_cover_20261127_075001_0f22b324f6dcbbdddf3a9ffd9521980f.png",
+        "i": "https://media.rss.com/avaemohitzist/ep_cover_20261127_171613_0a17c4114773f30a0838a96b325d8ad6.png",
         "t": "اتاق توسعه | اپیزود ۶ | هوش محیط زیستی (آنچه نمیدانیم؟!)"
       },
       {
@@ -2641,7 +2641,7 @@
     "recent": [
       {
         "at": "2026-11-27T07:50:17Z",
-        "i": "https://media.rss.com/avaemohitzist/ep_cover_20261127_075001_0f22b324f6dcbbdddf3a9ffd9521980f.png",
+        "i": "https://media.rss.com/avaemohitzist/ep_cover_20261127_171613_0a17c4114773f30a0838a96b325d8ad6.png",
         "link": "https://rss.com/podcasts/avaemohitzist/3360695",
         "title": "اتاق توسعه | اپیزود ۶ | هوش محیط زیستی (آنچه نمیدانیم؟!)"
       },
@@ -41632,19 +41632,25 @@
   "ktab-aadm-i-zad": {
     "avg_gap_days": 0.6,
     "avg_length": 21,
-    "episodes": 684,
-    "eps_365": 631,
-    "eps_90": 190,
+    "episodes": 685,
+    "eps_365": 632,
+    "eps_90": 191,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/09/06",
-    "last_at": "2026-11-27T16:45:00Z",
-    "last_link": "https://shows.acast.com/statusmarried/episodes/6b09b140079ab0810c36bb4f",
-    "last_title": "من و تو، دوباره و دوباره - بخش ششم",
+    "last_at": "2026-11-27T17:14:00Z",
+    "last_link": "https://shows.acast.com/statusmarried/episodes/6b09b2d8079ab0810c37b46a",
+    "last_title": "من و تو، دوباره و دوباره - بخش هفتم",
     "max_length": 40,
     "median_length": 17,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6b09b2d8079ab0810c37b46a/media.mp3",
+        "at": "2026-11-27T17:14:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795797319942-14dd6f07-0186-4caf-8435-b1cebf0227dc.jpeg",
+        "t": "من و تو، دوباره و دوباره - بخش هفتم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6b09b140079ab0810c36bb4f/media.mp3",
         "at": "2026-11-27T16:45:00Z",
@@ -41686,15 +41692,15 @@
         "at": "2026-11-25T16:45:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795592222984-eeead0e0-c759-4cfe-80f9-d84c7e487ab7.jpeg",
         "t": "معرفی کتاب جدید - من و تو، دوباره و دوباره"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67d1e281ba1ef91ed06d0d50/e/6afd94bf813f9c9b5c493b04/media.mp3",
-        "at": "2026-11-21T16:43:00Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795003421622-f57b96f5-ed06-4668-8376-40ed0b0b0bcc.jpeg",
-        "t": "جزیره مرگ - بخش چهل و سوم - پایان"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T17:14:00Z",
+        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795797319942-14dd6f07-0186-4caf-8435-b1cebf0227dc.jpeg",
+        "link": "https://shows.acast.com/statusmarried/episodes/6b09b2d8079ab0810c37b46a",
+        "title": "من و تو، دوباره و دوباره - بخش هفتم"
+      },
       {
         "at": "2026-11-27T16:45:00Z",
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795797229550-4461e5fe-aa4e-44d2-90ec-4af52c5bf340.jpeg",
@@ -41706,12 +41712,6 @@
         "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795797855346-43158b04-88b2-41fc-9183-b1341d2f368d.jpeg",
         "link": "https://shows.acast.com/statusmarried/episodes/6b086c58abd504a626569505",
         "title": "من و تو، دوباره و دوباره - بخش پنجم"
-      },
-      {
-        "at": "2026-11-26T17:23:19Z",
-        "i": "https://assets.pippa.io/shows/67d1e281ba1ef91ed06d0d50/1795713586232-d3a2a8e9-9637-4aa9-9035-698ef6a05f0d.jpeg",
-        "link": "https://shows.acast.com/statusmarried/episodes/6b086b07f82f6a279ca8b1e7",
-        "title": "من و تو، دوباره و دوباره - بخش چهارم"
       }
     ],
     "recent_30d": [
@@ -41726,7 +41726,7 @@
       50,
       66,
       51,
-      73
+      74
     ],
     "status": "active"
   },
@@ -46663,21 +46663,26 @@
     "status": "stopped"
   },
   "ktab-soti-sh-tfngdar": {
-    "avg_gap_days": 10.7,
+    "avg_gap_days": 10.6,
     "avg_length": 28,
-    "episodes": 138,
-    "eps_365": 33,
-    "eps_90": 10,
+    "episodes": 139,
+    "eps_365": 34,
+    "eps_90": 11,
     "first_at": "2024-05-18",
     "first_year": 1403,
-    "last": "1405/08/29",
-    "last_at": "2026-11-20T19:25:58Z",
-    "last_link": "https://shows.acast.com/threemusketeers/episodes/6b009ec74f7f96174da24a68",
-    "last_title": "قسمت صد و بیست و دوم",
+    "last": "1405/09/06",
+    "last_at": "2026-11-27T17:21:10Z",
+    "last_link": "https://shows.acast.com/threemusketeers/episodes/6b09bc077055afc83865cf06",
+    "last_title": "قسمت صد و بیست و سوم",
     "max_length": 42,
     "median_length": 30,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6b09bc077055afc83865cf06/media.mp3",
+        "at": "2026-11-27T17:21:10Z",
+        "t": "قسمت صد و بیست و سوم"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6b009ec74f7f96174da24a68/media.mp3",
         "at": "2026-11-20T19:25:58Z",
@@ -46712,14 +46717,14 @@
         "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6ac3fe947c84f5d4dd6b66a2/media.mp3",
         "at": "2026-10-05T19:46:16Z",
         "t": "تریلر سیزن پنجم پادکست سه تفنگدار"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/69380e684a9751f83d7cc1a6/e/6aa6dbca1563582c05a44feb/media.mp3",
-        "at": "2026-09-13T17:22:18Z",
-        "t": "قسمت آخر سیزن چهارم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T17:21:10Z",
+        "link": "https://shows.acast.com/threemusketeers/episodes/6b09bc077055afc83865cf06",
+        "title": "قسمت صد و بیست و سوم"
+      },
       {
         "at": "2026-11-20T19:25:58Z",
         "link": "https://shows.acast.com/threemusketeers/episodes/6b009ec74f7f96174da24a68",
@@ -46729,11 +46734,6 @@
         "at": "2026-11-17T20:17:01Z",
         "link": "https://shows.acast.com/threemusketeers/episodes/6afcb63fbc3a834741124a65",
         "title": "قسمت صد و بیست و یکم"
-      },
-      {
-        "at": "2026-11-03T10:29:42Z",
-        "link": "https://shows.acast.com/threemusketeers/episodes/6ae9b795dc2860cef4973121",
-        "title": "قسمت صد و بیستم"
       }
     ],
     "recent_30d": [
@@ -46748,7 +46748,7 @@
       4,
       3,
       3,
-      4
+      5
     ],
     "status": "active"
   },
@@ -58830,8 +58830,8 @@
       4,
       4,
       6,
-      4,
       5,
+      4,
       4,
       5,
       4,
