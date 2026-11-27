@@ -316,3 +316,26 @@ html:not(#pp) .pd-card:not(.pl-card) .pd-logo {
   border-color: rgba(255,255,255,.45) !important;
   box-shadow: 0 2px 8px rgba(0,0,0,.22) !important;
 }
+
+
+/* ---------- صفحه‌ی اختصاصی پادکست: همان حلقه و هاله‌ی وضعیت کارت‌ها ---------- */
+.pod-hero .pod-cover {
+  --pd-status-rgb: 107, 114, 128;
+  box-shadow:
+    0 0 0 2px rgba(var(--pd-status-rgb), .88),
+    0 0 10px rgba(var(--pd-status-rgb), .30);
+  transition: box-shadow .35s ease;
+}
+.pod-status-active .pod-hero .pod-cover { --pd-status-rgb: 22, 163, 74; }
+.pod-status-paused .pod-hero .pod-cover { --pd-status-rgb: 202, 138, 4; }
+.pod-status-ended .pod-hero .pod-cover { --pd-status-rgb: 220, 38, 38; }
+.pod-status-unknown .pod-hero .pod-cover { --pd-status-rgb: 107, 114, 128; }
+@media (hover: hover) {
+  .pod-hero .pod-cover:hover,
+  .pod-hero .pod-cover:focus-within {
+    box-shadow:
+      0 0 0 2px rgba(var(--pd-status-rgb), .98),
+      0 0 17px rgba(var(--pd-status-rgb), .62),
+      0 14px 28px -14px rgba(var(--pd-status-rgb), .42);
+  }
+}
