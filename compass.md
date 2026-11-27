@@ -114,9 +114,13 @@ permalink: /compass/
   <section id="pp-compass-results" class="pp-compass-results" hidden aria-live="polite">
     <div class="pp-compass-resulthead">
       <span class="pp-compass-kicker">نقشه‌ی شروع تو</span>
-      <h2>چند مسیر که ارزش امتحان‌کردن دارند</h2>
-      <p>این‌ها حکم نهایی درباره‌ی تو نیستند؛ فرضیه‌هایی برای شروع و آزمودن‌اند.</p>
+      <h2>نقشه‌ی پیشنهادی تو برای ساخت پادکست</h2>
+      <p id="pp-compass-result-summary">این نتیجه یک پیشنهاد اولیه بر اساس پاسخ‌های توست، نه برچسبی درباره‌ی شخصیت یا استعدادت.</p>
     </div>
+    <section class="pp-compass-audience-box">
+      <span>مخاطب احتمالی این مسیر</span>
+      <p id="pp-compass-audience"></p>
+    </section>
     <div id="pp-compass-directions" class="pp-compass-directions"></div>
     <section class="pp-compass-ideas">
       <h3>ایده‌هایی برای قسمت‌های اول</h3>
