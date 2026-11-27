@@ -159,10 +159,12 @@
 
   function card(p) {
     var logo = p.logo ? '<img src="' + esc(p.logo) + '" alt="" loading="lazy" decoding="async" width="72" height="72">' : "<i>" + esc((p.title || "").trim().charAt(0)) + "</i>";
-    var status = String(p.status || "unknown").trim().toLowerCase();
+    var status = String(p.status || "unknown").trim().toLowerCase()
+      .replace(/[\u064B-\u065F\u0670]/g, "")
+      .replace(/[\u200c\u200f\u200e\s_-]+/g, "");
     status = status === "active" || status === "فعال" ? "active" :
-      status === "inactive" || status === "paused" || status === "غیرفعال" || status === "متوقف" ? "inactive" :
-      status === "stopped" || status === "ended" || status === "متوقف‌شده" || status === "تمام‌شده" ? "stopped" : "unknown";
+      status === "inactive" || status === "paused" || status === "غیرفعال" ? "inactive" :
+      status === "stopped" || status === "ended" || status === "متوقف" || status === "متوقفشده" || status === "تمامشده" ? "stopped" : "unknown";
     return '<button type="button" class="pd-card pl-card pd-card--' + status + '" data-id="' + esc(p.id) + '"' + (current && current.id === p.id ? ' aria-current="true"' : "") + ">" +
       '<span class="pd-logo">' + logo + "</span>" +
       '<span class="pd-body">' + (p._new ? '<span class="pd-b new">جدید</span>' : "") + "<h3>" + esc(p.title) + "</h3>" +
