@@ -217,3 +217,21 @@ a.pl-src:hover { text-decoration: underline; }
 .pp-tag-menu button{max-width:100%;padding:7px 11px;border:1px solid var(--line);border-radius:999px;background:transparent;color:inherit;font:inherit;font-size:.82rem;cursor:pointer}
 .pp-tag-menu button[aria-pressed="true"]{border-color:var(--acc);background:rgba(8,203,0,.13);color:var(--acc);font-weight:700}
 @media(max-width:520px){.pp-learn-tools{align-items:stretch}.pp-learn-tools #a-q{flex-basis:100%}.pp-tag-filter{width:100%}.pp-tag-toggle{width:100%;text-align:center}.pp-tag-menu{width:100%;inset-inline:0}}
+
+
+/* نوار افقی اسلایدی فیلتر موضوعات؛ هماهنگ با نوار دسته‌بندی صفحه اصلی */
+.pp-learn-tools{display:flex;align-items:center;gap:12px;flex-wrap:nowrap;margin:18px 0 8px}
+.pp-learn-tools #a-q{flex:0 1 340px;min-width:180px;max-width:420px}
+.pp-learn-tagrail{position:relative;display:flex;align-items:center;flex:1 1 auto;min-width:0}
+.pp-learn-tagtrack{display:flex;align-items:center;gap:8px;width:100%;overflow-x:auto;overflow-y:hidden;padding:7px 4px 10px;scroll-snap-type:x proximity;scrollbar-width:none;-webkit-overflow-scrolling:touch;cursor:grab}
+.pp-learn-tagtrack::-webkit-scrollbar{display:none}
+.pp-learn-tagtrack.is-dragging{cursor:grabbing;user-select:none}
+.pp-learn-tag{flex:0 0 auto;scroll-snap-align:center;padding:7px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--mut);font:inherit;font-size:.82rem;line-height:1.5;white-space:nowrap;cursor:pointer;transition:color .2s,border-color .2s,background .2s}
+.pp-learn-tag:hover,.pp-learn-tag:focus-visible{color:var(--acc);border-color:rgba(8,203,0,.55);outline:none}
+.pp-learn-tag.is-active{color:var(--acc);border-color:rgba(8,203,0,.65);background:rgba(8,203,0,.10);font-weight:800}
+.pp-learn-arrow{position:absolute;z-index:2;top:50%;transform:translateY(-60%);display:grid;place-items:center;width:30px;height:30px;border:1px solid var(--line);border-radius:50%;background:var(--card);color:var(--acc);font-size:1.4rem;line-height:1;box-shadow:0 3px 12px rgba(0,0,0,.12);cursor:pointer}
+.pp-learn-arrow[hidden]{display:none}
+.pp-learn-arrow--prev{right:-5px}
+.pp-learn-arrow--next{left:-5px}
+.pp-learn-current{display:inline-block;flex:0 0 auto;padding:4px 10px;border-radius:999px;background:rgba(8,203,0,.1);color:var(--acc);font-size:.78rem;cursor:pointer}
+@media(max-width:700px){.pp-learn-tools{flex-wrap:wrap;gap:8px}.pp-learn-tools #a-q{flex:1 1 100%;max-width:none}.pp-learn-tagrail{flex:1 1 100%;width:100%}.pp-learn-arrow{display:none!important}.pp-learn-tagtrack{padding-inline:2px}}
