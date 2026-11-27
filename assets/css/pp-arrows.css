@@ -45,11 +45,11 @@
   }
   /* جای دو فلش عمداً با هم عوض شد */
   html body .pd-group .pd-row-wrap > button.pd-prev {
-    left: -48px !important;
+    left: 8px !important;
     right: auto !important;
   }
   html body .pd-group .pd-row-wrap > button.pd-next {
-    right: -48px !important;
+    right: 8px !important;
     left: auto !important;
   }
   html body .pd-group .pd-row-wrap > button.pd-arrow svg {
@@ -67,12 +67,3 @@
   }
 }
 
-/* فاصله‌ی بیشتر در صفحه‌ی «گوش بده»: فلش‌ها بیرون از لبه‌ی باکس پلیر بمانند. */
-@media (min-width: 800px) {
-  html body .pl .pd-group .pd-row-wrap > button.pd-prev {
-    left: -54px !important;
-  }
-  html body .pl .pd-group .pd-row-wrap > button.pd-next {
-    right: -54px !important;
-  }
-}
