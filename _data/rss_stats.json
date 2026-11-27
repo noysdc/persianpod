@@ -63800,20 +63800,27 @@
     "status": "active"
   },
   "podcast-farsi-khrmkst-kharmacast": {
+    "avg_gap_days": 45.0,
     "avg_length": 29,
-    "episodes": 13,
-    "eps_365": 1,
-    "eps_90": 1,
+    "episodes": 14,
+    "eps_365": 2,
+    "eps_90": 2,
     "first_at": "2020-05-07",
     "first_year": 1399,
-    "last": "1405/07/21",
-    "last_at": "2026-10-13T08:26:00Z",
+    "last": "1405/09/06",
+    "last_at": "2026-11-27T10:01:18Z",
     "last_link": "https://podcasters.spotify.com/pod/show/kharmacast",
-    "last_title": "دوازده؛ سقراط",
+    "last_title": "سیزده؛ افلاطون-بخش اول",
     "max_length": 35,
     "median_length": 30,
     "min_length": 17,
     "play": [
+      {
+        "a": "https://audio4.redcircle.com/episodes/03e8a6c9-7e58-4ddb-9475-622ead534e48/stream.mp3",
+        "at": "2026-11-27T10:01:18Z",
+        "i": "https://media.redcircle.com/images/2026/11/22/12/62f19a7a-a71a-4c47-b71b-5abff01a5af8_kharmacast_3.jpg",
+        "t": "سیزده؛ افلاطون-بخش اول"
+      },
       {
         "a": "https://audio4.redcircle.com/episodes/b7e40d12-74fb-41d1-a911-886cda41de20/stream.mp3",
         "at": "2026-10-13T08:26:00Z",
@@ -63855,15 +63862,15 @@
         "at": "2020-09-11T07:37:22Z",
         "i": "https://media.redcircle.com/images/2026/5/22/10/e636efdd-9d10-4c76-895c-c9a621313045_4627783-1599766334523-aa46b4abf8346.jpg",
         "t": "شش؛ زنون الئایی"
-      },
-      {
-        "a": "https://audio4.redcircle.com/episodes/1e5c4633-0ad5-4e94-8e65-6a7643124adf/stream.mp3",
-        "at": "2020-08-04T07:17:40Z",
-        "i": "https://media.redcircle.com/images/2026/5/22/10/6f329f87-9249-4b37-9968-0eb2a4512dfe_4627783-1596525468628-ac61115af864d.jpg",
-        "t": "پنج؛ پارمنیدس"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T10:01:18Z",
+        "i": "https://media.redcircle.com/images/2026/11/22/12/62f19a7a-a71a-4c47-b71b-5abff01a5af8_kharmacast_3.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/kharmacast",
+        "title": "سیزده؛ افلاطون-بخش اول"
+      },
       {
         "at": "2026-10-13T08:26:00Z",
         "i": "https://media.redcircle.com/images/2026/10/13/8/23557bed-b093-428e-ba76-fd9cdc592abf_kharmacastr2.jpg",
@@ -63875,12 +63882,6 @@
         "i": "https://media.redcircle.com/images/2026/5/22/10/bce1866a-75b8-48a3-ac4d-0dcf05c58a0a_4627783-1589387451337-de0cd12f7c6be.jpg",
         "link": "https://podcasters.spotify.com/pod/show/kharmacast/episodes/ep-e165hsm",
         "title": "یازده؛ سوفسطایی‌ها"
-      },
-      {
-        "at": "2021-05-06T06:47:57Z",
-        "i": "https://media.redcircle.com/images/2026/5/22/10/7e908eab-5b6e-4280-bbb4-81966c9661ce_4627783-1620246155159-86ab263ee4bb5.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/kharmacast/episodes/ep-e10aek0",
-        "title": "ده؛ مرور پیشاسقراطی‌ها"
       }
     ],
     "recent_30d": [
@@ -63895,7 +63896,7 @@
       0,
       0,
       1,
-      0
+      1
     ],
     "status": "active"
   },
@@ -80278,8 +80279,8 @@
     ],
     "recent_30d": [
       7,
-      6,
-      12,
+      7,
+      11,
       0,
       0,
       0,
