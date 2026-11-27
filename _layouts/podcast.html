@@ -10,7 +10,7 @@ layout: default
 {% assign stv = page.status_override | default: site.data.rss_stats[page.slug].status | default: page.status | default: 'unknown' %}
 {% if stv == 'متوقف' or stv == 'متوقف‌شده' or stv == 'stopped' or stv == 'ended' or stv == 'تمام‌شده' or stv == 'تمام شده' %}
   {% assign stv = 'stopped' %}
-{% elsif stv == 'متوقف' or stv == 'paused' or stv == 'inactive' or stv == 'غیرفعال' %}
+{% elsif stv == 'paused' or stv == 'inactive' or stv == 'غیرفعال' %}
   {% assign stv = 'inactive' %}
 {% elsif stv == 'فعال' or stv == 'active' %}
   {% assign stv = 'active' %}
