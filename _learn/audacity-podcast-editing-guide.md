@@ -2,7 +2,7 @@
 layout: learn-post
 title: "آموزش Audacity برای پادکست؛ از ضبط و تدوین تا خروجی نهایی"
 description: "با یک پروژه‌ی ساده در Audacity ضبط کنید، اشتباه‌ها را اصلاح کنید، صدا را تمیز و متعادل کنید، بلندی را تنظیم کنید و فایل نهایی را خروجی بگیرید."
-date: 2026-11-27 12:00:00 +0330
+date: 2026-11-27 00:00:00 +0330
 source: "مستندات رسمی Audacity"
 source_url: "https://www.audacityteam.org/manual/getting-started/"
 tags: ["Audacity", "تدوین صدا", "ضبط", "نرم‌افزار رایگان"]
