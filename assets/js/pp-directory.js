@@ -192,8 +192,8 @@
       .replace(/[\u064B-\u065F\u0670]/g, "")
       .replace(/[\u200c\u200f\u200e\s_-]+/g, "");
     if (s === "active" || s === "فعال") return "active";
-    if (s === "inactive" || s === "paused" || s === "غیرفعال" || s === "متوقف") return "inactive";
-    if (s === "stopped" || s === "ended" || s === "متوقفشده" || s === "تمامشده" || s === "پایانیافته") return "stopped";
+    if (s === "inactive" || s === "paused" || s === "غیرفعال") return "inactive";
+    if (s === "stopped" || s === "ended" || s === "متوقف" || s === "متوقفشده" || s === "تمامشده" || s === "پایانیافته") return "stopped";
     return "unknown";
   }
   function statusBadge(p) {
