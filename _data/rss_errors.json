@@ -1,4 +1,8 @@
 {
+  "aahng-hai-zban-anglisi": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
+    "rss": "http://zabandownload.com/language/english/%D8%B4%D8%B9%D8%B1-%D9%87%D8%A7%DB%8C-%D8%A7%D9%86%DA%AF%D9%84%DB%8C%D8%B3%DB%8C/feed/"
+  },
   "aajil": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feeds.libsyn.com/419687/rss"
@@ -11,9 +15,17 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
   },
+  "aamozsh-hai-soti-ajrai-ahkam-kifri-asatid-hghogh-ghzat-okla": {
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "rss": "https://www.ghazavatonline.com/category/audio/civil-judgments-enforcement-audio/feed/"
+  },
   "aamozsh-zban-anglisi-talk-stop": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
+  },
+  "ahsan-ashrfi": {
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "http://shamsrumi.com/author/admin3/feed"
   },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -22,6 +34,10 @@
   "akhbar-o-mghalat": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://golbargmehr.com/category/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1-%D9%88-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/feed/"
+  },
+  "amr-bh-marof-o-nhi-az-mnkr": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
+    "rss": "https://mojtahedshabestari.ir/category/d2/maroof/feed/"
   },
   "archgap-padkst-mamari-aark-gp": {
     "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
@@ -35,6 +51,10 @@
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://podcasters.spotify.com/pod/show/qtg5chpytuny2rcvgz13tq1xy"
   },
+  "baigani-ha-mdia": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
+    "rss": "https://www.bangeney.ir/category/%D9%85%D8%AF%DB%8C%D8%A7/feed/"
+  },
   "baigani-ha-sda": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://musiceiranian.ir/type/audio/feed"
@@ -46,6 +66,10 @@
   "bookafe-bokafh": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/saharnik1981/feed.xml"
+  },
+  "borsaoai-ktab": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
+    "rss": "http://cpsmbroker.com/feed/podcast/bookbourseava"
   },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
@@ -66,6 +90,10 @@
   "dopamin": {
     "error": "RuntimeError: HTTP 410 (Gone) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/dopaminecast/feed.xml"
+  },
+  "dorh-hai-aamozsh-zban-aalmani": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://faridlingo.ir/category/german-courses/feed/"
   },
   "farks-ba-aitska": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -111,6 +139,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
   },
+  "ksri-aatmadi": {
+    "error": "RuntimeError: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>",
+    "rss": "https://www.hifi.ir/author/kasra/feed/"
+  },
   "ktab-soti-7954218": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://www.spreaker.com/show/7177177/episodes/feed"
@@ -130,6 +162,22 @@
   "marktplatz-zban-aalmani-dr-aghtsad": {
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
+  },
+  "mimmpodcast": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmhwe10fp49z7yriygrn1"
+  },
+  "mjmoah-ha": {
+    "error": "ValueError: no items in feed",
+    "rss": "https://www.maqzrap.com/albums/feed/"
+  },
+  "mosighi-film": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://www.filmovies.ir/category/%D9%85%D9%88%D8%B3%DB%8C%D9%82%DB%8C-%D9%81%DB%8C%D9%84%D9%85/feed/"
+  },
+  "mozik-trki": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
+    "rss": "http://www.aharri.ir/category/%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%AA%D8%B1%DA%A9%DB%8C/feed/"
   },
   "nt-piano": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
@@ -151,6 +199,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/c6c31a9c/podcast/rss"
   },
+  "podcast-hai-aamozshi": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "rss": "https://www.zabanyaar.ir/category/english-podcast/feed"
+  },
   "podcast-khakstri-roan": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.dotcast.org/p/1orxtms6/feed.xml"
@@ -166,6 +218,10 @@
   "podcast-satori": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/satori/feed/"
+  },
+  "podcast-zist-ngah": {
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://tehranpodcast.ir/category/zistnegah/feed/"
   },
   "pzhoak-mahor": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -215,6 +271,10 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://ajalallah.com/category/sokhanraniha/akharinsokhanrani/revayat-ahd/feed/"
   },
+  "roanshnasi-aaramsh-lzt-o-aazadi-shkhsi-mhmd-amin-tajor": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
+    "rss": "https://taajvar.ir/author/admin2/feed/"
+  },
   "roanshnasi-bh-zban-sadh": {
     "error": "ValueError: no items in feed",
     "rss": "http://rss.castbox.fm/everest/2234ebfd58d34508827470b98f56c03b.xml"
@@ -227,9 +287,17 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://paymanpsychology.com/feed/"
   },
+  "roanshnasi-tghzih": {
+    "error": "ValueError: no items in feed",
+    "rss": "https://kermany.com/category/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA/%D8%B1%D9%88%D8%A7%D9%86%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%AA%D8%BA%D8%B0%DB%8C%D9%87/feed/"
+  },
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
+  },
+  "sdahai-mn": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
+    "rss": "https://taajvar.ir/category/%D8%B5%D8%AF%D8%A7%D9%87%D8%A7%DB%8C-%D9%85%D9%86/feed/"
   },
   "sot-o-film": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
@@ -242,6 +310,10 @@
   "synapselingo-iadgiri-zban-anglisi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://synapselingo-persian-learn-english.podigee.io/feed/mp3"
+  },
+  "tam-shirin-mofghit": {
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
+    "rss": "https://www.nicetech.ir/feed/"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
