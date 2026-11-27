@@ -332,9 +332,14 @@
   out.addEventListener("click", function (e) {
     var a = e.target.closest(".pd-arrow");
     if (a) {
-      var row = $(".pd-row", a.parentNode), rtl = getComputedStyle(row).direction === "rtl";
-      var sign = (a.getAttribute("data-dir") === "next") === rtl ? -1 : 1;
-      row.scrollBy({ left: sign * Math.max(240, row.clientWidth * 0.85), behavior: "smooth" });
+      var wrap = a.closest(".pd-row-wrap");
+      var row = wrap && $(".pd-row", wrap);
+      if (!row) return;
+      var step = Math.max(240, row.clientWidth * 0.85);
+      /* فلشِ سمت چپ به چپ و فلشِ سمت راست به راست حرکت می‌کند؛
+         این جهت در ریل RTL کروم نیز با scrollLeft منفی درست عمل می‌کند. */
+      var delta = a.classList.contains("pd-prev") ? -step : step;
+      row.scrollBy({ left: delta, behavior: "smooth" });
       return;
     }
     var t = e.target.closest(".pd-cat-link");
