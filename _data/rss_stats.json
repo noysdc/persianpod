@@ -41715,8 +41715,8 @@
       }
     ],
     "recent_30d": [
-      178,
-      28,
+      179,
+      27,
       56,
       0,
       0,
@@ -77365,27 +77365,21 @@
     "status": "active"
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
-    "avg_gap_days": 0.2,
-    "avg_length": 198,
-    "episodes": 153,
-    "eps_365": 153,
-    "eps_90": 153,
+    "avg_gap_days": 0.1,
+    "avg_length": 201,
+    "episodes": 152,
+    "eps_365": 152,
+    "eps_90": 152,
     "first_at": "2026-11-01",
     "first_year": 1405,
-    "last": "1405/09/06",
-    "last_at": "2026-11-27T17:23:52Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ladjevardi--Mahmoud-e3t4kta",
-    "last_title": "Ladjevardi, Mahmoud",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T02:24:40Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baghaie-Kermani--Mozaffar-Part-7-e3stij3",
+    "last_title": "Baghaie-Kermani, Mozaffar Part 7",
     "max_length": 250,
     "median_length": 119,
     "min_length": 20,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/130224490/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-27%2Fd2be21c0-e2be-003d-5b36-cec4463c42cf.mp3",
-        "at": "2026-11-27T17:23:52Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795800216651-d3e661f5d02e3.jpg",
-        "t": "Ladjevardi, Mahmoud"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/129992739/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fdff34c33-5902-1e35-27e4-657715c1cd54.mp3",
         "at": "2026-11-24T02:24:40Z",
@@ -77427,15 +77421,15 @@
         "at": "2026-11-24T02:08:32Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486000472-3d15c586e7ae8.jpg",
         "t": "Baghaie-Kermani, Mozaffar Part 1"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129835862/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2Fd9df1032-cd28-1293-6387-86d3ac0b788e.mp3",
+        "at": "2026-11-20T23:27:19Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795217148205-fe3b65f97f3e1.jpg",
+        "t": "Baheri, Mohammad Part 8"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-27T17:23:52Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795800216651-d3e661f5d02e3.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ladjevardi--Mahmoud-e3t4kta",
-        "title": "Ladjevardi, Mahmoud"
-      },
       {
         "at": "2026-11-24T02:24:40Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486882979-f38cd9ee90723.jpg",
@@ -77447,6 +77441,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486735766-2eb84749ddb34.jpg",
         "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baghaie-Kermani--Mozaffar-Part-6-e3stigj",
         "title": "Baghaie-Kermani, Mozaffar Part 6"
+      },
+      {
+        "at": "2026-11-24T02:18:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486587235-f8a73957d38e3.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baghaie-Kermani--Mozaffar-Part-5-e3stidt",
+        "title": "Baghaie-Kermani, Mozaffar Part 5"
       }
     ],
     "recent_30d": [
@@ -77461,7 +77461,7 @@
       0,
       0,
       0,
-      153
+      152
     ],
     "status": "active"
   },
