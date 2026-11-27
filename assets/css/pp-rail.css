@@ -117,3 +117,45 @@
 .pd-group .pd-card .pd-status--ended {
   background: #a1a1aa; box-shadow: 0 0 6px rgba(161,161,170,.5);
 }
+
+
+/* فلش‌های فارسیِ همیشه‌پیدا در دسکتاپ */
+@media (hover: hover) and (min-width: 800px) {
+  .pd-group .pd-row-wrap .pd-arrow,
+  .pd-group .pd-row-wrap.no-scroll .pd-arrow {
+    display: inline-flex !important;
+    align-items: center; justify-content: center; gap: 5px;
+    position: absolute; top: 50%; transform: translateY(-50%);
+    width: auto; min-width: 68px; height: 34px; padding: 0 9px;
+    opacity: .98 !important; visibility: visible !important; pointer-events: auto !important;
+    z-index: 10; border: 1px solid var(--line); border-radius: 999px;
+    background: var(--card); color: var(--ink);
+    -webkit-backdrop-filter: none; backdrop-filter: none;
+    box-shadow: 0 3px 12px rgba(0,0,0,.14);
+    font: inherit; font-size: .76rem; font-weight: 700; white-space: nowrap;
+  }
+  .pd-group .pd-row-wrap .pd-prev { right: 7px; left: auto; }
+  .pd-group .pd-row-wrap .pd-next { left: 7px; right: auto; }
+  .pd-group .pd-row-wrap .pd-arrow:hover {
+    color: var(--acc); border-color: var(--acc);
+    box-shadow: 0 5px 16px var(--glow-soft);
+  }
+  .pd-group .pd-row-wrap .pd-arrow svg { width: 15px; height: 15px; flex: none; }
+}
+/* چراغ‌های کوچک‌تر و شفاف‌تر */
+.pd-group .pd-card .pd-status {
+  width: 8px; height: 8px; border: 0; opacity: 1;
+}
+.pd-group .pd-card .pd-status--active {
+  box-shadow: 0 0 4px rgba(34,197,94,.72), 0 0 7px rgba(34,197,94,.25);
+}
+.pd-group .pd-card .pd-status--inactive {
+  box-shadow: 0 0 4px rgba(250,204,21,.72), 0 0 7px rgba(250,204,21,.25);
+}
+.pd-group .pd-card .pd-status--stopped {
+  box-shadow: 0 0 4px rgba(239,68,68,.72), 0 0 7px rgba(239,68,68,.25);
+}
+.pd-group .pd-card .pd-status--unknown,
+.pd-group .pd-card .pd-status--ended {
+  box-shadow: 0 0 3px rgba(161,161,170,.4);
+}
