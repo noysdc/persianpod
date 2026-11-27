@@ -39685,8 +39685,8 @@
       7,
       5,
       5,
-      3,
-      7,
+      4,
+      6,
       5
     ],
     "status": "active"
@@ -49213,19 +49213,25 @@
   "mhm-trin-akhbar-amroz-astralia": {
     "avg_gap_days": 1.1,
     "avg_length": 7,
-    "episodes": 1010,
-    "eps_365": 327,
-    "eps_90": 81,
+    "episodes": 1011,
+    "eps_365": 328,
+    "eps_90": 82,
     "first_at": "2023-11-21",
     "first_year": 1402,
     "last": "1405/09/06",
-    "last_at": "2026-11-27T00:59:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/europe-in-support-of-ukraine-america-in-trade-war-and-australia-under-inflation-pressure/016382nvo",
-    "last_title": "اروپا در حمایت از اوکراین، آمریکا در جنگ تجاری و استرالیا زیر فشار تورم",
+    "last_at": "2026-11-27T01:49:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/victorias-election-campaign-enters-its-final-day/mmsah3pck",
+    "last_title": "کارزار انتخاباتی ایالت ویکتوریا وارد آخرین روز خود شد",
     "max_length": 16,
     "median_length": 4,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261127124926_012010-persian-4977b565-111b-4497-92a3-467c6c6574bf.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a2-1a83-d80b-a7b2-1f8fce140000&dur_cat=2",
+        "at": "2026-11-27T01:49:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261127125004_163728-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "t": "کارزار انتخاباتی ایالت ویکتوریا وارد آخرین روز خود شد"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261127115951_873768-persian-6348dc51-2c6d-4a68-bfe7-bd8b5dc47ac2.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a2-1a81-dc19-a1ff-1be96bf30000&dur_cat=3",
         "at": "2026-11-27T00:59:00Z",
@@ -49267,15 +49273,15 @@
         "at": "2026-11-20T00:42:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261120114227_743789-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "t": "درخواست مستقیم آنتونی آلبانیزی از پوتین برای پایان دادن به جنگ اوکراین"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/persian-newsflash/20261118144320_870156-persian-ab911561-1904-4924-8507-ef13051f3a04.mp3?awCollectionId=persian-newsflash&awGenre=News&awEpisodeId=000001a1-ecaf-d770-a3f5-edff25590000&dur_cat=2",
-        "at": "2026-11-18T03:43:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261118144324_061559-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "t": "پائولین هنسون: «وان نیشن» ویزای دائم والدین را لغو می کند و پذیرش پناهنده را به ۲۰۰۰ نفر می رساند"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T01:49:00Z",
+        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261127125004_163728-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/victorias-election-campaign-enters-its-final-day/mmsah3pck",
+        "title": "کارزار انتخاباتی ایالت ویکتوریا وارد آخرین روز خود شد"
+      },
       {
         "at": "2026-11-27T00:59:00Z",
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261127115954_445576-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
@@ -49287,12 +49293,6 @@
         "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261126150708_352251-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/south-australian-liberal-senator-defects-to-one-nation/xlb7kv7x7",
         "title": "سناتور لیبرال به حزب وان نیشن پیوست"
-      },
-      {
-        "at": "2026-11-25T04:06:00Z",
-        "i": "https://sbs-rss.streamguys1.com/persian-newsflash/20261125150953_306763-sbs-podcasts-persian-newsflash-3000x3000px-ltr.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/inflation-rises-again-ahead-of-the-reserve-banks-next-interest-rate-decision/p6vkhavcl",
-        "title": "افزایش دوباره نرخ تورم در آستانه تصمیم بعدی بانک مرکزی استرالیا درباره نرخ بهره"
       }
     ],
     "recent_30d": [
@@ -49307,7 +49307,7 @@
       28,
       23,
       31,
-      27
+      28
     ],
     "status": "active"
   },
