@@ -33760,21 +33760,26 @@
     "status": "stopped"
   },
   "iran-nameh": {
-    "avg_gap_days": 1.4,
-    "avg_length": 25,
-    "episodes": 6,
-    "eps_365": 6,
-    "eps_90": 6,
+    "avg_gap_days": 1.5,
+    "avg_length": 27,
+    "episodes": 7,
+    "eps_365": 7,
+    "eps_90": 7,
     "first_at": "2026-11-17",
     "first_year": 1405,
-    "last": "1405/09/04",
-    "last_at": "2026-11-25T08:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/play.mp3?v=3",
-    "last_title": "اسرار جشن آذرگان دروازه‌ای میان دو جهان | قسمت ششم ایران نامه",
+    "last": "1405/09/06",
+    "last_at": "2026-11-27T04:30:00Z",
+    "last_link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/c23446e1-2664-404c-ac91-bcb7d73490d1/play.mp3?v=1",
+    "last_title": "برده ایتالیایی که ملکه اشکانی شد | قسمت هفتم ایران نامه",
     "max_length": 42,
-    "median_length": 23,
+    "median_length": 26,
     "min_length": 15,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/c23446e1-2664-404c-ac91-bcb7d73490d1/play.mp3?v=1",
+        "at": "2026-11-27T04:30:00Z",
+        "t": "برده ایتالیایی که ملکه اشکانی شد | قسمت هفتم ایران نامه"
+      },
       {
         "a": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/play.mp3?v=3",
         "at": "2026-11-25T08:30:00Z",
@@ -33814,6 +33819,11 @@
     ],
     "recent": [
       {
+        "at": "2026-11-27T04:30:00Z",
+        "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/c23446e1-2664-404c-ac91-bcb7d73490d1/play.mp3?v=1",
+        "title": "برده ایتالیایی که ملکه اشکانی شد | قسمت هفتم ایران نامه"
+      },
+      {
         "at": "2026-11-25T08:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/a7f44a89-3e17-4f88-ba46-49a01e8e8e18/play.mp3?v=3",
@@ -33824,12 +33834,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/6c671879-cad7-49f1-b84c-c07c263d8e94/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/6c671879-cad7-49f1-b84c-c07c263d8e94/play.mp3?v=1",
         "title": "تمدن گمشده ارته | قسمت پنجم ایران نامه"
-      },
-      {
-        "at": "2026-11-19T19:32:42Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/25711ad9-bfa1-4726-81e8-df0e989e78dd/episodes/3254b368-347d-4bc1-b11f-0981e5480d32/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/25711ad9-bfa1-4726-81e8-df0e989e78dd/episode/3254b368-347d-4bc1-b11f-0981e5480d32/play.mp3?v=1",
-        "title": "پیشگویی اوستا از آخرالزمان | قسمت چهارم ایران نامه"
       }
     ],
     "recent_30d": [
@@ -33844,7 +33848,7 @@
       0,
       0,
       0,
-      6
+      7
     ],
     "status": "active"
   },
@@ -89720,8 +89724,8 @@
       37,
       18,
       19,
-      24,
-      24
+      25,
+      23
     ],
     "status": "active"
   },
@@ -97697,8 +97701,8 @@
       7,
       13,
       37,
-      41,
-      36,
+      43,
+      34,
       24
     ],
     "status": "active"
