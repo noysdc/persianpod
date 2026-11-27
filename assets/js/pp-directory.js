@@ -85,7 +85,7 @@
     p._ep = num(p.episodes) || null;
     p._len = num(p.length) || null;
     p._yr = y || null;
-    p._active = (p.status || "active") === "active";
+    p._status = normalizeStatus(p.status);\n    p._active = p._status === "active";
     var subs = Array.isArray(p.subcategories) ? p.subcategories : (p.subcategory ? [p.subcategory] : []);
     p._subs = subs.map(norm);
     p._tags = tags.map(norm);
@@ -186,11 +186,20 @@
 
   /* ---------- نمایش ---------- */
   function badge(t, on) { return '<span class="pd-b' + (on ? " on" : "") + '">' + t + "</span>"; }
+  function normalizeStatus(value) {
+    var s = String(value == null ? "" : value).trim().toLowerCase()
+      .replace(/[\\u064B-\\u065F\\u0670]/g, "")
+      .replace(/[\\u200c\\u200f\\u200e\\s_-]+/g, "");
+    if (s === "active" || s === "فعال") return "active";
+    if (s === "inactive" || s === "paused" || s === "غیرفعال" || s === "متوقف") return "inactive";
+    if (s === "stopped" || s === "ended" || s === "متوقفشده" || s === "تمامشده" || s === "پایانیافته") return "stopped";
+    return "unknown";
+  }
   function statusBadge(p) {
-    var s = String(p.status || "active").trim().toLowerCase();
-    var info = s === "inactive" || s === "paused" || s === "غیرفعال" ? ["inactive", "غیرفعال"] :
-      s === "stopped" || s === "متوقف" || s === "متوقف‌شده" || s === "ended" || s === "تمام‌شده" ? ["stopped", "متوقف"] :
-      s === "unknown" ? ["unknown", "نیازمند بررسی"] : ["active", "فعال"];
+    var s = normalizeStatus(p.status);
+    var info = s === "inactive" ? ["inactive", "غیرفعال"] :
+      s === "stopped" ? ["stopped", "متوقف"] :
+      s === "active" ? ["active", "فعال"] : ["unknown", "نیازمند بررسی"];
     return '<span class="pd-status pd-status--' + info[0] + '" role="img" aria-label="وضعیت پادکست: ' + info[1] + '" title="' + info[1] + '"></span>';
   }
   function tagHref(c, sb) { return "?category=" + encodeURIComponent(c) + (sb ? "&sub=" + encodeURIComponent(sb) : ""); }
