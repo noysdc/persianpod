@@ -202,3 +202,18 @@ a.pl-src:hover { text-decoration: underline; }
 .pl-post-body blockquote p:last-child{margin-bottom:0}
 :root[data-theme=dark] .pl-post-body h2::before,:root[data-theme=dark] .pl-post-body h3::before,:root[data-theme=dark] .pl-post-body ul li::before,:root[data-theme=dark] .pl-post-body ol li::before{color:#dfffe9}
 @media(max-width:799px){.pl-post-body h2{padding-inline-start:2.8rem}.pl-post-body h2::before{inset-inline-start:.65rem;width:1.5rem;height:1.5rem}.pl-post-body ul li,.pl-post-body ol li{padding:11px 42px 11px 12px}}
+
+
+/* فیلتر موضوعات صفحه آموزش: فهرست بازشونده به‌جای ردیف بلند تگ‌ها */
+.pp-learn-tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.pp-learn-tools #a-q{flex:1 1 260px;min-width:0}
+.pp-tag-filter{position:relative;flex:0 0 auto;max-width:100%}
+.pp-tag-toggle{min-height:44px;padding:9px 15px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--text);font:inherit;font-size:.9rem;cursor:pointer;white-space:nowrap}
+.pp-tag-toggle:hover,.pp-tag-toggle:focus-visible{border-color:var(--acc);outline:none}
+.pp-tag-toggle span{margin-inline-start:8px;color:var(--acc)}
+.pp-tag-current{display:inline-block;margin-inline-start:7px;padding:6px 10px;border-radius:9px;background:rgba(8,203,0,.1);color:var(--acc);font-size:.82rem;cursor:pointer}
+.pp-tag-menu{position:absolute;z-index:30;top:calc(100% + 8px);inset-inline-end:0;width:min( min(440px, calc(100vw - 32px)), 440px);max-height:min(55vh,360px);overflow:auto;padding:12px;display:flex;flex-wrap:wrap;align-content:flex-start;gap:7px;border:1px solid var(--line);border-radius:15px;background:var(--card);box-shadow:0 14px 38px rgba(0,0,0,.16)}
+.pp-tag-menu[hidden]{display:none}
+.pp-tag-menu button{max-width:100%;padding:7px 11px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--text);font:inherit;font-size:.82rem;cursor:pointer}
+.pp-tag-menu button[aria-pressed="true"]{border-color:var(--acc);background:rgba(8,203,0,.13);color:var(--acc);font-weight:700}
+@media(max-width:520px){.pp-learn-tools{align-items:stretch}.pp-learn-tools #a-q{flex-basis:100%}.pp-tag-filter{width:100%}.pp-tag-toggle{width:100%;text-align:center}.pp-tag-menu{width:100%;inset-inline:0}}
