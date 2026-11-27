@@ -336,8 +336,8 @@
       var row = wrap && $(".pd-row", wrap);
       if (!row) return;
       var step = Math.max(240, row.clientWidth * 0.85);
-      /* در ریل RTL صفحه‌ی اصلی، علامت scrollBy برعکس جهت بصری است؛ بنابراین جهت حرکت را معکوس می‌کنیم. */
-      var delta = a.classList.contains("pd-prev") ? step : -step;
+      /* همان جهتِ تأییدشده‌ی صفحه‌ی «گوش بده»: فلش چپ به چپ و فلش راست به راست. */
+      var delta = a.classList.contains("pd-prev") ? -step : step;
       row.scrollBy({ left: delta, behavior: "smooth" });
       return;
     }
