@@ -85,7 +85,8 @@
     p._ep = num(p.episodes) || null;
     p._len = num(p.length) || null;
     p._yr = y || null;
-    p._status = normalizeStatus(p.status);\n    p._active = p._status === "active";
+    p._status = normalizeStatus(p.status);
+    p._active = p._status === "active";
     var subs = Array.isArray(p.subcategories) ? p.subcategories : (p.subcategory ? [p.subcategory] : []);
     p._subs = subs.map(norm);
     p._tags = tags.map(norm);
@@ -188,8 +189,8 @@
   function badge(t, on) { return '<span class="pd-b' + (on ? " on" : "") + '">' + t + "</span>"; }
   function normalizeStatus(value) {
     var s = String(value == null ? "" : value).trim().toLowerCase()
-      .replace(/[\\u064B-\\u065F\\u0670]/g, "")
-      .replace(/[\\u200c\\u200f\\u200e\\s_-]+/g, "");
+      .replace(/[\u064B-\u065F\u0670]/g, "")
+      .replace(/[\u200c\u200f\u200e\s_-]+/g, "");
     if (s === "active" || s === "فعال") return "active";
     if (s === "inactive" || s === "paused" || s === "غیرفعال" || s === "متوقف") return "inactive";
     if (s === "stopped" || s === "ended" || s === "متوقفشده" || s === "تمامشده" || s === "پایانیافته") return "stopped";
