@@ -336,9 +336,8 @@
       var row = wrap && $(".pd-row", wrap);
       if (!row) return;
       var step = Math.max(240, row.clientWidth * 0.85);
-      /* فلشِ سمت چپ به چپ و فلشِ سمت راست به راست حرکت می‌کند؛
-         این جهت در ریل RTL کروم نیز با scrollLeft منفی درست عمل می‌کند. */
-      var delta = a.classList.contains("pd-prev") ? -step : step;
+      /* در ریل RTL صفحه‌ی اصلی، علامت scrollBy برعکس جهت بصری است؛ بنابراین جهت حرکت را معکوس می‌کنیم. */
+      var delta = a.classList.contains("pd-prev") ? step : -step;
       row.scrollBy({ left: delta, behavior: "smooth" });
       return;
     }
