@@ -258,3 +258,13 @@ a.pl-src:hover { text-decoration: underline; }
 .pl-post-body tbody tr:nth-child(even){background:rgba(128,145,136,.055)}
 @media(max-width:700px){.pl-post-body table{min-width:0}.pl-post-body table thead,.pl-post-body table tbody{min-width:560px}.pl-post-body th,.pl-post-body td{min-width:130px;padding:9px 11px;font-size:.86rem}}
 @media(prefers-reduced-motion:reduce){.pp-learn-compass{transition:none}.pp-learn-compass:hover{transform:none}}
+
+
+/* اصلاح عرض جست‌وجو در دسکتاپ: فضای متعادل‌تری در کنار فیلتر موضوعات */
+@media (min-width: 701px) {
+  .pp-learn-tools #a-q {
+    flex: 1 1 50%;
+    min-width: 280px;
+    max-width: none;
+  }
+}
