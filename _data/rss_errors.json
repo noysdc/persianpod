@@ -95,6 +95,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://media.rss.com/hirbod/feed.xml"
   },
+  "hghogh-ansan-az-didgah-aslam": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://islamhouse.com/pc/708170"
+  },
   "hnr-jng": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://namlik.me/rss/318"
@@ -102,10 +106,6 @@
   "hs-khob": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.pod.co/hese-khob"
-  },
-  "kaktos": {
-    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://hmpc.ir/feed/podcast/cactus/"
   },
   "khatrh-angiz": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
@@ -118,10 +118,6 @@
   "kodkan-mana": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/55d07f28/podcast/rss"
-  },
-  "ktab-asr-mrkb": {
-    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://hmpc.ir/feed/podcast/asare-morakab/"
   },
   "ktab-soti-7954218": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -254,6 +250,10 @@
   "synapselingo-iadgiri-zban-anglisi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://synapselingo-persian-learn-english.podigee.io/feed/mp3"
+  },
+  "trjmh-soti-ghraan-hkim": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://islamhouse.com/pc/2817325"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
