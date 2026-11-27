@@ -16,7 +16,7 @@
     "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
   },
   "aamozsh-hai-soti-ajrai-ahkam-kifri-asatid-hghogh-ghzat-okla": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://www.ghazavatonline.com/category/audio/civil-judgments-enforcement-audio/feed/"
   },
   "aamozsh-zban-anglisi-talk-stop": {
@@ -120,7 +120,7 @@
     "rss": "https://media.rss.com/hirbod/feed.xml"
   },
   "hnr-jng": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://namlik.me/rss/318"
   },
   "hs-khob": {
