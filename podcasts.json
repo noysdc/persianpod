@@ -10,8 +10,8 @@ permalink: /podcasts.json
 {%- for p in site.podcasts -%}
 {%- assign st = site.data.rss_stats[p.slug] -%}
 {%- assign sy_md = p.start_year | plus: 0 -%}{%- assign sy = st.first_year | default: 0 -%}{%- if sy_md > 0 and sy_md < 1700 and sy == 0 or sy_md > 0 and sy_md < 1700 and sy_md < sy -%}{%- assign sy = sy_md -%}{%- endif -%}{%- assign ap = p.apple_podcasts | split: "/id" | last | plus: 0 -%}
-{%- assign stv = st.status | default: p.status_override | default: p.status | default: "active" -%}
-{%- if stv == "فعال" -%}{%- assign stv = "active" -%}{%- elsif stv == "غیرفعال" -%}{%- assign stv = "inactive" -%}{%- elsif stv == "متوقف" or stv == "متوقف‌شده" -%}{%- assign stv = "stopped" -%}{%- elsif stv == "تمام‌شده" -%}{%- assign stv = "ended" -%}{%- endif -%}
+{%- assign stv = p.status_override | default: st.status | default: p.status | default: "unknown" -%}
+{%- if stv == "فعال" -%}{%- assign stv = "active" -%}{%- elsif stv == "غیرفعال" or stv == "paused" -%}{%- assign stv = "inactive" -%}{%- elsif stv == "متوقف" or stv == "متوقف‌شده" or stv == "ended" or stv == "تمام‌شده" or stv == "تمام شده" -%}{%- assign stv = "stopped" -%}{%- endif -%}
 {
   "id": {{ p.slug | default: forloop.index | jsonify }},
   "title": {{ p.title | jsonify }},
