@@ -211,3 +211,47 @@ html:not(#pp) .pl-card[aria-current=true] .pl-play{
 :root[data-theme=light] select option,:root[data-theme=light] select optgroup{
   color-scheme:light;background-color:#ffffff;color:#16201a}
 select option:disabled{color:#8fa095}
+
+
+/* ============================================================
+   ۱۲) خوانایی بهتر در حالت روز
+   پس‌زمینه و شیشه‌ها کمی تیره‌تر/خاکستری‌تر می‌شوند تا سفیدی خیره‌کننده کم شود
+   و مرز کارت‌ها و متن‌ها واضح‌تر دیده شوند.
+   ============================================================ */
+:root[data-theme=light] {
+  --bg:#e9eeea;
+  --ink:#18231c;
+  --mut:#526157;
+  --card:#f7f9f7;
+  --line:#cbd5cd;
+  --acc:#087d20;
+  --glass:rgba(247,250,247,.58);
+  --glass-line:rgba(198,211,201,.82);
+  --pp-bg:#f7f9f7;
+  --pp-fg:#18231c;
+  --pp-surface:#f7f9f7;
+  --pp-border:#cbd5cd;
+  --pp-muted:#526157;
+  --shadow:0 10px 28px rgba(25,45,30,.13);
+  --gl-fill:
+    radial-gradient(120% 80% at 0% 0%,rgba(255,255,255,.34),rgba(255,255,255,0) 46%),
+    linear-gradient(145deg,rgba(8,203,0,.045),rgba(8,203,0,0) 55%),
+    linear-gradient(145deg,rgba(255,255,255,.34),rgba(255,255,255,.12));
+  --gl-fill-strong:
+    radial-gradient(120% 80% at 0% 0%,rgba(255,255,255,.48),rgba(255,255,255,0) 50%),
+    linear-gradient(145deg,rgba(247,250,247,.82),rgba(231,237,232,.72));
+  --gl-flat:linear-gradient(180deg,rgba(255,255,255,.48),rgba(236,242,237,.30));
+  --gl-flat-hover:rgba(255,255,255,.72);
+  --gl-edge:rgba(190,205,193,.78);
+  --gl-rim:rgba(24,45,30,.10);
+  --gl-hi:rgba(255,255,255,.86);
+  --gl-lo:rgba(255,255,255,.28);
+  --gl-shadow:0 14px 34px -14px rgba(25,55,32,.24),0 2px 8px rgba(22,32,26,.045);
+  --gl-amb-1:rgba(8,170,35,.19);
+  --gl-amb-2:rgba(0,190,130,.14);
+  --gl-amb-3:rgba(90,170,120,.10);
+}
+html.pp-theme-switching,
+html.pp-theme-switching * {
+  transition:none !important;
+}
