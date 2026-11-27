@@ -11,6 +11,10 @@
    تنظیم سریع (فقط همین چند عدد را عوض کن):
    ========================================================== */
 :root {
+  --pd-status-active: 22, 163, 74;
+  --pd-status-inactive: 234, 179, 8;
+  --pd-status-stopped: 220, 38, 38;
+  --pd-status-unknown: 156, 163, 175;
   --pp-card-align: center;     /* start = راست‌چین | center = وسط‌چین */
   --pp-cover-radius: 20px;     /* گردی گوشه‌ی کاور */
   --pp-zoom: 1.05;             /* میزان زوم هاور؛ ۱ = بدون زوم */
@@ -62,10 +66,15 @@ html:not(#pp) .pd-card:not(.pl-card) .pd-logo img {
 }
 
 /* ---------- ۳) هاور: زوم نرم عکس + درخشش ملایم، بدون حرکت کارت ---------- */
+.pd-card--active { --pd-status-rgb: var(--pd-status-active); }
+.pd-card--inactive { --pd-status-rgb: var(--pd-status-inactive); }
+.pd-card--stopped { --pd-status-rgb: var(--pd-status-stopped); }
+.pd-card--unknown { --pd-status-rgb: var(--pd-status-unknown); }
+
 @media (hover: hover) {
   html:not(#pp) .pd-card:not(.pl-card):hover .pd-logo,
   html:not(#pp) .pd-card:not(.pl-card):focus-within .pd-logo {
-    box-shadow: 0 0 0 1px rgba(8, 203, 0, .55), 0 14px 28px -14px var(--glow) !important;
+    box-shadow: 0 0 0 1px rgba(var(--pd-status-rgb, var(--pd-status-unknown)), .58), 0 14px 28px -14px rgba(var(--pd-status-rgb, var(--pd-status-unknown)), .48) !important;
   }
   html:not(#pp) .pd-card:not(.pl-card):hover .pd-logo img,
   html:not(#pp) .pd-card:not(.pl-card):focus-within .pd-logo img {
@@ -182,7 +191,7 @@ html:not(#pp) .pd-card.pl-card .pd-logo img {
 @media (hover: hover) {
   html:not(#pp) .pd-card.pl-card:hover .pd-logo,
   html:not(#pp) .pd-card.pl-card:focus-visible .pd-logo {
-    box-shadow: 0 0 0 1px rgba(8, 203, 0, .55), 0 14px 28px -14px var(--glow) !important;
+    box-shadow: 0 0 0 1px rgba(var(--pd-status-rgb, var(--pd-status-unknown)), .58), 0 14px 28px -14px rgba(var(--pd-status-rgb, var(--pd-status-unknown)), .48) !important;
   }
   html:not(#pp) .pd-card.pl-card:hover .pd-logo img,
   html:not(#pp) .pd-card.pl-card:focus-visible .pd-logo img {
