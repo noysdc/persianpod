@@ -279,14 +279,53 @@
     $("#pd-chips").innerHTML = html;
   }
 
-  /* ردیف‌های افقی: فلش‌ها فقط وقتی ردیف از عرض بیشتر است */
+  /* ردیف‌های افقی: اندازه‌گیری پس از تثبیت layout تا فلش‌ها اشتباهاً مخفی نشوند */
   function markScrollable() {
-    $$(".pd-row-wrap", out).forEach(function (w) {
+    $(".pd-row-wrap", out).forEach(function (w) {
       var r = $(".pd-row", w);
+      if (!r) return;
       w.classList.toggle("no-scroll", r.scrollWidth <= r.clientWidth + 4);
     });
   }
-  window.addEventListener("resize", function () { markScrollable(); });
+  function scheduleMarkScrollable() {
+    window.requestAnimationFrame(markScrollable);
+  }
+  window.addEventListener("resize", scheduleMarkScrollable);
+  window.addEventListener("load", scheduleMarkScrollable);
+
+  /* کشیدن ریل با ماوس در دسکتاپ؛ لمس موبایل به اسکرول طبیعی مرورگر سپرده می‌شود */
+  var railDrag = null;
+  out.addEventListener("pointerdown", function (e) {
+    if (e.pointerType !== "mouse" || e.button !== 0) return;
+    var row = e.target.closest && e.target.closest(".pd-row");
+    if (!row) return;
+    railDrag = { row: row, pointerId: e.pointerId, startX: e.clientX, startScroll: row.scrollLeft, moved: false };
+    if (row.setPointerCapture) row.setPointerCapture(e.pointerId);
+  });
+  out.addEventListener("pointermove", function (e) {
+    if (!railDrag || e.pointerId !== railDrag.pointerId) return;
+    var dx = e.clientX - railDrag.startX;
+    if (!railDrag.moved && Math.abs(dx) < 5) return;
+    railDrag.moved = true;
+    railDrag.row.classList.add("pp-is-dragging");
+    railDrag.row.scrollLeft = railDrag.startScroll - dx;
+    e.preventDefault();
+  });
+  function finishRailDrag(e) {
+    if (!railDrag || (e && e.pointerId !== railDrag.pointerId)) return;
+    var row = railDrag.row, moved = railDrag.moved;
+    row.classList.remove("pp-is-dragging");
+    if (moved) row.setAttribute("data-pp-dragged", "1");
+    railDrag = null;
+  }
+  out.addEventListener("pointerup", finishRailDrag);
+  out.addEventListener("pointercancel", finishRailDrag);
+  out.addEventListener("click", function (e) {
+    var row = e.target.closest && e.target.closest(".pd-row");
+    if (row && row.getAttribute("data-pp-dragged") === "1") {
+      e.preventDefault(); e.stopPropagation(); row.removeAttribute("data-pp-dragged");
+    }
+  }, true);
   out.addEventListener("click", function (e) {
     var a = e.target.closest(".pd-arrow");
     if (a) {
@@ -444,6 +483,7 @@
           "</div></section>";
       }).join("");
       markScrollable();
+      scheduleMarkScrollable();
     } else {
       out.innerHTML = '<div class="pd-grid">' + list.map(card).join("") + "</div>";
     }
