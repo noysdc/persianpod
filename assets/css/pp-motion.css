@@ -136,3 +136,7 @@ html:not(#pp) .pd-group .pd-row-wrap .pd-arrow{ display:none !important; }
 .ppfp__cov{ flex:none; width:44px; height:44px; border-radius:11px; object-fit:cover; background:rgba(128,128,128,.18); }
 .ppfp__cov[hidden]{ display:none; }
 @media (max-width:599.98px){ .ppfp__cov{ width:38px; height:38px; border-radius:9px; } }
+
+
+/* ردیف‌های پادکست: اسکرول افقی طبیعی؛ بدون قاب‌بندی/برش والد */
+:root .pd-group { overflow: visible; }
