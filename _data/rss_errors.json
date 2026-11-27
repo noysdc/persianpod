@@ -15,6 +15,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
+  "aapartaid-jnsiti": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://podcast.thermmedia.com/feed/podcast/gender-apartheid/"
+  },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
@@ -91,10 +95,6 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://media.rss.com/hirbod/feed.xml"
   },
-  "hghogh-ansan-az-didgah-aslam": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
-    "rss": "https://islamhouse.com/pc/708170"
-  },
   "hnr-jng": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://namlik.me/rss/318"
@@ -142,6 +142,10 @@
   "o-ain-tnha-bazi-jhan-bod": {
     "error": "ValueError: no items in feed",
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
+  },
+  "podcast-aaoa": {
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://podcast.thermmedia.com/feed/podcast/avapodcast/"
   },
   "podcast-ailka": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
@@ -246,10 +250,6 @@
   "synapselingo-iadgiri-zban-anglisi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://synapselingo-persian-learn-english.podigee.io/feed/mp3"
-  },
-  "trjmh-soti-ghraan-hkim": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
-    "rss": "https://islamhouse.com/pc/2817325"
   },
   "zban-o-adbiat": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
