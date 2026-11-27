@@ -1,5 +1,5 @@
 /* فلش‌های مینیمال و شیشه‌ای ریل‌ها؛ فقط دسکتاپ */
-@media (hover: hover) and (min-width: 800px) {
+@media (min-width: 800px) {
   html body .pd-group .pd-row-wrap {
     position: relative !important;
     overflow: visible !important;
@@ -59,7 +59,7 @@
     line-height: 1 !important;
   }
 }
-@media (max-width: 799px), (hover: none) {
+@media (max-width: 799px) {
   html body .pd-group .pd-row-wrap > button.pd-arrow {
     display: none !important;
   }
