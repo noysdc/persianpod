@@ -51,3 +51,10 @@ html[data-theme="dark"]{--cover-bg:#1c2620}
 .pp-suggest span{color:var(--mut);font-size:.9rem}
 .pp-suggest a{font-weight:700;text-decoration:none;border-bottom:2px solid var(--ring)}
 .pp-suggest a:hover{box-shadow:0 6px 14px -8px var(--glow)}
+
+/* لینک‌های «درباره‌ی ما» و «سلب مسئولیت» در انتهای فوتر */
+.pp-footer-pages{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:10px;margin:14px auto 0;padding:0;list-style:none}
+.pp-footer-pages li{margin:0;padding:0;list-style:none}
+.pp-footer-pages a{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 15px;border-radius:12px;text-decoration:none;font-weight:700}
+.pp-footer-pages .i{display:block;width:17px;height:17px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:520px){.pp-footer-pages{gap:8px}.pp-footer-pages a{min-height:44px;padding:10px 13px}}
