@@ -26757,8 +26757,8 @@
       0,
       0,
       0,
-      8,
-      5,
+      9,
+      4,
       1,
       1,
       1
@@ -89040,19 +89040,24 @@
   "s-al-o-joab": {
     "avg_gap_days": 1.0,
     "avg_length": 7,
-    "episodes": 64,
-    "eps_365": 64,
-    "eps_90": 64,
+    "episodes": 65,
+    "eps_365": 65,
+    "eps_90": 65,
     "first_at": "2026-09-25",
     "first_year": 1405,
-    "last": "1405/09/05",
-    "last_at": "2026-11-26T20:30:00Z",
-    "last_link": "https://swl-w-jwb.simplecast.com/episodes/gq-0064-oGWlDoUW",
-    "last_title": "آیا خداوند از آینده خبر دارد؟",
+    "last": "1405/09/06",
+    "last_at": "2026-11-27T20:30:00Z",
+    "last_link": "https://swl-w-jwb.simplecast.com/episodes/gq-0065-WxteYNUo",
+    "last_title": "آیا واقعیت دارد که خدا قدرت انجام هر کاری را دارد؟",
     "max_length": 15,
     "median_length": 7,
     "min_length": 4,
     "play": [
+      {
+        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/2aca8b0d-3222-452c-a3b9-924a872fb70f/episodes/audio/group/c5cd6202-c80c-49f5-b01f-b62b4545c04d/group-item/7569c5a3-0e3e-4b42-9b5c-f8248618d99d/128_default_tc.mp3?aid=rss_feed&feed=xJ0HFl0U",
+        "at": "2026-11-27T20:30:00Z",
+        "t": "آیا واقعیت دارد که خدا قدرت انجام هر کاری را دارد؟"
+      },
       {
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/2aca8b0d-3222-452c-a3b9-924a872fb70f/episodes/audio/group/b85575ef-b535-4722-9092-12d33323845f/group-item/4a57e00a-4c51-4e57-b1c4-d9051a1f6702/128_default_tc.mp3?aid=rss_feed&feed=xJ0HFl0U",
         "at": "2026-11-26T20:30:00Z",
@@ -89087,14 +89092,14 @@
         "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/2aca8b0d-3222-452c-a3b9-924a872fb70f/episodes/audio/group/705d86e2-fa29-4413-82e4-51a3aad127c6/group-item/8b332a3d-97ed-4d91-8fb0-46d75681ff6e/128_default_tc.mp3?aid=rss_feed&feed=xJ0HFl0U",
         "at": "2026-11-20T20:30:00Z",
         "t": "کلید شناخت واقعی خدا چیست؟"
-      },
-      {
-        "a": "https://cdn.simplecast.com/media/audio/transcoded/d68ab52d-2deb-4af3-9669-9a568a8b24b0/2aca8b0d-3222-452c-a3b9-924a872fb70f/episodes/audio/group/478b2deb-949e-4e08-9674-e55403562256/group-item/9a32e7d3-9ede-436e-af5c-fad1aeebab49/128_default_tc.mp3?aid=rss_feed&feed=xJ0HFl0U",
-        "at": "2026-11-19T20:30:00Z",
-        "t": "اگر خدا می‌دانست که شیطان بر علیه او طغیان می‌کند چرا او را آفرید؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T20:30:00Z",
+        "link": "https://swl-w-jwb.simplecast.com/episodes/gq-0065-WxteYNUo",
+        "title": "آیا واقعیت دارد که خدا قدرت انجام هر کاری را دارد؟"
+      },
       {
         "at": "2026-11-26T20:30:00Z",
         "link": "https://swl-w-jwb.simplecast.com/episodes/gq-0064-oGWlDoUW",
@@ -89104,11 +89109,6 @@
         "at": "2026-11-25T20:30:00Z",
         "link": "https://swl-w-jwb.simplecast.com/episodes/gq-0063-nUj0HSTK",
         "title": "درک کتاب مقدسی از خشم خدا چیست؟"
-      },
-      {
-        "at": "2026-11-24T20:30:00Z",
-        "link": "https://swl-w-jwb.simplecast.com/episodes/gq-0062-3wspcllQ",
-        "title": "خدا کیست؟ خدا چیست؟ چطور می‌توانیم خدا را بشناسیم؟"
       }
     ],
     "recent_30d": [
@@ -89122,7 +89122,7 @@
       0,
       0,
       4,
-      30,
+      31,
       30
     ],
     "status": "active"
@@ -99630,7 +99630,7 @@
     "avg_gap_days": 1.4,
     "avg_length": 30,
     "episodes": 600,
-    "eps_365": 261,
+    "eps_365": 260,
     "eps_90": 65,
     "first_at": "2024-08-11",
     "first_year": 1403,
@@ -99702,6 +99702,9 @@
     ],
     "recent_30d": [
       22,
+      20,
+      22,
+      22,
       21,
       21,
       22,
@@ -99709,10 +99712,7 @@
       20,
       22,
       22,
-      21,
-      21,
-      22,
-      22
+      21
     ],
     "status": "active"
   },
@@ -99903,9 +99903,9 @@
       }
     ],
     "recent_30d": [
-      26,
-      15,
-      34,
+      25,
+      16,
+      33,
       0,
       3,
       15,
