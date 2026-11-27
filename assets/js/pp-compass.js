@@ -103,7 +103,7 @@
       firstperson:['چه چیزی در این تجربه برخلاف انتظار تو بود؟','کدام جزئیات کوچک معنای بزرگ‌تری داشت؟','اگر فرد دیگری همین تجربه را داشته باشد چه چیزی مشترک است؟'],
       culture:['این پدیده از کجا شروع شد و چطور تغییر کرد؟','چرا بعضی‌ها با آن ارتباط می‌گیرند و بعضی نه؟','چه چیزی درباره‌ی زمانه‌ی ما در آن دیده می‌شود؟']
     };
-    return [first,second,third,...byPath[path.id]].slice(0,5);
+    return [first,second,...byPath[path.id],third].slice(0,5);
   }
 
   function formatSuggestion(path, f, w, visibility) {
@@ -125,7 +125,7 @@
     const working=selected('working');
     const exp=answer('experience'), curiosity=answer('curiosity');
     const visibility=form.elements.visibility.value, time=form.elements.time.value;
-    const topic=interest.sort((a,b)=>(topics[b]?.label||'').length-(topics[a]?.label||'').length)[0] || '';
+    const topic=interest[0] || '';
     const directionBox=$('pp-compass-directions');
     directionBox.replaceChildren();
 
