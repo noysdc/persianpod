@@ -22994,7 +22994,7 @@
       }
     ],
     "recent_30d": [
-      5,
+      4,
       1,
       1,
       1,
@@ -49300,8 +49300,8 @@
       28,
       26,
       30,
-      27,
-      27,
+      28,
+      26,
       26,
       27,
       28,
@@ -66279,7 +66279,7 @@
     "avg_length": 42,
     "episodes": 57,
     "eps_365": 23,
-    "eps_90": 7,
+    "eps_90": 6,
     "first_at": "2024-11-10",
     "first_year": 1403,
     "last": "1405/08/23",
@@ -66368,8 +66368,8 @@
       3,
       2,
       2,
-      2,
       3,
+      2,
       2,
       2
     ],
@@ -72269,7 +72269,7 @@
     "avg_length": 71,
     "episodes": 150,
     "eps_365": 23,
-    "eps_90": 7,
+    "eps_90": 6,
     "first_at": "2020-04-06",
     "first_year": 1399,
     "last": "1405/08/26",
@@ -72358,8 +72358,8 @@
       4,
       4,
       2,
-      2,
       3,
+      2,
       3,
       1
     ],
@@ -79018,19 +79018,25 @@
   "radio-hkait": {
     "avg_gap_days": 3.7,
     "avg_length": 34,
-    "episodes": 221,
-    "eps_365": 99,
-    "eps_90": 48,
+    "episodes": 222,
+    "eps_365": 100,
+    "eps_90": 49,
     "first_at": "2024-05-01",
     "first_year": 1403,
-    "last": "1405/09/05",
-    "last_at": "2026-11-26T01:30:00Z",
-    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/e27ef222-46dd-4086-8507-a0e15cb26c03/play.mp3?v=1",
-    "last_title": "عکاسی - محمد محمد علی",
+    "last": "1405/09/06",
+    "last_at": "2026-11-27T01:30:00Z",
+    "last_link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ed7fd7df-fd6b-49b4-b0c3-626d89e1a36f/play.mp3?v=1",
+    "last_title": "مهمان شهرت‌طلب – بخش اول (روایت داستان) – ناتانیل هاثورن",
     "max_length": 104,
     "median_length": 30,
     "min_length": 7,
     "play": [
+      {
+        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ed7fd7df-fd6b-49b4-b0c3-626d89e1a36f/play.mp3?v=1",
+        "at": "2026-11-27T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ed7fd7df-fd6b-49b4-b0c3-626d89e1a36f/artwork.jpg?v=1",
+        "t": "مهمان شهرت‌طلب – بخش اول (روایت داستان) – ناتانیل هاثورن"
+      },
       {
         "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/e27ef222-46dd-4086-8507-a0e15cb26c03/play.mp3?v=1",
         "at": "2026-11-26T01:30:00Z",
@@ -79072,15 +79078,15 @@
         "at": "2026-11-20T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/2bc8150c-1396-4cbf-95e7-634a71d45532/artwork.jpg?v=1",
         "t": "جوجهُ سرکنده - اوراسیو کیروگا"
-      },
-      {
-        "a": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/033fc52d-9dda-4616-b871-7f47965302fe/play.mp3?v=1",
-        "at": "2026-11-19T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/033fc52d-9dda-4616-b871-7f47965302fe/artwork.jpg?v=1",
-        "t": "مجموعه نامرئی – بخش دوم (معرفی نویسنده و تحلیل داستان) – اشتفان تسوایگ"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T01:30:00Z",
+        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/ed7fd7df-fd6b-49b4-b0c3-626d89e1a36f/artwork.jpg?v=1",
+        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/ed7fd7df-fd6b-49b4-b0c3-626d89e1a36f/play.mp3?v=1",
+        "title": "مهمان شهرت‌طلب – بخش اول (روایت داستان) – ناتانیل هاثورن"
+      },
       {
         "at": "2026-11-26T01:30:00Z",
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/e27ef222-46dd-4086-8507-a0e15cb26c03/artwork.jpg?v=1",
@@ -79092,26 +79098,20 @@
         "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/9617756f-0955-4933-ac50-94558020a989/artwork.jpg?v=1",
         "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/9617756f-0955-4933-ac50-94558020a989/play.mp3?v=1",
         "title": "یک زن خوشبخت – بخش دوم (زندگی بزرگ علوی، گفت‌وگو و تحلیل داستان)"
-      },
-      {
-        "at": "2026-11-24T01:30:00Z",
-        "i": "https://rabt-storage.hel1.your-objectstorage.com/podcasts/1ab426af-633f-48cd-998d-95d500a9c74b/episodes/3aa2b1e7-6f83-453a-b241-81ab84e2cb69/artwork.jpg?v=1",
-        "link": "https://player.rabt.space/podcast/1ab426af-633f-48cd-998d-95d500a9c74b/episode/3aa2b1e7-6f83-453a-b241-81ab84e2cb69/play.mp3?v=1",
-        "title": "یک زن خوشبخت -بخش اول (روایت داستان) - بزرگ علوی"
       }
     ],
     "recent_30d": [
-      9,
+      8,
       3,
       10,
       0,
       0,
       2,
-      8,
-      9,
       9,
       8,
-      10,
+      9,
+      8,
+      11,
       30
     ],
     "status": "active"
@@ -95603,7 +95603,7 @@
       }
     ],
     "recent_30d": [
-      117,
+      116,
       30,
       108,
       0,
