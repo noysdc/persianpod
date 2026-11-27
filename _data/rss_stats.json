@@ -75714,21 +75714,27 @@
     "status": "active"
   },
   "pol-mhm-ast": {
-    "avg_gap_days": 8.7,
+    "avg_gap_days": 8.6,
     "avg_length": 12,
-    "episodes": 120,
-    "eps_365": 41,
-    "eps_90": 15,
+    "episodes": 121,
+    "eps_365": 42,
+    "eps_90": 16,
     "first_at": "2022-08-20",
     "first_year": 1401,
-    "last": "1405/09/02",
-    "last_at": "2026-11-23T00:15:00Z",
-    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/why-does-the-economic-recession-formula-left-over-from-world-war-ii-no-longer-explain-todays-reality/p808gckud",
-    "last_title": "چرا فرمول «رکود اقتصادی» به جا مانده از دوران جنگ جهانی دوم دیگر واقعیت امروز استرالیا را توضیح نمی‌دهد؟",
+    "last": "1405/09/06",
+    "last_at": "2026-11-27T03:40:00Z",
+    "last_link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/australias-inflation-problem-is-growing-again-when-can-we-expect-relief/8mixaesiw",
+    "last_title": "بحران تورم در استرالیا دوباره شدت گرفته است؛ چه زمانی می‌توان انتظار کاهش فشارها را داشت؟",
     "max_length": 33,
     "median_length": 10,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sbs-podcast.streamguys1.com/money-matters/20261127144105_996027-persian-495efad1-5d41-407a-babc-3aa02babde0a.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a2-1adf-dc19-a1ff-1bff28720000&dur_cat=2",
+        "at": "2026-11-27T03:40:00Z",
+        "i": "https://sbs-rss.streamguys1.com/money-matters/20261127144107_816252-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
+        "t": "بحران تورم در استرالیا دوباره شدت گرفته است؛ چه زمانی می‌توان انتظار کاهش فشارها را داشت؟"
+      },
       {
         "a": "https://sbs-podcast.streamguys1.com/money-matters/20261123111554_279936-persian-231126-economy.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a2-05ac-d315-a5e6-7deec94d0000&dur_cat=2",
         "at": "2026-11-23T00:15:00Z",
@@ -75770,15 +75776,15 @@
         "at": "2026-10-21T01:55:00Z",
         "i": "https://sbs-rss.streamguys1.com/money-matters/20261022163126_506934-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
         "t": "هوش مصنوعی، پول و آینده کار در استرالیا؛ فرصت‌ها، تهدیدها و مهارت‌هایی که باید از امروز آموخت"
-      },
-      {
-        "a": "https://sbs-podcast.streamguys1.com/money-matters/20261015115310_364929-persian-151026-aliyousefi.mp3?awCollectionId=money-matters&awGenre=Society+and+Culture&awEpisodeId=000001a1-3cbd-d3ab-a3eb-7fbdee300000&dur_cat=4",
-        "at": "2026-10-15T00:52:00Z",
-        "i": "https://sbs-rss.streamguys1.com/money-matters/20261016133145_379632-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
-        "t": "افزایش نرخ بهره و فشار هزینه های زندگی در استرالیا؛ راهکارهای عملی یک کارشناس مالیاتی برای خانوارها و کسب و کارهای کوچک"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T03:40:00Z",
+        "i": "https://sbs-rss.streamguys1.com/money-matters/20261127144107_816252-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
+        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/australias-inflation-problem-is-growing-again-when-can-we-expect-relief/8mixaesiw",
+        "title": "بحران تورم در استرالیا دوباره شدت گرفته است؛ چه زمانی می‌توان انتظار کاهش فشارها را داشت؟"
+      },
       {
         "at": "2026-11-23T00:15:00Z",
         "i": "https://sbs-rss.streamguys1.com/money-matters/20261123111850_288454-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
@@ -75790,12 +75796,6 @@
         "i": "https://sbs-rss.streamguys1.com/money-matters/20261119155508_539280-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
         "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/australias-fastest-house-price-fall-in-40-years-opportunity-or-trap-for-home-buyers/y40vl97v3",
         "title": "افت بی سابقه قیمت مسکن در استرالیا؛ فرصت طلایی خرید یا تله ای برای خریداران خانه اولی؟"
-      },
-      {
-        "at": "2026-11-16T00:36:00Z",
-        "i": "https://sbs-rss.streamguys1.com/money-matters/20261116114338_979024-sbs-podcasts-persian-money-matters-3000x3000px.jpg",
-        "link": "https://www.sbs.com.au/language/persian/fa/podcast-episode/can-black-friday-reverse-shopper-slump/6f4gbw7ey",
-        "title": "بلک فرایدی؛ ناجی بازار خرده‌فروشی یا تخفیفی بی‌اثر؟"
       }
     ],
     "recent_30d": [
@@ -75810,7 +75810,7 @@
       1,
       5,
       4,
-      6
+      7
     ],
     "status": "active"
   },
