@@ -2,7 +2,7 @@
 layout: learn-post
 title: "آمار پادکست را چطور تحلیل کنیم؟ تفاوت دانلود، پخش و شنونده"
 description: "با معیارهایی مثل دانلود، پخش، مخاطب یکتا، نرخ تکمیل و بازگشت شنونده آشنا شوید و یاد بگیرید از آمار برای تصمیم‌های بهتر استفاده کنید."
-date: 2026-11-27 12:00:00 +0330
+date: 2026-11-27 00:00:00 +0330
 source: "Spotify for Creators؛ واژه‌نامه آمار"
 source_url: "https://support.spotify.com/pw/creators/article/analytics-glossary/"
 tags: ["آمار پادکست", "تحلیل", "دانلود", "مخاطب", "رشد"]
