@@ -163,10 +163,6 @@
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
   },
-  "mimmpodcast": {
-    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.audiyacreators.one/cmhwe10fp49z7yriygrn1"
-  },
   "mjmoah-ha": {
     "error": "ValueError: no items in feed",
     "rss": "https://www.maqzrap.com/albums/feed/"
@@ -246,10 +242,6 @@
   "radio-mfid": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/2e6e9794/podcast/rss"
-  },
-  "radio-msir": {
-    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://feeds.simplecast.com/PEcbc7TY"
   },
   "radio-nmana": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
