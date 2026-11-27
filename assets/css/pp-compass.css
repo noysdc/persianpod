@@ -1,50 +1,87 @@
-/* قطب‌نمای پادکست — مستقل از استایل سایر بخش‌ها */
-.pp-compass{max-width:900px;margin:0 auto;padding:34px 20px 70px;color:var(--ink);line-height:1.9}
-.pp-compass-hero{padding:26px 0 30px;border-bottom:1px solid var(--line);margin-bottom:26px}
+/* قطب‌نمای پادکست — طراحی مستقل، راست‌چین و واکنش‌گرا */
+.pp-compass{max-width:960px;margin:0 auto;padding:42px 22px 76px;color:var(--ink);line-height:1.95;text-align:center}
+.pp-compass-hero{max-width:820px;margin:0 auto 30px;padding:24px 0 32px;border-bottom:1px solid var(--line);text-align:center}
 .pp-compass-kicker{display:inline-block;color:var(--acc);font-size:.86rem;font-weight:800;letter-spacing:.02em}
-.pp-compass-hero h1{font-size:clamp(2rem,5vw,3rem);line-height:1.35;margin:8px 0 12px}
-.pp-compass-hero>p{max-width:720px;color:var(--mut);font-size:1.06rem;margin:0}
-.pp-compass-note{margin-top:18px;padding:12px 16px;border-inline-start:3px solid var(--g);background:var(--card);border-radius:4px;font-size:.92rem}
-.pp-compass-form{display:grid;gap:16px}
-.pp-compass-step{padding:22px;background:var(--card);border:1px solid var(--line);border-radius:8px}
-.pp-compass-stephead{display:flex;align-items:flex-start;gap:13px;margin-bottom:17px}
-.pp-compass-stephead>span{display:grid;place-items:center;flex:none;width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--bg);font-weight:800}
-.pp-compass-stephead h2{font-size:1.12rem;margin:0 0 3px}
-.pp-compass-stephead p{font-size:.88rem;color:var(--mut);margin:0}
-.pp-compass-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
-.pp-compass-options label{display:flex;align-items:flex-start;gap:10px;padding:11px 12px;border:1px solid var(--line);border-radius:6px;cursor:pointer;transition:border-color .15s,background .15s}
-.pp-compass-options label:has(input:checked){border-color:var(--acc);background:color-mix(in srgb,var(--g) 8%,var(--card))}
-.pp-compass-options input{margin:7px 0 0;accent-color:var(--acc);flex:none}
-.pp-compass-options label span{font-size:.93rem}
-.pp-compass-options--single{grid-template-columns:1fr}
-.pp-compass-step textarea{display:block;width:100%;resize:vertical;min-height:88px;padding:12px 14px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit;font-size:.94rem}
+.pp-compass-hero h1{font-size:clamp(2rem,5vw,3.1rem);line-height:1.35;margin:10px 0 14px;text-align:center}
+.pp-compass-hero>p{max-width:700px;margin:0 auto;color:var(--mut);font-size:1.04rem}
+.pp-compass-note{max-width:680px;margin:20px auto 0;padding:12px 18px;border:1px solid var(--line);border-radius:9px;background:var(--card);font-size:.91rem}
+.pp-compass-form{display:grid;gap:17px}
+.pp-compass-step{padding:25px 24px;background:var(--card);border:1px solid var(--line);border-radius:12px;text-align:center}
+.pp-compass-stephead{display:flex;flex-direction:column;align-items:center;gap:9px;margin:0 auto 19px;max-width:680px;text-align:center}
+.pp-compass-stephead>span{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--ink);color:var(--bg);font-weight:850}
+.pp-compass-stephead h2{font-size:1.17rem;line-height:1.6;margin:0 0 4px;text-align:center}
+.pp-compass-stephead p{font-size:.88rem;color:var(--mut);margin:0;text-align:center}
+.pp-compass-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;max-width:760px;margin:0 auto}
+.pp-compass-options label{display:flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:12px 14px;border:1px solid var(--line);border-radius:9px;cursor:pointer;transition:border-color .15s,background .15s,transform .15s;text-align:center}
+.pp-compass-options label:hover{border-color:var(--acc)}
+.pp-compass-options label:has(input:checked){border-color:var(--acc);background:color-mix(in srgb,var(--g) 9%,var(--card))}
+.pp-compass-options input{margin:0;accent-color:var(--acc);flex:none}
+.pp-compass-options label span{font-size:.93rem;line-height:1.7}
+.pp-compass-options--single{grid-template-columns:1fr;max-width:680px}
+.pp-compass-step textarea{display:block;width:min(100%,720px);margin:0 auto;resize:vertical;min-height:100px;padding:13px 16px;border:1px solid var(--line);border-radius:9px;background:var(--bg);color:var(--ink);font:inherit;font-size:.94rem;line-height:1.9;text-align:center}
+.pp-compass-step textarea::placeholder{text-align:center;color:var(--mut)}
 .pp-compass-step textarea:focus,.pp-compass-options input:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
-.pp-compass-submit{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:10px 2px}
-.pp-compass-submit p{font-size:.82rem;color:var(--mut);margin:0;max-width:430px}
-.pp-compass-submit button{font:inherit;font-weight:800;padding:12px 20px;border:1px solid var(--acc);border-radius:6px;background:var(--acc);color:#fff;cursor:pointer}
+.pp-compass-submit{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;padding:12px 2px;text-align:center}
+.pp-compass-submit p{font-size:.82rem;color:var(--mut);margin:0 auto;max-width:560px}
+.pp-compass-submit button{font:inherit;font-weight:800;padding:13px 24px;border:1px solid var(--acc);border-radius:9px;background:var(--acc);color:#fff;cursor:pointer;min-height:48px}
 .pp-compass-submit button:hover{filter:brightness(1.08)}
-.pp-compass-results{margin-top:42px;padding-top:30px;border-top:2px solid var(--line)}
-.pp-compass-resulthead h2{font-size:1.65rem;margin:6px 0}
-.pp-compass-resulthead p,.pp-compass-ideas>p{color:var(--mut);margin:0 0 20px}
-.pp-compass-directions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-.pp-compass-direction{padding:17px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
-.pp-compass-direction small{color:var(--acc);font-weight:800}
-.pp-compass-direction h3{font-size:1.05rem;margin:6px 0}
-.pp-compass-direction p{font-size:.88rem;color:var(--mut);margin:0}
-.pp-compass-direction .pp-compass-fit{margin-top:12px;padding-top:10px;border-top:1px solid var(--line);font-size:.82rem;color:var(--ink)}
-.pp-compass-ideas,.pp-compass-next,.pp-compass-method{margin-top:22px;padding:20px;background:var(--card);border:1px solid var(--line);border-radius:8px}
-.pp-compass-ideas h3,.pp-compass-next h3{margin:0 0 6px;font-size:1.12rem}
-.pp-compass-ideas ol{margin:10px 0 0;padding-right:22px}
-.pp-compass-ideas li{padding:5px 0}
-.pp-compass-next p{margin:0;color:var(--mut)}
-.pp-compass-method summary{font-weight:800;cursor:pointer}
-.pp-compass-methodbody{padding-top:12px;color:var(--mut);font-size:.91rem}
-.pp-compass-methodbody h4{color:var(--ink);margin:18px 0 5px}
-.pp-compass-methodbody ul{padding-right:22px}
+.pp-compass-results{margin-top:42px;padding-top:30px;border-top:2px solid var(--line);text-align:center}
+.pp-compass-resulthead{max-width:760px;margin:0 auto 22px;text-align:center}
+.pp-compass-resulthead h2{font-size:clamp(1.45rem,3vw,1.8rem);line-height:1.5;margin:8px 0;text-align:center}
+.pp-compass-resulthead p{color:var(--mut);margin:0 auto 16px;max-width:680px}
+.pp-compass-audience-box{max-width:760px;margin:0 auto 18px;padding:17px 20px;border:1px solid var(--line);border-radius:11px;background:var(--card);text-align:center}
+.pp-compass-audience-box span{display:block;color:var(--acc);font-size:.82rem;font-weight:800;margin-bottom:5px}
+.pp-compass-audience-box p{margin:0}
+.pp-compass-directions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;align-items:stretch}
+.pp-compass-direction{display:flex;flex-direction:column;align-items:center;padding:20px 18px;border:1px solid var(--line);border-radius:11px;background:var(--card);text-align:center;min-width:0}
+.pp-compass-rank{font-size:.82rem;color:var(--acc);font-weight:850;margin-bottom:8px}
+.pp-compass-direction h3{font-size:1.12rem;line-height:1.6;margin:0 0 9px;text-align:center}
+.pp-compass-direction p{font-size:.9rem;color:var(--mut);margin:0;text-align:center}
+.pp-compass-direction .pp-compass-subhead{font-size:.84rem;font-weight:850;margin:17px 0 5px;color:var(--ink)}
+.pp-compass-direction .pp-compass-concept,.pp-compass-direction .pp-compass-reasons,.pp-compass-direction .pp-compass-format{font-size:.86rem;line-height:1.9}
+.pp-compass-episode-list{width:100%;margin:8px 0 0;padding:0 22px 0 0;text-align:center}
+.pp-compass-episode-list li{padding:6px 0;font-size:.87rem;line-height:1.8}
+.pp-compass-ideas,.pp-compass-next,.pp-compass-method{max-width:820px;margin:20px auto 0;padding:21px 22px;background:var(--card);border:1px solid var(--line);border-radius:11px;text-align:center}
+.pp-compass-ideas h3,.pp-compass-next h3{margin:0 0 7px;font-size:1.13rem;text-align:center}
+.pp-compass-ideas>p{color:var(--mut);margin:0 auto 12px}
+.pp-compass-ideas ol{display:inline-block;margin:8px auto 0;padding-right:24px;text-align:center}
+.pp-compass-ideas li{padding:5px 0;text-align:center}
+.pp-compass-next p{margin:0;color:var(--mut);text-align:center}
+.pp-compass-method summary{font-weight:850;cursor:pointer;text-align:center}
+.pp-compass-methodbody{padding-top:14px;color:var(--mut);font-size:.91rem;text-align:center}
+.pp-compass-methodbody h4{color:var(--ink);margin:18px 0 7px;text-align:center}
+.pp-compass-methodbody ul{display:inline-block;padding-right:22px;text-align:right}
 .pp-compass-methodbody li{margin:8px 0}
-.pp-compass-disclaimer{padding:13px 15px;border:1px solid var(--line);border-radius:6px;color:var(--ink);background:var(--bg)}
-.pp-compass-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
-.pp-compass-secondary{font:inherit;padding:9px 15px;border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--ink);cursor:pointer}
+.pp-compass-disclaimer{padding:14px 16px;border:1px solid var(--line);border-radius:9px;color:var(--ink);background:var(--bg);text-align:center}
+.pp-compass-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:18px}
+.pp-compass-secondary{font:inherit;padding:10px 16px;border:1px solid var(--line);border-radius:9px;background:transparent;color:var(--ink);cursor:pointer;min-height:44px}
 .pp-compass-secondary:hover{border-color:var(--acc)}
-@media(max-width:700px){.pp-compass{padding:22px 14px 50px}.pp-compass-options{grid-template-columns:1fr}.pp-compass-directions{grid-template-columns:1fr}.pp-compass-submit{align-items:stretch;flex-direction:column}.pp-compass-submit button{width:100%}.pp-compass-step{padding:17px}}
-@media print{.pp-hero,.pp-bar,.pp-side,footer,.pp-compass-form,.pp-compass-actions{display:none!important}.pp-compass{max-width:none;padding:0}.pp-compass-results{display:block!important;border:0;margin:0;padding:0}.pp-compass-direction,.pp-compass-ideas,.pp-compass-next,.pp-compass-method{break-inside:avoid;background:#fff;color:#111}.pp-compass-methodbody{display:block!important}}
+.pp-compass button:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+@media(max-width:760px){
+  .pp-compass{padding:25px 14px 54px}
+  .pp-compass-hero{padding:15px 0 24px;margin-bottom:22px}
+  .pp-compass-hero h1{font-size:2rem}
+  .pp-compass-step{padding:20px 14px;border-radius:10px}
+  .pp-compass-options{grid-template-columns:1fr;gap:8px}
+  .pp-compass-options label{min-height:50px;padding:11px 12px}
+  .pp-compass-directions{grid-template-columns:1fr;gap:10px}
+  .pp-compass-direction{padding:19px 16px}
+  .pp-compass-ideas,.pp-compass-next,.pp-compass-method{padding:18px 14px}
+  .pp-compass-submit button{width:100%;max-width:420px}
+  .pp-compass-actions{flex-direction:column}
+  .pp-compass-secondary{width:100%}
+}
+@media(max-width:380px){
+  .pp-compass{padding-inline:10px}
+  .pp-compass-hero h1{font-size:1.75rem}
+  .pp-compass-stephead h2{font-size:1.05rem}
+  .pp-compass-direction{padding-inline:13px}
+}
+@media(prefers-reduced-motion:reduce){.pp-compass *{scroll-behavior:auto!important;transition:none!important}}
+@media print{
+  .pp-hero,.pp-bar,.pp-side,footer,.pp-compass-form,.pp-compass-actions{display:none!important}
+  .pp-compass{max-width:none;padding:0}
+  .pp-compass-results{display:block!important;border:0;margin:0;padding:0}
+  .pp-compass-direction,.pp-compass-ideas,.pp-compass-next,.pp-compass-method{break-inside:avoid;background:#fff;color:#111}
+  .pp-compass-methodbody{display:block!important}
+}
