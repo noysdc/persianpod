@@ -10,7 +10,13 @@
   var th = $('t-theme');
   if (th) th.addEventListener('click', function () {
     var t = r.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-    r.setAttribute('data-theme', t); save('pp-theme', t);
+    /* هنگام تعویض تم، انیمیشن‌های CSS موقتاً خاموش می‌شوند تا تغییر رنگ معطل transition عناصر نماند. */
+    r.classList.add('pp-theme-switching');
+    r.setAttribute('data-theme', t);
+    save('pp-theme', t);
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () { r.classList.remove('pp-theme-switching'); });
+    });
   });
 
   /* font size */
