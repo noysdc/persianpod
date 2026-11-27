@@ -3,8 +3,8 @@ layout: learn-post
 title: "چطور متن پادکست بنویسیم؟ راهنمای نوشتن برای گوش، نه چشم"
 description: "از انتخاب زاویه‌ی روایت و ساختار اپیزود تا نوشتن شروع، گذارها، دیالوگ و بازخوانی با صدای بلند؛ راهنمای عملی نوشتن متن شنیدنی."
 date: 2026-11-27 12:00:00 +0330
-source: "Poynter؛ نوشتن برای صدا"
-source_url: "https://www.poynter.org/archive/2002/journeys-in-sound/"
+source: "BBC Academy؛ نوشتن برای روایت صوتی"
+source_url: "https://www.bbc.co.uk/academy/en/articles/art20171019102301496"
 tags: ["نویسندگی", "سناریونویسی", "روایت", "تولید محتوا"]
 image_alt: "صفحه‌های متن و یادداشت‌های آماده‌سازی یک اپیزود پادکست"
 ---
@@ -153,6 +153,7 @@ image_alt: "صفحه‌های متن و یادداشت‌های آماده‌س�
 
 - [MasterClass؛ راهنمای نوشتن اسکریپت پادکست](https://www.masterclass.com/articles/how-to-write-a-podcast-script)
 - [Poynter؛ Journeys in Sound](https://www.poynter.org/archive/2002/journeys-in-sound/)
+- [BBC Academy؛ نوشتن برای رسانه‌های مختلف](https://www.bbc.co.uk/academy/en/articles/art20171019102301496)
 - [Transom؛ منابع و آموزش تولید مستند صوتی](https://transom.org/)
 - [BBC Academy؛ آموزش تولید و روایت صوتی](https://www.bbc.co.uk/academy)
 
