@@ -41633,8 +41633,8 @@
     "avg_gap_days": 0.6,
     "avg_length": 21,
     "episodes": 685,
-    "eps_365": 632,
-    "eps_90": 191,
+    "eps_365": 631,
+    "eps_90": 190,
     "first_at": "2025-10-22",
     "first_year": 1404,
     "last": "1405/09/06",
@@ -41722,9 +41722,9 @@
       0,
       0,
       62,
-      59,
+      60,
       49,
-      66,
+      65,
       51,
       74
     ],
@@ -96405,7 +96405,7 @@
     "avg_length": 12,
     "episodes": 26,
     "eps_365": 26,
-    "eps_90": 9,
+    "eps_90": 8,
     "first_at": "2026-02-24",
     "first_year": 1404,
     "last": "1405/08/29",
@@ -96493,8 +96493,8 @@
       0,
       0,
       2,
-      4,
-      2,
+      5,
+      1,
       3,
       4
     ],
@@ -99818,20 +99818,26 @@
   },
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
-    "avg_length": 20,
-    "episodes": 437,
-    "eps_365": 257,
-    "eps_90": 102,
+    "avg_length": 19,
+    "episodes": 438,
+    "eps_365": 258,
+    "eps_90": 103,
     "first_at": "2024-08-22",
     "first_year": 1403,
     "last": "1405/09/06",
-    "last_at": "2026-11-27T07:08:48Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6b092c83079ab0810cf2368c",
-    "last_title": "مدیتیشن ۵ دقیقه‌ای استراحت و پاکسازی ذهن 🧘‍♀️مدیتیشن",
+    "last_at": "2026-11-27T17:30:00Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6af045239272884e57e3ee3a",
+    "last_title": "جملات تأکیدی پیش از خواب | خواب عمیق و آرامش",
     "max_length": 99,
     "median_length": 12,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af045239272884e57e3ee3a/media.mp3",
+        "at": "2026-11-27T17:30:00Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794129930918-e5a90797-9de2-4efd-8317-dadae73287ff.jpeg",
+        "t": "جملات تأکیدی پیش از خواب | خواب عمیق و آرامش"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6b092c83079ab0810cf2368c/media.mp3",
         "at": "2026-11-27T07:08:48Z",
@@ -99873,15 +99879,15 @@
         "at": "2026-11-21T01:30:00Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794132103007-ba9bc9e3-fa53-428a-a092-2eee9d73004e.jpeg",
         "t": "امروز را با آرامش و حال خوب بغل کن ✨ | قوی‌ترین جملات تأکیدی صبحگاهی"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6b00077411cce4ba963ae5a2/media.mp3",
-        "at": "2026-11-20T10:02:22Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795163998686-14365006-d184-4667-b092-6f1e53dcd64b.jpeg",
-        "t": "جادوگر سفید | اپیزود 13"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T17:30:00Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794129930918-e5a90797-9de2-4efd-8317-dadae73287ff.jpeg",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6af045239272884e57e3ee3a",
+        "title": "جملات تأکیدی پیش از خواب | خواب عمیق و آرامش"
+      },
       {
         "at": "2026-11-27T07:08:48Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795763178848-3ab6fac1-0a6a-40d9-8dfa-46b2a6d11018.jpeg",
@@ -99893,12 +99899,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794132318517-60fd58ab-8763-4f85-b737-e7c935c826bd.jpeg",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6af04aab9272884e57e5c9a0",
         "title": "به مسیر زندگی اعتماد کن ✨ | جملات تأکیدی قدرتمند"
-      },
-      {
-        "at": "2026-11-24T14:21:34Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795529921572-3262c504-8933-4d32-ac59-8590705302ac.jpeg",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6b059d72062dc4efc03bf9a2",
-        "title": "مدیتیشن قبل از جلسه کاری و مذاکره 💼✨ | آرامش ذهن، وضوح فکر و اعتمادبه‌نفس برای تصمیم‌گیری درست"
       }
     ],
     "recent_30d": [
@@ -99913,7 +99913,7 @@
       37,
       43,
       37,
-      22
+      23
     ],
     "status": "active"
   },
