@@ -63,7 +63,7 @@
 <link rel="stylesheet" href="{{ '/assets/css/pp-v2.css' | relative_url }}?v=20261013">
 <link rel="stylesheet" href="{{ '/assets/css/pp-v3.css' | relative_url }}?v=20261014">
 <link rel="stylesheet" href="{{ '/assets/css/pp-v4.css' | relative_url }}?v=20261015">
-<link rel="stylesheet" href="{{ '/assets/css/pp-rail.css' | relative_url }}?v={{ site.asset_v }}">
+{% if page.url == '/' or page.url == '/listen/' %}<link rel="stylesheet" href="{{ '/assets/css/pp-rail.css' | relative_url }}?v={{ site.asset_v }}">{% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/pp-desktop.css' | relative_url }}?v={{ site.asset_v }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-cards.css' | relative_url }}?v={{ site.asset_v }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-adv.css' | relative_url }}?v={{ site.asset_v }}">
@@ -72,9 +72,9 @@
 <link rel="stylesheet" href="{{ '/assets/css/pp-nav-icons.css' | relative_url }}?v={{ site.asset_v }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-pill.css' | relative_url }}?v={{ site.asset_v }}">
 <link rel="stylesheet" href="{{ '/assets/css/pp-memory.css' | relative_url }}?v={{ site.asset_v }}">
-<link rel="stylesheet" href="{{ '/assets/css/pp-group-box.css' | relative_url }}?v={{ site.asset_v }}">
+{% if page.url == '/' or page.url == '/listen/' %}<link rel="stylesheet" href="{{ '/assets/css/pp-group-box.css' | relative_url }}?v={{ site.asset_v }}">{% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/pp-motion.css' | relative_url }}?v={{ site.asset_v }}">
-<link rel="stylesheet" href="{{ '/assets/css/pp-arrows.css' | relative_url }}?v={{ site.asset_v }}">
+{% if page.url == '/' or page.url == '/listen/' %}<link rel="stylesheet" href="{{ '/assets/css/pp-arrows.css' | relative_url }}?v={{ site.asset_v }}">{% endif %}
 </head>
 <body data-search="{{ '/search.json' | relative_url }}?v={{ site.time | date: '%s' }}">
 <a class="pp-skip" href="#main">رفتن به محتوا</a>
