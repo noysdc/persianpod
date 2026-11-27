@@ -189,9 +189,9 @@
           '<a class="pd-cat-link" href="?category=' + encodeURIComponent(c) + '" data-cat="' + esc(c) + '"><span class="pd-cat-ic">' + HEAD + "</span>" +
           esc(c) + " <small>" + toFa(groups[c].length) + '</small><span class="pd-more">مشاهده‌ی همه <span aria-hidden="true">←</span></span></a></h2>' +
           '<div class="pd-row-wrap">' +
-          '<button type="button" class="pd-arrow pd-prev" data-dir="prev" aria-label="قبلی: ' + esc(c) + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>' +
+          '<button type="button" class="pd-arrow pd-prev" data-dir="prev" aria-label="قبلی: ' + esc(c) + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg><span>قبلی</span></button>' +
           '<div class="pd-row pl-row" tabindex="0">' + groups[c].map(card).join("") + "</div>" +
-          '<button type="button" class="pd-arrow pd-next" data-dir="next" aria-label="بعدی: ' + esc(c) + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button>' +
+          '<button type="button" class="pd-arrow pd-next" data-dir="next" aria-label="بعدی: ' + esc(c) + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg><span>بعدی</span></button>' +
           "</div></section>";
       }).join("");
     } else {
