@@ -47,10 +47,6 @@
     "error": "ValueError: no items in feed",
     "rss": "https://rss.castbox.fm/everest/08e76cc25e4849cfb964b07b784572cb.xml"
   },
-  "bit-baigani": {
-    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://textmaker.ir/category/beat/feed/"
-  },
   "bookafe-bokafh": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/saharnik1981/feed.xml"
