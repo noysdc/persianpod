@@ -11,24 +11,25 @@
     position: absolute !important;
     top: 50% !important;
     transform: translateY(-50%) !important;
-    width: 30px !important;
-    min-width: 30px !important;
-    height: 42px !important;
+    width: 28px !important;
+    min-width: 28px !important;
+    height: 36px !important;
     padding: 0 !important;
     margin: 0 !important;
     border: 0 !important;
     border-radius: 0 !important;
-    background: linear-gradient(90deg, rgba(128,128,128,.08), rgba(128,128,128,.20)) !important;
+    background: transparent !important;
     color: var(--ink) !important;
-    -webkit-backdrop-filter: blur(10px) saturate(140%) !important;
-    backdrop-filter: blur(10px) saturate(140%) !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
     box-shadow: none !important;
     opacity: .78 !important;
     visibility: visible !important;
     pointer-events: auto !important;
     z-index: 50 !important;
     font-family: inherit !important;
-    font-size: 27px !important;
+    font-size: 31px !important;
+    text-shadow: 0 1px 7px rgba(0,0,0,.28) !important;
     font-weight: 400 !important;
     line-height: 1 !important;
     text-align: center !important;
@@ -39,15 +40,15 @@
   html body .pd-group .pd-row-wrap > button.pd-arrow:focus-visible {
     opacity: 1 !important;
     color: var(--acc) !important;
-    background: linear-gradient(90deg, rgba(128,128,128,.12), rgba(128,128,128,.28)) !important;
+    background: transparent !important;
     outline: none !important;
   }
   html body .pd-group .pd-row-wrap > button.pd-prev {
-    right: 5px !important;
+    right: 10px !important;
     left: auto !important;
   }
   html body .pd-group .pd-row-wrap > button.pd-next {
-    left: 5px !important;
+    left: 10px !important;
     right: auto !important;
   }
   html body .pd-group .pd-row-wrap > button.pd-arrow svg {
