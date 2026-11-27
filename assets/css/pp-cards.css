@@ -275,52 +275,44 @@ html:not(#pp) #similar .pd-grid .pd-card {
   .pod-end .pp-news iframe { margin: 0; max-width: none; width: 100%; }
 }
 
+/* ---------- وضعیت پادکست: حلقه‌ی رنگی روی کاور، بدون چراغ ---------- */
+.pd-card--active { --pd-status-rgb: 22, 163, 74; }
+.pd-card--inactive { --pd-status-rgb: 202, 138, 4; }
+.pd-card--stopped { --pd-status-rgb: 220, 38, 38; }
+.pd-card--unknown { --pd-status-rgb: 107, 114, 128; }
 
-/* ---------- حلقه‌ی وضعیت روی قلب: رنگ واضح‌تر و هاله‌ی قابل‌دیدن ---------- */
-.pd-card--active .pp-heart,
-.pd-card--active .pp-heart-inline { 
-  border: 2px solid rgba(22, 163, 74, .98) !important;
-  box-shadow: 0 0 0 2px rgba(22, 163, 74, .22), 0 0 10px rgba(22, 163, 74, .32) !important;
+/* صفحه‌ی «گوش بده»: چراغ‌های قدیمی احتمالی پنهان؛ وضعیت فقط دور کاور */
+.pd-card.pl-card .pd-status { display: none !important; }
+html:not(#pp) .pd-card.pl-card .pd-logo {
+  box-shadow:
+    0 0 0 2px rgba(var(--pd-status-rgb, 107, 114, 128), .88),
+    0 0 10px rgba(var(--pd-status-rgb, 107, 114, 128), .30) !important;
+  transition: box-shadow .35s ease !important;
 }
-.pd-card--inactive .pp-heart,
-.pd-card--inactive .pp-heart-inline {
-  border: 2px solid rgba(202, 138, 4, .98) !important;
-  box-shadow: 0 0 0 2px rgba(234, 179, 8, .24), 0 0 10px rgba(234, 179, 8, .34) !important;
-}
-.pd-card--stopped .pp-heart,
-.pd-card--stopped .pp-heart-inline {
-  border: 2px solid rgba(220, 38, 38, .98) !important;
-  box-shadow: 0 0 0 2px rgba(220, 38, 38, .24), 0 0 10px rgba(220, 38, 38, .34) !important;
-}
-.pd-card--unknown .pp-heart,
-.pd-card--unknown .pp-heart-inline {
-  border: 2px solid rgba(107, 114, 128, .95) !important;
-  box-shadow: 0 0 0 2px rgba(156, 163, 175, .20), 0 0 9px rgba(156, 163, 175, .28) !important;
+
+/* صفحه‌ی اصلی و سایر کارت‌ها: حلقه‌ی رنگی همواره قابل‌دیدن */
+html:not(#pp) .pd-card:not(.pl-card) .pd-logo {
+  box-shadow:
+    0 0 0 2px rgba(var(--pd-status-rgb, 107, 114, 128), .82),
+    0 0 9px rgba(var(--pd-status-rgb, 107, 114, 128), .24),
+    0 8px 18px -12px rgba(0, 0, 0, .45) !important;
 }
 
 @media (hover: hover) {
-  .pd-card--active:hover .pp-heart,
-  .pd-card--active:focus-within .pp-heart,
-  .pd-card--active:hover .pp-heart-inline,
-  .pd-card--active:focus-within .pp-heart-inline {
-    box-shadow: 0 0 0 3px rgba(22, 163, 74, .28), 0 0 16px rgba(22, 163, 74, .58) !important;
+  html:not(#pp) .pd-card:not(.pl-card):hover .pd-logo,
+  html:not(#pp) .pd-card:not(.pl-card):focus-within .pd-logo,
+  html:not(#pp) .pd-card.pl-card:hover .pd-logo,
+  html:not(#pp) .pd-card.pl-card:focus-visible .pd-logo {
+    box-shadow:
+      0 0 0 2px rgba(var(--pd-status-rgb, 107, 114, 128), .98),
+      0 0 17px rgba(var(--pd-status-rgb, 107, 114, 128), .62),
+      0 14px 28px -14px rgba(var(--pd-status-rgb, 107, 114, 128), .42) !important;
   }
-  .pd-card--inactive:hover .pp-heart,
-  .pd-card--inactive:focus-within .pp-heart,
-  .pd-card--inactive:hover .pp-heart-inline,
-  .pd-card--inactive:focus-within .pp-heart-inline {
-    box-shadow: 0 0 0 3px rgba(234, 179, 8, .30), 0 0 16px rgba(234, 179, 8, .60) !important;
-  }
-  .pd-card--stopped:hover .pp-heart,
-  .pd-card--stopped:focus-within .pp-heart,
-  .pd-card--stopped:hover .pp-heart-inline,
-  .pd-card--stopped:focus-within .pp-heart-inline {
-    box-shadow: 0 0 0 3px rgba(220, 38, 38, .30), 0 0 16px rgba(220, 38, 38, .60) !important;
-  }
-  .pd-card--unknown:hover .pp-heart,
-  .pd-card--unknown:focus-within .pp-heart,
-  .pd-card--unknown:hover .pp-heart-inline,
-  .pd-card--unknown:focus-within .pp-heart-inline {
-    box-shadow: 0 0 0 3px rgba(156, 163, 175, .26), 0 0 14px rgba(156, 163, 175, .48) !important;
-  }
+}
+
+/* حلقه‌ی وضعیت روی کاور است، نه روی دکمه‌ی قلب */
+.pd-card .pp-heart,
+.pd-card .pp-heart-inline {
+  border-color: rgba(255,255,255,.45) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,.22) !important;
 }
