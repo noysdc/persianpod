@@ -235,3 +235,26 @@ a.pl-src:hover { text-decoration: underline; }
 .pp-learn-arrow--next{left:-5px}
 .pp-learn-current{display:inline-block;flex:0 0 auto;padding:4px 10px;border-radius:999px;background:rgba(8,203,0,.1);color:var(--acc);font-size:.78rem;cursor:pointer}
 @media(max-width:700px){.pp-learn-tools{flex-wrap:wrap;gap:8px}.pp-learn-tools #a-q{flex:1 1 100%;max-width:none}.pp-learn-tagrail{flex:1 1 100%;width:100%}.pp-learn-arrow{display:none!important}.pp-learn-tagtrack{padding-inline:2px}}
+
+
+/* ---------- قطب‌نمای پادکست: ورودی ابزار در ابتدای بخش آموزش ---------- */
+.pp-learn-compass{display:flex;align-items:center;gap:14px;margin:22px 0 24px;padding:17px 20px;border:1px solid rgba(8,203,0,.28);border-radius:18px;background:linear-gradient(105deg,rgba(8,203,0,.10),var(--card) 72%);box-shadow:0 10px 28px rgba(0,0,0,.045);color:inherit;text-decoration:none;transition:border-color .2s,transform .2s,box-shadow .2s}
+.pp-learn-compass:hover{border-color:rgba(8,203,0,.65);transform:translateY(-2px);box-shadow:0 14px 34px rgba(0,0,0,.08)}
+.pp-learn-compass-icon{display:grid;place-items:center;flex:none;width:44px;height:44px;border-radius:14px;background:rgba(8,203,0,.14);color:var(--acc);font-size:1.5rem}
+.pp-learn-compass-copy{display:grid;gap:2px;min-width:0;flex:1}
+.pp-learn-compass-copy strong{font-size:1rem}
+.pp-learn-compass-copy span{font-size:.86rem;color:var(--mut);line-height:1.8}
+.pp-learn-compass-cta{display:flex;align-items:center;gap:8px;flex:none;color:var(--acc);font-size:.88rem;font-weight:800;white-space:nowrap}
+@media(max-width:650px){.pp-learn-compass{align-items:flex-start;flex-wrap:wrap;padding:15px}.pp-learn-compass-copy{flex:1 1 calc(100% - 62px)}.pp-learn-compass-cta{margin-inline-start:58px}}
+
+/* ---------- جدول‌های مقاله: خوانا، منظم و قابل پیمایش در موبایل ---------- */
+.pl-post-body table{display:block;width:100%;max-width:100%;margin:1.5em 0 2em;overflow-x:auto;overflow-y:hidden;border-collapse:separate;border-spacing:0;border:1px solid var(--line);border-radius:14px;background:var(--card);-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:rgba(8,203,0,.55) transparent}
+.pl-post-body thead{background:rgba(8,203,0,.10)}
+.pl-post-body th,.pl-post-body td{padding:11px 14px;text-align:right;vertical-align:top;border-bottom:1px solid var(--line);border-inline-start:1px solid var(--line);line-height:1.85;font-size:.91rem;overflow-wrap:anywhere}
+.pl-post-body th{font-weight:800;color:var(--ink);white-space:normal}
+.pl-post-body td{color:var(--mut)}
+.pl-post-body tr:last-child td{border-bottom:0}
+.pl-post-body th:last-child,.pl-post-body td:last-child{border-inline-start:0}
+.pl-post-body tbody tr:nth-child(even){background:rgba(128,145,136,.055)}
+@media(max-width:700px){.pl-post-body table{min-width:0}.pl-post-body table thead,.pl-post-body table tbody{min-width:560px}.pl-post-body th,.pl-post-body td{min-width:130px;padding:9px 11px;font-size:.86rem}}
+@media(prefers-reduced-motion:reduce){.pp-learn-compass{transition:none}.pp-learn-compass:hover{transform:none}}
