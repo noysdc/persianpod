@@ -4,7 +4,7 @@ title: "آکوستیک اتاق برای پادکست؛ چطور اکو و با�
 description: "تفاوت عایق صوتی و آکوستیک داخلی را بشناسید، محل بازتاب‌ها را پیدا کنید و با پرده، فرش، کتاب و چیدمان درست، صدای ضبط خانگی را بهتر کنید."
 date: 2026-11-27 12:00:00 +0330
 source: "Shure؛ راهنمای محیط ضبط پادکست"
-source_url: "https://www.shure.com/en-us/insights/choosing-a-microphone-for-podcasting"
+source_url: "https://www.shure.com/en-US/insights/home-recording-guide-for-beginners"
 tags: ["آکوستیک", "ضبط صدا", "استودیو خانگی", "نویز"]
 image_alt: "اتاق خانگی با پرده، فرش و تجهیزات ساده برای کنترل بازتاب صدا"
 image: "/assets/img/learn/l-622b884b4d.webp"
