@@ -7,7 +7,7 @@ layout: default
 {% assign start = page.start_year | default: page.started %}
 {% assign eps = page.episode_count | default: page.episodes %}
 {% assign freq = page.frequency | default: page.schedule %}
-{% assign stv = page.status_override | default: page.status | default: 'active' %}
+{% assign stv = page.status_override | default: site.data.rss_stats[page.slug].status | default: page.status | default: 'unknown' %}
 {% if stv contains 'متوقف' and stv contains 'شده' or stv == 'stopped' or stv == 'ended' or stv == 'تمام‌شده' or stv == 'تمام شده' %}
   {% assign stv = 'ended' %}
 {% elsif stv == 'متوقف' or stv == 'paused' or stv == 'inactive' or stv == 'غیرفعال' %}
@@ -53,7 +53,7 @@ layout: default
 {% assign feed_eps = site.data.rss_stats[page.slug].play %}{% assign total_eps = site.data.rss_stats[page.slug].episodes | default: page.episode_count | default: 0 %}
 {% assign can_listen = false %}{% if feed_eps and feed_eps.size > 0 %}{% assign can_listen = true %}{% elsif embed_src != '' %}{% assign can_listen = true %}{% endif %}
 
-<article class="pod wrap">
+<article class="pod wrap pod-status-{{ stv }}">
   <nav class="crumb"><a href="{{ '/' | relative_url }}">پادکست‌ها</a> / <a href="{{ '/?category=' | append: page.category | uri_escape | relative_url }}">{{ page.category }}</a></nav>
   <header class="pod-hero">
     <div class="pod-cover"><span class="pod-cover-in">{% if logo_url %}<img src="{{ logo_url }}" alt="لوگوی {{ page.title }}" width="200" height="200">{% else %}<i class="ph">{{ page.title | slice: 0 }}</i>{% endif %}</span></div>
