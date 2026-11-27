@@ -105,10 +105,13 @@ description: داستان پرشین‌پاد، باور پشت آن، شیوه�
 
 رنگ حلقه و هاله‌ی دور تصویر هر پادکست، وضعیت تازه‌بودن انتشار قسمت‌های آن را نشان می‌دهد. این رنگ‌ها بر اساس تاریخ آخرین قسمت در فید RSS تعیین می‌شوند و نشانه‌ی کیفیت یا محبوبیت پادکست نیستند:
 
-- **سبز — فعال:** در کمتر از ۳ سال گذشته قسمت تازه‌ای منتشر شده است.
-- **زرد — غیرفعال:** بیش از ۳ سال و کمتر از ۴ سال از آخرین قسمت گذشته است.
-- **قرمز — متوقف:** ۴ سال یا بیشتر از آخرین قسمت گذشته است.
-- **خاکستری — نامشخص:** تاریخ قابل‌اعتمادی از فید RSS در دسترس نیست.
+<span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:#16a34a;vertical-align:middle;margin-left:7px;box-shadow:0 0 7px rgba(22,163,74,.45)"></span> **سبز — فعال:** در کمتر از ۳ سال گذشته قسمت تازه‌ای منتشر شده است.
+
+<span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:#ca8a04;vertical-align:middle;margin-left:7px;box-shadow:0 0 7px rgba(202,138,4,.45)"></span> **زرد — غیرفعال:** بیش از ۳ سال و کمتر از ۴ سال از آخرین قسمت گذشته است.
+
+<span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:#dc2626;vertical-align:middle;margin-left:7px;box-shadow:0 0 7px rgba(220,38,38,.45)"></span> **قرمز — متوقف:** ۴ سال یا بیشتر از آخرین قسمت گذشته است.
+
+<span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:#6b7280;vertical-align:middle;margin-left:7px;box-shadow:0 0 7px rgba(107,114,128,.45)"></span> **خاکستری — نامشخص:** تاریخ قابل‌اعتمادی از فید RSS در دسترس نیست.
 
 به‌محض انتشار قسمت تازه، وضعیت پادکست دوباره بررسی می‌شود و اگر در بازه‌ی فعال قرار بگیرد، حلقه‌ی آن سبز خواهد شد. همین رنگ‌بندی در صفحه‌ی اصلی، صفحه‌ی «گوش بده» و صفحه‌ی اختصاصی هر پادکست یکسان است.
 
