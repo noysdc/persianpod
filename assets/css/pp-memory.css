@@ -8,7 +8,7 @@
   box-shadow:0 2px 8px rgba(0,0,0,.22);transition:transform .15s ease,background .2s ease,color .2s ease;
 }
 .pp-heart svg,.pp-save svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;transition:fill .2s ease,stroke .2s ease}
-.pp-heart:hover{transform:scale(1.08);background:rgba(18,22,18,.72)}
+.pp-heart:hover{transform:scale(1.08);background:rgba(18,22,18,.72);border-color:rgba(255,255,255,.45)}
 .pp-heart:active{transform:scale(.92)}
 .pp-heart:focus-visible,.pp-save:focus-visible{outline:3px solid #08cb00;outline-offset:2px}
 .pp-heart[aria-pressed="true"]{color:#ff3b5c;background:rgba(255,255,255,.92);border-color:transparent}
