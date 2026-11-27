@@ -56,7 +56,7 @@
     "rss": "https://www.bangeney.ir/category/%D9%85%D8%AF%DB%8C%D8%A7/feed/"
   },
   "baigani-ha-sda": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -5] No address associated with hostname>",
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://musiceiranian.ir/type/audio/feed"
   },
   "bazariabi-ba-hmid-sbaghi": {
