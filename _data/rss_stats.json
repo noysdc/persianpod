@@ -2519,26 +2519,32 @@
     "status": "stopped"
   },
   "aaoai-mhit-zist": {
-    "avg_gap_days": 29.0,
+    "avg_gap_days": 23.2,
     "avg_length": 83,
-    "episodes": 37,
-    "eps_365": 5,
-    "eps_90": 3,
+    "episodes": 38,
+    "eps_365": 6,
+    "eps_90": 4,
     "first_at": "2021-11-06",
     "first_year": 1400,
     "last": "1405/09/06",
-    "last_at": "2026-11-27T04:01:54Z",
-    "last_link": "https://rss.com/podcasts/avaemohitzist/3360359",
-    "last_title": "اتاق توسعه | اپیزود 5 | خوانش فصل دوم کتاب هوش محیط زیستی (سبز بودن سراب است؟!)",
+    "last_at": "2026-11-27T07:50:17Z",
+    "last_link": "https://rss.com/podcasts/avaemohitzist/3360695",
+    "last_title": "اتاق توسعه | اپیزود ۶ | هوش محیط زیستی (آنچه نمیدانیم؟!)",
     "max_length": 170,
-    "median_length": 71,
+    "median_length": 65,
     "min_length": 24,
     "play": [
+      {
+        "a": "https://content.rss.com/episodes/89104/3360695/avaemohitzist/2026_11_27_07_50_03_075e2cf3-8804-49fb-8494-3e6e2430e904.mp3",
+        "at": "2026-11-27T07:50:17Z",
+        "i": "https://media.rss.com/avaemohitzist/ep_cover_20261127_075001_0f22b324f6dcbbdddf3a9ffd9521980f.png",
+        "t": "اتاق توسعه | اپیزود ۶ | هوش محیط زیستی (آنچه نمیدانیم؟!)"
+      },
       {
         "a": "https://content.rss.com/episodes/89104/3360359/avaemohitzist/2026_11_27_04_01_10_6c7d6663-a035-4366-92a1-44c1bd4fdb4d.mp3",
         "at": "2026-11-27T04:01:54Z",
         "i": "https://media.rss.com/avaemohitzist/ep_cover_20261127_040109_5a24e2391cf0deaa77f97b3252bb2b94.png",
-        "t": "اتاق توسعه | اپیزود 5 | خوانش فصل دوم کتاب هوش محیط زیستی (سبز بودن سراب است؟!)"
+        "t": "اتاق توسعه | اپیزود ۵ | خوانش فصل دوم کتاب هوش محیط زیستی (سبز بودن سراب است؟!)"
       },
       {
         "a": "https://content.rss.com/episodes/89104/3258572/avaemohitzist/2026_10_23_02_52_07_25323ff3-26bc-4c66-90c9-eae05c620c67.mp3",
@@ -2575,32 +2581,26 @@
         "at": "2023-02-18T23:34:26Z",
         "i": "https://media.rss.com/avaemohitzist/ep_cover_20230218_100242_17105108c2308ddffbe60312e3540979.jpg",
         "t": "اقتصاد سیاسی محیط زیست (جلسه ۹ -نقد نظریه ها و دیدگاه های اقتصاد سیاسی محیط زیست)"
-      },
-      {
-        "a": "https://content.rss.com/episodes/89104/822156/avaemohitzist/2023_02_12_04_11_05_2c1add3f-04d5-4a90-989f-8c4be09f4978.mp3",
-        "at": "2023-02-12T04:13:18Z",
-        "i": "https://media.rss.com/avaemohitzist/ep_cover_20230212_040242_273fb0f643427fffdc4481aaa8fc440c.jpg",
-        "t": "اقتصاد سیاسی محیط زیست (جلسه ۸ - مکتب اتریش و محیط زیست)"
       }
     ],
     "recent": [
       {
+        "at": "2026-11-27T07:50:17Z",
+        "i": "https://media.rss.com/avaemohitzist/ep_cover_20261127_075001_0f22b324f6dcbbdddf3a9ffd9521980f.png",
+        "link": "https://rss.com/podcasts/avaemohitzist/3360695",
+        "title": "اتاق توسعه | اپیزود ۶ | هوش محیط زیستی (آنچه نمیدانیم؟!)"
+      },
+      {
         "at": "2026-11-27T04:01:54Z",
         "i": "https://media.rss.com/avaemohitzist/ep_cover_20261127_040109_5a24e2391cf0deaa77f97b3252bb2b94.png",
         "link": "https://rss.com/podcasts/avaemohitzist/3360359",
-        "title": "اتاق توسعه | اپیزود 5 | خوانش فصل دوم کتاب هوش محیط زیستی (سبز بودن سراب است؟!)"
+        "title": "اتاق توسعه | اپیزود ۵ | خوانش فصل دوم کتاب هوش محیط زیستی (سبز بودن سراب است؟!)"
       },
       {
         "at": "2026-10-23T02:52:15Z",
         "i": "https://media.rss.com/avaemohitzist/ep_cover_20261023_025205_f84dc074b09ba88bd274e51937e1cb5d.png",
         "link": "https://rss.com/podcasts/avaemohitzist/3258572",
         "title": "اتاق توسعه | اپیزود ۴ | هوش محیط زیستی («سبز»  یک سراب است؟!)"
-      },
-      {
-        "at": "2026-09-13T23:05:51Z",
-        "i": "https://media.rss.com/avaemohitzist/ep_cover_20261022_234904_f6024cdb45d74a62062a27ec7f356dbe.png",
-        "link": "https://rss.com/podcasts/avaemohitzist/3148287",
-        "title": "اتاق توسعه | اپیزود ۳ | خوانش فصل اول کتاب هوش محیط زیستی (قیمت پنهان خریدهای روزمره)"
       }
     ],
     "recent_30d": [
@@ -2615,7 +2615,7 @@
       2,
       1,
       1,
-      1
+      2
     ],
     "status": "active"
   },
@@ -65862,7 +65862,7 @@
       }
     ],
     "recent_30d": [
-      6,
+      5,
       2,
       0,
       0,
