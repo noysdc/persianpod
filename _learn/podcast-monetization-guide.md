@@ -2,7 +2,7 @@
 layout: learn-post
 title: "چطور از پادکست درآمد کسب کنیم؟ راه‌های واقعی درآمدزایی و محدودیت‌ها"
 description: "از اسپانسر و تبلیغات تا عضویت، حمایت مستقیم، محصولات و خدمات؛ مدل‌های درآمد پادکست را بشناسید و پیش از انتخاب، هزینه‌ها و محدودیت‌های هرکدام را بسنجید."
-date: 2026-11-27 12:00:00 +0330
+date: 2026-11-27 00:00:00 +0330
 source: "Spotify for Creators؛ راهنمای درآمدزایی"
 source_url: "https://support.spotify.com/us/creators/article/monetizing-your-show-with-spotify-for-creators/"
 tags: ["درآمدزایی", "اسپانسر", "تبلیغات", "عضویت", "کسب‌وکار پادکست"]
