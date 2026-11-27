@@ -16,11 +16,14 @@ permalink: /learn/
   {% if posts.size > 0 or links.size > 0 %}
   <div class="pp-learn-tools">
     <input type="search" id="a-q" placeholder="جستجو در آموزش‌ها" aria-label="جستجو در آموزش‌ها">
-    <div class="pp-tag-filter" id="a-tag-filter">
-      <button type="button" class="pp-tag-toggle" id="a-tag-toggle" aria-expanded="false" aria-controls="a-tags">همهٔ موضوعات <span aria-hidden="true">▾</span></button>
-      <span class="pp-tag-current" id="a-tag-current" hidden></span>
-      <div id="a-tags" class="pp-tags pp-tag-menu" role="group" aria-label="فیلتر موضوع" hidden></div>
+    <div class="pp-learn-tagrail" id="a-tag-filter" aria-label="فیلتر موضوعی">
+      <button class="pp-learn-arrow pp-learn-arrow--prev" type="button" aria-label="موضوعات قبلی" hidden>‹</button>
+      <div class="pp-learn-tagtrack" id="a-tags" role="group" aria-label="فیلتر موضوع">
+        <button class="pp-learn-tag is-active" type="button" data-tag="" aria-pressed="true">همه</button>
+      </div>
+      <button class="pp-learn-arrow pp-learn-arrow--next" type="button" aria-label="موضوعات بعدی" hidden>›</button>
     </div>
+    <span class="pp-learn-current" id="a-tag-current" hidden></span>
   </div>
 
   <ul class="pl-grid" id="a-list">
