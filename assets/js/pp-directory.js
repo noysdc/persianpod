@@ -293,37 +293,40 @@
   window.addEventListener("resize", scheduleMarkScrollable);
   window.addEventListener("load", scheduleMarkScrollable);
 
-  /* کشیدن ریل با ماوس در دسکتاپ؛ لمس موبایل به اسکرول طبیعی مرورگر سپرده می‌شود */
-  var railDrag = null;
+  /* کشیدن ریل با ماوس؛ کلیک عادی لینک‌ها حفظ می‌شود و فقط کلیک پس از Drag واقعی خنثی می‌شود */
+  var railDrag = null, suppressRailClick = null;
   out.addEventListener("pointerdown", function (e) {
-    if (e.pointerType !== "mouse" || e.button !== 0) return;
+    if (e.pointerType !== "mouse" || e.button !== 0 || e.target.closest(".pd-arrow")) return;
     var row = e.target.closest && e.target.closest(".pd-row");
     if (!row) return;
     railDrag = { row: row, pointerId: e.pointerId, startX: e.clientX, startScroll: row.scrollLeft, moved: false };
-    if (row.setPointerCapture) row.setPointerCapture(e.pointerId);
   });
-  out.addEventListener("pointermove", function (e) {
+  window.addEventListener("pointermove", function (e) {
     if (!railDrag || e.pointerId !== railDrag.pointerId) return;
     var dx = e.clientX - railDrag.startX;
-    if (!railDrag.moved && Math.abs(dx) < 5) return;
+    if (!railDrag.moved && Math.abs(dx) < 7) return;
     railDrag.moved = true;
     railDrag.row.classList.add("pp-is-dragging");
     railDrag.row.scrollLeft = railDrag.startScroll - dx;
     e.preventDefault();
-  });
+  }, { passive: false });
   function finishRailDrag(e) {
     if (!railDrag || (e && e.pointerId !== railDrag.pointerId)) return;
     var row = railDrag.row, moved = railDrag.moved;
     row.classList.remove("pp-is-dragging");
-    if (moved) row.setAttribute("data-pp-dragged", "1");
+    if (moved) suppressRailClick = { row: row, until: Date.now() + 500 };
     railDrag = null;
   }
-  out.addEventListener("pointerup", finishRailDrag);
-  out.addEventListener("pointercancel", finishRailDrag);
+  window.addEventListener("pointerup", finishRailDrag);
+  window.addEventListener("pointercancel", finishRailDrag);
   out.addEventListener("click", function (e) {
-    var row = e.target.closest && e.target.closest(".pd-row");
-    if (row && row.getAttribute("data-pp-dragged") === "1") {
-      e.preventDefault(); e.stopPropagation(); row.removeAttribute("data-pp-dragged");
+    if (!suppressRailClick) return;
+    var pending = suppressRailClick;
+    suppressRailClick = null;
+    if (Date.now() <= pending.until && e.target.closest && e.target.closest(".pd-row") === pending.row) {
+      e.preventDefault();
+      e.stopPropagation();
+      e.stopImmediatePropagation();
     }
   }, true);
   out.addEventListener("click", function (e) {
@@ -477,9 +480,9 @@
           '<span class="pd-cat-ic">' + iconSvg(iconFor(c)) + "</span>" + esc(c) + " <small>" + toFa(groups[c].length) + "</small>" +
           '<span class="pd-more">مشاهده‌ی همه <span aria-hidden="true">←</span></span></a></h2>' +
           '<div class="pd-row-wrap">' +
-          '<button type="button" class="pd-arrow pd-prev" data-dir="prev" aria-label="قبلی: ' + esc(c) + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg><span>قبلی</span></button>' +
+          '<button type="button" class="pd-arrow pd-prev" data-dir="prev" aria-label="حرکت به سمت راست: ' + esc(c) + '"><span aria-hidden="true">›</span></button>' +
           '<div class="pd-row" tabindex="0">' + items.map(card).join("") + "</div>" +
-          '<button type="button" class="pd-arrow pd-next" data-dir="next" aria-label="بعدی: ' + esc(c) + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg><span>بعدی</span></button>' +
+          '<button type="button" class="pd-arrow pd-next" data-dir="next" aria-label="حرکت به سمت چپ: ' + esc(c) + '"><span aria-hidden="true">‹</span></button>' +
           "</div></section>";
       }).join("");
       markScrollable();
