@@ -43,13 +43,14 @@
     background: transparent !important;
     outline: none !important;
   }
+  /* جای دو فلش عمداً با هم عوض شد */
   html body .pd-group .pd-row-wrap > button.pd-prev {
-    right: 10px !important;
-    left: auto !important;
-  }
-  html body .pd-group .pd-row-wrap > button.pd-next {
     left: 10px !important;
     right: auto !important;
+  }
+  html body .pd-group .pd-row-wrap > button.pd-next {
+    right: 10px !important;
+    left: auto !important;
   }
   html body .pd-group .pd-row-wrap > button.pd-arrow svg {
     display: none !important;
