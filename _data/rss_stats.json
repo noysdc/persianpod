@@ -59945,21 +59945,27 @@
     "status": "stopped"
   },
   "podcast-aorsi": {
-    "avg_gap_days": 38.2,
+    "avg_gap_days": 37.1,
     "avg_length": 34,
-    "episodes": 58,
-    "eps_365": 9,
-    "eps_90": 3,
+    "episodes": 59,
+    "eps_365": 10,
+    "eps_90": 4,
     "first_at": "2020-04-23",
     "first_year": 1399,
-    "last": "1405/08/08",
-    "last_at": "2026-10-30T04:30:00Z",
-    "last_link": "https://shows.acast.com/owrsi/episodes/chaos",
-    "last_title": "قسمت ۵۸ پادکست اورسی | در میانۀ آشوب می‌‌رقصم",
+    "last": "1405/09/06",
+    "last_at": "2026-11-27T04:38:00Z",
+    "last_link": "https://shows.acast.com/owrsi/episodes/6b0704bff82f6a279cf733e5",
+    "last_title": "قسمت ۵۹ پادکست اورسی | سوی گنجم، جز خرابی رَه نبود",
     "max_length": 55,
     "median_length": 27,
     "min_length": 20,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6262e549ad4010001329533a/e/6b0704bff82f6a279cf733e5/media.mp3",
+        "at": "2026-11-27T04:38:00Z",
+        "i": "https://assets.pippa.io/shows/6262e549ad4010001329533a/1795690965361-c6a5fee4-b24c-44eb-b51b-8b21ff3f00a8.jpeg",
+        "t": "قسمت ۵۹ پادکست اورسی | سوی گنجم، جز خرابی رَه نبود"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6262e549ad4010001329533a/e/6ae30bac4288e950ed575f6e/media.mp3",
         "at": "2026-10-30T04:30:00Z",
@@ -60001,15 +60007,15 @@
         "at": "2026-05-01T14:14:22Z",
         "i": "https://assets.pippa.io/shows/6262e549ad4010001329533a/1777644640934-68851db3-3ce8-41ec-8e84-b48c30314186.jpeg",
         "t": "قسمت ۵۲ پادکست اورسی | زمینی نو"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6262e549ad4010001329533a/e/698dfee33f15cb4dab32b31b/media.mp3",
-        "at": "2026-02-13T01:39:49Z",
-        "i": "https://assets.pippa.io/shows/6262e549ad4010001329533a/1770911240972-1d9f2da3-8d4f-4a39-8bbd-4d87707adac1.jpeg",
-        "t": "قسمت ۵۱ پادکست اورسی | زنده‌باد کاشفان آزادی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T04:38:00Z",
+        "i": "https://assets.pippa.io/shows/6262e549ad4010001329533a/1795690965361-c6a5fee4-b24c-44eb-b51b-8b21ff3f00a8.jpeg",
+        "link": "https://shows.acast.com/owrsi/episodes/6b0704bff82f6a279cf733e5",
+        "title": "قسمت ۵۹ پادکست اورسی | سوی گنجم، جز خرابی رَه نبود"
+      },
       {
         "at": "2026-10-30T04:30:00Z",
         "i": "https://assets.pippa.io/shows/6262e549ad4010001329533a/1793263732729-bd3e909b-fe3e-4b9b-b65d-6d74aad9fe72.jpeg",
@@ -60021,12 +60027,6 @@
         "i": "https://assets.pippa.io/shows/6262e549ad4010001329533a/1792157125259-bf3fe290-f6c8-4752-8a8d-60d07a91b8f5.jpeg",
         "link": "https://shows.acast.com/owrsi/episodes/remnants",
         "title": "قسمت ۵۷ پادکست اورسی | رَدِ آنچه نیست"
-      },
-      {
-        "at": "2026-09-11T04:30:00Z",
-        "i": "https://assets.pippa.io/shows/6262e549ad4010001329533a/1789047456038-54e2871a-f948-46f8-bb38-c4d6c1607d0c.jpeg",
-        "link": "https://shows.acast.com/owrsi/episodes/6aa2b8f8c939da27954de324",
-        "title": "قسمت ۵۶ پادکست اورسی | تهران، غریبۀ آشنا"
       }
     ],
     "recent_30d": [
@@ -60041,7 +60041,7 @@
       1,
       1,
       1,
-      1
+      2
     ],
     "status": "active"
   },
