@@ -79,3 +79,41 @@
 @media (prefers-reduced-motion: reduce) {
   .pd-group .pd-card:hover .pd-logo, .pd-group .pd-card:focus-within .pd-logo { transform: none; }
 }
+
+
+/* تثبیت عرض ریل: جلوگیری از بزرگ‌شدن ردیف به اندازه‌ی مجموع کارت‌ها */
+.pd-group { min-width: 0; width: 100%; }
+.pd-group .pd-row-wrap { position: relative; display: block; width: 100%; min-width: 0; max-width: 100%; }
+.pd-group .pd-row {
+  display: flex; width: 100%; min-width: 0; max-width: 100%; flex: 0 1 auto;
+  box-sizing: border-box; overflow-x: auto; overflow-y: hidden;
+  cursor: grab; user-select: none; -webkit-user-select: none;
+}
+.pd-group .pd-row.pp-is-dragging { cursor: grabbing; scroll-snap-type: none; }
+.pd-group .pd-row img { -webkit-user-drag: none; user-drag: none; }
+@media (hover: hover) and (min-width: 800px) {
+  .pd-group .pd-row-wrap:not(.no-scroll) .pd-arrow {
+    display: grid !important; opacity: .96; visibility: visible; pointer-events: auto; z-index: 6;
+  }
+  .pd-group .pd-prev { right: 4px; }
+  .pd-group .pd-next { left: 4px; }
+}
+
+/* چراغ وضعیت: رنگ شفاف و زنده، بدون دورخط تیره یا قاب کدر */
+.pd-group .pd-card .pd-status {
+  width: 12px; height: 12px; border: 0; border-radius: 50%;
+  opacity: 1; filter: none; box-shadow: none;
+}
+.pd-group .pd-card .pd-status--active {
+  background: #22c55e; box-shadow: 0 0 7px rgba(34,197,94,.72), 0 0 13px rgba(34,197,94,.28);
+}
+.pd-group .pd-card .pd-status--inactive {
+  background: #facc15; box-shadow: 0 0 7px rgba(250,204,21,.72), 0 0 13px rgba(250,204,21,.28);
+}
+.pd-group .pd-card .pd-status--stopped {
+  background: #ef4444; box-shadow: 0 0 7px rgba(239,68,68,.72), 0 0 13px rgba(239,68,68,.28);
+}
+.pd-group .pd-card .pd-status--unknown,
+.pd-group .pd-card .pd-status--ended {
+  background: #a1a1aa; box-shadow: 0 0 6px rgba(161,161,170,.5);
+}
