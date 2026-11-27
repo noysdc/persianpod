@@ -1,5 +1,5 @@
-/* فلش‌های اسلاید دسکتاپ — قانون نهایی و مشترک صفحه‌ی اصلی و گوش بده */
-@media (min-width: 800px) {
+/* فلش‌های مینیمال و شیشه‌ای ریل‌ها؛ فقط دسکتاپ */
+@media (hover: hover) and (min-width: 800px) {
   html body .pd-group .pd-row-wrap {
     position: relative !important;
     overflow: visible !important;
@@ -8,49 +8,58 @@
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    gap: 5px !important;
     position: absolute !important;
     top: 50% !important;
     transform: translateY(-50%) !important;
-    width: auto !important;
-    min-width: 68px !important;
-    height: 34px !important;
-    padding: 0 9px !important;
+    width: 30px !important;
+    min-width: 30px !important;
+    height: 42px !important;
+    padding: 0 !important;
     margin: 0 !important;
-    opacity: 1 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: linear-gradient(90deg, rgba(128,128,128,.08), rgba(128,128,128,.20)) !important;
+    color: var(--ink) !important;
+    -webkit-backdrop-filter: blur(10px) saturate(140%) !important;
+    backdrop-filter: blur(10px) saturate(140%) !important;
+    box-shadow: none !important;
+    opacity: .78 !important;
     visibility: visible !important;
     pointer-events: auto !important;
     z-index: 50 !important;
-    border: 1px solid var(--line) !important;
-    border-radius: 999px !important;
-    background: var(--card) !important;
-    color: var(--ink) !important;
-    box-shadow: 0 3px 12px rgba(0,0,0,.16) !important;
-    font: inherit !important;
-    font-size: .76rem !important;
-    font-weight: 700 !important;
-    white-space: nowrap !important;
+    font-family: inherit !important;
+    font-size: 27px !important;
+    font-weight: 400 !important;
+    line-height: 1 !important;
+    text-align: center !important;
     cursor: pointer !important;
+    transition: opacity .18s ease, color .18s ease, background .18s ease !important;
+  }
+  html body .pd-group .pd-row-wrap > button.pd-arrow:hover,
+  html body .pd-group .pd-row-wrap > button.pd-arrow:focus-visible {
+    opacity: 1 !important;
+    color: var(--acc) !important;
+    background: linear-gradient(90deg, rgba(128,128,128,.12), rgba(128,128,128,.28)) !important;
+    outline: none !important;
   }
   html body .pd-group .pd-row-wrap > button.pd-prev {
-    right: 7px !important;
+    right: 5px !important;
     left: auto !important;
   }
   html body .pd-group .pd-row-wrap > button.pd-next {
-    left: 7px !important;
+    left: 5px !important;
     right: auto !important;
   }
   html body .pd-group .pd-row-wrap > button.pd-arrow svg {
-    display: block !important;
-    width: 15px !important;
-    height: 15px !important;
-    flex: 0 0 15px !important;
+    display: none !important;
   }
   html body .pd-group .pd-row-wrap > button.pd-arrow span {
-    display: inline !important;
+    display: block !important;
+    font-size: inherit !important;
+    line-height: 1 !important;
   }
 }
-@media (max-width: 799px) {
+@media (max-width: 799px), (hover: none) {
   html body .pd-group .pd-row-wrap > button.pd-arrow {
     display: none !important;
   }
