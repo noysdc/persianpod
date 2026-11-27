@@ -2478,8 +2478,8 @@
       0,
       1,
       0,
-      1,
       2,
+      1,
       1
     ],
     "status": "active"
@@ -6033,21 +6033,27 @@
     "status": "active"
   },
   "ali-akbr-iaghi-tbar": {
-    "avg_gap_days": 0.2,
+    "avg_gap_days": 10.0,
     "avg_length": 5,
-    "episodes": 15,
-    "eps_365": 15,
-    "eps_90": 0,
+    "episodes": 16,
+    "eps_365": 16,
+    "eps_90": 1,
     "first_at": "2026-06-30",
     "first_year": 1405,
-    "last": "1405/04/13",
-    "last_at": "2026-07-04T10:10:56Z",
-    "last_link": "https://shenoto.com/album/podcast/1848761/علی اکبر یاغی‌تبار | رواق | نسخه اول",
-    "last_title": "علی اکبر یاغی‌تبار | رواق | نسخه اول",
+    "last": "1405/09/06",
+    "last_at": "2026-11-27T17:13:51Z",
+    "last_link": "https://shenoto.com/album/podcast/1899828/علی‌اکبر یاغی‌تبار | واژه‌ها واژه‌های بی مصرف",
+    "last_title": "علی‌اکبر یاغی‌تبار | واژه‌ها واژه‌های بی مصرف",
     "max_length": 10,
-    "median_length": 4,
+    "median_length": 5,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://shenoto.com/service/api/play/podcast/ea98d30d-ea85-11f1-924a-469daf09b0ad.mp3",
+        "at": "2026-11-27T17:13:51Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/be932f6d-492b-4745-9585-ad8a69c4dcea/cover/3000.jpg",
+        "t": "علی‌اکبر یاغی‌تبار | واژه‌ها واژه‌های بی مصرف"
+      },
       {
         "a": "https://shenoto.com/service/api/play/podcast/a58dce5b-7790-11f1-afe3-fe131d34812e.mp3",
         "at": "2026-07-04T10:10:56Z",
@@ -6089,15 +6095,15 @@
         "at": "2026-07-04T10:00:11Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/dc542aae-210f-4aab-827f-cf1dafde1a67/cover/3000.jpg",
         "t": "علی‌اکبر یاغی‌تبار | فَاَمّا"
-      },
-      {
-        "a": "https://shenoto.com/service/api/play/podcast/e8d51667-778e-11f1-afe3-fe131d34812e.mp3",
-        "at": "2026-07-04T09:58:30Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/5b981939-8dce-4136-95c8-cdf9f8ac4cc1/cover/3000.jpg",
-        "t": "علی‌اکبر یاغی‌تبار | امن باران شدم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T17:13:51Z",
+        "i": "https://cdn-arch.shenoto.com/shenoto-album/be932f6d-492b-4745-9585-ad8a69c4dcea/cover/3000.jpg",
+        "link": "https://shenoto.com/album/podcast/1899828/علی‌اکبر یاغی‌تبار | واژه‌ها واژه‌های بی مصرف",
+        "title": "علی‌اکبر یاغی‌تبار | واژه‌ها واژه‌های بی مصرف"
+      },
       {
         "at": "2026-07-04T10:10:56Z",
         "i": "https://cdn-arch.shenoto.com/shenoto-album/bce69408-38ae-42ad-8082-f2a01b4913d9/cover/3000.jpg",
@@ -6109,12 +6115,6 @@
         "i": "https://cdn-arch.shenoto.com/shenoto-album/86739010-c11c-4682-abbe-2037a3ce4383/cover/3000.jpg",
         "link": "https://shenoto.com/album/podcast/1848760/علی اکبر یاغی‌تبار | داش آکل",
         "title": "علی اکبر یاغی‌تبار | داش آکل"
-      },
-      {
-        "at": "2026-07-04T10:08:06Z",
-        "i": "https://cdn-arch.shenoto.com/shenoto-album/24e6360f-e9e7-42bf-a1a8-af2fa3461ca7/cover/3000.jpg",
-        "link": "https://shenoto.com/album/podcast/1848759/علی اکبر یاغی‌تبار | خسته‌ام",
-        "title": "علی اکبر یاغی‌تبار | خسته‌ام"
       }
     ],
     "recent_30d": [
@@ -6129,7 +6129,7 @@
       0,
       0,
       0,
-      0
+      1
     ],
     "status": "active"
   },
@@ -41715,8 +41715,8 @@
       }
     ],
     "recent_30d": [
-      175,
-      30,
+      176,
+      29,
       57,
       0,
       0,
@@ -83569,8 +83569,8 @@
       6,
       13,
       12,
-      11,
-      13,
+      12,
+      12,
       11,
       12,
       12,
