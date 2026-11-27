@@ -1,5 +1,5 @@
 {%- comment -%} آیتم‌های منوی اصلی با آیکون. {%- endcomment -%}
-{%- assign pp_items = "/|پادکست‌ها|grid,/listen/|گوش بده|phones,/new/|تازه‌ها|spark,/compare/|مقایسه|scale,/learn/|آموزش|cap,/form/|ثبت پادکست|plus" | split: "," -%}
+{%- assign pp_items = "/|پادکست‌ها|grid,/listen/|گوش بده|phones,/new/|تازه‌ها|spark,/compare/|مقایسه|scale,/learn/|آموزش|cap,/form/|ثبت پادکست|plus,/about-us/|درباره‌ی ما|info" | split: "," -%}
 {%- for it in pp_items -%}
 {%- assign f = it | split: "|" -%}
 <a href="{{ f[0] | relative_url }}"{% if page.url == f[0] %} aria-current="page"{% endif %}>
