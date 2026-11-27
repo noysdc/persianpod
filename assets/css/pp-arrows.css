@@ -1,0 +1,57 @@
+/* فلش‌های اسلاید دسکتاپ — قانون نهایی و مشترک صفحه‌ی اصلی و گوش بده */
+@media (min-width: 800px) {
+  html body .pd-group .pd-row-wrap {
+    position: relative !important;
+    overflow: visible !important;
+  }
+  html body .pd-group .pd-row-wrap > button.pd-arrow {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 5px !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: auto !important;
+    min-width: 68px !important;
+    height: 34px !important;
+    padding: 0 9px !important;
+    margin: 0 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    z-index: 50 !important;
+    border: 1px solid var(--line) !important;
+    border-radius: 999px !important;
+    background: var(--card) !important;
+    color: var(--ink) !important;
+    box-shadow: 0 3px 12px rgba(0,0,0,.16) !important;
+    font: inherit !important;
+    font-size: .76rem !important;
+    font-weight: 700 !important;
+    white-space: nowrap !important;
+    cursor: pointer !important;
+  }
+  html body .pd-group .pd-row-wrap > button.pd-prev {
+    right: 7px !important;
+    left: auto !important;
+  }
+  html body .pd-group .pd-row-wrap > button.pd-next {
+    left: 7px !important;
+    right: auto !important;
+  }
+  html body .pd-group .pd-row-wrap > button.pd-arrow svg {
+    display: block !important;
+    width: 15px !important;
+    height: 15px !important;
+    flex: 0 0 15px !important;
+  }
+  html body .pd-group .pd-row-wrap > button.pd-arrow span {
+    display: inline !important;
+  }
+}
+@media (max-width: 799px) {
+  html body .pd-group .pd-row-wrap > button.pd-arrow {
+    display: none !important;
+  }
+}
