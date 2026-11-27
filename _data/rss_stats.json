@@ -9788,21 +9788,27 @@
     "status": "stopped"
   },
   "bandar-e-tehran": {
-    "avg_gap_days": 23.7,
-    "avg_length": 91,
-    "episodes": 185,
-    "eps_365": 16,
-    "eps_90": 6,
+    "avg_gap_days": 22.7,
+    "avg_length": 92,
+    "episodes": 186,
+    "eps_365": 17,
+    "eps_90": 7,
     "first_at": "2018-08-17",
     "first_year": 1397,
-    "last": "1405/08/29",
-    "last_at": "2026-11-20T15:30:00Z",
-    "last_link": "https://shows.acast.com/bandaretehran/episodes/185b",
-    "last_title": "صد و هشتاد و پنجم | از خانه فراری، در خیابان آواره",
+    "last": "1405/09/06",
+    "last_at": "2026-11-27T15:30:00Z",
+    "last_link": "https://shows.acast.com/bandaretehran/episodes/186b",
+    "last_title": "صد و هشتاد و ششم | در ستایش دیوار",
     "max_length": 190,
     "median_length": 82,
     "min_length": 32,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6b0741d4ae6c02a86815b9a4/media.mp3",
+        "at": "2026-11-27T15:30:00Z",
+        "i": "https://assets.pippa.io/shows/65e9c8c0fe108d0016af50de/1795637091775-eed2afdf-8647-4a4d-85c3-3f24d0186faf.jpeg",
+        "t": "صد و هشتاد و ششم | در ستایش دیوار"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6afdd74db5464c5e00eeef27/media.mp3",
         "at": "2026-11-20T15:30:00Z",
@@ -9844,15 +9850,15 @@
         "at": "2026-08-21T15:30:00Z",
         "i": "https://assets.pippa.io/shows/65e9c8c0fe108d0016af50de/1787237833638-f06fceb3-532d-4a81-8571-f991c195a0a1.jpeg",
         "t": "صد و هفتاد و نهم | در ستایش شما"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/65e9c8c0fe108d0016af50de/e/6a74a766237988582e56fb72/media.mp3",
-        "at": "2026-08-07T15:30:00Z",
-        "i": "https://assets.pippa.io/shows/65e9c8c0fe108d0016af50de/1786029431074-0ed02a98-cf12-4eec-88ee-e5b0fd8e96b7.jpeg",
-        "t": "صد و هفتاد و هشتم | نامه به عشق تریاکی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T15:30:00Z",
+        "i": "https://assets.pippa.io/shows/65e9c8c0fe108d0016af50de/1795637091775-eed2afdf-8647-4a4d-85c3-3f24d0186faf.jpeg",
+        "link": "https://shows.acast.com/bandaretehran/episodes/186b",
+        "title": "صد و هشتاد و ششم | در ستایش دیوار"
+      },
       {
         "at": "2026-11-20T15:30:00Z",
         "i": "https://assets.pippa.io/shows/65e9c8c0fe108d0016af50de/1795020207571-66b1daad-10e9-4d6f-8403-6e36ff6281be.jpeg",
@@ -9864,12 +9870,6 @@
         "i": "https://assets.pippa.io/shows/65e9c8c0fe108d0016af50de/1793357374391-8f846326-8b3e-43a2-b46b-7e9261350d87.jpeg",
         "link": "https://shows.acast.com/bandaretehran/episodes/184b",
         "title": "صد و هشتاد و چهارم | ناگهان نوبت تو نمی‌شود"
-      },
-      {
-        "at": "2026-10-16T15:30:00Z",
-        "i": "https://assets.pippa.io/shows/65e9c8c0fe108d0016af50de/1792071419659-184da9c7-f086-4c2d-9cba-3ae65e84a9c6.jpeg",
-        "link": "https://shows.acast.com/bandaretehran/episodes/183b",
-        "title": "صد و هشتاد و سوم | اکبر"
       }
     ],
     "recent_30d": [
@@ -9884,7 +9884,7 @@
       2,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
@@ -92643,7 +92643,7 @@
       }
     ],
     "recent_30d": [
-      10,
+      9,
       2,
       14,
       0,
