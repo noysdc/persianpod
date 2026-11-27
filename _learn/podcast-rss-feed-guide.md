@@ -2,7 +2,7 @@
 layout: learn-post
 title: "RSS پادکست چیست؟ راهنمای کامل فید، هاست و انتشار قسمت‌ها"
 description: "فید RSS چطور پادکست را به پادگیرها می‌رساند؟ با اجزای فید، تفاوت هاست و دایرکتوری، اعتبارسنجی و نکات مهم پیش از تغییر میزبان آشنا شوید."
-date: 2026-11-27 12:00:00 +0330
+date: 2026-11-27 00:00:00 +0330
 source: "Apple Podcasts و Spotify for Creators"
 source_url: "https://podcasters.apple.com/support/823-podcast-requirements"
 tags: ["RSS", "انتشار", "هاست پادکست", "فید", "آموزش"]
