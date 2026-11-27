@@ -8,10 +8,10 @@ layout: default
 {% assign eps = page.episode_count | default: page.episodes %}
 {% assign freq = page.frequency | default: page.schedule %}
 {% assign stv = page.status_override | default: site.data.rss_stats[page.slug].status | default: page.status | default: 'unknown' %}
-{% if stv contains 'متوقف' and stv contains 'شده' or stv == 'stopped' or stv == 'ended' or stv == 'تمام‌شده' or stv == 'تمام شده' %}
-  {% assign stv = 'ended' %}
+{% if stv == 'متوقف' or stv == 'متوقف‌شده' or stv == 'stopped' or stv == 'ended' or stv == 'تمام‌شده' or stv == 'تمام شده' %}
+  {% assign stv = 'stopped' %}
 {% elsif stv == 'متوقف' or stv == 'paused' or stv == 'inactive' or stv == 'غیرفعال' %}
-  {% assign stv = 'paused' %}
+  {% assign stv = 'inactive' %}
 {% elsif stv == 'فعال' or stv == 'active' %}
   {% assign stv = 'active' %}
 {% else %}
@@ -63,7 +63,7 @@ layout: default
       <div class="pod-pills">
         {% if page.category %}<a class="pod-pill on" href="{{ '/?category=' | append: page.category | uri_escape | relative_url }}">{{ page.category }}</a>{% endif %}
         {% assign subs = page.subcategories %}{% if subs == nil and page.subcategory %}{% assign subs = page.subcategory | split: '،' %}{% endif %}{% for s in subs %}<a class="pod-pill" href="{{ '/?category=' | append: page.category | append: '&sub=' | append: s | uri_escape | relative_url }}">{{ s }}</a>{% endfor %}
-        <span class="pod-state {{ stv }}">{% if stv == 'active' %}فعال{% elsif stv == 'paused' %}غیرفعال{% elsif stv == 'ended' %}متوقف{% else %}نیازمند بررسی{% endif %}</span>
+        <span class="pod-state {{ stv }}">{% if stv == 'active' %}فعال{% elsif stv == 'inactive' %}غیرفعال{% elsif stv == 'stopped' %}متوقف{% else %}نیازمند بررسی{% endif %}</span>
       </div>
     </div>
   </header>
