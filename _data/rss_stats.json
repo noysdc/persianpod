@@ -14434,8 +14434,8 @@
       13,
       28,
       18,
-      34,
-      14
+      35,
+      13
     ],
     "status": "active"
   },
@@ -21377,7 +21377,6 @@
       {
         "a": "https://sphinx.acast.com/p/open/s/6afb09f921921e260269727e/e/6afb2d0b1633e7cafb305274/media.mp3",
         "at": "2026-11-16T16:19:23Z",
-        "i": "https://assets.pippa.io/shows/6afb09f921921e260269727e/1794845929392-6d44ea30-0ac0-451d-96e0-ad61321ff8c3.jpeg",
         "t": "دیابت، بیماری خاموش"
       }
     ],
@@ -95535,19 +95534,24 @@
   "tarikh-bdon-sansor": {
     "avg_gap_days": 0.5,
     "avg_length": 10,
-    "episodes": 4295,
-    "eps_365": 770,
-    "eps_90": 236,
+    "episodes": 4296,
+    "eps_365": 771,
+    "eps_90": 237,
     "first_at": "2023-09-13",
     "first_year": 1402,
     "last": "1405/09/06",
-    "last_at": "2026-11-27T14:30:00Z",
-    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b0978f97055afc838429832",
-    "last_title": "قسمت چهارهزار و دویست و هفتاد و شش",
+    "last_at": "2026-11-27T16:30:00Z",
+    "last_link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b0979415f6c1ebda2930a3c",
+    "last_title": "قسمت چهارهزار و دویست و هفتاد و هفت",
     "max_length": 45,
     "median_length": 10,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6b0979415f6c1ebda2930a3c/media.mp3",
+        "at": "2026-11-27T16:30:00Z",
+        "t": "قسمت چهارهزار و دویست و هفتاد و هفت"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6b0978f97055afc838429832/media.mp3",
         "at": "2026-11-27T14:30:00Z",
@@ -95582,14 +95586,14 @@
         "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6b07156937fa8fa0c486ea6c/media.mp3",
         "at": "2026-11-25T17:05:48Z",
         "t": "قسمت چهارهزار و دویست و هفتاد"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/652fdf0e124b9d0012c3879f/e/6b035d3698701522403f77d5/media.mp3",
-        "at": "2026-11-23T07:30:00Z",
-        "t": "قسمت چهارهزار و دویست و شصت و نه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T16:30:00Z",
+        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b0979415f6c1ebda2930a3c",
+        "title": "قسمت چهارهزار و دویست و هفتاد و هفت"
+      },
       {
         "at": "2026-11-27T14:30:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b0978f97055afc838429832",
@@ -95599,11 +95603,6 @@
         "at": "2026-11-27T13:30:00Z",
         "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b0978b67055afc838424e6a",
         "title": "قسمت چهارهزار و دویست و هفتاد و  پنج"
-      },
-      {
-        "at": "2026-11-27T12:32:57Z",
-        "link": "https://shows.acast.com/tarikh-tmdn-1/episodes/6b09787702fe9422bf72b027",
-        "title": "قسمت چهارهزار و دویست و هفتاد و  چهار"
       }
     ],
     "recent_30d": [
@@ -95618,7 +95617,7 @@
       99,
       90,
       72,
-      74
+      75
     ],
     "status": "active"
   },
