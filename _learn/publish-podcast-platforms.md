@@ -7,6 +7,7 @@ source: "راهنماهای رسمی Apple Podcasts و YouTube"
 source_url: "https://creators.spotify.com/resources/start-a-podcast"
 tags: ["انتشار", "پادگیر", "Spotify", "Apple Podcasts", "YouTube"]
 image_alt: "نمادهای پلتفرم‌های انتشار و شنیدن پادکست در کنار فایل صوتی"
+image: "/assets/img/learn/l-e741ea0ade.webp"
 ---
 
 وقتی اپیزودت آماده شد، کار هنوز تمام نشده است. باید آن را در جایی منتشر کنی که شنونده بتواند پیدایش کند. این مرحله برای پادکسترهای تازه‌کار گاهی گیج‌کننده است؛ چون بعضی سرویس‌ها فایل صوتی را میزبانی می‌کنند، بعضی فقط فید RSS را می‌خوانند و بعضی مثل YouTube روش انتشار متفاوتی دارند.
