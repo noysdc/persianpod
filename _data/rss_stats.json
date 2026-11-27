@@ -97609,19 +97609,25 @@
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
     "avg_length": 20,
-    "episodes": 436,
-    "eps_365": 258,
-    "eps_90": 101,
+    "episodes": 437,
+    "eps_365": 259,
+    "eps_90": 102,
     "first_at": "2024-08-22",
     "first_year": 1403,
-    "last": "1405/09/03",
-    "last_at": "2026-11-24T14:30:00Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6af04aab9272884e57e5c9a0",
-    "last_title": "به مسیر زندگی اعتماد کن ✨ | جملات تأکیدی قدرتمند",
+    "last": "1405/09/06",
+    "last_at": "2026-11-27T07:08:48Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6b092c83079ab0810cf2368c",
+    "last_title": "مدیتیشن ۵ دقیقه‌ای استراحت و پاکسازی ذهن 🧘‍♀️مدیتیشن",
     "max_length": 99,
     "median_length": 12,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6b092c83079ab0810cf2368c/media.mp3",
+        "at": "2026-11-27T07:08:48Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795763178848-3ab6fac1-0a6a-40d9-8dfa-46b2a6d11018.jpeg",
+        "t": "مدیتیشن ۵ دقیقه‌ای استراحت و پاکسازی ذهن 🧘‍♀️مدیتیشن"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af04aab9272884e57e5c9a0/media.mp3",
         "at": "2026-11-24T14:30:00Z",
@@ -97663,15 +97669,15 @@
         "at": "2026-11-20T10:02:22Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795163998686-14365006-d184-4667-b092-6f1e53dcd64b.jpeg",
         "t": "جادوگر سفید | اپیزود 13"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6afd9378f890ca881b5d707d/media.mp3",
-        "at": "2026-11-20T01:30:00Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795002883124-68c180cf-945b-402c-88be-329cc3338462.jpeg",
-        "t": "صبح دل‌انگیز نوامبر ❄️ | موسیقی برای آرامش، تمرکز و زندگی آهسته"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T07:08:48Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795763178848-3ab6fac1-0a6a-40d9-8dfa-46b2a6d11018.jpeg",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6b092c83079ab0810cf2368c",
+        "title": "مدیتیشن ۵ دقیقه‌ای استراحت و پاکسازی ذهن 🧘‍♀️مدیتیشن"
+      },
       {
         "at": "2026-11-24T14:30:00Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794132318517-60fd58ab-8763-4f85-b737-e7c935c826bd.jpeg",
@@ -97683,12 +97689,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795529921572-3262c504-8933-4d32-ac59-8590705302ac.jpeg",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6b059d72062dc4efc03bf9a2",
         "title": "مدیتیشن قبل از جلسه کاری و مذاکره 💼✨ | آرامش ذهن، وضوح فکر و اعتمادبه‌نفس برای تصمیم‌گیری درست"
-      },
-      {
-        "at": "2026-11-24T10:17:21Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795501180904-1c3b8ee9-079b-4f62-acdd-5aa700288eb5.jpeg",
-        "link": "https://youtu.be/d6eih_Ye2HU",
-        "title": "مدیتیشن | مدیتیشن آرامش ذهن و زندگی در زمان حال"
       }
     ],
     "recent_30d": [
@@ -97703,7 +97703,7 @@
       37,
       43,
       36,
-      22
+      23
     ],
     "status": "active"
   },
