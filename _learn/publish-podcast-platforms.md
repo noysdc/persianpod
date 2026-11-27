@@ -2,7 +2,7 @@
 layout: learn-post
 title: "چطور پادکست را در پادگیرها منتشر کنیم؟ از RSS تا Spotify و YouTube"
 description: "پس از آماده‌شدن فید RSS، چطور پادکست را در سرویس‌های شنیدن ثبت کنیم؟ تفاوت ثبت فید، میزبانی و انتشار در یوتیوب را با یک چک‌لیست عملی بشناسید."
-date: 2026-11-27 12:00:00 +0330
+date: 2026-11-27 00:00:00 +0330
 source: "راهنماهای رسمی Apple Podcasts و YouTube"
 source_url: "https://creators.spotify.com/resources/start-a-podcast"
 tags: ["انتشار", "پادگیر", "Spotify", "Apple Podcasts", "YouTube"]
