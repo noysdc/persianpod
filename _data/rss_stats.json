@@ -49300,7 +49300,7 @@
       }
     ],
     "recent_30d": [
-      23,
+      22,
       28,
       27,
       31,
@@ -73140,21 +73140,27 @@
     "status": "active"
   },
   "podcast-sdai-tarikh": {
-    "avg_gap_days": 7.1,
+    "avg_gap_days": 7.0,
     "avg_length": 34,
-    "episodes": 72,
-    "eps_365": 51,
-    "eps_90": 15,
+    "episodes": 73,
+    "eps_365": 52,
+    "eps_90": 16,
     "first_at": "2025-02-07",
     "first_year": 1403,
-    "last": "1405/09/04",
-    "last_at": "2026-11-25T04:30:00Z",
-    "last_link": "https://shows.acast.com/sedayetarikh/episodes/6b0625b18e063f5b51d3aee7",
-    "last_title": "تجاوز فاتحان بِرلین",
+    "last": "1405/09/06",
+    "last_at": "2026-11-27T05:00:00Z",
+    "last_link": "https://shows.acast.com/sedayetarikh/episodes/6b0769eb37fa8fa0c4b37d5d",
+    "last_title": "زنان آوار بردار",
     "max_length": 78,
     "median_length": 33,
     "min_length": 16,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/67a5e58d340a5590cd939851/e/6b0769eb37fa8fa0c4b37d5d/media.mp3",
+        "at": "2026-11-27T05:00:00Z",
+        "i": "https://assets.pippa.io/shows/67a5e58d340a5590cd939851/1795647796897-85ffbbc1-06f3-411b-86ca-e31d85677dae.jpeg",
+        "t": "زنان آوار بردار"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/67a5e58d340a5590cd939851/e/6b0625b18e063f5b51d3aee7/media.mp3",
         "at": "2026-11-25T04:30:00Z",
@@ -73196,15 +73202,15 @@
         "at": "2026-10-19T03:30:00Z",
         "i": "https://assets.pippa.io/shows/67a5e58d340a5590cd939851/1792359184561-6d0de92b-23d9-415a-a0f5-560bbf49310b.jpeg",
         "t": "کنترل ملت (تلنگر )"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/67a5e58d340a5590cd939851/e/6ab82e10079b46c819495d23/media.mp3",
-        "at": "2026-10-02T04:30:00Z",
-        "i": "https://assets.pippa.io/shows/67a5e58d340a5590cd939851/1790455016450-4aed97a6-8e32-475a-820b-e07cfd79a361.jpeg",
-        "t": "پارادوکس"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T05:00:00Z",
+        "i": "https://assets.pippa.io/shows/67a5e58d340a5590cd939851/1795647796897-85ffbbc1-06f3-411b-86ca-e31d85677dae.jpeg",
+        "link": "https://shows.acast.com/sedayetarikh/episodes/6b0769eb37fa8fa0c4b37d5d",
+        "title": "زنان آوار بردار"
+      },
       {
         "at": "2026-11-25T04:30:00Z",
         "i": "https://assets.pippa.io/shows/67a5e58d340a5590cd939851/1795564290668-171f340b-db97-43e0-9990-06946cb572cb.jpeg",
@@ -73216,12 +73222,6 @@
         "i": "https://assets.pippa.io/shows/67a5e58d340a5590cd939851/1794238880274-720da8b7-294a-430f-af63-0392caf7ebb3.jpeg",
         "link": "https://shows.acast.com/sedayetarikh/episodes/6af1ea6ace118fd5b57e1e3f",
         "title": "قوانین جیم کُرو"
-      },
-      {
-        "at": "2026-11-06T04:30:00Z",
-        "i": "https://assets.pippa.io/shows/67a5e58d340a5590cd939851/1793889176140-1d9fbdf8-504e-4d8e-850b-87e921d74996.jpeg",
-        "link": "https://shows.acast.com/sedayetarikh/episodes/6aec93eb3be80be7f39eb8ea",
-        "title": "زنان آسایشگر"
       }
     ],
     "recent_30d": [
@@ -73236,7 +73236,7 @@
       9,
       4,
       8,
-      3
+      4
     ],
     "status": "active"
   },
