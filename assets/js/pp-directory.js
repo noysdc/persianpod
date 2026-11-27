@@ -211,10 +211,11 @@
     var logo = p.logo
       ? '<img src="' + esc(p.logo) + '" alt="" loading="lazy" decoding="async" width="160" height="160">'
       : "<i>" + esc((p.title || "").trim().charAt(0)) + "</i>";
-    return '<article class="pd-card"><a class="pd-link" href="' + esc(p.url) + '" title="' + esc(p.description || "") + '"><span class="pd-logo">' + logo + "</span>" +
+    var status = normalizeStatus(p.status);
+    return '<article class="pd-card pd-card--' + status + '"><a class="pd-link" href="' + esc(p.url) + '" title="' + esc(p.description || "") + '"><span class="pd-logo">' + logo + "</span>" +
       '<span class="pd-body"><h3>' + esc(p.title) + "</h3></span></a>" +
       '<span class="pd-meta">' + (p._new ? '<span class="pd-b new">جدید</span>' : "") + '<a class="pd-b pd-tag" href="' + tagHref(p._cat) + '" data-cat="' + esc(p._cat) + '">' + esc(p._cat) + "</a>" + subs +
-      "</span>" + statusBadge(p) + "</article>";
+      "</span></article>";
   }
 
   function sortList(list, mode) {
