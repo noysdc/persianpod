@@ -2519,21 +2519,27 @@
     "status": "stopped"
   },
   "aaoai-mhit-zist": {
-    "avg_gap_days": 27.0,
-    "avg_length": 84,
-    "episodes": 36,
-    "eps_365": 4,
-    "eps_90": 2,
+    "avg_gap_days": 29.0,
+    "avg_length": 83,
+    "episodes": 37,
+    "eps_365": 5,
+    "eps_90": 3,
     "first_at": "2021-11-06",
     "first_year": 1400,
-    "last": "1405/08/01",
-    "last_at": "2026-10-23T02:52:15Z",
-    "last_link": "https://rss.com/podcasts/avaemohitzist/3258572",
-    "last_title": "اتاق توسعه | اپیزود ۴ | هوش محیط زیستی («سبز»  یک سراب است؟!)",
+    "last": "1405/09/06",
+    "last_at": "2026-11-27T04:01:54Z",
+    "last_link": "https://rss.com/podcasts/avaemohitzist/3360359",
+    "last_title": "اتاق توسعه | اپیزود 5 | خوانش فصل دوم کتاب هوش محیط زیستی (سبز بودن سراب است؟!)",
     "max_length": 170,
-    "median_length": 74,
+    "median_length": 71,
     "min_length": 24,
     "play": [
+      {
+        "a": "https://content.rss.com/episodes/89104/3360359/avaemohitzist/2026_11_27_04_01_10_6c7d6663-a035-4366-92a1-44c1bd4fdb4d.mp3",
+        "at": "2026-11-27T04:01:54Z",
+        "i": "https://media.rss.com/avaemohitzist/ep_cover_20261127_040109_5a24e2391cf0deaa77f97b3252bb2b94.png",
+        "t": "اتاق توسعه | اپیزود 5 | خوانش فصل دوم کتاب هوش محیط زیستی (سبز بودن سراب است؟!)"
+      },
       {
         "a": "https://content.rss.com/episodes/89104/3258572/avaemohitzist/2026_10_23_02_52_07_25323ff3-26bc-4c66-90c9-eae05c620c67.mp3",
         "at": "2026-10-23T02:52:15Z",
@@ -2575,15 +2581,15 @@
         "at": "2023-02-12T04:13:18Z",
         "i": "https://media.rss.com/avaemohitzist/ep_cover_20230212_040242_273fb0f643427fffdc4481aaa8fc440c.jpg",
         "t": "اقتصاد سیاسی محیط زیست (جلسه ۸ - مکتب اتریش و محیط زیست)"
-      },
-      {
-        "a": "https://content.rss.com/episodes/89104/815289/avaemohitzist/2023_02_08_00_03_07_7fab2986-b6a6-47ae-bbd5-df4b9af7f64b.mp3",
-        "at": "2023-02-08T00:03:26Z",
-        "i": "https://media.rss.com/avaemohitzist/ep_cover_20230207_110235_dc1d1e1080036a2a1aa7f6bd843bd934.jpg",
-        "t": "اقتصاد سیاسی محیط زیست (جلسه ۷ - نهادگرایان و محیط زیست)"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-27T04:01:54Z",
+        "i": "https://media.rss.com/avaemohitzist/ep_cover_20261127_040109_5a24e2391cf0deaa77f97b3252bb2b94.png",
+        "link": "https://rss.com/podcasts/avaemohitzist/3360359",
+        "title": "اتاق توسعه | اپیزود 5 | خوانش فصل دوم کتاب هوش محیط زیستی (سبز بودن سراب است؟!)"
+      },
       {
         "at": "2026-10-23T02:52:15Z",
         "i": "https://media.rss.com/avaemohitzist/ep_cover_20261023_025205_f84dc074b09ba88bd274e51937e1cb5d.png",
@@ -2595,12 +2601,6 @@
         "i": "https://media.rss.com/avaemohitzist/ep_cover_20261022_234904_f6024cdb45d74a62062a27ec7f356dbe.png",
         "link": "https://rss.com/podcasts/avaemohitzist/3148287",
         "title": "اتاق توسعه | اپیزود ۳ | خوانش فصل اول کتاب هوش محیط زیستی (قیمت پنهان خریدهای روزمره)"
-      },
-      {
-        "at": "2026-08-26T06:25:14Z",
-        "i": "https://media.rss.com/avaemohitzist/ep_cover_20261022_234455_d8743ae05f41440c878d853ffadf4a4c.png",
-        "link": "https://rss.com/podcasts/avaemohitzist/3097207",
-        "title": "اتاق توسعه | اپیزود ۲ | معرفی اتاق توسعه شهری و محیط زیست خراسان رضوی"
       }
     ],
     "recent_30d": [
@@ -2615,7 +2615,7 @@
       2,
       1,
       1,
-      0
+      1
     ],
     "status": "active"
   },
