@@ -69,8 +69,7 @@ html:not(#pp) .pd-group .pd-row.pp-stack > .pd-card .pd-body h3{ font-size:1rem;
 html:not(#pp) .pd-group .pd-row.pp-stack > .pd-card .pd-meta{ padding-inline:4px; }
 html:not(#pp) .pd-group .pd-row.pp-stack > .pd-card .pd-desc{ display:none; }
 
-/* دکمه‌های قدیمیِ اسکرول جایشان را به شمارنده و دکمه‌های زیر پشته داده‌اند */
-html:not(#pp) .pd-group .pd-row-wrap .pd-arrow{ display:none !important; }
+/* فلش‌های ریل در فایل pp-arrows.css کنترل می‌شوند؛ قانون مخفی‌سازی قدیمی حذف شده است. */
 
 /* شمارنده و دکمه‌ها (همان ظاهر نویز) */
 .pp-stack-nav{ display:flex; justify-content:center; align-items:center; gap:16px; margin:2px 0 14px; direction:ltr; }
