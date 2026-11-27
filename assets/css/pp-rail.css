@@ -61,8 +61,10 @@
 .pd-group .pd-card .pd-b.off { margin-inline-start: 8px; padding: 0 8px !important; border: 1px solid var(--line) !important; border-radius: 999px; opacity: .85; }
 
 /* --- فلش‌ها (فقط دستگاه‌های با ماوس) --- */
-.pd-group .pd-arrow { top: calc(var(--w) / 2 + 10px); width: 38px; height: 38px; opacity: 0; transition: opacity .2s ease, box-shadow .2s ease; }
+.pd-group .pd-arrow { top: calc(var(--w) / 2 + 10px); width: 38px; height: 38px; opacity: .9; visibility: visible; transition: opacity .2s ease, box-shadow .2s ease; }
 .pd-group .pd-row-wrap:hover .pd-arrow, .pd-group .pd-arrow:focus-visible { opacity: 1; }
+/* فلش‌ها در دسکتاپ همیشه دیده می‌شوند تا امکان اسلاید واضح باشد. */
+@media (hover: hover) and (min-width: 800px) { .pd-group .pd-row-wrap:not(.no-scroll) .pd-arrow { display: grid; opacity: .9; } }
 .pd-group .pd-prev { right: -10px; } .pd-group .pd-next { left: -10px; }
 @media (hover: none) { .pd-group .pd-arrow { display: none !important; } }
 
