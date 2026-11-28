@@ -8723,21 +8723,27 @@
     "status": "stopped"
   },
   "atima": {
-    "avg_gap_days": 20.9,
+    "avg_gap_days": 20.2,
     "avg_length": 19,
-    "episodes": 25,
-    "eps_365": 18,
-    "eps_90": 2,
+    "episodes": 26,
+    "eps_365": 19,
+    "eps_90": 3,
     "first_at": "2022-11-03",
     "first_year": 1401,
-    "last": "1405/08/30",
-    "last_at": "2026-11-21T16:49:56Z",
-    "last_link": "https://play.rabt.host/podcast/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episode/0f2b04e4-9498-4231-8025-5df76ba8a0cf/play.mp3?v=1",
-    "last_title": "خراسان رضوی و شهرهاش",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T17:41:36Z",
+    "last_link": "https://play.rabt.host/podcast/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episode/4ba72c29-7f73-4143-9687-64cd923601c8/play.mp3?v=1",
+    "last_title": "خراسان جنوبی و طبیعت و مردمش",
     "max_length": 48,
-    "median_length": 16,
+    "median_length": 17,
     "min_length": 5,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episode/4ba72c29-7f73-4143-9687-64cd923601c8/play.mp3?v=1",
+        "at": "2026-11-28T17:41:36Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episodes/4ba72c29-7f73-4143-9687-64cd923601c8/artwork.jpg?v=1",
+        "t": "خراسان جنوبی و طبیعت و مردمش"
+      },
       {
         "a": "https://play.rabt.host/podcast/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episode/0f2b04e4-9498-4231-8025-5df76ba8a0cf/play.mp3?v=1",
         "at": "2026-11-21T16:49:56Z",
@@ -8779,15 +8785,15 @@
         "at": "2026-08-01T17:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episodes/8072308c-bb59-457e-8dd2-5208e9131af1/artwork.jpg?v=1",
         "t": "گلستان و مردمش"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episode/e746f913-2e0e-4261-a7ce-a38f496f37be/play.mp3?v=1",
-        "at": "2026-07-25T17:30:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episodes/e746f913-2e0e-4261-a7ce-a38f496f37be/artwork.jpg?v=1",
-        "t": "گلستان و طبیعتش"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T17:41:36Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episodes/4ba72c29-7f73-4143-9687-64cd923601c8/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episode/4ba72c29-7f73-4143-9687-64cd923601c8/play.mp3?v=1",
+        "title": "خراسان جنوبی و طبیعت و مردمش"
+      },
       {
         "at": "2026-11-21T16:49:56Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episodes/0f2b04e4-9498-4231-8025-5df76ba8a0cf/artwork.jpg?v=1",
@@ -8799,12 +8805,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episodes/a5aaffe0-669d-463a-b2f6-6efedadaecb3/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episode/a5aaffe0-669d-463a-b2f6-6efedadaecb3/play.mp3?v=1",
         "title": "خراسان رضوی و طبیعت و مردمش"
-      },
-      {
-        "at": "2026-08-29T17:30:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episodes/bc38cba0-e895-4e21-8ebc-3a551eeab087/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/969e1406-103b-49d1-8d33-b2b91eeaa1f9/episode/bc38cba0-e895-4e21-8ebc-3a551eeab087/play.mp3?v=1",
-        "title": "خراسان شمالی و شهرهاش"
       }
     ],
     "recent_30d": [
@@ -8819,7 +8819,7 @@
       5,
       1,
       0,
-      1
+      2
     ],
     "status": "active"
   },
@@ -40743,26 +40743,20 @@
     "status": "stopped"
   },
   "klozaap": {
-    "avg_length": 35,
-    "episodes": 84,
+    "avg_length": 34,
+    "episodes": 83,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2020-12-05",
     "first_year": 1399,
-    "last": "1400/12/05",
-    "last_at": "2022-02-24T21:00:53Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/--e1esi2m",
-    "last_title": "سکانس دوازدهم - قصیده فیلم‌سوزی‌ها",
+    "last": "1400/11/29",
+    "last_at": "2022-02-18T15:13:56Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/--e1eiunk",
+    "last_title": "سکانس یازدهم - قهرمانی در غبار",
     "max_length": 160,
     "median_length": 18,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/42e9c6a8/podcast/play/48170518/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-24%2F527889e6-2e98-4617-5a74-e4285f5c9c3a.mp3",
-        "at": "2022-02-24T21:00:53Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/11126170/11126170-1645736404006-0aba320cc5a42.jpg",
-        "t": "سکانس دوازدهم - قصیده فیلم‌سوزی‌ها"
-      },
       {
         "a": "https://anchor.fm/s/42e9c6a8/podcast/play/47855796/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-18%2F18e72e65-8fe1-827e-8e7d-8678d504b5e5.mp3",
         "at": "2022-02-18T15:13:56Z",
@@ -40804,15 +40798,15 @@
         "at": "2021-05-18T13:32:56Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1621344784429-c3c648528491f.jpg",
         "t": "نقد و بررسی فیلم Tommaso"
+      },
+      {
+        "a": "https://anchor.fm/s/42e9c6a8/podcast/play/33742771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-18%2F94f9cf2d-702a-31e0-5645-842b099f2878.mp3",
+        "at": "2021-05-18T13:31:07Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1621344675360-19e36cf9f0d53.jpg",
+        "t": "نقد و بررسی فیلم Persian Lessons"
       }
     ],
     "recent": [
-      {
-        "at": "2022-02-24T21:00:53Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/11126170/11126170-1645736404006-0aba320cc5a42.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/--e1esi2m",
-        "title": "سکانس دوازدهم - قصیده فیلم‌سوزی‌ها"
-      },
       {
         "at": "2022-02-18T15:13:56Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1645736379621-ebbf147cfffec.jpg",
@@ -40824,6 +40818,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1622503900641-58477e095ec31.jpg",
         "link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/The-Mitchells-vs-the-Machines-e11ulki",
         "title": "نقد و بررسی فیلم The Mitchells vs the Machines"
+      },
+      {
+        "at": "2021-06-01T13:30:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1622503876545-c6db90623df2a.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/Ted-Lasso-e11ulin",
+        "title": "نقد و بررسی سریال Ted Lasso"
       }
     ],
     "recent_30d": [
@@ -41800,17 +41800,17 @@
       }
     ],
     "recent_30d": [
-      179,
-      31,
-      51,
+      178,
+      32,
+      50,
       0,
       0,
       1,
       63,
       61,
       48,
-      66,
-      48,
+      67,
+      47,
       75
     ],
     "status": "active"
@@ -78038,7 +78038,7 @@
     "last": "1405/09/06",
     "last_at": "2026-11-27T22:24:02Z",
     "last_link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3t50bh",
-    "last_title": "دلیل سرد شدنش چیه؟ | رابطه عاطفی سالم",
+    "last_title": "چرا سرد شده؟ | رابطه عاطفی سالم",
     "max_length": 21,
     "median_length": 10,
     "min_length": 1,
@@ -78046,60 +78046,60 @@
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/130236209/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-27%2F437803234-44100-2-d3ac5bacc96bd.m4a",
         "at": "2026-11-27T22:24:02Z",
-        "t": "دلیل سرد شدنش چیه؟ | رابطه عاطفی سالم"
+        "t": "چرا سرد شده؟ | رابطه عاطفی سالم"
       },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/129872985/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F437311063-44100-2-9659525b89976.m4a",
         "at": "2026-11-21T22:14:41Z",
-        "t": "چرا وقتی کنارشی، بازم تنهایی"
+        "t": "حتی وقتی کنارشی، بازم تنهایی"
       },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/129423912/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F436712616-44100-2-fd74d9dfbc2c8.m4a",
         "at": "2026-11-14T11:18:49Z",
-        "t": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه"
+        "t": "تا گله می‌کنی طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه"
       },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/129229530/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2F436449973-44100-2-f517fa828c896.m4a",
         "at": "2026-11-11T00:59:16Z",
-        "t": "چرا تو رابطه با یه اتفاق ساده، یا غیب می‌شم یا دیوونه؟ | سبک دلبستگی"
+        "t": "با یه اتفاق ساده، یا غیب می‌شی یا دیوونه؟ | سبک دلبستگی"
       },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/128812090/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F435918317-44100-2-84fa8a4f11f5b.m4a",
         "at": "2026-11-05T01:47:12Z",
-        "t": "چرا همیشه عاشق یک جور آدم می‌شم؟ | تکرار الگو در انتخاب پارتنر"
+        "t": "چرا همیشه همشون یه جورن؟ | تکرار الگو در انتخاب پارتنر"
       },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/127571361/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-16%2F434301281-44100-2-b21fd18cde681.m4a",
         "at": "2026-10-27T15:07:04Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46831788/46831788-1793113631545-5d4d7b59872d2.jpg",
-        "t": "نشانه‌های علاقه | از کجا بفهمم دوستم داره؟"
+        "t": "نشانه‌های علاقه | از کجا بفهمی دوستت داره؟"
       },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/127146684/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-8%2F433737692-44100-2-c935d9d657707.m4a",
         "at": "2026-10-08T23:29:29Z",
-        "t": "چطور با پارتنرم حرف بزنم؟ | گفت‌وگو بدون دعوا و اتهام"
+        "t": "با پارتنرت حرف میزنی؟ | گفت‌وگو بدون دعوا و اتهام"
       },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/127088087/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-8%2F433665140-44100-2-53f97cf8b019d.m4a",
         "at": "2026-10-08T08:07:35Z",
-        "t": "ناسازگاری در رابطه | آیا هر رابطه‌ای با تلاش بیشتر درست می‌شود؟"
+        "t": "ناسازگاری در رابطه | آیا هر رابطه‌ای با تلاش بیشتر درست می‌شه؟"
       }
     ],
     "recent": [
       {
         "at": "2026-11-27T22:24:02Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3t50bh",
-        "title": "دلیل سرد شدنش چیه؟ | رابطه عاطفی سالم"
+        "title": "چرا سرد شده؟ | رابطه عاطفی سالم"
       },
       {
         "at": "2026-11-21T22:14:41Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sptkp",
-        "title": "چرا وقتی کنارشی، بازم تنهایی"
+        "title": "حتی وقتی کنارشی، بازم تنهایی"
       },
       {
         "at": "2026-11-14T11:18:49Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sc738",
-        "title": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه"
+        "title": "تا گله می‌کنی طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه"
       }
     ],
     "recent_30d": [
@@ -91143,21 +91143,27 @@
     "status": "active"
   },
   "sfir-sda": {
-    "avg_gap_days": 15.5,
+    "avg_gap_days": 15.2,
     "avg_length": 14,
-    "episodes": 63,
-    "eps_365": 24,
-    "eps_90": 11,
+    "episodes": 64,
+    "eps_365": 25,
+    "eps_90": 12,
     "first_at": "2025-03-02",
     "first_year": 1403,
-    "last": "1405/08/30",
-    "last_at": "2026-11-21T12:39:48Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3spci6",
-    "last_title": "افسانه : هفت خواهر که بی تقصیر طلاقشان دادن و ساربان بی نوا",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T13:01:24Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3t5pcd",
+    "last_title": "افسانه : دختر نارنج و ترنج",
     "max_length": 33,
     "median_length": 9,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/101e050f4/podcast/play/130261837/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-28%2Fbcd7df2f-9a7a-28ea-2395-51caed6d526e.mp3",
+        "at": "2026-11-28T13:01:24Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1795870775676-f1189f4c776df8.jpg",
+        "t": "افسانه : دختر نارنج و ترنج"
+      },
       {
         "a": "https://anchor.fm/s/101e050f4/podcast/play/129855494/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F3d9b29bf-c787-65ea-3b50-d8e79eb3b6a2.mp3",
         "at": "2026-11-21T12:39:48Z",
@@ -91199,15 +91205,15 @@
         "at": "2026-10-10T13:11:37Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1791637666051-5c4712321c496.jpg",
         "t": "افسانه‌ی شیرزاد | قسمت دوم"
-      },
-      {
-        "a": "https://anchor.fm/s/101e050f4/podcast/play/126741428/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-3%2Feef8afd6-f379-54f4-1fda-ab3ccf1a93c4.mp3",
-        "at": "2026-10-03T12:20:11Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1791029964319-e22a5e9a33ee6.jpg",
-        "t": "افسانه‌ی شیرزاد | قسمت اول"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T13:01:24Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1795870775676-f1189f4c776df8.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3t5pcd",
+        "title": "افسانه : دختر نارنج و ترنج"
+      },
       {
         "at": "2026-11-21T12:39:48Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1795264685861-d8f099853a636.jpg",
@@ -91219,12 +91225,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794669639637-fe4eadb670973.jpg",
         "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3scf3s",
         "title": "افسانه : یک کلاغ ، چهل کلاغ !"
-      },
-      {
-        "at": "2026-11-07T12:17:32Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794053765174-38951d298c5bc.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ruuim",
-        "title": "قصه: هفت زن دماغ بریده"
       }
     ],
     "recent_30d": [
@@ -91239,7 +91239,7 @@
       5,
       3,
       4,
-      4
+      5
     ],
     "status": "active"
   },
@@ -96078,8 +96078,8 @@
       1,
       2,
       1,
-      0,
-      2
+      1,
+      1
     ],
     "status": "active"
   },
@@ -97912,8 +97912,8 @@
       86,
       103,
       90,
-      70,
-      73
+      71,
+      72
     ],
     "status": "active"
   },
@@ -99906,7 +99906,7 @@
     "avg_length": 19,
     "episodes": 440,
     "eps_365": 258,
-    "eps_90": 104,
+    "eps_90": 103,
     "first_at": "2024-08-22",
     "first_year": 1403,
     "last": "1405/09/07",
@@ -99995,8 +99995,8 @@
       15,
       7,
       12,
-      38,
-      44,
+      39,
+      43,
       35,
       25
     ],
