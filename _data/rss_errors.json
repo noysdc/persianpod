@@ -187,6 +187,10 @@
     "error": "ValueError: no items in feed",
     "rss": "https://feeds.acast.com/public/shows/6722758777f0e7cbfba1f7a2"
   },
+  "podcast-fotbali-fotbal-trapi": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmirs0ugaxipywzzzcnts"
+  },
   "podcast-gzar": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/c6c31a9c/podcast/rss"
@@ -238,6 +242,10 @@
   "radio-mfid": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://anchor.fm/s/2e6e9794/podcast/rss"
+  },
+  "radio-msir": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://feeds.simplecast.com/PEcbc7TY"
   },
   "radio-nmana": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
