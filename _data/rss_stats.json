@@ -54906,20 +54906,26 @@
   },
   "nashta": {
     "avg_gap_days": 1.8,
-    "avg_length": 34,
-    "episodes": 379,
-    "eps_365": 203,
-    "eps_90": 89,
+    "avg_length": 36,
+    "episodes": 380,
+    "eps_365": 204,
+    "eps_90": 90,
     "first_at": "2025-04-16",
     "first_year": 1404,
-    "last": "1405/09/05",
-    "last_at": "2026-11-26T13:30:00Z",
-    "last_link": "https://shows.acast.com/httpswwwspreakercomshow7164106episodesfeed/episodes/olverep",
-    "last_title": "بازپخش اپیزود ویژه: زیتون",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T01:30:00Z",
+    "last_link": "https://shows.acast.com/httpswwwspreakercomshow7164106episodesfeed/episodes/791405",
+    "last_title": "شنبه 7 آذر 1405- اپیزود ویژه: آن روی سکه",
     "max_length": 124,
     "median_length": 20,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6a677cf14207b2a601c12621/e/6b0a144e079ab0810c60bb49/media.mp3",
+        "at": "2026-11-28T01:30:00Z",
+        "i": "https://assets.pippa.io/shows/6a677cf14207b2a601c12621/1795822548579-43860c02-1d76-42dc-8c59-74d75fb53a90.jpeg",
+        "t": "شنبه 7 آذر 1405- اپیزود ویژه: آن روی سکه"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6a677cf14207b2a601c12621/e/6aff38f618a3c93bdb455aa5/media.mp3",
         "at": "2026-11-26T13:30:00Z",
@@ -54961,15 +54967,15 @@
         "at": "2026-11-22T01:30:00Z",
         "i": "https://assets.pippa.io/shows/6a677cf14207b2a601c12621/1795295983357-2adc0e97-7e15-4be6-b932-eefbb4899513.jpeg",
         "t": "یکشنبه 1 آذر 1405"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6a677cf14207b2a601c12621/e/6b00ce084f7f96174dba0f73/media.mp3",
-        "at": "2026-11-21T01:30:00Z",
-        "i": "https://assets.pippa.io/shows/6a677cf14207b2a601c12621/1795214878827-889790cc-3b9e-4d1a-8e25-fee2c9bb2a52.jpeg",
-        "t": "شنبه 30 آبان 1405 - اپیزود ویژه: جعبه جادویی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T01:30:00Z",
+        "i": "https://assets.pippa.io/shows/6a677cf14207b2a601c12621/1795822548579-43860c02-1d76-42dc-8c59-74d75fb53a90.jpeg",
+        "link": "https://shows.acast.com/httpswwwspreakercomshow7164106episodesfeed/episodes/791405",
+        "title": "شنبه 7 آذر 1405- اپیزود ویژه: آن روی سکه"
+      },
       {
         "at": "2026-11-26T13:30:00Z",
         "i": "https://assets.pippa.io/shows/6a677cf14207b2a601c12621/1795111032111-6a16db39-40fb-47d9-8815-2162063f766c.jpeg",
@@ -54981,12 +54987,6 @@
         "i": "https://assets.pippa.io/shows/6a677cf14207b2a601c12621/1795639841319-f2aabb98-9c8c-4b13-bc99-ec4db28da5b3.jpeg",
         "link": "https://shows.acast.com/httpswwwspreakercomshow7164106episodesfeed/episodes/5091405",
         "title": "پنجشنبه 5 آذر 1405"
-      },
-      {
-        "at": "2026-11-25T01:30:00Z",
-        "i": "https://assets.pippa.io/shows/6a677cf14207b2a601c12621/1795549386637-6ada6ea5-5e8a-4b7f-9737-f53994dd18f1.jpeg",
-        "link": "https://shows.acast.com/httpswwwspreakercomshow7164106episodesfeed/episodes/4-1405az",
-        "title": "چهارشنبه 4 آذر 1405"
       }
     ],
     "recent_30d": [
@@ -55001,7 +55001,7 @@
       22,
       29,
       31,
-      29
+      30
     ],
     "status": "active"
   },
@@ -77159,13 +77159,13 @@
       }
     ],
     "recent_30d": [
-      1,
       2,
+      1,
       3,
       1,
       2,
-      4,
-      8,
+      5,
+      7,
       4,
       1,
       5,
