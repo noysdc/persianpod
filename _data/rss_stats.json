@@ -74586,12 +74586,12 @@
       2,
       0,
       0,
-      2,
+      3,
       10,
+      8,
       9,
-      9,
-      5,
-      7,
+      6,
+      6,
       4
     ],
     "status": "active"
@@ -75782,8 +75782,8 @@
       0,
       0,
       0,
-      3,
-      5,
+      4,
+      4,
       4,
       4,
       5,
@@ -76759,8 +76759,8 @@
       4,
       5,
       4,
-      4,
-      2,
+      5,
+      1,
       0,
       1,
       0,
@@ -77164,8 +77164,8 @@
       3,
       1,
       2,
-      6,
       7,
+      6,
       3,
       1,
       5,
@@ -77943,26 +77943,21 @@
     "status": "stopped"
   },
   "rabth-ma": {
-    "avg_gap_days": 3.9,
-    "avg_length": 9,
-    "episodes": 17,
-    "eps_365": 17,
-    "eps_90": 17,
+    "avg_gap_days": 3.8,
+    "avg_length": 10,
+    "episodes": 16,
+    "eps_365": 16,
+    "eps_90": 16,
     "first_at": "2026-09-25",
     "first_year": 1405,
-    "last": "1405/09/06",
-    "last_at": "2026-11-27T22:24:02Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3t50bh",
-    "last_title": "دلیل سرد شدنش چیه؟ | رابطه عاطفی سالم",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T22:14:41Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sptkp",
+    "last_title": "چرا وقتی کنارشی، بازم تنهایی",
     "max_length": 21,
     "median_length": 10,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/117bc39b0/podcast/play/130236209/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-27%2F437803234-44100-2-d3ac5bacc96bd.m4a",
-        "at": "2026-11-27T22:24:02Z",
-        "t": "دلیل سرد شدنش چیه؟ | رابطه عاطفی سالم"
-      },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/129872985/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F437311063-44100-2-9659525b89976.m4a",
         "at": "2026-11-21T22:14:41Z",
@@ -77998,14 +77993,14 @@
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/127088087/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-8%2F433665140-44100-2-53f97cf8b019d.m4a",
         "at": "2026-10-08T08:07:35Z",
         "t": "ناسازگاری در رابطه | آیا هر رابطه‌ای با تلاش بیشتر درست می‌شود؟"
+      },
+      {
+        "a": "https://anchor.fm/s/117bc39b0/podcast/play/127015082/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-7%2F433572690-44100-2-7d3ba4a9c8fd8.m4a",
+        "at": "2026-10-07T09:43:17Z",
+        "t": "نجات رابطه | اگر فقط من تغییر کنم، کافی است؟"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-27T22:24:02Z",
-        "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3t50bh",
-        "title": "دلیل سرد شدنش چیه؟ | رابطه عاطفی سالم"
-      },
       {
         "at": "2026-11-21T22:14:41Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sptkp",
@@ -78015,6 +78010,11 @@
         "at": "2026-11-14T11:18:49Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sc738",
         "title": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه"
+      },
+      {
+        "at": "2026-11-11T00:59:16Z",
+        "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3s698q",
+        "title": "چرا تو رابطه با یه اتفاق ساده، یا غیب می‌شم یا دیوونه؟ | سبک دلبستگی"
       }
     ],
     "recent_30d": [
@@ -78029,7 +78029,7 @@
       0,
       4,
       8,
-      5
+      4
     ],
     "status": "active"
   },
@@ -91656,8 +91656,8 @@
       36,
       19,
       19,
-      24,
-      23
+      25,
+      22
     ],
     "status": "active"
   },
@@ -97824,8 +97824,8 @@
       0,
       0,
       8,
-      69,
-      89,
+      70,
+      88,
       99,
       90,
       74,
