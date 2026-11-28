@@ -91647,19 +91647,25 @@
   "sfrnamh-hai-soti-lst-sknd": {
     "avg_gap_days": 1.2,
     "avg_length": 19,
-    "episodes": 123,
-    "eps_365": 123,
-    "eps_90": 66,
+    "episodes": 124,
+    "eps_365": 124,
+    "eps_90": 67,
     "first_at": "2026-06-29",
     "first_year": 1405,
-    "last": "1405/09/05",
-    "last_at": "2026-11-26T11:13:00Z",
-    "last_link": "https://bavexa.com/e/58645-dj-hesam-rangarang-09",
-    "last_title": "DJ Hesam - Rangarang Ep.09",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T08:00:00Z",
+    "last_link": "https://bavexa.com/e/58756-after-dark-06",
+    "last_title": "Ferovaal X Luna Casa – After Dark EP.06",
     "max_length": 110,
     "median_length": 19,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://cdn-bavexa.version.ir/episodes/58756/source.mp3",
+        "at": "2026-11-28T08:00:00Z",
+        "i": "https://cdn.bavexa.com/episodes/GGQXYscs7c3vR37PISCw3SLNwCGo7XfypB3NNNq3.jpg",
+        "t": "Ferovaal X Luna Casa – After Dark EP.06"
+      },
       {
         "a": "https://cdn-bavexa.version.ir/episodes/58645/source.mp3",
         "at": "2026-11-26T11:13:00Z",
@@ -91701,15 +91707,15 @@
         "at": "2026-11-18T13:00:00Z",
         "i": "https://cdn.bavexa.com/episodes/RAjiqjCGsLqXDus1OnHXZfhjoc8qfW5FgSj4Vbjo.jpg",
         "t": "DJ Mojix - Nova Ep.01"
-      },
-      {
-        "a": "https://media-cdn.bavexa.com/episodes/57782/source.mp3",
-        "at": "2026-11-17T13:55:00Z",
-        "i": "https://cdn.bavexa.com/episodes/4vejpNoTpo2oL2mP9AIjbueSnJ3lJY1loeLGOBo2.jpg",
-        "t": "DJ Momtaz - Mix Box Ep.06"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T08:00:00Z",
+        "i": "https://cdn.bavexa.com/episodes/GGQXYscs7c3vR37PISCw3SLNwCGo7XfypB3NNNq3.jpg",
+        "link": "https://bavexa.com/e/58756-after-dark-06",
+        "title": "Ferovaal X Luna Casa – After Dark EP.06"
+      },
       {
         "at": "2026-11-26T11:13:00Z",
         "i": "https://cdn.bavexa.com/episodes/TnCNow47F3UP65PvSdDZY5BOeGWS9bHmtihdQzZs.jpg",
@@ -91721,12 +91727,6 @@
         "i": "https://cdn.bavexa.com/episodes/gbomwYdepgMSfr9x8yRChVAkk8uY7J8gW6piX40S.jpg",
         "link": "https://bavexa.com/e/58636-dj-sool-Nima-generation-01",
         "title": "Dj-Sool & Nima Ghoreishi -  Generation Ep.01"
-      },
-      {
-        "at": "2026-11-24T07:30:00Z",
-        "i": "https://cdn.bavexa.com/episodes/z1zW39PzNNhJGCjmi9qbrLIXyTUtwUaBlTUNGbEx.jpg",
-        "link": "https://bavexa.com/e/58592-deejay-al-dordor-19",
-        "title": "Deejay Al - Dor Dor Ep.19"
       }
     ],
     "recent_30d": [
@@ -91741,7 +91741,7 @@
       19,
       19,
       25,
-      22
+      23
     ],
     "status": "active"
   },
