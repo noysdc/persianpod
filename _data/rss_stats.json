@@ -3059,8 +3059,8 @@
       0,
       0,
       0,
-      26,
-      33,
+      27,
+      32,
       16,
       7,
       3
@@ -32404,21 +32404,27 @@
     "status": "stopped"
   },
   "hri-patr-ba-lomos": {
-    "avg_gap_days": 29.8,
-    "avg_length": 93,
-    "episodes": 210,
-    "eps_365": 13,
-    "eps_90": 1,
+    "avg_gap_days": 28.0,
+    "avg_length": 92,
+    "episodes": 211,
+    "eps_365": 14,
+    "eps_90": 2,
     "first_at": "2021-02-25",
     "first_year": 1399,
-    "last": "1405/08/30",
-    "last_at": "2026-11-21T13:30:00Z",
-    "last_link": "https://wzrcnt.com/lumos_s7e15/",
-    "last_title": "یادگاران مرگ – فصل ۱۵: انتقام گابلین",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T14:10:28Z",
+    "last_link": "https://wzrcnt.com/lumos_s7e16",
+    "last_title": "یادگاران مرگ – فصل ۱۶: گادریکس هالو",
     "max_length": 164,
     "median_length": 83,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/624033855f49c70012cb4dfe/e/6b0ae0d6a8359a81e0c46772/media.mp3",
+        "at": "2026-11-28T14:10:28Z",
+        "i": "https://assets.pippa.io/shows/624033855f49c70012cb4dfe/1795874560316-3607d69b-78f5-428a-8bf5-9ec4aa53d1de.jpeg",
+        "t": "یادگاران مرگ – فصل ۱۶: گادریکس هالو"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/624033855f49c70012cb4dfe/e/6b0147a84f7f96174de3cda7/media.mp3",
         "at": "2026-11-21T13:30:00Z",
@@ -32460,15 +32466,15 @@
         "at": "2026-06-06T13:30:00Z",
         "i": "https://assets.pippa.io/shows/624033855f49c70012cb4dfe/1780595501047-c8936bdb-04ae-4b62-8f43-635b6ce6d2b3.jpeg",
         "t": "یادگاران مرگ - فصل ۹: جایی برای اختفا"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/624033855f49c70012cb4dfe/e/695903c2fcfcf09e55783adc/media.mp3",
-        "at": "2026-01-03T13:30:00Z",
-        "i": "https://assets.pippa.io/shows/624033855f49c70012cb4dfe/1767440394970-cb54ac4c-fd98-4d4f-95e3-8070dbe37d9f.jpeg",
-        "t": "یادگاران مرگ - فصل ۸: عروسی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T14:10:28Z",
+        "i": "https://assets.pippa.io/shows/624033855f49c70012cb4dfe/1795874560316-3607d69b-78f5-428a-8bf5-9ec4aa53d1de.jpeg",
+        "link": "https://wzrcnt.com/lumos_s7e16",
+        "title": "یادگاران مرگ – فصل ۱۶: گادریکس هالو"
+      },
       {
         "at": "2026-11-21T13:30:00Z",
         "i": "https://assets.pippa.io/shows/624033855f49c70012cb4dfe/1795245227431-0e538167-f447-4f4f-a52c-e5aa8c747c2d.jpeg",
@@ -32480,12 +32486,6 @@
         "i": "https://assets.pippa.io/shows/624033855f49c70012cb4dfe/1783645281839-9bbf55e8-6581-4904-95ed-27367d50e3a3.jpeg",
         "link": "https://wzrcnt.com/lumos_s7e14/",
         "title": "یادگاران مرگ – فصل ۱۴: دزد"
-      },
-      {
-        "at": "2026-07-04T14:00:00Z",
-        "i": "https://assets.pippa.io/shows/624033855f49c70012cb4dfe/1783170082512-fd733c8c-1c15-49f6-8523-0891d53a57ca.jpeg",
-        "link": "https://wzrcnt.com/lumos_s7e13/",
-        "title": "یادگاران مرگ – فصل ۱۳: کمیتهٔ ثبت‌نام ماگل‌زاده‌ها"
       }
     ],
     "recent_30d": [
@@ -32500,7 +32500,7 @@
       0,
       0,
       0,
-      1
+      2
     ],
     "status": "active"
   },
@@ -91143,27 +91143,21 @@
     "status": "active"
   },
   "sfir-sda": {
-    "avg_gap_days": 15.2,
+    "avg_gap_days": 15.5,
     "avg_length": 14,
-    "episodes": 64,
-    "eps_365": 25,
-    "eps_90": 12,
+    "episodes": 63,
+    "eps_365": 24,
+    "eps_90": 11,
     "first_at": "2025-03-02",
     "first_year": 1403,
-    "last": "1405/09/07",
-    "last_at": "2026-11-28T13:01:24Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3t5pcd",
-    "last_title": "افسانه : دختر نارنج و ترنج",
+    "last": "1405/08/30",
+    "last_at": "2026-11-21T12:39:48Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3spci6",
+    "last_title": "افسانه : هفت خواهر که بی تقصیر طلاقشان دادن و ساربان بی نوا",
     "max_length": 33,
     "median_length": 9,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/101e050f4/podcast/play/130261837/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-28%2Fbcd7df2f-9a7a-28ea-2395-51caed6d526e.mp3",
-        "at": "2026-11-28T13:01:24Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1795870775676-f1189f4c776df8.jpg",
-        "t": "افسانه : دختر نارنج و ترنج"
-      },
       {
         "a": "https://anchor.fm/s/101e050f4/podcast/play/129855494/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F3d9b29bf-c787-65ea-3b50-d8e79eb3b6a2.mp3",
         "at": "2026-11-21T12:39:48Z",
@@ -91205,15 +91199,15 @@
         "at": "2026-10-10T13:11:37Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1791637666051-5c4712321c496.jpg",
         "t": "افسانه‌ی شیرزاد | قسمت دوم"
+      },
+      {
+        "a": "https://anchor.fm/s/101e050f4/podcast/play/126741428/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-3%2Feef8afd6-f379-54f4-1fda-ab3ccf1a93c4.mp3",
+        "at": "2026-10-03T12:20:11Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1791029964319-e22a5e9a33ee6.jpg",
+        "t": "افسانه‌ی شیرزاد | قسمت اول"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-28T13:01:24Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1795870775676-f1189f4c776df8.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3t5pcd",
-        "title": "افسانه : دختر نارنج و ترنج"
-      },
       {
         "at": "2026-11-21T12:39:48Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1795264685861-d8f099853a636.jpg",
@@ -91225,6 +91219,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794669639637-fe4eadb670973.jpg",
         "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3scf3s",
         "title": "افسانه : یک کلاغ ، چهل کلاغ !"
+      },
+      {
+        "at": "2026-11-07T12:17:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43164453/43164453-1794053765174-38951d298c5bc.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/safir-seda/episodes/ep-e3ruuim",
+        "title": "قصه: هفت زن دماغ بریده"
       }
     ],
     "recent_30d": [
@@ -91239,7 +91239,7 @@
       5,
       3,
       4,
-      5
+      4
     ],
     "status": "active"
   },
