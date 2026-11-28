@@ -108,7 +108,7 @@
     "rss": "https://mp3movies.ir/category/iranian-movies/feed"
   },
   "galri-film": {
-    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://cheshmeborkhar.ir/category/tolidi/akse-khabari/feed"
   },
   "ghsh-hai-kotah-az-hirbd-hiomn": {
@@ -182,10 +182,6 @@
   "podcast-ailka": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/ilka/feed/"
-  },
-  "podcast-farsi-fikshn-fiction-podcast": {
-    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j"
   },
   "podcast-farsi-mscht": {
     "error": "ValueError: no items in feed",
