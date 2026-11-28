@@ -3562,19 +3562,25 @@
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.7,
     "avg_length": 6,
-    "episodes": 36,
-    "eps_365": 36,
-    "eps_90": 25,
+    "episodes": 37,
+    "eps_365": 37,
+    "eps_90": 26,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/09/04",
-    "last_at": "2026-11-25T15:14:27Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3t0rk1",
-    "last_title": "کلیله‌ودمنه کودکانه | قسمت پانزدهم | بوم و زاغ (۳)",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T14:47:12Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3t5tf6",
+    "last_title": "شاهنامه کودکانه | قسمت چهاردهم | رستم، پیل سپید و رخش",
     "max_length": 11,
     "median_length": 6,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/130266022/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-28%2Ffe239383-f650-8a9a-275d-c8e47ebf36b2.mp3",
+        "at": "2026-11-28T14:47:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795877244633-074fe2f94bb1e8.jpg",
+        "t": "شاهنامه کودکانه | قسمت چهاردهم | رستم، پیل سپید و رخش"
+      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/130100289/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-25%2F56580714-628c-7e0e-d844-36c0e1210300.mp3",
         "at": "2026-11-25T15:14:27Z",
@@ -3616,15 +3622,15 @@
         "at": "2026-11-04T17:22:49Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
         "t": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
-      },
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/128574401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F39ddd9c3-b13c-c655-fe26-70dc3a0daa7b.mp3",
-        "at": "2026-11-01T19:05:07Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793559915422-eb9a246b41b18.jpg",
-        "t": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T14:47:12Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795877244633-074fe2f94bb1e8.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3t5tf6",
+        "title": "شاهنامه کودکانه | قسمت چهاردهم | رستم، پیل سپید و رخش"
+      },
       {
         "at": "2026-11-25T15:14:27Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795619674988-1d255c68811c6.jpg",
@@ -3636,12 +3642,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795278033095-9398b599715b8.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3spj2l",
         "title": "شاهنامه کودکانه | قسمت سیزدهم | تولد رستم"
-      },
-      {
-        "at": "2026-11-16T12:07:21Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794830871271-16946b5ebe26d.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3sfo9m",
-        "title": "کلیله و دمنه کودکانه | قسمت چهاردهم | بوم و زاغ (۲)"
       }
     ],
     "recent_30d": [
@@ -3656,7 +3656,7 @@
       11,
       11,
       5,
-      9
+      10
     ],
     "status": "active"
   },
@@ -40743,26 +40743,20 @@
     "status": "stopped"
   },
   "klozaap": {
-    "avg_length": 35,
-    "episodes": 84,
+    "avg_length": 34,
+    "episodes": 83,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2020-12-05",
     "first_year": 1399,
-    "last": "1400/12/05",
-    "last_at": "2022-02-24T21:00:53Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/--e1esi2m",
-    "last_title": "سکانس دوازدهم - قصیده فیلم‌سوزی‌ها",
+    "last": "1400/11/29",
+    "last_at": "2022-02-18T15:13:56Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/--e1eiunk",
+    "last_title": "سکانس یازدهم - قهرمانی در غبار",
     "max_length": 160,
     "median_length": 18,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/42e9c6a8/podcast/play/48170518/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-24%2F527889e6-2e98-4617-5a74-e4285f5c9c3a.mp3",
-        "at": "2022-02-24T21:00:53Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/11126170/11126170-1645736404006-0aba320cc5a42.jpg",
-        "t": "سکانس دوازدهم - قصیده فیلم‌سوزی‌ها"
-      },
       {
         "a": "https://anchor.fm/s/42e9c6a8/podcast/play/47855796/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-18%2F18e72e65-8fe1-827e-8e7d-8678d504b5e5.mp3",
         "at": "2022-02-18T15:13:56Z",
@@ -40804,15 +40798,15 @@
         "at": "2021-05-18T13:32:56Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1621344784429-c3c648528491f.jpg",
         "t": "نقد و بررسی فیلم Tommaso"
+      },
+      {
+        "a": "https://anchor.fm/s/42e9c6a8/podcast/play/33742771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-18%2F94f9cf2d-702a-31e0-5645-842b099f2878.mp3",
+        "at": "2021-05-18T13:31:07Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1621344675360-19e36cf9f0d53.jpg",
+        "t": "نقد و بررسی فیلم Persian Lessons"
       }
     ],
     "recent": [
-      {
-        "at": "2022-02-24T21:00:53Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/11126170/11126170-1645736404006-0aba320cc5a42.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/--e1esi2m",
-        "title": "سکانس دوازدهم - قصیده فیلم‌سوزی‌ها"
-      },
       {
         "at": "2022-02-18T15:13:56Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1645736379621-ebbf147cfffec.jpg",
@@ -40824,6 +40818,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1622503900641-58477e095ec31.jpg",
         "link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/The-Mitchells-vs-the-Machines-e11ulki",
         "title": "نقد و بررسی فیلم The Mitchells vs the Machines"
+      },
+      {
+        "at": "2021-06-01T13:30:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1622503876545-c6db90623df2a.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/Ted-Lasso-e11ulin",
+        "title": "نقد و بررسی سریال Ted Lasso"
       }
     ],
     "recent_30d": [
@@ -77450,45 +77450,21 @@
     "status": "active"
   },
   "prozhh-tarikh-shfahi-airan-haroard-bh-koshsh-hbib-lajordi": {
-    "avg_gap_days": 0.2,
-    "avg_length": 203,
-    "episodes": 156,
-    "eps_365": 156,
-    "eps_90": 156,
+    "avg_gap_days": 0.1,
+    "avg_length": 201,
+    "episodes": 152,
+    "eps_365": 152,
+    "eps_90": 152,
     "first_at": "2026-11-01",
     "first_year": 1405,
-    "last": "1405/09/06",
-    "last_at": "2026-11-27T23:47:45Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Azod-Qadjar--Abounasr-e3t534d",
-    "last_title": "Azod-Qadjar, Abounasr",
+    "last": "1405/09/03",
+    "last_at": "2026-11-24T02:24:40Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baghaie-Kermani--Mozaffar-Part-7-e3stij3",
+    "last_title": "Baghaie-Kermani, Mozaffar Part 7",
     "max_length": 250,
     "median_length": 119,
     "min_length": 20,
     "play": [
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/130239053/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-27%2Ff86e508b-b395-56d6-2270-b2d895de3600.mp3",
-        "at": "2026-11-27T23:47:45Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795823211142-fd403e4f474c3.jpg",
-        "t": "Azod-Qadjar, Abounasr"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/130234359/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-27%2F04594289-a814-3f25-ec76-c1eb63240e61.mp3",
-        "at": "2026-11-27T21:29:08Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795814849492-58394a6c6de0e8.jpg",
-        "t": "Kashani, Kamran"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/130229651/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-27%2F9ec21312-5c4d-84aa-f9a4-13baead1195f.mp3",
-        "at": "2026-11-27T19:26:51Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795807517922-af3a915f4c76f.jpg",
-        "t": "Ladjevardi, Ghassem"
-      },
-      {
-        "a": "https://anchor.fm/s/e0e08694/podcast/play/130224490/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-27%2Fd2be21c0-e2be-003d-5b36-cec4463c42cf.mp3",
-        "at": "2026-11-27T17:23:52Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795800216651-d3e661f5d02e3.jpg",
-        "t": "Ladjevardi, Mahmoud"
-      },
       {
         "a": "https://anchor.fm/s/e0e08694/podcast/play/129992739/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fdff34c33-5902-1e35-27e4-657715c1cd54.mp3",
         "at": "2026-11-24T02:24:40Z",
@@ -77512,26 +77488,50 @@
         "at": "2026-11-24T02:16:04Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486417763-2ee7fa65866c.jpg",
         "t": "Baghaie-Kermani, Mozaffar Part 4"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129992367/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2F2f29e9a5-c6ab-52e8-6c48-6215f99b1e9e.mp3",
+        "at": "2026-11-24T02:13:17Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486271576-3c08a58b043ce.jpg",
+        "t": "Baghaie-Kermani, Mozaffar Part 3"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129992285/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Faf548164-6502-140c-ee3c-b81a8a3656bb.mp3",
+        "at": "2026-11-24T02:10:50Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486132377-5dda443b8581b.jpg",
+        "t": "Baghaie-Kermani, Mozaffar Part 2"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129992195/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2F560758e4-94c4-96ed-928e-6c4b0c6bb3c2.mp3",
+        "at": "2026-11-24T02:08:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486000472-3d15c586e7ae8.jpg",
+        "t": "Baghaie-Kermani, Mozaffar Part 1"
+      },
+      {
+        "a": "https://anchor.fm/s/e0e08694/podcast/play/129835862/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2Fd9df1032-cd28-1293-6387-86d3ac0b788e.mp3",
+        "at": "2026-11-20T23:27:19Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795217148205-fe3b65f97f3e1.jpg",
+        "t": "Baheri, Mohammad Part 8"
       }
     ],
     "recent": [
       {
-        "at": "2026-11-27T23:47:45Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795823211142-fd403e4f474c3.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Azod-Qadjar--Abounasr-e3t534d",
-        "title": "Azod-Qadjar, Abounasr"
+        "at": "2026-11-24T02:24:40Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486882979-f38cd9ee90723.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baghaie-Kermani--Mozaffar-Part-7-e3stij3",
+        "title": "Baghaie-Kermani, Mozaffar Part 7"
       },
       {
-        "at": "2026-11-27T21:29:08Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795814849492-58394a6c6de0e8.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Kashani--Kamran-e3t4uhn",
-        "title": "Kashani, Kamran"
+        "at": "2026-11-24T02:21:03Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486735766-2eb84749ddb34.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baghaie-Kermani--Mozaffar-Part-6-e3stigj",
+        "title": "Baghaie-Kermani, Mozaffar Part 6"
       },
       {
-        "at": "2026-11-27T19:26:51Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795807517922-af3a915f4c76f.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Ladjevardi--Ghassem-e3t4puj",
-        "title": "Ladjevardi, Ghassem"
+        "at": "2026-11-24T02:18:32Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/37628109/37628109-1795486587235-f8a73957d38e3.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/sayena5/episodes/Baghaie-Kermani--Mozaffar-Part-5-e3stidt",
+        "title": "Baghaie-Kermani, Mozaffar Part 5"
       }
     ],
     "recent_30d": [
@@ -77546,7 +77546,7 @@
       0,
       0,
       0,
-      156
+      152
     ],
     "status": "active"
   },
@@ -78038,7 +78038,7 @@
     "last": "1405/09/06",
     "last_at": "2026-11-27T22:24:02Z",
     "last_link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3t50bh",
-    "last_title": "دلیل سرد شدنش چیه؟ | رابطه عاطفی سالم",
+    "last_title": "چرا سرد شده؟ | رابطه عاطفی سالم",
     "max_length": 21,
     "median_length": 10,
     "min_length": 1,
@@ -78046,7 +78046,7 @@
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/130236209/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-27%2F437803234-44100-2-d3ac5bacc96bd.m4a",
         "at": "2026-11-27T22:24:02Z",
-        "t": "دلیل سرد شدنش چیه؟ | رابطه عاطفی سالم"
+        "t": "چرا سرد شده؟ | رابطه عاطفی سالم"
       },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/129872985/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F437311063-44100-2-9659525b89976.m4a",
@@ -78089,7 +78089,7 @@
       {
         "at": "2026-11-27T22:24:02Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3t50bh",
-        "title": "دلیل سرد شدنش چیه؟ | رابطه عاطفی سالم"
+        "title": "چرا سرد شده؟ | رابطه عاطفی سالم"
       },
       {
         "at": "2026-11-21T22:14:41Z",
@@ -79771,8 +79771,8 @@
       1,
       2,
       1,
-      4,
-      3
+      5,
+      2
     ],
     "status": "active"
   },
