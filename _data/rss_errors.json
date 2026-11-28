@@ -67,10 +67,6 @@
     "error": "ValueError: no items in feed",
     "rss": "https://rss.castbox.fm/everest/08e76cc25e4849cfb964b07b784572cb.xml"
   },
-  "bit-baigani": {
-    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://textmaker.ir/category/beat/feed/"
-  },
   "bookafe-bokafh": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://feed.podbean.com/saharnik1981/feed.xml"
@@ -78,10 +74,6 @@
   "borsaoai-ktab": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://cpsmbroker.com/feed/podcast/bookbourseava"
-  },
-  "dairh-dastan": {
-    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.audiyacreators.one/cmismooeraoigjuiteua2"
   },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
