@@ -151,6 +151,10 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://bonyantakvin.ir/feed/podcast/sazandegi/"
   },
+  "laghri": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://aliazad.ir/feed/"
+  },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://www.malino.co/feed/podcast/malinopodcast/"
