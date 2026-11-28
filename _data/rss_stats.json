@@ -4218,19 +4218,25 @@
   "aghtsad-o-siast-jhani": {
     "avg_gap_days": 4.7,
     "avg_length": 18,
-    "episodes": 221,
+    "episodes": 222,
     "eps_365": 79,
-    "eps_90": 19,
+    "eps_90": 20,
     "first_at": "2023-12-16",
     "first_year": 1402,
-    "last": "1405/09/05",
-    "last_at": "2026-11-26T16:30:00Z",
-    "last_link": "https://dotcast.org/p/ctka8bck/bvnnyhdbkq/",
-    "last_title": "جنگ تراشه‌ها؛ آیا آمریکا با تحریم چین، رقیبش را قدرتمندتر می‌کند؟",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T16:30:00Z",
+    "last_link": "https://dotcast.org/p/ctka8bck/n2vpdrt5yo/",
+    "last_title": "ترامپ، پوتین و شی؛ برنده واقعی بازی قدرت چه کسی بود؟",
     "max_length": 72,
     "median_length": 21,
     "min_length": 9,
     "play": [
+      {
+        "a": "https://feed.dotcast.org/e/ctka8bck/n2vpdrt5yo/2026-11-28-12-50-00.mp3",
+        "at": "2026-11-28T16:30:00Z",
+        "i": "https://feed.dotcast.org/e/ctka8bck/n2vpdrt5yo/2026-11-28-12-49-50.jpg",
+        "t": "ترامپ، پوتین و شی؛ برنده واقعی بازی قدرت چه کسی بود؟"
+      },
       {
         "a": "https://feed.dotcast.org/e/ctka8bck/bvnnyhdbkq/2026-11-25-09-31-11.mp3",
         "at": "2026-11-26T16:30:00Z",
@@ -4272,15 +4278,15 @@
         "at": "2026-11-03T17:00:00Z",
         "i": "https://feed.dotcast.org/e/ctka8bck/yf0x44atk5/2026-11-03-16-40-21.jpg",
         "t": "جنگ با ایران، برگ برنده یا پاشنه آشیل ترامپ در انتخابات آمریکا؟"
-      },
-      {
-        "a": "https://feed.dotcast.org/e/ctka8bck/0326xref2e/2026-10-26-06-44-33.mp3",
-        "at": "2026-10-27T16:30:00Z",
-        "i": "https://feed.dotcast.org/e/ctka8bck/0326xref2e/2026-10-27-13-49-29.jpg",
-        "t": "اعتراضات فرانسه فقط شروع ماجراست؛ اروپا به کدام سمت می‌رود؟"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T16:30:00Z",
+        "i": "https://feed.dotcast.org/e/ctka8bck/n2vpdrt5yo/2026-11-28-12-49-50.jpg",
+        "link": "https://dotcast.org/p/ctka8bck/n2vpdrt5yo/",
+        "title": "ترامپ، پوتین و شی؛ برنده واقعی بازی قدرت چه کسی بود؟"
+      },
       {
         "at": "2026-11-26T16:30:00Z",
         "i": "https://feed.dotcast.org/e/ctka8bck/bvnnyhdbkq/2026-11-26-12-56-00.jpg",
@@ -4292,17 +4298,11 @@
         "i": "https://feed.dotcast.org/e/ctka8bck/s9rqdx1ij5/2026-11-21-19-05-53.jpg",
         "link": "https://dotcast.org/p/ctka8bck/s9rqdx1ij5/",
         "title": "پشت پرده اختلالات آمریکا؛ حمله سایبری یا خطای هوش مصنوعی؟"
-      },
-      {
-        "at": "2026-11-17T16:30:00Z",
-        "i": "https://feed.dotcast.org/e/ctka8bck/lg8xcyu1qd/2026-11-17-14-23-00.jpg",
-        "link": "https://dotcast.org/p/ctka8bck/lg8xcyu1qd/",
-        "title": "از دل اوپن‌ای‌آی تا فتح بازار هوش مصنوعی؛ آیا آنتروپیک جای چت‌جی‌پی‌تی را می‌گیرد؟"
       }
     ],
     "recent_30d": [
-      15,
-      6,
+      16,
+      5,
       19,
       0,
       0,
@@ -4310,9 +4310,9 @@
       2,
       6,
       8,
-      3,
-      9,
-      7
+      4,
+      8,
+      8
     ],
     "status": "active"
   },
@@ -5266,9 +5266,9 @@
       0,
       0,
       9,
-      11,
+      12,
       19,
-      15,
+      14,
       2,
       0,
       0
@@ -40743,26 +40743,20 @@
     "status": "stopped"
   },
   "klozaap": {
-    "avg_length": 35,
-    "episodes": 84,
+    "avg_length": 34,
+    "episodes": 83,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2020-12-05",
     "first_year": 1399,
-    "last": "1400/12/05",
-    "last_at": "2022-02-24T21:00:53Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/--e1esi2m",
-    "last_title": "سکانس دوازدهم - قصیده فیلم‌سوزی‌ها",
+    "last": "1400/11/29",
+    "last_at": "2022-02-18T15:13:56Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/--e1eiunk",
+    "last_title": "سکانس یازدهم - قهرمانی در غبار",
     "max_length": 160,
     "median_length": 18,
     "min_length": 1,
     "play": [
-      {
-        "a": "https://anchor.fm/s/42e9c6a8/podcast/play/48170518/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-24%2F527889e6-2e98-4617-5a74-e4285f5c9c3a.mp3",
-        "at": "2022-02-24T21:00:53Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/11126170/11126170-1645736404006-0aba320cc5a42.jpg",
-        "t": "سکانس دوازدهم - قصیده فیلم‌سوزی‌ها"
-      },
       {
         "a": "https://anchor.fm/s/42e9c6a8/podcast/play/47855796/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-18%2F18e72e65-8fe1-827e-8e7d-8678d504b5e5.mp3",
         "at": "2022-02-18T15:13:56Z",
@@ -40804,15 +40798,15 @@
         "at": "2021-05-18T13:32:56Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1621344784429-c3c648528491f.jpg",
         "t": "نقد و بررسی فیلم Tommaso"
+      },
+      {
+        "a": "https://anchor.fm/s/42e9c6a8/podcast/play/33742771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-18%2F94f9cf2d-702a-31e0-5645-842b099f2878.mp3",
+        "at": "2021-05-18T13:31:07Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1621344675360-19e36cf9f0d53.jpg",
+        "t": "نقد و بررسی فیلم Persian Lessons"
       }
     ],
     "recent": [
-      {
-        "at": "2022-02-24T21:00:53Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/11126170/11126170-1645736404006-0aba320cc5a42.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/--e1esi2m",
-        "title": "سکانس دوازدهم - قصیده فیلم‌سوزی‌ها"
-      },
       {
         "at": "2022-02-18T15:13:56Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1645736379621-ebbf147cfffec.jpg",
@@ -40824,6 +40818,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1622503900641-58477e095ec31.jpg",
         "link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/The-Mitchells-vs-the-Machines-e11ulki",
         "title": "نقد و بررسی فیلم The Mitchells vs the Machines"
+      },
+      {
+        "at": "2021-06-01T13:30:00Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1622503876545-c6db90623df2a.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/Ted-Lasso-e11ulin",
+        "title": "نقد و بررسی سریال Ted Lasso"
       }
     ],
     "recent_30d": [
@@ -65426,7 +65426,7 @@
       }
     ],
     "recent_30d": [
-      4,
+      3,
       0,
       0,
       0,
@@ -78051,38 +78051,38 @@
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/129872985/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F437311063-44100-2-9659525b89976.m4a",
         "at": "2026-11-21T22:14:41Z",
-        "t": "حتی وقتی کنارشی، بازم تنهایی"
+        "t": "چرا وقتی کنارشی، بازم تنهایی"
       },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/129423912/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F436712616-44100-2-fd74d9dfbc2c8.m4a",
         "at": "2026-11-14T11:18:49Z",
-        "t": "تا گله می‌کنی طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه"
+        "t": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه"
       },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/129229530/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-11%2F436449973-44100-2-f517fa828c896.m4a",
         "at": "2026-11-11T00:59:16Z",
-        "t": "با یه اتفاق ساده، یا غیب می‌شی یا دیوونه؟ | سبک دلبستگی"
+        "t": "چرا تو رابطه با یه اتفاق ساده، یا غیب می‌شم یا دیوونه؟ | سبک دلبستگی"
       },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/128812090/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-5%2F435918317-44100-2-84fa8a4f11f5b.m4a",
         "at": "2026-11-05T01:47:12Z",
-        "t": "چرا همیشه همشون یه جورن؟ | تکرار الگو در انتخاب پارتنر"
+        "t": "چرا همیشه عاشق یک جور آدم می‌شم؟ | تکرار الگو در انتخاب پارتنر"
       },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/127571361/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-16%2F434301281-44100-2-b21fd18cde681.m4a",
         "at": "2026-10-27T15:07:04Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46831788/46831788-1793113631545-5d4d7b59872d2.jpg",
-        "t": "نشانه‌های علاقه | از کجا بفهمی دوستت داره؟"
+        "t": "نشانه‌های علاقه | از کجا بفهمم دوستم داره؟"
       },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/127146684/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-8%2F433737692-44100-2-c935d9d657707.m4a",
         "at": "2026-10-08T23:29:29Z",
-        "t": "با پارتنرت حرف میزنی؟ | گفت‌وگو بدون دعوا و اتهام"
+        "t": "چطور با پارتنرم حرف بزنم؟ | گفت‌وگو بدون دعوا و اتهام"
       },
       {
         "a": "https://anchor.fm/s/117bc39b0/podcast/play/127088087/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-8%2F433665140-44100-2-53f97cf8b019d.m4a",
         "at": "2026-10-08T08:07:35Z",
-        "t": "ناسازگاری در رابطه | آیا هر رابطه‌ای با تلاش بیشتر درست می‌شه؟"
+        "t": "ناسازگاری در رابطه | آیا هر رابطه‌ای با تلاش بیشتر درست می‌شود؟"
       }
     ],
     "recent": [
@@ -78094,12 +78094,12 @@
       {
         "at": "2026-11-21T22:14:41Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sptkp",
-        "title": "حتی وقتی کنارشی، بازم تنهایی"
+        "title": "چرا وقتی کنارشی، بازم تنهایی"
       },
       {
         "at": "2026-11-14T11:18:49Z",
         "link": "https://podcasters.spotify.com/pod/show/pedram-rahiminik8/episodes/ep-e3sc738",
-        "title": "تا گله می‌کنی طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه"
+        "title": "چرا تا گله می‌کنم طلبکار می‌شه؟ | دعوا می‌کنی و اونم دفاعی میشه در رابطه"
       }
     ],
     "recent_30d": [
