@@ -64654,21 +64654,27 @@
     "status": "active"
   },
   "podcast-farsi-fikshn-fiction-podcast": {
-    "avg_gap_days": 12.7,
+    "avg_gap_days": 12.4,
     "avg_length": 44,
-    "episodes": 240,
-    "eps_365": 29,
-    "eps_90": 16,
+    "episodes": 241,
+    "eps_365": 30,
+    "eps_90": 17,
     "first_at": "2019-07-06",
     "first_year": 1398,
-    "last": "1405/09/03",
-    "last_at": "2026-11-24T14:30:00Z",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T02:30:00Z",
     "last_link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
-    "last_title": "قصاب دروغگو",
+    "last_title": "قاتلی که نباید آزاد شود",
     "max_length": 75,
     "median_length": 34,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/52b59876d4abe0b7/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
+        "at": "2026-11-28T02:30:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/52b59876d4abe0b7/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "t": "قاتلی که نباید آزاد شود"
+      },
       {
         "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/908062899b44d8b5/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
         "at": "2026-11-24T14:30:00Z",
@@ -64710,15 +64716,15 @@
         "at": "2026-11-03T05:27:53Z",
         "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/237697b2f212a633/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "t": "رقصیدن با مرگ"
-      },
-      {
-        "a": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/audio/3902cf193bcddd62/audio.mp3?utm_source=audiya.pub&utm_medium=rss",
-        "at": "2026-10-31T02:30:00Z",
-        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/3902cf193bcddd62/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "t": "هیولا در خانه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T02:30:00Z",
+        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/52b59876d4abe0b7/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
+        "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
+        "title": "قاتلی که نباید آزاد شود"
+      },
       {
         "at": "2026-11-24T14:30:00Z",
         "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/908062899b44d8b5/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
@@ -64730,12 +64736,6 @@
         "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/f9ca1b80379e85d8/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
         "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
         "title": "چشمان آبی جسد"
-      },
-      {
-        "at": "2026-11-17T02:00:00Z",
-        "i": "https://rss.audiyacreators.one/media/cmixamep27jzwlc48dr2j/cover/bb18a37dc6353c26/cover.jpg?utm_source=audiya.pub&utm_medium=rss",
-        "link": "https://rss.audiyacreators.one/cmixamep27jzwlc48dr2j",
-        "title": "سطل آشغال"
       }
     ],
     "recent_30d": [
@@ -64750,7 +64750,7 @@
       1,
       2,
       6,
-      8
+      9
     ],
     "status": "active"
   },
