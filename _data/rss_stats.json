@@ -40743,20 +40743,26 @@
     "status": "stopped"
   },
   "klozaap": {
-    "avg_length": 34,
-    "episodes": 83,
+    "avg_length": 35,
+    "episodes": 84,
     "eps_365": 0,
     "eps_90": 0,
     "first_at": "2020-12-05",
     "first_year": 1399,
-    "last": "1400/11/29",
-    "last_at": "2022-02-18T15:13:56Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/--e1eiunk",
-    "last_title": "سکانس یازدهم - قهرمانی در غبار",
+    "last": "1400/12/05",
+    "last_at": "2022-02-24T21:00:53Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/--e1esi2m",
+    "last_title": "سکانس دوازدهم - قصیده فیلم‌سوزی‌ها",
     "max_length": 160,
     "median_length": 18,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://anchor.fm/s/42e9c6a8/podcast/play/48170518/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-24%2F527889e6-2e98-4617-5a74-e4285f5c9c3a.mp3",
+        "at": "2022-02-24T21:00:53Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/11126170/11126170-1645736404006-0aba320cc5a42.jpg",
+        "t": "سکانس دوازدهم - قصیده فیلم‌سوزی‌ها"
+      },
       {
         "a": "https://anchor.fm/s/42e9c6a8/podcast/play/47855796/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-1-18%2F18e72e65-8fe1-827e-8e7d-8678d504b5e5.mp3",
         "at": "2022-02-18T15:13:56Z",
@@ -40798,15 +40804,15 @@
         "at": "2021-05-18T13:32:56Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1621344784429-c3c648528491f.jpg",
         "t": "نقد و بررسی فیلم Tommaso"
-      },
-      {
-        "a": "https://anchor.fm/s/42e9c6a8/podcast/play/33742771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-4-18%2F94f9cf2d-702a-31e0-5645-842b099f2878.mp3",
-        "at": "2021-05-18T13:31:07Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1621344675360-19e36cf9f0d53.jpg",
-        "t": "نقد و بررسی فیلم Persian Lessons"
       }
     ],
     "recent": [
+      {
+        "at": "2022-02-24T21:00:53Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode400/11126170/11126170-1645736404006-0aba320cc5a42.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/--e1esi2m",
+        "title": "سکانس دوازدهم - قصیده فیلم‌سوزی‌ها"
+      },
       {
         "at": "2022-02-18T15:13:56Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1645736379621-ebbf147cfffec.jpg",
@@ -40818,12 +40824,6 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1622503900641-58477e095ec31.jpg",
         "link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/The-Mitchells-vs-the-Machines-e11ulki",
         "title": "نقد و بررسی فیلم The Mitchells vs the Machines"
-      },
-      {
-        "at": "2021-06-01T13:30:00Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/11126170/11126170-1622503876545-c6db90623df2a.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/closeuppodcast/episodes/Ted-Lasso-e11ulin",
-        "title": "نقد و بررسی سریال Ted Lasso"
       }
     ],
     "recent_30d": [
@@ -51105,21 +51105,27 @@
     "status": "active"
   },
   "mjmoah-i-rman-hai-jnaii-o-trsnak": {
-    "avg_gap_days": 2.8,
+    "avg_gap_days": 2.7,
     "avg_length": 28,
-    "episodes": 163,
-    "eps_365": 133,
-    "eps_90": 52,
+    "episodes": 164,
+    "eps_365": 134,
+    "eps_90": 53,
     "first_at": "2025-08-07",
     "first_year": 1404,
     "last": "1405/09/07",
-    "last_at": "2026-11-28T16:04:04Z",
-    "last_link": "https://www.spreaker.com/episode/rman-khwn-br-brf-bkhsh-awl--76663880",
-    "last_title": "رمان خون بر برف-بخش اول",
+    "last_at": "2026-11-28T16:07:27Z",
+    "last_link": "https://www.spreaker.com/episode/rman-khwn-br-brf-bkhsh-dwm--76663912",
+    "last_title": "رمان خون بر برف-بخش دوم",
     "max_length": 59,
     "median_length": 38,
     "min_length": 11,
     "play": [
+      {
+        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76663912/utf_8_q_d8_ae_d9_88_d9_86_db_b2_mp3.mp3",
+        "at": "2026-11-28T16:07:27Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/fc9d1a0dd071e46b955ccd9049263593.jpg",
+        "t": "رمان خون بر برف-بخش دوم"
+      },
       {
         "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76663880/utf_8_q_d8_ae_d9_88_d9_86_db_b1_mp3.mp3",
         "at": "2026-11-28T16:04:04Z",
@@ -51161,15 +51167,15 @@
         "at": "2026-11-12T12:00:20Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
         "t": "رمان جنایی آدم‌برفی-بخش سی و یک"
-      },
-      {
-        "a": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76283333/utf_8_b_2kfyr9mfinio2lhzgduminuz27aubxaz.mp3",
-        "at": "2026-11-10T11:40:07Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
-        "t": "رمان جنایی آدم‌برفی-بخش سی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T16:07:27Z",
+        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/fc9d1a0dd071e46b955ccd9049263593.jpg",
+        "link": "https://www.spreaker.com/episode/rman-khwn-br-brf-bkhsh-dwm--76663912",
+        "title": "رمان خون بر برف-بخش دوم"
+      },
       {
         "at": "2026-11-28T16:04:04Z",
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/fc9d1a0dd071e46b955ccd9049263593.jpg",
@@ -51181,12 +51187,6 @@
         "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
         "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-sy-w-shsh-payan--76447502",
         "title": "رمان جنایی آدم‌برفی-بخش سی و شش-پایان"
-      },
-      {
-        "at": "2026-11-17T11:41:41Z",
-        "i": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/bb7e6d45904a04f2b1084c2a1c8bf2df.jpg",
-        "link": "https://www.spreaker.com/episode/rman-jnayy-adm-brfy-bkhsh-sy-w-pnj--76419808",
-        "title": "رمان جنایی آدم‌برفی-بخش سی و پنج"
       }
     ],
     "recent_30d": [
@@ -51201,7 +51201,7 @@
       16,
       7,
       28,
-      17
+      18
     ],
     "status": "active"
   },
