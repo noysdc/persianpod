@@ -99905,19 +99905,25 @@
   "tmrin-mditishn": {
     "avg_gap_days": 1.4,
     "avg_length": 19,
-    "episodes": 438,
-    "eps_365": 257,
-    "eps_90": 103,
+    "episodes": 439,
+    "eps_365": 258,
+    "eps_90": 104,
     "first_at": "2024-08-22",
     "first_year": 1403,
-    "last": "1405/09/06",
-    "last_at": "2026-11-27T17:30:00Z",
-    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6af045239272884e57e3ee3a",
-    "last_title": "جملات تأکیدی پیش از خواب | خواب عمیق و آرامش",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T06:21:59Z",
+    "last_link": "https://shows.acast.com/tamrinemeditation/episodes/6b0a73075f6c1ebda2f98440",
+    "last_title": "قلبت را به نور بسپار ✨ مدیتیشن| مدیتیشن",
     "max_length": 99,
     "median_length": 12,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6b0a73075f6c1ebda2f98440/media.mp3",
+        "at": "2026-11-28T06:21:59Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795846812964-b7472605-da1c-49ee-af06-52071f47f907.jpeg",
+        "t": "قلبت را به نور بسپار ✨ مدیتیشن| مدیتیشن"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af045239272884e57e3ee3a/media.mp3",
         "at": "2026-11-27T17:30:00Z",
@@ -99959,15 +99965,15 @@
         "at": "2026-11-21T04:30:00Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795097538846-42eef682-37c9-4bda-a803-3f473336b8fc.jpeg",
         "t": "مدیتیشن|مدیتیشن ۵دقیقه‌ای صبح جذب ثروت و آرامش"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/692001c0087c4173ab4d08ba/e/6af048f56767b86e14cad26e/media.mp3",
-        "at": "2026-11-21T01:30:00Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794132103007-ba9bc9e3-fa53-428a-a092-2eee9d73004e.jpeg",
-        "t": "امروز را با آرامش و حال خوب بغل کن ✨ | قوی‌ترین جملات تأکیدی صبحگاهی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T06:21:59Z",
+        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795846812964-b7472605-da1c-49ee-af06-52071f47f907.jpeg",
+        "link": "https://shows.acast.com/tamrinemeditation/episodes/6b0a73075f6c1ebda2f98440",
+        "title": "قلبت را به نور بسپار ✨ مدیتیشن| مدیتیشن"
+      },
       {
         "at": "2026-11-27T17:30:00Z",
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794129930918-e5a90797-9de2-4efd-8317-dadae73287ff.jpeg",
@@ -99979,12 +99985,6 @@
         "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1795763178848-3ab6fac1-0a6a-40d9-8dfa-46b2a6d11018.jpeg",
         "link": "https://shows.acast.com/tamrinemeditation/episodes/6b092c83079ab0810cf2368c",
         "title": "مدیتیشن ۵ دقیقه‌ای استراحت و پاکسازی ذهن 🧘‍♀️مدیتیشن"
-      },
-      {
-        "at": "2026-11-24T14:30:00Z",
-        "i": "https://assets.pippa.io/shows/692001c0087c4173ab4d08ba/1794132318517-60fd58ab-8763-4f85-b737-e7c935c826bd.jpeg",
-        "link": "https://shows.acast.com/tamrinemeditation/episodes/6af04aab9272884e57e5c9a0",
-        "title": "به مسیر زندگی اعتماد کن ✨ | جملات تأکیدی قدرتمند"
       }
     ],
     "recent_30d": [
@@ -99999,7 +99999,7 @@
       37,
       44,
       36,
-      23
+      24
     ],
     "status": "active"
   },
