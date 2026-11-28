@@ -62577,19 +62577,25 @@
   "podcast-bizins-astoriz": {
     "avg_gap_days": 0.8,
     "avg_length": 13,
-    "episodes": 57,
-    "eps_365": 57,
-    "eps_90": 57,
+    "episodes": 58,
+    "eps_365": 58,
+    "eps_90": 58,
     "first_at": "2026-10-10",
     "first_year": 1405,
-    "last": "1405/09/06",
-    "last_at": "2026-11-27T11:30:00Z",
-    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6b0511c0ced26bb723b3a972",
-    "last_title": "Toyota #4 | (1941 - 1952) داستان تویوتا؛ نبرد برای بقا در جنگ و خداحافظی با بنیان‌گذار",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T11:30:00Z",
+    "last_link": "https://shows.acast.com/business-stories-podcast/episodes/6b0514e9a1933fc906a4f683",
+    "last_title": "Toyota #5 | (1952 - 1957) داستان تویوتا؛ از فرهنگ کایزن تا خارج شدن از ژاپن",
     "max_length": 115,
     "median_length": 15,
     "min_length": 3,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b0514e9a1933fc906a4f683/media.mp3",
+        "at": "2026-11-28T11:30:00Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795494963388-4fb8e230-689e-4781-9980-5ff599b4e3e5.jpeg",
+        "t": "Toyota #5 | (1952 - 1957) داستان تویوتا؛ از فرهنگ کایزن تا خارج شدن از ژاپن"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b0511c0ced26bb723b3a972/media.mp3",
         "at": "2026-11-27T11:30:00Z",
@@ -62631,15 +62637,15 @@
         "at": "2026-11-23T04:30:00Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795327022653-689b582a-9c37-42ee-986d-e5c53780fde5.jpeg",
         "t": "Disney #13 | (1966 - 2005) داستان دیزنی؛ میراث والت‌؛ بحران، رنسانس، امپراتوری"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/6aca8247e53019e890212d7b/e/6b0283f8d0e980d0cf9736cb/media.mp3",
-        "at": "2026-11-22T14:30:00Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795326758279-c09bc763-974d-4c57-b9ca-041a90f5ecce.jpeg",
-        "t": "Disney #12 | (1954 - 1966) داستان دیزنی؛ از دنیای قصه‌ها تا دنیای واقعی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T11:30:00Z",
+        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795494963388-4fb8e230-689e-4781-9980-5ff599b4e3e5.jpeg",
+        "link": "https://shows.acast.com/business-stories-podcast/episodes/6b0514e9a1933fc906a4f683",
+        "title": "Toyota #5 | (1952 - 1957) داستان تویوتا؛ از فرهنگ کایزن تا خارج شدن از ژاپن"
+      },
       {
         "at": "2026-11-27T11:30:00Z",
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795494200889-ecc61c4e-3719-48d1-9ef2-8a5562f42124.jpeg",
@@ -62651,12 +62657,6 @@
         "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795493528678-2978d22d-fbd2-4a11-bd0a-61428d3f466f.jpeg",
         "link": "https://shows.acast.com/business-stories-podcast/episodes/6b050f3cced26bb723b268d6",
         "title": "Toyota #3 | (1930 - 1937) داستان تویوتا؛ شرکت تویودا چطوری تبدیل به تویوتا شد؟"
-      },
-      {
-        "at": "2026-11-25T11:30:00Z",
-        "i": "https://assets.pippa.io/shows/6aca8247e53019e890212d7b/1795493066248-e2854cf0-1f16-4e98-848c-ed69fcef716c.jpeg",
-        "link": "https://shows.acast.com/business-stories-podcast/episodes/6b050d88a1933fc906a12b9c",
-        "title": "Toyota #2 | (1890 - 1930) داستان تویوتا؛ از کارگاه بافندگی تا رویای ساخت خودرو"
       }
     ],
     "recent_30d": [
@@ -62671,7 +62671,7 @@
       0,
       0,
       26,
-      31
+      32
     ],
     "status": "active"
   },
