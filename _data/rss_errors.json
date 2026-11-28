@@ -311,14 +311,6 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://taajvar.ir/category/%D8%B5%D8%AF%D8%A7%D9%87%D8%A7%DB%8C-%D9%85%D9%86/feed/"
   },
-  "shst-namh": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
-    "rss": "https://tehranpodcast.ir/category/shastnameh/feed/"
-  },
-  "skhnrani-ha-mizgrdha-o-msahbh-hai-almi": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
-    "rss": "https://www.souzanchi.ir/category/sokhanrani/feed/"
-  },
   "sot-o-film": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://mousanajafi.ir/category/%D8%B5%D9%88%D8%AA-%D9%88-%D9%81%DB%8C%D9%84%D9%85/feed/"
