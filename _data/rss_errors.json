@@ -183,6 +183,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/ilka/feed/"
   },
+  "podcast-dats": {
+    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
+    "rss": "https://rss.audiyacreators.one/cmirr88fetztwmiq39efe"
+  },
   "podcast-farsi-mscht": {
     "error": "ValueError: no items in feed",
     "rss": "https://feeds.acast.com/public/shows/6722758777f0e7cbfba1f7a2"
@@ -286,10 +290,6 @@
   "said-pnahi": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://mp3movies.ir/author/saeed/feed"
-  },
-  "sda": {
-    "error": "RuntimeError: HTTP 503 (Service Unavailable) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://vgmag.ir/type/audio/feed/"
   },
   "sdahai-mn": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
