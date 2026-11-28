@@ -73424,21 +73424,27 @@
     "status": "active"
   },
   "podcast-raokdh": {
-    "avg_gap_days": 28.2,
+    "avg_gap_days": 27.6,
     "avg_length": 66,
-    "episodes": 71,
-    "eps_365": 13,
-    "eps_90": 5,
+    "episodes": 72,
+    "eps_365": 14,
+    "eps_90": 6,
     "first_at": "2021-06-04",
     "first_year": 1400,
-    "last": "1405/08/16",
-    "last_at": "2026-11-07T02:10:00Z",
-    "last_link": "https://ravkadeh.ir/e/episode72",
-    "last_title": "نگارگر عشق (1) | داستان زندگی نظامی گنجوی و منظومه خسرو و شیرین",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T02:10:00Z",
+    "last_link": "https://ravkadeh.ir/e/episode73",
+    "last_title": "نگارگر عشق (2) | داستان زندگی نظامی گنجوی و منظومه خسرو و شیرین",
     "max_length": 96,
-    "median_length": 61,
+    "median_length": 62,
     "min_length": 2,
     "play": [
+      {
+        "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/6b01558598701522407f8a4f/media.mp3",
+        "at": "2026-11-28T02:10:00Z",
+        "i": "https://assets.pippa.io/shows/664fcb84da02bb0012b6660b/1795805551168-e099950c-2c50-413d-884f-3a8d2367e11f.jpeg",
+        "t": "نگارگر عشق (2) | داستان زندگی نظامی گنجوی و منظومه خسرو و شیرین"
+      },
       {
         "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/6aeafaabb9c91cbd2d102b17/media.mp3",
         "at": "2026-11-07T02:10:00Z",
@@ -73480,15 +73486,15 @@
         "at": "2026-08-01T02:10:00Z",
         "i": "https://assets.pippa.io/shows/664fcb84da02bb0012b6660b/1794007340293-e1252594-cca9-4fb0-8d31-00cf0266dee0.jpeg",
         "t": "مسافر جنون | داستان زندگی و فروپاشی فریدریش ویلهلم نیچه"
-      },
-      {
-        "a": "https://sphinx.acast.com/p/open/s/664fcb84da02bb0012b6660b/e/6a48dc5c5ef16cb8045bca31/media.mp3",
-        "at": "2026-07-07T02:10:00Z",
-        "i": "https://assets.pippa.io/shows/664fcb84da02bb0012b6660b/1794045760985-dbd43adf-01a3-42f8-8d33-64edb094ea8b.jpeg",
-        "t": "فرجام فریدون | ماجرای سرنوشت فریدون شاه و پسرانش | سلم، تور، ایرج"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T02:10:00Z",
+        "i": "https://assets.pippa.io/shows/664fcb84da02bb0012b6660b/1795805551168-e099950c-2c50-413d-884f-3a8d2367e11f.jpeg",
+        "link": "https://ravkadeh.ir/e/episode73",
+        "title": "نگارگر عشق (2) | داستان زندگی نظامی گنجوی و منظومه خسرو و شیرین"
+      },
       {
         "at": "2026-11-07T02:10:00Z",
         "i": "https://assets.pippa.io/shows/664fcb84da02bb0012b6660b/1794004105642-55296bbd-f9ff-49db-9060-fad36ebdd4b7.jpeg",
@@ -73500,12 +73506,6 @@
         "i": "https://assets.pippa.io/shows/664fcb84da02bb0012b6660b/1794005307567-bae39d28-59a0-445e-841c-e4ba7195bf66.jpeg",
         "link": "https://ravkadeh.ir/e/episode71",
         "title": "مرد امیرخیز (2) | داستان زندگی ستارخان قراچه داغی"
-      },
-      {
-        "at": "2026-09-27T02:10:00Z",
-        "i": "https://assets.pippa.io/shows/664fcb84da02bb0012b6660b/1794005330114-f0b9d9ed-5328-46a3-8b3b-55e356f7ea18.jpeg",
-        "link": "https://ravkadeh.ir/e/episode70",
-        "title": "مرد امیرخیز (1) | داستان زندگی ستارخان قراچه داغی"
       }
     ],
     "recent_30d": [
@@ -73520,7 +73520,7 @@
       2,
       3,
       1,
-      1
+      2
     ],
     "status": "active"
   },
