@@ -31757,21 +31757,26 @@
     "status": "active"
   },
   "hosh-trsnak": {
-    "avg_gap_days": 27.8,
+    "avg_gap_days": 26.8,
     "avg_length": 48,
-    "episodes": 35,
-    "eps_365": 13,
-    "eps_90": 3,
+    "episodes": 36,
+    "eps_365": 14,
+    "eps_90": 4,
     "first_at": "2024-09-03",
     "first_year": 1403,
-    "last": "1405/08/22",
-    "last_at": "2026-11-13T14:05:08Z",
-    "last_link": "https://share.transistor.fm/s/a5c9d80a",
-    "last_title": "قسمت 33: از شبیه‌سازی مغز تا شبیه‌سازی جهان",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T05:40:34Z",
+    "last_link": "https://share.transistor.fm/s/632f68b7",
+    "last_title": "قسمت 34: از فید شبکه‌های اجتماعی تا ایجنت‌های هوشمند",
     "max_length": 54,
     "median_length": 47,
     "min_length": 38,
     "play": [
+      {
+        "a": "https://2.gum.fm/op3.dev/e/pscrb.fm/rss/p/pdst.fm/e/dts.podtrac.com/redirect.mp3/prfx.byspotify.com/e/media.transistor.fm/632f68b7/b1962c5b.mp3",
+        "at": "2026-11-28T05:40:34Z",
+        "t": "قسمت 34: از فید شبکه‌های اجتماعی تا ایجنت‌های هوشمند"
+      },
       {
         "a": "https://2.gum.fm/op3.dev/e/pscrb.fm/rss/p/pdst.fm/e/dts.podtrac.com/redirect.mp3/prfx.byspotify.com/e/media.transistor.fm/a5c9d80a/ef32b160.mp3",
         "at": "2026-11-13T14:05:08Z",
@@ -31806,14 +31811,14 @@
         "a": "https://2.gum.fm/op3.dev/e/pscrb.fm/rss/p/pdst.fm/e/dts.podtrac.com/redirect.mp3/prfx.byspotify.com/e/media.transistor.fm/24664e33/fed48a3a.mp3",
         "at": "2026-06-21T06:25:34Z",
         "t": "قسمت 27: مشاوران ناپیدا: وقتی هوش مصنوعی تصمیم می گیرد"
-      },
-      {
-        "a": "https://2.gum.fm/op3.dev/e/pscrb.fm/rss/p/pdst.fm/e/dts.podtrac.com/redirect.mp3/prfx.byspotify.com/e/media.transistor.fm/bb7f79c2/1ceb7f2e.mp3",
-        "at": "2026-05-22T06:51:26Z",
-        "t": "قسمت 26: هوش مصنوعی، بحران اعتماد، و مساله ی توهم"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T05:40:34Z",
+        "link": "https://share.transistor.fm/s/632f68b7",
+        "title": "قسمت 34: از فید شبکه‌های اجتماعی تا ایجنت‌های هوشمند"
+      },
       {
         "at": "2026-11-13T14:05:08Z",
         "link": "https://share.transistor.fm/s/a5c9d80a",
@@ -31823,11 +31828,6 @@
         "at": "2026-10-07T01:11:25Z",
         "link": "https://share.transistor.fm/s/84a407f5",
         "title": "قسمت 32: در برابر دنیای آینده، چه مهارتی را باید زنده نگه داشت؟"
-      },
-      {
-        "at": "2026-09-13T08:12:32Z",
-        "link": "https://share.transistor.fm/s/b5d277a5",
-        "title": "قسمت 31: شناخت کربنی در برابر حیات سیلیکونی"
       }
     ],
     "recent_30d": [
@@ -31842,7 +31842,7 @@
       2,
       1,
       1,
-      1
+      2
     ],
     "status": "active"
   },
