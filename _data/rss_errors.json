@@ -23,6 +23,10 @@
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
+  "ahsan-ashrfi": {
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "rss": "http://shamsrumi.com/author/admin3/feed"
+  },
   "aistgah-mosighi": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
@@ -116,7 +120,7 @@
     "rss": "https://media.rss.com/hirbod/feed.xml"
   },
   "hnr-jng": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://namlik.me/rss/318"
   },
   "hs-khob": {
@@ -146,6 +150,10 @@
   "ktab-soti-msyolit-o-sazndgi": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://bonyantakvin.ir/feed/podcast/sazandegi/"
+  },
+  "laghri": {
+    "error": "RuntimeError: TimeoutError: The read operation timed out",
+    "rss": "https://aliazad.ir/feed/"
   },
   "malino": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
