@@ -3562,25 +3562,19 @@
   "afsanh-hai-khn-parsi": {
     "avg_gap_days": 2.7,
     "avg_length": 6,
-    "episodes": 37,
-    "eps_365": 37,
-    "eps_90": 27,
+    "episodes": 36,
+    "eps_365": 36,
+    "eps_90": 26,
     "first_at": "2026-08-21",
     "first_year": 1405,
-    "last": "1405/09/07",
-    "last_at": "2026-11-28T14:47:12Z",
-    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3t5tf6",
-    "last_title": "شاهنامه کودکانه | قسمت چهاردهم | رستم، پیل سپید و رخش",
+    "last": "1405/09/04",
+    "last_at": "2026-11-25T15:14:27Z",
+    "last_link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3t0rk1",
+    "last_title": "کلیله‌ودمنه کودکانه | قسمت پانزدهم | بوم و زاغ (۳)",
     "max_length": 11,
     "median_length": 6,
     "min_length": 2,
     "play": [
-      {
-        "a": "https://anchor.fm/s/1165b1438/podcast/play/130266022/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-28%2Ffe239383-f650-8a9a-275d-c8e47ebf36b2.mp3",
-        "at": "2026-11-28T14:47:12Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795877244633-074fe2f94bb1e8.jpg",
-        "t": "شاهنامه کودکانه | قسمت چهاردهم | رستم، پیل سپید و رخش"
-      },
       {
         "a": "https://anchor.fm/s/1165b1438/podcast/play/130100289/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-25%2F56580714-628c-7e0e-d844-36c0e1210300.mp3",
         "at": "2026-11-25T15:14:27Z",
@@ -3622,15 +3616,15 @@
         "at": "2026-11-04T17:22:49Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793812998529-dd23624b1e7a1.jpg",
         "t": "کلیله و دمنه کودکانه | قسمت دوازدهم | نجات آهوی ترسیده(۴)"
+      },
+      {
+        "a": "https://anchor.fm/s/1165b1438/podcast/play/128574401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-1%2F39ddd9c3-b13c-c655-fe26-70dc3a0daa7b.mp3",
+        "at": "2026-11-01T19:05:07Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1793559915422-eb9a246b41b18.jpg",
+        "t": "شاهنامه کودکانه | قسمت دهم | منوچهر و عدالت"
       }
     ],
     "recent": [
-      {
-        "at": "2026-11-28T14:47:12Z",
-        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795877244633-074fe2f94bb1e8.jpg",
-        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3t5tf6",
-        "title": "شاهنامه کودکانه | قسمت چهاردهم | رستم، پیل سپید و رخش"
-      },
       {
         "at": "2026-11-25T15:14:27Z",
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795619674988-1d255c68811c6.jpg",
@@ -3642,6 +3636,12 @@
         "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1795278033095-9398b599715b8.jpg",
         "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3spj2l",
         "title": "شاهنامه کودکانه | قسمت سیزدهم | تولد رستم"
+      },
+      {
+        "at": "2026-11-16T12:07:21Z",
+        "i": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46600350/46600350-1794830871271-16946b5ebe26d.jpg",
+        "link": "https://podcasters.spotify.com/pod/show/negarin/episodes/ep-e3sfo9m",
+        "title": "کلیله و دمنه کودکانه | قسمت چهاردهم | بوم و زاغ (۲)"
       }
     ],
     "recent_30d": [
@@ -3656,7 +3656,7 @@
       10,
       12,
       5,
-      10
+      9
     ],
     "status": "active"
   },
@@ -74873,21 +74873,27 @@
     "status": "stopped"
   },
   "podcast-shb-tab": {
-    "avg_gap_days": 2.8,
-    "avg_length": 36,
-    "episodes": 25,
-    "eps_365": 25,
-    "eps_90": 25,
+    "avg_gap_days": 3.0,
+    "avg_length": 37,
+    "episodes": 26,
+    "eps_365": 26,
+    "eps_90": 26,
     "first_at": "2026-09-15",
     "first_year": 1405,
-    "last": "1405/09/01",
-    "last_at": "2026-11-22T06:30:00Z",
-    "last_link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/45daf3d3-25d1-4594-9d28-ef6f4339d8ca/play.mp3?v=1",
-    "last_title": "شب تاب: لیسنکو در برابر واویلُف - قسمت چهارم: هزار و هفتصد ساعت",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T15:02:08Z",
+    "last_link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/452190f8-e863-4003-a1cc-c3bf62feadb9/play.mp3?v=1",
+    "last_title": "شب تاب: لیسنکو در برابر واویلُف - قسمت پنجم: دو گرسنگی",
     "max_length": 50,
-    "median_length": 35,
+    "median_length": 36,
     "min_length": 23,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/452190f8-e863-4003-a1cc-c3bf62feadb9/play.mp3?v=1",
+        "at": "2026-11-28T15:02:08Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/452190f8-e863-4003-a1cc-c3bf62feadb9/artwork.jpg?v=1",
+        "t": "شب تاب: لیسنکو در برابر واویلُف - قسمت پنجم: دو گرسنگی"
+      },
       {
         "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/45daf3d3-25d1-4594-9d28-ef6f4339d8ca/play.mp3?v=1",
         "at": "2026-11-22T06:30:00Z",
@@ -74929,15 +74935,15 @@
         "at": "2026-10-22T13:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/04c6c2d9-16ca-461e-9113-6a3941143af3/artwork.jpg?v=1",
         "t": "شب تاب: گروه دانر - قسمت چهارم: برف"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/164d1c27-2e41-4acd-a428-8e9bc960df69/play.mp3?v=1",
-        "at": "2026-10-19T13:30:00Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/164d1c27-2e41-4acd-a428-8e9bc960df69/artwork.jpg?v=1",
-        "t": "شب تاب: گروه دانر - قسمت سوم: اشتباه"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T15:02:08Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/452190f8-e863-4003-a1cc-c3bf62feadb9/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/452190f8-e863-4003-a1cc-c3bf62feadb9/play.mp3?v=1",
+        "title": "شب تاب: لیسنکو در برابر واویلُف - قسمت پنجم: دو گرسنگی"
+      },
       {
         "at": "2026-11-22T06:30:00Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/45daf3d3-25d1-4594-9d28-ef6f4339d8ca/artwork.jpg?v=1",
@@ -74949,12 +74955,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/0c98f963-e756-4280-a7d7-1a428c9fc91e/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/0c98f963-e756-4280-a7d7-1a428c9fc91e/play.mp3?v=3",
         "title": "شب تاب: لیسنکو در برابر واویلُف - قسمت سوم: اقتصادِ ترس"
-      },
-      {
-        "at": "2026-11-09T18:37:47Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/c7cf7480-a914-4aad-aefb-d050e6d57b07/episodes/414cac28-3098-4b35-81e5-d70b83e4851e/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/c7cf7480-a914-4aad-aefb-d050e6d57b07/episode/414cac28-3098-4b35-81e5-d70b83e4851e/play.mp3?v=1",
-        "title": "شب تاب: لیسنکو در برابر واویلُف - قسمت دوم: آزمایش یا نمایش؟"
       }
     ],
     "recent_30d": [
@@ -74969,7 +74969,7 @@
       0,
       12,
       9,
-      4
+      5
     ],
     "status": "active"
   },
@@ -84750,8 +84750,8 @@
       1,
       3,
       3,
-      8,
-      9
+      9,
+      8
     ],
     "status": "active"
   },
@@ -102327,8 +102327,8 @@
       0,
       0,
       0,
-      0,
-      2
+      1,
+      1
     ],
     "status": "active"
   },
