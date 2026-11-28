@@ -51,6 +51,10 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://www.bangeney.ir/category/%D9%85%D8%AF%DB%8C%D8%A7/feed/"
   },
+  "baigani-ha-padkst-mhndsi-snaia": {
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "rss": "https://iien.ir/category/podcast/feed/"
+  },
   "baigani-ha-sda": {
     "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://musiceiranian.ir/type/audio/feed"
@@ -66,6 +70,10 @@
   "borsaoai-ktab": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "http://cpsmbroker.com/feed/podcast/bookbourseava"
+  },
+  "danlod-raigan-ktab-soti-panth-aa": {
+    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "rss": "https://panteashop.ir/feed/"
   },
   "dastan-hai-hzar-o-ik-shb": {
     "error": "ValueError: no items in feed",
@@ -182,10 +190,6 @@
   "podcast-ailka": {
     "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/ilka/feed/"
-  },
-  "podcast-dats": {
-    "error": "RuntimeError: HTTP 504 (Gateway Time-out) با UA «PersianPodBot/1.0 (+…»",
-    "rss": "https://rss.audiyacreators.one/cmirr88fetztwmiq39efe"
   },
   "podcast-farsi-mscht": {
     "error": "ValueError: no items in feed",
