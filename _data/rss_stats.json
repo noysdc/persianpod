@@ -63231,8 +63231,8 @@
       0,
       0,
       0,
-      0,
-      3,
+      1,
+      2,
       2,
       0,
       0,
@@ -77143,8 +77143,8 @@
       }
     ],
     "recent_30d": [
-      4,
-      1,
+      5,
+      0,
       2,
       0,
       0,
@@ -89314,18 +89314,24 @@
     "avg_gap_days": 14.0,
     "avg_length": 25,
     "episodes": 50,
-    "eps_365": 12,
-    "eps_90": 5,
-    "first_at": "2024-03-23",
+    "eps_365": 13,
+    "eps_90": 6,
+    "first_at": "2024-04-06",
     "first_year": 1403,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T10:37:00Z",
-    "last_link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/93.mp3",
-    "last_title": "اپیزود نود و سه _ قتل عمد یا خطای محض",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T10:27:56Z",
+    "last_link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/94.mp3",
+    "last_title": "اپیزود نود و چهار | سایه یک اسلحه روی داروخانه",
     "max_length": 47,
     "median_length": 27,
     "min_length": 12,
     "play": [
+      {
+        "a": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/94.mp3",
+        "at": "2026-11-28T10:27:56Z",
+        "i": "https://assets.blubrry.com/coverart/episode/1467187/orig/156158678-1795861675.jpg",
+        "t": "اپیزود نود و چهار | سایه یک اسلحه روی داروخانه"
+      },
       {
         "a": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/93.mp3",
         "at": "2026-11-14T10:37:00Z",
@@ -89367,15 +89373,15 @@
         "at": "2026-08-21T15:20:00Z",
         "i": "https://assets.blubrry.com/coverart/episode/1467187/orig/155082313-1787384863.jpg",
         "t": "اپیزود هشتاد و هشت ـ  صدای آخر در خیابان خلوت"
-      },
-      {
-        "a": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/87_1.mp3",
-        "at": "2026-08-07T05:30:00Z",
-        "i": "https://assets.blubrry.com/coverart/episode/1467187/orig/154970069-1786182966.jpg",
-        "t": "اپیزود هشتاد و هفت ـ بدهی ابدی"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T10:27:56Z",
+        "i": "https://assets.blubrry.com/coverart/episode/1467187/orig/156158678-1795861675.jpg",
+        "link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/94.mp3",
+        "title": "اپیزود نود و چهار | سایه یک اسلحه روی داروخانه"
+      },
       {
         "at": "2026-11-14T10:37:00Z",
         "i": "https://assets.blubrry.com/coverart/episode/1467187/orig/156029856-1794728545.jpg",
@@ -89387,12 +89393,6 @@
         "i": "https://assets.blubrry.com/coverart/episode/1467187/orig/155936108-1793465276.jpg",
         "link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/92.mp3",
         "title": "اپیزود نود و دو ـ دفاع مشروط یا قتل؟"
-      },
-      {
-        "at": "2026-10-16T14:50:00Z",
-        "i": "https://assets.blubrry.com/coverart/episode/1467187/orig/155715938-1791968176.jpg",
-        "link": "https://media.blubrry.com/dadpouyan/content.blubrry.com/dadpouyan/91.mp3",
-        "title": "اپیوزد نود و یک- جنون آنی یا بلوغ؟"
       }
     ],
     "recent_30d": [
@@ -89407,7 +89407,7 @@
       3,
       1,
       2,
-      2
+      3
     ],
     "status": "active"
   },
