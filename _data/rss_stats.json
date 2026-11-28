@@ -12358,8 +12358,8 @@
       0,
       0,
       0,
-      0,
-      2,
+      1,
+      1,
       5,
       4,
       4,
@@ -22869,10 +22869,10 @@
     "status": "active"
   },
   "farks-ba-aranth": {
-    "avg_gap_days": 21.6,
+    "avg_gap_days": 23.2,
     "avg_length": 26,
     "episodes": 102,
-    "eps_365": 11,
+    "eps_365": 10,
     "eps_90": 0,
     "first_at": "2024-03-19",
     "first_year": 1402,
@@ -25095,8 +25095,8 @@
       0,
       0,
       0,
-      15,
-      10,
+      16,
+      9,
       7
     ],
     "status": "active"
