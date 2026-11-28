@@ -16,7 +16,7 @@
     "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
   },
   "aamozsh-hai-soti-ajrai-ahkam-kifri-asatid-hghogh-ghzat-okla": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://www.ghazavatonline.com/category/audio/civil-judgments-enforcement-audio/feed/"
   },
   "aamozsh-mkalmh-anglisi": {
@@ -120,7 +120,7 @@
     "rss": "https://media.rss.com/hirbod/feed.xml"
   },
   "hnr-jng": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "http://namlik.me/rss/318"
   },
   "hs-khob": {
@@ -280,7 +280,7 @@
     "rss": "https://anchor.fm/s/37c7e32c/podcast/rss"
   },
   "roanshnasi-piman": {
-    "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://paymanpsychology.com/feed/"
   },
   "roanshnasi-tghzih": {
