@@ -167,10 +167,6 @@
     "error": "ValueError: no items in feed",
     "rss": "https://www.maqzrap.com/albums/feed/"
   },
-  "moj-airan-bastan": {
-    "error": "RuntimeError: TimeoutError: The read operation timed out",
-    "rss": "https://accvs.com/category/%D9%85%D9%88%D8%AC-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A8%D8%A7%D8%B3%D8%AA%D8%A7%D9%86-%DA%98%D8%A7%D9%84%D9%87-%D8%BA%D9%84%D8%A7%D9%85%D8%B9%D9%84%DB%8C/feed/"
-  },
   "mosighi-film": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://www.filmovies.ir/category/%D9%85%D9%88%D8%B3%DB%8C%D9%82%DB%8C-%D9%81%DB%8C%D9%84%D9%85/feed/"
