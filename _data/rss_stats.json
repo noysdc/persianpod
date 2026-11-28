@@ -67635,21 +67635,27 @@
     "status": "active"
   },
   "podcast-ghsh-go-ghesegoo": {
-    "avg_gap_days": 15.9,
-    "avg_length": 42,
-    "episodes": 57,
-    "eps_365": 23,
-    "eps_90": 6,
+    "avg_gap_days": 15.8,
+    "avg_length": 41,
+    "episodes": 58,
+    "eps_365": 24,
+    "eps_90": 7,
     "first_at": "2024-11-10",
     "first_year": 1403,
-    "last": "1405/08/23",
-    "last_at": "2026-11-14T12:50:17Z",
-    "last_link": "https://www.youtube.com/watch?v=9cUcpiubcWA",
-    "last_title": "یزدگرد و بهرام",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T02:30:48Z",
+    "last_link": "https://www.youtube.com/watch?v=g3lQYPViV1Y",
+    "last_title": "دختر رستم",
     "max_length": 84,
     "median_length": 30,
     "min_length": 6,
     "play": [
+      {
+        "a": "https://audio3.redcircle.com/episodes/64bdd437-5896-459c-a706-4ecfe93c8180/stream.mp3",
+        "at": "2026-11-28T02:30:48Z",
+        "i": "https://media.redcircle.com/images/2026/11/26/9/6bfc57a2-a329-4c57-9629-cdd12b798dc1_58.jpg",
+        "t": "دختر رستم"
+      },
       {
         "a": "https://audio3.redcircle.com/episodes/95518f5d-d05b-42e4-9aca-d2712353c172/stream.mp3",
         "at": "2026-11-14T12:50:17Z",
@@ -67691,15 +67697,15 @@
         "at": "2026-08-29T01:30:20Z",
         "i": "https://media.redcircle.com/images/2026/8/27/10/74824e24-4c09-48bd-a84b-b5ab32c554cf_51.jpg",
         "t": "دختر نارنج و ترنج"
-      },
-      {
-        "a": "https://audio3.redcircle.com/episodes/0e81fbde-9d24-4e09-af32-b657fd559e12/stream.mp3",
-        "at": "2026-08-15T01:30:43Z",
-        "i": "https://media.redcircle.com/images/2026/8/14/10/a1bec87c-aafa-4050-a362-bdf0b846b2a9_50.jpg",
-        "t": "خدای مردگان"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T02:30:48Z",
+        "i": "https://media.redcircle.com/images/2026/11/26/9/6bfc57a2-a329-4c57-9629-cdd12b798dc1_58.jpg",
+        "link": "https://www.youtube.com/watch?v=g3lQYPViV1Y",
+        "title": "دختر رستم"
+      },
       {
         "at": "2026-11-14T12:50:17Z",
         "i": "https://media.redcircle.com/images/2026/11/14/12/a43bba2c-a5a5-410c-8aa8-f5323f0b3dcf_57.jpg",
@@ -67711,12 +67717,6 @@
         "i": "https://media.redcircle.com/images/2026/11/6/20/96d4719a-8ed8-47d4-847f-e4dc146573fa_56.jpg",
         "link": "https://www.youtube.com/watch?v=3XnKRRqvpiI&t=1s",
         "title": "بهرام گور و هفت پیکر"
-      },
-      {
-        "at": "2026-10-24T02:30:44Z",
-        "i": "https://media.redcircle.com/images/2026/10/23/18/53053278-d845-4dbc-a6a8-82ae11a7f4da_55.jpg",
-        "link": "https://youtu.be/NL9eeB1kkGs",
-        "title": "جیسون و مده‌آ"
       }
     ],
     "recent_30d": [
@@ -67731,7 +67731,7 @@
       3,
       2,
       2,
-      2
+      3
     ],
     "status": "active"
   },
