@@ -292,7 +292,7 @@
     "rss": "https://taajvar.ir/category/%D8%B5%D8%AF%D8%A7%D9%87%D8%A7%DB%8C-%D9%85%D9%86/feed/"
   },
   "shar-o-ghsh-khoani": {
-    "error": "ParseError: syntax error: line 1, column 0",
+    "error": "RuntimeError: URLError: <urlopen error [Errno 101] Network is unreachable>",
     "rss": "https://www.radiofarhang.nu/archive/category/news-reports/art/poetry-story/feed"
   },
   "sot-o-film": {
