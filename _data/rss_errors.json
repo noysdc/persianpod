@@ -8,23 +8,19 @@
     "rss": "https://feeds.libsyn.com/419687/rss"
   },
   "aamozsh-aalmani-ba-doich-kst": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/deutschcast/feed/"
   },
   "aamozsh-blak-chin-o-kripto-ha": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/blockchain/feed/"
-  },
-  "aamozsh-ghrayt": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "http://majma-alnoor.ir/category/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D9%82%D8%B1%D8%A2%D8%A6%D8%AA/feed/"
   },
   "aamozsh-hai-soti-ajrai-ahkam-kifri-asatid-hghogh-ghzat-okla": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
     "rss": "https://www.ghazavatonline.com/category/audio/civil-judgments-enforcement-audio/feed/"
   },
   "aamozsh-zban-anglisi-talk-stop": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/talkstop/feed/"
   },
   "ahsan-ashrfi": {
@@ -32,12 +28,8 @@
     "rss": "http://shamsrumi.com/author/admin3/feed"
   },
   "aistgah-mosighi": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/musicstation/feed/"
-  },
-  "akhbar-ghshm-baigani": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
-    "rss": "https://www.hormozban.ir/name/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1-%D9%82%D8%B4%D9%85/feed"
   },
   "akhbar-o-mghalat": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
@@ -48,16 +40,12 @@
     "rss": "https://mojtahedshabestari.ir/category/d2/maroof/feed/"
   },
   "archgap-padkst-mamari-aark-gp": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "RuntimeError: HTTP 500 (Internal Server Error) با UA «PersianPodBot/1.0 (+…»",
     "rss": "http://rss.castbox.fm/everest/32bdd1efddbd44508c1889984d07120b.xml"
   },
   "ashgh-ziba": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://loveziba.com/feed/"
-  },
-  "aslam-mirzaii": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://www.zahra-media.ir/category/%d9%85%d8%af%d8%a7%d8%ad%db%8c/%d8%a7%d8%b3%d9%84%d8%a7%d9%85-%d9%85%db%8c%d8%b1%d8%b2%d8%a7%db%8c%db%8c/feed/"
   },
   "baehsan": {
     "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
@@ -88,7 +76,7 @@
     "rss": "http://rss.castbox.fm/everest/6c3b465081de431da8d690db2ceebc7b.xml"
   },
   "dastan-hai-tarikhi": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://qajartime.com/feed/podcast/historical-stories/"
   },
   "didar-ba-hafz": {
@@ -175,10 +163,6 @@
     "error": "ParseError: syntax error: line 1, column 0",
     "rss": "https://rss.dw.com/xml/DKpodcast_marktplatz_per"
   },
-  "mhsolat-danlodi": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
-    "rss": "https://sinasharifzadeh.com/category/%D9%85%D8%AD%D8%B5%D9%88%D9%84%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF%DB%8C/feed/"
-  },
   "mjmoah-ha": {
     "error": "ValueError: no items in feed",
     "rss": "https://www.maqzrap.com/albums/feed/"
@@ -200,7 +184,7 @@
     "rss": "https://shenoto.net/service/api/feed/rezaeirad-rg"
   },
   "podcast-ailka": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/ilka/feed/"
   },
   "podcast-farsi-mscht": {
@@ -220,7 +204,7 @@
     "rss": "https://feed.dotcast.org/p/1orxtms6/feed.xml"
   },
   "podcast-mshorp": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/mashverpp/feed/"
   },
   "podcast-obmstr-plas": {
@@ -228,15 +212,15 @@
     "rss": "https://webmasterplus.ir/feed/"
   },
   "podcast-satori": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/satori/feed/"
   },
   "podcast-zist-ngah": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/zistnegah/feed/"
   },
   "pzhoak-mahor": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/pejvakemahoor/feed/"
   },
   "radio-drkht": {
@@ -244,7 +228,7 @@
     "rss": "https://derakht.radio/feed/podcast.xml"
   },
   "radio-ghjrtaim": {
-    "error": "RuntimeError: URLError: <urlopen error timed out>",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://qajartime.com/feed/podcast/radioqajartime/"
   },
   "radio-hzar-o-ik-shb": {
@@ -260,23 +244,23 @@
     "rss": "https://anchor.fm/s/2e6e9794/podcast/rss"
   },
   "radio-nmana": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/nmana/feed/"
   },
   "radio-oaj": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/radiovaj/feed/"
   },
   "radio-tion": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/tune/feed/"
   },
   "radio-tjrbh": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/tajrobeh/feed/"
   },
   "radioni": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 404 (Not Found) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/ney/feed/"
   },
   "roait-ahd": {
@@ -311,14 +295,6 @@
     "error": "RuntimeError: URLError: <urlopen error [Errno -2] Name or service not known>",
     "rss": "https://taajvar.ir/category/%D8%B5%D8%AF%D8%A7%D9%87%D8%A7%DB%8C-%D9%85%D9%86/feed/"
   },
-  "shst-namh": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
-    "rss": "https://tehranpodcast.ir/category/shastnameh/feed/"
-  },
-  "skhnrani-ha-mizgrdha-o-msahbh-hai-almi": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
-    "rss": "https://www.souzanchi.ir/category/sokhanrani/feed/"
-  },
   "sot-o-film": {
     "error": "RuntimeError: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
     "rss": "https://mousanajafi.ir/category/%D8%B5%D9%88%D8%AA-%D9%88-%D9%81%DB%8C%D9%84%D9%85/feed/"
@@ -340,7 +316,7 @@
     "rss": "https://ronakottawa.com/feed/podcast/zaban-o-adabiyat/"
   },
   "zhn-hai-nahshiar": {
-    "error": "ValueError: به‌جای فید، صفحه‌ی HTML برگشت (احتمالاً مسدود یا چالش ضدربات)",
+    "error": "RuntimeError: HTTP 403 (Forbidden) با UA «PersianPodBot/1.0 (+…»",
     "rss": "https://tehranpodcast.ir/category/mindsoftheunconscious/feed/"
   },
   "zmin-o-zman": {
