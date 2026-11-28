@@ -27320,8 +27320,8 @@
       28,
       26,
       33,
-      30,
-      20,
+      31,
+      19,
       11,
       7,
       4,
@@ -67033,20 +67033,26 @@
   },
   "podcast-fotbal-lb": {
     "avg_gap_days": 7.3,
-    "avg_length": 149,
-    "episodes": 647,
-    "eps_365": 50,
-    "eps_90": 11,
+    "avg_length": 152,
+    "episodes": 648,
+    "eps_365": 51,
+    "eps_90": 12,
     "first_at": "2019-06-20",
     "first_year": 1398,
-    "last": "1405/08/29",
-    "last_at": "2026-11-20T22:31:32Z",
-    "last_link": "https://play.rabt.host/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/0a93272a-83fa-491d-97a0-de78da1637a6/play.mp3?v=1",
-    "last_title": "9-11  ویروس فیفا دی",
+    "last": "1405/09/07",
+    "last_at": "2026-11-28T02:14:52Z",
+    "last_link": "https://play.rabt.host/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/d7a39cab-6aa7-49ea-9bf3-d71ea709c7aa/play.mp3?v=1",
+    "last_title": "9-12 حراج بلک فرایدی",
     "max_length": 932,
-    "median_length": 88,
+    "median_length": 89,
     "min_length": 1,
     "play": [
+      {
+        "a": "https://play.rabt.host/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/d7a39cab-6aa7-49ea-9bf3-d71ea709c7aa/play.mp3?v=1",
+        "at": "2026-11-28T02:14:52Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/d7a39cab-6aa7-49ea-9bf3-d71ea709c7aa/artwork.jpg?v=1",
+        "t": "9-12 حراج بلک فرایدی"
+      },
       {
         "a": "https://play.rabt.host/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/0a93272a-83fa-491d-97a0-de78da1637a6/play.mp3?v=1",
         "at": "2026-11-20T22:31:32Z",
@@ -67088,15 +67094,15 @@
         "at": "2026-10-13T10:16:55Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/2a973eab-42f3-4a4c-866b-1c0fbd903277/artwork.jpg?v=1",
         "t": "9-5 حرامزاده های نامقدس"
-      },
-      {
-        "a": "https://play.rabt.host/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/536adef2-8b68-43a3-9bf9-eb09630045fa/play.mp3?v=2",
-        "at": "2026-09-23T09:04:03Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/536adef2-8b68-43a3-9bf9-eb09630045fa/artwork.jpg?v=1",
-        "t": "9-4 لوزرهای برتر اروپا"
       }
     ],
     "recent": [
+      {
+        "at": "2026-11-28T02:14:52Z",
+        "i": "https://storage.rabt.host/rabt-storage/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/d7a39cab-6aa7-49ea-9bf3-d71ea709c7aa/artwork.jpg?v=1",
+        "link": "https://play.rabt.host/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/d7a39cab-6aa7-49ea-9bf3-d71ea709c7aa/play.mp3?v=1",
+        "title": "9-12 حراج بلک فرایدی"
+      },
       {
         "at": "2026-11-20T22:31:32Z",
         "i": "https://storage.rabt.host/rabt-storage/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/0a93272a-83fa-491d-97a0-de78da1637a6/artwork.jpg?v=1",
@@ -67108,12 +67114,6 @@
         "i": "https://storage.rabt.host/rabt-storage/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/6543d391-860b-4704-8db8-8fd315be9927/artwork.jpg?v=1",
         "link": "https://play.rabt.host/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/6543d391-860b-4704-8db8-8fd315be9927/play.mp3?v=1",
         "title": "9-10 سر انجام پوچ (تینو)"
-      },
-      {
-        "at": "2026-11-13T12:07:27Z",
-        "i": "https://storage.rabt.host/rabt-storage/podcasts/8071ef26-26c8-490a-9f23-c6555f43f246/episodes/694ef93c-bbde-4e18-893f-0ee1e2e5c8ff/artwork.jpg?v=1",
-        "link": "https://play.rabt.host/podcast/8071ef26-26c8-490a-9f23-c6555f43f246/episode/694ef93c-bbde-4e18-893f-0ee1e2e5c8ff/play.mp3?v=1",
-        "title": "9-9 کامبک در کامبک"
       }
     ],
     "recent_30d": [
@@ -67128,7 +67128,7 @@
       2,
       4,
       3,
-      4
+      5
     ],
     "status": "active"
   },
